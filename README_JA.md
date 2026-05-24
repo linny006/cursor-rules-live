@@ -2,35 +2,31 @@
 
 > GitHub 上の cursor-rules ファイルをリアルタイムでインデックス化、15 分ごとに更新
 
-[English](./README.md) · [English](./README.md) · [中文](./README_CN.md) · **日本語** · [한국어](./README_KO.md) · [Español](./README_ES.md) · [Português](./README_PT.md)
+[English](./README.md) · [中文](./README_CN.md) · **日本語** · [한국어](./README_KO.md) · [Español](./README_ES.md) · [Português](./README_PT.md)
 
 [![Stars](https://img.shields.io/github/stars/linny006/cursor-rules-live?style=for-the-badge&logo=github)](https://github.com/linny006/cursor-rules-live/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/linny006/cursor-rules-live?style=for-the-badge)](https://github.com/linny006/cursor-rules-live/commits)
 
 ---
 
-## About
+公開 GitHub リポジトリ内の `.cursorrules` および `cursorrules.json` ファイルを 15 分ごとに自動で検出・インデックス化します。実際のチームが今使っているルールを、言語・Star 数・最終更新日時などのメタデータとともに表示。検索可能な JSON フィードと静的サイトを生成して、最新の AI コーディングルールをブラウズできます。
 
-公開 GitHub リポジトリ内の `.cursorrules` および `cursorrules.json` ファイルを 15 分ごとに自動で検出・インデックス化します。実際のチームが今使っているルールを、言語・Star 数・最終更新日時などのメタデータとともに表示します。最新の AI コーディングルールを手軽に探せる、検索可能な JSON フィードと静的サイトを提供します。
-
-このリストは GitHub Actions の cron によって**15 分ごとに自動更新**されます。各コミットは上流データソースの実際の変化を反映しており、新規追加・期限切れ削除が随時行われるため、表示内容は常に最新です。
+このリストは GitHub Actions の cron によって**15 分ごとに自動更新**されます。各コミットは上流データソースの実際の変化（新規追加・期限切れ削除）を反映しているので、表示内容が常に最新であることを信頼できます。
 
 ---
 
-## How it works
-
 15 分ごとに GitHub Action が `tracker.py` を実行します。このスクリプトは以下を行います：
 
-1. `GitHub Search API` から最新の状態を取得する。
-2. `data/items.json`（前回のスナップショット）と差分を比較する。
-3. `<!-- TRACKER_TABLE_* -->` マーカー間のテーブルを書き換える。
-4. 変更があれば `feat: +N added, -M removed (timestamp)` としてコミットする。
+1. `GitHub Search API` から最新の状態を取得。
+2. `data/items.json`（前回のスナップショット）と差分を比較。
+3. `<!-- TRACKER_TABLE_* -->` マーカー間のテーブルを書き換え。
+4. 変更があれば `feat: +N added, -M removed (timestamp)` をコミット。
 
 外部サービス不要。有料 API 不要。公開データソースと無料の GitHub Action だけで動きます。
 
 ---
 
-## 📋 ライブデータは英語版 README をご覧ください
+## 📋 Live data
 
 ライブデータは英語版 README をご覧ください
 

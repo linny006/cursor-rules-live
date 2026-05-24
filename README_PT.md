@@ -2,14 +2,12 @@
 
 > Índice ao vivo de arquivos cursor-rules do GitHub, atualizado a cada 15 minutos
 
-[English](./README.md) · [English](./README.md) · [中文](./README_CN.md) · [日本語](./README_JA.md) · [한국어](./README_KO.md) · [Español](./README_ES.md) · **Português**
+[English](./README.md) · [中文](./README_CN.md) · [日本語](./README_JA.md) · [한국어](./README_KO.md) · [Español](./README_ES.md) · **Português**
 
 [![Stars](https://img.shields.io/github/stars/linny006/cursor-rules-live?style=for-the-badge&logo=github)](https://github.com/linny006/cursor-rules-live/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/linny006/cursor-rules-live?style=for-the-badge)](https://github.com/linny006/cursor-rules-live/commits)
 
 ---
-
-## About
 
 Descobre e indexa automaticamente arquivos `.cursorrules` e `cursorrules.json` em repositórios públicos do GitHub a cada 15 minutos. Mostra o que times reais estão usando hoje, com metadados como linguagem, stars e timestamps de última atualização. Gera um feed JSON pesquisável e um site estático para explorar as regras de codificação com IA mais recentes.
 
@@ -17,20 +15,18 @@ Esta lista é **atualizada automaticamente a cada 15 minutos** por um cron do Gi
 
 ---
 
-## How it works
-
 A cada 15 minutos, uma GitHub Action executa o `tracker.py`. Esse script:
 
 1. Busca o estado mais recente da `GitHub Search API`.
 2. Faz diff contra `data/items.json` (o snapshot anterior).
-3. Reescreve a tabela acima entre os marcadores `<!-- TRACKER_TABLE_* -->`.
+3. Reescreve a tabela entre os marcadores `<!-- TRACKER_TABLE_* -->`.
 4. Faz commit de `feat: +N added, -M removed (timestamp)` se algo mudou.
 
 Sem serviços externos. Sem APIs pagas. Só uma fonte de dados pública e uma GitHub Action gratuita.
 
 ---
 
-## 📋 Os dados ao vivo estão no README em inglês
+## 📋 Live data
 
 Os dados ao vivo estão no README em inglês
 

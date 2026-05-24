@@ -2,35 +2,31 @@
 
 > Índice en vivo de archivos cursor-rules en GitHub, actualizado cada 15 minutos
 
-[English](./README.md) · [English](./README.md) · [中文](./README_CN.md) · [日本語](./README_JA.md) · [한국어](./README_KO.md) · **Español** · [Português](./README_PT.md)
+[English](./README.md) · [中文](./README_CN.md) · [日本語](./README_JA.md) · [한국어](./README_KO.md) · **Español** · [Português](./README_PT.md)
 
 [![Stars](https://img.shields.io/github/stars/linny006/cursor-rules-live?style=for-the-badge&logo=github)](https://github.com/linny006/cursor-rules-live/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/linny006/cursor-rules-live?style=for-the-badge)](https://github.com/linny006/cursor-rules-live/commits)
 
 ---
 
-## About
-
 Descubre e indexa automáticamente archivos `.cursorrules` y `cursorrules.json` en repositorios públicos de GitHub cada 15 minutos. Muestra lo que equipos reales están usando hoy, con metadatos como lenguaje, estrellas y timestamps de última actualización. Genera un feed JSON con búsqueda y un sitio estático para explorar las reglas de codificación con IA más recientes.
 
-Esta lista se **actualiza automáticamente cada 15 minutos** mediante un cron de GitHub Actions. Cada commit refleja un cambio real en la fuente de datos upstream — nuevos elementos añadidos, elementos expirados eliminados — así que puedes confiar en que lo que ves está al día.
+Esta lista se **actualiza automáticamente cada 15 minutos** mediante un cron de GitHub Actions. Cada commit refleja un cambio real en la fuente de datos upstream —nuevos elementos añadidos, elementos expirados eliminados— así que puedes confiar en que lo que ves está al día.
 
 ---
-
-## How it works
 
 Cada 15 minutos, una GitHub Action ejecuta `tracker.py`. Ese script:
 
 1. Obtiene el estado más reciente desde la `GitHub Search API`.
 2. Hace un diff contra `data/items.json` (el snapshot anterior).
-3. Reescribe la tabla de arriba entre los marcadores `<!-- TRACKER_TABLE_* -->`.
+3. Reescribe la tabla entre los marcadores `<!-- TRACKER_TABLE_* -->`.
 4. Hace commit de `feat: +N added, -M removed (timestamp)` si hubo cambios.
 
 Sin servicios externos. Sin APIs de pago. Solo una fuente de datos pública y una GitHub Action gratuita.
 
 ---
 
-## 📋 Los datos en vivo están en el README en inglés
+## 📋 Live data
 
 Los datos en vivo están en el README en inglés
 

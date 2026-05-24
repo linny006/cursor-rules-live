@@ -2,22 +2,18 @@
 
 > GitHub 上 cursor-rules 文件的实时索引，每 15 分钟更新一次
 
-[English](./README.md) · [English](./README.md) · **中文** · [日本語](./README_JA.md) · [한국어](./README_KO.md) · [Español](./README_ES.md) · [Português](./README_PT.md)
+[English](./README.md) · **中文** · [日本語](./README_JA.md) · [한국어](./README_KO.md) · [Español](./README_ES.md) · [Português](./README_PT.md)
 
 [![Stars](https://img.shields.io/github/stars/linny006/cursor-rules-live?style=for-the-badge&logo=github)](https://github.com/linny006/cursor-rules-live/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/linny006/cursor-rules-live?style=for-the-badge)](https://github.com/linny006/cursor-rules-live/commits)
 
 ---
 
-## About
-
 每 15 分钟自动发现并索引公开 GitHub 仓库中的 `.cursorrules` 和 `cursorrules.json` 文件。展示真实团队当下正在使用的规则，附带语言、Star 数、最后更新时间等元数据。输出可搜索的 JSON 数据流和静态站点，方便你浏览最新的 AI 编码规则。
 
 本列表由 GitHub Actions 定时任务**每 15 分钟自动更新**。每次提交都反映上游数据源的真实变化——新增条目、移除过期条目——你看到的内容始终是最新的。
 
 ---
-
-## How it works
 
 每 15 分钟，GitHub Action 会运行 `tracker.py`，该脚本会：
 
@@ -30,7 +26,7 @@
 
 ---
 
-## 📋 实时数据请查看英文版 README
+## 📋 Live data
 
 实时数据请查看英文版 README
 
