@@ -1,12 +1,39 @@
 [
   {
-    "description": "Designed for the future of AI development (2027-2030) and leverages the novel `.ah` (Teleological Semantic Format) for u",
-    "id": "davccavalcante/supreme-coding-guidelines-skill.ah",
-    "language": "Python",
-    "name": "davccavalcante/supreme-coding-guidelines-skill.ah",
-    "stars": 1,
-    "updated_at": "2026-05-24T20:24:02Z",
-    "url": "https://github.com/davccavalcante/supreme-coding-guidelines-skill.ah"
+    "description": "\ud83d\ude80 Streamline your Next.js development with practical rules and tested patterns for efficient coding and minimal bugs.",
+    "id": "pemdes174/cursor-rules",
+    "language": "\u2014",
+    "name": "pemdes174/cursor-rules",
+    "stars": 5,
+    "updated_at": "2026-05-24T20:43:49Z",
+    "url": "https://github.com/pemdes174/cursor-rules"
+  },
+  {
+    "description": "\ud83d\udca1 Discover AI coding tools that enhance your workflow, from code editors to completion engines, and boost your software ",
+    "id": "JohannFreddyLoayzaHuana/awesome-ai-coding-tools",
+    "language": "\u2014",
+    "name": "JohannFreddyLoayzaHuana/awesome-ai-coding-tools",
+    "stars": 2,
+    "updated_at": "2026-05-24T20:42:59Z",
+    "url": "https://github.com/JohannFreddyLoayzaHuana/awesome-ai-coding-tools"
+  },
+  {
+    "description": "\u2728 Enhance your software development with a curated collection of prompts for Cursor AI, boosting efficiency in planning ",
+    "id": "whydixit/cursor-starter",
+    "language": "\u2014",
+    "name": "whydixit/cursor-starter",
+    "stars": 4,
+    "updated_at": "2026-05-24T20:42:51Z",
+    "url": "https://github.com/whydixit/cursor-starter"
+  },
+  {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 13,
+    "updated_at": "2026-05-24T20:31:33Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +41,17 @@
     "language": "Python",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-05-24T20:15:16Z",
+    "updated_at": "2026-05-24T20:30:16Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Designed for the future of AI development (2027-2030) and leverages the novel `.ah` (Teleological Semantic Format) for u",
+    "id": "davccavalcante/supreme-coding-guidelines-skill.ah",
+    "language": "Python",
+    "name": "davccavalcante/supreme-coding-guidelines-skill.ah",
+    "stars": 1,
+    "updated_at": "2026-05-24T20:24:02Z",
+    "url": "https://github.com/davccavalcante/supreme-coding-guidelines-skill.ah"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -153,15 +189,6 @@
     "url": "https://github.com/johnwall123459885/skene-cookbook"
   },
   {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 13,
-    "updated_at": "2026-05-24T18:00:45Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
     "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
     "id": "Luxvil/ai-coding-rules",
     "language": "Shell",
@@ -187,33 +214,6 @@
     "stars": 0,
     "updated_at": "2026-05-24T16:39:55Z",
     "url": "https://github.com/Thabang9218/cursorifier"
-  },
-  {
-    "description": "\ud83d\ude80 Streamline your Next.js development with practical rules and tested patterns for efficient coding and minimal bugs.",
-    "id": "pemdes174/cursor-rules",
-    "language": "\u2014",
-    "name": "pemdes174/cursor-rules",
-    "stars": 5,
-    "updated_at": "2026-05-24T16:31:55Z",
-    "url": "https://github.com/pemdes174/cursor-rules"
-  },
-  {
-    "description": "\ud83d\udca1 Discover AI coding tools that enhance your workflow, from code editors to completion engines, and boost your software ",
-    "id": "JohannFreddyLoayzaHuana/awesome-ai-coding-tools",
-    "language": "\u2014",
-    "name": "JohannFreddyLoayzaHuana/awesome-ai-coding-tools",
-    "stars": 2,
-    "updated_at": "2026-05-24T16:30:46Z",
-    "url": "https://github.com/JohannFreddyLoayzaHuana/awesome-ai-coding-tools"
-  },
-  {
-    "description": "\u2728 Enhance your software development with a curated collection of prompts for Cursor AI, boosting efficiency in planning ",
-    "id": "whydixit/cursor-starter",
-    "language": "\u2014",
-    "name": "whydixit/cursor-starter",
-    "stars": 4,
-    "updated_at": "2026-05-24T16:30:40Z",
-    "url": "https://github.com/whydixit/cursor-starter"
   },
   {
     "description": "Rigorous LLM research in two layers: a multi-agent dialectic synthesis prompt + an agent-loadable research skill. Hierar",
