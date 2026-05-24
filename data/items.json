@@ -1,11 +1,29 @@
 [
   {
+    "description": "Rigorous LLM research in two layers: a multi-agent dialectic synthesis prompt + an agent-loadable research skill. Hierar",
+    "id": "weijia-89/palamedes",
+    "language": "JavaScript",
+    "name": "weijia-89/palamedes",
+    "stars": 0,
+    "updated_at": "2026-05-24T16:14:58Z",
+    "url": "https://github.com/weijia-89/palamedes"
+  },
+  {
+    "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
+    "id": "caioribeiroclw-pixel/pluribus",
+    "language": "JavaScript",
+    "name": "caioribeiroclw-pixel/pluribus",
+    "stars": 1,
+    "updated_at": "2026-05-24T16:05:12Z",
+    "url": "https://github.com/caioribeiroclw-pixel/pluribus"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "Python",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-05-24T15:45:16Z",
+    "updated_at": "2026-05-24T16:00:16Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -16,15 +34,6 @@
     "stars": 0,
     "updated_at": "2026-05-24T15:37:15Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
-    "id": "caioribeiroclw-pixel/pluribus",
-    "language": "JavaScript",
-    "name": "caioribeiroclw-pixel/pluribus",
-    "stars": 1,
-    "updated_at": "2026-05-24T15:04:47Z",
-    "url": "https://github.com/caioribeiroclw-pixel/pluribus"
   },
   {
     "description": "Build unique user interfaces with a structured ruleset to prevent generic AI output.",
@@ -279,15 +288,6 @@
     "url": "https://github.com/TMHSDigital/Unity-Developer-Tools"
   },
   {
-    "description": "Rigorous LLM research in two layers: a multi-agent dialectic synthesis prompt + an agent-loadable research skill. Hierar",
-    "id": "weijia-89/palamedes",
-    "language": "JavaScript",
-    "name": "weijia-89/palamedes",
-    "stars": 0,
-    "updated_at": "2026-05-23T21:33:16Z",
-    "url": "https://github.com/weijia-89/palamedes"
-  },
-  {
     "description": "Strategic software design guidelines for AI coding agents. 15 behavioral rules + critique/audit commands based on A Phil",
     "id": "mhenke/john-ousterhout-skills",
     "language": "JavaScript",
@@ -355,7 +355,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 35876,
+    "stars": 35877,
     "updated_at": "2026-05-22T21:25:05Z",
     "url": "https://github.com/wshobson/agents"
   },
