@@ -1,5 +1,41 @@
 [
   {
+    "description": "Official multi-LLM agent pack for the GhostSwap Partners API (no-KYC crypto swaps, 1,600+ coins). MCP server, OpenAPI 3.",
+    "id": "ghostswap1/ghostswap-agents",
+    "language": "JavaScript",
+    "name": "ghostswap1/ghostswap-agents",
+    "stars": 0,
+    "updated_at": "2026-05-24T23:42:23Z",
+    "url": "https://github.com/ghostswap1/ghostswap-agents"
+  },
+  {
+    "description": "Strategic software design guidelines for AI coding agents. 15 behavioral rules + critique/audit commands based on A Phil",
+    "id": "mhenke/john-ousterhout-skills",
+    "language": "JavaScript",
+    "name": "mhenke/john-ousterhout-skills",
+    "stars": 0,
+    "updated_at": "2026-05-24T23:38:11Z",
+    "url": "https://github.com/mhenke/john-ousterhout-skills"
+  },
+  {
+    "description": "\ud83d\uddb1\ufe0f Enhance your Cursor AI with tailored, codebase-specific insights for smarter navigation and improved efficiency.",
+    "id": "Thabang9218/cursorifier",
+    "language": "TypeScript",
+    "name": "Thabang9218/cursorifier",
+    "stars": 0,
+    "updated_at": "2026-05-24T23:36:21Z",
+    "url": "https://github.com/Thabang9218/cursorifier"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "Python",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-05-24T23:30:16Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "\ud83d\ude80 Streamline your Next.js development with practical rules and tested patterns for efficient coding and minimal bugs.",
     "id": "pemdes174/cursor-rules",
     "language": "\u2014",
@@ -36,15 +72,6 @@
     "url": "https://github.com/whydixit/cursor-starter"
   },
   {
-    "description": "Official multi-LLM integration pack for the GhostSwap crypto swap API \u2014 MCP server, OpenAPI 3.1, Claude Skill, AGENTS.md",
-    "id": "ghostswap1/ghostswap-agents",
-    "language": "JavaScript",
-    "name": "ghostswap1/ghostswap-agents",
-    "stars": 0,
-    "updated_at": "2026-05-24T23:25:12Z",
-    "url": "https://github.com/ghostswap1/ghostswap-agents"
-  },
-  {
     "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI",
     "id": "wshobson/agents",
     "language": "Python",
@@ -52,15 +79,6 @@
     "stars": 35885,
     "updated_at": "2026-05-24T23:29:01Z",
     "url": "https://github.com/wshobson/agents"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "Python",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-05-24T23:16:52Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -243,15 +261,6 @@
     "url": "https://github.com/eumiguellllllllll/copilot-rules"
   },
   {
-    "description": "\ud83d\uddb1\ufe0f Enhance your Cursor AI with tailored, codebase-specific insights for smarter navigation and improved efficiency.",
-    "id": "Thabang9218/cursorifier",
-    "language": "TypeScript",
-    "name": "Thabang9218/cursorifier",
-    "stars": 0,
-    "updated_at": "2026-05-24T20:51:23Z",
-    "url": "https://github.com/Thabang9218/cursorifier"
-  },
-  {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
     "id": "J-nowcow/awesome-korean-agent-skills",
     "language": "\u2014",
@@ -358,15 +367,6 @@
     "stars": 4,
     "updated_at": "2026-05-24T08:17:01Z",
     "url": "https://github.com/philipbankier/awesome-agent-skills"
-  },
-  {
-    "description": "Strategic software design guidelines for AI coding agents. 15 behavioral rules + critique/audit commands based on A Phil",
-    "id": "mhenke/john-ousterhout-skills",
-    "language": "JavaScript",
-    "name": "mhenke/john-ousterhout-skills",
-    "stars": 0,
-    "updated_at": "2026-05-23T19:36:43Z",
-    "url": "https://github.com/mhenke/john-ousterhout-skills"
   },
   {
     "description": "81+ Production-Ready CLAUDE.md Templates & Cursor Rules. Fix AI hallucinations in Cursor Agent & Claude Code instantly.",
