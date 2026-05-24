@@ -1,5 +1,23 @@
 [
   {
+    "description": "\ud83d\uddb1\ufe0f Enhance your Cursor AI with tailored, codebase-specific insights for smarter navigation and improved efficiency.",
+    "id": "Thabang9218/cursorifier",
+    "language": "TypeScript",
+    "name": "Thabang9218/cursorifier",
+    "stars": 0,
+    "updated_at": "2026-05-24T20:51:23Z",
+    "url": "https://github.com/Thabang9218/cursorifier"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "Python",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-05-24T20:45:17Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "\ud83d\ude80 Streamline your Next.js development with practical rules and tested patterns for efficient coding and minimal bugs.",
     "id": "pemdes174/cursor-rules",
     "language": "\u2014",
@@ -34,15 +52,6 @@
     "stars": 13,
     "updated_at": "2026-05-24T20:31:33Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "Python",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-05-24T20:30:16Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Designed for the future of AI development (2027-2030) and leverages the novel `.ah` (Teleological Semantic Format) for u",
@@ -205,15 +214,6 @@
     "stars": 0,
     "updated_at": "2026-05-24T17:08:14Z",
     "url": "https://github.com/eumiguellllllllll/copilot-rules"
-  },
-  {
-    "description": "\ud83d\uddb1\ufe0f Enhance your Cursor AI with tailored, codebase-specific insights for smarter navigation and improved efficiency.",
-    "id": "Thabang9218/cursorifier",
-    "language": "TypeScript",
-    "name": "Thabang9218/cursorifier",
-    "stars": 0,
-    "updated_at": "2026-05-24T16:39:55Z",
-    "url": "https://github.com/Thabang9218/cursorifier"
   },
   {
     "description": "Rigorous LLM research in two layers: a multi-agent dialectic synthesis prompt + an agent-loadable research skill. Hierar",
@@ -418,7 +418,7 @@
     "id": "ciembor/agent-rules-books",
     "language": "\u2014",
     "name": "ciembor/agent-rules-books",
-    "stars": 1582,
+    "stars": 1583,
     "updated_at": "2026-05-22T11:00:37Z",
     "url": "https://github.com/ciembor/agent-rules-books"
   },
