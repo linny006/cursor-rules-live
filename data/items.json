@@ -1,5 +1,32 @@
 [
   {
+    "description": "AI coding instructions for scripted GSAP product demo animations \u2014 cursor choreography, timeline orchestration, scene tr",
+    "id": "Costumary/gsap-choreography",
+    "language": "\u2014",
+    "name": "Costumary/gsap-choreography",
+    "stars": 3,
+    "updated_at": "2026-05-24T21:38:49Z",
+    "url": "https://github.com/Costumary/gsap-choreography"
+  },
+  {
+    "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI",
+    "id": "wshobson/agents",
+    "language": "Python",
+    "name": "wshobson/agents",
+    "stars": 35883,
+    "updated_at": "2026-05-24T21:35:51Z",
+    "url": "https://github.com/wshobson/agents"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "Python",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-05-24T21:30:15Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
     "id": "edsondviana8/ai-humanizer-core",
     "language": "HTML",
@@ -34,15 +61,6 @@
     "stars": 0,
     "updated_at": "2026-05-24T21:17:40Z",
     "url": "https://github.com/eumiguellllllllll/copilot-rules"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "Python",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-05-24T21:15:15Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -387,15 +405,6 @@
     "url": "https://github.com/TuckerWarlock/ai-instructions"
   },
   {
-    "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI",
-    "id": "wshobson/agents",
-    "language": "Python",
-    "name": "wshobson/agents",
-    "stars": 35883,
-    "updated_at": "2026-05-24T21:29:48Z",
-    "url": "https://github.com/wshobson/agents"
-  },
-  {
     "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
     "id": "pekral/cursor-rules",
     "language": "PHP",
@@ -439,14 +448,5 @@
     "stars": 0,
     "updated_at": "2026-05-22T13:58:58Z",
     "url": "https://github.com/KbWen/agentic-os"
-  },
-  {
-    "description": "AGENTS.md rules / skills for AI coding agents: Codex, Cursor & Claude Code. Inspired by Clean Code, Refactoring, DDD, Cl",
-    "id": "ciembor/agent-rules-books",
-    "language": "\u2014",
-    "name": "ciembor/agent-rules-books",
-    "stars": 1583,
-    "updated_at": "2026-05-22T11:00:37Z",
-    "url": "https://github.com/ciembor/agent-rules-books"
   }
 ]
