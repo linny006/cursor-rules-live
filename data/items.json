@@ -1,11 +1,20 @@
 [
   {
+    "description": "AI-powered development toolkit for Unity game development in Cursor IDE. 18 skills, 8 rules, 4 MCP tools, 20 snippets, 5",
+    "id": "TMHSDigital/Unity-Developer-Tools",
+    "language": "C#",
+    "name": "TMHSDigital/Unity-Developer-Tools",
+    "stars": 1,
+    "updated_at": "2026-05-24T19:21:00Z",
+    "url": "https://github.com/TMHSDigital/Unity-Developer-Tools"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "Python",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-05-24T19:00:19Z",
+    "updated_at": "2026-05-24T19:15:15Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -277,15 +286,6 @@
     "stars": 4,
     "updated_at": "2026-05-24T08:17:01Z",
     "url": "https://github.com/philipbankier/awesome-agent-skills"
-  },
-  {
-    "description": "AI-powered development toolkit for Unity game development in Cursor IDE. 18 skills, 8 rules, 4 MCP tools, 20 snippets, 5",
-    "id": "TMHSDigital/Unity-Developer-Tools",
-    "language": "C#",
-    "name": "TMHSDigital/Unity-Developer-Tools",
-    "stars": 1,
-    "updated_at": "2026-05-24T19:03:19Z",
-    "url": "https://github.com/TMHSDigital/Unity-Developer-Tools"
   },
   {
     "description": "Strategic software design guidelines for AI coding agents. 15 behavioral rules + critique/audit commands based on A Phil",
