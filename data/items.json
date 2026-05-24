@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "Python",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-05-24T16:43:31Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "\ud83d\uddb1\ufe0f Enhance your Cursor AI with tailored, codebase-specific insights for smarter navigation and improved efficiency.",
     "id": "Thabang9218/cursorifier",
     "language": "TypeScript",
@@ -34,15 +43,6 @@
     "stars": 4,
     "updated_at": "2026-05-24T16:30:40Z",
     "url": "https://github.com/whydixit/cursor-starter"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "Python",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-05-24T16:30:16Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Rigorous LLM research in two layers: a multi-agent dialectic synthesis prompt + an agent-loadable research skill. Hierar",
