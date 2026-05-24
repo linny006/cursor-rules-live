@@ -1,12 +1,39 @@
 [
   {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
     "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "name": "edsondviana8/ai-humanizer-core",
     "stars": 0,
-    "updated_at": "2026-05-24T21:14:13Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
+    "updated_at": "2026-05-24T21:23:46Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-05-24T21:21:38Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
+  },
+  {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 0,
+    "updated_at": "2026-05-24T21:17:53Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+  },
+  {
+    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
+    "id": "eumiguellllllllll/copilot-rules",
+    "language": "Batchfile",
+    "name": "eumiguellllllllll/copilot-rules",
+    "stars": 0,
+    "updated_at": "2026-05-24T21:17:40Z",
+    "url": "https://github.com/eumiguellllllllll/copilot-rules"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +41,17 @@
     "language": "Python",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-05-24T21:11:53Z",
+    "updated_at": "2026-05-24T21:15:15Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 0,
+    "updated_at": "2026-05-24T21:14:13Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
@@ -207,15 +243,6 @@
     "url": "https://github.com/Luxvil/ai-coding-rules"
   },
   {
-    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
-    "id": "eumiguellllllllll/copilot-rules",
-    "language": "Batchfile",
-    "name": "eumiguellllllllll/copilot-rules",
-    "stars": 0,
-    "updated_at": "2026-05-24T17:08:14Z",
-    "url": "https://github.com/eumiguellllllllll/copilot-rules"
-  },
-  {
     "description": "Rigorous LLM research in two layers: a multi-agent dialectic synthesis prompt + an agent-loadable research skill. Hierar",
     "id": "weijia-89/palamedes",
     "language": "JavaScript",
@@ -365,7 +392,7 @@
     "language": "Python",
     "name": "wshobson/agents",
     "stars": 35883,
-    "updated_at": "2026-05-24T21:03:02Z",
+    "updated_at": "2026-05-24T21:29:48Z",
     "url": "https://github.com/wshobson/agents"
   },
   {
@@ -421,32 +448,5 @@
     "stars": 1583,
     "updated_at": "2026-05-22T11:00:37Z",
     "url": "https://github.com/ciembor/agent-rules-books"
-  },
-  {
-    "description": "",
-    "id": "baneeishaque/ai-agent-rules",
-    "language": "TypeScript",
-    "name": "baneeishaque/ai-agent-rules",
-    "stars": 3,
-    "updated_at": "2026-05-24T08:07:14Z",
-    "url": "https://github.com/baneeishaque/ai-agent-rules"
-  },
-  {
-    "description": "Archive-grade .mdc rule library for Cursor AI \u2014 26 production-ready rules for teams seeking stable, reusable AI coding g",
-    "id": "LessUp/cursor-rules",
-    "language": "JavaScript",
-    "name": "LessUp/cursor-rules",
-    "stars": 20,
-    "updated_at": "2026-05-22T07:57:22Z",
-    "url": "https://github.com/LessUp/cursor-rules"
-  },
-  {
-    "description": "AI coding rules that actually work. Enforce instruction files via hooks \u2014 CLAUDE.md, .cursorrules, copilot-instructions,",
-    "id": "taniwhaai/arai",
-    "language": "Rust",
-    "name": "taniwhaai/arai",
-    "stars": 5,
-    "updated_at": "2026-05-22T03:36:08Z",
-    "url": "https://github.com/taniwhaai/arai"
   }
 ]
