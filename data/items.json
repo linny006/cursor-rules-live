@@ -1,11 +1,20 @@
 [
   {
+    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
+    "id": "Luxvil/ai-coding-rules",
+    "language": "Shell",
+    "name": "Luxvil/ai-coding-rules",
+    "stars": 2,
+    "updated_at": "2026-05-24T17:57:54Z",
+    "url": "https://github.com/Luxvil/ai-coding-rules"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "Python",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-05-24T17:44:40Z",
+    "updated_at": "2026-05-24T17:45:16Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -205,15 +214,6 @@
     "stars": 23,
     "updated_at": "2026-05-24T13:39:00Z",
     "url": "https://github.com/haidrrrry/compose-kotlin-agent-skills"
-  },
-  {
-    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
-    "id": "Luxvil/ai-coding-rules",
-    "language": "Shell",
-    "name": "Luxvil/ai-coding-rules",
-    "stars": 2,
-    "updated_at": "2026-05-24T13:38:02Z",
-    "url": "https://github.com/Luxvil/ai-coding-rules"
   },
   {
     "description": "A precision-engineered AI workforce for fiduciary-grade financial strategy. Modeled after the NeuraForge architecture, F",
