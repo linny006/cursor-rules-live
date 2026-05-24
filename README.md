@@ -33,7 +33,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-05-24 20:06 UTC
+> ⏰ Last updated: 2026-05-24 20:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -81,7 +81,7 @@ expired items removed — so you can rely on what you see being current.
 | 37 | [DongDuong2001/pudo-code-system](https://github.com/DongDuong2001/pudo-code-system) | 2 | JavaScript | 2026-05-23 | Agent Skills and Structured Prompts for Scalable Development |
 | 38 | [jcottam/agent-resources](https://github.com/jcottam/agent-resources) | 0 | Shell | 2026-05-23 | Battle-tested agent skills and Cursor rules from real projects. Works with Cursor, Claude Code, and any agent. |
 | 39 | [TuckerWarlock/ai-instructions](https://github.com/TuckerWarlock/ai-instructions) | 1 | — | 2026-05-23 | How to write great CLAUDE.md, AGENTS.md, Cursor rules, Kiro steering, and Copilot instructions |
-| 40 | [wshobson/agents](https://github.com/wshobson/agents) | 35881 | Python | 2026-05-22 | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI |
+| 40 | [wshobson/agents](https://github.com/wshobson/agents) | 35882 | Python | 2026-05-22 | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI |
 | 41 | [pekral/cursor-rules](https://github.com/pekral/cursor-rules) | 2 | PHP | 2026-05-22 | PHP and Laravel Cursor rules — coding standards, testing, and conventions for the Cursor editor. Install via Composer. |
 | 42 | [CacinieP/network-troubleshoot-skill](https://github.com/CacinieP/network-troubleshoot-skill) | 0 | Shell | 2026-05-22 | Universal network troubleshooting skill for 17+ AI coding agents. Built from 112+ real agent sessions. One copy-paste to |
 | 43 | [HoangNguyen0403/agent-skills-standard](https://github.com/HoangNguyen0403/agent-skills-standard) | 498 | TypeScript | 2026-05-22 | A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol |
