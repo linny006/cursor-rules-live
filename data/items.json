@@ -1,11 +1,20 @@
 [
   {
+    "description": "Designed for the future of AI development (2027-2030) and leverages the novel `.ah` (Teleological Semantic Format) for u",
+    "id": "davccavalcante/supreme-coding-guidelines-skill.ah",
+    "language": "Python",
+    "name": "davccavalcante/supreme-coding-guidelines-skill.ah",
+    "stars": 1,
+    "updated_at": "2026-05-24T20:24:02Z",
+    "url": "https://github.com/davccavalcante/supreme-coding-guidelines-skill.ah"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "Python",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-05-24T20:06:39Z",
+    "updated_at": "2026-05-24T20:15:16Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -439,14 +448,5 @@
     "stars": 5,
     "updated_at": "2026-05-22T03:36:08Z",
     "url": "https://github.com/taniwhaai/arai"
-  },
-  {
-    "description": "14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts \u2192 deployed products.",
-    "id": "heymegabyte/claude-skills",
-    "language": "JavaScript",
-    "name": "heymegabyte/claude-skills",
-    "stars": 9,
-    "updated_at": "2026-05-21T23:56:14Z",
-    "url": "https://github.com/heymegabyte/claude-skills"
   }
 ]
