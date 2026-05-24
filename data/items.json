@@ -1,5 +1,104 @@
 [
   {
+    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
+    "id": "zinxj/uikit-expert-skill",
+    "language": "\u2014",
+    "name": "zinxj/uikit-expert-skill",
+    "stars": 2,
+    "updated_at": "2026-05-24T13:56:08Z",
+    "url": "https://github.com/zinxj/uikit-expert-skill"
+  },
+  {
+    "description": "Manage and organize project workspaces while dynamically injecting relevant skills for efficient AI assistant context lo",
+    "id": "GrekosTheJogurt/antigravity-workspace-manager",
+    "language": "Python",
+    "name": "GrekosTheJogurt/antigravity-workspace-manager",
+    "stars": 0,
+    "updated_at": "2026-05-24T13:52:25Z",
+    "url": "https://github.com/GrekosTheJogurt/antigravity-workspace-manager"
+  },
+  {
+    "description": "\ud83e\udd16 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development.",
+    "id": "johnwall123459885/skene-cookbook",
+    "language": "Python",
+    "name": "johnwall123459885/skene-cookbook",
+    "stars": 0,
+    "updated_at": "2026-05-24T13:45:12Z",
+    "url": "https://github.com/johnwall123459885/skene-cookbook"
+  },
+  {
+    "description": "Jetpack Compose & Kotlin AI agent skills for Cursor, Claude Code, Codex, Gemini & 27+ agents. Strict MVI \u00b7 Kotlin 2.x K2",
+    "id": "haidrrrry/compose-kotlin-agent-skills",
+    "language": "Markdown",
+    "name": "haidrrrry/compose-kotlin-agent-skills",
+    "stars": 23,
+    "updated_at": "2026-05-24T13:39:00Z",
+    "url": "https://github.com/haidrrrry/compose-kotlin-agent-skills"
+  },
+  {
+    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
+    "id": "Luxvil/ai-coding-rules",
+    "language": "Shell",
+    "name": "Luxvil/ai-coding-rules",
+    "stars": 2,
+    "updated_at": "2026-05-24T13:38:02Z",
+    "url": "https://github.com/Luxvil/ai-coding-rules"
+  },
+  {
+    "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
+    "id": "caioribeiroclw-pixel/pluribus",
+    "language": "JavaScript",
+    "name": "caioribeiroclw-pixel/pluribus",
+    "stars": 1,
+    "updated_at": "2026-05-24T13:07:09Z",
+    "url": "https://github.com/caioribeiroclw-pixel/pluribus"
+  },
+  {
+    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
+    "id": "eumiguellllllllll/copilot-rules",
+    "language": "Batchfile",
+    "name": "eumiguellllllllll/copilot-rules",
+    "stars": 0,
+    "updated_at": "2026-05-24T12:48:43Z",
+    "url": "https://github.com/eumiguellllllllll/copilot-rules"
+  },
+  {
+    "description": "A precision-engineered AI workforce for fiduciary-grade financial strategy. Modeled after the NeuraForge architecture, F",
+    "id": "vikisingh23/wealth-forge-ai",
+    "language": "JavaScript",
+    "name": "vikisingh23/wealth-forge-ai",
+    "stars": 1,
+    "updated_at": "2026-05-24T12:25:01Z",
+    "url": "https://github.com/vikisingh23/wealth-forge-ai"
+  },
+  {
+    "description": "\ud83d\uddb1\ufe0f Enhance your Cursor AI with tailored, codebase-specific insights for smarter navigation and improved efficiency.",
+    "id": "Thabang9218/cursorifier",
+    "language": "TypeScript",
+    "name": "Thabang9218/cursorifier",
+    "stars": 0,
+    "updated_at": "2026-05-24T12:20:01Z",
+    "url": "https://github.com/Thabang9218/cursorifier"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "Python",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-05-24T12:12:03Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\ud83d\ude80 Streamline your Next.js development with practical rules and tested patterns for efficient coding and minimal bugs.",
+    "id": "pemdes174/cursor-rules",
+    "language": "\u2014",
+    "name": "pemdes174/cursor-rules",
+    "stars": 5,
+    "updated_at": "2026-05-24T12:12:00Z",
+    "url": "https://github.com/pemdes174/cursor-rules"
+  },
+  {
     "description": "\ud83d\udca1 Discover AI coding tools that enhance your workflow, from code editors to completion engines, and boost your software ",
     "id": "JohannFreddyLoayzaHuana/awesome-ai-coding-tools",
     "language": "\u2014",
@@ -16,15 +115,6 @@
     "stars": 4,
     "updated_at": "2026-05-24T12:10:57Z",
     "url": "https://github.com/whydixit/cursor-starter"
-  },
-  {
-    "description": "A precision-engineered AI workforce for fiduciary-grade financial strategy. Modeled after the NeuraForge architecture, F",
-    "id": "vikisingh23/wealth-forge-ai",
-    "language": "JavaScript",
-    "name": "vikisingh23/wealth-forge-ai",
-    "stars": 1,
-    "updated_at": "2026-05-24T12:10:27Z",
-    "url": "https://github.com/vikisingh23/wealth-forge-ai"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -45,24 +135,6 @@
     "url": "https://github.com/jabrena/101-cursor"
   },
   {
-    "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
-    "id": "caioribeiroclw-pixel/pluribus",
-    "language": "JavaScript",
-    "name": "caioribeiroclw-pixel/pluribus",
-    "stars": 1,
-    "updated_at": "2026-05-24T11:09:49Z",
-    "url": "https://github.com/caioribeiroclw-pixel/pluribus"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "Python",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-05-24T11:03:03Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
     "id": "agenticstandardcontact-byte/agentic-architect",
     "language": "HTML",
@@ -79,6 +151,15 @@
     "stars": 0,
     "updated_at": "2026-05-24T10:33:10Z",
     "url": "https://github.com/Xoner1/octboos"
+  },
+  {
+    "description": "claude-skills",
+    "id": "Mark393295827/third-brain-v5-skills",
+    "language": "HTML",
+    "name": "Mark393295827/third-brain-v5-skills",
+    "stars": 99,
+    "updated_at": "2026-05-24T10:16:04Z",
+    "url": "https://github.com/Mark393295827/third-brain-v5-skills"
   },
   {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
@@ -171,51 +252,6 @@
     "url": "https://github.com/vibestackdev/vibe-stack"
   },
   {
-    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
-    "id": "zinxj/uikit-expert-skill",
-    "language": "\u2014",
-    "name": "zinxj/uikit-expert-skill",
-    "stars": 2,
-    "updated_at": "2026-05-24T09:35:38Z",
-    "url": "https://github.com/zinxj/uikit-expert-skill"
-  },
-  {
-    "description": "Manage and organize project workspaces while dynamically injecting relevant skills for efficient AI assistant context lo",
-    "id": "GrekosTheJogurt/antigravity-workspace-manager",
-    "language": "Python",
-    "name": "GrekosTheJogurt/antigravity-workspace-manager",
-    "stars": 0,
-    "updated_at": "2026-05-24T09:31:48Z",
-    "url": "https://github.com/GrekosTheJogurt/antigravity-workspace-manager"
-  },
-  {
-    "description": "\ud83e\udd16 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development.",
-    "id": "johnwall123459885/skene-cookbook",
-    "language": "Python",
-    "name": "johnwall123459885/skene-cookbook",
-    "stars": 0,
-    "updated_at": "2026-05-24T09:24:22Z",
-    "url": "https://github.com/johnwall123459885/skene-cookbook"
-  },
-  {
-    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
-    "id": "Luxvil/ai-coding-rules",
-    "language": "Shell",
-    "name": "Luxvil/ai-coding-rules",
-    "stars": 2,
-    "updated_at": "2026-05-24T09:16:59Z",
-    "url": "https://github.com/Luxvil/ai-coding-rules"
-  },
-  {
-    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
-    "id": "eumiguellllllllll/copilot-rules",
-    "language": "Batchfile",
-    "name": "eumiguellllllllll/copilot-rules",
-    "stars": 0,
-    "updated_at": "2026-05-24T08:28:44Z",
-    "url": "https://github.com/eumiguellllllllll/copilot-rules"
-  },
-  {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
     "id": "J-nowcow/awesome-korean-agent-skills",
     "language": "\u2014",
@@ -232,24 +268,6 @@
     "stars": 4,
     "updated_at": "2026-05-24T08:17:01Z",
     "url": "https://github.com/philipbankier/awesome-agent-skills"
-  },
-  {
-    "description": "\ud83d\uddb1\ufe0f Enhance your Cursor AI with tailored, codebase-specific insights for smarter navigation and improved efficiency.",
-    "id": "Thabang9218/cursorifier",
-    "language": "TypeScript",
-    "name": "Thabang9218/cursorifier",
-    "stars": 0,
-    "updated_at": "2026-05-24T08:01:18Z",
-    "url": "https://github.com/Thabang9218/cursorifier"
-  },
-  {
-    "description": "\ud83d\ude80 Streamline your Next.js development with practical rules and tested patterns for efficient coding and minimal bugs.",
-    "id": "pemdes174/cursor-rules",
-    "language": "\u2014",
-    "name": "pemdes174/cursor-rules",
-    "stars": 5,
-    "updated_at": "2026-05-24T12:12:00Z",
-    "url": "https://github.com/pemdes174/cursor-rules"
   },
   {
     "description": "AI-powered development toolkit for Unity game development in Cursor IDE. 18 skills, 8 rules, 4 MCP tools, 20 snippets, 5",
@@ -306,15 +324,6 @@
     "url": "https://github.com/GeiserX/lynxprompt-vscode"
   },
   {
-    "description": "claude-skills",
-    "id": "Mark393295827/third-brain-v5-skills",
-    "language": "HTML",
-    "name": "Mark393295827/third-brain-v5-skills",
-    "stars": 100,
-    "updated_at": "2026-05-24T10:16:04Z",
-    "url": "https://github.com/Mark393295827/third-brain-v5-skills"
-  },
-  {
     "description": "Agent Skills and Structured Prompts for Scalable Development",
     "id": "DongDuong2001/pudo-code-system",
     "language": "JavaScript",
@@ -346,7 +355,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 35862,
+    "stars": 35874,
     "updated_at": "2026-05-22T21:25:05Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -400,7 +409,7 @@
     "id": "ciembor/agent-rules-books",
     "language": "\u2014",
     "name": "ciembor/agent-rules-books",
-    "stars": 1576,
+    "stars": 1578,
     "updated_at": "2026-05-22T11:00:37Z",
     "url": "https://github.com/ciembor/agent-rules-books"
   },
@@ -439,14 +448,5 @@
     "stars": 9,
     "updated_at": "2026-05-21T23:56:14Z",
     "url": "https://github.com/heymegabyte/claude-skills"
-  },
-  {
-    "description": "Portable process framework for software teams shipping with coding agents (Cursor, Claude Code, Codex, opencode). Skills",
-    "id": "PiloTracer/.ai",
-    "language": "Shell",
-    "name": "PiloTracer/.ai",
-    "stars": 0,
-    "updated_at": "2026-05-21T23:18:51Z",
-    "url": "https://github.com/PiloTracer/.ai"
   }
 ]
