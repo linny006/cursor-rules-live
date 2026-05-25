@@ -5,8 +5,17 @@
     "language": "JavaScript",
     "name": "mhenke/john-ousterhout-skills",
     "stars": 0,
-    "updated_at": "2026-05-25T00:26:55Z",
+    "updated_at": "2026-05-25T00:43:14Z",
     "url": "https://github.com/mhenke/john-ousterhout-skills"
+  },
+  {
+    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
+    "id": "Luxvil/ai-coding-rules",
+    "language": "Shell",
+    "name": "Luxvil/ai-coding-rules",
+    "stars": 2,
+    "updated_at": "2026-05-25T00:41:10Z",
+    "url": "https://github.com/Luxvil/ai-coding-rules"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,7 +23,7 @@
     "language": "Python",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-05-25T00:15:16Z",
+    "updated_at": "2026-05-25T00:30:15Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -41,7 +50,7 @@
     "language": "Python",
     "name": "wshobson/agents",
     "stars": 35886,
-    "updated_at": "2026-05-24T23:55:39Z",
+    "updated_at": "2026-05-25T00:41:45Z",
     "url": "https://github.com/wshobson/agents"
   },
   {
@@ -232,15 +241,6 @@
     "stars": 0,
     "updated_at": "2026-05-24T22:10:57Z",
     "url": "https://github.com/johnwall123459885/skene-cookbook"
-  },
-  {
-    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
-    "id": "Luxvil/ai-coding-rules",
-    "language": "Shell",
-    "name": "Luxvil/ai-coding-rules",
-    "stars": 2,
-    "updated_at": "2026-05-24T22:04:14Z",
-    "url": "https://github.com/Luxvil/ai-coding-rules"
   },
   {
     "description": "14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts \u2192 deployed products.",
