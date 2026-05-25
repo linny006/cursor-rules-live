@@ -1,21 +1,21 @@
 [
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "Python",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-05-25T02:00:16Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Archive-grade .mdc rule library for Cursor AI \u2014 26 production-ready rules for teams seeking stable, reusable AI coding g",
     "id": "LessUp/cursor-rules",
     "language": "JavaScript",
     "name": "LessUp/cursor-rules",
     "stars": 20,
-    "updated_at": "2026-05-25T01:31:32Z",
+    "updated_at": "2026-05-25T02:23:41Z",
     "url": "https://github.com/LessUp/cursor-rules"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "Python",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-05-25T02:15:19Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Build unique user interfaces with a structured ruleset to prevent generic AI output.",
