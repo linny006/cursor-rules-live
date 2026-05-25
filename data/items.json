@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "Python",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-05-25T06:30:16Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
     "id": "eumiguellllllllll/copilot-rules",
     "language": "Batchfile",
@@ -7,15 +16,6 @@
     "stars": 0,
     "updated_at": "2026-05-25T06:17:09Z",
     "url": "https://github.com/eumiguellllllllll/copilot-rules"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "Python",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-05-25T06:15:18Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\ud83d\uddb1\ufe0f Enhance your Cursor AI with tailored, codebase-specific insights for smarter navigation and improved efficiency.",
@@ -229,7 +229,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 35900,
+    "stars": 35901,
     "updated_at": "2026-05-25T01:33:07Z",
     "url": "https://github.com/wshobson/agents"
   },
