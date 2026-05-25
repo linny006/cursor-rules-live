@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "Python",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-05-25T22:15:17Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
     "id": "Trentobobbi/uikit-mastery-playbook",
     "language": "HTML",
@@ -70,15 +79,6 @@
     "stars": 0,
     "updated_at": "2026-05-25T22:02:31Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "Python",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-05-25T22:00:15Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "AI coding rules that actually work. Enforce instruction files via hooks \u2014 CLAUDE.md, .cursorrules, copilot-instructions,",
@@ -320,7 +320,7 @@
     "language": "HTML",
     "name": "agenticstandardcontact-byte/agentic-architect",
     "stars": 0,
-    "updated_at": "2026-05-25T12:46:07Z",
+    "updated_at": "2026-05-25T22:18:27Z",
     "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
   },
   {
@@ -400,7 +400,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 35937,
+    "stars": 35940,
     "updated_at": "2026-05-25T01:33:07Z",
     "url": "https://github.com/wshobson/agents"
   },
