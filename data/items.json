@@ -1,11 +1,20 @@
 [
   {
+    "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
+    "id": "philipbankier/awesome-agent-skills",
+    "language": "TypeScript",
+    "name": "philipbankier/awesome-agent-skills",
+    "stars": 4,
+    "updated_at": "2026-05-25T08:46:40Z",
+    "url": "https://github.com/philipbankier/awesome-agent-skills"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "Python",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-05-25T08:30:19Z",
+    "updated_at": "2026-05-25T08:45:17Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -247,7 +256,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 35910,
+    "stars": 35911,
     "updated_at": "2026-05-25T01:33:07Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -367,15 +376,6 @@
     "stars": 6,
     "updated_at": "2026-05-24T09:51:07Z",
     "url": "https://github.com/vibestackdev/vibe-stack"
-  },
-  {
-    "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
-    "id": "philipbankier/awesome-agent-skills",
-    "language": "TypeScript",
-    "name": "philipbankier/awesome-agent-skills",
-    "stars": 4,
-    "updated_at": "2026-05-24T08:17:01Z",
-    "url": "https://github.com/philipbankier/awesome-agent-skills"
   },
   {
     "description": "81+ Production-Ready CLAUDE.md Templates & Cursor Rules. Fix AI hallucinations in Cursor Agent & Claude Code instantly.",
