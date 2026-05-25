@@ -1,5 +1,59 @@
 [
   {
+    "description": "Build programmatic UIKit apps with production-ready patterns for views, navigation, animation, architecture, and data fl",
+    "id": "nizhan80-art/Swift-UIKit-Skill",
+    "language": "\u2014",
+    "name": "nizhan80-art/Swift-UIKit-Skill",
+    "stars": 1,
+    "updated_at": "2026-05-25T11:56:41Z",
+    "url": "https://github.com/nizhan80-art/Swift-UIKit-Skill"
+  },
+  {
+    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
+    "id": "Amirun99/agency-orchestrator",
+    "language": "Dart",
+    "name": "Amirun99/agency-orchestrator",
+    "stars": 0,
+    "updated_at": "2026-05-25T11:55:56Z",
+    "url": "https://github.com/Amirun99/agency-orchestrator"
+  },
+  {
+    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
+    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "language": "\u2014",
+    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "stars": 1,
+    "updated_at": "2026-05-25T11:54:52Z",
+    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
+  },
+  {
+    "description": "Build 9 iOS agent skills for SwiftUI, testing, security, and more in one install for AI coding agents",
+    "id": "ebbaunqualified520/ios-agent-skills",
+    "language": "Shell",
+    "name": "ebbaunqualified520/ios-agent-skills",
+    "stars": 0,
+    "updated_at": "2026-05-25T11:51:13Z",
+    "url": "https://github.com/ebbaunqualified520/ios-agent-skills"
+  },
+  {
+    "description": "29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b",
+    "id": "vibestackdev/vibe-stack",
+    "language": "TypeScript",
+    "name": "vibestackdev/vibe-stack",
+    "stars": 6,
+    "updated_at": "2026-05-25T11:50:34Z",
+    "url": "https://github.com/vibestackdev/vibe-stack"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "Python",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-05-25T11:45:16Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
     "id": "edsondviana8/ai-humanizer-core",
     "language": "HTML",
@@ -27,15 +81,6 @@
     "url": "https://github.com/GrekosTheJogurt/antigravity-workspace-manager"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "Python",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-05-25T11:30:17Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "\ud83e\udd16 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development.",
     "id": "johnwall123459885/skene-cookbook",
     "language": "Python",
@@ -61,15 +106,6 @@
     "stars": 1,
     "updated_at": "2026-05-25T11:04:53Z",
     "url": "https://github.com/caioribeiroclw-pixel/pluribus"
-  },
-  {
-    "description": "A production-ready survival kit for Vibe Coders. Maximize your token efficiency and unlock 10x AI coding speed with zero",
-    "id": "solune-lab/the-vibe-stack",
-    "language": "\u2014",
-    "name": "solune-lab/the-vibe-stack",
-    "stars": 3,
-    "updated_at": "2026-05-25T10:33:19Z",
-    "url": "https://github.com/solune-lab/the-vibe-stack"
   },
   {
     "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
@@ -216,42 +252,6 @@
     "url": "https://github.com/christim427-rgb/ios-agent-skills"
   },
   {
-    "description": "Build programmatic UIKit apps with production-ready patterns for views, navigation, animation, architecture, and data fl",
-    "id": "nizhan80-art/Swift-UIKit-Skill",
-    "language": "\u2014",
-    "name": "nizhan80-art/Swift-UIKit-Skill",
-    "stars": 1,
-    "updated_at": "2026-05-25T07:42:49Z",
-    "url": "https://github.com/nizhan80-art/Swift-UIKit-Skill"
-  },
-  {
-    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
-    "id": "Amirun99/agency-orchestrator",
-    "language": "Dart",
-    "name": "Amirun99/agency-orchestrator",
-    "stars": 0,
-    "updated_at": "2026-05-25T07:42:00Z",
-    "url": "https://github.com/Amirun99/agency-orchestrator"
-  },
-  {
-    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
-    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "language": "\u2014",
-    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "stars": 1,
-    "updated_at": "2026-05-25T07:40:54Z",
-    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
-  },
-  {
-    "description": "Build 9 iOS agent skills for SwiftUI, testing, security, and more in one install for AI coding agents",
-    "id": "ebbaunqualified520/ios-agent-skills",
-    "language": "Shell",
-    "name": "ebbaunqualified520/ios-agent-skills",
-    "stars": 0,
-    "updated_at": "2026-05-25T07:37:09Z",
-    "url": "https://github.com/ebbaunqualified520/ios-agent-skills"
-  },
-  {
     "description": "Official multi-LLM agent pack for the GhostSwap Partners API (no-KYC crypto swaps, 1,600+ coins). MCP server, OpenAPI 3.",
     "id": "ghostswap1/ghostswap-agents",
     "language": "JavaScript",
@@ -292,7 +292,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 35917,
+    "stars": 35916,
     "updated_at": "2026-05-25T01:33:07Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -405,15 +405,6 @@
     "url": "https://github.com/Mark393295827/third-brain-v5-skills"
   },
   {
-    "description": "29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b",
-    "id": "vibestackdev/vibe-stack",
-    "language": "TypeScript",
-    "name": "vibestackdev/vibe-stack",
-    "stars": 6,
-    "updated_at": "2026-05-24T09:51:07Z",
-    "url": "https://github.com/vibestackdev/vibe-stack"
-  },
-  {
     "description": "81+ Production-Ready CLAUDE.md Templates & Cursor Rules. Fix AI hallucinations in Cursor Agent & Claude Code instantly.",
     "id": "smsaut3344/ai-coding-vault",
     "language": "HTML",
@@ -448,5 +439,14 @@
     "stars": 0,
     "updated_at": "2026-05-23T01:34:55Z",
     "url": "https://github.com/jcottam/agent-resources"
+  },
+  {
+    "description": "How to write great CLAUDE.md, AGENTS.md, Cursor rules, Kiro steering, and Copilot instructions",
+    "id": "TuckerWarlock/ai-instructions",
+    "language": "\u2014",
+    "name": "TuckerWarlock/ai-instructions",
+    "stars": 1,
+    "updated_at": "2026-05-23T00:33:05Z",
+    "url": "https://github.com/TuckerWarlock/ai-instructions"
   }
 ]
