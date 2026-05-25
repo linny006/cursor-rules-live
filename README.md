@@ -33,7 +33,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-05-25 22:30 UTC
+> ⏰ Last updated: 2026-05-25 22:41 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -42,34 +42,34 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Description |
 |---|------|---|------|---------|-------------|
-| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | Python | 2026-05-25 | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 2 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-05-25 | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
-| 3 | [Thabang9218/cursorifier](https://github.com/Thabang9218/cursorifier) | 0 | TypeScript | 2026-05-25 | 🖱️ Enhance your Cursor AI with tailored, codebase-specific insights for smarter navigation and improved efficiency. |
-| 4 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-05-25 | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
-| 5 | [pemdes174/cursor-rules](https://github.com/pemdes174/cursor-rules) | 5 | — | 2026-05-25 | 🚀 Streamline your Next.js development with practical rules and tested patterns for efficient coding and minimal bugs. |
-| 6 | [JohannFreddyLoayzaHuana/awesome-ai-coding-tools](https://github.com/JohannFreddyLoayzaHuana/awesome-ai-coding-tools) | 2 | — | 2026-05-25 | 💡 Discover AI coding tools that enhance your workflow, from code editors to completion engines, and boost your software  |
-| 7 | [whydixit/cursor-starter](https://github.com/whydixit/cursor-starter) | 4 | — | 2026-05-25 | ✨ Enhance your software development with a curated collection of prompts for Cursor AI, boosting efficiency in planning  |
-| 8 | [caioribeiroclw-pixel/pluribus](https://github.com/caioribeiroclw-pixel/pluribus) | 1 | JavaScript | 2026-05-25 | Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security |
-| 9 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 0 | HTML | 2026-05-25 | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
-| 10 | [taniwhaai/arai](https://github.com/taniwhaai/arai) | 5 | Rust | 2026-05-25 | AI coding rules that actually work. Enforce instruction files via hooks — CLAUDE.md, .cursorrules, copilot-instructions, |
-| 11 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 0 | HTML | 2026-05-25 | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 12 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 13 | — | 2026-05-25 | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
-| 13 | [weijia-89/palamedes](https://github.com/weijia-89/palamedes) | 0 | JavaScript | 2026-05-25 | Rigorous LLM research in two layers: a multi-agent dialectic synthesis prompt + an agent-loadable research skill. Hierar |
-| 14 | [paoloincommensurable537/PixelPilot](https://github.com/paoloincommensurable537/PixelPilot) | 0 | JavaScript | 2026-05-25 | Build unique user interfaces with a structured ruleset to prevent generic AI output. |
-| 15 | [Hyanthropological659/clarify-skill](https://github.com/Hyanthropological659/clarify-skill) | 0 | — | 2026-05-25 | Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a |
-| 16 | [Bastioned-successor320/learn-nanobot](https://github.com/Bastioned-successor320/learn-nanobot) | 0 | Python | 2026-05-25 | Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers |
-| 17 | [vctmasters1/PDS-Layered-AI-Instruct-Template-V3](https://github.com/vctmasters1/PDS-Layered-AI-Instruct-Template-V3) | 0 | TypeScript | 2026-05-25 | Advanced starter template with Depth-Priority Hierarchical AI Instructions for GitHub Copilot Agents and Cursor. Reduces |
-| 18 | [XAKLESK/cre-agent-skills](https://github.com/XAKLESK/cre-agent-skills) | 1 | — | 2026-05-25 | Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc |
-| 19 | [christim427-rgb/ios-agent-skills](https://github.com/christim427-rgb/ios-agent-skills) | 1 | Python | 2026-05-25 | Test iOS agent skills with 11 tasks, 260+ scenarios, and 850+ assertions across 3 models |
-| 20 | [nizhan80-art/Swift-UIKit-Skill](https://github.com/nizhan80-art/Swift-UIKit-Skill) | 1 | — | 2026-05-25 | Build programmatic UIKit apps with production-ready patterns for views, navigation, animation, architecture, and data fl |
-| 21 | [Amirun99/agency-orchestrator](https://github.com/Amirun99/agency-orchestrator) | 0 | Dart | 2026-05-25 | Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support. |
-| 22 | [Overseastelegramaliterateperson865/awesome-claude-md](https://github.com/Overseastelegramaliterateperson865/awesome-claude-md) | 1 | — | 2026-05-25 | Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr |
-| 23 | [ebbaunqualified520/ios-agent-skills](https://github.com/ebbaunqualified520/ios-agent-skills) | 0 | Shell | 2026-05-25 | Build 9 iOS agent skills for SwiftUI, testing, security, and more in one install for AI coding agents |
-| 24 | [zinxj/uikit-expert-skill](https://github.com/zinxj/uikit-expert-skill) | 2 | — | 2026-05-25 | Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan |
-| 25 | [GrekosTheJogurt/antigravity-workspace-manager](https://github.com/GrekosTheJogurt/antigravity-workspace-manager) | 0 | Python | 2026-05-25 | Manage and organize project workspaces while dynamically injecting relevant skills for efficient AI assistant context lo |
-| 26 | [johnwall123459885/skene-cookbook](https://github.com/johnwall123459885/skene-cookbook) | 0 | Python | 2026-05-25 | 🤖 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development. |
-| 27 | [Luxvil/ai-coding-rules](https://github.com/Luxvil/ai-coding-rules) | 2 | Shell | 2026-05-25 | 🤖 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje |
-| 28 | [eumiguellllllllll/copilot-rules](https://github.com/eumiguellllllllll/copilot-rules) | 0 | Batchfile | 2026-05-25 | ⚡ Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively. |
+| 1 | [eumiguellllllllll/copilot-rules](https://github.com/eumiguellllllllll/copilot-rules) | 0 | Batchfile | 2026-05-25 | ⚡ Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively. |
+| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | Python | 2026-05-25 | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 3 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-05-25 | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
+| 4 | [Thabang9218/cursorifier](https://github.com/Thabang9218/cursorifier) | 0 | TypeScript | 2026-05-25 | 🖱️ Enhance your Cursor AI with tailored, codebase-specific insights for smarter navigation and improved efficiency. |
+| 5 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-05-25 | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
+| 6 | [pemdes174/cursor-rules](https://github.com/pemdes174/cursor-rules) | 5 | — | 2026-05-25 | 🚀 Streamline your Next.js development with practical rules and tested patterns for efficient coding and minimal bugs. |
+| 7 | [JohannFreddyLoayzaHuana/awesome-ai-coding-tools](https://github.com/JohannFreddyLoayzaHuana/awesome-ai-coding-tools) | 2 | — | 2026-05-25 | 💡 Discover AI coding tools that enhance your workflow, from code editors to completion engines, and boost your software  |
+| 8 | [whydixit/cursor-starter](https://github.com/whydixit/cursor-starter) | 4 | — | 2026-05-25 | ✨ Enhance your software development with a curated collection of prompts for Cursor AI, boosting efficiency in planning  |
+| 9 | [caioribeiroclw-pixel/pluribus](https://github.com/caioribeiroclw-pixel/pluribus) | 1 | JavaScript | 2026-05-25 | Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security |
+| 10 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 0 | HTML | 2026-05-25 | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
+| 11 | [taniwhaai/arai](https://github.com/taniwhaai/arai) | 5 | Rust | 2026-05-25 | AI coding rules that actually work. Enforce instruction files via hooks — CLAUDE.md, .cursorrules, copilot-instructions, |
+| 12 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 0 | HTML | 2026-05-25 | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
+| 13 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 13 | — | 2026-05-25 | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
+| 14 | [weijia-89/palamedes](https://github.com/weijia-89/palamedes) | 0 | JavaScript | 2026-05-25 | Rigorous LLM research in two layers: a multi-agent dialectic synthesis prompt + an agent-loadable research skill. Hierar |
+| 15 | [paoloincommensurable537/PixelPilot](https://github.com/paoloincommensurable537/PixelPilot) | 0 | JavaScript | 2026-05-25 | Build unique user interfaces with a structured ruleset to prevent generic AI output. |
+| 16 | [Hyanthropological659/clarify-skill](https://github.com/Hyanthropological659/clarify-skill) | 0 | — | 2026-05-25 | Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a |
+| 17 | [Bastioned-successor320/learn-nanobot](https://github.com/Bastioned-successor320/learn-nanobot) | 0 | Python | 2026-05-25 | Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers |
+| 18 | [vctmasters1/PDS-Layered-AI-Instruct-Template-V3](https://github.com/vctmasters1/PDS-Layered-AI-Instruct-Template-V3) | 0 | TypeScript | 2026-05-25 | Advanced starter template with Depth-Priority Hierarchical AI Instructions for GitHub Copilot Agents and Cursor. Reduces |
+| 19 | [XAKLESK/cre-agent-skills](https://github.com/XAKLESK/cre-agent-skills) | 1 | — | 2026-05-25 | Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc |
+| 20 | [christim427-rgb/ios-agent-skills](https://github.com/christim427-rgb/ios-agent-skills) | 1 | Python | 2026-05-25 | Test iOS agent skills with 11 tasks, 260+ scenarios, and 850+ assertions across 3 models |
+| 21 | [nizhan80-art/Swift-UIKit-Skill](https://github.com/nizhan80-art/Swift-UIKit-Skill) | 1 | — | 2026-05-25 | Build programmatic UIKit apps with production-ready patterns for views, navigation, animation, architecture, and data fl |
+| 22 | [Amirun99/agency-orchestrator](https://github.com/Amirun99/agency-orchestrator) | 0 | Dart | 2026-05-25 | Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support. |
+| 23 | [Overseastelegramaliterateperson865/awesome-claude-md](https://github.com/Overseastelegramaliterateperson865/awesome-claude-md) | 1 | — | 2026-05-25 | Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr |
+| 24 | [ebbaunqualified520/ios-agent-skills](https://github.com/ebbaunqualified520/ios-agent-skills) | 0 | Shell | 2026-05-25 | Build 9 iOS agent skills for SwiftUI, testing, security, and more in one install for AI coding agents |
+| 25 | [zinxj/uikit-expert-skill](https://github.com/zinxj/uikit-expert-skill) | 2 | — | 2026-05-25 | Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan |
+| 26 | [GrekosTheJogurt/antigravity-workspace-manager](https://github.com/GrekosTheJogurt/antigravity-workspace-manager) | 0 | Python | 2026-05-25 | Manage and organize project workspaces while dynamically injecting relevant skills for efficient AI assistant context lo |
+| 27 | [johnwall123459885/skene-cookbook](https://github.com/johnwall123459885/skene-cookbook) | 0 | Python | 2026-05-25 | 🤖 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development. |
+| 28 | [Luxvil/ai-coding-rules](https://github.com/Luxvil/ai-coding-rules) | 2 | Shell | 2026-05-25 | 🤖 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje |
 | 29 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 0 | Shell | 2026-05-25 | 44+ agent skills for high-integrity, spec-driven, test-first software engineering. A prescriptive methodology for orches |
 | 30 | [HoangNguyen0403/agent-skills-standard](https://github.com/HoangNguyen0403/agent-skills-standard) | 498 | TypeScript | 2026-05-25 | A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol |
 | 31 | [Xoner1/octboos](https://github.com/Xoner1/octboos) | 0 | JavaScript | 2026-05-25 | One agent to control every AI tool |

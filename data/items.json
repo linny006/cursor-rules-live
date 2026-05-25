@@ -1,11 +1,20 @@
 [
   {
+    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
+    "id": "eumiguellllllllll/copilot-rules",
+    "language": "Batchfile",
+    "name": "eumiguellllllllll/copilot-rules",
+    "stars": 0,
+    "updated_at": "2026-05-25T22:40:07Z",
+    "url": "https://github.com/eumiguellllllllll/copilot-rules"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "Python",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-05-25T22:15:17Z",
+    "updated_at": "2026-05-25T22:30:17Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -86,7 +95,7 @@
     "language": "Rust",
     "name": "taniwhaai/arai",
     "stars": 5,
-    "updated_at": "2026-05-25T21:47:50Z",
+    "updated_at": "2026-05-25T22:35:56Z",
     "url": "https://github.com/taniwhaai/arai"
   },
   {
@@ -243,15 +252,6 @@
     "url": "https://github.com/Luxvil/ai-coding-rules"
   },
   {
-    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
-    "id": "eumiguellllllllll/copilot-rules",
-    "language": "Batchfile",
-    "name": "eumiguellllllllll/copilot-rules",
-    "stars": 0,
-    "updated_at": "2026-05-25T18:36:02Z",
-    "url": "https://github.com/eumiguellllllllll/copilot-rules"
-  },
-  {
     "description": "44+ agent skills for high-integrity, spec-driven, test-first software engineering. A prescriptive methodology for orches",
     "id": "danielvm-git/bigpowers",
     "language": "Shell",
@@ -320,7 +320,7 @@
     "language": "HTML",
     "name": "agenticstandardcontact-byte/agentic-architect",
     "stars": 0,
-    "updated_at": "2026-05-25T22:18:27Z",
+    "updated_at": "2026-05-25T22:34:04Z",
     "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
   },
   {
