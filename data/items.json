@@ -1,12 +1,21 @@
 [
   {
-    "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
-    "id": "agenticstandardcontact-byte/agentic-architect",
-    "language": "HTML",
-    "name": "agenticstandardcontact-byte/agentic-architect",
+    "description": "One agent to control every AI tool",
+    "id": "Xoner1/octboos",
+    "language": "JavaScript",
+    "name": "Xoner1/octboos",
     "stars": 0,
-    "updated_at": "2026-05-25T22:55:49Z",
-    "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
+    "updated_at": "2026-05-25T23:13:40Z",
+    "url": "https://github.com/Xoner1/octboos"
+  },
+  {
+    "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
+    "id": "caioribeiroclw-pixel/pluribus",
+    "language": "JavaScript",
+    "name": "caioribeiroclw-pixel/pluribus",
+    "stars": 1,
+    "updated_at": "2026-05-25T23:09:09Z",
+    "url": "https://github.com/caioribeiroclw-pixel/pluribus"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +23,17 @@
     "language": "Python",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-05-25T22:45:16Z",
+    "updated_at": "2026-05-25T23:00:15Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
+    "id": "agenticstandardcontact-byte/agentic-architect",
+    "language": "HTML",
+    "name": "agenticstandardcontact-byte/agentic-architect",
+    "stars": 0,
+    "updated_at": "2026-05-25T22:55:49Z",
+    "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
   },
   {
     "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
@@ -81,15 +99,6 @@
     "url": "https://github.com/whydixit/cursor-starter"
   },
   {
-    "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
-    "id": "caioribeiroclw-pixel/pluribus",
-    "language": "JavaScript",
-    "name": "caioribeiroclw-pixel/pluribus",
-    "stars": 1,
-    "updated_at": "2026-05-25T22:04:06Z",
-    "url": "https://github.com/caioribeiroclw-pixel/pluribus"
-  },
-  {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
     "id": "edsondviana8/ai-humanizer-core",
     "language": "HTML",
@@ -104,7 +113,7 @@
     "language": "Rust",
     "name": "taniwhaai/arai",
     "stars": 5,
-    "updated_at": "2026-05-25T22:35:56Z",
+    "updated_at": "2026-05-25T23:14:51Z",
     "url": "https://github.com/taniwhaai/arai"
   },
   {
@@ -277,15 +286,6 @@
     "stars": 498,
     "updated_at": "2026-05-25T16:33:03Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
-  },
-  {
-    "description": "One agent to control every AI tool",
-    "id": "Xoner1/octboos",
-    "language": "JavaScript",
-    "name": "Xoner1/octboos",
-    "stars": 0,
-    "updated_at": "2026-05-25T15:29:01Z",
-    "url": "https://github.com/Xoner1/octboos"
   },
   {
     "description": "VS Code extension for LynxPrompt \u2014 browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules) ",
