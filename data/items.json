@@ -5,8 +5,17 @@
     "language": "Python",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-05-25T01:30:22Z",
+    "updated_at": "2026-05-25T01:31:33Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Archive-grade .mdc rule library for Cursor AI \u2014 26 production-ready rules for teams seeking stable, reusable AI coding g",
+    "id": "LessUp/cursor-rules",
+    "language": "JavaScript",
+    "name": "LessUp/cursor-rules",
+    "stars": 20,
+    "updated_at": "2026-05-25T01:31:32Z",
+    "url": "https://github.com/LessUp/cursor-rules"
   },
   {
     "description": "Build unique user interfaces with a structured ruleset to prevent generic AI output.",
@@ -113,7 +122,7 @@
     "language": "Python",
     "name": "wshobson/agents",
     "stars": 35887,
-    "updated_at": "2026-05-25T01:00:58Z",
+    "updated_at": "2026-05-25T01:33:07Z",
     "url": "https://github.com/wshobson/agents"
   },
   {
@@ -439,14 +448,5 @@
     "stars": 0,
     "updated_at": "2026-05-22T17:21:32Z",
     "url": "https://github.com/CacinieP/network-troubleshoot-skill"
-  },
-  {
-    "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
-    "id": "HoangNguyen0403/agent-skills-standard",
-    "language": "TypeScript",
-    "name": "HoangNguyen0403/agent-skills-standard",
-    "stars": 498,
-    "updated_at": "2026-05-22T15:04:09Z",
-    "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
   }
 ]
