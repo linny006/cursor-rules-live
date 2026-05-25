@@ -33,7 +33,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-05-25 10:49 UTC
+> ⏰ Last updated: 2026-05-25 11:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -76,7 +76,7 @@ expired items removed — so you can rely on what you see being current.
 | 32 | [wshobson/agents](https://github.com/wshobson/agents) | 35915 | Python | 2026-05-25 | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI |
 | 33 | [caioribeiroclw-pixel/pluribus](https://github.com/caioribeiroclw-pixel/pluribus) | 1 | JavaScript | 2026-05-25 | Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security |
 | 34 | [heymegabyte/claude-skills](https://github.com/heymegabyte/claude-skills) | 9 | JavaScript | 2026-05-24 | 14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts → deployed products. |
-| 35 | [Costumary/gsap-choreography](https://github.com/Costumary/gsap-choreography) | 3 | — | 2026-05-24 | AI coding instructions for scripted GSAP product demo animations — cursor choreography, timeline orchestration, scene tr |
+| 35 | [Costumary/gsap-choreography](https://github.com/Costumary/gsap-choreography) | 4 | — | 2026-05-24 | AI coding instructions for scripted GSAP product demo animations — cursor choreography, timeline orchestration, scene tr |
 | 36 | [davccavalcante/supreme-coding-guidelines-skill.ah](https://github.com/davccavalcante/supreme-coding-guidelines-skill.ah) | 1 | Python | 2026-05-24 | Designed for the future of AI development (2027-2030) and leverages the novel `.ah` (Teleological Semantic Format) for u |
 | 37 | [TMHSDigital/Unity-Developer-Tools](https://github.com/TMHSDigital/Unity-Developer-Tools) | 1 | C# | 2026-05-24 | AI-powered development toolkit for Unity game development in Cursor IDE. 18 skills, 8 rules, 4 MCP tools, 20 snippets, 5 |
 | 38 | [weijia-89/palamedes](https://github.com/weijia-89/palamedes) | 0 | JavaScript | 2026-05-24 | Rigorous LLM research in two layers: a multi-agent dialectic synthesis prompt + an agent-loadable research skill. Hierar |
