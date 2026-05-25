@@ -33,7 +33,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-05-25 21:45 UTC
+> ⏰ Last updated: 2026-05-25 22:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -42,10 +42,10 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Description |
 |---|------|---|------|---------|-------------|
-| 1 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 0 | HTML | 2026-05-25 | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
+| 1 | [taniwhaai/arai](https://github.com/taniwhaai/arai) | 5 | Rust | 2026-05-25 | AI coding rules that actually work. Enforce instruction files via hooks — CLAUDE.md, .cursorrules, copilot-instructions, |
 | 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | Python | 2026-05-25 | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 3 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 13 | — | 2026-05-25 | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
-| 4 | [taniwhaai/arai](https://github.com/taniwhaai/arai) | 5 | Rust | 2026-05-25 | AI coding rules that actually work. Enforce instruction files via hooks — CLAUDE.md, .cursorrules, copilot-instructions, |
+| 3 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 0 | HTML | 2026-05-25 | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
+| 4 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 13 | — | 2026-05-25 | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
 | 5 | [weijia-89/palamedes](https://github.com/weijia-89/palamedes) | 0 | JavaScript | 2026-05-25 | Rigorous LLM research in two layers: a multi-agent dialectic synthesis prompt + an agent-loadable research skill. Hierar |
 | 6 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-05-25 | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
 | 7 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-05-25 | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
