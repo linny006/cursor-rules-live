@@ -1,5 +1,32 @@
 [
   {
+    "description": "Strategic software design guidelines for AI coding agents. 15 behavioral rules + critique/audit commands based on A Phil",
+    "id": "mhenke/john-ousterhout-skills",
+    "language": "JavaScript",
+    "name": "mhenke/john-ousterhout-skills",
+    "stars": 0,
+    "updated_at": "2026-05-25T00:11:45Z",
+    "url": "https://github.com/mhenke/john-ousterhout-skills"
+  },
+  {
+    "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
+    "id": "caioribeiroclw-pixel/pluribus",
+    "language": "JavaScript",
+    "name": "caioribeiroclw-pixel/pluribus",
+    "stars": 1,
+    "updated_at": "2026-05-25T00:03:55Z",
+    "url": "https://github.com/caioribeiroclw-pixel/pluribus"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "Python",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-05-25T00:00:18Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
     "id": "eumiguellllllllll/copilot-rules",
     "language": "Batchfile",
@@ -9,20 +36,11 @@
     "url": "https://github.com/eumiguellllllllll/copilot-rules"
   },
   {
-    "description": "Strategic software design guidelines for AI coding agents. 15 behavioral rules + critique/audit commands based on A Phil",
-    "id": "mhenke/john-ousterhout-skills",
-    "language": "JavaScript",
-    "name": "mhenke/john-ousterhout-skills",
-    "stars": 0,
-    "updated_at": "2026-05-24T23:58:44Z",
-    "url": "https://github.com/mhenke/john-ousterhout-skills"
-  },
-  {
     "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI",
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 35885,
+    "stars": 35886,
     "updated_at": "2026-05-24T23:55:39Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -34,15 +52,6 @@
     "stars": 0,
     "updated_at": "2026-05-24T23:51:59Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "Python",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-05-24T23:45:14Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Official multi-LLM agent pack for the GhostSwap Partners API (no-KYC crypto swaps, 1,600+ coins). MCP server, OpenAPI 3.",
@@ -223,15 +232,6 @@
     "stars": 0,
     "updated_at": "2026-05-24T22:10:57Z",
     "url": "https://github.com/johnwall123459885/skene-cookbook"
-  },
-  {
-    "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
-    "id": "caioribeiroclw-pixel/pluribus",
-    "language": "JavaScript",
-    "name": "caioribeiroclw-pixel/pluribus",
-    "stars": 1,
-    "updated_at": "2026-05-24T22:05:51Z",
-    "url": "https://github.com/caioribeiroclw-pixel/pluribus"
   },
   {
     "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
