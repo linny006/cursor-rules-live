@@ -1,12 +1,21 @@
 [
   {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
+    "description": "Advanced starter template with Depth-Priority Hierarchical AI Instructions for GitHub Copilot Agents and Cursor. Reduces",
+    "id": "vctmasters1/PDS-Layered-AI-Instruct-Template-V3",
+    "language": "TypeScript",
+    "name": "vctmasters1/PDS-Layered-AI-Instruct-Template-V3",
     "stars": 0,
-    "updated_at": "2026-05-25T18:47:15Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
+    "updated_at": "2026-05-25T19:14:27Z",
+    "url": "https://github.com/vctmasters1/PDS-Layered-AI-Instruct-Template-V3"
+  },
+  {
+    "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
+    "id": "caioribeiroclw-pixel/pluribus",
+    "language": "JavaScript",
+    "name": "caioribeiroclw-pixel/pluribus",
+    "stars": 1,
+    "updated_at": "2026-05-25T19:04:36Z",
+    "url": "https://github.com/caioribeiroclw-pixel/pluribus"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +23,17 @@
     "language": "Python",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-05-25T18:45:16Z",
+    "updated_at": "2026-05-25T19:00:17Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-05-25T18:47:15Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
   },
   {
     "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
@@ -52,15 +70,6 @@
     "stars": 0,
     "updated_at": "2026-05-25T18:07:28Z",
     "url": "https://github.com/Thabang9218/cursorifier"
-  },
-  {
-    "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
-    "id": "caioribeiroclw-pixel/pluribus",
-    "language": "JavaScript",
-    "name": "caioribeiroclw-pixel/pluribus",
-    "stars": 1,
-    "updated_at": "2026-05-25T18:06:32Z",
-    "url": "https://github.com/caioribeiroclw-pixel/pluribus"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -106,15 +115,6 @@
     "stars": 4,
     "updated_at": "2026-05-25T17:57:59Z",
     "url": "https://github.com/whydixit/cursor-starter"
-  },
-  {
-    "description": "Advanced starter template with Depth-Priority Hierarchical AI Instructions for GitHub Copilot Agents and Cursor. Reduces",
-    "id": "vctmasters1/PDS-Layered-AI-Instruct-Template-V3",
-    "language": "TypeScript",
-    "name": "vctmasters1/PDS-Layered-AI-Instruct-Template-V3",
-    "stars": 0,
-    "updated_at": "2026-05-25T18:59:17Z",
-    "url": "https://github.com/vctmasters1/PDS-Layered-AI-Instruct-Template-V3"
   },
   {
     "description": "44+ agent skills for high-integrity, spec-driven, test-first software engineering. A prescriptive methodology for orches",
@@ -391,7 +391,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 35933,
+    "stars": 35932,
     "updated_at": "2026-05-25T01:33:07Z",
     "url": "https://github.com/wshobson/agents"
   },
