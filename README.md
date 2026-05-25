@@ -42,10 +42,10 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Description |
 |---|------|---|------|---------|-------------|
-| 1 | [Thabang9218/cursorifier](https://github.com/Thabang9218/cursorifier) | 0 | TypeScript | 2026-05-25 | 🖱️ Enhance your Cursor AI with tailored, codebase-specific insights for smarter navigation and improved efficiency. |
-| 2 | [caioribeiroclw-pixel/pluribus](https://github.com/caioribeiroclw-pixel/pluribus) | 1 | JavaScript | 2026-05-25 | Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security |
-| 3 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 0 | HTML | 2026-05-25 | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 4 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | Python | 2026-05-25 | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | Python | 2026-05-25 | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [Thabang9218/cursorifier](https://github.com/Thabang9218/cursorifier) | 0 | TypeScript | 2026-05-25 | 🖱️ Enhance your Cursor AI with tailored, codebase-specific insights for smarter navigation and improved efficiency. |
+| 3 | [caioribeiroclw-pixel/pluribus](https://github.com/caioribeiroclw-pixel/pluribus) | 1 | JavaScript | 2026-05-25 | Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security |
+| 4 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 0 | HTML | 2026-05-25 | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
 | 5 | [weijia-89/palamedes](https://github.com/weijia-89/palamedes) | 0 | JavaScript | 2026-05-25 | Rigorous LLM research in two layers: a multi-agent dialectic synthesis prompt + an agent-loadable research skill. Hierar |
 | 6 | [pemdes174/cursor-rules](https://github.com/pemdes174/cursor-rules) | 5 | — | 2026-05-25 | 🚀 Streamline your Next.js development with practical rules and tested patterns for efficient coding and minimal bugs. |
 | 7 | [JohannFreddyLoayzaHuana/awesome-ai-coding-tools](https://github.com/JohannFreddyLoayzaHuana/awesome-ai-coding-tools) | 2 | — | 2026-05-25 | 💡 Discover AI coding tools that enhance your workflow, from code editors to completion engines, and boost your software  |
@@ -85,7 +85,7 @@ expired items removed — so you can rely on what you see being current.
 | 41 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 4 | TypeScript | 2026-05-25 | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
 | 42 | [ghostswap1/ghostswap-agents](https://github.com/ghostswap1/ghostswap-agents) | 0 | JavaScript | 2026-05-25 | Official multi-LLM agent pack for the GhostSwap Partners API (no-KYC crypto swaps, 1,600+ coins). MCP server, OpenAPI 3. |
 | 43 | [LessUp/cursor-rules](https://github.com/LessUp/cursor-rules) | 20 | JavaScript | 2026-05-25 | Archive-grade .mdc rule library for Cursor AI — 26 production-ready rules for teams seeking stable, reusable AI coding g |
-| 44 | [wshobson/agents](https://github.com/wshobson/agents) | 35929 | Python | 2026-05-25 | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI |
+| 44 | [wshobson/agents](https://github.com/wshobson/agents) | 35930 | Python | 2026-05-25 | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI |
 | 45 | [heymegabyte/claude-skills](https://github.com/heymegabyte/claude-skills) | 9 | JavaScript | 2026-05-24 | 14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts → deployed products. |
 | 46 | [Costumary/gsap-choreography](https://github.com/Costumary/gsap-choreography) | 4 | — | 2026-05-24 | AI coding instructions for scripted GSAP product demo animations — cursor choreography, timeline orchestration, scene tr |
 | 47 | [davccavalcante/supreme-coding-guidelines-skill.ah](https://github.com/davccavalcante/supreme-coding-guidelines-skill.ah) | 1 | Python | 2026-05-24 | Designed for the future of AI development (2027-2030) and leverages the novel `.ah` (Teleological Semantic Format) for u |
