@@ -1,11 +1,20 @@
 [
   {
+    "description": "Governance-first OS for AI coding agents \u2014 structured workflows, delivery gates, engineering guardrails, and 17 professi",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 0,
+    "updated_at": "2026-05-25T09:34:38Z",
+    "url": "https://github.com/KbWen/agentic-os"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "Python",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-05-25T09:15:17Z",
+    "updated_at": "2026-05-25T09:30:18Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -439,14 +448,5 @@
     "stars": 2,
     "updated_at": "2026-05-22T17:32:54Z",
     "url": "https://github.com/pekral/cursor-rules"
-  },
-  {
-    "description": "Universal network troubleshooting skill for 17+ AI coding agents. Built from 112+ real agent sessions. One copy-paste to",
-    "id": "CacinieP/network-troubleshoot-skill",
-    "language": "Shell",
-    "name": "CacinieP/network-troubleshoot-skill",
-    "stars": 0,
-    "updated_at": "2026-05-22T17:21:32Z",
-    "url": "https://github.com/CacinieP/network-troubleshoot-skill"
   }
 ]
