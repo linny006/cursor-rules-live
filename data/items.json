@@ -1,5 +1,32 @@
 [
   {
+    "description": "n8n community node for LynxPrompt \u2014 manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via API",
+    "id": "GeiserX/n8n-nodes-lynxprompt",
+    "language": "TypeScript",
+    "name": "GeiserX/n8n-nodes-lynxprompt",
+    "stars": 1,
+    "updated_at": "2026-05-25T13:29:32Z",
+    "url": "https://github.com/GeiserX/n8n-nodes-lynxprompt"
+  },
+  {
+    "description": "\ud83d\uddb1\ufe0f Enhance your Cursor AI with tailored, codebase-specific insights for smarter navigation and improved efficiency.",
+    "id": "Thabang9218/cursorifier",
+    "language": "TypeScript",
+    "name": "Thabang9218/cursorifier",
+    "stars": 0,
+    "updated_at": "2026-05-25T13:18:14Z",
+    "url": "https://github.com/Thabang9218/cursorifier"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "Python",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-05-25T13:15:18Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "\ud83d\ude80 Streamline your Next.js development with practical rules and tested patterns for efficient coding and minimal bugs.",
     "id": "pemdes174/cursor-rules",
     "language": "\u2014",
@@ -25,15 +52,6 @@
     "stars": 4,
     "updated_at": "2026-05-25T13:08:26Z",
     "url": "https://github.com/whydixit/cursor-starter"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "Python",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-05-25T13:00:17Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -223,15 +241,6 @@
     "stars": 0,
     "updated_at": "2026-05-25T10:30:06Z",
     "url": "https://github.com/eumiguellllllllll/copilot-rules"
-  },
-  {
-    "description": "\ud83d\uddb1\ufe0f Enhance your Cursor AI with tailored, codebase-specific insights for smarter navigation and improved efficiency.",
-    "id": "Thabang9218/cursorifier",
-    "language": "TypeScript",
-    "name": "Thabang9218/cursorifier",
-    "stars": 0,
-    "updated_at": "2026-05-25T10:01:36Z",
-    "url": "https://github.com/Thabang9218/cursorifier"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -439,14 +448,5 @@
     "stars": 0,
     "updated_at": "2026-05-23T01:34:55Z",
     "url": "https://github.com/jcottam/agent-resources"
-  },
-  {
-    "description": "How to write great CLAUDE.md, AGENTS.md, Cursor rules, Kiro steering, and Copilot instructions",
-    "id": "TuckerWarlock/ai-instructions",
-    "language": "\u2014",
-    "name": "TuckerWarlock/ai-instructions",
-    "stars": 1,
-    "updated_at": "2026-05-23T00:33:05Z",
-    "url": "https://github.com/TuckerWarlock/ai-instructions"
   }
 ]
