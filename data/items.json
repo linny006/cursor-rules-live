@@ -1,11 +1,56 @@
 [
   {
+    "description": "Rigorous LLM research in two layers: a multi-agent dialectic synthesis prompt + an agent-loadable research skill. Hierar",
+    "id": "weijia-89/palamedes",
+    "language": "JavaScript",
+    "name": "weijia-89/palamedes",
+    "stars": 0,
+    "updated_at": "2026-05-25T18:00:02Z",
+    "url": "https://github.com/weijia-89/palamedes"
+  },
+  {
+    "description": "\ud83d\ude80 Streamline your Next.js development with practical rules and tested patterns for efficient coding and minimal bugs.",
+    "id": "pemdes174/cursor-rules",
+    "language": "\u2014",
+    "name": "pemdes174/cursor-rules",
+    "stars": 5,
+    "updated_at": "2026-05-25T17:59:11Z",
+    "url": "https://github.com/pemdes174/cursor-rules"
+  },
+  {
+    "description": "\ud83d\udca1 Discover AI coding tools that enhance your workflow, from code editors to completion engines, and boost your software ",
+    "id": "JohannFreddyLoayzaHuana/awesome-ai-coding-tools",
+    "language": "\u2014",
+    "name": "JohannFreddyLoayzaHuana/awesome-ai-coding-tools",
+    "stars": 2,
+    "updated_at": "2026-05-25T17:58:05Z",
+    "url": "https://github.com/JohannFreddyLoayzaHuana/awesome-ai-coding-tools"
+  },
+  {
+    "description": "\u2728 Enhance your software development with a curated collection of prompts for Cursor AI, boosting efficiency in planning ",
+    "id": "whydixit/cursor-starter",
+    "language": "\u2014",
+    "name": "whydixit/cursor-starter",
+    "stars": 4,
+    "updated_at": "2026-05-25T17:57:59Z",
+    "url": "https://github.com/whydixit/cursor-starter"
+  },
+  {
+    "description": "Advanced starter template with Depth-Priority Hierarchical AI Instructions for GitHub Copilot Agents and Cursor. Reduces",
+    "id": "vctmasters1/PDS-Layered-AI-Instruct-Template-V3",
+    "language": "TypeScript",
+    "name": "vctmasters1/PDS-Layered-AI-Instruct-Template-V3",
+    "stars": 0,
+    "updated_at": "2026-05-25T17:54:19Z",
+    "url": "https://github.com/vctmasters1/PDS-Layered-AI-Instruct-Template-V3"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "Python",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-05-25T17:30:15Z",
+    "updated_at": "2026-05-25T17:45:15Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -252,33 +297,6 @@
     "url": "https://github.com/Thabang9218/cursorifier"
   },
   {
-    "description": "\ud83d\ude80 Streamline your Next.js development with practical rules and tested patterns for efficient coding and minimal bugs.",
-    "id": "pemdes174/cursor-rules",
-    "language": "\u2014",
-    "name": "pemdes174/cursor-rules",
-    "stars": 5,
-    "updated_at": "2026-05-25T13:09:39Z",
-    "url": "https://github.com/pemdes174/cursor-rules"
-  },
-  {
-    "description": "\ud83d\udca1 Discover AI coding tools that enhance your workflow, from code editors to completion engines, and boost your software ",
-    "id": "JohannFreddyLoayzaHuana/awesome-ai-coding-tools",
-    "language": "\u2014",
-    "name": "JohannFreddyLoayzaHuana/awesome-ai-coding-tools",
-    "stars": 2,
-    "updated_at": "2026-05-25T13:08:34Z",
-    "url": "https://github.com/JohannFreddyLoayzaHuana/awesome-ai-coding-tools"
-  },
-  {
-    "description": "\u2728 Enhance your software development with a curated collection of prompts for Cursor AI, boosting efficiency in planning ",
-    "id": "whydixit/cursor-starter",
-    "language": "\u2014",
-    "name": "whydixit/cursor-starter",
-    "stars": 4,
-    "updated_at": "2026-05-25T13:08:26Z",
-    "url": "https://github.com/whydixit/cursor-starter"
-  },
-  {
     "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
     "id": "agenticstandardcontact-byte/agentic-architect",
     "language": "HTML",
@@ -373,7 +391,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 35927,
+    "stars": 35928,
     "updated_at": "2026-05-25T01:33:07Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -414,15 +432,6 @@
     "url": "https://github.com/TMHSDigital/Unity-Developer-Tools"
   },
   {
-    "description": "Rigorous LLM research in two layers: a multi-agent dialectic synthesis prompt + an agent-loadable research skill. Hierar",
-    "id": "weijia-89/palamedes",
-    "language": "JavaScript",
-    "name": "weijia-89/palamedes",
-    "stars": 0,
-    "updated_at": "2026-05-25T17:35:59Z",
-    "url": "https://github.com/weijia-89/palamedes"
-  },
-  {
     "description": "Jetpack Compose & Kotlin AI agent skills for Cursor, Claude Code, Codex, Gemini & 27+ agents. Strict MVI \u00b7 Kotlin 2.x K2",
     "id": "haidrrrry/compose-kotlin-agent-skills",
     "language": "Markdown",
@@ -439,14 +448,5 @@
     "stars": 1,
     "updated_at": "2026-05-24T12:25:01Z",
     "url": "https://github.com/vikisingh23/wealth-forge-ai"
-  },
-  {
-    "description": "A presentation about Cursor AI designed to be used in Java Space.",
-    "id": "jabrena/101-cursor",
-    "language": "Java",
-    "name": "jabrena/101-cursor",
-    "stars": 2,
-    "updated_at": "2026-05-24T11:23:01Z",
-    "url": "https://github.com/jabrena/101-cursor"
   }
 ]
