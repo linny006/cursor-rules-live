@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "Python",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-05-25T12:15:20Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Strategic software design guidelines for AI coding agents. 15 behavioral rules + critique/audit commands based on A Phil",
     "id": "mhenke/john-ousterhout-skills",
     "language": "JavaScript",
@@ -70,15 +79,6 @@
     "stars": 1,
     "updated_at": "2026-05-25T12:01:26Z",
     "url": "https://github.com/christim427-rgb/ios-agent-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "Python",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-05-25T12:00:20Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Build programmatic UIKit apps with production-ready patterns for views, navigation, animation, architecture, and data fl",
