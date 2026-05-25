@@ -1,12 +1,12 @@
 [
   {
-    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
-    "id": "eumiguellllllllll/copilot-rules",
-    "language": "Batchfile",
-    "name": "eumiguellllllllll/copilot-rules",
-    "stars": 0,
-    "updated_at": "2026-05-25T10:30:06Z",
-    "url": "https://github.com/eumiguellllllllll/copilot-rules"
+    "description": "A production-ready survival kit for Vibe Coders. Maximize your token efficiency and unlock 10x AI coding speed with zero",
+    "id": "solune-lab/the-vibe-stack",
+    "language": "\u2014",
+    "name": "solune-lab/the-vibe-stack",
+    "stars": 3,
+    "updated_at": "2026-05-25T10:33:19Z",
+    "url": "https://github.com/solune-lab/the-vibe-stack"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "Python",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-05-25T10:15:18Z",
+    "updated_at": "2026-05-25T10:30:19Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
+    "id": "eumiguellllllllll/copilot-rules",
+    "language": "Batchfile",
+    "name": "eumiguellllllllll/copilot-rules",
+    "stars": 0,
+    "updated_at": "2026-05-25T10:30:06Z",
+    "url": "https://github.com/eumiguellllllllll/copilot-rules"
   },
   {
     "description": "\ud83d\uddb1\ufe0f Enhance your Cursor AI with tailored, codebase-specific insights for smarter navigation and improved efficiency.",
@@ -439,14 +448,5 @@
     "stars": 1,
     "updated_at": "2026-05-23T00:33:05Z",
     "url": "https://github.com/TuckerWarlock/ai-instructions"
-  },
-  {
-    "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
-    "id": "pekral/cursor-rules",
-    "language": "PHP",
-    "name": "pekral/cursor-rules",
-    "stars": 2,
-    "updated_at": "2026-05-22T17:32:54Z",
-    "url": "https://github.com/pekral/cursor-rules"
   }
 ]
