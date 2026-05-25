@@ -1,5 +1,23 @@
 [
   {
+    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
+    "id": "eumiguellllllllll/copilot-rules",
+    "language": "Batchfile",
+    "name": "eumiguellllllllll/copilot-rules",
+    "stars": 0,
+    "updated_at": "2026-05-25T03:29:56Z",
+    "url": "https://github.com/eumiguellllllllll/copilot-rules"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "Python",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-05-25T03:15:15Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "\ud83d\uddb1\ufe0f Enhance your Cursor AI with tailored, codebase-specific insights for smarter navigation and improved efficiency.",
     "id": "Thabang9218/cursorifier",
     "language": "TypeScript",
@@ -16,15 +34,6 @@
     "stars": 0,
     "updated_at": "2026-05-25T03:01:38Z",
     "url": "https://github.com/mhenke/john-ousterhout-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "Python",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-05-25T03:00:18Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\ud83d\ude80 Streamline your Next.js development with practical rules and tested patterns for efficient coding and minimal bugs.",
@@ -76,7 +85,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 35890,
+    "stars": 35892,
     "updated_at": "2026-05-25T01:33:07Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -205,15 +214,6 @@
     "stars": 2,
     "updated_at": "2026-05-25T00:41:10Z",
     "url": "https://github.com/Luxvil/ai-coding-rules"
-  },
-  {
-    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
-    "id": "eumiguellllllllll/copilot-rules",
-    "language": "Batchfile",
-    "name": "eumiguellllllllll/copilot-rules",
-    "stars": 0,
-    "updated_at": "2026-05-24T23:59:53Z",
-    "url": "https://github.com/eumiguellllllllll/copilot-rules"
   },
   {
     "description": "Official multi-LLM agent pack for the GhostSwap Partners API (no-KYC crypto swaps, 1,600+ coins). MCP server, OpenAPI 3.",
