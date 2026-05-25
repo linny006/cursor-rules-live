@@ -33,7 +33,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-05-25 06:45 UTC
+> ⏰ Last updated: 2026-05-25 07:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -67,7 +67,7 @@ expired items removed — so you can rely on what you see being current.
 | 23 | [mhenke/john-ousterhout-skills](https://github.com/mhenke/john-ousterhout-skills) | 0 | JavaScript | 2026-05-25 | Strategic software design guidelines for AI coding agents. 15 behavioral rules + critique/audit commands based on A Phil |
 | 24 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 0 | HTML | 2026-05-25 | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
 | 25 | [LessUp/cursor-rules](https://github.com/LessUp/cursor-rules) | 20 | JavaScript | 2026-05-25 | Archive-grade .mdc rule library for Cursor AI — 26 production-ready rules for teams seeking stable, reusable AI coding g |
-| 26 | [wshobson/agents](https://github.com/wshobson/agents) | 35901 | Python | 2026-05-25 | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI |
+| 26 | [wshobson/agents](https://github.com/wshobson/agents) | 35902 | Python | 2026-05-25 | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI |
 | 27 | [caioribeiroclw-pixel/pluribus](https://github.com/caioribeiroclw-pixel/pluribus) | 1 | JavaScript | 2026-05-25 | Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security |
 | 28 | [ghostswap1/ghostswap-agents](https://github.com/ghostswap1/ghostswap-agents) | 0 | JavaScript | 2026-05-24 | Official multi-LLM agent pack for the GhostSwap Partners API (no-KYC crypto swaps, 1,600+ coins). MCP server, OpenAPI 3. |
 | 29 | [heymegabyte/claude-skills](https://github.com/heymegabyte/claude-skills) | 9 | JavaScript | 2026-05-24 | 14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts → deployed products. |
