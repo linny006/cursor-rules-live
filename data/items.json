@@ -1,5 +1,32 @@
 [
   {
+    "description": "Advanced starter template with Depth-Priority Hierarchical AI Instructions for GitHub Copilot Agents and Cursor. Reduces",
+    "id": "vctmasters1/PDS-Layered-AI-Instruct-Template-V3",
+    "language": "TypeScript",
+    "name": "vctmasters1/PDS-Layered-AI-Instruct-Template-V3",
+    "stars": 0,
+    "updated_at": "2026-05-25T19:58:19Z",
+    "url": "https://github.com/vctmasters1/PDS-Layered-AI-Instruct-Template-V3"
+  },
+  {
+    "description": "Build 9 iOS agent skills for SwiftUI, testing, security, and more in one install for AI coding agents",
+    "id": "ebbaunqualified520/ios-agent-skills",
+    "language": "Shell",
+    "name": "ebbaunqualified520/ios-agent-skills",
+    "stars": 0,
+    "updated_at": "2026-05-25T19:57:04Z",
+    "url": "https://github.com/ebbaunqualified520/ios-agent-skills"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "Python",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-05-25T19:45:16Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
     "id": "zinxj/uikit-expert-skill",
     "language": "\u2014",
@@ -7,15 +34,6 @@
     "stars": 2,
     "updated_at": "2026-05-25T19:41:58Z",
     "url": "https://github.com/zinxj/uikit-expert-skill"
-  },
-  {
-    "description": "Advanced starter template with Depth-Priority Hierarchical AI Instructions for GitHub Copilot Agents and Cursor. Reduces",
-    "id": "vctmasters1/PDS-Layered-AI-Instruct-Template-V3",
-    "language": "TypeScript",
-    "name": "vctmasters1/PDS-Layered-AI-Instruct-Template-V3",
-    "stars": 0,
-    "updated_at": "2026-05-25T19:41:31Z",
-    "url": "https://github.com/vctmasters1/PDS-Layered-AI-Instruct-Template-V3"
   },
   {
     "description": "Manage and organize project workspaces while dynamically injecting relevant skills for efficient AI assistant context lo",
@@ -34,15 +52,6 @@
     "stars": 0,
     "updated_at": "2026-05-25T19:31:25Z",
     "url": "https://github.com/johnwall123459885/skene-cookbook"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "Python",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-05-25T19:30:18Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
@@ -261,15 +270,6 @@
     "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
   },
   {
-    "description": "Build 9 iOS agent skills for SwiftUI, testing, security, and more in one install for AI coding agents",
-    "id": "ebbaunqualified520/ios-agent-skills",
-    "language": "Shell",
-    "name": "ebbaunqualified520/ios-agent-skills",
-    "stars": 0,
-    "updated_at": "2026-05-25T15:15:03Z",
-    "url": "https://github.com/ebbaunqualified520/ios-agent-skills"
-  },
-  {
     "description": "VS Code extension for LynxPrompt \u2014 browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules) ",
     "id": "GeiserX/lynxprompt-vscode",
     "language": "TypeScript",
@@ -409,7 +409,7 @@
     "id": "Costumary/gsap-choreography",
     "language": "\u2014",
     "name": "Costumary/gsap-choreography",
-    "stars": 4,
+    "stars": 5,
     "updated_at": "2026-05-24T21:38:49Z",
     "url": "https://github.com/Costumary/gsap-choreography"
   },
