@@ -1,11 +1,47 @@
 [
   {
+    "description": "\ud83e\udd16 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development.",
+    "id": "johnwall123459885/skene-cookbook",
+    "language": "Python",
+    "name": "johnwall123459885/skene-cookbook",
+    "stars": 0,
+    "updated_at": "2026-05-25T07:10:35Z",
+    "url": "https://github.com/johnwall123459885/skene-cookbook"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-05-25T07:04:07Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
+    "id": "Luxvil/ai-coding-rules",
+    "language": "Shell",
+    "name": "Luxvil/ai-coding-rules",
+    "stars": 2,
+    "updated_at": "2026-05-25T07:03:09Z",
+    "url": "https://github.com/Luxvil/ai-coding-rules"
+  },
+  {
+    "description": "Official multi-LLM agent pack for the GhostSwap Partners API (no-KYC crypto swaps, 1,600+ coins). MCP server, OpenAPI 3.",
+    "id": "ghostswap1/ghostswap-agents",
+    "language": "JavaScript",
+    "name": "ghostswap1/ghostswap-agents",
+    "stars": 0,
+    "updated_at": "2026-05-25T07:01:33Z",
+    "url": "https://github.com/ghostswap1/ghostswap-agents"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "Python",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-05-25T06:45:17Z",
+    "updated_at": "2026-05-25T07:00:18Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -171,15 +207,6 @@
     "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
   },
   {
-    "description": "\ud83e\udd16 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development.",
-    "id": "johnwall123459885/skene-cookbook",
-    "language": "Python",
-    "name": "johnwall123459885/skene-cookbook",
-    "stars": 0,
-    "updated_at": "2026-05-25T04:19:11Z",
-    "url": "https://github.com/johnwall123459885/skene-cookbook"
-  },
-  {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
     "id": "arnoldalberto007-sys/Swift-UIKit-Components",
     "language": "HTML",
@@ -189,15 +216,6 @@
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
-    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
-    "id": "Luxvil/ai-coding-rules",
-    "language": "Shell",
-    "name": "Luxvil/ai-coding-rules",
-    "stars": 2,
-    "updated_at": "2026-05-25T04:12:55Z",
-    "url": "https://github.com/Luxvil/ai-coding-rules"
-  },
-  {
     "description": "Strategic software design guidelines for AI coding agents. 15 behavioral rules + critique/audit commands based on A Phil",
     "id": "mhenke/john-ousterhout-skills",
     "language": "JavaScript",
@@ -205,15 +223,6 @@
     "stars": 0,
     "updated_at": "2026-05-25T03:01:38Z",
     "url": "https://github.com/mhenke/john-ousterhout-skills"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 0,
-    "updated_at": "2026-05-25T02:34:52Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Archive-grade .mdc rule library for Cursor AI \u2014 26 production-ready rules for teams seeking stable, reusable AI coding g",
@@ -229,7 +238,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 35902,
+    "stars": 35904,
     "updated_at": "2026-05-25T01:33:07Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -241,15 +250,6 @@
     "stars": 1,
     "updated_at": "2026-05-25T01:07:23Z",
     "url": "https://github.com/caioribeiroclw-pixel/pluribus"
-  },
-  {
-    "description": "Official multi-LLM agent pack for the GhostSwap Partners API (no-KYC crypto swaps, 1,600+ coins). MCP server, OpenAPI 3.",
-    "id": "ghostswap1/ghostswap-agents",
-    "language": "JavaScript",
-    "name": "ghostswap1/ghostswap-agents",
-    "stars": 0,
-    "updated_at": "2026-05-24T23:42:23Z",
-    "url": "https://github.com/ghostswap1/ghostswap-agents"
   },
   {
     "description": "14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts \u2192 deployed products.",
