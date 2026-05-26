@@ -5,8 +5,35 @@
     "language": "Shell",
     "name": "SID-SURANGE/cursor-team-kit",
     "stars": 0,
-    "updated_at": "2026-05-26T17:53:12Z",
+    "updated_at": "2026-05-26T18:12:50Z",
     "url": "https://github.com/SID-SURANGE/cursor-team-kit"
+  },
+  {
+    "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
+    "id": "caioribeiroclw-pixel/pluribus",
+    "language": "JavaScript",
+    "name": "caioribeiroclw-pixel/pluribus",
+    "stars": 1,
+    "updated_at": "2026-05-26T18:06:57Z",
+    "url": "https://github.com/caioribeiroclw-pixel/pluribus"
+  },
+  {
+    "description": "Enforce architectural decisions in AI-assisted development.",
+    "id": "TheoV823/mneme",
+    "language": "HTML",
+    "name": "TheoV823/mneme",
+    "stars": 9,
+    "updated_at": "2026-05-26T18:06:27Z",
+    "url": "https://github.com/TheoV823/mneme"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "Python",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-05-26T18:00:22Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -16,24 +43,6 @@
     "stars": 12,
     "updated_at": "2026-05-26T17:51:44Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "Python",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-05-26T17:45:17Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
-    "description": "Enforce architectural decisions in AI-assisted development.",
-    "id": "TheoV823/mneme",
-    "language": "HTML",
-    "name": "TheoV823/mneme",
-    "stars": 9,
-    "updated_at": "2026-05-26T17:36:34Z",
-    "url": "https://github.com/TheoV823/mneme"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -193,7 +202,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 35977,
+    "stars": 35978,
     "updated_at": "2026-05-26T15:30:34Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -241,15 +250,6 @@
     "stars": 4,
     "updated_at": "2026-05-26T14:46:59Z",
     "url": "https://github.com/whydixit/cursor-starter"
-  },
-  {
-    "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
-    "id": "caioribeiroclw-pixel/pluribus",
-    "language": "JavaScript",
-    "name": "caioribeiroclw-pixel/pluribus",
-    "stars": 1,
-    "updated_at": "2026-05-26T14:10:12Z",
-    "url": "https://github.com/caioribeiroclw-pixel/pluribus"
   },
   {
     "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
