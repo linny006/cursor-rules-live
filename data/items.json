@@ -1,12 +1,30 @@
 [
   {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "description": "\ud83e\udd16 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development.",
+    "id": "johnwall123459885/skene-cookbook",
+    "language": "Python",
+    "name": "johnwall123459885/skene-cookbook",
     "stars": 0,
-    "updated_at": "2026-05-26T08:45:31Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
+    "updated_at": "2026-05-26T09:09:33Z",
+    "url": "https://github.com/johnwall123459885/skene-cookbook"
+  },
+  {
+    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
+    "id": "Luxvil/ai-coding-rules",
+    "language": "Shell",
+    "name": "Luxvil/ai-coding-rules",
+    "stars": 2,
+    "updated_at": "2026-05-26T09:02:41Z",
+    "url": "https://github.com/Luxvil/ai-coding-rules"
+  },
+  {
+    "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
+    "id": "philipbankier/awesome-agent-skills",
+    "language": "TypeScript",
+    "name": "philipbankier/awesome-agent-skills",
+    "stars": 4,
+    "updated_at": "2026-05-26T09:02:36Z",
+    "url": "https://github.com/philipbankier/awesome-agent-skills"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +32,17 @@
     "language": "Python",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-05-26T08:45:19Z",
+    "updated_at": "2026-05-26T09:00:31Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 0,
+    "updated_at": "2026-05-26T08:45:31Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -189,24 +216,6 @@
     "url": "https://github.com/GrekosTheJogurt/antigravity-workspace-manager"
   },
   {
-    "description": "\ud83e\udd16 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development.",
-    "id": "johnwall123459885/skene-cookbook",
-    "language": "Python",
-    "name": "johnwall123459885/skene-cookbook",
-    "stars": 0,
-    "updated_at": "2026-05-26T06:14:38Z",
-    "url": "https://github.com/johnwall123459885/skene-cookbook"
-  },
-  {
-    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
-    "id": "Luxvil/ai-coding-rules",
-    "language": "Shell",
-    "name": "Luxvil/ai-coding-rules",
-    "stars": 2,
-    "updated_at": "2026-05-26T06:07:37Z",
-    "url": "https://github.com/Luxvil/ai-coding-rules"
-  },
-  {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
     "id": "Trentobobbi/uikit-mastery-playbook",
     "language": "HTML",
@@ -265,7 +274,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 35957,
+    "stars": 35958,
     "updated_at": "2026-05-26T01:14:52Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -394,15 +403,6 @@
     "stars": 2,
     "updated_at": "2026-05-25T09:06:52Z",
     "url": "https://github.com/DongDuong2001/pudo-code-system"
-  },
-  {
-    "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
-    "id": "philipbankier/awesome-agent-skills",
-    "language": "TypeScript",
-    "name": "philipbankier/awesome-agent-skills",
-    "stars": 4,
-    "updated_at": "2026-05-25T08:46:40Z",
-    "url": "https://github.com/philipbankier/awesome-agent-skills"
   },
   {
     "description": "Official multi-LLM agent pack for the GhostSwap Partners API (no-KYC crypto swaps, 1,600+ coins). MCP server, OpenAPI 3.",
