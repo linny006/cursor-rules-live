@@ -1,11 +1,20 @@
 [
   {
+    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
+    "id": "Luxvil/ai-coding-rules",
+    "language": "Shell",
+    "name": "Luxvil/ai-coding-rules",
+    "stars": 2,
+    "updated_at": "2026-05-26T02:14:58Z",
+    "url": "https://github.com/Luxvil/ai-coding-rules"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "Python",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-05-26T01:45:17Z",
+    "updated_at": "2026-05-26T02:00:15Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -40,7 +49,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 35944,
+    "stars": 35945,
     "updated_at": "2026-05-26T01:14:52Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -259,15 +268,6 @@
     "stars": 0,
     "updated_at": "2026-05-25T23:32:26Z",
     "url": "https://github.com/vctmasters1/PDS-Layered-AI-Instruct-Template-V3"
-  },
-  {
-    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
-    "id": "Luxvil/ai-coding-rules",
-    "language": "Shell",
-    "name": "Luxvil/ai-coding-rules",
-    "stars": 2,
-    "updated_at": "2026-05-25T23:25:45Z",
-    "url": "https://github.com/Luxvil/ai-coding-rules"
   },
   {
     "description": "One agent to control every AI tool",
