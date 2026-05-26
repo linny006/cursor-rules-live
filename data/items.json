@@ -5,8 +5,17 @@
     "language": "Shell",
     "name": "SID-SURANGE/cursor-team-kit",
     "stars": 0,
-    "updated_at": "2026-05-26T18:12:50Z",
+    "updated_at": "2026-05-26T18:21:00Z",
     "url": "https://github.com/SID-SURANGE/cursor-team-kit"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "Python",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-05-26T18:15:21Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
@@ -25,15 +34,6 @@
     "stars": 9,
     "updated_at": "2026-05-26T18:06:27Z",
     "url": "https://github.com/TheoV823/mneme"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "Python",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-05-26T18:00:22Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -202,7 +202,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 35978,
+    "stars": 35979,
     "updated_at": "2026-05-26T15:30:34Z",
     "url": "https://github.com/wshobson/agents"
   },
