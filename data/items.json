@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "Python",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-05-26T15:45:23Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI",
     "id": "wshobson/agents",
     "language": "Python",
@@ -7,15 +16,6 @@
     "stars": 35968,
     "updated_at": "2026-05-26T15:30:34Z",
     "url": "https://github.com/wshobson/agents"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "Python",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-05-26T15:30:26Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
