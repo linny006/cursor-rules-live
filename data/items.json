@@ -5,8 +5,17 @@
     "language": "Python",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-05-26T13:45:22Z",
+    "updated_at": "2026-05-26T13:55:36Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Enforce architectural decisions in AI-assisted development.",
+    "id": "TheoV823/mneme",
+    "language": "HTML",
+    "name": "TheoV823/mneme",
+    "stars": 9,
+    "updated_at": "2026-05-26T13:52:48Z",
+    "url": "https://github.com/TheoV823/mneme"
   },
   {
     "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
@@ -43,15 +52,6 @@
     "stars": 1,
     "updated_at": "2026-05-26T13:18:17Z",
     "url": "https://github.com/caioribeiroclw-pixel/pluribus"
-  },
-  {
-    "description": "Enforce architectural decisions in AI-assisted development.",
-    "id": "TheoV823/mneme",
-    "language": "HTML",
-    "name": "TheoV823/mneme",
-    "stars": 9,
-    "updated_at": "2026-05-26T13:52:48Z",
-    "url": "https://github.com/TheoV823/mneme"
   },
   {
     "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
@@ -131,7 +131,7 @@
     "language": "HTML",
     "name": "Trentobobbi/uikit-mastery-playbook",
     "stars": 0,
-    "updated_at": "2026-05-26T10:08:53Z",
+    "updated_at": "2026-05-26T13:58:08Z",
     "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
   },
   {
@@ -140,7 +140,7 @@
     "language": "HTML",
     "name": "arnoldalberto007-sys/Swift-UIKit-Components",
     "stars": 0,
-    "updated_at": "2026-05-26T10:06:35Z",
+    "updated_at": "2026-05-26T13:57:05Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
@@ -176,7 +176,7 @@
     "language": "\u2014",
     "name": "XAKLESK/cre-agent-skills",
     "stars": 1,
-    "updated_at": "2026-05-26T09:47:16Z",
+    "updated_at": "2026-05-26T13:58:31Z",
     "url": "https://github.com/XAKLESK/cre-agent-skills"
   },
   {
@@ -194,7 +194,7 @@
     "language": "Python",
     "name": "christim427-rgb/ios-agent-skills",
     "stars": 1,
-    "updated_at": "2026-05-26T09:44:54Z",
+    "updated_at": "2026-05-26T13:56:29Z",
     "url": "https://github.com/christim427-rgb/ios-agent-skills"
   },
   {
