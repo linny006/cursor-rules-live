@@ -5,8 +5,35 @@
     "language": "Dart",
     "name": "fluttersdk/wind",
     "stars": 18,
-    "updated_at": "2026-05-26T22:26:28Z",
+    "updated_at": "2026-05-26T22:40:42Z",
     "url": "https://github.com/fluttersdk/wind"
+  },
+  {
+    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
+    "id": "eumiguellllllllll/copilot-rules",
+    "language": "Batchfile",
+    "name": "eumiguellllllllll/copilot-rules",
+    "stars": 0,
+    "updated_at": "2026-05-26T22:38:17Z",
+    "url": "https://github.com/eumiguellllllllll/copilot-rules"
+  },
+  {
+    "description": "AI coding rules that actually work. Enforce instruction files via hooks \u2014 CLAUDE.md, .cursorrules, copilot-instructions,",
+    "id": "taniwhaai/arai",
+    "language": "Rust",
+    "name": "taniwhaai/arai",
+    "stars": 5,
+    "updated_at": "2026-05-26T22:35:22Z",
+    "url": "https://github.com/taniwhaai/arai"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "Python",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-05-26T22:30:16Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -25,15 +52,6 @@
     "stars": 0,
     "updated_at": "2026-05-26T22:23:33Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "Python",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-05-26T22:15:17Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\ud83d\uddb1\ufe0f Enhance your Cursor AI with tailored, codebase-specific insights for smarter navigation and improved efficiency.",
@@ -243,15 +261,6 @@
     "url": "https://github.com/Luxvil/ai-coding-rules"
   },
   {
-    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
-    "id": "eumiguellllllllll/copilot-rules",
-    "language": "Batchfile",
-    "name": "eumiguellllllllll/copilot-rules",
-    "stars": 0,
-    "updated_at": "2026-05-26T19:51:17Z",
-    "url": "https://github.com/eumiguellllllllll/copilot-rules"
-  },
-  {
     "description": "Team-ops layer for Cursor \u2014 versioned rules, skills & git guardrails rolled out across your whole engineering team in 5 ",
     "id": "SID-SURANGE/cursor-team-kit",
     "language": "Shell",
@@ -274,7 +283,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 35986,
+    "stars": 35988,
     "updated_at": "2026-05-26T15:30:34Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -295,15 +304,6 @@
     "stars": 11,
     "updated_at": "2026-05-26T12:23:24Z",
     "url": "https://github.com/Smithbox-ai/ControlFlow"
-  },
-  {
-    "description": "AI coding rules that actually work. Enforce instruction files via hooks \u2014 CLAUDE.md, .cursorrules, copilot-instructions,",
-    "id": "taniwhaai/arai",
-    "language": "Rust",
-    "name": "taniwhaai/arai",
-    "stars": 5,
-    "updated_at": "2026-05-26T22:18:57Z",
-    "url": "https://github.com/taniwhaai/arai"
   },
   {
     "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
