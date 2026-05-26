@@ -1,12 +1,12 @@
 [
   {
-    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
-    "id": "Luxvil/ai-coding-rules",
-    "language": "Shell",
-    "name": "Luxvil/ai-coding-rules",
-    "stars": 2,
-    "updated_at": "2026-05-26T13:13:02Z",
-    "url": "https://github.com/Luxvil/ai-coding-rules"
+    "description": "\ud83e\udd16 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development.",
+    "id": "johnwall123459885/skene-cookbook",
+    "language": "Python",
+    "name": "johnwall123459885/skene-cookbook",
+    "stars": 0,
+    "updated_at": "2026-05-26T13:20:03Z",
+    "url": "https://github.com/johnwall123459885/skene-cookbook"
   },
   {
     "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
@@ -14,8 +14,17 @@
     "language": "JavaScript",
     "name": "caioribeiroclw-pixel/pluribus",
     "stars": 1,
-    "updated_at": "2026-05-26T13:11:37Z",
+    "updated_at": "2026-05-26T13:18:17Z",
     "url": "https://github.com/caioribeiroclw-pixel/pluribus"
+  },
+  {
+    "description": "Enforce architectural decisions in AI-assisted development.",
+    "id": "TheoV823/mneme",
+    "language": "HTML",
+    "name": "TheoV823/mneme",
+    "stars": 9,
+    "updated_at": "2026-05-26T13:17:02Z",
+    "url": "https://github.com/TheoV823/mneme"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -23,8 +32,17 @@
     "language": "Python",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-05-26T13:00:23Z",
+    "updated_at": "2026-05-26T13:15:22Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
+    "id": "Luxvil/ai-coding-rules",
+    "language": "Shell",
+    "name": "Luxvil/ai-coding-rules",
+    "stars": 2,
+    "updated_at": "2026-05-26T13:13:02Z",
+    "url": "https://github.com/Luxvil/ai-coding-rules"
   },
   {
     "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
@@ -212,17 +230,8 @@
     "language": "Python",
     "name": "GrekosTheJogurt/antigravity-workspace-manager",
     "stars": 0,
-    "updated_at": "2026-05-26T09:16:10Z",
+    "updated_at": "2026-05-26T13:26:46Z",
     "url": "https://github.com/GrekosTheJogurt/antigravity-workspace-manager"
-  },
-  {
-    "description": "\ud83e\udd16 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development.",
-    "id": "johnwall123459885/skene-cookbook",
-    "language": "Python",
-    "name": "johnwall123459885/skene-cookbook",
-    "stars": 0,
-    "updated_at": "2026-05-26T09:09:33Z",
-    "url": "https://github.com/johnwall123459885/skene-cookbook"
   },
   {
     "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
@@ -439,14 +448,5 @@
     "stars": 1,
     "updated_at": "2026-05-24T20:24:02Z",
     "url": "https://github.com/davccavalcante/supreme-coding-guidelines-skill.ah"
-  },
-  {
-    "description": "AI-powered development toolkit for Unity game development in Cursor IDE. 18 skills, 8 rules, 4 MCP tools, 20 snippets, 5",
-    "id": "TMHSDigital/Unity-Developer-Tools",
-    "language": "C#",
-    "name": "TMHSDigital/Unity-Developer-Tools",
-    "stars": 1,
-    "updated_at": "2026-05-24T19:35:35Z",
-    "url": "https://github.com/TMHSDigital/Unity-Developer-Tools"
   }
 ]
