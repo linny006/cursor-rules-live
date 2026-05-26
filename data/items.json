@@ -1,10 +1,28 @@
 [
   {
+    "description": "Archive-grade .mdc rule library for Cursor AI \u2014 26 production-ready rules for teams seeking stable, reusable AI coding g",
+    "id": "LessUp/cursor-rules",
+    "language": "JavaScript",
+    "name": "LessUp/cursor-rules",
+    "stars": 20,
+    "updated_at": "2026-05-26T01:25:34Z",
+    "url": "https://github.com/LessUp/cursor-rules"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "Python",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-05-26T01:15:15Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI",
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 35941,
+    "stars": 35942,
     "updated_at": "2026-05-26T01:14:52Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -43,15 +61,6 @@
     "stars": 0,
     "updated_at": "2026-05-26T01:05:28Z",
     "url": "https://github.com/Thabang9218/cursorifier"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "Python",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-05-26T01:00:16Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\ud83d\ude80 Streamline your Next.js development with practical rules and tested patterns for efficient coding and minimal bugs.",
@@ -394,15 +403,6 @@
     "stars": 0,
     "updated_at": "2026-05-25T07:01:33Z",
     "url": "https://github.com/ghostswap1/ghostswap-agents"
-  },
-  {
-    "description": "Archive-grade .mdc rule library for Cursor AI \u2014 26 production-ready rules for teams seeking stable, reusable AI coding g",
-    "id": "LessUp/cursor-rules",
-    "language": "JavaScript",
-    "name": "LessUp/cursor-rules",
-    "stars": 20,
-    "updated_at": "2026-05-25T02:23:41Z",
-    "url": "https://github.com/LessUp/cursor-rules"
   },
   {
     "description": "14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts \u2192 deployed products.",
