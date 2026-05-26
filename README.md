@@ -33,7 +33,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-05-26 03:41 UTC
+> ⏰ Last updated: 2026-05-26 03:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -42,8 +42,8 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Description |
 |---|------|---|------|---------|-------------|
-| 1 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 0 | Python | 2026-05-26 | Governance-first OS for AI coding agents — structured workflows, delivery gates, engineering guardrails, and 17 professi |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | Python | 2026-05-26 | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | Python | 2026-05-26 | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 0 | Python | 2026-05-26 | Governance-first OS for AI coding agents — structured workflows, delivery gates, engineering guardrails, and 17 professi |
 | 3 | [taniwhaai/arai](https://github.com/taniwhaai/arai) | 5 | Rust | 2026-05-26 | AI coding rules that actually work. Enforce instruction files via hooks — CLAUDE.md, .cursorrules, copilot-instructions, |
 | 4 | [Hyanthropological659/clarify-skill](https://github.com/Hyanthropological659/clarify-skill) | 0 | — | 2026-05-26 | Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a |
 | 5 | [paoloincommensurable537/PixelPilot](https://github.com/paoloincommensurable537/PixelPilot) | 0 | JavaScript | 2026-05-26 | Build unique user interfaces with a structured ruleset to prevent generic AI output. |

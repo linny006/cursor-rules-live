@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "Python",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-05-26T03:41:16Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Governance-first OS for AI coding agents \u2014 structured workflows, delivery gates, engineering guardrails, and 17 professi",
     "id": "KbWen/agentic-os",
     "language": "Python",
@@ -7,15 +16,6 @@
     "stars": 0,
     "updated_at": "2026-05-26T03:33:43Z",
     "url": "https://github.com/KbWen/agentic-os"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "Python",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-05-26T03:30:15Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "AI coding rules that actually work. Enforce instruction files via hooks \u2014 CLAUDE.md, .cursorrules, copilot-instructions,",
