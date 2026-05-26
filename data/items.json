@@ -5,8 +5,17 @@
     "language": "Python",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-05-26T13:30:22Z",
+    "updated_at": "2026-05-26T13:45:22Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
+    "id": "zinxj/uikit-expert-skill",
+    "language": "\u2014",
+    "name": "zinxj/uikit-expert-skill",
+    "stars": 2,
+    "updated_at": "2026-05-26T13:30:29Z",
+    "url": "https://github.com/zinxj/uikit-expert-skill"
   },
   {
     "description": "Manage and organize project workspaces while dynamically injecting relevant skills for efficient AI assistant context lo",
@@ -41,7 +50,7 @@
     "language": "HTML",
     "name": "TheoV823/mneme",
     "stars": 9,
-    "updated_at": "2026-05-26T13:44:54Z",
+    "updated_at": "2026-05-26T13:52:48Z",
     "url": "https://github.com/TheoV823/mneme"
   },
   {
@@ -194,7 +203,7 @@
     "language": "\u2014",
     "name": "nizhan80-art/Swift-UIKit-Skill",
     "stars": 1,
-    "updated_at": "2026-05-26T09:40:06Z",
+    "updated_at": "2026-05-26T13:51:27Z",
     "url": "https://github.com/nizhan80-art/Swift-UIKit-Skill"
   },
   {
@@ -203,7 +212,7 @@
     "language": "Dart",
     "name": "Amirun99/agency-orchestrator",
     "stars": 0,
-    "updated_at": "2026-05-26T09:39:17Z",
+    "updated_at": "2026-05-26T13:50:38Z",
     "url": "https://github.com/Amirun99/agency-orchestrator"
   },
   {
@@ -212,7 +221,7 @@
     "language": "\u2014",
     "name": "Overseastelegramaliterateperson865/awesome-claude-md",
     "stars": 1,
-    "updated_at": "2026-05-26T09:38:19Z",
+    "updated_at": "2026-05-26T13:50:17Z",
     "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
   },
   {
@@ -221,17 +230,8 @@
     "language": "Shell",
     "name": "ebbaunqualified520/ios-agent-skills",
     "stars": 0,
-    "updated_at": "2026-05-26T09:34:55Z",
+    "updated_at": "2026-05-26T13:46:04Z",
     "url": "https://github.com/ebbaunqualified520/ios-agent-skills"
-  },
-  {
-    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
-    "id": "zinxj/uikit-expert-skill",
-    "language": "\u2014",
-    "name": "zinxj/uikit-expert-skill",
-    "stars": 2,
-    "updated_at": "2026-05-26T13:30:29Z",
-    "url": "https://github.com/zinxj/uikit-expert-skill"
   },
   {
     "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
@@ -266,7 +266,7 @@
     "language": "HTML",
     "name": "edsondviana8/ai-humanizer-core",
     "stars": 0,
-    "updated_at": "2026-05-26T06:39:04Z",
+    "updated_at": "2026-05-26T13:48:50Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
@@ -301,7 +301,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 35961,
+    "stars": 35962,
     "updated_at": "2026-05-26T01:14:52Z",
     "url": "https://github.com/wshobson/agents"
   },
