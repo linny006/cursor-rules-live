@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "Python",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-05-26T01:45:17Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Governance-first OS for AI coding agents \u2014 structured workflows, delivery gates, engineering guardrails, and 17 professi",
     "id": "KbWen/agentic-os",
     "language": "Python",
@@ -18,15 +27,6 @@
     "url": "https://github.com/eumiguellllllllll/copilot-rules"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "Python",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-05-26T01:30:15Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Archive-grade .mdc rule library for Cursor AI \u2014 26 production-ready rules for teams seeking stable, reusable AI coding g",
     "id": "LessUp/cursor-rules",
     "language": "JavaScript",
@@ -40,7 +40,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 35943,
+    "stars": 35944,
     "updated_at": "2026-05-26T01:14:52Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -50,7 +50,7 @@
     "language": "JavaScript",
     "name": "weijia-89/palamedes",
     "stars": 0,
-    "updated_at": "2026-05-26T01:13:40Z",
+    "updated_at": "2026-05-26T01:59:35Z",
     "url": "https://github.com/weijia-89/palamedes"
   },
   {
@@ -310,7 +310,7 @@
     "id": "HoangNguyen0403/agent-skills-standard",
     "language": "TypeScript",
     "name": "HoangNguyen0403/agent-skills-standard",
-    "stars": 498,
+    "stars": 497,
     "updated_at": "2026-05-25T16:33:03Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
   },
