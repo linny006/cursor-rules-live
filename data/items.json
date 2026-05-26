@@ -1,11 +1,47 @@
 [
   {
+    "description": "\ud83d\ude80 Streamline your Next.js development with practical rules and tested patterns for efficient coding and minimal bugs.",
+    "id": "pemdes174/cursor-rules",
+    "language": "\u2014",
+    "name": "pemdes174/cursor-rules",
+    "stars": 5,
+    "updated_at": "2026-05-26T19:14:56Z",
+    "url": "https://github.com/pemdes174/cursor-rules"
+  },
+  {
+    "description": "\ud83d\udca1 Discover AI coding tools that enhance your workflow, from code editors to completion engines, and boost your software ",
+    "id": "JohannFreddyLoayzaHuana/awesome-ai-coding-tools",
+    "language": "\u2014",
+    "name": "JohannFreddyLoayzaHuana/awesome-ai-coding-tools",
+    "stars": 2,
+    "updated_at": "2026-05-26T19:13:54Z",
+    "url": "https://github.com/JohannFreddyLoayzaHuana/awesome-ai-coding-tools"
+  },
+  {
+    "description": "\u2728 Enhance your software development with a curated collection of prompts for Cursor AI, boosting efficiency in planning ",
+    "id": "whydixit/cursor-starter",
+    "language": "\u2014",
+    "name": "whydixit/cursor-starter",
+    "stars": 4,
+    "updated_at": "2026-05-26T19:13:54Z",
+    "url": "https://github.com/whydixit/cursor-starter"
+  },
+  {
+    "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
+    "id": "caioribeiroclw-pixel/pluribus",
+    "language": "JavaScript",
+    "name": "caioribeiroclw-pixel/pluribus",
+    "stars": 1,
+    "updated_at": "2026-05-26T19:06:27Z",
+    "url": "https://github.com/caioribeiroclw-pixel/pluribus"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "Python",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-05-26T18:45:17Z",
+    "updated_at": "2026-05-26T19:00:20Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -16,15 +52,6 @@
     "stars": 0,
     "updated_at": "2026-05-26T18:21:00Z",
     "url": "https://github.com/SID-SURANGE/cursor-team-kit"
-  },
-  {
-    "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
-    "id": "caioribeiroclw-pixel/pluribus",
-    "language": "JavaScript",
-    "name": "caioribeiroclw-pixel/pluribus",
-    "stars": 1,
-    "updated_at": "2026-05-26T18:06:57Z",
-    "url": "https://github.com/caioribeiroclw-pixel/pluribus"
   },
   {
     "description": "Enforce architectural decisions in AI-assisted development.",
@@ -202,7 +229,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 35980,
+    "stars": 35979,
     "updated_at": "2026-05-26T15:30:34Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -223,33 +250,6 @@
     "stars": 0,
     "updated_at": "2026-05-26T14:56:02Z",
     "url": "https://github.com/Thabang9218/cursorifier"
-  },
-  {
-    "description": "\ud83d\ude80 Streamline your Next.js development with practical rules and tested patterns for efficient coding and minimal bugs.",
-    "id": "pemdes174/cursor-rules",
-    "language": "\u2014",
-    "name": "pemdes174/cursor-rules",
-    "stars": 5,
-    "updated_at": "2026-05-26T14:48:03Z",
-    "url": "https://github.com/pemdes174/cursor-rules"
-  },
-  {
-    "description": "\ud83d\udca1 Discover AI coding tools that enhance your workflow, from code editors to completion engines, and boost your software ",
-    "id": "JohannFreddyLoayzaHuana/awesome-ai-coding-tools",
-    "language": "\u2014",
-    "name": "JohannFreddyLoayzaHuana/awesome-ai-coding-tools",
-    "stars": 2,
-    "updated_at": "2026-05-26T14:47:03Z",
-    "url": "https://github.com/JohannFreddyLoayzaHuana/awesome-ai-coding-tools"
-  },
-  {
-    "description": "\u2728 Enhance your software development with a curated collection of prompts for Cursor AI, boosting efficiency in planning ",
-    "id": "whydixit/cursor-starter",
-    "language": "\u2014",
-    "name": "whydixit/cursor-starter",
-    "stars": 4,
-    "updated_at": "2026-05-26T14:46:59Z",
-    "url": "https://github.com/whydixit/cursor-starter"
   },
   {
     "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
