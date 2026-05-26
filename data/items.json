@@ -1,12 +1,12 @@
 [
   {
-    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
-    "id": "eumiguellllllllll/copilot-rules",
-    "language": "Batchfile",
-    "name": "eumiguellllllllll/copilot-rules",
-    "stars": 0,
-    "updated_at": "2026-05-26T08:16:36Z",
-    "url": "https://github.com/eumiguellllllllll/copilot-rules"
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 13,
+    "updated_at": "2026-05-26T08:40:53Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "Python",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-05-26T08:15:26Z",
+    "updated_at": "2026-05-26T08:30:22Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
+    "id": "eumiguellllllllll/copilot-rules",
+    "language": "Batchfile",
+    "name": "eumiguellllllllll/copilot-rules",
+    "stars": 0,
+    "updated_at": "2026-05-26T08:16:36Z",
+    "url": "https://github.com/eumiguellllllllll/copilot-rules"
   },
   {
     "description": "VS Code extension for LynxPrompt \u2014 browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules) ",
@@ -256,7 +265,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 35956,
+    "stars": 35957,
     "updated_at": "2026-05-26T01:14:52Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -304,15 +313,6 @@
     "stars": 0,
     "updated_at": "2026-05-25T22:55:49Z",
     "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
-  },
-  {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 13,
-    "updated_at": "2026-05-25T20:49:55Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "description": "44+ agent skills for high-integrity, spec-driven, test-first software engineering. A prescriptive methodology for orches",
