@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-05-27T14:45:37Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
     "id": "Trentobobbi/uikit-mastery-playbook",
     "language": "HTML",
@@ -7,15 +16,6 @@
     "stars": 0,
     "updated_at": "2026-05-27T14:31:12Z",
     "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-05-27T14:30:41Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
@@ -101,7 +101,7 @@
     "language": "\u2014",
     "name": "MaFady/maifady-cursor",
     "stars": 0,
-    "updated_at": "2026-05-27T12:37:16Z",
+    "updated_at": "2026-05-27T14:59:57Z",
     "url": "https://github.com/MaFady/maifady-cursor"
   },
   {
@@ -447,7 +447,7 @@
     "language": "HTML",
     "name": "TheoV823/mneme",
     "stars": 9,
-    "updated_at": "2026-05-27T14:44:52Z",
+    "updated_at": "2026-05-27T14:46:19Z",
     "url": "https://github.com/TheoV823/mneme"
   },
   {
@@ -455,7 +455,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36023,
+    "stars": 36022,
     "updated_at": "2026-05-26T15:30:34Z",
     "url": "https://github.com/wshobson/agents"
   },
