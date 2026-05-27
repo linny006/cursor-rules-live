@@ -1,5 +1,23 @@
 [
   {
+    "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
+    "id": "caioribeiroclw-pixel/pluribus",
+    "language": "JavaScript",
+    "name": "caioribeiroclw-pixel/pluribus",
+    "stars": 1,
+    "updated_at": "2026-05-27T01:07:28Z",
+    "url": "https://github.com/caioribeiroclw-pixel/pluribus"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "Python",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-05-27T01:00:18Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
     "id": "fluttersdk/wind",
     "language": "Dart",
@@ -9,21 +27,12 @@
     "url": "https://github.com/fluttersdk/wind"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "Python",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-05-27T00:45:15Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "AI coding rules that actually work. Enforce instruction files via hooks \u2014 CLAUDE.md, .cursorrules, copilot-instructions,",
     "id": "taniwhaai/arai",
     "language": "Rust",
     "name": "taniwhaai/arai",
     "stars": 5,
-    "updated_at": "2026-05-27T00:44:22Z",
+    "updated_at": "2026-05-27T01:02:02Z",
     "url": "https://github.com/taniwhaai/arai"
   },
   {
@@ -252,15 +261,6 @@
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
-    "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
-    "id": "caioribeiroclw-pixel/pluribus",
-    "language": "JavaScript",
-    "name": "caioribeiroclw-pixel/pluribus",
-    "stars": 1,
-    "updated_at": "2026-05-26T21:09:29Z",
-    "url": "https://github.com/caioribeiroclw-pixel/pluribus"
-  },
-  {
     "description": "Team-ops layer for Cursor \u2014 versioned rules, skills & git guardrails rolled out across your whole engineering team in 5 ",
     "id": "SID-SURANGE/cursor-team-kit",
     "language": "Shell",
@@ -283,7 +283,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 35989,
+    "stars": 35990,
     "updated_at": "2026-05-26T15:30:34Z",
     "url": "https://github.com/wshobson/agents"
   },
