@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-05-27T04:00:37Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Auto harness engineering meta-repo: discuss \u2192 curate \u2192 bootstrap a context-engineered project for Claude Code, Cursor, C",
     "id": "glowElephant/context-forge",
     "language": "Python",
@@ -34,15 +43,6 @@
     "stars": 0,
     "updated_at": "2026-05-27T03:47:37Z",
     "url": "https://github.com/Bastioned-successor320/learn-nanobot"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-05-27T03:47:32Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
@@ -331,7 +331,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 35999,
+    "stars": 36000,
     "updated_at": "2026-05-26T15:30:34Z",
     "url": "https://github.com/wshobson/agents"
   },

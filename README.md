@@ -33,7 +33,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-05-27 04:00 UTC
+> ⏰ Last updated: 2026-05-27 04:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -42,11 +42,11 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [glowElephant/context-forge](https://github.com/glowElephant/context-forge) | 1 | Python | 2026-05-27 | — | Auto harness engineering meta-repo: discuss → curate → bootstrap a context-engineered project for Claude Code, Cursor, C |
-| 2 | [paoloincommensurable537/PixelPilot](https://github.com/paoloincommensurable537/PixelPilot) | 0 | JavaScript | 2026-05-27 | — | Build unique user interfaces with a structured ruleset to prevent generic AI output. |
-| 3 | [Hyanthropological659/clarify-skill](https://github.com/Hyanthropological659/clarify-skill) | 0 | — | 2026-05-27 | — | Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a |
-| 4 | [Bastioned-successor320/learn-nanobot](https://github.com/Bastioned-successor320/learn-nanobot) | 0 | Python | 2026-05-27 | — | Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers |
-| 5 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-05-27 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-05-27 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [glowElephant/context-forge](https://github.com/glowElephant/context-forge) | 1 | Python | 2026-05-27 | — | Auto harness engineering meta-repo: discuss → curate → bootstrap a context-engineered project for Claude Code, Cursor, C |
+| 3 | [paoloincommensurable537/PixelPilot](https://github.com/paoloincommensurable537/PixelPilot) | 0 | JavaScript | 2026-05-27 | — | Build unique user interfaces with a structured ruleset to prevent generic AI output. |
+| 4 | [Hyanthropological659/clarify-skill](https://github.com/Hyanthropological659/clarify-skill) | 0 | — | 2026-05-27 | — | Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a |
+| 5 | [Bastioned-successor320/learn-nanobot](https://github.com/Bastioned-successor320/learn-nanobot) | 0 | Python | 2026-05-27 | — | Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers |
 | 6 | [XAKLESK/cre-agent-skills](https://github.com/XAKLESK/cre-agent-skills) | 1 | — | 2026-05-27 | — | Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc |
 | 7 | [christim427-rgb/ios-agent-skills](https://github.com/christim427-rgb/ios-agent-skills) | 1 | Python | 2026-05-27 | — | Test iOS agent skills with 11 tasks, 260+ scenarios, and 850+ assertions across 3 models |
 | 8 | [nizhan80-art/Swift-UIKit-Skill](https://github.com/nizhan80-art/Swift-UIKit-Skill) | 1 | — | 2026-05-27 | — | Build programmatic UIKit apps with production-ready patterns for views, navigation, animation, architecture, and data fl |
@@ -75,7 +75,7 @@ expired items removed — so you can rely on what you see being current.
 | 31 | [GeiserX/n8n-nodes-lynxprompt](https://github.com/GeiserX/n8n-nodes-lynxprompt) | 1 | TypeScript | 2026-05-26 | — | n8n community node for LynxPrompt — manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via API |
 | 32 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 13 | — | 2026-05-26 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
 | 33 | [TheoV823/mneme](https://github.com/TheoV823/mneme) | 9 | HTML | 2026-05-26 | — | Enforce architectural decisions in AI-assisted development. |
-| 34 | [wshobson/agents](https://github.com/wshobson/agents) | 35999 | Python | 2026-05-26 | — | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI |
+| 34 | [wshobson/agents](https://github.com/wshobson/agents) | 36000 | Python | 2026-05-26 | — | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI |
 | 35 | [pekral/cursor-rules](https://github.com/pekral/cursor-rules) | 2 | PHP | 2026-05-26 | — | PHP and Laravel Cursor rules — coding standards, testing, and conventions for the Cursor editor. Install via Composer. |
 | 36 | [Smithbox-ai/ControlFlow](https://github.com/Smithbox-ai/ControlFlow) | 11 | JavaScript | 2026-05-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Smithbox-ai/ControlFlow/) | Multi-agent orchestration for VS Code Copilot, Claude Code, OpenAI Codex and Cursor |
 | 37 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 4 | TypeScript | 2026-05-26 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
