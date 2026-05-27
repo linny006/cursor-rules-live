@@ -1,6 +1,29 @@
 [
   {
     "cursorrules": {
+      "content": "---\ndescription: Agent rules for agentic-workflow-guard\nglobs:\n  - \"**/*\"\nalwaysApply: true\n---\n\n# agentic-workflow-guard\n\nStatic security scanner for AI automation workflows across GitHub Actions, n8n, MCP configs, and low-code workflow exports.\n\n## Principles\n- Treat external workflow input as untrusted until validated\n- Keep AI-generated output away from shell and write-capable tools\n- Require human approval, allowlists, or dry-run mode before side effects\n\n## Commands\n- install: `npm install`\n- test: `npm test`\n- scan: `npm run scan`\n- fix: `node ./bin/agentic-workflow-guard.js fix . --apply`\n- rules: `node ./bin/agentic-workflow-guard.js rules search github`\n- agents: `node ./bin/agentic-workflow-guard.js agents`\n",
+      "format": "mdc",
+      "path": ".cursor/rules/agentic-workflow-guard.mdc"
+    },
+    "description": "Security scanner and portable skill pack for AI automation workflows across GitHub Actions, n8n, MCP, Claude, Codex, Gem",
+    "id": "guorunjie/agentic-workflow-guard",
+    "language": "JavaScript",
+    "name": "guorunjie/agentic-workflow-guard",
+    "stars": 0,
+    "updated_at": "2026-05-27T12:14:54Z",
+    "url": "https://github.com/guorunjie/agentic-workflow-guard"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-05-27T12:02:18Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "cursorrules": {
       "content": "---\ndescription: Instructions for AI agent code generation workflow\nglobs: [\"*\"]\nalwaysApply: true\n---\n\n# AI Collaboration Guidelines\n\n## The 3-Stage Agentic Loop\n\nEvery code generation task MUST follow this loop:\n\n### Stage 1: PLAN (gather context first)\n\nBefore writing ANY code, the AI MUST:\n1. Read the relevant source files to verify current state \u2014 do NOT rely on memory\n2. Identify which `.cursor/rules/` files apply to this task\n3. List the files to modify and explain why\n4. Do NOT write code yet\n\nPrompt template:\n```\nAnalyze the current codebase and plan how to implement [feature]. \nList the files you'll modify and why. Don't write code yet.\n```\n\n### Stage 2: IMPLEMENT (follow constraints)\n\nWhen generating code:\n- Follow ALL active `.cursor/rules/` constraints\n- If unsure about auth patterns, re-read `supabase-auth-security.mdc`\n- If unsure about params/layouts, re-read `nextjs15-params.mdc`\n- Use `unknown` + Zod validation instead of `any` for external data\n- Return `ActionResponse<T>` from all Server Actions (see below)\n\n### Stage 3: VERIFY (confirm before declaring done)\n\nAfter generating code, the AI MUST self-check:\n- [ ] No `getSession()` on the server (MUST be `getUser()`)\n- [ ] No synchronous `params` or `searchParams` access\n- [ ] No `@supabase/auth-helpers-nextjs` imports\n- [ ] No `any` types \u2014 use `unknown` + type narrowing\n- [ ] Every API route has Zod validation\n- [ ] Every error is caught and returns `{ error: string }`\n- [ ] New tables have RLS enabled\n- [ ] `loading.tsx` and `error.tsx` exist for data-fetching pages\n\nReport issues BEFORE the developer runs the code.\n\n## Skeptical Retrieval Rule\n\nNEVER trust stored knowledge about the codebase. Before modifying a file:\n1. Re-read the file to verify its current contents\n2. Check imports and exports to ensure they match expectations\n3. Verify that function signatures haven't changed\n\nThis prevents generating code that references stale function signatures, \ndeleted files, or renamed exports.\n\n## Standard Patterns\n\n### ActionResponse Type (use for all Server Actions)\n```typescript\ntype ActionResponse<T = void> = \n  | { success: true; data: T }\n  | { success: false; error: string }\n```\n\n### Standard Server Action Structure\n```typescript\n'use server'\nimport { createClient } from '@/lib/supabase/server'\nimport { z } from 'zod'\n\nconst Schema = z.object({ /* ... */ })\n\nexport async function myAction(input: unknown): Promise<ActionResponse<MyType>> {\n  // 1. Auth\n  const supabase = await createClient()\n  const { data: { user } } = await supabase.auth.getUser()\n  if (!user) return { success: false, error: 'Unauthorized' }\n\n  // 2. Validate\n  const result = Schema.safeParse(input)\n  if (!result.success) return { success: false, error: 'Invalid input' }\n\n  // 3. Execute\n  try {\n    const { data, error } = await supabase.from('table').insert(result.data).select().single()\n    if (error) throw error\n    return { success: true, data }\n  } catch {\n    return { success: false, error: 'Operation failed' }\n  }\n}\n```\n\n## Task Constraints\n\n- NEVER give the AI a task longer than 200 words\n- NEVER let the AI implement more than 3-4 files in one turn\n- NEVER let the AI skip the verification checklist\n- ALWAYS review the Git diff before committing\n- When uncertain, ask the developer \u2014 do NOT guess\n\n",
       "format": "mdc",
       "path": ".cursor/rules/ai-collaboration.mdc"
@@ -12,29 +35,6 @@
     "stars": 6,
     "updated_at": "2026-05-27T11:35:12Z",
     "url": "https://github.com/vibestackdev/vibe-stack"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Agent rules for agentic-workflow-guard\nglobs:\n  - \"**/*\"\nalwaysApply: true\n---\n\n# agentic-workflow-guard\n\nStatic security scanner for AI automation workflows across GitHub Actions, n8n, MCP configs, and low-code workflow exports.\n\n## Principles\n- Treat external workflow input as untrusted until validated\n- Keep AI-generated output away from shell and write-capable tools\n- Require human approval, allowlists, or dry-run mode before side effects\n\n## Commands\n- install: `npm install`\n- test: `npm test`\n- scan: `npm run scan`\n- agents: `node ./bin/agentic-workflow-guard.js agents`\n",
-      "format": "mdc",
-      "path": ".cursor/rules/agentic-workflow-guard.mdc"
-    },
-    "description": "Security scanner and portable skill pack for AI automation workflows across GitHub Actions, n8n, MCP, Claude, Codex, Gem",
-    "id": "guorunjie/agentic-workflow-guard",
-    "language": "JavaScript",
-    "name": "guorunjie/agentic-workflow-guard",
-    "stars": 0,
-    "updated_at": "2026-05-27T11:23:58Z",
-    "url": "https://github.com/guorunjie/agentic-workflow-guard"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-05-27T11:15:52Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -369,7 +369,7 @@
     "language": "JavaScript",
     "name": "caioribeiroclw-pixel/pluribus",
     "stars": 1,
-    "updated_at": "2026-05-27T01:07:28Z",
+    "updated_at": "2026-05-27T12:11:40Z",
     "url": "https://github.com/caioribeiroclw-pixel/pluribus"
   },
   {
