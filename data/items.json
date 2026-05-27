@@ -1,11 +1,47 @@
 [
   {
+    "description": "\ud83d\uddb1\ufe0f Enhance your Cursor AI with tailored, codebase-specific insights for smarter navigation and improved efficiency.",
+    "id": "Thabang9218/cursorifier",
+    "language": "TypeScript",
+    "name": "Thabang9218/cursorifier",
+    "stars": 0,
+    "updated_at": "2026-05-27T01:54:35Z",
+    "url": "https://github.com/Thabang9218/cursorifier"
+  },
+  {
+    "description": "\ud83d\ude80 Streamline your Next.js development with practical rules and tested patterns for efficient coding and minimal bugs.",
+    "id": "pemdes174/cursor-rules",
+    "language": "\u2014",
+    "name": "pemdes174/cursor-rules",
+    "stars": 5,
+    "updated_at": "2026-05-27T01:47:29Z",
+    "url": "https://github.com/pemdes174/cursor-rules"
+  },
+  {
+    "description": "\u2728 Enhance your software development with a curated collection of prompts for Cursor AI, boosting efficiency in planning ",
+    "id": "whydixit/cursor-starter",
+    "language": "\u2014",
+    "name": "whydixit/cursor-starter",
+    "stars": 4,
+    "updated_at": "2026-05-27T01:46:35Z",
+    "url": "https://github.com/whydixit/cursor-starter"
+  },
+  {
+    "description": "\ud83d\udca1 Discover AI coding tools that enhance your workflow, from code editors to completion engines, and boost your software ",
+    "id": "JohannFreddyLoayzaHuana/awesome-ai-coding-tools",
+    "language": "\u2014",
+    "name": "JohannFreddyLoayzaHuana/awesome-ai-coding-tools",
+    "stars": 2,
+    "updated_at": "2026-05-27T01:46:32Z",
+    "url": "https://github.com/JohannFreddyLoayzaHuana/awesome-ai-coding-tools"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "Python",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-05-27T01:30:19Z",
+    "updated_at": "2026-05-27T01:45:17Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -214,42 +250,6 @@
     "stars": 0,
     "updated_at": "2026-05-26T22:38:17Z",
     "url": "https://github.com/eumiguellllllllll/copilot-rules"
-  },
-  {
-    "description": "\ud83d\uddb1\ufe0f Enhance your Cursor AI with tailored, codebase-specific insights for smarter navigation and improved efficiency.",
-    "id": "Thabang9218/cursorifier",
-    "language": "TypeScript",
-    "name": "Thabang9218/cursorifier",
-    "stars": 0,
-    "updated_at": "2026-05-26T22:13:22Z",
-    "url": "https://github.com/Thabang9218/cursorifier"
-  },
-  {
-    "description": "\ud83d\ude80 Streamline your Next.js development with practical rules and tested patterns for efficient coding and minimal bugs.",
-    "id": "pemdes174/cursor-rules",
-    "language": "\u2014",
-    "name": "pemdes174/cursor-rules",
-    "stars": 5,
-    "updated_at": "2026-05-26T22:06:06Z",
-    "url": "https://github.com/pemdes174/cursor-rules"
-  },
-  {
-    "description": "\ud83d\udca1 Discover AI coding tools that enhance your workflow, from code editors to completion engines, and boost your software ",
-    "id": "JohannFreddyLoayzaHuana/awesome-ai-coding-tools",
-    "language": "\u2014",
-    "name": "JohannFreddyLoayzaHuana/awesome-ai-coding-tools",
-    "stars": 2,
-    "updated_at": "2026-05-26T22:05:04Z",
-    "url": "https://github.com/JohannFreddyLoayzaHuana/awesome-ai-coding-tools"
-  },
-  {
-    "description": "\u2728 Enhance your software development with a curated collection of prompts for Cursor AI, boosting efficiency in planning ",
-    "id": "whydixit/cursor-starter",
-    "language": "\u2014",
-    "name": "whydixit/cursor-starter",
-    "stars": 4,
-    "updated_at": "2026-05-26T22:05:01Z",
-    "url": "https://github.com/whydixit/cursor-starter"
   },
   {
     "description": "n8n community node for LynxPrompt \u2014 manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via API",
