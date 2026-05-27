@@ -35,6 +35,14 @@ GITHUB_QUERY = 'topic:cursor-rules sort:updated-desc'
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
 MAX_ITEMS = 50
 
+# pSEO metadata — used by pseo.py to render filter + detail pages
+REPO_OWNER = 'linny006'
+REPO_SLUG = 'cursor-rules-live'
+REPO_TITLE = 'Cursor Rules Live'
+REPO_BASE_URL = f"https://{REPO_OWNER}.github.io/{REPO_SLUG}"
+REPO_TOPIC = 'cursor-rules'
+REPO_NICHE = 'ai-coding'
+
 
 def fetch_items() -> list[dict]:
     """Return a list of current items. Each item must have an ``id``
@@ -119,6 +127,21 @@ def main() -> int:
     DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
     DATA_FILE.write_text(json.dumps(items, indent=2, sort_keys=True))
     rewrite_readme(items)
+
+    # pSEO: render filter + detail HTML pages from items.
+    try:
+        import pseo
+        meta = {
+            "title": REPO_TITLE,
+            "base_url": REPO_BASE_URL,
+            "topic": REPO_TOPIC,
+            "niche_label": REPO_NICHE,
+            "update_interval_minutes": 15,
+        }
+        n_pages = pseo.generate_pages(items, meta)
+        print(f"pseo: {n_pages} pages written")
+    except Exception as exc:
+        print(f"pseo: skipped (error: {exc})")
 
     now_short = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M")
     msg = f"feat: +{added} added, -{removed} removed ({now_short})"
