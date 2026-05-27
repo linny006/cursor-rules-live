@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "Python",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-05-27T02:00:18Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "\ud83d\uddb1\ufe0f Enhance your Cursor AI with tailored, codebase-specific insights for smarter navigation and improved efficiency.",
     "id": "Thabang9218/cursorifier",
     "language": "TypeScript",
@@ -34,15 +43,6 @@
     "stars": 2,
     "updated_at": "2026-05-27T01:46:32Z",
     "url": "https://github.com/JohannFreddyLoayzaHuana/awesome-ai-coding-tools"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "Python",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-05-27T01:45:17Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "AI coding instructions for scripted GSAP product demo animations \u2014 cursor choreography, timeline orchestration, scene tr",
@@ -275,7 +275,7 @@
     "language": "Shell",
     "name": "SID-SURANGE/cursor-team-kit",
     "stars": 0,
-    "updated_at": "2026-05-26T18:21:00Z",
+    "updated_at": "2026-05-27T02:05:09Z",
     "url": "https://github.com/SID-SURANGE/cursor-team-kit"
   },
   {
@@ -292,7 +292,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 35991,
+    "stars": 35992,
     "updated_at": "2026-05-26T15:30:34Z",
     "url": "https://github.com/wshobson/agents"
   },
