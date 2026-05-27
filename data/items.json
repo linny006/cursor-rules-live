@@ -1,5 +1,28 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: Agent rules for skillpack-forge\nglobs:\n  - \"**/*\"\nalwaysApply: true\n---\n\n# skillpack-forge\n\nCompile one repo manifest into portable AGENTS.md, AI coding skills, and agent rules.\n\n## Principles\n- Preserve user changes and keep edits scoped\n- Inspect the current repo state before changing files\n- Run verification before claiming success\n\n## Commands\n- install: `npm install`\n- test: `npm test`\n- doctor: `npm run doctor`\n- scan: `npm run scan`\n",
+      "format": "mdc",
+      "path": ".cursor/rules/skillpack-forge.mdc"
+    },
+    "description": "One manifest for every AI coding agent: generate AGENTS.md, Claude Skills, Codex Skills, Cursor rules, and Copilot instr",
+    "id": "guorunjie/skillpack-forge",
+    "language": "JavaScript",
+    "name": "guorunjie/skillpack-forge",
+    "stars": 0,
+    "updated_at": "2026-05-27T09:16:02Z",
+    "url": "https://github.com/guorunjie/skillpack-forge"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-05-27T09:15:34Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
     "id": "fluttersdk/wind",
     "language": "Dart",
@@ -25,29 +48,6 @@
     "stars": 4,
     "updated_at": "2026-05-27T09:04:59Z",
     "url": "https://github.com/philipbankier/awesome-agent-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-05-27T09:00:53Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Agent rules for skillpack-forge\nglobs:\n  - \"**/*\"\nalwaysApply: true\n---\n\n# skillpack-forge\n\nCompile one repo manifest into portable AGENTS.md, AI coding skills, and agent rules.\n\n## Principles\n- Preserve user changes and keep edits scoped\n- Inspect the current repo state before changing files\n- Run verification before claiming success\n\n## Commands\n- install: `npm install`\n- test: `npm test`\n- doctor: `npm run doctor`\n- scan: `npm run scan`\n",
-      "format": "mdc",
-      "path": ".cursor/rules/skillpack-forge.mdc"
-    },
-    "description": "One manifest for every AI coding agent: generate AGENTS.md, Claude Skills, Codex Skills, Cursor rules, and Copilot instr",
-    "id": "guorunjie/skillpack-forge",
-    "language": "JavaScript",
-    "name": "guorunjie/skillpack-forge",
-    "stars": 0,
-    "updated_at": "2026-05-27T08:53:29Z",
-    "url": "https://github.com/guorunjie/skillpack-forge"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -381,7 +381,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36014,
+    "stars": 36015,
     "updated_at": "2026-05-26T15:30:34Z",
     "url": "https://github.com/wshobson/agents"
   },
