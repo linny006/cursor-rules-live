@@ -1,12 +1,21 @@
 [
   {
-    "description": "Guided self-interview \u2192 portable AI context files for Claude Code, Codex, Cursor, Kiro, ChatGPT. Local-first MCP server.",
-    "id": "testofschool/selfdoc-mcp-server",
-    "language": "TypeScript",
-    "name": "testofschool/selfdoc-mcp-server",
-    "stars": 0,
-    "updated_at": "2026-05-27T21:37:03Z",
-    "url": "https://github.com/testofschool/selfdoc-mcp-server"
+    "description": "AI coding rules that actually work. Enforce instruction files via hooks \u2014 CLAUDE.md, .cursorrules, copilot-instructions,",
+    "id": "taniwhaai/arai",
+    "language": "Rust",
+    "name": "taniwhaai/arai",
+    "stars": 5,
+    "updated_at": "2026-05-27T21:59:10Z",
+    "url": "https://github.com/taniwhaai/arai"
+  },
+  {
+    "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
+    "id": "fluttersdk/wind",
+    "language": "Dart",
+    "name": "fluttersdk/wind",
+    "stars": 18,
+    "updated_at": "2026-05-27T21:57:47Z",
+    "url": "https://github.com/fluttersdk/wind"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +23,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-05-27T21:30:34Z",
+    "updated_at": "2026-05-27T21:45:46Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Guided self-interview \u2192 portable AI context files for Claude Code, Codex, Cursor, Kiro, ChatGPT. Local-first MCP server.",
+    "id": "testofschool/selfdoc-mcp-server",
+    "language": "TypeScript",
+    "name": "testofschool/selfdoc-mcp-server",
+    "stars": 0,
+    "updated_at": "2026-05-27T21:37:03Z",
+    "url": "https://github.com/testofschool/selfdoc-mcp-server"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -314,15 +332,6 @@
     "url": "https://github.com/powersync-ja/agent-skills"
   },
   {
-    "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
-    "id": "fluttersdk/wind",
-    "language": "Dart",
-    "name": "fluttersdk/wind",
-    "stars": 18,
-    "updated_at": "2026-05-27T21:39:41Z",
-    "url": "https://github.com/fluttersdk/wind"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: Agent rules for skillpack-forge\nglobs:\n  - \"**/*\"\nalwaysApply: true\n---\n\n# skillpack-forge\n\nCompile one repo manifest into portable AGENTS.md, AI coding skills, and agent rules.\n\n## Principles\n- Preserve user changes and keep edits scoped\n- Inspect the current repo state before changing files\n- Run verification before claiming success\n\n## Commands\n- install: `npm install`\n- test: `npm test`\n- doctor: `npm run doctor`\n- scan: `npm run scan`\n- diff: `npm run diff`\n",
       "format": "mdc",
@@ -433,15 +442,6 @@
     "url": "https://github.com/Costumary/gsap-choreography"
   },
   {
-    "description": "AI coding rules that actually work. Enforce instruction files via hooks \u2014 CLAUDE.md, .cursorrules, copilot-instructions,",
-    "id": "taniwhaai/arai",
-    "language": "Rust",
-    "name": "taniwhaai/arai",
-    "stars": 5,
-    "updated_at": "2026-05-27T01:02:02Z",
-    "url": "https://github.com/taniwhaai/arai"
-  },
-  {
     "cursorrules": {
       "content": "# Emdash Skills for Cursor\n\nLoad CONVENTIONS.md for stack defaults. Load _router.md for skill routing.\n14 categories (01-14), 94 reference docs, 18 agents.\n\n## Stack\nCF Workers+Hono | Angular 21+Ionic 8+PrimeNG 21 | D1/Neon | Drizzle v1 | Clerk | Stripe | Inngest | Resend | Bun | Playwright v1.59+ | PostHog | Sentry\n\n## Rules\n- TypeScript strict, never `any`, prefer `interface` over `type`\n- Hono inline handlers for RPC type inference\n- Zod validation on all inputs\n- TDD: failing test first, Playwright 6 breakpoints\n- Dark-first design, #060610 bg, #00E5FF accent\n- Deploy to CF Workers, purge CDN after every deploy\n\nSee CONVENTIONS.md for full patterns.\n",
       "format": "text",
@@ -470,7 +470,7 @@
     "language": "HTML",
     "name": "TheoV823/mneme",
     "stars": 9,
-    "updated_at": "2026-05-27T15:02:44Z",
+    "updated_at": "2026-05-27T22:00:09Z",
     "url": "https://github.com/TheoV823/mneme"
   },
   {
