@@ -5,8 +5,26 @@
     "language": "Python",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-05-27T02:45:22Z",
+    "updated_at": "2026-05-27T03:10:41Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\ud83e\udd16 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development.",
+    "id": "johnwall123459885/skene-cookbook",
+    "language": "Python",
+    "name": "johnwall123459885/skene-cookbook",
+    "stars": 0,
+    "updated_at": "2026-05-27T03:10:26Z",
+    "url": "https://github.com/johnwall123459885/skene-cookbook"
+  },
+  {
+    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
+    "id": "Luxvil/ai-coding-rules",
+    "language": "Shell",
+    "name": "Luxvil/ai-coding-rules",
+    "stars": 2,
+    "updated_at": "2026-05-27T03:03:57Z",
+    "url": "https://github.com/Luxvil/ai-coding-rules"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -243,24 +261,6 @@
     "url": "https://github.com/GrekosTheJogurt/antigravity-workspace-manager"
   },
   {
-    "description": "\ud83e\udd16 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development.",
-    "id": "johnwall123459885/skene-cookbook",
-    "language": "Python",
-    "name": "johnwall123459885/skene-cookbook",
-    "stars": 0,
-    "updated_at": "2026-05-26T23:27:31Z",
-    "url": "https://github.com/johnwall123459885/skene-cookbook"
-  },
-  {
-    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
-    "id": "Luxvil/ai-coding-rules",
-    "language": "Shell",
-    "name": "Luxvil/ai-coding-rules",
-    "stars": 2,
-    "updated_at": "2026-05-26T23:21:10Z",
-    "url": "https://github.com/Luxvil/ai-coding-rules"
-  },
-  {
     "description": "n8n community node for LynxPrompt \u2014 manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via API",
     "id": "GeiserX/n8n-nodes-lynxprompt",
     "language": "TypeScript",
@@ -292,7 +292,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 35994,
+    "stars": 35996,
     "updated_at": "2026-05-26T15:30:34Z",
     "url": "https://github.com/wshobson/agents"
   },
