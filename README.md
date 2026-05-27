@@ -33,7 +33,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-05-27 14:30 UTC
+> ⏰ Last updated: 2026-05-27 14:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -42,21 +42,21 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 0 | HTML | 2026-05-27 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
+| 1 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-05-27 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
 | 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-05-27 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 3 | [powersync-ja/agent-skills](https://github.com/powersync-ja/agent-skills) | 12 | JavaScript | 2026-05-27 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/powersync-ja/agent-skills/) | Official agent skills for PowerSync |
-| 4 | [baneeishaque/ai-agent-rules](https://github.com/baneeishaque/ai-agent-rules) | 3 | TypeScript | 2026-05-27 | — |  |
-| 5 | [caioribeiroclw-pixel/pluribus](https://github.com/caioribeiroclw-pixel/pluribus) | 1 | JavaScript | 2026-05-27 | — | Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security |
-| 6 | [fluttersdk/wind](https://github.com/fluttersdk/wind) | 18 | Dart | 2026-05-27 | — | Tailwind CSS for Flutter — classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code  |
-| 7 | [guorunjie/skillpack-forge](https://github.com/guorunjie/skillpack-forge) | 1 | JavaScript | 2026-05-27 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/guorunjie/skillpack-forge/) | One manifest for every AI coding agent: generate AGENTS.md, Claude Skills, Codex Skills, Cursor rules, and Copilot instr |
-| 8 | [MaFady/maifady-cursor](https://github.com/MaFady/maifady-cursor) | 0 | — | 2026-05-27 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/MaFady/maifady-cursor/) | 30 specialist AI engineering agents as Cursor rules (.mdc), 100% free, MIT, multilingual |
-| 9 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 0 | HTML | 2026-05-27 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 10 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-05-27 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/agenticstandardcontact-byte/agentic-architect/) | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
-| 11 | [1508550385junnan-bot/Magic-Agent-Global-Rules](https://github.com/1508550385junnan-bot/Magic-Agent-Global-Rules) | 0 | — | 2026-05-27 | — | 📋 智能体全局协作规则 — 16 节行为约束，让 AI 从"还行"变成"可靠"。德扑讲牌力，AI 讲规则力。中英双语，一行命令安装。 |
-| 12 | [vibestackdev/vibe-stack](https://github.com/vibestackdev/vibe-stack) | 6 | TypeScript | 2026-05-27 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/) | 29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b |
-| 13 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-05-27 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
-| 14 | [GrekosTheJogurt/antigravity-workspace-manager](https://github.com/GrekosTheJogurt/antigravity-workspace-manager) | 0 | Python | 2026-05-27 | — | Manage and organize project workspaces while dynamically injecting relevant skills for efficient AI assistant context lo |
-| 15 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-05-27 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
+| 3 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-05-27 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
+| 4 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 0 | HTML | 2026-05-27 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
+| 5 | [powersync-ja/agent-skills](https://github.com/powersync-ja/agent-skills) | 12 | JavaScript | 2026-05-27 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/powersync-ja/agent-skills/) | Official agent skills for PowerSync |
+| 6 | [baneeishaque/ai-agent-rules](https://github.com/baneeishaque/ai-agent-rules) | 3 | TypeScript | 2026-05-27 | — |  |
+| 7 | [caioribeiroclw-pixel/pluribus](https://github.com/caioribeiroclw-pixel/pluribus) | 1 | JavaScript | 2026-05-27 | — | Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security |
+| 8 | [fluttersdk/wind](https://github.com/fluttersdk/wind) | 18 | Dart | 2026-05-27 | — | Tailwind CSS for Flutter — classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code  |
+| 9 | [guorunjie/skillpack-forge](https://github.com/guorunjie/skillpack-forge) | 1 | JavaScript | 2026-05-27 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/guorunjie/skillpack-forge/) | One manifest for every AI coding agent: generate AGENTS.md, Claude Skills, Codex Skills, Cursor rules, and Copilot instr |
+| 10 | [MaFady/maifady-cursor](https://github.com/MaFady/maifady-cursor) | 0 | — | 2026-05-27 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/MaFady/maifady-cursor/) | 30 specialist AI engineering agents as Cursor rules (.mdc), 100% free, MIT, multilingual |
+| 11 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 0 | HTML | 2026-05-27 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
+| 12 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-05-27 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/agenticstandardcontact-byte/agentic-architect/) | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
+| 13 | [1508550385junnan-bot/Magic-Agent-Global-Rules](https://github.com/1508550385junnan-bot/Magic-Agent-Global-Rules) | 0 | — | 2026-05-27 | — | 📋 智能体全局协作规则 — 16 节行为约束，让 AI 从"还行"变成"可靠"。德扑讲牌力，AI 讲规则力。中英双语，一行命令安装。 |
+| 14 | [vibestackdev/vibe-stack](https://github.com/vibestackdev/vibe-stack) | 6 | TypeScript | 2026-05-27 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/) | 29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b |
+| 15 | [GrekosTheJogurt/antigravity-workspace-manager](https://github.com/GrekosTheJogurt/antigravity-workspace-manager) | 0 | Python | 2026-05-27 | — | Manage and organize project workspaces while dynamically injecting relevant skills for efficient AI assistant context lo |
 | 16 | [johnwall123459885/skene-cookbook](https://github.com/johnwall123459885/skene-cookbook) | 0 | Python | 2026-05-27 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/johnwall123459885/skene-cookbook/) | 🤖 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development. |
 | 17 | [Luxvil/ai-coding-rules](https://github.com/Luxvil/ai-coding-rules) | 2 | Shell | 2026-05-27 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Luxvil/ai-coding-rules/) | 🤖 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje |
 | 18 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 13 | — | 2026-05-27 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
@@ -85,8 +85,8 @@ expired items removed — so you can rely on what you see being current.
 | 41 | [taniwhaai/arai](https://github.com/taniwhaai/arai) | 5 | Rust | 2026-05-27 | — | AI coding rules that actually work. Enforce instruction files via hooks — CLAUDE.md, .cursorrules, copilot-instructions, |
 | 42 | [heymegabyte/claude-skills](https://github.com/heymegabyte/claude-skills) | 9 | JavaScript | 2026-05-27 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/claude-skills/) | 14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts → deployed products. |
 | 43 | [GeiserX/n8n-nodes-lynxprompt](https://github.com/GeiserX/n8n-nodes-lynxprompt) | 1 | TypeScript | 2026-05-26 | — | n8n community node for LynxPrompt — manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via API |
-| 44 | [TheoV823/mneme](https://github.com/TheoV823/mneme) | 9 | HTML | 2026-05-26 | — | Enforce architectural decisions in AI-assisted development. |
-| 45 | [wshobson/agents](https://github.com/wshobson/agents) | 36022 | Python | 2026-05-26 | — | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI |
+| 44 | [TheoV823/mneme](https://github.com/TheoV823/mneme) | 9 | HTML | 2026-05-27 | — | Enforce architectural decisions in AI-assisted development. |
+| 45 | [wshobson/agents](https://github.com/wshobson/agents) | 36023 | Python | 2026-05-26 | — | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI |
 | 46 | [Smithbox-ai/ControlFlow](https://github.com/Smithbox-ai/ControlFlow) | 11 | JavaScript | 2026-05-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Smithbox-ai/ControlFlow/) | Multi-agent orchestration for VS Code Copilot, Claude Code, OpenAI Codex and Cursor |
 | 47 | [GeiserX/lynxprompt-vscode](https://github.com/GeiserX/lynxprompt-vscode) | 1 | TypeScript | 2026-05-26 | — | VS Code extension for LynxPrompt — browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules)  |
 | 48 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 0 | Python | 2026-05-26 | — | Governance-first OS for AI coding agents — structured workflows, delivery gates, engineering guardrails, and 17 professi |
