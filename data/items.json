@@ -1,11 +1,29 @@
 [
   {
+    "description": "Team-ops layer for Cursor \u2014 versioned rules, skills & git guardrails rolled out across your whole engineering team in 5 ",
+    "id": "SID-SURANGE/cursor-team-kit",
+    "language": "Shell",
+    "name": "SID-SURANGE/cursor-team-kit",
+    "stars": 0,
+    "updated_at": "2026-05-27T02:23:45Z",
+    "url": "https://github.com/SID-SURANGE/cursor-team-kit"
+  },
+  {
+    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
+    "id": "eumiguellllllllll/copilot-rules",
+    "language": "Batchfile",
+    "name": "eumiguellllllllll/copilot-rules",
+    "stars": 0,
+    "updated_at": "2026-05-27T02:20:05Z",
+    "url": "https://github.com/eumiguellllllllll/copilot-rules"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "Python",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-05-27T02:00:18Z",
+    "updated_at": "2026-05-27T02:15:18Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -243,15 +261,6 @@
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
-    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
-    "id": "eumiguellllllllll/copilot-rules",
-    "language": "Batchfile",
-    "name": "eumiguellllllllll/copilot-rules",
-    "stars": 0,
-    "updated_at": "2026-05-26T22:38:17Z",
-    "url": "https://github.com/eumiguellllllllll/copilot-rules"
-  },
-  {
     "description": "n8n community node for LynxPrompt \u2014 manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via API",
     "id": "GeiserX/n8n-nodes-lynxprompt",
     "language": "TypeScript",
@@ -268,15 +277,6 @@
     "stars": 12,
     "updated_at": "2026-05-26T21:12:48Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "description": "Team-ops layer for Cursor \u2014 versioned rules, skills & git guardrails rolled out across your whole engineering team in 5 ",
-    "id": "SID-SURANGE/cursor-team-kit",
-    "language": "Shell",
-    "name": "SID-SURANGE/cursor-team-kit",
-    "stars": 0,
-    "updated_at": "2026-05-27T02:05:09Z",
-    "url": "https://github.com/SID-SURANGE/cursor-team-kit"
   },
   {
     "description": "Enforce architectural decisions in AI-assisted development.",
