@@ -1,5 +1,41 @@
 [
   {
+    "description": "",
+    "id": "baneeishaque/ai-agent-rules",
+    "language": "TypeScript",
+    "name": "baneeishaque/ai-agent-rules",
+    "stars": 3,
+    "updated_at": "2026-05-27T13:11:17Z",
+    "url": "https://github.com/baneeishaque/ai-agent-rules"
+  },
+  {
+    "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
+    "id": "caioribeiroclw-pixel/pluribus",
+    "language": "JavaScript",
+    "name": "caioribeiroclw-pixel/pluribus",
+    "stars": 1,
+    "updated_at": "2026-05-27T13:07:30Z",
+    "url": "https://github.com/caioribeiroclw-pixel/pluribus"
+  },
+  {
+    "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
+    "id": "fluttersdk/wind",
+    "language": "Dart",
+    "name": "fluttersdk/wind",
+    "stars": 18,
+    "updated_at": "2026-05-27T13:06:11Z",
+    "url": "https://github.com/fluttersdk/wind"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-05-27T13:00:53Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: Agent rules for skillpack-forge\nglobs:\n  - \"**/*\"\nalwaysApply: true\n---\n\n# skillpack-forge\n\nCompile one repo manifest into portable AGENTS.md, AI coding skills, and agent rules.\n\n## Principles\n- Preserve user changes and keep edits scoped\n- Inspect the current repo state before changing files\n- Run verification before claiming success\n\n## Commands\n- install: `npm install`\n- test: `npm test`\n- doctor: `npm run doctor`\n- scan: `npm run scan`\n- diff: `npm run diff`\n",
       "format": "mdc",
@@ -49,15 +85,6 @@
     "stars": 0,
     "updated_at": "2026-05-27T12:33:26Z",
     "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-05-27T12:30:37Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\ud83d\udccb \u667a\u80fd\u4f53\u5168\u5c40\u534f\u4f5c\u89c4\u5219 \u2014 16 \u8282\u884c\u4e3a\u7ea6\u675f\uff0c\u8ba9 AI \u4ece\"\u8fd8\u884c\"\u53d8\u6210\"\u53ef\u9760\"\u3002\u5fb7\u6251\u8bb2\u724c\u529b\uff0cAI \u8bb2\u89c4\u5219\u529b\u3002\u4e2d\u82f1\u53cc\u8bed\uff0c\u4e00\u884c\u547d\u4ee4\u5b89\u88c5\u3002",
@@ -154,15 +181,6 @@
     "stars": 13,
     "updated_at": "2026-05-27T09:39:16Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
-    "id": "fluttersdk/wind",
-    "language": "Dart",
-    "name": "fluttersdk/wind",
-    "stars": 18,
-    "updated_at": "2026-05-27T09:14:24Z",
-    "url": "https://github.com/fluttersdk/wind"
   },
   {
     "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
@@ -378,15 +396,6 @@
     "url": "https://github.com/Costumary/gsap-choreography"
   },
   {
-    "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
-    "id": "caioribeiroclw-pixel/pluribus",
-    "language": "JavaScript",
-    "name": "caioribeiroclw-pixel/pluribus",
-    "stars": 1,
-    "updated_at": "2026-05-27T12:11:40Z",
-    "url": "https://github.com/caioribeiroclw-pixel/pluribus"
-  },
-  {
     "description": "AI coding rules that actually work. Enforce instruction files via hooks \u2014 CLAUDE.md, .cursorrules, copilot-instructions,",
     "id": "taniwhaai/arai",
     "language": "Rust",
@@ -499,14 +508,5 @@
     "stars": 0,
     "updated_at": "2026-05-25T23:32:26Z",
     "url": "https://github.com/vctmasters1/PDS-Layered-AI-Instruct-Template-V3"
-  },
-  {
-    "description": "One agent to control every AI tool",
-    "id": "Xoner1/octboos",
-    "language": "JavaScript",
-    "name": "Xoner1/octboos",
-    "stars": 0,
-    "updated_at": "2026-05-25T23:13:40Z",
-    "url": "https://github.com/Xoner1/octboos"
   }
 ]
