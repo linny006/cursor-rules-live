@@ -214,6 +214,27 @@ def _render_detail_page(*, item, all_items, meta):
     if lang and lang != "-":
         explore_links.append((f"All {lang} entries", f"{base}/lang/{_slug(lang)}/"))
 
+    # Actionable content: actual .cursorrules contents (when fetched by tracker.py)
+    rules_section = ""
+    rules = item.get("cursorrules")
+    if rules and rules.get("content"):
+        rules_path = _esc(rules.get("path", ".cursorrules"))
+        rules_format = _esc(rules.get("format", "text"))
+        # Truncate to avoid extreme page size; full content is in source repo
+        rules_content = rules["content"][:6000]
+        truncated_note = ""
+        if len(rules["content"]) >= 6000:
+            truncated_note = "<p><em>Content truncated. View full file in the source repo (linked above).</em></p>"
+        rules_section = (
+            '<section id="rules"><h2>Actual rules from this repo</h2>\n'
+            f'<p>Path in source repo: <code>{rules_path}</code> &middot; format: <code>{rules_format}</code></p>\n'
+            f'<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;'
+            f'font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>{_esc(rules_content)}</code></pre>\n'
+            f"{truncated_note}"
+            f'<p><a href="{_esc(src_url)}/blob/HEAD/{rules_path}" rel="external">View raw on GitHub</a></p>\n'
+            "</section>\n"
+        )
+
     body = (
         "<main>\n"
         f"<h1>{_esc(name)}</h1>\n"
@@ -225,6 +246,7 @@ def _render_detail_page(*, item, all_items, meta):
         f'<span><a href="{_esc(src_url)}" rel="external">Source on GitHub</a></span>\n'
         f'<span><a href="https://github.com/{_esc(owner)}" rel="external">@{_esc(owner)}</a></span>\n'
         "</div>\n"
+        f"{rules_section}"
         "<section><h2>Why this is listed</h2>\n"
         f"<p>{why_listed}</p></section>\n"
         "<section><h2>Similar in this tracker</h2>\n"
