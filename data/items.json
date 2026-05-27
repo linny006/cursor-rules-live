@@ -1,11 +1,29 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-05-27T22:25:21Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-05-27T22:15:29Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "AI coding rules that actually work. Enforce instruction files via hooks \u2014 CLAUDE.md, .cursorrules, copilot-instructions,",
     "id": "taniwhaai/arai",
     "language": "Rust",
     "name": "taniwhaai/arai",
     "stars": 5,
-    "updated_at": "2026-05-27T22:15:05Z",
+    "updated_at": "2026-05-27T22:16:26Z",
     "url": "https://github.com/taniwhaai/arai"
   },
   {
@@ -43,15 +61,6 @@
     "stars": 18,
     "updated_at": "2026-05-27T22:01:56Z",
     "url": "https://github.com/fluttersdk/wind"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-05-27T22:00:48Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Guided self-interview \u2192 portable AI context files for Claude Code, Codex, Cursor, Kiro, ChatGPT. Local-first MCP server.",
@@ -238,15 +247,6 @@
     "stars": 0,
     "updated_at": "2026-05-27T20:12:51Z",
     "url": "https://github.com/PiloTracer/.ai"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 0,
-    "updated_at": "2026-05-27T20:01:09Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
