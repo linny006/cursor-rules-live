@@ -1,12 +1,12 @@
 [
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
+    "description": "Team-ops layer for Cursor \u2014 versioned rules, skills & git guardrails rolled out across your whole engineering team in 5 ",
+    "id": "SID-SURANGE/cursor-team-kit",
+    "language": "Shell",
+    "name": "SID-SURANGE/cursor-team-kit",
     "stars": 0,
-    "updated_at": "2026-05-27T06:56:03Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+    "updated_at": "2026-05-27T07:01:32Z",
+    "url": "https://github.com/SID-SURANGE/cursor-team-kit"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-05-27T06:45:33Z",
+    "updated_at": "2026-05-27T07:00:46Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-05-27T06:56:03Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Build unique user interfaces with a structured ruleset to prevent generic AI output.",
@@ -254,15 +263,6 @@
     "url": "https://github.com/whydixit/cursor-starter"
   },
   {
-    "description": "Team-ops layer for Cursor \u2014 versioned rules, skills & git guardrails rolled out across your whole engineering team in 5 ",
-    "id": "SID-SURANGE/cursor-team-kit",
-    "language": "Shell",
-    "name": "SID-SURANGE/cursor-team-kit",
-    "stars": 0,
-    "updated_at": "2026-05-27T02:23:45Z",
-    "url": "https://github.com/SID-SURANGE/cursor-team-kit"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: Use when building multi-scene GSAP animations for product demos, hero walkthroughs, or scripted UI sequences in React. Covers timeline architecture, cursor choreography, scene transitions, click systems, typed text, and animation coordination across components.\nglobs:\n  - \"**/*film*\"\n  - \"**/*demo*\"\n  - \"**/*animation*\"\n  - \"**/*choreograph*\"\n  - \"**/*gsap*\"\n  - \"**/*timeline*\"\n---\n\n# GSAP Choreography\n\nBuild scripted, multi-scene product animations using GSAP timelines in React. Not tweens-101 \u2014 this is the orchestration layer: how to coordinate cursor movement, click feedback, scene transitions, typed text, and UI state changes into a single looping timeline that feels like a directed film.\n\n## Architecture\n\n```\nfilm-script.ts          \u2192 Scene definitions, cursor paths, data (no GSAP)\nfilm-primitives.tsx      \u2192 Static DOM: frame, sidebar, cursor SVG (no GSAP)\nfilm-panels.tsx          \u2192 Scene content: each tab's UI (no GSAP)\nfilm-demo.tsx            \u2192 Single useGSAP hook: the entire choreography\nanimation-provider.tsx   \u2192 React context: play/pause/restart coordination\n```\n\n**The rule:** GSAP code lives in exactly one file. Everything else is inert DOM with `data-film-*` attributes. This separation means designers edit visuals without touching animation, and the timeline can target any element by data attribute.\n\n## Timeline as Central Authority\n\nOne `gsap.timeline()` owns the entire sequence. Every animation is a `.to()` or `.set()` call on this timeline, positioned with labels.\n\n```tsx\nconst timeline = gsap.timeline({\n  repeat: -1,\n  repeatDelay: 0.75,\n  defaults: { ease: \"power3.out\" },\n});\n\ntimeline\n  .to(cursor, { x: target.x, y: target.y, duration: 0.72 }, \"groupMove\")\n  .to(toolbar, { backgroundColor: \"rgba(182,95,114,0.15)\", duration: 0.18 }, \"groupMove+=0.55\");\n\nclick(target, \"groupClick\");\n\ntimeline\n  .to(groupOutline, { autoAlpha: 1, scale: 1, duration: 0.38 }, \"groupClick+=0.1\")\n  .to(note, { autoAlpha: 1, y: 0, duration: 0.38 }, \"noteClick+=0.12\");\n```\n\n**Why one timeline:** Multiple timelines desync on tab-switch, resize, or replay. A single timeline with labels gives you scrubbing, replay, and pause for free. Labels are the API between \"what happens\" and \"when.\"\n\n## Label Naming Convention\n\nName labels by what the user *does*, not what animates:\n\n```\n\"dropClick\"        \u2192 user drops references onto board\n\"groupClick\"       \u2192 user clicks the group tool\n\"noteMove\"         \u2192 cursor travels to the note tool\n\"sidebarCollapse\"  \u2192 sidebar shrinks to icon-only\n\"navMaterials\"     \u2192 user clicks Materials in nav\n\"typeStart\"        \u2192 cursor reaches the input field\n\"sendClick\"        \u2192 user clicks send on the chat\n\"settle\"           \u2192 animation winds down, UI resets\n```\n\nPosition everything relative to labels with `\"labelName+=0.12\"` offsets. Never use absolute seconds.\n\n## Cursor System\n\nThe cursor is a positioned SVG that moves via the timeline. It must feel human, not robotic.\n\n### Movement\n\n```tsx\n.to(cursor, { x: target.x, y: target.y, duration: 0.72, ease: \"power2.out\" }, \"moveLabel\")\n```\n\n- Short hop (same area): 0.4\u20130.6s\n- Cross-screen travel: 0.7\u20131.0s\n- Entering from off-screen: 1.0\u20131.2s\n\nNever use `ease: \"linear\"` for cursor movement.\n\n### Click Feedback\n\nEvery click needs a cursor squeeze and a ripple burst:\n\n```tsx\nfunction click(position: { x: number; y: number }, label: string) {\n  timeline\n    .set(ripple, { x: position.x, y: position.y, scale: 0.2, autoAlpha: 0.55 }, label)\n    .to(cursor, { scale: 0.88, duration: 0.08, ease: \"power2.out\" }, label)\n    .to(ripple, { scale: 3.4, autoAlpha: 0, duration: 0.54, ease: \"power2.out\" }, label)\n    .to(cursor, { scale: 1, duration: 0.16, ease: \"back.out(2.2)\" }, `${label}+=0.09`);\n}\n```\n\n### Cursor Position Measurement (CRITICAL)\n\n**Never hardcode cursor coordinates.** Always measure targets from actual DOM elements:\n\n```tsx\nconst measure = (el: HTMLElement) => {\n  const frame = root.getBoundingClientRect();\n  const r = el.getBoundingClientRect();\n  const s = scale || 1;\n  return {\n    x: Math.round((r.left + r.width / 2 - frame.left) / s),\n    y: Math.round((r.top + r.height / 2 - frame.top) / s),\n  };\n};\n```\n\n## Scene Transitions\n\n```tsx\n// 1. Update nav state (immediate, not animated)\n.add(() => {\n  setActiveNav(root, \"nav-materials\");\n  setProgressDots(root, 1);\n  setCaption(captionEl, scenes[1].caption);\n}, \"navMaterials+=0.56\")\n\n// 2. Cross-fade content\n.to(prevTab, { autoAlpha: 0, duration: 0.24 }, \"materialsClick+=0.08\")\n.to(nextTab, { autoAlpha: 1, duration: 0.28 }, \"materialsClick+=0.14\")\n```\n\nUse `autoAlpha` (not `opacity`) \u2014 it sets `visibility: hidden` at 0.\n\n## Typed Text Effect\n\n```tsx\nconst prompt = \"What should I do next?\";\nconst counter = { x: 0 };\n\ntimeline\n  .to(placeholder, { autoAlpha: 0, duration: 0.1 }, \"typeStart+=0.56\")\n  .to(caret, { autoAlpha: 1, duration: 0.1 }, \"typeStart+=0.56\")\n  .to(counter, {\n    x: prompt.length,\n    duration: 1.65,\n    ease: \"none\",\n    onUpdate: () => {\n      target.textContent = prompt.slice(0, Math.round(counter.x));\n    },\n  }, \"typeStart+=0.62\");\n```\n\n`ease: \"none\"` is correct \u2014 real typing is constant speed.\n\n## Element Initial States\n\nSet every animated element's start state explicitly at timeline position 0:\n\n```tsx\ngsap.set(cursor, { x: offScreenX, y: offScreenY });\ngsap.set(cards, { autoAlpha: 0, y: 26, scale: 0.82 });\n```\n\nFor looping timelines, add a reset block at position 0.\n\n## Stagger Patterns\n\n```tsx\n.to(cards, {\n  autoAlpha: 1, y: 0, scale: 1,\n  rotation: (i: number) => rotations[i],\n  stagger: 0.07,\n  duration: 0.46,\n}, \"dropClick+=0.16\")\n```\n\n0.05\u20130.08s for related items, 0.10\u20130.15s for independent items.\n\n## Responsive Scaling\n\nRender at fixed design size, scale with CSS transform:\n\n```tsx\nconst FILM_WIDTH = 1180;\nconst FILM_HEIGHT = 760;\n\n<div style={{\n  width: FILM_WIDTH,\n  height: FILM_HEIGHT,\n  transform: `scale(${scale})`,\n  transformOrigin: \"top left\",\n}} />\n```\n\n## Data Attribute Convention\n\n```\ndata-film-cursor          \u2192 the cursor SVG\ndata-film-ripple          \u2192 click ripple circle\ndata-film-tab=\"references\"\u2192 scene content panels\ndata-film-nav=\"nav-materials\" \u2192 sidebar nav items\ndata-film-ref-card=\"0\"    \u2192 indexed elements\ndata-film-typed           \u2192 typed text target\n```\n\nWhy data attributes over refs: queryable, readable, don't require threading React refs through component boundaries.\n\n## Accessibility\n\nSupport `prefers-reduced-motion` \u2014 skip the timeline and show a static resting state. Register a paused empty timeline so play/pause controls don't crash.\n\n## Common Mistakes\n\n| Mistake | Fix |\n|---------|-----|\n| Hardcoded cursor coordinates | Always `measure()` from DOM elements |\n| `opacity` instead of `autoAlpha` | `autoAlpha` also sets `visibility: hidden` at 0 |\n| Linear cursor movement | Use `power2.out` or `power3.out` |\n| No reset block for looping timelines | Explicit `gsap.set()` at position 0 |\n| Absolute time positions (`2.5`) | Use labels + offsets |\n| Animating `left`/`top` instead of `x`/`y` | Transforms are compositor-friendly |\n| Missing breathing room between scenes | 0.8\u20131.5s dead time after major state changes |\n| Click without ripple+squeeze | Both needed \u2014 ripple alone looks like a UI bug |\n| `ease: \"power2.out\"` on typed text | Use `ease: \"none\"` (constant speed) |\n| Multiple useGSAP hooks for one sequence | One hook, one timeline, labels for structure |\n",
       "format": "mdc",
@@ -349,7 +349,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36006,
+    "stars": 36008,
     "updated_at": "2026-05-26T15:30:34Z",
     "url": "https://github.com/wshobson/agents"
   },
