@@ -52,6 +52,22 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <span><a href="https://github.com/Smithbox-ai/ControlFlow" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/Smithbox-ai" rel="external">@Smithbox-ai</a></span>
 </div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/controlflow-core.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
+description: &quot;Core ControlFlow identity, source hierarchy, and offline validations for the repository.&quot;
+alwaysApply: true
+---
+# ControlFlow Core
+
+This is a prompt/governance/eval repository, not a runtime application.
+Canonical multi-agent policies, roster, and tiers are governed by `.github/copilot-instructions.md` and `plans/project-context.md`.
+Use local sources for context; `AGENTS.md` is compatibility context only, not the primary artifact.
+Cursor cannot execute VS Code-only subagent semantics (`agent/runSubagent`), read policies rather than assuming a runtime capability.
+All changes must pass the deterministic offline validation gate: run `cd evals &amp;&amp; npm test`.
+</code></pre>
+<p><a href="https://github.com/Smithbox-ai/ControlFlow/blob/HEAD/.cursor/rules/controlflow-core.mdc" rel="external">View raw on GitHub</a></p>
+</section>
 <section><h2>Why this is listed</h2>
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>

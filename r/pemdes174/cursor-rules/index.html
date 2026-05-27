@@ -52,6 +52,195 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <span><a href="https://github.com/pemdes174/cursor-rules" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/pemdes174" rel="external">@pemdes174</a></span>
 </div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/nextjs-development.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
+alwaysApply: true
+description: NextJs development rules
+---
+
+# Next.js Development Rules
+
+You are an expert full-stack TypeScript engineer working with Next.js. Produce production-ready code that follows modern Next.js App Router patterns and best practices.
+
+## Tech Stack Guidelines
+
+- **Next.js 15+** (App Router) + React 19
+- **TypeScript** (strict mode)
+- **Testing**: Vitest + React Testing Library + MSW
+- **Styling**: Tailwind CSS + shadcn/ui (when applicable)
+- **Package Manager**: pnpm
+
+Focus on: separation of concerns, strict typing, accessibility, performance, and comprehensive testing.
+
+## Project Structure
+
+```
+src/
+├─ app/                       # App Router (RSC by default)
+│  ├─ _components/            # App-level (RSC-ok) components
+│  ├─ api/                    # API routes for external webhooks only
+│  ├─ (routes)/               # Route groups and pages
+│  └─ layout.tsx
+├─ components/                # Reusable client/RSC components
+│  ├─ ui/                     # Base UI components
+│  └─ [feature]/              # Feature-specific components
+├─ lib/                       # Utilities and shared helpers
+├─ server/                    # Server-side code
+│  ├─ api/                    # tRPC API layer
+│  │  ├─ routers/             # tRPC router composition
+│  │  ├─ procedures/          # Individual tRPC procedures
+│  │  ├─ root.ts              # Root router
+│  │  └─ trpc.ts              # tRPC setup
+│  ├─ services/               # Business logic services
+│  └─ clients/                # External service clients
+├─ db/                        # Database schema &amp; migrations
+├─ tools/                     # AI tool definitions
+├─ prompts/                   # AI prompt templates
+└─ trpc/                      # tRPC client setup
+
+test/
+├─ unit/                      # Unit tests
+├─ integ/                     # Integration tests
+└─ e2e/                       # End-to-end tests
+```
+
+### Directory Conventions
+
+- Use **kebab-case** for folders and files
+- Co-locate tests next to source: `*.test.ts(x)`
+- Export from `index.ts` barrels only when it helps DX without circular deps
+
+## Next.js App Router Rules
+
+### Server vs Client Components
+
+- **Default to RSC** (no &quot;use client&quot;). Use client components only for:
+  - Interactivity (event handlers)
+  - Browser APIs (localStorage, window, etc.)
+  - Third-party libraries requiring client-side initialization
+
+### Server Boundaries
+
+- Keep data access in server context (RSC, server actions, API routes)
+- API routes in `app/api` are for external webhooks only
+- Use internal APIs (tRPC, server actions) for app-to-app communication
+
+### Performance &amp; UX
+
+- Use `&lt;Suspense&gt;` for async UI; provide skeletons
+- Implement proper loading and error boundaries
+- Use Next.js caching (`revalidateTag`, `revalidatePath`) appropriately
+- Prefer Edge runtime for simple operations, Node for complex ones
+
+### Accessibility
+
+- All interactive elements must have proper roles and labels
+- Ensure keyboard navigation support
+- Provide ARIA attributes where needed
+- Test with screen readers
+
+## API Architecture
+
+### Internal APIs (tRPC Recommended)
+
+- Organize by feature domains
+- Use Zod for input validation
+- Implement proper error handling with custom error classes
+- Keep business logic server-side (no JSX in API layer)
+- Write integration tests with mocked external services
+- **Router logic should be application code only** - delegate to business logic services
+- **Use only protected procedures** for all endpoints
+- **Split procedures and routers** into separate files for better organization
+
+### Application Logic vs Business Logic
+
+**Application Logic** (in tRPC procedures):
+- Input validation and sanitization
+- Authentication and authorization checks
+- Request/response formatting
+- Error handling and mapping
+- Delegation to business logic services
+- Logging and observability
+
+**Business Logic** (in service layer):
+- Core business rules and validations
+- Domain-specific operations
+- Data transformations and calculations
+- Business workflow orchestration
+- Domain knowledge and expertise
+
+**Example:**
+
+```typescript
+// Application Logic (tRPC Procedure)
+export const createUserProcedure = protectedProcedure
+  .input(createUserSchema)
+  .mutation(async ({ ctx, input }) =&gt; {
+    try {
+      // Application logic: validation, auth, delegation
+      const result = await createUser({
+        userId: ctx.auth.userId,
+        ...input
+      });
+      
+      return { success: true, data: result };
+    } catch (error) {
+      // Application logic: error handling
+      if (error instanceof CustomError) {
+        throw error;
+      }
+      throw new CustomError(&quot;INTERNAL_ERROR&quot;, &quot;An unexpected error occurred&quot;);
+    }
+  });
+
+// Business Logic (Service Layer)
+export const createUser = async (params: CreateUserParams): Promise&lt;User&gt; =&gt; {
+  const { userId, email, name, role } = params;
+  
+  // Business logic: domain rules
+  if (role === &#x27;admin&#x27; &amp;&amp; !await hasAdminPrivileges(userId)) {
+    throw new CustomError(&quot;UNAUTHORIZED&quot;, &quot;Insufficient privileges for admin role&quot;, 403);
+  }
+  
+  // Business logic: business validations
+  if (await isEmailAlreadyTaken(email)) {
+    throw new CustomError(&quot;CONFLICT&quot;, &quot;Email already registered&quot;, 409);
+  }
+  
+  // Business logic: domain operations
+  const user = await userRepo.create({
+    email: email.toLowerCase(),
+    name: name.trim(),
+    role,
+    status: &#x27;pending_verification&#x27;
+  });
+  
+  // Business logic: business workflow
+  await sendWelcomeEmail(user);
+  await createDefaultPreferences(user.id);
+  
+  return user;
+};
+```
+
+### External API Integration
+
+- Isolate external service calls in dedicated modules
+- Implement retry logic with exponential backoff
+- Map provider errors to internal error types
+- Store sensitive data (tokens, keys) securely
+
+## Database &amp; Data Layer
+
+### ORM Best Practices
+
+- Use type-safe ORMs (Drizzle, Prisma, etc.)
+- Define schemas with proper relationships and constraints
+- Infer types from schema definitions
+- Write reposito</code></pre>
+<p><em>Content truncated. View full file in the source repo (linked above).</em></p><p><a href="https://github.com/pemdes174/cursor-rules/blob/HEAD/.cursor/rules/nextjs-development.mdc" rel="external">View raw on GitHub</a></p>
+</section>
 <section><h2>Why this is listed</h2>
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>

@@ -52,6 +52,88 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <span><a href="https://github.com/danielvm-git/bigpowers" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/danielvm-git" rel="external">@danielvm-git</a></span>
 </div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/assess-impact.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
+description: &quot;Analyze the blast radius of a proposed change before any code is written. Maps dependents, affected stories, and test coverage. Produces specs/IMPACT.md. Use before plan-work on any non-trivial change, when touching a shared module, or when the user asks &quot;what does this break?&quot;.&quot;
+alwaysApply: false
+---
+
+
+# Assess Impact
+
+&gt; **HARD GATE** — Run this skill before `plan-work` whenever a change touches an existing module, symbol, or file used by more than one caller. Skip only for net-new code with no existing dependents.
+
+Find the blast radius of the proposed change before a single line is written.
+
+## Process
+
+### 1. Identify the target
+
+Name the symbol, module, or file being changed. If the user hasn&#x27;t specified, ask one question: &quot;What exactly are you changing?&quot;
+
+### 2. Find dependents
+
+```
+grep -rn &quot;[symbol-name]&quot; . --include=&quot;*.ts&quot; | grep -v node_modules
+git log --oneline -10 -- [file-path]
+```
+
+→ verify: `grep -rn &quot;[target]&quot; . | wc -l`
+
+### 3. Map to release plan stories
+
+Read `specs/RELEASE-PLAN.md` (if it exists). For each dependent found in Step 2, identify which story owns that module. List stories that will be affected by the change.
+
+→ verify: `grep -c &quot;Story&quot; specs/RELEASE-PLAN.md 2&gt;/dev/null || echo &quot;no release plan&quot;`
+
+### 4. List test coverage
+
+Find tests that exercise the target:
+
+```
+grep -rn &quot;[symbol-name]&quot; . --include=&quot;*.test.*&quot; --include=&quot;*.spec.*&quot;
+```
+
+→ verify: `grep -rn &quot;[target]&quot; . --include=&quot;*.test.*&quot; | wc -l`
+
+### 5. Classify risk
+
+| Level | Condition |
+|-------|-----------|
+| Low   | ≤ 2 callers, all covered by tests |
+| Medium | 3–10 callers, partial test coverage |
+| High  | &gt; 10 callers, or shared API/interface, or no tests |
+
+### 6. Write specs/IMPACT.md
+
+```
+## Target
+[symbol or file being changed]
+
+## Dependents ([count])
+- [file]: [caller or usage]
+
+## Affected Stories
+- Story [X.Y]: [title]
+
+## Test Coverage
+- [test file]: covers [scenario]
+- Gap: [untested behavior]
+
+## Risk: Low / Medium / High
+[One-sentence rationale]
+
+## Recommended action
+[Proceed / Add tests first / Discuss design]
+```
+
+→ verify: `grep &quot;Risk:&quot; specs/IMPACT.md`
+
+Suggest `plan-work` once risk is understood and any test gaps are noted.
+</code></pre>
+<p><a href="https://github.com/danielvm-git/bigpowers/blob/HEAD/.cursor/rules/assess-impact.mdc" rel="external">View raw on GitHub</a></p>
+</section>
 <section><h2>Why this is listed</h2>
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>

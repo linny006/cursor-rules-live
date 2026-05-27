@@ -52,6 +52,106 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <span><a href="https://github.com/mhenke/john-ousterhout-skills" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/mhenke" rel="external">@mhenke</a></span>
 </div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/aposd-guidelines.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
+description: Behavioral guidelines for strategic software design based on &quot;A Philosophy of Software Design&quot; by John Ousterhout. Use when code has shallow modules, information leakage, or tactical shortcuts, and you want to apply complexity-driven design principles.
+alwaysApply: true
+---
+
+&gt; **Content source:** This file mirrors `CLAUDE.md`. `CLAUDE.md` is the single source of truth — make changes there first, then copy here.
+
+# APOSD behavioral guidelines
+
+APOSD behavioral guidelines for AI coding agents. Merge with project-specific instructions as needed.
+
+**Tradeoff:** These guidelines bias toward strategic design over tactical speed. For trivial tasks, use judgment.
+
+## 1. Strategic Over Tactical
+
+*Working code isn&#x27;t enough. Invest in design.*
+
+- Every task gets a small design investment: at least one improvement in the surrounding code.
+- Watch for the &quot;tactical tornado&quot; — churning out code quickly while accumulating design debt.
+- Strategic thinking costs no extra time — it&#x27;s about how you think, not how long you spend.
+- BEFORE implementing any fix, explicitly state the strategic alternative: &quot;Here&#x27;s the tactical path: [quick fix]. The strategic alternative: [redesign that reduces complexity]. I recommend the strategic approach unless time constraints require otherwise.&quot;
+- **Red flag:** If you find yourself using APOSD vocabulary (&quot;deep module,&quot; &quot;define errors out of existence&quot;) to justify a tactical patch, you&#x27;re still being tactical. Language doesn&#x27;t make it strategic — design investment does.
+
+## 2. Design Deep Modules
+
+*Simple interface, powerful implementation.*
+
+- Module depth = benefit provided / interface complexity. The ratio should be high.
+- If the interface is as complex as the implementation, it&#x27;s shallow — merge or redesign.
+- Diagnostic questions: &quot;How many use cases will this serve?&quot; (if one, too special-purpose). &quot;Is this easy to use for my current need?&quot; (if not, redesign).
+
+## 3. Information Hiding
+
+*Expose only what callers need.*
+
+- If implementation details leak into the interface, stop and redesign.
+- If the same design decision appears in multiple modules, that&#x27;s information leakage — consolidate.
+- Don&#x27;t expose internal state unless callers genuinely need it.
+
+## 4. Design General-Purpose Modules
+
+*Serve multiple use cases through a stable interface.*
+
+- Design modules to be slightly more general-purpose than your current need. A general-purpose module is reused, not duplicated, and its interface stays stable across use cases.
+- If a module or method serves only one caller, it may be too special-purpose — generalize it.
+- Diagnostic questions: &quot;In how many situations could this method be used?&quot; (if one, too special). &quot;Is this API easy to use for my current need?&quot; (if not, redesign). &quot;Can several special-purpose methods be replaced by one general-purpose method?&quot;
+- Red flag: special-case logic embedded in a general-purpose mechanism — separate the two so the mechanism stays reusable.
+
+## 5. Different Layer, Different Abstraction
+
+*Each layer must add value — pass-throughs are noise.*
+
+- Every software layer should provide a different abstraction from the layers above and below it. If two adjacent layers have similar abstractions, one of them isn&#x27;t adding value.
+- Pass-through methods (method body only delegates with the same signature) and pass-through variables (config threaded through layers that don&#x27;t use it) are red flags — eliminate them.
+- Diagnostic question: &quot;Does removing this layer change anything meaningful for the caller?&quot; If not, delete it.
+
+## 6. Pull Complexity Downward
+
+*Handle complexity in the implementation, not the interface.*
+
+- The common case must be trivial for the caller.
+- When a feature is inherently complex, push that complexity into the module so callers don&#x27;t see it.
+- Don&#x27;t let the module grow into a god class — if it knows about everything, the interface is simple but the implementation is a tangled mess.
+
+## 7. Comments First
+
+*Describe what&#x27;s not obvious. Comments are not a failure — they are essential. If a comment is hard to write, the design is wrong.*
+
+- Draft the interface comment before writing the body.
+- Interface comments: what the method does for callers, not how.
+- Implementation comments: why this approach, not what the code does.
+- If a comment is hard to write, or long, the design is wrong — redesign.
+- **Note:** APOSD disagrees with &quot;comments are failures&quot; philosophy. Without comments, there is no way to define abstractions or module interfaces — the contract of every method is left unspecified, forcing readers to read the full implementation. Ousterhout reports spending 50-80% of development time wading through code due to inadequate documentation.
+
+## 8. Choosing Names
+
+*Names should create an image — precise, consistent, no extra words.*
+
+- If you can&#x27;t find an intuitive name, you don&#x27;t understand the concept well enough — redesign, don&#x27;t rename.
+- Avoid vague names: `data`, `info`, `tmp`, `handle`, `process`, `util`, `helper`, `manager`, `stuff`, `thing`.
+- A good name is precise enough to distinguish and short enough to read. If a name needs extra words to clarify, the concept is fuzzy.
+- Consistency across the codebase matters — the same concept should always have the same name.
+
+## 9. Design for Reading
+
+*If someone needs to think hard to understand it, it&#x27;s not obvious. Complexity is in the eye of the reader — if someone finds your code complicated, it IS complicated, and that&#x27;s your problem to fix, not theirs to overcome.*
+
+- Run the obviousness check before marking code complete: &quot;Would someone reading this for the first time understand it without effort?&quot;
+- Eliminate special cases. Every special case adds cognitive load for every future reader.
+- Good naming, simple control flow, and minimal state make code obvious. If it&#x27;s not obvious, redesign — don&#x27;t add comments explaining it.
+
+## 10. Define Errors Out of Existence
+
+*Design interfaces so common errors can&#x27;t happen.*
+
+- Can you change the inte</code></pre>
+<p><em>Content truncated. View full file in the source repo (linked above).</em></p><p><a href="https://github.com/mhenke/john-ousterhout-skills/blob/HEAD/.cursor/rules/aposd-guidelines.mdc" rel="external">View raw on GitHub</a></p>
+</section>
 <section><h2>Why this is listed</h2>
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>

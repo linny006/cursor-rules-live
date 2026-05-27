@@ -52,6 +52,111 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <span><a href="https://github.com/Thabang9218/cursorifier" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/Thabang9218" rel="external">@Thabang9218</a></span>
 </div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/rulefy-generated-rules.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
+description: &quot;These rules apply when developing, extending, or contributing to the Rulefy project - a tool for generating Cursor AI rules from GitHub repositories. Follow these guidelines to ensure consistent code quality, proper error handling, and adherence to the project&#x27;s architectural patterns.&quot;
+globs: 
+alwaysApply: false
+---
+
+# Rulefy Development Guidelines
+
+## Critical Rules
+
+- Use TypeScript with strict typing and proper return type annotations for all functions
+- Follow ESM module syntax with `.js` extensions in import paths despite TypeScript usage
+- Handle errors properly with try/catch blocks and appropriate error messages
+- Use color formatting with picocolors for console output to maintain consistent UX
+- Validate all external inputs and environment variables before use
+- Implement proper chunking for large repository content to avoid token limit issues
+- Follow the established architecture separating CLI, rule generation, and LLM integration
+- Maintain backward compatibility for CLI options and programmatic API
+- Document public functions and interfaces with JSDoc comments
+- Handle rate limits and API errors gracefully when interacting with external services
+- Structure code to be testable, even though tests aren&#x27;t implemented yet
+
+## Examples
+
+&lt;example&gt;
+// VALID: Proper error handling with try/catch and color formatting
+import pc from &#x27;picocolors&#x27;;
+
+async function processRepository(repoPath: string): Promise&lt;void&gt; {
+  try {
+    // Validate inputs
+    if (!repoPath) {
+      throw new Error(&#x27;Repository path is required&#x27;);
+    }
+    
+    // Process with proper error handling
+    console.log(pc.cyan(&#x27;Processing repository...&#x27;));
+    const result = await someAsyncOperation(repoPath);
+    console.log(pc.green(&#x27;✓ Successfully processed repository&#x27;));
+    
+    return result;
+  } catch (error) {
+    if (error instanceof Error) {
+      console.error(pc.red(`Error: ${error.message}`));
+    } else {
+      console.error(pc.red(&#x27;Unknown error occurred&#x27;));
+    }
+    process.exit(1);
+  }
+}
+&lt;/example&gt;
+
+&lt;example type=&quot;invalid&quot;&gt;
+// INVALID: Missing error handling and type annotations
+function processRepo(repo) {
+  // No input validation
+  
+  // No try/catch block
+  const data = someAsyncOperation(repo);
+  
+  // No proper console formatting
+  console.log(&quot;Done processing&quot;);
+  
+  // Missing return type
+  return data;
+}
+&lt;/example&gt;
+
+&lt;example&gt;
+// VALID: Proper module imports with ESM syntax
+import fs from &#x27;node:fs/promises&#x27;;
+import path from &#x27;node:path&#x27;;
+import { generateRules } from &#x27;./rulesGenerator.js&#x27;;
+
+export async function processFiles(directory: string): Promise&lt;string[]&gt; {
+  const files = await fs.readdir(directory);
+  return files.filter(file =&gt; path.extname(file) === &#x27;.ts&#x27;);
+}
+&lt;/example&gt;
+
+&lt;example type=&quot;invalid&quot;&gt;
+// INVALID: Incorrect import syntax for ESM
+const fs = require(&#x27;fs&#x27;);
+import { generateRules } from &#x27;./rulesGenerator&#x27;;  // Missing .js extension
+
+function processFiles(directory) {
+  return new Promise((resolve, reject) =&gt; {
+    fs.readdir(directory, (err, files) =&gt; {
+      if (err) reject(err);
+      resolve(files.filter(file =&gt; file.endsWith(&#x27;.ts&#x27;)));
+    });
+  });
+}
+&lt;/example&gt;
+
+## Key Files Reference
+
+- [src/index.ts](mdc:src/index.ts) - Entry point with CLI handling
+- [src/rulesGenerate.ts](mdc:src/rulesGenerate.ts) - Core rule generation logic
+- [src/llmGenerator.ts](mdc:src/llmGenerator.ts) - Integration with Claude AI
+- [src/prompts/cursor_mdc.md](mdc:src/prompts/cursor_mdc.md) - Rule format guidelines</code></pre>
+<p><a href="https://github.com/Thabang9218/cursorifier/blob/HEAD/.cursor/rules/rulefy-generated-rules.mdc" rel="external">View raw on GitHub</a></p>
+</section>
 <section><h2>Why this is listed</h2>
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>

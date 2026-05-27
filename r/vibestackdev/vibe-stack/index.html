@@ -52,6 +52,116 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <span><a href="https://github.com/vibestackdev/vibe-stack" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/vibestackdev" rel="external">@vibestackdev</a></span>
 </div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/ai-collaboration.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
+description: Instructions for AI agent code generation workflow
+globs: [&quot;*&quot;]
+alwaysApply: true
+---
+
+# AI Collaboration Guidelines
+
+## The 3-Stage Agentic Loop
+
+Every code generation task MUST follow this loop:
+
+### Stage 1: PLAN (gather context first)
+
+Before writing ANY code, the AI MUST:
+1. Read the relevant source files to verify current state — do NOT rely on memory
+2. Identify which `.cursor/rules/` files apply to this task
+3. List the files to modify and explain why
+4. Do NOT write code yet
+
+Prompt template:
+```
+Analyze the current codebase and plan how to implement [feature]. 
+List the files you&#x27;ll modify and why. Don&#x27;t write code yet.
+```
+
+### Stage 2: IMPLEMENT (follow constraints)
+
+When generating code:
+- Follow ALL active `.cursor/rules/` constraints
+- If unsure about auth patterns, re-read `supabase-auth-security.mdc`
+- If unsure about params/layouts, re-read `nextjs15-params.mdc`
+- Use `unknown` + Zod validation instead of `any` for external data
+- Return `ActionResponse&lt;T&gt;` from all Server Actions (see below)
+
+### Stage 3: VERIFY (confirm before declaring done)
+
+After generating code, the AI MUST self-check:
+- [ ] No `getSession()` on the server (MUST be `getUser()`)
+- [ ] No synchronous `params` or `searchParams` access
+- [ ] No `@supabase/auth-helpers-nextjs` imports
+- [ ] No `any` types — use `unknown` + type narrowing
+- [ ] Every API route has Zod validation
+- [ ] Every error is caught and returns `{ error: string }`
+- [ ] New tables have RLS enabled
+- [ ] `loading.tsx` and `error.tsx` exist for data-fetching pages
+
+Report issues BEFORE the developer runs the code.
+
+## Skeptical Retrieval Rule
+
+NEVER trust stored knowledge about the codebase. Before modifying a file:
+1. Re-read the file to verify its current contents
+2. Check imports and exports to ensure they match expectations
+3. Verify that function signatures haven&#x27;t changed
+
+This prevents generating code that references stale function signatures, 
+deleted files, or renamed exports.
+
+## Standard Patterns
+
+### ActionResponse Type (use for all Server Actions)
+```typescript
+type ActionResponse&lt;T = void&gt; = 
+  | { success: true; data: T }
+  | { success: false; error: string }
+```
+
+### Standard Server Action Structure
+```typescript
+&#x27;use server&#x27;
+import { createClient } from &#x27;@/lib/supabase/server&#x27;
+import { z } from &#x27;zod&#x27;
+
+const Schema = z.object({ /* ... */ })
+
+export async function myAction(input: unknown): Promise&lt;ActionResponse&lt;MyType&gt;&gt; {
+  // 1. Auth
+  const supabase = await createClient()
+  const { data: { user } } = await supabase.auth.getUser()
+  if (!user) return { success: false, error: &#x27;Unauthorized&#x27; }
+
+  // 2. Validate
+  const result = Schema.safeParse(input)
+  if (!result.success) return { success: false, error: &#x27;Invalid input&#x27; }
+
+  // 3. Execute
+  try {
+    const { data, error } = await supabase.from(&#x27;table&#x27;).insert(result.data).select().single()
+    if (error) throw error
+    return { success: true, data }
+  } catch {
+    return { success: false, error: &#x27;Operation failed&#x27; }
+  }
+}
+```
+
+## Task Constraints
+
+- NEVER give the AI a task longer than 200 words
+- NEVER let the AI implement more than 3-4 files in one turn
+- NEVER let the AI skip the verification checklist
+- ALWAYS review the Git diff before committing
+- When uncertain, ask the developer — do NOT guess
+
+</code></pre>
+<p><a href="https://github.com/vibestackdev/vibe-stack/blob/HEAD/.cursor/rules/ai-collaboration.mdc" rel="external">View raw on GitHub</a></p>
+</section>
 <section><h2>Why this is listed</h2>
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>

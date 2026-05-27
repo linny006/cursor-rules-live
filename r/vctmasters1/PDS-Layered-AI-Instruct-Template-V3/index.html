@@ -52,6 +52,46 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <span><a href="https://github.com/vctmasters1/PDS-Layered-AI-Instruct-Template-V3" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/vctmasters1" rel="external">@vctmasters1</a></span>
 </div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/project.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code># Cursor Compatibility — rules pointer
+
+&gt; Cursor reads rule files from `.cursor/rules/*.mdc`. This project&#x27;s authoritative rules live in [`.ai/`](../../.ai/) and per-directory `.ai/instruct.md` files. The .mdc files in this directory are pointers — they tell Cursor where to look so its agent behaves the same way GitHub Copilot does in this repo.
+
+---
+description: PDS Depth-Priority Hierarchical AI-INSTRUCT system — read these files before suggesting changes.
+globs:
+  - &quot;**/*&quot;
+alwaysApply: true
+---
+
+# Project rules location
+
+This project uses the **Depth-Priority Hierarchical AI-INSTRUCT V3** system. The rule files are **not** stored in `.cursor/rules/` — they are stored under `.ai/` and in per-directory `.ai/instruct.md` files. **The deepest `.ai/instruct.md` always wins.**
+
+Before suggesting any change, read in this order:
+
+1. [`.github/copilot-instructions.md`](../../.github/copilot-instructions.md) — meta: how the layering works.
+2. [`.github/dev-specs.md`](../../.github/dev-specs.md) — developer OS, shell, language versions, frameworks. Read at session start before suggesting commands or paths.
+3. [`.ai/index.md`](../../.ai/index.md) — master index of every instruction section.
+4. [`.ai/instruct.md`](../../.ai/instruct.md) — workspace-root authority.
+5. `[current-directory]/.ai/instruct.md` and every ancestor — **the deepest is authoritative**, shallower files are background context only.
+
+## Cross-cutting rules
+
+| Topic | Canonical file |
+|-------|---------------|
+| Naming, file organization | [`.ai/conventions.md`](../../.ai/conventions.md) |
+| Archive / never-delete / never-reset-db | [`.ai/maintenance.md`](../../.ai/maintenance.md) |
+| Credentials, `.env`, `.gitignore` | [`.ai/credentials.md`](../../.ai/credentials.md) |
+
+## Do not
+
+- Do not invent a new `.cursor/rules/*.mdc` file with project rules in it — those rules belong in the appropriate `.ai/` file. The `.cursor/rules/` directory is a pointer layer only.
+- Do not duplicate content from `.ai/` into Cursor rules. If Cursor needs context, add a one-line pointer here that links to the canonical file.
+</code></pre>
+<p><a href="https://github.com/vctmasters1/PDS-Layered-AI-Instruct-Template-V3/blob/HEAD/.cursor/rules/project.mdc" rel="external">View raw on GitHub</a></p>
+</section>
 <section><h2>Why this is listed</h2>
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>

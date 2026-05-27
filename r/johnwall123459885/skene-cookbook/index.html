@@ -52,11 +52,232 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <span><a href="https://github.com/johnwall123459885/skene-cookbook" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/johnwall123459885" rel="external">@johnwall123459885</a></span>
 </div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursorrules</code> &middot; format: <code>text</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code># Cursor Rules for skene-cookbook
+
+## Project Context
+
+**Repository:** skene-cookbook - 764 AI skill library with 36 skill chain recipes
+**Package:** @skene/skills-directory v0.2.0
+**License:** MIT
+**Purpose:** Pre-built AI skill chains for PLG, sales, customer success, security, and more
+
+## Architecture Patterns
+
+### Skill Structure (Non-Negotiable)
+
+Every skill MUST follow this exact structure:
+
+```
+skills-library/{domain}/{skill-name}/
+├── skill.json          # Metadata (name, description, category, risk_level)
+├── instructions.md     # AI agent execution instructions
+└── tests/              # Optional: skill-specific tests
+```
+
+**Do NOT:**
+- Create skills outside `skills-library/executable/` or `skills-library/reference/`
+- Modify existing skill structure without updating registry
+- Add skills without `skill.json` and `instructions.md`
+
+### Registry Auto-Generation
+
+The `registry/` directory is AUTO-GENERATED from `skills-library/`:
+- Never manually edit files in `registry/`
+- Always run `npm run verify:metrics` after skill changes
+- Registry regeneration syncs badges and counts across README.md, METRICS.md, docs/directory.md
+
+### Risk Level Classification
+
+Skills are classified by risk level (defined in `skill.json`):
+- `Low` - Read-only operations, no external dependencies
+- `Medium` - Write operations, requires configuration
+- `High` - External API calls, requires credentials
+- `Critical` - System-level operations, requires manual review
+
+**Rule:** When creating a skill that makes external API calls, uses credentials, or modifies data, always set `risk_level: &quot;High&quot;` or `&quot;Critical&quot;`.
+
+## Naming Conventions
+
+### Skill IDs
+- Format: `{domain}_{action}_{target}` (e.g., `sales_analyze_pipeline`)
+- Use snake_case, all lowercase
+- Be descriptive but concise (3-5 words max)
+
+### File Naming
+- Skill directories: kebab-case (e.g., `analyze-customer-health/`)
+- Python files: snake_case (e.g., `analyze_skills.py`)
+- JavaScript files: kebab-case (e.g., `skills-directory.js`)
+- Documentation: SCREAMING_SNAKE_CASE for top-level (e.g., `AGENTS.md`), kebab-case for nested
+
+### Domain Categories
+
+Valid domains (don&#x27;t invent new ones without discussion):
+- `ecosystem` - Partner, integration management
+- `marketing` - Campaigns, content, SEO
+- `sales` - Pipeline, deals, CRM
+- `customer_success` - Health, churn, onboarding
+- `product_ops` - Roadmap, releases
+- `security` - Security, compliance
+- `finops` - Billing, revenue
+- `data` - Analytics, reporting
+- `engineering` - DevOps, CI/CD
+- `hr` - Recruiting, onboarding
+
+## Testing Patterns
+
+### Test Organization
+
+```
+tests/
+├── unit/           # Fast, isolated tests (&lt; 1s each)
+├── integration/    # Multi-component tests (&lt; 5s each)
+└── e2e/            # Full user workflows (&lt; 30s each)
+```
+
+### Required Test Coverage
+
+- Minimum: 60% overall coverage
+- Target: 80%+ coverage
+- Critical paths (eval_harness, tracer): 90%+ coverage
+
+### Testing Commands
+
+```bash
+# Run full suite
+pytest tests/ -v
+
+# Run fast tests only
+pytest tests/unit -v -m &quot;not slow&quot;
+
+# Run specific domain tests
+pytest tests/unit/test_dedupe_skills.py -v
+```
+
+**Rule:** All PRs must pass `pytest tests/ -v` before merging.
+
+## Code Quality Standards
+
+### Pre-Commit Hooks (Enforced)
+
+The following hooks run automatically on commit:
+- `detect-secrets` - Blocks commits with credentials
+- `prettier` - Formats JS/JSON/YAML/Markdown
+- `black` - Formats Python (if installed)
+- `flake8` - Lints Python (if installed)
+- `isort` - Sorts Python imports (if installed)
+
+**Rule:** Never use `--no-verify` to skip hooks. Fix the issues instead.
+
+### Linting Commands
+
+```bash
+# JavaScript
+npm run lint        # ESLint + Prettier
+npm run format      # Auto-fix formatting
+
+# Python (if installed in venv)
+black .
+flake8 .
+isort .
+```
+
+## Workflow Blueprints
+
+### Blueprint Schema
+
+Blueprints in `registry/blueprints/` follow `schemas/workflow_blueprint.json`:
+
+```yaml
+id: workflow_{name}
+version: 1.0.0
+name: &#x27;Human Readable Name&#x27;
+chain_sequence:
+  - step_id: &#x27;step_1&#x27;
+    skill_id: &#x27;domain_action_target&#x27;
+    action: &#x27;action_name&#x27;
+    input_mapping:
+      static_values: {}
+    error_handling:
+      on_failure: &#x27;stop&#x27;
+      max_retries: 2
+```
+
+**Rule:** All workflow blueprints must validate against schema before committing.
+
+## Playbook-Ready Features (Optional but Encouraged)
+
+When creating blueprints, consider adding:
+
+```yaml
+icp:
+  company_size: &#x27;50-500&#x27;
+  motion: &#x27;product-led-growth&#x27;
+  priorities: [&#x27;reduce_churn&#x27;, &#x27;increase_nrr&#x27;]
+
+integration_reference:
+  - type: &#x27;crm&#x27;
+    provider: &#x27;salesforce&#x27;
+    schema_ref: &#x27;registry/integration_schemas/salesforce_fields.yaml&#x27;
+
+opinionated_prompts:
+  - step_id: &#x27;step_1&#x27;
+    system_context: &#x27;You are analyzing a PLG motion with 30-day trials...&#x27;
+    input_guidance: &#x27;Focus on trial-to-paid conversion metrics...&#x27;
+```
+
+See `registry/integration_schemas/README.md` for schema format.
+
+## Security Rules (Blocking)
+
+### Never Commit
+
+These patterns are BLOCKED by pre-commit hooks:
+- `.env` files (use `.env.example` for templates)
+- Files in `.ssh/`, `.aws/`, `secrets/`
+- Private keys (detected by `detect-private-key` hook)
+- API keys, tokens, passwords (detected by `detect-secrets`)
+
+### Handling Credentials
+
+```bash
+# Good: Reference environment variables
+DATABASE_URL = os.getenv(&#x27;DATABASE_URL&#x27;)
+
+# Bad: Hardcoded credentials
+DATABASE_URL = &quot;postgresql://user:pass@localhost&quot;  # pragma: allowlist secret
+```
+
+## AI Agent Boundaries
+
+### What AI Agents Can Access
+
+- All files except `.ai/internal/` (gitignored, excluded in `.cursorignore`)
+- `AGENTS.md` for build commands and conventions
+- All skill schemas in `skills-library/`
+- Test suites in `tests/`
+
+### What AI Agents Should NOT Touch
+
+- `skills-library/` content (764 skills, managed by scripts)
+- `registry/` (auto-generated)
+- `METRICS.md` (auto-generated)
+
+**Rule:** If you modify skill counts or categories, run `npm run verify:metrics` to sync all dependent files.
+
+## Development Workflow
+
+### Adding a New Skill
+
+1. Create dire</code></pre>
+<p><em>Content truncated. View full file in the source repo (linked above).</em></p><p><a href="https://github.com/johnwall123459885/skene-cookbook/blob/HEAD/.cursorrules" rel="external">View raw on GitHub</a></p>
+</section>
 <section><h2>Why this is listed</h2>
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>
 <ul class="crosslinks">
-<li><a href="https://linny006.github.io/cursor-rules-live/r/wshobson/agents/">wshobson/agents (stars:35998)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/wshobson/agents/">wshobson/agents (stars:35999)</a></li>
 <li><a href="https://linny006.github.io/cursor-rules-live/r/christim427-rgb/ios-agent-skills/">christim427-rgb/ios-agent-skills (stars:1)</a></li>
 <li><a href="https://linny006.github.io/cursor-rules-live/r/GrekosTheJogurt/antigravity-workspace-manager/">GrekosTheJogurt/antigravity-workspace-manager (stars:0)</a></li>
 </ul></section>

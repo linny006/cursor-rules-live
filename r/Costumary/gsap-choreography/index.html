@@ -52,6 +52,206 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <span><a href="https://github.com/Costumary/gsap-choreography" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/Costumary" rel="external">@Costumary</a></span>
 </div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/gsap-choreography.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
+description: Use when building multi-scene GSAP animations for product demos, hero walkthroughs, or scripted UI sequences in React. Covers timeline architecture, cursor choreography, scene transitions, click systems, typed text, and animation coordination across components.
+globs:
+  - &quot;**/*film*&quot;
+  - &quot;**/*demo*&quot;
+  - &quot;**/*animation*&quot;
+  - &quot;**/*choreograph*&quot;
+  - &quot;**/*gsap*&quot;
+  - &quot;**/*timeline*&quot;
+---
+
+# GSAP Choreography
+
+Build scripted, multi-scene product animations using GSAP timelines in React. Not tweens-101 — this is the orchestration layer: how to coordinate cursor movement, click feedback, scene transitions, typed text, and UI state changes into a single looping timeline that feels like a directed film.
+
+## Architecture
+
+```
+film-script.ts          → Scene definitions, cursor paths, data (no GSAP)
+film-primitives.tsx      → Static DOM: frame, sidebar, cursor SVG (no GSAP)
+film-panels.tsx          → Scene content: each tab&#x27;s UI (no GSAP)
+film-demo.tsx            → Single useGSAP hook: the entire choreography
+animation-provider.tsx   → React context: play/pause/restart coordination
+```
+
+**The rule:** GSAP code lives in exactly one file. Everything else is inert DOM with `data-film-*` attributes. This separation means designers edit visuals without touching animation, and the timeline can target any element by data attribute.
+
+## Timeline as Central Authority
+
+One `gsap.timeline()` owns the entire sequence. Every animation is a `.to()` or `.set()` call on this timeline, positioned with labels.
+
+```tsx
+const timeline = gsap.timeline({
+  repeat: -1,
+  repeatDelay: 0.75,
+  defaults: { ease: &quot;power3.out&quot; },
+});
+
+timeline
+  .to(cursor, { x: target.x, y: target.y, duration: 0.72 }, &quot;groupMove&quot;)
+  .to(toolbar, { backgroundColor: &quot;rgba(182,95,114,0.15)&quot;, duration: 0.18 }, &quot;groupMove+=0.55&quot;);
+
+click(target, &quot;groupClick&quot;);
+
+timeline
+  .to(groupOutline, { autoAlpha: 1, scale: 1, duration: 0.38 }, &quot;groupClick+=0.1&quot;)
+  .to(note, { autoAlpha: 1, y: 0, duration: 0.38 }, &quot;noteClick+=0.12&quot;);
+```
+
+**Why one timeline:** Multiple timelines desync on tab-switch, resize, or replay. A single timeline with labels gives you scrubbing, replay, and pause for free. Labels are the API between &quot;what happens&quot; and &quot;when.&quot;
+
+## Label Naming Convention
+
+Name labels by what the user *does*, not what animates:
+
+```
+&quot;dropClick&quot;        → user drops references onto board
+&quot;groupClick&quot;       → user clicks the group tool
+&quot;noteMove&quot;         → cursor travels to the note tool
+&quot;sidebarCollapse&quot;  → sidebar shrinks to icon-only
+&quot;navMaterials&quot;     → user clicks Materials in nav
+&quot;typeStart&quot;        → cursor reaches the input field
+&quot;sendClick&quot;        → user clicks send on the chat
+&quot;settle&quot;           → animation winds down, UI resets
+```
+
+Position everything relative to labels with `&quot;labelName+=0.12&quot;` offsets. Never use absolute seconds.
+
+## Cursor System
+
+The cursor is a positioned SVG that moves via the timeline. It must feel human, not robotic.
+
+### Movement
+
+```tsx
+.to(cursor, { x: target.x, y: target.y, duration: 0.72, ease: &quot;power2.out&quot; }, &quot;moveLabel&quot;)
+```
+
+- Short hop (same area): 0.4–0.6s
+- Cross-screen travel: 0.7–1.0s
+- Entering from off-screen: 1.0–1.2s
+
+Never use `ease: &quot;linear&quot;` for cursor movement.
+
+### Click Feedback
+
+Every click needs a cursor squeeze and a ripple burst:
+
+```tsx
+function click(position: { x: number; y: number }, label: string) {
+  timeline
+    .set(ripple, { x: position.x, y: position.y, scale: 0.2, autoAlpha: 0.55 }, label)
+    .to(cursor, { scale: 0.88, duration: 0.08, ease: &quot;power2.out&quot; }, label)
+    .to(ripple, { scale: 3.4, autoAlpha: 0, duration: 0.54, ease: &quot;power2.out&quot; }, label)
+    .to(cursor, { scale: 1, duration: 0.16, ease: &quot;back.out(2.2)&quot; }, `${label}+=0.09`);
+}
+```
+
+### Cursor Position Measurement (CRITICAL)
+
+**Never hardcode cursor coordinates.** Always measure targets from actual DOM elements:
+
+```tsx
+const measure = (el: HTMLElement) =&gt; {
+  const frame = root.getBoundingClientRect();
+  const r = el.getBoundingClientRect();
+  const s = scale || 1;
+  return {
+    x: Math.round((r.left + r.width / 2 - frame.left) / s),
+    y: Math.round((r.top + r.height / 2 - frame.top) / s),
+  };
+};
+```
+
+## Scene Transitions
+
+```tsx
+// 1. Update nav state (immediate, not animated)
+.add(() =&gt; {
+  setActiveNav(root, &quot;nav-materials&quot;);
+  setProgressDots(root, 1);
+  setCaption(captionEl, scenes[1].caption);
+}, &quot;navMaterials+=0.56&quot;)
+
+// 2. Cross-fade content
+.to(prevTab, { autoAlpha: 0, duration: 0.24 }, &quot;materialsClick+=0.08&quot;)
+.to(nextTab, { autoAlpha: 1, duration: 0.28 }, &quot;materialsClick+=0.14&quot;)
+```
+
+Use `autoAlpha` (not `opacity`) — it sets `visibility: hidden` at 0.
+
+## Typed Text Effect
+
+```tsx
+const prompt = &quot;What should I do next?&quot;;
+const counter = { x: 0 };
+
+timeline
+  .to(placeholder, { autoAlpha: 0, duration: 0.1 }, &quot;typeStart+=0.56&quot;)
+  .to(caret, { autoAlpha: 1, duration: 0.1 }, &quot;typeStart+=0.56&quot;)
+  .to(counter, {
+    x: prompt.length,
+    duration: 1.65,
+    ease: &quot;none&quot;,
+    onUpdate: () =&gt; {
+      target.textContent = prompt.slice(0, Math.round(counter.x));
+    },
+  }, &quot;typeStart+=0.62&quot;);
+```
+
+`ease: &quot;none&quot;` is correct — real typing is constant speed.
+
+## Element Initial States
+
+Set every animated element&#x27;s start state explicitly at timeline position 0:
+
+```tsx
+gsap.set(cursor, { x: offScreenX, y: offScreenY });
+gsap.set(cards, { autoAlpha: 0, y: 26, scale: 0.82 });
+```
+
+For looping timelines, add a reset block at position 0.
+
+## Stagger Patterns
+
+```tsx
+.to(cards, {
+  autoAlpha: 1, y: 0, scale: 1,
+  rotation: (i: number) =&gt; rotations[i],
+  stagger: 0.07,
+  duration: 0.46,
+}, &quot;dropClick+=0.16&quot;)
+```
+
+0.05–0.08s for related items, 0.10–0.15s for independent items.
+
+## Responsive Scaling
+
+Render at fixed design size, scale with CSS transform:
+
+```tsx
+const FILM_WIDTH = 1180;
+const FILM_HEIGHT = 760;
+
+&lt;div style={{
+  width: FILM_WIDTH,
+  height: FILM_HEIGHT,
+  transform: `scale(${scale})`,
+  transformOrigin: &quot;top left&quot;,
+}} /&gt;
+```
+
+## Data Attribute Convention
+
+```
+data-film-cursor          → the cursor</code></pre>
+<p><em>Content truncated. View full file in the source repo (linked above).</em></p><p><a href="https://github.com/Costumary/gsap-choreography/blob/HEAD/.cursor/rules/gsap-choreography.mdc" rel="external">View raw on GitHub</a></p>
+</section>
 <section><h2>Why this is listed</h2>
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>

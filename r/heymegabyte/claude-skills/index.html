@@ -52,6 +52,28 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <span><a href="https://github.com/heymegabyte/claude-skills" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/heymegabyte" rel="external">@heymegabyte</a></span>
 </div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursorrules</code> &middot; format: <code>text</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code># Emdash Skills for Cursor
+
+Load CONVENTIONS.md for stack defaults. Load _router.md for skill routing.
+14 categories (01-14), 94 reference docs, 18 agents.
+
+## Stack
+CF Workers+Hono | Angular 21+Ionic 8+PrimeNG 21 | D1/Neon | Drizzle v1 | Clerk | Stripe | Inngest | Resend | Bun | Playwright v1.59+ | PostHog | Sentry
+
+## Rules
+- TypeScript strict, never `any`, prefer `interface` over `type`
+- Hono inline handlers for RPC type inference
+- Zod validation on all inputs
+- TDD: failing test first, Playwright 6 breakpoints
+- Dark-first design, #060610 bg, #00E5FF accent
+- Deploy to CF Workers, purge CDN after every deploy
+
+See CONVENTIONS.md for full patterns.
+</code></pre>
+<p><a href="https://github.com/heymegabyte/claude-skills/blob/HEAD/.cursorrules" rel="external">View raw on GitHub</a></p>
+</section>
 <section><h2>Why this is listed</h2>
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>
