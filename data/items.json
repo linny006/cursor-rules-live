@@ -1,12 +1,12 @@
 [
   {
-    "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
-    "id": "caioribeiroclw-pixel/pluribus",
-    "language": "JavaScript",
-    "name": "caioribeiroclw-pixel/pluribus",
-    "stars": 1,
-    "updated_at": "2026-05-27T01:07:28Z",
-    "url": "https://github.com/caioribeiroclw-pixel/pluribus"
+    "description": "AI coding instructions for scripted GSAP product demo animations \u2014 cursor choreography, timeline orchestration, scene tr",
+    "id": "Costumary/gsap-choreography",
+    "language": "\u2014",
+    "name": "Costumary/gsap-choreography",
+    "stars": 5,
+    "updated_at": "2026-05-27T01:24:52Z",
+    "url": "https://github.com/Costumary/gsap-choreography"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "Python",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-05-27T01:00:18Z",
+    "updated_at": "2026-05-27T01:15:18Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
+    "id": "caioribeiroclw-pixel/pluribus",
+    "language": "JavaScript",
+    "name": "caioribeiroclw-pixel/pluribus",
+    "stars": 1,
+    "updated_at": "2026-05-27T01:07:28Z",
+    "url": "https://github.com/caioribeiroclw-pixel/pluribus"
   },
   {
     "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
@@ -283,7 +292,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 35990,
+    "stars": 35991,
     "updated_at": "2026-05-26T15:30:34Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -439,14 +448,5 @@
     "stars": 6,
     "updated_at": "2026-05-25T11:50:34Z",
     "url": "https://github.com/vibestackdev/vibe-stack"
-  },
-  {
-    "description": "Agent Skills and Structured Prompts for Scalable Development",
-    "id": "DongDuong2001/pudo-code-system",
-    "language": "JavaScript",
-    "name": "DongDuong2001/pudo-code-system",
-    "stars": 2,
-    "updated_at": "2026-05-25T09:06:52Z",
-    "url": "https://github.com/DongDuong2001/pudo-code-system"
   }
 ]
