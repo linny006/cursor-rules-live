@@ -1,20 +1,11 @@
 [
   {
-    "description": "AI coding rules that actually work. Enforce instruction files via hooks \u2014 CLAUDE.md, .cursorrules, copilot-instructions,",
-    "id": "taniwhaai/arai",
-    "language": "Rust",
-    "name": "taniwhaai/arai",
-    "stars": 5,
-    "updated_at": "2026-05-27T00:44:22Z",
-    "url": "https://github.com/taniwhaai/arai"
-  },
-  {
     "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
     "id": "fluttersdk/wind",
     "language": "Dart",
     "name": "fluttersdk/wind",
     "stars": 18,
-    "updated_at": "2026-05-27T00:42:26Z",
+    "updated_at": "2026-05-27T00:53:05Z",
     "url": "https://github.com/fluttersdk/wind"
   },
   {
@@ -23,8 +14,17 @@
     "language": "Python",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-05-27T00:30:15Z",
+    "updated_at": "2026-05-27T00:45:15Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "AI coding rules that actually work. Enforce instruction files via hooks \u2014 CLAUDE.md, .cursorrules, copilot-instructions,",
+    "id": "taniwhaai/arai",
+    "language": "Rust",
+    "name": "taniwhaai/arai",
+    "stars": 5,
+    "updated_at": "2026-05-27T00:44:22Z",
+    "url": "https://github.com/taniwhaai/arai"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
