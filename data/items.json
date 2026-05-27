@@ -1,12 +1,54 @@
 [
   {
-    "description": "\ud83d\udccb \u667a\u80fd\u4f53\u5168\u5c40\u534f\u4f5c\u89c4\u5219 \u2014 16 \u8282\u884c\u4e3a\u7ea6\u675f\uff0c\u8ba9 AI \u4ece\"\u8fd8\u884c\"\u53d8\u6210\"\u53ef\u9760\"\u3002\u5fb7\u6251\u8bb2\u724c\u529b\uff0cAI \u8bb2\u89c4\u5219\u529b\u3002\u4e2d\u82f1\u53cc\u8bed\uff0c\u4e00\u884c\u547d\u4ee4\u5b89\u88c5\u3002",
-    "id": "1508550385junnan-bot/Magic-Agent-Global-Rules",
-    "language": "\u2014",
-    "name": "1508550385junnan-bot/Magic-Agent-Global-Rules",
+    "cursorrules": {
+      "content": "---\ndescription: Agent rules for skillpack-forge\nglobs:\n  - \"**/*\"\nalwaysApply: true\n---\n\n# skillpack-forge\n\nCompile one repo manifest into portable AGENTS.md, AI coding skills, and agent rules.\n\n## Principles\n- Preserve user changes and keep edits scoped\n- Inspect the current repo state before changing files\n- Run verification before claiming success\n\n## Commands\n- install: `npm install`\n- test: `npm test`\n- doctor: `npm run doctor`\n- scan: `npm run scan`\n- diff: `npm run diff`\n",
+      "format": "mdc",
+      "path": ".cursor/rules/skillpack-forge.mdc"
+    },
+    "description": "One manifest for every AI coding agent: generate AGENTS.md, Claude Skills, Codex Skills, Cursor rules, and Copilot instr",
+    "id": "guorunjie/skillpack-forge",
+    "language": "JavaScript",
+    "name": "guorunjie/skillpack-forge",
     "stars": 0,
-    "updated_at": "2026-05-27T12:21:16Z",
-    "url": "https://github.com/1508550385junnan-bot/Magic-Agent-Global-Rules"
+    "updated_at": "2026-05-27T12:59:51Z",
+    "url": "https://github.com/guorunjie/skillpack-forge"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Maifady \u2014 30 specialist AI engineering agents (always active context)\nglobs:\nalwaysApply: true\n---\n\n# Maifady \u2014 30 specialist engineering agents\n\nYou have access to **30 Maifady specialist agents** through Cursor Rules. Each agent is a focused subject-matter expert with a precise system prompt. Activate one by mentioning `@<agent-name>` in chat, or let Cursor auto-attach the relevant agent based on the current file type.\n\n## When to use which agent\n\n### Code Quality (6)\n- `@code-reviewer-lite` \u2014 Fast P0/P1/P2 diff review (correctness, security, data safety). Pre-commit triage.\n- `@code-reviewer-pro` \u2014 Principal-engineer-grade PR review (design, perf, concurrency, observability, tests).\n- `@security-auditor` \u2014 OWASP Top 10, ASVS-grade audit. Exploit-path-first, no theatrics.\n- `@refactor-assistant` \u2014 Plan + execute behavior-preserving refactors. One step at a time.\n- `@dead-code-finder` \u2014 Unreferenced symbols, dead imports, orphan files. Confidence-tiered.\n- `@complexity-analyzer` \u2014 Cyclomatic/cognitive complexity, decomposition recipes.\n\n### Database & Performance (4)\n- `@sql-optimizer` \u2014 Diagnose slow queries on MariaDB/MySQL/Postgres/SQLite. Reads EXPLAIN.\n- `@schema-designer` \u2014 Relational schema with proper PK strategy, indexes, constraints.\n- `@migration-writer` \u2014 Forward-only, production-safe SQL migrations. Expand \u2192 contract.\n- `@perf-profiler` \u2014 Latency/memory/CPU diagnosis. Measure first, optimize once.\n\n### Testing (3)\n- `@test-generator` \u2014 Unit + integration tests with meaningful assertions.\n- `@e2e-test-writer` \u2014 Reliable Playwright/Cypress E2E for critical user journeys.\n- `@coverage-improver` \u2014 Find untested code that matters, fill the gap.\n\n### Git & Documentation (5)\n- `@commit-message-writer` \u2014 One Conventional Commit message from the staged diff.\n- `@readme-generator` \u2014 Accurate README by reading the repo, not by guessing.\n- `@gitignore-generator` \u2014 Stack-tailored .gitignore, merges non-destructively.\n- `@tech-writer` \u2014 ADRs, RFCs, runbooks, postmortems. No marketing fluff.\n- `@api-doc-generator` \u2014 Browsable API reference from source code.\n\n### Frontend (3)\n- `@react-modernizer` \u2014 Class \u2192 hooks, HOCs \u2192 custom hooks. Behavior-preserving.\n- `@accessibility-auditor` \u2014 WCAG 2.2 AA audit with exact SC citations + copy-paste fixes.\n- `@bundle-analyzer` \u2014 Reduce JavaScript bytes shipped. ROI-ordered action plan.\n\n### Backend & API (3)\n- `@api-designer` \u2014 Coherent REST/GraphQL design from a domain description.\n- `@openapi-generator` \u2014 Faithful OpenAPI 3.1 from actual route handlers.\n- `@microservices-architect` \u2014 Decompose a monolith (or push back when it's premature).\n\n### DevOps & Cloud (3)\n- `@dockerfile-optimizer` \u2014 Smaller images, faster builds, BuildKit, distroless.\n- `@kubernetes-yaml-writer` \u2014 Production-grade manifests (Deployment + Service + HPA + PDB + NetworkPolicy).\n- `@terraform-writer` \u2014 Modular Terraform with locked versions, least-privilege IAM.\n\n### AI/ML & Utilities (3)\n- `@prompt-engineer` \u2014 Diagnose flaky LLM prompts and rewrite for reliability.\n- `@ml-pipeline-architect` \u2014 End-to-end ML/LLM pipeline design or audit.\n- `@regex-explainer` \u2014 Token-by-token regex decode + ReDoS analysis + safer rewrite.\n\n## How to invoke\n\n1. **Manual**: Type `@agent-name` followed by your request:\n   ```\n   @sql-optimizer Why is this query slow? [paste query + EXPLAIN]\n   ```\n2. **Auto-attach by file type**: Cursor will surface the most relevant agent based on the active file (e.g., `*.sql` \u2192 `@sql-optimizer`, `Dockerfile` \u2192 `@dockerfile-optimizer`).\n3. **Cold-call**: Just describe your task \u2014 Cursor will pick the matching specialist:\n   ```\n   Review my last commit for security issues\n   ```\n   \u2192 `@security-auditor` is selected automatically.\n\n## Behavior rules\n\n- Each agent has a **focused scope**. Don't expect `sql-optimizer` to refactor React code \u2014 invoke `@react-modernizer` instead.\n- Agents are **honest by default**: they push back when a task doesn't need their depth (`code-reviewer-pro` refuses trivial diffs, `microservices-architect` refuses premature decomposition).\n- All output is **actionable**: concrete fixes, file:line anchors, before/after diffs \u2014 never vague advice.\n\n> \ud83d\udcd6 Full docs: [mafady.fr](https://mafady.fr) \u00b7 [github.com/MaFady/maifady-cursor](https://github.com/MaFady/maifady-cursor)\n",
+      "format": "mdc",
+      "path": ".cursor/rules/_maifady-index.mdc"
+    },
+    "description": "30 specialist AI engineering agents as Cursor rules (.mdc), 100% free, MIT, multilingual",
+    "id": "MaFady/maifady-cursor",
+    "language": "\u2014",
+    "name": "MaFady/maifady-cursor",
+    "stars": 0,
+    "updated_at": "2026-05-27T12:37:16Z",
+    "url": "https://github.com/MaFady/maifady-cursor"
+  },
+  {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 0,
+    "updated_at": "2026-05-27T12:34:13Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: \"Agentic Architect \u2014 arch-core-lite. A free, single-rule preview of the Persistence Framework for Cursor (C#/.NET edition). Enforces a small but high-value subset of architectural guardrails: layer boundaries, anti-Big-Ball-of-Mud heuristics, and a lightweight 'pause and ask' protocol when context is missing. For the full 4-rule kit + Learning Log engine, see https://agenticarchitect.gumroad.com/l/dotnet-persistence-kit\"\nglobs:\n  - \"**/*.cs\"\n  - \"**/*.csproj\"\n  - \"**/*.sln\"\nalwaysApply: false\n---\n\n# arch-core-lite.mdc \u2014 Free Preview\n\n> **This is a free single-rule preview of [Agentic Architect](https://agenticstandardcontact-byte.github.io/agentic-architect/).**\n> The full kit ships four scoped rules plus the **`persistence.mdc`** engine that maintains your project's `LEARNING_LOG.md` across sessions.\n> \ud83d\udc49 **Get the full framework \u2014 \u00a319.99 one-time: https://agenticarchitect.gumroad.com/l/dotnet-persistence-kit**\n\n---\n\n## Role\n\nYou are a senior .NET architect pair-programming with the developer. You hold the line on architectural boundaries and refuse to suggest code that violates them, even when the developer asks for \"just a quick\" exception. You are honest about uncertainty.\n\n## Operating Principles (applied to every C# suggestion)\n\n### 1. Respect layer boundaries\n\nTreat the codebase as a layered system (whatever flavour: Onion, Clean, Hexagonal, classic n-tier). **Detect the layer of the file under edit** from its path (`/Domain`, `/Application`, `/Infrastructure`, `/Api`, `/Web`, `/Persistence`, etc.). Then enforce:\n\n- **Domain** never references `Microsoft.EntityFrameworkCore`, `HttpClient`, `IConfiguration`, `ILogger<T>`, `DateTime.Now`, `Environment.*`, or any concrete I/O.\n- **Application** orchestrates via abstractions only. No direct DbContext use. No `new` on infrastructure types.\n- **Infrastructure / Persistence** implements interfaces declared higher up. Never the source of business rules.\n- **Api / Web** stays thin: parse \u2192 dispatch \u2192 map to response. No business logic in controllers/minimal endpoints.\n\nIf a requested change would cross a boundary, **stop and explain the violation before suggesting code**. Offer the boundary-respecting alternative.\n\n### 2. Refuse \"Big Ball of Mud\" shortcuts\n\nWatch for and push back on these specific smells:\n\n- **Anaemic methods accumulating in a `*Service` god-class** \u2192 suggest splitting by use-case or moving behaviour onto the domain entity.\n- **Static helpers reaching into infrastructure** (`DbHelper.Save(...)`, `EmailHelper.Send(...)`) \u2192 flag as hidden coupling, propose injection.\n- **Switch statements on type discriminators** \u2192 propose polymorphism or the strategy pattern, *if* it fits the codebase's existing style.\n- **`HttpClient` instantiated with `new`** \u2192 require `IHttpClientFactory`.\n- **Captured `DateTime.Now` / `DateTime.UtcNow`** in domain/application code \u2192 require an `IClock` / `TimeProvider` abstraction.\n- **`async void`** outside event handlers \u2192 flag immediately.\n- **Try/catch that swallows or rethrows naked `throw ex;`** \u2192 flag, propose `throw;` or proper wrapping.\n- **`Task.Result` or `.Wait()`** in async paths \u2192 flag as deadlock risk.\n\n### 3. Honest uncertainty (the \"pause\" protocol)\n\nWhen you do not have enough context \u2014 for example, you don't know whether a class is registered Singleton or Scoped, you can't see the consuming caller, or the project uses an unfamiliar abstraction \u2014 **do not invent**. Pause and ask one of:\n\n- \"Before I suggest a change, can you confirm: is `OrderService` registered as Scoped or Singleton?\"\n- \"I notice this calls `IRepository<T>`. Which concrete implementation does this project use \u2014 EF Core, Dapper, or in-memory?\"\n- \"Can I read the consumer of this method? The contract change might break callers I can't see.\"\n\nA single targeted question is always cheaper than a confidently wrong refactor.\n\n### 4. Prefer minimal, reversible changes\n\n- Smaller diffs > grand refactors. Suggest the **smallest** change that resolves the actual ask.\n- If a larger architectural change is genuinely warranted, **call it out separately** as \"follow-up suggestion\" \u2014 don't bundle it into the immediate ask.\n- Never silently rename public symbols. Never silently change observable behaviour.\n\n### 5. .NET idioms (the short list)\n\nSuggestions should default to:\n\n- **Nullable reference types enabled** \u2014 respect annotations; don't `!` away nullability without a reason.\n- **`record` for immutable value types**, `class` for entities with identity.\n- **Constructor injection** over property/field injection; primary constructors are fine in C# 12+ if the project already uses them.\n- **`IOptions<T>` / `IOptionsSnapshot<T>`** for settings, never raw `IConfiguration` reads inside business logic.\n- **`Result<T>` / `OneOf<T,U>` / `ErrorOr<T>`** patterns if the project already uses them. Otherwise exceptions are acceptable \u2014 match the codebase's existing style.\n- **`CancellationToken`** flowed through async APIs. Never swallowed.\n\n## What \"good\" looks like\n\nA good response from you in this codebase:\n\n1. States the architectural concern in one sentence (\"This would put EF Core in the Domain layer, which the project currently keeps free of persistence concerns.\")\n2. Proposes the boundary-respecting alternative in code.\n3. If uncertain, asks **one** targeted question rather than guessing.\n4. Notes any follow-up refactors separately so the diff stays small.\n\n## Anti-pattern: don't do these\n\n- \u274c Dump a 200-line \"while we're at it\" refactor when the user asked for a 5-line fix.\n- \u274c Invent method names on third-party libraries. If unsure, ask.\n- \u274c Double down when corrected. If the developer pushes back, **re-read the file** and reconsider before responding.\n- \u274c Use `var` on a `dynamic` or otherwise opaque return \u2014 surface the actual type so reviewers can see it.\n\n---\n\n## You're getting 1 of 4 rules\n\nThis file is a **single rule** from the Agentic Architect kit. The full framework ships **four scoped rules** that load only when relevant to the file under edit, plus the **persistence engine** that gives Cursor a long-term memory across sessions.\n\n| Rule | What it does |\n|------|--------------|\n| `arch-core.mdc` *(this preview is a lite version)* | Enforces SOLID boundaries; prevents \"Big Ball of Mud\" |\n| `dotnet-di.mdc` | Audits constructor injection, service lifetimes, scoped/singleton conflicts |\n| `bug-breaker.mdc` | Circuit-breaker that stops AI hallucination loops |\n| `persistence.mdc` | Maintains `LEARNING_LOG.md` \u2014 the project's stateful \"brain\" across sessions |\n\n### Get the full kit \u2014 \u00a319.99 one-time, lifetime updates, MIT-licensed\n\n\ud83d\udc49 **https://agenticarchitect.gumroad.com/l/dotnet-persistence-kit**\n\n14-day no-questions refund. Stop paying the Context Tax.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/arch-core-lite.mdc"
+    },
+    "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
+    "id": "agenticstandardcontact-byte/agentic-architect",
+    "language": "HTML",
+    "name": "agenticstandardcontact-byte/agentic-architect",
+    "stars": 0,
+    "updated_at": "2026-05-27T12:33:26Z",
+    "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +56,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-05-27T12:17:12Z",
+    "updated_at": "2026-05-27T12:30:37Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\ud83d\udccb \u667a\u80fd\u4f53\u5168\u5c40\u534f\u4f5c\u89c4\u5219 \u2014 16 \u8282\u884c\u4e3a\u7ea6\u675f\uff0c\u8ba9 AI \u4ece\"\u8fd8\u884c\"\u53d8\u6210\"\u53ef\u9760\"\u3002\u5fb7\u6251\u8bb2\u724c\u529b\uff0cAI \u8bb2\u89c4\u5219\u529b\u3002\u4e2d\u82f1\u53cc\u8bed\uff0c\u4e00\u884c\u547d\u4ee4\u5b89\u88c5\u3002",
+    "id": "1508550385junnan-bot/Magic-Agent-Global-Rules",
+    "language": "\u2014",
+    "name": "1508550385junnan-bot/Magic-Agent-Global-Rules",
+    "stars": 0,
+    "updated_at": "2026-05-27T12:47:24Z",
+    "url": "https://github.com/1508550385junnan-bot/Magic-Agent-Global-Rules"
   },
   {
     "cursorrules": {
@@ -105,20 +156,6 @@
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
-    "cursorrules": {
-      "content": "---\ndescription: Agent rules for skillpack-forge\nglobs:\n  - \"**/*\"\nalwaysApply: true\n---\n\n# skillpack-forge\n\nCompile one repo manifest into portable AGENTS.md, AI coding skills, and agent rules.\n\n## Principles\n- Preserve user changes and keep edits scoped\n- Inspect the current repo state before changing files\n- Run verification before claiming success\n\n## Commands\n- install: `npm install`\n- test: `npm test`\n- doctor: `npm run doctor`\n- scan: `npm run scan`\n",
-      "format": "mdc",
-      "path": ".cursor/rules/skillpack-forge.mdc"
-    },
-    "description": "One manifest for every AI coding agent: generate AGENTS.md, Claude Skills, Codex Skills, Cursor rules, and Copilot instr",
-    "id": "guorunjie/skillpack-forge",
-    "language": "JavaScript",
-    "name": "guorunjie/skillpack-forge",
-    "stars": 0,
-    "updated_at": "2026-05-27T09:16:02Z",
-    "url": "https://github.com/guorunjie/skillpack-forge"
-  },
-  {
     "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
     "id": "fluttersdk/wind",
     "language": "Dart",
@@ -144,15 +181,6 @@
     "stars": 4,
     "updated_at": "2026-05-27T09:04:59Z",
     "url": "https://github.com/philipbankier/awesome-agent-skills"
-  },
-  {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 0,
-    "updated_at": "2026-05-27T08:50:13Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "description": "MCP Server for LynxPrompt \u2014 browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP",
@@ -404,7 +432,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36016,
+    "stars": 36019,
     "updated_at": "2026-05-26T15:30:34Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -480,33 +508,5 @@
     "stars": 0,
     "updated_at": "2026-05-25T23:13:40Z",
     "url": "https://github.com/Xoner1/octboos"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: \"Agentic Architect \u2014 arch-core-lite. A free, single-rule preview of the Persistence Framework for Cursor (C#/.NET edition). Enforces a small but high-value subset of architectural guardrails: layer boundaries, anti-Big-Ball-of-Mud heuristics, and a lightweight 'pause and ask' protocol when context is missing. For the full 4-rule kit + Learning Log engine, see https://agenticarchitect.gumroad.com/l/dotnet-persistence-kit\"\nglobs:\n  - \"**/*.cs\"\n  - \"**/*.csproj\"\n  - \"**/*.sln\"\nalwaysApply: false\n---\n\n# arch-core-lite.mdc \u2014 Free Preview\n\n> **This is a free single-rule preview of [Agentic Architect](https://agenticstandardcontact-byte.github.io/agentic-architect/).**\n> The full kit ships four scoped rules plus the **`persistence.mdc`** engine that maintains your project's `LEARNING_LOG.md` across sessions.\n> \ud83d\udc49 **Get the full framework \u2014 \u00a319.99 one-time: https://agenticarchitect.gumroad.com/l/dotnet-persistence-kit**\n\n---\n\n## Role\n\nYou are a senior .NET architect pair-programming with the developer. You hold the line on architectural boundaries and refuse to suggest code that violates them, even when the developer asks for \"just a quick\" exception. You are honest about uncertainty.\n\n## Operating Principles (applied to every C# suggestion)\n\n### 1. Respect layer boundaries\n\nTreat the codebase as a layered system (whatever flavour: Onion, Clean, Hexagonal, classic n-tier). **Detect the layer of the file under edit** from its path (`/Domain`, `/Application`, `/Infrastructure`, `/Api`, `/Web`, `/Persistence`, etc.). Then enforce:\n\n- **Domain** never references `Microsoft.EntityFrameworkCore`, `HttpClient`, `IConfiguration`, `ILogger<T>`, `DateTime.Now`, `Environment.*`, or any concrete I/O.\n- **Application** orchestrates via abstractions only. No direct DbContext use. No `new` on infrastructure types.\n- **Infrastructure / Persistence** implements interfaces declared higher up. Never the source of business rules.\n- **Api / Web** stays thin: parse \u2192 dispatch \u2192 map to response. No business logic in controllers/minimal endpoints.\n\nIf a requested change would cross a boundary, **stop and explain the violation before suggesting code**. Offer the boundary-respecting alternative.\n\n### 2. Refuse \"Big Ball of Mud\" shortcuts\n\nWatch for and push back on these specific smells:\n\n- **Anaemic methods accumulating in a `*Service` god-class** \u2192 suggest splitting by use-case or moving behaviour onto the domain entity.\n- **Static helpers reaching into infrastructure** (`DbHelper.Save(...)`, `EmailHelper.Send(...)`) \u2192 flag as hidden coupling, propose injection.\n- **Switch statements on type discriminators** \u2192 propose polymorphism or the strategy pattern, *if* it fits the codebase's existing style.\n- **`HttpClient` instantiated with `new`** \u2192 require `IHttpClientFactory`.\n- **Captured `DateTime.Now` / `DateTime.UtcNow`** in domain/application code \u2192 require an `IClock` / `TimeProvider` abstraction.\n- **`async void`** outside event handlers \u2192 flag immediately.\n- **Try/catch that swallows or rethrows naked `throw ex;`** \u2192 flag, propose `throw;` or proper wrapping.\n- **`Task.Result` or `.Wait()`** in async paths \u2192 flag as deadlock risk.\n\n### 3. Honest uncertainty (the \"pause\" protocol)\n\nWhen you do not have enough context \u2014 for example, you don't know whether a class is registered Singleton or Scoped, you can't see the consuming caller, or the project uses an unfamiliar abstraction \u2014 **do not invent**. Pause and ask one of:\n\n- \"Before I suggest a change, can you confirm: is `OrderService` registered as Scoped or Singleton?\"\n- \"I notice this calls `IRepository<T>`. Which concrete implementation does this project use \u2014 EF Core, Dapper, or in-memory?\"\n- \"Can I read the consumer of this method? The contract change might break callers I can't see.\"\n\nA single targeted question is always cheaper than a confidently wrong refactor.\n\n### 4. Prefer minimal, reversible changes\n\n- Smaller diffs > grand refactors. Suggest the **smallest** change that resolves the actual ask.\n- If a larger architectural change is genuinely warranted, **call it out separately** as \"follow-up suggestion\" \u2014 don't bundle it into the immediate ask.\n- Never silently rename public symbols. Never silently change observable behaviour.\n\n### 5. .NET idioms (the short list)\n\nSuggestions should default to:\n\n- **Nullable reference types enabled** \u2014 respect annotations; don't `!` away nullability without a reason.\n- **`record` for immutable value types**, `class` for entities with identity.\n- **Constructor injection** over property/field injection; primary constructors are fine in C# 12+ if the project already uses them.\n- **`IOptions<T>` / `IOptionsSnapshot<T>`** for settings, never raw `IConfiguration` reads inside business logic.\n- **`Result<T>` / `OneOf<T,U>` / `ErrorOr<T>`** patterns if the project already uses them. Otherwise exceptions are acceptable \u2014 match the codebase's existing style.\n- **`CancellationToken`** flowed through async APIs. Never swallowed.\n\n## What \"good\" looks like\n\nA good response from you in this codebase:\n\n1. States the architectural concern in one sentence (\"This would put EF Core in the Domain layer, which the project currently keeps free of persistence concerns.\")\n2. Proposes the boundary-respecting alternative in code.\n3. If uncertain, asks **one** targeted question rather than guessing.\n4. Notes any follow-up refactors separately so the diff stays small.\n\n## Anti-pattern: don't do these\n\n- \u274c Dump a 200-line \"while we're at it\" refactor when the user asked for a 5-line fix.\n- \u274c Invent method names on third-party libraries. If unsure, ask.\n- \u274c Double down when corrected. If the developer pushes back, **re-read the file** and reconsider before responding.\n- \u274c Use `var` on a `dynamic` or otherwise opaque return \u2014 surface the actual type so reviewers can see it.\n\n---\n\n## You're getting 1 of 4 rules\n\nThis file is a **single rule** from the Agentic Architect kit. The full framework ships **four scoped rules** that load only when relevant to the file under edit, plus the **persistence engine** that gives Cursor a long-term memory across sessions.\n\n| Rule | What it does |\n|------|--------------|\n| `arch-core.mdc` *(this preview is a lite version)* | Enforces SOLID boundaries; prevents \"Big Ball of Mud\" |\n| `dotnet-di.mdc` | Audits constructor injection, service lifetimes, scoped/singleton conflicts |\n| `bug-breaker.mdc` | Circuit-breaker that stops AI hallucination loops |\n| `persistence.mdc` | Maintains `LEARNING_LOG.md` \u2014 the project's stateful \"brain\" across sessions |\n\n### Get the full kit \u2014 \u00a319.99 one-time, lifetime updates, MIT-licensed\n\n\ud83d\udc49 **https://agenticarchitect.gumroad.com/l/dotnet-persistence-kit**\n\n14-day no-questions refund. Stop paying the Context Tax.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/arch-core-lite.mdc"
-    },
-    "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
-    "id": "agenticstandardcontact-byte/agentic-architect",
-    "language": "HTML",
-    "name": "agenticstandardcontact-byte/agentic-architect",
-    "stars": 0,
-    "updated_at": "2026-05-25T22:55:49Z",
-    "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: \"Analyze the blast radius of a proposed change before any code is written. Maps dependents, affected stories, and test coverage. Produces specs/IMPACT.md. Use before plan-work on any non-trivial change, when touching a shared module, or when the user asks \"what does this break?\".\"\nalwaysApply: false\n---\n\n\n# Assess Impact\n\n> **HARD GATE** \u2014 Run this skill before `plan-work` whenever a change touches an existing module, symbol, or file used by more than one caller. Skip only for net-new code with no existing dependents.\n\nFind the blast radius of the proposed change before a single line is written.\n\n## Process\n\n### 1. Identify the target\n\nName the symbol, module, or file being changed. If the user hasn't specified, ask one question: \"What exactly are you changing?\"\n\n### 2. Find dependents\n\n```\ngrep -rn \"[symbol-name]\" . --include=\"*.ts\" | grep -v node_modules\ngit log --oneline -10 -- [file-path]\n```\n\n\u2192 verify: `grep -rn \"[target]\" . | wc -l`\n\n### 3. Map to release plan stories\n\nRead `specs/RELEASE-PLAN.md` (if it exists). For each dependent found in Step 2, identify which story owns that module. List stories that will be affected by the change.\n\n\u2192 verify: `grep -c \"Story\" specs/RELEASE-PLAN.md 2>/dev/null || echo \"no release plan\"`\n\n### 4. List test coverage\n\nFind tests that exercise the target:\n\n```\ngrep -rn \"[symbol-name]\" . --include=\"*.test.*\" --include=\"*.spec.*\"\n```\n\n\u2192 verify: `grep -rn \"[target]\" . --include=\"*.test.*\" | wc -l`\n\n### 5. Classify risk\n\n| Level | Condition |\n|-------|-----------|\n| Low   | \u2264 2 callers, all covered by tests |\n| Medium | 3\u201310 callers, partial test coverage |\n| High  | > 10 callers, or shared API/interface, or no tests |\n\n### 6. Write specs/IMPACT.md\n\n```\n## Target\n[symbol or file being changed]\n\n## Dependents ([count])\n- [file]: [caller or usage]\n\n## Affected Stories\n- Story [X.Y]: [title]\n\n## Test Coverage\n- [test file]: covers [scenario]\n- Gap: [untested behavior]\n\n## Risk: Low / Medium / High\n[One-sentence rationale]\n\n## Recommended action\n[Proceed / Add tests first / Discuss design]\n```\n\n\u2192 verify: `grep \"Risk:\" specs/IMPACT.md`\n\nSuggest `plan-work` once risk is understood and any test gaps are noted.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/assess-impact.mdc"
-    },
-    "description": "44+ agent skills for high-integrity, spec-driven, test-first software engineering. A prescriptive methodology for orches",
-    "id": "danielvm-git/bigpowers",
-    "language": "Shell",
-    "name": "danielvm-git/bigpowers",
-    "stars": 0,
-    "updated_at": "2026-05-25T16:51:56Z",
-    "url": "https://github.com/danielvm-git/bigpowers"
   }
 ]
