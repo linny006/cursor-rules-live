@@ -1,5 +1,23 @@
 [
   {
+    "description": "Guided self-interview \u2192 portable AI context files for Claude Code, Codex, Cursor, Kiro, ChatGPT. Local-first MCP server.",
+    "id": "testofschool/selfdoc-mcp-server",
+    "language": "TypeScript",
+    "name": "testofschool/selfdoc-mcp-server",
+    "stars": 0,
+    "updated_at": "2026-05-27T21:37:03Z",
+    "url": "https://github.com/testofschool/selfdoc-mcp-server"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-05-27T21:30:34Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
     "id": "J-nowcow/awesome-korean-agent-skills",
     "language": "\u2014",
@@ -25,15 +43,6 @@
     "stars": 0,
     "updated_at": "2026-05-27T21:16:43Z",
     "url": "https://github.com/Hyanthropological659/clarify-skill"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-05-27T21:15:33Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
@@ -217,7 +226,7 @@
     "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
     "language": "HTML",
     "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 0,
+    "stars": 1,
     "updated_at": "2026-05-27T19:34:34Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
@@ -310,7 +319,7 @@
     "language": "Dart",
     "name": "fluttersdk/wind",
     "stars": 18,
-    "updated_at": "2026-05-27T18:36:37Z",
+    "updated_at": "2026-05-27T21:39:41Z",
     "url": "https://github.com/fluttersdk/wind"
   },
   {
@@ -504,14 +513,5 @@
     "stars": 0,
     "updated_at": "2026-05-26T04:28:57Z",
     "url": "https://github.com/KbWen/agentic-os"
-  },
-  {
-    "description": "Archive-grade .mdc rule library for Cursor AI \u2014 26 production-ready rules for teams seeking stable, reusable AI coding g",
-    "id": "LessUp/cursor-rules",
-    "language": "JavaScript",
-    "name": "LessUp/cursor-rules",
-    "stars": 20,
-    "updated_at": "2026-05-26T01:25:34Z",
-    "url": "https://github.com/LessUp/cursor-rules"
   }
 ]
