@@ -1,17 +1,12 @@
 [
   {
-    "cursorrules": {
-      "content": "---\ndescription: Agent rules for agentic-workflow-guard\nglobs:\n  - \"**/*\"\nalwaysApply: true\n---\n\n# agentic-workflow-guard\n\nStatic security scanner for AI automation workflows across GitHub Actions, n8n, MCP configs, and low-code workflow exports.\n\n## Principles\n- Treat external workflow input as untrusted until validated\n- Keep AI-generated output away from shell and write-capable tools\n- Require human approval, allowlists, or dry-run mode before side effects\n\n## Commands\n- install: `npm install`\n- test: `npm test`\n- scan: `npm run scan`\n- fix: `node ./bin/agentic-workflow-guard.js fix . --apply`\n- rules: `node ./bin/agentic-workflow-guard.js rules search github`\n- agents: `node ./bin/agentic-workflow-guard.js agents`\n",
-      "format": "mdc",
-      "path": ".cursor/rules/agentic-workflow-guard.mdc"
-    },
-    "description": "Security scanner and portable skill pack for AI automation workflows across GitHub Actions, n8n, MCP, Claude, Codex, Gem",
-    "id": "guorunjie/agentic-workflow-guard",
-    "language": "JavaScript",
-    "name": "guorunjie/agentic-workflow-guard",
+    "description": "\ud83d\udccb \u667a\u80fd\u4f53\u5168\u5c40\u534f\u4f5c\u89c4\u5219 \u2014 16 \u8282\u884c\u4e3a\u7ea6\u675f\uff0c\u8ba9 AI \u4ece\"\u8fd8\u884c\"\u53d8\u6210\"\u53ef\u9760\"\u3002\u5fb7\u6251\u8bb2\u724c\u529b\uff0cAI \u8bb2\u89c4\u5219\u529b\u3002\u4e2d\u82f1\u53cc\u8bed\uff0c\u4e00\u884c\u547d\u4ee4\u5b89\u88c5\u3002",
+    "id": "1508550385junnan-bot/Magic-Agent-Global-Rules",
+    "language": "\u2014",
+    "name": "1508550385junnan-bot/Magic-Agent-Global-Rules",
     "stars": 0,
-    "updated_at": "2026-05-27T12:14:54Z",
-    "url": "https://github.com/guorunjie/agentic-workflow-guard"
+    "updated_at": "2026-05-27T12:21:16Z",
+    "url": "https://github.com/1508550385junnan-bot/Magic-Agent-Global-Rules"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -19,7 +14,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-05-27T12:02:18Z",
+    "updated_at": "2026-05-27T12:17:12Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -99,15 +94,6 @@
     "stars": 2,
     "updated_at": "2026-05-27T09:51:40Z",
     "url": "https://github.com/Luxvil/ai-coding-rules"
-  },
-  {
-    "description": "\ud83d\udccb \u667a\u80fd\u4f53\u5168\u5c40\u534f\u4f5c\u89c4\u5219 \u2014 16 \u8282\u884c\u4e3a\u7ea6\u675f\uff0c\u8ba9 AI \u4ece\"\u8fd8\u884c\"\u53d8\u6210\"\u53ef\u9760\"\u3002\u5fb7\u6251\u8bb2\u724c\u529b\uff0cAI \u8bb2\u89c4\u5219\u529b\u3002\u4e2d\u82f1\u53cc\u8bed\uff0c\u4e00\u884c\u547d\u4ee4\u5b89\u88c5\u3002",
-    "id": "1508550385junnan-bot/Magic-Agent-Global-Rules",
-    "language": "\u2014",
-    "name": "1508550385junnan-bot/Magic-Agent-Global-Rules",
-    "stars": 0,
-    "updated_at": "2026-05-27T09:44:54Z",
-    "url": "https://github.com/1508550385junnan-bot/Magic-Agent-Global-Rules"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -508,5 +494,19 @@
     "stars": 0,
     "updated_at": "2026-05-25T22:55:49Z",
     "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: \"Analyze the blast radius of a proposed change before any code is written. Maps dependents, affected stories, and test coverage. Produces specs/IMPACT.md. Use before plan-work on any non-trivial change, when touching a shared module, or when the user asks \"what does this break?\".\"\nalwaysApply: false\n---\n\n\n# Assess Impact\n\n> **HARD GATE** \u2014 Run this skill before `plan-work` whenever a change touches an existing module, symbol, or file used by more than one caller. Skip only for net-new code with no existing dependents.\n\nFind the blast radius of the proposed change before a single line is written.\n\n## Process\n\n### 1. Identify the target\n\nName the symbol, module, or file being changed. If the user hasn't specified, ask one question: \"What exactly are you changing?\"\n\n### 2. Find dependents\n\n```\ngrep -rn \"[symbol-name]\" . --include=\"*.ts\" | grep -v node_modules\ngit log --oneline -10 -- [file-path]\n```\n\n\u2192 verify: `grep -rn \"[target]\" . | wc -l`\n\n### 3. Map to release plan stories\n\nRead `specs/RELEASE-PLAN.md` (if it exists). For each dependent found in Step 2, identify which story owns that module. List stories that will be affected by the change.\n\n\u2192 verify: `grep -c \"Story\" specs/RELEASE-PLAN.md 2>/dev/null || echo \"no release plan\"`\n\n### 4. List test coverage\n\nFind tests that exercise the target:\n\n```\ngrep -rn \"[symbol-name]\" . --include=\"*.test.*\" --include=\"*.spec.*\"\n```\n\n\u2192 verify: `grep -rn \"[target]\" . --include=\"*.test.*\" | wc -l`\n\n### 5. Classify risk\n\n| Level | Condition |\n|-------|-----------|\n| Low   | \u2264 2 callers, all covered by tests |\n| Medium | 3\u201310 callers, partial test coverage |\n| High  | > 10 callers, or shared API/interface, or no tests |\n\n### 6. Write specs/IMPACT.md\n\n```\n## Target\n[symbol or file being changed]\n\n## Dependents ([count])\n- [file]: [caller or usage]\n\n## Affected Stories\n- Story [X.Y]: [title]\n\n## Test Coverage\n- [test file]: covers [scenario]\n- Gap: [untested behavior]\n\n## Risk: Low / Medium / High\n[One-sentence rationale]\n\n## Recommended action\n[Proceed / Add tests first / Discuss design]\n```\n\n\u2192 verify: `grep \"Risk:\" specs/IMPACT.md`\n\nSuggest `plan-work` once risk is understood and any test gaps are noted.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/assess-impact.mdc"
+    },
+    "description": "44+ agent skills for high-integrity, spec-driven, test-first software engineering. A prescriptive methodology for orches",
+    "id": "danielvm-git/bigpowers",
+    "language": "Shell",
+    "name": "danielvm-git/bigpowers",
+    "stars": 0,
+    "updated_at": "2026-05-25T16:51:56Z",
+    "url": "https://github.com/danielvm-git/bigpowers"
   }
 ]
