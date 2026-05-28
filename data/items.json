@@ -1,5 +1,50 @@
 [
   {
+    "description": "Build programmatic UIKit apps with production-ready patterns for views, navigation, animation, architecture, and data fl",
+    "id": "nizhan80-art/Swift-UIKit-Skill",
+    "language": "\u2014",
+    "name": "nizhan80-art/Swift-UIKit-Skill",
+    "stars": 1,
+    "updated_at": "2026-05-28T15:56:40Z",
+    "url": "https://github.com/nizhan80-art/Swift-UIKit-Skill"
+  },
+  {
+    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
+    "id": "Amirun99/agency-orchestrator",
+    "language": "Dart",
+    "name": "Amirun99/agency-orchestrator",
+    "stars": 0,
+    "updated_at": "2026-05-28T15:56:02Z",
+    "url": "https://github.com/Amirun99/agency-orchestrator"
+  },
+  {
+    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
+    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "language": "\u2014",
+    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "stars": 1,
+    "updated_at": "2026-05-28T15:55:02Z",
+    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
+  },
+  {
+    "description": "Build 9 iOS agent skills for SwiftUI, testing, security, and more in one install for AI coding agents",
+    "id": "ebbaunqualified520/ios-agent-skills",
+    "language": "Shell",
+    "name": "ebbaunqualified520/ios-agent-skills",
+    "stars": 0,
+    "updated_at": "2026-05-28T15:51:50Z",
+    "url": "https://github.com/ebbaunqualified520/ios-agent-skills"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-05-28T15:45:44Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: Agent rules for skillpack-forge\nglobs:\n  - \"**/*\"\nalwaysApply: true\n---\n\n# skillpack-forge\n\nCompile one repo manifest into portable AGENTS.md, AI coding skills, and agent rules.\n\n## Principles\n- Preserve user changes and keep edits scoped\n- Inspect the current repo state before changing files\n- Run verification before claiming success\n\n## Commands\n- install: `npm install`\n- test: `npm test`\n- doctor: `npm run doctor`\n- scan: `npm run scan`\n- diff: `npm run diff`\n",
       "format": "mdc",
@@ -30,15 +75,6 @@
     "stars": 0,
     "updated_at": "2026-05-28T15:33:52Z",
     "url": "https://github.com/GrekosTheJogurt/antigravity-workspace-manager"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-05-28T15:30:45Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -247,7 +283,7 @@
     "language": "HTML",
     "name": "TheoV823/mneme",
     "stars": 9,
-    "updated_at": "2026-05-28T15:25:46Z",
+    "updated_at": "2026-05-28T15:56:42Z",
     "url": "https://github.com/TheoV823/mneme"
   },
   {
@@ -308,42 +344,6 @@
     "stars": 1,
     "updated_at": "2026-05-28T09:32:42Z",
     "url": "https://github.com/christim427-rgb/ios-agent-skills"
-  },
-  {
-    "description": "Build programmatic UIKit apps with production-ready patterns for views, navigation, animation, architecture, and data fl",
-    "id": "nizhan80-art/Swift-UIKit-Skill",
-    "language": "\u2014",
-    "name": "nizhan80-art/Swift-UIKit-Skill",
-    "stars": 1,
-    "updated_at": "2026-05-28T09:28:09Z",
-    "url": "https://github.com/nizhan80-art/Swift-UIKit-Skill"
-  },
-  {
-    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
-    "id": "Amirun99/agency-orchestrator",
-    "language": "Dart",
-    "name": "Amirun99/agency-orchestrator",
-    "stars": 0,
-    "updated_at": "2026-05-28T09:27:27Z",
-    "url": "https://github.com/Amirun99/agency-orchestrator"
-  },
-  {
-    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
-    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "language": "\u2014",
-    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "stars": 1,
-    "updated_at": "2026-05-28T09:26:30Z",
-    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
-  },
-  {
-    "description": "Build 9 iOS agent skills for SwiftUI, testing, security, and more in one install for AI coding agents",
-    "id": "ebbaunqualified520/ios-agent-skills",
-    "language": "Shell",
-    "name": "ebbaunqualified520/ios-agent-skills",
-    "stars": 0,
-    "updated_at": "2026-05-28T09:23:13Z",
-    "url": "https://github.com/ebbaunqualified520/ios-agent-skills"
   },
   {
     "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
