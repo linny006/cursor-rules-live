@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-05-28 10:30 UTC
+> ⏰ Last updated: 2026-05-28 10:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -102,7 +102,7 @@ expired items removed — so you can rely on what you see being current.
 | 47 | [Costumary/gsap-choreography](https://github.com/Costumary/gsap-choreography) | 6 | — | 2026-05-27 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Costumary/gsap-choreography/) | AI coding instructions for scripted GSAP product demo animations — cursor choreography, timeline orchestration, scene tr |
 | 48 | [heymegabyte/claude-skills](https://github.com/heymegabyte/claude-skills) | 9 | JavaScript | 2026-05-27 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/claude-skills/) | 14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts → deployed products. |
 | 49 | [GeiserX/n8n-nodes-lynxprompt](https://github.com/GeiserX/n8n-nodes-lynxprompt) | 1 | TypeScript | 2026-05-26 | — | n8n community node for LynxPrompt — manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via API |
-| 50 | [wshobson/agents](https://github.com/wshobson/agents) | 36067 | Python | 2026-05-26 | — | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI |
+| 50 | [wshobson/agents](https://github.com/wshobson/agents) | 36068 | Python | 2026-05-26 | — | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI |
 <!-- TRACKER_TABLE_END -->
 
 ---
