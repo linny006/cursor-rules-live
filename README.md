@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-05-28 10:15 UTC
+> ⏰ Last updated: 2026-05-28 10:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -92,7 +92,7 @@ expired items removed — so you can rely on what you see being current.
 | 37 | [PiloTracer/.ai](https://github.com/PiloTracer/.ai) | 0 | Shell | 2026-05-27 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/PiloTracer/.ai/) | Portable process framework for software teams shipping with coding agents (Cursor, Claude Code, Codex, opencode). Skills |
 | 38 | [baneeishaque/ai-agent-rules](https://github.com/baneeishaque/ai-agent-rules) | 3 | TypeScript | 2026-05-27 | — |  |
 | 39 | [MaFady/maifady-cursor](https://github.com/MaFady/maifady-cursor) | 0 | — | 2026-05-27 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/MaFady/maifady-cursor/) | 30 specialist AI engineering agents as Cursor rules (.mdc), 100% free, MIT, multilingual |
-| 40 | [powersync-ja/agent-skills](https://github.com/powersync-ja/agent-skills) | 12 | JavaScript | 2026-05-27 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/powersync-ja/agent-skills/) | Official agent skills for PowerSync |
+| 40 | [powersync-ja/agent-skills](https://github.com/powersync-ja/agent-skills) | 12 | JavaScript | 2026-05-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/powersync-ja/agent-skills/) | Official agent skills for PowerSync |
 | 41 | [guorunjie/skillpack-forge](https://github.com/guorunjie/skillpack-forge) | 1 | JavaScript | 2026-05-27 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/guorunjie/skillpack-forge/) | One manifest for every AI coding agent: generate AGENTS.md, Claude Skills, Codex Skills, Cursor rules, and Copilot instr |
 | 42 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-05-27 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/agenticstandardcontact-byte/agentic-architect/) | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
 | 43 | [1508550385junnan-bot/Magic-Agent-Global-Rules](https://github.com/1508550385junnan-bot/Magic-Agent-Global-Rules) | 0 | — | 2026-05-27 | — | 📋 智能体全局协作规则 — 16 节行为约束，让 AI 从"还行"变成"可靠"。德扑讲牌力，AI 讲规则力。中英双语，一行命令安装。 |
