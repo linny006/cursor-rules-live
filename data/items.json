@@ -1,5 +1,23 @@
 [
   {
+    "description": "Team-ops layer for Cursor \u2014 versioned rules, skills & git guardrails rolled out across your whole engineering team in 5 ",
+    "id": "SID-SURANGE/cursor-team-kit",
+    "language": "Shell",
+    "name": "SID-SURANGE/cursor-team-kit",
+    "stars": 0,
+    "updated_at": "2026-05-28T05:43:22Z",
+    "url": "https://github.com/SID-SURANGE/cursor-team-kit"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-05-28T05:30:44Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
     "id": "eumiguellllllllll/copilot-rules",
     "language": "Batchfile",
@@ -16,15 +34,6 @@
     "stars": 2,
     "updated_at": "2026-05-28T05:20:02Z",
     "url": "https://github.com/nota-america/forgecat-agent-profiles"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-05-28T05:15:32Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -426,15 +435,6 @@
     "stars": 1,
     "updated_at": "2026-05-27T08:40:10Z",
     "url": "https://github.com/GeiserX/lynxprompt-mcp"
-  },
-  {
-    "description": "Team-ops layer for Cursor \u2014 versioned rules, skills & git guardrails rolled out across your whole engineering team in 5 ",
-    "id": "SID-SURANGE/cursor-team-kit",
-    "language": "Shell",
-    "name": "SID-SURANGE/cursor-team-kit",
-    "stars": 0,
-    "updated_at": "2026-05-27T07:01:32Z",
-    "url": "https://github.com/SID-SURANGE/cursor-team-kit"
   },
   {
     "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
