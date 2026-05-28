@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-05-28T15:01:02Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Compose and sync your own collection of AGENTS.md, Skills, and other agentic prompts",
     "id": "westonplatter/aps",
     "language": "Rust",
@@ -7,15 +16,6 @@
     "stars": 9,
     "updated_at": "2026-05-28T14:56:05Z",
     "url": "https://github.com/westonplatter/aps"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-05-28T14:52:29Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
