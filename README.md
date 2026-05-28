@@ -19,6 +19,17 @@ Live index of cursor-rules files from GitHub, updated every 15 minutes
 
 </div>
 
+## 🚀 Install in 1 command
+
+```bash
+npx github:linny006/cursor-rules-picker
+```
+
+Detects your tech stack, ranks compatible rules from the live index below, installs the one you pick. [See cursor-rules-picker →](https://github.com/linny006/cursor-rules-picker)
+
+---
+
+
 ---
 
 ## 💡 What is this?
