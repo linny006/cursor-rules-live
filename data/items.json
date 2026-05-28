@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-05-28T00:47:21Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Pick + install a high-quality .cursorrules / .mdc rule for your project (CLI, ~250 LoC, no deps)",
     "id": "linny006/cursor-rules-picker",
     "language": "JavaScript",
@@ -79,15 +88,6 @@
     "stars": 1,
     "updated_at": "2026-05-28T00:30:55Z",
     "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-05-28T00:30:33Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Build 9 iOS agent skills for SwiftUI, testing, security, and more in one install for AI coding agents",
