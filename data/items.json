@@ -1,11 +1,20 @@
 [
   {
+    "description": "VS Code extension for LynxPrompt \u2014 browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules) ",
+    "id": "GeiserX/lynxprompt-vscode",
+    "language": "TypeScript",
+    "name": "GeiserX/lynxprompt-vscode",
+    "stars": 1,
+    "updated_at": "2026-05-28T08:40:40Z",
+    "url": "https://github.com/GeiserX/lynxprompt-vscode"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-05-28T08:15:45Z",
+    "updated_at": "2026-05-28T08:30:32Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -496,22 +505,8 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36062,
+    "stars": 36066,
     "updated_at": "2026-05-26T15:30:34Z",
     "url": "https://github.com/wshobson/agents"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: \"Core ControlFlow identity, source hierarchy, and offline validations for the repository.\"\nalwaysApply: true\n---\n# ControlFlow Core\n\nThis is a prompt/governance/eval repository, not a runtime application.\nCanonical multi-agent policies, roster, and tiers are governed by `.github/copilot-instructions.md` and `plans/project-context.md`.\nUse local sources for context; `AGENTS.md` is compatibility context only, not the primary artifact.\nCursor cannot execute VS Code-only subagent semantics (`agent/runSubagent`), read policies rather than assuming a runtime capability.\nAll changes must pass the deterministic offline validation gate: run `cd evals && npm test`.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/controlflow-core.mdc"
-    },
-    "description": "Multi-agent orchestration for VS Code Copilot, Claude Code, OpenAI Codex and Cursor",
-    "id": "Smithbox-ai/ControlFlow",
-    "language": "JavaScript",
-    "name": "Smithbox-ai/ControlFlow",
-    "stars": 11,
-    "updated_at": "2026-05-26T12:23:24Z",
-    "url": "https://github.com/Smithbox-ai/ControlFlow"
   }
 ]
