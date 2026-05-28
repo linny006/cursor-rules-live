@@ -1,11 +1,20 @@
 [
   {
+    "description": "Compose and sync your own collection of AGENTS.md, Skills, and other agentic prompts",
+    "id": "westonplatter/aps",
+    "language": "Rust",
+    "name": "westonplatter/aps",
+    "stars": 9,
+    "updated_at": "2026-05-28T14:56:05Z",
+    "url": "https://github.com/westonplatter/aps"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-05-28T14:45:58Z",
+    "updated_at": "2026-05-28T14:52:29Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -499,14 +508,5 @@
     "stars": 9,
     "updated_at": "2026-05-27T00:09:48Z",
     "url": "https://github.com/heymegabyte/claude-skills"
-  },
-  {
-    "description": "n8n community node for LynxPrompt \u2014 manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via API",
-    "id": "GeiserX/n8n-nodes-lynxprompt",
-    "language": "TypeScript",
-    "name": "GeiserX/n8n-nodes-lynxprompt",
-    "stars": 1,
-    "updated_at": "2026-05-26T21:29:31Z",
-    "url": "https://github.com/GeiserX/n8n-nodes-lynxprompt"
   }
 ]
