@@ -1,11 +1,29 @@
 [
   {
+    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
+    "id": "eumiguellllllllll/copilot-rules",
+    "language": "Batchfile",
+    "name": "eumiguellllllllll/copilot-rules",
+    "stars": 0,
+    "updated_at": "2026-05-28T05:21:50Z",
+    "url": "https://github.com/eumiguellllllllll/copilot-rules"
+  },
+  {
+    "description": "Curated AI Agent Profiles for Claude Code, Codex, Cursor and more \u2014 install with forgecat CLI",
+    "id": "nota-america/forgecat-agent-profiles",
+    "language": "TypeScript",
+    "name": "nota-america/forgecat-agent-profiles",
+    "stars": 2,
+    "updated_at": "2026-05-28T05:20:02Z",
+    "url": "https://github.com/nota-america/forgecat-agent-profiles"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-05-28T05:00:29Z",
+    "updated_at": "2026-05-28T05:15:32Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -218,15 +236,6 @@
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
-    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
-    "id": "eumiguellllllllll/copilot-rules",
-    "language": "Batchfile",
-    "name": "eumiguellllllllll/copilot-rules",
-    "stars": 0,
-    "updated_at": "2026-05-28T01:52:37Z",
-    "url": "https://github.com/eumiguellllllllll/copilot-rules"
-  },
-  {
     "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
     "id": "mikeprasad/aria-knowledge",
     "language": "Shell",
@@ -297,15 +306,6 @@
     "stars": 13,
     "updated_at": "2026-05-27T21:21:49Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "description": "Curated AI Agent Profiles for Claude Code, Codex, Cursor and more \u2014 install with forgecat CLI",
-    "id": "nota-america/forgecat-agent-profiles",
-    "language": "TypeScript",
-    "name": "nota-america/forgecat-agent-profiles",
-    "stars": 2,
-    "updated_at": "2026-05-27T20:22:17Z",
-    "url": "https://github.com/nota-america/forgecat-agent-profiles"
   },
   {
     "cursorrules": {
