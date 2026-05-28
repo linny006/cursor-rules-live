@@ -5,8 +5,26 @@
     "language": "TypeScript",
     "name": "baneeishaque/ai-agent-rules",
     "stars": 3,
-    "updated_at": "2026-05-28T16:11:36Z",
+    "updated_at": "2026-05-28T16:27:16Z",
     "url": "https://github.com/baneeishaque/ai-agent-rules"
+  },
+  {
+    "description": "Enforce architectural decisions in AI-assisted development.",
+    "id": "TheoV823/mneme",
+    "language": "HTML",
+    "name": "TheoV823/mneme",
+    "stars": 9,
+    "updated_at": "2026-05-28T16:26:28Z",
+    "url": "https://github.com/TheoV823/mneme"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-05-28T16:15:54Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Build unique user interfaces with a structured ruleset to prevent generic AI output.",
@@ -61,15 +79,6 @@
     "stars": 1,
     "updated_at": "2026-05-28T16:01:11Z",
     "url": "https://github.com/christim427-rgb/ios-agent-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-05-28T16:00:41Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Build programmatic UIKit apps with production-ready patterns for views, navigation, animation, architecture, and data fl",
@@ -312,15 +321,6 @@
     "stars": 2,
     "updated_at": "2026-05-28T12:31:08Z",
     "url": "https://github.com/DongDuong2001/pudo-code-system"
-  },
-  {
-    "description": "Enforce architectural decisions in AI-assisted development.",
-    "id": "TheoV823/mneme",
-    "language": "HTML",
-    "name": "TheoV823/mneme",
-    "stars": 9,
-    "updated_at": "2026-05-28T16:13:37Z",
-    "url": "https://github.com/TheoV823/mneme"
   },
   {
     "cursorrules": {
