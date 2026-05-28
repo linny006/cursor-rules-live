@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-05-28 12:15 UTC
+> ⏰ Last updated: 2026-05-28 12:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -54,8 +54,8 @@ expired items removed — so you can rely on what you see being current.
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
 | 1 | [TheoV823/mneme](https://github.com/TheoV823/mneme) | 9 | HTML | 2026-05-28 | — | Enforce architectural decisions in AI-assisted development. |
-| 2 | [caioribeiroclw-pixel/pluribus](https://github.com/caioribeiroclw-pixel/pluribus) | 2 | JavaScript | 2026-05-28 | — | Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security |
-| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-05-28 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-05-28 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 3 | [caioribeiroclw-pixel/pluribus](https://github.com/caioribeiroclw-pixel/pluribus) | 2 | JavaScript | 2026-05-28 | — | Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security |
 | 4 | [eumiguellllllllll/copilot-rules](https://github.com/eumiguellllllllll/copilot-rules) | 0 | Batchfile | 2026-05-28 | — | ⚡ Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively. |
 | 5 | [vibestackdev/vibe-stack](https://github.com/vibestackdev/vibe-stack) | 6 | TypeScript | 2026-05-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/) | 29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b |
 | 6 | [Thabang9218/cursorifier](https://github.com/Thabang9218/cursorifier) | 0 | TypeScript | 2026-05-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Thabang9218/cursorifier/) | 🖱️ Enhance your Cursor AI with tailored, codebase-specific insights for smarter navigation and improved efficiency. |
@@ -102,7 +102,7 @@ expired items removed — so you can rely on what you see being current.
 | 47 | [Costumary/gsap-choreography](https://github.com/Costumary/gsap-choreography) | 6 | — | 2026-05-27 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Costumary/gsap-choreography/) | AI coding instructions for scripted GSAP product demo animations — cursor choreography, timeline orchestration, scene tr |
 | 48 | [heymegabyte/claude-skills](https://github.com/heymegabyte/claude-skills) | 9 | JavaScript | 2026-05-27 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/claude-skills/) | 14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts → deployed products. |
 | 49 | [GeiserX/n8n-nodes-lynxprompt](https://github.com/GeiserX/n8n-nodes-lynxprompt) | 1 | TypeScript | 2026-05-26 | — | n8n community node for LynxPrompt — manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via API |
-| 50 | [wshobson/agents](https://github.com/wshobson/agents) | 36070 | Python | 2026-05-26 | — | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI |
+| 50 | [wshobson/agents](https://github.com/wshobson/agents) | 36074 | Python | 2026-05-26 | — | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI |
 <!-- TRACKER_TABLE_END -->
 
 ---
