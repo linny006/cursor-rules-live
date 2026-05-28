@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-05-28 17:15 UTC
+> ⏰ Last updated: 2026-05-28 17:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,13 +53,13 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 1 | HTML | 2026-05-28 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
+| 1 | [baneeishaque/ai-agent-rules](https://github.com/baneeishaque/ai-agent-rules) | 3 | TypeScript | 2026-05-28 | — |  |
 | 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-05-28 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 3 | [davccavalcante/supreme-coding-guidelines-skill.ah](https://github.com/davccavalcante/supreme-coding-guidelines-skill.ah) | 1 | Python | 2026-05-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/davccavalcante/supreme-coding-guidelines-skill.ah/) | Designed for the future of AI development (2027-2030) and leverages the novel `.ah` (Teleological Semantic Format) for u |
-| 4 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-05-28 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
-| 5 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-05-28 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
-| 6 | [mhenke/john-ousterhout-skills](https://github.com/mhenke/john-ousterhout-skills) | 0 | JavaScript | 2026-05-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/mhenke/john-ousterhout-skills/) | Strategic software design guidelines for AI coding agents. 15 behavioral rules + critique/audit commands based on A Phil |
-| 7 | [baneeishaque/ai-agent-rules](https://github.com/baneeishaque/ai-agent-rules) | 3 | TypeScript | 2026-05-28 | — |  |
+| 3 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 1 | HTML | 2026-05-28 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
+| 4 | [davccavalcante/supreme-coding-guidelines-skill.ah](https://github.com/davccavalcante/supreme-coding-guidelines-skill.ah) | 1 | Python | 2026-05-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/davccavalcante/supreme-coding-guidelines-skill.ah/) | Designed for the future of AI development (2027-2030) and leverages the novel `.ah` (Teleological Semantic Format) for u |
+| 5 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-05-28 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
+| 6 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-05-28 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
+| 7 | [mhenke/john-ousterhout-skills](https://github.com/mhenke/john-ousterhout-skills) | 0 | JavaScript | 2026-05-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/mhenke/john-ousterhout-skills/) | Strategic software design guidelines for AI coding agents. 15 behavioral rules + critique/audit commands based on A Phil |
 | 8 | [TheoV823/mneme](https://github.com/TheoV823/mneme) | 9 | HTML | 2026-05-28 | — | Enforce architectural decisions in AI-assisted development. |
 | 9 | [paoloincommensurable537/PixelPilot](https://github.com/paoloincommensurable537/PixelPilot) | 0 | JavaScript | 2026-05-28 | — | Build unique user interfaces with a structured ruleset to prevent generic AI output. |
 | 10 | [Hyanthropological659/clarify-skill](https://github.com/Hyanthropological659/clarify-skill) | 0 | — | 2026-05-28 | — | Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a |
