@@ -46,12 +46,39 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <h1>wshobson/agents</h1>
 <p class="lead">Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI</p>
 <div class="meta">
-<span><strong>Stars</strong> 36128</span>
+<span><strong>Stars</strong> 36129</span>
 <span><strong>Language</strong> Python</span>
 <span><strong>Last updated</strong> 2026-05-29</span>
 <span><a href="https://github.com/wshobson/agents" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/wshobson" rel="external">@wshobson</a></span>
 </div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/000-project-conventions.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
+description: claude-agents marketplace project conventions
+alwaysApply: true
+---
+
+# claude-agents conventions
+
+This is a multi-harness plugin marketplace. Source lives under `plugins/`; per-harness
+artifacts (`.codex/`, `.cursor-plugin/`, `.opencode/`, `commands/`) are generated.
+
+- Don&#x27;t hand-edit anything under `.codex/`, `.cursor-plugin/`, `.opencode/`, or top-level `commands/`, `agents/`, `skills/` — regenerate via `make generate HARNESS=&lt;x&gt;`.
+- Python tooling: `uv` (package manager), `ruff` (lint/format), `ty` (type check). Do not use pip/mypy/black.
+- Plugin files: `plugins/&lt;name&gt;/{.claude-plugin/plugin.json, agents/*.md, skills/&lt;name&gt;/SKILL.md, commands/*.md}`. Auto-discovered.
+- Cursor reads `.claude/skills/` and `.claude/agents/` directly — no separate `.cursor/skills/` is generated.
+
+## Never
+
+- Never commit secrets or hardcode credentials.
+- Never modify `.claude-plugin/marketplace.json` from inside a plugin PR — it&#x27;s the registry.
+- Never run destructive git operations (force-push, reset --hard, branch -D) without explicit ask.
+
+See `docs/authoring.md` for the portable-content style guide.
+</code></pre>
+<p><a href="https://github.com/wshobson/agents/blob/HEAD/.cursor/rules/000-project-conventions.mdc" rel="external">View raw on GitHub</a></p>
+</section>
 <section><h2>Why this is listed</h2>
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>
