@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-05-29 20:28 UTC
+> ⏰ Last updated: 2026-05-29 20:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,9 +53,9 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [zinxj/uikit-expert-skill](https://github.com/zinxj/uikit-expert-skill) | 2 | — | 2026-05-29 | — | Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan |
-| 2 | [GrekosTheJogurt/antigravity-workspace-manager](https://github.com/GrekosTheJogurt/antigravity-workspace-manager) | 0 | Python | 2026-05-29 | — | Manage and organize project workspaces while dynamically injecting relevant skills for efficient AI assistant context lo |
-| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-05-29 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-05-29 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [zinxj/uikit-expert-skill](https://github.com/zinxj/uikit-expert-skill) | 2 | — | 2026-05-29 | — | Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan |
+| 3 | [GrekosTheJogurt/antigravity-workspace-manager](https://github.com/GrekosTheJogurt/antigravity-workspace-manager) | 0 | Python | 2026-05-29 | — | Manage and organize project workspaces while dynamically injecting relevant skills for efficient AI assistant context lo |
 | 4 | [johnwall123459885/skene-cookbook](https://github.com/johnwall123459885/skene-cookbook) | 0 | Python | 2026-05-29 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/johnwall123459885/skene-cookbook/) | 🤖 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development. |
 | 5 | [baneeishaque/ai-agent-rules](https://github.com/baneeishaque/ai-agent-rules) | 3 | TypeScript | 2026-05-29 | — |  |
 | 6 | [Luxvil/ai-coding-rules](https://github.com/Luxvil/ai-coding-rules) | 2 | Shell | 2026-05-29 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Luxvil/ai-coding-rules/) | 🤖 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje |
@@ -95,7 +95,7 @@ expired items removed — so you can rely on what you see being current.
 | 40 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 4 | TypeScript | 2026-05-29 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
 | 41 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 12 | Shell | 2026-05-29 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
 | 42 | [taniwhaai/arai](https://github.com/taniwhaai/arai) | 5 | Rust | 2026-05-29 | — | AI coding rules that actually work. Enforce instruction files via hooks — CLAUDE.md, .cursorrules, copilot-instructions, |
-| 43 | [SalesforceAIResearch/agentforce-adlc](https://github.com/SalesforceAIResearch/agentforce-adlc) | 64 | Python | 2026-05-29 | — | Agent Development Life Cycle — Build, deploy, test, and optimize Agentforce agents using Claude Code skills and Agent Sc |
+| 43 | [SalesforceAIResearch/agentforce-adlc](https://github.com/SalesforceAIResearch/agentforce-adlc) | 65 | Python | 2026-05-29 | — | Agent Development Life Cycle — Build, deploy, test, and optimize Agentforce agents using Claude Code skills and Agent Sc |
 | 44 | [psyduckler/agenttune](https://github.com/psyduckler/agenttune) | 5 | — | 2026-05-28 | — | Paste-and-go personality tuning for Claude, ChatGPT, Cursor, Gemini — 6 frameworks, MIT. |
 | 45 | [mhenke/john-ousterhout-skills](https://github.com/mhenke/john-ousterhout-skills) | 0 | JavaScript | 2026-05-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/mhenke/john-ousterhout-skills/) | Strategic software design guidelines for AI coding agents. 15 behavioral rules + critique/audit commands based on A Phil |
 | 46 | [guorunjie/skillpack-forge](https://github.com/guorunjie/skillpack-forge) | 1 | JavaScript | 2026-05-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/guorunjie/skillpack-forge/) | One manifest for every AI coding agent: generate AGENTS.md, Claude Skills, Codex Skills, Cursor rules, and Copilot instr |
