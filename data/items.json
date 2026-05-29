@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-05-29T15:15:33Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Governance-first OS for AI coding agents \u2014 structured workflows, delivery gates, engineering guardrails, and 17 professi",
     "id": "KbWen/agentic-os",
     "language": "Python",
@@ -21,15 +30,6 @@
     "stars": 0,
     "updated_at": "2026-05-29T15:08:47Z",
     "url": "https://github.com/Thabang9218/cursorifier"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-05-29T15:00:51Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\ud83d\udca1 Discover AI coding tools that enhance your workflow, from code editors to completion engines, and boost your software ",
