@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-05-29T17:45:33Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: \"Three.js / React Three Fiber syntax: scene setup, R3F hooks, models, controls. Load for 3D code \u2014 taste, perf budgets, and mobile WebGL live in the 3d-web-experiences skill.\"\nglobs: [\"**/*.{jsx,tsx,js,ts}\", \"**/three/**\", \"**/*.glb\", \"**/*.gltf\"]\nalwaysApply: false\n---\n\n# 3D Graphics \u2014 Syntax Reference\n\nMechanical patterns for Three.js, React Three Fiber (R3F), and `@react-three/drei`. For aesthetic direction, performance tiers, responsive/mobile WebGL, degradation, accessibility, and verified recipes, load the **`3d-web-experiences`** skill (`reference.md` for full scenes and bug catalog).\n\nVerify package APIs against installed versions before asserting prop names.\n\n---\n\n## CRITICAL: Container Dimensions\n\nA WebGL canvas without a sized parent renders at zero height or wrong aspect.\n\n```jsx\n// WRONG\n<div><Canvas><Scene /></Canvas></div>\n\n// CORRECT \u2014 explicit height on the container\n<div style={{ height: '500px', width: '100%' }}>\n  <Canvas><Scene /></Canvas>\n</div>\n```\n\nVanilla Three.js: size the renderer to the **container**, not always `window` \u2014 use `ResizeObserver` or container `clientWidth` / `clientHeight`.\n\n---\n\n## R3F Canvas Baseline\n\n```jsx\nimport { Canvas } from '@react-three/fiber';\nimport { OrbitControls, Environment } from '@react-three/drei';\n\nexport function Scene() {\n  return (\n    <div style={{ height: '500px', width: '100%' }}>\n      <Canvas shadows dpr={[1, 2]} camera={{ position: [0, 0, 5], fov: 45 }}>\n        <Environment preset=\"city\" />\n        <ambientLight intensity={0.4} />\n        <directionalLight position={[5, 5, 5]} castShadow />\n        <Mesh />\n        <OrbitControls enableDamping />\n      </Canvas>\n    </div>\n  );\n}\n```\n\nSet tone mapping and output color space on the renderer for PBR that is not flat \u2014 see `3d-web-experiences` \u2192 renderer baseline.\n\n---\n\n## Hooks & Imports (common bugs)\n\n```jsx\nimport { useRef, useState } from 'react';\nimport { useFrame } from '@react-three/fiber'; // NOT from 'react'\nimport type { Mesh } from 'three';\n\nfunction AnimatedBox() {\n  const ref = useRef<Mesh>(null);\n  useFrame((_, delta) => {\n    if (ref.current) ref.current.rotation.y += delta;\n  });\n  return (\n    <mesh ref={ref}>\n      <boxGeometry />\n      <meshStandardMaterial />\n    </mesh>\n  );\n}\n```\n\n| Mistake | Fix |\n|---------|-----|\n| `useFrame` from `react` | Import from `@react-three/fiber` |\n| `<Detail>` from `three` | Use drei `<Detailed distances={[0, 10, 20]}>` with child meshes |\n| `InstancedMesh` from fiber | Use JSX `<instancedMesh>`; `Object3D` from `three` |\n\n---\n\n## Models & Loading\n\n```jsx\nimport { Suspense } from 'react';\nimport { useGLTF, Html, useProgress } from '@react-three/drei';\n\nfunction Model({ url }) {\n  const { scene } = useGLTF(url);\n  return <primitive object={scene} />;\n}\nuseGLTF.preload('/models/asset.glb');\n\nfunction Loader() {\n  const { progress } = useProgress();\n  return <Html center>{progress.toFixed(0)}%</Html>;\n}\n\n// Wrap async assets:\n<Suspense fallback={<Loader />}><Model url=\"\u2026\" /></Suspense>\n```\n\nPrefer `.glb` with Draco/Meshopt compression for web (see skill \u2192 asset pipeline).\n\n---\n\n## LOD & Instancing (mechanics)\n\n```jsx\nimport { Detailed } from '@react-three/drei';\n\n<Detailed distances={[0, 10, 25]}>\n  <HighPolyMesh />\n  <MediumPolyMesh />\n  <LowPolyMesh />\n</Detailed>\n```\n\nFor many copies of the same geometry, use `<instancedMesh>` or drei `<Instances>`. Budgets, DPR clamps, and `frameloop=\"demand\"`: **`3d-web-experiences`**.\n\n---\n\n## Camera Controls (drei)\n\n```jsx\nimport { OrbitControls, MapControls } from '@react-three/drei';\n\n<OrbitControls enableDamping dampingFactor={0.05} minDistance={2} maxDistance={20} />\n```\n\nRespect `prefers-reduced-motion` \u2014 pause auto-rotate and heavy camera motion (skill \u2192 accessibility).\n\n---\n\n## Verification (3D changes)\n\n| Check | How |\n|-------|-----|\n| Renders | Browser load \u2014 not blank/black canvas |\n| Console | No WebGL / shader compile errors |\n| Resize | Container height preserved; canvas scales with parent |\n| Mobile | DPR/effects tier reduced when skill budget applies |\n\nBrowser verification required; use console + visual check minimum.\n\n---\n\n## When NOT to Load This File\n\n- 2D UI only \u2014 use `design-systems` + `anti-slop-design`.\n- \u201cMake it look good\u201d / hero aesthetic \u2014 start with **`3d-web-experiences`** Step 1 (direction + slop catalog), then use this file for syntax.\n",
       "format": "mdc",
@@ -21,15 +30,6 @@
     "stars": 3,
     "updated_at": "2026-05-29T17:39:19Z",
     "url": "https://github.com/baneeishaque/ai-agent-rules"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-05-29T17:30:31Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI",
