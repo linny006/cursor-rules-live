@@ -1,30 +1,12 @@
 [
   {
-    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
-    "id": "eumiguellllllllll/copilot-rules",
-    "language": "Batchfile",
-    "name": "eumiguellllllllll/copilot-rules",
-    "stars": 0,
-    "updated_at": "2026-05-29T15:35:11Z",
-    "url": "https://github.com/eumiguellllllllll/copilot-rules"
-  },
-  {
     "description": "Enforce architectural decisions in AI-assisted development.",
     "id": "TheoV823/mneme",
     "language": "HTML",
     "name": "TheoV823/mneme",
     "stars": 10,
-    "updated_at": "2026-05-29T15:31:41Z",
+    "updated_at": "2026-05-29T15:56:32Z",
     "url": "https://github.com/TheoV823/mneme"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-05-29T15:30:41Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Governance-first OS for AI coding agents \u2014 structured workflows, delivery gates, engineering guardrails, and 17 professi",
@@ -32,8 +14,26 @@
     "language": "Python",
     "name": "KbWen/agentic-os",
     "stars": 1,
-    "updated_at": "2026-05-29T15:11:38Z",
+    "updated_at": "2026-05-29T15:50:45Z",
     "url": "https://github.com/KbWen/agentic-os"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-05-29T15:45:40Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
+    "id": "eumiguellllllllll/copilot-rules",
+    "language": "Batchfile",
+    "name": "eumiguellllllllll/copilot-rules",
+    "stars": 0,
+    "updated_at": "2026-05-29T15:35:11Z",
+    "url": "https://github.com/eumiguellllllllll/copilot-rules"
   },
   {
     "cursorrules": {
