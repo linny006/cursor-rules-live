@@ -1,11 +1,20 @@
 [
   {
+    "description": "",
+    "id": "baneeishaque/ai-agent-rules",
+    "language": "TypeScript",
+    "name": "baneeishaque/ai-agent-rules",
+    "stars": 3,
+    "updated_at": "2026-05-29T17:58:36Z",
+    "url": "https://github.com/baneeishaque/ai-agent-rules"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-05-29T17:45:33Z",
+    "updated_at": "2026-05-29T17:50:30Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -21,15 +30,6 @@
     "stars": 114,
     "updated_at": "2026-05-29T17:41:59Z",
     "url": "https://github.com/madebyaris/advance-minimax-m2-cursor-rules"
-  },
-  {
-    "description": "",
-    "id": "baneeishaque/ai-agent-rules",
-    "language": "TypeScript",
-    "name": "baneeishaque/ai-agent-rules",
-    "stars": 3,
-    "updated_at": "2026-05-29T17:39:19Z",
-    "url": "https://github.com/baneeishaque/ai-agent-rules"
   },
   {
     "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI",
