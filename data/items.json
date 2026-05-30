@@ -1,12 +1,81 @@
 [
   {
+    "description": "Manage and organize project workspaces while dynamically injecting relevant skills for efficient AI assistant context lo",
+    "id": "GrekosTheJogurt/antigravity-workspace-manager",
+    "language": "Python",
+    "name": "GrekosTheJogurt/antigravity-workspace-manager",
+    "stars": 0,
+    "updated_at": "2026-05-30T02:14:57Z",
+    "url": "https://github.com/GrekosTheJogurt/antigravity-workspace-manager"
+  },
+  {
+    "description": "Battle-tested agent skills and Cursor rules from real projects. Works with Cursor, Claude Code, and any agent.",
+    "id": "jcottam/agent-resources",
+    "language": "Shell",
+    "name": "jcottam/agent-resources",
+    "stars": 0,
+    "updated_at": "2026-05-30T02:13:04Z",
+    "url": "https://github.com/jcottam/agent-resources"
+  },
+  {
     "description": "Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows.",
     "id": "ajhcs/healthcare-agents",
     "language": "JavaScript",
     "name": "ajhcs/healthcare-agents",
     "stars": 34,
-    "updated_at": "2026-05-30T01:48:49Z",
+    "updated_at": "2026-05-30T02:13:00Z",
     "url": "https://github.com/ajhcs/healthcare-agents"
+  },
+  {
+    "cursorrules": {
+      "content": "# Emdash Skills for Cursor\n\nLoad CONVENTIONS.md for stack defaults. Load _router.md for skill routing.\n14 categories (01-14), 94 reference docs, 18 agents.\n\n## Stack\nCF Workers+Hono | Angular 21+Ionic 8+PrimeNG 21 | D1/Neon | Drizzle v1 | Clerk | Stripe | Inngest | Resend | Bun | Playwright v1.59+ | PostHog | Sentry\n\n## Rules\n- TypeScript strict, never `any`, prefer `interface` over `type`\n- Hono inline handlers for RPC type inference\n- Zod validation on all inputs\n- TDD: failing test first, Playwright 6 breakpoints\n- Dark-first design, #060610 bg, #00E5FF accent\n- Deploy to CF Workers, purge CDN after every deploy\n\nSee CONVENTIONS.md for full patterns.\n",
+      "format": "text",
+      "path": ".cursorrules"
+    },
+    "description": "14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts \u2192 deployed products.",
+    "id": "heymegabyte/claude-skills",
+    "language": "JavaScript",
+    "name": "heymegabyte/claude-skills",
+    "stars": 9,
+    "updated_at": "2026-05-30T02:11:48Z",
+    "url": "https://github.com/heymegabyte/claude-skills"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-05-30T02:09:48Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "cursorrules": {
+      "content": "# Cursor Rules for skene-cookbook\n\n## Project Context\n\n**Repository:** skene-cookbook - 764 AI skill library with 36 skill chain recipes\n**Package:** @skene/skills-directory v0.2.0\n**License:** MIT\n**Purpose:** Pre-built AI skill chains for PLG, sales, customer success, security, and more\n\n## Architecture Patterns\n\n### Skill Structure (Non-Negotiable)\n\nEvery skill MUST follow this exact structure:\n\n```\nskills-library/{domain}/{skill-name}/\n\u251c\u2500\u2500 skill.json          # Metadata (name, description, category, risk_level)\n\u251c\u2500\u2500 instructions.md     # AI agent execution instructions\n\u2514\u2500\u2500 tests/              # Optional: skill-specific tests\n```\n\n**Do NOT:**\n- Create skills outside `skills-library/executable/` or `skills-library/reference/`\n- Modify existing skill structure without updating registry\n- Add skills without `skill.json` and `instructions.md`\n\n### Registry Auto-Generation\n\nThe `registry/` directory is AUTO-GENERATED from `skills-library/`:\n- Never manually edit files in `registry/`\n- Always run `npm run verify:metrics` after skill changes\n- Registry regeneration syncs badges and counts across README.md, METRICS.md, docs/directory.md\n\n### Risk Level Classification\n\nSkills are classified by risk level (defined in `skill.json`):\n- `Low` - Read-only operations, no external dependencies\n- `Medium` - Write operations, requires configuration\n- `High` - External API calls, requires credentials\n- `Critical` - System-level operations, requires manual review\n\n**Rule:** When creating a skill that makes external API calls, uses credentials, or modifies data, always set `risk_level: \"High\"` or `\"Critical\"`.\n\n## Naming Conventions\n\n### Skill IDs\n- Format: `{domain}_{action}_{target}` (e.g., `sales_analyze_pipeline`)\n- Use snake_case, all lowercase\n- Be descriptive but concise (3-5 words max)\n\n### File Naming\n- Skill directories: kebab-case (e.g., `analyze-customer-health/`)\n- Python files: snake_case (e.g., `analyze_skills.py`)\n- JavaScript files: kebab-case (e.g., `skills-directory.js`)\n- Documentation: SCREAMING_SNAKE_CASE for top-level (e.g., `AGENTS.md`), kebab-case for nested\n\n### Domain Categories\n\nValid domains (don't invent new ones without discussion):\n- `ecosystem` - Partner, integration management\n- `marketing` - Campaigns, content, SEO\n- `sales` - Pipeline, deals, CRM\n- `customer_success` - Health, churn, onboarding\n- `product_ops` - Roadmap, releases\n- `security` - Security, compliance\n- `finops` - Billing, revenue\n- `data` - Analytics, reporting\n- `engineering` - DevOps, CI/CD\n- `hr` - Recruiting, onboarding\n\n## Testing Patterns\n\n### Test Organization\n\n```\ntests/\n\u251c\u2500\u2500 unit/           # Fast, isolated tests (< 1s each)\n\u251c\u2500\u2500 integration/    # Multi-component tests (< 5s each)\n\u2514\u2500\u2500 e2e/            # Full user workflows (< 30s each)\n```\n\n### Required Test Coverage\n\n- Minimum: 60% overall coverage\n- Target: 80%+ coverage\n- Critical paths (eval_harness, tracer): 90%+ coverage\n\n### Testing Commands\n\n```bash\n# Run full suite\npytest tests/ -v\n\n# Run fast tests only\npytest tests/unit -v -m \"not slow\"\n\n# Run specific domain tests\npytest tests/unit/test_dedupe_skills.py -v\n```\n\n**Rule:** All PRs must pass `pytest tests/ -v` before merging.\n\n## Code Quality Standards\n\n### Pre-Commit Hooks (Enforced)\n\nThe following hooks run automatically on commit:\n- `detect-secrets` - Blocks commits with credentials\n- `prettier` - Formats JS/JSON/YAML/Markdown\n- `black` - Formats Python (if installed)\n- `flake8` - Lints Python (if installed)\n- `isort` - Sorts Python imports (if installed)\n\n**Rule:** Never use `--no-verify` to skip hooks. Fix the issues instead.\n\n### Linting Commands\n\n```bash\n# JavaScript\nnpm run lint        # ESLint + Prettier\nnpm run format      # Auto-fix formatting\n\n# Python (if installed in venv)\nblack .\nflake8 .\nisort .\n```\n\n## Workflow Blueprints\n\n### Blueprint Schema\n\nBlueprints in `registry/blueprints/` follow `schemas/workflow_blueprint.json`:\n\n```yaml\nid: workflow_{name}\nversion: 1.0.0\nname: 'Human Readable Name'\nchain_sequence:\n  - step_id: 'step_1'\n    skill_id: 'domain_action_target'\n    action: 'action_name'\n    input_mapping:\n      static_values: {}\n    error_handling:\n      on_failure: 'stop'\n      max_retries: 2\n```\n\n**Rule:** All workflow blueprints must validate against schema before committing.\n\n## Playbook-Ready Features (Optional but Encouraged)\n\nWhen creating blueprints, consider adding:\n\n```yaml\nicp:\n  company_size: '50-500'\n  motion: 'product-led-growth'\n  priorities: ['reduce_churn', 'increase_nrr']\n\nintegration_reference:\n  - type: 'crm'\n    provider: 'salesforce'\n    schema_ref: 'registry/integration_schemas/salesforce_fields.yaml'\n\nopinionated_prompts:\n  - step_id: 'step_1'\n    system_context: 'You are analyzing a PLG motion with 30-day trials...'\n    input_guidance: 'Focus on trial-to-paid conversion metrics...'\n```\n\nSee `registry/integration_schemas/README.md` for schema format.\n\n## Security Rules (Blocking)\n\n### Never Commit\n\nThese patterns are BLOCKED by pre-commit hooks:\n- `.env` files (use `.env.example` for templates)\n- Files in `.ssh/`, `.aws/`, `secrets/`\n- Private keys (detected by `detect-private-key` hook)\n- API keys, tokens, passwords (detected by `detect-secrets`)\n\n### Handling Credentials\n\n```bash\n# Good: Reference environment variables\nDATABASE_URL = os.getenv('DATABASE_URL')\n\n# Bad: Hardcoded credentials\nDATABASE_URL = \"postgresql://user:pass@localhost\"  # pragma: allowlist secret\n```\n\n## AI Agent Boundaries\n\n### What AI Agents Can Access\n\n- All files except `.ai/internal/` (gitignored, excluded in `.cursorignore`)\n- `AGENTS.md` for build commands and conventions\n- All skill schemas in `skills-library/`\n- Test suites in `tests/`\n\n### What AI Agents Should NOT Touch\n\n- `skills-library/` content (764 skills, managed by scripts)\n- `registry/` (auto-generated)\n- `METRICS.md` (auto-generated)\n\n**Rule:** If you modify skill counts or categories, run `npm run verify:metrics` to sync all dependent files.\n\n## Development Workflow\n\n### Adding a New Skill\n\n1. Create directory: `skills-library/executable/{domain}/{skill-name}/`\n2. Write `skill.json` (follow schema in `schemas/skill_definition.json`)\n3. Write `instructions.md` (clear execution steps)\n4. Run `npm run verify:metrics` to update registry\n5. Add tests in `tests/` if complex logic\n6. Run `pytest tests/ -v` to verify\n7. Commit with message: `feat(skills): add {skill-name} to {domain}`\n\n### Modifying Existing Skills\n\n1. Read the skill's `skill.json` and `instructions.md` first\n2. Make changes\n3. Run `npm run verify:metrics`\n4. Update tests if behavior changed\n5. Run `pytest tests/ -v`\n6. Commit with message: `fix(skills): update {skill-name} - {reason}`\n\n### Creating Skill Chains\n\n1. Identify 2-7 skills to chain together\n2. Create blueprint in `registry/blueprints/` (or use script: `scripts/recipe_to_blueprint.py`)\n3. Validate against `schemas/workflow_blueprint.json`\n4. Document in `docs/SKILL_CHAINS.md` (follow existing format)\n5. Add integration test in `tests/integration/`\n6. Commit with message: `feat(chains): add {chain-name} recipe`\n\n## Performance Guidelines\n\n### Skill Execution\n\n- Keep skills atomic (single responsibility)\n- Skills should complete in < 5 seconds (unless marked with `slow: true`)\n- Use caching for expensive operations (see `eval_harness/tracer.py` for examples)\n\n### Testing Performance\n\n- Unit tests: < 1 second each\n- Integration tests: < 5 seconds each\n- E2E tests: < 30 seconds each\n- Mark slow tests with `@pytest.mark.slow`\n\n## Common Patterns\n\n### Skill Chaining (Data Flow)\n\nSkills output data that becomes input for next skill:\n\n```yaml\n- step_id: 'analyze'\n  skill_id: 'sales_analyze_pipeline'\n  output: { health_score: 0.85 }\n\n- step_id: 'recommend'\n  skill_id: 'sales_recommend_actions'\n  input_mapping:\n    from_step: 'analyze'\n    field_mappings:\n      health_score: 'input.score'\n```\n\n### Error Handling\n\n```yaml\nerror_handling:\n  on_failure: 'stop'        # Options: stop, continue, retry\n  max_retries: 2\n  retry_delay_seconds: 5\n```\n\n## Commit Me",
+      "format": "text",
+      "path": ".cursorrules"
+    },
+    "description": "\ud83e\udd16 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development.",
+    "id": "johnwall123459885/skene-cookbook",
+    "language": "Python",
+    "name": "johnwall123459885/skene-cookbook",
+    "stars": 0,
+    "updated_at": "2026-05-30T02:09:06Z",
+    "url": "https://github.com/johnwall123459885/skene-cookbook"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: \"USE WHEN: any task in this repo. Global operating rules.\"\nglobs: [\"**/*\"]\nalwaysApply: true\npriority: 100\n---\n\n# Global Rules (Always On)\n\n## Role\nYou are an AI coding assistant. Deliver correct, minimal, testable changes. Surface uncertainty instead of hiding it.\n\n## Non\u2011Negotiables\n- **Correctness > simplicity > consistency > style**.\n- **Minimal diff**: touch only what the task needs.\n- **No drive\u2011by refactors**.\n- **Ask when ambiguous**: assumptions ledger + up to 3 questions.\n- **Stop** on security, data loss, or breaking changes; ask for confirmation.\n\n## Output Discipline\n- Provide a brief plan before changes.\n- Show verification steps (lint/typecheck/tests) and state what wasn\u2019t run.\n\n## Guardrails\n- No hard\u2011coded secrets.\n- No unrelated formatting or renaming.\n- No new dependencies without approval.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/00-global.mdc"
+    },
+    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
+    "id": "Luxvil/ai-coding-rules",
+    "language": "Shell",
+    "name": "Luxvil/ai-coding-rules",
+    "stars": 2,
+    "updated_at": "2026-05-30T02:03:03Z",
+    "url": "https://github.com/Luxvil/ai-coding-rules"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,7 +83,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-05-30T01:45:43Z",
+    "updated_at": "2026-05-30T02:00:40Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -109,20 +178,6 @@
     "url": "https://github.com/linny006/cursor-rules-picker"
   },
   {
-    "cursorrules": {
-      "content": "# Emdash Skills for Cursor\n\nLoad CONVENTIONS.md for stack defaults. Load _router.md for skill routing.\n14 categories (01-14), 94 reference docs, 18 agents.\n\n## Stack\nCF Workers+Hono | Angular 21+Ionic 8+PrimeNG 21 | D1/Neon | Drizzle v1 | Clerk | Stripe | Inngest | Resend | Bun | Playwright v1.59+ | PostHog | Sentry\n\n## Rules\n- TypeScript strict, never `any`, prefer `interface` over `type`\n- Hono inline handlers for RPC type inference\n- Zod validation on all inputs\n- TDD: failing test first, Playwright 6 breakpoints\n- Dark-first design, #060610 bg, #00E5FF accent\n- Deploy to CF Workers, purge CDN after every deploy\n\nSee CONVENTIONS.md for full patterns.\n",
-      "format": "text",
-      "path": ".cursorrules"
-    },
-    "description": "14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts \u2192 deployed products.",
-    "id": "heymegabyte/claude-skills",
-    "language": "JavaScript",
-    "name": "heymegabyte/claude-skills",
-    "stars": 9,
-    "updated_at": "2026-05-29T23:25:30Z",
-    "url": "https://github.com/heymegabyte/claude-skills"
-  },
-  {
     "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
     "id": "Bastioned-successor320/learn-nanobot",
     "language": "Python",
@@ -204,15 +259,6 @@
     "url": "https://github.com/ebbaunqualified520/ios-agent-skills"
   },
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 0,
-    "updated_at": "2026-05-29T23:04:34Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
     "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
     "id": "zinxj/uikit-expert-skill",
     "language": "\u2014",
@@ -220,43 +266,6 @@
     "stars": 2,
     "updated_at": "2026-05-29T22:57:38Z",
     "url": "https://github.com/zinxj/uikit-expert-skill"
-  },
-  {
-    "description": "Manage and organize project workspaces while dynamically injecting relevant skills for efficient AI assistant context lo",
-    "id": "GrekosTheJogurt/antigravity-workspace-manager",
-    "language": "Python",
-    "name": "GrekosTheJogurt/antigravity-workspace-manager",
-    "stars": 0,
-    "updated_at": "2026-05-29T22:54:31Z",
-    "url": "https://github.com/GrekosTheJogurt/antigravity-workspace-manager"
-  },
-  {
-    "cursorrules": {
-      "content": "# Cursor Rules for skene-cookbook\n\n## Project Context\n\n**Repository:** skene-cookbook - 764 AI skill library with 36 skill chain recipes\n**Package:** @skene/skills-directory v0.2.0\n**License:** MIT\n**Purpose:** Pre-built AI skill chains for PLG, sales, customer success, security, and more\n\n## Architecture Patterns\n\n### Skill Structure (Non-Negotiable)\n\nEvery skill MUST follow this exact structure:\n\n```\nskills-library/{domain}/{skill-name}/\n\u251c\u2500\u2500 skill.json          # Metadata (name, description, category, risk_level)\n\u251c\u2500\u2500 instructions.md     # AI agent execution instructions\n\u2514\u2500\u2500 tests/              # Optional: skill-specific tests\n```\n\n**Do NOT:**\n- Create skills outside `skills-library/executable/` or `skills-library/reference/`\n- Modify existing skill structure without updating registry\n- Add skills without `skill.json` and `instructions.md`\n\n### Registry Auto-Generation\n\nThe `registry/` directory is AUTO-GENERATED from `skills-library/`:\n- Never manually edit files in `registry/`\n- Always run `npm run verify:metrics` after skill changes\n- Registry regeneration syncs badges and counts across README.md, METRICS.md, docs/directory.md\n\n### Risk Level Classification\n\nSkills are classified by risk level (defined in `skill.json`):\n- `Low` - Read-only operations, no external dependencies\n- `Medium` - Write operations, requires configuration\n- `High` - External API calls, requires credentials\n- `Critical` - System-level operations, requires manual review\n\n**Rule:** When creating a skill that makes external API calls, uses credentials, or modifies data, always set `risk_level: \"High\"` or `\"Critical\"`.\n\n## Naming Conventions\n\n### Skill IDs\n- Format: `{domain}_{action}_{target}` (e.g., `sales_analyze_pipeline`)\n- Use snake_case, all lowercase\n- Be descriptive but concise (3-5 words max)\n\n### File Naming\n- Skill directories: kebab-case (e.g., `analyze-customer-health/`)\n- Python files: snake_case (e.g., `analyze_skills.py`)\n- JavaScript files: kebab-case (e.g., `skills-directory.js`)\n- Documentation: SCREAMING_SNAKE_CASE for top-level (e.g., `AGENTS.md`), kebab-case for nested\n\n### Domain Categories\n\nValid domains (don't invent new ones without discussion):\n- `ecosystem` - Partner, integration management\n- `marketing` - Campaigns, content, SEO\n- `sales` - Pipeline, deals, CRM\n- `customer_success` - Health, churn, onboarding\n- `product_ops` - Roadmap, releases\n- `security` - Security, compliance\n- `finops` - Billing, revenue\n- `data` - Analytics, reporting\n- `engineering` - DevOps, CI/CD\n- `hr` - Recruiting, onboarding\n\n## Testing Patterns\n\n### Test Organization\n\n```\ntests/\n\u251c\u2500\u2500 unit/           # Fast, isolated tests (< 1s each)\n\u251c\u2500\u2500 integration/    # Multi-component tests (< 5s each)\n\u2514\u2500\u2500 e2e/            # Full user workflows (< 30s each)\n```\n\n### Required Test Coverage\n\n- Minimum: 60% overall coverage\n- Target: 80%+ coverage\n- Critical paths (eval_harness, tracer): 90%+ coverage\n\n### Testing Commands\n\n```bash\n# Run full suite\npytest tests/ -v\n\n# Run fast tests only\npytest tests/unit -v -m \"not slow\"\n\n# Run specific domain tests\npytest tests/unit/test_dedupe_skills.py -v\n```\n\n**Rule:** All PRs must pass `pytest tests/ -v` before merging.\n\n## Code Quality Standards\n\n### Pre-Commit Hooks (Enforced)\n\nThe following hooks run automatically on commit:\n- `detect-secrets` - Blocks commits with credentials\n- `prettier` - Formats JS/JSON/YAML/Markdown\n- `black` - Formats Python (if installed)\n- `flake8` - Lints Python (if installed)\n- `isort` - Sorts Python imports (if installed)\n\n**Rule:** Never use `--no-verify` to skip hooks. Fix the issues instead.\n\n### Linting Commands\n\n```bash\n# JavaScript\nnpm run lint        # ESLint + Prettier\nnpm run format      # Auto-fix formatting\n\n# Python (if installed in venv)\nblack .\nflake8 .\nisort .\n```\n\n## Workflow Blueprints\n\n### Blueprint Schema\n\nBlueprints in `registry/blueprints/` follow `schemas/workflow_blueprint.json`:\n\n```yaml\nid: workflow_{name}\nversion: 1.0.0\nname: 'Human Readable Name'\nchain_sequence:\n  - step_id: 'step_1'\n    skill_id: 'domain_action_target'\n    action: 'action_name'\n    input_mapping:\n      static_values: {}\n    error_handling:\n      on_failure: 'stop'\n      max_retries: 2\n```\n\n**Rule:** All workflow blueprints must validate against schema before committing.\n\n## Playbook-Ready Features (Optional but Encouraged)\n\nWhen creating blueprints, consider adding:\n\n```yaml\nicp:\n  company_size: '50-500'\n  motion: 'product-led-growth'\n  priorities: ['reduce_churn', 'increase_nrr']\n\nintegration_reference:\n  - type: 'crm'\n    provider: 'salesforce'\n    schema_ref: 'registry/integration_schemas/salesforce_fields.yaml'\n\nopinionated_prompts:\n  - step_id: 'step_1'\n    system_context: 'You are analyzing a PLG motion with 30-day trials...'\n    input_guidance: 'Focus on trial-to-paid conversion metrics...'\n```\n\nSee `registry/integration_schemas/README.md` for schema format.\n\n## Security Rules (Blocking)\n\n### Never Commit\n\nThese patterns are BLOCKED by pre-commit hooks:\n- `.env` files (use `.env.example` for templates)\n- Files in `.ssh/`, `.aws/`, `secrets/`\n- Private keys (detected by `detect-private-key` hook)\n- API keys, tokens, passwords (detected by `detect-secrets`)\n\n### Handling Credentials\n\n```bash\n# Good: Reference environment variables\nDATABASE_URL = os.getenv('DATABASE_URL')\n\n# Bad: Hardcoded credentials\nDATABASE_URL = \"postgresql://user:pass@localhost\"  # pragma: allowlist secret\n```\n\n## AI Agent Boundaries\n\n### What AI Agents Can Access\n\n- All files except `.ai/internal/` (gitignored, excluded in `.cursorignore`)\n- `AGENTS.md` for build commands and conventions\n- All skill schemas in `skills-library/`\n- Test suites in `tests/`\n\n### What AI Agents Should NOT Touch\n\n- `skills-library/` content (764 skills, managed by scripts)\n- `registry/` (auto-generated)\n- `METRICS.md` (auto-generated)\n\n**Rule:** If you modify skill counts or categories, run `npm run verify:metrics` to sync all dependent files.\n\n## Development Workflow\n\n### Adding a New Skill\n\n1. Create directory: `skills-library/executable/{domain}/{skill-name}/`\n2. Write `skill.json` (follow schema in `schemas/skill_definition.json`)\n3. Write `instructions.md` (clear execution steps)\n4. Run `npm run verify:metrics` to update registry\n5. Add tests in `tests/` if complex logic\n6. Run `pytest tests/ -v` to verify\n7. Commit with message: `feat(skills): add {skill-name} to {domain}`\n\n### Modifying Existing Skills\n\n1. Read the skill's `skill.json` and `instructions.md` first\n2. Make changes\n3. Run `npm run verify:metrics`\n4. Update tests if behavior changed\n5. Run `pytest tests/ -v`\n6. Commit with message: `fix(skills): update {skill-name} - {reason}`\n\n### Creating Skill Chains\n\n1. Identify 2-7 skills to chain together\n2. Create blueprint in `registry/blueprints/` (or use script: `scripts/recipe_to_blueprint.py`)\n3. Validate against `schemas/workflow_blueprint.json`\n4. Document in `docs/SKILL_CHAINS.md` (follow existing format)\n5. Add integration test in `tests/integration/`\n6. Commit with message: `feat(chains): add {chain-name} recipe`\n\n## Performance Guidelines\n\n### Skill Execution\n\n- Keep skills atomic (single responsibility)\n- Skills should complete in < 5 seconds (unless marked with `slow: true`)\n- Use caching for expensive operations (see `eval_harness/tracer.py` for examples)\n\n### Testing Performance\n\n- Unit tests: < 1 second each\n- Integration tests: < 5 seconds each\n- E2E tests: < 30 seconds each\n- Mark slow tests with `@pytest.mark.slow`\n\n## Common Patterns\n\n### Skill Chaining (Data Flow)\n\nSkills output data that becomes input for next skill:\n\n```yaml\n- step_id: 'analyze'\n  skill_id: 'sales_analyze_pipeline'\n  output: { health_score: 0.85 }\n\n- step_id: 'recommend'\n  skill_id: 'sales_recommend_actions'\n  input_mapping:\n    from_step: 'analyze'\n    field_mappings:\n      health_score: 'input.score'\n```\n\n### Error Handling\n\n```yaml\nerror_handling:\n  on_failure: 'stop'        # Options: stop, continue, retry\n  max_retries: 2\n  retry_delay_seconds: 5\n```\n\n## Commit Me",
-      "format": "text",
-      "path": ".cursorrules"
-    },
-    "description": "\ud83e\udd16 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development.",
-    "id": "johnwall123459885/skene-cookbook",
-    "language": "Python",
-    "name": "johnwall123459885/skene-cookbook",
-    "stars": 0,
-    "updated_at": "2026-05-29T22:48:36Z",
-    "url": "https://github.com/johnwall123459885/skene-cookbook"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: \"USE WHEN: any task in this repo. Global operating rules.\"\nglobs: [\"**/*\"]\nalwaysApply: true\npriority: 100\n---\n\n# Global Rules (Always On)\n\n## Role\nYou are an AI coding assistant. Deliver correct, minimal, testable changes. Surface uncertainty instead of hiding it.\n\n## Non\u2011Negotiables\n- **Correctness > simplicity > consistency > style**.\n- **Minimal diff**: touch only what the task needs.\n- **No drive\u2011by refactors**.\n- **Ask when ambiguous**: assumptions ledger + up to 3 questions.\n- **Stop** on security, data loss, or breaking changes; ask for confirmation.\n\n## Output Discipline\n- Provide a brief plan before changes.\n- Show verification steps (lint/typecheck/tests) and state what wasn\u2019t run.\n\n## Guardrails\n- No hard\u2011coded secrets.\n- No unrelated formatting or renaming.\n- No new dependencies without approval.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/00-global.mdc"
-    },
-    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
-    "id": "Luxvil/ai-coding-rules",
-    "language": "Shell",
-    "name": "Luxvil/ai-coding-rules",
-    "stars": 2,
-    "updated_at": "2026-05-29T22:42:38Z",
-    "url": "https://github.com/Luxvil/ai-coding-rules"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -504,14 +513,5 @@
     "stars": 9,
     "updated_at": "2026-05-28T14:56:05Z",
     "url": "https://github.com/westonplatter/aps"
-  },
-  {
-    "description": "Agent Skills and Structured Prompts for Scalable Development",
-    "id": "DongDuong2001/pudo-code-system",
-    "language": "JavaScript",
-    "name": "DongDuong2001/pudo-code-system",
-    "stars": 2,
-    "updated_at": "2026-05-28T12:31:08Z",
-    "url": "https://github.com/DongDuong2001/pudo-code-system"
   }
 ]
