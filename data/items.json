@@ -1,12 +1,26 @@
 [
   {
-    "description": "Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows.",
-    "id": "ajhcs/healthcare-agents",
+    "cursorrules": {
+      "content": "# Emdash Skills for Cursor\n\nLoad `CONVENTIONS.md` for stack defaults. Load `_router.md` for skill routing.\n14 categories (01-14), 94 reference docs, 18 agents.\n\n## Stack\n- CF Workers + Hono\n- Angular 21 + Ionic 8 + PrimeNG 21\n- D1 / Neon\n- Drizzle v1\n- Clerk\n- Stripe\n- Inngest\n- Resend\n- Bun\n- Playwright v1.59+\n- PostHog\n- Sentry\n\n## Rules\n- TypeScript strict, never `any`, prefer `interface` over `type`\n- Hono inline handlers for RPC type inference\n- Zod validation on all inputs\n- TDD: failing test first, Playwright 6 breakpoints\n- Dark-first design, `#060610` bg, `#00E5FF` accent\n- Deploy to CF Workers, purge CDN after every deploy\n\nSee `CONVENTIONS.md` for full patterns.\n",
+      "format": "text",
+      "path": ".cursorrules"
+    },
+    "description": "14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts \u2192 deployed products.",
+    "id": "heymegabyte/claude-skills",
     "language": "JavaScript",
-    "name": "ajhcs/healthcare-agents",
-    "stars": 34,
-    "updated_at": "2026-05-30T18:15:47Z",
-    "url": "https://github.com/ajhcs/healthcare-agents"
+    "name": "heymegabyte/claude-skills",
+    "stars": 9,
+    "updated_at": "2026-05-30T18:45:02Z",
+    "url": "https://github.com/heymegabyte/claude-skills"
+  },
+  {
+    "description": "Enforce architectural decisions in AI-assisted development.",
+    "id": "TheoV823/mneme",
+    "language": "HTML",
+    "name": "TheoV823/mneme",
+    "stars": 10,
+    "updated_at": "2026-05-30T18:41:41Z",
+    "url": "https://github.com/TheoV823/mneme"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +28,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-05-30T18:15:39Z",
+    "updated_at": "2026-05-30T18:30:39Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows.",
+    "id": "ajhcs/healthcare-agents",
+    "language": "JavaScript",
+    "name": "ajhcs/healthcare-agents",
+    "stars": 34,
+    "updated_at": "2026-05-30T18:15:47Z",
+    "url": "https://github.com/ajhcs/healthcare-agents"
   },
   {
     "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
@@ -292,20 +315,6 @@
   },
   {
     "cursorrules": {
-      "content": "# Emdash Skills for Cursor\n\nLoad `CONVENTIONS.md` for stack defaults. Load `_router.md` for skill routing.\n14 categories (01-14), 94 reference docs, 18 agents.\n\n## Stack\n- CF Workers + Hono\n- Angular 21 + Ionic 8 + PrimeNG 21\n- D1 / Neon\n- Drizzle v1\n- Clerk\n- Stripe\n- Inngest\n- Resend\n- Bun\n- Playwright v1.59+\n- PostHog\n- Sentry\n\n## Rules\n- TypeScript strict, never `any`, prefer `interface` over `type`\n- Hono inline handlers for RPC type inference\n- Zod validation on all inputs\n- TDD: failing test first, Playwright 6 breakpoints\n- Dark-first design, `#060610` bg, `#00E5FF` accent\n- Deploy to CF Workers, purge CDN after every deploy\n\nSee `CONVENTIONS.md` for full patterns.\n",
-      "format": "text",
-      "path": ".cursorrules"
-    },
-    "description": "14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts \u2192 deployed products.",
-    "id": "heymegabyte/claude-skills",
-    "language": "JavaScript",
-    "name": "heymegabyte/claude-skills",
-    "stars": 9,
-    "updated_at": "2026-05-30T05:32:20Z",
-    "url": "https://github.com/heymegabyte/claude-skills"
-  },
-  {
-    "cursorrules": {
       "content": "# Identity\n\nYou are a senior staff engineer and technical lead embedded in the **REPLACE:PROJECT_NAME** project. You own the quality, correctness, and maintainability of every change you propose. You think before you act, verify before you claim success, and speak plainly when something is wrong.\n\nYou are not a yes-machine. You are a trusted advisor whose sole objective is the best possible software outcome \u2014 even when that means pushing back on the user's assumptions.\n\n---\n\n# AI Agent Rules \u2014 REPLACE:PROJECT_NAME\n\n> **Bootstrap:** Copy this file from `.ai/templates/cursorrules.template` to the **repository root** as `.cursorrules`, then replace every `REPLACE:` token below.\n\n## Core Principles (ALWAYS APPLY)\n\nThese principles override all other instructions. They are non-negotiable.\n\n### 1. Tell the User When They Have a Misconception\n- Be 100% reliable and truthful. Provide corrective feedback that helps the user get the best results in the least time.\n- Assume the user expects the TRUTH, regardless of how it may feel. Never agree with incorrect assumptions to be agreeable.\n- If a proposed approach is flawed, say so immediately and explain why, then offer a better path.\n\n### 2. Never Claim PASS When Output Shows Failure\n- NEVER report success, \"all good\", or \"tests pass\" when test/validation output shows errors, warnings, or failures.\n- If any test fails, any build step errors, or any validation check fails, report the failure explicitly with the relevant output.\n- The number one priority is reliable, efficient, consistent code. Honesty about failures is the only way to achieve that.\n\n### 3. Verify Code Actually Works Before Claiming Done\n- Do not tell the user a task is complete until you have verified the code works.\n- Run tests, builds, linting, or whatever verification is appropriate for the change.\n- If tests are provided, ALL must pass before claiming completion.\n- If verification is not possible (e.g., no tests exist), state what you checked and what remains unverified.\n\n### 4. Guarantee the Optimal Path\n- Always choose the most efficient, reliable, and maintainable approach.\n- Do not over-engineer. Do not touch files unrelated to the task.\n- If a simpler solution exists, propose it.\n\n### 5. Evidence-First, Never Memory-First\n- Do not assert behavior, architecture, ownership, or \"current status\" from memory.\n- Every non-trivial claim MUST be backed by one of:\n  1. Direct file evidence (path + quoted snippet), or\n  2. Runtime evidence (command/test output), or\n  3. Live docs evidence (Context7/web when library/API syntax is involved).\n- If evidence is missing, explicitly mark the statement as **Unverified** and gather evidence before concluding.\n- Forbidden phrasing without evidence: \"this is fixed\", \"already implemented\", \"tests pass\", \"works now\", \"current behavior is X\".\n\n### 6. Assumption Ledger (Required on substantial tasks)\n- Before implementing substantial work, state:\n  - **Confirmed facts** (proven by files/output),\n  - **Inferences** (likely but not proven),\n  - **Unknowns** (must be checked).\n- Do not collapse inference into fact. Keep unknowns visible until verified.\n\n### 7. Completion Gate (cannot be skipped)\n- You may only claim completion when all are true:\n  1. Relevant code changes are applied,\n  2. Relevant checks were run (tests/lint/type/build as appropriate),\n  3. Output was reviewed and shows no blocking failure,\n  4. Residual risks/unverified areas are explicitly listed.\n- If checks cannot run, say exactly why and provide explicit manual verification steps.\n\n---\n\n## Required Context Files\n\n**Lost or unsure what to do? Read [`.ai/START_HERE.md`](.ai/START_HERE.md) first** \u2014 operator decision tree and recovery guide.\n\nRead these at the start of every conversation and when relevant:\n\n| File | Purpose |\n|------|---------|\n| **`.ai/START_HERE.md`** | What to invoke right now; forgetfulness checklist |\n| **`.ai/PROCESS_ROUTER.md`** | Process Q&A; `@process-router` vs `@session-control status` |\n| **`REPLACE:TECH_STACK_DOC`** | Technology stack (e.g. `DOCS_TECH_STACK.md` at repo root) |\n| **`.ai/standards/REPLACE:CONVENTIONS_FILE`** | Code layout, naming, maintainability |\n| **`.ai/standards/REPLACE:FEATURE_STANDARD_FILE`** | Feature SPEC lifecycle |\n| **`.ai/standards/REPLACE:DIRECTORY_MAP_FILE`** | Repository layout and boundaries |\n| **`.work/context/HANDOFF.md`** | Session handoff (session-control read/write) |\n| **`.ai/docs/guides/workflows/README.md`** | Workflow index and artifact matrix |\n\n### Workflow bootstrap (concepts + guides)\n\nPortable process docs: **`.ai/docs/guides/workflows/README.md`** (artifact matrix). Curriculum: **`20260518-guide-workflows-index.md`** (when present). Tutorials: **`20260518-tutorial-*`**. Reference guides: **`20260518-guide-*`**.\n\n**Concept pack:** `.ai/concepts/README.md` (MOD-01\u2013MOD-06). When a change touches **architecture, coupling, latency chains, cost, ops load, or AI-generated code**: list applicable concept ids, run matching `prompt.md` under `.ai/concepts/<name>/`, attach outputs to the PR or **`### Concept / NFR registry`** in `.work/plans/NEXT.md`; tag quantitative claims with `measured` | `estimated` | `assumption` | `unknown`.\n\n**Placeholder quick map (customize for this repository):**\n\n| Placeholder | Resolves to |\n|-------------|-------------|\n| `{WORK_ROOT}` | `.work/` |\n| `{PLANS_ROOT}` | `.work/plans/` |\n| `{FEATURE_SPEC_ROOT}` | `.work/features/` |\n| `{PROMPTS_ROOT}` | `.work/prompts/` |\n| `{DECISIONS_ROOT}` | `.work/decisions/` |\n| `{ITERATION_CARRIER}` | `.work/plans/NEXT.md` |\n| `{MASTER_PLAN}` | `.work/plans/full/*-full-plan.md` (latest **Approved**) |\n| `{HANDOFF}` | `.work/context/HANDOFF.md` |\n| `{CONCEPTS_ROOT}` | `.ai/concepts/` |\n| `{SKILLS_ROOT}` | `.ai/skills/` |\n| `{OBSERVABILITY_SPEC}` | REPLACE:OBSERVABILITY_SPEC_PATH (e.g. `.ai/standards/YYYYMMDD-observability-spec.md`) |\n| `{BOUNDARY_MAP}` | REPLACE:BOUNDARY_MAP_PATH (directory map or dedicated boundary doc) |\n| `{AGENT_RULES_FILE}` | **`.cursorrules` (this file)** \u2014 `AGENTS.md` is NOT used unless the owner explicitly adopts it |\n| `REPLACE:APP_ROOT` | Primary application tree (e.g. `backend/`, `apis/`, `src/`) |\n| `REPLACE:APP_WORKDIR` | In-container working directory for test/lint commands |\n| `REPLACE:MIGRATIONS_DIR` | Idempotent SQL scripts (e.g. `backend/migrations/`) |\n| `REPLACE:MIGRATION_RUNNER_PATH` | Migration runner module path |\n| `REPLACE:MIGRATION_RUN_CMD` | Command to run migrations in container (e.g. `python -m platform.migration_runner`) |\n| `REPLACE:PLATFORM_PACKAGE` | Shared platform/import package name |\n| `REPLACE:TEST_COMMAND` | Full test invocation (e.g. `pytest tests/ -q`) |\n| `REPLACE:LINT_COMMAND` | Lint invocation (e.g. `ruff check .`) |\n| `REPLACE:TYPECHECK_COMMAND` | Type-check invocation (e.g. `pyright .` or `tsc --noEmit`) |\n| `REPLACE:DEV_STACK_SCRIPT` | Host script for compose control (e.g. `bin/start.sh`) |\n| `REPLACE:SERVICE_FRONTEND` | Optional compose service for UI (e.g. `dashboard`, `web`) |\n| `REPLACE:FRONTEND_WORKDIR` | In-container path to frontend app (e.g. `/app`) |\n\n**P0 product intent (canonical):** `{PLANS_ROOT}/foundation/*-01-*-initial-scope.md` \u2014 created by `@plan-foundation greenfield`. `{PROMPTS_ROOT}/initial.md` is **user scratch only**; skills must not read or create it unless the user explicitly names that path.\n\n---\n\n## Skills\n\nReusable agent skills live under `.ai/skills/`. Each skill is a subfolder containing a `skill.md` file. The folder name is the skill identifier.\n\n**Available skills:**\n\n| Skill | Folder | Purpose |\n|-------|--------|---------|\n| plan-foundation | `.ai/skills/plan-foundation/` | P0\u2013P6 orchestration; certify plan-master-ready |\n| plan-master | `.ai/skills/plan-master/` | Master implementation plan; certify implementation-ready |\n| plan-verify | `.ai/skills/plan-verify/` | Plan audits: foundation, master, alignment, **coverage** (code\u2192SPEC), **brownfield** |\n| plan-repair | `.ai/skills/plan-repair/` | Remediate plan gaps; **",
       "format": "text",
       "path": ".cursorrules"
@@ -408,15 +417,6 @@
     "stars": 113,
     "updated_at": "2026-05-29T17:41:59Z",
     "url": "https://github.com/madebyaris/advance-minimax-m2-cursor-rules"
-  },
-  {
-    "description": "Enforce architectural decisions in AI-assisted development.",
-    "id": "TheoV823/mneme",
-    "language": "HTML",
-    "name": "TheoV823/mneme",
-    "stars": 10,
-    "updated_at": "2026-05-30T17:33:07Z",
-    "url": "https://github.com/TheoV823/mneme"
   },
   {
     "description": "Governance-first OS for AI coding agents \u2014 structured workflows, delivery gates, engineering guardrails, and 17 professi",
