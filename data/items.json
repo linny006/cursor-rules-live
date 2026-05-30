@@ -1,11 +1,20 @@
 [
   {
+    "description": "Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows.",
+    "id": "ajhcs/healthcare-agents",
+    "language": "Shell",
+    "name": "ajhcs/healthcare-agents",
+    "stars": 34,
+    "updated_at": "2026-05-30T00:21:22Z",
+    "url": "https://github.com/ajhcs/healthcare-agents"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-05-30T00:00:37Z",
+    "updated_at": "2026-05-30T00:15:43Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -504,14 +513,5 @@
     "stars": 2,
     "updated_at": "2026-05-28T12:31:08Z",
     "url": "https://github.com/DongDuong2001/pudo-code-system"
-  },
-  {
-    "description": "VS Code extension for LynxPrompt \u2014 browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules) ",
-    "id": "GeiserX/lynxprompt-vscode",
-    "language": "TypeScript",
-    "name": "GeiserX/lynxprompt-vscode",
-    "stars": 1,
-    "updated_at": "2026-05-28T08:40:40Z",
-    "url": "https://github.com/GeiserX/lynxprompt-vscode"
   }
 ]
