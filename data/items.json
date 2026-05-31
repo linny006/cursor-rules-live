@@ -1,29 +1,11 @@
 [
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-05-31T20:15:28Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
-    "description": "100+ production-ready configurations for AI coding agents (Cursor, Claude Code, Codex, Copilot)",
-    "id": "tyr1105/codeforge-ai",
-    "language": "HTML",
-    "name": "tyr1105/codeforge-ai",
-    "stars": 0,
-    "updated_at": "2026-05-31T20:12:39Z",
-    "url": "https://github.com/tyr1105/codeforge-ai"
-  },
-  {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
     "id": "J-nowcow/awesome-korean-agent-skills",
     "language": "\u2014",
     "name": "J-nowcow/awesome-korean-agent-skills",
     "stars": 14,
-    "updated_at": "2026-05-31T20:09:20Z",
+    "updated_at": "2026-05-31T20:38:17Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
@@ -37,8 +19,35 @@
     "language": "Shell",
     "name": "danielvm-git/bigpowers",
     "stars": 1,
-    "updated_at": "2026-05-31T20:09:15Z",
+    "updated_at": "2026-05-31T20:38:11Z",
     "url": "https://github.com/danielvm-git/bigpowers"
+  },
+  {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 1,
+    "updated_at": "2026-05-31T20:34:21Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-05-31T20:30:45Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "100+ production-ready configurations for AI coding agents (Cursor, Claude Code, Codex, Copilot)",
+    "id": "tyr1105/codeforge-ai",
+    "language": "HTML",
+    "name": "tyr1105/codeforge-ai",
+    "stars": 0,
+    "updated_at": "2026-05-31T20:12:39Z",
+    "url": "https://github.com/tyr1105/codeforge-ai"
   },
   {
     "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
@@ -220,15 +229,6 @@
     "stars": 10,
     "updated_at": "2026-05-31T18:26:29Z",
     "url": "https://github.com/TheoV823/mneme"
-  },
-  {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 1,
-    "updated_at": "2026-05-31T18:18:31Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
