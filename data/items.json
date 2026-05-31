@@ -1,5 +1,37 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: \"USE WHEN: any task in this repo. Global operating rules.\"\nglobs: [\"**/*\"]\nalwaysApply: true\npriority: 100\n---\n\n# Global Rules (Always On)\n\n## Role\nYou are an AI coding assistant. Deliver correct, minimal, testable changes. Surface uncertainty instead of hiding it.\n\n## Non\u2011Negotiables\n- **Correctness > simplicity > consistency > style**.\n- **Minimal diff**: touch only what the task needs.\n- **No drive\u2011by refactors**.\n- **Ask when ambiguous**: assumptions ledger + up to 3 questions.\n- **Stop** on security, data loss, or breaking changes; ask for confirmation.\n\n## Output Discipline\n- Provide a brief plan before changes.\n- Show verification steps (lint/typecheck/tests) and state what wasn\u2019t run.\n\n## Guardrails\n- No hard\u2011coded secrets.\n- No unrelated formatting or renaming.\n- No new dependencies without approval.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/00-global.mdc"
+    },
+    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
+    "id": "Luxvil/ai-coding-rules",
+    "language": "Shell",
+    "name": "Luxvil/ai-coding-rules",
+    "stars": 2,
+    "updated_at": "2026-05-31T18:44:14Z",
+    "url": "https://github.com/Luxvil/ai-coding-rules"
+  },
+  {
+    "description": "\u4e13\u4e3aAI\u5e94\u7528\u4ea7\u54c1\u7f16\u5199\u7684PRD\u751f\u6210\u6307\u4ee4\u5305\u3002\u901a\u8fc715\u4e2a\u51b3\u7b56\u7ef4\u5ea6\u7684\u7cfb\u7edf\u5316\u63d0\u95ee\uff0c\u8f93\u51fa\u65e2\u8bc1\u660eAI PM\u80fd\u529b\u53c8\u53ef\u843d\u5730\u6267\u884c\u7684\u4e13\u4e1aPRD\u3002\u9002\u7528\u4e8e\u4efb\u4f55\u652f\u6301Markdown\u6307\u4ee4\u7684AI\u5e73\u53f0\u3002",
+    "id": "WYY-gogogo/prd-for-ai-products",
+    "language": "\u2014",
+    "name": "WYY-gogogo/prd-for-ai-products",
+    "stars": 1,
+    "updated_at": "2026-05-31T18:39:49Z",
+    "url": "https://github.com/WYY-gogogo/prd-for-ai-products"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-05-31T18:30:26Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Enforce architectural decisions in AI-assisted development.",
     "id": "TheoV823/mneme",
     "language": "HTML",
@@ -16,24 +48,6 @@
     "stars": 1,
     "updated_at": "2026-05-31T18:18:31Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "\u4e13\u4e3aAI\u5e94\u7528\u4ea7\u54c1\u7f16\u5199\u7684PRD\u751f\u6210\u6307\u4ee4\u5305\u3002\u901a\u8fc715\u4e2a\u51b3\u7b56\u7ef4\u5ea6\u7684\u7cfb\u7edf\u5316\u63d0\u95ee\uff0c\u8f93\u51fa\u65e2\u8bc1\u660eAI PM\u80fd\u529b\u53c8\u53ef\u843d\u5730\u6267\u884c\u7684\u4e13\u4e1aPRD\u3002\u9002\u7528\u4e8e\u4efb\u4f55\u652f\u6301Markdown\u6307\u4ee4\u7684AI\u5e73\u53f0\u3002",
-    "id": "WYY-gogogo/prd-for-ai-products",
-    "language": "\u2014",
-    "name": "WYY-gogogo/prd-for-ai-products",
-    "stars": 1,
-    "updated_at": "2026-05-31T18:17:59Z",
-    "url": "https://github.com/WYY-gogogo/prd-for-ai-products"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-05-31T18:15:31Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -240,20 +254,6 @@
     "url": "https://github.com/johnwall123459885/skene-cookbook"
   },
   {
-    "cursorrules": {
-      "content": "---\ndescription: \"USE WHEN: any task in this repo. Global operating rules.\"\nglobs: [\"**/*\"]\nalwaysApply: true\npriority: 100\n---\n\n# Global Rules (Always On)\n\n## Role\nYou are an AI coding assistant. Deliver correct, minimal, testable changes. Surface uncertainty instead of hiding it.\n\n## Non\u2011Negotiables\n- **Correctness > simplicity > consistency > style**.\n- **Minimal diff**: touch only what the task needs.\n- **No drive\u2011by refactors**.\n- **Ask when ambiguous**: assumptions ledger + up to 3 questions.\n- **Stop** on security, data loss, or breaking changes; ask for confirmation.\n\n## Output Discipline\n- Provide a brief plan before changes.\n- Show verification steps (lint/typecheck/tests) and state what wasn\u2019t run.\n\n## Guardrails\n- No hard\u2011coded secrets.\n- No unrelated formatting or renaming.\n- No new dependencies without approval.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/00-global.mdc"
-    },
-    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
-    "id": "Luxvil/ai-coding-rules",
-    "language": "Shell",
-    "name": "Luxvil/ai-coding-rules",
-    "stars": 2,
-    "updated_at": "2026-05-31T15:44:59Z",
-    "url": "https://github.com/Luxvil/ai-coding-rules"
-  },
-  {
     "description": "Governance-first OS for AI coding agents \u2014 structured workflows, delivery gates, engineering guardrails, and 17 professi",
     "id": "KbWen/agentic-os",
     "language": "Python",
@@ -432,7 +432,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36182,
+    "stars": 36183,
     "updated_at": "2026-05-29T19:12:02Z",
     "url": "https://github.com/wshobson/agents"
   },
