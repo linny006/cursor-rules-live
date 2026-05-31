@@ -1,5 +1,23 @@
 [
   {
+    "description": "100+ production-ready configurations for AI coding agents (Cursor, Claude Code, Codex, Copilot)",
+    "id": "tyr1105/codeforge-ai",
+    "language": "HTML",
+    "name": "tyr1105/codeforge-ai",
+    "stars": 0,
+    "updated_at": "2026-05-31T20:12:39Z",
+    "url": "https://github.com/tyr1105/codeforge-ai"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-05-31T20:10:38Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
     "id": "J-nowcow/awesome-korean-agent-skills",
     "language": "\u2014",
@@ -30,15 +48,6 @@
     "stars": 2,
     "updated_at": "2026-05-31T20:03:24Z",
     "url": "https://github.com/caioribeiroclw-pixel/pluribus"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-05-31T20:00:33Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Build unique user interfaces with a structured ruleset to prevent generic AI output.",
@@ -504,14 +513,5 @@
     "stars": 2,
     "updated_at": "2026-05-30T01:30:39Z",
     "url": "https://github.com/nota-america/forgecat-agent-profiles"
-  },
-  {
-    "description": "Agent Development Life Cycle \u2014 Build, deploy, test, and optimize Agentforce agents using Claude Code skills and Agent Sc",
-    "id": "SalesforceAIResearch/agentforce-adlc",
-    "language": "Python",
-    "name": "SalesforceAIResearch/agentforce-adlc",
-    "stars": 66,
-    "updated_at": "2026-05-29T00:21:41Z",
-    "url": "https://github.com/SalesforceAIResearch/agentforce-adlc"
   }
 ]
