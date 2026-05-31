@@ -1,11 +1,29 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-05-31T17:58:57Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
+    "id": "eumiguellllllllll/copilot-rules",
+    "language": "Batchfile",
+    "name": "eumiguellllllllll/copilot-rules",
+    "stars": 0,
+    "updated_at": "2026-05-31T17:55:59Z",
+    "url": "https://github.com/eumiguellllllllll/copilot-rules"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-05-31T17:31:26Z",
+    "updated_at": "2026-05-31T17:45:40Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -80,15 +98,6 @@
     "stars": 2,
     "updated_at": "2026-05-31T17:02:09Z",
     "url": "https://github.com/caioribeiroclw-pixel/pluribus"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 0,
-    "updated_at": "2026-05-31T16:57:15Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -227,15 +236,6 @@
     "url": "https://github.com/Luxvil/ai-coding-rules"
   },
   {
-    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
-    "id": "eumiguellllllllll/copilot-rules",
-    "language": "Batchfile",
-    "name": "eumiguellllllllll/copilot-rules",
-    "stars": 0,
-    "updated_at": "2026-05-31T14:56:16Z",
-    "url": "https://github.com/eumiguellllllllll/copilot-rules"
-  },
-  {
     "description": "\u4e13\u4e3aAI\u5e94\u7528\u4ea7\u54c1\u7f16\u5199\u7684PRD\u751f\u6210\u6307\u4ee4\u5305\u3002\u901a\u8fc715\u4e2a\u51b3\u7b56\u7ef4\u5ea6\u7684\u7cfb\u7edf\u5316\u63d0\u95ee\uff0c\u8f93\u51fa\u65e2\u8bc1\u660eAI PM\u80fd\u529b\u53c8\u53ef\u843d\u5730\u6267\u884c\u7684\u4e13\u4e1aPRD\u3002\u9002\u7528\u4e8e\u4efb\u4f55\u652f\u6301Markdown\u6307\u4ee4\u7684AI\u5e73\u53f0\u3002",
     "id": "WYY-gogogo/prd-for-ai-products",
     "language": "\u2014",
@@ -268,7 +268,7 @@
     "language": "HTML",
     "name": "TheoV823/mneme",
     "stars": 10,
-    "updated_at": "2026-05-31T12:36:46Z",
+    "updated_at": "2026-05-31T17:48:04Z",
     "url": "https://github.com/TheoV823/mneme"
   },
   {
