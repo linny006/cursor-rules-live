@@ -1,11 +1,38 @@
 [
   {
+    "description": "Governance-first OS for AI coding agents \u2014 structured workflows, delivery gates, engineering guardrails, and 17 professi",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 1,
+    "updated_at": "2026-05-31T13:22:27Z",
+    "url": "https://github.com/KbWen/agentic-os"
+  },
+  {
+    "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
+    "id": "mikeprasad/aria-knowledge",
+    "language": "Shell",
+    "name": "mikeprasad/aria-knowledge",
+    "stars": 12,
+    "updated_at": "2026-05-31T13:20:08Z",
+    "url": "https://github.com/mikeprasad/aria-knowledge"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-05-31T13:16:04Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-05-31T13:00:43Z",
+    "updated_at": "2026-05-31T13:15:43Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -70,15 +97,6 @@
     "stars": 1,
     "updated_at": "2026-05-31T12:29:49Z",
     "url": "https://github.com/christim427-rgb/ios-agent-skills"
-  },
-  {
-    "description": "Governance-first OS for AI coding agents \u2014 structured workflows, delivery gates, engineering guardrails, and 17 professi",
-    "id": "KbWen/agentic-os",
-    "language": "Python",
-    "name": "KbWen/agentic-os",
-    "stars": 1,
-    "updated_at": "2026-05-31T13:12:46Z",
-    "url": "https://github.com/KbWen/agentic-os"
   },
   {
     "description": "Build programmatic UIKit apps with production-ready patterns for views, navigation, animation, architecture, and data fl",
@@ -161,15 +179,6 @@
     "stars": 2,
     "updated_at": "2026-05-31T11:48:43Z",
     "url": "https://github.com/Luxvil/ai-coding-rules"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 0,
-    "updated_at": "2026-05-31T11:27:59Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "cursorrules": {
@@ -394,15 +403,6 @@
     "stars": 0,
     "updated_at": "2026-05-29T23:25:46Z",
     "url": "https://github.com/linny006/cursor-rules-picker"
-  },
-  {
-    "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
-    "id": "mikeprasad/aria-knowledge",
-    "language": "Shell",
-    "name": "mikeprasad/aria-knowledge",
-    "stars": 12,
-    "updated_at": "2026-05-29T20:41:27Z",
-    "url": "https://github.com/mikeprasad/aria-knowledge"
   },
   {
     "description": "",
