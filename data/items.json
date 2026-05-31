@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-05-31T09:30:27Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Build 9 iOS agent skills for SwiftUI, testing, security, and more in one install for AI coding agents",
     "id": "ebbaunqualified520/ios-agent-skills",
     "language": "Shell",
@@ -16,15 +25,6 @@
     "stars": 2,
     "updated_at": "2026-05-31T09:16:11Z",
     "url": "https://github.com/zinxj/uikit-expert-skill"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-05-31T09:15:25Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Manage and organize project workspaces while dynamically injecting relevant skills for efficient AI assistant context lo",

@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-05-31 09:30 UTC
+> ⏰ Last updated: 2026-05-31 09:31 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,9 +53,9 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [ebbaunqualified520/ios-agent-skills](https://github.com/ebbaunqualified520/ios-agent-skills) | 0 | Shell | 2026-05-31 | — | Build 9 iOS agent skills for SwiftUI, testing, security, and more in one install for AI coding agents |
-| 2 | [zinxj/uikit-expert-skill](https://github.com/zinxj/uikit-expert-skill) | 2 | — | 2026-05-31 | — | Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan |
-| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-05-31 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-05-31 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [ebbaunqualified520/ios-agent-skills](https://github.com/ebbaunqualified520/ios-agent-skills) | 0 | Shell | 2026-05-31 | — | Build 9 iOS agent skills for SwiftUI, testing, security, and more in one install for AI coding agents |
+| 3 | [zinxj/uikit-expert-skill](https://github.com/zinxj/uikit-expert-skill) | 2 | — | 2026-05-31 | — | Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan |
 | 4 | [GrekosTheJogurt/antigravity-workspace-manager](https://github.com/GrekosTheJogurt/antigravity-workspace-manager) | 0 | Python | 2026-05-31 | — | Manage and organize project workspaces while dynamically injecting relevant skills for efficient AI assistant context lo |
 | 5 | [johnwall123459885/skene-cookbook](https://github.com/johnwall123459885/skene-cookbook) | 0 | Python | 2026-05-31 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/johnwall123459885/skene-cookbook/) | 🤖 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development. |
 | 6 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 1 | Python | 2026-05-31 | — | Governance-first OS for AI coding agents — structured workflows, delivery gates, engineering guardrails, and 17 professi |
