@@ -1,11 +1,20 @@
 [
   {
+    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
+    "id": "eumiguellllllllll/copilot-rules",
+    "language": "Batchfile",
+    "name": "eumiguellllllllll/copilot-rules",
+    "stars": 0,
+    "updated_at": "2026-05-31T02:06:05Z",
+    "url": "https://github.com/eumiguellllllllll/copilot-rules"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-05-31T01:52:39Z",
+    "updated_at": "2026-05-31T02:00:28Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -239,15 +248,6 @@
     "stars": 0,
     "updated_at": "2026-05-30T23:03:23Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
-    "id": "eumiguellllllllll/copilot-rules",
-    "language": "Batchfile",
-    "name": "eumiguellllllllll/copilot-rules",
-    "stars": 0,
-    "updated_at": "2026-05-30T22:42:29Z",
-    "url": "https://github.com/eumiguellllllllll/copilot-rules"
   },
   {
     "description": "AI coding rules that actually work. Enforce instruction files via hooks \u2014 CLAUDE.md, .cursorrules, copilot-instructions,",
