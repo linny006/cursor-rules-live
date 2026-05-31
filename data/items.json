@@ -1,5 +1,23 @@
 [
   {
+    "description": "Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows.",
+    "id": "ajhcs/healthcare-agents",
+    "language": "JavaScript",
+    "name": "ajhcs/healthcare-agents",
+    "stars": 34,
+    "updated_at": "2026-05-31T22:07:12Z",
+    "url": "https://github.com/ajhcs/healthcare-agents"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-05-31T22:00:41Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: Plan Gate + Karpathy discipline rules (Plan Gate, Surgical Changes, Verify Receipt, Delta Report)\nalwaysApply: true\n---\n\n# Coding Behavior\n\nKarpathy-derived discipline rules. Always on for this project.\n\n## \u26a0\ufe0f MANDATORY: Plan Gate\n**Before writing ANY code, editing ANY file, or running ANY tool that modifies state, you MUST:**\n1. Output a `<plan>` block describing the intended changes.\n2. STOP and wait for the user to reply with the literal word \"GO\".\n3. Do NOT proceed without explicit \"GO\".\n\nThis applies to every non-trivial task \u2014 anything beyond a one-line fix or a question. When in doubt, plan first.\nReading files and answering questions does NOT require a plan.\n\n## Simplicity\n- Build only what was asked. No speculative abstractions, no unrequested \"flexibility\".\n- If 200 lines could be 50, rewrite.\n\n## Surgical Changes\n- Don't touch adjacent code, comments, or formatting.\n- Remove only imports/symbols your change made unused. Mention unrelated dead code; don't delete it.\n- Every changed line must trace to the request.\n\n## Pre-flight File List\nInside the `<plan>` block, include an explicit list of every file you intend to create, modify, or delete.\nIf during execution you discover you need to touch a file not on that list, **STOP** and explain before continuing.\n\n## Goal-Driven\n- Restate the task as a verifiable goal before coding.\n- Each completed block needs a verify step proving PASS/FAIL.\n\n## Verify Receipt\nWhen claiming verification, paste the exact command you ran and its exact output (or relevant tail).\n\"Tested and works\" without a transcript is not acceptable for non-trivial tasks.\n\n## Edge Case Checklist\nBefore declaring a non-trivial task done, for each new public function, CLI command, or HTTP endpoint, briefly note:\n- Empty / missing input behavior\n- Malformed / wrong-type input behavior\n- Large or unusual scale behavior\n- Which error paths exist and how they're handled\n\nIf a case is intentionally not covered, say so explicitly so the user knows.\n\n## Self-Review (Delta Report)\nBefore declaring done on any non-trivial task, output a **Delta Report**, then the final summary:\n\n  Delta Report\n  - Files changed: <path>  (+N / -M)   one line per file\n  - Outside plan: \u26a0\ufe0f <path> \u2014 <one-line reason>   (omit section if none)\n  - Signatures changed: <old> \u2192 <new>              (omit section if none)\n  - Symbols deleted: <name> \u2014 <one-line reason>    (omit section if none)\n  - Verify: <command>  \u2192  <pass/fail + key output>\n\nIf everything matches the plan, the report can be a single line: \"Delta: matches plan; verify passed.\"\nThis is non-negotiable. Skip only for one-line fixes.\n\n## Exploration First\n- Read relevant files and check current API docs before acting. State assumptions explicitly.\n- If multiple interpretations exist, list them \u2014 don't pick silently.\n- If genuinely unclear after extracting intent, ask one focused question.\n\n## Output Format\n- After a task: what changed, any decision worth noting, watch-outs \u2014 2\u20133 lines max (after the Delta Report).\n- No \"Great!\", no restating the request, no \"I hope this helps\".\n- Diffs over full-file rewrites unless creating a new file.\n\n## Code\n- Standard naming. No `var1`, `tmp2`. Isolate Logic / IO / Action.\n\n## Persistence (auto-bootstrap; no per-project setup needed)\n- `progress.md` is the working log. If it does not exist, create it at the project root the first time you complete a milestone, using this structure: Current Focus / Completed / Next Steps / Known Issues. Update it after each milestone.\n- `.cursor/rules/project.mdc` holds project context (tech stack, key paths, commands). Create or update it once stack decisions are finalized \u2014 don't create an empty placeholder preemptively.\n- Do NOT auto-create `.gitignore`; the user's global gitignore already covers common noise (node_modules, .venv, __pycache__, Cursor caches). Add project-specific ignores only when asked.\n",
       "format": "mdc",
@@ -30,24 +48,6 @@
     "stars": 0,
     "updated_at": "2026-05-31T21:49:25Z",
     "url": "https://github.com/eumiguellllllllll/copilot-rules"
-  },
-  {
-    "description": "Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows.",
-    "id": "ajhcs/healthcare-agents",
-    "language": "JavaScript",
-    "name": "ajhcs/healthcare-agents",
-    "stars": 34,
-    "updated_at": "2026-05-31T21:54:29Z",
-    "url": "https://github.com/ajhcs/healthcare-agents"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-05-31T21:45:43Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
