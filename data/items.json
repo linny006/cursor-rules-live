@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-05-31T08:00:43Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "50 production-tested .mdc rules for Cursor agent mode \u2014 React, TypeScript, Python, Go, Rust, Vue.js, Swift, Ruby on Rail",
     "id": "oliviacraft/cursor-mdc-rules",
     "language": "\u2014",
@@ -21,15 +30,6 @@
     "stars": 0,
     "updated_at": "2026-05-31T07:50:25Z",
     "url": "https://github.com/Thabang9218/cursorifier"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-05-31T07:45:31Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -432,7 +432,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36169,
+    "stars": 36171,
     "updated_at": "2026-05-29T19:12:02Z",
     "url": "https://github.com/wshobson/agents"
   },
