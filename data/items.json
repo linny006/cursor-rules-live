@@ -5,8 +5,17 @@
     "language": "TypeScript",
     "name": "grnbtqdbyx-create/contextforge",
     "stars": 1,
-    "updated_at": "2026-06-01T02:58:35Z",
+    "updated_at": "2026-06-01T03:14:36Z",
     "url": "https://github.com/grnbtqdbyx-create/contextforge"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-01T03:00:25Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "AI coding rules that actually work. Enforce instruction files via hooks \u2014 CLAUDE.md, .cursorrules, copilot-instructions,",
@@ -16,15 +25,6 @@
     "stars": 5,
     "updated_at": "2026-06-01T02:54:34Z",
     "url": "https://github.com/taniwhaai/arai"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-01T02:45:30Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Build unique user interfaces with a structured ruleset to prevent generic AI output.",
@@ -54,7 +54,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36202,
+    "stars": 36203,
     "updated_at": "2026-06-01T02:18:07Z",
     "url": "https://github.com/wshobson/agents"
   },
