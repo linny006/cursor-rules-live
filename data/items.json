@@ -1,11 +1,20 @@
 [
   {
+    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
+    "id": "eumiguellllllllll/copilot-rules",
+    "language": "Batchfile",
+    "name": "eumiguellllllllll/copilot-rules",
+    "stars": 1,
+    "updated_at": "2026-06-01T11:58:06Z",
+    "url": "https://github.com/eumiguellllllllll/copilot-rules"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-01T11:30:34Z",
+    "updated_at": "2026-06-01T11:45:40Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -259,7 +268,7 @@
     "language": "PHP",
     "name": "pekral/cursor-rules",
     "stars": 2,
-    "updated_at": "2026-06-01T10:23:09Z",
+    "updated_at": "2026-06-01T11:51:04Z",
     "url": "https://github.com/pekral/cursor-rules"
   },
   {
@@ -270,15 +279,6 @@
     "stars": 2,
     "updated_at": "2026-06-01T07:45:54Z",
     "url": "https://github.com/KbWen/agentic-os"
-  },
-  {
-    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
-    "id": "eumiguellllllllll/copilot-rules",
-    "language": "Batchfile",
-    "name": "eumiguellllllllll/copilot-rules",
-    "stars": 1,
-    "updated_at": "2026-06-01T07:31:33Z",
-    "url": "https://github.com/eumiguellllllllll/copilot-rules"
   },
   {
     "description": "Agent context gate for Codex, Claude Code, Copilot, MCP, Cursor, Cline, Gemini and Windsurf repos",
