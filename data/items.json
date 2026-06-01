@@ -5,8 +5,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-01T16:01:01Z",
+    "updated_at": "2026-06-01T16:15:33Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
+    "id": "eumiguellllllllll/copilot-rules",
+    "language": "Batchfile",
+    "name": "eumiguellllllllll/copilot-rules",
+    "stars": 1,
+    "updated_at": "2026-06-01T16:08:55Z",
+    "url": "https://github.com/eumiguellllllllll/copilot-rules"
   },
   {
     "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
@@ -100,7 +109,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 13529,
+    "stars": 13530,
     "updated_at": "2026-06-01T15:14:31Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -280,15 +289,6 @@
     "stars": 1,
     "updated_at": "2026-06-01T12:12:08Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
-    "id": "eumiguellllllllll/copilot-rules",
-    "language": "Batchfile",
-    "name": "eumiguellllllllll/copilot-rules",
-    "stars": 1,
-    "updated_at": "2026-06-01T16:08:55Z",
-    "url": "https://github.com/eumiguellllllllll/copilot-rules"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
