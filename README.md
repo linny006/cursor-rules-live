@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-06-01 14:15 UTC
+> ⏰ Last updated: 2026-06-01 14:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,9 +53,9 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [caioribeiroclw-pixel/pluribus](https://github.com/caioribeiroclw-pixel/pluribus) | 3 | JavaScript | 2026-06-01 | — | Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security |
+| 1 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 13522 | Shell | 2026-06-01 | — | 🎭 211 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 16 种工具，覆盖工程/设计/营销/金融等 18 个部门。含 46 个中国市场原创智能体（小红书/抖音/ |
 | 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-06-01 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 3 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 13520 | Shell | 2026-06-01 | — | 🎭 211 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 16 种工具，覆盖工程/设计/营销/金融等 18 个部门。含 46 个中国市场原创智能体（小红书/抖音/ |
+| 3 | [caioribeiroclw-pixel/pluribus](https://github.com/caioribeiroclw-pixel/pluribus) | 3 | JavaScript | 2026-06-01 | — | Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security |
 | 4 | [paoloincommensurable537/PixelPilot](https://github.com/paoloincommensurable537/PixelPilot) | 0 | JavaScript | 2026-06-01 | — | Build unique user interfaces with a structured ruleset to prevent generic AI output. |
 | 5 | [Hyanthropological659/clarify-skill](https://github.com/Hyanthropological659/clarify-skill) | 0 | — | 2026-06-01 | — | Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a |
 | 6 | [Bastioned-successor320/learn-nanobot](https://github.com/Bastioned-successor320/learn-nanobot) | 0 | Python | 2026-06-01 | — | Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers |
@@ -90,14 +90,14 @@ expired items removed — so you can rely on what you see being current.
 | 35 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 2 | Python | 2026-06-01 | — | Governance-first OS for AI coding agents — structured workflows, delivery gates, engineering guardrails, and 17 professi |
 | 36 | [grnbtqdbyx-create/contextforge](https://github.com/grnbtqdbyx-create/contextforge) | 1 | TypeScript | 2026-06-01 | — | Agent context gate for Codex, Claude Code, Copilot, MCP, Cursor, Cline, Gemini and Windsurf repos |
 | 37 | [Mark393295827/third-brain-v5-skills](https://github.com/Mark393295827/third-brain-v5-skills) | 108 | HTML | 2026-06-01 | — | agent skills |
-| 38 | [wshobson/agents](https://github.com/wshobson/agents) | 36226 | Python | 2026-06-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI |
+| 38 | [wshobson/agents](https://github.com/wshobson/agents) | 36228 | Python | 2026-06-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI |
 | 39 | [baneeishaque/ai-agent-rules](https://github.com/baneeishaque/ai-agent-rules) | 3 | TypeScript | 2026-05-31 | — |  |
 | 40 | [tyr1105/codeforge-ai](https://github.com/tyr1105/codeforge-ai) | 0 | HTML | 2026-05-31 | — | 100+ production-ready configurations for AI coding agents (Cursor, Claude Code, Codex, Copilot) |
 | 41 | [ajhcs/healthcare-agents](https://github.com/ajhcs/healthcare-agents) | 35 | JavaScript | 2026-05-31 | — | Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows. |
 | 42 | [xnoahwang/cursor-prime](https://github.com/xnoahwang/cursor-prime) | 0 | PowerShell | 2026-05-31 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/xnoahwang/cursor-prime/) | Cursor-native config: a strict Plan Gate + Karpathy discipline rules, /plan /delta /prime-init commands, and a global gi |
 | 43 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 1 | Shell | 2026-05-31 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | 59 agent skills for high-integrity, spec-driven, test-first software development by solo developers.  bigpowers provides |
 | 44 | [WYY-gogogo/prd-for-ai-products](https://github.com/WYY-gogogo/prd-for-ai-products) | 1 | — | 2026-05-31 | — | 专为AI应用产品编写的PRD生成指令包。通过15个决策维度的系统化提问，输出既证明AI PM能力又可落地执行的专业PRD。适用于任何支持Markdown指令的AI平台。 |
-| 45 | [TheoV823/mneme](https://github.com/TheoV823/mneme) | 11 | HTML | 2026-05-31 | — | Enforce architectural decisions in AI-assisted development. |
+| 45 | [TheoV823/mneme](https://github.com/TheoV823/mneme) | 11 | HTML | 2026-06-01 | — | Enforce architectural decisions in AI-assisted development. |
 | 46 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 12 | Shell | 2026-05-31 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
 | 47 | [oliviacraft/cursor-mdc-rules](https://github.com/oliviacraft/cursor-mdc-rules) | 0 | — | 2026-05-31 | — | 50 production-tested .mdc rules for Cursor agent mode — React, TypeScript, Python, Go, Rust, Vue.js, Swift, Ruby on Rail |
 | 48 | [PiloTracer/.ai](https://github.com/PiloTracer/.ai) | 0 | Shell | 2026-05-31 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/PiloTracer/.ai/) | Portable process framework for software teams shipping with coding agents (Cursor, Claude Code, Codex, opencode). Skills |
