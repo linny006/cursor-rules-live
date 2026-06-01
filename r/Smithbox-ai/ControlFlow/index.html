@@ -14,7 +14,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Smithbox-ai/ControlFlow - entry on Cursor Rules Live">
 <meta name="twitter:description" content="Multi-agent orchestration for VS Code Copilot, Claude Code, OpenAI Codex and Cursor">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"Smithbox-ai/ControlFlow","codeRepository":"https://github.com/Smithbox-ai/ControlFlow","programmingLanguage":"JavaScript","url":"https://linny006.github.io/cursor-rules-live/r/Smithbox-ai/ControlFlow/","description":"Multi-agent orchestration for VS Code Copilot, Claude Code, OpenAI Codex and Cursor","author":{"@type":"Person","name":"Smithbox-ai","url":"https://github.com/Smithbox-ai"},"dateModified":"2026-05-29"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"Smithbox-ai/ControlFlow","codeRepository":"https://github.com/Smithbox-ai/ControlFlow","programmingLanguage":"JavaScript","url":"https://linny006.github.io/cursor-rules-live/r/Smithbox-ai/ControlFlow/","description":"Multi-agent orchestration for VS Code Copilot, Claude Code, OpenAI Codex and Cursor","author":{"@type":"Person","name":"Smithbox-ai","url":"https://github.com/Smithbox-ai"},"dateModified":"2026-06-01"}</script>
 <style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
          --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
 * { box-sizing: border-box; }
@@ -48,7 +48,7 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <div class="meta">
 <span><strong>Stars</strong> 11</span>
 <span><strong>Language</strong> JavaScript</span>
-<span><strong>Last updated</strong> 2026-05-29</span>
+<span><strong>Last updated</strong> 2026-06-01</span>
 <span><a href="https://github.com/Smithbox-ai/ControlFlow" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/Smithbox-ai" rel="external">@Smithbox-ai</a></span>
 </div>
@@ -62,9 +62,12 @@ alwaysApply: true
 
 This is a prompt/governance/eval repository, not a runtime application.
 Canonical multi-agent policies, roster, and tiers are governed by `.github/copilot-instructions.md` and `plans/project-context.md`.
-Use local sources for context; `AGENTS.md` is compatibility context only, not the primary artifact.
-Cursor cannot execute VS Code-only subagent semantics (`agent/runSubagent`), read policies rather than assuming a runtime capability.
-All changes must pass the deterministic offline validation gate: run `cd evals &amp;&amp; npm test`.
+Cursor workflow: skills in `.cursor/skills/controlflow-*/`, subagents in `.cursor/agents/controlflow-*.md`, plugin package `plugins/controlflow-cursor/`.
+Entry: follow skill `controlflow-strict-workflow` for non-trivial tasks.
+Use `Task(subagent_type=...)` for delegation when available; see `docs/agent-engineering/CURSOR-SUPPORT.md` for fallback.
+Cursor cannot execute VS Code-only semantics (`agent/runSubagent`, `@Planner` UI). Do not claim otherwise.
+`AGENTS.md` is compatibility context only, not the primary Cursor artifact.
+All changes must pass: `cd evals &amp;&amp; npm test`.
 </code></pre>
 <p><a href="https://github.com/Smithbox-ai/ControlFlow/blob/HEAD/.cursor/rules/controlflow-core.mdc" rel="external">View raw on GitHub</a></p>
 </section>
@@ -72,9 +75,9 @@ All changes must pass the deterministic offline validation gate: run `cd evals &
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>
 <ul class="crosslinks">
-<li><a href="https://linny006.github.io/cursor-rules-live/r/madebyaris/advance-minimax-m2-cursor-rules/">madebyaris/advance-minimax-m2-cursor-rules (stars:113)</a></li>
-<li><a href="https://linny006.github.io/cursor-rules-live/r/ajhcs/healthcare-agents/">ajhcs/healthcare-agents (stars:34)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/ajhcs/healthcare-agents/">ajhcs/healthcare-agents (stars:35)</a></li>
 <li><a href="https://linny006.github.io/cursor-rules-live/r/heymegabyte/claude-skills/">heymegabyte/claude-skills (stars:9)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/caioribeiroclw-pixel/pluribus/">caioribeiroclw-pixel/pluribus (stars:3)</a></li>
 </ul></section>
 <section><h2>Explore by category</h2>
 <ul class="crosslinks">
