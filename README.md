@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-06-01 22:45 UTC
+> ⏰ Last updated: 2026-06-01 23:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,23 +53,23 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-06-01 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 2 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 15 | — | 2026-06-01 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
-| 3 | [eumiguellllllllll/copilot-rules](https://github.com/eumiguellllllllll/copilot-rules) | 1 | Batchfile | 2026-06-01 | — | ⚡ Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively. |
-| 4 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 1 | HTML | 2026-06-01 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 5 | [taniwhaai/arai](https://github.com/taniwhaai/arai) | 5 | Rust | 2026-06-01 | — | AI coding rules that actually work. Enforce instruction files via hooks — CLAUDE.md, .cursorrules, copilot-instructions, |
-| 6 | [Thabang9218/cursorifier](https://github.com/Thabang9218/cursorifier) | 0 | TypeScript | 2026-06-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Thabang9218/cursorifier/) | 🖱️ Enhance your Cursor AI with tailored, codebase-specific insights for smarter navigation and improved efficiency. |
-| 7 | [pemdes174/cursor-rules](https://github.com/pemdes174/cursor-rules) | 5 | — | 2026-06-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/pemdes174/cursor-rules/) | 🚀 Streamline your Next.js development with practical rules and tested patterns for efficient coding and minimal bugs. |
-| 8 | [whydixit/cursor-starter](https://github.com/whydixit/cursor-starter) | 4 | — | 2026-06-01 | — | ✨ Enhance your software development with a curated collection of prompts for Cursor AI, boosting efficiency in planning  |
-| 9 | [JohannFreddyLoayzaHuana/awesome-ai-coding-tools](https://github.com/JohannFreddyLoayzaHuana/awesome-ai-coding-tools) | 2 | — | 2026-06-01 | — | 💡 Discover AI coding tools that enhance your workflow, from code editors to completion engines, and boost your software  |
-| 10 | [PiloTracer/.ai](https://github.com/PiloTracer/.ai) | 0 | Shell | 2026-06-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/PiloTracer/.ai/) | Portable process framework for software teams shipping with coding agents (Cursor, Claude Code, Codex, opencode). Skills |
-| 11 | [nota-america/forgecat-agent-profiles](https://github.com/nota-america/forgecat-agent-profiles) | 2 | TypeScript | 2026-06-01 | — | Curated AI Agent Profiles for Claude Code, Codex, Cursor and more — install with forgecat CLI |
-| 12 | [caioribeiroclw-pixel/pluribus](https://github.com/caioribeiroclw-pixel/pluribus) | 3 | JavaScript | 2026-06-01 | — | Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security |
-| 13 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-06-01 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
-| 14 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-06-01 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
-| 15 | [TheoV823/mneme](https://github.com/TheoV823/mneme) | 11 | HTML | 2026-06-01 | — | Enforce architectural decisions in AI-assisted development. |
-| 16 | [mhenke/john-ousterhout-skills](https://github.com/mhenke/john-ousterhout-skills) | 0 | JavaScript | 2026-06-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/mhenke/john-ousterhout-skills/) | Strategic software design guidelines for AI coding agents. 15 behavioral rules + critique/audit commands based on A Phil |
-| 17 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 0 | HTML | 2026-06-01 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
+| 1 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 0 | HTML | 2026-06-01 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
+| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-06-01 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 3 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 15 | — | 2026-06-01 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
+| 4 | [eumiguellllllllll/copilot-rules](https://github.com/eumiguellllllllll/copilot-rules) | 1 | Batchfile | 2026-06-01 | — | ⚡ Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively. |
+| 5 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 1 | HTML | 2026-06-01 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
+| 6 | [taniwhaai/arai](https://github.com/taniwhaai/arai) | 5 | Rust | 2026-06-01 | — | AI coding rules that actually work. Enforce instruction files via hooks — CLAUDE.md, .cursorrules, copilot-instructions, |
+| 7 | [Thabang9218/cursorifier](https://github.com/Thabang9218/cursorifier) | 0 | TypeScript | 2026-06-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Thabang9218/cursorifier/) | 🖱️ Enhance your Cursor AI with tailored, codebase-specific insights for smarter navigation and improved efficiency. |
+| 8 | [pemdes174/cursor-rules](https://github.com/pemdes174/cursor-rules) | 5 | — | 2026-06-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/pemdes174/cursor-rules/) | 🚀 Streamline your Next.js development with practical rules and tested patterns for efficient coding and minimal bugs. |
+| 9 | [whydixit/cursor-starter](https://github.com/whydixit/cursor-starter) | 4 | — | 2026-06-01 | — | ✨ Enhance your software development with a curated collection of prompts for Cursor AI, boosting efficiency in planning  |
+| 10 | [JohannFreddyLoayzaHuana/awesome-ai-coding-tools](https://github.com/JohannFreddyLoayzaHuana/awesome-ai-coding-tools) | 2 | — | 2026-06-01 | — | 💡 Discover AI coding tools that enhance your workflow, from code editors to completion engines, and boost your software  |
+| 11 | [PiloTracer/.ai](https://github.com/PiloTracer/.ai) | 0 | Shell | 2026-06-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/PiloTracer/.ai/) | Portable process framework for software teams shipping with coding agents (Cursor, Claude Code, Codex, opencode). Skills |
+| 12 | [nota-america/forgecat-agent-profiles](https://github.com/nota-america/forgecat-agent-profiles) | 2 | TypeScript | 2026-06-01 | — | Curated AI Agent Profiles for Claude Code, Codex, Cursor and more — install with forgecat CLI |
+| 13 | [caioribeiroclw-pixel/pluribus](https://github.com/caioribeiroclw-pixel/pluribus) | 3 | JavaScript | 2026-06-01 | — | Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security |
+| 14 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-06-01 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
+| 15 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-06-01 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
+| 16 | [TheoV823/mneme](https://github.com/TheoV823/mneme) | 11 | HTML | 2026-06-01 | — | Enforce architectural decisions in AI-assisted development. |
+| 17 | [mhenke/john-ousterhout-skills](https://github.com/mhenke/john-ousterhout-skills) | 0 | JavaScript | 2026-06-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/mhenke/john-ousterhout-skills/) | Strategic software design guidelines for AI coding agents. 15 behavioral rules + critique/audit commands based on A Phil |
 | 18 | [paoloincommensurable537/PixelPilot](https://github.com/paoloincommensurable537/PixelPilot) | 0 | JavaScript | 2026-06-01 | — | Build unique user interfaces with a structured ruleset to prevent generic AI output. |
 | 19 | [Hyanthropological659/clarify-skill](https://github.com/Hyanthropological659/clarify-skill) | 0 | — | 2026-06-01 | — | Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a |
 | 20 | [Bastioned-successor320/learn-nanobot](https://github.com/Bastioned-successor320/learn-nanobot) | 0 | Python | 2026-06-01 | — | Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers |

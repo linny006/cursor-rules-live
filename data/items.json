@@ -1,11 +1,20 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-06-01T22:56:15Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-01T22:37:25Z",
+    "updated_at": "2026-06-01T22:45:46Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -110,7 +119,7 @@
     "language": "TypeScript",
     "name": "nota-america/forgecat-agent-profiles",
     "stars": 2,
-    "updated_at": "2026-06-01T21:31:03Z",
+    "updated_at": "2026-06-01T22:50:10Z",
     "url": "https://github.com/nota-america/forgecat-agent-profiles"
   },
   {
@@ -162,15 +171,6 @@
     "stars": 0,
     "updated_at": "2026-06-01T20:12:07Z",
     "url": "https://github.com/mhenke/john-ousterhout-skills"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 0,
-    "updated_at": "2026-06-01T20:10:54Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Build unique user interfaces with a structured ruleset to prevent generic AI output.",
