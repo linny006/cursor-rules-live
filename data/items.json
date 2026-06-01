@@ -1,12 +1,39 @@
 [
   {
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-06-01T04:54:24Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
+  },
+  {
     "description": "Agent context gate for Codex, Claude Code, Copilot, MCP, Cursor, Cline, Gemini and Windsurf repos",
     "id": "grnbtqdbyx-create/contextforge",
     "language": "TypeScript",
     "name": "grnbtqdbyx-create/contextforge",
     "stars": 1,
-    "updated_at": "2026-06-01T04:41:03Z",
+    "updated_at": "2026-06-01T04:55:00Z",
     "url": "https://github.com/grnbtqdbyx-create/contextforge"
+  },
+  {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 0,
+    "updated_at": "2026-06-01T04:48:20Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-01T04:45:36Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
@@ -16,15 +43,6 @@
     "stars": 1,
     "updated_at": "2026-06-01T04:32:48Z",
     "url": "https://github.com/eumiguellllllllll/copilot-rules"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-01T04:30:29Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -136,7 +154,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36208,
+    "stars": 36210,
     "updated_at": "2026-06-01T02:18:07Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -275,24 +293,6 @@
     "stars": 2,
     "updated_at": "2026-05-31T23:09:40Z",
     "url": "https://github.com/caioribeiroclw-pixel/pluribus"
-  },
-  {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
-    "stars": 0,
-    "updated_at": "2026-05-31T23:06:41Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 0,
-    "updated_at": "2026-05-31T23:05:10Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "description": "100+ production-ready configurations for AI coding agents (Cursor, Claude Code, Codex, Copilot)",
