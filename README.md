@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-06-01 16:30 UTC
+> ⏰ Last updated: 2026-06-01 16:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -102,7 +102,7 @@ expired items removed — so you can rely on what you see being current.
 | 47 | [oliviacraft/cursor-mdc-rules](https://github.com/oliviacraft/cursor-mdc-rules) | 0 | — | 2026-05-31 | — | 50 production-tested .mdc rules for Cursor agent mode — React, TypeScript, Python, Go, Rust, Vue.js, Swift, Ruby on Rail |
 | 48 | [PiloTracer/.ai](https://github.com/PiloTracer/.ai) | 0 | Shell | 2026-05-31 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/PiloTracer/.ai/) | Portable process framework for software teams shipping with coding agents (Cursor, Claude Code, Codex, opencode). Skills |
 | 49 | [heymegabyte/claude-skills](https://github.com/heymegabyte/claude-skills) | 9 | JavaScript | 2026-05-30 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/claude-skills/) | 14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts → deployed products. |
-| 50 | [CacinieP/network-troubleshoot-skill](https://github.com/CacinieP/network-troubleshoot-skill) | 0 | Shell | 2026-05-30 | — | Universal network troubleshooting skill for AI coding agents: DNS, proxy, SSL, package managers, Docker, Git, and China/ |
+| 50 | [CacinieP/network-troubleshoot-skill](https://github.com/CacinieP/network-troubleshoot-skill) | 1 | Shell | 2026-05-30 | — | Universal network troubleshooting skill for AI coding agents: DNS, proxy, SSL, package managers, Docker, Git, and China/ |
 <!-- TRACKER_TABLE_END -->
 
 ---
