@@ -1,5 +1,32 @@
 [
   {
+    "description": "Build 9 iOS agent skills for SwiftUI, testing, security, and more in one install for AI coding agents",
+    "id": "ebbaunqualified520/ios-agent-skills",
+    "language": "Shell",
+    "name": "ebbaunqualified520/ios-agent-skills",
+    "stars": 0,
+    "updated_at": "2026-06-01T13:22:14Z",
+    "url": "https://github.com/ebbaunqualified520/ios-agent-skills"
+  },
+  {
+    "description": "Battle-tested agent skills and Cursor rules from real projects. Works with Cursor, Claude Code, and any agent.",
+    "id": "jcottam/agent-resources",
+    "language": "Shell",
+    "name": "jcottam/agent-resources",
+    "stars": 1,
+    "updated_at": "2026-06-01T13:20:15Z",
+    "url": "https://github.com/jcottam/agent-resources"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-01T13:15:34Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
     "id": "zinxj/uikit-expert-skill",
     "language": "\u2014",
@@ -16,15 +43,6 @@
     "stars": 1,
     "updated_at": "2026-06-01T13:01:42Z",
     "url": "https://github.com/GrekosTheJogurt/antigravity-workspace-manager"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-01T13:00:46Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -53,15 +71,6 @@
     "stars": 3,
     "updated_at": "2026-06-01T12:47:17Z",
     "url": "https://github.com/Luxvil/ai-coding-rules"
-  },
-  {
-    "description": "Battle-tested agent skills and Cursor rules from real projects. Works with Cursor, Claude Code, and any agent.",
-    "id": "jcottam/agent-resources",
-    "language": "Shell",
-    "name": "jcottam/agent-resources",
-    "stars": 1,
-    "updated_at": "2026-06-01T12:44:05Z",
-    "url": "https://github.com/jcottam/agent-resources"
   },
   {
     "cursorrules": {
@@ -273,7 +282,7 @@
     "language": "\u2014",
     "name": "nizhan80-art/Swift-UIKit-Skill",
     "stars": 1,
-    "updated_at": "2026-06-01T09:14:27Z",
+    "updated_at": "2026-06-01T13:28:06Z",
     "url": "https://github.com/nizhan80-art/Swift-UIKit-Skill"
   },
   {
@@ -282,7 +291,7 @@
     "language": "Dart",
     "name": "Amirun99/agency-orchestrator",
     "stars": 0,
-    "updated_at": "2026-06-01T09:13:19Z",
+    "updated_at": "2026-06-01T13:27:16Z",
     "url": "https://github.com/Amirun99/agency-orchestrator"
   },
   {
@@ -291,17 +300,8 @@
     "language": "\u2014",
     "name": "Overseastelegramaliterateperson865/awesome-claude-md",
     "stars": 2,
-    "updated_at": "2026-06-01T09:12:14Z",
+    "updated_at": "2026-06-01T13:26:09Z",
     "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
-  },
-  {
-    "description": "Build 9 iOS agent skills for SwiftUI, testing, security, and more in one install for AI coding agents",
-    "id": "ebbaunqualified520/ios-agent-skills",
-    "language": "Shell",
-    "name": "ebbaunqualified520/ios-agent-skills",
-    "stars": 0,
-    "updated_at": "2026-06-01T09:08:08Z",
-    "url": "https://github.com/ebbaunqualified520/ios-agent-skills"
   },
   {
     "description": "Governance-first OS for AI coding agents \u2014 structured workflows, delivery gates, engineering guardrails, and 17 professi",
@@ -340,7 +340,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36223,
+    "stars": 36224,
     "updated_at": "2026-06-01T02:18:07Z",
     "url": "https://github.com/wshobson/agents"
   },
