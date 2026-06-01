@@ -5,8 +5,17 @@
     "language": "TypeScript",
     "name": "grnbtqdbyx-create/contextforge",
     "stars": 1,
-    "updated_at": "2026-06-01T02:42:51Z",
+    "updated_at": "2026-06-01T02:58:35Z",
     "url": "https://github.com/grnbtqdbyx-create/contextforge"
+  },
+  {
+    "description": "AI coding rules that actually work. Enforce instruction files via hooks \u2014 CLAUDE.md, .cursorrules, copilot-instructions,",
+    "id": "taniwhaai/arai",
+    "language": "Rust",
+    "name": "taniwhaai/arai",
+    "stars": 5,
+    "updated_at": "2026-06-01T02:54:34Z",
+    "url": "https://github.com/taniwhaai/arai"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,7 +23,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-01T02:30:44Z",
+    "updated_at": "2026-06-01T02:45:30Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -239,15 +248,6 @@
     "stars": 1,
     "updated_at": "2026-05-31T23:34:40Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "AI coding rules that actually work. Enforce instruction files via hooks \u2014 CLAUDE.md, .cursorrules, copilot-instructions,",
-    "id": "taniwhaai/arai",
-    "language": "Rust",
-    "name": "taniwhaai/arai",
-    "stars": 5,
-    "updated_at": "2026-06-01T01:50:56Z",
-    "url": "https://github.com/taniwhaai/arai"
   },
   {
     "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
