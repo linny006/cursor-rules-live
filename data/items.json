@@ -5,8 +5,26 @@
     "language": "TypeScript",
     "name": "grnbtqdbyx-create/contextforge",
     "stars": 1,
-    "updated_at": "2026-06-01T03:14:36Z",
+    "updated_at": "2026-06-01T03:27:59Z",
     "url": "https://github.com/grnbtqdbyx-create/contextforge"
+  },
+  {
+    "description": "agent skills",
+    "id": "Mark393295827/third-brain-v5-skills",
+    "language": "HTML",
+    "name": "Mark393295827/third-brain-v5-skills",
+    "stars": 107,
+    "updated_at": "2026-06-01T03:25:30Z",
+    "url": "https://github.com/Mark393295827/third-brain-v5-skills"
+  },
+  {
+    "description": "Governance-first OS for AI coding agents \u2014 structured workflows, delivery gates, engineering guardrails, and 17 professi",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 1,
+    "updated_at": "2026-06-01T03:18:22Z",
+    "url": "https://github.com/KbWen/agentic-os"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,7 +32,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-01T03:00:25Z",
+    "updated_at": "2026-06-01T03:15:42Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -350,15 +368,6 @@
     "url": "https://github.com/TheoV823/mneme"
   },
   {
-    "description": "Governance-first OS for AI coding agents \u2014 structured workflows, delivery gates, engineering guardrails, and 17 professi",
-    "id": "KbWen/agentic-os",
-    "language": "Python",
-    "name": "KbWen/agentic-os",
-    "stars": 1,
-    "updated_at": "2026-06-01T01:44:44Z",
-    "url": "https://github.com/KbWen/agentic-os"
-  },
-  {
     "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
     "id": "mikeprasad/aria-knowledge",
     "language": "Shell",
@@ -504,19 +513,5 @@
     "stars": 1,
     "updated_at": "2026-05-29T14:37:22Z",
     "url": "https://github.com/davccavalcante/supreme-coding-guidelines-skill.ah"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: \"Core ControlFlow identity, source hierarchy, and offline validations for the repository.\"\nalwaysApply: true\n---\n# ControlFlow Core\n\nThis is a prompt/governance/eval repository, not a runtime application.\nCanonical multi-agent policies, roster, and tiers are governed by `.github/copilot-instructions.md` and `plans/project-context.md`.\nUse local sources for context; `AGENTS.md` is compatibility context only, not the primary artifact.\nCursor cannot execute VS Code-only subagent semantics (`agent/runSubagent`), read policies rather than assuming a runtime capability.\nAll changes must pass the deterministic offline validation gate: run `cd evals && npm test`.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/controlflow-core.mdc"
-    },
-    "description": "Multi-agent orchestration for VS Code Copilot, Claude Code, OpenAI Codex and Cursor",
-    "id": "Smithbox-ai/ControlFlow",
-    "language": "JavaScript",
-    "name": "Smithbox-ai/ControlFlow",
-    "stars": 11,
-    "updated_at": "2026-05-29T12:09:03Z",
-    "url": "https://github.com/Smithbox-ai/ControlFlow"
   }
 ]
