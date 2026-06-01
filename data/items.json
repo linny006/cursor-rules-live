@@ -1,12 +1,12 @@
 [
   {
-    "description": "Jetpack Compose & Kotlin AI agent skills for Cursor, Claude Code, Codex, Gemini & 27+ agents. Strict MVI \u00b7 Kotlin 2.x K2",
-    "id": "haidrrrry/compose-kotlin-agent-skills",
-    "language": "Markdown",
-    "name": "haidrrrry/compose-kotlin-agent-skills",
-    "stars": 24,
-    "updated_at": "2026-06-01T09:49:01Z",
-    "url": "https://github.com/haidrrrry/compose-kotlin-agent-skills"
+    "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
+    "id": "philipbankier/awesome-agent-skills",
+    "language": "TypeScript",
+    "name": "philipbankier/awesome-agent-skills",
+    "stars": 4,
+    "updated_at": "2026-06-01T10:12:51Z",
+    "url": "https://github.com/philipbankier/awesome-agent-skills"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-01T09:45:48Z",
+    "updated_at": "2026-06-01T10:00:39Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Jetpack Compose & Kotlin AI agent skills for Cursor, Claude Code, Codex, Gemini & 27+ agents. Strict MVI \u00b7 Kotlin 2.x K2",
+    "id": "haidrrrry/compose-kotlin-agent-skills",
+    "language": "Markdown",
+    "name": "haidrrrry/compose-kotlin-agent-skills",
+    "stars": 24,
+    "updated_at": "2026-06-01T09:49:01Z",
+    "url": "https://github.com/haidrrrry/compose-kotlin-agent-skills"
   },
   {
     "description": "Auto harness engineering meta-repo: discuss \u2192 curate \u2192 bootstrap a context-engineered project for Claude Code, Cursor, C",
@@ -430,15 +439,6 @@
     "stars": 6,
     "updated_at": "2026-05-31T10:11:47Z",
     "url": "https://github.com/vibestackdev/vibe-stack"
-  },
-  {
-    "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
-    "id": "philipbankier/awesome-agent-skills",
-    "language": "TypeScript",
-    "name": "philipbankier/awesome-agent-skills",
-    "stars": 4,
-    "updated_at": "2026-05-31T08:38:54Z",
-    "url": "https://github.com/philipbankier/awesome-agent-skills"
   },
   {
     "description": "50 production-tested .mdc rules for Cursor agent mode \u2014 React, TypeScript, Python, Go, Rust, Vue.js, Swift, Ruby on Rail",
