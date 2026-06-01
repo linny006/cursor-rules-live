@@ -1,5 +1,73 @@
 [
   {
+    "description": "Build unique user interfaces with a structured ruleset to prevent generic AI output.",
+    "id": "paoloincommensurable537/PixelPilot",
+    "language": "JavaScript",
+    "name": "paoloincommensurable537/PixelPilot",
+    "stars": 0,
+    "updated_at": "2026-06-01T19:55:01Z",
+    "url": "https://github.com/paoloincommensurable537/PixelPilot"
+  },
+  {
+    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
+    "id": "Hyanthropological659/clarify-skill",
+    "language": "\u2014",
+    "name": "Hyanthropological659/clarify-skill",
+    "stars": 0,
+    "updated_at": "2026-06-01T19:54:57Z",
+    "url": "https://github.com/Hyanthropological659/clarify-skill"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Behavioral guidelines for strategic software design based on \"A Philosophy of Software Design\" by John Ousterhout. Use when code has shallow modules, information leakage, or tactical shortcuts, and you want to apply complexity-driven design principles.\nalwaysApply: true\n---\n\n> **Content source:** This file mirrors `CLAUDE.md`. `CLAUDE.md` is the single source of truth \u2014 make changes there first, then copy here.\n\n# APOSD behavioral guidelines\n\nAPOSD behavioral guidelines for AI coding agents. Merge with project-specific instructions as needed.\n\n**Tradeoff:** These guidelines bias toward strategic design over tactical speed. For trivial tasks, use judgment.\n\n## 1. Strategic Over Tactical\n\n*Working code isn't enough. Invest in design.*\n\n- Every task gets a small design investment: at least one improvement in the surrounding code.\n- Watch for the \"tactical tornado\" \u2014 churning out code quickly while accumulating design debt.\n- Strategic thinking costs no extra time \u2014 it's about how you think, not how long you spend.\n- BEFORE implementing any fix, explicitly state the strategic alternative: \"Here's the tactical path: [quick fix]. The strategic alternative: [redesign that reduces complexity]. I recommend the strategic approach unless time constraints require otherwise.\"\n- **Red flag:** If you find yourself using APOSD vocabulary (\"deep module,\" \"define errors out of existence\") to justify a tactical patch, you're still being tactical. Language doesn't make it strategic \u2014 design investment does.\n\n## 2. Design Deep Modules\n\n*Simple interface, powerful implementation.*\n\n- Module depth = benefit provided / interface complexity. The ratio should be high.\n- If the interface is as complex as the implementation, it's shallow \u2014 merge or redesign.\n- Diagnostic questions: \"How many use cases will this serve?\" (if one, too special-purpose). \"Is this easy to use for my current need?\" (if not, redesign).\n\n## 3. Information Hiding\n\n*Expose only what callers need.*\n\n- If implementation details leak into the interface, stop and redesign.\n- If the same design decision appears in multiple modules, that's information leakage \u2014 consolidate.\n- Don't expose internal state unless callers genuinely need it.\n\n## 4. Design General-Purpose Modules\n\n*Serve multiple use cases through a stable interface.*\n\n- Design modules to be slightly more general-purpose than your current need. A general-purpose module is reused, not duplicated, and its interface stays stable across use cases.\n- If a module or method serves only one caller, it may be too special-purpose \u2014 generalize it.\n- Diagnostic questions: \"In how many situations could this method be used?\" (if one, too special). \"Is this API easy to use for my current need?\" (if not, redesign). \"Can several special-purpose methods be replaced by one general-purpose method?\"\n- Red flag: special-case logic embedded in a general-purpose mechanism \u2014 separate the two so the mechanism stays reusable.\n\n## 5. Different Layer, Different Abstraction\n\n*Each layer must add value \u2014 pass-throughs are noise.*\n\n- Every software layer should provide a different abstraction from the layers above and below it. If two adjacent layers have similar abstractions, one of them isn't adding value.\n- Pass-through methods (method body only delegates with the same signature) and pass-through variables (config threaded through layers that don't use it) are red flags \u2014 eliminate them.\n- Diagnostic question: \"Does removing this layer change anything meaningful for the caller?\" If not, delete it.\n\n## 6. Pull Complexity Downward\n\n*Handle complexity in the implementation, not the interface.*\n\n- The common case must be trivial for the caller.\n- When a feature is inherently complex, push that complexity into the module so callers don't see it.\n- Don't let the module grow into a god class \u2014 if it knows about everything, the interface is simple but the implementation is a tangled mess.\n\n## 7. Comments First\n\n*Describe what's not obvious. Comments are not a failure \u2014 they are essential. If a comment is hard to write, the design is wrong.*\n\n- Draft the interface comment before writing the body.\n- Interface comments: what the method does for callers, not how.\n- Implementation comments: why this approach, not what the code does.\n- If a comment is hard to write, or long, the design is wrong \u2014 redesign.\n- **Note:** APOSD disagrees with \"comments are failures\" philosophy. Without comments, there is no way to define abstractions or module interfaces \u2014 the contract of every method is left unspecified, forcing readers to read the full implementation. Ousterhout reports spending 50-80% of development time wading through code due to inadequate documentation.\n\n## 8. Choosing Names\n\n*Names should create an image \u2014 precise, consistent, no extra words.*\n\n- If you can't find an intuitive name, you don't understand the concept well enough \u2014 redesign, don't rename.\n- Avoid vague names: `data`, `info`, `tmp`, `handle`, `process`, `util`, `helper`, `manager`, `stuff`, `thing`.\n- A good name is precise enough to distinguish and short enough to read. If a name needs extra words to clarify, the concept is fuzzy.\n- Consistency across the codebase matters \u2014 the same concept should always have the same name.\n\n## 9. Design for Reading\n\n*If someone needs to think hard to understand it, it's not obvious. Complexity is in the eye of the reader \u2014 if someone finds your code complicated, it IS complicated, and that's your problem to fix, not theirs to overcome.*\n\n- Run the obviousness check before marking code complete: \"Would someone reading this for the first time understand it without effort?\"\n- Eliminate special cases. Every special case adds cognitive load for every future reader.\n- Good naming, simple control flow, and minimal state make code obvious. If it's not obvious, redesign \u2014 don't add comments explaining it.\n\n## 10. Define Errors Out of Existence\n\n*Design interfaces so common errors can't happen.*\n\n- Can you change the interface contract to eliminate the error case?\n- If not: mask the exception at the right level, aggregate related exceptions, or crash if recovery is meaningless.\n- Red flag: complex error-handling that mirrors the happy path \u2014 the interface should be redesigned.\n\n## 11. Better Together or Better Apart\n\n*Merge shared concerns. Split different abstractions.*\n\n- Merge modules that share information, would simplify the interface together, or duplicate each other.\n- Split when one is general-purpose and the other is special-purpose.\n- Split methods only if the child is independently understandable and could be useful elsewhere.\n- Red flag: conjoined methods (entanglement) \u2014 if you can't understand one without the other, they shouldn't have been split.\n\n## 12. Design It Twice\n\n*Never accept the first design for non-trivial work.*\n\n- Create 2+ alternative designs, list their tradeoffs, pick the best.\n- The second design is often better.\n- For each alternative: interface sketch, key complexity tradeoffs, which complexity symptom it addresses best.\n\n## 13. Design for the Future\n\n*Identify what's likely to change and encapsulate it.*\n\n- Encapsulate volatile parts behind stable interfaces. Don't add hooks for hypothetical futures \u2014 only for changes you have reasonable evidence will occur.\n- Prefer deletion over extension. Delete what's no longer needed.\n- Over-engineering for hypothetical futures is as bad as under-engineering for real ones.\n\n## 14. Increments Are Abstractions\n\n*Decompose by abstraction boundary, not by feature.*\n\n- A new feature should be implemented as \"create the abstraction layer\" first, then \"build the feature on top of it.\"\n- Don't decompose by execution order or UI surface area. \"Add bold button, then italic button, then underline button\" is wrong \u2014 implement the formatting interface first, then build the toolbar on top.\n- Each increment should produce a working system at a new abstraction level, not a partial feature sliced by execution order.\n\n## 15. Mo",
+      "format": "mdc",
+      "path": ".cursor/rules/aposd-guidelines.mdc"
+    },
+    "description": "Strategic software design guidelines for AI coding agents. 15 behavioral rules + critique/audit commands based on A Phil",
+    "id": "mhenke/john-ousterhout-skills",
+    "language": "JavaScript",
+    "name": "mhenke/john-ousterhout-skills",
+    "stars": 0,
+    "updated_at": "2026-06-01T19:53:53Z",
+    "url": "https://github.com/mhenke/john-ousterhout-skills"
+  },
+  {
+    "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
+    "id": "Bastioned-successor320/learn-nanobot",
+    "language": "Python",
+    "name": "Bastioned-successor320/learn-nanobot",
+    "stars": 0,
+    "updated_at": "2026-06-01T19:52:06Z",
+    "url": "https://github.com/Bastioned-successor320/learn-nanobot"
+  },
+  {
+    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
+    "id": "XAKLESK/cre-agent-skills",
+    "language": "\u2014",
+    "name": "XAKLESK/cre-agent-skills",
+    "stars": 1,
+    "updated_at": "2026-06-01T19:49:48Z",
+    "url": "https://github.com/XAKLESK/cre-agent-skills"
+  },
+  {
+    "description": "Test iOS agent skills with 11 tasks, 260+ scenarios, and 850+ assertions across 3 models",
+    "id": "christim427-rgb/ios-agent-skills",
+    "language": "Python",
+    "name": "christim427-rgb/ios-agent-skills",
+    "stars": 1,
+    "updated_at": "2026-06-01T19:47:49Z",
+    "url": "https://github.com/christim427-rgb/ios-agent-skills"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-01T19:45:47Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Build programmatic UIKit apps with production-ready patterns for views, navigation, animation, architecture, and data fl",
     "id": "nizhan80-art/Swift-UIKit-Skill",
     "language": "\u2014",
@@ -27,20 +95,6 @@
     "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
   },
   {
-    "cursorrules": {
-      "content": "---\ndescription: Behavioral guidelines for strategic software design based on \"A Philosophy of Software Design\" by John Ousterhout. Use when code has shallow modules, information leakage, or tactical shortcuts, and you want to apply complexity-driven design principles.\nalwaysApply: true\n---\n\n> **Content source:** This file mirrors `CLAUDE.md`. `CLAUDE.md` is the single source of truth \u2014 make changes there first, then copy here.\n\n# APOSD behavioral guidelines\n\nAPOSD behavioral guidelines for AI coding agents. Merge with project-specific instructions as needed.\n\n**Tradeoff:** These guidelines bias toward strategic design over tactical speed. For trivial tasks, use judgment.\n\n## 1. Strategic Over Tactical\n\n*Working code isn't enough. Invest in design.*\n\n- Every task gets a small design investment: at least one improvement in the surrounding code.\n- Watch for the \"tactical tornado\" \u2014 churning out code quickly while accumulating design debt.\n- Strategic thinking costs no extra time \u2014 it's about how you think, not how long you spend.\n- BEFORE implementing any fix, explicitly state the strategic alternative: \"Here's the tactical path: [quick fix]. The strategic alternative: [redesign that reduces complexity]. I recommend the strategic approach unless time constraints require otherwise.\"\n- **Red flag:** If you find yourself using APOSD vocabulary (\"deep module,\" \"define errors out of existence\") to justify a tactical patch, you're still being tactical. Language doesn't make it strategic \u2014 design investment does.\n\n## 2. Design Deep Modules\n\n*Simple interface, powerful implementation.*\n\n- Module depth = benefit provided / interface complexity. The ratio should be high.\n- If the interface is as complex as the implementation, it's shallow \u2014 merge or redesign.\n- Diagnostic questions: \"How many use cases will this serve?\" (if one, too special-purpose). \"Is this easy to use for my current need?\" (if not, redesign).\n\n## 3. Information Hiding\n\n*Expose only what callers need.*\n\n- If implementation details leak into the interface, stop and redesign.\n- If the same design decision appears in multiple modules, that's information leakage \u2014 consolidate.\n- Don't expose internal state unless callers genuinely need it.\n\n## 4. Design General-Purpose Modules\n\n*Serve multiple use cases through a stable interface.*\n\n- Design modules to be slightly more general-purpose than your current need. A general-purpose module is reused, not duplicated, and its interface stays stable across use cases.\n- If a module or method serves only one caller, it may be too special-purpose \u2014 generalize it.\n- Diagnostic questions: \"In how many situations could this method be used?\" (if one, too special). \"Is this API easy to use for my current need?\" (if not, redesign). \"Can several special-purpose methods be replaced by one general-purpose method?\"\n- Red flag: special-case logic embedded in a general-purpose mechanism \u2014 separate the two so the mechanism stays reusable.\n\n## 5. Different Layer, Different Abstraction\n\n*Each layer must add value \u2014 pass-throughs are noise.*\n\n- Every software layer should provide a different abstraction from the layers above and below it. If two adjacent layers have similar abstractions, one of them isn't adding value.\n- Pass-through methods (method body only delegates with the same signature) and pass-through variables (config threaded through layers that don't use it) are red flags \u2014 eliminate them.\n- Diagnostic question: \"Does removing this layer change anything meaningful for the caller?\" If not, delete it.\n\n## 6. Pull Complexity Downward\n\n*Handle complexity in the implementation, not the interface.*\n\n- The common case must be trivial for the caller.\n- When a feature is inherently complex, push that complexity into the module so callers don't see it.\n- Don't let the module grow into a god class \u2014 if it knows about everything, the interface is simple but the implementation is a tangled mess.\n\n## 7. Comments First\n\n*Describe what's not obvious. Comments are not a failure \u2014 they are essential. If a comment is hard to write, the design is wrong.*\n\n- Draft the interface comment before writing the body.\n- Interface comments: what the method does for callers, not how.\n- Implementation comments: why this approach, not what the code does.\n- If a comment is hard to write, or long, the design is wrong \u2014 redesign.\n- **Note:** APOSD disagrees with \"comments are failures\" philosophy. Without comments, there is no way to define abstractions or module interfaces \u2014 the contract of every method is left unspecified, forcing readers to read the full implementation. Ousterhout reports spending 50-80% of development time wading through code due to inadequate documentation.\n\n## 8. Choosing Names\n\n*Names should create an image \u2014 precise, consistent, no extra words.*\n\n- If you can't find an intuitive name, you don't understand the concept well enough \u2014 redesign, don't rename.\n- Avoid vague names: `data`, `info`, `tmp`, `handle`, `process`, `util`, `helper`, `manager`, `stuff`, `thing`.\n- A good name is precise enough to distinguish and short enough to read. If a name needs extra words to clarify, the concept is fuzzy.\n- Consistency across the codebase matters \u2014 the same concept should always have the same name.\n\n## 9. Design for Reading\n\n*If someone needs to think hard to understand it, it's not obvious. Complexity is in the eye of the reader \u2014 if someone finds your code complicated, it IS complicated, and that's your problem to fix, not theirs to overcome.*\n\n- Run the obviousness check before marking code complete: \"Would someone reading this for the first time understand it without effort?\"\n- Eliminate special cases. Every special case adds cognitive load for every future reader.\n- Good naming, simple control flow, and minimal state make code obvious. If it's not obvious, redesign \u2014 don't add comments explaining it.\n\n## 10. Define Errors Out of Existence\n\n*Design interfaces so common errors can't happen.*\n\n- Can you change the interface contract to eliminate the error case?\n- If not: mask the exception at the right level, aggregate related exceptions, or crash if recovery is meaningless.\n- Red flag: complex error-handling that mirrors the happy path \u2014 the interface should be redesigned.\n\n## 11. Better Together or Better Apart\n\n*Merge shared concerns. Split different abstractions.*\n\n- Merge modules that share information, would simplify the interface together, or duplicate each other.\n- Split when one is general-purpose and the other is special-purpose.\n- Split methods only if the child is independently understandable and could be useful elsewhere.\n- Red flag: conjoined methods (entanglement) \u2014 if you can't understand one without the other, they shouldn't have been split.\n\n## 12. Design It Twice\n\n*Never accept the first design for non-trivial work.*\n\n- Create 2+ alternative designs, list their tradeoffs, pick the best.\n- The second design is often better.\n- For each alternative: interface sketch, key complexity tradeoffs, which complexity symptom it addresses best.\n\n## 13. Design for the Future\n\n*Identify what's likely to change and encapsulate it.*\n\n- Encapsulate volatile parts behind stable interfaces. Don't add hooks for hypothetical futures \u2014 only for changes you have reasonable evidence will occur.\n- Prefer deletion over extension. Delete what's no longer needed.\n- Over-engineering for hypothetical futures is as bad as under-engineering for real ones.\n\n## 14. Increments Are Abstractions\n\n*Decompose by abstraction boundary, not by feature.*\n\n- A new feature should be implemented as \"create the abstraction layer\" first, then \"build the feature on top of it.\"\n- Don't decompose by execution order or UI surface area. \"Add bold button, then italic button, then underline button\" is wrong \u2014 implement the formatting interface first, then build the toolbar on top.\n- Each increment should produce a working system at a new abstraction level, not a partial feature sliced by execution order.\n\n## 15. Mo",
-      "format": "mdc",
-      "path": ".cursor/rules/aposd-guidelines.mdc"
-    },
-    "description": "Strategic software design guidelines for AI coding agents. 15 behavioral rules + critique/audit commands based on A Phil",
-    "id": "mhenke/john-ousterhout-skills",
-    "language": "JavaScript",
-    "name": "mhenke/john-ousterhout-skills",
-    "stars": 0,
-    "updated_at": "2026-06-01T19:39:06Z",
-    "url": "https://github.com/mhenke/john-ousterhout-skills"
-  },
-  {
     "description": "Build 9 iOS agent skills for SwiftUI, testing, security, and more in one install for AI coding agents",
     "id": "ebbaunqualified520/ios-agent-skills",
     "language": "Shell",
@@ -48,15 +102,6 @@
     "stars": 0,
     "updated_at": "2026-06-01T19:37:54Z",
     "url": "https://github.com/ebbaunqualified520/ios-agent-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-01T19:30:40Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
@@ -276,51 +321,6 @@
     "stars": 3,
     "updated_at": "2026-06-01T14:03:31Z",
     "url": "https://github.com/caioribeiroclw-pixel/pluribus"
-  },
-  {
-    "description": "Build unique user interfaces with a structured ruleset to prevent generic AI output.",
-    "id": "paoloincommensurable537/PixelPilot",
-    "language": "JavaScript",
-    "name": "paoloincommensurable537/PixelPilot",
-    "stars": 0,
-    "updated_at": "2026-06-01T13:42:56Z",
-    "url": "https://github.com/paoloincommensurable537/PixelPilot"
-  },
-  {
-    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
-    "id": "Hyanthropological659/clarify-skill",
-    "language": "\u2014",
-    "name": "Hyanthropological659/clarify-skill",
-    "stars": 0,
-    "updated_at": "2026-06-01T13:42:50Z",
-    "url": "https://github.com/Hyanthropological659/clarify-skill"
-  },
-  {
-    "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
-    "id": "Bastioned-successor320/learn-nanobot",
-    "language": "Python",
-    "name": "Bastioned-successor320/learn-nanobot",
-    "stars": 0,
-    "updated_at": "2026-06-01T13:39:31Z",
-    "url": "https://github.com/Bastioned-successor320/learn-nanobot"
-  },
-  {
-    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
-    "id": "XAKLESK/cre-agent-skills",
-    "language": "\u2014",
-    "name": "XAKLESK/cre-agent-skills",
-    "stars": 1,
-    "updated_at": "2026-06-01T13:37:09Z",
-    "url": "https://github.com/XAKLESK/cre-agent-skills"
-  },
-  {
-    "description": "Test iOS agent skills with 11 tasks, 260+ scenarios, and 850+ assertions across 3 models",
-    "id": "christim427-rgb/ios-agent-skills",
-    "language": "Python",
-    "name": "christim427-rgb/ios-agent-skills",
-    "stars": 1,
-    "updated_at": "2026-06-01T13:34:28Z",
-    "url": "https://github.com/christim427-rgb/ios-agent-skills"
   },
   {
     "cursorrules": {
