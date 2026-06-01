@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-06-01 14:30 UTC
+> ⏰ Last updated: 2026-06-01 14:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -90,7 +90,7 @@ expired items removed — so you can rely on what you see being current.
 | 35 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 2 | Python | 2026-06-01 | — | Governance-first OS for AI coding agents — structured workflows, delivery gates, engineering guardrails, and 17 professi |
 | 36 | [grnbtqdbyx-create/contextforge](https://github.com/grnbtqdbyx-create/contextforge) | 1 | TypeScript | 2026-06-01 | — | Agent context gate for Codex, Claude Code, Copilot, MCP, Cursor, Cline, Gemini and Windsurf repos |
 | 37 | [Mark393295827/third-brain-v5-skills](https://github.com/Mark393295827/third-brain-v5-skills) | 108 | HTML | 2026-06-01 | — | agent skills |
-| 38 | [wshobson/agents](https://github.com/wshobson/agents) | 36228 | Python | 2026-06-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI |
+| 38 | [wshobson/agents](https://github.com/wshobson/agents) | 36227 | Python | 2026-06-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI |
 | 39 | [baneeishaque/ai-agent-rules](https://github.com/baneeishaque/ai-agent-rules) | 3 | TypeScript | 2026-05-31 | — |  |
 | 40 | [tyr1105/codeforge-ai](https://github.com/tyr1105/codeforge-ai) | 0 | HTML | 2026-05-31 | — | 100+ production-ready configurations for AI coding agents (Cursor, Claude Code, Codex, Copilot) |
 | 41 | [ajhcs/healthcare-agents](https://github.com/ajhcs/healthcare-agents) | 35 | JavaScript | 2026-05-31 | — | Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows. |
