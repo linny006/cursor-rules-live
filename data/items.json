@@ -1,11 +1,20 @@
 [
   {
+    "description": "Jetpack Compose & Kotlin AI agent skills for Cursor, Claude Code, Codex, Gemini & 27+ agents. Strict MVI \u00b7 Kotlin 2.x K2",
+    "id": "haidrrrry/compose-kotlin-agent-skills",
+    "language": "Markdown",
+    "name": "haidrrrry/compose-kotlin-agent-skills",
+    "stars": 24,
+    "updated_at": "2026-06-01T09:49:01Z",
+    "url": "https://github.com/haidrrrry/compose-kotlin-agent-skills"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-01T09:37:29Z",
+    "updated_at": "2026-06-01T09:45:48Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -494,14 +503,5 @@
     "stars": 0,
     "updated_at": "2026-05-29T23:25:46Z",
     "url": "https://github.com/linny006/cursor-rules-picker"
-  },
-  {
-    "description": "Rigorous LLM research in two layers: a multi-agent dialectic synthesis prompt + an agent-loadable research skill. Hierar",
-    "id": "weijia-89/palamedes",
-    "language": "JavaScript",
-    "name": "weijia-89/palamedes",
-    "stars": 0,
-    "updated_at": "2026-05-29T19:06:22Z",
-    "url": "https://github.com/weijia-89/palamedes"
   }
 ]
