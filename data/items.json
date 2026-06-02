@@ -1,6 +1,29 @@
 [
   {
     "cursorrules": {
+      "content": "---\ndescription: \"softco \u2014 autonomous software company for building and shipping any software product\"\nalwaysApply: false\n---\n\nWhen user wants to build, create, deploy, audit, review, or fix software, follow `skill/SKILL.md`.\n\n**Modes**: Greenfield | Audit | Extend | Fix | Infra-only | AI-add\n\n**Phases**:\n1. Phase 0: Discovery \u2014 interview, produce Requirements Summary\n2. Phase 1: Architecture \u2014 Tech Stack Decision Record, get approval\n3. Phase 1.5: Design (UI products) \u2014 pick direction + tokens, write DESIGN.md before frontend\n4. Phase 2: Docs \u2014 full doc package before any code\n5. Phase 3: Code \u2014 module-by-module, tests first\n6. Phase 4: Test \u2014 unit + integration + E2E + AI regression, \u226580% coverage\n7. Phase 5: Infra \u2014 Terraform, all cloud resources as code\n8. Phase 6: Deploy \u2014 CI/CD pipeline, zero-downtime\n\n**Critical**:\n- Recall first on existing repos: read AGENT.md + docs/PROGRESS.md before acting\n- Never write code before Phase 2 docs exist\n- Write failing tests before implementation\n- Verification gate: run the system and observe it working before claiming done \u2014 not just green tests\n- Fix mode: declare edit scope, no orthogonal/drive-by edits during a debug\n- Never hardcode secrets \u2014 always .env.example\n- Coverage \u2265 80% enforced in CI\n- User only edits .env\n",
+      "format": "mdc",
+      "path": ".cursor/rules/softco.mdc"
+    },
+    "description": "Turn AI coding agents (Claude Code, Cursor, Windsurf, Cline) into a complete, autonomous software firm. Plans, designs, ",
+    "id": "shihabshahrier/softco",
+    "language": "HCL",
+    "name": "shihabshahrier/softco",
+    "stars": 0,
+    "updated_at": "2026-06-02T12:15:56Z",
+    "url": "https://github.com/shihabshahrier/softco"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-02T12:15:36Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "cursorrules": {
       "content": "---\ndescription: \"Analyze the blast radius of a proposed change before any code is written. Maps dependents, affected stories, and test coverage. Produces specs/IMPACT.md. Use before plan-work on any non-trivial change, when touching a shared module, or when the user asks \"what does this break?\".\"\nalwaysApply: false\n---\n\n\n# Assess Impact\n\n> **HARD GATE** \u2014 Run this skill before `plan-work` whenever a change touches an existing module, symbol, or file used by more than one caller. Skip only for net-new code with no existing dependents.\n\nFind the blast radius of the proposed change before a single line is written.\n\n## Process\n\n### 1. Identify the target\n\nName the symbol, module, or file being changed. If the user hasn't specified, ask one question: \"What exactly are you changing?\"\n\n### 2. Find dependents\n\n```\ngrep -rn \"[symbol-name]\" . --include=\"*.ts\" | grep -v node_modules\ngit log --oneline -10 -- [file-path]\n```\n\n\u2192 verify: `grep -rn \"[target]\" . | wc -l`\n\n### 3. Map to release plan stories\n\nRead `specs/release-plan.yaml + epic shards` (if it exists). For each dependent found in Step 2, identify which story owns that module. List stories that will be affected by the change.\n\n\u2192 verify: `grep -c \"Story\" specs/release-plan.yaml + epic shards 2>/dev/null || echo \"no release plan\"`\n\n### 4. List test coverage\n\nFind tests that exercise the target:\n\n```\ngrep -rn \"[symbol-name]\" . --include=\"*.test.*\" --include=\"*.spec.*\"\n```\n\n\u2192 verify: `grep -rn \"[target]\" . --include=\"*.test.*\" | wc -l`\n\n### 5. Classify risk\n\n| Level | Condition |\n|-------|-----------|\n| Low   | \u2264 2 callers, all covered by tests |\n| Medium | 3\u201310 callers, partial test coverage |\n| High  | > 10 callers, or shared API/interface, or no tests |\n\n### 6. Write specs/IMPACT.md\n\n```\n## Target\n[symbol or file being changed]\n\n## Dependents ([count])\n- [file]: [caller or usage]\n\n## Affected Stories\n- Story [X.Y]: [title]\n\n## Test Coverage\n- [test file]: covers [scenario]\n- Gap: [untested behavior]\n\n## Risk: Low / Medium / High\n[One-sentence rationale]\n\n## Recommended action\n[Proceed / Add tests first / Discuss design]\n```\n\n\u2192 verify: `grep \"Risk:\" specs/IMPACT.md`\n\nSuggest `plan-work` once risk is understood and any test gaps are noted.\n",
       "format": "mdc",
       "path": ".cursor/rules/assess-impact.mdc"
@@ -26,15 +49,6 @@
     "stars": 6,
     "updated_at": "2026-06-02T12:01:28Z",
     "url": "https://github.com/vibestackdev/vibe-stack"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-02T12:00:55Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
@@ -419,7 +433,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 13619,
+    "stars": 13618,
     "updated_at": "2026-06-01T15:14:31Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -478,7 +492,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36266,
+    "stars": 36267,
     "updated_at": "2026-06-01T02:18:07Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -499,14 +513,5 @@
     "stars": 0,
     "updated_at": "2026-05-31T22:35:52Z",
     "url": "https://github.com/tyr1105/codeforge-ai"
-  },
-  {
-    "description": "Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows.",
-    "id": "ajhcs/healthcare-agents",
-    "language": "JavaScript",
-    "name": "ajhcs/healthcare-agents",
-    "stars": 36,
-    "updated_at": "2026-05-31T22:07:12Z",
-    "url": "https://github.com/ajhcs/healthcare-agents"
   }
 ]
