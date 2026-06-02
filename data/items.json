@@ -1,5 +1,37 @@
 [
   {
+    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
+    "id": "eumiguellllllllll/copilot-rules",
+    "language": "Batchfile",
+    "name": "eumiguellllllllll/copilot-rules",
+    "stars": 1,
+    "updated_at": "2026-06-02T19:06:54Z",
+    "url": "https://github.com/eumiguellllllllll/copilot-rules"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Agent rules for skillpack-forge\nglobs:\n  - \"**/*\"\nalwaysApply: true\n---\n\n# skillpack-forge\n\nGenerated from `skillpack.yaml` by Skillpack Forge.\n\nCompile one repo manifest into portable AGENTS.md, AI coding skills, agent rules, and CI checks.\n\n## Principles\n- Preserve user changes and keep edits scoped\n- Inspect the current repo state before changing files\n- Run verification before claiming success\n\n## Commands\n- install: `npm install`\n- test: `npm test`\n- compile: `npm run compile`\n- doctor: `npm run doctor`\n- scan: `npm run scan`\n- diff: `npm run diff`\n- check: `npm run check`\n- templates: `npm run templates`\n- import-json: `npm run import-json`\n- demo: `npm run demo`\n",
+      "format": "mdc",
+      "path": ".cursor/rules/skillpack-forge.mdc"
+    },
+    "description": "One manifest for every AI coding agent: generate AGENTS.md, CLAUDE.md, Claude/Codex Skills, Cursor rules, Copilot instru",
+    "id": "guorunjie/skillpack-forge",
+    "language": "JavaScript",
+    "name": "guorunjie/skillpack-forge",
+    "stars": 1,
+    "updated_at": "2026-06-02T19:03:37Z",
+    "url": "https://github.com/guorunjie/skillpack-forge"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-02T19:00:45Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Agent Development Life Cycle \u2014 Build, deploy, test, and optimize Agentforce agents using Claude Code skills and Agent Sc",
     "id": "SalesforceAIResearch/agentforce-adlc",
     "language": "Python",
@@ -18,20 +50,6 @@
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
-    "cursorrules": {
-      "content": "---\ndescription: Agent rules for skillpack-forge\nglobs:\n  - \"**/*\"\nalwaysApply: true\n---\n\n# skillpack-forge\n\nGenerated from `skillpack.yaml` by Skillpack Forge.\n\nCompile one repo manifest into portable AGENTS.md, AI coding skills, agent rules, and CI checks.\n\n## Principles\n- Preserve user changes and keep edits scoped\n- Inspect the current repo state before changing files\n- Run verification before claiming success\n\n## Commands\n- install: `npm install`\n- test: `npm test`\n- compile: `npm run compile`\n- doctor: `npm run doctor`\n- scan: `npm run scan`\n- diff: `npm run diff`\n- check: `npm run check`\n- templates: `npm run templates`\n- import-json: `npm run import-json`\n- demo: `npm run demo`\n",
-      "format": "mdc",
-      "path": ".cursor/rules/skillpack-forge.mdc"
-    },
-    "description": "One manifest for every AI coding agent: generate AGENTS.md, CLAUDE.md, Claude/Codex Skills, Cursor rules, Copilot instru",
-    "id": "guorunjie/skillpack-forge",
-    "language": "JavaScript",
-    "name": "guorunjie/skillpack-forge",
-    "stars": 1,
-    "updated_at": "2026-06-02T18:54:46Z",
-    "url": "https://github.com/guorunjie/skillpack-forge"
-  },
-  {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
     "id": "Trentobobbi/uikit-mastery-playbook",
     "language": "HTML",
@@ -39,15 +57,6 @@
     "stars": 0,
     "updated_at": "2026-06-02T18:46:56Z",
     "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-02T18:45:40Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
@@ -276,15 +285,6 @@
     "stars": 3,
     "updated_at": "2026-06-02T15:46:14Z",
     "url": "https://github.com/Luxvil/ai-coding-rules"
-  },
-  {
-    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
-    "id": "eumiguellllllllll/copilot-rules",
-    "language": "Batchfile",
-    "name": "eumiguellllllllll/copilot-rules",
-    "stars": 1,
-    "updated_at": "2026-06-02T14:57:36Z",
-    "url": "https://github.com/eumiguellllllllll/copilot-rules"
   },
   {
     "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
