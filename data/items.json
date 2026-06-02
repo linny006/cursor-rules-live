@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-02T14:01:18Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: Agent rules for skillpack-forge\nglobs:\n  - \"**/*\"\nalwaysApply: true\n---\n\n# skillpack-forge\n\nGenerated from `skillpack.yaml` by Skillpack Forge.\n\nCompile one repo manifest into portable AGENTS.md, AI coding skills, agent rules, and CI checks.\n\n## Principles\n- Preserve user changes and keep edits scoped\n- Inspect the current repo state before changing files\n- Run verification before claiming success\n\n## Commands\n- install: `npm install`\n- test: `npm test`\n- compile: `npm run compile`\n- doctor: `npm run doctor`\n- scan: `npm run scan`\n- diff: `npm run diff`\n- check: `npm run check`\n- templates: `npm run templates`\n- import-json: `npm run import-json`\n",
       "format": "mdc",
@@ -12,15 +21,6 @@
     "stars": 1,
     "updated_at": "2026-06-02T13:58:18Z",
     "url": "https://github.com/guorunjie/skillpack-forge"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-02T13:45:43Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Build unique user interfaces with a structured ruleset to prevent generic AI output.",
@@ -334,7 +334,7 @@
     "language": "HTML",
     "name": "Trentobobbi/uikit-mastery-playbook",
     "stars": 0,
-    "updated_at": "2026-06-02T09:14:30Z",
+    "updated_at": "2026-06-02T14:13:11Z",
     "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
   },
   {
@@ -343,7 +343,7 @@
     "language": "HTML",
     "name": "arnoldalberto007-sys/Swift-UIKit-Components",
     "stars": 0,
-    "updated_at": "2026-06-02T09:13:09Z",
+    "updated_at": "2026-06-02T14:10:29Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
@@ -456,7 +456,7 @@
     "id": "Mark393295827/third-brain-v5-skills",
     "language": "HTML",
     "name": "Mark393295827/third-brain-v5-skills",
-    "stars": 108,
+    "stars": 109,
     "updated_at": "2026-06-01T14:54:40Z",
     "url": "https://github.com/Mark393295827/third-brain-v5-skills"
   },
@@ -506,7 +506,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36268,
+    "stars": 36269,
     "updated_at": "2026-06-01T02:18:07Z",
     "url": "https://github.com/wshobson/agents"
   },
