@@ -1,5 +1,23 @@
 [
   {
+    "description": "Governance-first OS for AI coding agents \u2014 structured workflows, delivery gates, engineering guardrails, and 17 professi",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 3,
+    "updated_at": "2026-06-02T03:30:12Z",
+    "url": "https://github.com/KbWen/agentic-os"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-02T03:15:52Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: Engineering discipline for AI coding (Vibe Coding Playbook)\nalwaysApply: true\n---\n\n# Engineering discipline (obey before writing any code)\n\n## Tier the task first\n- Small change (typo / styling / one-line fix): just do it \u2014 no process, no docs \u2014 but obey the disciplines below.\n- Real product (shipped / maintained / for others): align on the need first; never generate a whole system in one shot.\n\n## Think before coding\n- Don't guess on my behalf. When a request is ambiguous, present the interpretations and let me choose.\n- If there's a simpler approach, say so. If confused or stuck, stop and name what's unclear.\n\n## Simplicity first\n- Write the least code that solves the problem. No unrequested abstraction, configurability, or flexibility.\n- No error handling for impossible scenarios. If 200 lines could be 50, rewrite it.\n\n## Surgical changes\n- Change only the files and functions I named. No drive-by refactors or dependency upgrades.\n- Every changed line must trace to my request. Mention unrelated dead code \u2014 don't delete it.\n- In existing code: match the current style; only clean up imports/variables your change orphaned, leave pre-existing old code alone.\n\n## One feature at a time\n- Don't generate a whole system at once. One feature \u2192 smallest working loop \u2192 test \u2192 commit \u2192 next.\n\n## Goal-driven\n- Turn \"fix the bug\" into \"write a failing test that reproduces it, then make it pass.\"\n- State explicit pass/fail criteria, then loop on your own until they're met.\n\n## Docs before code (real products only)\n- For a real product, no feature code without PRD / architecture / status docs; requirements change \u2192 docs change first.\n\n## Communication\n- Match my level: terse for engineers, plain explanations for newcomers. No jargon dumps.\n- I decide, you implement. Be upfront about limitations and risks.\n",
       "format": "mdc",
@@ -12,15 +30,6 @@
     "stars": 0,
     "updated_at": "2026-06-02T03:05:39Z",
     "url": "https://github.com/ayi-ai/vibe-coding-playbook"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-02T03:00:32Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Curated AI Agent Profiles for Claude Code, Codex, Cursor and more \u2014 install with forgecat CLI",
@@ -373,7 +382,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 13553,
+    "stars": 13556,
     "updated_at": "2026-06-01T15:14:31Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -435,15 +444,6 @@
     "stars": 2,
     "updated_at": "2026-06-01T09:31:34Z",
     "url": "https://github.com/glowElephant/context-forge"
-  },
-  {
-    "description": "Governance-first OS for AI coding agents \u2014 structured workflows, delivery gates, engineering guardrails, and 17 professi",
-    "id": "KbWen/agentic-os",
-    "language": "Python",
-    "name": "KbWen/agentic-os",
-    "stars": 3,
-    "updated_at": "2026-06-01T07:45:54Z",
-    "url": "https://github.com/KbWen/agentic-os"
   },
   {
     "description": "Agent context gate for Codex, Claude Code, Copilot, MCP, Cursor, Cline, Gemini and Windsurf repos",
