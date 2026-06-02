@@ -1,12 +1,31 @@
 [
   {
-    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
-    "id": "eumiguellllllllll/copilot-rules",
-    "language": "Batchfile",
-    "name": "eumiguellllllllll/copilot-rules",
+    "cursorrules": {
+      "content": "---\ndescription: \"Analyze the blast radius of a proposed change before any code is written. Maps dependents, affected stories, and test coverage. Produces specs/IMPACT.md. Use before plan-work on any non-trivial change, when touching a shared module, or when the user asks \"what does this break?\".\"\nalwaysApply: false\n---\n\n\n# Assess Impact\n\n> **HARD GATE** \u2014 Run this skill before `plan-work` whenever a change touches an existing module, symbol, or file used by more than one caller. Skip only for net-new code with no existing dependents.\n\nFind the blast radius of the proposed change before a single line is written.\n\n## Process\n\n### 1. Identify the target\n\nName the symbol, module, or file being changed. If the user hasn't specified, ask one question: \"What exactly are you changing?\"\n\n### 2. Find dependents\n\n```\ngrep -rn \"[symbol-name]\" . --include=\"*.ts\" | grep -v node_modules\ngit log --oneline -10 -- [file-path]\n```\n\n\u2192 verify: `grep -rn \"[target]\" . | wc -l`\n\n### 3. Map to release plan stories\n\nRead `specs/release-plan.yaml + epic shards` (if it exists). For each dependent found in Step 2, identify which story owns that module. List stories that will be affected by the change.\n\n\u2192 verify: `grep -c \"Story\" specs/release-plan.yaml + epic shards 2>/dev/null || echo \"no release plan\"`\n\n### 4. List test coverage\n\nFind tests that exercise the target:\n\n```\ngrep -rn \"[symbol-name]\" . --include=\"*.test.*\" --include=\"*.spec.*\"\n```\n\n\u2192 verify: `grep -rn \"[target]\" . --include=\"*.test.*\" | wc -l`\n\n### 5. Classify risk\n\n| Level | Condition |\n|-------|-----------|\n| Low   | \u2264 2 callers, all covered by tests |\n| Medium | 3\u201310 callers, partial test coverage |\n| High  | > 10 callers, or shared API/interface, or no tests |\n\n### 6. Write specs/IMPACT.md\n\n```\n## Target\n[symbol or file being changed]\n\n## Dependents ([count])\n- [file]: [caller or usage]\n\n## Affected Stories\n- Story [X.Y]: [title]\n\n## Test Coverage\n- [test file]: covers [scenario]\n- Gap: [untested behavior]\n\n## Risk: Low / Medium / High\n[One-sentence rationale]\n\n## Recommended action\n[Proceed / Add tests first / Discuss design]\n```\n\n\u2192 verify: `grep \"Risk:\" specs/IMPACT.md`\n\nSuggest `plan-work` once risk is understood and any test gaps are noted.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/assess-impact.mdc"
+    },
+    "description": "59 agent skills for high-integrity, spec-driven, test-first software development by solo developers.  bigpowers provides",
+    "id": "danielvm-git/bigpowers",
+    "language": "Shell",
+    "name": "danielvm-git/bigpowers",
     "stars": 1,
-    "updated_at": "2026-06-02T11:57:15Z",
-    "url": "https://github.com/eumiguellllllllll/copilot-rules"
+    "updated_at": "2026-06-02T12:06:11Z",
+    "url": "https://github.com/danielvm-git/bigpowers"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Instructions for AI agent code generation workflow\nglobs: [\"*\"]\nalwaysApply: true\n---\n\n# AI Collaboration Guidelines\n\n## The 3-Stage Agentic Loop\n\nEvery code generation task MUST follow this loop:\n\n### Stage 1: PLAN (gather context first)\n\nBefore writing ANY code, the AI MUST:\n1. Read the relevant source files to verify current state \u2014 do NOT rely on memory\n2. Identify which `.cursor/rules/` files apply to this task\n3. List the files to modify and explain why\n4. Do NOT write code yet\n\nPrompt template:\n```\nAnalyze the current codebase and plan how to implement [feature]. \nList the files you'll modify and why. Don't write code yet.\n```\n\n### Stage 2: IMPLEMENT (follow constraints)\n\nWhen generating code:\n- Follow ALL active `.cursor/rules/` constraints\n- If unsure about auth patterns, re-read `supabase-auth-security.mdc`\n- If unsure about params/layouts, re-read `nextjs15-params.mdc`\n- Use `unknown` + Zod validation instead of `any` for external data\n- Return `ActionResponse<T>` from all Server Actions (see below)\n\n### Stage 3: VERIFY (confirm before declaring done)\n\nAfter generating code, the AI MUST self-check:\n- [ ] No `getSession()` on the server (MUST be `getUser()`)\n- [ ] No synchronous `params` or `searchParams` access\n- [ ] No `@supabase/auth-helpers-nextjs` imports\n- [ ] No `any` types \u2014 use `unknown` + type narrowing\n- [ ] Every API route has Zod validation\n- [ ] Every error is caught and returns `{ error: string }`\n- [ ] New tables have RLS enabled\n- [ ] `loading.tsx` and `error.tsx` exist for data-fetching pages\n\nReport issues BEFORE the developer runs the code.\n\n## Skeptical Retrieval Rule\n\nNEVER trust stored knowledge about the codebase. Before modifying a file:\n1. Re-read the file to verify its current contents\n2. Check imports and exports to ensure they match expectations\n3. Verify that function signatures haven't changed\n\nThis prevents generating code that references stale function signatures, \ndeleted files, or renamed exports.\n\n## Standard Patterns\n\n### ActionResponse Type (use for all Server Actions)\n```typescript\ntype ActionResponse<T = void> = \n  | { success: true; data: T }\n  | { success: false; error: string }\n```\n\n### Standard Server Action Structure\n```typescript\n'use server'\nimport { createClient } from '@/lib/supabase/server'\nimport { z } from 'zod'\n\nconst Schema = z.object({ /* ... */ })\n\nexport async function myAction(input: unknown): Promise<ActionResponse<MyType>> {\n  // 1. Auth\n  const supabase = await createClient()\n  const { data: { user } } = await supabase.auth.getUser()\n  if (!user) return { success: false, error: 'Unauthorized' }\n\n  // 2. Validate\n  const result = Schema.safeParse(input)\n  if (!result.success) return { success: false, error: 'Invalid input' }\n\n  // 3. Execute\n  try {\n    const { data, error } = await supabase.from('table').insert(result.data).select().single()\n    if (error) throw error\n    return { success: true, data }\n  } catch {\n    return { success: false, error: 'Operation failed' }\n  }\n}\n```\n\n## Task Constraints\n\n- NEVER give the AI a task longer than 200 words\n- NEVER let the AI implement more than 3-4 files in one turn\n- NEVER let the AI skip the verification checklist\n- ALWAYS review the Git diff before committing\n- When uncertain, ask the developer \u2014 do NOT guess\n\n",
+      "format": "mdc",
+      "path": ".cursor/rules/ai-collaboration.mdc"
+    },
+    "description": "29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b",
+    "id": "vibestackdev/vibe-stack",
+    "language": "TypeScript",
+    "name": "vibestackdev/vibe-stack",
+    "stars": 6,
+    "updated_at": "2026-06-02T12:01:28Z",
+    "url": "https://github.com/vibestackdev/vibe-stack"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +33,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-02T11:45:33Z",
+    "updated_at": "2026-06-02T12:00:55Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
+    "id": "eumiguellllllllll/copilot-rules",
+    "language": "Batchfile",
+    "name": "eumiguellllllllll/copilot-rules",
+    "stars": 1,
+    "updated_at": "2026-06-02T11:57:15Z",
+    "url": "https://github.com/eumiguellllllllll/copilot-rules"
   },
   {
     "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
@@ -391,7 +419,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 13617,
+    "stars": 13619,
     "updated_at": "2026-06-01T15:14:31Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -403,20 +431,6 @@
     "stars": 108,
     "updated_at": "2026-06-01T14:54:40Z",
     "url": "https://github.com/Mark393295827/third-brain-v5-skills"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Instructions for AI agent code generation workflow\nglobs: [\"*\"]\nalwaysApply: true\n---\n\n# AI Collaboration Guidelines\n\n## The 3-Stage Agentic Loop\n\nEvery code generation task MUST follow this loop:\n\n### Stage 1: PLAN (gather context first)\n\nBefore writing ANY code, the AI MUST:\n1. Read the relevant source files to verify current state \u2014 do NOT rely on memory\n2. Identify which `.cursor/rules/` files apply to this task\n3. List the files to modify and explain why\n4. Do NOT write code yet\n\nPrompt template:\n```\nAnalyze the current codebase and plan how to implement [feature]. \nList the files you'll modify and why. Don't write code yet.\n```\n\n### Stage 2: IMPLEMENT (follow constraints)\n\nWhen generating code:\n- Follow ALL active `.cursor/rules/` constraints\n- If unsure about auth patterns, re-read `supabase-auth-security.mdc`\n- If unsure about params/layouts, re-read `nextjs15-params.mdc`\n- Use `unknown` + Zod validation instead of `any` for external data\n- Return `ActionResponse<T>` from all Server Actions (see below)\n\n### Stage 3: VERIFY (confirm before declaring done)\n\nAfter generating code, the AI MUST self-check:\n- [ ] No `getSession()` on the server (MUST be `getUser()`)\n- [ ] No synchronous `params` or `searchParams` access\n- [ ] No `@supabase/auth-helpers-nextjs` imports\n- [ ] No `any` types \u2014 use `unknown` + type narrowing\n- [ ] Every API route has Zod validation\n- [ ] Every error is caught and returns `{ error: string }`\n- [ ] New tables have RLS enabled\n- [ ] `loading.tsx` and `error.tsx` exist for data-fetching pages\n\nReport issues BEFORE the developer runs the code.\n\n## Skeptical Retrieval Rule\n\nNEVER trust stored knowledge about the codebase. Before modifying a file:\n1. Re-read the file to verify its current contents\n2. Check imports and exports to ensure they match expectations\n3. Verify that function signatures haven't changed\n\nThis prevents generating code that references stale function signatures, \ndeleted files, or renamed exports.\n\n## Standard Patterns\n\n### ActionResponse Type (use for all Server Actions)\n```typescript\ntype ActionResponse<T = void> = \n  | { success: true; data: T }\n  | { success: false; error: string }\n```\n\n### Standard Server Action Structure\n```typescript\n'use server'\nimport { createClient } from '@/lib/supabase/server'\nimport { z } from 'zod'\n\nconst Schema = z.object({ /* ... */ })\n\nexport async function myAction(input: unknown): Promise<ActionResponse<MyType>> {\n  // 1. Auth\n  const supabase = await createClient()\n  const { data: { user } } = await supabase.auth.getUser()\n  if (!user) return { success: false, error: 'Unauthorized' }\n\n  // 2. Validate\n  const result = Schema.safeParse(input)\n  if (!result.success) return { success: false, error: 'Invalid input' }\n\n  // 3. Execute\n  try {\n    const { data, error } = await supabase.from('table').insert(result.data).select().single()\n    if (error) throw error\n    return { success: true, data }\n  } catch {\n    return { success: false, error: 'Operation failed' }\n  }\n}\n```\n\n## Task Constraints\n\n- NEVER give the AI a task longer than 200 words\n- NEVER let the AI implement more than 3-4 files in one turn\n- NEVER let the AI skip the verification checklist\n- ALWAYS review the Git diff before committing\n- When uncertain, ask the developer \u2014 do NOT guess\n\n",
-      "format": "mdc",
-      "path": ".cursor/rules/ai-collaboration.mdc"
-    },
-    "description": "29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b",
-    "id": "vibestackdev/vibe-stack",
-    "language": "TypeScript",
-    "name": "vibestackdev/vibe-stack",
-    "stars": 6,
-    "updated_at": "2026-06-01T13:33:00Z",
-    "url": "https://github.com/vibestackdev/vibe-stack"
   },
   {
     "description": "Battle-tested agent skills and Cursor rules from real projects. Works with Cursor, Claude Code, and any agent.",
@@ -494,19 +508,5 @@
     "stars": 36,
     "updated_at": "2026-05-31T22:07:12Z",
     "url": "https://github.com/ajhcs/healthcare-agents"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Plan Gate + Karpathy discipline rules (Plan Gate, Surgical Changes, Verify Receipt, Delta Report)\nalwaysApply: true\n---\n\n# Coding Behavior\n\nKarpathy-derived discipline rules. Always on for this project.\n\n## \u26a0\ufe0f MANDATORY: Plan Gate\n**Before writing ANY code, editing ANY file, or running ANY tool that modifies state, you MUST:**\n1. Output a `<plan>` block describing the intended changes.\n2. STOP and wait for the user to reply with the literal word \"GO\".\n3. Do NOT proceed without explicit \"GO\".\n\nThis applies to every non-trivial task \u2014 anything beyond a one-line fix or a question. When in doubt, plan first.\nReading files and answering questions does NOT require a plan.\n\n## Simplicity\n- Build only what was asked. No speculative abstractions, no unrequested \"flexibility\".\n- If 200 lines could be 50, rewrite.\n\n## Surgical Changes\n- Don't touch adjacent code, comments, or formatting.\n- Remove only imports/symbols your change made unused. Mention unrelated dead code; don't delete it.\n- Every changed line must trace to the request.\n\n## Pre-flight File List\nInside the `<plan>` block, include an explicit list of every file you intend to create, modify, or delete.\nIf during execution you discover you need to touch a file not on that list, **STOP** and explain before continuing.\n\n## Goal-Driven\n- Restate the task as a verifiable goal before coding.\n- Each completed block needs a verify step proving PASS/FAIL.\n\n## Verify Receipt\nWhen claiming verification, paste the exact command you ran and its exact output (or relevant tail).\n\"Tested and works\" without a transcript is not acceptable for non-trivial tasks.\n\n## Edge Case Checklist\nBefore declaring a non-trivial task done, for each new public function, CLI command, or HTTP endpoint, briefly note:\n- Empty / missing input behavior\n- Malformed / wrong-type input behavior\n- Large or unusual scale behavior\n- Which error paths exist and how they're handled\n\nIf a case is intentionally not covered, say so explicitly so the user knows.\n\n## Self-Review (Delta Report)\nBefore declaring done on any non-trivial task, output a **Delta Report**, then the final summary:\n\n  Delta Report\n  - Files changed: <path>  (+N / -M)   one line per file\n  - Outside plan: \u26a0\ufe0f <path> \u2014 <one-line reason>   (omit section if none)\n  - Signatures changed: <old> \u2192 <new>              (omit section if none)\n  - Symbols deleted: <name> \u2014 <one-line reason>    (omit section if none)\n  - Verify: <command>  \u2192  <pass/fail + key output>\n\nIf everything matches the plan, the report can be a single line: \"Delta: matches plan; verify passed.\"\nThis is non-negotiable. Skip only for one-line fixes.\n\n## Exploration First\n- Read relevant files and check current API docs before acting. State assumptions explicitly.\n- If multiple interpretations exist, list them \u2014 don't pick silently.\n- If genuinely unclear after extracting intent, ask one focused question.\n\n## Output Format\n- After a task: what changed, any decision worth noting, watch-outs \u2014 2\u20133 lines max (after the Delta Report).\n- No \"Great!\", no restating the request, no \"I hope this helps\".\n- Diffs over full-file rewrites unless creating a new file.\n\n## Code\n- Standard naming. No `var1`, `tmp2`. Isolate Logic / IO / Action.\n\n## Persistence (auto-bootstrap; no per-project setup needed)\n- `progress.md` is the working log. If it does not exist, create it at the project root the first time you complete a milestone, using this structure: Current Focus / Completed / Next Steps / Known Issues. Update it after each milestone.\n- `.cursor/rules/project.mdc` holds project context (tech stack, key paths, commands). Create or update it once stack decisions are finalized \u2014 don't create an empty placeholder preemptively.\n- Do NOT auto-create `.gitignore`; the user's global gitignore already covers common noise (node_modules, .venv, __pycache__, Cursor caches). Add project-specific ignores only when asked.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/behavior.mdc"
-    },
-    "description": "Cursor-native config: a strict Plan Gate + Karpathy discipline rules, /plan /delta /prime-init commands, and a global gi",
-    "id": "xnoahwang/cursor-prime",
-    "language": "PowerShell",
-    "name": "xnoahwang/cursor-prime",
-    "stars": 0,
-    "updated_at": "2026-05-31T21:59:41Z",
-    "url": "https://github.com/xnoahwang/cursor-prime"
   }
 ]
