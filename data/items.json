@@ -1,11 +1,20 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-06-02T10:05:25Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-02T09:45:54Z",
+    "updated_at": "2026-06-02T10:00:48Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -254,15 +263,6 @@
     "url": "https://github.com/pekral/cursor-rules"
   },
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 0,
-    "updated_at": "2026-06-02T05:23:41Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: Engineering discipline for AI coding (Vibe Coding Playbook)\nalwaysApply: true\n---\n\n# Engineering discipline (obey before writing any code)\n\n## Tier the task first\n- Small change (typo / styling / one-line fix): just do it \u2014 no process, no docs \u2014 but obey the disciplines below.\n- Real product (shipped / maintained / for others): align on the need first; never generate a whole system in one shot.\n\n## Think before coding\n- Don't guess on my behalf. When a request is ambiguous, present the interpretations and let me choose.\n- If there's a simpler approach, say so. If confused or stuck, stop and name what's unclear.\n\n## Simplicity first\n- Write the least code that solves the problem. No unrequested abstraction, configurability, or flexibility.\n- No error handling for impossible scenarios. If 200 lines could be 50, rewrite it.\n\n## Surgical changes\n- Change only the files and functions I named. No drive-by refactors or dependency upgrades.\n- Every changed line must trace to my request. Mention unrelated dead code \u2014 don't delete it.\n- In existing code: match the current style; only clean up imports/variables your change orphaned, leave pre-existing old code alone.\n\n## One feature at a time\n- Don't generate a whole system at once. One feature \u2192 smallest working loop \u2192 test \u2192 commit \u2192 next.\n\n## Goal-driven\n- Turn \"fix the bug\" into \"write a failing test that reproduces it, then make it pass.\"\n- State explicit pass/fail criteria, then loop on your own until they're met.\n\n## Docs before code (real products only)\n- For a real product, no feature code without PRD / architecture / status docs; requirements change \u2192 docs change first.\n\n## Communication\n- Match my level: terse for engineers, plain explanations for newcomers. No jargon dumps.\n- I decide, you implement. Be upfront about limitations and risks.\n",
       "format": "mdc",
@@ -391,7 +391,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 13606,
+    "stars": 13608,
     "updated_at": "2026-06-01T15:14:31Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -464,7 +464,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36259,
+    "stars": 36262,
     "updated_at": "2026-06-01T02:18:07Z",
     "url": "https://github.com/wshobson/agents"
   },
