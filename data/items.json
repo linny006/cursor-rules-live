@@ -1,12 +1,17 @@
 [
   {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 15,
-    "updated_at": "2026-06-02T10:16:41Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+    "cursorrules": {
+      "content": "---\ndescription: \"Core ControlFlow identity, source hierarchy, and offline validations for the repository.\"\nalwaysApply: true\n---\n# ControlFlow Core\n\nThis is a prompt/governance/eval repository, not a runtime application.\nCanonical multi-agent policies, roster, and tiers are governed by `.github/copilot-instructions.md` and `plans/project-context.md`.\nCursor workflow: skills in `.cursor/skills/controlflow-*/`, subagents in `.cursor/agents/controlflow-*.md`, plugin package `plugins/controlflow-cursor/`.\nEntry: follow skill `controlflow-strict-workflow` for non-trivial tasks.\nUse `Task(subagent_type=...)` for delegation when available; see `docs/agent-engineering/CURSOR-SUPPORT.md` for fallback.\nCursor cannot execute VS Code-only semantics (`agent/runSubagent`, `@Planner` UI). Do not claim otherwise.\n`AGENTS.md` is compatibility context only, not the primary Cursor artifact.\nAll changes must pass: `cd evals && npm test`.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/controlflow-core.mdc"
+    },
+    "description": "Multi-agent orchestration for VS Code Copilot, Claude Code, OpenAI Codex and Cursor",
+    "id": "Smithbox-ai/ControlFlow",
+    "language": "JavaScript",
+    "name": "Smithbox-ai/ControlFlow",
+    "stars": 11,
+    "updated_at": "2026-06-02T10:32:41Z",
+    "url": "https://github.com/Smithbox-ai/ControlFlow"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +19,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-02T10:15:39Z",
+    "updated_at": "2026-06-02T10:30:51Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 15,
+    "updated_at": "2026-06-02T10:16:41Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -350,20 +364,6 @@
     "url": "https://github.com/mhenke/john-ousterhout-skills"
   },
   {
-    "cursorrules": {
-      "content": "---\ndescription: \"Core ControlFlow identity, source hierarchy, and offline validations for the repository.\"\nalwaysApply: true\n---\n# ControlFlow Core\n\nThis is a prompt/governance/eval repository, not a runtime application.\nCanonical multi-agent policies, roster, and tiers are governed by `.github/copilot-instructions.md` and `plans/project-context.md`.\nCursor workflow: skills in `.cursor/skills/controlflow-*/`, subagents in `.cursor/agents/controlflow-*.md`, plugin package `plugins/controlflow-cursor/`.\nEntry: follow skill `controlflow-strict-workflow` for non-trivial tasks.\nUse `Task(subagent_type=...)` for delegation when available; see `docs/agent-engineering/CURSOR-SUPPORT.md` for fallback.\nCursor cannot execute VS Code-only semantics (`agent/runSubagent`, `@Planner` UI). Do not claim otherwise.\n`AGENTS.md` is compatibility context only, not the primary Cursor artifact.\nAll changes must pass: `cd evals && npm test`.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/controlflow-core.mdc"
-    },
-    "description": "Multi-agent orchestration for VS Code Copilot, Claude Code, OpenAI Codex and Cursor",
-    "id": "Smithbox-ai/ControlFlow",
-    "language": "JavaScript",
-    "name": "Smithbox-ai/ControlFlow",
-    "stars": 11,
-    "updated_at": "2026-06-01T17:11:38Z",
-    "url": "https://github.com/Smithbox-ai/ControlFlow"
-  },
-  {
     "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
     "id": "mikeprasad/aria-knowledge",
     "language": "Shell",
@@ -391,7 +391,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 13609,
+    "stars": 13610,
     "updated_at": "2026-06-01T15:14:31Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
