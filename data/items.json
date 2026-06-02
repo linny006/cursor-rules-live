@@ -1,12 +1,12 @@
 [
   {
-    "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
-    "id": "pekral/cursor-rules",
-    "language": "PHP",
-    "name": "pekral/cursor-rules",
-    "stars": 2,
-    "updated_at": "2026-06-02T06:46:20Z",
-    "url": "https://github.com/pekral/cursor-rules"
+    "description": "Governance-first OS for AI coding agents \u2014 structured workflows, delivery gates, engineering guardrails, and 17 professi",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 3,
+    "updated_at": "2026-06-02T07:04:46Z",
+    "url": "https://github.com/KbWen/agentic-os"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-02T06:45:34Z",
+    "updated_at": "2026-06-02T07:00:54Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
+    "id": "pekral/cursor-rules",
+    "language": "PHP",
+    "name": "pekral/cursor-rules",
+    "stars": 2,
+    "updated_at": "2026-06-02T06:46:20Z",
+    "url": "https://github.com/pekral/cursor-rules"
   },
   {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
@@ -179,15 +188,6 @@
     "stars": 0,
     "updated_at": "2026-06-02T04:42:22Z",
     "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Governance-first OS for AI coding agents \u2014 structured workflows, delivery gates, engineering guardrails, and 17 professi",
-    "id": "KbWen/agentic-os",
-    "language": "Python",
-    "name": "KbWen/agentic-os",
-    "stars": 3,
-    "updated_at": "2026-06-02T06:58:10Z",
-    "url": "https://github.com/KbWen/agentic-os"
   },
   {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
@@ -382,7 +382,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 13580,
+    "stars": 13582,
     "updated_at": "2026-06-01T15:14:31Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -464,7 +464,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36251,
+    "stars": 36252,
     "updated_at": "2026-06-01T02:18:07Z",
     "url": "https://github.com/wshobson/agents"
   },
