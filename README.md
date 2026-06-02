@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-06-02 08:15 UTC
+> ⏰ Last updated: 2026-06-02 08:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -90,7 +90,7 @@ expired items removed — so you can rely on what you see being current.
 | 35 | [Smithbox-ai/ControlFlow](https://github.com/Smithbox-ai/ControlFlow) | 11 | JavaScript | 2026-06-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Smithbox-ai/ControlFlow/) | Multi-agent orchestration for VS Code Copilot, Claude Code, OpenAI Codex and Cursor |
 | 36 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 12 | Shell | 2026-06-01 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
 | 37 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-06-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/agenticstandardcontact-byte/agentic-architect/) | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
-| 38 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 13592 | Shell | 2026-06-01 | — | 🎭 211 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 16 种工具，覆盖工程/设计/营销/金融等 18 个部门。含 46 个中国市场原创智能体（小红书/抖音/ |
+| 38 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 13598 | Shell | 2026-06-01 | — | 🎭 211 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 16 种工具，覆盖工程/设计/营销/金融等 18 个部门。含 46 个中国市场原创智能体（小红书/抖音/ |
 | 39 | [Mark393295827/third-brain-v5-skills](https://github.com/Mark393295827/third-brain-v5-skills) | 108 | HTML | 2026-06-01 | — | agent skills |
 | 40 | [vibestackdev/vibe-stack](https://github.com/vibestackdev/vibe-stack) | 6 | TypeScript | 2026-06-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/) | 29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b |
 | 41 | [jcottam/agent-resources](https://github.com/jcottam/agent-resources) | 1 | Shell | 2026-06-01 | — | Battle-tested agent skills and Cursor rules from real projects. Works with Cursor, Claude Code, and any agent. |
@@ -98,7 +98,7 @@ expired items removed — so you can rely on what you see being current.
 | 43 | [haidrrrry/compose-kotlin-agent-skills](https://github.com/haidrrrry/compose-kotlin-agent-skills) | 24 | Markdown | 2026-06-01 | — | Jetpack Compose & Kotlin AI agent skills for Cursor, Claude Code, Codex, Gemini & 27+ agents. Strict MVI · Kotlin 2.x K2 |
 | 44 | [glowElephant/context-forge](https://github.com/glowElephant/context-forge) | 2 | Python | 2026-06-01 | — | Auto harness engineering meta-repo: discuss → curate → bootstrap a context-engineered project for Claude Code, Cursor, C |
 | 45 | [grnbtqdbyx-create/contextforge](https://github.com/grnbtqdbyx-create/contextforge) | 1 | TypeScript | 2026-06-01 | — | Agent context gate for Codex, Claude Code, Copilot, MCP, Cursor, Cline, Gemini and Windsurf repos |
-| 46 | [wshobson/agents](https://github.com/wshobson/agents) | 36254 | Python | 2026-06-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI |
+| 46 | [wshobson/agents](https://github.com/wshobson/agents) | 36255 | Python | 2026-06-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI |
 | 47 | [baneeishaque/ai-agent-rules](https://github.com/baneeishaque/ai-agent-rules) | 3 | TypeScript | 2026-05-31 | — |  |
 | 48 | [tyr1105/codeforge-ai](https://github.com/tyr1105/codeforge-ai) | 0 | HTML | 2026-05-31 | — | 100+ production-ready configurations for AI coding agents (Cursor, Claude Code, Codex, Copilot) |
 | 49 | [ajhcs/healthcare-agents](https://github.com/ajhcs/healthcare-agents) | 36 | JavaScript | 2026-05-31 | — | Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows. |
