@@ -1,12 +1,12 @@
 [
   {
-    "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
-    "id": "pekral/cursor-rules",
-    "language": "PHP",
-    "name": "pekral/cursor-rules",
-    "stars": 2,
-    "updated_at": "2026-06-02T11:34:18Z",
-    "url": "https://github.com/pekral/cursor-rules"
+    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
+    "id": "eumiguellllllllll/copilot-rules",
+    "language": "Batchfile",
+    "name": "eumiguellllllllll/copilot-rules",
+    "stars": 1,
+    "updated_at": "2026-06-02T11:57:15Z",
+    "url": "https://github.com/eumiguellllllllll/copilot-rules"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-02T11:30:35Z",
+    "updated_at": "2026-06-02T11:45:33Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
+    "id": "pekral/cursor-rules",
+    "language": "PHP",
+    "name": "pekral/cursor-rules",
+    "stars": 2,
+    "updated_at": "2026-06-02T11:34:18Z",
+    "url": "https://github.com/pekral/cursor-rules"
   },
   {
     "cursorrules": {
@@ -268,15 +277,6 @@
     "url": "https://github.com/Luxvil/ai-coding-rules"
   },
   {
-    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
-    "id": "eumiguellllllllll/copilot-rules",
-    "language": "Batchfile",
-    "name": "eumiguellllllllll/copilot-rules",
-    "stars": 1,
-    "updated_at": "2026-06-02T07:51:59Z",
-    "url": "https://github.com/eumiguellllllllll/copilot-rules"
-  },
-  {
     "description": "Governance-first OS for AI coding agents \u2014 structured workflows, delivery gates, engineering guardrails, and 17 professi",
     "id": "KbWen/agentic-os",
     "language": "Python",
@@ -295,7 +295,7 @@
     "id": "ayi-ai/vibe-coding-playbook",
     "language": "\u2014",
     "name": "ayi-ai/vibe-coding-playbook",
-    "stars": 0,
+    "stars": 1,
     "updated_at": "2026-06-02T03:05:39Z",
     "url": "https://github.com/ayi-ai/vibe-coding-playbook"
   },
@@ -391,7 +391,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 13615,
+    "stars": 13617,
     "updated_at": "2026-06-01T15:14:31Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
