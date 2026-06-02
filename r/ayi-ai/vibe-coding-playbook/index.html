@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<title>ayi-ai/vibe-coding-playbook - entry on Cursor Rules Live</title>
+<meta name="description" content="The product-workflow layer on top of AI coding discipline — idea to shipped, without the spaghetti. Builds on Karpathy&#x27;s">
+<link rel="canonical" href="https://linny006.github.io/cursor-rules-live/r/ayi-ai/vibe-coding-playbook/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ayi-ai/vibe-coding-playbook - entry on Cursor Rules Live">
+<meta property="og:description" content="The product-workflow layer on top of AI coding discipline — idea to shipped, without the spaghetti. Builds on Karpathy&#x27;s">
+<meta property="og:url" content="https://linny006.github.io/cursor-rules-live/r/ayi-ai/vibe-coding-playbook/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="ayi-ai/vibe-coding-playbook - entry on Cursor Rules Live">
+<meta name="twitter:description" content="The product-workflow layer on top of AI coding discipline — idea to shipped, without the spaghetti. Builds on Karpathy&#x27;s">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"ayi-ai/vibe-coding-playbook","codeRepository":"https://github.com/ayi-ai/vibe-coding-playbook","programmingLanguage":"—","url":"https://linny006.github.io/cursor-rules-live/r/ayi-ai/vibe-coding-playbook/","description":"The product-workflow layer on top of AI coding discipline — idea to shipped, without the spaghetti. Builds on Karpathy's","author":{"@type":"Person","name":"ayi-ai","url":"https://github.com/ayi-ai"},"dateModified":"2026-06-02"}</script>
+<style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
+         --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 16px; font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--fg); background: var(--bg); }
+.wrap { max-width: var(--max); margin: 0 auto; }
+nav.bc { font-size: 14px; color: var(--muted); margin-bottom: 16px; }
+nav.bc a { color: var(--muted); }
+h1 { font-size: 28px; margin: 0 0 8px; }
+h2 { font-size: 20px; margin: 24px 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+p.lead { font-size: 18px; color: var(--muted); margin: 0 0 24px; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+th, td { padding: 8px 12px; text-align: left; border-bottom: 1px solid var(--border); }
+th { background: var(--card); font-weight: 600; }
+ul.crosslinks { list-style: none; padding: 0; }
+ul.crosslinks li { padding: 6px 0; }
+ul.crosslinks li a { font-weight: 500; }
+.meta { display: flex; gap: 16px; flex-wrap: wrap; color: var(--muted); font-size: 14px; margin: 12px 0; }
+.meta span::before { content: "\00b7"; margin-right: 8px; color: var(--border); }
+.meta span:first-child::before { content: ""; }
+footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--border); font-size: 14px; color: var(--muted); }</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="bc"><a href="https://linny006.github.io/cursor-rules-live/">Cursor Rules Live</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/popular/">Entries</a> &#183; <span>ayi-ai/vibe-coding-playbook</span></nav>
+<main>
+<h1>ayi-ai/vibe-coding-playbook</h1>
+<p class="lead">The product-workflow layer on top of AI coding discipline — idea to shipped, without the spaghetti. Builds on Karpathy&#x27;s</p>
+<div class="meta">
+<span><strong>Stars</strong> 0</span>
+<span><strong>Language</strong> —</span>
+<span><strong>Last updated</strong> 2026-06-02</span>
+<span><a href="https://github.com/ayi-ai/vibe-coding-playbook" rel="external">Source on GitHub</a></span>
+<span><a href="https://github.com/ayi-ai" rel="external">@ayi-ai</a></span>
+</div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/vibe-coding-playbook.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
+description: Engineering discipline for AI coding (Vibe Coding Playbook)
+alwaysApply: true
+---
+
+# Engineering discipline (obey before writing any code)
+
+## Tier the task first
+- Small change (typo / styling / one-line fix): just do it — no process, no docs — but obey the disciplines below.
+- Real product (shipped / maintained / for others): align on the need first; never generate a whole system in one shot.
+
+## Think before coding
+- Don&#x27;t guess on my behalf. When a request is ambiguous, present the interpretations and let me choose.
+- If there&#x27;s a simpler approach, say so. If confused or stuck, stop and name what&#x27;s unclear.
+
+## Simplicity first
+- Write the least code that solves the problem. No unrequested abstraction, configurability, or flexibility.
+- No error handling for impossible scenarios. If 200 lines could be 50, rewrite it.
+
+## Surgical changes
+- Change only the files and functions I named. No drive-by refactors or dependency upgrades.
+- Every changed line must trace to my request. Mention unrelated dead code — don&#x27;t delete it.
+- In existing code: match the current style; only clean up imports/variables your change orphaned, leave pre-existing old code alone.
+
+## One feature at a time
+- Don&#x27;t generate a whole system at once. One feature → smallest working loop → test → commit → next.
+
+## Goal-driven
+- Turn &quot;fix the bug&quot; into &quot;write a failing test that reproduces it, then make it pass.&quot;
+- State explicit pass/fail criteria, then loop on your own until they&#x27;re met.
+
+## Docs before code (real products only)
+- For a real product, no feature code without PRD / architecture / status docs; requirements change → docs change first.
+
+## Communication
+- Match my level: terse for engineers, plain explanations for newcomers. No jargon dumps.
+- I decide, you implement. Be upfront about limitations and risks.
+</code></pre>
+<p><a href="https://github.com/ayi-ai/vibe-coding-playbook/blob/HEAD/.cursor/rules/vibe-coding-playbook.mdc" rel="external">View raw on GitHub</a></p>
+</section>
+<section><h2>Why this is listed</h2>
+<p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
+<section><h2>Similar in this tracker</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/r/J-nowcow/awesome-korean-agent-skills/">J-nowcow/awesome-korean-agent-skills (stars:15)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/pemdes174/cursor-rules/">pemdes174/cursor-rules (stars:5)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/whydixit/cursor-starter/">whydixit/cursor-starter (stars:4)</a></li>
+</ul></section>
+<section><h2>Explore by category</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/popular/">Popular (by stars)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/recent/">Recent (by activity)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/new/">New this week</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/lang/x/">All — entries</a></li>
+</ul></section>
+</main>
+<footer>
+Auto-updated every 15 minutes via GitHub Actions &#183; <a href="https://linny006.github.io/cursor-rules-live/">tracker root</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/sitemap.xml">sitemap</a>
+</footer>
+</div>
+</body>
+</html>

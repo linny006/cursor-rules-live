@@ -1,12 +1,17 @@
 [
   {
-    "description": "Curated AI Agent Profiles for Claude Code, Codex, Cursor and more \u2014 install with forgecat CLI",
-    "id": "nota-america/forgecat-agent-profiles",
-    "language": "TypeScript",
-    "name": "nota-america/forgecat-agent-profiles",
-    "stars": 2,
-    "updated_at": "2026-06-02T02:49:34Z",
-    "url": "https://github.com/nota-america/forgecat-agent-profiles"
+    "cursorrules": {
+      "content": "---\ndescription: Engineering discipline for AI coding (Vibe Coding Playbook)\nalwaysApply: true\n---\n\n# Engineering discipline (obey before writing any code)\n\n## Tier the task first\n- Small change (typo / styling / one-line fix): just do it \u2014 no process, no docs \u2014 but obey the disciplines below.\n- Real product (shipped / maintained / for others): align on the need first; never generate a whole system in one shot.\n\n## Think before coding\n- Don't guess on my behalf. When a request is ambiguous, present the interpretations and let me choose.\n- If there's a simpler approach, say so. If confused or stuck, stop and name what's unclear.\n\n## Simplicity first\n- Write the least code that solves the problem. No unrequested abstraction, configurability, or flexibility.\n- No error handling for impossible scenarios. If 200 lines could be 50, rewrite it.\n\n## Surgical changes\n- Change only the files and functions I named. No drive-by refactors or dependency upgrades.\n- Every changed line must trace to my request. Mention unrelated dead code \u2014 don't delete it.\n- In existing code: match the current style; only clean up imports/variables your change orphaned, leave pre-existing old code alone.\n\n## One feature at a time\n- Don't generate a whole system at once. One feature \u2192 smallest working loop \u2192 test \u2192 commit \u2192 next.\n\n## Goal-driven\n- Turn \"fix the bug\" into \"write a failing test that reproduces it, then make it pass.\"\n- State explicit pass/fail criteria, then loop on your own until they're met.\n\n## Docs before code (real products only)\n- For a real product, no feature code without PRD / architecture / status docs; requirements change \u2192 docs change first.\n\n## Communication\n- Match my level: terse for engineers, plain explanations for newcomers. No jargon dumps.\n- I decide, you implement. Be upfront about limitations and risks.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/vibe-coding-playbook.mdc"
+    },
+    "description": "The product-workflow layer on top of AI coding discipline \u2014 idea to shipped, without the spaghetti. Builds on Karpathy's",
+    "id": "ayi-ai/vibe-coding-playbook",
+    "language": "\u2014",
+    "name": "ayi-ai/vibe-coding-playbook",
+    "stars": 0,
+    "updated_at": "2026-06-02T03:05:39Z",
+    "url": "https://github.com/ayi-ai/vibe-coding-playbook"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +19,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-02T02:45:47Z",
+    "updated_at": "2026-06-02T03:00:32Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Curated AI Agent Profiles for Claude Code, Codex, Cursor and more \u2014 install with forgecat CLI",
+    "id": "nota-america/forgecat-agent-profiles",
+    "language": "TypeScript",
+    "name": "nota-america/forgecat-agent-profiles",
+    "stars": 2,
+    "updated_at": "2026-06-02T02:49:34Z",
+    "url": "https://github.com/nota-america/forgecat-agent-profiles"
   },
   {
     "description": "Build unique user interfaces with a structured ruleset to prevent generic AI output.",
@@ -359,7 +373,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 13550,
+    "stars": 13553,
     "updated_at": "2026-06-01T15:14:31Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -494,19 +508,5 @@
     "stars": 0,
     "updated_at": "2026-05-31T21:59:41Z",
     "url": "https://github.com/xnoahwang/cursor-prime"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: \"Analyze the blast radius of a proposed change before any code is written. Maps dependents, affected stories, and test coverage. Produces specs/IMPACT.md. Use before plan-work on any non-trivial change, when touching a shared module, or when the user asks \"what does this break?\".\"\nalwaysApply: false\n---\n\n\n# Assess Impact\n\n> **HARD GATE** \u2014 Run this skill before `plan-work` whenever a change touches an existing module, symbol, or file used by more than one caller. Skip only for net-new code with no existing dependents.\n\nFind the blast radius of the proposed change before a single line is written.\n\n## Process\n\n### 1. Identify the target\n\nName the symbol, module, or file being changed. If the user hasn't specified, ask one question: \"What exactly are you changing?\"\n\n### 2. Find dependents\n\n```\ngrep -rn \"[symbol-name]\" . --include=\"*.ts\" | grep -v node_modules\ngit log --oneline -10 -- [file-path]\n```\n\n\u2192 verify: `grep -rn \"[target]\" . | wc -l`\n\n### 3. Map to release plan stories\n\nRead `specs/RELEASE-PLAN.md` (if it exists). For each dependent found in Step 2, identify which story owns that module. List stories that will be affected by the change.\n\n\u2192 verify: `grep -c \"Story\" specs/RELEASE-PLAN.md 2>/dev/null || echo \"no release plan\"`\n\n### 4. List test coverage\n\nFind tests that exercise the target:\n\n```\ngrep -rn \"[symbol-name]\" . --include=\"*.test.*\" --include=\"*.spec.*\"\n```\n\n\u2192 verify: `grep -rn \"[target]\" . --include=\"*.test.*\" | wc -l`\n\n### 5. Classify risk\n\n| Level | Condition |\n|-------|-----------|\n| Low   | \u2264 2 callers, all covered by tests |\n| Medium | 3\u201310 callers, partial test coverage |\n| High  | > 10 callers, or shared API/interface, or no tests |\n\n### 6. Write specs/IMPACT.md\n\n```\n## Target\n[symbol or file being changed]\n\n## Dependents ([count])\n- [file]: [caller or usage]\n\n## Affected Stories\n- Story [X.Y]: [title]\n\n## Test Coverage\n- [test file]: covers [scenario]\n- Gap: [untested behavior]\n\n## Risk: Low / Medium / High\n[One-sentence rationale]\n\n## Recommended action\n[Proceed / Add tests first / Discuss design]\n```\n\n\u2192 verify: `grep \"Risk:\" specs/IMPACT.md`\n\nSuggest `plan-work` once risk is understood and any test gaps are noted.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/assess-impact.mdc"
-    },
-    "description": "59 agent skills for high-integrity, spec-driven, test-first software development by solo developers.  bigpowers provides",
-    "id": "danielvm-git/bigpowers",
-    "language": "Shell",
-    "name": "danielvm-git/bigpowers",
-    "stars": 1,
-    "updated_at": "2026-05-31T20:38:11Z",
-    "url": "https://github.com/danielvm-git/bigpowers"
   }
 ]
