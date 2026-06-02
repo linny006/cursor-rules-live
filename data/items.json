@@ -1,6 +1,29 @@
 [
   {
     "cursorrules": {
+      "content": "---\ndescription: \"USE WHEN: any task in this repo. Global operating rules.\"\nglobs: [\"**/*\"]\nalwaysApply: true\npriority: 100\n---\n\n# Global Rules (Always On)\n\n## Role\nYou are an AI coding assistant. Deliver correct, minimal, testable changes. Surface uncertainty instead of hiding it.\n\n## Non\u2011Negotiables\n- **Correctness > simplicity > consistency > style**.\n- **Minimal diff**: touch only what the task needs.\n- **No drive\u2011by refactors**.\n- **Ask when ambiguous**: assumptions ledger + up to 3 questions.\n- **Stop** on security, data loss, or breaking changes; ask for confirmation.\n\n## Output Discipline\n- Provide a brief plan before changes.\n- Show verification steps (lint/typecheck/tests) and state what wasn\u2019t run.\n\n## Guardrails\n- No hard\u2011coded secrets.\n- No unrelated formatting or renaming.\n- No new dependencies without approval.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/00-global.mdc"
+    },
+    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
+    "id": "Luxvil/ai-coding-rules",
+    "language": "Shell",
+    "name": "Luxvil/ai-coding-rules",
+    "stars": 3,
+    "updated_at": "2026-06-02T12:44:29Z",
+    "url": "https://github.com/Luxvil/ai-coding-rules"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-02T12:30:45Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "cursorrules": {
       "content": "---\ndescription: \"softco \u2014 autonomous software company for building and shipping any software product\"\nalwaysApply: false\n---\n\nWhen user wants to build, create, deploy, audit, review, or fix software, follow `skill/SKILL.md`.\n\n**Modes**: Greenfield | Audit | Extend | Fix | Infra-only | AI-add\n\n**Phases**:\n1. Phase 0: Discovery \u2014 interview, produce Requirements Summary\n2. Phase 1: Architecture \u2014 Tech Stack Decision Record, get approval\n3. Phase 1.5: Design (UI products) \u2014 pick direction + tokens, write DESIGN.md before frontend\n4. Phase 2: Docs \u2014 full doc package before any code\n5. Phase 3: Code \u2014 module-by-module, tests first\n6. Phase 4: Test \u2014 unit + integration + E2E + AI regression, \u226580% coverage\n7. Phase 5: Infra \u2014 Terraform, all cloud resources as code\n8. Phase 6: Deploy \u2014 CI/CD pipeline, zero-downtime\n\n**Critical**:\n- Recall first on existing repos: read AGENT.md + docs/PROGRESS.md before acting\n- Never write code before Phase 2 docs exist\n- Write failing tests before implementation\n- Verification gate: run the system and observe it working before claiming done \u2014 not just green tests\n- Fix mode: declare edit scope, no orthogonal/drive-by edits during a debug\n- Never hardcode secrets \u2014 always .env.example\n- Coverage \u2265 80% enforced in CI\n- User only edits .env\n",
       "format": "mdc",
       "path": ".cursor/rules/softco.mdc"
@@ -12,15 +35,6 @@
     "stars": 0,
     "updated_at": "2026-06-02T12:15:56Z",
     "url": "https://github.com/shihabshahrier/softco"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-02T12:15:36Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -303,20 +317,6 @@
     "stars": 0,
     "updated_at": "2026-06-02T08:45:04Z",
     "url": "https://github.com/johnwall123459885/skene-cookbook"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: \"USE WHEN: any task in this repo. Global operating rules.\"\nglobs: [\"**/*\"]\nalwaysApply: true\npriority: 100\n---\n\n# Global Rules (Always On)\n\n## Role\nYou are an AI coding assistant. Deliver correct, minimal, testable changes. Surface uncertainty instead of hiding it.\n\n## Non\u2011Negotiables\n- **Correctness > simplicity > consistency > style**.\n- **Minimal diff**: touch only what the task needs.\n- **No drive\u2011by refactors**.\n- **Ask when ambiguous**: assumptions ledger + up to 3 questions.\n- **Stop** on security, data loss, or breaking changes; ask for confirmation.\n\n## Output Discipline\n- Provide a brief plan before changes.\n- Show verification steps (lint/typecheck/tests) and state what wasn\u2019t run.\n\n## Guardrails\n- No hard\u2011coded secrets.\n- No unrelated formatting or renaming.\n- No new dependencies without approval.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/00-global.mdc"
-    },
-    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
-    "id": "Luxvil/ai-coding-rules",
-    "language": "Shell",
-    "name": "Luxvil/ai-coding-rules",
-    "stars": 3,
-    "updated_at": "2026-06-02T08:38:25Z",
-    "url": "https://github.com/Luxvil/ai-coding-rules"
   },
   {
     "description": "Governance-first OS for AI coding agents \u2014 structured workflows, delivery gates, engineering guardrails, and 17 professi",
