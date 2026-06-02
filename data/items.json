@@ -1,12 +1,12 @@
 [
   {
-    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
-    "id": "zinxj/uikit-expert-skill",
-    "language": "\u2014",
-    "name": "zinxj/uikit-expert-skill",
-    "stars": 3,
-    "updated_at": "2026-06-02T20:15:57Z",
-    "url": "https://github.com/zinxj/uikit-expert-skill"
+    "description": "Battle-tested agent skills and Cursor rules from real projects. Works with Cursor, Claude Code, and any agent.",
+    "id": "jcottam/agent-resources",
+    "language": "Shell",
+    "name": "jcottam/agent-resources",
+    "stars": 1,
+    "updated_at": "2026-06-02T20:30:08Z",
+    "url": "https://github.com/jcottam/agent-resources"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-02T20:15:35Z",
+    "updated_at": "2026-06-02T20:26:00Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
+    "id": "zinxj/uikit-expert-skill",
+    "language": "\u2014",
+    "name": "zinxj/uikit-expert-skill",
+    "stars": 3,
+    "updated_at": "2026-06-02T20:15:57Z",
+    "url": "https://github.com/zinxj/uikit-expert-skill"
   },
   {
     "description": "Manage and organize project workspaces while dynamically injecting relevant skills for efficient AI assistant context lo",
@@ -486,15 +495,6 @@
     "stars": 109,
     "updated_at": "2026-06-01T14:54:40Z",
     "url": "https://github.com/Mark393295827/third-brain-v5-skills"
-  },
-  {
-    "description": "Battle-tested agent skills and Cursor rules from real projects. Works with Cursor, Claude Code, and any agent.",
-    "id": "jcottam/agent-resources",
-    "language": "Shell",
-    "name": "jcottam/agent-resources",
-    "stars": 1,
-    "updated_at": "2026-06-02T20:25:12Z",
-    "url": "https://github.com/jcottam/agent-resources"
   },
   {
     "description": "Jetpack Compose & Kotlin AI agent skills for Cursor, Claude Code, Codex, Gemini & 27+ agents. Strict MVI \u00b7 Kotlin 2.x K2",
