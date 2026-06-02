@@ -1,12 +1,17 @@
 [
   {
-    "description": "Claude Code skill that lints your CLAUDE.md, AGENTS.md, and .cursorrules based on empirical research. Your context file ",
-    "id": "danmartuszewski/agentlint",
-    "language": "\u2014",
-    "name": "danmartuszewski/agentlint",
-    "stars": 1,
-    "updated_at": "2026-06-02T19:40:57Z",
-    "url": "https://github.com/danmartuszewski/agentlint"
+    "cursorrules": {
+      "content": "---\ndescription: \"USE WHEN: any task in this repo. Global operating rules.\"\nglobs: [\"**/*\"]\nalwaysApply: true\npriority: 100\n---\n\n# Global Rules (Always On)\n\n## Role\nYou are an AI coding assistant. Deliver correct, minimal, testable changes. Surface uncertainty instead of hiding it.\n\n## Non\u2011Negotiables\n- **Correctness > simplicity > consistency > style**.\n- **Minimal diff**: touch only what the task needs.\n- **No drive\u2011by refactors**.\n- **Ask when ambiguous**: assumptions ledger + up to 3 questions.\n- **Stop** on security, data loss, or breaking changes; ask for confirmation.\n\n## Output Discipline\n- Provide a brief plan before changes.\n- Show verification steps (lint/typecheck/tests) and state what wasn\u2019t run.\n\n## Guardrails\n- No hard\u2011coded secrets.\n- No unrelated formatting or renaming.\n- No new dependencies without approval.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/00-global.mdc"
+    },
+    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
+    "id": "Luxvil/ai-coding-rules",
+    "language": "Shell",
+    "name": "Luxvil/ai-coding-rules",
+    "stars": 3,
+    "updated_at": "2026-06-02T19:57:36Z",
+    "url": "https://github.com/Luxvil/ai-coding-rules"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +19,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-02T19:30:50Z",
+    "updated_at": "2026-06-02T19:45:35Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Claude Code skill that lints your CLAUDE.md, AGENTS.md, and .cursorrules based on empirical research. Your context file ",
+    "id": "danmartuszewski/agentlint",
+    "language": "\u2014",
+    "name": "danmartuszewski/agentlint",
+    "stars": 1,
+    "updated_at": "2026-06-02T19:40:57Z",
+    "url": "https://github.com/danmartuszewski/agentlint"
   },
   {
     "cursorrules": {
@@ -282,20 +296,6 @@
     "url": "https://github.com/johnwall123459885/skene-cookbook"
   },
   {
-    "cursorrules": {
-      "content": "---\ndescription: \"USE WHEN: any task in this repo. Global operating rules.\"\nglobs: [\"**/*\"]\nalwaysApply: true\npriority: 100\n---\n\n# Global Rules (Always On)\n\n## Role\nYou are an AI coding assistant. Deliver correct, minimal, testable changes. Surface uncertainty instead of hiding it.\n\n## Non\u2011Negotiables\n- **Correctness > simplicity > consistency > style**.\n- **Minimal diff**: touch only what the task needs.\n- **No drive\u2011by refactors**.\n- **Ask when ambiguous**: assumptions ledger + up to 3 questions.\n- **Stop** on security, data loss, or breaking changes; ask for confirmation.\n\n## Output Discipline\n- Provide a brief plan before changes.\n- Show verification steps (lint/typecheck/tests) and state what wasn\u2019t run.\n\n## Guardrails\n- No hard\u2011coded secrets.\n- No unrelated formatting or renaming.\n- No new dependencies without approval.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/00-global.mdc"
-    },
-    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
-    "id": "Luxvil/ai-coding-rules",
-    "language": "Shell",
-    "name": "Luxvil/ai-coding-rules",
-    "stars": 3,
-    "updated_at": "2026-06-02T15:46:14Z",
-    "url": "https://github.com/Luxvil/ai-coding-rules"
-  },
-  {
     "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
     "id": "fluttersdk/wind",
     "language": "Dart",
@@ -388,7 +388,7 @@
     "language": "Python",
     "name": "KbWen/agentic-os",
     "stars": 3,
-    "updated_at": "2026-06-02T07:04:46Z",
+    "updated_at": "2026-06-02T19:46:56Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
   {
@@ -474,7 +474,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 13645,
+    "stars": 13646,
     "updated_at": "2026-06-01T15:14:31Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
