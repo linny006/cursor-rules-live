@@ -1,12 +1,12 @@
 [
   {
-    "description": "Manage and organize project workspaces while dynamically injecting relevant skills for efficient AI assistant context lo",
-    "id": "GrekosTheJogurt/antigravity-workspace-manager",
-    "language": "Python",
-    "name": "GrekosTheJogurt/antigravity-workspace-manager",
-    "stars": 1,
-    "updated_at": "2026-06-02T12:58:05Z",
-    "url": "https://github.com/GrekosTheJogurt/antigravity-workspace-manager"
+    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
+    "id": "zinxj/uikit-expert-skill",
+    "language": "\u2014",
+    "name": "zinxj/uikit-expert-skill",
+    "stars": 3,
+    "updated_at": "2026-06-02T13:01:41Z",
+    "url": "https://github.com/zinxj/uikit-expert-skill"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-02T12:52:45Z",
+    "updated_at": "2026-06-02T13:00:42Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Manage and organize project workspaces while dynamically injecting relevant skills for efficient AI assistant context lo",
+    "id": "GrekosTheJogurt/antigravity-workspace-manager",
+    "language": "Python",
+    "name": "GrekosTheJogurt/antigravity-workspace-manager",
+    "stars": 1,
+    "updated_at": "2026-06-02T12:58:05Z",
+    "url": "https://github.com/GrekosTheJogurt/antigravity-workspace-manager"
   },
   {
     "cursorrules": {
@@ -324,15 +333,6 @@
     "url": "https://github.com/philipbankier/awesome-agent-skills"
   },
   {
-    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
-    "id": "zinxj/uikit-expert-skill",
-    "language": "\u2014",
-    "name": "zinxj/uikit-expert-skill",
-    "stars": 3,
-    "updated_at": "2026-06-02T08:55:01Z",
-    "url": "https://github.com/zinxj/uikit-expert-skill"
-  },
-  {
     "description": "Governance-first OS for AI coding agents \u2014 structured workflows, delivery gates, engineering guardrails, and 17 professi",
     "id": "KbWen/agentic-os",
     "language": "Python",
@@ -433,7 +433,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 13619,
+    "stars": 13620,
     "updated_at": "2026-06-01T15:14:31Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
