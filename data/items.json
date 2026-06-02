@@ -5,17 +5,8 @@
     "language": "PHP",
     "name": "pekral/cursor-rules",
     "stars": 2,
-    "updated_at": "2026-06-02T17:37:58Z",
+    "updated_at": "2026-06-02T17:59:49Z",
     "url": "https://github.com/pekral/cursor-rules"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-02T17:30:45Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -23,13 +14,22 @@
       "format": "mdc",
       "path": ".cursor/rules/skillpack-forge.mdc"
     },
-    "description": "One manifest for every AI coding agent: generate AGENTS.md, Claude Skills, Codex Skills, Cursor rules, and Copilot instr",
+    "description": "One manifest for every AI coding agent: generate AGENTS.md, CLAUDE.md, Claude/Codex Skills, Cursor rules, Copilot instru",
     "id": "guorunjie/skillpack-forge",
     "language": "JavaScript",
     "name": "guorunjie/skillpack-forge",
     "stars": 1,
-    "updated_at": "2026-06-02T17:09:04Z",
+    "updated_at": "2026-06-02T17:59:41Z",
     "url": "https://github.com/guorunjie/skillpack-forge"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-02T17:45:33Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -456,7 +456,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 13643,
+    "stars": 13645,
     "updated_at": "2026-06-01T15:14:31Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
