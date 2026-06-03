@@ -1,12 +1,57 @@
 [
   {
-    "description": "Build 9 iOS agent skills for SwiftUI, testing, security, and more in one install for AI coding agents",
-    "id": "ebbaunqualified520/ios-agent-skills",
-    "language": "Shell",
-    "name": "ebbaunqualified520/ios-agent-skills",
+    "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
+    "id": "Bastioned-successor320/learn-nanobot",
+    "language": "Python",
+    "name": "Bastioned-successor320/learn-nanobot",
     "stars": 0,
-    "updated_at": "2026-06-03T07:13:56Z",
-    "url": "https://github.com/ebbaunqualified520/ios-agent-skills"
+    "updated_at": "2026-06-03T07:29:19Z",
+    "url": "https://github.com/Bastioned-successor320/learn-nanobot"
+  },
+  {
+    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
+    "id": "XAKLESK/cre-agent-skills",
+    "language": "\u2014",
+    "name": "XAKLESK/cre-agent-skills",
+    "stars": 1,
+    "updated_at": "2026-06-03T07:26:46Z",
+    "url": "https://github.com/XAKLESK/cre-agent-skills"
+  },
+  {
+    "description": "Test iOS agent skills with 11 tasks, 260+ scenarios, and 850+ assertions across 3 models",
+    "id": "christim427-rgb/ios-agent-skills",
+    "language": "Python",
+    "name": "christim427-rgb/ios-agent-skills",
+    "stars": 1,
+    "updated_at": "2026-06-03T07:24:32Z",
+    "url": "https://github.com/christim427-rgb/ios-agent-skills"
+  },
+  {
+    "description": "Build programmatic UIKit apps with production-ready patterns for views, navigation, animation, architecture, and data fl",
+    "id": "nizhan80-art/Swift-UIKit-Skill",
+    "language": "\u2014",
+    "name": "nizhan80-art/Swift-UIKit-Skill",
+    "stars": 1,
+    "updated_at": "2026-06-03T07:19:49Z",
+    "url": "https://github.com/nizhan80-art/Swift-UIKit-Skill"
+  },
+  {
+    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
+    "id": "Amirun99/agency-orchestrator",
+    "language": "Dart",
+    "name": "Amirun99/agency-orchestrator",
+    "stars": 0,
+    "updated_at": "2026-06-03T07:18:52Z",
+    "url": "https://github.com/Amirun99/agency-orchestrator"
+  },
+  {
+    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
+    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "language": "\u2014",
+    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "stars": 2,
+    "updated_at": "2026-06-03T07:17:41Z",
+    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +59,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-03T07:00:35Z",
+    "updated_at": "2026-06-03T07:15:35Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Build 9 iOS agent skills for SwiftUI, testing, security, and more in one install for AI coding agents",
+    "id": "ebbaunqualified520/ios-agent-skills",
+    "language": "Shell",
+    "name": "ebbaunqualified520/ios-agent-skills",
+    "stars": 0,
+    "updated_at": "2026-06-03T07:13:56Z",
+    "url": "https://github.com/ebbaunqualified520/ios-agent-skills"
   },
   {
     "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
@@ -215,15 +269,6 @@
     "url": "https://github.com/Hyanthropological659/clarify-skill"
   },
   {
-    "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
-    "id": "Bastioned-successor320/learn-nanobot",
-    "language": "Python",
-    "name": "Bastioned-successor320/learn-nanobot",
-    "stars": 0,
-    "updated_at": "2026-06-03T03:26:35Z",
-    "url": "https://github.com/Bastioned-successor320/learn-nanobot"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: AI\u5916\u547cPrompt\u5de5\u7a0b\u5316\u5de5\u5177\u5305 - \u63d0\u4f9b\u751f\u6210Prompt\u3001\u751f\u6210\u8f93\u5165\u53d8\u91cf\u3001\u8bc4\u4f30\u901a\u8bdd\u8d28\u91cf\u4e09\u4e2a\u6280\u80fd\nglobs: \"**/*\"\nalwaysApply: true\n---\n\n# AI\u5916\u547c Prompt \u5de5\u7a0b\u5316\u5de5\u5177\u5305\n\n\u672c\u9879\u76ee\u5305\u542b 3 \u4e2a AI \u6280\u80fd\uff0c\u7528\u4e8e AI \u7535\u8bdd\u5916\u547c\u8bbf\u8c08\u7684\u5168\u6d41\u7a0b\u652f\u6301\u3002\n\n\u5f53\u7528\u6237\u89e6\u53d1\u4ee5\u4e0b\u4efb\u4e00\u6280\u80fd\u65f6\uff0c\u8bfb\u53d6\u5bf9\u5e94\u6307\u4ee4\u6587\u4ef6\u7684\u5b8c\u6574\u5185\u5bb9\u5e76\u4e25\u683c\u6309\u6b65\u9aa4\u6267\u884c\uff1a\n\n| \u6280\u80fd | \u89e6\u53d1\u8bcd | \u6307\u4ee4\u6587\u4ef6 |\n|------|--------|----------|\n| \u751f\u6210Prompt | \"\u751f\u6210prompt\"\u3001\"\u5f00\u59cb\u65b0\u9879\u76ee\"\u3001\"\u505a\u4e00\u8f6e\u5916\u547c\" | `skills/generate-prompt.md` |\n| \u751f\u6210\u8f93\u5165\u53d8\u91cf | \"\u51c6\u5907\u8f93\u5165\u53d8\u91cf\"\u3001\"\u5199\u7814\u7a76\u76ee\u6807\" | `skills/generate-input.md` |\n| \u8bc4\u4f30\u901a\u8bdd\u8d28\u91cf | \"\u8bc4\u4f30\u901a\u8bdd\"\u3001\"\u8d70\u67e5\u8bb0\u5f55\"\u3001\"\u590d\u76d8\" | `skills/evaluate.md` |\n\n\u7528\u6237\u9996\u6b21\u5f00\u542f\u5bf9\u8bdd\u65f6\uff0c\u4e3b\u52a8\u4ecb\u7ecd\uff1a\n> \u8fd9\u662f AI\u5916\u547c Prompt \u5de5\u7a0b\u5316\u5de5\u5177\u5305\uff0c\u6211\u53ef\u4ee5\u5e2e\u4f60\uff1a**\u751f\u6210Prompt**\u3001**\u51c6\u5907\u8f93\u5165\u53d8\u91cf**\u3001\u6216**\u8bc4\u4f30\u901a\u8bdd\u8d28\u91cf**\u3002\u4f60\u60f3\u505a\u54ea\u4e2a\uff1f\n\n\u5b8c\u6574\u8bf4\u660e\u89c1 `INSTRUCTIONS.md`\u3002\n",
       "format": "mdc",
@@ -236,51 +281,6 @@
     "stars": 8,
     "updated_at": "2026-06-03T03:26:06Z",
     "url": "https://github.com/CyannSHI/ai-interview-kit"
-  },
-  {
-    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
-    "id": "XAKLESK/cre-agent-skills",
-    "language": "\u2014",
-    "name": "XAKLESK/cre-agent-skills",
-    "stars": 1,
-    "updated_at": "2026-06-03T03:24:30Z",
-    "url": "https://github.com/XAKLESK/cre-agent-skills"
-  },
-  {
-    "description": "Test iOS agent skills with 11 tasks, 260+ scenarios, and 850+ assertions across 3 models",
-    "id": "christim427-rgb/ios-agent-skills",
-    "language": "Python",
-    "name": "christim427-rgb/ios-agent-skills",
-    "stars": 1,
-    "updated_at": "2026-06-03T03:22:07Z",
-    "url": "https://github.com/christim427-rgb/ios-agent-skills"
-  },
-  {
-    "description": "Build programmatic UIKit apps with production-ready patterns for views, navigation, animation, architecture, and data fl",
-    "id": "nizhan80-art/Swift-UIKit-Skill",
-    "language": "\u2014",
-    "name": "nizhan80-art/Swift-UIKit-Skill",
-    "stars": 1,
-    "updated_at": "2026-06-03T03:17:42Z",
-    "url": "https://github.com/nizhan80-art/Swift-UIKit-Skill"
-  },
-  {
-    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
-    "id": "Amirun99/agency-orchestrator",
-    "language": "Dart",
-    "name": "Amirun99/agency-orchestrator",
-    "stars": 0,
-    "updated_at": "2026-06-03T03:16:55Z",
-    "url": "https://github.com/Amirun99/agency-orchestrator"
-  },
-  {
-    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
-    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "language": "\u2014",
-    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "stars": 2,
-    "updated_at": "2026-06-03T03:15:58Z",
-    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
