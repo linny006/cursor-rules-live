@@ -1,11 +1,25 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: Agent rules for skillpack-forge\nglobs:\n  - \"**/*\"\nalwaysApply: true\n---\n\n# skillpack-forge\n\nGenerated from `skillpack.yaml` by Skillpack Forge.\n\nCompile one repo manifest into portable AGENTS.md, AI coding skills, agent rules, and CI checks.\n\n## Principles\n- Preserve user changes and keep edits scoped\n- Inspect the current repo state before changing files\n- Run verification before claiming success\n\n## Commands\n- install: `npm install`\n- test: `npm test`\n- compile: `npm run compile`\n- doctor: `npm run doctor`\n- scan: `npm run scan`\n- diff: `npm run diff`\n- check: `npm run check`\n- mcpb: `npm run mcpb`\n- templates: `npm run templates`\n- import-json: `npm run import-json`\n- demo: `npm run demo`\n",
+      "format": "mdc",
+      "path": ".cursor/rules/skillpack-forge.mdc"
+    },
+    "description": "One manifest for every AI coding agent: generate AGENTS.md, CLAUDE.md, Claude/Codex Skills, Cursor rules, Copilot instru",
+    "id": "guorunjie/skillpack-forge",
+    "language": "JavaScript",
+    "name": "guorunjie/skillpack-forge",
+    "stars": 1,
+    "updated_at": "2026-06-03T04:03:41Z",
+    "url": "https://github.com/guorunjie/skillpack-forge"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-03T03:45:42Z",
+    "updated_at": "2026-06-03T04:00:32Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -66,20 +80,6 @@
     "stars": 1,
     "updated_at": "2026-06-03T03:22:07Z",
     "url": "https://github.com/christim427-rgb/ios-agent-skills"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Agent rules for skillpack-forge\nglobs:\n  - \"**/*\"\nalwaysApply: true\n---\n\n# skillpack-forge\n\nGenerated from `skillpack.yaml` by Skillpack Forge.\n\nCompile one repo manifest into portable AGENTS.md, AI coding skills, agent rules, and CI checks.\n\n## Principles\n- Preserve user changes and keep edits scoped\n- Inspect the current repo state before changing files\n- Run verification before claiming success\n\n## Commands\n- install: `npm install`\n- test: `npm test`\n- compile: `npm run compile`\n- doctor: `npm run doctor`\n- scan: `npm run scan`\n- diff: `npm run diff`\n- check: `npm run check`\n- mcpb: `npm run mcpb`\n- templates: `npm run templates`\n- import-json: `npm run import-json`\n- demo: `npm run demo`\n",
-      "format": "mdc",
-      "path": ".cursor/rules/skillpack-forge.mdc"
-    },
-    "description": "One manifest for every AI coding agent: generate AGENTS.md, CLAUDE.md, Claude/Codex Skills, Cursor rules, Copilot instru",
-    "id": "guorunjie/skillpack-forge",
-    "language": "JavaScript",
-    "name": "guorunjie/skillpack-forge",
-    "stars": 1,
-    "updated_at": "2026-06-03T03:18:47Z",
-    "url": "https://github.com/guorunjie/skillpack-forge"
   },
   {
     "description": "Build programmatic UIKit apps with production-ready patterns for views, navigation, animation, architecture, and data fl",
