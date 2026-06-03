@@ -1,5 +1,59 @@
 [
   {
+    "description": "Build programmatic UIKit apps with production-ready patterns for views, navigation, animation, architecture, and data fl",
+    "id": "nizhan80-art/Swift-UIKit-Skill",
+    "language": "\u2014",
+    "name": "nizhan80-art/Swift-UIKit-Skill",
+    "stars": 1,
+    "updated_at": "2026-06-03T20:58:53Z",
+    "url": "https://github.com/nizhan80-art/Swift-UIKit-Skill"
+  },
+  {
+    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
+    "id": "Amirun99/agency-orchestrator",
+    "language": "Dart",
+    "name": "Amirun99/agency-orchestrator",
+    "stars": 0,
+    "updated_at": "2026-06-03T20:58:02Z",
+    "url": "https://github.com/Amirun99/agency-orchestrator"
+  },
+  {
+    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
+    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "language": "\u2014",
+    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "stars": 2,
+    "updated_at": "2026-06-03T20:57:03Z",
+    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
+  },
+  {
+    "description": "AI agent skill for clear, non-duplicated, token-efficient project documentation.",
+    "id": "aetox-skills/docstruct",
+    "language": "\u2014",
+    "name": "aetox-skills/docstruct",
+    "stars": 0,
+    "updated_at": "2026-06-03T20:55:55Z",
+    "url": "https://github.com/aetox-skills/docstruct"
+  },
+  {
+    "description": "Build 9 iOS agent skills for SwiftUI, testing, security, and more in one install for AI coding agents",
+    "id": "ebbaunqualified520/ios-agent-skills",
+    "language": "Shell",
+    "name": "ebbaunqualified520/ios-agent-skills",
+    "stars": 0,
+    "updated_at": "2026-06-03T20:53:13Z",
+    "url": "https://github.com/ebbaunqualified520/ios-agent-skills"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-03T20:45:35Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
     "id": "zinxj/uikit-expert-skill",
     "language": "\u2014",
@@ -16,15 +70,6 @@
     "stars": 1,
     "updated_at": "2026-06-03T20:32:58Z",
     "url": "https://github.com/GrekosTheJogurt/antigravity-workspace-manager"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-03T20:30:39Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -225,42 +270,6 @@
     "stars": 1,
     "updated_at": "2026-06-03T16:33:31Z",
     "url": "https://github.com/christim427-rgb/ios-agent-skills"
-  },
-  {
-    "description": "Build programmatic UIKit apps with production-ready patterns for views, navigation, animation, architecture, and data fl",
-    "id": "nizhan80-art/Swift-UIKit-Skill",
-    "language": "\u2014",
-    "name": "nizhan80-art/Swift-UIKit-Skill",
-    "stars": 1,
-    "updated_at": "2026-06-03T16:28:03Z",
-    "url": "https://github.com/nizhan80-art/Swift-UIKit-Skill"
-  },
-  {
-    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
-    "id": "Amirun99/agency-orchestrator",
-    "language": "Dart",
-    "name": "Amirun99/agency-orchestrator",
-    "stars": 0,
-    "updated_at": "2026-06-03T16:27:15Z",
-    "url": "https://github.com/Amirun99/agency-orchestrator"
-  },
-  {
-    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
-    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "language": "\u2014",
-    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "stars": 2,
-    "updated_at": "2026-06-03T16:26:07Z",
-    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
-  },
-  {
-    "description": "Build 9 iOS agent skills for SwiftUI, testing, security, and more in one install for AI coding agents",
-    "id": "ebbaunqualified520/ios-agent-skills",
-    "language": "Shell",
-    "name": "ebbaunqualified520/ios-agent-skills",
-    "stars": 0,
-    "updated_at": "2026-06-03T16:22:08Z",
-    "url": "https://github.com/ebbaunqualified520/ios-agent-skills"
   },
   {
     "description": "Governance-first OS for AI coding agents \u2014 structured workflows, delivery gates, engineering guardrails, and 17 professi",
@@ -509,19 +518,5 @@
     "stars": 19,
     "updated_at": "2026-06-02T14:42:39Z",
     "url": "https://github.com/fluttersdk/wind"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: \"softco \u2014 autonomous software company for building and shipping any software product\"\nalwaysApply: false\n---\n\nWhen user wants to build, create, deploy, audit, review, or fix software, follow `skill/SKILL.md`.\n\n**Modes**: Greenfield | Audit | Extend | Fix | Infra-only | AI-add\n\n**Phases**:\n1. Phase 0: Discovery \u2014 interview, produce Requirements Summary\n2. Phase 1: Architecture \u2014 Tech Stack Decision Record, get approval\n3. Phase 1.5: Design (UI products) \u2014 pick direction + tokens, write DESIGN.md before frontend\n4. Phase 2: Docs \u2014 full doc package before any code\n5. Phase 3: Code \u2014 module-by-module, tests first\n6. Phase 4: Test \u2014 unit + integration + E2E + AI regression, \u226580% coverage\n7. Phase 5: Infra \u2014 Terraform, all cloud resources as code\n8. Phase 6: Deploy \u2014 CI/CD pipeline, zero-downtime\n\n**Critical**:\n- Recall first on existing repos: read AGENT.md + docs/PROGRESS.md before acting\n- Never write code before Phase 2 docs exist\n- Write failing tests before implementation\n- Verification gate: run the system and observe it working before claiming done \u2014 not just green tests\n- Fix mode: declare edit scope, no orthogonal/drive-by edits during a debug\n- Never hardcode secrets \u2014 always .env.example\n- Coverage \u2265 80% enforced in CI\n- User only edits .env\n",
-      "format": "mdc",
-      "path": ".cursor/rules/softco.mdc"
-    },
-    "description": "Turn AI coding agents into an autonomous software firm",
-    "id": "shihabshahrier/softco",
-    "language": "HCL",
-    "name": "shihabshahrier/softco",
-    "stars": 0,
-    "updated_at": "2026-06-02T12:15:56Z",
-    "url": "https://github.com/shihabshahrier/softco"
   }
 ]
