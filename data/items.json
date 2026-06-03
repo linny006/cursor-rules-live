@@ -10,8 +10,22 @@
     "language": "JavaScript",
     "name": "guorunjie/skillpack-forge",
     "stars": 1,
-    "updated_at": "2026-06-03T04:03:41Z",
+    "updated_at": "2026-06-03T04:28:15Z",
     "url": "https://github.com/guorunjie/skillpack-forge"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Agent rules for skillpack-forge-demo\nglobs:\n  - \"**/*\"\nalwaysApply: true\n---\n\n# skillpack-forge-demo\n\nGenerated from `skillpack.yaml` by Skillpack Forge.\n\nA small release automation fixture showing how one manifest compiles into AGENTS.md, CLAUDE.md, Skills, rules, Copilot instructions, MCP resources, and an MCPB bundle.\n\n## Principles\n- Treat skillpack.yaml as the source of truth for generated agent context\n- Keep fixture changes small enough that visitors can inspect them quickly\n- Regenerate and verify agent files after changing workflows, commands, or targets\n- Run npm run check and skillpack-forge check . --strict before claiming success\n\n## Commands\n- install: `npm install`\n- demo: `npm run demo`\n- test: `npm test`\n- check: `npm run check`\n- compile-context: `npx skillpack-forge@latest compile .`\n- verify-context: `npx skillpack-forge@latest check . --strict`\n- pack-mcpb: `npx skillpack-forge@latest mcpb . bundles/skillpack-forge-demo.mcpb`\n",
+      "format": "mdc",
+      "path": ".cursor/rules/skillpack-forge-demo.mdc"
+    },
+    "description": "Live fixture showing Skillpack Forge compiling one skillpack.yaml into multi-agent context files, MCP resources, and an ",
+    "id": "guorunjie/skillpack-forge-demo",
+    "language": "JavaScript",
+    "name": "guorunjie/skillpack-forge-demo",
+    "stars": 0,
+    "updated_at": "2026-06-03T04:26:07Z",
+    "url": "https://github.com/guorunjie/skillpack-forge-demo"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -19,7 +33,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-03T04:00:32Z",
+    "updated_at": "2026-06-03T04:15:30Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -301,7 +315,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36282,
+    "stars": 36284,
     "updated_at": "2026-06-02T23:15:40Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -524,14 +538,5 @@
     "stars": 0,
     "updated_at": "2026-06-01T20:12:07Z",
     "url": "https://github.com/mhenke/john-ousterhout-skills"
-  },
-  {
-    "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
-    "id": "mikeprasad/aria-knowledge",
-    "language": "Shell",
-    "name": "mikeprasad/aria-knowledge",
-    "stars": 12,
-    "updated_at": "2026-06-01T17:09:56Z",
-    "url": "https://github.com/mikeprasad/aria-knowledge"
   }
 ]
