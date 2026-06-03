@@ -1,12 +1,12 @@
 [
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
+    "description": "Enforce architectural decisions in AI-assisted development.",
+    "id": "TheoV823/mneme",
     "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 0,
-    "updated_at": "2026-06-03T18:17:39Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+    "name": "TheoV823/mneme",
+    "stars": 11,
+    "updated_at": "2026-06-03T18:40:09Z",
+    "url": "https://github.com/TheoV823/mneme"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-03T18:15:38Z",
+    "updated_at": "2026-06-03T18:30:40Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-06-03T18:17:39Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
@@ -284,15 +293,6 @@
     "stars": 0,
     "updated_at": "2026-06-03T14:09:14Z",
     "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
-  },
-  {
-    "description": "Enforce architectural decisions in AI-assisted development.",
-    "id": "TheoV823/mneme",
-    "language": "HTML",
-    "name": "TheoV823/mneme",
-    "stars": 11,
-    "updated_at": "2026-06-03T13:57:36Z",
-    "url": "https://github.com/TheoV823/mneme"
   },
   {
     "cursorrules": {
