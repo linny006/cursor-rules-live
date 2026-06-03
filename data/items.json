@@ -1,11 +1,20 @@
 [
   {
+    "description": "\ud83c\udfad 211 \u4e2a\u5373\u63d2\u5373\u7528\u7684 AI \u4e13\u5bb6\u89d2\u8272 \u2014 \u652f\u6301 Hermes Agent/Claude Code/Cursor/Copilot \u7b49 16 \u79cd\u5de5\u5177\uff0c\u8986\u76d6\u5de5\u7a0b/\u8bbe\u8ba1/\u8425\u9500/\u91d1\u878d\u7b49 18 \u4e2a\u90e8\u95e8\u3002\u542b 46 \u4e2a\u4e2d\u56fd\u5e02\u573a\u539f\u521b\u667a\u80fd\u4f53\uff08\u5c0f\u7ea2\u4e66/\u6296\u97f3/",
+    "id": "jnMetaCode/agency-agents-zh",
+    "language": "Shell",
+    "name": "jnMetaCode/agency-agents-zh",
+    "stars": 13748,
+    "updated_at": "2026-06-03T15:21:54Z",
+    "url": "https://github.com/jnMetaCode/agency-agents-zh"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-03T15:15:40Z",
+    "updated_at": "2026-06-03T15:17:29Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -336,15 +345,6 @@
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
   },
   {
-    "description": "\ud83c\udfad 211 \u4e2a\u5373\u63d2\u5373\u7528\u7684 AI \u4e13\u5bb6\u89d2\u8272 \u2014 \u652f\u6301 Hermes Agent/Claude Code/Cursor/Copilot \u7b49 16 \u79cd\u5de5\u5177\uff0c\u8986\u76d6\u5de5\u7a0b/\u8bbe\u8ba1/\u8425\u9500/\u91d1\u878d\u7b49 18 \u4e2a\u90e8\u95e8\u3002\u542b 46 \u4e2a\u4e2d\u56fd\u5e02\u573a\u539f\u521b\u667a\u80fd\u4f53\uff08\u5c0f\u7ea2\u4e66/\u6296\u97f3/",
-    "id": "jnMetaCode/agency-agents-zh",
-    "language": "Shell",
-    "name": "jnMetaCode/agency-agents-zh",
-    "stars": 13746,
-    "updated_at": "2026-06-03T09:05:30Z",
-    "url": "https://github.com/jnMetaCode/agency-agents-zh"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: Agent rules for skillpack-forge\nglobs:\n  - \"**/*\"\nalwaysApply: true\n---\n\n# skillpack-forge\n\nGenerated from `skillpack.yaml` by Skillpack Forge.\n\nCompile one repo manifest into portable AGENTS.md, AI coding skills, agent rules, and CI checks.\n\n## Principles\n- Preserve user changes and keep edits scoped\n- Inspect the current repo state before changing files\n- Run verification before claiming success\n\n## Commands\n- install: `npm install`\n- test: `npm test`\n- compile: `npm run compile`\n- doctor: `npm run doctor`\n- scan: `npm run scan`\n- diff: `npm run diff`\n- check: `npm run check`\n- mcpb: `npm run mcpb`\n- templates: `npm run templates`\n- import-json: `npm run import-json`\n- demo: `npm run demo`\n",
       "format": "mdc",
@@ -447,7 +447,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36303,
+    "stars": 36304,
     "updated_at": "2026-06-02T23:15:40Z",
     "url": "https://github.com/wshobson/agents"
   },
