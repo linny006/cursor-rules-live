@@ -1,11 +1,20 @@
 [
   {
+    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
+    "id": "eumiguellllllllll/copilot-rules",
+    "language": "Batchfile",
+    "name": "eumiguellllllllll/copilot-rules",
+    "stars": 1,
+    "updated_at": "2026-06-03T05:52:09Z",
+    "url": "https://github.com/eumiguellllllllll/copilot-rules"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-03T05:30:27Z",
+    "updated_at": "2026-06-03T05:45:25Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -274,15 +283,6 @@
     "url": "https://github.com/Luxvil/ai-coding-rules"
   },
   {
-    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
-    "id": "eumiguellllllllll/copilot-rules",
-    "language": "Batchfile",
-    "name": "eumiguellllllllll/copilot-rules",
-    "stars": 1,
-    "updated_at": "2026-06-03T01:58:00Z",
-    "url": "https://github.com/eumiguellllllllll/copilot-rules"
-  },
-  {
     "cursorrules": {
       "content": ".cursor/rules/project.mdc \u2014 Generated from Cursor Rules Pack v2\nCopy sections relevant to your stack. Replace [brackets] with your specifics.\n\n# Core Rules (apply to all projects)\n\nYou are a senior software engineer building production software.\n\nBefore suggesting a new package: state what it does, confirm it's maintained, check if < 30 lines replaces it.\n\nAlways wrap async operations in try/catch. Never swallow errors. Log with context: logger.error('[FunctionName]', { error, context }).\n\nWrite self-documenting code. Comments explain WHY, not WHAT. Workarounds get a comment + issue link.\n\n# State Management (Next.js / React)\n\nURL state \u2192 filters, pagination (useSearchParams)\nReact state \u2192 UI-only (useState)  \nZustand \u2192 cross-component app state\nReact Query \u2192 all server state\n\nNever use Zustand to cache server data.\n\n# Data Fetching\n\nParallelize independent fetches with Promise.all. Sequential awaits need a comment explaining the dependency.\n\n# API Routes\n\nEvery route: authenticate \u2192 validate (Zod) \u2192 authorize \u2192 execute \u2192 typed response.\nNever return 200 for errors. Never return full DB records \u2014 always use select.\n\n# Database\n\nNever fetch full records \u2014 use select. Paginate queries > 50 rows. Use transactions for multi-table writes.\n\n---\nFull pack (50 rules): https://oliviacraftlat.gumroad.com/l/wyaeil\n",
       "format": "text",
@@ -329,7 +329,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36285,
+    "stars": 36286,
     "updated_at": "2026-06-02T23:15:40Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -481,7 +481,7 @@
     "language": "Python",
     "name": "KbWen/agentic-os",
     "stars": 3,
-    "updated_at": "2026-06-03T05:24:37Z",
+    "updated_at": "2026-06-03T05:53:37Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
   {
