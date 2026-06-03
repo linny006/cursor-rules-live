@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-03T14:00:49Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Enforce architectural decisions in AI-assisted development.",
     "id": "TheoV823/mneme",
     "language": "HTML",
@@ -7,15 +16,6 @@
     "stars": 11,
     "updated_at": "2026-06-03T13:57:36Z",
     "url": "https://github.com/TheoV823/mneme"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-03T13:45:41Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -37,7 +37,7 @@
     "language": "HTML",
     "name": "agenticstandardcontact-byte/agentic-architect",
     "stars": 0,
-    "updated_at": "2026-06-03T12:58:20Z",
+    "updated_at": "2026-06-03T14:09:14Z",
     "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
   },
   {
@@ -150,7 +150,7 @@
     "language": "Python",
     "name": "KbWen/agentic-os",
     "stars": 3,
-    "updated_at": "2026-06-03T13:36:39Z",
+    "updated_at": "2026-06-03T14:14:55Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
   {
@@ -296,7 +296,7 @@
     "language": "\u2014",
     "name": "pemdes174/cursor-rules",
     "stars": 5,
-    "updated_at": "2026-06-03T09:46:38Z",
+    "updated_at": "2026-06-03T14:14:11Z",
     "url": "https://github.com/pemdes174/cursor-rules"
   },
   {
@@ -305,7 +305,7 @@
     "language": "\u2014",
     "name": "JohannFreddyLoayzaHuana/awesome-ai-coding-tools",
     "stars": 2,
-    "updated_at": "2026-06-03T09:45:37Z",
+    "updated_at": "2026-06-03T14:13:01Z",
     "url": "https://github.com/JohannFreddyLoayzaHuana/awesome-ai-coding-tools"
   },
   {
@@ -314,7 +314,7 @@
     "language": "\u2014",
     "name": "whydixit/cursor-starter",
     "stars": 4,
-    "updated_at": "2026-06-03T09:45:30Z",
+    "updated_at": "2026-06-03T14:13:05Z",
     "url": "https://github.com/whydixit/cursor-starter"
   },
   {
@@ -331,7 +331,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 13734,
+    "stars": 13735,
     "updated_at": "2026-06-03T09:05:30Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
