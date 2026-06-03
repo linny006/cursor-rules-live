@@ -14,7 +14,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="xnoahwang/cursor-prime - entry on Cursor Rules Live">
 <meta name="twitter:description" content="Cursor-native config: a strict Plan Gate + Karpathy discipline rules, /plan /delta /prime-init commands, and a global gi">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"xnoahwang/cursor-prime","codeRepository":"https://github.com/xnoahwang/cursor-prime","programmingLanguage":"PowerShell","url":"https://linny006.github.io/cursor-rules-live/r/xnoahwang/cursor-prime/","description":"Cursor-native config: a strict Plan Gate + Karpathy discipline rules, /plan /delta /prime-init commands, and a global gi","author":{"@type":"Person","name":"xnoahwang","url":"https://github.com/xnoahwang"},"dateModified":"2026-05-31"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"xnoahwang/cursor-prime","codeRepository":"https://github.com/xnoahwang/cursor-prime","programmingLanguage":"PowerShell","url":"https://linny006.github.io/cursor-rules-live/r/xnoahwang/cursor-prime/","description":"Cursor-native config: a strict Plan Gate + Karpathy discipline rules, /plan /delta /prime-init commands, and a global gi","author":{"@type":"Person","name":"xnoahwang","url":"https://github.com/xnoahwang"},"dateModified":"2026-06-03"}</script>
 <style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
          --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
 * { box-sizing: border-box; }
@@ -48,7 +48,7 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <div class="meta">
 <span><strong>Stars</strong> 0</span>
 <span><strong>Language</strong> PowerShell</span>
-<span><strong>Last updated</strong> 2026-05-31</span>
+<span><strong>Last updated</strong> 2026-06-03</span>
 <span><a href="https://github.com/xnoahwang/cursor-prime" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/xnoahwang" rel="external">@xnoahwang</a></span>
 </div>
@@ -63,14 +63,39 @@ alwaysApply: true
 
 Karpathy-derived discipline rules. Always on for this project.
 
-## ⚠️ MANDATORY: Plan Gate
-**Before writing ANY code, editing ANY file, or running ANY tool that modifies state, you MUST:**
-1. Output a `&lt;plan&gt;` block describing the intended changes.
-2. STOP and wait for the user to reply with the literal word &quot;GO&quot;.
-3. Do NOT proceed without explicit &quot;GO&quot;.
+## Task Class
 
-This applies to every non-trivial task — anything beyond a one-line fix or a question. When in doubt, plan first.
-Reading files and answering questions does NOT require a plan.
+Classify every request **before any state-changing tool** (Write, StrReplace, Delete, Shell that modifies files, etc.):
+
+- **Trivial** (Plan Gate **off**) — **only** these:
+  - Q&amp;A, explanation, or read-only exploration (no file edits).
+  - A **single-line** literal or typo fix in **one** file at a **known** location (e.g. fix a typo in one string). Multi-line edits are **never** trivial.
+  - User reply is literally `GO` continuing an **already approved** plan from this session.
+- **Non-trivial** (Plan Gate **on**) — **everything else**, including:
+  - **Any** file create, modify, or delete — code, tests, configs, **README, docs, markdown, AGENTS.md**, comments (if more than one line changes), scripts, rules.
+  - New sections, paragraphs, or tables in documentation (even one file).
+  - New logic, refactors, new commands/endpoints, or multiple files.
+- **Workflow-scale** — 20+ files, multi-module migration, or parallel independent workstreams. Plan Gate **on**; the plan must include phased steps and warn that full completion may need multiple sessions or subagents.
+
+**Hard rule:** If the task would use Write, StrReplace, Delete, or a shell command that changes files, it is **non-trivial** unless it matches the trivial whitelist exactly. &quot;Simple&quot; or &quot;just docs&quot; does **not** exempt you. When in doubt, plan first.
+
+## ⚠️ MANDATORY: Plan Gate
+**On every non-trivial task, before the first state-changing tool call, you MUST:**
+1. Output a `&lt;plan&gt;` block describing the intended changes (include **Out of scope**, **Done when**, and **Scale** — see `/plan`).
+2. STOP and wait for the user to reply with the literal word `GO`.
+3. Do NOT call Write, StrReplace, Delete, or any state-changing tool until the user has sent `GO`.
+
+Reading files and answering questions does NOT require a plan. Exploration reads during the plan phase (before `GO`) are allowed.
+
+If you already started editing without a plan, STOP immediately, output the plan, and wait for `GO` before further edits.
+
+## Explore Cheap
+
+Before editing, minimize context cost:
+
+- **Search first** — use grep or semantic search before reading whole files.
+- **Read minimally** — use offset/limit on large files; do not read files outside the pre-flight list unless you state why and get approval (or include them in an updated plan before editing).
+- **Pre-flight applies to reads** — the file list in the plan is the boundary for both reads and writes unless exploration-only reads are listed separately.
 
 ## Simplicity
 - Build only what was asked. No speculative abstractions, no unrequested &quot;flexibility&quot;.
@@ -80,6 +105,7 @@ Reading files and answering questions does NOT require a plan.
 - Don&#x27;t touch adjacent code, comments, or formatting.
 - Remove only imports/symbols your change made unused. Mention unrelated dead code; don&#x27;t delete it.
 - Every changed line must trace to the request.
+- Respect **Protected paths** in `@project` if defined — do not edit them unless listed in the pre-flight file list.
 
 ## Pre-flight File List
 Inside the `&lt;plan&gt;` block, include an explicit list of every file you intend to create, modify, or delete.
@@ -92,9 +118,10 @@ If during execution you discover you need to touch a file not on that list, **ST
 ## Verify Receipt
 When claiming verification, paste the exact command you ran and its exact output (or relevant tail).
 &quot;Tested and works&quot; without a transcript is not acceptable for non-trivial tasks.
+Prefer verify commands documented in `@project` when available.
 
 ## Edge Case Checklist
-Before declaring a non-trivial task done, for each new public function, CLI command, or HTTP endpoint, briefly note:
+Before declaring a non-trivial task done, for each new public function, CLI command, or HTTP endpoint, briefly note (one line each):
 - Empty / missing input behavior
 - Malformed / wrong-type input behavior
 - Large or unusual scale behavior
@@ -113,7 +140,14 @@ Before declaring done on any non-trivial task, output a **Delta Report**, then t
   - Verify: &lt;command&gt;  →  &lt;pass/fail + key output&gt;
 
 If everything matches the plan, the report can be a single line: &quot;Delta: matches plan; verify passed.&quot;
-This is non-negotiable. Skip only for one-line fixes.
+This is non-negotiable. Skip only for trivial tasks.
+If the user ran `/verify`, reference its outcome in the Delta Report when relevant.
+
+## Session Continuity
+
+After a long session or if context was compacted, **before making further edits** restate the pre-flight file list and out-of-scope boundaries in one sentence — do not silently expand scope.
+
+When pausing a non-trivial task, update `progress.md` **Handoff** (plan status, files touched, next verify command) so the next session can resume without re-exploring the repo.
 
 ## Exploration First
 - Read relevant files and check current API docs before acting. State assumptions explicitly.
@@ -129,19 +163,16 @@ This is non-negotiable. Skip only for one-line fixes.
 - Standard naming. No `var1`, `tmp2`. Isolate Logic / IO / Action.
 
 ## Persistence (auto-bootstrap; no per-project setup needed)
-- `progress.md` is the working log. If it does not exist, create it at the project root the first time you complete a milestone, using this structure: Current Focus / Completed / Next Steps / Known Issues. Update it after each milestone.
-- `.cursor/rules/project.mdc` holds project context (tech stack, key paths, commands). Create or update it once stack decisions are finalized — don&#x27;t create an empty placeholder preemptively.
-- Do NOT auto-create `.gitignore`; the user&#x27;s global gitignore already covers common noise (node_modules, .venv, __pycache__, Cursor caches). Add project-specific ignores only when asked.
-</code></pre>
-<p><a href="https://github.com/xnoahwang/cursor-prime/blob/HEAD/.cursor/rules/behavior.mdc" rel="external">View raw on GitHub</a></p>
+- `p</code></pre>
+<p><em>Content truncated. View full file in the source repo (linked above).</em></p><p><a href="https://github.com/xnoahwang/cursor-prime/blob/HEAD/.cursor/rules/behavior.mdc" rel="external">View raw on GitHub</a></p>
 </section>
 <section><h2>Why this is listed</h2>
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>
 <ul class="crosslinks">
-<li><a href="https://linny006.github.io/cursor-rules-live/r/wshobson/agents/">wshobson/agents (stars:36266)</a></li>
-<li><a href="https://linny006.github.io/cursor-rules-live/r/jnMetaCode/agency-agents-zh/">jnMetaCode/agency-agents-zh (stars:13617)</a></li>
-<li><a href="https://linny006.github.io/cursor-rules-live/r/Mark393295827/third-brain-v5-skills/">Mark393295827/third-brain-v5-skills (stars:108)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/wshobson/agents/">wshobson/agents (stars:36279)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/jnMetaCode/agency-agents-zh/">jnMetaCode/agency-agents-zh (stars:13649)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/Mark393295827/third-brain-v5-skills/">Mark393295827/third-brain-v5-skills (stars:109)</a></li>
 </ul></section>
 <section><h2>Explore by category</h2>
 <ul class="crosslinks">
