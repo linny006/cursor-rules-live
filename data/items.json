@@ -1,11 +1,20 @@
 [
   {
+    "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
+    "id": "HoangNguyen0403/agent-skills-standard",
+    "language": "TypeScript",
+    "name": "HoangNguyen0403/agent-skills-standard",
+    "stars": 501,
+    "updated_at": "2026-06-03T09:35:41Z",
+    "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-03T09:15:34Z",
+    "updated_at": "2026-06-03T09:30:58Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -524,14 +533,5 @@
     "stars": 5,
     "updated_at": "2026-06-02T01:29:21Z",
     "url": "https://github.com/taniwhaai/arai"
-  },
-  {
-    "description": "AI Ecosystem CLI",
-    "id": "aibetter/aib",
-    "language": "TypeScript",
-    "name": "aibetter/aib",
-    "stars": 0,
-    "updated_at": "2026-06-01T23:47:26Z",
-    "url": "https://github.com/aibetter/aib"
   }
 ]
