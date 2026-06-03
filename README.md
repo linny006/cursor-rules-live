@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-06-03 15:30 UTC
+> ⏰ Last updated: 2026-06-03 15:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,12 +53,12 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 13748 | Shell | 2026-06-03 | — | 🎭 211 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 16 种工具，覆盖工程/设计/营销/金融等 18 个部门。含 46 个中国市场原创智能体（小红书/抖音/ |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-06-03 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 3 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-06-03 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
-| 4 | [eumiguellllllllll/copilot-rules](https://github.com/eumiguellllllllll/copilot-rules) | 1 | Batchfile | 2026-06-03 | — | ⚡ Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively. |
-| 5 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-06-03 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
-| 6 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 3 | Python | 2026-06-03 | — | Governance-first OS for AI coding agents — structured workflows, delivery gates, engineering guardrails, and 17 professi |
+| 1 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 3 | Python | 2026-06-03 | — | Governance-first OS for AI coding agents — structured workflows, delivery gates, engineering guardrails, and 17 professi |
+| 2 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 13749 | Shell | 2026-06-03 | — | 🎭 211 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 16 种工具，覆盖工程/设计/营销/金融等 18 个部门。含 46 个中国市场原创智能体（小红书/抖音/ |
+| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-06-03 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 4 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-06-03 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
+| 5 | [eumiguellllllllll/copilot-rules](https://github.com/eumiguellllllllll/copilot-rules) | 1 | Batchfile | 2026-06-03 | — | ⚡ Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively. |
+| 6 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-06-03 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
 | 7 | [thebuilderlabs/ship-with-ai](https://github.com/thebuilderlabs/ship-with-ai) | 0 | Shell | 2026-06-03 | — | Production-grade AI coding rules for Cursor, Claude Code, and Copilot. Three stacks, 24 rule files, zero generic advice. |
 | 8 | [Thabang9218/cursorifier](https://github.com/Thabang9218/cursorifier) | 0 | TypeScript | 2026-06-03 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Thabang9218/cursorifier/) | 🖱️ Enhance your Cursor AI with tailored, codebase-specific insights for smarter navigation and improved efficiency. |
 | 9 | [pemdes174/cursor-rules](https://github.com/pemdes174/cursor-rules) | 5 | — | 2026-06-03 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/pemdes174/cursor-rules/) | 🚀 Streamline your Next.js development with practical rules and tested patterns for efficient coding and minimal bugs. |
@@ -95,7 +95,7 @@ expired items removed — so you can rely on what you see being current.
 | 40 | [oliviacraft/cursor-rules-pack-sample](https://github.com/oliviacraft/cursor-rules-pack-sample) | 0 | — | 2026-06-03 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/oliviacraft/cursor-rules-pack-sample/) | 7 production-tested Cursor Rules — free sample from the Cursor Rules Pack v2 (50+ rules) |
 | 41 | [jcottam/agent-resources](https://github.com/jcottam/agent-resources) | 1 | Shell | 2026-06-03 | — | Battle-tested agent skills and Cursor rules from real projects. Works with Cursor, Claude Code, and any agent. |
 | 42 | [xnoahwang/cursor-prime](https://github.com/xnoahwang/cursor-prime) | 0 | PowerShell | 2026-06-03 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/xnoahwang/cursor-prime/) | Cursor-native config: a strict Plan Gate + Karpathy discipline rules, /plan /delta /prime-init commands, and a global gi |
-| 43 | [wshobson/agents](https://github.com/wshobson/agents) | 36304 | Python | 2026-06-02 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI |
+| 43 | [wshobson/agents](https://github.com/wshobson/agents) | 36306 | Python | 2026-06-02 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI |
 | 44 | [danmartuszewski/agentlint](https://github.com/danmartuszewski/agentlint) | 1 | — | 2026-06-02 | — | Claude Code skill that lints your CLAUDE.md, AGENTS.md, and .cursorrules based on empirical research. Your context file  |
 | 45 | [SalesforceAIResearch/agentforce-adlc](https://github.com/SalesforceAIResearch/agentforce-adlc) | 67 | Python | 2026-06-02 | — | Agent Development Life Cycle — Build, deploy, test, and optimize Agentforce agents using Claude Code skills and Agent Sc |
 | 46 | [pekral/cursor-rules](https://github.com/pekral/cursor-rules) | 3 | PHP | 2026-06-02 | — | PHP and Laravel Cursor rules — coding standards, testing, and conventions for the Cursor editor. Install via Composer. |
