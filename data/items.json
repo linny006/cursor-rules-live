@@ -1,5 +1,23 @@
 [
   {
+    "description": "\ud83d\udca1 Discover AI coding tools that enhance your workflow, from code editors to completion engines, and boost your software ",
+    "id": "JohannFreddyLoayzaHuana/awesome-ai-coding-tools",
+    "language": "\u2014",
+    "name": "JohannFreddyLoayzaHuana/awesome-ai-coding-tools",
+    "stars": 2,
+    "updated_at": "2026-06-03T05:14:58Z",
+    "url": "https://github.com/JohannFreddyLoayzaHuana/awesome-ai-coding-tools"
+  },
+  {
+    "description": "\u2728 Enhance your software development with a curated collection of prompts for Cursor AI, boosting efficiency in planning ",
+    "id": "whydixit/cursor-starter",
+    "language": "\u2014",
+    "name": "whydixit/cursor-starter",
+    "stars": 4,
+    "updated_at": "2026-06-03T05:14:52Z",
+    "url": "https://github.com/whydixit/cursor-starter"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: Agent rules for skillpack-forge\nglobs:\n  - \"**/*\"\nalwaysApply: true\n---\n\n# skillpack-forge\n\nGenerated from `skillpack.yaml` by Skillpack Forge.\n\nCompile one repo manifest into portable AGENTS.md, AI coding skills, agent rules, and CI checks.\n\n## Principles\n- Preserve user changes and keep edits scoped\n- Inspect the current repo state before changing files\n- Run verification before claiming success\n\n## Commands\n- install: `npm install`\n- test: `npm test`\n- compile: `npm run compile`\n- doctor: `npm run doctor`\n- scan: `npm run scan`\n- diff: `npm run diff`\n- check: `npm run check`\n- mcpb: `npm run mcpb`\n- templates: `npm run templates`\n- import-json: `npm run import-json`\n- demo: `npm run demo`\n",
       "format": "mdc",
@@ -10,8 +28,17 @@
     "language": "JavaScript",
     "name": "guorunjie/skillpack-forge",
     "stars": 1,
-    "updated_at": "2026-06-03T04:53:52Z",
+    "updated_at": "2026-06-03T05:14:30Z",
     "url": "https://github.com/guorunjie/skillpack-forge"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-03T05:00:32Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -30,15 +57,6 @@
     "stars": 0,
     "updated_at": "2026-06-03T04:46:37Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-03T04:45:43Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -268,24 +286,6 @@
     "stars": 5,
     "updated_at": "2026-06-03T01:26:12Z",
     "url": "https://github.com/pemdes174/cursor-rules"
-  },
-  {
-    "description": "\ud83d\udca1 Discover AI coding tools that enhance your workflow, from code editors to completion engines, and boost your software ",
-    "id": "JohannFreddyLoayzaHuana/awesome-ai-coding-tools",
-    "language": "\u2014",
-    "name": "JohannFreddyLoayzaHuana/awesome-ai-coding-tools",
-    "stars": 2,
-    "updated_at": "2026-06-03T01:25:18Z",
-    "url": "https://github.com/JohannFreddyLoayzaHuana/awesome-ai-coding-tools"
-  },
-  {
-    "description": "\u2728 Enhance your software development with a curated collection of prompts for Cursor AI, boosting efficiency in planning ",
-    "id": "whydixit/cursor-starter",
-    "language": "\u2014",
-    "name": "whydixit/cursor-starter",
-    "stars": 4,
-    "updated_at": "2026-06-03T01:25:14Z",
-    "url": "https://github.com/whydixit/cursor-starter"
   },
   {
     "description": "Battle-tested agent skills and Cursor rules from real projects. Works with Cursor, Claude Code, and any agent.",
