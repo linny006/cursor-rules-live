@@ -5,7 +5,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-03T02:00:32Z",
+    "updated_at": "2026-06-03T02:15:52Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -16,6 +16,20 @@
     "stars": 1,
     "updated_at": "2026-06-03T01:58:00Z",
     "url": "https://github.com/eumiguellllllllll/copilot-rules"
+  },
+  {
+    "cursorrules": {
+      "content": ".cursor/rules/project.mdc \u2014 Generated from Cursor Rules Pack v2\nCopy sections relevant to your stack. Replace [brackets] with your specifics.\n\n# Core Rules (apply to all projects)\n\nYou are a senior software engineer building production software.\n\nBefore suggesting a new package: state what it does, confirm it's maintained, check if < 30 lines replaces it.\n\nAlways wrap async operations in try/catch. Never swallow errors. Log with context: logger.error('[FunctionName]', { error, context }).\n\nWrite self-documenting code. Comments explain WHY, not WHAT. Workarounds get a comment + issue link.\n\n# State Management (Next.js / React)\n\nURL state \u2192 filters, pagination (useSearchParams)\nReact state \u2192 UI-only (useState)  \nZustand \u2192 cross-component app state\nReact Query \u2192 all server state\n\nNever use Zustand to cache server data.\n\n# Data Fetching\n\nParallelize independent fetches with Promise.all. Sequential awaits need a comment explaining the dependency.\n\n# API Routes\n\nEvery route: authenticate \u2192 validate (Zod) \u2192 authorize \u2192 execute \u2192 typed response.\nNever return 200 for errors. Never return full DB records \u2014 always use select.\n\n# Database\n\nNever fetch full records \u2014 use select. Paginate queries > 50 rows. Use transactions for multi-table writes.\n\n---\nFull pack (50 rules): https://oliviacraftlat.gumroad.com/l/wyaeil\n",
+      "format": "text",
+      "path": ".cursorrules"
+    },
+    "description": "7 production-tested Cursor Rules \u2014 free sample from the Cursor Rules Pack v2 (50+ rules)",
+    "id": "oliviacraft/cursor-rules-pack-sample",
+    "language": "\u2014",
+    "name": "oliviacraft/cursor-rules-pack-sample",
+    "stars": 0,
+    "updated_at": "2026-06-03T01:53:26Z",
+    "url": "https://github.com/oliviacraft/cursor-rules-pack-sample"
   },
   {
     "cursorrules": {
@@ -511,17 +525,8 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 13663,
+    "stars": 13666,
     "updated_at": "2026-06-01T15:14:31Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
-  },
-  {
-    "description": "agent skills",
-    "id": "Mark393295827/third-brain-v5-skills",
-    "language": "HTML",
-    "name": "Mark393295827/third-brain-v5-skills",
-    "stars": 110,
-    "updated_at": "2026-06-01T14:54:40Z",
-    "url": "https://github.com/Mark393295827/third-brain-v5-skills"
   }
 ]
