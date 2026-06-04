@@ -1,5 +1,23 @@
 [
   {
+    "description": "Curated Cursor AI agent skills, slash commands, MCP configs, subagents & rules for full-stack dev \u2014 React 19, Next.js 15",
+    "id": "kensaurus/cursor-kenji",
+    "language": "JavaScript",
+    "name": "kensaurus/cursor-kenji",
+    "stars": 3,
+    "updated_at": "2026-06-04T07:30:47Z",
+    "url": "https://github.com/kensaurus/cursor-kenji"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-04T07:30:47Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "\u6211\u7684 Claude Code skills \u96c6\u5408\uff0c\u7528\u4e8e\u63d0\u5347\u5f00\u53d1\u6548\u7387",
     "id": "wu529778790/shenzjd-skills",
     "language": "JavaScript",
@@ -16,24 +34,6 @@
     "stars": 0,
     "updated_at": "2026-06-04T07:16:51Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-04T07:15:32Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
-    "description": "Curated Cursor AI agent skills, slash commands, MCP configs, subagents & rules for full-stack dev \u2014 React 19, Next.js 15",
-    "id": "kensaurus/cursor-kenji",
-    "language": "JavaScript",
-    "name": "kensaurus/cursor-kenji",
-    "stars": 3,
-    "updated_at": "2026-06-04T06:59:49Z",
-    "url": "https://github.com/kensaurus/cursor-kenji"
   },
   {
     "description": "Agent Skills and Structured Prompts for Scalable Development",
@@ -344,7 +344,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 13832,
+    "stars": 13835,
     "updated_at": "2026-06-03T15:32:03Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -515,7 +515,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36330,
+    "stars": 36331,
     "updated_at": "2026-06-02T23:15:40Z",
     "url": "https://github.com/wshobson/agents"
   }
