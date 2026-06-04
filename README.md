@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-06-04 06:15 UTC
+> ⏰ Last updated: 2026-06-04 06:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -87,7 +87,7 @@ expired items removed — so you can rely on what you see being current.
 | 32 | [TheoV823/mneme](https://github.com/TheoV823/mneme) | 11 | HTML | 2026-06-03 | — | Enforce architectural decisions in AI-assisted development. |
 | 33 | [caioribeiroclw-pixel/pluribus](https://github.com/caioribeiroclw-pixel/pluribus) | 3 | JavaScript | 2026-06-03 | — | Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security |
 | 34 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 3 | Python | 2026-06-04 | — | Governance-first OS for AI coding agents — structured workflows, delivery gates, engineering guardrails, and 14 professi |
-| 35 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 13814 | Shell | 2026-06-03 | — | 🎭 211 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 16 种工具，覆盖工程/设计/营销/金融等 18 个部门。含 46 个中国市场原创智能体（小红书/抖音/ |
+| 35 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 13822 | Shell | 2026-06-03 | — | 🎭 211 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 16 种工具，覆盖工程/设计/营销/金融等 18 个部门。含 46 个中国市场原创智能体（小红书/抖音/ |
 | 36 | [thebuilderlabs/ship-with-ai](https://github.com/thebuilderlabs/ship-with-ai) | 0 | Shell | 2026-06-03 | — | Production-grade AI coding rules for Cursor, Claude Code, and Copilot. Three stacks, 24 rule files, zero generic advice. |
 | 37 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-06-03 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/agenticstandardcontact-byte/agentic-architect/) | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
 | 38 | [vibestackdev/vibe-stack](https://github.com/vibestackdev/vibe-stack) | 6 | TypeScript | 2026-06-03 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/) | 29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b |
@@ -101,7 +101,7 @@ expired items removed — so you can rely on what you see being current.
 | 46 | [oliviacraft/cursor-rules-pack-sample](https://github.com/oliviacraft/cursor-rules-pack-sample) | 0 | — | 2026-06-03 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/oliviacraft/cursor-rules-pack-sample/) | 7 production-tested Cursor Rules — free sample from the Cursor Rules Pack v2 (50+ rules) |
 | 47 | [jcottam/agent-resources](https://github.com/jcottam/agent-resources) | 1 | Shell | 2026-06-03 | — | Battle-tested agent skills and Cursor rules from real projects. Works with Cursor, Claude Code, and any agent. |
 | 48 | [xnoahwang/cursor-prime](https://github.com/xnoahwang/cursor-prime) | 0 | PowerShell | 2026-06-03 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/xnoahwang/cursor-prime/) | Cursor-native config: a strict Plan Gate + Karpathy discipline rules, /plan /delta /prime-init commands, and a global gi |
-| 49 | [wshobson/agents](https://github.com/wshobson/agents) | 36326 | Python | 2026-06-02 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI |
+| 49 | [wshobson/agents](https://github.com/wshobson/agents) | 36327 | Python | 2026-06-02 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI |
 | 50 | [danmartuszewski/agentlint](https://github.com/danmartuszewski/agentlint) | 1 | — | 2026-06-02 | — | Claude Code skill that lints your CLAUDE.md, AGENTS.md, and .cursorrules based on empirical research. Your context file  |
 <!-- TRACKER_TABLE_END -->
 
