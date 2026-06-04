@@ -1,11 +1,25 @@
 [
   {
+    "cursorrules": {
+      "content": "# Cursor Compatibility \u2014 rules pointer\n\n> Cursor reads rule files from `.cursor/rules/*.mdc`. This project's authoritative rules live in [`.ai/`](../../.ai/) and per-directory `.ai/instruct.md` files. The .mdc files in this directory are pointers \u2014 they tell Cursor where to look so its agent behaves the same way GitHub Copilot does in this repo.\n\n---\ndescription: PDS Depth-Priority Hierarchical AI-INSTRUCT system \u2014 read these files before suggesting changes.\nglobs:\n  - \"**/*\"\nalwaysApply: true\n---\n\n# Project rules location\n\nThis project uses the **Depth-Priority Hierarchical AI-INSTRUCT V5** system. The rule files are **not** stored in `.cursor/rules/` \u2014 they are stored under `.ai/` and in per-directory `.ai/instruct.md` files. **The deepest `.ai/instruct.md` always wins.**\n\nBefore suggesting any change, read in this order:\n\n1. [`.github/copilot-instructions.md`](../../.github/copilot-instructions.md) \u2014 meta: how the layering works.\n2. [`.github/dev-specs.md`](../../.github/dev-specs.md) \u2014 developer OS, shell, language versions, frameworks. Read at session start before suggesting commands or paths.\n3. [`.ai/index.md`](../../.ai/index.md) \u2014 master index of every instruction section.\n4. [`.ai/instruct.md`](../../.ai/instruct.md) \u2014 workspace-root authority.\n5. `[current-directory]/.ai/instruct.md` and every ancestor \u2014 **the deepest is authoritative**, shallower files are background context only.\n\n## Cross-cutting rules\n\n| Topic | Canonical file |\n|-------|---------------|\n| Naming, file organization | [`.ai/conventions.md`](../../.ai/conventions.md) |\n| Archive / never-delete / never-reset-db | [`.ai/maintenance.md`](../../.ai/maintenance.md) |\n| Credentials, `.env`, `.gitignore` | [`.ai/credentials.md`](../../.ai/credentials.md) |\n\n## Do not\n\n- Do not invent a new `.cursor/rules/*.mdc` file with project rules in it \u2014 those rules belong in the appropriate `.ai/` file. The `.cursor/rules/` directory is a pointer layer only.\n- Do not duplicate content from `.ai/` into Cursor rules. If Cursor needs context, add a one-line pointer here that links to the canonical file.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/project.mdc"
+    },
+    "description": "Advanced starter template with Depth-Priority Hierarchical AI Instructions for GitHub Copilot Agents and Cursor. Reduces",
+    "id": "vctmasters1/PDS-Layered-AI-Instruct-Template-V5",
+    "language": "Python",
+    "name": "vctmasters1/PDS-Layered-AI-Instruct-Template-V5",
+    "stars": 0,
+    "updated_at": "2026-06-04T16:14:14Z",
+    "url": "https://github.com/vctmasters1/PDS-Layered-AI-Instruct-Template-V5"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-04T15:59:11Z",
+    "updated_at": "2026-06-04T16:00:36Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -61,20 +75,6 @@
     "stars": 1,
     "updated_at": "2026-06-04T15:40:53Z",
     "url": "https://github.com/nizhan80-art/Swift-UIKit-Skill"
-  },
-  {
-    "cursorrules": {
-      "content": "# Cursor Compatibility \u2014 rules pointer\n\n> Cursor reads rule files from `.cursor/rules/*.mdc`. This project's authoritative rules live in [`.ai/`](../../.ai/) and per-directory `.ai/instruct.md` files. The .mdc files in this directory are pointers \u2014 they tell Cursor where to look so its agent behaves the same way GitHub Copilot does in this repo.\n\n---\ndescription: PDS Depth-Priority Hierarchical AI-INSTRUCT system \u2014 read these files before suggesting changes.\nglobs:\n  - \"**/*\"\nalwaysApply: true\n---\n\n# Project rules location\n\nThis project uses the **Depth-Priority Hierarchical AI-INSTRUCT V5** system. The rule files are **not** stored in `.cursor/rules/` \u2014 they are stored under `.ai/` and in per-directory `.ai/instruct.md` files. **The deepest `.ai/instruct.md` always wins.**\n\nBefore suggesting any change, read in this order:\n\n1. [`.github/copilot-instructions.md`](../../.github/copilot-instructions.md) \u2014 meta: how the layering works.\n2. [`.github/dev-specs.md`](../../.github/dev-specs.md) \u2014 developer OS, shell, language versions, frameworks. Read at session start before suggesting commands or paths.\n3. [`.ai/index.md`](../../.ai/index.md) \u2014 master index of every instruction section.\n4. [`.ai/instruct.md`](../../.ai/instruct.md) \u2014 workspace-root authority.\n5. `[current-directory]/.ai/instruct.md` and every ancestor \u2014 **the deepest is authoritative**, shallower files are background context only.\n\n## Cross-cutting rules\n\n| Topic | Canonical file |\n|-------|---------------|\n| Naming, file organization | [`.ai/conventions.md`](../../.ai/conventions.md) |\n| Archive / never-delete / never-reset-db | [`.ai/maintenance.md`](../../.ai/maintenance.md) |\n| Credentials, `.env`, `.gitignore` | [`.ai/credentials.md`](../../.ai/credentials.md) |\n\n## Do not\n\n- Do not invent a new `.cursor/rules/*.mdc` file with project rules in it \u2014 those rules belong in the appropriate `.ai/` file. The `.cursor/rules/` directory is a pointer layer only.\n- Do not duplicate content from `.ai/` into Cursor rules. If Cursor needs context, add a one-line pointer here that links to the canonical file.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/project.mdc"
-    },
-    "description": "Advanced starter template with Depth-Priority Hierarchical AI Instructions for GitHub Copilot Agents and Cursor. Reduces",
-    "id": "vctmasters1/PDS-Layered-AI-Instruct-Template-V5",
-    "language": "Python",
-    "name": "vctmasters1/PDS-Layered-AI-Instruct-Template-V5",
-    "stars": 0,
-    "updated_at": "2026-06-04T15:40:07Z",
-    "url": "https://github.com/vctmasters1/PDS-Layered-AI-Instruct-Template-V5"
   },
   {
     "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
@@ -399,7 +399,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 13871,
+    "stars": 13872,
     "updated_at": "2026-06-03T15:32:03Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
