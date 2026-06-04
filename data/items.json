@@ -1,12 +1,21 @@
 [
   {
-    "description": "Curated Cursor AI agent skills, slash commands, MCP configs, subagents & rules for full-stack dev \u2014 React 19, Next.js 15",
-    "id": "kensaurus/cursor-kenji",
-    "language": "JavaScript",
-    "name": "kensaurus/cursor-kenji",
-    "stars": 3,
-    "updated_at": "2026-06-04T07:57:39Z",
-    "url": "https://github.com/kensaurus/cursor-kenji"
+    "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
+    "id": "mikeprasad/aria-knowledge",
+    "language": "Shell",
+    "name": "mikeprasad/aria-knowledge",
+    "stars": 12,
+    "updated_at": "2026-06-04T08:09:36Z",
+    "url": "https://github.com/mikeprasad/aria-knowledge"
+  },
+  {
+    "description": "\u6211\u7684 Claude Code skills \u96c6\u5408\uff0c\u7528\u4e8e\u63d0\u5347\u5f00\u53d1\u6548\u7387",
+    "id": "wu529778790/shenzjd-skills",
+    "language": "Shell",
+    "name": "wu529778790/shenzjd-skills",
+    "stars": 0,
+    "updated_at": "2026-06-04T08:09:00Z",
+    "url": "https://github.com/wu529778790/shenzjd-skills"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,17 +23,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-04T07:45:50Z",
+    "updated_at": "2026-06-04T08:00:33Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
-    "description": "\u6211\u7684 Claude Code skills \u96c6\u5408\uff0c\u7528\u4e8e\u63d0\u5347\u5f00\u53d1\u6548\u7387",
-    "id": "wu529778790/shenzjd-skills",
+    "description": "Curated Cursor AI agent skills, slash commands, MCP configs, subagents & rules for full-stack dev \u2014 React 19, Next.js 15",
+    "id": "kensaurus/cursor-kenji",
     "language": "JavaScript",
-    "name": "wu529778790/shenzjd-skills",
-    "stars": 0,
-    "updated_at": "2026-06-04T07:19:08Z",
-    "url": "https://github.com/wu529778790/shenzjd-skills"
+    "name": "kensaurus/cursor-kenji",
+    "stars": 3,
+    "updated_at": "2026-06-04T07:57:39Z",
+    "url": "https://github.com/kensaurus/cursor-kenji"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -304,15 +313,6 @@
     "url": "https://github.com/aetox-skills/docstruct"
   },
   {
-    "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
-    "id": "mikeprasad/aria-knowledge",
-    "language": "Shell",
-    "name": "mikeprasad/aria-knowledge",
-    "stars": 12,
-    "updated_at": "2026-06-03T20:03:25Z",
-    "url": "https://github.com/mikeprasad/aria-knowledge"
-  },
-  {
     "description": "Enforce architectural decisions in AI-assisted development.",
     "id": "TheoV823/mneme",
     "language": "HTML",
@@ -344,7 +344,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 13836,
+    "stars": 13838,
     "updated_at": "2026-06-03T15:32:03Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -515,7 +515,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36332,
+    "stars": 36331,
     "updated_at": "2026-06-02T23:15:40Z",
     "url": "https://github.com/wshobson/agents"
   }
