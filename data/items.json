@@ -1,12 +1,57 @@
 [
   {
-    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
-    "id": "zinxj/uikit-expert-skill",
+    "description": "Test iOS agent skills with 11 tasks, 260+ scenarios, and 850+ assertions across 3 models",
+    "id": "christim427-rgb/ios-agent-skills",
+    "language": "Python",
+    "name": "christim427-rgb/ios-agent-skills",
+    "stars": 1,
+    "updated_at": "2026-06-05T13:14:23Z",
+    "url": "https://github.com/christim427-rgb/ios-agent-skills"
+  },
+  {
+    "description": "Build programmatic UIKit apps with production-ready patterns for views, navigation, animation, architecture, and data fl",
+    "id": "nizhan80-art/Swift-UIKit-Skill",
     "language": "\u2014",
-    "name": "zinxj/uikit-expert-skill",
+    "name": "nizhan80-art/Swift-UIKit-Skill",
+    "stars": 1,
+    "updated_at": "2026-06-05T13:09:32Z",
+    "url": "https://github.com/nizhan80-art/Swift-UIKit-Skill"
+  },
+  {
+    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
+    "id": "Amirun99/agency-orchestrator",
+    "language": "Dart",
+    "name": "Amirun99/agency-orchestrator",
+    "stars": 0,
+    "updated_at": "2026-06-05T13:08:53Z",
+    "url": "https://github.com/Amirun99/agency-orchestrator"
+  },
+  {
+    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
+    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "language": "\u2014",
+    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "stars": 2,
+    "updated_at": "2026-06-05T13:07:55Z",
+    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
+  },
+  {
+    "description": "Build 9 iOS agent skills for SwiftUI, testing, security, and more in one install for AI coding agents",
+    "id": "ebbaunqualified520/ios-agent-skills",
+    "language": "Shell",
+    "name": "ebbaunqualified520/ios-agent-skills",
+    "stars": 0,
+    "updated_at": "2026-06-05T13:04:15Z",
+    "url": "https://github.com/ebbaunqualified520/ios-agent-skills"
+  },
+  {
+    "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
+    "id": "caioribeiroclw-pixel/pluribus",
+    "language": "JavaScript",
+    "name": "caioribeiroclw-pixel/pluribus",
     "stars": 3,
-    "updated_at": "2026-06-05T12:49:20Z",
-    "url": "https://github.com/zinxj/uikit-expert-skill"
+    "updated_at": "2026-06-05T13:03:34Z",
+    "url": "https://github.com/caioribeiroclw-pixel/pluribus"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +59,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-05T12:45:48Z",
+    "updated_at": "2026-06-05T13:00:31Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
+    "id": "zinxj/uikit-expert-skill",
+    "language": "\u2014",
+    "name": "zinxj/uikit-expert-skill",
+    "stars": 3,
+    "updated_at": "2026-06-05T12:49:20Z",
+    "url": "https://github.com/zinxj/uikit-expert-skill"
   },
   {
     "description": "Manage and organize project workspaces while dynamically injecting relevant skills for efficient AI assistant context lo",
@@ -233,51 +287,6 @@
     "url": "https://github.com/XAKLESK/cre-agent-skills"
   },
   {
-    "description": "Test iOS agent skills with 11 tasks, 260+ scenarios, and 850+ assertions across 3 models",
-    "id": "christim427-rgb/ios-agent-skills",
-    "language": "Python",
-    "name": "christim427-rgb/ios-agent-skills",
-    "stars": 1,
-    "updated_at": "2026-06-05T10:13:54Z",
-    "url": "https://github.com/christim427-rgb/ios-agent-skills"
-  },
-  {
-    "description": "Build programmatic UIKit apps with production-ready patterns for views, navigation, animation, architecture, and data fl",
-    "id": "nizhan80-art/Swift-UIKit-Skill",
-    "language": "\u2014",
-    "name": "nizhan80-art/Swift-UIKit-Skill",
-    "stars": 1,
-    "updated_at": "2026-06-05T10:09:13Z",
-    "url": "https://github.com/nizhan80-art/Swift-UIKit-Skill"
-  },
-  {
-    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
-    "id": "Amirun99/agency-orchestrator",
-    "language": "Dart",
-    "name": "Amirun99/agency-orchestrator",
-    "stars": 0,
-    "updated_at": "2026-06-05T10:08:35Z",
-    "url": "https://github.com/Amirun99/agency-orchestrator"
-  },
-  {
-    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
-    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "language": "\u2014",
-    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "stars": 2,
-    "updated_at": "2026-06-05T10:07:28Z",
-    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
-  },
-  {
-    "description": "Build 9 iOS agent skills for SwiftUI, testing, security, and more in one install for AI coding agents",
-    "id": "ebbaunqualified520/ios-agent-skills",
-    "language": "Shell",
-    "name": "ebbaunqualified520/ios-agent-skills",
-    "stars": 0,
-    "updated_at": "2026-06-05T10:04:04Z",
-    "url": "https://github.com/ebbaunqualified520/ios-agent-skills"
-  },
-  {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
     "id": "J-nowcow/awesome-korean-agent-skills",
     "language": "\u2014",
@@ -319,7 +328,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36393,
+    "stars": 36394,
     "updated_at": "2026-06-05T08:23:07Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -404,15 +413,6 @@
     "stars": 12,
     "updated_at": "2026-06-04T20:26:44Z",
     "url": "https://github.com/mikeprasad/aria-knowledge"
-  },
-  {
-    "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
-    "id": "caioribeiroclw-pixel/pluribus",
-    "language": "JavaScript",
-    "name": "caioribeiroclw-pixel/pluribus",
-    "stars": 3,
-    "updated_at": "2026-06-04T19:03:26Z",
-    "url": "https://github.com/caioribeiroclw-pixel/pluribus"
   },
   {
     "description": "Universal network troubleshooting skill for AI coding agents: DNS, proxy, SSL, package managers, Docker, Git, and China/",
