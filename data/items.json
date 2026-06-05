@@ -1,14 +1,5 @@
 [
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 0,
-    "updated_at": "2026-06-05T16:25:49Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
     "cursorrules": {
       "content": "# Cursor Compatibility \u2014 rules pointer\n\n> Cursor reads rule files from `.cursor/rules/*.mdc`. This project's authoritative rules live in [`.hi/`](../../.hi/) and per-directory `.hi/instruct.md` files. The .mdc files in this directory are pointers \u2014 they tell Cursor where to look so its agent behaves the same way GitHub Copilot does in this repo.\n\n---\ndescription: PDS Depth-Priority Hierarchical-Instruct system \u2014 read these files before suggesting changes.\nglobs:\n  - \"**/*\"\nalwaysApply: true\n---\n\n# Project rules location\n\n> \u26d4 **STOP. This file holds no rules.** Cursor reads `.cursor/rules/*.mdc`; this is a thin pointer to the single master reference. Do not duplicate rules here.\n\n**\u2192 [`.hi/instruct.md`](../../.hi/instruct.md) is the single authoritative master.**\n\nBefore suggesting any change, read and obey its **[\u26d4 Mandatory Reading Contract](../../.hi/instruct.md#-stop--mandatory-reading-contract-non-negotiable)**. That contract is the *only* place that defines the mandatory reading order, the cross-cutting canonical map, the depth-priority rule (**the deepest `.hi/instruct.md` always wins**), and the governed import/merge guard.\n\nDo not invent a new `.cursor/rules/*.mdc` file with project rules in it \u2014 those rules belong in the appropriate `.hi/` file.\n",
       "format": "mdc",
@@ -19,7 +10,7 @@
     "language": "Python",
     "name": "vctmasters1/PDS-Layered-AI-Instruct-Template-V5",
     "stars": 0,
-    "updated_at": "2026-06-05T16:22:35Z",
+    "updated_at": "2026-06-05T16:34:45Z",
     "url": "https://github.com/vctmasters1/PDS-Layered-AI-Instruct-Template-V5"
   },
   {
@@ -28,8 +19,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-05T16:19:45Z",
+    "updated_at": "2026-06-05T16:30:37Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-06-05T16:25:49Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
