@@ -14,7 +14,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="vctmasters1/PDS-Layered-AI-Instruct-Template-V5 - entry on Cursor Rules Live">
 <meta name="twitter:description" content="Advanced starter template with Depth-Priority Hierarchical AI Instructions for GitHub Copilot Agents and Cursor. Reduces">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"vctmasters1/PDS-Layered-AI-Instruct-Template-V5","codeRepository":"https://github.com/vctmasters1/PDS-Layered-AI-Instruct-Template-V5","programmingLanguage":"TypeScript","url":"https://linny006.github.io/cursor-rules-live/r/vctmasters1/PDS-Layered-AI-Instruct-Template-V5/","description":"Advanced starter template with Depth-Priority Hierarchical AI Instructions for GitHub Copilot Agents and Cursor. Reduces","author":{"@type":"Person","name":"vctmasters1","url":"https://github.com/vctmasters1"},"dateModified":"2026-06-05"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"vctmasters1/PDS-Layered-AI-Instruct-Template-V5","codeRepository":"https://github.com/vctmasters1/PDS-Layered-AI-Instruct-Template-V5","programmingLanguage":"Python","url":"https://linny006.github.io/cursor-rules-live/r/vctmasters1/PDS-Layered-AI-Instruct-Template-V5/","description":"Advanced starter template with Depth-Priority Hierarchical AI Instructions for GitHub Copilot Agents and Cursor. Reduces","author":{"@type":"Person","name":"vctmasters1","url":"https://github.com/vctmasters1"},"dateModified":"2026-06-05"}</script>
 <style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
          --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
 * { box-sizing: border-box; }
@@ -47,7 +47,7 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <p class="lead">Advanced starter template with Depth-Priority Hierarchical AI Instructions for GitHub Copilot Agents and Cursor. Reduces</p>
 <div class="meta">
 <span><strong>Stars</strong> 0</span>
-<span><strong>Language</strong> TypeScript</span>
+<span><strong>Language</strong> Python</span>
 <span><strong>Last updated</strong> 2026-06-05</span>
 <span><a href="https://github.com/vctmasters1/PDS-Layered-AI-Instruct-Template-V5" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/vctmasters1" rel="external">@vctmasters1</a></span>
@@ -56,10 +56,10 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <p>Path in source repo: <code>.cursor/rules/project.mdc</code> &middot; format: <code>mdc</code></p>
 <pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code># Cursor Compatibility — rules pointer
 
-&gt; Cursor reads rule files from `.cursor/rules/*.mdc`. This project&#x27;s authoritative rules live in [`.ai/`](../../.ai/) and per-directory `.ai/instruct.md` files. The .mdc files in this directory are pointers — they tell Cursor where to look so its agent behaves the same way GitHub Copilot does in this repo.
+&gt; Cursor reads rule files from `.cursor/rules/*.mdc`. This project&#x27;s authoritative rules live in [`.hi/`](../../.hi/) and per-directory `.hi/instruct.md` files. The .mdc files in this directory are pointers — they tell Cursor where to look so its agent behaves the same way GitHub Copilot does in this repo.
 
 ---
-description: PDS Depth-Priority Hierarchical AI-INSTRUCT system — read these files before suggesting changes.
+description: PDS Depth-Priority Hierarchical-Instruct system — read these files before suggesting changes.
 globs:
   - &quot;**/*&quot;
 alwaysApply: true
@@ -67,28 +67,13 @@ alwaysApply: true
 
 # Project rules location
 
-This project uses the **Depth-Priority Hierarchical AI-INSTRUCT V5** system. The rule files are **not** stored in `.cursor/rules/` — they are stored under `.ai/` and in per-directory `.ai/instruct.md` files. **The deepest `.ai/instruct.md` always wins.**
+&gt; ⛔ **STOP. This file holds no rules.** Cursor reads `.cursor/rules/*.mdc`; this is a thin pointer to the single master reference. Do not duplicate rules here.
 
-Before suggesting any change, read in this order:
+**→ [`.hi/instruct.md`](../../.hi/instruct.md) is the single authoritative master.**
 
-1. [`.github/copilot-instructions.md`](../../.github/copilot-instructions.md) — meta: how the layering works.
-2. [`.github/dev-specs.md`](../../.github/dev-specs.md) — developer OS, shell, language versions, frameworks. Read at session start before suggesting commands or paths.
-3. [`.ai/index.md`](../../.ai/index.md) — master index of every instruction section.
-4. [`.ai/instruct.md`](../../.ai/instruct.md) — workspace-root authority.
-5. `[current-directory]/.ai/instruct.md` and every ancestor — **the deepest is authoritative**, shallower files are background context only.
+Before suggesting any change, read and obey its **[⛔ Mandatory Reading Contract](../../.hi/instruct.md#-stop--mandatory-reading-contract-non-negotiable)**. That contract is the *only* place that defines the mandatory reading order, the cross-cutting canonical map, the depth-priority rule (**the deepest `.hi/instruct.md` always wins**), and the governed import/merge guard.
 
-## Cross-cutting rules
-
-| Topic | Canonical file |
-|-------|---------------|
-| Naming, file organization | [`.ai/conventions.md`](../../.ai/conventions.md) |
-| Archive / never-delete / never-reset-db | [`.ai/maintenance.md`](../../.ai/maintenance.md) |
-| Credentials, `.env`, `.gitignore` | [`.ai/credentials.md`](../../.ai/credentials.md) |
-
-## Do not
-
-- Do not invent a new `.cursor/rules/*.mdc` file with project rules in it — those rules belong in the appropriate `.ai/` file. The `.cursor/rules/` directory is a pointer layer only.
-- Do not duplicate content from `.ai/` into Cursor rules. If Cursor needs context, add a one-line pointer here that links to the canonical file.
+Do not invent a new `.cursor/rules/*.mdc` file with project rules in it — those rules belong in the appropriate `.hi/` file.
 </code></pre>
 <p><a href="https://github.com/vctmasters1/PDS-Layered-AI-Instruct-Template-V5/blob/HEAD/.cursor/rules/project.mdc" rel="external">View raw on GitHub</a></p>
 </section>
@@ -96,16 +81,16 @@ Before suggesting any change, read in this order:
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>
 <ul class="crosslinks">
-<li><a href="https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/">vibestackdev/vibe-stack (stars:6)</a></li>
-<li><a href="https://linny006.github.io/cursor-rules-live/r/philipbankier/awesome-agent-skills/">philipbankier/awesome-agent-skills (stars:4)</a></li>
-<li><a href="https://linny006.github.io/cursor-rules-live/r/GeiserX/n8n-nodes-lynxprompt/">GeiserX/n8n-nodes-lynxprompt (stars:1)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/wshobson/agents/">wshobson/agents (stars:36399)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/SalesforceAIResearch/agentforce-adlc/">SalesforceAIResearch/agentforce-adlc (stars:68)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/KbWen/agentic-os/">KbWen/agentic-os (stars:3)</a></li>
 </ul></section>
 <section><h2>Explore by category</h2>
 <ul class="crosslinks">
 <li><a href="https://linny006.github.io/cursor-rules-live/popular/">Popular (by stars)</a></li>
 <li><a href="https://linny006.github.io/cursor-rules-live/recent/">Recent (by activity)</a></li>
 <li><a href="https://linny006.github.io/cursor-rules-live/new/">New this week</a></li>
-<li><a href="https://linny006.github.io/cursor-rules-live/lang/typescript/">All TypeScript entries</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/lang/python/">All Python entries</a></li>
 </ul></section>
 </main>
 <footer>
