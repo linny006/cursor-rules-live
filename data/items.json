@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-05T00:30:31Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Production-grade AI coding rules for Cursor, Claude Code, and Copilot. Three stacks, 24 rule files, zero generic advice.",
     "id": "thebuilderlabs/ship-with-ai",
     "language": "Shell",
@@ -7,15 +16,6 @@
     "stars": 0,
     "updated_at": "2026-06-05T00:18:11Z",
     "url": "https://github.com/thebuilderlabs/ship-with-ai"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-05T00:15:26Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Build unique user interfaces with a structured ruleset to prevent generic AI output.",
@@ -445,7 +445,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 13886,
+    "stars": 13888,
     "updated_at": "2026-06-03T15:32:03Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
