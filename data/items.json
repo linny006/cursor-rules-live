@@ -1,11 +1,20 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-06-05T13:49:00Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-05T13:43:21Z",
+    "updated_at": "2026-06-05T13:45:33Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -264,15 +273,6 @@
     "url": "https://github.com/whydixit/cursor-starter"
   },
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 0,
-    "updated_at": "2026-06-05T10:48:51Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: \"Core ControlFlow identity, source hierarchy, and offline validations for the repository.\"\nalwaysApply: true\n---\n# ControlFlow Core\n\nThis is a prompt/governance/eval repository, not a runtime application.\nCanonical multi-agent policies, roster, and tiers are governed by `.github/copilot-instructions.md` and `plans/project-context.md`.\nCursor workflow: skills in `.cursor/skills/controlflow-*/`, subagents in `.cursor/agents/controlflow-*.md`, plugin package `plugins/controlflow-cursor/`.\nEntry: follow skill `controlflow-strict-workflow` for non-trivial tasks.\nUse `Task(subagent_type=...)` for delegation when available; see `docs/agent-engineering/CURSOR-SUPPORT.md` for fallback.\nCursor cannot execute VS Code-only semantics (`agent/runSubagent`, `@Planner` UI). Do not claim otherwise.\n`AGENTS.md` is compatibility context only, not the primary Cursor artifact.\nAll changes must pass: `cd evals && npm test`.\n",
       "format": "mdc",
@@ -328,7 +328,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36394,
+    "stars": 36396,
     "updated_at": "2026-06-05T08:23:07Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -491,7 +491,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 13975,
+    "stars": 13976,
     "updated_at": "2026-06-03T15:32:03Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
