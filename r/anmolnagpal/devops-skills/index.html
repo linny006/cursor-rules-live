@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<title>anmolnagpal/devops-skills - entry on Cursor Rules Live</title>
+<meta name="description" content="Multi-tool DevOps skills for Claude Code, Cursor, and Codex — Terraform, Kubernetes, Docker, GitHub Actions, GitLab CI,">
+<link rel="canonical" href="https://linny006.github.io/cursor-rules-live/r/anmolnagpal/devops-skills/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="anmolnagpal/devops-skills - entry on Cursor Rules Live">
+<meta property="og:description" content="Multi-tool DevOps skills for Claude Code, Cursor, and Codex — Terraform, Kubernetes, Docker, GitHub Actions, GitLab CI,">
+<meta property="og:url" content="https://linny006.github.io/cursor-rules-live/r/anmolnagpal/devops-skills/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="anmolnagpal/devops-skills - entry on Cursor Rules Live">
+<meta name="twitter:description" content="Multi-tool DevOps skills for Claude Code, Cursor, and Codex — Terraform, Kubernetes, Docker, GitHub Actions, GitLab CI,">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"anmolnagpal/devops-skills","codeRepository":"https://github.com/anmolnagpal/devops-skills","programmingLanguage":"Shell","url":"https://linny006.github.io/cursor-rules-live/r/anmolnagpal/devops-skills/","description":"Multi-tool DevOps skills for Claude Code, Cursor, and Codex — Terraform, Kubernetes, Docker, GitHub Actions, GitLab CI,","author":{"@type":"Person","name":"anmolnagpal","url":"https://github.com/anmolnagpal"},"dateModified":"2026-06-05"}</script>
+<style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
+         --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 16px; font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--fg); background: var(--bg); }
+.wrap { max-width: var(--max); margin: 0 auto; }
+nav.bc { font-size: 14px; color: var(--muted); margin-bottom: 16px; }
+nav.bc a { color: var(--muted); }
+h1 { font-size: 28px; margin: 0 0 8px; }
+h2 { font-size: 20px; margin: 24px 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+p.lead { font-size: 18px; color: var(--muted); margin: 0 0 24px; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+th, td { padding: 8px 12px; text-align: left; border-bottom: 1px solid var(--border); }
+th { background: var(--card); font-weight: 600; }
+ul.crosslinks { list-style: none; padding: 0; }
+ul.crosslinks li { padding: 6px 0; }
+ul.crosslinks li a { font-weight: 500; }
+.meta { display: flex; gap: 16px; flex-wrap: wrap; color: var(--muted); font-size: 14px; margin: 12px 0; }
+.meta span::before { content: "\00b7"; margin-right: 8px; color: var(--border); }
+.meta span:first-child::before { content: ""; }
+footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--border); font-size: 14px; color: var(--muted); }</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="bc"><a href="https://linny006.github.io/cursor-rules-live/">Cursor Rules Live</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/popular/">Entries</a> &#183; <span>anmolnagpal/devops-skills</span></nav>
+<main>
+<h1>anmolnagpal/devops-skills</h1>
+<p class="lead">Multi-tool DevOps skills for Claude Code, Cursor, and Codex — Terraform, Kubernetes, Docker, GitHub Actions, GitLab CI,</p>
+<div class="meta">
+<span><strong>Stars</strong> 5</span>
+<span><strong>Language</strong> Shell</span>
+<span><strong>Last updated</strong> 2026-06-05</span>
+<span><a href="https://github.com/anmolnagpal/devops-skills" rel="external">Source on GitHub</a></span>
+<span><a href="https://github.com/anmolnagpal" rel="external">@anmolnagpal</a></span>
+</div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/clouddrove-tf.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
+description: Team standard for AWS Terraform repos built on the CloudDrove wrapper-module pattern. Use when working in a repo with an `_modules/` directory that wraps `clouddrove/*/aws` modules, scaffolding a new wrapper module, generating Terraform GitHub Actions CI, reviewing wrapper-pattern PRs, or mapping the pattern to SOC2/GDPR controls. Supersedes /tf on CloudDrove repos.
+globs: _modules/**/*.tf, environments/**/*.tf, bootstrap/**/*.tf, .github/workflows/terraform.yml, .github/workflows/drift.yml
+alwaysApply: false
+---
+# CloudDrove Terraform Skill
+
+Enforce one team standard across every AWS Terraform repo built on the CloudDrove wrapper-module pattern. Scaffold new wrappers, generate CI, review PRs against the pattern, and map coverage to SOC2/GDPR as a byproduct — not the headline.
+
+&gt; **Use this skill instead of `/tf`** on any repo with an `_modules/` directory. `/tf` recommends the `terraform-aws-modules` ecosystem, which conflicts with the CloudDrove wrapper pattern. Don&#x27;t run both.
+
+## Keywords
+
+clouddrove, wrapper, _modules, terraform, tf, aws, scaffold, labels, name_prefix, label_order, github actions, ci, drift, eks, aurora, elasticache, alb, acm, waf, vpc, route53, kms, soc2, gdpr
+
+## Output Artifacts
+
+| Request | Output |
+|---------|--------|
+| `/clouddrove-tf new &lt;module&gt;` | `_modules/&lt;name&gt;/` scaffold: `main.tf`, `variables.tf`, `outputs.tf` |
+| `/clouddrove-tf ci` | `.github/workflows/terraform.yml` + `drift.yml` |
+| `/clouddrove-tf review` | Blocking / advisory finding list |
+| `/clouddrove-tf controls` | SOC2 + GDPR control coverage table |
+
+---
+
+## Step 1 — Determine the action
+
+Read the arguments:
+
+- `new &lt;module-name&gt;` → **NEW** (most common — scaffold first, enforce pattern)
+- `ci` → **CI**
+- `review` → **REVIEW**
+- `controls` → **CONTROLS**
+- No arguments → glob for `_modules/`, `environments/`, `.github/workflows/`:
+  - Empty repo → default to **NEW**, ask which module
+  - Files found → ask: &quot;**new** / **ci** / **review** / **controls**?&quot;
+
+---
+
+## The Pattern (read first — every action enforces this)
+
+CloudDrove wrapper repos share one layout:
+
+```
+_modules/
+  labels/          # name_prefix + tags factory — every other module consumes it
+  &lt;name&gt;/          # wrapper around clouddrove/&lt;name&gt;/aws
+environments/
+  dev/  staging/  prod/    # only call _modules/&lt;name&gt;, never CloudDrove directly
+bootstrap/         # state bucket + lock table (one-time, separate state)
+```
+
+Three invariants:
+
+1. **`environments/*/main.tf` never calls `source = &quot;clouddrove/*/aws&quot;` directly** — only `source = &quot;../../_modules/&lt;name&gt;&quot;`.
+2. **Every `_modules/&lt;name&gt;/main.tf` starts with `module &quot;labels&quot;`** — no module computes its own `name_prefix`.
+3. **All resource names derive from `module.labels.name_prefix`** — pattern `{client_name}-{environment}-{resource}`.
+
+### labels usage (copy verbatim into every new wrapper)
+
+```hcl
+module &quot;labels&quot; {
+  source         = &quot;../labels&quot;
+  client_name    = var.client_name
+  environment    = var.environment
+  repository_url = var.repository_url
+  cost_center    = var.cost_center
+}
+
+locals {
+  np = module.labels.name_prefix   # e.g. &quot;acme-prod&quot;
+}
+```
+
+### Standard variable set (every `_modules/&lt;name&gt;/variables.tf`)
+
+```hcl
+variable &quot;client_name&quot;    { type = string; description = &quot;Client slug — used as resource name prefix.&quot; }
+variable &quot;environment&quot;    {
+  type        = string
+  description = &quot;Deployment environment.&quot;
+  validation {
+    condition     = contains([&quot;dev&quot;, &quot;staging&quot;, &quot;prod&quot;, &quot;sandbox&quot;], var.environment)
+    error_message = &quot;Must be dev, staging, prod, or sandbox.&quot;
+  }
+}
+variable &quot;repository_url&quot; { type = string; description = &quot;Source repository URL — applied as a tag.&quot; }
+variable &quot;cost_center&quot;    { type = string; description = &quot;Cost center code — applied as a tag.&quot; }
+```
+
+### CloudDrove module call pattern
+
+```hcl
+module &quot;&lt;name&gt;&quot; {
+  source  = &quot;clouddrove/&lt;name&gt;/aws&quot;
+  version = &quot;&lt;pinned-version&gt;&quot;
+
+  name        = &quot;${local.np}-&lt;suffix&gt;&quot;
+  environment = var.environment
+  label_order = [&quot;name&quot;]
+
+  tags = module.labels.tags
+  # ... module-specific variables
+}
+```
+
+`label_order = [&quot;name&quot;]` is **mandatory** — without it, upstream CloudDrove appends `environment` a second time, producing `acme-prod-prod-eks`.
+
+---
+
+## NEW — Scaffold a Module
+
+### Identify module type
+
+Extract from argument (e.g. `new monitoring`). If missing, ask: &quot;Which module? (security / vpc / eks / aurora / elasticache / alb / dns / acm / waf / iam / monitoring / s3 / secrets / dashboard / labels)&quot;
+
+### Standard `main.tf` header
+
+```hcl
+terraform {
+  required_version = &quot;&gt;= 1.6.0&quot;
+  required_providers {
+    aws = {
+      source  = &quot;hashicorp/aws&quot;
+      version = &quot;~&gt; 5.0&quot;
+    }
+  }
+}
+
+module &quot;labels&quot; {
+  source         = &quot;../labels&quot;
+  client_name    = var.client_name
+  environment    = var.environment
+  repository_url = var.repository_url
+  cost_center    = var.cost_center
+}
+
+locals {
+  np = module.labels.name_prefix
+}
+```
+
+### Generated files (three per module)
+
+- **`variables.tf`** — standard four vars + module-specific vars, all with `description` and `type`
+- **`main.tf`** — `terraform {}` + `module &quot;labels&quot;` + `locals { np }` + CloudDrove module call with `name = &quot;${local.np}-&lt;suffix&gt;&quot;`, `label_order = [&quot;name&quot;]`, `tags = module.labels.tags`
+- **`outputs.tf`** — all IDs, ARNs, names with `description`; secrets with `sensitive = true`
+
+---
+
+## CI — GitHub Actions Workflows
+
+Generate two workflow files following team standards.
+
+### `terraform.yml` — PR + merge pipeline
+
+1. **Concurrency:** `cancel-in-progress: ${{ github.event_name == &#x27;pull_request&#x27; }}` — cancels stale PR runs, never cancels in-flight applies.
+2. **Minimal permissions** at workflow level (`contents: read`); jobs declare only what they need (`id-token: write`, `pull-requests: write`).
+3. **Change detection job** — outputs a matrix of affected environments from `git diff` between base SHA and HEAD. If `_modules/` changed, all environments are affected.
+4. **PR gates** (parallel, all block merge):
+   - `fmt` </code></pre>
+<p><em>Content truncated. View full file in the source repo (linked above).</em></p><p><a href="https://github.com/anmolnagpal/devops-skills/blob/HEAD/.cursor/rules/clouddrove-tf.mdc" rel="external">View raw on GitHub</a></p>
+</section>
+<section><h2>Why this is listed</h2>
+<p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
+<section><h2>Similar in this tracker</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/r/jnMetaCode/agency-agents-zh/">jnMetaCode/agency-agents-zh (stars:13956)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/mikeprasad/aria-knowledge/">mikeprasad/aria-knowledge (stars:12)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/Luxvil/ai-coding-rules/">Luxvil/ai-coding-rules (stars:3)</a></li>
+</ul></section>
+<section><h2>Explore by category</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/popular/">Popular (by stars)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/recent/">Recent (by activity)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/new/">New this week</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/lang/shell/">All Shell entries</a></li>
+</ul></section>
+</main>
+<footer>
+Auto-updated every 15 minutes via GitHub Actions &#183; <a href="https://linny006.github.io/cursor-rules-live/">tracker root</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/sitemap.xml">sitemap</a>
+</footer>
+</div>
+</body>
+</html>
