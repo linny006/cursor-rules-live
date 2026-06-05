@@ -1,12 +1,12 @@
 [
   {
-    "description": "Rules and commands to supercharge Cursor",
-    "id": "netanelavr/dotcursor",
+    "description": "AI agent skill for clear, non-duplicated, token-efficient project documentation.",
+    "id": "aetox-skills/docstruct",
     "language": "\u2014",
-    "name": "netanelavr/dotcursor",
-    "stars": 2,
-    "updated_at": "2026-06-05T07:09:41Z",
-    "url": "https://github.com/netanelavr/dotcursor"
+    "name": "aetox-skills/docstruct",
+    "stars": 1,
+    "updated_at": "2026-06-05T07:30:07Z",
+    "url": "https://github.com/aetox-skills/docstruct"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-05T07:00:36Z",
+    "updated_at": "2026-06-05T07:15:47Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Rules and commands to supercharge Cursor",
+    "id": "netanelavr/dotcursor",
+    "language": "\u2014",
+    "name": "netanelavr/dotcursor",
+    "stars": 2,
+    "updated_at": "2026-06-05T07:09:41Z",
+    "url": "https://github.com/netanelavr/dotcursor"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -341,7 +350,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36382,
+    "stars": 36383,
     "updated_at": "2026-06-04T17:30:42Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -432,15 +441,6 @@
     "url": "https://github.com/GeiserX/lynxprompt-vscode"
   },
   {
-    "description": "AI agent skill for clear, non-duplicated, token-efficient project documentation.",
-    "id": "aetox-skills/docstruct",
-    "language": "\u2014",
-    "name": "aetox-skills/docstruct",
-    "stars": 1,
-    "updated_at": "2026-06-03T21:06:07Z",
-    "url": "https://github.com/aetox-skills/docstruct"
-  },
-  {
     "description": "Enforce architectural decisions in AI-assisted development.",
     "id": "TheoV823/mneme",
     "language": "HTML",
@@ -454,7 +454,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 13938,
+    "stars": 13939,
     "updated_at": "2026-06-03T15:32:03Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
