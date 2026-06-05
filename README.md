@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-06-05 19:30 UTC
+> ⏰ Last updated: 2026-06-05 19:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -87,7 +87,7 @@ expired items removed — so you can rely on what you see being current.
 | 32 | [Smithbox-ai/ControlFlow](https://github.com/Smithbox-ai/ControlFlow) | 11 | JavaScript | 2026-06-05 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Smithbox-ai/ControlFlow/) | Multi-agent orchestration for VS Code Copilot, Claude Code, OpenAI Codex and Cursor |
 | 33 | [anmolnagpal/devops-skills](https://github.com/anmolnagpal/devops-skills) | 5 | Shell | 2026-06-05 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/anmolnagpal/devops-skills/) | Multi-tool DevOps skills for Claude Code, Cursor, and Codex — Terraform, Kubernetes, Docker, GitHub Actions, GitLab CI,  |
 | 34 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 4 | TypeScript | 2026-06-05 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
-| 35 | [wshobson/agents](https://github.com/wshobson/agents) | 36404 | Python | 2026-06-05 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI |
+| 35 | [wshobson/agents](https://github.com/wshobson/agents) | 36406 | Python | 2026-06-05 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI |
 | 36 | [aetox-skills/docstruct](https://github.com/aetox-skills/docstruct) | 1 | — | 2026-06-05 | — | AI documentation architecture skill for clear, non-duplicated, source-of-truth driven, token-efficient project documenta |
 | 37 | [netanelavr/dotcursor](https://github.com/netanelavr/dotcursor) | 2 | — | 2026-06-05 | — | Rules and commands to supercharge Cursor |
 | 38 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 3 | Python | 2026-06-05 | — | Governance-first OS for AI coding agents — structured workflows, delivery gates, engineering guardrails, and 14 professi |
