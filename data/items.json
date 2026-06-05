@@ -1,11 +1,20 @@
 [
   {
+    "description": "Production-grade AI coding rules for Cursor, Claude Code, and Copilot. Three stacks, 24 rule files, zero generic advice.",
+    "id": "thebuilderlabs/ship-with-ai",
+    "language": "Shell",
+    "name": "thebuilderlabs/ship-with-ai",
+    "stars": 0,
+    "updated_at": "2026-06-05T00:18:11Z",
+    "url": "https://github.com/thebuilderlabs/ship-with-ai"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-05T00:00:44Z",
+    "updated_at": "2026-06-05T00:15:26Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -436,18 +445,9 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 13885,
+    "stars": 13886,
     "updated_at": "2026-06-03T15:32:03Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
-  },
-  {
-    "description": "Production-grade AI coding rules for Cursor, Claude Code, and Copilot. Three stacks, 24 rule files, zero generic advice.",
-    "id": "thebuilderlabs/ship-with-ai",
-    "language": "Shell",
-    "name": "thebuilderlabs/ship-with-ai",
-    "stars": 0,
-    "updated_at": "2026-06-03T14:40:28Z",
-    "url": "https://github.com/thebuilderlabs/ship-with-ai"
   },
   {
     "description": "Your AI assistant hallucinates APIs, breaks dependent files, and weakens tests. 20 skills that prevent this across the f",
