@@ -1,5 +1,23 @@
 [
   {
+    "description": "Rules and commands to supercharge Cursor",
+    "id": "netanelavr/dotcursor",
+    "language": "\u2014",
+    "name": "netanelavr/dotcursor",
+    "stars": 2,
+    "updated_at": "2026-06-05T07:09:41Z",
+    "url": "https://github.com/netanelavr/dotcursor"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-05T07:00:36Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
     "id": "edsondviana8/ai-humanizer-core",
     "language": "HTML",
@@ -16,15 +34,6 @@
     "stars": 3,
     "updated_at": "2026-06-05T06:54:52Z",
     "url": "https://github.com/KbWen/agentic-os"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-05T06:45:32Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Build unique user interfaces with a structured ruleset to prevent generic AI output.",
@@ -332,7 +341,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36381,
+    "stars": 36382,
     "updated_at": "2026-06-04T17:30:42Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -445,7 +454,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 13937,
+    "stars": 13938,
     "updated_at": "2026-06-03T15:32:03Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -494,19 +503,5 @@
     "stars": 114,
     "updated_at": "2026-06-03T04:40:45Z",
     "url": "https://github.com/madebyaris/advance-minimax-m3-cursor-rules"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Agent rules for skillpack-forge-demo\nglobs:\n  - \"**/*\"\nalwaysApply: true\n---\n\n# skillpack-forge-demo\n\nGenerated from `skillpack.yaml` by Skillpack Forge.\n\nA small release automation fixture showing how one manifest compiles into AGENTS.md, CLAUDE.md, Skills, rules, Copilot instructions, MCP resources, and an MCPB bundle.\n\n## Principles\n- Treat skillpack.yaml as the source of truth for generated agent context\n- Keep fixture changes small enough that visitors can inspect them quickly\n- Regenerate and verify agent files after changing workflows, commands, or targets\n- Run npm run check and skillpack-forge check . --strict before claiming success\n\n## Commands\n- install: `npm install`\n- demo: `npm run demo`\n- test: `npm test`\n- check: `npm run check`\n- compile-context: `npx skillpack-forge@latest compile .`\n- verify-context: `npx skillpack-forge@latest check . --strict`\n- pack-mcpb: `npx skillpack-forge@latest mcpb . bundles/skillpack-forge-demo.mcpb`\n",
-      "format": "mdc",
-      "path": ".cursor/rules/skillpack-forge-demo.mdc"
-    },
-    "description": "Live fixture showing Skillpack Forge compiling one skillpack.yaml into multi-agent context files, MCP resources, and an ",
-    "id": "guorunjie/skillpack-forge-demo",
-    "language": "JavaScript",
-    "name": "guorunjie/skillpack-forge-demo",
-    "stars": 0,
-    "updated_at": "2026-06-03T04:26:07Z",
-    "url": "https://github.com/guorunjie/skillpack-forge-demo"
   }
 ]
