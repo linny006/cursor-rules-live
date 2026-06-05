@@ -1,21 +1,21 @@
 [
   {
-    "description": "AI agent skill for clear, non-duplicated, token-efficient project documentation.",
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-05T07:30:28Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "AI documentation architecture skill for clear, non-duplicated, source-of-truth driven, token-efficient project documenta",
     "id": "aetox-skills/docstruct",
     "language": "\u2014",
     "name": "aetox-skills/docstruct",
     "stars": 1,
     "updated_at": "2026-06-05T07:30:07Z",
     "url": "https://github.com/aetox-skills/docstruct"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-05T07:15:47Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Rules and commands to supercharge Cursor",
@@ -350,7 +350,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36383,
+    "stars": 36384,
     "updated_at": "2026-06-04T17:30:42Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -454,7 +454,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 13939,
+    "stars": 13944,
     "updated_at": "2026-06-03T15:32:03Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
