@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-06-06 06:30 UTC
+> ⏰ Last updated: 2026-06-06 06:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -81,7 +81,7 @@ expired items removed — so you can rely on what you see being current.
 | 26 | [caioribeiroclw-pixel/pluribus](https://github.com/caioribeiroclw-pixel/pluribus) | 3 | JavaScript | 2026-06-06 | — | Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security |
 | 27 | [TheoV823/mneme](https://github.com/TheoV823/mneme) | 11 | HTML | 2026-06-06 | — | Enforce architectural decisions in AI-assisted development. |
 | 28 | [weijia-89/palamedes](https://github.com/weijia-89/palamedes) | 0 | HTML | 2026-06-06 | — | Rigorous LLM research in two layers: a multi-agent dialectic synthesis prompt + an agent-loadable research skill. Hierar |
-| 29 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 12 | Shell | 2026-06-05 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
+| 29 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 12 | Shell | 2026-06-06 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
 | 30 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 15 | — | 2026-06-05 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
 | 31 | [vctmasters1/PDS-Layered-AI-Instruct-Template-V5](https://github.com/vctmasters1/PDS-Layered-AI-Instruct-Template-V5) | 0 | Python | 2026-06-05 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vctmasters1/PDS-Layered-AI-Instruct-Template-V5/) | Advanced starter template with Depth-Priority Hierarchical AI Instructions for GitHub Copilot Agents and Cursor. Reduces |
 | 32 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-06-05 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/agenticstandardcontact-byte/agentic-architect/) | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
