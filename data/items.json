@@ -1,5 +1,55 @@
 [
   {
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-06-06T22:08:41Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
+  },
+  {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 0,
+    "updated_at": "2026-06-06T22:07:37Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+  },
+  {
+    "cursorrules": {
+      "content": ".cursor/rules/project.mdc \u2014 Generated from Cursor Rules Pack v2\nCopy sections relevant to your stack. Replace [brackets] with your specifics.\n\n# Core Rules (apply to all projects)\n\nYou are a senior software engineer building production software.\n\nBefore suggesting a new package: state what it does, confirm it's maintained, check if < 30 lines replaces it.\n\nAlways wrap async operations in try/catch. Never swallow errors. Log with context: logger.error('[FunctionName]', { error, context }).\n\nWrite self-documenting code. Comments explain WHY, not WHAT. Workarounds get a comment + issue link.\n\n# State Management (Next.js / React)\n\nURL state \u2192 filters, pagination (useSearchParams)\nReact state \u2192 UI-only (useState)  \nZustand \u2192 cross-component app state\nReact Query \u2192 all server state\n\nNever use Zustand to cache server data.\n\n# Data Fetching\n\nParallelize independent fetches with Promise.all. Sequential awaits need a comment explaining the dependency.\n\n# API Routes\n\nEvery route: authenticate \u2192 validate (Zod) \u2192 authorize \u2192 execute \u2192 typed response.\nNever return 200 for errors. Never return full DB records \u2014 always use select.\n\n# Database\n\nNever fetch full records \u2014 use select. Paginate queries > 50 rows. Use transactions for multi-table writes.\n\n---\nFull pack (50 rules): https://oliviacraftlat.gumroad.com/l/wyaeil\n",
+      "format": "text",
+      "path": ".cursorrules"
+    },
+    "description": "7 production-tested Cursor Rules \u2014 free sample from the Cursor Rules Pack v2 (50+ rules)",
+    "id": "oliviacraft/cursor-rules-pack-sample",
+    "language": "\u2014",
+    "name": "oliviacraft/cursor-rules-pack-sample",
+    "stars": 0,
+    "updated_at": "2026-06-06T22:07:09Z",
+    "url": "https://github.com/oliviacraft/cursor-rules-pack-sample"
+  },
+  {
+    "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
+    "id": "caioribeiroclw-pixel/pluribus",
+    "language": "JavaScript",
+    "name": "caioribeiroclw-pixel/pluribus",
+    "stars": 3,
+    "updated_at": "2026-06-06T22:04:42Z",
+    "url": "https://github.com/caioribeiroclw-pixel/pluribus"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-06T22:00:43Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
     "id": "edsondviana8/ai-humanizer-core",
     "language": "HTML",
@@ -16,15 +66,6 @@
     "stars": 1,
     "updated_at": "2026-06-06T21:50:04Z",
     "url": "https://github.com/eumiguellllllllll/copilot-rules"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-06T21:45:32Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -172,24 +213,6 @@
     "url": "https://github.com/ebbaunqualified520/ios-agent-skills"
   },
   {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
-    "stars": 0,
-    "updated_at": "2026-06-06T20:14:22Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 0,
-    "updated_at": "2026-06-06T20:13:30Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
     "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
     "id": "zinxj/uikit-expert-skill",
     "language": "\u2014",
@@ -303,15 +326,6 @@
     "stars": 113,
     "updated_at": "2026-06-06T14:20:10Z",
     "url": "https://github.com/Mark393295827/third-brain-v5-skills"
-  },
-  {
-    "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
-    "id": "caioribeiroclw-pixel/pluribus",
-    "language": "JavaScript",
-    "name": "caioribeiroclw-pixel/pluribus",
-    "stars": 3,
-    "updated_at": "2026-06-06T14:04:30Z",
-    "url": "https://github.com/caioribeiroclw-pixel/pluribus"
   },
   {
     "cursorrules": {
@@ -499,14 +513,5 @@
     "stars": 1,
     "updated_at": "2026-06-04T09:56:10Z",
     "url": "https://github.com/CacinieP/network-troubleshoot-skill"
-  },
-  {
-    "description": "Curated Cursor AI agent skills, slash commands, MCP configs, subagents & rules for full-stack dev \u2014 React 19, Next.js 15",
-    "id": "kensaurus/cursor-kenji",
-    "language": "JavaScript",
-    "name": "kensaurus/cursor-kenji",
-    "stars": 3,
-    "updated_at": "2026-06-04T09:14:11Z",
-    "url": "https://github.com/kensaurus/cursor-kenji"
   }
 ]
