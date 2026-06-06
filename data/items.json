@@ -1,11 +1,29 @@
 [
   {
+    "description": "\ud83d\udca1 Discover AI coding tools that enhance your workflow, from code editors to completion engines, and boost your software ",
+    "id": "JohannFreddyLoayzaHuana/awesome-ai-coding-tools",
+    "language": "\u2014",
+    "name": "JohannFreddyLoayzaHuana/awesome-ai-coding-tools",
+    "stars": 2,
+    "updated_at": "2026-06-06T02:59:21Z",
+    "url": "https://github.com/JohannFreddyLoayzaHuana/awesome-ai-coding-tools"
+  },
+  {
+    "description": "\u2728 Enhance your software development with a curated collection of prompts for Cursor AI, boosting efficiency in planning ",
+    "id": "whydixit/cursor-starter",
+    "language": "\u2014",
+    "name": "whydixit/cursor-starter",
+    "stars": 4,
+    "updated_at": "2026-06-06T02:59:18Z",
+    "url": "https://github.com/whydixit/cursor-starter"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-06T02:30:23Z",
+    "updated_at": "2026-06-06T02:45:26Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -59,7 +77,7 @@
     "language": "TypeScript",
     "name": "nota-america/forgecat-agent-profiles",
     "stars": 2,
-    "updated_at": "2026-06-06T02:22:41Z",
+    "updated_at": "2026-06-06T02:56:32Z",
     "url": "https://github.com/nota-america/forgecat-agent-profiles"
   },
   {
@@ -225,24 +243,6 @@
     "stars": 5,
     "updated_at": "2026-06-06T00:09:59Z",
     "url": "https://github.com/pemdes174/cursor-rules"
-  },
-  {
-    "description": "\ud83d\udca1 Discover AI coding tools that enhance your workflow, from code editors to completion engines, and boost your software ",
-    "id": "JohannFreddyLoayzaHuana/awesome-ai-coding-tools",
-    "language": "\u2014",
-    "name": "JohannFreddyLoayzaHuana/awesome-ai-coding-tools",
-    "stars": 2,
-    "updated_at": "2026-06-06T00:08:56Z",
-    "url": "https://github.com/JohannFreddyLoayzaHuana/awesome-ai-coding-tools"
-  },
-  {
-    "description": "\u2728 Enhance your software development with a curated collection of prompts for Cursor AI, boosting efficiency in planning ",
-    "id": "whydixit/cursor-starter",
-    "language": "\u2014",
-    "name": "whydixit/cursor-starter",
-    "stars": 4,
-    "updated_at": "2026-06-06T00:08:54Z",
-    "url": "https://github.com/whydixit/cursor-starter"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -500,7 +500,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 14006,
+    "stars": 14007,
     "updated_at": "2026-06-03T15:32:03Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   }
