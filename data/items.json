@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-06T23:30:44Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Build unique user interfaces with a structured ruleset to prevent generic AI output.",
     "id": "paoloincommensurable537/PixelPilot",
     "language": "JavaScript",
@@ -25,15 +34,6 @@
     "stars": 1,
     "updated_at": "2026-06-06T23:17:12Z",
     "url": "https://github.com/Bastioned-successor320/learn-nanobot"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-06T23:15:27Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
@@ -493,7 +493,7 @@
     "language": "TypeScript",
     "name": "baneeishaque/ai-agent-rules",
     "stars": 4,
-    "updated_at": "2026-06-05T04:18:11Z",
+    "updated_at": "2026-06-06T23:44:03Z",
     "url": "https://github.com/baneeishaque/ai-agent-rules"
   },
   {
