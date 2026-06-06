@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-06-06 05:45 UTC
+> ⏰ Last updated: 2026-06-06 06:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,9 +53,9 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [sscodeai/agency-agents-ja](https://github.com/sscodeai/agency-agents-ja) | 0 | Shell | 2026-06-06 | — | 323個の即戦力AI専門エージェント — Claude Code/Cursor/Copilot等に対応。SIer/受託開発/SaaS/製造DX/公共分野など日本市場向け114個のオリジナルを含む、agency-agents日本語コミュニティ |
-| 2 | [nota-america/forgecat-agent-profiles](https://github.com/nota-america/forgecat-agent-profiles) | 2 | TypeScript | 2026-06-06 | — | Curated AI Agent Profiles for Claude Code, Codex, Cursor and more — install with forgecat CLI |
-| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-06-06 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-06-06 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [sscodeai/agency-agents-ja](https://github.com/sscodeai/agency-agents-ja) | 0 | Shell | 2026-06-06 | — | 323個の即戦力AI専門エージェント — Claude Code/Cursor/Copilot等に対応。SIer/受託開発/SaaS/製造DX/公共分野など日本市場向け114個のオリジナルを含む、agency-agents日本語コミュニティ |
+| 3 | [nota-america/forgecat-agent-profiles](https://github.com/nota-america/forgecat-agent-profiles) | 2 | TypeScript | 2026-06-06 | — | Curated AI Agent Profiles for Claude Code, Codex, Cursor and more — install with forgecat CLI |
 | 4 | [paoloincommensurable537/PixelPilot](https://github.com/paoloincommensurable537/PixelPilot) | 0 | JavaScript | 2026-06-06 | — | Build unique user interfaces with a structured ruleset to prevent generic AI output. |
 | 5 | [Hyanthropological659/clarify-skill](https://github.com/Hyanthropological659/clarify-skill) | 0 | — | 2026-06-06 | — | Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a |
 | 6 | [Bastioned-successor320/learn-nanobot](https://github.com/Bastioned-successor320/learn-nanobot) | 1 | Python | 2026-06-06 | — | Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers |
@@ -91,7 +91,7 @@ expired items removed — so you can rely on what you see being current.
 | 36 | [Smithbox-ai/ControlFlow](https://github.com/Smithbox-ai/ControlFlow) | 11 | JavaScript | 2026-06-05 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Smithbox-ai/ControlFlow/) | Multi-agent orchestration for VS Code Copilot, Claude Code, OpenAI Codex and Cursor |
 | 37 | [anmolnagpal/devops-skills](https://github.com/anmolnagpal/devops-skills) | 5 | Shell | 2026-06-05 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/anmolnagpal/devops-skills/) | Multi-tool DevOps skills for Claude Code, Cursor, and Codex — Terraform, Kubernetes, Docker, GitHub Actions, GitLab CI,  |
 | 38 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 4 | TypeScript | 2026-06-05 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
-| 39 | [wshobson/agents](https://github.com/wshobson/agents) | 36409 | Python | 2026-06-05 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI |
+| 39 | [wshobson/agents](https://github.com/wshobson/agents) | 36410 | Python | 2026-06-05 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI |
 | 40 | [aetox-skills/docstruct](https://github.com/aetox-skills/docstruct) | 1 | — | 2026-06-05 | — | AI documentation architecture skill for clear, non-duplicated, source-of-truth driven, token-efficient project documenta |
 | 41 | [netanelavr/dotcursor](https://github.com/netanelavr/dotcursor) | 2 | — | 2026-06-05 | — | Rules and commands to supercharge Cursor |
 | 42 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 3 | Python | 2026-06-05 | — | Governance-first OS for AI coding agents — structured workflows, delivery gates, engineering guardrails, and 14 professi |
