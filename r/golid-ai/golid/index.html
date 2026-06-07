@@ -71,7 +71,7 @@ the diff crosses T2/T3 triggers; this checklist is scoped by that tier.
 
 Two trigger points, not just one:
 
-1. **Pre-merge gate** — before declaring a card/feature &quot;done&quot;, run the relevant section of this checklist against every file you touched. Running this proactively converts post-hoc audit cleanup into the original commit. This is the highest-ROI use.
+1. **Pre-merge gate** — before declaring a card/feature &quot;done&quot;, run the relevant section of this checklist against every file you touched. ~20% of recent commits are post-hoc audit cleanup; running this proactively converts those into the original commit. This is the highest-ROI use.
 2. **On demand** — when explicitly asked to audit, review for bugs, or grade code quality.
 
 The checklist below is the same for both; only the trigger differs.
@@ -80,11 +80,13 @@ The checklist below is the same for both; only the trigger differs.
 
 A finding isn&#x27;t &quot;audited&quot; until you&#x27;ve produced one of:
 
-- **File path + function name + line range** for the offending pattern (e.g., `service/auth/auth.go::Register lines 45-60`).
+- **File path + function name + line range** for the offending pattern (e.g., `service/feature/feature.go::Create lines 45-52`).
 - **`rg` command + match count** for codebase-wide patterns (e.g., `rg &quot;_ = pool\.Exec&quot; -g &#x27;*.go&#x27; | wc -l → 3 hits`).
 - **&quot;Verified clean&quot;** with the search you ran, when no instances exist (e.g., `rg &quot;createResource&quot; frontend/ → 0 hits`).
 
 &quot;Looks fine&quot; is not an audit result. If you can&#x27;t cite the search, you didn&#x27;t run it.
+
+Core patterns (`apperror`, parameterized SQL, `batch()`, Switch/Match, `createResource`, alive guard) — see `codebase-standards`. Frontend fetch — `solidjs-data-fetching`. Route UI — `solidjs-pages`.
 
 ## Audit Strategy
 
@@ -98,19 +100,19 @@ A single audit pass catches ~60-70% of real issues. Each pass has blind spots du
 
 ## Backend Service Files
 
-- [ ] **SQL injection** — any `fmt.Sprintf` with values or identifiers going into SQL? Values must use `$N` placeholders; identifiers should be literal SQL or explicitly whitelisted.
+- [ ] **SQL injection** — `fmt.Sprintf` with values or identifiers in SQL? Use `$N` placeholders (see `codebase-standards`).
 - [ ] **Missing transactions** — any method with 2+ writes that isn&#x27;t wrapped in `Begin/Commit`?
-- [ ] **Silent error discards** — any `_ = pool.Exec(...)` or `_ = fn(...)`? Must log errors.
+- [ ] **Silent error discards** — `_ = fn(...)` or `_ = pool.Exec(...)`? Log errors (see `codebase-standards`).
 - [ ] **ErrNoRows masking** — any `_ = pool.QueryRow(...)` that ignores real DB errors? Must check `err != nil &amp;&amp; err != pgx.ErrNoRows`.
 - [ ] **Role-only auth** — any method that checks `userType` but not specific resource membership? Must use `verifyXAccess`.
 - [ ] **Missing status guards** — can the method be called on inactive/completed/cancelled parent entities? Add guards.
-- [ ] **echo.NewHTTPError usage** — should be `apperror.X()` instead.
+- [ ] **echo.NewHTTPError usage** — use `apperror.X()` instead (see `codebase-standards`).
 - [ ] **TIMESTAMPTZ scan into *string** — nullable `TIMESTAMPTZ` columns CANNOT scan into `*string`. Must scan into `*time.Time` then format: `if t != nil { s := t.Format(time.RFC3339); field = &amp;s }`.
 - [ ] **ON CONFLICT without UNIQUE constraint** — any `ON CONFLICT (col1, col2)` requires a matching `UNIQUE` index on those columns. Without it, PostgreSQL returns a runtime error.
 - [ ] **Hardcoded values in service constructors** — names, emails, URLs should come from config/env, not hardcoded strings.
 - [ ] **Missing `rows.Err()` after `rows.Next()` loops** — partial iteration errors are silent without this check. Every `for rows.Next()` must be followed by `if err := rows.Err()`.
-- [ ] **`apperror.NotFound(&quot;X not found&quot;)` double-suffix** — `apperror.NotFound(resource string)` formats its argument as `&quot;%s not found&quot;`, so `apperror.NotFound(&quot;User not found&quot;)` emits `&quot;User not found not found&quot;`. Pass the bare resource noun (e.g. `apperror.NotFound(&quot;User&quot;)`).
-- [ ] **Bare `err == pgx.ErrNoRows` instead of `errors.Is(err, pgx.ErrNoRows)`** — direct equality breaks when any caller wraps the error with `fmt.Errorf(&quot;...: %w&quot;, err)`. Use `errors.Is` defensively.
+- [ ] **`apperror.NotFound(&quot;X not found&quot;)` double-suffix** — `apperror.NotFound(resource string)` formats its argument as `&quot;%s not found&quot;`, so `apperror.NotFound(&quot;User not found&quot;)` emits the user-facing string `&quot;User not found not found&quot;`. Pass the bare resource noun (e.g. `apperror.NotFound(&quot;User&quot;)`, `apperror.NotFound(&quot;Invoice&quot;)`). The May 26 audit found this pattern in 7 production sites — the formatter contract is non-obvious and the double-suffix surfaces in real API responses.
+- [ ] **Bare `err == pgx.ErrNoRows` instead of `errors.Is(err, pgx.ErrNoRows)`** — direct equality breaks the moment any caller wraps the error with `fmt.Errorf(&quot;...: %w&quot;, err)`. The codebase has 110+ bare-equality sites (May 26 audit); they work today only because nothing wraps before the comparison. Use `errors.Is` defensively — same one-line fix, future-proof against wrapping.
 
 ## Backend Handler Files
 
@@ -120,10 +122,9 @@ A single audit pass catches ~60-70% of real issues. Each pass has blind spots du
 
 ## Frontend Route Files
 
-- [ ] **Nested `&lt;Show&gt;` for content states** — loading/error/empty/data using nested `&lt;Show when={!loading()}&gt;` → `&lt;Show when={error()}&gt;` → `&lt;Show when={data()}&gt;` chains? Must use flat `Switch/Match` instead. Nested `&lt;Show&gt;` creates stacked reactive scopes that leak during route transitions.
-- [ ] **Missing `batch()` on async signal updates** — `setData(result)` and `setLoading(false)` after an `await` must be wrapped in `batch()` for atomic updates. Otherwise intermediate states cause computation leaks.
-- [ ] **Missing `defer: true` on `createEffect(on(...))`** — effects that refetch on filter/page changes must use `{ defer: true }` + separate `onMount` for initial fetch. Without defer, the effect fires synchronously during mount and conflicts with route transitions.
-- [ ] **Reactive expression inside `&lt;Title&gt;`** — `&lt;Title&gt;{signal() ? &quot;A&quot; : &quot;B&quot;}&lt;/T</code></pre>
+- [ ] **Nested `&lt;Show&gt;` for content states** — use flat `Switch/Match` (see `solidjs-pages`).
+- [ ] **Missing `batch()` on async signal updates** — wrap post-`await` signal updates in `batch()` (see `solidjs-data-fetching`).
+- [ ] **Missing `defer: true</code></pre>
 <p><em>Content truncated. View full file in the source repo (linked above).</em></p><p><a href="https://github.com/golid-ai/golid/blob/HEAD/.cursor/rules/audit-bugs.mdc" rel="external">View raw on GitHub</a></p>
 </section>
 <section><h2>Why this is listed</h2>
