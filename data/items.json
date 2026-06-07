@@ -1,5 +1,86 @@
 [
   {
+    "description": "Build unique user interfaces with a structured ruleset to prevent generic AI output.",
+    "id": "paoloincommensurable537/PixelPilot",
+    "language": "JavaScript",
+    "name": "paoloincommensurable537/PixelPilot",
+    "stars": 0,
+    "updated_at": "2026-06-07T23:44:38Z",
+    "url": "https://github.com/paoloincommensurable537/PixelPilot"
+  },
+  {
+    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
+    "id": "Hyanthropological659/clarify-skill",
+    "language": "\u2014",
+    "name": "Hyanthropological659/clarify-skill",
+    "stars": 0,
+    "updated_at": "2026-06-07T23:44:33Z",
+    "url": "https://github.com/Hyanthropological659/clarify-skill"
+  },
+  {
+    "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
+    "id": "Bastioned-successor320/learn-nanobot",
+    "language": "Python",
+    "name": "Bastioned-successor320/learn-nanobot",
+    "stars": 1,
+    "updated_at": "2026-06-07T23:41:47Z",
+    "url": "https://github.com/Bastioned-successor320/learn-nanobot"
+  },
+  {
+    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
+    "id": "XAKLESK/cre-agent-skills",
+    "language": "\u2014",
+    "name": "XAKLESK/cre-agent-skills",
+    "stars": 1,
+    "updated_at": "2026-06-07T23:39:39Z",
+    "url": "https://github.com/XAKLESK/cre-agent-skills"
+  },
+  {
+    "description": "Test iOS agent skills with 11 tasks, 260+ scenarios, and 850+ assertions across 3 models",
+    "id": "christim427-rgb/ios-agent-skills",
+    "language": "Python",
+    "name": "christim427-rgb/ios-agent-skills",
+    "stars": 1,
+    "updated_at": "2026-06-07T23:37:40Z",
+    "url": "https://github.com/christim427-rgb/ios-agent-skills"
+  },
+  {
+    "description": "Build programmatic UIKit apps with production-ready patterns for views, navigation, animation, architecture, and data fl",
+    "id": "nizhan80-art/Swift-UIKit-Skill",
+    "language": "\u2014",
+    "name": "nizhan80-art/Swift-UIKit-Skill",
+    "stars": 1,
+    "updated_at": "2026-06-07T23:33:33Z",
+    "url": "https://github.com/nizhan80-art/Swift-UIKit-Skill"
+  },
+  {
+    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
+    "id": "Amirun99/agency-orchestrator",
+    "language": "Dart",
+    "name": "Amirun99/agency-orchestrator",
+    "stars": 0,
+    "updated_at": "2026-06-07T23:32:53Z",
+    "url": "https://github.com/Amirun99/agency-orchestrator"
+  },
+  {
+    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
+    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "language": "\u2014",
+    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "stars": 2,
+    "updated_at": "2026-06-07T23:32:06Z",
+    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-07T23:30:29Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Build 9 iOS agent skills for SwiftUI, testing, security, and more in one install for AI coding agents",
     "id": "ebbaunqualified520/ios-agent-skills",
     "language": "Shell",
@@ -14,7 +95,7 @@
     "language": "TypeScript",
     "name": "neumachen/aiderdesk-conditional-rules",
     "stars": 0,
-    "updated_at": "2026-06-07T23:28:19Z",
+    "updated_at": "2026-06-07T23:30:44Z",
     "url": "https://github.com/neumachen/aiderdesk-conditional-rules"
   },
   {
@@ -25,15 +106,6 @@
     "stars": 3,
     "updated_at": "2026-06-07T23:15:31Z",
     "url": "https://github.com/zinxj/uikit-expert-skill"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-07T23:15:28Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Manage and organize project workspaces while dynamically injecting relevant skills for efficient AI assistant context lo",
@@ -206,24 +278,6 @@
     "url": "https://github.com/whydixit/cursor-starter"
   },
   {
-    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
-    "id": "Hyanthropological659/clarify-skill",
-    "language": "\u2014",
-    "name": "Hyanthropological659/clarify-skill",
-    "stars": 0,
-    "updated_at": "2026-06-07T21:01:16Z",
-    "url": "https://github.com/Hyanthropological659/clarify-skill"
-  },
-  {
-    "description": "Build unique user interfaces with a structured ruleset to prevent generic AI output.",
-    "id": "paoloincommensurable537/PixelPilot",
-    "language": "JavaScript",
-    "name": "paoloincommensurable537/PixelPilot",
-    "stars": 0,
-    "updated_at": "2026-06-07T21:01:16Z",
-    "url": "https://github.com/paoloincommensurable537/PixelPilot"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: Bug audit checklist \u2014 use when asked to review code for bugs, security issues, or quality problems\nalwaysApply: false\n---\n\n# Bug Audit Checklist\n\n> **Thesis:** Run this checklist against any file or module being reviewed.\n> Each item references a real bug found in this codebase.\n\n## When to Run\n\nUse `workflow-routing` first when the user asks for review/audit depth or when\nthe diff crosses T2/T3 triggers; this checklist is scoped by that tier.\n\nTwo trigger points, not just one:\n\n1. **Pre-merge gate** \u2014 before declaring a card/feature \"done\", run the relevant section of this checklist against every file you touched. ~20% of recent commits are post-hoc audit cleanup; running this proactively converts those into the original commit. This is the highest-ROI use.\n2. **On demand** \u2014 when explicitly asked to audit, review for bugs, or grade code quality.\n\nThe checklist below is the same for both; only the trigger differs.\n\n## Evidence Requirements\n\nA finding isn't \"audited\" until you've produced one of:\n\n- **File path + function name + line range** for the offending pattern (e.g., `service/feature/feature.go::Create lines 45-52`).\n- **`rg` command + match count** for codebase-wide patterns (e.g., `rg \"_ = pool\\.Exec\" -g '*.go' | wc -l \u2192 3 hits`).\n- **\"Verified clean\"** with the search you ran, when no instances exist (e.g., `rg \"createResource\" frontend/ \u2192 0 hits`).\n\n\"Looks fine\" is not an audit result. If you can't cite the search, you didn't run it.\n\nCore patterns (`apperror`, parameterized SQL, `batch()`, Switch/Match, `createResource`, alive guard) \u2014 see `codebase-standards`. Frontend fetch \u2014 `solidjs-data-fetching`. Route UI \u2014 `solidjs-pages`.\n\n## Audit Strategy\n\nA single audit pass catches ~60-70% of real issues. Each pass has blind spots due to which files get read first, which patterns the search focuses on, and attention saturation on large codebases. To maximize coverage:\n\n1. **Run multiple independent passes with different focus areas** \u2014 e.g., one pass for reactive patterns, one for auth/security, one for config consistency, one for the fork/rename story. Narrow scope finds more than broad sweeps.\n2. **Vary the search strategy** \u2014 don't just follow this checklist. Grep for known anti-patterns (`return () =>` in `.tsx`, `_ =` in `.go`, `any` in component props). Read files the checklist doesn't mention (entry-server.tsx, rename tool, CI config, env files).\n3. **Check reference implementations are textbook-perfect** \u2014 `app.tsx`, `login/index.tsx`, `dashboard/index.tsx`, and `settings/index.tsx` are copied by the scaffold tool and by AI assistants. A bug in these propagates everywhere.\n4. **Verify the tool chain, not just the code** \u2014 rename tool, scaffold templates, deploy scripts, and CI config can have bugs that downstream users inherit silently.\n5. **After fixing issues, re-read the fixed files** \u2014 fixes can introduce new problems (e.g., a rename tool step that corrupts URLs by naively replacing project names inside domain strings).\n\n## Backend Service Files\n\n- [ ] **SQL injection** \u2014 `fmt.Sprintf` with values or identifiers in SQL? Use `$N` placeholders (see `codebase-standards`).\n- [ ] **Missing transactions** \u2014 any method with 2+ writes that isn't wrapped in `Begin/Commit`?\n- [ ] **Silent error discards** \u2014 `_ = fn(...)` or `_ = pool.Exec(...)`? Log errors (see `codebase-standards`).\n- [ ] **ErrNoRows masking** \u2014 any `_ = pool.QueryRow(...)` that ignores real DB errors? Must check `err != nil && err != pgx.ErrNoRows`.\n- [ ] **Role-only auth** \u2014 any method that checks `userType` but not specific resource membership? Must use `verifyXAccess`.\n- [ ] **Missing status guards** \u2014 can the method be called on inactive/completed/cancelled parent entities? Add guards.\n- [ ] **echo.NewHTTPError usage** \u2014 use `apperror.X()` instead (see `codebase-standards`).\n- [ ] **TIMESTAMPTZ scan into *string** \u2014 nullable `TIMESTAMPTZ` columns CANNOT scan into `*string`. Must scan into `*time.Time` then format: `if t != nil { s := t.Format(time.RFC3339); field = &s }`.\n- [ ] **ON CONFLICT without UNIQUE constraint** \u2014 any `ON CONFLICT (col1, col2)` requires a matching `UNIQUE` index on those columns. Without it, PostgreSQL returns a runtime error.\n- [ ] **Hardcoded values in service constructors** \u2014 names, emails, URLs should come from config/env, not hardcoded strings.\n- [ ] **Missing `rows.Err()` after `rows.Next()` loops** \u2014 partial iteration errors are silent without this check. Every `for rows.Next()` must be followed by `if err := rows.Err()`.\n- [ ] **`apperror.NotFound(\"X not found\")` double-suffix** \u2014 `apperror.NotFound(resource string)` formats its argument as `\"%s not found\"`, so `apperror.NotFound(\"User not found\")` emits the user-facing string `\"User not found not found\"`. Pass the bare resource noun (e.g. `apperror.NotFound(\"User\")`, `apperror.NotFound(\"Invoice\")`). The May 26 audit found this pattern in 7 production sites \u2014 the formatter contract is non-obvious and the double-suffix surfaces in real API responses.\n- [ ] **Bare `err == pgx.ErrNoRows` instead of `errors.Is(err, pgx.ErrNoRows)`** \u2014 direct equality breaks the moment any caller wraps the error with `fmt.Errorf(\"...: %w\", err)`. The codebase has 110+ bare-equality sites (May 26 audit); they work today only because nothing wraps before the comparison. Use `errors.Is` defensively \u2014 same one-line fix, future-proof against wrapping.\n\n## Backend Handler Files\n\n- [ ] **Missing requireUserID/requireUserType** \u2014 every protected handler must extract auth.\n- [ ] **Business logic in handler** \u2014 DB queries or complex logic should be in the service layer.\n- [ ] **Missing request validation** \u2014 required fields should be checked before calling service.\n\n## Frontend Route Files\n\n- [ ] **Nested `<Show>` for content states** \u2014 use flat `Switch/Match` (see `solidjs-pages`).\n- [ ] **Missing `batch()` on async signal updates** \u2014 wrap post-`await` signal updates in `batch()` (see `solidjs-data-fetching`).\n- [ ] **Missing `defer: true` on `createEffect(on(...))`** \u2014 refetch effects need `{ defer: true }` + separate `onMount` (see `solidjs-data-fetching`).\n- [ ] **Reactive expression inside `<Title>`** \u2014 pre-compute with `createMemo`, pass resolved string (see `solidjs-pages`).\n- [ ] **`createResource` usage anywhere** \u2014 use `onMount` + signals + alive guard (see `codebase-standards`, `solidjs-data-fetching`).\n- [ ] **Return from `onMount` or `createEffect`** \u2014 use `onCleanup` inside the body, not a return value (see `solidjs-data-fetching`).\n- [ ] **Missing alive guard** \u2014 `let alive = true; onCleanup(...); if (alive)` before setting signals (see `solidjs-data-fetching`).\n- [ ] **Missing PRIVATE_ROUTES entry** \u2014 route listed in `frontend/src/lib/constants.ts`.\n- [ ] **window.confirm usage** \u2014 use `DestructiveModal` (see `solidjs-pages`).\n- [ ] **Route-based detail view** \u2014 prefer signal-driven modal (see `solidjs-pages`).\n\n## Migration Files\n\n- [ ] **Missing down migration** \u2014 does the `.down.sql` exist and reverse everything?\n- [ ] **Missing indexes** \u2014 are FK columns and filter columns indexed?\n- [ ] **Missing updated_at trigger** \u2014 does the table have `updated_at` and the trigger?\n\n## External API Integration\n\n- [ ] **API field names mismatch** \u2014 verify JSON struct tags match the external API's exact field names. Check the API docs, not assumptions.\n- [ ] **Query param vs body** \u2014 some APIs expect fields as query parameters, not in the request body. Verify endpoint documentation.\n- [ ] **Email deliverability** \u2014 external services may reject emails on bounce suppression lists. Verify `IsConfigured()` returns true before relying on email delivery. Use `service.Retry()` for resilience.\n- [ ] **Webhook signature verification** \u2014 every webhook endpoint must verify the request signature (e.g., HMAC-SHA256 with timing-safe comparison).\n\n## Cross-Cutting\n\n- [ ] **Secrets in code** \u2014 any hardcoded API keys, passwords, or tokens?\n- [ ] **Secrets in shell scripts** \u2014 any `export VAR=secret`? Secrets sho",
       "format": "mdc",
@@ -236,60 +290,6 @@
     "stars": 31,
     "updated_at": "2026-06-07T20:59:21Z",
     "url": "https://github.com/golid-ai/golid"
-  },
-  {
-    "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
-    "id": "Bastioned-successor320/learn-nanobot",
-    "language": "Python",
-    "name": "Bastioned-successor320/learn-nanobot",
-    "stars": 1,
-    "updated_at": "2026-06-07T20:58:32Z",
-    "url": "https://github.com/Bastioned-successor320/learn-nanobot"
-  },
-  {
-    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
-    "id": "XAKLESK/cre-agent-skills",
-    "language": "\u2014",
-    "name": "XAKLESK/cre-agent-skills",
-    "stars": 1,
-    "updated_at": "2026-06-07T20:55:47Z",
-    "url": "https://github.com/XAKLESK/cre-agent-skills"
-  },
-  {
-    "description": "Test iOS agent skills with 11 tasks, 260+ scenarios, and 850+ assertions across 3 models",
-    "id": "christim427-rgb/ios-agent-skills",
-    "language": "Python",
-    "name": "christim427-rgb/ios-agent-skills",
-    "stars": 1,
-    "updated_at": "2026-06-07T20:53:38Z",
-    "url": "https://github.com/christim427-rgb/ios-agent-skills"
-  },
-  {
-    "description": "Build programmatic UIKit apps with production-ready patterns for views, navigation, animation, architecture, and data fl",
-    "id": "nizhan80-art/Swift-UIKit-Skill",
-    "language": "\u2014",
-    "name": "nizhan80-art/Swift-UIKit-Skill",
-    "stars": 1,
-    "updated_at": "2026-06-07T20:49:20Z",
-    "url": "https://github.com/nizhan80-art/Swift-UIKit-Skill"
-  },
-  {
-    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
-    "id": "Amirun99/agency-orchestrator",
-    "language": "Dart",
-    "name": "Amirun99/agency-orchestrator",
-    "stars": 0,
-    "updated_at": "2026-06-07T20:48:33Z",
-    "url": "https://github.com/Amirun99/agency-orchestrator"
-  },
-  {
-    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
-    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "language": "\u2014",
-    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "stars": 2,
-    "updated_at": "2026-06-07T20:47:34Z",
-    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
