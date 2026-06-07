@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<title>golid-ai/golid - entry on Cursor Rules Live</title>
+<meta name="description" content="Production-ready Go + SolidJS starter — Auth, 70+ components, SSR, real-time, one-command deployment">
+<link rel="canonical" href="https://linny006.github.io/cursor-rules-live/r/golid-ai/golid/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="golid-ai/golid - entry on Cursor Rules Live">
+<meta property="og:description" content="Production-ready Go + SolidJS starter — Auth, 70+ components, SSR, real-time, one-command deployment">
+<meta property="og:url" content="https://linny006.github.io/cursor-rules-live/r/golid-ai/golid/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="golid-ai/golid - entry on Cursor Rules Live">
+<meta name="twitter:description" content="Production-ready Go + SolidJS starter — Auth, 70+ components, SSR, real-time, one-command deployment">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"golid-ai/golid","codeRepository":"https://github.com/golid-ai/golid","programmingLanguage":"TypeScript","url":"https://linny006.github.io/cursor-rules-live/r/golid-ai/golid/","description":"Production-ready Go + SolidJS starter — Auth, 70+ components, SSR, real-time, one-command deployment","author":{"@type":"Person","name":"golid-ai","url":"https://github.com/golid-ai"},"dateModified":"2026-06-07"}</script>
+<style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
+         --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 16px; font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--fg); background: var(--bg); }
+.wrap { max-width: var(--max); margin: 0 auto; }
+nav.bc { font-size: 14px; color: var(--muted); margin-bottom: 16px; }
+nav.bc a { color: var(--muted); }
+h1 { font-size: 28px; margin: 0 0 8px; }
+h2 { font-size: 20px; margin: 24px 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+p.lead { font-size: 18px; color: var(--muted); margin: 0 0 24px; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+th, td { padding: 8px 12px; text-align: left; border-bottom: 1px solid var(--border); }
+th { background: var(--card); font-weight: 600; }
+ul.crosslinks { list-style: none; padding: 0; }
+ul.crosslinks li { padding: 6px 0; }
+ul.crosslinks li a { font-weight: 500; }
+.meta { display: flex; gap: 16px; flex-wrap: wrap; color: var(--muted); font-size: 14px; margin: 12px 0; }
+.meta span::before { content: "\00b7"; margin-right: 8px; color: var(--border); }
+.meta span:first-child::before { content: ""; }
+footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--border); font-size: 14px; color: var(--muted); }</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="bc"><a href="https://linny006.github.io/cursor-rules-live/">Cursor Rules Live</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/popular/">Entries</a> &#183; <span>golid-ai/golid</span></nav>
+<main>
+<h1>golid-ai/golid</h1>
+<p class="lead">Production-ready Go + SolidJS starter — Auth, 70+ components, SSR, real-time, one-command deployment</p>
+<div class="meta">
+<span><strong>Stars</strong> 31</span>
+<span><strong>Language</strong> TypeScript</span>
+<span><strong>Last updated</strong> 2026-06-07</span>
+<span><a href="https://github.com/golid-ai/golid" rel="external">Source on GitHub</a></span>
+<span><a href="https://github.com/golid-ai" rel="external">@golid-ai</a></span>
+</div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/audit-bugs.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
+description: Bug audit checklist — use when asked to review code for bugs, security issues, or quality problems
+alwaysApply: false
+---
+
+# Bug Audit Checklist
+
+&gt; **Thesis:** Run this checklist against any file or module being reviewed. Each item references a real bug found in this codebase.
+
+Run this checklist against any file or module being reviewed. Each item references a real bug found in this codebase.
+
+## Audit Strategy
+
+A single audit pass catches ~60-70% of real issues. Each pass has blind spots due to which files get read first, which patterns the search focuses on, and attention saturation on large codebases. To maximize coverage:
+
+1. **Run multiple independent passes with different focus areas** — e.g., one pass for reactive patterns, one for auth/security, one for config consistency, one for the fork/rename story. Narrow scope finds more than broad sweeps.
+2. **Vary the search strategy** — don&#x27;t just follow this checklist. Grep for known anti-patterns (`return () =&gt;` in `.tsx`, `_ =` in `.go`, `any` in component props). Read files the checklist doesn&#x27;t mention (entry-server.tsx, rename tool, CI config, env files).
+3. **Check reference implementations are textbook-perfect** — `app.tsx`, `login/index.tsx`, `dashboard/index.tsx`, and `settings/index.tsx` are copied by the scaffold tool and by AI assistants. A bug in these propagates everywhere.
+4. **Verify the tool chain, not just the code** — rename tool, scaffold templates, deploy scripts, and CI config can have bugs that downstream users inherit silently.
+5. **After fixing issues, re-read the fixed files** — fixes can introduce new problems (e.g., a rename tool step that corrupts URLs by naively replacing project names inside domain strings).
+
+## Backend Service Files
+
+- [ ] **SQL injection** — any `fmt.Sprintf` with values going into SQL? Must use `$N` placeholders.
+- [ ] **Missing transactions** — any method with 2+ writes that isn&#x27;t wrapped in `Begin/Commit`?
+- [ ] **Silent error discards** — any `_ = pool.Exec(...)` or `_ = fn(...)`? Must log errors.
+- [ ] **ErrNoRows masking** — any `_ = pool.QueryRow(...)` that ignores real DB errors? Must check `err != nil &amp;&amp; err != pgx.ErrNoRows`.
+- [ ] **Role-only auth** — any method that checks `userType` but not specific resource membership? Must use `verifyXAccess`.
+- [ ] **Missing status guards** — can the method be called on inactive/completed/cancelled parent entities? Add guards.
+- [ ] **echo.NewHTTPError usage** — should be `apperror.X()` instead.
+- [ ] **TIMESTAMPTZ scan into *string** — nullable `TIMESTAMPTZ` columns CANNOT scan into `*string`. Must scan into `*time.Time` then format: `if t != nil { s := t.Format(time.RFC3339); field = &amp;s }`.
+- [ ] **ON CONFLICT without UNIQUE constraint** — any `ON CONFLICT (col1, col2)` requires a matching `UNIQUE` index on those columns. Without it, PostgreSQL returns a runtime error.
+- [ ] **Hardcoded values in service constructors** — names, emails, URLs should come from config/env, not hardcoded strings.
+- [ ] **Missing `rows.Err()` after `rows.Next()` loops** — partial iteration errors are silent without this check. Every `for rows.Next()` must be followed by `if err := rows.Err()`.
+
+## Backend Handler Files
+
+- [ ] **Missing requireUserID/requireUserType** — every protected handler must extract auth.
+- [ ] **Business logic in handler** — DB queries or complex logic should be in the service layer.
+- [ ] **Missing request validation** — required fields should be checked before calling service.
+
+## Frontend Route Files
+
+- [ ] **Nested `&lt;Show&gt;` for content states** — loading/error/empty/data using nested `&lt;Show when={!loading()}&gt;` → `&lt;Show when={error()}&gt;` → `&lt;Show when={data()}&gt;` chains? Must use flat `Switch/Match` instead. Nested `&lt;Show&gt;` creates stacked reactive scopes that leak during route transitions.
+- [ ] **Missing `batch()` on async signal updates** — `setData(result)` and `setLoading(false)` after an `await` must be wrapped in `batch()` for atomic updates. Otherwise intermediate states cause computation leaks.
+- [ ] **Missing `defer: true` on `createEffect(on(...))`** — effects that refetch on filter/page changes must use `{ defer: true }` + separate `onMount` for initial fetch. Without defer, the effect fires synchronously during mount and conflicts with route transitions.
+- [ ] **Reactive expression inside `&lt;Title&gt;`** — `&lt;Title&gt;{signal() ? &quot;A&quot; : &quot;B&quot;}&lt;/Title&gt;` leaks during route transitions. Pre-compute as `createMemo`, pass resolved string.
+- [ ] **`createResource` usage anywhere** — the project uses `onMount` + `createSignal` + `alive` guard + `batch` for all data fetching. `createResource` causes orphaned computation warnings on route transitions and Suspense blanking in conditional components. Replace with signals pattern.
+- [ ] **Return from `onMount` or `createEffect`** — `onMount(() =&gt; { ...; return () =&gt; cleanup() })` silently ignores the cleanup function. Must use `onCleanup(() =&gt; cleanup())` inside the body instead. This is the React pattern — it compiles in Solid but the cleanup never runs.
+- [ ] **Missing alive guard** — any async operation without `let alive = true; onCleanup(...)` check? Also check `.then()` callbacks (e.g., avatar URL resolution) — they must check `if (alive)` before setting signals.
+- [ ] **Missing PRIVATE_ROUTES entry** — is this route listed in `frontend/src/lib/constants.ts`?
+- [ ] **window.confirm usage** — should be `DestructiveModal`.
+- [ ] **Route-based detail view** — should it be a signal-driven modal instead?
+
+## Migration Files
+
+- [ ] **Missing down migration** — does the `.down.sql` exist and reverse everything?
+- [ ] **Missing indexes** — are FK columns and filter columns indexed?
+- [ ] **Missing updated_at trigger** — does the table have `updated_at` and the trigger?
+
+## External API Integration
+
+- [ ] **API field names mismatch** — verify JSON struct tags match the external API&#x27;s exact field names. Check the API docs, not assumptions.
+- [ ] **Query param vs body** — some APIs</code></pre>
+<p><em>Content truncated. View full file in the source repo (linked above).</em></p><p><a href="https://github.com/golid-ai/golid/blob/HEAD/.cursor/rules/audit-bugs.mdc" rel="external">View raw on GitHub</a></p>
+</section>
+<section><h2>Why this is listed</h2>
+<p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
+<section><h2>Similar in this tracker</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/">vibestackdev/vibe-stack (stars:6)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/philipbankier/awesome-agent-skills/">philipbankier/awesome-agent-skills (stars:4)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/baneeishaque/ai-agent-rules/">baneeishaque/ai-agent-rules (stars:4)</a></li>
+</ul></section>
+<section><h2>Explore by category</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/popular/">Popular (by stars)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/recent/">Recent (by activity)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/new/">New this week</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/lang/typescript/">All TypeScript entries</a></li>
+</ul></section>
+</main>
+<footer>
+Auto-updated every 15 minutes via GitHub Actions &#183; <a href="https://linny006.github.io/cursor-rules-live/">tracker root</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/sitemap.xml">sitemap</a>
+</footer>
+</div>
+</body>
+</html>
