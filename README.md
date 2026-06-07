@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-06-07 12:30 UTC
+> ⏰ Last updated: 2026-06-07 12:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -54,8 +54,8 @@ expired items removed — so you can rely on what you see being current.
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
 | 1 | [sscodeai/agency-agents-ja](https://github.com/sscodeai/agency-agents-ja) | 0 | Shell | 2026-06-07 | — | 323個の即戦力AI専門エージェント — Claude Code/Cursor/Copilot等に対応。SIer/受託開発/SaaS/製造DX/公共分野など日本市場向け114個のオリジナルを含む、agency-agents日本語コミュニティ |
-| 2 | [golid-ai/golid](https://github.com/golid-ai/golid) | 31 | TypeScript | 2026-06-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/golid-ai/golid/) | Production-ready Go + SolidJS starter — Auth, 70+ components, SSR, real-time, one-command deployment |
-| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-06-07 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-06-07 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 3 | [golid-ai/golid](https://github.com/golid-ai/golid) | 31 | TypeScript | 2026-06-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/golid-ai/golid/) | Production-ready Go + SolidJS starter — Auth, 70+ components, SSR, SSE, scripted GCP deploy. |
 | 4 | [eumiguellllllllll/copilot-rules](https://github.com/eumiguellllllllll/copilot-rules) | 1 | Batchfile | 2026-06-07 | — | ⚡ Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively. |
 | 5 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 1 | HTML | 2026-06-07 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
 | 6 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-06-07 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
