@@ -1,12 +1,12 @@
 [
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 0,
-    "updated_at": "2026-06-07T15:18:23Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+    "description": "Homebrew tap for LynxPrompt CLI",
+    "id": "GeiserX/homebrew-lynxprompt",
+    "language": "Ruby",
+    "name": "GeiserX/homebrew-lynxprompt",
+    "stars": 1,
+    "updated_at": "2026-06-07T15:32:24Z",
+    "url": "https://github.com/GeiserX/homebrew-lynxprompt"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-07T15:15:44Z",
+    "updated_at": "2026-06-07T15:30:29Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-06-07T15:18:23Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "MCP Server for LynxPrompt \u2014 browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP",
@@ -509,14 +518,5 @@
     "stars": 36471,
     "updated_at": "2026-06-05T08:23:07Z",
     "url": "https://github.com/wshobson/agents"
-  },
-  {
-    "description": "AI documentation architecture skill for clear, non-duplicated, source-of-truth driven, token-efficient project documenta",
-    "id": "aetox-skills/docstruct",
-    "language": "\u2014",
-    "name": "aetox-skills/docstruct",
-    "stars": 1,
-    "updated_at": "2026-06-05T07:45:54Z",
-    "url": "https://github.com/aetox-skills/docstruct"
   }
 ]
