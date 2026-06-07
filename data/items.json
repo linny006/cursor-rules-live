@@ -1,12 +1,12 @@
 [
   {
-    "description": "openEHR assistant AI plugin suite with Skills, commands, and MCP server configuration for clinical workflow integration",
-    "id": "Cadasto/openehr-assistant-plugin",
-    "language": "Python",
-    "name": "Cadasto/openehr-assistant-plugin",
-    "stars": 3,
-    "updated_at": "2026-06-07T19:51:35Z",
-    "url": "https://github.com/Cadasto/openehr-assistant-plugin"
+    "description": "VS Code extension for LynxPrompt \u2014 browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules) ",
+    "id": "GeiserX/lynxprompt-vscode",
+    "language": "TypeScript",
+    "name": "GeiserX/lynxprompt-vscode",
+    "stars": 1,
+    "updated_at": "2026-06-07T20:08:39Z",
+    "url": "https://github.com/GeiserX/lynxprompt-vscode"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-07T19:45:23Z",
+    "updated_at": "2026-06-07T20:00:25Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "openEHR assistant AI plugin suite with Skills, commands, and MCP server configuration for clinical workflow integration",
+    "id": "Cadasto/openehr-assistant-plugin",
+    "language": "Python",
+    "name": "Cadasto/openehr-assistant-plugin",
+    "stars": 3,
+    "updated_at": "2026-06-07T20:00:13Z",
+    "url": "https://github.com/Cadasto/openehr-assistant-plugin"
   },
   {
     "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
@@ -144,15 +153,6 @@
     "stars": 3,
     "updated_at": "2026-06-07T18:04:01Z",
     "url": "https://github.com/caioribeiroclw-pixel/pluribus"
-  },
-  {
-    "description": "VS Code extension for LynxPrompt \u2014 browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules) ",
-    "id": "GeiserX/lynxprompt-vscode",
-    "language": "TypeScript",
-    "name": "GeiserX/lynxprompt-vscode",
-    "stars": 1,
-    "updated_at": "2026-06-07T17:39:56Z",
-    "url": "https://github.com/GeiserX/lynxprompt-vscode"
   },
   {
     "description": "MCP Server for LynxPrompt \u2014 browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP",
