@@ -1,11 +1,20 @@
 [
   {
+    "description": "openEHR assistant AI plugin suite with Skills, commands, and MCP server configuration for clinical workflow integration",
+    "id": "Cadasto/openehr-assistant-plugin",
+    "language": "Python",
+    "name": "Cadasto/openehr-assistant-plugin",
+    "stars": 3,
+    "updated_at": "2026-06-07T19:51:35Z",
+    "url": "https://github.com/Cadasto/openehr-assistant-plugin"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-07T19:30:31Z",
+    "updated_at": "2026-06-07T19:45:23Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -162,15 +171,6 @@
     "stars": 15,
     "updated_at": "2026-06-07T17:17:19Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "description": "openEHR assistant AI plugin suite with Skills, commands, and MCP server configuration for clinical workflow integration",
-    "id": "Cadasto/openehr-assistant-plugin",
-    "language": "Python",
-    "name": "Cadasto/openehr-assistant-plugin",
-    "stars": 3,
-    "updated_at": "2026-06-07T18:25:15Z",
-    "url": "https://github.com/Cadasto/openehr-assistant-plugin"
   },
   {
     "description": "Build unique user interfaces with a structured ruleset to prevent generic AI output.",
