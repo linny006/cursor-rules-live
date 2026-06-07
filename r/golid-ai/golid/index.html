@@ -61,9 +61,30 @@ alwaysApply: false
 
 # Bug Audit Checklist
 
-&gt; **Thesis:** Run this checklist against any file or module being reviewed. Each item references a real bug found in this codebase.
+&gt; **Thesis:** Run this checklist against any file or module being reviewed.
+&gt; Each item references a real bug found in this codebase.
 
-Run this checklist against any file or module being reviewed. Each item references a real bug found in this codebase.
+## When to Run
+
+Use `workflow-routing` first when the user asks for review/audit depth or when
+the diff crosses T2/T3 triggers; this checklist is scoped by that tier.
+
+Two trigger points, not just one:
+
+1. **Pre-merge gate** — before declaring a card/feature &quot;done&quot;, run the relevant section of this checklist against every file you touched. Running this proactively converts post-hoc audit cleanup into the original commit. This is the highest-ROI use.
+2. **On demand** — when explicitly asked to audit, review for bugs, or grade code quality.
+
+The checklist below is the same for both; only the trigger differs.
+
+## Evidence Requirements
+
+A finding isn&#x27;t &quot;audited&quot; until you&#x27;ve produced one of:
+
+- **File path + function name + line range** for the offending pattern (e.g., `service/auth/auth.go::Register lines 45-60`).
+- **`rg` command + match count** for codebase-wide patterns (e.g., `rg &quot;_ = pool\.Exec&quot; -g &#x27;*.go&#x27; | wc -l → 3 hits`).
+- **&quot;Verified clean&quot;** with the search you ran, when no instances exist (e.g., `rg &quot;createResource&quot; frontend/ → 0 hits`).
+
+&quot;Looks fine&quot; is not an audit result. If you can&#x27;t cite the search, you didn&#x27;t run it.
 
 ## Audit Strategy
 
@@ -77,7 +98,7 @@ A single audit pass catches ~60-70% of real issues. Each pass has blind spots du
 
 ## Backend Service Files
 
-- [ ] **SQL injection** — any `fmt.Sprintf` with values going into SQL? Must use `$N` placeholders.
+- [ ] **SQL injection** — any `fmt.Sprintf` with values or identifiers going into SQL? Values must use `$N` placeholders; identifiers should be literal SQL or explicitly whitelisted.
 - [ ] **Missing transactions** — any method with 2+ writes that isn&#x27;t wrapped in `Begin/Commit`?
 - [ ] **Silent error discards** — any `_ = pool.Exec(...)` or `_ = fn(...)`? Must log errors.
 - [ ] **ErrNoRows masking** — any `_ = pool.QueryRow(...)` that ignores real DB errors? Must check `err != nil &amp;&amp; err != pgx.ErrNoRows`.
@@ -88,6 +109,8 @@ A single audit pass catches ~60-70% of real issues. Each pass has blind spots du
 - [ ] **ON CONFLICT without UNIQUE constraint** — any `ON CONFLICT (col1, col2)` requires a matching `UNIQUE` index on those columns. Without it, PostgreSQL returns a runtime error.
 - [ ] **Hardcoded values in service constructors** — names, emails, URLs should come from config/env, not hardcoded strings.
 - [ ] **Missing `rows.Err()` after `rows.Next()` loops** — partial iteration errors are silent without this check. Every `for rows.Next()` must be followed by `if err := rows.Err()`.
+- [ ] **`apperror.NotFound(&quot;X not found&quot;)` double-suffix** — `apperror.NotFound(resource string)` formats its argument as `&quot;%s not found&quot;`, so `apperror.NotFound(&quot;User not found&quot;)` emits `&quot;User not found not found&quot;`. Pass the bare resource noun (e.g. `apperror.NotFound(&quot;User&quot;)`).
+- [ ] **Bare `err == pgx.ErrNoRows` instead of `errors.Is(err, pgx.ErrNoRows)`** — direct equality breaks when any caller wraps the error with `fmt.Errorf(&quot;...: %w&quot;, err)`. Use `errors.Is` defensively.
 
 ## Backend Handler Files
 
@@ -100,24 +123,7 @@ A single audit pass catches ~60-70% of real issues. Each pass has blind spots du
 - [ ] **Nested `&lt;Show&gt;` for content states** — loading/error/empty/data using nested `&lt;Show when={!loading()}&gt;` → `&lt;Show when={error()}&gt;` → `&lt;Show when={data()}&gt;` chains? Must use flat `Switch/Match` instead. Nested `&lt;Show&gt;` creates stacked reactive scopes that leak during route transitions.
 - [ ] **Missing `batch()` on async signal updates** — `setData(result)` and `setLoading(false)` after an `await` must be wrapped in `batch()` for atomic updates. Otherwise intermediate states cause computation leaks.
 - [ ] **Missing `defer: true` on `createEffect(on(...))`** — effects that refetch on filter/page changes must use `{ defer: true }` + separate `onMount` for initial fetch. Without defer, the effect fires synchronously during mount and conflicts with route transitions.
-- [ ] **Reactive expression inside `&lt;Title&gt;`** — `&lt;Title&gt;{signal() ? &quot;A&quot; : &quot;B&quot;}&lt;/Title&gt;` leaks during route transitions. Pre-compute as `createMemo`, pass resolved string.
-- [ ] **`createResource` usage anywhere** — the project uses `onMount` + `createSignal` + `alive` guard + `batch` for all data fetching. `createResource` causes orphaned computation warnings on route transitions and Suspense blanking in conditional components. Replace with signals pattern.
-- [ ] **Return from `onMount` or `createEffect`** — `onMount(() =&gt; { ...; return () =&gt; cleanup() })` silently ignores the cleanup function. Must use `onCleanup(() =&gt; cleanup())` inside the body instead. This is the React pattern — it compiles in Solid but the cleanup never runs.
-- [ ] **Missing alive guard** — any async operation without `let alive = true; onCleanup(...)` check? Also check `.then()` callbacks (e.g., avatar URL resolution) — they must check `if (alive)` before setting signals.
-- [ ] **Missing PRIVATE_ROUTES entry** — is this route listed in `frontend/src/lib/constants.ts`?
-- [ ] **window.confirm usage** — should be `DestructiveModal`.
-- [ ] **Route-based detail view** — should it be a signal-driven modal instead?
-
-## Migration Files
-
-- [ ] **Missing down migration** — does the `.down.sql` exist and reverse everything?
-- [ ] **Missing indexes** — are FK columns and filter columns indexed?
-- [ ] **Missing updated_at trigger** — does the table have `updated_at` and the trigger?
-
-## External API Integration
-
-- [ ] **API field names mismatch** — verify JSON struct tags match the external API&#x27;s exact field names. Check the API docs, not assumptions.
-- [ ] **Query param vs body** — some APIs</code></pre>
+- [ ] **Reactive expression inside `&lt;Title&gt;`** — `&lt;Title&gt;{signal() ? &quot;A&quot; : &quot;B&quot;}&lt;/T</code></pre>
 <p><em>Content truncated. View full file in the source repo (linked above).</em></p><p><a href="https://github.com/golid-ai/golid/blob/HEAD/.cursor/rules/audit-bugs.mdc" rel="external">View raw on GitHub</a></p>
 </section>
 <section><h2>Why this is listed</h2>
@@ -126,7 +132,7 @@ A single audit pass catches ~60-70% of real issues. Each pass has blind spots du
 <ul class="crosslinks">
 <li><a href="https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/">vibestackdev/vibe-stack (stars:6)</a></li>
 <li><a href="https://linny006.github.io/cursor-rules-live/r/philipbankier/awesome-agent-skills/">philipbankier/awesome-agent-skills (stars:4)</a></li>
-<li><a href="https://linny006.github.io/cursor-rules-live/r/nota-america/forgecat-agent-profiles/">nota-america/forgecat-agent-profiles (stars:2)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/ghostswap1/ghostswap-agents/">ghostswap1/ghostswap-agents (stars:2)</a></li>
 </ul></section>
 <section><h2>Explore by category</h2>
 <ul class="crosslinks">
