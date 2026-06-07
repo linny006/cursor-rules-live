@@ -10,8 +10,17 @@
     "language": "HTML",
     "name": "agenticstandardcontact-byte/agentic-architect",
     "stars": 0,
-    "updated_at": "2026-06-07T14:59:38Z",
+    "updated_at": "2026-06-07T15:14:03Z",
     "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
+  },
+  {
+    "description": "VS Code extension for LynxPrompt \u2014 browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules) ",
+    "id": "GeiserX/lynxprompt-vscode",
+    "language": "TypeScript",
+    "name": "GeiserX/lynxprompt-vscode",
+    "stars": 1,
+    "updated_at": "2026-06-07T15:13:35Z",
+    "url": "https://github.com/GeiserX/lynxprompt-vscode"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -19,7 +28,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-07T14:45:35Z",
+    "updated_at": "2026-06-07T15:00:31Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -488,7 +497,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36470,
+    "stars": 36471,
     "updated_at": "2026-06-05T08:23:07Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -509,14 +518,5 @@
     "stars": 3,
     "updated_at": "2026-06-05T07:09:41Z",
     "url": "https://github.com/netanelavr/dotcursor"
-  },
-  {
-    "description": "",
-    "id": "baneeishaque/ai-agent-rules",
-    "language": "TypeScript",
-    "name": "baneeishaque/ai-agent-rules",
-    "stars": 4,
-    "updated_at": "2026-06-06T23:44:03Z",
-    "url": "https://github.com/baneeishaque/ai-agent-rules"
   }
 ]
