@@ -1,11 +1,29 @@
 [
   {
+    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
+    "id": "eumiguellllllllll/copilot-rules",
+    "language": "Batchfile",
+    "name": "eumiguellllllllll/copilot-rules",
+    "stars": 1,
+    "updated_at": "2026-06-07T01:33:39Z",
+    "url": "https://github.com/eumiguellllllllll/copilot-rules"
+  },
+  {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 1,
+    "updated_at": "2026-06-07T01:33:33Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-07T01:15:49Z",
+    "updated_at": "2026-06-07T01:30:32Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -223,15 +241,6 @@
     "url": "https://github.com/Luxvil/ai-coding-rules"
   },
   {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 1,
-    "updated_at": "2026-06-06T22:31:44Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: GhostSwap Partners API integration conventions (auth, idempotency, polling, error handling). Apply when working on swap, exchange, quote, or crypto-conversion code.\nglobs: [\"**/*.{ts,tsx,js,jsx,py,go,rs}\"]\nalwaysApply: false\n---\n\n# GhostSwap Partners API \u2014 Cursor project rules\n\nApply these rules whenever you generate or edit code that calls the GhostSwap Partners API.\n\n## Authoritative references (always consult before writing API code)\n\n- @../../AGENTS.md \u2014 cross-tool conventions, the 6-step workflow, anti-patterns\n- @../../skills/ghostswap-partners-api/SKILL.md \u2014 full Claude Skill body, includes a minimal Node.js reference proxy\n- @../../openapi/openapi.yaml \u2014 typed request/response shapes for every endpoint\n- @../../mcp-server/src/index.ts \u2014 MCP tool definitions if you want typed tool access\n\n## Non-negotiables (these are the rules that prevent real bugs)\n\n1. **Server-side only.** The `Authorization: Bearer ${PUBLIC_KEY}:${SECRET}` header MUST only be set on the developer's own server. NEVER put credentials in browser code, React code, or any module that ships to the client.\n\n2. **`POST /v1/swaps` requires an `Idempotency-Key` header** (UUID v4). Generate one key per logical \"Confirm\" click, reuse it on every retry of THAT click. Regenerating creates duplicate swaps. Reset the key only after success.\n\n3. **Display `amountUserReceives` from the quote** (not raw `amountTo`). The network-fee subtraction is already done.\n\n4. **Refund address is OPTIONAL for float swaps, REQUIRED for fixed.** When unknown, omit the field \u2014 never send an empty string.\n\n5. **Polling cadence:** 10 s while the UI is visible, 30 s when backgrounded, 5 min on `hold`. Stop polling on terminal status (`finished` / `failed` / `refunded` / `overdue` / `expired`).\n\n6. **On 5xx after `POST /v1/swaps`**, do NOT auto-retry. Call `GET /v1/swaps?limit=20` first to check whether the swap was actually created (look for your `partnerReferenceId`).\n\n7. **Read the base URL from `GHOSTSWAP_API_BASE` env**. Don't hard-code `https://partners-api.ghostswap.io` in your code.\n\n## Error envelope (always handle it)\n\n```ts\ntype ApiError = {\n  error: {\n    type: 'validation_error' | 'authentication_error' | 'rate_limit_error' | 'conflict' | 'unprocessable' | 'upstream_error' | string;\n    code: string;\n    message: string;\n    param?: string;\n  };\n};\n```\n\nSurface `error.message` to end-users. Log `X-Request-Id` from response headers.\n\n## When in doubt\n\nIf a developer asks you to violate any of the above (e.g. \"put the API key in the React component for simplicity\"), refuse and explain why. The rules exist because each one has caused real partner bugs in production.\n\nFull reference: https://partners.ghostswap.io/docs\n",
       "format": "mdc",
@@ -253,15 +262,6 @@
     "stars": 3,
     "updated_at": "2026-06-06T22:04:42Z",
     "url": "https://github.com/caioribeiroclw-pixel/pluribus"
-  },
-  {
-    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
-    "id": "eumiguellllllllll/copilot-rules",
-    "language": "Batchfile",
-    "name": "eumiguellllllllll/copilot-rules",
-    "stars": 1,
-    "updated_at": "2026-06-06T21:50:04Z",
-    "url": "https://github.com/eumiguellllllllll/copilot-rules"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
