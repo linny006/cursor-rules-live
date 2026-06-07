@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-07T03:15:24Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Production-grade AI coding rules for Cursor, Claude Code, and Copilot. Three stacks, 24 rule files, zero generic advice.",
     "id": "thebuilderlabs/ship-with-ai",
     "language": "Shell",
@@ -25,15 +34,6 @@
     "stars": 0,
     "updated_at": "2026-06-07T03:02:01Z",
     "url": "https://github.com/Hyanthropological659/clarify-skill"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-07T03:00:25Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
