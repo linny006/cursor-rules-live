@@ -1,5 +1,23 @@
 [
   {
+    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
+    "id": "eumiguellllllllll/copilot-rules",
+    "language": "Batchfile",
+    "name": "eumiguellllllllll/copilot-rules",
+    "stars": 1,
+    "updated_at": "2026-06-07T22:18:18Z",
+    "url": "https://github.com/eumiguellllllllll/copilot-rules"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-07T22:15:31Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
     "id": "Trentobobbi/uikit-mastery-playbook",
     "language": "HTML",
@@ -30,15 +48,6 @@
     "stars": 0,
     "updated_at": "2026-06-07T22:02:45Z",
     "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-07T22:00:29Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -285,15 +294,6 @@
     "stars": 3,
     "updated_at": "2026-06-07T20:00:13Z",
     "url": "https://github.com/Cadasto/openehr-assistant-plugin"
-  },
-  {
-    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
-    "id": "eumiguellllllllll/copilot-rules",
-    "language": "Batchfile",
-    "name": "eumiguellllllllll/copilot-rules",
-    "stars": 1,
-    "updated_at": "2026-06-07T19:29:06Z",
-    "url": "https://github.com/eumiguellllllllll/copilot-rules"
   },
   {
     "cursorrules": {
