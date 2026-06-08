@@ -1,11 +1,29 @@
 [
   {
+    "description": "Battle-tested Cursor rules for React, TypeScript, Next.js, and 7+ frameworks. Drop one file, get better AI code.",
+    "id": "phoward38/cursor-rules",
+    "language": "Shell",
+    "name": "phoward38/cursor-rules",
+    "stars": 0,
+    "updated_at": "2026-06-08T09:52:23Z",
+    "url": "https://github.com/phoward38/cursor-rules"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-08T09:45:47Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
     "id": "pekral/cursor-rules",
     "language": "PHP",
     "name": "pekral/cursor-rules",
     "stars": 3,
-    "updated_at": "2026-06-08T09:43:59Z",
+    "updated_at": "2026-06-08T09:55:42Z",
     "url": "https://github.com/pekral/cursor-rules"
   },
   {
@@ -30,24 +48,6 @@
     "stars": 15,
     "updated_at": "2026-06-08T09:32:37Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "description": "Battle-tested Cursor rules for React, TypeScript, Next.js, and 7+ frameworks. Drop one file, get better AI code.",
-    "id": "phoward38/cursor-rules",
-    "language": "Shell",
-    "name": "phoward38/cursor-rules",
-    "stars": 0,
-    "updated_at": "2026-06-08T09:30:37Z",
-    "url": "https://github.com/phoward38/cursor-rules"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-08T09:30:32Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",

@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-06-08 09:45 UTC
+> ⏰ Last updated: 2026-06-08 09:56 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,11 +53,11 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [pekral/cursor-rules](https://github.com/pekral/cursor-rules) | 3 | PHP | 2026-06-08 | — | PHP and Laravel Cursor rules — coding standards, testing, and conventions for the Cursor editor. Install via Composer. |
-| 2 | [blockchain-utility/awesome-crypto-prompts](https://github.com/blockchain-utility/awesome-crypto-prompts) | 0 | Shell | 2026-06-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/blockchain-utility/awesome-crypto-prompts/) | Ready-to-use AI prompts and configs for crypto/Web3 development — .cursorrules, CLAUDE.md, Copilot instructions, Custom  |
-| 3 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 15 | — | 2026-06-08 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
-| 4 | [phoward38/cursor-rules](https://github.com/phoward38/cursor-rules) | 0 | Shell | 2026-06-08 | — | Battle-tested Cursor rules for React, TypeScript, Next.js, and 7+ frameworks. Drop one file, get better AI code. |
-| 5 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-06-08 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [phoward38/cursor-rules](https://github.com/phoward38/cursor-rules) | 0 | Shell | 2026-06-08 | — | Battle-tested Cursor rules for React, TypeScript, Next.js, and 7+ frameworks. Drop one file, get better AI code. |
+| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-06-08 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 3 | [pekral/cursor-rules](https://github.com/pekral/cursor-rules) | 3 | PHP | 2026-06-08 | — | PHP and Laravel Cursor rules — coding standards, testing, and conventions for the Cursor editor. Install via Composer. |
+| 4 | [blockchain-utility/awesome-crypto-prompts](https://github.com/blockchain-utility/awesome-crypto-prompts) | 0 | Shell | 2026-06-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/blockchain-utility/awesome-crypto-prompts/) | Ready-to-use AI prompts and configs for crypto/Web3 development — .cursorrules, CLAUDE.md, Copilot instructions, Custom  |
+| 5 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 15 | — | 2026-06-08 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
 | 6 | [eumiguellllllllll/copilot-rules](https://github.com/eumiguellllllllll/copilot-rules) | 1 | Batchfile | 2026-06-08 | — | ⚡ Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively. |
 | 7 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 0 | HTML | 2026-06-08 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
 | 8 | [Thabang9218/cursorifier](https://github.com/Thabang9218/cursorifier) | 0 | TypeScript | 2026-06-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Thabang9218/cursorifier/) | 🖱️ Enhance your Cursor AI with tailored, codebase-specific insights for smarter navigation and improved efficiency. |
