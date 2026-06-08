@@ -1,5 +1,32 @@
 [
   {
+    "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
+    "id": "mikeprasad/aria-knowledge",
+    "language": "Shell",
+    "name": "mikeprasad/aria-knowledge",
+    "stars": 12,
+    "updated_at": "2026-06-08T16:27:15Z",
+    "url": "https://github.com/mikeprasad/aria-knowledge"
+  },
+  {
+    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
+    "id": "eumiguellllllllll/copilot-rules",
+    "language": "Batchfile",
+    "name": "eumiguellllllllll/copilot-rules",
+    "stars": 1,
+    "updated_at": "2026-06-08T16:20:56Z",
+    "url": "https://github.com/eumiguellllllllll/copilot-rules"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-08T16:15:39Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
     "id": "Trentobobbi/uikit-mastery-playbook",
     "language": "HTML",
@@ -16,15 +43,6 @@
     "stars": 0,
     "updated_at": "2026-06-08T16:03:30Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-08T16:01:10Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -46,7 +64,7 @@
     "language": "Python",
     "name": "KbWen/agentic-os",
     "stars": 4,
-    "updated_at": "2026-06-08T15:46:58Z",
+    "updated_at": "2026-06-08T16:20:10Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
   {
@@ -262,15 +280,6 @@
     "stars": 6,
     "updated_at": "2026-06-08T12:25:14Z",
     "url": "https://github.com/vibestackdev/vibe-stack"
-  },
-  {
-    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
-    "id": "eumiguellllllllll/copilot-rules",
-    "language": "Batchfile",
-    "name": "eumiguellllllllll/copilot-rules",
-    "stars": 1,
-    "updated_at": "2026-06-08T12:23:20Z",
-    "url": "https://github.com/eumiguellllllllll/copilot-rules"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -504,19 +513,5 @@
     "stars": 0,
     "updated_at": "2026-06-06T15:49:57Z",
     "url": "https://github.com/758302-tech/agent-rules-starter-free"
-  },
-  {
-    "cursorrules": {
-      "content": "# Cursor Compatibility \u2014 rules pointer\n\n> Cursor reads rule files from `.cursor/rules/*.mdc`. This project's authoritative rules live in [`.hi/`](../../.hi/) and per-directory `.hi/instruct.md` files. The .mdc files in this directory are pointers \u2014 they tell Cursor where to look so its agent behaves the same way GitHub Copilot does in this repo.\n\n---\ndescription: PDS Depth-Priority Hierarchical AI-INSTRUCT system \u2014 read these files before suggesting changes.\nglobs:\n  - \"**/*\"\nalwaysApply: true\n---\n\n# Project rules location\n\nThis project uses the **Depth-Priority Hierarchical AI-INSTRUCT V6** system. The rule files are **not** stored in `.cursor/rules/` \u2014 they are stored under `.hi/` and in per-directory `.hi/instruct.md` files. **The deepest `.hi/instruct.md` always wins.**\n\nBefore suggesting any change, read in this order:\n\n1. [`.github/copilot-instructions.md`](../../.github/copilot-instructions.md) \u2014 meta: how the layering works.\n2. [`.github/dev-specs.md`](../../.github/dev-specs.md) \u2014 developer OS, shell, language versions, frameworks. Read at session start before suggesting commands or paths.\n3. [`.hi/index.md`](../../.hi/index.md) \u2014 master index of every instruction section.\n4. [`.hi/instruct.md`](../../.hi/instruct.md) \u2014 workspace-root authority.\n5. `[current-directory]/.hi/instruct.md` and every ancestor \u2014 **the deepest is authoritative**, shallower files are background context only.\n\n## Cross-cutting rules\n\n| Topic | Canonical file |\n|-------|---------------|\n| Naming, file organization | [`.hi/conventions.md`](../../.hi/conventions.md) |\n| Archive / never-delete / never-reset-db | [`.hi/maintenance.md`](../../.hi/maintenance.md) |\n| Credentials, `.env`, `.gitignore` | [`.hi/credentials.md`](../../.hi/credentials.md) |\n\n## Do not\n\n- Do not invent a new `.cursor/rules/*.mdc` file with project rules in it \u2014 those rules belong in the appropriate `.hi/` file. The `.cursor/rules/` directory is a pointer layer only.\n- Do not duplicate content from `.hi/` into Cursor rules. If Cursor needs context, add a one-line pointer here that links to the canonical file.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/project.mdc"
-    },
-    "description": "Advanced starter template with Depth-Priority Hierarchical AI Instructions for GitHub Copilot Agents and Cursor. Reduces",
-    "id": "vctmasters1/PDS-Layered-AI-Instruct-Template-V5",
-    "language": "Python",
-    "name": "vctmasters1/PDS-Layered-AI-Instruct-Template-V5",
-    "stars": 0,
-    "updated_at": "2026-06-06T14:24:52Z",
-    "url": "https://github.com/vctmasters1/PDS-Layered-AI-Instruct-Template-V5"
   }
 ]
