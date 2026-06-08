@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-06-08 06:30 UTC
+> ⏰ Last updated: 2026-06-08 06:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -77,7 +77,7 @@ expired items removed — so you can rely on what you see being current.
 | 22 | [JohannFreddyLoayzaHuana/awesome-ai-coding-tools](https://github.com/JohannFreddyLoayzaHuana/awesome-ai-coding-tools) | 2 | — | 2026-06-08 | — | 💡 Discover AI coding tools that enhance your workflow, from code editors to completion engines, and boost your software  |
 | 23 | [whydixit/cursor-starter](https://github.com/whydixit/cursor-starter) | 4 | — | 2026-06-08 | — | ✨ Enhance your software development with a curated collection of prompts for Cursor AI, boosting efficiency in planning  |
 | 24 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 1 | HTML | 2026-06-08 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 25 | [wshobson/agents](https://github.com/wshobson/agents) | 36495 | Python | 2026-06-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI |
+| 25 | [wshobson/agents](https://github.com/wshobson/agents) | 36497 | Python | 2026-06-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI |
 | 26 | [golid-ai/golid](https://github.com/golid-ai/golid) | 32 | TypeScript | 2026-06-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/golid-ai/golid/) | AI-native factory for Go + SolidJS apps — Cursor rules, spec drift CI, plans, and a production starter with auth, SSR, S |
 | 27 | [neumachen/aiderdesk-conditional-rules](https://github.com/neumachen/aiderdesk-conditional-rules) | 0 | TypeScript | 2026-06-07 | — | AiderDesk extension that loads rule files only when the current task's context contains files matching the rule's globs. |
 | 28 | [blockchain-utility/awesome-crypto-prompts](https://github.com/blockchain-utility/awesome-crypto-prompts) | 0 | — | 2026-06-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/blockchain-utility/awesome-crypto-prompts/) | Ready-to-use AI prompts and configs for crypto/Web3 development — .cursorrules, CLAUDE.md, Copilot instructions, Custom  |
