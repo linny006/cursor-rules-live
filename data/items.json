@@ -1,12 +1,12 @@
 [
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-08T14:13:16Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
+    "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
+    "id": "fluttersdk/wind",
+    "language": "Dart",
+    "name": "fluttersdk/wind",
+    "stars": 19,
+    "updated_at": "2026-06-08T14:26:28Z",
+    "url": "https://github.com/fluttersdk/wind"
   },
   {
     "cursorrules": {
@@ -19,8 +19,17 @@
     "language": "HTML",
     "name": "agenticstandardcontact-byte/agentic-architect",
     "stars": 0,
-    "updated_at": "2026-06-08T14:07:29Z",
+    "updated_at": "2026-06-08T14:22:34Z",
     "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-08T14:15:35Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -111,15 +120,6 @@
     "stars": 0,
     "updated_at": "2026-06-08T13:40:49Z",
     "url": "https://github.com/ebbaunqualified520/ios-agent-skills"
-  },
-  {
-    "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
-    "id": "fluttersdk/wind",
-    "language": "Dart",
-    "name": "fluttersdk/wind",
-    "stars": 19,
-    "updated_at": "2026-06-08T14:11:48Z",
-    "url": "https://github.com/fluttersdk/wind"
   },
   {
     "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
@@ -373,7 +373,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36512,
+    "stars": 36511,
     "updated_at": "2026-06-08T01:08:32Z",
     "url": "https://github.com/wshobson/agents"
   },
