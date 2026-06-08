@@ -1,11 +1,20 @@
 [
   {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 1,
+    "updated_at": "2026-06-08T07:09:08Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-08T06:45:54Z",
+    "updated_at": "2026-06-08T07:00:35Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -227,15 +236,6 @@
     "url": "https://github.com/whydixit/cursor-starter"
   },
   {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 1,
-    "updated_at": "2026-06-08T01:35:58Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: claude-agents marketplace project conventions\nalwaysApply: true\n---\n\n# claude-agents conventions\n\nThis is a multi-harness plugin marketplace. Source lives under `plugins/`; per-harness\nartifacts (`.codex/`, `.cursor-plugin/`, `.opencode/`, `commands/`) are generated.\n\n- Don't hand-edit anything under `.codex/`, `.cursor-plugin/`, `.opencode/`, or top-level `commands/`, `agents/`, `skills/` \u2014 regenerate via `make generate HARNESS=<x>`.\n- Python tooling: `uv` (package manager), `ruff` (lint/format), `ty` (type check). Do not use pip/mypy/black.\n- Plugin files: `plugins/<name>/{.claude-plugin/plugin.json, agents/*.md, skills/<name>/SKILL.md, commands/*.md}`. Auto-discovered.\n- Cursor reads `.claude/skills/` and `.claude/agents/` directly \u2014 no separate `.cursor/skills/` is generated.\n\n## Never\n\n- Never commit secrets or hardcode credentials.\n- Never modify `.claude-plugin/marketplace.json` from inside a plugin PR \u2014 it's the registry.\n- Never run destructive git operations (force-push, reset --hard, branch -D) without explicit ask.\n\nSee `docs/authoring.md` for the portable-content style guide.\n",
       "format": "mdc",
@@ -245,7 +245,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36498,
+    "stars": 36500,
     "updated_at": "2026-06-08T01:08:32Z",
     "url": "https://github.com/wshobson/agents"
   },
