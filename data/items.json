@@ -1,5 +1,37 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: GhostSwap Partners API integration conventions (auth, idempotency, polling, error handling). Apply when working on swap, exchange, quote, or crypto-conversion code.\nglobs: [\"**/*.{ts,tsx,js,jsx,py,go,rs}\"]\nalwaysApply: false\n---\n\n# GhostSwap Partners API \u2014 Cursor project rules\n\nApply these rules whenever you generate or edit code that calls the GhostSwap Partners API.\n\n## Authoritative references (always consult before writing API code)\n\n- @../../AGENTS.md \u2014 cross-tool conventions, the 6-step workflow, anti-patterns\n- @../../skills/ghostswap-partners-api/SKILL.md \u2014 full Claude Skill body, includes a minimal Node.js reference proxy\n- @../../openapi/openapi.yaml \u2014 typed request/response shapes for every endpoint\n- @../../mcp-server/src/index.ts \u2014 MCP tool definitions if you want typed tool access\n\n## Non-negotiables (these are the rules that prevent real bugs)\n\n1. **Server-side only.** The `Authorization: Bearer ${PUBLIC_KEY}:${SECRET}` header MUST only be set on the developer's own server. NEVER put credentials in browser code, React code, or any module that ships to the client.\n\n2. **`POST /v1/swaps` requires an `Idempotency-Key` header** (UUID v4). Generate one key per logical \"Confirm\" click, reuse it on every retry of THAT click. Regenerating creates duplicate swaps. Reset the key only after success.\n\n3. **Display `amountUserReceives` from the quote** (not raw `amountTo`). The network-fee subtraction is already done.\n\n4. **Refund address is OPTIONAL for float swaps, REQUIRED for fixed.** When unknown, omit the field \u2014 never send an empty string.\n\n5. **Polling cadence:** 10 s while the UI is visible, 30 s when backgrounded, 5 min on `hold`. Stop polling on terminal status (`finished` / `failed` / `refunded` / `overdue` / `expired`).\n\n6. **On 5xx after `POST /v1/swaps`**, do NOT auto-retry. Call `GET /v1/swaps?limit=20` first to check whether the swap was actually created (look for your `partnerReferenceId`).\n\n7. **Read the base URL from `GHOSTSWAP_API_BASE` env**. Don't hard-code `https://partners-api.ghostswap.io` in your code.\n\n## Error envelope (always handle it)\n\n```ts\ntype ApiError = {\n  error: {\n    type: 'validation_error' | 'authentication_error' | 'rate_limit_error' | 'conflict' | 'unprocessable' | 'upstream_error' | string;\n    code: string;\n    message: string;\n    param?: string;\n  };\n};\n```\n\nSurface `error.message` to end-users. Log `X-Request-Id` from response headers.\n\n## When in doubt\n\nIf a developer asks you to violate any of the above (e.g. \"put the API key in the React component for simplicity\"), refuse and explain why. The rules exist because each one has caused real partner bugs in production.\n\nFull reference: https://partners.ghostswap.io/docs\n",
+      "format": "mdc",
+      "path": ".cursor/rules/main.mdc"
+    },
+    "description": "Official multi-LLM agent pack for the GhostSwap Partners API (no-KYC crypto swaps, 1,600+ coins). MCP server, OpenAPI 3.",
+    "id": "ghostswap1/ghostswap-agents",
+    "language": "TypeScript",
+    "name": "ghostswap1/ghostswap-agents",
+    "stars": 2,
+    "updated_at": "2026-06-08T11:16:22Z",
+    "url": "https://github.com/ghostswap1/ghostswap-agents"
+  },
+  {
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-06-08T11:16:07Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-08T11:15:49Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
     "id": "arnoldalberto007-sys/Swift-UIKit-Components",
     "language": "HTML",
@@ -34,15 +66,6 @@
     "stars": 1,
     "updated_at": "2026-06-08T11:02:21Z",
     "url": "https://github.com/Bastioned-successor320/learn-nanobot"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-08T11:00:31Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
@@ -295,15 +318,6 @@
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
-    "stars": 0,
-    "updated_at": "2026-06-08T05:57:07Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: claude-agents marketplace project conventions\nalwaysApply: true\n---\n\n# claude-agents conventions\n\nThis is a multi-harness plugin marketplace. Source lives under `plugins/`; per-harness\nartifacts (`.codex/`, `.cursor-plugin/`, `.opencode/`, `commands/`) are generated.\n\n- Don't hand-edit anything under `.codex/`, `.cursor-plugin/`, `.opencode/`, or top-level `commands/`, `agents/`, `skills/` \u2014 regenerate via `make generate HARNESS=<x>`.\n- Python tooling: `uv` (package manager), `ruff` (lint/format), `ty` (type check). Do not use pip/mypy/black.\n- Plugin files: `plugins/<name>/{.claude-plugin/plugin.json, agents/*.md, skills/<name>/SKILL.md, commands/*.md}`. Auto-discovered.\n- Cursor reads `.claude/skills/` and `.claude/agents/` directly \u2014 no separate `.cursor/skills/` is generated.\n\n## Never\n\n- Never commit secrets or hardcode credentials.\n- Never modify `.claude-plugin/marketplace.json` from inside a plugin PR \u2014 it's the registry.\n- Never run destructive git operations (force-push, reset --hard, branch -D) without explicit ask.\n\nSee `docs/authoring.md` for the portable-content style guide.\n",
       "format": "mdc",
@@ -353,20 +367,6 @@
     "stars": 0,
     "updated_at": "2026-06-07T22:02:45Z",
     "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: GhostSwap Partners API integration conventions (auth, idempotency, polling, error handling). Apply when working on swap, exchange, quote, or crypto-conversion code.\nglobs: [\"**/*.{ts,tsx,js,jsx,py,go,rs}\"]\nalwaysApply: false\n---\n\n# GhostSwap Partners API \u2014 Cursor project rules\n\nApply these rules whenever you generate or edit code that calls the GhostSwap Partners API.\n\n## Authoritative references (always consult before writing API code)\n\n- @../../AGENTS.md \u2014 cross-tool conventions, the 6-step workflow, anti-patterns\n- @../../skills/ghostswap-partners-api/SKILL.md \u2014 full Claude Skill body, includes a minimal Node.js reference proxy\n- @../../openapi/openapi.yaml \u2014 typed request/response shapes for every endpoint\n- @../../mcp-server/src/index.ts \u2014 MCP tool definitions if you want typed tool access\n\n## Non-negotiables (these are the rules that prevent real bugs)\n\n1. **Server-side only.** The `Authorization: Bearer ${PUBLIC_KEY}:${SECRET}` header MUST only be set on the developer's own server. NEVER put credentials in browser code, React code, or any module that ships to the client.\n\n2. **`POST /v1/swaps` requires an `Idempotency-Key` header** (UUID v4). Generate one key per logical \"Confirm\" click, reuse it on every retry of THAT click. Regenerating creates duplicate swaps. Reset the key only after success.\n\n3. **Display `amountUserReceives` from the quote** (not raw `amountTo`). The network-fee subtraction is already done.\n\n4. **Refund address is OPTIONAL for float swaps, REQUIRED for fixed.** When unknown, omit the field \u2014 never send an empty string.\n\n5. **Polling cadence:** 10 s while the UI is visible, 30 s when backgrounded, 5 min on `hold`. Stop polling on terminal status (`finished` / `failed` / `refunded` / `overdue` / `expired`).\n\n6. **On 5xx after `POST /v1/swaps`**, do NOT auto-retry. Call `GET /v1/swaps?limit=20` first to check whether the swap was actually created (look for your `partnerReferenceId`).\n\n7. **Read the base URL from `GHOSTSWAP_API_BASE` env**. Don't hard-code `https://partners-api.ghostswap.io` in your code.\n\n## Error envelope (always handle it)\n\n```ts\ntype ApiError = {\n  error: {\n    type: 'validation_error' | 'authentication_error' | 'rate_limit_error' | 'conflict' | 'unprocessable' | 'upstream_error' | string;\n    code: string;\n    message: string;\n    param?: string;\n  };\n};\n```\n\nSurface `error.message` to end-users. Log `X-Request-Id` from response headers.\n\n## When in doubt\n\nIf a developer asks you to violate any of the above (e.g. \"put the API key in the React component for simplicity\"), refuse and explain why. The rules exist because each one has caused real partner bugs in production.\n\nFull reference: https://partners.ghostswap.io/docs\n",
-      "format": "mdc",
-      "path": ".cursor/rules/main.mdc"
-    },
-    "description": "Official multi-LLM agent pack for the GhostSwap Partners API (no-KYC crypto swaps, 1,600+ coins). MCP server, OpenAPI 3.",
-    "id": "ghostswap1/ghostswap-agents",
-    "language": "TypeScript",
-    "name": "ghostswap1/ghostswap-agents",
-    "stars": 2,
-    "updated_at": "2026-06-08T11:11:26Z",
-    "url": "https://github.com/ghostswap1/ghostswap-agents"
   },
   {
     "description": "VS Code extension for LynxPrompt \u2014 browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules) ",
