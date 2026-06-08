@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-06-08 14:45 UTC
+> ⏰ Last updated: 2026-06-08 15:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -89,7 +89,7 @@ expired items removed — so you can rely on what you see being current.
 | 34 | [blockchain-utility/awesome-crypto-prompts](https://github.com/blockchain-utility/awesome-crypto-prompts) | 0 | Shell | 2026-06-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/blockchain-utility/awesome-crypto-prompts/) | Ready-to-use AI prompts and configs for crypto/Web3 development — .cursorrules, CLAUDE.md, Copilot instructions, Custom  |
 | 35 | [glowElephant/context-forge](https://github.com/glowElephant/context-forge) | 2 | Python | 2026-06-08 | — | Auto harness engineering meta-repo: discuss → curate → bootstrap a context-engineered project for Claude Code, Cursor, C |
 | 36 | [Mark393295827/third-brain-v5-skills](https://github.com/Mark393295827/third-brain-v5-skills) | 114 | HTML | 2026-06-08 | — | agent skills |
-| 37 | [wshobson/agents](https://github.com/wshobson/agents) | 36512 | Python | 2026-06-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI |
+| 37 | [wshobson/agents](https://github.com/wshobson/agents) | 36513 | Python | 2026-06-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI |
 | 38 | [golid-ai/golid](https://github.com/golid-ai/golid) | 33 | TypeScript | 2026-06-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/golid-ai/golid/) | AI-native factory for Go + SolidJS apps — Cursor rules, spec drift CI, plans, and a production starter with auth, SSR, S |
 | 39 | [neumachen/aiderdesk-conditional-rules](https://github.com/neumachen/aiderdesk-conditional-rules) | 0 | TypeScript | 2026-06-07 | — | AiderDesk extension that loads rule files only when the current task's context contains files matching the rule's globs. |
 | 40 | [GeiserX/lynxprompt-vscode](https://github.com/GeiserX/lynxprompt-vscode) | 1 | TypeScript | 2026-06-07 | — | VS Code extension for LynxPrompt — browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules)  |
