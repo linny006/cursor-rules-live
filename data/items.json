@@ -1,5 +1,64 @@
 [
   {
+    "description": "Build programmatic UIKit apps with production-ready patterns for views, navigation, animation, architecture, and data fl",
+    "id": "nizhan80-art/Swift-UIKit-Skill",
+    "language": "\u2014",
+    "name": "nizhan80-art/Swift-UIKit-Skill",
+    "stars": 1,
+    "updated_at": "2026-06-08T20:44:40Z",
+    "url": "https://github.com/nizhan80-art/Swift-UIKit-Skill"
+  },
+  {
+    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
+    "id": "Amirun99/agency-orchestrator",
+    "language": "Dart",
+    "name": "Amirun99/agency-orchestrator",
+    "stars": 0,
+    "updated_at": "2026-06-08T20:43:57Z",
+    "url": "https://github.com/Amirun99/agency-orchestrator"
+  },
+  {
+    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
+    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "language": "\u2014",
+    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "stars": 2,
+    "updated_at": "2026-06-08T20:43:16Z",
+    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
+  },
+  {
+    "description": "Build 9 iOS agent skills for SwiftUI, testing, security, and more in one install for AI coding agents",
+    "id": "ebbaunqualified520/ios-agent-skills",
+    "language": "Shell",
+    "name": "ebbaunqualified520/ios-agent-skills",
+    "stars": 0,
+    "updated_at": "2026-06-08T20:39:50Z",
+    "url": "https://github.com/ebbaunqualified520/ios-agent-skills"
+  },
+  {
+    "cursorrules": {
+      "content": "# Emdash Skills for Cursor\n\nLoad `CONVENTIONS.md` for stack defaults. Load `_router.md` for skill routing.\n14 categories (01-14), 94 reference docs, 18 agents.\n\n## Stack\n- CF Workers + Hono\n- Angular 21 + Ionic 8 + PrimeNG 21\n- D1 / Neon\n- Drizzle v1\n- Clerk\n- Stripe\n- Inngest\n- Resend\n- Bun\n- Playwright v1.59+\n- PostHog\n- Sentry\n\n## Rules\n- TypeScript strict, never `any`, prefer `interface` over `type`\n- Hono inline handlers for RPC type inference\n- Zod validation on all inputs\n- TDD: failing test first, Playwright 6 breakpoints\n- Dark-first design, `#060610` bg, `#00E5FF` accent\n- Deploy to CF Workers, purge CDN after every deploy\n\nSee `CONVENTIONS.md` for full patterns.\n",
+      "format": "text",
+      "path": ".cursorrules"
+    },
+    "description": "14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts \u2192 deployed products.",
+    "id": "heymegabyte/claude-skills",
+    "language": "JavaScript",
+    "name": "heymegabyte/claude-skills",
+    "stars": 10,
+    "updated_at": "2026-06-08T20:30:40Z",
+    "url": "https://github.com/heymegabyte/claude-skills"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-08T20:30:29Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
     "id": "zinxj/uikit-expert-skill",
     "language": "\u2014",
@@ -16,15 +75,6 @@
     "stars": 1,
     "updated_at": "2026-06-08T20:19:30Z",
     "url": "https://github.com/GrekosTheJogurt/antigravity-workspace-manager"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-08T20:15:30Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -209,62 +259,12 @@
     "url": "https://github.com/christim427-rgb/ios-agent-skills"
   },
   {
-    "description": "Build programmatic UIKit apps with production-ready patterns for views, navigation, animation, architecture, and data fl",
-    "id": "nizhan80-art/Swift-UIKit-Skill",
-    "language": "\u2014",
-    "name": "nizhan80-art/Swift-UIKit-Skill",
-    "stars": 1,
-    "updated_at": "2026-06-08T17:49:17Z",
-    "url": "https://github.com/nizhan80-art/Swift-UIKit-Skill"
-  },
-  {
-    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
-    "id": "Amirun99/agency-orchestrator",
-    "language": "Dart",
-    "name": "Amirun99/agency-orchestrator",
-    "stars": 0,
-    "updated_at": "2026-06-08T17:48:28Z",
-    "url": "https://github.com/Amirun99/agency-orchestrator"
-  },
-  {
-    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
-    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "language": "\u2014",
-    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "stars": 2,
-    "updated_at": "2026-06-08T17:47:20Z",
-    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
-  },
-  {
-    "description": "Build 9 iOS agent skills for SwiftUI, testing, security, and more in one install for AI coding agents",
-    "id": "ebbaunqualified520/ios-agent-skills",
-    "language": "Shell",
-    "name": "ebbaunqualified520/ios-agent-skills",
-    "stars": 0,
-    "updated_at": "2026-06-08T17:43:45Z",
-    "url": "https://github.com/ebbaunqualified520/ios-agent-skills"
-  },
-  {
-    "cursorrules": {
-      "content": "# Emdash Skills for Cursor\n\nLoad `CONVENTIONS.md` for stack defaults. Load `_router.md` for skill routing.\n14 categories (01-14), 94 reference docs, 18 agents.\n\n## Stack\n- CF Workers + Hono\n- Angular 21 + Ionic 8 + PrimeNG 21\n- D1 / Neon\n- Drizzle v1\n- Clerk\n- Stripe\n- Inngest\n- Resend\n- Bun\n- Playwright v1.59+\n- PostHog\n- Sentry\n\n## Rules\n- TypeScript strict, never `any`, prefer `interface` over `type`\n- Hono inline handlers for RPC type inference\n- Zod validation on all inputs\n- TDD: failing test first, Playwright 6 breakpoints\n- Dark-first design, `#060610` bg, `#00E5FF` accent\n- Deploy to CF Workers, purge CDN after every deploy\n\nSee `CONVENTIONS.md` for full patterns.\n",
-      "format": "text",
-      "path": ".cursorrules"
-    },
-    "description": "14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts \u2192 deployed products.",
-    "id": "heymegabyte/claude-skills",
-    "language": "JavaScript",
-    "name": "heymegabyte/claude-skills",
-    "stars": 10,
-    "updated_at": "2026-06-08T17:34:04Z",
-    "url": "https://github.com/heymegabyte/claude-skills"
-  },
-  {
     "description": "Curated AI Agent Profiles for Claude Code, Codex, Cursor and more \u2014 install with forgecat CLI",
     "id": "nota-america/forgecat-agent-profiles",
     "language": "TypeScript",
     "name": "nota-america/forgecat-agent-profiles",
     "stars": 2,
-    "updated_at": "2026-06-08T16:38:30Z",
+    "updated_at": "2026-06-08T20:35:58Z",
     "url": "https://github.com/nota-america/forgecat-agent-profiles"
   },
   {
@@ -419,7 +419,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36519,
+    "stars": 36522,
     "updated_at": "2026-06-08T01:08:32Z",
     "url": "https://github.com/wshobson/agents"
   },
