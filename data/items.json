@@ -1,5 +1,46 @@
 [
   {
+    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
+    "id": "zinxj/uikit-expert-skill",
+    "language": "\u2014",
+    "name": "zinxj/uikit-expert-skill",
+    "stars": 3,
+    "updated_at": "2026-06-09T07:06:49Z",
+    "url": "https://github.com/zinxj/uikit-expert-skill"
+  },
+  {
+    "cursorrules": {
+      "content": "# Emdash Skills for Cursor\n\nLoad `CONVENTIONS.md` for stack defaults. Load `_router.md` for skill routing.\n14 categories (01-14), 94 reference docs, 18 agents.\n\n## Stack\n- CF Workers + Hono\n- Angular 21 + Ionic 8 + PrimeNG 21\n- D1 / Neon\n- Drizzle v1\n- Clerk\n- Stripe\n- Inngest\n- Resend\n- Bun\n- Playwright v1.59+\n- PostHog\n- Sentry\n\n## Rules\n- TypeScript strict, never `any`, prefer `interface` over `type`\n- Hono inline handlers for RPC type inference\n- Zod validation on all inputs\n- TDD: failing test first, Playwright 6 breakpoints\n- Dark-first design, `#060610` bg, `#00E5FF` accent\n- Deploy to CF Workers, purge CDN after every deploy\n\nSee `CONVENTIONS.md` for full patterns.\n",
+      "format": "text",
+      "path": ".cursorrules"
+    },
+    "description": "14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts \u2192 deployed products.",
+    "id": "heymegabyte/claude-skills",
+    "language": "JavaScript",
+    "name": "heymegabyte/claude-skills",
+    "stars": 10,
+    "updated_at": "2026-06-09T07:04:53Z",
+    "url": "https://github.com/heymegabyte/claude-skills"
+  },
+  {
+    "description": "Manage and organize project workspaces while dynamically injecting relevant skills for efficient AI assistant context lo",
+    "id": "GrekosTheJogurt/antigravity-workspace-manager",
+    "language": "Python",
+    "name": "GrekosTheJogurt/antigravity-workspace-manager",
+    "stars": 1,
+    "updated_at": "2026-06-09T07:03:24Z",
+    "url": "https://github.com/GrekosTheJogurt/antigravity-workspace-manager"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-09T07:00:47Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Curated AI Agent Profiles for Claude Code, Codex, Cursor and more \u2014 install with forgecat CLI",
     "id": "nota-america/forgecat-agent-profiles",
     "language": "TypeScript",
@@ -35,29 +76,6 @@
     "stars": 3,
     "updated_at": "2026-06-09T06:50:13Z",
     "url": "https://github.com/Luxvil/ai-coding-rules"
-  },
-  {
-    "cursorrules": {
-      "content": "# Emdash Skills for Cursor\n\nLoad `CONVENTIONS.md` for stack defaults. Load `_router.md` for skill routing.\n14 categories (01-14), 94 reference docs, 18 agents.\n\n## Stack\n- CF Workers + Hono\n- Angular 21 + Ionic 8 + PrimeNG 21\n- D1 / Neon\n- Drizzle v1\n- Clerk\n- Stripe\n- Inngest\n- Resend\n- Bun\n- Playwright v1.59+\n- PostHog\n- Sentry\n\n## Rules\n- TypeScript strict, never `any`, prefer `interface` over `type`\n- Hono inline handlers for RPC type inference\n- Zod validation on all inputs\n- TDD: failing test first, Playwright 6 breakpoints\n- Dark-first design, `#060610` bg, `#00E5FF` accent\n- Deploy to CF Workers, purge CDN after every deploy\n\nSee `CONVENTIONS.md` for full patterns.\n",
-      "format": "text",
-      "path": ".cursorrules"
-    },
-    "description": "14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts \u2192 deployed products.",
-    "id": "heymegabyte/claude-skills",
-    "language": "JavaScript",
-    "name": "heymegabyte/claude-skills",
-    "stars": 10,
-    "updated_at": "2026-06-09T06:49:41Z",
-    "url": "https://github.com/heymegabyte/claude-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-09T06:45:42Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -241,24 +259,6 @@
     "url": "https://github.com/ebbaunqualified520/ios-agent-skills"
   },
   {
-    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
-    "id": "zinxj/uikit-expert-skill",
-    "language": "\u2014",
-    "name": "zinxj/uikit-expert-skill",
-    "stars": 3,
-    "updated_at": "2026-06-09T03:05:32Z",
-    "url": "https://github.com/zinxj/uikit-expert-skill"
-  },
-  {
-    "description": "Manage and organize project workspaces while dynamically injecting relevant skills for efficient AI assistant context lo",
-    "id": "GrekosTheJogurt/antigravity-workspace-manager",
-    "language": "Python",
-    "name": "GrekosTheJogurt/antigravity-workspace-manager",
-    "stars": 1,
-    "updated_at": "2026-06-09T03:02:13Z",
-    "url": "https://github.com/GrekosTheJogurt/antigravity-workspace-manager"
-  },
-  {
     "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
     "id": "fluttersdk/wind",
     "language": "Dart",
@@ -392,7 +392,7 @@
     "language": "Python",
     "name": "glowElephant/context-forge",
     "stars": 2,
-    "updated_at": "2026-06-08T08:43:38Z",
+    "updated_at": "2026-06-09T07:15:11Z",
     "url": "https://github.com/glowElephant/context-forge"
   },
   {
