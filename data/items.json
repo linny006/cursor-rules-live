@@ -10,8 +10,17 @@
     "language": "JavaScript",
     "name": "heymegabyte/claude-skills",
     "stars": 10,
-    "updated_at": "2026-06-09T00:50:35Z",
+    "updated_at": "2026-06-09T01:14:00Z",
     "url": "https://github.com/heymegabyte/claude-skills"
+  },
+  {
+    "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
+    "id": "fluttersdk/wind",
+    "language": "Dart",
+    "name": "fluttersdk/wind",
+    "stars": 19,
+    "updated_at": "2026-06-09T01:03:06Z",
+    "url": "https://github.com/fluttersdk/wind"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -19,7 +28,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-09T00:45:25Z",
+    "updated_at": "2026-06-09T01:00:30Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -266,15 +275,6 @@
     "stars": 15,
     "updated_at": "2026-06-08T21:23:34Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
-    "id": "fluttersdk/wind",
-    "language": "Dart",
-    "name": "fluttersdk/wind",
-    "stars": 19,
-    "updated_at": "2026-06-09T00:48:35Z",
-    "url": "https://github.com/fluttersdk/wind"
   },
   {
     "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
