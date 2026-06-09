@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-06-09 20:15 UTC
+> ⏰ Last updated: 2026-06-09 20:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,8 +53,8 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 15 | — | 2026-06-09 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-06-09 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-06-09 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 15 | — | 2026-06-09 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
 | 3 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-06-09 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
 | 4 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-06-09 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
 | 5 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 12 | Shell | 2026-06-09 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
@@ -100,7 +100,7 @@ expired items removed — so you can rely on what you see being current.
 | 45 | [blockchain-utility/awesome-crypto-prompts](https://github.com/blockchain-utility/awesome-crypto-prompts) | 0 | Shell | 2026-06-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/blockchain-utility/awesome-crypto-prompts/) | Ready-to-use AI prompts and configs for crypto/Web3 development — .cursorrules, CLAUDE.md, Copilot instructions, Custom  |
 | 46 | [Mark393295827/third-brain-v5-skills](https://github.com/Mark393295827/third-brain-v5-skills) | 114 | HTML | 2026-06-08 | — | agent skills |
 | 47 | [MohamedAbdallah-14/unslop](https://github.com/MohamedAbdallah-14/unslop) | 57 | Python | 2026-06-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/MohamedAbdallah-14/unslop/) | Make AI output sound human. Strips AI-isms (sycophancy, stock vocab, hedging stacks, em-dash pileups), preserves code/UR |
-| 48 | [wshobson/agents](https://github.com/wshobson/agents) | 36558 | Python | 2026-06-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI |
+| 48 | [wshobson/agents](https://github.com/wshobson/agents) | 36559 | Python | 2026-06-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI |
 | 49 | [golid-ai/golid](https://github.com/golid-ai/golid) | 34 | TypeScript | 2026-06-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/golid-ai/golid/) | AI-native factory for Go + SolidJS apps — Cursor rules, spec drift CI, plans, and a production starter with auth, SSR, S |
 | 50 | [neumachen/aiderdesk-conditional-rules](https://github.com/neumachen/aiderdesk-conditional-rules) | 0 | TypeScript | 2026-06-07 | — | AiderDesk extension that loads rule files only when the current task's context contains files matching the rule's globs. |
 <!-- TRACKER_TABLE_END -->
