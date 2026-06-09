@@ -5,8 +5,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-09T14:45:37Z",
+    "updated_at": "2026-06-09T14:54:52Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
+    "id": "fluttersdk/wind",
+    "language": "Dart",
+    "name": "fluttersdk/wind",
+    "stars": 20,
+    "updated_at": "2026-06-09T14:48:57Z",
+    "url": "https://github.com/fluttersdk/wind"
   },
   {
     "cursorrules": {
@@ -19,7 +28,7 @@
     "language": "JavaScript",
     "name": "heymegabyte/claude-skills",
     "stars": 10,
-    "updated_at": "2026-06-09T14:34:42Z",
+    "updated_at": "2026-06-09T14:54:25Z",
     "url": "https://github.com/heymegabyte/claude-skills"
   },
   {
@@ -256,7 +265,7 @@
     "language": "Python",
     "name": "Bastioned-successor320/learn-nanobot",
     "stars": 2,
-    "updated_at": "2026-06-09T10:38:46Z",
+    "updated_at": "2026-06-09T14:58:52Z",
     "url": "https://github.com/Bastioned-successor320/learn-nanobot"
   },
   {
@@ -265,7 +274,7 @@
     "language": "\u2014",
     "name": "XAKLESK/cre-agent-skills",
     "stars": 1,
-    "updated_at": "2026-06-09T10:36:19Z",
+    "updated_at": "2026-06-09T14:56:10Z",
     "url": "https://github.com/XAKLESK/cre-agent-skills"
   },
   {
@@ -387,15 +396,6 @@
     "url": "https://github.com/nota-america/forgecat-agent-profiles"
   },
   {
-    "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
-    "id": "fluttersdk/wind",
-    "language": "Dart",
-    "name": "fluttersdk/wind",
-    "stars": 20,
-    "updated_at": "2026-06-09T14:48:57Z",
-    "url": "https://github.com/fluttersdk/wind"
-  },
-  {
     "description": "",
     "id": "baneeishaque/ai-agent-rules",
     "language": "TypeScript",
@@ -492,7 +492,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36551,
+    "stars": 36552,
     "updated_at": "2026-06-08T01:08:32Z",
     "url": "https://github.com/wshobson/agents"
   },
