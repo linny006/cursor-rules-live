@@ -1,6 +1,20 @@
 [
   {
     "cursorrules": {
+      "content": "---\ndescription: \"USE WHEN: any task in this repo. Global operating rules.\"\nglobs: [\"**/*\"]\nalwaysApply: true\npriority: 100\n---\n\n# Global Rules (Always On)\n\n## Role\nYou are an AI coding assistant. Deliver correct, minimal, testable changes. Surface uncertainty instead of hiding it.\n\n## Non\u2011Negotiables\n- **Correctness > simplicity > consistency > style**.\n- **Minimal diff**: touch only what the task needs.\n- **No drive\u2011by refactors**.\n- **Ask when ambiguous**: assumptions ledger + up to 3 questions.\n- **Stop** on security, data loss, or breaking changes; ask for confirmation.\n\n## Output Discipline\n- Provide a brief plan before changes.\n- Show verification steps (lint/typecheck/tests) and state what wasn\u2019t run.\n\n## Guardrails\n- No hard\u2011coded secrets.\n- No unrelated formatting or renaming.\n- No new dependencies without approval.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/00-global.mdc"
+    },
+    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
+    "id": "Luxvil/ai-coding-rules",
+    "language": "Shell",
+    "name": "Luxvil/ai-coding-rules",
+    "stars": 3,
+    "updated_at": "2026-06-09T17:50:05Z",
+    "url": "https://github.com/Luxvil/ai-coding-rules"
+  },
+  {
+    "cursorrules": {
       "content": "# Emdash Skills for Cursor\n\nLoad `CONVENTIONS.md` for stack defaults. Load `_router.md` for skill routing.\n14 categories (01-14), 94 reference docs, 18 agents.\n\n## Stack\n- CF Workers + Hono\n- Angular 21 + Ionic 8 + PrimeNG 21\n- D1 / Neon\n- Drizzle v1\n- Clerk\n- Stripe\n- Inngest\n- Resend\n- Bun\n- Playwright v1.59+\n- PostHog\n- Sentry\n\n## Rules\n- TypeScript strict, never `any`, prefer `interface` over `type`\n- Hono inline handlers for RPC type inference\n- Zod validation on all inputs\n- TDD: failing test first, Playwright 6 breakpoints\n- Dark-first design, `#060610` bg, `#00E5FF` accent\n- Deploy to CF Workers, purge CDN after every deploy\n\nSee `CONVENTIONS.md` for full patterns.\n",
       "format": "text",
       "path": ".cursorrules"
@@ -10,7 +24,7 @@
     "language": "JavaScript",
     "name": "heymegabyte/claude-skills",
     "stars": 10,
-    "updated_at": "2026-06-09T17:36:12Z",
+    "updated_at": "2026-06-09T17:49:59Z",
     "url": "https://github.com/heymegabyte/claude-skills"
   },
   {
@@ -19,7 +33,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-09T17:30:42Z",
+    "updated_at": "2026-06-09T17:45:29Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -268,22 +282,8 @@
     "language": "Python",
     "name": "johnwall123459885/skene-cookbook",
     "stars": 0,
-    "updated_at": "2026-06-09T14:14:51Z",
+    "updated_at": "2026-06-09T18:00:29Z",
     "url": "https://github.com/johnwall123459885/skene-cookbook"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: \"USE WHEN: any task in this repo. Global operating rules.\"\nglobs: [\"**/*\"]\nalwaysApply: true\npriority: 100\n---\n\n# Global Rules (Always On)\n\n## Role\nYou are an AI coding assistant. Deliver correct, minimal, testable changes. Surface uncertainty instead of hiding it.\n\n## Non\u2011Negotiables\n- **Correctness > simplicity > consistency > style**.\n- **Minimal diff**: touch only what the task needs.\n- **No drive\u2011by refactors**.\n- **Ask when ambiguous**: assumptions ledger + up to 3 questions.\n- **Stop** on security, data loss, or breaking changes; ask for confirmation.\n\n## Output Discipline\n- Provide a brief plan before changes.\n- Show verification steps (lint/typecheck/tests) and state what wasn\u2019t run.\n\n## Guardrails\n- No hard\u2011coded secrets.\n- No unrelated formatting or renaming.\n- No new dependencies without approval.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/00-global.mdc"
-    },
-    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
-    "id": "Luxvil/ai-coding-rules",
-    "language": "Shell",
-    "name": "Luxvil/ai-coding-rules",
-    "stars": 3,
-    "updated_at": "2026-06-09T14:07:12Z",
-    "url": "https://github.com/Luxvil/ai-coding-rules"
   },
   {
     "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
