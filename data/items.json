@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-09T15:45:50Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "# Emdash Skills for Cursor\n\nLoad `CONVENTIONS.md` for stack defaults. Load `_router.md` for skill routing.\n14 categories (01-14), 94 reference docs, 18 agents.\n\n## Stack\n- CF Workers + Hono\n- Angular 21 + Ionic 8 + PrimeNG 21\n- D1 / Neon\n- Drizzle v1\n- Clerk\n- Stripe\n- Inngest\n- Resend\n- Bun\n- Playwright v1.59+\n- PostHog\n- Sentry\n\n## Rules\n- TypeScript strict, never `any`, prefer `interface` over `type`\n- Hono inline handlers for RPC type inference\n- Zod validation on all inputs\n- TDD: failing test first, Playwright 6 breakpoints\n- Dark-first design, `#060610` bg, `#00E5FF` accent\n- Deploy to CF Workers, purge CDN after every deploy\n\nSee `CONVENTIONS.md` for full patterns.\n",
       "format": "text",
@@ -21,15 +30,6 @@
     "stars": 1,
     "updated_at": "2026-06-09T15:30:52Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-09T15:30:37Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
@@ -246,7 +246,7 @@
     "language": "\u2014",
     "name": "pemdes174/cursor-rules",
     "stars": 5,
-    "updated_at": "2026-06-09T12:41:20Z",
+    "updated_at": "2026-06-09T15:55:49Z",
     "url": "https://github.com/pemdes174/cursor-rules"
   },
   {
@@ -264,7 +264,7 @@
     "language": "\u2014",
     "name": "JohannFreddyLoayzaHuana/awesome-ai-coding-tools",
     "stars": 2,
-    "updated_at": "2026-06-09T12:40:17Z",
+    "updated_at": "2026-06-09T15:54:45Z",
     "url": "https://github.com/JohannFreddyLoayzaHuana/awesome-ai-coding-tools"
   },
   {
@@ -273,7 +273,7 @@
     "language": "\u2014",
     "name": "whydixit/cursor-starter",
     "stars": 4,
-    "updated_at": "2026-06-09T12:40:05Z",
+    "updated_at": "2026-06-09T15:54:42Z",
     "url": "https://github.com/whydixit/cursor-starter"
   },
   {
