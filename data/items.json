@@ -1,5 +1,28 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-09T09:15:50Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: AI\u5916\u547cPrompt\u5de5\u7a0b\u5316\u5de5\u5177\u5305 - \u63d0\u4f9b\u751f\u6210Prompt\u3001\u751f\u6210\u8f93\u5165\u53d8\u91cf\u3001\u8bc4\u4f30\u901a\u8bdd\u8d28\u91cf\u4e09\u4e2a\u6280\u80fd\nglobs: \"**/*\"\nalwaysApply: true\n---\n\n# AI\u5916\u547c Prompt \u5de5\u7a0b\u5316\u5de5\u5177\u5305\n\n\u672c\u9879\u76ee\u5305\u542b 3 \u4e2a AI \u6280\u80fd\uff0c\u7528\u4e8e AI \u7535\u8bdd\u5916\u547c\u8bbf\u8c08\u7684\u5168\u6d41\u7a0b\u652f\u6301\u3002\n\n\u5f53\u7528\u6237\u89e6\u53d1\u4ee5\u4e0b\u4efb\u4e00\u6280\u80fd\u65f6\uff0c\u8bfb\u53d6\u5bf9\u5e94\u6307\u4ee4\u6587\u4ef6\u7684\u5b8c\u6574\u5185\u5bb9\u5e76\u4e25\u683c\u6309\u6b65\u9aa4\u6267\u884c\uff1a\n\n| \u6280\u80fd | \u89e6\u53d1\u8bcd | \u6307\u4ee4\u6587\u4ef6 |\n|------|--------|----------|\n| \u751f\u6210Prompt | \"\u751f\u6210prompt\"\u3001\"\u5f00\u59cb\u65b0\u9879\u76ee\"\u3001\"\u505a\u4e00\u8f6e\u5916\u547c\" | `skills/generate-prompt.md` |\n| \u751f\u6210\u8f93\u5165\u53d8\u91cf | \"\u51c6\u5907\u8f93\u5165\u53d8\u91cf\"\u3001\"\u5199\u7814\u7a76\u76ee\u6807\" | `skills/generate-input.md` |\n| \u8bc4\u4f30\u901a\u8bdd\u8d28\u91cf | \"\u8bc4\u4f30\u901a\u8bdd\"\u3001\"\u8d70\u67e5\u8bb0\u5f55\"\u3001\"\u590d\u76d8\" | `skills/evaluate.md` |\n\n\u7528\u6237\u9996\u6b21\u5f00\u542f\u5bf9\u8bdd\u65f6\uff0c\u4e3b\u52a8\u4ecb\u7ecd\uff1a\n> \u8fd9\u662f AI\u5916\u547c Prompt \u5de5\u7a0b\u5316\u5de5\u5177\u5305\uff0c\u6211\u53ef\u4ee5\u5e2e\u4f60\uff1a**\u751f\u6210Prompt**\u3001**\u51c6\u5907\u8f93\u5165\u53d8\u91cf**\u3001\u6216**\u8bc4\u4f30\u901a\u8bdd\u8d28\u91cf**\u3002\u4f60\u60f3\u505a\u54ea\u4e2a\uff1f\n\n\u5b8c\u6574\u8bf4\u660e\u89c1 `INSTRUCTIONS.md`\u3002\n",
+      "format": "mdc",
+      "path": ".cursor/rules/ai-interview-skills.mdc"
+    },
+    "description": "Engineer user-research methodologies into AI prompts \u2014 professional-grade phone interviews at scale. 6 pluggable methodo",
+    "id": "CyannSHI/ai-interview-kit",
+    "language": "HTML",
+    "name": "CyannSHI/ai-interview-kit",
+    "stars": 8,
+    "updated_at": "2026-06-09T09:07:45Z",
+    "url": "https://github.com/CyannSHI/ai-interview-kit"
+  },
+  {
     "cursorrules": {
       "content": "# Emdash Skills for Cursor\n\nLoad `CONVENTIONS.md` for stack defaults. Load `_router.md` for skill routing.\n14 categories (01-14), 94 reference docs, 18 agents.\n\n## Stack\n- CF Workers + Hono\n- Angular 21 + Ionic 8 + PrimeNG 21\n- D1 / Neon\n- Drizzle v1\n- Clerk\n- Stripe\n- Inngest\n- Resend\n- Bun\n- Playwright v1.59+\n- PostHog\n- Sentry\n\n## Rules\n- TypeScript strict, never `any`, prefer `interface` over `type`\n- Hono inline handlers for RPC type inference\n- Zod validation on all inputs\n- TDD: failing test first, Playwright 6 breakpoints\n- Dark-first design, `#060610` bg, `#00E5FF` accent\n- Deploy to CF Workers, purge CDN after every deploy\n\nSee `CONVENTIONS.md` for full patterns.\n",
       "format": "text",
@@ -10,17 +33,8 @@
     "language": "JavaScript",
     "name": "heymegabyte/claude-skills",
     "stars": 10,
-    "updated_at": "2026-06-09T09:04:00Z",
+    "updated_at": "2026-06-09T09:19:26Z",
     "url": "https://github.com/heymegabyte/claude-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-09T09:00:32Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
@@ -318,7 +332,7 @@
     "language": "Python",
     "name": "KbWen/agentic-os",
     "stars": 4,
-    "updated_at": "2026-06-09T09:02:15Z",
+    "updated_at": "2026-06-09T09:30:06Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
   {
@@ -504,14 +518,5 @@
     "stars": 1,
     "updated_at": "2026-06-07T17:35:41Z",
     "url": "https://github.com/GeiserX/lynxprompt-mcp"
-  },
-  {
-    "description": "Homebrew tap for LynxPrompt CLI",
-    "id": "GeiserX/homebrew-lynxprompt",
-    "language": "Ruby",
-    "name": "GeiserX/homebrew-lynxprompt",
-    "stars": 1,
-    "updated_at": "2026-06-07T16:40:35Z",
-    "url": "https://github.com/GeiserX/homebrew-lynxprompt"
   }
 ]
