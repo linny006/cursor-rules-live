@@ -10,7 +10,7 @@
     "language": "JavaScript",
     "name": "heymegabyte/claude-skills",
     "stars": 10,
-    "updated_at": "2026-06-09T08:49:50Z",
+    "updated_at": "2026-06-09T09:04:00Z",
     "url": "https://github.com/heymegabyte/claude-skills"
   },
   {
@@ -19,8 +19,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-09T08:45:30Z",
+    "updated_at": "2026-06-09T09:00:32Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
+    "id": "eumiguellllllllll/copilot-rules",
+    "language": "Batchfile",
+    "name": "eumiguellllllllll/copilot-rules",
+    "stars": 1,
+    "updated_at": "2026-06-09T08:58:42Z",
+    "url": "https://github.com/eumiguellllllllll/copilot-rules"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -268,15 +277,6 @@
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
-    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
-    "id": "eumiguellllllllll/copilot-rules",
-    "language": "Batchfile",
-    "name": "eumiguellllllllll/copilot-rules",
-    "stars": 1,
-    "updated_at": "2026-06-09T08:58:42Z",
-    "url": "https://github.com/eumiguellllllllll/copilot-rules"
-  },
-  {
     "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
     "id": "pekral/cursor-rules",
     "language": "PHP",
@@ -318,7 +318,7 @@
     "language": "Python",
     "name": "KbWen/agentic-os",
     "stars": 4,
-    "updated_at": "2026-06-09T08:52:07Z",
+    "updated_at": "2026-06-09T09:02:15Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
   {
