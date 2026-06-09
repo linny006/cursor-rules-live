@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-06-09 02:15 UTC
+> ⏰ Last updated: 2026-06-09 02:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -54,8 +54,8 @@ expired items removed — so you can rely on what you see being current.
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
 | 1 | [heymegabyte/claude-skills](https://github.com/heymegabyte/claude-skills) | 10 | JavaScript | 2026-06-09 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/claude-skills/) | 14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts → deployed products. |
-| 2 | [eumiguellllllllll/copilot-rules](https://github.com/eumiguellllllllll/copilot-rules) | 1 | Batchfile | 2026-06-09 | — | ⚡ Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively. |
-| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-06-09 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-06-09 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 3 | [eumiguellllllllll/copilot-rules](https://github.com/eumiguellllllllll/copilot-rules) | 1 | Batchfile | 2026-06-09 | — | ⚡ Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively. |
 | 4 | [nota-america/forgecat-agent-profiles](https://github.com/nota-america/forgecat-agent-profiles) | 2 | TypeScript | 2026-06-09 | — | Curated AI Agent Profiles for Claude Code, Codex, Cursor and more — install with forgecat CLI |
 | 5 | [Thabang9218/cursorifier](https://github.com/Thabang9218/cursorifier) | 0 | TypeScript | 2026-06-09 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Thabang9218/cursorifier/) | 🖱️ Enhance your Cursor AI with tailored, codebase-specific insights for smarter navigation and improved efficiency. |
 | 6 | [pemdes174/cursor-rules](https://github.com/pemdes174/cursor-rules) | 5 | — | 2026-06-09 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/pemdes174/cursor-rules/) | 🚀 Streamline your Next.js development with practical rules and tested patterns for efficient coding and minimal bugs. |
@@ -94,7 +94,7 @@ expired items removed — so you can rely on what you see being current.
 | 39 | [glowElephant/context-forge](https://github.com/glowElephant/context-forge) | 2 | Python | 2026-06-08 | — | Auto harness engineering meta-repo: discuss → curate → bootstrap a context-engineered project for Claude Code, Cursor, C |
 | 40 | [Mark393295827/third-brain-v5-skills](https://github.com/Mark393295827/third-brain-v5-skills) | 114 | HTML | 2026-06-08 | — | agent skills |
 | 41 | [MohamedAbdallah-14/unslop](https://github.com/MohamedAbdallah-14/unslop) | 57 | Python | 2026-06-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/MohamedAbdallah-14/unslop/) | Make AI output sound human. Strips AI-isms (sycophancy, stock vocab, hedging stacks, em-dash pileups), preserves code/UR |
-| 42 | [wshobson/agents](https://github.com/wshobson/agents) | 36527 | Python | 2026-06-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI |
+| 42 | [wshobson/agents](https://github.com/wshobson/agents) | 36528 | Python | 2026-06-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI |
 | 43 | [golid-ai/golid](https://github.com/golid-ai/golid) | 33 | TypeScript | 2026-06-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/golid-ai/golid/) | AI-native factory for Go + SolidJS apps — Cursor rules, spec drift CI, plans, and a production starter with auth, SSR, S |
 | 44 | [neumachen/aiderdesk-conditional-rules](https://github.com/neumachen/aiderdesk-conditional-rules) | 0 | TypeScript | 2026-06-07 | — | AiderDesk extension that loads rule files only when the current task's context contains files matching the rule's globs. |
 | 45 | [GeiserX/lynxprompt-vscode](https://github.com/GeiserX/lynxprompt-vscode) | 1 | TypeScript | 2026-06-07 | — | VS Code extension for LynxPrompt — browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules)  |
