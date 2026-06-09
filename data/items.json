@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-09T14:01:01Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "# Emdash Skills for Cursor\n\nLoad `CONVENTIONS.md` for stack defaults. Load `_router.md` for skill routing.\n14 categories (01-14), 94 reference docs, 18 agents.\n\n## Stack\n- CF Workers + Hono\n- Angular 21 + Ionic 8 + PrimeNG 21\n- D1 / Neon\n- Drizzle v1\n- Clerk\n- Stripe\n- Inngest\n- Resend\n- Bun\n- Playwright v1.59+\n- PostHog\n- Sentry\n\n## Rules\n- TypeScript strict, never `any`, prefer `interface` over `type`\n- Hono inline handlers for RPC type inference\n- Zod validation on all inputs\n- TDD: failing test first, Playwright 6 breakpoints\n- Dark-first design, `#060610` bg, `#00E5FF` accent\n- Deploy to CF Workers, purge CDN after every deploy\n\nSee `CONVENTIONS.md` for full patterns.\n",
       "format": "text",
@@ -10,17 +19,8 @@
     "language": "JavaScript",
     "name": "heymegabyte/claude-skills",
     "stars": 10,
-    "updated_at": "2026-06-09T13:50:20Z",
+    "updated_at": "2026-06-09T14:04:46Z",
     "url": "https://github.com/heymegabyte/claude-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-09T13:45:33Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -296,7 +296,7 @@
     "language": "Python",
     "name": "johnwall123459885/skene-cookbook",
     "stars": 0,
-    "updated_at": "2026-06-09T09:56:36Z",
+    "updated_at": "2026-06-09T14:14:51Z",
     "url": "https://github.com/johnwall123459885/skene-cookbook"
   },
   {
@@ -310,7 +310,7 @@
     "language": "Shell",
     "name": "Luxvil/ai-coding-rules",
     "stars": 3,
-    "updated_at": "2026-06-09T09:49:00Z",
+    "updated_at": "2026-06-09T14:07:12Z",
     "url": "https://github.com/Luxvil/ai-coding-rules"
   },
   {
