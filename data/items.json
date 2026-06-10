@@ -10,8 +10,17 @@
     "language": "JavaScript",
     "name": "heymegabyte/claude-skills",
     "stars": 10,
-    "updated_at": "2026-06-09T23:49:38Z",
+    "updated_at": "2026-06-10T00:05:30Z",
     "url": "https://github.com/heymegabyte/claude-skills"
+  },
+  {
+    "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
+    "id": "caioribeiroclw-pixel/pluribus",
+    "language": "JavaScript",
+    "name": "caioribeiroclw-pixel/pluribus",
+    "stars": 5,
+    "updated_at": "2026-06-10T00:03:00Z",
+    "url": "https://github.com/caioribeiroclw-pixel/pluribus"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -19,7 +28,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-09T23:45:25Z",
+    "updated_at": "2026-06-10T00:00:48Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -55,7 +64,7 @@
     "language": "TypeScript",
     "name": "nota-america/forgecat-agent-profiles",
     "stars": 2,
-    "updated_at": "2026-06-09T23:57:17Z",
+    "updated_at": "2026-06-10T00:10:29Z",
     "url": "https://github.com/nota-america/forgecat-agent-profiles"
   },
   {
@@ -277,15 +286,6 @@
     "url": "https://github.com/mikeprasad/aria-knowledge"
   },
   {
-    "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
-    "id": "caioribeiroclw-pixel/pluribus",
-    "language": "JavaScript",
-    "name": "caioribeiroclw-pixel/pluribus",
-    "stars": 5,
-    "updated_at": "2026-06-09T19:02:40Z",
-    "url": "https://github.com/caioribeiroclw-pixel/pluribus"
-  },
-  {
     "description": "323\u500b\u306e\u5373\u6226\u529bAI\u5c02\u9580\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8 \u2014 Claude Code/Cursor/Copilot\u7b49\u306b\u5bfe\u5fdc\u3002SIer/\u53d7\u8a17\u958b\u767a/SaaS/\u88fd\u9020DX/\u516c\u5171\u5206\u91ce\u306a\u3069\u65e5\u672c\u5e02\u5834\u5411\u3051114\u500b\u306e\u30aa\u30ea\u30b8\u30ca\u30eb\u3092\u542b\u3080\u3001agency-agents\u65e5\u672c\u8a9e\u30b3\u30df\u30e5\u30cb\u30c6\u30a3",
     "id": "sscodeai/agency-agents-ja",
     "language": "Shell",
@@ -501,7 +501,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36563,
+    "stars": 36564,
     "updated_at": "2026-06-08T01:08:32Z",
     "url": "https://github.com/wshobson/agents"
   },
