@@ -1,5 +1,77 @@
 [
   {
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-06-10T12:28:47Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
+  },
+  {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 0,
+    "updated_at": "2026-06-10T12:27:07Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+  },
+  {
+    "description": "Build unique user interfaces with a structured ruleset to prevent generic AI output.",
+    "id": "paoloincommensurable537/PixelPilot",
+    "language": "JavaScript",
+    "name": "paoloincommensurable537/PixelPilot",
+    "stars": 0,
+    "updated_at": "2026-06-10T12:22:53Z",
+    "url": "https://github.com/paoloincommensurable537/PixelPilot"
+  },
+  {
+    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
+    "id": "Hyanthropological659/clarify-skill",
+    "language": "\u2014",
+    "name": "Hyanthropological659/clarify-skill",
+    "stars": 0,
+    "updated_at": "2026-06-10T12:22:45Z",
+    "url": "https://github.com/Hyanthropological659/clarify-skill"
+  },
+  {
+    "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
+    "id": "Bastioned-successor320/learn-nanobot",
+    "language": "Python",
+    "name": "Bastioned-successor320/learn-nanobot",
+    "stars": 1,
+    "updated_at": "2026-06-10T12:19:39Z",
+    "url": "https://github.com/Bastioned-successor320/learn-nanobot"
+  },
+  {
+    "description": "Governance-first OS for AI coding agents \u2014 structured workflows, delivery gates, engineering guardrails, and 14 professi",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 6,
+    "updated_at": "2026-06-10T12:19:31Z",
+    "url": "https://github.com/KbWen/agentic-os"
+  },
+  {
+    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
+    "id": "XAKLESK/cre-agent-skills",
+    "language": "\u2014",
+    "name": "XAKLESK/cre-agent-skills",
+    "stars": 1,
+    "updated_at": "2026-06-10T12:17:21Z",
+    "url": "https://github.com/XAKLESK/cre-agent-skills"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-10T12:15:42Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Test iOS agent skills with 11 tasks, 260+ scenarios, and 850+ assertions across 3 models",
     "id": "christim427-rgb/ios-agent-skills",
     "language": "Python",
@@ -43,15 +115,6 @@
     "stars": 0,
     "updated_at": "2026-06-10T12:05:15Z",
     "url": "https://github.com/ebbaunqualified520/ios-agent-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-10T12:01:15Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
@@ -150,15 +213,6 @@
     "url": "https://github.com/eumiguellllllllll/copilot-rules"
   },
   {
-    "description": "Governance-first OS for AI coding agents \u2014 structured workflows, delivery gates, engineering guardrails, and 14 professi",
-    "id": "KbWen/agentic-os",
-    "language": "Python",
-    "name": "KbWen/agentic-os",
-    "stars": 6,
-    "updated_at": "2026-06-10T11:59:59Z",
-    "url": "https://github.com/KbWen/agentic-os"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: \"These rules apply when developing, extending, or contributing to the Rulefy project - a tool for generating Cursor AI rules from GitHub repositories. Follow these guidelines to ensure consistent code quality, proper error handling, and adherence to the project's architectural patterns.\"\nglobs: \nalwaysApply: false\n---\n\n# Rulefy Development Guidelines\n\n## Critical Rules\n\n- Use TypeScript with strict typing and proper return type annotations for all functions\n- Follow ESM module syntax with `.js` extensions in import paths despite TypeScript usage\n- Handle errors properly with try/catch blocks and appropriate error messages\n- Use color formatting with picocolors for console output to maintain consistent UX\n- Validate all external inputs and environment variables before use\n- Implement proper chunking for large repository content to avoid token limit issues\n- Follow the established architecture separating CLI, rule generation, and LLM integration\n- Maintain backward compatibility for CLI options and programmatic API\n- Document public functions and interfaces with JSDoc comments\n- Handle rate limits and API errors gracefully when interacting with external services\n- Structure code to be testable, even though tests aren't implemented yet\n\n## Examples\n\n<example>\n// VALID: Proper error handling with try/catch and color formatting\nimport pc from 'picocolors';\n\nasync function processRepository(repoPath: string): Promise<void> {\n  try {\n    // Validate inputs\n    if (!repoPath) {\n      throw new Error('Repository path is required');\n    }\n    \n    // Process with proper error handling\n    console.log(pc.cyan('Processing repository...'));\n    const result = await someAsyncOperation(repoPath);\n    console.log(pc.green('\u2713 Successfully processed repository'));\n    \n    return result;\n  } catch (error) {\n    if (error instanceof Error) {\n      console.error(pc.red(`Error: ${error.message}`));\n    } else {\n      console.error(pc.red('Unknown error occurred'));\n    }\n    process.exit(1);\n  }\n}\n</example>\n\n<example type=\"invalid\">\n// INVALID: Missing error handling and type annotations\nfunction processRepo(repo) {\n  // No input validation\n  \n  // No try/catch block\n  const data = someAsyncOperation(repo);\n  \n  // No proper console formatting\n  console.log(\"Done processing\");\n  \n  // Missing return type\n  return data;\n}\n</example>\n\n<example>\n// VALID: Proper module imports with ESM syntax\nimport fs from 'node:fs/promises';\nimport path from 'node:path';\nimport { generateRules } from './rulesGenerator.js';\n\nexport async function processFiles(directory: string): Promise<string[]> {\n  const files = await fs.readdir(directory);\n  return files.filter(file => path.extname(file) === '.ts');\n}\n</example>\n\n<example type=\"invalid\">\n// INVALID: Incorrect import syntax for ESM\nconst fs = require('fs');\nimport { generateRules } from './rulesGenerator';  // Missing .js extension\n\nfunction processFiles(directory) {\n  return new Promise((resolve, reject) => {\n    fs.readdir(directory, (err, files) => {\n      if (err) reject(err);\n      resolve(files.filter(file => file.endsWith('.ts')));\n    });\n  });\n}\n</example>\n\n## Key Files Reference\n\n- [src/index.ts](mdc:src/index.ts) - Entry point with CLI handling\n- [src/rulesGenerate.ts](mdc:src/rulesGenerate.ts) - Core rule generation logic\n- [src/llmGenerator.ts](mdc:src/llmGenerator.ts) - Integration with Claude AI\n- [src/prompts/cursor_mdc.md](mdc:src/prompts/cursor_mdc.md) - Rule format guidelines",
       "format": "mdc",
@@ -223,42 +277,6 @@
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
-    "description": "Build unique user interfaces with a structured ruleset to prevent generic AI output.",
-    "id": "paoloincommensurable537/PixelPilot",
-    "language": "JavaScript",
-    "name": "paoloincommensurable537/PixelPilot",
-    "stars": 0,
-    "updated_at": "2026-06-10T09:29:40Z",
-    "url": "https://github.com/paoloincommensurable537/PixelPilot"
-  },
-  {
-    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
-    "id": "Hyanthropological659/clarify-skill",
-    "language": "\u2014",
-    "name": "Hyanthropological659/clarify-skill",
-    "stars": 0,
-    "updated_at": "2026-06-10T09:29:28Z",
-    "url": "https://github.com/Hyanthropological659/clarify-skill"
-  },
-  {
-    "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
-    "id": "Bastioned-successor320/learn-nanobot",
-    "language": "Python",
-    "name": "Bastioned-successor320/learn-nanobot",
-    "stars": 1,
-    "updated_at": "2026-06-10T09:26:31Z",
-    "url": "https://github.com/Bastioned-successor320/learn-nanobot"
-  },
-  {
-    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
-    "id": "XAKLESK/cre-agent-skills",
-    "language": "\u2014",
-    "name": "XAKLESK/cre-agent-skills",
-    "stars": 1,
-    "updated_at": "2026-06-10T09:24:10Z",
-    "url": "https://github.com/XAKLESK/cre-agent-skills"
-  },
-  {
     "description": "MCP Server for LynxPrompt \u2014 browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP",
     "id": "GeiserX/lynxprompt-mcp",
     "language": "Go",
@@ -275,24 +293,6 @@
     "stars": 5,
     "updated_at": "2026-06-10T08:55:45Z",
     "url": "https://github.com/philipbankier/awesome-agent-skills"
-  },
-  {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
-    "stars": 0,
-    "updated_at": "2026-06-10T08:54:34Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 0,
-    "updated_at": "2026-06-10T08:53:01Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "description": "Cursor plugin for Tailwind CSS v4. Verified rules, migration skills, and anti-pattern detection. Prevents v3 hallucinati",
