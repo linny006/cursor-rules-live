@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-10T08:15:51Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Governance-first OS for AI coding agents \u2014 structured workflows, delivery gates, engineering guardrails, and 14 professi",
     "id": "KbWen/agentic-os",
     "language": "Python",
@@ -7,15 +16,6 @@
     "stars": 5,
     "updated_at": "2026-06-10T08:15:00Z",
     "url": "https://github.com/KbWen/agentic-os"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-10T08:01:01Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",

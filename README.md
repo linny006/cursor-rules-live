@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-06-10 08:15 UTC
+> ⏰ Last updated: 2026-06-10 08:31 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,8 +53,8 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 5 | Python | 2026-06-10 | — | Governance-first OS for AI coding agents — structured workflows, delivery gates, engineering guardrails, and 14 professi |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-06-10 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-06-10 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 5 | Python | 2026-06-10 | — | Governance-first OS for AI coding agents — structured workflows, delivery gates, engineering guardrails, and 14 professi |
 | 3 | [eumiguellllllllll/copilot-rules](https://github.com/eumiguellllllllll/copilot-rules) | 1 | Batchfile | 2026-06-10 | — | ⚡ Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively. |
 | 4 | [RoninForge/roninforge-tailwind-v4](https://github.com/RoninForge/roninforge-tailwind-v4) | 1 | Shell | 2026-06-10 | — | Cursor plugin for Tailwind CSS v4. Verified rules, migration skills, and anti-pattern detection. Prevents v3 hallucinati |
 | 5 | [RoninForge/roninforge-django](https://github.com/RoninForge/roninforge-django) | 0 | Shell | 2026-06-10 | — | Cursor plugin for Django 5.x and DRF. N+1 query prevention, idiomatic patterns, scaffold skills, and anti-pattern detect |
