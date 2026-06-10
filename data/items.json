@@ -1,12 +1,12 @@
 [
   {
-    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
-    "id": "eumiguellllllllll/copilot-rules",
-    "language": "Batchfile",
-    "name": "eumiguellllllllll/copilot-rules",
-    "stars": 1,
-    "updated_at": "2026-06-10T07:56:33Z",
-    "url": "https://github.com/eumiguellllllllll/copilot-rules"
+    "description": "Governance-first OS for AI coding agents \u2014 structured workflows, delivery gates, engineering guardrails, and 14 professi",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 5,
+    "updated_at": "2026-06-10T08:15:00Z",
+    "url": "https://github.com/KbWen/agentic-os"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-10T07:45:33Z",
+    "updated_at": "2026-06-10T08:01:01Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
+    "id": "eumiguellllllllll/copilot-rules",
+    "language": "Batchfile",
+    "name": "eumiguellllllllll/copilot-rules",
+    "stars": 1,
+    "updated_at": "2026-06-10T07:56:33Z",
+    "url": "https://github.com/eumiguellllllllll/copilot-rules"
   },
   {
     "description": "Cursor plugin for Tailwind CSS v4. Verified rules, migration skills, and anti-pattern detection. Prevents v3 hallucinati",
@@ -406,15 +415,6 @@
     "stars": 5,
     "updated_at": "2026-06-10T05:00:04Z",
     "url": "https://github.com/anmolnagpal/devops-skills"
-  },
-  {
-    "description": "Governance-first OS for AI coding agents \u2014 structured workflows, delivery gates, engineering guardrails, and 14 professi",
-    "id": "KbWen/agentic-os",
-    "language": "Python",
-    "name": "KbWen/agentic-os",
-    "stars": 5,
-    "updated_at": "2026-06-10T07:59:02Z",
-    "url": "https://github.com/KbWen/agentic-os"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
