@@ -1,11 +1,20 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-10T18:45:54Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
     "id": "HoangNguyen0403/agent-skills-standard",
     "language": "TypeScript",
     "name": "HoangNguyen0403/agent-skills-standard",
     "stars": 503,
-    "updated_at": "2026-06-10T18:45:04Z",
+    "updated_at": "2026-06-10T18:46:22Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
   },
   {
@@ -16,15 +25,6 @@
     "stars": 15,
     "updated_at": "2026-06-10T18:31:20Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-10T18:30:44Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
@@ -148,7 +148,7 @@
     "id": "KbWen/agentic-os",
     "language": "Python",
     "name": "KbWen/agentic-os",
-    "stars": 6,
+    "stars": 7,
     "updated_at": "2026-06-10T17:20:28Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
