@@ -1,5 +1,104 @@
 [
   {
+    "description": "Build unique user interfaces with a structured ruleset to prevent generic AI output.",
+    "id": "paoloincommensurable537/PixelPilot",
+    "language": "JavaScript",
+    "name": "paoloincommensurable537/PixelPilot",
+    "stars": 0,
+    "updated_at": "2026-06-10T09:29:40Z",
+    "url": "https://github.com/paoloincommensurable537/PixelPilot"
+  },
+  {
+    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
+    "id": "Hyanthropological659/clarify-skill",
+    "language": "\u2014",
+    "name": "Hyanthropological659/clarify-skill",
+    "stars": 0,
+    "updated_at": "2026-06-10T09:29:28Z",
+    "url": "https://github.com/Hyanthropological659/clarify-skill"
+  },
+  {
+    "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
+    "id": "Bastioned-successor320/learn-nanobot",
+    "language": "Python",
+    "name": "Bastioned-successor320/learn-nanobot",
+    "stars": 1,
+    "updated_at": "2026-06-10T09:26:31Z",
+    "url": "https://github.com/Bastioned-successor320/learn-nanobot"
+  },
+  {
+    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
+    "id": "XAKLESK/cre-agent-skills",
+    "language": "\u2014",
+    "name": "XAKLESK/cre-agent-skills",
+    "stars": 1,
+    "updated_at": "2026-06-10T09:24:10Z",
+    "url": "https://github.com/XAKLESK/cre-agent-skills"
+  },
+  {
+    "description": "Your AI assistant hallucinates APIs, breaks dependent files, and weakens tests. 20 skills that prevent this across the f",
+    "id": "sungurerdim/dev-skills",
+    "language": "\u2014",
+    "name": "sungurerdim/dev-skills",
+    "stars": 1,
+    "updated_at": "2026-06-10T09:23:57Z",
+    "url": "https://github.com/sungurerdim/dev-skills"
+  },
+  {
+    "description": "Test iOS agent skills with 11 tasks, 260+ scenarios, and 850+ assertions across 3 models",
+    "id": "christim427-rgb/ios-agent-skills",
+    "language": "Python",
+    "name": "christim427-rgb/ios-agent-skills",
+    "stars": 1,
+    "updated_at": "2026-06-10T09:21:51Z",
+    "url": "https://github.com/christim427-rgb/ios-agent-skills"
+  },
+  {
+    "description": "Build programmatic UIKit apps with production-ready patterns for views, navigation, animation, architecture, and data fl",
+    "id": "nizhan80-art/Swift-UIKit-Skill",
+    "language": "\u2014",
+    "name": "nizhan80-art/Swift-UIKit-Skill",
+    "stars": 1,
+    "updated_at": "2026-06-10T09:17:20Z",
+    "url": "https://github.com/nizhan80-art/Swift-UIKit-Skill"
+  },
+  {
+    "description": "MCP Server for LynxPrompt \u2014 browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP",
+    "id": "GeiserX/lynxprompt-mcp",
+    "language": "Go",
+    "name": "GeiserX/lynxprompt-mcp",
+    "stars": 1,
+    "updated_at": "2026-06-10T09:17:13Z",
+    "url": "https://github.com/GeiserX/lynxprompt-mcp"
+  },
+  {
+    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
+    "id": "Amirun99/agency-orchestrator",
+    "language": "Dart",
+    "name": "Amirun99/agency-orchestrator",
+    "stars": 0,
+    "updated_at": "2026-06-10T09:16:33Z",
+    "url": "https://github.com/Amirun99/agency-orchestrator"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-10T09:15:45Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
+    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "language": "\u2014",
+    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "stars": 2,
+    "updated_at": "2026-06-10T09:15:37Z",
+    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
+  },
+  {
     "description": "Build 9 iOS agent skills for SwiftUI, testing, security, and more in one install for AI coding agents",
     "id": "ebbaunqualified520/ios-agent-skills",
     "language": "Shell",
@@ -16,15 +115,6 @@
     "stars": 0,
     "updated_at": "2026-06-10T09:10:44Z",
     "url": "https://github.com/jlbgit/JansCursorRules"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-10T09:00:50Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Governance-first OS for AI coding agents \u2014 structured workflows, delivery gates, engineering guardrails, and 14 professi",
@@ -376,78 +466,6 @@
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
-    "description": "Build unique user interfaces with a structured ruleset to prevent generic AI output.",
-    "id": "paoloincommensurable537/PixelPilot",
-    "language": "JavaScript",
-    "name": "paoloincommensurable537/PixelPilot",
-    "stars": 0,
-    "updated_at": "2026-06-10T05:48:14Z",
-    "url": "https://github.com/paoloincommensurable537/PixelPilot"
-  },
-  {
-    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
-    "id": "Hyanthropological659/clarify-skill",
-    "language": "\u2014",
-    "name": "Hyanthropological659/clarify-skill",
-    "stars": 0,
-    "updated_at": "2026-06-10T05:48:00Z",
-    "url": "https://github.com/Hyanthropological659/clarify-skill"
-  },
-  {
-    "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
-    "id": "Bastioned-successor320/learn-nanobot",
-    "language": "Python",
-    "name": "Bastioned-successor320/learn-nanobot",
-    "stars": 1,
-    "updated_at": "2026-06-10T05:45:15Z",
-    "url": "https://github.com/Bastioned-successor320/learn-nanobot"
-  },
-  {
-    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
-    "id": "XAKLESK/cre-agent-skills",
-    "language": "\u2014",
-    "name": "XAKLESK/cre-agent-skills",
-    "stars": 1,
-    "updated_at": "2026-06-10T05:43:04Z",
-    "url": "https://github.com/XAKLESK/cre-agent-skills"
-  },
-  {
-    "description": "Test iOS agent skills with 11 tasks, 260+ scenarios, and 850+ assertions across 3 models",
-    "id": "christim427-rgb/ios-agent-skills",
-    "language": "Python",
-    "name": "christim427-rgb/ios-agent-skills",
-    "stars": 1,
-    "updated_at": "2026-06-10T05:40:52Z",
-    "url": "https://github.com/christim427-rgb/ios-agent-skills"
-  },
-  {
-    "description": "Build programmatic UIKit apps with production-ready patterns for views, navigation, animation, architecture, and data fl",
-    "id": "nizhan80-art/Swift-UIKit-Skill",
-    "language": "\u2014",
-    "name": "nizhan80-art/Swift-UIKit-Skill",
-    "stars": 1,
-    "updated_at": "2026-06-10T05:36:29Z",
-    "url": "https://github.com/nizhan80-art/Swift-UIKit-Skill"
-  },
-  {
-    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
-    "id": "Amirun99/agency-orchestrator",
-    "language": "Dart",
-    "name": "Amirun99/agency-orchestrator",
-    "stars": 0,
-    "updated_at": "2026-06-10T05:35:47Z",
-    "url": "https://github.com/Amirun99/agency-orchestrator"
-  },
-  {
-    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
-    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "language": "\u2014",
-    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "stars": 2,
-    "updated_at": "2026-06-10T05:34:53Z",
-    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: Capture architectural decisions as structured ADRs (Architecture Decision Records). Use when user says 'record this decision', 'ADR this', 'why did we choose X', 'document this trade-off', 'we decided to...', or when a significant choice is made between alternatives (framework, database, pattern, API design, infra approach).\nglobs: **/docs/adr/*.md, **/docs/adr/**/*.md\nalwaysApply: false\n---\n# ADR Skill\n\nCapture architectural decisions as they happen, so the *why* lives next to the code\ninstead of in a Slack thread or someone's memory. Produces lightweight ADR documents\nunder `docs/adr/`.\n\n## Keywords\nadr, architecture decision record, decision, rationale, trade-off, alternatives, we decided, why did we choose, design decision, supersede, decision log, nygard\n\n## When to record a decision\n\n- The user says \"record this\", \"ADR this\", \"let's document this decision\".\n- A choice is made between **significant alternatives**: framework, library, database,\n  language, pattern, API shape, infra/deploy approach, build vs buy.\n- The user says \"we decided to\u2026\" or \"the reason we're doing X instead of Y is\u2026\".\n- The user asks \"why did we choose X?\" \u2192 read and summarize the existing ADR.\n\nFor trivial or easily-reversible choices, don't create an ADR \u2014 note it inline and move on.\n\n## Output Artifacts\n\n| Request | Output |\n|---------|--------|\n| `/adr new \"<title>\"` | A new `docs/adr/NNNN-<slug>.md` + an updated index |\n| `/adr list` | The decision log (ID, title, status, date) |\n| `/adr supersede <NNNN>` | A new ADR marked as superseding an old one; old one flipped to `superseded` |\n\n---\n\n## Format\n\nLightweight Nygard ADR, adapted for AI-assisted work:\n\n```markdown\n# ADR-NNNN: <Decision Title>\n\n**Date**: YYYY-MM-DD\n**Status**: proposed | accepted | deprecated | superseded by ADR-NNNN\n**Deciders**: <who was involved>\n\n## Context\n\nWhat is the issue motivating this decision? The situation, constraints, and forces at\nplay. 2\u20135 sentences.\n\n## Decision\n\nWhat we are doing. 1\u20133 sentences, stated clearly.\n\n## Alternatives Considered\n\n### <Alternative>\n- **Pros**: \u2026\n- **Cons**: \u2026\n- **Why not**: the specific reason it was rejected.\n\n(Repeat per alternative.)\n\n## Consequences\n\n### Positive\n- \u2026\n\n### Negative / trade-offs\n- \u2026\n\n### Risks\n- <risk and its mitigation>\n```\n\n---\n\n## NEW \u2014 Record a decision\n\n1. **Initialize once.** If `docs/adr/` does not exist, ask the user to confirm before\n   creating it. On confirmation, create the directory, a `README.md` seeded with the\n   index table header (below), and a `template.md` copy of the format above. Never\n   create files without explicit consent.\n2. **Number it.** Next zero-padded number after the highest existing `docs/adr/NNNN-*.md`\n   (start at `0001`). Slug = kebab-case of the title.\n3. **Fill it from the conversation** \u2014 extract the decision, the context that prompted it,\n   the alternatives actually weighed, and the consequences. Do not invent alternatives\n   that were never discussed; if context is thin, ask one or two targeted questions.\n4. **Default status** `accepted` when the user states a decision; `proposed` when still\n   weighing. Date = today.\n5. **Update the index** in `docs/adr/README.md`.\n\n## Index format\n\n`docs/adr/README.md`:\n\n```markdown\n# Architecture Decision Records\n\n| ID | Title | Status | Date |\n|----|-------|--------|------|\n| [ADR-0001](0001-use-eks-over-ecs.md) | Use EKS over ECS | accepted | 2026-06-10 |\n```\n\n## SUPERSEDE \u2014 Replace a decision\n\n1. Read the old ADR.\n2. Create a new ADR that references it: \"Supersedes ADR-NNNN\" in Context.\n3. Flip the old ADR's `Status` to `superseded by ADR-MMMM`.\n4. Update both rows in the index.\n\nNever delete or rewrite a past ADR's decision \u2014 superseding preserves the history of\n*why it changed*, which is the whole point.\n",
       "format": "mdc",
@@ -460,28 +478,5 @@
     "stars": 5,
     "updated_at": "2026-06-10T05:00:04Z",
     "url": "https://github.com/anmolnagpal/devops-skills"
-  },
-  {
-    "description": "Agent Skill for building static sites with Astro",
-    "id": "ianshk/astro-skills",
-    "language": "\u2014",
-    "name": "ianshk/astro-skills",
-    "stars": 1,
-    "updated_at": "2026-06-10T03:17:07Z",
-    "url": "https://github.com/ianshk/astro-skills"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: \"Three.js / React Three Fiber syntax: scene setup, R3F hooks, models, controls. Load for 3D code \u2014 taste, perf budgets, and mobile WebGL live in the 3d-web-experiences skill.\"\nglobs: [\"**/*.{jsx,tsx,js,ts}\", \"**/three/**\", \"**/*.glb\", \"**/*.gltf\"]\nalwaysApply: false\n---\n\n# 3D Graphics \u2014 Syntax Reference\n\nMechanical patterns for Three.js, React Three Fiber (R3F), and `@react-three/drei`. For aesthetic direction, performance tiers, responsive/mobile WebGL, degradation, accessibility, and verified recipes, load the **`3d-web-experiences`** skill (`reference.md` for full scenes and bug catalog).\n\nVerify package APIs against installed versions before asserting prop names.\n\n---\n\n## CRITICAL: Container Dimensions\n\nA WebGL canvas without a sized parent renders at zero height or wrong aspect.\n\n```jsx\n// WRONG\n<div><Canvas><Scene /></Canvas></div>\n\n// CORRECT \u2014 explicit height on the container\n<div style={{ height: '500px', width: '100%' }}>\n  <Canvas><Scene /></Canvas>\n</div>\n```\n\nVanilla Three.js: size the renderer to the **container**, not always `window` \u2014 use `ResizeObserver` or container `clientWidth` / `clientHeight`.\n\n---\n\n## R3F Canvas Baseline\n\n```jsx\nimport { Canvas } from '@react-three/fiber';\nimport { OrbitControls, Environment } from '@react-three/drei';\n\nexport function Scene() {\n  return (\n    <div style={{ height: '500px', width: '100%' }}>\n      <Canvas shadows dpr={[1, 2]} camera={{ position: [0, 0, 5], fov: 45 }}>\n        <Environment preset=\"city\" />\n        <ambientLight intensity={0.4} />\n        <directionalLight position={[5, 5, 5]} castShadow />\n        <Mesh />\n        <OrbitControls enableDamping />\n      </Canvas>\n    </div>\n  );\n}\n```\n\nSet tone mapping and output color space on the renderer for PBR that is not flat \u2014 see `3d-web-experiences` \u2192 renderer baseline.\n\n---\n\n## Hooks & Imports (common bugs)\n\n```jsx\nimport { useRef, useState } from 'react';\nimport { useFrame } from '@react-three/fiber'; // NOT from 'react'\nimport type { Mesh } from 'three';\n\nfunction AnimatedBox() {\n  const ref = useRef<Mesh>(null);\n  useFrame((_, delta) => {\n    if (ref.current) ref.current.rotation.y += delta;\n  });\n  return (\n    <mesh ref={ref}>\n      <boxGeometry />\n      <meshStandardMaterial />\n    </mesh>\n  );\n}\n```\n\n| Mistake | Fix |\n|---------|-----|\n| `useFrame` from `react` | Import from `@react-three/fiber` |\n| `<Detail>` from `three` | Use drei `<Detailed distances={[0, 10, 20]}>` with child meshes |\n| `InstancedMesh` from fiber | Use JSX `<instancedMesh>`; `Object3D` from `three` |\n\n---\n\n## Models & Loading\n\n```jsx\nimport { Suspense } from 'react';\nimport { useGLTF, Html, useProgress } from '@react-three/drei';\n\nfunction Model({ url }) {\n  const { scene } = useGLTF(url);\n  return <primitive object={scene} />;\n}\nuseGLTF.preload('/models/asset.glb');\n\nfunction Loader() {\n  const { progress } = useProgress();\n  return <Html center>{progress.toFixed(0)}%</Html>;\n}\n\n// Wrap async assets:\n<Suspense fallback={<Loader />}><Model url=\"\u2026\" /></Suspense>\n```\n\nPrefer `.glb` with Draco/Meshopt compression for web (see skill \u2192 asset pipeline).\n\n---\n\n## LOD & Instancing (mechanics)\n\n```jsx\nimport { Detailed } from '@react-three/drei';\n\n<Detailed distances={[0, 10, 25]}>\n  <HighPolyMesh />\n  <MediumPolyMesh />\n  <LowPolyMesh />\n</Detailed>\n```\n\nFor many copies of the same geometry, use `<instancedMesh>` or drei `<Instances>`. Budgets, DPR clamps, and `frameloop=\"demand\"`: **`3d-web-experiences`**.\n\n---\n\n## Camera Controls (drei)\n\n```jsx\nimport { OrbitControls, MapControls } from '@react-three/drei';\n\n<OrbitControls enableDamping dampingFactor={0.05} minDistance={2} maxDistance={20} />\n```\n\nRespect `prefers-reduced-motion` \u2014 pause auto-rotate and heavy camera motion (skill \u2192 accessibility).\n\n---\n\n## Verification (3D changes)\n\n| Check | How |\n|-------|-----|\n| Renders | Browser load \u2014 not blank/black canvas |\n| Console | No WebGL / shader compile errors |\n| Resize | Container height preserved; canvas scales with parent |\n| Mobile | DPR/effects tier reduced when skill budget applies |\n\nBrowser verification required; use console + visual check minimum.\n\n---\n\n## When NOT to Load This File\n\n- 2D UI only \u2014 use `design-systems` + `anti-slop-design`.\n- \u201cMake it look good\u201d / hero aesthetic \u2014 start with **`3d-web-experiences`** Step 1 (direction + slop catalog), then use this file for syntax.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/3d-graphics.mdc"
-    },
-    "description": "Agentic-first Cursor Rules powered by MiniMax M3 - clarify-first prompting, interleaved thinking, and full tool orchestr",
-    "id": "madebyaris/advance-minimax-m3-cursor-rules",
-    "language": "JavaScript",
-    "name": "madebyaris/advance-minimax-m3-cursor-rules",
-    "stars": 118,
-    "updated_at": "2026-06-10T00:49:27Z",
-    "url": "https://github.com/madebyaris/advance-minimax-m3-cursor-rules"
   }
 ]
