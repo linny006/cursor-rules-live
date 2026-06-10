@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-10T13:01:04Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Agent Skill for building static sites with Astro",
     "id": "ianshk/astro-skills",
     "language": "\u2014",
@@ -7,15 +16,6 @@
     "stars": 1,
     "updated_at": "2026-06-10T12:53:01Z",
     "url": "https://github.com/ianshk/astro-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-10T12:46:00Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -82,7 +82,7 @@
     "language": "Python",
     "name": "KbWen/agentic-os",
     "stars": 6,
-    "updated_at": "2026-06-10T12:19:31Z",
+    "updated_at": "2026-06-10T13:05:50Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
   {
