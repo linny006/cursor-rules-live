@@ -1,12 +1,30 @@
 [
   {
+    "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
+    "id": "caioribeiroclw-pixel/pluribus",
+    "language": "JavaScript",
+    "name": "caioribeiroclw-pixel/pluribus",
+    "stars": 6,
+    "updated_at": "2026-06-10T15:10:26Z",
+    "url": "https://github.com/caioribeiroclw-pixel/pluribus"
+  },
+  {
     "description": "",
     "id": "RollingGo-AI/hotel-skill",
     "language": "\u2014",
     "name": "RollingGo-AI/hotel-skill",
-    "stars": 0,
-    "updated_at": "2026-06-10T14:58:33Z",
+    "stars": 1,
+    "updated_at": "2026-06-10T15:05:59Z",
     "url": "https://github.com/RollingGo-AI/hotel-skill"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-10T15:01:41Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -35,15 +53,6 @@
     "stars": 0,
     "updated_at": "2026-06-10T14:52:29Z",
     "url": "https://github.com/Thabang9218/cursorifier"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-10T14:45:48Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -479,14 +488,5 @@
     "stars": 0,
     "updated_at": "2026-06-10T07:45:00Z",
     "url": "https://github.com/RoninForge/roninforge-laravel"
-  },
-  {
-    "description": "Cursor plugin for Vue 3.5 + Nuxt 4. Catches 38 LLM regressions (Options API in new code, ref(null) template refs vs useT",
-    "id": "RoninForge/roninforge-vue-nuxt",
-    "language": "Shell",
-    "name": "RoninForge/roninforge-vue-nuxt",
-    "stars": 0,
-    "updated_at": "2026-06-10T07:44:57Z",
-    "url": "https://github.com/RoninForge/roninforge-vue-nuxt"
   }
 ]
