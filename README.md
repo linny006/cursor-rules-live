@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-06-10 21:45 UTC
+> ⏰ Last updated: 2026-06-10 22:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,9 +53,9 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 15 | — | 2026-06-10 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-06-10 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 3 | [anmolnagpal/devops-skills](https://github.com/anmolnagpal/devops-skills) | 5 | Shell | 2026-06-10 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/anmolnagpal/devops-skills/) | Multi-tool DevOps skills for Claude Code, Cursor, and Codex — Terraform, Kubernetes, Docker, GitHub Actions, GitLab CI,  |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-06-10 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [anmolnagpal/devops-skills](https://github.com/anmolnagpal/devops-skills) | 5 | Shell | 2026-06-10 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/anmolnagpal/devops-skills/) | Multi-tool DevOps skills for Claude Code, Cursor, and Codex — Terraform, Kubernetes, Docker, GitHub Actions, GitLab CI,  |
+| 3 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 15 | — | 2026-06-10 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
 | 4 | [nota-america/forgecat-agent-profiles](https://github.com/nota-america/forgecat-agent-profiles) | 2 | TypeScript | 2026-06-10 | — | Curated AI Agent Profiles for Claude Code, Codex, Cursor and more — install with forgecat CLI |
 | 5 | [TheoV823/mneme](https://github.com/TheoV823/mneme) | 12 | HTML | 2026-06-10 | — | Enforce architectural decisions in AI-assisted development. |
 | 6 | [caioribeiroclw-pixel/pluribus](https://github.com/caioribeiroclw-pixel/pluribus) | 6 | JavaScript | 2026-06-10 | — | Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security |

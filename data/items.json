@@ -1,20 +1,11 @@
 [
   {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 15,
-    "updated_at": "2026-06-10T21:38:58Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-10T21:30:32Z",
+    "updated_at": "2026-06-10T21:45:30Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -28,8 +19,17 @@
     "language": "Shell",
     "name": "anmolnagpal/devops-skills",
     "stars": 5,
-    "updated_at": "2026-06-10T21:39:07Z",
+    "updated_at": "2026-06-10T21:47:19Z",
     "url": "https://github.com/anmolnagpal/devops-skills"
+  },
+  {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 15,
+    "updated_at": "2026-06-10T21:38:58Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "description": "Curated AI Agent Profiles for Claude Code, Codex, Cursor and more \u2014 install with forgecat CLI",
@@ -37,7 +37,7 @@
     "language": "TypeScript",
     "name": "nota-america/forgecat-agent-profiles",
     "stars": 2,
-    "updated_at": "2026-06-10T21:43:22Z",
+    "updated_at": "2026-06-10T21:53:08Z",
     "url": "https://github.com/nota-america/forgecat-agent-profiles"
   },
   {
@@ -46,7 +46,7 @@
     "language": "HTML",
     "name": "TheoV823/mneme",
     "stars": 12,
-    "updated_at": "2026-06-10T21:08:08Z",
+    "updated_at": "2026-06-10T21:56:46Z",
     "url": "https://github.com/TheoV823/mneme"
   },
   {
