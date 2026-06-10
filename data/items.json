@@ -1,5 +1,95 @@
 [
   {
+    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
+    "id": "eumiguellllllllll/copilot-rules",
+    "language": "Batchfile",
+    "name": "eumiguellllllllll/copilot-rules",
+    "stars": 1,
+    "updated_at": "2026-06-10T07:56:33Z",
+    "url": "https://github.com/eumiguellllllllll/copilot-rules"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-10T07:45:33Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Cursor plugin for Tailwind CSS v4. Verified rules, migration skills, and anti-pattern detection. Prevents v3 hallucinati",
+    "id": "RoninForge/roninforge-tailwind-v4",
+    "language": "Shell",
+    "name": "RoninForge/roninforge-tailwind-v4",
+    "stars": 1,
+    "updated_at": "2026-06-10T07:45:32Z",
+    "url": "https://github.com/RoninForge/roninforge-tailwind-v4"
+  },
+  {
+    "description": "Cursor plugin for Django 5.x and DRF. N+1 query prevention, idiomatic patterns, scaffold skills, and anti-pattern detect",
+    "id": "RoninForge/roninforge-django",
+    "language": "Shell",
+    "name": "RoninForge/roninforge-django",
+    "stars": 0,
+    "updated_at": "2026-06-10T07:45:29Z",
+    "url": "https://github.com/RoninForge/roninforge-django"
+  },
+  {
+    "description": "Cursor plugin for Rails 8. Hotwire patterns, Solid Stack, params.expect, built-in auth, Kamal deployment, and anti-patte",
+    "id": "RoninForge/roninforge-rails",
+    "language": "Shell",
+    "name": "RoninForge/roninforge-rails",
+    "stars": 0,
+    "updated_at": "2026-06-10T07:45:26Z",
+    "url": "https://github.com/RoninForge/roninforge-rails"
+  },
+  {
+    "description": "Cursor plugin for FastAPI + Pydantic v2. Prevents v1 hallucinations, async blocking, and teaches idiomatic async Python.",
+    "id": "RoninForge/roninforge-fastapi",
+    "language": "Shell",
+    "name": "RoninForge/roninforge-fastapi",
+    "stars": 0,
+    "updated_at": "2026-06-10T07:45:24Z",
+    "url": "https://github.com/RoninForge/roninforge-fastapi"
+  },
+  {
+    "description": "Cursor plugin for modern Go (1.22, 1.23, 1.24). Teaches log/slog, errors.Is/As + %w, context-first APIs, http.ServeMux m",
+    "id": "RoninForge/roninforge-go",
+    "language": "Shell",
+    "name": "RoninForge/roninforge-go",
+    "stars": 0,
+    "updated_at": "2026-06-10T07:45:21Z",
+    "url": "https://github.com/RoninForge/roninforge-go"
+  },
+  {
+    "description": "Cursor plugin for Spring Boot 3.x (3.2 - 3.5, Java 17/21). Enforces jakarta.* imports, constructor injection, SecurityFi",
+    "id": "RoninForge/roninforge-spring-boot",
+    "language": "Shell",
+    "name": "RoninForge/roninforge-spring-boot",
+    "stars": 0,
+    "updated_at": "2026-06-10T07:45:18Z",
+    "url": "https://github.com/RoninForge/roninforge-spring-boot"
+  },
+  {
+    "description": "Cursor plugin for ASP.NET Core 9 / .NET 9 (C# 13). Teaches Minimal APIs with TypedResults, IHttpClientFactory, System.Te",
+    "id": "RoninForge/roninforge-aspnet",
+    "language": "Shell",
+    "name": "RoninForge/roninforge-aspnet",
+    "stars": 0,
+    "updated_at": "2026-06-10T07:45:16Z",
+    "url": "https://github.com/RoninForge/roninforge-aspnet"
+  },
+  {
+    "description": "Cursor plugin for modern Android (Kotlin 2.x + Jetpack Compose + Material 3). Teaches StateFlow + collectAsStateWithLife",
+    "id": "RoninForge/roninforge-kotlin-compose",
+    "language": "Shell",
+    "name": "RoninForge/roninforge-kotlin-compose",
+    "stars": 0,
+    "updated_at": "2026-06-10T07:45:13Z",
+    "url": "https://github.com/RoninForge/roninforge-kotlin-compose"
+  },
+  {
     "description": "Cursor plugin for Terraform 1.9+ and OpenTofu 1.8+. Teaches for_each over count, remote backend with locking, moved/remo",
     "id": "RoninForge/roninforge-terraform",
     "language": "Shell",
@@ -111,15 +201,6 @@
     "stars": 0,
     "updated_at": "2026-06-10T07:30:30Z",
     "url": "https://github.com/Thabang9218/cursorifier"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-10T07:30:29Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -332,17 +413,8 @@
     "language": "Python",
     "name": "KbWen/agentic-os",
     "stars": 5,
-    "updated_at": "2026-06-10T07:40:08Z",
+    "updated_at": "2026-06-10T07:59:02Z",
     "url": "https://github.com/KbWen/agentic-os"
-  },
-  {
-    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
-    "id": "eumiguellllllllll/copilot-rules",
-    "language": "Batchfile",
-    "name": "eumiguellllllllll/copilot-rules",
-    "stars": 1,
-    "updated_at": "2026-06-10T04:17:53Z",
-    "url": "https://github.com/eumiguellllllllll/copilot-rules"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -411,77 +483,5 @@
     "stars": 5,
     "updated_at": "2026-06-09T21:58:07Z",
     "url": "https://github.com/taniwhaai/arai"
-  },
-  {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 15,
-    "updated_at": "2026-06-09T21:20:09Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
-    "id": "mikeprasad/aria-knowledge",
-    "language": "Shell",
-    "name": "mikeprasad/aria-knowledge",
-    "stars": 12,
-    "updated_at": "2026-06-09T19:09:47Z",
-    "url": "https://github.com/mikeprasad/aria-knowledge"
-  },
-  {
-    "description": "323\u500b\u306e\u5373\u6226\u529bAI\u5c02\u9580\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8 \u2014 Claude Code/Cursor/Copilot\u7b49\u306b\u5bfe\u5fdc\u3002SIer/\u53d7\u8a17\u958b\u767a/SaaS/\u88fd\u9020DX/\u516c\u5171\u5206\u91ce\u306a\u3069\u65e5\u672c\u5e02\u5834\u5411\u3051114\u500b\u306e\u30aa\u30ea\u30b8\u30ca\u30eb\u3092\u542b\u3080\u3001agency-agents\u65e5\u672c\u8a9e\u30b3\u30df\u30e5\u30cb\u30c6\u30a3",
-    "id": "sscodeai/agency-agents-ja",
-    "language": "Shell",
-    "name": "sscodeai/agency-agents-ja",
-    "stars": 0,
-    "updated_at": "2026-06-09T16:30:32Z",
-    "url": "https://github.com/sscodeai/agency-agents-ja"
-  },
-  {
-    "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
-    "id": "fluttersdk/wind",
-    "language": "Dart",
-    "name": "fluttersdk/wind",
-    "stars": 20,
-    "updated_at": "2026-06-09T14:48:57Z",
-    "url": "https://github.com/fluttersdk/wind"
-  },
-  {
-    "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
-    "id": "pekral/cursor-rules",
-    "language": "PHP",
-    "name": "pekral/cursor-rules",
-    "stars": 3,
-    "updated_at": "2026-06-09T13:27:10Z",
-    "url": "https://github.com/pekral/cursor-rules"
-  },
-  {
-    "description": "n8n community node for LynxPrompt \u2014 manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via API",
-    "id": "GeiserX/n8n-nodes-lynxprompt",
-    "language": "TypeScript",
-    "name": "GeiserX/n8n-nodes-lynxprompt",
-    "stars": 1,
-    "updated_at": "2026-06-09T13:05:30Z",
-    "url": "https://github.com/GeiserX/n8n-nodes-lynxprompt"
-  },
-  {
-    "description": "Open source collection of AI/LLM prompts, Cursor rules, and templates for more effective workflows.",
-    "id": "masterpointio/shared-prompts",
-    "language": "\u2014",
-    "name": "masterpointio/shared-prompts",
-    "stars": 0,
-    "updated_at": "2026-06-09T12:40:28Z",
-    "url": "https://github.com/masterpointio/shared-prompts"
-  },
-  {
-    "description": "openEHR assistant AI plugin suite with Skills, commands, and MCP server configuration for clinical workflow integration",
-    "id": "Cadasto/openehr-assistant-plugin",
-    "language": "Python",
-    "name": "Cadasto/openehr-assistant-plugin",
-    "stars": 3,
-    "updated_at": "2026-06-09T12:33:20Z",
-    "url": "https://github.com/Cadasto/openehr-assistant-plugin"
   }
 ]
