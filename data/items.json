@@ -10,8 +10,17 @@
     "language": "JavaScript",
     "name": "heymegabyte/claude-skills",
     "stars": 11,
-    "updated_at": "2026-06-10T05:50:31Z",
+    "updated_at": "2026-06-10T06:05:51Z",
     "url": "https://github.com/heymegabyte/claude-skills"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-10T06:00:47Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Build unique user interfaces with a structured ruleset to prevent generic AI output.",
@@ -30,15 +39,6 @@
     "stars": 0,
     "updated_at": "2026-06-10T05:48:00Z",
     "url": "https://github.com/Hyanthropological659/clarify-skill"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-10T05:45:32Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
