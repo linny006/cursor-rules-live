@@ -1,11 +1,61 @@
 [
   {
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-06-10T22:09:21Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
+  },
+  {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 0,
+    "updated_at": "2026-06-10T22:08:38Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+  },
+  {
+    "cursorrules": {
+      "content": "---\nalwaysApply: true\ndescription: NextJs development rules\n---\n\n# Next.js Development Rules\n\nYou are an expert full-stack TypeScript engineer working with Next.js. Produce production-ready code that follows modern Next.js App Router patterns and best practices.\n\n## Tech Stack Guidelines\n\n- **Next.js 15+** (App Router) + React 19\n- **TypeScript** (strict mode)\n- **Testing**: Vitest + React Testing Library + MSW\n- **Styling**: Tailwind CSS + shadcn/ui (when applicable)\n- **Package Manager**: pnpm\n\nFocus on: separation of concerns, strict typing, accessibility, performance, and comprehensive testing.\n\n## Project Structure\n\n```\nsrc/\n\u251c\u2500 app/                       # App Router (RSC by default)\n\u2502  \u251c\u2500 _components/            # App-level (RSC-ok) components\n\u2502  \u251c\u2500 api/                    # API routes for external webhooks only\n\u2502  \u251c\u2500 (routes)/               # Route groups and pages\n\u2502  \u2514\u2500 layout.tsx\n\u251c\u2500 components/                # Reusable client/RSC components\n\u2502  \u251c\u2500 ui/                     # Base UI components\n\u2502  \u2514\u2500 [feature]/              # Feature-specific components\n\u251c\u2500 lib/                       # Utilities and shared helpers\n\u251c\u2500 server/                    # Server-side code\n\u2502  \u251c\u2500 api/                    # tRPC API layer\n\u2502  \u2502  \u251c\u2500 routers/             # tRPC router composition\n\u2502  \u2502  \u251c\u2500 procedures/          # Individual tRPC procedures\n\u2502  \u2502  \u251c\u2500 root.ts              # Root router\n\u2502  \u2502  \u2514\u2500 trpc.ts              # tRPC setup\n\u2502  \u251c\u2500 services/               # Business logic services\n\u2502  \u2514\u2500 clients/                # External service clients\n\u251c\u2500 db/                        # Database schema & migrations\n\u251c\u2500 tools/                     # AI tool definitions\n\u251c\u2500 prompts/                   # AI prompt templates\n\u2514\u2500 trpc/                      # tRPC client setup\n\ntest/\n\u251c\u2500 unit/                      # Unit tests\n\u251c\u2500 integ/                     # Integration tests\n\u2514\u2500 e2e/                       # End-to-end tests\n```\n\n### Directory Conventions\n\n- Use **kebab-case** for folders and files\n- Co-locate tests next to source: `*.test.ts(x)`\n- Export from `index.ts` barrels only when it helps DX without circular deps\n\n## Next.js App Router Rules\n\n### Server vs Client Components\n\n- **Default to RSC** (no \"use client\"). Use client components only for:\n  - Interactivity (event handlers)\n  - Browser APIs (localStorage, window, etc.)\n  - Third-party libraries requiring client-side initialization\n\n### Server Boundaries\n\n- Keep data access in server context (RSC, server actions, API routes)\n- API routes in `app/api` are for external webhooks only\n- Use internal APIs (tRPC, server actions) for app-to-app communication\n\n### Performance & UX\n\n- Use `<Suspense>` for async UI; provide skeletons\n- Implement proper loading and error boundaries\n- Use Next.js caching (`revalidateTag`, `revalidatePath`) appropriately\n- Prefer Edge runtime for simple operations, Node for complex ones\n\n### Accessibility\n\n- All interactive elements must have proper roles and labels\n- Ensure keyboard navigation support\n- Provide ARIA attributes where needed\n- Test with screen readers\n\n## API Architecture\n\n### Internal APIs (tRPC Recommended)\n\n- Organize by feature domains\n- Use Zod for input validation\n- Implement proper error handling with custom error classes\n- Keep business logic server-side (no JSX in API layer)\n- Write integration tests with mocked external services\n- **Router logic should be application code only** - delegate to business logic services\n- **Use only protected procedures** for all endpoints\n- **Split procedures and routers** into separate files for better organization\n\n### Application Logic vs Business Logic\n\n**Application Logic** (in tRPC procedures):\n- Input validation and sanitization\n- Authentication and authorization checks\n- Request/response formatting\n- Error handling and mapping\n- Delegation to business logic services\n- Logging and observability\n\n**Business Logic** (in service layer):\n- Core business rules and validations\n- Domain-specific operations\n- Data transformations and calculations\n- Business workflow orchestration\n- Domain knowledge and expertise\n\n**Example:**\n\n```typescript\n// Application Logic (tRPC Procedure)\nexport const createUserProcedure = protectedProcedure\n  .input(createUserSchema)\n  .mutation(async ({ ctx, input }) => {\n    try {\n      // Application logic: validation, auth, delegation\n      const result = await createUser({\n        userId: ctx.auth.userId,\n        ...input\n      });\n      \n      return { success: true, data: result };\n    } catch (error) {\n      // Application logic: error handling\n      if (error instanceof CustomError) {\n        throw error;\n      }\n      throw new CustomError(\"INTERNAL_ERROR\", \"An unexpected error occurred\");\n    }\n  });\n\n// Business Logic (Service Layer)\nexport const createUser = async (params: CreateUserParams): Promise<User> => {\n  const { userId, email, name, role } = params;\n  \n  // Business logic: domain rules\n  if (role === 'admin' && !await hasAdminPrivileges(userId)) {\n    throw new CustomError(\"UNAUTHORIZED\", \"Insufficient privileges for admin role\", 403);\n  }\n  \n  // Business logic: business validations\n  if (await isEmailAlreadyTaken(email)) {\n    throw new CustomError(\"CONFLICT\", \"Email already registered\", 409);\n  }\n  \n  // Business logic: domain operations\n  const user = await userRepo.create({\n    email: email.toLowerCase(),\n    name: name.trim(),\n    role,\n    status: 'pending_verification'\n  });\n  \n  // Business logic: business workflow\n  await sendWelcomeEmail(user);\n  await createDefaultPreferences(user.id);\n  \n  return user;\n};\n```\n\n### External API Integration\n\n- Isolate external service calls in dedicated modules\n- Implement retry logic with exponential backoff\n- Map provider errors to internal error types\n- Store sensitive data (tokens, keys) securely\n\n## Database & Data Layer\n\n### ORM Best Practices\n\n- Use type-safe ORMs (Drizzle, Prisma, etc.)\n- Define schemas with proper relationships and constraints\n- Infer types from schema definitions\n- Write repository-style helpers to isolate queries\n- Implement proper migrations\n\n### Data Access Patterns\n\n- Keep database queries in dedicated modules\n- Avoid N+1 queries; use joins and CTEs\n- Implement pagination for list endpoints\n- Use select projections to limit payload size\n\n## Authentication & Authorization\n\n- Implement server-side auth checks\n- Never trust client-side auth flags\n- Use middleware for route protection\n- Store user data securely with proper encryption\n\n## Testing Strategy\n\n### Unit Testing (Vitest)\n\n- **Never mock internal code** - only mock external dependencies\n- Use MSW for API mocking when needed\n- Test utilities, repositories, and business logic\n- Mock external services (APIs, databases, file systems)\n\n### Component Testing (React Testing Library)\n\n- Test interactive components with proper accessibility\n- Ensure loading and error states are covered\n- Test user interactions and state changes\n- Use data-testid sparingly; prefer semantic queries\n\n### Integration Testing\n\n- Test API endpoints with real database connections\n- Use test databases with proper cleanup\n- Test authentication flows end-to-end\n- Mock external services consistently\n\n### Test Structure\n\n```typescript\n// Example test structure\ndescribe(\"Feature\", () => {\n  describe(\"when condition\", () => {\n    it(\"should expected behavior\", async () => {\n      // Arrange\n      // Act\n      // Assert\n    });\n  });\n});\n```\n\n## Error Handling & Observability\n\n- Implement early returns on invalid input (fail fast)\n- Use typed error codes and messages\n- Log server-side with contextual metadata\n- Never expose stack traces to clients\n- Provide user-friendly error messages\n\n## Security Best Practices\n\n- Validate all inputs at boundaries\n- Use environment variables for sensitive data (server-only)\n- Implement proper CORS policies\n- Sanitize user inputs\n- Use HTTPS in production\n- Implement rate limiting where appropriate\n\n## Performance Optimization\n\n- Favor RSC to keep bundles slim\n- Use dynamic imports for c",
+      "format": "mdc",
+      "path": ".cursor/rules/nextjs-development.mdc"
+    },
+    "description": "\ud83d\ude80 Streamline your Next.js development with practical rules and tested patterns for efficient coding and minimal bugs.",
+    "id": "pemdes174/cursor-rules",
+    "language": "\u2014",
+    "name": "pemdes174/cursor-rules",
+    "stars": 5,
+    "updated_at": "2026-06-10T22:07:11Z",
+    "url": "https://github.com/pemdes174/cursor-rules"
+  },
+  {
+    "description": "\ud83d\udca1 Discover AI coding tools that enhance your workflow, from code editors to completion engines, and boost your software ",
+    "id": "JohannFreddyLoayzaHuana/awesome-ai-coding-tools",
+    "language": "\u2014",
+    "name": "JohannFreddyLoayzaHuana/awesome-ai-coding-tools",
+    "stars": 2,
+    "updated_at": "2026-06-10T22:05:25Z",
+    "url": "https://github.com/JohannFreddyLoayzaHuana/awesome-ai-coding-tools"
+  },
+  {
+    "description": "\u2728 Enhance your software development with a curated collection of prompts for Cursor AI, boosting efficiency in planning ",
+    "id": "whydixit/cursor-starter",
+    "language": "\u2014",
+    "name": "whydixit/cursor-starter",
+    "stars": 4,
+    "updated_at": "2026-06-10T22:05:19Z",
+    "url": "https://github.com/whydixit/cursor-starter"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-10T21:45:30Z",
+    "updated_at": "2026-06-10T22:00:34Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -37,7 +87,7 @@
     "language": "TypeScript",
     "name": "nota-america/forgecat-agent-profiles",
     "stars": 2,
-    "updated_at": "2026-06-10T21:53:08Z",
+    "updated_at": "2026-06-10T22:02:45Z",
     "url": "https://github.com/nota-america/forgecat-agent-profiles"
   },
   {
@@ -84,24 +134,6 @@
     "stars": 0,
     "updated_at": "2026-06-10T20:12:54Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
-    "stars": 0,
-    "updated_at": "2026-06-10T19:39:43Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 0,
-    "updated_at": "2026-06-10T19:37:54Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
@@ -251,38 +283,6 @@
     "stars": 0,
     "updated_at": "2026-06-10T14:52:29Z",
     "url": "https://github.com/Thabang9218/cursorifier"
-  },
-  {
-    "cursorrules": {
-      "content": "---\nalwaysApply: true\ndescription: NextJs development rules\n---\n\n# Next.js Development Rules\n\nYou are an expert full-stack TypeScript engineer working with Next.js. Produce production-ready code that follows modern Next.js App Router patterns and best practices.\n\n## Tech Stack Guidelines\n\n- **Next.js 15+** (App Router) + React 19\n- **TypeScript** (strict mode)\n- **Testing**: Vitest + React Testing Library + MSW\n- **Styling**: Tailwind CSS + shadcn/ui (when applicable)\n- **Package Manager**: pnpm\n\nFocus on: separation of concerns, strict typing, accessibility, performance, and comprehensive testing.\n\n## Project Structure\n\n```\nsrc/\n\u251c\u2500 app/                       # App Router (RSC by default)\n\u2502  \u251c\u2500 _components/            # App-level (RSC-ok) components\n\u2502  \u251c\u2500 api/                    # API routes for external webhooks only\n\u2502  \u251c\u2500 (routes)/               # Route groups and pages\n\u2502  \u2514\u2500 layout.tsx\n\u251c\u2500 components/                # Reusable client/RSC components\n\u2502  \u251c\u2500 ui/                     # Base UI components\n\u2502  \u2514\u2500 [feature]/              # Feature-specific components\n\u251c\u2500 lib/                       # Utilities and shared helpers\n\u251c\u2500 server/                    # Server-side code\n\u2502  \u251c\u2500 api/                    # tRPC API layer\n\u2502  \u2502  \u251c\u2500 routers/             # tRPC router composition\n\u2502  \u2502  \u251c\u2500 procedures/          # Individual tRPC procedures\n\u2502  \u2502  \u251c\u2500 root.ts              # Root router\n\u2502  \u2502  \u2514\u2500 trpc.ts              # tRPC setup\n\u2502  \u251c\u2500 services/               # Business logic services\n\u2502  \u2514\u2500 clients/                # External service clients\n\u251c\u2500 db/                        # Database schema & migrations\n\u251c\u2500 tools/                     # AI tool definitions\n\u251c\u2500 prompts/                   # AI prompt templates\n\u2514\u2500 trpc/                      # tRPC client setup\n\ntest/\n\u251c\u2500 unit/                      # Unit tests\n\u251c\u2500 integ/                     # Integration tests\n\u2514\u2500 e2e/                       # End-to-end tests\n```\n\n### Directory Conventions\n\n- Use **kebab-case** for folders and files\n- Co-locate tests next to source: `*.test.ts(x)`\n- Export from `index.ts` barrels only when it helps DX without circular deps\n\n## Next.js App Router Rules\n\n### Server vs Client Components\n\n- **Default to RSC** (no \"use client\"). Use client components only for:\n  - Interactivity (event handlers)\n  - Browser APIs (localStorage, window, etc.)\n  - Third-party libraries requiring client-side initialization\n\n### Server Boundaries\n\n- Keep data access in server context (RSC, server actions, API routes)\n- API routes in `app/api` are for external webhooks only\n- Use internal APIs (tRPC, server actions) for app-to-app communication\n\n### Performance & UX\n\n- Use `<Suspense>` for async UI; provide skeletons\n- Implement proper loading and error boundaries\n- Use Next.js caching (`revalidateTag`, `revalidatePath`) appropriately\n- Prefer Edge runtime for simple operations, Node for complex ones\n\n### Accessibility\n\n- All interactive elements must have proper roles and labels\n- Ensure keyboard navigation support\n- Provide ARIA attributes where needed\n- Test with screen readers\n\n## API Architecture\n\n### Internal APIs (tRPC Recommended)\n\n- Organize by feature domains\n- Use Zod for input validation\n- Implement proper error handling with custom error classes\n- Keep business logic server-side (no JSX in API layer)\n- Write integration tests with mocked external services\n- **Router logic should be application code only** - delegate to business logic services\n- **Use only protected procedures** for all endpoints\n- **Split procedures and routers** into separate files for better organization\n\n### Application Logic vs Business Logic\n\n**Application Logic** (in tRPC procedures):\n- Input validation and sanitization\n- Authentication and authorization checks\n- Request/response formatting\n- Error handling and mapping\n- Delegation to business logic services\n- Logging and observability\n\n**Business Logic** (in service layer):\n- Core business rules and validations\n- Domain-specific operations\n- Data transformations and calculations\n- Business workflow orchestration\n- Domain knowledge and expertise\n\n**Example:**\n\n```typescript\n// Application Logic (tRPC Procedure)\nexport const createUserProcedure = protectedProcedure\n  .input(createUserSchema)\n  .mutation(async ({ ctx, input }) => {\n    try {\n      // Application logic: validation, auth, delegation\n      const result = await createUser({\n        userId: ctx.auth.userId,\n        ...input\n      });\n      \n      return { success: true, data: result };\n    } catch (error) {\n      // Application logic: error handling\n      if (error instanceof CustomError) {\n        throw error;\n      }\n      throw new CustomError(\"INTERNAL_ERROR\", \"An unexpected error occurred\");\n    }\n  });\n\n// Business Logic (Service Layer)\nexport const createUser = async (params: CreateUserParams): Promise<User> => {\n  const { userId, email, name, role } = params;\n  \n  // Business logic: domain rules\n  if (role === 'admin' && !await hasAdminPrivileges(userId)) {\n    throw new CustomError(\"UNAUTHORIZED\", \"Insufficient privileges for admin role\", 403);\n  }\n  \n  // Business logic: business validations\n  if (await isEmailAlreadyTaken(email)) {\n    throw new CustomError(\"CONFLICT\", \"Email already registered\", 409);\n  }\n  \n  // Business logic: domain operations\n  const user = await userRepo.create({\n    email: email.toLowerCase(),\n    name: name.trim(),\n    role,\n    status: 'pending_verification'\n  });\n  \n  // Business logic: business workflow\n  await sendWelcomeEmail(user);\n  await createDefaultPreferences(user.id);\n  \n  return user;\n};\n```\n\n### External API Integration\n\n- Isolate external service calls in dedicated modules\n- Implement retry logic with exponential backoff\n- Map provider errors to internal error types\n- Store sensitive data (tokens, keys) securely\n\n## Database & Data Layer\n\n### ORM Best Practices\n\n- Use type-safe ORMs (Drizzle, Prisma, etc.)\n- Define schemas with proper relationships and constraints\n- Infer types from schema definitions\n- Write repository-style helpers to isolate queries\n- Implement proper migrations\n\n### Data Access Patterns\n\n- Keep database queries in dedicated modules\n- Avoid N+1 queries; use joins and CTEs\n- Implement pagination for list endpoints\n- Use select projections to limit payload size\n\n## Authentication & Authorization\n\n- Implement server-side auth checks\n- Never trust client-side auth flags\n- Use middleware for route protection\n- Store user data securely with proper encryption\n\n## Testing Strategy\n\n### Unit Testing (Vitest)\n\n- **Never mock internal code** - only mock external dependencies\n- Use MSW for API mocking when needed\n- Test utilities, repositories, and business logic\n- Mock external services (APIs, databases, file systems)\n\n### Component Testing (React Testing Library)\n\n- Test interactive components with proper accessibility\n- Ensure loading and error states are covered\n- Test user interactions and state changes\n- Use data-testid sparingly; prefer semantic queries\n\n### Integration Testing\n\n- Test API endpoints with real database connections\n- Use test databases with proper cleanup\n- Test authentication flows end-to-end\n- Mock external services consistently\n\n### Test Structure\n\n```typescript\n// Example test structure\ndescribe(\"Feature\", () => {\n  describe(\"when condition\", () => {\n    it(\"should expected behavior\", async () => {\n      // Arrange\n      // Act\n      // Assert\n    });\n  });\n});\n```\n\n## Error Handling & Observability\n\n- Implement early returns on invalid input (fail fast)\n- Use typed error codes and messages\n- Log server-side with contextual metadata\n- Never expose stack traces to clients\n- Provide user-friendly error messages\n\n## Security Best Practices\n\n- Validate all inputs at boundaries\n- Use environment variables for sensitive data (server-only)\n- Implement proper CORS policies\n- Sanitize user inputs\n- Use HTTPS in production\n- Implement rate limiting where appropriate\n\n## Performance Optimization\n\n- Favor RSC to keep bundles slim\n- Use dynamic imports for c",
-      "format": "mdc",
-      "path": ".cursor/rules/nextjs-development.mdc"
-    },
-    "description": "\ud83d\ude80 Streamline your Next.js development with practical rules and tested patterns for efficient coding and minimal bugs.",
-    "id": "pemdes174/cursor-rules",
-    "language": "\u2014",
-    "name": "pemdes174/cursor-rules",
-    "stars": 5,
-    "updated_at": "2026-06-10T14:40:22Z",
-    "url": "https://github.com/pemdes174/cursor-rules"
-  },
-  {
-    "description": "\ud83d\udca1 Discover AI coding tools that enhance your workflow, from code editors to completion engines, and boost your software ",
-    "id": "JohannFreddyLoayzaHuana/awesome-ai-coding-tools",
-    "language": "\u2014",
-    "name": "JohannFreddyLoayzaHuana/awesome-ai-coding-tools",
-    "stars": 2,
-    "updated_at": "2026-06-10T14:38:39Z",
-    "url": "https://github.com/JohannFreddyLoayzaHuana/awesome-ai-coding-tools"
-  },
-  {
-    "description": "\u2728 Enhance your software development with a curated collection of prompts for Cursor AI, boosting efficiency in planning ",
-    "id": "whydixit/cursor-starter",
-    "language": "\u2014",
-    "name": "whydixit/cursor-starter",
-    "stars": 4,
-    "updated_at": "2026-06-10T14:38:33Z",
-    "url": "https://github.com/whydixit/cursor-starter"
   },
   {
     "cursorrules": {
