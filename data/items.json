@@ -1,12 +1,17 @@
 [
   {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 0,
-    "updated_at": "2026-06-10T04:12:16Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+    "cursorrules": {
+      "content": "---\ndescription: GitLab CI/CD pipeline review and scaffolding for Terraform and Helm/EKS deployments. Use when user says 'review my pipeline', 'check my gitlab-ci', 'scaffold a pipeline', 'is my CI correct', or when working in .gitlab-ci.yml files.\nglobs: **/.gitlab-ci.yml, **/.gitlab-ci.yaml, **/gitlab-ci*.yml\nalwaysApply: false\n---\n# GitLab CI/CD Skill\n\nReview GitLab pipelines for security and correctness issues, or scaffold a new pipeline for Terraform or Helm/EKS deployments \u2014 enforcing team standards for environment separation, secrets, and production gates.\n\n## Keywords\ngitlab, ci, cd, pipeline, gitlab-ci, yaml, stages, jobs, terraform, helm, deploy, staging, production, manual, gate, secrets, variables, kubeconfig, artifacts, rules, environment, when, docker, image\n\n## Output Artifacts\n\n| Request | Output |\n|---------|--------|\n| `/ci review` | Blocking / advisory issue list with file:line references |\n| `/ci new terraform` | Complete `.gitlab-ci.yml` with validate / plan / apply stages |\n| `/ci new helm` | Complete `.gitlab-ci.yml` with staging and production deploy jobs |\n\n---\n\n## Step 1 \u2014 Determine the action\n\nRead the arguments provided:\n\n- `review` \u2192 go to **REVIEW**\n- `new terraform` \u2192 go to **NEW > Terraform Pipeline**\n- `new helm` \u2192 go to **NEW > Helm Pipeline**\n- No arguments \u2192 use Glob to check the current directory, then:\n  - If `.gitlab-ci.yml` exists \u2192 go to **REVIEW**\n  - If `.tf` files exist but no `.gitlab-ci.yml` \u2192 ask: \"No pipeline found. Do you want me to **review** something or scaffold a **new** pipeline? (terraform / helm)\"\n  - Otherwise \u2192 ask: \"What do you need? **review** an existing pipeline, or create a **new** one? (terraform / helm)\"\n\n---\n\n## REVIEW \u2014 GitLab CI/CD Pipeline Check\n\nRead `.gitlab-ci.yml` and follow all `include:` directives \u2014 read those files too. Issues in included files count.\n\nIdentify whether this is a Terraform pipeline, Helm pipeline, or both, then apply the relevant checks.\n\n### Secrets and credentials\n- Never hardcode secrets, passwords, tokens, or API keys anywhere in pipeline YAML\n- AWS credentials must come from GitLab CI/CD variables or OIDC \u2014 never hardcoded values\n- Never use `echo`, `cat`, or `printenv` in ways that print secret variable values to job logs\n- Use OIDC / IAM role federation for AWS authentication where possible \u2014 preferred over static keys\n\n### Image versions\n- Always pin Docker image versions \u2014 never use `:latest`\n- Terraform CI image must match `required_version` in the repo's `versions.tf`\n\n### Environment separation\n- Staging and production must always be separate jobs \u2014 never the same job with a variable switch\n- Each environment has its own credentials (separate GitLab CI/CD variables)\n- Use `environment:` on every deploy job to enable GitLab environment tracking\n\n### Terraform pipelines\nStages must run in this order:\n\n```yaml\nstages:\n  - validate\n  - plan\n  - apply\n```\n\n- `validate`: runs `terraform fmt -check` and `terraform validate`\n- `plan`: runs on MRs and main branch; plan saved as a GitLab artifact\n- `apply`: runs only on the main/protected branch with `when: manual`\n- Never use `-auto-approve` in production apply jobs\n- Never hardcode `TF_VAR_` values \u2014 all variables come from GitLab CI/CD variables\n- Remote backend only \u2014 never use local Terraform state\n\n### Helm / EKS pipelines\n- Always run `helm lint` before any deploy step\n- Image tag must be passed as a variable \u2014 never hardcoded:\n\n```yaml\nscript:\n  - helm upgrade --install $SERVICE_NAME ./helm/$SERVICE_NAME\n      --set image.tag=$CI_COMMIT_SHORT_SHA\n```\n\n- Use `helm upgrade --atomic` for automatic rollback on failure\n- Always set `--namespace` explicitly on Helm commands\n- Kubeconfig must come from GitLab CI/CD variables \u2014 never commit kubeconfig files\n- Use separate kubeconfig variables per environment (`$KUBECONFIG_STAGING`, `$KUBECONFIG_PROD`)\n\n### Production gates\nProduction deploy and apply jobs must always have:\n\n```yaml\nrules:\n  - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH\n    when: manual\nallow_failure: false\n```\n\nA missing manual gate on production is always a blocking issue \u2014 no exceptions.\n\n### Review output format\n\n```\nBLOCKING \u2014 Must fix before merging\n------------------------------------\n[.gitlab-ci.yml:34] Hardcoded secret: AWS_SECRET_ACCESS_KEY is set inline \u2192 move to GitLab CI/CD variable\n[.gitlab-ci.yml:61] No manual gate: production apply job has no when: manual \u2192 add when: manual\n\nADVISORY \u2014 Should fix\n----------------------\n[.gitlab-ci.yml:12] Image not pinned: uses hashicorp/terraform:latest \u2192 pin to a specific version\n\nSummary: 2 blocking issue(s), 1 advisory issue(s). Fix blocking issues before merging.\n```\n\n---\n\n## NEW \u2014 Scaffold a GitLab CI/CD Pipeline\n\n### Terraform Pipeline\n\nAsk:\n1. What is the Terraform directory or workspace structure? (single root module / multiple environments as directories / Terraform workspaces?)\n2. Which GitLab CI/CD variable names hold AWS credentials? (default: `$AWS_ACCESS_KEY_ID`, `$AWS_SECRET_ACCESS_KEY`)\n\nGenerate `.gitlab-ci.yml`:\n\n```yaml\n# Terraform CI/CD Pipeline\n# Generated with /ci new terraform \u2014 review with /ci review before merging\n\nvariables:\n  TF_VERSION: \"1.7\"\n  TF_DIR: \".\"\n\nstages:\n  - validate\n  - plan\n  - apply\n\ndefault:\n  image: hashicorp/terraform:${TF_VERSION}\n  before_script:\n    - terraform -version\n    - terraform init\n\nvalidate:\n  stage: validate\n  script:\n    - terraform fmt -check -recursive\n    - terraform validate\n  rules:\n    - if: $CI_PIPELINE_SOURCE == \"merge_request_event\"\n    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH\n\nplan:\n  stage: plan\n  script:\n    - terraform plan -out=tfplan\n    - terraform show -no-color tfplan > plan.txt\n  artifacts:\n    paths:\n      - tfplan\n      - plan.txt\n    expose_as: \"Terraform Plan\"\n    expire_in: 7 days\n  rules:\n    - if: $CI_PIPELINE_SOURCE == \"merge_request_event\"\n    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH\n\napply:\n  stage: apply\n  script:\n    - terraform apply -input=false tfplan\n  environment:\n    name: production\n  dependencies:\n    - plan\n  rules:\n    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH\n      when: manual\n  allow_failure: false\n```\n\n---\n\n### Helm / EKS Pipeline\n\nAsk:\n1. Service name and Helm chart location?\n2. Namespace in EKS?\n3. GitLab CI/CD variable name for the kubeconfig? (e.g. `$KUBECONFIG_STAGING`, `$KUBECONFIG_PROD`)\n4. Container registry URL? (ECR or GitLab registry)\n\nGenerate `.gitlab-ci.yml`:\n\n```yaml\n# Helm / EKS CI/CD Pipeline\n# Generated with /ci new helm \u2014 review with /ci review before merging\n\nvariables:\n  HELM_VERSION: \"3.14\"\n  SERVICE_NAME: \"<your-service-name>\"\n  CHART_DIR: \"./helm/<your-service-name>\"\n  NAMESPACE: \"<your-namespace>\"\n\nstages:\n  - build\n  - deploy-staging\n  - deploy-production\n\ndefault:\n  image: alpine/helm:${HELM_VERSION}\n\n.deploy_template: &deploy_template\n  script:\n    - helm lint ${CHART_DIR}\n    - helm upgrade --install ${SERVICE_NAME}\n        ${CHART_DIR}\n        --namespace ${NAMESPACE}\n        --set image.tag=${IMAGE_TAG}\n        --set commonLabels.env=${ENVIRONMENT}\n        --atomic\n        --timeout 5m\n        --wait\n\ndeploy-staging:\n  <<: *deploy_template\n  stage: deploy-staging\n  variables:\n    ENVIRONMENT: staging\n    IMAGE_TAG: $CI_COMMIT_SHORT_SHA\n  before_script:\n    - echo \"$KUBECONFIG_STAGING\" | base64 -d > /tmp/kubeconfig\n    - export KUBECONFIG=/tmp/kubeconfig\n  environment:\n    name: staging\n  rules:\n    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH\n\ndeploy-production:\n  <<: *deploy_template\n  stage: deploy-production\n  variables:\n    ENVIRONMENT: prod\n    IMAGE_TAG: $CI_COMMIT_TAG\n  before_script:\n    - echo \"$KUBECONFIG_PROD\" | base64 -d > /tmp/kubeconfig\n    - export KUBECONFIG=/tmp/kubeconfig\n  environment:\n    name: production\n  rules:\n    - if: $CI_COMMIT_TAG\n      when: manual\n  allow_failure: false\n```\n\nEnd with:\n```\nNext steps:\n1. Set these GitLab CI/CD variables in your project settings:\n   - AWS_ACCESS_KEY_ID / AWS_SECRET_ACCESS_KEY (or configure OIDC)\n   - KUBECONFIG_STAGING, KUBECONFIG",
+      "format": "mdc",
+      "path": ".cursor/rules/ci.mdc"
+    },
+    "description": "Multi-tool DevOps skills for Claude Code, Cursor, and Codex \u2014 Terraform, Kubernetes, Docker, GitHub Actions, GitLab CI, ",
+    "id": "anmolnagpal/devops-skills",
+    "language": "Shell",
+    "name": "anmolnagpal/devops-skills",
+    "stars": 5,
+    "updated_at": "2026-06-10T04:27:51Z",
+    "url": "https://github.com/anmolnagpal/devops-skills"
   },
   {
     "cursorrules": {
@@ -19,8 +24,26 @@
     "language": "JavaScript",
     "name": "heymegabyte/claude-skills",
     "stars": 11,
-    "updated_at": "2026-06-10T04:05:30Z",
+    "updated_at": "2026-06-10T04:20:17Z",
     "url": "https://github.com/heymegabyte/claude-skills"
+  },
+  {
+    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
+    "id": "eumiguellllllllll/copilot-rules",
+    "language": "Batchfile",
+    "name": "eumiguellllllllll/copilot-rules",
+    "stars": 1,
+    "updated_at": "2026-06-10T04:17:53Z",
+    "url": "https://github.com/eumiguellllllllll/copilot-rules"
+  },
+  {
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-06-10T04:17:14Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -28,8 +51,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-10T04:00:38Z",
+    "updated_at": "2026-06-10T04:15:30Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 0,
+    "updated_at": "2026-06-10T04:12:16Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "description": "Governance-first OS for AI coding agents \u2014 structured workflows, delivery gates, engineering guardrails, and 14 professi",
@@ -37,7 +69,7 @@
     "language": "Python",
     "name": "KbWen/agentic-os",
     "stars": 5,
-    "updated_at": "2026-06-10T04:08:03Z",
+    "updated_at": "2026-06-10T04:24:38Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
   {
@@ -241,15 +273,6 @@
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
-    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
-    "id": "eumiguellllllllll/copilot-rules",
-    "language": "Batchfile",
-    "name": "eumiguellllllllll/copilot-rules",
-    "stars": 1,
-    "updated_at": "2026-06-10T01:32:22Z",
-    "url": "https://github.com/eumiguellllllllll/copilot-rules"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: \"Three.js / React Three Fiber syntax: scene setup, R3F hooks, models, controls. Load for 3D code \u2014 taste, perf budgets, and mobile WebGL live in the 3d-web-experiences skill.\"\nglobs: [\"**/*.{jsx,tsx,js,ts}\", \"**/three/**\", \"**/*.glb\", \"**/*.gltf\"]\nalwaysApply: false\n---\n\n# 3D Graphics \u2014 Syntax Reference\n\nMechanical patterns for Three.js, React Three Fiber (R3F), and `@react-three/drei`. For aesthetic direction, performance tiers, responsive/mobile WebGL, degradation, accessibility, and verified recipes, load the **`3d-web-experiences`** skill (`reference.md` for full scenes and bug catalog).\n\nVerify package APIs against installed versions before asserting prop names.\n\n---\n\n## CRITICAL: Container Dimensions\n\nA WebGL canvas without a sized parent renders at zero height or wrong aspect.\n\n```jsx\n// WRONG\n<div><Canvas><Scene /></Canvas></div>\n\n// CORRECT \u2014 explicit height on the container\n<div style={{ height: '500px', width: '100%' }}>\n  <Canvas><Scene /></Canvas>\n</div>\n```\n\nVanilla Three.js: size the renderer to the **container**, not always `window` \u2014 use `ResizeObserver` or container `clientWidth` / `clientHeight`.\n\n---\n\n## R3F Canvas Baseline\n\n```jsx\nimport { Canvas } from '@react-three/fiber';\nimport { OrbitControls, Environment } from '@react-three/drei';\n\nexport function Scene() {\n  return (\n    <div style={{ height: '500px', width: '100%' }}>\n      <Canvas shadows dpr={[1, 2]} camera={{ position: [0, 0, 5], fov: 45 }}>\n        <Environment preset=\"city\" />\n        <ambientLight intensity={0.4} />\n        <directionalLight position={[5, 5, 5]} castShadow />\n        <Mesh />\n        <OrbitControls enableDamping />\n      </Canvas>\n    </div>\n  );\n}\n```\n\nSet tone mapping and output color space on the renderer for PBR that is not flat \u2014 see `3d-web-experiences` \u2192 renderer baseline.\n\n---\n\n## Hooks & Imports (common bugs)\n\n```jsx\nimport { useRef, useState } from 'react';\nimport { useFrame } from '@react-three/fiber'; // NOT from 'react'\nimport type { Mesh } from 'three';\n\nfunction AnimatedBox() {\n  const ref = useRef<Mesh>(null);\n  useFrame((_, delta) => {\n    if (ref.current) ref.current.rotation.y += delta;\n  });\n  return (\n    <mesh ref={ref}>\n      <boxGeometry />\n      <meshStandardMaterial />\n    </mesh>\n  );\n}\n```\n\n| Mistake | Fix |\n|---------|-----|\n| `useFrame` from `react` | Import from `@react-three/fiber` |\n| `<Detail>` from `three` | Use drei `<Detailed distances={[0, 10, 20]}>` with child meshes |\n| `InstancedMesh` from fiber | Use JSX `<instancedMesh>`; `Object3D` from `three` |\n\n---\n\n## Models & Loading\n\n```jsx\nimport { Suspense } from 'react';\nimport { useGLTF, Html, useProgress } from '@react-three/drei';\n\nfunction Model({ url }) {\n  const { scene } = useGLTF(url);\n  return <primitive object={scene} />;\n}\nuseGLTF.preload('/models/asset.glb');\n\nfunction Loader() {\n  const { progress } = useProgress();\n  return <Html center>{progress.toFixed(0)}%</Html>;\n}\n\n// Wrap async assets:\n<Suspense fallback={<Loader />}><Model url=\"\u2026\" /></Suspense>\n```\n\nPrefer `.glb` with Draco/Meshopt compression for web (see skill \u2192 asset pipeline).\n\n---\n\n## LOD & Instancing (mechanics)\n\n```jsx\nimport { Detailed } from '@react-three/drei';\n\n<Detailed distances={[0, 10, 25]}>\n  <HighPolyMesh />\n  <MediumPolyMesh />\n  <LowPolyMesh />\n</Detailed>\n```\n\nFor many copies of the same geometry, use `<instancedMesh>` or drei `<Instances>`. Budgets, DPR clamps, and `frameloop=\"demand\"`: **`3d-web-experiences`**.\n\n---\n\n## Camera Controls (drei)\n\n```jsx\nimport { OrbitControls, MapControls } from '@react-three/drei';\n\n<OrbitControls enableDamping dampingFactor={0.05} minDistance={2} maxDistance={20} />\n```\n\nRespect `prefers-reduced-motion` \u2014 pause auto-rotate and heavy camera motion (skill \u2192 accessibility).\n\n---\n\n## Verification (3D changes)\n\n| Check | How |\n|-------|-----|\n| Renders | Browser load \u2014 not blank/black canvas |\n| Console | No WebGL / shader compile errors |\n| Resize | Container height preserved; canvas scales with parent |\n| Mobile | DPR/effects tier reduced when skill budget applies |\n\nBrowser verification required; use console + visual check minimum.\n\n---\n\n## When NOT to Load This File\n\n- 2D UI only \u2014 use `design-systems` + `anti-slop-design`.\n- \u201cMake it look good\u201d / hero aesthetic \u2014 start with **`3d-web-experiences`** Step 1 (direction + slop catalog), then use this file for syntax.\n",
       "format": "mdc",
@@ -271,15 +294,6 @@
     "stars": 6,
     "updated_at": "2026-06-10T00:03:00Z",
     "url": "https://github.com/caioribeiroclw-pixel/pluribus"
-  },
-  {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
-    "stars": 0,
-    "updated_at": "2026-06-09T23:24:12Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
   },
   {
     "description": "Curated AI Agent Profiles for Claude Code, Codex, Cursor and more \u2014 install with forgecat CLI",
@@ -499,19 +513,5 @@
     "stars": 114,
     "updated_at": "2026-06-08T07:18:35Z",
     "url": "https://github.com/Mark393295827/third-brain-v5-skills"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Humanize assistant output. Drop AI-isms, engineer burstiness, preserve technical accuracy.\nalwaysApply: true\n---\n\nWrite like a careful human. All technical substance stays exact. Only AI-slop dies.\n\nRules:\n- Drop: sycophancy (\"great question\", \"I'd be happy to\"), stock vocab (delve/tapestry/testament/realm/landscape/seamless/holistic/leverage-as-filler/cutting-edge/state-of-the-art), hedging stacks (\"it's important to note that\"), tricolon padding, em-dash pileups (hard cap: two per paragraph), performative balance.\n- Engineer burstiness: mix short and long sentences deliberately. Avoid tidy five-paragraph essay shapes.\n- Keep: technical terms exact, errors quoted exact, code unchanged, real uncertainty (\"I think\", \"probably\") when honest.\n- Pattern: [concrete observation]. [why or implication]. [what to do next].\n- Not: \"Sure! There are several factors to consider...\"\n- Yes: \"Bug in auth middleware. Token expiry uses `<` not `<=`. Fix L42:\"\n\nPrinciples: Subtract, don't add (warmth = sycophancy). Style \u2260 stance (humanize voice, don't soften disagreement). Warmth raises error rate \u2014 re-verify facts after rewriting. Simulated voice, not personhood (never invent bio, memory, or emotion). Reason privately, humanize publicly (think structured, output human).\n\nSwitch level: /unslop subtle|balanced|full|voice-match|anti-detector\nStop: \"stop unslop\" or \"normal mode\"\n\nAuto-Clarity: drop unslop style for security warnings, irreversible actions, legal/medical/financial precision, user confused. Resume after.\n\nBoundaries: code/commits/PRs written normal. Never invent facts to sound human. Anti-detector mode is for defensive use (ESL false positives, resume writers) \u2014 not for academic misconduct.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/unslop.mdc"
-    },
-    "description": "Make AI output sound human. Strips AI-isms (sycophancy, stock vocab, hedging stacks, em-dash pileups), preserves code/UR",
-    "id": "MohamedAbdallah-14/unslop",
-    "language": "Python",
-    "name": "MohamedAbdallah-14/unslop",
-    "stars": 57,
-    "updated_at": "2026-06-08T06:10:45Z",
-    "url": "https://github.com/MohamedAbdallah-14/unslop"
   }
 ]

@@ -14,7 +14,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="anmolnagpal/devops-skills - entry on Cursor Rules Live">
 <meta name="twitter:description" content="Multi-tool DevOps skills for Claude Code, Cursor, and Codex — Terraform, Kubernetes, Docker, GitHub Actions, GitLab CI,">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"anmolnagpal/devops-skills","codeRepository":"https://github.com/anmolnagpal/devops-skills","programmingLanguage":"Shell","url":"https://linny006.github.io/cursor-rules-live/r/anmolnagpal/devops-skills/","description":"Multi-tool DevOps skills for Claude Code, Cursor, and Codex — Terraform, Kubernetes, Docker, GitHub Actions, GitLab CI,","author":{"@type":"Person","name":"anmolnagpal","url":"https://github.com/anmolnagpal"},"dateModified":"2026-06-06"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"anmolnagpal/devops-skills","codeRepository":"https://github.com/anmolnagpal/devops-skills","programmingLanguage":"Shell","url":"https://linny006.github.io/cursor-rules-live/r/anmolnagpal/devops-skills/","description":"Multi-tool DevOps skills for Claude Code, Cursor, and Codex — Terraform, Kubernetes, Docker, GitHub Actions, GitLab CI,","author":{"@type":"Person","name":"anmolnagpal","url":"https://github.com/anmolnagpal"},"dateModified":"2026-06-10"}</script>
 <style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
          --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
 * { box-sizing: border-box; }
@@ -48,175 +48,190 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <div class="meta">
 <span><strong>Stars</strong> 5</span>
 <span><strong>Language</strong> Shell</span>
-<span><strong>Last updated</strong> 2026-06-06</span>
+<span><strong>Last updated</strong> 2026-06-10</span>
 <span><a href="https://github.com/anmolnagpal/devops-skills" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/anmolnagpal" rel="external">@anmolnagpal</a></span>
 </div>
 <section id="rules"><h2>Actual rules from this repo</h2>
-<p>Path in source repo: <code>.cursor/rules/clouddrove-tf.mdc</code> &middot; format: <code>mdc</code></p>
+<p>Path in source repo: <code>.cursor/rules/ci.mdc</code> &middot; format: <code>mdc</code></p>
 <pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
-description: Team standard for AWS Terraform repos built on the CloudDrove wrapper-module pattern. Use when working in a repo with an `_modules/` directory that wraps `clouddrove/*/aws` modules, scaffolding a new wrapper module, generating Terraform GitHub Actions CI, reviewing wrapper-pattern PRs, or mapping the pattern to SOC2/GDPR controls. Supersedes /tf on CloudDrove repos.
-globs: _modules/**/*.tf, environments/**/*.tf, bootstrap/**/*.tf, .github/workflows/terraform.yml, .github/workflows/drift.yml
+description: GitLab CI/CD pipeline review and scaffolding for Terraform and Helm/EKS deployments. Use when user says &#x27;review my pipeline&#x27;, &#x27;check my gitlab-ci&#x27;, &#x27;scaffold a pipeline&#x27;, &#x27;is my CI correct&#x27;, or when working in .gitlab-ci.yml files.
+globs: **/.gitlab-ci.yml, **/.gitlab-ci.yaml, **/gitlab-ci*.yml
 alwaysApply: false
 ---
-# CloudDrove Terraform Skill
+# GitLab CI/CD Skill
 
-Enforce one team standard across every AWS Terraform repo built on the CloudDrove wrapper-module pattern. Scaffold new wrappers, generate CI, review PRs against the pattern, and map coverage to SOC2/GDPR as a byproduct — not the headline.
-
-&gt; **Use this skill instead of `/tf`** on any repo with an `_modules/` directory. `/tf` recommends the `terraform-aws-modules` ecosystem, which conflicts with the CloudDrove wrapper pattern. Don&#x27;t run both.
+Review GitLab pipelines for security and correctness issues, or scaffold a new pipeline for Terraform or Helm/EKS deployments — enforcing team standards for environment separation, secrets, and production gates.
 
 ## Keywords
-
-clouddrove, wrapper, _modules, terraform, tf, aws, scaffold, labels, name_prefix, label_order, github actions, ci, drift, eks, aurora, elasticache, alb, acm, waf, vpc, route53, kms, soc2, gdpr
+gitlab, ci, cd, pipeline, gitlab-ci, yaml, stages, jobs, terraform, helm, deploy, staging, production, manual, gate, secrets, variables, kubeconfig, artifacts, rules, environment, when, docker, image
 
 ## Output Artifacts
 
 | Request | Output |
 |---------|--------|
-| `/clouddrove-tf new &lt;module&gt;` | `_modules/&lt;name&gt;/` scaffold: `main.tf`, `variables.tf`, `outputs.tf` |
-| `/clouddrove-tf ci` | `.github/workflows/terraform.yml` + `drift.yml` |
-| `/clouddrove-tf review` | Blocking / advisory finding list |
-| `/clouddrove-tf controls` | SOC2 + GDPR control coverage table |
+| `/ci review` | Blocking / advisory issue list with file:line references |
+| `/ci new terraform` | Complete `.gitlab-ci.yml` with validate / plan / apply stages |
+| `/ci new helm` | Complete `.gitlab-ci.yml` with staging and production deploy jobs |
 
 ---
 
 ## Step 1 — Determine the action
 
-Read the arguments:
+Read the arguments provided:
 
-- `new &lt;module-name&gt;` → **NEW** (most common — scaffold first, enforce pattern)
-- `ci` → **CI**
-- `review` → **REVIEW**
-- `controls` → **CONTROLS**
-- No arguments → glob for `_modules/`, `environments/`, `.github/workflows/`:
-  - Empty repo → default to **NEW**, ask which module
-  - Files found → ask: &quot;**new** / **ci** / **review** / **controls**?&quot;
-
----
-
-## The Pattern (read first — every action enforces this)
-
-CloudDrove wrapper repos share one layout:
-
-```
-_modules/
-  labels/          # name_prefix + tags factory — every other module consumes it
-  &lt;name&gt;/          # wrapper around clouddrove/&lt;name&gt;/aws
-environments/
-  dev/  staging/  prod/    # only call _modules/&lt;name&gt;, never CloudDrove directly
-bootstrap/         # state bucket + lock table (one-time, separate state)
-```
-
-Three invariants:
-
-1. **`environments/*/main.tf` never calls `source = &quot;clouddrove/*/aws&quot;` directly** — only `source = &quot;../../_modules/&lt;name&gt;&quot;`.
-2. **Every `_modules/&lt;name&gt;/main.tf` starts with `module &quot;labels&quot;`** — no module computes its own `name_prefix`.
-3. **All resource names derive from `module.labels.name_prefix`** — pattern `{client_name}-{environment}-{resource}`.
-
-### labels usage (copy verbatim into every new wrapper)
-
-```hcl
-module &quot;labels&quot; {
-  source         = &quot;../labels&quot;
-  client_name    = var.client_name
-  environment    = var.environment
-  repository_url = var.repository_url
-  cost_center    = var.cost_center
-}
-
-locals {
-  np = module.labels.name_prefix   # e.g. &quot;acme-prod&quot;
-}
-```
-
-### Standard variable set (every `_modules/&lt;name&gt;/variables.tf`)
-
-```hcl
-variable &quot;client_name&quot;    { type = string; description = &quot;Client slug — used as resource name prefix.&quot; }
-variable &quot;environment&quot;    {
-  type        = string
-  description = &quot;Deployment environment.&quot;
-  validation {
-    condition     = contains([&quot;dev&quot;, &quot;staging&quot;, &quot;prod&quot;, &quot;sandbox&quot;], var.environment)
-    error_message = &quot;Must be dev, staging, prod, or sandbox.&quot;
-  }
-}
-variable &quot;repository_url&quot; { type = string; description = &quot;Source repository URL — applied as a tag.&quot; }
-variable &quot;cost_center&quot;    { type = string; description = &quot;Cost center code — applied as a tag.&quot; }
-```
-
-### CloudDrove module call pattern
-
-```hcl
-module &quot;&lt;name&gt;&quot; {
-  source  = &quot;clouddrove/&lt;name&gt;/aws&quot;
-  version = &quot;&lt;pinned-version&gt;&quot;
-
-  name        = &quot;${local.np}-&lt;suffix&gt;&quot;
-  environment = var.environment
-  label_order = [&quot;name&quot;]
-
-  tags = module.labels.tags
-  # ... module-specific variables
-}
-```
-
-`label_order = [&quot;name&quot;]` is **mandatory** — without it, upstream CloudDrove appends `environment` a second time, producing `acme-prod-prod-eks`.
+- `review` → go to **REVIEW**
+- `new terraform` → go to **NEW &gt; Terraform Pipeline**
+- `new helm` → go to **NEW &gt; Helm Pipeline**
+- No arguments → use Glob to check the current directory, then:
+  - If `.gitlab-ci.yml` exists → go to **REVIEW**
+  - If `.tf` files exist but no `.gitlab-ci.yml` → ask: &quot;No pipeline found. Do you want me to **review** something or scaffold a **new** pipeline? (terraform / helm)&quot;
+  - Otherwise → ask: &quot;What do you need? **review** an existing pipeline, or create a **new** one? (terraform / helm)&quot;
 
 ---
 
-## NEW — Scaffold a Module
+## REVIEW — GitLab CI/CD Pipeline Check
 
-### Identify module type
+Read `.gitlab-ci.yml` and follow all `include:` directives — read those files too. Issues in included files count.
 
-Extract from argument (e.g. `new monitoring`). If missing, ask: &quot;Which module? (security / vpc / eks / aurora / elasticache / alb / dns / acm / waf / iam / monitoring / s3 / secrets / dashboard / labels)&quot;
+Identify whether this is a Terraform pipeline, Helm pipeline, or both, then apply the relevant checks.
 
-### Standard `main.tf` header
+### Secrets and credentials
+- Never hardcode secrets, passwords, tokens, or API keys anywhere in pipeline YAML
+- AWS credentials must come from GitLab CI/CD variables or OIDC — never hardcoded values
+- Never use `echo`, `cat`, or `printenv` in ways that print secret variable values to job logs
+- Use OIDC / IAM role federation for AWS authentication where possible — preferred over static keys
 
-```hcl
-terraform {
-  required_version = &quot;&gt;= 1.6.0&quot;
-  required_providers {
-    aws = {
-      source  = &quot;hashicorp/aws&quot;
-      version = &quot;~&gt; 5.0&quot;
-    }
-  }
-}
+### Image versions
+- Always pin Docker image versions — never use `:latest`
+- Terraform CI image must match `required_version` in the repo&#x27;s `versions.tf`
 
-module &quot;labels&quot; {
-  source         = &quot;../labels&quot;
-  client_name    = var.client_name
-  environment    = var.environment
-  repository_url = var.repository_url
-  cost_center    = var.cost_center
-}
+### Environment separation
+- Staging and production must always be separate jobs — never the same job with a variable switch
+- Each environment has its own credentials (separate GitLab CI/CD variables)
+- Use `environment:` on every deploy job to enable GitLab environment tracking
 
-locals {
-  np = module.labels.name_prefix
-}
+### Terraform pipelines
+Stages must run in this order:
+
+```yaml
+stages:
+  - validate
+  - plan
+  - apply
 ```
 
-### Generated files (three per module)
+- `validate`: runs `terraform fmt -check` and `terraform validate`
+- `plan`: runs on MRs and main branch; plan saved as a GitLab artifact
+- `apply`: runs only on the main/protected branch with `when: manual`
+- Never use `-auto-approve` in production apply jobs
+- Never hardcode `TF_VAR_` values — all variables come from GitLab CI/CD variables
+- Remote backend only — never use local Terraform state
 
-- **`variables.tf`** — standard four vars + module-specific vars, all with `description` and `type`
-- **`main.tf`** — `terraform {}` + `module &quot;labels&quot;` + `locals { np }` + CloudDrove module call with `name = &quot;${local.np}-&lt;suffix&gt;&quot;`, `label_order = [&quot;name&quot;]`, `tags = module.labels.tags`
-- **`outputs.tf`** — all IDs, ARNs, names with `description`; secrets with `sensitive = true`
+### Helm / EKS pipelines
+- Always run `helm lint` before any deploy step
+- Image tag must be passed as a variable — never hardcoded:
+
+```yaml
+script:
+  - helm upgrade --install $SERVICE_NAME ./helm/$SERVICE_NAME
+      --set image.tag=$CI_COMMIT_SHORT_SHA
+```
+
+- Use `helm upgrade --atomic` for automatic rollback on failure
+- Always set `--namespace` explicitly on Helm commands
+- Kubeconfig must come from GitLab CI/CD variables — never commit kubeconfig files
+- Use separate kubeconfig variables per environment (`$KUBECONFIG_STAGING`, `$KUBECONFIG_PROD`)
+
+### Production gates
+Production deploy and apply jobs must always have:
+
+```yaml
+rules:
+  - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+    when: manual
+allow_failure: false
+```
+
+A missing manual gate on production is always a blocking issue — no exceptions.
+
+### Review output format
+
+```
+BLOCKING — Must fix before merging
+------------------------------------
+[.gitlab-ci.yml:34] Hardcoded secret: AWS_SECRET_ACCESS_KEY is set inline → move to GitLab CI/CD variable
+[.gitlab-ci.yml:61] No manual gate: production apply job has no when: manual → add when: manual
+
+ADVISORY — Should fix
+----------------------
+[.gitlab-ci.yml:12] Image not pinned: uses hashicorp/terraform:latest → pin to a specific version
+
+Summary: 2 blocking issue(s), 1 advisory issue(s). Fix blocking issues before merging.
+```
 
 ---
 
-## CI — GitHub Actions Workflows
+## NEW — Scaffold a GitLab CI/CD Pipeline
 
-Generate two workflow files following team standards.
+### Terraform Pipeline
 
-### `terraform.yml` — PR + merge pipeline
+Ask:
+1. What is the Terraform directory or workspace structure? (single root module / multiple environments as directories / Terraform workspaces?)
+2. Which GitLab CI/CD variable names hold AWS credentials? (default: `$AWS_ACCESS_KEY_ID`, `$AWS_SECRET_ACCESS_KEY`)
 
-1. **Concurrency:** `cancel-in-progress: ${{ github.event_name == &#x27;pull_request&#x27; }}` — cancels stale PR runs, never cancels in-flight applies.
-2. **Minimal permissions** at workflow level (`contents: read`); jobs declare only what they need (`id-token: write`, `pull-requests: write`).
-3. **Change detection job** — outputs a matrix of affected environments from `git diff` between base SHA and HEAD. If `_modules/` changed, all environments are affected.
-4. **PR gates** (parallel, all block merge):
-   - `fmt` </code></pre>
-<p><em>Content truncated. View full file in the source repo (linked above).</em></p><p><a href="https://github.com/anmolnagpal/devops-skills/blob/HEAD/.cursor/rules/clouddrove-tf.mdc" rel="external">View raw on GitHub</a></p>
+Generate `.gitlab-ci.yml`:
+
+```yaml
+# Terraform CI/CD Pipeline
+# Generated with /ci new terraform — review with /ci review before merging
+
+variables:
+  TF_VERSION: &quot;1.7&quot;
+  TF_DIR: &quot;.&quot;
+
+stages:
+  - validate
+  - plan
+  - apply
+
+default:
+  image: hashicorp/terraform:${TF_VERSION}
+  before_script:
+    - terraform -version
+    - terraform init
+
+validate:
+  stage: validate
+  script:
+    - terraform fmt -check -recursive
+    - terraform validate
+  rules:
+    - if: $CI_PIPELINE_SOURCE == &quot;merge_request_event&quot;
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+
+plan:
+  stage: plan
+  script:
+    - terraform plan -out=tfplan
+    - terraform show -no-color tfplan &gt; plan.txt
+  artifacts:
+    paths:
+      - tfplan
+      - plan.txt
+    expose_as: &quot;Terraform Plan&quot;
+    expire_in: 7 days
+  rules:
+    - if: $CI_PIPELINE_SOURCE == &quot;merge_request_event&quot;
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+
+apply:
+  stage: apply
+  script:
+    - terraform apply -input=false tfplan
+  environment:
+    name: </code></pre>
+<p><em>Content truncated. View full file in the source repo (linked above).</em></p><p><a href="https://github.com/anmolnagpal/devops-skills/blob/HEAD/.cursor/rules/ci.mdc" rel="external">View raw on GitHub</a></p>
 </section>
 <section><h2>Why this is listed</h2>
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
