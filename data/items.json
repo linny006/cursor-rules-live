@@ -1,5 +1,23 @@
 [
   {
+    "description": "Curated AI Agent Profiles for Claude Code, Codex, Cursor and more \u2014 install with forgecat CLI",
+    "id": "nota-america/forgecat-agent-profiles",
+    "language": "TypeScript",
+    "name": "nota-america/forgecat-agent-profiles",
+    "stars": 2,
+    "updated_at": "2026-06-10T19:55:27Z",
+    "url": "https://github.com/nota-america/forgecat-agent-profiles"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-10T19:45:33Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
     "id": "Trentobobbi/uikit-mastery-playbook",
     "language": "HTML",
@@ -16,15 +34,6 @@
     "stars": 0,
     "updated_at": "2026-06-10T19:37:54Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-10T19:30:36Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
@@ -479,14 +488,5 @@
     "stars": 0,
     "updated_at": "2026-06-10T07:45:08Z",
     "url": "https://github.com/RoninForge/roninforge-drizzle"
-  },
-  {
-    "description": "Cursor plugin for Playwright (1.x): semantic locators (getByRole), web-first assertions, test.extend fixtures, setup-pro",
-    "id": "RoninForge/roninforge-playwright",
-    "language": "Shell",
-    "name": "RoninForge/roninforge-playwright",
-    "stars": 0,
-    "updated_at": "2026-06-10T07:45:05Z",
-    "url": "https://github.com/RoninForge/roninforge-playwright"
   }
 ]
