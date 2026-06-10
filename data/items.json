@@ -1,6 +1,38 @@
 [
   {
     "cursorrules": {
+      "content": "---\ndescription: Capture architectural decisions as structured ADRs (Architecture Decision Records). Use when user says 'record this decision', 'ADR this', 'why did we choose X', 'document this trade-off', 'we decided to...', or when a significant choice is made between alternatives (framework, database, pattern, API design, infra approach).\nglobs: **/docs/adr/*.md, **/docs/adr/**/*.md\nalwaysApply: false\n---\n# ADR Skill\n\nCapture architectural decisions as they happen, so the *why* lives next to the code\ninstead of in a Slack thread or someone's memory. Produces lightweight ADR documents\nunder `docs/adr/`.\n\n## Keywords\nadr, architecture decision record, decision, rationale, trade-off, alternatives, we decided, why did we choose, design decision, supersede, decision log, nygard\n\n## When to record a decision\n\n- The user says \"record this\", \"ADR this\", \"let's document this decision\".\n- A choice is made between **significant alternatives**: framework, library, database,\n  language, pattern, API shape, infra/deploy approach, build vs buy.\n- The user says \"we decided to\u2026\" or \"the reason we're doing X instead of Y is\u2026\".\n- The user asks \"why did we choose X?\" \u2192 read and summarize the existing ADR.\n\nFor trivial or easily-reversible choices, don't create an ADR \u2014 note it inline and move on.\n\n## Output Artifacts\n\n| Request | Output |\n|---------|--------|\n| `/adr new \"<title>\"` | A new `docs/adr/NNNN-<slug>.md` + an updated index |\n| `/adr list` | The decision log (ID, title, status, date) |\n| `/adr supersede <NNNN>` | A new ADR marked as superseding an old one; old one flipped to `superseded` |\n\n---\n\n## Format\n\nLightweight Nygard ADR, adapted for AI-assisted work:\n\n```markdown\n# ADR-NNNN: <Decision Title>\n\n**Date**: YYYY-MM-DD\n**Status**: proposed | accepted | deprecated | superseded by ADR-NNNN\n**Deciders**: <who was involved>\n\n## Context\n\nWhat is the issue motivating this decision? The situation, constraints, and forces at\nplay. 2\u20135 sentences.\n\n## Decision\n\nWhat we are doing. 1\u20133 sentences, stated clearly.\n\n## Alternatives Considered\n\n### <Alternative>\n- **Pros**: \u2026\n- **Cons**: \u2026\n- **Why not**: the specific reason it was rejected.\n\n(Repeat per alternative.)\n\n## Consequences\n\n### Positive\n- \u2026\n\n### Negative / trade-offs\n- \u2026\n\n### Risks\n- <risk and its mitigation>\n```\n\n---\n\n## NEW \u2014 Record a decision\n\n1. **Initialize once.** If `docs/adr/` does not exist, ask the user to confirm before\n   creating it. On confirmation, create the directory, a `README.md` seeded with the\n   index table header (below), and a `template.md` copy of the format above. Never\n   create files without explicit consent.\n2. **Number it.** Next zero-padded number after the highest existing `docs/adr/NNNN-*.md`\n   (start at `0001`). Slug = kebab-case of the title.\n3. **Fill it from the conversation** \u2014 extract the decision, the context that prompted it,\n   the alternatives actually weighed, and the consequences. Do not invent alternatives\n   that were never discussed; if context is thin, ask one or two targeted questions.\n4. **Default status** `accepted` when the user states a decision; `proposed` when still\n   weighing. Date = today.\n5. **Update the index** in `docs/adr/README.md`.\n\n## Index format\n\n`docs/adr/README.md`:\n\n```markdown\n# Architecture Decision Records\n\n| ID | Title | Status | Date |\n|----|-------|--------|------|\n| [ADR-0001](0001-use-eks-over-ecs.md) | Use EKS over ECS | accepted | 2026-06-10 |\n```\n\n## SUPERSEDE \u2014 Replace a decision\n\n1. Read the old ADR.\n2. Create a new ADR that references it: \"Supersedes ADR-NNNN\" in Context.\n3. Flip the old ADR's `Status` to `superseded by ADR-MMMM`.\n4. Update both rows in the index.\n\nNever delete or rewrite a past ADR's decision \u2014 superseding preserves the history of\n*why it changed*, which is the whole point.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/adr.mdc"
+    },
+    "description": "Multi-tool DevOps skills for Claude Code, Cursor, and Codex \u2014 Terraform, Kubernetes, Docker, GitHub Actions, GitLab CI, ",
+    "id": "anmolnagpal/devops-skills",
+    "language": "Shell",
+    "name": "anmolnagpal/devops-skills",
+    "stars": 5,
+    "updated_at": "2026-06-10T22:36:29Z",
+    "url": "https://github.com/anmolnagpal/devops-skills"
+  },
+  {
+    "description": "Curated AI Agent Profiles for Claude Code, Codex, Cursor and more \u2014 install with forgecat CLI",
+    "id": "nota-america/forgecat-agent-profiles",
+    "language": "TypeScript",
+    "name": "nota-america/forgecat-agent-profiles",
+    "stars": 2,
+    "updated_at": "2026-06-10T22:35:31Z",
+    "url": "https://github.com/nota-america/forgecat-agent-profiles"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-10T22:30:29Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "cursorrules": {
       "content": "---\ndescription: \"These rules apply when developing, extending, or contributing to the Rulefy project - a tool for generating Cursor AI rules from GitHub repositories. Follow these guidelines to ensure consistent code quality, proper error handling, and adherence to the project's architectural patterns.\"\nglobs: \nalwaysApply: false\n---\n\n# Rulefy Development Guidelines\n\n## Critical Rules\n\n- Use TypeScript with strict typing and proper return type annotations for all functions\n- Follow ESM module syntax with `.js` extensions in import paths despite TypeScript usage\n- Handle errors properly with try/catch blocks and appropriate error messages\n- Use color formatting with picocolors for console output to maintain consistent UX\n- Validate all external inputs and environment variables before use\n- Implement proper chunking for large repository content to avoid token limit issues\n- Follow the established architecture separating CLI, rule generation, and LLM integration\n- Maintain backward compatibility for CLI options and programmatic API\n- Document public functions and interfaces with JSDoc comments\n- Handle rate limits and API errors gracefully when interacting with external services\n- Structure code to be testable, even though tests aren't implemented yet\n\n## Examples\n\n<example>\n// VALID: Proper error handling with try/catch and color formatting\nimport pc from 'picocolors';\n\nasync function processRepository(repoPath: string): Promise<void> {\n  try {\n    // Validate inputs\n    if (!repoPath) {\n      throw new Error('Repository path is required');\n    }\n    \n    // Process with proper error handling\n    console.log(pc.cyan('Processing repository...'));\n    const result = await someAsyncOperation(repoPath);\n    console.log(pc.green('\u2713 Successfully processed repository'));\n    \n    return result;\n  } catch (error) {\n    if (error instanceof Error) {\n      console.error(pc.red(`Error: ${error.message}`));\n    } else {\n      console.error(pc.red('Unknown error occurred'));\n    }\n    process.exit(1);\n  }\n}\n</example>\n\n<example type=\"invalid\">\n// INVALID: Missing error handling and type annotations\nfunction processRepo(repo) {\n  // No input validation\n  \n  // No try/catch block\n  const data = someAsyncOperation(repo);\n  \n  // No proper console formatting\n  console.log(\"Done processing\");\n  \n  // Missing return type\n  return data;\n}\n</example>\n\n<example>\n// VALID: Proper module imports with ESM syntax\nimport fs from 'node:fs/promises';\nimport path from 'node:path';\nimport { generateRules } from './rulesGenerator.js';\n\nexport async function processFiles(directory: string): Promise<string[]> {\n  const files = await fs.readdir(directory);\n  return files.filter(file => path.extname(file) === '.ts');\n}\n</example>\n\n<example type=\"invalid\">\n// INVALID: Incorrect import syntax for ESM\nconst fs = require('fs');\nimport { generateRules } from './rulesGenerator';  // Missing .js extension\n\nfunction processFiles(directory) {\n  return new Promise((resolve, reject) => {\n    fs.readdir(directory, (err, files) => {\n      if (err) reject(err);\n      resolve(files.filter(file => file.endsWith('.ts')));\n    });\n  });\n}\n</example>\n\n## Key Files Reference\n\n- [src/index.ts](mdc:src/index.ts) - Entry point with CLI handling\n- [src/rulesGenerate.ts](mdc:src/rulesGenerate.ts) - Core rule generation logic\n- [src/llmGenerator.ts](mdc:src/llmGenerator.ts) - Integration with Claude AI\n- [src/prompts/cursor_mdc.md](mdc:src/prompts/cursor_mdc.md) - Rule format guidelines",
       "format": "mdc",
       "path": ".cursor/rules/rulefy-generated-rules.mdc"
@@ -12,29 +44,6 @@
     "stars": 0,
     "updated_at": "2026-06-10T22:19:44Z",
     "url": "https://github.com/Thabang9218/cursorifier"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Capture architectural decisions as structured ADRs (Architecture Decision Records). Use when user says 'record this decision', 'ADR this', 'why did we choose X', 'document this trade-off', 'we decided to...', or when a significant choice is made between alternatives (framework, database, pattern, API design, infra approach).\nglobs: **/docs/adr/*.md, **/docs/adr/**/*.md\nalwaysApply: false\n---\n# ADR Skill\n\nCapture architectural decisions as they happen, so the *why* lives next to the code\ninstead of in a Slack thread or someone's memory. Produces lightweight ADR documents\nunder `docs/adr/`.\n\n## Keywords\nadr, architecture decision record, decision, rationale, trade-off, alternatives, we decided, why did we choose, design decision, supersede, decision log, nygard\n\n## When to record a decision\n\n- The user says \"record this\", \"ADR this\", \"let's document this decision\".\n- A choice is made between **significant alternatives**: framework, library, database,\n  language, pattern, API shape, infra/deploy approach, build vs buy.\n- The user says \"we decided to\u2026\" or \"the reason we're doing X instead of Y is\u2026\".\n- The user asks \"why did we choose X?\" \u2192 read and summarize the existing ADR.\n\nFor trivial or easily-reversible choices, don't create an ADR \u2014 note it inline and move on.\n\n## Output Artifacts\n\n| Request | Output |\n|---------|--------|\n| `/adr new \"<title>\"` | A new `docs/adr/NNNN-<slug>.md` + an updated index |\n| `/adr list` | The decision log (ID, title, status, date) |\n| `/adr supersede <NNNN>` | A new ADR marked as superseding an old one; old one flipped to `superseded` |\n\n---\n\n## Format\n\nLightweight Nygard ADR, adapted for AI-assisted work:\n\n```markdown\n# ADR-NNNN: <Decision Title>\n\n**Date**: YYYY-MM-DD\n**Status**: proposed | accepted | deprecated | superseded by ADR-NNNN\n**Deciders**: <who was involved>\n\n## Context\n\nWhat is the issue motivating this decision? The situation, constraints, and forces at\nplay. 2\u20135 sentences.\n\n## Decision\n\nWhat we are doing. 1\u20133 sentences, stated clearly.\n\n## Alternatives Considered\n\n### <Alternative>\n- **Pros**: \u2026\n- **Cons**: \u2026\n- **Why not**: the specific reason it was rejected.\n\n(Repeat per alternative.)\n\n## Consequences\n\n### Positive\n- \u2026\n\n### Negative / trade-offs\n- \u2026\n\n### Risks\n- <risk and its mitigation>\n```\n\n---\n\n## NEW \u2014 Record a decision\n\n1. **Initialize once.** If `docs/adr/` does not exist, ask the user to confirm before\n   creating it. On confirmation, create the directory, a `README.md` seeded with the\n   index table header (below), and a `template.md` copy of the format above. Never\n   create files without explicit consent.\n2. **Number it.** Next zero-padded number after the highest existing `docs/adr/NNNN-*.md`\n   (start at `0001`). Slug = kebab-case of the title.\n3. **Fill it from the conversation** \u2014 extract the decision, the context that prompted it,\n   the alternatives actually weighed, and the consequences. Do not invent alternatives\n   that were never discussed; if context is thin, ask one or two targeted questions.\n4. **Default status** `accepted` when the user states a decision; `proposed` when still\n   weighing. Date = today.\n5. **Update the index** in `docs/adr/README.md`.\n\n## Index format\n\n`docs/adr/README.md`:\n\n```markdown\n# Architecture Decision Records\n\n| ID | Title | Status | Date |\n|----|-------|--------|------|\n| [ADR-0001](0001-use-eks-over-ecs.md) | Use EKS over ECS | accepted | 2026-06-10 |\n```\n\n## SUPERSEDE \u2014 Replace a decision\n\n1. Read the old ADR.\n2. Create a new ADR that references it: \"Supersedes ADR-NNNN\" in Context.\n3. Flip the old ADR's `Status` to `superseded by ADR-MMMM`.\n4. Update both rows in the index.\n\nNever delete or rewrite a past ADR's decision \u2014 superseding preserves the history of\n*why it changed*, which is the whole point.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/adr.mdc"
-    },
-    "description": "Multi-tool DevOps skills for Claude Code, Cursor, and Codex \u2014 Terraform, Kubernetes, Docker, GitHub Actions, GitLab CI, ",
-    "id": "anmolnagpal/devops-skills",
-    "language": "Shell",
-    "name": "anmolnagpal/devops-skills",
-    "stars": 5,
-    "updated_at": "2026-06-10T22:16:29Z",
-    "url": "https://github.com/anmolnagpal/devops-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-10T22:15:50Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -94,15 +103,6 @@
     "stars": 15,
     "updated_at": "2026-06-10T21:38:58Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "description": "Curated AI Agent Profiles for Claude Code, Codex, Cursor and more \u2014 install with forgecat CLI",
-    "id": "nota-america/forgecat-agent-profiles",
-    "language": "TypeScript",
-    "name": "nota-america/forgecat-agent-profiles",
-    "stars": 2,
-    "updated_at": "2026-06-10T22:28:48Z",
-    "url": "https://github.com/nota-america/forgecat-agent-profiles"
   },
   {
     "description": "Enforce architectural decisions in AI-assisted development.",
