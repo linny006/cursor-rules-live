@@ -1,5 +1,23 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-10T17:00:40Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Governance-first OS for AI coding agents \u2014 structured workflows, delivery gates, engineering guardrails, and 14 professi",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 6,
+    "updated_at": "2026-06-10T17:09:19Z",
+    "url": "https://github.com/KbWen/agentic-os"
+  },
+  {
     "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
     "id": "mikeprasad/aria-knowledge",
     "language": "Shell",
@@ -16,15 +34,6 @@
     "stars": 2,
     "updated_at": "2026-06-10T16:50:45Z",
     "url": "https://github.com/DongDuong2001/pudo-code-system"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-10T16:45:58Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -153,15 +162,6 @@
     "stars": 11,
     "updated_at": "2026-06-10T13:51:51Z",
     "url": "https://github.com/heymegabyte/claude-skills"
-  },
-  {
-    "description": "Governance-first OS for AI coding agents \u2014 structured workflows, delivery gates, engineering guardrails, and 14 professi",
-    "id": "KbWen/agentic-os",
-    "language": "Python",
-    "name": "KbWen/agentic-os",
-    "stars": 6,
-    "updated_at": "2026-06-10T16:59:07Z",
-    "url": "https://github.com/KbWen/agentic-os"
   },
   {
     "description": "Agent Skill for building static sites with Astro",
