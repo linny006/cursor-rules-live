@@ -1,5 +1,23 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-10T20:15:54Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
+    "id": "mikeprasad/aria-knowledge",
+    "language": "Shell",
+    "name": "mikeprasad/aria-knowledge",
+    "stars": 12,
+    "updated_at": "2026-06-10T20:15:18Z",
+    "url": "https://github.com/mikeprasad/aria-knowledge"
+  },
+  {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
     "id": "edsondviana8/ai-humanizer-core",
     "language": "HTML",
@@ -16,15 +34,6 @@
     "stars": 2,
     "updated_at": "2026-06-10T20:12:08Z",
     "url": "https://github.com/nota-america/forgecat-agent-profiles"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-10T20:01:03Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -178,15 +187,6 @@
     "stars": 7,
     "updated_at": "2026-06-10T17:20:28Z",
     "url": "https://github.com/KbWen/agentic-os"
-  },
-  {
-    "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
-    "id": "mikeprasad/aria-knowledge",
-    "language": "Shell",
-    "name": "mikeprasad/aria-knowledge",
-    "stars": 12,
-    "updated_at": "2026-06-10T20:15:18Z",
-    "url": "https://github.com/mikeprasad/aria-knowledge"
   },
   {
     "description": "Agent Skills and Structured Prompts for Scalable Development",
