@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-10T10:30:41Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: \"These rules apply when developing, extending, or contributing to the Rulefy project - a tool for generating Cursor AI rules from GitHub repositories. Follow these guidelines to ensure consistent code quality, proper error handling, and adherence to the project's architectural patterns.\"\nglobs: \nalwaysApply: false\n---\n\n# Rulefy Development Guidelines\n\n## Critical Rules\n\n- Use TypeScript with strict typing and proper return type annotations for all functions\n- Follow ESM module syntax with `.js` extensions in import paths despite TypeScript usage\n- Handle errors properly with try/catch blocks and appropriate error messages\n- Use color formatting with picocolors for console output to maintain consistent UX\n- Validate all external inputs and environment variables before use\n- Implement proper chunking for large repository content to avoid token limit issues\n- Follow the established architecture separating CLI, rule generation, and LLM integration\n- Maintain backward compatibility for CLI options and programmatic API\n- Document public functions and interfaces with JSDoc comments\n- Handle rate limits and API errors gracefully when interacting with external services\n- Structure code to be testable, even though tests aren't implemented yet\n\n## Examples\n\n<example>\n// VALID: Proper error handling with try/catch and color formatting\nimport pc from 'picocolors';\n\nasync function processRepository(repoPath: string): Promise<void> {\n  try {\n    // Validate inputs\n    if (!repoPath) {\n      throw new Error('Repository path is required');\n    }\n    \n    // Process with proper error handling\n    console.log(pc.cyan('Processing repository...'));\n    const result = await someAsyncOperation(repoPath);\n    console.log(pc.green('\u2713 Successfully processed repository'));\n    \n    return result;\n  } catch (error) {\n    if (error instanceof Error) {\n      console.error(pc.red(`Error: ${error.message}`));\n    } else {\n      console.error(pc.red('Unknown error occurred'));\n    }\n    process.exit(1);\n  }\n}\n</example>\n\n<example type=\"invalid\">\n// INVALID: Missing error handling and type annotations\nfunction processRepo(repo) {\n  // No input validation\n  \n  // No try/catch block\n  const data = someAsyncOperation(repo);\n  \n  // No proper console formatting\n  console.log(\"Done processing\");\n  \n  // Missing return type\n  return data;\n}\n</example>\n\n<example>\n// VALID: Proper module imports with ESM syntax\nimport fs from 'node:fs/promises';\nimport path from 'node:path';\nimport { generateRules } from './rulesGenerator.js';\n\nexport async function processFiles(directory: string): Promise<string[]> {\n  const files = await fs.readdir(directory);\n  return files.filter(file => path.extname(file) === '.ts');\n}\n</example>\n\n<example type=\"invalid\">\n// INVALID: Incorrect import syntax for ESM\nconst fs = require('fs');\nimport { generateRules } from './rulesGenerator';  // Missing .js extension\n\nfunction processFiles(directory) {\n  return new Promise((resolve, reject) => {\n    fs.readdir(directory, (err, files) => {\n      if (err) reject(err);\n      resolve(files.filter(file => file.endsWith('.ts')));\n    });\n  });\n}\n</example>\n\n## Key Files Reference\n\n- [src/index.ts](mdc:src/index.ts) - Entry point with CLI handling\n- [src/rulesGenerate.ts](mdc:src/rulesGenerate.ts) - Core rule generation logic\n- [src/llmGenerator.ts](mdc:src/llmGenerator.ts) - Integration with Claude AI\n- [src/prompts/cursor_mdc.md](mdc:src/prompts/cursor_mdc.md) - Rule format guidelines",
       "format": "mdc",
@@ -12,15 +21,6 @@
     "stars": 0,
     "updated_at": "2026-06-10T10:20:51Z",
     "url": "https://github.com/Thabang9218/cursorifier"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-10T10:15:48Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
