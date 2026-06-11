@@ -10,7 +10,7 @@
     "language": "Shell",
     "name": "danielvm-git/bigpowers",
     "stars": 1,
-    "updated_at": "2026-06-11T12:17:28Z",
+    "updated_at": "2026-06-11T12:32:49Z",
     "url": "https://github.com/danielvm-git/bigpowers"
   },
   {
@@ -19,8 +19,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-11T12:15:54Z",
+    "updated_at": "2026-06-11T12:30:41Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
+    "id": "eumiguellllllllll/copilot-rules",
+    "language": "Batchfile",
+    "name": "eumiguellllllllll/copilot-rules",
+    "stars": 1,
+    "updated_at": "2026-06-11T12:29:00Z",
+    "url": "https://github.com/eumiguellllllllll/copilot-rules"
   },
   {
     "cursorrules": {
@@ -325,15 +334,6 @@
     "stars": 4,
     "updated_at": "2026-06-11T06:27:02Z",
     "url": "https://github.com/Kshitijpalsinghtomar/depth-skills"
-  },
-  {
-    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
-    "id": "eumiguellllllllll/copilot-rules",
-    "language": "Batchfile",
-    "name": "eumiguellllllllll/copilot-rules",
-    "stars": 1,
-    "updated_at": "2026-06-11T12:29:00Z",
-    "url": "https://github.com/eumiguellllllllll/copilot-rules"
   },
   {
     "description": "Curated AI-assisted hub: 247+ Cursor, Claude Code & Codex skills, 123 ML notebooks, 34 research papers, 14 industry repo",
