@@ -1,11 +1,20 @@
 [
   {
+    "description": "Cognitive architecture for AI agents. 19 skills that force language models past surface-level reasoning into genuine dep",
+    "id": "Kshitijpalsinghtomar/depth-skills",
+    "language": "\u2014",
+    "name": "Kshitijpalsinghtomar/depth-skills",
+    "stars": 4,
+    "updated_at": "2026-06-11T06:27:02Z",
+    "url": "https://github.com/Kshitijpalsinghtomar/depth-skills"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-11T06:01:23Z",
+    "updated_at": "2026-06-11T06:15:38Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -489,14 +498,5 @@
     "stars": 0,
     "updated_at": "2026-06-10T07:45:21Z",
     "url": "https://github.com/RoninForge/roninforge-go"
-  },
-  {
-    "description": "Cursor plugin for Spring Boot 3.x (3.2 - 3.5, Java 17/21). Enforces jakarta.* imports, constructor injection, SecurityFi",
-    "id": "RoninForge/roninforge-spring-boot",
-    "language": "Shell",
-    "name": "RoninForge/roninforge-spring-boot",
-    "stars": 0,
-    "updated_at": "2026-06-10T07:45:18Z",
-    "url": "https://github.com/RoninForge/roninforge-spring-boot"
   }
 ]
