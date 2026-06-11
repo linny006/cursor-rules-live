@@ -1,12 +1,12 @@
 [
   {
-    "description": "",
-    "id": "RollingGo-AI/hotel-skill",
-    "language": "\u2014",
-    "name": "RollingGo-AI/hotel-skill",
-    "stars": 1,
-    "updated_at": "2026-06-11T01:56:54Z",
-    "url": "https://github.com/RollingGo-AI/hotel-skill"
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-11T02:00:51Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -19,17 +19,17 @@
     "language": "Shell",
     "name": "danielvm-git/bigpowers",
     "stars": 1,
-    "updated_at": "2026-06-11T02:00:10Z",
+    "updated_at": "2026-06-11T02:00:49Z",
     "url": "https://github.com/danielvm-git/bigpowers"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-11T01:45:29Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
+    "description": "",
+    "id": "RollingGo-AI/hotel-skill",
+    "language": "\u2014",
+    "name": "RollingGo-AI/hotel-skill",
+    "stars": 1,
+    "updated_at": "2026-06-11T01:56:54Z",
+    "url": "https://github.com/RollingGo-AI/hotel-skill"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
