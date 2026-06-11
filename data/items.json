@@ -1,12 +1,48 @@
 [
   {
+    "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
+    "id": "mikeprasad/aria-knowledge",
+    "language": "Shell",
+    "name": "mikeprasad/aria-knowledge",
+    "stars": 12,
+    "updated_at": "2026-06-11T05:59:25Z",
+    "url": "https://github.com/mikeprasad/aria-knowledge"
+  },
+  {
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-06-11T05:56:24Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
+  },
+  {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 0,
+    "updated_at": "2026-06-11T05:54:42Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-11T05:30:28Z",
+    "updated_at": "2026-06-11T05:45:33Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
+    "id": "eumiguellllllllll/copilot-rules",
+    "language": "Batchfile",
+    "name": "eumiguellllllllll/copilot-rules",
+    "stars": 1,
+    "updated_at": "2026-06-11T05:45:31Z",
+    "url": "https://github.com/eumiguellllllllll/copilot-rules"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -236,24 +272,6 @@
     "url": "https://github.com/johnwall123459885/skene-cookbook"
   },
   {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
-    "stars": 0,
-    "updated_at": "2026-06-11T00:21:47Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 0,
-    "updated_at": "2026-06-11T00:20:34Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: \"USE WHEN: any task in this repo. Global operating rules.\"\nglobs: [\"**/*\"]\nalwaysApply: true\npriority: 100\n---\n\n# Global Rules (Always On)\n\n## Role\nYou are an AI coding assistant. Deliver correct, minimal, testable changes. Surface uncertainty instead of hiding it.\n\n## Non\u2011Negotiables\n- **Correctness > simplicity > consistency > style**.\n- **Minimal diff**: touch only what the task needs.\n- **No drive\u2011by refactors**.\n- **Ask when ambiguous**: assumptions ledger + up to 3 questions.\n- **Stop** on security, data loss, or breaking changes; ask for confirmation.\n\n## Output Discipline\n- Provide a brief plan before changes.\n- Show verification steps (lint/typecheck/tests) and state what wasn\u2019t run.\n\n## Guardrails\n- No hard\u2011coded secrets.\n- No unrelated formatting or renaming.\n- No new dependencies without approval.\n",
       "format": "mdc",
@@ -289,15 +307,6 @@
     "stars": 6,
     "updated_at": "2026-06-10T23:06:05Z",
     "url": "https://github.com/caioribeiroclw-pixel/pluribus"
-  },
-  {
-    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
-    "id": "eumiguellllllllll/copilot-rules",
-    "language": "Batchfile",
-    "name": "eumiguellllllllll/copilot-rules",
-    "stars": 1,
-    "updated_at": "2026-06-10T23:01:45Z",
-    "url": "https://github.com/eumiguellllllllll/copilot-rules"
   },
   {
     "description": "Curated AI Agent Profiles for Claude Code, Codex, Cursor and more \u2014 install with forgecat CLI",
@@ -353,15 +362,6 @@
     "stars": 12,
     "updated_at": "2026-06-10T21:56:46Z",
     "url": "https://github.com/TheoV823/mneme"
-  },
-  {
-    "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
-    "id": "mikeprasad/aria-knowledge",
-    "language": "Shell",
-    "name": "mikeprasad/aria-knowledge",
-    "stars": 12,
-    "updated_at": "2026-06-10T20:15:18Z",
-    "url": "https://github.com/mikeprasad/aria-knowledge"
   },
   {
     "description": "Agent Skills and Structured Prompts for Scalable Development",
