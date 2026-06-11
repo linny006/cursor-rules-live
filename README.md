@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-06-11 06:27 UTC
+> ⏰ Last updated: 2026-06-11 06:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,21 +53,21 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [Kshitijpalsinghtomar/depth-skills](https://github.com/Kshitijpalsinghtomar/depth-skills) | 4 | — | 2026-06-11 | — | Cognitive architecture for AI agents. 19 skills that force language models past surface-level reasoning into genuine dep |
+| 1 | [RollingGo-AI/hotel-skill](https://github.com/RollingGo-AI/hotel-skill) | 1 | — | 2026-06-11 | — |  |
 | 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-06-11 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 3 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 12 | Shell | 2026-06-11 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
-| 4 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-06-11 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
-| 5 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-06-11 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
-| 6 | [eumiguellllllllll/copilot-rules](https://github.com/eumiguellllllllll/copilot-rules) | 1 | Batchfile | 2026-06-11 | — | ⚡ Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively. |
-| 7 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 0 | HTML | 2026-06-11 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
-| 8 | [Thabang9218/cursorifier](https://github.com/Thabang9218/cursorifier) | 0 | TypeScript | 2026-06-11 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Thabang9218/cursorifier/) | 🖱️ Enhance your Cursor AI with tailored, codebase-specific insights for smarter navigation and improved efficiency. |
-| 9 | [JohannFreddyLoayzaHuana/awesome-ai-coding-tools](https://github.com/JohannFreddyLoayzaHuana/awesome-ai-coding-tools) | 2 | — | 2026-06-11 | — | 💡 Discover AI coding tools that enhance your workflow, from code editors to completion engines, and boost your software  |
-| 10 | [whydixit/cursor-starter](https://github.com/whydixit/cursor-starter) | 4 | — | 2026-06-11 | — | ✨ Enhance your software development with a curated collection of prompts for Cursor AI, boosting efficiency in planning  |
-| 11 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 1 | Shell | 2026-06-11 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | 59 agent skills for high-integrity, spec-driven, test-first software development by solo developers.  bigpowers provides |
-| 12 | [heymegabyte/claude-skills](https://github.com/heymegabyte/claude-skills) | 11 | JavaScript | 2026-06-11 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/claude-skills/) | 14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts → deployed products. |
-| 13 | [adriannoes/awesome-vibe-coding](https://github.com/adriannoes/awesome-vibe-coding) | 38 | Jupyter Notebook | 2026-06-11 | — | Curated AI-assisted hub: 247+ Cursor, Claude Code & Codex skills, 123 ML notebooks, 34 research papers, 14 industry repo |
-| 14 | [HoangNguyen0403/agent-skills-standard](https://github.com/HoangNguyen0403/agent-skills-standard) | 503 | TypeScript | 2026-06-11 | — | A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol |
-| 15 | [RollingGo-AI/hotel-skill](https://github.com/RollingGo-AI/hotel-skill) | 1 | — | 2026-06-11 | — |  |
+| 3 | [Kshitijpalsinghtomar/depth-skills](https://github.com/Kshitijpalsinghtomar/depth-skills) | 4 | — | 2026-06-11 | — | Cognitive architecture for AI agents. 19 skills that force language models past surface-level reasoning into genuine dep |
+| 4 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 12 | Shell | 2026-06-11 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
+| 5 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-06-11 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
+| 6 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-06-11 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
+| 7 | [eumiguellllllllll/copilot-rules](https://github.com/eumiguellllllllll/copilot-rules) | 1 | Batchfile | 2026-06-11 | — | ⚡ Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively. |
+| 8 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 0 | HTML | 2026-06-11 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
+| 9 | [Thabang9218/cursorifier](https://github.com/Thabang9218/cursorifier) | 0 | TypeScript | 2026-06-11 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Thabang9218/cursorifier/) | 🖱️ Enhance your Cursor AI with tailored, codebase-specific insights for smarter navigation and improved efficiency. |
+| 10 | [JohannFreddyLoayzaHuana/awesome-ai-coding-tools](https://github.com/JohannFreddyLoayzaHuana/awesome-ai-coding-tools) | 2 | — | 2026-06-11 | — | 💡 Discover AI coding tools that enhance your workflow, from code editors to completion engines, and boost your software  |
+| 11 | [whydixit/cursor-starter](https://github.com/whydixit/cursor-starter) | 4 | — | 2026-06-11 | — | ✨ Enhance your software development with a curated collection of prompts for Cursor AI, boosting efficiency in planning  |
+| 12 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 1 | Shell | 2026-06-11 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | 59 agent skills for high-integrity, spec-driven, test-first software development by solo developers.  bigpowers provides |
+| 13 | [heymegabyte/claude-skills](https://github.com/heymegabyte/claude-skills) | 11 | JavaScript | 2026-06-11 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/claude-skills/) | 14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts → deployed products. |
+| 14 | [adriannoes/awesome-vibe-coding](https://github.com/adriannoes/awesome-vibe-coding) | 38 | Jupyter Notebook | 2026-06-11 | — | Curated AI-assisted hub: 247+ Cursor, Claude Code & Codex skills, 123 ML notebooks, 34 research papers, 14 industry repo |
+| 15 | [HoangNguyen0403/agent-skills-standard](https://github.com/HoangNguyen0403/agent-skills-standard) | 503 | TypeScript | 2026-06-11 | — | A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol |
 | 16 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 8 | Python | 2026-06-11 | — | Governance-first OS for AI coding agents — structured workflows, delivery gates, engineering guardrails, and 14 professi |
 | 17 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 1 | HTML | 2026-06-11 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
 | 18 | [paoloincommensurable537/PixelPilot](https://github.com/paoloincommensurable537/PixelPilot) | 0 | JavaScript | 2026-06-11 | — | Build unique user interfaces with a structured ruleset to prevent generic AI output. |

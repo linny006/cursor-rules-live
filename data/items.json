@@ -1,12 +1,12 @@
 [
   {
-    "description": "Cognitive architecture for AI agents. 19 skills that force language models past surface-level reasoning into genuine dep",
-    "id": "Kshitijpalsinghtomar/depth-skills",
+    "description": "",
+    "id": "RollingGo-AI/hotel-skill",
     "language": "\u2014",
-    "name": "Kshitijpalsinghtomar/depth-skills",
-    "stars": 4,
-    "updated_at": "2026-06-11T06:27:02Z",
-    "url": "https://github.com/Kshitijpalsinghtomar/depth-skills"
+    "name": "RollingGo-AI/hotel-skill",
+    "stars": 1,
+    "updated_at": "2026-06-11T06:28:57Z",
+    "url": "https://github.com/RollingGo-AI/hotel-skill"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-11T06:15:38Z",
+    "updated_at": "2026-06-11T06:27:48Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Cognitive architecture for AI agents. 19 skills that force language models past surface-level reasoning into genuine dep",
+    "id": "Kshitijpalsinghtomar/depth-skills",
+    "language": "\u2014",
+    "name": "Kshitijpalsinghtomar/depth-skills",
+    "stars": 4,
+    "updated_at": "2026-06-11T06:27:02Z",
+    "url": "https://github.com/Kshitijpalsinghtomar/depth-skills"
   },
   {
     "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
@@ -139,15 +148,6 @@
     "stars": 503,
     "updated_at": "2026-06-11T03:20:47Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
-  },
-  {
-    "description": "",
-    "id": "RollingGo-AI/hotel-skill",
-    "language": "\u2014",
-    "name": "RollingGo-AI/hotel-skill",
-    "stars": 1,
-    "updated_at": "2026-06-11T01:56:54Z",
-    "url": "https://github.com/RollingGo-AI/hotel-skill"
   },
   {
     "description": "Governance-first OS for AI coding agents \u2014 structured workflows, delivery gates, engineering guardrails, and 14 professi",
