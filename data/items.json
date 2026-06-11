@@ -1,12 +1,12 @@
 [
   {
-    "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
-    "id": "HoangNguyen0403/agent-skills-standard",
-    "language": "TypeScript",
-    "name": "HoangNguyen0403/agent-skills-standard",
-    "stars": 503,
-    "updated_at": "2026-06-11T03:09:57Z",
-    "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
+    "description": "Curated AI-assisted hub: 247+ Cursor, Claude Code & Codex skills, 123 ML notebooks, 34 research papers, 14 industry repo",
+    "id": "adriannoes/awesome-vibe-coding",
+    "language": "Jupyter Notebook",
+    "name": "adriannoes/awesome-vibe-coding",
+    "stars": 38,
+    "updated_at": "2026-06-11T03:24:40Z",
+    "url": "https://github.com/adriannoes/awesome-vibe-coding"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-11T03:00:29Z",
+    "updated_at": "2026-06-11T03:15:47Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
+    "id": "HoangNguyen0403/agent-skills-standard",
+    "language": "TypeScript",
+    "name": "HoangNguyen0403/agent-skills-standard",
+    "stars": 503,
+    "updated_at": "2026-06-11T03:20:47Z",
+    "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
   },
   {
     "cursorrules": {
@@ -489,14 +498,5 @@
     "stars": 0,
     "updated_at": "2026-06-10T07:45:18Z",
     "url": "https://github.com/RoninForge/roninforge-spring-boot"
-  },
-  {
-    "description": "Cursor plugin for ASP.NET Core 9 / .NET 9 (C# 13). Teaches Minimal APIs with TypedResults, IHttpClientFactory, System.Te",
-    "id": "RoninForge/roninforge-aspnet",
-    "language": "Shell",
-    "name": "RoninForge/roninforge-aspnet",
-    "stars": 0,
-    "updated_at": "2026-06-10T07:45:16Z",
-    "url": "https://github.com/RoninForge/roninforge-aspnet"
   }
 ]
