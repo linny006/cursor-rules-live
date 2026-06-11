@@ -1,11 +1,29 @@
 [
   {
+    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
+    "id": "zinxj/uikit-expert-skill",
+    "language": "\u2014",
+    "name": "zinxj/uikit-expert-skill",
+    "stars": 3,
+    "updated_at": "2026-06-11T20:48:18Z",
+    "url": "https://github.com/zinxj/uikit-expert-skill"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-11T20:45:31Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Curated AI Agent Profiles for Claude Code, Codex, Cursor and more \u2014 install with forgecat CLI",
     "id": "nota-america/forgecat-agent-profiles",
     "language": "TypeScript",
     "name": "nota-america/forgecat-agent-profiles",
     "stars": 2,
-    "updated_at": "2026-06-11T20:45:02Z",
+    "updated_at": "2026-06-11T20:51:19Z",
     "url": "https://github.com/nota-america/forgecat-agent-profiles"
   },
   {
@@ -53,15 +71,6 @@
     "stars": 3,
     "updated_at": "2026-06-11T20:30:54Z",
     "url": "https://github.com/Luxvil/ai-coding-rules"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-11T20:30:52Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -294,15 +303,6 @@
     "stars": 0,
     "updated_at": "2026-06-11T14:26:03Z",
     "url": "https://github.com/ebbaunqualified520/ios-agent-skills"
-  },
-  {
-    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
-    "id": "zinxj/uikit-expert-skill",
-    "language": "\u2014",
-    "name": "zinxj/uikit-expert-skill",
-    "stars": 3,
-    "updated_at": "2026-06-11T14:04:01Z",
-    "url": "https://github.com/zinxj/uikit-expert-skill"
   },
   {
     "cursorrules": {
