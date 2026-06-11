@@ -1,16 +1,7 @@
 [
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-11T16:15:42Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "cursorrules": {
-      "content": "---\ndescription: GraphStack v4 \u2014 Orchestrated, graph-first, GNAP-tracked AI development (cross-platform)\nalwaysApply: true\n---\n\n# GraphStack Core Rules (v4)\n\n## \ud83c\udfaf Default Mode: Orchestrated\n\nUnless the user explicitly activates a single role, always run as the **Orchestrator**.\n\n**Frictionless startup (Cursor):** This project\u2019s `.cursor/rules/graphstack.mdc` is\n`alwaysApply: true`, so Composer/Agent already ships with GraphStack rules in every\nnew chat. The user does **not** need to paste `Read orchestrator/ORCHESTRATOR.md \u2026`\nevery time.\nYour obligation is identical to **executing**\n`orchestrator/ORCHESTRATOR.md` \u2192 **Activation** (including parallel **1a** reads)\non your first substantive turn, before acting on substantive work.\n\n**Optional shortcut:** The `/graphstack` Cursor command (project slash menu) expands\nexplicit Orchestrator-bootstrap instructions.\n\nThese rules are ALWAYS active in this project. Follow them in every response.\n\n## \ud83e\udde0 Rule 1: Graph First (Most Important)\n\n**Session bootstrap wins:** Activation step **1a** in `orchestrator/ORCHESTRATOR.md`\ndefines the first-read batch (`TOKEN_OPTIMIZER` + `GRAPH_REPORT` when present, once).\nAfter bootstrap completes, use graph-first discipline below.\n\nWhen a graph exists, answer structural questions from the graph before opening raw sources:\n- `graphify-out/GRAPH_REPORT.md` and, when needed, `graphify-out/graph.json`\n- Open implementation files only when the graph cannot answer\n\nWhen no graph exists, suggest `/graphify .`; if proceeding without confirmation,\nstate risks explicitly.\n\n## \u26a1 Rule 2: Token Discipline\n\nThe **full** decision tree (tiers 1\u20134, parallel-read protocol, output compression)\nlives in `orchestrator/TOKEN_OPTIMIZER.md`. The Orchestrator loads it once at session\nactivation \u2014 follow both that file **and** the abbreviated reminders below:\n\n```\nIs the answer in the graph?        \u2192 Use graph, skip raw file read\nShell/git/test command needed?     \u2192 python -m graphstack run -- <cmd> (not raw)\nIs this tool call speculative?     \u2192 Cancel it, ask user first\nCan reads run in parallel?         \u2192 Parallelize them\nOutput > 15 lines user won't act on \u2192 Summarize instead\nAbout to restate what user said?   \u2192 Delete it, start with action\n```\n\n## \ud83c\udfad Rule 3: Role Discipline\n\nWhen a role is active (Architect / Builder / Reviewer / QA):\n- Stay strictly within that role's responsibilities\n- Do not perform another role's job unless explicitly asked\n- Handoff explicitly: \"This is ready for Builder\" or \"Sending back to Architect\"\n\n## \ud83d\udccb Rule 4: Brief-Driven Building\n\nThe Builder NEVER builds without a brief from `handoff/BRIEF.md`.\nThe Reviewer NEVER approves without checking against the brief.\nIf no brief exists, the Architect must write one first.\n\n## \ud83d\udeab Rule 5: No Scope Creep\n\nBuild exactly what the brief says.\nDo not add features, refactors, or improvements not in the brief.\nIf something looks wrong but is out of scope, note it in `handoff/REVIEW.md` for the next cycle.\n\n## \ud83d\udd04 Rule 6: Graph Staleness Check\n\nIf `graphify-out/GRAPH_REPORT.md` is older than the files being discussed:\n- Warn: \"Graph may be stale. Consider running `/graphify --update`\"\n- Continue with available graph data unless user requests refresh\n\n## \ud83d\udcc1 Rule 7: Handoff Files\n\n- `handoff/BRIEF.md` \u2014 Architect writes this. Builder reads this before starting.\n- `handoff/REVIEW.md` \u2014 Reviewer writes findings here. Architect reads before next cycle.\n- Never delete these files mid-session. Append new cycles with date headers.\n",
+      "content": "---\ndescription: GraphStack v4 \u2014 Orchestrated, graph-first, GNAP-tracked AI development (cross-platform)\nalwaysApply: true\n---\n\n# GraphStack Core Rules (v4)\n\n## \ud83c\udfaf Default Mode: Orchestrated\n\nUnless the user explicitly activates a single role, always run as the **Orchestrator**.\n\n**Frictionless startup (Cursor):** This project\u2019s `.cursor/rules/graphstack.mdc` is\n`alwaysApply: true`, so Composer/Agent already ships with GraphStack rules in every\nnew chat. The user does **not** need to paste `Read orchestrator/ORCHESTRATOR.md \u2026`\nevery time.\nYour obligation is identical to **executing**\n`orchestrator/ORCHESTRATOR.md` \u2192 **Activation** (including parallel **1a** reads)\non your first substantive turn, before acting on substantive work.\n\n**Optional shortcut:** The `/graphstack` Cursor command (project slash menu) expands\nexplicit Orchestrator-bootstrap instructions.\n\nThese rules are ALWAYS active in this project. Follow them in every response.\n\n## \ud83e\udde0 Rule 1: Graph First (Most Important)\n\n**Session bootstrap wins:** Activation step **1a** in `orchestrator/ORCHESTRATOR.md`\ndefines the first-read batch (`TOKEN_OPTIMIZER` + `GRAPH_REPORT` when present, once).\nAfter bootstrap completes, use graph-first discipline below.\n\nWhen a graph exists, answer structural questions from the graph before opening raw sources:\n- `graphify-out/GRAPH_REPORT.md` and, when needed, `graphify-out/graph.json`\n- Open implementation files only when the graph cannot answer\n\nWhen no graph exists, suggest `/graphify .`; if proceeding without confirmation,\nstate risks explicitly.\n\n## \u26a1 Rule 2: Token Discipline\n\nThe **full** decision tree (tiers 1\u20134, parallel-read protocol, output compression)\nlives in `orchestrator/TOKEN_OPTIMIZER.md`. The Orchestrator loads it once at session\nactivation \u2014 follow both that file **and** the abbreviated reminders below:\n\n```\nIs the answer in the graph?        \u2192 python -m graphstack graph query \"\u2026\" (or GRAPH_REPORT once)\nShell/git/test command needed?     \u2192 python -m graphstack run -- <cmd> (not raw)\nIs this tool call speculative?     \u2192 Cancel it, ask user first\nCan reads run in parallel?         \u2192 Parallelize them\nOutput > 15 lines user won't act on \u2192 Summarize instead\nAbout to restate what user said?   \u2192 Delete it, start with action\n```\n\n## \ud83c\udfad Rule 3: Role Discipline\n\nWhen a role is active (Architect / Builder / Reviewer / QA):\n- Stay strictly within that role's responsibilities\n- Do not perform another role's job unless explicitly asked\n- Handoff explicitly: \"This is ready for Builder\" or \"Sending back to Architect\"\n\n## \ud83d\udccb Rule 4: Brief-Driven Building\n\nThe Builder NEVER builds without a brief from `handoff/BRIEF.md`.\nThe Reviewer NEVER approves without checking against the brief.\nIf no brief exists, the Architect must write one first.\n\n## \ud83d\udeab Rule 5: No Scope Creep\n\nBuild exactly what the brief says.\nDo not add features, refactors, or improvements not in the brief.\nIf something looks wrong but is out of scope, note it in `handoff/REVIEW.md` for the next cycle.\n\n## \ud83d\udd04 Rule 6: Graph Staleness Check\n\nIf `graphify-out/GRAPH_REPORT.md` is older than the files being discussed:\n- Warn: \"Graph may be stale. Consider running `/graphify --update`\"\n- Continue with available graph data unless user requests refresh\n\n## \ud83d\udcc1 Rule 7: Handoff Files\n\n- `handoff/BRIEF.md` \u2014 Architect writes this. Builder reads this before starting.\n- `handoff/REVIEW.md` \u2014 Reviewer writes findings here. Architect reads before next cycle.\n- Never delete these files mid-session. Append new cycles with date headers.\n",
       "format": "mdc",
       "path": ".cursor/rules/graphstack.mdc"
     },
@@ -19,8 +10,40 @@
     "language": "HTML",
     "name": "MertCapkin/GraphStack",
     "stars": 7,
-    "updated_at": "2026-06-11T15:56:43Z",
+    "updated_at": "2026-06-11T16:33:24Z",
     "url": "https://github.com/MertCapkin/GraphStack"
+  },
+  {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 1,
+    "updated_at": "2026-06-11T16:31:13Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: \"Analyze the blast radius of a proposed change before any code is written. Maps dependents, affected stories, and test coverage. Produces specs/IMPACT.md. Use before plan-work on any non-trivial change, when touching a shared module, or when the user asks \"what does this break?\".\"\nalwaysApply: false\n---\n\n\n# Assess Impact\n\n> **HARD GATE** \u2014 Run this skill before `plan-work` whenever a change touches an existing module, symbol, or file used by more than one caller. Skip only for net-new code with no existing dependents.\n\nFind the blast radius of the proposed change before a single line is written.\n\n## Process\n\n### 1. Identify the target\n\nName the symbol, module, or file being changed. If the user hasn't specified, ask one question: \"What exactly are you changing?\"\n\n### 2. Find dependents\n\n```\ngrep -rn \"[symbol-name]\" . --include=\"*.ts\" | grep -v node_modules\ngit log --oneline -10 -- [file-path]\n```\n\n\u2192 verify: `grep -rn \"[target]\" . | wc -l`\n\n### 3. Map to release plan stories\n\nRead `specs/release-plan.yaml + epic capsule directories` (if it exists). For each dependent found in Step 2, identify which story owns that module. List stories that will be affected by the change.\n\n\u2192 verify: `grep -c \"Story\" specs/release-plan.yaml + epic capsule directories 2>/dev/null || echo \"no release plan\"`\n\n### 4. List test coverage\n\nFind tests that exercise the target:\n\n```\ngrep -rn \"[symbol-name]\" . --include=\"*.test.*\" --include=\"*.spec.*\"\n```\n\n\u2192 verify: `grep -rn \"[target]\" . --include=\"*.test.*\" | wc -l`\n\n### 5. Classify risk\n\n| Level | Condition |\n|-------|-----------|\n| Low   | \u2264 2 callers, all covered by tests |\n| Medium | 3\u201310 callers, partial test coverage |\n| High  | > 10 callers, or shared API/interface, or no tests |\n\n### 6. Write specs/IMPACT.md\n\n```\n## Target\n[symbol or file being changed]\n\n## Dependents ([count])\n- [file]: [caller or usage]\n\n## Affected Stories\n- Story [X.Y]: [title]\n\n## Test Coverage\n- [test file]: covers [scenario]\n- Gap: [untested behavior]\n\n## Risk: Low / Medium / High\n[One-sentence rationale]\n\n## Recommended action\n[Proceed / Add tests first / Discuss design]\n```\n\n\u2192 verify: `grep \"Risk:\" specs/IMPACT.md`\n\nSuggest `plan-work` once risk is understood and any test gaps are noted.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/assess-impact.mdc"
+    },
+    "description": "59 agent skills for high-integrity, spec-driven, test-first software development by solo developers.  bigpowers provides",
+    "id": "danielvm-git/bigpowers",
+    "language": "Shell",
+    "name": "danielvm-git/bigpowers",
+    "stars": 1,
+    "updated_at": "2026-06-11T16:30:58Z",
+    "url": "https://github.com/danielvm-git/bigpowers"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-11T16:30:58Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Build unique user interfaces with a structured ruleset to prevent generic AI output.",
@@ -48,20 +71,6 @@
     "stars": 1,
     "updated_at": "2026-06-11T14:47:44Z",
     "url": "https://github.com/Bastioned-successor320/learn-nanobot"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: \"Analyze the blast radius of a proposed change before any code is written. Maps dependents, affected stories, and test coverage. Produces specs/IMPACT.md. Use before plan-work on any non-trivial change, when touching a shared module, or when the user asks \"what does this break?\".\"\nalwaysApply: false\n---\n\n\n# Assess Impact\n\n> **HARD GATE** \u2014 Run this skill before `plan-work` whenever a change touches an existing module, symbol, or file used by more than one caller. Skip only for net-new code with no existing dependents.\n\nFind the blast radius of the proposed change before a single line is written.\n\n## Process\n\n### 1. Identify the target\n\nName the symbol, module, or file being changed. If the user hasn't specified, ask one question: \"What exactly are you changing?\"\n\n### 2. Find dependents\n\n```\ngrep -rn \"[symbol-name]\" . --include=\"*.ts\" | grep -v node_modules\ngit log --oneline -10 -- [file-path]\n```\n\n\u2192 verify: `grep -rn \"[target]\" . | wc -l`\n\n### 3. Map to release plan stories\n\nRead `specs/release-plan.yaml + epic capsule directories` (if it exists). For each dependent found in Step 2, identify which story owns that module. List stories that will be affected by the change.\n\n\u2192 verify: `grep -c \"Story\" specs/release-plan.yaml + epic capsule directories 2>/dev/null || echo \"no release plan\"`\n\n### 4. List test coverage\n\nFind tests that exercise the target:\n\n```\ngrep -rn \"[symbol-name]\" . --include=\"*.test.*\" --include=\"*.spec.*\"\n```\n\n\u2192 verify: `grep -rn \"[target]\" . --include=\"*.test.*\" | wc -l`\n\n### 5. Classify risk\n\n| Level | Condition |\n|-------|-----------|\n| Low   | \u2264 2 callers, all covered by tests |\n| Medium | 3\u201310 callers, partial test coverage |\n| High  | > 10 callers, or shared API/interface, or no tests |\n\n### 6. Write specs/IMPACT.md\n\n```\n## Target\n[symbol or file being changed]\n\n## Dependents ([count])\n- [file]: [caller or usage]\n\n## Affected Stories\n- Story [X.Y]: [title]\n\n## Test Coverage\n- [test file]: covers [scenario]\n- Gap: [untested behavior]\n\n## Risk: Low / Medium / High\n[One-sentence rationale]\n\n## Recommended action\n[Proceed / Add tests first / Discuss design]\n```\n\n\u2192 verify: `grep \"Risk:\" specs/IMPACT.md`\n\nSuggest `plan-work` once risk is understood and any test gaps are noted.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/assess-impact.mdc"
-    },
-    "description": "59 agent skills for high-integrity, spec-driven, test-first software development by solo developers.  bigpowers provides",
-    "id": "danielvm-git/bigpowers",
-    "language": "Shell",
-    "name": "danielvm-git/bigpowers",
-    "stars": 1,
-    "updated_at": "2026-06-11T14:45:25Z",
-    "url": "https://github.com/danielvm-git/bigpowers"
   },
   {
     "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
@@ -258,15 +267,6 @@
     "stars": 6,
     "updated_at": "2026-06-11T12:03:23Z",
     "url": "https://github.com/caioribeiroclw-pixel/pluribus"
-  },
-  {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 1,
-    "updated_at": "2026-06-11T11:50:45Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "cursorrules": {

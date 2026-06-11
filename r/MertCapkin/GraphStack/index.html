@@ -98,7 +98,7 @@ lives in `orchestrator/TOKEN_OPTIMIZER.md`. The Orchestrator loads it once at se
 activation — follow both that file **and** the abbreviated reminders below:
 
 ```
-Is the answer in the graph?        → Use graph, skip raw file read
+Is the answer in the graph?        → python -m graphstack graph query &quot;…&quot; (or GRAPH_REPORT once)
 Shell/git/test command needed?     → python -m graphstack run -- &lt;cmd&gt; (not raw)
 Is this tool call speculative?     → Cancel it, ask user first
 Can reads run in parallel?         → Parallelize them
