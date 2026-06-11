@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-11T16:45:48Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: GraphStack v4 \u2014 Orchestrated, graph-first, GNAP-tracked AI development (cross-platform)\nalwaysApply: true\n---\n\n# GraphStack Core Rules (v4)\n\n## \ud83c\udfaf Default Mode: Orchestrated\n\nUnless the user explicitly activates a single role, always run as the **Orchestrator**.\n\n**Frictionless startup (Cursor):** This project\u2019s `.cursor/rules/graphstack.mdc` is\n`alwaysApply: true`, so Composer/Agent already ships with GraphStack rules in every\nnew chat. The user does **not** need to paste `Read orchestrator/ORCHESTRATOR.md \u2026`\nevery time.\nYour obligation is identical to **executing**\n`orchestrator/ORCHESTRATOR.md` \u2192 **Activation** (including parallel **1a** reads)\non your first substantive turn, before acting on substantive work.\n\n**Optional shortcut:** The `/graphstack` Cursor command (project slash menu) expands\nexplicit Orchestrator-bootstrap instructions.\n\nThese rules are ALWAYS active in this project. Follow them in every response.\n\n## \ud83e\udde0 Rule 1: Graph First (Most Important)\n\n**Session bootstrap wins:** Activation step **1a** in `orchestrator/ORCHESTRATOR.md`\ndefines the first-read batch (`TOKEN_OPTIMIZER` + `GRAPH_REPORT` when present, once).\nAfter bootstrap completes, use graph-first discipline below.\n\nWhen a graph exists, answer structural questions from the graph before opening raw sources:\n- `graphify-out/GRAPH_REPORT.md` and, when needed, `graphify-out/graph.json`\n- Open implementation files only when the graph cannot answer\n\nWhen no graph exists, suggest `/graphify .`; if proceeding without confirmation,\nstate risks explicitly.\n\n## \u26a1 Rule 2: Token Discipline\n\nThe **full** decision tree (tiers 1\u20134, parallel-read protocol, output compression)\nlives in `orchestrator/TOKEN_OPTIMIZER.md`. The Orchestrator loads it once at session\nactivation \u2014 follow both that file **and** the abbreviated reminders below:\n\n```\nIs the answer in the graph?        \u2192 python -m graphstack graph query \"\u2026\" (or GRAPH_REPORT once)\nShell/git/test command needed?     \u2192 python -m graphstack run -- <cmd> (not raw)\nIs this tool call speculative?     \u2192 Cancel it, ask user first\nCan reads run in parallel?         \u2192 Parallelize them\nOutput > 15 lines user won't act on \u2192 Summarize instead\nAbout to restate what user said?   \u2192 Delete it, start with action\n```\n\n## \ud83c\udfad Rule 3: Role Discipline\n\nWhen a role is active (Architect / Builder / Reviewer / QA):\n- Stay strictly within that role's responsibilities\n- Do not perform another role's job unless explicitly asked\n- Handoff explicitly: \"This is ready for Builder\" or \"Sending back to Architect\"\n\n## \ud83d\udccb Rule 4: Brief-Driven Building\n\nThe Builder NEVER builds without a brief from `handoff/BRIEF.md`.\nThe Reviewer NEVER approves without checking against the brief.\nIf no brief exists, the Architect must write one first.\n\n## \ud83d\udeab Rule 5: No Scope Creep\n\nBuild exactly what the brief says.\nDo not add features, refactors, or improvements not in the brief.\nIf something looks wrong but is out of scope, note it in `handoff/REVIEW.md` for the next cycle.\n\n## \ud83d\udd04 Rule 6: Graph Staleness Check\n\nIf `graphify-out/GRAPH_REPORT.md` is older than the files being discussed:\n- Warn: \"Graph may be stale. Consider running `/graphify --update`\"\n- Continue with available graph data unless user requests refresh\n\n## \ud83d\udcc1 Rule 7: Handoff Files\n\n- `handoff/BRIEF.md` \u2014 Architect writes this. Builder reads this before starting.\n- `handoff/REVIEW.md` \u2014 Reviewer writes findings here. Architect reads before next cycle.\n- Never delete these files mid-session. Append new cycles with date headers.\n",
       "format": "mdc",
@@ -35,15 +44,6 @@
     "stars": 1,
     "updated_at": "2026-06-11T16:30:58Z",
     "url": "https://github.com/danielvm-git/bigpowers"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-11T16:30:58Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Build unique user interfaces with a structured ruleset to prevent generic AI output.",
