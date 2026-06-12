@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-06-12 18:45 UTC
+> ⏰ Last updated: 2026-06-12 19:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -76,7 +76,7 @@ expired items removed — so you can rely on what you see being current.
 | 21 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-06-12 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
 | 22 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 1 | Shell | 2026-06-12 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | 59 agent skills for high-integrity, spec-driven, test-first software development by solo developers.  bigpowers provides |
 | 23 | [eumiguellllllllll/copilot-rules](https://github.com/eumiguellllllllll/copilot-rules) | 1 | Batchfile | 2026-06-12 | — | ⚡ Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively. |
-| 24 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 746 | JavaScript | 2026-06-12 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 24 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 755 | JavaScript | 2026-06-12 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 25 | [DongDuong2001/pudo-code-system](https://github.com/DongDuong2001/pudo-code-system) | 2 | JavaScript | 2026-06-12 | — | Agent Skills and Structured Prompts for Scalable Development |
 | 26 | [MertCapkin/GraphStack](https://github.com/MertCapkin/GraphStack) | 7 | HTML | 2026-06-12 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/MertCapkin/GraphStack/) | Graph-first, automatically orchestrated AI development workflow. One prompt starts the entire lifecycle — from blank rep |
 | 27 | [Ocean82/Agent-Skills](https://github.com/Ocean82/Agent-Skills) | 1 | — | 2026-06-12 | — | Production-grade skills, rules, and prompts for AI coding agents (Cursor, Kiro, Claude Code, Windsurf). Transform generi |
