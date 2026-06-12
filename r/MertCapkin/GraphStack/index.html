@@ -92,11 +92,26 @@ handoff/STATE.md                      (last ## block only)
 
 Then greet per `orchestrator/ORCHESTRATOR.md` step 8.
 
-**If the user&#x27;s first message already contains a task goal:** greet briefly, then
-enter **[ARCHITECT MODE]** immediately — do **not** implement code on the first turn.
+## ⛔ First-turn contract (when user message includes a task goal)
 
-**If doing/ has a task and BRIEF is Ready for Builder:** offer to resume Builder or
-run `python -m graphstack cycle enter-builder &lt;task-id&gt;` before code edits.
+The user giving a goal in the same message does **NOT** mean “implement now”.
+It means: **start the GraphStack cycle** — Architect phase only.
+
+```
+ALLOWED turn 1:  parallel Activation reads, graph query, cycle start, handoff/BRIEF.md
+FORBIDDEN turn 1: any Write/Edit on code paths, implementation, “quick fix” patches
+```
+
+Required sequence before any code file changes:
+1. Announce `[ARCHITECT MODE]`
+2. `python -m graphstack cycle start &lt;task-id&gt; &quot;&lt;title&gt;&quot;`
+3. Write `handoff/BRIEF.md` (Status: Ready for Builder)
+4. Orchestrator → `cycle enter-builder` → then `[BUILDER MODE]`
+
+**Never interpret “proceed”, “devam”, or “goal embedded” as permission to code.**
+
+**If doing/ has a task and BRIEF is Ready for Builder:** offer resume Builder or
+`python -m graphstack cycle enter-builder &lt;task-id&gt;` before code edits.
 
 ## 🧠 Rule 1: Graph First (Most Important)
 
