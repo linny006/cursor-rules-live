@@ -14,7 +14,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="KingEmma7/cursor-os - entry on Cursor Rules Live">
 <meta name="twitter:description" content="Make Cursor project-aware with repo-level rules, memory, workflows, verifier agents, and localization prompts.">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"KingEmma7/cursor-os","codeRepository":"https://github.com/KingEmma7/cursor-os","programmingLanguage":"JavaScript","url":"https://linny006.github.io/cursor-rules-live/r/KingEmma7/cursor-os/","description":"Make Cursor project-aware with repo-level rules, memory, workflows, verifier agents, and localization prompts.","author":{"@type":"Person","name":"KingEmma7","url":"https://github.com/KingEmma7"},"dateModified":"2026-06-06"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"KingEmma7/cursor-os","codeRepository":"https://github.com/KingEmma7/cursor-os","programmingLanguage":"JavaScript","url":"https://linny006.github.io/cursor-rules-live/r/KingEmma7/cursor-os/","description":"Make Cursor project-aware with repo-level rules, memory, workflows, verifier agents, and localization prompts.","author":{"@type":"Person","name":"KingEmma7","url":"https://github.com/KingEmma7"},"dateModified":"2026-06-12"}</script>
 <style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
          --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
 * { box-sizing: border-box; }
@@ -48,16 +48,36 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <div class="meta">
 <span><strong>Stars</strong> 0</span>
 <span><strong>Language</strong> JavaScript</span>
-<span><strong>Last updated</strong> 2026-06-06</span>
+<span><strong>Last updated</strong> 2026-06-12</span>
 <span><a href="https://github.com/KingEmma7/cursor-os" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/KingEmma7" rel="external">@KingEmma7</a></span>
 </div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/no-auto-commit.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
+description: Never commit or push without explicit user instruction.
+alwaysApply: true
+---
+
+# No auto-commit
+
+Never run `git commit`, `git push`, `git tag`, or `npm publish` unless the user explicitly asks (e.g. &quot;commit this&quot;, &quot;push&quot;, &quot;publish&quot;).
+
+- Show the user what changed and let them decide.
+- Use `git diff` or `git status` output to summarise changes in your response instead.
+- If you are about to perform a git write operation, stop and confirm first.
+
+This applies regardless of how small, clean, or obviously-correct the change appears.
+</code></pre>
+<p><a href="https://github.com/KingEmma7/cursor-os/blob/HEAD/.cursor/rules/no-auto-commit.mdc" rel="external">View raw on GitHub</a></p>
+</section>
 <section><h2>Why this is listed</h2>
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>
 <ul class="crosslinks">
-<li><a href="https://linny006.github.io/cursor-rules-live/r/caioribeiroclw-pixel/pluribus/">caioribeiroclw-pixel/pluribus (stars:5)</a></li>
-<li><a href="https://linny006.github.io/cursor-rules-live/r/paoloincommensurable537/PixelPilot/">paoloincommensurable537/PixelPilot (stars:0)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/heymegabyte/claude-skills/">heymegabyte/claude-skills (stars:11)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/caioribeiroclw-pixel/pluribus/">caioribeiroclw-pixel/pluribus (stars:6)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/kensaurus/cursor-kenji/">kensaurus/cursor-kenji (stars:3)</a></li>
 </ul></section>
 <section><h2>Explore by category</h2>
 <ul class="crosslinks">
