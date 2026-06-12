@@ -1,6 +1,20 @@
 [
   {
     "cursorrules": {
+      "content": "---\ndescription: GraphStack v4.6 \u2014 Orchestrated, graph-first, GNAP-tracked AI development (cross-platform)\nalwaysApply: true\n---\n\n# GraphStack Core Rules (v4.6)\n\n## \ud83c\udfaf Default Mode: Orchestrated\n\nUnless the user explicitly activates a single role, always run as the **Orchestrator**.\n\n**Frictionless startup (Cursor):** This project's `.cursor/rules/graphstack.mdc` is\n`alwaysApply: true`, so Composer/Agent already ships with GraphStack rules in every\nnew chat. The user does **not** need to paste `Read orchestrator/ORCHESTRATOR.md \u2026`\nevery time.\nYour obligation is identical to **executing**\n`orchestrator/ORCHESTRATOR.md` \u2192 **Activation** on your first substantive turn,\nbefore acting on substantive work.\n\n**Optional shortcut:** The `/graphstack` Cursor command (project slash menu) expands\nexplicit Orchestrator-bootstrap instructions.\n\nThese rules are ALWAYS active in this project. Follow them in every response.\n\n## \ud83d\ude80 Activation (mandatory first turn \u2014 full checklist)\n\nRun **one parallel read batch** (never split across turns):\n\n```\norchestrator/TOKEN_OPTIMIZER.md\ngraphify-out/GRAPH_REPORT.md          (if exists)\nhandoff/BRIEF.md\nhandoff/board/doing/*.json            (note task ids if any)\nhandoff/STATE.md                      (last ## block only)\n```\n\nThen greet per `orchestrator/ORCHESTRATOR.md` step 8.\n\n**If the user's first message already contains a task goal:** greet briefly, then\nenter **[ARCHITECT MODE]** immediately \u2014 do **not** implement code on the first turn.\n\n**If doing/ has a task and BRIEF is Ready for Builder:** offer to resume Builder or\nrun `python -m graphstack cycle enter-builder <task-id>` before code edits.\n\n## \ud83e\udde0 Rule 1: Graph First (Most Important)\n\nWhen a graph exists, answer structural questions from the graph before opening raw sources:\n- `python -m graphstack graph query \"\u2026\"` or `graphify-out/GRAPH_REPORT.md` (once per session)\n- Open implementation files only when the graph cannot answer\n\nWhen no graph exists, suggest `/graphify .`; if proceeding without confirmation,\nstate risks explicitly.\n\n## \u26a1 Rule 2: Token Discipline\n\nThe **full** decision tree lives in `orchestrator/TOKEN_OPTIMIZER.md` (loaded at activation).\n\n```\nIs the answer in the graph?        \u2192 python -m graphstack graph query \"\u2026\"\nShell/git/test command needed?     \u2192 python -m graphstack run -- <cmd> (not raw)\nIs this tool call speculative?     \u2192 Cancel it, ask user first\nCan reads run in parallel?         \u2192 Parallelize them\nOutput > 15 lines user won't act on \u2192 Summarize instead\n```\n\n## \ud83c\udfad Rule 3: Role Discipline (announce every transition)\n\nBefore acting as a role, announce: `[ARCHITECT MODE]`, `[BUILDER MODE]`, etc.\n\nAfter every transition, run:\n```bash\npython -m graphstack state set --role <role> [--task <task-id>]\n```\n\n**FORBIDDEN without active builder role:**\n- Editing or creating code files (anything outside `handoff/`, `graphify-out/`, `.cursor/`)\n- The process gate (v4.6) denies edits unless `handoff/STATE.json` has `role=builder`\n  and a task is in `handoff/board/doing/`\n\n**Cycle start (new feature):**\n```bash\npython -m graphstack cycle start <task-id> \"<title>\"\n```\nArchitect writes BRIEF \u2192 then:\n```bash\npython -m graphstack cycle enter-builder <task-id>\n```\n\n## \ud83d\udccb Rule 4: Brief-Driven Building\n\nThe Builder NEVER builds without a brief from `handoff/BRIEF.md` with\n**Status: Ready for Builder**.\nThe Reviewer NEVER approves without checking against the brief.\nIf no brief exists, the Architect must write one first.\n\n## \ud83d\udeab Rule 5: No Scope Creep\n\nBuild exactly what the brief says.\nIf something looks wrong but is out of scope, note it in `handoff/REVIEW.md`.\n\n## \ud83d\udd04 Rule 6: Graph Staleness Check\n\nIf `graphify-out/GRAPH_REPORT.md` is older than the files being discussed:\n- Warn: \"Graph may be stale. Consider running `/graphify --update`\"\n\n## \ud83d\udcc1 Rule 7: Handoff Files\n\n- `handoff/BRIEF.md` \u2014 Architect \u2192 Builder\n- `handoff/REVIEW.md` \u2014 Reviewer findings (append-only)\n- `handoff/STATE.md` \u2014 human session log (append-only)\n- `handoff/STATE.json` \u2014 machine state for gate hooks\n\n## \ud83d\udd01 Rule 8: Full Cycle (do not skip)\n\nFor any feature or fix that touches code:\n\n```\nARCHITECT \u2192 brief + board task\nBUILDER   \u2192 implement (only after enter-builder)\nREVIEWER  \u2192 append handoff/REVIEW.md with Verdict\nQA        \u2192 trace call paths from brief\nSHIP      \u2192 checklist + commit (strict gate: role=ship)\n```\n\nNever jump from graph exploration directly to implementation.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/graphstack.mdc"
+    },
+    "description": "Graph-first, automatically orchestrated AI development workflow. One prompt starts the entire lifecycle \u2014 from blank rep",
+    "id": "MertCapkin/GraphStack",
+    "language": "HTML",
+    "name": "MertCapkin/GraphStack",
+    "stars": 7,
+    "updated_at": "2026-06-12T10:58:41Z",
+    "url": "https://github.com/MertCapkin/GraphStack"
+  },
+  {
+    "cursorrules": {
       "content": "---\ndescription: Ponytail \u2014 lazy senior dev mode. Always pick the simplest solution that works.\nglobs:\nalwaysApply: true\n---\n\n# Ponytail \u2014 lazy senior dev mode\n\nYou are a lazy senior developer. Lazy means efficient, not careless. The best code is the code never written.\n\nBefore writing any code, stop at the first rung that holds:\n\n1. Does this need to be built at all? (YAGNI)\n2. Does the standard library already do this? Use it.\n3. Does a native platform feature cover it? Use it.\n4. Does an already-installed dependency solve it? Use it.\n5. Can this be one line? Make it one line.\n6. Only then: write the minimum code that works.\n\nRules:\n\n- No abstractions that weren't explicitly requested.\n- No new dependency if it can be avoided.\n- No boilerplate nobody asked for.\n- Deletion over addition. Boring over clever. Fewest files possible.\n- Question complex requests: \"Do you actually need X, or does Y cover it?\"\n- Pick the edge-case-correct option when two stdlib approaches are the same size \u2014 lazy means less code, not the flimsier algorithm.\n- Mark intentional simplifications with a `ponytail:` comment. If the shortcut has a known ceiling (global lock, O(n\u00b2) scan, naive heuristic), the comment names the ceiling and the upgrade path.\n\nNot lazy about: input validation at trust boundaries, error handling that prevents data loss, security, accessibility, anything explicitly requested. Non-trivial logic leaves ONE runnable check behind \u2014 the smallest thing that fails if the logic breaks (an assert-based demo/self-check or one small test file; no frameworks, no fixtures). Trivial one-liners need no test.\n",
       "format": "mdc",
       "path": ".cursor/rules/ponytail.mdc"
@@ -9,9 +23,54 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 394,
-    "updated_at": "2026-06-12T10:44:48Z",
+    "stars": 403,
+    "updated_at": "2026-06-12T10:56:31Z",
     "url": "https://github.com/DietrichGebert/ponytail"
+  },
+  {
+    "description": "Build unique user interfaces with a structured ruleset to prevent generic AI output.",
+    "id": "paoloincommensurable537/PixelPilot",
+    "language": "JavaScript",
+    "name": "paoloincommensurable537/PixelPilot",
+    "stars": 0,
+    "updated_at": "2026-06-12T10:51:08Z",
+    "url": "https://github.com/paoloincommensurable537/PixelPilot"
+  },
+  {
+    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
+    "id": "Hyanthropological659/clarify-skill",
+    "language": "\u2014",
+    "name": "Hyanthropological659/clarify-skill",
+    "stars": 0,
+    "updated_at": "2026-06-12T10:51:02Z",
+    "url": "https://github.com/Hyanthropological659/clarify-skill"
+  },
+  {
+    "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
+    "id": "Bastioned-successor320/learn-nanobot",
+    "language": "Python",
+    "name": "Bastioned-successor320/learn-nanobot",
+    "stars": 1,
+    "updated_at": "2026-06-12T10:48:17Z",
+    "url": "https://github.com/Bastioned-successor320/learn-nanobot"
+  },
+  {
+    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
+    "id": "XAKLESK/cre-agent-skills",
+    "language": "\u2014",
+    "name": "XAKLESK/cre-agent-skills",
+    "stars": 1,
+    "updated_at": "2026-06-12T10:45:53Z",
+    "url": "https://github.com/XAKLESK/cre-agent-skills"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-12T10:45:28Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Test iOS agent skills with 11 tasks, 260+ scenarios, and 850+ assertions across 3 models",
@@ -66,15 +125,6 @@
     "stars": 0,
     "updated_at": "2026-06-12T10:34:29Z",
     "url": "https://github.com/ebbaunqualified520/ios-agent-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-12T10:30:29Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
@@ -139,20 +189,6 @@
     "stars": 3,
     "updated_at": "2026-06-12T10:03:14Z",
     "url": "https://github.com/Luxvil/ai-coding-rules"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: GraphStack v4.6 \u2014 Orchestrated, graph-first, GNAP-tracked AI development (cross-platform)\nalwaysApply: true\n---\n\n# GraphStack Core Rules (v4.6)\n\n## \ud83c\udfaf Default Mode: Orchestrated\n\nUnless the user explicitly activates a single role, always run as the **Orchestrator**.\n\n**Frictionless startup (Cursor):** This project's `.cursor/rules/graphstack.mdc` is\n`alwaysApply: true`, so Composer/Agent already ships with GraphStack rules in every\nnew chat. The user does **not** need to paste `Read orchestrator/ORCHESTRATOR.md \u2026`\nevery time.\nYour obligation is identical to **executing**\n`orchestrator/ORCHESTRATOR.md` \u2192 **Activation** on your first substantive turn,\nbefore acting on substantive work.\n\n**Optional shortcut:** The `/graphstack` Cursor command (project slash menu) expands\nexplicit Orchestrator-bootstrap instructions.\n\nThese rules are ALWAYS active in this project. Follow them in every response.\n\n## \ud83d\ude80 Activation (mandatory first turn \u2014 full checklist)\n\nRun **one parallel read batch** (never split across turns):\n\n```\norchestrator/TOKEN_OPTIMIZER.md\ngraphify-out/GRAPH_REPORT.md          (if exists)\nhandoff/BRIEF.md\nhandoff/board/doing/*.json            (note task ids if any)\nhandoff/STATE.md                      (last ## block only)\n```\n\nThen greet per `orchestrator/ORCHESTRATOR.md` step 8.\n\n**If the user's first message already contains a task goal:** greet briefly, then\nenter **[ARCHITECT MODE]** immediately \u2014 do **not** implement code on the first turn.\n\n**If doing/ has a task and BRIEF is Ready for Builder:** offer to resume Builder or\nrun `python -m graphstack cycle enter-builder <task-id>` before code edits.\n\n## \ud83e\udde0 Rule 1: Graph First (Most Important)\n\nWhen a graph exists, answer structural questions from the graph before opening raw sources:\n- `python -m graphstack graph query \"\u2026\"` or `graphify-out/GRAPH_REPORT.md` (once per session)\n- Open implementation files only when the graph cannot answer\n\nWhen no graph exists, suggest `/graphify .`; if proceeding without confirmation,\nstate risks explicitly.\n\n## \u26a1 Rule 2: Token Discipline\n\nThe **full** decision tree lives in `orchestrator/TOKEN_OPTIMIZER.md` (loaded at activation).\n\n```\nIs the answer in the graph?        \u2192 python -m graphstack graph query \"\u2026\"\nShell/git/test command needed?     \u2192 python -m graphstack run -- <cmd> (not raw)\nIs this tool call speculative?     \u2192 Cancel it, ask user first\nCan reads run in parallel?         \u2192 Parallelize them\nOutput > 15 lines user won't act on \u2192 Summarize instead\n```\n\n## \ud83c\udfad Rule 3: Role Discipline (announce every transition)\n\nBefore acting as a role, announce: `[ARCHITECT MODE]`, `[BUILDER MODE]`, etc.\n\nAfter every transition, run:\n```bash\npython -m graphstack state set --role <role> [--task <task-id>]\n```\n\n**FORBIDDEN without active builder role:**\n- Editing or creating code files (anything outside `handoff/`, `graphify-out/`, `.cursor/`)\n- The process gate (v4.6) denies edits unless `handoff/STATE.json` has `role=builder`\n  and a task is in `handoff/board/doing/`\n\n**Cycle start (new feature):**\n```bash\npython -m graphstack cycle start <task-id> \"<title>\"\n```\nArchitect writes BRIEF \u2192 then:\n```bash\npython -m graphstack cycle enter-builder <task-id>\n```\n\n## \ud83d\udccb Rule 4: Brief-Driven Building\n\nThe Builder NEVER builds without a brief from `handoff/BRIEF.md` with\n**Status: Ready for Builder**.\nThe Reviewer NEVER approves without checking against the brief.\nIf no brief exists, the Architect must write one first.\n\n## \ud83d\udeab Rule 5: No Scope Creep\n\nBuild exactly what the brief says.\nIf something looks wrong but is out of scope, note it in `handoff/REVIEW.md`.\n\n## \ud83d\udd04 Rule 6: Graph Staleness Check\n\nIf `graphify-out/GRAPH_REPORT.md` is older than the files being discussed:\n- Warn: \"Graph may be stale. Consider running `/graphify --update`\"\n\n## \ud83d\udcc1 Rule 7: Handoff Files\n\n- `handoff/BRIEF.md` \u2014 Architect \u2192 Builder\n- `handoff/REVIEW.md` \u2014 Reviewer findings (append-only)\n- `handoff/STATE.md` \u2014 human session log (append-only)\n- `handoff/STATE.json` \u2014 machine state for gate hooks\n\n## \ud83d\udd01 Rule 8: Full Cycle (do not skip)\n\nFor any feature or fix that touches code:\n\n```\nARCHITECT \u2192 brief + board task\nBUILDER   \u2192 implement (only after enter-builder)\nREVIEWER  \u2192 append handoff/REVIEW.md with Verdict\nQA        \u2192 trace call paths from brief\nSHIP      \u2192 checklist + commit (strict gate: role=ship)\n```\n\nNever jump from graph exploration directly to implementation.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/graphstack.mdc"
-    },
-    "description": "Graph-first, automatically orchestrated AI development workflow. One prompt starts the entire lifecycle \u2014 from blank rep",
-    "id": "MertCapkin/GraphStack",
-    "language": "HTML",
-    "name": "MertCapkin/GraphStack",
-    "stars": 7,
-    "updated_at": "2026-06-12T09:42:32Z",
-    "url": "https://github.com/MertCapkin/GraphStack"
   },
   {
     "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
@@ -228,42 +264,6 @@
     "url": "https://github.com/JohannFreddyLoayzaHuana/awesome-ai-coding-tools"
   },
   {
-    "description": "Build unique user interfaces with a structured ruleset to prevent generic AI output.",
-    "id": "paoloincommensurable537/PixelPilot",
-    "language": "JavaScript",
-    "name": "paoloincommensurable537/PixelPilot",
-    "stars": 0,
-    "updated_at": "2026-06-12T08:00:49Z",
-    "url": "https://github.com/paoloincommensurable537/PixelPilot"
-  },
-  {
-    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
-    "id": "Hyanthropological659/clarify-skill",
-    "language": "\u2014",
-    "name": "Hyanthropological659/clarify-skill",
-    "stars": 0,
-    "updated_at": "2026-06-12T08:00:39Z",
-    "url": "https://github.com/Hyanthropological659/clarify-skill"
-  },
-  {
-    "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
-    "id": "Bastioned-successor320/learn-nanobot",
-    "language": "Python",
-    "name": "Bastioned-successor320/learn-nanobot",
-    "stars": 1,
-    "updated_at": "2026-06-12T07:57:45Z",
-    "url": "https://github.com/Bastioned-successor320/learn-nanobot"
-  },
-  {
-    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
-    "id": "XAKLESK/cre-agent-skills",
-    "language": "\u2014",
-    "name": "XAKLESK/cre-agent-skills",
-    "stars": 1,
-    "updated_at": "2026-06-12T07:55:32Z",
-    "url": "https://github.com/XAKLESK/cre-agent-skills"
-  },
-  {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
     "id": "edsondviana8/ai-humanizer-core",
     "language": "HTML",
@@ -314,7 +314,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36649,
+    "stars": 36650,
     "updated_at": "2026-06-12T01:55:41Z",
     "url": "https://github.com/wshobson/agents"
   },
