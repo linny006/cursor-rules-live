@@ -4,17 +4,17 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="index, follow, max-image-preview:large">
-<title>KingEmma7/cursor-os - entry on Cursor Rules Live</title>
-<meta name="description" content="Make Cursor project-aware with repo-level rules, memory, workflows, verifier agents, and localization prompts.">
-<link rel="canonical" href="https://linny006.github.io/cursor-rules-live/r/KingEmma7/cursor-os/">
+<title>DietrichGebert/ponytail - entry on Cursor Rules Live</title>
+<meta name="description" content="Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.">
+<link rel="canonical" href="https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/">
 <meta property="og:type" content="article">
-<meta property="og:title" content="KingEmma7/cursor-os - entry on Cursor Rules Live">
-<meta property="og:description" content="Make Cursor project-aware with repo-level rules, memory, workflows, verifier agents, and localization prompts.">
-<meta property="og:url" content="https://linny006.github.io/cursor-rules-live/r/KingEmma7/cursor-os/">
+<meta property="og:title" content="DietrichGebert/ponytail - entry on Cursor Rules Live">
+<meta property="og:description" content="Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.">
+<meta property="og:url" content="https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="KingEmma7/cursor-os - entry on Cursor Rules Live">
-<meta name="twitter:description" content="Make Cursor project-aware with repo-level rules, memory, workflows, verifier agents, and localization prompts.">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"KingEmma7/cursor-os","codeRepository":"https://github.com/KingEmma7/cursor-os","programmingLanguage":"JavaScript","url":"https://linny006.github.io/cursor-rules-live/r/KingEmma7/cursor-os/","description":"Make Cursor project-aware with repo-level rules, memory, workflows, verifier agents, and localization prompts.","author":{"@type":"Person","name":"KingEmma7","url":"https://github.com/KingEmma7"},"dateModified":"2026-06-12"}</script>
+<meta name="twitter:title" content="DietrichGebert/ponytail - entry on Cursor Rules Live">
+<meta name="twitter:description" content="Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"DietrichGebert/ponytail","codeRepository":"https://github.com/DietrichGebert/ponytail","programmingLanguage":"JavaScript","url":"https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/","description":"Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.","author":{"@type":"Person","name":"DietrichGebert","url":"https://github.com/DietrichGebert"},"dateModified":"2026-06-12"}</script>
 <style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
          --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
 * { box-sizing: border-box; }
@@ -41,35 +41,50 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 </head>
 <body>
 <div class="wrap">
-<nav class="bc"><a href="https://linny006.github.io/cursor-rules-live/">Cursor Rules Live</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/popular/">Entries</a> &#183; <span>KingEmma7/cursor-os</span></nav>
+<nav class="bc"><a href="https://linny006.github.io/cursor-rules-live/">Cursor Rules Live</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/popular/">Entries</a> &#183; <span>DietrichGebert/ponytail</span></nav>
 <main>
-<h1>KingEmma7/cursor-os</h1>
-<p class="lead">Make Cursor project-aware with repo-level rules, memory, workflows, verifier agents, and localization prompts.</p>
+<h1>DietrichGebert/ponytail</h1>
+<p class="lead">Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.</p>
 <div class="meta">
 <span><strong>Stars</strong> 0</span>
 <span><strong>Language</strong> JavaScript</span>
 <span><strong>Last updated</strong> 2026-06-12</span>
-<span><a href="https://github.com/KingEmma7/cursor-os" rel="external">Source on GitHub</a></span>
-<span><a href="https://github.com/KingEmma7" rel="external">@KingEmma7</a></span>
+<span><a href="https://github.com/DietrichGebert/ponytail" rel="external">Source on GitHub</a></span>
+<span><a href="https://github.com/DietrichGebert" rel="external">@DietrichGebert</a></span>
 </div>
 <section id="rules"><h2>Actual rules from this repo</h2>
-<p>Path in source repo: <code>.cursor/rules/no-auto-commit.mdc</code> &middot; format: <code>mdc</code></p>
+<p>Path in source repo: <code>.cursor/rules/ponytail.mdc</code> &middot; format: <code>mdc</code></p>
 <pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
-description: Never commit or push without explicit user instruction.
+description: Ponytail — lazy senior dev mode. Always pick the simplest solution that works.
+globs:
 alwaysApply: true
 ---
 
-# No auto-commit
+# Ponytail — lazy senior dev mode
 
-Never run `git commit`, `git push`, `git tag`, or `npm publish` unless the user explicitly asks (e.g. &quot;commit this&quot;, &quot;push&quot;, &quot;publish&quot;).
+You are a lazy senior developer. Lazy means efficient, not careless. The best code is the code never written.
 
-- Show the user what changed and let them decide.
-- Use `git diff` or `git status` output to summarise changes in your response instead.
-- If you are about to perform a git write operation, stop and confirm first.
+Before writing any code, stop at the first rung that holds:
 
-This applies regardless of how small, clean, or obviously-correct the change appears.
+1. Does this need to be built at all? (YAGNI)
+2. Does the standard library already do this? Use it.
+3. Does a native platform feature cover it? Use it.
+4. Does an already-installed dependency solve it? Use it.
+5. Can this be one line? Make it one line.
+6. Only then: write the minimum code that works.
+
+Rules:
+
+- No abstractions that weren&#x27;t explicitly requested.
+- No new dependency if it can be avoided.
+- No boilerplate nobody asked for.
+- Deletion over addition. Boring over clever. Fewest files possible.
+- Question complex requests: &quot;Do you actually need X, or does Y cover it?&quot;
+- Mark intentional simplifications with a `ponytail:` comment.
+
+Not lazy about: input validation at trust boundaries, error handling that prevents data loss, security, accessibility, anything explicitly requested.
 </code></pre>
-<p><a href="https://github.com/KingEmma7/cursor-os/blob/HEAD/.cursor/rules/no-auto-commit.mdc" rel="external">View raw on GitHub</a></p>
+<p><a href="https://github.com/DietrichGebert/ponytail/blob/HEAD/.cursor/rules/ponytail.mdc" rel="external">View raw on GitHub</a></p>
 </section>
 <section><h2>Why this is listed</h2>
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
