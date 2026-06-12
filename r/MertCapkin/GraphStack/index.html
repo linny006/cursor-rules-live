@@ -14,7 +14,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="MertCapkin/GraphStack - entry on Cursor Rules Live">
 <meta name="twitter:description" content="Graph-first, automatically orchestrated AI development workflow. One prompt starts the entire lifecycle — from blank rep">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"MertCapkin/GraphStack","codeRepository":"https://github.com/MertCapkin/GraphStack","programmingLanguage":"HTML","url":"https://linny006.github.io/cursor-rules-live/r/MertCapkin/GraphStack/","description":"Graph-first, automatically orchestrated AI development workflow. One prompt starts the entire lifecycle — from blank rep","author":{"@type":"Person","name":"MertCapkin","url":"https://github.com/MertCapkin"},"dateModified":"2026-06-11"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"MertCapkin/GraphStack","codeRepository":"https://github.com/MertCapkin/GraphStack","programmingLanguage":"HTML","url":"https://linny006.github.io/cursor-rules-live/r/MertCapkin/GraphStack/","description":"Graph-first, automatically orchestrated AI development workflow. One prompt starts the entire lifecycle — from blank rep","author":{"@type":"Person","name":"MertCapkin","url":"https://github.com/MertCapkin"},"dateModified":"2026-06-12"}</script>
 <style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
          --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
 * { box-sizing: border-box; }
@@ -48,44 +48,60 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <div class="meta">
 <span><strong>Stars</strong> 7</span>
 <span><strong>Language</strong> HTML</span>
-<span><strong>Last updated</strong> 2026-06-11</span>
+<span><strong>Last updated</strong> 2026-06-12</span>
 <span><a href="https://github.com/MertCapkin/GraphStack" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/MertCapkin" rel="external">@MertCapkin</a></span>
 </div>
 <section id="rules"><h2>Actual rules from this repo</h2>
 <p>Path in source repo: <code>.cursor/rules/graphstack.mdc</code> &middot; format: <code>mdc</code></p>
 <pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
-description: GraphStack v4 — Orchestrated, graph-first, GNAP-tracked AI development (cross-platform)
+description: GraphStack v4.6 — Orchestrated, graph-first, GNAP-tracked AI development (cross-platform)
 alwaysApply: true
 ---
 
-# GraphStack Core Rules (v4)
+# GraphStack Core Rules (v4.6)
 
 ## 🎯 Default Mode: Orchestrated
 
 Unless the user explicitly activates a single role, always run as the **Orchestrator**.
 
-**Frictionless startup (Cursor):** This project’s `.cursor/rules/graphstack.mdc` is
+**Frictionless startup (Cursor):** This project&#x27;s `.cursor/rules/graphstack.mdc` is
 `alwaysApply: true`, so Composer/Agent already ships with GraphStack rules in every
 new chat. The user does **not** need to paste `Read orchestrator/ORCHESTRATOR.md …`
 every time.
 Your obligation is identical to **executing**
-`orchestrator/ORCHESTRATOR.md` → **Activation** (including parallel **1a** reads)
-on your first substantive turn, before acting on substantive work.
+`orchestrator/ORCHESTRATOR.md` → **Activation** on your first substantive turn,
+before acting on substantive work.
 
 **Optional shortcut:** The `/graphstack` Cursor command (project slash menu) expands
 explicit Orchestrator-bootstrap instructions.
 
 These rules are ALWAYS active in this project. Follow them in every response.
 
+## 🚀 Activation (mandatory first turn — full checklist)
+
+Run **one parallel read batch** (never split across turns):
+
+```
+orchestrator/TOKEN_OPTIMIZER.md
+graphify-out/GRAPH_REPORT.md          (if exists)
+handoff/BRIEF.md
+handoff/board/doing/*.json            (note task ids if any)
+handoff/STATE.md                      (last ## block only)
+```
+
+Then greet per `orchestrator/ORCHESTRATOR.md` step 8.
+
+**If the user&#x27;s first message already contains a task goal:** greet briefly, then
+enter **[ARCHITECT MODE]** immediately — do **not** implement code on the first turn.
+
+**If doing/ has a task and BRIEF is Ready for Builder:** offer to resume Builder or
+run `python -m graphstack cycle enter-builder &lt;task-id&gt;` before code edits.
+
 ## 🧠 Rule 1: Graph First (Most Important)
 
-**Session bootstrap wins:** Activation step **1a** in `orchestrator/ORCHESTRATOR.md`
-defines the first-read batch (`TOKEN_OPTIMIZER` + `GRAPH_REPORT` when present, once).
-After bootstrap completes, use graph-first discipline below.
-
 When a graph exists, answer structural questions from the graph before opening raw sources:
-- `graphify-out/GRAPH_REPORT.md` and, when needed, `graphify-out/graph.json`
+- `python -m graphstack graph query &quot;…&quot;` or `graphify-out/GRAPH_REPORT.md` (once per session)
 - Open implementation files only when the graph cannot answer
 
 When no graph exists, suggest `/graphify .`; if proceeding without confirmation,
@@ -93,49 +109,76 @@ state risks explicitly.
 
 ## ⚡ Rule 2: Token Discipline
 
-The **full** decision tree (tiers 1–4, parallel-read protocol, output compression)
-lives in `orchestrator/TOKEN_OPTIMIZER.md`. The Orchestrator loads it once at session
-activation — follow both that file **and** the abbreviated reminders below:
+The **full** decision tree lives in `orchestrator/TOKEN_OPTIMIZER.md` (loaded at activation).
 
 ```
-Is the answer in the graph?        → python -m graphstack graph query &quot;…&quot; (or GRAPH_REPORT once)
+Is the answer in the graph?        → python -m graphstack graph query &quot;…&quot;
 Shell/git/test command needed?     → python -m graphstack run -- &lt;cmd&gt; (not raw)
 Is this tool call speculative?     → Cancel it, ask user first
 Can reads run in parallel?         → Parallelize them
 Output &gt; 15 lines user won&#x27;t act on → Summarize instead
-About to restate what user said?   → Delete it, start with action
 ```
 
-## 🎭 Rule 3: Role Discipline
+## 🎭 Rule 3: Role Discipline (announce every transition)
 
-When a role is active (Architect / Builder / Reviewer / QA):
-- Stay strictly within that role&#x27;s responsibilities
-- Do not perform another role&#x27;s job unless explicitly asked
-- Handoff explicitly: &quot;This is ready for Builder&quot; or &quot;Sending back to Architect&quot;
+Before acting as a role, announce: `[ARCHITECT MODE]`, `[BUILDER MODE]`, etc.
+
+After every transition, run:
+```bash
+python -m graphstack state set --role &lt;role&gt; [--task &lt;task-id&gt;]
+```
+
+**FORBIDDEN without active builder role:**
+- Editing or creating code files (anything outside `handoff/`, `graphify-out/`, `.cursor/`)
+- The process gate (v4.6) denies edits unless `handoff/STATE.json` has `role=builder`
+  and a task is in `handoff/board/doing/`
+
+**Cycle start (new feature):**
+```bash
+python -m graphstack cycle start &lt;task-id&gt; &quot;&lt;title&gt;&quot;
+```
+Architect writes BRIEF → then:
+```bash
+python -m graphstack cycle enter-builder &lt;task-id&gt;
+```
 
 ## 📋 Rule 4: Brief-Driven Building
 
-The Builder NEVER builds without a brief from `handoff/BRIEF.md`.
+The Builder NEVER builds without a brief from `handoff/BRIEF.md` with
+**Status: Ready for Builder**.
 The Reviewer NEVER approves without checking against the brief.
 If no brief exists, the Architect must write one first.
 
 ## 🚫 Rule 5: No Scope Creep
 
 Build exactly what the brief says.
-Do not add features, refactors, or improvements not in the brief.
-If something looks wrong but is out of scope, note it in `handoff/REVIEW.md` for the next cycle.
+If something looks wrong but is out of scope, note it in `handoff/REVIEW.md`.
 
 ## 🔄 Rule 6: Graph Staleness Check
 
 If `graphify-out/GRAPH_REPORT.md` is older than the files being discussed:
 - Warn: &quot;Graph may be stale. Consider running `/graphify --update`&quot;
-- Continue with available graph data unless user requests refresh
 
 ## 📁 Rule 7: Handoff Files
 
-- `handoff/BRIEF.md` — Architect writes this. Builder reads this before starting.
-- `handoff/REVIEW.md` — Reviewer writes findings here. Architect reads before next cycle.
-- Never delete these files mid-session. Append new cycles with date headers.
+- `handoff/BRIEF.md` — Architect → Builder
+- `handoff/REVIEW.md` — Reviewer findings (append-only)
+- `handoff/STATE.md` — human session log (append-only)
+- `handoff/STATE.json` — machine state for gate hooks
+
+## 🔁 Rule 8: Full Cycle (do not skip)
+
+For any feature or fix that touches code:
+
+```
+ARCHITECT → brief + board task
+BUILDER   → implement (only after enter-builder)
+REVIEWER  → append handoff/REVIEW.md with Verdict
+QA        → trace call paths from brief
+SHIP      → checklist + commit (strict gate: role=ship)
+```
+
+Never jump from graph exploration directly to implementation.
 </code></pre>
 <p><a href="https://github.com/MertCapkin/GraphStack/blob/HEAD/.cursor/rules/graphstack.mdc" rel="external">View raw on GitHub</a></p>
 </section>
