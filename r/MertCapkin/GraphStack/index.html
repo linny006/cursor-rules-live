@@ -59,7 +59,7 @@ description: GraphStack v4.6.4 — Orchestrated, graph-first, GNAP-tracked AI de
 alwaysApply: true
 ---
 
-# GraphStack Core Rules (v4.6.4)
+# GraphStack Core Rules (v4.7.0)
 
 ## 🎯 Default Mode: Orchestrated
 
@@ -181,17 +181,30 @@ If `graphify-out/GRAPH_REPORT.md` is older than the files being discussed:
 - `handoff/STATE.md` — human session log (append-only)
 - `handoff/STATE.json` — machine state for gate hooks
 
-## 🔁 Rule 8: Full Cycle (do not skip)
+## 🔁 Rule 8: Full Cycle (do not skip — mechanical handoffs)
 
-For any feature or fix that touches code:
+For any feature or fix that touches code, run **every** phase in order.
+Never compress Reviewer + QA + Ship into one turn.
 
 ```
-ARCHITECT → brief + board task
-BUILDER   → implement (only after enter-builder)
-REVIEWER  → append handoff/REVIEW.md with Verdict
-QA        → trace call paths from brief
-SHIP      → checklist + commit (strict gate: role=ship)
+ARCHITECT  → cycle start + BRIEF (Ready for Builder)
+BUILDER    → cycle enter-builder → implement
+REVIEWER   → cycle enter-reviewer → REVIEW.md Verdict: Approved
+QA         → cycle enter-qa → REVIEW.md QA Report (Overall: PASS)
+SHIP       → cycle enter-ship → checklist → cycle close
 ```
+
+Mechanical commands (run each before acting as that role):
+
+```bash
+python -m graphstack cycle enter-reviewer &lt;task-id&gt;
+python -m graphstack cycle enter-qa &lt;task-id&gt;
+python -m graphstack cycle enter-ship &lt;task-id&gt;
+python -m graphstack cycle close &lt;task-id&gt;
+```
+
+Gate blocks code **commits** and early **board complete** until `role=ship` and
+REVIEW has both Verdict: Approved and a shippable QA Report.
 
 Never jump from graph exploration directly to implementation.
 
@@ -201,21 +214,13 @@ When Builder finishes acceptance criteria:
 
 ```
 FORBIDDEN: stop with task in doing/, role=builder, or &quot;I&#x27;m done&quot; to the user
-FORBIDDEN: append STATE.md without matching state set + board commands
-REQUIRED:  [BUILDER → REVIEWER] → QA → SHIP → board complete → role=idle
+FORBIDDEN: skip Reviewer, QA, or Ship — no &quot;skip review&quot; / &quot;just ship&quot;
+FORBIDDEN: git commit or board complete before cycle enter-ship
+REQUIRED:  cycle enter-reviewer → enter-qa → enter-ship → cycle close
 ```
 
-After Ship checklist:
-```bash
-python -m graphstack board complete &lt;task-id&gt;
-python -m graphstack state set --role idle
-# or: python -m graphstack cycle close &lt;task-id&gt;
-```
-
-**&quot;devam&quot; / &quot;bitir&quot; after implementation** means advance to **Reviewer**, not close the cycle.
-**&quot;devam&quot; after brief approval** (Architect phase) means enter **Builder** only.
-</code></pre>
-<p><a href="https://github.com/MertCapkin/GraphStack/blob/HEAD/.cursor/rules/graphstack.mdc" rel="external">View raw on GitHub</a></p>
+**&quot;devam&quot; / &quot;bitir&quot; after implementation** → `cycle enter-reviewer`, n</code></pre>
+<p><em>Content truncated. View full file in the source repo (linked above).</em></p><p><a href="https://github.com/MertCapkin/GraphStack/blob/HEAD/.cursor/rules/graphstack.mdc" rel="external">View raw on GitHub</a></p>
 </section>
 <section><h2>Why this is listed</h2>
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>

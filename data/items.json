@@ -9,9 +9,41 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 622,
-    "updated_at": "2026-06-12T15:41:47Z",
+    "stars": 637,
+    "updated_at": "2026-06-12T15:55:24Z",
     "url": "https://github.com/DietrichGebert/ponytail"
+  },
+  {
+    "description": "Agent Skills and Structured Prompts for Scalable Development",
+    "id": "DongDuong2001/pudo-code-system",
+    "language": "JavaScript",
+    "name": "DongDuong2001/pudo-code-system",
+    "stars": 2,
+    "updated_at": "2026-06-12T15:53:31Z",
+    "url": "https://github.com/DongDuong2001/pudo-code-system"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: GraphStack v4.6.4 \u2014 Orchestrated, graph-first, GNAP-tracked AI development (cross-platform)\nalwaysApply: true\n---\n\n# GraphStack Core Rules (v4.7.0)\n\n## \ud83c\udfaf Default Mode: Orchestrated\n\nUnless the user explicitly activates a single role, always run as the **Orchestrator**.\n\n**Frictionless startup (Cursor):** This project's `.cursor/rules/graphstack.mdc` is\n`alwaysApply: true`, so Composer/Agent already ships with GraphStack rules in every\nnew chat. The user does **not** need to paste `Read orchestrator/ORCHESTRATOR.md \u2026`\nevery time.\nYour obligation is identical to **executing**\n`orchestrator/ORCHESTRATOR.md` \u2192 **Activation** on your first substantive turn,\nbefore acting on substantive work.\n\n**Optional shortcut:** The `/graphstack` Cursor command (project slash menu) expands\nexplicit Orchestrator-bootstrap instructions.\n\nThese rules are ALWAYS active in this project. Follow them in every response.\n\n## \ud83d\ude80 Activation (mandatory first turn \u2014 full checklist)\n\nRun **one parallel read batch** (never split across turns):\n\n```\norchestrator/TOKEN_OPTIMIZER.md\ngraphify-out/GRAPH_REPORT.md          (if exists)\nhandoff/BRIEF.md\nhandoff/board/doing/*.json            (note task ids if any)\nhandoff/STATE.md                      (last ## block only)\n```\n\nThen greet per `orchestrator/ORCHESTRATOR.md` step 8.\n\n## \u26d4 First-turn contract (when user message includes a task goal)\n\nThe user giving a goal in the same message does **NOT** mean \u201cimplement now\u201d.\nIt means: **start the GraphStack cycle** \u2014 Architect phase only.\n\n```\nALLOWED turn 1:  parallel Activation reads, graph query, cycle start, handoff/BRIEF.md\nFORBIDDEN turn 1: any Write/Edit on code paths, implementation, \u201cquick fix\u201d patches\n```\n\nRequired sequence before any code file changes:\n1. Announce `[ARCHITECT MODE]`\n2. `python -m graphstack cycle start <task-id> \"<title>\"`\n3. Write `handoff/BRIEF.md` (Status: Ready for Builder)\n4. Orchestrator \u2192 `cycle enter-builder` \u2192 then `[BUILDER MODE]`\n\n**Never interpret \u201cproceed\u201d, \u201cdevam\u201d, or \u201cgoal embedded\u201d as permission to code.**\n\n**If doing/ has a task and BRIEF is Ready for Builder:** offer resume Builder or\n`python -m graphstack cycle enter-builder <task-id>` before code edits.\n\n## \ud83e\udde0 Rule 1: Graph First (Most Important)\n\nWhen a graph exists, answer structural questions from the graph before opening raw sources:\n- `python -m graphstack graph query \"\u2026\"` or `graphify-out/GRAPH_REPORT.md` (once per session)\n- Open implementation files only when the graph cannot answer\n\nWhen no graph exists, suggest `/graphify .`; if proceeding without confirmation,\nstate risks explicitly.\n\n## \u26a1 Rule 2: Token Discipline\n\nThe **full** decision tree lives in `orchestrator/TOKEN_OPTIMIZER.md` (loaded at activation).\n\n```\nIs the answer in the graph?        \u2192 python -m graphstack graph query \"\u2026\"\nShell/git/test command needed?     \u2192 python -m graphstack run -- <cmd> (not raw)\nIs this tool call speculative?     \u2192 Cancel it, ask user first\nCan reads run in parallel?         \u2192 Parallelize them\nOutput > 15 lines user won't act on \u2192 Summarize instead\n```\n\n## \ud83c\udfad Rule 3: Role Discipline (announce every transition)\n\nBefore acting as a role, announce: `[ARCHITECT MODE]`, `[BUILDER MODE]`, etc.\n\nAfter every transition, run:\n```bash\npython -m graphstack state set --role <role> [--task <task-id>]\n```\n\n**FORBIDDEN without active builder role:**\n- Editing or creating code files (anything outside `handoff/`, `graphify-out/`, `.cursor/`)\n- The process gate (v4.6) denies edits unless `handoff/STATE.json` has `role=builder`\n  and a task is in `handoff/board/doing/`\n\n**Cycle start (new feature):**\n```bash\npython -m graphstack cycle start <task-id> \"<title>\"\n```\nArchitect writes BRIEF \u2192 then:\n```bash\npython -m graphstack cycle enter-builder <task-id>\n```\n\n## \ud83d\udccb Rule 4: Brief-Driven Building\n\nThe Builder NEVER builds without a brief from `handoff/BRIEF.md` with\n**Status: Ready for Builder**.\nThe Reviewer NEVER approves without checking against the brief.\nIf no brief exists, the Architect must write one first.\n\n## \ud83d\udeab Rule 5: No Scope Creep\n\nBuild exactly what the brief says.\nIf something looks wrong but is out of scope, note it in `handoff/REVIEW.md`.\n\n## \ud83d\udd04 Rule 6: Graph Staleness Check\n\nIf `graphify-out/GRAPH_REPORT.md` is older than the files being discussed:\n- Warn: \"Graph may be stale. Consider running `/graphify --update`\"\n\n## \ud83d\udcc1 Rule 7: Handoff Files\n\n- `handoff/BRIEF.md` \u2014 Architect \u2192 Builder\n- `handoff/REVIEW.md` \u2014 Reviewer findings (append-only)\n- `handoff/STATE.md` \u2014 human session log (append-only)\n- `handoff/STATE.json` \u2014 machine state for gate hooks\n\n## \ud83d\udd01 Rule 8: Full Cycle (do not skip \u2014 mechanical handoffs)\n\nFor any feature or fix that touches code, run **every** phase in order.\nNever compress Reviewer + QA + Ship into one turn.\n\n```\nARCHITECT  \u2192 cycle start + BRIEF (Ready for Builder)\nBUILDER    \u2192 cycle enter-builder \u2192 implement\nREVIEWER   \u2192 cycle enter-reviewer \u2192 REVIEW.md Verdict: Approved\nQA         \u2192 cycle enter-qa \u2192 REVIEW.md QA Report (Overall: PASS)\nSHIP       \u2192 cycle enter-ship \u2192 checklist \u2192 cycle close\n```\n\nMechanical commands (run each before acting as that role):\n\n```bash\npython -m graphstack cycle enter-reviewer <task-id>\npython -m graphstack cycle enter-qa <task-id>\npython -m graphstack cycle enter-ship <task-id>\npython -m graphstack cycle close <task-id>\n```\n\nGate blocks code **commits** and early **board complete** until `role=ship` and\nREVIEW has both Verdict: Approved and a shippable QA Report.\n\nNever jump from graph exploration directly to implementation.\n\n## \u26d4 Close-turn contract (implementation done \u2260 cycle done)\n\nWhen Builder finishes acceptance criteria:\n\n```\nFORBIDDEN: stop with task in doing/, role=builder, or \"I'm done\" to the user\nFORBIDDEN: skip Reviewer, QA, or Ship \u2014 no \"skip review\" / \"just ship\"\nFORBIDDEN: git commit or board complete before cycle enter-ship\nREQUIRED:  cycle enter-reviewer \u2192 enter-qa \u2192 enter-ship \u2192 cycle close\n```\n\n**\"devam\" / \"bitir\" after implementation** \u2192 `cycle enter-reviewer`, not idle.\n**\"devam\" after brief approval** (Architect) \u2192 `cycle enter-builder` only.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/graphstack.mdc"
+    },
+    "description": "Graph-first, automatically orchestrated AI development workflow. One prompt starts the entire lifecycle \u2014 from blank rep",
+    "id": "MertCapkin/GraphStack",
+    "language": "HTML",
+    "name": "MertCapkin/GraphStack",
+    "stars": 7,
+    "updated_at": "2026-06-12T15:55:13Z",
+    "url": "https://github.com/MertCapkin/GraphStack"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-12T15:45:33Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -26,15 +58,6 @@
     "stars": 0,
     "updated_at": "2026-06-12T15:35:18Z",
     "url": "https://github.com/Thabang9218/cursorifier"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-12T15:30:38Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -223,20 +246,6 @@
     "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
   },
   {
-    "cursorrules": {
-      "content": "---\ndescription: GraphStack v4.6.4 \u2014 Orchestrated, graph-first, GNAP-tracked AI development (cross-platform)\nalwaysApply: true\n---\n\n# GraphStack Core Rules (v4.6.4)\n\n## \ud83c\udfaf Default Mode: Orchestrated\n\nUnless the user explicitly activates a single role, always run as the **Orchestrator**.\n\n**Frictionless startup (Cursor):** This project's `.cursor/rules/graphstack.mdc` is\n`alwaysApply: true`, so Composer/Agent already ships with GraphStack rules in every\nnew chat. The user does **not** need to paste `Read orchestrator/ORCHESTRATOR.md \u2026`\nevery time.\nYour obligation is identical to **executing**\n`orchestrator/ORCHESTRATOR.md` \u2192 **Activation** on your first substantive turn,\nbefore acting on substantive work.\n\n**Optional shortcut:** The `/graphstack` Cursor command (project slash menu) expands\nexplicit Orchestrator-bootstrap instructions.\n\nThese rules are ALWAYS active in this project. Follow them in every response.\n\n## \ud83d\ude80 Activation (mandatory first turn \u2014 full checklist)\n\nRun **one parallel read batch** (never split across turns):\n\n```\norchestrator/TOKEN_OPTIMIZER.md\ngraphify-out/GRAPH_REPORT.md          (if exists)\nhandoff/BRIEF.md\nhandoff/board/doing/*.json            (note task ids if any)\nhandoff/STATE.md                      (last ## block only)\n```\n\nThen greet per `orchestrator/ORCHESTRATOR.md` step 8.\n\n## \u26d4 First-turn contract (when user message includes a task goal)\n\nThe user giving a goal in the same message does **NOT** mean \u201cimplement now\u201d.\nIt means: **start the GraphStack cycle** \u2014 Architect phase only.\n\n```\nALLOWED turn 1:  parallel Activation reads, graph query, cycle start, handoff/BRIEF.md\nFORBIDDEN turn 1: any Write/Edit on code paths, implementation, \u201cquick fix\u201d patches\n```\n\nRequired sequence before any code file changes:\n1. Announce `[ARCHITECT MODE]`\n2. `python -m graphstack cycle start <task-id> \"<title>\"`\n3. Write `handoff/BRIEF.md` (Status: Ready for Builder)\n4. Orchestrator \u2192 `cycle enter-builder` \u2192 then `[BUILDER MODE]`\n\n**Never interpret \u201cproceed\u201d, \u201cdevam\u201d, or \u201cgoal embedded\u201d as permission to code.**\n\n**If doing/ has a task and BRIEF is Ready for Builder:** offer resume Builder or\n`python -m graphstack cycle enter-builder <task-id>` before code edits.\n\n## \ud83e\udde0 Rule 1: Graph First (Most Important)\n\nWhen a graph exists, answer structural questions from the graph before opening raw sources:\n- `python -m graphstack graph query \"\u2026\"` or `graphify-out/GRAPH_REPORT.md` (once per session)\n- Open implementation files only when the graph cannot answer\n\nWhen no graph exists, suggest `/graphify .`; if proceeding without confirmation,\nstate risks explicitly.\n\n## \u26a1 Rule 2: Token Discipline\n\nThe **full** decision tree lives in `orchestrator/TOKEN_OPTIMIZER.md` (loaded at activation).\n\n```\nIs the answer in the graph?        \u2192 python -m graphstack graph query \"\u2026\"\nShell/git/test command needed?     \u2192 python -m graphstack run -- <cmd> (not raw)\nIs this tool call speculative?     \u2192 Cancel it, ask user first\nCan reads run in parallel?         \u2192 Parallelize them\nOutput > 15 lines user won't act on \u2192 Summarize instead\n```\n\n## \ud83c\udfad Rule 3: Role Discipline (announce every transition)\n\nBefore acting as a role, announce: `[ARCHITECT MODE]`, `[BUILDER MODE]`, etc.\n\nAfter every transition, run:\n```bash\npython -m graphstack state set --role <role> [--task <task-id>]\n```\n\n**FORBIDDEN without active builder role:**\n- Editing or creating code files (anything outside `handoff/`, `graphify-out/`, `.cursor/`)\n- The process gate (v4.6) denies edits unless `handoff/STATE.json` has `role=builder`\n  and a task is in `handoff/board/doing/`\n\n**Cycle start (new feature):**\n```bash\npython -m graphstack cycle start <task-id> \"<title>\"\n```\nArchitect writes BRIEF \u2192 then:\n```bash\npython -m graphstack cycle enter-builder <task-id>\n```\n\n## \ud83d\udccb Rule 4: Brief-Driven Building\n\nThe Builder NEVER builds without a brief from `handoff/BRIEF.md` with\n**Status: Ready for Builder**.\nThe Reviewer NEVER approves without checking against the brief.\nIf no brief exists, the Architect must write one first.\n\n## \ud83d\udeab Rule 5: No Scope Creep\n\nBuild exactly what the brief says.\nIf something looks wrong but is out of scope, note it in `handoff/REVIEW.md`.\n\n## \ud83d\udd04 Rule 6: Graph Staleness Check\n\nIf `graphify-out/GRAPH_REPORT.md` is older than the files being discussed:\n- Warn: \"Graph may be stale. Consider running `/graphify --update`\"\n\n## \ud83d\udcc1 Rule 7: Handoff Files\n\n- `handoff/BRIEF.md` \u2014 Architect \u2192 Builder\n- `handoff/REVIEW.md` \u2014 Reviewer findings (append-only)\n- `handoff/STATE.md` \u2014 human session log (append-only)\n- `handoff/STATE.json` \u2014 machine state for gate hooks\n\n## \ud83d\udd01 Rule 8: Full Cycle (do not skip)\n\nFor any feature or fix that touches code:\n\n```\nARCHITECT \u2192 brief + board task\nBUILDER   \u2192 implement (only after enter-builder)\nREVIEWER  \u2192 append handoff/REVIEW.md with Verdict\nQA        \u2192 trace call paths from brief\nSHIP      \u2192 checklist + commit (strict gate: role=ship)\n```\n\nNever jump from graph exploration directly to implementation.\n\n## \u26d4 Close-turn contract (implementation done \u2260 cycle done)\n\nWhen Builder finishes acceptance criteria:\n\n```\nFORBIDDEN: stop with task in doing/, role=builder, or \"I'm done\" to the user\nFORBIDDEN: append STATE.md without matching state set + board commands\nREQUIRED:  [BUILDER \u2192 REVIEWER] \u2192 QA \u2192 SHIP \u2192 board complete \u2192 role=idle\n```\n\nAfter Ship checklist:\n```bash\npython -m graphstack board complete <task-id>\npython -m graphstack state set --role idle\n# or: python -m graphstack cycle close <task-id>\n```\n\n**\"devam\" / \"bitir\" after implementation** means advance to **Reviewer**, not close the cycle.\n**\"devam\" after brief approval** (Architect phase) means enter **Builder** only.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/graphstack.mdc"
-    },
-    "description": "Graph-first, automatically orchestrated AI development workflow. One prompt starts the entire lifecycle \u2014 from blank rep",
-    "id": "MertCapkin/GraphStack",
-    "language": "HTML",
-    "name": "MertCapkin/GraphStack",
-    "stars": 7,
-    "updated_at": "2026-06-12T13:28:23Z",
-    "url": "https://github.com/MertCapkin/GraphStack"
-  },
-  {
     "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
     "id": "eumiguellllllllll/copilot-rules",
     "language": "Batchfile",
@@ -342,7 +351,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36658,
+    "stars": 36659,
     "updated_at": "2026-06-12T01:55:41Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -446,15 +455,6 @@
     "stars": 1,
     "updated_at": "2026-06-11T11:04:49Z",
     "url": "https://github.com/sungurerdim/dev-skills"
-  },
-  {
-    "description": "Agent Skills and Structured Prompts for Scalable Development",
-    "id": "DongDuong2001/pudo-code-system",
-    "language": "JavaScript",
-    "name": "DongDuong2001/pudo-code-system",
-    "stars": 2,
-    "updated_at": "2026-06-12T15:43:05Z",
-    "url": "https://github.com/DongDuong2001/pudo-code-system"
   },
   {
     "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
