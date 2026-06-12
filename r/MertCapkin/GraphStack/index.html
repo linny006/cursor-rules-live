@@ -55,11 +55,11 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <section id="rules"><h2>Actual rules from this repo</h2>
 <p>Path in source repo: <code>.cursor/rules/graphstack.mdc</code> &middot; format: <code>mdc</code></p>
 <pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
-description: GraphStack v4.6 — Orchestrated, graph-first, GNAP-tracked AI development (cross-platform)
+description: GraphStack v4.6.4 — Orchestrated, graph-first, GNAP-tracked AI development (cross-platform)
 alwaysApply: true
 ---
 
-# GraphStack Core Rules (v4.6)
+# GraphStack Core Rules (v4.6.4)
 
 ## 🎯 Default Mode: Orchestrated
 
@@ -194,6 +194,26 @@ SHIP      → checklist + commit (strict gate: role=ship)
 ```
 
 Never jump from graph exploration directly to implementation.
+
+## ⛔ Close-turn contract (implementation done ≠ cycle done)
+
+When Builder finishes acceptance criteria:
+
+```
+FORBIDDEN: stop with task in doing/, role=builder, or &quot;I&#x27;m done&quot; to the user
+FORBIDDEN: append STATE.md without matching state set + board commands
+REQUIRED:  [BUILDER → REVIEWER] → QA → SHIP → board complete → role=idle
+```
+
+After Ship checklist:
+```bash
+python -m graphstack board complete &lt;task-id&gt;
+python -m graphstack state set --role idle
+# or: python -m graphstack cycle close &lt;task-id&gt;
+```
+
+**&quot;devam&quot; / &quot;bitir&quot; after implementation** means advance to **Reviewer**, not close the cycle.
+**&quot;devam&quot; after brief approval** (Architect phase) means enter **Builder** only.
 </code></pre>
 <p><a href="https://github.com/MertCapkin/GraphStack/blob/HEAD/.cursor/rules/graphstack.mdc" rel="external">View raw on GitHub</a></p>
 </section>
