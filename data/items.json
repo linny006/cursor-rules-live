@@ -10,8 +10,17 @@
     "language": "HTML",
     "name": "MertCapkin/GraphStack",
     "stars": 7,
-    "updated_at": "2026-06-12T13:11:47Z",
+    "updated_at": "2026-06-12T13:28:23Z",
     "url": "https://github.com/MertCapkin/GraphStack"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-12T13:15:34Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
@@ -21,15 +30,6 @@
     "stars": 1,
     "updated_at": "2026-06-12T13:07:42Z",
     "url": "https://github.com/eumiguellllllllll/copilot-rules"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-12T13:00:53Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
@@ -142,7 +142,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 511,
+    "stars": 523,
     "updated_at": "2026-06-12T10:56:31Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
