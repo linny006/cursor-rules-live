@@ -5,7 +5,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-12T02:45:33Z",
+    "updated_at": "2026-06-12T03:00:31Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -50,17 +50,17 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 0,
+    "stars": 1,
     "updated_at": "2026-06-12T02:33:01Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
   {
-    "description": "Your AI coding agents are brilliant but a little too eager to call it 'done'. Agentic OS hands them a workflow they'll a",
+    "description": "Your AI coding agents are brilliant but a little too eager to call it 'done'. Agentic OS gives them a five-step workflow",
     "id": "KbWen/agentic-os",
     "language": "Python",
     "name": "KbWen/agentic-os",
     "stars": 8,
-    "updated_at": "2026-06-12T02:23:23Z",
+    "updated_at": "2026-06-12T03:14:21Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
   {
@@ -119,7 +119,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36641,
+    "stars": 36643,
     "updated_at": "2026-06-12T01:55:41Z",
     "url": "https://github.com/wshobson/agents"
   },
