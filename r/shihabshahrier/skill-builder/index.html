@@ -4,17 +4,17 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="index, follow, max-image-preview:large">
-<title>ebbaunqualified520/ios-agent-skills - entry on Cursor Rules Live</title>
-<meta name="description" content="Build 9 iOS agent skills for SwiftUI, testing, security, and more in one install for AI coding agents">
-<link rel="canonical" href="https://linny006.github.io/cursor-rules-live/r/ebbaunqualified520/ios-agent-skills/">
+<title>shihabshahrier/skill-builder - entry on Cursor Rules Live</title>
+<meta name="description" content="Build &amp; audit AI agent skills from plain English">
+<link rel="canonical" href="https://linny006.github.io/cursor-rules-live/r/shihabshahrier/skill-builder/">
 <meta property="og:type" content="article">
-<meta property="og:title" content="ebbaunqualified520/ios-agent-skills - entry on Cursor Rules Live">
-<meta property="og:description" content="Build 9 iOS agent skills for SwiftUI, testing, security, and more in one install for AI coding agents">
-<meta property="og:url" content="https://linny006.github.io/cursor-rules-live/r/ebbaunqualified520/ios-agent-skills/">
+<meta property="og:title" content="shihabshahrier/skill-builder - entry on Cursor Rules Live">
+<meta property="og:description" content="Build &amp; audit AI agent skills from plain English">
+<meta property="og:url" content="https://linny006.github.io/cursor-rules-live/r/shihabshahrier/skill-builder/">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="ebbaunqualified520/ios-agent-skills - entry on Cursor Rules Live">
-<meta name="twitter:description" content="Build 9 iOS agent skills for SwiftUI, testing, security, and more in one install for AI coding agents">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"ebbaunqualified520/ios-agent-skills","codeRepository":"https://github.com/ebbaunqualified520/ios-agent-skills","programmingLanguage":"Shell","url":"https://linny006.github.io/cursor-rules-live/r/ebbaunqualified520/ios-agent-skills/","description":"Build 9 iOS agent skills for SwiftUI, testing, security, and more in one install for AI coding agents","author":{"@type":"Person","name":"ebbaunqualified520","url":"https://github.com/ebbaunqualified520"},"dateModified":"2026-06-12"}</script>
+<meta name="twitter:title" content="shihabshahrier/skill-builder - entry on Cursor Rules Live">
+<meta name="twitter:description" content="Build &amp; audit AI agent skills from plain English">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"shihabshahrier/skill-builder","codeRepository":"https://github.com/shihabshahrier/skill-builder","programmingLanguage":"Shell","url":"https://linny006.github.io/cursor-rules-live/r/shihabshahrier/skill-builder/","description":"Build & audit AI agent skills from plain English","author":{"@type":"Person","name":"shihabshahrier","url":"https://github.com/shihabshahrier"},"dateModified":"2026-06-12"}</script>
 <style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
          --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
 * { box-sizing: border-box; }
@@ -41,17 +41,53 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 </head>
 <body>
 <div class="wrap">
-<nav class="bc"><a href="https://linny006.github.io/cursor-rules-live/">Cursor Rules Live</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/popular/">Entries</a> &#183; <span>ebbaunqualified520/ios-agent-skills</span></nav>
+<nav class="bc"><a href="https://linny006.github.io/cursor-rules-live/">Cursor Rules Live</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/popular/">Entries</a> &#183; <span>shihabshahrier/skill-builder</span></nav>
 <main>
-<h1>ebbaunqualified520/ios-agent-skills</h1>
-<p class="lead">Build 9 iOS agent skills for SwiftUI, testing, security, and more in one install for AI coding agents</p>
+<h1>shihabshahrier/skill-builder</h1>
+<p class="lead">Build &amp; audit AI agent skills from plain English</p>
 <div class="meta">
 <span><strong>Stars</strong> 0</span>
 <span><strong>Language</strong> Shell</span>
 <span><strong>Last updated</strong> 2026-06-12</span>
-<span><a href="https://github.com/ebbaunqualified520/ios-agent-skills" rel="external">Source on GitHub</a></span>
-<span><a href="https://github.com/ebbaunqualified520" rel="external">@ebbaunqualified520</a></span>
+<span><a href="https://github.com/shihabshahrier/skill-builder" rel="external">Source on GitHub</a></span>
+<span><a href="https://github.com/shihabshahrier" rel="external">@shihabshahrier</a></span>
 </div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/skill-builder.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
+description: &quot;skill-builder — build or audit any AI agent skill from a description when user invokes /skill-builder&quot;
+alwaysApply: false
+---
+
+When user says `/skill-builder`, follow `skills/skill-builder/SKILL.md`.
+
+**Invocation**: `/skill-builder &quot;description&quot; [--type workflow|mode|tool|reference|agent] [--repo] [--audit path] [--fix]`
+
+**Phases (create)**:
+0. Route — detect --audit; if present jump to Phase A
+1. Classify skill type (auto-detect or --type)
+2. Gather requirements (≤3 questions total)
+3. Domain research — WebSearch official docs (skip if no references needed)
+4. Generate SKILL.md (frontmatter + body for type)
+5. Generate references/ (verified facts only)
+6. Generate hooks/ (mode skills only)
+7. Scaffold full repo (--repo only)
+8. Report + install commands
+
+**Phase A (--audit)**:
+1. Read SKILL.md at path
+2. Run quality checklist from `references/skill-anatomy.md`
+3. Output audit report: failures / warnings / passed
+4. If --fix: output corrected SKILL.md (fix failures only)
+
+**Critical**:
+- `name`: `^[a-z0-9]+(-[a-z0-9]+)*$`, max 64 chars
+- `description`: max 1024 chars; SKILL.md body: max 5000 tokens
+- Domain facts in references: WebSearch official docs — never guess
+- Reference files &gt;100 lines: TOC at top; one-level-deep only
+</code></pre>
+<p><a href="https://github.com/shihabshahrier/skill-builder/blob/HEAD/.cursor/rules/skill-builder.mdc" rel="external">View raw on GitHub</a></p>
+</section>
 <section><h2>Why this is listed</h2>
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>
