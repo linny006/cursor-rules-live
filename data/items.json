@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-12T02:45:33Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
     "id": "eumiguellllllllll/copilot-rules",
     "language": "Batchfile",
@@ -46,13 +55,13 @@
     "url": "https://github.com/DietrichGebert/ponytail"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-12T02:30:44Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
+    "description": "Your AI coding agents are brilliant but a little too eager to call it 'done'. Agentic OS hands them a workflow they'll a",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 8,
+    "updated_at": "2026-06-12T02:23:23Z",
+    "url": "https://github.com/KbWen/agentic-os"
   },
   {
     "cursorrules": {
@@ -110,7 +119,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36640,
+    "stars": 36641,
     "updated_at": "2026-06-12T01:55:41Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -428,15 +437,6 @@
     "stars": 5,
     "updated_at": "2026-06-11T10:30:40Z",
     "url": "https://github.com/philipbankier/awesome-agent-skills"
-  },
-  {
-    "description": "Governance-first OS for AI coding agents \u2014 structured workflows, delivery gates, engineering guardrails, and 14 professi",
-    "id": "KbWen/agentic-os",
-    "language": "Python",
-    "name": "KbWen/agentic-os",
-    "stars": 8,
-    "updated_at": "2026-06-12T02:23:23Z",
-    "url": "https://github.com/KbWen/agentic-os"
   },
   {
     "description": "Agent Skills and Structured Prompts for Scalable Development",
