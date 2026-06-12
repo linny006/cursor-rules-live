@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-06-12 09:45 UTC
+> ⏰ Last updated: 2026-06-12 10:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,8 +53,8 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [MertCapkin/GraphStack](https://github.com/MertCapkin/GraphStack) | 7 | HTML | 2026-06-12 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/MertCapkin/GraphStack/) | Graph-first, automatically orchestrated AI development workflow. One prompt starts the entire lifecycle — from blank rep |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-06-12 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-06-12 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [MertCapkin/GraphStack](https://github.com/MertCapkin/GraphStack) | 7 | HTML | 2026-06-12 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/MertCapkin/GraphStack/) | Graph-first, automatically orchestrated AI development workflow. One prompt starts the entire lifecycle — from blank rep |
 | 3 | [eumiguellllllllll/copilot-rules](https://github.com/eumiguellllllllll/copilot-rules) | 1 | Batchfile | 2026-06-12 | — | ⚡ Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively. |
 | 4 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 15 | — | 2026-06-12 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
 | 5 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-06-12 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
@@ -81,7 +81,7 @@ expired items removed — so you can rely on what you see being current.
 | 26 | [heymegabyte/claude-skills](https://github.com/heymegabyte/claude-skills) | 11 | JavaScript | 2026-06-12 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/claude-skills/) | 14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts → deployed products. |
 | 27 | [wilsonwaters/3d-printing](https://github.com/wilsonwaters/3d-printing) | 0 | OpenSCAD | 2026-06-12 | — | 3D printing toolkit — AI-powered design skills for Claude Code, Cursor, Windsurf & Copilot, plus parametric OpenSCAD mod |
 | 28 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 8 | Python | 2026-06-12 | — | Your AI coding agents are brilliant but a little too eager to call it 'done'. Agentic OS gives them a five-step workflow |
-| 29 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 364 | JavaScript | 2026-06-12 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 29 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 375 | JavaScript | 2026-06-12 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 30 | [wshobson/agents](https://github.com/wshobson/agents) | 36650 | Python | 2026-06-12 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI |
 | 31 | [KingEmma7/cursor-os](https://github.com/KingEmma7/cursor-os) | 0 | JavaScript | 2026-06-12 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/KingEmma7/cursor-os/) | Make Cursor project-aware with repo-level rules, memory, workflows, verifier agents, and localization prompts. |
 | 32 | [caioribeiroclw-pixel/pluribus](https://github.com/caioribeiroclw-pixel/pluribus) | 6 | JavaScript | 2026-06-12 | — | Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security |
