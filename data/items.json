@@ -1,5 +1,32 @@
 [
   {
+    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
+    "id": "zinxj/uikit-expert-skill",
+    "language": "\u2014",
+    "name": "zinxj/uikit-expert-skill",
+    "stars": 3,
+    "updated_at": "2026-06-12T23:48:59Z",
+    "url": "https://github.com/zinxj/uikit-expert-skill"
+  },
+  {
+    "description": "Manage and organize project workspaces while dynamically injecting relevant skills for efficient AI assistant context lo",
+    "id": "GrekosTheJogurt/antigravity-workspace-manager",
+    "language": "Python",
+    "name": "GrekosTheJogurt/antigravity-workspace-manager",
+    "stars": 1,
+    "updated_at": "2026-06-12T23:45:44Z",
+    "url": "https://github.com/GrekosTheJogurt/antigravity-workspace-manager"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-12T23:45:43Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: \"skill-builder \u2014 build or audit any AI agent skill from a description when user invokes /skill-builder\"\nalwaysApply: false\n---\n\nWhen user says `/skill-builder`, follow `skills/skill-builder/SKILL.md`.\n\n**Invocation**: `/skill-builder \"description\" [--type workflow|mode|tool|reference|agent] [--repo] [--audit path] [--fix]`\n\n**Phases (create)**:\n0. Route \u2014 detect --audit; if present jump to Phase A\n1. Classify skill type (auto-detect or --type)\n2. Gather requirements (\u22643 questions total)\n3. Domain research \u2014 WebSearch official docs (skip if no references needed)\n4. Generate SKILL.md (frontmatter + body for type)\n5. Generate references/ (verified facts only)\n6. Generate hooks/ (mode skills only)\n7. Scaffold full repo (--repo only)\n8. Report + install commands\n\n**Phase A (--audit)**:\n1. Read SKILL.md at path\n2. Run quality checklist from `references/skill-anatomy.md`\n3. Output audit report: failures / warnings / passed\n4. If --fix: output corrected SKILL.md (fix failures only)\n\n**Critical**:\n- `name`: `^[a-z0-9]+(-[a-z0-9]+)*$`, max 64 chars\n- `description`: max 1024 chars; SKILL.md body: max 5000 tokens\n- Domain facts in references: WebSearch official docs \u2014 never guess\n- Reference files >100 lines: TOC at top; one-level-deep only\n",
       "format": "mdc",
@@ -37,7 +64,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 904,
+    "stars": 910,
     "updated_at": "2026-06-12T23:43:26Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -68,15 +95,6 @@
     "stars": 3,
     "updated_at": "2026-06-12T23:33:29Z",
     "url": "https://github.com/Luxvil/ai-coding-rules"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-12T23:30:43Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -287,24 +305,6 @@
     "url": "https://github.com/pekral/cursor-rules"
   },
   {
-    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
-    "id": "zinxj/uikit-expert-skill",
-    "language": "\u2014",
-    "name": "zinxj/uikit-expert-skill",
-    "stars": 3,
-    "updated_at": "2026-06-12T21:05:19Z",
-    "url": "https://github.com/zinxj/uikit-expert-skill"
-  },
-  {
-    "description": "Manage and organize project workspaces while dynamically injecting relevant skills for efficient AI assistant context lo",
-    "id": "GrekosTheJogurt/antigravity-workspace-manager",
-    "language": "Python",
-    "name": "GrekosTheJogurt/antigravity-workspace-manager",
-    "stars": 1,
-    "updated_at": "2026-06-12T21:02:11Z",
-    "url": "https://github.com/GrekosTheJogurt/antigravity-workspace-manager"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: Capture architectural decisions as structured ADRs (Architecture Decision Records). Use when user says 'record this decision', 'ADR this', 'why did we choose X', 'document this trade-off', 'we decided to...', or when a significant choice is made between alternatives (framework, database, pattern, API design, infra approach).\nglobs: **/docs/adr/*.md, **/docs/adr/**/*.md\nalwaysApply: false\n---\n# ADR Skill\n\nCapture architectural decisions as they happen, so the *why* lives next to the code\ninstead of in a Slack thread or someone's memory. Produces lightweight ADR documents\nunder `docs/adr/`.\n\n## Keywords\nadr, architecture decision record, decision, rationale, trade-off, alternatives, we decided, why did we choose, design decision, supersede, decision log, nygard\n\n## When to record a decision\n\n- The user says \"record this\", \"ADR this\", \"let's document this decision\".\n- A choice is made between **significant alternatives**: framework, library, database,\n  language, pattern, API shape, infra/deploy approach, build vs buy.\n- The user says \"we decided to\u2026\" or \"the reason we're doing X instead of Y is\u2026\".\n- The user asks \"why did we choose X?\" \u2192 read and summarize the existing ADR.\n\nFor trivial or easily-reversible choices, don't create an ADR \u2014 note it inline and move on.\n\n## Output Artifacts\n\n| Request | Output |\n|---------|--------|\n| `/adr new \"<title>\"` | A new `docs/adr/NNNN-<slug>.md` + an updated index |\n| `/adr list` | The decision log (ID, title, status, date) |\n| `/adr supersede <NNNN>` | A new ADR marked as superseding an old one; old one flipped to `superseded` |\n\n---\n\n## Format\n\nLightweight Nygard ADR, adapted for AI-assisted work:\n\n```markdown\n# ADR-NNNN: <Decision Title>\n\n**Date**: YYYY-MM-DD\n**Status**: proposed | accepted | deprecated | superseded by ADR-NNNN\n**Deciders**: <who was involved>\n\n## Context\n\nWhat is the issue motivating this decision? The situation, constraints, and forces at\nplay. 2\u20135 sentences.\n\n## Decision\n\nWhat we are doing. 1\u20133 sentences, stated clearly.\n\n## Alternatives Considered\n\n### <Alternative>\n- **Pros**: \u2026\n- **Cons**: \u2026\n- **Why not**: the specific reason it was rejected.\n\n(Repeat per alternative.)\n\n## Consequences\n\n### Positive\n- \u2026\n\n### Negative / trade-offs\n- \u2026\n\n### Risks\n- <risk and its mitigation>\n```\n\n---\n\n## NEW \u2014 Record a decision\n\n1. **Initialize once.** If `docs/adr/` does not exist, ask the user to confirm before\n   creating it. On confirmation, create the directory, a `README.md` seeded with the\n   index table header (below), and a `template.md` copy of the format above. Never\n   create files without explicit consent.\n2. **Number it.** Next zero-padded number after the highest existing `docs/adr/NNNN-*.md`\n   (start at `0001`). Slug = kebab-case of the title.\n3. **Fill it from the conversation** \u2014 extract the decision, the context that prompted it,\n   the alternatives actually weighed, and the consequences. Do not invent alternatives\n   that were never discussed; if context is thin, ask one or two targeted questions.\n4. **Default status** `accepted` when the user states a decision; `proposed` when still\n   weighing. Date = today.\n5. **Update the index** in `docs/adr/README.md`.\n\n## Index format\n\n`docs/adr/README.md`:\n\n```markdown\n# Architecture Decision Records\n\n| ID | Title | Status | Date |\n|----|-------|--------|------|\n| [ADR-0001](0001-use-eks-over-ecs.md) | Use EKS over ECS | accepted | 2026-06-10 |\n```\n\n## SUPERSEDE \u2014 Replace a decision\n\n1. Read the old ADR.\n2. Create a new ADR that references it: \"Supersedes ADR-NNNN\" in Context.\n3. Flip the old ADR's `Status` to `superseded by ADR-MMMM`.\n4. Update both rows in the index.\n\nNever delete or rewrite a past ADR's decision \u2014 superseding preserves the history of\n*why it changed*, which is the whole point.\n",
       "format": "mdc",
@@ -475,7 +475,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36668,
+    "stars": 36669,
     "updated_at": "2026-06-12T01:55:41Z",
     "url": "https://github.com/wshobson/agents"
   },
