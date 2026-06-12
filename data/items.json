@@ -5,8 +5,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-12T22:00:57Z",
+    "updated_at": "2026-06-12T22:09:11Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Curated AI Agent Profiles for Claude Code, Codex, Cursor and more \u2014 install with forgecat CLI",
+    "id": "nota-america/forgecat-agent-profiles",
+    "language": "TypeScript",
+    "name": "nota-america/forgecat-agent-profiles",
+    "stars": 3,
+    "updated_at": "2026-06-12T22:08:13Z",
+    "url": "https://github.com/nota-america/forgecat-agent-profiles"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -314,7 +323,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 863,
+    "stars": 866,
     "updated_at": "2026-06-12T16:00:10Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -469,15 +478,6 @@
     "stars": 4,
     "updated_at": "2026-06-12T00:47:50Z",
     "url": "https://github.com/kensaurus/cursor-kenji"
-  },
-  {
-    "description": "Curated AI Agent Profiles for Claude Code, Codex, Cursor and more \u2014 install with forgecat CLI",
-    "id": "nota-america/forgecat-agent-profiles",
-    "language": "TypeScript",
-    "name": "nota-america/forgecat-agent-profiles",
-    "stars": 2,
-    "updated_at": "2026-06-12T22:08:13Z",
-    "url": "https://github.com/nota-america/forgecat-agent-profiles"
   },
   {
     "description": "AI coding rules that actually work. Enforce instruction files via hooks \u2014 CLAUDE.md, .cursorrules, copilot-instructions,",
