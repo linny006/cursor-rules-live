@@ -1,11 +1,39 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: >-\n  Capabilities catalog for cursor-kenji skills. Routes requests to the right\n  skill or bundled workflow. Always-on routing index \u2014 the agent consults this\n  to pick between individual skills and bundled workflows.\nglobs:\nalwaysApply: true\n---\n\n# Skill Routing Index\n\n## Bundled workflows (use these first \u2014 they chain multiple skills)\n\n| Intent | Workflow skill |\n|--------|----------------|\n| Build a new feature end-to-end | `workflow-build-feature` |\n| Fix a bug and ship it | `workflow-fix-and-ship` |\n| Pre-release quality check | `workflow-quality-gate` |\n| Full launch preparation | `workflow-launch-ready` |\n| Orient to a new codebase | `workflow-onboard` |\n| Close post-launch feedback loop | `iterate-post-launch` |\n| Disciplined feature-flag rollout | `workflow-feature-flag` |\n\n## When to use a bundled workflow vs individual skill\n\n- **Use a bundle** when the user's request spans multiple phases (spec + build + test, or launch + verify + iterate)\n- **Use an individual skill** when the request is scoped to one phase (\"just run the security audit\", \"just write tests\", \"just write the PR\")\n- **Bundles call individual skills** \u2014 they never duplicate instructions; they sequence them\n\n## Individual skill quick-reference\n\n### Testing & quality\n| Task | Skill |\n|------|-------|\n| Adversarial full-app sweep | `test-red-team` |\n| Drive app as real user, fix inline | `test-playwright` |\n| Comprehensive QA with CRUD verification | `test-qa` |\n| Write unit/integration tests | `test-unit` |\n\n### Audits\n| Task | Skill |\n|------|-------|\n| Static security review (OWASP) | `audit-security` |\n| JS bundle analysis & reduction | `audit-bundle-size` |\n| Core Web Vitals & performance | `audit-performance` |\n| Database schema health | `audit-db-schema` |\n| Translation quality & hardcoded strings | `audit-i18n` |\n| UX heuristics audit | `audit-ux` |\n| Accessibility (WCAG 2.2) | `audit-accessibility` |\n| Design system compliance | `audit-uiux-design-system` |\n\n### Enhancement\n| Task | Skill |\n|------|-------|\n| SEO (meta, OG, JSON-LD, sitemap) | `enhance-web-seo` |\n| PWA (manifest, service worker, offline) | `enhance-pwa` |\n| UI polish & layout | `enhance-web-ui` |\n| UX & information architecture | `enhance-web-ux` |\n| Cross-surface (web + mobile) consistency | `enhance-capacitor-ui` |\n\n### Deploy\n| Task | Skill |\n|------|-------|\n| Post-deploy smoke test | `deploy-verify` |\n| npm package release | `deploy-npm` |\n\n### Debug\n| Task | Skill |\n|------|-------|\n| Debug any error | `debug-error` |\n| Triage & fix Sentry issues | `debug-sentry-monitor` |\n| FE-BE integration mismatches | `debug-fe-be-integration` |\n\n## Skill chaining diagram\n\n```\nworkflow-build-feature\n  \u2514\u2500 workflow-spec-tdd \u2192 test-unit \u2192 test-playwright \u2192 workflow-pr\n\nworkflow-fix-and-ship\n  \u2514\u2500 debug-error \u2192 test-playwright \u2192 workflow-pr \u2192 deploy-verify\n\nworkflow-quality-gate\n  \u2514\u2500 test-red-team \u2192 audit-security \u2192 audit-bundle-size \u2192 audit-performance \u2192 test-unit\n\nworkflow-launch-ready\n  \u2514\u2500 enhance-web-seo \u2192 enhance-pwa \u2192 audit-bundle-size \u2192 audit-i18n\n     \u2192 workflow-quality-gate \u2192 deploy-verify \u2192 iterate-post-launch\n\niterate-post-launch\n  \u2514\u2500 debug-sentry-monitor \u2192 deploy-verify \u2192 test-playwright\n```\n\n## Rules vs Skills\n\n- **Rules** (this file, `full-stack-ship-discipline.mdc`, etc.) = always-on policies, guardrails, routing\n- **Skills** = activated on demand when a task matches the description\n- Never put task-specific workflows in rules \u2014 they waste context on unrelated tasks\n",
+      "format": "mdc",
+      "path": ".cursor/rules/skill-workflows.mdc"
+    },
+    "description": "Curated Cursor AI agent skills, slash commands, MCP configs, subagents & rules for full-stack dev \u2014 React 19, Next.js 15",
+    "id": "kensaurus/cursor-kenji",
+    "language": "JavaScript",
+    "name": "kensaurus/cursor-kenji",
+    "stars": 3,
+    "updated_at": "2026-06-12T00:44:34Z",
+    "url": "https://github.com/kensaurus/cursor-kenji"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: \"USE WHEN: any task in this repo. Global operating rules.\"\nglobs: [\"**/*\"]\nalwaysApply: true\npriority: 100\n---\n\n# Global Rules (Always On)\n\n## Role\nYou are an AI coding assistant. Deliver correct, minimal, testable changes. Surface uncertainty instead of hiding it.\n\n## Non\u2011Negotiables\n- **Correctness > simplicity > consistency > style**.\n- **Minimal diff**: touch only what the task needs.\n- **No drive\u2011by refactors**.\n- **Ask when ambiguous**: assumptions ledger + up to 3 questions.\n- **Stop** on security, data loss, or breaking changes; ask for confirmation.\n\n## Output Discipline\n- Provide a brief plan before changes.\n- Show verification steps (lint/typecheck/tests) and state what wasn\u2019t run.\n\n## Guardrails\n- No hard\u2011coded secrets.\n- No unrelated formatting or renaming.\n- No new dependencies without approval.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/00-global.mdc"
+    },
+    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
+    "id": "Luxvil/ai-coding-rules",
+    "language": "Shell",
+    "name": "Luxvil/ai-coding-rules",
+    "stars": 3,
+    "updated_at": "2026-06-12T00:38:56Z",
+    "url": "https://github.com/Luxvil/ai-coding-rules"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-12T00:23:23Z",
+    "updated_at": "2026-06-12T00:30:46Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -46,7 +74,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36640,
+    "stars": 36639,
     "updated_at": "2026-06-11T23:57:54Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -83,7 +111,7 @@
     "language": "TypeScript",
     "name": "nota-america/forgecat-agent-profiles",
     "stars": 2,
-    "updated_at": "2026-06-12T00:28:23Z",
+    "updated_at": "2026-06-12T00:44:22Z",
     "url": "https://github.com/nota-america/forgecat-agent-profiles"
   },
   {
@@ -280,20 +308,6 @@
     "stars": 0,
     "updated_at": "2026-06-11T20:37:50Z",
     "url": "https://github.com/johnwall123459885/skene-cookbook"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: \"USE WHEN: any task in this repo. Global operating rules.\"\nglobs: [\"**/*\"]\nalwaysApply: true\npriority: 100\n---\n\n# Global Rules (Always On)\n\n## Role\nYou are an AI coding assistant. Deliver correct, minimal, testable changes. Surface uncertainty instead of hiding it.\n\n## Non\u2011Negotiables\n- **Correctness > simplicity > consistency > style**.\n- **Minimal diff**: touch only what the task needs.\n- **No drive\u2011by refactors**.\n- **Ask when ambiguous**: assumptions ledger + up to 3 questions.\n- **Stop** on security, data loss, or breaking changes; ask for confirmation.\n\n## Output Discipline\n- Provide a brief plan before changes.\n- Show verification steps (lint/typecheck/tests) and state what wasn\u2019t run.\n\n## Guardrails\n- No hard\u2011coded secrets.\n- No unrelated formatting or renaming.\n- No new dependencies without approval.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/00-global.mdc"
-    },
-    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
-    "id": "Luxvil/ai-coding-rules",
-    "language": "Shell",
-    "name": "Luxvil/ai-coding-rules",
-    "stars": 3,
-    "updated_at": "2026-06-11T20:30:54Z",
-    "url": "https://github.com/Luxvil/ai-coding-rules"
   },
   {
     "cursorrules": {
@@ -499,14 +513,5 @@
     "stars": 1,
     "updated_at": "2026-06-10T09:17:13Z",
     "url": "https://github.com/GeiserX/lynxprompt-mcp"
-  },
-  {
-    "description": "Cursor plugin for Tailwind CSS v4. Verified rules, migration skills, and anti-pattern detection. Prevents v3 hallucinati",
-    "id": "RoninForge/roninforge-tailwind-v4",
-    "language": "Shell",
-    "name": "RoninForge/roninforge-tailwind-v4",
-    "stars": 1,
-    "updated_at": "2026-06-10T07:45:32Z",
-    "url": "https://github.com/RoninForge/roninforge-tailwind-v4"
   }
 ]

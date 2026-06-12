@@ -14,7 +14,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="kensaurus/cursor-kenji - entry on Cursor Rules Live">
 <meta name="twitter:description" content="Curated Cursor AI agent skills, slash commands, MCP configs, subagents &amp; rules for full-stack dev — React 19, Next.js 15">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"kensaurus/cursor-kenji","codeRepository":"https://github.com/kensaurus/cursor-kenji","programmingLanguage":"JavaScript","url":"https://linny006.github.io/cursor-rules-live/r/kensaurus/cursor-kenji/","description":"Curated Cursor AI agent skills, slash commands, MCP configs, subagents & rules for full-stack dev — React 19, Next.js 15","author":{"@type":"Person","name":"kensaurus","url":"https://github.com/kensaurus"},"dateModified":"2026-06-04"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"kensaurus/cursor-kenji","codeRepository":"https://github.com/kensaurus/cursor-kenji","programmingLanguage":"JavaScript","url":"https://linny006.github.io/cursor-rules-live/r/kensaurus/cursor-kenji/","description":"Curated Cursor AI agent skills, slash commands, MCP configs, subagents & rules for full-stack dev — React 19, Next.js 15","author":{"@type":"Person","name":"kensaurus","url":"https://github.com/kensaurus"},"dateModified":"2026-06-12"}</script>
 <style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
          --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
 * { box-sizing: border-box; }
@@ -48,17 +48,120 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <div class="meta">
 <span><strong>Stars</strong> 3</span>
 <span><strong>Language</strong> JavaScript</span>
-<span><strong>Last updated</strong> 2026-06-04</span>
+<span><strong>Last updated</strong> 2026-06-12</span>
 <span><a href="https://github.com/kensaurus/cursor-kenji" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/kensaurus" rel="external">@kensaurus</a></span>
 </div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/skill-workflows.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
+description: &gt;-
+  Capabilities catalog for cursor-kenji skills. Routes requests to the right
+  skill or bundled workflow. Always-on routing index — the agent consults this
+  to pick between individual skills and bundled workflows.
+globs:
+alwaysApply: true
+---
+
+# Skill Routing Index
+
+## Bundled workflows (use these first — they chain multiple skills)
+
+| Intent | Workflow skill |
+|--------|----------------|
+| Build a new feature end-to-end | `workflow-build-feature` |
+| Fix a bug and ship it | `workflow-fix-and-ship` |
+| Pre-release quality check | `workflow-quality-gate` |
+| Full launch preparation | `workflow-launch-ready` |
+| Orient to a new codebase | `workflow-onboard` |
+| Close post-launch feedback loop | `iterate-post-launch` |
+| Disciplined feature-flag rollout | `workflow-feature-flag` |
+
+## When to use a bundled workflow vs individual skill
+
+- **Use a bundle** when the user&#x27;s request spans multiple phases (spec + build + test, or launch + verify + iterate)
+- **Use an individual skill** when the request is scoped to one phase (&quot;just run the security audit&quot;, &quot;just write tests&quot;, &quot;just write the PR&quot;)
+- **Bundles call individual skills** — they never duplicate instructions; they sequence them
+
+## Individual skill quick-reference
+
+### Testing &amp; quality
+| Task | Skill |
+|------|-------|
+| Adversarial full-app sweep | `test-red-team` |
+| Drive app as real user, fix inline | `test-playwright` |
+| Comprehensive QA with CRUD verification | `test-qa` |
+| Write unit/integration tests | `test-unit` |
+
+### Audits
+| Task | Skill |
+|------|-------|
+| Static security review (OWASP) | `audit-security` |
+| JS bundle analysis &amp; reduction | `audit-bundle-size` |
+| Core Web Vitals &amp; performance | `audit-performance` |
+| Database schema health | `audit-db-schema` |
+| Translation quality &amp; hardcoded strings | `audit-i18n` |
+| UX heuristics audit | `audit-ux` |
+| Accessibility (WCAG 2.2) | `audit-accessibility` |
+| Design system compliance | `audit-uiux-design-system` |
+
+### Enhancement
+| Task | Skill |
+|------|-------|
+| SEO (meta, OG, JSON-LD, sitemap) | `enhance-web-seo` |
+| PWA (manifest, service worker, offline) | `enhance-pwa` |
+| UI polish &amp; layout | `enhance-web-ui` |
+| UX &amp; information architecture | `enhance-web-ux` |
+| Cross-surface (web + mobile) consistency | `enhance-capacitor-ui` |
+
+### Deploy
+| Task | Skill |
+|------|-------|
+| Post-deploy smoke test | `deploy-verify` |
+| npm package release | `deploy-npm` |
+
+### Debug
+| Task | Skill |
+|------|-------|
+| Debug any error | `debug-error` |
+| Triage &amp; fix Sentry issues | `debug-sentry-monitor` |
+| FE-BE integration mismatches | `debug-fe-be-integration` |
+
+## Skill chaining diagram
+
+```
+workflow-build-feature
+  └─ workflow-spec-tdd → test-unit → test-playwright → workflow-pr
+
+workflow-fix-and-ship
+  └─ debug-error → test-playwright → workflow-pr → deploy-verify
+
+workflow-quality-gate
+  └─ test-red-team → audit-security → audit-bundle-size → audit-performance → test-unit
+
+workflow-launch-ready
+  └─ enhance-web-seo → enhance-pwa → audit-bundle-size → audit-i18n
+     → workflow-quality-gate → deploy-verify → iterate-post-launch
+
+iterate-post-launch
+  └─ debug-sentry-monitor → deploy-verify → test-playwright
+```
+
+## Rules vs Skills
+
+- **Rules** (this file, `full-stack-ship-discipline.mdc`, etc.) = always-on policies, guardrails, routing
+- **Skills** = activated on demand when a task matches the description
+- Never put task-specific workflows in rules — they waste context on unrelated tasks
+</code></pre>
+<p><a href="https://github.com/kensaurus/cursor-kenji/blob/HEAD/.cursor/rules/skill-workflows.mdc" rel="external">View raw on GitHub</a></p>
+</section>
 <section><h2>Why this is listed</h2>
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>
 <ul class="crosslinks">
-<li><a href="https://linny006.github.io/cursor-rules-live/r/powersync-ja/agent-skills/">powersync-ja/agent-skills (stars:15)</a></li>
-<li><a href="https://linny006.github.io/cursor-rules-live/r/Smithbox-ai/ControlFlow/">Smithbox-ai/ControlFlow (stars:11)</a></li>
-<li><a href="https://linny006.github.io/cursor-rules-live/r/caioribeiroclw-pixel/pluribus/">caioribeiroclw-pixel/pluribus (stars:3)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/heymegabyte/claude-skills/">heymegabyte/claude-skills (stars:11)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/caioribeiroclw-pixel/pluribus/">caioribeiroclw-pixel/pluribus (stars:6)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/DongDuong2001/pudo-code-system/">DongDuong2001/pudo-code-system (stars:2)</a></li>
 </ul></section>
 <section><h2>Explore by category</h2>
 <ul class="crosslinks">
