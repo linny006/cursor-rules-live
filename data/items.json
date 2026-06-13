@@ -1,12 +1,21 @@
 [
   {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
     "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 1,
-    "updated_at": "2026-06-13T16:50:56Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-06-13T17:12:32Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "A cheat sheet that stops AI agents from scanning your whole repo and saves you tokens.",
+    "id": "toshon-jennings/SUMMARY-md",
+    "language": "\u2014",
+    "name": "toshon-jennings/SUMMARY-md",
+    "stars": 0,
+    "updated_at": "2026-06-13T17:06:53Z",
+    "url": "https://github.com/toshon-jennings/SUMMARY-md"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +23,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-13T16:45:34Z",
+    "updated_at": "2026-06-13T17:00:44Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 1,
+    "updated_at": "2026-06-13T16:50:56Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
@@ -89,15 +107,6 @@
     "stars": 4,
     "updated_at": "2026-06-13T16:07:02Z",
     "url": "https://github.com/whydixit/cursor-starter"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 0,
-    "updated_at": "2026-06-13T15:26:15Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Your AI coding agents are brilliant but a little too eager to call it 'done'. Agentic OS gives them a five-step workflow",
@@ -286,7 +295,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 1206,
+    "stars": 1210,
     "updated_at": "2026-06-13T12:18:43Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -509,19 +518,5 @@
     "stars": 0,
     "updated_at": "2026-06-12T04:37:51Z",
     "url": "https://github.com/wilsonwaters/3d-printing"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: claude-agents marketplace project conventions\nalwaysApply: true\n---\n\n# claude-agents conventions\n\nThis is a multi-harness plugin marketplace. Source lives under `plugins/`; per-harness\nartifacts (`.codex/`, `.cursor-plugin/`, `.opencode/`, `commands/`) are generated.\n\n- Don't hand-edit anything under `.codex/`, `.cursor-plugin/`, `.opencode/`, or top-level `commands/`, `agents/`, `skills/` \u2014 regenerate via `make generate HARNESS=<x>`.\n- Python tooling: `uv` (package manager), `ruff` (lint/format), `ty` (type check). Do not use pip/mypy/black.\n- Plugin files: `plugins/<name>/{.claude-plugin/plugin.json, agents/*.md, skills/<name>/SKILL.md, commands/*.md}`. Auto-discovered.\n- Cursor reads `.claude/skills/` and `.claude/agents/` directly \u2014 no separate `.cursor/skills/` is generated.\n\n## Never\n\n- Never commit secrets or hardcode credentials.\n- Never modify `.claude-plugin/marketplace.json` from inside a plugin PR \u2014 it's the registry.\n- Never run destructive git operations (force-push, reset --hard, branch -D) without explicit ask.\n\nSee `docs/authoring.md` for the portable-content style guide.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/000-project-conventions.mdc"
-    },
-    "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI",
-    "id": "wshobson/agents",
-    "language": "Python",
-    "name": "wshobson/agents",
-    "stars": 36695,
-    "updated_at": "2026-06-12T01:55:41Z",
-    "url": "https://github.com/wshobson/agents"
   }
 ]
