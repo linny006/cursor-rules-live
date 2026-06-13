@@ -1,11 +1,29 @@
 [
   {
+    "description": "Team-ops layer for Cursor \u2014 versioned rules, skills & git guardrails rolled out across your whole engineering team in 5 ",
+    "id": "SID-SURANGE/cursor-team-kit",
+    "language": "Shell",
+    "name": "SID-SURANGE/cursor-team-kit",
+    "stars": 0,
+    "updated_at": "2026-06-13T05:28:19Z",
+    "url": "https://github.com/SID-SURANGE/cursor-team-kit"
+  },
+  {
+    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
+    "id": "eumiguellllllllll/copilot-rules",
+    "language": "Batchfile",
+    "name": "eumiguellllllllll/copilot-rules",
+    "stars": 1,
+    "updated_at": "2026-06-13T05:23:58Z",
+    "url": "https://github.com/eumiguellllllllll/copilot-rules"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-13T05:00:25Z",
+    "updated_at": "2026-06-13T05:15:32Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -73,7 +91,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 998,
+    "stars": 1003,
     "updated_at": "2026-06-13T04:35:03Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -241,15 +259,6 @@
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
-    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
-    "id": "eumiguellllllllll/copilot-rules",
-    "language": "Batchfile",
-    "name": "eumiguellllllllll/copilot-rules",
-    "stars": 1,
-    "updated_at": "2026-06-13T02:23:24Z",
-    "url": "https://github.com/eumiguellllllllll/copilot-rules"
-  },
-  {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
     "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
     "language": "HTML",
@@ -300,7 +309,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 14744,
+    "stars": 14745,
     "updated_at": "2026-06-12T23:20:03Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -524,14 +533,5 @@
     "stars": 4,
     "updated_at": "2026-06-12T00:47:50Z",
     "url": "https://github.com/kensaurus/cursor-kenji"
-  },
-  {
-    "description": "AI coding rules that actually work. Enforce instruction files via hooks \u2014 CLAUDE.md, .cursorrules, copilot-instructions,",
-    "id": "taniwhaai/arai",
-    "language": "Rust",
-    "name": "taniwhaai/arai",
-    "stars": 5,
-    "updated_at": "2026-06-11T20:42:46Z",
-    "url": "https://github.com/taniwhaai/arai"
   }
 ]
