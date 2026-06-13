@@ -1,12 +1,12 @@
 [
   {
-    "description": "Generate optimized Cursor Rules for Next.js, React, Laravel, FastAPI, Django, Node.js and AI coding workflows.",
-    "id": "FighterRepresent/cursor-rules-generator",
-    "language": "\u2014",
-    "name": "FighterRepresent/cursor-rules-generator",
-    "stars": 1,
-    "updated_at": "2026-06-13T13:11:25Z",
-    "url": "https://github.com/FighterRepresent/cursor-rules-generator"
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-06-13T13:26:51Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-13T13:00:25Z",
+    "updated_at": "2026-06-13T13:15:43Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Generate optimized Cursor Rules for Next.js, React, Laravel, FastAPI, Django, Node.js and AI coding workflows.",
+    "id": "FighterRepresent/cursor-rules-generator",
+    "language": "\u2014",
+    "name": "FighterRepresent/cursor-rules-generator",
+    "stars": 1,
+    "updated_at": "2026-06-13T13:11:25Z",
+    "url": "https://github.com/FighterRepresent/cursor-rules-generator"
   },
   {
     "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
@@ -91,7 +100,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 1121,
+    "stars": 1123,
     "updated_at": "2026-06-13T12:18:43Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -112,15 +121,6 @@
     "stars": 3,
     "updated_at": "2026-06-13T11:56:01Z",
     "url": "https://github.com/pekral/cursor-rules"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 0,
-    "updated_at": "2026-06-13T11:47:33Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Build unique user interfaces with a structured ruleset to prevent generic AI output.",
@@ -396,7 +396,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 14780,
+    "stars": 14781,
     "updated_at": "2026-06-12T23:20:03Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
