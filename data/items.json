@@ -1,5 +1,86 @@
 [
   {
+    "description": "Build programmatic UIKit apps with production-ready patterns for views, navigation, animation, architecture, and data fl",
+    "id": "nizhan80-art/Swift-UIKit-Skill",
+    "language": "\u2014",
+    "name": "nizhan80-art/Swift-UIKit-Skill",
+    "stars": 1,
+    "updated_at": "2026-06-13T14:14:09Z",
+    "url": "https://github.com/nizhan80-art/Swift-UIKit-Skill"
+  },
+  {
+    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
+    "id": "Amirun99/agency-orchestrator",
+    "language": "Dart",
+    "name": "Amirun99/agency-orchestrator",
+    "stars": 0,
+    "updated_at": "2026-06-13T14:13:21Z",
+    "url": "https://github.com/Amirun99/agency-orchestrator"
+  },
+  {
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-06-13T14:13:19Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
+  },
+  {
+    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
+    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "language": "\u2014",
+    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "stars": 2,
+    "updated_at": "2026-06-13T14:12:20Z",
+    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
+  },
+  {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 0,
+    "updated_at": "2026-06-13T14:11:02Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+  },
+  {
+    "description": "Build 9 iOS agent skills for SwiftUI, testing, security, and more in one install for AI coding agents",
+    "id": "ebbaunqualified520/ios-agent-skills",
+    "language": "Shell",
+    "name": "ebbaunqualified520/ios-agent-skills",
+    "stars": 0,
+    "updated_at": "2026-06-13T14:09:03Z",
+    "url": "https://github.com/ebbaunqualified520/ios-agent-skills"
+  },
+  {
+    "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
+    "id": "caioribeiroclw-pixel/pluribus",
+    "language": "JavaScript",
+    "name": "caioribeiroclw-pixel/pluribus",
+    "stars": 6,
+    "updated_at": "2026-06-13T14:03:34Z",
+    "url": "https://github.com/caioribeiroclw-pixel/pluribus"
+  },
+  {
+    "description": "Team-ops layer for Cursor \u2014 versioned rules, skills & git guardrails rolled out across your whole engineering team in 5 ",
+    "id": "SID-SURANGE/cursor-team-ops",
+    "language": "Shell",
+    "name": "SID-SURANGE/cursor-team-ops",
+    "stars": 0,
+    "updated_at": "2026-06-13T14:00:58Z",
+    "url": "https://github.com/SID-SURANGE/cursor-team-ops"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-13T14:00:39Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
     "id": "zinxj/uikit-expert-skill",
     "language": "\u2014",
@@ -30,15 +111,6 @@
     "stars": 1,
     "updated_at": "2026-06-13T13:51:25Z",
     "url": "https://github.com/danielvm-git/bigpowers"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-13T13:45:45Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -96,15 +168,6 @@
     "url": "https://github.com/eumiguellllllllll/copilot-rules"
   },
   {
-    "description": "Team-ops layer for Cursor \u2014 versioned rules, skills & git guardrails rolled out across your whole engineering team in 5 ",
-    "id": "SID-SURANGE/cursor-team-ops",
-    "language": "Shell",
-    "name": "SID-SURANGE/cursor-team-ops",
-    "stars": 0,
-    "updated_at": "2026-06-13T13:58:20Z",
-    "url": "https://github.com/SID-SURANGE/cursor-team-ops"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: \"These rules apply when developing, extending, or contributing to the Rulefy project - a tool for generating Cursor AI rules from GitHub repositories. Follow these guidelines to ensure consistent code quality, proper error handling, and adherence to the project's architectural patterns.\"\nglobs: \nalwaysApply: false\n---\n\n# Rulefy Development Guidelines\n\n## Critical Rules\n\n- Use TypeScript with strict typing and proper return type annotations for all functions\n- Follow ESM module syntax with `.js` extensions in import paths despite TypeScript usage\n- Handle errors properly with try/catch blocks and appropriate error messages\n- Use color formatting with picocolors for console output to maintain consistent UX\n- Validate all external inputs and environment variables before use\n- Implement proper chunking for large repository content to avoid token limit issues\n- Follow the established architecture separating CLI, rule generation, and LLM integration\n- Maintain backward compatibility for CLI options and programmatic API\n- Document public functions and interfaces with JSDoc comments\n- Handle rate limits and API errors gracefully when interacting with external services\n- Structure code to be testable, even though tests aren't implemented yet\n\n## Examples\n\n<example>\n// VALID: Proper error handling with try/catch and color formatting\nimport pc from 'picocolors';\n\nasync function processRepository(repoPath: string): Promise<void> {\n  try {\n    // Validate inputs\n    if (!repoPath) {\n      throw new Error('Repository path is required');\n    }\n    \n    // Process with proper error handling\n    console.log(pc.cyan('Processing repository...'));\n    const result = await someAsyncOperation(repoPath);\n    console.log(pc.green('\u2713 Successfully processed repository'));\n    \n    return result;\n  } catch (error) {\n    if (error instanceof Error) {\n      console.error(pc.red(`Error: ${error.message}`));\n    } else {\n      console.error(pc.red('Unknown error occurred'));\n    }\n    process.exit(1);\n  }\n}\n</example>\n\n<example type=\"invalid\">\n// INVALID: Missing error handling and type annotations\nfunction processRepo(repo) {\n  // No input validation\n  \n  // No try/catch block\n  const data = someAsyncOperation(repo);\n  \n  // No proper console formatting\n  console.log(\"Done processing\");\n  \n  // Missing return type\n  return data;\n}\n</example>\n\n<example>\n// VALID: Proper module imports with ESM syntax\nimport fs from 'node:fs/promises';\nimport path from 'node:path';\nimport { generateRules } from './rulesGenerator.js';\n\nexport async function processFiles(directory: string): Promise<string[]> {\n  const files = await fs.readdir(directory);\n  return files.filter(file => path.extname(file) === '.ts');\n}\n</example>\n\n<example type=\"invalid\">\n// INVALID: Incorrect import syntax for ESM\nconst fs = require('fs');\nimport { generateRules } from './rulesGenerator';  // Missing .js extension\n\nfunction processFiles(directory) {\n  return new Promise((resolve, reject) => {\n    fs.readdir(directory, (err, files) => {\n      if (err) reject(err);\n      resolve(files.filter(file => file.endsWith('.ts')));\n    });\n  });\n}\n</example>\n\n## Key Files Reference\n\n- [src/index.ts](mdc:src/index.ts) - Entry point with CLI handling\n- [src/rulesGenerate.ts](mdc:src/rulesGenerate.ts) - Core rule generation logic\n- [src/llmGenerator.ts](mdc:src/llmGenerator.ts) - Integration with Claude AI\n- [src/prompts/cursor_mdc.md](mdc:src/prompts/cursor_mdc.md) - Rule format guidelines",
       "format": "mdc",
@@ -160,7 +223,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 1135,
+    "stars": 1141,
     "updated_at": "2026-06-13T12:18:43Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -228,24 +291,6 @@
     "url": "https://github.com/christim427-rgb/ios-agent-skills"
   },
   {
-    "description": "Build programmatic UIKit apps with production-ready patterns for views, navigation, animation, architecture, and data fl",
-    "id": "nizhan80-art/Swift-UIKit-Skill",
-    "language": "\u2014",
-    "name": "nizhan80-art/Swift-UIKit-Skill",
-    "stars": 1,
-    "updated_at": "2026-06-13T11:25:14Z",
-    "url": "https://github.com/nizhan80-art/Swift-UIKit-Skill"
-  },
-  {
-    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
-    "id": "Amirun99/agency-orchestrator",
-    "language": "Dart",
-    "name": "Amirun99/agency-orchestrator",
-    "stars": 0,
-    "updated_at": "2026-06-13T11:24:31Z",
-    "url": "https://github.com/Amirun99/agency-orchestrator"
-  },
-  {
     "cursorrules": {
       "content": "\ufeff---\ndescription: \"Agentic Architect \u2014 arch-core-lite. A free, single-rule preview of the Persistence Framework for Cursor (C#/.NET edition). Enforces a small but high-value subset of architectural guardrails: layer boundaries, anti-Big-Ball-of-Mud heuristics, and a lightweight 'pause and ask' protocol when context is missing. For the full 4-rule kit + Learning Log engine, see https://buy.stripe.com/9B68wP8XE3I5dZ4aKmcIE01\"\nglobs:\n  - \"**/*.cs\"\n  - \"**/*.csproj\"\n  - \"**/*.sln\"\nalwaysApply: false\n---\n\n# arch-core-lite.mdc \u2014 Free Preview\n\n> **This is a free single-rule preview of [Agentic Architect](https://agenticstandardcontact-byte.github.io/agentic-architect/).**\n> The full kit ships four scoped rules plus the **`persistence.mdc`** engine that maintains your project's `LEARNING_LOG.md` across sessions.\n> \ud83d\udc49 **Get the full framework \u2014 \u00a39.00 one-time: https://buy.stripe.com/9B68wP8XE3I5dZ4aKmcIE01**\n\n---\n\n## Role\n\nYou are a senior .NET architect pair-programming with the developer. You hold the line on architectural boundaries and refuse to suggest code that violates them, even when the developer asks for \"just a quick\" exception. You are honest about uncertainty.\n\n## Operating Principles (applied to every C# suggestion)\n\n### 1. Respect layer boundaries\n\nTreat the codebase as a layered system (whatever flavour: Onion, Clean, Hexagonal, classic n-tier). **Detect the layer of the file under edit** from its path (`/Domain`, `/Application`, `/Infrastructure`, `/Api`, `/Web`, `/Persistence`, etc.). Then enforce:\n\n- **Domain** never references `Microsoft.EntityFrameworkCore`, `HttpClient`, `IConfiguration`, `ILogger<T>`, `DateTime.Now`, `Environment.*`, or any concrete I/O.\n- **Application** orchestrates via abstractions only. No direct DbContext use. No `new` on infrastructure types.\n- **Infrastructure / Persistence** implements interfaces declared higher up. Never the source of business rules.\n- **Api / Web** stays thin: parse \u2192 dispatch \u2192 map to response. No business logic in controllers/minimal endpoints.\n\nIf a requested change would cross a boundary, **stop and explain the violation before suggesting code**. Offer the boundary-respecting alternative.\n\n### 2. Refuse \"Big Ball of Mud\" shortcuts\n\nWatch for and push back on these specific smells:\n\n- **Anaemic methods accumulating in a `*Service` god-class** \u2192 suggest splitting by use-case or moving behaviour onto the domain entity.\n- **Static helpers reaching into infrastructure** (`DbHelper.Save(...)`, `EmailHelper.Send(...)`) \u2192 flag as hidden coupling, propose injection.\n- **Switch statements on type discriminators** \u2192 propose polymorphism or the strategy pattern, *if* it fits the codebase's existing style.\n- **`HttpClient` instantiated with `new`** \u2192 require `IHttpClientFactory`.\n- **Captured `DateTime.Now` / `DateTime.UtcNow`** in domain/application code \u2192 require an `IClock` / `TimeProvider` abstraction.\n- **`async void`** outside event handlers \u2192 flag immediately.\n- **Try/catch that swallows or rethrows naked `throw ex;`** \u2192 flag, propose `throw;` or proper wrapping.\n- **`Task.Result` or `.Wait()`** in async paths \u2192 flag as deadlock risk.\n\n### 3. Honest uncertainty (the \"pause\" protocol)\n\nWhen you do not have enough context \u2014 for example, you don't know whether a class is registered Singleton or Scoped, you can't see the consuming caller, or the project uses an unfamiliar abstraction \u2014 **do not invent**. Pause and ask one of:\n\n- \"Before I suggest a change, can you confirm: is `OrderService` registered as Scoped or Singleton?\"\n- \"I notice this calls `IRepository<T>`. Which concrete implementation does this project use \u2014 EF Core, Dapper, or in-memory?\"\n- \"Can I read the consumer of this method? The contract change might break callers I can't see.\"\n\nA single targeted question is always cheaper than a confidently wrong refactor.\n\n### 4. Prefer minimal, reversible changes\n\n- Smaller diffs > grand refactors. Suggest the **smallest** change that resolves the actual ask.\n- If a larger architectural change is genuinely warranted, **call it out separately** as \"follow-up suggestion\" \u2014 don't bundle it into the immediate ask.\n- Never silently rename public symbols. Never silently change observable behaviour.\n\n### 5. .NET idioms (the short list)\n\nSuggestions should default to:\n\n- **Nullable reference types enabled** \u2014 respect annotations; don't `!` away nullability without a reason.\n- **`record` for immutable value types**, `class` for entities with identity.\n- **Constructor injection** over property/field injection; primary constructors are fine in C# 12+ if the project already uses them.\n- **`IOptions<T>` / `IOptionsSnapshot<T>`** for settings, never raw `IConfiguration` reads inside business logic.\n- **`Result<T>` / `OneOf<T,U>` / `ErrorOr<T>`** patterns if the project already uses them. Otherwise exceptions are acceptable \u2014 match the codebase's existing style.\n- **`CancellationToken`** flowed through async APIs. Never swallowed.\n\n## What \"good\" looks like\n\nA good response from you in this codebase:\n\n1. States the architectural concern in one sentence (\"This would put EF Core in the Domain layer, which the project currently keeps free of persistence concerns.\")\n2. Proposes the boundary-respecting alternative in code.\n3. If uncertain, asks **one** targeted question rather than guessing.\n4. Notes any follow-up refactors separately so the diff stays small.\n\n## Anti-pattern: don't do these\n\n- \u274c Dump a 200-line \"while we're at it\" refactor when the user asked for a 5-line fix.\n- \u274c Invent method names on third-party libraries. If unsure, ask.\n- \u274c Double down when corrected. If the developer pushes back, **re-read the file** and reconsider before responding.\n- \u274c Use `var` on a `dynamic` or otherwise opaque return \u2014 surface the actual type so reviewers can see it.\n\n---\n\n## You're getting 1 of 4 rules\n\nThis file is a **single rule** from the Agentic Architect kit. The full framework ships **four scoped rules** that load only when relevant to the file under edit, plus the **persistence engine** that gives Cursor a long-term memory across sessions.\n\n| Rule | What it does |\n|------|--------------|\n| `arch-core.mdc` *(this preview is a lite version)* | Enforces SOLID boundaries; prevents \"Big Ball of Mud\" |\n| `dotnet-di.mdc` | Audits constructor injection, service lifetimes, scoped/singleton conflicts |\n| `bug-breaker.mdc` | Circuit-breaker that stops AI hallucination loops |\n| `persistence.mdc` | Maintains `LEARNING_LOG.md` \u2014 the project's stateful \"brain\" across sessions |\n\n### Get the full kit \u2014 \u00a39.00 one-time, lifetime updates, MIT-licensed\n\n\ud83d\udc49 **https://buy.stripe.com/9B68wP8XE3I5dZ4aKmcIE01**\n\n14-day no-questions refund. Stop paying the Context Tax.\n",
       "format": "mdc",
@@ -258,42 +303,6 @@
     "stars": 0,
     "updated_at": "2026-06-13T11:24:27Z",
     "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
-  },
-  {
-    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
-    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "language": "\u2014",
-    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "stars": 2,
-    "updated_at": "2026-06-13T11:23:36Z",
-    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
-  },
-  {
-    "description": "Build 9 iOS agent skills for SwiftUI, testing, security, and more in one install for AI coding agents",
-    "id": "ebbaunqualified520/ios-agent-skills",
-    "language": "Shell",
-    "name": "ebbaunqualified520/ios-agent-skills",
-    "stars": 0,
-    "updated_at": "2026-06-13T11:20:22Z",
-    "url": "https://github.com/ebbaunqualified520/ios-agent-skills"
-  },
-  {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
-    "stars": 0,
-    "updated_at": "2026-06-13T11:20:20Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 0,
-    "updated_at": "2026-06-13T11:19:29Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "cursorrules": {
@@ -514,19 +523,5 @@
     "stars": 36688,
     "updated_at": "2026-06-12T01:55:41Z",
     "url": "https://github.com/wshobson/agents"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Never commit or push without explicit user instruction.\nalwaysApply: true\n---\n\n# No auto-commit\n\nNever run `git commit`, `git push`, `git tag`, or `npm publish` unless the user explicitly asks (e.g. \"commit this\", \"push\", \"publish\").\n\n- Show the user what changed and let them decide.\n- Use `git diff` or `git status` output to summarise changes in your response instead.\n- If you are about to perform a git write operation, stop and confirm first.\n\nThis applies regardless of how small, clean, or obviously-correct the change appears.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/no-auto-commit.mdc"
-    },
-    "description": "Make Cursor project-aware with repo-level rules, memory, workflows, verifier agents, and localization prompts.",
-    "id": "KingEmma7/cursor-os",
-    "language": "JavaScript",
-    "name": "KingEmma7/cursor-os",
-    "stars": 0,
-    "updated_at": "2026-06-12T01:47:54Z",
-    "url": "https://github.com/KingEmma7/cursor-os"
   }
 ]
