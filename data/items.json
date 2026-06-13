@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-13T19:45:35Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
     "id": "eumiguellllllllll/copilot-rules",
     "language": "Batchfile",
@@ -7,15 +16,6 @@
     "stars": 1,
     "updated_at": "2026-06-13T19:37:42Z",
     "url": "https://github.com/eumiguellllllllll/copilot-rules"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-13T19:30:24Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -87,7 +87,7 @@
     "language": "HTML",
     "name": "TheoV823/mneme",
     "stars": 12,
-    "updated_at": "2026-06-13T18:44:21Z",
+    "updated_at": "2026-06-13T19:56:35Z",
     "url": "https://github.com/TheoV823/mneme"
   },
   {
@@ -322,7 +322,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 1309,
+    "stars": 1322,
     "updated_at": "2026-06-13T12:18:43Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
