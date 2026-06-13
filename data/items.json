@@ -1,5 +1,23 @@
 [
   {
+    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
+    "id": "zinxj/uikit-expert-skill",
+    "language": "\u2014",
+    "name": "zinxj/uikit-expert-skill",
+    "stars": 3,
+    "updated_at": "2026-06-13T17:48:23Z",
+    "url": "https://github.com/zinxj/uikit-expert-skill"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-13T17:45:36Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Manage and organize project workspaces while dynamically injecting relevant skills for efficient AI assistant context lo",
     "id": "GrekosTheJogurt/antigravity-workspace-manager",
     "language": "Python",
@@ -35,15 +53,6 @@
     "stars": 3,
     "updated_at": "2026-06-13T17:31:10Z",
     "url": "https://github.com/Luxvil/ai-coding-rules"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-13T17:30:44Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -272,15 +281,6 @@
     "url": "https://github.com/SID-SURANGE/cursor-team-ops"
   },
   {
-    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
-    "id": "zinxj/uikit-expert-skill",
-    "language": "\u2014",
-    "name": "zinxj/uikit-expert-skill",
-    "stars": 3,
-    "updated_at": "2026-06-13T13:55:05Z",
-    "url": "https://github.com/zinxj/uikit-expert-skill"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: \"Analyze the blast radius of a proposed change before any code is written. Maps dependents, affected stories, and test coverage. Produces specs/IMPACT.md. Use before plan-work on any non-trivial change, when touching a shared module, or when the user asks \"what does this break?\".\"\nalwaysApply: false\n---\n\n\n# Assess Impact\n\n> **HARD GATE** \u2014 Run this skill before `plan-work` whenever a change touches an existing module, symbol, or file used by more than one caller. Skip only for net-new code with no existing dependents.\n\nFind the blast radius of the proposed change before a single line is written.\n\n## Process\n\n### 1. Identify the target\n\nName the symbol, module, or file being changed. If the user hasn't specified, ask one question: \"What exactly are you changing?\"\n\n### 2. Find dependents\n\n```\ngrep -rn \"[symbol-name]\" . --include=\"*.ts\" | grep -v node_modules\ngit log --oneline -10 -- [file-path]\n```\n\n\u2192 verify: `grep -rn \"[target]\" . | wc -l`\n\n### 3. Map to release plan stories\n\nRead `specs/release-plan.yaml + epic capsule directories` (if it exists). For each dependent found in Step 2, identify which story owns that module. List stories that will be affected by the change.\n\n\u2192 verify: `grep -c \"Story\" specs/release-plan.yaml + epic capsule directories 2>/dev/null || echo \"no release plan\"`\n\n### 4. List test coverage\n\nFind tests that exercise the target:\n\n```\ngrep -rn \"[symbol-name]\" . --include=\"*.test.*\" --include=\"*.spec.*\"\n```\n\n\u2192 verify: `grep -rn \"[target]\" . --include=\"*.test.*\" | wc -l`\n\n### 5. Classify risk\n\n| Level | Condition |\n|-------|-----------|\n| Low   | \u2264 2 callers, all covered by tests |\n| Medium | 3\u201310 callers, partial test coverage |\n| High  | > 10 callers, or shared API/interface, or no tests |\n\n### 6. Write specs/IMPACT.md\n\n```\n## Target\n[symbol or file being changed]\n\n## Dependents ([count])\n- [file]: [caller or usage]\n\n## Affected Stories\n- Story [X.Y]: [title]\n\n## Test Coverage\n- [test file]: covers [scenario]\n- Gap: [untested behavior]\n\n## Risk: Low / Medium / High\n[One-sentence rationale]\n\n## Recommended action\n[Proceed / Add tests first / Discuss design]\n```\n\n\u2192 verify: `grep \"Risk:\" specs/IMPACT.md`\n\nSuggest `plan-work` once risk is understood and any test gaps are noted.\n",
       "format": "mdc",
@@ -313,7 +313,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 1225,
+    "stars": 1235,
     "updated_at": "2026-06-13T12:18:43Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
