@@ -1,11 +1,20 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-13T18:30:25Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Enforce architectural decisions in AI-assisted development.",
     "id": "TheoV823/mneme",
     "language": "HTML",
     "name": "TheoV823/mneme",
     "stars": 12,
-    "updated_at": "2026-06-13T18:27:53Z",
+    "updated_at": "2026-06-13T18:44:21Z",
     "url": "https://github.com/TheoV823/mneme"
   },
   {
@@ -34,15 +43,6 @@
     "stars": 1,
     "updated_at": "2026-06-13T18:16:37Z",
     "url": "https://github.com/Bastioned-successor320/learn-nanobot"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-13T18:15:43Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
@@ -322,7 +322,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 1257,
+    "stars": 1271,
     "updated_at": "2026-06-13T12:18:43Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
