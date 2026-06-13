@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-13T05:30:31Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Team-ops layer for Cursor \u2014 versioned rules, skills & git guardrails rolled out across your whole engineering team in 5 ",
     "id": "SID-SURANGE/cursor-team-kit",
     "language": "Shell",
@@ -16,15 +25,6 @@
     "stars": 1,
     "updated_at": "2026-06-13T05:23:58Z",
     "url": "https://github.com/eumiguellllllllll/copilot-rules"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-13T05:15:32Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -91,7 +91,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 1003,
+    "stars": 1006,
     "updated_at": "2026-06-13T04:35:03Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
