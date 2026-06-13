@@ -1,5 +1,23 @@
 [
   {
+    "description": "Generate optimized Cursor Rules for Next.js, React, Laravel, FastAPI, Django, Node.js and AI coding workflows.",
+    "id": "FighterRepresent/cursor-rules-generator",
+    "language": "\u2014",
+    "name": "FighterRepresent/cursor-rules-generator",
+    "stars": 1,
+    "updated_at": "2026-06-13T13:11:25Z",
+    "url": "https://github.com/FighterRepresent/cursor-rules-generator"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-13T13:00:25Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
     "id": "eumiguellllllllll/copilot-rules",
     "language": "Batchfile",
@@ -16,15 +34,6 @@
     "stars": 0,
     "updated_at": "2026-06-13T12:47:59Z",
     "url": "https://github.com/SID-SURANGE/cursor-team-kit"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-13T12:45:26Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -82,7 +91,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 1116,
+    "stars": 1121,
     "updated_at": "2026-06-13T12:18:43Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -387,7 +396,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 14779,
+    "stars": 14780,
     "updated_at": "2026-06-12T23:20:03Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -502,7 +511,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36685,
+    "stars": 36686,
     "updated_at": "2026-06-12T01:55:41Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -519,14 +528,5 @@
     "stars": 0,
     "updated_at": "2026-06-12T01:47:54Z",
     "url": "https://github.com/KingEmma7/cursor-os"
-  },
-  {
-    "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
-    "id": "caioribeiroclw-pixel/pluribus",
-    "language": "JavaScript",
-    "name": "caioribeiroclw-pixel/pluribus",
-    "stars": 6,
-    "updated_at": "2026-06-12T01:06:08Z",
-    "url": "https://github.com/caioribeiroclw-pixel/pluribus"
   }
 ]
