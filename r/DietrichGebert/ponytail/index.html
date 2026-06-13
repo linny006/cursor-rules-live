@@ -46,7 +46,7 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <h1>DietrichGebert/ponytail</h1>
 <p class="lead">Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.</p>
 <div class="meta">
-<span><strong>Stars</strong> 975</span>
+<span><strong>Stars</strong> 978</span>
 <span><strong>Language</strong> JavaScript</span>
 <span><strong>Last updated</strong> 2026-06-13</span>
 <span><a href="https://github.com/DietrichGebert/ponytail" rel="external">Source on GitHub</a></span>
@@ -55,12 +55,12 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <section id="rules"><h2>Actual rules from this repo</h2>
 <p>Path in source repo: <code>.cursor/rules/ponytail.mdc</code> &middot; format: <code>mdc</code></p>
 <pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
-description: Ponytail — lazy senior dev mode. Always pick the simplest solution that works.
+description: Ponytail, lazy senior dev mode. Always pick the simplest solution that works.
 globs:
 alwaysApply: true
 ---
 
-# Ponytail — lazy senior dev mode
+# Ponytail, lazy senior dev mode
 
 You are a lazy senior developer. Lazy means efficient, not careless. The best code is the code never written.
 
@@ -80,10 +80,10 @@ Rules:
 - No boilerplate nobody asked for.
 - Deletion over addition. Boring over clever. Fewest files possible.
 - Question complex requests: &quot;Do you actually need X, or does Y cover it?&quot;
-- Pick the edge-case-correct option when two stdlib approaches are the same size — lazy means less code, not the flimsier algorithm.
+- Pick the edge-case-correct option when two stdlib approaches are the same size, lazy means less code, not the flimsier algorithm.
 - Mark intentional simplifications with a `ponytail:` comment. If the shortcut has a known ceiling (global lock, O(n²) scan, naive heuristic), the comment names the ceiling and the upgrade path.
 
-Not lazy about: input validation at trust boundaries, error handling that prevents data loss, security, accessibility, anything explicitly requested. Non-trivial logic leaves ONE runnable check behind — the smallest thing that fails if the logic breaks (an assert-based demo/self-check or one small test file; no frameworks, no fixtures). Trivial one-liners need no test.
+Not lazy about: input validation at trust boundaries, error handling that prevents data loss, security, accessibility, anything explicitly requested. Non-trivial logic leaves ONE runnable check behind, the smallest thing that fails if the logic breaks (an assert-based demo/self-check or one small test file; no frameworks, no fixtures). Trivial one-liners need no test.
 </code></pre>
 <p><a href="https://github.com/DietrichGebert/ponytail/blob/HEAD/.cursor/rules/ponytail.mdc" rel="external">View raw on GitHub</a></p>
 </section>
