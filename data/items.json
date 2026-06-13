@@ -1,11 +1,20 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-06-13T15:26:15Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-13T15:00:38Z",
+    "updated_at": "2026-06-13T15:15:24Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -204,15 +213,6 @@
     "url": "https://github.com/Luxvil/ai-coding-rules"
   },
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 0,
-    "updated_at": "2026-06-13T13:26:51Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
     "description": "Generate optimized Cursor Rules for Next.js, React, Laravel, FastAPI, Django, Node.js and AI coding workflows.",
     "id": "FighterRepresent/cursor-rules-generator",
     "language": "\u2014",
@@ -286,7 +286,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 1169,
+    "stars": 1178,
     "updated_at": "2026-06-13T12:18:43Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -405,7 +405,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 14785,
+    "stars": 14788,
     "updated_at": "2026-06-12T23:20:03Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -520,7 +520,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36691,
+    "stars": 36692,
     "updated_at": "2026-06-12T01:55:41Z",
     "url": "https://github.com/wshobson/agents"
   }
