@@ -1,11 +1,20 @@
 [
   {
+    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
+    "id": "eumiguellllllllll/copilot-rules",
+    "language": "Batchfile",
+    "name": "eumiguellllllllll/copilot-rules",
+    "stars": 1,
+    "updated_at": "2026-06-14T02:05:35Z",
+    "url": "https://github.com/eumiguellllllllll/copilot-rules"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-14T02:00:28Z",
+    "updated_at": "2026-06-14T02:01:19Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -232,15 +241,6 @@
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
-    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
-    "id": "eumiguellllllllll/copilot-rules",
-    "language": "Batchfile",
-    "name": "eumiguellllllllll/copilot-rules",
-    "stars": 1,
-    "updated_at": "2026-06-13T23:20:37Z",
-    "url": "https://github.com/eumiguellllllllll/copilot-rules"
-  },
-  {
     "description": "A cheat sheet that stops AI agents from scanning your whole repo and saves you tokens.",
     "id": "toshon-jennings/SUMMARY-md",
     "language": "\u2014",
@@ -322,7 +322,7 @@
     "id": "FighterRepresent/cursor-rules-generator",
     "language": "\u2014",
     "name": "FighterRepresent/cursor-rules-generator",
-    "stars": 2,
+    "stars": 3,
     "updated_at": "2026-06-13T13:11:25Z",
     "url": "https://github.com/FighterRepresent/cursor-rules-generator"
   },
@@ -336,7 +336,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 1550,
+    "stars": 1555,
     "updated_at": "2026-06-13T12:18:43Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
