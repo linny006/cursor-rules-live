@@ -1,5 +1,23 @@
 [
   {
+    "description": "Team-ops layer for Cursor \u2014 versioned rules, skills & git guardrails rolled out across your whole engineering team in 5 ",
+    "id": "SID-SURANGE/cursor-team-ops",
+    "language": "Shell",
+    "name": "SID-SURANGE/cursor-team-ops",
+    "stars": 0,
+    "updated_at": "2026-06-14T06:09:39Z",
+    "url": "https://github.com/SID-SURANGE/cursor-team-ops"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-14T06:00:43Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
     "id": "Trentobobbi/uikit-mastery-playbook",
     "language": "HTML",
@@ -16,15 +34,6 @@
     "stars": 0,
     "updated_at": "2026-06-14T05:54:27Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-14T05:45:41Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
@@ -263,7 +272,7 @@
     "id": "TheoV823/mneme",
     "language": "HTML",
     "name": "TheoV823/mneme",
-    "stars": 12,
+    "stars": 13,
     "updated_at": "2026-06-13T21:06:51Z",
     "url": "https://github.com/TheoV823/mneme"
   },
@@ -293,15 +302,6 @@
     "stars": 8,
     "updated_at": "2026-06-13T14:43:41Z",
     "url": "https://github.com/KbWen/agentic-os"
-  },
-  {
-    "description": "Team-ops layer for Cursor \u2014 versioned rules, skills & git guardrails rolled out across your whole engineering team in 5 ",
-    "id": "SID-SURANGE/cursor-team-ops",
-    "language": "Shell",
-    "name": "SID-SURANGE/cursor-team-ops",
-    "stars": 0,
-    "updated_at": "2026-06-13T15:47:50Z",
-    "url": "https://github.com/SID-SURANGE/cursor-team-ops"
   },
   {
     "cursorrules": {
@@ -336,7 +336,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 1711,
+    "stars": 1724,
     "updated_at": "2026-06-13T12:18:43Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
