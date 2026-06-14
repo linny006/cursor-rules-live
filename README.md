@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-06-14 17:45 UTC
+> ⏰ Last updated: 2026-06-14 17:51 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -66,7 +66,7 @@ expired items removed — so you can rely on what you see being current.
 | 11 | [Amirun99/agency-orchestrator](https://github.com/Amirun99/agency-orchestrator) | 0 | Dart | 2026-06-14 | — | Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support. |
 | 12 | [Overseastelegramaliterateperson865/awesome-claude-md](https://github.com/Overseastelegramaliterateperson865/awesome-claude-md) | 2 | — | 2026-06-14 | — | Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr |
 | 13 | [ebbaunqualified520/ios-agent-skills](https://github.com/ebbaunqualified520/ios-agent-skills) | 0 | Shell | 2026-06-14 | — | Build 9 iOS agent skills for SwiftUI, testing, security, and more in one install for AI coding agents |
-| 14 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 5971 | JavaScript | 2026-06-14 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 14 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 5996 | JavaScript | 2026-06-14 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 15 | [zinxj/uikit-expert-skill](https://github.com/zinxj/uikit-expert-skill) | 3 | — | 2026-06-14 | — | Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan |
 | 16 | [DongDuong2001/pudo-code-system](https://github.com/DongDuong2001/pudo-code-system) | 2 | JavaScript | 2026-06-14 | — | Agent Skills and Structured Prompts for Scalable Development |
 | 17 | [GrekosTheJogurt/antigravity-workspace-manager](https://github.com/GrekosTheJogurt/antigravity-workspace-manager) | 1 | Python | 2026-06-14 | — | Manage and organize project workspaces while dynamically injecting relevant skills for efficient AI assistant context lo |
