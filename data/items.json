@@ -1,12 +1,12 @@
 [
   {
-    "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
-    "id": "HoangNguyen0403/agent-skills-standard",
-    "language": "TypeScript",
-    "name": "HoangNguyen0403/agent-skills-standard",
-    "stars": 507,
-    "updated_at": "2026-06-15T16:50:32Z",
-    "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
+    "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
+    "id": "Lolner95/AIGX",
+    "language": "Python",
+    "name": "Lolner95/AIGX",
+    "stars": 0,
+    "updated_at": "2026-06-15T17:15:04Z",
+    "url": "https://github.com/Lolner95/AIGX"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-15T16:45:47Z",
+    "updated_at": "2026-06-15T17:00:52Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
+    "id": "HoangNguyen0403/agent-skills-standard",
+    "language": "TypeScript",
+    "name": "HoangNguyen0403/agent-skills-standard",
+    "stars": 507,
+    "updated_at": "2026-06-15T16:50:32Z",
+    "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
   },
   {
     "description": "Build unique user interfaces with a structured ruleset to prevent generic AI output.",
@@ -168,7 +177,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 13969,
+    "stars": 14067,
     "updated_at": "2026-06-15T15:04:58Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -285,15 +294,6 @@
     "stars": 1,
     "updated_at": "2026-06-15T12:45:15Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
-    "id": "Lolner95/AIGX",
-    "language": "Python",
-    "name": "Lolner95/AIGX",
-    "stars": 0,
-    "updated_at": "2026-06-15T12:31:04Z",
-    "url": "https://github.com/Lolner95/AIGX"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
