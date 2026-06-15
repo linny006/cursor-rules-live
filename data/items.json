@@ -1,12 +1,12 @@
 [
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 0,
-    "updated_at": "2026-06-15T12:58:20Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+    "description": "Agent Skill for building static sites with Astro",
+    "id": "ianshk/astro-skills",
+    "language": "\u2014",
+    "name": "ianshk/astro-skills",
+    "stars": 2,
+    "updated_at": "2026-06-15T13:04:01Z",
+    "url": "https://github.com/ianshk/astro-skills"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-15T12:45:36Z",
+    "updated_at": "2026-06-15T13:00:50Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-06-15T12:58:20Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -281,7 +290,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 11670,
+    "stars": 11811,
     "updated_at": "2026-06-15T09:50:59Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -345,7 +354,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36774,
+    "stars": 36775,
     "updated_at": "2026-06-15T01:09:29Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -499,14 +508,5 @@
     "stars": 16,
     "updated_at": "2026-06-13T13:11:25Z",
     "url": "https://github.com/FighterRepresent/cursor-rules-generator"
-  },
-  {
-    "description": "Chinese-first concise mode SKILL.md for Claude Code / Codex CLI / Cursor \u2014 shorter, denser replies without losing techni",
-    "id": "Cpp1022/concise",
-    "language": "PowerShell",
-    "name": "Cpp1022/concise",
-    "stars": 3,
-    "updated_at": "2026-06-13T09:21:59Z",
-    "url": "https://github.com/Cpp1022/concise"
   }
 ]
