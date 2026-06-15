@@ -1,12 +1,21 @@
 [
   {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 17,
-    "updated_at": "2026-06-15T21:44:44Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
+    "id": "eumiguellllllllll/copilot-rules",
+    "language": "Batchfile",
+    "name": "eumiguellllllllll/copilot-rules",
+    "stars": 1,
+    "updated_at": "2026-06-15T21:51:47Z",
+    "url": "https://github.com/eumiguellllllllll/copilot-rules"
+  },
+  {
+    "description": "Curated AI Agent Profiles for Claude Code, Codex, Cursor and more \u2014 install with forgecat CLI",
+    "id": "nota-america/forgecat-agent-profiles",
+    "language": "TypeScript",
+    "name": "nota-america/forgecat-agent-profiles",
+    "stars": 3,
+    "updated_at": "2026-06-15T21:56:57Z",
+    "url": "https://github.com/nota-america/forgecat-agent-profiles"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +23,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-15T21:33:38Z",
+    "updated_at": "2026-06-15T21:45:36Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 17,
+    "updated_at": "2026-06-15T21:44:44Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "cursorrules": {
@@ -268,15 +286,6 @@
     "url": "https://github.com/MertCapkin/GraphStack"
   },
   {
-    "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
-    "id": "eumiguellllllllll/copilot-rules",
-    "language": "Batchfile",
-    "name": "eumiguellllllllll/copilot-rules",
-    "stars": 1,
-    "updated_at": "2026-06-15T17:58:32Z",
-    "url": "https://github.com/eumiguellllllllll/copilot-rules"
-  },
-  {
     "description": "\u2728 Enhance your software development with a curated collection of prompts for Cursor AI, boosting efficiency in planning ",
     "id": "whydixit/cursor-starter",
     "language": "\u2014",
@@ -318,7 +327,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 15647,
+    "stars": 15733,
     "updated_at": "2026-06-15T15:04:58Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -441,7 +450,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36791,
+    "stars": 36792,
     "updated_at": "2026-06-15T01:09:29Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -499,14 +508,5 @@
     "stars": 0,
     "updated_at": "2026-06-13T22:06:44Z",
     "url": "https://github.com/toshon-jennings/SUMMARY-md"
-  },
-  {
-    "description": "Enforce architectural decisions in AI-assisted development.",
-    "id": "TheoV823/mneme",
-    "language": "HTML",
-    "name": "TheoV823/mneme",
-    "stars": 13,
-    "updated_at": "2026-06-13T21:06:51Z",
-    "url": "https://github.com/TheoV823/mneme"
   }
 ]
