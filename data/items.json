@@ -1,5 +1,59 @@
 [
   {
+    "description": "Test iOS agent skills with 11 tasks, 260+ scenarios, and 850+ assertions across 3 models",
+    "id": "christim427-rgb/ios-agent-skills",
+    "language": "Python",
+    "name": "christim427-rgb/ios-agent-skills",
+    "stars": 1,
+    "updated_at": "2026-06-15T23:13:47Z",
+    "url": "https://github.com/christim427-rgb/ios-agent-skills"
+  },
+  {
+    "description": "Build programmatic UIKit apps with production-ready patterns for views, navigation, animation, architecture, and data fl",
+    "id": "nizhan80-art/Swift-UIKit-Skill",
+    "language": "\u2014",
+    "name": "nizhan80-art/Swift-UIKit-Skill",
+    "stars": 1,
+    "updated_at": "2026-06-15T23:09:34Z",
+    "url": "https://github.com/nizhan80-art/Swift-UIKit-Skill"
+  },
+  {
+    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
+    "id": "Amirun99/agency-orchestrator",
+    "language": "Dart",
+    "name": "Amirun99/agency-orchestrator",
+    "stars": 0,
+    "updated_at": "2026-06-15T23:08:51Z",
+    "url": "https://github.com/Amirun99/agency-orchestrator"
+  },
+  {
+    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
+    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "language": "\u2014",
+    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "stars": 2,
+    "updated_at": "2026-06-15T23:07:55Z",
+    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
+  },
+  {
+    "description": "Build 9 iOS agent skills for SwiftUI, testing, security, and more in one install for AI coding agents",
+    "id": "ebbaunqualified520/ios-agent-skills",
+    "language": "Shell",
+    "name": "ebbaunqualified520/ios-agent-skills",
+    "stars": 0,
+    "updated_at": "2026-06-15T23:04:40Z",
+    "url": "https://github.com/ebbaunqualified520/ios-agent-skills"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-15T23:00:29Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
     "id": "edsondviana8/ai-humanizer-core",
     "language": "HTML",
@@ -25,15 +79,6 @@
     "stars": 1,
     "updated_at": "2026-06-15T22:46:46Z",
     "url": "https://github.com/GrekosTheJogurt/antigravity-workspace-manager"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-15T22:45:34Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -69,7 +114,7 @@
     "language": "TypeScript",
     "name": "nota-america/forgecat-agent-profiles",
     "stars": 3,
-    "updated_at": "2026-06-15T22:39:44Z",
+    "updated_at": "2026-06-15T23:12:51Z",
     "url": "https://github.com/nota-america/forgecat-agent-profiles"
   },
   {
@@ -232,51 +277,6 @@
     "url": "https://github.com/XAKLESK/cre-agent-skills"
   },
   {
-    "description": "Test iOS agent skills with 11 tasks, 260+ scenarios, and 850+ assertions across 3 models",
-    "id": "christim427-rgb/ios-agent-skills",
-    "language": "Python",
-    "name": "christim427-rgb/ios-agent-skills",
-    "stars": 1,
-    "updated_at": "2026-06-15T19:25:42Z",
-    "url": "https://github.com/christim427-rgb/ios-agent-skills"
-  },
-  {
-    "description": "Build programmatic UIKit apps with production-ready patterns for views, navigation, animation, architecture, and data fl",
-    "id": "nizhan80-art/Swift-UIKit-Skill",
-    "language": "\u2014",
-    "name": "nizhan80-art/Swift-UIKit-Skill",
-    "stars": 1,
-    "updated_at": "2026-06-15T19:21:22Z",
-    "url": "https://github.com/nizhan80-art/Swift-UIKit-Skill"
-  },
-  {
-    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
-    "id": "Amirun99/agency-orchestrator",
-    "language": "Dart",
-    "name": "Amirun99/agency-orchestrator",
-    "stars": 0,
-    "updated_at": "2026-06-15T19:20:24Z",
-    "url": "https://github.com/Amirun99/agency-orchestrator"
-  },
-  {
-    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
-    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "language": "\u2014",
-    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "stars": 2,
-    "updated_at": "2026-06-15T19:19:23Z",
-    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
-  },
-  {
-    "description": "Build 9 iOS agent skills for SwiftUI, testing, security, and more in one install for AI coding agents",
-    "id": "ebbaunqualified520/ios-agent-skills",
-    "language": "Shell",
-    "name": "ebbaunqualified520/ios-agent-skills",
-    "stars": 0,
-    "updated_at": "2026-06-15T19:16:00Z",
-    "url": "https://github.com/ebbaunqualified520/ios-agent-skills"
-  },
-  {
     "description": "Declarative agent config for Claude Code, Codex, and Cursor: an agent.json manifest for skills, MCP servers, and stack p",
     "id": "raintree-technology/agent-starter",
     "language": "JavaScript",
@@ -341,7 +341,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 16018,
+    "stars": 16085,
     "updated_at": "2026-06-15T15:04:58Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -464,7 +464,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36794,
+    "stars": 36795,
     "updated_at": "2026-06-15T01:09:29Z",
     "url": "https://github.com/wshobson/agents"
   },
