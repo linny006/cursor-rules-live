@@ -1,5 +1,37 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: >-\n  Capabilities catalog for cursor-kenji skills. Routes requests to the right\n  skill or bundled workflow. Always-on routing index \u2014 the agent consults this\n  to pick between individual skills and bundled workflows.\nglobs:\nalwaysApply: true\n---\n\n# Skill Routing Index\n\n## Bundled workflows (use these first \u2014 they chain multiple skills)\n\n| Intent | Workflow skill |\n|--------|----------------|\n| Build a new feature end-to-end | `workflow-build-feature` |\n| Fix a bug and ship it | `workflow-fix-and-ship` |\n| Pre-release quality check | `workflow-quality-gate` |\n| Full launch preparation | `workflow-launch-ready` |\n| Orient to a new codebase | `workflow-onboard` |\n| Close post-launch feedback loop | `iterate-post-launch` |\n| Disciplined feature-flag rollout | `workflow-feature-flag` |\n\n## When to use a bundled workflow vs individual skill\n\n- **Use a bundle** when the user's request spans multiple phases (spec + build + test, or launch + verify + iterate)\n- **Use an individual skill** when the request is scoped to one phase (\"just run the security audit\", \"just write tests\", \"just write the PR\")\n- **Bundles call individual skills** \u2014 they never duplicate instructions; they sequence them\n\n## Individual skill quick-reference\n\n### Testing & quality\n| Task | Skill |\n|------|-------|\n| Adversarial full-app sweep | `test-red-team` |\n| Drive app as real user, fix inline | `test-playwright` |\n| Comprehensive QA with CRUD verification | `test-qa` |\n| Write unit/integration tests | `test-unit` |\n\n### Audits\n| Task | Skill |\n|------|-------|\n| Static security review (OWASP) | `audit-security` |\n| JS bundle analysis & reduction | `audit-bundle-size` |\n| Core Web Vitals & performance | `audit-performance` |\n| Database schema health | `audit-db-schema` |\n| Translation quality & hardcoded strings | `audit-i18n` |\n| UX heuristics audit | `audit-ux` |\n| Accessibility (WCAG 2.2) | `audit-accessibility` |\n| Design system compliance | `audit-uiux-design-system` |\n\n### Enhancement\n| Task | Skill |\n|------|-------|\n| SEO (meta, OG, JSON-LD, sitemap) | `enhance-web-seo` |\n| PWA (manifest, service worker, offline) | `enhance-pwa` |\n| UI polish & layout | `enhance-web-ui` |\n| UX & information architecture | `enhance-web-ux` |\n| Cross-surface (web + mobile) consistency | `enhance-capacitor-ui` |\n\n### Deploy\n| Task | Skill |\n|------|-------|\n| Post-deploy smoke test | `deploy-verify` |\n| npm package release | `deploy-npm` |\n\n### Debug\n| Task | Skill |\n|------|-------|\n| Debug any error | `debug-error` |\n| Triage & fix Sentry issues | `debug-sentry-monitor` |\n| FE-BE integration mismatches | `debug-fe-be-integration` |\n\n## Skill chaining diagram\n\n```\nworkflow-build-feature\n  \u2514\u2500 workflow-spec-tdd \u2192 test-unit \u2192 test-playwright \u2192 workflow-pr\n\nworkflow-fix-and-ship\n  \u2514\u2500 debug-error \u2192 test-playwright \u2192 workflow-pr \u2192 deploy-verify\n\nworkflow-quality-gate\n  \u2514\u2500 test-red-team \u2192 audit-security \u2192 audit-bundle-size \u2192 audit-performance \u2192 test-unit\n\nworkflow-launch-ready\n  \u2514\u2500 enhance-web-seo \u2192 enhance-pwa \u2192 audit-bundle-size \u2192 audit-i18n\n     \u2192 workflow-quality-gate \u2192 deploy-verify \u2192 iterate-post-launch\n\niterate-post-launch\n  \u2514\u2500 debug-sentry-monitor \u2192 deploy-verify \u2192 test-playwright\n```\n\n## Rules vs Skills\n\n- **Rules** (this file, `full-stack-ship-discipline.mdc`, etc.) = always-on policies, guardrails, routing\n- **Skills** = activated on demand when a task matches the description\n- Never put task-specific workflows in rules \u2014 they waste context on unrelated tasks\n",
+      "format": "mdc",
+      "path": ".cursor/rules/skill-workflows.mdc"
+    },
+    "description": "Curated Cursor AI agent skills, slash commands, MCP configs, subagents & rules for full-stack dev \u2014 React 19, Next.js 15",
+    "id": "kensaurus/cursor-kenji",
+    "language": "JavaScript",
+    "name": "kensaurus/cursor-kenji",
+    "stars": 4,
+    "updated_at": "2026-06-15T22:22:18Z",
+    "url": "https://github.com/kensaurus/cursor-kenji"
+  },
+  {
+    "description": "Curated AI Agent Profiles for Claude Code, Codex, Cursor and more \u2014 install with forgecat CLI",
+    "id": "nota-america/forgecat-agent-profiles",
+    "language": "TypeScript",
+    "name": "nota-america/forgecat-agent-profiles",
+    "stars": 3,
+    "updated_at": "2026-06-15T22:17:31Z",
+    "url": "https://github.com/nota-america/forgecat-agent-profiles"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-15T22:15:28Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
     "id": "J-nowcow/awesome-korean-agent-skills",
     "language": "\u2014",
@@ -9,15 +41,6 @@
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-15T22:00:37Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
     "id": "eumiguellllllllll/copilot-rules",
     "language": "Batchfile",
@@ -25,15 +48,6 @@
     "stars": 1,
     "updated_at": "2026-06-15T21:51:47Z",
     "url": "https://github.com/eumiguellllllllll/copilot-rules"
-  },
-  {
-    "description": "Curated AI Agent Profiles for Claude Code, Codex, Cursor and more \u2014 install with forgecat CLI",
-    "id": "nota-america/forgecat-agent-profiles",
-    "language": "TypeScript",
-    "name": "nota-america/forgecat-agent-profiles",
-    "stars": 3,
-    "updated_at": "2026-06-15T22:12:18Z",
-    "url": "https://github.com/nota-america/forgecat-agent-profiles"
   },
   {
     "cursorrules": {
@@ -327,7 +341,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 15812,
+    "stars": 15890,
     "updated_at": "2026-06-15T15:04:58Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -499,14 +513,5 @@
     "stars": 0,
     "updated_at": "2026-06-14T01:24:50Z",
     "url": "https://github.com/mhenke/john-ousterhout-skills"
-  },
-  {
-    "description": "A cheat sheet that stops AI agents from scanning your whole repo and saves you tokens.",
-    "id": "toshon-jennings/SUMMARY-md",
-    "language": "\u2014",
-    "name": "toshon-jennings/SUMMARY-md",
-    "stars": 0,
-    "updated_at": "2026-06-13T22:06:44Z",
-    "url": "https://github.com/toshon-jennings/SUMMARY-md"
   }
 ]
