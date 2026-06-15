@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-06-15 07:39 UTC
+> ⏰ Last updated: 2026-06-15 07:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -81,7 +81,7 @@ expired items removed — so you can rely on what you see being current.
 | 26 | [JohannFreddyLoayzaHuana/awesome-ai-coding-tools](https://github.com/JohannFreddyLoayzaHuana/awesome-ai-coding-tools) | 2 | — | 2026-06-15 | — | 💡 Discover AI coding tools that enhance your workflow, from code editors to completion engines, and boost your software  |
 | 27 | [madebyaris/cursor-composer-rules](https://github.com/madebyaris/cursor-composer-rules) | 1 | — | 2026-06-15 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/madebyaris/cursor-composer-rules/) | How a senior engineer thinks, encoded for Cursor agents — evidence-first, surgical edits, reasoning & metacognition, and |
 | 28 | [wshobson/agents](https://github.com/wshobson/agents) | 36762 | Python | 2026-06-15 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI |
-| 29 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 9834 | JavaScript | 2026-06-15 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 29 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 9867 | JavaScript | 2026-06-15 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 30 | [caioribeiroclw-pixel/pluribus](https://github.com/caioribeiroclw-pixel/pluribus) | 6 | JavaScript | 2026-06-14 | — | Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security |
 | 31 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 17 | — | 2026-06-14 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
 | 32 | [DongDuong2001/pudo-code-system](https://github.com/DongDuong2001/pudo-code-system) | 2 | JavaScript | 2026-06-14 | — | Agent Skills and Structured Prompts for Scalable Development |
