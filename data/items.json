@@ -1,14 +1,5 @@
 [
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-15T03:30:27Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: Ask only decisive questions \u2014 after inspecting, when the answer changes the design, never as a stalling tactic\nalwaysApply: false\n---\n\n# Clarify first\n\nQuestions are expensive: they interrupt, they cost trust, they signal you didn't read. Use them rarely, deliberately, and only after inspecting.\n\n## Plan mode exception\n\nWhen the user is in **plan mode**, structured questions belong in the plan (assumptions, design forks, verification plan). That is not stalling \u2014 it is the deliverable. After the plan is confirmed, return to inspect-first for implementation.\n\n## Default: read, don't ask\n\nMost ambiguity dissolves on inspection. Before asking anything, check:\n\n- The repo structure, manifest, configs.\n- Existing tests and fixtures \u2014 they encode intent.\n- Recent commits and PRs touching the area.\n- Comments, README, ADRs, or docs.\n- The way similar features were built.\n\nIf the answer is in the codebase, find it.\n\n## Infer before you ask\n\nAmbiguity in the request itself often resolves without a question \u2014 infer the intent, then proceed (see [composer-reasoning](composer-reasoning.mdc) \u00a7 Infer the real ask).\n\n- **Constraints already given \u2192 proceed.** When the user wrote a detailed prompt, they did the narrowing. Don't bounce it back as questions; act on it and **state any assumption inline** so it's easy to correct.\n- **X-Y problem \u2192 reconcile, don't just comply.** If they ask for Y but seem to want X, name the gap in one line and offer X \u2014 that is more useful than silently building Y or stalling on a question.\n\nThis is inference, not guessing: it stands on the cues in the request and the code. When inference runs out and the criteria below are met, ask.\n\n## Ask when \u2014 and only when\n\nAsk 1\u20132 questions, in one round, when **all** are true:\n\n1. The answer **materially changes** what you'll build.\n2. The answer **cannot** be inferred from inspection.\n3. Guessing wrong would waste real work or harm correctness.\n\nExamples that qualify:\n\n- \"Should this run as a job or a synchronous request? It affects the public API shape.\"\n- \"Are deletes soft or hard? It changes the schema and downstream queries.\"\n- \"Multi-tenant or single-tenant? It changes the auth model.\"\n\nExamples that don't qualify (just decide):\n\n- Formatter / lint settings \u2014 match the file.\n- Variable name \u2014 match the surroundings.\n- Which existing util to use \u2014 pick the one already used nearby.\n- Whether to add a comment \u2014 write it if non-obvious; skip if not.\n\n## Phrase the question to the decision\n\nTie each question to the decision it unblocks:\n\n```\nGOOD:\n\"To finalize the API: should /tasks/:id/archive remove the row\nor set archived_at? Affects downstream queries and the un-archive flow.\"\n\nBAD:\n\"What do you want this to do?\"\n\"Any preferences on the database design?\"\n```\n\nDecision-linked questions get answered fast. Open-ended questions stall.\n\n## Asking is not a stalling tactic\n\nDon't ask questions to avoid committing. Don't ask about preferences when one option is clearly better given the codebase. Don't ask multiple times what you've already inferred.\n\nIf you have a strong default supported by the code, **state it as your assumption and proceed**:\n\n> Assuming the existing `softDelete` pattern (sets `deleted_at`); flag if you wanted hard delete.\n\nSurface assumptions visibly so they're easy to correct.\n\n## When you're truly stuck\n\nIf after inspection you genuinely don't know how to proceed and the question doesn't fit the criteria above, say so plainly:\n\n> I'm not sure how to choose between A and B from the code alone. Here's what each would imply: ... Which fits your intent?\n\nThat's better than guessing wrong, and better than stalling without telling the user why.\n",
       "format": "mdc",
@@ -19,8 +10,26 @@
     "language": "\u2014",
     "name": "madebyaris/cursor-composer-rules",
     "stars": 1,
-    "updated_at": "2026-06-15T03:27:13Z",
+    "updated_at": "2026-06-15T03:51:56Z",
     "url": "https://github.com/madebyaris/cursor-composer-rules"
+  },
+  {
+    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 9,
+    "updated_at": "2026-06-15T03:45:58Z",
+    "url": "https://github.com/KbWen/agentic-os"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-15T03:45:26Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Build unique user interfaces with a structured ruleset to prevent generic AI output.",
@@ -66,15 +75,6 @@
     "stars": 1,
     "updated_at": "2026-06-15T03:14:23Z",
     "url": "https://github.com/christim427-rgb/ios-agent-skills"
-  },
-  {
-    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
-    "id": "KbWen/agentic-os",
-    "language": "Python",
-    "name": "KbWen/agentic-os",
-    "stars": 9,
-    "updated_at": "2026-06-15T03:12:13Z",
-    "url": "https://github.com/KbWen/agentic-os"
   },
   {
     "description": "Build programmatic UIKit apps with production-ready patterns for views, navigation, animation, architecture, and data fl",
@@ -237,7 +237,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 8678,
+    "stars": 8727,
     "updated_at": "2026-06-15T01:06:22Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -515,7 +515,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 14891,
+    "stars": 14894,
     "updated_at": "2026-06-12T23:20:03Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   }
