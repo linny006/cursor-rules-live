@@ -1,11 +1,29 @@
 [
   {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 17,
+    "updated_at": "2026-06-15T20:27:19Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+  },
+  {
+    "description": "AI agent skills (Claude Code, Cursor, \u2026) for @studiolxd/scorm \u2014 headless SCORM 1.2/2004 runtime",
+    "id": "studiolxd/scorm-skills",
+    "language": "JavaScript",
+    "name": "studiolxd/scorm-skills",
+    "stars": 0,
+    "updated_at": "2026-06-15T20:24:46Z",
+    "url": "https://github.com/studiolxd/scorm-skills"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-15T20:01:06Z",
+    "updated_at": "2026-06-15T20:15:38Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -106,15 +124,6 @@
     "stars": 3,
     "updated_at": "2026-06-15T19:00:55Z",
     "url": "https://github.com/zinxj/uikit-expert-skill"
-  },
-  {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 17,
-    "updated_at": "2026-06-15T19:00:19Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "description": "Manage and organize project workspaces while dynamically injecting relevant skills for efficient AI assistant context lo",
@@ -300,7 +309,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 15207,
+    "stars": 15299,
     "updated_at": "2026-06-15T15:04:58Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -499,14 +508,5 @@
     "stars": 13,
     "updated_at": "2026-06-13T21:06:51Z",
     "url": "https://github.com/TheoV823/mneme"
-  },
-  {
-    "description": "VS Code extension for LynxPrompt \u2014 browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules) ",
-    "id": "GeiserX/lynxprompt-vscode",
-    "language": "TypeScript",
-    "name": "GeiserX/lynxprompt-vscode",
-    "stars": 1,
-    "updated_at": "2026-06-13T17:22:02Z",
-    "url": "https://github.com/GeiserX/lynxprompt-vscode"
   }
 ]
