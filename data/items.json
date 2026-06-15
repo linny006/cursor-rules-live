@@ -1,5 +1,23 @@
 [
   {
+    "description": "\u6211\u7684 Claude Code skills \u96c6\u5408\uff0c\u7528\u4e8e\u63d0\u5347\u5f00\u53d1\u6548\u7387",
+    "id": "wu529778790/shenzjd-skills",
+    "language": "Shell",
+    "name": "wu529778790/shenzjd-skills",
+    "stars": 0,
+    "updated_at": "2026-06-15T10:04:43Z",
+    "url": "https://github.com/wu529778790/shenzjd-skills"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-15T10:00:56Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
     "id": "mikeprasad/aria-knowledge",
     "language": "Shell",
@@ -45,7 +63,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 10559,
+    "stars": 10620,
     "updated_at": "2026-06-15T09:50:59Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -84,15 +102,6 @@
     "stars": 1,
     "updated_at": "2026-06-15T09:45:52Z",
     "url": "https://github.com/christim427-rgb/ios-agent-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-15T09:45:34Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
@@ -327,7 +336,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36771,
+    "stars": 36770,
     "updated_at": "2026-06-15T01:09:29Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -499,19 +508,5 @@
     "stars": 3,
     "updated_at": "2026-06-15T09:08:56Z",
     "url": "https://github.com/nota-america/forgecat-agent-profiles"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: \"skill-builder \u2014 build or audit any AI agent skill from a description when user invokes /skill-builder\"\nalwaysApply: false\n---\n\nWhen user says `/skill-builder`, follow `skills/skill-builder/SKILL.md`.\n\n**Invocation**: `/skill-builder \"description\" [--type workflow|mode|tool|reference|agent] [--repo] [--audit path] [--fix]`\n\n**Phases (create)**:\n0. Route \u2014 detect --audit; if present jump to Phase A\n1. Classify skill type (auto-detect or --type)\n2. Gather requirements (\u22643 questions total)\n3. Domain research \u2014 WebSearch official docs (skip if no references needed)\n4. Generate SKILL.md (frontmatter + body for type)\n5. Generate references/ (verified facts only)\n6. Generate hooks/ (mode skills only)\n7. Scaffold full repo (--repo only)\n8. Report + install commands\n\n**Phase A (--audit)**:\n1. Read SKILL.md at path\n2. Run quality checklist from `references/skill-anatomy.md`\n3. Output audit report: failures / warnings / passed\n4. If --fix: output corrected SKILL.md (fix failures only)\n\n**Critical**:\n- `name`: `^[a-z0-9]+(-[a-z0-9]+)*$`, max 64 chars\n- `description`: max 1024 chars; SKILL.md body: max 5000 tokens\n- Domain facts in references: WebSearch official docs \u2014 never guess\n- Reference files >100 lines: TOC at top; one-level-deep only\n",
-      "format": "mdc",
-      "path": ".cursor/rules/skill-builder.mdc"
-    },
-    "description": "Build & audit AI agent skills from plain English",
-    "id": "shihabshahrier/skill-builder",
-    "language": "Shell",
-    "name": "shihabshahrier/skill-builder",
-    "stars": 0,
-    "updated_at": "2026-06-12T23:44:59Z",
-    "url": "https://github.com/shihabshahrier/skill-builder"
   }
 ]
