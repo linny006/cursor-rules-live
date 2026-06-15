@@ -1,5 +1,23 @@
 [
   {
+    "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
+    "id": "pekral/cursor-rules",
+    "language": "PHP",
+    "name": "pekral/cursor-rules",
+    "stars": 3,
+    "updated_at": "2026-06-15T06:26:20Z",
+    "url": "https://github.com/pekral/cursor-rules"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-15T06:15:52Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
     "id": "edsondviana8/ai-humanizer-core",
     "language": "HTML",
@@ -52,15 +70,6 @@
     "stars": 1,
     "updated_at": "2026-06-15T06:02:34Z",
     "url": "https://github.com/XAKLESK/cre-agent-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-15T06:00:43Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Test iOS agent skills with 11 tasks, 260+ scenarios, and 850+ assertions across 3 models",
@@ -282,7 +291,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 9300,
+    "stars": 9390,
     "updated_at": "2026-06-15T01:06:22Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -303,15 +312,6 @@
     "stars": 17,
     "updated_at": "2026-06-14T20:49:12Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
-    "id": "pekral/cursor-rules",
-    "language": "PHP",
-    "name": "pekral/cursor-rules",
-    "stars": 3,
-    "updated_at": "2026-06-14T19:11:43Z",
-    "url": "https://github.com/pekral/cursor-rules"
   },
   {
     "description": "Agent Skills and Structured Prompts for Scalable Development",
@@ -515,7 +515,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 14904,
+    "stars": 14908,
     "updated_at": "2026-06-12T23:20:03Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   }
