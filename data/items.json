@@ -1,5 +1,23 @@
 [
   {
+    "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
+    "id": "pekral/cursor-rules",
+    "language": "PHP",
+    "name": "pekral/cursor-rules",
+    "stars": 3,
+    "updated_at": "2026-06-15T14:09:57Z",
+    "url": "https://github.com/pekral/cursor-rules"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-15T14:00:43Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: Instructions for AI agent code generation workflow\nglobs: [\"*\"]\nalwaysApply: true\n---\n\n# AI Collaboration Guidelines\n\n## The 3-Stage Agentic Loop\n\nEvery code generation task MUST follow this loop:\n\n### Stage 1: PLAN (gather context first)\n\nBefore writing ANY code, the AI MUST:\n1. Read the relevant source files to verify current state \u2014 do NOT rely on memory\n2. Identify which `.cursor/rules/` files apply to this task\n3. List the files to modify and explain why\n4. Do NOT write code yet\n\nPrompt template:\n```\nAnalyze the current codebase and plan how to implement [feature]. \nList the files you'll modify and why. Don't write code yet.\n```\n\n### Stage 2: IMPLEMENT (follow constraints)\n\nWhen generating code:\n- Follow ALL active `.cursor/rules/` constraints\n- If unsure about auth patterns, re-read `supabase-auth-security.mdc`\n- If unsure about params/layouts, re-read `nextjs15-params.mdc`\n- Use `unknown` + Zod validation instead of `any` for external data\n- Return `ActionResponse<T>` from all Server Actions (see below)\n\n### Stage 3: VERIFY (confirm before declaring done)\n\nAfter generating code, the AI MUST self-check:\n- [ ] No `getSession()` on the server (MUST be `getUser()`)\n- [ ] No synchronous `params` or `searchParams` access\n- [ ] No `@supabase/auth-helpers-nextjs` imports\n- [ ] No `any` types \u2014 use `unknown` + type narrowing\n- [ ] Every API route has Zod validation\n- [ ] Every error is caught and returns `{ error: string }`\n- [ ] New tables have RLS enabled\n- [ ] `loading.tsx` and `error.tsx` exist for data-fetching pages\n\nReport issues BEFORE the developer runs the code.\n\n## Skeptical Retrieval Rule\n\nNEVER trust stored knowledge about the codebase. Before modifying a file:\n1. Re-read the file to verify its current contents\n2. Check imports and exports to ensure they match expectations\n3. Verify that function signatures haven't changed\n\nThis prevents generating code that references stale function signatures, \ndeleted files, or renamed exports.\n\n## Standard Patterns\n\n### ActionResponse Type (use for all Server Actions)\n```typescript\ntype ActionResponse<T = void> = \n  | { success: true; data: T }\n  | { success: false; error: string }\n```\n\n### Standard Server Action Structure\n```typescript\n'use server'\nimport { createClient } from '@/lib/supabase/server'\nimport { z } from 'zod'\n\nconst Schema = z.object({ /* ... */ })\n\nexport async function myAction(input: unknown): Promise<ActionResponse<MyType>> {\n  // 1. Auth\n  const supabase = await createClient()\n  const { data: { user } } = await supabase.auth.getUser()\n  if (!user) return { success: false, error: 'Unauthorized' }\n\n  // 2. Validate\n  const result = Schema.safeParse(input)\n  if (!result.success) return { success: false, error: 'Invalid input' }\n\n  // 3. Execute\n  try {\n    const { data, error } = await supabase.from('table').insert(result.data).select().single()\n    if (error) throw error\n    return { success: true, data }\n  } catch {\n    return { success: false, error: 'Operation failed' }\n  }\n}\n```\n\n## Task Constraints\n\n- NEVER give the AI a task longer than 200 words\n- NEVER let the AI implement more than 3-4 files in one turn\n- NEVER let the AI skip the verification checklist\n- ALWAYS review the Git diff before committing\n- When uncertain, ask the developer \u2014 do NOT guess\n\n",
       "format": "mdc",
@@ -12,15 +30,6 @@
     "stars": 6,
     "updated_at": "2026-06-15T13:51:23Z",
     "url": "https://github.com/vibestackdev/vibe-stack"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-15T13:45:46Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "323\u500b\u306e\u5373\u6226\u529bAI\u5c02\u9580\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8 \u2014 Claude Code/Cursor/Copilot\u7b49\u306b\u5bfe\u5fdc\u3002SIer/\u53d7\u8a17\u958b\u767a/SaaS/\u88fd\u9020DX/\u516c\u5171\u5206\u91ce\u306a\u3069\u65e5\u672c\u5e02\u5834\u5411\u3051114\u500b\u306e\u30aa\u30ea\u30b8\u30ca\u30eb\u3092\u542b\u3080\u3001agency-agents\u65e5\u672c\u8a9e\u30b3\u30df\u30e5\u30cb\u30c6\u30a3",
@@ -41,7 +50,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 12318,
+    "stars": 12461,
     "updated_at": "2026-06-15T13:34:42Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -327,15 +336,6 @@
     "url": "https://github.com/glowElephant/context-forge"
   },
   {
-    "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
-    "id": "pekral/cursor-rules",
-    "language": "PHP",
-    "name": "pekral/cursor-rules",
-    "stars": 3,
-    "updated_at": "2026-06-15T13:45:39Z",
-    "url": "https://github.com/pekral/cursor-rules"
-  },
-  {
     "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
     "id": "philipbankier/awesome-agent-skills",
     "language": "TypeScript",
@@ -377,7 +377,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36776,
+    "stars": 36777,
     "updated_at": "2026-06-15T01:09:29Z",
     "url": "https://github.com/wshobson/agents"
   },
