@@ -1,5 +1,28 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-15T03:30:27Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Ask only decisive questions \u2014 after inspecting, when the answer changes the design, never as a stalling tactic\nalwaysApply: false\n---\n\n# Clarify first\n\nQuestions are expensive: they interrupt, they cost trust, they signal you didn't read. Use them rarely, deliberately, and only after inspecting.\n\n## Plan mode exception\n\nWhen the user is in **plan mode**, structured questions belong in the plan (assumptions, design forks, verification plan). That is not stalling \u2014 it is the deliverable. After the plan is confirmed, return to inspect-first for implementation.\n\n## Default: read, don't ask\n\nMost ambiguity dissolves on inspection. Before asking anything, check:\n\n- The repo structure, manifest, configs.\n- Existing tests and fixtures \u2014 they encode intent.\n- Recent commits and PRs touching the area.\n- Comments, README, ADRs, or docs.\n- The way similar features were built.\n\nIf the answer is in the codebase, find it.\n\n## Infer before you ask\n\nAmbiguity in the request itself often resolves without a question \u2014 infer the intent, then proceed (see [composer-reasoning](composer-reasoning.mdc) \u00a7 Infer the real ask).\n\n- **Constraints already given \u2192 proceed.** When the user wrote a detailed prompt, they did the narrowing. Don't bounce it back as questions; act on it and **state any assumption inline** so it's easy to correct.\n- **X-Y problem \u2192 reconcile, don't just comply.** If they ask for Y but seem to want X, name the gap in one line and offer X \u2014 that is more useful than silently building Y or stalling on a question.\n\nThis is inference, not guessing: it stands on the cues in the request and the code. When inference runs out and the criteria below are met, ask.\n\n## Ask when \u2014 and only when\n\nAsk 1\u20132 questions, in one round, when **all** are true:\n\n1. The answer **materially changes** what you'll build.\n2. The answer **cannot** be inferred from inspection.\n3. Guessing wrong would waste real work or harm correctness.\n\nExamples that qualify:\n\n- \"Should this run as a job or a synchronous request? It affects the public API shape.\"\n- \"Are deletes soft or hard? It changes the schema and downstream queries.\"\n- \"Multi-tenant or single-tenant? It changes the auth model.\"\n\nExamples that don't qualify (just decide):\n\n- Formatter / lint settings \u2014 match the file.\n- Variable name \u2014 match the surroundings.\n- Which existing util to use \u2014 pick the one already used nearby.\n- Whether to add a comment \u2014 write it if non-obvious; skip if not.\n\n## Phrase the question to the decision\n\nTie each question to the decision it unblocks:\n\n```\nGOOD:\n\"To finalize the API: should /tasks/:id/archive remove the row\nor set archived_at? Affects downstream queries and the un-archive flow.\"\n\nBAD:\n\"What do you want this to do?\"\n\"Any preferences on the database design?\"\n```\n\nDecision-linked questions get answered fast. Open-ended questions stall.\n\n## Asking is not a stalling tactic\n\nDon't ask questions to avoid committing. Don't ask about preferences when one option is clearly better given the codebase. Don't ask multiple times what you've already inferred.\n\nIf you have a strong default supported by the code, **state it as your assumption and proceed**:\n\n> Assuming the existing `softDelete` pattern (sets `deleted_at`); flag if you wanted hard delete.\n\nSurface assumptions visibly so they're easy to correct.\n\n## When you're truly stuck\n\nIf after inspection you genuinely don't know how to proceed and the question doesn't fit the criteria above, say so plainly:\n\n> I'm not sure how to choose between A and B from the code alone. Here's what each would imply: ... Which fits your intent?\n\nThat's better than guessing wrong, and better than stalling without telling the user why.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/clarify-first.mdc"
+    },
+    "description": "How a senior engineer thinks, encoded for Cursor agents \u2014 evidence-first, surgical edits, reasoning & metacognition, and",
+    "id": "madebyaris/cursor-composer-rules",
+    "language": "\u2014",
+    "name": "madebyaris/cursor-composer-rules",
+    "stars": 1,
+    "updated_at": "2026-06-15T03:27:13Z",
+    "url": "https://github.com/madebyaris/cursor-composer-rules"
+  },
+  {
     "description": "Build unique user interfaces with a structured ruleset to prevent generic AI output.",
     "id": "paoloincommensurable537/PixelPilot",
     "language": "JavaScript",
@@ -34,15 +57,6 @@
     "stars": 1,
     "updated_at": "2026-06-15T03:16:33Z",
     "url": "https://github.com/XAKLESK/cre-agent-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-15T03:15:44Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Test iOS agent skills with 11 tasks, 260+ scenarios, and 850+ assertions across 3 models",
@@ -209,7 +223,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36751,
+    "stars": 36753,
     "updated_at": "2026-06-15T01:09:29Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -223,7 +237,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 8618,
+    "stars": 8678,
     "updated_at": "2026-06-15T01:06:22Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -501,22 +515,8 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 14890,
+    "stars": 14891,
     "updated_at": "2026-06-12T23:20:03Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Capture architectural decisions as structured ADRs (Architecture Decision Records). Use when user says 'record this decision', 'ADR this', 'why did we choose X', 'document this trade-off', 'we decided to...', or when a significant choice is made between alternatives (framework, database, pattern, API design, infra approach).\nglobs: **/docs/adr/*.md, **/docs/adr/**/*.md\nalwaysApply: false\n---\n# ADR Skill\n\nCapture architectural decisions as they happen, so the *why* lives next to the code\ninstead of in a Slack thread or someone's memory. Produces lightweight ADR documents\nunder `docs/adr/`.\n\n## Keywords\nadr, architecture decision record, decision, rationale, trade-off, alternatives, we decided, why did we choose, design decision, supersede, decision log, nygard\n\n## When to record a decision\n\n- The user says \"record this\", \"ADR this\", \"let's document this decision\".\n- A choice is made between **significant alternatives**: framework, library, database,\n  language, pattern, API shape, infra/deploy approach, build vs buy.\n- The user says \"we decided to\u2026\" or \"the reason we're doing X instead of Y is\u2026\".\n- The user asks \"why did we choose X?\" \u2192 read and summarize the existing ADR.\n\nFor trivial or easily-reversible choices, don't create an ADR \u2014 note it inline and move on.\n\n## Output Artifacts\n\n| Request | Output |\n|---------|--------|\n| `/adr new \"<title>\"` | A new `docs/adr/NNNN-<slug>.md` + an updated index |\n| `/adr list` | The decision log (ID, title, status, date) |\n| `/adr supersede <NNNN>` | A new ADR marked as superseding an old one; old one flipped to `superseded` |\n\n---\n\n## Format\n\nLightweight Nygard ADR, adapted for AI-assisted work:\n\n```markdown\n# ADR-NNNN: <Decision Title>\n\n**Date**: YYYY-MM-DD\n**Status**: proposed | accepted | deprecated | superseded by ADR-NNNN\n**Deciders**: <who was involved>\n\n## Context\n\nWhat is the issue motivating this decision? The situation, constraints, and forces at\nplay. 2\u20135 sentences.\n\n## Decision\n\nWhat we are doing. 1\u20133 sentences, stated clearly.\n\n## Alternatives Considered\n\n### <Alternative>\n- **Pros**: \u2026\n- **Cons**: \u2026\n- **Why not**: the specific reason it was rejected.\n\n(Repeat per alternative.)\n\n## Consequences\n\n### Positive\n- \u2026\n\n### Negative / trade-offs\n- \u2026\n\n### Risks\n- <risk and its mitigation>\n```\n\n---\n\n## NEW \u2014 Record a decision\n\n1. **Initialize once.** If `docs/adr/` does not exist, ask the user to confirm before\n   creating it. On confirmation, create the directory, a `README.md` seeded with the\n   index table header (below), and a `template.md` copy of the format above. Never\n   create files without explicit consent.\n2. **Number it.** Next zero-padded number after the highest existing `docs/adr/NNNN-*.md`\n   (start at `0001`). Slug = kebab-case of the title.\n3. **Fill it from the conversation** \u2014 extract the decision, the context that prompted it,\n   the alternatives actually weighed, and the consequences. Do not invent alternatives\n   that were never discussed; if context is thin, ask one or two targeted questions.\n4. **Default status** `accepted` when the user states a decision; `proposed` when still\n   weighing. Date = today.\n5. **Update the index** in `docs/adr/README.md`.\n\n## Index format\n\n`docs/adr/README.md`:\n\n```markdown\n# Architecture Decision Records\n\n| ID | Title | Status | Date |\n|----|-------|--------|------|\n| [ADR-0001](0001-use-eks-over-ecs.md) | Use EKS over ECS | accepted | 2026-06-10 |\n```\n\n## SUPERSEDE \u2014 Replace a decision\n\n1. Read the old ADR.\n2. Create a new ADR that references it: \"Supersedes ADR-NNNN\" in Context.\n3. Flip the old ADR's `Status` to `superseded by ADR-MMMM`.\n4. Update both rows in the index.\n\nNever delete or rewrite a past ADR's decision \u2014 superseding preserves the history of\n*why it changed*, which is the whole point.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/adr.mdc"
-    },
-    "description": "Multi-tool DevOps skills for Claude Code, Cursor, and Codex \u2014 Terraform, Kubernetes, Docker, GitHub Actions, GitLab CI, ",
-    "id": "anmolnagpal/devops-skills",
-    "language": "Shell",
-    "name": "anmolnagpal/devops-skills",
-    "stars": 7,
-    "updated_at": "2026-06-12T19:59:13Z",
-    "url": "https://github.com/anmolnagpal/devops-skills"
   }
 ]

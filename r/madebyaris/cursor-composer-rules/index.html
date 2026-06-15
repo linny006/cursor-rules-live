@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<title>madebyaris/cursor-composer-rules - entry on Cursor Rules Live</title>
+<meta name="description" content="How a senior engineer thinks, encoded for Cursor agents — evidence-first, surgical edits, reasoning &amp; metacognition, and">
+<link rel="canonical" href="https://linny006.github.io/cursor-rules-live/r/madebyaris/cursor-composer-rules/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="madebyaris/cursor-composer-rules - entry on Cursor Rules Live">
+<meta property="og:description" content="How a senior engineer thinks, encoded for Cursor agents — evidence-first, surgical edits, reasoning &amp; metacognition, and">
+<meta property="og:url" content="https://linny006.github.io/cursor-rules-live/r/madebyaris/cursor-composer-rules/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="madebyaris/cursor-composer-rules - entry on Cursor Rules Live">
+<meta name="twitter:description" content="How a senior engineer thinks, encoded for Cursor agents — evidence-first, surgical edits, reasoning &amp; metacognition, and">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"madebyaris/cursor-composer-rules","codeRepository":"https://github.com/madebyaris/cursor-composer-rules","programmingLanguage":"—","url":"https://linny006.github.io/cursor-rules-live/r/madebyaris/cursor-composer-rules/","description":"How a senior engineer thinks, encoded for Cursor agents — evidence-first, surgical edits, reasoning & metacognition, and","author":{"@type":"Person","name":"madebyaris","url":"https://github.com/madebyaris"},"dateModified":"2026-06-15"}</script>
+<style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
+         --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 16px; font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--fg); background: var(--bg); }
+.wrap { max-width: var(--max); margin: 0 auto; }
+nav.bc { font-size: 14px; color: var(--muted); margin-bottom: 16px; }
+nav.bc a { color: var(--muted); }
+h1 { font-size: 28px; margin: 0 0 8px; }
+h2 { font-size: 20px; margin: 24px 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+p.lead { font-size: 18px; color: var(--muted); margin: 0 0 24px; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+th, td { padding: 8px 12px; text-align: left; border-bottom: 1px solid var(--border); }
+th { background: var(--card); font-weight: 600; }
+ul.crosslinks { list-style: none; padding: 0; }
+ul.crosslinks li { padding: 6px 0; }
+ul.crosslinks li a { font-weight: 500; }
+.meta { display: flex; gap: 16px; flex-wrap: wrap; color: var(--muted); font-size: 14px; margin: 12px 0; }
+.meta span::before { content: "\00b7"; margin-right: 8px; color: var(--border); }
+.meta span:first-child::before { content: ""; }
+footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--border); font-size: 14px; color: var(--muted); }</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="bc"><a href="https://linny006.github.io/cursor-rules-live/">Cursor Rules Live</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/popular/">Entries</a> &#183; <span>madebyaris/cursor-composer-rules</span></nav>
+<main>
+<h1>madebyaris/cursor-composer-rules</h1>
+<p class="lead">How a senior engineer thinks, encoded for Cursor agents — evidence-first, surgical edits, reasoning &amp; metacognition, and</p>
+<div class="meta">
+<span><strong>Stars</strong> 1</span>
+<span><strong>Language</strong> —</span>
+<span><strong>Last updated</strong> 2026-06-15</span>
+<span><a href="https://github.com/madebyaris/cursor-composer-rules" rel="external">Source on GitHub</a></span>
+<span><a href="https://github.com/madebyaris" rel="external">@madebyaris</a></span>
+</div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/clarify-first.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
+description: Ask only decisive questions — after inspecting, when the answer changes the design, never as a stalling tactic
+alwaysApply: false
+---
+
+# Clarify first
+
+Questions are expensive: they interrupt, they cost trust, they signal you didn&#x27;t read. Use them rarely, deliberately, and only after inspecting.
+
+## Plan mode exception
+
+When the user is in **plan mode**, structured questions belong in the plan (assumptions, design forks, verification plan). That is not stalling — it is the deliverable. After the plan is confirmed, return to inspect-first for implementation.
+
+## Default: read, don&#x27;t ask
+
+Most ambiguity dissolves on inspection. Before asking anything, check:
+
+- The repo structure, manifest, configs.
+- Existing tests and fixtures — they encode intent.
+- Recent commits and PRs touching the area.
+- Comments, README, ADRs, or docs.
+- The way similar features were built.
+
+If the answer is in the codebase, find it.
+
+## Infer before you ask
+
+Ambiguity in the request itself often resolves without a question — infer the intent, then proceed (see [composer-reasoning](composer-reasoning.mdc) § Infer the real ask).
+
+- **Constraints already given → proceed.** When the user wrote a detailed prompt, they did the narrowing. Don&#x27;t bounce it back as questions; act on it and **state any assumption inline** so it&#x27;s easy to correct.
+- **X-Y problem → reconcile, don&#x27;t just comply.** If they ask for Y but seem to want X, name the gap in one line and offer X — that is more useful than silently building Y or stalling on a question.
+
+This is inference, not guessing: it stands on the cues in the request and the code. When inference runs out and the criteria below are met, ask.
+
+## Ask when — and only when
+
+Ask 1–2 questions, in one round, when **all** are true:
+
+1. The answer **materially changes** what you&#x27;ll build.
+2. The answer **cannot** be inferred from inspection.
+3. Guessing wrong would waste real work or harm correctness.
+
+Examples that qualify:
+
+- &quot;Should this run as a job or a synchronous request? It affects the public API shape.&quot;
+- &quot;Are deletes soft or hard? It changes the schema and downstream queries.&quot;
+- &quot;Multi-tenant or single-tenant? It changes the auth model.&quot;
+
+Examples that don&#x27;t qualify (just decide):
+
+- Formatter / lint settings — match the file.
+- Variable name — match the surroundings.
+- Which existing util to use — pick the one already used nearby.
+- Whether to add a comment — write it if non-obvious; skip if not.
+
+## Phrase the question to the decision
+
+Tie each question to the decision it unblocks:
+
+```
+GOOD:
+&quot;To finalize the API: should /tasks/:id/archive remove the row
+or set archived_at? Affects downstream queries and the un-archive flow.&quot;
+
+BAD:
+&quot;What do you want this to do?&quot;
+&quot;Any preferences on the database design?&quot;
+```
+
+Decision-linked questions get answered fast. Open-ended questions stall.
+
+## Asking is not a stalling tactic
+
+Don&#x27;t ask questions to avoid committing. Don&#x27;t ask about preferences when one option is clearly better given the codebase. Don&#x27;t ask multiple times what you&#x27;ve already inferred.
+
+If you have a strong default supported by the code, **state it as your assumption and proceed**:
+
+&gt; Assuming the existing `softDelete` pattern (sets `deleted_at`); flag if you wanted hard delete.
+
+Surface assumptions visibly so they&#x27;re easy to correct.
+
+## When you&#x27;re truly stuck
+
+If after inspection you genuinely don&#x27;t know how to proceed and the question doesn&#x27;t fit the criteria above, say so plainly:
+
+&gt; I&#x27;m not sure how to choose between A and B from the code alone. Here&#x27;s what each would imply: ... Which fits your intent?
+
+That&#x27;s better than guessing wrong, and better than stalling without telling the user why.
+</code></pre>
+<p><a href="https://github.com/madebyaris/cursor-composer-rules/blob/HEAD/.cursor/rules/clarify-first.mdc" rel="external">View raw on GitHub</a></p>
+</section>
+<section><h2>Why this is listed</h2>
+<p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
+<section><h2>Similar in this tracker</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/r/J-nowcow/awesome-korean-agent-skills/">J-nowcow/awesome-korean-agent-skills (stars:17)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/FighterRepresent/cursor-rules-generator/">FighterRepresent/cursor-rules-generator (stars:16)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/pemdes174/cursor-rules/">pemdes174/cursor-rules (stars:5)</a></li>
+</ul></section>
+<section><h2>Explore by category</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/popular/">Popular (by stars)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/recent/">Recent (by activity)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/new/">New this week</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/lang/x/">All — entries</a></li>
+</ul></section>
+</main>
+<footer>
+Auto-updated every 15 minutes via GitHub Actions &#183; <a href="https://linny006.github.io/cursor-rules-live/">tracker root</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/sitemap.xml">sitemap</a>
+</footer>
+</div>
+</body>
+</html>
