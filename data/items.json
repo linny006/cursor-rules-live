@@ -1,11 +1,20 @@
 [
   {
+    "description": "Curated AI Agent Profiles for Claude Code, Codex, Cursor and more \u2014 install with forgecat CLI",
+    "id": "nota-america/forgecat-agent-profiles",
+    "language": "TypeScript",
+    "name": "nota-america/forgecat-agent-profiles",
+    "stars": 3,
+    "updated_at": "2026-06-15T23:33:43Z",
+    "url": "https://github.com/nota-america/forgecat-agent-profiles"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-15T23:25:11Z",
+    "updated_at": "2026-06-15T23:30:39Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -143,15 +152,6 @@
     "stars": 3,
     "updated_at": "2026-06-15T22:33:53Z",
     "url": "https://github.com/Luxvil/ai-coding-rules"
-  },
-  {
-    "description": "Curated AI Agent Profiles for Claude Code, Codex, Cursor and more \u2014 install with forgecat CLI",
-    "id": "nota-america/forgecat-agent-profiles",
-    "language": "TypeScript",
-    "name": "nota-america/forgecat-agent-profiles",
-    "stars": 3,
-    "updated_at": "2026-06-15T23:28:17Z",
-    "url": "https://github.com/nota-america/forgecat-agent-profiles"
   },
   {
     "cursorrules": {
@@ -341,7 +341,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 16133,
+    "stars": 16193,
     "updated_at": "2026-06-15T15:04:58Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
