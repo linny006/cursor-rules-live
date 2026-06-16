@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-16T13:00:40Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
     "id": "eumiguellllllllll/copilot-rules",
     "language": "Batchfile",
@@ -21,15 +30,6 @@
     "stars": 6,
     "updated_at": "2026-06-16T12:49:52Z",
     "url": "https://github.com/vibestackdev/vibe-stack"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-16T12:45:46Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -64,7 +64,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 15041,
+    "stars": 15042,
     "updated_at": "2026-06-16T12:33:08Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -105,7 +105,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 20575,
+    "stars": 20692,
     "updated_at": "2026-06-16T11:56:54Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -355,7 +355,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36826,
+    "stars": 36828,
     "updated_at": "2026-06-16T03:25:32Z",
     "url": "https://github.com/wshobson/agents"
   },
