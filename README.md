@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-06-16 16:31 UTC
+> ⏰ Last updated: 2026-06-16 16:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -54,7 +54,7 @@ expired items removed — so you can rely on what you see being current.
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
 | 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-06-16 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 2 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 22563 | JavaScript | 2026-06-16 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 2 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 22678 | JavaScript | 2026-06-16 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 3 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-06-16 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
 | 4 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 15054 | Shell | 2026-06-16 | — | 🎭 216 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 17 种工具，覆盖工程/设计/营销/金融等 18 个部门。含 50 个中国市场原创智能体（小红书/抖音/ |
 | 5 | [RollingGo-AI/hotel-skill](https://github.com/RollingGo-AI/hotel-skill) | 1 | — | 2026-06-16 | — |  |
@@ -90,7 +90,7 @@ expired items removed — so you can rely on what you see being current.
 | 35 | [fluttersdk/wind](https://github.com/fluttersdk/wind) | 20 | Dart | 2026-06-16 | — | Tailwind CSS for Flutter — classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code  |
 | 36 | [GeiserX/lynxprompt-vscode](https://github.com/GeiserX/lynxprompt-vscode) | 1 | TypeScript | 2026-06-16 | — | VS Code extension for LynxPrompt — browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules)  |
 | 37 | [madebyaris/advance-minimax-m3-cursor-rules](https://github.com/madebyaris/advance-minimax-m3-cursor-rules) | 120 | Python | 2026-06-16 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/madebyaris/advance-minimax-m3-cursor-rules/) | Agentic-first Cursor Rules powered by MiniMax M3 - clarify-first prompting, interleaved thinking, and full tool orchestr |
-| 38 | [wshobson/agents](https://github.com/wshobson/agents) | 36835 | Python | 2026-06-16 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI |
+| 38 | [wshobson/agents](https://github.com/wshobson/agents) | 36838 | Python | 2026-06-16 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI |
 | 39 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 15 | Python | 2026-06-16 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
 | 40 | [nota-america/forgecat-agent-profiles](https://github.com/nota-america/forgecat-agent-profiles) | 6 | TypeScript | 2026-06-16 | — | Curated AI Agent Profiles for Claude Code, Codex, Cursor and more — install with forgecat CLI |
 | 41 | [caioribeiroclw-pixel/pluribus](https://github.com/caioribeiroclw-pixel/pluribus) | 6 | JavaScript | 2026-06-16 | — | Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security |
