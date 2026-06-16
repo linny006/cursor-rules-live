@@ -1,11 +1,20 @@
 [
   {
+    "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
+    "id": "mikeprasad/aria-knowledge",
+    "language": "Shell",
+    "name": "mikeprasad/aria-knowledge",
+    "stars": 14,
+    "updated_at": "2026-06-16T22:31:41Z",
+    "url": "https://github.com/mikeprasad/aria-knowledge"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-16T22:15:54Z",
+    "updated_at": "2026-06-16T22:30:42Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -59,7 +68,7 @@
     "language": "Dart",
     "name": "fluttersdk/wind",
     "stars": 20,
-    "updated_at": "2026-06-16T22:05:56Z",
+    "updated_at": "2026-06-16T22:37:32Z",
     "url": "https://github.com/fluttersdk/wind"
   },
   {
@@ -121,7 +130,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 15055,
+    "stars": 15056,
     "updated_at": "2026-06-16T17:58:53Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -135,7 +144,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 24310,
+    "stars": 24367,
     "updated_at": "2026-06-16T16:12:23Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -432,8 +441,8 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36847,
-    "updated_at": "2026-06-16T03:25:32Z",
+    "stars": 36848,
+    "updated_at": "2026-06-16T22:43:27Z",
     "url": "https://github.com/wshobson/agents"
   },
   {
@@ -499,14 +508,5 @@
     "stars": 7,
     "updated_at": "2026-06-15T17:59:15Z",
     "url": "https://github.com/MertCapkin/GraphStack"
-  },
-  {
-    "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
-    "id": "HoangNguyen0403/agent-skills-standard",
-    "language": "TypeScript",
-    "name": "HoangNguyen0403/agent-skills-standard",
-    "stars": 508,
-    "updated_at": "2026-06-15T16:50:32Z",
-    "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
   }
 ]
