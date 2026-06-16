@@ -1,5 +1,91 @@
 [
   {
+    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
+    "id": "XAKLESK/cre-agent-skills",
+    "language": "\u2014",
+    "name": "XAKLESK/cre-agent-skills",
+    "stars": 1,
+    "updated_at": "2026-06-16T11:43:56Z",
+    "url": "https://github.com/XAKLESK/cre-agent-skills"
+  },
+  {
+    "description": "Test iOS agent skills with 11 tasks, 260+ scenarios, and 850+ assertions across 3 models",
+    "id": "christim427-rgb/ios-agent-skills",
+    "language": "Python",
+    "name": "christim427-rgb/ios-agent-skills",
+    "stars": 1,
+    "updated_at": "2026-06-16T11:41:37Z",
+    "url": "https://github.com/christim427-rgb/ios-agent-skills"
+  },
+  {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 1,
+    "updated_at": "2026-06-16T11:37:34Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Ponytail, lazy senior dev mode. Always pick the simplest solution that works.\nglobs:\nalwaysApply: true\n---\n\n# Ponytail, lazy senior dev mode\n\nYou are a lazy senior developer. Lazy means efficient, not careless. The best code is the code never written.\n\nBefore writing any code, stop at the first rung that holds:\n\n1. Does this need to be built at all? (YAGNI)\n2. Does the standard library already do this? Use it.\n3. Does a native platform feature cover it? Use it.\n4. Does an already-installed dependency solve it? Use it.\n5. Can this be one line? Make it one line.\n6. Only then: write the minimum code that works.\n\nRules:\n\n- No abstractions that weren't explicitly requested.\n- No new dependency if it can be avoided.\n- No boilerplate nobody asked for.\n- Deletion over addition. Boring over clever. Fewest files possible.\n- Question complex requests: \"Do you actually need X, or does Y cover it?\"\n- Pick the edge-case-correct option when two stdlib approaches are the same size, lazy means less code, not the flimsier algorithm.\n- Mark intentional simplifications with a `ponytail:` comment. If the shortcut has a known ceiling (global lock, O(n\u00b2) scan, naive heuristic), the comment names the ceiling and the upgrade path.\n\nNot lazy about: input validation at trust boundaries, error handling that prevents data loss, security, accessibility, the calibration real hardware needs (the platform is never the spec ideal, a clock drifts, a sensor reads off), anything explicitly requested. Lazy code without its check is unfinished: non-trivial logic leaves ONE runnable check behind, the smallest thing that fails if the logic breaks (an assert-based demo/self-check or one small test file; no frameworks, no fixtures). Trivial one-liners need no test.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/ponytail.mdc"
+    },
+    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+    "id": "DietrichGebert/ponytail",
+    "language": "JavaScript",
+    "name": "DietrichGebert/ponytail",
+    "stars": 20096,
+    "updated_at": "2026-06-16T11:37:10Z",
+    "url": "https://github.com/DietrichGebert/ponytail"
+  },
+  {
+    "description": "Build programmatic UIKit apps with production-ready patterns for views, navigation, animation, architecture, and data fl",
+    "id": "nizhan80-art/Swift-UIKit-Skill",
+    "language": "\u2014",
+    "name": "nizhan80-art/Swift-UIKit-Skill",
+    "stars": 1,
+    "updated_at": "2026-06-16T11:36:54Z",
+    "url": "https://github.com/nizhan80-art/Swift-UIKit-Skill"
+  },
+  {
+    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
+    "id": "Amirun99/agency-orchestrator",
+    "language": "Dart",
+    "name": "Amirun99/agency-orchestrator",
+    "stars": 0,
+    "updated_at": "2026-06-16T11:36:02Z",
+    "url": "https://github.com/Amirun99/agency-orchestrator"
+  },
+  {
+    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
+    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "language": "\u2014",
+    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "stars": 2,
+    "updated_at": "2026-06-16T11:35:02Z",
+    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
+  },
+  {
+    "description": "Build 9 iOS agent skills for SwiftUI, testing, security, and more in one install for AI coding agents",
+    "id": "ebbaunqualified520/ios-agent-skills",
+    "language": "Shell",
+    "name": "ebbaunqualified520/ios-agent-skills",
+    "stars": 0,
+    "updated_at": "2026-06-16T11:31:21Z",
+    "url": "https://github.com/ebbaunqualified520/ios-agent-skills"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-16T11:30:56Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
     "id": "Trentobobbi/uikit-mastery-playbook",
     "language": "HTML",
@@ -16,15 +102,6 @@
     "stars": 3,
     "updated_at": "2026-06-16T11:16:16Z",
     "url": "https://github.com/zinxj/uikit-expert-skill"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-16T11:15:37Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -48,20 +125,6 @@
     "stars": 1,
     "updated_at": "2026-06-16T11:12:39Z",
     "url": "https://github.com/GrekosTheJogurt/antigravity-workspace-manager"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Ponytail, lazy senior dev mode. Always pick the simplest solution that works.\nglobs:\nalwaysApply: true\n---\n\n# Ponytail, lazy senior dev mode\n\nYou are a lazy senior developer. Lazy means efficient, not careless. The best code is the code never written.\n\nBefore writing any code, stop at the first rung that holds:\n\n1. Does this need to be built at all? (YAGNI)\n2. Does the standard library already do this? Use it.\n3. Does a native platform feature cover it? Use it.\n4. Does an already-installed dependency solve it? Use it.\n5. Can this be one line? Make it one line.\n6. Only then: write the minimum code that works.\n\nRules:\n\n- No abstractions that weren't explicitly requested.\n- No new dependency if it can be avoided.\n- No boilerplate nobody asked for.\n- Deletion over addition. Boring over clever. Fewest files possible.\n- Question complex requests: \"Do you actually need X, or does Y cover it?\"\n- Pick the edge-case-correct option when two stdlib approaches are the same size, lazy means less code, not the flimsier algorithm.\n- Mark intentional simplifications with a `ponytail:` comment. If the shortcut has a known ceiling (global lock, O(n\u00b2) scan, naive heuristic), the comment names the ceiling and the upgrade path.\n\nNot lazy about: input validation at trust boundaries, error handling that prevents data loss, security, accessibility, the calibration real hardware needs (the platform is never the spec ideal, a clock drifts, a sensor reads off), anything explicitly requested. Lazy code without its check is unfinished: non-trivial logic leaves ONE runnable check behind, the smallest thing that fails if the logic breaks (an assert-based demo/self-check or one small test file; no frameworks, no fixtures). Trivial one-liners need no test.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/ponytail.mdc"
-    },
-    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-    "id": "DietrichGebert/ponytail",
-    "language": "JavaScript",
-    "name": "DietrichGebert/ponytail",
-    "stars": 20003,
-    "updated_at": "2026-06-16T11:12:30Z",
-    "url": "https://github.com/DietrichGebert/ponytail"
   },
   {
     "cursorrules": {
@@ -196,60 +259,6 @@
     "url": "https://github.com/Bastioned-successor320/learn-nanobot"
   },
   {
-    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
-    "id": "XAKLESK/cre-agent-skills",
-    "language": "\u2014",
-    "name": "XAKLESK/cre-agent-skills",
-    "stars": 1,
-    "updated_at": "2026-06-16T08:10:28Z",
-    "url": "https://github.com/XAKLESK/cre-agent-skills"
-  },
-  {
-    "description": "Test iOS agent skills with 11 tasks, 260+ scenarios, and 850+ assertions across 3 models",
-    "id": "christim427-rgb/ios-agent-skills",
-    "language": "Python",
-    "name": "christim427-rgb/ios-agent-skills",
-    "stars": 1,
-    "updated_at": "2026-06-16T08:08:26Z",
-    "url": "https://github.com/christim427-rgb/ios-agent-skills"
-  },
-  {
-    "description": "Build programmatic UIKit apps with production-ready patterns for views, navigation, animation, architecture, and data fl",
-    "id": "nizhan80-art/Swift-UIKit-Skill",
-    "language": "\u2014",
-    "name": "nizhan80-art/Swift-UIKit-Skill",
-    "stars": 1,
-    "updated_at": "2026-06-16T08:04:04Z",
-    "url": "https://github.com/nizhan80-art/Swift-UIKit-Skill"
-  },
-  {
-    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
-    "id": "Amirun99/agency-orchestrator",
-    "language": "Dart",
-    "name": "Amirun99/agency-orchestrator",
-    "stars": 0,
-    "updated_at": "2026-06-16T08:03:17Z",
-    "url": "https://github.com/Amirun99/agency-orchestrator"
-  },
-  {
-    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
-    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "language": "\u2014",
-    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "stars": 2,
-    "updated_at": "2026-06-16T08:02:21Z",
-    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
-  },
-  {
-    "description": "Build 9 iOS agent skills for SwiftUI, testing, security, and more in one install for AI coding agents",
-    "id": "ebbaunqualified520/ios-agent-skills",
-    "language": "Shell",
-    "name": "ebbaunqualified520/ios-agent-skills",
-    "stars": 0,
-    "updated_at": "2026-06-16T07:59:03Z",
-    "url": "https://github.com/ebbaunqualified520/ios-agent-skills"
-  },
-  {
     "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
     "id": "pekral/cursor-rules",
     "language": "PHP",
@@ -266,15 +275,6 @@
     "stars": 0,
     "updated_at": "2026-06-16T06:25:23Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 1,
-    "updated_at": "2026-06-16T05:37:42Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "cursorrules": {
