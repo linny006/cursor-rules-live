@@ -1,11 +1,20 @@
 [
   {
+    "description": "VS Code extension for LynxPrompt \u2014 browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules) ",
+    "id": "GeiserX/lynxprompt-vscode",
+    "language": "TypeScript",
+    "name": "GeiserX/lynxprompt-vscode",
+    "stars": 1,
+    "updated_at": "2026-06-16T08:57:37Z",
+    "url": "https://github.com/GeiserX/lynxprompt-vscode"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-16T08:30:53Z",
+    "updated_at": "2026-06-16T08:45:44Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -282,7 +291,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 18871,
+    "stars": 18974,
     "updated_at": "2026-06-16T01:52:51Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -499,14 +508,5 @@
     "stars": 2,
     "updated_at": "2026-06-14T16:18:52Z",
     "url": "https://github.com/DongDuong2001/pudo-code-system"
-  },
-  {
-    "description": "Team-ops layer for Cursor \u2014 versioned rules, skills & git guardrails rolled out across your whole engineering team in 5 ",
-    "id": "SID-SURANGE/cursor-team-ops",
-    "language": "Shell",
-    "name": "SID-SURANGE/cursor-team-ops",
-    "stars": 0,
-    "updated_at": "2026-06-14T06:09:39Z",
-    "url": "https://github.com/SID-SURANGE/cursor-team-ops"
   }
 ]
