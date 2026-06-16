@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-06-16 00:45 UTC
+> ⏰ Last updated: 2026-06-16 01:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,9 +53,9 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [eumiguellllllllll/copilot-rules](https://github.com/eumiguellllllllll/copilot-rules) | 1 | Batchfile | 2026-06-16 | — | ⚡ Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively. |
-| 2 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 16386 | JavaScript | 2026-06-16 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
-| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-06-16 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-06-16 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [eumiguellllllllll/copilot-rules](https://github.com/eumiguellllllllll/copilot-rules) | 1 | Batchfile | 2026-06-16 | — | ⚡ Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively. |
+| 3 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 16449 | JavaScript | 2026-06-16 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 4 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 0 | HTML | 2026-06-16 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
 | 5 | [Thabang9218/cursorifier](https://github.com/Thabang9218/cursorifier) | 0 | TypeScript | 2026-06-16 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Thabang9218/cursorifier/) | 🖱️ Enhance your Cursor AI with tailored, codebase-specific insights for smarter navigation and improved efficiency. |
 | 6 | [pemdes174/cursor-rules](https://github.com/pemdes174/cursor-rules) | 5 | — | 2026-06-16 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/pemdes174/cursor-rules/) | 🚀 Streamline your Next.js development with practical rules and tested patterns for efficient coding and minimal bugs. |
@@ -98,7 +98,7 @@ expired items removed — so you can rely on what you see being current.
 | 43 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 5 | TypeScript | 2026-06-15 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
 | 44 | [weijia-89/palamedes](https://github.com/weijia-89/palamedes) | 0 | Python | 2026-06-15 | — | Rigorous LLM research in two layers: a multi-agent dialectic synthesis prompt + an agent-loadable research skill. Hierar |
 | 45 | [madebyaris/cursor-composer-rules](https://github.com/madebyaris/cursor-composer-rules) | 1 | — | 2026-06-15 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/madebyaris/cursor-composer-rules/) | How a senior engineer thinks, encoded for Cursor agents — evidence-first, surgical edits, reasoning & metacognition, and |
-| 46 | [wshobson/agents](https://github.com/wshobson/agents) | 36795 | Python | 2026-06-15 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI |
+| 46 | [wshobson/agents](https://github.com/wshobson/agents) | 36796 | Python | 2026-06-15 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI |
 | 47 | [DongDuong2001/pudo-code-system](https://github.com/DongDuong2001/pudo-code-system) | 2 | JavaScript | 2026-06-14 | — | Agent Skills and Structured Prompts for Scalable Development |
 | 48 | [SID-SURANGE/cursor-team-ops](https://github.com/SID-SURANGE/cursor-team-ops) | 0 | Shell | 2026-06-14 | — | Team-ops layer for Cursor — versioned rules, skills & git guardrails rolled out across your whole engineering team in 5  |
 | 49 | [golid-ai/golid](https://github.com/golid-ai/golid) | 35 | TypeScript | 2026-06-14 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/golid-ai/golid/) | AI-native factory for Go + SolidJS apps — Cursor rules, spec drift CI, plans, and a production starter with auth, SSR, S |
