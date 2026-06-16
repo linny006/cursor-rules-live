@@ -1,5 +1,23 @@
 [
   {
+    "description": "Build 9 iOS agent skills for SwiftUI, testing, security, and more in one install for AI coding agents",
+    "id": "ebbaunqualified520/ios-agent-skills",
+    "language": "Shell",
+    "name": "ebbaunqualified520/ios-agent-skills",
+    "stars": 0,
+    "updated_at": "2026-06-16T14:09:42Z",
+    "url": "https://github.com/ebbaunqualified520/ios-agent-skills"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-16T14:01:01Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "n8n community node for LynxPrompt \u2014 manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via API",
     "id": "GeiserX/n8n-nodes-lynxprompt",
     "language": "TypeScript",
@@ -25,15 +43,6 @@
     "stars": 1,
     "updated_at": "2026-06-16T13:50:55Z",
     "url": "https://github.com/GrekosTheJogurt/antigravity-workspace-manager"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-16T13:45:41Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "323\u500b\u306e\u5373\u6226\u529bAI\u5c02\u9580\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8 \u2014 Claude Code/Cursor/Copilot\u7b49\u306b\u5bfe\u5fdc\u3002SIer/\u53d7\u8a17\u958b\u767a/SaaS/\u88fd\u9020DX/\u516c\u5171\u5206\u91ce\u306a\u3069\u65e5\u672c\u5e02\u5834\u5411\u3051114\u500b\u306e\u30aa\u30ea\u30b8\u30ca\u30eb\u3092\u542b\u3080\u3001agency-agents\u65e5\u672c\u8a9e\u30b3\u30df\u30e5\u30cb\u30c6\u30a3",
@@ -82,7 +91,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 21136,
+    "stars": 21294,
     "updated_at": "2026-06-16T13:29:52Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -242,7 +251,7 @@
     "language": "\u2014",
     "name": "nizhan80-art/Swift-UIKit-Skill",
     "stars": 1,
-    "updated_at": "2026-06-16T11:36:54Z",
+    "updated_at": "2026-06-16T14:15:03Z",
     "url": "https://github.com/nizhan80-art/Swift-UIKit-Skill"
   },
   {
@@ -251,7 +260,7 @@
     "language": "Dart",
     "name": "Amirun99/agency-orchestrator",
     "stars": 0,
-    "updated_at": "2026-06-16T11:36:02Z",
+    "updated_at": "2026-06-16T14:14:17Z",
     "url": "https://github.com/Amirun99/agency-orchestrator"
   },
   {
@@ -260,17 +269,8 @@
     "language": "\u2014",
     "name": "Overseastelegramaliterateperson865/awesome-claude-md",
     "stars": 2,
-    "updated_at": "2026-06-16T11:35:02Z",
+    "updated_at": "2026-06-16T14:13:13Z",
     "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
-  },
-  {
-    "description": "Build 9 iOS agent skills for SwiftUI, testing, security, and more in one install for AI coding agents",
-    "id": "ebbaunqualified520/ios-agent-skills",
-    "language": "Shell",
-    "name": "ebbaunqualified520/ios-agent-skills",
-    "stars": 0,
-    "updated_at": "2026-06-16T11:31:21Z",
-    "url": "https://github.com/ebbaunqualified520/ios-agent-skills"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -382,7 +382,7 @@
     "id": "KbWen/agentic-os",
     "language": "Python",
     "name": "KbWen/agentic-os",
-    "stars": 13,
+    "stars": 14,
     "updated_at": "2026-06-16T01:39:59Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
