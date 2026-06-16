@@ -1,5 +1,73 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: Ponytail, lazy senior dev mode. Always pick the simplest solution that works.\nglobs:\nalwaysApply: true\n---\n\n# Ponytail, lazy senior dev mode\n\nYou are a lazy senior developer. Lazy means efficient, not careless. The best code is the code never written.\n\nBefore writing any code, stop at the first rung that holds:\n\n1. Does this need to be built at all? (YAGNI)\n2. Does the standard library already do this? Use it.\n3. Does a native platform feature cover it? Use it.\n4. Does an already-installed dependency solve it? Use it.\n5. Can this be one line? Make it one line.\n6. Only then: write the minimum code that works.\n\nRules:\n\n- No abstractions that weren't explicitly requested.\n- No new dependency if it can be avoided.\n- No boilerplate nobody asked for.\n- Deletion over addition. Boring over clever. Fewest files possible.\n- Question complex requests: \"Do you actually need X, or does Y cover it?\"\n- Pick the edge-case-correct option when two stdlib approaches are the same size, lazy means less code, not the flimsier algorithm.\n- Mark intentional simplifications with a `ponytail:` comment. If the shortcut has a known ceiling (global lock, O(n\u00b2) scan, naive heuristic), the comment names the ceiling and the upgrade path.\n\nNot lazy about: input validation at trust boundaries, error handling that prevents data loss, security, accessibility, the calibration real hardware needs (the platform is never the spec ideal, a clock drifts, a sensor reads off), anything explicitly requested. Lazy code without its check is unfinished: non-trivial logic leaves ONE runnable check behind, the smallest thing that fails if the logic breaks (an assert-based demo/self-check or one small test file; no frameworks, no fixtures). Trivial one-liners need no test.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/ponytail.mdc"
+    },
+    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+    "id": "DietrichGebert/ponytail",
+    "language": "JavaScript",
+    "name": "DietrichGebert/ponytail",
+    "stars": 20184,
+    "updated_at": "2026-06-16T11:56:54Z",
+    "url": "https://github.com/DietrichGebert/ponytail"
+  },
+  {
+    "description": "\ud83c\udfad 211 \u4e2a\u5373\u63d2\u5373\u7528\u7684 AI \u4e13\u5bb6\u89d2\u8272 \u2014 \u652f\u6301 Hermes Agent/Claude Code/Cursor/Copilot \u7b49 16 \u79cd\u5de5\u5177\uff0c\u8986\u76d6\u5de5\u7a0b/\u8bbe\u8ba1/\u8425\u9500/\u91d1\u878d\u7b49 18 \u4e2a\u90e8\u95e8\u3002\u542b 46 \u4e2a\u4e2d\u56fd\u5e02\u573a\u539f\u521b\u667a\u80fd\u4f53\uff08\u5c0f\u7ea2\u4e66/\u6296\u97f3/",
+    "id": "jnMetaCode/agency-agents-zh",
+    "language": "Shell",
+    "name": "jnMetaCode/agency-agents-zh",
+    "stars": 15036,
+    "updated_at": "2026-06-16T11:52:08Z",
+    "url": "https://github.com/jnMetaCode/agency-agents-zh"
+  },
+  {
+    "description": "Build unique user interfaces with a structured ruleset to prevent generic AI output.",
+    "id": "paoloincommensurable537/PixelPilot",
+    "language": "JavaScript",
+    "name": "paoloincommensurable537/PixelPilot",
+    "stars": 0,
+    "updated_at": "2026-06-16T11:49:30Z",
+    "url": "https://github.com/paoloincommensurable537/PixelPilot"
+  },
+  {
+    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
+    "id": "Hyanthropological659/clarify-skill",
+    "language": "\u2014",
+    "name": "Hyanthropological659/clarify-skill",
+    "stars": 0,
+    "updated_at": "2026-06-16T11:49:19Z",
+    "url": "https://github.com/Hyanthropological659/clarify-skill"
+  },
+  {
+    "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
+    "id": "Bastioned-successor320/learn-nanobot",
+    "language": "Python",
+    "name": "Bastioned-successor320/learn-nanobot",
+    "stars": 1,
+    "updated_at": "2026-06-16T11:46:18Z",
+    "url": "https://github.com/Bastioned-successor320/learn-nanobot"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-16T11:46:07Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
+    "id": "Laurellagloomy260/cursor-rules-generator",
+    "language": "\u2014",
+    "name": "Laurellagloomy260/cursor-rules-generator",
+    "stars": 0,
+    "updated_at": "2026-06-16T11:44:47Z",
+    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
+  },
+  {
     "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
     "id": "XAKLESK/cre-agent-skills",
     "language": "\u2014",
@@ -25,20 +93,6 @@
     "stars": 1,
     "updated_at": "2026-06-16T11:37:34Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Ponytail, lazy senior dev mode. Always pick the simplest solution that works.\nglobs:\nalwaysApply: true\n---\n\n# Ponytail, lazy senior dev mode\n\nYou are a lazy senior developer. Lazy means efficient, not careless. The best code is the code never written.\n\nBefore writing any code, stop at the first rung that holds:\n\n1. Does this need to be built at all? (YAGNI)\n2. Does the standard library already do this? Use it.\n3. Does a native platform feature cover it? Use it.\n4. Does an already-installed dependency solve it? Use it.\n5. Can this be one line? Make it one line.\n6. Only then: write the minimum code that works.\n\nRules:\n\n- No abstractions that weren't explicitly requested.\n- No new dependency if it can be avoided.\n- No boilerplate nobody asked for.\n- Deletion over addition. Boring over clever. Fewest files possible.\n- Question complex requests: \"Do you actually need X, or does Y cover it?\"\n- Pick the edge-case-correct option when two stdlib approaches are the same size, lazy means less code, not the flimsier algorithm.\n- Mark intentional simplifications with a `ponytail:` comment. If the shortcut has a known ceiling (global lock, O(n\u00b2) scan, naive heuristic), the comment names the ceiling and the upgrade path.\n\nNot lazy about: input validation at trust boundaries, error handling that prevents data loss, security, accessibility, the calibration real hardware needs (the platform is never the spec ideal, a clock drifts, a sensor reads off), anything explicitly requested. Lazy code without its check is unfinished: non-trivial logic leaves ONE runnable check behind, the smallest thing that fails if the logic breaks (an assert-based demo/self-check or one small test file; no frameworks, no fixtures). Trivial one-liners need no test.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/ponytail.mdc"
-    },
-    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-    "id": "DietrichGebert/ponytail",
-    "language": "JavaScript",
-    "name": "DietrichGebert/ponytail",
-    "stars": 20096,
-    "updated_at": "2026-06-16T11:37:10Z",
-    "url": "https://github.com/DietrichGebert/ponytail"
   },
   {
     "description": "Build programmatic UIKit apps with production-ready patterns for views, navigation, animation, architecture, and data fl",
@@ -75,15 +129,6 @@
     "stars": 0,
     "updated_at": "2026-06-16T11:31:21Z",
     "url": "https://github.com/ebbaunqualified520/ios-agent-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-16T11:30:56Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -232,33 +277,6 @@
     "url": "https://github.com/GeiserX/lynxprompt-vscode"
   },
   {
-    "description": "Build unique user interfaces with a structured ruleset to prevent generic AI output.",
-    "id": "paoloincommensurable537/PixelPilot",
-    "language": "JavaScript",
-    "name": "paoloincommensurable537/PixelPilot",
-    "stars": 0,
-    "updated_at": "2026-06-16T08:15:42Z",
-    "url": "https://github.com/paoloincommensurable537/PixelPilot"
-  },
-  {
-    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
-    "id": "Hyanthropological659/clarify-skill",
-    "language": "\u2014",
-    "name": "Hyanthropological659/clarify-skill",
-    "stars": 0,
-    "updated_at": "2026-06-16T08:15:33Z",
-    "url": "https://github.com/Hyanthropological659/clarify-skill"
-  },
-  {
-    "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
-    "id": "Bastioned-successor320/learn-nanobot",
-    "language": "Python",
-    "name": "Bastioned-successor320/learn-nanobot",
-    "stars": 1,
-    "updated_at": "2026-06-16T08:12:46Z",
-    "url": "https://github.com/Bastioned-successor320/learn-nanobot"
-  },
-  {
     "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
     "id": "pekral/cursor-rules",
     "language": "PHP",
@@ -309,7 +327,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36824,
+    "stars": 36825,
     "updated_at": "2026-06-16T03:25:32Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -485,28 +503,5 @@
     "stars": 0,
     "updated_at": "2026-06-15T04:18:15Z",
     "url": "https://github.com/weijia-89/palamedes"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Ask only decisive questions \u2014 after inspecting, when the answer changes the design, never as a stalling tactic\nalwaysApply: false\n---\n\n# Clarify first\n\nQuestions are expensive: they interrupt, they cost trust, they signal you didn't read. Use them rarely, deliberately, and only after inspecting.\n\n## Plan mode exception\n\nWhen the user is in **plan mode**, structured questions belong in the plan (assumptions, design forks, verification plan). That is not stalling \u2014 it is the deliverable. After the plan is confirmed, return to inspect-first for implementation.\n\n## Default: read, don't ask\n\nMost ambiguity dissolves on inspection. Before asking anything, check:\n\n- The repo structure, manifest, configs.\n- Existing tests and fixtures \u2014 they encode intent.\n- Recent commits and PRs touching the area.\n- Comments, README, ADRs, or docs.\n- The way similar features were built.\n\nIf the answer is in the codebase, find it.\n\n## Infer before you ask\n\nAmbiguity in the request itself often resolves without a question \u2014 infer the intent, then proceed (see [composer-reasoning](composer-reasoning.mdc) \u00a7 Infer the real ask).\n\n- **Constraints already given \u2192 proceed.** When the user wrote a detailed prompt, they did the narrowing. Don't bounce it back as questions; act on it and **state any assumption inline** so it's easy to correct.\n- **X-Y problem \u2192 reconcile, don't just comply.** If they ask for Y but seem to want X, name the gap in one line and offer X \u2014 that is more useful than silently building Y or stalling on a question.\n\nThis is inference, not guessing: it stands on the cues in the request and the code. When inference runs out and the criteria below are met, ask.\n\n## Ask when \u2014 and only when\n\nAsk 1\u20132 questions, in one round, when **all** are true:\n\n1. The answer **materially changes** what you'll build.\n2. The answer **cannot** be inferred from inspection.\n3. Guessing wrong would waste real work or harm correctness.\n\nExamples that qualify:\n\n- \"Should this run as a job or a synchronous request? It affects the public API shape.\"\n- \"Are deletes soft or hard? It changes the schema and downstream queries.\"\n- \"Multi-tenant or single-tenant? It changes the auth model.\"\n\nExamples that don't qualify (just decide):\n\n- Formatter / lint settings \u2014 match the file.\n- Variable name \u2014 match the surroundings.\n- Which existing util to use \u2014 pick the one already used nearby.\n- Whether to add a comment \u2014 write it if non-obvious; skip if not.\n\n## Phrase the question to the decision\n\nTie each question to the decision it unblocks:\n\n```\nGOOD:\n\"To finalize the API: should /tasks/:id/archive remove the row\nor set archived_at? Affects downstream queries and the un-archive flow.\"\n\nBAD:\n\"What do you want this to do?\"\n\"Any preferences on the database design?\"\n```\n\nDecision-linked questions get answered fast. Open-ended questions stall.\n\n## Asking is not a stalling tactic\n\nDon't ask questions to avoid committing. Don't ask about preferences when one option is clearly better given the codebase. Don't ask multiple times what you've already inferred.\n\nIf you have a strong default supported by the code, **state it as your assumption and proceed**:\n\n> Assuming the existing `softDelete` pattern (sets `deleted_at`); flag if you wanted hard delete.\n\nSurface assumptions visibly so they're easy to correct.\n\n## When you're truly stuck\n\nIf after inspection you genuinely don't know how to proceed and the question doesn't fit the criteria above, say so plainly:\n\n> I'm not sure how to choose between A and B from the code alone. Here's what each would imply: ... Which fits your intent?\n\nThat's better than guessing wrong, and better than stalling without telling the user why.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/clarify-first.mdc"
-    },
-    "description": "How a senior engineer thinks, encoded for Cursor agents \u2014 evidence-first, surgical edits, reasoning & metacognition, and",
-    "id": "madebyaris/cursor-composer-rules",
-    "language": "\u2014",
-    "name": "madebyaris/cursor-composer-rules",
-    "stars": 2,
-    "updated_at": "2026-06-15T03:51:56Z",
-    "url": "https://github.com/madebyaris/cursor-composer-rules"
-  },
-  {
-    "description": "Agent Skills and Structured Prompts for Scalable Development",
-    "id": "DongDuong2001/pudo-code-system",
-    "language": "JavaScript",
-    "name": "DongDuong2001/pudo-code-system",
-    "stars": 2,
-    "updated_at": "2026-06-14T16:18:52Z",
-    "url": "https://github.com/DongDuong2001/pudo-code-system"
   }
 ]
