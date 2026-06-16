@@ -1,12 +1,39 @@
 [
   {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 17,
+    "updated_at": "2026-06-16T21:43:19Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+  },
+  {
     "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
     "id": "Lolner95/AIGX",
     "language": "Python",
     "name": "Lolner95/AIGX",
     "stars": 0,
-    "updated_at": "2026-06-16T21:25:37Z",
+    "updated_at": "2026-06-16T21:41:55Z",
     "url": "https://github.com/Lolner95/AIGX"
+  },
+  {
+    "description": "Shareable Cursor rules for agentic mobile development (Android + iOS) \u2014 no IDE required day-to-day. Companion to the 'Mo",
+    "id": "JoDaBaRo/agentic-mobile-rules",
+    "language": "Python",
+    "name": "JoDaBaRo/agentic-mobile-rules",
+    "stars": 0,
+    "updated_at": "2026-06-16T21:31:32Z",
+    "url": "https://github.com/JoDaBaRo/agentic-mobile-rules"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-16T21:30:35Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -16,15 +43,6 @@
     "stars": 1,
     "updated_at": "2026-06-16T21:22:08Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-16T21:15:39Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -81,15 +99,6 @@
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 17,
-    "updated_at": "2026-06-16T19:36:22Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
     "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
     "id": "pekral/cursor-rules",
     "language": "PHP",
@@ -126,7 +135,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 24081,
+    "stars": 24148,
     "updated_at": "2026-06-16T16:12:23Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -423,7 +432,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36843,
+    "stars": 36844,
     "updated_at": "2026-06-16T03:25:32Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -499,14 +508,5 @@
     "stars": 508,
     "updated_at": "2026-06-15T16:50:32Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
-  },
-  {
-    "description": "Agent Skill for building static sites with Astro",
-    "id": "ianshk/astro-skills",
-    "language": "\u2014",
-    "name": "ianshk/astro-skills",
-    "stars": 2,
-    "updated_at": "2026-06-15T13:04:01Z",
-    "url": "https://github.com/ianshk/astro-skills"
   }
 ]
