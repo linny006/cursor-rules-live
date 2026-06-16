@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-16T07:00:37Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
     "id": "eumiguellllllllll/copilot-rules",
     "language": "Batchfile",
@@ -7,15 +16,6 @@
     "stars": 1,
     "updated_at": "2026-06-16T06:45:47Z",
     "url": "https://github.com/eumiguellllllllll/copilot-rules"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-16T06:45:42Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -259,7 +259,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36813,
+    "stars": 36814,
     "updated_at": "2026-06-16T03:25:32Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -273,7 +273,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 18153,
+    "stars": 18233,
     "updated_at": "2026-06-16T01:52:51Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -397,7 +397,7 @@
     "language": "PHP",
     "name": "pekral/cursor-rules",
     "stars": 3,
-    "updated_at": "2026-06-16T06:44:17Z",
+    "updated_at": "2026-06-16T07:13:26Z",
     "url": "https://github.com/pekral/cursor-rules"
   },
   {
