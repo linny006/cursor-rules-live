@@ -1,12 +1,12 @@
 [
   {
-    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
-    "id": "zinxj/uikit-expert-skill",
-    "language": "\u2014",
-    "name": "zinxj/uikit-expert-skill",
-    "stars": 3,
-    "updated_at": "2026-06-16T07:44:51Z",
-    "url": "https://github.com/zinxj/uikit-expert-skill"
+    "description": "Build 9 iOS agent skills for SwiftUI, testing, security, and more in one install for AI coding agents",
+    "id": "ebbaunqualified520/ios-agent-skills",
+    "language": "Shell",
+    "name": "ebbaunqualified520/ios-agent-skills",
+    "stars": 0,
+    "updated_at": "2026-06-16T07:59:03Z",
+    "url": "https://github.com/ebbaunqualified520/ios-agent-skills"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-16T07:44:05Z",
+    "updated_at": "2026-06-16T07:45:39Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
+    "id": "zinxj/uikit-expert-skill",
+    "language": "\u2014",
+    "name": "zinxj/uikit-expert-skill",
+    "stars": 3,
+    "updated_at": "2026-06-16T07:44:51Z",
+    "url": "https://github.com/zinxj/uikit-expert-skill"
   },
   {
     "description": "Manage and organize project workspaces while dynamically injecting relevant skills for efficient AI assistant context lo",
@@ -223,15 +232,6 @@
     "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
   },
   {
-    "description": "Build 9 iOS agent skills for SwiftUI, testing, security, and more in one install for AI coding agents",
-    "id": "ebbaunqualified520/ios-agent-skills",
-    "language": "Shell",
-    "name": "ebbaunqualified520/ios-agent-skills",
-    "stars": 0,
-    "updated_at": "2026-06-16T05:14:50Z",
-    "url": "https://github.com/ebbaunqualified520/ios-agent-skills"
-  },
-  {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
     "id": "Trentobobbi/uikit-mastery-playbook",
     "language": "HTML",
@@ -282,7 +282,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 18454,
+    "stars": 18554,
     "updated_at": "2026-06-16T01:52:51Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
