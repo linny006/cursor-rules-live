@@ -1,5 +1,32 @@
 [
   {
+    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 12,
+    "updated_at": "2026-06-16T01:39:59Z",
+    "url": "https://github.com/KbWen/agentic-os"
+  },
+  {
+    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
+    "id": "zinxj/uikit-expert-skill",
+    "language": "\u2014",
+    "name": "zinxj/uikit-expert-skill",
+    "stars": 3,
+    "updated_at": "2026-06-16T01:33:13Z",
+    "url": "https://github.com/zinxj/uikit-expert-skill"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-16T01:30:31Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Manage and organize project workspaces while dynamically injecting relevant skills for efficient AI assistant context lo",
     "id": "GrekosTheJogurt/antigravity-workspace-manager",
     "language": "Python",
@@ -37,15 +64,6 @@
     "url": "https://github.com/Luxvil/ai-coding-rules"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-16T01:15:37Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "\u26a1 Improve GitHub Copilot's code generation with clear instructions to fix errors and enhance code quality effectively.",
     "id": "eumiguellllllllll/copilot-rules",
     "language": "Batchfile",
@@ -64,7 +82,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 16588,
+    "stars": 16657,
     "updated_at": "2026-06-16T00:30:33Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -250,15 +268,6 @@
     "url": "https://github.com/ebbaunqualified520/ios-agent-skills"
   },
   {
-    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
-    "id": "zinxj/uikit-expert-skill",
-    "language": "\u2014",
-    "name": "zinxj/uikit-expert-skill",
-    "stars": 3,
-    "updated_at": "2026-06-15T22:50:08Z",
-    "url": "https://github.com/zinxj/uikit-expert-skill"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: >-\n  Capabilities catalog for cursor-kenji skills. Routes requests to the right\n  skill or bundled workflow. Always-on routing index \u2014 the agent consults this\n  to pick between individual skills and bundled workflows.\nglobs:\nalwaysApply: true\n---\n\n# Skill Routing Index\n\n## Bundled workflows (use these first \u2014 they chain multiple skills)\n\n| Intent | Workflow skill |\n|--------|----------------|\n| Build a new feature end-to-end | `workflow-build-feature` |\n| Fix a bug and ship it | `workflow-fix-and-ship` |\n| Pre-release quality check | `workflow-quality-gate` |\n| Full launch preparation | `workflow-launch-ready` |\n| Orient to a new codebase | `workflow-onboard` |\n| Close post-launch feedback loop | `iterate-post-launch` |\n| Disciplined feature-flag rollout | `workflow-feature-flag` |\n\n## When to use a bundled workflow vs individual skill\n\n- **Use a bundle** when the user's request spans multiple phases (spec + build + test, or launch + verify + iterate)\n- **Use an individual skill** when the request is scoped to one phase (\"just run the security audit\", \"just write tests\", \"just write the PR\")\n- **Bundles call individual skills** \u2014 they never duplicate instructions; they sequence them\n\n## Individual skill quick-reference\n\n### Testing & quality\n| Task | Skill |\n|------|-------|\n| Adversarial full-app sweep | `test-red-team` |\n| Drive app as real user, fix inline | `test-playwright` |\n| Comprehensive QA with CRUD verification | `test-qa` |\n| Write unit/integration tests | `test-unit` |\n\n### Audits\n| Task | Skill |\n|------|-------|\n| Static security review (OWASP) | `audit-security` |\n| JS bundle analysis & reduction | `audit-bundle-size` |\n| Core Web Vitals & performance | `audit-performance` |\n| Database schema health | `audit-db-schema` |\n| Translation quality & hardcoded strings | `audit-i18n` |\n| UX heuristics audit | `audit-ux` |\n| Accessibility (WCAG 2.2) | `audit-accessibility` |\n| Design system compliance | `audit-uiux-design-system` |\n\n### Enhancement\n| Task | Skill |\n|------|-------|\n| SEO (meta, OG, JSON-LD, sitemap) | `enhance-web-seo` |\n| PWA (manifest, service worker, offline) | `enhance-pwa` |\n| UI polish & layout | `enhance-web-ui` |\n| UX & information architecture | `enhance-web-ux` |\n| Cross-surface (web + mobile) consistency | `enhance-capacitor-ui` |\n\n### Deploy\n| Task | Skill |\n|------|-------|\n| Post-deploy smoke test | `deploy-verify` |\n| npm package release | `deploy-npm` |\n\n### Debug\n| Task | Skill |\n|------|-------|\n| Debug any error | `debug-error` |\n| Triage & fix Sentry issues | `debug-sentry-monitor` |\n| FE-BE integration mismatches | `debug-fe-be-integration` |\n\n## Skill chaining diagram\n\n```\nworkflow-build-feature\n  \u2514\u2500 workflow-spec-tdd \u2192 test-unit \u2192 test-playwright \u2192 workflow-pr\n\nworkflow-fix-and-ship\n  \u2514\u2500 debug-error \u2192 test-playwright \u2192 workflow-pr \u2192 deploy-verify\n\nworkflow-quality-gate\n  \u2514\u2500 test-red-team \u2192 audit-security \u2192 audit-bundle-size \u2192 audit-performance \u2192 test-unit\n\nworkflow-launch-ready\n  \u2514\u2500 enhance-web-seo \u2192 enhance-pwa \u2192 audit-bundle-size \u2192 audit-i18n\n     \u2192 workflow-quality-gate \u2192 deploy-verify \u2192 iterate-post-launch\n\niterate-post-launch\n  \u2514\u2500 debug-sentry-monitor \u2192 deploy-verify \u2192 test-playwright\n```\n\n## Rules vs Skills\n\n- **Rules** (this file, `full-stack-ship-discipline.mdc`, etc.) = always-on policies, guardrails, routing\n- **Skills** = activated on demand when a task matches the description\n- Never put task-specific workflows in rules \u2014 they waste context on unrelated tasks\n",
       "format": "mdc",
@@ -394,15 +403,6 @@
     "stars": 0,
     "updated_at": "2026-06-15T12:19:07Z",
     "url": "https://github.com/wu529778790/shenzjd-skills"
-  },
-  {
-    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
-    "id": "KbWen/agentic-os",
-    "language": "Python",
-    "name": "KbWen/agentic-os",
-    "stars": 12,
-    "updated_at": "2026-06-16T01:29:35Z",
-    "url": "https://github.com/KbWen/agentic-os"
   },
   {
     "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
