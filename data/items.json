@@ -1,14 +1,5 @@
 [
   {
-    "description": "Build 9 iOS agent skills for SwiftUI, testing, security, and more in one install for AI coding agents",
-    "id": "ebbaunqualified520/ios-agent-skills",
-    "language": "Shell",
-    "name": "ebbaunqualified520/ios-agent-skills",
-    "stars": 0,
-    "updated_at": "2026-06-16T05:14:50Z",
-    "url": "https://github.com/ebbaunqualified520/ios-agent-skills"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: \"Three.js / React Three Fiber syntax: scene setup, R3F hooks, models, controls. Load for 3D code \u2014 taste, perf budgets, and mobile WebGL live in the 3d-web-experiences skill.\"\nglobs: [\"**/*.{jsx,tsx,js,ts}\", \"**/three/**\", \"**/*.glb\", \"**/*.gltf\"]\nalwaysApply: false\n---\n\n# 3D Graphics \u2014 Syntax Reference\n\nMechanical patterns for Three.js, React Three Fiber (R3F), and `@react-three/drei`. For aesthetic direction, performance tiers, responsive/mobile WebGL, degradation, accessibility, and verified recipes, load the **`3d-web-experiences`** skill (`reference.md` for full scenes and bug catalog).\n\nVerify package APIs against installed versions before asserting prop names.\n\n---\n\n## CRITICAL: Container Dimensions\n\nA WebGL canvas without a sized parent renders at zero height or wrong aspect.\n\n```jsx\n// WRONG\n<div><Canvas><Scene /></Canvas></div>\n\n// CORRECT \u2014 explicit height on the container\n<div style={{ height: '500px', width: '100%' }}>\n  <Canvas><Scene /></Canvas>\n</div>\n```\n\nVanilla Three.js: size the renderer to the **container**, not always `window` \u2014 use `ResizeObserver` or container `clientWidth` / `clientHeight`.\n\n---\n\n## R3F Canvas Baseline\n\n```jsx\nimport { Canvas } from '@react-three/fiber';\nimport { OrbitControls, Environment } from '@react-three/drei';\n\nexport function Scene() {\n  return (\n    <div style={{ height: '500px', width: '100%' }}>\n      <Canvas shadows dpr={[1, 2]} camera={{ position: [0, 0, 5], fov: 45 }}>\n        <Environment preset=\"city\" />\n        <ambientLight intensity={0.4} />\n        <directionalLight position={[5, 5, 5]} castShadow />\n        <Mesh />\n        <OrbitControls enableDamping />\n      </Canvas>\n    </div>\n  );\n}\n```\n\nSet tone mapping and output color space on the renderer for PBR that is not flat \u2014 see `3d-web-experiences` \u2192 renderer baseline.\n\n---\n\n## Hooks & Imports (common bugs)\n\n```jsx\nimport { useRef, useState } from 'react';\nimport { useFrame } from '@react-three/fiber'; // NOT from 'react'\nimport type { Mesh } from 'three';\n\nfunction AnimatedBox() {\n  const ref = useRef<Mesh>(null);\n  useFrame((_, delta) => {\n    if (ref.current) ref.current.rotation.y += delta;\n  });\n  return (\n    <mesh ref={ref}>\n      <boxGeometry />\n      <meshStandardMaterial />\n    </mesh>\n  );\n}\n```\n\n| Mistake | Fix |\n|---------|-----|\n| `useFrame` from `react` | Import from `@react-three/fiber` |\n| `<Detail>` from `three` | Use drei `<Detailed distances={[0, 10, 20]}>` with child meshes |\n| `InstancedMesh` from fiber | Use JSX `<instancedMesh>`; `Object3D` from `three` |\n\n---\n\n## Models & Loading\n\n```jsx\nimport { Suspense } from 'react';\nimport { useGLTF, Html, useProgress } from '@react-three/drei';\n\nfunction Model({ url }) {\n  const { scene } = useGLTF(url);\n  return <primitive object={scene} />;\n}\nuseGLTF.preload('/models/asset.glb');\n\nfunction Loader() {\n  const { progress } = useProgress();\n  return <Html center>{progress.toFixed(0)}%</Html>;\n}\n\n// Wrap async assets:\n<Suspense fallback={<Loader />}><Model url=\"\u2026\" /></Suspense>\n```\n\nPrefer `.glb` with Draco/Meshopt compression for web (see skill \u2192 asset pipeline).\n\n---\n\n## LOD & Instancing (mechanics)\n\n```jsx\nimport { Detailed } from '@react-three/drei';\n\n<Detailed distances={[0, 10, 25]}>\n  <HighPolyMesh />\n  <MediumPolyMesh />\n  <LowPolyMesh />\n</Detailed>\n```\n\nFor many copies of the same geometry, use `<instancedMesh>` or drei `<Instances>`. Budgets, DPR clamps, and `frameloop=\"demand\"`: **`3d-web-experiences`**.\n\n---\n\n## Camera Controls (drei)\n\n```jsx\nimport { OrbitControls, MapControls } from '@react-three/drei';\n\n<OrbitControls enableDamping dampingFactor={0.05} minDistance={2} maxDistance={20} />\n```\n\nRespect `prefers-reduced-motion` \u2014 pause auto-rotate and heavy camera motion (skill \u2192 accessibility).\n\n---\n\n## Verification (3D changes)\n\n| Check | How |\n|-------|-----|\n| Renders | Browser load \u2014 not blank/black canvas |\n| Console | No WebGL / shader compile errors |\n| Resize | Container height preserved; canvas scales with parent |\n| Mobile | DPR/effects tier reduced when skill budget applies |\n\nBrowser verification required; use console + visual check minimum.\n\n---\n\n## When NOT to Load This File\n\n- 2D UI only \u2014 use `design-systems` + `anti-slop-design`.\n- \u201cMake it look good\u201d / hero aesthetic \u2014 start with **`3d-web-experiences`** Step 1 (direction + slop catalog), then use this file for syntax.\n",
       "format": "mdc",
@@ -19,8 +10,80 @@
     "language": "Python",
     "name": "madebyaris/advance-minimax-m3-cursor-rules",
     "stars": 120,
-    "updated_at": "2026-06-16T05:14:20Z",
+    "updated_at": "2026-06-16T05:29:24Z",
     "url": "https://github.com/madebyaris/advance-minimax-m3-cursor-rules"
+  },
+  {
+    "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
+    "id": "Bastioned-successor320/learn-nanobot",
+    "language": "Python",
+    "name": "Bastioned-successor320/learn-nanobot",
+    "stars": 1,
+    "updated_at": "2026-06-16T05:28:03Z",
+    "url": "https://github.com/Bastioned-successor320/learn-nanobot"
+  },
+  {
+    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
+    "id": "XAKLESK/cre-agent-skills",
+    "language": "\u2014",
+    "name": "XAKLESK/cre-agent-skills",
+    "stars": 1,
+    "updated_at": "2026-06-16T05:25:57Z",
+    "url": "https://github.com/XAKLESK/cre-agent-skills"
+  },
+  {
+    "description": "Test iOS agent skills with 11 tasks, 260+ scenarios, and 850+ assertions across 3 models",
+    "id": "christim427-rgb/ios-agent-skills",
+    "language": "Python",
+    "name": "christim427-rgb/ios-agent-skills",
+    "stars": 1,
+    "updated_at": "2026-06-16T05:23:55Z",
+    "url": "https://github.com/christim427-rgb/ios-agent-skills"
+  },
+  {
+    "description": "Build programmatic UIKit apps with production-ready patterns for views, navigation, animation, architecture, and data fl",
+    "id": "nizhan80-art/Swift-UIKit-Skill",
+    "language": "\u2014",
+    "name": "nizhan80-art/Swift-UIKit-Skill",
+    "stars": 1,
+    "updated_at": "2026-06-16T05:19:34Z",
+    "url": "https://github.com/nizhan80-art/Swift-UIKit-Skill"
+  },
+  {
+    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
+    "id": "Amirun99/agency-orchestrator",
+    "language": "Dart",
+    "name": "Amirun99/agency-orchestrator",
+    "stars": 0,
+    "updated_at": "2026-06-16T05:19:01Z",
+    "url": "https://github.com/Amirun99/agency-orchestrator"
+  },
+  {
+    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
+    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "language": "\u2014",
+    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "stars": 2,
+    "updated_at": "2026-06-16T05:18:00Z",
+    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-16T05:15:37Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Build 9 iOS agent skills for SwiftUI, testing, security, and more in one install for AI coding agents",
+    "id": "ebbaunqualified520/ios-agent-skills",
+    "language": "Shell",
+    "name": "ebbaunqualified520/ios-agent-skills",
+    "stars": 0,
+    "updated_at": "2026-06-16T05:14:50Z",
+    "url": "https://github.com/ebbaunqualified520/ios-agent-skills"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -39,15 +102,6 @@
     "stars": 3,
     "updated_at": "2026-06-16T05:00:55Z",
     "url": "https://github.com/zinxj/uikit-expert-skill"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-16T05:00:35Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
@@ -192,33 +246,6 @@
     "url": "https://github.com/Hyanthropological659/clarify-skill"
   },
   {
-    "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
-    "id": "Bastioned-successor320/learn-nanobot",
-    "language": "Python",
-    "name": "Bastioned-successor320/learn-nanobot",
-    "stars": 1,
-    "updated_at": "2026-06-16T01:59:34Z",
-    "url": "https://github.com/Bastioned-successor320/learn-nanobot"
-  },
-  {
-    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
-    "id": "XAKLESK/cre-agent-skills",
-    "language": "\u2014",
-    "name": "XAKLESK/cre-agent-skills",
-    "stars": 1,
-    "updated_at": "2026-06-16T01:57:22Z",
-    "url": "https://github.com/XAKLESK/cre-agent-skills"
-  },
-  {
-    "description": "Test iOS agent skills with 11 tasks, 260+ scenarios, and 850+ assertions across 3 models",
-    "id": "christim427-rgb/ios-agent-skills",
-    "language": "Python",
-    "name": "christim427-rgb/ios-agent-skills",
-    "stars": 1,
-    "updated_at": "2026-06-16T01:56:03Z",
-    "url": "https://github.com/christim427-rgb/ios-agent-skills"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: Ponytail, lazy senior dev mode. Always pick the simplest solution that works.\nglobs:\nalwaysApply: true\n---\n\n# Ponytail, lazy senior dev mode\n\nYou are a lazy senior developer. Lazy means efficient, not careless. The best code is the code never written.\n\nBefore writing any code, stop at the first rung that holds:\n\n1. Does this need to be built at all? (YAGNI)\n2. Does the standard library already do this? Use it.\n3. Does a native platform feature cover it? Use it.\n4. Does an already-installed dependency solve it? Use it.\n5. Can this be one line? Make it one line.\n6. Only then: write the minimum code that works.\n\nRules:\n\n- No abstractions that weren't explicitly requested.\n- No new dependency if it can be avoided.\n- No boilerplate nobody asked for.\n- Deletion over addition. Boring over clever. Fewest files possible.\n- Question complex requests: \"Do you actually need X, or does Y cover it?\"\n- Pick the edge-case-correct option when two stdlib approaches are the same size, lazy means less code, not the flimsier algorithm.\n- Mark intentional simplifications with a `ponytail:` comment. If the shortcut has a known ceiling (global lock, O(n\u00b2) scan, naive heuristic), the comment names the ceiling and the upgrade path.\n\nNot lazy about: input validation at trust boundaries, error handling that prevents data loss, security, accessibility, the calibration real hardware needs (the platform is never the spec ideal, a clock drifts, a sensor reads off), anything explicitly requested. Lazy code without its check is unfinished: non-trivial logic leaves ONE runnable check behind, the smallest thing that fails if the logic breaks (an assert-based demo/self-check or one small test file; no frameworks, no fixtures). Trivial one-liners need no test.\n",
       "format": "mdc",
@@ -228,36 +255,9 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 17624,
+    "stars": 17702,
     "updated_at": "2026-06-16T01:52:51Z",
     "url": "https://github.com/DietrichGebert/ponytail"
-  },
-  {
-    "description": "Build programmatic UIKit apps with production-ready patterns for views, navigation, animation, architecture, and data fl",
-    "id": "nizhan80-art/Swift-UIKit-Skill",
-    "language": "\u2014",
-    "name": "nizhan80-art/Swift-UIKit-Skill",
-    "stars": 1,
-    "updated_at": "2026-06-16T01:51:23Z",
-    "url": "https://github.com/nizhan80-art/Swift-UIKit-Skill"
-  },
-  {
-    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
-    "id": "Amirun99/agency-orchestrator",
-    "language": "Dart",
-    "name": "Amirun99/agency-orchestrator",
-    "stars": 0,
-    "updated_at": "2026-06-16T01:50:39Z",
-    "url": "https://github.com/Amirun99/agency-orchestrator"
-  },
-  {
-    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
-    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "language": "\u2014",
-    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "stars": 2,
-    "updated_at": "2026-06-16T01:49:48Z",
-    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
   },
   {
     "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
