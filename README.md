@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-06-16 03:00 UTC
+> ⏰ Last updated: 2026-06-16 03:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -59,7 +59,7 @@ expired items removed — so you can rely on what you see being current.
 | 4 | [Bastioned-successor320/learn-nanobot](https://github.com/Bastioned-successor320/learn-nanobot) | 1 | Python | 2026-06-16 | — | Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers |
 | 5 | [XAKLESK/cre-agent-skills](https://github.com/XAKLESK/cre-agent-skills) | 1 | — | 2026-06-16 | — | Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc |
 | 6 | [christim427-rgb/ios-agent-skills](https://github.com/christim427-rgb/ios-agent-skills) | 1 | Python | 2026-06-16 | — | Test iOS agent skills with 11 tasks, 260+ scenarios, and 850+ assertions across 3 models |
-| 7 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 17026 | JavaScript | 2026-06-16 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 7 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 17093 | JavaScript | 2026-06-16 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 8 | [nizhan80-art/Swift-UIKit-Skill](https://github.com/nizhan80-art/Swift-UIKit-Skill) | 1 | — | 2026-06-16 | — | Build programmatic UIKit apps with production-ready patterns for views, navigation, animation, architecture, and data fl |
 | 9 | [Amirun99/agency-orchestrator](https://github.com/Amirun99/agency-orchestrator) | 0 | Dart | 2026-06-16 | — | Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support. |
 | 10 | [Overseastelegramaliterateperson865/awesome-claude-md](https://github.com/Overseastelegramaliterateperson865/awesome-claude-md) | 2 | — | 2026-06-16 | — | Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr |
@@ -97,8 +97,8 @@ expired items removed — so you can rely on what you see being current.
 | 42 | [glowElephant/context-forge](https://github.com/glowElephant/context-forge) | 2 | Python | 2026-06-15 | — | Auto harness engineering meta-repo: discuss → curate → bootstrap a context-engineered project for Claude Code, Cursor, C |
 | 43 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 5 | TypeScript | 2026-06-15 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
 | 44 | [weijia-89/palamedes](https://github.com/weijia-89/palamedes) | 0 | Python | 2026-06-15 | — | Rigorous LLM research in two layers: a multi-agent dialectic synthesis prompt + an agent-loadable research skill. Hierar |
-| 45 | [madebyaris/cursor-composer-rules](https://github.com/madebyaris/cursor-composer-rules) | 1 | — | 2026-06-15 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/madebyaris/cursor-composer-rules/) | How a senior engineer thinks, encoded for Cursor agents — evidence-first, surgical edits, reasoning & metacognition, and |
-| 46 | [wshobson/agents](https://github.com/wshobson/agents) | 36801 | Python | 2026-06-15 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI |
+| 45 | [madebyaris/cursor-composer-rules](https://github.com/madebyaris/cursor-composer-rules) | 2 | — | 2026-06-15 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/madebyaris/cursor-composer-rules/) | How a senior engineer thinks, encoded for Cursor agents — evidence-first, surgical edits, reasoning & metacognition, and |
+| 46 | [wshobson/agents](https://github.com/wshobson/agents) | 36802 | Python | 2026-06-15 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI |
 | 47 | [DongDuong2001/pudo-code-system](https://github.com/DongDuong2001/pudo-code-system) | 2 | JavaScript | 2026-06-14 | — | Agent Skills and Structured Prompts for Scalable Development |
 | 48 | [SID-SURANGE/cursor-team-ops](https://github.com/SID-SURANGE/cursor-team-ops) | 0 | Shell | 2026-06-14 | — | Team-ops layer for Cursor — versioned rules, skills & git guardrails rolled out across your whole engineering team in 5  |
 | 49 | [golid-ai/golid](https://github.com/golid-ai/golid) | 35 | TypeScript | 2026-06-14 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/golid-ai/golid/) | AI-native factory for Go + SolidJS apps — Cursor rules, spec drift CI, plans, and a production starter with auth, SSR, S |
