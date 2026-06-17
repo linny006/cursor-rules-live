@@ -1,11 +1,20 @@
 [
   {
+    "description": "MCP Server for LynxPrompt \u2014 browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP",
+    "id": "GeiserX/lynxprompt-mcp",
+    "language": "Go",
+    "name": "GeiserX/lynxprompt-mcp",
+    "stars": 1,
+    "updated_at": "2026-06-17T08:41:43Z",
+    "url": "https://github.com/GeiserX/lynxprompt-mcp"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-17T08:15:39Z",
+    "updated_at": "2026-06-17T08:30:54Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -95,7 +104,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 27634,
+    "stars": 27717,
     "updated_at": "2026-06-17T02:35:22Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -499,14 +508,5 @@
     "stars": 121,
     "updated_at": "2026-06-16T05:29:24Z",
     "url": "https://github.com/madebyaris/advance-minimax-m3-cursor-rules"
-  },
-  {
-    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
-    "id": "KbWen/agentic-os",
-    "language": "Python",
-    "name": "KbWen/agentic-os",
-    "stars": 17,
-    "updated_at": "2026-06-16T01:39:59Z",
-    "url": "https://github.com/KbWen/agentic-os"
   }
 ]
