@@ -5,17 +5,8 @@
     "language": "\u2014",
     "name": "RollingGo-AI/rollinggo-hotel-booking-skill",
     "stars": 1,
-    "updated_at": "2026-06-17T09:12:45Z",
+    "updated_at": "2026-06-17T09:27:07Z",
     "url": "https://github.com/RollingGo-AI/rollinggo-hotel-booking-skill"
-  },
-  {
-    "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
-    "id": "pekral/cursor-rules",
-    "language": "PHP",
-    "name": "pekral/cursor-rules",
-    "stars": 3,
-    "updated_at": "2026-06-17T09:01:54Z",
-    "url": "https://github.com/pekral/cursor-rules"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -23,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-17T09:00:41Z",
+    "updated_at": "2026-06-17T09:15:42Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
+    "id": "pekral/cursor-rules",
+    "language": "PHP",
+    "name": "pekral/cursor-rules",
+    "stars": 3,
+    "updated_at": "2026-06-17T09:25:00Z",
+    "url": "https://github.com/pekral/cursor-rules"
   },
   {
     "description": "MCP Server for LynxPrompt \u2014 browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP",
@@ -104,7 +104,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 27877,
+    "stars": 27960,
     "updated_at": "2026-06-17T02:35:22Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -141,7 +141,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36869,
+    "stars": 36870,
     "updated_at": "2026-06-17T01:31:09Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -245,7 +245,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 15100,
+    "stars": 15107,
     "updated_at": "2026-06-16T17:58:53Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
