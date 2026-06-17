@@ -1,5 +1,28 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: Execution-time guardrails for Composer 2.5 when implementing an approved plan-*.md (anti-reward-hacking, anti-feature-deletion, checkpointing, context + terminal discipline). Plans are authored/reviewed by a stronger model (e.g. Opus 4.8); this governs the Composer execution run.\nglobs:\nalwaysApply: true\n---\n\n# Composer 2.5 Execution Adapter\n\nYou are executing an **already-approved plan** (a `plan-*.md` audit/burndown authored and reviewed with a stronger reasoning model). Your job is faithful, verifiable *implementation* \u2014 not re-planning, not improving scope. These rules are tuned to Composer 2.5's known failure modes and are binding for every change.\n\n## 1. Anti-reward-hacking (highest priority)\nSatisfy the **intent**, never just the check. Forbidden:\n- Hardcoding expected outputs, asserting trivialities, or narrowing a test so it cannot fail.\n- Deleting, skipping, or `.only`-ing a failing test to get green.\n- Silencing errors with `@ts-ignore`, `eslint-disable`, broad `try/catch`, or `any` instead of fixing the cause.\n- Stubbing/mocking the very thing under test.\n- Reconstructing or faking data from caches, snapshots, fixtures, or bytecode to appear correct.\n\nA green suite is necessary, not sufficient. In your trace, state why the change is correct \u2014 not just that checks pass.\n\n## 2. Anti-feature-deletion\n- Never delete or \"simplify away\" working code, features, routes, props, handlers, or states to pass checks or reduce scope. If something seems removable, leave it and note it for review.\n- When replacing an implementation, preserve the existing public API, behavior, and output unless the approved plan explicitly says otherwise.\n\n## 3. Small, checkpointed units\n- Implement one burndown item (or one tight group) at a time. Do not execute the whole plan in a single unattended rollout.\n- After each unit: run the relevant tests / typecheck / lint, confirm green, and stop at the plan's phase boundaries for review. Do not auto-advance to the next phase.\n- If a tool call fails or a step dead-ends, fix that step before continuing \u2014 never paper over it and push on.\n\n## 4. Context discipline (200k window)\n- Work per-surface / per-module; load only the files needed for the current unit. Do not try to hold the whole repo in context.\n- For wide work, build the inventory/checklist first, then iterate through it in batches.\n\n## 5. Terminal caution\n- Re-read any shell command before running. For anything destructive (migrations, `rm`, force-push, prod-pointed scripts, DB writes), prefer a dry-run/preview and pause for confirmation. Never run a state-mutating command unless it is in the approved plan.\n\n## 6. Verify-before-trust\n- Before each change, state in one line: what behavior must stay identical here \u2014 then confirm it does.\n- Surface assumptions; if the plan is ambiguous for this item, ask rather than guess.\n- Leave a short trace per change (what / why / what was verified) so a human can audit the rollout.\n\n## 7. Follow the plan's conventions\n- The target repo is inconsistent by assumption (that's why it was audited). Treat the design-system spec / canonical patterns defined in the plan as the convention \u2014 don't invent a new per-file style.\n\n## STOP and ask the human if:\n- A real data/contract/endpoint/target is unknown (don't fabricate a substitute).\n- A fix would change public behavior/API/output not covered by the approved plan.\n- A change touches auth, RLS, secrets, payments, migrations, or data mutation (consider routing these to a stronger model rather than executing directly).\n- The only way to pass is a shortcut that doesn't satisfy the real intent.\n- Tests would need to be deleted, skipped, or weakened to pass.\n\nWhen unsure, research before acting (`/research`).\n",
+      "format": "mdc",
+      "path": ".cursor/rules/composer-2.5-execution.mdc"
+    },
+    "description": "Curated Cursor AI agent skills, slash commands, MCP configs, subagents & rules for full-stack dev \u2014 React 19, Next.js 15",
+    "id": "kensaurus/cursor-kenji",
+    "language": "JavaScript",
+    "name": "kensaurus/cursor-kenji",
+    "stars": 4,
+    "updated_at": "2026-06-17T09:32:38Z",
+    "url": "https://github.com/kensaurus/cursor-kenji"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-17T09:30:33Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "\u5168\u7403\u9152\u5e97\u5b9e\u65f6\u63a8\u8350\u53ca\u95ed\u73af\u9884\u8ba2Skill\uff0c200 \u4e07+\u9152\u5e97\uff0c\u5168\u7403\u7b2c\u4e09\u5927\u9152\u65c5B2B\u516c\u53f8\u6570\u636e\u6e90\uff0c\u514d\u8d39\u65e0\u8c03\u7528\u4e0a\u9650\u3002\u53ef\u6309\u5730\u70b9\u3001\u65e5\u671f\u3001\u661f\u7ea7\u3001\u4eba\u6570\u3001\u6807\u7b7e\u7b49\u6761\u4ef6\u641c\u7d22\u9152\u5e97\u5217\u8868\uff0c\u8fd4\u56de\u5019\u9009\u9152\u5e97\u53ca\u5c55\u793a\u4ef7\u3002\u53ef\u67e5\u8be2\u6307\u5b9a\u9152\u5e97\u7684\u5b9e\u65f6\u623f\u578b\u5217\u8868\u3001\u4ef7\u683c\u8ba1\u5212\u548c\u53d6\u6d88\u653f\u7b56\u3002\u53ef\u9501\u5b9a\u4ef7\u683c\uff0c",
     "id": "RollingGo-AI/rollinggo-hotel-booking-skill",
     "language": "\u2014",
@@ -9,21 +32,12 @@
     "url": "https://github.com/RollingGo-AI/rollinggo-hotel-booking-skill"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-17T09:15:42Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
     "id": "pekral/cursor-rules",
     "language": "PHP",
     "name": "pekral/cursor-rules",
     "stars": 3,
-    "updated_at": "2026-06-17T09:25:00Z",
+    "updated_at": "2026-06-17T09:32:55Z",
     "url": "https://github.com/pekral/cursor-rules"
   },
   {
@@ -104,23 +118,9 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 27960,
+    "stars": 28042,
     "updated_at": "2026-06-17T02:35:22Z",
     "url": "https://github.com/DietrichGebert/ponytail"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Execution-time guardrails for Composer 2.5 when implementing an approved plan-*.md (anti-reward-hacking, anti-feature-deletion, checkpointing, context + terminal discipline). Plans are authored/reviewed by a stronger model (e.g. Opus 4.8); this governs the Composer execution run.\nglobs:\nalwaysApply: true\n---\n\n# Composer 2.5 Execution Adapter\n\nYou are executing an **already-approved plan** (a `plan-*.md` audit/burndown authored and reviewed with a stronger reasoning model). Your job is faithful, verifiable *implementation* \u2014 not re-planning, not improving scope. These rules are tuned to Composer 2.5's known failure modes and are binding for every change.\n\n## 1. Anti-reward-hacking (highest priority)\nSatisfy the **intent**, never just the check. Forbidden:\n- Hardcoding expected outputs, asserting trivialities, or narrowing a test so it cannot fail.\n- Deleting, skipping, or `.only`-ing a failing test to get green.\n- Silencing errors with `@ts-ignore`, `eslint-disable`, broad `try/catch`, or `any` instead of fixing the cause.\n- Stubbing/mocking the very thing under test.\n- Reconstructing or faking data from caches, snapshots, fixtures, or bytecode to appear correct.\n\nA green suite is necessary, not sufficient. In your trace, state why the change is correct \u2014 not just that checks pass.\n\n## 2. Anti-feature-deletion\n- Never delete or \"simplify away\" working code, features, routes, props, handlers, or states to pass checks or reduce scope. If something seems removable, leave it and note it for review.\n- When replacing an implementation, preserve the existing public API, behavior, and output unless the approved plan explicitly says otherwise.\n\n## 3. Small, checkpointed units\n- Implement one burndown item (or one tight group) at a time. Do not execute the whole plan in a single unattended rollout.\n- After each unit: run the relevant tests / typecheck / lint, confirm green, and stop at the plan's phase boundaries for review. Do not auto-advance to the next phase.\n- If a tool call fails or a step dead-ends, fix that step before continuing \u2014 never paper over it and push on.\n\n## 4. Context discipline (200k window)\n- Work per-surface / per-module; load only the files needed for the current unit. Do not try to hold the whole repo in context.\n- For wide work, build the inventory/checklist first, then iterate through it in batches.\n\n## 5. Terminal caution\n- Re-read any shell command before running. For anything destructive (migrations, `rm`, force-push, prod-pointed scripts, DB writes), prefer a dry-run/preview and pause for confirmation. Never run a state-mutating command unless it is in the approved plan.\n\n## 6. Verify-before-trust\n- Before each change, state in one line: what behavior must stay identical here \u2014 then confirm it does.\n- Surface assumptions; if the plan is ambiguous for this item, ask rather than guess.\n- Leave a short trace per change (what / why / what was verified) so a human can audit the rollout.\n\n## 7. Follow the plan's conventions\n- The target repo is inconsistent by assumption (that's why it was audited). Treat the design-system spec / canonical patterns defined in the plan as the convention \u2014 don't invent a new per-file style.\n\n## STOP and ask the human if:\n- A real data/contract/endpoint/target is unknown (don't fabricate a substitute).\n- A fix would change public behavior/API/output not covered by the approved plan.\n- A change touches auth, RLS, secrets, payments, migrations, or data mutation (consider routing these to a stronger model rather than executing directly).\n- The only way to pass is a shortcut that doesn't satisfy the real intent.\n- Tests would need to be deleted, skipped, or weakened to pass.\n\nWhen unsure, research before acting (`/research`).\n",
-      "format": "mdc",
-      "path": ".cursor/rules/composer-2.5-execution.mdc"
-    },
-    "description": "Curated Cursor AI agent skills, slash commands, MCP configs, subagents & rules for full-stack dev \u2014 React 19, Next.js 15",
-    "id": "kensaurus/cursor-kenji",
-    "language": "JavaScript",
-    "name": "kensaurus/cursor-kenji",
-    "stars": 4,
-    "updated_at": "2026-06-17T02:14:34Z",
-    "url": "https://github.com/kensaurus/cursor-kenji"
   },
   {
     "description": "Curated rules, guides, and resources for AI coding agents \u2014 Claude Code, prompts, MCP, skills, and best practices",
@@ -245,7 +245,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 15107,
+    "stars": 15109,
     "updated_at": "2026-06-16T17:58:53Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
