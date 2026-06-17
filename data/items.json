@@ -5,8 +5,17 @@
     "language": "PHP",
     "name": "pekral/cursor-rules",
     "stars": 4,
-    "updated_at": "2026-06-17T19:39:42Z",
+    "updated_at": "2026-06-17T19:59:20Z",
     "url": "https://github.com/pekral/cursor-rules"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-17T19:45:44Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -21,15 +30,6 @@
     "stars": 12,
     "updated_at": "2026-06-17T19:37:56Z",
     "url": "https://github.com/heymegabyte/claude-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-17T19:36:33Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -190,7 +190,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 15140,
+    "stars": 15141,
     "updated_at": "2026-06-17T11:21:20Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -254,7 +254,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 30853,
+    "stars": 30909,
     "updated_at": "2026-06-17T02:35:22Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
