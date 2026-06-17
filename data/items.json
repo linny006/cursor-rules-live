@@ -1,11 +1,20 @@
 [
   {
+    "description": "Shareable Cursor rules for agentic mobile development (Android + iOS) \u2014 no IDE required day-to-day. Companion to the 'Mo",
+    "id": "JoDaBaRo/agentic-mobile-rules",
+    "language": "Python",
+    "name": "JoDaBaRo/agentic-mobile-rules",
+    "stars": 0,
+    "updated_at": "2026-06-17T14:39:09Z",
+    "url": "https://github.com/JoDaBaRo/agentic-mobile-rules"
+  },
+  {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
     "id": "Laurellagloomy260/cursor-rules-generator",
     "language": "\u2014",
     "name": "Laurellagloomy260/cursor-rules-generator",
     "stars": 0,
-    "updated_at": "2026-06-17T14:17:54Z",
+    "updated_at": "2026-06-17T14:30:58Z",
     "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
   },
   {
@@ -14,7 +23,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-17T14:15:55Z",
+    "updated_at": "2026-06-17T14:30:39Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -30,15 +39,6 @@
     "stars": 12,
     "updated_at": "2026-06-17T14:15:39Z",
     "url": "https://github.com/heymegabyte/claude-skills"
-  },
-  {
-    "description": "Shareable Cursor rules for agentic mobile development (Android + iOS) \u2014 no IDE required day-to-day. Companion to the 'Mo",
-    "id": "JoDaBaRo/agentic-mobile-rules",
-    "language": "Python",
-    "name": "JoDaBaRo/agentic-mobile-rules",
-    "stars": 0,
-    "updated_at": "2026-06-17T14:13:50Z",
-    "url": "https://github.com/JoDaBaRo/agentic-mobile-rules"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -227,7 +227,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 29469,
+    "stars": 29557,
     "updated_at": "2026-06-17T02:35:22Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
