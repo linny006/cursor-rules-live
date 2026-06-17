@@ -1,5 +1,37 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: Instructions for AI agent code generation workflow\nglobs: [\"*\"]\nalwaysApply: true\n---\n\n# AI Collaboration Guidelines\n\n## The 3-Stage Agentic Loop\n\nEvery code generation task MUST follow this loop:\n\n### Stage 1: PLAN (gather context first)\n\nBefore writing ANY code, the AI MUST:\n1. Read the relevant source files to verify current state \u2014 do NOT rely on memory\n2. Identify which `.cursor/rules/` files apply to this task\n3. List the files to modify and explain why\n4. Do NOT write code yet\n\nPrompt template:\n```\nAnalyze the current codebase and plan how to implement [feature]. \nList the files you'll modify and why. Don't write code yet.\n```\n\n### Stage 2: IMPLEMENT (follow constraints)\n\nWhen generating code:\n- Follow ALL active `.cursor/rules/` constraints\n- If unsure about auth patterns, re-read `supabase-auth-security.mdc`\n- If unsure about params/layouts, re-read `nextjs15-params.mdc`\n- Use `unknown` + Zod validation instead of `any` for external data\n- Return `ActionResponse<T>` from all Server Actions (see below)\n\n### Stage 3: VERIFY (confirm before declaring done)\n\nAfter generating code, the AI MUST self-check:\n- [ ] No `getSession()` on the server (MUST be `getUser()`)\n- [ ] No synchronous `params` or `searchParams` access\n- [ ] No `@supabase/auth-helpers-nextjs` imports\n- [ ] No `any` types \u2014 use `unknown` + type narrowing\n- [ ] Every API route has Zod validation\n- [ ] Every error is caught and returns `{ error: string }`\n- [ ] New tables have RLS enabled\n- [ ] `loading.tsx` and `error.tsx` exist for data-fetching pages\n\nReport issues BEFORE the developer runs the code.\n\n## Skeptical Retrieval Rule\n\nNEVER trust stored knowledge about the codebase. Before modifying a file:\n1. Re-read the file to verify its current contents\n2. Check imports and exports to ensure they match expectations\n3. Verify that function signatures haven't changed\n\nThis prevents generating code that references stale function signatures, \ndeleted files, or renamed exports.\n\n## Standard Patterns\n\n### ActionResponse Type (use for all Server Actions)\n```typescript\ntype ActionResponse<T = void> = \n  | { success: true; data: T }\n  | { success: false; error: string }\n```\n\n### Standard Server Action Structure\n```typescript\n'use server'\nimport { createClient } from '@/lib/supabase/server'\nimport { z } from 'zod'\n\nconst Schema = z.object({ /* ... */ })\n\nexport async function myAction(input: unknown): Promise<ActionResponse<MyType>> {\n  // 1. Auth\n  const supabase = await createClient()\n  const { data: { user } } = await supabase.auth.getUser()\n  if (!user) return { success: false, error: 'Unauthorized' }\n\n  // 2. Validate\n  const result = Schema.safeParse(input)\n  if (!result.success) return { success: false, error: 'Invalid input' }\n\n  // 3. Execute\n  try {\n    const { data, error } = await supabase.from('table').insert(result.data).select().single()\n    if (error) throw error\n    return { success: true, data }\n  } catch {\n    return { success: false, error: 'Operation failed' }\n  }\n}\n```\n\n## Task Constraints\n\n- NEVER give the AI a task longer than 200 words\n- NEVER let the AI implement more than 3-4 files in one turn\n- NEVER let the AI skip the verification checklist\n- ALWAYS review the Git diff before committing\n- When uncertain, ask the developer \u2014 do NOT guess\n\n",
+      "format": "mdc",
+      "path": ".cursor/rules/ai-collaboration.mdc"
+    },
+    "description": "29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b",
+    "id": "vibestackdev/vibe-stack",
+    "language": "TypeScript",
+    "name": "vibestackdev/vibe-stack",
+    "stars": 6,
+    "updated_at": "2026-06-17T12:13:14Z",
+    "url": "https://github.com/vibestackdev/vibe-stack"
+  },
+  {
+    "description": "A curated list of awesome .cursorrules files for enhancing your Cursor AI experience.",
+    "id": "tugkanboz/awesome-cursorrules",
+    "language": "\u2014",
+    "name": "tugkanboz/awesome-cursorrules",
+    "stars": 18,
+    "updated_at": "2026-06-17T12:05:22Z",
+    "url": "https://github.com/tugkanboz/awesome-cursorrules"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-17T12:00:56Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
     "id": "fluttersdk/wind",
     "language": "Dart",
@@ -25,15 +57,6 @@
     "stars": 0,
     "updated_at": "2026-06-17T11:53:53Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-17T11:45:40Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -63,7 +86,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 15115,
+    "stars": 15116,
     "updated_at": "2026-06-17T11:21:20Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -172,7 +195,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 28663,
+    "stars": 28733,
     "updated_at": "2026-06-17T02:35:22Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -441,20 +464,6 @@
   },
   {
     "cursorrules": {
-      "content": "---\ndescription: Instructions for AI agent code generation workflow\nglobs: [\"*\"]\nalwaysApply: true\n---\n\n# AI Collaboration Guidelines\n\n## The 3-Stage Agentic Loop\n\nEvery code generation task MUST follow this loop:\n\n### Stage 1: PLAN (gather context first)\n\nBefore writing ANY code, the AI MUST:\n1. Read the relevant source files to verify current state \u2014 do NOT rely on memory\n2. Identify which `.cursor/rules/` files apply to this task\n3. List the files to modify and explain why\n4. Do NOT write code yet\n\nPrompt template:\n```\nAnalyze the current codebase and plan how to implement [feature]. \nList the files you'll modify and why. Don't write code yet.\n```\n\n### Stage 2: IMPLEMENT (follow constraints)\n\nWhen generating code:\n- Follow ALL active `.cursor/rules/` constraints\n- If unsure about auth patterns, re-read `supabase-auth-security.mdc`\n- If unsure about params/layouts, re-read `nextjs15-params.mdc`\n- Use `unknown` + Zod validation instead of `any` for external data\n- Return `ActionResponse<T>` from all Server Actions (see below)\n\n### Stage 3: VERIFY (confirm before declaring done)\n\nAfter generating code, the AI MUST self-check:\n- [ ] No `getSession()` on the server (MUST be `getUser()`)\n- [ ] No synchronous `params` or `searchParams` access\n- [ ] No `@supabase/auth-helpers-nextjs` imports\n- [ ] No `any` types \u2014 use `unknown` + type narrowing\n- [ ] Every API route has Zod validation\n- [ ] Every error is caught and returns `{ error: string }`\n- [ ] New tables have RLS enabled\n- [ ] `loading.tsx` and `error.tsx` exist for data-fetching pages\n\nReport issues BEFORE the developer runs the code.\n\n## Skeptical Retrieval Rule\n\nNEVER trust stored knowledge about the codebase. Before modifying a file:\n1. Re-read the file to verify its current contents\n2. Check imports and exports to ensure they match expectations\n3. Verify that function signatures haven't changed\n\nThis prevents generating code that references stale function signatures, \ndeleted files, or renamed exports.\n\n## Standard Patterns\n\n### ActionResponse Type (use for all Server Actions)\n```typescript\ntype ActionResponse<T = void> = \n  | { success: true; data: T }\n  | { success: false; error: string }\n```\n\n### Standard Server Action Structure\n```typescript\n'use server'\nimport { createClient } from '@/lib/supabase/server'\nimport { z } from 'zod'\n\nconst Schema = z.object({ /* ... */ })\n\nexport async function myAction(input: unknown): Promise<ActionResponse<MyType>> {\n  // 1. Auth\n  const supabase = await createClient()\n  const { data: { user } } = await supabase.auth.getUser()\n  if (!user) return { success: false, error: 'Unauthorized' }\n\n  // 2. Validate\n  const result = Schema.safeParse(input)\n  if (!result.success) return { success: false, error: 'Invalid input' }\n\n  // 3. Execute\n  try {\n    const { data, error } = await supabase.from('table').insert(result.data).select().single()\n    if (error) throw error\n    return { success: true, data }\n  } catch {\n    return { success: false, error: 'Operation failed' }\n  }\n}\n```\n\n## Task Constraints\n\n- NEVER give the AI a task longer than 200 words\n- NEVER let the AI implement more than 3-4 files in one turn\n- NEVER let the AI skip the verification checklist\n- ALWAYS review the Git diff before committing\n- When uncertain, ask the developer \u2014 do NOT guess\n\n",
-      "format": "mdc",
-      "path": ".cursor/rules/ai-collaboration.mdc"
-    },
-    "description": "29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b",
-    "id": "vibestackdev/vibe-stack",
-    "language": "TypeScript",
-    "name": "vibestackdev/vibe-stack",
-    "stars": 6,
-    "updated_at": "2026-06-16T12:49:52Z",
-    "url": "https://github.com/vibestackdev/vibe-stack"
-  },
-  {
-    "cursorrules": {
       "content": "---\ndescription: napkin \u2014 distill any plan into boxes, gates, and flywheels (phases, gated progression, flywheels). Use when the user asks to sketch/structure a plan, roadmap, or strategy.\nglobs:\nalwaysApply: false\n---\n\n# napkin\n\n**napkin \u2014 the back-of-napkin senior.** Turn any messy plan, strategy, roadmap, or\nsystem description into four boxes and three arrows: phases, gates, and flywheels.\nA thinking discipline, not a diagram renderer. If it doesn't fit on a napkin, it's\nnot a plan yet.\n\nFires when the user says \"napkin this\", \"sketch this plan\", \"what are the phases\",\n\"gate this\", \"roadmap\", \"flywheel\", \"how does this compound\", or pastes a sprawling\nplan and wants its shape.\n\nThree moves, every time:\n\n1. **Boxes** \u2014 collapse the sprawl into 3\u20136 phases, ordered by dependency (not\n   topic). Each: a short imperative name + one line of what happens.\n2. **The gate** \u2014 between each phase, name the *condition* that unlocks the next one\n   (a metric, an event, a proof \u2014 never a date). No condition given? Write\n   \"\u26a0\ufe0f ungated \u2014 building ahead of proof\" and DO NOT invent one. That line is where\n   the plan hides its weakest assumption; surfacing it is the whole point.\n3. **The flywheel** \u2014 if a later output feeds an earlier input and compounds, name\n   the loop. If nothing loops, say \"linear \u2014 no flywheel\". Never fake one.\n\nTag each phase [CORE] (valuable alone) or [GATED]/[speculative], so the reader sees\nhow far the plan is de-risked.\n\nRender as a single-column ASCII ladder by default (cheapest, pastes anywhere):\n\n```text\nPHASE 1 \u2500 Name \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 [CORE \u00b7 valuable alone]\n  what happens \u2500\u2500\u25ba next \u2500\u2500\u25ba next\n        \u2502\n        \u25bc  GATE: <measurable condition to unlock Phase 2>\n        \u2502\nPHASE 2 \u2500 Name \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 [GATED]\n  ...\n        \u2514\u2500\u2500\u25ba \ud83d\udd04 FLYWHEEL: a \u2192 b \u2192 c \u2192 a\n```\n\nRules: never invent a gate; never fake a flywheel; gates are conditions not dates\n(\"ARR > $10k\", not \"by Q3\"); \u2264 6 phases (collapse sprawl); match the input's domain\nlanguage; say little, be right.\n\nToken economy: if a render script is available (scripts/render.mjs), emit a compact\nJSON spec and let it draw ASCII/Mermaid/SVG \u2014 the model writes the spec, the script\ndoes the drawing (keeps tokens low, guarantees ASCII alignment). Otherwise draw the\nASCII by hand and keep the \u2502/\u25bc spine in one column.\n",
       "format": "mdc",
       "path": ".cursor/rules/napkin.mdc"
@@ -489,19 +498,5 @@
     "stars": 2,
     "updated_at": "2026-06-16T12:31:22Z",
     "url": "https://github.com/JohannFreddyLoayzaHuana/awesome-ai-coding-tools"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: \"Core ControlFlow identity, source hierarchy, and offline validations for the repository.\"\nalwaysApply: true\n---\n# ControlFlow Core\n\nThis is a prompt/governance/eval repository, not a runtime application.\nCanonical multi-agent policies, roster, and tiers are governed by `.github/copilot-instructions.md` and `plans/project-context.md`.\nCursor workflow: skills in `.cursor/skills/controlflow-*/`, subagents in `.cursor/agents/controlflow-*.md`, plugin package `plugins/controlflow-cursor/`.\nEntry: follow skill `controlflow-strict-workflow` for non-trivial tasks.\nUse `Task(subagent_type=...)` for delegation when available; see `docs/agent-engineering/CURSOR-SUPPORT.md` for fallback.\nCursor cannot execute VS Code-only semantics (`agent/runSubagent`, `@Planner` UI). Do not claim otherwise.\n`AGENTS.md` is compatibility context only, not the primary Cursor artifact.\nAll changes must pass: `cd evals && npm test`.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/controlflow-core.mdc"
-    },
-    "description": "Multi-agent orchestration for VS Code Copilot, Claude Code, OpenAI Codex and Cursor",
-    "id": "Smithbox-ai/ControlFlow",
-    "language": "JavaScript",
-    "name": "Smithbox-ai/ControlFlow",
-    "stars": 13,
-    "updated_at": "2026-06-16T14:43:31Z",
-    "url": "https://github.com/Smithbox-ai/ControlFlow"
   }
 ]
