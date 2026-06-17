@@ -53,126 +53,67 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <span><a href="https://github.com/kensaurus" rel="external">@kensaurus</a></span>
 </div>
 <section id="rules"><h2>Actual rules from this repo</h2>
-<p>Path in source repo: <code>.cursor/rules/skill-workflows.mdc</code> &middot; format: <code>mdc</code></p>
+<p>Path in source repo: <code>.cursor/rules/composer-2.5-execution.mdc</code> &middot; format: <code>mdc</code></p>
 <pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
-description: &gt;-
-  Capabilities catalog for cursor-kenji skills. Routes requests to the right
-  skill or bundled workflow. Always-on routing index — the agent consults this
-  to pick between individual skills and bundled workflows.
+description: Execution-time guardrails for Composer 2.5 when implementing an approved plan-*.md (anti-reward-hacking, anti-feature-deletion, checkpointing, context + terminal discipline). Plans are authored/reviewed by a stronger model (e.g. Opus 4.8); this governs the Composer execution run.
 globs:
 alwaysApply: true
 ---
 
-# Skill Routing Index
+# Composer 2.5 Execution Adapter
 
-## Bundled workflows (use these first — they chain multiple skills)
+You are executing an **already-approved plan** (a `plan-*.md` audit/burndown authored and reviewed with a stronger reasoning model). Your job is faithful, verifiable *implementation* — not re-planning, not improving scope. These rules are tuned to Composer 2.5&#x27;s known failure modes and are binding for every change.
 
-| Intent | Workflow skill |
-|--------|----------------|
-| Build a new feature end-to-end | `workflow-build-feature` |
-| Fix a bug and ship it | `workflow-fix-and-ship` |
-| Pre-release quality check | `workflow-quality-gate` |
-| Full launch preparation | `workflow-launch-ready` |
-| Orient to a new codebase | `workflow-onboard` |
-| Close post-launch feedback loop | `iterate-post-launch` |
-| Disciplined feature-flag rollout | `workflow-feature-flag` |
+## 1. Anti-reward-hacking (highest priority)
+Satisfy the **intent**, never just the check. Forbidden:
+- Hardcoding expected outputs, asserting trivialities, or narrowing a test so it cannot fail.
+- Deleting, skipping, or `.only`-ing a failing test to get green.
+- Silencing errors with `@ts-ignore`, `eslint-disable`, broad `try/catch`, or `any` instead of fixing the cause.
+- Stubbing/mocking the very thing under test.
+- Reconstructing or faking data from caches, snapshots, fixtures, or bytecode to appear correct.
 
-## When to use a bundled workflow vs individual skill
+A green suite is necessary, not sufficient. In your trace, state why the change is correct — not just that checks pass.
 
-- **Use a bundle** when the user&#x27;s request spans multiple phases (spec + build + test, or launch + verify + iterate)
-- **Use an individual skill** when the request is scoped to one phase (&quot;just run the security audit&quot;, &quot;just write tests&quot;, &quot;just write the PR&quot;)
-- **Bundles call individual skills** — they never duplicate instructions; they sequence them
+## 2. Anti-feature-deletion
+- Never delete or &quot;simplify away&quot; working code, features, routes, props, handlers, or states to pass checks or reduce scope. If something seems removable, leave it and note it for review.
+- When replacing an implementation, preserve the existing public API, behavior, and output unless the approved plan explicitly says otherwise.
 
-## Individual skill quick-reference
+## 3. Small, checkpointed units
+- Implement one burndown item (or one tight group) at a time. Do not execute the whole plan in a single unattended rollout.
+- After each unit: run the relevant tests / typecheck / lint, confirm green, and stop at the plan&#x27;s phase boundaries for review. Do not auto-advance to the next phase.
+- If a tool call fails or a step dead-ends, fix that step before continuing — never paper over it and push on.
 
-### Testing &amp; quality
-| Task | Skill |
-|------|-------|
-| Adversarial full-app sweep | `test-red-team` |
-| Drive app as real user, fix inline | `test-playwright` |
-| Comprehensive QA with CRUD verification | `test-qa` |
-| Write unit/integration tests | `test-unit` |
+## 4. Context discipline (200k window)
+- Work per-surface / per-module; load only the files needed for the current unit. Do not try to hold the whole repo in context.
+- For wide work, build the inventory/checklist first, then iterate through it in batches.
 
-### Audits
-| Task | Skill |
-|------|-------|
-| Static security review (OWASP) | `audit-security` |
-| JS bundle analysis &amp; reduction | `audit-bundle-size` |
-| Core Web Vitals &amp; performance | `audit-performance` |
-| Database schema health | `audit-db-schema` |
-| Translation quality &amp; hardcoded strings | `audit-i18n` |
-| UX heuristics audit | `audit-ux` |
-| Accessibility (WCAG 2.2) | `audit-accessibility` |
-| Design system compliance | `audit-uiux-design-system` |
+## 5. Terminal caution
+- Re-read any shell command before running. For anything destructive (migrations, `rm`, force-push, prod-pointed scripts, DB writes), prefer a dry-run/preview and pause for confirmation. Never run a state-mutating command unless it is in the approved plan.
 
-### Enhancement
-| Task | Skill |
-|------|-------|
-| SEO (meta, OG, JSON-LD, sitemap) | `enhance-web-seo` |
-| PWA (manifest, service worker, offline) | `enhance-pwa` |
-| UI polish &amp; layout | `enhance-web-ui` |
-| UX &amp; information architecture | `enhance-web-ux` |
-| Cross-surface (web + mobile) consistency | `enhance-capacitor-ui` |
+## 6. Verify-before-trust
+- Before each change, state in one line: what behavior must stay identical here — then confirm it does.
+- Surface assumptions; if the plan is ambiguous for this item, ask rather than guess.
+- Leave a short trace per change (what / why / what was verified) so a human can audit the rollout.
 
-### Plan (audit → approve → execute)
-| Task | Skill |
-|------|-------|
-| UI/UX + design-system unification plan (no fixes) | `plan-uiux-unification` |
-| Stub/dead-link/fake-component audit + wiring plan (no fixes) | `plan-stub-checker` |
-| Performance audit + optimization plan (no fixes) | `plan-perf-audit` |
-| Security/OWASP/RLS audit + hardening plan (no fixes) | `plan-security-audit` |
-| Docs drift audit + sync plan (no rewrites) | `plan-docs-sync` |
-| User-story test coverage plan (no tests written) | `plan-test-coverage` |
+## 7. Follow the plan&#x27;s conventions
+- The target repo is inconsistent by assumption (that&#x27;s why it was audited). Treat the design-system spec / canonical patterns defined in the plan as the convention — don&#x27;t invent a new per-file style.
 
-**Six-skill plan loop:** see `docs/PLAN-LOOPS.md` —  
-`plan-uiux-unification` → `plan-stub-checker` → `plan-test-coverage` → `plan-perf-audit` / `plan-security-audit` → `plan-docs-sync`
+## STOP and ask the human if:
+- A real data/contract/endpoint/target is unknown (don&#x27;t fabricate a substitute).
+- A fix would change public behavior/API/output not covered by the approved plan.
+- A change touches auth, RLS, secrets, payments, migrations, or data mutation (consider routing these to a stronger model rather than executing directly).
+- The only way to pass is a shortcut that doesn&#x27;t satisfy the real intent.
+- Tests would need to be deleted, skipped, or weakened to pass.
 
-### Deploy
-| Task | Skill |
-|------|-------|
-| Post-deploy smoke test | `deploy-verify` |
-| npm package release | `deploy-npm` |
-
-### Debug
-| Task | Skill |
-|------|-------|
-| Debug any error | `debug-error` |
-| Triage &amp; fix Sentry issues | `debug-sentry-monitor` |
-| FE-BE integration mismatches | `debug-fe-be-integration` |
-
-## Skill chaining diagram
-
-```
-workflow-build-feature
-  └─ workflow-spec-tdd → test-unit → test-playwright → workflow-pr
-
-workflow-fix-and-ship
-  └─ debug-error → test-playwright → workflow-pr → deploy-verify
-
-workflow-quality-gate
-  └─ test-red-team → audit-security → audit-bundle-size → audit-performance → test-unit
-
-workflow-launch-ready
-  └─ enhance-web-seo → enhance-pwa → audit-bundle-size → audit-i18n
-     → workflow-quality-gate → deploy-verify → iterate-post-launch
-
-iterate-post-launch
-  └─ debug-sentry-monitor → deploy-verify → test-playwright
-```
-
-## Rules vs Skills
-
-- **Rules** (this file, `full-stack-ship-discipline.mdc`, etc.) = always-on policies, guardrails, routing
-- **Skills** = activated on demand when a task matches the description
-- Never put task-specific workflows in rules — they waste context on unrelated tasks
+When unsure, research before acting (`/research`).
 </code></pre>
-<p><a href="https://github.com/kensaurus/cursor-kenji/blob/HEAD/.cursor/rules/skill-workflows.mdc" rel="external">View raw on GitHub</a></p>
+<p><a href="https://github.com/kensaurus/cursor-kenji/blob/HEAD/.cursor/rules/composer-2.5-execution.mdc" rel="external">View raw on GitHub</a></p>
 </section>
 <section><h2>Why this is listed</h2>
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>
 <ul class="crosslinks">
-<li><a href="https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/">DietrichGebert/ponytail (stars:25403)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/">DietrichGebert/ponytail (stars:25490)</a></li>
 <li><a href="https://linny006.github.io/cursor-rules-live/r/Smithbox-ai/ControlFlow/">Smithbox-ai/ControlFlow (stars:13)</a></li>
 <li><a href="https://linny006.github.io/cursor-rules-live/r/caioribeiroclw-pixel/pluribus/">caioribeiroclw-pixel/pluribus (stars:6)</a></li>
 </ul></section>
