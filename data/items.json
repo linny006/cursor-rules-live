@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-17T05:00:48Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
     "id": "Trentobobbi/uikit-mastery-playbook",
     "language": "HTML",
@@ -7,15 +16,6 @@
     "stars": 0,
     "updated_at": "2026-06-17T04:48:41Z",
     "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-17T04:45:29Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "247 agent skills (Cursor, Claude & Codex), 5.400+ OpenClaw skills, 123 ML notebooks, 46 research papers, 14 industry rep",
@@ -36,7 +36,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 26430,
+    "stars": 26508,
     "updated_at": "2026-06-17T02:35:22Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -213,7 +213,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 15077,
+    "stars": 15078,
     "updated_at": "2026-06-16T17:58:53Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
