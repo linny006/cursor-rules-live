@@ -1,11 +1,20 @@
 [
   {
+    "description": "Shareable Cursor rules for agentic mobile development (Android + iOS) \u2014 no IDE required day-to-day. Companion to the 'Mo",
+    "id": "JoDaBaRo/agentic-mobile-rules",
+    "language": "Python",
+    "name": "JoDaBaRo/agentic-mobile-rules",
+    "stars": 0,
+    "updated_at": "2026-06-17T21:55:26Z",
+    "url": "https://github.com/JoDaBaRo/agentic-mobile-rules"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-17T21:36:36Z",
+    "updated_at": "2026-06-17T21:45:46Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -84,15 +93,6 @@
     "stars": 0,
     "updated_at": "2026-06-17T19:28:33Z",
     "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Shareable Cursor rules for agentic mobile development (Android + iOS) \u2014 no IDE required day-to-day. Companion to the 'Mo",
-    "id": "JoDaBaRo/agentic-mobile-rules",
-    "language": "Python",
-    "name": "JoDaBaRo/agentic-mobile-rules",
-    "stars": 0,
-    "updated_at": "2026-06-17T19:27:53Z",
-    "url": "https://github.com/JoDaBaRo/agentic-mobile-rules"
   },
   {
     "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
@@ -254,7 +254,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 31201,
+    "stars": 31247,
     "updated_at": "2026-06-17T02:35:22Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -277,7 +277,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36889,
+    "stars": 36890,
     "updated_at": "2026-06-17T01:31:09Z",
     "url": "https://github.com/wshobson/agents"
   },
