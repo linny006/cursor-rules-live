@@ -4,9 +4,41 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 15112,
-    "updated_at": "2026-06-17T10:59:22Z",
+    "stars": 15113,
+    "updated_at": "2026-06-17T11:14:02Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
+  },
+  {
+    "cursorrules": {
+      "content": "# Emdash Skills for Cursor\n\nLoad CONVENTIONS.md for stack defaults. Load _router.md for skill routing.\n14 categories (01-14), 94 reference docs, 18 agents.\n\n## Stack\nCF Workers+Hono | Angular 21+Ionic 8+PrimeNG 21 | D1/Neon | Drizzle v1 | Clerk | Stripe | Inngest | Resend | Bun | Playwright v1.59+ | PostHog | Sentry\n\n## Rules\n- TypeScript strict, never `any`, prefer `interface` over `type`\n- Hono inline handlers for RPC type inference\n- Zod validation on all inputs\n- TDD: failing test first, Playwright 6 breakpoints\n- Dark-first design, #060610 bg, #00E5FF accent\n- Deploy to CF Workers, purge CDN after every deploy\n\nSee CONVENTIONS.md for full patterns.\n",
+      "format": "text",
+      "path": ".cursorrules"
+    },
+    "description": "14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts \u2192 deployed products.",
+    "id": "heymegabyte/claude-skills",
+    "language": "JavaScript",
+    "name": "heymegabyte/claude-skills",
+    "stars": 12,
+    "updated_at": "2026-06-17T11:09:33Z",
+    "url": "https://github.com/heymegabyte/claude-skills"
+  },
+  {
+    "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
+    "id": "caioribeiroclw-pixel/pluribus",
+    "language": "JavaScript",
+    "name": "caioribeiroclw-pixel/pluribus",
+    "stars": 6,
+    "updated_at": "2026-06-17T11:04:03Z",
+    "url": "https://github.com/caioribeiroclw-pixel/pluribus"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-17T11:00:34Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -27,15 +59,6 @@
     "url": "https://github.com/philipbankier/awesome-agent-skills"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-17T10:45:38Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
     "id": "fluttersdk/wind",
     "language": "Dart",
@@ -50,7 +73,7 @@
     "language": "PHP",
     "name": "pekral/cursor-rules",
     "stars": 3,
-    "updated_at": "2026-06-17T09:55:31Z",
+    "updated_at": "2026-06-17T11:13:48Z",
     "url": "https://github.com/pekral/cursor-rules"
   },
   {
@@ -93,20 +116,6 @@
     "stars": 1,
     "updated_at": "2026-06-17T08:41:43Z",
     "url": "https://github.com/GeiserX/lynxprompt-mcp"
-  },
-  {
-    "cursorrules": {
-      "content": "# Emdash Skills for Cursor\n\nLoad CONVENTIONS.md for stack defaults. Load _router.md for skill routing.\n14 categories (01-14), 94 reference docs, 18 agents.\n\n## Stack\nCF Workers+Hono | Angular 21+Ionic 8+PrimeNG 21 | D1/Neon | Drizzle v1 | Clerk | Stripe | Inngest | Resend | Bun | Playwright v1.59+ | PostHog | Sentry\n\n## Rules\n- TypeScript strict, never `any`, prefer `interface` over `type`\n- Hono inline handlers for RPC type inference\n- Zod validation on all inputs\n- TDD: failing test first, Playwright 6 breakpoints\n- Dark-first design, #060610 bg, #00E5FF accent\n- Deploy to CF Workers, purge CDN after every deploy\n\nSee CONVENTIONS.md for full patterns.\n",
-      "format": "text",
-      "path": ".cursorrules"
-    },
-    "description": "14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts \u2192 deployed products.",
-    "id": "heymegabyte/claude-skills",
-    "language": "JavaScript",
-    "name": "heymegabyte/claude-skills",
-    "stars": 12,
-    "updated_at": "2026-06-17T07:22:24Z",
-    "url": "https://github.com/heymegabyte/claude-skills"
   },
   {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
@@ -154,7 +163,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 28386,
+    "stars": 28443,
     "updated_at": "2026-06-17T02:35:22Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -177,7 +186,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36874,
+    "stars": 36876,
     "updated_at": "2026-06-17T01:31:09Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -494,19 +503,5 @@
     "stars": 1,
     "updated_at": "2026-06-16T08:57:37Z",
     "url": "https://github.com/GeiserX/lynxprompt-vscode"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: \"Three.js / React Three Fiber syntax: scene setup, R3F hooks, models, controls. Load for 3D code \u2014 taste, perf budgets, and mobile WebGL live in the 3d-web-experiences skill.\"\nglobs: [\"**/*.{jsx,tsx,js,ts}\", \"**/three/**\", \"**/*.glb\", \"**/*.gltf\"]\nalwaysApply: false\n---\n\n# 3D Graphics \u2014 Syntax Reference\n\nMechanical patterns for Three.js, React Three Fiber (R3F), and `@react-three/drei`. For aesthetic direction, performance tiers, responsive/mobile WebGL, degradation, accessibility, and verified recipes, load the **`3d-web-experiences`** skill (`reference.md` for full scenes and bug catalog).\n\nVerify package APIs against installed versions before asserting prop names.\n\n---\n\n## CRITICAL: Container Dimensions\n\nA WebGL canvas without a sized parent renders at zero height or wrong aspect.\n\n```jsx\n// WRONG\n<div><Canvas><Scene /></Canvas></div>\n\n// CORRECT \u2014 explicit height on the container\n<div style={{ height: '500px', width: '100%' }}>\n  <Canvas><Scene /></Canvas>\n</div>\n```\n\nVanilla Three.js: size the renderer to the **container**, not always `window` \u2014 use `ResizeObserver` or container `clientWidth` / `clientHeight`.\n\n---\n\n## R3F Canvas Baseline\n\n```jsx\nimport { Canvas } from '@react-three/fiber';\nimport { OrbitControls, Environment } from '@react-three/drei';\n\nexport function Scene() {\n  return (\n    <div style={{ height: '500px', width: '100%' }}>\n      <Canvas shadows dpr={[1, 2]} camera={{ position: [0, 0, 5], fov: 45 }}>\n        <Environment preset=\"city\" />\n        <ambientLight intensity={0.4} />\n        <directionalLight position={[5, 5, 5]} castShadow />\n        <Mesh />\n        <OrbitControls enableDamping />\n      </Canvas>\n    </div>\n  );\n}\n```\n\nSet tone mapping and output color space on the renderer for PBR that is not flat \u2014 see `3d-web-experiences` \u2192 renderer baseline.\n\n---\n\n## Hooks & Imports (common bugs)\n\n```jsx\nimport { useRef, useState } from 'react';\nimport { useFrame } from '@react-three/fiber'; // NOT from 'react'\nimport type { Mesh } from 'three';\n\nfunction AnimatedBox() {\n  const ref = useRef<Mesh>(null);\n  useFrame((_, delta) => {\n    if (ref.current) ref.current.rotation.y += delta;\n  });\n  return (\n    <mesh ref={ref}>\n      <boxGeometry />\n      <meshStandardMaterial />\n    </mesh>\n  );\n}\n```\n\n| Mistake | Fix |\n|---------|-----|\n| `useFrame` from `react` | Import from `@react-three/fiber` |\n| `<Detail>` from `three` | Use drei `<Detailed distances={[0, 10, 20]}>` with child meshes |\n| `InstancedMesh` from fiber | Use JSX `<instancedMesh>`; `Object3D` from `three` |\n\n---\n\n## Models & Loading\n\n```jsx\nimport { Suspense } from 'react';\nimport { useGLTF, Html, useProgress } from '@react-three/drei';\n\nfunction Model({ url }) {\n  const { scene } = useGLTF(url);\n  return <primitive object={scene} />;\n}\nuseGLTF.preload('/models/asset.glb');\n\nfunction Loader() {\n  const { progress } = useProgress();\n  return <Html center>{progress.toFixed(0)}%</Html>;\n}\n\n// Wrap async assets:\n<Suspense fallback={<Loader />}><Model url=\"\u2026\" /></Suspense>\n```\n\nPrefer `.glb` with Draco/Meshopt compression for web (see skill \u2192 asset pipeline).\n\n---\n\n## LOD & Instancing (mechanics)\n\n```jsx\nimport { Detailed } from '@react-three/drei';\n\n<Detailed distances={[0, 10, 25]}>\n  <HighPolyMesh />\n  <MediumPolyMesh />\n  <LowPolyMesh />\n</Detailed>\n```\n\nFor many copies of the same geometry, use `<instancedMesh>` or drei `<Instances>`. Budgets, DPR clamps, and `frameloop=\"demand\"`: **`3d-web-experiences`**.\n\n---\n\n## Camera Controls (drei)\n\n```jsx\nimport { OrbitControls, MapControls } from '@react-three/drei';\n\n<OrbitControls enableDamping dampingFactor={0.05} minDistance={2} maxDistance={20} />\n```\n\nRespect `prefers-reduced-motion` \u2014 pause auto-rotate and heavy camera motion (skill \u2192 accessibility).\n\n---\n\n## Verification (3D changes)\n\n| Check | How |\n|-------|-----|\n| Renders | Browser load \u2014 not blank/black canvas |\n| Console | No WebGL / shader compile errors |\n| Resize | Container height preserved; canvas scales with parent |\n| Mobile | DPR/effects tier reduced when skill budget applies |\n\nBrowser verification required; use console + visual check minimum.\n\n---\n\n## When NOT to Load This File\n\n- 2D UI only \u2014 use `design-systems` + `anti-slop-design`.\n- \u201cMake it look good\u201d / hero aesthetic \u2014 start with **`3d-web-experiences`** Step 1 (direction + slop catalog), then use this file for syntax.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/3d-graphics.mdc"
-    },
-    "description": "Agentic-first Cursor Rules powered by MiniMax M3 - clarify-first prompting, interleaved thinking, and full tool orchestr",
-    "id": "madebyaris/advance-minimax-m3-cursor-rules",
-    "language": "Python",
-    "name": "madebyaris/advance-minimax-m3-cursor-rules",
-    "stars": 121,
-    "updated_at": "2026-06-16T05:29:24Z",
-    "url": "https://github.com/madebyaris/advance-minimax-m3-cursor-rules"
   }
 ]
