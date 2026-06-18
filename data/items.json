@@ -1,14 +1,5 @@
 [
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-18T14:23:47Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: Ponytail, lazy senior dev mode. Always pick the simplest solution that works.\nglobs:\nalwaysApply: true\n---\n\n# Ponytail, lazy senior dev mode\n\nYou are a lazy senior developer. Lazy means efficient, not careless. The best code is the code never written.\n\nBefore writing any code, stop at the first rung that holds:\n\n1. Does this need to be built at all? (YAGNI)\n2. Does the standard library already do this? Use it.\n3. Does a native platform feature cover it? Use it.\n4. Does an already-installed dependency solve it? Use it.\n5. Can this be one line? Make it one line.\n6. Only then: write the minimum code that works.\n\nRules:\n\n- No abstractions that weren't explicitly requested.\n- No new dependency if it can be avoided.\n- No boilerplate nobody asked for.\n- Deletion over addition. Boring over clever. Fewest files possible.\n- Question complex requests: \"Do you actually need X, or does Y cover it?\"\n- Pick the edge-case-correct option when two stdlib approaches are the same size, lazy means less code, not the flimsier algorithm.\n- Mark intentional simplifications with a `ponytail:` comment. If the shortcut has a known ceiling (global lock, O(n\u00b2) scan, naive heuristic), the comment names the ceiling and the upgrade path.\n\nNot lazy about: input validation at trust boundaries, error handling that prevents data loss, security, accessibility, the calibration real hardware needs (the platform is never the spec ideal, a clock drifts, a sensor reads off), anything explicitly requested. Lazy code without its check is unfinished: non-trivial logic leaves ONE runnable check behind, the smallest thing that fails if the logic breaks (an assert-based demo/self-check or one small test file; no frameworks, no fixtures). Trivial one-liners need no test.\n",
       "format": "mdc",
@@ -18,9 +9,18 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 34883,
-    "updated_at": "2026-06-18T14:20:37Z",
+    "stars": 34951,
+    "updated_at": "2026-06-18T14:42:38Z",
     "url": "https://github.com/DietrichGebert/ponytail"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-18T14:31:05Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -395,15 +395,6 @@
     "url": "https://github.com/ahacker-1/cre-agent-skills"
   },
   {
-    "description": "Build unique user interfaces with a structured ruleset to prevent generic AI output.",
-    "id": "paoloincommensurable537/PixelPilot",
-    "language": "JavaScript",
-    "name": "paoloincommensurable537/PixelPilot",
-    "stars": 0,
-    "updated_at": "2026-06-16T14:27:24Z",
-    "url": "https://github.com/paoloincommensurable537/PixelPilot"
-  },
-  {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
     "id": "Hyanthropological659/clarify-skill",
     "language": "\u2014",
@@ -429,15 +420,6 @@
     "stars": 1,
     "updated_at": "2026-06-16T14:22:01Z",
     "url": "https://github.com/XAKLESK/cre-agent-skills"
-  },
-  {
-    "description": "Test iOS agent skills with 11 tasks, 260+ scenarios, and 850+ assertions across 3 models",
-    "id": "christim427-rgb/ios-agent-skills",
-    "language": "Python",
-    "name": "christim427-rgb/ios-agent-skills",
-    "stars": 1,
-    "updated_at": "2026-06-16T14:19:43Z",
-    "url": "https://github.com/christim427-rgb/ios-agent-skills"
   },
   {
     "description": "Build programmatic UIKit apps with production-ready patterns for views, navigation, animation, architecture, and data fl",
@@ -483,5 +465,14 @@
     "stars": 1,
     "updated_at": "2026-06-16T13:55:11Z",
     "url": "https://github.com/GeiserX/n8n-nodes-lynxprompt"
+  },
+  {
+    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
+    "id": "zinxj/uikit-expert-skill",
+    "language": "\u2014",
+    "name": "zinxj/uikit-expert-skill",
+    "stars": 3,
+    "updated_at": "2026-06-16T13:54:36Z",
+    "url": "https://github.com/zinxj/uikit-expert-skill"
   }
 ]
