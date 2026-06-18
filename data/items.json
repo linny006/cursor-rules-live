@@ -5,8 +5,17 @@
     "language": "JavaScript",
     "name": "malrobust/ORIGAMI",
     "stars": 0,
-    "updated_at": "2026-06-18T07:56:19Z",
+    "updated_at": "2026-06-18T08:13:43Z",
     "url": "https://github.com/malrobust/ORIGAMI"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-18T08:00:41Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Code-Grounded Vision (CGV): Deterministic-first visual reasoning rubric & CPU tools for any AI agent, framework, or harn",
@@ -16,15 +25,6 @@
     "stars": 0,
     "updated_at": "2026-06-18T07:51:51Z",
     "url": "https://github.com/roverdude24/agentic-visual-grounding-rubric"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-18T07:45:52Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
@@ -127,7 +127,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 15176,
+    "stars": 15177,
     "updated_at": "2026-06-18T01:03:19Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -145,7 +145,7 @@
     "id": "SalesforceAIResearch/agentforce-adlc",
     "language": "Python",
     "name": "SalesforceAIResearch/agentforce-adlc",
-    "stars": 73,
+    "stars": 74,
     "updated_at": "2026-06-18T00:17:22Z",
     "url": "https://github.com/SalesforceAIResearch/agentforce-adlc"
   },
@@ -313,7 +313,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 33394,
+    "stars": 33468,
     "updated_at": "2026-06-17T02:35:22Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -336,7 +336,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36916,
+    "stars": 36918,
     "updated_at": "2026-06-17T01:31:09Z",
     "url": "https://github.com/wshobson/agents"
   },
