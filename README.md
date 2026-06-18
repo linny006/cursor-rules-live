@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-06-18 00:45 UTC
+> ⏰ Last updated: 2026-06-18 01:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -63,7 +63,7 @@ expired items removed — so you can rely on what you see being current.
 | 8 | [heymegabyte/claude-skills](https://github.com/heymegabyte/claude-skills) | 12 | JavaScript | 2026-06-17 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/claude-skills/) | 14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts → deployed products. |
 | 9 | [pekral/cursor-rules](https://github.com/pekral/cursor-rules) | 4 | PHP | 2026-06-17 | — | PHP and Laravel Cursor rules — coding standards, testing, and conventions for the Cursor editor. Install via Composer. |
 | 10 | [JoDaBaRo/agentic-mobile-rules](https://github.com/JoDaBaRo/agentic-mobile-rules) | 0 | Python | 2026-06-17 | — | Shareable Cursor rules for agentic mobile development (Android + iOS) — no IDE required day-to-day. Companion to the 'Mo |
-| 11 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 15144 | Shell | 2026-06-17 | — | 🎭 216 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 17 种工具，覆盖工程/设计/营销/金融等 18 个部门。含 50 个中国市场原创智能体（小红书/抖音/ |
+| 11 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 15145 | Shell | 2026-06-17 | — | 🎭 216 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 17 种工具，覆盖工程/设计/营销/金融等 18 个部门。含 50 个中国市场原创智能体（小红书/抖音/ |
 | 12 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 17 | — | 2026-06-17 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
 | 13 | [caioribeiroclw-pixel/pluribus](https://github.com/caioribeiroclw-pixel/pluribus) | 6 | JavaScript | 2026-06-17 | — | Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security |
 | 14 | [TheoV823/mneme](https://github.com/TheoV823/mneme) | 13 | HTML | 2026-06-17 | — | Enforce architectural decisions in AI-assisted development. |
@@ -80,7 +80,7 @@ expired items removed — so you can rely on what you see being current.
 | 25 | [kensaurus/cursor-kenji](https://github.com/kensaurus/cursor-kenji) | 4 | JavaScript | 2026-06-17 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/kensaurus/cursor-kenji/) | Curated Cursor AI agent skills, slash commands, MCP configs, subagents & rules for full-stack dev — React 19, Next.js 15 |
 | 26 | [GeiserX/lynxprompt-mcp](https://github.com/GeiserX/lynxprompt-mcp) | 1 | Go | 2026-06-17 | — | MCP Server for LynxPrompt — browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP |
 | 27 | [adriannoes/awesome-vibe-coding](https://github.com/adriannoes/awesome-vibe-coding) | 39 | Jupyter Notebook | 2026-06-17 | — | 247 agent skills (Cursor, Claude & Codex), 5.400+ OpenClaw skills, 123 ML notebooks, 46 research papers, 14 industry rep |
-| 28 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 31669 | JavaScript | 2026-06-17 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 28 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 31723 | JavaScript | 2026-06-17 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 29 | [fluzzy/archive](https://github.com/fluzzy/archive) | 0 | — | 2026-06-17 | — | Curated rules, guides, and resources for AI coding agents — Claude Code, prompts, MCP, skills, and best practices |
 | 30 | [wshobson/agents](https://github.com/wshobson/agents) | 36892 | Python | 2026-06-17 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI |
 | 31 | [davidnbr/reporag](https://github.com/davidnbr/reporag) | 0 | Python | 2026-06-17 | — | Fully local, zero-cost RAG knowledge layer for AI coding tools. Achieve near perfect codebase awareness with any AI tool |
