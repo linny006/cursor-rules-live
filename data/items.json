@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-18T16:01:05Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Shareable Cursor rules for agentic mobile development (Android + iOS) \u2014 no IDE required day-to-day. Companion to the 'Mo",
     "id": "JoDaBaRo/agentic-mobile-rules",
     "language": "Python",
@@ -7,15 +16,6 @@
     "stars": 0,
     "updated_at": "2026-06-18T15:55:46Z",
     "url": "https://github.com/JoDaBaRo/agentic-mobile-rules"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-18T15:45:54Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -27,7 +27,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 35284,
+    "stars": 35348,
     "updated_at": "2026-06-18T15:09:29Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
