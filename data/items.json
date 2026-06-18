@@ -5,17 +5,8 @@
     "language": "PHP",
     "name": "pekral/cursor-rules",
     "stars": 4,
-    "updated_at": "2026-06-18T08:16:32Z",
+    "updated_at": "2026-06-18T08:39:39Z",
     "url": "https://github.com/pekral/cursor-rules"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-18T08:15:40Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Makes your AI agent think like the laziest senior architect in the room. The best layer is the layer you never added.",
@@ -23,8 +14,17 @@
     "language": "JavaScript",
     "name": "malrobust/ORIGAMI",
     "stars": 0,
-    "updated_at": "2026-06-18T08:13:43Z",
+    "updated_at": "2026-06-18T08:37:36Z",
     "url": "https://github.com/malrobust/ORIGAMI"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-18T08:30:35Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Code-Grounded Vision (CGV): Deterministic-first visual reasoning rubric & CPU tools for any AI agent, framework, or harn",
@@ -127,7 +127,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 15182,
+    "stars": 15183,
     "updated_at": "2026-06-18T01:03:19Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -313,7 +313,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 33530,
+    "stars": 33604,
     "updated_at": "2026-06-17T02:35:22Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -336,7 +336,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36919,
+    "stars": 36920,
     "updated_at": "2026-06-17T01:31:09Z",
     "url": "https://github.com/wshobson/agents"
   },
