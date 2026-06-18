@@ -53,86 +53,63 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <span><a href="https://github.com/danielvm-git" rel="external">@danielvm-git</a></span>
 </div>
 <section id="rules"><h2>Actual rules from this repo</h2>
-<p>Path in source repo: <code>.cursor/rules/assess-impact.mdc</code> &middot; format: <code>mdc</code></p>
+<p>Path in source repo: <code>.cursor/rules/align-grid.mdc</code> &middot; format: <code>mdc</code></p>
 <pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
-description: &quot;Analyze the blast radius of a proposed change before any code is written. Maps dependents, affected stories, and test coverage. Produces specs/IMPACT.md. Use before plan-work on any non-trivial change, when touching a shared module, or when the user asks \&quot;what does this break?\&quot;.&quot;
+description: &quot;\&quot;Build editorial/magazine/report webpages on a GENUINE Müller-Brockmann modular grid (International Typographic Style) — not a decorative one. Encodes the discipline (columns + modules + baseline, grotesque type, flush-left, restrained black/white/red palette) AND the hard-won front-end engineering to make the grid real, visible, and verified: one CSS-variable source of truth, an interactive grid-toggle overlay that lives in the SAME content box as the content, subgrid \\\&quot;bands\\\&quot; so every element snaps to a column line, an 8px baseline lock, and runtime OPTICAL ALIGNMENT that puts display type&#x27;s ink (not its box) on the line. Ships with a scaffold generator and a Puppeteer verification harness that proves 0px adherence.\&quot;&quot;
 alwaysApply: false
 ---
 
 
-# Assess Impact
+# Müller-Brockmann Grid Systems — built real, visible, and verified
 
-&gt; **HARD GATE** — Run this skill before `plan-work` whenever a change touches an existing module, symbol, or file used by more than one caller. Skip only for net-new code with no existing dependents.
+Josef Müller-Brockmann (1914–1996), Zurich; *Grid Systems in Graphic Design* (1981) is the corpus. The grid is treated as an ethic, not decoration: **&quot;The grid system is an aid, not a guarantee. It permits a number of possible uses and each designer can look for a solution appropriate to his personal style. But one must learn how to use the grid; it is an art that requires practice.&quot;** This skill encodes that discipline AND — the part most attempts get wrong — the front-end engineering to make the grid genuinely load-bearing on the web, plus a harness that PROVES it.
 
-Find the blast radius of the proposed change before a single line is written.
+&gt; Two real review notes this skill exists to prevent:
+&gt; 1. *&quot;the grid is just slapped on top and misaligned&quot;* → the overlay wasn&#x27;t in the same content box as the content (see §2.2).
+&gt; 2. *&quot;the H in the headline is off the grid&quot;* → the headline&#x27;s BOX was on the grid but its INK wasn&#x27;t; large glyphs carry a side-bearing (see §2.6). **Box-on-grid ≠ ink-on-grid.**
 
-## Process
 
-### 1. Identify the target
+## PART 1 — THE DISCIPLINE (decide before drawing)
+- **Objective order.** The grid brings &quot;constructive thought,&quot; legibility, and &quot;objective and functional&quot; design. Restraint is the point; the system, not the ego, organizes the page.
+- **Modular grid.** Divide the type area into a field of **modules** — columns AND rows — separated by consistent **gutters**, inside defined **margins**. Text and images occupy whole modules. Müller-Brockmann specimens common field counts (8 / 20 / 32 fields). For the web, a **12-column grid + 8px baseline** is a robust general default; a **6×6 or 4×8 modular field grid** when you want visible rows too.
+- **Baseline grid.** Vertical rhythm is sacred: **leading = a whole multiple of the baseline unit**, and every element snaps to it. This is what makes facing columns and images line up across the page.
+- **Typography.** A **grotesque sans** (Akzidenz-Grotesk / Helvetica; on the web Inter, Helvetica Now, Archivo). **Flush-left, ragged-right.** Few sizes, large jumps in **scale** for hierarchy; objective, not expressive. Big **numerals/data set large** is a signature move.
+- **Palette.** Pure white paper, near-black ink, **one accent — red is canonical**. Avoid the warm-cream &quot;Claude look&quot;; **never blue/purple gradients** (hard house rule).
+- **White space + asymmetry.** Generous margins; asymmetric compositions held in tension by the grid.
 
-Name the symbol, module, or file being changed. If the user hasn&#x27;t specified, ask one question: &quot;What exactly are you changing?&quot;
 
-### 2. Find dependents
+## PART 2 — MAKE THE GRID REAL ON THE WEB (the load-bearing engineering)
+`grid_tokens.py` emits this whole scaffold correctly; the rules below are why it&#x27;s built the way it is.
 
+### 2.1 One source of truth
+Put every grid parameter in `:root` CSS variables — `--cols, --gutter, --margin, --bl (baseline), --lh (leading=3×bl), --maxw`. **Content and the overlay both read these same variables.** Never hand-author the overlay separately or it will drift.
+
+### 2.2 The overlay MUST live in the SAME content box as the content  ← #1 bug
+Failure mode: content sits in a centered `max-width` container while the overlay is a **full-width sibling** of the section. On any viewport wider than `--maxw`, the centered content and the full-width overlay no longer share column positions → &quot;slapped on top / misaligned.&quot;
+**Fix:** put `.guides` *inside* the same `.wrap`, and draw the column guides with `left/right = var(--margin)` and the **same** `repeat(var(--cols),1fr)` + `column-gap:var(--gutter)`. Then the overlay columns **are** the content columns at every width. Add left/right margin lines at `var(--margin)`.
+
+### 2.3 Place every element by column LINE via subgrid bands
+Don&#x27;t eyeball spans. Each horizontal **band** spans all columns and re-exposes them:
+```css
+.band{grid-column:1 / -1; display:grid; grid-template-columns:subgrid; column-gap:var(--gutter); align-items:start;}
+@supports not (grid-template-columns:subgrid){ .band{grid-template-columns:repeat(var(--cols),1fr);} }
 ```
-grep -rn &quot;[symbol-name]&quot; . --include=&quot;*.ts&quot; | grep -v node_modules
-git log --oneline -10 -- [file-path]
-```
+Children place with `grid-column: &lt;startline&gt; / &lt;endline&gt;` (e.g. `1 / 6`, `6 / 13`). Every headline, paragraph, photo, caption now snaps to identical lines.
 
-→ verify: `grep -rn &quot;[target]&quot; . | wc -l`
+### 2.4 Lock vertical rhythm to the baseline
+- Leading = `--lh` (e.g. 24px = 3×8). **Every line-height a multiple of the baseline, in px (not unitless) for display type** — unitless line-heights on large type push the box off the grid.
+- Every margin/padding a multiple of the baseline. Spread top/bottom padding a multiple too, so content starts on a line.
+- **Media heights = multiples of the leading** (e.g. 240/360/432/480px) so a photo&#x27;s top AND bottom both land on lines.
+- Hairline rules sit inside a baseline-height band, not free-floating.
 
-### 3. Map to release plan stories
+### 2.5 The toggle (sizzle within the sizzle)
+A control (button **+ `G` key**) toggles `body.grid-on`; overlay fades 0→1. Overlay draws: translucent **numbered column fields**, the **baseline** (major line every `--lh`, faint minor every `--bl`), and **margin lines**. Showing the real grid the page is built on IS the demo.
 
-Read `specs/release-plan.yaml + epic capsule directories` (if it exists). For each dependent found in Step 2, identify which story owns that module. List stories that will be affected by the change.
-
-→ verify: `grep -c &quot;Story&quot; specs/release-plan.yaml + epic capsule directories 2&gt;/dev/null || echo &quot;no release plan&quot;`
-
-### 4. List test coverage
-
-Find tests that exercise the target:
-
-```
-grep -rn &quot;[symbol-name]&quot; . --include=&quot;*.test.*&quot; --include=&quot;*.spec.*&quot;
-```
-
-→ verify: `grep -rn &quot;[target]&quot; . --include=&quot;*.test.*&quot; | wc -l`
-
-### 5. Classify risk
-
-| Level | Condition |
-|-------|-----------|
-| Low   | ≤ 2 callers, all covered by tests |
-| Medium | 3–10 callers, partial test coverage |
-| High  | &gt; 10 callers, or shared API/interface, or no tests |
-
-### 6. Write specs/IMPACT.md
-
-```
-## Target
-[symbol or file being changed]
-
-## Dependents ([count])
-- [file]: [caller or usage]
-
-## Affected Stories
-- Story [X.Y]: [title]
-
-## Test Coverage
-- [test file]: covers [scenario]
-- Gap: [untested behavior]
-
-## Risk: Low / Medium / High
-[One-sentence rationale]
-
-## Recommended action
-[Proceed / Add tests first / Discuss design]
-```
-
-→ verify: `grep &quot;Risk:&quot; specs/IMPACT.md`
-
-Suggest `plan-work` once risk is understood and any test gaps are noted.
-</code></pre>
-<p><a href="https://github.com/danielvm-git/bigpowers/blob/HEAD/.cursor/rules/assess-impact.mdc" rel="external">View raw on GitHub</a></p>
+### 2.6 OPTICAL ALIGNMENT — display ink, not its box  ← the subtle bug
+A 180px headline whose layout box is exactly on line 1 still looks misaligned against body text, because the letterform&#x27;s **ink** is inset by its **left side-bearing**. Cure at runtime:
+```js
+// after document.fonts.ready and</code></pre>
+<p><em>Content truncated. View full file in the source repo (linked above).</em></p><p><a href="https://github.com/danielvm-git/bigpowers/blob/HEAD/.cursor/rules/align-grid.mdc" rel="external">View raw on GitHub</a></p>
 </section>
 <section><h2>Why this is listed</h2>
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
