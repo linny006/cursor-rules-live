@@ -10,8 +10,17 @@
     "language": "Shell",
     "name": "danielvm-git/bigpowers",
     "stars": 1,
-    "updated_at": "2026-06-18T04:27:57Z",
+    "updated_at": "2026-06-18T04:31:10Z",
     "url": "https://github.com/danielvm-git/bigpowers"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-18T04:30:37Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
@@ -21,15 +30,6 @@
     "stars": 0,
     "updated_at": "2026-06-18T04:27:09Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-18T04:15:36Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -73,7 +73,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 15153,
+    "stars": 15154,
     "updated_at": "2026-06-18T01:03:19Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -295,7 +295,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 32557,
+    "stars": 32600,
     "updated_at": "2026-06-17T02:35:22Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -318,7 +318,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36904,
+    "stars": 36905,
     "updated_at": "2026-06-17T01:31:09Z",
     "url": "https://github.com/wshobson/agents"
   },
