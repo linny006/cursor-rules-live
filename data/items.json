@@ -1,5 +1,23 @@
 [
   {
+    "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
+    "id": "pekral/cursor-rules",
+    "language": "PHP",
+    "name": "pekral/cursor-rules",
+    "stars": 4,
+    "updated_at": "2026-06-18T08:16:32Z",
+    "url": "https://github.com/pekral/cursor-rules"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-18T08:15:40Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Makes your AI agent think like the laziest senior architect in the room. The best layer is the layer you never added.",
     "id": "malrobust/ORIGAMI",
     "language": "JavaScript",
@@ -9,15 +27,6 @@
     "url": "https://github.com/malrobust/ORIGAMI"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-18T08:00:41Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Code-Grounded Vision (CGV): Deterministic-first visual reasoning rubric & CPU tools for any AI agent, framework, or harn",
     "id": "roverdude24/agentic-visual-grounding-rubric",
     "language": "Python",
@@ -25,15 +34,6 @@
     "stars": 0,
     "updated_at": "2026-06-18T07:51:51Z",
     "url": "https://github.com/roverdude24/agentic-visual-grounding-rubric"
-  },
-  {
-    "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
-    "id": "pekral/cursor-rules",
-    "language": "PHP",
-    "name": "pekral/cursor-rules",
-    "stars": 4,
-    "updated_at": "2026-06-18T07:29:22Z",
-    "url": "https://github.com/pekral/cursor-rules"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -72,7 +72,7 @@
     "id": "danielvm-git/bigpowers",
     "language": "Shell",
     "name": "danielvm-git/bigpowers",
-    "stars": 1,
+    "stars": 2,
     "updated_at": "2026-06-18T04:31:10Z",
     "url": "https://github.com/danielvm-git/bigpowers"
   },
@@ -127,7 +127,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 15177,
+    "stars": 15182,
     "updated_at": "2026-06-18T01:03:19Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -313,7 +313,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 33468,
+    "stars": 33530,
     "updated_at": "2026-06-17T02:35:22Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -336,7 +336,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36918,
+    "stars": 36919,
     "updated_at": "2026-06-17T01:31:09Z",
     "url": "https://github.com/wshobson/agents"
   },
