@@ -1,11 +1,20 @@
 [
   {
+    "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
+    "id": "pekral/cursor-rules",
+    "language": "PHP",
+    "name": "pekral/cursor-rules",
+    "stars": 4,
+    "updated_at": "2026-06-18T06:59:41Z",
+    "url": "https://github.com/pekral/cursor-rules"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-18T06:31:13Z",
+    "updated_at": "2026-06-18T06:45:46Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -109,7 +118,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 15165,
+    "stars": 15166,
     "updated_at": "2026-06-18T01:03:19Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -130,15 +139,6 @@
     "stars": 73,
     "updated_at": "2026-06-18T00:17:22Z",
     "url": "https://github.com/SalesforceAIResearch/agentforce-adlc"
-  },
-  {
-    "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
-    "id": "pekral/cursor-rules",
-    "language": "PHP",
-    "name": "pekral/cursor-rules",
-    "stars": 4,
-    "updated_at": "2026-06-18T06:42:40Z",
-    "url": "https://github.com/pekral/cursor-rules"
   },
   {
     "description": "Shareable Cursor rules for agentic mobile development (Android + iOS) \u2014 no IDE required day-to-day. Companion to the 'Mo",
@@ -304,7 +304,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 33064,
+    "stars": 33128,
     "updated_at": "2026-06-17T02:35:22Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
