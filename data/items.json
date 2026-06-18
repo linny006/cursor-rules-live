@@ -5,8 +5,17 @@
     "language": "JavaScript",
     "name": "malrobust/ORIGAMI",
     "stars": 0,
-    "updated_at": "2026-06-18T07:39:40Z",
+    "updated_at": "2026-06-18T07:56:19Z",
     "url": "https://github.com/malrobust/ORIGAMI"
+  },
+  {
+    "description": "Code-Grounded Vision (CGV): Deterministic-first visual reasoning rubric & CPU tools for any AI agent, framework, or harn",
+    "id": "roverdude24/agentic-visual-grounding-rubric",
+    "language": "Python",
+    "name": "roverdude24/agentic-visual-grounding-rubric",
+    "stars": 0,
+    "updated_at": "2026-06-18T07:51:51Z",
+    "url": "https://github.com/roverdude24/agentic-visual-grounding-rubric"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,7 +23,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-18T07:30:51Z",
+    "updated_at": "2026-06-18T07:45:52Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -118,7 +127,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 15174,
+    "stars": 15176,
     "updated_at": "2026-06-18T01:03:19Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -304,7 +313,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 33326,
+    "stars": 33394,
     "updated_at": "2026-06-17T02:35:22Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -327,7 +336,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36914,
+    "stars": 36916,
     "updated_at": "2026-06-17T01:31:09Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -474,14 +483,5 @@
     "stars": 1,
     "updated_at": "2026-06-16T13:50:55Z",
     "url": "https://github.com/GrekosTheJogurt/antigravity-workspace-manager"
-  },
-  {
-    "description": "323\u500b\u306e\u5373\u6226\u529bAI\u5c02\u9580\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8 \u2014 Claude Code/Cursor/Copilot\u7b49\u306b\u5bfe\u5fdc\u3002SIer/\u53d7\u8a17\u958b\u767a/SaaS/\u88fd\u9020DX/\u516c\u5171\u5206\u91ce\u306a\u3069\u65e5\u672c\u5e02\u5834\u5411\u3051114\u500b\u306e\u30aa\u30ea\u30b8\u30ca\u30eb\u3092\u542b\u3080\u3001agency-agents\u65e5\u672c\u8a9e\u30b3\u30df\u30e5\u30cb\u30c6\u30a3",
-    "id": "sscodeai/agency-agents-ja",
-    "language": "Shell",
-    "name": "sscodeai/agency-agents-ja",
-    "stars": 0,
-    "updated_at": "2026-06-16T13:45:07Z",
-    "url": "https://github.com/sscodeai/agency-agents-ja"
   }
 ]
