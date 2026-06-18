@@ -1,21 +1,21 @@
 [
   {
-    "description": "Makes your AI agent think like the laziest senior architect in the room. The best layer is the layer you never added.",
-    "id": "malrobust/KIMONO",
-    "language": "JavaScript",
-    "name": "malrobust/KIMONO",
-    "stars": 0,
-    "updated_at": "2026-06-18T06:14:25Z",
-    "url": "https://github.com/malrobust/KIMONO"
-  },
-  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-18T06:00:32Z",
+    "updated_at": "2026-06-18T06:15:51Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Makes your AI agent think like the laziest senior architect in the room. The best layer is the layer you never added.",
+    "id": "malrobust/ORIGAMI",
+    "language": "JavaScript",
+    "name": "malrobust/ORIGAMI",
+    "stars": 0,
+    "updated_at": "2026-06-18T06:14:25Z",
+    "url": "https://github.com/malrobust/ORIGAMI"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -109,7 +109,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 15161,
+    "stars": 15164,
     "updated_at": "2026-06-18T01:03:19Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -163,7 +163,7 @@
     "id": "caioribeiroclw-pixel/pluribus",
     "language": "JavaScript",
     "name": "caioribeiroclw-pixel/pluribus",
-    "stars": 6,
+    "stars": 7,
     "updated_at": "2026-06-17T19:06:43Z",
     "url": "https://github.com/caioribeiroclw-pixel/pluribus"
   },
@@ -304,7 +304,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 32900,
+    "stars": 32994,
     "updated_at": "2026-06-17T02:35:22Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -327,7 +327,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36906,
+    "stars": 36908,
     "updated_at": "2026-06-17T01:31:09Z",
     "url": "https://github.com/wshobson/agents"
   },
