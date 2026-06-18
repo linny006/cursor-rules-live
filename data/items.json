@@ -1,11 +1,20 @@
 [
   {
+    "description": "Cursor .mdc rules and skills for AI-assisted coding \u2014 stay minimal, cut to the root cause, and push back when it matters",
+    "id": "jlbgit/JansCursorRules",
+    "language": "\u2014",
+    "name": "jlbgit/JansCursorRules",
+    "stars": 0,
+    "updated_at": "2026-06-18T11:41:03Z",
+    "url": "https://github.com/jlbgit/JansCursorRules"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-18T11:15:55Z",
+    "updated_at": "2026-06-18T11:30:51Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -145,7 +154,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 15192,
+    "stars": 15193,
     "updated_at": "2026-06-18T01:03:19Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -313,7 +322,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 34248,
+    "stars": 34292,
     "updated_at": "2026-06-17T02:35:22Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -474,14 +483,5 @@
     "stars": 3,
     "updated_at": "2026-06-16T13:54:36Z",
     "url": "https://github.com/zinxj/uikit-expert-skill"
-  },
-  {
-    "description": "Manage and organize project workspaces while dynamically injecting relevant skills for efficient AI assistant context lo",
-    "id": "GrekosTheJogurt/antigravity-workspace-manager",
-    "language": "Python",
-    "name": "GrekosTheJogurt/antigravity-workspace-manager",
-    "stars": 1,
-    "updated_at": "2026-06-16T13:50:55Z",
-    "url": "https://github.com/GrekosTheJogurt/antigravity-workspace-manager"
   }
 ]
