@@ -1,12 +1,39 @@
 [
   {
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-06-18T00:19:31Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
+  },
+  {
     "description": "Production-ready AI agent profiles for Claude Code, Cursor, and Codex. Search, install, and contribute ForgeCat packages",
     "id": "nota-america/forgecat-agent-profiles",
     "language": "TypeScript",
     "name": "nota-america/forgecat-agent-profiles",
     "stars": 8,
-    "updated_at": "2026-06-18T00:14:08Z",
+    "updated_at": "2026-06-18T00:18:21Z",
     "url": "https://github.com/nota-america/forgecat-agent-profiles"
+  },
+  {
+    "description": "Agent Development Life Cycle \u2014 Build, deploy, test, and optimize Agentforce agents using Claude Code skills and Agent Sc",
+    "id": "SalesforceAIResearch/agentforce-adlc",
+    "language": "Python",
+    "name": "SalesforceAIResearch/agentforce-adlc",
+    "stars": 73,
+    "updated_at": "2026-06-18T00:17:22Z",
+    "url": "https://github.com/SalesforceAIResearch/agentforce-adlc"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-18T00:15:41Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -16,15 +43,6 @@
     "stars": 0,
     "updated_at": "2026-06-18T00:07:54Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-18T00:00:36Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -68,15 +86,6 @@
     "url": "https://github.com/pekral/cursor-rules"
   },
   {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
-    "stars": 0,
-    "updated_at": "2026-06-17T22:05:46Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
     "description": "Shareable Cursor rules for agentic mobile development (Android + iOS) \u2014 no IDE required day-to-day. Companion to the 'Mo",
     "id": "JoDaBaRo/agentic-mobile-rules",
     "language": "Python",
@@ -90,7 +99,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 15142,
+    "stars": 15143,
     "updated_at": "2026-06-17T21:34:45Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -263,7 +272,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 31599,
+    "stars": 31633,
     "updated_at": "2026-06-17T02:35:22Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -479,19 +488,5 @@
     "stars": 1,
     "updated_at": "2026-06-16T12:58:29Z",
     "url": "https://github.com/eumiguellllllllll/copilot-rules"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: napkin \u2014 distill any plan into boxes, gates, and flywheels (phases, gated progression, flywheels). Use when the user asks to sketch/structure a plan, roadmap, or strategy.\nglobs:\nalwaysApply: false\n---\n\n# napkin\n\n**napkin \u2014 the back-of-napkin senior.** Turn any messy plan, strategy, roadmap, or\nsystem description into four boxes and three arrows: phases, gates, and flywheels.\nA thinking discipline, not a diagram renderer. If it doesn't fit on a napkin, it's\nnot a plan yet.\n\nFires when the user says \"napkin this\", \"sketch this plan\", \"what are the phases\",\n\"gate this\", \"roadmap\", \"flywheel\", \"how does this compound\", or pastes a sprawling\nplan and wants its shape.\n\nThree moves, every time:\n\n1. **Boxes** \u2014 collapse the sprawl into 3\u20136 phases, ordered by dependency (not\n   topic). Each: a short imperative name + one line of what happens.\n2. **The gate** \u2014 between each phase, name the *condition* that unlocks the next one\n   (a metric, an event, a proof \u2014 never a date). No condition given? Write\n   \"\u26a0\ufe0f ungated \u2014 building ahead of proof\" and DO NOT invent one. That line is where\n   the plan hides its weakest assumption; surfacing it is the whole point.\n3. **The flywheel** \u2014 if a later output feeds an earlier input and compounds, name\n   the loop. If nothing loops, say \"linear \u2014 no flywheel\". Never fake one.\n\nTag each phase [CORE] (valuable alone) or [GATED]/[speculative], so the reader sees\nhow far the plan is de-risked.\n\nRender as a single-column ASCII ladder by default (cheapest, pastes anywhere):\n\n```text\nPHASE 1 \u2500 Name \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 [CORE \u00b7 valuable alone]\n  what happens \u2500\u2500\u25ba next \u2500\u2500\u25ba next\n        \u2502\n        \u25bc  GATE: <measurable condition to unlock Phase 2>\n        \u2502\nPHASE 2 \u2500 Name \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 [GATED]\n  ...\n        \u2514\u2500\u2500\u25ba \ud83d\udd04 FLYWHEEL: a \u2192 b \u2192 c \u2192 a\n```\n\nRules: never invent a gate; never fake a flywheel; gates are conditions not dates\n(\"ARR > $10k\", not \"by Q3\"); \u2264 6 phases (collapse sprawl); match the input's domain\nlanguage; say little, be right.\n\nToken economy: if a render script is available (scripts/render.mjs), emit a compact\nJSON spec and let it draw ASCII/Mermaid/SVG \u2014 the model writes the spec, the script\ndoes the drawing (keeps tokens low, guarantees ASCII alignment). Otherwise draw the\nASCII by hand and keep the \u2502/\u25bc spine in one column.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/napkin.mdc"
-    },
-    "description": "The back-of-napkin senior, as a Claude Code skill: distill any plan into boxes, gates, and flywheels \u2014 ASCII/Mermaid/SVG",
-    "id": "theYahia/napkin",
-    "language": "JavaScript",
-    "name": "theYahia/napkin",
-    "stars": 0,
-    "updated_at": "2026-06-16T12:41:54Z",
-    "url": "https://github.com/theYahia/napkin"
   }
 ]
