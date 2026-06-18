@@ -1,11 +1,20 @@
 [
   {
+    "description": "Shareable Cursor rules for agentic mobile development (Android + iOS) \u2014 no IDE required day-to-day. Companion to the 'Mo",
+    "id": "JoDaBaRo/agentic-mobile-rules",
+    "language": "Python",
+    "name": "JoDaBaRo/agentic-mobile-rules",
+    "stars": 0,
+    "updated_at": "2026-06-18T15:44:32Z",
+    "url": "https://github.com/JoDaBaRo/agentic-mobile-rules"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-18T15:15:38Z",
+    "updated_at": "2026-06-18T15:30:37Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -18,18 +27,9 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 35146,
+    "stars": 35212,
     "updated_at": "2026-06-18T15:09:29Z",
     "url": "https://github.com/DietrichGebert/ponytail"
-  },
-  {
-    "description": "Shareable Cursor rules for agentic mobile development (Android + iOS) \u2014 no IDE required day-to-day. Companion to the 'Mo",
-    "id": "JoDaBaRo/agentic-mobile-rules",
-    "language": "Python",
-    "name": "JoDaBaRo/agentic-mobile-rules",
-    "stars": 0,
-    "updated_at": "2026-06-18T14:58:32Z",
-    "url": "https://github.com/JoDaBaRo/agentic-mobile-rules"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -223,7 +223,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 15195,
+    "stars": 15196,
     "updated_at": "2026-06-18T01:03:19Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -242,7 +242,7 @@
     "language": "Python",
     "name": "SalesforceAIResearch/agentforce-adlc",
     "stars": 74,
-    "updated_at": "2026-06-18T00:17:22Z",
+    "updated_at": "2026-06-18T15:40:08Z",
     "url": "https://github.com/SalesforceAIResearch/agentforce-adlc"
   },
   {
