@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-06-18 16:30 UTC
+> ⏰ Last updated: 2026-06-18 16:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,9 +53,9 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-06-18 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 2 | [JoDaBaRo/agentic-mobile-rules](https://github.com/JoDaBaRo/agentic-mobile-rules) | 0 | Python | 2026-06-18 | — | Shareable Cursor rules for agentic mobile development (Android + iOS) — no IDE required day-to-day. Companion to the 'Mo |
-| 3 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 35404 | JavaScript | 2026-06-18 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 1 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 35463 | JavaScript | 2026-06-18 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-06-18 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 3 | [JoDaBaRo/agentic-mobile-rules](https://github.com/JoDaBaRo/agentic-mobile-rules) | 0 | Python | 2026-06-18 | — | Shareable Cursor rules for agentic mobile development (Android + iOS) — no IDE required day-to-day. Companion to the 'Mo |
 | 4 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-06-18 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
 | 5 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 0 | HTML | 2026-06-18 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
 | 6 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 1 | HTML | 2026-06-18 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
@@ -68,7 +68,7 @@ expired items removed — so you can rely on what you see being current.
 | 13 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 5 | TypeScript | 2026-06-18 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
 | 14 | [pekral/cursor-rules](https://github.com/pekral/cursor-rules) | 4 | PHP | 2026-06-18 | — | PHP and Laravel Cursor rules — coding standards, testing, and conventions for the Cursor editor. Install via Composer. |
 | 15 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 17 | — | 2026-06-18 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
-| 16 | [malrobust/ORIGAMI](https://github.com/malrobust/ORIGAMI) | 1 | JavaScript | 2026-06-18 | — | Makes your AI agent think like the laziest senior architect in the room. The best layer is the layer you never added. |
+| 16 | [malrobust/ORIGAMI](https://github.com/malrobust/ORIGAMI) | 2 | JavaScript | 2026-06-18 | — | Makes your AI agent think like the laziest senior architect in the room. The best layer is the layer you never added. |
 | 17 | [roverdude24/agentic-visual-grounding-rubric](https://github.com/roverdude24/agentic-visual-grounding-rubric) | 0 | Python | 2026-06-18 | — | Code-Grounded Vision (CGV): Deterministic-first visual reasoning rubric & CPU tools for any AI agent, framework, or harn |
 | 18 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 2 | Shell | 2026-06-18 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | 59 agent skills for high-integrity, spec-driven, test-first software development by solo developers.  bigpowers provides |
 | 19 | [kensaurus/cursor-kenji](https://github.com/kensaurus/cursor-kenji) | 4 | JavaScript | 2026-06-18 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/kensaurus/cursor-kenji/) | Curated Cursor AI agent skills, slash commands, MCP configs, subagents & rules for full-stack dev — React 19, Next.js 15 |
@@ -92,7 +92,7 @@ expired items removed — so you can rely on what you see being current.
 | 37 | [davidnbr/reporag](https://github.com/davidnbr/reporag) | 0 | Python | 2026-06-17 | — | Fully local, zero-cost RAG knowledge layer for AI coding tools. Achieve near perfect codebase awareness with any AI tool |
 | 38 | [Lolner95/AIGX](https://github.com/Lolner95/AIGX) | 0 | Python | 2026-06-16 | — | Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig |
 | 39 | [sungurerdim/dev-skills](https://github.com/sungurerdim/dev-skills) | 1 | HTML | 2026-06-16 | — | Your AI assistant hallucinates APIs, breaks dependent files, and weakens tests. 20 skills that prevent this across the f |
-| 40 | [ahacker-1/cre-agent-skills](https://github.com/ahacker-1/cre-agent-skills) | 46 | PowerShell | 2026-06-16 | — | Commercial real estate AI agent skills for CRE underwriting, due diligence, financing, brokerage, legal and closing work |
+| 40 | [ahacker-1/cre-agent-skills](https://github.com/ahacker-1/cre-agent-skills) | 47 | PowerShell | 2026-06-16 | — | Commercial real estate AI agent skills for CRE underwriting, due diligence, financing, brokerage, legal and closing work |
 | 41 | [Hyanthropological659/clarify-skill](https://github.com/Hyanthropological659/clarify-skill) | 0 | — | 2026-06-16 | — | Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a |
 | 42 | [Bastioned-successor320/learn-nanobot](https://github.com/Bastioned-successor320/learn-nanobot) | 1 | Python | 2026-06-16 | — | Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers |
 | 43 | [XAKLESK/cre-agent-skills](https://github.com/XAKLESK/cre-agent-skills) | 1 | — | 2026-06-16 | — | Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc |
