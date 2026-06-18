@@ -1,11 +1,38 @@
 [
   {
+    "description": "Cursor .mdc rules and skills for AI-assisted coding \u2014 stay minimal, cut to the root cause, and push back when it matters",
+    "id": "jlbgit/JansCursorRules",
+    "language": "PowerShell",
+    "name": "jlbgit/JansCursorRules",
+    "stars": 0,
+    "updated_at": "2026-06-18T13:08:11Z",
+    "url": "https://github.com/jlbgit/JansCursorRules"
+  },
+  {
+    "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
+    "id": "caioribeiroclw-pixel/pluribus",
+    "language": "JavaScript",
+    "name": "caioribeiroclw-pixel/pluribus",
+    "stars": 7,
+    "updated_at": "2026-06-18T13:02:14Z",
+    "url": "https://github.com/caioribeiroclw-pixel/pluribus"
+  },
+  {
+    "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
+    "id": "HoangNguyen0403/agent-skills-standard",
+    "language": "TypeScript",
+    "name": "HoangNguyen0403/agent-skills-standard",
+    "stars": 506,
+    "updated_at": "2026-06-18T13:04:04Z",
+    "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-18T12:45:41Z",
+    "updated_at": "2026-06-18T13:00:42Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -35,15 +62,6 @@
     "stars": 6,
     "updated_at": "2026-06-18T11:48:00Z",
     "url": "https://github.com/vibestackdev/vibe-stack"
-  },
-  {
-    "description": "Cursor .mdc rules and skills for AI-assisted coding \u2014 stay minimal, cut to the root cause, and push back when it matters",
-    "id": "jlbgit/JansCursorRules",
-    "language": "\u2014",
-    "name": "jlbgit/JansCursorRules",
-    "stars": 0,
-    "updated_at": "2026-06-18T11:41:03Z",
-    "url": "https://github.com/jlbgit/JansCursorRules"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -214,15 +232,6 @@
     "url": "https://github.com/JoDaBaRo/agentic-mobile-rules"
   },
   {
-    "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
-    "id": "caioribeiroclw-pixel/pluribus",
-    "language": "JavaScript",
-    "name": "caioribeiroclw-pixel/pluribus",
-    "stars": 7,
-    "updated_at": "2026-06-17T19:06:43Z",
-    "url": "https://github.com/caioribeiroclw-pixel/pluribus"
-  },
-  {
     "description": "Enforce architectural decisions in AI-assisted development.",
     "id": "TheoV823/mneme",
     "language": "HTML",
@@ -322,7 +331,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 34535,
+    "stars": 34569,
     "updated_at": "2026-06-17T02:35:22Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -474,14 +483,5 @@
     "stars": 1,
     "updated_at": "2026-06-16T13:55:11Z",
     "url": "https://github.com/GeiserX/n8n-nodes-lynxprompt"
-  },
-  {
-    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
-    "id": "zinxj/uikit-expert-skill",
-    "language": "\u2014",
-    "name": "zinxj/uikit-expert-skill",
-    "stars": 3,
-    "updated_at": "2026-06-16T13:54:36Z",
-    "url": "https://github.com/zinxj/uikit-expert-skill"
   }
 ]
