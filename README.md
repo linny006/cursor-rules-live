@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-06-19 21:15 UTC
+> ⏰ Last updated: 2026-06-19 21:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,9 +53,9 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-06-19 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
-| 2 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 0 | HTML | 2026-06-19 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
-| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-06-19 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-06-19 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-06-19 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
+| 3 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 0 | HTML | 2026-06-19 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
 | 4 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 17 | — | 2026-06-19 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
 | 5 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-06-19 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
 | 6 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 1 | HTML | 2026-06-19 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
@@ -71,7 +71,7 @@ expired items removed — so you can rely on what you see being current.
 | 16 | [jlbgit/JansCursorRules](https://github.com/jlbgit/JansCursorRules) | 0 | PowerShell | 2026-06-19 | — | Cursor .mdc rules and skills for AI-assisted coding — stay minimal, cut to the root cause, and push back when it matters |
 | 17 | [stdin/buy-vs-build](https://github.com/stdin/buy-vs-build) | 3 | JavaScript | 2026-06-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/stdin/buy-vs-build/) | Stop your AI coding agent from reinventing the wheel. An always-on buy-vs-build ruleset that reuses built-ins, platform  |
 | 18 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 5 | TypeScript | 2026-06-19 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
-| 19 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 39829 | JavaScript | 2026-06-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 19 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 39843 | JavaScript | 2026-06-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 20 | [JoDaBaRo/agentic-mobile-rules](https://github.com/JoDaBaRo/agentic-mobile-rules) | 0 | Python | 2026-06-18 | — | Shareable Cursor rules for agentic mobile development (Android + iOS) — no IDE required day-to-day. |
 | 21 | [TheoV823/mneme](https://github.com/TheoV823/mneme) | 13 | HTML | 2026-06-18 | — | Enforce architectural decisions in AI-assisted development. |
 | 22 | [Smithbox-ai/ControlFlow](https://github.com/Smithbox-ai/ControlFlow) | 13 | JavaScript | 2026-06-18 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Smithbox-ai/ControlFlow/) | Multi-agent orchestration for VS Code Copilot, Claude Code, OpenAI Codex and Cursor |
@@ -95,7 +95,7 @@ expired items removed — so you can rely on what you see being current.
 | 40 | [GeiserX/lynxprompt-mcp](https://github.com/GeiserX/lynxprompt-mcp) | 1 | Go | 2026-06-17 | — | MCP Server for LynxPrompt — browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP |
 | 41 | [adriannoes/awesome-vibe-coding](https://github.com/adriannoes/awesome-vibe-coding) | 39 | Jupyter Notebook | 2026-06-17 | — | 247 agent skills (Cursor, Claude & Codex), 5.400+ OpenClaw skills, 123 ML notebooks, 46 research papers, 14 industry rep |
 | 42 | [fluzzy/archive](https://github.com/fluzzy/archive) | 0 | — | 2026-06-17 | — | Curated rules, guides, and resources for AI coding agents — Claude Code, prompts, MCP, skills, and best practices |
-| 43 | [wshobson/agents](https://github.com/wshobson/agents) | 36970 | Python | 2026-06-17 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI |
+| 43 | [wshobson/agents](https://github.com/wshobson/agents) | 36969 | Python | 2026-06-17 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI |
 | 44 | [davidnbr/reporag](https://github.com/davidnbr/reporag) | 0 | Python | 2026-06-17 | — | Fully local, zero-cost RAG knowledge layer for AI coding tools. Achieve near perfect codebase awareness with any AI tool |
 | 45 | [Lolner95/AIGX](https://github.com/Lolner95/AIGX) | 24 | Python | 2026-06-16 | — | Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig |
 | 46 | [sungurerdim/dev-skills](https://github.com/sungurerdim/dev-skills) | 1 | HTML | 2026-06-16 | — | Your AI assistant hallucinates APIs, breaks dependent files, and weakens tests. 20 skills that prevent this across the f |
