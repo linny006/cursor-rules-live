@@ -1,20 +1,6 @@
 [
   {
     "cursorrules": {
-      "content": "---\ndescription: Buy-vs-build mode\nglobs: **/*\nalwaysApply: true\n---\n# Buy-vs-build mode\n\nBefore writing code, decide whether the work should be bought, reused, or built.\n\nFirst classify the work: is it **core** (the differentiation users choose you for) or **context** (needed but unrewarded), and is the capability a **commodity** (standardized and stable) or **novel** (still changing or specific to you)? Reuse context and commodity work as far down the ladder as it allows; build in-house only where core meets novel. Scale scrutiny to reversibility: two-way-door choices decide fast, one-way-door commitments (deep platform or data lock-in) get rigor and an exit plan.\n\nThen stop at the first rung that satisfies the requirement:\n\n1. Do nothing: skip speculative requirements and scaffolding.\n2. Use built-ins: prefer language built-ins and the standard library.\n3. Use the native platform: browser controls, OS/framework/database/cloud primitives, and protocol features.\n4. Use already-installed dependencies: prefer existing project dependencies before adding new ones.\n5. Use open source: add a mature library only when it lowers total cost of ownership.\n6. Use commercial: buy reliability, compliance, operations, support, or time when cheaper than owning it.\n7. Build in-house only when reuse fails the real constraints, or the work is core differentiation.\n\nFor non-obvious decisions, compare fit, total cost of ownership, security, licensing, maintenance, integration, maturity, reversibility, and exit risk. State the chosen rung briefly as `Decision: use <rung>: <option>. Tradeoff: <why it wins>. Rejected: <next-best option> because <constraint>. Revisit if <specific trigger>.`\n\nUse these rung labels: do-nothing, built-in, native-platform, installed-dependency, open-source, commercial, in-house.\n\nNever outsource core differentiation, trust-boundary logic, security-critical decisions, or tiny code that is clearer than a dependency.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/buy-vs-build.mdc"
-    },
-    "description": "Stop your AI coding agent from reinventing the invoice. An always-on buy-vs-build ruleset: reuse built-ins, platform fea",
-    "id": "stdin/buy-vs-build",
-    "language": "JavaScript",
-    "name": "stdin/buy-vs-build",
-    "stars": 0,
-    "updated_at": "2026-06-19T08:59:03Z",
-    "url": "https://github.com/stdin/buy-vs-build"
-  },
-  {
-    "cursorrules": {
       "content": "# Emdash Skills for Cursor\n\nLoad CONVENTIONS.md for stack defaults. Load _router.md for skill routing.\n14 categories (01-14), 94 reference docs, 18 agents.\n\n## Stack\nCF Workers+Hono | Angular 21+Ionic 8+PrimeNG 21 | D1/Neon | Drizzle v1 | Clerk | Stripe | Inngest | Resend | Bun | Playwright v1.59+ | PostHog | Sentry\n\n## Rules\n- TypeScript strict, never `any`, prefer `interface` over `type`\n- Hono inline handlers for RPC type inference\n- Zod validation on all inputs\n- TDD: failing test first, Playwright 6 breakpoints\n- Dark-first design, #060610 bg, #00E5FF accent\n- Deploy to CF Workers, purge CDN after every deploy\n\nSee CONVENTIONS.md for full patterns.\n",
       "format": "text",
       "path": ".cursorrules"
@@ -24,8 +10,31 @@
     "language": "TypeScript",
     "name": "heymegabyte/claude-skills",
     "stars": 12,
-    "updated_at": "2026-06-19T08:56:54Z",
+    "updated_at": "2026-06-19T09:13:47Z",
     "url": "https://github.com/heymegabyte/claude-skills"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-19T09:00:31Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Buy-vs-build mode\nglobs: **/*\nalwaysApply: true\n---\n# Buy-vs-build mode\n\nBefore writing code, decide whether the work should be bought, reused, or built.\n\nFirst classify the work: is it **core** (the differentiation users choose you for) or **context** (needed but unrewarded), and is the capability a **commodity** (standardized and stable) or **novel** (still changing or specific to you)? Reuse context and commodity work as far down the ladder as it allows; build in-house only where core meets novel. Scale scrutiny to reversibility: two-way-door choices decide fast, one-way-door commitments (deep platform or data lock-in) get rigor and an exit plan.\n\nThen stop at the first rung that satisfies the requirement:\n\n1. Do nothing: skip speculative requirements and scaffolding.\n2. Use built-ins: prefer language built-ins and the standard library.\n3. Use the native platform: browser controls, OS/framework/database/cloud primitives, and protocol features.\n4. Use already-installed dependencies: prefer existing project dependencies before adding new ones.\n5. Use open source: add a mature library only when it lowers total cost of ownership.\n6. Use commercial: buy reliability, compliance, operations, support, or time when cheaper than owning it.\n7. Build in-house only when reuse fails the real constraints, or the work is core differentiation.\n\nFor non-obvious decisions, compare fit, total cost of ownership, security, licensing, maintenance, integration, maturity, reversibility, and exit risk. State the chosen rung briefly as `Decision: use <rung>: <option>. Tradeoff: <why it wins>. Rejected: <next-best option> because <constraint>. Revisit if <specific trigger>.`\n\nUse these rung labels: do-nothing, built-in, native-platform, installed-dependency, open-source, commercial, in-house.\n\nNever outsource core differentiation, trust-boundary logic, security-critical decisions, or tiny code that is clearer than a dependency.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/buy-vs-build.mdc"
+    },
+    "description": "Stop your AI coding agent from reinventing the invoice. An always-on buy-vs-build ruleset: reuse built-ins, platform fea",
+    "id": "stdin/buy-vs-build",
+    "language": "JavaScript",
+    "name": "stdin/buy-vs-build",
+    "stars": 1,
+    "updated_at": "2026-06-19T08:59:03Z",
+    "url": "https://github.com/stdin/buy-vs-build"
   },
   {
     "description": "Cursor .mdc rules and skills for AI-assisted coding \u2014 stay minimal, cut to the root cause, and push back when it matters",
@@ -46,18 +55,9 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 38140,
+    "stars": 38204,
     "updated_at": "2026-06-19T08:50:56Z",
     "url": "https://github.com/DietrichGebert/ponytail"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-19T08:45:30Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -246,7 +246,7 @@
     "id": "malrobust/ORIGAMI",
     "language": "JavaScript",
     "name": "malrobust/ORIGAMI",
-    "stars": 2,
+    "stars": 3,
     "updated_at": "2026-06-18T09:16:09Z",
     "url": "https://github.com/malrobust/ORIGAMI"
   },
