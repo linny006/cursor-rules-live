@@ -1,7 +1,7 @@
 [
   {
     "cursorrules": {
-      "content": "---\ndescription: Buy-vs-build mode\nglobs: **/*\nalwaysApply: true\n---\n# Buy-vs-build mode\n\nBefore writing code, decide whether the work should be bought, reused, or built.\n\nFirst classify the work: is it **core** (the differentiation users choose you for) or **context** (needed but unrewarded), and is the capability a **commodity** (standardized and stable) or **novel** (still changing or specific to you)? Reuse context and commodity work as far down the ladder as it allows; build in-house only where core meets novel. Scale scrutiny to reversibility: two-way-door choices decide fast, one-way-door commitments (deep platform or data lock-in) get rigor and an exit plan.\n\nThen stop at the first rung that satisfies the requirement:\n\n1. Do nothing: skip speculative requirements and scaffolding.\n2. Use built-ins: prefer language built-ins and the standard library.\n3. Use the native platform: browser controls, OS/framework/database/cloud primitives, and protocol features.\n4. Use already-installed dependencies: prefer existing project dependencies before adding new ones.\n5. Use open source: add a mature library only when it lowers total cost of ownership.\n6. Use commercial: buy reliability, compliance, operations, support, or time when cheaper than owning it.\n7. Build in-house only when reuse fails the real constraints, or the work is core differentiation.\n\nWhen several options satisfy the chosen rung, pick the one whose capabilities match the requirement's real shape \u2014 directionality, volume, latency, consistency, and failure mode \u2014 not the most powerful, popular, or familiar option.\n\nFor non-obvious decisions, compare fit, total cost of ownership, security, licensing, maintenance, integration, maturity, reversibility, and exit risk. State the chosen rung briefly as `Decision: use <rung>: <option>. Tradeoff: <why it wins>. Rejected: <next-best option> because <constraint>. Revisit if <specific trigger>.`\n\nUse these rung labels: do-nothing, built-in, native-platform, installed-dependency, open-source, commercial, in-house.\n\nNever outsource core differentiation, trust-boundary logic, security-critical decisions, or tiny code that is clearer than a dependency.\n",
+      "content": "---\ndescription: Buy-vs-build mode\nglobs: **/*\nalwaysApply: true\n---\n# Buy-vs-build mode\n\nBefore writing code, decide whether the work should be bought, reused, or built.\n\nFirst classify the work: is it **core** (the differentiation users choose you for) or **context** (needed but unrewarded), and is the capability a **commodity** (standardized and stable) or **novel** (still changing or specific to you)? Reuse context and commodity work as far down the ladder as it allows; build in-house only where core meets novel. Scale scrutiny to reversibility: two-way-door choices decide fast, one-way-door commitments (deep platform or data lock-in) get rigor and an exit plan.\n\nThen stop at the first rung that satisfies the requirement:\n\n1. Do nothing: skip speculative requirements and scaffolding.\n2. Use built-ins: prefer language built-ins and the standard library.\n3. Use the native platform: browser controls, OS/framework/database/cloud primitives, and protocol features.\n4. Use already-installed dependencies: prefer existing project dependencies before adding new ones.\n5. Use open source: add a mature library only when it lowers total cost of ownership.\n6. Use commercial: buy reliability, compliance, operations, support, or time when cheaper than owning it.\n7. Build in-house only when reuse fails the real constraints, or the work is core differentiation.\n\nWhen several options satisfy the chosen rung, pick the one whose capabilities match the requirement's real shape \u2014 directionality, volume, latency, consistency, and failure mode \u2014 not the most powerful, popular, or familiar option.\n\nBefore adopting an open-source or commercial dependency, research it \u2014 maintenance and health (active maintainers, release cadence, adoption, bus factor), security and supply chain (known vulnerabilities, install scripts, provenance), license, and transitive footprint \u2014 and prefer the lowest-ownership option that clears those checks.\n\nFor non-obvious decisions, compare fit, total cost of ownership, security, licensing, maintenance, integration, maturity, reversibility, and exit risk. State the chosen rung briefly as `Decision: use <rung>: <option>. Tradeoff: <why it wins>. Rejected: <next-best option> because <constraint>. Revisit if <specific trigger>.`\n\nUse these rung labels: do-nothing, built-in, native-platform, installed-dependency, open-source, commercial, in-house.\n\nNever outsource core differentiation, trust-boundary logic, security-critical decisions, or tiny code that is clearer than a dependency.\n",
       "format": "mdc",
       "path": ".cursor/rules/buy-vs-build.mdc"
     },
@@ -10,17 +10,8 @@
     "language": "JavaScript",
     "name": "stdin/buy-vs-build",
     "stars": 1,
-    "updated_at": "2026-06-19T10:05:10Z",
+    "updated_at": "2026-06-19T10:22:00Z",
     "url": "https://github.com/stdin/buy-vs-build"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-19T10:00:26Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -28,8 +19,26 @@
     "language": "\u2014",
     "name": "J-nowcow/awesome-korean-agent-skills",
     "stars": 17,
-    "updated_at": "2026-06-19T09:52:53Z",
+    "updated_at": "2026-06-19T10:20:47Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+  },
+  {
+    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 20,
+    "updated_at": "2026-06-19T10:17:46Z",
+    "url": "https://github.com/KbWen/agentic-os"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-19T10:15:46Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -64,7 +73,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 38438,
+    "stars": 38484,
     "updated_at": "2026-06-19T08:50:56Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -246,7 +255,7 @@
     "id": "malrobust/ORIGAMI",
     "language": "JavaScript",
     "name": "malrobust/ORIGAMI",
-    "stars": 3,
+    "stars": 4,
     "updated_at": "2026-06-18T09:16:09Z",
     "url": "https://github.com/malrobust/ORIGAMI"
   },
@@ -489,14 +498,5 @@
     "stars": 0,
     "updated_at": "2026-06-16T14:14:17Z",
     "url": "https://github.com/Amirun99/agency-orchestrator"
-  },
-  {
-    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
-    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "language": "\u2014",
-    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "stars": 2,
-    "updated_at": "2026-06-16T14:13:13Z",
-    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
   }
 ]
