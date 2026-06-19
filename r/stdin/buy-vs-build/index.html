@@ -4,17 +4,17 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="index, follow, max-image-preview:large">
-<title>Smithbox-ai/ControlFlow - entry on Cursor Rules Live</title>
-<meta name="description" content="Multi-agent orchestration for VS Code Copilot, Claude Code, OpenAI Codex and Cursor">
-<link rel="canonical" href="https://linny006.github.io/cursor-rules-live/r/Smithbox-ai/ControlFlow/">
+<title>stdin/buy-vs-build - entry on Cursor Rules Live</title>
+<meta name="description" content="Buy-vs-build ruleset for coding agents: check built-ins, platform features, installed dependencies, open source, and com">
+<link rel="canonical" href="https://linny006.github.io/cursor-rules-live/r/stdin/buy-vs-build/">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Smithbox-ai/ControlFlow - entry on Cursor Rules Live">
-<meta property="og:description" content="Multi-agent orchestration for VS Code Copilot, Claude Code, OpenAI Codex and Cursor">
-<meta property="og:url" content="https://linny006.github.io/cursor-rules-live/r/Smithbox-ai/ControlFlow/">
+<meta property="og:title" content="stdin/buy-vs-build - entry on Cursor Rules Live">
+<meta property="og:description" content="Buy-vs-build ruleset for coding agents: check built-ins, platform features, installed dependencies, open source, and com">
+<meta property="og:url" content="https://linny006.github.io/cursor-rules-live/r/stdin/buy-vs-build/">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Smithbox-ai/ControlFlow - entry on Cursor Rules Live">
-<meta name="twitter:description" content="Multi-agent orchestration for VS Code Copilot, Claude Code, OpenAI Codex and Cursor">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"Smithbox-ai/ControlFlow","codeRepository":"https://github.com/Smithbox-ai/ControlFlow","programmingLanguage":"JavaScript","url":"https://linny006.github.io/cursor-rules-live/r/Smithbox-ai/ControlFlow/","description":"Multi-agent orchestration for VS Code Copilot, Claude Code, OpenAI Codex and Cursor","author":{"@type":"Person","name":"Smithbox-ai","url":"https://github.com/Smithbox-ai"},"dateModified":"2026-06-18"}</script>
+<meta name="twitter:title" content="stdin/buy-vs-build - entry on Cursor Rules Live">
+<meta name="twitter:description" content="Buy-vs-build ruleset for coding agents: check built-ins, platform features, installed dependencies, open source, and com">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"stdin/buy-vs-build","codeRepository":"https://github.com/stdin/buy-vs-build","programmingLanguage":"JavaScript","url":"https://linny006.github.io/cursor-rules-live/r/stdin/buy-vs-build/","description":"Buy-vs-build ruleset for coding agents: check built-ins, platform features, installed dependencies, open source, and com","author":{"@type":"Person","name":"stdin","url":"https://github.com/stdin"},"dateModified":"2026-06-19"}</script>
 <style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
          --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
 * { box-sizing: border-box; }
@@ -41,43 +41,50 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 </head>
 <body>
 <div class="wrap">
-<nav class="bc"><a href="https://linny006.github.io/cursor-rules-live/">Cursor Rules Live</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/popular/">Entries</a> &#183; <span>Smithbox-ai/ControlFlow</span></nav>
+<nav class="bc"><a href="https://linny006.github.io/cursor-rules-live/">Cursor Rules Live</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/popular/">Entries</a> &#183; <span>stdin/buy-vs-build</span></nav>
 <main>
-<h1>Smithbox-ai/ControlFlow</h1>
-<p class="lead">Multi-agent orchestration for VS Code Copilot, Claude Code, OpenAI Codex and Cursor</p>
+<h1>stdin/buy-vs-build</h1>
+<p class="lead">Buy-vs-build ruleset for coding agents: check built-ins, platform features, installed dependencies, open source, and com</p>
 <div class="meta">
-<span><strong>Stars</strong> 13</span>
+<span><strong>Stars</strong> 0</span>
 <span><strong>Language</strong> JavaScript</span>
-<span><strong>Last updated</strong> 2026-06-18</span>
-<span><a href="https://github.com/Smithbox-ai/ControlFlow" rel="external">Source on GitHub</a></span>
-<span><a href="https://github.com/Smithbox-ai" rel="external">@Smithbox-ai</a></span>
+<span><strong>Last updated</strong> 2026-06-19</span>
+<span><a href="https://github.com/stdin/buy-vs-build" rel="external">Source on GitHub</a></span>
+<span><a href="https://github.com/stdin" rel="external">@stdin</a></span>
 </div>
 <section id="rules"><h2>Actual rules from this repo</h2>
-<p>Path in source repo: <code>.cursor/rules/controlflow-core.mdc</code> &middot; format: <code>mdc</code></p>
+<p>Path in source repo: <code>.cursor/rules/buy-vs-build.mdc</code> &middot; format: <code>mdc</code></p>
 <pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
-description: &quot;Core ControlFlow identity, source hierarchy, and offline validations for the repository.&quot;
+description: Buy-vs-build mode. Always consider built-ins, platform features, installed dependencies, open source, commercial options, and in-house implementation before coding.
+globs:
 alwaysApply: true
 ---
-# ControlFlow Core
 
-This is a prompt/governance/eval repository, not a runtime application.
-Canonical multi-agent policies, roster, and tiers are governed by `.github/copilot-instructions.md` and `plans/project-context.md`.
-Cursor workflow: skills in `.cursor/skills/controlflow-*/`, subagents in `.cursor/agents/controlflow-*.md`, plugin package `plugins/controlflow-cursor/`.
-Entry: follow skill `controlflow-strict-workflow` for non-trivial tasks.
-Use `Task(subagent_type=...)` for delegation when available; see `docs/agent-engineering/CURSOR-SUPPORT.md` for fallback.
-Cursor cannot execute VS Code-only semantics (`agent/runSubagent`, `@Planner` UI). Do not claim otherwise.
-`AGENTS.md` is compatibility context only, not the primary Cursor artifact.
-All changes must pass: `cd evals &amp;&amp; npm test`.
+# Buy-vs-build mode
+
+Before writing code, decide whether the work should be bought, reused, or built.
+
+Stop at the first rung that satisfies the requirement:
+
+1. Do nothing: skip speculative requirements and scaffolding.
+2. Use built-ins: prefer language built-ins and the standard library.
+3. Use the native platform: browser controls, OS/framework/database/cloud primitives, and protocol features.
+4. Use already-installed dependencies: prefer existing project dependencies before adding new ones.
+5. Use open source: add a mature library only when it lowers total ownership cost.
+6. Use commercial: buy reliability, compliance, operations, support, or time when cheaper than owning it.
+7. Build in-house only when reuse fails the real constraints.
+
+For non-obvious decisions, compare fit, ownership, cost, security, licensing, maintenance, integration, maturity, and exit risk. State the chosen rung briefly. Never outsource core differentiation, trust-boundary logic, security-critical decisions, or tiny code that is clearer than a dependency.
 </code></pre>
-<p><a href="https://github.com/Smithbox-ai/ControlFlow/blob/HEAD/.cursor/rules/controlflow-core.mdc" rel="external">View raw on GitHub</a></p>
+<p><a href="https://github.com/stdin/buy-vs-build/blob/HEAD/.cursor/rules/buy-vs-build.mdc" rel="external">View raw on GitHub</a></p>
 </section>
 <section><h2>Why this is listed</h2>
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>
 <ul class="crosslinks">
 <li><a href="https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/">DietrichGebert/ponytail (stars:37891)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/Smithbox-ai/ControlFlow/">Smithbox-ai/ControlFlow (stars:13)</a></li>
 <li><a href="https://linny006.github.io/cursor-rules-live/r/caioribeiroclw-pixel/pluribus/">caioribeiroclw-pixel/pluribus (stars:7)</a></li>
-<li><a href="https://linny006.github.io/cursor-rules-live/r/kensaurus/cursor-kenji/">kensaurus/cursor-kenji (stars:4)</a></li>
 </ul></section>
 <section><h2>Explore by category</h2>
 <ul class="crosslinks">
