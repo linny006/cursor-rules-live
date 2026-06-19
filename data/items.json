@@ -1,7 +1,7 @@
 [
   {
     "cursorrules": {
-      "content": "---\ndescription: Buy-vs-build mode. Always consider built-ins, platform features, installed dependencies, open source, commercial options, and in-house implementation before coding.\nglobs:\nalwaysApply: true\n---\n\n# Buy-vs-build mode\n\nBefore writing code, decide whether the work should be bought, reused, or built.\n\nStop at the first rung that satisfies the requirement:\n\n1. Do nothing: skip speculative requirements and scaffolding.\n2. Use built-ins: prefer language built-ins and the standard library.\n3. Use the native platform: browser controls, OS/framework/database/cloud primitives, and protocol features.\n4. Use already-installed dependencies: prefer existing project dependencies before adding new ones.\n5. Use open source: add a mature library only when it lowers total ownership cost.\n6. Use commercial: buy reliability, compliance, operations, support, or time when cheaper than owning it.\n7. Build in-house only when reuse fails the real constraints.\n\nFor non-obvious decisions, compare fit, ownership, cost, security, licensing, maintenance, integration, maturity, and exit risk. State the chosen rung briefly. Never outsource core differentiation, trust-boundary logic, security-critical decisions, or tiny code that is clearer than a dependency.\n",
+      "content": "---\ndescription: Buy-vs-build mode\nglobs: **/*\nalwaysApply: true\n---\n# Buy-vs-build mode\n\nBefore writing code, decide whether the work should be bought, reused, or built.\n\nStop at the first rung that satisfies the requirement:\n\n1. Do nothing: skip speculative requirements and scaffolding.\n2. Use built-ins: prefer language built-ins and the standard library.\n3. Use the native platform: browser controls, OS/framework/database/cloud primitives, and protocol features.\n4. Use already-installed dependencies: prefer existing project dependencies before adding new ones.\n5. Use open source: add a mature library only when it lowers total ownership cost.\n6. Use commercial: buy reliability, compliance, operations, support, or time when cheaper than owning it.\n7. Build in-house only when reuse fails the real constraints.\n\nFor non-obvious decisions, compare fit, ownership, cost, security, licensing, maintenance, integration, maturity, and exit risk. State the chosen rung briefly as `Decision: use <rung>: <option>. Tradeoff: <why it wins>. Rejected: <next-best option> because <constraint>. Revisit if <specific trigger>.`\n\nUse these rung labels: do-nothing, built-in, native-platform, installed-dependency, open-source, commercial, in-house.\n\nNever outsource core differentiation, trust-boundary logic, security-critical decisions, or tiny code that is clearer than a dependency.\n",
       "format": "mdc",
       "path": ".cursor/rules/buy-vs-build.mdc"
     },
@@ -10,8 +10,17 @@
     "language": "JavaScript",
     "name": "stdin/buy-vs-build",
     "stars": 0,
-    "updated_at": "2026-06-19T07:41:35Z",
+    "updated_at": "2026-06-19T07:59:23Z",
     "url": "https://github.com/stdin/buy-vs-build"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-19T07:45:49Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -35,15 +44,6 @@
     "stars": 12,
     "updated_at": "2026-06-19T07:31:24Z",
     "url": "https://github.com/heymegabyte/claude-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-19T07:30:34Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
@@ -86,7 +86,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 15218,
+    "stars": 15219,
     "updated_at": "2026-06-19T02:43:07Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -100,7 +100,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 37891,
+    "stars": 37941,
     "updated_at": "2026-06-19T00:37:02Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -414,7 +414,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36948,
+    "stars": 36949,
     "updated_at": "2026-06-17T01:31:09Z",
     "url": "https://github.com/wshobson/agents"
   },

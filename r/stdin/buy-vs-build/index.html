@@ -55,11 +55,10 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <section id="rules"><h2>Actual rules from this repo</h2>
 <p>Path in source repo: <code>.cursor/rules/buy-vs-build.mdc</code> &middot; format: <code>mdc</code></p>
 <pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
-description: Buy-vs-build mode. Always consider built-ins, platform features, installed dependencies, open source, commercial options, and in-house implementation before coding.
-globs:
+description: Buy-vs-build mode
+globs: **/*
 alwaysApply: true
 ---
-
 # Buy-vs-build mode
 
 Before writing code, decide whether the work should be bought, reused, or built.
@@ -74,7 +73,11 @@ Stop at the first rung that satisfies the requirement:
 6. Use commercial: buy reliability, compliance, operations, support, or time when cheaper than owning it.
 7. Build in-house only when reuse fails the real constraints.
 
-For non-obvious decisions, compare fit, ownership, cost, security, licensing, maintenance, integration, maturity, and exit risk. State the chosen rung briefly. Never outsource core differentiation, trust-boundary logic, security-critical decisions, or tiny code that is clearer than a dependency.
+For non-obvious decisions, compare fit, ownership, cost, security, licensing, maintenance, integration, maturity, and exit risk. State the chosen rung briefly as `Decision: use &lt;rung&gt;: &lt;option&gt;. Tradeoff: &lt;why it wins&gt;. Rejected: &lt;next-best option&gt; because &lt;constraint&gt;. Revisit if &lt;specific trigger&gt;.`
+
+Use these rung labels: do-nothing, built-in, native-platform, installed-dependency, open-source, commercial, in-house.
+
+Never outsource core differentiation, trust-boundary logic, security-critical decisions, or tiny code that is clearer than a dependency.
 </code></pre>
 <p><a href="https://github.com/stdin/buy-vs-build/blob/HEAD/.cursor/rules/buy-vs-build.mdc" rel="external">View raw on GitHub</a></p>
 </section>
@@ -82,7 +85,7 @@ For non-obvious decisions, compare fit, ownership, cost, security, licensing, ma
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>
 <ul class="crosslinks">
-<li><a href="https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/">DietrichGebert/ponytail (stars:37891)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/">DietrichGebert/ponytail (stars:37941)</a></li>
 <li><a href="https://linny006.github.io/cursor-rules-live/r/Smithbox-ai/ControlFlow/">Smithbox-ai/ControlFlow (stars:13)</a></li>
 <li><a href="https://linny006.github.io/cursor-rules-live/r/caioribeiroclw-pixel/pluribus/">caioribeiroclw-pixel/pluribus (stars:7)</a></li>
 </ul></section>
