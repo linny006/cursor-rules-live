@@ -10,8 +10,17 @@
     "language": "JavaScript",
     "name": "stdin/buy-vs-build",
     "stars": 1,
-    "updated_at": "2026-06-19T10:22:00Z",
+    "updated_at": "2026-06-19T10:33:21Z",
     "url": "https://github.com/stdin/buy-vs-build"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-19T10:30:33Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -30,15 +39,6 @@
     "stars": 20,
     "updated_at": "2026-06-19T10:17:46Z",
     "url": "https://github.com/KbWen/agentic-os"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-19T10:15:46Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -73,7 +73,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 38484,
+    "stars": 38530,
     "updated_at": "2026-06-19T08:50:56Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
