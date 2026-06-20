@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<title>balacodeio/balakit - entry on Cursor Rules Live</title>
+<meta name="description" content="Opinionated, cross-agent rules and skills for AI coding agents — one npx install into Cursor, Claude Code, Codex, OpenCo">
+<link rel="canonical" href="https://linny006.github.io/cursor-rules-live/r/balacodeio/balakit/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="balacodeio/balakit - entry on Cursor Rules Live">
+<meta property="og:description" content="Opinionated, cross-agent rules and skills for AI coding agents — one npx install into Cursor, Claude Code, Codex, OpenCo">
+<meta property="og:url" content="https://linny006.github.io/cursor-rules-live/r/balacodeio/balakit/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="balacodeio/balakit - entry on Cursor Rules Live">
+<meta name="twitter:description" content="Opinionated, cross-agent rules and skills for AI coding agents — one npx install into Cursor, Claude Code, Codex, OpenCo">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"balacodeio/balakit","codeRepository":"https://github.com/balacodeio/balakit","programmingLanguage":"JavaScript","url":"https://linny006.github.io/cursor-rules-live/r/balacodeio/balakit/","description":"Opinionated, cross-agent rules and skills for AI coding agents — one npx install into Cursor, Claude Code, Codex, OpenCo","author":{"@type":"Person","name":"balacodeio","url":"https://github.com/balacodeio"},"dateModified":"2026-06-20"}</script>
+<style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
+         --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 16px; font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--fg); background: var(--bg); }
+.wrap { max-width: var(--max); margin: 0 auto; }
+nav.bc { font-size: 14px; color: var(--muted); margin-bottom: 16px; }
+nav.bc a { color: var(--muted); }
+h1 { font-size: 28px; margin: 0 0 8px; }
+h2 { font-size: 20px; margin: 24px 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+p.lead { font-size: 18px; color: var(--muted); margin: 0 0 24px; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+th, td { padding: 8px 12px; text-align: left; border-bottom: 1px solid var(--border); }
+th { background: var(--card); font-weight: 600; }
+ul.crosslinks { list-style: none; padding: 0; }
+ul.crosslinks li { padding: 6px 0; }
+ul.crosslinks li a { font-weight: 500; }
+.meta { display: flex; gap: 16px; flex-wrap: wrap; color: var(--muted); font-size: 14px; margin: 12px 0; }
+.meta span::before { content: "\00b7"; margin-right: 8px; color: var(--border); }
+.meta span:first-child::before { content: ""; }
+footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--border); font-size: 14px; color: var(--muted); }</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="bc"><a href="https://linny006.github.io/cursor-rules-live/">Cursor Rules Live</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/popular/">Entries</a> &#183; <span>balacodeio/balakit</span></nav>
+<main>
+<h1>balacodeio/balakit</h1>
+<p class="lead">Opinionated, cross-agent rules and skills for AI coding agents — one npx install into Cursor, Claude Code, Codex, OpenCo</p>
+<div class="meta">
+<span><strong>Stars</strong> 0</span>
+<span><strong>Language</strong> JavaScript</span>
+<span><strong>Last updated</strong> 2026-06-20</span>
+<span><a href="https://github.com/balacodeio/balakit" rel="external">Source on GitHub</a></span>
+<span><a href="https://github.com/balacodeio" rel="external">@balacodeio</a></span>
+</div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/changelog.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
+description: Maintain CHANGELOG.md for significant changes; grouped by type (Features, Fixes, Changes); source for GitHub release notes
+alwaysApply: true
+---
+
+# Changelog maintenance
+
+## When to update
+
+Update `CHANGELOG.md` (at project root) whenever you or the user:
+
+- Add a **new feature**
+- Ship a **significant fix** (bug fix that affects behavior or correctness)
+- Make a **notable change** (refactor, config, dependency, or UX change worth documenting)
+- Remove or deprecate something user-facing
+
+Do **not** add trivial edits (typos, comment-only, formatting-only) unless the user asks.
+
+## Format (grouped by type)
+
+- **Unreleased at top.** The first section is `## [Unreleased]` for changes not yet in a release.
+- **Released versions below.** Each release has a section `## [vX.Y.Z]` or `## [X.Y.Z]` (e.g. `## [v0.0.1-beta.7]`, `## [1.0.0]`). Use the exact version string that will be tagged (with or without leading `v`).
+- **Newest release first** under Unreleased. When you cut a release, the previous `[Unreleased]` content can be moved under a new `## [vX.Y.Z]` section.
+- **Group by type.** Within each version section, organize entries under three subsections: `### Features`, `### Fixes`, `### Changes`.
+- **No type prefix.** Items do not need `**Feature:**`, `**Fix:**`, or `**Change:**` prefixes since they are grouped by section.
+- One line per item; keep text concise.
+
+Structure:
+
+```markdown
+# Changelog
+
+## [Unreleased]
+
+### Features
+- Short description of new feature.
+- Another feature.
+
+### Fixes
+- Bug fix description.
+- Another fix.
+
+### Changes
+- Refactor or UX change description.
+
+## [v0.0.1-beta.7]
+
+### Features
+- Something shipped in this version.
+
+### Changes
+- Another change.
+
+## [v0.0.1-beta.6]
+- ...
+```
+
+## Releases and GitHub
+
+When a tag is pushed (e.g. `v0.0.1-beta.8`), the release workflow (`.github/workflows/release.yml`) looks in `CHANGELOG.md` for a section whose heading is `## [v0.0.1-beta.8]` or `## [0.0.1-beta.8]`. If found, that section (including the heading) is used as the draft release body. If not found, the release still succeeds and uses a default line. Adding a version section before tagging is optional but recommended so the release notes are populated.
+
+## If the file is missing
+
+If `CHANGELOG.md` does not exist, create it with a title, an `## [Unreleased]` section, and add the relevant entry/entries.
+</code></pre>
+<p><a href="https://github.com/balacodeio/balakit/blob/HEAD/.cursor/rules/changelog.mdc" rel="external">View raw on GitHub</a></p>
+</section>
+<section><h2>Why this is listed</h2>
+<p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
+<section><h2>Similar in this tracker</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/">DietrichGebert/ponytail (stars:42595)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/Lolner95/AIGX/">Lolner95/AIGX (stars:24)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/Smithbox-ai/ControlFlow/">Smithbox-ai/ControlFlow (stars:13)</a></li>
+</ul></section>
+<section><h2>Explore by category</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/popular/">Popular (by stars)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/recent/">Recent (by activity)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/new/">New this week</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/lang/javascript/">All JavaScript entries</a></li>
+</ul></section>
+</main>
+<footer>
+Auto-updated every 15 minutes via GitHub Actions &#183; <a href="https://linny006.github.io/cursor-rules-live/">tracker root</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/sitemap.xml">sitemap</a>
+</footer>
+</div>
+</body>
+</html>

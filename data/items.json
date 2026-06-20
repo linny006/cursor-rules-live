@@ -1,21 +1,26 @@
 [
   {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
-    "stars": 0,
-    "updated_at": "2026-06-20T18:17:21Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
+    "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
+    "id": "Lolner95/AIGX",
+    "language": "JavaScript",
+    "name": "Lolner95/AIGX",
+    "stars": 24,
+    "updated_at": "2026-06-20T18:39:46Z",
+    "url": "https://github.com/Lolner95/AIGX"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
+    "cursorrules": {
+      "content": "---\ndescription: Maintain CHANGELOG.md for significant changes; grouped by type (Features, Fixes, Changes); source for GitHub release notes\nalwaysApply: true\n---\n\n# Changelog maintenance\n\n## When to update\n\nUpdate `CHANGELOG.md` (at project root) whenever you or the user:\n\n- Add a **new feature**\n- Ship a **significant fix** (bug fix that affects behavior or correctness)\n- Make a **notable change** (refactor, config, dependency, or UX change worth documenting)\n- Remove or deprecate something user-facing\n\nDo **not** add trivial edits (typos, comment-only, formatting-only) unless the user asks.\n\n## Format (grouped by type)\n\n- **Unreleased at top.** The first section is `## [Unreleased]` for changes not yet in a release.\n- **Released versions below.** Each release has a section `## [vX.Y.Z]` or `## [X.Y.Z]` (e.g. `## [v0.0.1-beta.7]`, `## [1.0.0]`). Use the exact version string that will be tagged (with or without leading `v`).\n- **Newest release first** under Unreleased. When you cut a release, the previous `[Unreleased]` content can be moved under a new `## [vX.Y.Z]` section.\n- **Group by type.** Within each version section, organize entries under three subsections: `### Features`, `### Fixes`, `### Changes`.\n- **No type prefix.** Items do not need `**Feature:**`, `**Fix:**`, or `**Change:**` prefixes since they are grouped by section.\n- One line per item; keep text concise.\n\nStructure:\n\n```markdown\n# Changelog\n\n## [Unreleased]\n\n### Features\n- Short description of new feature.\n- Another feature.\n\n### Fixes\n- Bug fix description.\n- Another fix.\n\n### Changes\n- Refactor or UX change description.\n\n## [v0.0.1-beta.7]\n\n### Features\n- Something shipped in this version.\n\n### Changes\n- Another change.\n\n## [v0.0.1-beta.6]\n- ...\n```\n\n## Releases and GitHub\n\nWhen a tag is pushed (e.g. `v0.0.1-beta.8`), the release workflow (`.github/workflows/release.yml`) looks in `CHANGELOG.md` for a section whose heading is `## [v0.0.1-beta.8]` or `## [0.0.1-beta.8]`. If found, that section (including the heading) is used as the draft release body. If not found, the release still succeeds and uses a default line. Adding a version section before tagging is optional but recommended so the release notes are populated.\n\n## If the file is missing\n\nIf `CHANGELOG.md` does not exist, create it with a title, an `## [Unreleased]` section, and add the relevant entry/entries.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/changelog.mdc"
+    },
+    "description": "Opinionated, cross-agent rules and skills for AI coding agents \u2014 one npx install into Cursor, Claude Code, Codex, OpenCo",
+    "id": "balacodeio/balakit",
+    "language": "JavaScript",
+    "name": "balacodeio/balakit",
     "stars": 0,
-    "updated_at": "2026-06-20T18:15:27Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
+    "updated_at": "2026-06-20T18:39:14Z",
+    "url": "https://github.com/balacodeio/balakit"
   },
   {
     "cursorrules": {
@@ -28,17 +33,26 @@
     "language": "TypeScript",
     "name": "heymegabyte/claude-skills",
     "stars": 12,
-    "updated_at": "2026-06-20T18:11:48Z",
+    "updated_at": "2026-06-20T18:30:55Z",
     "url": "https://github.com/heymegabyte/claude-skills"
   },
   {
-    "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
-    "id": "Lolner95/AIGX",
-    "language": "JavaScript",
-    "name": "Lolner95/AIGX",
-    "stars": 24,
-    "updated_at": "2026-06-20T18:04:58Z",
-    "url": "https://github.com/Lolner95/AIGX"
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-20T18:30:46Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-06-20T18:17:21Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
   },
   {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
@@ -315,7 +329,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 42547,
+    "stars": 42595,
     "updated_at": "2026-06-19T08:50:56Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -499,14 +513,5 @@
     "stars": 0,
     "updated_at": "2026-06-17T01:02:10Z",
     "url": "https://github.com/davidnbr/reporag"
-  },
-  {
-    "description": "Your AI assistant hallucinates APIs, breaks dependent files, and weakens tests. 20 skills that prevent this across the f",
-    "id": "sungurerdim/dev-skills",
-    "language": "HTML",
-    "name": "sungurerdim/dev-skills",
-    "stars": 1,
-    "updated_at": "2026-06-16T20:15:13Z",
-    "url": "https://github.com/sungurerdim/dev-skills"
   }
 ]
