@@ -14,7 +14,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="danielvm-git/bigpowers - entry on Cursor Rules Live">
 <meta name="twitter:description" content="59 agent skills for high-integrity, spec-driven, test-first software development by solo developers.  bigpowers provides">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"danielvm-git/bigpowers","codeRepository":"https://github.com/danielvm-git/bigpowers","programmingLanguage":"Shell","url":"https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/","description":"59 agent skills for high-integrity, spec-driven, test-first software development by solo developers.  bigpowers provides","author":{"@type":"Person","name":"danielvm-git","url":"https://github.com/danielvm-git"},"dateModified":"2026-06-18"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"danielvm-git/bigpowers","codeRepository":"https://github.com/danielvm-git/bigpowers","programmingLanguage":"Shell","url":"https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/","description":"59 agent skills for high-integrity, spec-driven, test-first software development by solo developers.  bigpowers provides","author":{"@type":"Person","name":"danielvm-git","url":"https://github.com/danielvm-git"},"dateModified":"2026-06-20"}</script>
 <style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
          --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
 * { box-sizing: border-box; }
@@ -48,7 +48,7 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <div class="meta">
 <span><strong>Stars</strong> 2</span>
 <span><strong>Language</strong> Shell</span>
-<span><strong>Last updated</strong> 2026-06-18</span>
+<span><strong>Last updated</strong> 2026-06-20</span>
 <span><a href="https://github.com/danielvm-git/bigpowers" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/danielvm-git" rel="external">@danielvm-git</a></span>
 </div>
@@ -63,6 +63,8 @@ alwaysApply: false
 # Müller-Brockmann Grid Systems — built real, visible, and verified
 
 Josef Müller-Brockmann (1914–1996), Zurich; *Grid Systems in Graphic Design* (1981) is the corpus. The grid is treated as an ethic, not decoration: **&quot;The grid system is an aid, not a guarantee. It permits a number of possible uses and each designer can look for a solution appropriate to his personal style. But one must learn how to use the grid; it is an art that requires practice.&quot;** This skill encodes that discipline AND — the part most attempts get wrong — the front-end engineering to make the grid genuinely load-bearing on the web, plus a harness that PROVES it.
+
+&gt; **HARD GATE** — Do NOT ship a grid page without running `verify_grid.js` first. A visually plausible layout is not evidence of grid adherence — the harness is. Zero failing assertions is the only passing bar.
 
 &gt; Two real review notes this skill exists to prevent:
 &gt; 1. *&quot;the grid is just slapped on top and misaligned&quot;* → the overlay wasn&#x27;t in the same content box as the content (see §2.2).
@@ -106,9 +108,7 @@ Children place with `grid-column: &lt;startline&gt; / &lt;endline&gt;` (e.g. `1 
 A control (button **+ `G` key**) toggles `body.grid-on`; overlay fades 0→1. Overlay draws: translucent **numbered column fields**, the **baseline** (major line every `--lh`, faint minor every `--bl`), and **margin lines**. Showing the real grid the page is built on IS the demo.
 
 ### 2.6 OPTICAL ALIGNMENT — display ink, not its box  ← the subtle bug
-A 180px headline whose layout box is exactly on line 1 still looks misaligned against body text, because the letterform&#x27;s **ink** is inset by its **left side-bearing**. Cure at runtime:
-```js
-// after document.fonts.ready and</code></pre>
+A 180px headl</code></pre>
 <p><em>Content truncated. View full file in the source repo (linked above).</em></p><p><a href="https://github.com/danielvm-git/bigpowers/blob/HEAD/.cursor/rules/align-grid.mdc" rel="external">View raw on GitHub</a></p>
 </section>
 <section><h2>Why this is listed</h2>
