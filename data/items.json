@@ -1,12 +1,12 @@
 [
   {
-    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
-    "id": "KbWen/agentic-os",
-    "language": "Python",
-    "name": "KbWen/agentic-os",
-    "stars": 21,
-    "updated_at": "2026-06-20T02:26:32Z",
-    "url": "https://github.com/KbWen/agentic-os"
+    "description": "Agent Skills and Structured Prompts for Scalable Development",
+    "id": "DongDuong2001/pudo-code-system",
+    "language": "JavaScript",
+    "name": "DongDuong2001/pudo-code-system",
+    "stars": 2,
+    "updated_at": "2026-06-20T02:44:12Z",
+    "url": "https://github.com/DongDuong2001/pudo-code-system"
   },
   {
     "cursorrules": {
@@ -19,7 +19,7 @@
     "language": "TypeScript",
     "name": "heymegabyte/claude-skills",
     "stars": 12,
-    "updated_at": "2026-06-20T02:23:20Z",
+    "updated_at": "2026-06-20T02:31:11Z",
     "url": "https://github.com/heymegabyte/claude-skills"
   },
   {
@@ -28,15 +28,24 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-20T02:15:43Z",
+    "updated_at": "2026-06-20T02:30:27Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 21,
+    "updated_at": "2026-06-20T02:26:32Z",
+    "url": "https://github.com/KbWen/agentic-os"
   },
   {
     "description": "\ud83c\udfad 266 \u4e2a\u5373\u63d2\u5373\u7528\u7684 AI \u4e13\u5bb6\u89d2\u8272 \u2014 \u652f\u6301 Hermes Agent/Claude Code/Cursor/Copilot \u7b49 18 \u79cd\u5de5\u5177\uff0c\u8986\u76d6\u5de5\u7a0b/\u8bbe\u8ba1/\u8425\u9500/\u91d1\u878d\u7b49 20 \u4e2a\u90e8\u95e8\u3002\u542b 50 \u4e2a\u4e2d\u56fd\u5e02\u573a\u539f\u521b\u667a\u80fd\u4f53\uff08\u5c0f\u7ea2\u4e66/\u6296\u97f3/",
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 15248,
+    "stars": 15249,
     "updated_at": "2026-06-20T01:50:28Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -210,7 +219,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 40182,
+    "stars": 40199,
     "updated_at": "2026-06-19T08:50:56Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -318,15 +327,6 @@
     "stars": 4,
     "updated_at": "2026-06-18T03:25:59Z",
     "url": "https://github.com/kensaurus/cursor-kenji"
-  },
-  {
-    "description": "Agent Skills and Structured Prompts for Scalable Development",
-    "id": "DongDuong2001/pudo-code-system",
-    "language": "JavaScript",
-    "name": "DongDuong2001/pudo-code-system",
-    "stars": 2,
-    "updated_at": "2026-06-18T09:45:15Z",
-    "url": "https://github.com/DongDuong2001/pudo-code-system"
   },
   {
     "description": "Production-ready AI agent profiles for Claude Code, Cursor, and Codex. Search, install, and contribute ForgeCat packages",
