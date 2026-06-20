@@ -10,7 +10,7 @@
     "language": "TypeScript",
     "name": "heymegabyte/claude-skills",
     "stars": 12,
-    "updated_at": "2026-06-20T14:51:18Z",
+    "updated_at": "2026-06-20T15:12:11Z",
     "url": "https://github.com/heymegabyte/claude-skills"
   },
   {
@@ -19,8 +19,17 @@
     "language": "Shell",
     "name": "Oscarr36/ReadMeAI",
     "stars": 3,
-    "updated_at": "2026-06-20T14:51:08Z",
+    "updated_at": "2026-06-20T15:08:48Z",
     "url": "https://github.com/Oscarr36/ReadMeAI"
+  },
+  {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 0,
+    "updated_at": "2026-06-20T15:05:14Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -28,7 +37,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-20T14:45:27Z",
+    "updated_at": "2026-06-20T15:00:44Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -55,7 +64,7 @@
     "language": "Python",
     "name": "KbWen/agentic-os",
     "stars": 21,
-    "updated_at": "2026-06-20T14:15:55Z",
+    "updated_at": "2026-06-20T15:03:09Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
   {
@@ -98,15 +107,6 @@
     "stars": 5,
     "updated_at": "2026-06-20T13:15:59Z",
     "url": "https://github.com/pekral/cursor-rules"
-  },
-  {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 0,
-    "updated_at": "2026-06-20T12:01:04Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "cursorrules": {
@@ -209,7 +209,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 15279,
+    "stars": 15281,
     "updated_at": "2026-06-20T01:50:28Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -292,7 +292,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 41895,
+    "stars": 41939,
     "updated_at": "2026-06-19T08:50:56Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -478,7 +478,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36985,
+    "stars": 36986,
     "updated_at": "2026-06-17T01:31:09Z",
     "url": "https://github.com/wshobson/agents"
   },
