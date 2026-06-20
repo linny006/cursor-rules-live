@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-06-20 01:00 UTC
+> ⏰ Last updated: 2026-06-20 01:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -65,14 +65,14 @@ expired items removed — so you can rely on what you see being current.
 | 10 | [peva3/standardized-markdown](https://github.com/peva3/standardized-markdown) | 0 | Python | 2026-06-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/peva3/standardized-markdown/) | The most comprehensive AGENTS.md template for AI coding agents — 51 production-grade sections, research-backed, self-gov |
 | 11 | [caioribeiroclw-pixel/pluribus](https://github.com/caioribeiroclw-pixel/pluribus) | 7 | JavaScript | 2026-06-19 | — | Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security |
 | 12 | [PiloTracer/.ai](https://github.com/PiloTracer/.ai) | 0 | Shell | 2026-06-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/PiloTracer/.ai/) | Portable process framework for software teams shipping with coding agents (Cursor, Claude Code, Codex, opencode). Skills |
-| 13 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 20 | Python | 2026-06-19 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
+| 13 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 21 | Python | 2026-06-19 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
 | 14 | [pekral/cursor-rules](https://github.com/pekral/cursor-rules) | 5 | PHP | 2026-06-19 | — | PHP and Laravel Cursor rules — coding standards, testing, and conventions for the Cursor editor. Install via Composer. |
 | 15 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-06-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/agenticstandardcontact-byte/agentic-architect/) | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
 | 16 | [vibestackdev/vibe-stack](https://github.com/vibestackdev/vibe-stack) | 6 | TypeScript | 2026-06-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/) | 29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b |
 | 17 | [jlbgit/JansCursorRules](https://github.com/jlbgit/JansCursorRules) | 0 | PowerShell | 2026-06-19 | — | Cursor .mdc rules and skills for AI-assisted coding — stay minimal, cut to the root cause, and push back when it matters |
 | 18 | [stdin/buy-vs-build](https://github.com/stdin/buy-vs-build) | 3 | JavaScript | 2026-06-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/stdin/buy-vs-build/) | Stop your AI coding agent from reinventing the wheel. An always-on buy-vs-build ruleset that reuses built-ins, platform  |
 | 19 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 5 | TypeScript | 2026-06-19 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
-| 20 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 40074 | JavaScript | 2026-06-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 20 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 40089 | JavaScript | 2026-06-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 21 | [JoDaBaRo/agentic-mobile-rules](https://github.com/JoDaBaRo/agentic-mobile-rules) | 0 | Python | 2026-06-18 | — | Shareable Cursor rules for agentic mobile development (Android + iOS) — no IDE required day-to-day. |
 | 22 | [TheoV823/mneme](https://github.com/TheoV823/mneme) | 13 | HTML | 2026-06-18 | — | Enforce architectural decisions in AI-assisted development. |
 | 23 | [Smithbox-ai/ControlFlow](https://github.com/Smithbox-ai/ControlFlow) | 13 | JavaScript | 2026-06-18 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Smithbox-ai/ControlFlow/) | Multi-agent orchestration for VS Code Copilot, Claude Code, OpenAI Codex and Cursor |
