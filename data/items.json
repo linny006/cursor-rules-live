@@ -1,5 +1,32 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-06-20T13:28:45Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 21,
+    "updated_at": "2026-06-20T13:22:17Z",
+    "url": "https://github.com/KbWen/agentic-os"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-20T13:15:29Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "# Emdash Skills for Cursor\n\nLoad CONVENTIONS.md for stack defaults. Load _router.md for skill routing.\n14 categories (01-14), 94 reference docs, 18 agents.\n\n## Stack\nCF Workers+Hono | Angular 21+Ionic 8+PrimeNG 21 | D1/Neon | Drizzle v1 | Clerk | Stripe | Inngest | Resend | Bun | Playwright v1.59+ | PostHog | Sentry\n\n## Rules\n- TypeScript strict, never `any`, prefer `interface` over `type`\n- Hono inline handlers for RPC type inference\n- Zod validation on all inputs\n- TDD: failing test first, Playwright 6 breakpoints\n- Dark-first design, #060610 bg, #00E5FF accent\n- Deploy to CF Workers, purge CDN after every deploy\n\nSee CONVENTIONS.md for full patterns.\n",
       "format": "text",
@@ -28,21 +55,12 @@
     "url": "https://github.com/danielvm-git/bigpowers"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-20T13:00:34Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
     "id": "pekral/cursor-rules",
     "language": "PHP",
     "name": "pekral/cursor-rules",
     "stars": 5,
-    "updated_at": "2026-06-20T13:06:29Z",
+    "updated_at": "2026-06-20T13:15:59Z",
     "url": "https://github.com/pekral/cursor-rules"
   },
   {
@@ -96,15 +114,6 @@
     "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
   },
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 0,
-    "updated_at": "2026-06-20T11:08:07Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
     "description": "VS Code extension for LynxPrompt \u2014 browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules) ",
     "id": "GeiserX/lynxprompt-vscode",
     "language": "TypeScript",
@@ -153,15 +162,6 @@
     "stars": 24,
     "updated_at": "2026-06-20T08:11:51Z",
     "url": "https://github.com/Lolner95/AIGX"
-  },
-  {
-    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
-    "id": "KbWen/agentic-os",
-    "language": "Python",
-    "name": "KbWen/agentic-os",
-    "stars": 21,
-    "updated_at": "2026-06-20T08:05:48Z",
-    "url": "https://github.com/KbWen/agentic-os"
   },
   {
     "cursorrules": {
@@ -283,7 +283,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 41485,
+    "stars": 41543,
     "updated_at": "2026-06-19T08:50:56Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -469,7 +469,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36982,
+    "stars": 36983,
     "updated_at": "2026-06-17T01:31:09Z",
     "url": "https://github.com/wshobson/agents"
   },
