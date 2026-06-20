@@ -1,11 +1,20 @@
 [
   {
+    "description": "247 agent skills (Cursor, Claude & Codex), 5.400+ OpenClaw skills, 123 ML notebooks, 46 research papers, 14 industry rep",
+    "id": "adriannoes/awesome-vibe-coding",
+    "language": "Jupyter Notebook",
+    "name": "adriannoes/awesome-vibe-coding",
+    "stars": 39,
+    "updated_at": "2026-06-20T03:40:57Z",
+    "url": "https://github.com/adriannoes/awesome-vibe-coding"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-20T03:15:36Z",
+    "updated_at": "2026-06-20T03:30:42Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -219,7 +228,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 40253,
+    "stars": 40268,
     "updated_at": "2026-06-19T08:50:56Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -410,15 +419,6 @@
     "url": "https://github.com/GeiserX/lynxprompt-mcp"
   },
   {
-    "description": "247 agent skills (Cursor, Claude & Codex), 5.400+ OpenClaw skills, 123 ML notebooks, 46 research papers, 14 industry rep",
-    "id": "adriannoes/awesome-vibe-coding",
-    "language": "Jupyter Notebook",
-    "name": "adriannoes/awesome-vibe-coding",
-    "stars": 39,
-    "updated_at": "2026-06-17T03:19:20Z",
-    "url": "https://github.com/adriannoes/awesome-vibe-coding"
-  },
-  {
     "description": "Curated rules, guides, and resources for AI coding agents \u2014 Claude Code, prompts, MCP, skills, and best practices",
     "id": "fluzzy/archive",
     "language": "\u2014",
@@ -437,7 +437,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36972,
+    "stars": 36973,
     "updated_at": "2026-06-17T01:31:09Z",
     "url": "https://github.com/wshobson/agents"
   },
