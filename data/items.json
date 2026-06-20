@@ -1,11 +1,20 @@
 [
   {
+    "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
+    "id": "pekral/cursor-rules",
+    "language": "PHP",
+    "name": "pekral/cursor-rules",
+    "stars": 5,
+    "updated_at": "2026-06-20T12:29:28Z",
+    "url": "https://github.com/pekral/cursor-rules"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-20T12:15:28Z",
+    "updated_at": "2026-06-20T12:18:51Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -103,15 +112,6 @@
     "stars": 6,
     "updated_at": "2026-06-20T10:29:37Z",
     "url": "https://github.com/vibestackdev/vibe-stack"
-  },
-  {
-    "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
-    "id": "pekral/cursor-rules",
-    "language": "PHP",
-    "name": "pekral/cursor-rules",
-    "stars": 5,
-    "updated_at": "2026-06-20T12:10:16Z",
-    "url": "https://github.com/pekral/cursor-rules"
   },
   {
     "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
@@ -269,7 +269,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 41247,
+    "stars": 41299,
     "updated_at": "2026-06-19T08:50:56Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
