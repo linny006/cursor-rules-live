@@ -1,12 +1,12 @@
 [
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 0,
-    "updated_at": "2026-06-20T13:28:45Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+    "description": "Drop .readmeAI in any project. AI reads it first, every session \u2014 no re-explaining, no context drift. Works with Claude,",
+    "id": "Oscarr36/ReadMeAI",
+    "language": "\u2014",
+    "name": "Oscarr36/ReadMeAI",
+    "stars": 3,
+    "updated_at": "2026-06-20T13:44:54Z",
+    "url": "https://github.com/Oscarr36/ReadMeAI"
   },
   {
     "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
@@ -14,17 +14,8 @@
     "language": "Python",
     "name": "KbWen/agentic-os",
     "stars": 21,
-    "updated_at": "2026-06-20T13:22:17Z",
+    "updated_at": "2026-06-20T13:44:40Z",
     "url": "https://github.com/KbWen/agentic-os"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-20T13:15:29Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -37,8 +28,35 @@
     "language": "TypeScript",
     "name": "heymegabyte/claude-skills",
     "stars": 12,
-    "updated_at": "2026-06-20T13:12:45Z",
+    "updated_at": "2026-06-20T13:38:24Z",
     "url": "https://github.com/heymegabyte/claude-skills"
+  },
+  {
+    "description": "323\u500b\u306e\u5373\u6226\u529bAI\u5c02\u9580\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8 \u2014 Claude Code/Cursor/Copilot\u7b49\u306b\u5bfe\u5fdc\u3002SIer/\u53d7\u8a17\u958b\u767a/SaaS/\u88fd\u9020DX/\u516c\u5171\u5206\u91ce\u306a\u3069\u65e5\u672c\u5e02\u5834\u5411\u3051114\u500b\u306e\u30aa\u30ea\u30b8\u30ca\u30eb\u3092\u542b\u3080\u3001agency-agents\u65e5\u672c\u8a9e\u30b3\u30df\u30e5\u30cb\u30c6\u30a3",
+    "id": "sscodeai/agency-agents-ja",
+    "language": "Shell",
+    "name": "sscodeai/agency-agents-ja",
+    "stars": 0,
+    "updated_at": "2026-06-20T13:35:46Z",
+    "url": "https://github.com/sscodeai/agency-agents-ja"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-20T13:30:27Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-06-20T13:28:45Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "cursorrules": {
@@ -62,15 +80,6 @@
     "stars": 5,
     "updated_at": "2026-06-20T13:15:59Z",
     "url": "https://github.com/pekral/cursor-rules"
-  },
-  {
-    "description": "Drop .readmeAI in any project. AI reads it first, every session \u2014 no re-explaining, no context drift. Works with Claude,",
-    "id": "Oscarr36/ReadMeAI",
-    "language": "\u2014",
-    "name": "Oscarr36/ReadMeAI",
-    "stars": 3,
-    "updated_at": "2026-06-20T12:34:53Z",
-    "url": "https://github.com/Oscarr36/ReadMeAI"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -200,7 +209,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 15273,
+    "stars": 15275,
     "updated_at": "2026-06-20T01:50:28Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -283,7 +292,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 41543,
+    "stars": 41610,
     "updated_at": "2026-06-19T08:50:56Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -469,7 +478,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 36983,
+    "stars": 36984,
     "updated_at": "2026-06-17T01:31:09Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -499,14 +508,5 @@
     "stars": 49,
     "updated_at": "2026-06-16T18:16:58Z",
     "url": "https://github.com/ahacker-1/cre-agent-skills"
-  },
-  {
-    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
-    "id": "Hyanthropological659/clarify-skill",
-    "language": "\u2014",
-    "name": "Hyanthropological659/clarify-skill",
-    "stars": 0,
-    "updated_at": "2026-06-16T14:27:15Z",
-    "url": "https://github.com/Hyanthropological659/clarify-skill"
   }
 ]
