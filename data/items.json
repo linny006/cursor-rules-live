@@ -1,5 +1,14 @@
 [
   {
+    "description": "Drop .readmeAI in any project. AI reads it first, every session \u2014 no re-explaining, no context drift. Works with Claude,",
+    "id": "Oscarr36/ReadMeAI",
+    "language": "\u2014",
+    "name": "Oscarr36/ReadMeAI",
+    "stars": 3,
+    "updated_at": "2026-06-20T14:12:13Z",
+    "url": "https://github.com/Oscarr36/ReadMeAI"
+  },
+  {
     "cursorrules": {
       "content": "# Emdash Skills for Cursor\n\nLoad CONVENTIONS.md for stack defaults. Load _router.md for skill routing.\n14 categories (01-14), 94 reference docs, 18 agents.\n\n## Stack\nCF Workers+Hono | Angular 21+Ionic 8+PrimeNG 21 | D1/Neon | Drizzle v1 | Clerk | Stripe | Inngest | Resend | Bun | Playwright v1.59+ | PostHog | Sentry\n\n## Rules\n- TypeScript strict, never `any`, prefer `interface` over `type`\n- Hono inline handlers for RPC type inference\n- Zod validation on all inputs\n- TDD: failing test first, Playwright 6 breakpoints\n- Dark-first design, #060610 bg, #00E5FF accent\n- Deploy to CF Workers, purge CDN after every deploy\n\nSee CONVENTIONS.md for full patterns.\n",
       "format": "text",
@@ -10,7 +19,7 @@
     "language": "TypeScript",
     "name": "heymegabyte/claude-skills",
     "stars": 12,
-    "updated_at": "2026-06-20T13:50:58Z",
+    "updated_at": "2026-06-20T14:10:40Z",
     "url": "https://github.com/heymegabyte/claude-skills"
   },
   {
@@ -19,17 +28,8 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-20T13:45:30Z",
+    "updated_at": "2026-06-20T14:00:26Z",
     "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
-    "description": "Drop .readmeAI in any project. AI reads it first, every session \u2014 no re-explaining, no context drift. Works with Claude,",
-    "id": "Oscarr36/ReadMeAI",
-    "language": "\u2014",
-    "name": "Oscarr36/ReadMeAI",
-    "stars": 3,
-    "updated_at": "2026-06-20T13:44:54Z",
-    "url": "https://github.com/Oscarr36/ReadMeAI"
   },
   {
     "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
@@ -37,7 +37,7 @@
     "language": "Python",
     "name": "KbWen/agentic-os",
     "stars": 21,
-    "updated_at": "2026-06-20T13:44:40Z",
+    "updated_at": "2026-06-20T14:04:26Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
   {
@@ -292,7 +292,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 41656,
+    "stars": 41715,
     "updated_at": "2026-06-19T08:50:56Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
