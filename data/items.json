@@ -1,11 +1,43 @@
 [
   {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 1,
+    "updated_at": "2026-06-21T01:41:47Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Plan Gate + Karpathy discipline rules (Plan Gate, Surgical Changes, Verify Receipt, Delta Report)\nalwaysApply: true\n---\n\n# Coding Behavior\n\nKarpathy-derived discipline rules. Always on for this project.\n\n## Task Class\n\nClassify every request **before any state-changing tool** (Write, StrReplace, Delete, Shell that modifies files, etc.):\n\n- **Trivial** (Plan Gate **off**) \u2014 **only** these:\n  - Q&A, explanation, or read-only exploration (no file edits).\n  - A **single-line** literal or typo fix in **one** file at a **known** location (e.g. fix a typo in one string). Multi-line edits are **never** trivial.\n  - User reply is literally `GO` continuing an **already approved** plan from this session.\n- **Non-trivial** (Plan Gate **on**) \u2014 **everything else**, including:\n  - **Any** file create, modify, or delete \u2014 code, tests, configs, **README, docs, markdown, AGENTS.md**, comments (if more than one line changes), scripts, rules.\n  - New sections, paragraphs, or tables in documentation (even one file).\n  - New logic, refactors, new commands/endpoints, or multiple files.\n- **Workflow-scale** \u2014 20+ files, multi-module migration, or parallel independent workstreams. Plan Gate **on**; the plan must include phased steps and warn that full completion may need multiple sessions or subagents.\n\n**Hard rule:** If the task would use Write, StrReplace, Delete, or a shell command that changes files, it is **non-trivial** unless it matches the trivial whitelist exactly. \"Simple\" or \"just docs\" does **not** exempt you. When in doubt, plan first.\n\n## \u26a0\ufe0f MANDATORY: Plan Gate\n**On every non-trivial task, before the first state-changing tool call, you MUST:**\n1. Output a `<plan>` block describing the intended changes (include **Out of scope**, **Done when**, and **Scale** \u2014 see `/plan`).\n2. STOP and wait for the user to reply with the literal word `GO`.\n3. Do NOT call Write, StrReplace, Delete, or any state-changing tool until the user has sent `GO`.\n\nReading files and answering questions does NOT require a plan. Exploration reads during the plan phase (before `GO`) are allowed.\n\nIf you already started editing without a plan, STOP immediately, output the plan, and wait for `GO` before further edits.\n\n## Explore Cheap\n\nBefore editing, minimize context cost:\n\n- **Search first** \u2014 use grep or semantic search before reading whole files.\n- **Read minimally** \u2014 use offset/limit on large files; do not read files outside the pre-flight list unless you state why and get approval (or include them in an updated plan before editing).\n- **Pre-flight applies to reads** \u2014 the file list in the plan is the boundary for both reads and writes unless exploration-only reads are listed separately.\n\n## Simplicity\n- Build only what was asked. No speculative abstractions, no unrequested \"flexibility\".\n- If 200 lines could be 50, rewrite.\n\n## Surgical Changes\n- Don't touch adjacent code, comments, or formatting.\n- Remove only imports/symbols your change made unused. Mention unrelated dead code; don't delete it.\n- Every changed line must trace to the request.\n- Respect **Protected paths** in `@project` if defined \u2014 do not edit them unless listed in the pre-flight file list.\n\n## Pre-flight File List\nInside the `<plan>` block, include an explicit list of every file you intend to create, modify, or delete.\nIf during execution you discover you need to touch a file not on that list, **STOP** and explain before continuing.\n\n## Goal-Driven\n- Restate the task as a verifiable goal before coding.\n- Each completed block needs a verify step proving PASS/FAIL.\n\n## Verify Receipt\nWhen claiming verification, paste the exact command you ran and its exact output (or relevant tail).\n\"Tested and works\" without a transcript is not acceptable for non-trivial tasks.\nPrefer verify commands documented in `@project` when available.\n\n**Hard verifier:** For non-trivial tasks, you must **run** the plan's verify command(s) before declaring done. Inspection-only or self-graded passes are not valid when a hard gate exists (test, lint, build, typecheck). No transcript = not done.\n\n## Loop Discipline (light loop)\n\nSession-only fix-and-retry after Plan Gate `GO` \u2014 not unattended cron or overnight automation.\n\n### Iterate until pass or cap\nWhen verify FAILs and the user wants another pass (or sent `/loop`):\n1. Pick the **single highest-impact** failure.\n2. Make the **smallest** change that addresses it.\n3. Re-run **all** verify commands from the plan.\n4. Repeat until all PASS or **max iterations** reached (default **8**; plan or user may set lower).\n\nOn cap: STOP, summarize what changed and what still fails, update `progress.md` Loop State if pausing. Do not silently continue.\n\n### Loop worthiness\nBefore proposing iterate-until-green on `workflow-scale` tasks, all four must be true:\n- Task repeats at least weekly\n- Hard gate exists (test, lint, build, typecheck)\n- Agent can finish end-to-end without mid-task human steps\n- Done is objective, not taste\n\nIf any is false: one plan + GO + single execution pass unless the user explicitly sends `/loop`.\n\n### Loop state\nDuring multi-iteration work, update `progress.md` **Loop State** when stopping at iteration cap or before pausing mid-task.\n\n### Credit guard\nEach iteration re-sends growing context. Fix one failure per pass; no parallel fix attempts unless the plan says so.\n\n## Edge Case Checklist\nBefore declaring a non-trivial task done, for each new public function, CLI command, or HTTP endpoint, briefly note (one line each):\n- Empty / missing input behavior\n- Malformed / wrong-type input behavior\n- Large or unusual scale behavior\n- Which error paths exist and how they're handled\n\nIf a case is intentionally not covered, say so explicitly so the user knows.\n\n## Self-Review (Delta Report)\nBefore declaring done on any non-trivial task, output a **Delta Report**, then the final summary:\n\n  Delta Report\n  - Files changed: <path>  (+N / -M)   one line per file\n  - Outside plan: \u26a0\ufe0f <path> \u2014 <one-line reason>   (omit section if none)\n  - Signatures changed: <old> \u2192 <new>              (omit section if none)\n  - Symbols deleted: <name> \u2014 <one-line reason>    (omit section if none)\n  - Verify: <command>  \u2192  <pass/fail + key output>\n\nIf everything matches the plan, the report can be a single line: \"Delta: matches plan; verify passed.\"\nThis is non-negotiable. Skip only for trivial tasks.\nIf the user ran `/verify`, reference its outcome in the Delta Report when relevant.\n\n## Session Continuity\n\nAfter a long session or if context was compacted, **before making further edits** restate the pre-flight file list and out-of-scope boundaries in one sentence \u2014 do not silently expand scope.\n\nWhen pausing a non-trivial task, update `progress.md` **Handoff** (plan status, files touched, next verify command) so the next session can resume without re-exploring the repo.\n\n## Exploration First\n- Read relevant files and check current API docs before acting. State assumptions explicitly.\n- If multiple interpretations exist, list them \u2014 don't pick silently.\n- If genuinely unclear after extracting intent, ask one focused question.\n\n## Output Format\n- After a task: what changed, any decision worth noting, watch-outs \u2014 2\u20133 lines max (after the Delta Report).\n- No \"Great!\", no restating the request, no \"I hope this helps\".\n- Diffs over full-file rewrites unless creating a new file.\n\n## Code\n- Standard naming. No `var1`, `tmp2`. Isolate Logic / IO / Action.\n\n## Persistence (auto-bootstrap; no per-project setup needed)\n- `progress.md` is the working log. If it does not exist, create it at the project root the first time you complete a milestone, using this structure: Current Focus / Completed / Next Steps / Known Issues / Handoff. Update it after each milestone or before pausing a task.\n- `.cursor/rules/project.mdc` holds project context (tech stack, key paths, commands, verify commands, optional protected paths). Create or update it once stack decisions are finalized \u2014 don't create an empty placeholder preemp",
+      "format": "mdc",
+      "path": ".cursor/rules/behavior.mdc"
+    },
+    "description": "Cursor-native config: a strict Plan Gate + Karpathy discipline rules, /plan /delta /prime-init commands, and a global gi",
+    "id": "xnoahwang/cursor-prime",
+    "language": "PowerShell",
+    "name": "xnoahwang/cursor-prime",
+    "stars": 0,
+    "updated_at": "2026-06-21T01:34:40Z",
+    "url": "https://github.com/xnoahwang/cursor-prime"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-21T01:30:31Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
     "id": "pekral/cursor-rules",
     "language": "PHP",
     "name": "pekral/cursor-rules",
     "stars": 5,
-    "updated_at": "2026-06-21T01:28:53Z",
+    "updated_at": "2026-06-21T01:44:09Z",
     "url": "https://github.com/pekral/cursor-rules"
   },
   {
@@ -16,15 +48,6 @@
     "stars": 0,
     "updated_at": "2026-06-21T01:18:20Z",
     "url": "https://github.com/sublimecoder/sublimecoding"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-21T01:15:27Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -59,7 +82,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 43381,
+    "stars": 43406,
     "updated_at": "2026-06-21T00:23:17Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -89,15 +112,6 @@
     "stars": 0,
     "updated_at": "2026-06-20T23:14:05Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 1,
-    "updated_at": "2026-06-20T22:36:31Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "cursorrules": {
@@ -504,14 +518,5 @@
     "stars": 0,
     "updated_at": "2026-06-17T01:47:24Z",
     "url": "https://github.com/fluzzy/archive"
-  },
-  {
-    "description": "Fully local, zero-cost RAG knowledge layer for AI coding tools. Achieve near perfect codebase awareness with any AI tool",
-    "id": "davidnbr/reporag",
-    "language": "Python",
-    "name": "davidnbr/reporag",
-    "stars": 0,
-    "updated_at": "2026-06-17T01:02:10Z",
-    "url": "https://github.com/davidnbr/reporag"
   }
 ]

@@ -14,7 +14,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="xnoahwang/cursor-prime - entry on Cursor Rules Live">
 <meta name="twitter:description" content="Cursor-native config: a strict Plan Gate + Karpathy discipline rules, /plan /delta /prime-init commands, and a global gi">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"xnoahwang/cursor-prime","codeRepository":"https://github.com/xnoahwang/cursor-prime","programmingLanguage":"PowerShell","url":"https://linny006.github.io/cursor-rules-live/r/xnoahwang/cursor-prime/","description":"Cursor-native config: a strict Plan Gate + Karpathy discipline rules, /plan /delta /prime-init commands, and a global gi","author":{"@type":"Person","name":"xnoahwang","url":"https://github.com/xnoahwang"},"dateModified":"2026-06-03"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"xnoahwang/cursor-prime","codeRepository":"https://github.com/xnoahwang/cursor-prime","programmingLanguage":"PowerShell","url":"https://linny006.github.io/cursor-rules-live/r/xnoahwang/cursor-prime/","description":"Cursor-native config: a strict Plan Gate + Karpathy discipline rules, /plan /delta /prime-init commands, and a global gi","author":{"@type":"Person","name":"xnoahwang","url":"https://github.com/xnoahwang"},"dateModified":"2026-06-21"}</script>
 <style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
          --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
 * { box-sizing: border-box; }
@@ -48,7 +48,7 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <div class="meta">
 <span><strong>Stars</strong> 0</span>
 <span><strong>Language</strong> PowerShell</span>
-<span><strong>Last updated</strong> 2026-06-03</span>
+<span><strong>Last updated</strong> 2026-06-21</span>
 <span><a href="https://github.com/xnoahwang/cursor-prime" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/xnoahwang" rel="external">@xnoahwang</a></span>
 </div>
@@ -120,6 +120,36 @@ When claiming verification, paste the exact command you ran and its exact output
 &quot;Tested and works&quot; without a transcript is not acceptable for non-trivial tasks.
 Prefer verify commands documented in `@project` when available.
 
+**Hard verifier:** For non-trivial tasks, you must **run** the plan&#x27;s verify command(s) before declaring done. Inspection-only or self-graded passes are not valid when a hard gate exists (test, lint, build, typecheck). No transcript = not done.
+
+## Loop Discipline (light loop)
+
+Session-only fix-and-retry after Plan Gate `GO` — not unattended cron or overnight automation.
+
+### Iterate until pass or cap
+When verify FAILs and the user wants another pass (or sent `/loop`):
+1. Pick the **single highest-impact** failure.
+2. Make the **smallest** change that addresses it.
+3. Re-run **all** verify commands from the plan.
+4. Repeat until all PASS or **max iterations** reached (default **8**; plan or user may set lower).
+
+On cap: STOP, summarize what changed and what still fails, update `progress.md` Loop State if pausing. Do not silently continue.
+
+### Loop worthiness
+Before proposing iterate-until-green on `workflow-scale` tasks, all four must be true:
+- Task repeats at least weekly
+- Hard gate exists (test, lint, build, typecheck)
+- Agent can finish end-to-end without mid-task human steps
+- Done is objective, not taste
+
+If any is false: one plan + GO + single execution pass unless the user explicitly sends `/loop`.
+
+### Loop state
+During multi-iteration work, update `progress.md` **Loop State** when stopping at iteration cap or before pausing mid-task.
+
+### Credit guard
+Each iteration re-sends growing context. Fix one failure per pass; no parallel fix attempts unless the plan says so.
+
 ## Edge Case Checklist
 Before declaring a non-trivial task done, for each new public function, CLI command, or HTTP endpoint, briefly note (one line each):
 - Empty / missing input behavior
@@ -134,45 +164,15 @@ Before declaring done on any non-trivial task, output a **Delta Report**, then t
 
   Delta Report
   - Files changed: &lt;path&gt;  (+N / -M)   one line per file
-  - Outside plan: ⚠️ &lt;path&gt; — &lt;one-line reason&gt;   (omit section if none)
-  - Signatures changed: &lt;old&gt; → &lt;new&gt;              (omit section if none)
-  - Symbols deleted: &lt;name&gt; — &lt;one-line reason&gt;    (omit section if none)
-  - Verify: &lt;command&gt;  →  &lt;pass/fail + key output&gt;
-
-If everything matches the plan, the report can be a single line: &quot;Delta: matches plan; verify passed.&quot;
-This is non-negotiable. Skip only for trivial tasks.
-If the user ran `/verify`, reference its outcome in the Delta Report when relevant.
-
-## Session Continuity
-
-After a long session or if context was compacted, **before making further edits** restate the pre-flight file list and out-of-scope boundaries in one sentence — do not silently expand scope.
-
-When pausing a non-trivial task, update `progress.md` **Handoff** (plan status, files touched, next verify command) so the next session can resume without re-exploring the repo.
-
-## Exploration First
-- Read relevant files and check current API docs before acting. State assumptions explicitly.
-- If multiple interpretations exist, list them — don&#x27;t pick silently.
-- If genuinely unclear after extracting intent, ask one focused question.
-
-## Output Format
-- After a task: what changed, any decision worth noting, watch-outs — 2–3 lines max (after the Delta Report).
-- No &quot;Great!&quot;, no restating the request, no &quot;I hope this helps&quot;.
-- Diffs over full-file rewrites unless creating a new file.
-
-## Code
-- Standard naming. No `var1`, `tmp2`. Isolate Logic / IO / Action.
-
-## Persistence (auto-bootstrap; no per-project setup needed)
-- `p</code></pre>
+  - Outside plan: ⚠️ &lt;path&gt; — &lt;one-line reason&gt;   (omit se</code></pre>
 <p><em>Content truncated. View full file in the source repo (linked above).</em></p><p><a href="https://github.com/xnoahwang/cursor-prime/blob/HEAD/.cursor/rules/behavior.mdc" rel="external">View raw on GitHub</a></p>
 </section>
 <section><h2>Why this is listed</h2>
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>
 <ul class="crosslinks">
-<li><a href="https://linny006.github.io/cursor-rules-live/r/jnMetaCode/agency-agents-zh/">jnMetaCode/agency-agents-zh (stars:13847)</a></li>
-<li><a href="https://linny006.github.io/cursor-rules-live/r/HoangNguyen0403/agent-skills-standard/">HoangNguyen0403/agent-skills-standard (stars:501)</a></li>
-<li><a href="https://linny006.github.io/cursor-rules-live/r/madebyaris/advance-minimax-m3-cursor-rules/">madebyaris/advance-minimax-m3-cursor-rules (stars:114)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/lubochka/xiigen-general-skills/">lubochka/xiigen-general-skills (stars:1)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/jlbgit/JansCursorRules/">jlbgit/JansCursorRules (stars:0)</a></li>
 </ul></section>
 <section><h2>Explore by category</h2>
 <ul class="crosslinks">
