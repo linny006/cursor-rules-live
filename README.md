@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-06-21 10:45 UTC
+> ⏰ Last updated: 2026-06-21 10:47 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,11 +53,11 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [Amirun99/agency-orchestrator](https://github.com/Amirun99/agency-orchestrator) | 0 | Dart | 2026-06-21 | — | Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support. |
-| 2 | [Overseastelegramaliterateperson865/awesome-claude-md](https://github.com/Overseastelegramaliterateperson865/awesome-claude-md) | 2 | — | 2026-06-21 | — | Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr |
-| 3 | [pekral/cursor-rules](https://github.com/pekral/cursor-rules) | 5 | PHP | 2026-06-21 | — | PHP and Laravel Cursor rules — coding standards, testing, and conventions for the Cursor editor. Install via Composer. |
-| 4 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-06-21 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
-| 5 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-06-21 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-06-21 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [Amirun99/agency-orchestrator](https://github.com/Amirun99/agency-orchestrator) | 0 | Dart | 2026-06-21 | — | Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support. |
+| 3 | [Overseastelegramaliterateperson865/awesome-claude-md](https://github.com/Overseastelegramaliterateperson865/awesome-claude-md) | 2 | — | 2026-06-21 | — | Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr |
+| 4 | [pekral/cursor-rules](https://github.com/pekral/cursor-rules) | 5 | PHP | 2026-06-21 | — | PHP and Laravel Cursor rules — coding standards, testing, and conventions for the Cursor editor. Install via Composer. |
+| 5 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-06-21 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
 | 6 | [zinxj/uikit-expert-skill](https://github.com/zinxj/uikit-expert-skill) | 3 | — | 2026-06-21 | — | Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan |
 | 7 | [johnwall123459885/skene-cookbook](https://github.com/johnwall123459885/skene-cookbook) | 0 | Python | 2026-06-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/johnwall123459885/skene-cookbook/) | 🤖 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development. |
 | 8 | [Luxvil/ai-coding-rules](https://github.com/Luxvil/ai-coding-rules) | 3 | Shell | 2026-06-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Luxvil/ai-coding-rules/) | 🤖 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje |
@@ -74,7 +74,7 @@ expired items removed — so you can rely on what you see being current.
 | 19 | [sublimecoder/sublimecoding](https://github.com/sublimecoder/sublimecoding) | 0 | — | 2026-06-21 | — | Free, production-grade Claude Code & Cursor prompts for senior engineers — code review, debugging, refactoring, system d |
 | 20 | [xnoahwang/cursor-prime](https://github.com/xnoahwang/cursor-prime) | 0 | PowerShell | 2026-06-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/xnoahwang/cursor-prime/) | Cursor-native config: a strict Plan Gate + Karpathy discipline rules, /plan /delta /prime-init commands, and a global gi |
 | 21 | [Mark393295827/third-brain-v5-skills](https://github.com/Mark393295827/third-brain-v5-skills) | 117 | HTML | 2026-06-21 | — | agent skills |
-| 22 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 44497 | JavaScript | 2026-06-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 22 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 44503 | JavaScript | 2026-06-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 23 | [Lolner95/AIGX](https://github.com/Lolner95/AIGX) | 24 | JavaScript | 2026-06-20 | — | Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig |
 | 24 | [balacodeio/balakit](https://github.com/balacodeio/balakit) | 0 | JavaScript | 2026-06-20 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/balacodeio/balakit/) | Opinionated, cross-agent rules and skills for AI coding agents — one npx install into Cursor, Claude Code, Codex, OpenCo |
 | 25 | [Oscarr36/ReadMeAI](https://github.com/Oscarr36/ReadMeAI) | 3 | Shell | 2026-06-20 | — | Drop .readmeAI in any project. AI reads it first, every session — no re-explaining, no context drift. Works with Claude, |

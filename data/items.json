@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-21T10:45:24Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
     "id": "Amirun99/agency-orchestrator",
     "language": "Dart",
@@ -34,15 +43,6 @@
     "stars": 0,
     "updated_at": "2026-06-21T10:35:09Z",
     "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-21T10:30:25Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
@@ -223,7 +223,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 44497,
+    "stars": 44503,
     "updated_at": "2026-06-21T00:23:17Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
