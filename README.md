@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-06-21 04:15 UTC
+> ⏰ Last updated: 2026-06-21 04:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -62,7 +62,7 @@ expired items removed — so you can rely on what you see being current.
 | 7 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 1 | HTML | 2026-06-21 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
 | 8 | [xnoahwang/cursor-prime](https://github.com/xnoahwang/cursor-prime) | 0 | PowerShell | 2026-06-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/xnoahwang/cursor-prime/) | Cursor-native config: a strict Plan Gate + Karpathy discipline rules, /plan /delta /prime-init commands, and a global gi |
 | 9 | [Mark393295827/third-brain-v5-skills](https://github.com/Mark393295827/third-brain-v5-skills) | 117 | HTML | 2026-06-21 | — | agent skills |
-| 10 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 43716 | JavaScript | 2026-06-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 10 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 43747 | JavaScript | 2026-06-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 11 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-06-21 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
 | 12 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 0 | HTML | 2026-06-21 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
 | 13 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-06-20 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
@@ -79,7 +79,7 @@ expired items removed — so you can rely on what you see being current.
 | 24 | [ZAidBinAsif/flutter-ai-starter](https://github.com/ZAidBinAsif/flutter-ai-starter) | 0 | Dart | 2026-06-20 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/ZAidBinAsif/flutter-ai-starter/) | Flutter starter template for AI agents — runnable app, Cursor rules/skills, CI-enforced agent contract, provider MVVM. |
 | 25 | [adriannoes/awesome-vibe-coding](https://github.com/adriannoes/awesome-vibe-coding) | 39 | Jupyter Notebook | 2026-06-20 | — | 247 agent skills (Cursor, Claude & Codex), 5.400+ OpenClaw skills, 123 ML notebooks, 46 research papers, 14 industry rep |
 | 26 | [DongDuong2001/pudo-code-system](https://github.com/DongDuong2001/pudo-code-system) | 2 | JavaScript | 2026-06-20 | — | Modular, scalable, automated development intelligence. |
-| 27 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 15301 | Shell | 2026-06-20 | — | 🎭 266 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 50 个中国市场原创智能体（小红书/抖音/ |
+| 27 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 15300 | Shell | 2026-06-20 | — | 🎭 266 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 50 个中国市场原创智能体（小红书/抖音/ |
 | 28 | [ivan-magda/uikit-expert-skill](https://github.com/ivan-magda/uikit-expert-skill) | 4 | — | 2026-06-19 | — | Agent skill for writing correct, modern UIKit code in Swift. Covers lifecycle, memory, concurrency, collection views, an |
 | 29 | [peva3/standardized-markdown](https://github.com/peva3/standardized-markdown) | 0 | Python | 2026-06-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/peva3/standardized-markdown/) | The most comprehensive AGENTS.md template for AI coding agents — 51 production-grade sections, research-backed, self-gov |
 | 30 | [caioribeiroclw-pixel/pluribus](https://github.com/caioribeiroclw-pixel/pluribus) | 7 | JavaScript | 2026-06-19 | — | Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security |
