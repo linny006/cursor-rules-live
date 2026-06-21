@@ -1,21 +1,30 @@
 [
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-21T09:15:25Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
     "id": "J-nowcow/awesome-korean-agent-skills",
     "language": "\u2014",
     "name": "J-nowcow/awesome-korean-agent-skills",
     "stars": 17,
-    "updated_at": "2026-06-21T09:03:26Z",
+    "updated_at": "2026-06-21T09:44:20Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-06-21T09:36:28Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-21T09:30:30Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
@@ -52,15 +61,6 @@
     "stars": 0,
     "updated_at": "2026-06-21T05:53:28Z",
     "url": "https://github.com/wilsonwaters/3d-printing"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 0,
-    "updated_at": "2026-06-21T05:53:15Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "cursorrules": {
@@ -150,7 +150,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 44358,
+    "stars": 44378,
     "updated_at": "2026-06-21T00:23:17Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -292,7 +292,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 15319,
+    "stars": 15320,
     "updated_at": "2026-06-20T01:50:28Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
