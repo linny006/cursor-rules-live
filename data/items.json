@@ -1,12 +1,35 @@
 [
   {
-    "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
-    "id": "pekral/cursor-rules",
-    "language": "PHP",
-    "name": "pekral/cursor-rules",
-    "stars": 5,
-    "updated_at": "2026-06-21T17:13:22Z",
-    "url": "https://github.com/pekral/cursor-rules"
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 17,
+    "updated_at": "2026-06-21T17:28:45Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+  },
+  {
+    "cursorrules": {
+      "content": "# Cursor AI Rules\n\n> These rules are loaded automatically for this project. See `AGENTS.md` for full details.\n\n## Core Directives\n\n1. **Read AGENTS.md before any task** \u2014 All rules are defined there\n2. **Read DEEPDIVE.md** \u2014 System architecture narrative\n3. **Follow every section** \u2014 Core principles, commit protocol, testing, linting, etc.\n\n## Critical Enforcements\n\n### Pre-Commit Checklist\n```bash\nruff check .\nruff format .\nvulture .\nmypy .\n```\n**Do not commit until all pass.**\n\n### Required Folders\nEvery project MUST have:\n- `tests/` \u2014 All tests + random scripts (in `.gitignore`)\n- `docs/` \u2014 Architecture documentation\n- `research/` \u2014 Whitepapers, references\n\n### Commit Style\nHuman-sounding, WHY-focused messages. Example:\n```\napi: Added JWT refresh to prevent 401 loops\n\nThe token refresh had a race condition where concurrent requests\ncould trigger multiple refresh calls. Added mutex lock around auth state.\n```\n\n### DEEPDIVE.md\nUpdate after ANY architectural change. Document:\n- Why the system is built this way\n- Key decisions and trade-offs\n- Gotchas and failure modes\n\n## Prohibited\n- No PRs/issues/GitHub activity without explicit user approval\n- No dead code, unused imports, silent exception handlers\n- No commits without running lint/vulture sweep first\n\n## Validation\nBefore marking complete:\n- [ ] Tests pass\n- [ ] No vulture findings\n- [ ] Type check clean\n- [ ] DEEPDIVE.md updated if needed\n- [ ] Human commit message",
+      "format": "mdc",
+      "path": ".cursor/rules/project-rules.mdc"
+    },
+    "description": "Anchor \u2014 the production-grade AGENTS.md template for AI coding agents. 51 sections of battle-tested rules. Keep your age",
+    "id": "peva3/anchor",
+    "language": "Python",
+    "name": "peva3/anchor",
+    "stars": 0,
+    "updated_at": "2026-06-21T17:28:24Z",
+    "url": "https://github.com/peva3/anchor"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-06-21T17:19:22Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +37,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-21T17:05:10Z",
+    "updated_at": "2026-06-21T17:15:25Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
+    "id": "pekral/cursor-rules",
+    "language": "PHP",
+    "name": "pekral/cursor-rules",
+    "stars": 5,
+    "updated_at": "2026-06-21T17:25:18Z",
+    "url": "https://github.com/pekral/cursor-rules"
   },
   {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
@@ -25,15 +57,6 @@
     "stars": 0,
     "updated_at": "2026-06-21T16:48:13Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 17,
-    "updated_at": "2026-06-21T16:25:42Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -52,20 +75,6 @@
     "stars": 0,
     "updated_at": "2026-06-21T16:09:51Z",
     "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
-  },
-  {
-    "cursorrules": {
-      "content": "# Cursor AI Rules\n\n> These rules are loaded automatically for this project. See `AGENTS.md` for full details.\n\n## Core Directives\n\n1. **Read AGENTS.md before any task** \u2014 All rules are defined there\n2. **Read DEEPDIVE.md** \u2014 System architecture narrative\n3. **Follow every section** \u2014 Core principles, commit protocol, testing, linting, etc.\n\n## Critical Enforcements\n\n### Pre-Commit Checklist\n```bash\nruff check .\nruff format .\nvulture .\nmypy .\n```\n**Do not commit until all pass.**\n\n### Required Folders\nEvery project MUST have:\n- `tests/` \u2014 All tests + random scripts (in `.gitignore`)\n- `docs/` \u2014 Architecture documentation\n- `research/` \u2014 Whitepapers, references\n\n### Commit Style\nHuman-sounding, WHY-focused messages. Example:\n```\napi: Added JWT refresh to prevent 401 loops\n\nThe token refresh had a race condition where concurrent requests\ncould trigger multiple refresh calls. Added mutex lock around auth state.\n```\n\n### DEEPDIVE.md\nUpdate after ANY architectural change. Document:\n- Why the system is built this way\n- Key decisions and trade-offs\n- Gotchas and failure modes\n\n## Prohibited\n- No PRs/issues/GitHub activity without explicit user approval\n- No dead code, unused imports, silent exception handlers\n- No commits without running lint/vulture sweep first\n\n## Validation\nBefore marking complete:\n- [ ] Tests pass\n- [ ] No vulture findings\n- [ ] Type check clean\n- [ ] DEEPDIVE.md updated if needed\n- [ ] Human commit message",
-      "format": "mdc",
-      "path": ".cursor/rules/project-rules.mdc"
-    },
-    "description": "Anchor \u2014 the production-grade AGENTS.md template for AI coding agents. 51 sections of battle-tested rules. Keep your age",
-    "id": "peva3/anchor",
-    "language": "Python",
-    "name": "peva3/anchor",
-    "stars": 0,
-    "updated_at": "2026-06-21T16:05:13Z",
-    "url": "https://github.com/peva3/anchor"
   },
   {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
@@ -166,15 +175,6 @@
     "stars": 0,
     "updated_at": "2026-06-21T15:07:55Z",
     "url": "https://github.com/Jlosev/cursor-rules"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 0,
-    "updated_at": "2026-06-21T15:06:56Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "3D printing toolkit \u2014 AI-powered design skills for Claude Code, Cursor, Windsurf & Copilot, plus parametric OpenSCAD mod",
@@ -319,7 +319,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 45270,
+    "stars": 45295,
     "updated_at": "2026-06-21T00:23:17Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
