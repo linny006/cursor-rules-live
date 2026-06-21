@@ -1,11 +1,29 @@
 [
   {
+    "description": "Variable-based universal rules system for Cursor IDE",
+    "id": "Jlosev/cursor-rules",
+    "language": "\u2014",
+    "name": "Jlosev/cursor-rules",
+    "stars": 0,
+    "updated_at": "2026-06-21T15:07:55Z",
+    "url": "https://github.com/Jlosev/cursor-rules"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-06-21T15:06:56Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-21T14:45:26Z",
+    "updated_at": "2026-06-21T15:00:25Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -143,15 +161,6 @@
     "stars": 3,
     "updated_at": "2026-06-21T12:28:55Z",
     "url": "https://github.com/Luxvil/ai-coding-rules"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 0,
-    "updated_at": "2026-06-21T12:05:03Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Homebrew tap for LynxPrompt CLI",
@@ -296,7 +305,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 45022,
+    "stars": 45057,
     "updated_at": "2026-06-21T00:23:17Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -401,7 +410,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 15337,
+    "stars": 15339,
     "updated_at": "2026-06-20T01:50:28Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -514,14 +523,5 @@
     "stars": 3,
     "updated_at": "2026-06-18T18:23:15Z",
     "url": "https://github.com/Cadasto/openehr-assistant-plugin"
-  },
-  {
-    "description": "Open-source AI agent skills for safer Claude, Codex and Cursor coding workflows",
-    "id": "lubochka/xiigen-general-skills",
-    "language": "PowerShell",
-    "name": "lubochka/xiigen-general-skills",
-    "stars": 1,
-    "updated_at": "2026-06-18T17:29:20Z",
-    "url": "https://github.com/lubochka/xiigen-general-skills"
   }
 ]
