@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-06-22 14:00 UTC
+> ⏰ Last updated: 2026-06-22 14:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -77,7 +77,7 @@ expired items removed — so you can rely on what you see being current.
 | 22 | [glowElephant/context-forge](https://github.com/glowElephant/context-forge) | 2 | Python | 2026-06-22 | — | Auto harness engineering meta-repo: discuss → curate → bootstrap a context-engineered project for Claude Code, Cursor, C |
 | 23 | [Bilal140202/the-lord-of-the-skills](https://github.com/Bilal140202/the-lord-of-the-skills) | 1 | Python | 2026-06-22 | — | ⚔ 18,142+ AI agent skills from 307+ GitHub repos across 14 frameworks (Claude Code, Cursor, Cline, Roo, Aider, OpenHands |
 | 24 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 0 | HTML | 2026-06-22 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
-| 25 | [wshobson/agents](https://github.com/wshobson/agents) | 37039 | Python | 2026-06-22 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI |
+| 25 | [wshobson/agents](https://github.com/wshobson/agents) | 37040 | Python | 2026-06-22 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI |
 | 26 | [Oscarr36/ReadMeAI](https://github.com/Oscarr36/ReadMeAI) | 3 | Shell | 2026-06-21 | — | Drop .readmeAI in any project. AI reads it first, every session — no re-explaining, no context drift. Works with Claude, |
 | 27 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-06-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/agenticstandardcontact-byte/agentic-architect/) | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
 | 28 | [balacodeio/balakit](https://github.com/balacodeio/balakit) | 0 | JavaScript | 2026-06-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/balacodeio/balakit/) | Opinionated, cross-agent rules and skills for AI coding agents — one npx install into Cursor, Claude Code, Codex, OpenCo |
@@ -91,14 +91,14 @@ expired items removed — so you can rely on what you see being current.
 | 36 | [sublimecoder/sublimecoding](https://github.com/sublimecoder/sublimecoding) | 0 | — | 2026-06-21 | — | Free, production-grade Claude Code & Cursor prompts for senior engineers — code review, debugging, refactoring, system d |
 | 37 | [xnoahwang/cursor-prime](https://github.com/xnoahwang/cursor-prime) | 0 | PowerShell | 2026-06-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/xnoahwang/cursor-prime/) | Cursor-native config: a strict Plan Gate + Karpathy discipline rules, /plan /delta /prime-init commands, and a global gi |
 | 38 | [Mark393295827/third-brain-v5-skills](https://github.com/Mark393295827/third-brain-v5-skills) | 117 | HTML | 2026-06-21 | — | agent skills |
-| 39 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 48566 | JavaScript | 2026-06-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 39 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 48610 | JavaScript | 2026-06-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 40 | [Lolner95/AIGX](https://github.com/Lolner95/AIGX) | 24 | JavaScript | 2026-06-20 | — | Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig |
 | 41 | [sscodeai/agency-agents-ja](https://github.com/sscodeai/agency-agents-ja) | 0 | Shell | 2026-06-20 | — | 323個の即戦力AI専門エージェント — Claude Code/Cursor/Copilot等に対応。SIer/受託開発/SaaS/製造DX/公共分野など日本市場向け114個のオリジナルを含む、agency-agents日本語コミュニティ |
 | 42 | [GeiserX/lynxprompt-vscode](https://github.com/GeiserX/lynxprompt-vscode) | 1 | TypeScript | 2026-06-20 | — | VS Code extension for LynxPrompt — browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules)  |
 | 43 | [ZAidBinAsif/flutter-ai-starter](https://github.com/ZAidBinAsif/flutter-ai-starter) | 0 | Dart | 2026-06-20 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/ZAidBinAsif/flutter-ai-starter/) | Flutter starter template for AI agents — runnable app, Cursor rules/skills, CI-enforced agent contract, provider MVVM. |
 | 44 | [adriannoes/awesome-vibe-coding](https://github.com/adriannoes/awesome-vibe-coding) | 41 | Jupyter Notebook | 2026-06-20 | — | 247 agent skills (Cursor, Claude & Codex), 5.400+ OpenClaw skills, 123 ML notebooks, 46 research papers, 14 industry rep |
 | 45 | [DongDuong2001/pudo-code-system](https://github.com/DongDuong2001/pudo-code-system) | 3 | JavaScript | 2026-06-20 | — | Modular, scalable, automated development intelligence. |
-| 46 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 15416 | Shell | 2026-06-20 | — | 🎭 266 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 50 个中国市场原创智能体（小红书/抖音/ |
+| 46 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 15417 | Shell | 2026-06-20 | — | 🎭 266 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 50 个中国市场原创智能体（小红书/抖音/ |
 | 47 | [ivan-magda/uikit-expert-skill](https://github.com/ivan-magda/uikit-expert-skill) | 4 | — | 2026-06-19 | — | Agent skill for writing correct, modern UIKit code in Swift. Covers lifecycle, memory, concurrency, collection views, an |
 | 48 | [jlbgit/JansCursorRules](https://github.com/jlbgit/JansCursorRules) | 0 | PowerShell | 2026-06-19 | — | Cursor .mdc rules and skills for AI-assisted coding — stay minimal, cut to the root cause, and push back when it matters |
 | 49 | [stdin/buy-vs-build](https://github.com/stdin/buy-vs-build) | 3 | JavaScript | 2026-06-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/stdin/buy-vs-build/) | Stop your AI coding agent from reinventing the wheel. An always-on buy-vs-build ruleset that reuses built-ins, platform  |
