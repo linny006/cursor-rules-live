@@ -1,12 +1,12 @@
 [
   {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 1,
-    "updated_at": "2026-06-22T17:55:07Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
+    "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
+    "id": "caioribeiroclw-pixel/pluribus",
+    "language": "JavaScript",
+    "name": "caioribeiroclw-pixel/pluribus",
+    "stars": 7,
+    "updated_at": "2026-06-22T18:05:00Z",
+    "url": "https://github.com/caioribeiroclw-pixel/pluribus"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-22T17:51:14Z",
+    "updated_at": "2026-06-22T18:00:51Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 1,
+    "updated_at": "2026-06-22T17:55:07Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -241,15 +250,6 @@
     "url": "https://github.com/philipbankier/awesome-agent-skills"
   },
   {
-    "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
-    "id": "caioribeiroclw-pixel/pluribus",
-    "language": "JavaScript",
-    "name": "caioribeiroclw-pixel/pluribus",
-    "stars": 7,
-    "updated_at": "2026-06-22T11:02:46Z",
-    "url": "https://github.com/caioribeiroclw-pixel/pluribus"
-  },
-  {
     "description": "Auto harness engineering meta-repo: discuss \u2192 curate \u2192 bootstrap a context-engineered project for Claude Code, Cursor, C",
     "id": "glowElephant/context-forge",
     "language": "Python",
@@ -277,7 +277,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 37046,
+    "stars": 37047,
     "updated_at": "2026-06-22T01:08:46Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -415,7 +415,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 49183,
+    "stars": 49213,
     "updated_at": "2026-06-21T00:23:17Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
