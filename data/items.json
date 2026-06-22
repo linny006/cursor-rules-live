@@ -1,5 +1,32 @@
 [
   {
+    "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
+    "id": "pekral/cursor-rules",
+    "language": "PHP",
+    "name": "pekral/cursor-rules",
+    "stars": 5,
+    "updated_at": "2026-06-22T12:42:45Z",
+    "url": "https://github.com/pekral/cursor-rules"
+  },
+  {
+    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
+    "id": "Hyanthropological659/clarify-skill",
+    "language": "\u2014",
+    "name": "Hyanthropological659/clarify-skill",
+    "stars": 0,
+    "updated_at": "2026-06-22T12:33:41Z",
+    "url": "https://github.com/Hyanthropological659/clarify-skill"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-22T12:30:31Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
     "id": "Bastioned-successor320/learn-nanobot",
     "language": "Python",
@@ -52,24 +79,6 @@
     "stars": 0,
     "updated_at": "2026-06-22T12:15:57Z",
     "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-22T12:15:48Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
-    "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
-    "id": "pekral/cursor-rules",
-    "language": "PHP",
-    "name": "pekral/cursor-rules",
-    "stars": 5,
-    "updated_at": "2026-06-22T12:07:39Z",
-    "url": "https://github.com/pekral/cursor-rules"
   },
   {
     "cursorrules": {
@@ -204,15 +213,6 @@
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
-    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
-    "id": "Hyanthropological659/clarify-skill",
-    "language": "\u2014",
-    "name": "Hyanthropological659/clarify-skill",
-    "stars": 0,
-    "updated_at": "2026-06-22T08:45:53Z",
-    "url": "https://github.com/Hyanthropological659/clarify-skill"
-  },
-  {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
     "id": "arnoldalberto007-sys/Swift-UIKit-Components",
     "language": "HTML",
@@ -231,7 +231,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 37035,
+    "stars": 37036,
     "updated_at": "2026-06-22T01:08:46Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -406,7 +406,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 48284,
+    "stars": 48324,
     "updated_at": "2026-06-21T00:23:17Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -474,7 +474,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 15410,
+    "stars": 15412,
     "updated_at": "2026-06-20T01:50:28Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
