@@ -1,5 +1,46 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: \"USE WHEN: any task in this repo. Global operating rules.\"\nglobs: [\"**/*\"]\nalwaysApply: true\npriority: 100\n---\n\n# Global Rules (Always On)\n\n## Role\nYou are an AI coding assistant. Deliver correct, minimal, testable changes. Surface uncertainty instead of hiding it.\n\n## Non\u2011Negotiables\n- **Correctness > simplicity > consistency > style**.\n- **Minimal diff**: touch only what the task needs.\n- **No drive\u2011by refactors**.\n- **Ask when ambiguous**: assumptions ledger + up to 3 questions.\n- **Stop** on security, data loss, or breaking changes; ask for confirmation.\n\n## Output Discipline\n- Provide a brief plan before changes.\n- Show verification steps (lint/typecheck/tests) and state what wasn\u2019t run.\n\n## Guardrails\n- No hard\u2011coded secrets.\n- No unrelated formatting or renaming.\n- No new dependencies without approval.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/00-global.mdc"
+    },
+    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
+    "id": "Luxvil/ai-coding-rules",
+    "language": "Shell",
+    "name": "Luxvil/ai-coding-rules",
+    "stars": 3,
+    "updated_at": "2026-06-22T11:24:41Z",
+    "url": "https://github.com/Luxvil/ai-coding-rules"
+  },
+  {
+    "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
+    "id": "fluttersdk/wind",
+    "language": "Dart",
+    "name": "fluttersdk/wind",
+    "stars": 21,
+    "updated_at": "2026-06-22T11:20:46Z",
+    "url": "https://github.com/fluttersdk/wind"
+  },
+  {
+    "description": "Homebrew tap for LynxPrompt CLI",
+    "id": "GeiserX/homebrew-lynxprompt",
+    "language": "Ruby",
+    "name": "GeiserX/homebrew-lynxprompt",
+    "stars": 1,
+    "updated_at": "2026-06-22T11:18:38Z",
+    "url": "https://github.com/GeiserX/homebrew-lynxprompt"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-22T11:15:49Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
     "id": "philipbankier/awesome-agent-skills",
     "language": "TypeScript",
@@ -18,15 +59,6 @@
     "url": "https://github.com/caioribeiroclw-pixel/pluribus"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-22T11:00:46Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
     "id": "J-nowcow/awesome-korean-agent-skills",
     "language": "\u2014",
@@ -36,21 +68,12 @@
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
-    "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
-    "id": "fluttersdk/wind",
-    "language": "Dart",
-    "name": "fluttersdk/wind",
-    "stars": 21,
-    "updated_at": "2026-06-22T11:12:55Z",
-    "url": "https://github.com/fluttersdk/wind"
-  },
-  {
     "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
     "id": "pekral/cursor-rules",
     "language": "PHP",
     "name": "pekral/cursor-rules",
     "stars": 5,
-    "updated_at": "2026-06-22T10:24:29Z",
+    "updated_at": "2026-06-22T11:25:45Z",
     "url": "https://github.com/pekral/cursor-rules"
   },
   {
@@ -156,20 +179,6 @@
     "stars": 0,
     "updated_at": "2026-06-22T08:12:00Z",
     "url": "https://github.com/johnwall123459885/skene-cookbook"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: \"USE WHEN: any task in this repo. Global operating rules.\"\nglobs: [\"**/*\"]\nalwaysApply: true\npriority: 100\n---\n\n# Global Rules (Always On)\n\n## Role\nYou are an AI coding assistant. Deliver correct, minimal, testable changes. Surface uncertainty instead of hiding it.\n\n## Non\u2011Negotiables\n- **Correctness > simplicity > consistency > style**.\n- **Minimal diff**: touch only what the task needs.\n- **No drive\u2011by refactors**.\n- **Ask when ambiguous**: assumptions ledger + up to 3 questions.\n- **Stop** on security, data loss, or breaking changes; ask for confirmation.\n\n## Output Discipline\n- Provide a brief plan before changes.\n- Show verification steps (lint/typecheck/tests) and state what wasn\u2019t run.\n\n## Guardrails\n- No hard\u2011coded secrets.\n- No unrelated formatting or renaming.\n- No new dependencies without approval.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/00-global.mdc"
-    },
-    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
-    "id": "Luxvil/ai-coding-rules",
-    "language": "Shell",
-    "name": "Luxvil/ai-coding-rules",
-    "stars": 3,
-    "updated_at": "2026-06-22T08:07:08Z",
-    "url": "https://github.com/Luxvil/ai-coding-rules"
   },
   {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
@@ -319,15 +328,6 @@
     "url": "https://github.com/wilsonwaters/3d-printing"
   },
   {
-    "description": "Homebrew tap for LynxPrompt CLI",
-    "id": "GeiserX/homebrew-lynxprompt",
-    "language": "Ruby",
-    "name": "GeiserX/homebrew-lynxprompt",
-    "stars": 1,
-    "updated_at": "2026-06-21T12:00:51Z",
-    "url": "https://github.com/GeiserX/homebrew-lynxprompt"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: Instructions for AI agent code generation workflow\nglobs: [\"*\"]\nalwaysApply: true\n---\n\n# AI Collaboration Guidelines\n\n## The 3-Stage Agentic Loop\n\nEvery code generation task MUST follow this loop:\n\n### Stage 1: PLAN (gather context first)\n\nBefore writing ANY code, the AI MUST:\n1. Read the relevant source files to verify current state \u2014 do NOT rely on memory\n2. Identify which `.cursor/rules/` files apply to this task\n3. List the files to modify and explain why\n4. Do NOT write code yet\n\nPrompt template:\n```\nAnalyze the current codebase and plan how to implement [feature]. \nList the files you'll modify and why. Don't write code yet.\n```\n\n### Stage 2: IMPLEMENT (follow constraints)\n\nWhen generating code:\n- Follow ALL active `.cursor/rules/` constraints\n- If unsure about auth patterns, re-read `supabase-auth-security.mdc`\n- If unsure about params/layouts, re-read `nextjs15-params.mdc`\n- Use `unknown` + Zod validation instead of `any` for external data\n- Return `ActionResponse<T>` from all Server Actions (see below)\n\n### Stage 3: VERIFY (confirm before declaring done)\n\nAfter generating code, the AI MUST self-check:\n- [ ] No `getSession()` on the server (MUST be `getUser()`)\n- [ ] No synchronous `params` or `searchParams` access\n- [ ] No `@supabase/auth-helpers-nextjs` imports\n- [ ] No `any` types \u2014 use `unknown` + type narrowing\n- [ ] Every API route has Zod validation\n- [ ] Every error is caught and returns `{ error: string }`\n- [ ] New tables have RLS enabled\n- [ ] `loading.tsx` and `error.tsx` exist for data-fetching pages\n\nReport issues BEFORE the developer runs the code.\n\n## Skeptical Retrieval Rule\n\nNEVER trust stored knowledge about the codebase. Before modifying a file:\n1. Re-read the file to verify its current contents\n2. Check imports and exports to ensure they match expectations\n3. Verify that function signatures haven't changed\n\nThis prevents generating code that references stale function signatures, \ndeleted files, or renamed exports.\n\n## Standard Patterns\n\n### ActionResponse Type (use for all Server Actions)\n```typescript\ntype ActionResponse<T = void> = \n  | { success: true; data: T }\n  | { success: false; error: string }\n```\n\n### Standard Server Action Structure\n```typescript\n'use server'\nimport { createClient } from '@/lib/supabase/server'\nimport { z } from 'zod'\n\nconst Schema = z.object({ /* ... */ })\n\nexport async function myAction(input: unknown): Promise<ActionResponse<MyType>> {\n  // 1. Auth\n  const supabase = await createClient()\n  const { data: { user } } = await supabase.auth.getUser()\n  if (!user) return { success: false, error: 'Unauthorized' }\n\n  // 2. Validate\n  const result = Schema.safeParse(input)\n  if (!result.success) return { success: false, error: 'Invalid input' }\n\n  // 3. Execute\n  try {\n    const { data, error } = await supabase.from('table').insert(result.data).select().single()\n    if (error) throw error\n    return { success: true, data }\n  } catch {\n    return { success: false, error: 'Operation failed' }\n  }\n}\n```\n\n## Task Constraints\n\n- NEVER give the AI a task longer than 200 words\n- NEVER let the AI implement more than 3-4 files in one turn\n- NEVER let the AI skip the verification checklist\n- ALWAYS review the Git diff before committing\n- When uncertain, ask the developer \u2014 do NOT guess\n\n",
       "format": "mdc",
@@ -406,7 +406,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 48099,
+    "stars": 48135,
     "updated_at": "2026-06-21T00:23:17Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
