@@ -1,5 +1,23 @@
 [
   {
+    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
+    "id": "Laurellagloomy260/cursor-rules-generator",
+    "language": "\u2014",
+    "name": "Laurellagloomy260/cursor-rules-generator",
+    "stars": 0,
+    "updated_at": "2026-06-22T04:05:06Z",
+    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-22T04:00:41Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
     "id": "Hyanthropological659/clarify-skill",
     "language": "\u2014",
@@ -34,15 +52,6 @@
     "stars": 0,
     "updated_at": "2026-06-22T03:45:58Z",
     "url": "https://github.com/Amirun99/agency-orchestrator"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-22T03:45:28Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
@@ -123,15 +132,6 @@
     "url": "https://github.com/Bilal140202/the-lord-of-the-skills"
   },
   {
-    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
-    "id": "Laurellagloomy260/cursor-rules-generator",
-    "language": "\u2014",
-    "name": "Laurellagloomy260/cursor-rules-generator",
-    "stars": 0,
-    "updated_at": "2026-06-22T01:58:14Z",
-    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: claude-agents marketplace project conventions\nalwaysApply: true\n---\n\n# claude-agents conventions\n\nThis is a multi-harness plugin marketplace. Source lives under `plugins/`; per-harness\nartifacts (`.codex/`, `.cursor-plugin/`, `.opencode/`, `commands/`) are generated.\n\n- Don't hand-edit anything under `.codex/`, `.cursor-plugin/`, `.opencode/`, or top-level `commands/`, `agents/`, `skills/` \u2014 regenerate via `make generate HARNESS=<x>`.\n- Python tooling: `uv` (package manager), `ruff` (lint/format), `ty` (type check). Do not use pip/mypy/black.\n- Plugin files: `plugins/<name>/{.claude-plugin/plugin.json, agents/*.md, skills/<name>/SKILL.md, commands/*.md}`. Auto-discovered.\n- Cursor reads `.claude/skills/` and `.claude/agents/` directly \u2014 no separate `.cursor/skills/` is generated.\n\n## Never\n\n- Never commit secrets or hardcode credentials.\n- Never modify `.claude-plugin/marketplace.json` from inside a plugin PR \u2014 it's the registry.\n- Never run destructive git operations (force-push, reset --hard, branch -D) without explicit ask.\n\nSee `docs/authoring.md` for the portable-content style guide.\n",
       "format": "mdc",
@@ -141,7 +141,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 37027,
+    "stars": 37028,
     "updated_at": "2026-06-22T01:08:46Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -388,7 +388,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 46722,
+    "stars": 46767,
     "updated_at": "2026-06-21T00:23:17Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -456,7 +456,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 15363,
+    "stars": 15364,
     "updated_at": "2026-06-20T01:50:28Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
