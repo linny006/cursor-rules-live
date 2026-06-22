@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<title>lawrence3699/skill-conflict-auditor - entry on Cursor Rules Live</title>
+<meta name="description" content="A Claude/Agent Skill that audits a set of AI skills (SKILL.md files) for conflicts, overlaps, redundancy, unclear priori">
+<link rel="canonical" href="https://linny006.github.io/cursor-rules-live/r/lawrence3699/skill-conflict-auditor/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="lawrence3699/skill-conflict-auditor - entry on Cursor Rules Live">
+<meta property="og:description" content="A Claude/Agent Skill that audits a set of AI skills (SKILL.md files) for conflicts, overlaps, redundancy, unclear priori">
+<meta property="og:url" content="https://linny006.github.io/cursor-rules-live/r/lawrence3699/skill-conflict-auditor/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="lawrence3699/skill-conflict-auditor - entry on Cursor Rules Live">
+<meta name="twitter:description" content="A Claude/Agent Skill that audits a set of AI skills (SKILL.md files) for conflicts, overlaps, redundancy, unclear priori">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"lawrence3699/skill-conflict-auditor","codeRepository":"https://github.com/lawrence3699/skill-conflict-auditor","programmingLanguage":"—","url":"https://linny006.github.io/cursor-rules-live/r/lawrence3699/skill-conflict-auditor/","description":"A Claude/Agent Skill that audits a set of AI skills (SKILL.md files) for conflicts, overlaps, redundancy, unclear priori","author":{"@type":"Person","name":"lawrence3699","url":"https://github.com/lawrence3699"},"dateModified":"2026-06-22"}</script>
+<style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
+         --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 16px; font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--fg); background: var(--bg); }
+.wrap { max-width: var(--max); margin: 0 auto; }
+nav.bc { font-size: 14px; color: var(--muted); margin-bottom: 16px; }
+nav.bc a { color: var(--muted); }
+h1 { font-size: 28px; margin: 0 0 8px; }
+h2 { font-size: 20px; margin: 24px 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+p.lead { font-size: 18px; color: var(--muted); margin: 0 0 24px; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+th, td { padding: 8px 12px; text-align: left; border-bottom: 1px solid var(--border); }
+th { background: var(--card); font-weight: 600; }
+ul.crosslinks { list-style: none; padding: 0; }
+ul.crosslinks li { padding: 6px 0; }
+ul.crosslinks li a { font-weight: 500; }
+.meta { display: flex; gap: 16px; flex-wrap: wrap; color: var(--muted); font-size: 14px; margin: 12px 0; }
+.meta span::before { content: "\00b7"; margin-right: 8px; color: var(--border); }
+.meta span:first-child::before { content: ""; }
+footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--border); font-size: 14px; color: var(--muted); }</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="bc"><a href="https://linny006.github.io/cursor-rules-live/">Cursor Rules Live</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/popular/">Entries</a> &#183; <span>lawrence3699/skill-conflict-auditor</span></nav>
+<main>
+<h1>lawrence3699/skill-conflict-auditor</h1>
+<p class="lead">A Claude/Agent Skill that audits a set of AI skills (SKILL.md files) for conflicts, overlaps, redundancy, unclear priori</p>
+<div class="meta">
+<span><strong>Stars</strong> 0</span>
+<span><strong>Language</strong> —</span>
+<span><strong>Last updated</strong> 2026-06-22</span>
+<span><a href="https://github.com/lawrence3699/skill-conflict-auditor" rel="external">Source on GitHub</a></span>
+<span><a href="https://github.com/lawrence3699" rel="external">@lawrence3699</a></span>
+</div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/skill-conflict-auditor.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
+description: Audit a set of AI skills/rules (Claude SKILL.md files, Cursor .mdc rules, descriptions, or skill folders) for conflicts — overlapping triggers, contradictory goals, undefined priority, incompatible workflows or output formats, clashing tool/script rules, mismatched safety boundaries or evidence standards, redundancy, scope creep, or naming ambiguity. Use when comparing two or more skills/rules, designing a skill set, or when installed skills/rules behave unpredictably. NOT for reviewing application source code, writing prose, or optimizing a single standalone prompt.
+globs: **/SKILL.md
+alwaysApply: false
+---
+
+# Skill Conflict Auditor
+
+## Overview
+
+This rule audits a **set of AI skills/rules** (Claude `SKILL.md` files, Cursor `.mdc` rules, and their supporting assets) for problems that only appear when several coexist: two skills firing on the same task, skills pulling toward opposite goals, no rule for who wins, incompatible step orders, clashing output formats, contradictory tool/script permissions, mismatched safety boundaries, and slow-drifting duplicated rules.
+
+Core principle: **most skill problems are not inside one skill — they are in the relationships between skills.** A skill that is perfect alone can become unsafe or unstable next to another. This auditor evaluates the *interactions*, not the individual quality of any single skill.
+
+This is not general code review, not prose editing, and not single-prompt optimization. The unit of analysis is always two or more skills/rules compared against each other.
+
+## When to Use
+
+- The user provides multiple `SKILL.md` files or `.mdc` rules (or descriptions, or folder trees) and asks &quot;do these conflict?&quot;
+- The user is designing a group of skills/rules meant to work together and wants to catch collisions before shipping.
+- The user reports unstable or unpredictable behavior after installing several skills/rules (wrong one triggers, inconsistent output, contradictory actions).
+- The user wants to merge, split, rename, or reorganize an existing set of skills/rules.
+- The user is building a personal or team skill/rule library and wants a coherence/safety pass.
+
+**When NOT to use:** auditing a single skill in isolation (no second skill to compare against), reviewing normal application code, or rewriting one prompt/rule for quality.
+
+## Expected Inputs
+
+The richer the input, the higher-confidence the audit. Ideal input includes:
+
+- **Skill/rule names** (all of them).
+- **Descriptions** (the YAML `description` / &quot;when to use&quot; text).
+- **Full skill/rule contents** (`SKILL.md` body or `.mdc` body) — strongly preferred; descriptions alone only support a preliminary audit.
+- **Folder structures** (optional) — reveals scripts, templates, references, examples, glob patterns.
+- **File lists for scripts / templates / references** (optional) — needed to catch tool and script conflicts.
+- **Real usage scenarios** (optional) — concrete situations where these skills/rules would be active at the same time. These expose trigger-overlap and priority conflicts that static reading misses.
+
+If parts are missing, proceed with a clearly-labeled preliminary audit (see Behavior Rules) and list exactly what additional input would raise confidence.
+
+## Conflict Categories
+
+Check every pair (and relevant groups) of skills/rules against all of the following. Do not stop at the first finding.
+
+1. **Trigger overlap** — descriptions, &quot;when to use&quot; sections, or `globs` are similar enough that both would be invoked for the same task, with no tiebreaker.
+2. **Goal conflict** — skills optimize for opposing objectives (e.g., speed/throughput vs. conservative/thorough review).
+3. **Priority conflict** — when two skills&#x27; rules disagree, nothing defines which one wins.
+4. **Workflow conflict** — required step orders are incompatible (e.g., one says produce final output first, another requires evidence/verification before any output).
+5. **Output format conflict** — skills mandate competing or mutually exclusive output structures for the same artifact.
+6. **Tool / script conflict** — scripts or tool-use rules collide (e.g., one formats the entire repository, another forbids touching unrelated files; one auto-runs a command another bans).
+7. **Safety boundary conflict** — one skill permits automatic sending, submitting, deleting, network access, or system modification while another requires explicit user confirmation for the same kind of action.
+8. **Evidence standard conflict** — one skill allows speculation/assumption while another requires verified evidence before claims.
+9. **Scope conflict** — one skill is so broad (or `alwaysApply: true`) that it overrides or absorbs more specific skills that should have handled the task.
+10. **Redundancy** — two skills serve nearly the same purpose and likely should be merged.
+11. **Naming ambiguity** — names are too vague, or too similar to each other, to disambiguate intent.
+12. **Hidden assumption conflict** — skills silently assume different platforms, environments, users, repos, or task conditions.
+13. **Maintenance risk** — the same rule is duplicated across skills and will drift out of sync over time.
+
+## Severity Levels
+
+Assign exactly one severity to each finding.
+
+- **High** — can cause an unsafe action, data loss, incorrect submission/sending/deletion, or wrong technical judgment. Anything touching safety boundaries, evidence standards, or destructive/outbound actions defaults to High.
+- **Medium** — can cause unstable output, workflow confusion, inconsistent formatting, duplicated work, or inefficient execution, but not unsafe action.
+- **Low** — naming issues, unclear wording, mild acceptable-ish overlap, or minor redundancy with little practical impact.
+
+When unsure between two levels, state the assumption that decides it and pick the higher level if safety is involved.
+
+## Analysis Method
+
+Follow this process in order:
+
+1. **Identify the main purpose** of each skill (one sentence each).
+2. **Compare descriptions</code></pre>
+<p><em>Content truncated. View full file in the source repo (linked above).</em></p><p><a href="https://github.com/lawrence3699/skill-conflict-auditor/blob/HEAD/.cursor/rules/skill-conflict-auditor.mdc" rel="external">View raw on GitHub</a></p>
+</section>
+<section><h2>Why this is listed</h2>
+<p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
+<section><h2>Similar in this tracker</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/r/J-nowcow/awesome-korean-agent-skills/">J-nowcow/awesome-korean-agent-skills (stars:18)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/ivan-magda/uikit-expert-skill/">ivan-magda/uikit-expert-skill (stars:4)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/zinxj/uikit-expert-skill/">zinxj/uikit-expert-skill (stars:3)</a></li>
+</ul></section>
+<section><h2>Explore by category</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/popular/">Popular (by stars)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/recent/">Recent (by activity)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/new/">New this week</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/lang/x/">All — entries</a></li>
+</ul></section>
+</main>
+<footer>
+Auto-updated every 15 minutes via GitHub Actions &#183; <a href="https://linny006.github.io/cursor-rules-live/">tracker root</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/sitemap.xml">sitemap</a>
+</footer>
+</div>
+</body>
+</html>
