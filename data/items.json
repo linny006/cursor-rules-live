@@ -1,5 +1,32 @@
 [
   {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 18,
+    "updated_at": "2026-06-22T09:41:26Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+  },
+  {
+    "description": "Auto harness engineering meta-repo: discuss \u2192 curate \u2192 bootstrap a context-engineered project for Claude Code, Cursor, C",
+    "id": "glowElephant/context-forge",
+    "language": "Python",
+    "name": "glowElephant/context-forge",
+    "stars": 2,
+    "updated_at": "2026-06-22T09:36:58Z",
+    "url": "https://github.com/glowElephant/context-forge"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-22T09:30:31Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "\u2694 18,142+ AI agent skills from 307+ GitHub repos across 14 frameworks (Claude Code, Cursor, Cline, Roo, Aider, OpenHands",
     "id": "Bilal140202/the-lord-of-the-skills",
     "language": "Python",
@@ -9,15 +36,6 @@
     "url": "https://github.com/Bilal140202/the-lord-of-the-skills"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-22T09:15:35Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
     "id": "Laurellagloomy260/cursor-rules-generator",
     "language": "\u2014",
@@ -25,15 +43,6 @@
     "stars": 0,
     "updated_at": "2026-06-22T08:56:00Z",
     "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
-  },
-  {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 18,
-    "updated_at": "2026-06-22T08:55:23Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -132,7 +141,7 @@
     "language": "PHP",
     "name": "pekral/cursor-rules",
     "stars": 5,
-    "updated_at": "2026-06-22T08:19:12Z",
+    "updated_at": "2026-06-22T09:42:37Z",
     "url": "https://github.com/pekral/cursor-rules"
   },
   {
@@ -388,7 +397,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 47793,
+    "stars": 47843,
     "updated_at": "2026-06-21T00:23:17Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -456,7 +465,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 15398,
+    "stars": 15399,
     "updated_at": "2026-06-20T01:50:28Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -509,19 +518,5 @@
     "stars": 14,
     "updated_at": "2026-06-18T20:29:35Z",
     "url": "https://github.com/TheoV823/mneme"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: \"Core ControlFlow identity, source hierarchy, and offline validations for the repository.\"\nalwaysApply: true\n---\n# ControlFlow Core\n\nThis is a prompt/governance/eval repository, not a runtime application.\nCanonical multi-agent policies, roster, and tiers are governed by `.github/copilot-instructions.md` and `plans/project-context.md`.\nCursor workflow: skills in `.cursor/skills/controlflow-*/`, subagents in `.cursor/agents/controlflow-*.md`, plugin package `plugins/controlflow-cursor/`.\nEntry: follow skill `controlflow-strict-workflow` for non-trivial tasks.\nUse `Task(subagent_type=...)` for delegation when available; see `docs/agent-engineering/CURSOR-SUPPORT.md` for fallback.\nCursor cannot execute VS Code-only semantics (`agent/runSubagent`, `@Planner` UI). Do not claim otherwise.\n`AGENTS.md` is compatibility context only, not the primary Cursor artifact.\nAll changes must pass: `cd evals && npm test`.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/controlflow-core.mdc"
-    },
-    "description": "Multi-agent orchestration for VS Code Copilot, Claude Code, OpenAI Codex and Cursor",
-    "id": "Smithbox-ai/ControlFlow",
-    "language": "JavaScript",
-    "name": "Smithbox-ai/ControlFlow",
-    "stars": 13,
-    "updated_at": "2026-06-18T18:37:18Z",
-    "url": "https://github.com/Smithbox-ai/ControlFlow"
   }
 ]
