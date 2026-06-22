@@ -10,8 +10,26 @@
     "language": "Shell",
     "name": "danielvm-git/bigpowers",
     "stars": 9,
-    "updated_at": "2026-06-22T01:58:58Z",
+    "updated_at": "2026-06-22T02:13:21Z",
     "url": "https://github.com/danielvm-git/bigpowers"
+  },
+  {
+    "description": "\u2694 18,142+ AI agent skills from 307+ GitHub repos across 14 frameworks (Claude Code, Cursor, Cline, Roo, Aider, OpenHands",
+    "id": "Bilal140202/the-lord-of-the-skills",
+    "language": "Python",
+    "name": "Bilal140202/the-lord-of-the-skills",
+    "stars": 1,
+    "updated_at": "2026-06-22T02:02:22Z",
+    "url": "https://github.com/Bilal140202/the-lord-of-the-skills"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-22T02:00:49Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
@@ -39,15 +57,6 @@
     "stars": 1,
     "updated_at": "2026-06-22T01:46:15Z",
     "url": "https://github.com/Bastioned-successor320/learn-nanobot"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-22T01:45:40Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
@@ -379,7 +388,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 46300,
+    "stars": 46361,
     "updated_at": "2026-06-21T00:23:17Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -447,7 +456,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 15352,
+    "stars": 15353,
     "updated_at": "2026-06-20T01:50:28Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -514,14 +523,5 @@
     "stars": 13,
     "updated_at": "2026-06-18T18:37:18Z",
     "url": "https://github.com/Smithbox-ai/ControlFlow"
-  },
-  {
-    "description": "openEHR assistant AI plugin suite with Skills, commands, and MCP server configuration for clinical workflow integration",
-    "id": "Cadasto/openehr-assistant-plugin",
-    "language": "Python",
-    "name": "Cadasto/openehr-assistant-plugin",
-    "stars": 3,
-    "updated_at": "2026-06-18T18:23:15Z",
-    "url": "https://github.com/Cadasto/openehr-assistant-plugin"
   }
 ]
