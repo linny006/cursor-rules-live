@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-22T14:30:48Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
     "id": "edsondviana8/ai-humanizer-core",
     "language": "HTML",
@@ -16,15 +25,6 @@
     "stars": 5,
     "updated_at": "2026-06-22T14:18:46Z",
     "url": "https://github.com/pekral/cursor-rules"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-22T14:15:35Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -361,7 +361,7 @@
     "language": "Python",
     "name": "KbWen/agentic-os",
     "stars": 25,
-    "updated_at": "2026-06-21T05:29:43Z",
+    "updated_at": "2026-06-22T14:44:06Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
   {
@@ -406,7 +406,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 48655,
+    "stars": 48703,
     "updated_at": "2026-06-21T00:23:17Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -474,7 +474,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 15418,
+    "stars": 15419,
     "updated_at": "2026-06-20T01:50:28Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -486,6 +486,15 @@
     "stars": 4,
     "updated_at": "2026-06-19T23:29:18Z",
     "url": "https://github.com/ivan-magda/uikit-expert-skill"
+  },
+  {
+    "description": "Agent Development Life Cycle \u2014 Build, deploy, test, and optimize Agentforce agents using Claude Code skills and Agent Sc",
+    "id": "SalesforceAIResearch/agentforce-adlc",
+    "language": "Python",
+    "name": "SalesforceAIResearch/agentforce-adlc",
+    "stars": 75,
+    "updated_at": "2026-06-19T16:57:32Z",
+    "url": "https://github.com/SalesforceAIResearch/agentforce-adlc"
   },
   {
     "description": "Cursor .mdc rules and skills for AI-assisted coding \u2014 stay minimal, cut to the root cause, and push back when it matters",
@@ -509,14 +518,5 @@
     "stars": 3,
     "updated_at": "2026-06-19T11:30:15Z",
     "url": "https://github.com/stdin/buy-vs-build"
-  },
-  {
-    "description": "Shareable Cursor rules for agentic mobile development (Android + iOS) \u2014 no IDE required day-to-day.",
-    "id": "JoDaBaRo/agentic-mobile-rules",
-    "language": "Python",
-    "name": "JoDaBaRo/agentic-mobile-rules",
-    "stars": 0,
-    "updated_at": "2026-06-18T23:40:57Z",
-    "url": "https://github.com/JoDaBaRo/agentic-mobile-rules"
   }
 ]
