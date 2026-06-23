@@ -1,5 +1,23 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-23T06:45:42Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "I got tired moving configs between devices",
+    "id": "apoorv-kulkarni/initMe",
+    "language": "Shell",
+    "name": "apoorv-kulkarni/initMe",
+    "stars": 0,
+    "updated_at": "2026-06-23T06:44:50Z",
+    "url": "https://github.com/apoorv-kulkarni/initMe"
+  },
+  {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
     "id": "edsondviana8/ai-humanizer-core",
     "language": "HTML",
@@ -7,15 +25,6 @@
     "stars": 0,
     "updated_at": "2026-06-23T06:40:06Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-23T06:30:43Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -195,7 +204,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 50538,
+    "stars": 50569,
     "updated_at": "2026-06-23T00:52:07Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -519,14 +528,5 @@
     "stars": 117,
     "updated_at": "2026-06-21T00:25:13Z",
     "url": "https://github.com/Mark393295827/third-brain-v5-skills"
-  },
-  {
-    "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
-    "id": "Lolner95/AIGX",
-    "language": "JavaScript",
-    "name": "Lolner95/AIGX",
-    "stars": 24,
-    "updated_at": "2026-06-20T19:56:26Z",
-    "url": "https://github.com/Lolner95/AIGX"
   }
 ]
