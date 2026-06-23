@@ -1,12 +1,17 @@
 [
   {
-    "description": "Portable Agent Skill and npm CLI for building complete project documentation packs from a brief.",
-    "id": "m2kky/Project-Docs-Builder",
-    "language": "JavaScript",
-    "name": "m2kky/Project-Docs-Builder",
-    "stars": 0,
-    "updated_at": "2026-06-23T01:47:20Z",
-    "url": "https://github.com/m2kky/Project-Docs-Builder"
+    "cursorrules": {
+      "content": "---\ndescription: \"USE WHEN: any task in this repo. Global operating rules.\"\nglobs: [\"**/*\"]\nalwaysApply: true\npriority: 100\n---\n\n# Global Rules (Always On)\n\n## Role\nYou are an AI coding assistant. Deliver correct, minimal, testable changes. Surface uncertainty instead of hiding it.\n\n## Non\u2011Negotiables\n- **Correctness > simplicity > consistency > style**.\n- **Minimal diff**: touch only what the task needs.\n- **No drive\u2011by refactors**.\n- **Ask when ambiguous**: assumptions ledger + up to 3 questions.\n- **Stop** on security, data loss, or breaking changes; ask for confirmation.\n\n## Output Discipline\n- Provide a brief plan before changes.\n- Show verification steps (lint/typecheck/tests) and state what wasn\u2019t run.\n\n## Guardrails\n- No hard\u2011coded secrets.\n- No unrelated formatting or renaming.\n- No new dependencies without approval.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/00-global.mdc"
+    },
+    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
+    "id": "Luxvil/ai-coding-rules",
+    "language": "Shell",
+    "name": "Luxvil/ai-coding-rules",
+    "stars": 3,
+    "updated_at": "2026-06-23T02:15:07Z",
+    "url": "https://github.com/Luxvil/ai-coding-rules"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +19,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-23T01:45:43Z",
+    "updated_at": "2026-06-23T02:00:45Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Portable Agent Skill and npm CLI for building complete project documentation packs from a brief.",
+    "id": "m2kky/Project-Docs-Builder",
+    "language": "JavaScript",
+    "name": "m2kky/Project-Docs-Builder",
+    "stars": 0,
+    "updated_at": "2026-06-23T01:47:20Z",
+    "url": "https://github.com/m2kky/Project-Docs-Builder"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -45,7 +59,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 49952,
+    "stars": 49993,
     "updated_at": "2026-06-23T00:52:07Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -160,20 +174,6 @@
   },
   {
     "cursorrules": {
-      "content": "---\ndescription: \"USE WHEN: any task in this repo. Global operating rules.\"\nglobs: [\"**/*\"]\nalwaysApply: true\npriority: 100\n---\n\n# Global Rules (Always On)\n\n## Role\nYou are an AI coding assistant. Deliver correct, minimal, testable changes. Surface uncertainty instead of hiding it.\n\n## Non\u2011Negotiables\n- **Correctness > simplicity > consistency > style**.\n- **Minimal diff**: touch only what the task needs.\n- **No drive\u2011by refactors**.\n- **Ask when ambiguous**: assumptions ledger + up to 3 questions.\n- **Stop** on security, data loss, or breaking changes; ask for confirmation.\n\n## Output Discipline\n- Provide a brief plan before changes.\n- Show verification steps (lint/typecheck/tests) and state what wasn\u2019t run.\n\n## Guardrails\n- No hard\u2011coded secrets.\n- No unrelated formatting or renaming.\n- No new dependencies without approval.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/00-global.mdc"
-    },
-    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
-    "id": "Luxvil/ai-coding-rules",
-    "language": "Shell",
-    "name": "Luxvil/ai-coding-rules",
-    "stars": 3,
-    "updated_at": "2026-06-22T23:32:53Z",
-    "url": "https://github.com/Luxvil/ai-coding-rules"
-  },
-  {
-    "cursorrules": {
       "content": "---\ndescription: Use when you have two or more AI skills or rules (Claude SKILL.md files, Cursor .mdc rules, skill descriptions, or skill folders) and need to check whether they conflict \u2014 overlapping triggers, contradictory goals, undefined priority, incompatible workflows or output formats, clashing tool/script rules, mismatched safety boundaries or evidence standards, redundancy, scope creep, or naming ambiguity. Use when designing a skill set, when installed skills behave unpredictably, or when merging/splitting/renaming skills in a personal or team library. NOT for reviewing application source code, writing prose, or optimizing a single standalone prompt.\nalwaysApply: false\n---\n\n# Skill Conflict Auditor\n\n## Overview\n\nThis skill audits a **set of AI skills/rules** (Claude `SKILL.md` files, Cursor `.mdc` rules, and their supporting assets) for problems that only appear when several coexist: two skills firing on the same task, skills pulling toward opposite goals, no rule for who wins, incompatible step orders, clashing output formats, contradictory tool/script permissions, mismatched safety boundaries, and slow-drifting duplicated rules.\n\nCore principle: **most skill problems are not inside one skill \u2014 they are in the relationships between skills.** A skill that is perfect alone can become unsafe or unstable next to another. This auditor evaluates the *interactions*, not the individual quality of any single skill.\n\nThis is not general code review, not prose editing, and not single-prompt optimization. The unit of analysis is always two or more skills/rules compared against each other.\n\n## When to Use\n\n- The user provides multiple `SKILL.md` files or `.mdc` rules (or descriptions, or folder trees) and asks \"do these conflict?\"\n- The user is designing a group of skills/rules meant to work together and wants to catch collisions before shipping.\n- The user reports unstable or unpredictable behavior after installing several skills/rules (wrong one triggers, inconsistent output, contradictory actions).\n- The user wants to merge, split, rename, or reorganize an existing set of skills/rules.\n- The user is building a personal or team skill/rule library and wants a coherence/safety pass.\n\n**When NOT to use:** auditing a single skill in isolation (no second skill to compare against), reviewing normal application code, or rewriting one prompt/rule for quality.\n\n## Expected Inputs\n\nThe richer the input, the higher-confidence the audit. Ideal input includes:\n\n- **Skill/rule names** (all of them).\n- **Descriptions** (the YAML `description` / \"when to use\" text).\n- **Full skill/rule contents** (`SKILL.md` body or `.mdc` body) \u2014 strongly preferred; descriptions alone only support a preliminary audit.\n- **Folder structures** (optional) \u2014 reveals scripts, templates, references, examples, glob patterns.\n- **File lists for scripts / templates / references** (optional) \u2014 needed to catch tool and script conflicts.\n- **Real usage scenarios** (optional) \u2014 concrete situations where these skills/rules would be active at the same time. These expose trigger-overlap and priority conflicts that static reading misses.\n\nIf parts are missing, proceed with a clearly-labeled preliminary audit (see Behavior Rules) and list exactly what additional input would raise confidence.\n\n## Conflict Categories\n\nCheck every pair (and relevant groups) of skills/rules against all of the following. Do not stop at the first finding.\n\n1. **Trigger overlap** \u2014 descriptions, \"when to use\" sections, or `globs` are similar enough that both would be invoked for the same task, with no tiebreaker.\n2. **Goal conflict** \u2014 skills optimize for opposing objectives (e.g., speed/throughput vs. conservative/thorough review).\n3. **Priority conflict** \u2014 when two skills' rules disagree, nothing defines which one wins.\n4. **Workflow conflict** \u2014 required step orders are incompatible (e.g., one says produce final output first, another requires evidence/verification before any output).\n5. **Output format conflict** \u2014 skills mandate competing or mutually exclusive output structures for the same artifact.\n6. **Tool / script conflict** \u2014 scripts or tool-use rules collide (e.g., one formats the entire repository, another forbids touching unrelated files; one auto-runs a command another bans).\n7. **Safety boundary conflict** \u2014 one skill permits automatic sending, submitting, deleting, network access, or system modification while another requires explicit user confirmation for the same kind of action.\n8. **Evidence standard conflict** \u2014 one skill allows speculation/assumption while another requires verified evidence before claims.\n9. **Scope conflict** \u2014 one skill is so broad (or `alwaysApply: true`) that it overrides or absorbs more specific skills that should have handled the task.\n10. **Redundancy** \u2014 two skills serve nearly the same purpose and likely should be merged.\n11. **Naming ambiguity** \u2014 names are too vague, or too similar to each other, to disambiguate intent.\n12. **Hidden assumption conflict** \u2014 skills silently assume different platforms, environments, users, repos, or task conditions.\n13. **Maintenance risk** \u2014 the same rule is duplicated across skills and will drift out of sync over time.\n\n## Severity Levels\n\nAssign exactly one severity to each finding.\n\n- **High** \u2014 can cause an unsafe action, data loss, incorrect submission/sending/deletion, or wrong technical judgment. A safety-boundary, evidence-standard, or destructive/outbound difference defaults to High **only when the conflicting action is (a) reachable in a realistic shared workflow and (b) outbound, destructive, or otherwise hard to reverse.**\n- **Medium** \u2014 can cause unstable output, workflow confusion, inconsistent formatting, duplicated work, or inefficient execution, but not unsafe action.\n- **Low** \u2014 naming issues, unclear wording, mild acceptable-ish overlap, or minor redundancy with little practical impact.\n\n**Do not apply \"defaults to High\" mechanically.** Calibrate against reachability and reversibility, and prefer *merging* manifestations of one root cause over inflating the count (see \"Group findings by root cause\" below). A purely latent difference, or one that merely restates another finding's root cause, is downgraded or folded in rather than counted as a second High. When genuinely unsure between two levels, state the assumption that decides it and pick the higher level only if a real unsafe or irreversible action is in play.\n\n## Analysis Method\n\nFollow this process in order:\n\n1. **Identify the main purpose** of each skill (one sentence each).\n2. **Compare descriptions and trigger conditions** (including `globs`) \u2014 find overlaps and ambiguous boundaries.\n3. **Compare goals, optimization targets, and \"do not\" rules** \u2014 find opposing objectives.\n4. **Compare workflows and required step order** \u2014 find incompatible sequencing.\n5. **Compare output formats** \u2014 find competing mandated structures.\n6. **Compare tool, script, and file-access behavior** \u2014 find permission and scope collisions.\n7. **Compare safety boundaries and user-confirmation requirements** \u2014 find places one skill auto-acts where another requires confirmation.\n8. **Identify redundancy and merge opportunities** \u2014 find near-duplicate skills.\n9. **Group raw observations by root cause.** Where several observations trace to one underlying difference (e.g., a speed-vs-caution philosophy), collapse them into a single primary finding with related manifestations, instead of emitting many equal-weight rows.\n10. **Propose concrete fixes** \u2014 revised descriptions, explicit priority rules, scope limits, merges/splits, naming changes.\n\n## Output Format\n\nAlways produce the result using exactly this structure and these headings:\n\n```\n## Overall assessment\n\n(2\u20134 sentences: how many skills audited, how many findings by severity,\nthe single most important issue, and overall confidence given input completeness.)\n\n## Skill inventory\n\n| Skill | Main purpose | Trigger summary | Scope |\n| ----- | ----",
       "format": "mdc",
       "path": ".cursor/rules/skill-conflict-auditor.mdc"
@@ -192,7 +192,7 @@
     "language": "HTML",
     "name": "edsondviana8/ai-humanizer-core",
     "stars": 0,
-    "updated_at": "2026-06-22T23:12:23Z",
+    "updated_at": "2026-06-23T02:15:13Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
