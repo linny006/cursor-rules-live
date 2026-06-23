@@ -4,17 +4,17 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="index, follow, max-image-preview:large">
-<title>pekral/cursor-rules - entry on Cursor Rules Live</title>
-<meta name="description" content="PHP and Laravel Cursor rules — coding standards, testing, and conventions for the Cursor editor. Install via Composer.">
-<link rel="canonical" href="https://linny006.github.io/cursor-rules-live/r/pekral/cursor-rules/">
+<title>MicSm/ParselFire - entry on Cursor Rules Live</title>
+<meta name="description" content="Portable architectural guardrails for AI coding agents">
+<link rel="canonical" href="https://linny006.github.io/cursor-rules-live/r/MicSm/ParselFire/">
 <meta property="og:type" content="article">
-<meta property="og:title" content="pekral/cursor-rules - entry on Cursor Rules Live">
-<meta property="og:description" content="PHP and Laravel Cursor rules — coding standards, testing, and conventions for the Cursor editor. Install via Composer.">
-<meta property="og:url" content="https://linny006.github.io/cursor-rules-live/r/pekral/cursor-rules/">
+<meta property="og:title" content="MicSm/ParselFire - entry on Cursor Rules Live">
+<meta property="og:description" content="Portable architectural guardrails for AI coding agents">
+<meta property="og:url" content="https://linny006.github.io/cursor-rules-live/r/MicSm/ParselFire/">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="pekral/cursor-rules - entry on Cursor Rules Live">
-<meta name="twitter:description" content="PHP and Laravel Cursor rules — coding standards, testing, and conventions for the Cursor editor. Install via Composer.">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"pekral/cursor-rules","codeRepository":"https://github.com/pekral/cursor-rules","programmingLanguage":"PHP","url":"https://linny006.github.io/cursor-rules-live/r/pekral/cursor-rules/","description":"PHP and Laravel Cursor rules — coding standards, testing, and conventions for the Cursor editor. Install via Composer.","author":{"@type":"Person","name":"pekral","url":"https://github.com/pekral"},"dateModified":"2026-06-23"}</script>
+<meta name="twitter:title" content="MicSm/ParselFire - entry on Cursor Rules Live">
+<meta name="twitter:description" content="Portable architectural guardrails for AI coding agents">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"MicSm/ParselFire","codeRepository":"https://github.com/MicSm/ParselFire","programmingLanguage":"Python","url":"https://linny006.github.io/cursor-rules-live/r/MicSm/ParselFire/","description":"Portable architectural guardrails for AI coding agents","author":{"@type":"Person","name":"MicSm","url":"https://github.com/MicSm"},"dateModified":"2026-06-23"}</script>
 <style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
          --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
 * { box-sizing: border-box; }
@@ -41,31 +41,53 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 </head>
 <body>
 <div class="wrap">
-<nav class="bc"><a href="https://linny006.github.io/cursor-rules-live/">Cursor Rules Live</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/popular/">Entries</a> &#183; <span>pekral/cursor-rules</span></nav>
+<nav class="bc"><a href="https://linny006.github.io/cursor-rules-live/">Cursor Rules Live</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/popular/">Entries</a> &#183; <span>MicSm/ParselFire</span></nav>
 <main>
-<h1>pekral/cursor-rules</h1>
-<p class="lead">PHP and Laravel Cursor rules — coding standards, testing, and conventions for the Cursor editor. Install via Composer.</p>
+<h1>MicSm/ParselFire</h1>
+<p class="lead">Portable architectural guardrails for AI coding agents</p>
 <div class="meta">
-<span><strong>Stars</strong> 5</span>
-<span><strong>Language</strong> PHP</span>
+<span><strong>Stars</strong> 1</span>
+<span><strong>Language</strong> Python</span>
 <span><strong>Last updated</strong> 2026-06-23</span>
-<span><a href="https://github.com/pekral/cursor-rules" rel="external">Source on GitHub</a></span>
-<span><a href="https://github.com/pekral" rel="external">@pekral</a></span>
+<span><a href="https://github.com/MicSm/ParselFire" rel="external">Source on GitHub</a></span>
+<span><a href="https://github.com/MicSm" rel="external">@MicSm</a></span>
 </div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/parselfire-cpp-routing.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
+description: Activate ParselFire C++ pack index
+globs: **/*.{cc,cpp,cxx,hh,hpp,hxx,ipp,tpp,inl}
+alwaysApply: false
+---
+
+# C++ Pack Activation
+
+For C++ source files:
+
+- Load `packs/cpp-architecture/pack.urf.md`.
+- Use its `## ROUTING` and `## LEAVES` records for leaf selection.
+
+For ambiguous `.h` or `.c` files that reach this rule via the always-on router:
+
+- Apply cpp-architecture only if the file contains C++ constructs (class, template, namespace, references, std::, noexcept, overloads).
+- If the file is plain C, stay on universal only.
+</code></pre>
+<p><a href="https://github.com/MicSm/ParselFire/blob/HEAD/.cursor/rules/parselfire-cpp-routing.mdc" rel="external">View raw on GitHub</a></p>
+</section>
 <section><h2>Why this is listed</h2>
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>
 <ul class="crosslinks">
-<li><a href="https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/">DietrichGebert/ponytail (stars:51384)</a></li>
 <li><a href="https://linny006.github.io/cursor-rules-live/r/wshobson/agents/">wshobson/agents (stars:37082)</a></li>
 <li><a href="https://linny006.github.io/cursor-rules-live/r/MohamedAbdallah-14/unslop/">MohamedAbdallah-14/unslop (stars:63)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/KbWen/agentic-os/">KbWen/agentic-os (stars:27)</a></li>
 </ul></section>
 <section><h2>Explore by category</h2>
 <ul class="crosslinks">
 <li><a href="https://linny006.github.io/cursor-rules-live/popular/">Popular (by stars)</a></li>
 <li><a href="https://linny006.github.io/cursor-rules-live/recent/">Recent (by activity)</a></li>
 <li><a href="https://linny006.github.io/cursor-rules-live/new/">New this week</a></li>
-<li><a href="https://linny006.github.io/cursor-rules-live/lang/php/">All PHP entries</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/lang/python/">All Python entries</a></li>
 </ul></section>
 </main>
 <footer>
