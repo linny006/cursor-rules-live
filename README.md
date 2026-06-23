@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-06-23 17:15 UTC
+> ⏰ Last updated: 2026-06-23 17:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -56,7 +56,7 @@ expired items removed — so you can rely on what you see being current.
 | 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-06-23 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
 | 2 | [TheoV823/mneme](https://github.com/TheoV823/mneme) | 16 | HTML | 2026-06-23 | — | Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior |
 | 3 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 1 | HTML | 2026-06-23 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 4 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 51935 | JavaScript | 2026-06-23 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 4 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 51965 | JavaScript | 2026-06-23 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 5 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 0 | HTML | 2026-06-23 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
 | 6 | [MicSm/ParselFire](https://github.com/MicSm/ParselFire) | 1 | Python | 2026-06-23 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/MicSm/ParselFire/) | Portable architectural guardrails for AI coding agents |
 | 7 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-06-23 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
@@ -82,7 +82,7 @@ expired items removed — so you can rely on what you see being current.
 | 27 | [GeiserX/lynxprompt-mcp](https://github.com/GeiserX/lynxprompt-mcp) | 1 | Go | 2026-06-23 | — | MCP Server for LynxPrompt — browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP |
 | 28 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 5 | TypeScript | 2026-06-23 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
 | 29 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 18 | — | 2026-06-23 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
-| 30 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 27 | Python | 2026-06-23 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
+| 30 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 28 | Python | 2026-06-23 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
 | 31 | [apoorv-kulkarni/initMe](https://github.com/apoorv-kulkarni/initMe) | 0 | Shell | 2026-06-23 | — | I got tired moving configs between devices |
 | 32 | [kensaurus/cursor-kenji](https://github.com/kensaurus/cursor-kenji) | 4 | JavaScript | 2026-06-23 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/kensaurus/cursor-kenji/) | Curated Cursor AI agent skills, slash commands, MCP configs, subagents & rules for full-stack dev — React 19, Next.js 15 |
 | 33 | [fluzzy/archive](https://github.com/fluzzy/archive) | 0 | — | 2026-06-23 | — | Curated rules, guides, and resources for AI coding agents — Claude Code, prompts, MCP, skills, and best practices |
@@ -90,7 +90,7 @@ expired items removed — so you can rely on what you see being current.
 | 35 | [caioribeiroclw-pixel/pluribus](https://github.com/caioribeiroclw-pixel/pluribus) | 7 | JavaScript | 2026-06-23 | — | Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security |
 | 36 | [powersync-ja/agent-skills](https://github.com/powersync-ja/agent-skills) | 16 | JavaScript | 2026-06-23 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/powersync-ja/agent-skills/) | Official agent skills for PowerSync |
 | 37 | [lawrence3699/skill-conflict-auditor](https://github.com/lawrence3699/skill-conflict-auditor) | 0 | Python | 2026-06-22 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/lawrence3699/skill-conflict-auditor/) | A Claude/Agent Skill that audits a set of AI skills (SKILL.md files) for conflicts, overlaps, redundancy, unclear priori |
-| 38 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 14 | Shell | 2026-06-22 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
+| 38 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 15 | Shell | 2026-06-22 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
 | 39 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 9 | Shell | 2026-06-22 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | 59 agent skills for high-integrity, spec-driven, test-first software development by solo developers.  bigpowers provides |
 | 40 | [fluttersdk/wind](https://github.com/fluttersdk/wind) | 21 | Dart | 2026-06-22 | — | Tailwind CSS for Flutter — classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code  |
 | 41 | [glowElephant/context-forge](https://github.com/glowElephant/context-forge) | 2 | Python | 2026-06-22 | — | Auto harness engineering meta-repo: discuss → curate → bootstrap a context-engineered project for Claude Code, Cursor, C |
