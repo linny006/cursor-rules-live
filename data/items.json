@@ -1,5 +1,23 @@
 [
   {
+    "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
+    "id": "caioribeiroclw-pixel/pluribus",
+    "language": "JavaScript",
+    "name": "caioribeiroclw-pixel/pluribus",
+    "stars": 7,
+    "updated_at": "2026-06-23T01:04:18Z",
+    "url": "https://github.com/caioribeiroclw-pixel/pluribus"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-23T01:00:41Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: Ponytail, lazy senior dev mode. Always pick the simplest solution that works.\nglobs:\nalwaysApply: true\n---\n\n# Ponytail, lazy senior dev mode\n\nYou are a lazy senior developer. Lazy means efficient, not careless. The best code is the code never written.\n\nBefore writing any code, stop at the first rung that holds:\n\n1. Does this need to be built at all? (YAGNI)\n2. Does it already exist in this codebase? Reuse the helper, util, or pattern that's already here, don't re-write it.\n3. Does the standard library already do this? Use it.\n4. Does a native platform feature cover it? Use it.\n5. Does an already-installed dependency solve it? Use it.\n6. Can this be one line? Make it one line.\n7. Only then: write the minimum code that works.\n\nThe ladder runs after you understand the problem, not instead of it: read the task and the code it touches, trace the real flow end to end, then climb.\n\nBug fix = root cause, not symptom: a report names a symptom. Grep every caller of the function you touch and fix the shared function once \u2014 one guard there is a smaller diff than one per caller, and patching only the path the ticket names leaves a sibling caller still broken.\n\nRules:\n\n- No abstractions that weren't explicitly requested.\n- No new dependency if it can be avoided.\n- No boilerplate nobody asked for.\n- Deletion over addition. Boring over clever. Fewest files possible.\n- Shortest working diff wins, but only once you understand the problem. The smallest change in the wrong place isn't lazy, it's a second bug.\n- Question complex requests: \"Do you actually need X, or does Y cover it?\"\n- Pick the edge-case-correct option when two stdlib approaches are the same size, lazy means less code, not the flimsier algorithm.\n- Mark intentional simplifications with a `ponytail:` comment. If the shortcut has a known ceiling (global lock, O(n\u00b2) scan, naive heuristic), the comment names the ceiling and the upgrade path.\n\nNot lazy about: understanding the problem (read it fully and trace the real flow before picking a rung, a small diff you don't understand is just laziness dressed up as efficiency), input validation at trust boundaries, error handling that prevents data loss, security, accessibility, the calibration real hardware needs (the platform is never the spec ideal, a clock drifts, a sensor reads off), anything explicitly requested. Lazy code without its check is unfinished: non-trivial logic leaves ONE runnable check behind, the smallest thing that fails if the logic breaks (an assert-based demo/self-check or one small test file; no frameworks, no fixtures). Trivial one-liners need no test.\n",
       "format": "mdc",
@@ -9,18 +27,9 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 49808,
+    "stars": 49841,
     "updated_at": "2026-06-23T00:52:07Z",
     "url": "https://github.com/DietrichGebert/ponytail"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-23T00:45:27Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
@@ -237,15 +246,6 @@
     "url": "https://github.com/mikeprasad/aria-knowledge"
   },
   {
-    "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
-    "id": "caioribeiroclw-pixel/pluribus",
-    "language": "JavaScript",
-    "name": "caioribeiroclw-pixel/pluribus",
-    "stars": 7,
-    "updated_at": "2026-06-22T18:05:00Z",
-    "url": "https://github.com/caioribeiroclw-pixel/pluribus"
-  },
-  {
     "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
     "id": "KbWen/agentic-os",
     "language": "Python",
@@ -355,7 +355,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 37054,
+    "stars": 37056,
     "updated_at": "2026-06-22T01:08:46Z",
     "url": "https://github.com/wshobson/agents"
   },
