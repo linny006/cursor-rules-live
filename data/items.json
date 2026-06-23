@@ -1,11 +1,20 @@
 [
   {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 18,
+    "updated_at": "2026-06-23T08:36:24Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-23T08:15:49Z",
+    "updated_at": "2026-06-23T08:30:38Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -213,7 +222,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 50786,
+    "stars": 50814,
     "updated_at": "2026-06-23T00:52:07Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -260,7 +269,7 @@
     "language": "TypeScript",
     "name": "GeiserX/n8n-nodes-lynxprompt",
     "stars": 1,
-    "updated_at": "2026-06-22T22:57:55Z",
+    "updated_at": "2026-06-23T08:32:26Z",
     "url": "https://github.com/GeiserX/n8n-nodes-lynxprompt"
   },
   {
@@ -276,15 +285,6 @@
     "stars": 0,
     "updated_at": "2026-06-22T22:22:10Z",
     "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
-  },
-  {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 18,
-    "updated_at": "2026-06-22T21:38:38Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
@@ -410,7 +410,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 37068,
+    "stars": 37070,
     "updated_at": "2026-06-22T01:08:46Z",
     "url": "https://github.com/wshobson/agents"
   },
