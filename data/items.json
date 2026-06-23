@@ -1,12 +1,21 @@
 [
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
+    "description": "n8n community node for LynxPrompt \u2014 manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via API",
+    "id": "GeiserX/n8n-nodes-lynxprompt",
+    "language": "TypeScript",
+    "name": "GeiserX/n8n-nodes-lynxprompt",
+    "stars": 1,
+    "updated_at": "2026-06-23T13:53:06Z",
+    "url": "https://github.com/GeiserX/n8n-nodes-lynxprompt"
+  },
+  {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
     "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 0,
-    "updated_at": "2026-06-23T13:36:39Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 1,
+    "updated_at": "2026-06-23T13:47:36Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +23,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-23T13:30:34Z",
+    "updated_at": "2026-06-23T13:45:50Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-06-23T13:36:39Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
@@ -205,15 +223,6 @@
     "url": "https://github.com/GeiserX/homebrew-lynxprompt"
   },
   {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 1,
-    "updated_at": "2026-06-23T10:44:46Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
     "description": "VS Code extension for LynxPrompt \u2014 browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules) ",
     "id": "GeiserX/lynxprompt-vscode",
     "language": "TypeScript",
@@ -230,15 +239,6 @@
     "stars": 1,
     "updated_at": "2026-06-23T10:43:12Z",
     "url": "https://github.com/GeiserX/lynxprompt-mcp"
-  },
-  {
-    "description": "n8n community node for LynxPrompt \u2014 manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via API",
-    "id": "GeiserX/n8n-nodes-lynxprompt",
-    "language": "TypeScript",
-    "name": "GeiserX/n8n-nodes-lynxprompt",
-    "stars": 1,
-    "updated_at": "2026-06-23T12:43:45Z",
-    "url": "https://github.com/GeiserX/n8n-nodes-lynxprompt"
   },
   {
     "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
@@ -327,7 +327,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 51487,
+    "stars": 51533,
     "updated_at": "2026-06-23T00:52:07Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
