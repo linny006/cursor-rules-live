@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-06-23 14:15 UTC
+> ⏰ Last updated: 2026-06-23 14:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -85,12 +85,12 @@ expired items removed — so you can rely on what you see being current.
 | 30 | [fluzzy/archive](https://github.com/fluzzy/archive) | 0 | — | 2026-06-23 | — | Curated rules, guides, and resources for AI coding agents — Claude Code, prompts, MCP, skills, and best practices |
 | 31 | [m2kky/Project-Docs-Builder](https://github.com/m2kky/Project-Docs-Builder) | 1 | JavaScript | 2026-06-23 | — | Portable Agent Skill and npm CLI for building complete project documentation packs from a brief. |
 | 32 | [caioribeiroclw-pixel/pluribus](https://github.com/caioribeiroclw-pixel/pluribus) | 7 | JavaScript | 2026-06-23 | — | Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security |
-| 33 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 51562 | JavaScript | 2026-06-23 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 33 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 51599 | JavaScript | 2026-06-23 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 34 | [powersync-ja/agent-skills](https://github.com/powersync-ja/agent-skills) | 16 | JavaScript | 2026-06-23 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/powersync-ja/agent-skills/) | Official agent skills for PowerSync |
 | 35 | [lawrence3699/skill-conflict-auditor](https://github.com/lawrence3699/skill-conflict-auditor) | 0 | Python | 2026-06-22 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/lawrence3699/skill-conflict-auditor/) | A Claude/Agent Skill that audits a set of AI skills (SKILL.md files) for conflicts, overlaps, redundancy, unclear priori |
 | 36 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 14 | Shell | 2026-06-22 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
 | 37 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 9 | Shell | 2026-06-22 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | 59 agent skills for high-integrity, spec-driven, test-first software development by solo developers.  bigpowers provides |
-| 38 | [TheoV823/mneme](https://github.com/TheoV823/mneme) | 16 | HTML | 2026-06-22 | — | Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior |
+| 38 | [TheoV823/mneme](https://github.com/TheoV823/mneme) | 16 | HTML | 2026-06-23 | — | Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior |
 | 39 | [fluttersdk/wind](https://github.com/fluttersdk/wind) | 21 | Dart | 2026-06-22 | — | Tailwind CSS for Flutter — classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code  |
 | 40 | [glowElephant/context-forge](https://github.com/glowElephant/context-forge) | 2 | Python | 2026-06-22 | — | Auto harness engineering meta-repo: discuss → curate → bootstrap a context-engineered project for Claude Code, Cursor, C |
 | 41 | [Bilal140202/the-lord-of-the-skills](https://github.com/Bilal140202/the-lord-of-the-skills) | 2 | Python | 2026-06-22 | — | ⚔ 18,142+ AI agent skills from 307+ GitHub repos across 14 frameworks (Claude Code, Cursor, Cline, Roo, Aider, OpenHands |
