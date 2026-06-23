@@ -14,7 +14,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="PiloTracer/.ai - entry on Cursor Rules Live">
 <meta name="twitter:description" content="Portable process framework for software teams shipping with coding agents (Cursor, Claude Code, Codex, opencode). Skills">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"PiloTracer/.ai","codeRepository":"https://github.com/PiloTracer/.ai","programmingLanguage":"Shell","url":"https://linny006.github.io/cursor-rules-live/r/PiloTracer/.ai/","description":"Portable process framework for software teams shipping with coding agents (Cursor, Claude Code, Codex, opencode). Skills","author":{"@type":"Person","name":"PiloTracer","url":"https://github.com/PiloTracer"},"dateModified":"2026-06-21"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"PiloTracer/.ai","codeRepository":"https://github.com/PiloTracer/.ai","programmingLanguage":"Shell","url":"https://linny006.github.io/cursor-rules-live/r/PiloTracer/.ai/","description":"Portable process framework for software teams shipping with coding agents (Cursor, Claude Code, Codex, opencode). Skills","author":{"@type":"Person","name":"PiloTracer","url":"https://github.com/PiloTracer"},"dateModified":"2026-06-23"}</script>
 <style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
          --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
 * { box-sizing: border-box; }
@@ -48,7 +48,7 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <div class="meta">
 <span><strong>Stars</strong> 0</span>
 <span><strong>Language</strong> Shell</span>
-<span><strong>Last updated</strong> 2026-06-21</span>
+<span><strong>Last updated</strong> 2026-06-23</span>
 <span><a href="https://github.com/PiloTracer/.ai" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/PiloTracer" rel="external">@PiloTracer</a></span>
 </div>
@@ -64,7 +64,7 @@ You are not a yes-machine. You are a trusted advisor whose sole objective is the
 
 # AI Agent Rules — REPLACE:PROJECT_NAME
 
-&gt; **Bootstrap:** Copy this file from `.ai/templates/cursorrules.template` to the **repository root** as `.cursorrules`, then replace every `REPLACE:` token below.
+&gt; **Bootstrap:** Copy this file from `templates/cursorrules.template` to the **repository root** as `.cursorrules`, then replace every `REPLACE:` token below.
 
 ## Core Principles (ALWAYS APPLY)
 
@@ -119,26 +119,28 @@ These principles override all other instructions. They are non-negotiable.
 
 ## Required Context Files
 
-**Lost or unsure what to do? Read [`.ai/START_HERE.md`](.ai/START_HERE.md) first** — operator decision tree and recovery guide.
+**Lost or unsure what to do? Read [`START_HERE.md`](START_HERE.md) first** — operator decision tree and recovery guide.
+
+**Free-text entry points:** If you don&#x27;t know which skill to run, invoke `@ai-director - &lt;describe what you want&gt;` (Agent OS), `@ui-director - &lt;describe what you want&gt;` (UI Design OS), `@biz-director - &lt;describe what you want&gt;` (Business OS), or `@x-director - &lt;describe what you want&gt;` when the work spans frameworks.
 
 Read these at the start of every conversation and when relevant:
 
 | File | Purpose |
 |------|---------|
-| **`.ai/START_HERE.md`** | What to invoke right now; forgetfulness checklist |
-| **`.ai/PROCESS_ROUTER.md`** | Process Q&amp;A; `@process-router` vs `@session-control status` |
+| **`START_HERE.md`** | What to invoke right now; forgetfulness checklist |
+| **`PROCESS_ROUTER.md`** | Process Q&amp;A; `@process-router` vs `@session-control status`; director fallbacks |
 | **`REPLACE:TECH_STACK_DOC`** | Technology stack (e.g. `DOCS_TECH_STACK.md` at repo root) |
-| **`.ai/standards/REPLACE:CONVENTIONS_FILE`** | Code layout, naming, maintainability |
-| **`.ai/standards/REPLACE:FEATURE_STANDARD_FILE`** | Feature SPEC lifecycle |
-| **`.ai/standards/REPLACE:DIRECTORY_MAP_FILE`** | Repository layout and boundaries |
+| **`standards/REPLACE:CONVENTIONS_FILE`** | Code layout, naming, maintainability |
+| **`standards/REPLACE:FEATURE_STANDARD_FILE`** | Feature SPEC lifecycle |
+| **`standards/REPLACE:DIRECTORY_MAP_FILE`** | Repository layout and boundaries |
 | **`.work/context/HANDOFF.md`** | Session handoff (session-control read/write) |
-| **`.ai/docs/guides/workflows/README.md`** | Workflow index and artifact matrix |
+| **`docs/guides/workflows/README.md`** | Workflow index and artifact matrix |
 
 ### Workflow bootstrap (concepts + guides)
 
-Portable process docs: **`.ai/docs/guides/workflows/README.md`** (artifact matrix). Curriculum: **`20260518-guide-workflows-index.md`** (when present). Tutorials: **`20260518-tutorial-*`**. Reference guides: **`20260518-guide-*`**.
+Portable process docs: **`docs/guides/workflows/README.md`** (artifact matrix). Curriculum: **`20260518-guide-workflows-index.md`** (when present). Tutorials: **`20260518-tutorial-*`**. Reference guides: **`20260518-guide-*`**.
 
-**Concept pack:** `.ai/concepts/README.md` (MOD-01–MOD-06). When a change touches **architecture, coupling, latency chains, cost, ops load, or AI-generated code**: list applicable concept ids, run matching `prompt.md` under `.ai/concepts/&lt;name&gt;/`, attach outputs to the PR or **`### Concept / NFR registry`** in `.work/plans/NEXT.md`; tag quantitative claims with `measured` | `estimated` | `assumption` | `unknown`.
+**Concept pack:** `concepts/README.md` (MOD-01–MOD-06). When a change touches **architecture, coupling, latency chains, cost, ops load, or AI-generated code**: list applicable concept ids, run matching `prompt.md` under `concepts/&lt;name&gt;/`, attach outputs to the PR or **`### Concept / NFR registry`** in `.work/plans/NEXT.md`; tag quantitative claims with `measured` | `estimated` | `assumption` | `unknown`.
 
 **Placeholder quick map (customize for this repository):**
 
@@ -152,11 +154,7 @@ Portable process docs: **`.ai/docs/guides/workflows/README.md`** (artifact matri
 | `{ITERATION_CARRIER}` | `.work/plans/NEXT.md` |
 | `{MASTER_PLAN}` | `.work/plans/full/*-full-plan.md` (latest **Approved**) |
 | `{HANDOFF}` | `.work/context/HANDOFF.md` |
-| `{CONCEPTS_ROOT}` | `.ai/concepts/` |
-| `{SKILLS_ROOT}` | `.ai/skills/` |
-| `{OBSERVABILITY_SPEC}` | REPLACE:OBSERVABILITY_SPEC_PATH (e.g. `.ai/standards/YYYYMMDD-observability-spec.md`) |
-| `{BOUNDARY_MAP}` | REPLACE:BOUNDARY_MAP_PATH (directory map or dedicated boundary doc) |
-| `{AGENT_RULES_FILE}` | **`.</code></pre>
+| `{CONCEPTS_ROOT}`</code></pre>
 <p><em>Content truncated. View full file in the source repo (linked above).</em></p><p><a href="https://github.com/PiloTracer/.ai/blob/HEAD/.cursorrules" rel="external">View raw on GitHub</a></p>
 </section>
 <section><h2>Why this is listed</h2>
