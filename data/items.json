@@ -1,21 +1,21 @@
 [
   {
-    "description": "Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior",
-    "id": "TheoV823/mneme",
-    "language": "HTML",
-    "name": "TheoV823/mneme",
-    "stars": 16,
-    "updated_at": "2026-06-23T16:54:10Z",
-    "url": "https://github.com/TheoV823/mneme"
-  },
-  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-23T16:45:50Z",
+    "updated_at": "2026-06-23T17:00:34Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior",
+    "id": "TheoV823/mneme",
+    "language": "HTML",
+    "name": "TheoV823/mneme",
+    "stars": 16,
+    "updated_at": "2026-06-23T17:03:24Z",
+    "url": "https://github.com/TheoV823/mneme"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -36,7 +36,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 51913,
+    "stars": 51935,
     "updated_at": "2026-06-23T16:29:54Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
