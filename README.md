@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-06-23 05:45 UTC
+> ⏰ Last updated: 2026-06-23 06:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -72,7 +72,7 @@ expired items removed — so you can rely on what you see being current.
 | 17 | [m2kky/Project-Docs-Builder](https://github.com/m2kky/Project-Docs-Builder) | 0 | JavaScript | 2026-06-23 | — | Portable Agent Skill and npm CLI for building complete project documentation packs from a brief. |
 | 18 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 1 | HTML | 2026-06-23 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
 | 19 | [caioribeiroclw-pixel/pluribus](https://github.com/caioribeiroclw-pixel/pluribus) | 7 | JavaScript | 2026-06-23 | — | Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security |
-| 20 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 50407 | JavaScript | 2026-06-23 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 20 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 50435 | JavaScript | 2026-06-23 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 21 | [powersync-ja/agent-skills](https://github.com/powersync-ja/agent-skills) | 16 | JavaScript | 2026-06-23 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/powersync-ja/agent-skills/) | Official agent skills for PowerSync |
 | 22 | [lawrence3699/skill-conflict-auditor](https://github.com/lawrence3699/skill-conflict-auditor) | 0 | Python | 2026-06-22 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/lawrence3699/skill-conflict-auditor/) | A Claude/Agent Skill that audits a set of AI skills (SKILL.md files) for conflicts, overlaps, redundancy, unclear priori |
 | 23 | [GeiserX/lynxprompt-vscode](https://github.com/GeiserX/lynxprompt-vscode) | 1 | TypeScript | 2026-06-22 | — | VS Code extension for LynxPrompt — browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules)  |
