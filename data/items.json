@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-23T14:00:53Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "n8n community node for LynxPrompt \u2014 manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via API",
     "id": "GeiserX/n8n-nodes-lynxprompt",
     "language": "TypeScript",
@@ -16,15 +25,6 @@
     "stars": 1,
     "updated_at": "2026-06-23T13:47:36Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-23T13:45:50Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -327,7 +327,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 51533,
+    "stars": 51540,
     "updated_at": "2026-06-23T00:52:07Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
