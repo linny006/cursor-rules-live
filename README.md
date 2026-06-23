@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-06-23 08:45 UTC
+> ⏰ Last updated: 2026-06-23 09:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,8 +53,8 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 18 | — | 2026-06-23 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-06-23 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-06-23 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 18 | — | 2026-06-23 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
 | 3 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 27 | Python | 2026-06-23 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
 | 4 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-06-23 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
 | 5 | [GeiserX/lynxprompt-vscode](https://github.com/GeiserX/lynxprompt-vscode) | 1 | TypeScript | 2026-06-23 | — | VS Code extension for LynxPrompt — browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules)  |
@@ -75,7 +75,7 @@ expired items removed — so you can rely on what you see being current.
 | 20 | [fluzzy/archive](https://github.com/fluzzy/archive) | 0 | — | 2026-06-23 | — | Curated rules, guides, and resources for AI coding agents — Claude Code, prompts, MCP, skills, and best practices |
 | 21 | [m2kky/Project-Docs-Builder](https://github.com/m2kky/Project-Docs-Builder) | 1 | JavaScript | 2026-06-23 | — | Portable Agent Skill and npm CLI for building complete project documentation packs from a brief. |
 | 22 | [caioribeiroclw-pixel/pluribus](https://github.com/caioribeiroclw-pixel/pluribus) | 7 | JavaScript | 2026-06-23 | — | Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security |
-| 23 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 50814 | JavaScript | 2026-06-23 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 23 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 50838 | JavaScript | 2026-06-23 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 24 | [powersync-ja/agent-skills](https://github.com/powersync-ja/agent-skills) | 16 | JavaScript | 2026-06-23 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/powersync-ja/agent-skills/) | Official agent skills for PowerSync |
 | 25 | [lawrence3699/skill-conflict-auditor](https://github.com/lawrence3699/skill-conflict-auditor) | 0 | Python | 2026-06-22 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/lawrence3699/skill-conflict-auditor/) | A Claude/Agent Skill that audits a set of AI skills (SKILL.md files) for conflicts, overlaps, redundancy, unclear priori |
 | 26 | [GeiserX/lynxprompt-mcp](https://github.com/GeiserX/lynxprompt-mcp) | 1 | Go | 2026-06-23 | — | MCP Server for LynxPrompt — browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP |

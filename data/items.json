@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-23T08:45:38Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
     "id": "J-nowcow/awesome-korean-agent-skills",
     "language": "\u2014",
@@ -7,15 +16,6 @@
     "stars": 18,
     "updated_at": "2026-06-23T08:36:24Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-23T08:30:38Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
@@ -222,7 +222,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 50814,
+    "stars": 50838,
     "updated_at": "2026-06-23T00:52:07Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
