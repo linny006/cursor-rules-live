@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-06-23 08:03 UTC
+> ⏰ Last updated: 2026-06-23 08:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -74,7 +74,7 @@ expired items removed — so you can rely on what you see being current.
 | 19 | [fluzzy/archive](https://github.com/fluzzy/archive) | 0 | — | 2026-06-23 | — | Curated rules, guides, and resources for AI coding agents — Claude Code, prompts, MCP, skills, and best practices |
 | 20 | [m2kky/Project-Docs-Builder](https://github.com/m2kky/Project-Docs-Builder) | 1 | JavaScript | 2026-06-23 | — | Portable Agent Skill and npm CLI for building complete project documentation packs from a brief. |
 | 21 | [caioribeiroclw-pixel/pluribus](https://github.com/caioribeiroclw-pixel/pluribus) | 7 | JavaScript | 2026-06-23 | — | Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security |
-| 22 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 50725 | JavaScript | 2026-06-23 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 22 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 50754 | JavaScript | 2026-06-23 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 23 | [powersync-ja/agent-skills](https://github.com/powersync-ja/agent-skills) | 16 | JavaScript | 2026-06-23 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/powersync-ja/agent-skills/) | Official agent skills for PowerSync |
 | 24 | [lawrence3699/skill-conflict-auditor](https://github.com/lawrence3699/skill-conflict-auditor) | 0 | Python | 2026-06-22 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/lawrence3699/skill-conflict-auditor/) | A Claude/Agent Skill that audits a set of AI skills (SKILL.md files) for conflicts, overlaps, redundancy, unclear priori |
 | 25 | [GeiserX/lynxprompt-mcp](https://github.com/GeiserX/lynxprompt-mcp) | 1 | Go | 2026-06-22 | — | MCP Server for LynxPrompt — browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP |
@@ -92,7 +92,7 @@ expired items removed — so you can rely on what you see being current.
 | 37 | [glowElephant/context-forge](https://github.com/glowElephant/context-forge) | 2 | Python | 2026-06-22 | — | Auto harness engineering meta-repo: discuss → curate → bootstrap a context-engineered project for Claude Code, Cursor, C |
 | 38 | [Bilal140202/the-lord-of-the-skills](https://github.com/Bilal140202/the-lord-of-the-skills) | 2 | Python | 2026-06-22 | — | ⚔ 18,142+ AI agent skills from 307+ GitHub repos across 14 frameworks (Claude Code, Cursor, Cline, Roo, Aider, OpenHands |
 | 39 | [MohamedAbdallah-14/unslop](https://github.com/MohamedAbdallah-14/unslop) | 63 | Python | 2026-06-22 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/MohamedAbdallah-14/unslop/) | Make AI output sound human. Strips AI-isms (sycophancy, stock vocab, hedging stacks, em-dash pileups), preserves code/UR |
-| 40 | [wshobson/agents](https://github.com/wshobson/agents) | 37066 | Python | 2026-06-22 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI |
+| 40 | [wshobson/agents](https://github.com/wshobson/agents) | 37068 | Python | 2026-06-22 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI |
 | 41 | [Oscarr36/ReadMeAI](https://github.com/Oscarr36/ReadMeAI) | 3 | Shell | 2026-06-21 | — | Drop .readmeAI in any project. AI reads it first, every session — no re-explaining, no context drift. Works with Claude, |
 | 42 | [balacodeio/balakit](https://github.com/balacodeio/balakit) | 0 | JavaScript | 2026-06-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/balacodeio/balakit/) | Opinionated, cross-agent rules and skills for AI coding agents — one npx install into Cursor, Claude Code, Codex, OpenCo |
 | 43 | [PiloTracer/.ai](https://github.com/PiloTracer/.ai) | 0 | Shell | 2026-06-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/PiloTracer/.ai/) | Portable process framework for software teams shipping with coding agents (Cursor, Claude Code, Codex, opencode). Skills |
