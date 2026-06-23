@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-23T08:15:49Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
     "id": "KbWen/agentic-os",
     "language": "Python",
@@ -7,15 +16,6 @@
     "stars": 27,
     "updated_at": "2026-06-23T08:10:52Z",
     "url": "https://github.com/KbWen/agentic-os"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-23T08:03:57Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
@@ -32,7 +32,7 @@
     "language": "TypeScript",
     "name": "GeiserX/lynxprompt-vscode",
     "stars": 1,
-    "updated_at": "2026-06-23T07:59:30Z",
+    "updated_at": "2026-06-23T08:30:01Z",
     "url": "https://github.com/GeiserX/lynxprompt-vscode"
   },
   {
@@ -213,7 +213,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 50754,
+    "stars": 50786,
     "updated_at": "2026-06-23T00:52:07Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -251,7 +251,7 @@
     "language": "Go",
     "name": "GeiserX/lynxprompt-mcp",
     "stars": 1,
-    "updated_at": "2026-06-22T22:58:31Z",
+    "updated_at": "2026-06-23T08:29:13Z",
     "url": "https://github.com/GeiserX/lynxprompt-mcp"
   },
   {
@@ -356,7 +356,7 @@
     "language": "Ruby",
     "name": "GeiserX/homebrew-lynxprompt",
     "stars": 1,
-    "updated_at": "2026-06-22T11:18:38Z",
+    "updated_at": "2026-06-23T08:24:27Z",
     "url": "https://github.com/GeiserX/homebrew-lynxprompt"
   },
   {
