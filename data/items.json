@@ -5,7 +5,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-23T18:30:36Z",
+    "updated_at": "2026-06-23T18:33:15Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -16,6 +16,15 @@
     "stars": 0,
     "updated_at": "2026-06-23T18:29:26Z",
     "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
+  },
+  {
+    "description": "The workflow framework for AI-assisted development. Four operating modes, 25 golden rules, and anti-hallucination guardr",
+    "id": "ashp15205/vibe-coding-essentials",
+    "language": "\u2014",
+    "name": "ashp15205/vibe-coding-essentials",
+    "stars": 0,
+    "updated_at": "2026-06-23T18:25:21Z",
+    "url": "https://github.com/ashp15205/vibe-coding-essentials"
   },
   {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
@@ -72,7 +81,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 52027,
+    "stars": 52042,
     "updated_at": "2026-06-23T18:05:35Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -277,7 +286,7 @@
     "id": "philipbankier/awesome-agent-skills",
     "language": "TypeScript",
     "name": "philipbankier/awesome-agent-skills",
-    "stars": 5,
+    "stars": 6,
     "updated_at": "2026-06-23T10:32:45Z",
     "url": "https://github.com/philipbankier/awesome-agent-skills"
   },
@@ -406,7 +415,7 @@
     "language": "Dart",
     "name": "fluttersdk/wind",
     "stars": 21,
-    "updated_at": "2026-06-22T11:20:46Z",
+    "updated_at": "2026-06-23T18:34:47Z",
     "url": "https://github.com/fluttersdk/wind"
   },
   {
@@ -451,7 +460,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 37089,
+    "stars": 37090,
     "updated_at": "2026-06-22T01:08:46Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -514,14 +523,5 @@
     "stars": 0,
     "updated_at": "2026-06-21T15:07:55Z",
     "url": "https://github.com/Jlosev/cursor-rules"
-  },
-  {
-    "description": "3D printing toolkit \u2014 AI-powered design skills for Claude Code, Cursor, Windsurf & Copilot, plus parametric OpenSCAD mod",
-    "id": "wilsonwaters/3d-printing",
-    "language": "OpenSCAD",
-    "name": "wilsonwaters/3d-printing",
-    "stars": 0,
-    "updated_at": "2026-06-21T14:00:50Z",
-    "url": "https://github.com/wilsonwaters/3d-printing"
   }
 ]
