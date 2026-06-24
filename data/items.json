@@ -1,5 +1,23 @@
 [
   {
+    "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
+    "id": "fluttersdk/wind",
+    "language": "Dart",
+    "name": "fluttersdk/wind",
+    "stars": 21,
+    "updated_at": "2026-06-24T22:20:53Z",
+    "url": "https://github.com/fluttersdk/wind"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-24T22:15:33Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
     "id": "Laurellagloomy260/cursor-rules-generator",
     "language": "\u2014",
@@ -25,15 +43,6 @@
     "stars": 0,
     "updated_at": "2026-06-24T22:01:19Z",
     "url": "https://github.com/Hyanthropological659/clarify-skill"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-24T22:00:37Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
@@ -209,7 +218,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 54983,
+    "stars": 54986,
     "updated_at": "2026-06-24T13:37:06Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -326,15 +335,6 @@
     "stars": 0,
     "updated_at": "2026-06-23T20:56:02Z",
     "url": "https://github.com/PiloTracer/.ai"
-  },
-  {
-    "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
-    "id": "fluttersdk/wind",
-    "language": "Dart",
-    "name": "fluttersdk/wind",
-    "stars": 21,
-    "updated_at": "2026-06-24T22:10:45Z",
-    "url": "https://github.com/fluttersdk/wind"
   },
   {
     "description": "Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior",
