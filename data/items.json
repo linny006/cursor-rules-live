@@ -1,11 +1,20 @@
 [
   {
+    "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
+    "id": "pekral/cursor-rules",
+    "language": "PHP",
+    "name": "pekral/cursor-rules",
+    "stars": 5,
+    "updated_at": "2026-06-24T09:52:56Z",
+    "url": "https://github.com/pekral/cursor-rules"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-24T09:32:45Z",
+    "updated_at": "2026-06-24T09:45:31Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -122,7 +131,7 @@
     "id": "KbWen/agentic-os",
     "language": "Python",
     "name": "KbWen/agentic-os",
-    "stars": 29,
+    "stars": 30,
     "updated_at": "2026-06-24T08:36:18Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
@@ -218,7 +227,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 53548,
+    "stars": 53582,
     "updated_at": "2026-06-24T02:32:38Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -273,15 +282,6 @@
     "url": "https://github.com/TheoV823/mneme"
   },
   {
-    "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
-    "id": "pekral/cursor-rules",
-    "language": "PHP",
-    "name": "pekral/cursor-rules",
-    "stars": 5,
-    "updated_at": "2026-06-24T09:38:33Z",
-    "url": "https://github.com/pekral/cursor-rules"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: Activate ParselFire C++ pack index\nglobs: **/*.{cc,cpp,cxx,hh,hpp,hxx,ipp,tpp,inl}\nalwaysApply: false\n---\n\n# C++ Pack Activation\n\nFor C++ source files:\n\n- Load `packs/cpp-architecture/pack.urf.md`.\n- Use its `## ROUTING` and `## LEAVES` records for leaf selection.\n\nFor ambiguous `.h` or `.c` files that reach this rule via the always-on router:\n\n- Apply cpp-architecture only if the file contains C++ constructs (class, template, namespace, references, std::, noexcept, overloads).\n- If the file is plain C, stay on universal only.\n",
       "format": "mdc",
@@ -318,7 +318,7 @@
     "id": "RollingGo-AI/rollinggo-hotel-skill",
     "language": "Python",
     "name": "RollingGo-AI/rollinggo-hotel-skill",
-    "stars": 2,
+    "stars": 3,
     "updated_at": "2026-06-23T15:37:11Z",
     "url": "https://github.com/RollingGo-AI/rollinggo-hotel-skill"
   },
