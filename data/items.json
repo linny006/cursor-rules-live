@@ -1,11 +1,29 @@
 [
   {
+    "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
+    "id": "philipbankier/awesome-agent-skills",
+    "language": "TypeScript",
+    "name": "philipbankier/awesome-agent-skills",
+    "stars": 6,
+    "updated_at": "2026-06-24T10:38:02Z",
+    "url": "https://github.com/philipbankier/awesome-agent-skills"
+  },
+  {
+    "description": "20 battle-tested .mdc Cursor rules for Next.js AI SaaS \u2014 Supabase, Clerk, Stripe, Vercel AI SDK, shadcn/ui. Agent Mode c",
+    "id": "irsyad-aulia/nextjs-ai-saas-cursor-rules",
+    "language": "\u2014",
+    "name": "irsyad-aulia/nextjs-ai-saas-cursor-rules",
+    "stars": 0,
+    "updated_at": "2026-06-24T10:31:33Z",
+    "url": "https://github.com/irsyad-aulia/nextjs-ai-saas-cursor-rules"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-24T10:15:47Z",
+    "updated_at": "2026-06-24T10:30:47Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -16,15 +34,6 @@
     "stars": 5,
     "updated_at": "2026-06-24T09:52:56Z",
     "url": "https://github.com/pekral/cursor-rules"
-  },
-  {
-    "description": "20 battle-tested .mdc Cursor rules for Next.js AI SaaS \u2014 Supabase, Clerk, Stripe, Vercel AI SDK, shadcn/ui. Agent Mode c",
-    "id": "irsyad-aulia/nextjs-ai-saas-cursor-rules",
-    "language": "\u2014",
-    "name": "irsyad-aulia/nextjs-ai-saas-cursor-rules",
-    "stars": 0,
-    "updated_at": "2026-06-24T09:32:55Z",
-    "url": "https://github.com/irsyad-aulia/nextjs-ai-saas-cursor-rules"
   },
   {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
@@ -141,7 +150,7 @@
     "language": "Python",
     "name": "KbWen/agentic-os",
     "stars": 30,
-    "updated_at": "2026-06-24T08:36:18Z",
+    "updated_at": "2026-06-24T10:43:32Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
   {
@@ -236,7 +245,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 53629,
+    "stars": 53661,
     "updated_at": "2026-06-24T02:32:38Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -245,7 +254,7 @@
     "id": "HoangNguyen0403/agent-skills-standard",
     "language": "TypeScript",
     "name": "HoangNguyen0403/agent-skills-standard",
-    "stars": 509,
+    "stars": 510,
     "updated_at": "2026-06-24T02:27:21Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
   },
@@ -398,15 +407,6 @@
     "stars": 1,
     "updated_at": "2026-06-23T10:43:12Z",
     "url": "https://github.com/GeiserX/lynxprompt-mcp"
-  },
-  {
-    "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
-    "id": "philipbankier/awesome-agent-skills",
-    "language": "TypeScript",
-    "name": "philipbankier/awesome-agent-skills",
-    "stars": 6,
-    "updated_at": "2026-06-23T10:32:45Z",
-    "url": "https://github.com/philipbankier/awesome-agent-skills"
   },
   {
     "description": "I got tired moving configs between devices",
