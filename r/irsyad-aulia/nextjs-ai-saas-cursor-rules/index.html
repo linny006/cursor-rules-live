@@ -52,6 +52,39 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <span><a href="https://github.com/irsyad-aulia/nextjs-ai-saas-cursor-rules" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/irsyad-aulia" rel="external">@irsyad-aulia</a></span>
 </div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/001-project-context.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
+description: Core project context and stack declaration for Next.js AI SaaS
+alwaysApply: true
+---
+
+# Project Context
+
+This is a Next.js 15 AI SaaS application.
+
+## Core Stack
+- Framework: Next.js 15 (App Router, NOT Pages Router)
+- Language: TypeScript (strict mode, no `any`)
+- Database: Supabase (PostgreSQL + RLS)
+- Auth: Clerk (NOT NextAuth or Auth.js)
+- Payments: Stripe (subscriptions + one-time)
+- AI: Vercel AI SDK (multi-provider)
+- UI: shadcn/ui + Tailwind CSS
+- Email: Resend + React Email
+- Deployment: Vercel
+
+## Absolute Rules
+- ALWAYS use App Router (`app/` directory)
+- ALWAYS use TypeScript, never plain JS
+- ALWAYS use server components by default
+- ONLY add `&quot;use client&quot;` when strictly necessary
+- ALWAYS validate input with Zod schemas
+- NEVER use `any` type — use `unknown` and narrow
+- ALWAYS handle errors explicitly, never silent catch
+</code></pre>
+<p><a href="https://github.com/irsyad-aulia/nextjs-ai-saas-cursor-rules/blob/HEAD/.cursor/rules/001-project-context.mdc" rel="external">View raw on GitHub</a></p>
+</section>
 <section><h2>Why this is listed</h2>
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>
