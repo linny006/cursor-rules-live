@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-06-24 23:43 UTC
+> ⏰ Last updated: 2026-06-24 23:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,9 +53,9 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 1 | HTML | 2026-06-24 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
+| 1 | [Oscarr36/ReadMeAI](https://github.com/Oscarr36/ReadMeAI) | 3 | Shell | 2026-06-24 | — | Drop .readmeAI in any project. AI reads it first, every session — no re-explaining, no context drift. Works with Claude, |
 | 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-06-24 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 3 | [Oscarr36/ReadMeAI](https://github.com/Oscarr36/ReadMeAI) | 3 | Shell | 2026-06-24 | — | Drop .readmeAI in any project. AI reads it first, every session — no re-explaining, no context drift. Works with Claude, |
+| 3 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 1 | HTML | 2026-06-24 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
 | 4 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-06-24 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
 | 5 | [heymegabyte/claude-skills](https://github.com/heymegabyte/claude-skills) | 12 | TypeScript | 2026-06-24 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/claude-skills/) | 14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts → deployed products. |
 | 6 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-06-24 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
@@ -76,7 +76,7 @@ expired items removed — so you can rely on what you see being current.
 | 21 | [Bruceai21/ai-coding-workflow-starter-pack](https://github.com/Bruceai21/ai-coding-workflow-starter-pack) | 0 | — | 2026-06-24 | — | Open-source templates and checklists for safer AI coding workflows. |
 | 22 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-06-24 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/agenticstandardcontact-byte/agentic-architect/) | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
 | 23 | [Liu-MingH/Scientific-research-SKILL](https://github.com/Liu-MingH/Scientific-research-SKILL) | 1 | Shell | 2026-06-24 | — | Structured AI-assisted scientific code generation. 6 safety guards, 11 prompt templates, grounded in Nature (2026). |
-| 24 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 55072 | JavaScript | 2026-06-24 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 24 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 55077 | JavaScript | 2026-06-24 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 25 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 30 | Python | 2026-06-24 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
 | 26 | [vibestackdev/vibe-stack](https://github.com/vibestackdev/vibe-stack) | 6 | TypeScript | 2026-06-24 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/) | 29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b |
 | 27 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 6 | TypeScript | 2026-06-24 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
