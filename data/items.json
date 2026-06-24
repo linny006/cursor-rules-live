@@ -1,11 +1,20 @@
 [
   {
+    "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 code review, debugging, refactoring, system design, CLAUDE.m",
+    "id": "sublimecoder/sublimecoding",
+    "language": "\u2014",
+    "name": "sublimecoder/sublimecoding",
+    "stars": 0,
+    "updated_at": "2026-06-24T03:09:42Z",
+    "url": "https://github.com/sublimecoder/sublimecoding"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-24T02:45:46Z",
+    "updated_at": "2026-06-24T03:00:28Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -18,7 +27,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 52755,
+    "stars": 52781,
     "updated_at": "2026-06-24T02:32:38Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -130,15 +139,6 @@
     "stars": 3,
     "updated_at": "2026-06-24T00:56:22Z",
     "url": "https://github.com/Luxvil/ai-coding-rules"
-  },
-  {
-    "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 code review, debugging, refactoring, system design, CLAUDE.m",
-    "id": "sublimecoder/sublimecoding",
-    "language": "\u2014",
-    "name": "sublimecoder/sublimecoding",
-    "stars": 0,
-    "updated_at": "2026-06-24T00:52:10Z",
-    "url": "https://github.com/sublimecoder/sublimecoding"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
