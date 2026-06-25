@@ -1,12 +1,26 @@
 [
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 0,
-    "updated_at": "2026-06-24T23:59:03Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+    "description": "Drop .readmeAI in any project. AI reads it first, every session \u2014 no re-explaining, no context drift. Works with Claude,",
+    "id": "Oscarr36/ReadMeAI",
+    "language": "Shell",
+    "name": "Oscarr36/ReadMeAI",
+    "stars": 3,
+    "updated_at": "2026-06-25T00:14:17Z",
+    "url": "https://github.com/Oscarr36/ReadMeAI"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: \"USE WHEN: any task in this repo. Global operating rules.\"\nglobs: [\"**/*\"]\nalwaysApply: true\npriority: 100\n---\n\n# Global Rules (Always On)\n\n## Role\nYou are an AI coding assistant. Deliver correct, minimal, testable changes. Surface uncertainty instead of hiding it.\n\n## Non\u2011Negotiables\n- **Correctness > simplicity > consistency > style**.\n- **Minimal diff**: touch only what the task needs.\n- **No drive\u2011by refactors**.\n- **Ask when ambiguous**: assumptions ledger + up to 3 questions.\n- **Stop** on security, data loss, or breaking changes; ask for confirmation.\n\n## Output Discipline\n- Provide a brief plan before changes.\n- Show verification steps (lint/typecheck/tests) and state what wasn\u2019t run.\n\n## Guardrails\n- No hard\u2011coded secrets.\n- No unrelated formatting or renaming.\n- No new dependencies without approval.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/00-global.mdc"
+    },
+    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
+    "id": "Luxvil/ai-coding-rules",
+    "language": "Shell",
+    "name": "Luxvil/ai-coding-rules",
+    "stars": 3,
+    "updated_at": "2026-06-25T00:10:51Z",
+    "url": "https://github.com/Luxvil/ai-coding-rules"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,17 +28,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-24T23:45:47Z",
+    "updated_at": "2026-06-25T00:00:48Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
-    "description": "Drop .readmeAI in any project. AI reads it first, every session \u2014 no re-explaining, no context drift. Works with Claude,",
-    "id": "Oscarr36/ReadMeAI",
-    "language": "Shell",
-    "name": "Oscarr36/ReadMeAI",
-    "stars": 3,
-    "updated_at": "2026-06-24T23:45:34Z",
-    "url": "https://github.com/Oscarr36/ReadMeAI"
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-06-24T23:59:03Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -168,20 +182,6 @@
     "url": "https://github.com/johnwall123459885/skene-cookbook"
   },
   {
-    "cursorrules": {
-      "content": "---\ndescription: \"USE WHEN: any task in this repo. Global operating rules.\"\nglobs: [\"**/*\"]\nalwaysApply: true\npriority: 100\n---\n\n# Global Rules (Always On)\n\n## Role\nYou are an AI coding assistant. Deliver correct, minimal, testable changes. Surface uncertainty instead of hiding it.\n\n## Non\u2011Negotiables\n- **Correctness > simplicity > consistency > style**.\n- **Minimal diff**: touch only what the task needs.\n- **No drive\u2011by refactors**.\n- **Ask when ambiguous**: assumptions ledger + up to 3 questions.\n- **Stop** on security, data loss, or breaking changes; ask for confirmation.\n\n## Output Discipline\n- Provide a brief plan before changes.\n- Show verification steps (lint/typecheck/tests) and state what wasn\u2019t run.\n\n## Guardrails\n- No hard\u2011coded secrets.\n- No unrelated formatting or renaming.\n- No new dependencies without approval.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/00-global.mdc"
-    },
-    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
-    "id": "Luxvil/ai-coding-rules",
-    "language": "Shell",
-    "name": "Luxvil/ai-coding-rules",
-    "stars": 3,
-    "updated_at": "2026-06-24T21:22:46Z",
-    "url": "https://github.com/Luxvil/ai-coding-rules"
-  },
-  {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
     "id": "J-nowcow/awesome-korean-agent-skills",
     "language": "\u2014",
@@ -241,7 +241,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 55099,
+    "stars": 55118,
     "updated_at": "2026-06-24T13:37:06Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
