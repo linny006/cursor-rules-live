@@ -1,21 +1,21 @@
 [
   {
-    "description": "Modular, scalable, automated development intelligence.",
-    "id": "DongDuong2001/pudo-code-system",
-    "language": "JavaScript",
-    "name": "DongDuong2001/pudo-code-system",
-    "stars": 3,
-    "updated_at": "2026-06-25T09:43:05Z",
-    "url": "https://github.com/DongDuong2001/pudo-code-system"
-  },
-  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-25T09:30:37Z",
+    "updated_at": "2026-06-25T09:44:53Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Modular, scalable, automated development intelligence.",
+    "id": "DongDuong2001/pudo-code-system",
+    "language": "JavaScript",
+    "name": "DongDuong2001/pudo-code-system",
+    "stars": 3,
+    "updated_at": "2026-06-25T09:44:50Z",
+    "url": "https://github.com/DongDuong2001/pudo-code-system"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
