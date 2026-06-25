@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-25T15:15:02Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "298 agent skills (Cursor, Claude Code & Codex), 5,380 OpenClaw skills, 201 ML notebooks, 48 research papers, 15 industry",
     "id": "adriannoes/awesome-vibe-coding",
     "language": "Jupyter Notebook",
@@ -7,15 +16,6 @@
     "stars": 41,
     "updated_at": "2026-06-25T15:05:39Z",
     "url": "https://github.com/adriannoes/awesome-vibe-coding"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-25T15:00:34Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -374,7 +374,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 57337,
+    "stars": 57338,
     "updated_at": "2026-06-24T13:37:06Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
