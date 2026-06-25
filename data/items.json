@@ -1,11 +1,20 @@
 [
   {
+    "description": "298 agent skills (Cursor, Claude Code & Codex), 5,380 OpenClaw skills, 201 ML notebooks, 48 research papers, 15 industry",
+    "id": "adriannoes/awesome-vibe-coding",
+    "language": "Jupyter Notebook",
+    "name": "adriannoes/awesome-vibe-coding",
+    "stars": 41,
+    "updated_at": "2026-06-25T15:05:39Z",
+    "url": "https://github.com/adriannoes/awesome-vibe-coding"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-25T14:45:48Z",
+    "updated_at": "2026-06-25T15:00:34Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -365,7 +374,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 57304,
+    "stars": 57337,
     "updated_at": "2026-06-24T13:37:06Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -504,14 +513,5 @@
     "stars": 1,
     "updated_at": "2026-06-23T10:43:12Z",
     "url": "https://github.com/GeiserX/lynxprompt-mcp"
-  },
-  {
-    "description": "I got tired moving configs between devices",
-    "id": "apoorv-kulkarni/initMe",
-    "language": "Shell",
-    "name": "apoorv-kulkarni/initMe",
-    "stars": 0,
-    "updated_at": "2026-06-23T07:04:50Z",
-    "url": "https://github.com/apoorv-kulkarni/initMe"
   }
 ]
