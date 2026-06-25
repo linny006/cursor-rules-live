@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-06-25 01:15 UTC
+> ⏰ Last updated: 2026-06-25 01:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -78,7 +78,7 @@ expired items removed — so you can rely on what you see being current.
 | 23 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-06-24 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/agenticstandardcontact-byte/agentic-architect/) | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
 | 24 | [HoangNguyen0403/agent-skills-standard](https://github.com/HoangNguyen0403/agent-skills-standard) | 511 | TypeScript | 2026-06-24 | — | A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol |
 | 25 | [Liu-MingH/Scientific-research-SKILL](https://github.com/Liu-MingH/Scientific-research-SKILL) | 1 | Shell | 2026-06-24 | — | Structured AI-assisted scientific code generation. 6 safety guards, 11 prompt templates, grounded in Nature (2026). |
-| 26 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 55251 | JavaScript | 2026-06-24 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 26 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 55286 | JavaScript | 2026-06-24 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 27 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 30 | Python | 2026-06-24 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
 | 28 | [vibestackdev/vibe-stack](https://github.com/vibestackdev/vibe-stack) | 6 | TypeScript | 2026-06-24 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/) | 29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b |
 | 29 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 6 | TypeScript | 2026-06-24 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
