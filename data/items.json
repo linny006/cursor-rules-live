@@ -1,11 +1,20 @@
 [
   {
+    "description": "Drop .readmeAI in any project. AI reads it first, every session \u2014 no re-explaining, no context drift. Works with Claude,",
+    "id": "Oscarr36/ReadMeAI",
+    "language": "Shell",
+    "name": "Oscarr36/ReadMeAI",
+    "stars": 3,
+    "updated_at": "2026-06-25T09:58:43Z",
+    "url": "https://github.com/Oscarr36/ReadMeAI"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-25T09:44:53Z",
+    "updated_at": "2026-06-25T09:45:34Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -14,7 +23,7 @@
     "language": "JavaScript",
     "name": "DongDuong2001/pudo-code-system",
     "stars": 3,
-    "updated_at": "2026-06-25T09:44:50Z",
+    "updated_at": "2026-06-25T09:47:35Z",
     "url": "https://github.com/DongDuong2001/pudo-code-system"
   },
   {
@@ -195,7 +204,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 37165,
+    "stars": 37166,
     "updated_at": "2026-06-25T03:07:12Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -212,15 +221,6 @@
     "stars": 4,
     "updated_at": "2026-06-25T02:27:37Z",
     "url": "https://github.com/kensaurus/cursor-kenji"
-  },
-  {
-    "description": "Drop .readmeAI in any project. AI reads it first, every session \u2014 no re-explaining, no context drift. Works with Claude,",
-    "id": "Oscarr36/ReadMeAI",
-    "language": "Shell",
-    "name": "Oscarr36/ReadMeAI",
-    "stars": 3,
-    "updated_at": "2026-06-25T00:50:45Z",
-    "url": "https://github.com/Oscarr36/ReadMeAI"
   },
   {
     "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
@@ -305,7 +305,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 56583,
+    "stars": 56635,
     "updated_at": "2026-06-24T13:37:06Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
