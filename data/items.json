@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-25T14:15:47Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: Behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.\nalwaysApply: true\n---\n\n# Karpathy behavioral guidelines\n\nBehavioral guidelines to reduce common LLM coding mistakes. Merge with project-specific instructions as needed.\n\n**Tradeoff:** These guidelines bias toward caution over speed. For trivial tasks, use judgment.\n\n## 1. Think Before Coding\n\n**Don't assume. Don't hide confusion. Surface tradeoffs.**\n\nBefore implementing:\n- State your assumptions explicitly. If uncertain, ask.\n- If multiple interpretations exist, present them - don't pick silently.\n- If a simpler approach exists, say so. Push back when warranted.\n- If something is unclear, stop. Name what's confusing. Ask.\n\n## 2. Simplicity First\n\n**Minimum code that solves the problem. Nothing speculative.**\n\n- No features beyond what was asked.\n- No abstractions for single-use code.\n- No \"flexibility\" or \"configurability\" that wasn't requested.\n- No error handling for impossible scenarios.\n- If you write 200 lines and it could be 50, rewrite it.\n\nAsk yourself: \"Would a senior engineer say this is overcomplicated?\" If yes, simplify.\n\n## 3. Surgical Changes\n\n**Touch only what you must. Clean up only your own mess.**\n\nWhen editing existing code:\n- Don't \"improve\" adjacent code, comments, or formatting.\n- Don't refactor things that aren't broken.\n- Match existing style, even if you'd do it differently.\n- If you notice unrelated dead code, mention it - don't delete it.\n\nWhen your changes create orphans:\n- Remove imports/variables/functions that YOUR changes made unused.\n- Don't remove pre-existing dead code unless asked.\n\nThe test: Every changed line should trace directly to the user's request.\n\n## 4. Goal-Driven Execution\n\n**Define success criteria. Loop until verified.**\n\nTransform tasks into verifiable goals:\n- \"Add validation\" \u2192 \"Write tests for invalid inputs, then make them pass\"\n- \"Fix the bug\" \u2192 \"Write a test that reproduces it, then make it pass\"\n- \"Refactor X\" \u2192 \"Ensure tests pass before and after\"\n\nFor multi-step tasks, state a brief plan:\n```\n1. [Step] \u2192 verify: [check]\n2. [Step] \u2192 verify: [check]\n3. [Step] \u2192 verify: [check]\n```\n\nStrong success criteria let you loop independently. Weak criteria (\"make it work\") require constant clarification.\n\n## 5. Use Graphify for Codebase Queries\n\n**Query the graph first, then read files.**\n\nFor EVERY chat query that requires looking at the codebase:\n- First check the flag: if `.cursor/graphify.disabled` exists, skip graphify and use normal file reads/searches.\n- Otherwise, you MUST consult the graph first using the `graphify` CLI (`graphify query/explain/path/affected`) against `graphify-out/graph.json` to look up the project structure, file relationships, and dependencies before any raw file reads or searches.\n- Fall back to direct file reads only when the graph lacks the answer (then read the specific files it points to).\n- To refresh the graph, run `graphify update .` (see `.cursor/commands/graphify.md`).\n- Graph updates are disabled if `.cursor/graphify.disabled` exists; toggle with `/graphify on|off`.\n\n## 6. Keep the Graph in Sync with Git\n\n**Incoming git changes update the graph only \u2014 never the file structure.**\n\nEvery time the project is updated, check for incoming changes on the current branch (use git commands such as `git fetch`, `git status`, `git log HEAD..@{u}`):\n- After a `git pull`,\n- after a merge into the current branch,\n- or when the remote tracking branch has new commits.\n\nIf any of these occurred:\n- Regenerate/update the graph with `graphify update .` (see `.cursor/commands/graphify.md`) so it reflects the new state of the code, unless `.cursor/graphify.disabled` exists.\n- (A `postToolUse` hook in `.cursor/hooks.json` also reminds you automatically after agent-run `git pull`/`git merge`.)\n- Do NOT move, rename, delete, or reorganize any files or folders as part of this sync - it is a graph-only refresh.\n\n---\n\n**These guidelines are working if:** fewer unnecessary changes in diffs, fewer rewrites due to overcomplication, and clarifying questions come before implementation rather than after mistakes.",
       "format": "mdc",
@@ -12,15 +21,6 @@
     "stars": 1,
     "updated_at": "2026-06-25T14:10:17Z",
     "url": "https://github.com/Abhir1902/Karcursifyeo"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-25T14:00:34Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
@@ -365,7 +365,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 57192,
+    "stars": 57229,
     "updated_at": "2026-06-24T13:37:06Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
