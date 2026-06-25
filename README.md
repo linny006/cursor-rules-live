@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-06-25 14:45 UTC
+> ⏰ Last updated: 2026-06-25 15:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,9 +53,9 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-06-25 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
-| 2 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-06-25 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
-| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-06-25 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-06-25 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-06-25 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
+| 3 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-06-25 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
 | 4 | [Abhir1902/Karcursifyeo](https://github.com/Abhir1902/Karcursifyeo) | 1 | Python | 2026-06-25 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Abhir1902/Karcursifyeo/) | Open-source Cursor AI toolkit merging Karpathy's coding rules, Cursor config, Graphify's knowledge-graph tooling — cut L |
 | 5 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-06-25 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
 | 6 | [Hyanthropological659/clarify-skill](https://github.com/Hyanthropological659/clarify-skill) | 0 | — | 2026-06-25 | — | Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a |
@@ -64,7 +64,7 @@ expired items removed — so you can rely on what you see being current.
 | 9 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 0 | HTML | 2026-06-25 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
 | 10 | [Amirun99/agency-orchestrator](https://github.com/Amirun99/agency-orchestrator) | 0 | Dart | 2026-06-25 | — | Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support. |
 | 11 | [Overseastelegramaliterateperson865/awesome-claude-md](https://github.com/Overseastelegramaliterateperson865/awesome-claude-md) | 2 | — | 2026-06-25 | — | Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr |
-| 12 | [wshobson/agents](https://github.com/wshobson/agents) | 37178 | Python | 2026-06-25 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI |
+| 12 | [wshobson/agents](https://github.com/wshobson/agents) | 37180 | Python | 2026-06-25 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI |
 | 13 | [caioribeiroclw-pixel/pluribus](https://github.com/caioribeiroclw-pixel/pluribus) | 7 | JavaScript | 2026-06-25 | — | Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security |
 | 14 | [zinxj/uikit-expert-skill](https://github.com/zinxj/uikit-expert-skill) | 3 | — | 2026-06-25 | — | Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan |
 | 15 | [johnwall123459885/skene-cookbook](https://github.com/johnwall123459885/skene-cookbook) | 0 | Python | 2026-06-25 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/johnwall123459885/skene-cookbook/) | 🤖 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development. |
@@ -87,7 +87,7 @@ expired items removed — so you can rely on what you see being current.
 | 32 | [Bruceai21/ai-coding-workflow-starter-pack](https://github.com/Bruceai21/ai-coding-workflow-starter-pack) | 0 | — | 2026-06-24 | — | Open-source templates and checklists for safer AI coding workflows. |
 | 33 | [HoangNguyen0403/agent-skills-standard](https://github.com/HoangNguyen0403/agent-skills-standard) | 511 | TypeScript | 2026-06-24 | — | A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol |
 | 34 | [Liu-MingH/Scientific-research-SKILL](https://github.com/Liu-MingH/Scientific-research-SKILL) | 1 | Shell | 2026-06-24 | — | Structured AI-assisted scientific code generation. 6 safety guards, 11 prompt templates, grounded in Nature (2026). |
-| 35 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 57274 | JavaScript | 2026-06-24 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 35 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 57304 | JavaScript | 2026-06-24 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 36 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 32 | Python | 2026-06-24 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
 | 37 | [wu529778790/shenzjd-skills](https://github.com/wu529778790/shenzjd-skills) | 0 | Shell | 2026-06-24 | — | 我的 Claude Code skills 集合，用于提升开发效率 |
 | 38 | [sublimecoder/sublimecoding](https://github.com/sublimecoder/sublimecoding) | 0 | — | 2026-06-24 | — | 🛠️ Free Claude Code & Cursor prompts for senior engineers — code review, debugging, refactoring, system design, CLAUDE.m |
