@@ -1,11 +1,20 @@
 [
   {
+    "description": "Modular, scalable, automated development intelligence.",
+    "id": "DongDuong2001/pudo-code-system",
+    "language": "JavaScript",
+    "name": "DongDuong2001/pudo-code-system",
+    "stars": 3,
+    "updated_at": "2026-06-25T09:43:05Z",
+    "url": "https://github.com/DongDuong2001/pudo-code-system"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-25T09:15:50Z",
+    "updated_at": "2026-06-25T09:30:37Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -186,7 +195,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 37164,
+    "stars": 37165,
     "updated_at": "2026-06-25T03:07:12Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -296,7 +305,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 56547,
+    "stars": 56583,
     "updated_at": "2026-06-24T13:37:06Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -494,14 +503,5 @@
     "stars": 0,
     "updated_at": "2026-06-23T02:57:20Z",
     "url": "https://github.com/fluzzy/archive"
-  },
-  {
-    "description": "Portable Agent Skill and npm CLI for building complete project documentation packs from a brief.",
-    "id": "m2kky/Project-Docs-Builder",
-    "language": "JavaScript",
-    "name": "m2kky/Project-Docs-Builder",
-    "stars": 1,
-    "updated_at": "2026-06-23T01:47:20Z",
-    "url": "https://github.com/m2kky/Project-Docs-Builder"
   }
 ]
