@@ -1,12 +1,12 @@
 [
   {
-    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
-    "id": "XAKLESK/cre-agent-skills",
+    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
+    "id": "Laurellagloomy260/cursor-rules-generator",
     "language": "\u2014",
-    "name": "XAKLESK/cre-agent-skills",
-    "stars": 2,
-    "updated_at": "2026-06-25T02:58:38Z",
-    "url": "https://github.com/XAKLESK/cre-agent-skills"
+    "name": "Laurellagloomy260/cursor-rules-generator",
+    "stars": 0,
+    "updated_at": "2026-06-25T03:13:05Z",
+    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
   },
   {
     "cursorrules": {
@@ -19,8 +19,44 @@
     "language": "Python",
     "name": "wshobson/agents",
     "stars": 37149,
-    "updated_at": "2026-06-25T02:56:35Z",
+    "updated_at": "2026-06-25T03:07:12Z",
     "url": "https://github.com/wshobson/agents"
+  },
+  {
+    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
+    "id": "Hyanthropological659/clarify-skill",
+    "language": "\u2014",
+    "name": "Hyanthropological659/clarify-skill",
+    "stars": 0,
+    "updated_at": "2026-06-25T03:02:38Z",
+    "url": "https://github.com/Hyanthropological659/clarify-skill"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-25T03:00:29Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
+    "id": "Bastioned-successor320/learn-nanobot",
+    "language": "Python",
+    "name": "Bastioned-successor320/learn-nanobot",
+    "stars": 2,
+    "updated_at": "2026-06-25T03:00:20Z",
+    "url": "https://github.com/Bastioned-successor320/learn-nanobot"
+  },
+  {
+    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
+    "id": "XAKLESK/cre-agent-skills",
+    "language": "\u2014",
+    "name": "XAKLESK/cre-agent-skills",
+    "stars": 2,
+    "updated_at": "2026-06-25T02:58:38Z",
+    "url": "https://github.com/XAKLESK/cre-agent-skills"
   },
   {
     "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
@@ -39,15 +75,6 @@
     "stars": 2,
     "updated_at": "2026-06-25T02:51:57Z",
     "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-25T02:45:39Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
@@ -113,33 +140,6 @@
     "stars": 12,
     "updated_at": "2026-06-25T01:22:31Z",
     "url": "https://github.com/heymegabyte/claude-skills"
-  },
-  {
-    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
-    "id": "Laurellagloomy260/cursor-rules-generator",
-    "language": "\u2014",
-    "name": "Laurellagloomy260/cursor-rules-generator",
-    "stars": 0,
-    "updated_at": "2026-06-25T00:59:13Z",
-    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
-  },
-  {
-    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
-    "id": "Hyanthropological659/clarify-skill",
-    "language": "\u2014",
-    "name": "Hyanthropological659/clarify-skill",
-    "stars": 0,
-    "updated_at": "2026-06-25T00:49:16Z",
-    "url": "https://github.com/Hyanthropological659/clarify-skill"
-  },
-  {
-    "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
-    "id": "Bastioned-successor320/learn-nanobot",
-    "language": "Python",
-    "name": "Bastioned-successor320/learn-nanobot",
-    "stars": 2,
-    "updated_at": "2026-06-25T00:47:01Z",
-    "url": "https://github.com/Bastioned-successor320/learn-nanobot"
   },
   {
     "description": "Drop .readmeAI in any project. AI reads it first, every session \u2014 no re-explaining, no context drift. Works with Claude,",
@@ -278,7 +278,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 55540,
+    "stars": 55581,
     "updated_at": "2026-06-24T13:37:06Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
