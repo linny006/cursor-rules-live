@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<title>Abhir1902/Karcursifyeo - entry on Cursor Rules Live</title>
+<meta name="description" content="Open-source Cursor AI toolkit merging Karpathy&#x27;s coding rules, Cursor config, Graphify&#x27;s knowledge-graph tooling — cut L">
+<link rel="canonical" href="https://linny006.github.io/cursor-rules-live/r/Abhir1902/Karcursifyeo/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Abhir1902/Karcursifyeo - entry on Cursor Rules Live">
+<meta property="og:description" content="Open-source Cursor AI toolkit merging Karpathy&#x27;s coding rules, Cursor config, Graphify&#x27;s knowledge-graph tooling — cut L">
+<meta property="og:url" content="https://linny006.github.io/cursor-rules-live/r/Abhir1902/Karcursifyeo/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Abhir1902/Karcursifyeo - entry on Cursor Rules Live">
+<meta name="twitter:description" content="Open-source Cursor AI toolkit merging Karpathy&#x27;s coding rules, Cursor config, Graphify&#x27;s knowledge-graph tooling — cut L">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"Abhir1902/Karcursifyeo","codeRepository":"https://github.com/Abhir1902/Karcursifyeo","programmingLanguage":"Python","url":"https://linny006.github.io/cursor-rules-live/r/Abhir1902/Karcursifyeo/","description":"Open-source Cursor AI toolkit merging Karpathy's coding rules, Cursor config, Graphify's knowledge-graph tooling — cut L","author":{"@type":"Person","name":"Abhir1902","url":"https://github.com/Abhir1902"},"dateModified":"2026-06-25"}</script>
+<style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
+         --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 16px; font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--fg); background: var(--bg); }
+.wrap { max-width: var(--max); margin: 0 auto; }
+nav.bc { font-size: 14px; color: var(--muted); margin-bottom: 16px; }
+nav.bc a { color: var(--muted); }
+h1 { font-size: 28px; margin: 0 0 8px; }
+h2 { font-size: 20px; margin: 24px 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+p.lead { font-size: 18px; color: var(--muted); margin: 0 0 24px; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+th, td { padding: 8px 12px; text-align: left; border-bottom: 1px solid var(--border); }
+th { background: var(--card); font-weight: 600; }
+ul.crosslinks { list-style: none; padding: 0; }
+ul.crosslinks li { padding: 6px 0; }
+ul.crosslinks li a { font-weight: 500; }
+.meta { display: flex; gap: 16px; flex-wrap: wrap; color: var(--muted); font-size: 14px; margin: 12px 0; }
+.meta span::before { content: "\00b7"; margin-right: 8px; color: var(--border); }
+.meta span:first-child::before { content: ""; }
+footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--border); font-size: 14px; color: var(--muted); }</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="bc"><a href="https://linny006.github.io/cursor-rules-live/">Cursor Rules Live</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/popular/">Entries</a> &#183; <span>Abhir1902/Karcursifyeo</span></nav>
+<main>
+<h1>Abhir1902/Karcursifyeo</h1>
+<p class="lead">Open-source Cursor AI toolkit merging Karpathy&#x27;s coding rules, Cursor config, Graphify&#x27;s knowledge-graph tooling — cut L</p>
+<div class="meta">
+<span><strong>Stars</strong> 1</span>
+<span><strong>Language</strong> Python</span>
+<span><strong>Last updated</strong> 2026-06-25</span>
+<span><a href="https://github.com/Abhir1902/Karcursifyeo" rel="external">Source on GitHub</a></span>
+<span><a href="https://github.com/Abhir1902" rel="external">@Abhir1902</a></span>
+</div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/kaprpathy-guidelines.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
+description: Behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.
+alwaysApply: true
+---
+
+# Karpathy behavioral guidelines
+
+Behavioral guidelines to reduce common LLM coding mistakes. Merge with project-specific instructions as needed.
+
+**Tradeoff:** These guidelines bias toward caution over speed. For trivial tasks, use judgment.
+
+## 1. Think Before Coding
+
+**Don&#x27;t assume. Don&#x27;t hide confusion. Surface tradeoffs.**
+
+Before implementing:
+- State your assumptions explicitly. If uncertain, ask.
+- If multiple interpretations exist, present them - don&#x27;t pick silently.
+- If a simpler approach exists, say so. Push back when warranted.
+- If something is unclear, stop. Name what&#x27;s confusing. Ask.
+
+## 2. Simplicity First
+
+**Minimum code that solves the problem. Nothing speculative.**
+
+- No features beyond what was asked.
+- No abstractions for single-use code.
+- No &quot;flexibility&quot; or &quot;configurability&quot; that wasn&#x27;t requested.
+- No error handling for impossible scenarios.
+- If you write 200 lines and it could be 50, rewrite it.
+
+Ask yourself: &quot;Would a senior engineer say this is overcomplicated?&quot; If yes, simplify.
+
+## 3. Surgical Changes
+
+**Touch only what you must. Clean up only your own mess.**
+
+When editing existing code:
+- Don&#x27;t &quot;improve&quot; adjacent code, comments, or formatting.
+- Don&#x27;t refactor things that aren&#x27;t broken.
+- Match existing style, even if you&#x27;d do it differently.
+- If you notice unrelated dead code, mention it - don&#x27;t delete it.
+
+When your changes create orphans:
+- Remove imports/variables/functions that YOUR changes made unused.
+- Don&#x27;t remove pre-existing dead code unless asked.
+
+The test: Every changed line should trace directly to the user&#x27;s request.
+
+## 4. Goal-Driven Execution
+
+**Define success criteria. Loop until verified.**
+
+Transform tasks into verifiable goals:
+- &quot;Add validation&quot; → &quot;Write tests for invalid inputs, then make them pass&quot;
+- &quot;Fix the bug&quot; → &quot;Write a test that reproduces it, then make it pass&quot;
+- &quot;Refactor X&quot; → &quot;Ensure tests pass before and after&quot;
+
+For multi-step tasks, state a brief plan:
+```
+1. [Step] → verify: [check]
+2. [Step] → verify: [check]
+3. [Step] → verify: [check]
+```
+
+Strong success criteria let you loop independently. Weak criteria (&quot;make it work&quot;) require constant clarification.
+
+## 5. Use Graphify for Codebase Queries
+
+**Query the graph first, then read files.**
+
+For EVERY chat query that requires looking at the codebase:
+- First check the flag: if `.cursor/graphify.disabled` exists, skip graphify and use normal file reads/searches.
+- Otherwise, you MUST consult the graph first using the `graphify` CLI (`graphify query/explain/path/affected`) against `graphify-out/graph.json` to look up the project structure, file relationships, and dependencies before any raw file reads or searches.
+- Fall back to direct file reads only when the graph lacks the answer (then read the specific files it points to).
+- To refresh the graph, run `graphify update .` (see `.cursor/commands/graphify.md`).
+- Graph updates are disabled if `.cursor/graphify.disabled` exists; toggle with `/graphify on|off`.
+
+## 6. Keep the Graph in Sync with Git
+
+**Incoming git changes update the graph only — never the file structure.**
+
+Every time the project is updated, check for incoming changes on the current branch (use git commands such as `git fetch`, `git status`, `git log HEAD..@{u}`):
+- After a `git pull`,
+- after a merge into the current branch,
+- or when the remote tracking branch has new commits.
+
+If any of these occurred:
+- Regenerate/update the graph with `graphify update .` (see `.cursor/commands/graphify.md`) so it reflects the new state of the code, unless `.cursor/graphify.disabled` exists.
+- (A `postToolUse` hook in `.cursor/hooks.json` also reminds you automatically after agent-run `git pull`/`git merge`.)
+- Do NOT move, rename, delete, or reorganize any files or folders as part of this sync - it is a graph-only refresh.
+
+---
+
+**These guidelines are working if:** fewer unnecessary changes in diffs, fewer rewrites due to overcomplication, and clarifying questions come before implementation rather than after mistakes.</code></pre>
+<p><a href="https://github.com/Abhir1902/Karcursifyeo/blob/HEAD/.cursor/rules/kaprpathy-guidelines.mdc" rel="external">View raw on GitHub</a></p>
+</section>
+<section><h2>Why this is listed</h2>
+<p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
+<section><h2>Similar in this tracker</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/r/wshobson/agents/">wshobson/agents (stars:37177)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/KbWen/agentic-os/">KbWen/agentic-os (stars:32)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/RollingGo-AI/rollinggo-hotel-skill/">RollingGo-AI/rollinggo-hotel-skill (stars:5)</a></li>
+</ul></section>
+<section><h2>Explore by category</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/popular/">Popular (by stars)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/recent/">Recent (by activity)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/new/">New this week</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/lang/python/">All Python entries</a></li>
+</ul></section>
+</main>
+<footer>
+Auto-updated every 15 minutes via GitHub Actions &#183; <a href="https://linny006.github.io/cursor-rules-live/">tracker root</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/sitemap.xml">sitemap</a>
+</footer>
+</div>
+</body>
+</html>
