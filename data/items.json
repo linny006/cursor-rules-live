@@ -1,11 +1,34 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: PowerSync skill \u2014 follow AGENTS.md playbook; powersync login is Cloud-only\nglobs:\n  - skills/powersync/**/*\n  - AGENTS.md\n  - CONTRIBUTING.md\n---\n\n# PowerSync agent skills\n\nWhen editing or when the user\u2019s task involves PowerSync:\n\n1. Open **skills/powersync/AGENTS.md** and follow **Agent compliance** and the numbered onboarding playbook. Do not assume backend or Cloud vs self-hosted.\n2. Prefer the **PowerSync CLI** per that file; do not hand-roll deployable config unless the user explicitly cannot use the CLI.\n3. **`powersync login`** is for **PowerSync Cloud** (PAT) only \u2014 not for authenticating to a **self-hosted** service. Self-hosted: `powersync init self-hosted`, Docker commands, `PS_ADMIN_TOKEN` on the service.\n\nIf instructions here conflict with a \u201cfaster\u201d approach, the playbook wins unless the user explicitly overrides.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/powersync-playbook.mdc"
+    },
+    "description": "Official agent skills for PowerSync",
+    "id": "powersync-ja/agent-skills",
+    "language": "JavaScript",
+    "name": "powersync-ja/agent-skills",
+    "stars": 16,
+    "updated_at": "2026-06-25T23:00:09Z",
+    "url": "https://github.com/powersync-ja/agent-skills"
+  },
+  {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 1,
+    "updated_at": "2026-06-25T22:49:46Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-25T22:45:45Z",
+    "updated_at": "2026-06-25T22:48:49Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -36,7 +59,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 57915,
+    "stars": 57926,
     "updated_at": "2026-06-25T22:23:00Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -178,15 +201,6 @@
     "url": "https://github.com/sina-z/redpen"
   },
   {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 1,
-    "updated_at": "2026-06-25T21:03:50Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
     "description": "Drop .readmeAI in any project. AI reads it first, every session \u2014 no re-explaining, no context drift. Works with Claude,",
     "id": "Oscarr36/ReadMeAI",
     "language": "Shell",
@@ -320,7 +334,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 37192,
+    "stars": 37193,
     "updated_at": "2026-06-25T13:03:19Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -403,7 +417,7 @@
     "language": "Dart",
     "name": "fluttersdk/wind",
     "stars": 21,
-    "updated_at": "2026-06-24T22:27:26Z",
+    "updated_at": "2026-06-25T22:52:56Z",
     "url": "https://github.com/fluttersdk/wind"
   },
   {
@@ -514,14 +528,5 @@
     "stars": 1,
     "updated_at": "2026-06-23T13:53:06Z",
     "url": "https://github.com/GeiserX/n8n-nodes-lynxprompt"
-  },
-  {
-    "description": "323\u500b\u306e\u5373\u6226\u529bAI\u5c02\u9580\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8 \u2014 Claude Code/Cursor/Copilot\u7b49\u306b\u5bfe\u5fdc\u3002SIer/\u53d7\u8a17\u958b\u767a/SaaS/\u88fd\u9020DX/\u516c\u5171\u5206\u91ce\u306a\u3069\u65e5\u672c\u5e02\u5834\u5411\u3051114\u500b\u306e\u30aa\u30ea\u30b8\u30ca\u30eb\u3092\u542b\u3080\u3001agency-agents\u65e5\u672c\u8a9e\u30b3\u30df\u30e5\u30cb\u30c6\u30a3",
-    "id": "sscodeai/agency-agents-ja",
-    "language": "Shell",
-    "name": "sscodeai/agency-agents-ja",
-    "stars": 0,
-    "updated_at": "2026-06-23T13:01:22Z",
-    "url": "https://github.com/sscodeai/agency-agents-ja"
   }
 ]
