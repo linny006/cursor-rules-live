@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-06-26 04:00 UTC
+> ⏰ Last updated: 2026-06-26 04:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -68,7 +68,7 @@ expired items removed — so you can rely on what you see being current.
 | 13 | [RollingGo-AI/rollinggo-hotel-skill](https://github.com/RollingGo-AI/rollinggo-hotel-skill) | 5 | Python | 2026-06-26 | — | 全球酒店实时推荐及闭环预订Skill，200 万+酒店，全球第三大酒旅B2B公司数据源，免费无调用上限。可按地点、日期、星级、人数、标签等条件搜索酒店列表，返回候选酒店及展示价。可查询指定酒店的实时房型列表、价格计划和取消政策。可锁定价格， |
 | 14 | [Luxvil/ai-coding-rules](https://github.com/Luxvil/ai-coding-rules) | 3 | Shell | 2026-06-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Luxvil/ai-coding-rules/) | 🤖 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje |
 | 15 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 1 | HTML | 2026-06-26 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 16 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 58439 | JavaScript | 2026-06-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 16 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 58461 | JavaScript | 2026-06-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 17 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 16 | HTML | 2026-06-26 | — | Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior |
 | 18 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-06-26 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
 | 19 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-06-26 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
