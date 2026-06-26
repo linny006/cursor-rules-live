@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-06-26 13:30 UTC
+> ⏰ Last updated: 2026-06-26 13:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -75,10 +75,10 @@ expired items removed — so you can rely on what you see being current.
 | 20 | [RollingGo-AI/rollinggo-hotel-skill](https://github.com/RollingGo-AI/rollinggo-hotel-skill) | 5 | Python | 2026-06-26 | — | 全球酒店实时推荐及闭环预订Skill，200 万+酒店，全球第三大酒旅B2B公司数据源，免费无调用上限。可按地点、日期、星级、人数、标签等条件搜索酒店列表，返回候选酒店及展示价。可查询指定酒店的实时房型列表、价格计划和取消政策。可锁定价格， |
 | 21 | [PiloTracer/.ai](https://github.com/PiloTracer/.ai) | 0 | Shell | 2026-06-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/PiloTracer/.ai/) | Portable process framework for software teams shipping with coding agents (Cursor, Claude Code, Codex, opencode). Skills |
 | 22 | [CyannSHI/ai-interview-kit](https://github.com/CyannSHI/ai-interview-kit) | 9 | HTML | 2026-06-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/CyannSHI/ai-interview-kit/) | Engineer user-research methodologies into AI prompts — professional-grade phone interviews at scale. 6 pluggable methodo |
-| 23 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 59420 | JavaScript | 2026-06-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 23 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 59448 | JavaScript | 2026-06-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 24 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 16 | HTML | 2026-06-26 | — | Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior |
 | 25 | [powersync-ja/agent-skills](https://github.com/powersync-ja/agent-skills) | 16 | JavaScript | 2026-06-25 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/powersync-ja/agent-skills/) | Official agent skills for PowerSync |
-| 26 | [sina-z/redpen](https://github.com/sina-z/redpen) | 0 | JavaScript | 2026-06-25 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/sina-z/redpen/) | Scott red-pens your diff before it ships catching the embarrassing leftovers that were only ever meant for you. |
+| 26 | [sina-z/redpen](https://github.com/sina-z/redpen) | 0 | JavaScript | 2026-06-25 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/sina-z/redpen/) | Ship clean. No embarrassing leftovers. |
 | 27 | [Oscarr36/ReadMeAI](https://github.com/Oscarr36/ReadMeAI) | 3 | Shell | 2026-06-25 | — | Drop .readmeAI in any project. AI reads it first, every session — no re-explaining, no context drift. Works with Claude, |
 | 28 | [caioribeiroclw-pixel/pluribus](https://github.com/caioribeiroclw-pixel/pluribus) | 7 | JavaScript | 2026-06-25 | — | Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security |
 | 29 | [weijia-89/palamedes](https://github.com/weijia-89/palamedes) | 0 | Python | 2026-06-25 | — | Rigorous LLM research in two layers: a multi-agent dialectic synthesis prompt + an agent-loadable research skill. Hierar |

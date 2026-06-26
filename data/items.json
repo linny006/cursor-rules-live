@@ -5,7 +5,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-26T13:29:23Z",
+    "updated_at": "2026-06-26T13:30:44Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -237,7 +237,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 59420,
+    "stars": 59448,
     "updated_at": "2026-06-26T01:28:09Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -270,7 +270,7 @@
       "format": "mdc",
       "path": ".cursor/rules/redpen.mdc"
     },
-    "description": "Scott red-pens your diff before it ships catching the embarrassing leftovers that were only ever meant for you.",
+    "description": "Ship clean. No embarrassing leftovers.",
     "id": "sina-z/redpen",
     "language": "JavaScript",
     "name": "sina-z/redpen",
