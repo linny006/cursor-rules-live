@@ -1,11 +1,20 @@
 [
   {
+    "description": "Your AI assistant hallucinates APIs, breaks dependent files, and weakens tests. 20 skills that prevent this across the f",
+    "id": "sungurerdim/dev-skills",
+    "language": "HTML",
+    "name": "sungurerdim/dev-skills",
+    "stars": 1,
+    "updated_at": "2026-06-26T13:53:24Z",
+    "url": "https://github.com/sungurerdim/dev-skills"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-26T13:30:44Z",
+    "updated_at": "2026-06-26T13:45:46Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -237,7 +246,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 59448,
+    "stars": 59473,
     "updated_at": "2026-06-26T01:28:09Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -524,14 +533,5 @@
     "stars": 1,
     "updated_at": "2026-06-23T19:06:13Z",
     "url": "https://github.com/MicSm/ParselFire"
-  },
-  {
-    "description": "The workflow framework for AI-assisted development. Four operating modes, 25 golden rules, and anti-hallucination guardr",
-    "id": "ashp15205/vibe-coding-essentials",
-    "language": "\u2014",
-    "name": "ashp15205/vibe-coding-essentials",
-    "stars": 2,
-    "updated_at": "2026-06-23T18:25:21Z",
-    "url": "https://github.com/ashp15205/vibe-coding-essentials"
   }
 ]
