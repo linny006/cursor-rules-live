@@ -1,11 +1,20 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-06-26T16:07:11Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-26T15:53:42Z",
+    "updated_at": "2026-06-26T16:00:32Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -98,15 +107,6 @@
     "stars": 1,
     "updated_at": "2026-06-26T13:23:54Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 0,
-    "updated_at": "2026-06-26T13:03:08Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
@@ -255,7 +255,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 59660,
+    "stars": 59681,
     "updated_at": "2026-06-26T01:28:09Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -333,7 +333,7 @@
     "id": "heymegabyte/claude-skills",
     "language": "TypeScript",
     "name": "heymegabyte/claude-skills",
-    "stars": 13,
+    "stars": 14,
     "updated_at": "2026-06-25T17:16:11Z",
     "url": "https://github.com/heymegabyte/claude-skills"
   },
@@ -379,7 +379,7 @@
     "id": "SalesforceAIResearch/agentforce-adlc",
     "language": "Python",
     "name": "SalesforceAIResearch/agentforce-adlc",
-    "stars": 77,
+    "stars": 78,
     "updated_at": "2026-06-25T15:48:23Z",
     "url": "https://github.com/SalesforceAIResearch/agentforce-adlc"
   },
