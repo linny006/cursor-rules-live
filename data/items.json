@@ -1,20 +1,11 @@
 [
   {
-    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
-    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "language": "\u2014",
-    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "stars": 2,
-    "updated_at": "2026-06-26T15:41:40Z",
-    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
-  },
-  {
     "description": "Drop .readmeAI in any project. AI reads it first, every session \u2014 no re-explaining, no context drift. Works with Claude,",
     "id": "Oscarr36/ReadMeAI",
     "language": "Shell",
     "name": "Oscarr36/ReadMeAI",
     "stars": 3,
-    "updated_at": "2026-06-26T15:40:05Z",
+    "updated_at": "2026-06-26T15:52:29Z",
     "url": "https://github.com/Oscarr36/ReadMeAI"
   },
   {
@@ -23,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-26T15:30:29Z",
+    "updated_at": "2026-06-26T15:45:45Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
+    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "language": "\u2014",
+    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "stars": 2,
+    "updated_at": "2026-06-26T15:41:40Z",
+    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -255,7 +255,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 59635,
+    "stars": 59645,
     "updated_at": "2026-06-26T01:28:09Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -407,7 +407,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 37224,
+    "stars": 37223,
     "updated_at": "2026-06-25T13:03:19Z",
     "url": "https://github.com/wshobson/agents"
   },
