@@ -1,5 +1,32 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-06-26T10:14:39Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
+    "id": "Laurellagloomy260/cursor-rules-generator",
+    "language": "\u2014",
+    "name": "Laurellagloomy260/cursor-rules-generator",
+    "stars": 0,
+    "updated_at": "2026-06-26T10:10:07Z",
+    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-26T10:00:44Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
     "id": "Hyanthropological659/clarify-skill",
     "language": "\u2014",
@@ -52,15 +79,6 @@
     "stars": 2,
     "updated_at": "2026-06-26T09:47:45Z",
     "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-26T09:45:27Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -150,15 +168,6 @@
     "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
   },
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 0,
-    "updated_at": "2026-06-26T06:44:02Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
     "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
     "language": "HTML",
@@ -166,15 +175,6 @@
     "stars": 1,
     "updated_at": "2026-06-26T06:31:18Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
-    "id": "Laurellagloomy260/cursor-rules-generator",
-    "language": "\u2014",
-    "name": "Laurellagloomy260/cursor-rules-generator",
-    "stars": 0,
-    "updated_at": "2026-06-26T05:24:31Z",
-    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
   },
   {
     "cursorrules": {
@@ -214,7 +214,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 59130,
+    "stars": 59146,
     "updated_at": "2026-06-26T01:28:09Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
