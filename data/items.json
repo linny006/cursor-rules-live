@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-27T11:27:46Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: Matcha Angular coding standards\nglobs: [\"**/*.ts\"]\nalwaysApply: false\n---\n\n# Angular Standards\n\n## Signals over RxJS (Angular 17+)\n```typescript\nconst count = signal(0);\nconst doubled = computed(() => count() * 2);\n```\n- signal() for UI state, RxJS only for event streams\n- OnPush change detection on all components\n\n## Dependency Injection\n```typescript\n@Injectable({ providedIn: 'root' })\nexport class Service { private http = inject(HttpClient); }\n```\n- `inject()` over constructor for tree-shaking\n- InjectionToken for non-class providers\n\n## File Naming\nkebab-case with type suffix: `.component.ts`, `.service.ts`, `.pipe.ts`\n1 class = 1 file\n\n## Performance\n- `ChangeDetectionStrategy.OnPush`\n- `trackBy` in @for loops\n- `async` pipe in templates, never subscribe in component\n\n## Checklist\n- [ ] Signals over RxJS for UI state \u2014 RxJS only for event streams\n- [ ] `inject()` over constructor DI\n- [ ] `ChangeDetectionStrategy.OnPush` on all components\n- [ ] `trackBy` in `@for` loops\n- [ ] Lazy load feature modules / standalone components\n- [ ] `async` pipe in templates, never `subscribe` in component\n- [ ] Check existing services and modules before adding new ones\n",
       "format": "mdc",
@@ -49,15 +58,6 @@
     "stars": 0,
     "updated_at": "2026-06-27T11:20:41Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-27T11:15:26Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -347,7 +347,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 60784,
+    "stars": 60788,
     "updated_at": "2026-06-26T01:28:09Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
