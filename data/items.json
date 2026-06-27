@@ -1,17 +1,35 @@
 [
   {
     "cursorrules": {
-      "content": "---\ndescription: Agent Context Doctor project rule adapter\nglobs:\n  - \"**/*\"\nalwaysApply: true\n---\n\nUse `AGENTS.md` as the canonical context. Cursor-specific rules should stay thin and avoid duplicating shared commands.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/agent-context-doctor.mdc"
+      "content": "# Emdash Skills for Cursor\n\nLoad CONVENTIONS.md for stack defaults. Load _router.md for skill routing.\n14 categories (01-14), 94 reference docs, 18 agents.\n\n## Stack\nCF Workers+Hono | Angular 21+Ionic 8+PrimeNG 21 | D1/Neon | Drizzle v1 | Clerk | Stripe | Inngest | Resend | Bun | Playwright v1.59+ | PostHog | Sentry\n\n## Rules\n- TypeScript strict, never `any`, prefer `interface` over `type`\n- Hono inline handlers for RPC type inference\n- Zod validation on all inputs\n- TDD: failing test first, Playwright 6 breakpoints\n- Dark-first design, #060610 bg, #00E5FF accent\n- Deploy to CF Workers, purge CDN after every deploy\n\nSee CONVENTIONS.md for full patterns.\n",
+      "format": "text",
+      "path": ".cursorrules"
     },
-    "description": "Doctor-first CLI for keeping AI coding agent context files clean, minimal, consistent, and safe.",
-    "id": "dadion123/agent-context-doctor",
+    "description": "14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts \u2192 deployed products.",
+    "id": "heymegabyte/claude-skills",
     "language": "TypeScript",
-    "name": "dadion123/agent-context-doctor",
+    "name": "heymegabyte/claude-skills",
+    "stars": 15,
+    "updated_at": "2026-06-27T13:58:46Z",
+    "url": "https://github.com/heymegabyte/claude-skills"
+  },
+  {
+    "description": "Claude Code skills, MCP server kits, GitHub Actions, CLI tools \u2014 production-ready developer resources",
+    "id": "castrocrest/developer-tools",
+    "language": "\u2014",
+    "name": "castrocrest/developer-tools",
     "stars": 0,
-    "updated_at": "2026-06-27T13:44:17Z",
-    "url": "https://github.com/dadion123/agent-context-doctor"
+    "updated_at": "2026-06-27T13:55:51Z",
+    "url": "https://github.com/castrocrest/developer-tools"
+  },
+  {
+    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
+    "id": "zinxj/uikit-expert-skill",
+    "language": "\u2014",
+    "name": "zinxj/uikit-expert-skill",
+    "stars": 3,
+    "updated_at": "2026-06-27T13:50:57Z",
+    "url": "https://github.com/zinxj/uikit-expert-skill"
   },
   {
     "cursorrules": {
@@ -24,8 +42,31 @@
     "language": "JavaScript",
     "name": "plumpslabs/matcha",
     "stars": 1,
-    "updated_at": "2026-06-27T13:44:03Z",
+    "updated_at": "2026-06-27T13:48:12Z",
     "url": "https://github.com/plumpslabs/matcha"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Agent Context Doctor project rule adapter\nglobs:\n  - \"**/*\"\nalwaysApply: true\n---\n\nUse `AGENTS.md` as the canonical context. Cursor-specific rules should stay thin and avoid duplicating shared commands.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/agent-context-doctor.mdc"
+    },
+    "description": "Doctor-first CLI for keeping AI coding agent context files clean, minimal, consistent, and safe.",
+    "id": "dadion123/agent-context-doctor",
+    "language": "TypeScript",
+    "name": "dadion123/agent-context-doctor",
+    "stars": 0,
+    "updated_at": "2026-06-27T13:45:55Z",
+    "url": "https://github.com/dadion123/agent-context-doctor"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-27T13:45:23Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -54,15 +95,6 @@
     "stars": 3,
     "updated_at": "2026-06-27T13:37:12Z",
     "url": "https://github.com/Luxvil/ai-coding-rules"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-27T13:30:25Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
@@ -171,15 +203,6 @@
     "stars": 2,
     "updated_at": "2026-06-27T11:49:38Z",
     "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
-  },
-  {
-    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
-    "id": "zinxj/uikit-expert-skill",
-    "language": "\u2014",
-    "name": "zinxj/uikit-expert-skill",
-    "stars": 3,
-    "updated_at": "2026-06-27T11:34:47Z",
-    "url": "https://github.com/zinxj/uikit-expert-skill"
   },
   {
     "cursorrules": {
@@ -301,20 +324,6 @@
     "url": "https://github.com/fluttersdk/wind"
   },
   {
-    "cursorrules": {
-      "content": "# Emdash Skills for Cursor\n\nLoad CONVENTIONS.md for stack defaults. Load _router.md for skill routing.\n14 categories (01-14), 94 reference docs, 18 agents.\n\n## Stack\nCF Workers+Hono | Angular 21+Ionic 8+PrimeNG 21 | D1/Neon | Drizzle v1 | Clerk | Stripe | Inngest | Resend | Bun | Playwright v1.59+ | PostHog | Sentry\n\n## Rules\n- TypeScript strict, never `any`, prefer `interface` over `type`\n- Hono inline handlers for RPC type inference\n- Zod validation on all inputs\n- TDD: failing test first, Playwright 6 breakpoints\n- Dark-first design, #060610 bg, #00E5FF accent\n- Deploy to CF Workers, purge CDN after every deploy\n\nSee CONVENTIONS.md for full patterns.\n",
-      "format": "text",
-      "path": ".cursorrules"
-    },
-    "description": "14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts \u2192 deployed products.",
-    "id": "heymegabyte/claude-skills",
-    "language": "TypeScript",
-    "name": "heymegabyte/claude-skills",
-    "stars": 15,
-    "updated_at": "2026-06-26T19:53:39Z",
-    "url": "https://github.com/heymegabyte/claude-skills"
-  },
-  {
     "description": "Drop .readmeAI in any project. AI reads it first, every session \u2014 no re-explaining, no context drift. Works with Claude,",
     "id": "Oscarr36/ReadMeAI",
     "language": "Shell",
@@ -365,7 +374,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 61072,
+    "stars": 61104,
     "updated_at": "2026-06-26T01:28:09Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -534,19 +543,5 @@
     "stars": 4,
     "updated_at": "2026-06-25T02:27:37Z",
     "url": "https://github.com/kensaurus/cursor-kenji"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Core project context and stack declaration for Next.js AI SaaS\nalwaysApply: true\n---\n\n# Project Context\n\nThis is a Next.js 15 AI SaaS application.\n\n## Core Stack\n- Framework: Next.js 15 (App Router, NOT Pages Router)\n- Language: TypeScript (strict mode, no `any`)\n- Database: Supabase (PostgreSQL + RLS)\n- Auth: Clerk (NOT NextAuth or Auth.js)\n- Payments: Stripe (subscriptions + one-time)\n- AI: Vercel AI SDK (multi-provider)\n- UI: shadcn/ui + Tailwind CSS\n- Email: Resend + React Email\n- Deployment: Vercel\n\n## Absolute Rules\n- ALWAYS use App Router (`app/` directory)\n- ALWAYS use TypeScript, never plain JS\n- ALWAYS use server components by default\n- ONLY add `\"use client\"` when strictly necessary\n- ALWAYS validate input with Zod schemas\n- NEVER use `any` type \u2014 use `unknown` and narrow\n- ALWAYS handle errors explicitly, never silent catch\n",
-      "format": "mdc",
-      "path": ".cursor/rules/001-project-context.mdc"
-    },
-    "description": "20 battle-tested .mdc Cursor rules for Next.js AI SaaS \u2014 Supabase, Clerk, Stripe, Vercel AI SDK, shadcn/ui. Agent Mode c",
-    "id": "irsyad-aulia/nextjs-ai-saas-cursor-rules",
-    "language": "\u2014",
-    "name": "irsyad-aulia/nextjs-ai-saas-cursor-rules",
-    "stars": 0,
-    "updated_at": "2026-06-24T21:28:36Z",
-    "url": "https://github.com/irsyad-aulia/nextjs-ai-saas-cursor-rules"
   }
 ]
