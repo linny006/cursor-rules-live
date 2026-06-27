@@ -1,14 +1,5 @@
 [
   {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 1,
-    "updated_at": "2026-06-27T12:45:11Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: Agent Context Doctor project rule adapter\nglobs:\n  - \"**/*\"\nalwaysApply: true\n---\n\nUse `AGENTS.md` as the canonical context. Cursor-specific rules should stay thin and avoid duplicating shared commands.\n",
       "format": "mdc",
@@ -19,7 +10,7 @@
     "language": "TypeScript",
     "name": "dadion123/agent-context-doctor",
     "stars": 0,
-    "updated_at": "2026-06-27T12:38:16Z",
+    "updated_at": "2026-06-27T12:52:14Z",
     "url": "https://github.com/dadion123/agent-context-doctor"
   },
   {
@@ -28,8 +19,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-27T12:30:26Z",
+    "updated_at": "2026-06-27T12:45:26Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 1,
+    "updated_at": "2026-06-27T12:45:11Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
@@ -356,7 +356,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 60939,
+    "stars": 60954,
     "updated_at": "2026-06-26T01:28:09Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
