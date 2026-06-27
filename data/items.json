@@ -1,11 +1,20 @@
 [
   {
+    "description": "Claude Code skills, MCP server kits, GitHub Actions, CLI tools \u2014 production-ready developer resources",
+    "id": "castrocrest/developer-tools",
+    "language": "\u2014",
+    "name": "castrocrest/developer-tools",
+    "stars": 0,
+    "updated_at": "2026-06-27T15:32:38Z",
+    "url": "https://github.com/castrocrest/developer-tools"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-27T15:15:39Z",
+    "updated_at": "2026-06-27T15:30:40Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -120,15 +129,6 @@
     "stars": 7,
     "updated_at": "2026-06-27T14:03:41Z",
     "url": "https://github.com/caioribeiroclw-pixel/pluribus"
-  },
-  {
-    "description": "Claude Code skills, MCP server kits, GitHub Actions, CLI tools \u2014 production-ready developer resources",
-    "id": "castrocrest/developer-tools",
-    "language": "\u2014",
-    "name": "castrocrest/developer-tools",
-    "stars": 0,
-    "updated_at": "2026-06-27T13:55:51Z",
-    "url": "https://github.com/castrocrest/developer-tools"
   },
   {
     "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
@@ -374,7 +374,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 61284,
+    "stars": 61300,
     "updated_at": "2026-06-26T01:28:09Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
