@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-06-27 13:15 UTC
+> ⏰ Last updated: 2026-06-27 13:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,10 +53,10 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 16 | Shell | 2026-06-27 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
-| 2 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 0 | HTML | 2026-06-27 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
-| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-06-27 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 4 | [dadion123/agent-context-doctor](https://github.com/dadion123/agent-context-doctor) | 0 | TypeScript | 2026-06-27 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/dadion123/agent-context-doctor/) | Doctor-first CLI for keeping AI coding agent context files clean, minimal, consistent, and safe. |
+| 1 | [dadion123/agent-context-doctor](https://github.com/dadion123/agent-context-doctor) | 0 | TypeScript | 2026-06-27 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/dadion123/agent-context-doctor/) | Doctor-first CLI for keeping AI coding agent context files clean, minimal, consistent, and safe. |
+| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-06-27 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 3 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 16 | Shell | 2026-06-27 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
+| 4 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 0 | HTML | 2026-06-27 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
 | 5 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 1 | HTML | 2026-06-27 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
 | 6 | [HoangNguyen0403/agent-skills-standard](https://github.com/HoangNguyen0403/agent-skills-standard) | 514 | TypeScript | 2026-06-27 | — | A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol |
 | 7 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-06-27 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
@@ -87,7 +87,7 @@ expired items removed — so you can rely on what you see being current.
 | 32 | [sungurerdim/dev-skills](https://github.com/sungurerdim/dev-skills) | 1 | HTML | 2026-06-26 | — | Your AI assistant hallucinates APIs, breaks dependent files, and weakens tests. 20 skills that prevent this across the f |
 | 33 | [RollingGo-AI/rollinggo-hotel-skill](https://github.com/RollingGo-AI/rollinggo-hotel-skill) | 5 | Python | 2026-06-26 | — | 全球酒店实时推荐及闭环预订Skill，200 万+酒店，全球第三大酒旅B2B公司数据源，免费无调用上限。可按地点、日期、星级、人数、标签等条件搜索酒店列表，返回候选酒店及展示价。可查询指定酒店的实时房型列表、价格计划和取消政策。可锁定价格， |
 | 34 | [CyannSHI/ai-interview-kit](https://github.com/CyannSHI/ai-interview-kit) | 10 | HTML | 2026-06-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/CyannSHI/ai-interview-kit/) | Engineer user-research methodologies into AI prompts — professional-grade phone interviews at scale. 6 pluggable methodo |
-| 35 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 61009 | JavaScript | 2026-06-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 35 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 61036 | JavaScript | 2026-06-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 36 | [powersync-ja/agent-skills](https://github.com/powersync-ja/agent-skills) | 16 | JavaScript | 2026-06-25 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/powersync-ja/agent-skills/) | Official agent skills for PowerSync |
 | 37 | [sina-z/redpen](https://github.com/sina-z/redpen) | 0 | JavaScript | 2026-06-25 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/sina-z/redpen/) | Ship clean. No embarrassing leftovers. |
 | 38 | [weijia-89/palamedes](https://github.com/weijia-89/palamedes) | 0 | Python | 2026-06-25 | — | Rigorous LLM research in two layers: a multi-agent dialectic synthesis prompt + an agent-loadable research skill. Hierar |
