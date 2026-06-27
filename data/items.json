@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-27T22:15:23Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
     "id": "Bastioned-successor320/learn-nanobot",
     "language": "Python",
@@ -61,15 +70,6 @@
     "stars": 2,
     "updated_at": "2026-06-27T22:05:52Z",
     "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-27T22:00:24Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
