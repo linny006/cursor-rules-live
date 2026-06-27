@@ -1,5 +1,37 @@
 [
   {
+    "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
+    "id": "HoangNguyen0403/agent-skills-standard",
+    "language": "TypeScript",
+    "name": "HoangNguyen0403/agent-skills-standard",
+    "stars": 514,
+    "updated_at": "2026-06-27T12:21:53Z",
+    "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Agent Context Doctor project rule adapter\nglobs:\n  - \"**/*\"\nalwaysApply: true\n---\n\nUse `AGENTS.md` as the canonical context. Cursor-specific rules should stay thin and avoid duplicating shared commands.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/agent-context-doctor.mdc"
+    },
+    "description": "Doctor-first CLI for keeping AI coding agent context files clean, minimal, consistent, and safe.",
+    "id": "dadion123/agent-context-doctor",
+    "language": "TypeScript",
+    "name": "dadion123/agent-context-doctor",
+    "stars": 0,
+    "updated_at": "2026-06-27T12:21:15Z",
+    "url": "https://github.com/dadion123/agent-context-doctor"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-27T12:15:37Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
     "id": "Trentobobbi/uikit-mastery-playbook",
     "language": "HTML",
@@ -27,20 +59,6 @@
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
-    "cursorrules": {
-      "content": "---\ndescription: Agent Context Doctor project rule adapter\nglobs:\n  - \"**/*\"\nalwaysApply: true\n---\n\nUse `AGENTS.md` as the canonical context. Cursor-specific rules should stay thin and avoid duplicating shared commands.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/agent-context-doctor.mdc"
-    },
-    "description": "Doctor-first CLI for keeping AI coding agent context files clean, minimal, consistent, and safe.",
-    "id": "dadion123/agent-context-doctor",
-    "language": "TypeScript",
-    "name": "dadion123/agent-context-doctor",
-    "stars": 0,
-    "updated_at": "2026-06-27T12:02:13Z",
-    "url": "https://github.com/dadion123/agent-context-doctor"
-  },
-  {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
     "id": "Hyanthropological659/clarify-skill",
     "language": "\u2014",
@@ -48,15 +66,6 @@
     "stars": 0,
     "updated_at": "2026-06-27T12:00:31Z",
     "url": "https://github.com/Hyanthropological659/clarify-skill"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-27T12:00:23Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
@@ -347,7 +356,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 60858,
+    "stars": 60900,
     "updated_at": "2026-06-26T01:28:09Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -539,14 +548,5 @@
     "stars": 0,
     "updated_at": "2026-06-24T21:28:36Z",
     "url": "https://github.com/irsyad-aulia/nextjs-ai-saas-cursor-rules"
-  },
-  {
-    "description": "Open-source templates and checklists for safer AI coding workflows.",
-    "id": "Bruceai21/ai-coding-workflow-starter-pack",
-    "language": "\u2014",
-    "name": "Bruceai21/ai-coding-workflow-starter-pack",
-    "stars": 0,
-    "updated_at": "2026-06-24T19:37:15Z",
-    "url": "https://github.com/Bruceai21/ai-coding-workflow-starter-pack"
   }
 ]
