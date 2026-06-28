@@ -1,11 +1,34 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-06-28T21:54:36Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Buy-vs-build mode\nglobs: **/*\nalwaysApply: true\n---\n# Buy-vs-build mode\n\nBefore writing code, decide whether the work should be bought, reused, or built.\n\nFirst classify the work: is it **core** (the differentiation users choose you for) or **context** (needed but unrewarded), and is the capability a **commodity** (standardized and stable) or **novel** (still changing or specific to you)? Reuse context and commodity work as far down the ladder as it allows; build in-house only where core meets novel. Scale scrutiny to reversibility: two-way-door choices decide fast, one-way-door commitments (deep platform or data lock-in) get rigor and an exit plan.\n\nThen stop at the first rung that satisfies the requirement:\n\n1. Do nothing: skip speculative requirements and scaffolding.\n2. Use built-ins: prefer language built-ins and the standard library.\n3. Use the native platform: browser controls, OS/framework/database/cloud primitives, and protocol features.\n4. Use already-installed dependencies: prefer existing project dependencies before adding new ones.\n5. Use open source: add a mature library only when it lowers total cost of ownership.\n6. Use commercial: buy reliability, compliance, operations, support, or time when cheaper than owning it.\n7. Build in-house only when reuse fails the real constraints, or the work is core differentiation.\n\nWhen several options satisfy the chosen rung, pick the one whose capabilities match the requirement's real shape \u2014 directionality, volume, latency, consistency, and failure mode \u2014 not the most powerful, popular, or familiar option.\n\nBefore adopting an open-source or commercial dependency, research it \u2014 maintenance and health (active maintainers, release cadence, adoption, bus factor), security and supply chain (known vulnerabilities, install scripts, provenance), license, and transitive footprint \u2014 and prefer the lowest-ownership option that clears those checks.\n\nFor non-obvious decisions, compare fit, total cost of ownership, security, licensing, maintenance, integration, maturity, reversibility, and exit risk. State the chosen rung briefly as `Decision: use <rung>: <option>. Tradeoff: <why it wins>. Rejected: <next-best option> because <constraint>. Revisit if <specific trigger>.`\n\nAfter implementing, verify the choice actually paid off \u2014 fewer lines, fewer failure modes, less to operate \u2014 not just that the right option was named; a sound choice can still be integrated badly. The decision note is the artifact that makes that tradeoff reviewable, so keep it accurate.\n\nUse these rung labels: do-nothing, built-in, native-platform, installed-dependency, open-source, commercial, in-house.\n\nNever outsource core differentiation, trust-boundary logic, security-critical decisions, or tiny code that is clearer than a dependency.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/buy-vs-build.mdc"
+    },
+    "description": "Stop your AI coding agent from reinventing the wheel. An always-on buy-vs-build ruleset that reuses built-ins, platform ",
+    "id": "stdin/buy-vs-build",
+    "language": "JavaScript",
+    "name": "stdin/buy-vs-build",
+    "stars": 3,
+    "updated_at": "2026-06-28T21:46:59Z",
+    "url": "https://github.com/stdin/buy-vs-build"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-28T21:31:26Z",
+    "updated_at": "2026-06-28T21:45:26Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -134,15 +157,6 @@
     "stars": 3,
     "updated_at": "2026-06-28T20:14:01Z",
     "url": "https://github.com/Luxvil/ai-coding-rules"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 0,
-    "updated_at": "2026-06-28T20:06:28Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "cursorrules": {
@@ -424,7 +438,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 64158,
+    "stars": 64180,
     "updated_at": "2026-06-26T01:28:09Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -519,19 +533,5 @@
     "stars": 2,
     "updated_at": "2026-06-25T14:10:17Z",
     "url": "https://github.com/Abhir1902/Karcursifyeo"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: claude-agents marketplace project conventions\nalwaysApply: true\n---\n\n# claude-agents conventions\n\nThis is a multi-harness plugin marketplace. Source lives under `plugins/`; per-harness\nartifacts (`.codex/`, `.cursor-plugin/`, `.opencode/`, `commands/`) are generated.\n\n- Don't hand-edit anything under `.codex/`, `.cursor-plugin/`, `.opencode/`, or top-level `commands/`, `agents/`, `skills/` \u2014 regenerate via `make generate HARNESS=<x>`.\n- Python tooling: `uv` (package manager), `ruff` (lint/format), `ty` (type check). Do not use pip/mypy/black.\n- Plugin files: `plugins/<name>/{.claude-plugin/plugin.json, agents/*.md, skills/<name>/SKILL.md, commands/*.md}`. Auto-discovered.\n- Cursor reads `.claude/skills/` and `.claude/agents/` directly \u2014 no separate `.cursor/skills/` is generated.\n\n## Never\n\n- Never commit secrets or hardcode credentials.\n- Never modify `.claude-plugin/marketplace.json` from inside a plugin PR \u2014 it's the registry.\n- Never run destructive git operations (force-push, reset --hard, branch -D) without explicit ask.\n\nSee `docs/authoring.md` for the portable-content style guide.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/000-project-conventions.mdc"
-    },
-    "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI",
-    "id": "wshobson/agents",
-    "language": "Python",
-    "name": "wshobson/agents",
-    "stars": 37290,
-    "updated_at": "2026-06-25T13:03:19Z",
-    "url": "https://github.com/wshobson/agents"
   }
 ]
