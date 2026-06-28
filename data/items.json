@@ -1,5 +1,50 @@
 [
   {
+    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
+    "id": "Hyanthropological659/clarify-skill",
+    "language": "\u2014",
+    "name": "Hyanthropological659/clarify-skill",
+    "stars": 0,
+    "updated_at": "2026-06-28T13:24:47Z",
+    "url": "https://github.com/Hyanthropological659/clarify-skill"
+  },
+  {
+    "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
+    "id": "Bastioned-successor320/learn-nanobot",
+    "language": "Python",
+    "name": "Bastioned-successor320/learn-nanobot",
+    "stars": 2,
+    "updated_at": "2026-06-28T13:22:31Z",
+    "url": "https://github.com/Bastioned-successor320/learn-nanobot"
+  },
+  {
+    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
+    "id": "XAKLESK/cre-agent-skills",
+    "language": "\u2014",
+    "name": "XAKLESK/cre-agent-skills",
+    "stars": 2,
+    "updated_at": "2026-06-28T13:20:54Z",
+    "url": "https://github.com/XAKLESK/cre-agent-skills"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-06-28T13:17:44Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-28T13:15:43Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
     "id": "Amirun99/agency-orchestrator",
     "language": "Dart",
@@ -27,15 +72,6 @@
     "url": "https://github.com/caioribeiroclw-pixel/pluribus"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-28T13:00:26Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
     "id": "zinxj/uikit-expert-skill",
     "language": "\u2014",
@@ -43,6 +79,15 @@
     "stars": 3,
     "updated_at": "2026-06-28T12:58:55Z",
     "url": "https://github.com/zinxj/uikit-expert-skill"
+  },
+  {
+    "description": "Ponytail, but without the plugin madness.",
+    "id": "ilindaniel/ponytail-lite",
+    "language": "\u2014",
+    "name": "ilindaniel/ponytail-lite",
+    "stars": 1,
+    "updated_at": "2026-06-28T12:58:51Z",
+    "url": "https://github.com/ilindaniel/ponytail-lite"
   },
   {
     "cursorrules": {
@@ -100,15 +145,6 @@
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 0,
-    "updated_at": "2026-06-28T11:42:23Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
     "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
     "id": "KbWen/agentic-os",
     "language": "Python",
@@ -139,33 +175,6 @@
     "stars": 0,
     "updated_at": "2026-06-28T10:42:01Z",
     "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
-  },
-  {
-    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
-    "id": "Hyanthropological659/clarify-skill",
-    "language": "\u2014",
-    "name": "Hyanthropological659/clarify-skill",
-    "stars": 0,
-    "updated_at": "2026-06-28T10:31:12Z",
-    "url": "https://github.com/Hyanthropological659/clarify-skill"
-  },
-  {
-    "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
-    "id": "Bastioned-successor320/learn-nanobot",
-    "language": "Python",
-    "name": "Bastioned-successor320/learn-nanobot",
-    "stars": 2,
-    "updated_at": "2026-06-28T10:29:01Z",
-    "url": "https://github.com/Bastioned-successor320/learn-nanobot"
-  },
-  {
-    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
-    "id": "XAKLESK/cre-agent-skills",
-    "language": "\u2014",
-    "name": "XAKLESK/cre-agent-skills",
-    "stars": 2,
-    "updated_at": "2026-06-28T10:27:18Z",
-    "url": "https://github.com/XAKLESK/cre-agent-skills"
   },
   {
     "cursorrules": {
@@ -392,7 +401,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 62777,
+    "stars": 62807,
     "updated_at": "2026-06-26T01:28:09Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -512,7 +521,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 37279,
+    "stars": 37280,
     "updated_at": "2026-06-25T13:03:19Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -524,14 +533,5 @@
     "stars": 5,
     "updated_at": "2026-06-25T10:24:42Z",
     "url": "https://github.com/pekral/cursor-rules"
-  },
-  {
-    "description": "Modular, scalable, automated development intelligence.",
-    "id": "DongDuong2001/pudo-code-system",
-    "language": "JavaScript",
-    "name": "DongDuong2001/pudo-code-system",
-    "stars": 4,
-    "updated_at": "2026-06-25T09:47:35Z",
-    "url": "https://github.com/DongDuong2001/pudo-code-system"
   }
 ]
