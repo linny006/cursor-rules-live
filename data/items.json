@@ -1,12 +1,12 @@
 [
   {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 18,
-    "updated_at": "2026-06-28T08:46:41Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 38,
+    "updated_at": "2026-06-28T09:03:10Z",
+    "url": "https://github.com/KbWen/agentic-os"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-28T08:45:37Z",
+    "updated_at": "2026-06-28T09:00:39Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 18,
+    "updated_at": "2026-06-28T08:46:41Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -383,7 +392,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 62398,
+    "stars": 62421,
     "updated_at": "2026-06-26T01:28:09Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -524,19 +533,5 @@
     "stars": 4,
     "updated_at": "2026-06-25T09:47:35Z",
     "url": "https://github.com/DongDuong2001/pudo-code-system"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Separate accepted changes, unresolved concerns, and follow-up work before merge\nglobs:\nalwaysApply: false\n---\n\n# Classify Before Merging\n\nBefore a PR is merged, the outcome of each review finding should be clear.\n\n## Rules\n\n- Do not merge without identifying which changes are accepted as-is\n- Do not leave unresolved review comments without a decision\n- Do not carry over follow-up work silently \u2014 make it explicit before merge\n- Do not treat \"no objection\" as a decision \u2014 state the outcome clearly\n\n## Before merging, confirm the following\n\nFor each review finding or open question:\n\n1. Is this accepted and complete as written?\n2. Is this deferred to a follow-up PR?\n3. Does this require a human decision before merge?\n\nIf any item falls into category 3, do not proceed with merge.\n\n## Why this matters\n\nMerging without classifying open items makes it harder to track what was decided,\nwhat was deferred, and what still needs a human judgment call.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/classify-before-merging.mdc"
-    },
-    "description": "Reusable Cursor .mdc rules to keep AI-assisted PRs scoped, reviewable, and human-decided.",
-    "id": "logfabricteam/cursor-pr-discipline",
-    "language": "\u2014",
-    "name": "logfabricteam/cursor-pr-discipline",
-    "stars": 0,
-    "updated_at": "2026-06-25T05:21:47Z",
-    "url": "https://github.com/logfabricteam/cursor-pr-discipline"
   }
 ]
