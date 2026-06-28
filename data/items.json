@@ -1,5 +1,50 @@
 [
   {
+    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
+    "id": "Hyanthropological659/clarify-skill",
+    "language": "\u2014",
+    "name": "Hyanthropological659/clarify-skill",
+    "stars": 0,
+    "updated_at": "2026-06-28T23:38:07Z",
+    "url": "https://github.com/Hyanthropological659/clarify-skill"
+  },
+  {
+    "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
+    "id": "Bastioned-successor320/learn-nanobot",
+    "language": "Python",
+    "name": "Bastioned-successor320/learn-nanobot",
+    "stars": 2,
+    "updated_at": "2026-06-28T23:36:03Z",
+    "url": "https://github.com/Bastioned-successor320/learn-nanobot"
+  },
+  {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 1,
+    "updated_at": "2026-06-28T23:34:56Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
+  },
+  {
+    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
+    "id": "XAKLESK/cre-agent-skills",
+    "language": "\u2014",
+    "name": "XAKLESK/cre-agent-skills",
+    "stars": 2,
+    "updated_at": "2026-06-28T23:34:20Z",
+    "url": "https://github.com/XAKLESK/cre-agent-skills"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-28T23:30:25Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
     "id": "Amirun99/agency-orchestrator",
     "language": "Dart",
@@ -16,15 +61,6 @@
     "stars": 2,
     "updated_at": "2026-06-28T23:28:00Z",
     "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-28T23:15:40Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
@@ -82,15 +118,6 @@
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 1,
-    "updated_at": "2026-06-28T22:17:34Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: Buy-vs-build mode\nglobs: **/*\nalwaysApply: true\n---\n# Buy-vs-build mode\n\nBefore writing code, decide whether the work should be bought, reused, or built.\n\nFirst classify the work: is it **core** (the differentiation users choose you for) or **context** (needed but unrewarded), and is the capability a **commodity** (standardized and stable) or **novel** (still changing or specific to you)? Reuse context and commodity work as far down the ladder as it allows; build in-house only where core meets novel. Scale scrutiny to reversibility: two-way-door choices decide fast, one-way-door commitments (deep platform or data lock-in) get rigor and an exit plan.\n\nThen stop at the first rung that satisfies the requirement:\n\n1. Do nothing: skip speculative requirements and scaffolding.\n2. Use built-ins: prefer language built-ins and the standard library.\n3. Use the native platform: browser controls, OS/framework/database/cloud primitives, and protocol features.\n4. Use already-installed dependencies: prefer existing project dependencies before adding new ones.\n5. Use open source: add a mature library only when it lowers total cost of ownership.\n6. Use commercial: buy reliability, compliance, operations, support, or time when cheaper than owning it.\n7. Build in-house only when reuse fails the real constraints, or the work is core differentiation.\n\nWhen several options satisfy the chosen rung, pick the one whose capabilities match the requirement's real shape \u2014 directionality, volume, latency, consistency, and failure mode \u2014 not the most powerful, popular, or familiar option.\n\nBefore adopting an open-source or commercial dependency, research it \u2014 maintenance and health (active maintainers, release cadence, adoption, bus factor), security and supply chain (known vulnerabilities, install scripts, provenance), license, and transitive footprint \u2014 and prefer the lowest-ownership option that clears those checks.\n\nFor non-obvious decisions, compare fit, total cost of ownership, security, licensing, maintenance, integration, maturity, reversibility, and exit risk. State the chosen rung briefly as `Decision: use <rung>: <option>. Tradeoff: <why it wins>. Rejected: <next-best option> because <constraint>. Revisit if <specific trigger>.`\n\nAfter implementing, verify the choice actually paid off \u2014 fewer lines, fewer failure modes, less to operate \u2014 not just that the right option was named; a sound choice can still be integrated badly. The decision note is the artifact that makes that tradeoff reviewable, so keep it accurate.\n\nUse these rung labels: do-nothing, built-in, native-platform, installed-dependency, open-source, commercial, in-house.\n\nNever outsource core differentiation, trust-boundary logic, security-critical decisions, or tiny code that is clearer than a dependency.\n",
       "format": "mdc",
@@ -130,33 +157,6 @@
     "stars": 0,
     "updated_at": "2026-06-28T21:03:02Z",
     "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
-  },
-  {
-    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
-    "id": "Hyanthropological659/clarify-skill",
-    "language": "\u2014",
-    "name": "Hyanthropological659/clarify-skill",
-    "stars": 0,
-    "updated_at": "2026-06-28T20:52:47Z",
-    "url": "https://github.com/Hyanthropological659/clarify-skill"
-  },
-  {
-    "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
-    "id": "Bastioned-successor320/learn-nanobot",
-    "language": "Python",
-    "name": "Bastioned-successor320/learn-nanobot",
-    "stars": 2,
-    "updated_at": "2026-06-28T20:50:37Z",
-    "url": "https://github.com/Bastioned-successor320/learn-nanobot"
-  },
-  {
-    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
-    "id": "XAKLESK/cre-agent-skills",
-    "language": "\u2014",
-    "name": "XAKLESK/cre-agent-skills",
-    "stars": 2,
-    "updated_at": "2026-06-28T20:48:58Z",
-    "url": "https://github.com/XAKLESK/cre-agent-skills"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -438,7 +438,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 64296,
+    "stars": 64318,
     "updated_at": "2026-06-26T01:28:09Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
