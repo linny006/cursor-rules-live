@@ -1,11 +1,20 @@
 [
   {
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-06-28T16:17:12Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-28T16:12:27Z",
+    "updated_at": "2026-06-28T16:15:23Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -13,7 +22,7 @@
     "id": "J-nowcow/awesome-korean-agent-skills",
     "language": "\u2014",
     "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 19,
+    "stars": 20,
     "updated_at": "2026-06-28T16:03:32Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
@@ -152,15 +161,6 @@
     "stars": 7,
     "updated_at": "2026-06-28T14:03:49Z",
     "url": "https://github.com/caioribeiroclw-pixel/pluribus"
-  },
-  {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
-    "stars": 0,
-    "updated_at": "2026-06-28T14:01:40Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
   },
   {
     "description": "Stop agents from over-engineering. Inspired by Ponytail, but without the plugin madness.",
@@ -410,7 +410,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 63368,
+    "stars": 63414,
     "updated_at": "2026-06-26T01:28:09Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -530,7 +530,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 37283,
+    "stars": 37284,
     "updated_at": "2026-06-25T13:03:19Z",
     "url": "https://github.com/wshobson/agents"
   }
