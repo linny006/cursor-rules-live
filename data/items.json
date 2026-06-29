@@ -1,12 +1,12 @@
 [
   {
-    "description": "Agent Development Life Cycle \u2014 Build, deploy, test, and optimize Agentforce agents using Claude Code skills and Agent Sc",
-    "id": "SalesforceAIResearch/agentforce-adlc",
-    "language": "Python",
-    "name": "SalesforceAIResearch/agentforce-adlc",
-    "stars": 78,
-    "updated_at": "2026-06-29T04:03:16Z",
-    "url": "https://github.com/SalesforceAIResearch/agentforce-adlc"
+    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
+    "id": "zinxj/uikit-expert-skill",
+    "language": "\u2014",
+    "name": "zinxj/uikit-expert-skill",
+    "stars": 3,
+    "updated_at": "2026-06-29T04:06:49Z",
+    "url": "https://github.com/zinxj/uikit-expert-skill"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-29T04:00:45Z",
+    "updated_at": "2026-06-29T04:03:43Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Agent Development Life Cycle \u2014 Build, deploy, test, and optimize Agentforce agents using Claude Code skills and Agent Sc",
+    "id": "SalesforceAIResearch/agentforce-adlc",
+    "language": "Python",
+    "name": "SalesforceAIResearch/agentforce-adlc",
+    "stars": 78,
+    "updated_at": "2026-06-29T04:03:16Z",
+    "url": "https://github.com/SalesforceAIResearch/agentforce-adlc"
   },
   {
     "cursorrules": {
@@ -126,15 +135,6 @@
     "stars": 2,
     "updated_at": "2026-06-29T01:38:22Z",
     "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
-  },
-  {
-    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
-    "id": "zinxj/uikit-expert-skill",
-    "language": "\u2014",
-    "name": "zinxj/uikit-expert-skill",
-    "stars": 3,
-    "updated_at": "2026-06-29T01:24:21Z",
-    "url": "https://github.com/zinxj/uikit-expert-skill"
   },
   {
     "cursorrules": {
@@ -461,7 +461,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 65012,
+    "stars": 65038,
     "updated_at": "2026-06-26T01:28:09Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
