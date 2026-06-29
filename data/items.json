@@ -1,20 +1,11 @@
 [
   {
-    "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
-    "id": "mikeprasad/aria-knowledge",
-    "language": "Shell",
-    "name": "mikeprasad/aria-knowledge",
-    "stars": 16,
-    "updated_at": "2026-06-29T07:27:08Z",
-    "url": "https://github.com/mikeprasad/aria-knowledge"
-  },
-  {
     "description": "Production-grade AI coding rules for Cursor and Claude Code. 15 rules + 9 doc templates + skills + agents + MCP setup. D",
     "id": "aiagentwithdhruv/ai-dev-stack",
     "language": "Shell",
     "name": "aiagentwithdhruv/ai-dev-stack",
     "stars": 6,
-    "updated_at": "2026-06-29T07:27:01Z",
+    "updated_at": "2026-06-29T07:39:52Z",
     "url": "https://github.com/aiagentwithdhruv/ai-dev-stack"
   },
   {
@@ -23,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-29T07:15:33Z",
+    "updated_at": "2026-06-29T07:30:28Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
+    "id": "mikeprasad/aria-knowledge",
+    "language": "Shell",
+    "name": "mikeprasad/aria-knowledge",
+    "stars": 16,
+    "updated_at": "2026-06-29T07:27:08Z",
+    "url": "https://github.com/mikeprasad/aria-knowledge"
   },
   {
     "cursorrules": {
@@ -46,7 +46,7 @@
     "language": "PHP",
     "name": "pekral/cursor-rules",
     "stars": 5,
-    "updated_at": "2026-06-29T07:07:22Z",
+    "updated_at": "2026-06-29T07:41:04Z",
     "url": "https://github.com/pekral/cursor-rules"
   },
   {
@@ -68,7 +68,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 65564,
+    "stars": 65599,
     "updated_at": "2026-06-29T05:26:32Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
