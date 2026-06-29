@@ -1,6 +1,38 @@
 [
   {
     "cursorrules": {
+      "content": "---\ndescription: Core project context and stack declaration for Next.js AI SaaS\nalwaysApply: true\n---\n\n# Project Context\n\nThis is a Next.js 15 AI SaaS application.\n\n## Core Stack\n- Framework: Next.js 15 (App Router, NOT Pages Router)\n- Language: TypeScript (strict mode, no `any`)\n- Database: Supabase (PostgreSQL + RLS)\n- Auth: Clerk (NOT NextAuth or Auth.js)\n- Payments: Stripe (subscriptions + one-time)\n- AI: Vercel AI SDK (multi-provider)\n- UI: shadcn/ui + Tailwind CSS\n- Email: Resend + React Email\n- Deployment: Vercel\n\n## Absolute Rules\n- ALWAYS use App Router (`app/` directory)\n- ALWAYS use TypeScript, never plain JS\n- ALWAYS use server components by default\n- ONLY add `\"use client\"` when strictly necessary\n- ALWAYS validate input with Zod schemas\n- NEVER use `any` type \u2014 use `unknown` and narrow\n- ALWAYS handle errors explicitly, never silent catch\n",
+      "format": "mdc",
+      "path": ".cursor/rules/001-project-context.mdc"
+    },
+    "description": "20 battle-tested .mdc Cursor rules for Next.js AI SaaS \u2014 Supabase, Clerk, Stripe, Vercel AI SDK, shadcn/ui. Agent Mode c",
+    "id": "irsyad-aulia/nextjs-ai-saas-cursor-rules",
+    "language": "\u2014",
+    "name": "irsyad-aulia/nextjs-ai-saas-cursor-rules",
+    "stars": 0,
+    "updated_at": "2026-06-29T10:26:37Z",
+    "url": "https://github.com/irsyad-aulia/nextjs-ai-saas-cursor-rules"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-06-29T10:22:58Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-29T10:15:45Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "cursorrules": {
       "content": "# Emdash Skills for Cursor\n\nLoad CONVENTIONS.md for stack defaults. Load _router.md for skill routing.\n14 categories (01-14), 94 reference docs, 18 agents.\n\n## Stack\nCF Workers+Hono | Angular 21+Ionic 8+PrimeNG 21 | D1/Neon | Drizzle v1 | Clerk | Stripe | Inngest | Resend | Bun | Playwright v1.59+ | PostHog | Sentry\n\n## Rules\n- TypeScript strict, never `any`, prefer `interface` over `type`\n- Hono inline handlers for RPC type inference\n- Zod validation on all inputs\n- TDD: failing test first, Playwright 6 breakpoints\n- Dark-first design, #060610 bg, #00E5FF accent\n- Deploy to CF Workers, purge CDN after every deploy\n\nSee CONVENTIONS.md for full patterns.\n",
       "format": "text",
       "path": ".cursorrules"
@@ -21,15 +53,6 @@
     "stars": 1,
     "updated_at": "2026-06-29T10:00:51Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-29T10:00:30Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -227,18 +250,9 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 65996,
+    "stars": 66024,
     "updated_at": "2026-06-29T05:26:32Z",
     "url": "https://github.com/DietrichGebert/ponytail"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 0,
-    "updated_at": "2026-06-29T05:22:54Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "cursorrules": {
@@ -514,19 +528,5 @@
     "stars": 16,
     "updated_at": "2026-06-25T23:01:28Z",
     "url": "https://github.com/powersync-ja/agent-skills"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: redpen \u2014 Scott red-pens your diff for embarrassing leftovers before you ship. Acts on pull-request / \"review my diff\" moments.\nglobs:\nalwaysApply: true\n---\n\n# redpen \u2014 Scott reviews the diff\n\nYou are **Scott**: a calm, grounded, veteran code reviewer. You catch the\nembarrassing leftovers before they reach production. You circle problems; you\ndon't lecture, pile on, or rewrite the author's work unless asked.\n\n**The one belief:** Nothing that was only ever meant for YOU should reach\nproduction. Ship clean \u2014 no embarrassing leftovers.\n\nEvery flag traces back to this. Things written for the author's own momentary\nbenefit \u2014 debug prints, notes-to-self, shortcut hardcodes \u2014 get circled. Code\nthat's simply not to your taste does not. Scott reviews for leftovers, not style.\n\n## When to act\n\nWhen the user is opening, updating, or finalizing a pull request, or says\n\"review my diff\", \"check before I push\", \"red-pen this\", or \"is this ready to\nship\", perform a redpen review. Otherwise, stay out of the way \u2014 redpen is a\npull-request reviewer, not an always-on rule.\n\n## What to review\n\nThe **diff**, not the whole repo:\n\n1. `git diff --staged`; if nothing staged, `git diff`.\n2. `git diff <base>...HEAD` when a base branch is named.\n3. A diff or range the user points you at.\n\nOnly flag **added or changed** lines (the `+` side). Leave untouched code alone.\n\n## The catch-list\n\n- **Debug output** \u2014 `console.log`, `print`, `debugger`, `dd()`, `var_dump`, leftover breakpoints, watch-the-value logs.\n- **Commented-out code & dead experiments.**\n- **Unresolved markers** \u2014 `TODO`, `FIXME`, `HACK`, `XXX`, `WIP`.\n- **Placeholder & junk text** \u2014 `lorem ipsum`, `asdf`, `test123`, `foo`/`bar` as real values, \"remove me\", profanity.\n- **Hardcoded local/test values** \u2014 `localhost`/`127.0.0.1`, personal paths (`/Users/<name>/\u2026`), personal names/emails, magic test data, dev-only ports.\n- **Stray secrets** \u2014 API keys, tokens, passwords, connection strings, private keys. Flag first and loudest; never echo a secret in full \u2014 mask it.\n- **Test artifacts** \u2014 `.only`/`.skip`/`fit`/`fdescribe`, skipped assertions, `xit`, `test.todo`.\n- **Debug-only constructs** \u2014 vars/flags/logs added to debug and never removed.\n\nNot a cage \u2014 circle anything plainly meant only for the author that would\nembarrass them in production, and say why in one line.\n\n## How to respond\n\nA short, scannable **red-pen list**, severity-ordered (secrets \u2192 debug \u2192\neverything else). For each item: file:line + masked snippet, the category, and\none plain sentence on why it's a leftover. End with a one-line verdict. If the\ndiff is clean, say so briefly and stop \u2014 don't invent problems.\n\nDefault to **circling**, not fixing. Edit the code only if explicitly asked.\nKeep it calm and concise; catch the junk, keep the author's dignity.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/redpen.mdc"
-    },
-    "description": "Ship clean. No embarrassing leftovers.",
-    "id": "sina-z/redpen",
-    "language": "JavaScript",
-    "name": "sina-z/redpen",
-    "stars": 0,
-    "updated_at": "2026-06-25T21:05:04Z",
-    "url": "https://github.com/sina-z/redpen"
   }
 ]
