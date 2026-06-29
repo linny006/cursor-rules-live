@@ -1,11 +1,43 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: \"USE WHEN: any task in this repo. Global operating rules.\"\nglobs: [\"**/*\"]\nalwaysApply: true\npriority: 100\n---\n\n# Global Rules (Always On)\n\n## Role\nYou are an AI coding assistant. Deliver correct, minimal, testable changes. Surface uncertainty instead of hiding it.\n\n## Non\u2011Negotiables\n- **Correctness > simplicity > consistency > style**.\n- **Minimal diff**: touch only what the task needs.\n- **No drive\u2011by refactors**.\n- **Ask when ambiguous**: assumptions ledger + up to 3 questions.\n- **Stop** on security, data loss, or breaking changes; ask for confirmation.\n\n## Output Discipline\n- Provide a brief plan before changes.\n- Show verification steps (lint/typecheck/tests) and state what wasn\u2019t run.\n\n## Guardrails\n- No hard\u2011coded secrets.\n- No unrelated formatting or renaming.\n- No new dependencies without approval.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/00-global.mdc"
+    },
+    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
+    "id": "Luxvil/ai-coding-rules",
+    "language": "Shell",
+    "name": "Luxvil/ai-coding-rules",
+    "stars": 3,
+    "updated_at": "2026-06-29T12:59:24Z",
+    "url": "https://github.com/Luxvil/ai-coding-rules"
+  },
+  {
+    "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
+    "id": "HoangNguyen0403/agent-skills-standard",
+    "language": "TypeScript",
+    "name": "HoangNguyen0403/agent-skills-standard",
+    "stars": 515,
+    "updated_at": "2026-06-29T13:00:12Z",
+    "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
+  },
+  {
+    "description": "\u2694 18,142+ AI agent skills from 307+ GitHub repos across 14 frameworks (Claude Code, Cursor, Cline, Roo, Aider, OpenHands",
+    "id": "Bilal140202/the-lord-of-the-skills",
+    "language": "Python",
+    "name": "Bilal140202/the-lord-of-the-skills",
+    "stars": 2,
+    "updated_at": "2026-06-29T12:56:44Z",
+    "url": "https://github.com/Bilal140202/the-lord-of-the-skills"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-29T12:30:29Z",
+    "updated_at": "2026-06-29T12:45:29Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -134,20 +166,6 @@
     "stars": 0,
     "updated_at": "2026-06-29T10:46:23Z",
     "url": "https://github.com/johnwall123459885/skene-cookbook"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: \"USE WHEN: any task in this repo. Global operating rules.\"\nglobs: [\"**/*\"]\nalwaysApply: true\npriority: 100\n---\n\n# Global Rules (Always On)\n\n## Role\nYou are an AI coding assistant. Deliver correct, minimal, testable changes. Surface uncertainty instead of hiding it.\n\n## Non\u2011Negotiables\n- **Correctness > simplicity > consistency > style**.\n- **Minimal diff**: touch only what the task needs.\n- **No drive\u2011by refactors**.\n- **Ask when ambiguous**: assumptions ledger + up to 3 questions.\n- **Stop** on security, data loss, or breaking changes; ask for confirmation.\n\n## Output Discipline\n- Provide a brief plan before changes.\n- Show verification steps (lint/typecheck/tests) and state what wasn\u2019t run.\n\n## Guardrails\n- No hard\u2011coded secrets.\n- No unrelated formatting or renaming.\n- No new dependencies without approval.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/00-global.mdc"
-    },
-    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
-    "id": "Luxvil/ai-coding-rules",
-    "language": "Shell",
-    "name": "Luxvil/ai-coding-rules",
-    "stars": 3,
-    "updated_at": "2026-06-29T10:41:23Z",
-    "url": "https://github.com/Luxvil/ai-coding-rules"
   },
   {
     "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
@@ -282,7 +300,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 66321,
+    "stars": 66355,
     "updated_at": "2026-06-29T05:26:32Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -425,15 +443,6 @@
     "url": "https://github.com/dadion123/agent-context-doctor"
   },
   {
-    "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
-    "id": "HoangNguyen0403/agent-skills-standard",
-    "language": "TypeScript",
-    "name": "HoangNguyen0403/agent-skills-standard",
-    "stars": 515,
-    "updated_at": "2026-06-27T12:21:53Z",
-    "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
-  },
-  {
     "description": "agent wiki",
     "id": "Mark393295827/third-brain-v5-skills",
     "language": "HTML",
@@ -509,19 +518,5 @@
     "stars": 7,
     "updated_at": "2026-06-26T08:20:56Z",
     "url": "https://github.com/RollingGo-AI/rollinggo-hotel-skill"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: AI\u5916\u547cPrompt\u5de5\u7a0b\u5316\u5de5\u5177\u5305 - \u63d0\u4f9b\u751f\u6210Prompt\u3001\u751f\u6210\u8f93\u5165\u53d8\u91cf\u3001\u8bc4\u4f30\u901a\u8bdd\u8d28\u91cf\u4e09\u4e2a\u6280\u80fd\nglobs: \"**/*\"\nalwaysApply: true\n---\n\n# AI\u5916\u547c Prompt \u5de5\u7a0b\u5316\u5de5\u5177\u5305\n\n\u672c\u9879\u76ee\u5305\u542b 3 \u4e2a AI \u6280\u80fd\uff0c\u7528\u4e8e AI \u7535\u8bdd\u5916\u547c\u8bbf\u8c08\u7684\u5168\u6d41\u7a0b\u652f\u6301\u3002\n\n\u5f53\u7528\u6237\u89e6\u53d1\u4ee5\u4e0b\u4efb\u4e00\u6280\u80fd\u65f6\uff0c\u8bfb\u53d6\u5bf9\u5e94\u6307\u4ee4\u6587\u4ef6\u7684\u5b8c\u6574\u5185\u5bb9\u5e76\u4e25\u683c\u6309\u6b65\u9aa4\u6267\u884c\uff1a\n\n| \u6280\u80fd | \u89e6\u53d1\u8bcd | \u6307\u4ee4\u6587\u4ef6 |\n|------|--------|----------|\n| \u751f\u6210Prompt | \"\u751f\u6210prompt\"\u3001\"\u5f00\u59cb\u65b0\u9879\u76ee\"\u3001\"\u505a\u4e00\u8f6e\u5916\u547c\" | `skills/generate-prompt.md` |\n| \u751f\u6210\u8f93\u5165\u53d8\u91cf | \"\u51c6\u5907\u8f93\u5165\u53d8\u91cf\"\u3001\"\u5199\u7814\u7a76\u76ee\u6807\" | `skills/generate-input.md` |\n| \u8bc4\u4f30\u901a\u8bdd\u8d28\u91cf | \"\u8bc4\u4f30\u901a\u8bdd\"\u3001\"\u8d70\u67e5\u8bb0\u5f55\"\u3001\"\u590d\u76d8\" | `skills/evaluate.md` |\n\n\u7528\u6237\u9996\u6b21\u5f00\u542f\u5bf9\u8bdd\u65f6\uff0c\u4e3b\u52a8\u4ecb\u7ecd\uff1a\n> \u8fd9\u662f AI\u5916\u547c Prompt \u5de5\u7a0b\u5316\u5de5\u5177\u5305\uff0c\u6211\u53ef\u4ee5\u5e2e\u4f60\uff1a**\u751f\u6210Prompt**\u3001**\u51c6\u5907\u8f93\u5165\u53d8\u91cf**\u3001\u6216**\u8bc4\u4f30\u901a\u8bdd\u8d28\u91cf**\u3002\u4f60\u60f3\u505a\u54ea\u4e2a\uff1f\n\n\u5b8c\u6574\u8bf4\u660e\u89c1 `INSTRUCTIONS.md`\u3002\n",
-      "format": "mdc",
-      "path": ".cursor/rules/ai-interview-skills.mdc"
-    },
-    "description": "Engineer user-research methodologies into AI prompts \u2014 professional-grade phone interviews at scale. 6 pluggable methodo",
-    "id": "CyannSHI/ai-interview-kit",
-    "language": "HTML",
-    "name": "CyannSHI/ai-interview-kit",
-    "stars": 10,
-    "updated_at": "2026-06-26T03:02:07Z",
-    "url": "https://github.com/CyannSHI/ai-interview-kit"
   }
 ]
