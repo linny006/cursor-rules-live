@@ -1,5 +1,55 @@
 [
   {
+    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
+    "id": "Laurellagloomy260/cursor-rules-generator",
+    "language": "\u2014",
+    "name": "Laurellagloomy260/cursor-rules-generator",
+    "stars": 0,
+    "updated_at": "2026-06-29T04:41:11Z",
+    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
+  },
+  {
+    "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
+    "id": "pekral/cursor-rules",
+    "language": "PHP",
+    "name": "pekral/cursor-rules",
+    "stars": 5,
+    "updated_at": "2026-06-29T04:44:51Z",
+    "url": "https://github.com/pekral/cursor-rules"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Matcha Angular coding standards\nglobs: [\"**/*.ts\"]\nalwaysApply: false\n---\n\n# Angular Standards\n\n## Signals over RxJS (Angular 17+)\n```typescript\nconst count = signal(0);\nconst doubled = computed(() => count() * 2);\n```\n- signal() for UI state, RxJS only for event streams\n- OnPush change detection on all components\n\n## Dependency Injection\n```typescript\n@Injectable({ providedIn: 'root' })\nexport class Service { private http = inject(HttpClient); }\n```\n- `inject()` over constructor for tree-shaking\n- InjectionToken for non-class providers\n\n## File Naming\nkebab-case with type suffix: `.component.ts`, `.service.ts`, `.pipe.ts`\n1 class = 1 file\n\n## Performance\n- `ChangeDetectionStrategy.OnPush`\n- `trackBy` in @for loops\n- `async` pipe in templates, never subscribe in component\n\n## Checklist\n- [ ] Signals over RxJS for UI state \u2014 RxJS only for event streams\n- [ ] `inject()` over constructor DI\n- [ ] `ChangeDetectionStrategy.OnPush` on all components\n- [ ] `trackBy` in `@for` loops\n- [ ] Lazy load feature modules / standalone components\n- [ ] `async` pipe in templates, never `subscribe` in component\n- [ ] Check existing services and modules before adding new ones\n",
+      "format": "mdc",
+      "path": ".cursor/rules/matcha-angular.mdc"
+    },
+    "description": "\ud83c\udf75 Deliberate engineering guidelines & deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block",
+    "id": "plumpslabs/matcha",
+    "language": "JavaScript",
+    "name": "plumpslabs/matcha",
+    "stars": 1,
+    "updated_at": "2026-06-29T04:33:24Z",
+    "url": "https://github.com/plumpslabs/matcha"
+  },
+  {
+    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
+    "id": "Hyanthropological659/clarify-skill",
+    "language": "\u2014",
+    "name": "Hyanthropological659/clarify-skill",
+    "stars": 0,
+    "updated_at": "2026-06-29T04:31:12Z",
+    "url": "https://github.com/Hyanthropological659/clarify-skill"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-29T04:30:26Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
     "id": "Bastioned-successor320/learn-nanobot",
     "language": "Python",
@@ -45,15 +95,6 @@
     "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-29T04:15:38Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
     "id": "zinxj/uikit-expert-skill",
     "language": "\u2014",
@@ -87,20 +128,6 @@
   },
   {
     "cursorrules": {
-      "content": "---\ndescription: Matcha Angular coding standards\nglobs: [\"**/*.ts\"]\nalwaysApply: false\n---\n\n# Angular Standards\n\n## Signals over RxJS (Angular 17+)\n```typescript\nconst count = signal(0);\nconst doubled = computed(() => count() * 2);\n```\n- signal() for UI state, RxJS only for event streams\n- OnPush change detection on all components\n\n## Dependency Injection\n```typescript\n@Injectable({ providedIn: 'root' })\nexport class Service { private http = inject(HttpClient); }\n```\n- `inject()` over constructor for tree-shaking\n- InjectionToken for non-class providers\n\n## File Naming\nkebab-case with type suffix: `.component.ts`, `.service.ts`, `.pipe.ts`\n1 class = 1 file\n\n## Performance\n- `ChangeDetectionStrategy.OnPush`\n- `trackBy` in @for loops\n- `async` pipe in templates, never subscribe in component\n\n## Checklist\n- [ ] Signals over RxJS for UI state \u2014 RxJS only for event streams\n- [ ] `inject()` over constructor DI\n- [ ] `ChangeDetectionStrategy.OnPush` on all components\n- [ ] `trackBy` in `@for` loops\n- [ ] Lazy load feature modules / standalone components\n- [ ] `async` pipe in templates, never `subscribe` in component\n- [ ] Check existing services and modules before adding new ones\n",
-      "format": "mdc",
-      "path": ".cursor/rules/matcha-angular.mdc"
-    },
-    "description": "\ud83c\udf75 Deliberate engineering guidelines & deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block",
-    "id": "plumpslabs/matcha",
-    "language": "JavaScript",
-    "name": "plumpslabs/matcha",
-    "stars": 1,
-    "updated_at": "2026-06-29T03:55:07Z",
-    "url": "https://github.com/plumpslabs/matcha"
-  },
-  {
-    "cursorrules": {
       "content": "---\ndescription: \"USE WHEN: any task in this repo. Global operating rules.\"\nglobs: [\"**/*\"]\nalwaysApply: true\npriority: 100\n---\n\n# Global Rules (Always On)\n\n## Role\nYou are an AI coding assistant. Deliver correct, minimal, testable changes. Surface uncertainty instead of hiding it.\n\n## Non\u2011Negotiables\n- **Correctness > simplicity > consistency > style**.\n- **Minimal diff**: touch only what the task needs.\n- **No drive\u2011by refactors**.\n- **Ask when ambiguous**: assumptions ledger + up to 3 questions.\n- **Stop** on security, data loss, or breaking changes; ask for confirmation.\n\n## Output Discipline\n- Provide a brief plan before changes.\n- Show verification steps (lint/typecheck/tests) and state what wasn\u2019t run.\n\n## Guardrails\n- No hard\u2011coded secrets.\n- No unrelated formatting or renaming.\n- No new dependencies without approval.\n",
       "format": "mdc",
       "path": ".cursor/rules/00-global.mdc"
@@ -128,24 +155,6 @@
     "url": "https://github.com/heymegabyte/claude-skills"
   },
   {
-    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
-    "id": "Laurellagloomy260/cursor-rules-generator",
-    "language": "\u2014",
-    "name": "Laurellagloomy260/cursor-rules-generator",
-    "stars": 0,
-    "updated_at": "2026-06-29T01:58:27Z",
-    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
-  },
-  {
-    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
-    "id": "Hyanthropological659/clarify-skill",
-    "language": "\u2014",
-    "name": "Hyanthropological659/clarify-skill",
-    "stars": 0,
-    "updated_at": "2026-06-29T01:48:42Z",
-    "url": "https://github.com/Hyanthropological659/clarify-skill"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: claude-agents marketplace project conventions\nalwaysApply: true\n---\n\n# claude-agents conventions\n\nThis is a multi-harness plugin marketplace. Source lives under `plugins/`; per-harness\nartifacts (`.codex/`, `.cursor-plugin/`, `.opencode/`, `commands/`) are generated.\n\n- Don't hand-edit anything under `.codex/`, `.cursor-plugin/`, `.opencode/`, or top-level `commands/`, `agents/`, `skills/` \u2014 regenerate via `make generate HARNESS=<x>`.\n- Python tooling: `uv` (package manager), `ruff` (lint/format), `ty` (type check). Do not use pip/mypy/black.\n- Plugin files: `plugins/<name>/{.claude-plugin/plugin.json, agents/*.md, skills/<name>/SKILL.md, commands/*.md}`. Auto-discovered.\n- Cursor reads `.claude/skills/` and `.claude/agents/` directly \u2014 no separate `.cursor/skills/` is generated.\n\n## Never\n\n- Never commit secrets or hardcode credentials.\n- Never modify `.claude-plugin/marketplace.json` from inside a plugin PR \u2014 it's the registry.\n- Never run destructive git operations (force-push, reset --hard, branch -D) without explicit ask.\n\nSee `docs/authoring.md` for the portable-content style guide.\n",
       "format": "mdc",
@@ -155,7 +164,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 37301,
+    "stars": 37304,
     "updated_at": "2026-06-29T01:08:41Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -461,7 +470,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 65069,
+    "stars": 65091,
     "updated_at": "2026-06-26T01:28:09Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -524,14 +533,5 @@
     "stars": 13,
     "updated_at": "2026-06-25T17:10:38Z",
     "url": "https://github.com/Smithbox-ai/ControlFlow"
-  },
-  {
-    "description": "298 agent skills (Cursor, Claude Code & Codex), 5,380 OpenClaw skills, 201 ML notebooks, 48 research papers, 15 industry",
-    "id": "adriannoes/awesome-vibe-coding",
-    "language": "Jupyter Notebook",
-    "name": "adriannoes/awesome-vibe-coding",
-    "stars": 41,
-    "updated_at": "2026-06-25T15:57:05Z",
-    "url": "https://github.com/adriannoes/awesome-vibe-coding"
   }
 ]
