@@ -1,5 +1,32 @@
 [
   {
+    "description": "Agent Development Life Cycle \u2014 Build, deploy, test, and optimize Agentforce agents using Claude Code skills and Agent Sc",
+    "id": "SalesforceAIResearch/agentforce-adlc",
+    "language": "Python",
+    "name": "SalesforceAIResearch/agentforce-adlc",
+    "stars": 78,
+    "updated_at": "2026-06-30T23:32:56Z",
+    "url": "https://github.com/SalesforceAIResearch/agentforce-adlc"
+  },
+  {
+    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
+    "id": "Laurellagloomy260/cursor-rules-generator",
+    "language": "\u2014",
+    "name": "Laurellagloomy260/cursor-rules-generator",
+    "stars": 0,
+    "updated_at": "2026-06-30T23:32:41Z",
+    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-30T23:30:43Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
     "id": "Hyanthropological659/clarify-skill",
     "language": "\u2014",
@@ -25,15 +52,6 @@
     "stars": 2,
     "updated_at": "2026-06-30T23:17:31Z",
     "url": "https://github.com/XAKLESK/cre-agent-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-30T23:15:43Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
@@ -132,7 +150,7 @@
     "language": "Dart",
     "name": "fluttersdk/wind",
     "stars": 22,
-    "updated_at": "2026-06-30T23:23:39Z",
+    "updated_at": "2026-06-30T23:35:45Z",
     "url": "https://github.com/fluttersdk/wind"
   },
   {
@@ -143,15 +161,6 @@
     "stars": 21,
     "updated_at": "2026-06-30T21:16:17Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
-    "id": "Laurellagloomy260/cursor-rules-generator",
-    "language": "\u2014",
-    "name": "Laurellagloomy260/cursor-rules-generator",
-    "stars": 0,
-    "updated_at": "2026-06-30T21:01:21Z",
-    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
   },
   {
     "description": "Declarative agent config for Claude Code, Codex, and Cursor: an agent.json manifest for skills, MCP servers, and stack p",
@@ -314,7 +323,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 69036,
+    "stars": 69045,
     "updated_at": "2026-06-30T00:04:50Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -436,15 +445,6 @@
     "stars": 1,
     "updated_at": "2026-06-29T04:33:24Z",
     "url": "https://github.com/plumpslabs/matcha"
-  },
-  {
-    "description": "Agent Development Life Cycle \u2014 Build, deploy, test, and optimize Agentforce agents using Claude Code skills and Agent Sc",
-    "id": "SalesforceAIResearch/agentforce-adlc",
-    "language": "Python",
-    "name": "SalesforceAIResearch/agentforce-adlc",
-    "stars": 78,
-    "updated_at": "2026-06-30T22:19:55Z",
-    "url": "https://github.com/SalesforceAIResearch/agentforce-adlc"
   },
   {
     "cursorrules": {
