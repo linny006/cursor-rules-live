@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-06-30 07:45 UTC
+> ⏰ Last updated: 2026-06-30 08:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -70,7 +70,7 @@ expired items removed — so you can rely on what you see being current.
 | 15 | [sublimecoder/sublimecoding](https://github.com/sublimecoder/sublimecoding) | 0 | — | 2026-06-30 | — | 🛠️ Free Claude Code & Cursor prompts for senior engineers — code review, debugging, refactoring, system design, CLAUDE.m |
 | 16 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 42 | Python | 2026-06-30 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
 | 17 | [nota-america/forgecat-agent-profiles](https://github.com/nota-america/forgecat-agent-profiles) | 12 | TypeScript | 2026-06-30 | — | Production-ready AI agent profiles for Claude Code, Cursor, and Codex. Search, install, and contribute ForgeCat packages |
-| 18 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 67944 | JavaScript | 2026-06-30 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 18 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 67970 | JavaScript | 2026-06-30 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 19 | [heymegabyte/claude-skills](https://github.com/heymegabyte/claude-skills) | 15 | TypeScript | 2026-06-30 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/claude-skills/) | 14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts → deployed products. |
 | 20 | [PiloTracer/.ai](https://github.com/PiloTracer/.ai) | 0 | Shell | 2026-06-29 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/PiloTracer/.ai/) | Portable process framework for software teams shipping with coding agents (Cursor, Claude Code, Codex, opencode). Skills |
 | 21 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 16 | HTML | 2026-06-29 | — | Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior |
