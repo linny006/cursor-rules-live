@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-30T10:00:30Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
     "id": "philipbankier/awesome-agent-skills",
     "language": "TypeScript",
@@ -25,15 +34,6 @@
     "stars": 0,
     "updated_at": "2026-06-30T09:49:22Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-30T09:45:41Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Your AI assistant hallucinates APIs, breaks dependent files, and weakens tests. 20 skills that prevent this across the f",
@@ -199,7 +199,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 68178,
+    "stars": 68208,
     "updated_at": "2026-06-30T00:04:50Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -269,7 +269,7 @@
     "language": "PHP",
     "name": "pekral/cursor-rules",
     "stars": 5,
-    "updated_at": "2026-06-30T09:57:11Z",
+    "updated_at": "2026-06-30T10:09:41Z",
     "url": "https://github.com/pekral/cursor-rules"
   },
   {
@@ -461,7 +461,7 @@
     "id": "ilindaniel/ponytail-lite",
     "language": "\u2014",
     "name": "ilindaniel/ponytail-lite",
-    "stars": 51,
+    "stars": 52,
     "updated_at": "2026-06-28T16:58:59Z",
     "url": "https://github.com/ilindaniel/ponytail-lite"
   },
