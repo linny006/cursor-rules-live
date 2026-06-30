@@ -1,11 +1,20 @@
 [
   {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 1,
+    "updated_at": "2026-06-30T04:37:03Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-30T04:15:35Z",
+    "updated_at": "2026-06-30T04:30:40Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -163,7 +172,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 67591,
+    "stars": 67607,
     "updated_at": "2026-06-30T00:04:50Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -194,15 +203,6 @@
     "stars": 0,
     "updated_at": "2026-06-29T23:42:52Z",
     "url": "https://github.com/PiloTracer/.ai"
-  },
-  {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 1,
-    "updated_at": "2026-06-29T23:28:23Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "description": "Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior",
@@ -406,7 +406,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 37339,
+    "stars": 37340,
     "updated_at": "2026-06-29T01:08:41Z",
     "url": "https://github.com/wshobson/agents"
   },
