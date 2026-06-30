@@ -1,12 +1,31 @@
 [
   {
-    "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
-    "id": "caioribeiroclw-pixel/pluribus",
-    "language": "JavaScript",
-    "name": "caioribeiroclw-pixel/pluribus",
-    "stars": 7,
-    "updated_at": "2026-06-30T14:04:03Z",
-    "url": "https://github.com/caioribeiroclw-pixel/pluribus"
+    "cursorrules": {
+      "content": "---\ndescription: \"USE WHEN: any task in this repo. Global operating rules.\"\nglobs: [\"**/*\"]\nalwaysApply: true\npriority: 100\n---\n\n# Global Rules (Always On)\n\n## Role\nYou are an AI coding assistant. Deliver correct, minimal, testable changes. Surface uncertainty instead of hiding it.\n\n## Non\u2011Negotiables\n- **Correctness > simplicity > consistency > style**.\n- **Minimal diff**: touch only what the task needs.\n- **No drive\u2011by refactors**.\n- **Ask when ambiguous**: assumptions ledger + up to 3 questions.\n- **Stop** on security, data loss, or breaking changes; ask for confirmation.\n\n## Output Discipline\n- Provide a brief plan before changes.\n- Show verification steps (lint/typecheck/tests) and state what wasn\u2019t run.\n\n## Guardrails\n- No hard\u2011coded secrets.\n- No unrelated formatting or renaming.\n- No new dependencies without approval.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/00-global.mdc"
+    },
+    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
+    "id": "Luxvil/ai-coding-rules",
+    "language": "Shell",
+    "name": "Luxvil/ai-coding-rules",
+    "stars": 3,
+    "updated_at": "2026-06-30T14:24:17Z",
+    "url": "https://github.com/Luxvil/ai-coding-rules"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Routes planning intent to the Master-Planner harness instead of Cursor native Plan mode\nglobs: *\nalwaysApply: true\n---\n# Master-Planner Bootstrap\n\nThis project has the Master-Planner harness installed under `.cursor/`.\n\n## When planning is requested\n\nIf the user wants to plan, architect, spec, design, or figure out how to build something \u2014 including `/mp-plan`, \"how should we build\", PRD, roadmap, or resume planning:\n\n1. **Read** `.cursor/skills/master-planner/SKILL.md` immediately and follow its pipeline.\n2. **Do NOT** switch to Cursor native Plan mode or use `CreatePlan` / `SwitchMode` to `plan` for project planning in this repo. That produces ephemeral Cursor UI plans, not durable harness artifacts.\n3. Persist state under `.cursor/plans/<project>/` (`manifest.md`, `spec.md`, `tasks.md`, `context.md`).\n4. Obey `001-planning-safety`: no production implementation before plan approval.\n\n## Primary slash command\n\nUse **`/mp-plan <intent>`** to start or continue planning.\n\nDo **not** rely on bare **`/plan`** \u2014 on most Cursor builds it triggers the IDE's native Plan mode instead of this harness.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/000-harness-bootstrap.mdc"
+    },
+    "description": "A production-grade, evidence-driven Cursor AI planning harness that converts vague intent into source-grounded software ",
+    "id": "GhostwheeI/Master-Planner",
+    "language": "Python",
+    "name": "GhostwheeI/Master-Planner",
+    "stars": 1,
+    "updated_at": "2026-06-30T14:19:18Z",
+    "url": "https://github.com/GhostwheeI/Master-Planner"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +33,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-30T14:00:33Z",
+    "updated_at": "2026-06-30T14:15:48Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
+    "id": "caioribeiroclw-pixel/pluribus",
+    "language": "JavaScript",
+    "name": "caioribeiroclw-pixel/pluribus",
+    "stars": 7,
+    "updated_at": "2026-06-30T14:04:03Z",
+    "url": "https://github.com/caioribeiroclw-pixel/pluribus"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -150,22 +178,8 @@
     "language": "Python",
     "name": "johnwall123459885/skene-cookbook",
     "stars": 0,
-    "updated_at": "2026-06-30T11:15:52Z",
+    "updated_at": "2026-06-30T14:29:34Z",
     "url": "https://github.com/johnwall123459885/skene-cookbook"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: \"USE WHEN: any task in this repo. Global operating rules.\"\nglobs: [\"**/*\"]\nalwaysApply: true\npriority: 100\n---\n\n# Global Rules (Always On)\n\n## Role\nYou are an AI coding assistant. Deliver correct, minimal, testable changes. Surface uncertainty instead of hiding it.\n\n## Non\u2011Negotiables\n- **Correctness > simplicity > consistency > style**.\n- **Minimal diff**: touch only what the task needs.\n- **No drive\u2011by refactors**.\n- **Ask when ambiguous**: assumptions ledger + up to 3 questions.\n- **Stop** on security, data loss, or breaking changes; ask for confirmation.\n\n## Output Discipline\n- Provide a brief plan before changes.\n- Show verification steps (lint/typecheck/tests) and state what wasn\u2019t run.\n\n## Guardrails\n- No hard\u2011coded secrets.\n- No unrelated formatting or renaming.\n- No new dependencies without approval.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/00-global.mdc"
-    },
-    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
-    "id": "Luxvil/ai-coding-rules",
-    "language": "Shell",
-    "name": "Luxvil/ai-coding-rules",
-    "stars": 3,
-    "updated_at": "2026-06-30T11:10:25Z",
-    "url": "https://github.com/Luxvil/ai-coding-rules"
   },
   {
     "cursorrules": {
@@ -245,7 +259,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 68568,
+    "stars": 68587,
     "updated_at": "2026-06-30T00:04:50Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -514,14 +528,5 @@
     "stars": 118,
     "updated_at": "2026-06-27T09:35:10Z",
     "url": "https://github.com/Mark393295827/third-brain-v5-skills"
-  },
-  {
-    "description": "323\u500b\u306e\u5373\u6226\u529bAI\u5c02\u9580\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8 \u2014 Claude Code/Cursor/Copilot\u7b49\u306b\u5bfe\u5fdc\u3002SIer/\u53d7\u8a17\u958b\u767a/SaaS/\u88fd\u9020DX/\u516c\u5171\u5206\u91ce\u306a\u3069\u65e5\u672c\u5e02\u5834\u5411\u3051114\u500b\u306e\u30aa\u30ea\u30b8\u30ca\u30eb\u3092\u542b\u3080\u3001agency-agents\u65e5\u672c\u8a9e\u30b3\u30df\u30e5\u30cb\u30c6\u30a3",
-    "id": "sscodeai/agency-agents-ja",
-    "language": "Shell",
-    "name": "sscodeai/agency-agents-ja",
-    "stars": 0,
-    "updated_at": "2026-06-27T04:57:59Z",
-    "url": "https://github.com/sscodeai/agency-agents-ja"
   }
 ]
