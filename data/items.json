@@ -1,12 +1,30 @@
 [
   {
-    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
-    "id": "zinxj/uikit-expert-skill",
+    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
+    "id": "Amirun99/agency-orchestrator",
+    "language": "Dart",
+    "name": "Amirun99/agency-orchestrator",
+    "stars": 0,
+    "updated_at": "2026-06-30T20:39:53Z",
+    "url": "https://github.com/Amirun99/agency-orchestrator"
+  },
+  {
+    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
+    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
     "language": "\u2014",
-    "name": "zinxj/uikit-expert-skill",
-    "stars": 3,
-    "updated_at": "2026-06-30T20:23:23Z",
-    "url": "https://github.com/zinxj/uikit-expert-skill"
+    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "stars": 2,
+    "updated_at": "2026-06-30T20:39:06Z",
+    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
+  },
+  {
+    "description": "Declarative agent config for Claude Code, Codex, and Cursor: an agent.json manifest for skills, MCP servers, and stack p",
+    "id": "raintree-technology/agent-starter",
+    "language": "JavaScript",
+    "name": "raintree-technology/agent-starter",
+    "stars": 81,
+    "updated_at": "2026-06-30T20:37:08Z",
+    "url": "https://github.com/raintree-technology/agent-starter"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +32,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-30T20:15:29Z",
+    "updated_at": "2026-06-30T20:30:44Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
+    "id": "zinxj/uikit-expert-skill",
+    "language": "\u2014",
+    "name": "zinxj/uikit-expert-skill",
+    "stars": 3,
+    "updated_at": "2026-06-30T20:23:23Z",
+    "url": "https://github.com/zinxj/uikit-expert-skill"
   },
   {
     "cursorrules": {
@@ -150,24 +177,6 @@
     "url": "https://github.com/XAKLESK/cre-agent-skills"
   },
   {
-    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
-    "id": "Amirun99/agency-orchestrator",
-    "language": "Dart",
-    "name": "Amirun99/agency-orchestrator",
-    "stars": 0,
-    "updated_at": "2026-06-30T17:27:23Z",
-    "url": "https://github.com/Amirun99/agency-orchestrator"
-  },
-  {
-    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
-    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "language": "\u2014",
-    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "stars": 2,
-    "updated_at": "2026-06-30T17:26:31Z",
-    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: Core project context and stack declaration for Next.js AI SaaS\nalwaysApply: true\n---\n\n# Project Context\n\nThis is a Next.js 15 AI SaaS application.\n\n## Core Stack\n- Framework: Next.js 15 (App Router, NOT Pages Router)\n- Language: TypeScript (strict mode, no `any`)\n- Database: Supabase (PostgreSQL + RLS)\n- Auth: Clerk (NOT NextAuth or Auth.js)\n- Payments: Stripe (subscriptions + one-time)\n- AI: Vercel AI SDK (multi-provider)\n- UI: shadcn/ui + Tailwind CSS\n- Email: Resend + React Email\n- Deployment: Vercel\n\n## Absolute Rules\n- ALWAYS use App Router (`app/` directory)\n- ALWAYS use TypeScript, never plain JS\n- ALWAYS use server components by default\n- ONLY add `\"use client\"` when strictly necessary\n- ALWAYS validate input with Zod schemas\n- NEVER use `any` type \u2014 use `unknown` and narrow\n- ALWAYS handle errors explicitly, never silent catch\n",
       "format": "mdc",
@@ -296,7 +305,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 68936,
+    "stars": 68945,
     "updated_at": "2026-06-30T00:04:50Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -519,14 +528,5 @@
     "stars": 1,
     "updated_at": "2026-06-27T13:45:55Z",
     "url": "https://github.com/dadion123/agent-context-doctor"
-  },
-  {
-    "description": "agent wiki",
-    "id": "Mark393295827/third-brain-v5-skills",
-    "language": "HTML",
-    "name": "Mark393295827/third-brain-v5-skills",
-    "stars": 117,
-    "updated_at": "2026-06-27T09:35:10Z",
-    "url": "https://github.com/Mark393295827/third-brain-v5-skills"
   }
 ]
