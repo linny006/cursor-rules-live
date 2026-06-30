@@ -1,11 +1,20 @@
 [
   {
+    "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
+    "id": "fluttersdk/wind",
+    "language": "Dart",
+    "name": "fluttersdk/wind",
+    "stars": 22,
+    "updated_at": "2026-06-30T21:57:03Z",
+    "url": "https://github.com/fluttersdk/wind"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-30T21:30:52Z",
+    "updated_at": "2026-06-30T21:45:34Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -305,7 +314,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 68974,
+    "stars": 68982,
     "updated_at": "2026-06-30T00:04:50Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -514,19 +523,5 @@
     "stars": 0,
     "updated_at": "2026-06-27T16:04:48Z",
     "url": "https://github.com/castrocrest/developer-tools"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Agent Context Doctor project rule adapter\nglobs:\n  - \"**/*\"\nalwaysApply: true\n---\n\nUse `AGENTS.md` as the canonical context. Cursor-specific rules should stay thin and avoid duplicating shared commands.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/agent-context-doctor.mdc"
-    },
-    "description": "Doctor-first CLI for keeping AI coding agent context files clean, minimal, consistent, and safe.",
-    "id": "dadion123/agent-context-doctor",
-    "language": "TypeScript",
-    "name": "dadion123/agent-context-doctor",
-    "stars": 1,
-    "updated_at": "2026-06-27T13:45:55Z",
-    "url": "https://github.com/dadion123/agent-context-doctor"
   }
 ]
