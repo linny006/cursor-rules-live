@@ -1,12 +1,12 @@
 [
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
+    "description": "Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior",
+    "id": "MnemeHQ/mneme",
     "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 0,
-    "updated_at": "2026-06-30T18:28:59Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+    "name": "MnemeHQ/mneme",
+    "stars": 16,
+    "updated_at": "2026-06-30T18:44:13Z",
+    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-30T18:15:33Z",
+    "updated_at": "2026-06-30T18:30:41Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-06-30T18:28:59Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -287,7 +296,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 68832,
+    "stars": 68845,
     "updated_at": "2026-06-30T00:04:50Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -304,15 +313,6 @@
     "stars": 15,
     "updated_at": "2026-06-30T00:04:18Z",
     "url": "https://github.com/heymegabyte/claude-skills"
-  },
-  {
-    "description": "Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior",
-    "id": "MnemeHQ/mneme",
-    "language": "HTML",
-    "name": "MnemeHQ/mneme",
-    "stars": 16,
-    "updated_at": "2026-06-30T18:20:06Z",
-    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "description": "\u2694 18,142+ AI agent skills from 307+ GitHub repos across 14 frameworks (Claude Code, Cursor, Cline, Roo, Aider, OpenHands",
@@ -438,7 +438,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 37367,
+    "stars": 37368,
     "updated_at": "2026-06-29T01:08:41Z",
     "url": "https://github.com/wshobson/agents"
   },
