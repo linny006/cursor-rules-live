@@ -14,7 +14,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="PiloTracer/.ai - entry on Cursor Rules Live">
 <meta name="twitter:description" content="Portable process framework for software teams shipping with coding agents (Cursor, Claude Code, Codex, opencode). Skills">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"PiloTracer/.ai","codeRepository":"https://github.com/PiloTracer/.ai","programmingLanguage":"Shell","url":"https://linny006.github.io/cursor-rules-live/r/PiloTracer/.ai/","description":"Portable process framework for software teams shipping with coding agents (Cursor, Claude Code, Codex, opencode). Skills","author":{"@type":"Person","name":"PiloTracer","url":"https://github.com/PiloTracer"},"dateModified":"2026-06-29"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"PiloTracer/.ai","codeRepository":"https://github.com/PiloTracer/.ai","programmingLanguage":"Shell","url":"https://linny006.github.io/cursor-rules-live/r/PiloTracer/.ai/","description":"Portable process framework for software teams shipping with coding agents (Cursor, Claude Code, Codex, opencode). Skills","author":{"@type":"Person","name":"PiloTracer","url":"https://github.com/PiloTracer"},"dateModified":"2026-06-30"}</script>
 <style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
          --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
 * { box-sizing: border-box; }
@@ -48,7 +48,7 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <div class="meta">
 <span><strong>Stars</strong> 0</span>
 <span><strong>Language</strong> Shell</span>
-<span><strong>Last updated</strong> 2026-06-29</span>
+<span><strong>Last updated</strong> 2026-06-30</span>
 <span><a href="https://github.com/PiloTracer/.ai" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/PiloTracer" rel="external">@PiloTracer</a></span>
 </div>
@@ -121,7 +121,7 @@ These principles override all other instructions. They are non-negotiable.
 
 **Lost or unsure what to do? Read [`START_HERE.md`](START_HERE.md) first** — operator decision tree and recovery guide.
 
-**Free-text entry points:** If you don&#x27;t know which skill to run, invoke `@ai-director - &lt;describe what you want&gt;` (Agent OS), `@ui-director - &lt;describe what you want&gt;` (UI Design OS), `@biz-director - &lt;describe what you want&gt;` (Business OS), or `@x-director - &lt;describe what you want&gt;` when the work spans frameworks. x-director resolves sibling-framework paths from the **Frameworks registry** below before routing.
+**Free-text entry points:** If you don&#x27;t know which skill to run, invoke `@ai-director - &lt;describe what you want&gt;` (Agent OS), `@ui-director - &lt;describe what you want&gt;` (UI Design OS), `@biz-director - &lt;describe what you want&gt;` (Business OS), `@soc-director - &lt;describe what you want&gt;` (Social OS), or `@x-director - &lt;describe what you want&gt;` when the work spans frameworks. x-director resolves sibling-framework paths from the **Frameworks registry** below before routing.
 
 ## Frameworks registry (cross-framework discovery)
 
@@ -132,11 +132,12 @@ Sister frameworks live as siblings on disk. x-director and ai-director use this 
 | `.ai` (Agent OS) | `@ai-director` | *this directory* | `skills/README.md` |
 | `.ai.ui` (UI Design OS) | `@ui-director` | `../.ai.ui` | `../.ai.ui/skills/README.md` |
 | `.ai.biz` (Business OS) | `@biz-director` | `../.ai.biz` | `../.ai.biz/skills/README.md` |
+| `.ai.soc` (Social OS) | `@soc-director` | `../.ai.soc` | `../.ai.soc/skills/README.md` |
 
 **Path resolution (in order):**
 
 1. Resolve from the table above. Empty/unset cells → fall through.
-2. **Auto-discover from `.ai` parent:** `parent=&quot;$(cd &quot;$REPO_ROOT/.ai/..&quot; &amp;&amp; pwd)&quot;`; check `${parent}/.ai.ui` and `${parent}/.ai.biz`. Use whichever exists; treat missing as &quot;framework not installed&quot;.
+2. **Auto-discover from `.ai` parent:** `parent=&quot;$(cd &quot;$REPO_ROOT/.ai/..&quot; &amp;&amp; pwd)&quot;`; check `${parent}/.ai.ui`, `${parent}/.ai.biz`, and `${parent}/.ai.soc`. Use whichever exists; treat missing as &quot;framework not installed&quot;.
 3. **Preflight:** before routing to a director, verify its framework directory exists **and** its `skills/README.md` is readable. If absent, stop routing with a one-line `framework not installed here` message — never silently route into the void.
 
 Read these at the start of every conversation and when relevant:
@@ -145,9 +146,7 @@ Read these at the start of every conversation and when relevant:
 |------|---------|
 | **`START_HERE.md`** | What to invoke right now; forgetfulness checklist |
 | **`PROCESS_ROUTER.md`** | Process Q&amp;A; `@process-router` vs `@session-control status`; director fallbacks |
-| **`REPLACE:TECH_STACK_DOC`** | Technology stack (e.g. `DOCS_TECH_STACK.md` at repo root) |
-| **`standards/REPLACE:CONVENTIONS_FILE`** | Code layout, naming, maintainability |
-| **`standards/REPLACE:FEATURE_STANDARD_FILE`** | Feature SPEC li</code></pre>
+| **`REPLACE:TECH_STACK_DOC`** | Technology stack (e.g. `DOCS_TECH_STACK.</code></pre>
 <p><em>Content truncated. View full file in the source repo (linked above).</em></p><p><a href="https://github.com/PiloTracer/.ai/blob/HEAD/.cursorrules" rel="external">View raw on GitHub</a></p>
 </section>
 <section><h2>Why this is listed</h2>

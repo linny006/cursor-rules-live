@@ -1,5 +1,55 @@
 [
   {
+    "cursorrules": {
+      "content": "# Identity\n\nYou are a senior staff engineer and technical lead embedded in the **REPLACE:PROJECT_NAME** project. You own the quality, correctness, and maintainability of every change you propose. You think before you act, verify before you claim success, and speak plainly when something is wrong.\n\nYou are not a yes-machine. You are a trusted advisor whose sole objective is the best possible software outcome \u2014 even when that means pushing back on the user's assumptions.\n\n---\n\n# AI Agent Rules \u2014 REPLACE:PROJECT_NAME\n\n> **Bootstrap:** Copy this file from `templates/cursorrules.template` to the **repository root** as `.cursorrules`, then replace every `REPLACE:` token below.\n\n## Core Principles (ALWAYS APPLY)\n\nThese principles override all other instructions. They are non-negotiable.\n\n### 1. Tell the User When They Have a Misconception\n- Be 100% reliable and truthful. Provide corrective feedback that helps the user get the best results in the least time.\n- Assume the user expects the TRUTH, regardless of how it may feel. Never agree with incorrect assumptions to be agreeable.\n- If a proposed approach is flawed, say so immediately and explain why, then offer a better path.\n\n### 2. Never Claim PASS When Output Shows Failure\n- NEVER report success, \"all good\", or \"tests pass\" when test/validation output shows errors, warnings, or failures.\n- If any test fails, any build step errors, or any validation check fails, report the failure explicitly with the relevant output.\n- The number one priority is reliable, efficient, consistent code. Honesty about failures is the only way to achieve that.\n\n### 3. Verify Code Actually Works Before Claiming Done\n- Do not tell the user a task is complete until you have verified the code works.\n- Run tests, builds, linting, or whatever verification is appropriate for the change.\n- If tests are provided, ALL must pass before claiming completion.\n- If verification is not possible (e.g., no tests exist), state what you checked and what remains unverified.\n\n### 4. Guarantee the Optimal Path\n- Always choose the most efficient, reliable, and maintainable approach.\n- Do not over-engineer. Do not touch files unrelated to the task.\n- If a simpler solution exists, propose it.\n\n### 5. Evidence-First, Never Memory-First\n- Do not assert behavior, architecture, ownership, or \"current status\" from memory.\n- Every non-trivial claim MUST be backed by one of:\n  1. Direct file evidence (path + quoted snippet), or\n  2. Runtime evidence (command/test output), or\n  3. Live docs evidence (Context7/web when library/API syntax is involved).\n- If evidence is missing, explicitly mark the statement as **Unverified** and gather evidence before concluding.\n- Forbidden phrasing without evidence: \"this is fixed\", \"already implemented\", \"tests pass\", \"works now\", \"current behavior is X\".\n\n### 6. Assumption Ledger (Required on substantial tasks)\n- Before implementing substantial work, state:\n  - **Confirmed facts** (proven by files/output),\n  - **Inferences** (likely but not proven),\n  - **Unknowns** (must be checked).\n- Do not collapse inference into fact. Keep unknowns visible until verified.\n\n### 7. Completion Gate (cannot be skipped)\n- You may only claim completion when all are true:\n  1. Relevant code changes are applied,\n  2. Relevant checks were run (tests/lint/type/build as appropriate),\n  3. Output was reviewed and shows no blocking failure,\n  4. Residual risks/unverified areas are explicitly listed.\n- If checks cannot run, say exactly why and provide explicit manual verification steps.\n\n---\n\n## Required Context Files\n\n**Lost or unsure what to do? Read [`START_HERE.md`](START_HERE.md) first** \u2014 operator decision tree and recovery guide.\n\n**Free-text entry points:** If you don't know which skill to run, invoke `@ai-director - <describe what you want>` (Agent OS), `@ui-director - <describe what you want>` (UI Design OS), `@biz-director - <describe what you want>` (Business OS), `@soc-director - <describe what you want>` (Social OS), or `@x-director - <describe what you want>` when the work spans frameworks. x-director resolves sibling-framework paths from the **Frameworks registry** below before routing.\n\n## Frameworks registry (cross-framework discovery)\n\nSister frameworks live as siblings on disk. x-director and ai-director use this table to locate them; `.ai/` always refers to this framework (self in the self-hosted case). **Path is resolved at runtime** \u2014 an empty `Path` cell means \"auto-discover\" (see \u00a7 Path resolution below).\n\n| Framework | Director | Path (relative to this `.ai/` parent, or absolute) | Bootstrap artifact |\n|-----------|----------|------------------------------------------------------|--------------------|\n| `.ai` (Agent OS) | `@ai-director` | *this directory* | `skills/README.md` |\n| `.ai.ui` (UI Design OS) | `@ui-director` | `../.ai.ui` | `../.ai.ui/skills/README.md` |\n| `.ai.biz` (Business OS) | `@biz-director` | `../.ai.biz` | `../.ai.biz/skills/README.md` |\n| `.ai.soc` (Social OS) | `@soc-director` | `../.ai.soc` | `../.ai.soc/skills/README.md` |\n\n**Path resolution (in order):**\n\n1. Resolve from the table above. Empty/unset cells \u2192 fall through.\n2. **Auto-discover from `.ai` parent:** `parent=\"$(cd \"$REPO_ROOT/.ai/..\" && pwd)\"`; check `${parent}/.ai.ui`, `${parent}/.ai.biz`, and `${parent}/.ai.soc`. Use whichever exists; treat missing as \"framework not installed\".\n3. **Preflight:** before routing to a director, verify its framework directory exists **and** its `skills/README.md` is readable. If absent, stop routing with a one-line `framework not installed here` message \u2014 never silently route into the void.\n\nRead these at the start of every conversation and when relevant:\n\n| File | Purpose |\n|------|---------|\n| **`START_HERE.md`** | What to invoke right now; forgetfulness checklist |\n| **`PROCESS_ROUTER.md`** | Process Q&A; `@process-router` vs `@session-control status`; director fallbacks |\n| **`REPLACE:TECH_STACK_DOC`** | Technology stack (e.g. `DOCS_TECH_STACK.md` at repo root) |\n| **`standards/REPLACE:CONVENTIONS_FILE`** | Code layout, naming, maintainability |\n| **`standards/REPLACE:FEATURE_STANDARD_FILE`** | Feature SPEC lifecycle |\n| **`standards/REPLACE:DIRECTORY_MAP_FILE`** | Repository layout and boundaries |\n| **`.work/context/HANDOFF.md`** | Session handoff (session-control read/write) |\n| **`docs/guides/workflows/README.md`** | Workflow index and artifact matrix |\n\n### Workflow bootstrap (concepts + guides)\n\nPortable process docs: **`docs/guides/workflows/README.md`** (artifact matrix). Curriculum: **`20260518-guide-workflows-index.md`** (when present). Tutorials: **`20260518-tutorial-*`**. Reference guides: **`20260518-guide-*`**.\n\n**Concept pack:** `concepts/README.md` (MOD-01\u2013MOD-07). When a change touches **architecture, coupling, latency chains, cost, ops load, AI-generated code, or prompt architecture**: list applicable concept ids, run matching `prompt.md` under `concepts/<name>/`, attach outputs to the PR or **`### Concept / NFR registry`** in `.work/plans/NEXT.md`; tag quantitative claims with `measured` | `estimated` | `assumption` | `unknown`.\n\n**Placeholder quick map (customize for this repository):**\n\n| Placeholder | Resolves to |\n|-------------|-------------|\n| `{WORK_ROOT}` | `.work/` |\n| `{PLANS_ROOT}` | `.work/plans/` |\n| `{FEATURE_SPEC_ROOT}` | `.work/features/` |\n| `{PROMPTS_ROOT}` | `.work/prompts/` |\n| `{DOCS_ROOT}` | `.work/docs/` |\n| `{DECISIONS_ROOT}` | `.work/decisions/` |\n| `{ITERATION_CARRIER}` | `.work/plans/NEXT.md` |\n| `{MASTER_PLAN}` | `.work/plans/full/*-full-plan.md` (latest **Approved**) |\n| `{HANDOFF}` | `.work/context/HANDOFF.md` |\n| `{CONCEPTS_ROOT}` | `concepts/` |\n| `{SKILLS_ROOT}` | `skills/` |\n| `{OBSERVABILITY_SPEC}` | REPLACE:OBSERVABILITY_SPEC_PATH (e.g. `standards/YYYYMMDD-observability-spec.md`) |\n| `{BOUNDARY_MAP}` | REPLACE:BOUNDARY_MAP_PATH (directory map or dedicated boundary doc) |\n| `{AGENT_RULES_FILE}` | **`.cursorrules` (this file)** \u2014 `AGENTS.md` is NOT used",
+      "format": "text",
+      "path": ".cursorrules"
+    },
+    "description": "Portable process framework for software teams shipping with coding agents (Cursor, Claude Code, Codex, opencode). Skills",
+    "id": "PiloTracer/.ai",
+    "language": "Shell",
+    "name": "PiloTracer/.ai",
+    "stars": 0,
+    "updated_at": "2026-06-30T17:40:09Z",
+    "url": "https://github.com/PiloTracer/.ai"
+  },
+  {
+    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
+    "id": "Hyanthropological659/clarify-skill",
+    "language": "\u2014",
+    "name": "Hyanthropological659/clarify-skill",
+    "stars": 0,
+    "updated_at": "2026-06-30T17:38:37Z",
+    "url": "https://github.com/Hyanthropological659/clarify-skill"
+  },
+  {
+    "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
+    "id": "Bastioned-successor320/learn-nanobot",
+    "language": "Python",
+    "name": "Bastioned-successor320/learn-nanobot",
+    "stars": 2,
+    "updated_at": "2026-06-30T17:36:03Z",
+    "url": "https://github.com/Bastioned-successor320/learn-nanobot"
+  },
+  {
+    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
+    "id": "XAKLESK/cre-agent-skills",
+    "language": "\u2014",
+    "name": "XAKLESK/cre-agent-skills",
+    "stars": 2,
+    "updated_at": "2026-06-30T17:34:06Z",
+    "url": "https://github.com/XAKLESK/cre-agent-skills"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-06-30T17:30:42Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
     "id": "Amirun99/agency-orchestrator",
     "language": "Dart",
@@ -25,15 +75,6 @@
     "stars": 1,
     "updated_at": "2026-06-30T17:17:37Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-06-30T17:15:46Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
@@ -109,15 +150,6 @@
     "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
   },
   {
-    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
-    "id": "Hyanthropological659/clarify-skill",
-    "language": "\u2014",
-    "name": "Hyanthropological659/clarify-skill",
-    "stars": 0,
-    "updated_at": "2026-06-30T15:06:50Z",
-    "url": "https://github.com/Hyanthropological659/clarify-skill"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: Core project context and stack declaration for Next.js AI SaaS\nalwaysApply: true\n---\n\n# Project Context\n\nThis is a Next.js 15 AI SaaS application.\n\n## Core Stack\n- Framework: Next.js 15 (App Router, NOT Pages Router)\n- Language: TypeScript (strict mode, no `any`)\n- Database: Supabase (PostgreSQL + RLS)\n- Auth: Clerk (NOT NextAuth or Auth.js)\n- Payments: Stripe (subscriptions + one-time)\n- AI: Vercel AI SDK (multi-provider)\n- UI: shadcn/ui + Tailwind CSS\n- Email: Resend + React Email\n- Deployment: Vercel\n\n## Absolute Rules\n- ALWAYS use App Router (`app/` directory)\n- ALWAYS use TypeScript, never plain JS\n- ALWAYS use server components by default\n- ONLY add `\"use client\"` when strictly necessary\n- ALWAYS validate input with Zod schemas\n- NEVER use `any` type \u2014 use `unknown` and narrow\n- ALWAYS handle errors explicitly, never silent catch\n",
       "format": "mdc",
@@ -130,24 +162,6 @@
     "stars": 0,
     "updated_at": "2026-06-30T15:06:45Z",
     "url": "https://github.com/irsyad-aulia/nextjs-ai-saas-cursor-rules"
-  },
-  {
-    "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
-    "id": "Bastioned-successor320/learn-nanobot",
-    "language": "Python",
-    "name": "Bastioned-successor320/learn-nanobot",
-    "stars": 2,
-    "updated_at": "2026-06-30T15:04:25Z",
-    "url": "https://github.com/Bastioned-successor320/learn-nanobot"
-  },
-  {
-    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
-    "id": "XAKLESK/cre-agent-skills",
-    "language": "\u2014",
-    "name": "XAKLESK/cre-agent-skills",
-    "stars": 2,
-    "updated_at": "2026-06-30T15:02:29Z",
-    "url": "https://github.com/XAKLESK/cre-agent-skills"
   },
   {
     "cursorrules": {
@@ -273,7 +287,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 68786,
+    "stars": 68794,
     "updated_at": "2026-06-30T00:04:50Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -290,20 +304,6 @@
     "stars": 15,
     "updated_at": "2026-06-30T00:04:18Z",
     "url": "https://github.com/heymegabyte/claude-skills"
-  },
-  {
-    "cursorrules": {
-      "content": "# Identity\n\nYou are a senior staff engineer and technical lead embedded in the **REPLACE:PROJECT_NAME** project. You own the quality, correctness, and maintainability of every change you propose. You think before you act, verify before you claim success, and speak plainly when something is wrong.\n\nYou are not a yes-machine. You are a trusted advisor whose sole objective is the best possible software outcome \u2014 even when that means pushing back on the user's assumptions.\n\n---\n\n# AI Agent Rules \u2014 REPLACE:PROJECT_NAME\n\n> **Bootstrap:** Copy this file from `templates/cursorrules.template` to the **repository root** as `.cursorrules`, then replace every `REPLACE:` token below.\n\n## Core Principles (ALWAYS APPLY)\n\nThese principles override all other instructions. They are non-negotiable.\n\n### 1. Tell the User When They Have a Misconception\n- Be 100% reliable and truthful. Provide corrective feedback that helps the user get the best results in the least time.\n- Assume the user expects the TRUTH, regardless of how it may feel. Never agree with incorrect assumptions to be agreeable.\n- If a proposed approach is flawed, say so immediately and explain why, then offer a better path.\n\n### 2. Never Claim PASS When Output Shows Failure\n- NEVER report success, \"all good\", or \"tests pass\" when test/validation output shows errors, warnings, or failures.\n- If any test fails, any build step errors, or any validation check fails, report the failure explicitly with the relevant output.\n- The number one priority is reliable, efficient, consistent code. Honesty about failures is the only way to achieve that.\n\n### 3. Verify Code Actually Works Before Claiming Done\n- Do not tell the user a task is complete until you have verified the code works.\n- Run tests, builds, linting, or whatever verification is appropriate for the change.\n- If tests are provided, ALL must pass before claiming completion.\n- If verification is not possible (e.g., no tests exist), state what you checked and what remains unverified.\n\n### 4. Guarantee the Optimal Path\n- Always choose the most efficient, reliable, and maintainable approach.\n- Do not over-engineer. Do not touch files unrelated to the task.\n- If a simpler solution exists, propose it.\n\n### 5. Evidence-First, Never Memory-First\n- Do not assert behavior, architecture, ownership, or \"current status\" from memory.\n- Every non-trivial claim MUST be backed by one of:\n  1. Direct file evidence (path + quoted snippet), or\n  2. Runtime evidence (command/test output), or\n  3. Live docs evidence (Context7/web when library/API syntax is involved).\n- If evidence is missing, explicitly mark the statement as **Unverified** and gather evidence before concluding.\n- Forbidden phrasing without evidence: \"this is fixed\", \"already implemented\", \"tests pass\", \"works now\", \"current behavior is X\".\n\n### 6. Assumption Ledger (Required on substantial tasks)\n- Before implementing substantial work, state:\n  - **Confirmed facts** (proven by files/output),\n  - **Inferences** (likely but not proven),\n  - **Unknowns** (must be checked).\n- Do not collapse inference into fact. Keep unknowns visible until verified.\n\n### 7. Completion Gate (cannot be skipped)\n- You may only claim completion when all are true:\n  1. Relevant code changes are applied,\n  2. Relevant checks were run (tests/lint/type/build as appropriate),\n  3. Output was reviewed and shows no blocking failure,\n  4. Residual risks/unverified areas are explicitly listed.\n- If checks cannot run, say exactly why and provide explicit manual verification steps.\n\n---\n\n## Required Context Files\n\n**Lost or unsure what to do? Read [`START_HERE.md`](START_HERE.md) first** \u2014 operator decision tree and recovery guide.\n\n**Free-text entry points:** If you don't know which skill to run, invoke `@ai-director - <describe what you want>` (Agent OS), `@ui-director - <describe what you want>` (UI Design OS), `@biz-director - <describe what you want>` (Business OS), or `@x-director - <describe what you want>` when the work spans frameworks. x-director resolves sibling-framework paths from the **Frameworks registry** below before routing.\n\n## Frameworks registry (cross-framework discovery)\n\nSister frameworks live as siblings on disk. x-director and ai-director use this table to locate them; `.ai/` always refers to this framework (self in the self-hosted case). **Path is resolved at runtime** \u2014 an empty `Path` cell means \"auto-discover\" (see \u00a7 Path resolution below).\n\n| Framework | Director | Path (relative to this `.ai/` parent, or absolute) | Bootstrap artifact |\n|-----------|----------|------------------------------------------------------|--------------------|\n| `.ai` (Agent OS) | `@ai-director` | *this directory* | `skills/README.md` |\n| `.ai.ui` (UI Design OS) | `@ui-director` | `../.ai.ui` | `../.ai.ui/skills/README.md` |\n| `.ai.biz` (Business OS) | `@biz-director` | `../.ai.biz` | `../.ai.biz/skills/README.md` |\n\n**Path resolution (in order):**\n\n1. Resolve from the table above. Empty/unset cells \u2192 fall through.\n2. **Auto-discover from `.ai` parent:** `parent=\"$(cd \"$REPO_ROOT/.ai/..\" && pwd)\"`; check `${parent}/.ai.ui` and `${parent}/.ai.biz`. Use whichever exists; treat missing as \"framework not installed\".\n3. **Preflight:** before routing to a director, verify its framework directory exists **and** its `skills/README.md` is readable. If absent, stop routing with a one-line `framework not installed here` message \u2014 never silently route into the void.\n\nRead these at the start of every conversation and when relevant:\n\n| File | Purpose |\n|------|---------|\n| **`START_HERE.md`** | What to invoke right now; forgetfulness checklist |\n| **`PROCESS_ROUTER.md`** | Process Q&A; `@process-router` vs `@session-control status`; director fallbacks |\n| **`REPLACE:TECH_STACK_DOC`** | Technology stack (e.g. `DOCS_TECH_STACK.md` at repo root) |\n| **`standards/REPLACE:CONVENTIONS_FILE`** | Code layout, naming, maintainability |\n| **`standards/REPLACE:FEATURE_STANDARD_FILE`** | Feature SPEC lifecycle |\n| **`standards/REPLACE:DIRECTORY_MAP_FILE`** | Repository layout and boundaries |\n| **`.work/context/HANDOFF.md`** | Session handoff (session-control read/write) |\n| **`docs/guides/workflows/README.md`** | Workflow index and artifact matrix |\n\n### Workflow bootstrap (concepts + guides)\n\nPortable process docs: **`docs/guides/workflows/README.md`** (artifact matrix). Curriculum: **`20260518-guide-workflows-index.md`** (when present). Tutorials: **`20260518-tutorial-*`**. Reference guides: **`20260518-guide-*`**.\n\n**Concept pack:** `concepts/README.md` (MOD-01\u2013MOD-07). When a change touches **architecture, coupling, latency chains, cost, ops load, AI-generated code, or prompt architecture**: list applicable concept ids, run matching `prompt.md` under `concepts/<name>/`, attach outputs to the PR or **`### Concept / NFR registry`** in `.work/plans/NEXT.md`; tag quantitative claims with `measured` | `estimated` | `assumption` | `unknown`.\n\n**Placeholder quick map (customize for this repository):**\n\n| Placeholder | Resolves to |\n|-------------|-------------|\n| `{WORK_ROOT}` | `.work/` |\n| `{PLANS_ROOT}` | `.work/plans/` |\n| `{FEATURE_SPEC_ROOT}` | `.work/features/` |\n| `{PROMPTS_ROOT}` | `.work/prompts/` |\n| `{DOCS_ROOT}` | `.work/docs/` |\n| `{DECISIONS_ROOT}` | `.work/decisions/` |\n| `{ITERATION_CARRIER}` | `.work/plans/NEXT.md` |\n| `{MASTER_PLAN}` | `.work/plans/full/*-full-plan.md` (latest **Approved**) |\n| `{HANDOFF}` | `.work/context/HANDOFF.md` |\n| `{CONCEPTS_ROOT}` | `concepts/` |\n| `{SKILLS_ROOT}` | `skills/` |\n| `{OBSERVABILITY_SPEC}` | REPLACE:OBSERVABILITY_SPEC_PATH (e.g. `standards/YYYYMMDD-observability-spec.md`) |\n| `{BOUNDARY_MAP}` | REPLACE:BOUNDARY_MAP_PATH (directory map or dedicated boundary doc) |\n| `{AGENT_RULES_FILE}` | **`.cursorrules` (this file)** \u2014 `AGENTS.md` is NOT used unless the owner explicitly adopts it |\n| `REPLACE:APP_ROOT` | Primary application tree (e.g. `backend/`, `apis/`, `src/`) |\n| `REPLACE:APP_WORKDIR` | In-container work",
-      "format": "text",
-      "path": ".cursorrules"
-    },
-    "description": "Portable process framework for software teams shipping with coding agents (Cursor, Claude Code, Codex, opencode). Skills",
-    "id": "PiloTracer/.ai",
-    "language": "Shell",
-    "name": "PiloTracer/.ai",
-    "stars": 0,
-    "updated_at": "2026-06-29T23:42:52Z",
-    "url": "https://github.com/PiloTracer/.ai"
   },
   {
     "description": "Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior",
