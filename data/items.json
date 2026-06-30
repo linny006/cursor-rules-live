@@ -1,11 +1,25 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: \"USE WHEN: any task in this repo. Global operating rules.\"\nglobs: [\"**/*\"]\nalwaysApply: true\npriority: 100\n---\n\n# Global Rules (Always On)\n\n## Role\nYou are an AI coding assistant. Deliver correct, minimal, testable changes. Surface uncertainty instead of hiding it.\n\n## Non\u2011Negotiables\n- **Correctness > simplicity > consistency > style**.\n- **Minimal diff**: touch only what the task needs.\n- **No drive\u2011by refactors**.\n- **Ask when ambiguous**: assumptions ledger + up to 3 questions.\n- **Stop** on security, data loss, or breaking changes; ask for confirmation.\n\n## Output Discipline\n- Provide a brief plan before changes.\n- Show verification steps (lint/typecheck/tests) and state what wasn\u2019t run.\n\n## Guardrails\n- No hard\u2011coded secrets.\n- No unrelated formatting or renaming.\n- No new dependencies without approval.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/00-global.mdc"
+    },
+    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
+    "id": "Luxvil/ai-coding-rules",
+    "language": "Shell",
+    "name": "Luxvil/ai-coding-rules",
+    "stars": 3,
+    "updated_at": "2026-06-30T16:54:15Z",
+    "url": "https://github.com/Luxvil/ai-coding-rules"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-06-30T16:30:48Z",
+    "updated_at": "2026-06-30T16:45:34Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -137,20 +151,6 @@
   },
   {
     "cursorrules": {
-      "content": "---\ndescription: \"USE WHEN: any task in this repo. Global operating rules.\"\nglobs: [\"**/*\"]\nalwaysApply: true\npriority: 100\n---\n\n# Global Rules (Always On)\n\n## Role\nYou are an AI coding assistant. Deliver correct, minimal, testable changes. Surface uncertainty instead of hiding it.\n\n## Non\u2011Negotiables\n- **Correctness > simplicity > consistency > style**.\n- **Minimal diff**: touch only what the task needs.\n- **No drive\u2011by refactors**.\n- **Ask when ambiguous**: assumptions ledger + up to 3 questions.\n- **Stop** on security, data loss, or breaking changes; ask for confirmation.\n\n## Output Discipline\n- Provide a brief plan before changes.\n- Show verification steps (lint/typecheck/tests) and state what wasn\u2019t run.\n\n## Guardrails\n- No hard\u2011coded secrets.\n- No unrelated formatting or renaming.\n- No new dependencies without approval.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/00-global.mdc"
-    },
-    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
-    "id": "Luxvil/ai-coding-rules",
-    "language": "Shell",
-    "name": "Luxvil/ai-coding-rules",
-    "stars": 3,
-    "updated_at": "2026-06-30T14:24:17Z",
-    "url": "https://github.com/Luxvil/ai-coding-rules"
-  },
-  {
-    "cursorrules": {
       "content": "---\ndescription: Routes planning intent to the Master-Planner harness instead of Cursor native Plan mode\nglobs: *\nalwaysApply: true\n---\n# Master-Planner Bootstrap\n\nThis project has the Master-Planner harness installed under `.cursor/`.\n\n## When planning is requested\n\nIf the user wants to plan, architect, spec, design, or figure out how to build something \u2014 including `/mp-plan`, \"how should we build\", PRD, roadmap, or resume planning:\n\n1. **Read** `.cursor/skills/master-planner/SKILL.md` immediately and follow its pipeline.\n2. **Do NOT** switch to Cursor native Plan mode or use `CreatePlan` / `SwitchMode` to `plan` for project planning in this repo. That produces ephemeral Cursor UI plans, not durable harness artifacts.\n3. Persist state under `.cursor/plans/<project>/` (`manifest.md`, `spec.md`, `tasks.md`, `context.md`).\n4. Obey `001-planning-safety`: no production implementation before plan approval.\n\n## Primary slash command\n\nUse **`/mp-plan <intent>`** to start or continue planning.\n\nDo **not** rely on bare **`/plan`** \u2014 on most Cursor builds it triggers the IDE's native Plan mode instead of this harness.\n",
       "format": "mdc",
       "path": ".cursor/rules/000-harness-bootstrap.mdc"
@@ -273,7 +273,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 68751,
+    "stars": 68757,
     "updated_at": "2026-06-30T00:04:50Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -438,7 +438,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 37364,
+    "stars": 37365,
     "updated_at": "2026-06-29T01:08:41Z",
     "url": "https://github.com/wshobson/agents"
   },
