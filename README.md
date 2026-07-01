@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-07-01 11:44 UTC
+> ⏰ Last updated: 2026-07-01 11:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,8 +53,8 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [Luxvil/ai-coding-rules](https://github.com/Luxvil/ai-coding-rules) | 3 | Shell | 2026-07-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Luxvil/ai-coding-rules/) | 🤖 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-07-01 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-07-01 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [Luxvil/ai-coding-rules](https://github.com/Luxvil/ai-coding-rules) | 3 | Shell | 2026-07-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Luxvil/ai-coding-rules/) | 🤖 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje |
 | 3 | [vibestackdev/vibe-stack](https://github.com/vibestackdev/vibe-stack) | 6 | TypeScript | 2026-07-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/) | 29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b |
 | 4 | [adriannoes/awesome-vibe-coding](https://github.com/adriannoes/awesome-vibe-coding) | 42 | Jupyter Notebook | 2026-07-01 | — | 298 agent skills (Cursor, Claude Code & Codex), 5,380 OpenClaw skills, 201 ML notebooks, 49 research papers, 15 industry |
 | 5 | [bagaswap111/usability-heuristics-skill](https://github.com/bagaswap111/usability-heuristics-skill) | 0 | — | 2026-07-01 | — | Evaluasi UI/UX berbasis 10 Heuristics Nielsen — tersedia untuk Web, Mobile, Desktop, CLI dalam 11 format AI coding tools |
