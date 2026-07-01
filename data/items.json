@@ -1,11 +1,29 @@
 [
   {
+    "description": "Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior",
+    "id": "MnemeHQ/mneme",
+    "language": "HTML",
+    "name": "MnemeHQ/mneme",
+    "stars": 16,
+    "updated_at": "2026-07-01T15:29:38Z",
+    "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
+    "description": "Evaluation tool for UI/UX based on 10 Heuristics Nielsen \u2014 available for Web, Mobile, Desktop, CLI within 11 format AI c",
+    "id": "bagaswap111/usability-heuristics-skill",
+    "language": "\u2014",
+    "name": "bagaswap111/usability-heuristics-skill",
+    "stars": 0,
+    "updated_at": "2026-07-01T15:29:22Z",
+    "url": "https://github.com/bagaswap111/usability-heuristics-skill"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-07-01T15:00:54Z",
+    "updated_at": "2026-07-01T15:15:40Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -209,15 +227,6 @@
     "url": "https://github.com/adriannoes/awesome-vibe-coding"
   },
   {
-    "description": "Evaluation tool for UI/UX based on 10 Heuristics Nielsen \u2014 available for Web, Mobile, Desktop, CLI within 11 format AI c",
-    "id": "bagaswap111/usability-heuristics-skill",
-    "language": "\u2014",
-    "name": "bagaswap111/usability-heuristics-skill",
-    "stars": 0,
-    "updated_at": "2026-07-01T11:00:40Z",
-    "url": "https://github.com/bagaswap111/usability-heuristics-skill"
-  },
-  {
     "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
     "id": "philipbankier/awesome-agent-skills",
     "language": "TypeScript",
@@ -276,7 +285,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 16262,
+    "stars": 16265,
     "updated_at": "2026-07-01T06:55:15Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -302,15 +311,6 @@
     "stars": 14,
     "updated_at": "2026-07-01T02:38:51Z",
     "url": "https://github.com/danielvm-git/bigpowers"
-  },
-  {
-    "description": "Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior",
-    "id": "MnemeHQ/mneme",
-    "language": "HTML",
-    "name": "MnemeHQ/mneme",
-    "stars": 16,
-    "updated_at": "2026-07-01T14:04:04Z",
-    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "description": "Production-ready AI agent profiles for Claude Code, Cursor, and Codex. Search, install, and contribute ForgeCat packages",
@@ -427,7 +427,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 70096,
+    "stars": 70111,
     "updated_at": "2026-06-30T00:04:50Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
