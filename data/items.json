@@ -1,11 +1,20 @@
 [
   {
+    "description": "Evaluation tool for UI/UX based on 10 Heuristics Nielsen \u2014 available for Web, Mobile, Desktop, CLI within 11 format AI c",
+    "id": "bagaswap111/usability-heuristics-skill",
+    "language": "Mermaid",
+    "name": "bagaswap111/usability-heuristics-skill",
+    "stars": 0,
+    "updated_at": "2026-07-01T17:51:13Z",
+    "url": "https://github.com/bagaswap111/usability-heuristics-skill"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-07-01T17:30:29Z",
+    "updated_at": "2026-07-01T17:45:27Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -148,15 +157,6 @@
     "stars": 3,
     "updated_at": "2026-07-01T16:21:56Z",
     "url": "https://github.com/Luxvil/ai-coding-rules"
-  },
-  {
-    "description": "Evaluation tool for UI/UX based on 10 Heuristics Nielsen \u2014 available for Web, Mobile, Desktop, CLI within 11 format AI c",
-    "id": "bagaswap111/usability-heuristics-skill",
-    "language": "Mermaid",
-    "name": "bagaswap111/usability-heuristics-skill",
-    "stars": 0,
-    "updated_at": "2026-07-01T16:03:32Z",
-    "url": "https://github.com/bagaswap111/usability-heuristics-skill"
   },
   {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
@@ -441,7 +441,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 70231,
+    "stars": 70240,
     "updated_at": "2026-06-30T00:04:50Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
