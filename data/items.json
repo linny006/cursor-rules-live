@@ -1,12 +1,39 @@
 [
   {
+    "description": "Production-ready AI agent profiles for Claude Code, Cursor, and Codex. Search, install, and contribute ForgeCat packages",
+    "id": "nota-america/forgecat-agent-profiles",
+    "language": "TypeScript",
+    "name": "nota-america/forgecat-agent-profiles",
+    "stars": 12,
+    "updated_at": "2026-07-01T00:43:45Z",
+    "url": "https://github.com/nota-america/forgecat-agent-profiles"
+  },
+  {
+    "description": "n8n community node for LynxPrompt \u2014 manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via API",
+    "id": "GeiserX/n8n-nodes-lynxprompt",
+    "language": "TypeScript",
+    "name": "GeiserX/n8n-nodes-lynxprompt",
+    "stars": 1,
+    "updated_at": "2026-07-01T00:32:13Z",
+    "url": "https://github.com/GeiserX/n8n-nodes-lynxprompt"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-07-01T00:15:27Z",
+    "updated_at": "2026-07-01T00:30:26Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 code review, debugging, refactoring, system design, CLAUDE.m",
+    "id": "sublimecoder/sublimecoding",
+    "language": "\u2014",
+    "name": "sublimecoder/sublimecoding",
+    "stars": 0,
+    "updated_at": "2026-07-01T00:30:26Z",
+    "url": "https://github.com/sublimecoder/sublimecoding"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -177,7 +204,7 @@
     "language": "HTML",
     "name": "MnemeHQ/mneme",
     "stars": 16,
-    "updated_at": "2026-07-01T00:26:18Z",
+    "updated_at": "2026-07-01T00:44:03Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
@@ -287,15 +314,6 @@
     "url": "https://github.com/sungurerdim/dev-skills"
   },
   {
-    "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 code review, debugging, refactoring, system design, CLAUDE.m",
-    "id": "sublimecoder/sublimecoding",
-    "language": "\u2014",
-    "name": "sublimecoder/sublimecoding",
-    "stars": 0,
-    "updated_at": "2026-06-30T04:06:38Z",
-    "url": "https://github.com/sublimecoder/sublimecoding"
-  },
-  {
     "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
     "id": "KbWen/agentic-os",
     "language": "Python",
@@ -303,15 +321,6 @@
     "stars": 44,
     "updated_at": "2026-06-30T03:28:41Z",
     "url": "https://github.com/KbWen/agentic-os"
-  },
-  {
-    "description": "Production-ready AI agent profiles for Claude Code, Cursor, and Codex. Search, install, and contribute ForgeCat packages",
-    "id": "nota-america/forgecat-agent-profiles",
-    "language": "TypeScript",
-    "name": "nota-america/forgecat-agent-profiles",
-    "stars": 12,
-    "updated_at": "2026-07-01T00:29:51Z",
-    "url": "https://github.com/nota-america/forgecat-agent-profiles"
   },
   {
     "cursorrules": {
@@ -323,7 +332,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 69066,
+    "stars": 69075,
     "updated_at": "2026-06-30T00:04:50Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -493,7 +502,7 @@
     "id": "ilindaniel/ponytail-lite",
     "language": "\u2014",
     "name": "ilindaniel/ponytail-lite",
-    "stars": 50,
+    "stars": 49,
     "updated_at": "2026-06-28T16:58:59Z",
     "url": "https://github.com/ilindaniel/ponytail-lite"
   },
@@ -514,14 +523,5 @@
     "stars": 0,
     "updated_at": "2026-06-28T06:57:36Z",
     "url": "https://github.com/wilsonwaters/3d-printing"
-  },
-  {
-    "description": "Claude Code skills, MCP server kits, GitHub Actions, CLI tools \u2014 production-ready developer resources",
-    "id": "castrocrest/developer-tools",
-    "language": "\u2014",
-    "name": "castrocrest/developer-tools",
-    "stars": 0,
-    "updated_at": "2026-06-27T16:04:48Z",
-    "url": "https://github.com/castrocrest/developer-tools"
   }
 ]
