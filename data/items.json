@@ -1,11 +1,20 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-07-01T02:45:36Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "I got tired moving configs between devices",
     "id": "apoorv-kulkarni/initMe",
     "language": "Shell",
     "name": "apoorv-kulkarni/initMe",
     "stars": 0,
-    "updated_at": "2026-07-01T02:44:09Z",
+    "updated_at": "2026-07-01T02:58:21Z",
     "url": "https://github.com/apoorv-kulkarni/initMe"
   },
   {
@@ -30,15 +39,6 @@
     "stars": 0,
     "updated_at": "2026-07-01T02:35:17Z",
     "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-07-01T02:30:31Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
@@ -355,7 +355,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 69228,
+    "stars": 69245,
     "updated_at": "2026-06-30T00:04:50Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -396,7 +396,7 @@
     "id": "HoangNguyen0403/agent-skills-standard",
     "language": "TypeScript",
     "name": "HoangNguyen0403/agent-skills-standard",
-    "stars": 516,
+    "stars": 517,
     "updated_at": "2026-06-29T13:00:12Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
   },
@@ -474,7 +474,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 37376,
+    "stars": 37377,
     "updated_at": "2026-06-29T01:08:41Z",
     "url": "https://github.com/wshobson/agents"
   },
