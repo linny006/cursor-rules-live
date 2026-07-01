@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-07-01 20:00 UTC
+> ⏰ Last updated: 2026-07-01 20:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,8 +53,8 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-07-01 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-07-01 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-07-01 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-07-01 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
 | 3 | [bagaswap111/usability-heuristics-skill](https://github.com/bagaswap111/usability-heuristics-skill) | 0 | Mermaid | 2026-07-01 | — | Evaluation tool for UI/UX based on 10 Heuristics Nielsen — available for Web, Mobile, Desktop, CLI within 11 format AI c |
 | 4 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 0 | HTML | 2026-07-01 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
 | 5 | [Hyanthropological659/clarify-skill](https://github.com/Hyanthropological659/clarify-skill) | 0 | — | 2026-07-01 | — | Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a |
@@ -96,7 +96,7 @@ expired items removed — so you can rely on what you see being current.
 | 41 | [GhostwheeI/Master-Planner](https://github.com/GhostwheeI/Master-Planner) | 0 | Python | 2026-06-30 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/GhostwheeI/Master-Planner/) | A production-grade, evidence-driven Cursor AI planning harness that converts vague intent into source-grounded software  |
 | 42 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 16 | Shell | 2026-06-30 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
 | 43 | [sungurerdim/dev-skills](https://github.com/sungurerdim/dev-skills) | 1 | HTML | 2026-06-30 | — | Your AI assistant hallucinates APIs, breaks dependent files, and weakens tests. 20 skills that prevent this across the f |
-| 44 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 70312 | JavaScript | 2026-06-30 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 44 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 70325 | JavaScript | 2026-06-30 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 45 | [heymegabyte/claude-skills](https://github.com/heymegabyte/claude-skills) | 15 | TypeScript | 2026-06-30 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/claude-skills/) | 14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts → deployed products. |
 | 46 | [Bilal140202/the-lord-of-the-skills](https://github.com/Bilal140202/the-lord-of-the-skills) | 3 | Python | 2026-06-29 | — | ⚔ 18,142+ AI agent skills from 307+ GitHub repos across 14 frameworks (Claude Code, Cursor, Cline, Roo, Aider, OpenHands |
 | 47 | [pekral/cursor-rules](https://github.com/pekral/cursor-rules) | 5 | PHP | 2026-06-30 | — | PHP and Laravel Cursor rules — coding standards, testing, and conventions for the Cursor editor. Install via Composer. |

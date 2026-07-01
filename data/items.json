@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-07-01T20:00:31Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
     "id": "Laurellagloomy260/cursor-rules-generator",
     "language": "\u2014",
@@ -7,15 +16,6 @@
     "stars": 0,
     "updated_at": "2026-07-01T19:47:50Z",
     "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-07-01T19:45:33Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Evaluation tool for UI/UX based on 10 Heuristics Nielsen \u2014 available for Web, Mobile, Desktop, CLI within 11 format AI c",
@@ -441,7 +441,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 70312,
+    "stars": 70325,
     "updated_at": "2026-06-30T00:04:50Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
