@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-07-01 09:15 UTC
+> ⏰ Last updated: 2026-07-01 09:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -67,7 +67,7 @@ expired items removed — so you can rely on what you see being current.
 | 12 | [zinxj/uikit-expert-skill](https://github.com/zinxj/uikit-expert-skill) | 3 | — | 2026-07-01 | — | Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan |
 | 13 | [johnwall123459885/skene-cookbook](https://github.com/johnwall123459885/skene-cookbook) | 0 | Python | 2026-07-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/johnwall123459885/skene-cookbook/) | 🤖 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development. |
 | 14 | [Luxvil/ai-coding-rules](https://github.com/Luxvil/ai-coding-rules) | 3 | Shell | 2026-07-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Luxvil/ai-coding-rules/) | 🤖 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje |
-| 15 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 16219 | Shell | 2026-07-01 | — | 🎭 266 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 50 个中国市场原创智能体（小红书/抖音/ |
+| 15 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 16223 | Shell | 2026-07-01 | — | 🎭 266 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 50 个中国市场原创智能体（小红书/抖音/ |
 | 16 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 1 | HTML | 2026-07-01 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
 | 17 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-07-01 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
 | 18 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-07-01 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
@@ -90,7 +90,7 @@ expired items removed — so you can rely on what you see being current.
 | 35 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 6 | TypeScript | 2026-06-30 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
 | 36 | [sungurerdim/dev-skills](https://github.com/sungurerdim/dev-skills) | 1 | HTML | 2026-06-30 | — | Your AI assistant hallucinates APIs, breaks dependent files, and weakens tests. 20 skills that prevent this across the f |
 | 37 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 44 | Python | 2026-06-30 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
-| 38 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 69689 | JavaScript | 2026-06-30 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 38 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 69711 | JavaScript | 2026-06-30 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 39 | [heymegabyte/claude-skills](https://github.com/heymegabyte/claude-skills) | 15 | TypeScript | 2026-06-30 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/claude-skills/) | 14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts → deployed products. |
 | 40 | [Bilal140202/the-lord-of-the-skills](https://github.com/Bilal140202/the-lord-of-the-skills) | 3 | Python | 2026-06-29 | — | ⚔ 18,142+ AI agent skills from 307+ GitHub repos across 14 frameworks (Claude Code, Cursor, Cline, Roo, Aider, OpenHands |
 | 41 | [pekral/cursor-rules](https://github.com/pekral/cursor-rules) | 5 | PHP | 2026-06-30 | — | PHP and Laravel Cursor rules — coding standards, testing, and conventions for the Cursor editor. Install via Composer. |
