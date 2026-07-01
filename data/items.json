@@ -1,5 +1,23 @@
 [
   {
+    "description": "Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior",
+    "id": "MnemeHQ/mneme",
+    "language": "HTML",
+    "name": "MnemeHQ/mneme",
+    "stars": 16,
+    "updated_at": "2026-07-01T00:47:08Z",
+    "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-07-01T00:45:29Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Production-ready AI agent profiles for Claude Code, Cursor, and Codex. Search, install, and contribute ForgeCat packages",
     "id": "nota-america/forgecat-agent-profiles",
     "language": "TypeScript",
@@ -16,15 +34,6 @@
     "stars": 1,
     "updated_at": "2026-07-01T00:32:13Z",
     "url": "https://github.com/GeiserX/n8n-nodes-lynxprompt"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-07-01T00:30:26Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 code review, debugging, refactoring, system design, CLAUDE.m",
@@ -76,7 +85,7 @@
     "id": "SalesforceAIResearch/agentforce-adlc",
     "language": "Python",
     "name": "SalesforceAIResearch/agentforce-adlc",
-    "stars": 78,
+    "stars": 79,
     "updated_at": "2026-06-30T23:32:56Z",
     "url": "https://github.com/SalesforceAIResearch/agentforce-adlc"
   },
@@ -197,15 +206,6 @@
     "stars": 81,
     "updated_at": "2026-06-30T20:37:08Z",
     "url": "https://github.com/raintree-technology/agent-starter"
-  },
-  {
-    "description": "Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior",
-    "id": "MnemeHQ/mneme",
-    "language": "HTML",
-    "name": "MnemeHQ/mneme",
-    "stars": 16,
-    "updated_at": "2026-07-01T00:44:03Z",
-    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "cursorrules": {
@@ -332,7 +332,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 69075,
+    "stars": 69094,
     "updated_at": "2026-06-30T00:04:50Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
