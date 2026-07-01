@@ -1,5 +1,23 @@
 [
   {
+    "description": "Evaluation tool for UI/UX based on 10 Heuristics Nielsen \u2014 available for Web, Mobile, Desktop, CLI within 11 format AI c",
+    "id": "bagaswap111/usability-heuristics-skill",
+    "language": "Mermaid",
+    "name": "bagaswap111/usability-heuristics-skill",
+    "stars": 0,
+    "updated_at": "2026-07-01T16:03:32Z",
+    "url": "https://github.com/bagaswap111/usability-heuristics-skill"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-07-01T16:00:40Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
     "id": "arnoldalberto007-sys/Swift-UIKit-Components",
     "language": "HTML",
@@ -9,15 +27,6 @@
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-07-01T15:45:51Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior",
     "id": "MnemeHQ/mneme",
     "language": "HTML",
@@ -25,15 +34,6 @@
     "stars": 16,
     "updated_at": "2026-07-01T15:33:35Z",
     "url": "https://github.com/MnemeHQ/mneme"
-  },
-  {
-    "description": "Evaluation tool for UI/UX based on 10 Heuristics Nielsen \u2014 available for Web, Mobile, Desktop, CLI within 11 format AI c",
-    "id": "bagaswap111/usability-heuristics-skill",
-    "language": "\u2014",
-    "name": "bagaswap111/usability-heuristics-skill",
-    "stars": 0,
-    "updated_at": "2026-07-01T15:29:22Z",
-    "url": "https://github.com/bagaswap111/usability-heuristics-skill"
   },
   {
     "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
@@ -285,7 +285,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 16269,
+    "stars": 16272,
     "updated_at": "2026-07-01T06:55:15Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -427,7 +427,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 70151,
+    "stars": 70166,
     "updated_at": "2026-06-30T00:04:50Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
