@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-07-01T01:15:42Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior",
     "id": "MnemeHQ/mneme",
     "language": "HTML",
@@ -7,15 +16,6 @@
     "stars": 16,
     "updated_at": "2026-07-01T01:12:09Z",
     "url": "https://github.com/MnemeHQ/mneme"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-07-01T01:00:28Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Production-ready AI agent profiles for Claude Code, Cursor, and Codex. Search, install, and contribute ForgeCat packages",
@@ -332,7 +332,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 69104,
+    "stars": 69122,
     "updated_at": "2026-06-30T00:04:50Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
