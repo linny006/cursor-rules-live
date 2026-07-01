@@ -1,5 +1,23 @@
 [
   {
+    "description": "323\u500b\u306e\u5373\u6226\u529bAI\u5c02\u9580\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8 \u2014 Claude Code/Cursor/Copilot\u7b49\u306b\u5bfe\u5fdc\u3002SIer/\u53d7\u8a17\u958b\u767a/SaaS/\u88fd\u9020DX/\u516c\u5171\u5206\u91ce\u306a\u3069\u65e5\u672c\u5e02\u5834\u5411\u3051114\u500b\u306e\u30aa\u30ea\u30b8\u30ca\u30eb\u3092\u542b\u3080\u3001agency-agents\u65e5\u672c\u8a9e\u30b3\u30df\u30e5\u30cb\u30c6\u30a3",
+    "id": "sscodeai/agency-agents-ja",
+    "language": "Shell",
+    "name": "sscodeai/agency-agents-ja",
+    "stars": 0,
+    "updated_at": "2026-07-01T14:41:24Z",
+    "url": "https://github.com/sscodeai/agency-agents-ja"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-07-01T14:30:31Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
     "id": "zinxj/uikit-expert-skill",
     "language": "\u2014",
@@ -21,15 +39,6 @@
     "stars": 0,
     "updated_at": "2026-07-01T14:20:05Z",
     "url": "https://github.com/johnwall123459885/skene-cookbook"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-07-01T14:15:32Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -267,7 +276,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 16255,
+    "stars": 16259,
     "updated_at": "2026-07-01T06:55:15Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -418,7 +427,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 70050,
+    "stars": 70069,
     "updated_at": "2026-06-30T00:04:50Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -494,19 +503,5 @@
     "stars": 68,
     "updated_at": "2026-06-29T06:09:56Z",
     "url": "https://github.com/MohamedAbdallah-14/unslop"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Matcha Angular coding standards\nglobs: [\"**/*.ts\"]\nalwaysApply: false\n---\n\n# Angular Standards\n\n## Signals over RxJS (Angular 17+)\n```typescript\nconst count = signal(0);\nconst doubled = computed(() => count() * 2);\n```\n- signal() for UI state, RxJS only for event streams\n- OnPush change detection on all components\n\n## Dependency Injection\n```typescript\n@Injectable({ providedIn: 'root' })\nexport class Service { private http = inject(HttpClient); }\n```\n- `inject()` over constructor for tree-shaking\n- InjectionToken for non-class providers\n\n## File Naming\nkebab-case with type suffix: `.component.ts`, `.service.ts`, `.pipe.ts`\n1 class = 1 file\n\n## Performance\n- `ChangeDetectionStrategy.OnPush`\n- `trackBy` in @for loops\n- `async` pipe in templates, never subscribe in component\n\n## Checklist\n- [ ] Signals over RxJS for UI state \u2014 RxJS only for event streams\n- [ ] `inject()` over constructor DI\n- [ ] `ChangeDetectionStrategy.OnPush` on all components\n- [ ] `trackBy` in `@for` loops\n- [ ] Lazy load feature modules / standalone components\n- [ ] `async` pipe in templates, never `subscribe` in component\n- [ ] Check existing services and modules before adding new ones\n",
-      "format": "mdc",
-      "path": ".cursor/rules/matcha-angular.mdc"
-    },
-    "description": "\ud83c\udf75 Deliberate engineering guidelines & deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block",
-    "id": "plumpslabs/matcha",
-    "language": "JavaScript",
-    "name": "plumpslabs/matcha",
-    "stars": 1,
-    "updated_at": "2026-06-29T04:33:24Z",
-    "url": "https://github.com/plumpslabs/matcha"
   }
 ]
