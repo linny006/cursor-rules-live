@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-07-01 20:30 UTC
+> ⏰ Last updated: 2026-07-01 20:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -86,7 +86,7 @@ expired items removed — so you can rely on what you see being current.
 | 31 | [aibetter/aib](https://github.com/aibetter/aib) | 0 | TypeScript | 2026-07-01 | — | AI Ecosystem CLI |
 | 32 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 16278 | Shell | 2026-07-01 | — | 🎭 266 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 50 个中国市场原创智能体（小红书/抖音/ |
 | 33 | [apoorv-kulkarni/initMe](https://github.com/apoorv-kulkarni/initMe) | 0 | Shell | 2026-07-01 | — | I got tired moving configs between devices |
-| 34 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 14 | Shell | 2026-07-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | 70 agent skills for spec-driven, test-first software development by solo developers |
+| 34 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 15 | Shell | 2026-07-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | 70 agent skills for spec-driven, test-first software development by solo developers |
 | 35 | [nota-america/forgecat-agent-profiles](https://github.com/nota-america/forgecat-agent-profiles) | 12 | TypeScript | 2026-07-01 | — | Production-ready AI agent profiles for Claude Code, Cursor, and Codex. Search, install, and contribute ForgeCat packages |
 | 36 | [GeiserX/n8n-nodes-lynxprompt](https://github.com/GeiserX/n8n-nodes-lynxprompt) | 1 | TypeScript | 2026-07-01 | — | n8n community node for LynxPrompt — manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via API |
 | 37 | [sublimecoder/sublimecoding](https://github.com/sublimecoder/sublimecoding) | 0 | — | 2026-07-01 | — | 🛠️ Free Claude Code & Cursor prompts for senior engineers — code review, debugging, refactoring, system design, CLAUDE.m |
@@ -96,7 +96,7 @@ expired items removed — so you can rely on what you see being current.
 | 41 | [GhostwheeI/Master-Planner](https://github.com/GhostwheeI/Master-Planner) | 0 | Python | 2026-06-30 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/GhostwheeI/Master-Planner/) | A production-grade, evidence-driven Cursor AI planning harness that converts vague intent into source-grounded software  |
 | 42 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 16 | Shell | 2026-06-30 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
 | 43 | [sungurerdim/dev-skills](https://github.com/sungurerdim/dev-skills) | 1 | HTML | 2026-06-30 | — | Your AI assistant hallucinates APIs, breaks dependent files, and weakens tests. 20 skills that prevent this across the f |
-| 44 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 70336 | JavaScript | 2026-06-30 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 44 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 70349 | JavaScript | 2026-06-30 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 45 | [heymegabyte/claude-skills](https://github.com/heymegabyte/claude-skills) | 15 | TypeScript | 2026-06-30 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/claude-skills/) | 14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts → deployed products. |
 | 46 | [Bilal140202/the-lord-of-the-skills](https://github.com/Bilal140202/the-lord-of-the-skills) | 3 | Python | 2026-06-29 | — | ⚔ 18,142+ AI agent skills from 307+ GitHub repos across 14 frameworks (Claude Code, Cursor, Cline, Roo, Aider, OpenHands |
 | 47 | [pekral/cursor-rules](https://github.com/pekral/cursor-rules) | 5 | PHP | 2026-06-30 | — | PHP and Laravel Cursor rules — coding standards, testing, and conventions for the Cursor editor. Install via Composer. |
