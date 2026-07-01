@@ -1,11 +1,20 @@
 [
   {
+    "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
+    "id": "fluttersdk/wind",
+    "language": "Dart",
+    "name": "fluttersdk/wind",
+    "stars": 22,
+    "updated_at": "2026-07-01T13:59:12Z",
+    "url": "https://github.com/fluttersdk/wind"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-07-01T13:45:45Z",
+    "updated_at": "2026-07-01T13:56:03Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -322,15 +331,6 @@
     "url": "https://github.com/sublimecoder/sublimecoding"
   },
   {
-    "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
-    "id": "fluttersdk/wind",
-    "language": "Dart",
-    "name": "fluttersdk/wind",
-    "stars": 22,
-    "updated_at": "2026-07-01T13:53:09Z",
-    "url": "https://github.com/fluttersdk/wind"
-  },
-  {
     "description": "Agent Development Life Cycle \u2014 Build, deploy, test, and optimize Agentforce agents using Claude Code skills and Agent Sc",
     "id": "SalesforceAIResearch/agentforce-adlc",
     "language": "Python",
@@ -418,7 +418,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 70009,
+    "stars": 70012,
     "updated_at": "2026-06-30T00:04:50Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
