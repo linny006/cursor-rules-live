@@ -137,16 +137,16 @@ Sister frameworks live as siblings on disk. x-director and ai-director use this 
 **Path resolution (in order):**
 
 1. Resolve from the table above. Empty/unset cells → fall through.
-2. **Auto-discover from `.ai` parent:** `parent=&quot;$(cd &quot;$REPO_ROOT/.ai/..&quot; &amp;&amp; pwd)&quot;`; check `${parent}/.ai.ui`, `${parent}/.ai.biz`, and `${parent}/.ai.soc`. Use whichever exists; treat missing as &quot;framework not installed&quot;.
+2. **Auto-discover from `.ai` parent or source:**
+   - **Fat-client** (`$REPO_ROOT/.ai/` exists): `parent=&quot;$(cd &quot;$REPO_ROOT/.ai/..&quot; &amp;&amp; pwd)&quot;`
+   - **Thin-client** (`$REPO_ROOT/.ai/` absent, `$AGENT_OS_SOURCE` is set and readable): `parent=&quot;$(cd &quot;$AGENT_OS_SOURCE/..&quot; &amp;&amp; pwd)&quot;`
+   - **Neither** (no source to scan from): skip auto-discover — no sister frameworks.
+   Check `${parent}/.ai.ui`, `${parent}/.ai.biz`, and `${parent}/.ai.soc`. Use whichever exists; treat missing as &quot;framework not installed&quot;.
 3. **Preflight:** before routing to a director, verify its framework directory exists **and** its `skills/README.md` is readable. If absent, stop routing with a one-line `framework not installed here` message — never silently route into the void.
 
 Read these at the start of every conversation and when relevant:
 
-| File | Purpose |
-|------|---------|
-| **`START_HERE.md`** | What to invoke right now; forgetfulness checklist |
-| **`PROCESS_ROUTER.md`** | Process Q&amp;A; `@process-router` vs `@session-control status`; director fallbacks |
-| **`REPLACE:TECH_STACK_DOC`** | Technology stack (e.g. `DOCS_TECH_STACK.</code></pre>
+| File | Purpose</code></pre>
 <p><em>Content truncated. View full file in the source repo (linked above).</em></p><p><a href="https://github.com/PiloTracer/.ai/blob/HEAD/.cursorrules" rel="external">View raw on GitHub</a></p>
 </section>
 <section><h2>Why this is listed</h2>
