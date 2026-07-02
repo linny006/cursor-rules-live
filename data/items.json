@@ -1,11 +1,29 @@
 [
   {
+    "description": "VS Code extension for LynxPrompt \u2014 browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules) ",
+    "id": "GeiserX/lynxprompt-vscode",
+    "language": "TypeScript",
+    "name": "GeiserX/lynxprompt-vscode",
+    "stars": 1,
+    "updated_at": "2026-07-01T23:58:01Z",
+    "url": "https://github.com/GeiserX/lynxprompt-vscode"
+  },
+  {
+    "description": "Production-ready AI agent profiles for Claude Code, Cursor, and Codex. Search, install, and contribute ForgeCat packages",
+    "id": "nota-america/forgecat-agent-profiles",
+    "language": "TypeScript",
+    "name": "nota-america/forgecat-agent-profiles",
+    "stars": 12,
+    "updated_at": "2026-07-01T23:47:09Z",
+    "url": "https://github.com/nota-america/forgecat-agent-profiles"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-07-01T23:43:42Z",
+    "updated_at": "2026-07-01T23:45:25Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -18,7 +36,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 70429,
+    "stars": 70439,
     "updated_at": "2026-07-01T23:34:52Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -30,15 +48,6 @@
     "stars": 0,
     "updated_at": "2026-07-01T23:20:27Z",
     "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Production-ready AI agent profiles for Claude Code, Cursor, and Codex. Search, install, and contribute ForgeCat packages",
-    "id": "nota-america/forgecat-agent-profiles",
-    "language": "TypeScript",
-    "name": "nota-america/forgecat-agent-profiles",
-    "stars": 12,
-    "updated_at": "2026-07-01T23:40:20Z",
-    "url": "https://github.com/nota-america/forgecat-agent-profiles"
   },
   {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
@@ -494,14 +503,5 @@
     "stars": 518,
     "updated_at": "2026-06-29T13:00:12Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
-  },
-  {
-    "description": "Battle-tested agent skills and Cursor rules from real projects. Works with Cursor, Claude Code, and any agent.",
-    "id": "jcottam/agent-resources",
-    "language": "Shell",
-    "name": "jcottam/agent-resources",
-    "stars": 1,
-    "updated_at": "2026-06-29T12:27:27Z",
-    "url": "https://github.com/jcottam/agent-resources"
   }
 ]
