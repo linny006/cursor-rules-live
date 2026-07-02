@@ -1,12 +1,12 @@
 [
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
+    "description": "50+ Ready-to-Use MCP Server Configurations & AI Agent Tools",
+    "id": "bambooshadow-studio/mcp-power-pack",
+    "language": "\u2014",
+    "name": "bambooshadow-studio/mcp-power-pack",
     "stars": 0,
-    "updated_at": "2026-07-02T02:26:19Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+    "updated_at": "2026-07-02T02:45:01Z",
+    "url": "https://github.com/bambooshadow-studio/mcp-power-pack"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-07-02T02:15:26Z",
+    "updated_at": "2026-07-02T02:30:46Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-07-02T02:26:19Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
@@ -177,7 +186,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 70585,
+    "stars": 70599,
     "updated_at": "2026-07-01T23:34:52Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -363,7 +372,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 16305,
+    "stars": 16308,
     "updated_at": "2026-07-01T06:55:15Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -494,14 +503,5 @@
     "stars": 5,
     "updated_at": "2026-06-30T11:09:18Z",
     "url": "https://github.com/pekral/cursor-rules"
-  },
-  {
-    "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
-    "id": "HoangNguyen0403/agent-skills-standard",
-    "language": "TypeScript",
-    "name": "HoangNguyen0403/agent-skills-standard",
-    "stars": 518,
-    "updated_at": "2026-06-29T13:00:12Z",
-    "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
   }
 ]
