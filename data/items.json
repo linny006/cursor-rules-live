@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-07-02T03:00:48Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "\u63a2\u7d22\u5728\u65e5\u5e38\u5f00\u53d1\u4e2d\uff0c\u8ba9 AI \u7f16\u7a0b\u52a9\u624b\u4fdd\u6301\u4e0a\u4e0b\u6587\u8fde\u8d2f\u4e0e\u6267\u884c\u7eaa\u5f8b\u7684\u534f\u4f5c\u5de5\u4f5c\u6d41\u3002Exploring practical collaboration patterns for AI coding assistants.",
     "id": "MagicKidd/Rokid-agentic-workflow",
     "language": "Python",
@@ -7,15 +16,6 @@
     "stars": 2,
     "updated_at": "2026-07-02T02:52:16Z",
     "url": "https://github.com/MagicKidd/Rokid-agentic-workflow"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-07-02T02:45:48Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "50+ Ready-to-Use MCP Server Configurations & AI Agent Tools",
@@ -195,7 +195,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 70624,
+    "stars": 70638,
     "updated_at": "2026-07-01T23:34:52Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -381,7 +381,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 16311,
+    "stars": 16313,
     "updated_at": "2026-07-01T06:55:15Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
