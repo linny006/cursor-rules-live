@@ -14,7 +14,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="PiloTracer/.ai - entry on Cursor Rules Live">
 <meta name="twitter:description" content="Portable process framework for software teams shipping with coding agents (Cursor, Claude Code, Codex, opencode). Skills">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"PiloTracer/.ai","codeRepository":"https://github.com/PiloTracer/.ai","programmingLanguage":"Shell","url":"https://linny006.github.io/cursor-rules-live/r/PiloTracer/.ai/","description":"Portable process framework for software teams shipping with coding agents (Cursor, Claude Code, Codex, opencode). Skills","author":{"@type":"Person","name":"PiloTracer","url":"https://github.com/PiloTracer"},"dateModified":"2026-07-01"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"PiloTracer/.ai","codeRepository":"https://github.com/PiloTracer/.ai","programmingLanguage":"Shell","url":"https://linny006.github.io/cursor-rules-live/r/PiloTracer/.ai/","description":"Portable process framework for software teams shipping with coding agents (Cursor, Claude Code, Codex, opencode). Skills","author":{"@type":"Person","name":"PiloTracer","url":"https://github.com/PiloTracer"},"dateModified":"2026-07-02"}</script>
 <style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
          --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
 * { box-sizing: border-box; }
@@ -48,7 +48,7 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <div class="meta">
 <span><strong>Stars</strong> 0</span>
 <span><strong>Language</strong> Shell</span>
-<span><strong>Last updated</strong> 2026-07-01</span>
+<span><strong>Last updated</strong> 2026-07-02</span>
 <span><a href="https://github.com/PiloTracer/.ai" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/PiloTracer" rel="external">@PiloTracer</a></span>
 </div>
@@ -142,11 +142,7 @@ Sister frameworks live as siblings on disk. x-director and ai-director use this 
    - **Thin-client** (`$REPO_ROOT/.ai/` absent, `$AGENT_OS_SOURCE` is set and readable): `parent=&quot;$(cd &quot;$AGENT_OS_SOURCE/..&quot; &amp;&amp; pwd)&quot;`
    - **Neither** (no source to scan from): skip auto-discover — no sister frameworks.
    Check `${parent}/.ai.ui`, `${parent}/.ai.biz`, and `${parent}/.ai.soc`. Use whichever exists; treat missing as &quot;framework not installed&quot;.
-3. **Preflight:** before routing to a director, verify its framework directory exists **and** its `skills/README.md` is readable. If absent, stop routing with a one-line `framework not installed here` message — never silently route into the void.
-
-Read these at the start of every conversation and when relevant:
-
-| File | Purpose</code></pre>
+3. **Preflight + graceful degradation:** before routing to a director, verify its framework directory exists **and** its `skills/README.md` is readable. If absent, note `framework not installed here` and **degrade gracefully**: route the request to `@ai-director` with a `[degraded: &lt;framework&gt; not installed]` prefix. Never route</code></pre>
 <p><em>Content truncated. View full file in the source repo (linked above).</em></p><p><a href="https://github.com/PiloTracer/.ai/blob/HEAD/.cursorrules" rel="external">View raw on GitHub</a></p>
 </section>
 <section><h2>Why this is listed</h2>
