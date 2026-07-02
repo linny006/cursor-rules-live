@@ -1,5 +1,32 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-07-02T20:54:17Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
+    "id": "zinxj/uikit-expert-skill",
+    "language": "\u2014",
+    "name": "zinxj/uikit-expert-skill",
+    "stars": 3,
+    "updated_at": "2026-07-02T20:47:40Z",
+    "url": "https://github.com/zinxj/uikit-expert-skill"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-07-02T20:45:34Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
     "id": "J-nowcow/awesome-korean-agent-skills",
     "language": "\u2014",
@@ -35,15 +62,6 @@
     "stars": 3,
     "updated_at": "2026-07-02T20:32:54Z",
     "url": "https://github.com/Luxvil/ai-coding-rules"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-07-02T20:30:31Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -85,15 +103,6 @@
     "stars": 0,
     "updated_at": "2026-07-02T19:39:13Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 0,
-    "updated_at": "2026-07-02T19:09:46Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
@@ -148,15 +157,6 @@
     "stars": 2,
     "updated_at": "2026-07-02T18:29:18Z",
     "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
-  },
-  {
-    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
-    "id": "zinxj/uikit-expert-skill",
-    "language": "\u2014",
-    "name": "zinxj/uikit-expert-skill",
-    "stars": 3,
-    "updated_at": "2026-07-02T18:11:19Z",
-    "url": "https://github.com/zinxj/uikit-expert-skill"
   },
   {
     "cursorrules": {
@@ -341,7 +341,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 71613,
+    "stars": 71617,
     "updated_at": "2026-07-01T23:34:52Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
