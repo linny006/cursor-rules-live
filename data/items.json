@@ -1,11 +1,29 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-07-02T21:59:29Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-07-02T21:45:50Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior",
     "id": "MnemeHQ/mneme",
     "language": "HTML",
     "name": "MnemeHQ/mneme",
     "stars": 16,
-    "updated_at": "2026-07-02T21:45:06Z",
+    "updated_at": "2026-07-02T21:49:13Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
@@ -16,15 +34,6 @@
     "stars": 1,
     "updated_at": "2026-07-02T21:36:04Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-07-02T21:30:47Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
@@ -88,15 +97,6 @@
     "stars": 2,
     "updated_at": "2026-07-02T21:04:01Z",
     "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 0,
-    "updated_at": "2026-07-02T20:54:17Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
@@ -350,7 +350,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 71636,
+    "stars": 71638,
     "updated_at": "2026-07-01T23:34:52Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
