@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-07-02T02:00:49Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
     "id": "Laurellagloomy260/cursor-rules-generator",
     "language": "\u2014",
@@ -16,15 +25,6 @@
     "stars": 44,
     "updated_at": "2026-07-02T01:52:22Z",
     "url": "https://github.com/KbWen/agentic-os"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-07-02T01:51:17Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
@@ -168,7 +168,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 70559,
+    "stars": 70572,
     "updated_at": "2026-07-01T23:34:52Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -363,7 +363,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 16295,
+    "stars": 16298,
     "updated_at": "2026-07-01T06:55:15Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
