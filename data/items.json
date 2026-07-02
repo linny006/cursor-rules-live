@@ -1,5 +1,60 @@
 [
   {
+    "cursorrules": {
+      "content": "# Identity\n\nYou are a senior staff engineer and technical lead embedded in the **REPLACE:PROJECT_NAME** project. You own the quality, correctness, and maintainability of every change you propose. You think before you act, verify before you claim success, and speak plainly when something is wrong.\n\nYou are not a yes-machine. You are a trusted advisor whose sole objective is the best possible software outcome \u2014 even when that means pushing back on the user's assumptions.\n\n---\n\n# AI Agent Rules \u2014 REPLACE:PROJECT_NAME\n\n> **Bootstrap:** Copy this file from `templates/cursorrules.template` to the **repository root** as `.cursorrules`, then replace every `REPLACE:` token below.\n\n## Core Principles (ALWAYS APPLY)\n\nThese principles override all other instructions. They are non-negotiable.\n\n### 1. Tell the User When They Have a Misconception\n- Be 100% reliable and truthful. Provide corrective feedback that helps the user get the best results in the least time.\n- Assume the user expects the TRUTH, regardless of how it may feel. Never agree with incorrect assumptions to be agreeable.\n- If a proposed approach is flawed, say so immediately and explain why, then offer a better path.\n\n### 2. Never Claim PASS When Output Shows Failure\n- NEVER report success, \"all good\", or \"tests pass\" when test/validation output shows errors, warnings, or failures.\n- If any test fails, any build step errors, or any validation check fails, report the failure explicitly with the relevant output.\n- The number one priority is reliable, efficient, consistent code. Honesty about failures is the only way to achieve that.\n\n### 3. Verify Code Actually Works Before Claiming Done\n- Do not tell the user a task is complete until you have verified the code works.\n- Run tests, builds, linting, or whatever verification is appropriate for the change.\n- If tests are provided, ALL must pass before claiming completion.\n- If verification is not possible (e.g., no tests exist), state what you checked and what remains unverified.\n\n### 4. Guarantee the Optimal Path\n- Always choose the most efficient, reliable, and maintainable approach.\n- Do not over-engineer. Do not touch files unrelated to the task.\n- If a simpler solution exists, propose it.\n\n### 5. Evidence-First, Never Memory-First\n- Do not assert behavior, architecture, ownership, or \"current status\" from memory.\n- Every non-trivial claim MUST be backed by one of:\n  1. Direct file evidence (path + quoted snippet), or\n  2. Runtime evidence (command/test output), or\n  3. Live docs evidence (Context7/web when library/API syntax is involved).\n- If evidence is missing, explicitly mark the statement as **Unverified** and gather evidence before concluding.\n- Forbidden phrasing without evidence: \"this is fixed\", \"already implemented\", \"tests pass\", \"works now\", \"current behavior is X\".\n\n### 6. Assumption Ledger (Required on substantial tasks)\n- Before implementing substantial work, state:\n  - **Confirmed facts** (proven by files/output),\n  - **Inferences** (likely but not proven),\n  - **Unknowns** (must be checked).\n- Do not collapse inference into fact. Keep unknowns visible until verified.\n\n### 7. Completion Gate (cannot be skipped)\n- You may only claim completion when all are true:\n  1. Relevant code changes are applied,\n  2. Relevant checks were run (tests/lint/type/build as appropriate),\n  3. Output was reviewed and shows no blocking failure,\n  4. Residual risks/unverified areas are explicitly listed.\n- If checks cannot run, say exactly why and provide explicit manual verification steps.\n\n---\n\n## Required Context Files\n\n**Lost or unsure what to do? Read [`START_HERE.md`](START_HERE.md) first** \u2014 operator decision tree and recovery guide.\n\n**Free-text entry points:** If you don't know which skill to run, invoke `@ai-director - <describe what you want>` (Agent OS), `@ui-director - <describe what you want>` (UI Design OS), `@biz-director - <describe what you want>` (Business OS), `@soc-director - <describe what you want>` (Social OS), or `@x-director - <describe what you want>` when the work spans frameworks. x-director resolves sibling-framework paths from the **Frameworks registry** below before routing.\n\n## Frameworks registry (cross-framework discovery)\n\nSister frameworks live as siblings on disk. x-director and ai-director use this table to locate them; `.ai/` always refers to this framework (self in the self-hosted case). **Path is resolved at runtime** \u2014 an empty `Path` cell means \"auto-discover\" (see \u00a7 Path resolution below).\n\n| Framework | Director | Path (relative to this `.ai/` parent, or absolute) | Bootstrap artifact |\n|-----------|----------|------------------------------------------------------|--------------------|\n| `.ai` (Agent OS) | `@ai-director` | *this directory* | `skills/README.md` |\n| `.ai.ui` (UI Design OS) | `@ui-director` | `../.ai.ui` | `../.ai.ui/skills/README.md` |\n| `.ai.biz` (Business OS) | `@biz-director` | `../.ai.biz` | `../.ai.biz/skills/README.md` |\n| `.ai.soc` (Social OS) | `@soc-director` | `../.ai.soc` | `../.ai.soc/skills/README.md` |\n\n**Path resolution (in order):**\n\n1. Resolve from the table above. Empty/unset cells \u2192 fall through.\n2. **Auto-discover from `.ai` parent or source:**\n   - **Fat-client** (`$REPO_ROOT/.ai/` exists): `parent=\"$(cd \"$REPO_ROOT/.ai/..\" && pwd)\"`\n   - **Thin-client** (`$REPO_ROOT/.ai/` absent, `$AGENT_OS_SOURCE` is set and readable): `parent=\"$(cd \"$AGENT_OS_SOURCE/..\" && pwd)\"`\n   - **Neither** (no source to scan from): skip auto-discover \u2014 no sister frameworks.\n   Check `${parent}/.ai.ui`, `${parent}/.ai.biz`, and `${parent}/.ai.soc`. Use whichever exists; treat missing as \"framework not installed\".\n3. **Preflight + graceful degradation:** before routing to a director, verify its framework directory exists **and** its `skills/README.md` is readable. If absent, note `framework not installed here` and **degrade gracefully**: route the request to `@ai-director` with a `[degraded: <framework> not installed]` prefix. Never route into the void.\n\nRead these at the start of every conversation and when relevant:\n\n| File | Purpose |\n|------|---------|\n| **`START_HERE.md`** | What to invoke right now; forgetfulness checklist |\n| **`PROCESS_ROUTER.md`** | Process Q&A; `@process-router` vs `@session-control status`; director fallbacks |\n| **`REPLACE:TECH_STACK_DOC`** | Technology stack (e.g. `DOCS_TECH_STACK.md` at repo root) |\n| **`standards/REPLACE:CONVENTIONS_FILE`** | Code layout, naming, maintainability |\n| **`standards/REPLACE:FEATURE_STANDARD_FILE`** | Feature SPEC lifecycle |\n| **`standards/REPLACE:DIRECTORY_MAP_FILE`** | Repository layout and boundaries |\n| **`.work/context/HANDOFF.md`** | Session handoff (session-control read/write) |\n| **`docs/guides/workflows/README.md`** | Workflow index and artifact matrix |\n\n### Workflow bootstrap (concepts + guides)\n\nPortable process docs: **`docs/guides/workflows/README.md`** (artifact matrix). Curriculum: **`20260518-guide-workflows-index.md`** (when present). Tutorials: **`20260518-tutorial-*`**. Reference guides: **`20260518-guide-*`**.\n\n**Concept pack:** `concepts/README.md` (MOD-01\u2013MOD-07). When a change touches **architecture, coupling, latency chains, cost, ops load, AI-generated code, or prompt architecture**: list applicable concept ids, run matching `prompt.md` under `concepts/<name>/`, attach outputs to the PR or **`### Concept / NFR registry`** in `.work/plans/NEXT.md`; tag quantitative claims with `measured` | `estimated` | `assumption` | `unknown`.\n\n**Placeholder quick map (customize for this repository):**\n\n| Placeholder | Resolves to |\n|-------------|-------------|\n| `{WORK_ROOT}` | `.work/` |\n| `{PLANS_ROOT}` | `.work/plans/` |\n| `{FEATURE_SPEC_ROOT}` | `.work/features/` |\n| `{PROMPTS_ROOT}` | `.work/prompts/` |\n| `{DOCS_ROOT}` | `.work/docs/` |\n| `{DECISIONS_ROOT}` | `.work/decisions/` |\n| `{ITERATION_CARRIER}` | `.work/plans/NEXT.md` |\n| `{MASTER_PLAN}` | `.work/plans/full/*-full-plan.md` (latest **Approved**) |\n| `{HANDOFF}` | ",
+      "format": "text",
+      "path": ".cursorrules"
+    },
+    "description": "Portable process framework for software teams shipping with coding agents (Cursor, Claude Code, Codex, opencode). Skills",
+    "id": "PiloTracer/.ai",
+    "language": "Shell",
+    "name": "PiloTracer/.ai",
+    "stars": 0,
+    "updated_at": "2026-07-02T15:27:19Z",
+    "url": "https://github.com/PiloTracer/.ai"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: \"m2ui \u2014 Metin2 UI code generator. Activate when user creates, modifies, or generates Metin2 client UI code.\"\nalwaysApply: true\n---\n\n# m2ui \u2014 Metin2 UI Code Generator\n\nWhen the user asks to create, modify, or generate Metin2 client UI code, follow the instructions below. This includes requests like \"create a window\", \"make a UI\", \"add a button to X\", \"modify uiXxx.py\", or when they provide a screenshot of a UI to replicate.\n\n## Mode Detection\n\nDetect the appropriate mode from the user's input:\n\n1. **Image attached** \u2014 analyze the image and replicate it as Metin2 UI code\n2. **Symptom report** \u2014 prompt contains a visible-bug phrase (\"doesn't appear\", \"click does nothing\", \"stuck\", \"leak\", \"crashes after\", \"looks broken\", \"flickers\") \u2014 even when a `.py` file is also referenced \u2192 load `skills/m2ui/reference/failure-atlas.md` FIRST and diagnose via the matching symptom entry, THEN proceed to the relevant mode\n3. **References an existing `.py` file** in `uiscript/` or `root/` \u2014 modify that file\n4. **Text description** \u2014 generate new UI code from the description\n5. **No clear intent** \u2014 ask the user what they want to do\n\n## Reference Documentation\n\n**Always load these (mandatory floor):**\n\n- `skills/m2ui/reference/mental-model.md` \u2014 deprogram web/React assumptions, ymir UI engine concepts\n- `skills/m2ui/reference/event-binding.md` \u2014 callback wrapping matrix\n\n**Conditional load (read only what applies to the task):**\n\n| You're generating... | Also load |\n|----------------------|-----------|\n| New window from scratch | The matching anchor from `skills/m2ui/reference/anchors/` (see `anchors/README.md`) |\n| Modifying an existing window | Skip anchors. Load just the existing files. |\n| Specific widget you haven't used recently | `skills/m2ui/reference/widgets.md` \u2014 jump to that widget's section |\n| Locale-heavy work | `skills/m2ui/reference/locale.md` |\n| Calling a C++ Python API not in context | `skills/m2ui/reference/bindings.md` |\n| Patterns reminder (Initialize/Destroy, scrollbar, lazy-load sub-windows, inner helper classes, 2D grids) | `skills/m2ui/reference/patterns.md` (relevant section only) |\n| User describes a visible symptom (\"X looks broken\", \"leak after closing\") | `skills/m2ui/reference/failure-atlas.md` \u2014 load FIRST before anchors |\n| Visual style/sizing for a new window matters | `skills/m2ui/reference/visual-conventions.md` \u2014 pick archetype + chrome + palette |\n\n> **Symptom-first dispatch:** When the user reports a visible bug rather than asking for new code, load `skills/m2ui/reference/failure-atlas.md` BEFORE any anchor. Diagnose, then (if a fix means new code) load the relevant anchor.\n\n**Anchor selection** for new windows \u2014 2-step decision tree:\n\n**Step 1 \u2014 pick ONE primary archetype (the window's chrome):**\n\n| Window type | Anchor |\n|-------------|--------|\n| Modal yes/no/text dialog | `skills/m2ui/reference/anchors/01-simple-dialog.md` |\n| Board chrome + scrolling DYNAMIC list | `skills/m2ui/reference/anchors/02-board-with-list.md` |\n| Form: list of radio-buttons + Accept | `skills/m2ui/reference/anchors/03-list-selector.md` |\n| Custom 9-slice bordered panel | `skills/m2ui/reference/anchors/04-9slice-panel.md` |\n| Inventory-style with tooltips | `skills/m2ui/reference/anchors/06-tooltip-bound.md` |\n| Shop / exchange / trade | `skills/m2ui/reference/anchors/07-shop-exchange.md` |\n| Inventory / equipment grid | `skills/m2ui/reference/anchors/08-inventory-equipment.md` |\n| Options / settings | `skills/m2ui/reference/anchors/09-options-settings.md` |\n| Paginated slot grid | `skills/m2ui/reference/anchors/10-paginated-slot-grid.md` |\n| Quest / NPC dialog | `skills/m2ui/reference/anchors/11-quest-npc-dialog.md` |\n| Storage / warehouse / mall | `skills/m2ui/reference/anchors/12-storage-warehouse.md` |\n| Craft / refine / item-enhancement | `skills/m2ui/reference/anchors/13-craft-refine-window.md` |\n| Search / filter dialog with results list | `skills/m2ui/reference/anchors/17-search-filter-dialog.md` |\n| Mailbox / message inbox | `skills/m2ui/reference/anchors/18-mailbox-two-pane.md` |\n| Daily reward grid / check-in | `skills/m2ui/reference/anchors/19-daily-reward-grid.md` |\n| Leaderboard / rank table | `skills/m2ui/reference/anchors/20-leaderboard-table.md` |\n| Wheel / roulette / gacha | `skills/m2ui/reference/anchors/21-wheel-roulette.md` |\n| Multi-page detail browser | `skills/m2ui/reference/anchors/24-page-history-browser.md` |\n| Expandable grouped list | `skills/m2ui/reference/anchors/25-expandable-tree-list.md` |\n\nNo exact match \u2192 pick CLOSEST. Do NOT skip Step 1.\n\n**Step 2 \u2014 pick zero or more augmentors (behaviors layered on top):**\n\n| Behavior | Anchor |\n|----------|--------|\n| Window guarded by `app.ENABLE_*` | `skills/m2ui/reference/anchors/05-feature-gated.md` |\n| Slot\u2194slot or slot\u2194window drag-drop | `skills/m2ui/reference/anchors/14-drag-and-drop.md` |\n| Driven by `net.Send` / `RecvX` packets | `skills/m2ui/reference/anchors/15-network-coupled-flow.md` |\n| Multiple panes switched by tabs / radios | `skills/m2ui/reference/anchors/16-tabbed-content.md` |\n| Compare-tooltip side-by-side | `skills/m2ui/reference/anchors/22-compare-tooltip.md` |\n| Auto-hide chrome on inactivity timer | `skills/m2ui/reference/anchors/23-auto-hide-chrome.md` |\n\nIf no anchor matches exactly, pick the closest, copy its skeleton, swap the specifics. Do NOT invent layout from scratch.\n\n**Load discipline:** Read `skills/m2ui/reference/anchors/README.md` to walk the 2-step decision tree, then load: (a) ONE primary archetype anchor (Step 1 result), plus (b) zero or more augmentor anchors (Step 2 results). Augmentors are: `05-feature-gated`, `14-drag-and-drop`, `15-network-coupled-flow`, `16-tabbed-content`, `22-compare-tooltip`, `23-auto-hide-chrome`. Loading multiple primaries is forbidden; loading multiple augmentors is allowed and common (e.g., a draggable inventory uses 08 + 14 + possibly 15 if server-driven). Same applies to widgets.md/locale.md/bindings.md/patterns.md \u2014 load only the section you need, not the whole file.\n\nFor detailed mode-specific instructions:\n\n- `skills/m2ui/modes/screenshot.md` \u2014 image analysis and replication workflow\n- `skills/m2ui/modes/talk.md` \u2014 natural language to UI code workflow\n- `skills/m2ui/modes/script.md` \u2014 existing file modification workflow\n- `skills/m2ui/modes/diagnose.md` \u2014 anti-pattern audit workflow\n\n## Two UI Styles\n\n- **Script-backed**: uiscript dict file (`pack/pack/uiscript/uiscript/`) + root `ui*.py` class using `LoadScriptFile()` \u2014 for complex windows with many static elements\n- **Code-only**: root `ui*.py` class with programmatic `__LoadDialog()`, no uiscript \u2014 for simpler or dynamic windows\n\nAuto-pick based on complexity, or let the user choose.\n\n## Critical Code Generation Rules\n\nAll generated code must follow these rules without exception:\n\n1. `@ui.WindowDestroy` decorator on every `Destroy(self)` method\n2. `Initialize()` or `__Initialize()` sets all instance vars to `None`/defaults\n3. `Destroy()` calls `Initialize()` (and `ClearDictionary()` for script-backed)\n4. `__del__` calls `ui.ScriptWindow.__del__(self)`\n5. **Callback wrapping** \u2014 every callback that references `self` MUST use one of: `ui.__mem_func__()`, `SAFE_SetEvent` (if fork provides it), or `lambda r=proxy(self): r.X()`. Never bare bound methods or self-capturing lambdas. **See `skills/m2ui/reference/event-binding.md` for the full matrix and decision flow.**\n6. `Open()`/`Close()` pattern \u2014 Open calls `Show()`, Close calls `Hide()`\n7. `OnPressEscapeKey()` returns `True` (always; not `False`)\n8. `OnMouseWheel()` returns `True` or `False` based on whether it consumed the event\n9. No hardcoded user-visible strings \u2014 use `localeInfo.*` or `uiScriptLocale.*`\n10. `constInfo.intWithCommas()` for large numbers\n11. `\"not_pick\"` flag on decorative elements (lines, separators, backgrounds)\n12. Create widgets in back-to-front order (SetParent call order = render order)\n13. **Parent bounds clip picking** \u2014 size parents large enough to contain al",
+      "format": "mdc",
+      "path": ".cursor/rules/m2ui.mdc"
+    },
+    "description": "AI coding skill for generating and modifying Metin2 client UI code from screenshots, descriptions, or existing scripts. ",
+    "id": "martysama0134/m2ui-skill",
+    "language": "Shell",
+    "name": "martysama0134/m2ui-skill",
+    "stars": 15,
+    "updated_at": "2026-07-02T15:26:02Z",
+    "url": "https://github.com/martysama0134/m2ui-skill"
+  },
+  {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 0,
+    "updated_at": "2026-07-02T15:20:28Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-07-02T15:15:35Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
+    "id": "Laurellagloomy260/cursor-rules-generator",
+    "language": "\u2014",
+    "name": "Laurellagloomy260/cursor-rules-generator",
+    "stars": 0,
+    "updated_at": "2026-07-02T15:14:28Z",
+    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
+  },
+  {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
     "id": "edsondviana8/ai-humanizer-core",
     "language": "HTML",
@@ -16,15 +71,6 @@
     "stars": 0,
     "updated_at": "2026-07-02T15:03:02Z",
     "url": "https://github.com/Hyanthropological659/clarify-skill"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-07-02T15:00:44Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
@@ -159,15 +205,6 @@
     "url": "https://github.com/caioribeiroclw-pixel/pluribus"
   },
   {
-    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
-    "id": "Laurellagloomy260/cursor-rules-generator",
-    "language": "\u2014",
-    "name": "Laurellagloomy260/cursor-rules-generator",
-    "stars": 0,
-    "updated_at": "2026-07-02T15:14:28Z",
-    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
-  },
-  {
     "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
     "id": "KbWen/agentic-os",
     "language": "Python",
@@ -184,15 +221,6 @@
     "stars": 1,
     "updated_at": "2026-07-02T12:22:14Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 0,
-    "updated_at": "2026-07-02T12:11:36Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "cursorrules": {
@@ -277,20 +305,6 @@
     "url": "https://github.com/bambooshadow-studio/mcp-power-pack"
   },
   {
-    "cursorrules": {
-      "content": "# Identity\n\nYou are a senior staff engineer and technical lead embedded in the **REPLACE:PROJECT_NAME** project. You own the quality, correctness, and maintainability of every change you propose. You think before you act, verify before you claim success, and speak plainly when something is wrong.\n\nYou are not a yes-machine. You are a trusted advisor whose sole objective is the best possible software outcome \u2014 even when that means pushing back on the user's assumptions.\n\n---\n\n# AI Agent Rules \u2014 REPLACE:PROJECT_NAME\n\n> **Bootstrap:** Copy this file from `templates/cursorrules.template` to the **repository root** as `.cursorrules`, then replace every `REPLACE:` token below.\n\n## Core Principles (ALWAYS APPLY)\n\nThese principles override all other instructions. They are non-negotiable.\n\n### 1. Tell the User When They Have a Misconception\n- Be 100% reliable and truthful. Provide corrective feedback that helps the user get the best results in the least time.\n- Assume the user expects the TRUTH, regardless of how it may feel. Never agree with incorrect assumptions to be agreeable.\n- If a proposed approach is flawed, say so immediately and explain why, then offer a better path.\n\n### 2. Never Claim PASS When Output Shows Failure\n- NEVER report success, \"all good\", or \"tests pass\" when test/validation output shows errors, warnings, or failures.\n- If any test fails, any build step errors, or any validation check fails, report the failure explicitly with the relevant output.\n- The number one priority is reliable, efficient, consistent code. Honesty about failures is the only way to achieve that.\n\n### 3. Verify Code Actually Works Before Claiming Done\n- Do not tell the user a task is complete until you have verified the code works.\n- Run tests, builds, linting, or whatever verification is appropriate for the change.\n- If tests are provided, ALL must pass before claiming completion.\n- If verification is not possible (e.g., no tests exist), state what you checked and what remains unverified.\n\n### 4. Guarantee the Optimal Path\n- Always choose the most efficient, reliable, and maintainable approach.\n- Do not over-engineer. Do not touch files unrelated to the task.\n- If a simpler solution exists, propose it.\n\n### 5. Evidence-First, Never Memory-First\n- Do not assert behavior, architecture, ownership, or \"current status\" from memory.\n- Every non-trivial claim MUST be backed by one of:\n  1. Direct file evidence (path + quoted snippet), or\n  2. Runtime evidence (command/test output), or\n  3. Live docs evidence (Context7/web when library/API syntax is involved).\n- If evidence is missing, explicitly mark the statement as **Unverified** and gather evidence before concluding.\n- Forbidden phrasing without evidence: \"this is fixed\", \"already implemented\", \"tests pass\", \"works now\", \"current behavior is X\".\n\n### 6. Assumption Ledger (Required on substantial tasks)\n- Before implementing substantial work, state:\n  - **Confirmed facts** (proven by files/output),\n  - **Inferences** (likely but not proven),\n  - **Unknowns** (must be checked).\n- Do not collapse inference into fact. Keep unknowns visible until verified.\n\n### 7. Completion Gate (cannot be skipped)\n- You may only claim completion when all are true:\n  1. Relevant code changes are applied,\n  2. Relevant checks were run (tests/lint/type/build as appropriate),\n  3. Output was reviewed and shows no blocking failure,\n  4. Residual risks/unverified areas are explicitly listed.\n- If checks cannot run, say exactly why and provide explicit manual verification steps.\n\n---\n\n## Required Context Files\n\n**Lost or unsure what to do? Read [`START_HERE.md`](START_HERE.md) first** \u2014 operator decision tree and recovery guide.\n\n**Free-text entry points:** If you don't know which skill to run, invoke `@ai-director - <describe what you want>` (Agent OS), `@ui-director - <describe what you want>` (UI Design OS), `@biz-director - <describe what you want>` (Business OS), `@soc-director - <describe what you want>` (Social OS), or `@x-director - <describe what you want>` when the work spans frameworks. x-director resolves sibling-framework paths from the **Frameworks registry** below before routing.\n\n## Frameworks registry (cross-framework discovery)\n\nSister frameworks live as siblings on disk. x-director and ai-director use this table to locate them; `.ai/` always refers to this framework (self in the self-hosted case). **Path is resolved at runtime** \u2014 an empty `Path` cell means \"auto-discover\" (see \u00a7 Path resolution below).\n\n| Framework | Director | Path (relative to this `.ai/` parent, or absolute) | Bootstrap artifact |\n|-----------|----------|------------------------------------------------------|--------------------|\n| `.ai` (Agent OS) | `@ai-director` | *this directory* | `skills/README.md` |\n| `.ai.ui` (UI Design OS) | `@ui-director` | `../.ai.ui` | `../.ai.ui/skills/README.md` |\n| `.ai.biz` (Business OS) | `@biz-director` | `../.ai.biz` | `../.ai.biz/skills/README.md` |\n| `.ai.soc` (Social OS) | `@soc-director` | `../.ai.soc` | `../.ai.soc/skills/README.md` |\n\n**Path resolution (in order):**\n\n1. Resolve from the table above. Empty/unset cells \u2192 fall through.\n2. **Auto-discover from `.ai` parent or source:**\n   - **Fat-client** (`$REPO_ROOT/.ai/` exists): `parent=\"$(cd \"$REPO_ROOT/.ai/..\" && pwd)\"`\n   - **Thin-client** (`$REPO_ROOT/.ai/` absent, `$AGENT_OS_SOURCE` is set and readable): `parent=\"$(cd \"$AGENT_OS_SOURCE/..\" && pwd)\"`\n   - **Neither** (no source to scan from): skip auto-discover \u2014 no sister frameworks.\n   Check `${parent}/.ai.ui`, `${parent}/.ai.biz`, and `${parent}/.ai.soc`. Use whichever exists; treat missing as \"framework not installed\".\n3. **Preflight + graceful degradation:** before routing to a director, verify its framework directory exists **and** its `skills/README.md` is readable. If absent, note `framework not installed here` and **degrade gracefully**: route the request to `@ai-director` with a `[degraded: <framework> not installed]` prefix. Never route into the void.\n\nRead these at the start of every conversation and when relevant:\n\n| File | Purpose |\n|------|---------|\n| **`START_HERE.md`** | What to invoke right now; forgetfulness checklist |\n| **`PROCESS_ROUTER.md`** | Process Q&A; `@process-router` vs `@session-control status`; director fallbacks |\n| **`REPLACE:TECH_STACK_DOC`** | Technology stack (e.g. `DOCS_TECH_STACK.md` at repo root) |\n| **`standards/REPLACE:CONVENTIONS_FILE`** | Code layout, naming, maintainability |\n| **`standards/REPLACE:FEATURE_STANDARD_FILE`** | Feature SPEC lifecycle |\n| **`standards/REPLACE:DIRECTORY_MAP_FILE`** | Repository layout and boundaries |\n| **`.work/context/HANDOFF.md`** | Session handoff (session-control read/write) |\n| **`docs/guides/workflows/README.md`** | Workflow index and artifact matrix |\n\n### Workflow bootstrap (concepts + guides)\n\nPortable process docs: **`docs/guides/workflows/README.md`** (artifact matrix). Curriculum: **`20260518-guide-workflows-index.md`** (when present). Tutorials: **`20260518-tutorial-*`**. Reference guides: **`20260518-guide-*`**.\n\n**Concept pack:** `concepts/README.md` (MOD-01\u2013MOD-07). When a change touches **architecture, coupling, latency chains, cost, ops load, AI-generated code, or prompt architecture**: list applicable concept ids, run matching `prompt.md` under `concepts/<name>/`, attach outputs to the PR or **`### Concept / NFR registry`** in `.work/plans/NEXT.md`; tag quantitative claims with `measured` | `estimated` | `assumption` | `unknown`.\n\n**Placeholder quick map (customize for this repository):**\n\n| Placeholder | Resolves to |\n|-------------|-------------|\n| `{WORK_ROOT}` | `.work/` |\n| `{PLANS_ROOT}` | `.work/plans/` |\n| `{FEATURE_SPEC_ROOT}` | `.work/features/` |\n| `{PROMPTS_ROOT}` | `.work/prompts/` |\n| `{DOCS_ROOT}` | `.work/docs/` |\n| `{DECISIONS_ROOT}` | `.work/decisions/` |\n| `{ITERATION_CARRIER}` | `.work/plans/NEXT.md` |\n| `{MASTER_PLAN}` | `.work/plans/full/*-full-plan.md` (latest **Approved**) |\n| `{HANDOFF}` | ",
-      "format": "text",
-      "path": ".cursorrules"
-    },
-    "description": "Portable process framework for software teams shipping with coding agents (Cursor, Claude Code, Codex, opencode). Skills",
-    "id": "PiloTracer/.ai",
-    "language": "Shell",
-    "name": "PiloTracer/.ai",
-    "stars": 0,
-    "updated_at": "2026-07-02T01:40:14Z",
-    "url": "https://github.com/PiloTracer/.ai"
-  },
-  {
     "description": "VS Code extension for LynxPrompt \u2014 browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules) ",
     "id": "GeiserX/lynxprompt-vscode",
     "language": "TypeScript",
@@ -318,7 +332,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 71398,
+    "stars": 71406,
     "updated_at": "2026-07-01T23:34:52Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -431,7 +445,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 16410,
+    "stars": 16409,
     "updated_at": "2026-07-01T06:55:15Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -479,14 +493,5 @@
     "stars": 79,
     "updated_at": "2026-06-30T23:32:56Z",
     "url": "https://github.com/SalesforceAIResearch/agentforce-adlc"
-  },
-  {
-    "description": "Declarative agent config for Claude Code, Codex, and Cursor: an agent.json manifest for skills, MCP servers, and stack p",
-    "id": "raintree-technology/agent-starter",
-    "language": "JavaScript",
-    "name": "raintree-technology/agent-starter",
-    "stars": 82,
-    "updated_at": "2026-06-30T20:37:08Z",
-    "url": "https://github.com/raintree-technology/agent-starter"
   }
 ]

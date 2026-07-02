@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<title>martysama0134/m2ui-skill - entry on Cursor Rules Live</title>
+<meta name="description" content="AI coding skill for generating and modifying Metin2 client UI code from screenshots, descriptions, or existing scripts.">
+<link rel="canonical" href="https://linny006.github.io/cursor-rules-live/r/martysama0134/m2ui-skill/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="martysama0134/m2ui-skill - entry on Cursor Rules Live">
+<meta property="og:description" content="AI coding skill for generating and modifying Metin2 client UI code from screenshots, descriptions, or existing scripts.">
+<meta property="og:url" content="https://linny006.github.io/cursor-rules-live/r/martysama0134/m2ui-skill/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="martysama0134/m2ui-skill - entry on Cursor Rules Live">
+<meta name="twitter:description" content="AI coding skill for generating and modifying Metin2 client UI code from screenshots, descriptions, or existing scripts.">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"martysama0134/m2ui-skill","codeRepository":"https://github.com/martysama0134/m2ui-skill","programmingLanguage":"Shell","url":"https://linny006.github.io/cursor-rules-live/r/martysama0134/m2ui-skill/","description":"AI coding skill for generating and modifying Metin2 client UI code from screenshots, descriptions, or existing scripts.","author":{"@type":"Person","name":"martysama0134","url":"https://github.com/martysama0134"},"dateModified":"2026-07-02"}</script>
+<style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
+         --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 16px; font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--fg); background: var(--bg); }
+.wrap { max-width: var(--max); margin: 0 auto; }
+nav.bc { font-size: 14px; color: var(--muted); margin-bottom: 16px; }
+nav.bc a { color: var(--muted); }
+h1 { font-size: 28px; margin: 0 0 8px; }
+h2 { font-size: 20px; margin: 24px 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+p.lead { font-size: 18px; color: var(--muted); margin: 0 0 24px; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+th, td { padding: 8px 12px; text-align: left; border-bottom: 1px solid var(--border); }
+th { background: var(--card); font-weight: 600; }
+ul.crosslinks { list-style: none; padding: 0; }
+ul.crosslinks li { padding: 6px 0; }
+ul.crosslinks li a { font-weight: 500; }
+.meta { display: flex; gap: 16px; flex-wrap: wrap; color: var(--muted); font-size: 14px; margin: 12px 0; }
+.meta span::before { content: "\00b7"; margin-right: 8px; color: var(--border); }
+.meta span:first-child::before { content: ""; }
+footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--border); font-size: 14px; color: var(--muted); }</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="bc"><a href="https://linny006.github.io/cursor-rules-live/">Cursor Rules Live</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/popular/">Entries</a> &#183; <span>martysama0134/m2ui-skill</span></nav>
+<main>
+<h1>martysama0134/m2ui-skill</h1>
+<p class="lead">AI coding skill for generating and modifying Metin2 client UI code from screenshots, descriptions, or existing scripts.</p>
+<div class="meta">
+<span><strong>Stars</strong> 15</span>
+<span><strong>Language</strong> Shell</span>
+<span><strong>Last updated</strong> 2026-07-02</span>
+<span><a href="https://github.com/martysama0134/m2ui-skill" rel="external">Source on GitHub</a></span>
+<span><a href="https://github.com/martysama0134" rel="external">@martysama0134</a></span>
+</div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/m2ui.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
+description: &quot;m2ui — Metin2 UI code generator. Activate when user creates, modifies, or generates Metin2 client UI code.&quot;
+alwaysApply: true
+---
+
+# m2ui — Metin2 UI Code Generator
+
+When the user asks to create, modify, or generate Metin2 client UI code, follow the instructions below. This includes requests like &quot;create a window&quot;, &quot;make a UI&quot;, &quot;add a button to X&quot;, &quot;modify uiXxx.py&quot;, or when they provide a screenshot of a UI to replicate.
+
+## Mode Detection
+
+Detect the appropriate mode from the user&#x27;s input:
+
+1. **Image attached** — analyze the image and replicate it as Metin2 UI code
+2. **Symptom report** — prompt contains a visible-bug phrase (&quot;doesn&#x27;t appear&quot;, &quot;click does nothing&quot;, &quot;stuck&quot;, &quot;leak&quot;, &quot;crashes after&quot;, &quot;looks broken&quot;, &quot;flickers&quot;) — even when a `.py` file is also referenced → load `skills/m2ui/reference/failure-atlas.md` FIRST and diagnose via the matching symptom entry, THEN proceed to the relevant mode
+3. **References an existing `.py` file** in `uiscript/` or `root/` — modify that file
+4. **Text description** — generate new UI code from the description
+5. **No clear intent** — ask the user what they want to do
+
+## Reference Documentation
+
+**Always load these (mandatory floor):**
+
+- `skills/m2ui/reference/mental-model.md` — deprogram web/React assumptions, ymir UI engine concepts
+- `skills/m2ui/reference/event-binding.md` — callback wrapping matrix
+
+**Conditional load (read only what applies to the task):**
+
+| You&#x27;re generating... | Also load |
+|----------------------|-----------|
+| New window from scratch | The matching anchor from `skills/m2ui/reference/anchors/` (see `anchors/README.md`) |
+| Modifying an existing window | Skip anchors. Load just the existing files. |
+| Specific widget you haven&#x27;t used recently | `skills/m2ui/reference/widgets.md` — jump to that widget&#x27;s section |
+| Locale-heavy work | `skills/m2ui/reference/locale.md` |
+| Calling a C++ Python API not in context | `skills/m2ui/reference/bindings.md` |
+| Patterns reminder (Initialize/Destroy, scrollbar, lazy-load sub-windows, inner helper classes, 2D grids) | `skills/m2ui/reference/patterns.md` (relevant section only) |
+| User describes a visible symptom (&quot;X looks broken&quot;, &quot;leak after closing&quot;) | `skills/m2ui/reference/failure-atlas.md` — load FIRST before anchors |
+| Visual style/sizing for a new window matters | `skills/m2ui/reference/visual-conventions.md` — pick archetype + chrome + palette |
+
+&gt; **Symptom-first dispatch:** When the user reports a visible bug rather than asking for new code, load `skills/m2ui/reference/failure-atlas.md` BEFORE any anchor. Diagnose, then (if a fix means new code) load the relevant anchor.
+
+**Anchor selection** for new windows — 2-step decision tree:
+
+**Step 1 — pick ONE primary archetype (the window&#x27;s chrome):**
+
+| Window type | Anchor |
+|-------------|--------|
+| Modal yes/no/text dialog | `skills/m2ui/reference/anchors/01-simple-dialog.md` |
+| Board chrome + scrolling DYNAMIC list | `skills/m2ui/reference/anchors/02-board-with-list.md` |
+| Form: list of radio-buttons + Accept | `skills/m2ui/reference/anchors/03-list-selector.md` |
+| Custom 9-slice bordered panel | `skills/m2ui/reference/anchors/04-9slice-panel.md` |
+| Inventory-style with tooltips | `skills/m2ui/reference/anchors/06-tooltip-bound.md` |
+| Shop / exchange / trade | `skills/m2ui/reference/anchors/07-shop-exchange.md` |
+| Inventory / equipment grid | `skills/m2ui/reference/anchors/08-inventory-equipment.md` |
+| Options / settings | `skills/m2ui/reference/anchors/09-options-settings.md` |
+| Paginated slot grid | `skills/m2ui/reference/anchors/10-paginated-slot-grid.md` |
+| Quest / NPC dialog | `skills/m2ui/reference/anchors/11-quest-npc-dialog.md` |
+| Storage / warehouse / mall | `skills/m2ui/reference/anchors/12-storage-warehouse.md` |
+| Craft / refine / item-enhancement | `skills/m2ui/reference/anchors/13-craft-refine-window.md` |
+| Search / filter dialog with results list | `skills/m2ui/reference/anchors/17-search-filter-dialog.md` |
+| Mailbox / message inbox | `skills/m2ui/reference/anchors/18-mailbox-two-pane.md` |
+| Daily reward grid / check-in | `skills/m2ui/reference/anchors/19-daily-reward-grid.md` |
+| Leaderboard / rank table | `skills/m2ui/reference/anchors/20-leaderboard-table.md` |
+| Wheel / roulette / gacha | `skills/m2ui/reference/anchors/21-wheel-roulette.md` |
+| Multi-page detail browser | `skills/m2ui/reference/anchors/24-page-history-browser.md` |
+| Expandable grouped list | `skills/m2ui/reference/anchors/25-expandable-tree-list.md` |
+
+No exact match → pick CLOSEST. Do NOT skip Step 1.
+
+**Step 2 — pick zero or more augmentors (behaviors layered on top):**
+
+| Behavior | Anchor |
+|----------|--------|
+| Window guarded by `app.ENABLE_*` | `skills/m2ui/reference/anchors/05-feature-gated.md` |
+| Slot↔slot or slot↔window drag-drop | `skills/m2ui/reference/anchors/14-drag-and-drop.md` |
+| Driven by `net.Send` / `RecvX` packets | `skills/m2ui/reference/anchors/15-network-coupled-flow.md` |
+| Multiple panes switched by tabs / radios | `skills/m2ui/reference/anchors/16-tabbed-content.md` |
+| Compare-tooltip side-by-side | `skills/m2ui/reference/anchors/22-compare-tooltip.md` |
+| Auto-hide chrome on inactivity timer | `skills/m2ui/reference/anchors/23-auto-hide-chrome.md` |
+
+If no anchor matches exactly, pick the closest, copy its skeleton, swap the specifics. Do NOT invent layout from scratch.
+
+**Load discipline:** Read `skills/m2ui/reference/anchors/README.md` to walk the 2-step decision tree, then load: (a) ONE primary archetype anchor (Step 1 result), plus (b) zero or more augmentor anchors (Step 2 results). Augmentors are: `05-feature-gated`, `14-drag-and-drop`, `15-network-coupled-flow`, `16-tabbed-content`, `22-compare-tooltip`, `23-auto-hide-chrome`. Loading multiple primaries is forbidden; loading multiple augmentors is allowed and common (e.g., a draggable inventory uses 08 + 14 + possibly 15 if server-driven). Same applies to widgets.md/locale.md/bindings.md/patterns.md — load only th</code></pre>
+<p><em>Content truncated. View full file in the source repo (linked above).</em></p><p><a href="https://github.com/martysama0134/m2ui-skill/blob/HEAD/.cursor/rules/m2ui.mdc" rel="external">View raw on GitHub</a></p>
+</section>
+<section><h2>Why this is listed</h2>
+<p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
+<section><h2>Similar in this tracker</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/r/jnMetaCode/agency-agents-zh/">jnMetaCode/agency-agents-zh (stars:16409)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/">danielvm-git/bigpowers (stars:16)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/Luxvil/ai-coding-rules/">Luxvil/ai-coding-rules (stars:3)</a></li>
+</ul></section>
+<section><h2>Explore by category</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/popular/">Popular (by stars)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/recent/">Recent (by activity)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/new/">New this week</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/lang/shell/">All Shell entries</a></li>
+</ul></section>
+</main>
+<footer>
+Auto-updated every 15 minutes via GitHub Actions &#183; <a href="https://linny006.github.io/cursor-rules-live/">tracker root</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/sitemap.xml">sitemap</a>
+</footer>
+</div>
+</body>
+</html>
