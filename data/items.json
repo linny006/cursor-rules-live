@@ -10,8 +10,17 @@
     "language": "\u2014",
     "name": "L4pisLazuli/cursor_obsidian_vault",
     "stars": 0,
-    "updated_at": "2026-07-03T09:30:02Z",
+    "updated_at": "2026-07-03T09:39:33Z",
     "url": "https://github.com/L4pisLazuli/cursor_obsidian_vault"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-07-03T09:30:34Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
@@ -21,15 +30,6 @@
     "stars": 16,
     "updated_at": "2026-07-03T09:25:59Z",
     "url": "https://github.com/mikeprasad/aria-knowledge"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-07-03T09:15:31Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -382,7 +382,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 72259,
+    "stars": 72289,
     "updated_at": "2026-07-01T23:34:52Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
