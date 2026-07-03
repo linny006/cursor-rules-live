@@ -1,11 +1,29 @@
 [
   {
+    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
+    "id": "Amirun99/agency-orchestrator",
+    "language": "Dart",
+    "name": "Amirun99/agency-orchestrator",
+    "stars": 0,
+    "updated_at": "2026-07-03T05:43:12Z",
+    "url": "https://github.com/Amirun99/agency-orchestrator"
+  },
+  {
+    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
+    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "language": "\u2014",
+    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "stars": 2,
+    "updated_at": "2026-07-03T05:42:21Z",
+    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-07-03T05:27:12Z",
+    "updated_at": "2026-07-03T05:30:43Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -121,24 +139,6 @@
     "stars": 2,
     "updated_at": "2026-07-03T02:44:45Z",
     "url": "https://github.com/XAKLESK/cre-agent-skills"
-  },
-  {
-    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
-    "id": "Amirun99/agency-orchestrator",
-    "language": "Dart",
-    "name": "Amirun99/agency-orchestrator",
-    "stars": 0,
-    "updated_at": "2026-07-03T02:38:33Z",
-    "url": "https://github.com/Amirun99/agency-orchestrator"
-  },
-  {
-    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
-    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "language": "\u2014",
-    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "stars": 2,
-    "updated_at": "2026-07-03T02:37:46Z",
-    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
   },
   {
     "description": "\u5168\u7403\u9152\u5e97\u5b9e\u65f6\u63a8\u8350\u53ca\u95ed\u73af\u9884\u8ba2Skill\uff0c200 \u4e07+\u9152\u5e97\uff0c\u5168\u7403\u7b2c\u4e09\u5927\u9152\u65c5B2B\u516c\u53f8\u6570\u636e\u6e90\uff0c\u514d\u8d39\u65e0\u8c03\u7528\u4e0a\u9650\u3002\u53ef\u6309\u5730\u70b9\u3001\u65e5\u671f\u3001\u661f\u7ea7\u3001\u4eba\u6570\u3001\u6807\u7b7e\u7b49\u6761\u4ef6\u641c\u7d22\u9152\u5e97\u5217\u8868\uff0c\u8fd4\u56de\u5019\u9009\u9152\u5e97\u53ca\u5c55\u793a\u4ef7\u3002\u53ef\u67e5\u8be2\u6307\u5b9a\u9152\u5e97\u7684\u5b9e\u65f6\u623f\u578b\u5217\u8868\u3001\u4ef7\u683c\u8ba1\u5212\u548c\u53d6\u6d88\u653f\u7b56\u3002\u53ef\u9501\u5b9a\u4ef7\u683c\uff0c",
@@ -359,7 +359,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 71963,
+    "stars": 71980,
     "updated_at": "2026-07-01T23:34:52Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -463,7 +463,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 16456,
+    "stars": 16459,
     "updated_at": "2026-07-01T06:55:15Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
