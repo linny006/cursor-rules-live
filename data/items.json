@@ -1,5 +1,23 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-07-03T09:49:37Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-07-03T09:45:48Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: \u6a2a\u65ad\u5206\u6790\u30ce\u30fc\u30c8\uff08analysis\uff09\u306e\u4f5c\u6210\u30fb\u7de8\u96c6\u30eb\u30fc\u30eb\nglobs: analysis/**/*.md\nalwaysApply: false\n---\n\n# Analysis Workflow\n\n`analysis/` \u306f `chats/persistent/` \u306e\u6a2a\u65ad\u5206\u6790\u30fb\u8981\u7d04\u30fb\u6bd4\u8f03\u7d50\u679c\u3092\u683c\u7d0d\u3059\u308b\u3002\n\n## \u65b0\u898f\u5206\u6790\u306e\u624b\u9806\n\n1. `chats/persistent/` \u5185\u3092\u30c8\u30d4\u30c3\u30af\u30fb\u30bf\u30b0\u30fb`related` \u3067\u691c\u7d22\n2. `analysis/YYYY-MM-DD-analysis-\u30c8\u30d4\u30c3\u30af.md` \u3092\u65b0\u898f\u4f5c\u6210\n3. \u53c2\u7167\u5143\u30ce\u30fc\u30c8\u3092 `related` \u306b\u5217\u6319\n4. `tags` \u306b `analysis` + \u5206\u6790\u30c8\u30d4\u30c3\u30af\u30bf\u30b0\u3092\u4ed8\u4e0e\n\n## frontmatter \u5fc5\u9808\u5024\n\n- `tags`: `analysis` \u3092\u542b\u3080\n- `related`: \u53c2\u7167\u3057\u305f persistent \u30ce\u30fc\u30c8\u306e\u30d1\u30b9\u4e00\u89a7\n- `sources_updated`: \u53c2\u7167\u5143\u30ce\u30fc\u30c8\u306e `updated` \u3092\u78ba\u8a8d\u3057\u305f\u6700\u7d42\u65e5\uff08`YYYY-MM-DD`\uff09\u3002\u5206\u6790\u306e\u9bae\u5ea6\u7ba1\u7406\u7528\n\n## \u9bae\u5ea6\u7ba1\u7406\n\n- \u65e2\u5b58 analysis \u3092\u7de8\u96c6\u3059\u308b\u524d\u306b\u3001`related` \u5148\u306e `updated` \u3068\u81ea\u8eab\u306e `sources_updated` \u3092\u6bd4\u8f03\u3059\u308b\n- \u53c2\u7167\u5143\u304c\u66f4\u65b0\u3055\u308c\u3066\u3044\u305f\u3089\u5206\u6790\u672c\u6587\u3092\u898b\u76f4\u3057\u3001`sources_updated` \u3092\u5f53\u65e5\u306b\u66f4\u65b0\u3059\u308b\n- \u53c2\u7167\u5143\u306e\u5909\u66f4\u304c\u8efd\u5fae\u3067\u5206\u6790\u306b\u5f71\u97ff\u3057\u306a\u3044\u5834\u5408\u306f\u3001`sources_updated` \u306e\u307f\u66f4\u65b0\u3057\u3066\u3088\u3044\n\n## \u30ce\u30fc\u30c8\u69cb\u6210\n\n- `## \u5206\u6790\u5bfe\u8c61` \u2014 \u4f55\u3092\u5206\u6790\u3057\u305f\u304b\n- `## \u8981\u7d04` \u2014 \u6a2a\u65ad\u7684\u306a\u8981\u7d04\n- `## \u6d1e\u5bdf` \u2014 \u767a\u898b\u30fb\u30d1\u30bf\u30fc\u30f3\n- `## \u672a\u89e3\u6c7a\u4e8b\u9805` \u2014 \u6b8b\u8ab2\u984c\n- `## \u53c2\u7167\u5143` \u2014 wikilink \u3067\u5143\u30ce\u30fc\u30c8\u3078\u30ea\u30f3\u30af\n\n\u30c6\u30f3\u30d7\u30ec\u30fc\u30c8\u53c2\u7167: `templates/analysis.md`\n",
       "format": "mdc",
@@ -12,15 +30,6 @@
     "stars": 0,
     "updated_at": "2026-07-03T09:39:33Z",
     "url": "https://github.com/L4pisLazuli/cursor_obsidian_vault"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-07-03T09:30:34Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
@@ -166,15 +175,6 @@
     "stars": 0,
     "updated_at": "2026-07-03T07:27:14Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 0,
-    "updated_at": "2026-07-03T06:21:28Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "cursorrules": {
@@ -382,7 +382,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 72289,
+    "stars": 72313,
     "updated_at": "2026-07-01T23:34:52Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -486,7 +486,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 16488,
+    "stars": 16491,
     "updated_at": "2026-07-01T06:55:15Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
