@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<title>L4pisLazuli/cursor_obsidian_vault - entry on Cursor Rules Live</title>
+<meta name="description" content="Template Obsidian vault wired for Cursor agents — glob-scoped rules, temp→persistent→analysis workflow, Git conventions.">
+<link rel="canonical" href="https://linny006.github.io/cursor-rules-live/r/L4pisLazuli/cursor_obsidian_vault/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="L4pisLazuli/cursor_obsidian_vault - entry on Cursor Rules Live">
+<meta property="og:description" content="Template Obsidian vault wired for Cursor agents — glob-scoped rules, temp→persistent→analysis workflow, Git conventions.">
+<meta property="og:url" content="https://linny006.github.io/cursor-rules-live/r/L4pisLazuli/cursor_obsidian_vault/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="L4pisLazuli/cursor_obsidian_vault - entry on Cursor Rules Live">
+<meta name="twitter:description" content="Template Obsidian vault wired for Cursor agents — glob-scoped rules, temp→persistent→analysis workflow, Git conventions.">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"L4pisLazuli/cursor_obsidian_vault","codeRepository":"https://github.com/L4pisLazuli/cursor_obsidian_vault","programmingLanguage":"—","url":"https://linny006.github.io/cursor-rules-live/r/L4pisLazuli/cursor_obsidian_vault/","description":"Template Obsidian vault wired for Cursor agents — glob-scoped rules, temp→persistent→analysis workflow, Git conventions.","author":{"@type":"Person","name":"L4pisLazuli","url":"https://github.com/L4pisLazuli"},"dateModified":"2026-07-03"}</script>
+<style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
+         --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 16px; font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--fg); background: var(--bg); }
+.wrap { max-width: var(--max); margin: 0 auto; }
+nav.bc { font-size: 14px; color: var(--muted); margin-bottom: 16px; }
+nav.bc a { color: var(--muted); }
+h1 { font-size: 28px; margin: 0 0 8px; }
+h2 { font-size: 20px; margin: 24px 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+p.lead { font-size: 18px; color: var(--muted); margin: 0 0 24px; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+th, td { padding: 8px 12px; text-align: left; border-bottom: 1px solid var(--border); }
+th { background: var(--card); font-weight: 600; }
+ul.crosslinks { list-style: none; padding: 0; }
+ul.crosslinks li { padding: 6px 0; }
+ul.crosslinks li a { font-weight: 500; }
+.meta { display: flex; gap: 16px; flex-wrap: wrap; color: var(--muted); font-size: 14px; margin: 12px 0; }
+.meta span::before { content: "\00b7"; margin-right: 8px; color: var(--border); }
+.meta span:first-child::before { content: ""; }
+footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--border); font-size: 14px; color: var(--muted); }</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="bc"><a href="https://linny006.github.io/cursor-rules-live/">Cursor Rules Live</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/popular/">Entries</a> &#183; <span>L4pisLazuli/cursor_obsidian_vault</span></nav>
+<main>
+<h1>L4pisLazuli/cursor_obsidian_vault</h1>
+<p class="lead">Template Obsidian vault wired for Cursor agents — glob-scoped rules, temp→persistent→analysis workflow, Git conventions.</p>
+<div class="meta">
+<span><strong>Stars</strong> 0</span>
+<span><strong>Language</strong> —</span>
+<span><strong>Last updated</strong> 2026-07-03</span>
+<span><a href="https://github.com/L4pisLazuli/cursor_obsidian_vault" rel="external">Source on GitHub</a></span>
+<span><a href="https://github.com/L4pisLazuli" rel="external">@L4pisLazuli</a></span>
+</div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/analysis-workflow.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
+description: 横断分析ノート（analysis）の作成・編集ルール
+globs: analysis/**/*.md
+alwaysApply: false
+---
+
+# Analysis Workflow
+
+`analysis/` は `chats/persistent/` の横断分析・要約・比較結果を格納する。
+
+## 新規分析の手順
+
+1. `chats/persistent/` 内をトピック・タグ・`related` で検索
+2. `analysis/YYYY-MM-DD-analysis-トピック.md` を新規作成
+3. 参照元ノートを `related` に列挙
+4. `tags` に `analysis` + 分析トピックタグを付与
+
+## frontmatter 必須値
+
+- `tags`: `analysis` を含む
+- `related`: 参照した persistent ノートのパス一覧
+- `sources_updated`: 参照元ノートの `updated` を確認した最終日（`YYYY-MM-DD`）。分析の鮮度管理用
+
+## 鮮度管理
+
+- 既存 analysis を編集する前に、`related` 先の `updated` と自身の `sources_updated` を比較する
+- 参照元が更新されていたら分析本文を見直し、`sources_updated` を当日に更新する
+- 参照元の変更が軽微で分析に影響しない場合は、`sources_updated` のみ更新してよい
+
+## ノート構成
+
+- `## 分析対象` — 何を分析したか
+- `## 要約` — 横断的な要約
+- `## 洞察` — 発見・パターン
+- `## 未解決事項` — 残課題
+- `## 参照元` — wikilink で元ノートへリンク
+
+テンプレート参照: `templates/analysis.md`
+</code></pre>
+<p><a href="https://github.com/L4pisLazuli/cursor_obsidian_vault/blob/HEAD/.cursor/rules/analysis-workflow.mdc" rel="external">View raw on GitHub</a></p>
+</section>
+<section><h2>Why this is listed</h2>
+<p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
+<section><h2>Similar in this tracker</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/r/J-nowcow/awesome-korean-agent-skills/">J-nowcow/awesome-korean-agent-skills (stars:22)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/ashp15205/vibe-coding-essentials/">ashp15205/vibe-coding-essentials (stars:6)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/zinxj/uikit-expert-skill/">zinxj/uikit-expert-skill (stars:3)</a></li>
+</ul></section>
+<section><h2>Explore by category</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/popular/">Popular (by stars)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/recent/">Recent (by activity)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/new/">New this week</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/lang/x/">All — entries</a></li>
+</ul></section>
+</main>
+<footer>
+Auto-updated every 15 minutes via GitHub Actions &#183; <a href="https://linny006.github.io/cursor-rules-live/">tracker root</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/sitemap.xml">sitemap</a>
+</footer>
+</div>
+</body>
+</html>
