@@ -1,12 +1,17 @@
 [
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 0,
-    "updated_at": "2026-07-03T09:49:37Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+    "cursorrules": {
+      "content": "---\ndescription: Activate ParselFire C++ pack index\nglobs: **/*.{cc,cpp,cxx,hh,hpp,hxx,ipp,tpp,inl}\nalwaysApply: false\n---\n\n# C++ Pack Activation\n\nFor C++ source files:\n\n- Load `packs/cpp-architecture/pack.urf.md`.\n- Use its `## ROUTING` and `## LEAVES` records for leaf selection.\n- Use its `## STAGE-REFS` records to gather the family K ids (and their mirrored X ids) at each stage of the walk.\n\nFor ambiguous `.h` or `.c` files that reach this rule via the always-on router:\n\n- Apply cpp-architecture only if the file contains C++ constructs (class, template, namespace, references, std::, noexcept, overloads).\n- If the file is plain C, stay on universal only.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/parselfire-cpp-routing.mdc"
+    },
+    "description": "Portable architectural guardrails for AI coding agents",
+    "id": "MicSm/ParselFire",
+    "language": "Python",
+    "name": "MicSm/ParselFire",
+    "stars": 1,
+    "updated_at": "2026-07-03T10:11:43Z",
+    "url": "https://github.com/MicSm/ParselFire"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +19,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-07-03T09:45:48Z",
+    "updated_at": "2026-07-03T10:00:40Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-07-03T09:49:37Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "cursorrules": {
@@ -382,7 +396,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 72313,
+    "stars": 72333,
     "updated_at": "2026-07-01T23:34:52Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -486,17 +500,8 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 16491,
+    "stars": 16493,
     "updated_at": "2026-07-01T06:55:15Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
-  },
-  {
-    "description": "",
-    "id": "baneeishaque/ai-agent-rules",
-    "language": "TypeScript",
-    "name": "baneeishaque/ai-agent-rules",
-    "stars": 7,
-    "updated_at": "2026-07-01T03:59:45Z",
-    "url": "https://github.com/baneeishaque/ai-agent-rules"
   }
 ]
