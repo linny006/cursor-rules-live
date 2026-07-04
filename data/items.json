@@ -1,11 +1,29 @@
 [
   {
+    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 47,
+    "updated_at": "2026-07-04T09:05:06Z",
+    "url": "https://github.com/KbWen/agentic-os"
+  },
+  {
+    "description": "Stop AI coding agents from shipping untested changes. MIT-licensed operating contract, rules, and commands for Claude Co",
+    "id": "aico-platform/ai-coding-guardrails",
+    "language": "Shell",
+    "name": "aico-platform/ai-coding-guardrails",
+    "stars": 0,
+    "updated_at": "2026-07-04T09:04:10Z",
+    "url": "https://github.com/aico-platform/ai-coding-guardrails"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-07-04T08:45:25Z",
+    "updated_at": "2026-07-04T09:00:29Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -175,15 +193,6 @@
     "stars": 20,
     "updated_at": "2026-07-04T03:17:02Z",
     "url": "https://github.com/danielvm-git/bigpowers"
-  },
-  {
-    "description": "Stop AI coding agents from shipping untested changes. MIT-licensed operating contract, rules, and commands for Claude Co",
-    "id": "aico-platform/ai-coding-guardrails",
-    "language": "Shell",
-    "name": "aico-platform/ai-coding-guardrails",
-    "stars": 0,
-    "updated_at": "2026-07-04T01:21:39Z",
-    "url": "https://github.com/aico-platform/ai-coding-guardrails"
   },
   {
     "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 code review, debugging, refactoring, system design, CLAUDE.m",
@@ -369,15 +378,6 @@
     "url": "https://github.com/sungurerdim/dev-skills"
   },
   {
-    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
-    "id": "KbWen/agentic-os",
-    "language": "Python",
-    "name": "KbWen/agentic-os",
-    "stars": 47,
-    "updated_at": "2026-07-04T08:51:17Z",
-    "url": "https://github.com/KbWen/agentic-os"
-  },
-  {
     "description": "agent wiki",
     "id": "Mark393295827/third-brain-v5-skills",
     "language": "HTML",
@@ -432,7 +432,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 73341,
+    "stars": 73348,
     "updated_at": "2026-07-01T23:34:52Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
