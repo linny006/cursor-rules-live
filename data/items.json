@@ -1,12 +1,21 @@
 [
   {
-    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
-    "id": "Laurellagloomy260/cursor-rules-generator",
-    "language": "\u2014",
-    "name": "Laurellagloomy260/cursor-rules-generator",
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
     "stars": 0,
-    "updated_at": "2026-07-04T13:34:17Z",
-    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
+    "updated_at": "2026-07-04T13:44:25Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+  },
+  {
+    "description": "Build and manage agents for the Gemini Enterprise Agent Platform with this command-line interface and skill library.",
+    "id": "adamantine-tracthouse487/agents-cli",
+    "language": "Python",
+    "name": "adamantine-tracthouse487/agents-cli",
+    "stars": 0,
+    "updated_at": "2026-07-04T13:40:18Z",
+    "url": "https://github.com/adamantine-tracthouse487/agents-cli"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +23,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-07-04T13:30:45Z",
+    "updated_at": "2026-07-04T13:35:42Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
+    "id": "Laurellagloomy260/cursor-rules-generator",
+    "language": "\u2014",
+    "name": "Laurellagloomy260/cursor-rules-generator",
+    "stars": 0,
+    "updated_at": "2026-07-04T13:34:17Z",
+    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
   },
   {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
@@ -159,15 +177,6 @@
     "url": "https://github.com/philipbankier/awesome-agent-skills"
   },
   {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 0,
-    "updated_at": "2026-07-04T11:37:13Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
     "description": "Stop AI coding agents from shipping untested changes. MIT-licensed operating contract, rules, and commands for Claude Co",
     "id": "aico-platform/ai-coding-guardrails",
     "language": "Shell",
@@ -175,15 +184,6 @@
     "stars": 0,
     "updated_at": "2026-07-04T11:21:21Z",
     "url": "https://github.com/aico-platform/ai-coding-guardrails"
-  },
-  {
-    "description": "Build and manage agents for the Gemini Enterprise Agent Platform with this command-line interface and skill library.",
-    "id": "adamantine-tracthouse487/agents-cli",
-    "language": "Python",
-    "name": "adamantine-tracthouse487/agents-cli",
-    "stars": 0,
-    "updated_at": "2026-07-04T11:14:55Z",
-    "url": "https://github.com/adamantine-tracthouse487/agents-cli"
   },
   {
     "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
@@ -441,7 +441,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 73528,
+    "stars": 73534,
     "updated_at": "2026-07-01T23:34:52Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
