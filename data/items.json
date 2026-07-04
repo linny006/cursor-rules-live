@@ -1,12 +1,21 @@
 [
   {
-    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
-    "id": "KbWen/agentic-os",
-    "language": "Python",
-    "name": "KbWen/agentic-os",
-    "stars": 47,
-    "updated_at": "2026-07-04T10:27:45Z",
-    "url": "https://github.com/KbWen/agentic-os"
+    "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
+    "id": "HoangNguyen0403/agent-skills-standard",
+    "language": "TypeScript",
+    "name": "HoangNguyen0403/agent-skills-standard",
+    "stars": 520,
+    "updated_at": "2026-07-04T10:44:31Z",
+    "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
+  },
+  {
+    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
+    "id": "zinxj/uikit-expert-skill",
+    "language": "\u2014",
+    "name": "zinxj/uikit-expert-skill",
+    "stars": 3,
+    "updated_at": "2026-07-04T10:31:08Z",
+    "url": "https://github.com/zinxj/uikit-expert-skill"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +23,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-07-04T10:25:40Z",
+    "updated_at": "2026-07-04T10:30:44Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 47,
+    "updated_at": "2026-07-04T10:27:45Z",
+    "url": "https://github.com/KbWen/agentic-os"
   },
   {
     "cursorrules": {
@@ -175,15 +193,6 @@
     "stars": 2,
     "updated_at": "2026-07-04T07:39:46Z",
     "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
-  },
-  {
-    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
-    "id": "zinxj/uikit-expert-skill",
-    "language": "\u2014",
-    "name": "zinxj/uikit-expert-skill",
-    "stars": 3,
-    "updated_at": "2026-07-04T07:23:47Z",
-    "url": "https://github.com/zinxj/uikit-expert-skill"
   },
   {
     "description": "The audit trail for AI coding agents. Automatic session capture across Claude Code, Cursor, Windsurf, and any MCP agent.",
@@ -432,7 +441,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 73403,
+    "stars": 73410,
     "updated_at": "2026-07-01T23:34:52Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -494,14 +503,5 @@
     "stars": 1,
     "updated_at": "2026-07-01T09:57:10Z",
     "url": "https://github.com/GeiserX/lynxprompt-mcp"
-  },
-  {
-    "description": "Homebrew tap for LynxPrompt CLI",
-    "id": "GeiserX/homebrew-lynxprompt",
-    "language": "Ruby",
-    "name": "GeiserX/homebrew-lynxprompt",
-    "stars": 1,
-    "updated_at": "2026-07-01T09:45:11Z",
-    "url": "https://github.com/GeiserX/homebrew-lynxprompt"
   }
 ]
