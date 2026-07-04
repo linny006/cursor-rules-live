@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-07-04T18:32:51Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
     "id": "zinxj/uikit-expert-skill",
     "language": "\u2014",
@@ -7,15 +16,6 @@
     "stars": 3,
     "updated_at": "2026-07-04T18:32:05Z",
     "url": "https://github.com/zinxj/uikit-expert-skill"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-07-04T18:30:48Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -240,7 +240,7 @@
     "id": "KbWen/agentic-os",
     "language": "Python",
     "name": "KbWen/agentic-os",
-    "stars": 51,
+    "stars": 52,
     "updated_at": "2026-07-04T10:27:45Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
@@ -450,7 +450,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 73760,
+    "stars": 73768,
     "updated_at": "2026-07-01T23:34:52Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
