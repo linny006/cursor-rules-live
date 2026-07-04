@@ -1,12 +1,12 @@
 [
   {
-    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
-    "id": "Laurellagloomy260/cursor-rules-generator",
-    "language": "\u2014",
-    "name": "Laurellagloomy260/cursor-rules-generator",
+    "description": "Build and manage agents for the Gemini Enterprise Agent Platform with this command-line interface and skill library.",
+    "id": "adamantine-tracthouse487/agents-cli",
+    "language": "Python",
+    "name": "adamantine-tracthouse487/agents-cli",
     "stars": 0,
-    "updated_at": "2026-07-04T08:01:57Z",
-    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
+    "updated_at": "2026-07-04T08:07:53Z",
+    "url": "https://github.com/adamantine-tracthouse487/agents-cli"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-07-04T08:00:34Z",
+    "updated_at": "2026-07-04T08:05:18Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
+    "id": "Laurellagloomy260/cursor-rules-generator",
+    "language": "\u2014",
+    "name": "Laurellagloomy260/cursor-rules-generator",
+    "stars": 0,
+    "updated_at": "2026-07-04T08:01:57Z",
+    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -152,15 +161,6 @@
     "stars": 0,
     "updated_at": "2026-07-04T05:48:20Z",
     "url": "https://github.com/verifiedstate/vsync"
-  },
-  {
-    "description": "Build and manage agents for the Gemini Enterprise Agent Platform with this command-line interface and skill library.",
-    "id": "adamantine-tracthouse487/agents-cli",
-    "language": "Python",
-    "name": "adamantine-tracthouse487/agents-cli",
-    "stars": 0,
-    "updated_at": "2026-07-04T05:42:08Z",
-    "url": "https://github.com/adamantine-tracthouse487/agents-cli"
   },
   {
     "cursorrules": {
@@ -432,7 +432,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 73307,
+    "stars": 73314,
     "updated_at": "2026-07-01T23:34:52Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
