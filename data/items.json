@@ -1,5 +1,23 @@
 [
   {
+    "description": "The audit trail for AI coding agents. Automatic session capture across Claude Code, Cursor, Windsurf, and any MCP agent.",
+    "id": "verifiedstate/vsync",
+    "language": "\u2014",
+    "name": "verifiedstate/vsync",
+    "stars": 0,
+    "updated_at": "2026-07-04T05:48:20Z",
+    "url": "https://github.com/verifiedstate/vsync"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-07-04T05:45:29Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Build and manage agents for the Gemini Enterprise Agent Platform with this command-line interface and skill library.",
     "id": "adamantine-tracthouse487/agents-cli",
     "language": "Python",
@@ -16,15 +34,6 @@
     "stars": 0,
     "updated_at": "2026-07-04T05:36:27Z",
     "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-07-04T05:30:28Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
@@ -423,7 +432,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 73204,
+    "stars": 73211,
     "updated_at": "2026-07-01T23:34:52Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -494,14 +503,5 @@
     "stars": 1,
     "updated_at": "2026-07-01T09:45:11Z",
     "url": "https://github.com/GeiserX/homebrew-lynxprompt"
-  },
-  {
-    "description": "Auto harness engineering meta-repo: discuss \u2192 curate \u2192 bootstrap a context-engineered project for Claude Code, Cursor, C",
-    "id": "glowElephant/context-forge",
-    "language": "Python",
-    "name": "glowElephant/context-forge",
-    "stars": 2,
-    "updated_at": "2026-07-01T08:18:09Z",
-    "url": "https://github.com/glowElephant/context-forge"
   }
 ]
