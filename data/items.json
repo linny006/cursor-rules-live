@@ -10,8 +10,35 @@
     "language": "Shell",
     "name": "danielvm-git/bigpowers",
     "stars": 20,
-    "updated_at": "2026-07-04T11:27:07Z",
+    "updated_at": "2026-07-04T11:37:24Z",
     "url": "https://github.com/danielvm-git/bigpowers"
+  },
+  {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 0,
+    "updated_at": "2026-07-04T11:37:13Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-07-04T11:34:59Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-07-04T11:30:29Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Stop AI coding agents from shipping untested changes. MIT-licensed operating contract, rules, and commands for Claude Co",
@@ -21,15 +48,6 @@
     "stars": 0,
     "updated_at": "2026-07-04T11:21:21Z",
     "url": "https://github.com/aico-platform/ai-coding-guardrails"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-07-04T11:15:26Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Build and manage agents for the Gemini Enterprise Agent Platform with this command-line interface and skill library.",
@@ -114,7 +132,7 @@
     "language": "TypeScript",
     "name": "HoangNguyen0403/agent-skills-standard",
     "stars": 520,
-    "updated_at": "2026-07-04T11:30:14Z",
+    "updated_at": "2026-07-04T11:40:45Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
   },
   {
@@ -140,7 +158,7 @@
     "id": "KbWen/agentic-os",
     "language": "Python",
     "name": "KbWen/agentic-os",
-    "stars": 47,
+    "stars": 48,
     "updated_at": "2026-07-04T10:27:45Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
@@ -196,15 +214,6 @@
     "url": "https://github.com/vibestackdev/vibe-stack"
   },
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 0,
-    "updated_at": "2026-07-04T09:59:44Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
     "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
     "language": "HTML",
@@ -212,15 +221,6 @@
     "stars": 1,
     "updated_at": "2026-07-04T09:33:32Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 0,
-    "updated_at": "2026-07-04T09:26:12Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -441,7 +441,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 73437,
+    "stars": 73446,
     "updated_at": "2026-07-01T23:34:52Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
