@@ -1,20 +1,11 @@
 [
   {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
-    "stars": 0,
-    "updated_at": "2026-07-04T20:11:55Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
     "id": "J-nowcow/awesome-korean-agent-skills",
     "language": "\u2014",
     "name": "J-nowcow/awesome-korean-agent-skills",
     "stars": 22,
-    "updated_at": "2026-07-04T20:09:22Z",
+    "updated_at": "2026-07-04T20:30:04Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
@@ -23,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-07-04T20:00:51Z",
+    "updated_at": "2026-07-04T20:15:41Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-07-04T20:11:55Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -450,7 +450,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 73805,
+    "stars": 73810,
     "updated_at": "2026-07-01T23:34:52Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
