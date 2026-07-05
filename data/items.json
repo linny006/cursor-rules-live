@@ -1,11 +1,38 @@
 [
   {
+    "description": "The workflow framework for AI-assisted development. Four operating modes, 25 golden rules, and anti-hallucination guardr",
+    "id": "ashp15205/vibe-coding-essentials",
+    "language": "\u2014",
+    "name": "ashp15205/vibe-coding-essentials",
+    "stars": 6,
+    "updated_at": "2026-07-05T07:41:34Z",
+    "url": "https://github.com/ashp15205/vibe-coding-essentials"
+  },
+  {
+    "description": "AI coding rules that actually work. Enforce instruction files via hooks \u2014 CLAUDE.md, .cursorrules, copilot-instructions,",
+    "id": "taniwhaai/arai",
+    "language": "Rust",
+    "name": "taniwhaai/arai",
+    "stars": 6,
+    "updated_at": "2026-07-05T07:42:36Z",
+    "url": "https://github.com/taniwhaai/arai"
+  },
+  {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 0,
+    "updated_at": "2026-07-05T07:33:17Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-07-05T07:15:33Z",
+    "updated_at": "2026-07-05T07:30:27Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -157,24 +184,6 @@
     "stars": 0,
     "updated_at": "2026-07-05T04:19:54Z",
     "url": "https://github.com/PiloTracer/.ai"
-  },
-  {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 0,
-    "updated_at": "2026-07-05T03:55:51Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "AI coding rules that actually work. Enforce instruction files via hooks \u2014 CLAUDE.md, .cursorrules, copilot-instructions,",
-    "id": "taniwhaai/arai",
-    "language": "Rust",
-    "name": "taniwhaai/arai",
-    "stars": 6,
-    "updated_at": "2026-07-05T06:53:55Z",
-    "url": "https://github.com/taniwhaai/arai"
   },
   {
     "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 code review, debugging, refactoring, system design, CLAUDE.m",
@@ -396,15 +405,6 @@
     "url": "https://github.com/davidnbr/reporag"
   },
   {
-    "description": "The workflow framework for AI-assisted development. Four operating modes, 25 golden rules, and anti-hallucination guardr",
-    "id": "ashp15205/vibe-coding-essentials",
-    "language": "\u2014",
-    "name": "ashp15205/vibe-coding-essentials",
-    "stars": 6,
-    "updated_at": "2026-07-02T15:50:26Z",
-    "url": "https://github.com/ashp15205/vibe-coding-essentials"
-  },
-  {
     "description": "Your AI assistant hallucinates APIs, breaks dependent files, and weakens tests. 20 skills that prevent this across the f",
     "id": "sungurerdim/dev-skills",
     "language": "HTML",
@@ -468,7 +468,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 74136,
+    "stars": 74153,
     "updated_at": "2026-07-01T23:34:52Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
