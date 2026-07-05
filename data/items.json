@@ -5,7 +5,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-07-05T18:30:44Z",
+    "updated_at": "2026-07-05T18:45:30Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -273,7 +273,7 @@
     "url": "https://github.com/sublimecoder/sublimecoding"
   },
   {
-    "description": "Declarative agent config for Claude Code, Codex, and Cursor: an agent.json manifest for skills, MCP servers, and stack p",
+    "description": "One manifest for agent skills, MCP servers, and stack profiles across Claude Code, Codex, and Cursor.",
     "id": "raintree-technology/agent-starter",
     "language": "JavaScript",
     "name": "raintree-technology/agent-starter",
@@ -468,7 +468,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 74632,
+    "stars": 74641,
     "updated_at": "2026-07-01T23:34:52Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
