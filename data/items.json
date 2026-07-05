@@ -1,12 +1,12 @@
 [
   {
-    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
-    "id": "Laurellagloomy260/cursor-rules-generator",
-    "language": "\u2014",
-    "name": "Laurellagloomy260/cursor-rules-generator",
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
     "stars": 0,
-    "updated_at": "2026-07-05T08:57:55Z",
-    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
+    "updated_at": "2026-07-05T09:13:47Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
   },
   {
     "description": "Your AI assistant reads CLAUDE.md and ignores it anyway. Arai makes instruction files enforced \u2014 hooks that block, a tam",
@@ -14,8 +14,35 @@
     "language": "Rust",
     "name": "taniwhaai/arai",
     "stars": 6,
-    "updated_at": "2026-07-05T08:58:26Z",
+    "updated_at": "2026-07-05T09:14:34Z",
     "url": "https://github.com/taniwhaai/arai"
+  },
+  {
+    "description": "Build and manage agents for the Gemini Enterprise Agent Platform with this command-line interface and skill library.",
+    "id": "adamantine-tracthouse487/agents-cli",
+    "language": "Python",
+    "name": "adamantine-tracthouse487/agents-cli",
+    "stars": 0,
+    "updated_at": "2026-07-05T09:03:59Z",
+    "url": "https://github.com/adamantine-tracthouse487/agents-cli"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-07-05T09:00:32Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
+    "id": "Laurellagloomy260/cursor-rules-generator",
+    "language": "\u2014",
+    "name": "Laurellagloomy260/cursor-rules-generator",
+    "stars": 0,
+    "updated_at": "2026-07-05T08:57:55Z",
+    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -34,15 +61,6 @@
     "stars": 0,
     "updated_at": "2026-07-05T08:47:07Z",
     "url": "https://github.com/Hyanthropological659/clarify-skill"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-07-05T08:45:48Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
@@ -154,31 +172,13 @@
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
-    "description": "Build and manage agents for the Gemini Enterprise Agent Platform with this command-line interface and skill library.",
-    "id": "adamantine-tracthouse487/agents-cli",
-    "language": "Python",
-    "name": "adamantine-tracthouse487/agents-cli",
-    "stars": 0,
-    "updated_at": "2026-07-05T06:00:19Z",
-    "url": "https://github.com/adamantine-tracthouse487/agents-cli"
-  },
-  {
     "description": "\ud83c\udfad 266 \u4e2a\u5373\u63d2\u5373\u7528\u7684 AI \u4e13\u5bb6\u89d2\u8272 \u2014 \u652f\u6301 Hermes Agent/Claude Code/Cursor/Copilot \u7b49 18 \u79cd\u5de5\u5177\uff0c\u8986\u76d6\u5de5\u7a0b/\u8bbe\u8ba1/\u8425\u9500/\u91d1\u878d\u7b49 20 \u4e2a\u90e8\u95e8\u3002\u542b 50 \u4e2a\u4e2d\u56fd\u5e02\u573a\u539f\u521b\u667a\u80fd\u4f53\uff08\u5c0f\u7ea2\u4e66/\u6296\u97f3/",
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 16624,
+    "stars": 16625,
     "updated_at": "2026-07-05T05:57:07Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
-  },
-  {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
-    "stars": 0,
-    "updated_at": "2026-07-05T05:00:54Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
   },
   {
     "cursorrules": {
@@ -468,7 +468,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 74205,
+    "stars": 74213,
     "updated_at": "2026-07-01T23:34:52Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
