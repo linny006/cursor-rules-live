@@ -1,6 +1,29 @@
 [
   {
     "cursorrules": {
+      "content": "---\ndescription: Capture architectural decisions as structured ADRs (Architecture Decision Records). Use when user says 'record this decision', 'ADR this', 'why did we choose X', 'document this trade-off', 'we decided to...', or when a significant choice is made between alternatives (framework, database, pattern, API design, infra approach).\nglobs: **/docs/adr/*.md, **/docs/adr/**/*.md\nalwaysApply: false\n---\n# ADR Skill\n\nCapture architectural decisions as they happen, so the *why* lives next to the code\ninstead of in a Slack thread or someone's memory. Produces lightweight ADR documents\nunder `docs/adr/`.\n\n## Keywords\nadr, architecture decision record, decision, rationale, trade-off, alternatives, we decided, why did we choose, design decision, supersede, decision log, nygard\n\n## When to record a decision\n\n- The user says \"record this\", \"ADR this\", \"let's document this decision\".\n- A choice is made between **significant alternatives**: framework, library, database,\n  language, pattern, API shape, infra/deploy approach, build vs buy.\n- The user says \"we decided to\u2026\" or \"the reason we're doing X instead of Y is\u2026\".\n- The user asks \"why did we choose X?\" \u2192 read and summarize the existing ADR.\n\nFor trivial or easily-reversible choices, don't create an ADR \u2014 note it inline and move on.\n\n## Output Artifacts\n\n| Request | Output |\n|---------|--------|\n| `/adr new \"<title>\"` | A new `docs/adr/NNNN-<slug>.md` + an updated index |\n| `/adr list` | The decision log (ID, title, status, date) |\n| `/adr supersede <NNNN>` | A new ADR marked as superseding an old one; old one flipped to `superseded` |\n\n---\n\n## Format\n\nLightweight Nygard ADR, adapted for AI-assisted work:\n\n```markdown\n# ADR-NNNN: <Decision Title>\n\n**Date**: YYYY-MM-DD\n**Status**: proposed | accepted | deprecated | superseded by ADR-NNNN\n**Deciders**: <who was involved>\n\n## Context\n\nWhat is the issue motivating this decision? The situation, constraints, and forces at\nplay. 2\u20135 sentences.\n\n## Decision\n\nWhat we are doing. 1\u20133 sentences, stated clearly.\n\n## Alternatives Considered\n\n### <Alternative>\n- **Pros**: \u2026\n- **Cons**: \u2026\n- **Why not**: the specific reason it was rejected.\n\n(Repeat per alternative.)\n\n## Consequences\n\n### Positive\n- \u2026\n\n### Negative / trade-offs\n- \u2026\n\n### Risks\n- <risk and its mitigation>\n```\n\n---\n\n## NEW \u2014 Record a decision\n\n1. **Initialize once.** If `docs/adr/` does not exist, ask the user to confirm before\n   creating it. On confirmation, create the directory, a `README.md` seeded with the\n   index table header (below), and a `template.md` copy of the format above. Never\n   create files without explicit consent.\n2. **Number it.** Next zero-padded number after the highest existing `docs/adr/NNNN-*.md`\n   (start at `0001`). Slug = kebab-case of the title.\n3. **Fill it from the conversation** \u2014 extract the decision, the context that prompted it,\n   the alternatives actually weighed, and the consequences. Do not invent alternatives\n   that were never discussed; if context is thin, ask one or two targeted questions.\n4. **Default status** `accepted` when the user states a decision; `proposed` when still\n   weighing. Date = today.\n5. **Update the index** in `docs/adr/README.md`.\n\n## Index format\n\n`docs/adr/README.md`:\n\n```markdown\n# Architecture Decision Records\n\n| ID | Title | Status | Date |\n|----|-------|--------|------|\n| [ADR-0001](0001-use-eks-over-ecs.md) | Use EKS over ECS | accepted | 2026-06-10 |\n```\n\n## SUPERSEDE \u2014 Replace a decision\n\n1. Read the old ADR.\n2. Create a new ADR that references it: \"Supersedes ADR-NNNN\" in Context.\n3. Flip the old ADR's `Status` to `superseded by ADR-MMMM`.\n4. Update both rows in the index.\n\nNever delete or rewrite a past ADR's decision \u2014 superseding preserves the history of\n*why it changed*, which is the whole point.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/adr.mdc"
+    },
+    "description": "Multi-tool DevOps skills for Claude Code, Cursor, and Codex \u2014 Terraform, Kubernetes, Docker, GitHub Actions, GitLab CI, ",
+    "id": "anmolnagpal/devops-skills",
+    "language": "Shell",
+    "name": "anmolnagpal/devops-skills",
+    "stars": 7,
+    "updated_at": "2026-07-05T20:18:17Z",
+    "url": "https://github.com/anmolnagpal/devops-skills"
+  },
+  {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 0,
+    "updated_at": "2026-07-05T20:17:52Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+  },
+  {
+    "cursorrules": {
       "content": "---\ndescription: \"\\\"Build editorial/magazine/report webpages on a GENUINE M\u00fcller-Brockmann modular grid (International Typographic Style) \u2014 not a decorative one. Encodes the discipline (columns + modules + baseline, grotesque type, flush-left, restrained black/white/red palette) AND the hard-won front-end engineering to make the grid real, visible, and verified: one CSS-variable source of truth, an interactive grid-toggle overlay that lives in the SAME content box as the content, subgrid \\\\\\\"bands\\\\\\\" so every element snaps to a column line, an 8px baseline lock, and runtime OPTICAL ALIGNMENT that puts display type's ink (not its box) on the line. Ships with a scaffold generator and a Puppeteer verification harness that proves 0px adherence.\\\"\"\nalwaysApply: false\n---\n\n\n# M\u00fcller-Brockmann Grid Systems \u2014 built real, visible, and verified\n\nJosef M\u00fcller-Brockmann (1914\u20131996), Zurich; *Grid Systems in Graphic Design* (1981) is the corpus. The grid is treated as an ethic, not decoration: **\"The grid system is an aid, not a guarantee. It permits a number of possible uses and each designer can look for a solution appropriate to his personal style. But one must learn how to use the grid; it is an art that requires practice.\"** This skill encodes that discipline AND \u2014 the part most attempts get wrong \u2014 the front-end engineering to make the grid genuinely load-bearing on the web, plus a harness that PROVES it.\n\n> **HARD GATE** \u2014 Do NOT ship a grid page without running `verify_grid.js` first. A visually plausible layout is not evidence of grid adherence \u2014 the harness is. Zero failing assertions is the only passing bar.\n\n> Two real review notes this skill exists to prevent:\n> 1. *\"the grid is just slapped on top and misaligned\"* \u2192 the overlay wasn't in the same content box as the content (see \u00a72.2).\n> 2. *\"the H in the headline is off the grid\"* \u2192 the headline's BOX was on the grid but its INK wasn't; large glyphs carry a side-bearing (see \u00a72.6). **Box-on-grid \u2260 ink-on-grid.**\n\n\n## PART 1 \u2014 THE DISCIPLINE (decide before drawing)\n- **Objective order.** The grid brings \"constructive thought,\" legibility, and \"objective and functional\" design. Restraint is the point; the system, not the ego, organizes the page.\n- **Modular grid.** Divide the type area into a field of **modules** \u2014 columns AND rows \u2014 separated by consistent **gutters**, inside defined **margins**. Text and images occupy whole modules. M\u00fcller-Brockmann specimens common field counts (8 / 20 / 32 fields). For the web, a **12-column grid + 8px baseline** is a robust general default; a **6\u00d76 or 4\u00d78 modular field grid** when you want visible rows too.\n- **Baseline grid.** Vertical rhythm is sacred: **leading = a whole multiple of the baseline unit**, and every element snaps to it. This is what makes facing columns and images line up across the page.\n- **Typography.** A **grotesque sans** (Akzidenz-Grotesk / Helvetica; on the web Inter, Helvetica Now, Archivo). **Flush-left, ragged-right.** Few sizes, large jumps in **scale** for hierarchy; objective, not expressive. Big **numerals/data set large** is a signature move.\n- **Palette.** Pure white paper, near-black ink, **one accent \u2014 red is canonical**. Avoid the warm-cream \"Claude look\"; **never blue/purple gradients** (hard house rule).\n- **White space + asymmetry.** Generous margins; asymmetric compositions held in tension by the grid.\n\n\n## PART 2 \u2014 MAKE THE GRID REAL ON THE WEB (the load-bearing engineering)\n`grid_tokens.py` emits this whole scaffold correctly; the rules below are why it's built the way it is.\n\n### 2.1 One source of truth\nPut every grid parameter in `:root` CSS variables \u2014 `--cols, --gutter, --margin, --bl (baseline), --lh (leading=3\u00d7bl), --maxw`. **Content and the overlay both read these same variables.** Never hand-author the overlay separately or it will drift.\n\n### 2.2 The overlay MUST live in the SAME content box as the content  \u2190 #1 bug\nFailure mode: content sits in a centered `max-width` container while the overlay is a **full-width sibling** of the section. On any viewport wider than `--maxw`, the centered content and the full-width overlay no longer share column positions \u2192 \"slapped on top / misaligned.\"\n**Fix:** put `.guides` *inside* the same `.wrap`, and draw the column guides with `left/right = var(--margin)` and the **same** `repeat(var(--cols),1fr)` + `column-gap:var(--gutter)`. Then the overlay columns **are** the content columns at every width. Add left/right margin lines at `var(--margin)`.\n\n### 2.3 Place every element by column LINE via subgrid bands\nDon't eyeball spans. Each horizontal **band** spans all columns and re-exposes them:\n```css\n.band{grid-column:1 / -1; display:grid; grid-template-columns:subgrid; column-gap:var(--gutter); align-items:start;}\n@supports not (grid-template-columns:subgrid){ .band{grid-template-columns:repeat(var(--cols),1fr);} }\n```\nChildren place with `grid-column: <startline> / <endline>` (e.g. `1 / 6`, `6 / 13`). Every headline, paragraph, photo, caption now snaps to identical lines.\n\n### 2.4 Lock vertical rhythm to the baseline\n- Leading = `--lh` (e.g. 24px = 3\u00d78). **Every line-height a multiple of the baseline, in px (not unitless) for display type** \u2014 unitless line-heights on large type push the box off the grid.\n- Every margin/padding a multiple of the baseline. Spread top/bottom padding a multiple too, so content starts on a line.\n- **Media heights = multiples of the leading** (e.g. 240/360/432/480px) so a photo's top AND bottom both land on lines.\n- Hairline rules sit inside a baseline-height band, not free-floating.\n\n### 2.5 The toggle (sizzle within the sizzle)\nA control (button **+ `G` key**) toggles `body.grid-on`; overlay fades 0\u21921. Overlay draws: translucent **numbered column fields**, the **baseline** (major line every `--lh`, faint minor every `--bl`), and **margin lines**. Showing the real grid the page is built on IS the demo.\n\n### 2.6 OPTICAL ALIGNMENT \u2014 display ink, not its box  \u2190 the subtle bug\nA 180px headline whose layout box is exactly on line 1 still looks misaligned against body text, because the letterform's **ink** is inset by its **left side-bearing**. Cure at runtime:\n```js\n// after document.fonts.ready and on resize:\nvar cvs=document.createElement('canvas'),ctx=cvs.getContext('2d');\ndocument.querySelectorAll('.masthead,.numeral,.shead h2,.h2b').forEach(function(el){\n  el.style.marginLeft='0px';\n  var cs=getComputedStyle(el),ch=(el.textContent||'').trim()[0]; if(!ch) return;\n  if(cs.textTransform==='uppercase') ch=ch.toUpperCase();\n  ctx.font=cs.fontStyle+' '+cs.fontWeight+' '+cs.fontSize+' '+cs.fontFamily; ctx.textAlign='left';\n  var abl=ctx.measureText(ch).actualBoundingBoxLeft;     // +ve = ink overhangs left of box\n  if(isFinite(abl)) el.style.marginLeft=abl.toFixed(2)+'px'; // shift box so INK lands on the line\n});\n```\nApply to the masthead, big numerals, and section headlines. It scales with fluid type (re-runs on resize) and uses the **actually-loaded** font, so it's correct in the user's browser.\n**CRITICAL measurement caveat:** side-bearing is **font-specific**. If you measure with the wrong font you get the wrong nudge. Headless/sandbox Chrome usually lacks the webfont, so canvas falls back to a different grotesque (measured **\u221216px on the fallback vs \u22127px on real Inter** for the same `H`). To verify optics offline you must **embed the real webfont** via `@font-face` (local TTF). In production the runtime JS measures the loaded font and is correct.\n\n\n## PART 3 \u2014 VERIFY (don't trust, measure)  \u2192 `verify_grid.js`\nRender with headless Chrome (Puppeteer) and assert, at **several widths including > and < `--maxw`** (to catch centered-container drift, e.g. 1440 / 1180 / 900):\n1. **Column adherence** \u2014 every placed `.band > *` left snaps to a column START and right to a column END (~0px). **Exclude the optically-aligned display elements** from this box check (their box is intentionally side-bearing-offset; they're validated in step 4). **Gotcha:** build BOT",
       "format": "mdc",
       "path": ".cursor/rules/align-grid.mdc"
@@ -10,8 +33,26 @@
     "language": "MDX",
     "name": "danielvm-git/bigpowers",
     "stars": 23,
-    "updated_at": "2026-07-05T20:13:34Z",
+    "updated_at": "2026-07-05T20:15:46Z",
     "url": "https://github.com/danielvm-git/bigpowers"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-07-05T20:15:06Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 22,
+    "updated_at": "2026-07-05T20:14:53Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "description": "Build and manage agents for the Gemini Enterprise Agent Platform with this command-line interface and skill library.",
@@ -30,29 +71,6 @@
     "stars": 0,
     "updated_at": "2026-07-05T20:05:08Z",
     "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Capture architectural decisions as structured ADRs (Architecture Decision Records). Use when user says 'record this decision', 'ADR this', 'why did we choose X', 'document this trade-off', 'we decided to...', or when a significant choice is made between alternatives (framework, database, pattern, API design, infra approach).\nglobs: **/docs/adr/*.md, **/docs/adr/**/*.md\nalwaysApply: false\n---\n# ADR Skill\n\nCapture architectural decisions as they happen, so the *why* lives next to the code\ninstead of in a Slack thread or someone's memory. Produces lightweight ADR documents\nunder `docs/adr/`.\n\n## Keywords\nadr, architecture decision record, decision, rationale, trade-off, alternatives, we decided, why did we choose, design decision, supersede, decision log, nygard\n\n## When to record a decision\n\n- The user says \"record this\", \"ADR this\", \"let's document this decision\".\n- A choice is made between **significant alternatives**: framework, library, database,\n  language, pattern, API shape, infra/deploy approach, build vs buy.\n- The user says \"we decided to\u2026\" or \"the reason we're doing X instead of Y is\u2026\".\n- The user asks \"why did we choose X?\" \u2192 read and summarize the existing ADR.\n\nFor trivial or easily-reversible choices, don't create an ADR \u2014 note it inline and move on.\n\n## Output Artifacts\n\n| Request | Output |\n|---------|--------|\n| `/adr new \"<title>\"` | A new `docs/adr/NNNN-<slug>.md` + an updated index |\n| `/adr list` | The decision log (ID, title, status, date) |\n| `/adr supersede <NNNN>` | A new ADR marked as superseding an old one; old one flipped to `superseded` |\n\n---\n\n## Format\n\nLightweight Nygard ADR, adapted for AI-assisted work:\n\n```markdown\n# ADR-NNNN: <Decision Title>\n\n**Date**: YYYY-MM-DD\n**Status**: proposed | accepted | deprecated | superseded by ADR-NNNN\n**Deciders**: <who was involved>\n\n## Context\n\nWhat is the issue motivating this decision? The situation, constraints, and forces at\nplay. 2\u20135 sentences.\n\n## Decision\n\nWhat we are doing. 1\u20133 sentences, stated clearly.\n\n## Alternatives Considered\n\n### <Alternative>\n- **Pros**: \u2026\n- **Cons**: \u2026\n- **Why not**: the specific reason it was rejected.\n\n(Repeat per alternative.)\n\n## Consequences\n\n### Positive\n- \u2026\n\n### Negative / trade-offs\n- \u2026\n\n### Risks\n- <risk and its mitigation>\n```\n\n---\n\n## NEW \u2014 Record a decision\n\n1. **Initialize once.** If `docs/adr/` does not exist, ask the user to confirm before\n   creating it. On confirmation, create the directory, a `README.md` seeded with the\n   index table header (below), and a `template.md` copy of the format above. Never\n   create files without explicit consent.\n2. **Number it.** Next zero-padded number after the highest existing `docs/adr/NNNN-*.md`\n   (start at `0001`). Slug = kebab-case of the title.\n3. **Fill it from the conversation** \u2014 extract the decision, the context that prompted it,\n   the alternatives actually weighed, and the consequences. Do not invent alternatives\n   that were never discussed; if context is thin, ask one or two targeted questions.\n4. **Default status** `accepted` when the user states a decision; `proposed` when still\n   weighing. Date = today.\n5. **Update the index** in `docs/adr/README.md`.\n\n## Index format\n\n`docs/adr/README.md`:\n\n```markdown\n# Architecture Decision Records\n\n| ID | Title | Status | Date |\n|----|-------|--------|------|\n| [ADR-0001](0001-use-eks-over-ecs.md) | Use EKS over ECS | accepted | 2026-06-10 |\n```\n\n## SUPERSEDE \u2014 Replace a decision\n\n1. Read the old ADR.\n2. Create a new ADR that references it: \"Supersedes ADR-NNNN\" in Context.\n3. Flip the old ADR's `Status` to `superseded by ADR-MMMM`.\n4. Update both rows in the index.\n\nNever delete or rewrite a past ADR's decision \u2014 superseding preserves the history of\n*why it changed*, which is the whole point.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/adr.mdc"
-    },
-    "description": "Multi-tool DevOps skills for Claude Code, Cursor, and Codex \u2014 Terraform, Kubernetes, Docker, GitHub Actions, GitLab CI, ",
-    "id": "anmolnagpal/devops-skills",
-    "language": "Shell",
-    "name": "anmolnagpal/devops-skills",
-    "stars": 7,
-    "updated_at": "2026-07-05T20:04:30Z",
-    "url": "https://github.com/anmolnagpal/devops-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-07-05T20:00:46Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
@@ -171,24 +189,6 @@
     "stars": 1,
     "updated_at": "2026-07-05T18:18:19Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 0,
-    "updated_at": "2026-07-05T18:08:12Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 22,
-    "updated_at": "2026-07-05T18:05:19Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "cursorrules": {
@@ -482,7 +482,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 74691,
+    "stars": 74697,
     "updated_at": "2026-07-01T23:34:52Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
