@@ -1,5 +1,69 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: \"\\\"Build editorial/magazine/report webpages on a GENUINE M\u00fcller-Brockmann modular grid (International Typographic Style) \u2014 not a decorative one. Encodes the discipline (columns + modules + baseline, grotesque type, flush-left, restrained black/white/red palette) AND the hard-won front-end engineering to make the grid real, visible, and verified: one CSS-variable source of truth, an interactive grid-toggle overlay that lives in the SAME content box as the content, subgrid \\\\\\\"bands\\\\\\\" so every element snaps to a column line, an 8px baseline lock, and runtime OPTICAL ALIGNMENT that puts display type's ink (not its box) on the line. Ships with a scaffold generator and a Puppeteer verification harness that proves 0px adherence.\\\"\"\nalwaysApply: false\n---\n\n\n# M\u00fcller-Brockmann Grid Systems \u2014 built real, visible, and verified\n\nJosef M\u00fcller-Brockmann (1914\u20131996), Zurich; *Grid Systems in Graphic Design* (1981) is the corpus. The grid is treated as an ethic, not decoration: **\"The grid system is an aid, not a guarantee. It permits a number of possible uses and each designer can look for a solution appropriate to his personal style. But one must learn how to use the grid; it is an art that requires practice.\"** This skill encodes that discipline AND \u2014 the part most attempts get wrong \u2014 the front-end engineering to make the grid genuinely load-bearing on the web, plus a harness that PROVES it.\n\n> **HARD GATE** \u2014 Do NOT ship a grid page without running `verify_grid.js` first. A visually plausible layout is not evidence of grid adherence \u2014 the harness is. Zero failing assertions is the only passing bar.\n\n> Two real review notes this skill exists to prevent:\n> 1. *\"the grid is just slapped on top and misaligned\"* \u2192 the overlay wasn't in the same content box as the content (see \u00a72.2).\n> 2. *\"the H in the headline is off the grid\"* \u2192 the headline's BOX was on the grid but its INK wasn't; large glyphs carry a side-bearing (see \u00a72.6). **Box-on-grid \u2260 ink-on-grid.**\n\n\n## PART 1 \u2014 THE DISCIPLINE (decide before drawing)\n- **Objective order.** The grid brings \"constructive thought,\" legibility, and \"objective and functional\" design. Restraint is the point; the system, not the ego, organizes the page.\n- **Modular grid.** Divide the type area into a field of **modules** \u2014 columns AND rows \u2014 separated by consistent **gutters**, inside defined **margins**. Text and images occupy whole modules. M\u00fcller-Brockmann specimens common field counts (8 / 20 / 32 fields). For the web, a **12-column grid + 8px baseline** is a robust general default; a **6\u00d76 or 4\u00d78 modular field grid** when you want visible rows too.\n- **Baseline grid.** Vertical rhythm is sacred: **leading = a whole multiple of the baseline unit**, and every element snaps to it. This is what makes facing columns and images line up across the page.\n- **Typography.** A **grotesque sans** (Akzidenz-Grotesk / Helvetica; on the web Inter, Helvetica Now, Archivo). **Flush-left, ragged-right.** Few sizes, large jumps in **scale** for hierarchy; objective, not expressive. Big **numerals/data set large** is a signature move.\n- **Palette.** Pure white paper, near-black ink, **one accent \u2014 red is canonical**. Avoid the warm-cream \"Claude look\"; **never blue/purple gradients** (hard house rule).\n- **White space + asymmetry.** Generous margins; asymmetric compositions held in tension by the grid.\n\n\n## PART 2 \u2014 MAKE THE GRID REAL ON THE WEB (the load-bearing engineering)\n`grid_tokens.py` emits this whole scaffold correctly; the rules below are why it's built the way it is.\n\n### 2.1 One source of truth\nPut every grid parameter in `:root` CSS variables \u2014 `--cols, --gutter, --margin, --bl (baseline), --lh (leading=3\u00d7bl), --maxw`. **Content and the overlay both read these same variables.** Never hand-author the overlay separately or it will drift.\n\n### 2.2 The overlay MUST live in the SAME content box as the content  \u2190 #1 bug\nFailure mode: content sits in a centered `max-width` container while the overlay is a **full-width sibling** of the section. On any viewport wider than `--maxw`, the centered content and the full-width overlay no longer share column positions \u2192 \"slapped on top / misaligned.\"\n**Fix:** put `.guides` *inside* the same `.wrap`, and draw the column guides with `left/right = var(--margin)` and the **same** `repeat(var(--cols),1fr)` + `column-gap:var(--gutter)`. Then the overlay columns **are** the content columns at every width. Add left/right margin lines at `var(--margin)`.\n\n### 2.3 Place every element by column LINE via subgrid bands\nDon't eyeball spans. Each horizontal **band** spans all columns and re-exposes them:\n```css\n.band{grid-column:1 / -1; display:grid; grid-template-columns:subgrid; column-gap:var(--gutter); align-items:start;}\n@supports not (grid-template-columns:subgrid){ .band{grid-template-columns:repeat(var(--cols),1fr);} }\n```\nChildren place with `grid-column: <startline> / <endline>` (e.g. `1 / 6`, `6 / 13`). Every headline, paragraph, photo, caption now snaps to identical lines.\n\n### 2.4 Lock vertical rhythm to the baseline\n- Leading = `--lh` (e.g. 24px = 3\u00d78). **Every line-height a multiple of the baseline, in px (not unitless) for display type** \u2014 unitless line-heights on large type push the box off the grid.\n- Every margin/padding a multiple of the baseline. Spread top/bottom padding a multiple too, so content starts on a line.\n- **Media heights = multiples of the leading** (e.g. 240/360/432/480px) so a photo's top AND bottom both land on lines.\n- Hairline rules sit inside a baseline-height band, not free-floating.\n\n### 2.5 The toggle (sizzle within the sizzle)\nA control (button **+ `G` key**) toggles `body.grid-on`; overlay fades 0\u21921. Overlay draws: translucent **numbered column fields**, the **baseline** (major line every `--lh`, faint minor every `--bl`), and **margin lines**. Showing the real grid the page is built on IS the demo.\n\n### 2.6 OPTICAL ALIGNMENT \u2014 display ink, not its box  \u2190 the subtle bug\nA 180px headline whose layout box is exactly on line 1 still looks misaligned against body text, because the letterform's **ink** is inset by its **left side-bearing**. Cure at runtime:\n```js\n// after document.fonts.ready and on resize:\nvar cvs=document.createElement('canvas'),ctx=cvs.getContext('2d');\ndocument.querySelectorAll('.masthead,.numeral,.shead h2,.h2b').forEach(function(el){\n  el.style.marginLeft='0px';\n  var cs=getComputedStyle(el),ch=(el.textContent||'').trim()[0]; if(!ch) return;\n  if(cs.textTransform==='uppercase') ch=ch.toUpperCase();\n  ctx.font=cs.fontStyle+' '+cs.fontWeight+' '+cs.fontSize+' '+cs.fontFamily; ctx.textAlign='left';\n  var abl=ctx.measureText(ch).actualBoundingBoxLeft;     // +ve = ink overhangs left of box\n  if(isFinite(abl)) el.style.marginLeft=abl.toFixed(2)+'px'; // shift box so INK lands on the line\n});\n```\nApply to the masthead, big numerals, and section headlines. It scales with fluid type (re-runs on resize) and uses the **actually-loaded** font, so it's correct in the user's browser.\n**CRITICAL measurement caveat:** side-bearing is **font-specific**. If you measure with the wrong font you get the wrong nudge. Headless/sandbox Chrome usually lacks the webfont, so canvas falls back to a different grotesque (measured **\u221216px on the fallback vs \u22127px on real Inter** for the same `H`). To verify optics offline you must **embed the real webfont** via `@font-face` (local TTF). In production the runtime JS measures the loaded font and is correct.\n\n\n## PART 3 \u2014 VERIFY (don't trust, measure)  \u2192 `verify_grid.js`\nRender with headless Chrome (Puppeteer) and assert, at **several widths including > and < `--maxw`** (to catch centered-container drift, e.g. 1440 / 1180 / 900):\n1. **Column adherence** \u2014 every placed `.band > *` left snaps to a column START and right to a column END (~0px). **Exclude the optically-aligned display elements** from this box check (their box is intentionally side-bearing-offset; they're validated in step 4). **Gotcha:** build BOT",
+      "format": "mdc",
+      "path": ".cursor/rules/align-grid.mdc"
+    },
+    "description": "72 agent skills synthesizing 17 years of software engineering discipline into a prescriptive methodology for solo develo",
+    "id": "danielvm-git/bigpowers",
+    "language": "Shell",
+    "name": "danielvm-git/bigpowers",
+    "stars": 25,
+    "updated_at": "2026-07-06T16:44:41Z",
+    "url": "https://github.com/danielvm-git/bigpowers"
+  },
+  {
+    "description": "Build and manage agents for the Gemini Enterprise Agent Platform with this command-line interface and skill library.",
+    "id": "adamantine-tracthouse487/agents-cli",
+    "language": "Python",
+    "name": "adamantine-tracthouse487/agents-cli",
+    "stars": 0,
+    "updated_at": "2026-07-06T16:43:53Z",
+    "url": "https://github.com/adamantine-tracthouse487/agents-cli"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Battle-tested engineering judgment for code, refactors, tests, and frontend UI. Ultra-terse caveman style during code work.\nalwaysApply: true\n---\n\n# Battle Tested Engineer\n\nGoal: least code, fix problem, no break working stuff.\n\n## Output style\n\n- No filler, pleasantry, hedge, article. Fragments. Short word.\n- No decorative table/emoji/tool narration/long error dump \u2014 quote shortest line.\n- Verbatim always: code, command, API name, error string, commit keyword.\n- No invented abbreviation \u2014 save nothing, cost clarity.\n- Normal prose for: security warning, irreversible-action confirm, multi-step where order misread risk, user ask clarify. Resume ultra right after.\n- Code, commit msg, PR desc: normal prose always.\n\n## 1. Think before code\n\n- State assumption, no guess.\n- Multi interpretation \u2192 show all, no pick.\n- Unclear ask \u2192 stop, name confusion, ask.\n- Simpler way exist \u2192 say it.\n\n## 2. Simplicity\n\n- Senior-line estimate; actual >4x \u2192 cut.\n- No unrequested feature/flexibility/config/error-handling for impossible case.\n- Prefer stdlib/dep over hand-roll.\n- Function many unrelated thing \u2192 split single-responsibility. Already one thing \u2192 leave.\n- YAGNI/DRY/SOLID when shape need \u2014 not checklist.\n- Comment why, not what.\n- Red flag: single-use abstraction, one-method \"manager\", options object one caller.\n\n## 3. Surgical change\n\n- Touch only what ask need \u2014 every changed line trace to ask.\n- Unrelated dead code \u2192 mention, no delete.\n- Own-change orphan (unused import/var/fn) \u2192 remove.\n- Refactor = structure only, zero behavior change. Never bundle feature/fix. State structural-change-vs-same first.\n- Touched behavior no test \u2192 add characterization test first.\n- Risky replace (algorithm/migration/payment) \u2192 old/new side by side.\n\n## 4. Data vs UI\n\n- Component render data, no own it. Mock one module, no literal in component.\n- Mock shape mirror real API contract.\n- Same entity twice \u2192 define once, import twice.\n- Loading/error/empty = data state, no scattered boolean.\n- Component: render/layout only. Business logic (calc/validation/transform/API call) \u2192 hook/service/plain fn.\n\n## 5. Goal-driven execution\n\n- Vague ask \u2192 verifiable goal. \"add validation\" \u2192 test invalid input, pass it. \"fix bug\" \u2192 reproduce with test, pass it. \"refactor X\" \u2192 test pass before/after.\n- Multi-step task \u2192 plan first, numbered, each with \"verify:\" check.\n\n## 6. Tests\n\n- Few high-quality beat many. Too many = hard maintain, not free coverage.\n- Smallest set catch real regression.\n- Can't name bug it catch \u2192 cut test.\n- Test public contract, not internal.\n\n## 7. Propose spec when need\n\n- PRD/spec/ADR = persistent memory for AI agent, skip re-explain context each session.\n- Non-trivial feature, ambiguous requirement, wide blast radius \u2192 propose short PRD/spec/ADR first. Small/obvious change \u2192 skip.\n- Minimal: problem, decision, alternative, consequence. No padding.\n- ADR \u2192 hard-reverse decision or cross-system effect. Spec/PRD \u2192 scope/behavior not yet pinned.\n\n## 8. Ship then improve\n\n- Feature first: get correct minimal version work. Improve/optimize/refactor gradual after \u2014 not upfront, not speculative.\n- Red-green-refactor: write failing test (red) \u2192 smallest code make pass (green) \u2192 clean structure only, tests stay green (refactor). Small cycle, not big-bang.\n- Working correct code over perfect design. Perfect later, once real usage show what actual matter.\n\n## 9. Gut-check before output\n\nAssumption stated not guessed? Diff proportionate, no dead/orphan code? Refactor behavior truly unchanged? Tests few, each catch real bug?\n\nNeed more complexity/clarify/test \u2192 say it, with tradeoff. No silent over-build, no under-deliver.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/battle-tested-engineer.mdc"
+    },
+    "description": "Reusable agent skills for battle-tested engineering judgment \u2014 least code, fix the problem, don't break what works. Work",
+    "id": "sayeed1999/agent-skills",
+    "language": "\u2014",
+    "name": "sayeed1999/agent-skills",
+    "stars": 1,
+    "updated_at": "2026-07-06T16:38:34Z",
+    "url": "https://github.com/sayeed1999/agent-skills"
+  },
+  {
+    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
+    "id": "Laurellagloomy260/cursor-rules-generator",
+    "language": "\u2014",
+    "name": "Laurellagloomy260/cursor-rules-generator",
+    "stars": 0,
+    "updated_at": "2026-07-06T16:37:36Z",
+    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
+  },
+  {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 1,
+    "updated_at": "2026-07-06T16:31:35Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-07-06T16:30:35Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
     "id": "Hyanthropological659/clarify-skill",
     "language": "\u2014",
@@ -27,15 +91,6 @@
     "url": "https://github.com/XAKLESK/cre-agent-skills"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-07-06T16:15:57Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
     "id": "edsondviana8/ai-humanizer-core",
     "language": "HTML",
@@ -52,20 +107,6 @@
     "stars": 0,
     "updated_at": "2026-07-06T16:15:04Z",
     "url": "https://github.com/Amirun99/agency-orchestrator"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: \"\\\"Build editorial/magazine/report webpages on a GENUINE M\u00fcller-Brockmann modular grid (International Typographic Style) \u2014 not a decorative one. Encodes the discipline (columns + modules + baseline, grotesque type, flush-left, restrained black/white/red palette) AND the hard-won front-end engineering to make the grid real, visible, and verified: one CSS-variable source of truth, an interactive grid-toggle overlay that lives in the SAME content box as the content, subgrid \\\\\\\"bands\\\\\\\" so every element snaps to a column line, an 8px baseline lock, and runtime OPTICAL ALIGNMENT that puts display type's ink (not its box) on the line. Ships with a scaffold generator and a Puppeteer verification harness that proves 0px adherence.\\\"\"\nalwaysApply: false\n---\n\n\n# M\u00fcller-Brockmann Grid Systems \u2014 built real, visible, and verified\n\nJosef M\u00fcller-Brockmann (1914\u20131996), Zurich; *Grid Systems in Graphic Design* (1981) is the corpus. The grid is treated as an ethic, not decoration: **\"The grid system is an aid, not a guarantee. It permits a number of possible uses and each designer can look for a solution appropriate to his personal style. But one must learn how to use the grid; it is an art that requires practice.\"** This skill encodes that discipline AND \u2014 the part most attempts get wrong \u2014 the front-end engineering to make the grid genuinely load-bearing on the web, plus a harness that PROVES it.\n\n> **HARD GATE** \u2014 Do NOT ship a grid page without running `verify_grid.js` first. A visually plausible layout is not evidence of grid adherence \u2014 the harness is. Zero failing assertions is the only passing bar.\n\n> Two real review notes this skill exists to prevent:\n> 1. *\"the grid is just slapped on top and misaligned\"* \u2192 the overlay wasn't in the same content box as the content (see \u00a72.2).\n> 2. *\"the H in the headline is off the grid\"* \u2192 the headline's BOX was on the grid but its INK wasn't; large glyphs carry a side-bearing (see \u00a72.6). **Box-on-grid \u2260 ink-on-grid.**\n\n\n## PART 1 \u2014 THE DISCIPLINE (decide before drawing)\n- **Objective order.** The grid brings \"constructive thought,\" legibility, and \"objective and functional\" design. Restraint is the point; the system, not the ego, organizes the page.\n- **Modular grid.** Divide the type area into a field of **modules** \u2014 columns AND rows \u2014 separated by consistent **gutters**, inside defined **margins**. Text and images occupy whole modules. M\u00fcller-Brockmann specimens common field counts (8 / 20 / 32 fields). For the web, a **12-column grid + 8px baseline** is a robust general default; a **6\u00d76 or 4\u00d78 modular field grid** when you want visible rows too.\n- **Baseline grid.** Vertical rhythm is sacred: **leading = a whole multiple of the baseline unit**, and every element snaps to it. This is what makes facing columns and images line up across the page.\n- **Typography.** A **grotesque sans** (Akzidenz-Grotesk / Helvetica; on the web Inter, Helvetica Now, Archivo). **Flush-left, ragged-right.** Few sizes, large jumps in **scale** for hierarchy; objective, not expressive. Big **numerals/data set large** is a signature move.\n- **Palette.** Pure white paper, near-black ink, **one accent \u2014 red is canonical**. Avoid the warm-cream \"Claude look\"; **never blue/purple gradients** (hard house rule).\n- **White space + asymmetry.** Generous margins; asymmetric compositions held in tension by the grid.\n\n\n## PART 2 \u2014 MAKE THE GRID REAL ON THE WEB (the load-bearing engineering)\n`grid_tokens.py` emits this whole scaffold correctly; the rules below are why it's built the way it is.\n\n### 2.1 One source of truth\nPut every grid parameter in `:root` CSS variables \u2014 `--cols, --gutter, --margin, --bl (baseline), --lh (leading=3\u00d7bl), --maxw`. **Content and the overlay both read these same variables.** Never hand-author the overlay separately or it will drift.\n\n### 2.2 The overlay MUST live in the SAME content box as the content  \u2190 #1 bug\nFailure mode: content sits in a centered `max-width` container while the overlay is a **full-width sibling** of the section. On any viewport wider than `--maxw`, the centered content and the full-width overlay no longer share column positions \u2192 \"slapped on top / misaligned.\"\n**Fix:** put `.guides` *inside* the same `.wrap`, and draw the column guides with `left/right = var(--margin)` and the **same** `repeat(var(--cols),1fr)` + `column-gap:var(--gutter)`. Then the overlay columns **are** the content columns at every width. Add left/right margin lines at `var(--margin)`.\n\n### 2.3 Place every element by column LINE via subgrid bands\nDon't eyeball spans. Each horizontal **band** spans all columns and re-exposes them:\n```css\n.band{grid-column:1 / -1; display:grid; grid-template-columns:subgrid; column-gap:var(--gutter); align-items:start;}\n@supports not (grid-template-columns:subgrid){ .band{grid-template-columns:repeat(var(--cols),1fr);} }\n```\nChildren place with `grid-column: <startline> / <endline>` (e.g. `1 / 6`, `6 / 13`). Every headline, paragraph, photo, caption now snaps to identical lines.\n\n### 2.4 Lock vertical rhythm to the baseline\n- Leading = `--lh` (e.g. 24px = 3\u00d78). **Every line-height a multiple of the baseline, in px (not unitless) for display type** \u2014 unitless line-heights on large type push the box off the grid.\n- Every margin/padding a multiple of the baseline. Spread top/bottom padding a multiple too, so content starts on a line.\n- **Media heights = multiples of the leading** (e.g. 240/360/432/480px) so a photo's top AND bottom both land on lines.\n- Hairline rules sit inside a baseline-height band, not free-floating.\n\n### 2.5 The toggle (sizzle within the sizzle)\nA control (button **+ `G` key**) toggles `body.grid-on`; overlay fades 0\u21921. Overlay draws: translucent **numbered column fields**, the **baseline** (major line every `--lh`, faint minor every `--bl`), and **margin lines**. Showing the real grid the page is built on IS the demo.\n\n### 2.6 OPTICAL ALIGNMENT \u2014 display ink, not its box  \u2190 the subtle bug\nA 180px headline whose layout box is exactly on line 1 still looks misaligned against body text, because the letterform's **ink** is inset by its **left side-bearing**. Cure at runtime:\n```js\n// after document.fonts.ready and on resize:\nvar cvs=document.createElement('canvas'),ctx=cvs.getContext('2d');\ndocument.querySelectorAll('.masthead,.numeral,.shead h2,.h2b').forEach(function(el){\n  el.style.marginLeft='0px';\n  var cs=getComputedStyle(el),ch=(el.textContent||'').trim()[0]; if(!ch) return;\n  if(cs.textTransform==='uppercase') ch=ch.toUpperCase();\n  ctx.font=cs.fontStyle+' '+cs.fontWeight+' '+cs.fontSize+' '+cs.fontFamily; ctx.textAlign='left';\n  var abl=ctx.measureText(ch).actualBoundingBoxLeft;     // +ve = ink overhangs left of box\n  if(isFinite(abl)) el.style.marginLeft=abl.toFixed(2)+'px'; // shift box so INK lands on the line\n});\n```\nApply to the masthead, big numerals, and section headlines. It scales with fluid type (re-runs on resize) and uses the **actually-loaded** font, so it's correct in the user's browser.\n**CRITICAL measurement caveat:** side-bearing is **font-specific**. If you measure with the wrong font you get the wrong nudge. Headless/sandbox Chrome usually lacks the webfont, so canvas falls back to a different grotesque (measured **\u221216px on the fallback vs \u22127px on real Inter** for the same `H`). To verify optics offline you must **embed the real webfont** via `@font-face` (local TTF). In production the runtime JS measures the loaded font and is correct.\n\n\n## PART 3 \u2014 VERIFY (don't trust, measure)  \u2192 `verify_grid.js`\nRender with headless Chrome (Puppeteer) and assert, at **several widths including > and < `--maxw`** (to catch centered-container drift, e.g. 1440 / 1180 / 900):\n1. **Column adherence** \u2014 every placed `.band > *` left snaps to a column START and right to a column END (~0px). **Exclude the optically-aligned display elements** from this box check (their box is intentionally side-bearing-offset; they're validated in step 4). **Gotcha:** build BOT",
-      "format": "mdc",
-      "path": ".cursor/rules/align-grid.mdc"
-    },
-    "description": "72 agent skills synthesizing 17 years of software engineering discipline into a prescriptive methodology for solo develo",
-    "id": "danielvm-git/bigpowers",
-    "language": "Shell",
-    "name": "danielvm-git/bigpowers",
-    "stars": 25,
-    "updated_at": "2026-07-06T16:14:38Z",
-    "url": "https://github.com/danielvm-git/bigpowers"
   },
   {
     "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
@@ -130,24 +171,6 @@
     "stars": 0,
     "updated_at": "2026-07-06T14:29:53Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Build and manage agents for the Gemini Enterprise Agent Platform with this command-line interface and skill library.",
-    "id": "adamantine-tracthouse487/agents-cli",
-    "language": "Python",
-    "name": "adamantine-tracthouse487/agents-cli",
-    "stars": 0,
-    "updated_at": "2026-07-06T14:10:26Z",
-    "url": "https://github.com/adamantine-tracthouse487/agents-cli"
-  },
-  {
-    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
-    "id": "Laurellagloomy260/cursor-rules-generator",
-    "language": "\u2014",
-    "name": "Laurellagloomy260/cursor-rules-generator",
-    "stars": 0,
-    "updated_at": "2026-07-06T14:04:12Z",
-    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
   },
   {
     "cursorrules": {
@@ -221,15 +244,6 @@
     "stars": 7,
     "updated_at": "2026-07-06T13:05:45Z",
     "url": "https://github.com/caioribeiroclw-pixel/pluribus"
-  },
-  {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 1,
-    "updated_at": "2026-07-06T13:00:11Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "cursorrules": {
@@ -355,7 +369,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 37582,
+    "stars": 37584,
     "updated_at": "2026-07-06T01:08:16Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -504,14 +518,5 @@
     "stars": 1,
     "updated_at": "2026-07-02T14:50:26Z",
     "url": "https://github.com/sungurerdim/dev-skills"
-  },
-  {
-    "description": "\u63a2\u7d22\u5728\u65e5\u5e38\u5f00\u53d1\u4e2d\uff0c\u8ba9 AI \u7f16\u7a0b\u52a9\u624b\u4fdd\u6301\u4e0a\u4e0b\u6587\u8fde\u8d2f\u4e0e\u6267\u884c\u7eaa\u5f8b\u7684\u534f\u4f5c\u5de5\u4f5c\u6d41\u3002Exploring practical collaboration patterns for AI coding assistants.",
-    "id": "MagicKidd/Rokid-agentic-workflow",
-    "language": "Python",
-    "name": "MagicKidd/Rokid-agentic-workflow",
-    "stars": 3,
-    "updated_at": "2026-07-02T02:52:16Z",
-    "url": "https://github.com/MagicKidd/Rokid-agentic-workflow"
   }
 ]
