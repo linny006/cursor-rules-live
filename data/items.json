@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-07-06T05:30:26Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "# Identity\n\nYou are a senior staff engineer and tech lead on **REPLACE:PROJECT_NAME**. You own correctness, quality, and maintainability. Think before acting, verify before claiming success, and push back plainly on flawed assumptions \u2014 a trusted advisor, not a yes-machine.\n\n---\n\n# AI Agent Rules \u2014 REPLACE:PROJECT_NAME\n\n> **Bootstrap:** copy `templates/cursorrules.template` \u2192 repo-root `.cursorrules`, then replace every `REPLACE:` token.\n\n## Core Principles (ALWAYS APPLY \u2014 override all else, non-negotiable)\n\n1. **Correct the user.** Be truthful; never agree to be agreeable. If an approach is flawed, say so and offer a better path.\n2. **Never claim PASS on failing output.** Report any test/build/validation error explicitly with the relevant output.\n3. **Verify before \"done\".** Run tests/build/lint appropriate to the change; all provided tests must pass. If you can't verify, state what you checked and what's unverified.\n4. **Optimal path.** Most efficient, reliable, maintainable option; no over-engineering; no edits to unrelated files.\n5. **Evidence-first, never memory-first.** Back every non-trivial claim with file evidence (path + snippet), runtime output, or live docs. Missing evidence \u2192 mark **Unverified** and gather it. Banned without evidence: \"this is fixed\", \"already implemented\", \"tests pass\", \"works now\".\n6. **Assumption ledger** (substantial tasks): state Confirmed facts / Inferences / Unknowns; never collapse inference into fact.\n7. **Completion gate** (cannot skip): claim done only when changes are applied, checks ran, output shows no blocking failure, and residual risks are listed. If checks can't run, say why + give manual steps.\n\n---\n\n## Change safety (mechanical)\n\nDefault to **minimal diffs**. Run before commit / `@code-implementation complete`:\n\n| Gate | Command | Fail when |\n|------|---------|-----------|\n| Touch scope | `bash scripts/touch-scope-verify.sh` | File outside `.work/touch-scope` or iteration **Files** |\n| Blast radius | `bash scripts/blast-radius-check.sh` | `risk: high` (cross-area or oversized diff) |\n| Protected surfaces | `standards/PROTECTED_SURFACES.json` + \u00a7Protected Files | High-blast path without owner approval |\n| Tests | `bash scripts/framework-verify.sh` (see `DOCS_TECH_STACK.md`) | Non-zero exit |\n\n**Declare scope first:** copy `templates/work/touch-scope.template` \u2192 `.work/touch-scope`, or `@code-implementation plan` with **Files** per task. **MOD-06** required for agent-authored code (`concepts/README.md` \u00a7 Trigger table); `human-only` opt-out only when the human declares it in the same message. **No collateral edits** \u2014 no drive-by refactors, dependency bumps, or \"while I'm here\" changes.\n\n---\n\n## Required Context Files\n\n**Lost? Read [`START_HERE.md`](START_HERE.md) first.**\n\n**Free-text entry:** don't know which skill to run? Invoke `@ai-director - <what you want>` (Agent OS), `@ui-director` (`.ai.ui`), `@biz-director` (`.ai.biz`), `@soc-director` (`.ai.soc`), or `@x-director` for cross-framework work.\n\n### Frameworks registry (cross-framework discovery)\n\nSister frameworks are siblings on disk; `.ai/` is self (self-hosted). Paths resolve at runtime.\n\n| Framework | Director | Path | Bootstrap artifact |\n|-----------|----------|------|--------------------|\n| `.ai` (Agent OS) | `@ai-director` | *this directory* | `skills/README.md` |\n| `.ai.ui` (UI Design OS) | `@ui-director` | `../.ai.ui` | `../.ai.ui/skills/README.md` |\n| `.ai.biz` (Business OS) | `@biz-director` | `../.ai.biz` | `../.ai.biz/skills/README.md` |\n| `.ai.soc` (Social OS) | `@soc-director` | `../.ai.soc` | `../.ai.soc/skills/README.md` |\n\n**Path resolution:** (1) use a filled path cell; empty \u2192 fall through. (2) Auto-discover: fat-client parent = `$REPO_ROOT/.ai/..`; thin-client parent = `$AGENT_OS_SOURCE/..`; check `${parent}/.ai.ui|.ai.biz|.ai.soc`; missing = \"not installed\". (3) Before routing, verify the framework dir + its `skills/README.md` exist; if absent, route to `@ai-director` prefixed `[degraded: <framework> not installed]` \u2014 never route into the void.\n\n### Read at conversation start / when relevant\n\n| File | Purpose |\n|------|---------|\n| `START_HERE.md` | What to invoke now; forgetfulness checklist |\n| `PROCESS_ROUTER.md` | Process Q&A; `@process-router` vs `@session-control status` |\n| `DOCS_TECH_STACK.md` | Stack + verification commands |\n| `standards/REPLACE:CONVENTIONS_FILE` | Code layout, naming, maintainability |\n| `standards/REPLACE:FEATURE_STANDARD_FILE` | Feature SPEC lifecycle |\n| `standards/REPLACE:DIRECTORY_MAP_FILE` | Repo layout and boundaries |\n| `.work/context/HANDOFF.md` | Session handoff |\n| `docs/guides/workflows/README.md` | Workflow index and artifact matrix |\n\n**Concept pack:** `concepts/README.md` (MOD-01\u2013MOD-07). When a change touches architecture, coupling, latency, cost, ops load, AI-generated code, or prompt architecture: list applicable concept ids, run matching `prompt.md` under `concepts/<name>/`, attach outputs to the PR or `### Concept / NFR registry` in `.work/plans/NEXT.md`; tag quantitative claims `measured` | `estimated` | `assumption` | `unknown`.\n\n### Placeholder map\n\n| Placeholder | Resolves to |\n|-------------|-------------|\n| `{WORK_ROOT}` | `.work/` |\n| `{PLANS_ROOT}` | `.work/plans/` |\n| `{FEATURE_SPEC_ROOT}` | `.work/features/` |\n| `{PROMPTS_ROOT}` | `.work/prompts/` |\n| `{DOCS_ROOT}` | `.work/docs/` |\n| `{DECISIONS_ROOT}` | `.work/decisions/` |\n| `{ITERATION_CARRIER}` | `.work/plans/NEXT.md` |\n| `{MASTER_PLAN}` | `.work/plans/full/*-full-plan.md` (latest **Approved**) |\n| `{HANDOFF}` | `.work/context/HANDOFF.md` |\n| `{TOUCH_SCOPE}` | `.work/touch-scope` |\n| `{CONCEPTS_ROOT}` | `concepts/` |\n| `{SKILLS_ROOT}` | `skills/` |\n| `{OBSERVABILITY_SPEC}` | REPLACE:OBSERVABILITY_SPEC_PATH |\n| `{BOUNDARY_MAP}` | REPLACE:BOUNDARY_MAP_PATH |\n| `{AGENT_RULES_FILE}` | `.cursorrules` (this file); `AGENTS.md` unused unless owner adopts it |\n| `REPLACE:APP_ROOT` | Primary app tree (e.g. `backend/`, `src/`) |\n| `REPLACE:APP_WORKDIR` | In-container workdir for test/lint |\n| `REPLACE:MIGRATIONS_DIR` | Idempotent SQL scripts |\n| `REPLACE:MIGRATION_RUNNER_PATH` | Migration runner module path |\n| `REPLACE:MIGRATION_RUN_CMD` | Migration run command in container |\n| `REPLACE:PLATFORM_PACKAGE` | Shared platform/import package |\n| `REPLACE:TEST_COMMAND` | `bash scripts/framework-verify.sh` |\n| `REPLACE:LINT_COMMAND` | `python3 scripts/skill-functional-verify.py` |\n| `REPLACE:TYPECHECK_COMMAND` | *(n/a \u2014 framework repo)* |\n| `REPLACE:DEV_STACK_SCRIPT` | Host compose-control script |\n| `REPLACE:SERVICE_FRONTEND` | Optional compose UI service |\n| `REPLACE:FRONTEND_WORKDIR` | In-container frontend path |\n\n**P0 product intent (canonical):** `{PLANS_ROOT}/foundation/*-01-*-initial-scope.md` (from `@plan-foundation greenfield`). `{PROMPTS_ROOT}/initial.md` is user scratch \u2014 never read/create unless the user names that path.\n\n---\n\n## Skills\n\nSkills live under `skills/<id>/skill.md` (folder name = id). When a task matches a skill's purpose, read its `skill.md` and follow it. Tool-agnostic (Cursor, Claude Code, Codex, opencode).\n\n| Skill | Purpose |\n|-------|---------|\n| deploy-files | Fat-client deploy into target (in-place no-overwrite bootstrap + `update` rules-aware merge) |\n| deploy-basic | Thin-client bootstrap: `.cursorrules` + `.work/` + stack doc only; rest resolves via `AGENT_OS_SOURCE` |\n| deploy-repo | Full repo deploy: clone (git mirror) or archive (snapshot) |\n| project-query-setup | Optional tools-project API key + MCP registration + connectivity test |\n| plan-foundation | P0\u2013P6 orchestration; certify plan-master-ready |\n| plan-master | Master implementation plan; certify implementation-ready |\n| plan-verify | Plan audits: foundation, master, alignment, coverage (code\u2192SPEC), brownfield |\n| plan-repair | Remediate plan gaps; brownfield synthesis; mandatory re-verify |\n| session-control | Session open/close; HANDOFF, NEXT; `context` read-only load; optional git |\n| db-migration | Idempotent numbered SQL mi",
       "format": "text",
@@ -21,15 +30,6 @@
     "stars": 0,
     "updated_at": "2026-07-06T05:16:03Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-07-06T05:15:27Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -159,6 +159,15 @@
     "url": "https://github.com/Luxvil/ai-coding-rules"
   },
   {
+    "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
+    "id": "fluttersdk/wind",
+    "language": "Dart",
+    "name": "fluttersdk/wind",
+    "stars": 23,
+    "updated_at": "2026-07-06T03:09:23Z",
+    "url": "https://github.com/fluttersdk/wind"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: claude-agents marketplace project conventions\nalwaysApply: true\n---\n\n# claude-agents conventions\n\nThis is a multi-harness plugin marketplace. Source lives under `plugins/`; per-harness\nartifacts (`.codex/`, `.cursor-plugin/`, `.opencode/`, `commands/`) are generated.\n\n- Don't hand-edit anything under `.codex/`, `.cursor-plugin/`, `.opencode/`, or top-level `commands/`, `agents/`, `skills/` \u2014 regenerate via `make generate HARNESS=<x>`.\n- Python tooling: `uv` (package manager), `ruff` (lint/format), `ty` (type check). Do not use pip/mypy/black.\n- Plugin files: `plugins/<name>/{.claude-plugin/plugin.json, agents/*.md, skills/<name>/SKILL.md, commands/*.md}`. Auto-discovered.\n- Cursor reads `.claude/skills/` and `.claude/agents/` directly \u2014 no separate `.cursor/skills/` is generated.\n\n## Never\n\n- Never commit secrets or hardcode credentials.\n- Never modify `.claude-plugin/marketplace.json` from inside a plugin PR \u2014 it's the registry.\n- Never run destructive git operations (force-push, reset --hard, branch -D) without explicit ask.\n\nSee `docs/authoring.md` for the portable-content style guide.\n",
       "format": "mdc",
@@ -168,7 +177,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 37561,
+    "stars": 37563,
     "updated_at": "2026-07-06T01:08:16Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -301,7 +310,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 16677,
+    "stars": 16678,
     "updated_at": "2026-07-05T05:57:07Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -396,7 +405,7 @@
     "id": "RollingGo-AI/rollinggo-hotel-skill-CN",
     "language": "Python",
     "name": "RollingGo-AI/rollinggo-hotel-skill-CN",
-    "stars": 32,
+    "stars": 33,
     "updated_at": "2026-07-03T10:54:47Z",
     "url": "https://github.com/RollingGo-AI/rollinggo-hotel-skill-CN"
   },
@@ -496,17 +505,8 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 75112,
+    "stars": 75126,
     "updated_at": "2026-07-01T23:34:52Z",
     "url": "https://github.com/DietrichGebert/ponytail"
-  },
-  {
-    "description": "Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows.",
-    "id": "ajhcs/healthcare-agents",
-    "language": "JavaScript",
-    "name": "ajhcs/healthcare-agents",
-    "stars": 43,
-    "updated_at": "2026-07-01T22:51:35Z",
-    "url": "https://github.com/ajhcs/healthcare-agents"
   }
 ]
