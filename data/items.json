@@ -10,8 +10,17 @@
     "language": "Shell",
     "name": "danielvm-git/bigpowers",
     "stars": 24,
-    "updated_at": "2026-07-06T12:26:45Z",
+    "updated_at": "2026-07-06T12:43:06Z",
     "url": "https://github.com/danielvm-git/bigpowers"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-07-06T12:36:30Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -19,7 +28,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-07-06T12:15:52Z",
+    "updated_at": "2026-07-06T12:30:47Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -209,15 +218,6 @@
     "url": "https://github.com/taniwhaai/arai"
   },
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 0,
-    "updated_at": "2026-07-06T08:10:03Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
     "description": "Auto harness engineering meta-repo: discuss \u2192 curate \u2192 bootstrap a context-engineered project for Claude Code, Cursor, C",
     "id": "glowElephant/context-forge",
     "language": "Python",
@@ -268,7 +268,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 37577,
+    "stars": 37578,
     "updated_at": "2026-07-06T01:08:16Z",
     "url": "https://github.com/wshobson/agents"
   },
