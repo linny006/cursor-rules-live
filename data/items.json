@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-07-06T10:15:50Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
     "id": "J-nowcow/awesome-korean-agent-skills",
     "language": "\u2014",
@@ -7,15 +16,6 @@
     "stars": 22,
     "updated_at": "2026-07-06T10:11:13Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-07-06T10:00:36Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Build and manage agents for the Gemini Enterprise Agent Platform with this command-line interface and skill library.",
@@ -194,7 +194,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 16702,
+    "stars": 16703,
     "updated_at": "2026-07-06T07:40:10Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -240,7 +240,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 37572,
+    "stars": 37574,
     "updated_at": "2026-07-06T01:08:16Z",
     "url": "https://github.com/wshobson/agents"
   },
