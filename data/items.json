@@ -1,5 +1,50 @@
 [
   {
+    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
+    "id": "Laurellagloomy260/cursor-rules-generator",
+    "language": "\u2014",
+    "name": "Laurellagloomy260/cursor-rules-generator",
+    "stars": 0,
+    "updated_at": "2026-07-06T07:15:06Z",
+    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
+  },
+  {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 22,
+    "updated_at": "2026-07-06T07:09:22Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+  },
+  {
+    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
+    "id": "Hyanthropological659/clarify-skill",
+    "language": "\u2014",
+    "name": "Hyanthropological659/clarify-skill",
+    "stars": 0,
+    "updated_at": "2026-07-06T07:04:10Z",
+    "url": "https://github.com/Hyanthropological659/clarify-skill"
+  },
+  {
+    "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
+    "id": "Bastioned-successor320/learn-nanobot",
+    "language": "Python",
+    "name": "Bastioned-successor320/learn-nanobot",
+    "stars": 2,
+    "updated_at": "2026-07-06T07:01:48Z",
+    "url": "https://github.com/Bastioned-successor320/learn-nanobot"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-07-06T07:00:37Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
     "id": "XAKLESK/cre-agent-skills",
     "language": "\u2014",
@@ -14,7 +59,7 @@
     "language": "Python",
     "name": "KbWen/agentic-os",
     "stars": 57,
-    "updated_at": "2026-07-06T06:58:42Z",
+    "updated_at": "2026-07-06T07:10:20Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
   {
@@ -34,15 +79,6 @@
     "stars": 2,
     "updated_at": "2026-07-06T06:52:47Z",
     "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-07-06T06:45:37Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
@@ -123,15 +159,6 @@
     "url": "https://github.com/adamantine-tracthouse487/agents-cli"
   },
   {
-    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
-    "id": "Laurellagloomy260/cursor-rules-generator",
-    "language": "\u2014",
-    "name": "Laurellagloomy260/cursor-rules-generator",
-    "stars": 0,
-    "updated_at": "2026-07-06T04:10:08Z",
-    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
-  },
-  {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
     "id": "Trentobobbi/uikit-mastery-playbook",
     "language": "HTML",
@@ -139,24 +166,6 @@
     "stars": 0,
     "updated_at": "2026-07-06T04:07:21Z",
     "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
-    "id": "Hyanthropological659/clarify-skill",
-    "language": "\u2014",
-    "name": "Hyanthropological659/clarify-skill",
-    "stars": 0,
-    "updated_at": "2026-07-06T03:59:12Z",
-    "url": "https://github.com/Hyanthropological659/clarify-skill"
-  },
-  {
-    "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
-    "id": "Bastioned-successor320/learn-nanobot",
-    "language": "Python",
-    "name": "Bastioned-successor320/learn-nanobot",
-    "stars": 2,
-    "updated_at": "2026-07-06T03:56:58Z",
-    "url": "https://github.com/Bastioned-successor320/learn-nanobot"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -237,15 +246,6 @@
     "url": "https://github.com/anmolnagpal/devops-skills"
   },
   {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 22,
-    "updated_at": "2026-07-05T20:37:23Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: \u6a2a\u65ad\u5206\u6790\u30ce\u30fc\u30c8\uff08analysis\uff09\u306e\u4f5c\u6210\u30fb\u7de8\u96c6\u30eb\u30fc\u30eb\nglobs: analysis/**/*.md\nalwaysApply: false\n---\n\n# Analysis Workflow\n\n`analysis/` \u306f `chats/persistent/` \u306e\u6a2a\u65ad\u5206\u6790\u30fb\u8981\u7d04\u30fb\u6bd4\u8f03\u7d50\u679c\u3092\u683c\u7d0d\u3059\u308b\u3002\n\n## \u65b0\u898f\u5206\u6790\u306e\u624b\u9806\n\n1. `chats/persistent/` \u5185\u3092\u30c8\u30d4\u30c3\u30af\u30fb\u30bf\u30b0\u30fb`related` \u3067\u691c\u7d22\n2. `analysis/YYYY-MM-DD-analysis-\u30c8\u30d4\u30c3\u30af.md` \u3092\u65b0\u898f\u4f5c\u6210\n3. \u53c2\u7167\u5143\u30ce\u30fc\u30c8\u3092 `related` \u306b\u5217\u6319\n4. `tags` \u306b `analysis` + \u5206\u6790\u30c8\u30d4\u30c3\u30af\u30bf\u30b0\u3092\u4ed8\u4e0e\n\n## frontmatter \u5fc5\u9808\u5024\n\n- `tags`: `analysis` \u3092\u542b\u3080\n- `related`: \u53c2\u7167\u3057\u305f persistent \u30ce\u30fc\u30c8\u306e\u30d1\u30b9\u4e00\u89a7\n- `sources_updated`: \u53c2\u7167\u5143\u30ce\u30fc\u30c8\u306e `updated` \u3092\u78ba\u8a8d\u3057\u305f\u6700\u7d42\u65e5\uff08`YYYY-MM-DD`\uff09\u3002\u5206\u6790\u306e\u9bae\u5ea6\u7ba1\u7406\u7528\n\n## \u9bae\u5ea6\u7ba1\u7406\n\n- \u65e2\u5b58 analysis \u3092\u7de8\u96c6\u3059\u308b\u524d\u306b\u3001`related` \u5148\u306e `updated` \u3068\u81ea\u8eab\u306e `sources_updated` \u3092\u6bd4\u8f03\u3059\u308b\n- \u53c2\u7167\u5143\u304c\u66f4\u65b0\u3055\u308c\u3066\u3044\u305f\u3089\u5206\u6790\u672c\u6587\u3092\u898b\u76f4\u3057\u3001`sources_updated` \u3092\u5f53\u65e5\u306b\u66f4\u65b0\u3059\u308b\n- \u53c2\u7167\u5143\u306e\u5909\u66f4\u304c\u8efd\u5fae\u3067\u5206\u6790\u306b\u5f71\u97ff\u3057\u306a\u3044\u5834\u5408\u306f\u3001`sources_updated` \u306e\u307f\u66f4\u65b0\u3057\u3066\u3088\u3044\n\n## \u30ce\u30fc\u30c8\u69cb\u6210\n\n- `## \u5206\u6790\u5bfe\u8c61` \u2014 \u4f55\u3092\u5206\u6790\u3057\u305f\u304b\n- `## \u8981\u7d04` \u2014 \u6a2a\u65ad\u7684\u306a\u8981\u7d04\n- `## \u6d1e\u5bdf` \u2014 \u767a\u898b\u30fb\u30d1\u30bf\u30fc\u30f3\n- `## \u672a\u89e3\u6c7a\u4e8b\u9805` \u2014 \u6b8b\u8ab2\u984c\n- `## \u53c2\u7167\u5143` \u2014 wikilink \u3067\u5143\u30ce\u30fc\u30c8\u3078\u30ea\u30f3\u30af\n\n\u30c6\u30f3\u30d7\u30ec\u30fc\u30c8\u53c2\u7167: `templates/analysis.md`\n",
       "format": "mdc",
@@ -319,7 +319,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 16687,
+    "stars": 16688,
     "updated_at": "2026-07-05T05:57:07Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -505,7 +505,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 75220,
+    "stars": 75228,
     "updated_at": "2026-07-01T23:34:52Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   }
