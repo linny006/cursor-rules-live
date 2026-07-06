@@ -14,7 +14,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="plumpslabs/matcha - entry on Cursor Rules Live">
 <meta name="twitter:description" content="🍵 Deliberate engineering guidelines &amp; deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"plumpslabs/matcha","codeRepository":"https://github.com/plumpslabs/matcha","programmingLanguage":"JavaScript","url":"https://linny006.github.io/cursor-rules-live/r/plumpslabs/matcha/","description":"🍵 Deliberate engineering guidelines & deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block","author":{"@type":"Person","name":"plumpslabs","url":"https://github.com/plumpslabs"},"dateModified":"2026-06-29"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"plumpslabs/matcha","codeRepository":"https://github.com/plumpslabs/matcha","programmingLanguage":"JavaScript","url":"https://linny006.github.io/cursor-rules-live/r/plumpslabs/matcha/","description":"🍵 Deliberate engineering guidelines & deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block","author":{"@type":"Person","name":"plumpslabs","url":"https://github.com/plumpslabs"},"dateModified":"2026-07-06"}</script>
 <style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
          --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
 * { box-sizing: border-box; }
@@ -48,62 +48,15 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <div class="meta">
 <span><strong>Stars</strong> 1</span>
 <span><strong>Language</strong> JavaScript</span>
-<span><strong>Last updated</strong> 2026-06-29</span>
+<span><strong>Last updated</strong> 2026-07-06</span>
 <span><a href="https://github.com/plumpslabs/matcha" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/plumpslabs" rel="external">@plumpslabs</a></span>
 </div>
-<section id="rules"><h2>Actual rules from this repo</h2>
-<p>Path in source repo: <code>.cursor/rules/matcha-angular.mdc</code> &middot; format: <code>mdc</code></p>
-<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
-description: Matcha Angular coding standards
-globs: [&quot;**/*.ts&quot;]
-alwaysApply: false
----
-
-# Angular Standards
-
-## Signals over RxJS (Angular 17+)
-```typescript
-const count = signal(0);
-const doubled = computed(() =&gt; count() * 2);
-```
-- signal() for UI state, RxJS only for event streams
-- OnPush change detection on all components
-
-## Dependency Injection
-```typescript
-@Injectable({ providedIn: &#x27;root&#x27; })
-export class Service { private http = inject(HttpClient); }
-```
-- `inject()` over constructor for tree-shaking
-- InjectionToken for non-class providers
-
-## File Naming
-kebab-case with type suffix: `.component.ts`, `.service.ts`, `.pipe.ts`
-1 class = 1 file
-
-## Performance
-- `ChangeDetectionStrategy.OnPush`
-- `trackBy` in @for loops
-- `async` pipe in templates, never subscribe in component
-
-## Checklist
-- [ ] Signals over RxJS for UI state — RxJS only for event streams
-- [ ] `inject()` over constructor DI
-- [ ] `ChangeDetectionStrategy.OnPush` on all components
-- [ ] `trackBy` in `@for` loops
-- [ ] Lazy load feature modules / standalone components
-- [ ] `async` pipe in templates, never `subscribe` in component
-- [ ] Check existing services and modules before adding new ones
-</code></pre>
-<p><a href="https://github.com/plumpslabs/matcha/blob/HEAD/.cursor/rules/matcha-angular.mdc" rel="external">View raw on GitHub</a></p>
-</section>
 <section><h2>Why this is listed</h2>
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>
 <ul class="crosslinks">
-<li><a href="https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/">DietrichGebert/ponytail (stars:70050)</a></li>
-<li><a href="https://linny006.github.io/cursor-rules-live/r/raintree-technology/agent-starter/">raintree-technology/agent-starter (stars:82)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/raintree-technology/agent-starter/">raintree-technology/agent-starter (stars:85)</a></li>
 <li><a href="https://linny006.github.io/cursor-rules-live/r/caioribeiroclw-pixel/pluribus/">caioribeiroclw-pixel/pluribus (stars:7)</a></li>
 </ul></section>
 <section><h2>Explore by category</h2>
