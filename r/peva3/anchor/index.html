@@ -14,7 +14,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="peva3/anchor - entry on Cursor Rules Live">
 <meta name="twitter:description" content="Anchor — the production-grade AGENTS.md template for AI coding agents. 51 sections of battle-tested rules. Keep your age">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"peva3/anchor","codeRepository":"https://github.com/peva3/anchor","programmingLanguage":"Python","url":"https://linny006.github.io/cursor-rules-live/r/peva3/anchor/","description":"Anchor — the production-grade AGENTS.md template for AI coding agents. 51 sections of battle-tested rules. Keep your age","author":{"@type":"Person","name":"peva3","url":"https://github.com/peva3"},"dateModified":"2026-06-21"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"peva3/anchor","codeRepository":"https://github.com/peva3/anchor","programmingLanguage":"Python","url":"https://linny006.github.io/cursor-rules-live/r/peva3/anchor/","description":"Anchor — the production-grade AGENTS.md template for AI coding agents. 51 sections of battle-tested rules. Keep your age","author":{"@type":"Person","name":"peva3","url":"https://github.com/peva3"},"dateModified":"2026-07-06"}</script>
 <style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
          --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
 * { box-sizing: border-box; }
@@ -48,7 +48,7 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <div class="meta">
 <span><strong>Stars</strong> 0</span>
 <span><strong>Language</strong> Python</span>
-<span><strong>Last updated</strong> 2026-06-21</span>
+<span><strong>Last updated</strong> 2026-07-06</span>
 <span><a href="https://github.com/peva3/anchor" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/peva3" rel="external">@peva3</a></span>
 </div>
@@ -73,7 +73,7 @@ ruff format .
 vulture .
 mypy .
 ```
-**Do not commit until all pass.**
+**Do not commit until all pass.** (Section 9)
 
 ### Required Folders
 Every project MUST have:
@@ -89,17 +89,33 @@ api: Added JWT refresh to prevent 401 loops
 The token refresh had a race condition where concurrent requests
 could trigger multiple refresh calls. Added mutex lock around auth state.
 ```
+See Section 15 for the full pattern.
 
-### DEEPDIVE.md
-Update after ANY architectural change. Document:
-- Why the system is built this way
-- Key decisions and trade-offs
-- Gotchas and failure modes
+### PR Standards (Section 33)
+- 800 lines max, 500 for complex logic
+- Single feature per PR
+- Use the PR template (Section 35)
+
+### AI Code Quality (Section 34)
+Self-check: think first, spot laziness, uncertainty, bloat.
+
+### Pre-Commit Hooks (Section 37)
+Mandatory. Install once: `pre-commit install`. Hooks run on every commit.
+
+### Decision Ladder (Section 50.1)
+Before any implementation: YAGNI → stdlib → native → existing dep → one line → minimum.
+
+### Tradeoff Comments (Section 50.2)
+For every intentional shortcut, document with `# ponytail: &lt;what&gt; / # Upgrade to &lt;what&gt; if &lt;trigger&gt;`.
 
 ## Prohibited
-- No PRs/issues/GitHub activity without explicit user approval
-- No dead code, unused imports, silent exception handlers
-- No commits without running lint/vulture sweep first
+- No PRs/issues/GitHub activity without explicit user approval (Section 2)
+- No dead code, unused imports, silent exception handlers (Section 1)
+- No commits without running lint/vulture sweep first (Section 9)
+- No mutable default arguments, bare excepts, eval/exec (Section 27.2)
+- No force push to shared branches (Section 36.2)
+- No PRs over 800 lines (Section 33)
+- No skipping pre-commit hooks (Section 37)
 
 ## Validation
 Before marking complete:
@@ -107,16 +123,22 @@ Before marking complete:
 - [ ] No vulture findings
 - [ ] Type check clean
 - [ ] DEEPDIVE.md updated if needed
-- [ ] Human commit message</code></pre>
+- [ ] Human commit message
+- [ ] PR under 800 lines
+- [ ] Pre-commit hooks passed
+- [ ] AI anti-pattern self-check passed
+- [ ] Decision ladder applied
+- [ ] Tradeoff comments for shortcuts
+</code></pre>
 <p><a href="https://github.com/peva3/anchor/blob/HEAD/.cursor/rules/project-rules.mdc" rel="external">View raw on GitHub</a></p>
 </section>
 <section><h2>Why this is listed</h2>
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>
 <ul class="crosslinks">
-<li><a href="https://linny006.github.io/cursor-rules-live/r/wshobson/agents/">wshobson/agents (stars:37106)</a></li>
-<li><a href="https://linny006.github.io/cursor-rules-live/r/MohamedAbdallah-14/unslop/">MohamedAbdallah-14/unslop (stars:64)</a></li>
-<li><a href="https://linny006.github.io/cursor-rules-live/r/KbWen/agentic-os/">KbWen/agentic-os (stars:29)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/wshobson/agents/">wshobson/agents (stars:37579)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/KbWen/agentic-os/">KbWen/agentic-os (stars:57)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/RollingGo-AI/rollinggo-hotel-skill-CN/">RollingGo-AI/rollinggo-hotel-skill-CN (stars:37)</a></li>
 </ul></section>
 <section><h2>Explore by category</h2>
 <ul class="crosslinks">
