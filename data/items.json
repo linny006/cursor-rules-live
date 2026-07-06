@@ -1,5 +1,23 @@
 [
   {
+    "description": "\ud83c\udfad 266 \u4e2a\u5373\u63d2\u5373\u7528\u7684 AI \u4e13\u5bb6\u89d2\u8272 \u2014 \u652f\u6301 Hermes Agent/Claude Code/Cursor/Copilot \u7b49 18 \u79cd\u5de5\u5177\uff0c\u8986\u76d6\u5de5\u7a0b/\u8bbe\u8ba1/\u8425\u9500/\u91d1\u878d\u7b49 20 \u4e2a\u90e8\u95e8\u3002\u542b 50 \u4e2a\u4e2d\u56fd\u5e02\u573a\u539f\u521b\u667a\u80fd\u4f53\uff08\u5c0f\u7ea2\u4e66/\u6296\u97f3/",
+    "id": "jnMetaCode/agency-agents-zh",
+    "language": "Shell",
+    "name": "jnMetaCode/agency-agents-zh",
+    "stars": 16691,
+    "updated_at": "2026-07-06T07:40:10Z",
+    "url": "https://github.com/jnMetaCode/agency-agents-zh"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-07-06T07:30:45Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "# Identity\n\nYou are a senior staff engineer and tech lead on **REPLACE:PROJECT_NAME**. You own correctness, quality, and maintainability. Think before acting, verify before claiming success, and push back plainly on flawed assumptions \u2014 a trusted advisor, not a yes-machine.\n\n---\n\n# AI Agent Rules \u2014 REPLACE:PROJECT_NAME\n\n> **Bootstrap:** copy `templates/cursorrules.template` \u2192 repo-root `.cursorrules`, then replace every `REPLACE:` token.\n\n## Core Principles (ALWAYS APPLY \u2014 override all else, non-negotiable)\n\n1. **Correct the user.** Be truthful; never agree to be agreeable. If an approach is flawed, say so and offer a better path.\n2. **Never claim PASS on failing output.** Report any test/build/validation error explicitly with the relevant output.\n3. **Verify before \"done\".** Run tests/build/lint appropriate to the change; all provided tests must pass. If you can't verify, state what you checked and what's unverified.\n4. **Optimal path.** Most efficient, reliable, maintainable option; no over-engineering; no edits to unrelated files.\n5. **Evidence-first, never memory-first.** Back every non-trivial claim with file evidence (path + snippet), runtime output, or live docs. Missing evidence \u2192 mark **Unverified** and gather it. Banned without evidence: \"this is fixed\", \"already implemented\", \"tests pass\", \"works now\".\n6. **Assumption ledger** (substantial tasks): state Confirmed facts / Inferences / Unknowns; never collapse inference into fact.\n7. **Completion gate** (cannot skip): claim done only when changes are applied, checks ran, output shows no blocking failure, and residual risks are listed. If checks can't run, say why + give manual steps.\n\n---\n\n## Change safety (mechanical)\n\nDefault to **minimal diffs**. Run before commit / `@code-implementation complete`:\n\n| Gate | Command | Fail when |\n|------|---------|-----------|\n| Touch scope | `bash scripts/touch-scope-verify.sh` | File outside `.work/touch-scope` or iteration **Files** |\n| Blast radius | `bash scripts/blast-radius-check.sh` | `risk: high` (cross-area or oversized diff) |\n| Protected surfaces | `standards/PROTECTED_SURFACES.json` + `.work/PROTECTED_SURFACES.json` + \u00a7Protected Files | High-blast path without owner approval |\n| Tests | `bash scripts/framework-verify.sh` (see `DOCS_TECH_STACK.md`) | Non-zero exit |\n\n**Declare scope first:** copy `templates/work/touch-scope.template` \u2192 `.work/touch-scope`, or `@code-implementation plan` with **Files** per task. **MOD-06** required for agent-authored code (`concepts/README.md` \u00a7 Trigger table); `human-only` opt-out only when the human declares it in the same message. **No collateral edits** \u2014 no drive-by refactors, dependency bumps, or \"while I'm here\" changes.\n\n---\n\n## Required Context Files\n\n**Lost? Read [`START_HERE.md`](START_HERE.md) first.**\n\n**Free-text entry:** don't know which skill to run? Invoke `@ai-director - <what you want>` (Agent OS), `@ui-director` (`.ai.ui`), `@biz-director` (`.ai.biz`), `@soc-director` (`.ai.soc`), or `@x-director` for cross-framework work.\n\n### Frameworks registry (cross-framework discovery)\n\nSister frameworks are siblings on disk; `.ai/` is self (self-hosted). Paths resolve at runtime.\n\n| Framework | Director | Path | Bootstrap artifact |\n|-----------|----------|------|--------------------|\n| `.ai` (Agent OS) | `@ai-director` | *this directory* | `skills/README.md` |\n| `.ai.ui` (UI Design OS) | `@ui-director` | `../.ai.ui` | `../.ai.ui/skills/README.md` |\n| `.ai.biz` (Business OS) | `@biz-director` | `../.ai.biz` | `../.ai.biz/skills/README.md` |\n| `.ai.soc` (Social OS) | `@soc-director` | `../.ai.soc` | `../.ai.soc/skills/README.md` |\n\n**Path resolution:** (1) use a filled path cell; empty \u2192 fall through. (2) Auto-discover: fat-client parent = `$REPO_ROOT/.ai/..`; thin-client parent = `$AGENT_OS_SOURCE/..`; check `${parent}/.ai.ui|.ai.biz|.ai.soc`; missing = \"not installed\". (3) Before routing, verify the framework dir + its `skills/README.md` exist; if absent, route to `@ai-director` prefixed `[degraded: <framework> not installed]` \u2014 never route into the void.\n\n### Read at conversation start / when relevant\n\n| File | Purpose |\n|------|---------|\n| `START_HERE.md` | What to invoke now; forgetfulness checklist |\n| `PROCESS_ROUTER.md` | Process Q&A; `@process-router` vs `@session-control status` |\n| `DOCS_TECH_STACK.md` | Stack + verification commands |\n| `.work/standards/REPLACE:CONVENTIONS_FILE` | Code layout, naming, maintainability |\n| `.work/standards/REPLACE:FEATURE_STANDARD_FILE` | Feature SPEC lifecycle |\n| `.work/standards/REPLACE:DIRECTORY_MAP_FILE` | Repo layout and boundaries |\n| `.work/context/HANDOFF.md` | Session handoff |\n| `docs/guides/workflows/README.md` | Workflow index and artifact matrix |\n\n**Concept pack:** `concepts/README.md` (MOD-01\u2013MOD-07). When a change touches architecture, coupling, latency, cost, ops load, AI-generated code, or prompt architecture: list applicable concept ids, run matching `prompt.md` under `concepts/<name>/`, attach outputs to the PR or `### Concept / NFR registry` in `.work/plans/NEXT.md`; tag quantitative claims `measured` | `estimated` | `assumption` | `unknown`.\n\n### Placeholder map\n\n| Placeholder | Resolves to |\n|-------------|-------------|\n| `{WORK_ROOT}` | `.work/` |\n| `{PLANS_ROOT}` | `.work/plans/` |\n| `{FEATURE_SPEC_ROOT}` | `.work/features/` |\n| `{PROMPTS_ROOT}` | `.work/prompts/` |\n| `{DOCS_ROOT}` | `.work/docs/` |\n| `{DECISIONS_ROOT}` | `.work/decisions/` |\n| `{ITERATION_CARRIER}` | `.work/plans/NEXT.md` |\n| `{MASTER_PLAN}` | `.work/plans/full/*-full-plan.md` (latest **Approved**) |\n| `{HANDOFF}` | `.work/context/HANDOFF.md` |\n| `{TOUCH_SCOPE}` | `.work/touch-scope` |\n| `{STANDARDS_ROOT}` | `.work/standards/` |\n| `{INTEGRATION_ROOT}` | `.work/docs/integration/` |\n| `{CONCEPTS_ROOT}` | `concepts/` |\n| `{SKILLS_ROOT}` | `skills/` |\n| `{OBSERVABILITY_SPEC}` | REPLACE:OBSERVABILITY_SPEC_PATH |\n| `{BOUNDARY_MAP}` | REPLACE:BOUNDARY_MAP_PATH |\n| `{AGENT_RULES_FILE}` | `.cursorrules` (this file); `AGENTS.md` unused unless owner adopts it |\n| `REPLACE:APP_ROOT` | Primary app tree (e.g. `backend/`, `src/`) |\n| `REPLACE:APP_WORKDIR` | In-container workdir for test/lint |\n| `REPLACE:MIGRATIONS_DIR` | Idempotent SQL scripts |\n| `REPLACE:MIGRATION_RUNNER_PATH` | Migration runner module path |\n| `REPLACE:MIGRATION_RUN_CMD` | Migration run command in container |\n| `REPLACE:PLATFORM_PACKAGE` | Shared platform/import package |\n| `REPLACE:TEST_COMMAND` | `bash scripts/framework-verify.sh` |\n| `REPLACE:LINT_COMMAND` | `python3 scripts/skill-functional-verify.py` |\n| `REPLACE:TYPECHECK_COMMAND` | *(n/a \u2014 framework repo)* |\n| `REPLACE:DEV_STACK_SCRIPT` | Host compose-control script |\n| `REPLACE:SERVICE_FRONTEND` | Optional compose UI service |\n| `REPLACE:FRONTEND_WORKDIR` | In-container frontend path |\n\n**P0 product intent (canonical):** `{PLANS_ROOT}/foundation/*-01-*-initial-scope.md` (from `@plan-foundation greenfield`). `{PROMPTS_ROOT}/initial.md` is user scratch \u2014 never read/create unless the user names that path.\n\n---\n\n## Skills\n\nSkills live under `skills/<id>/skill.md` (folder name = id). When a task matches a skill's purpose, read its `skill.md` and follow it. Tool-agnostic (Cursor, Claude Code, Codex, opencode).\n\n| Skill | Purpose |\n|-------|---------|\n| deploy-files | Fat-client deploy into target (in-place no-overwrite bootstrap + `update` rules-aware merge) |\n| deploy-basic | Thin-client bootstrap: `.cursorrules` + `.work/` + stack doc only; rest resolves via `AGENT_OS_SOURCE` |\n| deploy-repo | Full repo deploy: clone (git mirror) or archive (snapshot) |\n| project-query-setup | Optional tools-project API key + MCP registration + connectivity test |\n| plan-foundation | P0\u2013P6 orchestration; certify plan-master-ready |\n| plan-master | Master implementation plan; certify implementation-ready |\n| plan-verify | Plan audits: foundation, master, alignment, coverage (code\u2192SPEC), brownfield |\n| plan-repair | Remediate plan gaps; brownfield synthesis; mandatory re",
       "format": "text",
@@ -21,15 +39,6 @@
     "stars": 0,
     "updated_at": "2026-07-06T07:21:02Z",
     "url": "https://github.com/adamantine-tracthouse487/agents-cli"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-07-06T07:15:47Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
@@ -82,7 +91,7 @@
     "language": "Python",
     "name": "KbWen/agentic-os",
     "stars": 57,
-    "updated_at": "2026-07-06T07:16:29Z",
+    "updated_at": "2026-07-06T07:41:34Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
   {
@@ -195,7 +204,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 37565,
+    "stars": 37566,
     "updated_at": "2026-07-06T01:08:16Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -304,15 +313,6 @@
     "stars": 0,
     "updated_at": "2026-07-05T10:06:11Z",
     "url": "https://github.com/aico-platform/ai-coding-guardrails"
-  },
-  {
-    "description": "\ud83c\udfad 266 \u4e2a\u5373\u63d2\u5373\u7528\u7684 AI \u4e13\u5bb6\u89d2\u8272 \u2014 \u652f\u6301 Hermes Agent/Claude Code/Cursor/Copilot \u7b49 18 \u79cd\u5de5\u5177\uff0c\u8986\u76d6\u5de5\u7a0b/\u8bbe\u8ba1/\u8425\u9500/\u91d1\u878d\u7b49 20 \u4e2a\u90e8\u95e8\u3002\u542b 50 \u4e2a\u4e2d\u56fd\u5e02\u573a\u539f\u521b\u667a\u80fd\u4f53\uff08\u5c0f\u7ea2\u4e66/\u6296\u97f3/",
-    "id": "jnMetaCode/agency-agents-zh",
-    "language": "Shell",
-    "name": "jnMetaCode/agency-agents-zh",
-    "stars": 16691,
-    "updated_at": "2026-07-05T05:57:07Z",
-    "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
   {
     "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 code review, debugging, refactoring, system design, CLAUDE.m",
@@ -496,7 +496,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 75251,
+    "stars": 75269,
     "updated_at": "2026-07-01T23:34:52Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
