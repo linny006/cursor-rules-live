@@ -84,7 +84,7 @@ Default to **minimal diffs**. Run before commit / `@code-implementation complete
 |------|---------|-----------|
 | Touch scope | `bash scripts/touch-scope-verify.sh` | File outside `.work/touch-scope` or iteration **Files** |
 | Blast radius | `bash scripts/blast-radius-check.sh` | `risk: high` (cross-area or oversized diff) |
-| Protected surfaces | `standards/PROTECTED_SURFACES.json` + §Protected Files | High-blast path without owner approval |
+| Protected surfaces | `standards/PROTECTED_SURFACES.json` + `.work/PROTECTED_SURFACES.json` + §Protected Files | High-blast path without owner approval |
 | Tests | `bash scripts/framework-verify.sh` (see `DOCS_TECH_STACK.md`) | Non-zero exit |
 
 **Declare scope first:** copy `templates/work/touch-scope.template` → `.work/touch-scope`, or `@code-implementation plan` with **Files** per task. **MOD-06** required for agent-authored code (`concepts/README.md` § Trigger table); `human-only` opt-out only when the human declares it in the same message. **No collateral edits** — no drive-by refactors, dependency bumps, or &quot;while I&#x27;m here&quot; changes.
@@ -117,9 +117,9 @@ Sister frameworks are siblings on disk; `.ai/` is self (self-hosted). Paths reso
 | `START_HERE.md` | What to invoke now; forgetfulness checklist |
 | `PROCESS_ROUTER.md` | Process Q&amp;A; `@process-router` vs `@session-control status` |
 | `DOCS_TECH_STACK.md` | Stack + verification commands |
-| `standards/REPLACE:CONVENTIONS_FILE` | Code layout, naming, maintainability |
-| `standards/REPLACE:FEATURE_STANDARD_FILE` | Feature SPEC lifecycle |
-| `standards/REPLACE:DIRECTORY_MAP_FILE` | Repo layout and boundaries |
+| `.work/standards/REPLACE:CONVENTIONS_FILE` | Code layout, naming, maintainability |
+| `.work/standards/REPLACE:FEATURE_STANDARD_FILE` | Feature SPEC lifecycle |
+| `.work/standards/REPLACE:DIRECTORY_MAP_FILE` | Repo layout and boundaries |
 | `.work/context/HANDOFF.md` | Session handoff |
 | `docs/guides/workflows/README.md` | Workflow index and artifact matrix |
 
@@ -139,20 +139,20 @@ Sister frameworks are siblings on disk; `.ai/` is self (self-hosted). Paths reso
 | `{MASTER_PLAN}` | `.work/plans/full/*-full-plan.md` (latest **Approved**) |
 | `{HANDOFF}` | `.work/context/HANDOFF.md` |
 | `{TOUCH_SCOPE}` | `.work/touch-scope` |
+| `{STANDARDS_ROOT}` | `.work/standards/` |
+| `{INTEGRATION_ROOT}` | `.work/docs/integration/` |
 | `{CONCEPTS_ROOT}` | `concepts/` |
 | `{SKILLS_ROOT}` | `skills/` |
 | `{OBSERVABILITY_SPEC}` | REPLACE:OBSERVABILITY_SPEC_PATH |
 | `{BOUNDARY_MAP}` | REPLACE:BOUNDARY_MAP_PATH |
-| `{AGENT_RULES_FILE}` | `.cursorrules` (this file); `AGENTS.md` unused unless owner adopts it |
-| `REPLACE:APP_ROOT` | Primary app tree (e.g. `backend/`, `src/`) |
-| `REPLACE:APP_WORKDIR` | In-c</code></pre>
+| `{AGENT_RULES_FILE}` | `.cursorrules` (this </code></pre>
 <p><em>Content truncated. View full file in the source repo (linked above).</em></p><p><a href="https://github.com/PiloTracer/.ai/blob/HEAD/.cursorrules" rel="external">View raw on GitHub</a></p>
 </section>
 <section><h2>Why this is listed</h2>
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>
 <ul class="crosslinks">
-<li><a href="https://linny006.github.io/cursor-rules-live/r/jnMetaCode/agency-agents-zh/">jnMetaCode/agency-agents-zh (stars:16678)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/jnMetaCode/agency-agents-zh/">jnMetaCode/agency-agents-zh (stars:16680)</a></li>
 <li><a href="https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/">danielvm-git/bigpowers (stars:24)</a></li>
 <li><a href="https://linny006.github.io/cursor-rules-live/r/mikeprasad/aria-knowledge/">mikeprasad/aria-knowledge (stars:16)</a></li>
 </ul></section>
