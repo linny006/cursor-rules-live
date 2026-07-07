@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-07-07 00:15 UTC
+> ⏰ Last updated: 2026-07-07 00:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,11 +53,11 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-07-07 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
-| 2 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-07-07 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
-| 3 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 28 | Shell | 2026-07-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | 72 agent skills synthesizing 17 years of software engineering discipline into a prescriptive methodology for solo develo |
-| 4 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-07-07 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 5 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 75926 | JavaScript | 2026-07-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 1 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 75932 | JavaScript | 2026-07-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-07-07 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 3 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-07-07 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
+| 4 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-07-07 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
+| 5 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 28 | Shell | 2026-07-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | 72 agent skills synthesizing 17 years of software engineering discipline into a prescriptive methodology for solo develo |
 | 6 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 0 | HTML | 2026-07-06 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
 | 7 | [nota-america/forgecat-agent-profiles](https://github.com/nota-america/forgecat-agent-profiles) | 14 | TypeScript | 2026-07-07 | — | Production-ready AI agent profiles for Claude Code, Cursor, and Codex. Search, install, and contribute ForgeCat packages |
 | 8 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 1 | HTML | 2026-07-06 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
@@ -90,9 +90,9 @@ expired items removed — so you can rely on what you see being current.
 | 35 | [plumpslabs/matcha](https://github.com/plumpslabs/matcha) | 1 | JavaScript | 2026-07-06 | — | 🍵 Deliberate engineering guidelines & deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block |
 | 36 | [taniwhaai/arai](https://github.com/taniwhaai/arai) | 6 | Rust | 2026-07-06 | — | Your AI assistant reads CLAUDE.md and ignores it anyway. Arai makes instruction files enforced — hooks that block, a tam |
 | 37 | [glowElephant/context-forge](https://github.com/glowElephant/context-forge) | 2 | Python | 2026-07-06 | — | Auto harness engineering meta-repo: discuss → curate → bootstrap a context-engineered project for Claude Code, Cursor, C |
-| 38 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 16736 | Shell | 2026-07-06 | — | 🎭 266 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 50 个中国市场原创智能体（小红书/抖音/ |
+| 38 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 16737 | Shell | 2026-07-06 | — | 🎭 266 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 50 个中国市场原创智能体（小红书/抖音/ |
 | 39 | [fluttersdk/wind](https://github.com/fluttersdk/wind) | 23 | Dart | 2026-07-06 | — | Tailwind CSS for Flutter — classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code  |
-| 40 | [wshobson/agents](https://github.com/wshobson/agents) | 37591 | Python | 2026-07-06 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI |
+| 40 | [wshobson/agents](https://github.com/wshobson/agents) | 37592 | Python | 2026-07-06 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI |
 | 41 | [anmolnagpal/devops-skills](https://github.com/anmolnagpal/devops-skills) | 7 | Shell | 2026-07-05 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/anmolnagpal/devops-skills/) | Multi-tool DevOps skills for Claude Code, Cursor, and Codex — Terraform, Kubernetes, Docker, GitHub Actions, GitLab CI,  |
 | 42 | [L4pisLazuli/cursor_obsidian_vault](https://github.com/L4pisLazuli/cursor_obsidian_vault) | 0 | — | 2026-07-05 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/L4pisLazuli/cursor_obsidian_vault/) | Template Obsidian vault wired for Cursor agents — glob-scoped rules, temp→persistent→analysis workflow, Git conventions. |
 | 43 | [aico-platform/ai-coding-guardrails](https://github.com/aico-platform/ai-coding-guardrails) | 0 | Shell | 2026-07-05 | — | Stop AI coding agents from shipping untested changes. MIT-licensed operating contract, rules, and commands for Claude Co |
