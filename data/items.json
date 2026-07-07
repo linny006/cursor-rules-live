@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-07-07T04:30:36Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: Living Blueprint-as-Code (LBaC) \u2014 Project Rules for Cursor AI\nglobs: [\"**/*.md\", \"**/*.js\", \"**/*.ts\", \"**/*.py\", \"**/*.java\", \"**/*.dart\"]\nalwaysApply: true\n---\n\n# LBaC Project Rules\n\n> **MANDATORY:** Before starting any task, read [`.agents/AGENTS.md`](../../.agents/AGENTS.md) and [`docs/LBAC.md`](../../docs/LBAC.md).\n\n## Mandatory Workflow\n\n1.  **READ** the relevant Feature Map in `docs/features/` (As-Is / To-Be / BDD criteria).\n2.  **CHECK** `docs/technical_debt.md` for related cleanup items.\n3.  **PLAN** \u2014 Create an Implementation Plan in `docs/implementations/` using the template. Present it and **wait for explicit approval before writing code**.\n4.  **CODE** in an isolated branch.\n5.  **VERIFY** \u2014 Complete the Verification Report in `docs/implementations/` confirming all BDD scenarios pass.\n\n## Hard Constraints\n\n- \u274c Never create files, models, or database schemas that already exist in the project.\n- \u274c Never rewrite entire files \u2014 provide localized diff-style edits only.\n- \u274c Never skip the Implementation Plan step.\n- \u2705 Use English for all AI-consumed files (`docs/features/`, `docs/LBAC.md`, `docs/technical_debt.md`, `.agents/AGENTS.md`).\n- \u2705 Use local language (e.g., Espa\u00f1ol) for stakeholder files (`docs/business/`, `docs/adr/`, `docs/planning/*_qa.md`).\n- \u2705 Format all file paths as clickable `file:///` links in responses.\n\n## Reference\n\n\u2192 [`.agents/AGENTS.md`](../../.agents/AGENTS.md)  \n\u2192 [`docs/LBAC.md`](../../docs/LBAC.md)\n",
       "format": "mdc",
@@ -12,15 +21,6 @@
     "stars": 0,
     "updated_at": "2026-07-07T04:26:01Z",
     "url": "https://github.com/dwsilvar/LBaC"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-07-07T04:15:25Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Build and manage agents for the Gemini Enterprise Agent Platform with this command-line interface and skill library.",
@@ -155,7 +155,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 76076,
+    "stars": 76084,
     "updated_at": "2026-07-07T02:06:38Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -201,7 +201,7 @@
     "language": "TypeScript",
     "name": "nota-america/forgecat-agent-profiles",
     "stars": 14,
-    "updated_at": "2026-07-07T00:33:02Z",
+    "updated_at": "2026-07-07T04:31:56Z",
     "url": "https://github.com/nota-america/forgecat-agent-profiles"
   },
   {
@@ -415,7 +415,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 16758,
+    "stars": 16760,
     "updated_at": "2026-07-06T07:40:10Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
