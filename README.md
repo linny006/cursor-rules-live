@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-07-07 22:46 UTC
+> ⏰ Last updated: 2026-07-07 23:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -72,7 +72,7 @@ expired items removed — so you can rely on what you see being current.
 | 17 | [zinxj/uikit-expert-skill](https://github.com/zinxj/uikit-expert-skill) | 3 | — | 2026-07-07 | — | Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan |
 | 18 | [balacodeio/balakit](https://github.com/balacodeio/balakit) | 0 | JavaScript | 2026-07-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/balacodeio/balakit/) | Opinionated, cross-agent rules and skills for AI coding agents — one npx install into Cursor, Claude Code, Codex, OpenCo |
 | 19 | [johnwall123459885/skene-cookbook](https://github.com/johnwall123459885/skene-cookbook) | 0 | Python | 2026-07-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/johnwall123459885/skene-cookbook/) | 🤖 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development. |
-| 20 | [wshobson/agents](https://github.com/wshobson/agents) | 37638 | Python | 2026-07-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI |
+| 20 | [wshobson/agents](https://github.com/wshobson/agents) | 37639 | Python | 2026-07-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI |
 | 21 | [Luxvil/ai-coding-rules](https://github.com/Luxvil/ai-coding-rules) | 3 | Shell | 2026-07-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Luxvil/ai-coding-rules/) | 🤖 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje |
 | 22 | [anmolnagpal/devops-skills](https://github.com/anmolnagpal/devops-skills) | 7 | Shell | 2026-07-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/anmolnagpal/devops-skills/) | Multi-tool DevOps skills for Claude Code, Cursor, and Codex — Terraform, Kubernetes, Docker, GitHub Actions, GitLab CI,  |
 | 23 | [sungurerdim/dev-skills](https://github.com/sungurerdim/dev-skills) | 1 | HTML | 2026-07-07 | — | Your AI assistant hallucinates APIs, breaks dependent files, and weakens tests. 20 skills that prevent this across the f |
@@ -91,13 +91,13 @@ expired items removed — so you can rely on what you see being current.
 | 36 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 16807 | Shell | 2026-07-07 | — | 🎭 266 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 50 个中国市场原创智能体（小红书/抖音/ |
 | 37 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 60 | Python | 2026-07-07 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
 | 38 | [dwsilvar/LBaC](https://github.com/dwsilvar/LBaC) | 0 | — | 2026-07-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/dwsilvar/LBaC/) | Living Blueprint-as-Code (LBaC) template to align human developers and AI coding agents (Copilot, Claude, Cursor, Windsu |
-| 39 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 76873 | JavaScript | 2026-07-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 39 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 76880 | JavaScript | 2026-07-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 40 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 16 | HTML | 2026-07-07 | — | Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior |
 | 41 | [nota-america/forgecat-agent-profiles](https://github.com/nota-america/forgecat-agent-profiles) | 14 | TypeScript | 2026-07-07 | — | Production-ready AI agent profiles for Claude Code, Cursor, and Codex. Search, install, and contribute ForgeCat packages |
 | 42 | [PiloTracer/.ai](https://github.com/PiloTracer/.ai) | 0 | Shell | 2026-07-06 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/PiloTracer/.ai/) | Portable process framework for software teams shipping with coding agents (Cursor, Claude Code, Codex, opencode). Skills |
 | 43 | [FlamingPanda101/Gollum-Voice](https://github.com/FlamingPanda101/Gollum-Voice) | 0 | — | 2026-07-06 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/FlamingPanda101/Gollum-Voice/) | Make your AI agent talk like Gollum/Sméagol from The Lord of the Rings — a fun, toggleable persona skill with a 575-line |
 | 44 | [RollingGo-AI/rollinggo-hotel-skill-CN](https://github.com/RollingGo-AI/rollinggo-hotel-skill-CN) | 40 | Python | 2026-07-06 | — | 全球酒店实时推荐及闭环预订Skill，200 万+酒店，全球第三大酒旅B2B公司数据源，免费无调用上限。可按地点、日期、星级、人数、标签等条件搜索酒店列表，返回候选酒店及展示价。可查询指定酒店的实时房型列表、价格计划和取消政策。可锁定价格， |
-| 45 | [peva3/anchor](https://github.com/peva3/anchor) | 2 | Python | 2026-07-06 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/peva3/anchor/) | Anchor — the production-grade AGENTS.md template for AI coding agents. 51 sections of battle-tested rules. Keep your age |
+| 45 | [peva3/anchor](https://github.com/peva3/anchor) | 3 | Python | 2026-07-06 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/peva3/anchor/) | Anchor — the production-grade AGENTS.md template for AI coding agents. 51 sections of battle-tested rules. Keep your age |
 | 46 | [Mark393295827/third-brain-v5-skills](https://github.com/Mark393295827/third-brain-v5-skills) | 118 | HTML | 2026-07-06 | — | agent wiki |
 | 47 | [VirtusLab-Open-Source/astro-strapi-blocks](https://github.com/VirtusLab-Open-Source/astro-strapi-blocks) | 19 | TypeScript | 2026-07-06 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/VirtusLab-Open-Source/astro-strapi-blocks/) | Astro blocks for Strapi Rich Text Block field |
 | 48 | [GeiserX/homebrew-lynxprompt](https://github.com/GeiserX/homebrew-lynxprompt) | 1 | Ruby | 2026-07-06 | — | Homebrew tap for LynxPrompt CLI |
