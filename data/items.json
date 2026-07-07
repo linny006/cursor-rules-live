@@ -6,12 +6,12 @@
       "path": ".cursor/rules/analysis-workflow.mdc"
     },
     "description": "Template Obsidian vault wired for Cursor agents \u2014 glob-scoped rules, temp\u2192persistent\u2192analysis workflow, Git conventions.",
-    "id": "L4pisLazuli/cursor_obsidian_vault",
+    "id": "L4pisLazuli/cursor_obsidian_templete",
     "language": "\u2014",
-    "name": "L4pisLazuli/cursor_obsidian_vault",
+    "name": "L4pisLazuli/cursor_obsidian_templete",
     "stars": 0,
-    "updated_at": "2026-07-07T15:53:58Z",
-    "url": "https://github.com/L4pisLazuli/cursor_obsidian_vault"
+    "updated_at": "2026-07-07T16:12:09Z",
+    "url": "https://github.com/L4pisLazuli/cursor_obsidian_templete"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -19,7 +19,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-07-07T15:51:06Z",
+    "updated_at": "2026-07-07T16:00:50Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -33,7 +33,7 @@
     "language": "Python",
     "name": "wshobson/agents",
     "stars": 37634,
-    "updated_at": "2026-07-07T15:42:03Z",
+    "updated_at": "2026-07-07T16:07:14Z",
     "url": "https://github.com/wshobson/agents"
   },
   {
@@ -383,7 +383,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 76631,
+    "stars": 76641,
     "updated_at": "2026-07-07T02:06:38Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
