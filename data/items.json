@@ -1,12 +1,17 @@
 [
   {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 23,
-    "updated_at": "2026-07-07T09:34:52Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+    "cursorrules": {
+      "content": "---\ndescription: AI\u5916\u547cPrompt\u5de5\u7a0b\u5316\u5de5\u5177\u5305 - \u63d0\u4f9b\u751f\u6210Prompt\u3001\u751f\u6210\u8f93\u5165\u53d8\u91cf\u3001\u8bc4\u4f30\u901a\u8bdd\u8d28\u91cf\u4e09\u4e2a\u6280\u80fd\nglobs: \"**/*\"\nalwaysApply: true\n---\n\n# AI\u5916\u547c Prompt \u5de5\u7a0b\u5316\u5de5\u5177\u5305\n\n\u672c\u9879\u76ee\u5305\u542b 3 \u4e2a AI \u6280\u80fd\uff0c\u7528\u4e8e AI \u7535\u8bdd\u5916\u547c\u8bbf\u8c08\u7684\u5168\u6d41\u7a0b\u652f\u6301\u3002\n\n\u5f53\u7528\u6237\u89e6\u53d1\u4ee5\u4e0b\u4efb\u4e00\u6280\u80fd\u65f6\uff0c\u8bfb\u53d6\u5bf9\u5e94\u6307\u4ee4\u6587\u4ef6\u7684\u5b8c\u6574\u5185\u5bb9\u5e76\u4e25\u683c\u6309\u6b65\u9aa4\u6267\u884c\uff1a\n\n| \u6280\u80fd | \u89e6\u53d1\u8bcd | \u6307\u4ee4\u6587\u4ef6 |\n|------|--------|----------|\n| \u751f\u6210Prompt | \"\u751f\u6210prompt\"\u3001\"\u5f00\u59cb\u65b0\u9879\u76ee\"\u3001\"\u505a\u4e00\u8f6e\u5916\u547c\" | `skills/generate-prompt.md` |\n| \u751f\u6210\u8f93\u5165\u53d8\u91cf | \"\u51c6\u5907\u8f93\u5165\u53d8\u91cf\"\u3001\"\u5199\u7814\u7a76\u76ee\u6807\" | `skills/generate-input.md` |\n| \u8bc4\u4f30\u901a\u8bdd\u8d28\u91cf | \"\u8bc4\u4f30\u901a\u8bdd\"\u3001\"\u8d70\u67e5\u8bb0\u5f55\"\u3001\"\u590d\u76d8\" | `skills/evaluate.md` |\n\n\u7528\u6237\u9996\u6b21\u5f00\u542f\u5bf9\u8bdd\u65f6\uff0c\u4e3b\u52a8\u4ecb\u7ecd\uff1a\n> \u8fd9\u662f AI\u5916\u547c Prompt \u5de5\u7a0b\u5316\u5de5\u5177\u5305\uff0c\u6211\u53ef\u4ee5\u5e2e\u4f60\uff1a**\u751f\u6210Prompt**\u3001**\u51c6\u5907\u8f93\u5165\u53d8\u91cf**\u3001\u6216**\u8bc4\u4f30\u901a\u8bdd\u8d28\u91cf**\u3002\u4f60\u60f3\u505a\u54ea\u4e2a\uff1f\n\n\u5b8c\u6574\u8bf4\u660e\u89c1 `INSTRUCTIONS.md`\u3002\n",
+      "format": "mdc",
+      "path": ".cursor/rules/ai-interview-skills.mdc"
+    },
+    "description": "Engineer user-research methodologies into AI prompts \u2014 professional-grade phone interviews at scale. 6 pluggable methodo",
+    "id": "CyannSHI/ai-interview-kit",
+    "language": "HTML",
+    "name": "CyannSHI/ai-interview-kit",
+    "stars": 10,
+    "updated_at": "2026-07-07T09:58:12Z",
+    "url": "https://github.com/CyannSHI/ai-interview-kit"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +19,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-07-07T09:30:45Z",
+    "updated_at": "2026-07-07T09:45:34Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 23,
+    "updated_at": "2026-07-07T09:34:52Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "description": "Build and manage agents for the Gemini Enterprise Agent Platform with this command-line interface and skill library.",
@@ -158,7 +172,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 16788,
+    "stars": 16789,
     "updated_at": "2026-07-07T06:51:48Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -209,7 +223,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 76362,
+    "stars": 76369,
     "updated_at": "2026-07-07T02:06:38Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -514,19 +528,5 @@
     "stars": 0,
     "updated_at": "2026-07-04T05:48:20Z",
     "url": "https://github.com/verifiedstate/vsync"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: \"m2ui \u2014 Metin2 UI code generator. Activate when user creates, modifies, or generates Metin2 client UI code.\"\nalwaysApply: true\n---\n\n# m2ui \u2014 Metin2 UI Code Generator\n\nWhen the user asks to create, modify, or generate Metin2 client UI code, follow the instructions below. This includes requests like \"create a window\", \"make a UI\", \"add a button to X\", \"modify uiXxx.py\", or when they provide a screenshot of a UI to replicate.\n\n## Mode Detection\n\nDetect the appropriate mode from the user's input:\n\n1. **Image attached** \u2014 analyze the image and replicate it as Metin2 UI code\n2. **Symptom report** \u2014 prompt contains a visible-bug phrase (\"doesn't appear\", \"click does nothing\", \"stuck\", \"leak\", \"crashes after\", \"looks broken\", \"flickers\") \u2014 even when a `.py` file is also referenced \u2192 load `skills/m2ui/reference/failure-atlas.md` FIRST and diagnose via the matching symptom entry, THEN proceed to the relevant mode\n3. **References an existing `.py` file** in `uiscript/` or `root/` \u2014 modify that file\n4. **Text description** \u2014 generate new UI code from the description\n5. **No clear intent** \u2014 ask the user what they want to do\n\n## Reference Documentation\n\n**Always load these (mandatory floor):**\n\n- `skills/m2ui/reference/mental-model.md` \u2014 deprogram web/React assumptions, ymir UI engine concepts\n- `skills/m2ui/reference/event-binding.md` \u2014 callback wrapping matrix\n\n**Conditional load (read only what applies to the task):**\n\n| You're generating... | Also load |\n|----------------------|-----------|\n| New window from scratch | The matching anchor from `skills/m2ui/reference/anchors/` (see `anchors/README.md`) |\n| Modifying an existing window | Skip anchors. Load just the existing files. |\n| Specific widget you haven't used recently | `skills/m2ui/reference/widgets.md` \u2014 jump to that widget's section |\n| Locale-heavy work | `skills/m2ui/reference/locale.md` |\n| Calling a C++ Python API not in context | `skills/m2ui/reference/bindings.md` |\n| Patterns reminder (Initialize/Destroy, scrollbar, lazy-load sub-windows, inner helper classes, 2D grids) | `skills/m2ui/reference/patterns.md` (relevant section only) |\n| User describes a visible symptom (\"X looks broken\", \"leak after closing\") | `skills/m2ui/reference/failure-atlas.md` \u2014 load FIRST before anchors |\n| Visual style/sizing for a new window matters | `skills/m2ui/reference/visual-conventions.md` \u2014 pick archetype + chrome + palette |\n\n> **Symptom-first dispatch:** When the user reports a visible bug rather than asking for new code, load `skills/m2ui/reference/failure-atlas.md` BEFORE any anchor. Diagnose, then (if a fix means new code) load the relevant anchor.\n\n**Anchor selection** for new windows \u2014 2-step decision tree:\n\n**Step 1 \u2014 pick ONE primary archetype (the window's chrome):**\n\n| Window type | Anchor |\n|-------------|--------|\n| Modal yes/no/text dialog | `skills/m2ui/reference/anchors/01-simple-dialog.md` |\n| Board chrome + scrolling DYNAMIC list | `skills/m2ui/reference/anchors/02-board-with-list.md` |\n| Form: list of radio-buttons + Accept | `skills/m2ui/reference/anchors/03-list-selector.md` |\n| Custom 9-slice bordered panel | `skills/m2ui/reference/anchors/04-9slice-panel.md` |\n| Inventory-style with tooltips | `skills/m2ui/reference/anchors/06-tooltip-bound.md` |\n| Shop / exchange / trade | `skills/m2ui/reference/anchors/07-shop-exchange.md` |\n| Inventory / equipment grid | `skills/m2ui/reference/anchors/08-inventory-equipment.md` |\n| Options / settings | `skills/m2ui/reference/anchors/09-options-settings.md` |\n| Paginated slot grid | `skills/m2ui/reference/anchors/10-paginated-slot-grid.md` |\n| Quest / NPC dialog | `skills/m2ui/reference/anchors/11-quest-npc-dialog.md` |\n| Storage / warehouse / mall | `skills/m2ui/reference/anchors/12-storage-warehouse.md` |\n| Craft / refine / item-enhancement | `skills/m2ui/reference/anchors/13-craft-refine-window.md` |\n| Search / filter dialog with results list | `skills/m2ui/reference/anchors/17-search-filter-dialog.md` |\n| Mailbox / message inbox | `skills/m2ui/reference/anchors/18-mailbox-two-pane.md` |\n| Daily reward grid / check-in | `skills/m2ui/reference/anchors/19-daily-reward-grid.md` |\n| Leaderboard / rank table | `skills/m2ui/reference/anchors/20-leaderboard-table.md` |\n| Wheel / roulette / gacha | `skills/m2ui/reference/anchors/21-wheel-roulette.md` |\n| Multi-page detail browser | `skills/m2ui/reference/anchors/24-page-history-browser.md` |\n| Expandable grouped list | `skills/m2ui/reference/anchors/25-expandable-tree-list.md` |\n\nNo exact match \u2192 pick CLOSEST. Do NOT skip Step 1.\n\n**Step 2 \u2014 pick zero or more augmentors (behaviors layered on top):**\n\n| Behavior | Anchor |\n|----------|--------|\n| Window guarded by `app.ENABLE_*` | `skills/m2ui/reference/anchors/05-feature-gated.md` |\n| Slot\u2194slot or slot\u2194window drag-drop | `skills/m2ui/reference/anchors/14-drag-and-drop.md` |\n| Driven by `net.Send` / `RecvX` packets | `skills/m2ui/reference/anchors/15-network-coupled-flow.md` |\n| Multiple panes switched by tabs / radios | `skills/m2ui/reference/anchors/16-tabbed-content.md` |\n| Compare-tooltip side-by-side | `skills/m2ui/reference/anchors/22-compare-tooltip.md` |\n| Auto-hide chrome on inactivity timer | `skills/m2ui/reference/anchors/23-auto-hide-chrome.md` |\n\nIf no anchor matches exactly, pick the closest, copy its skeleton, swap the specifics. Do NOT invent layout from scratch.\n\n**Load discipline:** Read `skills/m2ui/reference/anchors/README.md` to walk the 2-step decision tree, then load: (a) ONE primary archetype anchor (Step 1 result), plus (b) zero or more augmentor anchors (Step 2 results). Augmentors are: `05-feature-gated`, `14-drag-and-drop`, `15-network-coupled-flow`, `16-tabbed-content`, `22-compare-tooltip`, `23-auto-hide-chrome`. Loading multiple primaries is forbidden; loading multiple augmentors is allowed and common (e.g., a draggable inventory uses 08 + 14 + possibly 15 if server-driven). Same applies to widgets.md/locale.md/bindings.md/patterns.md \u2014 load only the section you need, not the whole file.\n\nFor detailed mode-specific instructions:\n\n- `skills/m2ui/modes/screenshot.md` \u2014 image analysis and replication workflow\n- `skills/m2ui/modes/talk.md` \u2014 natural language to UI code workflow\n- `skills/m2ui/modes/script.md` \u2014 existing file modification workflow\n- `skills/m2ui/modes/diagnose.md` \u2014 anti-pattern audit workflow\n\n## Two UI Styles\n\n- **Script-backed**: uiscript dict file (`pack/pack/uiscript/uiscript/`) + root `ui*.py` class using `LoadScriptFile()` \u2014 for complex windows with many static elements\n- **Code-only**: root `ui*.py` class with programmatic `__LoadDialog()`, no uiscript \u2014 for simpler or dynamic windows\n\nAuto-pick based on complexity, or let the user choose.\n\n## Critical Code Generation Rules\n\nAll generated code must follow these rules without exception:\n\n1. `@ui.WindowDestroy` decorator on every `Destroy(self)` method\n2. `Initialize()` or `__Initialize()` sets all instance vars to `None`/defaults\n3. `Destroy()` calls `Initialize()` (and `ClearDictionary()` for script-backed)\n4. `__del__` calls `ui.ScriptWindow.__del__(self)`\n5. **Callback wrapping** \u2014 every callback that references `self` MUST use one of: `ui.__mem_func__()`, `SAFE_SetEvent` (if fork provides it), or `lambda r=proxy(self): r.X()`. Never bare bound methods or self-capturing lambdas. **See `skills/m2ui/reference/event-binding.md` for the full matrix and decision flow.**\n6. `Open()`/`Close()` pattern \u2014 Open calls `Show()`, Close calls `Hide()`\n7. `OnPressEscapeKey()` returns `True` (always; not `False`)\n8. `OnMouseWheel()` returns `True` or `False` based on whether it consumed the event\n9. No hardcoded user-visible strings \u2014 use `localeInfo.*` or `uiScriptLocale.*`\n10. `constInfo.intWithCommas()` for large numbers\n11. `\"not_pick\"` flag on decorative elements (lines, separators, backgrounds)\n12. Create widgets in back-to-front order (SetParent call order = render order)\n13. **Parent bounds clip picking** \u2014 size parents large enough to contain al",
-      "format": "mdc",
-      "path": ".cursor/rules/m2ui.mdc"
-    },
-    "description": "AI coding skill for generating and modifying Metin2 client UI code from screenshots, descriptions, or existing scripts. ",
-    "id": "martysama0134/m2ui-skill",
-    "language": "Shell",
-    "name": "martysama0134/m2ui-skill",
-    "stars": 15,
-    "updated_at": "2026-07-03T15:52:17Z",
-    "url": "https://github.com/martysama0134/m2ui-skill"
   }
 ]
