@@ -1,5 +1,46 @@
 [
   {
+    "description": "Build and manage agents for the Gemini Enterprise Agent Platform with this command-line interface and skill library.",
+    "id": "adamantine-tracthouse487/agents-cli",
+    "language": "Python",
+    "name": "adamantine-tracthouse487/agents-cli",
+    "stars": 0,
+    "updated_at": "2026-07-07T18:42:30Z",
+    "url": "https://github.com/adamantine-tracthouse487/agents-cli"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Maintain CHANGELOG.md for significant changes; grouped by type (Features, Fixes, Changes); source for GitHub release notes\nalwaysApply: true\n---\n\n# Changelog maintenance\n\n## When to update\n\nUpdate `CHANGELOG.md` (at project root) whenever you or the user:\n\n- Add a **new feature**\n- Ship a **significant fix** (bug fix that affects behavior or correctness)\n- Make a **notable change** (refactor, config, dependency, or UX change worth documenting)\n- Remove or deprecate something user-facing\n\nDo **not** add trivial edits (typos, comment-only, formatting-only) unless the user asks.\n\n## Format (grouped by type)\n\n- **Unreleased at top.** The first section is `## [Unreleased]` for changes not yet in a release.\n- **Released versions below.** Each release has a section `## [vX.Y.Z]` or `## [X.Y.Z]` (e.g. `## [v0.0.1-beta.7]`, `## [1.0.0]`). Use the exact version string that will be tagged (with or without leading `v`).\n- **Newest release first** under Unreleased. When you cut a release, the previous `[Unreleased]` content can be moved under a new `## [vX.Y.Z]` section.\n- **Group by type.** Within each version section, organize entries under three subsections: `### Features`, `### Fixes`, `### Changes`.\n- **No type prefix.** Items do not need `**Feature:**`, `**Fix:**`, or `**Change:**` prefixes since they are grouped by section.\n- One line per item; keep text concise.\n\nStructure:\n\n```markdown\n# Changelog\n\n## [Unreleased]\n\n### Features\n- Short description of new feature.\n- Another feature.\n\n### Fixes\n- Bug fix description.\n- Another fix.\n\n### Changes\n- Refactor or UX change description.\n\n## [v0.0.1-beta.7]\n\n### Features\n- Something shipped in this version.\n\n### Changes\n- Another change.\n\n## [v0.0.1-beta.6]\n- ...\n```\n\n## Releases and GitHub\n\nIf the project uses a tag-triggered release workflow, it typically looks in `CHANGELOG.md` for a section whose heading matches the pushed tag (e.g. `## [v1.2.3]` or `## [1.2.3]`) and uses that section as the release notes body. Add the version section before tagging so the release notes are populated; if it's missing, the release should still succeed with a default body.\n\n## If the file is missing\n\nIf `CHANGELOG.md` does not exist, create it with a title, an `## [Unreleased]` section, and add the relevant entry/entries.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/changelog.mdc"
+    },
+    "description": "Opinionated, cross-agent rules and skills for AI coding agents \u2014 one npx install into Cursor, Claude Code, Codex, OpenCo",
+    "id": "balacodeio/balakit",
+    "language": "JavaScript",
+    "name": "balacodeio/balakit",
+    "stars": 0,
+    "updated_at": "2026-07-07T18:41:28Z",
+    "url": "https://github.com/balacodeio/balakit"
+  },
+  {
+    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
+    "id": "Laurellagloomy260/cursor-rules-generator",
+    "language": "\u2014",
+    "name": "Laurellagloomy260/cursor-rules-generator",
+    "stars": 0,
+    "updated_at": "2026-07-07T18:36:18Z",
+    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-07-07T18:30:38Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
     "id": "Hyanthropological659/clarify-skill",
     "language": "\u2014",
@@ -48,15 +89,6 @@
     "stars": 7,
     "updated_at": "2026-07-07T18:19:50Z",
     "url": "https://github.com/anmolnagpal/devops-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-07-07T18:15:35Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -146,20 +178,6 @@
     "url": "https://github.com/Luxvil/ai-coding-rules"
   },
   {
-    "cursorrules": {
-      "content": "---\ndescription: Maintain CHANGELOG.md for significant changes; grouped by type (Features, Fixes, Changes); source for GitHub release notes\nalwaysApply: true\n---\n\n# Changelog maintenance\n\n## When to update\n\nUpdate `CHANGELOG.md` (at project root) whenever you or the user:\n\n- Add a **new feature**\n- Ship a **significant fix** (bug fix that affects behavior or correctness)\n- Make a **notable change** (refactor, config, dependency, or UX change worth documenting)\n- Remove or deprecate something user-facing\n\nDo **not** add trivial edits (typos, comment-only, formatting-only) unless the user asks.\n\n## Format (grouped by type)\n\n- **Unreleased at top.** The first section is `## [Unreleased]` for changes not yet in a release.\n- **Released versions below.** Each release has a section `## [vX.Y.Z]` or `## [X.Y.Z]` (e.g. `## [v0.0.1-beta.7]`, `## [1.0.0]`). Use the exact version string that will be tagged (with or without leading `v`).\n- **Newest release first** under Unreleased. When you cut a release, the previous `[Unreleased]` content can be moved under a new `## [vX.Y.Z]` section.\n- **Group by type.** Within each version section, organize entries under three subsections: `### Features`, `### Fixes`, `### Changes`.\n- **No type prefix.** Items do not need `**Feature:**`, `**Fix:**`, or `**Change:**` prefixes since they are grouped by section.\n- One line per item; keep text concise.\n\nStructure:\n\n```markdown\n# Changelog\n\n## [Unreleased]\n\n### Features\n- Short description of new feature.\n- Another feature.\n\n### Fixes\n- Bug fix description.\n- Another fix.\n\n### Changes\n- Refactor or UX change description.\n\n## [v0.0.1-beta.7]\n\n### Features\n- Something shipped in this version.\n\n### Changes\n- Another change.\n\n## [v0.0.1-beta.6]\n- ...\n```\n\n## Releases and GitHub\n\nIf the project uses a tag-triggered release workflow, it typically looks in `CHANGELOG.md` for a section whose heading matches the pushed tag (e.g. `## [v1.2.3]` or `## [1.2.3]`) and uses that section as the release notes body. Add the version section before tagging so the release notes are populated; if it's missing, the release should still succeed with a default body.\n\n## If the file is missing\n\nIf `CHANGELOG.md` does not exist, create it with a title, an `## [Unreleased]` section, and add the relevant entry/entries.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/changelog.mdc"
-    },
-    "description": "Opinionated, cross-agent rules and skills for AI coding agents \u2014 one npx install into Cursor, Claude Code, Codex, OpenCo",
-    "id": "balacodeio/balakit",
-    "language": "JavaScript",
-    "name": "balacodeio/balakit",
-    "stars": 0,
-    "updated_at": "2026-07-07T17:27:56Z",
-    "url": "https://github.com/balacodeio/balakit"
-  },
-  {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
     "id": "Trentobobbi/uikit-mastery-playbook",
     "language": "HTML",
@@ -222,24 +240,6 @@
     "stars": 23,
     "updated_at": "2026-07-07T15:41:45Z",
     "url": "https://github.com/fluttersdk/wind"
-  },
-  {
-    "description": "Build and manage agents for the Gemini Enterprise Agent Platform with this command-line interface and skill library.",
-    "id": "adamantine-tracthouse487/agents-cli",
-    "language": "Python",
-    "name": "adamantine-tracthouse487/agents-cli",
-    "stars": 0,
-    "updated_at": "2026-07-07T15:15:41Z",
-    "url": "https://github.com/adamantine-tracthouse487/agents-cli"
-  },
-  {
-    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
-    "id": "Laurellagloomy260/cursor-rules-generator",
-    "language": "\u2014",
-    "name": "Laurellagloomy260/cursor-rules-generator",
-    "stars": 0,
-    "updated_at": "2026-07-07T15:09:20Z",
-    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
   },
   {
     "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
@@ -429,7 +429,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 76728,
+    "stars": 76735,
     "updated_at": "2026-07-07T02:06:38Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -498,7 +498,7 @@
     "id": "peva3/anchor",
     "language": "Python",
     "name": "peva3/anchor",
-    "stars": 0,
+    "stars": 1,
     "updated_at": "2026-07-06T14:00:41Z",
     "url": "https://github.com/peva3/anchor"
   },
