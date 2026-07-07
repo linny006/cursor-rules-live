@@ -1,21 +1,12 @@
 [
   {
-    "description": "Optimize AI coding agents by selecting only necessary tools and documents to reduce context bloat and improve efficiency",
-    "id": "hack9442/pickysteve",
-    "language": "\u2014",
-    "name": "hack9442/pickysteve",
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-07-07T21:14:03Z",
-    "url": "https://github.com/hack9442/pickysteve"
-  },
-  {
-    "description": "Build and manage agents for the Gemini Enterprise Agent Platform with this command-line interface and skill library.",
-    "id": "adamantine-tracthouse487/agents-cli",
-    "language": "Python",
-    "name": "adamantine-tracthouse487/agents-cli",
-    "stars": 0,
-    "updated_at": "2026-07-07T21:12:09Z",
-    "url": "https://github.com/adamantine-tracthouse487/agents-cli"
+    "updated_at": "2026-07-07T21:15:33Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security",
@@ -43,15 +34,6 @@
     "stars": 0,
     "updated_at": "2026-07-07T21:06:11Z",
     "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-07-07T21:00:34Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -429,7 +411,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 76809,
+    "stars": 76820,
     "updated_at": "2026-07-07T02:06:38Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -533,5 +515,23 @@
     "stars": 1,
     "updated_at": "2026-07-06T08:44:19Z",
     "url": "https://github.com/GeiserX/homebrew-lynxprompt"
+  },
+  {
+    "description": "\ud83c\udf75 Deliberate engineering guidelines & deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block",
+    "id": "plumpslabs/matcha",
+    "language": "JavaScript",
+    "name": "plumpslabs/matcha",
+    "stars": 1,
+    "updated_at": "2026-07-06T08:23:36Z",
+    "url": "https://github.com/plumpslabs/matcha"
+  },
+  {
+    "description": "Your AI assistant reads CLAUDE.md and ignores it anyway. Arai makes instruction files enforced \u2014 hooks that block, a tam",
+    "id": "taniwhaai/arai",
+    "language": "Rust",
+    "name": "taniwhaai/arai",
+    "stars": 6,
+    "updated_at": "2026-07-06T08:23:13Z",
+    "url": "https://github.com/taniwhaai/arai"
   }
 ]
