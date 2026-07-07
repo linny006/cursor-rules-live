@@ -1,5 +1,23 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-07-07T12:45:49Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 code review, debugging, refactoring, system design, CLAUDE.m",
+    "id": "sublimecoder/sublimecoding",
+    "language": "\u2014",
+    "name": "sublimecoder/sublimecoding",
+    "stars": 0,
+    "updated_at": "2026-07-07T12:45:19Z",
+    "url": "https://github.com/sublimecoder/sublimecoding"
+  },
+  {
     "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
     "id": "philipbankier/awesome-agent-skills",
     "language": "TypeScript",
@@ -25,15 +43,6 @@
     "stars": 0,
     "updated_at": "2026-07-07T12:34:07Z",
     "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-07-07T12:30:49Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
@@ -305,7 +314,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 76478,
+    "stars": 76488,
     "updated_at": "2026-07-07T02:06:38Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -411,15 +420,6 @@
     "url": "https://github.com/Mark393295827/third-brain-v5-skills"
   },
   {
-    "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 code review, debugging, refactoring, system design, CLAUDE.m",
-    "id": "sublimecoder/sublimecoding",
-    "language": "\u2014",
-    "name": "sublimecoder/sublimecoding",
-    "stars": 0,
-    "updated_at": "2026-07-06T13:10:43Z",
-    "url": "https://github.com/sublimecoder/sublimecoding"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: Astro + Strapi Blocks \u2014 StrapiBlocks, data, theme (extend/overwrite), custom blocks\nglobs: \"**/*.{astro,ts}\"\nalwaysApply: false\n---\n\n# Astro Strapi Blocks\n\n- **Import:** `StrapiBlocks` from `@sensinum/astro-strapi-blocks`. **`data`:** raw Strapi 5 Blocks array (`StrapiBlockField`); use the same field the API already returns (e.g. `page.content`, `item.description`).\n\n- **Theme:** `theme={{ extend: { \u2026 } }}` appends/merges with defaults; `overwrite` replaces class arrays at each path. Library order: `overwrite` first, then `extend`. For nested list markers, set `list.indent.ordered` / `unordered` as per-level class arrays; see package README.\n\n- **Custom components:** `blocks={{ heading: MyHeading, \u2026 }}`. Each Astro override must match the block\u2019s props (`data`, `theme`, and type-specific props in README). Use `renderPropertyClasses` / `getPropertyClass` from the package when reusing theme paths.\n\n- **New CMS block types** need Strapi schema support; this component only dispatches built-in `type` values\u2014combine with dynamic zones and parent switches for non-standard blocks.\n\n- Deeper context: repository `.ai/astro-strapi-blocks/SKILL.md` and root `README.md`.\n",
       "format": "mdc",
@@ -488,7 +488,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 37618,
+    "stars": 37623,
     "updated_at": "2026-07-06T01:08:16Z",
     "url": "https://github.com/wshobson/agents"
   },
