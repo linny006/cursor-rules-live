@@ -1,12 +1,12 @@
 [
   {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 23,
-    "updated_at": "2026-07-08T20:20:27Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+    "description": "Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior",
+    "id": "MnemeHQ/mneme",
+    "language": "HTML",
+    "name": "MnemeHQ/mneme",
+    "stars": 16,
+    "updated_at": "2026-07-08T20:29:08Z",
+    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-07-08T20:15:33Z",
+    "updated_at": "2026-07-08T20:21:30Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 23,
+    "updated_at": "2026-07-08T20:20:27Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "cursorrules": {
@@ -461,18 +470,9 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 77907,
+    "stars": 77914,
     "updated_at": "2026-07-07T02:06:38Z",
     "url": "https://github.com/DietrichGebert/ponytail"
-  },
-  {
-    "description": "Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior",
-    "id": "MnemeHQ/mneme",
-    "language": "HTML",
-    "name": "MnemeHQ/mneme",
-    "stars": 16,
-    "updated_at": "2026-07-08T12:11:12Z",
-    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "cursorrules": {
