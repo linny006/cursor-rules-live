@@ -1,5 +1,28 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: Infer-and-act by default \u2014 ask only on high confusion weight, after inspecting, with a decision-linked question\nalwaysApply: false\n---\n\n# Clarify first\n\nQuestions interrupt and cost trust. Default: **infer the intent, state the assumption in one line, act.** Ask only when confusion weight is **high**. Same gate as [composer-core](composer-core.mdc) \u00a7 Confusion weight \u2014 keep them in sync.\n\n## Plan mode exception\n\nIn **plan mode**, structured questions belong in the plan (assumptions, design forks, open questions). That is the deliverable, not stalling. After the plan is confirmed, return to infer-and-act for implementation.\n\n## Default: inspect, then infer\n\nMost ambiguity dissolves on inspection. Before asking, check:\n\n- Repo structure, manifests, configs\n- Existing tests and fixtures \u2014 they encode intent\n- Recent commits and PRs in the area\n- README, ADRs, comments, how similar features were built\n\nIf the answer is in the codebase, find it. Then infer:\n\n- **Constraints already given \u2192 proceed.** Don't bounce a detailed prompt back as questions; act and state assumptions inline.\n- **X-Y problem \u2192 reconcile.** Name the gap in one line and offer the better path \u2014 more useful than silently building Y or stalling.\n\nInference stands on cues in the request and the code \u2014 not vibes.\n\n## Confusion weight\n\n| Weight | Examples | Action |\n| --- | --- | --- |\n| **Low** | Naming, local style, which nearby util | Decide silently |\n| **Medium** | Plausible default exists in the repo | State assumption, act |\n| **High** | See triggers below | Ask **one** decision-linked question |\n\n**High** only when at least one is true:\n\n1. **Irreversible or destructive** \u2014 data loss, hard delete, force-push-class ops, irreversible migrations\n2. **Contract-changing** \u2014 schema, auth model, public API shape, persisted formats\n3. **Contradictory cues** \u2014 request or thread conflicts with itself or with clear repo signal\n4. **No repo signal** and guessing wrong would waste real work or harm correctness\n\nIf none apply, do not ask \u2014 decide or assume-and-act.\n\n## Ask when \u2014 and only when\n\nAsk 1\u20132 questions, in one round, when **all** are true:\n\n1. Confusion weight is **high**\n2. The answer **materially changes** what you'll build\n3. The answer **cannot** be inferred from inspection\n\n```\nGOOD:\n\"To finalize the API: should /tasks/:id/archive remove the row\nor set archived_at? Affects downstream queries and the un-archive flow.\"\n\nBAD:\n\"What do you want this to do?\"\n\"Any preferences on the database design?\"\n```\n\nTie each question to the decision it unblocks. Decision-linked questions get answered; open-ended ones stall.\n\n## Assume visibly when medium\n\nIf you have a strong default supported by the code, **state it and proceed**:\n\n> Assuming the existing `softDelete` pattern (sets `deleted_at`); flag if you wanted hard delete.\n\nSurface assumptions so they're easy to correct.\n\n## Anti-patterns\n\n- **Asking when a repo default exists** \u2014 match the file; don't poll for preference\n- **Charging ahead on high-weight forks** \u2014 schema/auth/public API without asking when cues conflict or signal is missing\n- **Asking to avoid committing** \u2014 questions are not a stalling tactic\n- **Re-asking answered constraints** \u2014 the user already narrowed; proceed\n- **Open-ended preference fishing** \u2014 \"any thoughts on architecture?\"\n\n## When you're truly stuck\n\nIf after inspection you still can't choose and weight is high:\n\n> I'm not sure how to choose between A and B from the code alone. Here's what each implies: ... Which fits your intent?\n\nBetter than guessing wrong, and better than stalling without saying why.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/clarify-first.mdc"
+    },
+    "description": "How a senior engineer thinks, encoded for Cursor agents \u2014 evidence-first, surgical edits, reasoning & metacognition, and",
+    "id": "madebyaris/cursor-composer-rules",
+    "language": "\u2014",
+    "name": "madebyaris/cursor-composer-rules",
+    "stars": 3,
+    "updated_at": "2026-07-08T19:56:54Z",
+    "url": "https://github.com/madebyaris/cursor-composer-rules"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-07-08T19:45:31Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
     "id": "Trentobobbi/uikit-mastery-playbook",
     "language": "HTML",
@@ -16,15 +39,6 @@
     "stars": 0,
     "updated_at": "2026-07-08T19:40:35Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-07-08T19:30:30Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
@@ -447,7 +461,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 77879,
+    "stars": 77892,
     "updated_at": "2026-07-07T02:06:38Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -507,7 +521,7 @@
     "id": "peva3/anchor",
     "language": "Python",
     "name": "peva3/anchor",
-    "stars": 6,
+    "stars": 7,
     "updated_at": "2026-07-06T14:00:41Z",
     "url": "https://github.com/peva3/anchor"
   },
@@ -519,19 +533,5 @@
     "stars": 118,
     "updated_at": "2026-07-06T13:56:46Z",
     "url": "https://github.com/Mark393295827/third-brain-v5-skills"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Astro + Strapi Blocks \u2014 StrapiBlocks, data, theme (extend/overwrite), custom blocks\nglobs: \"**/*.{astro,ts}\"\nalwaysApply: false\n---\n\n# Astro Strapi Blocks\n\n- **Import:** `StrapiBlocks` from `@sensinum/astro-strapi-blocks`. **`data`:** raw Strapi 5 Blocks array (`StrapiBlockField`); use the same field the API already returns (e.g. `page.content`, `item.description`).\n\n- **Theme:** `theme={{ extend: { \u2026 } }}` appends/merges with defaults; `overwrite` replaces class arrays at each path. Library order: `overwrite` first, then `extend`. For nested list markers, set `list.indent.ordered` / `unordered` as per-level class arrays; see package README.\n\n- **Custom components:** `blocks={{ heading: MyHeading, \u2026 }}`. Each Astro override must match the block\u2019s props (`data`, `theme`, and type-specific props in README). Use `renderPropertyClasses` / `getPropertyClass` from the package when reusing theme paths.\n\n- **New CMS block types** need Strapi schema support; this component only dispatches built-in `type` values\u2014combine with dynamic zones and parent switches for non-standard blocks.\n\n- Deeper context: repository `.ai/astro-strapi-blocks/SKILL.md` and root `README.md`.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/astro-strapi-blocks.mdc"
-    },
-    "description": "Astro blocks for Strapi Rich Text Block field",
-    "id": "VirtusLab-Open-Source/astro-strapi-blocks",
-    "language": "TypeScript",
-    "name": "VirtusLab-Open-Source/astro-strapi-blocks",
-    "stars": 19,
-    "updated_at": "2026-07-06T13:07:38Z",
-    "url": "https://github.com/VirtusLab-Open-Source/astro-strapi-blocks"
   }
 ]
