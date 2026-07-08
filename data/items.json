@@ -1,11 +1,20 @@
 [
   {
+    "description": "One manifest for agent skills, MCP servers, and stack profiles across Claude Code, Codex, and Cursor.",
+    "id": "raintree-technology/agent-starter",
+    "language": "JavaScript",
+    "name": "raintree-technology/agent-starter",
+    "stars": 84,
+    "updated_at": "2026-07-08T18:08:54Z",
+    "url": "https://github.com/raintree-technology/agent-starter"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-07-08T17:45:45Z",
+    "updated_at": "2026-07-08T18:00:49Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -172,7 +181,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 37662,
+    "stars": 37663,
     "updated_at": "2026-07-08T14:32:16Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -438,7 +447,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 77800,
+    "stars": 77815,
     "updated_at": "2026-07-07T02:06:38Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -524,14 +533,5 @@
     "stars": 19,
     "updated_at": "2026-07-06T13:07:38Z",
     "url": "https://github.com/VirtusLab-Open-Source/astro-strapi-blocks"
-  },
-  {
-    "description": "Homebrew tap for LynxPrompt CLI",
-    "id": "GeiserX/homebrew-lynxprompt",
-    "language": "Ruby",
-    "name": "GeiserX/homebrew-lynxprompt",
-    "stars": 1,
-    "updated_at": "2026-07-06T08:44:19Z",
-    "url": "https://github.com/GeiserX/homebrew-lynxprompt"
   }
 ]
