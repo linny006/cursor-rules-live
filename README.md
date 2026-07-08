@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-07-08 18:45 UTC
+> ⏰ Last updated: 2026-07-08 18:46 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,9 +53,9 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [johnwall123459885/skene-cookbook](https://github.com/johnwall123459885/skene-cookbook) | 0 | Python | 2026-07-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/johnwall123459885/skene-cookbook/) | 🤖 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development. |
-| 2 | [Luxvil/ai-coding-rules](https://github.com/Luxvil/ai-coding-rules) | 3 | Shell | 2026-07-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Luxvil/ai-coding-rules/) | 🤖 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje |
-| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-07-08 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-07-08 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [johnwall123459885/skene-cookbook](https://github.com/johnwall123459885/skene-cookbook) | 0 | Python | 2026-07-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/johnwall123459885/skene-cookbook/) | 🤖 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development. |
+| 3 | [Luxvil/ai-coding-rules](https://github.com/Luxvil/ai-coding-rules) | 3 | Shell | 2026-07-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Luxvil/ai-coding-rules/) | 🤖 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje |
 | 4 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 23 | — | 2026-07-08 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
 | 5 | [raintree-technology/agent-starter](https://github.com/raintree-technology/agent-starter) | 84 | JavaScript | 2026-07-08 | — | One manifest for agent skills, MCP servers, and stack profiles across Claude Code, Codex, and Cursor. |
 | 6 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-07-08 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
@@ -95,7 +95,7 @@ expired items removed — so you can rely on what you see being current.
 | 40 | [jon-makinen/cursor-local-remote](https://github.com/jon-makinen/cursor-local-remote) | 34 | TypeScript | 2026-07-07 | — | Like Claude Code remote but for Cursor |
 | 41 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 16875 | Shell | 2026-07-07 | — | 🎭 266 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 50 个中国市场原创智能体（小红书/抖音/ |
 | 42 | [dwsilvar/LBaC](https://github.com/dwsilvar/LBaC) | 0 | — | 2026-07-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/dwsilvar/LBaC/) | Living Blueprint-as-Code (LBaC) template to align human developers and AI coding agents (Copilot, Claude, Cursor, Windsu |
-| 43 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 77837 | JavaScript | 2026-07-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 43 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 77839 | JavaScript | 2026-07-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 44 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 16 | HTML | 2026-07-08 | — | Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior |
 | 45 | [PiloTracer/.ai](https://github.com/PiloTracer/.ai) | 0 | Shell | 2026-07-06 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/PiloTracer/.ai/) | Portable process framework for software teams shipping with coding agents (Cursor, Claude Code, Codex, opencode). Skills |
 | 46 | [FlamingPanda101/Gollum-Voice](https://github.com/FlamingPanda101/Gollum-Voice) | 0 | — | 2026-07-06 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/FlamingPanda101/Gollum-Voice/) | Make your AI agent talk like Gollum/Sméagol from The Lord of the Rings — a fun, toggleable persona skill with a 575-line |
