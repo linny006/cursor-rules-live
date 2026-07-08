@@ -1,6 +1,38 @@
 [
   {
     "cursorrules": {
+      "content": "---\ndescription: \u6a2a\u65ad\u5206\u6790\u30ce\u30fc\u30c8\uff08analysis\uff09\u306e\u4f5c\u6210\u30fb\u7de8\u96c6\u30eb\u30fc\u30eb\nglobs: analysis/**/*.md\nalwaysApply: false\n---\n\n# Analysis Workflow\n\n`analysis/` \u306f `chats/persistent/` \u306e\u6a2a\u65ad\u5206\u6790\u30fb\u8981\u7d04\u30fb\u6bd4\u8f03\u7d50\u679c\u3092\u683c\u7d0d\u3059\u308b\u3002\n\n## \u65b0\u898f\u5206\u6790\u306e\u624b\u9806\n\n1. `chats/persistent/` \u5185\u3092\u30c8\u30d4\u30c3\u30af\u30fb\u30bf\u30b0\u30fb`related` \u3067\u691c\u7d22\n2. `analysis/YYYY-MM-DD-analysis-\u30c8\u30d4\u30c3\u30af.md` \u3092\u65b0\u898f\u4f5c\u6210\n3. \u53c2\u7167\u5143\u30ce\u30fc\u30c8\u3092 `related` \u306b\u5217\u6319\n4. `tags` \u306b `analysis` + \u5206\u6790\u30c8\u30d4\u30c3\u30af\u30bf\u30b0\u3092\u4ed8\u4e0e\n\n## frontmatter \u5fc5\u9808\u5024\n\n- `tags`: `analysis` \u3092\u542b\u3080\n- `related`: \u53c2\u7167\u3057\u305f persistent \u30ce\u30fc\u30c8\u306e\u30d1\u30b9\u4e00\u89a7\n- `sources_updated`: \u53c2\u7167\u5143\u30ce\u30fc\u30c8\u306e `updated` \u3092\u78ba\u8a8d\u3057\u305f\u6700\u7d42\u65e5\uff08`YYYY-MM-DD`\uff09\u3002\u5206\u6790\u306e\u9bae\u5ea6\u7ba1\u7406\u7528\n\n## \u9bae\u5ea6\u7ba1\u7406\n\n- \u65e2\u5b58 analysis \u3092\u7de8\u96c6\u3059\u308b\u524d\u306b\u3001`related` \u5148\u306e `updated` \u3068\u81ea\u8eab\u306e `sources_updated` \u3092\u6bd4\u8f03\u3059\u308b\n- \u53c2\u7167\u5143\u304c\u66f4\u65b0\u3055\u308c\u3066\u3044\u305f\u3089\u5206\u6790\u672c\u6587\u3092\u898b\u76f4\u3057\u3001`sources_updated` \u3092\u5f53\u65e5\u306b\u66f4\u65b0\u3059\u308b\n- \u53c2\u7167\u5143\u306e\u5909\u66f4\u304c\u8efd\u5fae\u3067\u5206\u6790\u306b\u5f71\u97ff\u3057\u306a\u3044\u5834\u5408\u306f\u3001`sources_updated` \u306e\u307f\u66f4\u65b0\u3057\u3066\u3088\u3044\n\n## \u30ce\u30fc\u30c8\u69cb\u6210\n\n- `## \u5206\u6790\u5bfe\u8c61` \u2014 \u4f55\u3092\u5206\u6790\u3057\u305f\u304b\n- `## \u8981\u7d04` \u2014 \u6a2a\u65ad\u7684\u306a\u8981\u7d04\n- `## \u6d1e\u5bdf` \u2014 \u767a\u898b\u30fb\u30d1\u30bf\u30fc\u30f3\n- `## \u672a\u89e3\u6c7a\u4e8b\u9805` \u2014 \u6b8b\u8ab2\u984c\n- `## \u53c2\u7167\u5143` \u2014 wikilink \u3067\u5143\u30ce\u30fc\u30c8\u3078\u30ea\u30f3\u30af\n\n\u30c6\u30f3\u30d7\u30ec\u30fc\u30c8\u53c2\u7167: `templates/analysis.md`\n",
+      "format": "mdc",
+      "path": ".cursor/rules/analysis-workflow.mdc"
+    },
+    "description": "Template Obsidian vault wired for Cursor agents \u2014 glob-scoped rules, temp\u2192persistent\u2192analysis workflow, Git conventions.",
+    "id": "L4pisLazuli/cursor_obsidian_templete",
+    "language": "\u2014",
+    "name": "L4pisLazuli/cursor_obsidian_templete",
+    "stars": 0,
+    "updated_at": "2026-07-08T10:44:40Z",
+    "url": "https://github.com/L4pisLazuli/cursor_obsidian_templete"
+  },
+  {
+    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
+    "id": "zinxj/uikit-expert-skill",
+    "language": "\u2014",
+    "name": "zinxj/uikit-expert-skill",
+    "stars": 3,
+    "updated_at": "2026-07-08T10:35:59Z",
+    "url": "https://github.com/zinxj/uikit-expert-skill"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-07-08T10:30:42Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "cursorrules": {
       "content": "# Cursor Rules for skene-cookbook\n\n## Project Context\n\n**Repository:** skene-cookbook - 764 AI skill library with 36 skill chain recipes\n**Package:** @skene/skills-directory v0.2.0\n**License:** MIT\n**Purpose:** Pre-built AI skill chains for PLG, sales, customer success, security, and more\n\n## Architecture Patterns\n\n### Skill Structure (Non-Negotiable)\n\nEvery skill MUST follow this exact structure:\n\n```\nskills-library/{domain}/{skill-name}/\n\u251c\u2500\u2500 skill.json          # Metadata (name, description, category, risk_level)\n\u251c\u2500\u2500 instructions.md     # AI agent execution instructions\n\u2514\u2500\u2500 tests/              # Optional: skill-specific tests\n```\n\n**Do NOT:**\n- Create skills outside `skills-library/executable/` or `skills-library/reference/`\n- Modify existing skill structure without updating registry\n- Add skills without `skill.json` and `instructions.md`\n\n### Registry Auto-Generation\n\nThe `registry/` directory is AUTO-GENERATED from `skills-library/`:\n- Never manually edit files in `registry/`\n- Always run `npm run verify:metrics` after skill changes\n- Registry regeneration syncs badges and counts across README.md, METRICS.md, docs/directory.md\n\n### Risk Level Classification\n\nSkills are classified by risk level (defined in `skill.json`):\n- `Low` - Read-only operations, no external dependencies\n- `Medium` - Write operations, requires configuration\n- `High` - External API calls, requires credentials\n- `Critical` - System-level operations, requires manual review\n\n**Rule:** When creating a skill that makes external API calls, uses credentials, or modifies data, always set `risk_level: \"High\"` or `\"Critical\"`.\n\n## Naming Conventions\n\n### Skill IDs\n- Format: `{domain}_{action}_{target}` (e.g., `sales_analyze_pipeline`)\n- Use snake_case, all lowercase\n- Be descriptive but concise (3-5 words max)\n\n### File Naming\n- Skill directories: kebab-case (e.g., `analyze-customer-health/`)\n- Python files: snake_case (e.g., `analyze_skills.py`)\n- JavaScript files: kebab-case (e.g., `skills-directory.js`)\n- Documentation: SCREAMING_SNAKE_CASE for top-level (e.g., `AGENTS.md`), kebab-case for nested\n\n### Domain Categories\n\nValid domains (don't invent new ones without discussion):\n- `ecosystem` - Partner, integration management\n- `marketing` - Campaigns, content, SEO\n- `sales` - Pipeline, deals, CRM\n- `customer_success` - Health, churn, onboarding\n- `product_ops` - Roadmap, releases\n- `security` - Security, compliance\n- `finops` - Billing, revenue\n- `data` - Analytics, reporting\n- `engineering` - DevOps, CI/CD\n- `hr` - Recruiting, onboarding\n\n## Testing Patterns\n\n### Test Organization\n\n```\ntests/\n\u251c\u2500\u2500 unit/           # Fast, isolated tests (< 1s each)\n\u251c\u2500\u2500 integration/    # Multi-component tests (< 5s each)\n\u2514\u2500\u2500 e2e/            # Full user workflows (< 30s each)\n```\n\n### Required Test Coverage\n\n- Minimum: 60% overall coverage\n- Target: 80%+ coverage\n- Critical paths (eval_harness, tracer): 90%+ coverage\n\n### Testing Commands\n\n```bash\n# Run full suite\npytest tests/ -v\n\n# Run fast tests only\npytest tests/unit -v -m \"not slow\"\n\n# Run specific domain tests\npytest tests/unit/test_dedupe_skills.py -v\n```\n\n**Rule:** All PRs must pass `pytest tests/ -v` before merging.\n\n## Code Quality Standards\n\n### Pre-Commit Hooks (Enforced)\n\nThe following hooks run automatically on commit:\n- `detect-secrets` - Blocks commits with credentials\n- `prettier` - Formats JS/JSON/YAML/Markdown\n- `black` - Formats Python (if installed)\n- `flake8` - Lints Python (if installed)\n- `isort` - Sorts Python imports (if installed)\n\n**Rule:** Never use `--no-verify` to skip hooks. Fix the issues instead.\n\n### Linting Commands\n\n```bash\n# JavaScript\nnpm run lint        # ESLint + Prettier\nnpm run format      # Auto-fix formatting\n\n# Python (if installed in venv)\nblack .\nflake8 .\nisort .\n```\n\n## Workflow Blueprints\n\n### Blueprint Schema\n\nBlueprints in `registry/blueprints/` follow `schemas/workflow_blueprint.json`:\n\n```yaml\nid: workflow_{name}\nversion: 1.0.0\nname: 'Human Readable Name'\nchain_sequence:\n  - step_id: 'step_1'\n    skill_id: 'domain_action_target'\n    action: 'action_name'\n    input_mapping:\n      static_values: {}\n    error_handling:\n      on_failure: 'stop'\n      max_retries: 2\n```\n\n**Rule:** All workflow blueprints must validate against schema before committing.\n\n## Playbook-Ready Features (Optional but Encouraged)\n\nWhen creating blueprints, consider adding:\n\n```yaml\nicp:\n  company_size: '50-500'\n  motion: 'product-led-growth'\n  priorities: ['reduce_churn', 'increase_nrr']\n\nintegration_reference:\n  - type: 'crm'\n    provider: 'salesforce'\n    schema_ref: 'registry/integration_schemas/salesforce_fields.yaml'\n\nopinionated_prompts:\n  - step_id: 'step_1'\n    system_context: 'You are analyzing a PLG motion with 30-day trials...'\n    input_guidance: 'Focus on trial-to-paid conversion metrics...'\n```\n\nSee `registry/integration_schemas/README.md` for schema format.\n\n## Security Rules (Blocking)\n\n### Never Commit\n\nThese patterns are BLOCKED by pre-commit hooks:\n- `.env` files (use `.env.example` for templates)\n- Files in `.ssh/`, `.aws/`, `secrets/`\n- Private keys (detected by `detect-private-key` hook)\n- API keys, tokens, passwords (detected by `detect-secrets`)\n\n### Handling Credentials\n\n```bash\n# Good: Reference environment variables\nDATABASE_URL = os.getenv('DATABASE_URL')\n\n# Bad: Hardcoded credentials\nDATABASE_URL = \"postgresql://user:pass@localhost\"  # pragma: allowlist secret\n```\n\n## AI Agent Boundaries\n\n### What AI Agents Can Access\n\n- All files except `.ai/internal/` (gitignored, excluded in `.cursorignore`)\n- `AGENTS.md` for build commands and conventions\n- All skill schemas in `skills-library/`\n- Test suites in `tests/`\n\n### What AI Agents Should NOT Touch\n\n- `skills-library/` content (764 skills, managed by scripts)\n- `registry/` (auto-generated)\n- `METRICS.md` (auto-generated)\n\n**Rule:** If you modify skill counts or categories, run `npm run verify:metrics` to sync all dependent files.\n\n## Development Workflow\n\n### Adding a New Skill\n\n1. Create directory: `skills-library/executable/{domain}/{skill-name}/`\n2. Write `skill.json` (follow schema in `schemas/skill_definition.json`)\n3. Write `instructions.md` (clear execution steps)\n4. Run `npm run verify:metrics` to update registry\n5. Add tests in `tests/` if complex logic\n6. Run `pytest tests/ -v` to verify\n7. Commit with message: `feat(skills): add {skill-name} to {domain}`\n\n### Modifying Existing Skills\n\n1. Read the skill's `skill.json` and `instructions.md` first\n2. Make changes\n3. Run `npm run verify:metrics`\n4. Update tests if behavior changed\n5. Run `pytest tests/ -v`\n6. Commit with message: `fix(skills): update {skill-name} - {reason}`\n\n### Creating Skill Chains\n\n1. Identify 2-7 skills to chain together\n2. Create blueprint in `registry/blueprints/` (or use script: `scripts/recipe_to_blueprint.py`)\n3. Validate against `schemas/workflow_blueprint.json`\n4. Document in `docs/SKILL_CHAINS.md` (follow existing format)\n5. Add integration test in `tests/integration/`\n6. Commit with message: `feat(chains): add {chain-name} recipe`\n\n## Performance Guidelines\n\n### Skill Execution\n\n- Keep skills atomic (single responsibility)\n- Skills should complete in < 5 seconds (unless marked with `slow: true`)\n- Use caching for expensive operations (see `eval_harness/tracer.py` for examples)\n\n### Testing Performance\n\n- Unit tests: < 1 second each\n- Integration tests: < 5 seconds each\n- E2E tests: < 30 seconds each\n- Mark slow tests with `@pytest.mark.slow`\n\n## Common Patterns\n\n### Skill Chaining (Data Flow)\n\nSkills output data that becomes input for next skill:\n\n```yaml\n- step_id: 'analyze'\n  skill_id: 'sales_analyze_pipeline'\n  output: { health_score: 0.85 }\n\n- step_id: 'recommend'\n  skill_id: 'sales_recommend_actions'\n  input_mapping:\n    from_step: 'analyze'\n    field_mappings:\n      health_score: 'input.score'\n```\n\n### Error Handling\n\n```yaml\nerror_handling:\n  on_failure: 'stop'        # Options: stop, continue, retry\n  max_retries: 2\n  retry_delay_seconds: 5\n```\n\n## Commit Me",
       "format": "text",
       "path": ".cursorrules"
@@ -46,15 +78,6 @@
     "url": "https://github.com/Luxvil/ai-coding-rules"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-07-08T10:15:49Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: Instructions for AI agent code generation workflow\nglobs: [\"*\"]\nalwaysApply: true\n---\n\n# AI Collaboration Guidelines\n\n## The 3-Stage Agentic Loop\n\nEvery code generation task MUST follow this loop:\n\n### Stage 1: PLAN (gather context first)\n\nBefore writing ANY code, the AI MUST:\n1. Read the relevant source files to verify current state \u2014 do NOT rely on memory\n2. Identify which `.cursor/rules/` files apply to this task\n3. List the files to modify and explain why\n4. Do NOT write code yet\n\nPrompt template:\n```\nAnalyze the current codebase and plan how to implement [feature]. \nList the files you'll modify and why. Don't write code yet.\n```\n\n### Stage 2: IMPLEMENT (follow constraints)\n\nWhen generating code:\n- Follow ALL active `.cursor/rules/` constraints\n- If unsure about auth patterns, re-read `supabase-auth-security.mdc`\n- If unsure about params/layouts, re-read `nextjs15-params.mdc`\n- Use `unknown` + Zod validation instead of `any` for external data\n- Return `ActionResponse<T>` from all Server Actions (see below)\n\n### Stage 3: VERIFY (confirm before declaring done)\n\nAfter generating code, the AI MUST self-check:\n- [ ] No `getSession()` on the server (MUST be `getUser()`)\n- [ ] No synchronous `params` or `searchParams` access\n- [ ] No `@supabase/auth-helpers-nextjs` imports\n- [ ] No `any` types \u2014 use `unknown` + type narrowing\n- [ ] Every API route has Zod validation\n- [ ] Every error is caught and returns `{ error: string }`\n- [ ] New tables have RLS enabled\n- [ ] `loading.tsx` and `error.tsx` exist for data-fetching pages\n\nReport issues BEFORE the developer runs the code.\n\n## Skeptical Retrieval Rule\n\nNEVER trust stored knowledge about the codebase. Before modifying a file:\n1. Re-read the file to verify its current contents\n2. Check imports and exports to ensure they match expectations\n3. Verify that function signatures haven't changed\n\nThis prevents generating code that references stale function signatures, \ndeleted files, or renamed exports.\n\n## Standard Patterns\n\n### ActionResponse Type (use for all Server Actions)\n```typescript\ntype ActionResponse<T = void> = \n  | { success: true; data: T }\n  | { success: false; error: string }\n```\n\n### Standard Server Action Structure\n```typescript\n'use server'\nimport { createClient } from '@/lib/supabase/server'\nimport { z } from 'zod'\n\nconst Schema = z.object({ /* ... */ })\n\nexport async function myAction(input: unknown): Promise<ActionResponse<MyType>> {\n  // 1. Auth\n  const supabase = await createClient()\n  const { data: { user } } = await supabase.auth.getUser()\n  if (!user) return { success: false, error: 'Unauthorized' }\n\n  // 2. Validate\n  const result = Schema.safeParse(input)\n  if (!result.success) return { success: false, error: 'Invalid input' }\n\n  // 3. Execute\n  try {\n    const { data, error } = await supabase.from('table').insert(result.data).select().single()\n    if (error) throw error\n    return { success: true, data }\n  } catch {\n    return { success: false, error: 'Operation failed' }\n  }\n}\n```\n\n## Task Constraints\n\n- NEVER give the AI a task longer than 200 words\n- NEVER let the AI implement more than 3-4 files in one turn\n- NEVER let the AI skip the verification checklist\n- ALWAYS review the Git diff before committing\n- When uncertain, ask the developer \u2014 do NOT guess\n\n",
       "format": "mdc",
@@ -67,20 +90,6 @@
     "stars": 6,
     "updated_at": "2026-07-08T10:12:31Z",
     "url": "https://github.com/vibestackdev/vibe-stack"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: \u6a2a\u65ad\u5206\u6790\u30ce\u30fc\u30c8\uff08analysis\uff09\u306e\u4f5c\u6210\u30fb\u7de8\u96c6\u30eb\u30fc\u30eb\nglobs: analysis/**/*.md\nalwaysApply: false\n---\n\n# Analysis Workflow\n\n`analysis/` \u306f `chats/persistent/` \u306e\u6a2a\u65ad\u5206\u6790\u30fb\u8981\u7d04\u30fb\u6bd4\u8f03\u7d50\u679c\u3092\u683c\u7d0d\u3059\u308b\u3002\n\n## \u65b0\u898f\u5206\u6790\u306e\u624b\u9806\n\n1. `chats/persistent/` \u5185\u3092\u30c8\u30d4\u30c3\u30af\u30fb\u30bf\u30b0\u30fb`related` \u3067\u691c\u7d22\n2. `analysis/YYYY-MM-DD-analysis-\u30c8\u30d4\u30c3\u30af.md` \u3092\u65b0\u898f\u4f5c\u6210\n3. \u53c2\u7167\u5143\u30ce\u30fc\u30c8\u3092 `related` \u306b\u5217\u6319\n4. `tags` \u306b `analysis` + \u5206\u6790\u30c8\u30d4\u30c3\u30af\u30bf\u30b0\u3092\u4ed8\u4e0e\n\n## frontmatter \u5fc5\u9808\u5024\n\n- `tags`: `analysis` \u3092\u542b\u3080\n- `related`: \u53c2\u7167\u3057\u305f persistent \u30ce\u30fc\u30c8\u306e\u30d1\u30b9\u4e00\u89a7\n- `sources_updated`: \u53c2\u7167\u5143\u30ce\u30fc\u30c8\u306e `updated` \u3092\u78ba\u8a8d\u3057\u305f\u6700\u7d42\u65e5\uff08`YYYY-MM-DD`\uff09\u3002\u5206\u6790\u306e\u9bae\u5ea6\u7ba1\u7406\u7528\n\n## \u9bae\u5ea6\u7ba1\u7406\n\n- \u65e2\u5b58 analysis \u3092\u7de8\u96c6\u3059\u308b\u524d\u306b\u3001`related` \u5148\u306e `updated` \u3068\u81ea\u8eab\u306e `sources_updated` \u3092\u6bd4\u8f03\u3059\u308b\n- \u53c2\u7167\u5143\u304c\u66f4\u65b0\u3055\u308c\u3066\u3044\u305f\u3089\u5206\u6790\u672c\u6587\u3092\u898b\u76f4\u3057\u3001`sources_updated` \u3092\u5f53\u65e5\u306b\u66f4\u65b0\u3059\u308b\n- \u53c2\u7167\u5143\u306e\u5909\u66f4\u304c\u8efd\u5fae\u3067\u5206\u6790\u306b\u5f71\u97ff\u3057\u306a\u3044\u5834\u5408\u306f\u3001`sources_updated` \u306e\u307f\u66f4\u65b0\u3057\u3066\u3088\u3044\n\n## \u30ce\u30fc\u30c8\u69cb\u6210\n\n- `## \u5206\u6790\u5bfe\u8c61` \u2014 \u4f55\u3092\u5206\u6790\u3057\u305f\u304b\n- `## \u8981\u7d04` \u2014 \u6a2a\u65ad\u7684\u306a\u8981\u7d04\n- `## \u6d1e\u5bdf` \u2014 \u767a\u898b\u30fb\u30d1\u30bf\u30fc\u30f3\n- `## \u672a\u89e3\u6c7a\u4e8b\u9805` \u2014 \u6b8b\u8ab2\u984c\n- `## \u53c2\u7167\u5143` \u2014 wikilink \u3067\u5143\u30ce\u30fc\u30c8\u3078\u30ea\u30f3\u30af\n\n\u30c6\u30f3\u30d7\u30ec\u30fc\u30c8\u53c2\u7167: `templates/analysis.md`\n",
-      "format": "mdc",
-      "path": ".cursor/rules/analysis-workflow.mdc"
-    },
-    "description": "Template Obsidian vault wired for Cursor agents \u2014 glob-scoped rules, temp\u2192persistent\u2192analysis workflow, Git conventions.",
-    "id": "L4pisLazuli/cursor_obsidian_templete",
-    "language": "\u2014",
-    "name": "L4pisLazuli/cursor_obsidian_templete",
-    "stars": 0,
-    "updated_at": "2026-07-08T09:56:38Z",
-    "url": "https://github.com/L4pisLazuli/cursor_obsidian_templete"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -171,15 +180,6 @@
     "stars": 33,
     "updated_at": "2026-07-08T07:27:45Z",
     "url": "https://github.com/haidrrrry/compose-kotlin-agent-skills"
-  },
-  {
-    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
-    "id": "zinxj/uikit-expert-skill",
-    "language": "\u2014",
-    "name": "zinxj/uikit-expert-skill",
-    "stars": 3,
-    "updated_at": "2026-07-08T07:26:28Z",
-    "url": "https://github.com/zinxj/uikit-expert-skill"
   },
   {
     "description": "\u2694 17,000+ AI agent skills from 307+ GitHub repos across 14 frameworks (Claude Code, Cursor, Cline, Roo, Aider, OpenHands",
@@ -401,7 +401,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 16853,
+    "stars": 16855,
     "updated_at": "2026-07-07T06:51:48Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -438,7 +438,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 77431,
+    "stars": 77447,
     "updated_at": "2026-07-07T02:06:38Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
