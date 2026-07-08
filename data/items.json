@@ -1,12 +1,17 @@
 [
   {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 1,
-    "updated_at": "2026-07-08T09:40:17Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
+    "cursorrules": {
+      "content": "---\ndescription: \u6a2a\u65ad\u5206\u6790\u30ce\u30fc\u30c8\uff08analysis\uff09\u306e\u4f5c\u6210\u30fb\u7de8\u96c6\u30eb\u30fc\u30eb\nglobs: analysis/**/*.md\nalwaysApply: false\n---\n\n# Analysis Workflow\n\n`analysis/` \u306f `chats/persistent/` \u306e\u6a2a\u65ad\u5206\u6790\u30fb\u8981\u7d04\u30fb\u6bd4\u8f03\u7d50\u679c\u3092\u683c\u7d0d\u3059\u308b\u3002\n\n## \u65b0\u898f\u5206\u6790\u306e\u624b\u9806\n\n1. `chats/persistent/` \u5185\u3092\u30c8\u30d4\u30c3\u30af\u30fb\u30bf\u30b0\u30fb`related` \u3067\u691c\u7d22\n2. `analysis/YYYY-MM-DD-analysis-\u30c8\u30d4\u30c3\u30af.md` \u3092\u65b0\u898f\u4f5c\u6210\n3. \u53c2\u7167\u5143\u30ce\u30fc\u30c8\u3092 `related` \u306b\u5217\u6319\n4. `tags` \u306b `analysis` + \u5206\u6790\u30c8\u30d4\u30c3\u30af\u30bf\u30b0\u3092\u4ed8\u4e0e\n\n## frontmatter \u5fc5\u9808\u5024\n\n- `tags`: `analysis` \u3092\u542b\u3080\n- `related`: \u53c2\u7167\u3057\u305f persistent \u30ce\u30fc\u30c8\u306e\u30d1\u30b9\u4e00\u89a7\n- `sources_updated`: \u53c2\u7167\u5143\u30ce\u30fc\u30c8\u306e `updated` \u3092\u78ba\u8a8d\u3057\u305f\u6700\u7d42\u65e5\uff08`YYYY-MM-DD`\uff09\u3002\u5206\u6790\u306e\u9bae\u5ea6\u7ba1\u7406\u7528\n\n## \u9bae\u5ea6\u7ba1\u7406\n\n- \u65e2\u5b58 analysis \u3092\u7de8\u96c6\u3059\u308b\u524d\u306b\u3001`related` \u5148\u306e `updated` \u3068\u81ea\u8eab\u306e `sources_updated` \u3092\u6bd4\u8f03\u3059\u308b\n- \u53c2\u7167\u5143\u304c\u66f4\u65b0\u3055\u308c\u3066\u3044\u305f\u3089\u5206\u6790\u672c\u6587\u3092\u898b\u76f4\u3057\u3001`sources_updated` \u3092\u5f53\u65e5\u306b\u66f4\u65b0\u3059\u308b\n- \u53c2\u7167\u5143\u306e\u5909\u66f4\u304c\u8efd\u5fae\u3067\u5206\u6790\u306b\u5f71\u97ff\u3057\u306a\u3044\u5834\u5408\u306f\u3001`sources_updated` \u306e\u307f\u66f4\u65b0\u3057\u3066\u3088\u3044\n\n## \u30ce\u30fc\u30c8\u69cb\u6210\n\n- `## \u5206\u6790\u5bfe\u8c61` \u2014 \u4f55\u3092\u5206\u6790\u3057\u305f\u304b\n- `## \u8981\u7d04` \u2014 \u6a2a\u65ad\u7684\u306a\u8981\u7d04\n- `## \u6d1e\u5bdf` \u2014 \u767a\u898b\u30fb\u30d1\u30bf\u30fc\u30f3\n- `## \u672a\u89e3\u6c7a\u4e8b\u9805` \u2014 \u6b8b\u8ab2\u984c\n- `## \u53c2\u7167\u5143` \u2014 wikilink \u3067\u5143\u30ce\u30fc\u30c8\u3078\u30ea\u30f3\u30af\n\n\u30c6\u30f3\u30d7\u30ec\u30fc\u30c8\u53c2\u7167: `templates/analysis.md`\n",
+      "format": "mdc",
+      "path": ".cursor/rules/analysis-workflow.mdc"
+    },
+    "description": "Template Obsidian vault wired for Cursor agents \u2014 glob-scoped rules, temp\u2192persistent\u2192analysis workflow, Git conventions.",
+    "id": "L4pisLazuli/cursor_obsidian_templete",
+    "language": "\u2014",
+    "name": "L4pisLazuli/cursor_obsidian_templete",
+    "stars": 0,
+    "updated_at": "2026-07-08T09:56:38Z",
+    "url": "https://github.com/L4pisLazuli/cursor_obsidian_templete"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +19,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-07-08T09:30:34Z",
+    "updated_at": "2026-07-08T09:45:29Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 1,
+    "updated_at": "2026-07-08T09:40:17Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -293,20 +307,6 @@
   },
   {
     "cursorrules": {
-      "content": "---\ndescription: \u6a2a\u65ad\u5206\u6790\u30ce\u30fc\u30c8\uff08analysis\uff09\u306e\u4f5c\u6210\u30fb\u7de8\u96c6\u30eb\u30fc\u30eb\nglobs: analysis/**/*.md\nalwaysApply: false\n---\n\n# Analysis Workflow\n\n`analysis/` \u306f `chats/persistent/` \u306e\u6a2a\u65ad\u5206\u6790\u30fb\u8981\u7d04\u30fb\u6bd4\u8f03\u7d50\u679c\u3092\u683c\u7d0d\u3059\u308b\u3002\n\n## \u65b0\u898f\u5206\u6790\u306e\u624b\u9806\n\n1. `chats/persistent/` \u5185\u3092\u30c8\u30d4\u30c3\u30af\u30fb\u30bf\u30b0\u30fb`related` \u3067\u691c\u7d22\n2. `analysis/YYYY-MM-DD-analysis-\u30c8\u30d4\u30c3\u30af.md` \u3092\u65b0\u898f\u4f5c\u6210\n3. \u53c2\u7167\u5143\u30ce\u30fc\u30c8\u3092 `related` \u306b\u5217\u6319\n4. `tags` \u306b `analysis` + \u5206\u6790\u30c8\u30d4\u30c3\u30af\u30bf\u30b0\u3092\u4ed8\u4e0e\n\n## frontmatter \u5fc5\u9808\u5024\n\n- `tags`: `analysis` \u3092\u542b\u3080\n- `related`: \u53c2\u7167\u3057\u305f persistent \u30ce\u30fc\u30c8\u306e\u30d1\u30b9\u4e00\u89a7\n- `sources_updated`: \u53c2\u7167\u5143\u30ce\u30fc\u30c8\u306e `updated` \u3092\u78ba\u8a8d\u3057\u305f\u6700\u7d42\u65e5\uff08`YYYY-MM-DD`\uff09\u3002\u5206\u6790\u306e\u9bae\u5ea6\u7ba1\u7406\u7528\n\n## \u9bae\u5ea6\u7ba1\u7406\n\n- \u65e2\u5b58 analysis \u3092\u7de8\u96c6\u3059\u308b\u524d\u306b\u3001`related` \u5148\u306e `updated` \u3068\u81ea\u8eab\u306e `sources_updated` \u3092\u6bd4\u8f03\u3059\u308b\n- \u53c2\u7167\u5143\u304c\u66f4\u65b0\u3055\u308c\u3066\u3044\u305f\u3089\u5206\u6790\u672c\u6587\u3092\u898b\u76f4\u3057\u3001`sources_updated` \u3092\u5f53\u65e5\u306b\u66f4\u65b0\u3059\u308b\n- \u53c2\u7167\u5143\u306e\u5909\u66f4\u304c\u8efd\u5fae\u3067\u5206\u6790\u306b\u5f71\u97ff\u3057\u306a\u3044\u5834\u5408\u306f\u3001`sources_updated` \u306e\u307f\u66f4\u65b0\u3057\u3066\u3088\u3044\n\n## \u30ce\u30fc\u30c8\u69cb\u6210\n\n- `## \u5206\u6790\u5bfe\u8c61` \u2014 \u4f55\u3092\u5206\u6790\u3057\u305f\u304b\n- `## \u8981\u7d04` \u2014 \u6a2a\u65ad\u7684\u306a\u8981\u7d04\n- `## \u6d1e\u5bdf` \u2014 \u767a\u898b\u30fb\u30d1\u30bf\u30fc\u30f3\n- `## \u672a\u89e3\u6c7a\u4e8b\u9805` \u2014 \u6b8b\u8ab2\u984c\n- `## \u53c2\u7167\u5143` \u2014 wikilink \u3067\u5143\u30ce\u30fc\u30c8\u3078\u30ea\u30f3\u30af\n\n\u30c6\u30f3\u30d7\u30ec\u30fc\u30c8\u53c2\u7167: `templates/analysis.md`\n",
-      "format": "mdc",
-      "path": ".cursor/rules/analysis-workflow.mdc"
-    },
-    "description": "Template Obsidian vault wired for Cursor agents \u2014 glob-scoped rules, temp\u2192persistent\u2192analysis workflow, Git conventions.",
-    "id": "L4pisLazuli/cursor_obsidian_templete",
-    "language": "\u2014",
-    "name": "L4pisLazuli/cursor_obsidian_templete",
-    "stars": 0,
-    "updated_at": "2026-07-07T16:12:09Z",
-    "url": "https://github.com/L4pisLazuli/cursor_obsidian_templete"
-  },
-  {
-    "cursorrules": {
       "content": "---\ndescription: Battle-tested engineering judgment for code, refactors, tests, and frontend UI. Ultra-terse caveman style during code work.\nalwaysApply: true\n---\n\n# Battle Tested Engineer\n\nGoal: least code, fix problem, no break working stuff.\n\n## Output style\n\n- No filler, pleasantry, hedge, article. Fragments. Short word.\n- No decorative table/emoji/tool narration/long error dump \u2014 quote shortest line.\n- Verbatim always: code, command, API name, error string, commit keyword.\n- No invented abbreviation \u2014 save nothing, cost clarity.\n- Normal prose for: security warning, irreversible-action confirm, multi-step where order misread risk, user ask clarify. Resume ultra right after.\n- Code, commit msg, PR desc: normal prose always.\n\n## 1. Think before code\n\n- State assumption, no guess.\n- Multi interpretation \u2192 show all, no pick.\n- Unclear ask \u2192 stop, name confusion, ask.\n- Simpler way exist \u2192 say it.\n\n## 2. Simplicity\n\n- Senior-line estimate; actual >4x \u2192 cut.\n- No unrequested feature/flexibility/config/error-handling for impossible case.\n- Prefer stdlib/dep over hand-roll.\n- Function many unrelated thing \u2192 split single-responsibility. Already one thing \u2192 leave.\n- YAGNI/DRY/SOLID when shape need \u2014 not checklist.\n- Comment why, not what.\n- Red flag: single-use abstraction, one-method \"manager\", options object one caller.\n\n## 3. Surgical change\n\n- Touch only what ask need \u2014 every changed line trace to ask.\n- Unrelated dead code \u2192 mention, no delete.\n- Own-change orphan (unused import/var/fn) \u2192 remove.\n- Refactor = structure only, zero behavior change. Never bundle feature/fix. State structural-change-vs-same first.\n- Touched behavior no test \u2192 add characterization test first.\n- Risky replace (algorithm/migration/payment) \u2192 old/new side by side.\n\n## 4. Data vs UI\n\n- Component render data, no own it. Mock one module, no literal in component.\n- Mock shape mirror real API contract.\n- Same entity twice \u2192 define once, import twice.\n- Loading/error/empty = data state, no scattered boolean.\n- Component: render/layout only. Business logic (calc/validation/transform/API call) \u2192 hook/service/plain fn.\n\n## 5. Goal-driven execution\n\n- Vague ask \u2192 verifiable goal. \"add validation\" \u2192 test invalid input, pass it. \"fix bug\" \u2192 reproduce with test, pass it. \"refactor X\" \u2192 test pass before/after.\n- Multi-step task \u2192 plan first, numbered, each with \"verify:\" check.\n\n## 6. Tests\n\n- Few high-quality beat many. Too many = hard maintain, not free coverage.\n- Smallest set catch real regression.\n- Can't name bug it catch \u2192 cut test.\n- Test public contract, not internal.\n\n## 7. Propose spec when need\n\n- PRD/spec/ADR = persistent memory for AI agent, skip re-explain context each session.\n- Non-trivial feature, ambiguous requirement, wide blast radius \u2192 propose short PRD/spec/ADR first. Small/obvious change \u2192 skip.\n- Minimal: problem, decision, alternative, consequence. No padding.\n- ADR \u2192 hard-reverse decision or cross-system effect. Spec/PRD \u2192 scope/behavior not yet pinned.\n\n## 8. Ship then improve\n\n- Feature first: get correct minimal version work. Improve/optimize/refactor gradual after \u2014 not upfront, not speculative.\n- Red-green-refactor: write failing test (red) \u2192 smallest code make pass (green) \u2192 clean structure only, tests stay green (refactor). Small cycle, not big-bang.\n- Working correct code over perfect design. Perfect later, once real usage show what actual matter.\n\n## 9. Gut-check before output\n\nAssumption stated not guessed? Diff proportionate, no dead/orphan code? Refactor behavior truly unchanged? Tests few, each catch real bug?\n\nNeed more complexity/clarify/test \u2192 say it, with tradeoff. No silent over-build, no under-deliver.\n",
       "format": "mdc",
       "path": ".cursor/rules/battle-tested-engineer.mdc"
@@ -438,7 +438,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 77390,
+    "stars": 77400,
     "updated_at": "2026-07-07T02:06:38Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
