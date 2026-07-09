@@ -1,11 +1,20 @@
 [
   {
+    "description": "Your AI assistant hallucinates APIs, breaks dependent files, and weakens tests. 20 skills that prevent this across the f",
+    "id": "sungurerdim/dev-skills",
+    "language": "HTML",
+    "name": "sungurerdim/dev-skills",
+    "stars": 1,
+    "updated_at": "2026-07-09T22:51:54Z",
+    "url": "https://github.com/sungurerdim/dev-skills"
+  },
+  {
     "description": "The AI trigger that tells you the truth about your idea before you spend three months on it.",
     "id": "cet3001/gut-check",
     "language": "\u2014",
     "name": "cet3001/gut-check",
     "stars": 0,
-    "updated_at": "2026-07-09T22:36:00Z",
+    "updated_at": "2026-07-09T22:48:04Z",
     "url": "https://github.com/cet3001/gut-check"
   },
   {
@@ -14,7 +23,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-07-09T22:31:16Z",
+    "updated_at": "2026-07-09T22:45:39Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -186,7 +195,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 79152,
+    "stars": 79164,
     "updated_at": "2026-07-09T16:06:25Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -346,7 +355,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 37710,
+    "stars": 37711,
     "updated_at": "2026-07-08T14:32:16Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -441,15 +450,6 @@
     "stars": 7,
     "updated_at": "2026-07-09T05:43:57Z",
     "url": "https://github.com/anmolnagpal/devops-skills"
-  },
-  {
-    "description": "Your AI assistant hallucinates APIs, breaks dependent files, and weakens tests. 20 skills that prevent this across the f",
-    "id": "sungurerdim/dev-skills",
-    "language": "HTML",
-    "name": "sungurerdim/dev-skills",
-    "stars": 1,
-    "updated_at": "2026-07-07T17:40:44Z",
-    "url": "https://github.com/sungurerdim/dev-skills"
   },
   {
     "cursorrules": {
