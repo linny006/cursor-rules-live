@@ -1,20 +1,11 @@
 [
   {
-    "description": "Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows.",
-    "id": "ajhcs/healthcare-agents",
-    "language": "JavaScript",
-    "name": "ajhcs/healthcare-agents",
-    "stars": 44,
-    "updated_at": "2026-07-09T19:28:48Z",
-    "url": "https://github.com/ajhcs/healthcare-agents"
-  },
-  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-07-09T19:16:57Z",
+    "updated_at": "2026-07-09T19:32:06Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -23,8 +14,17 @@
     "language": "\u2014",
     "name": "J-nowcow/awesome-korean-agent-skills",
     "stars": 23,
-    "updated_at": "2026-07-09T18:53:30Z",
+    "updated_at": "2026-07-09T19:30:30Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+  },
+  {
+    "description": "Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows.",
+    "id": "ajhcs/healthcare-agents",
+    "language": "JavaScript",
+    "name": "ajhcs/healthcare-agents",
+    "stars": 44,
+    "updated_at": "2026-07-09T19:28:48Z",
+    "url": "https://github.com/ajhcs/healthcare-agents"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -127,7 +127,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 79044,
+    "stars": 79053,
     "updated_at": "2026-07-09T16:06:25Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
