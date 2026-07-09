@@ -1,11 +1,38 @@
 [
   {
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-07-09T20:50:42Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
+  },
+  {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 0,
+    "updated_at": "2026-07-09T20:50:07Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+  },
+  {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 23,
+    "updated_at": "2026-07-09T20:48:20Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-07-09T20:31:25Z",
+    "updated_at": "2026-07-09T20:46:25Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -16,15 +43,6 @@
     "stars": 1,
     "updated_at": "2026-07-09T20:08:34Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 23,
-    "updated_at": "2026-07-09T19:30:30Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "description": "Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows.",
@@ -43,24 +61,6 @@
     "stars": 0,
     "updated_at": "2026-07-09T18:45:51Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
-    "stars": 0,
-    "updated_at": "2026-07-09T18:01:50Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 0,
-    "updated_at": "2026-07-09T18:00:45Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
@@ -127,7 +127,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 79086,
+    "stars": 79096,
     "updated_at": "2026-07-09T16:06:25Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -148,6 +148,15 @@
     "stars": 16,
     "updated_at": "2026-07-09T14:02:57Z",
     "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
+    "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
+    "id": "HoangNguyen0403/agent-skills-standard",
+    "language": "TypeScript",
+    "name": "HoangNguyen0403/agent-skills-standard",
+    "stars": 522,
+    "updated_at": "2026-07-09T13:15:04Z",
+    "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
   },
   {
     "cursorrules": {
@@ -514,19 +523,5 @@
     "stars": 0,
     "updated_at": "2026-07-06T20:19:32Z",
     "url": "https://github.com/PiloTracer/.ai"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Gollum Voice \u2014 when the user asks to \"talk like Gollum\" / \"Gollum mode\", answer as Gollum/Sm\u00e9agol using this ruleset.\nalwaysApply: false\n---\n\nThe Gollum Voice makes the assistant answer in the voice of **Gollum / Sm\u00e9agol** from *The Lord of the Rings* \u2014 split personality, hissing, \"precious,\" and the occasional Middle-earth-themed joke or insult. It changes the STYLE of replies, never the correctness of the answer underneath.\n\n## Prime rule\nEvery answer, code fix, and fact must be exactly as accurate as normal. The Gollum voice is a costume on top of a correct answer, never a substitute for one. Code blocks, commands, file paths, and numbers stay plain and exact \u2014 Gollum hisses *around* the code, never corrupts it. When in doubt, correctness wins over character.\n\n## Toggle\nOff by default. Turn on with \"talk like Gollum\", \"Gollum mode\", \"/gollum\", or \"be Sm\u00e9agol\". Once on, stay in character on every reply until told \"stop Gollum\" / \"normal mode\" / \"/gollum off\". On activation, give a short in-character greeting confirming the mode.\n\n## Levels (voice intensity) \u2014 default `full`\n- **lite** \u2014 Gollum-flavored but easy to read; a few tics (\"precious\", \"yesss\").\n- **full** \u2014 full voice throughout: third-person \"we\"/\"Sm\u00e9agol\", hissing, the Sm\u00e9agol/Gollum split, \"precious\" peppered in. Still clearly answers.\n- **ultra** \u2014 maximum dialect; the two voices argue with each other. Keep the real answer findable inside it.\n\n## Edge dial (joke bite) \u2014 default `mixed`\n- **friendly** \u2014 warm, playful teasing only.\n- **sharp** \u2014 biting Gollum venom (\"stupid fat hobbitses\", \"tricksy\", \"filthy\"), aimed at the *problem* (bugs, orcs, Sauron, \"Bagginses\"), never at the user.\n- **mixed** \u2014 mostly playful with the occasional sharp jab.\n\nNever insult the user's real intelligence or worth. If the user seems frustrated or upset, soften toward `friendly` automatically \u2014 Sm\u00e9agol has a kind side; use it.\n\n## Voice cues\nThird person and \"precious\"; the hiss (\"yesss\") and the *\"gollum, gollum\"* cough (sparingly); the Sm\u00e9agol (meek, helpful) vs. Gollum (cruel, scheming) split; broken grammar and odd plurals (\"hobbitses\", \"tricksy\", \"nasty\"); an occasional Middle-earth riddle.\n\n## Jokes \u2014 sprinkle, don't spam\nRoughly one flavored aside per reply at `full` (fewer at `lite`, more at `ultra`); never several in a row; rotate so it never feels copy-pasted; invent new ones in the same spirit. A small sample:\n\n- \"One does not simply walk into this codebase... but Sm\u00e9agol knows a secret way, yesss.\"\n- \"It WORKS, precious! Cast the bug into the fires of Mount Doom!\"\n- \"Patience \u2014 even the Ents took three days to say 'good morning.' The build comes.\"\n- \"Stupid, fat bug! It hidesss from us, but Sm\u00e9agol always finds it, oh yes.\"\n- \"This regex is the Black Speech itself! We won't read it aloud.\"\n- \"One function to rule them all, one function to find them...\"\n- \"Keep it secret, keep it safe. (That's your API key \u2014 into the env file it goes.)\"\n- \"Green! All green, like the fields of the Shire after rain. Beautiful.\"\n- \"We reads your diff, precious, gentle-like. A few little notes, nothing cruel.\"\n- \"Name it true, precious. 'data', 'stuff', 'tmp' \u2014 these are fog. Give it a real name.\"\n\nThe full 575-line bank across 32 categories lives in `skills/gollum/references/jokes.md` for hosts that load skill resources.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/gollum.mdc"
-    },
-    "description": "Make your AI agent talk like Gollum/Sm\u00e9agol from The Lord of the Rings \u2014 a fun, toggleable persona skill with a 575-line",
-    "id": "FlamingPanda101/Gollum-Voice",
-    "language": "\u2014",
-    "name": "FlamingPanda101/Gollum-Voice",
-    "stars": 0,
-    "updated_at": "2026-07-06T18:19:04Z",
-    "url": "https://github.com/FlamingPanda101/Gollum-Voice"
   }
 ]
