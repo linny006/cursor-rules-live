@@ -10,8 +10,17 @@
     "language": "Shell",
     "name": "danielvm-git/bigpowers",
     "stars": 30,
-    "updated_at": "2026-07-09T03:59:31Z",
+    "updated_at": "2026-07-09T04:13:20Z",
     "url": "https://github.com/danielvm-git/bigpowers"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-07-09T04:00:47Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -39,15 +48,6 @@
     "stars": 0,
     "updated_at": "2026-07-09T03:46:36Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-07-09T03:45:29Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
@@ -159,7 +159,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 78192,
+    "stars": 78197,
     "updated_at": "2026-07-09T02:15:44Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -474,7 +474,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 16902,
+    "stars": 16901,
     "updated_at": "2026-07-07T06:51:48Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
