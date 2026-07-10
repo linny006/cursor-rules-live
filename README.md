@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-07-10 07:16 UTC
+> ⏰ Last updated: 2026-07-10 07:31 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -70,7 +70,7 @@ expired items removed — so you can rely on what you see being current.
 | 15 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-07-10 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
 | 16 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 1 | HTML | 2026-07-10 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
 | 17 | [sungurerdim/dev-skills](https://github.com/sungurerdim/dev-skills) | 1 | HTML | 2026-07-10 | — | Your AI assistant hallucinates APIs, breaks dependent files, and weakens tests. 28 skills that prevent this across the f |
-| 18 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 79499 | JavaScript | 2026-07-10 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 18 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 79512 | JavaScript | 2026-07-10 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 19 | [CyannSHI/ai-interview-kit](https://github.com/CyannSHI/ai-interview-kit) | 10 | HTML | 2026-07-10 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/CyannSHI/ai-interview-kit/) | Engineer user-research methodologies into AI prompts — professional-grade phone interviews at scale. 6 pluggable methodo |
 | 20 | [sublimecoder/sublimecoding](https://github.com/sublimecoder/sublimecoding) | 0 | — | 2026-07-10 | — | 🛠️ Free Claude Code & Cursor prompts for senior engineers — code review, debugging, refactoring, system design, CLAUDE.m |
 | 21 | [djtelicloud/grok-mcp-server](https://github.com/djtelicloud/grok-mcp-server) | 2 | Python | 2026-07-09 | — | Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API  |
@@ -81,7 +81,7 @@ expired items removed — so you can rely on what you see being current.
 | 26 | [ajhcs/healthcare-agents](https://github.com/ajhcs/healthcare-agents) | 44 | JavaScript | 2026-07-09 | — | Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows. |
 | 27 | [caioribeiroclw-pixel/pluribus](https://github.com/caioribeiroclw-pixel/pluribus) | 7 | JavaScript | 2026-07-09 | — | Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security |
 | 28 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 16 | HTML | 2026-07-09 | — | Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior |
-| 29 | [HoangNguyen0403/agent-skills-standard](https://github.com/HoangNguyen0403/agent-skills-standard) | 522 | TypeScript | 2026-07-09 | — | A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol |
+| 29 | [HoangNguyen0403/agent-skills-standard](https://github.com/HoangNguyen0403/agent-skills-standard) | 522 | TypeScript | 2026-07-10 | — | A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol |
 | 30 | [vibestackdev/vibe-stack](https://github.com/vibestackdev/vibe-stack) | 6 | TypeScript | 2026-07-09 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/) | 29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b |
 | 31 | [Bilal140202/the-lord-of-the-skills](https://github.com/Bilal140202/the-lord-of-the-skills) | 5 | Python | 2026-07-09 | — | ⚔ 17,000+ AI agent skills from 307+ GitHub repos across 14 frameworks (Claude Code, Cursor, Cline, Roo, Aider, OpenHands |
 | 32 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 31 | Shell | 2026-07-09 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | 72 agent skills synthesizing 17 years of software engineering discipline into a prescriptive methodology for solo develo |
