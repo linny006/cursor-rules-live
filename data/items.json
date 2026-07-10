@@ -1,12 +1,12 @@
 [
   {
-    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
-    "id": "Laurellagloomy260/cursor-rules-generator",
-    "language": "\u2014",
-    "name": "Laurellagloomy260/cursor-rules-generator",
-    "stars": 0,
-    "updated_at": "2026-07-10T03:49:38Z",
-    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
+    "description": "Your AI assistant hallucinates APIs, breaks dependent files, and weakens tests. 28 skills that prevent this across the f",
+    "id": "sungurerdim/dev-skills",
+    "language": "HTML",
+    "name": "sungurerdim/dev-skills",
+    "stars": 1,
+    "updated_at": "2026-07-10T04:01:44Z",
+    "url": "https://github.com/sungurerdim/dev-skills"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-07-10T03:45:36Z",
+    "updated_at": "2026-07-10T04:00:50Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
+    "id": "Laurellagloomy260/cursor-rules-generator",
+    "language": "\u2014",
+    "name": "Laurellagloomy260/cursor-rules-generator",
+    "stars": 0,
+    "updated_at": "2026-07-10T03:49:38Z",
+    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
   },
   {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
@@ -118,7 +127,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 79350,
+    "stars": 79361,
     "updated_at": "2026-07-10T02:44:32Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -180,15 +189,6 @@
     "stars": 1,
     "updated_at": "2026-07-09T23:26:53Z",
     "url": "https://github.com/djtelicloud/grok-mcp-server"
-  },
-  {
-    "description": "Your AI assistant hallucinates APIs, breaks dependent files, and weakens tests. 28 skills that prevent this across the f",
-    "id": "sungurerdim/dev-skills",
-    "language": "HTML",
-    "name": "sungurerdim/dev-skills",
-    "stars": 1,
-    "updated_at": "2026-07-09T23:24:51Z",
-    "url": "https://github.com/sungurerdim/dev-skills"
   },
   {
     "cursorrules": {
@@ -378,7 +378,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 37719,
+    "stars": 37720,
     "updated_at": "2026-07-08T14:32:16Z",
     "url": "https://github.com/wshobson/agents"
   },
