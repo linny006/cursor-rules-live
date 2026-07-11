@@ -1,12 +1,12 @@
 [
   {
-    "description": "\u2694 17,000+ AI agent skills from 307+ GitHub repos across 14 frameworks (Claude Code, Cursor, Cline, Roo, Aider, OpenHands",
-    "id": "Bilal140202/the-lord-of-the-skills",
-    "language": "Python",
-    "name": "Bilal140202/the-lord-of-the-skills",
-    "stars": 5,
-    "updated_at": "2026-07-11T05:31:19Z",
-    "url": "https://github.com/Bilal140202/the-lord-of-the-skills"
+    "description": "Cursor-native config: a strict Plan Gate + Karpathy discipline rules, /plan /delta /prime-init commands, and a global gi",
+    "id": "xnoahwang/cursor-prime",
+    "language": "PowerShell",
+    "name": "xnoahwang/cursor-prime",
+    "stars": 0,
+    "updated_at": "2026-07-11T05:52:16Z",
+    "url": "https://github.com/xnoahwang/cursor-prime"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-07-11T05:30:59Z",
+    "updated_at": "2026-07-11T05:45:56Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\u2694 17,000+ AI agent skills from 307+ GitHub repos across 14 frameworks (Claude Code, Cursor, Cline, Roo, Aider, OpenHands",
+    "id": "Bilal140202/the-lord-of-the-skills",
+    "language": "Python",
+    "name": "Bilal140202/the-lord-of-the-skills",
+    "stars": 5,
+    "updated_at": "2026-07-11T05:31:19Z",
+    "url": "https://github.com/Bilal140202/the-lord-of-the-skills"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -295,7 +304,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 80272,
+    "stars": 80283,
     "updated_at": "2026-07-10T02:44:32Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -414,7 +423,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 37770,
+    "stars": 37771,
     "updated_at": "2026-07-08T14:32:16Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -504,14 +513,5 @@
     "stars": 5,
     "updated_at": "2026-07-07T13:51:44Z",
     "url": "https://github.com/KernelLord/pickysteve"
-  },
-  {
-    "description": "329 agent skills (Cursor, Claude Code & Codex), 5,380 OpenClaw skills, 201 ML notebooks, 51 research papers, 16 industry",
-    "id": "adriannoes/awesome-vibe-coding",
-    "language": "Jupyter Notebook",
-    "name": "adriannoes/awesome-vibe-coding",
-    "stars": 44,
-    "updated_at": "2026-07-07T11:48:15Z",
-    "url": "https://github.com/adriannoes/awesome-vibe-coding"
   }
 ]
