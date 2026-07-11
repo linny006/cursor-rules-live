@@ -1,11 +1,20 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-07-11T11:44:09Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
     "description": "Your AI assistant hallucinates APIs, breaks dependent files, and weakens tests. 28 skills that prevent this across the f",
     "id": "sungurerdim/dev-skills",
     "language": "PowerShell",
     "name": "sungurerdim/dev-skills",
     "stars": 1,
-    "updated_at": "2026-07-11T11:29:03Z",
+    "updated_at": "2026-07-11T11:34:25Z",
     "url": "https://github.com/sungurerdim/dev-skills"
   },
   {
@@ -14,7 +23,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-07-11T11:19:16Z",
+    "updated_at": "2026-07-11T11:30:55Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -61,15 +70,6 @@
     "stars": 3,
     "updated_at": "2026-07-11T10:55:36Z",
     "url": "https://github.com/XAKLESK/cre-agent-skills"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 0,
-    "updated_at": "2026-07-11T10:55:06Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
@@ -313,7 +313,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 80463,
+    "stars": 80466,
     "updated_at": "2026-07-10T02:44:32Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -432,7 +432,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 37779,
+    "stars": 37780,
     "updated_at": "2026-07-08T14:32:16Z",
     "url": "https://github.com/wshobson/agents"
   },
