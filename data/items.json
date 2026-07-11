@@ -1,11 +1,20 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-07-11T23:43:48Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-07-11T23:16:32Z",
+    "updated_at": "2026-07-11T23:31:33Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -45,15 +54,6 @@
     "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
   },
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 0,
-    "updated_at": "2026-07-11T22:37:46Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
     "id": "Hyanthropological659/clarify-skill",
     "language": "\u2014",
@@ -86,7 +86,7 @@
     "language": "Python",
     "name": "djtelicloud/grok-mcp-server",
     "stars": 3,
-    "updated_at": "2026-07-11T22:18:39Z",
+    "updated_at": "2026-07-11T23:41:50Z",
     "url": "https://github.com/djtelicloud/grok-mcp-server"
   },
   {
@@ -199,7 +199,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 37810,
+    "stars": 37809,
     "updated_at": "2026-07-11T13:58:31Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -345,7 +345,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 80750,
+    "stars": 80755,
     "updated_at": "2026-07-10T02:44:32Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
