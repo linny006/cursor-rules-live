@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-07-11 12:29 UTC
+> ⏰ Last updated: 2026-07-11 12:31 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -95,7 +95,7 @@ expired items removed — so you can rely on what you see being current.
 | 40 | [nota-america/forgecat-agent-profiles](https://github.com/nota-america/forgecat-agent-profiles) | 16 | TypeScript | 2026-07-08 | — | Production-ready AI agent profiles for Claude Code, Cursor, and Codex. Search, install, and contribute ForgeCat packages |
 | 41 | [madebyaris/cursor-composer-rules](https://github.com/madebyaris/cursor-composer-rules) | 3 | — | 2026-07-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/madebyaris/cursor-composer-rules/) | How a senior engineer thinks, encoded for Cursor agents — evidence-first, surgical edits, reasoning & metacognition, and |
 | 42 | [raintree-technology/agent-starter](https://github.com/raintree-technology/agent-starter) | 84 | JavaScript | 2026-07-08 | — | One manifest for agent skills, MCP servers, and stack profiles across Claude Code, Codex, and Cursor. |
-| 43 | [wshobson/agents](https://github.com/wshobson/agents) | 37781 | Python | 2026-07-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI |
+| 43 | [wshobson/agents](https://github.com/wshobson/agents) | 37782 | Python | 2026-07-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI |
 | 44 | [sscodeai/agency-agents-ja](https://github.com/sscodeai/agency-agents-ja) | 3 | Shell | 2026-07-08 | — | 323個の即戦力AI専門エージェント — Claude Code/Cursor/Copilot等に対応。SIer/受託開発/SaaS/製造DX/公共分野など日本市場向け114個のオリジナルを含む、agency-agents日本語コミュニティ |
 | 45 | [L4pisLazuli/cursor_obsidian_templete](https://github.com/L4pisLazuli/cursor_obsidian_templete) | 0 | — | 2026-07-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/L4pisLazuli/cursor_obsidian_templete/) | Template Obsidian vault wired for Cursor agents — glob-scoped rules, temp→persistent→analysis workflow, Git conventions. |
 | 46 | [haidrrrry/compose-kotlin-agent-skills](https://github.com/haidrrrry/compose-kotlin-agent-skills) | 32 | Markdown | 2026-07-08 | — | Jetpack Compose & Kotlin AI agent skills for Cursor, Claude Code, Codex, Gemini & 27+ agents. Strict MVI · Kotlin 2.x K2 |
