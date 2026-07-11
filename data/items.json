@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-07-11T11:15:50Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
     "id": "Laurellagloomy260/cursor-rules-generator",
     "language": "\u2014",
@@ -14,7 +23,7 @@
     "language": "Python",
     "name": "KbWen/agentic-os",
     "stars": 69,
-    "updated_at": "2026-07-11T11:07:25Z",
+    "updated_at": "2026-07-11T11:16:53Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
   {
@@ -25,15 +34,6 @@
     "stars": 1,
     "updated_at": "2026-07-11T11:03:31Z",
     "url": "https://github.com/sungurerdim/dev-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-07-11T11:01:39Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
@@ -313,7 +313,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 80451,
+    "stars": 80453,
     "updated_at": "2026-07-10T02:44:32Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
