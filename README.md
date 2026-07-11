@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-07-11 13:16 UTC
+> ⏰ Last updated: 2026-07-11 13:31 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,9 +53,9 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [djtelicloud/grok-mcp-server](https://github.com/djtelicloud/grok-mcp-server) | 3 | Python | 2026-07-11 | — | Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API  |
-| 2 | [caioribeiroclw-pixel/pluribus](https://github.com/caioribeiroclw-pixel/pluribus) | 7 | JavaScript | 2026-07-11 | — | Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security |
-| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-07-11 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-07-11 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [djtelicloud/grok-mcp-server](https://github.com/djtelicloud/grok-mcp-server) | 3 | Python | 2026-07-11 | — | Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API  |
+| 3 | [caioribeiroclw-pixel/pluribus](https://github.com/caioribeiroclw-pixel/pluribus) | 7 | JavaScript | 2026-07-11 | — | Privacy-safe context receipts for AI coding agents: prove what context, memory, tools, skills, compactions, and security |
 | 4 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 0 | HTML | 2026-07-11 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
 | 5 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 1 | HTML | 2026-07-11 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
 | 6 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-07-11 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
@@ -77,14 +77,14 @@ expired items removed — so you can rely on what you see being current.
 | 22 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 23 | — | 2026-07-11 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
 | 23 | [cy117Hub/dhx-tech-electronic-components-sourcing-skill](https://github.com/cy117Hub/dhx-tech-electronic-components-sourcing-skill) | 0 | — | 2026-07-11 | — | 🚀 Official AI Sourcing & BOM Matcher Agent for DHX Tech. Instantly find million-level in-stock IC components (TI, ST, NX |
 | 24 | [Bilal140202/the-lord-of-the-skills](https://github.com/Bilal140202/the-lord-of-the-skills) | 5 | Python | 2026-07-11 | — | ⚔ 17,000+ AI agent skills from 307+ GitHub repos across 14 frameworks (Claude Code, Cursor, Cline, Roo, Aider, OpenHands |
-| 25 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 34 | Shell | 2026-07-11 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | 72 agent skills synthesizing 17 years of software engineering discipline into a prescriptive methodology for solo develo |
+| 25 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 35 | Shell | 2026-07-11 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | 72 agent skills synthesizing 17 years of software engineering discipline into a prescriptive methodology for solo develo |
 | 26 | [sublimecoder/sublimecoding](https://github.com/sublimecoder/sublimecoding) | 0 | — | 2026-07-11 | — | 🛠️ Free Claude Code & Cursor prompts for senior engineers — code review, debugging, refactoring, system design, CLAUDE.m |
 | 27 | [WYY-gogogo/prd-for-ai-products](https://github.com/WYY-gogogo/prd-for-ai-products) | 1 | — | 2026-07-10 | — | 专为AI应用产品编写的PRD生成指令包。通过15个决策维度的系统化提问，输出既证明AI PM能力又可落地执行的专业PRD。适用于任何支持Markdown指令的AI平台。 |
 | 28 | [manueldezman/botchain-init-toolkit](https://github.com/manueldezman/botchain-init-toolkit) | 0 | JavaScript | 2026-07-10 | — | A single-command toolkit that turns Claude Code, Codex, Cursor, and Windsurf into specialized BOT Chain engineering agen |
 | 29 | [SalesforceAIResearch/agentforce-adlc](https://github.com/SalesforceAIResearch/agentforce-adlc) | 82 | Python | 2026-07-10 | — | Agent Development Life Cycle — Build, deploy, test, and optimize Agentforce agents using Claude Code skills and Agent Sc |
 | 30 | [balacodeio/balakit](https://github.com/balacodeio/balakit) | 0 | JavaScript | 2026-07-10 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/balacodeio/balakit/) | Opinionated, cross-agent rules and skills for AI coding agents — one npx install into Cursor, Claude Code, Codex, OpenCo |
 | 31 | [taniwhaai/arai](https://github.com/taniwhaai/arai) | 6 | Rust | 2026-07-10 | — | Your AI assistant reads CLAUDE.md and ignores it anyway. Ārai makes instruction files enforced — hooks that block, a tam |
-| 32 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 80514 | JavaScript | 2026-07-10 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 32 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 80525 | JavaScript | 2026-07-10 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 33 | [CyannSHI/ai-interview-kit](https://github.com/CyannSHI/ai-interview-kit) | 10 | HTML | 2026-07-10 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/CyannSHI/ai-interview-kit/) | Engineer user-research methodologies into AI prompts — professional-grade phone interviews at scale. 6 pluggable methodo |
 | 34 | [cet3001/gut-check](https://github.com/cet3001/gut-check) | 0 | — | 2026-07-09 | — | The AI trigger that tells you the truth about your idea before you spend three months on it. |
 | 35 | [powersync-ja/agent-skills](https://github.com/powersync-ja/agent-skills) | 16 | JavaScript | 2026-07-10 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/powersync-ja/agent-skills/) | Official agent skills for PowerSync |
@@ -95,7 +95,7 @@ expired items removed — so you can rely on what you see being current.
 | 40 | [nota-america/forgecat-agent-profiles](https://github.com/nota-america/forgecat-agent-profiles) | 16 | TypeScript | 2026-07-08 | — | Production-ready AI agent profiles for Claude Code, Cursor, and Codex. Search, install, and contribute ForgeCat packages |
 | 41 | [madebyaris/cursor-composer-rules](https://github.com/madebyaris/cursor-composer-rules) | 3 | — | 2026-07-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/madebyaris/cursor-composer-rules/) | How a senior engineer thinks, encoded for Cursor agents — evidence-first, surgical edits, reasoning & metacognition, and |
 | 42 | [raintree-technology/agent-starter](https://github.com/raintree-technology/agent-starter) | 84 | JavaScript | 2026-07-08 | — | One manifest for agent skills, MCP servers, and stack profiles across Claude Code, Codex, and Cursor. |
-| 43 | [wshobson/agents](https://github.com/wshobson/agents) | 37783 | Python | 2026-07-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI |
+| 43 | [wshobson/agents](https://github.com/wshobson/agents) | 37785 | Python | 2026-07-11 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI |
 | 44 | [sscodeai/agency-agents-ja](https://github.com/sscodeai/agency-agents-ja) | 3 | Shell | 2026-07-08 | — | 323個の即戦力AI専門エージェント — Claude Code/Cursor/Copilot等に対応。SIer/受託開発/SaaS/製造DX/公共分野など日本市場向け114個のオリジナルを含む、agency-agents日本語コミュニティ |
 | 45 | [L4pisLazuli/cursor_obsidian_templete](https://github.com/L4pisLazuli/cursor_obsidian_templete) | 0 | — | 2026-07-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/L4pisLazuli/cursor_obsidian_templete/) | Template Obsidian vault wired for Cursor agents — glob-scoped rules, temp→persistent→analysis workflow, Git conventions. |
 | 46 | [haidrrrry/compose-kotlin-agent-skills](https://github.com/haidrrrry/compose-kotlin-agent-skills) | 32 | Markdown | 2026-07-08 | — | Jetpack Compose & Kotlin AI agent skills for Cursor, Claude Code, Codex, Gemini & 27+ agents. Strict MVI · Kotlin 2.x K2 |
