@@ -5,8 +5,17 @@
     "language": "PowerShell",
     "name": "xnoahwang/cursor-prime",
     "stars": 0,
-    "updated_at": "2026-07-11T08:00:58Z",
+    "updated_at": "2026-07-11T08:26:03Z",
     "url": "https://github.com/xnoahwang/cursor-prime"
+  },
+  {
+    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 69,
+    "updated_at": "2026-07-11T08:27:40Z",
+    "url": "https://github.com/KbWen/agentic-os"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,7 +23,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-07-11T08:00:37Z",
+    "updated_at": "2026-07-11T08:16:42Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -25,15 +34,6 @@
     "stars": 23,
     "updated_at": "2026-07-11T07:48:49Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
-    "id": "KbWen/agentic-os",
-    "language": "Python",
-    "name": "KbWen/agentic-os",
-    "stars": 69,
-    "updated_at": "2026-07-11T08:04:29Z",
-    "url": "https://github.com/KbWen/agentic-os"
   },
   {
     "description": "\ud83d\ude80 Official AI Sourcing & BOM Matcher Agent for DHX Tech. Instantly find million-level in-stock IC components (TI, ST, NX",
@@ -313,7 +313,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 80358,
+    "stars": 80366,
     "updated_at": "2026-07-10T02:44:32Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -432,7 +432,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 37773,
+    "stars": 37774,
     "updated_at": "2026-07-08T14:32:16Z",
     "url": "https://github.com/wshobson/agents"
   },
