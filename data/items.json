@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-07-11T06:01:20Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Cursor-native config: a strict Plan Gate + Karpathy discipline rules, /plan /delta /prime-init commands, and a global gi",
     "id": "xnoahwang/cursor-prime",
     "language": "PowerShell",
@@ -7,15 +16,6 @@
     "stars": 0,
     "updated_at": "2026-07-11T05:52:16Z",
     "url": "https://github.com/xnoahwang/cursor-prime"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-07-11T05:45:56Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\u2694 17,000+ AI agent skills from 307+ GitHub repos across 14 frameworks (Claude Code, Cursor, Cline, Roo, Aider, OpenHands",
@@ -304,7 +304,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 80283,
+    "stars": 80287,
     "updated_at": "2026-07-10T02:44:32Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -378,7 +378,7 @@
     "language": "\u2014",
     "name": "tugkanboz/awesome-cursorrules",
     "stars": 18,
-    "updated_at": "2026-07-09T06:08:34Z",
+    "updated_at": "2026-07-11T06:07:30Z",
     "url": "https://github.com/tugkanboz/awesome-cursorrules"
   },
   {
