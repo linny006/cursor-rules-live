@@ -1,12 +1,12 @@
 [
   {
-    "description": "Cursor-native config: a strict Plan Gate + Karpathy discipline rules, /plan /delta /prime-init commands, and a global gi",
-    "id": "xnoahwang/cursor-prime",
-    "language": "PowerShell",
-    "name": "xnoahwang/cursor-prime",
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
     "stars": 0,
-    "updated_at": "2026-07-12T05:04:46Z",
-    "url": "https://github.com/xnoahwang/cursor-prime"
+    "updated_at": "2026-07-12T05:18:23Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-07-12T05:02:14Z",
+    "updated_at": "2026-07-12T05:17:40Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Cursor-native config: a strict Plan Gate + Karpathy discipline rules, /plan /delta /prime-init commands, and a global gi",
+    "id": "xnoahwang/cursor-prime",
+    "language": "PowerShell",
+    "name": "xnoahwang/cursor-prime",
+    "stars": 0,
+    "updated_at": "2026-07-12T05:04:46Z",
+    "url": "https://github.com/xnoahwang/cursor-prime"
   },
   {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
@@ -154,15 +163,6 @@
     "url": "https://github.com/djtelicloud/grok-mcp-server"
   },
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 0,
-    "updated_at": "2026-07-12T01:49:44Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
     "description": "Modular, scalable, automated development intelligence.",
     "id": "DongDuong2001/pudo-code-system",
     "language": "JavaScript",
@@ -236,7 +236,7 @@
     "language": "TypeScript",
     "name": "HoangNguyen0403/agent-skills-standard",
     "stars": 522,
-    "updated_at": "2026-07-12T04:05:39Z",
+    "updated_at": "2026-07-12T05:23:03Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
   },
   {
@@ -363,7 +363,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 80861,
+    "stars": 80868,
     "updated_at": "2026-07-10T02:44:32Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
