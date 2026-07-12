@@ -1,5 +1,41 @@
 [
   {
+    "description": "Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API ",
+    "id": "djtelicloud/grok-mcp-server",
+    "language": "Python",
+    "name": "djtelicloud/grok-mcp-server",
+    "stars": 3,
+    "updated_at": "2026-07-12T11:27:46Z",
+    "url": "https://github.com/djtelicloud/grok-mcp-server"
+  },
+  {
+    "description": "Enforcement & release-hygiene layer for Cursor agents \u2014 blocking git/DB/license guardrails, commit hygiene, and docs-ops",
+    "id": "SID-SURANGE/cursor-team-ops",
+    "language": "Shell",
+    "name": "SID-SURANGE/cursor-team-ops",
+    "stars": 0,
+    "updated_at": "2026-07-12T11:18:02Z",
+    "url": "https://github.com/SID-SURANGE/cursor-team-ops"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-07-12T11:15:41Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-07-12T11:15:26Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
+  },
+  {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
     "id": "arnoldalberto007-sys/Swift-UIKit-Components",
     "language": "HTML",
@@ -16,24 +52,6 @@
     "stars": 0,
     "updated_at": "2026-07-12T11:12:32Z",
     "url": "https://github.com/xnoahwang/cursor-prime"
-  },
-  {
-    "description": "Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API ",
-    "id": "djtelicloud/grok-mcp-server",
-    "language": "Python",
-    "name": "djtelicloud/grok-mcp-server",
-    "stars": 3,
-    "updated_at": "2026-07-12T11:13:11Z",
-    "url": "https://github.com/djtelicloud/grok-mcp-server"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-07-12T11:02:18Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\u2694 AI agent skills installer \u2014 17,000+ skills for Claude Code, Cursor, Cline, Aider, Codex & Antigravity. pip install lot",
@@ -205,15 +223,6 @@
     "url": "https://github.com/Luxvil/ai-coding-rules"
   },
   {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
-    "stars": 0,
-    "updated_at": "2026-07-12T09:06:34Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
     "id": "J-nowcow/awesome-korean-agent-skills",
     "language": "\u2014",
@@ -236,7 +245,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 17148,
+    "stars": 17149,
     "updated_at": "2026-07-12T03:19:22Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -309,7 +318,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 37824,
+    "stars": 37825,
     "updated_at": "2026-07-11T13:58:31Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -391,7 +400,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 81017,
+    "stars": 81022,
     "updated_at": "2026-07-10T02:44:32Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -499,14 +508,5 @@
     "stars": 32,
     "updated_at": "2026-07-08T07:27:45Z",
     "url": "https://github.com/haidrrrry/compose-kotlin-agent-skills"
-  },
-  {
-    "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
-    "id": "fluttersdk/wind",
-    "language": "Dart",
-    "name": "fluttersdk/wind",
-    "stars": 23,
-    "updated_at": "2026-07-07T21:56:11Z",
-    "url": "https://github.com/fluttersdk/wind"
   }
 ]
