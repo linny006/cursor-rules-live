@@ -1,11 +1,29 @@
 [
   {
+    "description": "Your AI assistant hallucinates APIs, breaks dependent files, and weakens tests. 28 skills that prevent this across the f",
+    "id": "sungurerdim/dev-skills",
+    "language": "PowerShell",
+    "name": "sungurerdim/dev-skills",
+    "stars": 1,
+    "updated_at": "2026-07-12T06:13:39Z",
+    "url": "https://github.com/sungurerdim/dev-skills"
+  },
+  {
+    "description": "Cursor-native config: a strict Plan Gate + Karpathy discipline rules, /plan /delta /prime-init commands, and a global gi",
+    "id": "xnoahwang/cursor-prime",
+    "language": "PowerShell",
+    "name": "xnoahwang/cursor-prime",
+    "stars": 0,
+    "updated_at": "2026-07-12T06:12:41Z",
+    "url": "https://github.com/xnoahwang/cursor-prime"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-07-12T05:45:31Z",
+    "updated_at": "2026-07-12T06:02:48Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -16,15 +34,6 @@
     "stars": 0,
     "updated_at": "2026-07-12T05:18:23Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "Cursor-native config: a strict Plan Gate + Karpathy discipline rules, /plan /delta /prime-init commands, and a global gi",
-    "id": "xnoahwang/cursor-prime",
-    "language": "PowerShell",
-    "name": "xnoahwang/cursor-prime",
-    "stars": 0,
-    "updated_at": "2026-07-12T05:04:46Z",
-    "url": "https://github.com/xnoahwang/cursor-prime"
   },
   {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
@@ -263,15 +272,6 @@
     "url": "https://github.com/sscodeai/agency-agents-ja"
   },
   {
-    "description": "Your AI assistant hallucinates APIs, breaks dependent files, and weakens tests. 28 skills that prevent this across the f",
-    "id": "sungurerdim/dev-skills",
-    "language": "PowerShell",
-    "name": "sungurerdim/dev-skills",
-    "stars": 1,
-    "updated_at": "2026-07-11T11:34:25Z",
-    "url": "https://github.com/sungurerdim/dev-skills"
-  },
-  {
     "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
     "id": "KbWen/agentic-os",
     "language": "Python",
@@ -363,7 +363,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 80874,
+    "stars": 80877,
     "updated_at": "2026-07-10T02:44:32Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -428,7 +428,7 @@
     "language": "\u2014",
     "name": "tugkanboz/awesome-cursorrules",
     "stars": 18,
-    "updated_at": "2026-07-11T06:07:30Z",
+    "updated_at": "2026-07-12T06:05:30Z",
     "url": "https://github.com/tugkanboz/awesome-cursorrules"
   },
   {
