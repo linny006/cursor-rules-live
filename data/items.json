@@ -5,17 +5,17 @@
     "language": "Python",
     "name": "djtelicloud/grok-mcp-server",
     "stars": 3,
-    "updated_at": "2026-07-12T12:14:35Z",
+    "updated_at": "2026-07-12T12:26:57Z",
     "url": "https://github.com/djtelicloud/grok-mcp-server"
   },
   {
-    "description": "Enforcement & release-hygiene layer for Cursor agents \u2014 blocking git/DB/license guardrails, commit hygiene, and docs-ops",
-    "id": "SID-SURANGE/cursor-team-ops",
-    "language": "Shell",
-    "name": "SID-SURANGE/cursor-team-ops",
-    "stars": 0,
-    "updated_at": "2026-07-12T12:14:04Z",
-    "url": "https://github.com/SID-SURANGE/cursor-team-ops"
+    "description": "\u2694 AI agent skills installer \u2014 17,000+ skills for Claude Code, Cursor, Cline, Aider, Codex & Antigravity. pip install lot",
+    "id": "Bilal140202/the-lord-of-the-skills",
+    "language": "Python",
+    "name": "Bilal140202/the-lord-of-the-skills",
+    "stars": 5,
+    "updated_at": "2026-07-12T12:17:27Z",
+    "url": "https://github.com/Bilal140202/the-lord-of-the-skills"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -23,8 +23,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-07-12T12:02:54Z",
+    "updated_at": "2026-07-12T12:16:46Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Enforcement & release-hygiene layer for Cursor agents \u2014 blocking git/DB/license guardrails, commit hygiene, and docs-ops",
+    "id": "SID-SURANGE/cursor-team-ops",
+    "language": "Shell",
+    "name": "SID-SURANGE/cursor-team-ops",
+    "stars": 0,
+    "updated_at": "2026-07-12T12:16:02Z",
+    "url": "https://github.com/SID-SURANGE/cursor-team-ops"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -70,15 +79,6 @@
     "stars": 0,
     "updated_at": "2026-07-12T11:12:32Z",
     "url": "https://github.com/xnoahwang/cursor-prime"
-  },
-  {
-    "description": "\u2694 AI agent skills installer \u2014 17,000+ skills for Claude Code, Cursor, Cline, Aider, Codex & Antigravity. pip install lot",
-    "id": "Bilal140202/the-lord-of-the-skills",
-    "language": "Python",
-    "name": "Bilal140202/the-lord-of-the-skills",
-    "stars": 5,
-    "updated_at": "2026-07-12T10:57:05Z",
-    "url": "https://github.com/Bilal140202/the-lord-of-the-skills"
   },
   {
     "cursorrules": {
@@ -245,7 +245,7 @@
     "id": "HoangNguyen0403/agent-skills-standard",
     "language": "TypeScript",
     "name": "HoangNguyen0403/agent-skills-standard",
-    "stars": 523,
+    "stars": 524,
     "updated_at": "2026-07-12T05:23:03Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
   },
@@ -254,7 +254,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 17149,
+    "stars": 17150,
     "updated_at": "2026-07-12T03:19:22Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -400,7 +400,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 81036,
+    "stars": 81044,
     "updated_at": "2026-07-10T02:44:32Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
