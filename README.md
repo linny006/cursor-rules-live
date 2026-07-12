@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-07-12 19:46 UTC
+> ⏰ Last updated: 2026-07-12 19:52 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,9 +53,9 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [djtelicloud/grok-mcp-server](https://github.com/djtelicloud/grok-mcp-server) | 3 | Python | 2026-07-12 | — | Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API  |
-| 2 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 1 | HTML | 2026-07-12 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-07-12 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 0 | HTML | 2026-07-12 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [djtelicloud/grok-mcp-server](https://github.com/djtelicloud/grok-mcp-server) | 3 | Python | 2026-07-12 | — | Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API  |
+| 3 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 1 | HTML | 2026-07-12 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
 | 4 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-07-12 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
 | 5 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-07-12 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
 | 6 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-07-12 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
@@ -69,7 +69,7 @@ expired items removed — so you can rely on what you see being current.
 | 14 | [zinxj/uikit-expert-skill](https://github.com/zinxj/uikit-expert-skill) | 3 | — | 2026-07-12 | — | Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan |
 | 15 | [johnwall123459885/skene-cookbook](https://github.com/johnwall123459885/skene-cookbook) | 0 | Python | 2026-07-12 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/johnwall123459885/skene-cookbook/) | 🤖 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development. |
 | 16 | [Luxvil/ai-coding-rules](https://github.com/Luxvil/ai-coding-rules) | 3 | Shell | 2026-07-12 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Luxvil/ai-coding-rules/) | 🤖 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje |
-| 17 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 17165 | Shell | 2026-07-12 | — | 🎭 266 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 50 个中国市场原创智能体（小红书/抖音/ |
+| 17 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 17166 | Shell | 2026-07-12 | — | 🎭 266 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 50 个中国市场原创智能体（小红书/抖音/ |
 | 18 | [SID-SURANGE/cursor-team-ops](https://github.com/SID-SURANGE/cursor-team-ops) | 0 | Shell | 2026-07-12 | — | Enforcement & release-hygiene layer for Cursor agents — blocking git/DB/license guardrails, commit hygiene, and docs-ops |
 | 19 | [Bilal140202/the-lord-of-the-skills](https://github.com/Bilal140202/the-lord-of-the-skills) | 5 | Python | 2026-07-12 | — | ⚔ AI agent skills installer — 17,000+ skills for Claude Code, Cursor, Cline, Aider, Codex & Antigravity. pip install lot |
 | 20 | [xnoahwang/cursor-prime](https://github.com/xnoahwang/cursor-prime) | 0 | PowerShell | 2026-07-12 | — | Cursor-native config: a strict Plan Gate + Karpathy discipline rules, /plan /delta /prime-init commands, and a global gi |
@@ -93,7 +93,7 @@ expired items removed — so you can rely on what you see being current.
 | 38 | [SalesforceAIResearch/agentforce-adlc](https://github.com/SalesforceAIResearch/agentforce-adlc) | 83 | Python | 2026-07-10 | — | Agent Development Life Cycle — Build, deploy, test, and optimize Agentforce agents using Claude Code skills and Agent Sc |
 | 39 | [balacodeio/balakit](https://github.com/balacodeio/balakit) | 0 | JavaScript | 2026-07-10 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/balacodeio/balakit/) | Opinionated, cross-agent rules and skills for AI coding agents — one npx install into Cursor, Claude Code, Codex, OpenCo |
 | 40 | [taniwhaai/arai](https://github.com/taniwhaai/arai) | 6 | Rust | 2026-07-10 | — | Your AI assistant reads CLAUDE.md and ignores it anyway. Ārai makes instruction files enforced — hooks that block, a tam |
-| 41 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 81253 | JavaScript | 2026-07-10 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 41 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 81255 | JavaScript | 2026-07-10 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 42 | [CyannSHI/ai-interview-kit](https://github.com/CyannSHI/ai-interview-kit) | 10 | HTML | 2026-07-10 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/CyannSHI/ai-interview-kit/) | Engineer user-research methodologies into AI prompts — professional-grade phone interviews at scale. 6 pluggable methodo |
 | 43 | [cet3001/gut-check](https://github.com/cet3001/gut-check) | 0 | — | 2026-07-09 | — | The AI trigger that tells you the truth about your idea before you spend three months on it. |
 | 44 | [powersync-ja/agent-skills](https://github.com/powersync-ja/agent-skills) | 16 | JavaScript | 2026-07-10 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/powersync-ja/agent-skills/) | Official agent skills for PowerSync |
