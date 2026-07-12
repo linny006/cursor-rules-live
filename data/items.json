@@ -1,11 +1,29 @@
 [
   {
+    "description": "Enforcement & release-hygiene layer for Cursor agents \u2014 blocking git/DB/license guardrails, commit hygiene, and docs-ops",
+    "id": "SID-SURANGE/cursor-team-ops",
+    "language": "Shell",
+    "name": "SID-SURANGE/cursor-team-ops",
+    "stars": 0,
+    "updated_at": "2026-07-12T11:51:55Z",
+    "url": "https://github.com/SID-SURANGE/cursor-team-ops"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-07-12T11:50:36Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-07-12T11:34:42Z",
+    "updated_at": "2026-07-12T11:46:49Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -25,15 +43,6 @@
     "stars": 3,
     "updated_at": "2026-07-12T11:30:28Z",
     "url": "https://github.com/djtelicloud/grok-mcp-server"
-  },
-  {
-    "description": "Enforcement & release-hygiene layer for Cursor agents \u2014 blocking git/DB/license guardrails, commit hygiene, and docs-ops",
-    "id": "SID-SURANGE/cursor-team-ops",
-    "language": "Shell",
-    "name": "SID-SURANGE/cursor-team-ops",
-    "stars": 0,
-    "updated_at": "2026-07-12T11:18:02Z",
-    "url": "https://github.com/SID-SURANGE/cursor-team-ops"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -93,15 +102,6 @@
     "stars": 9,
     "updated_at": "2026-07-12T10:23:17Z",
     "url": "https://github.com/philipbankier/awesome-agent-skills"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 0,
-    "updated_at": "2026-07-12T10:17:54Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
@@ -318,7 +318,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 37825,
+    "stars": 37824,
     "updated_at": "2026-07-11T13:58:31Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -400,7 +400,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 81026,
+    "stars": 81027,
     "updated_at": "2026-07-10T02:44:32Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
