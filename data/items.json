@@ -1,11 +1,11 @@
 [
   {
-    "description": "\u2694 17,000+ AI agent skills from 307+ GitHub repos across 14 frameworks (Claude Code, Cursor, Cline, Roo, Aider, OpenHands",
+    "description": "\u2694 AI agent skills installer \u2014 17,000+ skills for Claude Code, Cursor, Cline, Aider, Codex & Antigravity. pip install lot",
     "id": "Bilal140202/the-lord-of-the-skills",
     "language": "Python",
     "name": "Bilal140202/the-lord-of-the-skills",
     "stars": 5,
-    "updated_at": "2026-07-12T10:35:21Z",
+    "updated_at": "2026-07-12T10:57:05Z",
     "url": "https://github.com/Bilal140202/the-lord-of-the-skills"
   },
   {
@@ -14,7 +14,7 @@
     "language": "Python",
     "name": "djtelicloud/grok-mcp-server",
     "stars": 3,
-    "updated_at": "2026-07-12T10:31:31Z",
+    "updated_at": "2026-07-12T10:51:16Z",
     "url": "https://github.com/djtelicloud/grok-mcp-server"
   },
   {
@@ -23,7 +23,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-07-12T10:30:42Z",
+    "updated_at": "2026-07-12T10:46:17Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -391,7 +391,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 81008,
+    "stars": 81013,
     "updated_at": "2026-07-10T02:44:32Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
