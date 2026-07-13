@@ -5,8 +5,22 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-07-13T01:02:00Z",
+    "updated_at": "2026-07-13T01:16:49Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: claude-agents marketplace project conventions\nalwaysApply: true\n---\n\n# claude-agents conventions\n\nThis is a multi-harness plugin marketplace. Source lives under `plugins/`; per-harness\nartifacts (`.codex/`, `.cursor-plugin/`, `.opencode/`, `commands/`) are generated.\n\n- Don't hand-edit anything under `.codex/`, `.cursor-plugin/`, `.opencode/`, or top-level `commands/`, `agents/`, `skills/` \u2014 regenerate via `make generate HARNESS=<x>`.\n- Python tooling: `uv` (package manager), `ruff` (lint/format), `ty` (type check). Do not use pip/mypy/black.\n- Plugin files: `plugins/<name>/{.claude-plugin/plugin.json, agents/*.md, skills/<name>/SKILL.md, commands/*.md}`. Auto-discovered.\n- Cursor reads `.claude/skills/` and `.claude/agents/` directly \u2014 no separate `.cursor/skills/` is generated.\n\n## Never\n\n- Never commit secrets or hardcode credentials.\n- Never hand-edit generated registries (`.agents/plugins/marketplace.json`, `.cursor-plugin/`) \u2014 plugin PRs register the plugin in `.claude-plugin/marketplace.json`, then run `make generate-all` (see CONTRIBUTING.md).\n- Never run destructive git operations (force-push, reset --hard, branch -D) without explicit ask.\n\nSee `docs/authoring.md` for the portable-content style guide.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/000-project-conventions.mdc"
+    },
+    "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI",
+    "id": "wshobson/agents",
+    "language": "Python",
+    "name": "wshobson/agents",
+    "stars": 37839,
+    "updated_at": "2026-07-13T01:09:42Z",
+    "url": "https://github.com/wshobson/agents"
   },
   {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
@@ -318,20 +332,6 @@
     "url": "https://github.com/WYY-gogogo/prd-for-ai-products"
   },
   {
-    "cursorrules": {
-      "content": "---\ndescription: claude-agents marketplace project conventions\nalwaysApply: true\n---\n\n# claude-agents conventions\n\nThis is a multi-harness plugin marketplace. Source lives under `plugins/`; per-harness\nartifacts (`.codex/`, `.cursor-plugin/`, `.opencode/`, `commands/`) are generated.\n\n- Don't hand-edit anything under `.codex/`, `.cursor-plugin/`, `.opencode/`, or top-level `commands/`, `agents/`, `skills/` \u2014 regenerate via `make generate HARNESS=<x>`.\n- Python tooling: `uv` (package manager), `ruff` (lint/format), `ty` (type check). Do not use pip/mypy/black.\n- Plugin files: `plugins/<name>/{.claude-plugin/plugin.json, agents/*.md, skills/<name>/SKILL.md, commands/*.md}`. Auto-discovered.\n- Cursor reads `.claude/skills/` and `.claude/agents/` directly \u2014 no separate `.cursor/skills/` is generated.\n\n## Never\n\n- Never commit secrets or hardcode credentials.\n- Never hand-edit generated registries (`.agents/plugins/marketplace.json`, `.cursor-plugin/`) \u2014 plugin PRs register the plugin in `.claude-plugin/marketplace.json`, then run `make generate-all` (see CONTRIBUTING.md).\n- Never run destructive git operations (force-push, reset --hard, branch -D) without explicit ask.\n\nSee `docs/authoring.md` for the portable-content style guide.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/000-project-conventions.mdc"
-    },
-    "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI",
-    "id": "wshobson/agents",
-    "language": "Python",
-    "name": "wshobson/agents",
-    "stars": 37838,
-    "updated_at": "2026-07-13T01:09:42Z",
-    "url": "https://github.com/wshobson/agents"
-  },
-  {
     "description": "323\u500b\u306e\u5373\u6226\u529bAI\u5c02\u9580\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8 \u2014 Claude Code/Cursor/Copilot\u7b49\u306b\u5bfe\u5fdc\u3002SIer/\u53d7\u8a17\u958b\u767a/SaaS/\u88fd\u9020DX/\u516c\u5171\u5206\u91ce\u306a\u3069\u65e5\u672c\u5e02\u5834\u5411\u3051114\u500b\u306e\u30aa\u30ea\u30b8\u30ca\u30eb\u3092\u542b\u3080\u3001agency-agents\u65e5\u672c\u8a9e\u30b3\u30df\u30e5\u30cb\u30c6\u30a3",
     "id": "sscodeai/agency-agents-ja",
     "language": "Shell",
@@ -409,7 +409,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 81368,
+    "stars": 81376,
     "updated_at": "2026-07-10T02:44:32Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
