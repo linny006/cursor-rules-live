@@ -1,21 +1,21 @@
 [
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-07-13T13:31:04Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API ",
     "id": "djtelicloud/grok-mcp-server",
     "language": "Python",
     "name": "djtelicloud/grok-mcp-server",
     "stars": 3,
-    "updated_at": "2026-07-13T13:14:43Z",
+    "updated_at": "2026-07-13T13:57:22Z",
     "url": "https://github.com/djtelicloud/grok-mcp-server"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-07-13T13:46:39Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Flutter UI/UX design skill for Claude Code, Cursor & AI coding agents. Material 3 theming, dark mode, animations, anti-p",
@@ -176,7 +176,7 @@
     "id": "MicSm/boffin",
     "language": "JavaScript",
     "name": "MicSm/boffin",
-    "stars": 1,
+    "stars": 2,
     "updated_at": "2026-07-13T10:49:19Z",
     "url": "https://github.com/MicSm/boffin"
   },
@@ -205,7 +205,7 @@
     "language": "Shell",
     "name": "Luxvil/ai-coding-rules",
     "stars": 3,
-    "updated_at": "2026-07-13T10:40:31Z",
+    "updated_at": "2026-07-13T13:59:39Z",
     "url": "https://github.com/Luxvil/ai-coding-rules"
   },
   {
@@ -254,7 +254,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 37860,
+    "stars": 37861,
     "updated_at": "2026-07-13T01:09:42Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -436,7 +436,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 81898,
+    "stars": 81911,
     "updated_at": "2026-07-10T02:44:32Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
