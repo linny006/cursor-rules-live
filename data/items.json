@@ -1,12 +1,12 @@
 [
   {
-    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
-    "id": "zinxj/uikit-expert-skill",
-    "language": "\u2014",
-    "name": "zinxj/uikit-expert-skill",
-    "stars": 3,
-    "updated_at": "2026-07-12T23:51:01Z",
-    "url": "https://github.com/zinxj/uikit-expert-skill"
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-07-12T23:59:51Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-07-12T23:46:08Z",
+    "updated_at": "2026-07-12T23:57:02Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
+    "id": "zinxj/uikit-expert-skill",
+    "language": "\u2014",
+    "name": "zinxj/uikit-expert-skill",
+    "stars": 3,
+    "updated_at": "2026-07-12T23:51:01Z",
+    "url": "https://github.com/zinxj/uikit-expert-skill"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -89,15 +98,6 @@
     "stars": 0,
     "updated_at": "2026-07-12T22:07:03Z",
     "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
-  },
-  {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
-    "stars": 0,
-    "updated_at": "2026-07-12T22:00:14Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
   },
   {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
@@ -409,7 +409,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 81334,
+    "stars": 81335,
     "updated_at": "2026-07-10T02:44:32Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
