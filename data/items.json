@@ -1,5 +1,32 @@
 [
   {
+    "description": "A curated list of awesome .cursorrules files for enhancing your Cursor AI experience.",
+    "id": "tugkanboz/awesome-cursorrules",
+    "language": "\u2014",
+    "name": "tugkanboz/awesome-cursorrules",
+    "stars": 18,
+    "updated_at": "2026-07-13T16:13:38Z",
+    "url": "https://github.com/tugkanboz/awesome-cursorrules"
+  },
+  {
+    "description": "Flutter UI/UX design skill for Claude Code, Cursor & AI coding agents. Material 3 theming, dark mode, animations, anti-p",
+    "id": "parasvishwa/beautify-flutter",
+    "language": "\u2014",
+    "name": "parasvishwa/beautify-flutter",
+    "stars": 0,
+    "updated_at": "2026-07-13T16:02:35Z",
+    "url": "https://github.com/parasvishwa/beautify-flutter"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-07-13T16:00:56Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API ",
     "id": "djtelicloud/grok-mcp-server",
     "language": "Python",
@@ -9,15 +36,6 @@
     "url": "https://github.com/djtelicloud/grok-mcp-server"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-07-13T15:45:55Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
     "id": "arnoldalberto007-sys/Swift-UIKit-Components",
     "language": "HTML",
@@ -25,15 +43,6 @@
     "stars": 0,
     "updated_at": "2026-07-13T15:43:50Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Flutter UI/UX design skill for Claude Code, Cursor & AI coding agents. Material 3 theming, dark mode, animations, anti-p",
-    "id": "parasvishwa/beautify-flutter",
-    "language": "\u2014",
-    "name": "parasvishwa/beautify-flutter",
-    "stars": 0,
-    "updated_at": "2026-07-13T15:33:03Z",
-    "url": "https://github.com/parasvishwa/beautify-flutter"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -281,7 +290,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 17223,
+    "stars": 17225,
     "updated_at": "2026-07-12T13:57:28Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -436,7 +445,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 82022,
+    "stars": 82039,
     "updated_at": "2026-07-10T02:44:32Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -494,14 +503,5 @@
     "stars": 16,
     "updated_at": "2026-07-09T14:02:57Z",
     "url": "https://github.com/MnemeHQ/mneme"
-  },
-  {
-    "description": "A curated list of awesome .cursorrules files for enhancing your Cursor AI experience.",
-    "id": "tugkanboz/awesome-cursorrules",
-    "language": "\u2014",
-    "name": "tugkanboz/awesome-cursorrules",
-    "stars": 18,
-    "updated_at": "2026-07-13T06:05:45Z",
-    "url": "https://github.com/tugkanboz/awesome-cursorrules"
   }
 ]
