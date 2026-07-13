@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-07-13T17:30:44Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "\u4e13\u4e3aAI\u5e94\u7528\u4ea7\u54c1\u7f16\u5199\u7684PRD\u751f\u6210\u6307\u4ee4\u5305Skill\u3002 \u901a\u8fc715\u4e2a\u51b3\u7b56\u7ef4\u5ea6\u7684\u7cfb\u7edf\u5316\u63d0\u95ee\uff0c\u8f93\u51fa\u7ed3\u6784\u5b8c\u6574\u3001\u53ef\u843d\u5730\u7684\u4e13\u4e1aAI\u4ea7\u54c1PRD\u3002\u9002\u7528\u4e8e\u4efb\u4f55\u652f\u6301Markdown\u6307\u4ee4\u7684AI\u5e73\u53f0\u3002",
     "id": "WYY-gogogo/prd-for-ai-products",
     "language": "\u2014",
@@ -34,15 +43,6 @@
     "stars": 0,
     "updated_at": "2026-07-13T17:18:09Z",
     "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-07-13T17:16:48Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
@@ -173,7 +173,7 @@
     "language": "Python",
     "name": "djtelicloud/grok-mcp-server",
     "stars": 3,
-    "updated_at": "2026-07-13T15:59:42Z",
+    "updated_at": "2026-07-13T17:33:11Z",
     "url": "https://github.com/djtelicloud/grok-mcp-server"
   },
   {
@@ -295,7 +295,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 37867,
+    "stars": 37868,
     "updated_at": "2026-07-13T01:09:42Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -454,7 +454,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 82096,
+    "stars": 82102,
     "updated_at": "2026-07-10T02:44:32Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
