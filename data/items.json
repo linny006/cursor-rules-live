@@ -1,11 +1,29 @@
 [
   {
+    "description": "Flutter UI/UX design skill for Claude Code, Cursor & AI coding agents. Material 3 theming, dark mode, animations, anti-p",
+    "id": "parasvishwa/beautify-flutter",
+    "language": "\u2014",
+    "name": "parasvishwa/beautify-flutter",
+    "stars": 0,
+    "updated_at": "2026-07-13T12:51:03Z",
+    "url": "https://github.com/parasvishwa/beautify-flutter"
+  },
+  {
+    "description": "323\u500b\u306e\u5373\u6226\u529bAI\u5c02\u9580\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8 \u2014 Claude Code/Cursor/Copilot\u7b49\u306b\u5bfe\u5fdc\u3002SIer/\u53d7\u8a17\u958b\u767a/SaaS/\u88fd\u9020DX/\u516c\u5171\u5206\u91ce\u306a\u3069\u65e5\u672c\u5e02\u5834\u5411\u3051114\u500b\u306e\u30aa\u30ea\u30b8\u30ca\u30eb\u3092\u542b\u3080\u3001agency-agents\u65e5\u672c\u8a9e\u30b3\u30df\u30e5\u30cb\u30c6\u30a3",
+    "id": "sscodeai/agency-agents-ja",
+    "language": "Shell",
+    "name": "sscodeai/agency-agents-ja",
+    "stars": 3,
+    "updated_at": "2026-07-13T12:48:28Z",
+    "url": "https://github.com/sscodeai/agency-agents-ja"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-07-13T12:38:24Z",
+    "updated_at": "2026-07-13T12:46:54Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -187,7 +205,7 @@
     "language": "Python",
     "name": "djtelicloud/grok-mcp-server",
     "stars": 3,
-    "updated_at": "2026-07-13T12:28:36Z",
+    "updated_at": "2026-07-13T12:56:13Z",
     "url": "https://github.com/djtelicloud/grok-mcp-server"
   },
   {
@@ -263,7 +281,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 17220,
+    "stars": 17221,
     "updated_at": "2026-07-12T13:57:28Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -359,15 +377,6 @@
     "url": "https://github.com/WYY-gogogo/prd-for-ai-products"
   },
   {
-    "description": "323\u500b\u306e\u5373\u6226\u529bAI\u5c02\u9580\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8 \u2014 Claude Code/Cursor/Copilot\u7b49\u306b\u5bfe\u5fdc\u3002SIer/\u53d7\u8a17\u958b\u767a/SaaS/\u88fd\u9020DX/\u516c\u5171\u5206\u91ce\u306a\u3069\u65e5\u672c\u5e02\u5834\u5411\u3051114\u500b\u306e\u30aa\u30ea\u30b8\u30ca\u30eb\u3092\u542b\u3080\u3001agency-agents\u65e5\u672c\u8a9e\u30b3\u30df\u30e5\u30cb\u30c6\u30a3",
-    "id": "sscodeai/agency-agents-ja",
-    "language": "Shell",
-    "name": "sscodeai/agency-agents-ja",
-    "stars": 3,
-    "updated_at": "2026-07-11T13:58:13Z",
-    "url": "https://github.com/sscodeai/agency-agents-ja"
-  },
-  {
     "description": "\ud83d\ude80 Official AI Sourcing & BOM Matcher Agent for DHX Tech. Instantly find million-level in-stock IC components (TI, ST, NX",
     "id": "cy117Hub/dhx-tech-electronic-components-sourcing-skill",
     "language": "\u2014",
@@ -427,7 +436,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 81840,
+    "stars": 81857,
     "updated_at": "2026-07-10T02:44:32Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -494,14 +503,5 @@
     "stars": 18,
     "updated_at": "2026-07-13T06:05:45Z",
     "url": "https://github.com/tugkanboz/awesome-cursorrules"
-  },
-  {
-    "description": "Production-ready AI agent profiles for Claude Code, Cursor, and Codex. Search, install, and contribute ForgeCat packages",
-    "id": "nota-america/forgecat-agent-profiles",
-    "language": "TypeScript",
-    "name": "nota-america/forgecat-agent-profiles",
-    "stars": 17,
-    "updated_at": "2026-07-08T22:45:48Z",
-    "url": "https://github.com/nota-america/forgecat-agent-profiles"
   }
 ]
