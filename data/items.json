@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-07-13T15:01:48Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Flutter UI/UX design skill for Claude Code, Cursor & AI coding agents. Material 3 theming, dark mode, animations, anti-p",
     "id": "parasvishwa/beautify-flutter",
     "language": "\u2014",
@@ -25,15 +34,6 @@
     "stars": 0,
     "updated_at": "2026-07-13T14:48:00Z",
     "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-07-13T14:46:55Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
@@ -168,7 +168,7 @@
     "language": "HTML",
     "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
     "stars": 1,
-    "updated_at": "2026-07-13T11:31:26Z",
+    "updated_at": "2026-07-13T15:14:31Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
@@ -436,7 +436,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 81973,
+    "stars": 81982,
     "updated_at": "2026-07-10T02:44:32Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
