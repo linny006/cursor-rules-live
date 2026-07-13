@@ -1,20 +1,11 @@
 [
   {
-    "description": "A curated list of awesome .cursorrules files for enhancing your Cursor AI experience.",
-    "id": "tugkanboz/awesome-cursorrules",
-    "language": "\u2014",
-    "name": "tugkanboz/awesome-cursorrules",
-    "stars": 18,
-    "updated_at": "2026-07-13T16:13:38Z",
-    "url": "https://github.com/tugkanboz/awesome-cursorrules"
-  },
-  {
     "description": "Flutter UI/UX design skill for Claude Code, Cursor & AI coding agents. Material 3 theming, dark mode, animations, anti-p",
     "id": "parasvishwa/beautify-flutter",
-    "language": "\u2014",
+    "language": "Shell",
     "name": "parasvishwa/beautify-flutter",
     "stars": 0,
-    "updated_at": "2026-07-13T16:02:35Z",
+    "updated_at": "2026-07-13T16:18:10Z",
     "url": "https://github.com/parasvishwa/beautify-flutter"
   },
   {
@@ -23,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-07-13T16:00:56Z",
+    "updated_at": "2026-07-13T16:16:34Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "A curated list of awesome .cursorrules files for enhancing your Cursor AI experience.",
+    "id": "tugkanboz/awesome-cursorrules",
+    "language": "\u2014",
+    "name": "tugkanboz/awesome-cursorrules",
+    "stars": 18,
+    "updated_at": "2026-07-13T16:13:38Z",
+    "url": "https://github.com/tugkanboz/awesome-cursorrules"
   },
   {
     "description": "Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API ",
@@ -263,7 +263,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 37863,
+    "stars": 37864,
     "updated_at": "2026-07-13T01:09:42Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -290,7 +290,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 17225,
+    "stars": 17226,
     "updated_at": "2026-07-12T13:57:28Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -445,7 +445,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 82039,
+    "stars": 82044,
     "updated_at": "2026-07-10T02:44:32Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
