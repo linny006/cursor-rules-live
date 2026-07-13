@@ -1,11 +1,20 @@
 [
   {
+    "description": "Auto harness engineering meta-repo: discuss \u2192 curate \u2192 bootstrap a context-engineered project for Claude Code, Cursor, C",
+    "id": "glowElephant/context-forge",
+    "language": "Python",
+    "name": "glowElephant/context-forge",
+    "stars": 2,
+    "updated_at": "2026-07-13T06:43:09Z",
+    "url": "https://github.com/glowElephant/context-forge"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 0,
-    "updated_at": "2026-07-13T06:34:14Z",
+    "updated_at": "2026-07-13T06:40:12Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -409,7 +418,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 81587,
+    "stars": 81597,
     "updated_at": "2026-07-10T02:44:32Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -499,14 +508,5 @@
     "stars": 3,
     "updated_at": "2026-07-08T19:56:54Z",
     "url": "https://github.com/madebyaris/cursor-composer-rules"
-  },
-  {
-    "description": "One manifest for agent skills, MCP servers, and stack profiles across Claude Code, Codex, and Cursor.",
-    "id": "raintree-technology/agent-starter",
-    "language": "JavaScript",
-    "name": "raintree-technology/agent-starter",
-    "stars": 84,
-    "updated_at": "2026-07-11T23:50:45Z",
-    "url": "https://github.com/raintree-technology/agent-starter"
   }
 ]
