@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<title>Texarkanine/ai-rizz - entry on Cursor Rules Live</title>
+<meta name="description" content="Zero-dependency POSIX CLI for managing AI rules and rulesets. Pull rules from a source repository and use them committed">
+<link rel="canonical" href="https://linny006.github.io/cursor-rules-live/r/Texarkanine/ai-rizz/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Texarkanine/ai-rizz - entry on Cursor Rules Live">
+<meta property="og:description" content="Zero-dependency POSIX CLI for managing AI rules and rulesets. Pull rules from a source repository and use them committed">
+<meta property="og:url" content="https://linny006.github.io/cursor-rules-live/r/Texarkanine/ai-rizz/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Texarkanine/ai-rizz - entry on Cursor Rules Live">
+<meta name="twitter:description" content="Zero-dependency POSIX CLI for managing AI rules and rulesets. Pull rules from a source repository and use them committed">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"Texarkanine/ai-rizz","codeRepository":"https://github.com/Texarkanine/ai-rizz","programmingLanguage":"Shell","url":"https://linny006.github.io/cursor-rules-live/r/Texarkanine/ai-rizz/","description":"Zero-dependency POSIX CLI for managing AI rules and rulesets. Pull rules from a source repository and use them committed","author":{"@type":"Person","name":"Texarkanine","url":"https://github.com/Texarkanine"},"dateModified":"2026-07-14"}</script>
+<style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
+         --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 16px; font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--fg); background: var(--bg); }
+.wrap { max-width: var(--max); margin: 0 auto; }
+nav.bc { font-size: 14px; color: var(--muted); margin-bottom: 16px; }
+nav.bc a { color: var(--muted); }
+h1 { font-size: 28px; margin: 0 0 8px; }
+h2 { font-size: 20px; margin: 24px 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+p.lead { font-size: 18px; color: var(--muted); margin: 0 0 24px; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+th, td { padding: 8px 12px; text-align: left; border-bottom: 1px solid var(--border); }
+th { background: var(--card); font-weight: 600; }
+ul.crosslinks { list-style: none; padding: 0; }
+ul.crosslinks li { padding: 6px 0; }
+ul.crosslinks li a { font-weight: 500; }
+.meta { display: flex; gap: 16px; flex-wrap: wrap; color: var(--muted); font-size: 14px; margin: 12px 0; }
+.meta span::before { content: "\00b7"; margin-right: 8px; color: var(--border); }
+.meta span:first-child::before { content: ""; }
+footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--border); font-size: 14px; color: var(--muted); }</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="bc"><a href="https://linny006.github.io/cursor-rules-live/">Cursor Rules Live</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/popular/">Entries</a> &#183; <span>Texarkanine/ai-rizz</span></nav>
+<main>
+<h1>Texarkanine/ai-rizz</h1>
+<p class="lead">Zero-dependency POSIX CLI for managing AI rules and rulesets. Pull rules from a source repository and use them committed</p>
+<div class="meta">
+<span><strong>Stars</strong> 0</span>
+<span><strong>Language</strong> Shell</span>
+<span><strong>Last updated</strong> 2026-07-14</span>
+<span><a href="https://github.com/Texarkanine/ai-rizz" rel="external">Source on GitHub</a></span>
+<span><a href="https://github.com/Texarkanine" rel="external">@Texarkanine</a></span>
+</div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/ai-rizz-development.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
+description: 
+globs: 
+alwaysApply: true
+---
+# AI-Rizz Development Practices
+
+## Project Environment
+
+1. **NEVER** test `ai-rizz` commands in the project directory. `ai-rizz` *uses* itself to manage its own rules and you&#x27;ll break the project configuration. **ALWAY** test `ai-rizz` using the test suites, or in a temporary directory.
+
+## Project-Specific Testing Standards
+
+1. **Test Execution**: Always run tests with `make test` for consistency. Individual test suites can be run directly for debugging only.
+    - all tests: `make test`
+    - single test: `./tests/integration/functions/test_conflict_resolution.test.sh`
+    - single test, verbose: `VERBOSE_TESTS=true ./tests/integration/functions/test_conflict_resolution.test.sh`
+        - there is NO more verbosity than this. You cannot run an individual test. If you have the output of a test suite run like the above, there is NO POINT in trying to run it in other ways. Add verbosity to the test suite, or modify the codebase. Do not keep running the tests and grepping for different things.
+        - **NEVER** waste time doing this: `VERBOSE_TESTS=true ./tests/integration/test_envvar_fallbacks.test.sh | grep -B5 -A5 &quot;ASSERT.*expected&quot;`; just read the regular test suite output by running as shown for &quot;single test, verbose&quot;.
+
+2. **Test Environment Setup**: 
+   - Set git user and email in all dummy repositories used for testing
+   - Use `git commit --no-gpg-sign` in test environments
+
+3. **Test Output Management**: 
+   - Don&#x27;t proactively truncate test output without understanding length first
+   - Run tests once to gauge output length before deciding on truncation
+
+## Function Documentation Standards
+
+For ai-rizz&#x27;s complex command functions, ensure documentation includes:
+
+1. **Summary Bullet Points**: Long functions like `cmd_init` and `cmd_list` need summary bullet points explaining their primary purpose
+2. **Flag Documentation**: All `cmd_xxx` functions must document which flags they respond to (since they&#x27;re user-interface functions)
+3. **Return Value Clarity**: Use shell conventions (0/1 for success/failure) not &quot;TRUE/FALSE&quot; in documentation
+4. **Complexity Explanation**: When describing complex logic, explain the value provided by the complexity, not just that &quot;it&#x27;s complex&quot;
+
+## User Interface Patterns
+
+1. **Argument Ordering**: Support flexible argument ordering where reasonable (e.g., `ai-rizz add --local rule foo` and `ai-rizz add rule foo --local`)
+
+## Shell Scripting Specifics
+
+1. **Subshell Avoidance**: Avoid subshells when variable scope matters - use temporary files or other patterns instead
+2. **Variable Scope**: Continue using function-specific prefixes for all local variables (already established pattern)
+
+## Error Message Standards
+
+1. **Actionable Errors**: Error messages should include copy-pasteable fix commands when possible. If not possible, they should at least guide the user closer to a resolution.
+2. **Manifest Integrity**: Use the enhanced error format that shows both repositories and provides three clear resolution options
+</code></pre>
+<p><a href="https://github.com/Texarkanine/ai-rizz/blob/HEAD/.cursor/rules/ai-rizz-development.mdc" rel="external">View raw on GitHub</a></p>
+</section>
+<section><h2>Why this is listed</h2>
+<p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
+<section><h2>Similar in this tracker</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/r/jnMetaCode/agency-agents-zh/">jnMetaCode/agency-agents-zh (stars:17314)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/">danielvm-git/bigpowers (stars:45)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/sscodeai/agency-agents-ja/">sscodeai/agency-agents-ja (stars:4)</a></li>
+</ul></section>
+<section><h2>Explore by category</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/popular/">Popular (by stars)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/recent/">Recent (by activity)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/new/">New this week</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/lang/shell/">All Shell entries</a></li>
+</ul></section>
+</main>
+<footer>
+Auto-updated every 15 minutes via GitHub Actions &#183; <a href="https://linny006.github.io/cursor-rules-live/">tracker root</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/sitemap.xml">sitemap</a>
+</footer>
+</div>
+</body>
+</html>
