@@ -5,8 +5,17 @@
     "language": "Python",
     "name": "djtelicloud/grok-mcp-server",
     "stars": 4,
-    "updated_at": "2026-07-14T23:26:42Z",
+    "updated_at": "2026-07-14T23:42:36Z",
     "url": "https://github.com/djtelicloud/grok-mcp-server"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-07-14T23:42:27Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,7 +23,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-07-14T23:15:47Z",
+    "updated_at": "2026-07-14T23:30:29Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -25,15 +34,6 @@
     "stars": 0,
     "updated_at": "2026-07-14T23:15:26Z",
     "url": "https://github.com/chkdskman/skill-sage-active-api"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 0,
-    "updated_at": "2026-07-14T22:47:14Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -205,7 +205,7 @@
     "language": "Shell",
     "name": "Texarkanine/ai-rizz",
     "stars": 0,
-    "updated_at": "2026-07-14T16:45:51Z",
+    "updated_at": "2026-07-14T23:40:01Z",
     "url": "https://github.com/Texarkanine/ai-rizz"
   },
   {
