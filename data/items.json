@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-07-14T04:15:41Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
     "id": "Amirun99/agency-orchestrator",
     "language": "Dart",
@@ -43,15 +52,6 @@
     "stars": 0,
     "updated_at": "2026-07-14T04:06:24Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-07-14T04:00:29Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
