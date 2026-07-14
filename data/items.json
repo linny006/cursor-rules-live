@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-07-14T13:30:56Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Sync one reviewed context source into native AI-agent files, with privacy-safe evidence receipts that never confuse gene",
     "id": "caioribeiroclw-pixel/pluribus",
     "language": "JavaScript",
@@ -9,21 +18,12 @@
     "url": "https://github.com/caioribeiroclw-pixel/pluribus"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-07-14T13:15:48Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API ",
     "id": "djtelicloud/grok-mcp-server",
     "language": "Python",
     "name": "djtelicloud/grok-mcp-server",
     "stars": 4,
-    "updated_at": "2026-07-14T13:14:38Z",
+    "updated_at": "2026-07-14T13:43:44Z",
     "url": "https://github.com/djtelicloud/grok-mcp-server"
   },
   {
@@ -376,7 +376,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 17295,
+    "stars": 17297,
     "updated_at": "2026-07-12T13:57:28Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
