@@ -1,12 +1,12 @@
 [
   {
-    "description": "Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API ",
-    "id": "djtelicloud/grok-mcp-server",
-    "language": "Python",
-    "name": "djtelicloud/grok-mcp-server",
-    "stars": 4,
-    "updated_at": "2026-07-14T23:12:06Z",
-    "url": "https://github.com/djtelicloud/grok-mcp-server"
+    "description": "Sage Active Public API V2 (GraphQL) Skill/Plugin for Claude Code, Codex and Cursor. FR/ES/DE legislation rules.",
+    "id": "chkdskman/skill-sage-active-api",
+    "language": "\u2014",
+    "name": "chkdskman/skill-sage-active-api",
+    "stars": 0,
+    "updated_at": "2026-07-14T23:12:58Z",
+    "url": "https://github.com/chkdskman/skill-sage-active-api"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-07-14T23:00:29Z",
+    "updated_at": "2026-07-14T23:12:36Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API ",
+    "id": "djtelicloud/grok-mcp-server",
+    "language": "Python",
+    "name": "djtelicloud/grok-mcp-server",
+    "stars": 4,
+    "updated_at": "2026-07-14T23:14:38Z",
+    "url": "https://github.com/djtelicloud/grok-mcp-server"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -479,14 +488,5 @@
     "stars": 0,
     "updated_at": "2026-07-10T20:05:25Z",
     "url": "https://github.com/manueldezman/botchain-init-toolkit"
-  },
-  {
-    "description": "Agent Development Life Cycle \u2014 Build, deploy, test, and optimize Agentforce agents using Claude Code skills and Agent Sc",
-    "id": "SalesforceAIResearch/agentforce-adlc",
-    "language": "Python",
-    "name": "SalesforceAIResearch/agentforce-adlc",
-    "stars": 84,
-    "updated_at": "2026-07-10T15:29:18Z",
-    "url": "https://github.com/SalesforceAIResearch/agentforce-adlc"
   }
 ]
