@@ -5,8 +5,26 @@
     "language": "Python",
     "name": "djtelicloud/grok-mcp-server",
     "stars": 4,
-    "updated_at": "2026-07-14T14:30:09Z",
+    "updated_at": "2026-07-14T14:40:06Z",
     "url": "https://github.com/djtelicloud/grok-mcp-server"
+  },
+  {
+    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
+    "id": "zinxj/uikit-expert-skill",
+    "language": "\u2014",
+    "name": "zinxj/uikit-expert-skill",
+    "stars": 3,
+    "updated_at": "2026-07-14T14:34:43Z",
+    "url": "https://github.com/zinxj/uikit-expert-skill"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 0,
+    "updated_at": "2026-07-14T14:30:34Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -53,15 +71,6 @@
     "stars": 1,
     "updated_at": "2026-07-14T14:16:13Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 0,
-    "updated_at": "2026-07-14T14:15:50Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "323\u500b\u306e\u5373\u6226\u529bAI\u5c02\u9580\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8 \u2014 Claude Code/Cursor/Copilot\u7b49\u306b\u5bfe\u5fdc\u3002SIer/\u53d7\u8a17\u958b\u767a/SaaS/\u88fd\u9020DX/\u516c\u5171\u5206\u91ce\u306a\u3069\u65e5\u672c\u5e02\u5834\u5411\u3051114\u500b\u306e\u30aa\u30ea\u30b8\u30ca\u30eb\u3092\u542b\u3080\u3001agency-agents\u65e5\u672c\u8a9e\u30b3\u30df\u30e5\u30cb\u30c6\u30a3",
@@ -154,15 +163,6 @@
     "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
   },
   {
-    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
-    "id": "zinxj/uikit-expert-skill",
-    "language": "\u2014",
-    "name": "zinxj/uikit-expert-skill",
-    "stars": 3,
-    "updated_at": "2026-07-14T11:55:09Z",
-    "url": "https://github.com/zinxj/uikit-expert-skill"
-  },
-  {
     "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
     "id": "philipbankier/awesome-agent-skills",
     "language": "TypeScript",
@@ -231,7 +231,7 @@
     "id": "RollingGo-AI/RollingGo-hotel-skill-CN",
     "language": "Python",
     "name": "RollingGo-AI/RollingGo-hotel-skill-CN",
-    "stars": 64,
+    "stars": 65,
     "updated_at": "2026-07-14T04:06:32Z",
     "url": "https://github.com/RollingGo-AI/RollingGo-hotel-skill-CN"
   },
@@ -376,7 +376,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 17301,
+    "stars": 17302,
     "updated_at": "2026-07-12T13:57:28Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
