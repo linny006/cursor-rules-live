@@ -1,12 +1,12 @@
 [
   {
-    "description": "Sage Active Public API V2 (GraphQL) Skill/Plugin for Claude Code, Codex and Cursor. FR/ES/DE legislation rules.",
-    "id": "chkdskman/skill-sage-active-api",
-    "language": "\u2014",
-    "name": "chkdskman/skill-sage-active-api",
-    "stars": 0,
-    "updated_at": "2026-07-14T23:12:58Z",
-    "url": "https://github.com/chkdskman/skill-sage-active-api"
+    "description": "Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API ",
+    "id": "djtelicloud/grok-mcp-server",
+    "language": "Python",
+    "name": "djtelicloud/grok-mcp-server",
+    "stars": 4,
+    "updated_at": "2026-07-14T23:26:42Z",
+    "url": "https://github.com/djtelicloud/grok-mcp-server"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,17 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-07-14T23:12:36Z",
+    "updated_at": "2026-07-14T23:15:47Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
-    "description": "Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API ",
-    "id": "djtelicloud/grok-mcp-server",
-    "language": "Python",
-    "name": "djtelicloud/grok-mcp-server",
-    "stars": 4,
-    "updated_at": "2026-07-14T23:14:38Z",
-    "url": "https://github.com/djtelicloud/grok-mcp-server"
+    "description": "Sage Active Public API V2 (GraphQL) Skill/Plugin for Claude Code, Codex and Cursor. FR/ES/DE legislation rules.",
+    "id": "chkdskman/skill-sage-active-api",
+    "language": "\u2014",
+    "name": "chkdskman/skill-sage-active-api",
+    "stars": 0,
+    "updated_at": "2026-07-14T23:15:26Z",
+    "url": "https://github.com/chkdskman/skill-sage-active-api"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -408,7 +408,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 17322,
+    "stars": 17324,
     "updated_at": "2026-07-12T13:57:28Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
