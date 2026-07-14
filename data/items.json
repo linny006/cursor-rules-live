@@ -1,5 +1,23 @@
 [
   {
+    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
+    "id": "zinxj/uikit-expert-skill",
+    "language": "\u2014",
+    "name": "zinxj/uikit-expert-skill",
+    "stars": 4,
+    "updated_at": "2026-07-14T17:22:44Z",
+    "url": "https://github.com/zinxj/uikit-expert-skill"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-07-14T17:20:53Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: claude-agents marketplace project conventions\nalwaysApply: true\n---\n\n# claude-agents conventions\n\nThis is a multi-harness plugin marketplace. Source lives under `plugins/`; per-harness\nartifacts (`.codex/`, `.cursor-plugin/`, `.opencode/`, `commands/`) are generated.\n\n- Don't hand-edit anything under `.codex/`, `.cursor-plugin/`, `.opencode/`, or top-level `commands/`, `agents/`, `skills/` \u2014 regenerate via `make generate HARNESS=<x>`.\n- Python tooling: `uv` (package manager), `ruff` (lint/format), `ty` (type check). Do not use pip/mypy/black.\n- Plugin files: `plugins/<name>/{.claude-plugin/plugin.json, agents/*.md, skills/<name>/SKILL.md, commands/*.md}`. Auto-discovered.\n- Cursor reads `.claude/skills/` and `.claude/agents/` directly \u2014 no separate `.cursor/skills/` is generated.\n\n## Never\n\n- Never commit secrets or hardcode credentials.\n- Never hand-edit generated registries (`.agents/plugins/marketplace.json`, `.cursor-plugin/`) \u2014 plugin PRs register the plugin in `.claude-plugin/marketplace.json`, then run `make generate-all` (see CONTRIBUTING.md).\n- Never run destructive git operations (force-push, reset --hard, branch -D) without explicit ask.\n\nSee `docs/authoring.md` for the portable-content style guide.\n",
       "format": "mdc",
@@ -12,15 +30,6 @@
     "stars": 37905,
     "updated_at": "2026-07-14T17:18:04Z",
     "url": "https://github.com/wshobson/agents"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-07-14T17:15:51Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -180,15 +189,6 @@
     "stars": 2,
     "updated_at": "2026-07-14T14:51:18Z",
     "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
-  },
-  {
-    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
-    "id": "zinxj/uikit-expert-skill",
-    "language": "\u2014",
-    "name": "zinxj/uikit-expert-skill",
-    "stars": 4,
-    "updated_at": "2026-07-14T14:34:43Z",
-    "url": "https://github.com/zinxj/uikit-expert-skill"
   },
   {
     "description": "Skill router and context picker for Claude Code, Cursor, and Aider. Auto-picks the right skill for every prompt, with pr",
