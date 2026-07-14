@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-07-14T22:30:47Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
     "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
     "language": "HTML",
@@ -9,21 +18,12 @@
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-07-14T22:15:28Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API ",
     "id": "djtelicloud/grok-mcp-server",
     "language": "Python",
     "name": "djtelicloud/grok-mcp-server",
     "stars": 4,
-    "updated_at": "2026-07-14T22:15:19Z",
+    "updated_at": "2026-07-14T22:36:48Z",
     "url": "https://github.com/djtelicloud/grok-mcp-server"
   },
   {
@@ -399,7 +399,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 17320,
+    "stars": 17321,
     "updated_at": "2026-07-12T13:57:28Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
