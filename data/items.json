@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-07-15T01:30:47Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
     "id": "edsondviana8/ai-humanizer-core",
     "language": "HTML",
@@ -16,15 +25,6 @@
     "stars": 0,
     "updated_at": "2026-07-15T01:23:30Z",
     "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-07-15T01:15:28Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
@@ -114,7 +114,7 @@
     "language": "Python",
     "name": "djtelicloud/grok-mcp-server",
     "stars": 4,
-    "updated_at": "2026-07-15T01:28:16Z",
+    "updated_at": "2026-07-15T01:42:38Z",
     "url": "https://github.com/djtelicloud/grok-mcp-server"
   },
   {
