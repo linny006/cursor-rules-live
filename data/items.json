@@ -1,21 +1,30 @@
 [
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-07-15T18:30:33Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Point your AI coding agent at this repo and it installs a personalized ruleset for reproducible, analysis-first data sci",
     "id": "NCEAS-AI/Coding-Agent-Rules-for-Data-Science",
     "language": "\u2014",
     "name": "NCEAS-AI/Coding-Agent-Rules-for-Data-Science",
     "stars": 0,
-    "updated_at": "2026-07-15T18:21:05Z",
+    "updated_at": "2026-07-15T18:43:20Z",
     "url": "https://github.com/NCEAS-AI/Coding-Agent-Rules-for-Data-Science"
+  },
+  {
+    "description": "Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API ",
+    "id": "djtelicloud/grok-mcp-server",
+    "language": "Python",
+    "name": "djtelicloud/grok-mcp-server",
+    "stars": 4,
+    "updated_at": "2026-07-15T18:38:40Z",
+    "url": "https://github.com/djtelicloud/grok-mcp-server"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-07-15T18:37:50Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -52,15 +61,6 @@
     "stars": 0,
     "updated_at": "2026-07-15T17:21:31Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API ",
-    "id": "djtelicloud/grok-mcp-server",
-    "language": "Python",
-    "name": "djtelicloud/grok-mcp-server",
-    "stars": 4,
-    "updated_at": "2026-07-15T18:33:13Z",
-    "url": "https://github.com/djtelicloud/grok-mcp-server"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
