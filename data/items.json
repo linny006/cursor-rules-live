@@ -5,8 +5,17 @@
     "language": "Python",
     "name": "djtelicloud/grok-mcp-server",
     "stars": 4,
-    "updated_at": "2026-07-15T10:10:06Z",
+    "updated_at": "2026-07-15T10:20:41Z",
     "url": "https://github.com/djtelicloud/grok-mcp-server"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-07-15T10:15:28Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Curated AI editor rule files from real-world projects \u2014 compare how top repos configure Cursor, Claude Code, Copilot & m",
@@ -16,15 +25,6 @@
     "stars": 0,
     "updated_at": "2026-07-15T10:04:16Z",
     "url": "https://github.com/shumatsumonobu/awesome-ai-rules"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-07-15T10:00:57Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
