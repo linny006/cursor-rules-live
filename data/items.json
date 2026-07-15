@@ -1,11 +1,29 @@
 [
   {
+    "description": "Curated AI editor rule files from real-world projects \u2014 compare how top repos configure Cursor, Claude Code, Copilot & m",
+    "id": "shumatsumonobu/awesome-ai-rules",
+    "language": "\u2014",
+    "name": "shumatsumonobu/awesome-ai-rules",
+    "stars": 0,
+    "updated_at": "2026-07-15T10:56:53Z",
+    "url": "https://github.com/shumatsumonobu/awesome-ai-rules"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-07-15T10:45:47Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API ",
     "id": "djtelicloud/grok-mcp-server",
     "language": "Python",
     "name": "djtelicloud/grok-mcp-server",
     "stars": 4,
-    "updated_at": "2026-07-15T10:37:15Z",
+    "updated_at": "2026-07-15T10:54:06Z",
     "url": "https://github.com/djtelicloud/grok-mcp-server"
   },
   {
@@ -16,24 +34,6 @@
     "stars": 17361,
     "updated_at": "2026-07-15T10:32:04Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-07-15T10:30:37Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
-    "description": "Curated AI editor rule files from real-world projects \u2014 compare how top repos configure Cursor, Claude Code, Copilot & m",
-    "id": "shumatsumonobu/awesome-ai-rules",
-    "language": "\u2014",
-    "name": "shumatsumonobu/awesome-ai-rules",
-    "stars": 0,
-    "updated_at": "2026-07-15T10:04:16Z",
-    "url": "https://github.com/shumatsumonobu/awesome-ai-rules"
   },
   {
     "cursorrules": {
@@ -63,7 +63,7 @@
     "id": "KbWen/agentic-os",
     "language": "Python",
     "name": "KbWen/agentic-os",
-    "stars": 76,
+    "stars": 77,
     "updated_at": "2026-07-15T09:42:13Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
