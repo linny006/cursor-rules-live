@@ -1,5 +1,64 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: Cursor Automations and Bugbot single-pass discipline (PR Approver, Security Reviewer, Bugbot Autofix)\nalwaysApply: true\n---\n\n# Cursor Automations \u2014 single-pass law\n\nThese bullets apply **only** when acting as **PR Approver**, **Security Reviewer**,\nor **Bugbot Autofix**. Interactive Composer / normal Cursor chat is not an\nautomation role \u2014 do not treat this file as commit/push authorization outside\nAutofix.\n\nWhen in one of those automation roles on this repo:\n\n- **Single-agent only.** Do not spawn parallel subagents, \u201creview modules,\u201d or repeated fan-out batches. One serial pass per run.\n- **No branch thrash.** Stay on the PR head you were given. Do not create extra branches/PRs unless the automation\u2019s job is explicitly Autofix and a fix commit is required.\n- **One action per head SHA.** Post at most one approval **or** one concise review comment for a given PR head. If an active run for the same automation + head already exists, exit without duplicating work.\n- **Ignore bot echo.** Do not re-trigger meaningful work solely because `cursor[bot]`, Bugbot, Copilot, Gemini, or Codex left a review comment.\n- **Approver path:** wait for Cursor Bugbot to finish; require green required checks; approve only low-risk diffs with no unresolved medium/high Bugbot findings; otherwise comment blockers and stop.\n- **Security Reviewer path:** inspect the PR diff + existing review threads once; report only actionable unresolved security findings; exit cleanly. Never attempt multi-module orchestration.\n- **Bugbot Autofix path:** apply the minimal doc/code fix for the cited finding on the existing PR branch; commit and push that branch only.\n\nCanonical shared copy: `.agents/AGENTS.md` \u2192 **Cursor Automations**.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/cursor-automations-single-pass.mdc"
+    },
+    "description": "Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API ",
+    "id": "djtelicloud/grok-mcp-server",
+    "language": "Python",
+    "name": "djtelicloud/grok-mcp-server",
+    "stars": 11,
+    "updated_at": "2026-07-15T22:59:11Z",
+    "url": "https://github.com/djtelicloud/grok-mcp-server"
+  },
+  {
+    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
+    "id": "XAKLESK/cre-agent-skills",
+    "language": "\u2014",
+    "name": "XAKLESK/cre-agent-skills",
+    "stars": 3,
+    "updated_at": "2026-07-15T22:58:16Z",
+    "url": "https://github.com/XAKLESK/cre-agent-skills"
+  },
+  {
+    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
+    "id": "Amirun99/agency-orchestrator",
+    "language": "Dart",
+    "name": "Amirun99/agency-orchestrator",
+    "stars": 0,
+    "updated_at": "2026-07-15T22:51:23Z",
+    "url": "https://github.com/Amirun99/agency-orchestrator"
+  },
+  {
+    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
+    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "language": "\u2014",
+    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "stars": 2,
+    "updated_at": "2026-07-15T22:50:26Z",
+    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-07-15T22:49:35Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-07-15T22:45:47Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Your AI assistant hallucinates APIs, breaks dependent files, and weakens tests. 28 skills that prevent this across the f",
     "id": "sungurerdim/dev-skills",
     "language": "PowerShell",
@@ -9,20 +68,6 @@
     "url": "https://github.com/sungurerdim/dev-skills"
   },
   {
-    "cursorrules": {
-      "content": "---\ndescription: Cursor Automations and Bugbot single-pass discipline (PR Approver, Security Reviewer, Bugbot Autofix)\nalwaysApply: true\n---\n\n# Cursor Automations \u2014 single-pass law\n\nWhen acting as **PR Approver**, **Security Reviewer**, or **Bugbot Autofix** on this repo:\n\n- **Single-agent only.** Do not spawn parallel subagents, \u201creview modules,\u201d or repeated fan-out batches. One serial pass per run.\n- **No branch thrash.** Stay on the PR head you were given. Do not create extra branches/PRs unless the automation\u2019s job is explicitly Autofix and a fix commit is required.\n- **One action per head SHA.** Post at most one approval **or** one concise review comment for a given PR head. If an active run for the same automation + head already exists, exit without duplicating work.\n- **Ignore bot echo.** Do not re-trigger meaningful work solely because `cursor[bot]`, Bugbot, Copilot, Gemini, or Codex left a review comment.\n- **Approver path:** wait for Cursor Bugbot to finish; require green required checks; approve only low-risk diffs with no unresolved medium/high Bugbot findings; otherwise comment blockers and stop.\n- **Security Reviewer path:** inspect the PR diff + existing review threads once; report only actionable unresolved security findings; exit cleanly. Never attempt multi-module orchestration.\n- **Bugbot Autofix path:** apply the minimal doc/code fix for the cited finding on the existing PR branch; commit and push that branch only.\n\nCanonical shared copy: `.agents/AGENTS.md` \u2192 **Cursor Automations**.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/cursor-automations-single-pass.mdc"
-    },
-    "description": "Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API ",
-    "id": "djtelicloud/grok-mcp-server",
-    "language": "Python",
-    "name": "djtelicloud/grok-mcp-server",
-    "stars": 11,
-    "updated_at": "2026-07-15T22:37:57Z",
-    "url": "https://github.com/djtelicloud/grok-mcp-server"
-  },
-  {
     "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
     "id": "zinxj/uikit-expert-skill",
     "language": "\u2014",
@@ -30,15 +75,6 @@
     "stars": 4,
     "updated_at": "2026-07-15T22:34:25Z",
     "url": "https://github.com/zinxj/uikit-expert-skill"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-07-15T22:30:49Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -87,15 +123,6 @@
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 0,
-    "updated_at": "2026-07-15T21:48:58Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: Ponytail, lazy senior dev mode. Always pick the simplest solution that works.\nglobs:\nalwaysApply: true\n---\n\n# Ponytail, lazy senior dev mode\n\nYou are a lazy senior developer. Lazy means efficient, not careless. The best code is the code never written.\n\nBefore writing any code, stop at the first rung that holds:\n\n1. Does this need to be built at all? (YAGNI)\n2. Does it already exist in this codebase? Reuse the helper, util, or pattern that's already here, don't re-write it.\n3. Does the standard library already do this? Use it.\n4. Does a native platform feature cover it? Use it.\n5. Does an already-installed dependency solve it? Use it.\n6. Can this be one line? Make it one line.\n7. Only then: write the minimum code that works.\n\nThe ladder runs after you understand the problem, not instead of it: read the task and the code it touches, trace the real flow end to end, then climb.\n\nBug fix = root cause, not symptom: a report names a symptom. Grep every caller of the function you touch and fix the shared function once \u2014 one guard there is a smaller diff than one per caller, and patching only the path the ticket names leaves a sibling caller still broken.\n\nRules:\n\n- No abstractions that weren't explicitly requested.\n- No new dependency if it can be avoided.\n- No boilerplate nobody asked for.\n- Deletion over addition. Boring over clever. Fewest files possible.\n- Shortest working diff wins, but only once you understand the problem. The smallest change in the wrong place isn't lazy, it's a second bug.\n- Question complex requests: \"Do you actually need X, or does Y cover it?\"\n- Pick the edge-case-correct option when two stdlib approaches are the same size, lazy means less code, not the flimsier algorithm.\n- Mark deliberate simplifications that cut a real corner with a known ceiling (global lock, O(n\u00b2) scan, naive heuristic) with a `ponytail:` comment naming the ceiling and upgrade path.\n\nNot lazy about: understanding the problem (read it fully and trace the real flow before picking a rung, a small diff you don't understand is just laziness dressed up as efficiency), input validation at trust boundaries, error handling that prevents data loss, security, accessibility, the calibration real hardware needs (the platform is never the spec ideal, a clock drifts, a sensor reads off), anything explicitly requested. Lazy code without its check is unfinished: non-trivial logic leaves ONE runnable check behind, the smallest thing that fails if the logic breaks (an assert-based demo/self-check or one small test file; no frameworks, no fixtures). Trivial one-liners need no test.\n",
       "format": "mdc",
@@ -105,7 +132,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 83997,
+    "stars": 84003,
     "updated_at": "2026-07-15T21:32:15Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -180,33 +207,6 @@
     "stars": 3,
     "updated_at": "2026-07-15T15:01:55Z",
     "url": "https://github.com/Bastioned-successor320/learn-nanobot"
-  },
-  {
-    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
-    "id": "XAKLESK/cre-agent-skills",
-    "language": "\u2014",
-    "name": "XAKLESK/cre-agent-skills",
-    "stars": 3,
-    "updated_at": "2026-07-15T14:59:57Z",
-    "url": "https://github.com/XAKLESK/cre-agent-skills"
-  },
-  {
-    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
-    "id": "Amirun99/agency-orchestrator",
-    "language": "Dart",
-    "name": "Amirun99/agency-orchestrator",
-    "stars": 0,
-    "updated_at": "2026-07-15T14:53:13Z",
-    "url": "https://github.com/Amirun99/agency-orchestrator"
-  },
-  {
-    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
-    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "language": "\u2014",
-    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "stars": 2,
-    "updated_at": "2026-07-15T14:52:19Z",
-    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
   },
   {
     "description": "Sync one reviewed context source into native AI-agent files, with privacy-safe evidence receipts that never confuse gene",
@@ -359,7 +359,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 37938,
+    "stars": 37939,
     "updated_at": "2026-07-14T17:37:15Z",
     "url": "https://github.com/wshobson/agents"
   },
