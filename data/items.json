@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-07-16T15:30:38Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
     "id": "edsondviana8/ai-humanizer-core",
     "language": "HTML",
@@ -19,17 +28,8 @@
     "language": "Python",
     "name": "djtelicloud/grok-mcp-server",
     "stars": 18,
-    "updated_at": "2026-07-16T15:29:01Z",
+    "updated_at": "2026-07-16T15:41:52Z",
     "url": "https://github.com/djtelicloud/grok-mcp-server"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-07-16T15:15:46Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
@@ -304,7 +304,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 84505,
+    "stars": 84515,
     "updated_at": "2026-07-15T21:32:15Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -322,7 +322,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 17431,
+    "stars": 17432,
     "updated_at": "2026-07-15T10:32:04Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
