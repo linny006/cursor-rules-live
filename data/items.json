@@ -1,5 +1,14 @@
 [
   {
+    "description": "323\u500b\u306e\u5373\u6226\u529bAI\u5c02\u9580\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8 \u2014 Claude Code/Cursor/Copilot\u7b49\u306b\u5bfe\u5fdc\u3002SIer/\u53d7\u8a17\u958b\u767a/SaaS/\u88fd\u9020DX/\u516c\u5171\u5206\u91ce\u306a\u3069\u65e5\u672c\u5e02\u5834\u5411\u3051114\u500b\u306e\u30aa\u30ea\u30b8\u30ca\u30eb\u3092\u542b\u3080\u3001agency-agents\u65e5\u672c\u8a9e\u30b3\u30df\u30e5\u30cb\u30c6\u30a3",
+    "id": "sscodeai/agency-agents-ja",
+    "language": "Shell",
+    "name": "sscodeai/agency-agents-ja",
+    "stars": 4,
+    "updated_at": "2026-07-16T14:41:48Z",
+    "url": "https://github.com/sscodeai/agency-agents-ja"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: Sponsor authorization for Cursor agents and Automations on UniGrok\nalwaysApply: true\n---\n\n# Cursor agent authorization (sponsor standing order)\n\nThe human sponsor authorizes Cursor (Composer, Cloud Agents, Automations, Bugbot Autofix, PR Approver, Security Reviewer) to **fix or improve anything related to Cursor agents** for `djtelicloud/grok-mcp-server` without re-asking each time.\n\n## In scope\n\n- Cursor Automations prompts, schedules, tools, and coordination loops\n- `.cursor/rules/*`, Cursor MCP client-id hygiene (`cursor` / `cursor-forge`)\n- Bugbot Autofix / Approver / Security Reviewer single-pass fidelity\n- Ready packets that keep Cursor agents healthy and non-colliding with peer lanes\n\n## Still required\n\n- Do not invent product priorities beyond agent health and integrating Ready work\n- Do not thrash peer active scratchpads or the primary main checkout\n- Secrets, billing, and irreversible risk still need an explicit human decision\n- Land/merge of protected `main` remains Codex/supervisor unless this session is explicitly acting in that role\n\n## Memory note\n\nStanding authorization saved at sponsor request (2026-07-15). Treat as durable until revoked.\n",
       "format": "mdc",
@@ -10,8 +19,17 @@
     "language": "Python",
     "name": "djtelicloud/grok-mcp-server",
     "stars": 17,
-    "updated_at": "2026-07-16T14:30:03Z",
+    "updated_at": "2026-07-16T14:43:25Z",
     "url": "https://github.com/djtelicloud/grok-mcp-server"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-07-16T14:30:49Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -21,15 +39,6 @@
     "stars": 1,
     "updated_at": "2026-07-16T14:26:36Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-07-16T14:23:00Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -286,7 +295,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 84468,
+    "stars": 84476,
     "updated_at": "2026-07-15T21:32:15Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -314,7 +323,7 @@
     "language": "Python",
     "name": "KbWen/agentic-os",
     "stars": 81,
-    "updated_at": "2026-07-15T09:42:13Z",
+    "updated_at": "2026-07-16T14:37:49Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
   {
@@ -391,7 +400,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 37954,
+    "stars": 37956,
     "updated_at": "2026-07-14T17:37:15Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -403,15 +412,6 @@
     "stars": 9,
     "updated_at": "2026-07-14T14:21:06Z",
     "url": "https://github.com/KernelLord/pickysteve"
-  },
-  {
-    "description": "323\u500b\u306e\u5373\u6226\u529bAI\u5c02\u9580\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8 \u2014 Claude Code/Cursor/Copilot\u7b49\u306b\u5bfe\u5fdc\u3002SIer/\u53d7\u8a17\u958b\u767a/SaaS/\u88fd\u9020DX/\u516c\u5171\u5206\u91ce\u306a\u3069\u65e5\u672c\u5e02\u5834\u5411\u3051114\u500b\u306e\u30aa\u30ea\u30b8\u30ca\u30eb\u3092\u542b\u3080\u3001agency-agents\u65e5\u672c\u8a9e\u30b3\u30df\u30e5\u30cb\u30c6\u30a3",
-    "id": "sscodeai/agency-agents-ja",
-    "language": "Shell",
-    "name": "sscodeai/agency-agents-ja",
-    "stars": 4,
-    "updated_at": "2026-07-14T14:09:54Z",
-    "url": "https://github.com/sscodeai/agency-agents-ja"
   },
   {
     "description": "I got tired moving configs between devices",
