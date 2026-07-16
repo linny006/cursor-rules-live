@@ -1,14 +1,5 @@
 [
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-07-16T12:09:32Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: Sponsor authorization for Cursor agents and Automations on UniGrok\nalwaysApply: true\n---\n\n# Cursor agent authorization (sponsor standing order)\n\nThe human sponsor authorizes Cursor (Composer, Cloud Agents, Automations, Bugbot Autofix, PR Approver, Security Reviewer) to **fix or improve anything related to Cursor agents** for `djtelicloud/grok-mcp-server` without re-asking each time.\n\n## In scope\n\n- Cursor Automations prompts, schedules, tools, and coordination loops\n- `.cursor/rules/*`, Cursor MCP client-id hygiene (`cursor` / `cursor-forge`)\n- Bugbot Autofix / Approver / Security Reviewer single-pass fidelity\n- Ready packets that keep Cursor agents healthy and non-colliding with peer lanes\n\n## Still required\n\n- Do not invent product priorities beyond agent health and integrating Ready work\n- Do not thrash peer active scratchpads or the primary main checkout\n- Secrets, billing, and irreversible risk still need an explicit human decision\n- Land/merge of protected `main` remains Codex/supervisor unless this session is explicitly acting in that role\n\n## Memory note\n\nStanding authorization saved at sponsor request (2026-07-15). Treat as durable until revoked.\n",
       "format": "mdc",
@@ -18,9 +9,18 @@
     "id": "djtelicloud/grok-mcp-server",
     "language": "Python",
     "name": "djtelicloud/grok-mcp-server",
-    "stars": 16,
-    "updated_at": "2026-07-16T12:15:26Z",
+    "stars": 17,
+    "updated_at": "2026-07-16T12:25:07Z",
     "url": "https://github.com/djtelicloud/grok-mcp-server"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-07-16T12:15:56Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -268,7 +268,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 84395,
+    "stars": 84399,
     "updated_at": "2026-07-15T21:32:15Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
