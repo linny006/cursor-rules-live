@@ -1,14 +1,5 @@
 [
   {
-    "description": "Curated AI editor rule files from real-world projects \u2014 compare how top repos configure Cursor, Claude Code, Copilot & m",
-    "id": "shumatsumonobu/awesome-ai-rules",
-    "language": "\u2014",
-    "name": "shumatsumonobu/awesome-ai-rules",
-    "stars": 0,
-    "updated_at": "2026-07-16T04:54:13Z",
-    "url": "https://github.com/shumatsumonobu/awesome-ai-rules"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: Sponsor authorization for Cursor agents and Automations on UniGrok\nalwaysApply: true\n---\n\n# Cursor agent authorization (sponsor standing order)\n\nThe human sponsor authorizes Cursor (Composer, Cloud Agents, Automations, Bugbot Autofix, PR Approver, Security Reviewer) to **fix or improve anything related to Cursor agents** for `djtelicloud/grok-mcp-server` without re-asking each time.\n\n## In scope\n\n- Cursor Automations prompts, schedules, tools, and coordination loops\n- `.cursor/rules/*`, Cursor MCP client-id hygiene (`cursor` / `cursor-forge`)\n- Bugbot Autofix / Approver / Security Reviewer single-pass fidelity\n- Ready packets that keep Cursor agents healthy and non-colliding with peer lanes\n\n## Still required\n\n- Do not invent product priorities beyond agent health and integrating Ready work\n- Do not thrash peer active scratchpads or the primary main checkout\n- Secrets, billing, and irreversible risk still need an explicit human decision\n- Land/merge of protected `main` remains Codex/supervisor unless this session is explicitly acting in that role\n\n## Memory note\n\nStanding authorization saved at sponsor request (2026-07-15). Treat as durable until revoked.\n",
       "format": "mdc",
@@ -19,8 +10,26 @@
     "language": "Python",
     "name": "djtelicloud/grok-mcp-server",
     "stars": 14,
-    "updated_at": "2026-07-16T04:58:56Z",
+    "updated_at": "2026-07-16T05:11:35Z",
     "url": "https://github.com/djtelicloud/grok-mcp-server"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-07-16T05:00:29Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Curated AI editor rule files from real-world projects \u2014 compare how top repos configure Cursor, Claude Code, Copilot & m",
+    "id": "shumatsumonobu/awesome-ai-rules",
+    "language": "\u2014",
+    "name": "shumatsumonobu/awesome-ai-rules",
+    "stars": 0,
+    "updated_at": "2026-07-16T04:54:13Z",
+    "url": "https://github.com/shumatsumonobu/awesome-ai-rules"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -30,15 +39,6 @@
     "stars": 0,
     "updated_at": "2026-07-16T04:51:43Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-07-16T04:45:28Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
@@ -218,7 +218,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 84151,
+    "stars": 84156,
     "updated_at": "2026-07-15T21:32:15Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
