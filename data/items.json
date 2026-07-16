@@ -1,5 +1,14 @@
 [
   {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 0,
+    "updated_at": "2026-07-16T02:56:47Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: Cursor Automations and Bugbot single-pass discipline (PR Approver, Security Reviewer, Bugbot Autofix)\nalwaysApply: true\n---\n\n# Cursor Automations \u2014 single-pass law\n\nThese bullets apply **only** when acting as **PR Approver**, **Security Reviewer**,\nor **Bugbot Autofix**. Interactive Composer / normal Cursor chat is not an\nautomation role \u2014 do not treat this file as commit/push authorization outside\nAutofix.\n\nWhen in one of those automation roles on this repo:\n\n- **Single-agent only.** Do not spawn parallel subagents, \u201creview modules,\u201d or repeated fan-out batches. One serial pass per run.\n- **No branch thrash.** Stay on the PR head you were given. Do not create extra branches/PRs unless the automation\u2019s job is explicitly Autofix and a fix commit is required.\n- **One action per head SHA.** Post at most one approval **or** one concise review comment for a given PR head. If an active run for the same automation + head already exists, exit without duplicating work.\n- **Ignore bot echo.** Do not re-trigger meaningful work solely because `cursor[bot]`, Bugbot, Copilot, Gemini, or Codex left a review comment.\n- **Approver path:** wait for Cursor Bugbot to finish; require green required checks; approve low/medium diffs with no unresolved medium/high Bugbot findings; block high-risk diffs and stop.\n- **Low/medium land path (when Codex is busy or out of credits):** after Bugbot and Security Reviewer complete, and after Approver approval on an undrafted Ready packet, Cursor merger may merge **green low/medium** only if the risk-aware `Supervisor Approval` status and branch protection allow (CI green; reviews satisfied; no open medium/high findings). Do not merge high-risk. Do not thrash with Codex on the same head\u2014one land owner. If `Supervisor Approval` is missing, comment the exact blocker; do not invent an admin bypass.\n- **High-risk path:** comment blockers; leave land to Codex/human through exact-head `Codex Approval`.\n- **Security Reviewer path:** inspect the PR diff + existing review threads once; report only actionable unresolved security findings; exit cleanly. Never attempt multi-module orchestration.\n- **Bugbot Autofix path:** apply the minimal doc/code fix for the cited finding on the existing PR branch; commit and push that branch only.\n- **Autofix fidelity:** one cited finding \u2192 one minimal fix \u2192 one push on the given PR head. Do not reopen review modules, spawn peers, or \u201calso fix\u201d adjacent nits. If another Autofix / Approver / Security run is already active for this head, exit.\n\nLive operator checklist (ide-setup): **Bugbot Autofix live fidelity smoke**.\n\nCanonical shared copy: `.agents/AGENTS.md` \u2192 **Cursor Automations**.\n",
       "format": "mdc",
@@ -9,8 +18,8 @@
     "id": "djtelicloud/grok-mcp-server",
     "language": "Python",
     "name": "djtelicloud/grok-mcp-server",
-    "stars": 13,
-    "updated_at": "2026-07-16T02:39:50Z",
+    "stars": 14,
+    "updated_at": "2026-07-16T02:58:25Z",
     "url": "https://github.com/djtelicloud/grok-mcp-server"
   },
   {
@@ -19,7 +28,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-07-16T02:30:28Z",
+    "updated_at": "2026-07-16T02:45:30Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -168,15 +177,6 @@
     "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
   },
   {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 0,
-    "updated_at": "2026-07-15T23:00:42Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
     "description": "Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior",
     "id": "MnemeHQ/mneme",
     "language": "HTML",
@@ -195,7 +195,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 84098,
+    "stars": 84101,
     "updated_at": "2026-07-15T21:32:15Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -258,7 +258,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 17394,
+    "stars": 17396,
     "updated_at": "2026-07-15T10:32:04Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
