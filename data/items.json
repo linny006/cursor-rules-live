@@ -1,11 +1,29 @@
 [
   {
+    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 81,
+    "updated_at": "2026-07-16T17:43:50Z",
+    "url": "https://github.com/KbWen/agentic-os"
+  },
+  {
+    "description": "Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows.",
+    "id": "ajhcs/healthcare-agents",
+    "language": "JavaScript",
+    "name": "ajhcs/healthcare-agents",
+    "stars": 46,
+    "updated_at": "2026-07-16T17:32:11Z",
+    "url": "https://github.com/ajhcs/healthcare-agents"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-07-16T17:20:22Z",
+    "updated_at": "2026-07-16T17:30:34Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -16,15 +34,6 @@
     "stars": 0,
     "updated_at": "2026-07-16T17:16:35Z",
     "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
-  },
-  {
-    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
-    "id": "KbWen/agentic-os",
-    "language": "Python",
-    "name": "KbWen/agentic-os",
-    "stars": 81,
-    "updated_at": "2026-07-16T17:25:28Z",
-    "url": "https://github.com/KbWen/agentic-os"
   },
   {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
@@ -155,7 +164,7 @@
     "language": "Python",
     "name": "djtelicloud/grok-mcp-server",
     "stars": 18,
-    "updated_at": "2026-07-16T17:28:32Z",
+    "updated_at": "2026-07-16T17:44:53Z",
     "url": "https://github.com/djtelicloud/grok-mcp-server"
   },
   {
@@ -304,7 +313,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 84562,
+    "stars": 84564,
     "updated_at": "2026-07-15T21:32:15Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -494,14 +503,5 @@
     "stars": 2,
     "updated_at": "2026-07-13T10:49:19Z",
     "url": "https://github.com/MicSm/boffin"
-  },
-  {
-    "description": "Auto harness engineering meta-repo: discuss \u2192 curate \u2192 bootstrap a context-engineered project for Claude Code, Cursor, C",
-    "id": "glowElephant/context-forge",
-    "language": "Python",
-    "name": "glowElephant/context-forge",
-    "stars": 2,
-    "updated_at": "2026-07-13T06:43:09Z",
-    "url": "https://github.com/glowElephant/context-forge"
   }
 ]
