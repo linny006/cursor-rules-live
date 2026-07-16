@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-07-16T07:45:36Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Your AI assistant hallucinates APIs, breaks dependent files, and weakens tests. 29 skills that prevent this across the f",
     "id": "sungurerdim/dev-skills",
     "language": "PowerShell",
@@ -16,15 +25,6 @@
     "stars": 25,
     "updated_at": "2026-07-16T07:30:54Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-07-16T07:30:49Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -46,7 +46,7 @@
     "language": "Python",
     "name": "djtelicloud/grok-mcp-server",
     "stars": 15,
-    "updated_at": "2026-07-16T07:42:46Z",
+    "updated_at": "2026-07-16T07:59:10Z",
     "url": "https://github.com/djtelicloud/grok-mcp-server"
   },
   {
@@ -181,7 +181,7 @@
     "id": "shumatsumonobu/awesome-ai-rules",
     "language": "\u2014",
     "name": "shumatsumonobu/awesome-ai-rules",
-    "stars": 0,
+    "stars": 1,
     "updated_at": "2026-07-16T04:54:13Z",
     "url": "https://github.com/shumatsumonobu/awesome-ai-rules"
   },
@@ -236,7 +236,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 84251,
+    "stars": 84262,
     "updated_at": "2026-07-15T21:32:15Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -281,7 +281,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 17410,
+    "stars": 17412,
     "updated_at": "2026-07-15T10:32:04Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -382,7 +382,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 37946,
+    "stars": 37948,
     "updated_at": "2026-07-14T17:37:15Z",
     "url": "https://github.com/wshobson/agents"
   },
