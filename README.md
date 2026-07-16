@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-07-16 08:34 UTC
+> ⏰ Last updated: 2026-07-16 08:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -76,7 +76,7 @@ expired items removed — so you can rely on what you see being current.
 | 21 | [caioribeiroclw-pixel/pluribus](https://github.com/caioribeiroclw-pixel/pluribus) | 9 | JavaScript | 2026-07-16 | — | Sync one reviewed context source into native AI-agent files, with privacy-safe evidence receipts that never confuse gene |
 | 22 | [sublimecoder/sublimecoding](https://github.com/sublimecoder/sublimecoding) | 0 | — | 2026-07-16 | — | 🛠️ Free Claude Code & Cursor prompts for senior engineers — code review, debugging, refactoring, system design, CLAUDE.m |
 | 23 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 17 | HTML | 2026-07-15 | — | Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior |
-| 24 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 84283 | JavaScript | 2026-07-15 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 24 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 84288 | JavaScript | 2026-07-15 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 25 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 16 | Shell | 2026-07-15 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
 | 26 | [NCEAS-AI/Coding-Agent-Rules-for-Data-Science](https://github.com/NCEAS-AI/Coding-Agent-Rules-for-Data-Science) | 0 | — | 2026-07-15 | — | Point your AI coding agent at this repo and it installs a personalized ruleset for reproducible, analysis-first data sci |
 | 27 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 11 | TypeScript | 2026-07-15 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
@@ -90,7 +90,7 @@ expired items removed — so you can rely on what you see being current.
 | 35 | [chkdskman/skill-sage-active-api](https://github.com/chkdskman/skill-sage-active-api) | 0 | — | 2026-07-14 | — | Sage Active Public API V2 (GraphQL) Skill/Plugin for Claude Code, Codex and Cursor. FR/ES/DE legislation rules. |
 | 36 | [GeiserX/n8n-nodes-lynxprompt](https://github.com/GeiserX/n8n-nodes-lynxprompt) | 1 | TypeScript | 2026-07-14 | — | n8n community node for LynxPrompt — manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via API |
 | 37 | [HoangNguyen0403/agent-skills-standard](https://github.com/HoangNguyen0403/agent-skills-standard) | 524 | TypeScript | 2026-07-14 | — | A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol |
-| 38 | [wshobson/agents](https://github.com/wshobson/agents) | 37949 | Python | 2026-07-14 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI |
+| 38 | [wshobson/agents](https://github.com/wshobson/agents) | 37951 | Python | 2026-07-14 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI |
 | 39 | [KernelLord/pickysteve](https://github.com/KernelLord/pickysteve) | 9 | Python | 2026-07-14 | — | Skill router and context picker for Claude Code, Cursor, and Aider. Auto-picks the right skill for every prompt, with pr |
 | 40 | [sscodeai/agency-agents-ja](https://github.com/sscodeai/agency-agents-ja) | 4 | Shell | 2026-07-14 | — | 323個の即戦力AI専門エージェント — Claude Code/Cursor/Copilot等に対応。SIer/受託開発/SaaS/製造DX/公共分野など日本市場向け114個のオリジナルを含む、agency-agents日本語コミュニティ |
 | 41 | [apoorv-kulkarni/initMe](https://github.com/apoorv-kulkarni/initMe) | 0 | Shell | 2026-07-13 | — | I got tired moving configs between devices |
