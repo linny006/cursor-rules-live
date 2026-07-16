@@ -1,5 +1,23 @@
 [
   {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 1,
+    "updated_at": "2026-07-16T03:41:57Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-07-16T03:40:55Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: Cursor Automations and Bugbot single-pass discipline (PR Approver, Security Reviewer, Bugbot Autofix)\nalwaysApply: true\n---\n\n# Cursor Automations \u2014 single-pass law\n\nThese bullets apply **only** when acting as **PR Approver**, **Security Reviewer**,\nor **Bugbot Autofix**. Interactive Composer / normal Cursor chat is not an\nautomation role \u2014 do not treat this file as commit/push authorization outside\nAutofix.\n\nWhen in one of those automation roles on this repo:\n\n- **Single-agent only.** Do not spawn parallel subagents, \u201creview modules,\u201d or repeated fan-out batches. One serial pass per run.\n- **No branch thrash.** Stay on the PR head you were given. Do not create extra branches/PRs unless the automation\u2019s job is explicitly Autofix and a fix commit is required.\n- **One action per head SHA.** Post at most one approval **or** one concise review comment for a given PR head. If an active run for the same automation + head already exists, exit without duplicating work.\n- **Ignore bot echo.** Do not re-trigger meaningful work solely because `cursor[bot]`, Bugbot, Copilot, Gemini, or Codex left a review comment.\n- **Approver path:** wait for Cursor Bugbot to finish; require green required checks; approve low/medium diffs with no unresolved medium/high Bugbot findings; block high-risk diffs and stop.\n- **Low/medium land path (when Codex is busy or out of credits):** after Bugbot and Security Reviewer complete, and after Approver approval on an undrafted Ready packet, Cursor merger may merge **green low/medium** only if the risk-aware `Supervisor Approval` status and branch protection allow (CI green; reviews satisfied; no open medium/high findings). Do not merge high-risk. Do not thrash with Codex on the same head\u2014one land owner. If `Supervisor Approval` is missing, comment the exact blocker; do not invent an admin bypass.\n- **High-risk path:** comment blockers; leave land to Codex/human through exact-head `Codex Approval`.\n- **Security Reviewer path:** inspect the PR diff + existing review threads once; report only actionable unresolved security findings; exit cleanly. Never attempt multi-module orchestration.\n- **Bugbot Autofix path:** apply the minimal doc/code fix for the cited finding on the existing PR branch; commit and push that branch only.\n- **Autofix fidelity:** one cited finding \u2192 one minimal fix \u2192 one push on the given PR head. Do not reopen review modules, spawn peers, or \u201calso fix\u201d adjacent nits. If another Autofix / Approver / Security run is already active for this head, exit.\n\nLive operator checklist (ide-setup): **Bugbot Autofix live fidelity smoke**.\n\nCanonical shared copy: `.agents/AGENTS.md` \u2192 **Cursor Automations**.\n",
       "format": "mdc",
@@ -10,17 +28,8 @@
     "language": "Python",
     "name": "djtelicloud/grok-mcp-server",
     "stars": 14,
-    "updated_at": "2026-07-16T03:40:16Z",
+    "updated_at": "2026-07-16T03:41:52Z",
     "url": "https://github.com/djtelicloud/grok-mcp-server"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-07-16T03:30:46Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -173,15 +182,6 @@
     "url": "https://github.com/sublimecoder/sublimecoding"
   },
   {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 1,
-    "updated_at": "2026-07-16T00:12:18Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
     "description": "Your AI assistant hallucinates APIs, breaks dependent files, and weakens tests. 29 skills that prevent this across the f",
     "id": "sungurerdim/dev-skills",
     "language": "PowerShell",
@@ -272,7 +272,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 17398,
+    "stars": 17399,
     "updated_at": "2026-07-15T10:32:04Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
