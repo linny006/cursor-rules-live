@@ -1,5 +1,37 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: Sponsor authorization for Cursor agents and Automations on UniGrok\nalwaysApply: true\n---\n\n# Cursor agent authorization (sponsor standing order)\n\nThe human sponsor authorizes Cursor (Composer, Cloud Agents, Automations, Bugbot Autofix, PR Approver, Security Reviewer) to **fix or improve anything related to Cursor agents** for `djtelicloud/grok-mcp-server` without re-asking each time.\n\n## In scope\n\n- Cursor Automations prompts, schedules, tools, and coordination loops\n- `.cursor/rules/*`, Cursor MCP client-id hygiene (`cursor` / `cursor-forge`)\n- Bugbot Autofix / Approver / Security Reviewer single-pass fidelity\n- Ready packets that keep Cursor agents healthy and non-colliding with peer lanes\n\n## Still required\n\n- Do not invent product priorities beyond agent health and integrating Ready work\n- Do not thrash peer active scratchpads or the primary main checkout\n- Secrets, billing, and irreversible risk still need an explicit human decision\n- Land/merge of protected `main` remains Codex/supervisor unless this session is explicitly acting in that role\n\n## Memory note\n\nStanding authorization saved at sponsor request (2026-07-15). Treat as durable until revoked.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/cursor-agent-authorization.mdc"
+    },
+    "description": "Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API ",
+    "id": "djtelicloud/grok-mcp-server",
+    "language": "Python",
+    "name": "djtelicloud/grok-mcp-server",
+    "stars": 15,
+    "updated_at": "2026-07-16T07:11:02Z",
+    "url": "https://github.com/djtelicloud/grok-mcp-server"
+  },
+  {
+    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
+    "id": "Laurellagloomy260/cursor-rules-generator",
+    "language": "\u2014",
+    "name": "Laurellagloomy260/cursor-rules-generator",
+    "stars": 0,
+    "updated_at": "2026-07-16T07:05:22Z",
+    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-07-16T07:00:30Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
     "id": "Hyanthropological659/clarify-skill",
     "language": "\u2014",
@@ -25,15 +57,6 @@
     "stars": 3,
     "updated_at": "2026-07-16T06:50:32Z",
     "url": "https://github.com/XAKLESK/cre-agent-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-07-16T06:45:50Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\u5168\u7403\u9152\u5e97\u9884\u8ba2Skill\uff0c200\u4e07+\u7cbe\u9009\u9152\u5e97\uff0c\u72ec\u5bb6\u4f18\u60e0\u4ef7\u683c\uff0c\u5168\u7403\u7b2c\u4e09\u5927\u9152\u65c5B2B\u516c\u53f8\u6570\u636e\u6e90\uff0c\u53ef\u8bbe\u7f6e\u4ef7\u683c\u76d1\u63a7\u548c\u63d0\u9192\uff0c\u652f\u6301\u521b\u5efa\u8ba2\u5355 + \u652f\u4ed8\u5b9d\u4e8c\u7ef4\u7801+\u67e5\u8be2\u5386\u53f2\u8ba2\u5355\uff0c24 \u5c0f\u65f6\u5ba2\u670d\u652f\u6301\uff0c\u5168\u5929\u5019\u54cd\u5e94\u3002",
@@ -127,20 +150,6 @@
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
-    "cursorrules": {
-      "content": "---\ndescription: Sponsor authorization for Cursor agents and Automations on UniGrok\nalwaysApply: true\n---\n\n# Cursor agent authorization (sponsor standing order)\n\nThe human sponsor authorizes Cursor (Composer, Cloud Agents, Automations, Bugbot Autofix, PR Approver, Security Reviewer) to **fix or improve anything related to Cursor agents** for `djtelicloud/grok-mcp-server` without re-asking each time.\n\n## In scope\n\n- Cursor Automations prompts, schedules, tools, and coordination loops\n- `.cursor/rules/*`, Cursor MCP client-id hygiene (`cursor` / `cursor-forge`)\n- Bugbot Autofix / Approver / Security Reviewer single-pass fidelity\n- Ready packets that keep Cursor agents healthy and non-colliding with peer lanes\n\n## Still required\n\n- Do not invent product priorities beyond agent health and integrating Ready work\n- Do not thrash peer active scratchpads or the primary main checkout\n- Secrets, billing, and irreversible risk still need an explicit human decision\n- Land/merge of protected `main` remains Codex/supervisor unless this session is explicitly acting in that role\n\n## Memory note\n\nStanding authorization saved at sponsor request (2026-07-15). Treat as durable until revoked.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/cursor-agent-authorization.mdc"
-    },
-    "description": "Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API ",
-    "id": "djtelicloud/grok-mcp-server",
-    "language": "Python",
-    "name": "djtelicloud/grok-mcp-server",
-    "stars": 14,
-    "updated_at": "2026-07-16T06:59:47Z",
-    "url": "https://github.com/djtelicloud/grok-mcp-server"
-  },
-  {
     "description": "Curated AI editor rule files from real-world projects \u2014 compare how top repos configure Cursor, Claude Code, Copilot & m",
     "id": "shumatsumonobu/awesome-ai-rules",
     "language": "\u2014",
@@ -157,15 +166,6 @@
     "stars": 0,
     "updated_at": "2026-07-16T04:51:43Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
-    "id": "Laurellagloomy260/cursor-rules-generator",
-    "language": "\u2014",
-    "name": "Laurellagloomy260/cursor-rules-generator",
-    "stars": 0,
-    "updated_at": "2026-07-16T04:39:53Z",
-    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
   },
   {
     "cursorrules": {
@@ -227,7 +227,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 84218,
+    "stars": 84232,
     "updated_at": "2026-07-15T21:32:15Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -281,7 +281,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 17407,
+    "stars": 17409,
     "updated_at": "2026-07-15T10:32:04Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
