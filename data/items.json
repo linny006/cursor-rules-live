@@ -1,5 +1,23 @@
 [
   {
+    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 81,
+    "updated_at": "2026-07-17T01:29:37Z",
+    "url": "https://github.com/KbWen/agentic-os"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-07-17T01:15:34Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
     "id": "Laurellagloomy260/cursor-rules-generator",
     "language": "\u2014",
@@ -16,15 +34,6 @@
     "stars": 0,
     "updated_at": "2026-07-17T01:00:51Z",
     "url": "https://github.com/manueldezman/botchain-init-toolkit"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-07-17T01:00:28Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
@@ -70,15 +79,6 @@
     "stars": 2,
     "updated_at": "2026-07-17T00:48:41Z",
     "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
-  },
-  {
-    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
-    "id": "KbWen/agentic-os",
-    "language": "Python",
-    "name": "KbWen/agentic-os",
-    "stars": 81,
-    "updated_at": "2026-07-17T01:10:14Z",
-    "url": "https://github.com/KbWen/agentic-os"
   },
   {
     "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
@@ -359,7 +359,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 84685,
+    "stars": 84694,
     "updated_at": "2026-07-15T21:32:15Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },

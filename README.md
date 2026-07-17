@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-07-17 01:15 UTC
+> ⏰ Last updated: 2026-07-17 01:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,15 +53,15 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-07-17 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
-| 2 | [manueldezman/botchain-init-toolkit](https://github.com/manueldezman/botchain-init-toolkit) | 0 | JavaScript | 2026-07-17 | — | A single-command toolkit that turns Claude Code, Codex, Cursor, and Windsurf into specialized BOT Chain engineering agen |
-| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 1 | HTML | 2026-07-17 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 4 | [Hyanthropological659/clarify-skill](https://github.com/Hyanthropological659/clarify-skill) | 0 | — | 2026-07-17 | — | Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a |
-| 5 | [Bastioned-successor320/learn-nanobot](https://github.com/Bastioned-successor320/learn-nanobot) | 3 | Python | 2026-07-17 | — | Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers |
-| 6 | [XAKLESK/cre-agent-skills](https://github.com/XAKLESK/cre-agent-skills) | 3 | — | 2026-07-17 | — | Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc |
-| 7 | [Amirun99/agency-orchestrator](https://github.com/Amirun99/agency-orchestrator) | 0 | Dart | 2026-07-17 | — | Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support. |
-| 8 | [Overseastelegramaliterateperson865/awesome-claude-md](https://github.com/Overseastelegramaliterateperson865/awesome-claude-md) | 2 | — | 2026-07-17 | — | Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr |
-| 9 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 81 | Python | 2026-07-17 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
+| 1 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 81 | Python | 2026-07-17 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
+| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 1 | HTML | 2026-07-17 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 3 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-07-17 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
+| 4 | [manueldezman/botchain-init-toolkit](https://github.com/manueldezman/botchain-init-toolkit) | 0 | JavaScript | 2026-07-17 | — | A single-command toolkit that turns Claude Code, Codex, Cursor, and Windsurf into specialized BOT Chain engineering agen |
+| 5 | [Hyanthropological659/clarify-skill](https://github.com/Hyanthropological659/clarify-skill) | 0 | — | 2026-07-17 | — | Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a |
+| 6 | [Bastioned-successor320/learn-nanobot](https://github.com/Bastioned-successor320/learn-nanobot) | 3 | Python | 2026-07-17 | — | Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers |
+| 7 | [XAKLESK/cre-agent-skills](https://github.com/XAKLESK/cre-agent-skills) | 3 | — | 2026-07-17 | — | Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc |
+| 8 | [Amirun99/agency-orchestrator](https://github.com/Amirun99/agency-orchestrator) | 0 | Dart | 2026-07-17 | — | Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support. |
+| 9 | [Overseastelegramaliterateperson865/awesome-claude-md](https://github.com/Overseastelegramaliterateperson865/awesome-claude-md) | 2 | — | 2026-07-17 | — | Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr |
 | 10 | [zinxj/uikit-expert-skill](https://github.com/zinxj/uikit-expert-skill) | 4 | — | 2026-07-17 | — | Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan |
 | 11 | [johnwall123459885/skene-cookbook](https://github.com/johnwall123459885/skene-cookbook) | 0 | Python | 2026-07-17 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/johnwall123459885/skene-cookbook/) | 🤖 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development. |
 | 12 | [sublimecoder/sublimecoding](https://github.com/sublimecoder/sublimecoding) | 0 | — | 2026-07-17 | — | 🛠️ Free Claude Code & Cursor prompts for senior engineers — code review, debugging, refactoring, system design, CLAUDE.m |
@@ -88,7 +88,7 @@ expired items removed — so you can rely on what you see being current.
 | 33 | [shumatsumonobu/awesome-ai-rules](https://github.com/shumatsumonobu/awesome-ai-rules) | 1 | — | 2026-07-16 | — | Curated AI editor rule files from real-world projects — compare how top repos configure Cursor, Claude Code, Copilot & m |
 | 34 | [PiloTracer/.ai](https://github.com/PiloTracer/.ai) | 0 | Shell | 2026-07-16 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/PiloTracer/.ai/) | Portable process framework for software teams shipping with coding agents (Cursor, Claude Code, Codex, opencode). Skills |
 | 35 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 17 | HTML | 2026-07-15 | — | Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior |
-| 36 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 84685 | JavaScript | 2026-07-15 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 36 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 84694 | JavaScript | 2026-07-15 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 37 | [NCEAS-AI/Coding-Agent-Rules-for-Data-Science](https://github.com/NCEAS-AI/Coding-Agent-Rules-for-Data-Science) | 0 | — | 2026-07-15 | — | Point your AI coding agent at this repo and it installs a personalized ruleset for reproducible, analysis-first data sci |
 | 38 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 17441 | Shell | 2026-07-15 | — | 🎭 266 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 50 个中国市场原创智能体（小红书/抖音/ |
 | 39 | [GeiserX/lynxprompt-mcp](https://github.com/GeiserX/lynxprompt-mcp) | 2 | Go | 2026-07-15 | — | MCP Server for LynxPrompt — browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP |
