@@ -1,5 +1,23 @@
 [
   {
+    "description": "Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API ",
+    "id": "djtelicloud/grok-mcp-server",
+    "language": "Python",
+    "name": "djtelicloud/grok-mcp-server",
+    "stars": 19,
+    "updated_at": "2026-07-17T22:29:30Z",
+    "url": "https://github.com/djtelicloud/grok-mcp-server"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-07-17T22:15:30Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Sync one reviewed context source into native AI-agent files, with privacy-safe evidence receipts that never confuse gene",
     "id": "caioribeiroclw-pixel/pluribus",
     "language": "JavaScript",
@@ -18,15 +36,6 @@
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-07-17T22:06:57Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
     "id": "Trentobobbi/uikit-mastery-playbook",
     "language": "HTML",
@@ -43,15 +52,6 @@
     "stars": 0,
     "updated_at": "2026-07-17T21:57:19Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API ",
-    "id": "djtelicloud/grok-mcp-server",
-    "language": "Python",
-    "name": "djtelicloud/grok-mcp-server",
-    "stars": 19,
-    "updated_at": "2026-07-17T21:48:29Z",
-    "url": "https://github.com/djtelicloud/grok-mcp-server"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -404,7 +404,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 85192,
+    "stars": 85196,
     "updated_at": "2026-07-15T21:32:15Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
