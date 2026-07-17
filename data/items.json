@@ -1,12 +1,39 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-07-17T11:14:54Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "Sync one reviewed context source into native AI-agent files, with privacy-safe evidence receipts that never confuse gene",
+    "id": "caioribeiroclw-pixel/pluribus",
+    "language": "JavaScript",
+    "name": "caioribeiroclw-pixel/pluribus",
+    "stars": 9,
+    "updated_at": "2026-07-17T11:08:38Z",
+    "url": "https://github.com/caioribeiroclw-pixel/pluribus"
+  },
+  {
     "description": "\ud83c\udfad 266 \u4e2a\u5373\u63d2\u5373\u7528\u7684 AI \u4e13\u5bb6\u89d2\u8272 \u2014 \u652f\u6301 Hermes Agent/Claude Code/Cursor/Copilot \u7b49 18 \u79cd\u5de5\u5177\uff0c\u8986\u76d6\u5de5\u7a0b/\u8bbe\u8ba1/\u8425\u9500/\u91d1\u878d\u7b49 20 \u4e2a\u90e8\u95e8\u3002\u542b 50 \u4e2a\u4e2d\u56fd\u5e02\u573a\u539f\u521b\u667a\u80fd\u4f53\uff08\u5c0f\u7ea2\u4e66/\u6296\u97f3/",
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 17473,
-    "updated_at": "2026-07-17T10:55:37Z",
+    "stars": 17474,
+    "updated_at": "2026-07-17T11:07:04Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
+  },
+  {
+    "description": "Variable-based universal rules system for Cursor IDE",
+    "id": "Jlosev/cursor-rules",
+    "language": "\u2014",
+    "name": "Jlosev/cursor-rules",
+    "stars": 0,
+    "updated_at": "2026-07-17T11:07:02Z",
+    "url": "https://github.com/Jlosev/cursor-rules"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,7 +41,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-07-17T10:45:27Z",
+    "updated_at": "2026-07-17T11:00:40Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -48,15 +75,6 @@
     "stars": 6,
     "updated_at": "2026-07-17T09:53:06Z",
     "url": "https://github.com/vibestackdev/vibe-stack"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 0,
-    "updated_at": "2026-07-17T09:47:22Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "\u5168\u7403\u9152\u5e97\u9884\u8ba2Skill\uff0c200\u4e07+\u7cbe\u9009\u9152\u5e97\uff0c\u72ec\u5bb6\u4f18\u60e0\u4ef7\u683c\uff0c\u5168\u7403\u7b2c\u4e09\u5927\u9152\u65c5B2B\u516c\u53f8\u6570\u636e\u6e90\uff0c\u53ef\u8bbe\u7f6e\u4ef7\u683c\u76d1\u63a7\u548c\u63d0\u9192\uff0c\u652f\u6301\u521b\u5efa\u8ba2\u5355 + \u652f\u4ed8\u5b9d\u4e8c\u7ef4\u7801+\u67e5\u8be2\u5386\u53f2\u8ba2\u5355\uff0c24 \u5c0f\u65f6\u5ba2\u670d\u652f\u6301\uff0c\u5168\u5929\u5019\u54cd\u5e94\u3002",
@@ -207,15 +225,6 @@
     "stars": 16,
     "updated_at": "2026-07-17T04:03:37Z",
     "url": "https://github.com/mikeprasad/aria-knowledge"
-  },
-  {
-    "description": "Sync one reviewed context source into native AI-agent files, with privacy-safe evidence receipts that never confuse gene",
-    "id": "caioribeiroclw-pixel/pluribus",
-    "language": "JavaScript",
-    "name": "caioribeiroclw-pixel/pluribus",
-    "stars": 9,
-    "updated_at": "2026-07-17T03:14:15Z",
-    "url": "https://github.com/caioribeiroclw-pixel/pluribus"
   },
   {
     "cursorrules": {
@@ -391,7 +400,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 84966,
+    "stars": 84975,
     "updated_at": "2026-07-15T21:32:15Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -494,14 +503,5 @@
     "stars": 1,
     "updated_at": "2026-07-13T20:44:00Z",
     "url": "https://github.com/GeiserX/homebrew-lynxprompt"
-  },
-  {
-    "description": "Production-ready AI agent profiles for Claude Code, Cursor, and Codex. Search, install, and contribute ForgeCat packages",
-    "id": "nota-america/forgecat-agent-profiles",
-    "language": "TypeScript",
-    "name": "nota-america/forgecat-agent-profiles",
-    "stars": 20,
-    "updated_at": "2026-07-13T20:30:45Z",
-    "url": "https://github.com/nota-america/forgecat-agent-profiles"
   }
 ]
