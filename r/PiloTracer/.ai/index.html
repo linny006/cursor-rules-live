@@ -14,7 +14,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="PiloTracer/.ai - entry on Cursor Rules Live">
 <meta name="twitter:description" content="Portable process framework for software teams shipping with coding agents (Cursor, Claude Code, Codex, opencode). Skills">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"PiloTracer/.ai","codeRepository":"https://github.com/PiloTracer/.ai","programmingLanguage":"Shell","url":"https://linny006.github.io/cursor-rules-live/r/PiloTracer/.ai/","description":"Portable process framework for software teams shipping with coding agents (Cursor, Claude Code, Codex, opencode). Skills","author":{"@type":"Person","name":"PiloTracer","url":"https://github.com/PiloTracer"},"dateModified":"2026-07-16"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"PiloTracer/.ai","codeRepository":"https://github.com/PiloTracer/.ai","programmingLanguage":"Shell","url":"https://linny006.github.io/cursor-rules-live/r/PiloTracer/.ai/","description":"Portable process framework for software teams shipping with coding agents (Cursor, Claude Code, Codex, opencode). Skills","author":{"@type":"Person","name":"PiloTracer","url":"https://github.com/PiloTracer"},"dateModified":"2026-07-17"}</script>
 <style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
          --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
 * { box-sizing: border-box; }
@@ -48,7 +48,7 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <div class="meta">
 <span><strong>Stars</strong> 0</span>
 <span><strong>Language</strong> Shell</span>
-<span><strong>Last updated</strong> 2026-07-16</span>
+<span><strong>Last updated</strong> 2026-07-17</span>
 <span><a href="https://github.com/PiloTracer/.ai" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/PiloTracer" rel="external">@PiloTracer</a></span>
 </div>
@@ -73,6 +73,7 @@ You are a senior staff engineer and tech lead on **REPLACE:PROJECT_NAME**. You o
 5. **Evidence-first, never memory-first.** Back every non-trivial claim with file evidence (path + snippet), runtime output, or live docs. Missing evidence → mark **Unverified** and gather it. Banned without evidence: &quot;this is fixed&quot;, &quot;already implemented&quot;, &quot;tests pass&quot;, &quot;works now&quot;.
 6. **Assumption ledger** (substantial tasks): state Confirmed facts / Inferences / Unknowns; never collapse inference into fact.
 7. **Completion gate** (cannot skip): claim done only when changes are applied, checks ran, output shows no blocking failure, and residual risks are listed. If checks can&#x27;t run, say why + give manual steps.
+8. **Per-message permission only.** Explicit human approval never becomes standing or permanent. Each `git commit`/`push`, file delete, DB drop/truncate/wipe, protected-file edit, or history rewrite needs approval in the **same message** that requests it — earlier chat approval does not carry forward.
 
 ---
 
@@ -139,20 +140,14 @@ Sister frameworks are siblings on disk; `.ai/` is self (self-hosted). Paths reso
 | `{MASTER_PLAN}` | `.work/plans/full/*-full-plan.md` (latest **Approved**) |
 | `{HANDOFF}` | `.work/context/HANDOFF.md` |
 | `{TOUCH_SCOPE}` | `.work/touch-scope` |
-| `{STANDARDS_ROOT}` | `.work/standards/` |
-| `{INTEGRATION_ROOT}` | `.work/docs/integration/` |
-| `{CONCEPTS_ROOT}` | `concepts/` |
-| `{SKILLS_ROOT}` | `skills/` |
-| `{OBSERVABILITY_SPEC}` | REPLACE:OBSERVABILITY_SPEC_PATH |
-| `{BOUNDARY_MAP}` | REPLACE:BOUNDARY_MAP_PATH |
-| `{AGENT_RULES_FILE}` | `.cursorrules` (this </code></pre>
+| `{STANDARDS_ROOT</code></pre>
 <p><em>Content truncated. View full file in the source repo (linked above).</em></p><p><a href="https://github.com/PiloTracer/.ai/blob/HEAD/.cursorrules" rel="external">View raw on GitHub</a></p>
 </section>
 <section><h2>Why this is listed</h2>
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>
 <ul class="crosslinks">
-<li><a href="https://linny006.github.io/cursor-rules-live/r/jnMetaCode/agency-agents-zh/">jnMetaCode/agency-agents-zh (stars:17443)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/jnMetaCode/agency-agents-zh/">jnMetaCode/agency-agents-zh (stars:17445)</a></li>
 <li><a href="https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/">danielvm-git/bigpowers (stars:54)</a></li>
 <li><a href="https://linny006.github.io/cursor-rules-live/r/mikeprasad/aria-knowledge/">mikeprasad/aria-knowledge (stars:16)</a></li>
 </ul></section>
