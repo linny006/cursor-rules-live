@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-07-17T16:35:29Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Your AI assistant hallucinates APIs, breaks dependent files, and weakens tests. 29 skills that prevent this across the f",
     "id": "sungurerdim/dev-skills",
     "language": "PowerShell",
@@ -7,15 +16,6 @@
     "stars": 1,
     "updated_at": "2026-07-17T16:31:22Z",
     "url": "https://github.com/sungurerdim/dev-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-07-17T16:30:51Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -400,7 +400,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 85113,
+    "stars": 85116,
     "updated_at": "2026-07-15T21:32:15Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },

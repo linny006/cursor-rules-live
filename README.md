@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-07-17 16:35 UTC
+> ⏰ Last updated: 2026-07-17 16:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,8 +53,8 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [sungurerdim/dev-skills](https://github.com/sungurerdim/dev-skills) | 1 | PowerShell | 2026-07-17 | — | Your AI assistant hallucinates APIs, breaks dependent files, and weakens tests. 29 skills that prevent this across the f |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 1 | HTML | 2026-07-17 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 1 | HTML | 2026-07-17 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [sungurerdim/dev-skills](https://github.com/sungurerdim/dev-skills) | 1 | PowerShell | 2026-07-17 | — | Your AI assistant hallucinates APIs, breaks dependent files, and weakens tests. 29 skills that prevent this across the f |
 | 3 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-07-17 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
 | 4 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-07-17 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
 | 5 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 26 | — | 2026-07-17 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
@@ -92,7 +92,7 @@ expired items removed — so you can rely on what you see being current.
 | 37 | [pekral/cursor-rules](https://github.com/pekral/cursor-rules) | 5 | PHP | 2026-07-16 | — | PHP and Laravel Cursor rules — coding standards, testing, and conventions for the Cursor editor. Install via Composer. |
 | 38 | [shumatsumonobu/awesome-ai-rules](https://github.com/shumatsumonobu/awesome-ai-rules) | 1 | — | 2026-07-16 | — | Curated AI editor rule files from real-world projects — compare how top repos configure Cursor, Claude Code, Copilot & m |
 | 39 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 17 | HTML | 2026-07-15 | — | Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior |
-| 40 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 85113 | JavaScript | 2026-07-15 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 40 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 85116 | JavaScript | 2026-07-15 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 41 | [NCEAS-AI/Coding-Agent-Rules-for-Data-Science](https://github.com/NCEAS-AI/Coding-Agent-Rules-for-Data-Science) | 0 | — | 2026-07-15 | — | Point your AI coding agent at this repo and it installs a personalized ruleset for reproducible, analysis-first data sci |
 | 42 | [GeiserX/lynxprompt-mcp](https://github.com/GeiserX/lynxprompt-mcp) | 2 | Go | 2026-07-15 | — | MCP Server for LynxPrompt — browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP |
 | 43 | [heymegabyte/claude-skills](https://github.com/heymegabyte/claude-skills) | 16 | TypeScript | 2026-07-15 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/claude-skills/) | 14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts → deployed products. |
