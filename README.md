@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-07-17 17:46 UTC
+> ⏰ Last updated: 2026-07-17 18:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -71,7 +71,7 @@ expired items removed — so you can rely on what you see being current.
 | 16 | [XAKLESK/cre-agent-skills](https://github.com/XAKLESK/cre-agent-skills) | 3 | — | 2026-07-17 | — | Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc |
 | 17 | [Overseastelegramaliterateperson865/awesome-claude-md](https://github.com/Overseastelegramaliterateperson865/awesome-claude-md) | 2 | — | 2026-07-17 | — | Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr |
 | 18 | [Amirun99/agency-orchestrator](https://github.com/Amirun99/agency-orchestrator) | 0 | Dart | 2026-07-17 | — | Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support. |
-| 19 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 17491 | Shell | 2026-07-17 | — | 🎭 266 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 50 个中国市场原创智能体（小红书/抖音/ |
+| 19 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 17492 | Shell | 2026-07-17 | — | 🎭 266 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 50 个中国市场原创智能体（小红书/抖音/ |
 | 20 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 11 | TypeScript | 2026-07-17 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
 | 21 | [Jlosev/cursor-rules](https://github.com/Jlosev/cursor-rules) | 0 | — | 2026-07-17 | — | Variable-based universal rules system for Cursor IDE |
 | 22 | [vibestackdev/vibe-stack](https://github.com/vibestackdev/vibe-stack) | 6 | TypeScript | 2026-07-17 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/) | 29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b |
@@ -92,7 +92,7 @@ expired items removed — so you can rely on what you see being current.
 | 37 | [pekral/cursor-rules](https://github.com/pekral/cursor-rules) | 5 | PHP | 2026-07-16 | — | PHP and Laravel Cursor rules — coding standards, testing, and conventions for the Cursor editor. Install via Composer. |
 | 38 | [shumatsumonobu/awesome-ai-rules](https://github.com/shumatsumonobu/awesome-ai-rules) | 1 | — | 2026-07-16 | — | Curated AI editor rule files from real-world projects — compare how top repos configure Cursor, Claude Code, Copilot & m |
 | 39 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 17 | HTML | 2026-07-15 | — | Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior |
-| 40 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 85135 | JavaScript | 2026-07-15 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 40 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 85137 | JavaScript | 2026-07-15 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 41 | [NCEAS-AI/Coding-Agent-Rules-for-Data-Science](https://github.com/NCEAS-AI/Coding-Agent-Rules-for-Data-Science) | 0 | — | 2026-07-15 | — | Point your AI coding agent at this repo and it installs a personalized ruleset for reproducible, analysis-first data sci |
 | 42 | [GeiserX/lynxprompt-mcp](https://github.com/GeiserX/lynxprompt-mcp) | 2 | Go | 2026-07-15 | — | MCP Server for LynxPrompt — browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP |
 | 43 | [heymegabyte/claude-skills](https://github.com/heymegabyte/claude-skills) | 16 | TypeScript | 2026-07-15 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/claude-skills/) | 14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts → deployed products. |
