@@ -52,37 +52,6 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <span><a href="https://github.com/djtelicloud/grok-mcp-server" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/djtelicloud" rel="external">@djtelicloud</a></span>
 </div>
-<section id="rules"><h2>Actual rules from this repo</h2>
-<p>Path in source repo: <code>.cursor/rules/cursor-agent-authorization.mdc</code> &middot; format: <code>mdc</code></p>
-<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
-description: Sponsor authorization for Cursor agents and Automations on UniGrok
-alwaysApply: true
----
-
-# Cursor agent authorization (sponsor standing order)
-
-The human sponsor authorizes Cursor (Composer, Cloud Agents, Automations, Bugbot Autofix, PR Approver, Security Reviewer) to **fix or improve anything related to Cursor agents** for `djtelicloud/grok-mcp-server` without re-asking each time.
-
-## In scope
-
-- Cursor Automations prompts, schedules, tools, and coordination loops
-- `.cursor/rules/*`, Cursor MCP client-id hygiene (`cursor` / `cursor-forge`)
-- Bugbot Autofix / Approver / Security Reviewer single-pass fidelity
-- Ready packets that keep Cursor agents healthy and non-colliding with peer lanes
-
-## Still required
-
-- Do not invent product priorities beyond agent health and integrating Ready work
-- Do not thrash peer active scratchpads or the primary main checkout
-- Secrets, billing, and irreversible risk still need an explicit human decision
-- Land/merge of protected `main` remains Codex/supervisor unless this session is explicitly acting in that role
-
-## Memory note
-
-Standing authorization saved at sponsor request (2026-07-15). Treat as durable until revoked.
-</code></pre>
-<p><a href="https://github.com/djtelicloud/grok-mcp-server/blob/HEAD/.cursor/rules/cursor-agent-authorization.mdc" rel="external">View raw on GitHub</a></p>
-</section>
 <section><h2>Why this is listed</h2>
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>
