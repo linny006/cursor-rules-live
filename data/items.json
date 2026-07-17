@@ -1,5 +1,23 @@
 [
   {
+    "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
+    "id": "philipbankier/awesome-agent-skills",
+    "language": "TypeScript",
+    "name": "philipbankier/awesome-agent-skills",
+    "stars": 11,
+    "updated_at": "2026-07-17T11:22:34Z",
+    "url": "https://github.com/philipbankier/awesome-agent-skills"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-07-17T11:15:29Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
     "id": "edsondviana8/ai-humanizer-core",
     "language": "HTML",
@@ -34,15 +52,6 @@
     "stars": 0,
     "updated_at": "2026-07-17T11:07:02Z",
     "url": "https://github.com/Jlosev/cursor-rules"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-07-17T11:00:40Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -346,15 +355,6 @@
     "url": "https://github.com/ardakocadoru/ai-system-prompts"
   },
   {
-    "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
-    "id": "philipbankier/awesome-agent-skills",
-    "language": "TypeScript",
-    "name": "philipbankier/awesome-agent-skills",
-    "stars": 11,
-    "updated_at": "2026-07-16T11:27:29Z",
-    "url": "https://github.com/philipbankier/awesome-agent-skills"
-  },
-  {
     "description": "Your AI assistant hallucinates APIs, breaks dependent files, and weakens tests. 29 skills that prevent this across the f",
     "id": "sungurerdim/dev-skills",
     "language": "PowerShell",
@@ -400,7 +400,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 84975,
+    "stars": 84979,
     "updated_at": "2026-07-15T21:32:15Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
