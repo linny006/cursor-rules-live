@@ -1,12 +1,12 @@
 [
   {
-    "description": "329 agent skills (Cursor, Claude Code & Codex), 5,380 OpenClaw skills, 201 ML notebooks, 51 research papers, 16 industry",
-    "id": "adriannoes/awesome-agentic-ai",
-    "language": "Jupyter Notebook",
-    "name": "adriannoes/awesome-agentic-ai",
-    "stars": 45,
-    "updated_at": "2026-07-18T02:54:39Z",
-    "url": "https://github.com/adriannoes/awesome-agentic-ai"
+    "description": "Agent skill for navigating, bootstrapping, maintaining, and validating lightweight indexes in Markdown-heavy workspaces.",
+    "id": "UltraDD/context-navigator-skill",
+    "language": "Python",
+    "name": "UltraDD/context-navigator-skill",
+    "stars": 0,
+    "updated_at": "2026-07-18T03:08:56Z",
+    "url": "https://github.com/UltraDD/context-navigator-skill"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-07-18T02:45:46Z",
+    "updated_at": "2026-07-18T03:00:46Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "329 agent skills (Cursor, Claude Code & Codex), 5,380 OpenClaw skills, 201 ML notebooks, 51 research papers, 16 industry",
+    "id": "adriannoes/awesome-agentic-ai",
+    "language": "Jupyter Notebook",
+    "name": "adriannoes/awesome-agentic-ai",
+    "stars": 45,
+    "updated_at": "2026-07-18T02:54:39Z",
+    "url": "https://github.com/adriannoes/awesome-agentic-ai"
   },
   {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
@@ -222,7 +231,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 37992,
+    "stars": 37993,
     "updated_at": "2026-07-17T20:16:28Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -249,7 +258,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 17509,
+    "stars": 17510,
     "updated_at": "2026-07-17T13:01:39Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -427,7 +436,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 85244,
+    "stars": 85246,
     "updated_at": "2026-07-15T21:32:15Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -494,14 +503,5 @@
     "stars": 1,
     "updated_at": "2026-07-14T22:00:39Z",
     "url": "https://github.com/GeiserX/n8n-nodes-lynxprompt"
-  },
-  {
-    "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
-    "id": "HoangNguyen0403/agent-skills-standard",
-    "language": "TypeScript",
-    "name": "HoangNguyen0403/agent-skills-standard",
-    "stars": 527,
-    "updated_at": "2026-07-14T18:34:58Z",
-    "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
   }
 ]
