@@ -14,7 +14,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Bita71/Agent-Workflow-Kit - entry on Cursor Rules Live">
 <meta name="twitter:description" content="Copy-ready agent workflow for Cursor, Claude Code, and Codex. Plan, build, review, and verify with specialized subagents">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"Bita71/Agent-Workflow-Kit","codeRepository":"https://github.com/Bita71/Agent-Workflow-Kit","programmingLanguage":"—","url":"https://linny006.github.io/cursor-rules-live/r/Bita71/Agent-Workflow-Kit/","description":"Copy-ready agent workflow for Cursor, Claude Code, and Codex. Plan, build, review, and verify with specialized subagents","author":{"@type":"Person","name":"Bita71","url":"https://github.com/Bita71"},"dateModified":"2026-07-18"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"Bita71/Agent-Workflow-Kit","codeRepository":"https://github.com/Bita71/Agent-Workflow-Kit","programmingLanguage":"Shell","url":"https://linny006.github.io/cursor-rules-live/r/Bita71/Agent-Workflow-Kit/","description":"Copy-ready agent workflow for Cursor, Claude Code, and Codex. Plan, build, review, and verify with specialized subagents","author":{"@type":"Person","name":"Bita71","url":"https://github.com/Bita71"},"dateModified":"2026-07-18"}</script>
 <style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
          --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
 * { box-sizing: border-box; }
@@ -47,7 +47,7 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <p class="lead">Copy-ready agent workflow for Cursor, Claude Code, and Codex. Plan, build, review, and verify with specialized subagents</p>
 <div class="meta">
 <span><strong>Stars</strong> 1</span>
-<span><strong>Language</strong> —</span>
+<span><strong>Language</strong> Shell</span>
 <span><strong>Last updated</strong> 2026-07-18</span>
 <span><a href="https://github.com/Bita71/Agent-Workflow-Kit" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/Bita71" rel="external">@Bita71</a></span>
@@ -63,15 +63,15 @@ alwaysApply: true
 `docs/ai` is the source of truth for rules, skills, commands, agent roles, and
 artifacts. Before working, read:
 
+- `.agent-workflow-kit/config.conf` — project settings and active profiles.
 - `docs/ai/README.md` — map of the AI surface.
 - `docs/ai/rules/project.md` — tool-agnostic invariants (scope, clarify, safety,
   verification).
 - `docs/ai/rules/coding-rules.md` — this stack&#x27;s conventions.
 - `docs/ai/rules/commit-message.md` — Conventional Commits.
 
-`&lt;check&gt;` means the repository&#x27;s standard verify command (lint + typecheck +
-tests). Run it after substantive changes. Do not commit or push without an
-explicit request.
+`&lt;check&gt;` means `CHECK_COMMAND` from the config. Run it after substantive changes
+unless it is `none`. Do not commit or push without an explicit request.
 
 ## Commands
 
@@ -85,12 +85,13 @@ into `docs/ai/commands/*`. Available: `symphony`, `codex-plan`, `build`,
 - Planning and correctness/security review run through Codex
   (`docs/ai/agents/cli.md`, `docs/ai/agents/codex-plan.md`,
   `docs/ai/agents/review-correctness.md`, `docs/ai/agents/review-security.md`).
-- Implementation and design review run on a strong model
-  (`docs/ai/agents/claude-build.md`, `docs/ai/agents/review-design.md`).
+- Implementation and design review use the tracked Cursor agents `build` and
+  `review-design` (`docs/ai/agents/build.md`,
+  `docs/ai/agents/review-design.md`).
 
-Model policy is strong-only, with intelligence scaled by `effort`
-(`docs/ai/commands/choose-model.md`). Do not restate the rules in your reply —
-follow the referenced files.
+Resolve model roles and effort through config and
+`docs/ai/commands/choose-model.md`. Do not restate rules in replies; follow the
+referenced files.
 </code></pre>
 <p><a href="https://github.com/Bita71/Agent-Workflow-Kit/blob/HEAD/.cursor/rules/main.mdc" rel="external">View raw on GitHub</a></p>
 </section>
@@ -98,16 +99,16 @@ follow the referenced files.
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>
 <ul class="crosslinks">
-<li><a href="https://linny006.github.io/cursor-rules-live/r/J-nowcow/awesome-korean-agent-skills/">J-nowcow/awesome-korean-agent-skills (stars:26)</a></li>
-<li><a href="https://linny006.github.io/cursor-rules-live/r/zinxj/uikit-expert-skill/">zinxj/uikit-expert-skill (stars:4)</a></li>
-<li><a href="https://linny006.github.io/cursor-rules-live/r/yunbow/ai-dev-os/">yunbow/ai-dev-os (stars:4)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/jnMetaCode/agency-agents-zh/">jnMetaCode/agency-agents-zh (stars:17609)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/mikeprasad/aria-knowledge/">mikeprasad/aria-knowledge (stars:16)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/anmolnagpal/devops-skills/">anmolnagpal/devops-skills (stars:7)</a></li>
 </ul></section>
 <section><h2>Explore by category</h2>
 <ul class="crosslinks">
 <li><a href="https://linny006.github.io/cursor-rules-live/popular/">Popular (by stars)</a></li>
 <li><a href="https://linny006.github.io/cursor-rules-live/recent/">Recent (by activity)</a></li>
 <li><a href="https://linny006.github.io/cursor-rules-live/new/">New this week</a></li>
-<li><a href="https://linny006.github.io/cursor-rules-live/lang/x/">All — entries</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/lang/shell/">All Shell entries</a></li>
 </ul></section>
 </main>
 <footer>
