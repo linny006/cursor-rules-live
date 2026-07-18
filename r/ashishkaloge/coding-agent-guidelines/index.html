@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<title>ashishkaloge/coding-agent-guidelines - entry on Cursor Rules Live</title>
+<meta name="description" content="Drop-in behavioral guidelines for Claude Code, Cursor, and AI coding agents.">
+<link rel="canonical" href="https://linny006.github.io/cursor-rules-live/r/ashishkaloge/coding-agent-guidelines/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ashishkaloge/coding-agent-guidelines - entry on Cursor Rules Live">
+<meta property="og:description" content="Drop-in behavioral guidelines for Claude Code, Cursor, and AI coding agents.">
+<meta property="og:url" content="https://linny006.github.io/cursor-rules-live/r/ashishkaloge/coding-agent-guidelines/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="ashishkaloge/coding-agent-guidelines - entry on Cursor Rules Live">
+<meta name="twitter:description" content="Drop-in behavioral guidelines for Claude Code, Cursor, and AI coding agents.">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"ashishkaloge/coding-agent-guidelines","codeRepository":"https://github.com/ashishkaloge/coding-agent-guidelines","programmingLanguage":"JavaScript","url":"https://linny006.github.io/cursor-rules-live/r/ashishkaloge/coding-agent-guidelines/","description":"Drop-in behavioral guidelines for Claude Code, Cursor, and AI coding agents.","author":{"@type":"Person","name":"ashishkaloge","url":"https://github.com/ashishkaloge"},"dateModified":"2026-07-18"}</script>
+<style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
+         --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 16px; font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--fg); background: var(--bg); }
+.wrap { max-width: var(--max); margin: 0 auto; }
+nav.bc { font-size: 14px; color: var(--muted); margin-bottom: 16px; }
+nav.bc a { color: var(--muted); }
+h1 { font-size: 28px; margin: 0 0 8px; }
+h2 { font-size: 20px; margin: 24px 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+p.lead { font-size: 18px; color: var(--muted); margin: 0 0 24px; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+th, td { padding: 8px 12px; text-align: left; border-bottom: 1px solid var(--border); }
+th { background: var(--card); font-weight: 600; }
+ul.crosslinks { list-style: none; padding: 0; }
+ul.crosslinks li { padding: 6px 0; }
+ul.crosslinks li a { font-weight: 500; }
+.meta { display: flex; gap: 16px; flex-wrap: wrap; color: var(--muted); font-size: 14px; margin: 12px 0; }
+.meta span::before { content: "\00b7"; margin-right: 8px; color: var(--border); }
+.meta span:first-child::before { content: ""; }
+footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--border); font-size: 14px; color: var(--muted); }</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="bc"><a href="https://linny006.github.io/cursor-rules-live/">Cursor Rules Live</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/popular/">Entries</a> &#183; <span>ashishkaloge/coding-agent-guidelines</span></nav>
+<main>
+<h1>ashishkaloge/coding-agent-guidelines</h1>
+<p class="lead">Drop-in behavioral guidelines for Claude Code, Cursor, and AI coding agents.</p>
+<div class="meta">
+<span><strong>Stars</strong> 1</span>
+<span><strong>Language</strong> JavaScript</span>
+<span><strong>Last updated</strong> 2026-07-18</span>
+<span><a href="https://github.com/ashishkaloge/coding-agent-guidelines" rel="external">Source on GitHub</a></span>
+<span><a href="https://github.com/ashishkaloge" rel="external">@ashishkaloge</a></span>
+</div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/coding-agent-guidelines.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
+description: &gt;
+  Behavioral guidelines for AI agents working in this repository. Covers
+  reconnaissance, minimal changes, scoped edits, verification,
+  context discipline, tool use, delegation, memory, planning, MCP, and
+  model selection.
+globs:
+alwaysApply: true
+---
+
+# Cursor Project Rule: Coding Agent Guidelines
+
+This file is the Cursor equivalent of `CLAUDE.md`. Place it at
+`.cursor/rules/coding-agent-guidelines.mdc`. The frontmatter above sets
+`alwaysApply: true`, which means the rule is included in the model
+context for every Agent (Chat) request in this project.
+
+## Where this lives in Cursor&#x27;s model
+
+Cursor has three layers of persistent instructions:
+
+1. **Project Rules** — `.cursor/rules/*.mdc` files, version-controlled
+   with the repo. Each rule is a Markdown file with YAML frontmatter.
+   This is the closest equivalent to project `CLAUDE.md`.
+2. **User Rules** — global preferences set in Cursor Settings → Rules.
+   Plain text, applied to Agent across all projects. Equivalent to
+   `~/.claude/CLAUDE.md`.
+3. **Memories** — auto-generated short rules derived from chat
+   conversations, scoped to the project, observed by a sidecar model.
+   Equivalent to Claude Code&#x27;s auto memory but lighter-weight: think
+   &quot;remembered preferences,&quot; not &quot;saved playbook.&quot;
+
+Precedence (per Cursor docs): Team Rules → Project Rules → User Rules,
+all merged, earlier sources winning on conflict.
+
+`AGENTS.md` at the repo root is also recognized by Cursor as a project-
+wide instruction file and is a reasonable alternative if you want a
+single Markdown file shared across multiple AI tools.
+
+## Rule frontmatter — what each field does
+
+```yaml
+---
+description: &lt;when this rule should be considered&gt;
+globs: &lt;comma-separated glob patterns, or empty&gt;
+alwaysApply: &lt;true | false&gt;
+---
+```
+
+The combination of these three fields defines the rule type:
+
+| Type             | `alwaysApply` | `globs`        | `description` | When it loads                                    |
+|------------------|---------------|----------------|---------------|--------------------------------------------------|
+| Always           | `true`        | empty          | empty         | Every request in the project                     |
+| Auto Attached    | `false`       | populated      | empty         | When edited/referenced files match the globs     |
+| Agent Requested  | `false`       | empty          | populated     | Agent decides based on `description` relevance   |
+| Manual           | `false`       | empty          | empty         | Only when invoked via `@rule-name`               |
+
+The current behavior, per Cursor&#x27;s docs and confirmed by the community:
+even when `alwaysApply: true` puts a rule in context, the model can
+still decide it&#x27;s not relevant to the specific query and effectively
+ignore it. Treat rules as strong defaults, not enforced configuration.
+
+A rule body should be short — Cursor&#x27;s guidance is &quot;like a clear
+internal doc, focused and actionable.&quot; Rules over a few hundred lines
+become harder to follow.
+
+## How this rule maps to Cursor&#x27;s modes
+
+Cursor offers several Agent modes:
+
+- **Agent** (default): autonomous, all tools, edits files, runs
+  commands, iterates on errors.
+- **Ask**: read-only Q&amp;A. Cannot edit. Useful for exploration.
+- **Manual**: edits only the files you explicitly select; no autonomous
+  exploration.
+- **Plan**: research-first mode. The agent analyzes the
+  codebase, asks clarifying questions, and produces a reviewable plan
+  saved as a file before execution.
+- **Debug**: instruments the app with runtime logs to
+  reproduce and isolate bugs.
+- **Custom Modes**: user-defined combinations of tools and
+  instructions.
+
+Mapping from `CLAUDE.md` sections to Cursor:
+
+| `CLAUDE.md` section            | Cursor equivalent                                            |
+|-------------------------------|--------------------------------------------------------------|
+| Reconnaissance Before Action  | Same; reinforce in Plan Mode for multi-file work             |
+| Smallest Sufficient Change    | Same; rule body                                              |
+| Edits as Diffs, Not Rewrites  | Same; reinforced by Manual mode for risky areas              |
+| Define the Finish Line        | Same; auto-run + auto-fix-errors will run tests              |
+| Context as a Budget           | Same; codebase indexing handles search, but `Grep` discipline still applies |
+| Right Tool, Right Moment      | Same; Cursor&#x27;s tool list is similar                          |
+| Delegation Hygiene            | Cursor uses parallel subagents during exploration; same principle |
+| Persisted vs. Ephemeral       | Project Rules / User Rules / Memories instead of `CLAUDE.md` tiers |
+| Plan Before You Patch         | Cursor Plan Mode                                             |
+| External Tools Are a Tax      | MCP integration in Cursor — same caveat about server bloat   |
+| Skills as Loadable Playbooks  | No direct equivalent; closest is Auto Attached rules with `globs` |
+| Match the Model to the Task   | Cursor&#x27;s model dropdown + Auto routing                       |
+
+## Cursor-specific notes
+
+**Codebase indexing.** Cursor maintains a custom embedding index of the
+repo. Most &quot;where is X?&quot; queries are answered by the index, not by
+file reads. You usually do not need to micromanage `Grep` vs `Read` —
+but the principle still holds when the agent is editing.
+
+**Background Agents.** Cursor supports cloud-based agents that run on a
+dedicated VM and continue working while you do something else. They
+require a paid plan and use Max-mode-compatible models. Treat them as
+&quot;long-running async tasks,&quot; not as &quot;default mode&quot; — the cost and
+isolation tradeoffs are different.
+
+**Default models.** Cursor exposes Auto routing plus an explicit model
+dropdown. The dropdown contents track the major frontier models
+(Anthropic Claude Sonnet/Opus/Haiku, OpenAI, Google Gemini, plus
+Cursor&#x27;s own Composer model trained for in-IDE agentic loops). The
+choice rule from</code></pre>
+<p><em>Content truncated. View full file in the source repo (linked above).</em></p><p><a href="https://github.com/ashishkaloge/coding-agent-guidelines/blob/HEAD/.cursor/rules/coding-agent-guidelines.mdc" rel="external">View raw on GitHub</a></p>
+</section>
+<section><h2>Why this is listed</h2>
+<p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
+<section><h2>Similar in this tracker</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/">DietrichGebert/ponytail (stars:85281)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/ajhcs/healthcare-agents/">ajhcs/healthcare-agents (stars:47)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/caioribeiroclw-pixel/pluribus/">caioribeiroclw-pixel/pluribus (stars:9)</a></li>
+</ul></section>
+<section><h2>Explore by category</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/popular/">Popular (by stars)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/recent/">Recent (by activity)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/new/">New this week</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/lang/javascript/">All JavaScript entries</a></li>
+</ul></section>
+</main>
+<footer>
+Auto-updated every 15 minutes via GitHub Actions &#183; <a href="https://linny006.github.io/cursor-rules-live/">tracker root</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/sitemap.xml">sitemap</a>
+</footer>
+</div>
+</body>
+</html>

@@ -1,6 +1,38 @@
 [
   {
     "cursorrules": {
+      "content": "---\ndescription: >\n  Behavioral guidelines for AI agents working in this repository. Covers\n  reconnaissance, minimal changes, scoped edits, verification,\n  context discipline, tool use, delegation, memory, planning, MCP, and\n  model selection.\nglobs:\nalwaysApply: true\n---\n\n# Cursor Project Rule: Coding Agent Guidelines\n\nThis file is the Cursor equivalent of `CLAUDE.md`. Place it at\n`.cursor/rules/coding-agent-guidelines.mdc`. The frontmatter above sets\n`alwaysApply: true`, which means the rule is included in the model\ncontext for every Agent (Chat) request in this project.\n\n## Where this lives in Cursor's model\n\nCursor has three layers of persistent instructions:\n\n1. **Project Rules** \u2014 `.cursor/rules/*.mdc` files, version-controlled\n   with the repo. Each rule is a Markdown file with YAML frontmatter.\n   This is the closest equivalent to project `CLAUDE.md`.\n2. **User Rules** \u2014 global preferences set in Cursor Settings \u2192 Rules.\n   Plain text, applied to Agent across all projects. Equivalent to\n   `~/.claude/CLAUDE.md`.\n3. **Memories** \u2014 auto-generated short rules derived from chat\n   conversations, scoped to the project, observed by a sidecar model.\n   Equivalent to Claude Code's auto memory but lighter-weight: think\n   \"remembered preferences,\" not \"saved playbook.\"\n\nPrecedence (per Cursor docs): Team Rules \u2192 Project Rules \u2192 User Rules,\nall merged, earlier sources winning on conflict.\n\n`AGENTS.md` at the repo root is also recognized by Cursor as a project-\nwide instruction file and is a reasonable alternative if you want a\nsingle Markdown file shared across multiple AI tools.\n\n## Rule frontmatter \u2014 what each field does\n\n```yaml\n---\ndescription: <when this rule should be considered>\nglobs: <comma-separated glob patterns, or empty>\nalwaysApply: <true | false>\n---\n```\n\nThe combination of these three fields defines the rule type:\n\n| Type             | `alwaysApply` | `globs`        | `description` | When it loads                                    |\n|------------------|---------------|----------------|---------------|--------------------------------------------------|\n| Always           | `true`        | empty          | empty         | Every request in the project                     |\n| Auto Attached    | `false`       | populated      | empty         | When edited/referenced files match the globs     |\n| Agent Requested  | `false`       | empty          | populated     | Agent decides based on `description` relevance   |\n| Manual           | `false`       | empty          | empty         | Only when invoked via `@rule-name`               |\n\nThe current behavior, per Cursor's docs and confirmed by the community:\neven when `alwaysApply: true` puts a rule in context, the model can\nstill decide it's not relevant to the specific query and effectively\nignore it. Treat rules as strong defaults, not enforced configuration.\n\nA rule body should be short \u2014 Cursor's guidance is \"like a clear\ninternal doc, focused and actionable.\" Rules over a few hundred lines\nbecome harder to follow.\n\n## How this rule maps to Cursor's modes\n\nCursor offers several Agent modes:\n\n- **Agent** (default): autonomous, all tools, edits files, runs\n  commands, iterates on errors.\n- **Ask**: read-only Q&A. Cannot edit. Useful for exploration.\n- **Manual**: edits only the files you explicitly select; no autonomous\n  exploration.\n- **Plan**: research-first mode. The agent analyzes the\n  codebase, asks clarifying questions, and produces a reviewable plan\n  saved as a file before execution.\n- **Debug**: instruments the app with runtime logs to\n  reproduce and isolate bugs.\n- **Custom Modes**: user-defined combinations of tools and\n  instructions.\n\nMapping from `CLAUDE.md` sections to Cursor:\n\n| `CLAUDE.md` section            | Cursor equivalent                                            |\n|-------------------------------|--------------------------------------------------------------|\n| Reconnaissance Before Action  | Same; reinforce in Plan Mode for multi-file work             |\n| Smallest Sufficient Change    | Same; rule body                                              |\n| Edits as Diffs, Not Rewrites  | Same; reinforced by Manual mode for risky areas              |\n| Define the Finish Line        | Same; auto-run + auto-fix-errors will run tests              |\n| Context as a Budget           | Same; codebase indexing handles search, but `Grep` discipline still applies |\n| Right Tool, Right Moment      | Same; Cursor's tool list is similar                          |\n| Delegation Hygiene            | Cursor uses parallel subagents during exploration; same principle |\n| Persisted vs. Ephemeral       | Project Rules / User Rules / Memories instead of `CLAUDE.md` tiers |\n| Plan Before You Patch         | Cursor Plan Mode                                             |\n| External Tools Are a Tax      | MCP integration in Cursor \u2014 same caveat about server bloat   |\n| Skills as Loadable Playbooks  | No direct equivalent; closest is Auto Attached rules with `globs` |\n| Match the Model to the Task   | Cursor's model dropdown + Auto routing                       |\n\n## Cursor-specific notes\n\n**Codebase indexing.** Cursor maintains a custom embedding index of the\nrepo. Most \"where is X?\" queries are answered by the index, not by\nfile reads. You usually do not need to micromanage `Grep` vs `Read` \u2014\nbut the principle still holds when the agent is editing.\n\n**Background Agents.** Cursor supports cloud-based agents that run on a\ndedicated VM and continue working while you do something else. They\nrequire a paid plan and use Max-mode-compatible models. Treat them as\n\"long-running async tasks,\" not as \"default mode\" \u2014 the cost and\nisolation tradeoffs are different.\n\n**Default models.** Cursor exposes Auto routing plus an explicit model\ndropdown. The dropdown contents track the major frontier models\n(Anthropic Claude Sonnet/Opus/Haiku, OpenAI, Google Gemini, plus\nCursor's own Composer model trained for in-IDE agentic loops). The\nchoice rule from `CLAUDE.md` \u00a712 still applies: don't pay for capacity\nyou don't need, but don't underspecify a hard refactor.\n\n**Memories vs Rules.** Memories are *auto-derived* and short \u2014 you\ngenerally don't write them, you let Cursor capture them and prune them.\nRules are *authored*. Use Rules for everything you want to persist\ndeliberately; let Memories handle small preference drift.\n\n## The rule body\n\nBelow is the substantive content. Treat each section as a directive.\n\n### Reconnaissance Before Action\n\nBefore editing, confirm what is being asked. If ambiguity remains\nafter reading the relevant files, state the interpretation you'll use\nand proceed; do not silently choose. Surface assumptions explicitly.\nIf the user asserts something incorrect, push back rather than agree.\n\n### Smallest Sufficient Change\n\nWrite the minimum that satisfies the requirement. No speculative\nparameters, abstract base classes for one subclass, or configuration\nwithout a second caller. Inline until duplication forces extraction\n(rule of three). Comments explain why, not what.\n\n### Edits as Diffs, Not Rewrites\n\nModify only what was asked. No drive-by reformatting, no renames\noutside scope, no deletion of \"looks unused\" code without checking\ncall sites. Match the file's existing style.\n\n### Define the Finish Line\n\nState the verification command before writing code. Run it, paste\noutput. \"Should work\" is not a finish condition. If you cannot run\nthe check, say so and list the exact command the user should run.\n\n### Context as a Budget\n\nSearch before reading. Read targeted ranges, not whole files. Don't\npaste large files into the chat unless you're modifying them.\nConsider whether durable lessons belong in this rule file.\n\n### Right Tool, Right Moment\n\nSearch tools (codebase index, grep, glob) before content reads.\nBatch independent reads. Prefer targeted edits to whole-file rewrites.\nDon't loop on a failing command \u2014 read the error properly after the\nsecond failure.\n\n### Delegation and Parallel Subagent",
+      "format": "mdc",
+      "path": ".cursor/rules/coding-agent-guidelines.mdc"
+    },
+    "description": "Drop-in behavioral guidelines for Claude Code, Cursor, and AI coding agents.",
+    "id": "ashishkaloge/coding-agent-guidelines",
+    "language": "JavaScript",
+    "name": "ashishkaloge/coding-agent-guidelines",
+    "stars": 1,
+    "updated_at": "2026-07-18T05:08:14Z",
+    "url": "https://github.com/ashishkaloge/coding-agent-guidelines"
+  },
+  {
+    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
+    "id": "zinxj/uikit-expert-skill",
+    "language": "\u2014",
+    "name": "zinxj/uikit-expert-skill",
+    "stars": 4,
+    "updated_at": "2026-07-18T05:02:14Z",
+    "url": "https://github.com/zinxj/uikit-expert-skill"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-07-18T05:00:56Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "cursorrules": {
       "content": "# Cursor Rules for skene-cookbook\n\n## Project Context\n\n**Repository:** skene-cookbook - 764 AI skill library with 36 skill chain recipes\n**Package:** @skene/skills-directory v0.2.0\n**License:** MIT\n**Purpose:** Pre-built AI skill chains for PLG, sales, customer success, security, and more\n\n## Architecture Patterns\n\n### Skill Structure (Non-Negotiable)\n\nEvery skill MUST follow this exact structure:\n\n```\nskills-library/{domain}/{skill-name}/\n\u251c\u2500\u2500 skill.json          # Metadata (name, description, category, risk_level)\n\u251c\u2500\u2500 instructions.md     # AI agent execution instructions\n\u2514\u2500\u2500 tests/              # Optional: skill-specific tests\n```\n\n**Do NOT:**\n- Create skills outside `skills-library/executable/` or `skills-library/reference/`\n- Modify existing skill structure without updating registry\n- Add skills without `skill.json` and `instructions.md`\n\n### Registry Auto-Generation\n\nThe `registry/` directory is AUTO-GENERATED from `skills-library/`:\n- Never manually edit files in `registry/`\n- Always run `npm run verify:metrics` after skill changes\n- Registry regeneration syncs badges and counts across README.md, METRICS.md, docs/directory.md\n\n### Risk Level Classification\n\nSkills are classified by risk level (defined in `skill.json`):\n- `Low` - Read-only operations, no external dependencies\n- `Medium` - Write operations, requires configuration\n- `High` - External API calls, requires credentials\n- `Critical` - System-level operations, requires manual review\n\n**Rule:** When creating a skill that makes external API calls, uses credentials, or modifies data, always set `risk_level: \"High\"` or `\"Critical\"`.\n\n## Naming Conventions\n\n### Skill IDs\n- Format: `{domain}_{action}_{target}` (e.g., `sales_analyze_pipeline`)\n- Use snake_case, all lowercase\n- Be descriptive but concise (3-5 words max)\n\n### File Naming\n- Skill directories: kebab-case (e.g., `analyze-customer-health/`)\n- Python files: snake_case (e.g., `analyze_skills.py`)\n- JavaScript files: kebab-case (e.g., `skills-directory.js`)\n- Documentation: SCREAMING_SNAKE_CASE for top-level (e.g., `AGENTS.md`), kebab-case for nested\n\n### Domain Categories\n\nValid domains (don't invent new ones without discussion):\n- `ecosystem` - Partner, integration management\n- `marketing` - Campaigns, content, SEO\n- `sales` - Pipeline, deals, CRM\n- `customer_success` - Health, churn, onboarding\n- `product_ops` - Roadmap, releases\n- `security` - Security, compliance\n- `finops` - Billing, revenue\n- `data` - Analytics, reporting\n- `engineering` - DevOps, CI/CD\n- `hr` - Recruiting, onboarding\n\n## Testing Patterns\n\n### Test Organization\n\n```\ntests/\n\u251c\u2500\u2500 unit/           # Fast, isolated tests (< 1s each)\n\u251c\u2500\u2500 integration/    # Multi-component tests (< 5s each)\n\u2514\u2500\u2500 e2e/            # Full user workflows (< 30s each)\n```\n\n### Required Test Coverage\n\n- Minimum: 60% overall coverage\n- Target: 80%+ coverage\n- Critical paths (eval_harness, tracer): 90%+ coverage\n\n### Testing Commands\n\n```bash\n# Run full suite\npytest tests/ -v\n\n# Run fast tests only\npytest tests/unit -v -m \"not slow\"\n\n# Run specific domain tests\npytest tests/unit/test_dedupe_skills.py -v\n```\n\n**Rule:** All PRs must pass `pytest tests/ -v` before merging.\n\n## Code Quality Standards\n\n### Pre-Commit Hooks (Enforced)\n\nThe following hooks run automatically on commit:\n- `detect-secrets` - Blocks commits with credentials\n- `prettier` - Formats JS/JSON/YAML/Markdown\n- `black` - Formats Python (if installed)\n- `flake8` - Lints Python (if installed)\n- `isort` - Sorts Python imports (if installed)\n\n**Rule:** Never use `--no-verify` to skip hooks. Fix the issues instead.\n\n### Linting Commands\n\n```bash\n# JavaScript\nnpm run lint        # ESLint + Prettier\nnpm run format      # Auto-fix formatting\n\n# Python (if installed in venv)\nblack .\nflake8 .\nisort .\n```\n\n## Workflow Blueprints\n\n### Blueprint Schema\n\nBlueprints in `registry/blueprints/` follow `schemas/workflow_blueprint.json`:\n\n```yaml\nid: workflow_{name}\nversion: 1.0.0\nname: 'Human Readable Name'\nchain_sequence:\n  - step_id: 'step_1'\n    skill_id: 'domain_action_target'\n    action: 'action_name'\n    input_mapping:\n      static_values: {}\n    error_handling:\n      on_failure: 'stop'\n      max_retries: 2\n```\n\n**Rule:** All workflow blueprints must validate against schema before committing.\n\n## Playbook-Ready Features (Optional but Encouraged)\n\nWhen creating blueprints, consider adding:\n\n```yaml\nicp:\n  company_size: '50-500'\n  motion: 'product-led-growth'\n  priorities: ['reduce_churn', 'increase_nrr']\n\nintegration_reference:\n  - type: 'crm'\n    provider: 'salesforce'\n    schema_ref: 'registry/integration_schemas/salesforce_fields.yaml'\n\nopinionated_prompts:\n  - step_id: 'step_1'\n    system_context: 'You are analyzing a PLG motion with 30-day trials...'\n    input_guidance: 'Focus on trial-to-paid conversion metrics...'\n```\n\nSee `registry/integration_schemas/README.md` for schema format.\n\n## Security Rules (Blocking)\n\n### Never Commit\n\nThese patterns are BLOCKED by pre-commit hooks:\n- `.env` files (use `.env.example` for templates)\n- Files in `.ssh/`, `.aws/`, `secrets/`\n- Private keys (detected by `detect-private-key` hook)\n- API keys, tokens, passwords (detected by `detect-secrets`)\n\n### Handling Credentials\n\n```bash\n# Good: Reference environment variables\nDATABASE_URL = os.getenv('DATABASE_URL')\n\n# Bad: Hardcoded credentials\nDATABASE_URL = \"postgresql://user:pass@localhost\"  # pragma: allowlist secret\n```\n\n## AI Agent Boundaries\n\n### What AI Agents Can Access\n\n- All files except `.ai/internal/` (gitignored, excluded in `.cursorignore`)\n- `AGENTS.md` for build commands and conventions\n- All skill schemas in `skills-library/`\n- Test suites in `tests/`\n\n### What AI Agents Should NOT Touch\n\n- `skills-library/` content (764 skills, managed by scripts)\n- `registry/` (auto-generated)\n- `METRICS.md` (auto-generated)\n\n**Rule:** If you modify skill counts or categories, run `npm run verify:metrics` to sync all dependent files.\n\n## Development Workflow\n\n### Adding a New Skill\n\n1. Create directory: `skills-library/executable/{domain}/{skill-name}/`\n2. Write `skill.json` (follow schema in `schemas/skill_definition.json`)\n3. Write `instructions.md` (clear execution steps)\n4. Run `npm run verify:metrics` to update registry\n5. Add tests in `tests/` if complex logic\n6. Run `pytest tests/ -v` to verify\n7. Commit with message: `feat(skills): add {skill-name} to {domain}`\n\n### Modifying Existing Skills\n\n1. Read the skill's `skill.json` and `instructions.md` first\n2. Make changes\n3. Run `npm run verify:metrics`\n4. Update tests if behavior changed\n5. Run `pytest tests/ -v`\n6. Commit with message: `fix(skills): update {skill-name} - {reason}`\n\n### Creating Skill Chains\n\n1. Identify 2-7 skills to chain together\n2. Create blueprint in `registry/blueprints/` (or use script: `scripts/recipe_to_blueprint.py`)\n3. Validate against `schemas/workflow_blueprint.json`\n4. Document in `docs/SKILL_CHAINS.md` (follow existing format)\n5. Add integration test in `tests/integration/`\n6. Commit with message: `feat(chains): add {chain-name} recipe`\n\n## Performance Guidelines\n\n### Skill Execution\n\n- Keep skills atomic (single responsibility)\n- Skills should complete in < 5 seconds (unless marked with `slow: true`)\n- Use caching for expensive operations (see `eval_harness/tracer.py` for examples)\n\n### Testing Performance\n\n- Unit tests: < 1 second each\n- Integration tests: < 5 seconds each\n- E2E tests: < 30 seconds each\n- Mark slow tests with `@pytest.mark.slow`\n\n## Common Patterns\n\n### Skill Chaining (Data Flow)\n\nSkills output data that becomes input for next skill:\n\n```yaml\n- step_id: 'analyze'\n  skill_id: 'sales_analyze_pipeline'\n  output: { health_score: 0.85 }\n\n- step_id: 'recommend'\n  skill_id: 'sales_recommend_actions'\n  input_mapping:\n    from_step: 'analyze'\n    field_mappings:\n      health_score: 'input.score'\n```\n\n### Error Handling\n\n```yaml\nerror_handling:\n  on_failure: 'stop'        # Options: stop, continue, retry\n  max_retries: 2\n  retry_delay_seconds: 5\n```\n\n## Commit Me",
       "format": "text",
       "path": ".cursorrules"
@@ -26,15 +58,6 @@
     "stars": 3,
     "updated_at": "2026-07-18T04:48:09Z",
     "url": "https://github.com/Luxvil/ai-coding-rules"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-07-18T04:45:46Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -157,15 +180,6 @@
     "stars": 2,
     "updated_at": "2026-07-18T02:07:15Z",
     "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
-  },
-  {
-    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
-    "id": "zinxj/uikit-expert-skill",
-    "language": "\u2014",
-    "name": "zinxj/uikit-expert-skill",
-    "stars": 4,
-    "updated_at": "2026-07-18T01:52:09Z",
-    "url": "https://github.com/zinxj/uikit-expert-skill"
   },
   {
     "description": "Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows.",
@@ -354,7 +368,7 @@
     "id": "KbWen/agentic-os",
     "language": "Python",
     "name": "KbWen/agentic-os",
-    "stars": 82,
+    "stars": 83,
     "updated_at": "2026-07-17T01:43:10Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
@@ -436,7 +450,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 85277,
+    "stars": 85281,
     "updated_at": "2026-07-15T21:32:15Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -494,14 +508,5 @@
     "stars": 0,
     "updated_at": "2026-07-14T23:15:26Z",
     "url": "https://github.com/chkdskman/skill-sage-active-api"
-  },
-  {
-    "description": "n8n community node for LynxPrompt \u2014 manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via API",
-    "id": "GeiserX/n8n-nodes-lynxprompt",
-    "language": "TypeScript",
-    "name": "GeiserX/n8n-nodes-lynxprompt",
-    "stars": 1,
-    "updated_at": "2026-07-14T22:00:39Z",
-    "url": "https://github.com/GeiserX/n8n-nodes-lynxprompt"
   }
 ]
