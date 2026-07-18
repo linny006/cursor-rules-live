@@ -5,8 +5,17 @@
     "language": "JavaScript",
     "name": "ajhcs/healthcare-agents",
     "stars": 47,
-    "updated_at": "2026-07-18T12:39:42Z",
+    "updated_at": "2026-07-18T12:53:09Z",
     "url": "https://github.com/ajhcs/healthcare-agents"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-07-18T12:52:50Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Your AI assistant hallucinates APIs, breaks dependent files, and weakens tests. 29 skills that prevent this across the f",
@@ -14,7 +23,7 @@
     "language": "PowerShell",
     "name": "sungurerdim/dev-skills",
     "stars": 1,
-    "updated_at": "2026-07-18T12:36:09Z",
+    "updated_at": "2026-07-18T12:50:24Z",
     "url": "https://github.com/sungurerdim/dev-skills"
   },
   {
@@ -23,7 +32,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-07-18T12:30:49Z",
+    "updated_at": "2026-07-18T12:45:27Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -52,15 +61,6 @@
     "stars": 0,
     "updated_at": "2026-07-18T11:55:51Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 0,
-    "updated_at": "2026-07-18T11:44:41Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
@@ -304,7 +304,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 38004,
+    "stars": 38005,
     "updated_at": "2026-07-17T20:16:28Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -477,7 +477,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 85403,
+    "stars": 85405,
     "updated_at": "2026-07-15T21:32:15Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
