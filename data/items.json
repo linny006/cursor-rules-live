@@ -1,12 +1,39 @@
 [
   {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 1,
+    "updated_at": "2026-07-18T23:13:17Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
+  },
+  {
     "description": "Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows.",
     "id": "ajhcs/healthcare-agents",
     "language": "JavaScript",
     "name": "ajhcs/healthcare-agents",
     "stars": 47,
-    "updated_at": "2026-07-18T22:59:44Z",
+    "updated_at": "2026-07-18T23:10:03Z",
     "url": "https://github.com/ajhcs/healthcare-agents"
+  },
+  {
+    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
+    "id": "Laurellagloomy260/cursor-rules-generator",
+    "language": "\u2014",
+    "name": "Laurellagloomy260/cursor-rules-generator",
+    "stars": 0,
+    "updated_at": "2026-07-18T23:08:28Z",
+    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-07-18T23:00:33Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -52,15 +79,6 @@
     "stars": 3,
     "updated_at": "2026-07-18T22:53:36Z",
     "url": "https://github.com/XAKLESK/cre-agent-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-07-18T22:51:20Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
@@ -127,15 +145,6 @@
     "url": "https://github.com/Luxvil/ai-coding-rules"
   },
   {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 1,
-    "updated_at": "2026-07-18T22:09:33Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
     "cursorrules": {
       "content": "---\nalwaysApply: true\n---\n\n# Cursor Adapter\n\n`docs/ai` is the source of truth for rules, skills, commands, agent roles, and\nartifacts. Before working, read:\n\n- `.agent-workflow-kit/config.conf` \u2014 project settings and active profiles.\n- `docs/ai/README.md` \u2014 map of the AI surface.\n- `docs/ai/rules/project.md` \u2014 tool-agnostic invariants (scope, clarify, safety,\n  verification).\n- `docs/ai/rules/coding-rules.md` \u2014 this stack's conventions.\n- `docs/ai/rules/commit-message.md` \u2014 Conventional Commits.\n\n`<check>` means `CHECK_COMMAND` from the config. Run it after substantive changes\nunless it is `none`. Do not commit or push without an explicit request.\n\n## Commands\n\nCursor slash commands live in `.cursor/commands/*` as thin adapters that point\ninto `docs/ai/commands/*`. Available: `symphony`, `codex-plan`, `build`,\n`review-full`, `review-design`, `choose-model`, `ai-audit`, `deps-audit`,\n`learn`, `apply-worktree`.\n\n## Roles\n\n- Planning and correctness/security review run through Codex\n  (`docs/ai/agents/cli.md`, `docs/ai/agents/codex-plan.md`,\n  `docs/ai/agents/review-correctness.md`, `docs/ai/agents/review-security.md`).\n- Implementation and design review use the tracked Cursor agents `build` and\n  `review-design` (`docs/ai/agents/build.md`,\n  `docs/ai/agents/review-design.md`).\n\nResolve model roles and effort through config and\n`docs/ai/commands/choose-model.md`. Do not restate rules in replies; follow the\nreferenced files.\n",
       "format": "mdc",
@@ -194,15 +203,6 @@
     "stars": 26,
     "updated_at": "2026-07-18T20:21:39Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
-    "id": "Laurellagloomy260/cursor-rules-generator",
-    "language": "\u2014",
-    "name": "Laurellagloomy260/cursor-rules-generator",
-    "stars": 0,
-    "updated_at": "2026-07-18T19:54:51Z",
-    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
   },
   {
     "description": "Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior",
