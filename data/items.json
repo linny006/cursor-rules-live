@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-07-18T18:15:41Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "---\nalwaysApply: true\n---\n\n# Cursor Adapter\n\n`docs/ai` is the source of truth for rules, skills, commands, agent roles, and\nartifacts. Before working, read:\n\n- `docs/ai/README.md` \u2014 map of the AI surface.\n- `docs/ai/rules/project.md` \u2014 tool-agnostic invariants (scope, clarify, safety,\n  verification).\n- `docs/ai/rules/coding-rules.md` \u2014 this stack's conventions.\n- `docs/ai/rules/commit-message.md` \u2014 Conventional Commits.\n\n`<check>` means the repository's standard verify command (lint + typecheck +\ntests). Run it after substantive changes. Do not commit or push without an\nexplicit request.\n\n## Commands\n\nCursor slash commands live in `.cursor/commands/*` as thin adapters that point\ninto `docs/ai/commands/*`. Available: `symphony`, `codex-plan`, `build`,\n`review-full`, `review-design`, `choose-model`, `ai-audit`, `deps-audit`,\n`learn`, `apply-worktree`.\n\n## Roles\n\n- Planning and correctness/security review run through Codex\n  (`docs/ai/agents/cli.md`, `docs/ai/agents/codex-plan.md`,\n  `docs/ai/agents/review-correctness.md`, `docs/ai/agents/review-security.md`).\n- Implementation and design review run on a strong model\n  (`docs/ai/agents/claude-build.md`, `docs/ai/agents/review-design.md`).\n\nModel policy is strong-only, with intelligence scaled by `effort`\n(`docs/ai/commands/choose-model.md`). Do not restate the rules in your reply \u2014\nfollow the referenced files.\n",
       "format": "mdc",
@@ -12,15 +21,6 @@
     "stars": 1,
     "updated_at": "2026-07-18T18:03:03Z",
     "url": "https://github.com/Bita71/Agent-Workflow-Kit"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-07-18T18:00:33Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -359,7 +359,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 17601,
+    "stars": 17603,
     "updated_at": "2026-07-17T13:01:39Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -501,7 +501,7 @@
     "language": "HTML",
     "name": "MnemeHQ/mneme",
     "stars": 17,
-    "updated_at": "2026-07-18T18:08:23Z",
+    "updated_at": "2026-07-18T18:29:20Z",
     "url": "https://github.com/MnemeHQ/mneme"
   }
 ]

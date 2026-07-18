@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-07-18 18:15 UTC
+> ⏰ Last updated: 2026-07-18 18:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,8 +53,8 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [Bita71/Agent-Workflow-Kit](https://github.com/Bita71/Agent-Workflow-Kit) | 1 | — | 2026-07-18 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Bita71/Agent-Workflow-Kit/) | Copy-ready agent workflow for Cursor, Claude Code, and Codex. Plan, build, review, and verify with specialized subagents |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 1 | HTML | 2026-07-18 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 1 | HTML | 2026-07-18 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [Bita71/Agent-Workflow-Kit](https://github.com/Bita71/Agent-Workflow-Kit) | 1 | — | 2026-07-18 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Bita71/Agent-Workflow-Kit/) | Copy-ready agent workflow for Cursor, Claude Code, and Codex. Plan, build, review, and verify with specialized subagents |
 | 3 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-07-18 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
 | 4 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-07-18 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
 | 5 | [djtelicloud/grok-mcp-server](https://github.com/djtelicloud/grok-mcp-server) | 21 | Python | 2026-07-18 | — | Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API  |
@@ -88,7 +88,7 @@ expired items removed — so you can rely on what you see being current.
 | 33 | [nota-america/forgecat-agent-profiles](https://github.com/nota-america/forgecat-agent-profiles) | 20 | TypeScript | 2026-07-17 | — | Production-ready AI agent profiles for Claude Code, Cursor, and Codex. Search, install, and contribute ForgeCat packages |
 | 34 | [wshobson/agents](https://github.com/wshobson/agents) | 38016 | Python | 2026-07-17 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI |
 | 35 | [SalesforceAIResearch/agentforce-adlc](https://github.com/SalesforceAIResearch/agentforce-adlc) | 88 | Python | 2026-07-17 | — | Agent Development Life Cycle — Build, deploy, test, and optimize Agentforce agents using Claude Code skills and Agent Sc |
-| 36 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 17601 | Shell | 2026-07-17 | — | 🎭 266 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 50 个中国市场原创智能体（小红书/抖音/ |
+| 36 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 17603 | Shell | 2026-07-17 | — | 🎭 266 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 50 个中国市场原创智能体（小红书/抖音/ |
 | 37 | [Jlosev/cursor-rules](https://github.com/Jlosev/cursor-rules) | 0 | — | 2026-07-17 | — | Variable-based universal rules system for Cursor IDE |
 | 38 | [RollingGo-AI/RollingGo-hotel-skill-CN](https://github.com/RollingGo-AI/RollingGo-hotel-skill-CN) | 75 | Python | 2026-07-17 | — | 全球酒店预订Skill，200万+精选酒店，独家优惠价格，全球第三大酒旅B2B公司数据源，可设置价格监控和提醒，支持创建订单 + 支付宝二维码+查询历史订单，24 小时客服支持，全天候响应。 |
 | 39 | [bagaswap111/usability-heuristics-skill](https://github.com/bagaswap111/usability-heuristics-skill) | 0 | Mermaid | 2026-07-17 | — | Evaluation tool for UI/UX based on 10 Heuristics Nielsen — available for Web, Mobile, Desktop, CLI within 11 format AI c |
