@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-07-18T17:41:11Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "OVP: the open visualization protocol for describing, validating, and rendering information design identically, for human",
     "id": "babarda/open-visualization-protocol",
     "language": "HTML",
@@ -7,15 +16,6 @@
     "stars": 2,
     "updated_at": "2026-07-18T17:38:47Z",
     "url": "https://github.com/babarda/open-visualization-protocol"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-07-18T17:30:28Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
