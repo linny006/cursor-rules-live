@@ -1,5 +1,41 @@
 [
   {
+    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
+    "id": "Hyanthropological659/clarify-skill",
+    "language": "\u2014",
+    "name": "Hyanthropological659/clarify-skill",
+    "stars": 0,
+    "updated_at": "2026-07-19T01:21:35Z",
+    "url": "https://github.com/Hyanthropological659/clarify-skill"
+  },
+  {
+    "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
+    "id": "Bastioned-successor320/learn-nanobot",
+    "language": "Python",
+    "name": "Bastioned-successor320/learn-nanobot",
+    "stars": 3,
+    "updated_at": "2026-07-19T01:19:25Z",
+    "url": "https://github.com/Bastioned-successor320/learn-nanobot"
+  },
+  {
+    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
+    "id": "XAKLESK/cre-agent-skills",
+    "language": "\u2014",
+    "name": "XAKLESK/cre-agent-skills",
+    "stars": 3,
+    "updated_at": "2026-07-19T01:17:40Z",
+    "url": "https://github.com/XAKLESK/cre-agent-skills"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-07-19T01:15:45Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
     "id": "Amirun99/agency-orchestrator",
     "language": "Dart",
@@ -16,15 +52,6 @@
     "stars": 2,
     "updated_at": "2026-07-19T01:10:52Z",
     "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-07-19T01:00:27Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
@@ -141,33 +168,6 @@
     "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
   },
   {
-    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
-    "id": "Hyanthropological659/clarify-skill",
-    "language": "\u2014",
-    "name": "Hyanthropological659/clarify-skill",
-    "stars": 0,
-    "updated_at": "2026-07-18T22:57:41Z",
-    "url": "https://github.com/Hyanthropological659/clarify-skill"
-  },
-  {
-    "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
-    "id": "Bastioned-successor320/learn-nanobot",
-    "language": "Python",
-    "name": "Bastioned-successor320/learn-nanobot",
-    "stars": 3,
-    "updated_at": "2026-07-18T22:55:20Z",
-    "url": "https://github.com/Bastioned-successor320/learn-nanobot"
-  },
-  {
-    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
-    "id": "XAKLESK/cre-agent-skills",
-    "language": "\u2014",
-    "name": "XAKLESK/cre-agent-skills",
-    "stars": 3,
-    "updated_at": "2026-07-18T22:53:36Z",
-    "url": "https://github.com/XAKLESK/cre-agent-skills"
-  },
-  {
     "cursorrules": {
       "content": "---\nalwaysApply: true\n---\n\n# Cursor Adapter\n\n`docs/ai` is the source of truth for rules, skills, commands, agent roles, and\nartifacts. Before working, read:\n\n- `.agent-workflow-kit/config.conf` \u2014 project settings and active profiles.\n- `docs/ai/README.md` \u2014 map of the AI surface.\n- `docs/ai/rules/project.md` \u2014 tool-agnostic invariants (scope, clarify, safety,\n  verification).\n- `docs/ai/rules/coding-rules.md` \u2014 this stack's conventions.\n- `docs/ai/rules/commit-message.md` \u2014 Conventional Commits.\n\n`<check>` means `CHECK_COMMAND` from the config. Run it after substantive changes\nunless it is `none`. Do not commit or push without an explicit request.\n\n## Commands\n\nCursor slash commands live in `.cursor/commands/*` as thin adapters that point\ninto `docs/ai/commands/*`. Available: `symphony`, `codex-plan`, `build`,\n`review-full`, `review-design`, `choose-model`, `ai-audit`, `deps-audit`,\n`learn`, `apply-worktree`.\n\n## Roles\n\n- Planning and correctness/security review run through Codex\n  (`docs/ai/agents/cli.md`, `docs/ai/agents/codex-plan.md`,\n  `docs/ai/agents/review-correctness.md`, `docs/ai/agents/review-security.md`).\n- Implementation and design review use the tracked Cursor agents `build` and\n  `review-design` (`docs/ai/agents/build.md`,\n  `docs/ai/agents/review-design.md`).\n\nResolve model roles and effort through config and\n`docs/ai/commands/choose-model.md`. Do not restate rules in replies; follow the\nreferenced files.\n",
       "format": "mdc",
@@ -191,7 +191,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 38026,
+    "stars": 38027,
     "updated_at": "2026-07-18T21:25:19Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -396,7 +396,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 17617,
+    "stars": 17620,
     "updated_at": "2026-07-17T13:01:39Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
