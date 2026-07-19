@@ -1,11 +1,20 @@
 [
   {
+    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 90,
+    "updated_at": "2026-07-19T14:10:44Z",
+    "url": "https://github.com/KbWen/agentic-os"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-07-19T14:00:46Z",
+    "updated_at": "2026-07-19T14:06:03Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -49,7 +58,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 17738,
+    "stars": 17740,
     "updated_at": "2026-07-19T12:48:43Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -323,7 +332,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 38050,
+    "stars": 38051,
     "updated_at": "2026-07-18T21:25:19Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -504,14 +513,5 @@
     "stars": 0,
     "updated_at": "2026-07-17T02:19:02Z",
     "url": "https://github.com/PiloTracer/.ai"
-  },
-  {
-    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
-    "id": "KbWen/agentic-os",
-    "language": "Python",
-    "name": "KbWen/agentic-os",
-    "stars": 90,
-    "updated_at": "2026-07-19T13:49:12Z",
-    "url": "https://github.com/KbWen/agentic-os"
   }
 ]
