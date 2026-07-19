@@ -1,11 +1,43 @@
 [
   {
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-07-19T09:56:32Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-07-19T09:54:40Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Instructions for AI agent code generation workflow\nglobs: [\"*\"]\nalwaysApply: true\n---\n\n# AI Collaboration Guidelines\n\n## The 3-Stage Agentic Loop\n\nEvery code generation task MUST follow this loop:\n\n### Stage 1: PLAN (gather context first)\n\nBefore writing ANY code, the AI MUST:\n1. Read the relevant source files to verify current state \u2014 do NOT rely on memory\n2. Identify which `.cursor/rules/` files apply to this task\n3. List the files to modify and explain why\n4. Do NOT write code yet\n\nPrompt template:\n```\nAnalyze the current codebase and plan how to implement [feature]. \nList the files you'll modify and why. Don't write code yet.\n```\n\n### Stage 2: IMPLEMENT (follow constraints)\n\nWhen generating code:\n- Follow ALL active `.cursor/rules/` constraints\n- If unsure about auth patterns, re-read `supabase-auth-security.mdc`\n- If unsure about params/layouts, re-read `nextjs15-params.mdc`\n- Use `unknown` + Zod validation instead of `any` for external data\n- Return `ActionResponse<T>` from all Server Actions (see below)\n\n### Stage 3: VERIFY (confirm before declaring done)\n\nAfter generating code, the AI MUST self-check:\n- [ ] No `getSession()` on the server (MUST be `getUser()`)\n- [ ] No synchronous `params` or `searchParams` access\n- [ ] No `@supabase/auth-helpers-nextjs` imports\n- [ ] No `any` types \u2014 use `unknown` + type narrowing\n- [ ] Every API route has Zod validation\n- [ ] Every error is caught and returns `{ error: string }`\n- [ ] New tables have RLS enabled\n- [ ] `loading.tsx` and `error.tsx` exist for data-fetching pages\n\nReport issues BEFORE the developer runs the code.\n\n## Skeptical Retrieval Rule\n\nNEVER trust stored knowledge about the codebase. Before modifying a file:\n1. Re-read the file to verify its current contents\n2. Check imports and exports to ensure they match expectations\n3. Verify that function signatures haven't changed\n\nThis prevents generating code that references stale function signatures, \ndeleted files, or renamed exports.\n\n## Standard Patterns\n\n### ActionResponse Type (use for all Server Actions)\n```typescript\ntype ActionResponse<T = void> = \n  | { success: true; data: T }\n  | { success: false; error: string }\n```\n\n### Standard Server Action Structure\n```typescript\n'use server'\nimport { createClient } from '@/lib/supabase/server'\nimport { z } from 'zod'\n\nconst Schema = z.object({ /* ... */ })\n\nexport async function myAction(input: unknown): Promise<ActionResponse<MyType>> {\n  // 1. Auth\n  const supabase = await createClient()\n  const { data: { user } } = await supabase.auth.getUser()\n  if (!user) return { success: false, error: 'Unauthorized' }\n\n  // 2. Validate\n  const result = Schema.safeParse(input)\n  if (!result.success) return { success: false, error: 'Invalid input' }\n\n  // 3. Execute\n  try {\n    const { data, error } = await supabase.from('table').insert(result.data).select().single()\n    if (error) throw error\n    return { success: true, data }\n  } catch {\n    return { success: false, error: 'Operation failed' }\n  }\n}\n```\n\n## Task Constraints\n\n- NEVER give the AI a task longer than 200 words\n- NEVER let the AI implement more than 3-4 files in one turn\n- NEVER let the AI skip the verification checklist\n- ALWAYS review the Git diff before committing\n- When uncertain, ask the developer \u2014 do NOT guess\n\n",
+      "format": "mdc",
+      "path": ".cursor/rules/ai-collaboration.mdc"
+    },
+    "description": "29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b",
+    "id": "vibestackdev/vibe-stack",
+    "language": "TypeScript",
+    "name": "vibestackdev/vibe-stack",
+    "stars": 6,
+    "updated_at": "2026-07-19T09:48:27Z",
+    "url": "https://github.com/vibestackdev/vibe-stack"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-07-19T09:30:27Z",
+    "updated_at": "2026-07-19T09:45:45Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -63,15 +95,6 @@
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 0,
-    "updated_at": "2026-07-19T07:59:53Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
     "description": "Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows.",
     "id": "ajhcs/healthcare-agents",
     "language": "JavaScript",
@@ -88,15 +111,6 @@
     "stars": 0,
     "updated_at": "2026-07-19T07:46:59Z",
     "url": "https://github.com/mstf66x/claude-code-rules"
-  },
-  {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
-    "stars": 0,
-    "updated_at": "2026-07-19T07:29:59Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
   },
   {
     "description": "Your AI assistant hallucinates APIs, breaks dependent files, and weakens tests. 29 skills that prevent this across the f",
@@ -365,20 +379,6 @@
   },
   {
     "cursorrules": {
-      "content": "---\ndescription: Instructions for AI agent code generation workflow\nglobs: [\"*\"]\nalwaysApply: true\n---\n\n# AI Collaboration Guidelines\n\n## The 3-Stage Agentic Loop\n\nEvery code generation task MUST follow this loop:\n\n### Stage 1: PLAN (gather context first)\n\nBefore writing ANY code, the AI MUST:\n1. Read the relevant source files to verify current state \u2014 do NOT rely on memory\n2. Identify which `.cursor/rules/` files apply to this task\n3. List the files to modify and explain why\n4. Do NOT write code yet\n\nPrompt template:\n```\nAnalyze the current codebase and plan how to implement [feature]. \nList the files you'll modify and why. Don't write code yet.\n```\n\n### Stage 2: IMPLEMENT (follow constraints)\n\nWhen generating code:\n- Follow ALL active `.cursor/rules/` constraints\n- If unsure about auth patterns, re-read `supabase-auth-security.mdc`\n- If unsure about params/layouts, re-read `nextjs15-params.mdc`\n- Use `unknown` + Zod validation instead of `any` for external data\n- Return `ActionResponse<T>` from all Server Actions (see below)\n\n### Stage 3: VERIFY (confirm before declaring done)\n\nAfter generating code, the AI MUST self-check:\n- [ ] No `getSession()` on the server (MUST be `getUser()`)\n- [ ] No synchronous `params` or `searchParams` access\n- [ ] No `@supabase/auth-helpers-nextjs` imports\n- [ ] No `any` types \u2014 use `unknown` + type narrowing\n- [ ] Every API route has Zod validation\n- [ ] Every error is caught and returns `{ error: string }`\n- [ ] New tables have RLS enabled\n- [ ] `loading.tsx` and `error.tsx` exist for data-fetching pages\n\nReport issues BEFORE the developer runs the code.\n\n## Skeptical Retrieval Rule\n\nNEVER trust stored knowledge about the codebase. Before modifying a file:\n1. Re-read the file to verify its current contents\n2. Check imports and exports to ensure they match expectations\n3. Verify that function signatures haven't changed\n\nThis prevents generating code that references stale function signatures, \ndeleted files, or renamed exports.\n\n## Standard Patterns\n\n### ActionResponse Type (use for all Server Actions)\n```typescript\ntype ActionResponse<T = void> = \n  | { success: true; data: T }\n  | { success: false; error: string }\n```\n\n### Standard Server Action Structure\n```typescript\n'use server'\nimport { createClient } from '@/lib/supabase/server'\nimport { z } from 'zod'\n\nconst Schema = z.object({ /* ... */ })\n\nexport async function myAction(input: unknown): Promise<ActionResponse<MyType>> {\n  // 1. Auth\n  const supabase = await createClient()\n  const { data: { user } } = await supabase.auth.getUser()\n  if (!user) return { success: false, error: 'Unauthorized' }\n\n  // 2. Validate\n  const result = Schema.safeParse(input)\n  if (!result.success) return { success: false, error: 'Invalid input' }\n\n  // 3. Execute\n  try {\n    const { data, error } = await supabase.from('table').insert(result.data).select().single()\n    if (error) throw error\n    return { success: true, data }\n  } catch {\n    return { success: false, error: 'Operation failed' }\n  }\n}\n```\n\n## Task Constraints\n\n- NEVER give the AI a task longer than 200 words\n- NEVER let the AI implement more than 3-4 files in one turn\n- NEVER let the AI skip the verification checklist\n- ALWAYS review the Git diff before committing\n- When uncertain, ask the developer \u2014 do NOT guess\n\n",
-      "format": "mdc",
-      "path": ".cursor/rules/ai-collaboration.mdc"
-    },
-    "description": "29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b",
-    "id": "vibestackdev/vibe-stack",
-    "language": "TypeScript",
-    "name": "vibestackdev/vibe-stack",
-    "stars": 6,
-    "updated_at": "2026-07-18T09:19:58Z",
-    "url": "https://github.com/vibestackdev/vibe-stack"
-  },
-  {
-    "cursorrules": {
       "content": "---\ndescription: >\n  Behavioral guidelines for AI agents working in this repository. Covers\n  reconnaissance, minimal changes, scoped edits, verification,\n  context discipline, tool use, delegation, memory, planning, MCP, and\n  model selection.\nglobs:\nalwaysApply: true\n---\n\n# Cursor Project Rule: Coding Agent Guidelines\n\nThis file is the Cursor equivalent of `CLAUDE.md`. Place it at\n`.cursor/rules/coding-agent-guidelines.mdc`. The frontmatter above sets\n`alwaysApply: true`, which means the rule is included in the model\ncontext for every Agent (Chat) request in this project.\n\n## Where this lives in Cursor's model\n\nCursor has three layers of persistent instructions:\n\n1. **Project Rules** \u2014 `.cursor/rules/*.mdc` files, version-controlled\n   with the repo. Each rule is a Markdown file with YAML frontmatter.\n   This is the closest equivalent to project `CLAUDE.md`.\n2. **User Rules** \u2014 global preferences set in Cursor Settings \u2192 Rules.\n   Plain text, applied to Agent across all projects. Equivalent to\n   `~/.claude/CLAUDE.md`.\n3. **Memories** \u2014 auto-generated short rules derived from chat\n   conversations, scoped to the project, observed by a sidecar model.\n   Equivalent to Claude Code's auto memory but lighter-weight: think\n   \"remembered preferences,\" not \"saved playbook.\"\n\nPrecedence (per Cursor docs): Team Rules \u2192 Project Rules \u2192 User Rules,\nall merged, earlier sources winning on conflict.\n\n`AGENTS.md` at the repo root is also recognized by Cursor as a project-\nwide instruction file and is a reasonable alternative if you want a\nsingle Markdown file shared across multiple AI tools.\n\n## Rule frontmatter \u2014 what each field does\n\n```yaml\n---\ndescription: <when this rule should be considered>\nglobs: <comma-separated glob patterns, or empty>\nalwaysApply: <true | false>\n---\n```\n\nThe combination of these three fields defines the rule type:\n\n| Type             | `alwaysApply` | `globs`        | `description` | When it loads                                    |\n|------------------|---------------|----------------|---------------|--------------------------------------------------|\n| Always           | `true`        | empty          | empty         | Every request in the project                     |\n| Auto Attached    | `false`       | populated      | empty         | When edited/referenced files match the globs     |\n| Agent Requested  | `false`       | empty          | populated     | Agent decides based on `description` relevance   |\n| Manual           | `false`       | empty          | empty         | Only when invoked via `@rule-name`               |\n\nThe current behavior, per Cursor's docs and confirmed by the community:\neven when `alwaysApply: true` puts a rule in context, the model can\nstill decide it's not relevant to the specific query and effectively\nignore it. Treat rules as strong defaults, not enforced configuration.\n\nA rule body should be short \u2014 Cursor's guidance is \"like a clear\ninternal doc, focused and actionable.\" Rules over a few hundred lines\nbecome harder to follow.\n\n## How this rule maps to Cursor's modes\n\nCursor offers several Agent modes:\n\n- **Agent** (default): autonomous, all tools, edits files, runs\n  commands, iterates on errors.\n- **Ask**: read-only Q&A. Cannot edit. Useful for exploration.\n- **Manual**: edits only the files you explicitly select; no autonomous\n  exploration.\n- **Plan**: research-first mode. The agent analyzes the\n  codebase, asks clarifying questions, and produces a reviewable plan\n  saved as a file before execution.\n- **Debug**: instruments the app with runtime logs to\n  reproduce and isolate bugs.\n- **Custom Modes**: user-defined combinations of tools and\n  instructions.\n\nMapping from `CLAUDE.md` sections to Cursor:\n\n| `CLAUDE.md` section            | Cursor equivalent                                            |\n|-------------------------------|--------------------------------------------------------------|\n| Reconnaissance Before Action  | Same; reinforce in Plan Mode for multi-file work             |\n| Smallest Sufficient Change    | Same; rule body                                              |\n| Edits as Diffs, Not Rewrites  | Same; reinforced by Manual mode for risky areas              |\n| Define the Finish Line        | Same; auto-run + auto-fix-errors will run tests              |\n| Context as a Budget           | Same; codebase indexing handles search, but `Grep` discipline still applies |\n| Right Tool, Right Moment      | Same; Cursor's tool list is similar                          |\n| Delegation Hygiene            | Cursor uses parallel subagents during exploration; same principle |\n| Persisted vs. Ephemeral       | Project Rules / User Rules / Memories instead of `CLAUDE.md` tiers |\n| Plan Before You Patch         | Cursor Plan Mode                                             |\n| External Tools Are a Tax      | MCP integration in Cursor \u2014 same caveat about server bloat   |\n| Skills as Loadable Playbooks  | No direct equivalent; closest is Auto Attached rules with `globs` |\n| Match the Model to the Task   | Cursor's model dropdown + Auto routing                       |\n\n## Cursor-specific notes\n\n**Codebase indexing.** Cursor maintains a custom embedding index of the\nrepo. Most \"where is X?\" queries are answered by the index, not by\nfile reads. You usually do not need to micromanage `Grep` vs `Read` \u2014\nbut the principle still holds when the agent is editing.\n\n**Background Agents.** Cursor supports cloud-based agents that run on a\ndedicated VM and continue working while you do something else. They\nrequire a paid plan and use Max-mode-compatible models. Treat them as\n\"long-running async tasks,\" not as \"default mode\" \u2014 the cost and\nisolation tradeoffs are different.\n\n**Default models.** Cursor exposes Auto routing plus an explicit model\ndropdown. The dropdown contents track the major frontier models\n(Anthropic Claude Sonnet/Opus/Haiku, OpenAI, Google Gemini, plus\nCursor's own Composer model trained for in-IDE agentic loops). The\nchoice rule from `CLAUDE.md` \u00a712 still applies: don't pay for capacity\nyou don't need, but don't underspecify a hard refactor.\n\n**Memories vs Rules.** Memories are *auto-derived* and short \u2014 you\ngenerally don't write them, you let Cursor capture them and prune them.\nRules are *authored*. Use Rules for everything you want to persist\ndeliberately; let Memories handle small preference drift.\n\n## The rule body\n\nBelow is the substantive content. Treat each section as a directive.\n\n### Reconnaissance Before Action\n\nBefore editing, confirm what is being asked. If ambiguity remains\nafter reading the relevant files, state the interpretation you'll use\nand proceed; do not silently choose. Surface assumptions explicitly.\nIf the user asserts something incorrect, push back rather than agree.\n\n### Smallest Sufficient Change\n\nWrite the minimum that satisfies the requirement. No speculative\nparameters, abstract base classes for one subclass, or configuration\nwithout a second caller. Inline until duplication forces extraction\n(rule of three). Comments explain why, not what.\n\n### Edits as Diffs, Not Rewrites\n\nModify only what was asked. No drive-by reformatting, no renames\noutside scope, no deletion of \"looks unused\" code without checking\ncall sites. Match the file's existing style.\n\n### Define the Finish Line\n\nState the verification command before writing code. Run it, paste\noutput. \"Should work\" is not a finish condition. If you cannot run\nthe check, say so and list the exact command the user should run.\n\n### Context as a Budget\n\nSearch before reading. Read targeted ranges, not whole files. Don't\npaste large files into the chat unless you're modifying them.\nConsider whether durable lessons belong in this rule file.\n\n### Right Tool, Right Moment\n\nSearch tools (codebase index, grep, glob) before content reads.\nBatch independent reads. Prefer targeted edits to whole-file rewrites.\nDon't loop on a failing command \u2014 read the error properly after the\nsecond failure.\n\n### Delegation and Parallel Subagent",
       "format": "mdc",
       "path": ".cursor/rules/coding-agent-guidelines.mdc"
@@ -446,7 +446,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 17688,
+    "stars": 17694,
     "updated_at": "2026-07-17T13:01:39Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
