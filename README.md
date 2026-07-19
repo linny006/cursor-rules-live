@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-07-19 05:45 UTC
+> ⏰ Last updated: 2026-07-19 05:54 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -74,7 +74,7 @@ expired items removed — so you can rely on what you see being current.
 | 19 | [sublimecoder/sublimecoding](https://github.com/sublimecoder/sublimecoding) | 0 | — | 2026-07-19 | — | 🛠️ Free Claude Code & Cursor prompts for senior engineers — code review, debugging, refactoring, system design, CLAUDE.m |
 | 20 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 62 | Shell | 2026-07-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | 72 agent skills synthesizing 17 years of software engineering discipline into a prescriptive methodology for solo develo |
 | 21 | [Bita71/Agent-Workflow-Kit](https://github.com/Bita71/Agent-Workflow-Kit) | 1 | Shell | 2026-07-18 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Bita71/Agent-Workflow-Kit/) | Copy-ready agent workflow for Cursor, Claude Code, and Codex. Plan, build, review, and verify with specialized subagents |
-| 22 | [wshobson/agents](https://github.com/wshobson/agents) | 38033 | Python | 2026-07-18 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI |
+| 22 | [wshobson/agents](https://github.com/wshobson/agents) | 38034 | Python | 2026-07-18 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI |
 | 23 | [balacodeio/balakit](https://github.com/balacodeio/balakit) | 0 | JavaScript | 2026-07-18 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/balacodeio/balakit/) | Opinionated, cross-agent rules and skills for AI coding agents — one npx install into Cursor, Claude Code, Codex, OpenCo |
 | 24 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 26 | — | 2026-07-18 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
 | 25 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 17 | HTML | 2026-07-18 | — | Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior |
