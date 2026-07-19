@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-07-19 18:15 UTC
+> ⏰ Last updated: 2026-07-19 18:28 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -63,7 +63,7 @@ expired items removed — so you can rely on what you see being current.
 | 8 | [babarda/open-visualization-protocol](https://github.com/babarda/open-visualization-protocol) | 2 | HTML | 2026-07-19 | — | OVP: the open visualization protocol for describing, validating, and rendering information design identically, for human |
 | 9 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 91 | Python | 2026-07-19 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
 | 10 | [sungurerdim/dev-skills](https://github.com/sungurerdim/dev-skills) | 1 | HTML | 2026-07-19 | — | Your AI assistant hallucinates APIs, breaks dependent files, and weakens tests. 29 skills that prevent this across the f |
-| 11 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 17780 | Shell | 2026-07-19 | — | 🎭 267 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 52 个中国市场原创智能体（小红书/抖音/ |
+| 11 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 17781 | Shell | 2026-07-19 | — | 🎭 267 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 52 个中国市场原创智能体（小红书/抖音/ |
 | 12 | [ajhcs/healthcare-agents](https://github.com/ajhcs/healthcare-agents) | 47 | JavaScript | 2026-07-19 | — | Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows. |
 | 13 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 12 | TypeScript | 2026-07-19 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
 | 14 | [vibestackdev/vibe-stack](https://github.com/vibestackdev/vibe-stack) | 6 | TypeScript | 2026-07-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/) | 29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b |
@@ -87,7 +87,7 @@ expired items removed — so you can rely on what you see being current.
 | 32 | [sublimecoder/sublimecoding](https://github.com/sublimecoder/sublimecoding) | 0 | — | 2026-07-19 | — | 🛠️ Free Claude Code & Cursor prompts for senior engineers — code review, debugging, refactoring, system design, CLAUDE.m |
 | 33 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 64 | Shell | 2026-07-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | 72 agent skills synthesizing 17 years of software engineering discipline into a prescriptive methodology for solo develo |
 | 34 | [Bita71/Agent-Workflow-Kit](https://github.com/Bita71/Agent-Workflow-Kit) | 1 | Shell | 2026-07-18 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Bita71/Agent-Workflow-Kit/) | Copy-ready agent workflow for Cursor, Claude Code, and Codex. Plan, build, review, and verify with specialized subagents |
-| 35 | [wshobson/agents](https://github.com/wshobson/agents) | 38058 | Python | 2026-07-18 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI |
+| 35 | [wshobson/agents](https://github.com/wshobson/agents) | 38059 | Python | 2026-07-18 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI |
 | 36 | [balacodeio/balakit](https://github.com/balacodeio/balakit) | 0 | JavaScript | 2026-07-18 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/balacodeio/balakit/) | Opinionated, cross-agent rules and skills for AI coding agents — one npx install into Cursor, Claude Code, Codex, OpenCo |
 | 37 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 17 | HTML | 2026-07-19 | — | Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior |
 | 38 | [caioribeiroclw-pixel/pluribus](https://github.com/caioribeiroclw-pixel/pluribus) | 10 | JavaScript | 2026-07-18 | — | Sync one reviewed context source into native AI-agent files, with privacy-safe evidence receipts that never confuse gene |
