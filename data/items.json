@@ -1,11 +1,20 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-07-19T21:41:41Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-07-19T21:30:46Z",
+    "updated_at": "2026-07-19T21:35:16Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -52,15 +61,6 @@
     "stars": 26,
     "updated_at": "2026-07-19T20:24:10Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 0,
-    "updated_at": "2026-07-19T20:02:33Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API ",
@@ -392,6 +392,20 @@
     "url": "https://github.com/caioribeiroclw-pixel/pluribus"
   },
   {
+    "cursorrules": {
+      "content": "---\ndescription: Component development patterns and composition rules\nglobs: [\"src/components/**/*.{tsx,ts}\", \"src/pages/**/*.{tsx,ts}\"]\nalwaysApply: false\n---\n\n# Component Development Rules\n\n## Component Patterns\n\n### GOOD Component Structure\n```tsx\n// Single responsibility, 20-80 lines\ninterface UserCardProps {\n  user: User\n  onEdit: (id: string) => void\n  className?: string\n}\n\nexport const UserCard = ({ user, onEdit, className }: UserCardProps) => {\n  return (\n    <Card className={cn(\"p-4\", className)}>\n      <Avatar src={user.avatar} />\n      <div>\n        <h3 className=\"font-semibold\">{user.name}</h3>\n        <p className=\"text-muted-foreground\">{user.email}</p>\n        <Button onClick={() => onEdit(user.id)}>Edit</Button>\n      </div>\n    </Card>\n  )\n}\n```\n\n### AVOID: Monolithic Components\n```tsx\n// DON'T: 300+ lines mixing concerns\nconst UserManagement = () => {\n  // Massive component with multiple responsibilities\n}\n```\n\n### Component Composition Pattern\n```tsx\n// Build complex UI from smaller components\nconst Dashboard = () => (\n  <PageLayout>\n    <DashboardHeader />\n    <DashboardMetrics />\n    <DashboardCharts />\n    <DashboardActivity />\n  </PageLayout>\n)\n```\n\n## UI Component Rules\n\n### shadcn/ui Components\n- **NEVER** modify files in `src/components/ui/` directly\n- **EXTEND** by creating wrappers in `src/components/common/`\n- **COMPOSE** multiple ui components to build features\n\n### Form Components\n```tsx\n// Use React Hook Form + Zod pattern\nexport const UserForm = ({ onSubmit, initialData }: UserFormProps) => {\n  const form = useForm<UserFormData>({\n    resolver: zodResolver(userSchema),\n    defaultValues: initialData\n  })\n\n  return (\n    <Form {...form}>\n      <form onSubmit={form.handleSubmit(onSubmit)}>\n        <FormField\n          control={form.control}\n          name=\"name\"\n          render={({ field }) => (\n            <FormItem>\n              <FormLabel>Name</FormLabel>\n              <FormControl>\n                <Input {...field} />\n              </FormControl>\n              <FormMessage />\n            </FormItem>\n          )}\n        />\n      </form>\n    </Form>\n  )\n}\n```\n\n## Page Component Rules\n\n### Pages = Composition Only\n```tsx\n// PERFECT: Thin orchestration layer (10-30 lines max)\nconst DashboardPage = () => {\n  const { data: user, isLoading } = useCurrentUser()\n  \n  if (isLoading) return <PageSkeleton />\n  \n  return (\n    <PageLayout>\n      <DashboardHeader user={user} />\n      <DashboardMetrics />\n      <div className=\"grid grid-cols-1 lg:grid-cols-2 gap-6\">\n        <DashboardCharts />\n        <DashboardActivity />\n      </div>\n    </PageLayout>\n  )\n}\n```\n\n### NEVER in Pages\n- Business logic (extract to hooks)\n- API calls (use service layer)\n- Complex state management\n- Inline event handlers\n\n## Reusable Component Patterns\n\n### Compound Components\n```tsx\nconst DataTable = ({ children }) => (\n  <div className=\"border rounded-lg overflow-hidden\">{children}</div>\n)\n\nconst DataTableHeader = ({ children }) => (\n  <div className=\"bg-muted p-4 border-b\">{children}</div>\n)\n\n// Usage\n<DataTable>\n  <DataTableHeader>\n    <h3>Users</h3>\n  </DataTableHeader>\n  <DataTableBody>\n    {users.map(user => <UserRow key={user.id} user={user} />)}\n  </DataTableBody>\n</DataTable>\n```\n",
+      "format": "mdc",
+      "path": ".cursor/rules/components.mdc"
+    },
+    "description": "A Lovable-inspired React boilerplate that brings no-code AI UI generation into clean code. Fully open, customizable, and",
+    "id": "chihebnabil/lovable-boilerplate",
+    "language": "TypeScript",
+    "name": "chihebnabil/lovable-boilerplate",
+    "stars": 62,
+    "updated_at": "2026-07-18T13:12:14Z",
+    "url": "https://github.com/chihebnabil/lovable-boilerplate"
+  },
+  {
     "description": "",
     "id": "baneeishaque/ai-agent-rules",
     "language": "TypeScript",
@@ -499,19 +513,5 @@
     "stars": 0,
     "updated_at": "2026-07-17T08:40:10Z",
     "url": "https://github.com/bagaswap111/usability-heuristics-skill"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Capture architectural decisions as structured ADRs (Architecture Decision Records). Use when user says 'record this decision', 'ADR this', 'why did we choose X', 'document this trade-off', 'we decided to...', or when a significant choice is made between alternatives (framework, database, pattern, API design, infra approach).\nglobs: **/docs/adr/*.md, **/docs/adr/**/*.md\nalwaysApply: false\n---\n# ADR Skill\n\nCapture architectural decisions as they happen, so the *why* lives next to the code\ninstead of in a Slack thread or someone's memory. Produces lightweight ADR documents\nunder `docs/adr/`.\n\n## Keywords\nadr, architecture decision record, decision, rationale, trade-off, alternatives, we decided, why did we choose, design decision, supersede, decision log, nygard\n\n## When to record a decision\n\n- The user says \"record this\", \"ADR this\", \"let's document this decision\".\n- A choice is made between **significant alternatives**: framework, library, database,\n  language, pattern, API shape, infra/deploy approach, build vs buy.\n- The user says \"we decided to\u2026\" or \"the reason we're doing X instead of Y is\u2026\".\n- The user asks \"why did we choose X?\" \u2192 read and summarize the existing ADR.\n\nFor trivial or easily-reversible choices, don't create an ADR \u2014 note it inline and move on.\n\n## Output Artifacts\n\n| Request | Output |\n|---------|--------|\n| `/adr new \"<title>\"` | A new `docs/adr/NNNN-<slug>.md` + an updated index |\n| `/adr list` | The decision log (ID, title, status, date) |\n| `/adr supersede <NNNN>` | A new ADR marked as superseding an old one; old one flipped to `superseded` |\n\n---\n\n## Format\n\nLightweight Nygard ADR, adapted for AI-assisted work:\n\n```markdown\n# ADR-NNNN: <Decision Title>\n\n**Date**: YYYY-MM-DD\n**Status**: proposed | accepted | deprecated | superseded by ADR-NNNN\n**Deciders**: <who was involved>\n\n## Context\n\nWhat is the issue motivating this decision? The situation, constraints, and forces at\nplay. 2\u20135 sentences.\n\n## Decision\n\nWhat we are doing. 1\u20133 sentences, stated clearly.\n\n## Alternatives Considered\n\n### <Alternative>\n- **Pros**: \u2026\n- **Cons**: \u2026\n- **Why not**: the specific reason it was rejected.\n\n(Repeat per alternative.)\n\n## Consequences\n\n### Positive\n- \u2026\n\n### Negative / trade-offs\n- \u2026\n\n### Risks\n- <risk and its mitigation>\n```\n\n---\n\n## NEW \u2014 Record a decision\n\n1. **Initialize once.** If `docs/adr/` does not exist, ask the user to confirm before\n   creating it. On confirmation, create the directory, a `README.md` seeded with the\n   index table header (below), and a `template.md` copy of the format above. Never\n   create files without explicit consent.\n2. **Number it.** Next zero-padded number after the highest existing `docs/adr/NNNN-*.md`\n   (start at `0001`). Slug = kebab-case of the title.\n3. **Fill it from the conversation** \u2014 extract the decision, the context that prompted it,\n   the alternatives actually weighed, and the consequences. Do not invent alternatives\n   that were never discussed; if context is thin, ask one or two targeted questions.\n4. **Default status** `accepted` when the user states a decision; `proposed` when still\n   weighing. Date = today.\n5. **Update the index** in `docs/adr/README.md`.\n\n## Index format\n\n`docs/adr/README.md`:\n\n```markdown\n# Architecture Decision Records\n\n| ID | Title | Status | Date |\n|----|-------|--------|------|\n| [ADR-0001](0001-use-eks-over-ecs.md) | Use EKS over ECS | accepted | 2026-06-10 |\n```\n\n## SUPERSEDE \u2014 Replace a decision\n\n1. Read the old ADR.\n2. Create a new ADR that references it: \"Supersedes ADR-NNNN\" in Context.\n3. Flip the old ADR's `Status` to `superseded by ADR-MMMM`.\n4. Update both rows in the index.\n\nNever delete or rewrite a past ADR's decision \u2014 superseding preserves the history of\n*why it changed*, which is the whole point.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/adr.mdc"
-    },
-    "description": "Multi-tool DevOps skills for Claude Code, Cursor, and Codex \u2014 Terraform, Kubernetes, Docker, GitHub Actions, GitLab CI, ",
-    "id": "anmolnagpal/devops-skills",
-    "language": "Shell",
-    "name": "anmolnagpal/devops-skills",
-    "stars": 7,
-    "updated_at": "2026-07-17T05:48:07Z",
-    "url": "https://github.com/anmolnagpal/devops-skills"
   }
 ]
