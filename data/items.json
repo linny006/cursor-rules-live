@@ -1,14 +1,5 @@
 [
   {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
-    "stars": 0,
-    "updated_at": "2026-07-19T17:03:57Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: Automatically document project memory, decision logs, and generate 16-page Notion hub when triggered.\nglobs: *\n---\n\n# Cursor Rule: Documenting Project\n\nActivate when the user requests project documentation using triggers like `/document-project`, `Finalize Project`, or `Generate Project Documentation`.\n\n## Instructions\n\n1. **Reconstruct Project Memory**: Scan conversation transcripts, git history, and workspace files.\n2. **Generate Deliverables**: Output `README.md`, `PROJECT_REPORT.md`, `technical_report.md`, `decision_log.md`, `development_log.md`, `visual_documentation.md`, `project_metrics.md`, `presentation_outline.md`, and `reflection.md`.\n3. **Notion Integration**: If Notion MCP is present, build the 16-page project dashboard hub.\n",
       "format": "mdc",
@@ -19,8 +10,26 @@
     "language": "\u2014",
     "name": "nyalakondasheshankadesai-jpg/antigravity-documentor",
     "stars": 0,
-    "updated_at": "2026-07-19T17:03:43Z",
+    "updated_at": "2026-07-19T17:16:41Z",
     "url": "https://github.com/nyalakondasheshankadesai-jpg/antigravity-documentor"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-07-19T17:15:29Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-07-19T17:03:57Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
   },
   {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
@@ -30,15 +39,6 @@
     "stars": 0,
     "updated_at": "2026-07-19T17:02:35Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-07-19T17:00:43Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -99,7 +99,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 17779,
+    "stars": 17780,
     "updated_at": "2026-07-19T14:32:55Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
