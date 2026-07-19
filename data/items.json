@@ -1,11 +1,38 @@
 [
   {
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-07-19T20:57:46Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
+  },
+  {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 0,
+    "updated_at": "2026-07-19T20:56:11Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+  },
+  {
+    "description": "Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows.",
+    "id": "ajhcs/healthcare-agents",
+    "language": "JavaScript",
+    "name": "ajhcs/healthcare-agents",
+    "stars": 47,
+    "updated_at": "2026-07-19T20:53:19Z",
+    "url": "https://github.com/ajhcs/healthcare-agents"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-07-19T20:30:45Z",
+    "updated_at": "2026-07-19T20:45:40Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -34,24 +61,6 @@
     "stars": 1,
     "updated_at": "2026-07-19T19:35:27Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
-    "stars": 0,
-    "updated_at": "2026-07-19T19:13:47Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 0,
-    "updated_at": "2026-07-19T19:12:21Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "description": "Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API ",
@@ -111,15 +120,6 @@
     "stars": 17785,
     "updated_at": "2026-07-19T14:32:55Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
-  },
-  {
-    "description": "Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows.",
-    "id": "ajhcs/healthcare-agents",
-    "language": "JavaScript",
-    "name": "ajhcs/healthcare-agents",
-    "stars": 47,
-    "updated_at": "2026-07-19T19:25:00Z",
-    "url": "https://github.com/ajhcs/healthcare-agents"
   },
   {
     "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",

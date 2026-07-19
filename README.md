@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-07-19 20:45 UTC
+> ⏰ Last updated: 2026-07-19 21:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,19 +53,19 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 1 | HTML | 2026-07-19 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 2 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 26 | — | 2026-07-19 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
-| 3 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 0 | HTML | 2026-07-19 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
-| 4 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 1 | HTML | 2026-07-19 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 5 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-07-19 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
-| 6 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-07-19 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
-| 7 | [djtelicloud/grok-mcp-server](https://github.com/djtelicloud/grok-mcp-server) | 21 | Python | 2026-07-19 | — | Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API  |
-| 8 | [nyalakondasheshankadesai-jpg/antigravity-documentor](https://github.com/nyalakondasheshankadesai-jpg/antigravity-documentor) | 0 | — | 2026-07-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/nyalakondasheshankadesai-jpg/antigravity-documentor/) | 🧠 Never write docs again. Drop-in AI agent skill (Gemini, Cursor, Claude Code) that auto-generates project reports, deci |
-| 9 | [babarda/open-visualization-protocol](https://github.com/babarda/open-visualization-protocol) | 2 | HTML | 2026-07-19 | — | OVP: the open visualization protocol for describing, validating, and rendering information design identically, for human |
-| 10 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 91 | Python | 2026-07-19 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
-| 11 | [sungurerdim/dev-skills](https://github.com/sungurerdim/dev-skills) | 1 | HTML | 2026-07-19 | — | Your AI assistant hallucinates APIs, breaks dependent files, and weakens tests. 29 skills that prevent this across the f |
-| 12 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 17785 | Shell | 2026-07-19 | — | 🎭 267 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 52 个中国市场原创智能体（小红书/抖音/ |
-| 13 | [ajhcs/healthcare-agents](https://github.com/ajhcs/healthcare-agents) | 47 | JavaScript | 2026-07-19 | — | Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows. |
+| 1 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-07-19 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
+| 2 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-07-19 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
+| 3 | [ajhcs/healthcare-agents](https://github.com/ajhcs/healthcare-agents) | 47 | JavaScript | 2026-07-19 | — | Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows. |
+| 4 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 1 | HTML | 2026-07-19 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 5 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 26 | — | 2026-07-19 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
+| 6 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 0 | HTML | 2026-07-19 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
+| 7 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 1 | HTML | 2026-07-19 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
+| 8 | [djtelicloud/grok-mcp-server](https://github.com/djtelicloud/grok-mcp-server) | 21 | Python | 2026-07-19 | — | Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API  |
+| 9 | [nyalakondasheshankadesai-jpg/antigravity-documentor](https://github.com/nyalakondasheshankadesai-jpg/antigravity-documentor) | 0 | — | 2026-07-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/nyalakondasheshankadesai-jpg/antigravity-documentor/) | 🧠 Never write docs again. Drop-in AI agent skill (Gemini, Cursor, Claude Code) that auto-generates project reports, deci |
+| 10 | [babarda/open-visualization-protocol](https://github.com/babarda/open-visualization-protocol) | 2 | HTML | 2026-07-19 | — | OVP: the open visualization protocol for describing, validating, and rendering information design identically, for human |
+| 11 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 91 | Python | 2026-07-19 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
+| 12 | [sungurerdim/dev-skills](https://github.com/sungurerdim/dev-skills) | 1 | HTML | 2026-07-19 | — | Your AI assistant hallucinates APIs, breaks dependent files, and weakens tests. 29 skills that prevent this across the f |
+| 13 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 17785 | Shell | 2026-07-19 | — | 🎭 267 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 52 个中国市场原创智能体（小红书/抖音/ |
 | 14 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 12 | TypeScript | 2026-07-19 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
 | 15 | [vibestackdev/vibe-stack](https://github.com/vibestackdev/vibe-stack) | 6 | TypeScript | 2026-07-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/) | 29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b |
 | 16 | [sscodeai/agency-agents-ja](https://github.com/sscodeai/agency-agents-ja) | 4 | Shell | 2026-07-19 | — | 323個の即戦力AI専門エージェント — Claude Code/Cursor/Copilot等に対応。SIer/受託開発/SaaS/製造DX/公共分野など日本市場向け114個のオリジナルを含む、agency-agents日本語コミュニティ |
