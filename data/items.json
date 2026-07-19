@@ -1,12 +1,39 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-07-19T07:59:53Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
     "description": "Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows.",
     "id": "ajhcs/healthcare-agents",
     "language": "JavaScript",
     "name": "ajhcs/healthcare-agents",
     "stars": 47,
-    "updated_at": "2026-07-19T07:44:38Z",
+    "updated_at": "2026-07-19T07:47:16Z",
     "url": "https://github.com/ajhcs/healthcare-agents"
+  },
+  {
+    "description": "Opinionated, atomic coding rules for AI agents (Claude Code) on React Native / Expo / TypeScript \u2014 one rule per file, ea",
+    "id": "mstf66x/claude-code-rules",
+    "language": "\u2014",
+    "name": "mstf66x/claude-code-rules",
+    "stars": 0,
+    "updated_at": "2026-07-19T07:46:59Z",
+    "url": "https://github.com/mstf66x/claude-code-rules"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-07-19T07:45:37Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -16,15 +43,6 @@
     "stars": 26,
     "updated_at": "2026-07-19T07:34:36Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-07-19T07:30:45Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -189,15 +207,6 @@
     "stars": 0,
     "updated_at": "2026-07-19T05:19:54Z",
     "url": "https://github.com/Texarkanine/ai-rizz"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 0,
-    "updated_at": "2026-07-19T05:12:39Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "3D printing toolkit \u2014 AI-powered design skills for Claude Code, Cursor, Windsurf & Copilot, plus parametric OpenSCAD mod",
@@ -419,7 +428,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 17674,
+    "stars": 17675,
     "updated_at": "2026-07-17T13:01:39Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -504,14 +513,5 @@
     "stars": 4,
     "updated_at": "2026-07-16T14:41:48Z",
     "url": "https://github.com/sscodeai/agency-agents-ja"
-  },
-  {
-    "description": "A collection of system prompts, Cursor rules, and AI instructions for Claude, ChatGPT, Gemini, and GitHub Copilot",
-    "id": "ardakocadoru/ai-system-prompts",
-    "language": "\u2014",
-    "name": "ardakocadoru/ai-system-prompts",
-    "stars": 0,
-    "updated_at": "2026-07-16T13:22:20Z",
-    "url": "https://github.com/ardakocadoru/ai-system-prompts"
   }
 ]
