@@ -1,5 +1,23 @@
 [
   {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 1,
+    "updated_at": "2026-07-19T17:28:12Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-07-19T17:25:49Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: Automatically document project memory, decision logs, and generate 16-page Notion hub when triggered.\nglobs: *\n---\n\n# Cursor Rule: Documenting Project\n\nActivate when the user requests project documentation using triggers like `/document-project`, `Finalize Project`, or `Generate Project Documentation`.\n\n## Instructions\n\n1. **Reconstruct Project Memory**: Scan conversation transcripts, git history, and workspace files.\n2. **Generate Deliverables**: Output `README.md`, `PROJECT_REPORT.md`, `technical_report.md`, `decision_log.md`, `development_log.md`, `visual_documentation.md`, `project_metrics.md`, `presentation_outline.md`, and `reflection.md`.\n3. **Notion Integration**: If Notion MCP is present, build the 16-page project dashboard hub.\n",
       "format": "mdc",
@@ -12,15 +30,6 @@
     "stars": 0,
     "updated_at": "2026-07-19T17:16:41Z",
     "url": "https://github.com/nyalakondasheshankadesai-jpg/antigravity-documentor"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-07-19T17:15:29Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -66,15 +75,6 @@
     "stars": 0,
     "updated_at": "2026-07-19T16:44:54Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 1,
-    "updated_at": "2026-07-19T16:15:22Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
