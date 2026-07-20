@@ -1,11 +1,20 @@
 [
   {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 0,
+    "updated_at": "2026-07-20T13:09:49Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+  },
+  {
     "description": "3D printing toolkit \u2014 AI-powered design skills for Claude Code, Cursor, Windsurf & Copilot, plus parametric OpenSCAD mod",
     "id": "wilsonwaters/3d-printing",
     "language": "OpenSCAD",
     "name": "wilsonwaters/3d-printing",
     "stars": 0,
-    "updated_at": "2026-07-20T12:45:49Z",
+    "updated_at": "2026-07-20T13:07:43Z",
     "url": "https://github.com/wilsonwaters/3d-printing"
   },
   {
@@ -14,7 +23,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-07-20T12:45:43Z",
+    "updated_at": "2026-07-20T13:00:46Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -75,15 +84,6 @@
     "stars": 6,
     "updated_at": "2026-07-20T10:47:49Z",
     "url": "https://github.com/vibestackdev/vibe-stack"
-  },
-  {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 0,
-    "updated_at": "2026-07-20T10:16:05Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "description": "\u2694 AI agent skills installer \u2014 17,000+ skills for Claude Code, Cursor, Cline, Aider, Codex & Antigravity. pip install lot",
@@ -149,7 +149,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 38075,
+    "stars": 38076,
     "updated_at": "2026-07-20T01:09:04Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -415,7 +415,7 @@
     "language": "HTML",
     "name": "MnemeHQ/mneme",
     "stars": 17,
-    "updated_at": "2026-07-20T13:00:19Z",
+    "updated_at": "2026-07-20T13:13:16Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
