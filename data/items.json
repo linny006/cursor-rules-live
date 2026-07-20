@@ -1,11 +1,20 @@
 [
   {
+    "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 code review, debugging, refactoring, system design, CLAUDE.m",
+    "id": "sublimecoder/sublimecoding",
+    "language": "\u2014",
+    "name": "sublimecoder/sublimecoding",
+    "stars": 0,
+    "updated_at": "2026-07-20T00:23:03Z",
+    "url": "https://github.com/sublimecoder/sublimecoding"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-07-20T00:00:31Z",
+    "updated_at": "2026-07-20T00:16:02Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -117,7 +126,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 17790,
+    "stars": 17791,
     "updated_at": "2026-07-19T14:32:55Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -307,15 +316,6 @@
     "stars": 0,
     "updated_at": "2026-07-19T02:45:31Z",
     "url": "https://github.com/wilsonwaters/3d-printing"
-  },
-  {
-    "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 code review, debugging, refactoring, system design, CLAUDE.m",
-    "id": "sublimecoder/sublimecoding",
-    "language": "\u2014",
-    "name": "sublimecoder/sublimecoding",
-    "stars": 0,
-    "updated_at": "2026-07-19T00:20:55Z",
-    "url": "https://github.com/sublimecoder/sublimecoding"
   },
   {
     "cursorrules": {
