@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-07-20 05:30 UTC
+> ⏰ Last updated: 2026-07-20 05:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -56,10 +56,10 @@ expired items removed — so you can rely on what you see being current.
 | 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 1 | HTML | 2026-07-20 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
 | 2 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-07-20 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
 | 3 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 1 | HTML | 2026-07-20 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 4 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 17846 | Shell | 2026-07-20 | — | 🎭 267 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 52 个中国市场原创智能体（小红书/抖音/ |
+| 4 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 17849 | Shell | 2026-07-20 | — | 🎭 267 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 52 个中国市场原创智能体（小红书/抖音/ |
 | 5 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-07-20 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
 | 6 | [djtelicloud/grok-mcp-server](https://github.com/djtelicloud/grok-mcp-server) | 21 | Python | 2026-07-20 | — | Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API  |
-| 7 | [RollingGo-AI/RollingGo-hotel-skill-CN](https://github.com/RollingGo-AI/RollingGo-hotel-skill-CN) | 77 | Python | 2026-07-20 | — | 全球酒店预订Skill，200万+精选酒店，独家优惠价格，全球第三大酒旅B2B公司数据源，可设置价格监控和提醒，支持创建订单 + 支付宝二维码+查询历史订单，24 小时客服支持，全天候响应。 |
+| 7 | [RollingGo-AI/RollingGo-hotel-skill-CN](https://github.com/RollingGo-AI/RollingGo-hotel-skill-CN) | 78 | Python | 2026-07-20 | — | 全球酒店预订Skill，200万+精选酒店，独家优惠价格，全球第三大酒旅B2B公司数据源，可设置价格监控和提醒，支持创建订单 + 支付宝二维码+查询历史订单，24 小时客服支持，全天候响应。 |
 | 8 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 0 | HTML | 2026-07-20 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
 | 9 | [wshobson/agents](https://github.com/wshobson/agents) | 38067 | Python | 2026-07-20 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI |
 | 10 | [sublimecoder/sublimecoding](https://github.com/sublimecoder/sublimecoding) | 0 | — | 2026-07-20 | — | 🛠️ Free Claude Code & Cursor prompts for senior engineers — code review, debugging, refactoring, system design, CLAUDE.m |
