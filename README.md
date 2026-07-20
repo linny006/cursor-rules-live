@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-07-20 17:00 UTC
+> ⏰ Last updated: 2026-07-20 17:02 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,8 +53,8 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [MicSm/boffin](https://github.com/MicSm/boffin) | 2 | JavaScript | 2026-07-20 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/MicSm/boffin/) | Portable architectural guardrails for AI coding agents |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 1 | HTML | 2026-07-20 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 1 | HTML | 2026-07-20 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [MicSm/boffin](https://github.com/MicSm/boffin) | 2 | JavaScript | 2026-07-20 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/MicSm/boffin/) | Portable architectural guardrails for AI coding agents |
 | 3 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-07-20 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
 | 4 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 26 | — | 2026-07-20 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
 | 5 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 1 | HTML | 2026-07-20 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
