@@ -1,12 +1,35 @@
 [
   {
+    "description": "\u5168\u7403\u9152\u5e97\u9884\u8ba2Skill\uff0c200\u4e07+\u7cbe\u9009\u9152\u5e97\uff0c\u72ec\u5bb6\u4f18\u60e0\u4ef7\u683c\uff0c\u5168\u7403\u7b2c\u4e09\u5927\u9152\u65c5B2B\u516c\u53f8\u6570\u636e\u6e90\uff0c\u53ef\u8bbe\u7f6e\u4ef7\u683c\u76d1\u63a7\u548c\u63d0\u9192\uff0c\u652f\u6301\u521b\u5efa\u8ba2\u5355 + \u652f\u4ed8\u5b9d\u4e8c\u7ef4\u7801+\u67e5\u8be2\u5386\u53f2\u8ba2\u5355\uff0c24 \u5c0f\u65f6\u5ba2\u670d\u652f\u6301\uff0c\u5168\u5929\u5019\u54cd\u5e94\u3002",
+    "id": "RollingGo-AI/RollingGo-hotel-skill-CN",
+    "language": "Python",
+    "name": "RollingGo-AI/RollingGo-hotel-skill-CN",
+    "stars": 76,
+    "updated_at": "2026-07-20T01:43:26Z",
+    "url": "https://github.com/RollingGo-AI/RollingGo-hotel-skill-CN"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-07-20T01:14:06Z",
+    "updated_at": "2026-07-20T01:30:48Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: claude-agents marketplace project conventions\nalwaysApply: true\n---\n\n# claude-agents conventions\n\nThis is a multi-harness plugin marketplace. Source lives under `plugins/`; per-harness\nartifacts (`.codex/`, `.cursor-plugin/`, `.opencode/`, `commands/`) are generated.\n\n- Don't hand-edit anything under `.codex/`, `.cursor-plugin/`, `.opencode/`, or top-level `commands/`, `agents/`, `skills/` \u2014 regenerate via `make generate HARNESS=<x>`.\n- Python tooling: `uv` (package manager), `ruff` (lint/format), `ty` (type check). Do not use pip/mypy/black.\n- Plugin files: `plugins/<name>/{.claude-plugin/plugin.json, agents/*.md, skills/<name>/SKILL.md, commands/*.md}`. Auto-discovered.\n- Cursor reads `.claude/skills/` and `.claude/agents/` directly \u2014 no separate `.cursor/skills/` is generated.\n\n## Never\n\n- Never commit secrets or hardcode credentials.\n- Never hand-edit generated registries (`.agents/plugins/marketplace.json`, `.cursor-plugin/`) \u2014 plugin PRs register the plugin in `.claude-plugin/marketplace.json`, then run `make generate-all` (see CONTRIBUTING.md).\n- Never run destructive git operations (force-push, reset --hard, branch -D) without explicit ask.\n\nSee `docs/authoring.md` for the portable-content style guide.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/000-project-conventions.mdc"
+    },
+    "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI",
+    "id": "wshobson/agents",
+    "language": "Python",
+    "name": "wshobson/agents",
+    "stars": 38066,
+    "updated_at": "2026-07-20T01:09:04Z",
+    "url": "https://github.com/wshobson/agents"
   },
   {
     "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 code review, debugging, refactoring, system design, CLAUDE.m",
@@ -126,7 +149,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 17802,
+    "stars": 17805,
     "updated_at": "2026-07-19T14:32:55Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -347,20 +370,6 @@
   },
   {
     "cursorrules": {
-      "content": "---\ndescription: claude-agents marketplace project conventions\nalwaysApply: true\n---\n\n# claude-agents conventions\n\nThis is a multi-harness plugin marketplace. Source lives under `plugins/`; per-harness\nartifacts (`.codex/`, `.cursor-plugin/`, `.opencode/`, `commands/`) are generated.\n\n- Don't hand-edit anything under `.codex/`, `.cursor-plugin/`, `.opencode/`, or top-level `commands/`, `agents/`, `skills/` \u2014 regenerate via `make generate HARNESS=<x>`.\n- Python tooling: `uv` (package manager), `ruff` (lint/format), `ty` (type check). Do not use pip/mypy/black.\n- Plugin files: `plugins/<name>/{.claude-plugin/plugin.json, agents/*.md, skills/<name>/SKILL.md, commands/*.md}`. Auto-discovered.\n- Cursor reads `.claude/skills/` and `.claude/agents/` directly \u2014 no separate `.cursor/skills/` is generated.\n\n## Never\n\n- Never commit secrets or hardcode credentials.\n- Never hand-edit generated registries (`.agents/plugins/marketplace.json`, `.cursor-plugin/`) \u2014 plugin PRs register the plugin in `.claude-plugin/marketplace.json`, then run `make generate-all` (see CONTRIBUTING.md).\n- Never run destructive git operations (force-push, reset --hard, branch -D) without explicit ask.\n\nSee `docs/authoring.md` for the portable-content style guide.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/000-project-conventions.mdc"
-    },
-    "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI",
-    "id": "wshobson/agents",
-    "language": "Python",
-    "name": "wshobson/agents",
-    "stars": 38065,
-    "updated_at": "2026-07-20T01:09:04Z",
-    "url": "https://github.com/wshobson/agents"
-  },
-  {
-    "cursorrules": {
       "content": "---\ndescription: Maintain CHANGELOG.md for significant changes; grouped by type (Features, Fixes, Changes); source for GitHub release notes\nalwaysApply: true\n---\n\n# Changelog maintenance\n\n## When to update\n\nUpdate `CHANGELOG.md` (at project root) whenever you or the user:\n\n- Add a **new feature**\n- Ship a **significant fix** (bug fix that affects behavior or correctness)\n- Make a **notable change** (refactor, config, dependency, or UX change worth documenting)\n- Remove or deprecate something user-facing\n\nDo **not** add trivial edits (typos, comment-only, formatting-only) unless the user asks.\n\n## Format (grouped by type)\n\n- **Unreleased at top.** The first section is `## [Unreleased]` for changes not yet in a release.\n- **Released versions below.** Each release has a section `## [vX.Y.Z]` or `## [X.Y.Z]` (e.g. `## [v0.0.1-beta.7]`, `## [1.0.0]`). Use the exact version string that will be tagged (with or without leading `v`).\n- **Newest release first** under Unreleased. When you cut a release, the previous `[Unreleased]` content can be moved under a new `## [vX.Y.Z]` section.\n- **Group by type.** Within each version section, organize entries under three subsections: `### Features`, `### Fixes`, `### Changes`.\n- **No type prefix.** Items do not need `**Feature:**`, `**Fix:**`, or `**Change:**` prefixes since they are grouped by section.\n- One line per item; keep text concise.\n\nStructure:\n\n```markdown\n# Changelog\n\n## [Unreleased]\n\n### Features\n- Short description of new feature.\n- Another feature.\n\n### Fixes\n- Bug fix description.\n- Another fix.\n\n### Changes\n- Refactor or UX change description.\n\n## [v0.0.1-beta.7]\n\n### Features\n- Something shipped in this version.\n\n### Changes\n- Another change.\n\n## [v0.0.1-beta.6]\n- ...\n```\n\n## Releases and GitHub\n\nIf the project uses a tag-triggered release workflow, it typically looks in `CHANGELOG.md` for a section whose heading matches the pushed tag (e.g. `## [v1.2.3]` or `## [1.2.3]`) and uses that section as the release notes body. Add the version section before tagging so the release notes are populated; if it's missing, the release should still succeed with a default body.\n\n## If the file is missing\n\nIf `CHANGELOG.md` does not exist, create it with a title, an `## [Unreleased]` section, and add the relevant entry/entries.\n",
       "format": "mdc",
       "path": ".cursor/rules/changelog.mdc"
@@ -495,15 +504,6 @@
     "stars": 0,
     "updated_at": "2026-07-17T11:07:02Z",
     "url": "https://github.com/Jlosev/cursor-rules"
-  },
-  {
-    "description": "\u5168\u7403\u9152\u5e97\u9884\u8ba2Skill\uff0c200\u4e07+\u7cbe\u9009\u9152\u5e97\uff0c\u72ec\u5bb6\u4f18\u60e0\u4ef7\u683c\uff0c\u5168\u7403\u7b2c\u4e09\u5927\u9152\u65c5B2B\u516c\u53f8\u6570\u636e\u6e90\uff0c\u53ef\u8bbe\u7f6e\u4ef7\u683c\u76d1\u63a7\u548c\u63d0\u9192\uff0c\u652f\u6301\u521b\u5efa\u8ba2\u5355 + \u652f\u4ed8\u5b9d\u4e8c\u7ef4\u7801+\u67e5\u8be2\u5386\u53f2\u8ba2\u5355\uff0c24 \u5c0f\u65f6\u5ba2\u670d\u652f\u6301\uff0c\u5168\u5929\u5019\u54cd\u5e94\u3002",
-    "id": "RollingGo-AI/RollingGo-hotel-skill-CN",
-    "language": "Python",
-    "name": "RollingGo-AI/RollingGo-hotel-skill-CN",
-    "stars": 76,
-    "updated_at": "2026-07-17T09:47:15Z",
-    "url": "https://github.com/RollingGo-AI/RollingGo-hotel-skill-CN"
   },
   {
     "description": "Evaluation tool for UI/UX based on 10 Heuristics Nielsen \u2014 available for Web, Mobile, Desktop, CLI within 11 format AI c",
