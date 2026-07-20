@@ -1,12 +1,12 @@
 [
   {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 1,
-    "updated_at": "2026-07-20T16:02:40Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 26,
+    "updated_at": "2026-07-20T16:19:22Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-07-20T16:00:34Z",
+    "updated_at": "2026-07-20T16:15:37Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 1,
+    "updated_at": "2026-07-20T16:02:40Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
@@ -111,15 +120,6 @@
     "stars": 4,
     "updated_at": "2026-07-20T09:54:21Z",
     "url": "https://github.com/Bilal140202/the-lord-of-the-skills"
-  },
-  {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 26,
-    "updated_at": "2026-07-20T08:51:25Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "description": "Auto harness engineering meta-repo: discuss \u2192 curate \u2192 bootstrap a context-engineered project for Claude Code, Cursor, C",
