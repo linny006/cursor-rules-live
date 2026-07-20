@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-07-20T10:30:40Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
     "id": "arnoldalberto007-sys/Swift-UIKit-Components",
     "language": "HTML",
@@ -7,15 +16,6 @@
     "stars": 0,
     "updated_at": "2026-07-20T10:16:05Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-07-20T10:15:29Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\u2694 AI agent skills installer \u2014 17,000+ skills for Claude Code, Cursor, Cline, Aider, Codex & Antigravity. pip install lot",
@@ -85,7 +85,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 17890,
+    "stars": 17891,
     "updated_at": "2026-07-20T03:45:32Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -117,7 +117,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 38071,
+    "stars": 38074,
     "updated_at": "2026-07-20T01:09:04Z",
     "url": "https://github.com/wshobson/agents"
   },
