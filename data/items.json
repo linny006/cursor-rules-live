@@ -1,12 +1,17 @@
 [
   {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
-    "stars": 0,
-    "updated_at": "2026-07-20T16:36:00Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
+    "cursorrules": {
+      "content": "---\ndescription: Activate ParselFire Core C++ pack index\nglobs: **/*.{cc,cpp,cxx,hh,hpp,hxx,ipp,tpp,inl}\nalwaysApply: false\n---\n\n# C++ Pack Activation\n\nFor C++ source files:\n\n- Load `packs/cpp-architecture/pack.urf.md`.\n- Use its `## ROUTING` and `## LEAVES` records for leaf selection.\n- Use its `## STAGE-REFS` records to gather the family K ids (and their mirrored X ids) at each stage of the walk.\n\nFor ambiguous `.h` or `.c` files that reach this rule via the always-on router:\n\n- Apply cpp-architecture only if the file contains C++ constructs (class, template, namespace, references, std::, noexcept, overloads).\n- If the file is plain C, stay on universal only.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/boffin-cpp-routing.mdc"
+    },
+    "description": "Portable architectural guardrails for AI coding agents",
+    "id": "MicSm/boffin",
+    "language": "JavaScript",
+    "name": "MicSm/boffin",
+    "stars": 2,
+    "updated_at": "2026-07-20T16:56:20Z",
+    "url": "https://github.com/MicSm/boffin"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +19,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-07-20T16:30:50Z",
+    "updated_at": "2026-07-20T16:45:39Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-07-20T16:36:00Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -509,14 +523,5 @@
     "stars": 5,
     "updated_at": "2026-07-18T06:25:34Z",
     "url": "https://github.com/kensaurus/cursor-kenji"
-  },
-  {
-    "description": "Agent skill for navigating, bootstrapping, maintaining, and validating lightweight indexes in Markdown-heavy workspaces.",
-    "id": "UltraDD/context-navigator-skill",
-    "language": "Python",
-    "name": "UltraDD/context-navigator-skill",
-    "stars": 0,
-    "updated_at": "2026-07-18T03:08:56Z",
-    "url": "https://github.com/UltraDD/context-navigator-skill"
   }
 ]
