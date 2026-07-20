@@ -1,21 +1,21 @@
 [
   {
-    "description": "Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API ",
-    "id": "djtelicloud/grok-mcp-server",
-    "language": "Python",
-    "name": "djtelicloud/grok-mcp-server",
-    "stars": 21,
-    "updated_at": "2026-07-20T02:25:12Z",
-    "url": "https://github.com/djtelicloud/grok-mcp-server"
-  },
-  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-07-20T02:15:37Z",
+    "updated_at": "2026-07-20T02:30:29Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API ",
+    "id": "djtelicloud/grok-mcp-server",
+    "language": "Python",
+    "name": "djtelicloud/grok-mcp-server",
+    "stars": 21,
+    "updated_at": "2026-07-20T02:43:26Z",
+    "url": "https://github.com/djtelicloud/grok-mcp-server"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -32,7 +32,7 @@
     "language": "Python",
     "name": "RollingGo-AI/RollingGo-hotel-skill-CN",
     "stars": 76,
-    "updated_at": "2026-07-20T01:43:26Z",
+    "updated_at": "2026-07-20T02:33:30Z",
     "url": "https://github.com/RollingGo-AI/RollingGo-hotel-skill-CN"
   },
   {
@@ -149,7 +149,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 17817,
+    "stars": 17819,
     "updated_at": "2026-07-19T14:32:55Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
