@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-07-21 14:45 UTC
+> ⏰ Last updated: 2026-07-21 15:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,8 +53,8 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 92 | Python | 2026-07-21 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 1 | HTML | 2026-07-21 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 1 | HTML | 2026-07-21 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 92 | Python | 2026-07-21 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
 | 3 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 1 | HTML | 2026-07-21 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
 | 4 | [sscodeai/agency-agents-ja](https://github.com/sscodeai/agency-agents-ja) | 4 | Shell | 2026-07-21 | — | 323個の即戦力AI専門エージェント — Claude Code/Cursor/Copilot等に対応。SIer/受託開発/SaaS/製造DX/公共分野など日本市場向け114個のオリジナルを含む、agency-agents日本語コミュニティ |
 | 5 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-07-21 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
@@ -76,10 +76,10 @@ expired items removed — so you can rely on what you see being current.
 | 21 | [wilsonwaters/3d-printing](https://github.com/wilsonwaters/3d-printing) | 0 | OpenSCAD | 2026-07-20 | — | 3D printing toolkit — AI-powered design skills for Claude Code, Cursor, Windsurf & Copilot, plus parametric OpenSCAD mod |
 | 22 | [Bilal140202/the-lord-of-the-skills](https://github.com/Bilal140202/the-lord-of-the-skills) | 4 | Python | 2026-07-20 | — | ⚔ AI agent skills installer — 17,000+ skills for Claude Code, Cursor, Cline, Aider, Codex & Antigravity. pip install lot |
 | 23 | [glowElephant/context-forge](https://github.com/glowElephant/context-forge) | 2 | Python | 2026-07-20 | — | Auto harness engineering meta-repo: discuss → curate → bootstrap a context-engineered project for Claude Code, Cursor, C |
-| 24 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 18026 | Shell | 2026-07-20 | — | 🎭 267 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 52 个中国市场原创智能体（小红书/抖音/ |
+| 24 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 18028 | Shell | 2026-07-20 | — | 🎭 267 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 52 个中国市场原创智能体（小红书/抖音/ |
 | 25 | [djtelicloud/grok-mcp-server](https://github.com/djtelicloud/grok-mcp-server) | 21 | Python | 2026-07-20 | — | Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API  |
-| 26 | [RollingGo-AI/RollingGo-hotel-skill-CN](https://github.com/RollingGo-AI/RollingGo-hotel-skill-CN) | 82 | Python | 2026-07-20 | — | 全球酒店预订Skill，200万+精选酒店，独家优惠价格，全球第三大酒旅B2B公司数据源，可设置价格监控和提醒，支持创建订单 + 支付宝二维码+查询历史订单，24 小时客服支持，全天候响应。 |
-| 27 | [wshobson/agents](https://github.com/wshobson/agents) | 38103 | Python | 2026-07-20 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI |
+| 26 | [RollingGo-AI/RollingGo-hotel-skill-CN](https://github.com/RollingGo-AI/RollingGo-hotel-skill-CN) | 83 | Python | 2026-07-20 | — | 全球酒店预订Skill，200万+精选酒店，独家优惠价格，全球第三大酒旅B2B公司数据源，可设置价格监控和提醒，支持创建订单 + 支付宝二维码+查询历史订单，24 小时客服支持，全天候响应。 |
+| 27 | [wshobson/agents](https://github.com/wshobson/agents) | 38105 | Python | 2026-07-20 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI |
 | 28 | [ajhcs/healthcare-agents](https://github.com/ajhcs/healthcare-agents) | 48 | JavaScript | 2026-07-19 | — | Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows. |
 | 29 | [TexLeeV/cursor-socratic-mentor](https://github.com/TexLeeV/cursor-socratic-mentor) | 0 | — | 2026-07-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/TexLeeV/cursor-socratic-mentor/) | Language-agnostic Cursor mentoring rules: Q/A/R in code, skill profiles, optional lesson-authoring guide. |
 | 30 | [nyalakondasheshankadesai-jpg/antigravity-documentor](https://github.com/nyalakondasheshankadesai-jpg/antigravity-documentor) | 0 | — | 2026-07-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/nyalakondasheshankadesai-jpg/antigravity-documentor/) | 🧠 Never write docs again. Drop-in AI agent skill (Gemini, Cursor, Claude Code) that auto-generates project reports, deci |
