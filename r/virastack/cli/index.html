@@ -52,55 +52,6 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <span><a href="https://github.com/virastack/cli" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/virastack" rel="external">@virastack</a></span>
 </div>
-<section id="rules"><h2>Actual rules from this repo</h2>
-<p>Path in source repo: <code>.cursor/rules/api.mdc</code> &middot; format: <code>mdc</code></p>
-<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
-description: &quot;USE WHEN: Defining HTTP requests, endpoints, and handling API responses.&quot;
-globs: &quot;src/lib/api.ts,src/features/**/api/*.{ts,tsx}&quot;
-alwaysApply: false
----
-
-# API Layer
-
-## Constraints
-
-* **Location:** Place all HTTP calls under `features/[feature]/api`.
-* **Validation:** Use Zod for input/output validation when data is external or untrusted. Parse responses before they reach UI or state.
-* **Return Type:** Return typed data, not raw responses.
-* **Error Handling:** Normalize all API errors to a consistent `AppError` format (`code`, `message`) before throwing.
-* **Config:** Load `baseURL` from env. Use a single `axios` instance (`src/lib/api.ts`).
-* **Interceptors:** Handle cross-cutting concerns (auth, headers) via interceptors.
-* **Naming:** `verb-entity.api.ts` (e.g., `get-users.api.ts`). Function: `getUsers`.
-* **SSR Safety:** Use only whitelisted internal URLs or absolute paths for server-to-server calls to prevent SSRF.
-
-## Bans
-
-* **Raw Exposure:** Forbidden to use `fetch`/`axios` or raw API data inside UI components, hooks, or state without validation.
-* **Logic Leaks:** Forbidden to leak internal error stack traces or raw axios/fetch errors to the client.
-* **Security:** Forbidden to construct dynamic URLs using unsanitized user inputs.
-* **Architecture:** No `axios.create` inside features, no cross-feature API imports, no hardcoded endpoint strings in queries.
-
-## Correct Implementation
-
-&lt;example&gt;
-```ts
-export const getUsers = async (): Promise&lt;User[]&gt; =&gt; {
-  const { data } = await api.get(&quot;/users&quot;);
-  return UserSchema.array().parse(data);
-};
-```
-&lt;/example&gt;
-
-## Incorrect Implementation
-
-&lt;incorrect-example&gt;
-```tsx
-useEffect(() =&gt; { axios.get(&quot;/users&quot;); }, []);
-```
-&lt;/incorrect-example&gt;
-</code></pre>
-<p><a href="https://github.com/virastack/cli/blob/HEAD/.cursor/rules/api.mdc" rel="external">View raw on GitHub</a></p>
-</section>
 <section><h2>Why this is listed</h2>
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>
