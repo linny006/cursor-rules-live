@@ -1,11 +1,20 @@
 [
   {
+    "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
+    "id": "fluttersdk/wind",
+    "language": "Dart",
+    "name": "fluttersdk/wind",
+    "stars": 26,
+    "updated_at": "2026-07-21T07:03:10Z",
+    "url": "https://github.com/fluttersdk/wind"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-07-21T06:45:45Z",
+    "updated_at": "2026-07-21T07:00:55Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -168,15 +177,6 @@
     "url": "https://github.com/wilsonwaters/3d-printing"
   },
   {
-    "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
-    "id": "fluttersdk/wind",
-    "language": "Dart",
-    "name": "fluttersdk/wind",
-    "stars": 26,
-    "updated_at": "2026-07-21T06:49:31Z",
-    "url": "https://github.com/fluttersdk/wind"
-  },
-  {
     "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
     "id": "philipbankier/awesome-agent-skills",
     "language": "TypeScript",
@@ -222,7 +222,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 17973,
+    "stars": 17975,
     "updated_at": "2026-07-20T03:45:32Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
