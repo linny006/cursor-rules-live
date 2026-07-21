@@ -1,11 +1,25 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: \"USE WHEN: Defining HTTP requests, endpoints, and handling API responses.\"\nglobs: \"src/lib/api.ts,src/features/**/api/*.{ts,tsx}\"\nalwaysApply: false\n---\n\n# API Layer\n\n## Constraints\n\n* **Location:** Place all HTTP calls under `features/[feature]/api`.\n* **Validation:** Use Zod for input/output validation when data is external or untrusted. Parse responses before they reach UI or state.\n* **Return Type:** Return typed data, not raw responses.\n* **Error Handling:** Normalize all API errors to a consistent `AppError` format (`code`, `message`) before throwing.\n* **Config:** Load `baseURL` from env. Use a single `axios` instance (`src/lib/api.ts`).\n* **Interceptors:** Handle cross-cutting concerns (auth, headers) via interceptors.\n* **Naming:** `verb-entity.api.ts` (e.g., `get-users.api.ts`). Function: `getUsers`.\n* **SSR Safety:** Use only whitelisted internal URLs or absolute paths for server-to-server calls to prevent SSRF.\n\n## Bans\n\n* **Raw Exposure:** Forbidden to use `fetch`/`axios` or raw API data inside UI components, hooks, or state without validation.\n* **Logic Leaks:** Forbidden to leak internal error stack traces or raw axios/fetch errors to the client.\n* **Security:** Forbidden to construct dynamic URLs using unsanitized user inputs.\n* **Architecture:** No `axios.create` inside features, no cross-feature API imports, no hardcoded endpoint strings in queries.\n\n## Correct Implementation\n\n<example>\n```ts\nexport const getUsers = async (): Promise<User[]> => {\n  const { data } = await api.get(\"/users\");\n  return UserSchema.array().parse(data);\n};\n```\n</example>\n\n## Incorrect Implementation\n\n<incorrect-example>\n```tsx\nuseEffect(() => { axios.get(\"/users\"); }, []);\n```\n</incorrect-example>\n",
+      "format": "mdc",
+      "path": ".cursor/rules/api.mdc"
+    },
+    "description": "Production-ready Next.js 16+ starter template built with Tailwind CSS 4 and TypeScript.",
+    "id": "virastack/cli",
+    "language": "TypeScript",
+    "name": "virastack/cli",
+    "stars": 103,
+    "updated_at": "2026-07-21T21:14:34Z",
+    "url": "https://github.com/virastack/cli"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-07-21T20:51:57Z",
+    "updated_at": "2026-07-21T21:00:37Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -73,7 +87,7 @@
     "language": "HTML",
     "name": "arnoldalberto007-sys/Swift-UIKit-Components",
     "stars": 0,
-    "updated_at": "2026-07-21T19:38:04Z",
+    "updated_at": "2026-07-21T21:14:59Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
@@ -509,14 +523,5 @@
     "stars": 0,
     "updated_at": "2026-07-18T21:04:39Z",
     "url": "https://github.com/balacodeio/balakit"
-  },
-  {
-    "description": "",
-    "id": "Ibook000/ibook-skill",
-    "language": "C",
-    "name": "Ibook000/ibook-skill",
-    "stars": 2,
-    "updated_at": "2026-07-18T17:37:12Z",
-    "url": "https://github.com/Ibook000/ibook-skill"
   }
 ]
