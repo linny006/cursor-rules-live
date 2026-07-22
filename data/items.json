@@ -1,5 +1,23 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-07-22T06:45:39Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 1,
+    "updated_at": "2026-07-22T06:44:25Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
+  },
+  {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
     "id": "Trentobobbi/uikit-mastery-playbook",
     "language": "HTML",
@@ -18,21 +36,12 @@
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-07-22T06:30:31Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
     "id": "KbWen/agentic-os",
     "language": "Python",
     "name": "KbWen/agentic-os",
     "stars": 94,
-    "updated_at": "2026-07-22T06:20:17Z",
+    "updated_at": "2026-07-22T06:53:43Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
   {
@@ -45,22 +54,13 @@
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 1,
-    "updated_at": "2026-07-22T06:44:25Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
     "description": "\u5168\u7403\u9152\u5e97\u9884\u8ba2&\u4f4e\u4ef7\u76d1\u63a7\u63d0\u9192Skill\uff0c200\u4e07+\u7cbe\u9009\u9152\u5e97\uff0c\u72ec\u5bb6\u4f18\u60e0\u4ef7\u683c\uff0c\u5168\u7403\u7b2c\u4e09\u5927\u65c5\u6e38\u79d1\u6280\u516c\u53f814\u5e74\u623f\u6e90\u79ef\u7d2f\uff0c\u8ba9\u4f60\u7684Agent\u8f7b\u677e\u9884\u8ba2\u54c1\u8d28\u9152\u5e97\uff0c\u652f\u6301\u652f\u4ed8\u5b9d\u4e0b\u5355+\u67e5\u8be2\u5386\u53f2\u8ba2\u5355\uff0c24 \u5c0f\u65f6\u5ba2\u670d\u652f\u6301\uff0c\u5168\u5929\u5019\u54cd\u5e94\u3002",
-    "id": "RollingGo-AI/RollingGo-hotel-skill-CN",
+    "id": "RollingGo-AI/rollinggo-hotel-skill-cn",
     "language": "Python",
-    "name": "RollingGo-AI/RollingGo-hotel-skill-CN",
-    "stars": 87,
+    "name": "RollingGo-AI/rollinggo-hotel-skill-cn",
+    "stars": 88,
     "updated_at": "2026-07-22T03:09:48Z",
-    "url": "https://github.com/RollingGo-AI/RollingGo-hotel-skill-CN"
+    "url": "https://github.com/RollingGo-AI/rollinggo-hotel-skill-cn"
   },
   {
     "description": "Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API ",
@@ -68,7 +68,7 @@
     "language": "Python",
     "name": "djtelicloud/grok-mcp-server",
     "stars": 21,
-    "updated_at": "2026-07-22T04:17:13Z",
+    "updated_at": "2026-07-22T06:59:11Z",
     "url": "https://github.com/djtelicloud/grok-mcp-server"
   },
   {
@@ -181,7 +181,7 @@
     "id": "ashishkaloge/coding-agent-guidelines",
     "language": "JavaScript",
     "name": "ashishkaloge/coding-agent-guidelines",
-    "stars": 1,
+    "stars": 0,
     "updated_at": "2026-07-21T06:17:47Z",
     "url": "https://github.com/ashishkaloge/coding-agent-guidelines"
   },
@@ -272,7 +272,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 18088,
+    "stars": 18090,
     "updated_at": "2026-07-20T03:45:32Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -286,7 +286,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 38126,
+    "stars": 38127,
     "updated_at": "2026-07-20T01:09:04Z",
     "url": "https://github.com/wshobson/agents"
   },
