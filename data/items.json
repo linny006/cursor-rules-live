@@ -1,11 +1,20 @@
 [
   {
+    "description": "Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API ",
+    "id": "djtelicloud/grok-mcp-server",
+    "language": "Python",
+    "name": "djtelicloud/grok-mcp-server",
+    "stars": 21,
+    "updated_at": "2026-07-22T02:25:39Z",
+    "url": "https://github.com/djtelicloud/grok-mcp-server"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-07-22T02:00:28Z",
+    "updated_at": "2026-07-22T02:15:37Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -254,25 +263,16 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 18060,
+    "stars": 18063,
     "updated_at": "2026-07-20T03:45:32Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
-  },
-  {
-    "description": "Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API ",
-    "id": "djtelicloud/grok-mcp-server",
-    "language": "Python",
-    "name": "djtelicloud/grok-mcp-server",
-    "stars": 21,
-    "updated_at": "2026-07-22T02:09:37Z",
-    "url": "https://github.com/djtelicloud/grok-mcp-server"
   },
   {
     "description": "\u5168\u7403\u9152\u5e97\u9884\u8ba2Skill\uff0c200\u4e07+\u7cbe\u9009\u9152\u5e97\uff0c\u72ec\u5bb6\u4f18\u60e0\u4ef7\u683c\uff0c\u5168\u7403\u7b2c\u4e09\u5927\u9152\u65c5B2B\u516c\u53f8\u6570\u636e\u6e90\uff0c\u53ef\u8bbe\u7f6e\u4ef7\u683c\u76d1\u63a7\u548c\u63d0\u9192\uff0c\u652f\u6301\u521b\u5efa\u8ba2\u5355 + \u652f\u4ed8\u5b9d\u4e8c\u7ef4\u7801+\u67e5\u8be2\u5386\u53f2\u8ba2\u5355\uff0c24 \u5c0f\u65f6\u5ba2\u670d\u652f\u6301\uff0c\u5168\u5929\u5019\u54cd\u5e94\u3002",
     "id": "RollingGo-AI/RollingGo-hotel-skill-CN",
     "language": "Python",
     "name": "RollingGo-AI/RollingGo-hotel-skill-CN",
-    "stars": 85,
+    "stars": 86,
     "updated_at": "2026-07-20T02:33:30Z",
     "url": "https://github.com/RollingGo-AI/RollingGo-hotel-skill-CN"
   },
