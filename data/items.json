@@ -1,12 +1,12 @@
 [
   {
-    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
-    "id": "KbWen/agentic-os",
-    "language": "Python",
-    "name": "KbWen/agentic-os",
-    "stars": 94,
-    "updated_at": "2026-07-22T10:43:58Z",
-    "url": "https://github.com/KbWen/agentic-os"
+    "description": "This plugin makes your AI coding agent an Arcjet security expert.",
+    "id": "arcjet/arcjet-plugin",
+    "language": "Shell",
+    "name": "arcjet/arcjet-plugin",
+    "stars": 1,
+    "updated_at": "2026-07-22T10:53:42Z",
+    "url": "https://github.com/arcjet/arcjet-plugin"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-07-22T10:30:45Z",
+    "updated_at": "2026-07-22T10:45:44Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 94,
+    "updated_at": "2026-07-22T10:54:11Z",
+    "url": "https://github.com/KbWen/agentic-os"
   },
   {
     "cursorrules": {
@@ -45,7 +54,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 18120,
+    "stars": 18121,
     "updated_at": "2026-07-22T09:52:13Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -295,7 +304,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 38138,
+    "stars": 38137,
     "updated_at": "2026-07-20T01:09:04Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -496,22 +505,8 @@
     "id": "danielvm-git/bigpowers",
     "language": "Shell",
     "name": "danielvm-git/bigpowers",
-    "stars": 73,
+    "stars": 74,
     "updated_at": "2026-07-19T00:20:05Z",
     "url": "https://github.com/danielvm-git/bigpowers"
-  },
-  {
-    "cursorrules": {
-      "content": "---\nalwaysApply: true\n---\n\n# Cursor Adapter\n\n`docs/ai` is the source of truth for rules, skills, commands, agent roles, and\nartifacts. Before working, read:\n\n- `.agent-workflow-kit/config.conf` \u2014 project settings and active profiles.\n- `docs/ai/README.md` \u2014 map of the AI surface.\n- `docs/ai/rules/project.md` \u2014 tool-agnostic invariants (scope, clarify, safety,\n  verification).\n- `docs/ai/rules/coding-rules.md` \u2014 this stack's conventions.\n- `docs/ai/rules/commit-message.md` \u2014 Conventional Commits.\n\n`<check>` means `CHECK_COMMAND` from the config. Run it after substantive changes\nunless it is `none`. Do not commit or push without an explicit request.\n\n## Commands\n\nCursor slash commands live in `.cursor/commands/*` as thin adapters that point\ninto `docs/ai/commands/*`. Available: `symphony`, `codex-plan`, `build`,\n`review-full`, `review-design`, `choose-model`, `ai-audit`, `deps-audit`,\n`learn`, `apply-worktree`.\n\n## Roles\n\n- Planning and correctness/security review run through Codex\n  (`docs/ai/agents/cli.md`, `docs/ai/agents/codex-plan.md`,\n  `docs/ai/agents/review-correctness.md`, `docs/ai/agents/review-security.md`).\n- Implementation and design review use the tracked Cursor agents `build` and\n  `review-design` (`docs/ai/agents/build.md`,\n  `docs/ai/agents/review-design.md`).\n\nResolve model roles and effort through config and\n`docs/ai/commands/choose-model.md`. Do not restate rules in replies; follow the\nreferenced files.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/main.mdc"
-    },
-    "description": "Copy-ready agent workflow for Cursor, Claude Code, and Codex. Plan, build, review, and verify with specialized subagents",
-    "id": "Bita71/Agent-Workflow-Kit",
-    "language": "Shell",
-    "name": "Bita71/Agent-Workflow-Kit",
-    "stars": 1,
-    "updated_at": "2026-07-18T21:29:09Z",
-    "url": "https://github.com/Bita71/Agent-Workflow-Kit"
   }
 ]
