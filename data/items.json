@@ -1,11 +1,20 @@
 [
   {
+    "description": "Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API ",
+    "id": "djtelicloud/grok-mcp-server",
+    "language": "Python",
+    "name": "djtelicloud/grok-mcp-server",
+    "stars": 21,
+    "updated_at": "2026-07-22T14:56:09Z",
+    "url": "https://github.com/djtelicloud/grok-mcp-server"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-07-22T14:30:50Z",
+    "updated_at": "2026-07-22T14:45:37Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -50,7 +59,7 @@
     "language": "HTML",
     "name": "edsondviana8/ai-humanizer-core",
     "stars": 0,
-    "updated_at": "2026-07-22T12:22:00Z",
+    "updated_at": "2026-07-22T14:56:34Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
@@ -90,7 +99,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 18132,
+    "stars": 18133,
     "updated_at": "2026-07-22T09:52:13Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -111,15 +120,6 @@
     "stars": 26,
     "updated_at": "2026-07-22T08:21:46Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "description": "Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API ",
-    "id": "djtelicloud/grok-mcp-server",
-    "language": "Python",
-    "name": "djtelicloud/grok-mcp-server",
-    "stars": 21,
-    "updated_at": "2026-07-22T14:44:38Z",
-    "url": "https://github.com/djtelicloud/grok-mcp-server"
   },
   {
     "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 code review, debugging, refactoring, system design, CLAUDE.m",
