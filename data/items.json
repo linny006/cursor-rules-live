@@ -1,11 +1,20 @@
 [
   {
-    "description": "Production-ready Next.js 16+ starter template built with Tailwind CSS 4 and TypeScript.",
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-07-22T22:59:13Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "Scaffold new projects and add tools from the ViraStack ecosystem with a single command.",
     "id": "virastack/start",
     "language": "TypeScript",
     "name": "virastack/start",
     "stars": 103,
-    "updated_at": "2026-07-22T22:43:42Z",
+    "updated_at": "2026-07-22T22:58:14Z",
     "url": "https://github.com/virastack/start"
   },
   {
@@ -14,7 +23,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-07-22T22:30:48Z",
+    "updated_at": "2026-07-22T22:45:47Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -63,15 +72,6 @@
     "url": "https://github.com/tmolavi/antigravity-awesome-skills"
   },
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 0,
-    "updated_at": "2026-07-22T21:57:27Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
     "id": "J-nowcow/awesome-korean-agent-skills",
     "language": "\u2014",
@@ -90,7 +90,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 38151,
+    "stars": 38152,
     "updated_at": "2026-07-22T15:32:23Z",
     "url": "https://github.com/wshobson/agents"
   },
