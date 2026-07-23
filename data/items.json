@@ -10,8 +10,17 @@
     "language": "Shell",
     "name": "danielvm-git/bigpowers",
     "stars": 81,
-    "updated_at": "2026-07-23T16:30:08Z",
+    "updated_at": "2026-07-23T16:39:21Z",
     "url": "https://github.com/danielvm-git/bigpowers"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-07-23T16:30:32Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -21,15 +30,6 @@
     "stars": 26,
     "updated_at": "2026-07-23T16:18:44Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-07-23T16:16:01Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Scaffold new projects and add tools from the ViraStack ecosystem with a single command.",
@@ -205,7 +205,7 @@
     "language": "Python",
     "name": "djtelicloud/grok-mcp-server",
     "stars": 21,
-    "updated_at": "2026-07-23T16:21:46Z",
+    "updated_at": "2026-07-23T16:35:41Z",
     "url": "https://github.com/djtelicloud/grok-mcp-server"
   },
   {
@@ -255,7 +255,7 @@
     "language": "Python",
     "name": "SalesforceAIResearch/agentforce-adlc",
     "stars": 91,
-    "updated_at": "2026-07-22T18:00:16Z",
+    "updated_at": "2026-07-23T16:39:36Z",
     "url": "https://github.com/SalesforceAIResearch/agentforce-adlc"
   },
   {
