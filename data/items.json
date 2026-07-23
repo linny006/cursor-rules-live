@@ -1,12 +1,12 @@
 [
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
     "language": "HTML",
-    "name": "linny006/cursor-rules-live",
+    "name": "edsondviana8/ai-humanizer-core",
     "stars": 1,
-    "updated_at": "2026-07-23T21:43:35Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
+    "updated_at": "2026-07-23T21:56:59Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Scaffold new projects and add tools from the ViraStack ecosystem with a single command.",
@@ -14,8 +14,31 @@
     "language": "TypeScript",
     "name": "virastack/start",
     "stars": 103,
-    "updated_at": "2026-07-23T21:41:54Z",
+    "updated_at": "2026-07-23T21:48:44Z",
     "url": "https://github.com/virastack/start"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Activate ParselFire Core C++ pack index\nglobs: **/*.{cc,cpp,cxx,hh,hpp,hxx,ipp,tpp,inl}\nalwaysApply: false\n---\n\n# C++ Pack Activation\n\nFor C++ source files:\n\n- Load `packs/cpp-architecture/pack.urf.md`.\n- Use its `## ROUTING` and `## LEAVES` records for leaf selection.\n- Use its `## STAGE-REFS` records to gather the family K ids (and their mirrored X ids) at each stage of the walk.\n\nFor ambiguous `.h` or `.c` files that reach this rule via the always-on router:\n\n- Apply cpp-architecture only if the file contains C++ constructs (class, template, namespace, references, std::, noexcept, overloads).\n- If the file is plain C, stay on universal only.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/boffin-cpp-routing.mdc"
+    },
+    "description": "Portable architectural guardrails for AI coding agents",
+    "id": "MicSm/boffin",
+    "language": "JavaScript",
+    "name": "MicSm/boffin",
+    "stars": 3,
+    "updated_at": "2026-07-23T21:53:17Z",
+    "url": "https://github.com/MicSm/boffin"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-07-23T21:45:49Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -61,15 +84,6 @@
     "stars": 1,
     "updated_at": "2026-07-23T20:31:58Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-07-23T20:14:32Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Agent Development Life Cycle \u2014 Build, deploy, test, and optimize Agentforce agents using Claude Code skills and Agent Sc",
@@ -339,20 +353,6 @@
     "stars": 1,
     "updated_at": "2026-07-20T18:48:17Z",
     "url": "https://github.com/GeiserX/homebrew-lynxprompt"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Activate ParselFire Core C++ pack index\nglobs: **/*.{cc,cpp,cxx,hh,hpp,hxx,ipp,tpp,inl}\nalwaysApply: false\n---\n\n# C++ Pack Activation\n\nFor C++ source files:\n\n- Load `packs/cpp-architecture/pack.urf.md`.\n- Use its `## ROUTING` and `## LEAVES` records for leaf selection.\n- Use its `## STAGE-REFS` records to gather the family K ids (and their mirrored X ids) at each stage of the walk.\n\nFor ambiguous `.h` or `.c` files that reach this rule via the always-on router:\n\n- Apply cpp-architecture only if the file contains C++ constructs (class, template, namespace, references, std::, noexcept, overloads).\n- If the file is plain C, stay on universal only.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/boffin-cpp-routing.mdc"
-    },
-    "description": "Portable architectural guardrails for AI coding agents",
-    "id": "MicSm/boffin",
-    "language": "JavaScript",
-    "name": "MicSm/boffin",
-    "stars": 3,
-    "updated_at": "2026-07-20T16:56:20Z",
-    "url": "https://github.com/MicSm/boffin"
   },
   {
     "description": "3D printing toolkit \u2014 AI-powered design skills for Claude Code, Cursor, Windsurf & Copilot, plus parametric OpenSCAD mod",
