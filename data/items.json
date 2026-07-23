@@ -1,11 +1,29 @@
 [
   {
+    "description": "Your AI assistant hallucinates APIs, breaks dependent files, and weakens tests. 29 skills that prevent this across the f",
+    "id": "sungurerdim/dev-skills",
+    "language": "HTML",
+    "name": "sungurerdim/dev-skills",
+    "stars": 1,
+    "updated_at": "2026-07-23T14:27:08Z",
+    "url": "https://github.com/sungurerdim/dev-skills"
+  },
+  {
+    "description": "Scaffold new projects and add tools from the ViraStack ecosystem with a single command.",
+    "id": "virastack/start",
+    "language": "TypeScript",
+    "name": "virastack/start",
+    "stars": 103,
+    "updated_at": "2026-07-23T14:23:04Z",
+    "url": "https://github.com/virastack/start"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-07-23T14:09:45Z",
+    "updated_at": "2026-07-23T14:15:51Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -30,24 +48,6 @@
     "stars": 0,
     "updated_at": "2026-07-23T13:41:50Z",
     "url": "https://github.com/cy117Hub/dhx-tech-electronic-components-sourcing-skill"
-  },
-  {
-    "description": "Scaffold new projects and add tools from the ViraStack ecosystem with a single command.",
-    "id": "virastack/start",
-    "language": "TypeScript",
-    "name": "virastack/start",
-    "stars": 103,
-    "updated_at": "2026-07-23T13:37:22Z",
-    "url": "https://github.com/virastack/start"
-  },
-  {
-    "description": "Your AI assistant hallucinates APIs, breaks dependent files, and weakens tests. 29 skills that prevent this across the f",
-    "id": "sungurerdim/dev-skills",
-    "language": "HTML",
-    "name": "sungurerdim/dev-skills",
-    "stars": 1,
-    "updated_at": "2026-07-23T13:32:52Z",
-    "url": "https://github.com/sungurerdim/dev-skills"
   },
   {
     "description": "Molavi Agent Skills: Curated AI agent skills and MCP configs for Antigravity, Cursor, Codex & Claude \u2014 by Taghi Molavi",
@@ -117,7 +117,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 18207,
+    "stars": 18208,
     "updated_at": "2026-07-23T11:40:36Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -209,7 +209,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 38173,
+    "stars": 38174,
     "updated_at": "2026-07-22T15:32:23Z",
     "url": "https://github.com/wshobson/agents"
   },
