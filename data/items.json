@@ -10,7 +10,7 @@
     "language": "Shell",
     "name": "danielvm-git/bigpowers",
     "stars": 81,
-    "updated_at": "2026-07-23T13:58:59Z",
+    "updated_at": "2026-07-23T14:05:53Z",
     "url": "https://github.com/danielvm-git/bigpowers"
   },
   {
@@ -19,7 +19,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-07-23T13:45:37Z",
+    "updated_at": "2026-07-23T14:00:50Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -39,6 +39,15 @@
     "stars": 103,
     "updated_at": "2026-07-23T13:37:22Z",
     "url": "https://github.com/virastack/start"
+  },
+  {
+    "description": "Your AI assistant hallucinates APIs, breaks dependent files, and weakens tests. 29 skills that prevent this across the f",
+    "id": "sungurerdim/dev-skills",
+    "language": "HTML",
+    "name": "sungurerdim/dev-skills",
+    "stars": 1,
+    "updated_at": "2026-07-23T13:32:52Z",
+    "url": "https://github.com/sungurerdim/dev-skills"
   },
   {
     "description": "Molavi Agent Skills: Curated AI agent skills and MCP configs for Antigravity, Cursor, Codex & Claude \u2014 by Taghi Molavi",
@@ -108,7 +117,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 18206,
+    "stars": 18207,
     "updated_at": "2026-07-23T11:40:36Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -408,15 +417,6 @@
     "stars": 2,
     "updated_at": "2026-07-19T16:57:40Z",
     "url": "https://github.com/babarda/open-visualization-protocol"
-  },
-  {
-    "description": "Your AI assistant hallucinates APIs, breaks dependent files, and weakens tests. 29 skills that prevent this across the f",
-    "id": "sungurerdim/dev-skills",
-    "language": "HTML",
-    "name": "sungurerdim/dev-skills",
-    "stars": 1,
-    "updated_at": "2026-07-23T13:32:52Z",
-    "url": "https://github.com/sungurerdim/dev-skills"
   },
   {
     "description": "Acuris Address Validation & Geocoding agent context \u2014 Claude Code plugin, Cursor rules/docs, and open Agent Skill (agent",
