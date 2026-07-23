@@ -1,12 +1,21 @@
 [
   {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
     "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 1,
-    "updated_at": "2026-07-23T16:49:17Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 0,
+    "updated_at": "2026-07-23T17:09:49Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "Agent Development Life Cycle \u2014 Build, deploy, test, and optimize Agentforce agents using Claude Code skills and Agent Sc",
+    "id": "SalesforceAIResearch/agentforce-adlc",
+    "language": "Python",
+    "name": "SalesforceAIResearch/agentforce-adlc",
+    "stars": 91,
+    "updated_at": "2026-07-23T17:02:14Z",
+    "url": "https://github.com/SalesforceAIResearch/agentforce-adlc"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +23,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-07-23T16:45:30Z",
+    "updated_at": "2026-07-23T17:00:39Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 1,
+    "updated_at": "2026-07-23T16:49:17Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "cursorrules": {
@@ -75,15 +93,6 @@
     "stars": 1,
     "updated_at": "2026-07-23T15:06:19Z",
     "url": "https://github.com/lubochka/xiigen-general-skills"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 0,
-    "updated_at": "2026-07-23T15:02:18Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Your AI assistant hallucinates APIs, breaks dependent files, and weakens tests. 29 skills that prevent this across the f",
@@ -248,15 +257,6 @@
     "stars": 93,
     "updated_at": "2026-07-22T09:21:07Z",
     "url": "https://github.com/RollingGo-AI/rollinggo-hotel-skill-cn"
-  },
-  {
-    "description": "Agent Development Life Cycle \u2014 Build, deploy, test, and optimize Agentforce agents using Claude Code skills and Agent Sc",
-    "id": "SalesforceAIResearch/agentforce-adlc",
-    "language": "Python",
-    "name": "SalesforceAIResearch/agentforce-adlc",
-    "stars": 91,
-    "updated_at": "2026-07-23T16:39:36Z",
-    "url": "https://github.com/SalesforceAIResearch/agentforce-adlc"
   },
   {
     "description": "n8n community node for LynxPrompt \u2014 manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via API",
