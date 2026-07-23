@@ -5,8 +5,17 @@
     "language": "TypeScript",
     "name": "virastack/start",
     "stars": 103,
-    "updated_at": "2026-07-23T15:40:04Z",
+    "updated_at": "2026-07-23T15:52:07Z",
     "url": "https://github.com/virastack/start"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-07-23T15:45:32Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -19,17 +28,8 @@
     "language": "Shell",
     "name": "danielvm-git/bigpowers",
     "stars": 81,
-    "updated_at": "2026-07-23T15:37:48Z",
+    "updated_at": "2026-07-23T15:55:28Z",
     "url": "https://github.com/danielvm-git/bigpowers"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-07-23T15:30:31Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -218,7 +218,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 38174,
+    "stars": 38175,
     "updated_at": "2026-07-22T15:32:23Z",
     "url": "https://github.com/wshobson/agents"
   },
