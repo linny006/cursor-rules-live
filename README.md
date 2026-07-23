@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-07-23 17:15 UTC
+> ⏰ Last updated: 2026-07-23 17:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,15 +53,15 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 0 | HTML | 2026-07-23 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
-| 2 | [SalesforceAIResearch/agentforce-adlc](https://github.com/SalesforceAIResearch/agentforce-adlc) | 91 | Python | 2026-07-23 | — | Agent Development Life Cycle — Build, deploy, test, and optimize Agentforce agents using Claude Code skills and Agent Sc |
+| 1 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-07-23 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
+| 2 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 26 | — | 2026-07-23 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
 | 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 1 | HTML | 2026-07-23 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 4 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 1 | HTML | 2026-07-23 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 5 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 81 | Shell | 2026-07-23 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | 72 agent skills synthesizing 17 years of software engineering discipline into a prescriptive methodology for solo develo |
-| 6 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 26 | — | 2026-07-23 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
-| 7 | [virastack/start](https://github.com/virastack/start) | 103 | TypeScript | 2026-07-23 | — | Scaffold new projects and add tools from the ViraStack ecosystem with a single command. |
-| 8 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-07-23 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
-| 9 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-07-23 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
+| 4 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 0 | HTML | 2026-07-23 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
+| 5 | [SalesforceAIResearch/agentforce-adlc](https://github.com/SalesforceAIResearch/agentforce-adlc) | 91 | Python | 2026-07-23 | — | Agent Development Life Cycle — Build, deploy, test, and optimize Agentforce agents using Claude Code skills and Agent Sc |
+| 6 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 1 | HTML | 2026-07-23 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
+| 7 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 81 | Shell | 2026-07-23 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | 72 agent skills synthesizing 17 years of software engineering discipline into a prescriptive methodology for solo develo |
+| 8 | [virastack/start](https://github.com/virastack/start) | 103 | TypeScript | 2026-07-23 | — | Scaffold new projects and add tools from the ViraStack ecosystem with a single command. |
+| 9 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-07-23 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
 | 10 | [lubochka/xiigen-general-skills](https://github.com/lubochka/xiigen-general-skills) | 1 | PowerShell | 2026-07-23 | — | Open-source AI agent skills for safer Claude, Codex and Cursor coding workflows |
 | 11 | [sungurerdim/dev-skills](https://github.com/sungurerdim/dev-skills) | 1 | HTML | 2026-07-23 | — | Your AI assistant hallucinates APIs, breaks dependent files, and weakens tests. 29 skills that prevent this across the f |
 | 12 | [cy117Hub/dhx-tech-electronic-components-sourcing-skill](https://github.com/cy117Hub/dhx-tech-electronic-components-sourcing-skill) | 0 | — | 2026-07-23 | — | 🚀 Official AI Sourcing & BOM Matcher Agent for DHX Tech. Instantly find million-level in-stock IC components (TI, ST, NX |
