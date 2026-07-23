@@ -1,11 +1,20 @@
 [
   {
+    "description": "Open-source AI agent skills for safer Claude, Codex and Cursor coding workflows",
+    "id": "lubochka/xiigen-general-skills",
+    "language": "PowerShell",
+    "name": "lubochka/xiigen-general-skills",
+    "stars": 1,
+    "updated_at": "2026-07-23T15:06:19Z",
+    "url": "https://github.com/lubochka/xiigen-general-skills"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-07-23T14:45:31Z",
+    "updated_at": "2026-07-23T15:00:37Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -91,7 +100,7 @@
     "language": "HTML",
     "name": "Trentobobbi/uikit-mastery-playbook",
     "stars": 0,
-    "updated_at": "2026-07-23T12:26:49Z",
+    "updated_at": "2026-07-23T15:14:01Z",
     "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
   },
   {
@@ -100,7 +109,7 @@
     "language": "HTML",
     "name": "arnoldalberto007-sys/Swift-UIKit-Components",
     "stars": 0,
-    "updated_at": "2026-07-23T12:26:04Z",
+    "updated_at": "2026-07-23T15:12:35Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
@@ -109,7 +118,7 @@
     "language": "HTML",
     "name": "edsondviana8/ai-humanizer-core",
     "stars": 0,
-    "updated_at": "2026-07-23T12:18:45Z",
+    "updated_at": "2026-07-23T15:02:18Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
@@ -117,7 +126,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 18213,
+    "stars": 18214,
     "updated_at": "2026-07-23T11:40:36Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -494,14 +503,5 @@
     "stars": 3,
     "updated_at": "2026-07-19T06:50:26Z",
     "url": "https://github.com/XAKLESK/cre-agent-skills"
-  },
-  {
-    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
-    "id": "Amirun99/agency-orchestrator",
-    "language": "Dart",
-    "name": "Amirun99/agency-orchestrator",
-    "stars": 0,
-    "updated_at": "2026-07-19T06:44:23Z",
-    "url": "https://github.com/Amirun99/agency-orchestrator"
   }
 ]
