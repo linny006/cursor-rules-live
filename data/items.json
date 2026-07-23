@@ -1,5 +1,23 @@
 [
   {
+    "description": "Scaffold new projects and add tools from the ViraStack ecosystem with a single command.",
+    "id": "virastack/start",
+    "language": "TypeScript",
+    "name": "virastack/start",
+    "stars": 103,
+    "updated_at": "2026-07-23T22:07:17Z",
+    "url": "https://github.com/virastack/start"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-07-23T22:00:45Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
     "id": "edsondviana8/ai-humanizer-core",
     "language": "HTML",
@@ -7,15 +25,6 @@
     "stars": 1,
     "updated_at": "2026-07-23T21:56:59Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "Scaffold new projects and add tools from the ViraStack ecosystem with a single command.",
-    "id": "virastack/start",
-    "language": "TypeScript",
-    "name": "virastack/start",
-    "stars": 103,
-    "updated_at": "2026-07-23T21:48:44Z",
-    "url": "https://github.com/virastack/start"
   },
   {
     "cursorrules": {
@@ -30,15 +39,6 @@
     "stars": 3,
     "updated_at": "2026-07-23T21:53:17Z",
     "url": "https://github.com/MicSm/boffin"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-07-23T21:45:49Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
