@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-07-24 06:30 UTC
+> ⏰ Last updated: 2026-07-24 06:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,12 +53,12 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-07-24 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 1 | HTML | 2026-07-24 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 3 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-07-24 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
-| 4 | [smg99/ticket-flow](https://github.com/smg99/ticket-flow) | 0 | Shell | 2026-07-24 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/smg99/ticket-flow/) | A repeatable, high-discipline workflow pattern for Cursor agents: fetches issues, branches, implements, adds tests, runs |
-| 5 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 1 | HTML | 2026-07-24 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 6 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-07-24 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
+| 1 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 1 | HTML | 2026-07-24 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
+| 2 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-07-24 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
+| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 1 | HTML | 2026-07-24 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 4 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-07-24 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
+| 5 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-07-24 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
+| 6 | [smg99/ticket-flow](https://github.com/smg99/ticket-flow) | 0 | Shell | 2026-07-24 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/smg99/ticket-flow/) | A repeatable, high-discipline workflow pattern for Cursor agents: fetches issues, branches, implements, adds tests, runs |
 | 7 | [kensaurus/cursor-kenji](https://github.com/kensaurus/cursor-kenji) | 6 | JavaScript | 2026-07-24 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/kensaurus/cursor-kenji/) | 🦖Curated Cursor AI agent skills, slash commands, MCP configs, subagents & rules for full-stack dev — React 19, Next.js 1 |
 | 8 | [djtelicloud/grok-mcp-server](https://github.com/djtelicloud/grok-mcp-server) | 21 | Python | 2026-07-24 | — | Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API  |
 | 9 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 82 | Shell | 2026-07-24 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | 72 agent skills synthesizing 17 years of software engineering discipline into a prescriptive methodology for solo develo |
