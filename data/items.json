@@ -1,5 +1,59 @@
 [
   {
+    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
+    "id": "Hyanthropological659/clarify-skill",
+    "language": "\u2014",
+    "name": "Hyanthropological659/clarify-skill",
+    "stars": 0,
+    "updated_at": "2026-07-24T11:11:26Z",
+    "url": "https://github.com/Hyanthropological659/clarify-skill"
+  },
+  {
+    "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
+    "id": "Bastioned-successor320/learn-nanobot",
+    "language": "Python",
+    "name": "Bastioned-successor320/learn-nanobot",
+    "stars": 3,
+    "updated_at": "2026-07-24T11:09:00Z",
+    "url": "https://github.com/Bastioned-successor320/learn-nanobot"
+  },
+  {
+    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
+    "id": "XAKLESK/cre-agent-skills",
+    "language": "\u2014",
+    "name": "XAKLESK/cre-agent-skills",
+    "stars": 3,
+    "updated_at": "2026-07-24T11:07:12Z",
+    "url": "https://github.com/XAKLESK/cre-agent-skills"
+  },
+  {
+    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
+    "id": "Amirun99/agency-orchestrator",
+    "language": "Dart",
+    "name": "Amirun99/agency-orchestrator",
+    "stars": 0,
+    "updated_at": "2026-07-24T11:01:00Z",
+    "url": "https://github.com/Amirun99/agency-orchestrator"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-07-24T11:00:49Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
+    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "language": "\u2014",
+    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "stars": 2,
+    "updated_at": "2026-07-24T11:00:08Z",
+    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
+  },
+  {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
     "id": "edsondviana8/ai-humanizer-core",
     "language": "HTML",
@@ -16,15 +70,6 @@
     "stars": 12,
     "updated_at": "2026-07-24T10:51:56Z",
     "url": "https://github.com/philipbankier/awesome-agent-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-07-24T10:45:56Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
@@ -310,7 +355,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 38189,
+    "stars": 38190,
     "updated_at": "2026-07-22T15:32:23Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -463,55 +508,5 @@
     "stars": 0,
     "updated_at": "2026-07-19T18:36:48Z",
     "url": "https://github.com/TexLeeV/cursor-socratic-mentor"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Automatically document project memory, decision logs, and generate 16-page Notion hub when triggered.\nglobs: *\n---\n\n# Cursor Rule: Documenting Project\n\nActivate when the user requests project documentation using triggers like `/document-project`, `Finalize Project`, or `Generate Project Documentation`.\n\n## Instructions\n\n1. **Reconstruct Project Memory**: Scan conversation transcripts, git history, and workspace files.\n2. **Generate Deliverables**: Output `README.md`, `PROJECT_REPORT.md`, `technical_report.md`, `decision_log.md`, `development_log.md`, `visual_documentation.md`, `project_metrics.md`, `presentation_outline.md`, and `reflection.md`.\n3. **Notion Integration**: If Notion MCP is present, build the 16-page project dashboard hub.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/documenting-project.mdc"
-    },
-    "description": "\ud83e\udde0 Never write docs again. Drop-in AI agent skill (Gemini, Cursor, Claude Code) that auto-generates project reports, deci",
-    "id": "nyalakondasheshankadesai-jpg/antigravity-documentor",
-    "language": "\u2014",
-    "name": "nyalakondasheshankadesai-jpg/antigravity-documentor",
-    "stars": 0,
-    "updated_at": "2026-07-19T17:16:41Z",
-    "url": "https://github.com/nyalakondasheshankadesai-jpg/antigravity-documentor"
-  },
-  {
-    "description": "OVP: the open visualization protocol for describing, validating, and rendering information design identically, for human",
-    "id": "babarda/open-visualization-protocol",
-    "language": "HTML",
-    "name": "babarda/open-visualization-protocol",
-    "stars": 2,
-    "updated_at": "2026-07-19T16:57:40Z",
-    "url": "https://github.com/babarda/open-visualization-protocol"
-  },
-  {
-    "description": "Acuris Address Validation & Geocoding agent context \u2014 Claude Code plugin, Cursor rules/docs, and open Agent Skill (agent",
-    "id": "Acuris-GmbH/acuris-agent-context",
-    "language": "JavaScript",
-    "name": "Acuris-GmbH/acuris-agent-context",
-    "stars": 0,
-    "updated_at": "2026-07-19T09:24:38Z",
-    "url": "https://github.com/Acuris-GmbH/acuris-agent-context"
-  },
-  {
-    "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
-    "id": "mikeprasad/aria-knowledge",
-    "language": "Shell",
-    "name": "mikeprasad/aria-knowledge",
-    "stars": 16,
-    "updated_at": "2026-07-19T08:51:30Z",
-    "url": "https://github.com/mikeprasad/aria-knowledge"
-  },
-  {
-    "description": "Opinionated, atomic coding rules for AI agents (Claude Code) on React Native / Expo / TypeScript \u2014 one rule per file, ea",
-    "id": "mstf66x/claude-code-rules",
-    "language": "\u2014",
-    "name": "mstf66x/claude-code-rules",
-    "stars": 0,
-    "updated_at": "2026-07-19T07:46:59Z",
-    "url": "https://github.com/mstf66x/claude-code-rules"
   }
 ]
