@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-07-24 07:15 UTC
+> ⏰ Last updated: 2026-07-24 07:18 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -80,7 +80,7 @@ expired items removed — so you can rely on what you see being current.
 | 25 | [wshobson/agents](https://github.com/wshobson/agents) | 38190 | Python | 2026-07-22 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI |
 | 26 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 97 | Python | 2026-07-22 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
 | 27 | [arcjet/arcjet-plugin](https://github.com/arcjet/arcjet-plugin) | 1 | Shell | 2026-07-22 | — | This plugin makes your AI coding agent an Arcjet security expert. |
-| 28 | [RollingGo-AI/rollinggo-hotel-skill-cn](https://github.com/RollingGo-AI/rollinggo-hotel-skill-cn) | 96 | Python | 2026-07-22 | — | 全球酒店预订&低价监控提醒Skill，200万+精选酒店，独家优惠价格，全球第三大旅游科技公司14年房源积累，让你的Agent轻松预订品质酒店，支持支付宝下单+查询历史订单，24 小时客服支持，全天候响应。 |
+| 28 | [RollingGo-AI/rollinggo-hotel-skill-cn](https://github.com/RollingGo-AI/rollinggo-hotel-skill-cn) | 97 | Python | 2026-07-22 | — | 全球酒店预订&低价监控提醒Skill，200万+精选酒店，独家优惠价格，全球第三大旅游科技公司14年房源积累，让你的Agent轻松预订品质酒店，支持支付宝下单+查询历史订单，24 小时客服支持，全天候响应。 |
 | 29 | [GeiserX/n8n-nodes-lynxprompt](https://github.com/GeiserX/n8n-nodes-lynxprompt) | 1 | TypeScript | 2026-07-21 | — | n8n community node for LynxPrompt — manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via API |
 | 30 | [Texarkanine/ai-rizz](https://github.com/Texarkanine/ai-rizz) | 0 | Shell | 2026-07-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Texarkanine/ai-rizz/) | Zero-dependency POSIX CLI for managing AI rules and rulesets. Pull rules from a source repository and use them committed |
 | 31 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 17 | HTML | 2026-07-21 | — | Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior |
