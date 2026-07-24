@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-07-24T19:15:31Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
     "id": "Laurellagloomy260/cursor-rules-generator",
     "language": "\u2014",
@@ -25,15 +34,6 @@
     "stars": 3,
     "updated_at": "2026-07-24T19:01:43Z",
     "url": "https://github.com/Bastioned-successor320/learn-nanobot"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-07-24T19:00:36Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
@@ -73,7 +73,7 @@
     "language": "Shell",
     "name": "danielvm-git/bigpowers",
     "stars": 84,
-    "updated_at": "2026-07-24T18:48:35Z",
+    "updated_at": "2026-07-24T19:19:58Z",
     "url": "https://github.com/danielvm-git/bigpowers"
   },
   {
@@ -119,7 +119,7 @@
     "language": "\u2014",
     "name": "J-nowcow/awesome-korean-agent-skills",
     "stars": 26,
-    "updated_at": "2026-07-24T18:19:20Z",
+    "updated_at": "2026-07-24T19:17:15Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
