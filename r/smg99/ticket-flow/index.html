@@ -4,17 +4,17 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="index, follow, max-image-preview:large">
-<title>arcjet/arcjet-plugin - entry on Cursor Rules Live</title>
-<meta name="description" content="This plugin makes your AI coding agent an Arcjet security expert.">
-<link rel="canonical" href="https://linny006.github.io/cursor-rules-live/r/arcjet/arcjet-plugin/">
+<title>smg99/ticket-flow - entry on Cursor Rules Live</title>
+<meta name="description" content="A repeatable, high-discipline workflow pattern for Cursor agents: fetches issues, branches, implements, adds tests, runs">
+<link rel="canonical" href="https://linny006.github.io/cursor-rules-live/r/smg99/ticket-flow/">
 <meta property="og:type" content="article">
-<meta property="og:title" content="arcjet/arcjet-plugin - entry on Cursor Rules Live">
-<meta property="og:description" content="This plugin makes your AI coding agent an Arcjet security expert.">
-<meta property="og:url" content="https://linny006.github.io/cursor-rules-live/r/arcjet/arcjet-plugin/">
+<meta property="og:title" content="smg99/ticket-flow - entry on Cursor Rules Live">
+<meta property="og:description" content="A repeatable, high-discipline workflow pattern for Cursor agents: fetches issues, branches, implements, adds tests, runs">
+<meta property="og:url" content="https://linny006.github.io/cursor-rules-live/r/smg99/ticket-flow/">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="arcjet/arcjet-plugin - entry on Cursor Rules Live">
-<meta name="twitter:description" content="This plugin makes your AI coding agent an Arcjet security expert.">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"arcjet/arcjet-plugin","codeRepository":"https://github.com/arcjet/arcjet-plugin","programmingLanguage":"Shell","url":"https://linny006.github.io/cursor-rules-live/r/arcjet/arcjet-plugin/","description":"This plugin makes your AI coding agent an Arcjet security expert.","author":{"@type":"Person","name":"arcjet","url":"https://github.com/arcjet"},"dateModified":"2026-07-22"}</script>
+<meta name="twitter:title" content="smg99/ticket-flow - entry on Cursor Rules Live">
+<meta name="twitter:description" content="A repeatable, high-discipline workflow pattern for Cursor agents: fetches issues, branches, implements, adds tests, runs">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"smg99/ticket-flow","codeRepository":"https://github.com/smg99/ticket-flow","programmingLanguage":"Shell","url":"https://linny006.github.io/cursor-rules-live/r/smg99/ticket-flow/","description":"A repeatable, high-discipline workflow pattern for Cursor agents: fetches issues, branches, implements, adds tests, runs","author":{"@type":"Person","name":"smg99","url":"https://github.com/smg99"},"dateModified":"2026-07-24"}</script>
 <style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
          --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
 * { box-sizing: border-box; }
@@ -41,17 +41,36 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 </head>
 <body>
 <div class="wrap">
-<nav class="bc"><a href="https://linny006.github.io/cursor-rules-live/">Cursor Rules Live</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/popular/">Entries</a> &#183; <span>arcjet/arcjet-plugin</span></nav>
+<nav class="bc"><a href="https://linny006.github.io/cursor-rules-live/">Cursor Rules Live</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/popular/">Entries</a> &#183; <span>smg99/ticket-flow</span></nav>
 <main>
-<h1>arcjet/arcjet-plugin</h1>
-<p class="lead">This plugin makes your AI coding agent an Arcjet security expert.</p>
+<h1>smg99/ticket-flow</h1>
+<p class="lead">A repeatable, high-discipline workflow pattern for Cursor agents: fetches issues, branches, implements, adds tests, runs</p>
 <div class="meta">
-<span><strong>Stars</strong> 1</span>
+<span><strong>Stars</strong> 0</span>
 <span><strong>Language</strong> Shell</span>
-<span><strong>Last updated</strong> 2026-07-22</span>
-<span><a href="https://github.com/arcjet/arcjet-plugin" rel="external">Source on GitHub</a></span>
-<span><a href="https://github.com/arcjet" rel="external">@arcjet</a></span>
+<span><strong>Last updated</strong> 2026-07-24</span>
+<span><a href="https://github.com/smg99/ticket-flow" rel="external">Source on GitHub</a></span>
+<span><a href="https://github.com/smg99" rel="external">@smg99</a></span>
 </div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/ticket-flow.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
+description: Trigger Ticket Flow skill when working on, fixing, or implementing tickets (e.g. &quot;fix bug PROJ-123&quot;, &quot;work on PROJ-123&quot;)
+globs: *
+alwaysApply: false
+---
+
+# Ticket Flow Trigger Rule
+
+When the user asks to process a ticket, fix a bug with an ID, work on a ticket, or handle a queue of tickets:
+
+1. **Load and follow** the Ticket Flow skill located at `ticket-flow/.cursor/skills/ticket-flow/SKILL.md`.
+2. Do not attempt to freestyle the workflow sequence.
+3. Keep the naming glossary in mind and strictly enforce the **Confirm** validation gate before committing or opening PRs.
+4. Stage only path-scoped changes relevant to the ticket.
+</code></pre>
+<p><a href="https://github.com/smg99/ticket-flow/blob/HEAD/.cursor/rules/ticket-flow.mdc" rel="external">View raw on GitHub</a></p>
+</section>
 <section><h2>Why this is listed</h2>
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>
