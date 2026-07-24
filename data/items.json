@@ -1,21 +1,12 @@
 [
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-07-24T08:08:02Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-07-24T08:00:34Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
+    "description": "\u7528\u4e8e\u751f\u6210\u9879\u76ee\u5b89\u5168\u5f00\u53d1\u89c4\u5219\u7684 Codex Skill\uff0c\u9002\u5408 PM\u3001\u65b0\u624b\u5f00\u53d1\u548c\u591a Agent \u534f\u4f5c\u573a\u666f",
+    "id": "JenayNing/safe-project-rules",
+    "language": "\u2014",
+    "name": "JenayNing/safe-project-rules",
+    "stars": 0,
+    "updated_at": "2026-07-24T08:21:36Z",
+    "url": "https://github.com/JenayNing/safe-project-rules"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -23,8 +14,26 @@
     "language": "\u2014",
     "name": "J-nowcow/awesome-korean-agent-skills",
     "stars": 26,
-    "updated_at": "2026-07-24T07:42:30Z",
+    "updated_at": "2026-07-24T08:20:50Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-07-24T08:15:51Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-07-24T08:08:02Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -100,7 +109,7 @@
     "id": "danielvm-git/bigpowers",
     "language": "Shell",
     "name": "danielvm-git/bigpowers",
-    "stars": 82,
+    "stars": 83,
     "updated_at": "2026-07-24T01:30:56Z",
     "url": "https://github.com/danielvm-git/bigpowers"
   },
@@ -204,7 +213,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 18254,
+    "stars": 18258,
     "updated_at": "2026-07-23T11:40:36Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -499,14 +508,5 @@
     "stars": 0,
     "updated_at": "2026-07-19T06:54:36Z",
     "url": "https://github.com/Hyanthropological659/clarify-skill"
-  },
-  {
-    "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
-    "id": "Bastioned-successor320/learn-nanobot",
-    "language": "Python",
-    "name": "Bastioned-successor320/learn-nanobot",
-    "stars": 3,
-    "updated_at": "2026-07-19T06:52:19Z",
-    "url": "https://github.com/Bastioned-successor320/learn-nanobot"
   }
 ]
