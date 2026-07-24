@@ -1,5 +1,55 @@
 [
   {
+    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
+    "id": "XAKLESK/cre-agent-skills",
+    "language": "\u2014",
+    "name": "XAKLESK/cre-agent-skills",
+    "stars": 3,
+    "updated_at": "2026-07-24T22:14:59Z",
+    "url": "https://github.com/XAKLESK/cre-agent-skills"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: \"m2ui \u2014 Metin2 UI code generator. Activate when user creates, modifies, or generates Metin2 client UI code.\"\nalwaysApply: true\n---\n\n# m2ui \u2014 Metin2 UI Code Generator\n\nWhen the user asks to create, modify, or generate Metin2 client UI code, follow the instructions below. This includes requests like \"create a window\", \"make a UI\", \"add a button to X\", \"modify uiXxx.py\", or when they provide a screenshot of a UI to replicate.\n\n## Mode Detection\n\nDetect the appropriate mode from the user's input:\n\n1. **Image attached** \u2014 analyze the image and replicate it as Metin2 UI code\n2. **Symptom report** \u2014 prompt contains a visible-bug phrase (\"doesn't appear\", \"click does nothing\", \"stuck\", \"leak\", \"crashes after\", \"looks broken\", \"flickers\") \u2014 even when a `.py` file is also referenced \u2192 load `skills/m2ui/reference/failure-atlas.md` FIRST and diagnose via the matching symptom entry, THEN proceed to the relevant mode\n3. **References an existing `.py` file** in `uiscript/` or `root/` \u2014 modify that file\n4. **Text description** \u2014 generate new UI code from the description\n5. **No clear intent** \u2014 ask the user what they want to do\n\n## Reference Documentation\n\n**Always load these (mandatory floor):**\n\n- `skills/m2ui/reference/mental-model.md` \u2014 deprogram web/React assumptions, ymir UI engine concepts\n- `skills/m2ui/reference/event-binding.md` \u2014 callback wrapping matrix\n\n**Conditional load (read only what applies to the task):**\n\n| You're generating... | Also load |\n|----------------------|-----------|\n| New window from scratch | The matching anchor from `skills/m2ui/reference/anchors/` (see `anchors/README.md`) |\n| Modifying an existing window | Skip anchors. Load just the existing files. |\n| Specific widget you haven't used recently | `skills/m2ui/reference/widgets.md` \u2014 jump to that widget's section |\n| Locale-heavy work | `skills/m2ui/reference/locale.md` |\n| Calling a C++ Python API not in context | `skills/m2ui/reference/bindings.md` |\n| Patterns reminder (Initialize/Destroy, scrollbar, lazy-load sub-windows, inner helper classes, 2D grids) | `skills/m2ui/reference/patterns.md` (relevant section only) |\n| User describes a visible symptom (\"X looks broken\", \"leak after closing\") | `skills/m2ui/reference/failure-atlas.md` \u2014 load FIRST before anchors |\n| Visual style/sizing for a new window matters | `skills/m2ui/reference/visual-conventions.md` \u2014 pick archetype + chrome + palette |\n\n> **Symptom-first dispatch:** When the user reports a visible bug rather than asking for new code, load `skills/m2ui/reference/failure-atlas.md` BEFORE any anchor. Diagnose, then (if a fix means new code) load the relevant anchor.\n\n**Anchor selection** for new windows \u2014 2-step decision tree:\n\n**Step 1 \u2014 pick ONE primary archetype (the window's chrome):**\n\n| Window type | Anchor |\n|-------------|--------|\n| Modal yes/no/text dialog | `skills/m2ui/reference/anchors/01-simple-dialog.md` |\n| Board chrome + scrolling DYNAMIC list | `skills/m2ui/reference/anchors/02-board-with-list.md` |\n| Form: list of radio-buttons + Accept | `skills/m2ui/reference/anchors/03-list-selector.md` |\n| Custom 9-slice bordered panel | `skills/m2ui/reference/anchors/04-9slice-panel.md` |\n| Inventory-style with tooltips | `skills/m2ui/reference/anchors/06-tooltip-bound.md` |\n| Shop / exchange / trade | `skills/m2ui/reference/anchors/07-shop-exchange.md` |\n| Inventory / equipment grid | `skills/m2ui/reference/anchors/08-inventory-equipment.md` |\n| Options / settings | `skills/m2ui/reference/anchors/09-options-settings.md` |\n| Paginated slot grid | `skills/m2ui/reference/anchors/10-paginated-slot-grid.md` |\n| Quest / NPC dialog | `skills/m2ui/reference/anchors/11-quest-npc-dialog.md` |\n| Storage / warehouse / mall | `skills/m2ui/reference/anchors/12-storage-warehouse.md` |\n| Craft / refine / item-enhancement | `skills/m2ui/reference/anchors/13-craft-refine-window.md` |\n| Search / filter dialog with results list | `skills/m2ui/reference/anchors/17-search-filter-dialog.md` |\n| Mailbox / message inbox | `skills/m2ui/reference/anchors/18-mailbox-two-pane.md` |\n| Daily reward grid / check-in | `skills/m2ui/reference/anchors/19-daily-reward-grid.md` |\n| Leaderboard / rank table | `skills/m2ui/reference/anchors/20-leaderboard-table.md` |\n| Wheel / roulette / gacha | `skills/m2ui/reference/anchors/21-wheel-roulette.md` |\n| Multi-page detail browser | `skills/m2ui/reference/anchors/24-page-history-browser.md` |\n| Expandable grouped list | `skills/m2ui/reference/anchors/25-expandable-tree-list.md` |\n\nNo exact match \u2192 pick CLOSEST. Do NOT skip Step 1.\n\n**Step 2 \u2014 pick zero or more augmentors (behaviors layered on top):**\n\n| Behavior | Anchor |\n|----------|--------|\n| Window guarded by `app.ENABLE_*` | `skills/m2ui/reference/anchors/05-feature-gated.md` |\n| Slot\u2194slot or slot\u2194window drag-drop | `skills/m2ui/reference/anchors/14-drag-and-drop.md` |\n| Driven by `net.Send` / `RecvX` packets | `skills/m2ui/reference/anchors/15-network-coupled-flow.md` |\n| Multiple panes switched by tabs / radios | `skills/m2ui/reference/anchors/16-tabbed-content.md` |\n| Compare-tooltip side-by-side | `skills/m2ui/reference/anchors/22-compare-tooltip.md` |\n| Auto-hide chrome on inactivity timer | `skills/m2ui/reference/anchors/23-auto-hide-chrome.md` |\n\nIf no anchor matches exactly, pick the closest, copy its skeleton, swap the specifics. Do NOT invent layout from scratch.\n\n**Load discipline:** Read `skills/m2ui/reference/anchors/README.md` to walk the 2-step decision tree, then load: (a) ONE primary archetype anchor (Step 1 result), plus (b) zero or more augmentor anchors (Step 2 results). Augmentors are: `05-feature-gated`, `14-drag-and-drop`, `15-network-coupled-flow`, `16-tabbed-content`, `22-compare-tooltip`, `23-auto-hide-chrome`. Loading multiple primaries is forbidden; loading multiple augmentors is allowed and common (e.g., a draggable inventory uses 08 + 14 + possibly 15 if server-driven). Same applies to widgets.md/locale.md/bindings.md/patterns.md \u2014 load only the section you need, not the whole file.\n\nFor detailed mode-specific instructions:\n\n- `skills/m2ui/modes/screenshot.md` \u2014 image analysis and replication workflow\n- `skills/m2ui/modes/talk.md` \u2014 natural language to UI code workflow\n- `skills/m2ui/modes/script.md` \u2014 existing file modification workflow\n- `skills/m2ui/modes/diagnose.md` \u2014 anti-pattern audit workflow\n\n## Two UI Styles\n\n- **Script-backed**: uiscript dict file (`pack/pack/uiscript/uiscript/`) + root `ui*.py` class using `LoadScriptFile()` \u2014 for complex windows with many static elements\n- **Code-only**: root `ui*.py` class with programmatic `__LoadDialog()`, no uiscript \u2014 for simpler or dynamic windows\n\nAuto-pick based on complexity, or let the user choose.\n\n## Critical Code Generation Rules\n\nAll generated code must follow these rules without exception:\n\n1. `@ui.WindowDestroy` decorator on every `Destroy(self)` method\n2. `Initialize()` or `__Initialize()` sets all instance vars to `None`/defaults\n3. `Destroy()` calls `Initialize()` (and `ClearDictionary()` for script-backed)\n4. `__del__` calls `ui.ScriptWindow.__del__(self)`\n5. **Callback wrapping** \u2014 every callback that references `self` MUST use one of: `ui.__mem_func__()`, `SAFE_SetEvent` (if fork provides it), or `lambda r=proxy(self): r.X()`. Never bare bound methods or self-capturing lambdas. **See `skills/m2ui/reference/event-binding.md` for the full matrix and decision flow.**\n6. `Open()`/`Close()` pattern \u2014 Open calls `Show()`, Close calls `Hide()`\n7. `OnPressEscapeKey()` returns `True` (always; not `False`)\n8. `OnMouseWheel()` returns `True` or `False` based on whether it consumed the event\n9. No hardcoded user-visible strings \u2014 use `localeInfo.*` or `uiScriptLocale.*`\n10. `constInfo.intWithCommas()` for large numbers\n11. `\"not_pick\"` flag on decorative elements (lines, separators, backgrounds)\n12. Create widgets in back-to-front order (SetParent call order = render order)\n13. **Parent bounds clip picking** \u2014 size parents large enough to contain al",
+      "format": "mdc",
+      "path": ".cursor/rules/m2ui.mdc"
+    },
+    "description": "AI coding skill for generating and modifying Metin2 client UI code from screenshots, descriptions, or existing scripts. ",
+    "id": "martysama0134/m2ui-skill",
+    "language": "Shell",
+    "name": "martysama0134/m2ui-skill",
+    "stars": 16,
+    "updated_at": "2026-07-24T22:13:51Z",
+    "url": "https://github.com/martysama0134/m2ui-skill"
+  },
+  {
+    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
+    "id": "Amirun99/agency-orchestrator",
+    "language": "Dart",
+    "name": "Amirun99/agency-orchestrator",
+    "stars": 0,
+    "updated_at": "2026-07-24T22:08:48Z",
+    "url": "https://github.com/Amirun99/agency-orchestrator"
+  },
+  {
+    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
+    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "language": "\u2014",
+    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "stars": 2,
+    "updated_at": "2026-07-24T22:07:56Z",
+    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-07-24T22:00:36Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
     "id": "edsondviana8/ai-humanizer-core",
     "language": "HTML",
@@ -25,15 +75,6 @@
     "stars": 92,
     "updated_at": "2026-07-24T21:47:49Z",
     "url": "https://github.com/SalesforceAIResearch/agentforce-adlc"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-07-24T21:45:56Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -148,33 +189,6 @@
     "stars": 3,
     "updated_at": "2026-07-24T19:01:43Z",
     "url": "https://github.com/Bastioned-successor320/learn-nanobot"
-  },
-  {
-    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
-    "id": "XAKLESK/cre-agent-skills",
-    "language": "\u2014",
-    "name": "XAKLESK/cre-agent-skills",
-    "stars": 3,
-    "updated_at": "2026-07-24T18:59:51Z",
-    "url": "https://github.com/XAKLESK/cre-agent-skills"
-  },
-  {
-    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
-    "id": "Amirun99/agency-orchestrator",
-    "language": "Dart",
-    "name": "Amirun99/agency-orchestrator",
-    "stars": 0,
-    "updated_at": "2026-07-24T18:53:34Z",
-    "url": "https://github.com/Amirun99/agency-orchestrator"
-  },
-  {
-    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
-    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "language": "\u2014",
-    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "stars": 2,
-    "updated_at": "2026-07-24T18:52:52Z",
-    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
   },
   {
     "description": "Your AI assistant hallucinates APIs, breaks dependent files, and weakens tests. 30 skills that prevent this across the f",
@@ -499,14 +513,5 @@
     "stars": 0,
     "updated_at": "2026-07-20T13:07:43Z",
     "url": "https://github.com/wilsonwaters/3d-printing"
-  },
-  {
-    "description": "\u2694 AI agent skills installer \u2014 17,000+ skills for Claude Code, Cursor, Cline, Aider, Codex & Antigravity. pip install lot",
-    "id": "Bilal140202/the-lord-of-the-skills",
-    "language": "Python",
-    "name": "Bilal140202/the-lord-of-the-skills",
-    "stars": 4,
-    "updated_at": "2026-07-20T09:54:21Z",
-    "url": "https://github.com/Bilal140202/the-lord-of-the-skills"
   }
 ]
