@@ -10,8 +10,17 @@
     "language": "Shell",
     "name": "danielvm-git/bigpowers",
     "stars": 82,
-    "updated_at": "2026-07-24T00:59:40Z",
+    "updated_at": "2026-07-24T01:02:53Z",
     "url": "https://github.com/danielvm-git/bigpowers"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-07-24T01:00:52Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "A cheat sheet that stops AI agents from scanning your whole repo and saves you tokens.",
@@ -21,15 +30,6 @@
     "stars": 0,
     "updated_at": "2026-07-24T00:57:47Z",
     "url": "https://github.com/toshon-jennings/SUMMARY-md"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-07-24T00:45:30Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -190,7 +190,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 18221,
+    "stars": 18222,
     "updated_at": "2026-07-23T11:40:36Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
