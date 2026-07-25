@@ -1,5 +1,23 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-07-25T18:53:17Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-07-25T18:45:47Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
     "id": "KbWen/agentic-os",
     "language": "Python",
@@ -16,15 +34,6 @@
     "stars": 0,
     "updated_at": "2026-07-25T18:35:27Z",
     "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-07-25T18:30:47Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
@@ -79,15 +88,6 @@
     "stars": 4,
     "updated_at": "2026-07-25T17:56:59Z",
     "url": "https://github.com/zinxj/uikit-expert-skill"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-07-25T17:51:23Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "cursorrules": {
@@ -150,7 +150,7 @@
     "language": "\u2014",
     "name": "J-nowcow/awesome-korean-agent-skills",
     "stars": 26,
-    "updated_at": "2026-07-25T16:56:20Z",
+    "updated_at": "2026-07-25T18:59:16Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
@@ -205,7 +205,7 @@
     "language": "Shell",
     "name": "danielvm-git/bigpowers",
     "stars": 84,
-    "updated_at": "2026-07-25T18:41:27Z",
+    "updated_at": "2026-07-25T18:57:40Z",
     "url": "https://github.com/danielvm-git/bigpowers"
   },
   {
@@ -446,7 +446,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 38219,
+    "stars": 38220,
     "updated_at": "2026-07-22T15:32:23Z",
     "url": "https://github.com/wshobson/agents"
   },
