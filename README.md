@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-07-25 05:15 UTC
+> ⏰ Last updated: 2026-07-25 05:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -75,7 +75,7 @@ expired items removed — so you can rely on what you see being current.
 | 20 | [parweb/leverage-dev-rules](https://github.com/parweb/leverage-dev-rules) | 0 | — | 2026-07-25 | — | Cursor rules for solo founders shipping their own product: honest UI, hype-free landing copy, single-file HTML disciplin |
 | 21 | [adriannoes/awesome-agentic-ai](https://github.com/adriannoes/awesome-agentic-ai) | 46 | Jupyter Notebook | 2026-07-25 | — | 329 agent skills (Cursor, Claude Code & Codex), 5,380 OpenClaw skills, 201 ML notebooks, 7 textbooks, 52 research papers |
 | 22 | [martysama0134/m2ui-skill](https://github.com/martysama0134/m2ui-skill) | 16 | Shell | 2026-07-24 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/martysama0134/m2ui-skill/) | AI coding skill for generating and modifying Metin2 client UI code from screenshots, descriptions, or existing scripts.  |
-| 23 | [SalesforceAIResearch/agentforce-adlc](https://github.com/SalesforceAIResearch/agentforce-adlc) | 92 | Python | 2026-07-24 | — | Agent Development Life Cycle — Build, deploy, test, and optimize Agentforce agents using Claude Code skills and Agent Sc |
+| 23 | [SalesforceAIResearch/agentforce-adlc](https://github.com/SalesforceAIResearch/agentforce-adlc) | 92 | Python | 2026-07-25 | — | Agent Development Life Cycle — Build, deploy, test, and optimize Agentforce agents using Claude Code skills and Agent Sc |
 | 24 | [GeiserX/lynxprompt-vscode](https://github.com/GeiserX/lynxprompt-vscode) | 1 | TypeScript | 2026-07-24 | — | VS Code extension for LynxPrompt — browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules)  |
 | 25 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 26 | — | 2026-07-24 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
 | 26 | [sungurerdim/dev-skills](https://github.com/sungurerdim/dev-skills) | 1 | HTML | 2026-07-24 | — | Your AI assistant hallucinates APIs, breaks dependent files, and weakens tests. 30 skills that prevent this across the f |
