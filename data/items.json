@@ -1,5 +1,23 @@
 [
   {
+    "description": "How to write great CLAUDE.md, AGENTS.md, Cursor rules, Kiro steering, and Copilot instructions",
+    "id": "TuckerWarlock/ai-instructions",
+    "language": "\u2014",
+    "name": "TuckerWarlock/ai-instructions",
+    "stars": 2,
+    "updated_at": "2026-07-25T21:16:43Z",
+    "url": "https://github.com/TuckerWarlock/ai-instructions"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-07-25T21:15:38Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
     "id": "zinxj/uikit-expert-skill",
     "language": "\u2014",
@@ -44,15 +62,6 @@
     "stars": 3,
     "updated_at": "2026-07-25T21:01:13Z",
     "url": "https://github.com/Luxvil/ai-coding-rules"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-07-25T21:00:35Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -499,14 +508,5 @@
     "stars": 17,
     "updated_at": "2026-07-21T12:17:05Z",
     "url": "https://github.com/MnemeHQ/mneme"
-  },
-  {
-    "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
-    "id": "fluttersdk/wind",
-    "language": "Dart",
-    "name": "fluttersdk/wind",
-    "stars": 27,
-    "updated_at": "2026-07-21T08:14:04Z",
-    "url": "https://github.com/fluttersdk/wind"
   }
 ]
