@@ -1,11 +1,20 @@
 [
   {
+    "description": "agent wiki",
+    "id": "Mark393295827/third-brain-v5-skills",
+    "language": "HTML",
+    "name": "Mark393295827/third-brain-v5-skills",
+    "stars": 123,
+    "updated_at": "2026-07-25T04:42:36Z",
+    "url": "https://github.com/Mark393295827/third-brain-v5-skills"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-07-25T04:29:18Z",
+    "updated_at": "2026-07-25T04:30:42Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -419,7 +428,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 38206,
+    "stars": 38207,
     "updated_at": "2026-07-22T15:32:23Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -504,14 +513,5 @@
     "stars": 0,
     "updated_at": "2026-07-21T06:17:47Z",
     "url": "https://github.com/ashishkaloge/coding-agent-guidelines"
-  },
-  {
-    "description": "Frontend architecture skill definitions for AI agents. Full v2 and Lite versions covering frameworks, rendering, securit",
-    "id": "kozz36/frontend-architect-skill",
-    "language": "\u2014",
-    "name": "kozz36/frontend-architect-skill",
-    "stars": 0,
-    "updated_at": "2026-07-21T02:02:52Z",
-    "url": "https://github.com/kozz36/frontend-architect-skill"
   }
 ]
