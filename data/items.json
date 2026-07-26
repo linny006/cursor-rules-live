@@ -1,12 +1,12 @@
 [
   {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 1,
-    "updated_at": "2026-07-26T09:26:13Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
+    "description": "\ud83d\ude80 Official AI Sourcing & BOM Matcher Agent for DHX Tech. Instantly find million-level in-stock IC components (TI, ST, NX",
+    "id": "cy117Hub/dhx-tech-electronic-components-sourcing-skill",
+    "language": "\u2014",
+    "name": "cy117Hub/dhx-tech-electronic-components-sourcing-skill",
+    "stars": 0,
+    "updated_at": "2026-07-26T09:41:21Z",
+    "url": "https://github.com/cy117Hub/dhx-tech-electronic-components-sourcing-skill"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-07-26T09:15:46Z",
+    "updated_at": "2026-07-26T09:30:40Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 1,
+    "updated_at": "2026-07-26T09:26:13Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
@@ -426,15 +435,6 @@
     "stars": 1,
     "updated_at": "2026-07-23T15:06:19Z",
     "url": "https://github.com/lubochka/xiigen-general-skills"
-  },
-  {
-    "description": "\ud83d\ude80 Official AI Sourcing & BOM Matcher Agent for DHX Tech. Instantly find million-level in-stock IC components (TI, ST, NX",
-    "id": "cy117Hub/dhx-tech-electronic-components-sourcing-skill",
-    "language": "\u2014",
-    "name": "cy117Hub/dhx-tech-electronic-components-sourcing-skill",
-    "stars": 0,
-    "updated_at": "2026-07-23T13:41:50Z",
-    "url": "https://github.com/cy117Hub/dhx-tech-electronic-components-sourcing-skill"
   },
   {
     "description": "Molavi Agent Skills: Curated AI agent skills and MCP configs for Antigravity, Cursor, Codex & Claude \u2014 by Taghi Molavi",
