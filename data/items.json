@@ -1,12 +1,12 @@
 [
   {
-    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
-    "id": "Laurellagloomy260/cursor-rules-generator",
-    "language": "\u2014",
-    "name": "Laurellagloomy260/cursor-rules-generator",
+    "description": "I got tired moving configs between devices",
+    "id": "apoorv-kulkarni/initMe",
+    "language": "Shell",
+    "name": "apoorv-kulkarni/initMe",
     "stars": 0,
-    "updated_at": "2026-07-26T05:56:10Z",
-    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
+    "updated_at": "2026-07-26T06:08:12Z",
+    "url": "https://github.com/apoorv-kulkarni/initMe"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-07-26T05:45:49Z",
+    "updated_at": "2026-07-26T06:00:40Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
+    "id": "Laurellagloomy260/cursor-rules-generator",
+    "language": "\u2014",
+    "name": "Laurellagloomy260/cursor-rules-generator",
+    "stars": 0,
+    "updated_at": "2026-07-26T05:56:10Z",
+    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
   },
   {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
@@ -175,15 +184,6 @@
     "stars": 21,
     "updated_at": "2026-07-25T23:36:50Z",
     "url": "https://github.com/djtelicloud/grok-mcp-server"
-  },
-  {
-    "description": "I got tired moving configs between devices",
-    "id": "apoorv-kulkarni/initMe",
-    "language": "Shell",
-    "name": "apoorv-kulkarni/initMe",
-    "stars": 0,
-    "updated_at": "2026-07-25T23:10:47Z",
-    "url": "https://github.com/apoorv-kulkarni/initMe"
   },
   {
     "description": "How to write great CLAUDE.md, AGENTS.md, Cursor rules, Kiro steering, and Copilot instructions",
