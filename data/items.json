@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-07-26T06:15:48Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "I got tired moving configs between devices",
     "id": "apoorv-kulkarni/initMe",
     "language": "Shell",
@@ -7,15 +16,6 @@
     "stars": 0,
     "updated_at": "2026-07-26T06:08:12Z",
     "url": "https://github.com/apoorv-kulkarni/initMe"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-07-26T06:00:40Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
@@ -328,7 +328,7 @@
     "language": "Python",
     "name": "SalesforceAIResearch/agentforce-adlc",
     "stars": 92,
-    "updated_at": "2026-07-25T05:20:20Z",
+    "updated_at": "2026-07-26T06:17:53Z",
     "url": "https://github.com/SalesforceAIResearch/agentforce-adlc"
   },
   {
@@ -450,7 +450,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 18327,
+    "stars": 18326,
     "updated_at": "2026-07-23T11:40:36Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
