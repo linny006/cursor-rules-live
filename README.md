@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-07-26 19:45 UTC
+> ⏰ Last updated: 2026-07-26 19:58 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,8 +53,8 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 1 | HTML | 2026-07-26 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 2 | HTML | 2026-07-26 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 2 | HTML | 2026-07-26 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 1 | HTML | 2026-07-26 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
 | 3 | [VirtusLab-Open-Source/astro-strapi-loader](https://github.com/VirtusLab-Open-Source/astro-strapi-loader) | 16 | TypeScript | 2026-07-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/VirtusLab-Open-Source/astro-strapi-loader/) | Integration of Astro with Strapi CMS that enables easy data loading from Strapi Content API |
 | 4 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-07-26 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
 | 5 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-07-26 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
@@ -72,7 +72,7 @@ expired items removed — so you can rely on what you see being current.
 | 17 | [johnwall123459885/skene-cookbook](https://github.com/johnwall123459885/skene-cookbook) | 1 | Python | 2026-07-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/johnwall123459885/skene-cookbook/) | 🤖 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development. |
 | 18 | [Luxvil/ai-coding-rules](https://github.com/Luxvil/ai-coding-rules) | 3 | Shell | 2026-07-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Luxvil/ai-coding-rules/) | 🤖 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje |
 | 19 | [sayeed1999/agent-skills](https://github.com/sayeed1999/agent-skills) | 6 | — | 2026-07-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/sayeed1999/agent-skills/) | Reusable agent skills for battle-tested engineering judgment — least code, fix the problem, don't break what works. Work |
-| 20 | [MicSm/boffin](https://github.com/MicSm/boffin) | 21 | JavaScript | 2026-07-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/MicSm/boffin/) | Staff-engineer layer for AI coding agents: routes per-edit architectural constraints and requires verification. Not anot |
+| 20 | [MicSm/boffin](https://github.com/MicSm/boffin) | 22 | JavaScript | 2026-07-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/MicSm/boffin/) | Staff-engineer layer for AI coding agents: routes per-edit architectural constraints and requires verification. Not anot |
 | 21 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 84 | Shell | 2026-07-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | 80 agent skills synthesizing 17 years of software engineering discipline into a prescriptive methodology for solo develo |
 | 22 | [Bilal140202/the-lord-of-the-skills](https://github.com/Bilal140202/the-lord-of-the-skills) | 4 | Python | 2026-07-26 | — | ⚔ AI agent skills installer — 17,000+ skills for Claude Code, Cursor, Cline, Aider, Codex & Antigravity. pip install lot |
 | 23 | [xnoahwang/cursor-prime](https://github.com/xnoahwang/cursor-prime) | 0 | PowerShell | 2026-07-26 | — | Cursor-native config: a strict Plan Gate + Karpathy discipline rules, /plan /delta /prime-init commands, and a global gi |
