@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-07-26 15:39 UTC
+> ⏰ Last updated: 2026-07-26 15:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,8 +53,8 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 1 | HTML | 2026-07-26 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 2 | HTML | 2026-07-26 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 2 | HTML | 2026-07-26 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 1 | HTML | 2026-07-26 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
 | 3 | [sayeed1999/agent-skills](https://github.com/sayeed1999/agent-skills) | 6 | — | 2026-07-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/sayeed1999/agent-skills/) | Reusable agent skills for battle-tested engineering judgment — least code, fix the problem, don't break what works. Work |
 | 4 | [MicSm/boffin](https://github.com/MicSm/boffin) | 4 | JavaScript | 2026-07-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/MicSm/boffin/) | Staff-engineer layer for AI coding agents: routes per-edit architectural constraints and requires verification. Not anot |
 | 5 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-07-26 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
