@@ -1,5 +1,32 @@
 [
   {
+    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
+    "id": "Laurellagloomy260/cursor-rules-generator",
+    "language": "\u2014",
+    "name": "Laurellagloomy260/cursor-rules-generator",
+    "stars": 0,
+    "updated_at": "2026-07-26T23:41:12Z",
+    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
+  },
+  {
+    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
+    "id": "Hyanthropological659/clarify-skill",
+    "language": "\u2014",
+    "name": "Hyanthropological659/clarify-skill",
+    "stars": 0,
+    "updated_at": "2026-07-26T23:30:52Z",
+    "url": "https://github.com/Hyanthropological659/clarify-skill"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 2,
+    "updated_at": "2026-07-26T23:30:28Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
     "id": "Bastioned-successor320/learn-nanobot",
     "language": "Python",
@@ -57,15 +84,6 @@
     "stars": 1,
     "updated_at": "2026-07-26T23:16:06Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 2,
-    "updated_at": "2026-07-26T23:15:30Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
@@ -130,24 +148,6 @@
     "stars": 0,
     "updated_at": "2026-07-26T22:02:46Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
-    "id": "Laurellagloomy260/cursor-rules-generator",
-    "language": "\u2014",
-    "name": "Laurellagloomy260/cursor-rules-generator",
-    "stars": 0,
-    "updated_at": "2026-07-26T21:10:28Z",
-    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
-  },
-  {
-    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
-    "id": "Hyanthropological659/clarify-skill",
-    "language": "\u2014",
-    "name": "Hyanthropological659/clarify-skill",
-    "stars": 0,
-    "updated_at": "2026-07-26T21:00:10Z",
-    "url": "https://github.com/Hyanthropological659/clarify-skill"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
