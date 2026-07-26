@@ -1,12 +1,17 @@
 [
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-07-26T18:57:11Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+    "cursorrules": {
+      "content": "---\ndescription: Strapi 5 + @sensinum/astro-strapi-loader \u2014 content.config.ts, populate, qs, locales\nglobs: \"**/content.config.ts\"\nalwaysApply: false\n---\n\n# Astro Strapi Loader (this repo)\n\n- Docs: [`.ai/AGENTS.md`](.ai/AGENTS.md), [`.ai/astro-strapi-loader/SKILL.md`](.ai/astro-strapi-loader/SKILL.md).\n- **Query objects:** Match [REST API parameters](https://docs.strapi.io/cms/api/rest/parameters)\u2014nested **objects** for `populate` / `filters` / `pagination`, plus **array** or **string** where the table allows (`sort`, `fields`, `populate` as dot paths). **Never** hand-author the final `?` string; **`qs.stringify`** (or the loader) serializes. **Anti-pattern:** inline query text.\n- **Loader:** pass a **plain** `query` object only. **Custom HTTP:** `qs.stringify(q, { encodeValuesOnly: true })`. Not `URLSearchParams` for deep `populate`.\n- **Large configs:** **named fragments** (hero, seo, DZ) composed with `...spread`; optional **separate file** of exported query objects shared with any runtime `fetch` (same object \u2192 same `qs` output).\n- **Dynamic zone:** `populate: { <dzField>: { on: { '<uid>': { populate: ... } } } }`\u2014each component uid its own `populate` subtree.\n- **Locales:** `locale` on each def; use **`collectionName`** to split one Strapi type into many Astro collections (e.g. per language suffix), or one collection with `locale: string[]` and `locale:id` / `_locale` in data.\n- **Merging `generateCollections`:** spread results from one or many `await` calls; loop + merge per def if you need per-endpoint error isolation.\n- **Runtime:** `getCollection` / `getEntry` from `astro:content`.\n\nLoader code: `src/utils/loader.ts`, `src/utils/strapi.ts`.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/astro-strapi-loader.mdc"
+    },
+    "description": "Integration of Astro with Strapi CMS that enables easy data loading from Strapi Content API",
+    "id": "VirtusLab-Open-Source/astro-strapi-loader",
+    "language": "TypeScript",
+    "name": "VirtusLab-Open-Source/astro-strapi-loader",
+    "stars": 16,
+    "updated_at": "2026-07-26T19:13:49Z",
+    "url": "https://github.com/VirtusLab-Open-Source/astro-strapi-loader"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +19,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-07-26T18:45:49Z",
+    "updated_at": "2026-07-26T19:00:40Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-07-26T18:57:11Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -186,7 +200,7 @@
     "id": "MicSm/boffin",
     "language": "JavaScript",
     "name": "MicSm/boffin",
-    "stars": 18,
+    "stars": 20,
     "updated_at": "2026-07-26T15:24:28Z",
     "url": "https://github.com/MicSm/boffin"
   },
@@ -482,7 +496,7 @@
     "id": "nota-america/forgecat-agent-profiles",
     "language": "TypeScript",
     "name": "nota-america/forgecat-agent-profiles",
-    "stars": 23,
+    "stars": 24,
     "updated_at": "2026-07-23T13:31:15Z",
     "url": "https://github.com/nota-america/forgecat-agent-profiles"
   },
@@ -494,14 +508,5 @@
     "stars": 5,
     "updated_at": "2026-07-23T13:13:51Z",
     "url": "https://github.com/tmolavi/mcp-agent-skills-hub"
-  },
-  {
-    "description": "323\u500b\u306e\u5373\u6226\u529bAI\u5c02\u9580\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8 \u2014 Claude Code/Cursor/Copilot\u7b49\u306b\u5bfe\u5fdc\u3002SIer/\u53d7\u8a17\u958b\u767a/SaaS/\u88fd\u9020DX/\u516c\u5171\u5206\u91ce\u306a\u3069\u65e5\u672c\u5e02\u5834\u5411\u3051114\u500b\u306e\u30aa\u30ea\u30b8\u30ca\u30eb\u3092\u542b\u3080\u3001agency-agents\u65e5\u672c\u8a9e\u30b3\u30df\u30e5\u30cb\u30c6\u30a3",
-    "id": "sscodeai/agency-agents-ja",
-    "language": "Shell",
-    "name": "sscodeai/agency-agents-ja",
-    "stars": 5,
-    "updated_at": "2026-07-23T13:02:31Z",
-    "url": "https://github.com/sscodeai/agency-agents-ja"
   }
 ]
