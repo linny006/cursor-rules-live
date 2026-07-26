@@ -1,5 +1,23 @@
 [
   {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 1,
+    "updated_at": "2026-07-26T19:38:31Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 2,
+    "updated_at": "2026-07-26T19:30:41Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: Strapi 5 + @sensinum/astro-strapi-loader \u2014 content.config.ts, populate, qs, locales\nglobs: \"**/content.config.ts\"\nalwaysApply: false\n---\n\n# Astro Strapi Loader (this repo)\n\n- Docs: [`.ai/AGENTS.md`](.ai/AGENTS.md), [`.ai/astro-strapi-loader/SKILL.md`](.ai/astro-strapi-loader/SKILL.md).\n- **Query objects:** Match [REST API parameters](https://docs.strapi.io/cms/api/rest/parameters)\u2014nested **objects** for `populate` / `filters` / `pagination`, plus **array** or **string** where the table allows (`sort`, `fields`, `populate` as dot paths). **Never** hand-author the final `?` string; **`qs.stringify`** (or the loader) serializes. **Anti-pattern:** inline query text.\n- **Loader:** pass a **plain** `query` object only. **Custom HTTP:** `qs.stringify(q, { encodeValuesOnly: true })`. Not `URLSearchParams` for deep `populate`.\n- **Large configs:** **named fragments** (hero, seo, DZ) composed with `...spread`; optional **separate file** of exported query objects shared with any runtime `fetch` (same object \u2192 same `qs` output).\n- **Dynamic zone:** `populate: { <dzField>: { on: { '<uid>': { populate: ... } } } }`\u2014each component uid its own `populate` subtree.\n- **Locales:** `locale` on each def; use **`collectionName`** to split one Strapi type into many Astro collections (e.g. per language suffix), or one collection with `locale: string[]` and `locale:id` / `_locale` in data.\n- **Merging `generateCollections`:** spread results from one or many `await` calls; loop + merge per def if you need per-endpoint error isolation.\n- **Runtime:** `getCollection` / `getEntry` from `astro:content`.\n\nLoader code: `src/utils/loader.ts`, `src/utils/strapi.ts`.\n",
       "format": "mdc",
@@ -12,15 +30,6 @@
     "stars": 16,
     "updated_at": "2026-07-26T19:21:38Z",
     "url": "https://github.com/VirtusLab-Open-Source/astro-strapi-loader"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 2,
-    "updated_at": "2026-07-26T19:15:41Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -93,15 +102,6 @@
     "stars": 3,
     "updated_at": "2026-07-26T17:27:02Z",
     "url": "https://github.com/Bastioned-successor320/learn-nanobot"
-  },
-  {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 1,
-    "updated_at": "2026-07-26T17:26:24Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
