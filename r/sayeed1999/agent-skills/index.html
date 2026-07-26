@@ -14,7 +14,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="sayeed1999/agent-skills - entry on Cursor Rules Live">
 <meta name="twitter:description" content="Reusable agent skills for battle-tested engineering judgment — least code, fix the problem, don&#x27;t break what works. Work">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"sayeed1999/agent-skills","codeRepository":"https://github.com/sayeed1999/agent-skills","programmingLanguage":"—","url":"https://linny006.github.io/cursor-rules-live/r/sayeed1999/agent-skills/","description":"Reusable agent skills for battle-tested engineering judgment — least code, fix the problem, don't break what works. Work","author":{"@type":"Person","name":"sayeed1999","url":"https://github.com/sayeed1999"},"dateModified":"2026-07-07"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"sayeed1999/agent-skills","codeRepository":"https://github.com/sayeed1999/agent-skills","programmingLanguage":"—","url":"https://linny006.github.io/cursor-rules-live/r/sayeed1999/agent-skills/","description":"Reusable agent skills for battle-tested engineering judgment — least code, fix the problem, don't break what works. Work","author":{"@type":"Person","name":"sayeed1999","url":"https://github.com/sayeed1999"},"dateModified":"2026-07-26"}</script>
 <style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
          --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
 * { box-sizing: border-box; }
@@ -46,9 +46,9 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <h1>sayeed1999/agent-skills</h1>
 <p class="lead">Reusable agent skills for battle-tested engineering judgment — least code, fix the problem, don&#x27;t break what works. Work</p>
 <div class="meta">
-<span><strong>Stars</strong> 4</span>
+<span><strong>Stars</strong> 6</span>
 <span><strong>Language</strong> —</span>
-<span><strong>Last updated</strong> 2026-07-07</span>
+<span><strong>Last updated</strong> 2026-07-26</span>
 <span><a href="https://github.com/sayeed1999/agent-skills" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/sayeed1999" rel="external">@sayeed1999</a></span>
 </div>
@@ -89,7 +89,27 @@ Goal: least code, fix problem, no break working stuff.
 - Comment why, not what.
 - Red flag: single-use abstraction, one-method &quot;manager&quot;, options object one caller.
 
-## 3. Surgical change
+## 3. Architecture boundaries (Clean Architecture)
+
+- Business rules are the center. Code depends inward, never outward.
+- Frameworks are tools, not foundations. UI, ORM, web framework, database are replaceable details.
+- Controllers thin: translate input/output only. No business decisions.
+- Use cases focused: one use case = one application action.
+- Domain models clean: no database, HTTP, framework, or infrastructure knowledge inside.
+- Business behavior near business data. Do not scatter rules across controllers/services/helpers.
+- Interfaces at real boundaries: external systems, storage, APIs, queues. No fake abstraction.
+- Dependencies explicit. Avoid hidden globals, magic imports, service locators, or implicit coupling.
+- Composition over inheritance. Assemble behavior instead of deep class trees.
+- Organize around business capabilities, not technical layers.
+```
+Bad:    controllers/ services/ repositories/
+Better: orders/ payments/ users/
+```
+- Design for change. Protect stable business rules from changing technology.
+- Dependency direction matters more than folder structure.
+- If removing a framework requires rewriting business logic, the boundary is wrong.
+
+## 4. Surgical change
 
 - Touch only what ask need — every changed line trace to ask.
 - Unrelated dead code → mention, no delete.
@@ -98,7 +118,7 @@ Goal: least code, fix problem, no break working stuff.
 - Touched behavior no test → add characterization test first.
 - Risky replace (algorithm/migration/payment) → old/new side by side.
 
-## 4. Data vs UI
+## 5. Data vs UI
 
 - Component render data, no own it. Mock one module, no literal in component.
 - Mock shape mirror real API contract.
@@ -106,32 +126,32 @@ Goal: least code, fix problem, no break working stuff.
 - Loading/error/empty = data state, no scattered boolean.
 - Component: render/layout only. Business logic (calc/validation/transform/API call) → hook/service/plain fn.
 
-## 5. Goal-driven execution
+## 6. Goal-driven execution
 
 - Vague ask → verifiable goal. &quot;add validation&quot; → test invalid input, pass it. &quot;fix bug&quot; → reproduce with test, pass it. &quot;refactor X&quot; → test pass before/after.
 - Multi-step task → plan first, numbered, each with &quot;verify:&quot; check.
 
-## 6. Tests
+## 7. Tests
 
 - Few high-quality beat many. Too many = hard maintain, not free coverage.
 - Smallest set catch real regression.
 - Can&#x27;t name bug it catch → cut test.
 - Test public contract, not internal.
 
-## 7. Propose spec when need
+## 8. Propose spec when need
 
 - PRD/spec/ADR = persistent memory for AI agent, skip re-explain context each session.
 - Non-trivial feature, ambiguous requirement, wide blast radius → propose short PRD/spec/ADR first. Small/obvious change → skip.
 - Minimal: problem, decision, alternative, consequence. No padding.
 - ADR → hard-reverse decision or cross-system effect. Spec/PRD → scope/behavior not yet pinned.
 
-## 8. Ship then improve
+## 9. Ship then improve
 
 - Feature first: get correct minimal version work. Improve/optimize/refactor gradual after — not upfront, not speculative.
 - Red-green-refactor: write failing test (red) → smallest code make pass (green) → clean structure only, tests stay green (refactor). Small cycle, not big-bang.
 - Working correct code over perfect design. Perfect later, once real usage show what actual matter.
 
-## 9. Gut-check before output
+## 10. Gut-check before output
 
 Assumption stated not guessed? Diff proportionate, no dead/orphan code? Refactor behavior truly unchanged? Tests few, each catch real bug?
 
@@ -143,8 +163,8 @@ Need more complexity/clarify/test → say it, with tradeoff. No silent over-buil
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>
 <ul class="crosslinks">
-<li><a href="https://linny006.github.io/cursor-rules-live/r/J-nowcow/awesome-korean-agent-skills/">J-nowcow/awesome-korean-agent-skills (stars:23)</a></li>
-<li><a href="https://linny006.github.io/cursor-rules-live/r/tugkanboz/awesome-cursorrules/">tugkanboz/awesome-cursorrules (stars:18)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/J-nowcow/awesome-korean-agent-skills/">J-nowcow/awesome-korean-agent-skills (stars:26)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/zinxj/uikit-expert-skill/">zinxj/uikit-expert-skill (stars:4)</a></li>
 <li><a href="https://linny006.github.io/cursor-rules-live/r/XAKLESK/cre-agent-skills/">XAKLESK/cre-agent-skills (stars:3)</a></li>
 </ul></section>
 <section><h2>Explore by category</h2>
