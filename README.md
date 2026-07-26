@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-07-26 16:36 UTC
+> ⏰ Last updated: 2026-07-26 16:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -102,7 +102,7 @@ expired items removed — so you can rely on what you see being current.
 | 47 | [nota-america/forgecat-agent-profiles](https://github.com/nota-america/forgecat-agent-profiles) | 23 | TypeScript | 2026-07-23 | — | Production-ready AI agent profiles for Claude Code, Cursor, and Codex. Search, install, and contribute ForgeCat packages |
 | 48 | [tmolavi/mcp-agent-skills-hub](https://github.com/tmolavi/mcp-agent-skills-hub) | 5 | JavaScript | 2026-07-23 | — | Molavi Agent Skills: Curated AI agent skills and MCP configs for Antigravity, Cursor, Codex & Claude — by Taghi Molavi |
 | 49 | [sscodeai/agency-agents-ja](https://github.com/sscodeai/agency-agents-ja) | 5 | Shell | 2026-07-23 | — | 323個の即戦力AI専門エージェント — Claude Code/Cursor/Copilot等に対応。SIer/受託開発/SaaS/製造DX/公共分野など日本市場向け114個のオリジナルを含む、agency-agents日本語コミュニティ |
-| 50 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 18349 | Shell | 2026-07-23 | — | 🎭 267 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 52 个中国市场原创智能体（小红书/抖音/ |
+| 50 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 18350 | Shell | 2026-07-23 | — | 🎭 267 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 52 个中国市场原创智能体（小红书/抖音/ |
 <!-- TRACKER_TABLE_END -->
 
 ---
