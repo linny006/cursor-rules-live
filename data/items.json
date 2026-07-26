@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 2,
+    "updated_at": "2026-07-26T13:30:42Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "\u2694 AI agent skills installer \u2014 17,000+ skills for Claude Code, Cursor, Cline, Aider, Codex & Antigravity. pip install lot",
     "id": "Bilal140202/the-lord-of-the-skills",
     "language": "Python",
@@ -7,15 +16,6 @@
     "stars": 4,
     "updated_at": "2026-07-26T13:29:57Z",
     "url": "https://github.com/Bilal140202/the-lord-of-the-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 2,
-    "updated_at": "2026-07-26T13:15:46Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -437,7 +437,7 @@
       "format": "mdc",
       "path": ".cursor/rules/boffin-cpp-routing.mdc"
     },
-    "description": "Portable architectural guardrails for AI coding agents",
+    "description": "Staff-engineer layer for AI coding agents: routes per-edit architectural constraints and requires verification. Not anot",
     "id": "MicSm/boffin",
     "language": "JavaScript",
     "name": "MicSm/boffin",
