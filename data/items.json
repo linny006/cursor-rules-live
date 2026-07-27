@@ -5,7 +5,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-07-27T18:30:46Z",
+    "updated_at": "2026-07-27T18:45:45Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -75,6 +75,15 @@
     "stars": 84,
     "updated_at": "2026-07-27T16:29:32Z",
     "url": "https://github.com/danielvm-git/bigpowers"
+  },
+  {
+    "description": "Agent Development Life Cycle \u2014 Build, deploy, test, and optimize Agentforce agents using Claude Code skills and Agent Sc",
+    "id": "SalesforceAIResearch/agentforce-adlc",
+    "language": "Python",
+    "name": "SalesforceAIResearch/agentforce-adlc",
+    "stars": 93,
+    "updated_at": "2026-07-27T16:24:11Z",
+    "url": "https://github.com/SalesforceAIResearch/agentforce-adlc"
   },
   {
     "description": "Your AI assistant hallucinates APIs, breaks dependent files, and weakens tests. 30 skills that prevent this across the f",
@@ -499,14 +508,5 @@
     "stars": 6,
     "updated_at": "2026-07-25T01:59:13Z",
     "url": "https://github.com/kensaurus/cursor-kenji"
-  },
-  {
-    "description": "Cursor rules for solo founders shipping their own product: honest UI, hype-free landing copy, single-file HTML disciplin",
-    "id": "parweb/leverage-dev-rules",
-    "language": "\u2014",
-    "name": "parweb/leverage-dev-rules",
-    "stars": 0,
-    "updated_at": "2026-07-25T00:16:01Z",
-    "url": "https://github.com/parweb/leverage-dev-rules"
   }
 ]
