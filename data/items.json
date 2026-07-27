@@ -1,11 +1,25 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: Activate ParselFire Core C++ pack index\nglobs: **/*.{cc,cpp,cxx,hh,hpp,hxx,ipp,tpp,inl}\nalwaysApply: false\n---\n\n# C++ Pack Activation\n\nFor C++ source files:\n\n- Load `packs/cpp-architecture/pack.urf.md`.\n- Use its `## ROUTING` and `## LEAVES` records for leaf selection.\n- Use its `## STAGE-REFS` records to gather the family K ids (and their mirrored X ids) at each stage of the walk.\n\nFor ambiguous `.h` or `.c` files that reach this rule via the always-on router:\n\n- Apply cpp-architecture only if the file contains C++ constructs (class, template, namespace, references, std::, noexcept, overloads).\n- If the file is plain C, stay on universal only.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/boffin-cpp-routing.mdc"
+    },
+    "description": "Staff-engineer layer for AI coding agents: routes per-edit architectural constraints and requires verification. Not anot",
+    "id": "MicSm/boffin",
+    "language": "JavaScript",
+    "name": "MicSm/boffin",
+    "stars": 34,
+    "updated_at": "2026-07-27T19:01:29Z",
+    "url": "https://github.com/MicSm/boffin"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-07-27T18:45:45Z",
+    "updated_at": "2026-07-27T19:00:52Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -394,20 +408,6 @@
     "stars": 6,
     "updated_at": "2026-07-26T15:28:29Z",
     "url": "https://github.com/sayeed1999/agent-skills"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Activate ParselFire Core C++ pack index\nglobs: **/*.{cc,cpp,cxx,hh,hpp,hxx,ipp,tpp,inl}\nalwaysApply: false\n---\n\n# C++ Pack Activation\n\nFor C++ source files:\n\n- Load `packs/cpp-architecture/pack.urf.md`.\n- Use its `## ROUTING` and `## LEAVES` records for leaf selection.\n- Use its `## STAGE-REFS` records to gather the family K ids (and their mirrored X ids) at each stage of the walk.\n\nFor ambiguous `.h` or `.c` files that reach this rule via the always-on router:\n\n- Apply cpp-architecture only if the file contains C++ constructs (class, template, namespace, references, std::, noexcept, overloads).\n- If the file is plain C, stay on universal only.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/boffin-cpp-routing.mdc"
-    },
-    "description": "Staff-engineer layer for AI coding agents: routes per-edit architectural constraints and requires verification. Not anot",
-    "id": "MicSm/boffin",
-    "language": "JavaScript",
-    "name": "MicSm/boffin",
-    "stars": 34,
-    "updated_at": "2026-07-26T15:24:28Z",
-    "url": "https://github.com/MicSm/boffin"
   },
   {
     "description": "\u2694 AI agent skills installer \u2014 17,000+ skills for Claude Code, Cursor, Cline, Aider, Codex & Antigravity. pip install lot",
