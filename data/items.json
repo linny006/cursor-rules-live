@@ -1,5 +1,46 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: Strapi 5 + @sensinum/astro-strapi-loader \u2014 content.config.ts, populate, qs, locales\nglobs: \"**/content.config.ts\"\nalwaysApply: false\n---\n\n# Astro Strapi Loader (this repo)\n\n- Docs: [`.ai/AGENTS.md`](.ai/AGENTS.md), [`.ai/astro-strapi-loader/SKILL.md`](.ai/astro-strapi-loader/SKILL.md).\n- **Query objects:** Match [REST API parameters](https://docs.strapi.io/cms/api/rest/parameters)\u2014nested **objects** for `populate` / `filters` / `pagination`, plus **array** or **string** where the table allows (`sort`, `fields`, `populate` as dot paths). **Never** hand-author the final `?` string; **`qs.stringify`** (or the loader) serializes. **Anti-pattern:** inline query text.\n- **Loader:** pass a **plain** `query` object only. **Custom HTTP:** `qs.stringify(q, { encodeValuesOnly: true })`. Not `URLSearchParams` for deep `populate`.\n- **Large configs:** **named fragments** (hero, seo, DZ) composed with `...spread`; optional **separate file** of exported query objects shared with any runtime `fetch` (same object \u2192 same `qs` output).\n- **Dynamic zone:** `populate: { <dzField>: { on: { '<uid>': { populate: ... } } } }`\u2014each component uid its own `populate` subtree.\n- **Locales:** `locale` on each def; use **`collectionName`** to split one Strapi type into many Astro collections (e.g. per language suffix), or one collection with `locale: string[]` and `locale:id` / `_locale` in data.\n- **Merging `generateCollections`:** spread results from one or many `await` calls; loop + merge per def if you need per-endpoint error isolation.\n- **Runtime:** `getCollection` / `getEntry` from `astro:content`.\n\nLoader code: `src/utils/loader.ts`, `src/utils/strapi.ts`.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/astro-strapi-loader.mdc"
+    },
+    "description": "Integration of Astro with Strapi CMS that enables easy data loading from Strapi Content API",
+    "id": "VirtusLab-Open-Source/astro-strapi-loader",
+    "language": "TypeScript",
+    "name": "VirtusLab-Open-Source/astro-strapi-loader",
+    "stars": 16,
+    "updated_at": "2026-07-27T05:29:36Z",
+    "url": "https://github.com/VirtusLab-Open-Source/astro-strapi-loader"
+  },
+  {
+    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
+    "id": "Laurellagloomy260/cursor-rules-generator",
+    "language": "\u2014",
+    "name": "Laurellagloomy260/cursor-rules-generator",
+    "stars": 0,
+    "updated_at": "2026-07-27T05:18:24Z",
+    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
+  },
+  {
+    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 103,
+    "updated_at": "2026-07-27T05:17:50Z",
+    "url": "https://github.com/KbWen/agentic-os"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 2,
+    "updated_at": "2026-07-27T05:15:29Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
     "id": "Hyanthropological659/clarify-skill",
     "language": "\u2014",
@@ -25,15 +66,6 @@
     "stars": 3,
     "updated_at": "2026-07-27T05:03:50Z",
     "url": "https://github.com/XAKLESK/cre-agent-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 2,
-    "updated_at": "2026-07-27T05:00:48Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
@@ -127,15 +159,6 @@
     "url": "https://github.com/plumpslabs/matcha"
   },
   {
-    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
-    "id": "KbWen/agentic-os",
-    "language": "Python",
-    "name": "KbWen/agentic-os",
-    "stars": 103,
-    "updated_at": "2026-07-27T04:56:02Z",
-    "url": "https://github.com/KbWen/agentic-os"
-  },
-  {
     "description": "Your AI assistant reads CLAUDE.md and ignores it anyway. \u0100rai makes instruction files enforced \u2014 hooks that block, a tam",
     "id": "taniwhaai/arai",
     "language": "Rust",
@@ -143,15 +166,6 @@
     "stars": 7,
     "updated_at": "2026-07-27T03:38:38Z",
     "url": "https://github.com/taniwhaai/arai"
-  },
-  {
-    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
-    "id": "Laurellagloomy260/cursor-rules-generator",
-    "language": "\u2014",
-    "name": "Laurellagloomy260/cursor-rules-generator",
-    "stars": 0,
-    "updated_at": "2026-07-27T02:51:30Z",
-    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -193,20 +207,6 @@
     "stars": 27,
     "updated_at": "2026-07-26T20:31:50Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Strapi 5 + @sensinum/astro-strapi-loader \u2014 content.config.ts, populate, qs, locales\nglobs: \"**/content.config.ts\"\nalwaysApply: false\n---\n\n# Astro Strapi Loader (this repo)\n\n- Docs: [`.ai/AGENTS.md`](.ai/AGENTS.md), [`.ai/astro-strapi-loader/SKILL.md`](.ai/astro-strapi-loader/SKILL.md).\n- **Query objects:** Match [REST API parameters](https://docs.strapi.io/cms/api/rest/parameters)\u2014nested **objects** for `populate` / `filters` / `pagination`, plus **array** or **string** where the table allows (`sort`, `fields`, `populate` as dot paths). **Never** hand-author the final `?` string; **`qs.stringify`** (or the loader) serializes. **Anti-pattern:** inline query text.\n- **Loader:** pass a **plain** `query` object only. **Custom HTTP:** `qs.stringify(q, { encodeValuesOnly: true })`. Not `URLSearchParams` for deep `populate`.\n- **Large configs:** **named fragments** (hero, seo, DZ) composed with `...spread`; optional **separate file** of exported query objects shared with any runtime `fetch` (same object \u2192 same `qs` output).\n- **Dynamic zone:** `populate: { <dzField>: { on: { '<uid>': { populate: ... } } } }`\u2014each component uid its own `populate` subtree.\n- **Locales:** `locale` on each def; use **`collectionName`** to split one Strapi type into many Astro collections (e.g. per language suffix), or one collection with `locale: string[]` and `locale:id` / `_locale` in data.\n- **Merging `generateCollections`:** spread results from one or many `await` calls; loop + merge per def if you need per-endpoint error isolation.\n- **Runtime:** `getCollection` / `getEntry` from `astro:content`.\n\nLoader code: `src/utils/loader.ts`, `src/utils/strapi.ts`.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/astro-strapi-loader.mdc"
-    },
-    "description": "Integration of Astro with Strapi CMS that enables easy data loading from Strapi Content API",
-    "id": "VirtusLab-Open-Source/astro-strapi-loader",
-    "language": "TypeScript",
-    "name": "VirtusLab-Open-Source/astro-strapi-loader",
-    "stars": 16,
-    "updated_at": "2026-07-26T20:25:13Z",
-    "url": "https://github.com/VirtusLab-Open-Source/astro-strapi-loader"
   },
   {
     "cursorrules": {
@@ -278,7 +278,7 @@
     "id": "MicSm/boffin",
     "language": "JavaScript",
     "name": "MicSm/boffin",
-    "stars": 29,
+    "stars": 30,
     "updated_at": "2026-07-26T15:24:28Z",
     "url": "https://github.com/MicSm/boffin"
   },
