@@ -1,12 +1,21 @@
 [
   {
-    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
-    "id": "KbWen/agentic-os",
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 27,
+    "updated_at": "2026-07-27T06:58:19Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+  },
+  {
+    "description": "Auto harness engineering meta-repo: discuss \u2192 curate \u2192 bootstrap a context-engineered project for Claude Code, Cursor, C",
+    "id": "glowElephant/context-forge",
     "language": "Python",
-    "name": "KbWen/agentic-os",
-    "stars": 103,
-    "updated_at": "2026-07-27T06:37:01Z",
-    "url": "https://github.com/KbWen/agentic-os"
+    "name": "glowElephant/context-forge",
+    "stars": 3,
+    "updated_at": "2026-07-27T06:54:06Z",
+    "url": "https://github.com/glowElephant/context-forge"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +23,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-07-27T06:30:46Z",
+    "updated_at": "2026-07-27T06:45:30Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 103,
+    "updated_at": "2026-07-27T06:37:01Z",
+    "url": "https://github.com/KbWen/agentic-os"
   },
   {
     "description": "Curated rules, guides, and resources for AI coding agents \u2014 Claude Code, prompts, MCP, skills, and best practices",
@@ -218,15 +236,6 @@
     "url": "https://github.com/danielvm-git/bigpowers"
   },
   {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 27,
-    "updated_at": "2026-07-26T20:31:50Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: Astro + Strapi Blocks \u2014 StrapiBlocks, data, theme (extend/overwrite), custom blocks\nglobs: \"**/*.{astro,ts}\"\nalwaysApply: false\n---\n\n# Astro Strapi Blocks\n\n- **Import:** `StrapiBlocks` from `@sensinum/astro-strapi-blocks`. **`data`:** raw Strapi 5 Blocks array (`StrapiBlockField`); use the same field the API already returns (e.g. `page.content`, `item.description`).\n\n- **Theme:** `theme={{ extend: { \u2026 } }}` appends/merges with defaults; `overwrite` replaces class arrays at each path. Library order: `overwrite` first, then `extend`. For nested list markers, set `list.indent.ordered` / `unordered` as per-level class arrays; see package README.\n\n- **Custom components:** `blocks={{ heading: MyHeading, \u2026 }}`. Each Astro override must match the block\u2019s props (`data`, `theme`, and type-specific props in README). Use `renderPropertyClasses` / `getPropertyClass` from the package when reusing theme paths.\n\n- **New CMS block types** need Strapi schema support; this component only dispatches built-in `type` values\u2014combine with dynamic zones and parent switches for non-standard blocks.\n\n- Deeper context: repository `.ai/astro-strapi-blocks/SKILL.md` and root `README.md`.\n",
       "format": "mdc",
@@ -259,7 +268,7 @@
     "id": "ilindaniel/ponytail-lite",
     "language": "\u2014",
     "name": "ilindaniel/ponytail-lite",
-    "stars": 131,
+    "stars": 129,
     "updated_at": "2026-07-26T18:04:03Z",
     "url": "https://github.com/ilindaniel/ponytail-lite"
   },
@@ -349,15 +358,6 @@
     "stars": 21,
     "updated_at": "2026-07-26T08:52:11Z",
     "url": "https://github.com/djtelicloud/grok-mcp-server"
-  },
-  {
-    "description": "Auto harness engineering meta-repo: discuss \u2192 curate \u2192 bootstrap a context-engineered project for Claude Code, Cursor, C",
-    "id": "glowElephant/context-forge",
-    "language": "Python",
-    "name": "glowElephant/context-forge",
-    "stars": 3,
-    "updated_at": "2026-07-26T08:00:04Z",
-    "url": "https://github.com/glowElephant/context-forge"
   },
   {
     "description": "I got tired moving configs between devices",
