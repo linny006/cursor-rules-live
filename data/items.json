@@ -1,11 +1,20 @@
 [
   {
+    "description": "Your AI assistant reads CLAUDE.md and ignores it anyway. \u0100rai makes instruction files enforced \u2014 hooks that block, a tam",
+    "id": "taniwhaai/arai",
+    "language": "Rust",
+    "name": "taniwhaai/arai",
+    "stars": 7,
+    "updated_at": "2026-07-27T03:38:38Z",
+    "url": "https://github.com/taniwhaai/arai"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-07-27T03:15:28Z",
+    "updated_at": "2026-07-27T03:30:49Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -509,14 +518,5 @@
     "stars": 0,
     "updated_at": "2026-07-24T00:57:47Z",
     "url": "https://github.com/toshon-jennings/SUMMARY-md"
-  },
-  {
-    "description": "Open-source AI agent skills for safer Claude, Codex and Cursor coding workflows",
-    "id": "lubochka/xiigen-general-skills",
-    "language": "PowerShell",
-    "name": "lubochka/xiigen-general-skills",
-    "stars": 1,
-    "updated_at": "2026-07-23T15:06:19Z",
-    "url": "https://github.com/lubochka/xiigen-general-skills"
   }
 ]
