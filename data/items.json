@@ -10,8 +10,17 @@
     "language": "TypeScript",
     "name": "VirtusLab-Open-Source/astro-strapi-loader",
     "stars": 16,
-    "updated_at": "2026-07-27T05:29:36Z",
+    "updated_at": "2026-07-27T05:30:34Z",
     "url": "https://github.com/VirtusLab-Open-Source/astro-strapi-loader"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 2,
+    "updated_at": "2026-07-27T05:30:30Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
@@ -30,15 +39,6 @@
     "stars": 103,
     "updated_at": "2026-07-27T05:17:50Z",
     "url": "https://github.com/KbWen/agentic-os"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 2,
-    "updated_at": "2026-07-27T05:15:29Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
