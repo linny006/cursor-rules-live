@@ -1,11 +1,43 @@
 [
   {
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-07-27T19:43:02Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
+  },
+  {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 0,
+    "updated_at": "2026-07-27T19:41:34Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Governance for AI-driven failure analysis, Gemini 3.1 SDK standards, and Ollama local guardrails.\nglobs: ai_audit/**/*.py\nalwaysApply: false\n---\n\n# AI Audit Governance\n\n> **Scope:** `ai_audit/` \u2014 failure analysis CLI (`failure_analyzer`), `GeminiClient`, `OllamaClient`, and shared `LLMClient` contracts.  \n> **Canonical source of truth:** this file owns the Gemini package, model, and initialization policy for `ai_audit/`. Keep any always-applied migration guardrails short and point back here instead of restating section 2.\n\n---\n\n## 1. Dual-provider resolution (single source of truth)\n\nProvider selection is **explicit** and centralized \u2014 do not scatter alternate env vars or hidden defaults.\n\n| Mechanism | Behavior |\n|-----------|----------|\n| **`AI_PROVIDER`** | `ollama` \\| `gemini`. Empty or unset \u2192 **`ollama`** (local). |\n| **`--client`** | `auto` reads `AI_PROVIDER`; `ollama` \\| `gemini` overrides for that run. |\n| **Client factory** | `get_client(provider, model)` in `failure_analyzer.py` returns **`OllamaClient`** or **`GeminiClient`** only. |\n\n**Gemini (cloud / CI):** requires `GEMINI_API_KEY`. Missing key \u2192 fail fast with a clear message (no silent fallback to Ollama unless product explicitly adds that).\n\n**Ollama (local):** TCP health check on `OLLAMA_BASE_URL` (default `http://127.0.0.1:11434`). Unreachable \u2192 skip or exit per existing CLI behavior; do not half-open requests without a timeout.\n\n---\n\n## 2. SDK & model standards (2026)\n\nThis section is the single source of truth for Gemini SDK, model, and initialization requirements in `ai_audit/`.\n\n### Gemini (cloud)\n\n| Rule | Detail |\n|------|--------|\n| **Package** | **`google-genai` only** (`pip install google-genai`; pin matches `requirements.txt` / `pyproject.toml`). |\n| **API shape** | `from google import genai` \u2192 `genai.Client(api_key=..., http_options=types.HttpOptions(timeout=ms))` \u2192 `client.models.generate_content(...)` \u2192 **`client.close()`** in `finally`. |\n| **Banned** | **`google-generativeai`**, **`GenerativeModel()`**, and any import path that triggers the legacy client. These cause **CI breakage** (deprecated endpoints / 404-class failures). |\n| **Models (allowed)** | **Default (CI + CLI + `DEFAULT_GEMINI_MODEL`):** **`gemini-3.1-flash-lite-preview`**. **Optional override:** **`gemini-3.1-flash-preview`** via `--model` or env when explicitly chosen. |\n| **Models (banned)** | `gemini-1.5-flash`, `gemini-1.5-pro`, `gemini-1.0-pro`, and other decommissioned IDs. |\n\n### Ollama (local)\n\n| Rule | Detail |\n|------|--------|\n| **Transport** | HTTP `POST` to `/api/generate` (or batch API if migrated); always set **request timeout** (`timeout_sec`). |\n| **Structured output** | **Mandate** a **Pydantic model** (or equivalent JSON Schema) for the assistant reply: e.g. `category`, `root_cause`, `fix_markdown`, `confidence`. Parse and validate **before** treating text as authoritative. |\n| **Instruction folding** | Keep the **system / role preamble** short and stable; fold repeated project rules into **one** block (sync Playwright, no Selenium, `get_resilient_*`, no parent\u2013child `.or_()`). Avoid duplicating the same constraint in five bullet points \u2014 that increases drift and token noise. |\n| **`HEURISTIC_FALLBACK`** | If JSON/schema validation fails or the model returns empty **`fix_markdown`**, emit a **deterministic fallback**: category from keyword match on the failure string, root cause = truncated traceback summary, fix = template pointing to `docs/decisions/playwright-locators-and-logging.md` and `page-object-standards.mdc` (no fabricated code). Log the validation failure at **WARNING**. |\n\n*Implementation note:* Until `OllamaClient` fully implements schema validation + fallback, **any change** to `ai_audit/` should move the codebase toward this contract rather than adding more free-form prose endpoints.\n\n---\n\n## 3. Framework isolation (anti-smearing)\n\nLocal and cloud models may **hallucinate** Selenium or async Playwright. Prompts and post-processing **must** enforce framework boundaries.\n\n| Banned in suggested **Fix** code | Reason |\n|----------------------------------|--------|\n| `from selenium.*`, `By`, `WebDriverWait`, `expected_conditions` | Wrong framework \u2014 this repo is **Playwright Python**. |\n| `get_by_xpath`, `driver.find_element`, `querySelector` | Selenium / JS patterns \u2014 **not** Playwright Python. |\n| `async def`, `await`, `playwright.async_api` | **Sync-only** project (`playwright.sync_api`). |\n| Parent `.or_(child)` unions (e.g. `role=alert` with inner `.oxd-alert-content-text`) | **Strict mode** multi-match \u2014 see `page-object-standards.mdc`. |\n\n**Case study (this repo):** `reports/ai_suggestions.md` from **Ollama** proposed Selenium-style locators and async fixtures for a **sync** `LoginPage`. Treat that as **evidence** that unstructured local inference needs schema + folding + fallback.\n\n**Correct patterns to require in prompts and validated output:**\n\n- `from playwright.sync_api import \u2026`\n- `self.get_resilient_locator(...)`, `get_resilient_role_button`, `get_resilient_placeholder`, etc. from `BasePage`\n- `expect(locator)` for UI; no `page.wait_for_timeout()`\n\n---\n\n## 4. Failure analysis inputs (signal quality)\n\nWhen extending the analyzer, prefer inputs in this order:\n\n1. **Playwright trace** artifacts (timeline, snapshots, **ARIA / accessibility tree** excerpts) \u2014 highest signal for locator and timing failures.\n2. **Structured stderr / pytest** failure text (assertion line + short traceback) \u2014 already trimmed via `_trim_failure_message`.\n3. **Raw HTML dumps** \u2014 lowest priority; use only when traces are unavailable.\n\n**AI-generated fixes** are **suggestions only**. They must be **checked** against:\n\n- **`.cursor/rules/page-object-standards.mdc`** (POM, locators, logging, errors)\n- **`playwright-core-sync.mdc`** (sync-only, no Selenium)\n\nNever commit generated code without a human or CI test pass.\n\n---\n\n## 5. Error handling, rate limits, deprecations, observability\n\n| Concern | Requirement |\n|---------|-------------|\n| **HTTP / API errors** | Catch `requests` and SDK exceptions; return a **single user-readable line** (Ollama) or message string (Gemini) \u2014 no bare stack traces to stdout in CI summaries. |\n| **Rate limits (429) / quota** | Retry with **bounded** backoff only where the SDK or HTTP layer allows; otherwise surface \u201crate limited\u201d and suggest retry delay. Do not spin forever. |\n| **Model not found / 404** | Treat as **misconfiguration**: wrong model ID or deprecated API. Log model name and suggest allowed IDs from section 2. |\n| **Timeouts** | Gemini: `HttpOptions(timeout=...)` must reflect `timeout_sec`. Ollama: `requests.post(..., timeout=...)`. |\n| **Audit logging** | Use the **`logging`** module with a dedicated logger (e.g. `logging.getLogger(\"ai_audit\")`). Log at **INFO**: provider, model id, test name, output path; at **WARNING**: validation fallback, truncated responses; at **ERROR**: SDK failures. *Do not* use page-object `_error_logger` inside `ai_audit/` \u2014 that belongs to `BasePage`; mirror the same **discipline** (no silent swallow). |\n\nSuggestions written to disk (e.g. `reports/ai_suggestions.md`) remain the **artifact** for humans; structured logs are for **audit and CI forensics**.\n\n---\n\n## 6. Prompt hygiene (both providers)\n\n- Refer to **`.or_()`** (Python API name), not `.or()`.\n- Explicitly state: \u201cOutput **Playwright sync_api** only; **no Selenium**; **no async**.\u201d\n- Point fix authors at **`get_resilient_*`** helpers, not raw `locator(...).or_(...)` unless justified in a code comment and compliant with strictness rules.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/ai-audit-governance.mdc"
+    },
+    "description": "A production-grade vertical-slice automation ecosystem built with Playwright and Python. Features a thread-safe POM with",
+    "id": "agrawalshreya10/autonomous-quality-engine",
+    "language": "Python",
+    "name": "agrawalshreya10/autonomous-quality-engine",
+    "stars": 1,
+    "updated_at": "2026-07-27T19:36:22Z",
+    "url": "https://github.com/agrawalshreya10/autonomous-quality-engine"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-07-27T19:15:36Z",
+    "updated_at": "2026-07-27T19:30:46Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -39,24 +71,6 @@
     "stars": 1,
     "updated_at": "2026-07-27T17:57:44Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
-    "stars": 0,
-    "updated_at": "2026-07-27T17:47:12Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 0,
-    "updated_at": "2026-07-27T17:46:26Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -494,19 +508,5 @@
     "stars": 124,
     "updated_at": "2026-07-25T04:42:36Z",
     "url": "https://github.com/Mark393295827/third-brain-v7-skills"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Execution-time guardrails for Composer 2.5 when implementing an approved plan-*.md (anti-reward-hacking, anti-feature-deletion, checkpointing, context + terminal discipline). Plans are authored/reviewed by a stronger model (e.g. Opus 4.8); this governs the Composer execution run.\nglobs:\nalwaysApply: true\n---\n\n# Composer 2.5 Execution Adapter\n\nYou are executing an **already-approved plan** (a `plan-*.md` audit/burndown authored and reviewed with a stronger reasoning model). Your job is faithful, verifiable *implementation* \u2014 not re-planning or inventing unrelated scope. When `complete-everything` is explicitly active, its connected closure set (planned + previously parked + discovered blast-radius work) is part of the approved scope. When `burndown-full` is active, repo-wide search determines mechanical scope. These rules are tuned to Composer 2.5's known failure modes and are binding for every change.\n\n## 1. Anti-reward-hacking (highest priority)\nSatisfy the **intent**, never just the check. Forbidden:\n- Hardcoding expected outputs, asserting trivialities, or narrowing a test so it cannot fail.\n- Deleting, skipping, or `.only`-ing a failing test to get green.\n- Silencing errors with `@ts-ignore`, `eslint-disable`, broad `try/catch`, or `any` instead of fixing the cause.\n- Stubbing/mocking the very thing under test.\n- Reconstructing or faking data from caches, snapshots, fixtures, or bytecode to appear correct.\n\nA green suite is necessary, not sufficient. In your trace, state why the change is correct \u2014 not just that checks pass.\n\n## 2. Anti-feature-deletion\n- Never delete or \"simplify away\" working code, features, routes, props, handlers, or states to pass checks or reduce scope. If something seems removable, leave it and note it for review.\n- When replacing an implementation, preserve the existing public API, behavior, and output unless the approved plan explicitly says otherwise.\n\n## 3. Small, checkpointed units\n- Implement one burndown item (or one tight group) at a time. Do not execute the whole plan in a single unattended rollout.\n- After each unit: run the relevant tests / typecheck / lint and confirm green.\n- **Default mode:** stop at the plan's phase boundaries for review; do not auto-advance.\n- **Explicit closure mode:** when the user invokes `complete-everything` or `burndown-full`, a phase boundary is an audit checkpoint, not a permission stop. Persist state, report meaningful progress, and auto-advance until the closure set is empty or a real human gate below is reached.\n- If a tool call fails or a step dead-ends, fix that step before continuing \u2014 never paper over it and push on.\n\n## 4. Context discipline (200k window)\n- Work per-surface / per-module; load only the files needed for the current unit. Do not try to hold the whole repo in context.\n- For wide work, build the inventory/checklist first, then iterate through it in batches.\n\n## 5. Terminal caution\n- Re-read any shell command before running. For anything destructive (migrations, `rm`, force-push, prod-pointed scripts, DB writes), prefer a dry-run/preview and pause for confirmation. Never run a state-mutating command unless it is in the approved plan.\n- Schema DDL, RPCs, edge functions, policies, or buckets explicitly required by the approved plan are not optional follow-ups. With the target environment confirmed, deploy and verify them under `full-stack-ship-discipline`; do not pause solely because the implementation uses a migration.\n\n## 6. Verify-before-trust\n- Before each change, state in one line: what behavior must stay identical here \u2014 then confirm it does.\n- Surface assumptions; if the plan is ambiguous for this item, ask rather than guess.\n- Leave a short trace per change (what / why / what was verified) so a human can audit the rollout.\n\n## 7. Follow the plan's conventions\n- The target repo is inconsistent by assumption (that's why it was audited). Treat the design-system spec / canonical patterns defined in the plan as the convention \u2014 don't invent a new per-file style.\n\n## STOP and ask the human if:\n- A real data/contract/endpoint/target is unknown (don't fabricate a substitute).\n- A fix would change public behavior/API/output not covered by the approved plan.\n- A change touches auth behavior, RLS semantics, secrets/rotation, payments, destructive production-data mutation, or an unconfirmed migration target (consider routing these to a stronger model rather than executing directly).\n- Do **not** stop merely because an approved feature requires non-destructive schema DDL on a confirmed target; deploy and verify it under `full-stack-ship-discipline`.\n- The only way to pass is a shortcut that doesn't satisfy the real intent.\n- Tests would need to be deleted, skipped, or weakened to pass.\n\nWhen unsure, research before acting (`/research`).\n",
-      "format": "mdc",
-      "path": ".cursor/rules/composer-2.5-execution.mdc"
-    },
-    "description": "\ud83e\udd96Curated Cursor AI agent skills, slash commands, MCP configs, subagents & rules for full-stack dev \u2014 React 19, Next.js 1",
-    "id": "kensaurus/cursor-kenji",
-    "language": "JavaScript",
-    "name": "kensaurus/cursor-kenji",
-    "stars": 6,
-    "updated_at": "2026-07-25T01:59:13Z",
-    "url": "https://github.com/kensaurus/cursor-kenji"
   }
 ]
