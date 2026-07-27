@@ -1,11 +1,20 @@
 [
   {
+    "description": "Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior",
+    "id": "MnemeHQ/mneme",
+    "language": "HTML",
+    "name": "MnemeHQ/mneme",
+    "stars": 17,
+    "updated_at": "2026-07-27T17:08:59Z",
+    "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-07-27T16:45:37Z",
+    "updated_at": "2026-07-27T17:00:47Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -286,7 +295,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 18408,
+    "stars": 18410,
     "updated_at": "2026-07-27T06:18:21Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -499,14 +508,5 @@
     "stars": 0,
     "updated_at": "2026-07-25T00:16:01Z",
     "url": "https://github.com/parweb/leverage-dev-rules"
-  },
-  {
-    "description": "329 agent skills (Cursor, Claude Code & Codex), 5,380 OpenClaw skills, 201 ML notebooks, 7 textbooks, 52 research papers",
-    "id": "adriannoes/awesome-agentic-ai",
-    "language": "Jupyter Notebook",
-    "name": "adriannoes/awesome-agentic-ai",
-    "stars": 46,
-    "updated_at": "2026-07-25T03:35:05Z",
-    "url": "https://github.com/adriannoes/awesome-agentic-ai"
   }
 ]
