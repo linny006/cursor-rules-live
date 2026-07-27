@@ -1,5 +1,23 @@
 [
   {
+    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 103,
+    "updated_at": "2026-07-27T06:37:01Z",
+    "url": "https://github.com/KbWen/agentic-os"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 2,
+    "updated_at": "2026-07-27T06:30:46Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Curated rules, guides, and resources for AI coding agents \u2014 Claude Code, prompts, MCP, skills, and best practices",
     "id": "fluzzy/archive",
     "language": "\u2014",
@@ -27,15 +45,6 @@
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 2,
-    "updated_at": "2026-07-27T06:15:50Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: Strapi 5 + @sensinum/astro-strapi-loader \u2014 content.config.ts, populate, qs, locales\nglobs: \"**/content.config.ts\"\nalwaysApply: false\n---\n\n# Astro Strapi Loader (this repo)\n\n- Docs: [`.ai/AGENTS.md`](.ai/AGENTS.md), [`.ai/astro-strapi-loader/SKILL.md`](.ai/astro-strapi-loader/SKILL.md).\n- **Query objects:** Match [REST API parameters](https://docs.strapi.io/cms/api/rest/parameters)\u2014nested **objects** for `populate` / `filters` / `pagination`, plus **array** or **string** where the table allows (`sort`, `fields`, `populate` as dot paths). **Never** hand-author the final `?` string; **`qs.stringify`** (or the loader) serializes. **Anti-pattern:** inline query text.\n- **Loader:** pass a **plain** `query` object only. **Custom HTTP:** `qs.stringify(q, { encodeValuesOnly: true })`. Not `URLSearchParams` for deep `populate`.\n- **Large configs:** **named fragments** (hero, seo, DZ) composed with `...spread`; optional **separate file** of exported query objects shared with any runtime `fetch` (same object \u2192 same `qs` output).\n- **Dynamic zone:** `populate: { <dzField>: { on: { '<uid>': { populate: ... } } } }`\u2014each component uid its own `populate` subtree.\n- **Locales:** `locale` on each def; use **`collectionName`** to split one Strapi type into many Astro collections (e.g. per language suffix), or one collection with `locale: string[]` and `locale:id` / `_locale` in data.\n- **Merging `generateCollections`:** spread results from one or many `await` calls; loop + merge per def if you need per-endpoint error isolation.\n- **Runtime:** `getCollection` / `getEntry` from `astro:content`.\n\nLoader code: `src/utils/loader.ts`, `src/utils/strapi.ts`.\n",
       "format": "mdc",
@@ -57,15 +66,6 @@
     "stars": 0,
     "updated_at": "2026-07-27T05:18:24Z",
     "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
-  },
-  {
-    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
-    "id": "KbWen/agentic-os",
-    "language": "Python",
-    "name": "KbWen/agentic-os",
-    "stars": 103,
-    "updated_at": "2026-07-27T06:12:11Z",
-    "url": "https://github.com/KbWen/agentic-os"
   },
   {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
