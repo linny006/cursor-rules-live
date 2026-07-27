@@ -1,11 +1,20 @@
 [
   {
+    "description": "Spec-Driven Development (SDD) harness & skill suite for Google Antigravity (AGY), Gemini 3.6, Claude Opus, DeepSeek R1, ",
+    "id": "stormlive-ai/ag-sdd",
+    "language": "JavaScript",
+    "name": "stormlive-ai/ag-sdd",
+    "stars": 0,
+    "updated_at": "2026-07-27T07:38:33Z",
+    "url": "https://github.com/stormlive-ai/ag-sdd"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-07-27T07:15:42Z",
+    "updated_at": "2026-07-27T07:30:48Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -49,7 +58,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 18384,
+    "stars": 18386,
     "updated_at": "2026-07-27T06:18:21Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -504,14 +513,5 @@
     "stars": 1,
     "updated_at": "2026-07-24T11:54:30Z",
     "url": "https://github.com/95gabor/agentic-workflow"
-  },
-  {
-    "description": "Homebrew tap for LynxPrompt CLI",
-    "id": "GeiserX/homebrew-lynxprompt",
-    "language": "Ruby",
-    "name": "GeiserX/homebrew-lynxprompt",
-    "stars": 1,
-    "updated_at": "2026-07-24T09:44:11Z",
-    "url": "https://github.com/GeiserX/homebrew-lynxprompt"
   }
 ]
