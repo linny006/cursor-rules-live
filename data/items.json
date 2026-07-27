@@ -1,11 +1,38 @@
 [
   {
+    "description": "Curated rules, guides, and resources for AI coding agents \u2014 Claude Code, prompts, MCP, skills, and best practices",
+    "id": "fluzzy/archive",
+    "language": "\u2014",
+    "name": "fluzzy/archive",
+    "stars": 0,
+    "updated_at": "2026-07-27T06:28:25Z",
+    "url": "https://github.com/fluzzy/archive"
+  },
+  {
+    "description": "\ud83c\udfad 267 \u4e2a\u5373\u63d2\u5373\u7528\u7684 AI \u4e13\u5bb6\u89d2\u8272 \u2014 \u652f\u6301 Hermes Agent/Claude Code/Cursor/Copilot \u7b49 18 \u79cd\u5de5\u5177\uff0c\u8986\u76d6\u5de5\u7a0b/\u8bbe\u8ba1/\u8425\u9500/\u91d1\u878d\u7b49 20 \u4e2a\u90e8\u95e8\u3002\u542b 52 \u4e2a\u4e2d\u56fd\u5e02\u573a\u539f\u521b\u667a\u80fd\u4f53\uff08\u5c0f\u7ea2\u4e66/\u6296\u97f3/",
+    "id": "jnMetaCode/agency-agents-zh",
+    "language": "Shell",
+    "name": "jnMetaCode/agency-agents-zh",
+    "stars": 18383,
+    "updated_at": "2026-07-27T06:18:21Z",
+    "url": "https://github.com/jnMetaCode/agency-agents-zh"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-07-27T06:17:27Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-07-27T06:00:46Z",
+    "updated_at": "2026-07-27T06:15:50Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -166,15 +193,6 @@
     "stars": 7,
     "updated_at": "2026-07-27T03:38:38Z",
     "url": "https://github.com/taniwhaai/arai"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-07-27T02:00:37Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 code review, debugging, refactoring, system design, CLAUDE.m",
@@ -495,28 +513,5 @@
     "stars": 1,
     "updated_at": "2026-07-24T09:44:11Z",
     "url": "https://github.com/GeiserX/homebrew-lynxprompt"
-  },
-  {
-    "description": "\u7528\u4e8e\u751f\u6210\u9879\u76ee\u5b89\u5168\u5f00\u53d1\u89c4\u5219\u7684 Codex Skill\uff0c\u9002\u5408 PM\u3001\u65b0\u624b\u5f00\u53d1\u548c\u591a Agent \u534f\u4f5c\u573a\u666f",
-    "id": "JenayNing/safe-project-rules",
-    "language": "\u2014",
-    "name": "JenayNing/safe-project-rules",
-    "stars": 0,
-    "updated_at": "2026-07-24T08:21:36Z",
-    "url": "https://github.com/JenayNing/safe-project-rules"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Trigger Ticket Flow skill when working on, fixing, or implementing tickets (e.g. \"fix bug PROJ-123\", \"work on PROJ-123\")\nglobs: *\nalwaysApply: false\n---\n\n# Ticket Flow Trigger Rule\n\nWhen the user asks to process a ticket, fix a bug with an ID, work on a ticket, or handle a queue of tickets:\n\n1. **Load and follow** the Ticket Flow skill located at `ticket-flow/.cursor/skills/ticket-flow/SKILL.md`.\n2. Do not attempt to freestyle the workflow sequence.\n3. Keep the naming glossary in mind and strictly enforce the **Confirm** validation gate before committing or opening PRs.\n4. Stage only path-scoped changes relevant to the ticket.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/ticket-flow.mdc"
-    },
-    "description": "A repeatable, high-discipline workflow pattern for Cursor agents: fetches issues, branches, implements, adds tests, runs",
-    "id": "smg99/ticket-flow",
-    "language": "Shell",
-    "name": "smg99/ticket-flow",
-    "stars": 0,
-    "updated_at": "2026-07-24T04:17:33Z",
-    "url": "https://github.com/smg99/ticket-flow"
   }
 ]
