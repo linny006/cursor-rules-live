@@ -1,12 +1,26 @@
 [
   {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
+    "cursorrules": {
+      "content": "---\ndescription: Living Blueprint-as-Code (LBaC) \u2014 Project Rules for Cursor AI\nglobs: [\"**/*.md\", \"**/*.js\", \"**/*.ts\", \"**/*.py\", \"**/*.java\", \"**/*.dart\"]\nalwaysApply: true\n---\n\n# LBaC Project Rules\n\n> **MANDATORY:** Before starting any task, read [`.agents/AGENTS.md`](../../.agents/AGENTS.md) and [`docs/LBAC.md`](../../docs/LBAC.md).\n\n## Mandatory Workflow\n\n0.  **TELL ME THE PROJECT** \u2014 Run `docs/templates/project.prompt.md` with any AI to generate Feature Maps, user stories, roadmap, and business rules. Tracks progress in `docs/planning/tmtp_session.md`. Skip if Feature Maps already exist.\n1.  **READ** the relevant Feature Map in `docs/features/` (As-Is / To-Be / BDD criteria).\n2.  **CHECK** `docs/technical_debt.md` for related cleanup items.\n3.  **PLAN** \u2014 Create an Implementation Plan in `docs/implementations/` using the template. Present it and **wait for explicit approval before writing code**.\n4.  **CODE** in an isolated branch.\n5.  **VERIFY** \u2014 Complete the Verification Report in `docs/implementations/` confirming all BDD scenarios pass.\n\n## Hard Constraints\n\n- \u274c Never create files, models, or database schemas that already exist in the project.\n- \u274c Never rewrite entire files \u2014 provide localized diff-style edits only.\n- \u274c Never skip the Implementation Plan step.\n- \u2705 Use English for all AI-consumed files (`docs/features/`, `docs/LBAC.md`, `docs/technical_debt.md`, `.agents/AGENTS.md`).\n- \u2705 Use local language (e.g., Espa\u00f1ol) for stakeholder files (`docs/business/`, `docs/adr/`, `docs/planning/*_qa.md`).\n- \u2705 Format all file paths as clickable `file:///` links in responses.\n\n## Reference\n\n\u2192 [`.agents/AGENTS.md`](../../.agents/AGENTS.md)  \n\u2192 [`docs/LBAC.md`](../../docs/LBAC.md)\n",
+      "format": "mdc",
+      "path": ".cursor/rules/lbac_rules.mdc"
+    },
+    "description": "Living Blueprint-as-Code (LBaC) template to align human developers and AI coding agents (Copilot, Claude, Cursor, Windsu",
+    "id": "dwsilvar/LBaC",
+    "language": "\u2014",
+    "name": "dwsilvar/LBaC",
     "stars": 0,
-    "updated_at": "2026-07-27T21:16:36Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
+    "updated_at": "2026-07-27T21:43:11Z",
+    "url": "https://github.com/dwsilvar/LBaC"
+  },
+  {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 1,
+    "updated_at": "2026-07-27T21:31:38Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +28,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-07-27T21:15:59Z",
+    "updated_at": "2026-07-27T21:30:39Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-07-27T21:16:36Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
   },
   {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
@@ -43,15 +66,6 @@
     "stars": 1,
     "updated_at": "2026-07-27T20:13:28Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 1,
-    "updated_at": "2026-07-27T19:57:44Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "cursorrules": {
@@ -499,14 +513,5 @@
     "stars": 16,
     "updated_at": "2026-07-25T10:53:23Z",
     "url": "https://github.com/mikeprasad/aria-knowledge"
-  },
-  {
-    "description": "agent wiki +engineering skills ",
-    "id": "Mark393295827/third-brain-v7-skills",
-    "language": "HTML",
-    "name": "Mark393295827/third-brain-v7-skills",
-    "stars": 124,
-    "updated_at": "2026-07-25T04:42:36Z",
-    "url": "https://github.com/Mark393295827/third-brain-v7-skills"
   }
 ]
