@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-07-27 14:15 UTC
+> ⏰ Last updated: 2026-07-27 14:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -60,7 +60,7 @@ expired items removed — so you can rely on what you see being current.
 | 5 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 1 | HTML | 2026-07-27 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
 | 6 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-07-27 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
 | 7 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-07-27 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
-| 8 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 103 | Python | 2026-07-27 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
+| 8 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 104 | Python | 2026-07-27 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
 | 9 | [vibestackdev/vibe-stack](https://github.com/vibestackdev/vibe-stack) | 6 | TypeScript | 2026-07-27 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/) | 29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b |
 | 10 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-07-27 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
 | 11 | [Hyanthropological659/clarify-skill](https://github.com/Hyanthropological659/clarify-skill) | 0 | — | 2026-07-27 | — | Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a |
@@ -88,7 +88,7 @@ expired items removed — so you can rely on what you see being current.
 | 33 | [ilindaniel/ponytail-lite](https://github.com/ilindaniel/ponytail-lite) | 129 | — | 2026-07-26 | — | Stop agents from over-engineering. Inspired by Ponytail, but without the plugin madness. Just one AGENTS.md file. |
 | 34 | [cy117Hub/dhx-tech-electronic-components-sourcing-skill](https://github.com/cy117Hub/dhx-tech-electronic-components-sourcing-skill) | 0 | — | 2026-07-26 | — | 🚀 Official AI Sourcing & BOM Matcher Agent for DHX Tech. Instantly find million-level in-stock IC components (TI, ST, NX |
 | 35 | [sayeed1999/agent-skills](https://github.com/sayeed1999/agent-skills) | 6 | — | 2026-07-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/sayeed1999/agent-skills/) | Reusable agent skills for battle-tested engineering judgment — least code, fix the problem, don't break what works. Work |
-| 36 | [MicSm/boffin](https://github.com/MicSm/boffin) | 32 | JavaScript | 2026-07-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/MicSm/boffin/) | Staff-engineer layer for AI coding agents: routes per-edit architectural constraints and requires verification. Not anot |
+| 36 | [MicSm/boffin](https://github.com/MicSm/boffin) | 33 | JavaScript | 2026-07-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/MicSm/boffin/) | Staff-engineer layer for AI coding agents: routes per-edit architectural constraints and requires verification. Not anot |
 | 37 | [Bilal140202/the-lord-of-the-skills](https://github.com/Bilal140202/the-lord-of-the-skills) | 4 | Python | 2026-07-26 | — | ⚔ AI agent skills installer — 17,000+ skills for Claude Code, Cursor, Cline, Aider, Codex & Antigravity. pip install lot |
 | 38 | [xnoahwang/cursor-prime](https://github.com/xnoahwang/cursor-prime) | 0 | PowerShell | 2026-07-26 | — | Cursor-native config: a strict Plan Gate + Karpathy discipline rules, /plan /delta /prime-init commands, and a global gi |
 | 39 | [djtelicloud/grok-mcp-server](https://github.com/djtelicloud/grok-mcp-server) | 21 | Python | 2026-07-26 | — | Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API  |
