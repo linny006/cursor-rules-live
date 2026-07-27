@@ -1,5 +1,23 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-07-27T21:56:00Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 2,
+    "updated_at": "2026-07-27T21:45:38Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: Living Blueprint-as-Code (LBaC) \u2014 Project Rules for Cursor AI\nglobs: [\"**/*.md\", \"**/*.js\", \"**/*.ts\", \"**/*.py\", \"**/*.java\", \"**/*.dart\"]\nalwaysApply: true\n---\n\n# LBaC Project Rules\n\n> **MANDATORY:** Before starting any task, read [`.agents/AGENTS.md`](../../.agents/AGENTS.md) and [`docs/LBAC.md`](../../docs/LBAC.md).\n\n## Mandatory Workflow\n\n0.  **TELL ME THE PROJECT** \u2014 Run `docs/templates/project.prompt.md` with any AI to generate Feature Maps, user stories, roadmap, and business rules. Tracks progress in `docs/planning/tmtp_session.md`. Skip if Feature Maps already exist.\n1.  **READ** the relevant Feature Map in `docs/features/` (As-Is / To-Be / BDD criteria).\n2.  **CHECK** `docs/technical_debt.md` for related cleanup items.\n3.  **PLAN** \u2014 Create an Implementation Plan in `docs/implementations/` using the template. Present it and **wait for explicit approval before writing code**.\n4.  **CODE** in an isolated branch.\n5.  **VERIFY** \u2014 Complete the Verification Report in `docs/implementations/` confirming all BDD scenarios pass.\n\n## Hard Constraints\n\n- \u274c Never create files, models, or database schemas that already exist in the project.\n- \u274c Never rewrite entire files \u2014 provide localized diff-style edits only.\n- \u274c Never skip the Implementation Plan step.\n- \u2705 Use English for all AI-consumed files (`docs/features/`, `docs/LBAC.md`, `docs/technical_debt.md`, `.agents/AGENTS.md`).\n- \u2705 Use local language (e.g., Espa\u00f1ol) for stakeholder files (`docs/business/`, `docs/adr/`, `docs/planning/*_qa.md`).\n- \u2705 Format all file paths as clickable `file:///` links in responses.\n\n## Reference\n\n\u2192 [`.agents/AGENTS.md`](../../.agents/AGENTS.md)  \n\u2192 [`docs/LBAC.md`](../../docs/LBAC.md)\n",
       "format": "mdc",
@@ -21,15 +39,6 @@
     "stars": 1,
     "updated_at": "2026-07-27T21:31:38Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 2,
-    "updated_at": "2026-07-27T21:30:39Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -57,15 +66,6 @@
     "stars": 28,
     "updated_at": "2026-07-27T20:50:52Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-07-27T20:13:28Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "cursorrules": {
