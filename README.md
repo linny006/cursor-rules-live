@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-07-27 07:00 UTC
+> ⏰ Last updated: 2026-07-27 07:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,12 +53,12 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 27 | — | 2026-07-27 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
-| 2 | [glowElephant/context-forge](https://github.com/glowElephant/context-forge) | 3 | Python | 2026-07-27 | — | Auto harness engineering meta-repo: discuss → curate → bootstrap a context-engineered project for Claude Code, Cursor, C |
-| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 2 | HTML | 2026-07-27 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 4 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 103 | Python | 2026-07-27 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
+| 1 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 103 | Python | 2026-07-27 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
+| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 2 | HTML | 2026-07-27 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 3 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 27 | — | 2026-07-27 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
+| 4 | [glowElephant/context-forge](https://github.com/glowElephant/context-forge) | 3 | Python | 2026-07-27 | — | Auto harness engineering meta-repo: discuss → curate → bootstrap a context-engineered project for Claude Code, Cursor, C |
 | 5 | [fluzzy/archive](https://github.com/fluzzy/archive) | 0 | — | 2026-07-27 | — | Curated rules, guides, and resources for AI coding agents — Claude Code, prompts, MCP, skills, and best practices |
-| 6 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 18383 | Shell | 2026-07-27 | — | 🎭 267 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 52 个中国市场原创智能体（小红书/抖音/ |
+| 6 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 18384 | Shell | 2026-07-27 | — | 🎭 267 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 52 个中国市场原创智能体（小红书/抖音/ |
 | 7 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-07-27 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
 | 8 | [VirtusLab-Open-Source/astro-strapi-loader](https://github.com/VirtusLab-Open-Source/astro-strapi-loader) | 16 | TypeScript | 2026-07-27 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/VirtusLab-Open-Source/astro-strapi-loader/) | Integration of Astro with Strapi CMS that enables easy data loading from Strapi Content API |
 | 9 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-07-27 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
@@ -79,7 +79,7 @@ expired items removed — so you can rely on what you see being current.
 | 24 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 84 | Shell | 2026-07-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | 80 agent skills synthesizing 17 years of software engineering discipline into a prescriptive methodology for solo develo |
 | 25 | [VirtusLab-Open-Source/astro-strapi-blocks](https://github.com/VirtusLab-Open-Source/astro-strapi-blocks) | 19 | TypeScript | 2026-07-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/VirtusLab-Open-Source/astro-strapi-blocks/) | Astro blocks for Strapi Rich Text Block field |
 | 26 | [VirtusLab-Open-Source/astro-strapi-starter](https://github.com/VirtusLab-Open-Source/astro-strapi-starter) | 17 | Astro | 2026-07-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/VirtusLab-Open-Source/astro-strapi-starter/) | The Astro x Strapi Starter template |
-| 27 | [ilindaniel/ponytail-lite](https://github.com/ilindaniel/ponytail-lite) | 129 | — | 2026-07-26 | — | Stop agents from over-engineering. Inspired by Ponytail, but without the plugin madness. Just one AGENTS.md file. |
+| 27 | [ilindaniel/ponytail-lite](https://github.com/ilindaniel/ponytail-lite) | 128 | — | 2026-07-26 | — | Stop agents from over-engineering. Inspired by Ponytail, but without the plugin madness. Just one AGENTS.md file. |
 | 28 | [cy117Hub/dhx-tech-electronic-components-sourcing-skill](https://github.com/cy117Hub/dhx-tech-electronic-components-sourcing-skill) | 0 | — | 2026-07-26 | — | 🚀 Official AI Sourcing & BOM Matcher Agent for DHX Tech. Instantly find million-level in-stock IC components (TI, ST, NX |
 | 29 | [sayeed1999/agent-skills](https://github.com/sayeed1999/agent-skills) | 6 | — | 2026-07-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/sayeed1999/agent-skills/) | Reusable agent skills for battle-tested engineering judgment — least code, fix the problem, don't break what works. Work |
 | 30 | [MicSm/boffin](https://github.com/MicSm/boffin) | 30 | JavaScript | 2026-07-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/MicSm/boffin/) | Staff-engineer layer for AI coding agents: routes per-edit architectural constraints and requires verification. Not anot |
