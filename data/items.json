@@ -1,12 +1,21 @@
 [
   {
-    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
-    "id": "KbWen/agentic-os",
-    "language": "Python",
-    "name": "KbWen/agentic-os",
-    "stars": 103,
-    "updated_at": "2026-07-27T09:24:16Z",
-    "url": "https://github.com/KbWen/agentic-os"
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 27,
+    "updated_at": "2026-07-27T09:42:51Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+  },
+  {
+    "description": "\ud83d\ude80 Evidence-driven context engineering for AI agents coding",
+    "id": "jonaskahn/agent-context",
+    "language": "\u2014",
+    "name": "jonaskahn/agent-context",
+    "stars": 0,
+    "updated_at": "2026-07-27T09:33:04Z",
+    "url": "https://github.com/jonaskahn/agent-context"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +23,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-07-27T09:15:43Z",
+    "updated_at": "2026-07-27T09:30:33Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 103,
+    "updated_at": "2026-07-27T09:24:16Z",
+    "url": "https://github.com/KbWen/agentic-os"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -34,15 +52,6 @@
     "stars": 0,
     "updated_at": "2026-07-27T08:39:22Z",
     "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
-  },
-  {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 27,
-    "updated_at": "2026-07-27T08:39:00Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -190,7 +199,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 18395,
+    "stars": 18397,
     "updated_at": "2026-07-27T06:18:21Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -232,7 +241,7 @@
     "language": "Rust",
     "name": "taniwhaai/arai",
     "stars": 7,
-    "updated_at": "2026-07-27T03:38:38Z",
+    "updated_at": "2026-07-27T09:38:37Z",
     "url": "https://github.com/taniwhaai/arai"
   },
   {
@@ -499,19 +508,5 @@
     "stars": 1,
     "updated_at": "2026-07-24T20:51:28Z",
     "url": "https://github.com/GeiserX/lynxprompt-vscode"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Mandatory PM-orchestrated subagent workflow \u2014 main agent is manager, no separate PM subagent\nalwaysApply: true\n---\n\n# Agent workflow orchestration\n\nFor features, requirements, decisions, and bug fixes, follow **`docs/AGENT_WORKFLOW.md`** and **`docs/handoffs/README.md`**. Do not invent a parallel process.\n\n## You are the manager\n\n- The **current (multi-task) agent is the Project Manager (PM)**. Orchestrate phases, gates, handoffs, and synthesis yourself.\n- **Never** spawn a separate \u201cmanager\u201d, \u201cPM\u201d, or \u201corchestrator\u201d subagent.\n- There is no PM file under `.cursor/agents/` \u2014 specialists only.\n\n## Delegate every workflow role as a subagent\n\n- Run each role in the workflow as its **own** Task / custom subagent from `.cursor/agents/`, with the model and handoff outputs specified in `docs/AGENT_WORKFLOW.md` and that agent\u2019s definition.\n- Roles: `business-analyst`, `marketing-specialist`, `visual-designer`, `product-owner`, `architect`, `security-reviewer`, `ux-reviewer`, `frontend-developer`, `backend-developer`, `qa-tester`, `devops-engineer` \u2014 invoke only those the workflow type (A/B/C) requires.\n- **Fallback routing:** When QA, UX, security, or developers escalate, PM routes back to the affected agent(s) per `docs/AGENT_WORKFLOW.md#feedback-loops-and-fallback-routing` \u2014 do not mark work done until loops resolve.\n- Parallelize only where the workflow allows (e.g. BA + marketing; FE + BE after architecture + security design PASS; UX + security after QA pass).\n- **PM gates:** create `docs/handoffs/{slug}/00-intake.md` first; verify each required artifact exists before the next phase.\n- Include skill paths in every handoff (at least `.agents/skills/project-context/SKILL.md`). For implementation phases, always include `developer-quality`. Include optional stack skills when the project uses Nest/Next/Playwright.\n\n## Subagent model selection (mandatory)\n\n- **Source of truth:** `.cursor/agents/{role}.md` frontmatter `model:` + `docs/AGENT_WORKFLOW.md` table.\n- When invoking Task for a workflow role: use the exact `subagent_type` from `.cursor/agents/` \u2014 never `generalPurpose` for BA/PO/architect/FE/BE/QA/security/UX/devops/marketing.\n- **Do NOT pass `model:` on Task** unless the user explicitly requests a model override.\n- PM-only work (`00-intake.md`, gate verification, synthesis) stays in the **foreground PM** \u2014 never a subagent.\n- If role is unclear, stop and ask \u2014 do not launch with a default model.\n\n## Multi-task mode required\n\n- Prefer **Multitask Mode** so specialist subagents can run properly (including parallel phases).\n- If Multitask Mode is **not** active: **stop and ask** whether the user wants to continue without it (sequential / degraded orchestration). Do not proceed until they confirm.\n\n## BMAD for development and fixes\n\nFor implementation work and bug fixes (Type B / Type C), follow **`.agents/skills/bmad/SKILL.md`**: Break down \u2192 Model \u2192 Analyze \u2192 Deliver, in small verifiable slices, before and while coding phases run.\n\n## Anti-patterns (forbidden)\n\n| Do not | Do instead |\n|--------|------------|\n| Launch a manager/PM subagent | Act as PM in this conversation |\n| Implement a full Type B feature alone without specialists | Run the documented subagent pipeline |\n| Skip QA / PO / architect / security / UX when the workflow requires them | Follow Type A/B/C phases, gates, and fallback loops |\n| Continue without Multitask Mode without asking | Ask the user first |\n| Chat-only handoffs with no artifact files | Write `docs/handoffs/{slug}/` artifacts |\n| Pass `model:` on Task without user request | Omit `model:`; let agent frontmatter apply |\n| Use `generalPurpose` for workflow roles (intake, BA, QA, etc.) | Named `subagent_type` from `.cursor/agents/` |\n| Implement landing illustrations without visual-designer | Run `/visual-designer` when intake says `visual-design: required` |\n| Delegate `00-intake.md` to a subagent | PM writes intake in foreground |\n",
-      "format": "mdc",
-      "path": ".cursor/rules/agent-workflow-orchestration.mdc"
-    },
-    "description": "\ud83d\udd28 Agentic workflow template",
-    "id": "95gabor/agentic-workflow",
-    "language": "\u2014",
-    "name": "95gabor/agentic-workflow",
-    "stars": 1,
-    "updated_at": "2026-07-24T11:54:30Z",
-    "url": "https://github.com/95gabor/agentic-workflow"
   }
 ]
