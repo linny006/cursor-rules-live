@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 2,
+    "updated_at": "2026-07-28T15:31:02Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior",
     "id": "MnemeHQ/mneme",
     "language": "Python",
@@ -7,15 +16,6 @@
     "stars": 17,
     "updated_at": "2026-07-28T15:21:14Z",
     "url": "https://github.com/MnemeHQ/mneme"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 2,
-    "updated_at": "2026-07-28T15:15:45Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -54,7 +54,7 @@
     "id": "0xwilliamortiz/ponytail-improved",
     "language": "JavaScript",
     "name": "0xwilliamortiz/ponytail-improved",
-    "stars": 36,
+    "stars": 47,
     "updated_at": "2026-07-28T14:41:07Z",
     "url": "https://github.com/0xwilliamortiz/ponytail-improved"
   },
