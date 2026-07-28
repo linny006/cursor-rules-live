@@ -1,11 +1,20 @@
 [
   {
+    "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
+    "id": "pekral/cursor-rules",
+    "language": "PHP",
+    "name": "pekral/cursor-rules",
+    "stars": 5,
+    "updated_at": "2026-07-28T11:11:39Z",
+    "url": "https://github.com/pekral/cursor-rules"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-07-28T10:45:43Z",
+    "updated_at": "2026-07-28T11:00:32Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -30,15 +39,6 @@
     "stars": 2,
     "updated_at": "2026-07-28T10:24:55Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
-    "id": "pekral/cursor-rules",
-    "language": "PHP",
-    "name": "pekral/cursor-rules",
-    "stars": 5,
-    "updated_at": "2026-07-28T10:54:52Z",
-    "url": "https://github.com/pekral/cursor-rules"
   },
   {
     "description": "Homebrew tap for LynxPrompt CLI",
@@ -91,7 +91,7 @@
     "language": "PowerShell",
     "name": "Erkan3034/aegis",
     "stars": 0,
-    "updated_at": "2026-07-28T08:29:50Z",
+    "updated_at": "2026-07-28T11:04:35Z",
     "url": "https://github.com/Erkan3034/aegis"
   },
   {
@@ -269,7 +269,7 @@
     "language": "Python",
     "name": "KbWen/agentic-os",
     "stars": 104,
-    "updated_at": "2026-07-27T14:35:37Z",
+    "updated_at": "2026-07-28T11:13:41Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
   {
