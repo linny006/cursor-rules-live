@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-07-28 06:15 UTC
+> ⏰ Last updated: 2026-07-28 06:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -68,7 +68,7 @@ expired items removed — so you can rely on what you see being current.
 | 13 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 28 | — | 2026-07-27 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
 | 14 | [agrawalshreya10/autonomous-quality-engine](https://github.com/agrawalshreya10/autonomous-quality-engine) | 1 | Python | 2026-07-27 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/agrawalshreya10/autonomous-quality-engine/) | A production-grade vertical-slice automation ecosystem built with Playwright and Python. Features a thread-safe POM with |
 | 15 | [MicSm/boffin](https://github.com/MicSm/boffin) | 34 | JavaScript | 2026-07-27 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/MicSm/boffin/) | Staff-engineer layer for AI coding agents: routes per-edit architectural constraints and requires verification. Not anot |
-| 16 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 87 | Shell | 2026-07-27 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | 80 agent skills synthesizing 17 years of software engineering discipline into a prescriptive methodology for solo develo |
+| 16 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 88 | Shell | 2026-07-27 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | 80 agent skills synthesizing 17 years of software engineering discipline into a prescriptive methodology for solo develo |
 | 17 | [SalesforceAIResearch/agentforce-adlc](https://github.com/SalesforceAIResearch/agentforce-adlc) | 93 | Python | 2026-07-28 | — | Agent Development Life Cycle — Build, deploy, test, and optimize Agentforce agents using Claude Code skills and Agent Sc |
 | 18 | [Bita71/Agent-Workflow-Kit](https://github.com/Bita71/Agent-Workflow-Kit) | 1 | Shell | 2026-07-27 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Bita71/Agent-Workflow-Kit/) | Copy-ready agent workflow for Cursor, Claude Code, and Codex. Plan, build, review, and verify with specialized subagents |
 | 19 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 12 | TypeScript | 2026-07-27 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
@@ -90,7 +90,7 @@ expired items removed — so you can rely on what you see being current.
 | 35 | [stormlive-ai/ag-sdd](https://github.com/stormlive-ai/ag-sdd) | 0 | JavaScript | 2026-07-27 | — | Spec-Driven Development (SDD) harness & skill suite for Google Antigravity (AGY), Gemini 3.6, Claude Opus, DeepSeek R1,  |
 | 36 | [glowElephant/context-forge](https://github.com/glowElephant/context-forge) | 3 | Python | 2026-07-27 | — | Auto harness engineering meta-repo: discuss → curate → bootstrap a context-engineered project for Claude Code, Cursor, C |
 | 37 | [fluzzy/archive](https://github.com/fluzzy/archive) | 0 | — | 2026-07-27 | — | Curated rules, guides, and resources for AI coding agents — Claude Code, prompts, MCP, skills, and best practices |
-| 38 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 18428 | Shell | 2026-07-27 | — | 🎭 267 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 52 个中国市场原创智能体（小红书/抖音/ |
+| 38 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 18429 | Shell | 2026-07-27 | — | 🎭 267 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 52 个中国市场原创智能体（小红书/抖音/ |
 | 39 | [VirtusLab-Open-Source/astro-strapi-loader](https://github.com/VirtusLab-Open-Source/astro-strapi-loader) | 16 | TypeScript | 2026-07-27 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/VirtusLab-Open-Source/astro-strapi-loader/) | Integration of Astro with Strapi CMS that enables easy data loading from Strapi Content API |
 | 40 | [plumpslabs/matcha](https://github.com/plumpslabs/matcha) | 1 | JavaScript | 2026-07-27 | — | 🍵 Deliberate engineering guidelines & deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block |
 | 41 | [taniwhaai/arai](https://github.com/taniwhaai/arai) | 7 | Rust | 2026-07-27 | — | Your AI assistant reads CLAUDE.md and ignores it anyway. Ārai makes instruction files enforced — hooks that block, a tam |
