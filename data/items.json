@@ -1,11 +1,25 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: Living Blueprint-as-Code (LBaC) \u2014 Project Rules for Cursor AI\nglobs: [\"**/*.md\", \"**/*.js\", \"**/*.ts\", \"**/*.py\", \"**/*.java\", \"**/*.dart\"]\nalwaysApply: true\n---\n\n# LBaC Project Rules\n\n> **MANDATORY:** Before starting any task, read [`.agents/AGENTS.md`](../../.agents/AGENTS.md) and [`docs/LBAC.md`](../../docs/LBAC.md).\n\n## Mandatory Workflow\n\n0.  **TELL ME THE PROJECT** \u2014 Run `docs/templates/project.prompt.md` with any AI to generate Feature Maps, user stories, roadmap, and business rules. Tracks progress in `docs/planning/tmtp_session.md`. Skip if Feature Maps already exist.\n1.  **READ** the relevant Feature Map in `docs/features/` (As-Is / To-Be / BDD criteria).\n2.  **CHECK** `docs/technical_debt.md` for related cleanup items.\n3.  **PLAN** \u2014 Create an Implementation Plan in `docs/implementations/` using the template. Present it and **wait for explicit approval before writing code**.\n4.  **CODE** in an isolated branch.\n5.  **VERIFY** \u2014 Complete the Verification Report in `docs/implementations/` confirming all BDD scenarios pass.\n\n## Hard Constraints\n\n- \u274c Never create files, models, or database schemas that already exist in the project.\n- \u274c Never rewrite entire files \u2014 provide localized diff-style edits only.\n- \u274c Never skip the Implementation Plan step.\n- \u2705 Use English for all AI-consumed files (`docs/features/`, `docs/LBAC.md`, `docs/technical_debt.md`, `.agents/AGENTS.md`).\n- \u2705 Use local language (e.g., Espa\u00f1ol) for stakeholder files (`docs/business/`, `docs/adr/`, `docs/planning/*_qa.md`).\n- \u2705 Format all file paths as clickable `file:///` links in responses.\n\n## Reference\n\n\u2192 [`.agents/AGENTS.md`](../../.agents/AGENTS.md)  \n\u2192 [`docs/LBAC.md`](../../docs/LBAC.md)\n",
+      "format": "mdc",
+      "path": ".cursor/rules/lbac_rules.mdc"
+    },
+    "description": "Living Blueprint-as-Code (LBaC) template to align human developers and AI coding agents (Copilot, Claude, Cursor, Windsu",
+    "id": "dwsilvar/LBaC",
+    "language": "\u2014",
+    "name": "dwsilvar/LBaC",
+    "stars": 0,
+    "updated_at": "2026-07-28T05:17:22Z",
+    "url": "https://github.com/dwsilvar/LBaC"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-07-28T05:00:35Z",
+    "updated_at": "2026-07-28T05:15:31Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -97,20 +111,6 @@
     "stars": 1,
     "updated_at": "2026-07-27T22:30:01Z",
     "url": "https://github.com/sungurerdim/dev-skills"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Living Blueprint-as-Code (LBaC) \u2014 Project Rules for Cursor AI\nglobs: [\"**/*.md\", \"**/*.js\", \"**/*.ts\", \"**/*.py\", \"**/*.java\", \"**/*.dart\"]\nalwaysApply: true\n---\n\n# LBaC Project Rules\n\n> **MANDATORY:** Before starting any task, read [`.agents/AGENTS.md`](../../.agents/AGENTS.md) and [`docs/LBAC.md`](../../docs/LBAC.md).\n\n## Mandatory Workflow\n\n0.  **TELL ME THE PROJECT** \u2014 Run `docs/templates/project.prompt.md` with any AI to generate Feature Maps, user stories, roadmap, and business rules. Tracks progress in `docs/planning/tmtp_session.md`. Skip if Feature Maps already exist.\n1.  **READ** the relevant Feature Map in `docs/features/` (As-Is / To-Be / BDD criteria).\n2.  **CHECK** `docs/technical_debt.md` for related cleanup items.\n3.  **PLAN** \u2014 Create an Implementation Plan in `docs/implementations/` using the template. Present it and **wait for explicit approval before writing code**.\n4.  **CODE** in an isolated branch.\n5.  **VERIFY** \u2014 Complete the Verification Report in `docs/implementations/` confirming all BDD scenarios pass.\n\n## Hard Constraints\n\n- \u274c Never create files, models, or database schemas that already exist in the project.\n- \u274c Never rewrite entire files \u2014 provide localized diff-style edits only.\n- \u274c Never skip the Implementation Plan step.\n- \u2705 Use English for all AI-consumed files (`docs/features/`, `docs/LBAC.md`, `docs/technical_debt.md`, `.agents/AGENTS.md`).\n- \u2705 Use local language (e.g., Espa\u00f1ol) for stakeholder files (`docs/business/`, `docs/adr/`, `docs/planning/*_qa.md`).\n- \u2705 Format all file paths as clickable `file:///` links in responses.\n\n## Reference\n\n\u2192 [`.agents/AGENTS.md`](../../.agents/AGENTS.md)  \n\u2192 [`docs/LBAC.md`](../../docs/LBAC.md)\n",
-      "format": "mdc",
-      "path": ".cursor/rules/lbac_rules.mdc"
-    },
-    "description": "Living Blueprint-as-Code (LBaC) template to align human developers and AI coding agents (Copilot, Claude, Cursor, Windsu",
-    "id": "dwsilvar/LBaC",
-    "language": "\u2014",
-    "name": "dwsilvar/LBaC",
-    "stars": 0,
-    "updated_at": "2026-07-27T21:43:11Z",
-    "url": "https://github.com/dwsilvar/LBaC"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -346,7 +346,7 @@
     "id": "VirtusLab-Open-Source/astro-strapi-starter",
     "language": "Astro",
     "name": "VirtusLab-Open-Source/astro-strapi-starter",
-    "stars": 18,
+    "stars": 19,
     "updated_at": "2026-07-27T08:43:37Z",
     "url": "https://github.com/VirtusLab-Open-Source/astro-strapi-starter"
   },
@@ -382,7 +382,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 18425,
+    "stars": 18426,
     "updated_at": "2026-07-27T06:18:21Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
