@@ -1,5 +1,23 @@
 [
   {
+    "description": "30 multi-phase AI coding skills with executable gates \u2014 pure markdown, zero dependencies.",
+    "id": "sungurerdim/dev-skills",
+    "language": "HTML",
+    "name": "sungurerdim/dev-skills",
+    "stars": 1,
+    "updated_at": "2026-07-28T11:41:16Z",
+    "url": "https://github.com/sungurerdim/dev-skills"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 2,
+    "updated_at": "2026-07-28T11:30:43Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Homebrew tap for LynxPrompt CLI",
     "id": "GeiserX/homebrew-lynxprompt",
     "language": "Ruby",
@@ -32,17 +50,8 @@
     "language": "PHP",
     "name": "pekral/cursor-rules",
     "stars": 5,
-    "updated_at": "2026-07-28T11:16:29Z",
+    "updated_at": "2026-07-28T11:31:58Z",
     "url": "https://github.com/pekral/cursor-rules"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 2,
-    "updated_at": "2026-07-28T11:15:32Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -170,15 +179,6 @@
     "stars": 30,
     "updated_at": "2026-07-27T23:23:03Z",
     "url": "https://github.com/nota-america/forgecat-agent-profiles"
-  },
-  {
-    "description": "30 multi-phase AI coding skills with executable gates \u2014 pure markdown, zero dependencies.",
-    "id": "sungurerdim/dev-skills",
-    "language": "HTML",
-    "name": "sungurerdim/dev-skills",
-    "stars": 1,
-    "updated_at": "2026-07-27T22:30:01Z",
-    "url": "https://github.com/sungurerdim/dev-skills"
   },
   {
     "cursorrules": {
