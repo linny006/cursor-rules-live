@@ -1,11 +1,20 @@
 [
   {
+    "description": "Cursor-native config: a strict Plan Gate + Karpathy discipline rules, /plan /delta /prime-init commands, and a global gi",
+    "id": "xnoahwang/cursor-prime",
+    "language": "PowerShell",
+    "name": "xnoahwang/cursor-prime",
+    "stars": 0,
+    "updated_at": "2026-07-28T04:14:49Z",
+    "url": "https://github.com/xnoahwang/cursor-prime"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-07-28T03:45:44Z",
+    "updated_at": "2026-07-28T04:00:50Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -76,7 +85,7 @@
     "id": "nota-america/forgecat-agent-profiles",
     "language": "TypeScript",
     "name": "nota-america/forgecat-agent-profiles",
-    "stars": 29,
+    "stars": 30,
     "updated_at": "2026-07-27T23:23:03Z",
     "url": "https://github.com/nota-america/forgecat-agent-profiles"
   },
@@ -373,7 +382,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 18422,
+    "stars": 18424,
     "updated_at": "2026-07-27T06:18:21Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -463,15 +472,6 @@
     "stars": 4,
     "updated_at": "2026-07-26T13:29:57Z",
     "url": "https://github.com/Bilal140202/the-lord-of-the-skills"
-  },
-  {
-    "description": "Cursor-native config: a strict Plan Gate + Karpathy discipline rules, /plan /delta /prime-init commands, and a global gi",
-    "id": "xnoahwang/cursor-prime",
-    "language": "PowerShell",
-    "name": "xnoahwang/cursor-prime",
-    "stars": 0,
-    "updated_at": "2026-07-26T12:29:02Z",
-    "url": "https://github.com/xnoahwang/cursor-prime"
   },
   {
     "description": "Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API ",
