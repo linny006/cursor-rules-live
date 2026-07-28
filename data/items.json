@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 2,
+    "updated_at": "2026-07-28T01:00:32Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Official AI Agent Plugins & Skills Marketplace for Antigravity (AGY), Claude Code, and Cursor",
     "id": "orin-dx/agent-plugins",
     "language": "\u2014",
@@ -7,15 +16,6 @@
     "stars": 0,
     "updated_at": "2026-07-28T00:50:06Z",
     "url": "https://github.com/orin-dx/agent-plugins"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 2,
-    "updated_at": "2026-07-28T00:45:46Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 code review, debugging, refactoring, system design, CLAUDE.m",
