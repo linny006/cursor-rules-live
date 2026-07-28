@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 2,
+    "updated_at": "2026-07-28T21:15:31Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Agent Development Life Cycle \u2014 Build, deploy, test, and optimize Agentforce agents using Claude Code skills and Agent Sc",
     "id": "SalesforceAIResearch/agentforce-adlc",
     "language": "Python",
@@ -7,15 +16,6 @@
     "stars": 93,
     "updated_at": "2026-07-28T21:10:49Z",
     "url": "https://github.com/SalesforceAIResearch/agentforce-adlc"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 2,
-    "updated_at": "2026-07-28T21:00:45Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -104,7 +104,7 @@
     "id": "0xwilliamortiz/ponytail-improved",
     "language": "JavaScript",
     "name": "0xwilliamortiz/ponytail-improved",
-    "stars": 298,
+    "stars": 308,
     "updated_at": "2026-07-28T14:41:07Z",
     "url": "https://github.com/0xwilliamortiz/ponytail-improved"
   },
@@ -441,7 +441,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 18461,
+    "stars": 18462,
     "updated_at": "2026-07-27T06:18:21Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
