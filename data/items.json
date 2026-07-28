@@ -5,8 +5,17 @@
     "language": "PowerShell",
     "name": "Erkan3034/aegis",
     "stars": 0,
-    "updated_at": "2026-07-28T07:50:03Z",
+    "updated_at": "2026-07-28T08:09:22Z",
     "url": "https://github.com/Erkan3034/aegis"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 2,
+    "updated_at": "2026-07-28T08:01:04Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -16,15 +25,6 @@
     "stars": 28,
     "updated_at": "2026-07-28T07:49:51Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 2,
-    "updated_at": "2026-07-28T07:45:31Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
@@ -186,7 +186,7 @@
     "id": "danielvm-git/bigpowers",
     "language": "Shell",
     "name": "danielvm-git/bigpowers",
-    "stars": 88,
+    "stars": 89,
     "updated_at": "2026-07-27T16:29:32Z",
     "url": "https://github.com/danielvm-git/bigpowers"
   },
@@ -409,7 +409,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 18436,
+    "stars": 18437,
     "updated_at": "2026-07-27T06:18:21Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
