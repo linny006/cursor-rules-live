@@ -5,8 +5,17 @@
     "language": "\u2014",
     "name": "orin-dx/agent-plugins",
     "stars": 0,
-    "updated_at": "2026-07-28T00:10:32Z",
+    "updated_at": "2026-07-28T00:27:25Z",
     "url": "https://github.com/orin-dx/agent-plugins"
+  },
+  {
+    "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 code review, debugging, refactoring, system design, CLAUDE.m",
+    "id": "sublimecoder/sublimecoding",
+    "language": "\u2014",
+    "name": "sublimecoder/sublimecoding",
+    "stars": 0,
+    "updated_at": "2026-07-28T00:20:57Z",
+    "url": "https://github.com/sublimecoder/sublimecoding"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,7 +23,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-07-28T00:00:57Z",
+    "updated_at": "2026-07-28T00:15:29Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -364,7 +373,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 18413,
+    "stars": 18414,
     "updated_at": "2026-07-27T06:18:21Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -399,15 +408,6 @@
     "stars": 7,
     "updated_at": "2026-07-27T09:38:37Z",
     "url": "https://github.com/taniwhaai/arai"
-  },
-  {
-    "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 code review, debugging, refactoring, system design, CLAUDE.m",
-    "id": "sublimecoder/sublimecoding",
-    "language": "\u2014",
-    "name": "sublimecoder/sublimecoding",
-    "stars": 0,
-    "updated_at": "2026-07-27T00:23:34Z",
-    "url": "https://github.com/sublimecoder/sublimecoding"
   },
   {
     "cursorrules": {
