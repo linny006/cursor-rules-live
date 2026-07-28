@@ -1,12 +1,30 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 2,
+    "updated_at": "2026-07-28T10:24:55Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-07-28T10:07:13Z",
+    "updated_at": "2026-07-28T10:16:00Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
+    "id": "pekral/cursor-rules",
+    "language": "PHP",
+    "name": "pekral/cursor-rules",
+    "stars": 5,
+    "updated_at": "2026-07-28T10:15:54Z",
+    "url": "https://github.com/pekral/cursor-rules"
   },
   {
     "description": "Homebrew tap for LynxPrompt CLI",
@@ -70,24 +88,6 @@
     "stars": 28,
     "updated_at": "2026-07-28T08:27:21Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
-    "id": "pekral/cursor-rules",
-    "language": "PHP",
-    "name": "pekral/cursor-rules",
-    "stars": 5,
-    "updated_at": "2026-07-28T10:13:21Z",
-    "url": "https://github.com/pekral/cursor-rules"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 2,
-    "updated_at": "2026-07-28T07:33:16Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API ",
@@ -418,7 +418,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 18448,
+    "stars": 18449,
     "updated_at": "2026-07-27T06:18:21Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
