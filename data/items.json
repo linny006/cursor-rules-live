@@ -1,11 +1,20 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 2,
+    "updated_at": "2026-07-29T08:21:20Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-07-29T08:00:36Z",
+    "updated_at": "2026-07-29T08:16:02Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -52,15 +61,6 @@
     "stars": 1,
     "updated_at": "2026-07-29T06:47:28Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 2,
-    "updated_at": "2026-07-29T05:11:29Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 plus AIOS, an open-source markdown memory system for coding ",
@@ -455,7 +455,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 18493,
+    "stars": 18494,
     "updated_at": "2026-07-27T06:18:21Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
