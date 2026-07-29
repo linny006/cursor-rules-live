@@ -10,8 +10,17 @@
     "language": "Shell",
     "name": "anmolnagpal/devops-skills",
     "stars": 6,
-    "updated_at": "2026-07-29T23:30:02Z",
+    "updated_at": "2026-07-29T23:35:32Z",
     "url": "https://github.com/anmolnagpal/devops-skills"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 2,
+    "updated_at": "2026-07-29T23:30:58Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -35,15 +44,6 @@
     "stars": 1,
     "updated_at": "2026-07-29T23:19:29Z",
     "url": "https://github.com/agrawalshreya10/autonomous-quality-engine"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 2,
-    "updated_at": "2026-07-29T23:15:30Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
