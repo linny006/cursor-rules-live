@@ -5,7 +5,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-07-29T16:00:50Z",
+    "updated_at": "2026-07-29T16:15:40Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -49,7 +49,7 @@
     "id": "sscodeai/agency-agents-ja",
     "language": "Shell",
     "name": "sscodeai/agency-agents-ja",
-    "stars": 5,
+    "stars": 4,
     "updated_at": "2026-07-29T15:36:04Z",
     "url": "https://github.com/sscodeai/agency-agents-ja"
   },
@@ -182,6 +182,15 @@
     "url": "https://github.com/agrawalshreya10/autonomous-quality-engine"
   },
   {
+    "description": "Browse Cursor agent Rules, Transcripts and Plans documents from your local machine.",
+    "id": "pirica/cursor_tracking",
+    "language": "PHP",
+    "name": "pirica/cursor_tracking",
+    "stars": 0,
+    "updated_at": "2026-07-28T23:29:14Z",
+    "url": "https://github.com/pirica/cursor_tracking"
+  },
+  {
     "description": "Agent Development Life Cycle \u2014 Build, deploy, test, and optimize Agentforce agents using Claude Code skills and Agent Sc",
     "id": "SalesforceAIResearch/agentforce-adlc",
     "language": "Python",
@@ -219,7 +228,7 @@
     "language": "PHP",
     "name": "pekral/cursor-rules",
     "stars": 5,
-    "updated_at": "2026-07-28T14:55:53Z",
+    "updated_at": "2026-07-29T16:24:31Z",
     "url": "https://github.com/pekral/cursor-rules"
   },
   {
@@ -232,7 +241,7 @@
     "id": "0xwilliamortiz/ponytail-improved",
     "language": "JavaScript",
     "name": "0xwilliamortiz/ponytail-improved",
-    "stars": 513,
+    "stars": 520,
     "updated_at": "2026-07-28T14:41:07Z",
     "url": "https://github.com/0xwilliamortiz/ponytail-improved"
   },
@@ -504,14 +513,5 @@
     "stars": 16,
     "updated_at": "2026-07-27T05:30:34Z",
     "url": "https://github.com/VirtusLab-Open-Source/astro-strapi-loader"
-  },
-  {
-    "description": "\ud83c\udf75 Deliberate engineering guidelines & deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block",
-    "id": "plumpslabs/matcha",
-    "language": "JavaScript",
-    "name": "plumpslabs/matcha",
-    "stars": 1,
-    "updated_at": "2026-07-27T04:16:36Z",
-    "url": "https://github.com/plumpslabs/matcha"
   }
 ]
