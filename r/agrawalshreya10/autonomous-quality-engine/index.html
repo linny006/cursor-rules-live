@@ -97,16 +97,24 @@ This section is the single source of truth for Gemini SDK, model, and initializa
 | **Models (allowed)** | **Default (CI + CLI + `DEFAULT_GEMINI_MODEL`):** **`gemini-3.1-flash-lite-preview`**. **Optional override:** **`gemini-3.1-flash-preview`** via `--model` or env when explicitly chosen. |
 | **Models (banned)** | `gemini-1.5-flash`, `gemini-1.5-pro`, `gemini-1.0-pro`, and other decommissioned IDs. |
 
+### Structured output (both providers)
+
+Shared contract lives in **`ai_audit/fix_suggestion.py`**: Pydantic **`FixSuggestion`** (`category`, `root_cause`, `fix_markdown`, `confidence`), **`build_analysis_prompt`**, **`validate_or_fallback`**, and **`HEURISTIC_FALLBACK`**.
+
+| Rule | Detail |
+|------|--------|
+| **Schema** | Mandate **`FixSuggestion`** JSON. Parse and validate **before** treating text as authoritative. Render via **`render_suggestion_markdown`**. |
+| **Ollama transport** | HTTP `POST` to `/api/generate`; always set **request timeout** (`timeout_sec`). Pass schema via **`format`**: `fix_suggestion_json_schema()`. |
+| **Gemini transport** | `generate_content` with **`response_mime_type=&quot;application/json&quot;`** and **`response_schema=FixSuggestion`**. Always **`client.close()`** in `finally`. |
+| **Instruction folding** | Keep the **system / role preamble** short and stable (`SYSTEM_PREAMBLE` / `build_analysis_prompt`); fold project rules into **one** block (sync Playwright, no Selenium, `get_resilient_*`, no parent–child `.or_()`). |
+| **`HEURISTIC_FALLBACK`** | If JSON/schema validation fails, empty **`fix_markdown`**, or **banned patterns** in **`fix_markdown`**, emit a **deterministic fallback**: category from keyword match on the failure string, root cause = truncated traceback summary, fix = template pointing to `docs/decisions/playwright-locators-and-logging.md` and `page-object-standards.mdc` (no fabricated code). Log at **WARNING**. |
+
 ### Ollama (local)
 
 | Rule | Detail |
 |------|--------|
-| **Transport** | HTTP `POST` to `/api/generate` (or batch API if migrated); always set **request timeout** (`timeout_sec`). |
-| **Structured output** | **Mandate** a **Pydantic model** (or equivalent JSON Schema) for the assistant reply: e.g. `category`, `root_cause`, `fix_markdown`, `confidence`. Parse and validate **before** treating text as authoritative. |
-| **Instruction folding** | Keep the **system / role preamble** short and stable; fold repeated project rules into **one** block (sync Playwright, no Selenium, `get_resilient_*`, no parent–child `.or_()`). Avoid duplicating the same constraint in five bullet points — that increases drift and token noise. |
-| **`HEURISTIC_FALLBACK`** | If JSON/schema validation fails or the model returns empty **`fix_markdown`**, emit a **deterministic fallback**: category from keyword match on the failure string, root cause = truncated traceback summary, fix = template pointing to `docs/decisions/playwright-locators-and-logging.md` and `page-object-standards.mdc` (no fabricated code). Log the validation failure at **WARNING**. |
-
-*Implementation note:* Until `OllamaClient` fully implements schema validation + fallback, **any change** to `ai_audit/` should move the codebase toward this contract rather than adding more free-form prose endpoints.
+| **Default model** | ``llama3`` via ``DEFAULT_OLLAMA_MODEL`` / ``OLLAMA_MODEL``. |
+| **Temperature** | ``0`` for structured generation. |
 
 ---
 
@@ -121,7 +129,9 @@ Local and cloud models may **hallucinate** Selenium or async Playwright. Prompts
 | `async def`, `await`, `playwright.async_api` | **Sync-only** project (`playwright.sync_api`). |
 | Parent `.or_(child)` unions (e.g. `role=alert` with inner `.oxd-alert-content-text`) | **Strict mode** multi-match — see `page-object-standards.mdc`. |
 
-**Case study (this repo):** `reports/ai_suggestions.md` from **Ollama** proposed Selenium-style locators and async fixtures for a **sync** `LoginPage`. Treat that as **evidence** that unstructured local inference needs schema + folding + fallback.
+**Enforcement:** After schema validation, ``validate_or_fallback`` runs ``find_banned_patterns`` on **`fix_markdown` only** (not ``root_cause``, so traceback quotes do not false-positive). Hits emit **`HEURISTIC_FALLBACK`** with reason ``banned pattern: …``.
+
+**Case study (this repo):** `reports/ai_suggestions.md` from **Ollama** proposed Selenium-style locators and async fixtures for a **sync** `LoginPage`. Treat that as **evidence** that unstructured local inference needs schema + folding + fallback + policy scan.
 
 **Correct patterns to require in prompts and validated output:**
 
@@ -136,21 +146,7 @@ Local and cloud models may **hallucinate** Selenium or async Playwright. Prompts
 When extending the analyzer, prefer inputs in this order:
 
 1. **Playwright trace** artifacts (timeline, snapshots, **ARIA / accessibility tree** excerpts) — highest signal for locator and timing failures.
-2. **Structured stderr / pytest** failure text (assertion line + short traceback) — already trimmed via `_trim_failure_message`.
-3. **Raw HTML dumps** — lowest priority; use only when traces are unavailable.
-
-**AI-generated fixes** are **suggestions only**. They must be **checked** against:
-
-- **`.cursor/rules/page-object-standards.mdc`** (POM, locators, logging, errors)
-- **`playwright-core-sync.mdc`** (sync-only, no Selenium)
-
-Never commit generated code without a human or CI test pass.
-
----
-
-## 5. Error handling, rate limits, deprecations, observability
-
-| Concern | Requirement </code></pre>
+2.</code></pre>
 <p><em>Content truncated. View full file in the source repo (linked above).</em></p><p><a href="https://github.com/agrawalshreya10/autonomous-quality-engine/blob/HEAD/.cursor/rules/ai-audit-governance.mdc" rel="external">View raw on GitHub</a></p>
 </section>
 <section><h2>Why this is listed</h2>
