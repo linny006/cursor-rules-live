@@ -1,11 +1,20 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 2,
+    "updated_at": "2026-07-28T23:51:44Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-07-28T23:30:53Z",
+    "updated_at": "2026-07-28T23:45:50Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -43,15 +52,6 @@
     "stars": 0,
     "updated_at": "2026-07-28T22:08:50Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 2,
-    "updated_at": "2026-07-28T22:04:10Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "cursorrules": {
@@ -104,7 +104,7 @@
     "id": "0xwilliamortiz/ponytail-improved",
     "language": "JavaScript",
     "name": "0xwilliamortiz/ponytail-improved",
-    "stars": 402,
+    "stars": 417,
     "updated_at": "2026-07-28T14:41:07Z",
     "url": "https://github.com/0xwilliamortiz/ponytail-improved"
   },
@@ -496,7 +496,7 @@
     "id": "ilindaniel/ponytail-lite",
     "language": "\u2014",
     "name": "ilindaniel/ponytail-lite",
-    "stars": 130,
+    "stars": 131,
     "updated_at": "2026-07-26T18:04:03Z",
     "url": "https://github.com/ilindaniel/ponytail-lite"
   },
