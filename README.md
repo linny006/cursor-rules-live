@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-07-30 05:30 UTC
+> ⏰ Last updated: 2026-07-30 05:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -63,7 +63,7 @@ expired items removed — so you can rely on what you see being current.
 | 8 | [agrawalshreya10/autonomous-quality-engine](https://github.com/agrawalshreya10/autonomous-quality-engine) | 1 | Python | 2026-07-30 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/agrawalshreya10/autonomous-quality-engine/) | A production-grade vertical-slice automation ecosystem built with Playwright and Python. Features a thread-safe POM with |
 | 9 | [sublimecoder/sublimecoding](https://github.com/sublimecoder/sublimecoding) | 0 | — | 2026-07-30 | — | 🛠️ Free Claude Code & Cursor prompts for senior engineers — plus AIOS, an open-source markdown memory system for coding  |
 | 10 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 28 | — | 2026-07-29 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
-| 11 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 98 | Shell | 2026-07-29 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | 80 agent skills synthesizing 17 years of software engineering discipline into a prescriptive methodology for solo develo |
+| 11 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 99 | Shell | 2026-07-29 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | 80 agent skills synthesizing 17 years of software engineering discipline into a prescriptive methodology for solo develo |
 | 12 | [pekral/cursor-rules](https://github.com/pekral/cursor-rules) | 5 | PHP | 2026-07-29 | — | PHP and Laravel Cursor rules — coding standards, testing, and conventions for the Cursor editor. Install via Composer. |
 | 13 | [sungurerdim/dev-skills](https://github.com/sungurerdim/dev-skills) | 1 | HTML | 2026-07-29 | — | 30 multi-phase AI coding skills with executable gates — pure markdown, zero dependencies. |
 | 14 | [sscodeai/agency-agents-ja](https://github.com/sscodeai/agency-agents-ja) | 4 | Shell | 2026-07-29 | — | 323個の即戦力AI専門エージェント — Claude Code/Cursor/Copilot等に対応。SIer/受託開発/SaaS/製造DX/公共分野など日本市場向け114個のオリジナルを含む、agency-agents日本語コミュニティ |
@@ -86,7 +86,7 @@ expired items removed — so you can rely on what you see being current.
 | 31 | [dwsilvar/LBaC](https://github.com/dwsilvar/LBaC) | 0 | — | 2026-07-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/dwsilvar/LBaC/) | Living Blueprint-as-Code (LBaC) template to align human developers and AI coding agents (Copilot, Claude, Cursor, Windsu |
 | 32 | [xnoahwang/cursor-prime](https://github.com/xnoahwang/cursor-prime) | 0 | PowerShell | 2026-07-28 | — | Cursor-native config: a strict Plan Gate + Karpathy discipline rules, /plan /delta /prime-init commands, and a global gi |
 | 33 | [orin-dx/agent-plugins](https://github.com/orin-dx/agent-plugins) | 0 | — | 2026-07-28 | — | Official AI Agent Plugins & Skills Marketplace for Antigravity (AGY), Claude Code, and Cursor |
-| 34 | [nota-america/forgecat-agent-profiles](https://github.com/nota-america/forgecat-agent-profiles) | 35 | TypeScript | 2026-07-27 | — | Production-ready AI agent profiles for Claude Code, Cursor, and Codex. Search, install, and contribute ForgeCat packages |
+| 34 | [nota-america/forgecat-agent-profiles](https://github.com/nota-america/forgecat-agent-profiles) | 36 | TypeScript | 2026-07-27 | — | Production-ready AI agent profiles for Claude Code, Cursor, and Codex. Search, install, and contribute ForgeCat packages |
 | 35 | [MicSm/boffin](https://github.com/MicSm/boffin) | 38 | JavaScript | 2026-07-27 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/MicSm/boffin/) | Staff-engineer layer for AI coding agents: routes per-edit architectural constraints and requires verification. Not anot |
 | 36 | [Bita71/Agent-Workflow-Kit](https://github.com/Bita71/Agent-Workflow-Kit) | 1 | Shell | 2026-07-27 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Bita71/Agent-Workflow-Kit/) | Copy-ready agent workflow for Cursor, Claude Code, and Codex. Plan, build, review, and verify with specialized subagents |
 | 37 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-07-27 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
