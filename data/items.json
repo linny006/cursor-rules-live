@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-07-30T12:30:47Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
     "id": "edsondviana8/ai-humanizer-core",
     "language": "HTML",
@@ -7,15 +16,6 @@
     "stars": 2,
     "updated_at": "2026-07-30T12:23:23Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 2,
-    "updated_at": "2026-07-30T12:15:37Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -364,7 +364,7 @@
     "id": "MicSm/boffin",
     "language": "JavaScript",
     "name": "MicSm/boffin",
-    "stars": 38,
+    "stars": 37,
     "updated_at": "2026-07-27T19:01:29Z",
     "url": "https://github.com/MicSm/boffin"
   },
@@ -405,7 +405,7 @@
     "id": "Bastioned-successor320/learn-nanobot",
     "language": "Python",
     "name": "Bastioned-successor320/learn-nanobot",
-    "stars": 4,
+    "stars": 3,
     "updated_at": "2026-07-27T10:59:12Z",
     "url": "https://github.com/Bastioned-successor320/learn-nanobot"
   },
@@ -510,7 +510,7 @@
     "id": "glowElephant/context-forge",
     "language": "Python",
     "name": "glowElephant/context-forge",
-    "stars": 3,
+    "stars": 2,
     "updated_at": "2026-07-27T06:54:06Z",
     "url": "https://github.com/glowElephant/context-forge"
   }
