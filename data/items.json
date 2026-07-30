@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-07-30T17:09:01Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "openEHR assistant AI plugin suite with Skills, commands, and MCP server configuration for clinical workflow integration",
     "id": "Cadasto/openehr-assistant-plugin",
     "language": "Python",
@@ -7,15 +16,6 @@
     "stars": 3,
     "updated_at": "2026-07-30T17:07:17Z",
     "url": "https://github.com/Cadasto/openehr-assistant-plugin"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-07-30T17:00:55Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -50,7 +50,7 @@
     "language": "HTML",
     "name": "edsondviana8/ai-humanizer-core",
     "stars": 2,
-    "updated_at": "2026-07-30T15:02:41Z",
+    "updated_at": "2026-07-30T17:14:45Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
