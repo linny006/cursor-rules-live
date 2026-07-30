@@ -5,8 +5,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-07-30T08:45:51Z",
+    "updated_at": "2026-07-30T09:00:52Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
+    "id": "mikeprasad/aria-knowledge",
+    "language": "Shell",
+    "name": "mikeprasad/aria-knowledge",
+    "stars": 16,
+    "updated_at": "2026-07-30T09:00:47Z",
+    "url": "https://github.com/mikeprasad/aria-knowledge"
   },
   {
     "cursorrules": {
@@ -504,14 +513,5 @@
     "stars": 3,
     "updated_at": "2026-07-27T06:54:06Z",
     "url": "https://github.com/glowElephant/context-forge"
-  },
-  {
-    "description": "Curated rules, guides, and resources for AI coding agents \u2014 Claude Code, prompts, MCP, skills, and best practices",
-    "id": "fluzzy/archive",
-    "language": "\u2014",
-    "name": "fluzzy/archive",
-    "stars": 0,
-    "updated_at": "2026-07-27T06:28:25Z",
-    "url": "https://github.com/fluzzy/archive"
   }
 ]
