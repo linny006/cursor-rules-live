@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-07-30 17:15 UTC
+> ⏰ Last updated: 2026-07-30 17:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,22 +53,22 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 1 | HTML | 2026-07-30 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 2 | [Cadasto/openehr-assistant-plugin](https://github.com/Cadasto/openehr-assistant-plugin) | 3 | Python | 2026-07-30 | — | openEHR assistant AI plugin suite with Skills, commands, and MCP server configuration for clinical workflow integration |
-| 3 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 1 | HTML | 2026-07-30 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 4 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-07-30 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
-| 5 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-07-30 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
-| 6 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 2 | HTML | 2026-07-30 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
-| 7 | [anmolnagpal/devops-skills](https://github.com/anmolnagpal/devops-skills) | 6 | Shell | 2026-07-30 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/anmolnagpal/devops-skills/) | Multi-tool DevOps skills for Claude Code, Cursor, and Codex — Terraform, Kubernetes, Docker, GitHub Actions, GitLab CI,  |
-| 8 | [sungurerdim/dev-skills](https://github.com/sungurerdim/dev-skills) | 1 | HTML | 2026-07-30 | — | 30 multi-phase AI coding skills with executable gates — pure markdown, zero dependencies. |
-| 9 | [vibestackdev/vibe-stack](https://github.com/vibestackdev/vibe-stack) | 6 | TypeScript | 2026-07-30 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/) | 29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b |
-| 10 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 16 | Shell | 2026-07-30 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
-| 11 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 28 | — | 2026-07-30 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
-| 12 | [SalesforceAIResearch/agentforce-adlc](https://github.com/SalesforceAIResearch/agentforce-adlc) | 93 | Python | 2026-07-30 | — | Agent Development Life Cycle — Build, deploy, test, and optimize Agentforce agents using Claude Code skills and Agent Sc |
-| 13 | [CacinieP/network-troubleshoot-skill](https://github.com/CacinieP/network-troubleshoot-skill) | 3 | Shell | 2026-07-30 | — | Universal network troubleshooting skill for AI coding agents: DNS, proxy, SSL, package managers, Docker, Git, and China/ |
-| 14 | [agrawalshreya10/autonomous-quality-engine](https://github.com/agrawalshreya10/autonomous-quality-engine) | 1 | Python | 2026-07-30 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/agrawalshreya10/autonomous-quality-engine/) | A production-grade vertical-slice automation ecosystem built with Playwright and Python. Features a thread-safe POM with |
-| 15 | [sublimecoder/sublimecoding](https://github.com/sublimecoder/sublimecoding) | 0 | — | 2026-07-30 | — | 🛠️ Free Claude Code & Cursor prompts for senior engineers — plus AIOS, an open-source markdown memory system for coding  |
-| 16 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 103 | Shell | 2026-07-29 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | 80 agent skills synthesizing 17 years of software engineering discipline into a prescriptive methodology for solo develo |
+| 1 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 28 | — | 2026-07-30 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
+| 2 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 103 | Shell | 2026-07-30 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | 80 agent skills synthesizing 17 years of software engineering discipline into a prescriptive methodology for solo develo |
+| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 1 | HTML | 2026-07-30 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 4 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 2 | HTML | 2026-07-30 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
+| 5 | [Cadasto/openehr-assistant-plugin](https://github.com/Cadasto/openehr-assistant-plugin) | 3 | Python | 2026-07-30 | — | openEHR assistant AI plugin suite with Skills, commands, and MCP server configuration for clinical workflow integration |
+| 6 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 1 | HTML | 2026-07-30 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
+| 7 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-07-30 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
+| 8 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-07-30 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
+| 9 | [anmolnagpal/devops-skills](https://github.com/anmolnagpal/devops-skills) | 6 | Shell | 2026-07-30 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/anmolnagpal/devops-skills/) | Multi-tool DevOps skills for Claude Code, Cursor, and Codex — Terraform, Kubernetes, Docker, GitHub Actions, GitLab CI,  |
+| 10 | [sungurerdim/dev-skills](https://github.com/sungurerdim/dev-skills) | 1 | HTML | 2026-07-30 | — | 30 multi-phase AI coding skills with executable gates — pure markdown, zero dependencies. |
+| 11 | [vibestackdev/vibe-stack](https://github.com/vibestackdev/vibe-stack) | 6 | TypeScript | 2026-07-30 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/) | 29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b |
+| 12 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 16 | Shell | 2026-07-30 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
+| 13 | [SalesforceAIResearch/agentforce-adlc](https://github.com/SalesforceAIResearch/agentforce-adlc) | 93 | Python | 2026-07-30 | — | Agent Development Life Cycle — Build, deploy, test, and optimize Agentforce agents using Claude Code skills and Agent Sc |
+| 14 | [CacinieP/network-troubleshoot-skill](https://github.com/CacinieP/network-troubleshoot-skill) | 3 | Shell | 2026-07-30 | — | Universal network troubleshooting skill for AI coding agents: DNS, proxy, SSL, package managers, Docker, Git, and China/ |
+| 15 | [agrawalshreya10/autonomous-quality-engine](https://github.com/agrawalshreya10/autonomous-quality-engine) | 1 | Python | 2026-07-30 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/agrawalshreya10/autonomous-quality-engine/) | A production-grade vertical-slice automation ecosystem built with Playwright and Python. Features a thread-safe POM with |
+| 16 | [sublimecoder/sublimecoding](https://github.com/sublimecoder/sublimecoding) | 0 | — | 2026-07-30 | — | 🛠️ Free Claude Code & Cursor prompts for senior engineers — plus AIOS, an open-source markdown memory system for coding  |
 | 17 | [pekral/cursor-rules](https://github.com/pekral/cursor-rules) | 5 | PHP | 2026-07-29 | — | PHP and Laravel Cursor rules — coding standards, testing, and conventions for the Cursor editor. Install via Composer. |
 | 18 | [sscodeai/agency-agents-ja](https://github.com/sscodeai/agency-agents-ja) | 4 | Shell | 2026-07-29 | — | 323個の即戦力AI専門エージェント — Claude Code/Cursor/Copilot等に対応。SIer/受託開発/SaaS/製造DX/公共分野など日本市場向け114個のオリジナルを含む、agency-agents日本語コミュニティ |
 | 19 | [powersync-ja/agent-skills](https://github.com/powersync-ja/agent-skills) | 17 | JavaScript | 2026-07-29 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/powersync-ja/agent-skills/) | Official agent skills for PowerSync |
@@ -81,7 +81,7 @@ expired items removed — so you can rely on what you see being current.
 | 26 | [kensaurus/cursor-kenji](https://github.com/kensaurus/cursor-kenji) | 7 | JavaScript | 2026-07-29 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/kensaurus/cursor-kenji/) | 🦖Curated Cursor AI agent skills, slash commands, MCP configs, subagents & rules for full-stack dev — React 19, Next.js 1 |
 | 27 | [pirica/cursor_tracking](https://github.com/pirica/cursor_tracking) | 0 | PHP | 2026-07-28 | — | Browse Cursor agent Rules, Transcripts and Plans documents from your local machine. |
 | 28 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 17 | Python | 2026-07-28 | — | Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior |
-| 29 | [0xwilliamortiz/ponytail-improved](https://github.com/0xwilliamortiz/ponytail-improved) | 560 | JavaScript | 2026-07-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/0xwilliamortiz/ponytail-improved/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 29 | [0xwilliamortiz/ponytail-improved](https://github.com/0xwilliamortiz/ponytail-improved) | 561 | JavaScript | 2026-07-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/0xwilliamortiz/ponytail-improved/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 30 | [GeiserX/homebrew-lynxprompt](https://github.com/GeiserX/homebrew-lynxprompt) | 1 | Ruby | 2026-07-28 | — | Homebrew tap for LynxPrompt CLI |
 | 31 | [Erkan3034/aegis](https://github.com/Erkan3034/aegis) | 1 | PowerShell | 2026-07-28 | — | Production-Grade Red-Team Security Auditor & Vulnerability Scanner Skill for AI Coding Assistants (Claude Code, Cursor,  |
 | 32 | [GeiserX/lynxprompt-vscode](https://github.com/GeiserX/lynxprompt-vscode) | 1 | TypeScript | 2026-07-28 | — | VS Code extension for LynxPrompt — browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules)  |
