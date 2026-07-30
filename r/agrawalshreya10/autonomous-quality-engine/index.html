@@ -94,8 +94,8 @@ This section is the single source of truth for Gemini SDK, model, and initializa
 | **Package** | **`google-genai` only** (`pip install google-genai`; pin matches `requirements.txt` / `pyproject.toml`). |
 | **API shape** | `from google import genai` → `genai.Client(api_key=..., http_options=types.HttpOptions(timeout=ms))` → `client.models.generate_content(...)` → **`client.close()`** in `finally`. |
 | **Banned** | **`google-generativeai`**, **`GenerativeModel()`**, and any import path that triggers the legacy client. These cause **CI breakage** (deprecated endpoints / 404-class failures). |
-| **Models (allowed)** | **Default (CI + CLI + `DEFAULT_GEMINI_MODEL`):** **`gemini-3.1-flash-lite-preview`**. **Optional override:** **`gemini-3.1-flash-preview`** via `--model` or env when explicitly chosen. |
-| **Models (banned)** | `gemini-1.5-flash`, `gemini-1.5-pro`, `gemini-1.0-pro`, and other decommissioned IDs. |
+| **Models (allowed)** | **Default (CI + CLI + `DEFAULT_GEMINI_MODEL`):** **`gemini-3.1-flash-lite`** (GA). **Optional override:** **`gemini-3.5-flash`** (GA) via `--model` or env when explicitly chosen. |
+| **Models (banned)** | `gemini-3.1-flash-lite-preview` (shut down 2026-05-25), `gemini-1.5-flash`, `gemini-1.5-pro`, `gemini-1.0-pro`, and other decommissioned IDs. |
 
 ### Structured output (both providers)
 
@@ -145,8 +145,7 @@ Local and cloud models may **hallucinate** Selenium or async Playwright. Prompts
 
 When extending the analyzer, prefer inputs in this order:
 
-1. **Playwright trace** artifacts (timeline, snapshots, **ARIA / accessibility tree** excerpts) — highest signal for locator and timing failures.
-2.</code></pre>
+1. **Playwright trace** artifacts (timeline, snapshots, **ARIA / accessibility tree** excerpts) — </code></pre>
 <p><em>Content truncated. View full file in the source repo (linked above).</em></p><p><a href="https://github.com/agrawalshreya10/autonomous-quality-engine/blob/HEAD/.cursor/rules/ai-audit-governance.mdc" rel="external">View raw on GitHub</a></p>
 </section>
 <section><h2>Why this is listed</h2>
