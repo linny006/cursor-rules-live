@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-07-30 21:45 UTC
+> ⏰ Last updated: 2026-07-30 22:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -83,7 +83,7 @@ expired items removed — so you can rely on what you see being current.
 | 28 | [kensaurus/cursor-kenji](https://github.com/kensaurus/cursor-kenji) | 7 | JavaScript | 2026-07-29 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/kensaurus/cursor-kenji/) | 🦖Curated Cursor AI agent skills, slash commands, MCP configs, subagents & rules for full-stack dev — React 19, Next.js 1 |
 | 29 | [pirica/cursor_tracking](https://github.com/pirica/cursor_tracking) | 0 | PHP | 2026-07-28 | — | Browse Cursor agent Rules, Transcripts and Plans documents from your local machine. |
 | 30 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 17 | Python | 2026-07-28 | — | Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior |
-| 31 | [0xwilliamortiz/ponytail-improved](https://github.com/0xwilliamortiz/ponytail-improved) | 561 | JavaScript | 2026-07-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/0xwilliamortiz/ponytail-improved/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 31 | [0xwilliamortiz/ponytail-improved](https://github.com/0xwilliamortiz/ponytail-improved) | 562 | JavaScript | 2026-07-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/0xwilliamortiz/ponytail-improved/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 32 | [GeiserX/homebrew-lynxprompt](https://github.com/GeiserX/homebrew-lynxprompt) | 1 | Ruby | 2026-07-28 | — | Homebrew tap for LynxPrompt CLI |
 | 33 | [Erkan3034/aegis](https://github.com/Erkan3034/aegis) | 1 | PowerShell | 2026-07-28 | — | Production-Grade Red-Team Security Auditor & Vulnerability Scanner Skill for AI Coding Assistants (Claude Code, Cursor,  |
 | 34 | [GeiserX/lynxprompt-vscode](https://github.com/GeiserX/lynxprompt-vscode) | 1 | TypeScript | 2026-07-28 | — | VS Code extension for LynxPrompt — browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules)  |
