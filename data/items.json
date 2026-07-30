@@ -5,8 +5,17 @@
     "language": "Python",
     "name": "Cadasto/openehr-assistant-plugin",
     "stars": 3,
-    "updated_at": "2026-07-30T18:27:16Z",
+    "updated_at": "2026-07-30T18:32:15Z",
     "url": "https://github.com/Cadasto/openehr-assistant-plugin"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-07-30T18:30:50Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -25,15 +34,6 @@
     "stars": 0,
     "updated_at": "2026-07-30T18:19:25Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-07-30T18:15:53Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -127,7 +127,7 @@
     "id": "SalesforceAIResearch/agentforce-adlc",
     "language": "Python",
     "name": "SalesforceAIResearch/agentforce-adlc",
-    "stars": 93,
+    "stars": 94,
     "updated_at": "2026-07-30T06:59:57Z",
     "url": "https://github.com/SalesforceAIResearch/agentforce-adlc"
   },
