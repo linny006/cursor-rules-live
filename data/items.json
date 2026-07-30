@@ -5,7 +5,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-07-30T05:00:48Z",
+    "updated_at": "2026-07-30T05:15:52Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -278,6 +278,15 @@
     "url": "https://github.com/GeiserX/homebrew-lynxprompt"
   },
   {
+    "description": "Production-Grade Red-Team Security Auditor & Vulnerability Scanner Skill for AI Coding Assistants (Claude Code, Cursor, ",
+    "id": "Erkan3034/aegis",
+    "language": "PowerShell",
+    "name": "Erkan3034/aegis",
+    "stars": 1,
+    "updated_at": "2026-07-28T11:04:35Z",
+    "url": "https://github.com/Erkan3034/aegis"
+  },
+  {
     "description": "VS Code extension for LynxPrompt \u2014 browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules) ",
     "id": "GeiserX/lynxprompt-vscode",
     "language": "TypeScript",
@@ -285,15 +294,6 @@
     "stars": 1,
     "updated_at": "2026-07-28T10:04:42Z",
     "url": "https://github.com/GeiserX/lynxprompt-vscode"
-  },
-  {
-    "description": "Production-Grade Red-Team Security Auditor & Vulnerability Scanner Skill for AI Coding Assistants (Claude Code, Cursor, ",
-    "id": "Erkan3034/aegis",
-    "language": "PowerShell",
-    "name": "Erkan3034/aegis",
-    "stars": 0,
-    "updated_at": "2026-07-28T11:04:35Z",
-    "url": "https://github.com/Erkan3034/aegis"
   },
   {
     "description": "Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API ",
