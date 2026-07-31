@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-07-31 03:30 UTC
+> ⏰ Last updated: 2026-07-31 03:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -76,7 +76,7 @@ expired items removed — so you can rely on what you see being current.
 | 21 | [sscodeai/agency-agents-ja](https://github.com/sscodeai/agency-agents-ja) | 4 | Shell | 2026-07-29 | — | 323個の即戦力AI専門エージェント — Claude Code/Cursor/Copilot等に対応。SIer/受託開発/SaaS/製造DX/公共分野など日本市場向け114個のオリジナルを含む、agency-agents日本語コミュニティ |
 | 22 | [powersync-ja/agent-skills](https://github.com/powersync-ja/agent-skills) | 17 | JavaScript | 2026-07-29 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/powersync-ja/agent-skills/) | Official agent skills for PowerSync |
 | 23 | [moukie76/cursor-rules-free](https://github.com/moukie76/cursor-rules-free) | 0 | HTML | 2026-07-29 | — | Free Cursor Rules for Next.js, TypeScript, Stripe — sample from the full 25-rule pack |
-| 24 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 107 | Python | 2026-07-29 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
+| 24 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 108 | Python | 2026-07-29 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
 | 25 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 13 | TypeScript | 2026-07-29 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
 | 26 | [orbitalsonic/AndroidPilot](https://github.com/orbitalsonic/AndroidPilot) | 0 | — | 2026-07-29 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/orbitalsonic/AndroidPilot/) | Production-ready Android Engineering Rules for Cursor and other AI coding assistants. Build consistent, scalable, and ma |
 | 27 | [GeiserX/n8n-nodes-lynxprompt](https://github.com/GeiserX/n8n-nodes-lynxprompt) | 1 | TypeScript | 2026-07-29 | — | n8n community node for LynxPrompt — manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via API |
