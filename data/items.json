@@ -1,12 +1,12 @@
 [
   {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 1,
-    "updated_at": "2026-07-31T07:17:09Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
+    "description": "AI agent skills for building accessible Indian government websites \u2014 UX4G 3.0.18, DBIM v3, GIGW 3.0 and WCAG, extracted ",
+    "id": "Yashraj00700/indian-gov-ui-skills",
+    "language": "Python",
+    "name": "Yashraj00700/indian-gov-ui-skills",
+    "stars": 0,
+    "updated_at": "2026-07-31T07:38:51Z",
+    "url": "https://github.com/Yashraj00700/indian-gov-ui-skills"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-07-31T07:15:32Z",
+    "updated_at": "2026-07-31T07:30:49Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 1,
+    "updated_at": "2026-07-31T07:17:09Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -509,14 +518,5 @@
     "stars": 3,
     "updated_at": "2026-07-27T10:20:02Z",
     "url": "https://github.com/Luxvil/ai-coding-rules"
-  },
-  {
-    "description": "\ud83d\ude80 Evidence-driven context engineering for AI agents coding",
-    "id": "jonaskahn/agent-context",
-    "language": "\u2014",
-    "name": "jonaskahn/agent-context",
-    "stars": 0,
-    "updated_at": "2026-07-27T09:33:04Z",
-    "url": "https://github.com/jonaskahn/agent-context"
   }
 ]
