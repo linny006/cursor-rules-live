@@ -1,12 +1,30 @@
 [
   {
-    "description": "AI agent skills for building accessible Indian government websites \u2014 UX4G 3.0.18, DBIM v3, GIGW 3.0 and WCAG, extracted ",
-    "id": "Yashraj00700/indian-gov-ui-skills",
-    "language": "Python",
-    "name": "Yashraj00700/indian-gov-ui-skills",
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 28,
+    "updated_at": "2026-07-31T07:59:59Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+  },
+  {
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
     "stars": 0,
-    "updated_at": "2026-07-31T07:38:51Z",
-    "url": "https://github.com/Yashraj00700/indian-gov-ui-skills"
+    "updated_at": "2026-07-31T07:54:20Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
+  },
+  {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 0,
+    "updated_at": "2026-07-31T07:53:03Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +32,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-07-31T07:30:49Z",
+    "updated_at": "2026-07-31T07:45:42Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "AI agent skills for building accessible Indian government websites \u2014 UX4G 3.0.18, DBIM v3, GIGW 3.0 and WCAG, extracted ",
+    "id": "Yashraj00700/indian-gov-ui-skills",
+    "language": "Python",
+    "name": "Yashraj00700/indian-gov-ui-skills",
+    "stars": 0,
+    "updated_at": "2026-07-31T07:38:51Z",
+    "url": "https://github.com/Yashraj00700/indian-gov-ui-skills"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -34,24 +61,6 @@
     "stars": 2,
     "updated_at": "2026-07-31T05:26:22Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
-    "stars": 0,
-    "updated_at": "2026-07-31T04:27:06Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 0,
-    "updated_at": "2026-07-31T04:25:39Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "cursorrules": {
@@ -75,15 +84,6 @@
     "stars": 0,
     "updated_at": "2026-07-31T00:23:40Z",
     "url": "https://github.com/sublimecoder/sublimecoding"
-  },
-  {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 28,
-    "updated_at": "2026-07-30T20:43:33Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "cursorrules": {
@@ -215,7 +215,7 @@
     "language": "PHP",
     "name": "pekral/cursor-rules",
     "stars": 5,
-    "updated_at": "2026-07-31T07:25:02Z",
+    "updated_at": "2026-07-31T07:54:28Z",
     "url": "https://github.com/pekral/cursor-rules"
   },
   {
