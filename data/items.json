@@ -1,5 +1,23 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-07-31T21:57:06Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-07-31T21:48:17Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: Activate ParselFire Core C++ pack index\nglobs: **/*.{cc,cpp,cxx,hh,hpp,hxx,ipp,tpp,inl}\nalwaysApply: false\n---\n\n# C++ Pack Activation\n\nFor C++ source files:\n\n- Load `packs/cpp-architecture/pack.urf.md`.\n- Use its `## ROUTING` and `## LEAVES` records for leaf selection.\n- Use its `## STAGE-REFS` records to gather the family K ids (and their mirrored X ids) at each stage of the walk.\n\nFor ambiguous `.h` or `.c` files that reach this rule via the always-on router:\n\n- Apply cpp-architecture only if the file contains C++ constructs (class, template, namespace, references, std::, noexcept, overloads).\n- If the file is plain C, stay on universal only.\n",
       "format": "mdc",
@@ -10,17 +28,8 @@
     "language": "JavaScript",
     "name": "MicSm/boffin",
     "stars": 37,
-    "updated_at": "2026-07-31T21:47:06Z",
+    "updated_at": "2026-07-31T21:50:59Z",
     "url": "https://github.com/MicSm/boffin"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-07-31T21:45:39Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -48,15 +57,6 @@
     "stars": 0,
     "updated_at": "2026-07-31T21:11:20Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-07-31T20:53:53Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
