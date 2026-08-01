@@ -1,11 +1,20 @@
 [
   {
+    "description": "Local, zero-dependency structural diagnostic for Cursor project rules.",
+    "id": "almandas-labs/cursor-rules-doctor",
+    "language": "JavaScript",
+    "name": "almandas-labs/cursor-rules-doctor",
+    "stars": 0,
+    "updated_at": "2026-08-01T01:04:53Z",
+    "url": "https://github.com/almandas-labs/cursor-rules-doctor"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-01T00:45:37Z",
+    "updated_at": "2026-08-01T01:00:29Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -95,7 +104,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 18601,
+    "stars": 18602,
     "updated_at": "2026-07-31T13:37:51Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -504,14 +513,5 @@
     "stars": 2,
     "updated_at": "2026-07-27T10:50:12Z",
     "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
-  },
-  {
-    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
-    "id": "zinxj/uikit-expert-skill",
-    "language": "\u2014",
-    "name": "zinxj/uikit-expert-skill",
-    "stars": 4,
-    "updated_at": "2026-07-27T10:34:11Z",
-    "url": "https://github.com/zinxj/uikit-expert-skill"
   }
 ]
