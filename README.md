@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-08-02 00:45 UTC
+> ⏰ Last updated: 2026-08-02 01:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -62,7 +62,7 @@ expired items removed — so you can rely on what you see being current.
 | 7 | [Texarkanine/ai-rizz](https://github.com/Texarkanine/ai-rizz) | 0 | Shell | 2026-08-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Texarkanine/ai-rizz/) | Zero-dependency POSIX CLI for managing AI rules and rulesets. Pull rules from a source repository and use them committed |
 | 8 | [0xwilliamortiz/ponytail-improved](https://github.com/0xwilliamortiz/ponytail-improved) | 577 | JavaScript | 2026-08-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/0xwilliamortiz/ponytail-improved/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 9 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 28 | — | 2026-08-01 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
-| 10 | [ilindaniel/impeccable-lite](https://github.com/ilindaniel/impeccable-lite) | 45 | — | 2026-08-01 | — | Stop agents from designing sloppy UI. Inspired by Impeccable, but without the plugin machinery. Just one SKILL.md file. |
+| 10 | [ilindaniel/impeccable-lite](https://github.com/ilindaniel/impeccable-lite) | 46 | — | 2026-08-01 | — | Stop agents from designing sloppy UI. Inspired by Impeccable, but without the plugin machinery. Just one SKILL.md file. |
 | 11 | [KingEmma7/cursor-os](https://github.com/KingEmma7/cursor-os) | 0 | JavaScript | 2026-08-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/KingEmma7/cursor-os/) | Make Cursor project-aware with repo-level rules, memory, workflows, verifier agents, and localization prompts. |
 | 12 | [FuDie0915/Riper5-cursor-skills](https://github.com/FuDie0915/Riper5-cursor-skills) | 1 | Python | 2026-08-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/FuDie0915/Riper5-cursor-skills/) | RIPER-5 AI 编码行为协议 — 面向 Cursor 的结构化技能套件，通过 DSL 声明式约束实现严格的模式隔离与行为控制 |
 | 13 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 13 | TypeScript | 2026-08-01 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
