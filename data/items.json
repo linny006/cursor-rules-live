@@ -1,11 +1,20 @@
 [
   {
+    "description": "3D printing toolkit \u2014 AI-powered design skills for Claude Code, Cursor, Windsurf & Copilot, plus parametric OpenSCAD mod",
+    "id": "wilsonwaters/3d-printing",
+    "language": "OpenSCAD",
+    "name": "wilsonwaters/3d-printing",
+    "stars": 0,
+    "updated_at": "2026-08-02T02:44:59Z",
+    "url": "https://github.com/wilsonwaters/3d-printing"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-02T02:15:39Z",
+    "updated_at": "2026-08-02T02:30:50Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -228,7 +237,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 18651,
+    "stars": 18652,
     "updated_at": "2026-07-31T13:37:51Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -509,14 +518,5 @@
     "stars": 0,
     "updated_at": "2026-07-27T11:01:33Z",
     "url": "https://github.com/Hyanthropological659/clarify-skill"
-  },
-  {
-    "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
-    "id": "Bastioned-successor320/learn-nanobot",
-    "language": "Python",
-    "name": "Bastioned-successor320/learn-nanobot",
-    "stars": 4,
-    "updated_at": "2026-07-27T10:59:12Z",
-    "url": "https://github.com/Bastioned-successor320/learn-nanobot"
   }
 ]
