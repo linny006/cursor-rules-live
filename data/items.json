@@ -1,12 +1,30 @@
 [
   {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
+    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 112,
+    "updated_at": "2026-08-03T08:52:10Z",
+    "url": "https://github.com/KbWen/agentic-os"
+  },
+  {
+    "description": "Variable-based universal rules system for Cursor IDE",
+    "id": "Jlosev/cursor-rules",
     "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 29,
-    "updated_at": "2026-08-03T08:41:03Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+    "name": "Jlosev/cursor-rules",
+    "stars": 0,
+    "updated_at": "2026-08-03T08:49:58Z",
+    "url": "https://github.com/Jlosev/cursor-rules"
+  },
+  {
+    "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
+    "id": "pekral/cursor-rules",
+    "language": "PHP",
+    "name": "pekral/cursor-rules",
+    "stars": 5,
+    "updated_at": "2026-08-03T08:46:00Z",
+    "url": "https://github.com/pekral/cursor-rules"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +32,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-03T08:31:44Z",
+    "updated_at": "2026-08-03T08:45:59Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 29,
+    "updated_at": "2026-08-03T08:41:03Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "cursorrules": {
@@ -30,15 +57,6 @@
     "stars": 1,
     "updated_at": "2026-08-03T08:22:14Z",
     "url": "https://github.com/FuDie0915/Riper5-cursor-skills"
-  },
-  {
-    "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
-    "id": "pekral/cursor-rules",
-    "language": "PHP",
-    "name": "pekral/cursor-rules",
-    "stars": 5,
-    "updated_at": "2026-08-03T08:21:27Z",
-    "url": "https://github.com/pekral/cursor-rules"
   },
   {
     "description": "Homebrew tap for LynxPrompt CLI",
@@ -93,15 +111,6 @@
     "stars": 2,
     "updated_at": "2026-08-03T06:50:51Z",
     "url": "https://github.com/glowElephant/context-forge"
-  },
-  {
-    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
-    "id": "KbWen/agentic-os",
-    "language": "Python",
-    "name": "KbWen/agentic-os",
-    "stars": 112,
-    "updated_at": "2026-08-03T07:43:06Z",
-    "url": "https://github.com/KbWen/agentic-os"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -328,7 +337,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 18712,
+    "stars": 18713,
     "updated_at": "2026-07-31T13:37:51Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -509,14 +518,5 @@
     "stars": 1,
     "updated_at": "2026-07-27T15:02:01Z",
     "url": "https://github.com/Bita71/Agent-Workflow-Kit"
-  },
-  {
-    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
-    "id": "Laurellagloomy260/cursor-rules-generator",
-    "language": "\u2014",
-    "name": "Laurellagloomy260/cursor-rules-generator",
-    "stars": 0,
-    "updated_at": "2026-07-27T11:12:37Z",
-    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
   }
 ]
