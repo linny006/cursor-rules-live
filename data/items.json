@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-08-03T16:10:21Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
     "id": "pekral/cursor-rules",
     "language": "PHP",
@@ -7,15 +16,6 @@
     "stars": 5,
     "updated_at": "2026-08-03T16:06:14Z",
     "url": "https://github.com/pekral/cursor-rules"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-08-03T16:00:49Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -213,7 +213,7 @@
     "id": "philipbankier/awesome-agent-skills",
     "language": "TypeScript",
     "name": "philipbankier/awesome-agent-skills",
-    "stars": 13,
+    "stars": 14,
     "updated_at": "2026-08-02T13:20:47Z",
     "url": "https://github.com/philipbankier/awesome-agent-skills"
   },
