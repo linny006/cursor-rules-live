@@ -1,11 +1,20 @@
 [
   {
+    "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
+    "id": "mikeprasad/aria-knowledge",
+    "language": "Shell",
+    "name": "mikeprasad/aria-knowledge",
+    "stars": 16,
+    "updated_at": "2026-08-03T13:16:57Z",
+    "url": "https://github.com/mikeprasad/aria-knowledge"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-03T13:00:32Z",
+    "updated_at": "2026-08-03T13:15:48Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -186,7 +195,7 @@
     "id": "danielvm-git/bigpowers",
     "language": "Shell",
     "name": "danielvm-git/bigpowers",
-    "stars": 114,
+    "stars": 115,
     "updated_at": "2026-08-02T20:50:04Z",
     "url": "https://github.com/danielvm-git/bigpowers"
   },
@@ -225,15 +234,6 @@
     "stars": 1,
     "updated_at": "2026-08-02T10:31:52Z",
     "url": "https://github.com/GeiserX/lynxprompt-vscode"
-  },
-  {
-    "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
-    "id": "mikeprasad/aria-knowledge",
-    "language": "Shell",
-    "name": "mikeprasad/aria-knowledge",
-    "stars": 16,
-    "updated_at": "2026-08-02T09:40:10Z",
-    "url": "https://github.com/mikeprasad/aria-knowledge"
   },
   {
     "cursorrules": {
@@ -346,7 +346,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 18721,
+    "stars": 18722,
     "updated_at": "2026-07-31T13:37:51Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
