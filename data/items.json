@@ -1,5 +1,23 @@
 [
   {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 29,
+    "updated_at": "2026-08-03T09:35:58Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-08-03T09:30:45Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
     "id": "edsondviana8/ai-humanizer-core",
     "language": "HTML",
@@ -9,21 +27,12 @@
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-08-03T09:17:05Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
     "id": "KbWen/agentic-os",
     "language": "Python",
     "name": "KbWen/agentic-os",
     "stars": 112,
-    "updated_at": "2026-08-03T08:52:10Z",
+    "updated_at": "2026-08-03T09:39:40Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
   {
@@ -41,17 +50,8 @@
     "language": "PHP",
     "name": "pekral/cursor-rules",
     "stars": 5,
-    "updated_at": "2026-08-03T09:23:46Z",
+    "updated_at": "2026-08-03T09:36:23Z",
     "url": "https://github.com/pekral/cursor-rules"
-  },
-  {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 29,
-    "updated_at": "2026-08-03T08:41:03Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "cursorrules": {
@@ -90,7 +90,7 @@
     "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
     "language": "HTML",
     "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 1,
+    "stars": 2,
     "updated_at": "2026-08-03T07:50:29Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
@@ -223,7 +223,7 @@
     "language": "Python",
     "name": "agrawalshreya10/autonomous-quality-engine",
     "stars": 1,
-    "updated_at": "2026-08-03T09:05:53Z",
+    "updated_at": "2026-08-03T09:45:05Z",
     "url": "https://github.com/agrawalshreya10/autonomous-quality-engine"
   },
   {
@@ -250,7 +250,7 @@
     "id": "0xwilliamortiz/ponytail-improved",
     "language": "JavaScript",
     "name": "0xwilliamortiz/ponytail-improved",
-    "stars": 580,
+    "stars": 581,
     "updated_at": "2026-08-01T22:10:48Z",
     "url": "https://github.com/0xwilliamortiz/ponytail-improved"
   },
