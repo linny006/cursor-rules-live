@@ -1,12 +1,12 @@
 [
   {
-    "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
-    "id": "pekral/cursor-rules",
-    "language": "PHP",
-    "name": "pekral/cursor-rules",
-    "stars": 5,
-    "updated_at": "2026-08-03T10:10:22Z",
-    "url": "https://github.com/pekral/cursor-rules"
+    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 113,
+    "updated_at": "2026-08-03T10:29:41Z",
+    "url": "https://github.com/KbWen/agentic-os"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,17 +14,26 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-03T10:00:57Z",
+    "updated_at": "2026-08-03T10:15:54Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
-    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
-    "id": "KbWen/agentic-os",
-    "language": "Python",
-    "name": "KbWen/agentic-os",
-    "stars": 113,
-    "updated_at": "2026-08-03T10:07:52Z",
-    "url": "https://github.com/KbWen/agentic-os"
+    "description": "\ud83d\ude80 Universal, token-optimized Cursor AI Agent rules (.mdc) for enterprise Clean Architecture backends and modern componen",
+    "id": "goldhoang/elite-cursor-agent-rules",
+    "language": "\u2014",
+    "name": "goldhoang/elite-cursor-agent-rules",
+    "stars": 1,
+    "updated_at": "2026-08-03T10:11:30Z",
+    "url": "https://github.com/goldhoang/elite-cursor-agent-rules"
+  },
+  {
+    "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
+    "id": "pekral/cursor-rules",
+    "language": "PHP",
+    "name": "pekral/cursor-rules",
+    "stars": 5,
+    "updated_at": "2026-08-03T10:10:22Z",
+    "url": "https://github.com/pekral/cursor-rules"
   },
   {
     "cursorrules": {
@@ -250,7 +259,7 @@
     "id": "0xwilliamortiz/ponytail-improved",
     "language": "JavaScript",
     "name": "0xwilliamortiz/ponytail-improved",
-    "stars": 581,
+    "stars": 582,
     "updated_at": "2026-08-01T22:10:48Z",
     "url": "https://github.com/0xwilliamortiz/ponytail-improved"
   },
@@ -337,7 +346,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 18716,
+    "stars": 18717,
     "updated_at": "2026-07-31T13:37:51Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -504,19 +513,5 @@
     "stars": 36,
     "updated_at": "2026-07-27T23:23:03Z",
     "url": "https://github.com/nota-america/forgecat-agent-profiles"
-  },
-  {
-    "cursorrules": {
-      "content": "---\nalwaysApply: true\n---\n\n# Cursor Adapter\n\n`docs/ai` is the source of truth for rules, skills, commands, agent roles, and\nartifacts. Before working, read:\n\n- `.agent-workflow-kit/config.conf` \u2014 project settings and active profiles.\n- `docs/ai/README.md` \u2014 map of the AI surface.\n- `docs/ai/rules/project.md` \u2014 tool-agnostic invariants (scope, clarify, safety,\n  verification).\n- `docs/ai/rules/coding-rules.md` \u2014 this stack's conventions.\n- `docs/ai/rules/commit-message.md` \u2014 Conventional Commits.\n\n`<check>` means `CHECK_COMMAND` from the config. Run it after substantive changes\nunless it is `none`. Do not commit or push without an explicit request.\n\n## Commands\n\nCursor slash commands live in `.cursor/commands/*` as thin adapters that point\ninto `docs/ai/commands/*`. Available: `symphony`, `codex-plan`, `build`,\n`review-full`, `review-design`, `choose-model`, `ai-audit`, `deps-audit`,\n`learn`, `apply-worktree`.\n\n## Roles\n\n- Planning and correctness/security review run through Codex\n  (`docs/ai/agents/cli.md`, `docs/ai/agents/codex-plan.md`,\n  `docs/ai/agents/review-correctness.md`, `docs/ai/agents/review-security.md`).\n- Implementation and design review use the tracked Cursor agents `build` and\n  `review-design` (`docs/ai/agents/build.md`,\n  `docs/ai/agents/review-design.md`).\n\nResolve model roles and effort through config and\n`docs/ai/commands/choose-model.md`. Do not restate rules in replies; follow the\nreferenced files.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/main.mdc"
-    },
-    "description": "Copy-ready agent workflow for Cursor, Claude Code, and Codex. Plan, build, review, and verify with specialized subagents",
-    "id": "Bita71/Agent-Workflow-Kit",
-    "language": "Shell",
-    "name": "Bita71/Agent-Workflow-Kit",
-    "stars": 1,
-    "updated_at": "2026-07-27T15:02:01Z",
-    "url": "https://github.com/Bita71/Agent-Workflow-Kit"
   }
 ]
