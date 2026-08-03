@@ -1,11 +1,20 @@
 [
   {
+    "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
+    "id": "pekral/cursor-rules",
+    "language": "PHP",
+    "name": "pekral/cursor-rules",
+    "stars": 5,
+    "updated_at": "2026-08-03T07:17:47Z",
+    "url": "https://github.com/pekral/cursor-rules"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-03T07:00:48Z",
+    "updated_at": "2026-08-03T07:15:47Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -310,18 +319,9 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 18704,
+    "stars": 18707,
     "updated_at": "2026-07-31T13:37:51Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
-  },
-  {
-    "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
-    "id": "pekral/cursor-rules",
-    "language": "PHP",
-    "name": "pekral/cursor-rules",
-    "stars": 5,
-    "updated_at": "2026-08-03T06:42:26Z",
-    "url": "https://github.com/pekral/cursor-rules"
   },
   {
     "description": "AI agent skills for building accessible Indian government websites \u2014 UX4G 3.0.18, DBIM v3, GIGW 3.0 and WCAG, extracted ",
