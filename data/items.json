@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-08-03T14:30:48Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
     "id": "fluttersdk/wind",
     "language": "Dart",
@@ -7,15 +16,6 @@
     "stars": 30,
     "updated_at": "2026-08-03T14:21:52Z",
     "url": "https://github.com/fluttersdk/wind"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-08-03T14:16:03Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
@@ -68,7 +68,7 @@
     "language": "Python",
     "name": "KbWen/agentic-os",
     "stars": 113,
-    "updated_at": "2026-08-03T11:23:50Z",
+    "updated_at": "2026-08-03T14:35:18Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
   {
@@ -346,7 +346,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 18723,
+    "stars": 18724,
     "updated_at": "2026-07-31T13:37:51Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
