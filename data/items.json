@@ -1,12 +1,12 @@
 [
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
+    "description": "\ud83c\udf75 Deliberate engineering guidelines & deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block",
+    "id": "plumpslabs/matcha",
+    "language": "JavaScript",
+    "name": "plumpslabs/matcha",
     "stars": 1,
-    "updated_at": "2026-08-04T04:54:34Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+    "updated_at": "2026-08-04T05:15:07Z",
+    "url": "https://github.com/plumpslabs/matcha"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-04T04:45:53Z",
+    "updated_at": "2026-08-04T05:00:31Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-08-04T04:54:34Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -509,14 +518,5 @@
     "stars": 0,
     "updated_at": "2026-07-28T17:06:29Z",
     "url": "https://github.com/dwsilvar/LBaC"
-  },
-  {
-    "description": "Cursor-native config: a strict Plan Gate + Karpathy discipline rules, /plan /delta /prime-init commands, and a global gi",
-    "id": "xnoahwang/cursor-prime",
-    "language": "PowerShell",
-    "name": "xnoahwang/cursor-prime",
-    "stars": 0,
-    "updated_at": "2026-07-28T04:14:49Z",
-    "url": "https://github.com/xnoahwang/cursor-prime"
   }
 ]
