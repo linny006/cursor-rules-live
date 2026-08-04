@@ -1,11 +1,29 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-08-04T17:29:02Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "Production-ready AI agent profiles for Claude Code, Cursor, and Codex. Search, install, and contribute ForgeCat packages",
+    "id": "nota-america/forgecat-agent-profiles",
+    "language": "TypeScript",
+    "name": "nota-america/forgecat-agent-profiles",
+    "stars": 38,
+    "updated_at": "2026-08-04T17:28:57Z",
+    "url": "https://github.com/nota-america/forgecat-agent-profiles"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-04T17:03:55Z",
+    "updated_at": "2026-08-04T17:15:53Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -43,15 +61,6 @@
     "stars": 0,
     "updated_at": "2026-08-04T15:27:07Z",
     "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-08-04T15:15:55Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "cursorrules": {
@@ -164,7 +173,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 18765,
+    "stars": 18766,
     "updated_at": "2026-08-03T16:39:23Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -514,14 +523,5 @@
     "stars": 0,
     "updated_at": "2026-07-28T23:29:14Z",
     "url": "https://github.com/pirica/cursor_tracking"
-  },
-  {
-    "description": "Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 17,
-    "updated_at": "2026-07-28T15:21:14Z",
-    "url": "https://github.com/MnemeHQ/mneme"
   }
 ]
