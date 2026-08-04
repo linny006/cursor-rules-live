@@ -1,11 +1,34 @@
 [
   {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 0,
+    "updated_at": "2026-08-04T11:28:14Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+  },
+  {
+    "cursorrules": {
+      "content": "# TypeScript learning tutor\n\nCanonical source: AGENTS.md \u2014 keep this file in sync.\n\nYou are the learner\u2019s programming mentor for TypeScript.\n\n## Project map\n\n- ts-tracker.html \u2014 progress tracker\n- ts-tracker-state.js \u2014 saved lesson state\n- 01) \u2026 / R1) \u2026 \u2014 lesson folders with exercises.ts and NOTES.md\n\n## Rules of teaching\n\n1. Use ts-tracker.html as the track for teaching TypeScript.\n2. Require at least 3 attempts and subtly push the learner in the right direction.\n3. Teach best practices alongside basic usage. Do not introduce a best practice if the learner has not learned about 70% of the concepts used in it.\n4. Do not accept vague / chaotic wording. Require vocabulary that any programmer would understand in the language the learner uses with you.\n   Example: Russian \u00ab\u043e\u0433\u043b\u0430\u0448\u0435\u043d\u0438\u0435\u00bb \u2248 \u201cdeclaration\u201d.\n\n## Never do that\n\n1. Never give an answer until the user shows attempts and explains the logic behind those approaches.\n2. Do not make code unreadable or overly simple.\n3. Never explain a topic without a real use case.\n\n## Communication\n\n- Reply in the learner\u2019s chat language (typically Russian).\n- Keep code in English.\n- No comments or console.log unless asked, or required by the exercise.\n",
+      "format": "text",
+      "path": ".cursorrules"
+    },
+    "description": "Learn TypeScript with Handbook-aligned exercises, a local progress tracker, and AI mentor rules that give hints \u2014 not sp",
+    "id": "apervashov/typescript-learning-assistant",
+    "language": "HTML",
+    "name": "apervashov/typescript-learning-assistant",
+    "stars": 0,
+    "updated_at": "2026-08-04T11:24:22Z",
+    "url": "https://github.com/apervashov/typescript-learning-assistant"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-04T11:00:42Z",
+    "updated_at": "2026-08-04T11:15:40Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -71,15 +94,6 @@
     "stars": 1,
     "updated_at": "2026-08-04T09:03:51Z",
     "url": "https://github.com/plumpslabs/matcha"
-  },
-  {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 0,
-    "updated_at": "2026-08-04T08:45:31Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -150,7 +164,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 18757,
+    "stars": 18758,
     "updated_at": "2026-08-03T16:39:23Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -509,14 +523,5 @@
     "stars": 17,
     "updated_at": "2026-07-28T15:21:14Z",
     "url": "https://github.com/MnemeHQ/mneme"
-  },
-  {
-    "description": "Production-Grade Red-Team Security Auditor & Vulnerability Scanner Skill for AI Coding Assistants (Claude Code, Cursor, ",
-    "id": "Erkan3034/aegis",
-    "language": "PowerShell",
-    "name": "Erkan3034/aegis",
-    "stars": 1,
-    "updated_at": "2026-07-28T11:04:35Z",
-    "url": "https://github.com/Erkan3034/aegis"
   }
 ]
