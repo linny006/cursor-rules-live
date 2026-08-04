@@ -1,11 +1,20 @@
 [
   {
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-08-04T09:41:09Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-04T09:15:35Z",
+    "updated_at": "2026-08-04T09:30:34Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -59,15 +68,6 @@
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
-    "stars": 0,
-    "updated_at": "2026-08-04T06:32:05Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
     "description": "CLAUDE.md + AGENTS.md: 27 vibe coding rules for Cursor & Claude Code \u2014 think before coding, surgical edits, verify befor",
     "id": "fatalex27/vibe-27",
     "language": "\u2014",
@@ -119,7 +119,7 @@
     "language": "Dart",
     "name": "fluttersdk/wind",
     "stars": 30,
-    "updated_at": "2026-08-04T09:28:10Z",
+    "updated_at": "2026-08-04T09:39:24Z",
     "url": "https://github.com/fluttersdk/wind"
   },
   {
@@ -136,7 +136,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 18752,
+    "stars": 18753,
     "updated_at": "2026-08-03T16:39:23Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
