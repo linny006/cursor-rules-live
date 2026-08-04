@@ -1,11 +1,20 @@
 [
   {
+    "description": "CLAUDE.md + AGENTS.md: 27 vibe coding rules for Cursor & Claude Code \u2014 think before coding, surgical edits, verify befor",
+    "id": "fatalex27/vibe-27",
+    "language": "\u2014",
+    "name": "fatalex27/vibe-27",
+    "stars": 0,
+    "updated_at": "2026-08-04T05:27:25Z",
+    "url": "https://github.com/fatalex27/vibe-27"
+  },
+  {
     "description": "\ud83c\udf75 Deliberate engineering guidelines & deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block",
     "id": "plumpslabs/matcha",
     "language": "JavaScript",
     "name": "plumpslabs/matcha",
     "stars": 1,
-    "updated_at": "2026-08-04T05:15:07Z",
+    "updated_at": "2026-08-04T05:19:04Z",
     "url": "https://github.com/plumpslabs/matcha"
   },
   {
@@ -14,7 +23,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-04T05:00:31Z",
+    "updated_at": "2026-08-04T05:15:48Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -122,7 +131,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 18743,
+    "stars": 18745,
     "updated_at": "2026-08-03T16:39:23Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -504,19 +513,5 @@
     "stars": 1,
     "updated_at": "2026-07-28T11:04:35Z",
     "url": "https://github.com/Erkan3034/aegis"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Living Blueprint-as-Code (LBaC) \u2014 Project Rules for Cursor AI\nglobs: [\"**/*.md\", \"**/*.js\", \"**/*.ts\", \"**/*.py\", \"**/*.java\", \"**/*.dart\"]\nalwaysApply: true\n---\n\n# LBaC Project Rules\n\n> **MANDATORY:** Before starting any task, read [`.agents/AGENTS.md`](../../.agents/AGENTS.md) and [`docs/LBAC.md`](../../docs/LBAC.md).\n\n## Mandatory Workflow\n\n0.  **TELL ME THE PROJECT** \u2014 Run `docs/templates/project.prompt.md` with any AI to generate Feature Maps, user stories, roadmap, and business rules. Tracks progress in `docs/planning/tmtp_session.md`. Skip if Feature Maps already exist.\n1.  **READ** the relevant Feature Map in `docs/features/` (As-Is / To-Be / BDD criteria).\n2.  **CHECK** `docs/technical_debt.md` for related cleanup items.\n3.  **PLAN** \u2014 Create an Implementation Plan in `docs/implementations/` using the template. Present it and **wait for explicit approval before writing code**.\n4.  **CODE** in an isolated branch.\n5.  **VERIFY** \u2014 Complete the Verification Report in `docs/implementations/` confirming all BDD scenarios pass.\n\n## Hard Constraints\n\n- \u274c Never create files, models, or database schemas that already exist in the project.\n- \u274c Never rewrite entire files \u2014 provide localized diff-style edits only.\n- \u274c Never skip the Implementation Plan step.\n- \u2705 Use English for all AI-consumed files (`docs/features/`, `docs/LBAC.md`, `docs/technical_debt.md`, `.agents/AGENTS.md`).\n- \u2705 Use local language (e.g., Espa\u00f1ol) for stakeholder files (`docs/business/`, `docs/adr/`, `docs/planning/*_qa.md`).\n- \u2705 Format all file paths as clickable `file:///` links in responses.\n\n## Reference\n\n\u2192 [`.agents/AGENTS.md`](../../.agents/AGENTS.md)  \n\u2192 [`docs/LBAC.md`](../../docs/LBAC.md)\n",
-      "format": "mdc",
-      "path": ".cursor/rules/lbac_rules.mdc"
-    },
-    "description": "Living Blueprint-as-Code (LBaC) template to align human developers and AI coding agents (Copilot, Claude, Cursor, Windsu",
-    "id": "dwsilvar/LBaC",
-    "language": "\u2014",
-    "name": "dwsilvar/LBaC",
-    "stars": 0,
-    "updated_at": "2026-07-28T17:06:29Z",
-    "url": "https://github.com/dwsilvar/LBaC"
   }
 ]
