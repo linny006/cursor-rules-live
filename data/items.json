@@ -1,11 +1,20 @@
 [
   {
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-08-04T12:04:37Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-04T11:45:50Z",
+    "updated_at": "2026-08-04T12:00:42Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -80,15 +89,6 @@
     "stars": 30,
     "updated_at": "2026-08-04T09:50:40Z",
     "url": "https://github.com/fluttersdk/wind"
-  },
-  {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
-    "stars": 0,
-    "updated_at": "2026-08-04T09:41:09Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
   },
   {
     "cursorrules": {
@@ -351,7 +351,7 @@
     "id": "ilindaniel/impeccable-lite",
     "language": "\u2014",
     "name": "ilindaniel/impeccable-lite",
-    "stars": 61,
+    "stars": 62,
     "updated_at": "2026-08-01T15:41:27Z",
     "url": "https://github.com/ilindaniel/impeccable-lite"
   },
@@ -471,7 +471,7 @@
     "language": "JavaScript",
     "name": "powersync-ja/agent-skills",
     "stars": 17,
-    "updated_at": "2026-08-04T11:58:31Z",
+    "updated_at": "2026-08-04T12:00:36Z",
     "url": "https://github.com/powersync-ja/agent-skills"
   },
   {
