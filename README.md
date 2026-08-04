@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-08-04 05:45 UTC
+> ⏰ Last updated: 2026-08-04 06:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,14 +53,14 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [fatalex27/vibe-27](https://github.com/fatalex27/vibe-27) | 1 | — | 2026-08-04 | — | CLAUDE.md + AGENTS.md: 27 vibe coding rules for Cursor & Claude Code — think before coding, surgical edits, verify befor |
+| 1 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-08-04 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
 | 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 1 | HTML | 2026-08-04 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 3 | [plumpslabs/matcha](https://github.com/plumpslabs/matcha) | 1 | JavaScript | 2026-08-04 | — | 🍵 Deliberate engineering guidelines & deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block |
-| 4 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-08-04 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
-| 5 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 2 | HTML | 2026-08-04 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 6 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-08-04 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
-| 7 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-08-04 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
-| 8 | [aaddrick/attention-control](https://github.com/aaddrick/attention-control) | 33 | Python | 2026-08-04 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/aaddrick/attention-control/) | Air traffic control discipline for agent output. Written for a reader with ADHD. |
+| 3 | [fatalex27/vibe-27](https://github.com/fatalex27/vibe-27) | 1 | — | 2026-08-04 | — | CLAUDE.md + AGENTS.md: 27 vibe coding rules for Cursor & Claude Code — think before coding, surgical edits, verify befor |
+| 4 | [plumpslabs/matcha](https://github.com/plumpslabs/matcha) | 1 | JavaScript | 2026-08-04 | — | 🍵 Deliberate engineering guidelines & deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block |
+| 5 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-08-04 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
+| 6 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 2 | HTML | 2026-08-04 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
+| 7 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-08-04 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
+| 8 | [aaddrick/attention-control](https://github.com/aaddrick/attention-control) | 35 | Python | 2026-08-04 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/aaddrick/attention-control/) | Air traffic control discipline for agent output. Written for a reader with ADHD. |
 | 9 | [kensaurus/cursor-kenji](https://github.com/kensaurus/cursor-kenji) | 8 | JavaScript | 2026-08-04 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/kensaurus/cursor-kenji/) | 🦖Curated Cursor AI agent skills, slash commands, MCP configs, subagents & rules for full-stack dev — React 19, Next.js 1 |
 | 10 | [sublimecoder/sublimecoding](https://github.com/sublimecoder/sublimecoding) | 0 | — | 2026-08-04 | — | 🛠️ Free Claude Code & Cursor prompts for senior engineers — plus AIOS, an open-source markdown memory system for coding  |
 | 11 | [fluttersdk/wind](https://github.com/fluttersdk/wind) | 30 | Dart | 2026-08-03 | — | Tailwind CSS for Flutter — classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code  |
@@ -78,7 +78,7 @@ expired items removed — so you can rely on what you see being current.
 | 23 | [GeiserX/homebrew-lynxprompt](https://github.com/GeiserX/homebrew-lynxprompt) | 1 | Ruby | 2026-08-03 | — | Homebrew tap for LynxPrompt CLI |
 | 24 | [glowElephant/context-forge](https://github.com/glowElephant/context-forge) | 2 | Python | 2026-08-03 | — | Auto harness engineering meta-repo: discuss → curate → bootstrap a context-engineered project for Claude Code, Cursor, C |
 | 25 | [wilsonwaters/3d-printing](https://github.com/wilsonwaters/3d-printing) | 0 | OpenSCAD | 2026-08-03 | — | 3D printing toolkit — AI-powered design skills for Claude Code, Cursor, Windsurf & Copilot, plus parametric OpenSCAD mod |
-| 26 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 117 | Shell | 2026-08-02 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | Agent skills synthesizing years of software engineering discipline into a prescriptive methodology for solo developers |
+| 26 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 118 | Shell | 2026-08-02 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | Agent skills synthesizing years of software engineering discipline into a prescriptive methodology for solo developers |
 | 27 | [sungurerdim/dev-skills](https://github.com/sungurerdim/dev-skills) | 1 | HTML | 2026-08-02 | — | 30 multi-phase AI coding skills with executable gates — pure markdown, zero dependencies. |
 | 28 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 14 | TypeScript | 2026-08-02 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
 | 29 | [djtelicloud/grok-mcp-server](https://github.com/djtelicloud/grok-mcp-server) | 22 | Python | 2026-08-02 | — | Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API  |
