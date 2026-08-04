@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<title>agrawalshreya10/failure-aware-test-framework - entry on Cursor Rules Live</title>
+<meta name="description" content="A production-grade vertical-slice automation ecosystem built with Playwright and Python. Features a thread-safe POM with">
+<link rel="canonical" href="https://linny006.github.io/cursor-rules-live/r/agrawalshreya10/failure-aware-test-framework/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="agrawalshreya10/failure-aware-test-framework - entry on Cursor Rules Live">
+<meta property="og:description" content="A production-grade vertical-slice automation ecosystem built with Playwright and Python. Features a thread-safe POM with">
+<meta property="og:url" content="https://linny006.github.io/cursor-rules-live/r/agrawalshreya10/failure-aware-test-framework/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="agrawalshreya10/failure-aware-test-framework - entry on Cursor Rules Live">
+<meta name="twitter:description" content="A production-grade vertical-slice automation ecosystem built with Playwright and Python. Features a thread-safe POM with">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"agrawalshreya10/failure-aware-test-framework","codeRepository":"https://github.com/agrawalshreya10/failure-aware-test-framework","programmingLanguage":"Python","url":"https://linny006.github.io/cursor-rules-live/r/agrawalshreya10/failure-aware-test-framework/","description":"A production-grade vertical-slice automation ecosystem built with Playwright and Python. Features a thread-safe POM with","author":{"@type":"Person","name":"agrawalshreya10","url":"https://github.com/agrawalshreya10"},"dateModified":"2026-08-03"}</script>
+<style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
+         --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 16px; font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--fg); background: var(--bg); }
+.wrap { max-width: var(--max); margin: 0 auto; }
+nav.bc { font-size: 14px; color: var(--muted); margin-bottom: 16px; }
+nav.bc a { color: var(--muted); }
+h1 { font-size: 28px; margin: 0 0 8px; }
+h2 { font-size: 20px; margin: 24px 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+p.lead { font-size: 18px; color: var(--muted); margin: 0 0 24px; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+th, td { padding: 8px 12px; text-align: left; border-bottom: 1px solid var(--border); }
+th { background: var(--card); font-weight: 600; }
+ul.crosslinks { list-style: none; padding: 0; }
+ul.crosslinks li { padding: 6px 0; }
+ul.crosslinks li a { font-weight: 500; }
+.meta { display: flex; gap: 16px; flex-wrap: wrap; color: var(--muted); font-size: 14px; margin: 12px 0; }
+.meta span::before { content: "\00b7"; margin-right: 8px; color: var(--border); }
+.meta span:first-child::before { content: ""; }
+footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--border); font-size: 14px; color: var(--muted); }</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="bc"><a href="https://linny006.github.io/cursor-rules-live/">Cursor Rules Live</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/popular/">Entries</a> &#183; <span>agrawalshreya10/failure-aware-test-framework</span></nav>
+<main>
+<h1>agrawalshreya10/failure-aware-test-framework</h1>
+<p class="lead">A production-grade vertical-slice automation ecosystem built with Playwright and Python. Features a thread-safe POM with</p>
+<div class="meta">
+<span><strong>Stars</strong> 0</span>
+<span><strong>Language</strong> Python</span>
+<span><strong>Last updated</strong> 2026-08-03</span>
+<span><a href="https://github.com/agrawalshreya10/failure-aware-test-framework" rel="external">Source on GitHub</a></span>
+<span><a href="https://github.com/agrawalshreya10" rel="external">@agrawalshreya10</a></span>
+</div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/ai-audit-governance.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
+description: Governance for AI-driven failure analysis, Gemini 3.1 SDK standards, and Ollama local guardrails.
+globs: ai_audit/**/*.py
+alwaysApply: false
+---
+
+# AI Audit Governance
+
+&gt; **Scope:** `ai_audit/` — failure analysis CLI (`failure_analyzer`), `GeminiClient`, `OllamaClient`, and shared `LLMClient` contracts.  
+&gt; **Canonical source of truth:** this file owns the Gemini package, model, and initialization policy for `ai_audit/`. Keep any always-applied migration guardrails short and point back here instead of restating section 2.
+
+---
+
+## 1. Dual-provider resolution (single source of truth)
+
+Provider selection is **explicit** and centralized — do not scatter alternate env vars or hidden defaults.
+
+| Mechanism | Behavior |
+|-----------|----------|
+| **`AI_PROVIDER`** | `ollama` \| `gemini`. Empty or unset → **`ollama`** (local). |
+| **`--client`** | `auto` reads `AI_PROVIDER`; `ollama` \| `gemini` overrides for that run. |
+| **Client factory** | `get_client(provider, model)` in `failure_analyzer.py` returns **`OllamaClient`** or **`GeminiClient`** only. |
+
+**Gemini (cloud / CI):** requires `GEMINI_API_KEY`. Missing key → fail fast with a clear message (no silent fallback to Ollama unless product explicitly adds that).
+
+**Ollama (local):** TCP health check on `OLLAMA_BASE_URL` (default `http://127.0.0.1:11434`). Unreachable → skip or exit per existing CLI behavior; do not half-open requests without a timeout.
+
+---
+
+## 2. SDK &amp; model standards (2026)
+
+This section is the single source of truth for Gemini SDK, model, and initialization requirements in `ai_audit/`.
+
+### Gemini (cloud)
+
+| Rule | Detail |
+|------|--------|
+| **Package** | **`google-genai` only** (`pip install google-genai`; pin matches `requirements.txt` / `pyproject.toml`). |
+| **API shape** | `from google import genai` → `genai.Client(api_key=..., http_options=types.HttpOptions(timeout=ms))` → `client.models.generate_content(...)` → **`client.close()`** in `finally`. |
+| **Banned** | **`google-generativeai`**, **`GenerativeModel()`**, and any import path that triggers the legacy client. These cause **CI breakage** (deprecated endpoints / 404-class failures). |
+| **Models (allowed)** | **Default (CI + CLI + `DEFAULT_GEMINI_MODEL`):** **`gemini-3.1-flash-lite`** (GA). **Optional override:** **`gemini-3.5-flash`** (GA) via `--model` or env when explicitly chosen. |
+| **Models (banned)** | `gemini-3.1-flash-lite-preview` (shut down 2026-05-25), `gemini-1.5-flash`, `gemini-1.5-pro`, `gemini-1.0-pro`, and other decommissioned IDs. |
+
+### Structured output (both providers)
+
+Shared contract lives in **`ai_audit/fix_suggestion.py`**: Pydantic **`FixSuggestion`** (`category`, `root_cause`, `fix_markdown`, `confidence`), **`build_analysis_prompt`**, **`validate_or_fallback`**, and **`HEURISTIC_FALLBACK`**.
+
+| Rule | Detail |
+|------|--------|
+| **Schema** | Mandate **`FixSuggestion`** JSON. Parse and validate **before** treating text as authoritative. Render via **`render_suggestion_markdown`**. |
+| **Ollama transport** | HTTP `POST` to `/api/generate`; always set **request timeout** (`timeout_sec`). Pass schema via **`format`**: `fix_suggestion_json_schema()`. |
+| **Gemini transport** | `generate_content` with **`response_mime_type=&quot;application/json&quot;`** and **`response_schema=FixSuggestion`**. Always **`client.close()`** in `finally`. |
+| **Instruction folding** | Keep the **system / role preamble** short and stable (`SYSTEM_PREAMBLE` / `build_analysis_prompt`); fold project rules into **one** block (sync Playwright, no Selenium, `get_resilient_*`, no parent–child `.or_()`). |
+| **`HEURISTIC_FALLBACK`** | If JSON/schema validation fails, empty **`fix_markdown`**, or **banned patterns** in **`fix_markdown`**, emit a **deterministic fallback**: category from keyword match on the failure string, root cause = truncated traceback summary, fix = template pointing to `docs/decisions/playwright-locators-and-logging.md` and `page-object-standards.mdc` (no fabricated code). Log at **WARNING**. |
+
+### Ollama (local)
+
+| Rule | Detail |
+|------|--------|
+| **Default model** | ``llama3`` via ``DEFAULT_OLLAMA_MODEL`` / ``OLLAMA_MODEL``. |
+| **Temperature** | ``0`` for structured generation. |
+
+---
+
+## 3. Framework isolation (anti-smearing)
+
+Local and cloud models may **hallucinate** Selenium or async Playwright. Prompts and post-processing **must** enforce framework boundaries.
+
+| Banned in suggested **Fix** code | Reason |
+|----------------------------------|--------|
+| `from selenium.*`, `By`, `WebDriverWait`, `expected_conditions` | Wrong framework — this repo is **Playwright Python**. |
+| `get_by_xpath`, `driver.find_element`, `querySelector` | Selenium / JS patterns — **not** Playwright Python. |
+| `async def`, `await`, `playwright.async_api` | **Sync-only** project (`playwright.sync_api`). |
+| Parent `.or_(child)` unions (e.g. `role=alert` with inner `.oxd-alert-content-text`) | **Strict mode** multi-match — see `page-object-standards.mdc`. |
+
+**Enforcement:** After schema validation, ``validate_or_fallback`` runs ``find_banned_patterns`` on **`fix_markdown` only** (not ``root_cause``, so traceback quotes do not false-positive). Hits emit **`HEURISTIC_FALLBACK`** with reason ``banned pattern: …``.
+
+**Case study (this repo):** `reports/ai_suggestions.md` from **Ollama** proposed Selenium-style locators and async fixtures for a **sync** `LoginPage`. Treat that as **evidence** that unstructured local inference needs schema + folding + fallback + policy scan.
+
+**Correct patterns to require in prompts and validated output:**
+
+- `from playwright.sync_api import …`
+- `self.get_resilient_locator(...)`, `get_resilient_role_button`, `get_resilient_placeholder`, etc. from `BasePage`
+- `expect(locator)` for UI; no `page.wait_for_timeout()`
+
+---
+
+## 4. Failure analysis inputs (signal quality)
+
+When extending the analyzer, prefer inputs in this order:
+
+1. **Playwright trace** artifacts (timeline, snapshots, **ARIA / accessibility tree** excerpts) — </code></pre>
+<p><em>Content truncated. View full file in the source repo (linked above).</em></p><p><a href="https://github.com/agrawalshreya10/failure-aware-test-framework/blob/HEAD/.cursor/rules/ai-audit-governance.mdc" rel="external">View raw on GitHub</a></p>
+</section>
+<section><h2>Why this is listed</h2>
+<p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
+<section><h2>Similar in this tracker</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/r/KbWen/agentic-os/">KbWen/agentic-os (stars:114)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/SalesforceAIResearch/agentforce-adlc/">SalesforceAIResearch/agentforce-adlc (stars:95)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/aaddrick/attention-control/">aaddrick/attention-control (stars:43)</a></li>
+</ul></section>
+<section><h2>Explore by category</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/popular/">Popular (by stars)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/recent/">Recent (by activity)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/new/">New this week</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/lang/python/">All Python entries</a></li>
+</ul></section>
+</main>
+<footer>
+Auto-updated every 15 minutes via GitHub Actions &#183; <a href="https://linny006.github.io/cursor-rules-live/">tracker root</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/sitemap.xml">sitemap</a>
+</footer>
+</div>
+</body>
+</html>
