@@ -52,6 +52,31 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <span><a href="https://github.com/plumpslabs/matcha" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/plumpslabs" rel="external">@plumpslabs</a></span>
 </div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/matcha.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
+description: matcha engineering convention — read AGENTS.md at project root
+globs: **/*
+alwaysApply: true
+---
+
+# 🍵 matcha — Engineering Convention
+
+This project uses the **matcha** engineering convention. Read the `AGENTS.md` file at the project root and follow its philosophy:
+
+&gt; Simple. Efficient. Deliberate. Never twice.
+
+Key principles (see AGENTS.md for the full ruleset):
+- **Purpose (5W1H)** — know *why* before *how*. Can&#x27;t explain why/how? Stop and rethink.
+- **Reuse** — search the codebase before writing new code. Never write what exists.
+- **Implementation** — one function, one job. Explicit errors. No hardcoded values.
+- **Cleanup** — done means working *and* clean. No debug leftovers, no dead code.
+- **Verify** — run tests, typecheck, and lint before declaring done.
+
+Respect the `// matcha:` decision markers when you find them in code — they are intentional, logged shortcuts.
+</code></pre>
+<p><a href="https://github.com/plumpslabs/matcha/blob/HEAD/.cursor/rules/matcha.mdc" rel="external">View raw on GitHub</a></p>
+</section>
 <section><h2>Why this is listed</h2>
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>
