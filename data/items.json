@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 2,
+    "updated_at": "2026-08-04T09:15:35Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: matcha engineering convention \u2014 read AGENTS.md at project root\nglobs: **/*\nalwaysApply: true\n---\n\n# \ud83c\udf75 matcha \u2014 Engineering Convention\n\nThis project uses the **matcha** engineering convention. Read the `AGENTS.md` file at the project root and follow its philosophy:\n\n> Simple. Efficient. Deliberate. Never twice.\n\nKey principles (see AGENTS.md for the full ruleset):\n- **Purpose (5W1H)** \u2014 know *why* before *how*. Can't explain why/how? Stop and rethink.\n- **Reuse** \u2014 search the codebase before writing new code. Never write what exists.\n- **Implementation** \u2014 one function, one job. Explicit errors. No hardcoded values.\n- **Cleanup** \u2014 done means working *and* clean. No debug leftovers, no dead code.\n- **Verify** \u2014 run tests, typecheck, and lint before declaring done.\n\nRespect the `// matcha:` decision markers when you find them in code \u2014 they are intentional, logged shortcuts.\n",
       "format": "mdc",
@@ -12,15 +21,6 @@
     "stars": 2,
     "updated_at": "2026-08-04T09:03:51Z",
     "url": "https://github.com/plumpslabs/matcha"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 2,
-    "updated_at": "2026-08-04T09:00:45Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
@@ -119,7 +119,7 @@
     "language": "Dart",
     "name": "fluttersdk/wind",
     "stars": 30,
-    "updated_at": "2026-08-04T09:14:22Z",
+    "updated_at": "2026-08-04T09:28:10Z",
     "url": "https://github.com/fluttersdk/wind"
   },
   {
@@ -136,7 +136,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 18751,
+    "stars": 18752,
     "updated_at": "2026-08-03T16:39:23Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
