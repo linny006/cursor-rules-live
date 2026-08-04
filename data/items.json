@@ -1,11 +1,25 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: matcha engineering convention \u2014 read AGENTS.md at project root\nglobs: **/*\nalwaysApply: true\n---\n\n# \ud83c\udf75 matcha \u2014 Engineering Convention\n\nThis project uses the **matcha** engineering convention. Read the `AGENTS.md` file at the project root and follow its philosophy:\n\n> Simple. Efficient. Deliberate. Never twice.\n\nKey principles (see AGENTS.md for the full ruleset):\n- **Purpose (5W1H)** \u2014 know *why* before *how*. Can't explain why/how? Stop and rethink.\n- **Reuse** \u2014 search the codebase before writing new code. Never write what exists.\n- **Implementation** \u2014 one function, one job. Explicit errors. No hardcoded values.\n- **Cleanup** \u2014 done means working *and* clean. No debug leftovers, no dead code.\n- **Verify** \u2014 run tests, typecheck, and lint before declaring done.\n\nRespect the `// matcha:` decision markers when you find them in code \u2014 they are intentional, logged shortcuts.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/matcha.mdc"
+    },
+    "description": "\ud83c\udf75 Deliberate engineering guidelines & deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block",
+    "id": "plumpslabs/matcha",
+    "language": "JavaScript",
+    "name": "plumpslabs/matcha",
+    "stars": 2,
+    "updated_at": "2026-08-04T09:03:51Z",
+    "url": "https://github.com/plumpslabs/matcha"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-04T08:45:57Z",
+    "updated_at": "2026-08-04T09:00:45Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -25,20 +39,6 @@
     "stars": 30,
     "updated_at": "2026-08-04T08:30:15Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: matcha engineering convention \u2014 read AGENTS.md at project root\nglobs: **/*\nalwaysApply: true\n---\n\n# \ud83c\udf75 matcha \u2014 Engineering Convention\n\nThis project uses the **matcha** engineering convention. Read the `AGENTS.md` file at the project root and follow its philosophy:\n\n> Simple. Efficient. Deliberate. Never twice.\n\nKey principles (see AGENTS.md for the full ruleset):\n- **Purpose (5W1H)** \u2014 know *why* before *how*. Can't explain why/how? Stop and rethink.\n- **Reuse** \u2014 search the codebase before writing new code. Never write what exists.\n- **Implementation** \u2014 one function, one job. Explicit errors. No hardcoded values.\n- **Cleanup** \u2014 done means working *and* clean. No debug leftovers, no dead code.\n- **Verify** \u2014 run tests, typecheck, and lint before declaring done.\n\nRespect the `// matcha:` decision markers when you find them in code \u2014 they are intentional, logged shortcuts.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/matcha.mdc"
-    },
-    "description": "\ud83c\udf75 Deliberate engineering guidelines & deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block",
-    "id": "plumpslabs/matcha",
-    "language": "JavaScript",
-    "name": "plumpslabs/matcha",
-    "stars": 2,
-    "updated_at": "2026-08-04T08:24:43Z",
-    "url": "https://github.com/plumpslabs/matcha"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -119,7 +119,7 @@
     "language": "Dart",
     "name": "fluttersdk/wind",
     "stars": 30,
-    "updated_at": "2026-08-03T22:40:29Z",
+    "updated_at": "2026-08-04T09:14:22Z",
     "url": "https://github.com/fluttersdk/wind"
   },
   {
@@ -264,7 +264,7 @@
     "id": "danielvm-git/bigpowers",
     "language": "Shell",
     "name": "danielvm-git/bigpowers",
-    "stars": 119,
+    "stars": 120,
     "updated_at": "2026-08-02T20:50:04Z",
     "url": "https://github.com/danielvm-git/bigpowers"
   },
