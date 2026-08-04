@@ -1,11 +1,29 @@
 [
   {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 0,
+    "updated_at": "2026-08-04T18:42:35Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+  },
+  {
+    "description": "Local, zero-dependency structural diagnostic for Cursor project rules.",
+    "id": "almandas-labs/cursor-rules-doctor",
+    "language": "JavaScript",
+    "name": "almandas-labs/cursor-rules-doctor",
+    "stars": 0,
+    "updated_at": "2026-08-04T18:32:38Z",
+    "url": "https://github.com/almandas-labs/cursor-rules-doctor"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-04T18:15:58Z",
+    "updated_at": "2026-08-04T18:30:55Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -43,15 +61,6 @@
     "stars": 1,
     "updated_at": "2026-08-04T17:29:02Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 0,
-    "updated_at": "2026-08-04T16:56:00Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -395,15 +404,6 @@
     "stars": 2,
     "updated_at": "2026-08-01T10:33:20Z",
     "url": "https://github.com/GeiserX/lynxprompt-mcp"
-  },
-  {
-    "description": "Local, zero-dependency structural diagnostic for Cursor project rules.",
-    "id": "almandas-labs/cursor-rules-doctor",
-    "language": "JavaScript",
-    "name": "almandas-labs/cursor-rules-doctor",
-    "stars": 0,
-    "updated_at": "2026-08-01T01:04:53Z",
-    "url": "https://github.com/almandas-labs/cursor-rules-doctor"
   },
   {
     "cursorrules": {
