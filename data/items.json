@@ -1,14 +1,5 @@
 [
   {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 0,
-    "updated_at": "2026-08-04T14:26:45Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: matcha engineering convention \u2014 read AGENTS.md at project root\nglobs: **/*\nalwaysApply: true\n---\n\n# \ud83c\udf75 matcha \u2014 Engineering Convention\n\nThis project uses the **matcha** engineering convention. Read the `AGENTS.md` file at the project root and follow its philosophy:\n\n> Simple. Efficient. Deliberate. Never twice.\n\nKey principles (see AGENTS.md for the full ruleset):\n- **Purpose (5W1H)** \u2014 know *why* before *how*. Can't explain why/how? Stop and rethink.\n- **Reuse** \u2014 search the codebase before writing new code. Never write what exists.\n- **Implementation** \u2014 one function, one job. Explicit errors. No hardcoded values.\n- **Cleanup** \u2014 done means working *and* clean. No debug leftovers, no dead code.\n- **Verify** \u2014 run tests, typecheck, and lint before declaring done.\n\nRespect the `// matcha:` decision markers when you find them in code \u2014 they are intentional, logged shortcuts.\n",
       "format": "mdc",
@@ -19,7 +10,7 @@
     "language": "JavaScript",
     "name": "plumpslabs/matcha",
     "stars": 1,
-    "updated_at": "2026-08-04T14:23:00Z",
+    "updated_at": "2026-08-04T14:43:43Z",
     "url": "https://github.com/plumpslabs/matcha"
   },
   {
@@ -28,8 +19,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-04T14:16:01Z",
+    "updated_at": "2026-08-04T14:30:40Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 0,
+    "updated_at": "2026-08-04T14:26:45Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
