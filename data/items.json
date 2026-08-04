@@ -1,11 +1,20 @@
 [
   {
+    "description": "\ud83c\udf75 Deliberate engineering guidelines & deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block",
+    "id": "plumpslabs/matcha",
+    "language": "JavaScript",
+    "name": "plumpslabs/matcha",
+    "stars": 1,
+    "updated_at": "2026-08-04T06:21:25Z",
+    "url": "https://github.com/plumpslabs/matcha"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-04T06:00:46Z",
+    "updated_at": "2026-08-04T06:15:41Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -25,15 +34,6 @@
     "stars": 1,
     "updated_at": "2026-08-04T05:33:21Z",
     "url": "https://github.com/fatalex27/vibe-27"
-  },
-  {
-    "description": "\ud83c\udf75 Deliberate engineering guidelines & deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block",
-    "id": "plumpslabs/matcha",
-    "language": "JavaScript",
-    "name": "plumpslabs/matcha",
-    "stars": 1,
-    "updated_at": "2026-08-04T05:19:04Z",
-    "url": "https://github.com/plumpslabs/matcha"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -259,7 +259,7 @@
     "id": "danielvm-git/bigpowers",
     "language": "Shell",
     "name": "danielvm-git/bigpowers",
-    "stars": 118,
+    "stars": 119,
     "updated_at": "2026-08-02T20:50:04Z",
     "url": "https://github.com/danielvm-git/bigpowers"
   },
