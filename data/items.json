@@ -1,5 +1,46 @@
 [
   {
+    "description": "VS Code extension for LynxPrompt \u2014 browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules) ",
+    "id": "GeiserX/lynxprompt-vscode",
+    "language": "TypeScript",
+    "name": "GeiserX/lynxprompt-vscode",
+    "stars": 1,
+    "updated_at": "2026-08-05T00:14:35Z",
+    "url": "https://github.com/GeiserX/lynxprompt-vscode"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: matcha engineering convention \u2014 read AGENTS.md at project root\nglobs: **/*\nalwaysApply: true\n---\n\n# \ud83c\udf75 matcha \u2014 Engineering Convention\n\nThis project uses the **matcha** engineering convention. Read the `AGENTS.md` file at the project root and follow its philosophy:\n\n> Simple. Efficient. Deliberate. Never twice.\n\nKey principles (see AGENTS.md for the full ruleset):\n- **Purpose (Intent Discovery)** \u2014 know *why* before *how*. Can't explain why/how? Stop and rethink.\n- **Reuse** \u2014 search the codebase before writing new code. Never write what exists.\n- **Implementation** \u2014 one function, one job. Explicit errors. No hardcoded values.\n- **Cleanup** \u2014 done means working *and* clean. No debug leftovers, no dead code.\n- **Verify** \u2014 run tests, typecheck, and lint before declaring done.\n\nRespect the `// matcha:` decision markers when you find them in code \u2014 they are intentional, logged shortcuts.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/matcha.mdc"
+    },
+    "description": "\ud83c\udf75 Deliberate engineering guidelines & deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block",
+    "id": "plumpslabs/matcha",
+    "language": "JavaScript",
+    "name": "plumpslabs/matcha",
+    "stars": 1,
+    "updated_at": "2026-08-05T00:13:06Z",
+    "url": "https://github.com/plumpslabs/matcha"
+  },
+  {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 0,
+    "updated_at": "2026-08-05T00:08:25Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-08-05T00:00:30Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
     "id": "edsondviana8/ai-humanizer-core",
     "language": "HTML",
@@ -18,15 +59,6 @@
     "url": "https://github.com/nota-america/forgecat-agent-profiles"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-08-04T23:45:40Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
     "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
     "language": "HTML",
@@ -43,15 +75,6 @@
     "stars": 0,
     "updated_at": "2026-08-04T23:07:11Z",
     "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 0,
-    "updated_at": "2026-08-04T22:16:47Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -84,20 +107,6 @@
     "stars": 0,
     "updated_at": "2026-08-04T18:32:38Z",
     "url": "https://github.com/almandas-labs/cursor-rules-doctor"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: matcha engineering convention \u2014 read AGENTS.md at project root\nglobs: **/*\nalwaysApply: true\n---\n\n# \ud83c\udf75 matcha \u2014 Engineering Convention\n\nThis project uses the **matcha** engineering convention. Read the `AGENTS.md` file at the project root and follow its philosophy:\n\n> Simple. Efficient. Deliberate. Never twice.\n\nKey principles (see AGENTS.md for the full ruleset):\n- **Purpose (5W1H)** \u2014 know *why* before *how*. Can't explain why/how? Stop and rethink.\n- **Reuse** \u2014 search the codebase before writing new code. Never write what exists.\n- **Implementation** \u2014 one function, one job. Explicit errors. No hardcoded values.\n- **Cleanup** \u2014 done means working *and* clean. No debug leftovers, no dead code.\n- **Verify** \u2014 run tests, typecheck, and lint before declaring done.\n\nRespect the `// matcha:` decision markers when you find them in code \u2014 they are intentional, logged shortcuts.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/matcha.mdc"
-    },
-    "description": "\ud83c\udf75 Deliberate engineering guidelines & deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block",
-    "id": "plumpslabs/matcha",
-    "language": "JavaScript",
-    "name": "plumpslabs/matcha",
-    "stars": 1,
-    "updated_at": "2026-08-04T14:43:43Z",
-    "url": "https://github.com/plumpslabs/matcha"
   },
   {
     "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
@@ -196,7 +205,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 18772,
+    "stars": 18776,
     "updated_at": "2026-08-03T16:39:23Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -326,15 +335,6 @@
     "stars": 22,
     "updated_at": "2026-08-04T23:58:15Z",
     "url": "https://github.com/djtelicloud/grok-mcp-server"
-  },
-  {
-    "description": "VS Code extension for LynxPrompt \u2014 browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules) ",
-    "id": "GeiserX/lynxprompt-vscode",
-    "language": "TypeScript",
-    "name": "GeiserX/lynxprompt-vscode",
-    "stars": 1,
-    "updated_at": "2026-08-04T13:55:29Z",
-    "url": "https://github.com/GeiserX/lynxprompt-vscode"
   },
   {
     "cursorrules": {
