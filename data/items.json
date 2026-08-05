@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-08-05T03:15:48Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Official AI Agent Plugins & Skills Marketplace for Antigravity (AGY), Claude Code, and Cursor",
     "id": "orin-dx/agent-plugins",
     "language": "\u2014",
@@ -21,15 +30,6 @@
     "stars": 1,
     "updated_at": "2026-08-05T03:00:58Z",
     "url": "https://github.com/plumpslabs/matcha"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-08-05T03:00:55Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -191,7 +191,7 @@
     "id": "aaddrick/attention-control",
     "language": "Python",
     "name": "aaddrick/attention-control",
-    "stars": 46,
+    "stars": 47,
     "updated_at": "2026-08-04T02:47:13Z",
     "url": "https://github.com/aaddrick/attention-control"
   },
@@ -214,7 +214,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 18793,
+    "stars": 18795,
     "updated_at": "2026-08-03T16:39:23Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -342,7 +342,7 @@
     "language": "Python",
     "name": "djtelicloud/grok-mcp-server",
     "stars": 22,
-    "updated_at": "2026-08-05T03:12:55Z",
+    "updated_at": "2026-08-05T03:29:25Z",
     "url": "https://github.com/djtelicloud/grok-mcp-server"
   },
   {
