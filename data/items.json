@@ -1,21 +1,21 @@
 [
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-08-05T09:00:36Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
     "id": "pekral/cursor-rules",
     "language": "PHP",
     "name": "pekral/cursor-rules",
     "stars": 5,
-    "updated_at": "2026-08-05T09:00:24Z",
+    "updated_at": "2026-08-05T09:11:45Z",
     "url": "https://github.com/pekral/cursor-rules"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-08-05T09:07:47Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -96,7 +96,7 @@
     "language": "Python",
     "name": "djtelicloud/grok-mcp-server",
     "stars": 22,
-    "updated_at": "2026-08-05T06:41:21Z",
+    "updated_at": "2026-08-05T09:07:20Z",
     "url": "https://github.com/djtelicloud/grok-mcp-server"
   },
   {
