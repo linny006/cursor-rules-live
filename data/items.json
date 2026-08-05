@@ -1,12 +1,21 @@
 [
   {
-    "description": "Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API ",
-    "id": "djtelicloud/grok-mcp-server",
-    "language": "Python",
-    "name": "djtelicloud/grok-mcp-server",
-    "stars": 22,
-    "updated_at": "2026-08-05T09:21:23Z",
-    "url": "https://github.com/djtelicloud/grok-mcp-server"
+    "description": "OVP: the open visualization protocol for describing, validating, and rendering information design identically, for human",
+    "id": "babarda/open-visualization-protocol",
+    "language": "HTML",
+    "name": "babarda/open-visualization-protocol",
+    "stars": 2,
+    "updated_at": "2026-08-05T09:35:55Z",
+    "url": "https://github.com/babarda/open-visualization-protocol"
+  },
+  {
+    "description": "A catalogue of 49 AI writing tells, each with a plain rewrite, shared by Fireside. Drop it into a system prompt to stop ",
+    "id": "fromfireside/better-tropes",
+    "language": "\u2014",
+    "name": "fromfireside/better-tropes",
+    "stars": 2,
+    "updated_at": "2026-08-05T09:31:17Z",
+    "url": "https://github.com/fromfireside/better-tropes"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +23,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-05T09:15:39Z",
+    "updated_at": "2026-08-05T09:30:49Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API ",
+    "id": "djtelicloud/grok-mcp-server",
+    "language": "Python",
+    "name": "djtelicloud/grok-mcp-server",
+    "stars": 22,
+    "updated_at": "2026-08-05T09:21:23Z",
+    "url": "https://github.com/djtelicloud/grok-mcp-server"
   },
   {
     "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
@@ -500,28 +518,5 @@
     "stars": 0,
     "updated_at": "2026-07-29T13:23:58Z",
     "url": "https://github.com/moukie76/cursor-rules-free"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Android tech stack and project standards\nalwaysApply: true\n---\n\n# Role\n\nYou are a Senior Android Engineer with expertise in modern Android development.\n\nGenerate production-ready Android code.\n\n## Tech Stack\n\n- Language: Kotlin only.\n- UI: XML layouts only.\n- View Binding only.\n- Architecture: MVI + Clean Architecture.\n- Pattern: Single Module.\n- Navigation: Jetpack Navigation.\n- Dependency Injection: Koin.\n- Async: Kotlin Coroutines.\n- State Management: StateFlow.\n- Effects: SharedFlow or Channel.\n- Minimum SDK: 24.\n- Target SDK: 37.\n\n## Never\n\n- Never use Java.\n- Never use Jetpack Compose.\n- Never use MVVM unless explicitly requested.\n- Never introduce modular architecture.\n- Never introduce unnecessary libraries.\n\n## Always\n\n- Keep generated code compatible with Android API 24\u201337.\n- Use stable AndroidX libraries.\n- Prefer official Android APIs.",
-      "format": "mdc",
-      "path": ".cursor/rules/01-tech-stack.mdc"
-    },
-    "description": "Production-ready Android Engineering Rules for Cursor and other AI coding assistants. Build consistent, scalable, and ma",
-    "id": "orbitalsonic/AndroidPilot",
-    "language": "\u2014",
-    "name": "orbitalsonic/AndroidPilot",
-    "stars": 0,
-    "updated_at": "2026-07-29T10:47:56Z",
-    "url": "https://github.com/orbitalsonic/AndroidPilot"
-  },
-  {
-    "description": "n8n community node for LynxPrompt \u2014 manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via API",
-    "id": "GeiserX/n8n-nodes-lynxprompt",
-    "language": "TypeScript",
-    "name": "GeiserX/n8n-nodes-lynxprompt",
-    "stars": 1,
-    "updated_at": "2026-07-29T08:46:46Z",
-    "url": "https://github.com/GeiserX/n8n-nodes-lynxprompt"
   }
 ]
