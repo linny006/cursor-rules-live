@@ -1,11 +1,20 @@
 [
   {
+    "description": "Official AI Agent Plugins & Skills Marketplace for Antigravity (AGY), Claude Code, and Cursor",
+    "id": "orin-dx/agent-plugins",
+    "language": "\u2014",
+    "name": "orin-dx/agent-plugins",
+    "stars": 0,
+    "updated_at": "2026-08-05T01:09:49Z",
+    "url": "https://github.com/orin-dx/agent-plugins"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-05T00:45:50Z",
+    "updated_at": "2026-08-05T01:00:55Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -16,15 +25,6 @@
     "stars": 1,
     "updated_at": "2026-08-05T00:30:23Z",
     "url": "https://github.com/GeiserX/lynxprompt-vscode"
-  },
-  {
-    "description": "Official AI Agent Plugins & Skills Marketplace for Antigravity (AGY), Claude Code, and Cursor",
-    "id": "orin-dx/agent-plugins",
-    "language": "\u2014",
-    "name": "orin-dx/agent-plugins",
-    "stars": 0,
-    "updated_at": "2026-08-05T00:27:32Z",
-    "url": "https://github.com/orin-dx/agent-plugins"
   },
   {
     "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 plus AIOS, an open-source markdown memory system for coding ",
