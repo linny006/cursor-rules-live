@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-08-05 11:15 UTC
+> ⏰ Last updated: 2026-08-05 11:29 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,17 +53,17 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 1 | HTML | 2026-08-05 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 2 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-08-05 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
-| 3 | [vibestackdev/vibe-stack](https://github.com/vibestackdev/vibe-stack) | 7 | TypeScript | 2026-08-05 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/) | 29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b |
-| 4 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-08-05 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
-| 5 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 2 | HTML | 2026-08-05 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 6 | [babarda/open-visualization-protocol](https://github.com/babarda/open-visualization-protocol) | 2 | HTML | 2026-08-05 | — | OVP: the open visualization protocol for describing, validating, and rendering information design identically, for human |
-| 7 | [fromfireside/better-tropes](https://github.com/fromfireside/better-tropes) | 2 | — | 2026-08-05 | — | A catalogue of 49 AI writing tells, each with a plain rewrite, shared by Fireside. Drop it into a system prompt to stop  |
-| 8 | [djtelicloud/grok-mcp-server](https://github.com/djtelicloud/grok-mcp-server) | 22 | Python | 2026-08-05 | — | Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API  |
-| 9 | [pekral/cursor-rules](https://github.com/pekral/cursor-rules) | 5 | PHP | 2026-08-05 | — | PHP and Laravel Cursor rules — coding standards, testing, and conventions for the Cursor editor. Install via Composer. |
-| 10 | [plumpslabs/matcha](https://github.com/plumpslabs/matcha) | 1 | JavaScript | 2026-08-05 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/plumpslabs/matcha/) | 🍵 Deliberate engineering guidelines & deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block |
-| 11 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-08-05 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
+| 1 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-08-05 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
+| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 1 | HTML | 2026-08-05 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 3 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-08-05 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
+| 4 | [vibestackdev/vibe-stack](https://github.com/vibestackdev/vibe-stack) | 7 | TypeScript | 2026-08-05 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/) | 29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b |
+| 5 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-08-05 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
+| 6 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 2 | HTML | 2026-08-05 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
+| 7 | [babarda/open-visualization-protocol](https://github.com/babarda/open-visualization-protocol) | 2 | HTML | 2026-08-05 | — | OVP: the open visualization protocol for describing, validating, and rendering information design identically, for human |
+| 8 | [fromfireside/better-tropes](https://github.com/fromfireside/better-tropes) | 2 | — | 2026-08-05 | — | A catalogue of 49 AI writing tells, each with a plain rewrite, shared by Fireside. Drop it into a system prompt to stop  |
+| 9 | [djtelicloud/grok-mcp-server](https://github.com/djtelicloud/grok-mcp-server) | 22 | Python | 2026-08-05 | — | Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API  |
+| 10 | [pekral/cursor-rules](https://github.com/pekral/cursor-rules) | 5 | PHP | 2026-08-05 | — | PHP and Laravel Cursor rules — coding standards, testing, and conventions for the Cursor editor. Install via Composer. |
+| 11 | [plumpslabs/matcha](https://github.com/plumpslabs/matcha) | 1 | JavaScript | 2026-08-05 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/plumpslabs/matcha/) | 🍵 Deliberate engineering guidelines & deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block |
 | 12 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 29 | — | 2026-08-05 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
 | 13 | [FuDie0915/Riper5-cursor-skills](https://github.com/FuDie0915/Riper5-cursor-skills) | 1 | Python | 2026-08-05 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/FuDie0915/Riper5-cursor-skills/) | RIPER-5 AI 编码行为协议 — 面向 Cursor 的结构化技能套件，通过 DSL 声明式约束实现严格的模式隔离与行为控制 |
 | 14 | [wshobson/agents](https://github.com/wshobson/agents) | 38503 | Python | 2026-08-05 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI |
@@ -73,7 +73,7 @@ expired items removed — so you can rely on what you see being current.
 | 18 | [nota-america/forgecat-agent-profiles](https://github.com/nota-america/forgecat-agent-profiles) | 39 | TypeScript | 2026-08-04 | — | Production-ready AI agent profiles for Claude Code, Cursor, and Codex. Search, install, and contribute ForgeCat packages |
 | 19 | [0xwilliamortiz/ponytail-improved](https://github.com/0xwilliamortiz/ponytail-improved) | 589 | JavaScript | 2026-08-04 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/0xwilliamortiz/ponytail-improved/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 20 | [almandas-labs/cursor-rules-doctor](https://github.com/almandas-labs/cursor-rules-doctor) | 0 | JavaScript | 2026-08-04 | — | Local, zero-dependency structural diagnostic for Cursor project rules. |
-| 21 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-08-04 | — | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
+| 21 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-08-05 | — | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
 | 22 | [apervashov/typescript-learning-assistant](https://github.com/apervashov/typescript-learning-assistant) | 2 | HTML | 2026-08-04 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/apervashov/typescript-learning-assistant/) | Learn TypeScript with Handbook-aligned exercises, a local progress tracker, and AI mentor rules that give hints — not sp |
 | 23 | [fluttersdk/wind](https://github.com/fluttersdk/wind) | 30 | Dart | 2026-08-04 | — | Tailwind CSS for Flutter — classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code  |
 | 24 | [fatalex27/vibe-27](https://github.com/fatalex27/vibe-27) | 1 | — | 2026-08-04 | — | CLAUDE.md + AGENTS.md: 27 vibe coding rules for Cursor & Claude Code — think before coding, surgical edits, verify befor |
