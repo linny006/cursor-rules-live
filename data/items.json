@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-08-05T15:45:56Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "30 multi-phase AI coding skills with executable gates \u2014 pure markdown, zero dependencies.",
     "id": "sungurerdim/dev-skills",
     "language": "HTML",
@@ -16,15 +25,6 @@
     "stars": 2,
     "updated_at": "2026-08-05T15:30:35Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-08-05T15:30:34Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
