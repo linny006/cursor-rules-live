@@ -1,11 +1,20 @@
 [
   {
+    "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
+    "id": "philipbankier/awesome-agent-skills",
+    "language": "TypeScript",
+    "name": "philipbankier/awesome-agent-skills",
+    "stars": 14,
+    "updated_at": "2026-08-05T11:48:37Z",
+    "url": "https://github.com/philipbankier/awesome-agent-skills"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-05T11:30:47Z",
+    "updated_at": "2026-08-05T11:45:35Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -278,7 +287,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 18825,
+    "stars": 18826,
     "updated_at": "2026-08-03T16:39:23Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -367,15 +376,6 @@
     "stars": 1,
     "updated_at": "2026-08-02T19:12:31Z",
     "url": "https://github.com/sungurerdim/dev-skills"
-  },
-  {
-    "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
-    "id": "philipbankier/awesome-agent-skills",
-    "language": "TypeScript",
-    "name": "philipbankier/awesome-agent-skills",
-    "stars": 14,
-    "updated_at": "2026-08-02T13:20:47Z",
-    "url": "https://github.com/philipbankier/awesome-agent-skills"
   },
   {
     "cursorrules": {
