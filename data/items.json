@@ -5,8 +5,17 @@
     "language": "\u2014",
     "name": "orin-dx/agent-plugins",
     "stars": 1,
-    "updated_at": "2026-08-05T01:44:26Z",
+    "updated_at": "2026-08-05T01:55:43Z",
     "url": "https://github.com/orin-dx/agent-plugins"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-08-05T01:45:39Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -16,15 +25,6 @@
     "stars": 1,
     "updated_at": "2026-08-05T01:43:15Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-08-05T01:30:42Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "VS Code extension for LynxPrompt \u2014 browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules) ",
@@ -342,7 +342,7 @@
     "language": "Python",
     "name": "djtelicloud/grok-mcp-server",
     "stars": 22,
-    "updated_at": "2026-08-05T01:44:38Z",
+    "updated_at": "2026-08-05T02:00:07Z",
     "url": "https://github.com/djtelicloud/grok-mcp-server"
   },
   {
