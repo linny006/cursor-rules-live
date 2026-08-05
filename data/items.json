@@ -1,21 +1,30 @@
 [
   {
+    "description": "Official AI Agent Plugins & Skills Marketplace for Antigravity (AGY), Claude Code, and Cursor",
+    "id": "orin-dx/agent-plugins",
+    "language": "\u2014",
+    "name": "orin-dx/agent-plugins",
+    "stars": 1,
+    "updated_at": "2026-08-05T01:44:26Z",
+    "url": "https://github.com/orin-dx/agent-plugins"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-08-05T01:43:15Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-05T01:15:38Z",
+    "updated_at": "2026-08-05T01:30:42Z",
     "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
-    "description": "Official AI Agent Plugins & Skills Marketplace for Antigravity (AGY), Claude Code, and Cursor",
-    "id": "orin-dx/agent-plugins",
-    "language": "\u2014",
-    "name": "orin-dx/agent-plugins",
-    "stars": 0,
-    "updated_at": "2026-08-05T01:09:49Z",
-    "url": "https://github.com/orin-dx/agent-plugins"
   },
   {
     "description": "VS Code extension for LynxPrompt \u2014 browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules) ",
@@ -57,15 +66,6 @@
     "stars": 0,
     "updated_at": "2026-08-05T00:08:25Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-08-04T23:55:02Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Production-ready AI agent profiles for Claude Code, Cursor, and Codex. Search, install, and contribute ForgeCat packages",
@@ -214,7 +214,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 18782,
+    "stars": 18785,
     "updated_at": "2026-08-03T16:39:23Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -342,7 +342,7 @@
     "language": "Python",
     "name": "djtelicloud/grok-mcp-server",
     "stars": 22,
-    "updated_at": "2026-08-04T23:58:15Z",
+    "updated_at": "2026-08-05T01:44:38Z",
     "url": "https://github.com/djtelicloud/grok-mcp-server"
   },
   {
