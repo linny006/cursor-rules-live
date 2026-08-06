@@ -1,5 +1,23 @@
 [
   {
+    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
+    "id": "Hyanthropological659/clarify-skill",
+    "language": "\u2014",
+    "name": "Hyanthropological659/clarify-skill",
+    "stars": 0,
+    "updated_at": "2026-08-06T01:03:40Z",
+    "url": "https://github.com/Hyanthropological659/clarify-skill"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-08-06T01:00:49Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
     "id": "Overseastelegramaliterateperson865/awesome-claude-md",
     "language": "\u2014",
@@ -21,24 +39,6 @@
     "stars": 3,
     "updated_at": "2026-08-06T00:50:28Z",
     "url": "https://github.com/Luxvil/ai-coding-rules"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-08-06T00:45:50Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
-    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
-    "id": "Hyanthropological659/clarify-skill",
-    "language": "\u2014",
-    "name": "Hyanthropological659/clarify-skill",
-    "stars": 0,
-    "updated_at": "2026-08-06T00:04:28Z",
-    "url": "https://github.com/Hyanthropological659/clarify-skill"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -351,7 +351,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 18847,
+    "stars": 18850,
     "updated_at": "2026-08-03T16:39:23Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
