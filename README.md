@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-08-06 05:30 UTC
+> ⏰ Last updated: 2026-08-06 05:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,9 +53,9 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [Hyanthropological659/clarify-skill](https://github.com/Hyanthropological659/clarify-skill) | 0 | — | 2026-08-06 | — | Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a |
-| 2 | [Overseastelegramaliterateperson865/awesome-claude-md](https://github.com/Overseastelegramaliterateperson865/awesome-claude-md) | 2 | — | 2026-08-06 | — | Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr |
-| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 1 | HTML | 2026-08-06 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 1 | HTML | 2026-08-06 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [Hyanthropological659/clarify-skill](https://github.com/Hyanthropological659/clarify-skill) | 0 | — | 2026-08-06 | — | Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a |
+| 3 | [Overseastelegramaliterateperson865/awesome-claude-md](https://github.com/Overseastelegramaliterateperson865/awesome-claude-md) | 2 | — | 2026-08-06 | — | Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr |
 | 4 | [Luxvil/ai-coding-rules](https://github.com/Luxvil/ai-coding-rules) | 3 | Shell | 2026-08-06 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Luxvil/ai-coding-rules/) | 🤖 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje |
 | 5 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-08-06 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
 | 6 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-08-06 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
@@ -66,7 +66,7 @@ expired items removed — so you can rely on what you see being current.
 | 11 | [nota-america/forgecat-agent-profiles](https://github.com/nota-america/forgecat-agent-profiles) | 41 | TypeScript | 2026-08-05 | — | Production-ready AI agent profiles for Claude Code, Cursor, and Codex. Search, install, and contribute ForgeCat packages |
 | 12 | [orin-dx/agent-plugins](https://github.com/orin-dx/agent-plugins) | 1 | — | 2026-08-05 | — | Official AI Agent Plugins & Skills Marketplace for Antigravity (AGY), Claude Code, and Cursor |
 | 13 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 29 | — | 2026-08-05 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
-| 14 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 127 | Shell | 2026-08-05 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | Agent skills synthesizing years of software engineering discipline into a prescriptive methodology for solo developers |
+| 14 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 128 | Shell | 2026-08-05 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | Agent skills synthesizing years of software engineering discipline into a prescriptive methodology for solo developers |
 | 15 | [sungurerdim/dev-skills](https://github.com/sungurerdim/dev-skills) | 1 | HTML | 2026-08-05 | — | 30 multi-phase AI coding skills with executable gates — pure markdown, zero dependencies. |
 | 16 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 17 | Python | 2026-08-05 | — | Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior |
 | 17 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 14 | TypeScript | 2026-08-05 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
@@ -87,7 +87,7 @@ expired items removed — so you can rely on what you see being current.
 | 32 | [fatalex27/vibe-27](https://github.com/fatalex27/vibe-27) | 1 | — | 2026-08-04 | — | CLAUDE.md + AGENTS.md: 27 vibe coding rules for Cursor & Claude Code — think before coding, surgical edits, verify befor |
 | 33 | [aaddrick/attention-control](https://github.com/aaddrick/attention-control) | 51 | Python | 2026-08-04 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/aaddrick/attention-control/) | Air traffic control discipline for agent output. Written for a reader with ADHD. |
 | 34 | [kensaurus/cursor-kenji](https://github.com/kensaurus/cursor-kenji) | 8 | JavaScript | 2026-08-04 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/kensaurus/cursor-kenji/) | 🦖Curated Cursor AI agent skills, slash commands, MCP configs, subagents & rules for full-stack dev — React 19, Next.js 1 |
-| 35 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 18872 | Shell | 2026-08-03 | — | 🎭 267 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 52 个中国市场原创智能体（小红书/抖音/ |
+| 35 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 18874 | Shell | 2026-08-03 | — | 🎭 267 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 52 个中国市场原创智能体（小红书/抖音/ |
 | 36 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 116 | Python | 2026-08-03 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
 | 37 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 16 | Shell | 2026-08-03 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
 | 38 | [goldhoang/elite-cursor-agent-rules](https://github.com/goldhoang/elite-cursor-agent-rules) | 1 | — | 2026-08-03 | — | 🚀 Universal, token-optimized Cursor AI Agent rules (.mdc) for enterprise Clean Architecture backends and modern componen |
@@ -102,7 +102,7 @@ expired items removed — so you can rely on what you see being current.
 | 47 | [sscodeai/agency-agents-ja](https://github.com/sscodeai/agency-agents-ja) | 4 | Shell | 2026-08-01 | — | 323個の即戦力AI専門エージェント — Claude Code/Cursor/Copilot等に対応。SIer/受託開発/SaaS/製造DX/公共分野など日本市場向け114個のオリジナルを含む、agency-agents日本語コミュニティ |
 | 48 | [GeiserX/lynxprompt-mcp](https://github.com/GeiserX/lynxprompt-mcp) | 2 | Go | 2026-08-01 | — | MCP Server for LynxPrompt — browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP |
 | 49 | [MicSm/boffin](https://github.com/MicSm/boffin) | 37 | JavaScript | 2026-07-31 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/MicSm/boffin/) | Staff-engineer layer for AI coding agents: routes per-edit architectural constraints and requires verification. Not anot |
-| 50 | [anmolnagpal/devops-skills](https://github.com/anmolnagpal/devops-skills) | 8 | Shell | 2026-07-31 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/anmolnagpal/devops-skills/) | Multi-tool DevOps skills for Claude Code, Cursor, and Codex — Terraform, Kubernetes, Docker, GitHub Actions, GitLab CI,  |
+| 50 | [anmolnagpal/devops-skills](https://github.com/anmolnagpal/devops-skills) | 8 | Shell | 2026-08-06 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/anmolnagpal/devops-skills/) | Multi-tool DevOps skills for Claude Code, Cursor, and Codex — Terraform, Kubernetes, Docker, GitHub Actions, GitLab CI,  |
 <!-- TRACKER_TABLE_END -->
 
 ---
