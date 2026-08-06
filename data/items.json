@@ -1,11 +1,29 @@
 [
   {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 0,
+    "updated_at": "2026-08-06T02:55:55Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+  },
+  {
+    "description": "Archive-grade .mdc rule library for Cursor AI \u2014 26 production-ready rules for teams seeking stable, reusable AI coding g",
+    "id": "AICL-Lab/cursor-rules",
+    "language": "JavaScript",
+    "name": "AICL-Lab/cursor-rules",
+    "stars": 20,
+    "updated_at": "2026-08-06T02:48:40Z",
+    "url": "https://github.com/AICL-Lab/cursor-rules"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-06T02:30:33Z",
+    "updated_at": "2026-08-06T02:45:47Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -84,15 +102,6 @@
     "stars": 41,
     "updated_at": "2026-08-05T23:16:09Z",
     "url": "https://github.com/nota-america/forgecat-agent-profiles"
-  },
-  {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 0,
-    "updated_at": "2026-08-05T23:04:44Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "description": "Official AI Agent Plugins & Skills Marketplace for Antigravity (AGY), Claude Code, and Cursor",
@@ -351,7 +360,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 18861,
+    "stars": 18862,
     "updated_at": "2026-08-03T16:39:23Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -509,14 +518,5 @@
     "stars": 8,
     "updated_at": "2026-07-31T18:45:44Z",
     "url": "https://github.com/anmolnagpal/devops-skills"
-  },
-  {
-    "description": "AI agent skills for building accessible Indian government websites \u2014 UX4G 3.0.18, DBIM v3, GIGW 3.0 and WCAG, extracted ",
-    "id": "Yashraj00700/indian-gov-ui-skills",
-    "language": "Python",
-    "name": "Yashraj00700/indian-gov-ui-skills",
-    "stars": 0,
-    "updated_at": "2026-07-31T07:38:51Z",
-    "url": "https://github.com/Yashraj00700/indian-gov-ui-skills"
   }
 ]
