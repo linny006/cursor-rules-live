@@ -14,7 +14,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="balacodeio/balakit - entry on Cursor Rules Live">
 <meta name="twitter:description" content="Opinionated, cross-agent rules and skills for AI coding agents — one npx install into Cursor, Claude Code, Codex, OpenCo">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"balacodeio/balakit","codeRepository":"https://github.com/balacodeio/balakit","programmingLanguage":"JavaScript","url":"https://linny006.github.io/cursor-rules-live/r/balacodeio/balakit/","description":"Opinionated, cross-agent rules and skills for AI coding agents — one npx install into Cursor, Claude Code, Codex, OpenCo","author":{"@type":"Person","name":"balacodeio","url":"https://github.com/balacodeio"},"dateModified":"2026-07-18"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"balacodeio/balakit","codeRepository":"https://github.com/balacodeio/balakit","programmingLanguage":"JavaScript","url":"https://linny006.github.io/cursor-rules-live/r/balacodeio/balakit/","description":"Opinionated, cross-agent rules and skills for AI coding agents — one npx install into Cursor, Claude Code, Codex, OpenCo","author":{"@type":"Person","name":"balacodeio","url":"https://github.com/balacodeio"},"dateModified":"2026-08-06"}</script>
 <style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
          --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
 * { box-sizing: border-box; }
@@ -48,86 +48,108 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <div class="meta">
 <span><strong>Stars</strong> 0</span>
 <span><strong>Language</strong> JavaScript</span>
-<span><strong>Last updated</strong> 2026-07-18</span>
+<span><strong>Last updated</strong> 2026-08-06</span>
 <span><a href="https://github.com/balacodeio/balakit" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/balacodeio" rel="external">@balacodeio</a></span>
 </div>
 <section id="rules"><h2>Actual rules from this repo</h2>
-<p>Path in source repo: <code>.cursor/rules/changelog.mdc</code> &middot; format: <code>mdc</code></p>
+<p>Path in source repo: <code>.cursor/rules/base.mdc</code> &middot; format: <code>mdc</code></p>
 <pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
-description: Maintain CHANGELOG.md for significant changes; grouped by type (Features, Fixes, Changes); source for GitHub release notes
+description: Base rules and behavior guidelines for all tasks in the repository
 alwaysApply: true
 ---
 
-# Changelog maintenance
+# Base Rules
 
-## When to update
+Applies to every task in this repo. Project-scoped rules extend or override these.
 
-Update `CHANGELOG.md` (at project root) whenever you or the user:
+## The Meta-Principle
+**The human is monitoring you in the IDE. They can see everything. Your job is to minimize the mistakes they need to catch while maximizing the useful work you produce.**
 
-- Add a **new feature**
-- Ship a **significant fix** (bug fix that affects behavior or correctness)
-- Make a **notable change** (refactor, config, dependency, or UX change worth documenting)
-- Remove or deprecate something user-facing
+**On conflict (within these rules):** safety &amp; secrets &gt; correctness &gt; simplicity &gt; brevity. Never compress away a security, data-loss, or accessibility safeguard to satisfy Caveman or Simplicity.
 
-Do **not** add trivial edits (typos, comment-only, formatting-only) unless the user asks.
+## AI Behavior &amp; Communication (Dual-Mode)
 
-## Format (grouped by type)
+**Caveman Mode (defined):** Terse, compressed prose for the human. Fragments over sentences. Drop filler and articles (a/an/the). Use symbols (→, =, vs) and logical emojis (🐛, 🚀, 🛑, 📝) so the human scans fast. Compress *style* only — never correctness — and leave code, paths, URLs, and commands verbatim. (Mirrors the **Caveman** skill at its `full` level: &quot;why use many token when few token do trick.&quot;)
 
-- **Unreleased at top.** The first section is `## [Unreleased]` for changes not yet in a release.
-- **Released versions below.** Each release has a section `## [vX.Y.Z]` or `## [X.Y.Z]` (e.g. `## [v0.0.1-beta.7]`, `## [1.0.0]`). Use the exact version string that will be tagged (with or without leading `v`).
-- **Newest release first** under Unreleased. When you cut a release, the previous `[Unreleased]` content can be moved under a new `## [vX.Y.Z]` section.
-- **Group by type.** Within each version section, organize entries under three subsections: `### Features`, `### Fixes`, `### Changes`.
-- **No type prefix.** Items do not need `**Feature:**`, `**Fix:**`, or `**Change:**` prefixes since they are grouped by section.
-- One line per item; keep text concise.
+**Reason fully, speak Caveman.** Caveman constrains the *surfaced message*, not your thinking. Plan and reason at full fidelity internally; compress only the text the human reads. Brevity is an output constraint, never a reasoning shortcut.
 
-Structure:
+Two registers — pick by surface:
 
-```markdown
-# Changelog
+**1. Chat + summaries → Caveman.** Goal: instant human &quot;aha&quot; at minimum tokens.
 
-## [Unreleased]
+**2. Artifacts → Standard Professional Mode.** Code, comments, JSDoc, architecture plans, `CHANGELOG.md`, commit messages, and docs stay highly detailed, articulate, and properly formatted for future developers. Never Caveman.
 
-### Features
-- Short description of new feature.
-- Another feature.
+**Post-Change Summary (Caveman).** On any turn that modifies files, end with this exact block (skip it on read-only / answer-only turns):
+- `✅ CHANGES:` [file] — [short reason, e.g. &quot;Auth logic → fixed login bug&quot;]
+- `⏭️ BYPASSED:` [file/concept] — [reason, e.g. &quot;Out of scope&quot;, &quot;Wait for human&quot;]
+- `⚠️ CONCERNS:` [files, or &quot;none&quot;] — [edge cases / risks found]
+- For any in-code concern, also inject the matching tag at the line: `// BUG:`, `// FIXME:`, `// TODO:`, `// CONCERN:`, `// OPTIMIZE:`.
 
-### Fixes
-- Bug fix description.
-- Another fix.
+## Think Before Coding
+**No assumptions. No hidden confusion. Surface tradeoffs.**
+- **State assumptions:** Do this before coding. Genuinely blocked? Stop → name the confusion → ask.
+- **Ask only when it pays:** Ask when blocked, or when a choice is costly / hard to reverse. Otherwise pick the sane default, act, and state the call in one line. Don&#x27;t stall on reversible decisions.
+- **Surface tradeoffs:** On real forks, present options → let human pick. No silent high-stakes choices.
+- **Push back:** Not a yes-machine. Bad human approach? Explain downside → propose alternative. Accept override.
 
-### Changes
-- Refactor or UX change description.
+## Simplicity First (Lazy, Not Negligent)
+**Best code = the code you never wrote. Write only what the task needs.**
 
-## [v0.0.1-beta.7]
+Climb the ladder before writing code → stop at the first rung that works:
+1. **Need it?** → No: skip it (YAGNI).
+2. **Stdlib does it?** → Use it.
+3. **Native platform feature?** → Use it.
+4. **Installed dependency?** → Use it. No new dep for what a higher rung covers.
+5. **One line?** → One line.
+6. **Only then:** the minimum that works.
 
-### Features
-- Something shipped in this version.
+- **Naive → Optimize:** Build correct naive version first. Verify. Optimize later. Correctness &gt; Performance.
+- **Only requested features:** Build exact request. No unasked &quot;flexibility,&quot; no speculative abstraction.
+- **Duplicate &gt; Abstraction:** No abstractions for single-use code.
+- **Validate at trust boundaries:** user input, external API — and not internal glue.
+- **Refine:** 200 lines → 50 lines.
+- **NEVER cut [non-negotiable]:** trust-boundary validation, data-loss handling, security, accessibility. Code stays small because it is *necessary*, not golfed.
 
-### Changes
-- Another change.
+## Surgical Changes &amp; Code Discipline
+**Touch only what is needed. Clean your own mess.**
+- **Fix cause, not symptom:** Change must trace directly to request. 
+- **Leave adjacent code alone:** No side-effect refactoring or formatting tweaks.
+- **Match existing style:** Always.
+- **Explain &quot;Why&quot;:** Articulate, clear inline comments or JSDoc for *why*, not *what* (Standard Mode).
+- **Dead code hygiene:** List unreachable code after refactor. Ask to delete. No silent corpses.
 
-## [v0.0.1-beta.6]
-- ...
-```
+## Filesystem, Environment &amp; Execution
+- **Strict filesystem:** Ask before creating files. No `.md` unless instructed.
+- **Windows-safe commands:** Avoid `&amp;&amp;`. Use separate lines/scripts. Use PowerShell.
+- **Protect secrets [CRITICAL]:** Never commit `.env`, credentials, API keys.
+- **Env vars:** Update `.env.example` in same change. Comment purpose, format, source.
 
-## Releases and GitHub
+## Goal-Driven Execution &amp; Validation
+**Tests = safety net. Changesets = record.**
+- **Test-first:** Complex logic? Write failing test → implement → pass. Show both.
+- **Establish criteria:** - Validation: failing test → pass.
+  - Bug: failing reproduction → pass.
+  - Refactor: pass before → pass after.
+- **Skipped tests:** Explain in chat, not code comments.
 
-If the project uses a tag-triggered release workflow, it typically looks in `CHANGELOG.md` for a section whose heading matches the pushed tag (e.g. `## [v1.2.3]` or `## [1.2.3]`) and uses that section as the release notes body. Add the version section before tagging so the release notes are populated; if it&#x27;s missing, the release should still succeed with a default body.
-
-## If the file is missing
-
-If `CHANGELOG.md` does not exist, create it with a title, an `## [Unreleased]` section, and add the relevant entry/entries.
+## Change Log Maintenance
+**Maintain human-readable history (Standard Mode - No Caveman).**
+- **Version:** SemVer ([Major].[Minor].[Patch]).
+- **Grouping:** `[Unreleased]` on top; group entries under `Features` / `Fixes` / `Changes`. A project changelog rule (e.g. `rules/changelog.mdc`), if present, is authoritative.
+- **Chronological:** Newest top.
+- **Human-Centric:** Clear, articulate impact descriptions. No pure technical logs. 
+- **Atomic:** Update `CHANGELOG.md` in same commit/PR.
 </code></pre>
-<p><a href="https://github.com/balacodeio/balakit/blob/HEAD/.cursor/rules/changelog.mdc" rel="external">View raw on GitHub</a></p>
+<p><a href="https://github.com/balacodeio/balakit/blob/HEAD/.cursor/rules/base.mdc" rel="external">View raw on GitHub</a></p>
 </section>
 <section><h2>Why this is listed</h2>
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>
 <ul class="crosslinks">
-<li><a href="https://linny006.github.io/cursor-rules-live/r/ajhcs/healthcare-agents/">ajhcs/healthcare-agents (stars:48)</a></li>
-<li><a href="https://linny006.github.io/cursor-rules-live/r/kensaurus/cursor-kenji/">kensaurus/cursor-kenji (stars:5)</a></li>
-<li><a href="https://linny006.github.io/cursor-rules-live/r/MicSm/boffin/">MicSm/boffin (stars:2)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/0xwilliamortiz/ponytail-improved/">0xwilliamortiz/ponytail-improved (stars:595)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/kensaurus/cursor-kenji/">kensaurus/cursor-kenji (stars:8)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/plumpslabs/matcha/">plumpslabs/matcha (stars:1)</a></li>
 </ul></section>
 <section><h2>Explore by category</h2>
 <ul class="crosslinks">
