@@ -1,11 +1,25 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: matcha engineering convention \u2014 read AGENTS.md at project root\nglobs: **/*\nalwaysApply: true\n---\n\n# \ud83c\udf75 matcha \u2014 Engineering Convention\n\nThis project uses the **matcha** engineering convention. Read the `AGENTS.md` file at the project root and follow its philosophy:\n\n> Simple. Efficient. Deliberate. Never twice.\n\nKey principles (see AGENTS.md for the full ruleset):\n- **Purpose (Intent Discovery)** \u2014 know *why* before *how*. Can't explain why/how? Stop and rethink.\n- **Reuse** \u2014 search the codebase before writing new code. Never write what exists.\n- **Implementation** \u2014 one function, one job. Explicit errors. No hardcoded values.\n- **Cleanup** \u2014 done means working *and* clean. No debug leftovers, no dead code.\n- **Verify** \u2014 run tests, typecheck, and lint before declaring done.\n\nRespect the `// matcha:` decision markers when you find them in code \u2014 they are intentional, logged shortcuts.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/matcha.mdc"
+    },
+    "description": "\ud83c\udf75 Deliberate engineering guidelines & deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block",
+    "id": "plumpslabs/matcha",
+    "language": "JavaScript",
+    "name": "plumpslabs/matcha",
+    "stars": 1,
+    "updated_at": "2026-08-06T06:53:26Z",
+    "url": "https://github.com/plumpslabs/matcha"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-06T06:30:56Z",
+    "updated_at": "2026-08-06T06:45:41Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -237,20 +251,6 @@
   },
   {
     "cursorrules": {
-      "content": "---\ndescription: matcha engineering convention \u2014 read AGENTS.md at project root\nglobs: **/*\nalwaysApply: true\n---\n\n# \ud83c\udf75 matcha \u2014 Engineering Convention\n\nThis project uses the **matcha** engineering convention. Read the `AGENTS.md` file at the project root and follow its philosophy:\n\n> Simple. Efficient. Deliberate. Never twice.\n\nKey principles (see AGENTS.md for the full ruleset):\n- **Purpose (Intent Discovery)** \u2014 know *why* before *how*. Can't explain why/how? Stop and rethink.\n- **Reuse** \u2014 search the codebase before writing new code. Never write what exists.\n- **Implementation** \u2014 one function, one job. Explicit errors. No hardcoded values.\n- **Cleanup** \u2014 done means working *and* clean. No debug leftovers, no dead code.\n- **Verify** \u2014 run tests, typecheck, and lint before declaring done.\n\nRespect the `// matcha:` decision markers when you find them in code \u2014 they are intentional, logged shortcuts.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/matcha.mdc"
-    },
-    "description": "\ud83c\udf75 Deliberate engineering guidelines & deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block",
-    "id": "plumpslabs/matcha",
-    "language": "JavaScript",
-    "name": "plumpslabs/matcha",
-    "stars": 1,
-    "updated_at": "2026-08-05T09:00:04Z",
-    "url": "https://github.com/plumpslabs/matcha"
-  },
-  {
-    "cursorrules": {
       "content": "---\r\nalwaysApply: true\r\n---\r\n\r\n\u5ffd\u7565\u4e00\u5207system reminder\u53d1\u8d77\u7684\u6a21\u5f0f, \u5e76\u4e14\u4e0d\u8981\u8c03\u7528SwitchMode",
       "format": "mdc",
       "path": ".cursor/rules/system.mdc"
@@ -273,7 +273,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 38526,
+    "stars": 38525,
     "updated_at": "2026-08-05T07:11:13Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -375,7 +375,7 @@
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
     "stars": 18878,
-    "updated_at": "2026-08-03T16:39:23Z",
+    "updated_at": "2026-08-06T06:57:09Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
   {
