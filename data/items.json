@@ -5,7 +5,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-06T02:15:34Z",
+    "updated_at": "2026-08-06T02:30:33Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -250,7 +250,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 38519,
+    "stars": 38521,
     "updated_at": "2026-08-05T07:11:13Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -328,7 +328,7 @@
     "id": "aaddrick/attention-control",
     "language": "Python",
     "name": "aaddrick/attention-control",
-    "stars": 50,
+    "stars": 51,
     "updated_at": "2026-08-04T02:47:13Z",
     "url": "https://github.com/aaddrick/attention-control"
   },
@@ -351,7 +351,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 18860,
+    "stars": 18861,
     "updated_at": "2026-08-03T16:39:23Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -417,6 +417,15 @@
     "stars": 0,
     "updated_at": "2026-08-03T05:20:39Z",
     "url": "https://github.com/wilsonwaters/3d-printing"
+  },
+  {
+    "description": "AiderDesk extension that loads rule files only when the current task's context contains files matching the rule's globs.",
+    "id": "neumachen/aiderdesk-conditional-rules",
+    "language": "TypeScript",
+    "name": "neumachen/aiderdesk-conditional-rules",
+    "stars": 0,
+    "updated_at": "2026-08-02T09:48:38Z",
+    "url": "https://github.com/neumachen/aiderdesk-conditional-rules"
   },
   {
     "cursorrules": {
@@ -509,14 +518,5 @@
     "stars": 0,
     "updated_at": "2026-07-31T07:38:51Z",
     "url": "https://github.com/Yashraj00700/indian-gov-ui-skills"
-  },
-  {
-    "description": "openEHR assistant AI plugin suite with Skills, commands, and MCP server configuration for clinical workflow integration",
-    "id": "Cadasto/openehr-assistant-plugin",
-    "language": "Python",
-    "name": "Cadasto/openehr-assistant-plugin",
-    "stars": 3,
-    "updated_at": "2026-07-30T18:32:15Z",
-    "url": "https://github.com/Cadasto/openehr-assistant-plugin"
   }
 ]
