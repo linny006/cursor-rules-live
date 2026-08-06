@@ -53,29 +53,34 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <span><a href="https://github.com/plumpslabs" rel="external">@plumpslabs</a></span>
 </div>
 <section id="rules"><h2>Actual rules from this repo</h2>
-<p>Path in source repo: <code>.cursor/rules/matcha.mdc</code> &middot; format: <code>mdc</code></p>
+<p>Path in source repo: <code>.cursor/rules/kuma.mdc</code> &middot; format: <code>mdc</code></p>
 <pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
-description: matcha engineering convention — read AGENTS.md at project root
-globs: **/*
+description: Kuma MCP — safety and context runtime for AI agents
 alwaysApply: true
 ---
 
-# 🍵 matcha — Engineering Convention
+Kuma MCP tools are available (kuma_context, kuma_memory, kuma_safety).
+**Before coding, call `kuma_context({ action: &quot;init&quot; })`** to load project context.
 
-This project uses the **matcha** engineering convention. Read the `AGENTS.md` file at the project root and follow its philosophy:
+⚡ **DEFAULT WORKFLOW (Lean — 3 steps):**
+  1. `init` — load context
+  2. *(edit/read using native tools)*
+  3. `changes` — review session
 
-&gt; Simple. Efficient. Deliberate. Never twice.
+📝 **RECORD when needed (don&#x27;t force it):**
+  • Found a bug? → `kuma_memory({ action: &quot;gotcha&quot; })` (IMMEDIATELY)
+  • Traced a flow? → `kuma_memory({ action: &quot;arch_flow&quot; })` (max 5 files)
+  • Chose between options? → `kuma_memory({ action: &quot;decision&quot; })`
 
-Key principles (see AGENTS.md for the full ruleset):
-- **Purpose (Intent Discovery)** — know *why* before *how*. Can&#x27;t explain why/how? Stop and rethink.
-- **Reuse** — search the codebase before writing new code. Never write what exists.
-- **Implementation** — one function, one job. Explicit errors. No hardcoded values.
-- **Cleanup** — done means working *and* clean. No debug leftovers, no dead code.
-- **Verify** — run tests, typecheck, and lint before declaring done.
+📖 Full rules: `.kuma/init.md`
 
-Respect the `// matcha:` decision markers when you find them in code — they are intentional, logged shortcuts.
-</code></pre>
-<p><a href="https://github.com/plumpslabs/matcha/blob/HEAD/.cursor/rules/matcha.mdc" rel="external">View raw on GitHub</a></p>
+📖 **Usage:**
+  • `kuma_context({ action: &quot;init&quot; })` — load project context (call first)
+  • `kuma_safety({ action: &quot;guard&quot; })` — safety check before risky ops
+  • `kuma_safety({ action: &quot;verify&quot;, scope: &quot;&lt;area&gt;&quot; })` — verify after edits
+  • `.kuma/init.md` — full behavioral rules
+  • `.kuma/memories/` — persistent project knowledge</code></pre>
+<p><a href="https://github.com/plumpslabs/matcha/blob/HEAD/.cursor/rules/kuma.mdc" rel="external">View raw on GitHub</a></p>
 </section>
 <section><h2>Why this is listed</h2>
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
