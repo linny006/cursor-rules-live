@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-08-07 16:30 UTC
+> ⏰ Last updated: 2026-08-07 16:34 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -99,7 +99,7 @@ expired items removed — so you can rely on what you see being current.
 | 44 | [anivar/zod-skill](https://github.com/anivar/zod-skill) | 19 | — | 2026-08-04 | — | AI agent skill for Zod v4 — 27 rules: schema design, parsing, error handling, type inference. Works with Claude Code, Cu |
 | 45 | [fluttersdk/wind](https://github.com/fluttersdk/wind) | 31 | Dart | 2026-08-04 | — | Tailwind CSS for Flutter — classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code  |
 | 46 | [fatalex27/vibe-27](https://github.com/fatalex27/vibe-27) | 1 | — | 2026-08-04 | — | CLAUDE.md + AGENTS.md: 27 vibe coding rules for Cursor & Claude Code — think before coding, surgical edits, verify befor |
-| 47 | [aaddrick/attention-control](https://github.com/aaddrick/attention-control) | 57 | Python | 2026-08-04 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/aaddrick/attention-control/) | Air traffic control discipline for agent output. Written for a reader with ADHD. |
+| 47 | [aaddrick/attention-control](https://github.com/aaddrick/attention-control) | 56 | Python | 2026-08-04 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/aaddrick/attention-control/) | Air traffic control discipline for agent output. Written for a reader with ADHD. |
 | 48 | [kensaurus/cursor-kenji](https://github.com/kensaurus/cursor-kenji) | 8 | JavaScript | 2026-08-04 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/kensaurus/cursor-kenji/) | 🦖Curated Cursor AI agent skills, slash commands, MCP configs, subagents & rules for full-stack dev — React 19, Next.js 1 |
 | 49 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 116 | Python | 2026-08-03 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
 | 50 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 16 | Shell | 2026-08-03 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
