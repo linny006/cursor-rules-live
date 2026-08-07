@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-08-07T01:30:54Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: Kuma MCP \u2014 safety and context runtime for AI agents\nalwaysApply: true\n---\n\nKuma MCP tools are available (kuma_context, kuma_memory, kuma_safety).\n**Before coding, call `kuma_context({ action: \"init\" })`** to load project context.\n\n\u26a1 **DEFAULT WORKFLOW (Lean \u2014 3 steps):**\n  1. `init` \u2014 load context\n  2. *(edit/read using native tools)*\n  3. `changes` \u2014 review session\n\n\ud83d\udcdd **RECORD when needed (don't force it):**\n  \u2022 Found a bug? \u2192 `kuma_memory({ action: \"gotcha\" })` (IMMEDIATELY)\n  \u2022 Traced a flow? \u2192 `kuma_memory({ action: \"arch_flow\" })` (max 5 files)\n  \u2022 Chose between options? \u2192 `kuma_memory({ action: \"decision\" })`\n\n\ud83d\udcd6 Full rules: `.kuma/init.md`\n\n\ud83d\udcd6 **Usage:**\n  \u2022 `kuma_context({ action: \"init\" })` \u2014 load project context (call first)\n  \u2022 `kuma_safety({ action: \"guard\" })` \u2014 safety check before risky ops\n  \u2022 `kuma_safety({ action: \"verify\", scope: \"<area>\" })` \u2014 verify after edits\n  \u2022 `.kuma/init.md` \u2014 full behavioral rules\n  \u2022 `.kuma/memories/` \u2014 persistent project knowledge",
       "format": "mdc",
@@ -26,15 +35,6 @@
     "stars": 131,
     "updated_at": "2026-08-07T01:16:45Z",
     "url": "https://github.com/danielvm-git/bigpowers"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-08-07T01:15:56Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -218,7 +218,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 18908,
+    "stars": 18913,
     "updated_at": "2026-08-06T07:09:51Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
