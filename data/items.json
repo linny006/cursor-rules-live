@@ -1,11 +1,29 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-08-07T10:42:27Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
+    "id": "philipbankier/awesome-agent-skills",
+    "language": "TypeScript",
+    "name": "philipbankier/awesome-agent-skills",
+    "stars": 14,
+    "updated_at": "2026-08-07T10:33:04Z",
+    "url": "https://github.com/philipbankier/awesome-agent-skills"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-07T10:26:22Z",
+    "updated_at": "2026-08-07T10:30:33Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -27,13 +45,13 @@
     "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
   },
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
+    "description": "A collection of practical skills you can drop into whichever AI tool you already use",
+    "id": "SriharshaCR/open-skills",
+    "language": "\u2014",
+    "name": "SriharshaCR/open-skills",
     "stars": 1,
-    "updated_at": "2026-08-07T09:51:30Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+    "updated_at": "2026-08-07T09:52:48Z",
+    "url": "https://github.com/SriharshaCR/open-skills"
   },
   {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
@@ -244,15 +262,6 @@
     "stars": 51,
     "updated_at": "2026-08-06T13:11:38Z",
     "url": "https://github.com/jcottam/agent-resources"
-  },
-  {
-    "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
-    "id": "philipbankier/awesome-agent-skills",
-    "language": "TypeScript",
-    "name": "philipbankier/awesome-agent-skills",
-    "stars": 14,
-    "updated_at": "2026-08-06T11:28:03Z",
-    "url": "https://github.com/philipbankier/awesome-agent-skills"
   },
   {
     "description": "OVP: the open visualization protocol for describing, validating, and rendering information design identically, for human",
@@ -509,14 +518,5 @@
     "stars": 16,
     "updated_at": "2026-08-03T13:16:57Z",
     "url": "https://github.com/mikeprasad/aria-knowledge"
-  },
-  {
-    "description": "\ud83d\ude80 Universal, token-optimized Cursor AI Agent rules (.mdc) for enterprise Clean Architecture backends and modern componen",
-    "id": "goldhoang/elite-cursor-agent-rules",
-    "language": "\u2014",
-    "name": "goldhoang/elite-cursor-agent-rules",
-    "stars": 1,
-    "updated_at": "2026-08-03T10:11:30Z",
-    "url": "https://github.com/goldhoang/elite-cursor-agent-rules"
   }
 ]
