@@ -1,12 +1,12 @@
 [
   {
-    "description": "AI agent skill for technical docs \u2014 Diataxis + 27 rules, 6 style guides (Google, Good Docs). Works with Claude Code, Cur",
-    "id": "anivar/developer-docs-framework",
-    "language": "\u2014",
-    "name": "anivar/developer-docs-framework",
-    "stars": 7,
-    "updated_at": "2026-08-08T11:40:20Z",
-    "url": "https://github.com/anivar/developer-docs-framework"
+    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 118,
+    "updated_at": "2026-08-08T11:45:06Z",
+    "url": "https://github.com/KbWen/agentic-os"
   },
   {
     "description": "AI agent skill for Zod v4 \u2014 27 rules: schema design, parsing, error handling, type inference. Works with Claude Code, Cu",
@@ -14,8 +14,26 @@
     "language": "\u2014",
     "name": "anivar/zod-skill",
     "stars": 20,
-    "updated_at": "2026-08-08T11:40:16Z",
+    "updated_at": "2026-08-08T11:45:02Z",
     "url": "https://github.com/anivar/zod-skill"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-08-08T11:43:11Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "AI agent skill for technical docs \u2014 Diataxis + 27 rules, 6 style guides (Google, Good Docs). Works with Claude Code, Cur",
+    "id": "anivar/developer-docs-framework",
+    "language": "\u2014",
+    "name": "anivar/developer-docs-framework",
+    "stars": 7,
+    "updated_at": "2026-08-08T11:40:20Z",
+    "url": "https://github.com/anivar/developer-docs-framework"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -34,24 +52,6 @@
     "stars": 0,
     "updated_at": "2026-08-08T11:33:13Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-08-08T11:30:28Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
-    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
-    "id": "KbWen/agentic-os",
-    "language": "Python",
-    "name": "KbWen/agentic-os",
-    "stars": 118,
-    "updated_at": "2026-08-08T11:22:51Z",
-    "url": "https://github.com/KbWen/agentic-os"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
