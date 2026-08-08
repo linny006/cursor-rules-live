@@ -1,11 +1,47 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-08-08T18:22:40Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "AI agent skill for Redux-Saga \u2014 25 rules: effects, fork model, channels, RTK integration. Works with Claude Code, Cursor",
+    "id": "anivar/redux-saga-skill",
+    "language": "\u2014",
+    "name": "anivar/redux-saga-skill",
+    "stars": 2,
+    "updated_at": "2026-08-08T18:18:26Z",
+    "url": "https://github.com/anivar/redux-saga-skill"
+  },
+  {
+    "description": "AI agent skill for MSW 2.0 \u2014 20 rules: handler design, REST/GraphQL, test patterns. Works with Claude Code, Cursor, Code",
+    "id": "anivar/msw-skill",
+    "language": "\u2014",
+    "name": "anivar/msw-skill",
+    "stars": 1,
+    "updated_at": "2026-08-08T18:18:13Z",
+    "url": "https://github.com/anivar/msw-skill"
+  },
+  {
+    "description": "AI agent skill for Jest 29/30 \u2014 28 rules: mocks, async, timers, snapshots, CI. Works with Claude Code, Cursor, Codex, Wi",
+    "id": "anivar/jest-skill",
+    "language": "\u2014",
+    "name": "anivar/jest-skill",
+    "stars": 6,
+    "updated_at": "2026-08-08T18:18:03Z",
+    "url": "https://github.com/anivar/jest-skill"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-08T18:00:36Z",
+    "updated_at": "2026-08-08T18:15:29Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -48,42 +84,6 @@
     "stars": 3,
     "updated_at": "2026-08-08T17:20:56Z",
     "url": "https://github.com/apervashov/typescript-learning-assistant"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-08-08T17:20:33Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "AI agent skill for Jest 29/30 \u2014 28 rules: mocks, async, timers, snapshots, CI. Works with Claude Code, Cursor, Codex, Wi",
-    "id": "anivar/jest-skill",
-    "language": "\u2014",
-    "name": "anivar/jest-skill",
-    "stars": 6,
-    "updated_at": "2026-08-08T17:17:11Z",
-    "url": "https://github.com/anivar/jest-skill"
-  },
-  {
-    "description": "AI agent skill for Redux-Saga \u2014 25 rules: effects, fork model, channels, RTK integration. Works with Claude Code, Cursor",
-    "id": "anivar/redux-saga-skill",
-    "language": "\u2014",
-    "name": "anivar/redux-saga-skill",
-    "stars": 2,
-    "updated_at": "2026-08-08T17:07:06Z",
-    "url": "https://github.com/anivar/redux-saga-skill"
-  },
-  {
-    "description": "AI agent skill for MSW 2.0 \u2014 20 rules: handler design, REST/GraphQL, test patterns. Works with Claude Code, Cursor, Code",
-    "id": "anivar/msw-skill",
-    "language": "\u2014",
-    "name": "anivar/msw-skill",
-    "stars": 1,
-    "updated_at": "2026-08-08T17:03:36Z",
-    "url": "https://github.com/anivar/msw-skill"
   },
   {
     "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
@@ -268,7 +268,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 98717,
+    "stars": 98721,
     "updated_at": "2026-08-07T21:44:01Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -441,7 +441,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 19004,
+    "stars": 19005,
     "updated_at": "2026-08-06T07:09:51Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
