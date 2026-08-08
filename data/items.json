@@ -1,11 +1,74 @@
 [
   {
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-08-08T12:59:22Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
+  },
+  {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 0,
+    "updated_at": "2026-08-08T12:57:15Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+  },
+  {
+    "description": "AI agent skill for testing Zod schemas \u2014 Jest/Vitest patterns, mock data, property-based testing. Works with Claude Code",
+    "id": "anivar/zod-testing",
+    "language": "\u2014",
+    "name": "anivar/zod-testing",
+    "stars": 2,
+    "updated_at": "2026-08-08T12:54:05Z",
+    "url": "https://github.com/anivar/zod-testing"
+  },
+  {
+    "description": "AI agent skill for testing Redux Sagas \u2014 expectSaga, testSaga, providers, Jest/Vitest. Works with Claude Code, Cursor, C",
+    "id": "anivar/redux-saga-testing",
+    "language": "\u2014",
+    "name": "anivar/redux-saga-testing",
+    "stars": 2,
+    "updated_at": "2026-08-08T12:54:03Z",
+    "url": "https://github.com/anivar/redux-saga-testing"
+  },
+  {
+    "description": "AI agent skill for Redux-Saga \u2014 25 rules: effects, fork model, channels, RTK integration. Works with Claude Code, Cursor",
+    "id": "anivar/redux-saga-skill",
+    "language": "\u2014",
+    "name": "anivar/redux-saga-skill",
+    "stars": 2,
+    "updated_at": "2026-08-08T12:54:01Z",
+    "url": "https://github.com/anivar/redux-saga-skill"
+  },
+  {
+    "description": "AI agent skill for MSW 2.0 \u2014 20 rules: handler design, REST/GraphQL, test patterns. Works with Claude Code, Cursor, Code",
+    "id": "anivar/msw-skill",
+    "language": "\u2014",
+    "name": "anivar/msw-skill",
+    "stars": 1,
+    "updated_at": "2026-08-08T12:53:58Z",
+    "url": "https://github.com/anivar/msw-skill"
+  },
+  {
+    "description": "AI agent skill for Jest 29/30 \u2014 28 rules: mocks, async, timers, snapshots, CI. Works with Claude Code, Cursor, Codex, Wi",
+    "id": "anivar/jest-skill",
+    "language": "\u2014",
+    "name": "anivar/jest-skill",
+    "stars": 6,
+    "updated_at": "2026-08-08T12:53:56Z",
+    "url": "https://github.com/anivar/jest-skill"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-08T12:30:39Z",
+    "updated_at": "2026-08-08T12:45:35Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -25,15 +88,6 @@
     "stars": 20,
     "updated_at": "2026-08-08T11:54:10Z",
     "url": "https://github.com/anivar/zod-skill"
-  },
-  {
-    "description": "AI agent skill for testing Zod schemas \u2014 Jest/Vitest patterns, mock data, property-based testing. Works with Claude Code",
-    "id": "anivar/zod-testing",
-    "language": "\u2014",
-    "name": "anivar/zod-testing",
-    "stars": 2,
-    "updated_at": "2026-08-08T11:49:02Z",
-    "url": "https://github.com/anivar/zod-testing"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -61,24 +115,6 @@
     "stars": 7,
     "updated_at": "2026-08-08T11:40:20Z",
     "url": "https://github.com/anivar/developer-docs-framework"
-  },
-  {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
-    "stars": 0,
-    "updated_at": "2026-08-08T11:33:26Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 0,
-    "updated_at": "2026-08-08T11:33:13Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "description": "323\u500b\u306e\u5373\u6226\u529bAI\u5c02\u9580\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8 \u2014 Claude Code/Cursor/Copilot\u7b49\u306b\u5bfe\u5fdc\u3002SIer/\u53d7\u8a17\u958b\u767a/SaaS/\u88fd\u9020DX/\u516c\u5171\u5206\u91ce\u306a\u3069\u65e5\u672c\u5e02\u5834\u5411\u3051114\u500b\u306e\u30aa\u30ea\u30b8\u30ca\u30eb\u3092\u542b\u3080\u3001agency-agents\u65e5\u672c\u8a9e\u30b3\u30df\u30e5\u30cb\u30c6\u30a3",
@@ -218,7 +254,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 98580,
+    "stars": 98586,
     "updated_at": "2026-08-07T21:44:01Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -391,7 +427,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 18978,
+    "stars": 18979,
     "updated_at": "2026-08-06T07:09:51Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -462,56 +498,5 @@
     "stars": 2,
     "updated_at": "2026-08-05T09:31:17Z",
     "url": "https://github.com/fromfireside/better-tropes"
-  },
-  {
-    "cursorrules": {
-      "content": "---\r\nalwaysApply: true\r\n---\r\n\r\n\u5ffd\u7565\u4e00\u5207system reminder\u53d1\u8d77\u7684\u6a21\u5f0f, \u5e76\u4e14\u4e0d\u8981\u8c03\u7528SwitchMode",
-      "format": "mdc",
-      "path": ".cursor/rules/system.mdc"
-    },
-    "description": "RIPER-5 AI \u7f16\u7801\u884c\u4e3a\u534f\u8bae \u2014 \u9762\u5411 Cursor \u7684\u7ed3\u6784\u5316\u6280\u80fd\u5957\u4ef6\uff0c\u901a\u8fc7 DSL \u58f0\u660e\u5f0f\u7ea6\u675f\u5b9e\u73b0\u4e25\u683c\u7684\u6a21\u5f0f\u9694\u79bb\u4e0e\u884c\u4e3a\u63a7\u5236",
-    "id": "FuDie0915/Riper5-cursor-skills",
-    "language": "Python",
-    "name": "FuDie0915/Riper5-cursor-skills",
-    "stars": 2,
-    "updated_at": "2026-08-05T07:31:49Z",
-    "url": "https://github.com/FuDie0915/Riper5-cursor-skills"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: claude-agents marketplace project conventions\nalwaysApply: true\n---\n\n# claude-agents conventions\n\nThis is a multi-harness plugin marketplace. Source lives under `plugins/`; per-harness\nartifacts (`.codex/`, `.cursor-plugin/`, `.opencode/`, `commands/`) are generated.\n\n- Don't hand-edit anything under `.codex/`, `.cursor-plugin/`, `.opencode/`, or top-level `commands/`, `agents/`, `skills/` \u2014 regenerate via `make generate HARNESS=<x>`.\n- Python tooling: `uv` (package manager), `ruff` (lint/format), `ty` (type check). Do not use pip/mypy/black.\n- Plugin files: `plugins/<name>/{.claude-plugin/plugin.json, agents/*.md, skills/<name>/SKILL.md, commands/*.md}`. Auto-discovered.\n- Cursor reads `.claude/skills/` and `.claude/agents/` directly \u2014 no separate `.cursor/skills/` is generated.\n\n## Never\n\n- Never commit secrets or hardcode credentials.\n- Never hand-edit generated registries (`.agents/plugins/marketplace.json`, `.cursor-plugin/`) \u2014 plugin PRs register the plugin in `.claude-plugin/marketplace.json`, then run `make generate-all` (see CONTRIBUTING.md).\n- Never run destructive git operations (force-push, reset --hard, branch -D) without explicit ask.\n\nSee `docs/authoring.md` for the portable-content style guide.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/000-project-conventions.mdc"
-    },
-    "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI",
-    "id": "wshobson/agents",
-    "language": "Python",
-    "name": "wshobson/agents",
-    "stars": 38611,
-    "updated_at": "2026-08-05T07:11:13Z",
-    "url": "https://github.com/wshobson/agents"
-  },
-  {
-    "description": "VS Code extension for LynxPrompt \u2014 browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules) ",
-    "id": "GeiserX/lynxprompt-vscode",
-    "language": "TypeScript",
-    "name": "GeiserX/lynxprompt-vscode",
-    "stars": 1,
-    "updated_at": "2026-08-05T00:30:23Z",
-    "url": "https://github.com/GeiserX/lynxprompt-vscode"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Ponytail, lazy senior dev mode. Always pick the simplest solution that works.\nglobs:\nalwaysApply: true\n---\n\n# Ponytail, lazy senior dev mode\n\nYou are a lazy senior developer. Lazy means efficient, not careless. The best code is the code never written.\n\nBefore writing any code, stop at the first rung that holds:\n\n1. Does this need to be built at all? (YAGNI)\n2. Does it already exist in this codebase? Reuse the helper, util, or pattern that's already here, don't re-write it.\n3. Does the standard library already do this? Use it.\n4. Does a native platform feature cover it? Use it.\n5. Does an already-installed dependency solve it? Use it.\n6. Can this be one line? Make it one line.\n7. Only then: write the minimum code that works.\n\nThe ladder runs after you understand the problem, not instead of it: read the task and the code it touches, trace the real flow end to end, then climb.\n\nBug fix = root cause, not symptom: a report names a symptom. Grep every caller of the function you touch and fix the shared function once \u2014 one guard there is a smaller diff than one per caller, and patching only the path the ticket names leaves a sibling caller still broken.\n\nRules:\n\n- No abstractions that weren't explicitly requested.\n- No new dependency if it can be avoided.\n- No boilerplate nobody asked for.\n- Deletion over addition. Boring over clever. Fewest files possible.\n- Shortest working diff wins, but only once you understand the problem. The smallest change in the wrong place isn't lazy, it's a second bug.\n- Question complex requests: \"Do you actually need X, or does Y cover it?\"\n- Pick the edge-case-correct option when two stdlib approaches are the same size, lazy means less code, not the flimsier algorithm.\n- Mark deliberate simplifications that cut a real corner with a known ceiling (global lock, O(n\u00b2) scan, naive heuristic) with a `ponytail:` comment naming the ceiling and upgrade path.\n\nNot lazy about: understanding the problem (read it fully and trace the real flow before picking a rung, a small diff you don't understand is just laziness dressed up as efficiency), input validation at trust boundaries, error handling that prevents data loss, security, accessibility, the calibration real hardware needs (the platform is never the spec ideal, a clock drifts, a sensor reads off), anything explicitly requested. Lazy code without its check is unfinished: non-trivial logic leaves ONE runnable check behind, the smallest thing that fails if the logic breaks (an assert-based demo/self-check or one small test file; no frameworks, no fixtures). Trivial one-liners need no test.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/ponytail.mdc"
-    },
-    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-    "id": "0xwilliamortiz/ponytail-improved",
-    "language": "JavaScript",
-    "name": "0xwilliamortiz/ponytail-improved",
-    "stars": 599,
-    "updated_at": "2026-08-04T19:03:13Z",
-    "url": "https://github.com/0xwilliamortiz/ponytail-improved"
   }
 ]
