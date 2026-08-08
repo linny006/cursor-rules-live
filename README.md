@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-08-08 06:08 UTC
+> ⏰ Last updated: 2026-08-08 06:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -64,7 +64,7 @@ expired items removed — so you can rely on what you see being current.
 | 9 | [sublimecoder/sublimecoding](https://github.com/sublimecoder/sublimecoding) | 0 | — | 2026-08-08 | — | 🛠️ Free Claude Code & Cursor prompts for senior engineers — plus AIOS, an open-source markdown memory system for coding  |
 | 10 | [MicSm/boffin](https://github.com/MicSm/boffin) | 37 | JavaScript | 2026-08-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/MicSm/boffin/) | Staff-engineer layer for AI coding agents: routes per-edit architectural constraints and requires verification. Not anot |
 | 11 | [baneeishaque/ai-agent-rules](https://github.com/baneeishaque/ai-agent-rules) | 8 | TypeScript | 2026-08-07 | — |  |
-| 12 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 98399 | JavaScript | 2026-08-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 12 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 98401 | JavaScript | 2026-08-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 13 | [almandas-labs/cursor-rules-doctor](https://github.com/almandas-labs/cursor-rules-doctor) | 0 | JavaScript | 2026-08-07 | — | Audit Cursor .mdc rules for parse errors, scope mistakes, and silent loading risks — free zero-dependency CLI. |
 | 14 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 135 | Shell | 2026-08-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | Agent skills synthesizing years of software engineering discipline into a prescriptive methodology for solo developers |
 | 15 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-08-07 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
@@ -85,7 +85,7 @@ expired items removed — so you can rely on what you see being current.
 | 30 | [sscodeai/agency-agents-ja](https://github.com/sscodeai/agency-agents-ja) | 4 | Shell | 2026-08-06 | — | 323個の即戦力AI専門エージェント — Claude Code/Cursor/Copilot等に対応。SIer/受託開発/SaaS/製造DX/公共分野など日本市場向け114個のオリジナルを含む、agency-agents日本語コミュニティ |
 | 31 | [jcottam/agent-resources](https://github.com/jcottam/agent-resources) | 51 | Shell | 2026-08-06 | — | Battle-tested agent skills and Cursor rules from real projects. Works with Cursor, Claude Code, and any agent. |
 | 32 | [babarda/open-visualization-protocol](https://github.com/babarda/open-visualization-protocol) | 3 | HTML | 2026-08-06 | — | OVP: the open visualization protocol for describing, validating, and rendering information design identically, for human |
-| 33 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 18966 | Shell | 2026-08-06 | — | 🎭 267 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 52 个中国市场原创智能体（小红书/抖音/ |
+| 33 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 18967 | Shell | 2026-08-06 | — | 🎭 267 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 52 个中国市场原创智能体（小红书/抖音/ |
 | 34 | [Hyanthropological659/clarify-skill](https://github.com/Hyanthropological659/clarify-skill) | 0 | — | 2026-08-06 | — | Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a |
 | 35 | [Overseastelegramaliterateperson865/awesome-claude-md](https://github.com/Overseastelegramaliterateperson865/awesome-claude-md) | 2 | — | 2026-08-06 | — | Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr |
 | 36 | [Luxvil/ai-coding-rules](https://github.com/Luxvil/ai-coding-rules) | 3 | Shell | 2026-08-06 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Luxvil/ai-coding-rules/) | 🤖 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje |
@@ -95,7 +95,7 @@ expired items removed — so you can rely on what you see being current.
 | 40 | [sungurerdim/dev-skills](https://github.com/sungurerdim/dev-skills) | 1 | HTML | 2026-08-05 | — | 30 multi-phase AI coding skills with executable gates — pure markdown, zero dependencies. |
 | 41 | [fromfireside/better-tropes](https://github.com/fromfireside/better-tropes) | 2 | — | 2026-08-05 | — | A catalogue of 49 AI writing tells, each with a plain rewrite, shared by Fireside. Drop it into a system prompt to stop  |
 | 42 | [FuDie0915/Riper5-cursor-skills](https://github.com/FuDie0915/Riper5-cursor-skills) | 1 | Python | 2026-08-05 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/FuDie0915/Riper5-cursor-skills/) | RIPER-5 AI 编码行为协议 — 面向 Cursor 的结构化技能套件，通过 DSL 声明式约束实现严格的模式隔离与行为控制 |
-| 43 | [wshobson/agents](https://github.com/wshobson/agents) | 38605 | Python | 2026-08-05 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI |
+| 43 | [wshobson/agents](https://github.com/wshobson/agents) | 38607 | Python | 2026-08-05 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI |
 | 44 | [GeiserX/lynxprompt-vscode](https://github.com/GeiserX/lynxprompt-vscode) | 1 | TypeScript | 2026-08-05 | — | VS Code extension for LynxPrompt — browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules)  |
 | 45 | [0xwilliamortiz/ponytail-improved](https://github.com/0xwilliamortiz/ponytail-improved) | 599 | JavaScript | 2026-08-04 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/0xwilliamortiz/ponytail-improved/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 46 | [apervashov/typescript-learning-assistant](https://github.com/apervashov/typescript-learning-assistant) | 3 | HTML | 2026-08-04 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/apervashov/typescript-learning-assistant/) | Learn TypeScript with Handbook-aligned exercises, a local progress tracker, and AI mentor rules that give hints — not sp |
