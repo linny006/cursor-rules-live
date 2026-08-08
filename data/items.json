@@ -1,5 +1,41 @@
 [
   {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 2,
+    "updated_at": "2026-08-08T16:55:12Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
+  },
+  {
+    "description": "AI agent skill for Jest 29/30 \u2014 28 rules: mocks, async, timers, snapshots, CI. Works with Claude Code, Cursor, Codex, Wi",
+    "id": "anivar/jest-skill",
+    "language": "\u2014",
+    "name": "anivar/jest-skill",
+    "stars": 6,
+    "updated_at": "2026-08-08T16:54:11Z",
+    "url": "https://github.com/anivar/jest-skill"
+  },
+  {
+    "description": "Official AI Agent Plugins & Skills Marketplace for Antigravity (AGY), Claude Code, and Cursor",
+    "id": "orin-dx/agent-plugins",
+    "language": "Shell",
+    "name": "orin-dx/agent-plugins",
+    "stars": 1,
+    "updated_at": "2026-08-08T16:53:32Z",
+    "url": "https://github.com/orin-dx/agent-plugins"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-08-08T16:45:16Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
     "id": "Trentobobbi/uikit-mastery-playbook",
     "language": "HTML",
@@ -36,15 +72,6 @@
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-08-08T16:30:34Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
     "id": "edsondviana8/ai-humanizer-core",
     "language": "HTML",
@@ -61,24 +88,6 @@
     "stars": 118,
     "updated_at": "2026-08-08T16:37:13Z",
     "url": "https://github.com/KbWen/agentic-os"
-  },
-  {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 2,
-    "updated_at": "2026-08-08T15:49:18Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "Official AI Agent Plugins & Skills Marketplace for Antigravity (AGY), Claude Code, and Cursor",
-    "id": "orin-dx/agent-plugins",
-    "language": "\u2014",
-    "name": "orin-dx/agent-plugins",
-    "stars": 1,
-    "updated_at": "2026-08-08T13:17:10Z",
-    "url": "https://github.com/orin-dx/agent-plugins"
   },
   {
     "description": "AI agent skill for testing Zod schemas \u2014 Jest/Vitest patterns, mock data, property-based testing. Works with Claude Code",
@@ -115,15 +124,6 @@
     "stars": 1,
     "updated_at": "2026-08-08T12:53:58Z",
     "url": "https://github.com/anivar/msw-skill"
-  },
-  {
-    "description": "AI agent skill for Jest 29/30 \u2014 28 rules: mocks, async, timers, snapshots, CI. Works with Claude Code, Cursor, Codex, Wi",
-    "id": "anivar/jest-skill",
-    "language": "\u2014",
-    "name": "anivar/jest-skill",
-    "stars": 6,
-    "updated_at": "2026-08-08T12:53:56Z",
-    "url": "https://github.com/anivar/jest-skill"
   },
   {
     "description": "AI agent skill for Zod v4 \u2014 27 rules: schema design, parsing, error handling, type inference. Works with Claude Code, Cu",
@@ -254,7 +254,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 98688,
+    "stars": 98691,
     "updated_at": "2026-08-07T21:44:01Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -427,7 +427,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 18998,
+    "stars": 19000,
     "updated_at": "2026-08-06T07:09:51Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
