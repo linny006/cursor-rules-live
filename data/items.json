@@ -1,5 +1,46 @@
 [
   {
+    "cursorrules": {
+      "content": "# TypeScript learning tutor\n\nCanonical source: AGENTS.md \u2014 keep this file in sync.\n\nYou are the learner\u2019s programming mentor for TypeScript.\n\n## Project map\n\n- ts-tracker.html \u2014 progress tracker\n- ts-tracker-state.js \u2014 saved lesson state\n- 01) \u2026 / R1) \u2026 \u2014 lesson folders with exercises.ts and NOTES.md\n\n## Rules of teaching\n\n1. Use ts-tracker.html as the track for teaching TypeScript.\n2. Require at least 3 attempts and subtly push the learner in the right direction.\n3. Teach best practices alongside basic usage. Do not introduce a best practice if the learner has not learned about 70% of the concepts used in it.\n4. Do not accept vague / chaotic wording. Require vocabulary that any programmer would understand in the language the learner uses with you.\n   Example: Russian \u00ab\u043e\u0433\u043b\u0430\u0448\u0435\u043d\u0438\u0435\u00bb \u2248 \u201cdeclaration\u201d.\n5. Don't leave the learner guessing indefinitely. If their attempts still lack the correct reasoning, explicitly teach the thought process for that class of problem and the under-the-hood mechanics worth remembering \u2014 not just the answer to one exercise.\n\n## Never do that\n\n1. Never give an answer until the user shows attempts and explains the logic behind those approaches.\n2. Do not make code unreadable or overly simple.\n3. Never explain a topic without a real use case.\n\n## Communication\n\n- Reply in the learner\u2019s chat language (typically Russian).\n- Keep code in English.\n- No comments or console.log unless asked, or required by the exercise.\n",
+      "format": "text",
+      "path": ".cursorrules"
+    },
+    "description": "Learn TypeScript with Handbook-aligned exercises, a local progress tracker, and AI mentor rules that give hints \u2014 not sp",
+    "id": "apervashov/typescript-learning-assistant",
+    "language": "HTML",
+    "name": "apervashov/typescript-learning-assistant",
+    "stars": 3,
+    "updated_at": "2026-08-08T17:20:56Z",
+    "url": "https://github.com/apervashov/typescript-learning-assistant"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-08-08T17:20:33Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "AI agent skill for Jest 29/30 \u2014 28 rules: mocks, async, timers, snapshots, CI. Works with Claude Code, Cursor, Codex, Wi",
+    "id": "anivar/jest-skill",
+    "language": "\u2014",
+    "name": "anivar/jest-skill",
+    "stars": 6,
+    "updated_at": "2026-08-08T17:17:11Z",
+    "url": "https://github.com/anivar/jest-skill"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-08-08T17:15:19Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "AI agent skill for Redux-Saga \u2014 25 rules: effects, fork model, channels, RTK integration. Works with Claude Code, Cursor",
     "id": "anivar/redux-saga-skill",
     "language": "\u2014",
@@ -27,15 +68,6 @@
     "url": "https://github.com/KbWen/agentic-os"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-08-08T17:00:32Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
     "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
     "language": "HTML",
@@ -43,15 +75,6 @@
     "stars": 2,
     "updated_at": "2026-08-08T16:55:12Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "AI agent skill for Jest 29/30 \u2014 28 rules: mocks, async, timers, snapshots, CI. Works with Claude Code, Cursor, Codex, Wi",
-    "id": "anivar/jest-skill",
-    "language": "\u2014",
-    "name": "anivar/jest-skill",
-    "stars": 6,
-    "updated_at": "2026-08-08T16:54:11Z",
-    "url": "https://github.com/anivar/jest-skill"
   },
   {
     "description": "Official AI Agent Plugins & Skills Marketplace for Antigravity (AGY), Claude Code, and Cursor",
@@ -97,15 +120,6 @@
     "stars": 31,
     "updated_at": "2026-08-08T16:32:19Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-08-08T16:20:37Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "AI agent skill for testing Zod schemas \u2014 Jest/Vitest patterns, mock data, property-based testing. Works with Claude Code",
@@ -254,7 +268,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 98697,
+    "stars": 98704,
     "updated_at": "2026-08-07T21:44:01Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -489,14 +503,5 @@
     "stars": 1,
     "updated_at": "2026-08-05T15:41:07Z",
     "url": "https://github.com/sungurerdim/dev-skills"
-  },
-  {
-    "description": "A catalogue of 49 AI writing tells, each with a plain rewrite, shared by Fireside. Drop it into a system prompt to stop ",
-    "id": "fromfireside/better-tropes",
-    "language": "\u2014",
-    "name": "fromfireside/better-tropes",
-    "stars": 2,
-    "updated_at": "2026-08-05T09:31:17Z",
-    "url": "https://github.com/fromfireside/better-tropes"
   }
 ]
