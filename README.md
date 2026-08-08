@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-08-08 13:45 UTC
+> ⏰ Last updated: 2026-08-08 14:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,19 +53,19 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-08-08 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 1 | HTML | 2026-08-08 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 3 | [orin-dx/agent-plugins](https://github.com/orin-dx/agent-plugins) | 1 | — | 2026-08-08 | — | Official AI Agent Plugins & Skills Marketplace for Antigravity (AGY), Claude Code, and Cursor |
-| 4 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 2 | HTML | 2026-08-08 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 5 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-08-08 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
-| 6 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-08-08 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
-| 7 | [anivar/zod-testing](https://github.com/anivar/zod-testing) | 2 | — | 2026-08-08 | — | AI agent skill for testing Zod schemas — Jest/Vitest patterns, mock data, property-based testing. Works with Claude Code |
-| 8 | [anivar/redux-saga-testing](https://github.com/anivar/redux-saga-testing) | 2 | — | 2026-08-08 | — | AI agent skill for testing Redux Sagas — expectSaga, testSaga, providers, Jest/Vitest. Works with Claude Code, Cursor, C |
-| 9 | [anivar/redux-saga-skill](https://github.com/anivar/redux-saga-skill) | 2 | — | 2026-08-08 | — | AI agent skill for Redux-Saga — 25 rules: effects, fork model, channels, RTK integration. Works with Claude Code, Cursor |
-| 10 | [anivar/msw-skill](https://github.com/anivar/msw-skill) | 1 | — | 2026-08-08 | — | AI agent skill for MSW 2.0 — 20 rules: handler design, REST/GraphQL, test patterns. Works with Claude Code, Cursor, Code |
-| 11 | [anivar/jest-skill](https://github.com/anivar/jest-skill) | 6 | — | 2026-08-08 | — | AI agent skill for Jest 29/30 — 28 rules: mocks, async, timers, snapshots, CI. Works with Claude Code, Cursor, Codex, Wi |
-| 12 | [anivar/zod-skill](https://github.com/anivar/zod-skill) | 20 | — | 2026-08-08 | — | AI agent skill for Zod v4 — 27 rules: schema design, parsing, error handling, type inference. Works with Claude Code, Cu |
-| 13 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 118 | Python | 2026-08-08 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
+| 1 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 118 | Python | 2026-08-08 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
+| 2 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-08-08 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
+| 3 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-08-08 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
+| 4 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 1 | HTML | 2026-08-08 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 5 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-08-08 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
+| 6 | [orin-dx/agent-plugins](https://github.com/orin-dx/agent-plugins) | 1 | — | 2026-08-08 | — | Official AI Agent Plugins & Skills Marketplace for Antigravity (AGY), Claude Code, and Cursor |
+| 7 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 2 | HTML | 2026-08-08 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
+| 8 | [anivar/zod-testing](https://github.com/anivar/zod-testing) | 2 | — | 2026-08-08 | — | AI agent skill for testing Zod schemas — Jest/Vitest patterns, mock data, property-based testing. Works with Claude Code |
+| 9 | [anivar/redux-saga-testing](https://github.com/anivar/redux-saga-testing) | 2 | — | 2026-08-08 | — | AI agent skill for testing Redux Sagas — expectSaga, testSaga, providers, Jest/Vitest. Works with Claude Code, Cursor, C |
+| 10 | [anivar/redux-saga-skill](https://github.com/anivar/redux-saga-skill) | 2 | — | 2026-08-08 | — | AI agent skill for Redux-Saga — 25 rules: effects, fork model, channels, RTK integration. Works with Claude Code, Cursor |
+| 11 | [anivar/msw-skill](https://github.com/anivar/msw-skill) | 1 | — | 2026-08-08 | — | AI agent skill for MSW 2.0 — 20 rules: handler design, REST/GraphQL, test patterns. Works with Claude Code, Cursor, Code |
+| 12 | [anivar/jest-skill](https://github.com/anivar/jest-skill) | 6 | — | 2026-08-08 | — | AI agent skill for Jest 29/30 — 28 rules: mocks, async, timers, snapshots, CI. Works with Claude Code, Cursor, Codex, Wi |
+| 13 | [anivar/zod-skill](https://github.com/anivar/zod-skill) | 20 | — | 2026-08-08 | — | AI agent skill for Zod v4 — 27 rules: schema design, parsing, error handling, type inference. Works with Claude Code, Cu |
 | 14 | [anivar/developer-docs-framework](https://github.com/anivar/developer-docs-framework) | 7 | — | 2026-08-08 | — | AI agent skill for technical docs — Diataxis + 27 rules, 6 style guides (Google, Good Docs). Works with Claude Code, Cur |
 | 15 | [sscodeai/agency-agents-ja](https://github.com/sscodeai/agency-agents-ja) | 4 | Shell | 2026-08-08 | — | 323個の即戦力AI専門エージェント — Claude Code/Cursor/Copilot等に対応。SIer/受託開発/SaaS/製造DX/公共分野など日本市場向け114個のオリジナルを含む、agency-agents日本語コミュニティ |
 | 16 | [YuliaNuzhnenko/bioinformatics-agent-skills](https://github.com/YuliaNuzhnenko/bioinformatics-agent-skills) | 1 | Python | 2026-08-08 | — | The #1 open-source collection of scientific AI Agent Skills, tool specifications, and prompt protocols for Bioinformatic |
@@ -78,7 +78,7 @@ expired items removed — so you can rely on what you see being current.
 | 23 | [sublimecoder/sublimecoding](https://github.com/sublimecoder/sublimecoding) | 0 | — | 2026-08-08 | — | 🛠️ Free Claude Code & Cursor prompts for senior engineers — plus AIOS, an open-source markdown memory system for coding  |
 | 24 | [MicSm/boffin](https://github.com/MicSm/boffin) | 37 | JavaScript | 2026-08-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/MicSm/boffin/) | Staff-engineer layer for AI coding agents: routes per-edit architectural constraints and requires verification. Not anot |
 | 25 | [baneeishaque/ai-agent-rules](https://github.com/baneeishaque/ai-agent-rules) | 8 | TypeScript | 2026-08-08 | — |  |
-| 26 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 98610 | JavaScript | 2026-08-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 26 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 98618 | JavaScript | 2026-08-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 27 | [almandas-labs/cursor-rules-doctor](https://github.com/almandas-labs/cursor-rules-doctor) | 0 | JavaScript | 2026-08-07 | — | Audit Cursor .mdc rules for parse errors, scope mistakes, and silent loading risks — free zero-dependency CLI. |
 | 28 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 134 | Shell | 2026-08-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | Agent skills synthesizing years of software engineering discipline into a prescriptive methodology for solo developers |
 | 29 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-08-07 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
