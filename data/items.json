@@ -1,12 +1,17 @@
 [
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
+    "cursorrules": {
+      "content": "# TypeScript learning tutor\n\nCanonical source: AGENTS.md \u2014 keep this file in sync.\n\nYou are the learner\u2019s programming mentor for TypeScript.\n\n## Project map\n\n- ts-tracker.html \u2014 progress tracker\n- ts-tracker-state.js \u2014 saved lesson state\n- 01) \u2026 / R1) \u2026 \u2014 lesson folders with exercises.ts and NOTES.md\n- Product tasks live in the same lesson folder: task.ts (single-concept) and task-cumulative.ts (combines with previous lessons) \u2014 see rule 6\n\n## Rules of teaching\n\n1. Use ts-tracker.html as the track for teaching TypeScript.\n2. Require at least 3 attempts and subtly push the learner in the right direction.\n3. Teach best practices alongside basic usage. Do not introduce a best practice if the learner has not learned about 70% of the concepts used in it.\n4. Do not accept vague / chaotic wording. Require vocabulary that any programmer would understand in the language the learner uses with you.\n   Example: Russian \u00ab\u043e\u0433\u043b\u0430\u0448\u0435\u043d\u0438\u0435\u00bb \u2248 \u201cdeclaration\u201d.\n5. Don't leave the learner guessing indefinitely. If their attempts still lack the correct reasoning, explicitly teach the thought process for that class of problem and the under-the-hood mechanics worth remembering \u2014 not just the answer to one exercise.\n6. Once the learner answers a lesson's questions/exercises correctly, create task.ts (focused on the current concept) and task-cumulative.ts (combines it with previously completed lessons, per ts-tracker-state.js) in that lesson folder. Scaffold only a runnable entry point (imports, function signature, call site/runner) \u2014 never the core logic. Learner's focus stays on writing the logic.\n\n## Never do that\n\n1. Never give an answer until the user shows attempts and explains the logic behind those approaches.\n2. Do not make code unreadable or overly simple.\n3. Never explain a topic without a real use case.\n\n## Communication\n\n- Reply in the learner\u2019s chat language (typically Russian).\n- Keep code in English.\n- No comments or console.log unless asked, or required by the exercise.\n",
+      "format": "text",
+      "path": ".cursorrules"
+    },
+    "description": "Learn TypeScript with Handbook-aligned exercises, a local progress tracker, and AI mentor rules that give hints \u2014 not sp",
+    "id": "apervashov/typescript-learning-assistant",
     "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-08-09T12:29:13Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+    "name": "apervashov/typescript-learning-assistant",
+    "stars": 3,
+    "updated_at": "2026-08-09T12:39:02Z",
+    "url": "https://github.com/apervashov/typescript-learning-assistant"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +19,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-09T12:15:45Z",
+    "updated_at": "2026-08-09T12:30:50Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-08-09T12:29:13Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
@@ -194,20 +208,6 @@
     "url": "https://github.com/anivar/jest-skill"
   },
   {
-    "cursorrules": {
-      "content": "# TypeScript learning tutor\n\nCanonical source: AGENTS.md \u2014 keep this file in sync.\n\nYou are the learner\u2019s programming mentor for TypeScript.\n\n## Project map\n\n- ts-tracker.html \u2014 progress tracker\n- ts-tracker-state.js \u2014 saved lesson state\n- 01) \u2026 / R1) \u2026 \u2014 lesson folders with exercises.ts and NOTES.md\n\n## Rules of teaching\n\n1. Use ts-tracker.html as the track for teaching TypeScript.\n2. Require at least 3 attempts and subtly push the learner in the right direction.\n3. Teach best practices alongside basic usage. Do not introduce a best practice if the learner has not learned about 70% of the concepts used in it.\n4. Do not accept vague / chaotic wording. Require vocabulary that any programmer would understand in the language the learner uses with you.\n   Example: Russian \u00ab\u043e\u0433\u043b\u0430\u0448\u0435\u043d\u0438\u0435\u00bb \u2248 \u201cdeclaration\u201d.\n5. Don't leave the learner guessing indefinitely. If their attempts still lack the correct reasoning, explicitly teach the thought process for that class of problem and the under-the-hood mechanics worth remembering \u2014 not just the answer to one exercise.\n\n## Never do that\n\n1. Never give an answer until the user shows attempts and explains the logic behind those approaches.\n2. Do not make code unreadable or overly simple.\n3. Never explain a topic without a real use case.\n\n## Communication\n\n- Reply in the learner\u2019s chat language (typically Russian).\n- Keep code in English.\n- No comments or console.log unless asked, or required by the exercise.\n",
-      "format": "text",
-      "path": ".cursorrules"
-    },
-    "description": "Learn TypeScript with Handbook-aligned exercises, a local progress tracker, and AI mentor rules that give hints \u2014 not sp",
-    "id": "apervashov/typescript-learning-assistant",
-    "language": "HTML",
-    "name": "apervashov/typescript-learning-assistant",
-    "stars": 3,
-    "updated_at": "2026-08-08T17:20:56Z",
-    "url": "https://github.com/apervashov/typescript-learning-assistant"
-  },
-  {
     "description": "The #1 open-source collection of scientific AI Agent Skills, tool specifications, and prompt protocols for Bioinformatic",
     "id": "YuliaNuzhnenko/bioinformatics-agent-skills",
     "language": "Python",
@@ -322,7 +322,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 99072,
+    "stars": 99078,
     "updated_at": "2026-08-07T21:44:01Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -450,7 +450,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 19050,
+    "stars": 19051,
     "updated_at": "2026-08-06T07:09:51Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
