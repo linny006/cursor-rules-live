@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-08-09 21:00 UTC
+> ⏰ Last updated: 2026-08-09 21:14 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,9 +53,9 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-08-09 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 2 | [jdiazromeral/melon](https://github.com/jdiazromeral/melon) | 0 | — | 2026-08-09 | — | Adversarial first-principles engineering and prompt review protocol based on Elon Musk's 5-step algorithm |
-| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 1 | HTML | 2026-08-09 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 1 | HTML | 2026-08-09 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-08-09 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
+| 3 | [jdiazromeral/melon](https://github.com/jdiazromeral/melon) | 0 | — | 2026-08-09 | — | Adversarial first-principles engineering and prompt review protocol based on Elon Musk's 5-step algorithm |
 | 4 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-08-09 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
 | 5 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-08-09 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
 | 6 | [aaddrick/slushpile](https://github.com/aaddrick/slushpile) | 0 | Python | 2026-08-09 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/aaddrick/slushpile/) | An adversarial job search that gets better as it goes: pool-anchored fit scoring, a resume and cover letter built agains |
@@ -92,7 +92,7 @@ expired items removed — so you can rely on what you see being current.
 | 37 | [juwonllee2024-dotcom/rulesync](https://github.com/juwonllee2024-dotcom/rulesync) | 1 | TypeScript | 2026-08-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/juwonllee2024-dotcom/rulesync/) | The ESLint & Babel for AI Agent Rules — Compile, lint, optimize, and sync instructions across AGENTS.md, CLAUDE.md, .cur |
 | 38 | [MicSm/boffin](https://github.com/MicSm/boffin) | 37 | JavaScript | 2026-08-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/MicSm/boffin/) | Staff-engineer layer for AI coding agents: routes per-edit architectural constraints and requires verification. Not anot |
 | 39 | [baneeishaque/ai-agent-rules](https://github.com/baneeishaque/ai-agent-rules) | 8 | TypeScript | 2026-08-08 | — |  |
-| 40 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 99267 | JavaScript | 2026-08-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 40 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 99268 | JavaScript | 2026-08-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 41 | [almandas-labs/cursor-rules-doctor](https://github.com/almandas-labs/cursor-rules-doctor) | 0 | JavaScript | 2026-08-07 | — | Audit Cursor .mdc rules for parse errors, scope mistakes, and silent loading risks — free zero-dependency CLI. |
 | 42 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 134 | Shell | 2026-08-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | Agent skills synthesizing years of software engineering discipline into a prescriptive methodology for solo developers |
 | 43 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-08-07 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
