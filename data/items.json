@@ -1,11 +1,20 @@
 [
   {
+    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
+    "id": "zinxj/uikit-expert-skill",
+    "language": "\u2014",
+    "name": "zinxj/uikit-expert-skill",
+    "stars": 4,
+    "updated_at": "2026-08-09T23:12:04Z",
+    "url": "https://github.com/zinxj/uikit-expert-skill"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-09T23:00:52Z",
+    "updated_at": "2026-08-09T23:05:36Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -61,15 +70,6 @@
     "stars": 1,
     "updated_at": "2026-08-09T22:19:45Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
-    "id": "zinxj/uikit-expert-skill",
-    "language": "\u2014",
-    "name": "zinxj/uikit-expert-skill",
-    "stars": 4,
-    "updated_at": "2026-08-09T22:14:56Z",
-    "url": "https://github.com/zinxj/uikit-expert-skill"
   },
   {
     "cursorrules": {
@@ -404,7 +404,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 99296,
+    "stars": 99298,
     "updated_at": "2026-08-07T21:44:01Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
