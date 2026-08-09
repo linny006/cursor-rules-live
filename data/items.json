@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-08-09T23:45:30Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Your AI assistant reads CLAUDE.md and ignores it anyway. \u0100rai makes instruction files enforced \u2014 hooks that block, a tam",
     "id": "taniwhaai/arai",
     "language": "Rust",
@@ -25,15 +34,6 @@
     "stars": 0,
     "updated_at": "2026-08-09T23:35:35Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-08-09T23:30:41Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
