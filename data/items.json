@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-08-09T15:00:33Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "OVP: the open visualization protocol for describing, validating, and rendering information design identically, for human",
     "id": "babarda/open-visualization-protocol",
     "language": "HTML",
@@ -25,15 +34,6 @@
     "stars": 133,
     "updated_at": "2026-08-09T14:48:10Z",
     "url": "https://github.com/Mark393295827/third-brain-v7-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-08-09T14:45:31Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -358,7 +358,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 99143,
+    "stars": 99148,
     "updated_at": "2026-08-07T21:44:01Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -477,7 +477,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 19063,
+    "stars": 19065,
     "updated_at": "2026-08-06T07:09:51Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
