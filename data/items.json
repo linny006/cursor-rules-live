@@ -1,5 +1,23 @@
 [
   {
+    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
+    "id": "XAKLESK/cre-agent-skills",
+    "language": "\u2014",
+    "name": "XAKLESK/cre-agent-skills",
+    "stars": 3,
+    "updated_at": "2026-08-09T12:01:57Z",
+    "url": "https://github.com/XAKLESK/cre-agent-skills"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-08-09T12:00:50Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
     "id": "Amirun99/agency-orchestrator",
     "language": "Dart",
@@ -25,15 +43,6 @@
     "stars": 3,
     "updated_at": "2026-08-09T11:48:05Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-08-09T11:47:23Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -313,7 +322,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 99059,
+    "stars": 99069,
     "updated_at": "2026-08-07T21:44:01Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -382,15 +391,6 @@
     "url": "https://github.com/johnwall123459885/skene-cookbook"
   },
   {
-    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
-    "id": "XAKLESK/cre-agent-skills",
-    "language": "\u2014",
-    "name": "XAKLESK/cre-agent-skills",
-    "stars": 3,
-    "updated_at": "2026-08-07T07:37:33Z",
-    "url": "https://github.com/XAKLESK/cre-agent-skills"
-  },
-  {
     "description": "Modular, scalable, automated development intelligence.",
     "id": "DongDuong2001/pudo-code-system",
     "language": "JavaScript",
@@ -450,7 +450,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 19048,
+    "stars": 19050,
     "updated_at": "2026-08-06T07:09:51Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
