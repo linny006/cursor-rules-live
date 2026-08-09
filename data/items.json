@@ -1,12 +1,30 @@
 [
   {
-    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
-    "id": "XAKLESK/cre-agent-skills",
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-08-09T14:24:21Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "OVP: the open visualization protocol for describing, validating, and rendering information design identically, for human",
+    "id": "babarda/open-visualization-protocol",
+    "language": "HTML",
+    "name": "babarda/open-visualization-protocol",
+    "stars": 0,
+    "updated_at": "2026-08-09T14:19:51Z",
+    "url": "https://github.com/babarda/open-visualization-protocol"
+  },
+  {
+    "description": "Adversarial first-principles engineering and prompt review protocol based on Elon Musk's 5-step algorithm",
+    "id": "jdiazromeral/melon",
     "language": "\u2014",
-    "name": "XAKLESK/cre-agent-skills",
-    "stars": 3,
-    "updated_at": "2026-08-09T14:02:30Z",
-    "url": "https://github.com/XAKLESK/cre-agent-skills"
+    "name": "jdiazromeral/melon",
+    "stars": 0,
+    "updated_at": "2026-08-09T14:17:12Z",
+    "url": "https://github.com/jdiazromeral/melon"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +32,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-09T14:00:49Z",
+    "updated_at": "2026-08-09T14:15:40Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
+    "id": "XAKLESK/cre-agent-skills",
+    "language": "\u2014",
+    "name": "XAKLESK/cre-agent-skills",
+    "stars": 3,
+    "updated_at": "2026-08-09T14:02:30Z",
+    "url": "https://github.com/XAKLESK/cre-agent-skills"
   },
   {
     "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
@@ -45,16 +72,7 @@
     "url": "https://github.com/zinxj/uikit-expert-skill"
   },
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-08-09T13:41:08Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "OVP: the open visualization protocol for describing, validating, and rendering information design identically, for human",
+    "description": "Superseded. The live protocol is at github.com/babarda/open-visualization-protocol",
     "id": "babarda/open-visualization-protocol-v1",
     "language": "HTML",
     "name": "babarda/open-visualization-protocol-v1",
@@ -331,7 +349,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 99126,
+    "stars": 99130,
     "updated_at": "2026-08-07T21:44:01Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -485,23 +503,5 @@
     "stars": 3,
     "updated_at": "2026-08-06T06:05:08Z",
     "url": "https://github.com/Luxvil/ai-coding-rules"
-  },
-  {
-    "description": "Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API ",
-    "id": "djtelicloud/grok-mcp-server",
-    "language": "Python",
-    "name": "djtelicloud/grok-mcp-server",
-    "stars": 22,
-    "updated_at": "2026-08-06T06:01:56Z",
-    "url": "https://github.com/djtelicloud/grok-mcp-server"
-  },
-  {
-    "description": "Production-ready AI agent profiles for Claude Code, Cursor, and Codex. Search, install, and contribute ForgeCat packages",
-    "id": "nota-america/forgecat-agent-profiles",
-    "language": "TypeScript",
-    "name": "nota-america/forgecat-agent-profiles",
-    "stars": 45,
-    "updated_at": "2026-08-05T23:16:09Z",
-    "url": "https://github.com/nota-america/forgecat-agent-profiles"
   }
 ]
