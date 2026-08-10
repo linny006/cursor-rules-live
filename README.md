@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-08-10 01:15 UTC
+> ⏰ Last updated: 2026-08-10 01:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,9 +53,9 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [XAKLESK/cre-agent-skills](https://github.com/XAKLESK/cre-agent-skills) | 3 | — | 2026-08-10 | — | Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc |
-| 2 | [Amirun99/agency-orchestrator](https://github.com/Amirun99/agency-orchestrator) | 0 | Dart | 2026-08-10 | — | Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support. |
-| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 1 | HTML | 2026-08-10 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 1 | HTML | 2026-08-10 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [XAKLESK/cre-agent-skills](https://github.com/XAKLESK/cre-agent-skills) | 3 | — | 2026-08-10 | — | Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc |
+| 3 | [Amirun99/agency-orchestrator](https://github.com/Amirun99/agency-orchestrator) | 0 | Dart | 2026-08-10 | — | Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support. |
 | 4 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-08-10 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
 | 5 | [zinxj/uikit-expert-skill](https://github.com/zinxj/uikit-expert-skill) | 4 | — | 2026-08-10 | — | Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan |
 | 6 | [sublimecoder/sublimecoding](https://github.com/sublimecoder/sublimecoding) | 0 | — | 2026-08-10 | — | 🛠️ Free Claude Code & Cursor prompts for senior engineers — plus AIOS, an open-source markdown memory system for coding  |
@@ -65,7 +65,7 @@ expired items removed — so you can rely on what you see being current.
 | 10 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-08-09 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
 | 11 | [PiloTracer/.ai](https://github.com/PiloTracer/.ai) | 0 | Shell | 2026-08-09 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/PiloTracer/.ai/) | Portable process framework for software teams shipping with coding agents (Cursor, Claude Code, Codex, opencode). Skills |
 | 12 | [jdiazromeral/melon](https://github.com/jdiazromeral/melon) | 0 | — | 2026-08-09 | — | Adversarial first-principles engineering and prompt review protocol based on Elon Musk's 5-step algorithm |
-| 13 | [aaddrick/slushpile](https://github.com/aaddrick/slushpile) | 1 | Python | 2026-08-09 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/aaddrick/slushpile/) | An adversarial job search that gets better as it goes: pool-anchored fit scoring, a resume and cover letter built agains |
+| 13 | [aaddrick/slushpile](https://github.com/aaddrick/slushpile) | 2 | Python | 2026-08-09 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/aaddrick/slushpile/) | An adversarial job search that gets better as it goes: pool-anchored fit scoring, a resume and cover letter built agains |
 | 14 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 31 | — | 2026-08-09 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
 | 15 | [apoorv-kulkarni/initMe](https://github.com/apoorv-kulkarni/initMe) | 0 | Shell | 2026-08-09 | — | I got tired moving configs between devices |
 | 16 | [aaddrick/attention-control](https://github.com/aaddrick/attention-control) | 59 | Python | 2026-08-09 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/aaddrick/attention-control/) | Air traffic control discipline for agent output. Written for a reader with ADHD. |
@@ -95,7 +95,7 @@ expired items removed — so you can rely on what you see being current.
 | 40 | [juwonllee2024-dotcom/rulesync](https://github.com/juwonllee2024-dotcom/rulesync) | 1 | TypeScript | 2026-08-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/juwonllee2024-dotcom/rulesync/) | The ESLint & Babel for AI Agent Rules — Compile, lint, optimize, and sync instructions across AGENTS.md, CLAUDE.md, .cur |
 | 41 | [MicSm/boffin](https://github.com/MicSm/boffin) | 37 | JavaScript | 2026-08-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/MicSm/boffin/) | Staff-engineer layer for AI coding agents: routes per-edit architectural constraints and requires verification. Not anot |
 | 42 | [baneeishaque/ai-agent-rules](https://github.com/baneeishaque/ai-agent-rules) | 8 | TypeScript | 2026-08-08 | — |  |
-| 43 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 99343 | JavaScript | 2026-08-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 43 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 99360 | JavaScript | 2026-08-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 44 | [almandas-labs/cursor-rules-doctor](https://github.com/almandas-labs/cursor-rules-doctor) | 0 | JavaScript | 2026-08-07 | — | Audit Cursor .mdc rules for parse errors, scope mistakes, and silent loading risks — free zero-dependency CLI. |
 | 45 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 134 | Shell | 2026-08-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | Agent skills synthesizing years of software engineering discipline into a prescriptive methodology for solo developers |
 | 46 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-08-07 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |

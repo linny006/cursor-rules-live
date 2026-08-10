@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-08-10T01:15:51Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
     "id": "XAKLESK/cre-agent-skills",
     "language": "\u2014",
@@ -16,15 +25,6 @@
     "stars": 0,
     "updated_at": "2026-08-10T01:03:34Z",
     "url": "https://github.com/Amirun99/agency-orchestrator"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-08-10T01:00:49Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -122,7 +122,7 @@
     "id": "aaddrick/slushpile",
     "language": "Python",
     "name": "aaddrick/slushpile",
-    "stars": 1,
+    "stars": 2,
     "updated_at": "2026-08-09T20:34:12Z",
     "url": "https://github.com/aaddrick/slushpile"
   },
@@ -427,7 +427,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 99343,
+    "stars": 99360,
     "updated_at": "2026-08-07T21:44:01Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
