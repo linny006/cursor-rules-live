@@ -1,5 +1,23 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-08-10T13:30:56Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
+    "id": "Laurellagloomy260/cursor-rules-generator",
+    "language": "\u2014",
+    "name": "Laurellagloomy260/cursor-rules-generator",
+    "stars": 0,
+    "updated_at": "2026-08-10T13:29:15Z",
+    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
+  },
+  {
     "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
     "id": "Bastioned-successor320/learn-nanobot",
     "language": "Python",
@@ -14,7 +32,7 @@
     "language": "PHP",
     "name": "pekral/cursor-rules",
     "stars": 5,
-    "updated_at": "2026-08-10T13:28:57Z",
+    "updated_at": "2026-08-10T13:39:04Z",
     "url": "https://github.com/pekral/cursor-rules"
   },
   {
@@ -34,15 +52,6 @@
     "stars": 0,
     "updated_at": "2026-08-10T13:18:50Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-08-10T13:15:58Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -84,15 +93,6 @@
     "stars": 2,
     "updated_at": "2026-08-10T12:42:03Z",
     "url": "https://github.com/GeiserX/homebrew-lynxprompt"
-  },
-  {
-    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
-    "id": "Laurellagloomy260/cursor-rules-generator",
-    "language": "\u2014",
-    "name": "Laurellagloomy260/cursor-rules-generator",
-    "stars": 0,
-    "updated_at": "2026-08-10T13:29:15Z",
-    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -254,7 +254,7 @@
     "id": "aaddrick/slushpile",
     "language": "Python",
     "name": "aaddrick/slushpile",
-    "stars": 8,
+    "stars": 9,
     "updated_at": "2026-08-09T20:34:12Z",
     "url": "https://github.com/aaddrick/slushpile"
   },
@@ -355,7 +355,7 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 17,
-    "updated_at": "2026-08-09T01:04:49Z",
+    "updated_at": "2026-08-10T13:33:07Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
@@ -495,7 +495,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 99904,
+    "stars": 99912,
     "updated_at": "2026-08-07T21:44:01Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   }
