@@ -5,8 +5,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-10T13:30:56Z",
+    "updated_at": "2026-08-10T13:44:25Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
+    "id": "pekral/cursor-rules",
+    "language": "PHP",
+    "name": "pekral/cursor-rules",
+    "stars": 5,
+    "updated_at": "2026-08-10T13:39:04Z",
+    "url": "https://github.com/pekral/cursor-rules"
   },
   {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
@@ -25,15 +34,6 @@
     "stars": 6,
     "updated_at": "2026-08-10T13:24:49Z",
     "url": "https://github.com/Bastioned-successor320/learn-nanobot"
-  },
-  {
-    "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
-    "id": "pekral/cursor-rules",
-    "language": "PHP",
-    "name": "pekral/cursor-rules",
-    "stars": 5,
-    "updated_at": "2026-08-10T13:39:04Z",
-    "url": "https://github.com/pekral/cursor-rules"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
