@@ -1,12 +1,12 @@
 [
   {
-    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
-    "id": "Laurellagloomy260/cursor-rules-generator",
-    "language": "\u2014",
-    "name": "Laurellagloomy260/cursor-rules-generator",
-    "stars": 0,
-    "updated_at": "2026-08-10T23:04:32Z",
-    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-08-10T23:25:19Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-10T23:00:51Z",
+    "updated_at": "2026-08-10T23:15:41Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
+    "id": "Laurellagloomy260/cursor-rules-generator",
+    "language": "\u2014",
+    "name": "Laurellagloomy260/cursor-rules-generator",
+    "stars": 0,
+    "updated_at": "2026-08-10T23:04:32Z",
+    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
   },
   {
     "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
@@ -66,15 +75,6 @@
     "stars": 0,
     "updated_at": "2026-08-10T22:42:04Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-08-10T22:26:33Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -254,7 +254,7 @@
     "id": "aaddrick/slushpile",
     "language": "Python",
     "name": "aaddrick/slushpile",
-    "stars": 12,
+    "stars": 13,
     "updated_at": "2026-08-09T20:34:12Z",
     "url": "https://github.com/aaddrick/slushpile"
   },
@@ -495,7 +495,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 100113,
+    "stars": 100115,
     "updated_at": "2026-08-07T21:44:01Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   }
