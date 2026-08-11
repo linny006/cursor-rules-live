@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-08-11 08:45 UTC
+> ⏰ Last updated: 2026-08-11 09:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,26 +53,26 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 1 | HTML | 2026-08-11 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 2 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-08-11 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
-| 3 | [pekral/cursor-rules](https://github.com/pekral/cursor-rules) | 5 | PHP | 2026-08-11 | — | PHP and Laravel Cursor rules — coding standards, testing, and conventions for the Cursor editor. Install via Composer. |
-| 4 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-08-11 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 5 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-08-11 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
-| 6 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-08-11 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
-| 7 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 31 | — | 2026-08-11 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
-| 8 | [orin-dx/agent-plugins](https://github.com/orin-dx/agent-plugins) | 1 | Shell | 2026-08-11 | — | Official AI Agent Plugins & Skills Marketplace for Antigravity (AGY), Claude Code, and Cursor |
-| 9 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-08-11 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
-| 10 | [Bastioned-successor320/learn-nanobot](https://github.com/Bastioned-successor320/learn-nanobot) | 6 | Python | 2026-08-11 | — | Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers |
-| 11 | [johnwall123459885/skene-cookbook](https://github.com/johnwall123459885/skene-cookbook) | 0 | Python | 2026-08-11 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/johnwall123459885/skene-cookbook/) | 🤖 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development. |
-| 12 | [FuDie0915/Riper5-cursor-skills](https://github.com/FuDie0915/Riper5-cursor-skills) | 2 | Python | 2026-08-11 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/FuDie0915/Riper5-cursor-skills/) | RIPER-5 AI 编码行为协议 — 面向 Cursor 的结构化技能套件，通过 DSL 声明式约束实现严格的模式隔离与行为控制 |
-| 13 | [plumpslabs/matcha](https://github.com/plumpslabs/matcha) | 1 | JavaScript | 2026-08-11 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/plumpslabs/matcha/) | 🍵 Deliberate engineering guidelines & deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block |
-| 14 | [djtelicloud/grok-mcp-server](https://github.com/djtelicloud/grok-mcp-server) | 22 | Python | 2026-08-11 | — | Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API  |
-| 15 | [sublimecoder/sublimecoding](https://github.com/sublimecoder/sublimecoding) | 0 | — | 2026-08-11 | — | 🛠️ Free Claude Code & Cursor prompts for senior engineers — plus AIOS, an open-source markdown memory system for coding  |
-| 16 | [mountopjh/Agents.md](https://github.com/mountopjh/Agents.md) | 2 | — | 2026-08-10 | — | 🧠 结合 Karpathy 理念与第一性原理的通用 AI Agent 编码准则模版 (AGENTS.md) |
-| 17 | [GeiserX/homebrew-lynxprompt](https://github.com/GeiserX/homebrew-lynxprompt) | 2 | Ruby | 2026-08-10 | — | Homebrew tap for LynxPrompt CLI |
-| 18 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-08-10 | — | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
-| 19 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 14 | TypeScript | 2026-08-10 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
-| 20 | [vibestackdev/vibe-stack](https://github.com/vibestackdev/vibe-stack) | 7 | TypeScript | 2026-08-10 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/) | 29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b |
+| 1 | [vibestackdev/vibe-stack](https://github.com/vibestackdev/vibe-stack) | 7 | TypeScript | 2026-08-11 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/) | 29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b |
+| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 1 | HTML | 2026-08-11 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 3 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-08-11 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
+| 4 | [pekral/cursor-rules](https://github.com/pekral/cursor-rules) | 5 | PHP | 2026-08-11 | — | PHP and Laravel Cursor rules — coding standards, testing, and conventions for the Cursor editor. Install via Composer. |
+| 5 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-08-11 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
+| 6 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-08-11 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
+| 7 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-08-11 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
+| 8 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 31 | — | 2026-08-11 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
+| 9 | [orin-dx/agent-plugins](https://github.com/orin-dx/agent-plugins) | 1 | Shell | 2026-08-11 | — | Official AI Agent Plugins & Skills Marketplace for Antigravity (AGY), Claude Code, and Cursor |
+| 10 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-08-11 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
+| 11 | [Bastioned-successor320/learn-nanobot](https://github.com/Bastioned-successor320/learn-nanobot) | 6 | Python | 2026-08-11 | — | Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers |
+| 12 | [johnwall123459885/skene-cookbook](https://github.com/johnwall123459885/skene-cookbook) | 0 | Python | 2026-08-11 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/johnwall123459885/skene-cookbook/) | 🤖 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development. |
+| 13 | [FuDie0915/Riper5-cursor-skills](https://github.com/FuDie0915/Riper5-cursor-skills) | 2 | Python | 2026-08-11 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/FuDie0915/Riper5-cursor-skills/) | RIPER-5 AI 编码行为协议 — 面向 Cursor 的结构化技能套件，通过 DSL 声明式约束实现严格的模式隔离与行为控制 |
+| 14 | [plumpslabs/matcha](https://github.com/plumpslabs/matcha) | 1 | JavaScript | 2026-08-11 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/plumpslabs/matcha/) | 🍵 Deliberate engineering guidelines & deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block |
+| 15 | [djtelicloud/grok-mcp-server](https://github.com/djtelicloud/grok-mcp-server) | 22 | Python | 2026-08-11 | — | Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API  |
+| 16 | [sublimecoder/sublimecoding](https://github.com/sublimecoder/sublimecoding) | 0 | — | 2026-08-11 | — | 🛠️ Free Claude Code & Cursor prompts for senior engineers — plus AIOS, an open-source markdown memory system for coding  |
+| 17 | [mountopjh/Agents.md](https://github.com/mountopjh/Agents.md) | 2 | — | 2026-08-10 | — | 🧠 结合 Karpathy 理念与第一性原理的通用 AI Agent 编码准则模版 (AGENTS.md) |
+| 18 | [GeiserX/homebrew-lynxprompt](https://github.com/GeiserX/homebrew-lynxprompt) | 2 | Ruby | 2026-08-10 | — | Homebrew tap for LynxPrompt CLI |
+| 19 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-08-10 | — | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
+| 20 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 14 | TypeScript | 2026-08-10 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
 | 21 | [MCLeut/service-cursor](https://github.com/MCLeut/service-cursor) | 0 | JavaScript | 2026-08-10 | — | Modulares Cursor-Setup fuer agentisches Arbeiten - Regeln, Hooks, Subagenten und MCP, jeder Schluessel gegen eine echte  |
 | 22 | [XAKLESK/cre-agent-skills](https://github.com/XAKLESK/cre-agent-skills) | 3 | — | 2026-08-10 | — | Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc |
 | 23 | [Amirun99/agency-orchestrator](https://github.com/Amirun99/agency-orchestrator) | 0 | Dart | 2026-08-10 | — | Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support. |
