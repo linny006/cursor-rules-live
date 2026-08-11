@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-08-11 21:15 UTC
+> ⏰ Last updated: 2026-08-11 21:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,8 +53,8 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-08-11 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 1 | HTML | 2026-08-11 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 1 | HTML | 2026-08-11 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-08-11 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
 | 3 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-08-11 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
 | 4 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-08-11 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
 | 5 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-08-11 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
@@ -92,7 +92,7 @@ expired items removed — so you can rely on what you see being current.
 | 37 | [jdiazromeral/melon](https://github.com/jdiazromeral/melon) | 0 | — | 2026-08-09 | — | Adversarial first-principles engineering and prompt review protocol based on Elon Musk's 5-step algorithm |
 | 38 | [aaddrick/slushpile](https://github.com/aaddrick/slushpile) | 14 | Python | 2026-08-09 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/aaddrick/slushpile/) | An adversarial job search that gets better as it goes: pool-anchored fit scoring, a resume and cover letter built agains |
 | 39 | [apoorv-kulkarni/initMe](https://github.com/apoorv-kulkarni/initMe) | 0 | Shell | 2026-08-09 | — | I got tired moving configs between devices |
-| 40 | [aaddrick/attention-control](https://github.com/aaddrick/attention-control) | 69 | Python | 2026-08-09 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/aaddrick/attention-control/) | Air traffic control discipline for agent output. Written for a reader with ADHD. |
+| 40 | [aaddrick/attention-control](https://github.com/aaddrick/attention-control) | 70 | Python | 2026-08-09 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/aaddrick/attention-control/) | Air traffic control discipline for agent output. Written for a reader with ADHD. |
 | 41 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 16 | Shell | 2026-08-09 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
 | 42 | [babarda/open-visualization-protocol](https://github.com/babarda/open-visualization-protocol) | 0 | HTML | 2026-08-09 | — | OVP: the open visualization protocol for describing, validating, and rendering information design identically, for human |
 | 43 | [Mark393295827/third-brain-v7-skills](https://github.com/Mark393295827/third-brain-v7-skills) | 133 | Python | 2026-08-09 | — | agent wiki +engineering skills  |
