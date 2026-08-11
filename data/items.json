@@ -5,7 +5,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-11T14:35:48Z",
+    "updated_at": "2026-08-11T14:45:45Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "sungurerdim/dev-skills",
     "stars": 1,
-    "updated_at": "2026-08-11T14:22:37Z",
+    "updated_at": "2026-08-11T14:45:36Z",
     "url": "https://github.com/sungurerdim/dev-skills"
+  },
+  {
+    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 123,
+    "updated_at": "2026-08-11T14:42:58Z",
+    "url": "https://github.com/KbWen/agentic-os"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -435,15 +444,6 @@
     "stars": 0,
     "updated_at": "2026-08-09T08:49:58Z",
     "url": "https://github.com/akashwadhwani35/anti-slop-design"
-  },
-  {
-    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
-    "id": "KbWen/agentic-os",
-    "language": "Python",
-    "name": "KbWen/agentic-os",
-    "stars": 123,
-    "updated_at": "2026-08-11T14:42:58Z",
-    "url": "https://github.com/KbWen/agentic-os"
   },
   {
     "description": "Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior",
