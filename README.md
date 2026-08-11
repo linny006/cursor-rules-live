@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-08-11 14:35 UTC
+> ⏰ Last updated: 2026-08-11 14:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -96,7 +96,7 @@ expired items removed — so you can rely on what you see being current.
 | 41 | [babarda/open-visualization-protocol-v1](https://github.com/babarda/open-visualization-protocol-v1) | 3 | HTML | 2026-08-09 | — | Superseded. The live protocol is at github.com/babarda/open-visualization-protocol |
 | 42 | [apervashov/typescript-learning-assistant](https://github.com/apervashov/typescript-learning-assistant) | 3 | HTML | 2026-08-09 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/apervashov/typescript-learning-assistant/) | Learn TypeScript with Handbook-aligned exercises, a local progress tracker, and AI mentor rules that give hints — not sp |
 | 43 | [akashwadhwani35/anti-slop-design](https://github.com/akashwadhwani35/anti-slop-design) | 0 | JavaScript | 2026-08-09 | — | Anti-AI-slop design skill for editorial and data-viz pages: ~55 cited tells, a dependency-free scanner, and a worked exa |
-| 44 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 123 | Python | 2026-08-09 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
+| 44 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 123 | Python | 2026-08-11 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
 | 45 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 17 | Python | 2026-08-10 | — | Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior |
 | 46 | [anivar/redux-saga-skill](https://github.com/anivar/redux-saga-skill) | 2 | — | 2026-08-08 | — | AI agent skill for Redux-Saga — 25 rules: effects, fork model, channels, RTK integration. Works with Claude Code, Cursor |
 | 47 | [anivar/msw-skill](https://github.com/anivar/msw-skill) | 1 | — | 2026-08-08 | — | AI agent skill for MSW 2.0 — 20 rules: handler design, REST/GraphQL, test patterns. Works with Claude Code, Cursor, Code |
