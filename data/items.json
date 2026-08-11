@@ -1,21 +1,26 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: Use when determining whether a company has an active At-The-Market (ATM) offering, controlled equity offering, or equity line (ELOC). Defines the multi-signal inference required to distinguish ACTIVE dilution from dormant shelf capacity, and disambiguates ATM from ELOC.\nalwaysApply: false\n---\n\n# ATM Detection\n\nATM offerings are the dominant slow-bleed dilution mechanism in small caps.\nDetecting them requires **inference from multiple co-occurring signals** \u2014\nno single filing or phrase is sufficient. Most quant pipelines either\nmiss them entirely (looking only for 8-K item 3.02) or flag every S-3\nas ATM (false positives that drown the signal).\n\n## Core inference rule\n\n**An ATM is ACTIVE only when all three are true:**\n\n1. There is an **effective shelf registration** (S-3, S-3ASR, F-3) AND\n2. There is a **sales agreement** with a placement agent referenced\n   in a recent 424B prospectus supplement (typically 424B5 for US, 424B4\n   for FPIs) AND\n3. The agreement / supplement contains language explicitly authorizing\n   **at-the-market** sales (vs. a one-shot registered direct).\n\nMissing any one of these = NOT an active ATM (could be dormant shelf,\ncould be a registered direct, could be a private placement).\n\n## Required signals (decision matrix)\n\n| Signal | Where it lives | What to look for |\n|--------|---------------|------------------|\n| Effective shelf | S-3 / S-3ASR / F-3 with `effective` status | `effectiveDate` is set |\n| Placement agent retained | 424B5 / 424B4 cover or \"Plan of Distribution\" section | Named agent (one or more) |\n| ATM authorization language | 424B prospectus supplement OR underlying sales agreement (often filed as Ex-1.1 or Ex-10.x to an 8-K) | See phrase list below |\n| Active ATM (not just authorized) | Subsequent 10-Q \"Stockholders' Equity\" or \"Subsequent Events\" note | Discloses shares sold under ATM during period, OR confirms agreement remains in effect |\n\nThe first two confirm STRUCTURE. The third confirms TYPE (ATM vs.\nregistered direct). The fourth confirms ACTIVITY (in-use vs. dormant).\n\n## Phrases that indicate ATM (not exhaustive)\n\nIn the prospectus supplement or sales agreement:\n\n- \"at-the-market offering\" / \"at the market offerings\"\n- \"**sales agreement**\" with a placement agent (this phrase is the\n  highest-precision single signal in 424B documents)\n- \"**controlled equity offering**\" / \"**Controlled Equity Offering**\"\n  (a Cantor Fitzgerald trademarked term \u2014 same mechanism)\n- \"**common stock purchase agreement**\" \u2014 usually ELOC, not ATM (see\n  below)\n- \"ordinary brokers' transactions\"\n- \"negotiated transactions\"\n- \"block trades, if and when negotiated\"\n- \"as defined in Rule 415(a)(4)\" (the regulatory hook for ATMs)\n- \"any method permitted by law deemed to be an 'at the market' offering\"\n\n## ATM vs ELOC vs Registered Direct (the three confusions)\n\nThese mechanisms all use a shelf and dribble shares into the market,\nbut they are NOT the same and have different toxicity profiles.\n\n| Mechanism | Counterparty | Pricing | Discretion | Typical agreement language |\n|-----------|--------------|---------|------------|----------------------------|\n| **ATM** | Placement agent (bank) selling into open market | Market price | Issuer-controlled volume | \"Sales Agreement\" / \"at-the-market\" |\n| **ELOC** | Specific investor (e.g., Lincoln Park, Yorkville, B. Riley) | Discount to recent VWAP | Issuer-initiated puts | \"Common Stock Purchase Agreement\" / \"Equity Line\" / \"Standby Equity Purchase Agreement\" |\n| **Registered Direct** | One-time investor(s) | Negotiated, typically discount | Single-shot | \"Securities Purchase Agreement\" + 424B5 covering only that takedown |\n\nELOCs are typically MORE toxic per share than ATMs (forced discount,\ncounterparty incentivized to short into puts) but often slower per day.\nA registered direct is one-and-done \u2014 confirm via 8-K item 1.01 + 3.02\nwithin days.\n\n## Common false positives and false negatives\n\n**False positives (saying \"ATM active\" when it isn't):**\n\n- Effective S-3 with no 424B in 6+ months \u2192 dormant shelf, no ATM in flight.\n- 424B5 for a registered direct (one-time financing) \u2014 language will\n  reference a \"Securities Purchase Agreement\" with named investors,\n  not a \"Sales Agreement\" with an agent.\n- 424B5 for an underwritten secondary \u2014 has an \"Underwriting Agreement\",\n  fixed share count, single offering.\n\n**False negatives (missing an active ATM):**\n\n- ATM established years ago, recently re-upped via prospectus supplement\n  amendment (424B3) \u2014 easy to miss if you only watch B5.\n- ATM language buried in the SALES AGREEMENT (Ex-1.1) rather than the\n  424B itself; some issuers reference but do not duplicate.\n- FPIs use 424B4 instead of 424B5 \u2014 searching only B5 misses them.\n- Re-stated/amended 424Bs (e.g., 424B5/A) that supersede prior versions.\n\n## Workflow when asked \"does company X have an ATM\"\n\n1. **Pull all forms in the last ~12 months**: S-3, S-3ASR, F-3, plus\n   all 424B variants (B1\u2013B7) plus 8-Ks with attached agreements.\n2. **Confirm shelf is effective.** If no effective S-3/F-3, stop \u2014\n   no ATM possible.\n3. **Look for 424B with sales-agreement language.** Highest-precision\n   single phrase: \"sales agreement\" + named agent in the cover/Plan\n   of Distribution.\n4. **Distinguish from registered direct / ELOC.** Apply the table above.\n   If the agreement is a \"Common Stock Purchase Agreement\" with a single\n   investor, it's an ELOC, not an ATM.\n5. **Check active vs dormant.** Pull the most recent 10-Q. The\n   \"Stockholders' Equity\" or \"Subsequent Events\" note usually states\n   whether the ATM remains effective and how much has been sold during\n   the period.\n6. **Stamp with `lookahead-safety`.** Whatever you conclude is true\n   only as of the LATEST filing in your set. An ATM established last\n   week was not active last month.\n\n## Decision rule for \"is dilution imminent\"\n\nActive ATM + low cash runway (<6 months) in last 10-Q + recent strength\n(green day, gap up) = **highest-probability dilution window**. Issuers\nwith active ATMs sell aggressively into strength because that is when\nthey get the best price.\n\n## Phrases that should trigger this skill\n\n- \"is X doing an ATM\"\n- \"active ATM\" / \"at-the-market offering\"\n- \"controlled equity offering\"\n- \"ELOC\" / \"equity line of credit\"\n- \"shelf takedown\"\n- \"is this S-3 in use\"\n- \"registered direct vs ATM\"\n- \"Sales Agreement\" / \"Common Stock Purchase Agreement\"\n- \"Lincoln Park\" / \"Yorkville\" / \"B. Riley\" + offering context\n\n## What this skill is NOT\n\nThis is not a parser. It does not extract numbers from filings. It\nprovides the inference rules needed to interpret the parsed data\ncorrectly \u2014 i.e., to decide whether a set of filings constitutes\nan active ATM. Combine with `sec-filing-types` for form semantics,\n`lookahead-safety` for time semantics, and (when available)\n`bank-tier-classification` for placement-agent toxicity grading.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/atm-detection.mdc"
+    },
+    "description": "Skills for quant research with LLMs that don't fall for the traps nobody talks about. Lookahead bias, ATM detection, sur",
+    "id": "jefrnc/quant-llm-skills",
+    "language": "Python",
+    "name": "jefrnc/quant-llm-skills",
+    "stars": 0,
+    "updated_at": "2026-08-11T16:28:05Z",
+    "url": "https://github.com/jefrnc/quant-llm-skills"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-11T16:00:58Z",
+    "updated_at": "2026-08-11T16:15:32Z",
     "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-08-11T15:51:08Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -25,6 +30,15 @@
     "stars": 3,
     "updated_at": "2026-08-11T16:13:55Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-08-11T15:51:08Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -59,7 +73,7 @@
     "language": "Python",
     "name": "KbWen/agentic-os",
     "stars": 123,
-    "updated_at": "2026-08-11T15:37:43Z",
+    "updated_at": "2026-08-11T16:23:19Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
   {
@@ -451,7 +465,7 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 17,
-    "updated_at": "2026-08-10T13:33:07Z",
+    "updated_at": "2026-08-11T16:24:04Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
@@ -489,14 +503,5 @@
     "stars": 5,
     "updated_at": "2026-08-08T16:37:47Z",
     "url": "https://github.com/YuliaNuzhnenko/bioinformatics-agent-skills"
-  },
-  {
-    "description": "AI agent skill for testing Zod schemas \u2014 Jest/Vitest patterns, mock data, property-based testing. Works with Claude Code",
-    "id": "anivar/zod-testing",
-    "language": "\u2014",
-    "name": "anivar/zod-testing",
-    "stars": 2,
-    "updated_at": "2026-08-08T12:54:05Z",
-    "url": "https://github.com/anivar/zod-testing"
   }
 ]

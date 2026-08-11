@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<title>jefrnc/quant-llm-skills - entry on Cursor Rules Live</title>
+<meta name="description" content="Skills for quant research with LLMs that don&#x27;t fall for the traps nobody talks about. Lookahead bias, ATM detection, sur">
+<link rel="canonical" href="https://linny006.github.io/cursor-rules-live/r/jefrnc/quant-llm-skills/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="jefrnc/quant-llm-skills - entry on Cursor Rules Live">
+<meta property="og:description" content="Skills for quant research with LLMs that don&#x27;t fall for the traps nobody talks about. Lookahead bias, ATM detection, sur">
+<meta property="og:url" content="https://linny006.github.io/cursor-rules-live/r/jefrnc/quant-llm-skills/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="jefrnc/quant-llm-skills - entry on Cursor Rules Live">
+<meta name="twitter:description" content="Skills for quant research with LLMs that don&#x27;t fall for the traps nobody talks about. Lookahead bias, ATM detection, sur">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"jefrnc/quant-llm-skills","codeRepository":"https://github.com/jefrnc/quant-llm-skills","programmingLanguage":"Python","url":"https://linny006.github.io/cursor-rules-live/r/jefrnc/quant-llm-skills/","description":"Skills for quant research with LLMs that don't fall for the traps nobody talks about. Lookahead bias, ATM detection, sur","author":{"@type":"Person","name":"jefrnc","url":"https://github.com/jefrnc"},"dateModified":"2026-08-11"}</script>
+<style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
+         --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 16px; font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--fg); background: var(--bg); }
+.wrap { max-width: var(--max); margin: 0 auto; }
+nav.bc { font-size: 14px; color: var(--muted); margin-bottom: 16px; }
+nav.bc a { color: var(--muted); }
+h1 { font-size: 28px; margin: 0 0 8px; }
+h2 { font-size: 20px; margin: 24px 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+p.lead { font-size: 18px; color: var(--muted); margin: 0 0 24px; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+th, td { padding: 8px 12px; text-align: left; border-bottom: 1px solid var(--border); }
+th { background: var(--card); font-weight: 600; }
+ul.crosslinks { list-style: none; padding: 0; }
+ul.crosslinks li { padding: 6px 0; }
+ul.crosslinks li a { font-weight: 500; }
+.meta { display: flex; gap: 16px; flex-wrap: wrap; color: var(--muted); font-size: 14px; margin: 12px 0; }
+.meta span::before { content: "\00b7"; margin-right: 8px; color: var(--border); }
+.meta span:first-child::before { content: ""; }
+footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--border); font-size: 14px; color: var(--muted); }</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="bc"><a href="https://linny006.github.io/cursor-rules-live/">Cursor Rules Live</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/popular/">Entries</a> &#183; <span>jefrnc/quant-llm-skills</span></nav>
+<main>
+<h1>jefrnc/quant-llm-skills</h1>
+<p class="lead">Skills for quant research with LLMs that don&#x27;t fall for the traps nobody talks about. Lookahead bias, ATM detection, sur</p>
+<div class="meta">
+<span><strong>Stars</strong> 0</span>
+<span><strong>Language</strong> Python</span>
+<span><strong>Last updated</strong> 2026-08-11</span>
+<span><a href="https://github.com/jefrnc/quant-llm-skills" rel="external">Source on GitHub</a></span>
+<span><a href="https://github.com/jefrnc" rel="external">@jefrnc</a></span>
+</div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/atm-detection.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
+description: Use when determining whether a company has an active At-The-Market (ATM) offering, controlled equity offering, or equity line (ELOC). Defines the multi-signal inference required to distinguish ACTIVE dilution from dormant shelf capacity, and disambiguates ATM from ELOC.
+alwaysApply: false
+---
+
+# ATM Detection
+
+ATM offerings are the dominant slow-bleed dilution mechanism in small caps.
+Detecting them requires **inference from multiple co-occurring signals** —
+no single filing or phrase is sufficient. Most quant pipelines either
+miss them entirely (looking only for 8-K item 3.02) or flag every S-3
+as ATM (false positives that drown the signal).
+
+## Core inference rule
+
+**An ATM is ACTIVE only when all three are true:**
+
+1. There is an **effective shelf registration** (S-3, S-3ASR, F-3) AND
+2. There is a **sales agreement** with a placement agent referenced
+   in a recent 424B prospectus supplement (typically 424B5 for US, 424B4
+   for FPIs) AND
+3. The agreement / supplement contains language explicitly authorizing
+   **at-the-market** sales (vs. a one-shot registered direct).
+
+Missing any one of these = NOT an active ATM (could be dormant shelf,
+could be a registered direct, could be a private placement).
+
+## Required signals (decision matrix)
+
+| Signal | Where it lives | What to look for |
+|--------|---------------|------------------|
+| Effective shelf | S-3 / S-3ASR / F-3 with `effective` status | `effectiveDate` is set |
+| Placement agent retained | 424B5 / 424B4 cover or &quot;Plan of Distribution&quot; section | Named agent (one or more) |
+| ATM authorization language | 424B prospectus supplement OR underlying sales agreement (often filed as Ex-1.1 or Ex-10.x to an 8-K) | See phrase list below |
+| Active ATM (not just authorized) | Subsequent 10-Q &quot;Stockholders&#x27; Equity&quot; or &quot;Subsequent Events&quot; note | Discloses shares sold under ATM during period, OR confirms agreement remains in effect |
+
+The first two confirm STRUCTURE. The third confirms TYPE (ATM vs.
+registered direct). The fourth confirms ACTIVITY (in-use vs. dormant).
+
+## Phrases that indicate ATM (not exhaustive)
+
+In the prospectus supplement or sales agreement:
+
+- &quot;at-the-market offering&quot; / &quot;at the market offerings&quot;
+- &quot;**sales agreement**&quot; with a placement agent (this phrase is the
+  highest-precision single signal in 424B documents)
+- &quot;**controlled equity offering**&quot; / &quot;**Controlled Equity Offering**&quot;
+  (a Cantor Fitzgerald trademarked term — same mechanism)
+- &quot;**common stock purchase agreement**&quot; — usually ELOC, not ATM (see
+  below)
+- &quot;ordinary brokers&#x27; transactions&quot;
+- &quot;negotiated transactions&quot;
+- &quot;block trades, if and when negotiated&quot;
+- &quot;as defined in Rule 415(a)(4)&quot; (the regulatory hook for ATMs)
+- &quot;any method permitted by law deemed to be an &#x27;at the market&#x27; offering&quot;
+
+## ATM vs ELOC vs Registered Direct (the three confusions)
+
+These mechanisms all use a shelf and dribble shares into the market,
+but they are NOT the same and have different toxicity profiles.
+
+| Mechanism | Counterparty | Pricing | Discretion | Typical agreement language |
+|-----------|--------------|---------|------------|----------------------------|
+| **ATM** | Placement agent (bank) selling into open market | Market price | Issuer-controlled volume | &quot;Sales Agreement&quot; / &quot;at-the-market&quot; |
+| **ELOC** | Specific investor (e.g., Lincoln Park, Yorkville, B. Riley) | Discount to recent VWAP | Issuer-initiated puts | &quot;Common Stock Purchase Agreement&quot; / &quot;Equity Line&quot; / &quot;Standby Equity Purchase Agreement&quot; |
+| **Registered Direct** | One-time investor(s) | Negotiated, typically discount | Single-shot | &quot;Securities Purchase Agreement&quot; + 424B5 covering only that takedown |
+
+ELOCs are typically MORE toxic per share than ATMs (forced discount,
+counterparty incentivized to short into puts) but often slower per day.
+A registered direct is one-and-done — confirm via 8-K item 1.01 + 3.02
+within days.
+
+## Common false positives and false negatives
+
+**False positives (saying &quot;ATM active&quot; when it isn&#x27;t):**
+
+- Effective S-3 with no 424B in 6+ months → dormant shelf, no ATM in flight.
+- 424B5 for a registered direct (one-time financing) — language will
+  reference a &quot;Securities Purchase Agreement&quot; with named investors,
+  not a &quot;Sales Agreement&quot; with an agent.
+- 424B5 for an underwritten secondary — has an &quot;Underwriting Agreement&quot;,
+  fixed share count, single offering.
+
+**False negatives (missing an active ATM):**
+
+- ATM established years ago, recently re-upped via prospectus supplement
+  amendment (424B3) — easy to miss if you only watch B5.
+- ATM language buried in the SALES AGREEMENT (Ex-1.1) rather than the
+  424B itself; some issuers reference but do not duplicate.
+- FPIs use 424B4 instead of 424B5 — searching only B5 misses them.
+- Re-stated/amended 424Bs (e.g., 424B5/A) that supersede prior versions.
+
+## Workflow when asked &quot;does company X have an ATM&quot;
+
+1. **Pull all forms in the last ~12 months**: S-3, S-3ASR, F-3, plus
+   all 424B variants (B1–B7) plus 8-Ks with attached agreements.
+2. **Confirm shelf is effective.** If no effective S-3/F-3, stop —
+   no ATM possible.
+3. **Look for 424B with sales-agreement language.** Highest-precision
+   single phrase: &quot;sales agreement&quot; + named agent in the cover/Plan
+   of Distribution.
+4. **Distinguish from registered direct / ELOC.** Apply the table above.
+   If the agreement is a &quot;Common Stock Purchase Agreement&quot; with a single
+   investor, it&#x27;s an ELOC, not an ATM.
+5. **Check active vs dormant.** Pull the most recent 10-Q. The
+   &quot;Stockholders&#x27; Equity&quot; or &quot;Subsequent Events&quot; note usually states
+   whether the ATM remains effective and how much has been sold during
+   the period.
+6. **Stamp with `lookahead-safety`.** Whatever you conclude is true
+   only as of the LATEST filing in your set. An ATM established last
+   week was not active last month.
+
+## Decision rule for &quot;is dilution imminent&quot;
+
+Active ATM + low cash runway (&lt;6 months) in last 10-Q + recent strength
+(green day, gap up) = **highest-probability dilution window**</code></pre>
+<p><em>Content truncated. View full file in the source repo (linked above).</em></p><p><a href="https://github.com/jefrnc/quant-llm-skills/blob/HEAD/.cursor/rules/atm-detection.mdc" rel="external">View raw on GitHub</a></p>
+</section>
+<section><h2>Why this is listed</h2>
+<p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
+<section><h2>Similar in this tracker</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/r/Mark393295827/third-brain-v7-skills/">Mark393295827/third-brain-v7-skills (stars:133)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/KbWen/agentic-os/">KbWen/agentic-os (stars:123)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/aaddrick/attention-control/">aaddrick/attention-control (stars:69)</a></li>
+</ul></section>
+<section><h2>Explore by category</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/popular/">Popular (by stars)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/recent/">Recent (by activity)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/new/">New this week</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/lang/python/">All Python entries</a></li>
+</ul></section>
+</main>
+<footer>
+Auto-updated every 15 minutes via GitHub Actions &#183; <a href="https://linny006.github.io/cursor-rules-live/">tracker root</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/sitemap.xml">sitemap</a>
+</footer>
+</div>
+</body>
+</html>
