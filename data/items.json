@@ -1,5 +1,23 @@
 [
   {
+    "description": "\ud83d\ude80 Universal Open-Source AI Agent Skills & Rules Library for Antigravity, Cursor, Claude Code, GitHub Copilot, OpenAI Cod",
+    "id": "GktuOktay/ai-skills",
+    "language": "Python",
+    "name": "GktuOktay/ai-skills",
+    "stars": 0,
+    "updated_at": "2026-08-12T06:37:12Z",
+    "url": "https://github.com/GktuOktay/ai-skills"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-08-12T06:30:33Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
     "id": "J-nowcow/awesome-korean-agent-skills",
     "language": "\u2014",
@@ -25,15 +43,6 @@
     "stars": 0,
     "updated_at": "2026-08-12T06:17:54Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-08-12T06:16:00Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -494,14 +503,5 @@
     "stars": 0,
     "updated_at": "2026-08-09T08:49:58Z",
     "url": "https://github.com/akashwadhwani35/anti-slop-design"
-  },
-  {
-    "description": "AI agent skill for Redux-Saga \u2014 25 rules: effects, fork model, channels, RTK integration. Works with Claude Code, Cursor",
-    "id": "anivar/redux-saga-skill",
-    "language": "\u2014",
-    "name": "anivar/redux-saga-skill",
-    "stars": 2,
-    "updated_at": "2026-08-08T18:18:26Z",
-    "url": "https://github.com/anivar/redux-saga-skill"
   }
 ]
