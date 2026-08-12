@@ -1,11 +1,20 @@
 [
   {
+    "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
+    "id": "fluttersdk/wind",
+    "language": "Dart",
+    "name": "fluttersdk/wind",
+    "stars": 31,
+    "updated_at": "2026-08-12T09:30:13Z",
+    "url": "https://github.com/fluttersdk/wind"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-12T09:12:13Z",
+    "updated_at": "2026-08-12T09:15:32Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -494,14 +503,5 @@
     "stars": 3,
     "updated_at": "2026-08-09T12:39:02Z",
     "url": "https://github.com/apervashov/typescript-learning-assistant"
-  },
-  {
-    "description": "Anti-AI-slop design skill for editorial and data-viz pages: ~55 cited tells, a dependency-free scanner, and a worked exa",
-    "id": "akashwadhwani35/anti-slop-design",
-    "language": "JavaScript",
-    "name": "akashwadhwani35/anti-slop-design",
-    "stars": 0,
-    "updated_at": "2026-08-09T08:49:58Z",
-    "url": "https://github.com/akashwadhwani35/anti-slop-design"
   }
 ]
