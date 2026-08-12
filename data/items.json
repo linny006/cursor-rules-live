@@ -1,11 +1,20 @@
 [
   {
+    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 123,
+    "updated_at": "2026-08-12T02:05:59Z",
+    "url": "https://github.com/KbWen/agentic-os"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-12T01:45:47Z",
+    "updated_at": "2026-08-12T02:00:36Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -129,15 +138,6 @@
     "stars": 1,
     "updated_at": "2026-08-11T19:12:07Z",
     "url": "https://github.com/sungurerdim/dev-skills"
-  },
-  {
-    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
-    "id": "KbWen/agentic-os",
-    "language": "Python",
-    "name": "KbWen/agentic-os",
-    "stars": 123,
-    "updated_at": "2026-08-12T01:39:34Z",
-    "url": "https://github.com/KbWen/agentic-os"
   },
   {
     "cursorrules": {
