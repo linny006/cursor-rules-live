@@ -1,12 +1,17 @@
 [
   {
-    "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
-    "id": "fluttersdk/wind",
-    "language": "Dart",
-    "name": "fluttersdk/wind",
-    "stars": 31,
-    "updated_at": "2026-08-12T09:41:57Z",
-    "url": "https://github.com/fluttersdk/wind"
+    "cursorrules": {
+      "content": "---\ndescription: Never commit or push without explicit user instruction.\nalwaysApply: true\n---\n\n# No auto-commit\n\nNever run `git commit`, `git push`, `git tag`, or `npm publish` unless the user explicitly asks (e.g. \"commit this\", \"push\", \"publish\").\n\n- Show the user what changed and let them decide.\n- Use `git diff` or `git status` output to summarise changes in your response instead.\n- If you are about to perform a git write operation, stop and confirm first.\n\nThis applies regardless of how small, clean, or obviously-correct the change appears.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/no-auto-commit.mdc"
+    },
+    "description": "Make Cursor project-aware with repo-level rules, memory, workflows, verifier agents, and localization prompts.",
+    "id": "KingEmma7/cursor-os",
+    "language": "JavaScript",
+    "name": "KingEmma7/cursor-os",
+    "stars": 2,
+    "updated_at": "2026-08-12T09:57:03Z",
+    "url": "https://github.com/KingEmma7/cursor-os"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +19,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-12T09:30:41Z",
+    "updated_at": "2026-08-12T09:45:54Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
+    "id": "fluttersdk/wind",
+    "language": "Dart",
+    "name": "fluttersdk/wind",
+    "stars": 31,
+    "updated_at": "2026-08-12T09:53:37Z",
+    "url": "https://github.com/fluttersdk/wind"
   },
   {
     "cursorrules": {
@@ -46,7 +60,7 @@
     "language": "Python",
     "name": "KbWen/agentic-os",
     "stars": 123,
-    "updated_at": "2026-08-12T08:51:49Z",
+    "updated_at": "2026-08-12T09:54:07Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
   {
@@ -450,7 +464,7 @@
     "id": "aaddrick/attention-control",
     "language": "Python",
     "name": "aaddrick/attention-control",
-    "stars": 72,
+    "stars": 73,
     "updated_at": "2026-08-09T16:39:53Z",
     "url": "https://github.com/aaddrick/attention-control"
   },
@@ -489,19 +503,5 @@
     "stars": 3,
     "updated_at": "2026-08-09T13:40:43Z",
     "url": "https://github.com/babarda/open-visualization-protocol-v1"
-  },
-  {
-    "cursorrules": {
-      "content": "# TypeScript learning tutor\n\nCanonical source: AGENTS.md \u2014 keep this file in sync.\n\nYou are the learner\u2019s programming mentor for TypeScript.\n\n## Project map\n\n- ts-tracker.html \u2014 progress tracker\n- ts-tracker-state.js \u2014 saved lesson state\n- 01) \u2026 / R1) \u2026 \u2014 lesson folders with exercises.ts and NOTES.md\n- Product tasks live in the same lesson folder: task.ts (single-concept) and task-cumulative.ts (combines with previous lessons) \u2014 see rule 6\n\n## Rules of teaching\n\n1. Use ts-tracker.html as the track for teaching TypeScript.\n2. Require at least 3 attempts and subtly push the learner in the right direction.\n3. Teach best practices alongside basic usage. Do not introduce a best practice if the learner has not learned about 70% of the concepts used in it.\n4. Do not accept vague / chaotic wording. Require vocabulary that any programmer would understand in the language the learner uses with you.\n   Example: Russian \u00ab\u043e\u0433\u043b\u0430\u0448\u0435\u043d\u0438\u0435\u00bb \u2248 \u201cdeclaration\u201d.\n5. Don't leave the learner guessing indefinitely. If their attempts still lack the correct reasoning, explicitly teach the thought process for that class of problem and the under-the-hood mechanics worth remembering \u2014 not just the answer to one exercise.\n6. Once the learner answers a lesson's questions/exercises correctly, create task.ts (focused on the current concept) and task-cumulative.ts (combines it with previously completed lessons, per ts-tracker-state.js) in that lesson folder. Scaffold only a runnable entry point (imports, function signature, call site/runner) \u2014 never the core logic. Learner's focus stays on writing the logic.\n\n## Never do that\n\n1. Never give an answer until the user shows attempts and explains the logic behind those approaches.\n2. Do not make code unreadable or overly simple.\n3. Never explain a topic without a real use case.\n\n## Communication\n\n- Reply in the learner\u2019s chat language (typically Russian).\n- Keep code in English.\n- No comments or console.log unless asked, or required by the exercise.\n",
-      "format": "text",
-      "path": ".cursorrules"
-    },
-    "description": "Learn TypeScript with Handbook-aligned exercises, a local progress tracker, and AI mentor rules that give hints \u2014 not sp",
-    "id": "apervashov/typescript-learning-assistant",
-    "language": "HTML",
-    "name": "apervashov/typescript-learning-assistant",
-    "stars": 3,
-    "updated_at": "2026-08-09T12:39:02Z",
-    "url": "https://github.com/apervashov/typescript-learning-assistant"
   }
 ]
