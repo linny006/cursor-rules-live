@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-08-13T01:15:51Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
     "id": "edsondviana8/ai-humanizer-core",
     "language": "HTML",
@@ -16,15 +25,6 @@
     "stars": 0,
     "updated_at": "2026-08-13T01:04:08Z",
     "url": "https://github.com/sublimecoder/sublimecoding"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-08-13T01:00:49Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -149,7 +149,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 19353,
+    "stars": 19355,
     "updated_at": "2026-08-12T11:21:24Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -284,6 +284,20 @@
     "stars": 46,
     "updated_at": "2026-08-11T22:17:26Z",
     "url": "https://github.com/adriannoes/awesome-agentic-ai"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Astro + Strapi Blocks \u2014 StrapiBlocks, data, theme (extend/overwrite), custom blocks\nglobs: \"**/*.{astro,ts}\"\nalwaysApply: false\n---\n\n# Astro Strapi Blocks\n\n- **Import:** `StrapiBlocks` from `@sensinum/astro-strapi-blocks`. **`data`:** raw Strapi 5 Blocks array (`StrapiBlockField`); use the same field the API already returns (e.g. `page.content`, `item.description`).\n\n- **Theme:** `theme={{ extend: { \u2026 } }}` appends/merges with defaults; `overwrite` replaces class arrays at each path. Library order: `overwrite` first, then `extend`. For nested list markers, set `list.indent.ordered` / `unordered` as per-level class arrays; see package README.\n\n- **Custom components:** `blocks={{ heading: MyHeading, \u2026 }}`. Each Astro override must match the block\u2019s props (`data`, `theme`, and type-specific props in README). Use `renderPropertyClasses` / `getPropertyClass` from the package when reusing theme paths.\n\n- **New CMS block types** need Strapi schema support; this component only dispatches built-in `type` values\u2014combine with dynamic zones and parent switches for non-standard blocks.\n\n- Deeper context: repository `.ai/astro-strapi-blocks/SKILL.md` and root `README.md`.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/astro-strapi-blocks.mdc"
+    },
+    "description": "Astro blocks for Strapi Rich Text Block field",
+    "id": "VirtusLab-Open-Source/astro-strapi-blocks",
+    "language": "TypeScript",
+    "name": "VirtusLab-Open-Source/astro-strapi-blocks",
+    "stars": 21,
+    "updated_at": "2026-08-11T21:31:42Z",
+    "url": "https://github.com/VirtusLab-Open-Source/astro-strapi-blocks"
   },
   {
     "description": "Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior",
@@ -499,14 +513,5 @@
     "stars": 16,
     "updated_at": "2026-08-09T16:13:11Z",
     "url": "https://github.com/mikeprasad/aria-knowledge"
-  },
-  {
-    "description": "OVP: the open visualization protocol for describing, validating, and rendering information design identically, for human",
-    "id": "babarda/open-visualization-protocol",
-    "language": "HTML",
-    "name": "babarda/open-visualization-protocol",
-    "stars": 0,
-    "updated_at": "2026-08-09T14:56:32Z",
-    "url": "https://github.com/babarda/open-visualization-protocol"
   }
 ]

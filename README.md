@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-08-13 01:15 UTC
+> ⏰ Last updated: 2026-08-13 01:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,9 +53,9 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-08-13 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
-| 2 | [sublimecoder/sublimecoding](https://github.com/sublimecoder/sublimecoding) | 0 | — | 2026-08-13 | — | 🛠️ Free Claude Code & Cursor prompts for senior engineers — plus AIOS, an open-source markdown memory system for coding  |
-| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 1 | HTML | 2026-08-13 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 1 | HTML | 2026-08-13 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-08-13 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
+| 3 | [sublimecoder/sublimecoding](https://github.com/sublimecoder/sublimecoding) | 0 | — | 2026-08-13 | — | 🛠️ Free Claude Code & Cursor prompts for senior engineers — plus AIOS, an open-source markdown memory system for coding  |
 | 4 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-08-13 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
 | 5 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-08-12 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
 | 6 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-08-12 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
@@ -68,7 +68,7 @@ expired items removed — so you can rely on what you see being current.
 | 13 | [PiloTracer/.ai](https://github.com/PiloTracer/.ai) | 0 | Shell | 2026-08-12 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/PiloTracer/.ai/) | Portable process framework for software teams shipping with coding agents (Cursor, Claude Code, Codex, opencode). Skills |
 | 14 | [powersync-ja/agent-skills](https://github.com/powersync-ja/agent-skills) | 18 | JavaScript | 2026-08-12 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/powersync-ja/agent-skills/) | Official agent skills for PowerSync |
 | 15 | [pekral/cursor-rules](https://github.com/pekral/cursor-rules) | 5 | PHP | 2026-08-12 | — | PHP and Laravel Cursor rules — coding standards, testing, and conventions for the Cursor editor. Install via Composer. |
-| 16 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 19353 | Shell | 2026-08-12 | — | 🎭 267 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 52 个中国市场原创智能体（小红书/抖音/ |
+| 16 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 19355 | Shell | 2026-08-12 | — | 🎭 267 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 52 个中国市场原创智能体（小红书/抖音/ |
 | 17 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 14 | TypeScript | 2026-08-12 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
 | 18 | [orin-dx/agent-plugins](https://github.com/orin-dx/agent-plugins) | 1 | Shell | 2026-08-12 | — | Official AI Agent Plugins & Skills Marketplace for Antigravity (AGY), Claude Code, and Cursor |
 | 19 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-08-12 | — | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
@@ -82,27 +82,27 @@ expired items removed — so you can rely on what you see being current.
 | 27 | [Luxvil/ai-coding-rules](https://github.com/Luxvil/ai-coding-rules) | 3 | Shell | 2026-08-12 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Luxvil/ai-coding-rules/) | 🤖 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje |
 | 28 | [GeiserX/lynxprompt-vscode](https://github.com/GeiserX/lynxprompt-vscode) | 1 | TypeScript | 2026-08-11 | — | VS Code extension for LynxPrompt — browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules)  |
 | 29 | [adriannoes/awesome-agentic-ai](https://github.com/adriannoes/awesome-agentic-ai) | 46 | Jupyter Notebook | 2026-08-11 | — | 329 agent skills (Cursor, Claude Code & Codex), 5,380 OpenClaw skills, 201 ML notebooks, 8 textbooks, 82 research papers |
-| 30 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 17 | Python | 2026-08-11 | — | Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior |
-| 31 | [jefrnc/quant-llm-skills](https://github.com/jefrnc/quant-llm-skills) | 0 | Python | 2026-08-11 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/jefrnc/quant-llm-skills/) | Skills for quant research with LLMs that don't fall for the traps nobody talks about. Lookahead bias, ATM detection, sur |
-| 32 | [djtelicloud/grok-mcp-server](https://github.com/djtelicloud/grok-mcp-server) | 23 | Python | 2026-08-11 | — | Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API  |
-| 33 | [incline-ltd/coding-agent-guidelines](https://github.com/incline-ltd/coding-agent-guidelines) | 0 | JavaScript | 2026-08-11 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/incline-ltd/coding-agent-guidelines/) | Drop-in behavioral guidelines for Claude Code, Cursor, and AI coding agents. |
-| 34 | [sscodeai/agency-agents-ja](https://github.com/sscodeai/agency-agents-ja) | 4 | Shell | 2026-08-11 | — | 323個の即戦力AI専門エージェント — Claude Code/Cursor/Copilot等に対応。SIer/受託開発/SaaS/製造DX/公共分野など日本市場向け114個のオリジナルを含む、agency-agents日本語コミュニティ |
-| 35 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-08-11 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
-| 36 | [Bastioned-successor320/learn-nanobot](https://github.com/Bastioned-successor320/learn-nanobot) | 6 | Python | 2026-08-11 | — | Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers |
-| 37 | [johnwall123459885/skene-cookbook](https://github.com/johnwall123459885/skene-cookbook) | 0 | Python | 2026-08-11 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/johnwall123459885/skene-cookbook/) | 🤖 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development. |
-| 38 | [FuDie0915/Riper5-cursor-skills](https://github.com/FuDie0915/Riper5-cursor-skills) | 2 | Python | 2026-08-11 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/FuDie0915/Riper5-cursor-skills/) | RIPER-5 AI 编码行为协议 — 面向 Cursor 的结构化技能套件，通过 DSL 声明式约束实现严格的模式隔离与行为控制 |
-| 39 | [plumpslabs/matcha](https://github.com/plumpslabs/matcha) | 1 | JavaScript | 2026-08-11 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/plumpslabs/matcha/) | 🍵 Deliberate engineering guidelines & deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block |
-| 40 | [mountopjh/Agents.md](https://github.com/mountopjh/Agents.md) | 2 | — | 2026-08-10 | — | 🧠 结合 Karpathy 理念与第一性原理的通用 AI Agent 编码准则模版 (AGENTS.md) |
-| 41 | [GeiserX/homebrew-lynxprompt](https://github.com/GeiserX/homebrew-lynxprompt) | 2 | Ruby | 2026-08-10 | — | Homebrew tap for LynxPrompt CLI |
-| 42 | [MCLeut/service-cursor](https://github.com/MCLeut/service-cursor) | 0 | JavaScript | 2026-08-10 | — | Modulares Cursor-Setup fuer agentisches Arbeiten - Regeln, Hooks, Subagenten und MCP, jeder Schluessel gegen eine echte  |
-| 43 | [glowElephant/context-forge](https://github.com/glowElephant/context-forge) | 2 | Python | 2026-08-10 | — | Auto harness engineering meta-repo: discuss → curate → bootstrap a context-engineered project for Claude Code, Cursor, C |
-| 44 | [taniwhaai/arai](https://github.com/taniwhaai/arai) | 7 | Rust | 2026-08-10 | — | Your AI assistant reads CLAUDE.md and ignores it anyway. Ārai makes instruction files enforced — hooks that block, a tam |
-| 45 | [jdiazromeral/melon](https://github.com/jdiazromeral/melon) | 0 | — | 2026-08-09 | — | Adversarial first-principles engineering and prompt review protocol based on Elon Musk's 5-step algorithm |
-| 46 | [aaddrick/slushpile](https://github.com/aaddrick/slushpile) | 14 | Python | 2026-08-09 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/aaddrick/slushpile/) | An adversarial job search that gets better as it goes: pool-anchored fit scoring, a resume and cover letter built agains |
-| 47 | [apoorv-kulkarni/initMe](https://github.com/apoorv-kulkarni/initMe) | 0 | Shell | 2026-08-09 | — | I got tired moving configs between devices |
-| 48 | [aaddrick/attention-control](https://github.com/aaddrick/attention-control) | 74 | Python | 2026-08-09 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/aaddrick/attention-control/) | Air traffic control discipline for agent output. Written for a reader with ADHD. |
-| 49 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 16 | Shell | 2026-08-09 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
-| 50 | [babarda/open-visualization-protocol](https://github.com/babarda/open-visualization-protocol) | 0 | HTML | 2026-08-09 | — | OVP: the open visualization protocol for describing, validating, and rendering information design identically, for human |
+| 30 | [VirtusLab-Open-Source/astro-strapi-blocks](https://github.com/VirtusLab-Open-Source/astro-strapi-blocks) | 21 | TypeScript | 2026-08-11 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/VirtusLab-Open-Source/astro-strapi-blocks/) | Astro blocks for Strapi Rich Text Block field |
+| 31 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 17 | Python | 2026-08-11 | — | Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior |
+| 32 | [jefrnc/quant-llm-skills](https://github.com/jefrnc/quant-llm-skills) | 0 | Python | 2026-08-11 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/jefrnc/quant-llm-skills/) | Skills for quant research with LLMs that don't fall for the traps nobody talks about. Lookahead bias, ATM detection, sur |
+| 33 | [djtelicloud/grok-mcp-server](https://github.com/djtelicloud/grok-mcp-server) | 23 | Python | 2026-08-11 | — | Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API  |
+| 34 | [incline-ltd/coding-agent-guidelines](https://github.com/incline-ltd/coding-agent-guidelines) | 0 | JavaScript | 2026-08-11 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/incline-ltd/coding-agent-guidelines/) | Drop-in behavioral guidelines for Claude Code, Cursor, and AI coding agents. |
+| 35 | [sscodeai/agency-agents-ja](https://github.com/sscodeai/agency-agents-ja) | 4 | Shell | 2026-08-11 | — | 323個の即戦力AI専門エージェント — Claude Code/Cursor/Copilot等に対応。SIer/受託開発/SaaS/製造DX/公共分野など日本市場向け114個のオリジナルを含む、agency-agents日本語コミュニティ |
+| 36 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-08-11 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
+| 37 | [Bastioned-successor320/learn-nanobot](https://github.com/Bastioned-successor320/learn-nanobot) | 6 | Python | 2026-08-11 | — | Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers |
+| 38 | [johnwall123459885/skene-cookbook](https://github.com/johnwall123459885/skene-cookbook) | 0 | Python | 2026-08-11 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/johnwall123459885/skene-cookbook/) | 🤖 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development. |
+| 39 | [FuDie0915/Riper5-cursor-skills](https://github.com/FuDie0915/Riper5-cursor-skills) | 2 | Python | 2026-08-11 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/FuDie0915/Riper5-cursor-skills/) | RIPER-5 AI 编码行为协议 — 面向 Cursor 的结构化技能套件，通过 DSL 声明式约束实现严格的模式隔离与行为控制 |
+| 40 | [plumpslabs/matcha](https://github.com/plumpslabs/matcha) | 1 | JavaScript | 2026-08-11 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/plumpslabs/matcha/) | 🍵 Deliberate engineering guidelines & deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block |
+| 41 | [mountopjh/Agents.md](https://github.com/mountopjh/Agents.md) | 2 | — | 2026-08-10 | — | 🧠 结合 Karpathy 理念与第一性原理的通用 AI Agent 编码准则模版 (AGENTS.md) |
+| 42 | [GeiserX/homebrew-lynxprompt](https://github.com/GeiserX/homebrew-lynxprompt) | 2 | Ruby | 2026-08-10 | — | Homebrew tap for LynxPrompt CLI |
+| 43 | [MCLeut/service-cursor](https://github.com/MCLeut/service-cursor) | 0 | JavaScript | 2026-08-10 | — | Modulares Cursor-Setup fuer agentisches Arbeiten - Regeln, Hooks, Subagenten und MCP, jeder Schluessel gegen eine echte  |
+| 44 | [glowElephant/context-forge](https://github.com/glowElephant/context-forge) | 2 | Python | 2026-08-10 | — | Auto harness engineering meta-repo: discuss → curate → bootstrap a context-engineered project for Claude Code, Cursor, C |
+| 45 | [taniwhaai/arai](https://github.com/taniwhaai/arai) | 7 | Rust | 2026-08-10 | — | Your AI assistant reads CLAUDE.md and ignores it anyway. Ārai makes instruction files enforced — hooks that block, a tam |
+| 46 | [jdiazromeral/melon](https://github.com/jdiazromeral/melon) | 0 | — | 2026-08-09 | — | Adversarial first-principles engineering and prompt review protocol based on Elon Musk's 5-step algorithm |
+| 47 | [aaddrick/slushpile](https://github.com/aaddrick/slushpile) | 14 | Python | 2026-08-09 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/aaddrick/slushpile/) | An adversarial job search that gets better as it goes: pool-anchored fit scoring, a resume and cover letter built agains |
+| 48 | [apoorv-kulkarni/initMe](https://github.com/apoorv-kulkarni/initMe) | 0 | Shell | 2026-08-09 | — | I got tired moving configs between devices |
+| 49 | [aaddrick/attention-control](https://github.com/aaddrick/attention-control) | 74 | Python | 2026-08-09 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/aaddrick/attention-control/) | Air traffic control discipline for agent output. Written for a reader with ADHD. |
+| 50 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 16 | Shell | 2026-08-09 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
 <!-- TRACKER_TABLE_END -->
 
 ---
