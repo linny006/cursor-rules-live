@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-08-13 20:04 UTC
+> ⏰ Last updated: 2026-08-13 20:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,18 +53,18 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 1 | HTML | 2026-08-13 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 2 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-08-13 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
-| 3 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-08-13 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
-| 4 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-08-13 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
-| 5 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-08-13 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 6 | [Bastioned-successor320/learn-nanobot](https://github.com/Bastioned-successor320/learn-nanobot) | 7 | Python | 2026-08-13 | — | Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers |
-| 7 | [johnwall123459885/skene-cookbook](https://github.com/johnwall123459885/skene-cookbook) | 0 | Python | 2026-08-13 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/johnwall123459885/skene-cookbook/) | 🤖 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development. |
-| 8 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-08-13 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
-| 9 | [akashwadhwani35/anti-slop-design](https://github.com/akashwadhwani35/anti-slop-design) | 0 | JavaScript | 2026-08-13 | — | Anti-AI-slop design skill for editorial and data-viz pages: ~55 cited tells, a dependency-free scanner, and a worked exa |
-| 10 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 16 | Shell | 2026-08-13 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
-| 11 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 123 | Python | 2026-08-13 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
-| 12 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 33 | — | 2026-08-13 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
+| 1 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 33 | — | 2026-08-13 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
+| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 1 | HTML | 2026-08-13 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 3 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-08-13 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
+| 4 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-08-13 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
+| 5 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-08-13 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
+| 6 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-08-13 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
+| 7 | [Bastioned-successor320/learn-nanobot](https://github.com/Bastioned-successor320/learn-nanobot) | 7 | Python | 2026-08-13 | — | Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers |
+| 8 | [johnwall123459885/skene-cookbook](https://github.com/johnwall123459885/skene-cookbook) | 0 | Python | 2026-08-13 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/johnwall123459885/skene-cookbook/) | 🤖 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development. |
+| 9 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-08-13 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
+| 10 | [akashwadhwani35/anti-slop-design](https://github.com/akashwadhwani35/anti-slop-design) | 0 | JavaScript | 2026-08-13 | — | Anti-AI-slop design skill for editorial and data-viz pages: ~55 cited tells, a dependency-free scanner, and a worked exa |
+| 11 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 16 | Shell | 2026-08-13 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
+| 12 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 123 | Python | 2026-08-13 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
 | 13 | [deangrant/agents](https://github.com/deangrant/agents) | 0 | Shell | 2026-08-13 | — | Reusable agent commands, hooks, rules and skills for consistent, AI-assisted coding and domain guidance across projects. |
 | 14 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 19414 | Shell | 2026-08-13 | — | 🎭 267 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 52 个中国市场原创智能体（小红书/抖音/ |
 | 15 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-08-13 | — | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
