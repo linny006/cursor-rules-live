@@ -1,11 +1,20 @@
 [
   {
+    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 123,
+    "updated_at": "2026-08-13T14:44:25Z",
+    "url": "https://github.com/KbWen/agentic-os"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-13T14:15:52Z",
+    "updated_at": "2026-08-13T14:30:42Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -27,15 +36,6 @@
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
-    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
-    "id": "KbWen/agentic-os",
-    "language": "Python",
-    "name": "KbWen/agentic-os",
-    "stars": 123,
-    "updated_at": "2026-08-13T14:18:26Z",
-    "url": "https://github.com/KbWen/agentic-os"
-  },
-  {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
     "id": "Trentobobbi/uikit-mastery-playbook",
     "language": "HTML",
@@ -52,6 +52,15 @@
     "stars": 0,
     "updated_at": "2026-08-13T13:21:39Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+  },
+  {
+    "description": "Reusable agent commands, hooks, rules and skills for consistent, AI-assisted coding and domain guidance across projects.",
+    "id": "deangrant/agents",
+    "language": "Shell",
+    "name": "deangrant/agents",
+    "stars": 0,
+    "updated_at": "2026-08-13T12:54:17Z",
+    "url": "https://github.com/deangrant/agents"
   },
   {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
@@ -90,7 +99,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 19405,
+    "stars": 19406,
     "updated_at": "2026-08-13T11:39:00Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -499,14 +508,5 @@
     "stars": 2,
     "updated_at": "2026-08-10T05:14:08Z",
     "url": "https://github.com/glowElephant/context-forge"
-  },
-  {
-    "description": "Adversarial first-principles engineering and prompt review protocol based on Elon Musk's 5-step algorithm",
-    "id": "jdiazromeral/melon",
-    "language": "\u2014",
-    "name": "jdiazromeral/melon",
-    "stars": 0,
-    "updated_at": "2026-08-09T20:47:44Z",
-    "url": "https://github.com/jdiazromeral/melon"
   }
 ]
