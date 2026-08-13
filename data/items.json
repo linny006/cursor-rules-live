@@ -1,11 +1,29 @@
 [
   {
+    "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
+    "id": "mikeprasad/aria-knowledge",
+    "language": "Shell",
+    "name": "mikeprasad/aria-knowledge",
+    "stars": 16,
+    "updated_at": "2026-08-13T17:58:07Z",
+    "url": "https://github.com/mikeprasad/aria-knowledge"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-08-13T17:50:23Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-13T17:30:47Z",
+    "updated_at": "2026-08-13T17:45:33Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -52,15 +70,6 @@
     "stars": 33,
     "updated_at": "2026-08-13T16:55:55Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-08-13T16:44:39Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Reusable agent commands, hooks, rules and skills for consistent, AI-assisted coding and domain guidance across projects.",
@@ -499,14 +508,5 @@
     "stars": 0,
     "updated_at": "2026-08-10T07:47:07Z",
     "url": "https://github.com/MCLeut/service-cursor"
-  },
-  {
-    "description": "Auto harness engineering meta-repo: discuss \u2192 curate \u2192 bootstrap a context-engineered project for Claude Code, Cursor, C",
-    "id": "glowElephant/context-forge",
-    "language": "Python",
-    "name": "glowElephant/context-forge",
-    "stars": 2,
-    "updated_at": "2026-08-10T05:14:08Z",
-    "url": "https://github.com/glowElephant/context-forge"
   }
 ]
