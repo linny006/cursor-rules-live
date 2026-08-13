@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<title>kleosr/cursorkleosr - entry on Cursor Rules Live</title>
+<meta name="description" content="Make AI Development Feel Natural in Cursor">
+<link rel="canonical" href="https://linny006.github.io/cursor-rules-live/r/kleosr/cursorkleosr/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="kleosr/cursorkleosr - entry on Cursor Rules Live">
+<meta property="og:description" content="Make AI Development Feel Natural in Cursor">
+<meta property="og:url" content="https://linny006.github.io/cursor-rules-live/r/kleosr/cursorkleosr/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="kleosr/cursorkleosr - entry on Cursor Rules Live">
+<meta name="twitter:description" content="Make AI Development Feel Natural in Cursor">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"kleosr/cursorkleosr","codeRepository":"https://github.com/kleosr/cursorkleosr","programmingLanguage":"—","url":"https://linny006.github.io/cursor-rules-live/r/kleosr/cursorkleosr/","description":"Make AI Development Feel Natural in Cursor","author":{"@type":"Person","name":"kleosr","url":"https://github.com/kleosr"},"dateModified":"2026-08-13"}</script>
+<style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
+         --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 16px; font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--fg); background: var(--bg); }
+.wrap { max-width: var(--max); margin: 0 auto; }
+nav.bc { font-size: 14px; color: var(--muted); margin-bottom: 16px; }
+nav.bc a { color: var(--muted); }
+h1 { font-size: 28px; margin: 0 0 8px; }
+h2 { font-size: 20px; margin: 24px 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+p.lead { font-size: 18px; color: var(--muted); margin: 0 0 24px; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+th, td { padding: 8px 12px; text-align: left; border-bottom: 1px solid var(--border); }
+th { background: var(--card); font-weight: 600; }
+ul.crosslinks { list-style: none; padding: 0; }
+ul.crosslinks li { padding: 6px 0; }
+ul.crosslinks li a { font-weight: 500; }
+.meta { display: flex; gap: 16px; flex-wrap: wrap; color: var(--muted); font-size: 14px; margin: 12px 0; }
+.meta span::before { content: "\00b7"; margin-right: 8px; color: var(--border); }
+.meta span:first-child::before { content: ""; }
+footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--border); font-size: 14px; color: var(--muted); }</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="bc"><a href="https://linny006.github.io/cursor-rules-live/">Cursor Rules Live</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/popular/">Entries</a> &#183; <span>kleosr/cursorkleosr</span></nav>
+<main>
+<h1>kleosr/cursorkleosr</h1>
+<p class="lead">Make AI Development Feel Natural in Cursor</p>
+<div class="meta">
+<span><strong>Stars</strong> 326</span>
+<span><strong>Language</strong> —</span>
+<span><strong>Last updated</strong> 2026-08-13</span>
+<span><a href="https://github.com/kleosr/cursorkleosr" rel="external">Source on GitHub</a></span>
+<span><a href="https://github.com/kleosr" rel="external">@kleosr</a></span>
+</div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/workflow-memory.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
+description: Workflow memory operating loop — read root state before acting, write state back after meaningful change
+globs:
+alwaysApply: true
+---
+
+# Workflow Memory
+
+This repository keeps agent memory in root markdown files. Follow this loop every session.
+
+## Session Start
+
+1. Read `workflow_state.md` — current phase, plan, blockers, log.
+2. Read `project_config.md` — goals, stack, patterns, constraints.
+3. Reconstruct the next action from those files before proposing or making changes.
+
+## Loop
+
+One phase at a time: `ANALYZE → PREPARE → IMPLEMENT → VALIDATE`.
+
+- ANALYZE: inspect relevant files and current state before deciding.
+- PREPARE: short plan; identify the checks `project_config.md` requires.
+- IMPLEMENT: smallest coherent edits that satisfy the task.
+- VALIDATE: run the checks appropriate for the repo; report what could not run.
+- ROLLBACK: only when the approach must be abandoned and state preserved.
+
+## State Writes
+
+Update `workflow_state.md` only after meaningful change: a phase transition, a completed task, a blocker, or a validation result that changes the next action. No per-message summaries. Preserve headings, keep entries concise.
+
+Update `project_config.md` only for durable changes: goals, stack, patterns, constraints, changelog. No live task notes there.
+
+Never store secrets, tokens, or credentials in memory files. Record only where they load from (env vars, secret manager).
+
+## Exit
+
+When work is complete, report result, changed files, and validation status. No post-completion questions, no optional next-step prompts. Wait for the next user message.
+</code></pre>
+<p><a href="https://github.com/kleosr/cursorkleosr/blob/HEAD/.cursor/rules/workflow-memory.mdc" rel="external">View raw on GitHub</a></p>
+</section>
+<section><h2>Why this is listed</h2>
+<p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
+<section><h2>Similar in this tracker</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/r/J-nowcow/awesome-korean-agent-skills/">J-nowcow/awesome-korean-agent-skills (stars:32)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/zinxj/uikit-expert-skill/">zinxj/uikit-expert-skill (stars:4)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/XAKLESK/cre-agent-skills/">XAKLESK/cre-agent-skills (stars:3)</a></li>
+</ul></section>
+<section><h2>Explore by category</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/popular/">Popular (by stars)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/recent/">Recent (by activity)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/new/">New this week</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/lang/x/">All — entries</a></li>
+</ul></section>
+</main>
+<footer>
+Auto-updated every 15 minutes via GitHub Actions &#183; <a href="https://linny006.github.io/cursor-rules-live/">tracker root</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/sitemap.xml">sitemap</a>
+</footer>
+</div>
+</body>
+</html>
