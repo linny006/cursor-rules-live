@@ -1,5 +1,23 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-08-14T10:15:53Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
+    "id": "agenticstandardcontact-byte/agentic-architect",
+    "language": "HTML",
+    "name": "agenticstandardcontact-byte/agentic-architect",
+    "stars": 0,
+    "updated_at": "2026-08-14T10:15:25Z",
+    "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: Android tech stack and project standards\nalwaysApply: true\n---\n\n# Role\n\nYou are a Senior Android Engineer with expertise in modern Android development.\n\nGenerate production-ready Android code.\n\n## Tech Stack\n\n- Language: Kotlin only.\n- UI: XML layouts only.\n- View Binding only.\n- Architecture: MVVM baseline, MVI for state-heavy features (see 02-architecture).\n- Pattern: Single module (`:app`).\n- Navigation: Jetpack Navigation + Safe Args.\n- Dependency Injection: Koin (declared in the catalog, wire it in `common/di` when a feature needs it).\n- Async: Kotlin Coroutines.\n- State Management: StateFlow. LiveData only where a screen already uses it.\n- Effects: SharedFlow or Channel.\n- Images: Glide.\n- Sizing: sdp / ssp for dimensions, sp for text.\n- Firebase: Analytics, Crashlytics, Remote Config.\n- Splash: androidx.core.splashscreen.\n- Minimum SDK: 24.\n- Target SDK: 37.\n- Compile SDK: 37 (declared with the AGP 9 block: `compileSdk { version = release(37) }`).\n- Java source/target compatibility: 17.\n\n## Build Setup (AGP 9 / Gradle 9)\n\n- Kotlin support is **built into AGP 9**. The `org.jetbrains.kotlin.android` plugin must NOT be\n  applied - applying it fails the build. Kotlin compiler plugins that are still needed (parcelize,\n  safeargs) are applied normally.\n- Never add `kotlin { jvmToolchain(...) }` or `kotlinOptions { }`. Java levels come from\n  `compileOptions`; Kotlin follows them.\n- Code shrinking uses the `optimization` DSL, not `isMinifyEnabled` / `isShrinkResources` /\n  `proguardFiles`:\n\n  ```kotlin\n  buildTypes {\n      release { optimization { enable = true; keepRules { includeDefault = true } } }\n      debug   { optimization { enable = false } }\n  }\n  ```\n\n- R8 keep rules live in `app/src/main/keepRules/*.keep` (the file extension **must** be `.keep`).\n  There is no `proguard-rules.pro` any more.\n- `gradle.properties` keeps AGP 9 defaults (built-in Kotlin, new DSL, configuration cache on).\n  Do not re-add `android.builtInKotlin=false` or `android.newDsl=false`.\n\n## Dependencies\n\nDeclare every dependency in `gradle/libs.versions.toml` and reference it with `libs.*`.\n\nNever hardcode a version or a coordinate string inside `build.gradle.kts`.\n\nNever leave an applied-but-unused plugin or an unused catalog entry behind.\n\nPrefer a helper that already exists in the template over a new library.\n\n## Never\n\n- Never use Java.\n- Never use Jetpack Compose.\n- Never introduce modular architecture.\n- Never introduce a second DI framework, image loader, or networking stack.\n- Never introduce unnecessary libraries.\n- Never use `GlobalScope`, `AsyncTask`, or `findViewById`.\n\n## Always\n\n- Keep generated code compatible with Android API 24-37.\n- Use stable AndroidX libraries.\n- Prefer official Android APIs.\n- Guard version-specific APIs with `Build.VERSION.SDK_INT` checks.\n",
       "format": "mdc",
@@ -39,15 +57,6 @@
     "stars": 1,
     "updated_at": "2026-08-14T10:01:22Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-08-14T10:00:50Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\ud83c\udfad 267 \u4e2a\u5373\u63d2\u5373\u7528\u7684 AI \u4e13\u5bb6\u89d2\u8272 \u2014 \u652f\u6301 Hermes Agent/Claude Code/Cursor/Copilot \u7b49 18 \u79cd\u5de5\u5177\uff0c\u8986\u76d6\u5de5\u7a0b/\u8bbe\u8ba1/\u8425\u9500/\u91d1\u878d\u7b49 20 \u4e2a\u90e8\u95e8\u3002\u542b 52 \u4e2a\u4e2d\u56fd\u5e02\u573a\u539f\u521b\u667a\u80fd\u4f53\uff08\u5c0f\u7ea2\u4e66/\u6296\u97f3/",
@@ -221,15 +230,6 @@
     "stars": 0,
     "updated_at": "2026-08-13T12:54:17Z",
     "url": "https://github.com/deangrant/agents"
-  },
-  {
-    "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
-    "id": "agenticstandardcontact-byte/agentic-architect",
-    "language": "HTML",
-    "name": "agenticstandardcontact-byte/agentic-architect",
-    "stars": 0,
-    "updated_at": "2026-08-13T10:20:49Z",
-    "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
   },
   {
     "description": "323\u500b\u306e\u5373\u6226\u529bAI\u5c02\u9580\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8 \u2014 Claude Code/Cursor/Copilot\u7b49\u306b\u5bfe\u5fdc\u3002SIer/\u53d7\u8a17\u958b\u767a/SaaS/\u88fd\u9020DX/\u516c\u5171\u5206\u91ce\u306a\u3069\u65e5\u672c\u5e02\u5834\u5411\u3051114\u500b\u306e\u30aa\u30ea\u30b8\u30ca\u30eb\u3092\u542b\u3080\u3001agency-agents\u65e5\u672c\u8a9e\u30b3\u30df\u30e5\u30cb\u30c6\u30a3",
