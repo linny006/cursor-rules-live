@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-08-14 07:30 UTC
+> ⏰ Last updated: 2026-08-14 07:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,8 +53,8 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 33 | — | 2026-08-14 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 1 | HTML | 2026-08-14 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 1 | HTML | 2026-08-14 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 33 | — | 2026-08-14 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
 | 3 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-08-14 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
 | 4 | [SID-SURANGE/cursor-team-ops](https://github.com/SID-SURANGE/cursor-team-ops) | 0 | Shell | 2026-08-14 | — | Enforcement & release-hygiene layer for Cursor agents — blocking git/DB/license guardrails, commit hygiene, and docs-ops |
 | 5 | [orbitalsonic/AndroidPilot](https://github.com/orbitalsonic/AndroidPilot) | 0 | — | 2026-08-14 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/orbitalsonic/AndroidPilot/) | Production-ready Android Engineering Rules for Cursor and other AI coding assistants. Build consistent, scalable, and ma |
@@ -73,7 +73,7 @@ expired items removed — so you can rely on what you see being current.
 | 18 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 16 | Shell | 2026-08-13 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
 | 19 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 123 | Python | 2026-08-13 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
 | 20 | [deangrant/agents](https://github.com/deangrant/agents) | 0 | Shell | 2026-08-13 | — | Reusable agent commands, hooks, rules and skills for consistent, AI-assisted coding and domain guidance across projects. |
-| 21 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 19441 | Shell | 2026-08-13 | — | 🎭 267 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 52 个中国市场原创智能体（小红书/抖音/ |
+| 21 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 19442 | Shell | 2026-08-13 | — | 🎭 267 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 52 个中国市场原创智能体（小红书/抖音/ |
 | 22 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-08-13 | — | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
 | 23 | [vibestackdev/vibe-stack](https://github.com/vibestackdev/vibe-stack) | 7 | TypeScript | 2026-08-13 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/) | 29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b |
 | 24 | [sscodeai/agency-agents-ja](https://github.com/sscodeai/agency-agents-ja) | 4 | Shell | 2026-08-13 | — | 323個の即戦力AI専門エージェント — Claude Code/Cursor/Copilot等に対応。SIer/受託開発/SaaS/製造DX/公共分野など日本市場向け114個のオリジナルを含む、agency-agents日本語コミュニティ |
