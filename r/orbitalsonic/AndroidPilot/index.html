@@ -14,7 +14,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="orbitalsonic/AndroidPilot - entry on Cursor Rules Live">
 <meta name="twitter:description" content="Production-ready Android Engineering Rules for Cursor and other AI coding assistants. Build consistent, scalable, and ma">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"orbitalsonic/AndroidPilot","codeRepository":"https://github.com/orbitalsonic/AndroidPilot","programmingLanguage":"—","url":"https://linny006.github.io/cursor-rules-live/r/orbitalsonic/AndroidPilot/","description":"Production-ready Android Engineering Rules for Cursor and other AI coding assistants. Build consistent, scalable, and ma","author":{"@type":"Person","name":"orbitalsonic","url":"https://github.com/orbitalsonic"},"dateModified":"2026-07-29"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"orbitalsonic/AndroidPilot","codeRepository":"https://github.com/orbitalsonic/AndroidPilot","programmingLanguage":"—","url":"https://linny006.github.io/cursor-rules-live/r/orbitalsonic/AndroidPilot/","description":"Production-ready Android Engineering Rules for Cursor and other AI coding assistants. Build consistent, scalable, and ma","author":{"@type":"Person","name":"orbitalsonic","url":"https://github.com/orbitalsonic"},"dateModified":"2026-08-14"}</script>
 <style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
          --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
 * { box-sizing: border-box; }
@@ -48,7 +48,7 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <div class="meta">
 <span><strong>Stars</strong> 0</span>
 <span><strong>Language</strong> —</span>
-<span><strong>Last updated</strong> 2026-07-29</span>
+<span><strong>Last updated</strong> 2026-08-14</span>
 <span><a href="https://github.com/orbitalsonic/AndroidPilot" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/orbitalsonic" rel="external">@orbitalsonic</a></span>
 </div>
@@ -70,38 +70,79 @@ Generate production-ready Android code.
 - Language: Kotlin only.
 - UI: XML layouts only.
 - View Binding only.
-- Architecture: MVI + Clean Architecture.
-- Pattern: Single Module.
-- Navigation: Jetpack Navigation.
-- Dependency Injection: Koin.
+- Architecture: MVVM baseline, MVI for state-heavy features (see 02-architecture).
+- Pattern: Single module (`:app`).
+- Navigation: Jetpack Navigation + Safe Args.
+- Dependency Injection: Koin (declared in the catalog, wire it in `common/di` when a feature needs it).
 - Async: Kotlin Coroutines.
-- State Management: StateFlow.
+- State Management: StateFlow. LiveData only where a screen already uses it.
 - Effects: SharedFlow or Channel.
+- Images: Glide.
+- Sizing: sdp / ssp for dimensions, sp for text.
+- Firebase: Analytics, Crashlytics, Remote Config.
+- Splash: androidx.core.splashscreen.
 - Minimum SDK: 24.
 - Target SDK: 37.
+- Compile SDK: 37 (declared with the AGP 9 block: `compileSdk { version = release(37) }`).
+- Java source/target compatibility: 17.
+
+## Build Setup (AGP 9 / Gradle 9)
+
+- Kotlin support is **built into AGP 9**. The `org.jetbrains.kotlin.android` plugin must NOT be
+  applied - applying it fails the build. Kotlin compiler plugins that are still needed (parcelize,
+  safeargs) are applied normally.
+- Never add `kotlin { jvmToolchain(...) }` or `kotlinOptions { }`. Java levels come from
+  `compileOptions`; Kotlin follows them.
+- Code shrinking uses the `optimization` DSL, not `isMinifyEnabled` / `isShrinkResources` /
+  `proguardFiles`:
+
+  ```kotlin
+  buildTypes {
+      release { optimization { enable = true; keepRules { includeDefault = true } } }
+      debug   { optimization { enable = false } }
+  }
+  ```
+
+- R8 keep rules live in `app/src/main/keepRules/*.keep` (the file extension **must** be `.keep`).
+  There is no `proguard-rules.pro` any more.
+- `gradle.properties` keeps AGP 9 defaults (built-in Kotlin, new DSL, configuration cache on).
+  Do not re-add `android.builtInKotlin=false` or `android.newDsl=false`.
+
+## Dependencies
+
+Declare every dependency in `gradle/libs.versions.toml` and reference it with `libs.*`.
+
+Never hardcode a version or a coordinate string inside `build.gradle.kts`.
+
+Never leave an applied-but-unused plugin or an unused catalog entry behind.
+
+Prefer a helper that already exists in the template over a new library.
 
 ## Never
 
 - Never use Java.
 - Never use Jetpack Compose.
-- Never use MVVM unless explicitly requested.
 - Never introduce modular architecture.
+- Never introduce a second DI framework, image loader, or networking stack.
 - Never introduce unnecessary libraries.
+- Never use `GlobalScope`, `AsyncTask`, or `findViewById`.
 
 ## Always
 
-- Keep generated code compatible with Android API 24–37.
+- Keep generated code compatible with Android API 24-37.
 - Use stable AndroidX libraries.
-- Prefer official Android APIs.</code></pre>
+- Prefer official Android APIs.
+- Guard version-specific APIs with `Build.VERSION.SDK_INT` checks.
+</code></pre>
 <p><a href="https://github.com/orbitalsonic/AndroidPilot/blob/HEAD/.cursor/rules/01-tech-stack.mdc" rel="external">View raw on GitHub</a></p>
 </section>
 <section><h2>Why this is listed</h2>
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>
 <ul class="crosslinks">
-<li><a href="https://linny006.github.io/cursor-rules-live/r/ilindaniel/impeccable-lite/">ilindaniel/impeccable-lite (stars:62)</a></li>
-<li><a href="https://linny006.github.io/cursor-rules-live/r/J-nowcow/awesome-korean-agent-skills/">J-nowcow/awesome-korean-agent-skills (stars:29)</a></li>
-<li><a href="https://linny006.github.io/cursor-rules-live/r/orin-dx/agent-plugins/">orin-dx/agent-plugins (stars:1)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/kleosr/cursorkleosr/">kleosr/cursorkleosr (stars:326)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/J-nowcow/awesome-korean-agent-skills/">J-nowcow/awesome-korean-agent-skills (stars:33)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/zinxj/uikit-expert-skill/">zinxj/uikit-expert-skill (stars:4)</a></li>
 </ul></section>
 <section><h2>Explore by category</h2>
 <ul class="crosslinks">
