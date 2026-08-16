@@ -1,11 +1,29 @@
 [
   {
+    "description": "",
+    "id": "abhilash-m96/agentic-coding-workflow",
+    "language": "HTML",
+    "name": "abhilash-m96/agentic-coding-workflow",
+    "stars": 2,
+    "updated_at": "2026-08-16T19:46:55Z",
+    "url": "https://github.com/abhilash-m96/agentic-coding-workflow"
+  },
+  {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 33,
+    "updated_at": "2026-08-16T19:46:31Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-16T19:45:39Z",
+    "updated_at": "2026-08-16T19:46:14Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -43,15 +61,6 @@
     "stars": 0,
     "updated_at": "2026-08-16T19:23:39Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 33,
-    "updated_at": "2026-08-16T19:20:55Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -258,7 +267,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 38854,
+    "stars": 38855,
     "updated_at": "2026-08-15T21:37:08Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -489,19 +498,5 @@
     "stars": 33,
     "updated_at": "2026-08-12T10:04:56Z",
     "url": "https://github.com/fluttersdk/wind"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Never commit or push without explicit user instruction.\nalwaysApply: true\n---\n\n# No auto-commit\n\nNever run `git commit`, `git push`, `git tag`, or `npm publish` unless the user explicitly asks (e.g. \"commit this\", \"push\", \"publish\").\n\n- Show the user what changed and let them decide.\n- Use `git diff` or `git status` output to summarise changes in your response instead.\n- If you are about to perform a git write operation, stop and confirm first.\n\nThis applies regardless of how small, clean, or obviously-correct the change appears.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/no-auto-commit.mdc"
-    },
-    "description": "Make Cursor project-aware with repo-level rules, memory, workflows, verifier agents, and localization prompts.",
-    "id": "KingEmma7/cursor-os",
-    "language": "JavaScript",
-    "name": "KingEmma7/cursor-os",
-    "stars": 2,
-    "updated_at": "2026-08-12T09:57:03Z",
-    "url": "https://github.com/KingEmma7/cursor-os"
   }
 ]
