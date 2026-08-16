@@ -1,11 +1,38 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-08-16T10:14:34Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 127,
+    "updated_at": "2026-08-16T10:08:00Z",
+    "url": "https://github.com/KbWen/agentic-os"
+  },
+  {
+    "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
+    "id": "philipbankier/awesome-agent-skills",
+    "language": "TypeScript",
+    "name": "philipbankier/awesome-agent-skills",
+    "stars": 15,
+    "updated_at": "2026-08-16T10:00:52Z",
+    "url": "https://github.com/philipbankier/awesome-agent-skills"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-16T09:45:53Z",
+    "updated_at": "2026-08-16T10:00:17Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -45,15 +72,6 @@
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-08-16T09:17:44Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
     "description": "Drop-in AI rules for Cursor and Claude Code that cut project token usage by 50%+.",
     "id": "inboxpraveen/Minimize-Cursor-Cost",
     "language": "Python",
@@ -79,15 +97,6 @@
     "stars": 16,
     "updated_at": "2026-08-16T08:54:03Z",
     "url": "https://github.com/mikeprasad/aria-knowledge"
-  },
-  {
-    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
-    "id": "KbWen/agentic-os",
-    "language": "Python",
-    "name": "KbWen/agentic-os",
-    "stars": 127,
-    "updated_at": "2026-08-16T09:44:20Z",
-    "url": "https://github.com/KbWen/agentic-os"
   },
   {
     "cursorrules": {
@@ -430,15 +439,6 @@
     "stars": 1,
     "updated_at": "2026-08-12T20:22:09Z",
     "url": "https://github.com/sungurerdim/dev-skills"
-  },
-  {
-    "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
-    "id": "philipbankier/awesome-agent-skills",
-    "language": "TypeScript",
-    "name": "philipbankier/awesome-agent-skills",
-    "stars": 15,
-    "updated_at": "2026-08-12T10:46:23Z",
-    "url": "https://github.com/philipbankier/awesome-agent-skills"
   },
   {
     "description": "Official AI Agent Plugins & Skills Marketplace for Antigravity (AGY), Claude Code, and Cursor",
