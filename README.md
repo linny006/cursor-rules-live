@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-08-16 03:45 UTC
+> ⏰ Last updated: 2026-08-16 03:59 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,9 +53,9 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [areqpl/public-apis-lookup](https://github.com/areqpl/public-apis-lookup) | 0 | Python | 2026-08-16 | — | ⚡ Fast, offline Public APIs discovery CLI & AI agent skill (Antigravity, Claude Code, Cursor, Windsurf, Aider). Search 1 |
-| 2 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-08-16 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
-| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 1 | HTML | 2026-08-16 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 1 | HTML | 2026-08-16 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [areqpl/public-apis-lookup](https://github.com/areqpl/public-apis-lookup) | 0 | Python | 2026-08-16 | — | ⚡ Fast, offline Public APIs discovery CLI & AI agent skill (Antigravity, Claude Code, Cursor, Windsurf, Aider). Search 1 |
+| 3 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-08-16 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
 | 4 | [wu529778790/shenzjd-skills](https://github.com/wu529778790/shenzjd-skills) | 0 | Shell | 2026-08-16 | — | 我的 Claude Code skills 集合，用于提升开发效率 |
 | 5 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-08-16 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
 | 6 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-08-16 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
