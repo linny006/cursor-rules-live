@@ -1,11 +1,47 @@
 [
   {
+    "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
+    "id": "agenticstandardcontact-byte/agentic-architect",
+    "language": "HTML",
+    "name": "agenticstandardcontact-byte/agentic-architect",
+    "stars": 0,
+    "updated_at": "2026-08-17T09:56:31Z",
+    "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
+  },
+  {
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-08-17T09:48:56Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
+  },
+  {
+    "description": "Official AI Agent Plugins & Skills Marketplace for Antigravity (AGY), Claude Code, and Cursor",
+    "id": "orin-dx/agent-plugins",
+    "language": "Shell",
+    "name": "orin-dx/agent-plugins",
+    "stars": 1,
+    "updated_at": "2026-08-17T09:48:04Z",
+    "url": "https://github.com/orin-dx/agent-plugins"
+  },
+  {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 0,
+    "updated_at": "2026-08-17T09:47:46Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-17T09:30:52Z",
+    "updated_at": "2026-08-17T09:45:32Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -23,7 +59,7 @@
     "language": "HTML",
     "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
     "stars": 3,
-    "updated_at": "2026-08-17T09:02:48Z",
+    "updated_at": "2026-08-17T10:00:05Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
@@ -34,24 +70,6 @@
     "stars": 5,
     "updated_at": "2026-08-17T09:11:54Z",
     "url": "https://github.com/pekral/cursor-rules"
-  },
-  {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
-    "stars": 0,
-    "updated_at": "2026-08-17T08:50:11Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 0,
-    "updated_at": "2026-08-17T08:49:06Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "cursorrules": {
@@ -122,7 +140,7 @@
     "id": "KbWen/agentic-os",
     "language": "Python",
     "name": "KbWen/agentic-os",
-    "stars": 132,
+    "stars": 133,
     "updated_at": "2026-08-17T05:45:54Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
@@ -253,15 +271,6 @@
     "stars": 15,
     "updated_at": "2026-08-16T10:00:52Z",
     "url": "https://github.com/philipbankier/awesome-agent-skills"
-  },
-  {
-    "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
-    "id": "agenticstandardcontact-byte/agentic-architect",
-    "language": "HTML",
-    "name": "agenticstandardcontact-byte/agentic-architect",
-    "stars": 0,
-    "updated_at": "2026-08-16T09:41:33Z",
-    "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
   },
   {
     "description": "Drop-in AI rules for Cursor and Claude Code that cut project token usage by 50%+.",
@@ -494,14 +503,5 @@
     "stars": 7,
     "updated_at": "2026-08-13T05:12:38Z",
     "url": "https://github.com/taniwhaai/arai"
-  },
-  {
-    "description": "Rigorous LLM research in two layers: a multi-agent dialectic synthesis prompt + an agent-loadable research skill. Hierar",
-    "id": "weijia-89/palamedes",
-    "language": "Python",
-    "name": "weijia-89/palamedes",
-    "stars": 0,
-    "updated_at": "2026-08-13T02:32:31Z",
-    "url": "https://github.com/weijia-89/palamedes"
   }
 ]
