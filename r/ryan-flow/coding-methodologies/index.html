@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<title>ryan-flow/coding-methodologies - entry on Cursor Rules Live</title>
+<meta name="description" content="AI agent 方法论合集 | Real-world debugging and engineering methodologies for AI coding assistants">
+<link rel="canonical" href="https://linny006.github.io/cursor-rules-live/r/ryan-flow/coding-methodologies/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ryan-flow/coding-methodologies - entry on Cursor Rules Live">
+<meta property="og:description" content="AI agent 方法论合集 | Real-world debugging and engineering methodologies for AI coding assistants">
+<meta property="og:url" content="https://linny006.github.io/cursor-rules-live/r/ryan-flow/coding-methodologies/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="ryan-flow/coding-methodologies - entry on Cursor Rules Live">
+<meta name="twitter:description" content="AI agent 方法论合集 | Real-world debugging and engineering methodologies for AI coding assistants">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"ryan-flow/coding-methodologies","codeRepository":"https://github.com/ryan-flow/coding-methodologies","programmingLanguage":"HTML","url":"https://linny006.github.io/cursor-rules-live/r/ryan-flow/coding-methodologies/","description":"AI agent 方法论合集 | Real-world debugging and engineering methodologies for AI coding assistants","author":{"@type":"Person","name":"ryan-flow","url":"https://github.com/ryan-flow"},"dateModified":"2026-08-17"}</script>
+<style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
+         --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 16px; font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--fg); background: var(--bg); }
+.wrap { max-width: var(--max); margin: 0 auto; }
+nav.bc { font-size: 14px; color: var(--muted); margin-bottom: 16px; }
+nav.bc a { color: var(--muted); }
+h1 { font-size: 28px; margin: 0 0 8px; }
+h2 { font-size: 20px; margin: 24px 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+p.lead { font-size: 18px; color: var(--muted); margin: 0 0 24px; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+th, td { padding: 8px 12px; text-align: left; border-bottom: 1px solid var(--border); }
+th { background: var(--card); font-weight: 600; }
+ul.crosslinks { list-style: none; padding: 0; }
+ul.crosslinks li { padding: 6px 0; }
+ul.crosslinks li a { font-weight: 500; }
+.meta { display: flex; gap: 16px; flex-wrap: wrap; color: var(--muted); font-size: 14px; margin: 12px 0; }
+.meta span::before { content: "\00b7"; margin-right: 8px; color: var(--border); }
+.meta span:first-child::before { content: ""; }
+footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--border); font-size: 14px; color: var(--muted); }</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="bc"><a href="https://linny006.github.io/cursor-rules-live/">Cursor Rules Live</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/popular/">Entries</a> &#183; <span>ryan-flow/coding-methodologies</span></nav>
+<main>
+<h1>ryan-flow/coding-methodologies</h1>
+<p class="lead">AI agent 方法论合集 | Real-world debugging and engineering methodologies for AI coding assistants</p>
+<div class="meta">
+<span><strong>Stars</strong> 0</span>
+<span><strong>Language</strong> HTML</span>
+<span><strong>Last updated</strong> 2026-08-17</span>
+<span><a href="https://github.com/ryan-flow/coding-methodologies" rel="external">Source on GitHub</a></span>
+<span><a href="https://github.com/ryan-flow" rel="external">@ryan-flow</a></span>
+</div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/methodologies.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
+description: AI Agent 调试方法论。在动手改代码之前先验证外部约束是否允许目标实现，避免在不可能的方向上浪费时间。
+alwaysApply: false
+---
+
+# AI Agent 调试方法论
+
+来源：https://github.com/ryan-flow/coding-methodologies
+
+## 约束优先排查（Constraint-First Debugging）
+
+**核心原则：先验证不可控层是否支持，再决定是否在可控层投入精力。**
+
+很多功能看起来是「代码写得不对」，实际是「平台根本不支持」。搞反了就是浪费时间。
+
+### 什么时候触发
+
+- 尝试实现某个功能但不确定能不能做成
+- 涉及第三方 API / 平台限制
+- 调试时感觉在绕圈子、改了很多代码但问题依旧
+- 用户问「能不能做到 X」
+
+### 排查层级（自底向上）
+
+1. **平台 / API 层**（不可控）— 官方文档、API reference、已知限制
+2. **协议 / 格式层**（半可控）— 数据格式、编码、传输协议
+3. **代码 / 逻辑层**（可控）— 我们能改的一切
+
+### 执行步骤
+
+1. 明确目标：要实现什么具体效果？
+2. 查文档：目标平台的官方文档是否明确支持这个能力？
+3. 找证据：搜索社区、GitHub issues，确认有没有人成功过
+4. 快速验证：用最简单的方式（curl / 一行代码）直接测试 API 是否接受这个请求
+5. **API 层不支持 → 停下来**，不要试图通过改客户端代码绕过去
+6. API 层支持 → 再往代码层排查
+
+### 动手前检查清单
+
+- [ ] 官方文档里有没有明确说支持这个功能？
+- [ ] 有没有人成功实现过？
+- [ ] 最简单的 API 调用测试做了吗？
+- [ ] 如果不支持，有没有替代方案能达到 80% 效果？
+
+### 反面案例
+
+目标是让机器人发出某平台的原生语音气泡。错误路径：改发送代码 → 装编码器 → 改正则 → 改扩展名识别，一路改下去。最终发现是平台服务端直接拒绝该消息类型，客户端怎么改都没用。**代价：2-3 小时的修改全部作废。**
+
+正确做法是第一步就用 curl 直接调 API 发一条，看返回值。
+
+## 相关
+
+多个 Agent 在同一个中大型仓库并行开发时的协作方法，见
+[agent-engineering-playbook](https://github.com/ryan-flow/agent-engineering-playbook)。
+</code></pre>
+<p><a href="https://github.com/ryan-flow/coding-methodologies/blob/HEAD/.cursor/rules/methodologies.mdc" rel="external">View raw on GitHub</a></p>
+</section>
+<section><h2>Why this is listed</h2>
+<p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
+<section><h2>Similar in this tracker</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/r/onlymuneeb38-glitch/ios-agent-skills-evaluator/">onlymuneeb38-glitch/ios-agent-skills-evaluator (stars:3)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/abhilash-m96/agentic-coding-workflow/">abhilash-m96/agentic-coding-workflow (stars:2)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/linny006/cursor-rules-live/">linny006/cursor-rules-live (stars:1)</a></li>
+</ul></section>
+<section><h2>Explore by category</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/popular/">Popular (by stars)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/recent/">Recent (by activity)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/new/">New this week</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/lang/html/">All HTML entries</a></li>
+</ul></section>
+</main>
+<footer>
+Auto-updated every 15 minutes via GitHub Actions &#183; <a href="https://linny006.github.io/cursor-rules-live/">tracker root</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/sitemap.xml">sitemap</a>
+</footer>
+</div>
+</body>
+</html>
