@@ -55,7 +55,7 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <section id="rules"><h2>Actual rules from this repo</h2>
 <p>Path in source repo: <code>.cursor/rules/methodologies.mdc</code> &middot; format: <code>mdc</code></p>
 <pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
-description: AI Agent 调试方法论。在动手改代码之前先验证外部约束是否允许目标实现，避免在不可能的方向上浪费时间。
+description: AI Agent 调试方法论。改代码前先验证外部约束是否允许目标实现；在中文 Windows 上不要用 PowerShell 改文本。
 alwaysApply: false
 ---
 
@@ -103,6 +103,50 @@ alwaysApply: false
 目标是让机器人发出某平台的原生语音气泡。错误路径：改发送代码 → 装编码器 → 改正则 → 改扩展名识别，一路改下去。最终发现是平台服务端直接拒绝该消息类型，客户端怎么改都没用。**代价：2-3 小时的修改全部作废。**
 
 正确做法是第一步就用 curl 直接调 API 发一条，看返回值。
+
+## Windows UTF-8 安全编辑
+
+**核心原则：中文 Windows 的 ANSI 代码页是 936（GBK），PowerShell 5.1 的 `Get-Content` / `Set-Content` / `Out-File` 默认按 ANSI 处理文本，中文在读入那一刻就已损坏，之后无论用什么编码写出去都救不回来。**
+
+### 什么时候触发
+
+- 在中文 Windows 上编辑、生成或批量重写文本文件
+- 用 PowerShell 读写文件内容
+- 写含中文的 git 提交信息、导入 SQL
+- 输出出现乱码
+
+### 第一原则
+
+能用 UTF-8 安全的文件工具（Read / Write / StrReplace）就不要用 shell 改文本。shell 留给真正的系统命令。批量改文本改成写 Node 脚本执行——`readFileSync(p, &#x27;utf8&#x27;)` 不受代码页影响。
+
+### 先分清文件坏了还是只是显示坏了
+
+| 现象 | 含义 | 处置 |
+|---|---|---|
+| 变成密集的生僻汉字 | 文件真的坏了 | 从 git 恢复后重做 |
+| 变成问号或方块 | 只是控制台显示问题 | 设置控制台编码即可 |
+
+### 不得不用 PowerShell 时
+
+```powershell
+$p = (Resolve-Path &#x27;file.ts&#x27;).Path
+$lines = [IO.File]::ReadAllLines($p, [Text.Encoding]::UTF8)
+[IO.File]::WriteAllLines($p, $lines, (New-Object Text.UTF8Encoding $false))
+```
+
+`UTF8Encoding $false` 表示不带 BOM；`Set-Content -Encoding UTF8` 在 PS 5.1 会写出 BOM，多数仓库不接受。
+
+含中文的 git 提交：PowerShell 没有 heredoc，把消息写进 UTF-8 无 BOM 文件后 `git commit -F 文件`。
+导入 SQL：禁止 `Get-Content x.sql | mysql`，改用 cmd / Git Bash 下的重定向 `mysql --default-character-set=utf8mb4 db &lt; x.sql`。
+
+**改完必须验证**，否则等于把乱码提交进仓库。
+
+### 相邻的 PowerShell 陷阱
+
+- `src\**\*.vue` 不会递归，`Select-String -Path` 会静默漏文件给出假阴性
+- `stash@{0}` 要加引号，`@{` 是哈希表字面量语法
+- `??` 是 PowerShell 7 语法，5.1 不支持
+- `&amp;` 在字符串外是保留字符，远程命令用 `;` 分隔
 
 ## 相关
 
