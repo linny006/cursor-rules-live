@@ -1,11 +1,20 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-08-17T05:26:30Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-17T05:08:48Z",
+    "updated_at": "2026-08-17T05:15:31Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -34,15 +43,6 @@
     "stars": 0,
     "updated_at": "2026-08-17T04:48:32Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-08-17T04:32:00Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Auto harness engineering meta-repo: discuss \u2192 curate \u2192 bootstrap a context-engineered project for Claude Code, Cursor, C",
@@ -82,7 +82,7 @@
     "language": "Python",
     "name": "KbWen/agentic-os",
     "stars": 132,
-    "updated_at": "2026-08-17T03:56:30Z",
+    "updated_at": "2026-08-17T05:20:33Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
   {
@@ -109,7 +109,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 38860,
+    "stars": 38861,
     "updated_at": "2026-08-17T01:09:44Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -400,7 +400,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 19516,
+    "stars": 19517,
     "updated_at": "2026-08-14T09:53:20Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
