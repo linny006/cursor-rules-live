@@ -1,11 +1,29 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-08-17T00:40:45Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 132,
+    "updated_at": "2026-08-17T00:39:23Z",
+    "url": "https://github.com/KbWen/agentic-os"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-17T00:15:42Z",
+    "updated_at": "2026-08-17T00:30:33Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -68,15 +86,6 @@
     "url": "https://github.com/johnwall123459885/skene-cookbook"
   },
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-08-16T23:10:46Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
     "description": "",
     "id": "abhilash-m96/agentic-coding-workflow",
     "language": "HTML",
@@ -111,15 +120,6 @@
     "stars": 17,
     "updated_at": "2026-08-16T18:37:48Z",
     "url": "https://github.com/MnemeHQ/mneme"
-  },
-  {
-    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
-    "id": "KbWen/agentic-os",
-    "language": "Python",
-    "name": "KbWen/agentic-os",
-    "stars": 132,
-    "updated_at": "2026-08-16T17:32:48Z",
-    "url": "https://github.com/KbWen/agentic-os"
   },
   {
     "cursorrules": {
@@ -377,7 +377,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 19505,
+    "stars": 19506,
     "updated_at": "2026-08-14T09:53:20Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
