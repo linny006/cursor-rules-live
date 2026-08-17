@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-08-17 05:00 UTC
+> ⏰ Last updated: 2026-08-17 05:08 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,14 +53,14 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-08-17 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
-| 2 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-08-17 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
-| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 1 | HTML | 2026-08-17 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 4 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-08-17 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
-| 5 | [glowElephant/context-forge](https://github.com/glowElephant/context-forge) | 2 | Python | 2026-08-17 | — | Auto harness engineering meta-repo: discuss → curate → bootstrap a context-engineered project for Claude Code, Cursor, C |
-| 6 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 33 | — | 2026-08-17 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
-| 7 | [VonTerraProject501c3/slushpile](https://github.com/VonTerraProject501c3/slushpile) | 14 | Python | 2026-08-17 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/VonTerraProject501c3/slushpile/) | An adversarial job search that gets better as it goes: pool-anchored fit scoring, a resume and cover letter built agains |
-| 8 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-08-17 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 1 | HTML | 2026-08-17 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-08-17 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
+| 3 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-08-17 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
+| 4 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-08-17 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
+| 5 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-08-17 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
+| 6 | [glowElephant/context-forge](https://github.com/glowElephant/context-forge) | 2 | Python | 2026-08-17 | — | Auto harness engineering meta-repo: discuss → curate → bootstrap a context-engineered project for Claude Code, Cursor, C |
+| 7 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 33 | — | 2026-08-17 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
+| 8 | [VonTerraProject501c3/slushpile](https://github.com/VonTerraProject501c3/slushpile) | 14 | Python | 2026-08-17 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/VonTerraProject501c3/slushpile/) | An adversarial job search that gets better as it goes: pool-anchored fit scoring, a resume and cover letter built agains |
 | 9 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 132 | Python | 2026-08-17 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
 | 10 | [ryan-flow/coding-methodologies](https://github.com/ryan-flow/coding-methodologies) | 0 | HTML | 2026-08-17 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/ryan-flow/coding-methodologies/) | AI agent 方法论合集 \| Real-world debugging and engineering methodologies for AI coding assistants |
 | 11 | [wshobson/agents](https://github.com/wshobson/agents) | 38860 | Python | 2026-08-17 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI |
