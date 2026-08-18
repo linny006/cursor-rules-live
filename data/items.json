@@ -1,11 +1,20 @@
 [
   {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 34,
+    "updated_at": "2026-08-18T15:19:16Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-18T15:02:03Z",
+    "updated_at": "2026-08-18T15:15:33Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -69,7 +78,7 @@
     "language": "Python",
     "name": "wshobson/agents",
     "stars": 38889,
-    "updated_at": "2026-08-18T15:13:49Z",
+    "updated_at": "2026-08-18T15:18:20Z",
     "url": "https://github.com/wshobson/agents"
   },
   {
@@ -171,15 +180,6 @@
     "stars": 8,
     "updated_at": "2026-08-18T07:08:49Z",
     "url": "https://github.com/kensaurus/cursor-kenji"
-  },
-  {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 34,
-    "updated_at": "2026-08-18T06:35:35Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "description": "\u26a1 Universal AI Agent Skill (OpenCode, Antigravity, Claude Code, Cursor, Cline). Deterministic hybrid pipeline converting",
