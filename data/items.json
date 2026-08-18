@@ -1,11 +1,29 @@
 [
   {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 34,
+    "updated_at": "2026-08-18T16:29:40Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-08-18T16:19:27Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-18T16:00:53Z",
+    "updated_at": "2026-08-18T16:15:46Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -18,7 +36,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 38889,
+    "stars": 38890,
     "updated_at": "2026-08-18T15:56:45Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -64,15 +82,6 @@
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 34,
-    "updated_at": "2026-08-18T15:19:16Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
     "description": "\u26a1 The Universal Package Manager & Registry for AI Coding Agents (Claude Code, OpenCode, Cursor, Windsurf, RooCode, Copil",
     "id": "Blazkojj/skillhub",
     "language": "JavaScript",
@@ -92,17 +101,8 @@
     "language": "Shell",
     "name": "Texarkanine/ai-rizz",
     "stars": 0,
-    "updated_at": "2026-08-18T14:39:03Z",
+    "updated_at": "2026-08-18T16:21:24Z",
     "url": "https://github.com/Texarkanine/ai-rizz"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-08-18T14:22:39Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
@@ -286,7 +286,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 19576,
+    "stars": 19575,
     "updated_at": "2026-08-17T10:04:58Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -336,7 +336,7 @@
     "id": "KbWen/agentic-os",
     "language": "Python",
     "name": "KbWen/agentic-os",
-    "stars": 136,
+    "stars": 135,
     "updated_at": "2026-08-17T05:45:54Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
