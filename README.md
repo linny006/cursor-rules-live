@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-08-18 17:30 UTC
+> ⏰ Last updated: 2026-08-18 17:43 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,17 +53,17 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [Texarkanine/ai-rizz](https://github.com/Texarkanine/ai-rizz) | 0 | Shell | 2026-08-18 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Texarkanine/ai-rizz/) | Zero-dependency POSIX CLI for managing AI rules and rulesets. Pull rules from a source repository and use them committed |
-| 2 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-08-18 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
+| 1 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-08-18 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
+| 2 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-08-18 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
 | 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 1 | HTML | 2026-08-18 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 4 | [XAKLESK/cre-agent-skills](https://github.com/XAKLESK/cre-agent-skills) | 4 | — | 2026-08-18 | — | Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc |
-| 5 | [eliuhads/stitch2elementor](https://github.com/eliuhads/stitch2elementor) | 2 | JavaScript | 2026-08-18 | — | ⚡ Universal AI Agent Skill (OpenCode, Antigravity, Claude Code, Cursor, Cline). Deterministic hybrid pipeline converting |
-| 6 | [Amirun99/agency-orchestrator](https://github.com/Amirun99/agency-orchestrator) | 0 | Dart | 2026-08-18 | — | Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support. |
-| 7 | [zinxj/uikit-expert-skill](https://github.com/zinxj/uikit-expert-skill) | 4 | — | 2026-08-18 | — | Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan |
-| 8 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 17 | Python | 2026-08-18 | — | Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior |
-| 9 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-08-18 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 10 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-08-18 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
-| 11 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-08-18 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
+| 4 | [Texarkanine/ai-rizz](https://github.com/Texarkanine/ai-rizz) | 0 | Shell | 2026-08-18 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Texarkanine/ai-rizz/) | Zero-dependency POSIX CLI for managing AI rules and rulesets. Pull rules from a source repository and use them committed |
+| 5 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-08-18 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
+| 6 | [XAKLESK/cre-agent-skills](https://github.com/XAKLESK/cre-agent-skills) | 4 | — | 2026-08-18 | — | Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc |
+| 7 | [eliuhads/stitch2elementor](https://github.com/eliuhads/stitch2elementor) | 2 | JavaScript | 2026-08-18 | — | ⚡ Universal AI Agent Skill (OpenCode, Antigravity, Claude Code, Cursor, Cline). Deterministic hybrid pipeline converting |
+| 8 | [Amirun99/agency-orchestrator](https://github.com/Amirun99/agency-orchestrator) | 0 | Dart | 2026-08-18 | — | Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support. |
+| 9 | [zinxj/uikit-expert-skill](https://github.com/zinxj/uikit-expert-skill) | 4 | — | 2026-08-18 | — | Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan |
+| 10 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 17 | Python | 2026-08-18 | — | Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior |
+| 11 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-08-18 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
 | 12 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 34 | — | 2026-08-18 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
 | 13 | [wshobson/agents](https://github.com/wshobson/agents) | 38891 | Python | 2026-08-18 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, and Google Antigravit |
 | 14 | [juwonllee2024-dotcom/rulesync](https://github.com/juwonllee2024-dotcom/rulesync) | 2 | TypeScript | 2026-08-18 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/juwonllee2024-dotcom/rulesync/) | The ESLint & Babel for AI Agent Rules — Compile, lint, optimize, and sync instructions across AGENTS.md, CLAUDE.md, .cur |
