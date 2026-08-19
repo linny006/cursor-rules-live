@@ -1,11 +1,20 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-08-19T17:18:06Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-19T17:03:42Z",
+    "updated_at": "2026-08-19T17:15:53Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -32,17 +41,8 @@
     "language": "HTML",
     "name": "arnoldalberto007-sys/Swift-UIKit-Components",
     "stars": 0,
-    "updated_at": "2026-08-19T16:36:14Z",
+    "updated_at": "2026-08-19T17:29:55Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-08-19T16:19:34Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior",
@@ -264,7 +264,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 38926,
+    "stars": 38927,
     "updated_at": "2026-08-18T15:56:45Z",
     "url": "https://github.com/wshobson/agents"
   },
