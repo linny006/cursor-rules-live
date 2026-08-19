@@ -1,11 +1,29 @@
 [
   {
+    "description": "\u26a1 Universal AI Agent Skill (OpenCode, Antigravity, Claude Code, Cursor, Cline). Deterministic hybrid pipeline converting",
+    "id": "eliuhads/stitch2elementor",
+    "language": "JavaScript",
+    "name": "eliuhads/stitch2elementor",
+    "stars": 2,
+    "updated_at": "2026-08-19T04:30:14Z",
+    "url": "https://github.com/eliuhads/stitch2elementor"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-08-19T04:27:20Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-19T04:15:46Z",
+    "updated_at": "2026-08-19T04:21:44Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -30,15 +48,6 @@
     "stars": 3,
     "updated_at": "2026-08-19T03:59:19Z",
     "url": "https://github.com/madebyaris/cursor-composer-rules"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-08-19T03:37:58Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "cursorrules": {
@@ -153,15 +162,6 @@
     "stars": 0,
     "updated_at": "2026-08-18T17:23:22Z",
     "url": "https://github.com/Texarkanine/ai-rizz"
-  },
-  {
-    "description": "\u26a1 Universal AI Agent Skill (OpenCode, Antigravity, Claude Code, Cursor, Cline). Deterministic hybrid pipeline converting",
-    "id": "eliuhads/stitch2elementor",
-    "language": "JavaScript",
-    "name": "eliuhads/stitch2elementor",
-    "stars": 2,
-    "updated_at": "2026-08-18T17:07:42Z",
-    "url": "https://github.com/eliuhads/stitch2elementor"
   },
   {
     "description": "Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior",
