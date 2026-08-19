@@ -100,7 +100,7 @@ Default to **minimal diffs**. Run before commit / `@code-implementation complete
 
 ### Frameworks registry (cross-framework discovery)
 
-Sister frameworks are siblings on disk; `.ai/` is self (self-hosted). Paths resolve at runtime.
+Sister frameworks are siblings on disk; `.ai/` is self (self-hosted). Paths resolve at runtime. Sister dirs auto-discover as `&lt;source basename with &lt;fw&gt; inserted before its last .segment&gt;` (e.g. `pilo.ai.ui.logicbison` for this `pilo.ai.logicbison` source) or legacy `.ai.&lt;fw&gt;` — see path resolution below.
 
 | Framework | Director | Path | Bootstrap artifact |
 |-----------|----------|------|--------------------|
@@ -108,8 +108,11 @@ Sister frameworks are siblings on disk; `.ai/` is self (self-hosted). Paths reso
 | `.ai.ui` (UI Design OS) | `@ui-director` | `../.ai.ui` | `../.ai.ui/skills/README.md` |
 | `.ai.biz` (Business OS) | `@biz-director` | `../.ai.biz` | `../.ai.biz/skills/README.md` |
 | `.ai.soc` (Social OS) | `@soc-director` | `../.ai.soc` | `../.ai.soc/skills/README.md` |
+| `.ai.cto` (CTO Professor OS) | `@cto-director` | `../.ai.cto` | `../.ai.cto/skills/README.md` |
+| `.ai.flutter` (Flutter Agent OS) | `@flutter-director` | `../.ai.flutter` | `../.ai.flutter/skills/README.md` |
+| `.ai.mlt` (MLT Agent OS) | `@mlt-director` | `../.ai.mlt` | `../.ai.mlt/skills/README.md` |
 
-**Path resolution:** (1) use a filled path cell; empty → fall through. (2) Auto-discover: fat-client parent = `$REPO_ROOT/.ai/..`; thin-client parent = `$AGENT_OS_SOURCE/..`; check `${parent}/.ai.ui|.ai.biz|.ai.soc`; missing = &quot;not installed&quot;. (3) Before routing, verify the framework dir + its `skills/README.md` exist; if absent, route to `@ai-director` prefixed `[degraded: &lt;framework&gt; not installed]` — never route into the void.
+**Path resolution:** (1) use a filled path cell; empty → fall through. (2) Auto-discover: source dir S = `$AGENT_OS_SOURCE` (thin), `$REPO_ROOT/.ai` (fat), `$REPO_ROOT` (self-hosted); parent = `S/..`; sister = `&lt;S basename with &lt;fw&gt; inserted before its last .segment&gt;` (e.g. `pilo.ai.ui.logicbison` for source `pilo.ai.logicbison`; `.ai`-prefixed sources resolve `.ai.&lt;fw&gt;` directly), else legacy `.ai.&lt;fw&gt;`; missing = &quot;not installed&quot;. (3) Before routing, verify the framework dir + its `skills/README.md` exist; if absent, route to `@ai-director` prefixed `[degraded: &lt;framework&gt; not installed]` — never route into the void. If your source dir name breaks discovery (e.g. `my-framework`), fill the path cells manually — deploy output lists what it checked.
 
 ### Read at conversation start / when relevant
 
@@ -124,22 +127,7 @@ Sister frameworks are siblings on disk; `.ai/` is self (self-hosted). Paths reso
 | `.work/context/HANDOFF.md` | Session handoff |
 | `docs/guides/workflows/README.md` | Workflow index and artifact matrix |
 
-**Concept pack:** `concepts/README.md` (MOD-01–MOD-08). When a change touches architecture, coupling, latency, cost, ops load, AI-generated code, prompt architecture, or declarative infrastructure: list applicable concept ids, run matching `prompt.md` under `concepts/&lt;name&gt;/`, attach outputs to the PR or `### Concept / NFR registry` in `.work/plans/NEXT.md`; tag quantitative claims `measured` | `estimated` | `assumption` | `unknown`.
-
-### Placeholder map
-
-| Placeholder | Resolves to |
-|-------------|-------------|
-| `{WORK_ROOT}` | `.work/` |
-| `{PLANS_ROOT}` | `.work/plans/` |
-| `{FEATURE_SPEC_ROOT}` | `.work/features/` |
-| `{PROMPTS_ROOT}` | `.work/prompts/` |
-| `{DOCS_ROOT}` | `.work/docs/` |
-| `{DECISIONS_ROOT}` | `.work/decisions/` |
-| `{ITERATION_CARRIER}` | `.work/plans/NEXT.md` |
-| `{MASTER_PLAN}` | `.work/plans/full/*-full-plan.md` (latest **Approved**) |
-| `{HANDOFF}` | `.work/context/HANDOFF.md` |
-| `{TOUCH_SCOPE}` | `.work/touch</code></pre>
+**Concept pack:** `concepts/README.md` (MOD-01–MOD-08). When a change touches architecture, coupling, latency, co</code></pre>
 <p><em>Content truncated. View full file in the source repo (linked above).</em></p><p><a href="https://github.com/PiloTracer/pilo.ai.logicbison/blob/HEAD/.cursorrules" rel="external">View raw on GitHub</a></p>
 </section>
 <section><h2>Why this is listed</h2>
