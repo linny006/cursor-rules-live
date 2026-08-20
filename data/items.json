@@ -1,5 +1,32 @@
 [
   {
+    "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
+    "id": "mikeprasad/aria-knowledge",
+    "language": "Shell",
+    "name": "mikeprasad/aria-knowledge",
+    "stars": 16,
+    "updated_at": "2026-08-20T03:56:41Z",
+    "url": "https://github.com/mikeprasad/aria-knowledge"
+  },
+  {
+    "description": "\u26a1 Universal AI Agent Skill (OpenCode, Antigravity, Claude Code, Cursor, Cline). Deterministic hybrid pipeline converting",
+    "id": "eliuhads/stitch2elementor",
+    "language": "JavaScript",
+    "name": "eliuhads/stitch2elementor",
+    "stars": 2,
+    "updated_at": "2026-08-20T03:49:52Z",
+    "url": "https://github.com/eliuhads/stitch2elementor"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-08-20T03:45:40Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
     "id": "Laurellagloomy260/cursor-rules-generator",
     "language": "\u2014",
@@ -25,15 +52,6 @@
     "stars": 1,
     "updated_at": "2026-08-20T03:38:07Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-08-20T03:30:37Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -155,15 +173,6 @@
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
-    "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
-    "id": "mikeprasad/aria-knowledge",
-    "language": "Shell",
-    "name": "mikeprasad/aria-knowledge",
-    "stars": 16,
-    "updated_at": "2026-08-19T13:43:39Z",
-    "url": "https://github.com/mikeprasad/aria-knowledge"
-  },
-  {
     "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
     "id": "philipbankier/awesome-agent-skills",
     "language": "TypeScript",
@@ -262,15 +271,6 @@
     "stars": 2,
     "updated_at": "2026-08-19T06:41:35Z",
     "url": "https://github.com/GeiserX/lynxprompt-mcp"
-  },
-  {
-    "description": "\u26a1 Universal AI Agent Skill (OpenCode, Antigravity, Claude Code, Cursor, Cline). Deterministic hybrid pipeline converting",
-    "id": "eliuhads/stitch2elementor",
-    "language": "JavaScript",
-    "name": "eliuhads/stitch2elementor",
-    "stars": 2,
-    "updated_at": "2026-08-19T04:30:14Z",
-    "url": "https://github.com/eliuhads/stitch2elementor"
   },
   {
     "cursorrules": {
