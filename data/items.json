@@ -1,11 +1,29 @@
 [
   {
+    "description": "This plugin makes your AI coding agent an Arcjet security expert.",
+    "id": "arcjet/arcjet-plugin",
+    "language": "Shell",
+    "name": "arcjet/arcjet-plugin",
+    "stars": 1,
+    "updated_at": "2026-08-20T20:21:55Z",
+    "url": "https://github.com/arcjet/arcjet-plugin"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-08-20T20:17:45Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-20T20:00:46Z",
+    "updated_at": "2026-08-20T20:15:37Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -34,15 +52,6 @@
     "stars": 0,
     "updated_at": "2026-08-20T19:34:49Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-08-20T19:23:02Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
@@ -258,15 +267,6 @@
     "stars": 23,
     "updated_at": "2026-08-19T22:45:13Z",
     "url": "https://github.com/djtelicloud/grok-mcp-server"
-  },
-  {
-    "description": "This plugin makes your AI coding agent an Arcjet security expert.",
-    "id": "arcjet/arcjet-plugin",
-    "language": "Shell",
-    "name": "arcjet/arcjet-plugin",
-    "stars": 1,
-    "updated_at": "2026-08-19T18:29:47Z",
-    "url": "https://github.com/arcjet/arcjet-plugin"
   },
   {
     "description": "Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior",
