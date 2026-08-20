@@ -1,11 +1,20 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-08-20T07:32:20Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-20T07:15:45Z",
+    "updated_at": "2026-08-20T07:30:31Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -32,7 +41,7 @@
     "language": "HTML",
     "name": "arnoldalberto007-sys/Swift-UIKit-Components",
     "stars": 0,
-    "updated_at": "2026-08-20T06:53:32Z",
+    "updated_at": "2026-08-20T07:44:47Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
@@ -43,15 +52,6 @@
     "stars": 34,
     "updated_at": "2026-08-20T06:38:21Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-08-20T06:27:49Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Cursor harness pack: user rules, skills, Bash hooks, local HANDOFF memory. macOS, Linux, Windows (WSL).",
@@ -365,7 +365,7 @@
     "id": "pekral/cursor-rules",
     "language": "PHP",
     "name": "pekral/cursor-rules",
-    "stars": 5,
+    "stars": 6,
     "updated_at": "2026-08-18T13:12:31Z",
     "url": "https://github.com/pekral/cursor-rules"
   },
