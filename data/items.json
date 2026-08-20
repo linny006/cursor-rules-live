@@ -1,5 +1,41 @@
 [
   {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 3,
+    "updated_at": "2026-08-20T03:12:17Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
+  },
+  {
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-08-20T03:01:34Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-08-20T03:00:38Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 0,
+    "updated_at": "2026-08-20T03:00:28Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+  },
+  {
     "cursorrules": {
       "content": "# Cursor AI Rules\n\n> These rules are loaded automatically for this project. See `AGENTS.md` for full details.\n\n## Core Directives\n\n1. **Read AGENTS.md before any task** \u2014 All rules are defined there\n2. **Read DEEPDIVE.md** \u2014 System architecture narrative\n3. **Follow every section** \u2014 Core principles, commit protocol, testing, linting, etc.\n\n## Critical Enforcements\n\n### Pre-Commit Checklist\n```bash\nruff check .\nruff format .\nvulture .\nmypy .\n```\n**Do not commit until all pass.** (Section 9)\n\n### Required Folders\nEvery project MUST have:\n- `tests/` \u2014 All tests + random scripts (in `.gitignore`)\n- `docs/` \u2014 Architecture documentation\n- `research/` \u2014 Whitepapers, references\n\n### Commit Style\nHuman-sounding, WHY-focused messages. Example:\n```\napi: Added JWT refresh to prevent 401 loops\n\nThe token refresh had a race condition where concurrent requests\ncould trigger multiple refresh calls. Added mutex lock around auth state.\n```\nSee Section 15 for the full pattern.\n\n### PR Standards (Section 33)\n- 800 lines max, 500 for complex logic\n- Single feature per PR\n- Use the PR template (Section 35)\n\n### AI Code Quality (Section 34)\nSelf-check: think first, spot laziness, uncertainty, bloat.\n\n### Pre-Commit Hooks (Section 37)\nMandatory. Install once: `pre-commit install`. Hooks run on every commit.\n\n### Decision Ladder (Section 50.1)\nBefore any implementation: YAGNI \u2192 stdlib \u2192 native \u2192 existing dep \u2192 one line \u2192 minimum.\n\n### Tradeoff Comments (Section 50.2)\nFor every intentional shortcut, document with `# ponytail: <what> / # Upgrade to <what> if <trigger>`.\n\n## Prohibited\n- No PRs/issues/GitHub activity without explicit user approval (Section 2)\n- No dead code, unused imports, silent exception handlers (Section 1)\n- No commits without running lint/vulture sweep first (Section 9)\n- No mutable default arguments, bare excepts, eval/exec (Section 27.2)\n- No force push to shared branches (Section 36.2)\n- No PRs over 800 lines (Section 33)\n- No skipping pre-commit hooks (Section 37)\n\n## Validation\nBefore marking complete:\n- [ ] Tests pass\n- [ ] No vulture findings\n- [ ] Type check clean\n- [ ] DEEPDIVE.md updated if needed\n- [ ] Human commit message\n- [ ] PR under 800 lines\n- [ ] Pre-commit hooks passed\n- [ ] AI anti-pattern self-check passed\n- [ ] Decision ladder applied\n- [ ] Tradeoff comments for shortcuts\n",
       "format": "mdc",
@@ -12,15 +48,6 @@
     "stars": 8,
     "updated_at": "2026-08-20T02:54:10Z",
     "url": "https://github.com/peva3/anchor"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-08-20T02:45:40Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -44,33 +71,6 @@
     "stars": 9,
     "updated_at": "2026-08-20T02:02:36Z",
     "url": "https://github.com/kensaurus/cursor-kenji"
-  },
-  {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 3,
-    "updated_at": "2026-08-20T01:54:07Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
-    "stars": 0,
-    "updated_at": "2026-08-20T01:36:28Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 0,
-    "updated_at": "2026-08-20T01:33:42Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "cursorrules": {
@@ -301,7 +301,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 38934,
+    "stars": 38937,
     "updated_at": "2026-08-18T15:56:45Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -401,7 +401,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 19620,
+    "stars": 19622,
     "updated_at": "2026-08-17T10:04:58Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
