@@ -1,11 +1,20 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-08-20T23:16:41Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-20T23:00:29Z",
+    "updated_at": "2026-08-20T23:15:49Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -34,15 +43,6 @@
     "stars": 0,
     "updated_at": "2026-08-20T22:31:46Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-08-20T22:16:24Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Deterministic zero-trust mechanical hard-gate CLI for autonomous AI coding agents (Claude Code, Antigravity, Cursor). By",
@@ -424,7 +424,7 @@
     "id": "juwonllee2024-dotcom/rulesync",
     "language": "TypeScript",
     "name": "juwonllee2024-dotcom/rulesync",
-    "stars": 1,
+    "stars": 2,
     "updated_at": "2026-08-18T15:36:58Z",
     "url": "https://github.com/juwonllee2024-dotcom/rulesync"
   },
