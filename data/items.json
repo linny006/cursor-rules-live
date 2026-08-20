@@ -1,11 +1,29 @@
 [
   {
+    "description": "Deterministic zero-trust mechanical hard-gate CLI for autonomous AI coding agents (Claude Code, Antigravity, Cursor). By",
+    "id": "Heretek-AI/Agent-Proof",
+    "language": "TypeScript",
+    "name": "Heretek-AI/Agent-Proof",
+    "stars": 0,
+    "updated_at": "2026-08-20T21:25:18Z",
+    "url": "https://github.com/Heretek-AI/Agent-Proof"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-08-20T21:18:25Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 1,
-    "updated_at": "2026-08-20T21:00:46Z",
+    "updated_at": "2026-08-20T21:15:31Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -16,15 +34,6 @@
     "stars": 3,
     "updated_at": "2026-08-20T20:49:45Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "Zero-bloat deterministic mechanical hard-gate CLI for autonomous AI coding agents (Claude Code, Antigravity, Cursor). Su",
-    "id": "Heretek-AI/Agent-Proof",
-    "language": "TypeScript",
-    "name": "Heretek-AI/Agent-Proof",
-    "stars": 0,
-    "updated_at": "2026-08-20T20:45:02Z",
-    "url": "https://github.com/Heretek-AI/Agent-Proof"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -52,15 +61,6 @@
     "stars": 1,
     "updated_at": "2026-08-20T20:21:55Z",
     "url": "https://github.com/arcjet/arcjet-plugin"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-08-20T20:17:45Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
