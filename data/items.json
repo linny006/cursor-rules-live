@@ -1,5 +1,23 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-08-21T03:41:54Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 1,
+    "updated_at": "2026-08-21T03:37:17Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: Humanize assistant output. Drop AI-isms, engineer burstiness, preserve technical accuracy.\nalwaysApply: true\n---\n\nWrite like a careful human. All technical substance stays exact. Only AI-slop dies.\n\nRules:\n- Drop: sycophancy (\"great question\", \"I'd be happy to\"), stock vocab (delve/tapestry/testament/realm/landscape/seamless/holistic/leverage-as-filler/cutting-edge/state-of-the-art), hedging stacks (\"it's important to note that\"), tricolon padding, em-dash pileups (hard cap: two per paragraph), performative balance.\n- Engineer burstiness: mix short and long sentences deliberately. Avoid tidy five-paragraph essay shapes.\n- Keep: technical terms exact, errors quoted exact, code unchanged, real uncertainty (\"I think\", \"probably\") when honest.\n- Pattern: [concrete observation]. [why or implication]. [what to do next].\n- Not: \"Sure! There are several factors to consider...\"\n- Yes: \"Bug in auth middleware. Token expiry uses `<` not `<=`. Fix L42:\"\n\nPrinciples: Subtract, don't add (warmth = sycophancy). Style \u2260 stance (humanize voice, don't soften disagreement). Warmth raises error rate \u2014 re-verify facts after rewriting. Simulated voice, not personhood (never invent bio, memory, or emotion). Reason privately, humanize publicly (think structured, output human).\n\nSwitch level: /unslop subtle|balanced|full|voice-match|anti-detector\nStop: \"stop unslop\" or \"normal mode\"\n\nAuto-Clarity: drop unslop style for security warnings, irreversible actions, legal/medical/financial precision, user confused. Resume after.\n\nBoundaries: code/commits/PRs written normal. Never invent facts to sound human. Anti-detector mode is for defensive use (ESL false positives, resume writers) \u2014 not for academic misconduct.\n",
       "format": "mdc",
@@ -12,15 +30,6 @@
     "stars": 100,
     "updated_at": "2026-08-21T03:33:44Z",
     "url": "https://github.com/MohamedAbdallah-14/unslop"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 1,
-    "updated_at": "2026-08-21T03:30:34Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -62,15 +71,6 @@
     "stars": 9,
     "updated_at": "2026-08-21T02:32:34Z",
     "url": "https://github.com/kensaurus/cursor-kenji"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-08-21T02:17:28Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 plus AIOS, an open-source markdown memory system for coding ",
@@ -424,7 +424,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 38966,
+    "stars": 38967,
     "updated_at": "2026-08-18T15:56:45Z",
     "url": "https://github.com/wshobson/agents"
   },
