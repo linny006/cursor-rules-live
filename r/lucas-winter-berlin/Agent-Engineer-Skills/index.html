@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<title>lucas-winter-berlin/Agent-Engineer-Skills - entry on Cursor Rules Live</title>
+<meta name="description" content="Agent skills for building features and MVPs. Spec, build, review, test - one named job at a time.">
+<link rel="canonical" href="https://linny006.github.io/cursor-rules-live/r/lucas-winter-berlin/Agent-Engineer-Skills/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="lucas-winter-berlin/Agent-Engineer-Skills - entry on Cursor Rules Live">
+<meta property="og:description" content="Agent skills for building features and MVPs. Spec, build, review, test - one named job at a time.">
+<meta property="og:url" content="https://linny006.github.io/cursor-rules-live/r/lucas-winter-berlin/Agent-Engineer-Skills/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="lucas-winter-berlin/Agent-Engineer-Skills - entry on Cursor Rules Live">
+<meta name="twitter:description" content="Agent skills for building features and MVPs. Spec, build, review, test - one named job at a time.">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"lucas-winter-berlin/Agent-Engineer-Skills","codeRepository":"https://github.com/lucas-winter-berlin/Agent-Engineer-Skills","programmingLanguage":"PowerShell","url":"https://linny006.github.io/cursor-rules-live/r/lucas-winter-berlin/Agent-Engineer-Skills/","description":"Agent skills for building features and MVPs. Spec, build, review, test - one named job at a time.","author":{"@type":"Person","name":"lucas-winter-berlin","url":"https://github.com/lucas-winter-berlin"},"dateModified":"2026-08-21"}</script>
+<style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
+         --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 16px; font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--fg); background: var(--bg); }
+.wrap { max-width: var(--max); margin: 0 auto; }
+nav.bc { font-size: 14px; color: var(--muted); margin-bottom: 16px; }
+nav.bc a { color: var(--muted); }
+h1 { font-size: 28px; margin: 0 0 8px; }
+h2 { font-size: 20px; margin: 24px 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+p.lead { font-size: 18px; color: var(--muted); margin: 0 0 24px; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+th, td { padding: 8px 12px; text-align: left; border-bottom: 1px solid var(--border); }
+th { background: var(--card); font-weight: 600; }
+ul.crosslinks { list-style: none; padding: 0; }
+ul.crosslinks li { padding: 6px 0; }
+ul.crosslinks li a { font-weight: 500; }
+.meta { display: flex; gap: 16px; flex-wrap: wrap; color: var(--muted); font-size: 14px; margin: 12px 0; }
+.meta span::before { content: "\00b7"; margin-right: 8px; color: var(--border); }
+.meta span:first-child::before { content: ""; }
+footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--border); font-size: 14px; color: var(--muted); }</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="bc"><a href="https://linny006.github.io/cursor-rules-live/">Cursor Rules Live</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/popular/">Entries</a> &#183; <span>lucas-winter-berlin/Agent-Engineer-Skills</span></nav>
+<main>
+<h1>lucas-winter-berlin/Agent-Engineer-Skills</h1>
+<p class="lead">Agent skills for building features and MVPs. Spec, build, review, test - one named job at a time.</p>
+<div class="meta">
+<span><strong>Stars</strong> 0</span>
+<span><strong>Language</strong> PowerShell</span>
+<span><strong>Last updated</strong> 2026-08-21</span>
+<span><a href="https://github.com/lucas-winter-berlin/Agent-Engineer-Skills" rel="external">Source on GitHub</a></span>
+<span><a href="https://github.com/lucas-winter-berlin" rel="external">@lucas-winter-berlin</a></span>
+</div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/agent-engineer-skills.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
+description: Dispatcher for Agent Engineer Skills. Maps feature-development work to one skill. Use skill: &lt;id&gt; runs only that skill. Lookup is skills/&lt;family&gt;/&lt;id&gt;/SKILL.md.
+alwaysApply: true
+---
+
+# Agent Engineer Skills dispatcher
+
+This repo is a collection of skills for developing features. A skill is a structured instruction set and execution contract, not optional style advice.
+
+`Use skill: &lt;id&gt;` always selects that skill and **only** that skill. The **id** is the leaf folder name. The **family** (`feature-builder` or `mvp-builder`) is only where the files live. Read `skills/&lt;family&gt;/&lt;id&gt;/SKILL.md` and execute that contract. Do not start the next skill unless the user named it. `SKILL.md` is authoritative if this rule and the skill file diverge.
+
+There is no composer / harness skill in this collection. If the user asks for a harness, end-to-end path runner, or `feature-harness`, do not invent one. Tell them to name each skill they want (`feature-developer`, `feature-code-reviewer`, `feature-tester`).
+
+## Where SKILL.md lives
+
+| id | Path |
+| --- | --- |
+| `feature-specifier` | `skills/feature-builder/feature-specifier/SKILL.md` |
+| `feature-developer` | `skills/feature-builder/feature-developer/SKILL.md` |
+| `feature-code-reviewer` | `skills/feature-builder/feature-code-reviewer/SKILL.md` |
+| `feature-tester` | `skills/feature-builder/feature-tester/SKILL.md` |
+| `mvp-specifier` | `skills/mvp-builder/mvp-specifier/SKILL.md` |
+
+Templates live in `assets/` next to that `SKILL.md`. Feature-folder write-ups live under `agent-engineer-skills/&lt;name&gt;/`.
+
+## Decision mapping
+
+When the user did not name a skill id:
+
+| User intent | Skill |
+| --- | --- |
+| Vague idea, problem, or feature; spec before code (feature in an existing repo) | `feature-specifier` |
+| Prototype, MVP, new project, greenfield, or pitch | `mvp-specifier` |
+| Implement this specification / this feature folder | `feature-developer` |
+| Review this feature folder, or review against `what-to-build.md` | `feature-code-reviewer` |
+| Test or verify this feature folder against `what-to-build.md` | `feature-tester` |
+
+If they named one skill, run only that skill. `Use skill: feature-verifier` is the old name for `feature-tester`. `Use skill: pitch-to-spec` is the old name for `mvp-specifier`.
+
+If the specification is missing or the idea is fuzzy: a feature in an existing app is `feature-specifier`; a prototype, MVP, new project, greenfield, or pitch is `mvp-specifier`. A generic &quot;I have an idea&quot; in an existing app still maps to `feature-specifier`. If they named implement, review, or test alone, stop after that skill. `mvp-specifier` must not start `feature-developer` in the same chat.
+
+## Global contract
+
+1. Follow the steps in that skill&#x27;s `SKILL.md` in order. Do not skip, merge, or reorder.
+2. Instantiate templates from that skill&#x27;s `assets/` folder. Do not invent alternate structures.
+3. Check the finished write-up against that skill&#x27;s `Before you finish` list, and fix what fails.
+4. Stop when the skill says to wait (questions, missing specification, product landmine). `ok` / `lgtm` is not a skip.
+5. Capability claims require evidence paths. Unknown tools are `unknown` or `absent`, never implied.
+6. No icons or emojis in artifacts.
+7. Consuming-project security and secrets policy wins. This framework wins on templates and required write-up content for the named skill. Skill order wins only when the user named the next skill. Code style of the consuming project wins for source.
+
+## Do not
+
+- Chain specifier → developer → reviewer → tester unless the user named each skill.
+- Run `feature-developer` while the requirement is ambiguous.
+- Invent or restore `feature-harness` / a path runner.
+- Run `mvp-specifier` for a feature in an existing repo (use `feature-specifier`). Do not start `feature-developer` in the same chat as `mvp-specifier`.
+- Invent extra spec packs, CI, or a threat-model essay as part of these skills.
+- Log secrets in skill artifacts.
+
+Quick start: `README.md`. Operator guide: `docs/GUIDE.md`. Control plane: `docs/ARCHITECTURE.md`. Feature folders: `agent-engineer-skills/README.md`. Add a skill: `docs/GUIDE.md` (Add a skill).
+</code></pre>
+<p><a href="https://github.com/lucas-winter-berlin/Agent-Engineer-Skills/blob/HEAD/.cursor/rules/agent-engineer-skills.mdc" rel="external">View raw on GitHub</a></p>
+</section>
+<section><h2>Why this is listed</h2>
+<p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
+<section><h2>Similar in this tracker</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/r/wshobson/agents/">wshobson/agents (stars:38984)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/jnMetaCode/agency-agents-zh/">jnMetaCode/agency-agents-zh (stars:19683)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/HoangNguyen0403/agent-skills-standard/">HoangNguyen0403/agent-skills-standard (stars:545)</a></li>
+</ul></section>
+<section><h2>Explore by category</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/popular/">Popular (by stars)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/recent/">Recent (by activity)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/new/">New this week</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/lang/powershell/">All PowerShell entries</a></li>
+</ul></section>
+</main>
+<footer>
+Auto-updated every 15 minutes via GitHub Actions &#183; <a href="https://linny006.github.io/cursor-rules-live/">tracker root</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/sitemap.xml">sitemap</a>
+</footer>
+</div>
+</body>
+</html>
