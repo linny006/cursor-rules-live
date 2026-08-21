@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-08-21 02:00 UTC
+> ⏰ Last updated: 2026-08-21 02:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,8 +53,8 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-08-21 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 1 | HTML | 2026-08-21 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 1 | HTML | 2026-08-21 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-08-21 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
 | 3 | [MohamedAbdallah-14/unslop](https://github.com/MohamedAbdallah-14/unslop) | 100 | Python | 2026-08-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/MohamedAbdallah-14/unslop/) | Make AI output sound human. Strips AI-isms (sycophancy, stock vocab, hedging stacks, em-dash pileups), preserves code/UR |
 | 4 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-08-21 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
 | 5 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-08-21 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
@@ -101,7 +101,7 @@ expired items removed — so you can rely on what you see being current.
 | 46 | [orin-dx/agent-plugins](https://github.com/orin-dx/agent-plugins) | 1 | Shell | 2026-08-17 | — | Official AI Agent Plugins & Skills Marketplace for Antigravity (AGY), Claude Code, and Cursor |
 | 47 | [GeiserX/homebrew-lynxprompt](https://github.com/GeiserX/homebrew-lynxprompt) | 2 | Ruby | 2026-08-17 | — | Homebrew tap for LynxPrompt CLI |
 | 48 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 19658 | Shell | 2026-08-17 | — | 🎭 267 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 52 个中国市场原创智能体（小红书/抖音/ |
-| 49 | [HoangNguyen0403/agent-skills-standard](https://github.com/HoangNguyen0403/agent-skills-standard) | 544 | TypeScript | 2026-08-17 | — | A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol |
+| 49 | [HoangNguyen0403/agent-skills-standard](https://github.com/HoangNguyen0403/agent-skills-standard) | 545 | TypeScript | 2026-08-17 | — | A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol |
 | 50 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 137 | Python | 2026-08-17 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
 <!-- TRACKER_TABLE_END -->
 
