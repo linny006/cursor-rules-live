@@ -1,12 +1,12 @@
 [
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
     "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-08-22T20:11:45Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 0,
+    "updated_at": "2026-08-22T20:27:34Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "description": "An autonomous Application Security (AppSec) prompt and skill module for AI coding assistants (Antigravity, Cursor, Copil",
@@ -14,7 +14,7 @@
     "language": "\u2014",
     "name": "softwareasg-tools/information-security-for-vibecoded-apps",
     "stars": 1,
-    "updated_at": "2026-08-22T20:02:57Z",
+    "updated_at": "2026-08-22T20:26:53Z",
     "url": "https://github.com/softwareasg-tools/information-security-for-vibecoded-apps"
   },
   {
@@ -23,8 +23,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-22T20:00:27Z",
+    "updated_at": "2026-08-22T20:15:44Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-08-22T20:11:45Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -54,21 +63,12 @@
     "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
   },
   {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 0,
-    "updated_at": "2026-08-22T19:25:37Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
     "description": "Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior",
     "id": "MnemeHQ/mneme",
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 17,
-    "updated_at": "2026-08-22T19:08:23Z",
+    "updated_at": "2026-08-22T20:27:35Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
@@ -520,7 +520,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39025,
+    "stars": 39026,
     "updated_at": "2026-08-18T15:56:45Z",
     "url": "https://github.com/wshobson/agents"
   }
