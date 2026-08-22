@@ -1,12 +1,30 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-08-22T10:13:11Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-22T10:00:40Z",
+    "updated_at": "2026-08-22T10:01:23Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
+    "id": "philipbankier/awesome-agent-skills",
+    "language": "TypeScript",
+    "name": "philipbankier/awesome-agent-skills",
+    "stars": 16,
+    "updated_at": "2026-08-22T10:00:36Z",
+    "url": "https://github.com/philipbankier/awesome-agent-skills"
   },
   {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
@@ -75,15 +93,6 @@
     "stars": 0,
     "updated_at": "2026-08-22T09:30:55Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-08-22T09:17:42Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
@@ -243,15 +252,6 @@
     "stars": 0,
     "updated_at": "2026-08-21T11:33:12Z",
     "url": "https://github.com/lucas-winter-berlin/Agent-Engineer-Skills"
-  },
-  {
-    "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
-    "id": "philipbankier/awesome-agent-skills",
-    "language": "TypeScript",
-    "name": "philipbankier/awesome-agent-skills",
-    "stars": 16,
-    "updated_at": "2026-08-22T10:00:36Z",
-    "url": "https://github.com/philipbankier/awesome-agent-skills"
   },
   {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
