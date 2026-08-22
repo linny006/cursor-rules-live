@@ -1,11 +1,29 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-08-22T20:11:45Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "An autonomous Application Security (AppSec) prompt and skill module for AI coding assistants (Antigravity, Cursor, Copil",
+    "id": "softwareasg-tools/information-security-for-vibecoded-apps",
+    "language": "\u2014",
+    "name": "softwareasg-tools/information-security-for-vibecoded-apps",
+    "stars": 1,
+    "updated_at": "2026-08-22T20:02:57Z",
+    "url": "https://github.com/softwareasg-tools/information-security-for-vibecoded-apps"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-22T19:57:01Z",
+    "updated_at": "2026-08-22T20:00:27Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -43,15 +61,6 @@
     "stars": 0,
     "updated_at": "2026-08-22T19:25:37Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-08-22T19:15:26Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior",
@@ -514,14 +523,5 @@
     "stars": 39025,
     "updated_at": "2026-08-18T15:56:45Z",
     "url": "https://github.com/wshobson/agents"
-  },
-  {
-    "description": "\u26a1 The Universal Package Manager & Registry for AI Coding Agents (Claude Code, OpenCode, Cursor, Windsurf, RooCode, Copil",
-    "id": "Blazkojj/skillhub",
-    "language": "JavaScript",
-    "name": "Blazkojj/skillhub",
-    "stars": 1,
-    "updated_at": "2026-08-18T14:44:40Z",
-    "url": "https://github.com/Blazkojj/skillhub"
   }
 ]
