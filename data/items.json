@@ -1,12 +1,17 @@
 [
   {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 3,
-    "updated_at": "2026-08-22T10:43:30Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
+    "cursorrules": {
+      "content": "---\ndescription: Keyhole context-diet rules for Cursor agents\nalwaysApply: true\n---\n\n# Keyhole (always on in this project)\n\nLook through a keyhole, not an open door. Load the smallest context that still solves the task.\n\nDefault intensity: **full**.\n\n## Context ladder (stop at first working rung)\n\n1. Answer from chat/memory/open diffs \u2192 do not read files\n2. One symbol/definition \u2192 targeted jump only\n3. One file slice \u2192 read with offset/limit when possible\n4. Narrow grep/glob before broad explore\n5. Multi-file only under budget: full = \u22645 files or ~20k read tokens\n6. Never dump directories, never re-read unchanged files, never explore \"just in case\"\n\n## Intensity budgets\n\n- lite: \u22648 files or ~40k read tokens\n- full: \u22645 files or ~20k read tokens\n- ultra: \u22642 files or ~8k read tokens\n\n## Commands the user may say\n\n- `/keyhole` / `/keyhole lite|full|ultra|off`\n- `/keyhole-why` \u2014 list loaded files and rung\n- `/keyhole-stats` \u2014 show estimated avoided context from a read log/catalog; never claim provider billing\n- `/keyhole-gain` \u2014 show latest benchmark scoreboard when results exist\n- `/keyhole-budget <n>k` \u2014 override soft read budget\n\n## Auto-widen allowed\n\nWhen tests/compiler/stack traces/user explicitly name a file, read that file. Still prefer budget.\n\nCanonical rules live in `skills/keyhole/SKILL.md` (copied by `scripts/install.sh`). Keep behavior aligned with that file.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/keyhole.mdc"
+    },
+    "description": "Context-diet skill for AI coding agents \u2014 look through a keyhole, not an open door. Complements caveman (talk) and ponyt",
+    "id": "SAURABH-TRIPATHI17/keyhole",
+    "language": "JavaScript",
+    "name": "SAURABH-TRIPATHI17/keyhole",
+    "stars": 0,
+    "updated_at": "2026-08-22T10:49:46Z",
+    "url": "https://github.com/SAURABH-TRIPATHI17/keyhole"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +19,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-22T10:40:46Z",
+    "updated_at": "2026-08-22T10:45:43Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 3,
+    "updated_at": "2026-08-22T10:43:30Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -34,20 +48,6 @@
     "stars": 0,
     "updated_at": "2026-08-22T10:28:05Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Keyhole context-diet rules for Cursor agents\nalwaysApply: true\n---\n\n# Keyhole (always on in this project)\n\nLook through a keyhole, not an open door. Load the smallest context that still solves the task.\n\nDefault intensity: **full**.\n\n## Context ladder (stop at first working rung)\n\n1. Answer from chat/memory/open diffs \u2192 do not read files\n2. One symbol/definition \u2192 targeted jump only\n3. One file slice \u2192 read with offset/limit when possible\n4. Narrow grep/glob before broad explore\n5. Multi-file only under budget: full = \u22645 files or ~20k read tokens\n6. Never dump directories, never re-read unchanged files, never explore \"just in case\"\n\n## Intensity budgets\n\n- lite: \u22648 files or ~40k read tokens\n- full: \u22645 files or ~20k read tokens\n- ultra: \u22642 files or ~8k read tokens\n\n## Commands the user may say\n\n- `/keyhole` / `/keyhole lite|full|ultra|off`\n- `/keyhole-why` \u2014 list loaded files and rung\n- `/keyhole-stats` \u2014 show estimated avoided context from a read log/catalog; never claim provider billing\n- `/keyhole-gain` \u2014 show latest benchmark scoreboard when results exist\n- `/keyhole-budget <n>k` \u2014 override soft read budget\n\n## Auto-widen allowed\n\nWhen tests/compiler/stack traces/user explicitly name a file, read that file. Still prefer budget.\n\nCanonical rules live in `skills/keyhole/SKILL.md` (copied by `scripts/install.sh`). Keep behavior aligned with that file.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/keyhole.mdc"
-    },
-    "description": "Context-diet skill for AI coding agents \u2014 look through a keyhole, not an open door. Complements caveman (talk) and ponyt",
-    "id": "SAURABH-TRIPATHI17/keyhole",
-    "language": "JavaScript",
-    "name": "SAURABH-TRIPATHI17/keyhole",
-    "stars": 0,
-    "updated_at": "2026-08-22T10:25:22Z",
-    "url": "https://github.com/SAURABH-TRIPATHI17/keyhole"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
