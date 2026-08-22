@@ -1,11 +1,20 @@
 [
   {
+    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
+    "id": "zinxj/uikit-expert-skill",
+    "language": "\u2014",
+    "name": "zinxj/uikit-expert-skill",
+    "stars": 4,
+    "updated_at": "2026-08-22T02:42:07Z",
+    "url": "https://github.com/zinxj/uikit-expert-skill"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-22T02:30:37Z",
+    "updated_at": "2026-08-22T02:40:42Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -417,15 +426,6 @@
     "stars": 0,
     "updated_at": "2026-08-19T07:13:08Z",
     "url": "https://github.com/Amirun99/agency-orchestrator"
-  },
-  {
-    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
-    "id": "zinxj/uikit-expert-skill",
-    "language": "\u2014",
-    "name": "zinxj/uikit-expert-skill",
-    "stars": 4,
-    "updated_at": "2026-08-19T07:07:32Z",
-    "url": "https://github.com/zinxj/uikit-expert-skill"
   },
   {
     "description": "VS Code extension for LynxPrompt \u2014 browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules) ",
