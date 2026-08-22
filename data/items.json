@@ -1,12 +1,39 @@
 [
   {
+    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
+    "id": "Laurellagloomy260/cursor-rules-generator",
+    "language": "\u2014",
+    "name": "Laurellagloomy260/cursor-rules-generator",
+    "stars": 0,
+    "updated_at": "2026-08-22T17:51:53Z",
+    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
+  },
+  {
+    "description": "Scan and analyze storage usage, identify junk files, and safely clean unnecessary data",
+    "id": "JojoAArtI/storage-sleuth",
+    "language": "\u2014",
+    "name": "JojoAArtI/storage-sleuth",
+    "stars": 2,
+    "updated_at": "2026-08-22T17:50:28Z",
+    "url": "https://github.com/JojoAArtI/storage-sleuth"
+  },
+  {
     "description": "Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior",
     "id": "MnemeHQ/mneme",
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 17,
-    "updated_at": "2026-08-22T17:46:14Z",
+    "updated_at": "2026-08-22T17:49:51Z",
     "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
+    "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
+    "id": "Bastioned-successor320/learn-nanobot",
+    "language": "Python",
+    "name": "Bastioned-successor320/learn-nanobot",
+    "stars": 8,
+    "updated_at": "2026-08-22T17:47:07Z",
+    "url": "https://github.com/Bastioned-successor320/learn-nanobot"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,7 +41,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-22T17:45:36Z",
+    "updated_at": "2026-08-22T17:46:59Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -107,24 +134,6 @@
     "stars": 16,
     "updated_at": "2026-08-22T10:00:36Z",
     "url": "https://github.com/philipbankier/awesome-agent-skills"
-  },
-  {
-    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
-    "id": "Laurellagloomy260/cursor-rules-generator",
-    "language": "\u2014",
-    "name": "Laurellagloomy260/cursor-rules-generator",
-    "stars": 0,
-    "updated_at": "2026-08-22T09:59:29Z",
-    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
-  },
-  {
-    "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
-    "id": "Bastioned-successor320/learn-nanobot",
-    "language": "Python",
-    "name": "Bastioned-successor320/learn-nanobot",
-    "stars": 8,
-    "updated_at": "2026-08-22T09:54:50Z",
-    "url": "https://github.com/Bastioned-successor320/learn-nanobot"
   },
   {
     "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
@@ -362,15 +371,6 @@
     "stars": 0,
     "updated_at": "2026-08-20T21:25:18Z",
     "url": "https://github.com/Heretek-AI/Agent-Proof"
-  },
-  {
-    "description": "Scan and analyze storage usage, identify junk files, and safely clean unnecessary data",
-    "id": "JojoAArtI/storage-sleuth",
-    "language": "\u2014",
-    "name": "JojoAArtI/storage-sleuth",
-    "stars": 2,
-    "updated_at": "2026-08-20T15:22:46Z",
-    "url": "https://github.com/JojoAArtI/storage-sleuth"
   },
   {
     "description": "323\u500b\u306e\u5373\u6226\u529bAI\u5c02\u9580\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8 \u2014 Claude Code/Cursor/Copilot\u7b49\u306b\u5bfe\u5fdc\u3002SIer/\u53d7\u8a17\u958b\u767a/SaaS/\u88fd\u9020DX/\u516c\u5171\u5206\u91ce\u306a\u3069\u65e5\u672c\u5e02\u5834\u5411\u3051114\u500b\u306e\u30aa\u30ea\u30b8\u30ca\u30eb\u3092\u542b\u3080\u3001agency-agents\u65e5\u672c\u8a9e\u30b3\u30df\u30e5\u30cb\u30c6\u30a3",
