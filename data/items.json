@@ -1,11 +1,20 @@
 [
   {
+    "description": "Official AI Agent Plugins & Skills Marketplace for Antigravity (AGY), Claude Code, and Cursor",
+    "id": "orin-dx/agent-plugins",
+    "language": "Shell",
+    "name": "orin-dx/agent-plugins",
+    "stars": 1,
+    "updated_at": "2026-08-22T00:25:59Z",
+    "url": "https://github.com/orin-dx/agent-plugins"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-22T00:00:33Z",
+    "updated_at": "2026-08-22T00:15:44Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -43,15 +52,6 @@
     "stars": 1,
     "updated_at": "2026-08-21T23:13:54Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "Official AI Agent Plugins & Skills Marketplace for Antigravity (AGY), Claude Code, and Cursor",
-    "id": "orin-dx/agent-plugins",
-    "language": "Shell",
-    "name": "orin-dx/agent-plugins",
-    "stars": 1,
-    "updated_at": "2026-08-21T22:42:07Z",
-    "url": "https://github.com/orin-dx/agent-plugins"
   },
   {
     "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
