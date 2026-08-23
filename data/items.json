@@ -1,11 +1,43 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: Activate ParselFire Core C++ pack index\nglobs: **/*.{cc,cpp,cxx,hh,hpp,hxx,ipp,tpp,inl}\nalwaysApply: false\n---\n\n# C++ Pack Activation\n\nFor C++ source files:\n\n- Load `packs/cpp-architecture/pack.urf.md`.\n- Use its `## ROUTING` and `## LEAVES` records for leaf selection.\n- Use its `## STAGE-REFS` records to gather the family K ids (and their mirrored X ids) at each stage of the walk.\n\nFor ambiguous `.h` or `.c` files that reach this rule via the always-on router:\n\n- Apply cpp-architecture only if the file contains C++ constructs (class, template, namespace, references, std::, noexcept, overloads).\n- If the file is plain C, stay on universal only.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/boffin-cpp-routing.mdc"
+    },
+    "description": "Staff-engineer layer for AI coding agents: routes per-edit architectural constraints and requires verification. Not anot",
+    "id": "MicSm/boffin",
+    "language": "JavaScript",
+    "name": "MicSm/boffin",
+    "stars": 38,
+    "updated_at": "2026-08-23T11:14:40Z",
+    "url": "https://github.com/MicSm/boffin"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-08-23T11:12:10Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 138,
+    "updated_at": "2026-08-23T11:07:01Z",
+    "url": "https://github.com/KbWen/agentic-os"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-23T11:00:01Z",
+    "updated_at": "2026-08-23T11:00:47Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -52,15 +84,6 @@
     "stars": 0,
     "updated_at": "2026-08-23T10:28:18Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-08-23T10:13:54Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
@@ -136,15 +159,6 @@
     "url": "https://github.com/johnwall123459885/skene-cookbook"
   },
   {
-    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
-    "id": "KbWen/agentic-os",
-    "language": "Python",
-    "name": "KbWen/agentic-os",
-    "stars": 138,
-    "updated_at": "2026-08-23T10:42:51Z",
-    "url": "https://github.com/KbWen/agentic-os"
-  },
-  {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
     "id": "J-nowcow/awesome-korean-agent-skills",
     "language": "\u2014",
@@ -186,7 +200,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39037,
+    "stars": 39038,
     "updated_at": "2026-08-23T01:56:31Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -254,7 +268,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 19799,
+    "stars": 19801,
     "updated_at": "2026-08-22T07:11:18Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -504,14 +518,5 @@
     "stars": 0,
     "updated_at": "2026-08-19T23:25:51Z",
     "url": "https://github.com/PiloTracer/pilo.ai.logicbison"
-  },
-  {
-    "description": "VS Code extension for LynxPrompt \u2014 browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules) ",
-    "id": "GeiserX/lynxprompt-vscode",
-    "language": "TypeScript",
-    "name": "GeiserX/lynxprompt-vscode",
-    "stars": 2,
-    "updated_at": "2026-08-19T06:53:27Z",
-    "url": "https://github.com/GeiserX/lynxprompt-vscode"
   }
 ]
