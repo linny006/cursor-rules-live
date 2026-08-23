@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-08-23 11:15 UTC
+> ⏰ Last updated: 2026-08-23 11:28 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,15 +53,15 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [MicSm/boffin](https://github.com/MicSm/boffin) | 38 | JavaScript | 2026-08-23 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/MicSm/boffin/) | Staff-engineer layer for AI coding agents: routes per-edit architectural constraints and requires verification. Not anot |
-| 2 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-08-23 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
-| 3 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 138 | Python | 2026-08-23 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
-| 4 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 2 | HTML | 2026-08-23 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 5 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-08-23 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 6 | [romanveselovski/ru-agents-frontend-rules](https://github.com/romanveselovski/ru-agents-frontend-rules) | 0 | — | 2026-08-23 | — | Готовый AGENTS.md + правила Cursor для любого фронтенда. Агент перестаёт штамповать однотипные сайты: живой UI, WCAG 2.2 |
-| 7 | [romanveselovski/agents-frontend-rules](https://github.com/romanveselovski/agents-frontend-rules) | 0 | — | 2026-08-23 | — | Drop-in AGENTS.md + Cursor rules for any frontend. Stop AI slop: distinctive UI, WCAG 2.2, SEO, Core Web Vitals, forms,  |
-| 8 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-08-23 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
-| 9 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-08-23 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
+| 1 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-08-23 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
+| 2 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-08-23 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
+| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 2 | HTML | 2026-08-23 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 4 | [MicSm/boffin](https://github.com/MicSm/boffin) | 38 | JavaScript | 2026-08-23 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/MicSm/boffin/) | Staff-engineer layer for AI coding agents: routes per-edit architectural constraints and requires verification. Not anot |
+| 5 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-08-23 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
+| 6 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 138 | Python | 2026-08-23 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
+| 7 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-08-23 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
+| 8 | [romanveselovski/ru-agents-frontend-rules](https://github.com/romanveselovski/ru-agents-frontend-rules) | 0 | — | 2026-08-23 | — | Готовый AGENTS.md + правила Cursor для любого фронтенда. Агент перестаёт штамповать однотипные сайты: живой UI, WCAG 2.2 |
+| 9 | [romanveselovski/agents-frontend-rules](https://github.com/romanveselovski/agents-frontend-rules) | 0 | — | 2026-08-23 | — | Drop-in AGENTS.md + Cursor rules for any frontend. Stop AI slop: distinctive UI, WCAG 2.2, SEO, Core Web Vitals, forms,  |
 | 10 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 16 | TypeScript | 2026-08-23 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
 | 11 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-08-23 | — | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
 | 12 | [vibestackdev/vibe-stack](https://github.com/vibestackdev/vibe-stack) | 7 | TypeScript | 2026-08-23 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/) | 29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b |
