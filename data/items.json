@@ -1,11 +1,38 @@
 [
   {
+    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 138,
+    "updated_at": "2026-08-23T06:52:36Z",
+    "url": "https://github.com/KbWen/agentic-os"
+  },
+  {
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-08-23T06:50:08Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
+  },
+  {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 0,
+    "updated_at": "2026-08-23T06:48:52Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-23T06:41:21Z",
+    "updated_at": "2026-08-23T06:45:31Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -43,24 +70,6 @@
     "stars": 3,
     "updated_at": "2026-08-23T05:48:27Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
-    "stars": 0,
-    "updated_at": "2026-08-23T05:33:49Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 0,
-    "updated_at": "2026-08-23T05:33:09Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "cursorrules": {
@@ -509,19 +518,5 @@
     "stars": 3,
     "updated_at": "2026-08-19T03:59:19Z",
     "url": "https://github.com/madebyaris/cursor-composer-rules"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: PowerSync skill \u2014 follow AGENTS.md playbook; powersync login is Cloud-only\nglobs:\n  - skills/powersync/**/*\n  - AGENTS.md\n  - CONTRIBUTING.md\n---\n\n# PowerSync agent skills\n\nWhen editing or when the user\u2019s task involves PowerSync:\n\n1. Open **skills/powersync/AGENTS.md** and follow **Agent compliance** and the numbered onboarding playbook. Do not assume backend or Cloud vs self-hosted.\n2. Prefer the **PowerSync CLI** per that file; do not hand-roll deployable config unless the user explicitly cannot use the CLI.\n3. **`powersync login`** is for **PowerSync Cloud** (PAT) only \u2014 not for authenticating to a **self-hosted** service. Self-hosted: `powersync init self-hosted`, Docker commands, `PS_ADMIN_TOKEN` on the service.\n\nIf instructions here conflict with a \u201cfaster\u201d approach, the playbook wins unless the user explicitly overrides.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/powersync-playbook.mdc"
-    },
-    "description": "Official agent skills for PowerSync",
-    "id": "powersync-ja/agent-skills",
-    "language": "JavaScript",
-    "name": "powersync-ja/agent-skills",
-    "stars": 18,
-    "updated_at": "2026-08-18T20:24:08Z",
-    "url": "https://github.com/powersync-ja/agent-skills"
   }
 ]
