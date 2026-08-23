@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 2,
+    "updated_at": "2026-08-23T04:15:30Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: Trigger Ticket Flow skill when working on, fixing, or implementing tickets (e.g. \"fix bug PROJ-123\", \"work on PROJ-123\")\nglobs: *\nalwaysApply: false\n---\n\n# Ticket Flow Trigger Rule\n\nWhen the user asks to process a ticket, fix a bug with an ID, work on a ticket, or handle a queue of tickets:\n\n1. **Load and follow** the Ticket Flow skill located at `ticket-flow/.cursor/skills/ticket-flow/SKILL.md`.\n2. Do not attempt to freestyle the workflow sequence.\n3. Keep the naming glossary in mind and strictly enforce the **Confirm** validation gate before committing or opening PRs.\n4. Stage only path-scoped changes relevant to the ticket.\n",
       "format": "mdc",
@@ -21,15 +30,6 @@
     "stars": 3,
     "updated_at": "2026-08-23T04:05:58Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 2,
-    "updated_at": "2026-08-23T04:00:29Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -68,7 +68,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39031,
+    "stars": 39030,
     "updated_at": "2026-08-23T01:56:31Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -218,7 +218,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 19776,
+    "stars": 19777,
     "updated_at": "2026-08-22T07:11:18Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
