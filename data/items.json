@@ -1,11 +1,20 @@
 [
   {
+    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 138,
+    "updated_at": "2026-08-23T17:47:28Z",
+    "url": "https://github.com/KbWen/agentic-os"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-23T17:45:38Z",
+    "updated_at": "2026-08-23T17:46:21Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -97,15 +106,6 @@
     "stars": 1,
     "updated_at": "2026-08-23T16:18:30Z",
     "url": "https://github.com/yfgug/competition-engineering-skill"
-  },
-  {
-    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
-    "id": "KbWen/agentic-os",
-    "language": "Python",
-    "name": "KbWen/agentic-os",
-    "stars": 138,
-    "updated_at": "2026-08-23T17:32:58Z",
-    "url": "https://github.com/KbWen/agentic-os"
   },
   {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
