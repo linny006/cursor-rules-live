@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-08-23 12:00 UTC
+> ⏰ Last updated: 2026-08-23 12:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -72,7 +72,7 @@ expired items removed — so you can rely on what you see being current.
 | 17 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 35 | — | 2026-08-23 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
 | 18 | [softwareasg-tools/information-security-for-vibecoded-apps](https://github.com/softwareasg-tools/information-security-for-vibecoded-apps) | 1 | — | 2026-08-23 | — | An autonomous Application Security (AppSec) prompt and skill module for AI coding assistants (Antigravity, Cursor, Copil |
 | 19 | [smg99/ticket-flow](https://github.com/smg99/ticket-flow) | 0 | Shell | 2026-08-23 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/smg99/ticket-flow/) | A repeatable, high-discipline workflow pattern for Cursor agents: fetches issues, branches, implements, adds tests, runs |
-| 20 | [wshobson/agents](https://github.com/wshobson/agents) | 39039 | Python | 2026-08-23 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, and Google Antigravit |
+| 20 | [wshobson/agents](https://github.com/wshobson/agents) | 39038 | Python | 2026-08-23 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, and Google Antigravit |
 | 21 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 17 | Python | 2026-08-23 | — | Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior |
 | 22 | [nota-america/forgecat-agent-profiles](https://github.com/nota-america/forgecat-agent-profiles) | 56 | TypeScript | 2026-08-23 | — | Production-ready AI agent profiles for Claude Code, Cursor, Codex, OpenClaw, and Hermes. Search, install, and contribute |
 | 23 | [JojoAArtI/storage-sleuth](https://github.com/JojoAArtI/storage-sleuth) | 2 | — | 2026-08-22 | — | Scan and analyze storage usage, identify junk files, and safely clean unnecessary data |
@@ -94,7 +94,7 @@ expired items removed — so you can rely on what you see being current.
 | 39 | [Overseastelegramaliterateperson865/awesome-claude-md](https://github.com/Overseastelegramaliterateperson865/awesome-claude-md) | 1 | — | 2026-08-21 | — | Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr |
 | 40 | [Luxvil/ai-coding-rules](https://github.com/Luxvil/ai-coding-rules) | 3 | Shell | 2026-08-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Luxvil/ai-coding-rules/) | 🤖 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje |
 | 41 | [kensaurus/cursor-kenji](https://github.com/kensaurus/cursor-kenji) | 9 | JavaScript | 2026-08-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/kensaurus/cursor-kenji/) | 🦖Curated Cursor AI agent skills, slash commands, MCP configs, subagents & rules for full-stack dev — React 19, Next.js 1 |
-| 42 | [MohamedAbdallah-14/unslop](https://github.com/MohamedAbdallah-14/unslop) | 105 | Python | 2026-08-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/MohamedAbdallah-14/unslop/) | Make AI output sound human. Strips AI-isms (sycophancy, stock vocab, hedging stacks, em-dash pileups), preserves code/UR |
+| 42 | [MohamedAbdallah-14/unslop](https://github.com/MohamedAbdallah-14/unslop) | 106 | Python | 2026-08-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/MohamedAbdallah-14/unslop/) | Make AI output sound human. Strips AI-isms (sycophancy, stock vocab, hedging stacks, em-dash pileups), preserves code/UR |
 | 43 | [sublimecoder/sublimecoding](https://github.com/sublimecoder/sublimecoding) | 0 | — | 2026-08-21 | — | 🛠️ Free Claude Code & Cursor prompts for senior engineers — plus AIOS, an open-source markdown memory system for coding  |
 | 44 | [djtelicloud/grok-mcp-server](https://github.com/djtelicloud/grok-mcp-server) | 23 | Python | 2026-08-20 | — | Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API  |
 | 45 | [Heretek-AI/Agent-Proof](https://github.com/Heretek-AI/Agent-Proof) | 0 | TypeScript | 2026-08-20 | — | Deterministic zero-trust mechanical hard-gate CLI for autonomous AI coding agents (Claude Code, Antigravity, Cursor). By |
