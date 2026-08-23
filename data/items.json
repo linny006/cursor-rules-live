@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 2,
+    "updated_at": "2026-08-23T00:45:29Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
     "id": "edsondviana8/ai-humanizer-core",
     "language": "HTML",
@@ -14,7 +23,7 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 17,
-    "updated_at": "2026-08-23T00:45:00Z",
+    "updated_at": "2026-08-23T00:53:58Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
@@ -34,15 +43,6 @@
     "stars": 8,
     "updated_at": "2026-08-23T00:36:39Z",
     "url": "https://github.com/Bastioned-successor320/learn-nanobot"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 2,
-    "updated_at": "2026-08-23T00:30:54Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -69,7 +69,7 @@
     "language": "Python",
     "name": "wshobson/agents",
     "stars": 39030,
-    "updated_at": "2026-08-23T00:41:42Z",
+    "updated_at": "2026-08-23T00:59:12Z",
     "url": "https://github.com/wshobson/agents"
   },
   {
