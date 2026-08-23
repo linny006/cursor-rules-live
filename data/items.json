@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 2,
+    "updated_at": "2026-08-23T16:26:36Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "\u4e00\u4e2a\u6bd4\u8d5b\u5de5\u7a0b\u5316skill",
     "id": "yfgug/competition-engineering-skill",
     "language": "JavaScript",
@@ -7,15 +16,6 @@
     "stars": 1,
     "updated_at": "2026-08-23T16:18:30Z",
     "url": "https://github.com/yfgug/competition-engineering-skill"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 2,
-    "updated_at": "2026-08-23T16:15:37Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
@@ -309,7 +309,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 19819,
+    "stars": 19820,
     "updated_at": "2026-08-22T07:11:18Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
