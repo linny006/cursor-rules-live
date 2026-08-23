@@ -1,11 +1,29 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-08-23T17:12:26Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "Modulares Cursor-Setup fuer agentisches Arbeiten - Regeln, Hooks, Subagenten und MCP, jeder Schluessel gegen eine echte ",
+    "id": "MCLeut/service-cursor",
+    "language": "JavaScript",
+    "name": "MCLeut/service-cursor",
+    "stars": 0,
+    "updated_at": "2026-08-23T17:11:33Z",
+    "url": "https://github.com/MCLeut/service-cursor"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-23T16:53:25Z",
+    "updated_at": "2026-08-23T17:00:29Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -34,15 +52,6 @@
     "stars": 17,
     "updated_at": "2026-08-23T16:46:20Z",
     "url": "https://github.com/MnemeHQ/mneme"
-  },
-  {
-    "description": "Modulares Cursor-Setup fuer agentisches Arbeiten - Regeln, Hooks, Subagenten und MCP, jeder Schluessel gegen eine echte ",
-    "id": "MCLeut/service-cursor",
-    "language": "JavaScript",
-    "name": "MCLeut/service-cursor",
-    "stars": 0,
-    "updated_at": "2026-08-23T16:37:34Z",
-    "url": "https://github.com/MCLeut/service-cursor"
   },
   {
     "description": "\ud83d\ude80 Universal Open-Source AI Agent Skills & Rules Library for Antigravity, Cursor, Claude Code, GitHub Copilot, OpenAI Cod",
@@ -88,15 +97,6 @@
     "stars": 138,
     "updated_at": "2026-08-23T16:13:53Z",
     "url": "https://github.com/KbWen/agentic-os"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-08-23T16:13:47Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
