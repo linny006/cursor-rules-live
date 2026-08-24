@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 2,
+    "updated_at": "2026-08-24T21:44:35Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: \nglobs: \nalwaysApply: true\n---\n# AI-Rizz Development Practices\n\n## Project Environment\n\n1. **NEVER** test `ai-rizz` commands in the project directory. `ai-rizz` *uses* itself to manage its own rules and you'll break the project configuration. **ALWAY** test `ai-rizz` using the test suites, or in a temporary directory.\n\n## Project-Specific Testing Standards\n\n1. **Test Execution**: Always run tests with `make test` for consistency. Individual test suites can be run directly for debugging only.\n    - all tests: `make test`\n    - single test: `./tests/integration/functions/test_conflict_resolution.test.sh`\n    - single test, verbose: `VERBOSE_TESTS=true ./tests/integration/functions/test_conflict_resolution.test.sh`\n        - there is NO more verbosity than this. You cannot run an individual test. If you have the output of a test suite run like the above, there is NO POINT in trying to run it in other ways. Add verbosity to the test suite, or modify the codebase. Do not keep running the tests and grepping for different things.\n        - **NEVER** waste time doing this: `VERBOSE_TESTS=true ./tests/integration/test_envvar_fallbacks.test.sh | grep -B5 -A5 \"ASSERT.*expected\"`; just read the regular test suite output by running as shown for \"single test, verbose\".\n\n2. **Test Environment Setup**: \n   - Set git user and email in all dummy repositories used for testing\n   - Use `git commit --no-gpg-sign` in test environments\n\n3. **Test Output Management**: \n   - Don't proactively truncate test output without understanding length first\n   - Run tests once to gauge output length before deciding on truncation\n\n## Function Documentation Standards\n\nFor ai-rizz's complex command functions, ensure documentation includes:\n\n1. **Summary Bullet Points**: Long functions like `cmd_init` and `cmd_list` need summary bullet points explaining their primary purpose\n2. **Flag Documentation**: All `cmd_xxx` functions must document which flags they respond to (since they're user-interface functions)\n3. **Return Value Clarity**: Use shell conventions (0/1 for success/failure) not \"TRUE/FALSE\" in documentation\n4. **Complexity Explanation**: When describing complex logic, explain the value provided by the complexity, not just that \"it's complex\"\n\n## User Interface Patterns\n\n1. **Argument Ordering**: Support flexible argument ordering where reasonable (e.g., `ai-rizz add --local rule foo` and `ai-rizz add rule foo --local`)\n\n## Shell Scripting Specifics\n\n1. **Subshell Avoidance**: Avoid subshells when variable scope matters - use temporary files or other patterns instead\n2. **Variable Scope**: Continue using function-specific prefixes for all local variables (already established pattern)\n\n## Error Message Standards\n\n1. **Actionable Errors**: Error messages should include copy-pasteable fix commands when possible. If not possible, they should at least guide the user closer to a resolution.\n2. **Manifest Integrity**: Use the enhanced error format that shows both repositories and provides three clear resolution options\n",
       "format": "mdc",
@@ -30,15 +39,6 @@
     "stars": 0,
     "updated_at": "2026-08-24T21:33:43Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 2,
-    "updated_at": "2026-08-24T21:30:42Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
