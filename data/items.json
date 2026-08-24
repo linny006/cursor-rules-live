@@ -1,5 +1,37 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 2,
+    "updated_at": "2026-08-24T16:15:38Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 141,
+    "updated_at": "2026-08-24T16:08:48Z",
+    "url": "https://github.com/KbWen/agentic-os"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: \nglobs: \nalwaysApply: true\n---\n# AI-Rizz Development Practices\n\n## Project Environment\n\n1. **NEVER** test `ai-rizz` commands in the project directory. `ai-rizz` *uses* itself to manage its own rules and you'll break the project configuration. **ALWAY** test `ai-rizz` using the test suites, or in a temporary directory.\n\n## Project-Specific Testing Standards\n\n1. **Test Execution**: Always run tests with `make test` for consistency. Individual test suites can be run directly for debugging only.\n    - all tests: `make test`\n    - single test: `./tests/integration/functions/test_conflict_resolution.test.sh`\n    - single test, verbose: `VERBOSE_TESTS=true ./tests/integration/functions/test_conflict_resolution.test.sh`\n        - there is NO more verbosity than this. You cannot run an individual test. If you have the output of a test suite run like the above, there is NO POINT in trying to run it in other ways. Add verbosity to the test suite, or modify the codebase. Do not keep running the tests and grepping for different things.\n        - **NEVER** waste time doing this: `VERBOSE_TESTS=true ./tests/integration/test_envvar_fallbacks.test.sh | grep -B5 -A5 \"ASSERT.*expected\"`; just read the regular test suite output by running as shown for \"single test, verbose\".\n\n2. **Test Environment Setup**: \n   - Set git user and email in all dummy repositories used for testing\n   - Use `git commit --no-gpg-sign` in test environments\n\n3. **Test Output Management**: \n   - Don't proactively truncate test output without understanding length first\n   - Run tests once to gauge output length before deciding on truncation\n\n## Function Documentation Standards\n\nFor ai-rizz's complex command functions, ensure documentation includes:\n\n1. **Summary Bullet Points**: Long functions like `cmd_init` and `cmd_list` need summary bullet points explaining their primary purpose\n2. **Flag Documentation**: All `cmd_xxx` functions must document which flags they respond to (since they're user-interface functions)\n3. **Return Value Clarity**: Use shell conventions (0/1 for success/failure) not \"TRUE/FALSE\" in documentation\n4. **Complexity Explanation**: When describing complex logic, explain the value provided by the complexity, not just that \"it's complex\"\n\n## User Interface Patterns\n\n1. **Argument Ordering**: Support flexible argument ordering where reasonable (e.g., `ai-rizz add --local rule foo` and `ai-rizz add rule foo --local`)\n\n## Shell Scripting Specifics\n\n1. **Subshell Avoidance**: Avoid subshells when variable scope matters - use temporary files or other patterns instead\n2. **Variable Scope**: Continue using function-specific prefixes for all local variables (already established pattern)\n\n## Error Message Standards\n\n1. **Actionable Errors**: Error messages should include copy-pasteable fix commands when possible. If not possible, they should at least guide the user closer to a resolution.\n2. **Manifest Integrity**: Use the enhanced error format that shows both repositories and provides three clear resolution options\n",
+      "format": "mdc",
+      "path": ".cursor/rules/ai-rizz-development.mdc"
+    },
+    "description": "Zero-dependency POSIX CLI for managing AI rules and rulesets. Pull rules from a source repository and use them committed",
+    "id": "Texarkanine/ai-rizz",
+    "language": "Shell",
+    "name": "Texarkanine/ai-rizz",
+    "stars": 0,
+    "updated_at": "2026-08-24T16:08:46Z",
+    "url": "https://github.com/Texarkanine/ai-rizz"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: Battle-tested engineering judgment for code, refactors, tests, and frontend UI. Ultra-terse caveman style during code work.\nalwaysApply: true\n---\n\n# Battle Tested Engineer\n\nGoal: least code, fix problem, no break working stuff.\n\n## Output style\n\n- Explain in simple terms like a human.\n- Write specs as if any engineer would easily catch. Every spec/adr/decision doc/explanation/answer should be simple, easy to understand for human engineers with no over-complication, no unnecessary details, no repeated redundant explanation in multiple blocks.\n- Document core business workflows, decisions, algorithms, approaches.\n- No extra explanation than asked.\n- No decorative tables, emoji, tool narration. Errors: quote shortest relevant line only.\n\n## 1. Think before code\n\n- State assumption, no guess.\n- Multi interpretation \u2192 show all, no pick.\n- Unclear ask \u2192 stop, name confusion, ask.\n- Simpler way exist \u2192 say it.\n\n## 2. Simplicity\n\n- Senior-line estimate; actual >4x \u2192 cut.\n- No unrequested feature/flexibility/config/error-handling for impossible case.\n- Prefer stdlib/dep over hand-roll.\n- Function many unrelated thing \u2192 split single-responsibility. Already one thing \u2192 leave.\n- YAGNI/DRY/SOLID when shape need \u2014 not checklist.\n- Comment why, not what.\n- Red flag: single-use abstraction, one-method \"manager\", options object one caller.\n\n## 3. Architecture boundaries (Clean Architecture)\n\n- Business rules are the center. Code depends inward, never outward.\n- Frameworks are tools, not foundations. UI, ORM, web framework, database are replaceable details.\n- Controllers thin: translate input/output only. No business decisions.\n- Use cases focused: one use case = one application action.\n- Domain models clean: no database, HTTP, framework, or infrastructure knowledge inside.\n- Business behavior near business data. Do not scatter rules across controllers/services/helpers.\n- Interfaces at real boundaries: external systems, storage, APIs, queues. No fake abstraction.\n- Dependencies explicit. Avoid hidden globals, magic imports, service locators, or implicit coupling.\n- Composition over inheritance. Assemble behavior instead of deep class trees.\n- Organize around business capabilities, not technical layers.\n```\nBad:    controllers/ services/ repositories/\nBetter: orders/ payments/ users/\n```\n- Design for change. Protect stable business rules from changing technology.\n- Dependency direction matters more than folder structure.\n- If removing a framework requires rewriting business logic, the boundary is wrong.\n\n## 4. Surgical change\n\n- Touch only what ask need \u2014 every changed line trace to ask.\n- Unrelated dead code \u2192 mention, no delete.\n- Own-change orphan (unused import/var/fn) \u2192 remove.\n- Refactor = structure only, zero behavior change. Never bundle feature/fix. State structural-change-vs-same first.\n- Touched behavior no test \u2192 add characterization test first.\n- Risky replace (algorithm/migration/payment) \u2192 old/new side by side.\n\n## 5. Data vs UI\n\n- Component render data, no own it. Mock one module, no literal in component.\n- Mock shape mirror real API contract.\n- Same entity twice \u2192 define once, import twice.\n- Loading/error/empty = data state, no scattered boolean.\n- Component: render/layout only. Business logic (calc/validation/transform/API call) \u2192 hook/service/plain fn.\n\n## 6. Goal-driven execution\n\n- Vague ask \u2192 verifiable goal. \"add validation\" \u2192 test invalid input, pass it. \"fix bug\" \u2192 reproduce with test, pass it. \"refactor X\" \u2192 test pass before/after.\n- Multi-step task \u2192 plan first, numbered, each with \"verify:\" check.\n\n## 7. Tests\n\n- Few high-quality beat many. Too many = hard maintain, not free coverage.\n- Smallest set catch real regression.\n- Can't name bug it catch \u2192 cut test.\n- Test public contract, not internal.\n\n## 8. Propose spec when need\n\n- PRD/spec/ADR = persistent memory for AI agent, skip re-explain context each session.\n- Non-trivial feature, ambiguous requirement, wide blast radius \u2192 propose short PRD/spec/ADR first. Small/obvious change \u2192 skip.\n- Minimal: problem, decision, alternative, consequence. No padding.\n- ADR \u2192 hard-reverse decision or cross-system effect. Spec/PRD \u2192 scope/behavior not yet pinned.\n\n## 9. Ship then improve\n\n- Feature first: get correct minimal version work. Improve/optimize/refactor gradual after \u2014 not upfront, not speculative.\n- Red-green-refactor: write failing test (red) \u2192 smallest code make pass (green) \u2192 clean structure only, tests stay green (refactor). Small cycle, not big-bang.\n- Working correct code over perfect design. Perfect later, once real usage show what actual matter.\n\n## 10. Gut-check before output\n\nAssumption stated not guessed? Diff proportionate, no dead/orphan code? Refactor behavior truly unchanged? Tests few, each catch real bug?\n\nNeed more complexity/clarify/test \u2192 say it, with tradeoff. No silent over-build, no under-deliver.\n",
       "format": "mdc",
@@ -12,15 +44,6 @@
     "stars": 6,
     "updated_at": "2026-08-24T16:03:34Z",
     "url": "https://github.com/sayeed1999/agent-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 2,
-    "updated_at": "2026-08-24T16:00:56Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -55,40 +78,17 @@
     "language": "HTML",
     "name": "edsondviana8/ai-humanizer-core",
     "stars": 1,
-    "updated_at": "2026-08-24T15:29:17Z",
+    "updated_at": "2026-08-24T16:24:20Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
-    "id": "KbWen/agentic-os",
-    "language": "Python",
-    "name": "KbWen/agentic-os",
-    "stars": 141,
-    "updated_at": "2026-08-24T16:08:48Z",
-    "url": "https://github.com/KbWen/agentic-os"
   },
   {
     "description": "\ud83c\udfad 267 \u4e2a\u5373\u63d2\u5373\u7528\u7684 AI \u4e13\u5bb6\u89d2\u8272 \u2014 \u652f\u6301 Hermes Agent/Claude Code/Cursor/Copilot \u7b49 18 \u79cd\u5de5\u5177\uff0c\u8986\u76d6\u5de5\u7a0b/\u8bbe\u8ba1/\u8425\u9500/\u91d1\u878d\u7b49 20 \u4e2a\u90e8\u95e8\u3002\u542b 52 \u4e2a\u4e2d\u56fd\u5e02\u573a\u539f\u521b\u667a\u80fd\u4f53\uff08\u5c0f\u7ea2\u4e66/\u6296\u97f3/",
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 19866,
+    "stars": 19867,
     "updated_at": "2026-08-24T14:09:20Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: \nglobs: \nalwaysApply: true\n---\n# AI-Rizz Development Practices\n\n## Project Environment\n\n1. **NEVER** test `ai-rizz` commands in the project directory. `ai-rizz` *uses* itself to manage its own rules and you'll break the project configuration. **ALWAY** test `ai-rizz` using the test suites, or in a temporary directory.\n\n## Project-Specific Testing Standards\n\n1. **Test Execution**: Always run tests with `make test` for consistency. Individual test suites can be run directly for debugging only.\n    - all tests: `make test`\n    - single test: `./tests/integration/functions/test_conflict_resolution.test.sh`\n    - single test, verbose: `VERBOSE_TESTS=true ./tests/integration/functions/test_conflict_resolution.test.sh`\n        - there is NO more verbosity than this. You cannot run an individual test. If you have the output of a test suite run like the above, there is NO POINT in trying to run it in other ways. Add verbosity to the test suite, or modify the codebase. Do not keep running the tests and grepping for different things.\n        - **NEVER** waste time doing this: `VERBOSE_TESTS=true ./tests/integration/test_envvar_fallbacks.test.sh | grep -B5 -A5 \"ASSERT.*expected\"`; just read the regular test suite output by running as shown for \"single test, verbose\".\n\n2. **Test Environment Setup**: \n   - Set git user and email in all dummy repositories used for testing\n   - Use `git commit --no-gpg-sign` in test environments\n\n3. **Test Output Management**: \n   - Don't proactively truncate test output without understanding length first\n   - Run tests once to gauge output length before deciding on truncation\n\n## Function Documentation Standards\n\nFor ai-rizz's complex command functions, ensure documentation includes:\n\n1. **Summary Bullet Points**: Long functions like `cmd_init` and `cmd_list` need summary bullet points explaining their primary purpose\n2. **Flag Documentation**: All `cmd_xxx` functions must document which flags they respond to (since they're user-interface functions)\n3. **Return Value Clarity**: Use shell conventions (0/1 for success/failure) not \"TRUE/FALSE\" in documentation\n4. **Complexity Explanation**: When describing complex logic, explain the value provided by the complexity, not just that \"it's complex\"\n\n## User Interface Patterns\n\n1. **Argument Ordering**: Support flexible argument ordering where reasonable (e.g., `ai-rizz add --local rule foo` and `ai-rizz add rule foo --local`)\n\n## Shell Scripting Specifics\n\n1. **Subshell Avoidance**: Avoid subshells when variable scope matters - use temporary files or other patterns instead\n2. **Variable Scope**: Continue using function-specific prefixes for all local variables (already established pattern)\n\n## Error Message Standards\n\n1. **Actionable Errors**: Error messages should include copy-pasteable fix commands when possible. If not possible, they should at least guide the user closer to a resolution.\n2. **Manifest Integrity**: Use the enhanced error format that shows both repositories and provides three clear resolution options\n",
-      "format": "mdc",
-      "path": ".cursor/rules/ai-rizz-development.mdc"
-    },
-    "description": "Zero-dependency POSIX CLI for managing AI rules and rulesets. Pull rules from a source repository and use them committed",
-    "id": "Texarkanine/ai-rizz",
-    "language": "Shell",
-    "name": "Texarkanine/ai-rizz",
-    "stars": 0,
-    "updated_at": "2026-08-24T16:08:46Z",
-    "url": "https://github.com/Texarkanine/ai-rizz"
   },
   {
     "description": "Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior",
