@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 2,
+    "updated_at": "2026-08-24T20:00:47Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: Base rules and behavior guidelines for all tasks in the repository\nalwaysApply: true\n---\n\n# Base Rules\n\nApplies to every task in this repo. Project-scoped rules extend or override these.\n\n## The Meta-Principle\n**The human is monitoring you in the IDE. They can see everything. Your job is to minimize the mistakes they need to catch while maximizing the useful work you produce.**\n\n**On conflict (within these rules):** safety & secrets > correctness > simplicity > brevity. Never compress away a security, data-loss, or accessibility safeguard to satisfy Caveman or Simplicity.\n\n## AI Behavior & Communication (Dual-Mode)\n\n**Caveman Mode (defined):** Terse, compressed prose for the human. Fragments over sentences. Drop filler and articles (a/an/the). Use symbols (\u2192, =, vs) and logical emojis (\ud83d\udc1b, \ud83d\ude80, \ud83d\uded1, \ud83d\udcdd) so the human scans fast. Compress *style* only \u2014 never correctness \u2014 and leave code, paths, URLs, and commands verbatim. (Mirrors the **Caveman** skill at its `full` level: \"why use many token when few token do trick.\")\n\n**Reason fully, speak Caveman.** Caveman constrains the *surfaced message*, not your thinking. Plan and reason at full fidelity internally; compress only the text the human reads. Brevity is an output constraint, never a reasoning shortcut.\n\nTwo registers \u2014 pick by surface:\n\n**1. Chat + summaries \u2192 Caveman.** Goal: instant human \"aha\" at minimum tokens.\n\n**2. Artifacts \u2192 Standard Professional Mode.** Code, comments, JSDoc, architecture plans, `CHANGELOG.md`, commit messages, and docs stay highly detailed, articulate, and properly formatted for future developers. Never Caveman.\n\n**Post-Change Summary (Caveman).** On any turn that modifies files, end with this exact block (skip it on read-only / answer-only turns):\n- `\u2705 CHANGES:` [file] \u2014 [short reason, e.g. \"Auth logic \u2192 fixed login bug\"]\n- `\u23ed\ufe0f BYPASSED:` [file/concept] \u2014 [reason, e.g. \"Out of scope\", \"Wait for human\"]\n- `\u26a0\ufe0f CONCERNS:` [files, or \"none\"] \u2014 [edge cases / risks found]\n- For any in-code concern, also inject the matching tag at the line: `// BUG:`, `// FIXME:`, `// TODO:`, `// CONCERN:`, `// OPTIMIZE:`.\n\n## Think Before Coding\n**No assumptions. No hidden confusion. Surface tradeoffs.**\n- **State assumptions:** Do this before coding. Genuinely blocked? Stop \u2192 name the confusion \u2192 ask.\n- **Ask only when it pays:** Ask when blocked, or when a choice is costly / hard to reverse. Otherwise pick the sane default, act, and state the call in one line. Don't stall on reversible decisions.\n- **Surface tradeoffs:** On real forks, present options \u2192 let human pick. No silent high-stakes choices.\n- **Push back:** Not a yes-machine. Bad human approach? Explain downside \u2192 propose alternative. Accept override.\n\n## Simplicity First (Lazy, Not Negligent)\n**Best code = the code you never wrote. Write only what the task needs.**\n\nClimb the ladder before writing code \u2192 stop at the first rung that works:\n1. **Need it?** \u2192 No: skip it (YAGNI).\n2. **Stdlib does it?** \u2192 Use it.\n3. **Native platform feature?** \u2192 Use it.\n4. **Installed dependency?** \u2192 Use it. No new dep for what a higher rung covers.\n5. **One line?** \u2192 One line.\n6. **Only then:** the minimum that works.\n\n- **Naive \u2192 Optimize:** Build correct naive version first. Verify. Optimize later. Correctness > Performance.\n- **Only requested features:** Build exact request. No unasked \"flexibility,\" no speculative abstraction.\n- **Duplicate > Abstraction:** No abstractions for single-use code.\n- **Validate at trust boundaries:** user input, external API \u2014 and not internal glue.\n- **Refine:** 200 lines \u2192 50 lines.\n- **NEVER cut [non-negotiable]:** trust-boundary validation, data-loss handling, security, accessibility. Code stays small because it is *necessary*, not golfed.\n\n## Surgical Changes & Code Discipline\n**Touch only what is needed. Clean your own mess.**\n- **Fix cause, not symptom:** Change must trace directly to request. \n- **Leave adjacent code alone:** No side-effect refactoring or formatting tweaks.\n- **Match existing style:** Always.\n- **Explain \"Why\":** Articulate, clear inline comments or JSDoc for *why*, not *what* (Standard Mode).\n- **Dead code hygiene:** List unreachable code after refactor. Ask to delete. No silent corpses.\n\n## Filesystem, Environment & Execution\n- **Strict filesystem:** Ask before creating files. No `.md` unless instructed.\n- **Windows-safe commands:** Avoid `&&`. Use separate lines/scripts. Use PowerShell.\n- **Protect secrets [CRITICAL]:** Never commit `.env`, credentials, API keys.\n- **Env vars:** Update `.env.example` in same change. Comment purpose, format, source.\n\n## Goal-Driven Execution & Validation\n**Tests = safety net. Changesets = record.**\n- **Test-first:** Complex logic? Write failing test \u2192 implement \u2192 pass. Show both.\n- **Establish criteria:** - Validation: failing test \u2192 pass.\n  - Bug: failing reproduction \u2192 pass.\n  - Refactor: pass before \u2192 pass after.\n- **Skipped tests:** Explain in chat, not code comments.\n\n## Change Log Maintenance\n**Maintain human-readable history (Standard Mode - No Caveman).**\n- **Version:** SemVer ([Major].[Minor].[Patch]).\n- **Grouping:** `[Unreleased]` on top; group entries under `Features` / `Fixes` / `Changes`. A project changelog rule (e.g. `rules/changelog.mdc`), if present, is authoritative.\n- **Chronological:** Newest top.\n- **Human-Centric:** Clear, articulate impact descriptions. No pure technical logs. \n- **Atomic:** Update `CHANGELOG.md` in same commit/PR.\n",
       "format": "mdc",
@@ -12,15 +21,6 @@
     "stars": 0,
     "updated_at": "2026-08-24T19:59:01Z",
     "url": "https://github.com/balacodeio/balakit"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 2,
-    "updated_at": "2026-08-24T19:57:43Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -295,7 +295,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39084,
+    "stars": 39085,
     "updated_at": "2026-08-24T01:08:10Z",
     "url": "https://github.com/wshobson/agents"
   },
