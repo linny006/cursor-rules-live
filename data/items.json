@@ -1,12 +1,53 @@
 [
   {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 0,
+    "updated_at": "2026-08-24T13:56:44Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-24T13:30:35Z",
+    "updated_at": "2026-08-24T13:45:54Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: \nglobs: \nalwaysApply: true\n---\n# AI-Rizz Development Practices\n\n## Project Environment\n\n1. **NEVER** test `ai-rizz` commands in the project directory. `ai-rizz` *uses* itself to manage its own rules and you'll break the project configuration. **ALWAY** test `ai-rizz` using the test suites, or in a temporary directory.\n\n## Project-Specific Testing Standards\n\n1. **Test Execution**: Always run tests with `make test` for consistency. Individual test suites can be run directly for debugging only.\n    - all tests: `make test`\n    - single test: `./tests/integration/functions/test_conflict_resolution.test.sh`\n    - single test, verbose: `VERBOSE_TESTS=true ./tests/integration/functions/test_conflict_resolution.test.sh`\n        - there is NO more verbosity than this. You cannot run an individual test. If you have the output of a test suite run like the above, there is NO POINT in trying to run it in other ways. Add verbosity to the test suite, or modify the codebase. Do not keep running the tests and grepping for different things.\n        - **NEVER** waste time doing this: `VERBOSE_TESTS=true ./tests/integration/test_envvar_fallbacks.test.sh | grep -B5 -A5 \"ASSERT.*expected\"`; just read the regular test suite output by running as shown for \"single test, verbose\".\n\n2. **Test Environment Setup**: \n   - Set git user and email in all dummy repositories used for testing\n   - Use `git commit --no-gpg-sign` in test environments\n\n3. **Test Output Management**: \n   - Don't proactively truncate test output without understanding length first\n   - Run tests once to gauge output length before deciding on truncation\n\n## Function Documentation Standards\n\nFor ai-rizz's complex command functions, ensure documentation includes:\n\n1. **Summary Bullet Points**: Long functions like `cmd_init` and `cmd_list` need summary bullet points explaining their primary purpose\n2. **Flag Documentation**: All `cmd_xxx` functions must document which flags they respond to (since they're user-interface functions)\n3. **Return Value Clarity**: Use shell conventions (0/1 for success/failure) not \"TRUE/FALSE\" in documentation\n4. **Complexity Explanation**: When describing complex logic, explain the value provided by the complexity, not just that \"it's complex\"\n\n## User Interface Patterns\n\n1. **Argument Ordering**: Support flexible argument ordering where reasonable (e.g., `ai-rizz add --local rule foo` and `ai-rizz add rule foo --local`)\n\n## Shell Scripting Specifics\n\n1. **Subshell Avoidance**: Avoid subshells when variable scope matters - use temporary files or other patterns instead\n2. **Variable Scope**: Continue using function-specific prefixes for all local variables (already established pattern)\n\n## Error Message Standards\n\n1. **Actionable Errors**: Error messages should include copy-pasteable fix commands when possible. If not possible, they should at least guide the user closer to a resolution.\n2. **Manifest Integrity**: Use the enhanced error format that shows both repositories and provides three clear resolution options\n",
+      "format": "mdc",
+      "path": ".cursor/rules/ai-rizz-development.mdc"
+    },
+    "description": "Zero-dependency POSIX CLI for managing AI rules and rulesets. Pull rules from a source repository and use them committed",
+    "id": "Texarkanine/ai-rizz",
+    "language": "Shell",
+    "name": "Texarkanine/ai-rizz",
+    "stars": 0,
+    "updated_at": "2026-08-24T13:43:38Z",
+    "url": "https://github.com/Texarkanine/ai-rizz"
+  },
+  {
+    "description": "Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 18,
+    "updated_at": "2026-08-24T13:42:40Z",
+    "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-08-24T13:41:57Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -27,15 +68,6 @@
     "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
   },
   {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 0,
-    "updated_at": "2026-08-24T12:58:32Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
     "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
     "id": "XAKLESK/cre-agent-skills",
     "language": "\u2014",
@@ -43,15 +75,6 @@
     "stars": 5,
     "updated_at": "2026-08-24T12:29:38Z",
     "url": "https://github.com/XAKLESK/cre-agent-skills"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-08-24T13:41:57Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
@@ -70,15 +93,6 @@
     "stars": 4,
     "updated_at": "2026-08-24T12:21:22Z",
     "url": "https://github.com/zinxj/uikit-expert-skill"
-  },
-  {
-    "description": "Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 18,
-    "updated_at": "2026-08-24T13:42:40Z",
-    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "description": "Homebrew tap for LynxPrompt CLI",
@@ -285,7 +299,7 @@
     "id": "MicSm/boffin",
     "language": "JavaScript",
     "name": "MicSm/boffin",
-    "stars": 38,
+    "stars": 37,
     "updated_at": "2026-08-23T11:24:56Z",
     "url": "https://github.com/MicSm/boffin"
   },
@@ -494,14 +508,5 @@
     "stars": 108,
     "updated_at": "2026-08-21T03:33:44Z",
     "url": "https://github.com/MohamedAbdallah-14/unslop"
-  },
-  {
-    "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 plus AIOS, an open-source markdown memory system for coding ",
-    "id": "sublimecoder/sublimecoding",
-    "language": "\u2014",
-    "name": "sublimecoder/sublimecoding",
-    "stars": 0,
-    "updated_at": "2026-08-21T00:40:45Z",
-    "url": "https://github.com/sublimecoder/sublimecoding"
   }
 ]
