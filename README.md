@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-08-24 12:00 UTC
+> ⏰ Last updated: 2026-08-24 12:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -73,7 +73,7 @@ expired items removed — so you can rely on what you see being current.
 | 18 | [orin-dx/agent-plugins](https://github.com/orin-dx/agent-plugins) | 1 | Shell | 2026-08-24 | — | Official AI Agent Plugins & Skills Marketplace for Antigravity (AGY), Claude Code, and Cursor |
 | 19 | [HoangNguyen0403/agent-skills-standard](https://github.com/HoangNguyen0403/agent-skills-standard) | 548 | TypeScript | 2026-08-24 | — | A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol |
 | 20 | [wshobson/agents](https://github.com/wshobson/agents) | 39075 | Python | 2026-08-24 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, and Google Antigravit |
-| 21 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 140 | Python | 2026-08-23 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
+| 21 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 141 | Python | 2026-08-23 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
 | 22 | [MCLeut/service-cursor](https://github.com/MCLeut/service-cursor) | 0 | JavaScript | 2026-08-23 | — | Modulares Cursor-Setup fuer agentisches Arbeiten - Regeln, Hooks, Subagenten und MCP, jeder Schluessel gegen eine echte  |
 | 23 | [fluttersdk/wind](https://github.com/fluttersdk/wind) | 33 | Dart | 2026-08-24 | — | Tailwind CSS for Flutter — classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code  |
 | 24 | [GktuOktay/ai-skills](https://github.com/GktuOktay/ai-skills) | 1 | Python | 2026-08-23 | — | 🚀 Universal Open-Source AI Agent Skills & Rules Library for Antigravity, Cursor, Claude Code, GitHub Copilot, OpenAI Cod |
