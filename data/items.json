@@ -1,11 +1,20 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-08-24T14:31:53Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-24T14:15:54Z",
+    "updated_at": "2026-08-24T14:30:43Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -13,7 +22,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 19862,
+    "stars": 19863,
     "updated_at": "2026-08-24T14:09:20Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -46,7 +55,7 @@
     "language": "Shell",
     "name": "Texarkanine/ai-rizz",
     "stars": 0,
-    "updated_at": "2026-08-24T13:43:38Z",
+    "updated_at": "2026-08-24T14:31:54Z",
     "url": "https://github.com/Texarkanine/ai-rizz"
   },
   {
@@ -57,15 +66,6 @@
     "stars": 18,
     "updated_at": "2026-08-24T14:23:53Z",
     "url": "https://github.com/MnemeHQ/mneme"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-08-24T13:41:57Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -250,7 +250,7 @@
     "language": "Python",
     "name": "KbWen/agentic-os",
     "stars": 141,
-    "updated_at": "2026-08-23T17:47:28Z",
+    "updated_at": "2026-08-24T14:35:16Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
   {
