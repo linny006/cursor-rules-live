@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-08-24 18:15 UTC
+> ⏰ Last updated: 2026-08-24 18:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,18 +53,18 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [mrvishaljjoshi-cmyk/VJSS](https://github.com/mrvishaljjoshi-cmyk/VJSS) | 0 | Python | 2026-08-24 | — | Universal AI Agent Super-Skills Ecosystem by Mr. Vishalkumar Joshi. 130+ production-grade plain-text prompt protocols wi |
+| 1 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-08-24 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
 | 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 2 | HTML | 2026-08-24 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 3 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-08-24 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 4 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-08-24 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
-| 5 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-08-24 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
-| 6 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-08-24 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
+| 3 | [mrvishaljjoshi-cmyk/VJSS](https://github.com/mrvishaljjoshi-cmyk/VJSS) | 0 | Python | 2026-08-24 | — | Universal AI Agent Super-Skills Ecosystem by Mr. Vishalkumar Joshi. 130+ production-grade plain-text prompt protocols wi |
+| 4 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-08-24 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
+| 5 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-08-24 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
+| 6 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-08-24 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
 | 7 | [fluttersdk/wind](https://github.com/fluttersdk/wind) | 33 | Dart | 2026-08-24 | — | Tailwind CSS for Flutter — classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code  |
 | 8 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 36 | — | 2026-08-24 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
 | 9 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 141 | Python | 2026-08-24 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
 | 10 | [Texarkanine/ai-rizz](https://github.com/Texarkanine/ai-rizz) | 0 | Shell | 2026-08-24 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Texarkanine/ai-rizz/) | Zero-dependency POSIX CLI for managing AI rules and rulesets. Pull rules from a source repository and use them committed |
 | 11 | [sayeed1999/agent-skills](https://github.com/sayeed1999/agent-skills) | 6 | — | 2026-08-24 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/sayeed1999/agent-skills/) | Reusable agent skills for battle-tested engineering judgment — least code, fix the problem, don't break what works. Work |
-| 12 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 19869 | Shell | 2026-08-24 | — | 🎭 267 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 52 个中国市场原创智能体（小红书/抖音/ |
+| 12 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 19870 | Shell | 2026-08-24 | — | 🎭 267 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 52 个中国市场原创智能体（小红书/抖音/ |
 | 13 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 18 | Python | 2026-08-24 | — | Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior |
 | 14 | [XAKLESK/cre-agent-skills](https://github.com/XAKLESK/cre-agent-skills) | 6 | — | 2026-08-24 | — | Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc |
 | 15 | [Amirun99/agency-orchestrator](https://github.com/Amirun99/agency-orchestrator) | 0 | Dart | 2026-08-24 | — | Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support. |
