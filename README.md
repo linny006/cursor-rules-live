@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-08-24 01:20 UTC
+> ⏰ Last updated: 2026-08-24 01:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -54,9 +54,9 @@ expired items removed — so you can rely on what you see being current.
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
 | 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 2 | HTML | 2026-08-24 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 2 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-08-24 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
-| 3 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 18 | Python | 2026-08-24 | — | Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior |
-| 4 | [wshobson/agents](https://github.com/wshobson/agents) | 39052 | Python | 2026-08-24 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, and Google Antigravit |
+| 2 | [wshobson/agents](https://github.com/wshobson/agents) | 39053 | Python | 2026-08-24 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, and Google Antigravit |
+| 3 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-08-24 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
+| 4 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 18 | Python | 2026-08-24 | — | Engineering governance for AI coding agents: keep AI-generated code aligned with your architecture, standards, and prior |
 | 5 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-08-23 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
 | 6 | [orin-dx/agent-plugins](https://github.com/orin-dx/agent-plugins) | 1 | Shell | 2026-08-23 | — | Official AI Agent Plugins & Skills Marketplace for Antigravity (AGY), Claude Code, and Cursor |
 | 7 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-08-23 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
