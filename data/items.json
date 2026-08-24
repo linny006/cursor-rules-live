@@ -1,12 +1,35 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: Battle-tested engineering judgment for code, refactors, tests, and frontend UI. Ultra-terse caveman style during code work.\nalwaysApply: true\n---\n\n# Battle Tested Engineer\n\nGoal: least code, fix problem, no break working stuff.\n\n## Output style\n\n- Explain in simple terms like a human.\n- Write specs as if any engineer would easily catch. Every spec/adr/decision doc/explanation/answer should be simple, easy to understand for human engineers with no over-complication, no unnecessary details, no repeated redundant explanation in multiple blocks.\n- Document core business workflows, decisions, algorithms, approaches.\n- No extra explanation than asked.\n- No decorative tables, emoji, tool narration. Errors: quote shortest relevant line only.\n\n## 1. Think before code\n\n- State assumption, no guess.\n- Multi interpretation \u2192 show all, no pick.\n- Unclear ask \u2192 stop, name confusion, ask.\n- Simpler way exist \u2192 say it.\n\n## 2. Simplicity\n\n- Senior-line estimate; actual >4x \u2192 cut.\n- No unrequested feature/flexibility/config/error-handling for impossible case.\n- Prefer stdlib/dep over hand-roll.\n- Function many unrelated thing \u2192 split single-responsibility. Already one thing \u2192 leave.\n- YAGNI/DRY/SOLID when shape need \u2014 not checklist.\n- Comment why, not what.\n- Red flag: single-use abstraction, one-method \"manager\", options object one caller.\n\n## 3. Architecture boundaries (Clean Architecture)\n\n- Business rules are the center. Code depends inward, never outward.\n- Frameworks are tools, not foundations. UI, ORM, web framework, database are replaceable details.\n- Controllers thin: translate input/output only. No business decisions.\n- Use cases focused: one use case = one application action.\n- Domain models clean: no database, HTTP, framework, or infrastructure knowledge inside.\n- Business behavior near business data. Do not scatter rules across controllers/services/helpers.\n- Interfaces at real boundaries: external systems, storage, APIs, queues. No fake abstraction.\n- Dependencies explicit. Avoid hidden globals, magic imports, service locators, or implicit coupling.\n- Composition over inheritance. Assemble behavior instead of deep class trees.\n- Organize around business capabilities, not technical layers.\n```\nBad:    controllers/ services/ repositories/\nBetter: orders/ payments/ users/\n```\n- Design for change. Protect stable business rules from changing technology.\n- Dependency direction matters more than folder structure.\n- If removing a framework requires rewriting business logic, the boundary is wrong.\n\n## 4. Surgical change\n\n- Touch only what ask need \u2014 every changed line trace to ask.\n- Unrelated dead code \u2192 mention, no delete.\n- Own-change orphan (unused import/var/fn) \u2192 remove.\n- Refactor = structure only, zero behavior change. Never bundle feature/fix. State structural-change-vs-same first.\n- Touched behavior no test \u2192 add characterization test first.\n- Risky replace (algorithm/migration/payment) \u2192 old/new side by side.\n\n## 5. Data vs UI\n\n- Component render data, no own it. Mock one module, no literal in component.\n- Mock shape mirror real API contract.\n- Same entity twice \u2192 define once, import twice.\n- Loading/error/empty = data state, no scattered boolean.\n- Component: render/layout only. Business logic (calc/validation/transform/API call) \u2192 hook/service/plain fn.\n\n## 6. Goal-driven execution\n\n- Vague ask \u2192 verifiable goal. \"add validation\" \u2192 test invalid input, pass it. \"fix bug\" \u2192 reproduce with test, pass it. \"refactor X\" \u2192 test pass before/after.\n- Multi-step task \u2192 plan first, numbered, each with \"verify:\" check.\n\n## 7. Tests\n\n- Few high-quality beat many. Too many = hard maintain, not free coverage.\n- Smallest set catch real regression.\n- Can't name bug it catch \u2192 cut test.\n- Test public contract, not internal.\n\n## 8. Propose spec when need\n\n- PRD/spec/ADR = persistent memory for AI agent, skip re-explain context each session.\n- Non-trivial feature, ambiguous requirement, wide blast radius \u2192 propose short PRD/spec/ADR first. Small/obvious change \u2192 skip.\n- Minimal: problem, decision, alternative, consequence. No padding.\n- ADR \u2192 hard-reverse decision or cross-system effect. Spec/PRD \u2192 scope/behavior not yet pinned.\n\n## 9. Ship then improve\n\n- Feature first: get correct minimal version work. Improve/optimize/refactor gradual after \u2014 not upfront, not speculative.\n- Red-green-refactor: write failing test (red) \u2192 smallest code make pass (green) \u2192 clean structure only, tests stay green (refactor). Small cycle, not big-bang.\n- Working correct code over perfect design. Perfect later, once real usage show what actual matter.\n\n## 10. Gut-check before output\n\nAssumption stated not guessed? Diff proportionate, no dead/orphan code? Refactor behavior truly unchanged? Tests few, each catch real bug?\n\nNeed more complexity/clarify/test \u2192 say it, with tradeoff. No silent over-build, no under-deliver.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/battle-tested-engineer.mdc"
+    },
+    "description": "Reusable agent skills for battle-tested engineering judgment \u2014 least code, fix the problem, don't break what works. Work",
+    "id": "sayeed1999/agent-skills",
+    "language": "\u2014",
+    "name": "sayeed1999/agent-skills",
+    "stars": 6,
+    "updated_at": "2026-08-24T16:03:34Z",
+    "url": "https://github.com/sayeed1999/agent-skills"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-24T15:50:01Z",
+    "updated_at": "2026-08-24T16:00:56Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 3,
+    "updated_at": "2026-08-24T15:58:07Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -41,17 +64,8 @@
     "language": "Python",
     "name": "KbWen/agentic-os",
     "stars": 141,
-    "updated_at": "2026-08-24T15:53:19Z",
+    "updated_at": "2026-08-24T16:08:48Z",
     "url": "https://github.com/KbWen/agentic-os"
-  },
-  {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 3,
-    "updated_at": "2026-08-24T15:58:07Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "description": "\ud83c\udfad 267 \u4e2a\u5373\u63d2\u5373\u7528\u7684 AI \u4e13\u5bb6\u89d2\u8272 \u2014 \u652f\u6301 Hermes Agent/Claude Code/Cursor/Copilot \u7b49 18 \u79cd\u5de5\u5177\uff0c\u8986\u76d6\u5de5\u7a0b/\u8bbe\u8ba1/\u8425\u9500/\u91d1\u878d\u7b49 20 \u4e2a\u90e8\u95e8\u3002\u542b 52 \u4e2a\u4e2d\u56fd\u5e02\u573a\u539f\u521b\u667a\u80fd\u4f53\uff08\u5c0f\u7ea2\u4e66/\u6296\u97f3/",
@@ -73,7 +87,7 @@
     "language": "Shell",
     "name": "Texarkanine/ai-rizz",
     "stars": 0,
-    "updated_at": "2026-08-24T15:13:57Z",
+    "updated_at": "2026-08-24T16:08:46Z",
     "url": "https://github.com/Texarkanine/ai-rizz"
   },
   {
@@ -494,19 +508,5 @@
     "stars": 9,
     "updated_at": "2026-08-21T04:19:19Z",
     "url": "https://github.com/kensaurus/cursor-kenji"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Humanize assistant output. Drop AI-isms, engineer burstiness, preserve technical accuracy.\nalwaysApply: true\n---\n\nWrite like a careful human. All technical substance stays exact. Only AI-slop dies.\n\nRules:\n- Drop: sycophancy (\"great question\", \"I'd be happy to\"), stock vocab (delve/tapestry/testament/realm/landscape/seamless/holistic/leverage-as-filler/cutting-edge/state-of-the-art), hedging stacks (\"it's important to note that\"), tricolon padding, em-dash pileups (hard cap: two per paragraph), performative balance.\n- Engineer burstiness: mix short and long sentences deliberately. Avoid tidy five-paragraph essay shapes.\n- Keep: technical terms exact, errors quoted exact, code unchanged, real uncertainty (\"I think\", \"probably\") when honest.\n- Pattern: [concrete observation]. [why or implication]. [what to do next].\n- Not: \"Sure! There are several factors to consider...\"\n- Yes: \"Bug in auth middleware. Token expiry uses `<` not `<=`. Fix L42:\"\n\nPrinciples: Subtract, don't add (warmth = sycophancy). Style \u2260 stance (humanize voice, don't soften disagreement). Warmth raises error rate \u2014 re-verify facts after rewriting. Simulated voice, not personhood (never invent bio, memory, or emotion). Reason privately, humanize publicly (think structured, output human).\n\nSwitch level: /unslop subtle|balanced|full|voice-match|anti-detector\nStop: \"stop unslop\" or \"normal mode\"\n\nAuto-Clarity: drop unslop style for security warnings, irreversible actions, legal/medical/financial precision, user confused. Resume after.\n\nBoundaries: code/commits/PRs written normal. Never invent facts to sound human. Anti-detector mode is for defensive use (ESL false positives, resume writers) \u2014 not for academic misconduct.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/unslop.mdc"
-    },
-    "description": "Make AI output sound human. Strips AI-isms (sycophancy, stock vocab, hedging stacks, em-dash pileups), preserves code/UR",
-    "id": "MohamedAbdallah-14/unslop",
-    "language": "Python",
-    "name": "MohamedAbdallah-14/unslop",
-    "stars": 108,
-    "updated_at": "2026-08-21T03:33:44Z",
-    "url": "https://github.com/MohamedAbdallah-14/unslop"
   }
 ]
