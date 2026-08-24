@@ -1,11 +1,38 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-08-24T04:35:22Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "Auto harness engineering meta-repo: discuss \u2192 curate \u2192 bootstrap a context-engineered project for Claude Code, Cursor, C",
+    "id": "glowElephant/context-forge",
+    "language": "Python",
+    "name": "glowElephant/context-forge",
+    "stars": 2,
+    "updated_at": "2026-08-24T04:33:35Z",
+    "url": "https://github.com/glowElephant/context-forge"
+  },
+  {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 36,
+    "updated_at": "2026-08-24T04:33:10Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-24T04:15:49Z",
+    "updated_at": "2026-08-24T04:30:38Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -16,15 +43,6 @@
     "stars": 1,
     "updated_at": "2026-08-24T03:51:03Z",
     "url": "https://github.com/orin-dx/agent-plugins"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-08-24T03:44:33Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -72,7 +90,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39059,
+    "stars": 39060,
     "updated_at": "2026-08-24T01:08:10Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -84,15 +102,6 @@
     "stars": 18,
     "updated_at": "2026-08-24T01:21:12Z",
     "url": "https://github.com/MnemeHQ/mneme"
-  },
-  {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 36,
-    "updated_at": "2026-08-23T19:46:58Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
@@ -494,19 +503,5 @@
     "stars": 0,
     "updated_at": "2026-08-20T11:53:51Z",
     "url": "https://github.com/manueldezman/botchain-init-toolkit"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Workflow memory operating loop \u2014 read root state before acting, write state back after meaningful change\nglobs:\nalwaysApply: true\n---\n\n# Workflow Memory\n\nThis repository keeps agent memory in root markdown files. Follow this loop every session.\n\n## Session Start\n\n1. Read `workflow_state.md` \u2014 current phase, plan, blockers, log.\n2. Read `project_config.md` \u2014 goals, stack, patterns, constraints.\n3. Reconstruct the next action from those files before proposing or making changes.\n\n## Loop\n\nOne phase at a time: `ANALYZE \u2192 PREPARE \u2192 IMPLEMENT \u2192 VALIDATE`.\n\n- ANALYZE: inspect relevant files and current state before deciding.\n- PREPARE: short plan; identify the checks `project_config.md` requires.\n- IMPLEMENT: smallest coherent edits that satisfy the task.\n- VALIDATE: run the checks appropriate for the repo; report what could not run.\n- ROLLBACK: only when the approach must be abandoned and state preserved.\n\n## State Writes\n\nUpdate `workflow_state.md` only after meaningful change: a phase transition, a completed task, a blocker, or a validation result that changes the next action. No per-message summaries. Preserve headings, keep entries concise.\n\nUpdate `project_config.md` only for durable changes: goals, stack, patterns, constraints, changelog. No live task notes there.\n\nNever store secrets, tokens, or credentials in memory files. Record only where they load from (env vars, secret manager).\n\n## Exit\n\nWhen work is complete, report result, changed files, and validation status. No post-completion questions, no optional next-step prompts. Wait for the next user message.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/workflow-memory.mdc"
-    },
-    "description": "Make AI Development Feel Natural in Cursor",
-    "id": "kleosr/cursorkleosr",
-    "language": "\u2014",
-    "name": "kleosr/cursorkleosr",
-    "stars": 325,
-    "updated_at": "2026-08-20T04:50:00Z",
-    "url": "https://github.com/kleosr/cursorkleosr"
   }
 ]
