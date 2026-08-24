@@ -1,5 +1,28 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: Base rules and behavior guidelines for all tasks in the repository\nalwaysApply: true\n---\n\n# Base Rules\n\nApplies to every task in this repo. Project-scoped rules extend or override these.\n\n## The Meta-Principle\n**The human is monitoring you in the IDE. They can see everything. Your job is to minimize the mistakes they need to catch while maximizing the useful work you produce.**\n\n**On conflict (within these rules):** safety & secrets > correctness > simplicity > brevity. Never compress away a security, data-loss, or accessibility safeguard to satisfy Caveman or Simplicity.\n\n## AI Behavior & Communication (Dual-Mode)\n\n**Caveman Mode (defined):** Terse, compressed prose for the human. Fragments over sentences. Drop filler and articles (a/an/the). Use symbols (\u2192, =, vs) and logical emojis (\ud83d\udc1b, \ud83d\ude80, \ud83d\uded1, \ud83d\udcdd) so the human scans fast. Compress *style* only \u2014 never correctness \u2014 and leave code, paths, URLs, and commands verbatim. (Mirrors the **Caveman** skill at its `full` level: \"why use many token when few token do trick.\")\n\n**Reason fully, speak Caveman.** Caveman constrains the *surfaced message*, not your thinking. Plan and reason at full fidelity internally; compress only the text the human reads. Brevity is an output constraint, never a reasoning shortcut.\n\nTwo registers \u2014 pick by surface:\n\n**1. Chat + summaries \u2192 Caveman.** Goal: instant human \"aha\" at minimum tokens.\n\n**2. Artifacts \u2192 Standard Professional Mode.** Code, comments, JSDoc, architecture plans, `CHANGELOG.md`, commit messages, and docs stay highly detailed, articulate, and properly formatted for future developers. Never Caveman.\n\n**Post-Change Summary (Caveman).** On any turn that modifies files, end with this exact block (skip it on read-only / answer-only turns):\n- `\u2705 CHANGES:` [file] \u2014 [short reason, e.g. \"Auth logic \u2192 fixed login bug\"]\n- `\u23ed\ufe0f BYPASSED:` [file/concept] \u2014 [reason, e.g. \"Out of scope\", \"Wait for human\"]\n- `\u26a0\ufe0f CONCERNS:` [files, or \"none\"] \u2014 [edge cases / risks found]\n- For any in-code concern, also inject the matching tag at the line: `// BUG:`, `// FIXME:`, `// TODO:`, `// CONCERN:`, `// OPTIMIZE:`.\n\n## Think Before Coding\n**No assumptions. No hidden confusion. Surface tradeoffs.**\n- **State assumptions:** Do this before coding. Genuinely blocked? Stop \u2192 name the confusion \u2192 ask.\n- **Ask only when it pays:** Ask when blocked, or when a choice is costly / hard to reverse. Otherwise pick the sane default, act, and state the call in one line. Don't stall on reversible decisions.\n- **Surface tradeoffs:** On real forks, present options \u2192 let human pick. No silent high-stakes choices.\n- **Push back:** Not a yes-machine. Bad human approach? Explain downside \u2192 propose alternative. Accept override.\n\n## Simplicity First (Lazy, Not Negligent)\n**Best code = the code you never wrote. Write only what the task needs.**\n\nClimb the ladder before writing code \u2192 stop at the first rung that works:\n1. **Need it?** \u2192 No: skip it (YAGNI).\n2. **Stdlib does it?** \u2192 Use it.\n3. **Native platform feature?** \u2192 Use it.\n4. **Installed dependency?** \u2192 Use it. No new dep for what a higher rung covers.\n5. **One line?** \u2192 One line.\n6. **Only then:** the minimum that works.\n\n- **Naive \u2192 Optimize:** Build correct naive version first. Verify. Optimize later. Correctness > Performance.\n- **Only requested features:** Build exact request. No unasked \"flexibility,\" no speculative abstraction.\n- **Duplicate > Abstraction:** No abstractions for single-use code.\n- **Validate at trust boundaries:** user input, external API \u2014 and not internal glue.\n- **Refine:** 200 lines \u2192 50 lines.\n- **NEVER cut [non-negotiable]:** trust-boundary validation, data-loss handling, security, accessibility. Code stays small because it is *necessary*, not golfed.\n\n## Surgical Changes & Code Discipline\n**Touch only what is needed. Clean your own mess.**\n- **Fix cause, not symptom:** Change must trace directly to request. \n- **Leave adjacent code alone:** No side-effect refactoring or formatting tweaks.\n- **Match existing style:** Always.\n- **Explain \"Why\":** Articulate, clear inline comments or JSDoc for *why*, not *what* (Standard Mode).\n- **Dead code hygiene:** List unreachable code after refactor. Ask to delete. No silent corpses.\n\n## Filesystem, Environment & Execution\n- **Strict filesystem:** Ask before creating files. No `.md` unless instructed.\n- **Windows-safe commands:** Avoid `&&`. Use separate lines/scripts. Use PowerShell.\n- **Protect secrets [CRITICAL]:** Never commit `.env`, credentials, API keys.\n- **Env vars:** Update `.env.example` in same change. Comment purpose, format, source.\n\n## Goal-Driven Execution & Validation\n**Tests = safety net. Changesets = record.**\n- **Test-first:** Complex logic? Write failing test \u2192 implement \u2192 pass. Show both.\n- **Establish criteria:** - Validation: failing test \u2192 pass.\n  - Bug: failing reproduction \u2192 pass.\n  - Refactor: pass before \u2192 pass after.\n- **Skipped tests:** Explain in chat, not code comments.\n\n## Change Log Maintenance\n**Maintain human-readable history (Standard Mode - No Caveman).**\n- **Version:** SemVer ([Major].[Minor].[Patch]).\n- **Grouping:** `[Unreleased]` on top; group entries under `Features` / `Fixes` / `Changes`. A project changelog rule (e.g. `rules/changelog.mdc`), if present, is authoritative.\n- **Chronological:** Newest top.\n- **Human-Centric:** Clear, articulate impact descriptions. No pure technical logs. \n- **Atomic:** Update `CHANGELOG.md` in same commit/PR.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/base.mdc"
+    },
+    "description": "Opinionated, cross-agent rules and skills for AI coding agents \u2014 one npx install into Cursor, Claude Code, Codex, OpenCo",
+    "id": "balacodeio/balakit",
+    "language": "JavaScript",
+    "name": "balacodeio/balakit",
+    "stars": 0,
+    "updated_at": "2026-08-24T19:59:01Z",
+    "url": "https://github.com/balacodeio/balakit"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 2,
+    "updated_at": "2026-08-24T19:57:43Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
     "id": "J-nowcow/awesome-korean-agent-skills",
     "language": "\u2014",
@@ -9,13 +32,13 @@
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
     "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 2,
-    "updated_at": "2026-08-24T19:45:41Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 3,
+    "updated_at": "2026-08-24T19:47:34Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -43,15 +66,6 @@
     "stars": 1,
     "updated_at": "2026-08-24T19:21:29Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 3,
-    "updated_at": "2026-08-24T19:47:34Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "description": "Universal AI Agent Super-Skills Ecosystem by Mr. Vishalkumar Joshi. 130+ production-grade plain-text prompt protocols wi",
@@ -489,19 +503,5 @@
     "stars": 138,
     "updated_at": "2026-08-21T13:36:19Z",
     "url": "https://github.com/Mark393295827/third-brain-v7-skills"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Dispatcher for Agent Engineer Skills. Maps feature-development work to one skill. Use skill: <id> runs only that skill. Lookup is skills/<family>/<id>/SKILL.md.\nalwaysApply: true\n---\n\n# Agent Engineer Skills dispatcher\n\nThis repo is a collection of skills for developing features. A skill is a structured instruction set and execution contract, not optional style advice.\n\n`Use skill: <id>` always selects that skill and **only** that skill. The **id** is the leaf folder name. The **family** (`feature-builder` or `mvp-builder`) is only where the files live. Read `skills/<family>/<id>/SKILL.md` and execute that contract. Do not start the next skill unless the user named it. `SKILL.md` is authoritative if this rule and the skill file diverge.\n\nThere is no composer / harness skill in this collection. If the user asks for a harness, end-to-end path runner, or `feature-harness`, do not invent one. Tell them to name each skill they want (`feature-developer`, `feature-code-reviewer`, `feature-tester`).\n\n## Where SKILL.md lives\n\n| id | Path |\n| --- | --- |\n| `feature-specifier` | `skills/feature-builder/feature-specifier/SKILL.md` |\n| `feature-developer` | `skills/feature-builder/feature-developer/SKILL.md` |\n| `feature-code-reviewer` | `skills/feature-builder/feature-code-reviewer/SKILL.md` |\n| `feature-tester` | `skills/feature-builder/feature-tester/SKILL.md` |\n| `mvp-specifier` | `skills/mvp-builder/mvp-specifier/SKILL.md` |\n\nTemplates live in `assets/` next to that `SKILL.md`. Feature-folder write-ups live under `agent-engineer-skills/<name>/`.\n\n## Decision mapping\n\nWhen the user did not name a skill id:\n\n| User intent | Skill |\n| --- | --- |\n| Vague idea, problem, or feature; spec before code (feature in an existing repo) | `feature-specifier` |\n| Prototype, MVP, new project, greenfield, or pitch | `mvp-specifier` |\n| Implement this specification / this feature folder | `feature-developer` |\n| Review this feature folder, or review against `what-to-build.md` | `feature-code-reviewer` |\n| Test or verify this feature folder against `what-to-build.md` | `feature-tester` |\n\nIf they named one skill, run only that skill. `Use skill: feature-verifier` is the old name for `feature-tester`. `Use skill: pitch-to-spec` is the old name for `mvp-specifier`.\n\nIf the specification is missing or the idea is fuzzy: a feature in an existing app is `feature-specifier`; a prototype, MVP, new project, greenfield, or pitch is `mvp-specifier`. A generic \"I have an idea\" in an existing app still maps to `feature-specifier`. If they named implement, review, or test alone, stop after that skill. `mvp-specifier` must not start `feature-developer` in the same chat.\n\n## Global contract\n\n1. Follow the steps in that skill's `SKILL.md` in order. Do not skip, merge, or reorder.\n2. Instantiate templates from that skill's `assets/` folder. Do not invent alternate structures.\n3. Check the finished write-up against that skill's `Before you finish` list, and fix what fails.\n4. Stop when the skill says to wait (questions, missing specification, product landmine). `ok` / `lgtm` is not a skip.\n5. Capability claims require evidence paths. Unknown tools are `unknown` or `absent`, never implied.\n6. No icons or emojis in artifacts.\n7. Consuming-project security and secrets policy wins. This framework wins on templates and required write-up content for the named skill. Skill order wins only when the user named the next skill. Code style of the consuming project wins for source.\n\n## Do not\n\n- Chain specifier \u2192 developer \u2192 reviewer \u2192 tester unless the user named each skill.\n- Run `feature-developer` while the requirement is ambiguous.\n- Invent or restore `feature-harness` / a path runner.\n- Run `mvp-specifier` for a feature in an existing repo (use `feature-specifier`). Do not start `feature-developer` in the same chat as `mvp-specifier`.\n- Invent extra spec packs, CI, or a threat-model essay as part of these skills.\n- Log secrets in skill artifacts.\n\nQuick start: `README.md`. Operator guide: `docs/GUIDE.md`. Control plane: `docs/ARCHITECTURE.md`. Feature folders: `agent-engineer-skills/README.md`. Add a skill: `docs/GUIDE.md` (Add a skill).\n",
-      "format": "mdc",
-      "path": ".cursor/rules/agent-engineer-skills.mdc"
-    },
-    "description": "Agent skills for building features and MVPs. Spec, build, review, test - one named job at a time.",
-    "id": "lucas-winter-berlin/Agent-Engineer-Skills",
-    "language": "PowerShell",
-    "name": "lucas-winter-berlin/Agent-Engineer-Skills",
-    "stars": 0,
-    "updated_at": "2026-08-24T14:10:11Z",
-    "url": "https://github.com/lucas-winter-berlin/Agent-Engineer-Skills"
   }
 ]
