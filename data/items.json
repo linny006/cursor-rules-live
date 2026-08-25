@@ -1,11 +1,29 @@
 [
   {
+    "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
+    "id": "fluttersdk/wind",
+    "language": "Dart",
+    "name": "fluttersdk/wind",
+    "stars": 33,
+    "updated_at": "2026-08-25T19:14:30Z",
+    "url": "https://github.com/fluttersdk/wind"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 2,
+    "updated_at": "2026-08-25T19:08:37Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Map and lint AGENTS.md, CLAUDE.md, Copilot instructions, Agent Skills, and imports\u2014with zero dependencies.",
     "id": "kotobuki09/instructree",
     "language": "JavaScript",
     "name": "kotobuki09/instructree",
     "stars": 0,
-    "updated_at": "2026-08-25T19:04:32Z",
+    "updated_at": "2026-08-25T19:11:48Z",
     "url": "https://github.com/kotobuki09/instructree"
   },
   {
@@ -16,15 +34,6 @@
     "stars": 3,
     "updated_at": "2026-08-25T19:01:31Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 2,
-    "updated_at": "2026-08-25T19:00:49Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -182,7 +191,7 @@
     "language": "Python",
     "name": "Cadasto/openehr-assistant-plugin",
     "stars": 3,
-    "updated_at": "2026-08-25T19:00:57Z",
+    "updated_at": "2026-08-25T19:13:30Z",
     "url": "https://github.com/Cadasto/openehr-assistant-plugin"
   },
   {
@@ -298,15 +307,6 @@
     "stars": 0,
     "updated_at": "2026-08-24T18:50:38Z",
     "url": "https://github.com/mrvishaljjoshi-cmyk/VJSS"
-  },
-  {
-    "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
-    "id": "fluttersdk/wind",
-    "language": "Dart",
-    "name": "fluttersdk/wind",
-    "stars": 33,
-    "updated_at": "2026-08-25T14:23:20Z",
-    "url": "https://github.com/fluttersdk/wind"
   },
   {
     "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
