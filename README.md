@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-08-25 08:15 UTC
+> ⏰ Last updated: 2026-08-25 08:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -54,8 +54,8 @@ expired items removed — so you can rely on what you see being current.
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
 | 1 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 18 | Python | 2026-08-25 | — | Open-source architectural drift prevention for the AI SDLC. Deterministic ADR guardrails across coding agents and CI. |
-| 2 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-08-25 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 2 | HTML | 2026-08-25 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 2 | HTML | 2026-08-25 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 3 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-08-25 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
 | 4 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-08-25 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
 | 5 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-08-25 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
 | 6 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-08-25 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
@@ -74,7 +74,7 @@ expired items removed — so you can rely on what you see being current.
 | 19 | [fluttersdk/wind](https://github.com/fluttersdk/wind) | 33 | Dart | 2026-08-24 | — | Tailwind CSS for Flutter — classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code  |
 | 20 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 142 | Python | 2026-08-24 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
 | 21 | [sayeed1999/agent-skills](https://github.com/sayeed1999/agent-skills) | 6 | — | 2026-08-24 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/sayeed1999/agent-skills/) | Reusable agent skills for battle-tested engineering judgment — least code, fix the problem, don't break what works. Work |
-| 22 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 19891 | Shell | 2026-08-24 | — | 🎭 267 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 52 个中国市场原创智能体（小红书/抖音/ |
+| 22 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 19892 | Shell | 2026-08-24 | — | 🎭 267 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 52 个中国市场原创智能体（小红书/抖音/ |
 | 23 | [GeiserX/homebrew-lynxprompt](https://github.com/GeiserX/homebrew-lynxprompt) | 2 | Ruby | 2026-08-24 | — | Homebrew tap for LynxPrompt CLI |
 | 24 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 17 | TypeScript | 2026-08-24 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
 | 25 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-08-24 | — | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
@@ -87,7 +87,7 @@ expired items removed — so you can rely on what you see being current.
 | 32 | [Luxvil/ai-coding-rules](https://github.com/Luxvil/ai-coding-rules) | 3 | Shell | 2026-08-24 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Luxvil/ai-coding-rules/) | 🤖 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje |
 | 33 | [glowElephant/context-forge](https://github.com/glowElephant/context-forge) | 2 | Python | 2026-08-24 | — | Auto harness engineering meta-repo: discuss → curate → bootstrap a context-engineered project for Claude Code, Cursor, C |
 | 34 | [orin-dx/agent-plugins](https://github.com/orin-dx/agent-plugins) | 1 | Shell | 2026-08-24 | — | Official AI Agent Plugins & Skills Marketplace for Antigravity (AGY), Claude Code, and Cursor |
-| 35 | [wshobson/agents](https://github.com/wshobson/agents) | 39101 | Python | 2026-08-24 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, and Google Antigravit |
+| 35 | [wshobson/agents](https://github.com/wshobson/agents) | 39102 | Python | 2026-08-24 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, and Google Antigravit |
 | 36 | [MCLeut/service-cursor](https://github.com/MCLeut/service-cursor) | 0 | JavaScript | 2026-08-23 | — | Modulares Cursor-Setup fuer agentisches Arbeiten - Regeln, Hooks, Subagenten und MCP, jeder Schluessel gegen eine echte  |
 | 37 | [GktuOktay/ai-skills](https://github.com/GktuOktay/ai-skills) | 1 | Python | 2026-08-23 | — | 🚀 Universal Open-Source AI Agent Skills & Rules Library for Antigravity, Cursor, Claude Code, GitHub Copilot, OpenAI Cod |
 | 38 | [yfgug/competition-engineering-skill](https://github.com/yfgug/competition-engineering-skill) | 1 | JavaScript | 2026-08-23 | — | 一个比赛工程化skill |

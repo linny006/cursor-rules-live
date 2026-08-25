@@ -5,8 +5,17 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 18,
-    "updated_at": "2026-08-25T08:09:51Z",
+    "updated_at": "2026-08-25T08:25:52Z",
     "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 2,
+    "updated_at": "2026-08-25T08:15:35Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -16,15 +25,6 @@
     "stars": 3,
     "updated_at": "2026-08-25T08:01:12Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 2,
-    "updated_at": "2026-08-25T08:00:54Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -213,7 +213,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 19891,
+    "stars": 19892,
     "updated_at": "2026-08-24T14:09:20Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -345,7 +345,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39101,
+    "stars": 39102,
     "updated_at": "2026-08-24T01:08:10Z",
     "url": "https://github.com/wshobson/agents"
   },
