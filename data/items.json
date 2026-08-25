@@ -1,11 +1,20 @@
 [
   {
+    "description": "Point your AI coding agent at this repo and it installs a personalized ruleset for reproducible, analysis-first data sci",
+    "id": "NCEAS-AI/Coding-Agent-Rules-for-Data-Science",
+    "language": "\u2014",
+    "name": "NCEAS-AI/Coding-Agent-Rules-for-Data-Science",
+    "stars": 3,
+    "updated_at": "2026-08-24T23:59:47Z",
+    "url": "https://github.com/NCEAS-AI/Coding-Agent-Rules-for-Data-Science"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-24T23:45:53Z",
+    "updated_at": "2026-08-24T23:58:42Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -14,7 +23,7 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 18,
-    "updated_at": "2026-08-24T23:44:47Z",
+    "updated_at": "2026-08-24T23:58:30Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
@@ -494,14 +503,5 @@
     "stars": 2,
     "updated_at": "2026-08-21T19:10:51Z",
     "url": "https://github.com/kleosr/kleosrules"
-  },
-  {
-    "description": "This plugin makes your AI coding agent an Arcjet security expert.",
-    "id": "arcjet/arcjet-plugin",
-    "language": "Shell",
-    "name": "arcjet/arcjet-plugin",
-    "stars": 1,
-    "updated_at": "2026-08-21T17:16:14Z",
-    "url": "https://github.com/arcjet/arcjet-plugin"
   }
 ]
