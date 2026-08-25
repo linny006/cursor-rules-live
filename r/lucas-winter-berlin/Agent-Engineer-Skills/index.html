@@ -83,6 +83,7 @@ Do not skip the question. Do not choose a path for them. Create that path as a *
 | id | Path |
 | --- | --- |
 | `feature-specifier` | `skills/feature-builder/feature-specifier/SKILL.md` |
+| `feature-bug-analyst` | `skills/feature-builder/feature-bug-analyst/SKILL.md` |
 | `feature-developer` | `skills/feature-builder/feature-developer/SKILL.md` |
 | `feature-code-reviewer` | `skills/feature-builder/feature-code-reviewer/SKILL.md` |
 | `feature-tester` | `skills/feature-builder/feature-tester/SKILL.md` |
@@ -97,6 +98,7 @@ When the user did not name a skill id:
 | User intent | Skill |
 | --- | --- |
 | Vague idea, problem, or feature; spec before code (feature in an existing repo) | `feature-specifier` |
+| Defect, crash, wrong output, regression, or flaky failure to analyze before a fix | `feature-bug-analyst` |
 | Prototype, MVP, new project, greenfield, or pitch | `mvp-specifier` |
 | Implement this specification / this feature folder | `feature-developer` |
 | Review this feature folder, or review against `what-to-build.md` | `feature-code-reviewer` |
@@ -105,7 +107,7 @@ When the user did not name a skill id:
 
 If they named one skill, run only that skill. `Use skill: feature-verifier` is the old name for `feature-tester`. `Use skill: pitch-to-spec` is the old name for `mvp-specifier`.
 
-If the specification is missing or the idea is fuzzy: a feature in an existing app is `feature-specifier`; a prototype, MVP, new project, greenfield, or pitch is `mvp-specifier`. A generic &quot;I have an idea&quot; in an existing app still maps to `feature-specifier`. If they named implement, review, or test alone, stop after that skill. `mvp-specifier` must not start `feature-developer` in the same chat.
+If the specification is missing or the idea is fuzzy: a feature in an existing app is `feature-specifier`; a prototype, MVP, new project, greenfield, or pitch is `mvp-specifier`. A reported defect with expected vs actual (or a stacktrace) is `feature-bug-analyst`, not `feature-specifier`. A generic &quot;I have an idea&quot; in an existing app still maps to `feature-specifier`. If they named implement, review, or test alone, stop after that skill. `mvp-specifier` must not start `feature-developer` in the same chat. `feature-bug-analyst` must not start `feature-developer` unless the user named it.
 
 ## Global contract
 
@@ -120,9 +122,11 @@ If the specification is missing or the idea is fuzzy: a feature in an existing a
 ## Do not
 
 - Chain specifier → developer → reviewer → tester unless the user named each skill.
+- Chain bug-analyst → developer unless the user named the next skill.
 - Run `feature-developer` while the requirement is ambiguous.
 - Invent or restore `feature-harness` / a path runner.
 - Run `mvp-specifier` for a feature in an existing repo (use `feature-specifier`). Do not start `feature-developer` in the same chat as `mvp-specifier`.
+- Run `feature-specifier` for a defect that already has expected vs actual (use `feature-bug-analyst`).
 - Invent extra spec packs, CI, or a threat-model essay as part of these skills.
 - Log secrets in skill artifacts.
 
