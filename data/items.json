@@ -1,12 +1,21 @@
 [
   {
-    "description": "\u4e00\u4e2a\u6bd4\u8d5b\u5de5\u7a0b\u5316skill",
-    "id": "yfgug/competition-engineering-skill",
-    "language": "JavaScript",
-    "name": "yfgug/competition-engineering-skill",
-    "stars": 1,
-    "updated_at": "2026-08-25T16:38:33Z",
-    "url": "https://github.com/yfgug/competition-engineering-skill"
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 2,
+    "updated_at": "2026-08-25T16:45:59Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-08-25T16:42:44Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
   },
   {
     "cursorrules": {
@@ -23,15 +32,6 @@
     "url": "https://github.com/Texarkanine/ai-rizz"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 2,
-    "updated_at": "2026-08-25T16:30:35Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
     "id": "edsondviana8/ai-humanizer-core",
     "language": "HTML",
@@ -46,17 +46,8 @@
     "language": "HTML",
     "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
     "stars": 3,
-    "updated_at": "2026-08-25T16:02:45Z",
+    "updated_at": "2026-08-25T16:58:20Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
-    "stars": 0,
-    "updated_at": "2026-08-25T16:42:44Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
   },
   {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
@@ -304,7 +295,7 @@
     "id": "KbWen/agentic-os",
     "language": "Python",
     "name": "KbWen/agentic-os",
-    "stars": 142,
+    "stars": 143,
     "updated_at": "2026-08-24T16:08:48Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
@@ -503,5 +494,14 @@
     "stars": 0,
     "updated_at": "2026-08-23T04:10:39Z",
     "url": "https://github.com/smg99/ticket-flow"
+  },
+  {
+    "description": "Scan and analyze storage usage, identify junk files, and safely clean unnecessary data",
+    "id": "JojoAArtI/storage-sleuth",
+    "language": "\u2014",
+    "name": "JojoAArtI/storage-sleuth",
+    "stars": 2,
+    "updated_at": "2026-08-22T17:50:28Z",
+    "url": "https://github.com/JojoAArtI/storage-sleuth"
   }
 ]
