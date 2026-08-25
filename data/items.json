@@ -1,21 +1,39 @@
 [
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 2,
-    "updated_at": "2026-08-25T20:29:28Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Map and lint AGENTS.md, Codex overrides, CLAUDE.md, Copilot instructions, Agent Skills, and imports\u2014with zero dependenci",
     "id": "kotobuki09/instructree",
     "language": "JavaScript",
     "name": "kotobuki09/instructree",
     "stars": 0,
-    "updated_at": "2026-08-25T20:23:00Z",
+    "updated_at": "2026-08-25T20:44:13Z",
     "url": "https://github.com/kotobuki09/instructree"
+  },
+  {
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-08-25T20:34:37Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
+  },
+  {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 0,
+    "updated_at": "2026-08-25T20:33:48Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 2,
+    "updated_at": "2026-08-25T20:30:57Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -32,7 +50,7 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 18,
-    "updated_at": "2026-08-25T20:13:44Z",
+    "updated_at": "2026-08-25T20:34:46Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
@@ -59,7 +77,7 @@
     "language": "Python",
     "name": "Cadasto/openehr-assistant-plugin",
     "stars": 3,
-    "updated_at": "2026-08-25T19:37:39Z",
+    "updated_at": "2026-08-25T20:42:51Z",
     "url": "https://github.com/Cadasto/openehr-assistant-plugin"
   },
   {
@@ -70,24 +88,6 @@
     "stars": 33,
     "updated_at": "2026-08-25T19:44:41Z",
     "url": "https://github.com/fluttersdk/wind"
-  },
-  {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
-    "stars": 0,
-    "updated_at": "2026-08-25T19:35:35Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 0,
-    "updated_at": "2026-08-25T19:35:05Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
