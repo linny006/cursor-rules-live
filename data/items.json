@@ -1,21 +1,30 @@
 [
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 2,
-    "updated_at": "2026-08-25T18:16:00Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Map and lint AGENTS.md, CLAUDE.md, Copilot instructions, Agent Skills, and imports\u2014with zero dependencies.",
     "id": "kotobuki09/instructree",
     "language": "JavaScript",
     "name": "kotobuki09/instructree",
     "stars": 0,
-    "updated_at": "2026-08-25T18:14:19Z",
+    "updated_at": "2026-08-25T18:29:15Z",
     "url": "https://github.com/kotobuki09/instructree"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-08-25T18:24:12Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 2,
+    "updated_at": "2026-08-25T18:16:41Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -70,15 +79,6 @@
     "stars": 37,
     "updated_at": "2026-08-25T17:33:11Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-08-25T17:22:41Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "cursorrules": {
@@ -182,7 +182,7 @@
     "language": "Python",
     "name": "Cadasto/openehr-assistant-plugin",
     "stars": 3,
-    "updated_at": "2026-08-25T09:35:20Z",
+    "updated_at": "2026-08-25T18:27:58Z",
     "url": "https://github.com/Cadasto/openehr-assistant-plugin"
   },
   {
@@ -436,7 +436,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39113,
+    "stars": 39112,
     "updated_at": "2026-08-24T01:08:10Z",
     "url": "https://github.com/wshobson/agents"
   },
