@@ -1,5 +1,23 @@
 [
   {
+    "description": "Map and lint AGENTS.md, CLAUDE.md, Copilot instructions, Agent Skills, and imports\u2014with zero dependencies.",
+    "id": "kotobuki09/instructree",
+    "language": "JavaScript",
+    "name": "kotobuki09/instructree",
+    "stars": 0,
+    "updated_at": "2026-08-25T18:14:19Z",
+    "url": "https://github.com/kotobuki09/instructree"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 2,
+    "updated_at": "2026-08-25T18:00:51Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
     "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
     "language": "HTML",
@@ -16,15 +34,6 @@
     "stars": 0,
     "updated_at": "2026-08-25T17:45:49Z",
     "url": "https://github.com/manueldezman/botchain-init-toolkit"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 2,
-    "updated_at": "2026-08-25T17:45:18Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Production-ready AI agent profiles for Claude Code, Cursor, Codex, OpenClaw, and Hermes. Search, install, and contribute",
@@ -489,19 +498,5 @@
     "stars": 4,
     "updated_at": "2026-08-23T08:05:23Z",
     "url": "https://github.com/sscodeai/agency-agents-ja"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Trigger Ticket Flow skill when working on, fixing, or implementing tickets (e.g. \"fix bug PROJ-123\", \"work on PROJ-123\")\nglobs: *\nalwaysApply: false\n---\n\n# Ticket Flow Trigger Rule\n\nWhen the user asks to process a ticket, fix a bug with an ID, work on a ticket, or handle a queue of tickets:\n\n1. **Load and follow** the Ticket Flow skill located at `ticket-flow/.cursor/skills/ticket-flow/SKILL.md`.\n2. Do not attempt to freestyle the workflow sequence.\n3. Keep the naming glossary in mind and strictly enforce the **Confirm** validation gate before committing or opening PRs.\n4. Stage only path-scoped changes relevant to the ticket.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/ticket-flow.mdc"
-    },
-    "description": "A repeatable, high-discipline workflow pattern for Cursor agents: fetches issues, branches, implements, adds tests, runs",
-    "id": "smg99/ticket-flow",
-    "language": "Shell",
-    "name": "smg99/ticket-flow",
-    "stars": 0,
-    "updated_at": "2026-08-23T04:10:39Z",
-    "url": "https://github.com/smg99/ticket-flow"
   }
 ]
