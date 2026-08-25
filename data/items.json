@@ -1,5 +1,23 @@
 [
   {
+    "description": "Debug Codex AGENTS.md discovery and hidden project-root boundaries; audit skills, CLAUDE.md, Copilot instructions, and i",
+    "id": "kotobuki09/instructree",
+    "language": "JavaScript",
+    "name": "kotobuki09/instructree",
+    "stars": 0,
+    "updated_at": "2026-08-25T23:35:20Z",
+    "url": "https://github.com/kotobuki09/instructree"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 2,
+    "updated_at": "2026-08-25T23:30:34Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
     "id": "Trentobobbi/uikit-mastery-playbook",
     "language": "HTML",
@@ -18,15 +36,6 @@
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
-    "description": "Debug Codex AGENTS.md discovery and hidden project-root boundaries; audit skills, CLAUDE.md, Copilot instructions, and i",
-    "id": "kotobuki09/instructree",
-    "language": "JavaScript",
-    "name": "kotobuki09/instructree",
-    "stars": 0,
-    "updated_at": "2026-08-25T23:23:13Z",
-    "url": "https://github.com/kotobuki09/instructree"
-  },
-  {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
     "id": "edsondviana8/ai-humanizer-core",
     "language": "HTML",
@@ -34,15 +43,6 @@
     "stars": 1,
     "updated_at": "2026-08-25T23:16:48Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 2,
-    "updated_at": "2026-08-25T23:15:47Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Production-ready AI agent profiles for Claude Code, Cursor, Codex, OpenClaw, and Hermes. Search, install, and contribute",
