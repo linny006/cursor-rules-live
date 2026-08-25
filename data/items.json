@@ -1,11 +1,38 @@
 [
   {
+    "description": "Audit Codex skill scopes and map/lint AGENTS.md, CLAUDE.md, Copilot instructions, Agent Skills, and imports\u2014zero depende",
+    "id": "kotobuki09/instructree",
+    "language": "JavaScript",
+    "name": "kotobuki09/instructree",
+    "stars": 0,
+    "updated_at": "2026-08-25T21:56:44Z",
+    "url": "https://github.com/kotobuki09/instructree"
+  },
+  {
+    "description": "Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 18,
+    "updated_at": "2026-08-25T21:56:21Z",
+    "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 3,
+    "updated_at": "2026-08-25T21:46:37Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-25T21:35:25Z",
+    "updated_at": "2026-08-25T21:45:33Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -45,15 +72,6 @@
     "url": "https://github.com/fluttersdk/wind"
   },
   {
-    "description": "Map and lint AGENTS.md, Codex overrides, CLAUDE.md, Copilot instructions, Agent Skills, and imports\u2014with zero dependenci",
-    "id": "kotobuki09/instructree",
-    "language": "JavaScript",
-    "name": "kotobuki09/instructree",
-    "stars": 0,
-    "updated_at": "2026-08-25T21:08:58Z",
-    "url": "https://github.com/kotobuki09/instructree"
-  },
-  {
     "description": "This plugin makes your AI coding agent an Arcjet security expert.",
     "id": "arcjet/arcjet-plugin",
     "language": "Shell",
@@ -61,24 +79,6 @@
     "stars": 1,
     "updated_at": "2026-08-25T20:53:24Z",
     "url": "https://github.com/arcjet/arcjet-plugin"
-  },
-  {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 3,
-    "updated_at": "2026-08-25T20:49:02Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 18,
-    "updated_at": "2026-08-25T21:11:52Z",
-    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -322,7 +322,7 @@
     "id": "KbWen/agentic-os",
     "language": "Python",
     "name": "KbWen/agentic-os",
-    "stars": 144,
+    "stars": 145,
     "updated_at": "2026-08-24T16:08:48Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
