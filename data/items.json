@@ -1,11 +1,29 @@
 [
   {
+    "description": "Open-source architectural drift prevention for the AI SDLC. Deterministic ADR guardrails across coding agents and CI.",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 18,
+    "updated_at": "2026-08-25T08:09:51Z",
+    "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 3,
+    "updated_at": "2026-08-25T08:01:12Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-25T07:51:50Z",
+    "updated_at": "2026-08-25T08:00:54Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -34,15 +52,6 @@
     "stars": 1,
     "updated_at": "2026-08-25T07:35:48Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 3,
-    "updated_at": "2026-08-25T07:11:23Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -127,15 +136,6 @@
     "url": "https://github.com/PiloTracer/pilo.ai.logicbison"
   },
   {
-    "description": "Open-source architectural drift prevention for the AI SDLC. Deterministic ADR guardrails across coding agents and CI.",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 18,
-    "updated_at": "2026-08-25T00:00:43Z",
-    "url": "https://github.com/MnemeHQ/mneme"
-  },
-  {
     "description": "Point your AI coding agent at this repo and it installs a personalized ruleset for reproducible, analysis-first data sci",
     "id": "NCEAS-AI/Coding-Agent-Rules-for-Data-Science",
     "language": "\u2014",
@@ -213,7 +213,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 19890,
+    "stars": 19891,
     "updated_at": "2026-08-24T14:09:20Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
