@@ -1,12 +1,12 @@
 [
   {
-    "description": "Find why Codex instructions or skills are missing: audit AGENTS.md, .agents/skills, Codex Desktop, CLAUDE.md, Copilot, a",
-    "id": "kotobuki09/instructree",
-    "language": "JavaScript",
-    "name": "kotobuki09/instructree",
-    "stars": 0,
-    "updated_at": "2026-08-26T09:24:28Z",
-    "url": "https://github.com/kotobuki09/instructree"
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-08-26T09:31:07Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-26T09:15:52Z",
+    "updated_at": "2026-08-26T09:30:35Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Find why Codex instructions or skills are missing: audit AGENTS.md, .agents/skills, Codex Desktop, CLAUDE.md, Copilot, a",
+    "id": "kotobuki09/instructree",
+    "language": "JavaScript",
+    "name": "kotobuki09/instructree",
+    "stars": 0,
+    "updated_at": "2026-08-26T09:24:28Z",
+    "url": "https://github.com/kotobuki09/instructree"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -57,15 +66,6 @@
     "stars": 7,
     "updated_at": "2026-08-26T08:37:28Z",
     "url": "https://github.com/vibestackdev/vibe-stack"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-08-26T08:31:28Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -468,7 +468,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39140,
+    "stars": 39141,
     "updated_at": "2026-08-24T01:08:10Z",
     "url": "https://github.com/wshobson/agents"
   },
