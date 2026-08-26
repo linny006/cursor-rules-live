@@ -14,7 +14,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="lucas-winter-berlin/Agent-Engineer-Skills - entry on Cursor Rules Live">
 <meta name="twitter:description" content="Agent skills for building features and MVPs. Spec, build, review, test - one named job at a time.">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"lucas-winter-berlin/Agent-Engineer-Skills","codeRepository":"https://github.com/lucas-winter-berlin/Agent-Engineer-Skills","programmingLanguage":"PowerShell","url":"https://linny006.github.io/cursor-rules-live/r/lucas-winter-berlin/Agent-Engineer-Skills/","description":"Agent skills for building features and MVPs. Spec, build, review, test - one named job at a time.","author":{"@type":"Person","name":"lucas-winter-berlin","url":"https://github.com/lucas-winter-berlin"},"dateModified":"2026-08-25"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"lucas-winter-berlin/Agent-Engineer-Skills","codeRepository":"https://github.com/lucas-winter-berlin/Agent-Engineer-Skills","programmingLanguage":"PowerShell","url":"https://linny006.github.io/cursor-rules-live/r/lucas-winter-berlin/Agent-Engineer-Skills/","description":"Agent skills for building features and MVPs. Spec, build, review, test - one named job at a time.","author":{"@type":"Person","name":"lucas-winter-berlin","url":"https://github.com/lucas-winter-berlin"},"dateModified":"2026-08-26"}</script>
 <style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
          --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
 * { box-sizing: border-box; }
@@ -48,14 +48,14 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <div class="meta">
 <span><strong>Stars</strong> 0</span>
 <span><strong>Language</strong> PowerShell</span>
-<span><strong>Last updated</strong> 2026-08-25</span>
+<span><strong>Last updated</strong> 2026-08-26</span>
 <span><a href="https://github.com/lucas-winter-berlin/Agent-Engineer-Skills" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/lucas-winter-berlin" rel="external">@lucas-winter-berlin</a></span>
 </div>
 <section id="rules"><h2>Actual rules from this repo</h2>
 <p>Path in source repo: <code>.cursor/rules/agent-engineer-skills.mdc</code> &middot; format: <code>mdc</code></p>
 <pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
-description: Dispatcher for Agent Engineer Skills. Maps feature-development work to one skill. Use skill: &lt;id&gt; runs only that skill. Lookup is skills/&lt;family&gt;/&lt;id&gt;/SKILL.md.
+description: Dispatcher for Agent Engineer Skills. Maps feature-development work to one skill. Use skill: &lt;id&gt; runs only that skill. Lookup is skills/&lt;id&gt;/SKILL.md in this pack, or the host skill folder after install.
 alwaysApply: true
 ---
 
@@ -63,7 +63,9 @@ alwaysApply: true
 
 This repo is a collection of skills for developing features. A skill is a structured instruction set and execution contract, not optional style advice.
 
-`Use skill: &lt;id&gt;` always selects that skill and **only** that skill. The **id** is the leaf folder name. The **family** (`feature-builder` or `mvp-builder`) is only where the files live. Read `skills/&lt;family&gt;/&lt;id&gt;/SKILL.md` and execute that contract. Do not start the next skill unless the user named it. `SKILL.md` is authoritative if this rule and the skill file diverge.
+`Use skill: &lt;id&gt;` always selects that skill and **only** that skill. The **id** is the leaf folder name. Read that skill&#x27;s `SKILL.md` from the first path that exists: `skills/&lt;id&gt;/SKILL.md` (this pack), else `.cursor/skills/&lt;id&gt;/SKILL.md` (Cursor app install), else `.agents/skills/&lt;id&gt;/SKILL.md` (Antigravity app install). Do not start the next skill unless the user named it. `SKILL.md` is authoritative if this rule and the skill file diverge.
+
+This pack stores each skill once, at `skills/&lt;id&gt;/`. Family (`feature-builder` or `mvp-builder`) is grouping only, not a folder. Do not keep extra copies of the skill folders in this repo.
 
 There is no composer / harness skill in this collection. If the user asks for a harness, end-to-end path runner, or `feature-harness`, do not invent one. Tell them to name each skill they want (`feature-developer`, `feature-code-reviewer`, `feature-refactorer`, `feature-tester`).
 
@@ -76,21 +78,21 @@ MUST stop and ask once, before creating the docs folder, where markdown output s
 - Default: keep the **folder** `agent-engineer-skills/` (docs in `agent-engineer-skills/&lt;feature-name&gt;/`)
 - Custom: the operator types a repo-relative **folder**; create that directory; files go in `&lt;folder&gt;/&lt;feature-name&gt;/`
 
-Do not skip the question. Do not choose a path for them. Create that path as a **directory** (default name `agent-engineer-skills`). Never write a file named `aes-write-up-root`; if that file exists, delete it. Set the Feature-folder write-ups line in the app&#x27;s copy of this dispatcher to that folder.
+Do not skip the question. Do not choose a path for them. Create that path as a **directory** (default name `agent-engineer-skills`). Never write a file named `aes-write-up-root`; if that file exists, delete it. Set the Feature-folder write-ups line in the app&#x27;s `AGENTS.md` and in the app&#x27;s copy of this dispatcher to that folder.
 
 ## Where SKILL.md lives
 
 | id | Path |
 | --- | --- |
-| `feature-specifier` | `skills/feature-builder/feature-specifier/SKILL.md` |
-| `feature-bug-analyst` | `skills/feature-builder/feature-bug-analyst/SKILL.md` |
-| `feature-developer` | `skills/feature-builder/feature-developer/SKILL.md` |
-| `feature-code-reviewer` | `skills/feature-builder/feature-code-reviewer/SKILL.md` |
-| `feature-refactorer` | `skills/feature-builder/feature-refactorer/SKILL.md` |
-| `feature-tester` | `skills/feature-builder/feature-tester/SKILL.md` |
-| `mvp-specifier` | `skills/mvp-builder/mvp-specifier/SKILL.md` |
+| `feature-specifier` | `skills/feature-specifier/SKILL.md` |
+| `feature-bug-analyst` | `skills/feature-bug-analyst/SKILL.md` |
+| `feature-developer` | `skills/feature-developer/SKILL.md` |
+| `feature-code-reviewer` | `skills/feature-code-reviewer/SKILL.md` |
+| `feature-refactorer` | `skills/feature-refactorer/SKILL.md` |
+| `feature-tester` | `skills/feature-tester/SKILL.md` |
+| `mvp-specifier` | `skills/mvp-specifier/SKILL.md` |
 
-Templates live in `assets/` next to that `SKILL.md`. Feature-folder write-ups live under `agent-engineer-skills/&lt;name&gt;/`. After a custom install, the **app** copy of this file names that docs folder instead. That path is a directory, not a file.
+Templates live in `assets/` next to that `SKILL.md`. Feature-folder write-ups live under `agent-engineer-skills/&lt;name&gt;/`. After a custom install, the **app** `AGENTS.md` and this dispatcher name that docs folder instead. That path is a directory, not a file.
 
 ## Decision mapping
 
@@ -128,9 +130,7 @@ If the specification is missing or the idea is fuzzy: a feature in an existing a
 - Chain `feature-refactorer` → reviewer or tester unless the user named the next skill.
 - Run `feature-developer` while the requirement is ambiguous.
 - Invent or restore `feature-harness` / a path runner.
-- Run `mvp-specifier` for a feature in an existing repo (use `feature-specifier`). Do not start `feature-developer` in the same chat as `mvp-specifier`.
-- Run `feature-specifier` for a defect that already has expected vs actual (use `feature-bug-analyst`).
-- Run `feature-code-reviewer` for a messy module with no feature spec (use `feature-refac</code></pre>
+- Run `mvp-specifier` for a feature in an existing repo (use `feature-specifier`). Do not start `feature-</code></pre>
 <p><em>Content truncated. View full file in the source repo (linked above).</em></p><p><a href="https://github.com/lucas-winter-berlin/Agent-Engineer-Skills/blob/HEAD/.cursor/rules/agent-engineer-skills.mdc" rel="external">View raw on GitHub</a></p>
 </section>
 <section><h2>Why this is listed</h2>
