@@ -5,8 +5,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-26T20:45:45Z",
+    "updated_at": "2026-08-26T21:00:55Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Molavi Agent Skills: Curated AI agent skills and MCP configs for Antigravity, Cursor, Codex & Claude \u2014 by Taghi Molavi",
+    "id": "tmolavi/mcp-agent-skills-hub",
+    "language": "JavaScript",
+    "name": "tmolavi/mcp-agent-skills-hub",
+    "stars": 8,
+    "updated_at": "2026-08-26T21:00:49Z",
+    "url": "https://github.com/tmolavi/mcp-agent-skills-hub"
   },
   {
     "description": "Cursor harness pack: user rules, skills, Bash hooks, local HANDOFF memory. macOS, Linux, Windows (WSL).",
@@ -494,14 +503,5 @@
     "stars": 2,
     "updated_at": "2026-08-24T11:47:10Z",
     "url": "https://github.com/GeiserX/homebrew-lynxprompt"
-  },
-  {
-    "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
-    "id": "philipbankier/awesome-agent-skills",
-    "language": "TypeScript",
-    "name": "philipbankier/awesome-agent-skills",
-    "stars": 17,
-    "updated_at": "2026-08-24T11:22:59Z",
-    "url": "https://github.com/philipbankier/awesome-agent-skills"
   }
 ]
