@@ -1,12 +1,30 @@
 [
   {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 3,
+    "updated_at": "2026-08-26T11:48:40Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-26T11:45:42Z",
+    "updated_at": "2026-08-26T11:46:47Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\ud83c\udfad 267 \u4e2a\u5373\u63d2\u5373\u7528\u7684 AI \u4e13\u5bb6\u89d2\u8272 \u2014 \u652f\u6301 Hermes Agent/Claude Code/Cursor/Copilot \u7b49 18 \u79cd\u5de5\u5177\uff0c\u8986\u76d6\u5de5\u7a0b/\u8bbe\u8ba1/\u8425\u9500/\u91d1\u878d\u7b49 20 \u4e2a\u90e8\u95e8\u3002\u542b 52 \u4e2a\u4e2d\u56fd\u5e02\u573a\u539f\u521b\u667a\u80fd\u4f53\uff08\u5c0f\u7ea2\u4e66/\u6296\u97f3/",
+    "id": "jnMetaCode/agency-agents-zh",
+    "language": "Shell",
+    "name": "jnMetaCode/agency-agents-zh",
+    "stars": 19938,
+    "updated_at": "2026-08-26T11:46:06Z",
+    "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -52,15 +70,6 @@
     "stars": 1,
     "updated_at": "2026-08-26T11:19:51Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 3,
-    "updated_at": "2026-08-26T10:53:27Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "description": "\u5c08\u70ba\u51fa\u6d77\u71df\u92b7\u3001\u96fb\u5546\u9078\u54c1\u8207\u793e\u5a92\u71df\u904b\u6253\u9020\u7684 AI Skills / MCP \u7cbe\u9078\u5c0e\u822a\u3002\u62d2\u7d55\u82b1\u88cf\u80e1\u54e8\uff0c\u53ea\u6536\u9304\u771f\u6b63\u80fd\u89e3\u6c7a\u696d\u52d9\u75db\u9ede\u3001\u958b\u7bb1\u5373\u7528\u7684 AI \u81ea\u52d5\u5316\u5de5\u4f5c\u6d41\u3002Curated AI & Agent Skills for E-commerce & ",
@@ -414,15 +423,6 @@
     "url": "https://github.com/sayeed1999/agent-skills"
   },
   {
-    "description": "\ud83c\udfad 267 \u4e2a\u5373\u63d2\u5373\u7528\u7684 AI \u4e13\u5bb6\u89d2\u8272 \u2014 \u652f\u6301 Hermes Agent/Claude Code/Cursor/Copilot \u7b49 18 \u79cd\u5de5\u5177\uff0c\u8986\u76d6\u5de5\u7a0b/\u8bbe\u8ba1/\u8425\u9500/\u91d1\u878d\u7b49 20 \u4e2a\u90e8\u95e8\u3002\u542b 52 \u4e2a\u4e2d\u56fd\u5e02\u573a\u539f\u521b\u667a\u80fd\u4f53\uff08\u5c0f\u7ea2\u4e66/\u6296\u97f3/",
-    "id": "jnMetaCode/agency-agents-zh",
-    "language": "Shell",
-    "name": "jnMetaCode/agency-agents-zh",
-    "stars": 19939,
-    "updated_at": "2026-08-26T11:46:06Z",
-    "url": "https://github.com/jnMetaCode/agency-agents-zh"
-  },
-  {
     "description": "Homebrew tap for LynxPrompt CLI",
     "id": "GeiserX/homebrew-lynxprompt",
     "language": "Ruby",
@@ -477,7 +477,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39147,
+    "stars": 39148,
     "updated_at": "2026-08-24T01:08:10Z",
     "url": "https://github.com/wshobson/agents"
   },
