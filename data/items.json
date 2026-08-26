@@ -5,8 +5,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-26T16:30:34Z",
+    "updated_at": "2026-08-26T16:45:32Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Know Yourself. Define Your Direction. Forge Your Opportunity.An agent-native skill for self-discovery, career positionin",
+    "id": "Max-Samson/knowme-careerforge-skill",
+    "language": "HTML",
+    "name": "Max-Samson/knowme-careerforge-skill",
+    "stars": 0,
+    "updated_at": "2026-08-26T16:34:49Z",
+    "url": "https://github.com/Max-Samson/knowme-careerforge-skill"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -279,7 +288,7 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 18,
-    "updated_at": "2026-08-26T01:19:56Z",
+    "updated_at": "2026-08-26T16:45:47Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
@@ -494,14 +503,5 @@
     "stars": 2,
     "updated_at": "2026-08-24T04:33:35Z",
     "url": "https://github.com/glowElephant/context-forge"
-  },
-  {
-    "description": "Official AI Agent Plugins & Skills Marketplace for Antigravity (AGY), Claude Code, and Cursor",
-    "id": "orin-dx/agent-plugins",
-    "language": "Shell",
-    "name": "orin-dx/agent-plugins",
-    "stars": 1,
-    "updated_at": "2026-08-24T03:51:03Z",
-    "url": "https://github.com/orin-dx/agent-plugins"
   }
 ]
