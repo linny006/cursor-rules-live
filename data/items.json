@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 2,
+    "updated_at": "2026-08-26T00:45:32Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
     "id": "edsondviana8/ai-humanizer-core",
     "language": "HTML",
@@ -16,15 +25,6 @@
     "stars": 0,
     "updated_at": "2026-08-26T00:39:51Z",
     "url": "https://github.com/sublimecoder/sublimecoding"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 2,
-    "updated_at": "2026-08-26T00:30:48Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Debug Codex AGENTS.md discovery and hidden project-root boundaries; audit skills, CLAUDE.md, Copilot instructions, and i",
@@ -454,7 +454,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39120,
+    "stars": 39122,
     "updated_at": "2026-08-24T01:08:10Z",
     "url": "https://github.com/wshobson/agents"
   },
