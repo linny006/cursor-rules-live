@@ -1,11 +1,20 @@
 [
   {
+    "description": "Find why Codex instructions or skills are missing: audit AGENTS.md, .agents/skills, Codex Desktop, CLAUDE.md, Copilot, a",
+    "id": "kotobuki09/instructree",
+    "language": "JavaScript",
+    "name": "kotobuki09/instructree",
+    "stars": 0,
+    "updated_at": "2026-08-26T08:22:29Z",
+    "url": "https://github.com/kotobuki09/instructree"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-26T08:08:03Z",
+    "updated_at": "2026-08-26T08:15:45Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -107,15 +116,6 @@
     "stars": 0,
     "updated_at": "2026-08-26T03:32:51Z",
     "url": "https://github.com/johnwall123459885/skene-cookbook"
-  },
-  {
-    "description": "Find why Codex instructions or skills are missing: audit AGENTS.md, .agents/skills, Codex Desktop, CLAUDE.md, Copilot, a",
-    "id": "kotobuki09/instructree",
-    "language": "JavaScript",
-    "name": "kotobuki09/instructree",
-    "stars": 0,
-    "updated_at": "2026-08-26T02:19:48Z",
-    "url": "https://github.com/kotobuki09/instructree"
   },
   {
     "description": "Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align",
@@ -345,7 +345,7 @@
     "id": "KbWen/agentic-os",
     "language": "Python",
     "name": "KbWen/agentic-os",
-    "stars": 145,
+    "stars": 146,
     "updated_at": "2026-08-24T16:08:48Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
@@ -368,7 +368,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 19936,
+    "stars": 19937,
     "updated_at": "2026-08-24T14:09:20Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
