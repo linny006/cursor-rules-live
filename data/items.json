@@ -1,5 +1,23 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 2,
+    "updated_at": "2026-08-26T12:30:48Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-08-26T12:30:36Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
     "description": "Find why Codex instructions or skills are missing: audit AGENTS.md, .agents/skills, Codex Desktop, CLAUDE.md, Copilot, a",
     "id": "kotobuki09/instructree",
     "language": "JavaScript",
@@ -7,15 +25,6 @@
     "stars": 0,
     "updated_at": "2026-08-26T12:29:17Z",
     "url": "https://github.com/kotobuki09/instructree"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 2,
-    "updated_at": "2026-08-26T12:15:48Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -45,7 +54,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 19939,
+    "stars": 19940,
     "updated_at": "2026-08-26T11:46:06Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -75,15 +84,6 @@
     "stars": 1,
     "updated_at": "2026-08-26T11:27:39Z",
     "url": "https://github.com/spellsaif/graybeard"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-08-26T11:19:51Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "\u5c08\u70ba\u51fa\u6d77\u71df\u92b7\u3001\u96fb\u5546\u9078\u54c1\u8207\u793e\u5a92\u71df\u904b\u6253\u9020\u7684 AI Skills / MCP \u7cbe\u9078\u5c0e\u822a\u3002\u62d2\u7d55\u82b1\u88cf\u80e1\u54e8\uff0c\u53ea\u6536\u9304\u771f\u6b63\u80fd\u89e3\u6c7a\u696d\u52d9\u75db\u9ede\u3001\u958b\u7bb1\u5373\u7528\u7684 AI \u81ea\u52d5\u5316\u5de5\u4f5c\u6d41\u3002Curated AI & Agent Skills for E-commerce & ",
