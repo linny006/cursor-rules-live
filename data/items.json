@@ -1,11 +1,38 @@
 [
   {
+    "description": "He wrote the codebase twenty years ago. He questions your premise, rejects wrong-file hacks, defends invariants, and fix",
+    "id": "spellsaif/graybeard",
+    "language": "JavaScript",
+    "name": "spellsaif/graybeard",
+    "stars": 1,
+    "updated_at": "2026-08-26T11:27:39Z",
+    "url": "https://github.com/spellsaif/graybeard"
+  },
+  {
+    "description": "Find why Codex instructions or skills are missing: audit AGENTS.md, .agents/skills, Codex Desktop, CLAUDE.md, Copilot, a",
+    "id": "kotobuki09/instructree",
+    "language": "JavaScript",
+    "name": "kotobuki09/instructree",
+    "stars": 0,
+    "updated_at": "2026-08-26T11:27:11Z",
+    "url": "https://github.com/kotobuki09/instructree"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-08-26T11:19:51Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-26T11:12:30Z",
+    "updated_at": "2026-08-26T11:15:33Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -61,33 +88,6 @@
     "stars": 1,
     "updated_at": "2026-08-26T10:32:37Z",
     "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
-  },
-  {
-    "description": "Find why Codex instructions or skills are missing: audit AGENTS.md, .agents/skills, Codex Desktop, CLAUDE.md, Copilot, a",
-    "id": "kotobuki09/instructree",
-    "language": "JavaScript",
-    "name": "kotobuki09/instructree",
-    "stars": 0,
-    "updated_at": "2026-08-26T10:29:32Z",
-    "url": "https://github.com/kotobuki09/instructree"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-08-26T10:24:26Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "He wrote the codebase twenty years ago. He questions your premise, rejects wrong-file hacks, defends invariants, and fix",
-    "id": "spellsaif/graybeard",
-    "language": "JavaScript",
-    "name": "spellsaif/graybeard",
-    "stars": 1,
-    "updated_at": "2026-08-26T10:24:01Z",
-    "url": "https://github.com/spellsaif/graybeard"
   },
   {
     "cursorrules": {
