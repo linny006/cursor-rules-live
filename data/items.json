@@ -5,8 +5,31 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-26T13:15:45Z",
+    "updated_at": "2026-08-26T13:30:43Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 3,
+    "updated_at": "2026-08-26T13:25:31Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: \nglobs: \nalwaysApply: true\n---\n# AI-Rizz Development Practices\n\n## Project Environment\n\n1. **NEVER** test `ai-rizz` commands in the project directory. `ai-rizz` *uses* itself to manage its own rules and you'll break the project configuration. **ALWAY** test `ai-rizz` using the test suites, or in a temporary directory.\n\n## Project-Specific Testing Standards\n\n1. **Test Execution**: Always run tests with `make test` for consistency. Individual test suites can be run directly for debugging only.\n    - all tests: `make test`\n    - single test: `./tests/integration/functions/test_conflict_resolution.test.sh`\n    - single test, verbose: `VERBOSE_TESTS=true ./tests/integration/functions/test_conflict_resolution.test.sh`\n        - there is NO more verbosity than this. You cannot run an individual test. If you have the output of a test suite run like the above, there is NO POINT in trying to run it in other ways. Add verbosity to the test suite, or modify the codebase. Do not keep running the tests and grepping for different things.\n        - **NEVER** waste time doing this: `VERBOSE_TESTS=true ./tests/integration/test_envvar_fallbacks.test.sh | grep -B5 -A5 \"ASSERT.*expected\"`; just read the regular test suite output by running as shown for \"single test, verbose\".\n\n2. **Test Environment Setup**: \n   - Set git user and email in all dummy repositories used for testing\n   - Use `git commit --no-gpg-sign` in test environments\n\n3. **Test Output Management**: \n   - Don't proactively truncate test output without understanding length first\n   - Run tests once to gauge output length before deciding on truncation\n\n## Function Documentation Standards\n\nFor ai-rizz's complex command functions, ensure documentation includes:\n\n1. **Summary Bullet Points**: Long functions like `cmd_init` and `cmd_list` need summary bullet points explaining their primary purpose\n2. **Flag Documentation**: All `cmd_xxx` functions must document which flags they respond to (since they're user-interface functions)\n3. **Return Value Clarity**: Use shell conventions (0/1 for success/failure) not \"TRUE/FALSE\" in documentation\n4. **Complexity Explanation**: When describing complex logic, explain the value provided by the complexity, not just that \"it's complex\"\n\n## User Interface Patterns\n\n1. **Argument Ordering**: Support flexible argument ordering where reasonable (e.g., `ai-rizz add --local rule foo` and `ai-rizz add rule foo --local`)\n\n## Shell Scripting Specifics\n\n1. **Subshell Avoidance**: Avoid subshells when variable scope matters - use temporary files or other patterns instead\n2. **Variable Scope**: Continue using function-specific prefixes for all local variables (already established pattern)\n\n## Error Message Standards\n\n1. **Actionable Errors**: Error messages should include copy-pasteable fix commands when possible. If not possible, they should at least guide the user closer to a resolution.\n2. **Manifest Integrity**: Use the enhanced error format that shows both repositories and provides three clear resolution options\n",
+      "format": "mdc",
+      "path": ".cursor/rules/ai-rizz-development.mdc"
+    },
+    "description": "Zero-dependency POSIX CLI for managing AI rules and rulesets. Pull rules from a source repository and use them committed",
+    "id": "Texarkanine/ai-rizz",
+    "language": "Shell",
+    "name": "Texarkanine/ai-rizz",
+    "stars": 0,
+    "updated_at": "2026-08-26T13:23:51Z",
+    "url": "https://github.com/Texarkanine/ai-rizz"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -41,7 +64,7 @@
     "language": "HTML",
     "name": "edsondviana8/ai-humanizer-core",
     "stars": 1,
-    "updated_at": "2026-08-26T12:30:36Z",
+    "updated_at": "2026-08-26T13:44:56Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
@@ -63,18 +86,9 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39144,
+    "stars": 39145,
     "updated_at": "2026-08-26T12:14:16Z",
     "url": "https://github.com/wshobson/agents"
-  },
-  {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 3,
-    "updated_at": "2026-08-26T13:25:31Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "description": "\ud83c\udfad 267 \u4e2a\u5373\u63d2\u5373\u7528\u7684 AI \u4e13\u5bb6\u89d2\u8272 \u2014 \u652f\u6301 Hermes Agent/Claude Code/Cursor/Copilot \u7b49 18 \u79cd\u5de5\u5177\uff0c\u8986\u76d6\u5de5\u7a0b/\u8bbe\u8ba1/\u8425\u9500/\u91d1\u878d\u7b49 20 \u4e2a\u90e8\u95e8\u3002\u542b 52 \u4e2a\u4e2d\u56fd\u5e02\u573a\u539f\u521b\u667a\u80fd\u4f53\uff08\u5c0f\u7ea2\u4e66/\u6296\u97f3/",
@@ -289,20 +303,6 @@
     "stars": 0,
     "updated_at": "2026-08-25T17:45:49Z",
     "url": "https://github.com/manueldezman/botchain-init-toolkit"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: \nglobs: \nalwaysApply: true\n---\n# AI-Rizz Development Practices\n\n## Project Environment\n\n1. **NEVER** test `ai-rizz` commands in the project directory. `ai-rizz` *uses* itself to manage its own rules and you'll break the project configuration. **ALWAY** test `ai-rizz` using the test suites, or in a temporary directory.\n\n## Project-Specific Testing Standards\n\n1. **Test Execution**: Always run tests with `make test` for consistency. Individual test suites can be run directly for debugging only.\n    - all tests: `make test`\n    - single test: `./tests/integration/functions/test_conflict_resolution.test.sh`\n    - single test, verbose: `VERBOSE_TESTS=true ./tests/integration/functions/test_conflict_resolution.test.sh`\n        - there is NO more verbosity than this. You cannot run an individual test. If you have the output of a test suite run like the above, there is NO POINT in trying to run it in other ways. Add verbosity to the test suite, or modify the codebase. Do not keep running the tests and grepping for different things.\n        - **NEVER** waste time doing this: `VERBOSE_TESTS=true ./tests/integration/test_envvar_fallbacks.test.sh | grep -B5 -A5 \"ASSERT.*expected\"`; just read the regular test suite output by running as shown for \"single test, verbose\".\n\n2. **Test Environment Setup**: \n   - Set git user and email in all dummy repositories used for testing\n   - Use `git commit --no-gpg-sign` in test environments\n\n3. **Test Output Management**: \n   - Don't proactively truncate test output without understanding length first\n   - Run tests once to gauge output length before deciding on truncation\n\n## Function Documentation Standards\n\nFor ai-rizz's complex command functions, ensure documentation includes:\n\n1. **Summary Bullet Points**: Long functions like `cmd_init` and `cmd_list` need summary bullet points explaining their primary purpose\n2. **Flag Documentation**: All `cmd_xxx` functions must document which flags they respond to (since they're user-interface functions)\n3. **Return Value Clarity**: Use shell conventions (0/1 for success/failure) not \"TRUE/FALSE\" in documentation\n4. **Complexity Explanation**: When describing complex logic, explain the value provided by the complexity, not just that \"it's complex\"\n\n## User Interface Patterns\n\n1. **Argument Ordering**: Support flexible argument ordering where reasonable (e.g., `ai-rizz add --local rule foo` and `ai-rizz add rule foo --local`)\n\n## Shell Scripting Specifics\n\n1. **Subshell Avoidance**: Avoid subshells when variable scope matters - use temporary files or other patterns instead\n2. **Variable Scope**: Continue using function-specific prefixes for all local variables (already established pattern)\n\n## Error Message Standards\n\n1. **Actionable Errors**: Error messages should include copy-pasteable fix commands when possible. If not possible, they should at least guide the user closer to a resolution.\n2. **Manifest Integrity**: Use the enhanced error format that shows both repositories and provides three clear resolution options\n",
-      "format": "mdc",
-      "path": ".cursor/rules/ai-rizz-development.mdc"
-    },
-    "description": "Zero-dependency POSIX CLI for managing AI rules and rulesets. Pull rules from a source repository and use them committed",
-    "id": "Texarkanine/ai-rizz",
-    "language": "Shell",
-    "name": "Texarkanine/ai-rizz",
-    "stars": 0,
-    "updated_at": "2026-08-26T13:23:51Z",
-    "url": "https://github.com/Texarkanine/ai-rizz"
   },
   {
     "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
