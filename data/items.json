@@ -1,11 +1,29 @@
 [
   {
+    "description": "Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 18,
+    "updated_at": "2026-08-26T01:19:56Z",
+    "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
+    "description": "Debug Codex AGENTS.md discovery and hidden project-root boundaries; audit skills, CLAUDE.md, Copilot instructions, and i",
+    "id": "kotobuki09/instructree",
+    "language": "JavaScript",
+    "name": "kotobuki09/instructree",
+    "stars": 0,
+    "updated_at": "2026-08-26T01:16:49Z",
+    "url": "https://github.com/kotobuki09/instructree"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-26T01:00:50Z",
+    "updated_at": "2026-08-26T01:15:37Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -25,15 +43,6 @@
     "stars": 0,
     "updated_at": "2026-08-26T00:39:51Z",
     "url": "https://github.com/sublimecoder/sublimecoding"
-  },
-  {
-    "description": "Debug Codex AGENTS.md discovery and hidden project-root boundaries; audit skills, CLAUDE.md, Copilot instructions, and i",
-    "id": "kotobuki09/instructree",
-    "language": "JavaScript",
-    "name": "kotobuki09/instructree",
-    "stars": 0,
-    "updated_at": "2026-08-26T00:02:40Z",
-    "url": "https://github.com/kotobuki09/instructree"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -70,15 +79,6 @@
     "stars": 57,
     "updated_at": "2026-08-25T23:15:20Z",
     "url": "https://github.com/nota-america/forgecat-agent-profiles"
-  },
-  {
-    "description": "Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 18,
-    "updated_at": "2026-08-26T01:13:05Z",
-    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
@@ -354,7 +354,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 19909,
+    "stars": 19911,
     "updated_at": "2026-08-24T14:09:20Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -454,7 +454,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39122,
+    "stars": 39123,
     "updated_at": "2026-08-24T01:08:10Z",
     "url": "https://github.com/wshobson/agents"
   },
