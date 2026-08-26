@@ -5,7 +5,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-26T21:45:31Z",
+    "updated_at": "2026-08-26T22:00:32Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -16,6 +16,15 @@
     "stars": 37,
     "updated_at": "2026-08-26T21:41:40Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+  },
+  {
+    "description": "Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 18,
+    "updated_at": "2026-08-26T21:39:55Z",
+    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -155,7 +164,7 @@
     "language": "Shell",
     "name": "Texarkanine/ai-rizz",
     "stars": 0,
-    "updated_at": "2026-08-26T21:40:54Z",
+    "updated_at": "2026-08-26T22:06:17Z",
     "url": "https://github.com/Texarkanine/ai-rizz"
   },
   {
@@ -186,7 +195,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39160,
+    "stars": 39161,
     "updated_at": "2026-08-26T12:14:16Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -308,15 +317,6 @@
     "stars": 0,
     "updated_at": "2026-08-26T03:32:51Z",
     "url": "https://github.com/johnwall123459885/skene-cookbook"
-  },
-  {
-    "description": "Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 18,
-    "updated_at": "2026-08-26T21:39:55Z",
-    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 plus AIOS, an open-source markdown memory system for coding ",
