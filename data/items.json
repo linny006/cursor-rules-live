@@ -5,8 +5,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-26T12:30:48Z",
+    "updated_at": "2026-08-26T12:45:48Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "30 multi-phase AI coding skills with executable gates \u2014 pure markdown, zero dependencies.",
+    "id": "sungurerdim/dev-skills",
+    "language": "HTML",
+    "name": "sungurerdim/dev-skills",
+    "stars": 1,
+    "updated_at": "2026-08-26T12:40:04Z",
+    "url": "https://github.com/sungurerdim/dev-skills"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -54,7 +63,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 19940,
+    "stars": 19941,
     "updated_at": "2026-08-26T11:46:06Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -489,14 +498,5 @@
     "stars": 0,
     "updated_at": "2026-08-23T17:11:33Z",
     "url": "https://github.com/MCLeut/service-cursor"
-  },
-  {
-    "description": "\ud83d\ude80 Universal Open-Source AI Agent Skills & Rules Library for Antigravity, Cursor, Claude Code, GitHub Copilot, OpenAI Cod",
-    "id": "GktuOktay/ai-skills",
-    "language": "Python",
-    "name": "GktuOktay/ai-skills",
-    "stars": 1,
-    "updated_at": "2026-08-23T16:34:50Z",
-    "url": "https://github.com/GktuOktay/ai-skills"
   }
 ]
