@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-08-27 20:30 UTC
+> ⏰ Last updated: 2026-08-27 20:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,19 +53,19 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 2 | HTML | 2026-08-27 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 2 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-08-27 | — | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
-| 3 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-08-27 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
-| 4 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-08-27 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
-| 5 | [vibestackdev/vibe-stack](https://github.com/vibestackdev/vibe-stack) | 7 | TypeScript | 2026-08-27 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/) | 29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b |
-| 6 | [Max-Samson/knowme-careerforge-skill](https://github.com/Max-Samson/knowme-careerforge-skill) | 0 | Python | 2026-08-27 | — | Know Yourself. Define Your Direction. Forge Your Opportunity.An agent-native skill for self-discovery, career positionin |
-| 7 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 37 | — | 2026-08-27 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
-| 8 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 17 | Shell | 2026-08-27 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
-| 9 | [XAKLESK/cre-agent-skills](https://github.com/XAKLESK/cre-agent-skills) | 6 | — | 2026-08-27 | — | Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc |
-| 10 | [Amirun99/agency-orchestrator](https://github.com/Amirun99/agency-orchestrator) | 0 | Dart | 2026-08-27 | — | Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support. |
-| 11 | [zinxj/uikit-expert-skill](https://github.com/zinxj/uikit-expert-skill) | 4 | — | 2026-08-27 | — | Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan |
-| 12 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-08-27 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
-| 13 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-08-27 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
+| 1 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-08-27 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
+| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 2 | HTML | 2026-08-27 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 3 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-08-27 | — | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
+| 4 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-08-27 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
+| 5 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-08-27 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
+| 6 | [vibestackdev/vibe-stack](https://github.com/vibestackdev/vibe-stack) | 7 | TypeScript | 2026-08-27 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/) | 29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b |
+| 7 | [Max-Samson/knowme-careerforge-skill](https://github.com/Max-Samson/knowme-careerforge-skill) | 0 | Python | 2026-08-27 | — | Know Yourself. Define Your Direction. Forge Your Opportunity.An agent-native skill for self-discovery, career positionin |
+| 8 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 37 | — | 2026-08-27 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
+| 9 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 17 | Shell | 2026-08-27 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
+| 10 | [XAKLESK/cre-agent-skills](https://github.com/XAKLESK/cre-agent-skills) | 6 | — | 2026-08-27 | — | Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc |
+| 11 | [Amirun99/agency-orchestrator](https://github.com/Amirun99/agency-orchestrator) | 0 | Dart | 2026-08-27 | — | Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support. |
+| 12 | [zinxj/uikit-expert-skill](https://github.com/zinxj/uikit-expert-skill) | 4 | — | 2026-08-27 | — | Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan |
+| 13 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-08-27 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
 | 14 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 19 | Python | 2026-08-27 | — | Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align |
 | 15 | [lucas-winter-berlin/Agent-Engineer-Skills](https://github.com/lucas-winter-berlin/Agent-Engineer-Skills) | 0 | PowerShell | 2026-08-27 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/lucas-winter-berlin/Agent-Engineer-Skills/) | Agent skills for building features and MVPs. Spec, build, review, test - one named job at a time. |
 | 16 | [akashsebastian333/peephole](https://github.com/akashsebastian333/peephole) | 4 | Go | 2026-08-27 | — | Security enforcement for AI coding agents. Catch and block insecure code. |
@@ -78,7 +78,7 @@ expired items removed — so you can rely on what you see being current.
 | 23 | [powersync-ja/agent-skills](https://github.com/powersync-ja/agent-skills) | 18 | JavaScript | 2026-08-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/powersync-ja/agent-skills/) | Official agent skills for PowerSync |
 | 24 | [sungurerdim/dev-skills](https://github.com/sungurerdim/dev-skills) | 1 | HTML | 2026-08-26 | — | 30 multi-phase AI coding skills with executable gates — pure markdown, zero dependencies. |
 | 25 | [kotobuki09/instructree](https://github.com/kotobuki09/instructree) | 0 | JavaScript | 2026-08-26 | — | Find why Codex instructions or skills are missing: audit AGENTS.md, .agents/skills, Codex Desktop, CLAUDE.md, Copilot, a |
-| 26 | [wshobson/agents](https://github.com/wshobson/agents) | 39196 | Python | 2026-08-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, and Google Antigravit |
+| 26 | [wshobson/agents](https://github.com/wshobson/agents) | 39197 | Python | 2026-08-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, and Google Antigravit |
 | 27 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 20012 | Shell | 2026-08-26 | — | 🎭 267 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 52 个中国市场原创智能体（小红书/抖音/ |
 | 28 | [spellsaif/graybeard](https://github.com/spellsaif/graybeard) | 1 | JavaScript | 2026-08-26 | — | He wrote the codebase twenty years ago. He questions your premise, rejects wrong-file hacks, defends invariants, and fix |
 | 29 | [xiaoSRJ/ai-skills](https://github.com/xiaoSRJ/ai-skills) | 0 | — | 2026-08-26 | — | 專為出海營銷、電商選品與社媒營運打造的 AI Skills / MCP 精選導航。拒絕花裏胡哨，只收錄真正能解決業務痛點、開箱即用的 AI 自動化工作流。Curated AI & Agent Skills for E-commerce &  |
