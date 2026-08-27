@@ -1,21 +1,21 @@
 [
   {
-    "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
-    "id": "mikeprasad/aria-knowledge",
-    "language": "Shell",
-    "name": "mikeprasad/aria-knowledge",
-    "stars": 16,
-    "updated_at": "2026-08-27T14:34:02Z",
-    "url": "https://github.com/mikeprasad/aria-knowledge"
-  },
-  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-27T14:30:47Z",
+    "updated_at": "2026-08-27T14:45:37Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
+    "id": "mikeprasad/aria-knowledge",
+    "language": "Shell",
+    "name": "mikeprasad/aria-knowledge",
+    "stars": 16,
+    "updated_at": "2026-08-27T14:58:19Z",
+    "url": "https://github.com/mikeprasad/aria-knowledge"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -218,7 +218,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 20006,
+    "stars": 20007,
     "updated_at": "2026-08-26T11:46:06Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
