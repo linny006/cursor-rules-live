@@ -1,12 +1,30 @@
 [
   {
+    "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
+    "id": "mikeprasad/aria-knowledge",
+    "language": "Shell",
+    "name": "mikeprasad/aria-knowledge",
+    "stars": 16,
+    "updated_at": "2026-08-27T15:32:04Z",
+    "url": "https://github.com/mikeprasad/aria-knowledge"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-27T15:15:43Z",
+    "updated_at": "2026-08-27T15:30:42Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
+    "id": "XAKLESK/cre-agent-skills",
+    "language": "\u2014",
+    "name": "XAKLESK/cre-agent-skills",
+    "stars": 6,
+    "updated_at": "2026-08-27T15:09:29Z",
+    "url": "https://github.com/XAKLESK/cre-agent-skills"
   },
   {
     "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
@@ -25,15 +43,6 @@
     "stars": 4,
     "updated_at": "2026-08-27T15:01:16Z",
     "url": "https://github.com/zinxj/uikit-expert-skill"
-  },
-  {
-    "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
-    "id": "mikeprasad/aria-knowledge",
-    "language": "Shell",
-    "name": "mikeprasad/aria-knowledge",
-    "stars": 16,
-    "updated_at": "2026-08-27T15:29:07Z",
-    "url": "https://github.com/mikeprasad/aria-knowledge"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -236,7 +245,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 20007,
+    "stars": 20008,
     "updated_at": "2026-08-26T11:46:06Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -407,15 +416,6 @@
     "stars": 2,
     "updated_at": "2026-08-25T09:11:24Z",
     "url": "https://github.com/softwareasg-tools/information-security-for-vibecoded-apps"
-  },
-  {
-    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
-    "id": "XAKLESK/cre-agent-skills",
-    "language": "\u2014",
-    "name": "XAKLESK/cre-agent-skills",
-    "stars": 6,
-    "updated_at": "2026-08-27T15:09:29Z",
-    "url": "https://github.com/XAKLESK/cre-agent-skills"
   },
   {
     "cursorrules": {
