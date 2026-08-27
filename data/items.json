@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 2,
+    "updated_at": "2026-08-27T15:45:44Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
     "id": "mikeprasad/aria-knowledge",
     "language": "Shell",
@@ -7,15 +16,6 @@
     "stars": 16,
     "updated_at": "2026-08-27T15:32:04Z",
     "url": "https://github.com/mikeprasad/aria-knowledge"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 2,
-    "updated_at": "2026-08-27T15:30:42Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
@@ -236,7 +236,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39187,
+    "stars": 39188,
     "updated_at": "2026-08-26T12:14:16Z",
     "url": "https://github.com/wshobson/agents"
   },
