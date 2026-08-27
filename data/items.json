@@ -1,11 +1,20 @@
 [
   {
+    "description": "Know Yourself. Define Your Direction. Forge Your Opportunity.An agent-native skill for self-discovery, career positionin",
+    "id": "Max-Samson/knowme-careerforge-skill",
+    "language": "HTML",
+    "name": "Max-Samson/knowme-careerforge-skill",
+    "stars": 0,
+    "updated_at": "2026-08-27T16:46:30Z",
+    "url": "https://github.com/Max-Samson/knowme-careerforge-skill"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-27T16:30:49Z",
+    "updated_at": "2026-08-27T16:45:52Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -200,15 +209,6 @@
     "url": "https://github.com/powersync-ja/agent-skills"
   },
   {
-    "description": "Know Yourself. Define Your Direction. Forge Your Opportunity.An agent-native skill for self-discovery, career positionin",
-    "id": "Max-Samson/knowme-careerforge-skill",
-    "language": "HTML",
-    "name": "Max-Samson/knowme-careerforge-skill",
-    "stars": 0,
-    "updated_at": "2026-08-26T16:34:49Z",
-    "url": "https://github.com/Max-Samson/knowme-careerforge-skill"
-  },
-  {
     "description": "30 multi-phase AI coding skills with executable gates \u2014 pure markdown, zero dependencies.",
     "id": "sungurerdim/dev-skills",
     "language": "HTML",
@@ -245,7 +245,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 20009,
+    "stars": 20010,
     "updated_at": "2026-08-26T11:46:06Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
