@@ -5,8 +5,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-27T09:00:45Z",
+    "updated_at": "2026-08-27T09:15:43Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 18,
+    "updated_at": "2026-08-27T09:14:45Z",
+    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
@@ -132,15 +141,6 @@
     "url": "https://github.com/Texarkanine/ai-rizz"
   },
   {
-    "description": "Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 18,
-    "updated_at": "2026-08-27T09:14:45Z",
-    "url": "https://github.com/MnemeHQ/mneme"
-  },
-  {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
     "id": "J-nowcow/awesome-korean-agent-skills",
     "language": "\u2014",
@@ -209,7 +209,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39178,
+    "stars": 39179,
     "updated_at": "2026-08-26T12:14:16Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -218,7 +218,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 19983,
+    "stars": 19984,
     "updated_at": "2026-08-26T11:46:06Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
