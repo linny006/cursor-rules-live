@@ -1,12 +1,30 @@
 [
   {
-    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
-    "id": "zinxj/uikit-expert-skill",
+    "description": "Cursor harness pack: user rules, skills, Bash hooks, local HANDOFF memory. macOS, Linux, Windows (WSL).",
+    "id": "kleosr/kleosrules",
+    "language": "Shell",
+    "name": "kleosr/kleosrules",
+    "stars": 2,
+    "updated_at": "2026-08-27T22:07:08Z",
+    "url": "https://github.com/kleosr/kleosrules"
+  },
+  {
+    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
+    "id": "XAKLESK/cre-agent-skills",
     "language": "\u2014",
-    "name": "zinxj/uikit-expert-skill",
-    "stars": 4,
-    "updated_at": "2026-08-27T21:58:37Z",
-    "url": "https://github.com/zinxj/uikit-expert-skill"
+    "name": "XAKLESK/cre-agent-skills",
+    "stars": 6,
+    "updated_at": "2026-08-27T22:06:18Z",
+    "url": "https://github.com/XAKLESK/cre-agent-skills"
+  },
+  {
+    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
+    "id": "Amirun99/agency-orchestrator",
+    "language": "Dart",
+    "name": "Amirun99/agency-orchestrator",
+    "stars": 0,
+    "updated_at": "2026-08-27T22:04:13Z",
+    "url": "https://github.com/Amirun99/agency-orchestrator"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +32,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-27T21:45:46Z",
+    "updated_at": "2026-08-27T22:00:35Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
+    "id": "zinxj/uikit-expert-skill",
+    "language": "\u2014",
+    "name": "zinxj/uikit-expert-skill",
+    "stars": 4,
+    "updated_at": "2026-08-27T21:58:37Z",
+    "url": "https://github.com/zinxj/uikit-expert-skill"
   },
   {
     "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 plus AIOS, an open-source markdown memory system for coding ",
@@ -104,24 +131,6 @@
     "url": "https://github.com/mikeprasad/aria-knowledge"
   },
   {
-    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
-    "id": "XAKLESK/cre-agent-skills",
-    "language": "\u2014",
-    "name": "XAKLESK/cre-agent-skills",
-    "stars": 6,
-    "updated_at": "2026-08-27T15:09:29Z",
-    "url": "https://github.com/XAKLESK/cre-agent-skills"
-  },
-  {
-    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
-    "id": "Amirun99/agency-orchestrator",
-    "language": "Dart",
-    "name": "Amirun99/agency-orchestrator",
-    "stars": 0,
-    "updated_at": "2026-08-27T15:07:08Z",
-    "url": "https://github.com/Amirun99/agency-orchestrator"
-  },
-  {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
     "id": "edsondviana8/ai-humanizer-core",
     "language": "HTML",
@@ -161,15 +170,6 @@
     "stars": 4,
     "updated_at": "2026-08-27T07:18:23Z",
     "url": "https://github.com/akashsebastian333/peephole"
-  },
-  {
-    "description": "Cursor harness pack: user rules, skills, Bash hooks, local HANDOFF memory. macOS, Linux, Windows (WSL).",
-    "id": "kleosr/kleosrules",
-    "language": "Shell",
-    "name": "kleosr/kleosrules",
-    "stars": 2,
-    "updated_at": "2026-08-27T21:59:11Z",
-    "url": "https://github.com/kleosr/kleosrules"
   },
   {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
