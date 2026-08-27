@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-08-27 16:15 UTC
+> ⏰ Last updated: 2026-08-27 16:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -54,7 +54,7 @@ expired items removed — so you can rely on what you see being current.
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
 | 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 2 | HTML | 2026-08-27 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 2 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 16 | Shell | 2026-08-27 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
+| 2 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 17 | Shell | 2026-08-27 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
 | 3 | [XAKLESK/cre-agent-skills](https://github.com/XAKLESK/cre-agent-skills) | 6 | — | 2026-08-27 | — | Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc |
 | 4 | [Amirun99/agency-orchestrator](https://github.com/Amirun99/agency-orchestrator) | 0 | Dart | 2026-08-27 | — | Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support. |
 | 5 | [zinxj/uikit-expert-skill](https://github.com/zinxj/uikit-expert-skill) | 4 | — | 2026-08-27 | — | Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan |
@@ -70,7 +70,7 @@ expired items removed — so you can rely on what you see being current.
 | 15 | [Overseastelegramaliterateperson865/awesome-claude-md](https://github.com/Overseastelegramaliterateperson865/awesome-claude-md) | 1 | — | 2026-08-27 | — | Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr |
 | 16 | [Luxvil/ai-coding-rules](https://github.com/Luxvil/ai-coding-rules) | 3 | Shell | 2026-08-27 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Luxvil/ai-coding-rules/) | 🤖 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje |
 | 17 | [Texarkanine/ai-rizz](https://github.com/Texarkanine/ai-rizz) | 0 | Shell | 2026-08-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Texarkanine/ai-rizz/) | Zero-dependency POSIX CLI for managing AI rules and rulesets. Pull rules from a source repository and use them committed |
-| 18 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 37 | — | 2026-08-26 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
+| 18 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 37 | — | 2026-08-27 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
 | 19 | [tmolavi/mcp-agent-skills-hub](https://github.com/tmolavi/mcp-agent-skills-hub) | 8 | JavaScript | 2026-08-26 | — | Molavi Agent Skills: Curated AI agent skills and MCP configs for Antigravity, Cursor, Codex & Claude — by Taghi Molavi |
 | 20 | [powersync-ja/agent-skills](https://github.com/powersync-ja/agent-skills) | 18 | JavaScript | 2026-08-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/powersync-ja/agent-skills/) | Official agent skills for PowerSync |
 | 21 | [Max-Samson/knowme-careerforge-skill](https://github.com/Max-Samson/knowme-careerforge-skill) | 0 | HTML | 2026-08-26 | — | Know Yourself. Define Your Direction. Forge Your Opportunity.An agent-native skill for self-discovery, career positionin |
