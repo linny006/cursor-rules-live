@@ -1,11 +1,20 @@
 [
   {
+    "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
+    "id": "philipbankier/awesome-agent-skills",
+    "language": "TypeScript",
+    "name": "philipbankier/awesome-agent-skills",
+    "stars": 17,
+    "updated_at": "2026-08-27T22:52:05Z",
+    "url": "https://github.com/philipbankier/awesome-agent-skills"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-27T22:30:52Z",
+    "updated_at": "2026-08-27T22:45:49Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -494,14 +503,5 @@
     "stars": 6,
     "updated_at": "2026-08-24T16:03:34Z",
     "url": "https://github.com/sayeed1999/agent-skills"
-  },
-  {
-    "description": "Homebrew tap for LynxPrompt CLI",
-    "id": "GeiserX/homebrew-lynxprompt",
-    "language": "Ruby",
-    "name": "GeiserX/homebrew-lynxprompt",
-    "stars": 2,
-    "updated_at": "2026-08-24T11:47:10Z",
-    "url": "https://github.com/GeiserX/homebrew-lynxprompt"
   }
 ]
