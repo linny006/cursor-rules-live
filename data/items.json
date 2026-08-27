@@ -1,21 +1,21 @@
 [
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 2,
-    "updated_at": "2026-08-27T06:45:41Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Security enforcement for AI coding agents. Catch and block insecure code.",
     "id": "akashsebastian333/peephole",
     "language": "Go",
     "name": "akashsebastian333/peephole",
     "stars": 4,
-    "updated_at": "2026-08-27T06:54:53Z",
+    "updated_at": "2026-08-27T07:01:47Z",
     "url": "https://github.com/akashsebastian333/peephole"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 2,
+    "updated_at": "2026-08-27T07:00:49Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Cursor harness pack: user rules, skills, Bash hooks, local HANDOFF memory. macOS, Linux, Windows (WSL).",
@@ -195,7 +195,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39173,
+    "stars": 39175,
     "updated_at": "2026-08-26T12:14:16Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -204,7 +204,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 19976,
+    "stars": 19979,
     "updated_at": "2026-08-26T11:46:06Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -477,7 +477,7 @@
     "id": "KbWen/agentic-os",
     "language": "Python",
     "name": "KbWen/agentic-os",
-    "stars": 146,
+    "stars": 147,
     "updated_at": "2026-08-24T16:08:48Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
