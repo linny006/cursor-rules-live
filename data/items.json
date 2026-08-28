@@ -1,11 +1,20 @@
 [
   {
+    "description": "Production-ready AI agent profiles for Claude Code, Cursor, Codex, OpenClaw, and Hermes. Search, install, and contribute",
+    "id": "nota-america/forgecat-agent-profiles",
+    "language": "TypeScript",
+    "name": "nota-america/forgecat-agent-profiles",
+    "stars": 58,
+    "updated_at": "2026-08-28T07:23:58Z",
+    "url": "https://github.com/nota-america/forgecat-agent-profiles"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-28T07:00:40Z",
+    "updated_at": "2026-08-28T07:15:46Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -343,15 +352,6 @@
     "stars": 0,
     "updated_at": "2026-08-26T10:50:33Z",
     "url": "https://github.com/xiaoSRJ/ai-skills"
-  },
-  {
-    "description": "Production-ready AI agent profiles for Claude Code, Cursor, Codex, OpenClaw, and Hermes. Search, install, and contribute",
-    "id": "nota-america/forgecat-agent-profiles",
-    "language": "TypeScript",
-    "name": "nota-america/forgecat-agent-profiles",
-    "stars": 58,
-    "updated_at": "2026-08-28T07:07:16Z",
-    "url": "https://github.com/nota-america/forgecat-agent-profiles"
   },
   {
     "cursorrules": {
