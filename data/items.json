@@ -1,11 +1,20 @@
 [
   {
+    "description": "An autonomous Application Security (AppSec) prompt and skill module for AI coding assistants (Antigravity, Cursor, Copil",
+    "id": "softwareasg-tools/information-security-for-vibecoded-apps",
+    "language": "\u2014",
+    "name": "softwareasg-tools/information-security-for-vibecoded-apps",
+    "stars": 2,
+    "updated_at": "2026-08-28T01:30:08Z",
+    "url": "https://github.com/softwareasg-tools/information-security-for-vibecoded-apps"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-28T01:00:45Z",
+    "updated_at": "2026-08-28T01:15:36Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -304,7 +313,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 20014,
+    "stars": 20015,
     "updated_at": "2026-08-26T11:46:06Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -434,15 +443,6 @@
     "stars": 2,
     "updated_at": "2026-08-25T11:17:40Z",
     "url": "https://github.com/GeiserX/lynxprompt-vscode"
-  },
-  {
-    "description": "An autonomous Application Security (AppSec) prompt and skill module for AI coding assistants (Antigravity, Cursor, Copil",
-    "id": "softwareasg-tools/information-security-for-vibecoded-apps",
-    "language": "\u2014",
-    "name": "softwareasg-tools/information-security-for-vibecoded-apps",
-    "stars": 2,
-    "updated_at": "2026-08-25T09:11:24Z",
-    "url": "https://github.com/softwareasg-tools/information-security-for-vibecoded-apps"
   },
   {
     "cursorrules": {
