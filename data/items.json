@@ -5,7 +5,7 @@
     "language": "Python",
     "name": "eugeniughelbur/clearmode",
     "stars": 0,
-    "updated_at": "2026-08-28T16:23:12Z",
+    "updated_at": "2026-08-28T16:44:40Z",
     "url": "https://github.com/eugeniughelbur/clearmode"
   },
   {
@@ -14,7 +14,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-28T16:15:43Z",
+    "updated_at": "2026-08-28T16:30:35Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -349,7 +349,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39220,
+    "stars": 39222,
     "updated_at": "2026-08-26T12:14:16Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -478,12 +478,12 @@
       "path": ".cursor/rules/base.mdc"
     },
     "description": "Opinionated, cross-agent rules and skills for AI coding agents \u2014 one npx install into Cursor, Claude Code, Codex, OpenCo",
-    "id": "balacodeio/balakit",
+    "id": "afaraha8403/balakit",
     "language": "JavaScript",
-    "name": "balacodeio/balakit",
+    "name": "afaraha8403/balakit",
     "stars": 0,
     "updated_at": "2026-08-25T03:36:58Z",
-    "url": "https://github.com/balacodeio/balakit"
+    "url": "https://github.com/afaraha8403/balakit"
   },
   {
     "cursorrules": {
