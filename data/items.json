@@ -1,12 +1,12 @@
 [
   {
-    "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
-    "id": "philipbankier/awesome-agent-skills",
-    "language": "TypeScript",
-    "name": "philipbankier/awesome-agent-skills",
-    "stars": 17,
-    "updated_at": "2026-08-28T21:49:26Z",
-    "url": "https://github.com/philipbankier/awesome-agent-skills"
+    "description": "An anti-AI-slop writing standard and checker for AI-drafted text. Scores any document 0-100 against 43 rules on four axe",
+    "id": "eugeniughelbur/clearmode",
+    "language": "Python",
+    "name": "eugeniughelbur/clearmode",
+    "stars": 1,
+    "updated_at": "2026-08-28T22:14:21Z",
+    "url": "https://github.com/eugeniughelbur/clearmode"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-28T21:45:40Z",
+    "updated_at": "2026-08-28T22:00:32Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
+    "id": "philipbankier/awesome-agent-skills",
+    "language": "TypeScript",
+    "name": "philipbankier/awesome-agent-skills",
+    "stars": 17,
+    "updated_at": "2026-08-28T21:49:26Z",
+    "url": "https://github.com/philipbankier/awesome-agent-skills"
   },
   {
     "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
@@ -43,15 +52,6 @@
     "stars": 1,
     "updated_at": "2026-08-28T20:29:23Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "An anti-AI-slop writing standard and checker for AI-drafted text. Scores any document 0-100 against 43 rules on four axe",
-    "id": "eugeniughelbur/clearmode",
-    "language": "Python",
-    "name": "eugeniughelbur/clearmode",
-    "stars": 1,
-    "updated_at": "2026-08-28T19:57:40Z",
-    "url": "https://github.com/eugeniughelbur/clearmode"
   },
   {
     "cursorrules": {
