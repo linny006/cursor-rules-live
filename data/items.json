@@ -1,12 +1,12 @@
 [
   {
-    "description": "Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 19,
-    "updated_at": "2026-08-28T20:34:09Z",
-    "url": "https://github.com/MnemeHQ/mneme"
+    "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
+    "id": "agenticstandardcontact-byte/agentic-architect",
+    "language": "HTML",
+    "name": "agenticstandardcontact-byte/agentic-architect",
+    "stars": 0,
+    "updated_at": "2026-08-28T20:50:06Z",
+    "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-28T20:30:57Z",
+    "updated_at": "2026-08-28T20:46:43Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 19,
+    "updated_at": "2026-08-28T20:34:09Z",
+    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -136,7 +145,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 20047,
+    "stars": 20046,
     "updated_at": "2026-08-28T13:12:36Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -247,15 +256,6 @@
     "stars": 0,
     "updated_at": "2026-08-27T21:25:32Z",
     "url": "https://github.com/sublimecoder/sublimecoding"
-  },
-  {
-    "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
-    "id": "agenticstandardcontact-byte/agentic-architect",
-    "language": "HTML",
-    "name": "agenticstandardcontact-byte/agentic-architect",
-    "stars": 0,
-    "updated_at": "2026-08-27T19:50:13Z",
-    "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
   },
   {
     "description": "Know Yourself. Define Your Direction. Forge Your Opportunity.An agent-native skill for self-discovery, career positionin",
@@ -395,7 +395,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39227,
+    "stars": 39228,
     "updated_at": "2026-08-26T12:14:16Z",
     "url": "https://github.com/wshobson/agents"
   },
