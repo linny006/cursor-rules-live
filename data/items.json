@@ -1,11 +1,20 @@
 [
   {
+    "description": "An anti-AI-slop writing standard and checker for AI-drafted text. Scores any document 0-100 against 43 rules on four axe",
+    "id": "eugeniughelbur/clearmode",
+    "language": "Python",
+    "name": "eugeniughelbur/clearmode",
+    "stars": 0,
+    "updated_at": "2026-08-28T16:23:12Z",
+    "url": "https://github.com/eugeniughelbur/clearmode"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-28T16:00:43Z",
+    "updated_at": "2026-08-28T16:15:43Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -13,7 +22,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 20042,
+    "stars": 20043,
     "updated_at": "2026-08-28T13:12:36Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -489,14 +498,5 @@
     "stars": 0,
     "updated_at": "2026-08-25T01:54:00Z",
     "url": "https://github.com/PiloTracer/pilo.ai.logicbison"
-  },
-  {
-    "description": "Point your AI coding agent at this repo and it installs a personalized ruleset for reproducible, analysis-first data sci",
-    "id": "NCEAS-AI/Coding-Agent-Rules-for-Data-Science",
-    "language": "\u2014",
-    "name": "NCEAS-AI/Coding-Agent-Rules-for-Data-Science",
-    "stars": 3,
-    "updated_at": "2026-08-24T23:59:47Z",
-    "url": "https://github.com/NCEAS-AI/Coding-Agent-Rules-for-Data-Science"
   }
 ]
