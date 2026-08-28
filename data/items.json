@@ -2,10 +2,10 @@
   {
     "description": "An autonomous Application Security (AppSec) prompt and skill module for AI coding assistants (Antigravity, Cursor, Copil",
     "id": "softwareasg-tools/information-security-for-vibecoded-apps",
-    "language": "\u2014",
+    "language": "Python",
     "name": "softwareasg-tools/information-security-for-vibecoded-apps",
     "stars": 2,
-    "updated_at": "2026-08-28T01:30:08Z",
+    "updated_at": "2026-08-28T01:33:37Z",
     "url": "https://github.com/softwareasg-tools/information-security-for-vibecoded-apps"
   },
   {
@@ -14,7 +14,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-28T01:15:36Z",
+    "updated_at": "2026-08-28T01:30:36Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -313,7 +313,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 20015,
+    "stars": 20016,
     "updated_at": "2026-08-26T11:46:06Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
