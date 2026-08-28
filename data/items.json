@@ -1,11 +1,20 @@
 [
   {
+    "description": "Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 19,
+    "updated_at": "2026-08-28T23:12:42Z",
+    "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-28T22:45:56Z",
+    "updated_at": "2026-08-28T23:00:32Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -48,15 +57,6 @@
     "stars": 0,
     "updated_at": "2026-08-28T20:50:06Z",
     "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
-  },
-  {
-    "description": "Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 19,
-    "updated_at": "2026-08-28T22:55:35Z",
-    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
