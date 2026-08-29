@@ -1,11 +1,29 @@
 [
   {
+    "description": "An anti-AI-slop writing standard and checker for AI-drafted text. Scores any document 0-100 against 43 rules on four axe",
+    "id": "eugeniughelbur/clearmode",
+    "language": "Python",
+    "name": "eugeniughelbur/clearmode",
+    "stars": 1,
+    "updated_at": "2026-08-29T10:25:12Z",
+    "url": "https://github.com/eugeniughelbur/clearmode"
+  },
+  {
+    "description": "Token-efficient anomaly detection and assumption verification skill for AI coding agents.",
+    "id": "IyedNasra/skeptic",
+    "language": "\u2014",
+    "name": "IyedNasra/skeptic",
+    "stars": 1,
+    "updated_at": "2026-08-29T10:23:53Z",
+    "url": "https://github.com/IyedNasra/skeptic"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-29T10:06:52Z",
+    "updated_at": "2026-08-29T10:15:52Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -34,15 +52,6 @@
     "stars": 0,
     "updated_at": "2026-08-29T08:51:02Z",
     "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Token-efficient anomaly detection and assumption verification skill for AI coding agents.",
-    "id": "IyedNasra/skeptic",
-    "language": "\u2014",
-    "name": "IyedNasra/skeptic",
-    "stars": 1,
-    "updated_at": "2026-08-29T08:48:27Z",
-    "url": "https://github.com/IyedNasra/skeptic"
   },
   {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
@@ -152,15 +161,6 @@
     "stars": 9,
     "updated_at": "2026-08-28T22:40:01Z",
     "url": "https://github.com/kensaurus/cursor-kenji"
-  },
-  {
-    "description": "An anti-AI-slop writing standard and checker for AI-drafted text. Scores any document 0-100 against 43 rules on four axe",
-    "id": "eugeniughelbur/clearmode",
-    "language": "Python",
-    "name": "eugeniughelbur/clearmode",
-    "stars": 1,
-    "updated_at": "2026-08-28T22:27:40Z",
-    "url": "https://github.com/eugeniughelbur/clearmode"
   },
   {
     "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
