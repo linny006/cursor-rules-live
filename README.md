@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-08-29 00:30 UTC
+> ⏰ Last updated: 2026-08-29 00:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,10 +53,10 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-08-29 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
-| 2 | [Bastioned-successor320/learn-nanobot](https://github.com/Bastioned-successor320/learn-nanobot) | 9 | Python | 2026-08-29 | — | Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers |
-| 3 | [IyedNasra/skeptic](https://github.com/IyedNasra/skeptic) | 1 | — | 2026-08-29 | — | Token-efficient anomaly detection and assumption verification skill for AI coding agents. |
-| 4 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 2 | HTML | 2026-08-29 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 2 | HTML | 2026-08-29 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-08-29 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
+| 3 | [Bastioned-successor320/learn-nanobot](https://github.com/Bastioned-successor320/learn-nanobot) | 9 | Python | 2026-08-29 | — | Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers |
+| 4 | [IyedNasra/skeptic](https://github.com/IyedNasra/skeptic) | 1 | — | 2026-08-29 | — | Token-efficient anomaly detection and assumption verification skill for AI coding agents. |
 | 5 | [johnwall123459885/skene-cookbook](https://github.com/johnwall123459885/skene-cookbook) | 0 | Python | 2026-08-29 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/johnwall123459885/skene-cookbook/) | 🤖 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development. |
 | 6 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 37 | — | 2026-08-28 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
 | 7 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 19 | Python | 2026-08-28 | — | Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align |
