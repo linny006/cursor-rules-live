@@ -5,8 +5,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-29T06:00:31Z",
+    "updated_at": "2026-08-29T06:15:33Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Agent skill , turn projects into beautiful dark-themed architecture diagrams, Interactive, verifiable & editable , as se",
+    "id": "lewes2/archpresent",
+    "language": "HTML",
+    "name": "lewes2/archpresent",
+    "stars": 1,
+    "updated_at": "2026-08-29T06:15:12Z",
+    "url": "https://github.com/lewes2/archpresent"
   },
   {
     "description": "Production-ready AI agent profiles for Claude Code, Cursor, Codex, OpenClaw, and Hermes. Search, install, and contribute",
@@ -436,7 +445,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39233,
+    "stars": 39234,
     "updated_at": "2026-08-26T12:14:16Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -489,14 +498,5 @@
     "stars": 1,
     "updated_at": "2026-08-25T20:53:24Z",
     "url": "https://github.com/arcjet/arcjet-plugin"
-  },
-  {
-    "description": "openEHR assistant AI plugin suite with Skills, commands, and MCP server configuration for clinical workflow integration",
-    "id": "Cadasto/openehr-assistant-plugin",
-    "language": "Python",
-    "name": "Cadasto/openehr-assistant-plugin",
-    "stars": 3,
-    "updated_at": "2026-08-25T20:42:51Z",
-    "url": "https://github.com/Cadasto/openehr-assistant-plugin"
   }
 ]
