@@ -1,20 +1,11 @@
 [
   {
-    "description": "Persian (Farsi) technical writing rules for AI agents \u2014 controlled language adapted from ASD-STE100. Claude Skill + Curs",
-    "id": "onlymaj/simplified-technical-persian",
-    "language": "\u2014",
-    "name": "onlymaj/simplified-technical-persian",
-    "stars": 0,
-    "updated_at": "2026-08-29T10:01:22Z",
-    "url": "https://github.com/onlymaj/simplified-technical-persian"
-  },
-  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-29T10:00:41Z",
+    "updated_at": "2026-08-29T10:06:52Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -454,7 +445,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39239,
+    "stars": 39240,
     "updated_at": "2026-08-26T12:14:16Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -498,5 +489,14 @@
     "stars": 33,
     "updated_at": "2026-08-25T21:17:24Z",
     "url": "https://github.com/fluttersdk/wind"
+  },
+  {
+    "description": "This plugin makes your AI coding agent an Arcjet security expert.",
+    "id": "arcjet/arcjet-plugin",
+    "language": "Shell",
+    "name": "arcjet/arcjet-plugin",
+    "stars": 1,
+    "updated_at": "2026-08-25T20:53:24Z",
+    "url": "https://github.com/arcjet/arcjet-plugin"
   }
 ]
