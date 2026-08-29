@@ -1,12 +1,12 @@
 [
   {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 37,
-    "updated_at": "2026-08-29T12:12:46Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+    "description": "An anti-AI-slop writing standard and checker for AI-drafted text. Scores any document 0-100 against 43 rules on four axe",
+    "id": "eugeniughelbur/clearmode",
+    "language": "Python",
+    "name": "eugeniughelbur/clearmode",
+    "stars": 1,
+    "updated_at": "2026-08-29T12:30:10Z",
+    "url": "https://github.com/eugeniughelbur/clearmode"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-29T12:00:42Z",
+    "updated_at": "2026-08-29T12:15:43Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 37,
+    "updated_at": "2026-08-29T12:12:46Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "description": "Persian (Farsi) technical writing rules for AI agents - controlled language adapted from ASD-STE100. Claude Skill + Curs",
@@ -34,15 +43,6 @@
     "stars": 1,
     "updated_at": "2026-08-29T10:41:11Z",
     "url": "https://github.com/GktuOktay/ai-skills"
-  },
-  {
-    "description": "An anti-AI-slop writing standard and checker for AI-drafted text. Scores any document 0-100 against 43 rules on four axe",
-    "id": "eugeniughelbur/clearmode",
-    "language": "Python",
-    "name": "eugeniughelbur/clearmode",
-    "stars": 1,
-    "updated_at": "2026-08-29T10:31:35Z",
-    "url": "https://github.com/eugeniughelbur/clearmode"
   },
   {
     "description": "Token-efficient anomaly detection and assumption verification skill for AI coding agents.",

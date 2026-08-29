@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-08-29 12:15 UTC
+> ⏰ Last updated: 2026-08-29 12:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,11 +53,11 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 37 | — | 2026-08-29 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
+| 1 | [eugeniughelbur/clearmode](https://github.com/eugeniughelbur/clearmode) | 1 | Python | 2026-08-29 | — | An anti-AI-slop writing standard and checker for AI-drafted text. Scores any document 0-100 against 43 rules on four axe |
 | 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 2 | HTML | 2026-08-29 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 3 | [onlymaj/simplified-technical-persian](https://github.com/onlymaj/simplified-technical-persian) | 0 | — | 2026-08-29 | — | Persian (Farsi) technical writing rules for AI agents - controlled language adapted from ASD-STE100. Claude Skill + Curs |
-| 4 | [GktuOktay/ai-skills](https://github.com/GktuOktay/ai-skills) | 1 | Python | 2026-08-29 | — | 🚀 Universal Open-Source AI Agent Skills & Rules Library for Antigravity, Cursor, Claude Code, GitHub Copilot, OpenAI Cod |
-| 5 | [eugeniughelbur/clearmode](https://github.com/eugeniughelbur/clearmode) | 1 | Python | 2026-08-29 | — | An anti-AI-slop writing standard and checker for AI-drafted text. Scores any document 0-100 against 43 rules on four axe |
+| 3 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 37 | — | 2026-08-29 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
+| 4 | [onlymaj/simplified-technical-persian](https://github.com/onlymaj/simplified-technical-persian) | 0 | — | 2026-08-29 | — | Persian (Farsi) technical writing rules for AI agents - controlled language adapted from ASD-STE100. Claude Skill + Curs |
+| 5 | [GktuOktay/ai-skills](https://github.com/GktuOktay/ai-skills) | 1 | Python | 2026-08-29 | — | 🚀 Universal Open-Source AI Agent Skills & Rules Library for Antigravity, Cursor, Claude Code, GitHub Copilot, OpenAI Cod |
 | 6 | [IyedNasra/skeptic](https://github.com/IyedNasra/skeptic) | 1 | — | 2026-08-29 | — | Token-efficient anomaly detection and assumption verification skill for AI coding agents. |
 | 7 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-08-29 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
 | 8 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-08-29 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
