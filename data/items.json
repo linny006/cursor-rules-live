@@ -1,11 +1,20 @@
 [
   {
+    "description": "Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony.",
+    "id": "saqie803/ponytail",
+    "language": "JavaScript",
+    "name": "saqie803/ponytail",
+    "stars": 0,
+    "updated_at": "2026-08-29T04:22:45Z",
+    "url": "https://github.com/saqie803/ponytail"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-29T04:00:43Z",
+    "updated_at": "2026-08-29T04:15:40Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -186,7 +195,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 20050,
+    "stars": 20051,
     "updated_at": "2026-08-28T13:12:36Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -427,7 +436,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39230,
+    "stars": 39231,
     "updated_at": "2026-08-26T12:14:16Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -489,14 +498,5 @@
     "stars": 3,
     "updated_at": "2026-08-25T20:42:51Z",
     "url": "https://github.com/Cadasto/openehr-assistant-plugin"
-  },
-  {
-    "description": "A single-command toolkit that turns Claude Code, Codex, Cursor, and Windsurf into specialized BOT Chain engineering agen",
-    "id": "manueldezman/botchain-init-toolkit",
-    "language": "JavaScript",
-    "name": "manueldezman/botchain-init-toolkit",
-    "stars": 0,
-    "updated_at": "2026-08-25T17:45:49Z",
-    "url": "https://github.com/manueldezman/botchain-init-toolkit"
   }
 ]
