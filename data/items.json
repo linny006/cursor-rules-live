@@ -1,11 +1,20 @@
 [
   {
+    "description": "Read-only local security gate & scanner for AI coding workflows, MCP, and package hallucination risks.",
+    "id": "jiarong0423/ai-security-rules",
+    "language": "Python",
+    "name": "jiarong0423/ai-security-rules",
+    "stars": 0,
+    "updated_at": "2026-08-29T19:31:39Z",
+    "url": "https://github.com/jiarong0423/ai-security-rules"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-29T19:15:35Z",
+    "updated_at": "2026-08-29T19:30:31Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -21,15 +30,6 @@
     "stars": 8,
     "updated_at": "2026-08-29T19:12:20Z",
     "url": "https://github.com/anmolnagpal/devops-skills"
-  },
-  {
-    "description": "Read-only local security gate & scanner for AI coding workflows, MCP, and package hallucination risks.",
-    "id": "jiarong0423/ai-security-rules",
-    "language": "Python",
-    "name": "jiarong0423/ai-security-rules",
-    "stars": 0,
-    "updated_at": "2026-08-29T18:45:06Z",
-    "url": "https://github.com/jiarong0423/ai-security-rules"
   },
   {
     "description": "Agent skill: generate beautiful dark-themed architecture diagrams from your project/demo/idea. Interactive, verifiable, ",
