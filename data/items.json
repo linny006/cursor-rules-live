@@ -1,11 +1,29 @@
 [
   {
+    "description": "Persian (Farsi) technical writing rules for AI agents \u2014 controlled language adapted from ASD-STE100. Claude Skill + Curs",
+    "id": "onlymaj/simplified-technical-persian",
+    "language": "\u2014",
+    "name": "onlymaj/simplified-technical-persian",
+    "stars": 0,
+    "updated_at": "2026-08-29T11:40:41Z",
+    "url": "https://github.com/onlymaj/simplified-technical-persian"
+  },
+  {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 37,
+    "updated_at": "2026-08-29T11:37:31Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-29T11:15:36Z",
+    "updated_at": "2026-08-29T11:30:34Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -138,15 +156,6 @@
     "stars": 2,
     "updated_at": "2026-08-29T03:06:16Z",
     "url": "https://github.com/kleosr/kleosrules"
-  },
-  {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 37,
-    "updated_at": "2026-08-29T02:23:49Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "description": "Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align",
@@ -489,14 +498,5 @@
     "stars": 20,
     "updated_at": "2026-08-26T04:36:05Z",
     "url": "https://github.com/heymegabyte/claude-skills"
-  },
-  {
-    "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
-    "id": "fluttersdk/wind",
-    "language": "Dart",
-    "name": "fluttersdk/wind",
-    "stars": 33,
-    "updated_at": "2026-08-25T21:17:24Z",
-    "url": "https://github.com/fluttersdk/wind"
   }
 ]
