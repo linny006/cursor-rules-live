@@ -1,12 +1,30 @@
 [
   {
+    "description": "\ud83d\ude80 Universal Open-Source AI Agent Skills & Rules Library for Antigravity, Cursor, Claude Code, GitHub Copilot, OpenAI Cod",
+    "id": "GktuOktay/ai-skills",
+    "language": "Python",
+    "name": "GktuOktay/ai-skills",
+    "stars": 1,
+    "updated_at": "2026-08-29T10:41:11Z",
+    "url": "https://github.com/GktuOktay/ai-skills"
+  },
+  {
     "description": "An anti-AI-slop writing standard and checker for AI-drafted text. Scores any document 0-100 against 43 rules on four axe",
     "id": "eugeniughelbur/clearmode",
     "language": "Python",
     "name": "eugeniughelbur/clearmode",
     "stars": 1,
-    "updated_at": "2026-08-29T10:25:12Z",
+    "updated_at": "2026-08-29T10:31:35Z",
     "url": "https://github.com/eugeniughelbur/clearmode"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 2,
+    "updated_at": "2026-08-29T10:30:42Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Token-efficient anomaly detection and assumption verification skill for AI coding agents.",
@@ -16,15 +34,6 @@
     "stars": 1,
     "updated_at": "2026-08-29T10:23:53Z",
     "url": "https://github.com/IyedNasra/skeptic"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 2,
-    "updated_at": "2026-08-29T10:15:52Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -213,7 +222,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 20061,
+    "stars": 20062,
     "updated_at": "2026-08-28T13:12:36Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -489,14 +498,5 @@
     "stars": 33,
     "updated_at": "2026-08-25T21:17:24Z",
     "url": "https://github.com/fluttersdk/wind"
-  },
-  {
-    "description": "This plugin makes your AI coding agent an Arcjet security expert.",
-    "id": "arcjet/arcjet-plugin",
-    "language": "Shell",
-    "name": "arcjet/arcjet-plugin",
-    "stars": 1,
-    "updated_at": "2026-08-25T20:53:24Z",
-    "url": "https://github.com/arcjet/arcjet-plugin"
   }
 ]
