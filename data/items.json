@@ -1,11 +1,20 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-08-29T21:23:28Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-29T21:15:32Z",
+    "updated_at": "2026-08-29T21:16:22Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -14,7 +23,7 @@
     "language": "Python",
     "name": "jiarong0423/ai-security-rules",
     "stars": 0,
-    "updated_at": "2026-08-29T20:41:26Z",
+    "updated_at": "2026-08-29T21:16:04Z",
     "url": "https://github.com/jiarong0423/ai-security-rules"
   },
   {
@@ -66,15 +75,6 @@
     "stars": 0,
     "updated_at": "2026-08-29T18:14:07Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-08-29T18:01:25Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
