@@ -5,7 +5,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-29T01:45:31Z",
+    "updated_at": "2026-08-29T02:00:51Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -207,6 +207,15 @@
     "stars": 2,
     "updated_at": "2026-08-28T07:54:17Z",
     "url": "https://github.com/fromfireside/better-tropes"
+  },
+  {
+    "description": "A curated list of awesome .cursorrules files for enhancing your Cursor AI experience.",
+    "id": "tugkanboz/awesome-cursorrules",
+    "language": "\u2014",
+    "name": "tugkanboz/awesome-cursorrules",
+    "stars": 20,
+    "updated_at": "2026-08-28T06:26:12Z",
+    "url": "https://github.com/tugkanboz/awesome-cursorrules"
   },
   {
     "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
@@ -489,14 +498,5 @@
     "stars": 0,
     "updated_at": "2026-08-25T17:45:49Z",
     "url": "https://github.com/manueldezman/botchain-init-toolkit"
-  },
-  {
-    "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
-    "id": "pekral/cursor-rules",
-    "language": "PHP",
-    "name": "pekral/cursor-rules",
-    "stars": 6,
-    "updated_at": "2026-08-25T14:34:54Z",
-    "url": "https://github.com/pekral/cursor-rules"
   }
 ]
