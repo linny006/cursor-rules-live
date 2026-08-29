@@ -1,11 +1,20 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-08-29T09:38:34Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-29T09:15:48Z",
+    "updated_at": "2026-08-29T09:30:41Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -102,15 +111,6 @@
     "stars": 58,
     "updated_at": "2026-08-29T05:32:34Z",
     "url": "https://github.com/nota-america/forgecat-agent-profiles"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-08-29T02:56:26Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Cursor harness pack: user rules, skills, Bash hooks, local HANDOFF memory. macOS, Linux, Windows (WSL).",
@@ -213,7 +213,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 20059,
+    "stars": 20060,
     "updated_at": "2026-08-28T13:12:36Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -445,7 +445,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39237,
+    "stars": 39238,
     "updated_at": "2026-08-26T12:14:16Z",
     "url": "https://github.com/wshobson/agents"
   },
