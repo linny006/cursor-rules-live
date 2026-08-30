@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 2,
+    "updated_at": "2026-08-30T12:00:50Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Read-only local security gate & scanner for AI coding workflows, MCP, and package hallucination risks.",
     "id": "jiarong0423/ai-security-rules",
     "language": "Python",
@@ -7,15 +16,6 @@
     "stars": 0,
     "updated_at": "2026-08-30T11:50:48Z",
     "url": "https://github.com/jiarong0423/ai-security-rules"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 2,
-    "updated_at": "2026-08-30T11:45:44Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -77,7 +77,7 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 19,
-    "updated_at": "2026-08-30T08:51:34Z",
+    "updated_at": "2026-08-30T12:13:15Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
