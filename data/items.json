@@ -1,12 +1,30 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-08-30T08:41:22Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-30T08:15:37Z",
+    "updated_at": "2026-08-30T08:30:33Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 19,
+    "updated_at": "2026-08-30T08:42:33Z",
+    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -84,15 +102,6 @@
     "stars": 3,
     "updated_at": "2026-08-30T04:32:47Z",
     "url": "https://github.com/Luxvil/ai-coding-rules"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-08-30T02:30:15Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "323\u500b\u306e\u5373\u6226\u529bAI\u5c02\u9580\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8 \u2014 Claude Code/Cursor/Copilot\u7b49\u306b\u5bfe\u5fdc\u3002SIer/\u53d7\u8a17\u958b\u767a/SaaS/\u88fd\u9020DX/\u516c\u5171\u5206\u91ce\u306a\u3069\u65e5\u672c\u5e02\u5834\u5411\u3051114\u500b\u306e\u30aa\u30ea\u30b8\u30ca\u30eb\u3092\u542b\u3080\u3001agency-agents\u65e5\u672c\u8a9e\u30b3\u30df\u30e5\u30cb\u30c6\u30a3",
@@ -277,15 +286,6 @@
     "url": "https://github.com/kleosr/kleosrules"
   },
   {
-    "description": "Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 19,
-    "updated_at": "2026-08-28T23:12:42Z",
-    "url": "https://github.com/MnemeHQ/mneme"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: Guard execution of approved plan/burndown work: forbid reward hacking and feature deletion; require checkpoints, context discipline, safe terminal use, and fresh verification. Apply to approved plan-*.md, complete-everything, or burndown-full runs; binding for any implementation model.\nglobs:\nalwaysApply: true\n---\n\n# Composer 2.5 Execution Adapter\n\nYou are executing an **already-approved plan** (a `plan-*.md` audit/burndown authored and reviewed with a stronger reasoning model). Your job is faithful, verifiable *implementation* \u2014 not re-planning or inventing unrelated scope. When `complete-everything` is explicitly active, its connected closure set (planned + previously parked + discovered blast-radius work) is part of the approved scope. When `burndown-full` is active, repo-wide search determines mechanical scope. These rules are tuned to Composer 2.5's known failure modes and are binding for every change.\n\n## 1. Anti-reward-hacking (highest priority)\nSatisfy the **intent**, never just the check. Forbidden:\n- Hardcoding expected outputs, asserting trivialities, or narrowing a test so it cannot fail.\n- Deleting, skipping, or `.only`-ing a failing test to get green.\n- Silencing errors with `@ts-ignore`, `eslint-disable`, broad `try/catch`, or `any` instead of fixing the cause.\n- Stubbing/mocking the very thing under test.\n- Reconstructing or faking data from caches, snapshots, fixtures, or bytecode to appear correct.\n\nA green suite is necessary, not sufficient. In your trace, state why the change is correct \u2014 not just that checks pass.\n\n## 2. Anti-feature-deletion\n- Never delete or \"simplify away\" working code, features, routes, props, handlers, or states to pass checks or reduce scope. If something seems removable, leave it and note it for review.\n- When replacing an implementation, preserve the existing public API, behavior, and output unless the approved plan explicitly says otherwise.\n\n## 3. Small, checkpointed units\n- Implement one burndown item (or one tight group) at a time. Do not execute the whole plan in a single unattended rollout.\n- After each unit: run the relevant tests / typecheck / lint and confirm green.\n- **Default mode:** stop at the plan's phase boundaries for review; do not auto-advance.\n- **Explicit closure mode:** when the user invokes `complete-everything` or `burndown-full`, a phase boundary is an audit checkpoint, not a permission stop. Persist state, report meaningful progress, and auto-advance until the closure set is empty or a real human gate below is reached.\n- If a tool call fails or a step dead-ends, fix that step before continuing \u2014 never paper over it and push on.\n\n## 4. Context discipline (200k window)\n- Work per-surface / per-module; load only the files needed for the current unit. Do not try to hold the whole repo in context.\n- For wide work, build the inventory/checklist first, then iterate through it in batches.\n\n## 5. Terminal caution\n- Re-read any shell command before running. For anything destructive (migrations, `rm`, force-push, prod-pointed scripts, DB writes), prefer a dry-run/preview and pause for confirmation. Never run a state-mutating command unless it is in the approved plan.\n- Schema DDL, RPCs, edge functions, policies, or buckets explicitly required by the approved plan are not optional follow-ups. With the target environment confirmed, deploy and verify them under `full-stack-ship-discipline`; do not pause solely because the implementation uses a migration.\n\n## 6. Verify-before-trust\n- Before each change, state in one line: what behavior must stay identical here \u2014 then confirm it does.\n- Surface assumptions; if the plan is ambiguous for this item, ask rather than guess.\n- Leave a short trace per change (what / why / what was verified) so a human can audit the rollout.\n\n## 7. Follow the plan's conventions\n- The target repo is inconsistent by assumption (that's why it was audited). Treat the design-system spec / canonical patterns defined in the plan as the convention \u2014 don't invent a new per-file style.\n\n## STOP and ask the human if:\n- A real data/contract/endpoint/target is unknown (don't fabricate a substitute).\n- A fix would change public behavior/API/output not covered by the approved plan.\n- A change touches auth behavior, RLS semantics, secrets/rotation, payments, destructive production-data mutation, or an unconfirmed migration target (consider routing these to a stronger model rather than executing directly).\n- Do **not** stop merely because an approved feature requires non-destructive schema DDL on a confirmed target; deploy and verify it under `full-stack-ship-discipline`.\n- The only way to pass is a shortcut that doesn't satisfy the real intent.\n- Tests would need to be deleted, skipped, or weakened to pass.\n\nWhen unsure, research before acting (`/research`).\n",
       "format": "mdc",
@@ -318,7 +318,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 20101,
+    "stars": 20102,
     "updated_at": "2026-08-28T13:12:36Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
