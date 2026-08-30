@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 2,
+    "updated_at": "2026-08-30T13:00:31Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
     "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
     "language": "HTML",
@@ -7,15 +16,6 @@
     "stars": 3,
     "updated_at": "2026-08-30T12:58:02Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 2,
-    "updated_at": "2026-08-30T12:45:54Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Read-only local security gate & scanner for AI coding workflows, MCP, and package hallucination risks.",
@@ -86,7 +86,7 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 19,
-    "updated_at": "2026-08-30T12:13:15Z",
+    "updated_at": "2026-08-30T13:07:49Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
