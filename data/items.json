@@ -1,11 +1,43 @@
 [
   {
+    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
+    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "language": "\u2014",
+    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "stars": 1,
+    "updated_at": "2026-08-30T04:42:30Z",
+    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
+  },
+  {
+    "description": "Security enforcement for AI coding agents. Catch and block insecure code.",
+    "id": "akashsebastian333/peephole",
+    "language": "Go",
+    "name": "akashsebastian333/peephole",
+    "stars": 5,
+    "updated_at": "2026-08-30T04:34:02Z",
+    "url": "https://github.com/akashsebastian333/peephole"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: \"USE WHEN: any task in this repo. Global operating rules.\"\nglobs: [\"**/*\"]\nalwaysApply: true\npriority: 100\n---\n\n# Global Rules (Always On)\n\n## Role\nYou are an AI coding assistant. Deliver correct, minimal, testable changes. Surface uncertainty instead of hiding it.\n\n## Non\u2011Negotiables\n- **Correctness > simplicity > consistency > style**.\n- **Minimal diff**: touch only what the task needs.\n- **No drive\u2011by refactors**.\n- **Ask when ambiguous**: assumptions ledger + up to 3 questions.\n- **Stop** on security, data loss, or breaking changes; ask for confirmation.\n\n## Output Discipline\n- Provide a brief plan before changes.\n- Show verification steps (lint/typecheck/tests) and state what wasn\u2019t run.\n\n## Guardrails\n- No hard\u2011coded secrets.\n- No unrelated formatting or renaming.\n- No new dependencies without approval.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/00-global.mdc"
+    },
+    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
+    "id": "Luxvil/ai-coding-rules",
+    "language": "Shell",
+    "name": "Luxvil/ai-coding-rules",
+    "stars": 3,
+    "updated_at": "2026-08-30T04:32:47Z",
+    "url": "https://github.com/Luxvil/ai-coding-rules"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-30T04:15:42Z",
+    "updated_at": "2026-08-30T04:30:42Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -109,35 +141,12 @@
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
-    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
-    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "language": "\u2014",
-    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "stars": 1,
-    "updated_at": "2026-08-29T21:50:31Z",
-    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: \"USE WHEN: any task in this repo. Global operating rules.\"\nglobs: [\"**/*\"]\nalwaysApply: true\npriority: 100\n---\n\n# Global Rules (Always On)\n\n## Role\nYou are an AI coding assistant. Deliver correct, minimal, testable changes. Surface uncertainty instead of hiding it.\n\n## Non\u2011Negotiables\n- **Correctness > simplicity > consistency > style**.\n- **Minimal diff**: touch only what the task needs.\n- **No drive\u2011by refactors**.\n- **Ask when ambiguous**: assumptions ledger + up to 3 questions.\n- **Stop** on security, data loss, or breaking changes; ask for confirmation.\n\n## Output Discipline\n- Provide a brief plan before changes.\n- Show verification steps (lint/typecheck/tests) and state what wasn\u2019t run.\n\n## Guardrails\n- No hard\u2011coded secrets.\n- No unrelated formatting or renaming.\n- No new dependencies without approval.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/00-global.mdc"
-    },
-    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
-    "id": "Luxvil/ai-coding-rules",
-    "language": "Shell",
-    "name": "Luxvil/ai-coding-rules",
-    "stars": 3,
-    "updated_at": "2026-08-29T21:40:45Z",
-    "url": "https://github.com/Luxvil/ai-coding-rules"
-  },
-  {
     "description": "Agent skill: generate beautiful dark-themed architecture diagrams from your project/demo/idea. Interactive, verifiable, ",
     "id": "lewes2/archpresent",
     "language": "HTML",
     "name": "lewes2/archpresent",
     "stars": 1,
-    "updated_at": "2026-08-29T18:41:57Z",
+    "updated_at": "2026-08-30T04:43:01Z",
     "url": "https://github.com/lewes2/archpresent"
   },
   {
@@ -171,15 +180,6 @@
     "stars": 7,
     "updated_at": "2026-08-29T13:34:15Z",
     "url": "https://github.com/vibestackdev/vibe-stack"
-  },
-  {
-    "description": "Security enforcement for AI coding agents. Catch and block insecure code.",
-    "id": "akashsebastian333/peephole",
-    "language": "Go",
-    "name": "akashsebastian333/peephole",
-    "stars": 5,
-    "updated_at": "2026-08-29T12:40:52Z",
-    "url": "https://github.com/akashsebastian333/peephole"
   },
   {
     "description": "An anti-AI-slop writing standard and checker for AI-drafted text. Scores any document 0-100 against 43 rules on four axe",
@@ -318,7 +318,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 20092,
+    "stars": 20091,
     "updated_at": "2026-08-28T13:12:36Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
