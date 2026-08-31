@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-08-31 16:30 UTC
+> ⏰ Last updated: 2026-08-31 16:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,8 +53,8 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [karenrebecag/en-orden](https://github.com/karenrebecag/en-orden) | 0 | JavaScript | 2026-08-31 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/karenrebecag/en-orden/) | Plantilla de Cursor para ordenar tu vida con agentes de IA, para personas que no programan. Proyectos que terminan de ve |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 2 | HTML | 2026-08-31 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 2 | HTML | 2026-08-31 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [karenrebecag/en-orden](https://github.com/karenrebecag/en-orden) | 0 | JavaScript | 2026-08-31 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/karenrebecag/en-orden/) | Plantilla de Cursor para ordenar tu vida con agentes de IA, para personas que no programan. Proyectos que terminan de ve |
 | 3 | [sayeed1999/agent-skills](https://github.com/sayeed1999/agent-skills) | 6 | — | 2026-08-31 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/sayeed1999/agent-skills/) | Reusable agent skills for battle-tested engineering judgment. Works with Claude Code, Cursor, and 10+ AI tools... |
 | 4 | [vibestackdev/vibe-stack](https://github.com/vibestackdev/vibe-stack) | 7 | TypeScript | 2026-08-31 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/) | 29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b |
 | 5 | [chama-x/quiv](https://github.com/chama-x/quiv) | 2 | TypeScript | 2026-08-31 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/chama-x/quiv/) | The Agent Knowledge Kit & Architecture System — 10–32x token-efficient architecture discovery for AI coding agents |

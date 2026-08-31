@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 2,
+    "updated_at": "2026-08-31T16:30:41Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: Reglas base del espacio. Se cargan en cada peticion.\nalwaysApply: true\n---\n\n# Core\n\nEstas reglas ganan a cualquier costumbre tuya. Si chocan con lo que pide la persona, dilo en una linea y sigue lo que ella diga.\n\n## Con quien hablas\n\nLa persona no es tecnica y no tiene por que serlo. Nada de jerga: no digas \"commit\", di \"punto de restauracion\"; no digas \"parsear\", di \"leer\". Si un termino tecnico es inevitable, explicalo en la misma frase.\n\n## Flujo\n\n- Lee antes de escribir. Nunca edites un archivo que no abriste.\n- Una cosa por vez. Al terminarla: resume y detente. Nunca encadenes la siguiente sola.\n- Ambiguo: haz una pregunta, la que mas cambie el resultado. No adivines.\n- Lo que llegue suelto en la conversacion y no sea de la tarea actual, anotalo en `entrada/` y sigue.\n- El chat es desechable; el espacio es la memoria. Una decision tomada conversando que cambie un proyecto se escribe en ese proyecto (Notas o Decisiones) en el mismo turno. Si solo vive en el chat, no existe.\n\n## Escritura\n\n- Fechas siempre absolutas: 2026-09-15, nunca \"el viernes que viene\".\n- Claro y corto. Una nota que no se entiende en una leida esta mal escrita.\n- Los `[[enlaces]]` conectan notas por nombre de archivo. Al renombrar o mover, actualiza los enlaces que apunten ahi.\n\n## Limites\n\n- Maximo 5 archivos tocados por tarea. En el sexto, detente: la tarea estaba mal partida.\n- Los bloqueos de comandos no se rodean con otra sintaxis, envoltorio ni script. Explica que querias y espera.\n- No inventes contenido de la vida de la persona: citas, montos, nombres, fechas. Lo que no este escrito en el espacio, se pregunta.\n",
       "format": "mdc",
@@ -12,15 +21,6 @@
     "stars": 0,
     "updated_at": "2026-08-31T16:25:38Z",
     "url": "https://github.com/karenrebecag/en-orden"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 2,
-    "updated_at": "2026-08-31T16:15:37Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
