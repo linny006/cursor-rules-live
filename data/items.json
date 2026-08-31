@@ -1,21 +1,21 @@
 [
   {
-    "description": "The Agent Knowledge Kit & Architecture System \u2014 10\u201332x token-efficient architecture discovery for AI coding agents",
-    "id": "chama-x/quiv",
-    "language": "\u2014",
-    "name": "chama-x/quiv",
-    "stars": 0,
-    "updated_at": "2026-08-31T13:43:54Z",
-    "url": "https://github.com/chama-x/quiv"
-  },
-  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-31T13:30:36Z",
+    "updated_at": "2026-08-31T13:45:52Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "The Agent Knowledge Kit & Architecture System \u2014 10\u201332x token-efficient architecture discovery for AI coding agents",
+    "id": "chama-x/quiv",
+    "language": "TypeScript",
+    "name": "chama-x/quiv",
+    "stars": 0,
+    "updated_at": "2026-08-31T13:43:54Z",
+    "url": "https://github.com/chama-x/quiv"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
