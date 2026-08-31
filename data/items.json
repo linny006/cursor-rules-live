@@ -1,11 +1,20 @@
 [
   {
+    "description": "The Agent Knowledge Kit & Architecture System \u2014 10\u201332x token-efficient architecture discovery for AI coding agents",
+    "id": "chama-x/quiv",
+    "language": "\u2014",
+    "name": "chama-x/quiv",
+    "stars": 0,
+    "updated_at": "2026-08-31T13:43:54Z",
+    "url": "https://github.com/chama-x/quiv"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-31T13:15:44Z",
+    "updated_at": "2026-08-31T13:30:36Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -494,14 +503,5 @@
     "stars": 1,
     "updated_at": "2026-08-28T00:46:34Z",
     "url": "https://github.com/orin-dx/agent-plugins"
-  },
-  {
-    "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 plus AIOS, an open-source markdown memory system for coding ",
-    "id": "sublimecoder/sublimecoding",
-    "language": "\u2014",
-    "name": "sublimecoder/sublimecoding",
-    "stars": 0,
-    "updated_at": "2026-08-27T21:25:32Z",
-    "url": "https://github.com/sublimecoder/sublimecoding"
   }
 ]
