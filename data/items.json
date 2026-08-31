@@ -1,21 +1,21 @@
 [
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 2,
-    "updated_at": "2026-08-31T13:45:52Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "The Agent Knowledge Kit & Architecture System \u2014 10\u201332x token-efficient architecture discovery for AI coding agents",
     "id": "chama-x/quiv",
     "language": "TypeScript",
     "name": "chama-x/quiv",
     "stars": 0,
-    "updated_at": "2026-08-31T13:43:54Z",
+    "updated_at": "2026-08-31T14:06:15Z",
     "url": "https://github.com/chama-x/quiv"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 2,
+    "updated_at": "2026-08-31T14:00:41Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -164,7 +164,7 @@
     "language": "HTML",
     "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
     "stars": 3,
-    "updated_at": "2026-08-31T05:44:49Z",
+    "updated_at": "2026-08-31T14:02:15Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
@@ -213,7 +213,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39293,
+    "stars": 39294,
     "updated_at": "2026-08-31T01:08:27Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -464,7 +464,7 @@
     "id": "RollingGo-AI/rollinggo-hotel-skill-cn",
     "language": "Python",
     "name": "RollingGo-AI/rollinggo-hotel-skill-cn",
-    "stars": 147,
+    "stars": 148,
     "updated_at": "2026-08-28T08:24:57Z",
     "url": "https://github.com/RollingGo-AI/rollinggo-hotel-skill-cn"
   },
