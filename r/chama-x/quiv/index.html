@@ -55,40 +55,23 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <section id="rules"><h2>Actual rules from this repo</h2>
 <p>Path in source repo: <code>.cursor/rules/quiv.mdc</code> &middot; format: <code>mdc</code></p>
 <pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
-description: quiv agent architecture rules and loop protocol
+description: Quiv Architecture Knowledge System Global Agent Rule
 globs: *
 alwaysApply: true
 ---
 
-# quiv Agent Architecture Rules
+# Quiv Architecture Rule for AI Agents
 
-When implementing full-stack features, domain logic, or complex integrations in this repository:
-
-1. **Search Before Writing**:
-   Always check the quiv registry first before writing logic from scratch:
-   ```bash
-   bunx quiv find &quot;&lt;feature or problem description&gt;&quot;
-   ```
-
-2. **Read Contract First**:
-   Read the pattern contract at overview level to inspect types, invariants, and constraints with minimal context:
-   ```bash
-   bunx quiv read &lt;pattern-path&gt; --level overview
-   ```
-
-3. **Scaffold Pattern**:
-   Pull the pattern and its dependency tree into the project:
-   ```bash
-   bunx quiv use &lt;pattern-path&gt; --project &lt;project-dir&gt;
-   ```
-
-4. **Lore-lite Commit Standard**:
-   When committing architectural changes or new patterns, always include Lore-lite trailers:
-   ```git
-   Constraint: Invariant that must not be broken
-   Rejected: Alternative evaluated | Why it failed
-   Evidence: Empirical validation / test verification
-   ```
+- **Stop Starting from Scratch**: Always check for existing proven/validated architectural patterns before writing boilerplate or designing state/layout from zero.
+- **Day-to-Day Workflow**:
+  1. `quiv find &quot;&lt;query&gt;&quot;` to discover relevant patterns.
+  2. `quiv read &lt;pattern&gt; --level overview` to understand constraints and rejected approaches (&lt;300t budget).
+  3. `quiv use &lt;pattern&gt; --dest ./src --project &lt;project-name&gt;` to scaffold the pattern and its recursive dependencies.
+  4. `quiv learn --from &lt;path&gt; --tier &lt;tier&gt; --name &lt;name&gt; -m &lt;msg&gt; -c &lt;constraints&gt; -r &lt;rejected&gt; -e &lt;evidence&gt;` to harvest new reusable components at the end of a project.
+- **Lore-lite Standard**: When adding or learning patterns, always document:
+  - `Constraint:` what must not break
+  - `Rejected:` alternatives tried and why they failed
+  - `Evidence:` benchmark or test verification
 </code></pre>
 <p><a href="https://github.com/chama-x/quiv/blob/HEAD/.cursor/rules/quiv.mdc" rel="external">View raw on GitHub</a></p>
 </section>
@@ -97,7 +80,7 @@ When implementing full-stack features, domain logic, or complex integrations in 
 <section><h2>Similar in this tracker</h2>
 <ul class="crosslinks">
 <li><a href="https://linny006.github.io/cursor-rules-live/r/HoangNguyen0403/agent-skills-standard/">HoangNguyen0403/agent-skills-standard (stars:549)</a></li>
-<li><a href="https://linny006.github.io/cursor-rules-live/r/nota-america/forgecat-agent-profiles/">nota-america/forgecat-agent-profiles (stars:61)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/nota-america/forgecat-agent-profiles/">nota-america/forgecat-agent-profiles (stars:62)</a></li>
 <li><a href="https://linny006.github.io/cursor-rules-live/r/philipbankier/awesome-agent-skills/">philipbankier/awesome-agent-skills (stars:17)</a></li>
 </ul></section>
 <section><h2>Explore by category</h2>
