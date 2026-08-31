@@ -52,6 +52,46 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <span><a href="https://github.com/chama-x/quiv" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/chama-x" rel="external">@chama-x</a></span>
 </div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/quiv.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
+description: quiv agent architecture rules and loop protocol
+globs: *
+alwaysApply: true
+---
+
+# quiv Agent Architecture Rules
+
+When implementing full-stack features, domain logic, or complex integrations in this repository:
+
+1. **Search Before Writing**:
+   Always check the quiv registry first before writing logic from scratch:
+   ```bash
+   bunx quiv find &quot;&lt;feature or problem description&gt;&quot;
+   ```
+
+2. **Read Contract First**:
+   Read the pattern contract at overview level to inspect types, invariants, and constraints with minimal context:
+   ```bash
+   bunx quiv read &lt;pattern-path&gt; --level overview
+   ```
+
+3. **Scaffold Pattern**:
+   Pull the pattern and its dependency tree into the project:
+   ```bash
+   bunx quiv use &lt;pattern-path&gt; --project &lt;project-dir&gt;
+   ```
+
+4. **Lore-lite Commit Standard**:
+   When committing architectural changes or new patterns, always include Lore-lite trailers:
+   ```git
+   Constraint: Invariant that must not be broken
+   Rejected: Alternative evaluated | Why it failed
+   Evidence: Empirical validation / test verification
+   ```
+</code></pre>
+<p><a href="https://github.com/chama-x/quiv/blob/HEAD/.cursor/rules/quiv.mdc" rel="external">View raw on GitHub</a></p>
+</section>
 <section><h2>Why this is listed</h2>
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>

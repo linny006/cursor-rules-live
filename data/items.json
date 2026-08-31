@@ -1,11 +1,16 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: quiv agent architecture rules and loop protocol\nglobs: *\nalwaysApply: true\n---\n\n# quiv Agent Architecture Rules\n\nWhen implementing full-stack features, domain logic, or complex integrations in this repository:\n\n1. **Search Before Writing**:\n   Always check the quiv registry first before writing logic from scratch:\n   ```bash\n   bunx quiv find \"<feature or problem description>\"\n   ```\n\n2. **Read Contract First**:\n   Read the pattern contract at overview level to inspect types, invariants, and constraints with minimal context:\n   ```bash\n   bunx quiv read <pattern-path> --level overview\n   ```\n\n3. **Scaffold Pattern**:\n   Pull the pattern and its dependency tree into the project:\n   ```bash\n   bunx quiv use <pattern-path> --project <project-dir>\n   ```\n\n4. **Lore-lite Commit Standard**:\n   When committing architectural changes or new patterns, always include Lore-lite trailers:\n   ```git\n   Constraint: Invariant that must not be broken\n   Rejected: Alternative evaluated | Why it failed\n   Evidence: Empirical validation / test verification\n   ```\n",
+      "format": "mdc",
+      "path": ".cursor/rules/quiv.mdc"
+    },
     "description": "The Agent Knowledge Kit & Architecture System \u2014 10\u201332x token-efficient architecture discovery for AI coding agents",
     "id": "chama-x/quiv",
     "language": "TypeScript",
     "name": "chama-x/quiv",
     "stars": 1,
-    "updated_at": "2026-08-31T15:28:05Z",
+    "updated_at": "2026-08-31T15:43:09Z",
     "url": "https://github.com/chama-x/quiv"
   },
   {
@@ -14,7 +19,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-31T15:15:50Z",
+    "updated_at": "2026-08-31T15:30:52Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -222,7 +227,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39294,
+    "stars": 39293,
     "updated_at": "2026-08-31T01:08:27Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -464,7 +469,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 20151,
+    "stars": 20152,
     "updated_at": "2026-08-28T13:12:36Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
