@@ -1,11 +1,20 @@
 [
   {
+    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+    "id": "saifullahseodeveloper/ponytail",
+    "language": "\u2014",
+    "name": "saifullahseodeveloper/ponytail",
+    "stars": 0,
+    "updated_at": "2026-08-31T11:28:01Z",
+    "url": "https://github.com/saifullahseodeveloper/ponytail"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-31T11:00:56Z",
+    "updated_at": "2026-08-31T11:15:39Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -494,14 +503,5 @@
     "stars": 0,
     "updated_at": "2026-08-27T21:25:32Z",
     "url": "https://github.com/sublimecoder/sublimecoding"
-  },
-  {
-    "description": "Know Yourself. Define Your Direction. Forge Your Opportunity.An agent-native skill for self-discovery, career positionin",
-    "id": "Max-Samson/knowme-careerforge-skill",
-    "language": "Python",
-    "name": "Max-Samson/knowme-careerforge-skill",
-    "stars": 0,
-    "updated_at": "2026-08-27T17:23:18Z",
-    "url": "https://github.com/Max-Samson/knowme-careerforge-skill"
   }
 ]
