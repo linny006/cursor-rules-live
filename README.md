@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-08-31 17:00 UTC
+> ⏰ Last updated: 2026-08-31 17:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,8 +53,8 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-08-31 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 2 | HTML | 2026-08-31 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 2 | HTML | 2026-08-31 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-08-31 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
 | 3 | [karenrebecag/en-orden](https://github.com/karenrebecag/en-orden) | 0 | JavaScript | 2026-08-31 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/karenrebecag/en-orden/) | Plantilla de Cursor para ordenar tu vida con agentes de IA, para personas que no programan. Proyectos que terminan de ve |
 | 4 | [sayeed1999/agent-skills](https://github.com/sayeed1999/agent-skills) | 6 | — | 2026-08-31 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/sayeed1999/agent-skills/) | Reusable agent skills for battle-tested engineering judgment. Works with Claude Code, Cursor, and 10+ AI tools... |
 | 5 | [vibestackdev/vibe-stack](https://github.com/vibestackdev/vibe-stack) | 7 | TypeScript | 2026-08-31 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/) | 29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b |
@@ -78,11 +78,11 @@ expired items removed — so you can rely on what you see being current.
 | 23 | [kleosr/kleosrules](https://github.com/kleosr/kleosrules) | 2 | Shell | 2026-08-31 | — | Cursor harness pack: user rules, skills, Bash hooks, local HANDOFF memory. macOS, Linux, Windows (WSL). |
 | 24 | [Amirun99/agency-orchestrator](https://github.com/Amirun99/agency-orchestrator) | 0 | Dart | 2026-08-31 | — | Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support. |
 | 25 | [zinxj/uikit-expert-skill](https://github.com/zinxj/uikit-expert-skill) | 4 | — | 2026-08-31 | — | Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan |
-| 26 | [wshobson/agents](https://github.com/wshobson/agents) | 39294 | Python | 2026-08-31 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, and Google Antigravit |
+| 26 | [wshobson/agents](https://github.com/wshobson/agents) | 39295 | Python | 2026-08-31 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, and Google Antigravit |
 | 27 | [girijashankarj/cursor-handbook](https://github.com/girijashankarj/cursor-handbook) | 30 | Shell | 2026-08-30 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/girijashankarj/cursor-handbook/) | Open-source rules engine for Cursor IDE — 110 rules, agents, skills, commands that give AI permanent memory of your stan |
 | 28 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 17 | TypeScript | 2026-08-30 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
 | 29 | [HoangNguyen0403/agent-skills-standard](https://github.com/HoangNguyen0403/agent-skills-standard) | 549 | TypeScript | 2026-08-30 | — | A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol |
-| 30 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-08-30 | — | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
+| 30 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-08-31 | — | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
 | 31 | [lewes2/archpresent](https://github.com/lewes2/archpresent) | 1 | JavaScript | 2026-08-30 | — | Agent skill: generate beautiful dark-themed architecture diagrams from your project/demo/idea. Interactive, verifiable,  |
 | 32 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 19 | Python | 2026-08-30 | — | Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align |
 | 33 | [jiarong0423/ai-security-rules](https://github.com/jiarong0423/ai-security-rules) | 0 | Python | 2026-08-30 | — | Read-only local security gate & scanner for AI coding workflows, MCP, and package hallucination risks. |

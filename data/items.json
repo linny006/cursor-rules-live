@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 2,
+    "updated_at": "2026-08-31T17:00:38Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
     "id": "arnoldalberto007-sys/Swift-UIKit-Components",
     "language": "HTML",
@@ -7,15 +16,6 @@
     "stars": 0,
     "updated_at": "2026-08-31T16:55:23Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 2,
-    "updated_at": "2026-08-31T16:45:44Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -165,7 +165,7 @@
     "language": "Python",
     "name": "johnwall123459885/skene-cookbook",
     "stars": 0,
-    "updated_at": "2026-08-31T09:01:25Z",
+    "updated_at": "2026-08-31T17:06:17Z",
     "url": "https://github.com/johnwall123459885/skene-cookbook"
   },
   {
@@ -269,7 +269,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39294,
+    "stars": 39295,
     "updated_at": "2026-08-31T01:08:27Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -311,7 +311,7 @@
     "language": "HTML",
     "name": "agenticstandardcontact-byte/agentic-architect",
     "stars": 0,
-    "updated_at": "2026-08-30T14:24:38Z",
+    "updated_at": "2026-08-31T17:03:35Z",
     "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
   },
   {
