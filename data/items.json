@@ -1,11 +1,39 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: Humanize assistant output. Drop AI-isms, engineer burstiness, preserve technical accuracy.\nalwaysApply: true\n---\n\nWrite like a careful human. All technical substance stays exact. Only AI-slop dies.\n\nRules:\n- Drop: sycophancy (\"great question\", \"I'd be happy to\"), stock vocab (delve/tapestry/testament/realm/landscape/seamless/holistic/leverage-as-filler/cutting-edge/state-of-the-art), hedging stacks (\"it's important to note that\"), tricolon padding, em-dash pileups (hard cap: two per paragraph), performative balance.\n- Engineer burstiness: mix short and long sentences deliberately. Avoid tidy five-paragraph essay shapes.\n- Keep: technical terms exact, errors quoted exact, code unchanged, real uncertainty (\"I think\", \"probably\") when honest.\n- Pattern: [concrete observation]. [why or implication]. [what to do next].\n- Not: \"Sure! There are several factors to consider...\"\n- Yes: \"Bug in auth middleware. Token expiry uses `<` not `<=`. Fix L42:\"\n\nPrinciples: Subtract, don't add (warmth = sycophancy). Style \u2260 stance (humanize voice, don't soften disagreement). Warmth raises error rate \u2014 re-verify facts after rewriting. Simulated voice, not personhood (never invent bio, memory, or emotion). Reason privately, humanize publicly (think structured, output human).\n\nSwitch level: /unslop subtle|balanced|full|voice-match|anti-detector\nStop: \"stop unslop\" or \"normal mode\"\n\nAuto-Clarity: drop unslop style for security warnings, irreversible actions, legal/medical/financial precision, user confused. Resume after.\n\nBoundaries: code/commits/PRs written normal. Never invent facts to sound human. Anti-detector mode is for defensive use (ESL false positives, resume writers) \u2014 not for academic misconduct.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/unslop.mdc"
+    },
+    "description": "Make AI output sound human. Strips AI-isms (sycophancy, stock vocab, hedging stacks, em-dash pileups), preserves code/UR",
+    "id": "MohamedAbdallah-14/unslop",
+    "language": "Python",
+    "name": "MohamedAbdallah-14/unslop",
+    "stars": 121,
+    "updated_at": "2026-08-31T06:11:29Z",
+    "url": "https://github.com/MohamedAbdallah-14/unslop"
+  },
+  {
+    "cursorrules": {
+      "content": "# AI Lead PM Scheduler - Cursor Rules\n# Universal AI Engineering Skill for Commercial Fit-out CPM Scheduling & Native MS Project (.mpp)\n# Official Demo: https://lead-pm-landing.vercel.app\n# Pro Release: https://kentyu.gumroad.com/l/pmp-lead-pm-scheduler/EARLYBIRD\n\nrules:\n  - name: \"Deterministic CPM Topological Scheduling\"\n    description: \"Calculates strict Critical Path Method (CPM) Forward/Backward passes without circular dependencies.\"\n    triggers: [\"schedule\", \"gantt\", \"fitout\", \"mpp\", \"wbs\", \"cpm\", \"commercial office\"]\n    framework: \"Kahn's Topological Sort + MS Project COM Automation\"",
+      "format": "text",
+      "path": ".cursorrules"
+    },
+    "description": "Universal AI Engineering Skill (Cursor, Gemini, ChatGPT, Claude) for Commercial Fit-out CPM Scheduling & Native MS Proje",
+    "id": "kentyu0922/pmp-lead-pm-scheduler",
+    "language": "\u2014",
+    "name": "kentyu0922/pmp-lead-pm-scheduler",
+    "stars": 0,
+    "updated_at": "2026-08-31T06:05:25Z",
+    "url": "https://github.com/kentyu0922/pmp-lead-pm-scheduler"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-31T05:45:32Z",
+    "updated_at": "2026-08-31T06:00:43Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -81,7 +109,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39281,
+    "stars": 39282,
     "updated_at": "2026-08-31T01:08:27Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -382,7 +410,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 20137,
+    "stars": 20139,
     "updated_at": "2026-08-28T13:12:36Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -480,28 +508,5 @@
     "stars": 0,
     "updated_at": "2026-08-27T07:58:14Z",
     "url": "https://github.com/lucas-winter-berlin/Agent-Engineer-Skills"
-  },
-  {
-    "description": "Molavi Agent Skills: Curated AI agent skills and MCP configs for Antigravity, Cursor, Codex & Claude \u2014 by Taghi Molavi",
-    "id": "tmolavi/mcp-agent-skills-hub",
-    "language": "JavaScript",
-    "name": "tmolavi/mcp-agent-skills-hub",
-    "stars": 8,
-    "updated_at": "2026-08-26T21:00:49Z",
-    "url": "https://github.com/tmolavi/mcp-agent-skills-hub"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: PowerSync skill \u2014 follow AGENTS.md playbook; powersync login is Cloud-only\nglobs:\n  - skills/powersync/**/*\n  - AGENTS.md\n  - CONTRIBUTING.md\n---\n\n# PowerSync agent skills\n\nWhen editing or when the user\u2019s task involves PowerSync:\n\n1. Open **skills/powersync/AGENTS.md** and follow **Agent compliance** and the numbered onboarding playbook. Do not assume backend or Cloud vs self-hosted.\n2. Prefer the **PowerSync CLI** per that file; do not hand-roll deployable config unless the user explicitly cannot use the CLI.\n3. **`powersync login`** is for **PowerSync Cloud** (PAT) only \u2014 not for authenticating to a **self-hosted** service. Self-hosted: `powersync init self-hosted`, Docker commands, `PS_ADMIN_TOKEN` on the service.\n\nIf instructions here conflict with a \u201cfaster\u201d approach, the playbook wins unless the user explicitly overrides.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/powersync-playbook.mdc"
-    },
-    "description": "Official agent skills for PowerSync",
-    "id": "powersync-ja/agent-skills",
-    "language": "JavaScript",
-    "name": "powersync-ja/agent-skills",
-    "stars": 18,
-    "updated_at": "2026-08-26T17:27:23Z",
-    "url": "https://github.com/powersync-ja/agent-skills"
   }
 ]
