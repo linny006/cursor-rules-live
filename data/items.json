@@ -1,21 +1,30 @@
 [
   {
-    "description": "The Agent Knowledge Kit & Architecture System \u2014 10\u201332x token-efficient architecture discovery for AI coding agents",
-    "id": "chama-x/quiv",
-    "language": "TypeScript",
-    "name": "chama-x/quiv",
-    "stars": 0,
-    "updated_at": "2026-08-31T14:35:05Z",
-    "url": "https://github.com/chama-x/quiv"
-  },
-  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-31T14:30:49Z",
+    "updated_at": "2026-08-31T14:45:32Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-08-31T14:37:04Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "The Agent Knowledge Kit & Architecture System \u2014 10\u201332x token-efficient architecture discovery for AI coding agents",
+    "id": "chama-x/quiv",
+    "language": "TypeScript",
+    "name": "chama-x/quiv",
+    "stars": 1,
+    "updated_at": "2026-08-31T14:35:05Z",
+    "url": "https://github.com/chama-x/quiv"
   },
   {
     "description": "Homebrew tap for LynxPrompt CLI",
@@ -138,15 +147,6 @@
     "stars": 2,
     "updated_at": "2026-08-31T06:28:45Z",
     "url": "https://github.com/softwareasg-tools/information-security-for-vibecoded-apps"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-08-31T14:37:04Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "cursorrules": {
