@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-08-31 13:00 UTC
+> ⏰ Last updated: 2026-08-31 13:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -73,7 +73,7 @@ expired items removed — so you can rely on what you see being current.
 | 18 | [kleosr/kleosrules](https://github.com/kleosr/kleosrules) | 2 | Shell | 2026-08-31 | — | Cursor harness pack: user rules, skills, Bash hooks, local HANDOFF memory. macOS, Linux, Windows (WSL). |
 | 19 | [Amirun99/agency-orchestrator](https://github.com/Amirun99/agency-orchestrator) | 0 | Dart | 2026-08-31 | — | Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support. |
 | 20 | [zinxj/uikit-expert-skill](https://github.com/zinxj/uikit-expert-skill) | 4 | — | 2026-08-31 | — | Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan |
-| 21 | [wshobson/agents](https://github.com/wshobson/agents) | 39292 | Python | 2026-08-31 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, and Google Antigravit |
+| 21 | [wshobson/agents](https://github.com/wshobson/agents) | 39293 | Python | 2026-08-31 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, and Google Antigravit |
 | 22 | [girijashankarj/cursor-handbook](https://github.com/girijashankarj/cursor-handbook) | 30 | Shell | 2026-08-30 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/girijashankarj/cursor-handbook/) | Open-source rules engine for Cursor IDE — 110 rules, agents, skills, commands that give AI permanent memory of your stan |
 | 23 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 17 | TypeScript | 2026-08-30 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
 | 24 | [HoangNguyen0403/agent-skills-standard](https://github.com/HoangNguyen0403/agent-skills-standard) | 549 | TypeScript | 2026-08-30 | — | A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol |
@@ -96,7 +96,7 @@ expired items removed — so you can rely on what you see being current.
 | 41 | [nota-america/forgecat-agent-profiles](https://github.com/nota-america/forgecat-agent-profiles) | 61 | TypeScript | 2026-08-29 | — | Production-ready AI agent profiles for Claude Code, Cursor, Codex, OpenClaw, and Hermes. Search, install, and contribute |
 | 42 | [kensaurus/cursor-kenji](https://github.com/kensaurus/cursor-kenji) | 9 | JavaScript | 2026-08-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/kensaurus/cursor-kenji/) | 🦖Curated Cursor AI agent skills, slash commands, MCP configs, subagents & rules for full-stack dev — React 19, Next.js 1 |
 | 43 | [afaraha8403/balakit](https://github.com/afaraha8403/balakit) | 1 | JavaScript | 2026-08-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/afaraha8403/balakit/) | Opinionated, cross-agent rules and skills for AI coding agents — one npx install into Cursor, Claude Code, Codex, OpenCo |
-| 44 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 20145 | Shell | 2026-08-28 | — | 🎭 267 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 52 个中国市场原创智能体（小红书/抖音/ |
+| 44 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 20146 | Shell | 2026-08-28 | — | 🎭 267 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 52 个中国市场原创智能体（小红书/抖音/ |
 | 45 | [RollingGo-AI/rollinggo-hotel-skill-cn](https://github.com/RollingGo-AI/rollinggo-hotel-skill-cn) | 147 | Python | 2026-08-28 | — | 全球酒店预订&低价监控提醒Skill，200万+精选酒店，独家优惠价格，让你的Agent轻松预订品质酒店，支持支付宝下单+查询历史订单，24 小时客服支持，全天候响应。 |
 | 46 | [fromfireside/better-tropes](https://github.com/fromfireside/better-tropes) | 2 | — | 2026-08-28 | — | A catalogue of AI writing tells, each with a plain rewrite, shared by Fireside. Drop it into a system prompt to stop LLM |
 | 47 | [tugkanboz/awesome-cursorrules](https://github.com/tugkanboz/awesome-cursorrules) | 20 | — | 2026-08-30 | — | A curated list of awesome .cursorrules files for enhancing your Cursor AI experience. |
