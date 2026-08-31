@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-08-31 16:15 UTC
+> ⏰ Last updated: 2026-08-31 16:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,9 +53,9 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [sayeed1999/agent-skills](https://github.com/sayeed1999/agent-skills) | 7 | — | 2026-08-31 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/sayeed1999/agent-skills/) | Reusable agent skills for battle-tested engineering judgment. Works with Claude Code, Cursor, and 10+ AI tools... |
+| 1 | [karenrebecag/en-orden](https://github.com/karenrebecag/en-orden) | 0 | JavaScript | 2026-08-31 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/karenrebecag/en-orden/) | Plantilla de Cursor para ordenar tu vida con agentes de IA, para personas que no programan. Proyectos que terminan de ve |
 | 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 2 | HTML | 2026-08-31 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 3 | [karenrebecag/en-orden](https://github.com/karenrebecag/en-orden) | 0 | — | 2026-08-31 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/karenrebecag/en-orden/) | Plantilla de Cursor para ordenar tu vida con agentes de IA, para personas que no programan. Proyectos que terminan de ve |
+| 3 | [sayeed1999/agent-skills](https://github.com/sayeed1999/agent-skills) | 6 | — | 2026-08-31 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/sayeed1999/agent-skills/) | Reusable agent skills for battle-tested engineering judgment. Works with Claude Code, Cursor, and 10+ AI tools... |
 | 4 | [vibestackdev/vibe-stack](https://github.com/vibestackdev/vibe-stack) | 7 | TypeScript | 2026-08-31 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/) | 29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b |
 | 5 | [chama-x/quiv](https://github.com/chama-x/quiv) | 2 | TypeScript | 2026-08-31 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/chama-x/quiv/) | The Agent Knowledge Kit & Architecture System — 10–32x token-efficient architecture discovery for AI coding agents |
 | 6 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-08-31 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
@@ -100,7 +100,7 @@ expired items removed — so you can rely on what you see being current.
 | 45 | [nota-america/forgecat-agent-profiles](https://github.com/nota-america/forgecat-agent-profiles) | 61 | TypeScript | 2026-08-29 | — | Production-ready AI agent profiles for Claude Code, Cursor, Codex, OpenClaw, and Hermes. Search, install, and contribute |
 | 46 | [kensaurus/cursor-kenji](https://github.com/kensaurus/cursor-kenji) | 9 | JavaScript | 2026-08-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/kensaurus/cursor-kenji/) | 🦖Curated Cursor AI agent skills, slash commands, MCP configs, subagents & rules for full-stack dev — React 19, Next.js 1 |
 | 47 | [afaraha8403/balakit](https://github.com/afaraha8403/balakit) | 1 | JavaScript | 2026-08-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/afaraha8403/balakit/) | Opinionated, cross-agent rules and skills for AI coding agents — one npx install into Cursor, Claude Code, Codex, OpenCo |
-| 48 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 20152 | Shell | 2026-08-28 | — | 🎭 267 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 52 个中国市场原创智能体（小红书/抖音/ |
+| 48 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 20153 | Shell | 2026-08-28 | — | 🎭 267 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 52 个中国市场原创智能体（小红书/抖音/ |
 | 49 | [RollingGo-AI/rollinggo-hotel-skill-cn](https://github.com/RollingGo-AI/rollinggo-hotel-skill-cn) | 148 | Python | 2026-08-28 | — | 全球酒店预订&低价监控提醒Skill，200万+精选酒店，独家优惠价格，让你的Agent轻松预订品质酒店，支持支付宝下单+查询历史订单，24 小时客服支持，全天候响应。 |
 | 50 | [fromfireside/better-tropes](https://github.com/fromfireside/better-tropes) | 2 | — | 2026-08-28 | — | A catalogue of AI writing tells, each with a plain rewrite, shared by Fireside. Drop it into a system prompt to stop LLM |
 <!-- TRACKER_TABLE_END -->
