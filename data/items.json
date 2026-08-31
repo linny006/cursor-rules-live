@@ -1,12 +1,12 @@
 [
   {
-    "description": "Production-ready AI agent profiles for Claude Code, Cursor, Codex, OpenClaw, and Hermes. Search, install, and contribute",
-    "id": "nota-america/forgecat-agent-profiles",
-    "language": "TypeScript",
-    "name": "nota-america/forgecat-agent-profiles",
-    "stars": 62,
-    "updated_at": "2026-08-31T21:40:54Z",
-    "url": "https://github.com/nota-america/forgecat-agent-profiles"
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 0,
+    "updated_at": "2026-08-31T21:50:08Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-31T21:30:49Z",
+    "updated_at": "2026-08-31T21:45:32Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Production-ready AI agent profiles for Claude Code, Cursor, Codex, OpenClaw, and Hermes. Search, install, and contribute",
+    "id": "nota-america/forgecat-agent-profiles",
+    "language": "TypeScript",
+    "name": "nota-america/forgecat-agent-profiles",
+    "stars": 62,
+    "updated_at": "2026-08-31T21:40:54Z",
+    "url": "https://github.com/nota-america/forgecat-agent-profiles"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -137,17 +146,8 @@
     "language": "HTML",
     "name": "Trentobobbi/uikit-mastery-playbook",
     "stars": 0,
-    "updated_at": "2026-08-31T16:57:07Z",
+    "updated_at": "2026-08-31T21:52:09Z",
     "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 0,
-    "updated_at": "2026-08-31T16:55:23Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "description": "QA skills for AI coding agents \u2014 test design, automation, audits, and defect management from a single source.",
