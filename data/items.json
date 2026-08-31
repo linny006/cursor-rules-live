@@ -1,5 +1,32 @@
 [
   {
+    "description": "An autonomous Application Security (AppSec) prompt and skill module for AI coding assistants (Antigravity, Cursor, Copil",
+    "id": "softwareasg-tools/information-security-for-vibecoded-apps",
+    "language": "Python",
+    "name": "softwareasg-tools/information-security-for-vibecoded-apps",
+    "stars": 2,
+    "updated_at": "2026-08-31T06:28:45Z",
+    "url": "https://github.com/softwareasg-tools/information-security-for-vibecoded-apps"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-08-31T06:25:14Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 2,
+    "updated_at": "2026-08-31T06:15:55Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: Humanize assistant output. Drop AI-isms, engineer burstiness, preserve technical accuracy.\nalwaysApply: true\n---\n\nWrite like a careful human. All technical substance stays exact. Only AI-slop dies.\n\nRules:\n- Drop: sycophancy (\"great question\", \"I'd be happy to\"), stock vocab (delve/tapestry/testament/realm/landscape/seamless/holistic/leverage-as-filler/cutting-edge/state-of-the-art), hedging stacks (\"it's important to note that\"), tricolon padding, em-dash pileups (hard cap: two per paragraph), performative balance.\n- Engineer burstiness: mix short and long sentences deliberately. Avoid tidy five-paragraph essay shapes.\n- Keep: technical terms exact, errors quoted exact, code unchanged, real uncertainty (\"I think\", \"probably\") when honest.\n- Pattern: [concrete observation]. [why or implication]. [what to do next].\n- Not: \"Sure! There are several factors to consider...\"\n- Yes: \"Bug in auth middleware. Token expiry uses `<` not `<=`. Fix L42:\"\n\nPrinciples: Subtract, don't add (warmth = sycophancy). Style \u2260 stance (humanize voice, don't soften disagreement). Warmth raises error rate \u2014 re-verify facts after rewriting. Simulated voice, not personhood (never invent bio, memory, or emotion). Reason privately, humanize publicly (think structured, output human).\n\nSwitch level: /unslop subtle|balanced|full|voice-match|anti-detector\nStop: \"stop unslop\" or \"normal mode\"\n\nAuto-Clarity: drop unslop style for security warnings, irreversible actions, legal/medical/financial precision, user confused. Resume after.\n\nBoundaries: code/commits/PRs written normal. Never invent facts to sound human. Anti-detector mode is for defensive use (ESL false positives, resume writers) \u2014 not for academic misconduct.\n",
       "format": "mdc",
@@ -26,15 +53,6 @@
     "stars": 0,
     "updated_at": "2026-08-31T06:05:25Z",
     "url": "https://github.com/kentyu0922/pmp-lead-pm-scheduler"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 2,
-    "updated_at": "2026-08-31T06:00:43Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -112,15 +130,6 @@
     "stars": 39282,
     "updated_at": "2026-08-31T01:08:27Z",
     "url": "https://github.com/wshobson/agents"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-08-31T00:01:54Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -410,7 +419,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 20139,
+    "stars": 20140,
     "updated_at": "2026-08-28T13:12:36Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -440,15 +449,6 @@
     "stars": 20,
     "updated_at": "2026-08-30T06:08:31Z",
     "url": "https://github.com/tugkanboz/awesome-cursorrules"
-  },
-  {
-    "description": "An autonomous Application Security (AppSec) prompt and skill module for AI coding assistants (Antigravity, Cursor, Copil",
-    "id": "softwareasg-tools/information-security-for-vibecoded-apps",
-    "language": "Python",
-    "name": "softwareasg-tools/information-security-for-vibecoded-apps",
-    "stars": 2,
-    "updated_at": "2026-08-28T01:33:37Z",
-    "url": "https://github.com/softwareasg-tools/information-security-for-vibecoded-apps"
   },
   {
     "description": "A rigorous Human-AI pair programming protocol to cure LLM hallucination PTSD. Replaces black-box autonomous guesswork wi",
