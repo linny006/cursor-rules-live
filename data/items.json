@@ -1,6 +1,29 @@
 [
   {
     "cursorrules": {
+      "content": "---\ndescription: Battle-tested engineering judgment for code, refactors, tests, and frontend UI. Ultra-terse caveman style during code work.\nalwaysApply: true\n---\n\n# Battle Tested Engineer\n\nGoal: least code, fix problem, no break working stuff.\n\n## Output style\n\n- Explain in simple terms like a human.\n- Write specs as if any engineer would easily catch. Every spec/adr/decision doc/explanation/answer should be simple, easy to understand for human engineers with no over-complication, no unnecessary details, no repeated redundant explanation in multiple blocks.\n- Document core business workflows, decisions, algorithms, approaches.\n- No extra explanation than asked.\n- No decorative tables, emoji, tool narration. Errors: quote shortest relevant line only.\n\n## 1. Think before code\n\n- State assumption, no guess.\n- Multi interpretation \u2192 show all, no pick.\n- Unclear ask \u2192 stop, name confusion, ask.\n- Simpler way exist \u2192 say it.\n\n## 2. Simplicity\n\n- Senior-line estimate; actual >4x \u2192 cut.\n- No unrequested feature/flexibility/config/error-handling for impossible case.\n- Prefer stdlib/dep over hand-roll.\n- Function many unrelated thing \u2192 split single-responsibility. Already one thing \u2192 leave.\n- YAGNI/DRY/SOLID when shape need \u2014 not checklist.\n- Comment why, not what.\n- Red flag: single-use abstraction, one-method \"manager\", options object one caller.\n\n## 3. Architecture boundaries (Clean Architecture)\n\n- Business rules are the center. Code depends inward, never outward.\n- Frameworks are tools, not foundations. UI, ORM, web framework, database are replaceable details.\n- Controllers thin: translate input/output only. No business decisions.\n- Use cases focused: one use case = one application action.\n- Domain models clean: no database, HTTP, framework, or infrastructure knowledge inside.\n- Business behavior near business data. Do not scatter rules across controllers/services/helpers.\n- Interfaces at real boundaries: external systems, storage, APIs, queues. No fake abstraction.\n- Dependencies explicit. Avoid hidden globals, magic imports, service locators, or implicit coupling.\n- Composition over inheritance. Assemble behavior instead of deep class trees.\n- Organize around business capabilities, not technical layers.\n```\nBad:    controllers/ services/ repositories/\nBetter: orders/ payments/ users/\n```\n- Design for change. Protect stable business rules from changing technology.\n- Dependency direction matters more than folder structure.\n- If removing a framework requires rewriting business logic, the boundary is wrong.\n\n## 4. Surgical change\n\n- Touch only what ask need \u2014 every changed line trace to ask.\n- Unrelated dead code \u2192 mention, no delete.\n- Own-change orphan (unused import/var/fn) \u2192 remove.\n- Refactor = structure only, zero behavior change. Never bundle feature/fix. State structural-change-vs-same first.\n- Touched behavior no test \u2192 add characterization test first.\n- Risky replace (algorithm/migration/payment) \u2192 old/new side by side.\n\n## 5. Data vs UI\n\n- Component render data, no own it. Mock one module, no literal in component.\n- Mock shape mirror real API contract.\n- Same entity twice \u2192 define once, import twice.\n- Loading/error/empty = data state, no scattered boolean.\n- Component: render/layout only. Business logic (calc/validation/transform/API call) \u2192 hook/service/plain fn.\n\n## 6. Goal-driven execution\n\n- Vague ask \u2192 verifiable goal. \"add validation\" \u2192 test invalid input, pass it. \"fix bug\" \u2192 reproduce with test, pass it. \"refactor X\" \u2192 test pass before/after.\n- Multi-step task \u2192 plan first, numbered, each with \"verify:\" check.\n\n## 7. Tests\n\n- Few high-quality beat many. Too many = hard maintain, not free coverage.\n- Smallest set catch real regression.\n- Can't name bug it catch \u2192 cut test.\n- Test public contract, not internal.\n\n## 8. Propose spec when need\n\n- PRD/spec/ADR = persistent memory for AI agent, skip re-explain context each session.\n- Non-trivial feature, ambiguous requirement, wide blast radius \u2192 propose short PRD/spec/ADR first. Small/obvious change \u2192 skip.\n- Minimal: problem, decision, alternative, consequence. No padding.\n- ADR \u2192 hard-reverse decision or cross-system effect. Spec/PRD \u2192 scope/behavior not yet pinned.\n\n## 9. Ship then improve\n\n- Feature first: get correct minimal version work. Improve/optimize/refactor gradual after \u2014 not upfront, not speculative.\n- Red-green-refactor: write failing test (red) \u2192 smallest code make pass (green) \u2192 clean structure only, tests stay green (refactor). Small cycle, not big-bang.\n- Working correct code over perfect design. Perfect later, once real usage show what actual matter.\n\n## 10. Gut-check before output\n\nAssumption stated not guessed? Diff proportionate, no dead/orphan code? Refactor behavior truly unchanged? Tests few, each catch real bug?\n\nNeed more complexity/clarify/test \u2192 say it, with tradeoff. No silent over-build, no under-deliver.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/battle-tested-engineer.mdc"
+    },
+    "description": "Reusable agent skills for battle-tested engineering judgment. Works with Claude Code, Cursor, and 10+ AI tools...",
+    "id": "sayeed1999/agent-skills",
+    "language": "\u2014",
+    "name": "sayeed1999/agent-skills",
+    "stars": 7,
+    "updated_at": "2026-08-31T16:11:38Z",
+    "url": "https://github.com/sayeed1999/agent-skills"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 2,
+    "updated_at": "2026-08-31T16:00:44Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "cursorrules": {
       "content": "---\ndescription: Reglas base del espacio. Se cargan en cada peticion.\nalwaysApply: true\n---\n\n# Core\n\nEstas reglas ganan a cualquier costumbre tuya. Si chocan con lo que pide la persona, dilo en una linea y sigue lo que ella diga.\n\n## Con quien hablas\n\nLa persona no es tecnica y no tiene por que serlo. Nada de jerga: no digas \"commit\", di \"punto de restauracion\"; no digas \"parsear\", di \"leer\". Si un termino tecnico es inevitable, explicalo en la misma frase.\n\n## Flujo\n\n- Lee antes de escribir. Nunca edites un archivo que no abriste.\n- Una cosa por vez. Al terminarla: resume y detente. Nunca encadenes la siguiente sola.\n- Ambiguo: haz una pregunta, la que mas cambie el resultado. No adivines.\n- Lo que llegue suelto en la conversacion y no sea de la tarea actual, anotalo en `entrada/` y sigue.\n- El chat es desechable; el espacio es la memoria. Una decision tomada conversando que cambie un proyecto se escribe en ese proyecto (Notas o Decisiones) en el mismo turno. Si solo vive en el chat, no existe.\n\n## Escritura\n\n- Fechas siempre absolutas: 2026-09-15, nunca \"el viernes que viene\".\n- Claro y corto. Una nota que no se entiende en una leida esta mal escrita.\n- Los `[[enlaces]]` conectan notas por nombre de archivo. Al renombrar o mover, actualiza los enlaces que apunten ahi.\n\n## Limites\n\n- Maximo 5 archivos tocados por tarea. En el sexto, detente: la tarea estaba mal partida.\n- Los bloqueos de comandos no se rodean con otra sintaxis, envoltorio ni script. Explica que querias y espera.\n- No inventes contenido de la vida de la persona: citas, montos, nombres, fechas. Lo que no este escrito en el espacio, se pregunta.\n",
       "format": "mdc",
       "path": ".cursor/rules/00-core.mdc"
@@ -15,6 +38,20 @@
   },
   {
     "cursorrules": {
+      "content": "---\ndescription: Instructions for AI agent code generation workflow\nglobs: [\"*\"]\nalwaysApply: true\n---\n\n# AI Collaboration Guidelines\n\n## The 3-Stage Agentic Loop\n\nEvery code generation task MUST follow this loop:\n\n### Stage 1: PLAN (gather context first)\n\nBefore writing ANY code, the AI MUST:\n1. Read the relevant source files to verify current state \u2014 do NOT rely on memory\n2. Identify which `.cursor/rules/` files apply to this task\n3. List the files to modify and explain why\n4. Do NOT write code yet\n\nPrompt template:\n```\nAnalyze the current codebase and plan how to implement [feature]. \nList the files you'll modify and why. Don't write code yet.\n```\n\n### Stage 2: IMPLEMENT (follow constraints)\n\nWhen generating code:\n- Follow ALL active `.cursor/rules/` constraints\n- If unsure about auth patterns, re-read `supabase-auth-security.mdc`\n- If unsure about params/layouts, re-read `nextjs15-params.mdc`\n- Use `unknown` + Zod validation instead of `any` for external data\n- Return `ActionResponse<T>` from all Server Actions (see below)\n\n### Stage 3: VERIFY (confirm before declaring done)\n\nAfter generating code, the AI MUST self-check:\n- [ ] No `getSession()` on the server (MUST be `getUser()`)\n- [ ] No synchronous `params` or `searchParams` access\n- [ ] No `@supabase/auth-helpers-nextjs` imports\n- [ ] No `any` types \u2014 use `unknown` + type narrowing\n- [ ] Every API route has Zod validation\n- [ ] Every error is caught and returns `{ error: string }`\n- [ ] New tables have RLS enabled\n- [ ] `loading.tsx` and `error.tsx` exist for data-fetching pages\n\nReport issues BEFORE the developer runs the code.\n\n## Skeptical Retrieval Rule\n\nNEVER trust stored knowledge about the codebase. Before modifying a file:\n1. Re-read the file to verify its current contents\n2. Check imports and exports to ensure they match expectations\n3. Verify that function signatures haven't changed\n\nThis prevents generating code that references stale function signatures, \ndeleted files, or renamed exports.\n\n## Standard Patterns\n\n### ActionResponse Type (use for all Server Actions)\n```typescript\ntype ActionResponse<T = void> = \n  | { success: true; data: T }\n  | { success: false; error: string }\n```\n\n### Standard Server Action Structure\n```typescript\n'use server'\nimport { createClient } from '@/lib/supabase/server'\nimport { z } from 'zod'\n\nconst Schema = z.object({ /* ... */ })\n\nexport async function myAction(input: unknown): Promise<ActionResponse<MyType>> {\n  // 1. Auth\n  const supabase = await createClient()\n  const { data: { user } } = await supabase.auth.getUser()\n  if (!user) return { success: false, error: 'Unauthorized' }\n\n  // 2. Validate\n  const result = Schema.safeParse(input)\n  if (!result.success) return { success: false, error: 'Invalid input' }\n\n  // 3. Execute\n  try {\n    const { data, error } = await supabase.from('table').insert(result.data).select().single()\n    if (error) throw error\n    return { success: true, data }\n  } catch {\n    return { success: false, error: 'Operation failed' }\n  }\n}\n```\n\n## Task Constraints\n\n- NEVER give the AI a task longer than 200 words\n- NEVER let the AI implement more than 3-4 files in one turn\n- NEVER let the AI skip the verification checklist\n- ALWAYS review the Git diff before committing\n- When uncertain, ask the developer \u2014 do NOT guess\n\n",
+      "format": "mdc",
+      "path": ".cursor/rules/ai-collaboration.mdc"
+    },
+    "description": "29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b",
+    "id": "vibestackdev/vibe-stack",
+    "language": "TypeScript",
+    "name": "vibestackdev/vibe-stack",
+    "stars": 7,
+    "updated_at": "2026-08-31T15:47:19Z",
+    "url": "https://github.com/vibestackdev/vibe-stack"
+  },
+  {
+    "cursorrules": {
       "content": "---\ndescription: quiv agent architecture rules and loop protocol\nglobs: *\nalwaysApply: true\n---\n\n# quiv Agent Architecture Rules\n\nWhen implementing full-stack features, domain logic, or complex integrations in this repository:\n\n1. **Search Before Writing**:\n   Always check the quiv registry first before writing logic from scratch:\n   ```bash\n   bunx quiv find \"<feature or problem description>\"\n   ```\n\n2. **Read Contract First**:\n   Read the pattern contract at overview level to inspect types, invariants, and constraints with minimal context:\n   ```bash\n   bunx quiv read <pattern-path> --level overview\n   ```\n\n3. **Scaffold Pattern**:\n   Pull the pattern and its dependency tree into the project:\n   ```bash\n   bunx quiv use <pattern-path> --project <project-dir>\n   ```\n\n4. **Lore-lite Commit Standard**:\n   When committing architectural changes or new patterns, always include Lore-lite trailers:\n   ```git\n   Constraint: Invariant that must not be broken\n   Rejected: Alternative evaluated | Why it failed\n   Evidence: Empirical validation / test verification\n   ```\n",
       "format": "mdc",
       "path": ".cursor/rules/quiv.mdc"
@@ -26,15 +63,6 @@
     "stars": 2,
     "updated_at": "2026-08-31T15:46:32Z",
     "url": "https://github.com/chama-x/quiv"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 2,
-    "updated_at": "2026-08-31T15:45:57Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -296,20 +324,6 @@
     "url": "https://github.com/lewes2/archpresent"
   },
   {
-    "cursorrules": {
-      "content": "---\ndescription: Instructions for AI agent code generation workflow\nglobs: [\"*\"]\nalwaysApply: true\n---\n\n# AI Collaboration Guidelines\n\n## The 3-Stage Agentic Loop\n\nEvery code generation task MUST follow this loop:\n\n### Stage 1: PLAN (gather context first)\n\nBefore writing ANY code, the AI MUST:\n1. Read the relevant source files to verify current state \u2014 do NOT rely on memory\n2. Identify which `.cursor/rules/` files apply to this task\n3. List the files to modify and explain why\n4. Do NOT write code yet\n\nPrompt template:\n```\nAnalyze the current codebase and plan how to implement [feature]. \nList the files you'll modify and why. Don't write code yet.\n```\n\n### Stage 2: IMPLEMENT (follow constraints)\n\nWhen generating code:\n- Follow ALL active `.cursor/rules/` constraints\n- If unsure about auth patterns, re-read `supabase-auth-security.mdc`\n- If unsure about params/layouts, re-read `nextjs15-params.mdc`\n- Use `unknown` + Zod validation instead of `any` for external data\n- Return `ActionResponse<T>` from all Server Actions (see below)\n\n### Stage 3: VERIFY (confirm before declaring done)\n\nAfter generating code, the AI MUST self-check:\n- [ ] No `getSession()` on the server (MUST be `getUser()`)\n- [ ] No synchronous `params` or `searchParams` access\n- [ ] No `@supabase/auth-helpers-nextjs` imports\n- [ ] No `any` types \u2014 use `unknown` + type narrowing\n- [ ] Every API route has Zod validation\n- [ ] Every error is caught and returns `{ error: string }`\n- [ ] New tables have RLS enabled\n- [ ] `loading.tsx` and `error.tsx` exist for data-fetching pages\n\nReport issues BEFORE the developer runs the code.\n\n## Skeptical Retrieval Rule\n\nNEVER trust stored knowledge about the codebase. Before modifying a file:\n1. Re-read the file to verify its current contents\n2. Check imports and exports to ensure they match expectations\n3. Verify that function signatures haven't changed\n\nThis prevents generating code that references stale function signatures, \ndeleted files, or renamed exports.\n\n## Standard Patterns\n\n### ActionResponse Type (use for all Server Actions)\n```typescript\ntype ActionResponse<T = void> = \n  | { success: true; data: T }\n  | { success: false; error: string }\n```\n\n### Standard Server Action Structure\n```typescript\n'use server'\nimport { createClient } from '@/lib/supabase/server'\nimport { z } from 'zod'\n\nconst Schema = z.object({ /* ... */ })\n\nexport async function myAction(input: unknown): Promise<ActionResponse<MyType>> {\n  // 1. Auth\n  const supabase = await createClient()\n  const { data: { user } } = await supabase.auth.getUser()\n  if (!user) return { success: false, error: 'Unauthorized' }\n\n  // 2. Validate\n  const result = Schema.safeParse(input)\n  if (!result.success) return { success: false, error: 'Invalid input' }\n\n  // 3. Execute\n  try {\n    const { data, error } = await supabase.from('table').insert(result.data).select().single()\n    if (error) throw error\n    return { success: true, data }\n  } catch {\n    return { success: false, error: 'Operation failed' }\n  }\n}\n```\n\n## Task Constraints\n\n- NEVER give the AI a task longer than 200 words\n- NEVER let the AI implement more than 3-4 files in one turn\n- NEVER let the AI skip the verification checklist\n- ALWAYS review the Git diff before committing\n- When uncertain, ask the developer \u2014 do NOT guess\n\n",
-      "format": "mdc",
-      "path": ".cursor/rules/ai-collaboration.mdc"
-    },
-    "description": "29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b",
-    "id": "vibestackdev/vibe-stack",
-    "language": "TypeScript",
-    "name": "vibestackdev/vibe-stack",
-    "stars": 7,
-    "updated_at": "2026-08-31T15:47:19Z",
-    "url": "https://github.com/vibestackdev/vibe-stack"
-  },
-  {
     "description": "Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align",
     "id": "MnemeHQ/mneme",
     "language": "Python",
@@ -504,14 +518,5 @@
     "stars": 2,
     "updated_at": "2026-08-28T07:54:17Z",
     "url": "https://github.com/fromfireside/better-tropes"
-  },
-  {
-    "description": "A curated list of awesome .cursorrules files for enhancing your Cursor AI experience.",
-    "id": "tugkanboz/awesome-cursorrules",
-    "language": "\u2014",
-    "name": "tugkanboz/awesome-cursorrules",
-    "stars": 20,
-    "updated_at": "2026-08-30T06:08:31Z",
-    "url": "https://github.com/tugkanboz/awesome-cursorrules"
   }
 ]
