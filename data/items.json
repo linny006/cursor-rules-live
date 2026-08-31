@@ -1,11 +1,20 @@
 [
   {
+    "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
+    "id": "pekral/cursor-rules",
+    "language": "PHP",
+    "name": "pekral/cursor-rules",
+    "stars": 6,
+    "updated_at": "2026-08-31T08:13:26Z",
+    "url": "https://github.com/pekral/cursor-rules"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-08-31T07:45:42Z",
+    "updated_at": "2026-08-31T08:00:45Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -494,19 +503,5 @@
     "stars": 17,
     "updated_at": "2026-08-27T15:32:04Z",
     "url": "https://github.com/mikeprasad/aria-knowledge"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Dispatcher for Agent Engineer Skills. Maps feature-development work to one skill. Use skill: <id> runs only that skill. Lookup is skills/<id>/SKILL.md in this pack, or the host skill folder after install.\nalwaysApply: true\n---\n\n# Agent Engineer Skills dispatcher\n\nThis repo is a collection of skills for developing features. A skill is a structured instruction set and execution contract, not optional style advice.\n\n`Use skill: <id>` always selects that skill and **only** that skill. The **id** is the leaf folder name. Read that skill's `SKILL.md` from the first path that exists: `skills/<id>/SKILL.md` (this pack), else `.cursor/skills/<id>/SKILL.md` (Cursor app install), else `.agents/skills/<id>/SKILL.md` (Antigravity app install). Do not start the next skill unless the user named it. `SKILL.md` is authoritative if this rule and the skill file diverge.\n\nThis pack stores each skill once, at `skills/<id>/`. Family (`feature-builder` or `mvp-builder`) is grouping only, not a folder. Do not keep extra copies of the skill folders in this repo.\n\nThere is no composer / harness skill in this collection. If the user asks for a harness, end-to-end path runner, or `feature-harness`, do not invent one. Tell them to name each skill they want (`feature-developer`, `feature-code-reviewer`, `feature-refactorer`, `feature-tester`).\n\n## Install\n\nWhen the user asks to install this pack into an app, follow `README.md` How to install. That is not a skill. Do not start `feature-specifier`.\n\nMUST stop and ask once, before creating the docs folder, where markdown output should live (`what-to-build.md` and the sibling write-ups). Use `AskQuestion` when the host has it:\n\n- Default: keep the **folder** `agent-engineer-skills/` (docs in `agent-engineer-skills/<feature-name>/`)\n- Custom: the operator types a repo-relative **folder**; create that directory; files go in `<folder>/<feature-name>/`\n\nDo not skip the question. Do not choose a path for them. Create that path as a **directory** (default name `agent-engineer-skills`). Never write a file named `aes-write-up-root`; if that file exists, delete it. Set the Feature-folder write-ups line in the app's `AGENTS.md` and in the app's copy of this dispatcher to that folder.\n\n## Where SKILL.md lives\n\n| id | Path |\n| --- | --- |\n| `feature-specifier` | `skills/feature-specifier/SKILL.md` |\n| `feature-bug-analyst` | `skills/feature-bug-analyst/SKILL.md` |\n| `feature-developer` | `skills/feature-developer/SKILL.md` |\n| `feature-code-reviewer` | `skills/feature-code-reviewer/SKILL.md` |\n| `feature-refactorer` | `skills/feature-refactorer/SKILL.md` |\n| `feature-tester` | `skills/feature-tester/SKILL.md` |\n| `mvp-specifier` | `skills/mvp-specifier/SKILL.md` |\n\nTemplates live in `assets/` next to that `SKILL.md`. Feature-folder write-ups live under `agent-engineer-skills/<name>/`. After a custom install, the **app** `AGENTS.md` and this dispatcher name that docs folder instead. That path is a directory, not a file.\n\n## Decision mapping\n\nWhen the user did not name a skill id:\n\n| User intent | Skill |\n| --- | --- |\n| Vague idea, problem, or feature; spec before code (feature in an existing repo) | `feature-specifier` |\n| Defect, crash, wrong output, regression, or flaky failure to analyze before a fix | `feature-bug-analyst` |\n| Prototype, MVP, new project, greenfield, or pitch | `mvp-specifier` |\n| Implement this specification / this feature folder | `feature-developer` |\n| Review this feature folder, or review against `what-to-build.md` | `feature-code-reviewer` |\n| Messy existing module / refactor / extract / split, no new product | `feature-refactorer` |\n| Test or verify this feature folder against `what-to-build.md` | `feature-tester` |\n| Install this pack into an app | Not a skill. Follow README How to install. Ask once for the docs folder. |\n\nIf they named one skill, run only that skill. `Use skill: feature-verifier` is the old name for `feature-tester`. `Use skill: pitch-to-spec` is the old name for `mvp-specifier`.\n\nIf the specification is missing or the idea is fuzzy: a feature in an existing app is `feature-specifier`; a prototype, MVP, new project, greenfield, or pitch is `mvp-specifier`. A reported defect with expected vs actual (or a stacktrace) is `feature-bug-analyst`, not `feature-specifier`. A generic \"I have an idea\" in an existing app still maps to `feature-specifier`. If they named implement, review, test, or refactor alone, stop after that skill. `mvp-specifier` must not start `feature-developer` in the same chat. `feature-bug-analyst` must not start `feature-developer` unless the user named it. `feature-refactorer` must not start `feature-code-reviewer` unless the user named it.\n\n## Global contract\n\n1. Follow the steps in that skill's `SKILL.md` in order. Do not skip, merge, or reorder.\n2. Instantiate templates from that skill's `assets/` folder. Do not invent alternate structures.\n3. Check the finished write-up against that skill's `Before you finish` list, and fix what fails.\n4. Stop when the skill says to wait (questions, missing specification, product landmine). `ok` / `lgtm` is not a skip.\n5. Capability claims require evidence paths. Unknown tools are `unknown` or `absent`, never implied.\n6. No icons or emojis in artifacts.\n7. Consuming-project security and secrets policy wins. This framework wins on templates and required write-up content for the named skill. Skill order wins only when the user named the next skill. Code style of the consuming project wins for source.\n\n## Do not\n\n- Chain specifier \u2192 developer \u2192 reviewer \u2192 tester unless the user named each skill.\n- Chain bug-analyst \u2192 developer unless the user named the next skill.\n- Chain `feature-refactorer` \u2192 reviewer or tester unless the user named the next skill.\n- Run `feature-developer` while the requirement is ambiguous.\n- Invent or restore `feature-harness` / a path runner.\n- Run `mvp-specifier` for a feature in an existing repo (use `feature-specifier`). Do not start `feature-developer` in the same chat as `mvp-specifier`.\n- Run `feature-specifier` for a defect that already has expected vs actual (use `feature-bug-analyst`).\n- Run `feature-code-reviewer` for a messy module with no feature spec (use `feature-refactorer`).\n- Invent extra spec packs, CI, or a threat-model essay as part of these skills.\n- Log secrets in skill artifacts.\n\nQuick start: `README.md`. Feature folders: `agent-engineer-skills/README.md`. Write-up root pointer: `AGENTS.md`. Add a skill: `README.md` (Add a skill).\n",
-      "format": "mdc",
-      "path": ".cursor/rules/agent-engineer-skills.mdc"
-    },
-    "description": "Agent skills for building features and MVPs. Spec, build, review, test - one named job at a time.",
-    "id": "lucas-winter-berlin/Agent-Engineer-Skills",
-    "language": "PowerShell",
-    "name": "lucas-winter-berlin/Agent-Engineer-Skills",
-    "stars": 0,
-    "updated_at": "2026-08-27T07:58:14Z",
-    "url": "https://github.com/lucas-winter-berlin/Agent-Engineer-Skills"
   }
 ]
