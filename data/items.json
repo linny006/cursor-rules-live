@@ -1,12 +1,12 @@
 [
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 2,
-    "updated_at": "2026-08-31T18:00:35Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
+    "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 plus AIOS, an open-source markdown memory system for coding ",
+    "id": "sublimecoder/sublimecoding",
+    "language": "\u2014",
+    "name": "sublimecoder/sublimecoding",
+    "stars": 0,
+    "updated_at": "2026-08-31T18:24:50Z",
+    "url": "https://github.com/sublimecoder/sublimecoding"
   },
   {
     "cursorrules": {
@@ -19,8 +19,17 @@
     "language": "JavaScript",
     "name": "karenrebecag/en-orden",
     "stars": 0,
-    "updated_at": "2026-08-31T17:45:06Z",
+    "updated_at": "2026-08-31T18:23:58Z",
     "url": "https://github.com/karenrebecag/en-orden"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 2,
+    "updated_at": "2026-08-31T18:15:41Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Production-ready AI agent profiles for Claude Code, Cursor, Codex, OpenClaw, and Hermes. Search, install, and contribute",
@@ -28,7 +37,7 @@
     "language": "TypeScript",
     "name": "nota-america/forgecat-agent-profiles",
     "stars": 62,
-    "updated_at": "2026-08-31T17:42:03Z",
+    "updated_at": "2026-08-31T18:25:39Z",
     "url": "https://github.com/nota-america/forgecat-agent-profiles"
   },
   {
@@ -509,14 +518,5 @@
     "stars": 20154,
     "updated_at": "2026-08-28T13:12:36Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
-  },
-  {
-    "description": "\u5168\u7403\u9152\u5e97\u9884\u8ba2&\u4f4e\u4ef7\u76d1\u63a7\u63d0\u9192Skill\uff0c200\u4e07+\u7cbe\u9009\u9152\u5e97\uff0c\u72ec\u5bb6\u4f18\u60e0\u4ef7\u683c\uff0c\u8ba9\u4f60\u7684Agent\u8f7b\u677e\u9884\u8ba2\u54c1\u8d28\u9152\u5e97\uff0c\u652f\u6301\u652f\u4ed8\u5b9d\u4e0b\u5355+\u67e5\u8be2\u5386\u53f2\u8ba2\u5355\uff0c24 \u5c0f\u65f6\u5ba2\u670d\u652f\u6301\uff0c\u5168\u5929\u5019\u54cd\u5e94\u3002",
-    "id": "RollingGo-AI/rollinggo-hotel-skill-cn",
-    "language": "Python",
-    "name": "RollingGo-AI/rollinggo-hotel-skill-cn",
-    "stars": 148,
-    "updated_at": "2026-08-28T08:24:57Z",
-    "url": "https://github.com/RollingGo-AI/rollinggo-hotel-skill-cn"
   }
 ]
