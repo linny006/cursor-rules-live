@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 2,
+    "updated_at": "2026-09-01T15:45:31Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 plus AIOS, an open-source markdown memory system for coding ",
     "id": "sublimecoder/sublimecoding",
     "language": "\u2014",
@@ -9,13 +18,22 @@
     "url": "https://github.com/sublimecoder/sublimecoding"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
     "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 2,
-    "updated_at": "2026-09-01T15:30:55Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-09-01T15:18:27Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 3,
+    "updated_at": "2026-09-01T14:57:57Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "cursorrules": {
@@ -27,7 +45,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39328,
+    "stars": 39329,
     "updated_at": "2026-09-01T14:48:45Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -114,15 +132,6 @@
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-09-01T15:18:27Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
     "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
     "id": "fluttersdk/wind",
     "language": "Dart",
@@ -130,15 +139,6 @@
     "stars": 33,
     "updated_at": "2026-09-01T10:38:05Z",
     "url": "https://github.com/fluttersdk/wind"
-  },
-  {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 3,
-    "updated_at": "2026-09-01T14:57:57Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "description": "Auto harness engineering meta-repo: discuss \u2192 curate \u2192 bootstrap a context-engineered project for Claude Code, Cursor, C",
