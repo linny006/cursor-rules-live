@@ -1,12 +1,12 @@
 [
   {
-    "description": "Official AI Agent Plugins & Skills Marketplace for Antigravity (AGY), Claude Code, and Cursor",
-    "id": "orin-dx/agent-plugins",
-    "language": "Shell",
-    "name": "orin-dx/agent-plugins",
-    "stars": 1,
-    "updated_at": "2026-09-01T21:02:35Z",
-    "url": "https://github.com/orin-dx/agent-plugins"
+    "description": "Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony.",
+    "id": "saqie803/ponytail",
+    "language": "JavaScript",
+    "name": "saqie803/ponytail",
+    "stars": 0,
+    "updated_at": "2026-09-01T21:25:05Z",
+    "url": "https://github.com/saqie803/ponytail"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-09-01T21:00:41Z",
+    "updated_at": "2026-09-01T21:15:41Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Official AI Agent Plugins & Skills Marketplace for Antigravity (AGY), Claude Code, and Cursor",
+    "id": "orin-dx/agent-plugins",
+    "language": "Shell",
+    "name": "orin-dx/agent-plugins",
+    "stars": 1,
+    "updated_at": "2026-09-01T21:02:35Z",
+    "url": "https://github.com/orin-dx/agent-plugins"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -46,7 +55,7 @@
     "language": "Python",
     "name": "wshobson/agents",
     "stars": 39332,
-    "updated_at": "2026-09-01T20:57:42Z",
+    "updated_at": "2026-09-01T21:23:00Z",
     "url": "https://github.com/wshobson/agents"
   },
   {
@@ -228,15 +237,6 @@
     "url": "https://github.com/glowElephant/context-forge"
   },
   {
-    "description": "Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony.",
-    "id": "saqie803/ponytail",
-    "language": "JavaScript",
-    "name": "saqie803/ponytail",
-    "stars": 0,
-    "updated_at": "2026-09-01T07:22:54Z",
-    "url": "https://github.com/saqie803/ponytail"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: Quiv Architecture Knowledge System Global Agent Rule\nglobs: *\nalwaysApply: true\n---\n\n# Quiv Architecture Rule for AI Agents\n\n- **Stop Starting from Scratch**: Always check for existing proven/validated architectural patterns before writing boilerplate or designing state/layout from zero.\n- **Day-to-Day Workflow**:\n  1. `quiv find \"<query>\"` to discover relevant patterns.\n  2. `quiv read <pattern> --level overview` to understand constraints and rejected approaches (<300t budget).\n  3. `quiv use <pattern> --dest ./src --project <project-name>` to scaffold the pattern and its recursive dependencies.\n  4. `quiv learn --from <path> --tier <tier> --name <name> -m <msg> -c <constraints> -r <rejected> -e <evidence>` to harvest new reusable components at the end of a project.\n- **Lore-lite Standard**: When adding or learning patterns, always document:\n  - `Constraint:` what must not break\n  - `Rejected:` alternatives tried and why they failed\n  - `Evidence:` benchmark or test verification\n",
       "format": "mdc",
@@ -407,7 +407,7 @@
     "language": "Shell",
     "name": "kleosr/kleosrules",
     "stars": 2,
-    "updated_at": "2026-08-31T02:17:45Z",
+    "updated_at": "2026-09-01T21:15:32Z",
     "url": "https://github.com/kleosr/kleosrules"
   },
   {
