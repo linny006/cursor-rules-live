@@ -1,11 +1,25 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: Premier expert system for crafting, tailoring, auditing, and optimizing technical resumes, CVs, cover letters, and engineering portfolios using Harvard CS, Google XYZ, and Amazon 16 LPs standards.\nglobs: **/*resume*, **/*cv*, **/*portfolio*, **/*cover-letter*, **/*.tex\nalwaysApply: false\n---\n\n# Technical Resume, Cover Letter & Portfolio Expert (Cursor Rule)\n\nWhen writing, auditing, or optimizing a resume, CV, cover letter, or portfolio:\n\n1. **Harvard / Google XYZ Model:** Formulate every bullet point as:\n   `Accomplished [X] as measured by [Y], by doing [Z]`\n2. **Amazon 16 LPs:** Embed concrete engineering proxies (latency p99, FinOps cost cutting, RFC-to-prod ownership, zero-downtime migrations).\n3. **Anti-AI-Slop:** Eliminate empty verbs (*spearheaded, orchestrated, revolutionized*) and soft-skill clich\u00e9s (*team player, detail-oriented*).\n4. **ATS Compliance:** Single-column layout, standard fonts (Inter, Calibri, Latin Modern), right-aligned dates, zero graphic skill bars.\n5. **Multi-Persona Audit:** Evaluate through 4 gates (Gate 1: ATS Parser, Gate 2: Recruiter 6-sec Scan, Gate 3: EM Deep-Dive, Gate 4: Bar Raiser).\n\nRefer to the complete skill documentation in `SKILL.md` and reference guides in `references/`.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/tech-resume-expert.mdc"
+    },
+    "description": "Premier expert system for crafting, tailoring, auditing, and optimizing technical resumes, CVs, cover letters, and engin",
+    "id": "sahillangoo/tech-resume-expert",
+    "language": "TeX",
+    "name": "sahillangoo/tech-resume-expert",
+    "stars": 0,
+    "updated_at": "2026-09-01T19:38:56Z",
+    "url": "https://github.com/sahillangoo/tech-resume-expert"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-09-01T19:15:40Z",
+    "updated_at": "2026-09-01T19:30:32Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -509,14 +523,5 @@
     "stars": 0,
     "updated_at": "2026-08-29T23:50:14Z",
     "url": "https://github.com/Texarkanine/ai-rizz"
-  },
-  {
-    "description": "An anti-AI-slop writing standard and checker for AI-drafted text. Scores any document 0-100 against 43 rules on four axe",
-    "id": "eugeniughelbur/clearmode",
-    "language": "Python",
-    "name": "eugeniughelbur/clearmode",
-    "stars": 1,
-    "updated_at": "2026-08-29T12:30:10Z",
-    "url": "https://github.com/eugeniughelbur/clearmode"
   }
 ]
