@@ -1,8 +1,17 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 2,
+    "updated_at": "2026-09-01T17:15:54Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Industrial-grade development pipeline for AI coding agents \u2014 12 skills, 7 layers, 16+ platforms. Works with Claude Code,",
     "id": "RahulHulsure/-Ironworks",
-    "language": "\u2014",
+    "language": "PowerShell",
     "name": "RahulHulsure/-Ironworks",
     "stars": 0,
     "updated_at": "2026-09-01T17:07:16Z",
@@ -16,20 +25,11 @@
     },
     "description": "The marketing OS for AI agents \u2014 think like a marketer first, get tactics as the output.",
     "id": "axelfreeman/marketing-mindset",
-    "language": "\u2014",
+    "language": "Python",
     "name": "axelfreeman/marketing-mindset",
     "stars": 0,
     "updated_at": "2026-09-01T17:02:03Z",
     "url": "https://github.com/axelfreeman/marketing-mindset"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 2,
-    "updated_at": "2026-09-01T17:00:48Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 plus AIOS, an open-source markdown memory system for coding ",
