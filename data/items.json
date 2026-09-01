@@ -1,11 +1,20 @@
 [
   {
+    "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 plus AIOS, an open-source markdown memory system for coding ",
+    "id": "sublimecoder/sublimecoding",
+    "language": "\u2014",
+    "name": "sublimecoder/sublimecoding",
+    "stars": 0,
+    "updated_at": "2026-09-01T15:44:32Z",
+    "url": "https://github.com/sublimecoder/sublimecoding"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-09-01T15:15:34Z",
+    "updated_at": "2026-09-01T15:30:55Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -18,7 +27,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39327,
+    "stars": 39328,
     "updated_at": "2026-09-01T14:48:45Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -219,15 +228,6 @@
     "url": "https://github.com/karenrebecag/en-orden"
   },
   {
-    "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 plus AIOS, an open-source markdown memory system for coding ",
-    "id": "sublimecoder/sublimecoding",
-    "language": "\u2014",
-    "name": "sublimecoder/sublimecoding",
-    "stars": 0,
-    "updated_at": "2026-08-31T18:24:50Z",
-    "url": "https://github.com/sublimecoder/sublimecoding"
-  },
-  {
     "description": "QA skills for AI coding agents \u2014 test design, automation, audits, and defect management from a single source.",
     "id": "smirnovalex-qa/qa-skills",
     "language": "JavaScript",
@@ -415,7 +415,7 @@
     "language": "\u2014",
     "name": "Hyanthropological659/clarify-skill",
     "stars": 1,
-    "updated_at": "2026-08-30T04:46:24Z",
+    "updated_at": "2026-09-01T15:39:57Z",
     "url": "https://github.com/Hyanthropological659/clarify-skill"
   },
   {
@@ -424,7 +424,7 @@
     "language": "\u2014",
     "name": "Overseastelegramaliterateperson865/awesome-claude-md",
     "stars": 1,
-    "updated_at": "2026-08-30T04:42:30Z",
+    "updated_at": "2026-09-01T15:35:24Z",
     "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
   },
   {
