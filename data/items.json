@@ -5,8 +5,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-09-01T14:35:35Z",
+    "updated_at": "2026-09-01T14:45:47Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
+    "id": "agenticstandardcontact-byte/agentic-architect",
+    "language": "HTML",
+    "name": "agenticstandardcontact-byte/agentic-architect",
+    "stars": 0,
+    "updated_at": "2026-09-01T14:08:40Z",
+    "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
   },
   {
     "cursorrules": {
@@ -19,7 +28,7 @@
     "language": "Python",
     "name": "wshobson/agents",
     "stars": 39326,
-    "updated_at": "2026-09-01T14:34:50Z",
+    "updated_at": "2026-09-01T14:48:45Z",
     "url": "https://github.com/wshobson/agents"
   },
   {
@@ -119,7 +128,7 @@
     "language": "HTML",
     "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
     "stars": 3,
-    "updated_at": "2026-09-01T10:14:42Z",
+    "updated_at": "2026-09-01T14:57:57Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
@@ -217,15 +226,6 @@
     "stars": 0,
     "updated_at": "2026-08-31T18:24:50Z",
     "url": "https://github.com/sublimecoder/sublimecoding"
-  },
-  {
-    "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
-    "id": "agenticstandardcontact-byte/agentic-architect",
-    "language": "HTML",
-    "name": "agenticstandardcontact-byte/agentic-architect",
-    "stars": 0,
-    "updated_at": "2026-09-01T14:08:40Z",
-    "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
   },
   {
     "description": "QA skills for AI coding agents \u2014 test design, automation, audits, and defect management from a single source.",
