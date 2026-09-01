@@ -1,5 +1,14 @@
 [
   {
+    "description": "Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony.",
+    "id": "saqie803/ponytail",
+    "language": "JavaScript",
+    "name": "saqie803/ponytail",
+    "stars": 0,
+    "updated_at": "2026-09-01T07:22:54Z",
+    "url": "https://github.com/saqie803/ponytail"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: Quiv Architecture Knowledge System Global Agent Rule\nglobs: *\nalwaysApply: true\n---\n\n# Quiv Architecture Rule for AI Agents\n\n- **Stop Starting from Scratch**: Always check for existing proven/validated architectural patterns before writing boilerplate or designing state/layout from zero.\n- **Day-to-Day Workflow**:\n  1. `quiv find \"<query>\"` to discover relevant patterns.\n  2. `quiv read <pattern> --level overview` to understand constraints and rejected approaches (<300t budget).\n  3. `quiv use <pattern> --dest ./src --project <project-name>` to scaffold the pattern and its recursive dependencies.\n  4. `quiv learn --from <path> --tier <tier> --name <name> -m <msg> -c <constraints> -r <rejected> -e <evidence>` to harvest new reusable components at the end of a project.\n- **Lore-lite Standard**: When adding or learning patterns, always document:\n  - `Constraint:` what must not break\n  - `Rejected:` alternatives tried and why they failed\n  - `Evidence:` benchmark or test verification\n",
       "format": "mdc",
@@ -10,8 +19,26 @@
     "language": "TypeScript",
     "name": "chama-x/quiv",
     "stars": 3,
-    "updated_at": "2026-09-01T07:13:58Z",
+    "updated_at": "2026-09-01T07:18:50Z",
     "url": "https://github.com/chama-x/quiv"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 2,
+    "updated_at": "2026-09-01T07:15:53Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
+    "id": "Laurellagloomy260/cursor-rules-generator",
+    "language": "\u2014",
+    "name": "Laurellagloomy260/cursor-rules-generator",
+    "stars": 0,
+    "updated_at": "2026-09-01T07:14:47Z",
+    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
   },
   {
     "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
@@ -23,20 +50,11 @@
     "url": "https://github.com/Bastioned-successor320/learn-nanobot"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 2,
-    "updated_at": "2026-09-01T07:00:47Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
     "id": "KbWen/agentic-os",
     "language": "Python",
     "name": "KbWen/agentic-os",
-    "stars": 153,
+    "stars": 154,
     "updated_at": "2026-09-01T06:58:00Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
@@ -103,24 +121,6 @@
     "stars": 0,
     "updated_at": "2026-09-01T01:07:40Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony.",
-    "id": "saqie803/ponytail",
-    "language": "JavaScript",
-    "name": "saqie803/ponytail",
-    "stars": 0,
-    "updated_at": "2026-09-01T00:27:27Z",
-    "url": "https://github.com/saqie803/ponytail"
-  },
-  {
-    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
-    "id": "Laurellagloomy260/cursor-rules-generator",
-    "language": "\u2014",
-    "name": "Laurellagloomy260/cursor-rules-generator",
-    "stars": 0,
-    "updated_at": "2026-09-01T07:14:47Z",
-    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -328,7 +328,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39313,
+    "stars": 39314,
     "updated_at": "2026-08-31T01:08:27Z",
     "url": "https://github.com/wshobson/agents"
   },
