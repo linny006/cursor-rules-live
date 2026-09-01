@@ -5,8 +5,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-09-01T13:45:34Z",
+    "updated_at": "2026-09-01T14:00:47Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 153,
+    "updated_at": "2026-09-01T13:45:57Z",
+    "url": "https://github.com/KbWen/agentic-os"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -34,15 +43,6 @@
     "stars": 0,
     "updated_at": "2026-09-01T13:13:38Z",
     "url": "https://github.com/ashish7802/awesome-agent-skills"
-  },
-  {
-    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
-    "id": "KbWen/agentic-os",
-    "language": "Python",
-    "name": "KbWen/agentic-os",
-    "stars": 153,
-    "updated_at": "2026-09-01T13:45:57Z",
-    "url": "https://github.com/KbWen/agentic-os"
   },
   {
     "cursorrules": {
@@ -210,7 +210,7 @@
     "language": "HTML",
     "name": "agenticstandardcontact-byte/agentic-architect",
     "stars": 0,
-    "updated_at": "2026-08-31T17:03:35Z",
+    "updated_at": "2026-09-01T14:08:40Z",
     "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
   },
   {
@@ -347,7 +347,7 @@
     "language": "Python",
     "name": "wshobson/agents",
     "stars": 39325,
-    "updated_at": "2026-09-01T14:00:07Z",
+    "updated_at": "2026-09-01T14:02:47Z",
     "url": "https://github.com/wshobson/agents"
   },
   {
