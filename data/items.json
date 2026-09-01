@@ -1,12 +1,30 @@
 [
   {
+    "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
+    "id": "fluttersdk/wind",
+    "language": "Dart",
+    "name": "fluttersdk/wind",
+    "stars": 33,
+    "updated_at": "2026-09-01T10:25:06Z",
+    "url": "https://github.com/fluttersdk/wind"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-09-01T10:00:48Z",
+    "updated_at": "2026-09-01T10:15:48Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 3,
+    "updated_at": "2026-09-01T10:14:42Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -116,15 +134,6 @@
     "stars": 1,
     "updated_at": "2026-09-01T05:52:29Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 3,
-    "updated_at": "2026-09-01T10:14:42Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "cursorrules": {
@@ -328,7 +337,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39318,
+    "stars": 39319,
     "updated_at": "2026-08-31T01:08:27Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -504,19 +513,5 @@
     "stars": 1,
     "updated_at": "2026-08-29T10:23:53Z",
     "url": "https://github.com/IyedNasra/skeptic"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Guard execution of approved plan/burndown work: forbid reward hacking and feature deletion; require checkpoints, context discipline, safe terminal use, and fresh verification. Apply to approved plan-*.md, complete-everything, or burndown-full runs; binding for any implementation model.\nglobs:\nalwaysApply: true\n---\n\n# Composer 2.5 Execution Adapter\n\nYou are executing an **already-approved plan** (a `plan-*.md` audit/burndown authored and reviewed with a stronger reasoning model). Your job is faithful, verifiable *implementation* \u2014 not re-planning or inventing unrelated scope. When `complete-everything` is explicitly active, its connected closure set (planned + previously parked + discovered blast-radius work) is part of the approved scope. When `burndown-full` is active, repo-wide search determines mechanical scope. These rules are tuned to Composer 2.5's known failure modes and are binding for every change.\n\n## 1. Anti-reward-hacking (highest priority)\nSatisfy the **intent**, never just the check. Forbidden:\n- Hardcoding expected outputs, asserting trivialities, or narrowing a test so it cannot fail.\n- Deleting, skipping, or `.only`-ing a failing test to get green.\n- Silencing errors with `@ts-ignore`, `eslint-disable`, broad `try/catch`, or `any` instead of fixing the cause.\n- Stubbing/mocking the very thing under test.\n- Reconstructing or faking data from caches, snapshots, fixtures, or bytecode to appear correct.\n\nA green suite is necessary, not sufficient. In your trace, state why the change is correct \u2014 not just that checks pass.\n\n## 2. Anti-feature-deletion\n- Never delete or \"simplify away\" working code, features, routes, props, handlers, or states to pass checks or reduce scope. If something seems removable, leave it and note it for review.\n- When replacing an implementation, preserve the existing public API, behavior, and output unless the approved plan explicitly says otherwise.\n\n## 3. Small, checkpointed units\n- Implement one burndown item (or one tight group) at a time. Do not execute the whole plan in a single unattended rollout.\n- After each unit: run the relevant tests / typecheck / lint and confirm green.\n- **Default mode:** stop at the plan's phase boundaries for review; do not auto-advance.\n- **Explicit closure mode:** when the user invokes `complete-everything` or `burndown-full`, a phase boundary is an audit checkpoint, not a permission stop. Persist state, report meaningful progress, and auto-advance until the closure set is empty or a real human gate below is reached.\n- If a tool call fails or a step dead-ends, fix that step before continuing \u2014 never paper over it and push on.\n\n## 4. Context discipline (200k window)\n- Work per-surface / per-module; load only the files needed for the current unit. Do not try to hold the whole repo in context.\n- For wide work, build the inventory/checklist first, then iterate through it in batches.\n\n## 5. Terminal caution\n- Re-read any shell command before running. For anything destructive (migrations, `rm`, force-push, prod-pointed scripts, DB writes), prefer a dry-run/preview and pause for confirmation. Never run a state-mutating command unless it is in the approved plan.\n- Schema DDL, RPCs, edge functions, policies, or buckets explicitly required by the approved plan are not optional follow-ups. With the target environment confirmed, deploy and verify them under `full-stack-ship-discipline`; do not pause solely because the implementation uses a migration.\n\n## 6. Verify-before-trust\n- Before each change, state in one line: what behavior must stay identical here \u2014 then confirm it does.\n- Surface assumptions; if the plan is ambiguous for this item, ask rather than guess.\n- Leave a short trace per change (what / why / what was verified) so a human can audit the rollout.\n\n## 7. Follow the plan's conventions\n- The target repo is inconsistent by assumption (that's why it was audited). Treat the design-system spec / canonical patterns defined in the plan as the convention \u2014 don't invent a new per-file style.\n\n## STOP and ask the human if:\n- A real data/contract/endpoint/target is unknown (don't fabricate a substitute).\n- A fix would change public behavior/API/output not covered by the approved plan.\n- A change touches auth behavior, RLS semantics, secrets/rotation, payments, destructive production-data mutation, or an unconfirmed migration target (consider routing these to a stronger model rather than executing directly).\n- Do **not** stop merely because an approved feature requires non-destructive schema DDL on a confirmed target; deploy and verify it under `full-stack-ship-discipline`.\n- The only way to pass is a shortcut that doesn't satisfy the real intent.\n- Tests would need to be deleted, skipped, or weakened to pass.\n\nWhen unsure, research before acting (`/research`).\n",
-      "format": "mdc",
-      "path": ".cursor/rules/composer-2.5-execution.mdc"
-    },
-    "description": "\ud83e\udd96Curated Cursor AI agent skills, slash commands, MCP configs, subagents & rules for full-stack dev \u2014 React 19, Next.js 1",
-    "id": "kensaurus/cursor-kenji",
-    "language": "JavaScript",
-    "name": "kensaurus/cursor-kenji",
-    "stars": 9,
-    "updated_at": "2026-08-28T22:40:01Z",
-    "url": "https://github.com/kensaurus/cursor-kenji"
   }
 ]
