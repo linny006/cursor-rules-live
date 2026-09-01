@@ -1,12 +1,12 @@
 [
   {
-    "description": "Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony.",
-    "id": "saqie803/ponytail",
-    "language": "JavaScript",
-    "name": "saqie803/ponytail",
-    "stars": 0,
-    "updated_at": "2026-09-01T21:25:05Z",
-    "url": "https://github.com/saqie803/ponytail"
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-09-01T21:39:12Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-09-01T21:15:41Z",
+    "updated_at": "2026-09-01T21:30:35Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony.",
+    "id": "saqie803/ponytail",
+    "language": "JavaScript",
+    "name": "saqie803/ponytail",
+    "stars": 0,
+    "updated_at": "2026-09-01T21:25:05Z",
+    "url": "https://github.com/saqie803/ponytail"
   },
   {
     "description": "Official AI Agent Plugins & Skills Marketplace for Antigravity (AGY), Claude Code, and Cursor",
@@ -55,7 +64,7 @@
     "language": "Python",
     "name": "wshobson/agents",
     "stars": 39332,
-    "updated_at": "2026-09-01T21:23:00Z",
+    "updated_at": "2026-09-01T21:33:40Z",
     "url": "https://github.com/wshobson/agents"
   },
   {
@@ -80,15 +89,6 @@
     "stars": 0,
     "updated_at": "2026-09-01T19:38:56Z",
     "url": "https://github.com/sahillangoo/tech-resume-expert"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-09-01T19:00:04Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -407,7 +407,7 @@
     "language": "Shell",
     "name": "kleosr/kleosrules",
     "stars": 2,
-    "updated_at": "2026-09-01T21:15:32Z",
+    "updated_at": "2026-09-01T21:34:21Z",
     "url": "https://github.com/kleosr/kleosrules"
   },
   {
