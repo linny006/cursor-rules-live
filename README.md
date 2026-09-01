@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-01 15:00 UTC
+> ⏰ Last updated: 2026-09-01 15:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -54,9 +54,9 @@ expired items removed — so you can rely on what you see being current.
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
 | 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 2 | HTML | 2026-09-01 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 2 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-09-01 | — | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
-| 3 | [wshobson/agents](https://github.com/wshobson/agents) | 39326 | Python | 2026-09-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, and Google Antigravit |
-| 4 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 153 | Python | 2026-09-01 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
+| 2 | [wshobson/agents](https://github.com/wshobson/agents) | 39327 | Python | 2026-09-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, and Google Antigravit |
+| 3 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-09-01 | — | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
+| 4 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 154 | Python | 2026-09-01 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
 | 5 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-09-01 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
 | 6 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-09-01 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
 | 7 | [ashish7802/awesome-agent-skills](https://github.com/ashish7802/awesome-agent-skills) | 0 | — | 2026-09-01 | — | The ultimate open-source directory of production-grade AI Agent skills, system instructions, and custom rules (.mdc) for |

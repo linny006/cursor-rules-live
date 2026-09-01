@@ -5,17 +5,8 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 2,
-    "updated_at": "2026-09-01T14:45:47Z",
+    "updated_at": "2026-09-01T15:00:57Z",
     "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
-    "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
-    "id": "agenticstandardcontact-byte/agentic-architect",
-    "language": "HTML",
-    "name": "agenticstandardcontact-byte/agentic-architect",
-    "stars": 0,
-    "updated_at": "2026-09-01T14:08:40Z",
-    "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
   },
   {
     "cursorrules": {
@@ -27,16 +18,25 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39326,
+    "stars": 39327,
     "updated_at": "2026-09-01T14:48:45Z",
     "url": "https://github.com/wshobson/agents"
+  },
+  {
+    "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
+    "id": "agenticstandardcontact-byte/agentic-architect",
+    "language": "HTML",
+    "name": "agenticstandardcontact-byte/agentic-architect",
+    "stars": 0,
+    "updated_at": "2026-09-01T14:08:40Z",
+    "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
   },
   {
     "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
     "id": "KbWen/agentic-os",
     "language": "Python",
     "name": "KbWen/agentic-os",
-    "stars": 153,
+    "stars": 154,
     "updated_at": "2026-09-01T13:45:57Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
