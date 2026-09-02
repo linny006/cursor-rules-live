@@ -14,7 +14,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="kleosr/cursorkleosr - entry on Cursor Rules Live">
 <meta name="twitter:description" content="Make AI Development Feel Natural in Cursor">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"kleosr/cursorkleosr","codeRepository":"https://github.com/kleosr/cursorkleosr","programmingLanguage":"—","url":"https://linny006.github.io/cursor-rules-live/r/kleosr/cursorkleosr/","description":"Make AI Development Feel Natural in Cursor","author":{"@type":"Person","name":"kleosr","url":"https://github.com/kleosr"},"dateModified":"2026-08-20"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"kleosr/cursorkleosr","codeRepository":"https://github.com/kleosr/cursorkleosr","programmingLanguage":"—","url":"https://linny006.github.io/cursor-rules-live/r/kleosr/cursorkleosr/","description":"Make AI Development Feel Natural in Cursor","author":{"@type":"Person","name":"kleosr","url":"https://github.com/kleosr"},"dateModified":"2026-09-02"}</script>
 <style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
          --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
 * { box-sizing: border-box; }
@@ -48,7 +48,7 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <div class="meta">
 <span><strong>Stars</strong> 325</span>
 <span><strong>Language</strong> —</span>
-<span><strong>Last updated</strong> 2026-08-20</span>
+<span><strong>Last updated</strong> 2026-09-02</span>
 <span><a href="https://github.com/kleosr/cursorkleosr" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/kleosr" rel="external">@kleosr</a></span>
 </div>
@@ -60,37 +60,7 @@ globs:
 alwaysApply: true
 ---
 
-# Workflow Memory
-
-This repository keeps agent memory in root markdown files. Follow this loop every session.
-
-## Session Start
-
-1. Read `workflow_state.md` — current phase, plan, blockers, log.
-2. Read `project_config.md` — goals, stack, patterns, constraints.
-3. Reconstruct the next action from those files before proposing or making changes.
-
-## Loop
-
-One phase at a time: `ANALYZE → PREPARE → IMPLEMENT → VALIDATE`.
-
-- ANALYZE: inspect relevant files and current state before deciding.
-- PREPARE: short plan; identify the checks `project_config.md` requires.
-- IMPLEMENT: smallest coherent edits that satisfy the task.
-- VALIDATE: run the checks appropriate for the repo; report what could not run.
-- ROLLBACK: only when the approach must be abandoned and state preserved.
-
-## State Writes
-
-Update `workflow_state.md` only after meaningful change: a phase transition, a completed task, a blocker, or a validation result that changes the next action. No per-message summaries. Preserve headings, keep entries concise.
-
-Update `project_config.md` only for durable changes: goals, stack, patterns, constraints, changelog. No live task notes there.
-
-Never store secrets, tokens, or credentials in memory files. Record only where they load from (env vars, secret manager).
-
-## Exit
-
-When work is complete, report result, changed files, and validation status. No post-completion questions, no optional next-step prompts. Wait for the next user message.
+@AGENTS.md
 </code></pre>
 <p><a href="https://github.com/kleosr/cursorkleosr/blob/HEAD/.cursor/rules/workflow-memory.mdc" rel="external">View raw on GitHub</a></p>
 </section>
@@ -98,9 +68,9 @@ When work is complete, report result, changed files, and validation status. No p
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>
 <ul class="crosslinks">
-<li><a href="https://linny006.github.io/cursor-rules-live/r/J-nowcow/awesome-korean-agent-skills/">J-nowcow/awesome-korean-agent-skills (stars:36)</a></li>
-<li><a href="https://linny006.github.io/cursor-rules-live/r/XAKLESK/cre-agent-skills/">XAKLESK/cre-agent-skills (stars:5)</a></li>
-<li><a href="https://linny006.github.io/cursor-rules-live/r/zinxj/uikit-expert-skill/">zinxj/uikit-expert-skill (stars:4)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/J-nowcow/awesome-korean-agent-skills/">J-nowcow/awesome-korean-agent-skills (stars:39)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/XAKLESK/cre-agent-skills/">XAKLESK/cre-agent-skills (stars:7)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/sayeed1999/agent-skills/">sayeed1999/agent-skills (stars:6)</a></li>
 </ul></section>
 <section><h2>Explore by category</h2>
 <ul class="crosslinks">

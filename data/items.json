@@ -1,11 +1,43 @@
 [
   {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 3,
+    "updated_at": "2026-09-02T22:41:32Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Workflow memory operating loop \u2014 read root state before acting, write state back after meaningful change\nglobs:\nalwaysApply: true\n---\n\n@AGENTS.md\n",
+      "format": "mdc",
+      "path": ".cursor/rules/workflow-memory.mdc"
+    },
+    "description": "Make AI Development Feel Natural in Cursor",
+    "id": "kleosr/cursorkleosr",
+    "language": "\u2014",
+    "name": "kleosr/cursorkleosr",
+    "stars": 325,
+    "updated_at": "2026-09-02T22:35:52Z",
+    "url": "https://github.com/kleosr/cursorkleosr"
+  },
+  {
+    "description": "Cursor harness pack: user rules, skills, Bash hooks, local HANDOFF memory. macOS, Linux, Windows (WSL).",
+    "id": "kleosr/kleosrules",
+    "language": "Shell",
+    "name": "kleosr/kleosrules",
+    "stars": 2,
+    "updated_at": "2026-09-02T22:35:46Z",
+    "url": "https://github.com/kleosr/kleosrules"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-02T22:15:31Z",
+    "updated_at": "2026-09-02T22:30:51Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -120,15 +152,6 @@
     "stars": 1,
     "updated_at": "2026-09-02T20:02:43Z",
     "url": "https://github.com/orin-dx/agent-plugins"
-  },
-  {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 3,
-    "updated_at": "2026-09-02T19:50:48Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "description": "Homebrew tap for LynxPrompt CLI",
@@ -484,15 +507,6 @@
     "url": "https://github.com/kentyu0922/pmp-lead-pm-scheduler"
   },
   {
-    "description": "Cursor harness pack: user rules, skills, Bash hooks, local HANDOFF memory. macOS, Linux, Windows (WSL).",
-    "id": "kleosr/kleosrules",
-    "language": "Shell",
-    "name": "kleosr/kleosrules",
-    "stars": 2,
-    "updated_at": "2026-09-01T21:34:21Z",
-    "url": "https://github.com/kleosr/kleosrules"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: 'Master rules for cursor-handbook - applies to all interactions'\nalwaysApply: true\n---\n\n# Main Rules\n\n## Identity\n\nYou are an expert {{CONFIG.techStack.language}} developer working on **{{CONFIG.project.name}}**.\nTech stack: {{CONFIG.techStack.language}} / {{CONFIG.techStack.framework}} / {{CONFIG.techStack.database}} on {{CONFIG.techStack.cloud}}.\n\n## Critical Rules\n\n### 1. Token Efficiency (CRITICAL)\n\n- **NEVER** auto-run full test suites (100K+ tokens waste)\n- **NEVER** auto-run full lint (50K+ tokens waste)\n- Use `read_lints` tool instead of executing lint commands\n- Run type-check (~10K tokens) instead of full tests when validating changes\n- Require **explicit user confirmation** before any operation estimated at 50K+ tokens\n- Provide concise output: use bullet points and summaries, not verbose explanations\n- When showing code, only show changed lines with minimal context\n\n### 2. Security Guardrails (CRITICAL)\n\n- **NEVER** hardcode secrets, API keys, passwords, or tokens\n- **NEVER** log PII (names, emails, SSN, credit card numbers, phone numbers)\n- **ALWAYS** use environment variables for configuration\n- **NEVER** expose internal infrastructure names in documentation or comments\n- Use generic placeholders: `[AWS_ACCOUNT_ID]`, `[QUEUE_NAME]`, `[API_ENDPOINT]`\n- **NEVER** commit `.env` files or credentials\n\n### 3. Code Organization\n\n- All shared types go in `{{CONFIG.folderNames.common}}/` directories\n- Follow the handler pattern with `{{CONFIG.folderNames.logic}}/` and `{{CONFIG.folderNames.schemas}}/` folders\n- Pure functions first, side effects at the boundaries\n- Use structured logging with `correlationId` for request tracing\n- Soft delete only \u2014 **NEVER** use `DELETE` SQL statements; use `UPDATE {{CONFIG.database.softDeleteField}} = false`\n\n### 4. Output Format\n\n- Use bullet points for lists\n- Use code blocks with language tags\n- Keep explanations under 3 sentences unless asked for detail\n- When showing file changes, use diff format or show only changed sections\n- Always specify the full file path when referencing files\n\n### 5. Before Making Changes\n\n- Read the target file first\n- Check for existing patterns in the codebase\n- Follow established conventions \u2014 don't introduce new patterns without discussion\n- Run type-check after changes: `{{CONFIG.testing.typeCheckCommand}}`\n\n## Project Structure\n\n- Source: `{{CONFIG.paths.source}}`\n- APIs: `{{CONFIG.paths.apiPath}}`\n- Handlers: `{{CONFIG.paths.handlerBasePath}}`\n- Common: `{{CONFIG.paths.commonPath}}`\n- Events: `{{CONFIG.paths.eventsPath}}`\n\n## Domain Entities\n\n{{CONFIG.domain.entities}}\n\n## Testing Requirements\n\n- Minimum coverage: {{CONFIG.testing.coverageMinimum}}%\n- Test command: `{{CONFIG.testing.testCommand}}`\n- Type-check command: `{{CONFIG.testing.typeCheckCommand}}`\n",
       "format": "mdc",
@@ -514,14 +528,5 @@
     "stars": 557,
     "updated_at": "2026-08-30T16:18:24Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
-  },
-  {
-    "description": "Agent skill: generate beautiful dark-themed architecture diagrams from your project/demo/idea. Interactive, verifiable, ",
-    "id": "lewes2/archpresent",
-    "language": "JavaScript",
-    "name": "lewes2/archpresent",
-    "stars": 1,
-    "updated_at": "2026-08-30T13:32:59Z",
-    "url": "https://github.com/lewes2/archpresent"
   }
 ]
