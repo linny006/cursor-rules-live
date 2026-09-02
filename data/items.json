@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-02T15:15:43Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "30 multi-phase AI coding skills with executable gates \u2014 pure markdown, zero dependencies.",
     "id": "sungurerdim/dev-skills",
     "language": "Shell",
@@ -7,15 +16,6 @@
     "stars": 1,
     "updated_at": "2026-09-02T15:07:25Z",
     "url": "https://github.com/sungurerdim/dev-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-02T15:00:36Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
@@ -484,7 +484,7 @@
     "id": "HoangNguyen0403/agent-skills-standard",
     "language": "TypeScript",
     "name": "HoangNguyen0403/agent-skills-standard",
-    "stars": 551,
+    "stars": 554,
     "updated_at": "2026-08-30T16:18:24Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
   },
