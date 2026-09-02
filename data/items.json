@@ -1,11 +1,20 @@
 [
   {
+    "description": "\ud83d\ude80 Universal Open-Source AI Agent Skills & Rules Library for Antigravity, Cursor, Claude Code, GitHub Copilot, OpenAI Cod",
+    "id": "GktuOktay/ai-skills",
+    "language": "Python",
+    "name": "GktuOktay/ai-skills",
+    "stars": 2,
+    "updated_at": "2026-09-02T19:00:13Z",
+    "url": "https://github.com/GktuOktay/ai-skills"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-02T18:34:30Z",
+    "updated_at": "2026-09-02T18:45:35Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -223,7 +232,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39358,
+    "stars": 39359,
     "updated_at": "2026-09-01T22:36:25Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -493,7 +502,7 @@
     "id": "HoangNguyen0403/agent-skills-standard",
     "language": "TypeScript",
     "name": "HoangNguyen0403/agent-skills-standard",
-    "stars": 555,
+    "stars": 556,
     "updated_at": "2026-08-30T16:18:24Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
   },
@@ -514,14 +523,5 @@
     "stars": 19,
     "updated_at": "2026-08-30T13:13:21Z",
     "url": "https://github.com/MnemeHQ/mneme"
-  },
-  {
-    "description": "Read-only local security gate & scanner for AI coding workflows, MCP, and package hallucination risks.",
-    "id": "jiarong0423/ai-security-rules",
-    "language": "Python",
-    "name": "jiarong0423/ai-security-rules",
-    "stars": 0,
-    "updated_at": "2026-08-30T11:50:48Z",
-    "url": "https://github.com/jiarong0423/ai-security-rules"
   }
 ]
