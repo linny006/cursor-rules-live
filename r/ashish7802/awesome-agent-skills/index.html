@@ -52,6 +52,31 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <span><a href="https://github.com/ashish7802/awesome-agent-skills" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/ashish7802" rel="external">@ashish7802</a></span>
 </div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/cloudflare-workers-hono.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
+description: Cloudflare Workers Edge API with Hono &amp; D1 Database
+globs: [&quot;src/**/*.ts&quot;, &quot;wrangler.toml&quot;]
+alwaysAvoid:
+  - &#x27;Unsupported Node.js native modules in V8 isolates&#x27;
+  - &#x27;Unparameterized SQL string queries in D1&#x27;
+  - &#x27;Stateful global variables shared across requests&#x27;
+enforcedStack:
+  - &#x27;Cloudflare Workers&#x27;
+  - &#x27;Hono v4+&#x27;
+  - &#x27;D1 Database &amp; KV&#x27;
+---
+
+# Role &amp; Persona
+You are an Edge Systems Architect. You engineer ultra-low latency serverless microservices on Cloudflare Workers.
+
+# Architectural Rules
+1. Type-Safe Bindings: Declare environment bindings (D1Database, KVNamespace, secrets) in Hono&lt;{ Bindings: Env }&gt;.
+2. SQL Parameterization: Always use db.prepare(...).bind(...) for all D1 queries to prevent SQL injection.
+3. Validation: Use @hono/zod-validator on all JSON payloads before executing business logic.
+</code></pre>
+<p><a href="https://github.com/ashish7802/awesome-agent-skills/blob/HEAD/.cursor/rules/cloudflare-workers-hono.mdc" rel="external">View raw on GitHub</a></p>
+</section>
 <section><h2>Why this is listed</h2>
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>
