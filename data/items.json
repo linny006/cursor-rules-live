@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-02T17:00:49Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
     "id": "edsondviana8/ai-humanizer-core",
     "language": "HTML",
@@ -7,15 +16,6 @@
     "stars": 1,
     "updated_at": "2026-09-02T16:55:09Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-02T16:45:51Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -140,7 +140,7 @@
     "id": "ashish7802/awesome-agent-skills",
     "language": "TypeScript",
     "name": "ashish7802/awesome-agent-skills",
-    "stars": 0,
+    "stars": 1,
     "updated_at": "2026-09-02T12:24:50Z",
     "url": "https://github.com/ashish7802/awesome-agent-skills"
   },
@@ -163,7 +163,7 @@
     "id": "axelfreeman/marketing-mindset",
     "language": "Python",
     "name": "axelfreeman/marketing-mindset",
-    "stars": 21,
+    "stars": 25,
     "updated_at": "2026-09-02T10:08:27Z",
     "url": "https://github.com/axelfreeman/marketing-mindset"
   },
