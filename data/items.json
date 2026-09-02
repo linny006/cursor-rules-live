@@ -1,5 +1,23 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-09-02T12:23:46Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-02T12:15:41Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: Cloudflare Workers Edge API with Hono & D1 Database\nglobs: [\"src/**/*.ts\", \"wrangler.toml\"]\nalwaysAvoid:\n  - 'Unsupported Node.js native modules in V8 isolates'\n  - 'Unparameterized SQL string queries in D1'\n  - 'Stateful global variables shared across requests'\nenforcedStack:\n  - 'Cloudflare Workers'\n  - 'Hono v4+'\n  - 'D1 Database & KV'\n---\n\n# Role & Persona\nYou are an Edge Systems Architect. You engineer ultra-low latency serverless microservices on Cloudflare Workers.\n\n# Architectural Rules\n1. Type-Safe Bindings: Declare environment bindings (D1Database, KVNamespace, secrets) in Hono<{ Bindings: Env }>.\n2. SQL Parameterization: Always use db.prepare(...).bind(...) for all D1 queries to prevent SQL injection.\n3. Validation: Use @hono/zod-validator on all JSON payloads before executing business logic.\n",
       "format": "mdc",
@@ -10,17 +28,8 @@
     "language": "TypeScript",
     "name": "ashish7802/awesome-agent-skills",
     "stars": 0,
-    "updated_at": "2026-09-02T12:08:31Z",
+    "updated_at": "2026-09-02T12:24:50Z",
     "url": "https://github.com/ashish7802/awesome-agent-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-02T12:00:50Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -105,15 +114,6 @@
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-09-02T07:26:19Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
     "id": "Hyanthropological659/clarify-skill",
     "language": "\u2014",
@@ -155,7 +155,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39348,
+    "stars": 39349,
     "updated_at": "2026-09-01T22:36:25Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -238,7 +238,7 @@
     "language": "TypeScript",
     "name": "vibestackdev/vibe-stack",
     "stars": 7,
-    "updated_at": "2026-09-01T13:01:03Z",
+    "updated_at": "2026-09-02T12:29:31Z",
     "url": "https://github.com/vibestackdev/vibe-stack"
   },
   {
