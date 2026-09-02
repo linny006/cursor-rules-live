@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-02 11:00 UTC
+> ⏰ Last updated: 2026-09-02 11:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -66,7 +66,7 @@ expired items removed — so you can rely on what you see being current.
 | 11 | [Hyanthropological659/clarify-skill](https://github.com/Hyanthropological659/clarify-skill) | 1 | — | 2026-09-02 | — | Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a |
 | 12 | [Overseastelegramaliterateperson865/awesome-claude-md](https://github.com/Overseastelegramaliterateperson865/awesome-claude-md) | 1 | — | 2026-09-02 | — | Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr |
 | 13 | [Luxvil/ai-coding-rules](https://github.com/Luxvil/ai-coding-rules) | 3 | Shell | 2026-09-02 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Luxvil/ai-coding-rules/) | 🤖 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje |
-| 14 | [wshobson/agents](https://github.com/wshobson/agents) | 39346 | Python | 2026-09-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, and Google Antigravit |
+| 14 | [wshobson/agents](https://github.com/wshobson/agents) | 39347 | Python | 2026-09-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, and Google Antigravit |
 | 15 | [saqie803/ponytail](https://github.com/saqie803/ponytail) | 0 | JavaScript | 2026-09-01 | — | Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony. |
 | 16 | [orin-dx/agent-plugins](https://github.com/orin-dx/agent-plugins) | 1 | Shell | 2026-09-01 | — | Official AI Agent Plugins & Skills Marketplace for Antigravity (AGY), Claude Code, and Cursor |
 | 17 | [sahillangoo/tech-resume-expert](https://github.com/sahillangoo/tech-resume-expert) | 0 | TeX | 2026-09-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/sahillangoo/tech-resume-expert/) | Premier expert system for crafting, tailoring, auditing, and optimizing technical resumes, CVs, cover letters, and engin |
