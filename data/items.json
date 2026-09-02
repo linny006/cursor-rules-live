@@ -1,5 +1,23 @@
 [
   {
+    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
+    "id": "Amirun99/agency-orchestrator",
+    "language": "Dart",
+    "name": "Amirun99/agency-orchestrator",
+    "stars": 0,
+    "updated_at": "2026-09-02T20:43:58Z",
+    "url": "https://github.com/Amirun99/agency-orchestrator"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-02T20:30:42Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
     "id": "J-nowcow/awesome-korean-agent-skills",
     "language": "\u2014",
@@ -19,17 +37,8 @@
     "language": "JavaScript",
     "name": "powersync-ja/agent-skills",
     "stars": 18,
-    "updated_at": "2026-09-02T20:23:19Z",
+    "updated_at": "2026-09-02T20:44:15Z",
     "url": "https://github.com/powersync-ja/agent-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-02T20:15:46Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "30 multi-phase AI coding skills with executable gates \u2014 pure markdown, zero dependencies.",
@@ -140,15 +149,6 @@
     "url": "https://github.com/XAKLESK/cre-agent-skills"
   },
   {
-    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
-    "id": "Amirun99/agency-orchestrator",
-    "language": "Dart",
-    "name": "Amirun99/agency-orchestrator",
-    "stars": 0,
-    "updated_at": "2026-09-02T13:41:49Z",
-    "url": "https://github.com/Amirun99/agency-orchestrator"
-  },
-  {
     "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
     "id": "agenticstandardcontact-byte/agentic-architect",
     "language": "HTML",
@@ -163,7 +163,7 @@
     "language": "\u2014",
     "name": "zinxj/uikit-expert-skill",
     "stars": 5,
-    "updated_at": "2026-09-02T13:35:50Z",
+    "updated_at": "2026-09-02T20:37:44Z",
     "url": "https://github.com/zinxj/uikit-expert-skill"
   },
   {
