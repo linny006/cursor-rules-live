@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-03T17:15:51Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Production-ready AI agent profiles for Claude Code, Cursor, Codex, OpenClaw, and Hermes. Search, install, and contribute",
     "id": "nota-america/forgecat-agent-profiles",
     "language": "TypeScript",
@@ -7,15 +16,6 @@
     "stars": 63,
     "updated_at": "2026-09-03T17:10:45Z",
     "url": "https://github.com/nota-america/forgecat-agent-profiles"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-03T17:00:40Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Cursor harness pack: user rules, skills, Bash hooks, local HANDOFF memory. macOS, Linux, Windows (WSL).",
