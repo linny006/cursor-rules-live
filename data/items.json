@@ -1,11 +1,29 @@
 [
   {
+    "description": "Cursor harness pack: user rules, skills, Bash hooks, local HANDOFF memory. macOS, Linux, Windows (WSL).",
+    "id": "kleosr/kleosrules",
+    "language": "Shell",
+    "name": "kleosr/kleosrules",
+    "stars": 2,
+    "updated_at": "2026-09-03T16:44:35Z",
+    "url": "https://github.com/kleosr/kleosrules"
+  },
+  {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 3,
+    "updated_at": "2026-09-03T16:30:55Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-03T16:15:52Z",
+    "updated_at": "2026-09-03T16:30:51Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -98,15 +116,6 @@
     "stars": 0,
     "updated_at": "2026-09-03T11:40:45Z",
     "url": "https://github.com/mrvishaljjoshi-cmyk/VJSS"
-  },
-  {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 3,
-    "updated_at": "2026-09-03T11:23:14Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "description": "Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony.",
@@ -261,15 +270,6 @@
     "stars": 325,
     "updated_at": "2026-09-02T22:35:52Z",
     "url": "https://github.com/kleosr/cursorkleosr"
-  },
-  {
-    "description": "Cursor harness pack: user rules, skills, Bash hooks, local HANDOFF memory. macOS, Linux, Windows (WSL).",
-    "id": "kleosr/kleosrules",
-    "language": "Shell",
-    "name": "kleosr/kleosrules",
-    "stars": 2,
-    "updated_at": "2026-09-02T22:35:46Z",
-    "url": "https://github.com/kleosr/kleosrules"
   },
   {
     "description": "MCP Server for LynxPrompt \u2014 browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP",
