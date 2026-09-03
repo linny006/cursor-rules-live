@@ -1,11 +1,20 @@
 [
   {
+    "description": "VS Code extension for LynxPrompt \u2014 browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules) ",
+    "id": "GeiserX/lynxprompt-vscode",
+    "language": "TypeScript",
+    "name": "GeiserX/lynxprompt-vscode",
+    "stars": 2,
+    "updated_at": "2026-09-03T08:13:50Z",
+    "url": "https://github.com/GeiserX/lynxprompt-vscode"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-03T07:45:40Z",
+    "updated_at": "2026-09-03T08:00:39Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -300,7 +309,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39376,
+    "stars": 39377,
     "updated_at": "2026-09-01T22:36:25Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -514,19 +523,5 @@
     "stars": 0,
     "updated_at": "2026-08-31T06:05:25Z",
     "url": "https://github.com/kentyu0922/pmp-lead-pm-scheduler"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: 'Master rules for cursor-handbook - applies to all interactions'\nalwaysApply: true\n---\n\n# Main Rules\n\n## Identity\n\nYou are an expert {{CONFIG.techStack.language}} developer working on **{{CONFIG.project.name}}**.\nTech stack: {{CONFIG.techStack.language}} / {{CONFIG.techStack.framework}} / {{CONFIG.techStack.database}} on {{CONFIG.techStack.cloud}}.\n\n## Critical Rules\n\n### 1. Token Efficiency (CRITICAL)\n\n- **NEVER** auto-run full test suites (100K+ tokens waste)\n- **NEVER** auto-run full lint (50K+ tokens waste)\n- Use `read_lints` tool instead of executing lint commands\n- Run type-check (~10K tokens) instead of full tests when validating changes\n- Require **explicit user confirmation** before any operation estimated at 50K+ tokens\n- Provide concise output: use bullet points and summaries, not verbose explanations\n- When showing code, only show changed lines with minimal context\n\n### 2. Security Guardrails (CRITICAL)\n\n- **NEVER** hardcode secrets, API keys, passwords, or tokens\n- **NEVER** log PII (names, emails, SSN, credit card numbers, phone numbers)\n- **ALWAYS** use environment variables for configuration\n- **NEVER** expose internal infrastructure names in documentation or comments\n- Use generic placeholders: `[AWS_ACCOUNT_ID]`, `[QUEUE_NAME]`, `[API_ENDPOINT]`\n- **NEVER** commit `.env` files or credentials\n\n### 3. Code Organization\n\n- All shared types go in `{{CONFIG.folderNames.common}}/` directories\n- Follow the handler pattern with `{{CONFIG.folderNames.logic}}/` and `{{CONFIG.folderNames.schemas}}/` folders\n- Pure functions first, side effects at the boundaries\n- Use structured logging with `correlationId` for request tracing\n- Soft delete only \u2014 **NEVER** use `DELETE` SQL statements; use `UPDATE {{CONFIG.database.softDeleteField}} = false`\n\n### 4. Output Format\n\n- Use bullet points for lists\n- Use code blocks with language tags\n- Keep explanations under 3 sentences unless asked for detail\n- When showing file changes, use diff format or show only changed sections\n- Always specify the full file path when referencing files\n\n### 5. Before Making Changes\n\n- Read the target file first\n- Check for existing patterns in the codebase\n- Follow established conventions \u2014 don't introduce new patterns without discussion\n- Run type-check after changes: `{{CONFIG.testing.typeCheckCommand}}`\n\n## Project Structure\n\n- Source: `{{CONFIG.paths.source}}`\n- APIs: `{{CONFIG.paths.apiPath}}`\n- Handlers: `{{CONFIG.paths.handlerBasePath}}`\n- Common: `{{CONFIG.paths.commonPath}}`\n- Events: `{{CONFIG.paths.eventsPath}}`\n\n## Domain Entities\n\n{{CONFIG.domain.entities}}\n\n## Testing Requirements\n\n- Minimum coverage: {{CONFIG.testing.coverageMinimum}}%\n- Test command: `{{CONFIG.testing.testCommand}}`\n- Type-check command: `{{CONFIG.testing.typeCheckCommand}}`\n",
-      "format": "mdc",
-      "path": ".cursor/rules/main-rules.mdc"
-    },
-    "description": "Open-source rules engine for Cursor IDE \u2014 110 rules, agents, skills, commands that give AI permanent memory of your stan",
-    "id": "girijashankarj/cursor-handbook",
-    "language": "Shell",
-    "name": "girijashankarj/cursor-handbook",
-    "stars": 30,
-    "updated_at": "2026-08-30T21:52:53Z",
-    "url": "https://github.com/girijashankarj/cursor-handbook"
   }
 ]
