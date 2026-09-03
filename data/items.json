@@ -1,21 +1,21 @@
 [
   {
-    "description": "200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type",
-    "id": "xiyu519/MotionVault",
-    "language": "TypeScript",
-    "name": "xiyu519/MotionVault",
-    "stars": 5,
-    "updated_at": "2026-09-03T02:36:12Z",
-    "url": "https://github.com/xiyu519/MotionVault"
-  },
-  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-03T02:30:36Z",
+    "updated_at": "2026-09-03T02:45:35Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type",
+    "id": "xiyu519/MotionVault",
+    "language": "TypeScript",
+    "name": "xiyu519/MotionVault",
+    "stars": 7,
+    "updated_at": "2026-09-03T02:36:12Z",
+    "url": "https://github.com/xiyu519/MotionVault"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
