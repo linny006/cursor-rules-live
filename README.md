@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-03 07:15 UTC
+> ⏰ Last updated: 2026-09-03 07:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -92,7 +92,7 @@ expired items removed — so you can rely on what you see being current.
 | 37 | [glowElephant/context-forge](https://github.com/glowElephant/context-forge) | 2 | Python | 2026-09-01 | — | Auto harness engineering meta-repo: discuss → curate → bootstrap a context-engineered project for Claude Code, Cursor, C |
 | 38 | [chama-x/quiv](https://github.com/chama-x/quiv) | 3 | TypeScript | 2026-09-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/chama-x/quiv/) | The Agent Knowledge Kit & Architecture System — 10–32x token-efficient architecture discovery for AI coding agents |
 | 39 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-09-01 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
-| 40 | [Bastioned-successor320/learn-nanobot](https://github.com/Bastioned-successor320/learn-nanobot) | 9 | Python | 2026-09-01 | — | Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers |
+| 40 | [Bastioned-successor320/learn-nanobot](https://github.com/Bastioned-successor320/learn-nanobot) | 10 | Python | 2026-09-01 | — | Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers |
 | 41 | [johnwall123459885/skene-cookbook](https://github.com/johnwall123459885/skene-cookbook) | 0 | Python | 2026-09-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/johnwall123459885/skene-cookbook/) | 🤖 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development. |
 | 42 | [karenrebecag/en-orden](https://github.com/karenrebecag/en-orden) | 0 | JavaScript | 2026-08-31 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/karenrebecag/en-orden/) | Plantilla de Cursor para ordenar tu vida con agentes de IA, para personas que no programan. Proyectos que terminan de ve |
 | 43 | [smirnovalex-qa/qa-skills](https://github.com/smirnovalex-qa/qa-skills) | 1 | JavaScript | 2026-08-31 | — | QA skills for AI coding agents — test design, automation, audits, and defect management from a single source. |
