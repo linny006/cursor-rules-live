@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-03 14:30 UTC
+> ⏰ Last updated: 2026-09-03 14:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -86,7 +86,7 @@ expired items removed — so you can rely on what you see being current.
 | 31 | [GeiserX/homebrew-lynxprompt](https://github.com/GeiserX/homebrew-lynxprompt) | 2 | Ruby | 2026-09-02 | — | Homebrew tap for LynxPrompt CLI |
 | 32 | [PlanVault/ai-engineering-playbook](https://github.com/PlanVault/ai-engineering-playbook) | 4 | Shell | 2026-09-02 | — | Practical playbook for AI-assisted engineering: rules, role separation, and guardrails for teams using Cursor/Copilot in |
 | 33 | [ashish7802/awesome-agent-skills](https://github.com/ashish7802/awesome-agent-skills) | 1 | TypeScript | 2026-09-02 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/ashish7802/awesome-agent-skills/) | The ultimate open-source directory of production-grade AI Agent skills, system instructions, and custom rules (.mdc) for |
-| 34 | [axelfreeman/marketing-mindset](https://github.com/axelfreeman/marketing-mindset) | 29 | Python | 2026-09-02 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/axelfreeman/marketing-mindset/) | The marketing OS for AI agents — think like a marketer first, get tactics as the output. |
+| 34 | [axelfreeman/marketing-mindset](https://github.com/axelfreeman/marketing-mindset) | 29 | Python | 2026-09-03 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/axelfreeman/marketing-mindset/) | The marketing OS for AI agents — think like a marketer first, get tactics as the output. |
 | 35 | [Hyanthropological659/clarify-skill](https://github.com/Hyanthropological659/clarify-skill) | 1 | — | 2026-09-02 | — | Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a |
 | 36 | [Overseastelegramaliterateperson865/awesome-claude-md](https://github.com/Overseastelegramaliterateperson865/awesome-claude-md) | 1 | — | 2026-09-02 | — | Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr |
 | 37 | [Luxvil/ai-coding-rules](https://github.com/Luxvil/ai-coding-rules) | 3 | Shell | 2026-09-02 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Luxvil/ai-coding-rules/) | 🤖 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje |
