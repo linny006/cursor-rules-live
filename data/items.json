@@ -1,11 +1,29 @@
 [
   {
+    "description": "Universal AI Agent Super-Skills Ecosystem by Mr. Vishalkumar Joshi. 130+ production-grade plain-text prompt protocols wi",
+    "id": "mrvishaljjoshi-cmyk/VJSS",
+    "language": "HTML",
+    "name": "mrvishaljjoshi-cmyk/VJSS",
+    "stars": 0,
+    "updated_at": "2026-09-03T11:28:23Z",
+    "url": "https://github.com/mrvishaljjoshi-cmyk/VJSS"
+  },
+  {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 3,
+    "updated_at": "2026-09-03T11:23:14Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-03T11:15:32Z",
+    "updated_at": "2026-09-03T11:22:40Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -138,15 +156,6 @@
     "stars": 0,
     "updated_at": "2026-09-03T06:51:29Z",
     "url": "https://github.com/RahulHulsure/-Ironworks"
-  },
-  {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 3,
-    "updated_at": "2026-09-03T05:53:34Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "description": "30 multi-phase AI coding skills with executable gates \u2014 pure markdown, zero dependencies.",
@@ -504,14 +513,5 @@
     "stars": 6,
     "updated_at": "2026-08-31T08:13:26Z",
     "url": "https://github.com/pekral/cursor-rules"
-  },
-  {
-    "description": "An autonomous Application Security (AppSec) prompt and skill module for AI coding assistants (Antigravity, Cursor, Copil",
-    "id": "softwareasg-tools/information-security-for-vibecoded-apps",
-    "language": "Python",
-    "name": "softwareasg-tools/information-security-for-vibecoded-apps",
-    "stars": 2,
-    "updated_at": "2026-08-31T06:28:45Z",
-    "url": "https://github.com/softwareasg-tools/information-security-for-vibecoded-apps"
   }
 ]
