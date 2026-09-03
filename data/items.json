@@ -5,8 +5,17 @@
     "language": "\u2014",
     "name": "J-nowcow/awesome-korean-agent-skills",
     "stars": 40,
-    "updated_at": "2026-09-03T21:35:21Z",
+    "updated_at": "2026-09-03T21:51:09Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-03T21:45:33Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -16,15 +25,6 @@
     "stars": 1,
     "updated_at": "2026-09-03T21:31:03Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-03T21:30:49Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -303,7 +303,7 @@
     "id": "xiyu519/MotionVault",
     "language": "TypeScript",
     "name": "xiyu519/MotionVault",
-    "stars": 13,
+    "stars": 14,
     "updated_at": "2026-09-03T02:36:12Z",
     "url": "https://github.com/xiyu519/MotionVault"
   },
