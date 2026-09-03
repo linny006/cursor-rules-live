@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-03 00:15 UTC
+> ⏰ Last updated: 2026-09-03 00:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -80,7 +80,7 @@ expired items removed — so you can rely on what you see being current.
 | 25 | [Hyanthropological659/clarify-skill](https://github.com/Hyanthropological659/clarify-skill) | 1 | — | 2026-09-02 | — | Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a |
 | 26 | [Overseastelegramaliterateperson865/awesome-claude-md](https://github.com/Overseastelegramaliterateperson865/awesome-claude-md) | 1 | — | 2026-09-02 | — | Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr |
 | 27 | [Luxvil/ai-coding-rules](https://github.com/Luxvil/ai-coding-rules) | 3 | Shell | 2026-09-02 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Luxvil/ai-coding-rules/) | 🤖 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje |
-| 28 | [wshobson/agents](https://github.com/wshobson/agents) | 39361 | Python | 2026-09-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, and Google Antigravit |
+| 28 | [wshobson/agents](https://github.com/wshobson/agents) | 39362 | Python | 2026-09-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, and Google Antigravit |
 | 29 | [saqie803/ponytail](https://github.com/saqie803/ponytail) | 0 | JavaScript | 2026-09-01 | — | Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony. |
 | 30 | [sahillangoo/tech-resume-expert](https://github.com/sahillangoo/tech-resume-expert) | 0 | TeX | 2026-09-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/sahillangoo/tech-resume-expert/) | Premier expert system for crafting, tailoring, auditing, and optimizing technical resumes, CVs, cover letters, and engin |
 | 31 | [RahulHulsure/-Ironworks](https://github.com/RahulHulsure/-Ironworks) | 0 | PowerShell | 2026-09-01 | — | Industrial-grade development pipeline for AI coding agents — 12 skills, 7 layers, 16+ platforms. Works with Claude Code, |
@@ -102,7 +102,7 @@ expired items removed — so you can rely on what you see being current.
 | 47 | [MohamedAbdallah-14/unslop](https://github.com/MohamedAbdallah-14/unslop) | 125 | Python | 2026-08-31 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/MohamedAbdallah-14/unslop/) | Make AI output sound human. Strips AI-isms (sycophancy, stock vocab, hedging stacks, em-dash pileups), preserves code/UR |
 | 48 | [kentyu0922/pmp-lead-pm-scheduler](https://github.com/kentyu0922/pmp-lead-pm-scheduler) | 0 | — | 2026-08-31 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/kentyu0922/pmp-lead-pm-scheduler/) | Universal AI Engineering Skill (Cursor, Gemini, ChatGPT, Claude) for Commercial Fit-out CPM Scheduling & Native MS Proje |
 | 49 | [girijashankarj/cursor-handbook](https://github.com/girijashankarj/cursor-handbook) | 30 | Shell | 2026-08-30 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/girijashankarj/cursor-handbook/) | Open-source rules engine for Cursor IDE — 110 rules, agents, skills, commands that give AI permanent memory of your stan |
-| 50 | [HoangNguyen0403/agent-skills-standard](https://github.com/HoangNguyen0403/agent-skills-standard) | 557 | TypeScript | 2026-08-30 | — | A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol |
+| 50 | [HoangNguyen0403/agent-skills-standard](https://github.com/HoangNguyen0403/agent-skills-standard) | 558 | TypeScript | 2026-08-30 | — | A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol |
 <!-- TRACKER_TABLE_END -->
 
 ---
