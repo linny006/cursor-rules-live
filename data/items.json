@@ -1,11 +1,20 @@
 [
   {
+    "description": "Industrial-grade development pipeline for AI coding agents \u2014 12 skills, 7 layers, 16+ platforms. Works with Claude Code,",
+    "id": "RahulHulsure/-Ironworks",
+    "language": "PowerShell",
+    "name": "RahulHulsure/-Ironworks",
+    "stars": 0,
+    "updated_at": "2026-09-03T06:51:29Z",
+    "url": "https://github.com/RahulHulsure/-Ironworks"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-03T06:30:35Z",
+    "updated_at": "2026-09-03T06:45:40Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -291,7 +300,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39373,
+    "stars": 39374,
     "updated_at": "2026-09-01T22:36:25Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -317,15 +326,6 @@
     "stars": 0,
     "updated_at": "2026-09-01T19:38:56Z",
     "url": "https://github.com/sahillangoo/tech-resume-expert"
-  },
-  {
-    "description": "Industrial-grade development pipeline for AI coding agents \u2014 12 skills, 7 layers, 16+ platforms. Works with Claude Code,",
-    "id": "RahulHulsure/-Ironworks",
-    "language": "PowerShell",
-    "name": "RahulHulsure/-Ironworks",
-    "stars": 0,
-    "updated_at": "2026-09-01T17:07:16Z",
-    "url": "https://github.com/RahulHulsure/-Ironworks"
   },
   {
     "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 plus AIOS, an open-source markdown memory system for coding ",
