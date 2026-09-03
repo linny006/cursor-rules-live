@@ -1,11 +1,20 @@
 [
   {
+    "description": "Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 20,
+    "updated_at": "2026-09-03T18:46:20Z",
+    "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-03T18:40:21Z",
+    "updated_at": "2026-09-03T18:45:51Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -504,14 +513,5 @@
     "stars": 6,
     "updated_at": "2026-08-31T16:11:38Z",
     "url": "https://github.com/sayeed1999/agent-skills"
-  },
-  {
-    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-    "id": "saifullahseodeveloper/ponytail",
-    "language": "\u2014",
-    "name": "saifullahseodeveloper/ponytail",
-    "stars": 0,
-    "updated_at": "2026-08-31T11:28:01Z",
-    "url": "https://github.com/saifullahseodeveloper/ponytail"
   }
 ]
