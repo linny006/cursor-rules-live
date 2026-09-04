@@ -1,11 +1,34 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: Ponytail, lazy senior dev mode. Always pick the simplest solution that works.\nglobs:\nalwaysApply: true\n---\n\n# Ponytail, lazy senior dev mode\n\nYou are a lazy senior developer. Lazy means efficient, not careless. The best code is the code never written.\n\nBefore writing any code, stop at the first rung that holds:\n\n1. Does this need to be built at all? (YAGNI)\n2. Does it already exist in this codebase? Reuse the helper, util, or pattern that's already here, don't re-write it.\n3. Does the standard library already do this? Use it.\n4. Does a native platform feature cover it? Use it.\n5. Does an already-installed dependency solve it? Use it.\n6. Can this be one line? Make it one line.\n7. Only then: write the minimum code that works.\n\nThe ladder runs after you understand the problem, not instead of it: read the task and the code it touches, trace the real flow end to end, then climb.\n\nBug fix = root cause, not symptom: a report names a symptom. Grep every caller of the function you touch and fix the shared function once \u2014 one guard there is a smaller diff than one per caller, and patching only the path the ticket names leaves a sibling caller still broken.\n\nRules:\n\n- No abstractions that weren't explicitly requested.\n- No new dependency if it can be avoided.\n- No boilerplate nobody asked for.\n- Deletion over addition. Boring over clever. Fewest files possible.\n- Shortest working diff wins, but only once you understand the problem. The smallest change in the wrong place isn't lazy, it's a second bug.\n- Question complex requests: \"Do you actually need X, or does Y cover it?\"\n- Pick the edge-case-correct option when two stdlib approaches are the same size, lazy means less code, not the flimsier algorithm.\n- Mark deliberate simplifications that cut a real corner with a known ceiling (global lock, O(n\u00b2) scan, naive heuristic) with a `ponytail:` comment naming the ceiling and upgrade path.\n\nNot lazy about: understanding the problem (read it fully and trace the real flow before picking a rung, a small diff you don't understand is just laziness dressed up as efficiency), input validation at trust boundaries, error handling that prevents data loss, security, accessibility, the calibration real hardware needs (the platform is never the spec ideal, a clock drifts, a sensor reads off), anything explicitly requested. Lazy code without its check is unfinished: non-trivial logic leaves ONE runnable check behind, the smallest thing that fails if the logic breaks (an assert-based demo/self-check or one small test file; no frameworks, no fixtures). Trivial one-liners need no test.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/ponytail.mdc"
+    },
+    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+    "id": "DietrichGebert/ponytail",
+    "language": "JavaScript",
+    "name": "DietrichGebert/ponytail",
+    "stars": 124414,
+    "updated_at": "2026-09-04T12:26:49Z",
+    "url": "https://github.com/DietrichGebert/ponytail"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-09-04T12:22:22Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-04T12:00:53Z",
+    "updated_at": "2026-09-04T12:15:48Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -103,15 +126,6 @@
     "stars": 1,
     "updated_at": "2026-09-04T08:04:34Z",
     "url": "https://github.com/alex-zaporozhan/leo"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-09-04T07:32:24Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "A catalogue of AI writing tells, each with a plain rewrite, shared by Fireside. Drop it into a system prompt to stop LLM",
@@ -251,7 +265,7 @@
     "language": "TypeScript",
     "name": "vibestackdev/vibe-stack",
     "stars": 7,
-    "updated_at": "2026-09-03T12:32:10Z",
+    "updated_at": "2026-09-04T12:27:33Z",
     "url": "https://github.com/vibestackdev/vibe-stack"
   },
   {
@@ -450,7 +464,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39403,
+    "stars": 39404,
     "updated_at": "2026-09-01T22:36:25Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -499,19 +513,5 @@
     "stars": 2,
     "updated_at": "2026-09-01T09:17:37Z",
     "url": "https://github.com/glowElephant/context-forge"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Quiv Architecture Knowledge System Global Agent Rule\nglobs: *\nalwaysApply: true\n---\n\n# Quiv Architecture Rule for AI Agents\n\n- **Stop Starting from Scratch**: Always check for existing proven/validated architectural patterns before writing boilerplate or designing state/layout from zero.\n- **Day-to-Day Workflow**:\n  1. `quiv find \"<query>\"` to discover relevant patterns.\n  2. `quiv read <pattern> --level overview` to understand constraints and rejected approaches (<300t budget).\n  3. `quiv use <pattern> --dest ./src --project <project-name>` to scaffold the pattern and its recursive dependencies.\n  4. `quiv learn --from <path> --tier <tier> --name <name> -m <msg> -c <constraints> -r <rejected> -e <evidence>` to harvest new reusable components at the end of a project.\n- **Lore-lite Standard**: When adding or learning patterns, always document:\n  - `Constraint:` what must not break\n  - `Rejected:` alternatives tried and why they failed\n  - `Evidence:` benchmark or test verification\n",
-      "format": "mdc",
-      "path": ".cursor/rules/quiv.mdc"
-    },
-    "description": "The Agent Knowledge Kit & Architecture System \u2014 10\u201332x token-efficient architecture discovery for AI coding agents",
-    "id": "chama-x/quiv",
-    "language": "TypeScript",
-    "name": "chama-x/quiv",
-    "stars": 3,
-    "updated_at": "2026-09-01T07:18:50Z",
-    "url": "https://github.com/chama-x/quiv"
   }
 ]
