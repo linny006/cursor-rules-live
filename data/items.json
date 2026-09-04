@@ -1,12 +1,12 @@
 [
   {
-    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
-    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
+    "id": "Hyanthropological659/clarify-skill",
     "language": "\u2014",
-    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "name": "Hyanthropological659/clarify-skill",
     "stars": 1,
-    "updated_at": "2026-09-04T15:26:23Z",
-    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
+    "updated_at": "2026-09-04T15:30:49Z",
+    "url": "https://github.com/Hyanthropological659/clarify-skill"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-04T15:15:51Z",
+    "updated_at": "2026-09-04T15:30:34Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
+    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "language": "\u2014",
+    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "stars": 1,
+    "updated_at": "2026-09-04T15:26:23Z",
+    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
   },
   {
     "cursorrules": {
@@ -119,7 +128,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 124809,
+    "stars": 124836,
     "updated_at": "2026-09-04T12:35:29Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -163,15 +172,6 @@
     "stars": 40,
     "updated_at": "2026-09-04T10:30:03Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
-    "id": "Hyanthropological659/clarify-skill",
-    "language": "\u2014",
-    "name": "Hyanthropological659/clarify-skill",
-    "stars": 1,
-    "updated_at": "2026-09-04T08:32:40Z",
-    "url": "https://github.com/Hyanthropological659/clarify-skill"
   },
   {
     "description": "A catalogue of AI writing tells, each with a plain rewrite, shared by Fireside. Drop it into a system prompt to stop LLM",
