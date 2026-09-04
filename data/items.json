@@ -1,12 +1,12 @@
 [
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-09-04T16:39:51Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+    "description": "Cursor harness pack: user rules, skills, Bash hooks, local HANDOFF memory. macOS, Linux, Windows (WSL).",
+    "id": "kleosr/kleosrules",
+    "language": "Shell",
+    "name": "kleosr/kleosrules",
+    "stars": 2,
+    "updated_at": "2026-09-04T16:56:19Z",
+    "url": "https://github.com/kleosr/kleosrules"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-04T16:30:48Z",
+    "updated_at": "2026-09-04T16:46:01Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-09-04T16:39:51Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -146,7 +155,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 124981,
+    "stars": 125019,
     "updated_at": "2026-09-04T12:35:29Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -254,15 +263,6 @@
     "stars": 33,
     "updated_at": "2026-09-03T20:19:33Z",
     "url": "https://github.com/fluttersdk/wind"
-  },
-  {
-    "description": "Cursor harness pack: user rules, skills, Bash hooks, local HANDOFF memory. macOS, Linux, Windows (WSL).",
-    "id": "kleosr/kleosrules",
-    "language": "Shell",
-    "name": "kleosr/kleosrules",
-    "stars": 2,
-    "updated_at": "2026-09-03T19:25:29Z",
-    "url": "https://github.com/kleosr/kleosrules"
   },
   {
     "description": "Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align",
@@ -478,7 +478,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39415,
+    "stars": 39416,
     "updated_at": "2026-09-01T22:36:25Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -515,7 +515,7 @@
     "id": "danielvm-git/bigpowers",
     "language": "Shell",
     "name": "danielvm-git/bigpowers",
-    "stars": 165,
+    "stars": 166,
     "updated_at": "2026-09-01T11:12:56Z",
     "url": "https://github.com/danielvm-git/bigpowers"
   }
