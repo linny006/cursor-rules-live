@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-04 10:51 UTC
+> ⏰ Last updated: 2026-09-04 11:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -97,10 +97,10 @@ expired items removed — so you can rely on what you see being current.
 | 42 | [PlanVault/ai-engineering-playbook](https://github.com/PlanVault/ai-engineering-playbook) | 4 | Shell | 2026-09-02 | — | Practical playbook for AI-assisted engineering: rules, role separation, and guardrails for teams using Cursor/Copilot in |
 | 43 | [ashish7802/awesome-agent-skills](https://github.com/ashish7802/awesome-agent-skills) | 1 | TypeScript | 2026-09-02 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/ashish7802/awesome-agent-skills/) | The ultimate open-source directory of production-grade AI Agent skills, system instructions, and custom rules (.mdc) for |
 | 44 | [ahacker-1/cre-agent-skills](https://github.com/ahacker-1/cre-agent-skills) | 91 | Python | 2026-09-02 | — | Commercial real estate AI agent skills for CRE underwriting, due diligence, financing, brokerage, legal and closing work |
-| 45 | [wshobson/agents](https://github.com/wshobson/agents) | 39401 | Python | 2026-09-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, and Google Antigravit |
+| 45 | [wshobson/agents](https://github.com/wshobson/agents) | 39402 | Python | 2026-09-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, and Google Antigravit |
 | 46 | [sahillangoo/tech-resume-expert](https://github.com/sahillangoo/tech-resume-expert) | 0 | TeX | 2026-09-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/sahillangoo/tech-resume-expert/) | Premier expert system for crafting, tailoring, auditing, and optimizing technical resumes, CVs, cover letters, and engin |
 | 47 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 155 | Python | 2026-09-01 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
-| 48 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 163 | Shell | 2026-09-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | Agent skills synthesizing years of software engineering discipline into a prescriptive methodology for solo developers |
+| 48 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 164 | Shell | 2026-09-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | Agent skills synthesizing years of software engineering discipline into a prescriptive methodology for solo developers |
 | 49 | [glowElephant/context-forge](https://github.com/glowElephant/context-forge) | 2 | Python | 2026-09-01 | — | Auto harness engineering meta-repo: discuss → curate → bootstrap a context-engineered project for Claude Code, Cursor, C |
 | 50 | [chama-x/quiv](https://github.com/chama-x/quiv) | 3 | TypeScript | 2026-09-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/chama-x/quiv/) | The Agent Knowledge Kit & Architecture System — 10–32x token-efficient architecture discovery for AI coding agents |
 <!-- TRACKER_TABLE_END -->
