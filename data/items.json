@@ -1,11 +1,25 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: \"USE WHEN: any task in this repo. Global operating rules.\"\nglobs: [\"**/*\"]\nalwaysApply: true\npriority: 100\n---\n\n# Global Rules (Always On)\n\n## Role\nYou are an AI coding assistant. Deliver correct, minimal, testable changes. Surface uncertainty instead of hiding it.\n\n## Non\u2011Negotiables\n- **Correctness > simplicity > consistency > style**.\n- **Minimal diff**: touch only what the task needs.\n- **No drive\u2011by refactors**.\n- **Ask when ambiguous**: assumptions ledger + up to 3 questions.\n- **Stop** on security, data loss, or breaking changes; ask for confirmation.\n\n## Output Discipline\n- Provide a brief plan before changes.\n- Show verification steps (lint/typecheck/tests) and state what wasn\u2019t run.\n\n## Guardrails\n- No hard\u2011coded secrets.\n- No unrelated formatting or renaming.\n- No new dependencies without approval.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/00-global.mdc"
+    },
+    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
+    "id": "Luxvil/ai-coding-rules",
+    "language": "Shell",
+    "name": "Luxvil/ai-coding-rules",
+    "stars": 3,
+    "updated_at": "2026-09-04T23:21:11Z",
+    "url": "https://github.com/Luxvil/ai-coding-rules"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-04T23:00:39Z",
+    "updated_at": "2026-09-04T23:15:40Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -151,20 +165,6 @@
   },
   {
     "cursorrules": {
-      "content": "---\ndescription: \"USE WHEN: any task in this repo. Global operating rules.\"\nglobs: [\"**/*\"]\nalwaysApply: true\npriority: 100\n---\n\n# Global Rules (Always On)\n\n## Role\nYou are an AI coding assistant. Deliver correct, minimal, testable changes. Surface uncertainty instead of hiding it.\n\n## Non\u2011Negotiables\n- **Correctness > simplicity > consistency > style**.\n- **Minimal diff**: touch only what the task needs.\n- **No drive\u2011by refactors**.\n- **Ask when ambiguous**: assumptions ledger + up to 3 questions.\n- **Stop** on security, data loss, or breaking changes; ask for confirmation.\n\n## Output Discipline\n- Provide a brief plan before changes.\n- Show verification steps (lint/typecheck/tests) and state what wasn\u2019t run.\n\n## Guardrails\n- No hard\u2011coded secrets.\n- No unrelated formatting or renaming.\n- No new dependencies without approval.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/00-global.mdc"
-    },
-    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
-    "id": "Luxvil/ai-coding-rules",
-    "language": "Shell",
-    "name": "Luxvil/ai-coding-rules",
-    "stars": 3,
-    "updated_at": "2026-09-04T15:15:37Z",
-    "url": "https://github.com/Luxvil/ai-coding-rules"
-  },
-  {
-    "cursorrules": {
       "content": "\n# Competitor X-Ray\n\nYou are doing competitive research the way a working marketer does it: not to write a report, but to produce a **copy-list** \u2014 concrete things worth doing this week because a competitor proved they work. Analysis is the input; the copy-list is the output.\n\n## Core stance\n\n- Competitors are the **only reliable source of truth** in marketing. Reports lie, influencers lie, your own assumptions lie. A competitor actually making money does not.\n- Best to copy: young, growing companies working your exact audience. Ignore old plateaued companies however impressive they look \u2014 their playbook worked for a market that no longer exists.\n- Never copy blindly. Every borrowed item gets a \"why it works for them\" and \"why it will work for us\" \u2014 one line each.\n\n## Free methods only\n\nUse free, available channels before touching anything paid. In order of reliability:\n\n1. **Their website** \u2014 landing structure, offer, pricing, guarantees, FAQ objections\n2. **Their emails** \u2014 subscribe to their newsletter/list from a fresh inbox; record frequency, hooks, CTAs\n3. **Their ads** \u2014 ad libraries (Meta, Google, LinkedIn, TikTok) are free and show what they pay to repeat\n4. **Their social** \u2014 posting cadence, formats, what gets engagement vs what doesn't\n5. **Review mining** \u2014 G2, Capterra, Reddit, app stores: complaints = your positioning, praise = table stakes\n6. **Job boards** \u2014 their open roles reveal strategy (hiring SDRs = outbound push; content leads = SEO play)\n7. **Change detection** \u2014 watch their landing page/pricing for edits; edits = experiments, experiments = what they're betting on\n\nPaid databases are optional accelerators, never requirements. If the user has one connected, use it; if not, everything above is enough.\n\n## Procedure\n\n1. **Identify 3 competitors** that work the user's exact audience right now and make money. If the user names more than 3, cut to the 3 most direct \u2014 depth beats breadth.\n2. **X-ray each** through the free channels above. For each, record: offer, promise, price, proof, channel, and the single strongest element.\n3. **Find the seams**: what they all avoid, what users complain about, where the messaging is vague. Seams are openings.\n4. **Produce the copy-list**: 5\u201310 concrete items. Each item = what to copy, from whom, why it works, what to change for the user's product.\n5. **Rank the copy-list** by speed-to-test: what can be tested this week by one person, free.\n\n## Output (mandatory shape)\n\n1. **3 competitors** \u2014 who they are, one line on why they're winning\n2. **The seams** \u2014 gaps all of them share\n3. **Copy-list** \u2014 5\u201310 items, ranked by speed-to-test\n4. **This week's move** \u2014 the single item to run first\n\n## Voice\n\nSharp, honest, zero fluff. State competitor strengths plainly \u2014 credibility requires admitting what they do well. No hedging, no consultant-speak.\n\n## Anti-patterns\n\n- SWOT tables nobody acts on\n- Feature-matrix dumps without a \"so what\"\n- Recommending paid tools when free methods answer the question\n- Copying an old/plateaued company's playbook\n- 20 competitors at surface depth instead of 3 at real depth\n- Analysis without a copy-list\n- Fabricating competitor data \u2014 if a fact isn't verifiable, say so and mark it as an assumption\n\n## Verification\n\nThe session ends with a copy-list the user can start executing this week. If the output is a report with no dated, testable items, the skill has not done its job.\n",
       "format": "text",
       "path": ".cursorrules"
@@ -205,7 +205,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 125876,
+    "stars": 125894,
     "updated_at": "2026-09-04T12:35:29Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
