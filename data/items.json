@@ -1,11 +1,29 @@
 [
   {
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-09-04T20:36:49Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
+  },
+  {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 0,
+    "updated_at": "2026-09-04T20:34:17Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-04T20:15:52Z",
+    "updated_at": "2026-09-04T20:30:31Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -54,15 +72,6 @@
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
-    "stars": 0,
-    "updated_at": "2026-09-04T17:30:32Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
     "cursorrules": {
       "content": "# AI Lead PM Scheduler - Cursor Rules\n# Universal AI Engineering Skill for Commercial Fit-out CPM Scheduling & Native MS Project (.mpp)\n# Official Demo: https://lead-pm-landing.vercel.app\n# Pro Release: https://kentyu.gumroad.com/l/pmp-lead-pm-scheduler/EARLYBIRD\n\nrules:\n  - name: \"Deterministic CPM Topological Scheduling\"\n    description: \"Calculates strict Critical Path Method (CPM) Forward/Backward passes without circular dependencies.\"\n    triggers: [\"schedule\", \"gantt\", \"fitout\", \"mpp\", \"wbs\", \"cpm\", \"commercial office\"]\n    framework: \"Kahn's Topological Sort + MS Project COM Automation\"",
       "format": "text",
@@ -75,15 +84,6 @@
     "stars": 0,
     "updated_at": "2026-09-04T17:29:44Z",
     "url": "https://github.com/kentyu0922/pmp-lead-pm-scheduler"
-  },
-  {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 0,
-    "updated_at": "2026-09-04T17:29:27Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "description": "Cursor harness pack: user rules, skills, Bash hooks, local HANDOFF memory. macOS, Linux, Windows (WSL).",
@@ -196,7 +196,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 125529,
+    "stars": 125576,
     "updated_at": "2026-09-04T12:35:29Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
