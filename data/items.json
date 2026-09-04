@@ -1,5 +1,23 @@
 [
   {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 40,
+    "updated_at": "2026-09-04T19:20:42Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-04T19:15:34Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
     "id": "edsondviana8/ai-humanizer-core",
     "language": "HTML",
@@ -16,15 +34,6 @@
     "stars": 20,
     "updated_at": "2026-09-04T19:07:28Z",
     "url": "https://github.com/MnemeHQ/mneme"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-04T19:00:48Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -178,7 +187,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 125291,
+    "stars": 125332,
     "updated_at": "2026-09-04T12:35:29Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -195,15 +204,6 @@
     "stars": 8,
     "updated_at": "2026-09-04T12:27:33Z",
     "url": "https://github.com/vibestackdev/vibe-stack"
-  },
-  {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 40,
-    "updated_at": "2026-09-04T10:30:03Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "description": "A catalogue of AI writing tells, each with a plain rewrite, shared by Fireside. Drop it into a system prompt to stop LLM",
@@ -405,7 +405,7 @@
     "id": "xiyu519/MotionVault",
     "language": "TypeScript",
     "name": "xiyu519/MotionVault",
-    "stars": 23,
+    "stars": 24,
     "updated_at": "2026-09-03T02:36:12Z",
     "url": "https://github.com/xiyu519/MotionVault"
   },
