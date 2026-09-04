@@ -1,11 +1,29 @@
 [
   {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 40,
+    "updated_at": "2026-09-04T21:42:55Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+  },
+  {
+    "description": "This plugin makes your AI coding agent an Arcjet security expert.",
+    "id": "arcjet/arcjet-plugin",
+    "language": "Shell",
+    "name": "arcjet/arcjet-plugin",
+    "stars": 1,
+    "updated_at": "2026-09-04T21:37:49Z",
+    "url": "https://github.com/arcjet/arcjet-plugin"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-04T21:16:29Z",
+    "updated_at": "2026-09-04T21:31:08Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -25,15 +43,6 @@
     "stars": 0,
     "updated_at": "2026-09-04T20:34:17Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 40,
-    "updated_at": "2026-09-04T20:09:29Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "description": "Production-ready AI agent profiles for Claude Code, Cursor, Codex, OpenClaw, and Hermes. Search, install, and contribute",
@@ -91,7 +100,7 @@
     "language": "Shell",
     "name": "kleosr/kleosrules",
     "stars": 2,
-    "updated_at": "2026-09-04T17:14:07Z",
+    "updated_at": "2026-09-04T21:41:38Z",
     "url": "https://github.com/kleosr/kleosrules"
   },
   {
@@ -196,7 +205,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 125674,
+    "stars": 125703,
     "updated_at": "2026-09-04T12:35:29Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -286,15 +295,6 @@
     "stars": 33,
     "updated_at": "2026-09-03T20:19:33Z",
     "url": "https://github.com/fluttersdk/wind"
-  },
-  {
-    "description": "This plugin makes your AI coding agent an Arcjet security expert.",
-    "id": "arcjet/arcjet-plugin",
-    "language": "Shell",
-    "name": "arcjet/arcjet-plugin",
-    "stars": 1,
-    "updated_at": "2026-09-04T21:30:00Z",
-    "url": "https://github.com/arcjet/arcjet-plugin"
   },
   {
     "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 plus AIOS, an open-source markdown memory system for coding ",
