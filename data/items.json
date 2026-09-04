@@ -1,11 +1,20 @@
 [
   {
+    "description": "A catalogue of AI writing tells, each with a plain rewrite, shared by Fireside. Drop it into a system prompt to stop LLM",
+    "id": "fromfireside/better-tropes",
+    "language": "\u2014",
+    "name": "fromfireside/better-tropes",
+    "stars": 3,
+    "updated_at": "2026-09-04T05:33:50Z",
+    "url": "https://github.com/fromfireside/better-tropes"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-04T05:15:48Z",
+    "updated_at": "2026-09-04T05:30:37Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -198,15 +207,6 @@
     "stars": 0,
     "updated_at": "2026-09-03T13:35:20Z",
     "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
-  },
-  {
-    "description": "A catalogue of AI writing tells, each with a plain rewrite, shared by Fireside. Drop it into a system prompt to stop LLM",
-    "id": "fromfireside/better-tropes",
-    "language": "\u2014",
-    "name": "fromfireside/better-tropes",
-    "stars": 3,
-    "updated_at": "2026-09-03T12:44:46Z",
-    "url": "https://github.com/fromfireside/better-tropes"
   },
   {
     "cursorrules": {
@@ -450,7 +450,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39397,
+    "stars": 39396,
     "updated_at": "2026-09-01T22:36:25Z",
     "url": "https://github.com/wshobson/agents"
   },
