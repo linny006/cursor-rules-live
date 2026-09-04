@@ -14,7 +14,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="plumpslabs/matcha - entry on Cursor Rules Live">
 <meta name="twitter:description" content="🍵 Deliberate engineering guidelines &amp; deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"plumpslabs/matcha","codeRepository":"https://github.com/plumpslabs/matcha","programmingLanguage":"JavaScript","url":"https://linny006.github.io/cursor-rules-live/r/plumpslabs/matcha/","description":"🍵 Deliberate engineering guidelines & deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block","author":{"@type":"Person","name":"plumpslabs","url":"https://github.com/plumpslabs"},"dateModified":"2026-08-11"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"plumpslabs/matcha","codeRepository":"https://github.com/plumpslabs/matcha","programmingLanguage":"JavaScript","url":"https://linny006.github.io/cursor-rules-live/r/plumpslabs/matcha/","description":"🍵 Deliberate engineering guidelines & deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block","author":{"@type":"Person","name":"plumpslabs","url":"https://github.com/plumpslabs"},"dateModified":"2026-09-04"}</script>
 <style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
          --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
 * { box-sizing: border-box; }
@@ -48,43 +48,54 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <div class="meta">
 <span><strong>Stars</strong> 1</span>
 <span><strong>Language</strong> JavaScript</span>
-<span><strong>Last updated</strong> 2026-08-11</span>
+<span><strong>Last updated</strong> 2026-09-04</span>
 <span><a href="https://github.com/plumpslabs/matcha" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/plumpslabs" rel="external">@plumpslabs</a></span>
 </div>
 <section id="rules"><h2>Actual rules from this repo</h2>
-<p>Path in source repo: <code>.cursor/rules/matcha.mdc</code> &middot; format: <code>mdc</code></p>
+<p>Path in source repo: <code>.cursor/rules/kuma.mdc</code> &middot; format: <code>mdc</code></p>
 <pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
-description: matcha engineering convention — read AGENTS.md at project root
-globs: **/*
+description: Kuma MCP — safety and context runtime for AI agents
 alwaysApply: true
 ---
 
-# 🍵 matcha — Engineering Convention
+Kuma MCP tools: kuma_context, kuma_memory, kuma_safety.
+Record what matters, skip what doesn&#x27;t.
 
-This project uses the **matcha** engineering convention. Read the `AGENTS.md` file at the project root and follow its philosophy:
+&lt;kuma_obedience&gt;
+## 🔒 Obedience (non-negotiable)
+- MUST call `kuma_context({ action: &quot;init&quot; })` at session start.
+- MUST record gotchas IMMEDIATELY when a bug/quirk is found.
+- MUST call `kuma_safety({ action: &quot;verify&quot; })` after edits.
+- MUST NOT call actions outside the 13 core actions.
+&lt;/kuma_obedience&gt;
 
-&gt; Simple. Efficient. Deliberate. Never twice.
+&lt;kuma_workflow&gt;
+🧠 **Before coding:** `kuma_context({ action: &quot;init&quot; })`
+🔬 **Unfamiliar code:** `kuma_context({ action: &quot;research&quot;, scope: &quot;&lt;area&gt;&quot; })`
+🐛 **Found a bug/quirk:** `kuma_memory({ action: &quot;gotcha&quot; })` (IMMEDIATELY)
+🧭 **Chose between options:** `kuma_memory({ action: &quot;decision&quot; })`
+🔀 **Traced a flow:** `kuma_memory({ action: &quot;arch_flow&quot; })` (max 5 files)
+🛡️ **Before risky work / after edits:** `kuma_safety({ action: &quot;guard&quot; | &quot;verify&quot; })`
+&lt;/kuma_workflow&gt;
 
-Key principles (see AGENTS.md for the full ruleset):
-- **⚖️ Proportionality (effort ↔ risk)** — match ceremony to task size. Trivial (≤5 LOC, 1 file, no logic): minimal plan, fast pass. Small (1-3 files): short plan + light review. Large (cross-cutting/prod risk): full gate. Planning &gt; implementation = over-planning. Exit conditions beat STOP — proceed on a recorded assumption rather than blocking on trivia.
-- **Purpose (Intent Discovery)** — know *why* before *how*. Can&#x27;t explain why/how? Stop and rethink — unless the task is trivial, then proceed on a recorded assumption.
-- **Reuse** — search the codebase before writing new code. Never write what exists.
-- **Implementation** — one function, one job. Explicit errors. No hardcoded values. Validate inputs at boundaries. Never log secrets/PII.
-- **Cleanup** — done means working *and* clean. No debug leftovers, no dead code.
-- **Verify** — run tests, typecheck, and lint before declaring done.
+📖 Full rules: `.kuma/init.md`
 
-Respect the `// matcha:` decision markers when you find them in code — they are intentional, logged shortcuts.
-</code></pre>
-<p><a href="https://github.com/plumpslabs/matcha/blob/HEAD/.cursor/rules/matcha.mdc" rel="external">View raw on GitHub</a></p>
+📖 **Usage:**
+  • `kuma_context({ action: &quot;init&quot; })` — load project context (call first)
+  • `kuma_safety({ action: &quot;guard&quot; })` — safety check before risky ops
+  • `kuma_safety({ action: &quot;verify&quot;, scope: &quot;&lt;area&gt;&quot; })` — verify after edits
+  • `.kuma/init.md` — full behavioral rules
+  • `.kuma/KNOWN_GOTCHAS.md` — gotchas · `.kuma/memories/decisions.md` — decisions (readable)</code></pre>
+<p><a href="https://github.com/plumpslabs/matcha/blob/HEAD/.cursor/rules/kuma.mdc" rel="external">View raw on GitHub</a></p>
 </section>
 <section><h2>Why this is listed</h2>
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>
 <ul class="crosslinks">
 <li><a href="https://linny006.github.io/cursor-rules-live/r/powersync-ja/agent-skills/">powersync-ja/agent-skills (stars:18)</a></li>
-<li><a href="https://linny006.github.io/cursor-rules-live/r/KingEmma7/cursor-os/">KingEmma7/cursor-os (stars:2)</a></li>
-<li><a href="https://linny006.github.io/cursor-rules-live/r/mdzyaan/cursor-agent-kit/">mdzyaan/cursor-agent-kit (stars:0)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/saqie803/ponytail/">saqie803/ponytail (stars:0)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/karenrebecag/en-orden/">karenrebecag/en-orden (stars:0)</a></li>
 </ul></section>
 <section><h2>Explore by category</h2>
 <ul class="crosslinks">
