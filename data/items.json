@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-04T20:15:52Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
     "id": "J-nowcow/awesome-korean-agent-skills",
     "language": "\u2014",
@@ -7,15 +16,6 @@
     "stars": 40,
     "updated_at": "2026-09-04T20:09:29Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-04T20:00:42Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Production-ready AI agent profiles for Claude Code, Cursor, Codex, OpenClaw, and Hermes. Search, install, and contribute",
@@ -122,7 +122,7 @@
     "id": "Overseastelegramaliterateperson865/awesome-claude-md",
     "language": "\u2014",
     "name": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "stars": 1,
+    "stars": 2,
     "updated_at": "2026-09-04T15:26:23Z",
     "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
   },
@@ -196,7 +196,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 125494,
+    "stars": 125529,
     "updated_at": "2026-09-04T12:35:29Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -492,7 +492,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39417,
+    "stars": 39418,
     "updated_at": "2026-09-01T22:36:25Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -515,7 +515,7 @@
     "id": "KbWen/agentic-os",
     "language": "Python",
     "name": "KbWen/agentic-os",
-    "stars": 155,
+    "stars": 156,
     "updated_at": "2026-09-01T13:45:57Z",
     "url": "https://github.com/KbWen/agentic-os"
   }
