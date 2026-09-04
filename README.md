@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-04 09:00 UTC
+> ⏰ Last updated: 2026-09-04 09:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,8 +53,8 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-09-04 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-04 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-04 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-09-04 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
 | 3 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-09-04 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
 | 4 | [Hyanthropological659/clarify-skill](https://github.com/Hyanthropological659/clarify-skill) | 1 | — | 2026-09-04 | — | Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a |
 | 5 | [Overseastelegramaliterateperson865/awesome-claude-md](https://github.com/Overseastelegramaliterateperson865/awesome-claude-md) | 1 | — | 2026-09-04 | — | Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr |
@@ -97,7 +97,7 @@ expired items removed — so you can rely on what you see being current.
 | 42 | [PlanVault/ai-engineering-playbook](https://github.com/PlanVault/ai-engineering-playbook) | 4 | Shell | 2026-09-02 | — | Practical playbook for AI-assisted engineering: rules, role separation, and guardrails for teams using Cursor/Copilot in |
 | 43 | [ashish7802/awesome-agent-skills](https://github.com/ashish7802/awesome-agent-skills) | 1 | TypeScript | 2026-09-02 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/ashish7802/awesome-agent-skills/) | The ultimate open-source directory of production-grade AI Agent skills, system instructions, and custom rules (.mdc) for |
 | 44 | [ahacker-1/cre-agent-skills](https://github.com/ahacker-1/cre-agent-skills) | 91 | Python | 2026-09-02 | — | Commercial real estate AI agent skills for CRE underwriting, due diligence, financing, brokerage, legal and closing work |
-| 45 | [wshobson/agents](https://github.com/wshobson/agents) | 39400 | Python | 2026-09-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, and Google Antigravit |
+| 45 | [wshobson/agents](https://github.com/wshobson/agents) | 39401 | Python | 2026-09-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, and Google Antigravit |
 | 46 | [sahillangoo/tech-resume-expert](https://github.com/sahillangoo/tech-resume-expert) | 0 | TeX | 2026-09-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/sahillangoo/tech-resume-expert/) | Premier expert system for crafting, tailoring, auditing, and optimizing technical resumes, CVs, cover letters, and engin |
 | 47 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 155 | Python | 2026-09-01 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
 | 48 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 163 | Shell | 2026-09-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | Agent skills synthesizing years of software engineering discipline into a prescriptive methodology for solo developers |
