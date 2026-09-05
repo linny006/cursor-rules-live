@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-05T01:15:48Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Production-ready AI agent profiles for Claude Code, Cursor, Codex, OpenClaw, and Hermes. Search, install, and contribute",
     "id": "nota-america/forgecat-agent-profiles",
     "language": "TypeScript",
@@ -16,15 +25,6 @@
     "stars": 3,
     "updated_at": "2026-09-05T01:03:00Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-05T01:00:34Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -205,7 +205,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 126044,
+    "stars": 126068,
     "updated_at": "2026-09-04T12:35:29Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -405,7 +405,7 @@
     "id": "xiyu519/MotionVault",
     "language": "TypeScript",
     "name": "xiyu519/MotionVault",
-    "stars": 24,
+    "stars": 25,
     "updated_at": "2026-09-03T02:36:12Z",
     "url": "https://github.com/xiyu519/MotionVault"
   },
