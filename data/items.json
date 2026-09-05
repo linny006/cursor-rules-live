@@ -1,11 +1,38 @@
 [
   {
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-09-05T05:29:24Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
+  },
+  {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 0,
+    "updated_at": "2026-09-05T05:26:54Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+  },
+  {
+    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 157,
+    "updated_at": "2026-09-05T05:24:41Z",
+    "url": "https://github.com/KbWen/agentic-os"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-05T05:00:34Z",
+    "updated_at": "2026-09-05T05:15:32Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -61,24 +88,6 @@
     "stars": 3,
     "updated_at": "2026-09-05T01:03:00Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
-    "stars": 0,
-    "updated_at": "2026-09-05T00:47:48Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 0,
-    "updated_at": "2026-09-05T00:45:26Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
@@ -223,7 +232,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 126453,
+    "stars": 126478,
     "updated_at": "2026-09-04T12:35:29Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -504,19 +513,5 @@
     "stars": 39427,
     "updated_at": "2026-09-01T22:36:25Z",
     "url": "https://github.com/wshobson/agents"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Premier expert system for crafting, tailoring, auditing, and optimizing technical resumes, CVs, cover letters, and engineering portfolios using Harvard CS, Google XYZ, and Amazon 16 LPs standards.\nglobs: **/*resume*, **/*cv*, **/*portfolio*, **/*cover-letter*, **/*.tex\nalwaysApply: false\n---\n\n# Technical Resume, Cover Letter & Portfolio Expert (Cursor Rule)\n\nWhen writing, auditing, or optimizing a resume, CV, cover letter, or portfolio:\n\n1. **Harvard / Google XYZ Model:** Formulate every bullet point as:\n   `Accomplished [X] as measured by [Y], by doing [Z]`\n2. **Amazon 16 LPs:** Embed concrete engineering proxies (latency p99, FinOps cost cutting, RFC-to-prod ownership, zero-downtime migrations).\n3. **Anti-AI-Slop:** Eliminate empty verbs (*spearheaded, orchestrated, revolutionized*) and soft-skill clich\u00e9s (*team player, detail-oriented*).\n4. **ATS Compliance:** Single-column layout, standard fonts (Inter, Calibri, Latin Modern), right-aligned dates, zero graphic skill bars.\n5. **Multi-Persona Audit:** Evaluate through 4 gates (Gate 1: ATS Parser, Gate 2: Recruiter 6-sec Scan, Gate 3: EM Deep-Dive, Gate 4: Bar Raiser).\n\nRefer to the complete skill documentation in `SKILL.md` and reference guides in `references/`.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/tech-resume-expert.mdc"
-    },
-    "description": "Premier expert system for crafting, tailoring, auditing, and optimizing technical resumes, CVs, cover letters, and engin",
-    "id": "sahillangoo/tech-resume-expert",
-    "language": "TeX",
-    "name": "sahillangoo/tech-resume-expert",
-    "stars": 0,
-    "updated_at": "2026-09-01T19:38:56Z",
-    "url": "https://github.com/sahillangoo/tech-resume-expert"
   }
 ]
