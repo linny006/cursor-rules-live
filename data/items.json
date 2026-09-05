@@ -1,11 +1,20 @@
 [
   {
+    "description": "Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 20,
+    "updated_at": "2026-09-05T23:08:40Z",
+    "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-05T22:45:41Z",
+    "updated_at": "2026-09-05T23:00:39Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -296,15 +305,6 @@
     "url": "https://github.com/arcjet/arcjet-plugin"
   },
   {
-    "description": "Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 20,
-    "updated_at": "2026-09-05T22:55:24Z",
-    "url": "https://github.com/MnemeHQ/mneme"
-  },
-  {
     "cursorrules": {
       "content": "# AI Lead PM Scheduler - Cursor Rules\n# Universal AI Engineering Skill for Commercial Fit-out CPM Scheduling & Native MS Project (.mpp)\n# Official Demo: https://lead-pm-landing.vercel.app\n# Pro Release: https://kentyu.gumroad.com/l/pmp-lead-pm-scheduler/EARLYBIRD\n\nrules:\n  - name: \"Deterministic CPM Topological Scheduling\"\n    description: \"Calculates strict Critical Path Method (CPM) Forward/Backward passes without circular dependencies.\"\n    triggers: [\"schedule\", \"gantt\", \"fitout\", \"mpp\", \"wbs\", \"cpm\", \"commercial office\"]\n    framework: \"Kahn's Topological Sort + MS Project COM Automation\"",
       "format": "text",
@@ -365,7 +365,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 127879,
+    "stars": 127888,
     "updated_at": "2026-09-04T12:35:29Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
