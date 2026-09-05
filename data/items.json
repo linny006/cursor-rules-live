@@ -1,11 +1,20 @@
 [
   {
+    "description": "Know Yourself. Define Your Direction. Forge Your Opportunity.An agent-native skill for self-discovery, career positionin",
+    "id": "Max-Samson/knowme-careerforge-skill",
+    "language": "Python",
+    "name": "Max-Samson/knowme-careerforge-skill",
+    "stars": 0,
+    "updated_at": "2026-09-05T15:11:46Z",
+    "url": "https://github.com/Max-Samson/knowme-careerforge-skill"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-05T14:45:29Z",
+    "updated_at": "2026-09-05T15:00:48Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -319,7 +328,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 127385,
+    "stars": 127400,
     "updated_at": "2026-09-04T12:35:29Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -499,19 +508,5 @@
     "stars": 4,
     "updated_at": "2026-09-02T15:59:28Z",
     "url": "https://github.com/PlanVault/ai-engineering-playbook"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Cloudflare Workers Edge API with Hono & D1 Database\nglobs: [\"src/**/*.ts\", \"wrangler.toml\"]\nalwaysAvoid:\n  - 'Unsupported Node.js native modules in V8 isolates'\n  - 'Unparameterized SQL string queries in D1'\n  - 'Stateful global variables shared across requests'\nenforcedStack:\n  - 'Cloudflare Workers'\n  - 'Hono v4+'\n  - 'D1 Database & KV'\n---\n\n# Role & Persona\nYou are an Edge Systems Architect. You engineer ultra-low latency serverless microservices on Cloudflare Workers.\n\n# Architectural Rules\n1. Type-Safe Bindings: Declare environment bindings (D1Database, KVNamespace, secrets) in Hono<{ Bindings: Env }>.\n2. SQL Parameterization: Always use db.prepare(...).bind(...) for all D1 queries to prevent SQL injection.\n3. Validation: Use @hono/zod-validator on all JSON payloads before executing business logic.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/cloudflare-workers-hono.mdc"
-    },
-    "description": "The ultimate open-source directory of production-grade AI Agent skills, system instructions, and custom rules (.mdc) for",
-    "id": "ashish7802/awesome-agent-skills",
-    "language": "TypeScript",
-    "name": "ashish7802/awesome-agent-skills",
-    "stars": 1,
-    "updated_at": "2026-09-02T12:24:50Z",
-    "url": "https://github.com/ashish7802/awesome-agent-skills"
   }
 ]
