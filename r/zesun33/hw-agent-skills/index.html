@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<title>zesun33/hw-agent-skills - entry on Cursor Rules Live</title>
+<meta name="description" content="Portable agent skills and rubrics for hardware engineering and ML systems">
+<link rel="canonical" href="https://linny006.github.io/cursor-rules-live/r/zesun33/hw-agent-skills/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="zesun33/hw-agent-skills - entry on Cursor Rules Live">
+<meta property="og:description" content="Portable agent skills and rubrics for hardware engineering and ML systems">
+<meta property="og:url" content="https://linny006.github.io/cursor-rules-live/r/zesun33/hw-agent-skills/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="zesun33/hw-agent-skills - entry on Cursor Rules Live">
+<meta name="twitter:description" content="Portable agent skills and rubrics for hardware engineering and ML systems">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"zesun33/hw-agent-skills","codeRepository":"https://github.com/zesun33/hw-agent-skills","programmingLanguage":"Python","url":"https://linny006.github.io/cursor-rules-live/r/zesun33/hw-agent-skills/","description":"Portable agent skills and rubrics for hardware engineering and ML systems","author":{"@type":"Person","name":"zesun33","url":"https://github.com/zesun33"},"dateModified":"2026-09-05"}</script>
+<style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
+         --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 16px; font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--fg); background: var(--bg); }
+.wrap { max-width: var(--max); margin: 0 auto; }
+nav.bc { font-size: 14px; color: var(--muted); margin-bottom: 16px; }
+nav.bc a { color: var(--muted); }
+h1 { font-size: 28px; margin: 0 0 8px; }
+h2 { font-size: 20px; margin: 24px 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+p.lead { font-size: 18px; color: var(--muted); margin: 0 0 24px; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+th, td { padding: 8px 12px; text-align: left; border-bottom: 1px solid var(--border); }
+th { background: var(--card); font-weight: 600; }
+ul.crosslinks { list-style: none; padding: 0; }
+ul.crosslinks li { padding: 6px 0; }
+ul.crosslinks li a { font-weight: 500; }
+.meta { display: flex; gap: 16px; flex-wrap: wrap; color: var(--muted); font-size: 14px; margin: 12px 0; }
+.meta span::before { content: "\00b7"; margin-right: 8px; color: var(--border); }
+.meta span:first-child::before { content: ""; }
+footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--border); font-size: 14px; color: var(--muted); }</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="bc"><a href="https://linny006.github.io/cursor-rules-live/">Cursor Rules Live</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/popular/">Entries</a> &#183; <span>zesun33/hw-agent-skills</span></nav>
+<main>
+<h1>zesun33/hw-agent-skills</h1>
+<p class="lead">Portable agent skills and rubrics for hardware engineering and ML systems</p>
+<div class="meta">
+<span><strong>Stars</strong> 0</span>
+<span><strong>Language</strong> Python</span>
+<span><strong>Last updated</strong> 2026-09-05</span>
+<span><a href="https://github.com/zesun33/hw-agent-skills" rel="external">Source on GitHub</a></span>
+<span><a href="https://github.com/zesun33" rel="external">@zesun33</a></span>
+</div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/asic-flow-operator.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
+description: &quot;Specialized skill for executing and debugging digital ASIC physical design flows (OpenROAD, OpenLane, Sky130). Guides agents through stage transitions from synthesis to floorplanning, placement, clock tree synthesis (CTS), routing, timing closure, and DRC/LVS physical verification.&quot;
+globs: [&quot;*.tcl&quot;, &quot;*.sdc&quot;, &quot;*.def&quot;, &quot;*.lef&quot;, &quot;*.v&quot;]
+alwaysApply: false
+---
+
+# ASIC Flow Operator Skill
+
+This skill guides coding agents through navigating and automating open-source digital Application-Specific Integrated Circuit (ASIC) physical design flows using tools like **OpenROAD**, **OpenLane**, and the **SkyWater 130nm (sky130)** process design kit (PDK).
+
+---
+
+## 1. The Physical Design Flow Pipeline
+
+```text
+[RTL Code (.v)] 
+       │
+       ▼  Step 1: Synthesis (Yosys)
+[Gate-level Netlist]
+       │
+       ▼  Step 2: Floorplanning &amp; IO Placement (OpenROAD / init_floorplan)
+[Die / Core Boundary + Power Grid (PDN)]
+       │
+       ▼  Step 3: Global &amp; Detailed Placement (OpenROAD / global_placement)
+[Placed Standard Cells]
+       │
+       ▼  Step 4: Clock Tree Synthesis (OpenROAD / repair_clock_inverters)
+[Balanced Low-Skew Clock Tree]
+       │
+       ▼  Step 5: Global &amp; Detailed Routing (OpenROAD / global_route, triton_route)
+[Fully Connected Wires + Vias]
+       │
+       ▼  Step 6: Signoff Verification (OpenSTA, Magic DRC, Netgen LVS)
+[Clean GDSII Layout Ready for Tapeout]
+```
+
+---
+
+## 2. Stage-by-Stage Operational Rules
+
+### Stage 1: Floorplanning (`init_floorplan`)
+- **Core Utilization**: Set initial target utilization to `35% - 55%`. Setting utilization $&gt; 65\%$ on standard cells frequently causes unroutable congestion during detailed routing.
+- **Aspect Ratio**: Keep core aspect ratio near 1.0 (square) unless pin density constraints dictate a rectangular floorplan.
+- **Power Distribution Network (PDN)**: Ensure standard cell power rails (`VPWR`/`VGND`) connect reliably to top-level metal power stripes without creating DRC notch violations.
+
+### Stage 2: Placement
+- **Global Placement (`gpl`)**: Monitor target density. If wirelength is excessive, inspect macro placement and pin constraints.
+- **Detailed Placement (`dpl`)**: Ensure legal placement into standard cell rows with zero cell overlap.
+
+### Stage 3: Clock Tree Synthesis (CTS)
+- **Goal**: Minimize clock skew and insertion delay across all flip-flops.
+- Verify that clock buffers (`clkbuf_*`) are selected from balanced drive-strength cells.
+- If hold violations surge after CTS, verify that clock latency across distant registers is balanced.
+
+### Stage 4: Routing &amp; DRC/LVS Signoff
+- **Routing Congestion**: If detailed routing reports unresolved DRC antenna violations or open nets, back up to floorplanning and reduce cell density by 5–10%.
+- **Design Rule Checking (DRC)**: Magic or KLayout DRC violations (min spacing, min area, enclosure) must reach 0.
+- **Layout Versus Schematic (LVS)**: Netgen LVS must report `Netlists match uniquely`.
+
+---
+
+## 3. Timing Closure Playbook
+
+| Issue Encountered | Diagnosis | Remediation Action |
+| :--- | :--- | :--- |
+| **Setup Violation ($WNS &lt; 0$)** | Data path too slow for target clock period | 1. Upsize driving cells along critical path.&lt;br&gt;2. Buffer long wire segments.&lt;br&gt;3. Move cells closer together in placement.&lt;br&gt;4. Pipeline RTL. |
+| **Hold Violation ($Hold\ Slack &lt; 0$)** | Data path faster than clock skew | Insert delay buffers (`clkbuf` or paired inverters) on short data paths. |
+| **Routing Congestion** | Too many wires competing for routing tracks | Reduce floorplan target utilization or increase die area. |
+| **Antenna Violation** | Long metal wire accumulates charge during fabrication | Insert antenna diodes near input gates. |
+
+---
+
+## 4. Checklist for Physical Design
+- [ ] Is core utilization configured conservatively ($40\% - 55\%$)?
+- [ ] Did placement complete with zero cell overlap errors?
+- [ ] Did CTS balance clock skew to $&lt; 5\%$ of clock period?
+- [ ] Is detailed routing complete with 0 open nets and 0 shorts?
+- [ ] Does static timing analysis report $WNS \ge 0$ and $TNS = 0$?
+- [ ] Has DRC and LVS passed with zero violations?
+</code></pre>
+<p><a href="https://github.com/zesun33/hw-agent-skills/blob/HEAD/.cursor/rules/asic-flow-operator.mdc" rel="external">View raw on GitHub</a></p>
+</section>
+<section><h2>Why this is listed</h2>
+<p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
+<section><h2>Similar in this tracker</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/r/KbWen/agentic-os/">KbWen/agentic-os (stars:157)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/MnemeHQ/mneme/">MnemeHQ/mneme (stars:20)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/Bastioned-successor320/learn-nanobot/">Bastioned-successor320/learn-nanobot (stars:10)</a></li>
+</ul></section>
+<section><h2>Explore by category</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/popular/">Popular (by stars)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/recent/">Recent (by activity)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/new/">New this week</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/lang/python/">All Python entries</a></li>
+</ul></section>
+</main>
+<footer>
+Auto-updated every 15 minutes via GitHub Actions &#183; <a href="https://linny006.github.io/cursor-rules-live/">tracker root</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/sitemap.xml">sitemap</a>
+</footer>
+</div>
+</body>
+</html>
