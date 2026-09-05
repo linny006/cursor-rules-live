@@ -1,11 +1,20 @@
 [
   {
+    "description": "\ud83d\ude80 126 Specialized AI Agent Skills, 3-Step Autonomous Workflow, and Local SEO Operating System for Antigravity & Claude C",
+    "id": "jahidulislamseo/antigravity-ai-skills",
+    "language": "Shell",
+    "name": "jahidulislamseo/antigravity-ai-skills",
+    "stars": 0,
+    "updated_at": "2026-09-05T03:44:15Z",
+    "url": "https://github.com/jahidulislamseo/antigravity-ai-skills"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-05T03:15:30Z",
+    "updated_at": "2026-09-05T03:30:41Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -214,7 +223,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 126278,
+    "stars": 126308,
     "updated_at": "2026-09-04T12:35:29Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -492,7 +501,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39426,
+    "stars": 39427,
     "updated_at": "2026-09-01T22:36:25Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -509,14 +518,5 @@
     "stars": 0,
     "updated_at": "2026-09-01T19:38:56Z",
     "url": "https://github.com/sahillangoo/tech-resume-expert"
-  },
-  {
-    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
-    "id": "KbWen/agentic-os",
-    "language": "Python",
-    "name": "KbWen/agentic-os",
-    "stars": 157,
-    "updated_at": "2026-09-05T02:21:35Z",
-    "url": "https://github.com/KbWen/agentic-os"
   }
 ]
