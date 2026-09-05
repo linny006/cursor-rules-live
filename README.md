@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-05 01:45 UTC
+> ⏰ Last updated: 2026-09-05 02:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -63,7 +63,7 @@ expired items removed — so you can rely on what you see being current.
 | 8 | [Overseastelegramaliterateperson865/awesome-claude-md](https://github.com/Overseastelegramaliterateperson865/awesome-claude-md) | 2 | — | 2026-09-04 | — | Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr |
 | 9 | [Luxvil/ai-coding-rules](https://github.com/Luxvil/ai-coding-rules) | 3 | Shell | 2026-09-04 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Luxvil/ai-coding-rules/) | 🤖 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje |
 | 10 | [alex-zaporozhan/leo](https://github.com/alex-zaporozhan/leo) | 1 | — | 2026-09-04 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/alex-zaporozhan/leo/) | A deterministic context-driven agentic SDLC framework for Cursor and Claude. 41 codified laws and 22 specialist roles to |
-| 11 | [kleosr/kleosrules](https://github.com/kleosr/kleosrules) | 2 | Shell | 2026-09-04 | — | Cursor harness pack: user rules, skills, Bash hooks, local HANDOFF memory. macOS, Linux, Windows (WSL). |
+| 11 | [kleosr/kleosrules](https://github.com/kleosr/kleosrules) | 2 | Shell | 2026-09-05 | — | Cursor harness pack: user rules, skills, Bash hooks, local HANDOFF memory. macOS, Linux, Windows (WSL). |
 | 12 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 40 | — | 2026-09-04 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
 | 13 | [arcjet/arcjet-plugin](https://github.com/arcjet/arcjet-plugin) | 1 | Shell | 2026-09-04 | — | This plugin makes your AI coding agent an Arcjet security expert. |
 | 14 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 20 | Python | 2026-09-04 | — | Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align |
@@ -72,7 +72,7 @@ expired items removed — so you can rely on what you see being current.
 | 17 | [Axel-freeman-marketing-framework/competitor-xray](https://github.com/Axel-freeman-marketing-framework/competitor-xray) | 0 | — | 2026-09-04 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Axel-freeman-marketing-framework/competitor-xray/) | Competitor research that ends in a copy-list, not a report. Free methods only. AI-agent skill. |
 | 18 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 17 | TypeScript | 2026-09-04 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
 | 19 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-09-04 | — | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
-| 20 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 126090 | JavaScript | 2026-09-04 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 20 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 126118 | JavaScript | 2026-09-04 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 21 | [vibestackdev/vibe-stack](https://github.com/vibestackdev/vibe-stack) | 8 | TypeScript | 2026-09-04 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/) | 29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b |
 | 22 | [fromfireside/better-tropes](https://github.com/fromfireside/better-tropes) | 3 | — | 2026-09-04 | — | A catalogue of AI writing tells, each with a plain rewrite, shared by Fireside. Drop it into a system prompt to stop LLM |
 | 23 | [plumpslabs/matcha](https://github.com/plumpslabs/matcha) | 1 | JavaScript | 2026-09-04 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/plumpslabs/matcha/) | 🍵 Deliberate engineering guidelines & deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block |
