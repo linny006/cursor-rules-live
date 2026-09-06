@@ -1,11 +1,20 @@
 [
   {
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-09-06T09:13:46Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-06T08:45:39Z",
+    "updated_at": "2026-09-06T09:00:33Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -72,20 +81,11 @@
     "url": "https://github.com/zinxj/uikit-expert-skill"
   },
   {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
-    "stars": 0,
-    "updated_at": "2026-09-06T04:00:59Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
     "description": "\ud83d\ude80 127 Specialized AI Agent Skills, 3-Step Autonomous Workflow, and Local SEO Operating System for Antigravity & Claude C",
     "id": "jahidulislamseo/antigravity-ai-skills",
     "language": "Shell",
     "name": "jahidulislamseo/antigravity-ai-skills",
-    "stars": 2,
+    "stars": 3,
     "updated_at": "2026-09-06T03:12:59Z",
     "url": "https://github.com/jahidulislamseo/antigravity-ai-skills"
   },
@@ -143,6 +143,15 @@
     "stars": 40,
     "updated_at": "2026-09-05T21:35:33Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+  },
+  {
+    "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
+    "id": "HoangNguyen0403/agent-skills-standard",
+    "language": "TypeScript",
+    "name": "HoangNguyen0403/agent-skills-standard",
+    "stars": 562,
+    "updated_at": "2026-09-05T19:38:23Z",
+    "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
   },
   {
     "description": "Know Yourself. Define Your Direction. Forge Your Opportunity.An agent-native skill for self-discovery, career positionin",
@@ -365,7 +374,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 128444,
+    "stars": 128458,
     "updated_at": "2026-09-04T12:35:29Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -504,19 +513,5 @@
     "stars": 30,
     "updated_at": "2026-09-03T02:36:12Z",
     "url": "https://github.com/xiyu519/MotionVault"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Workflow memory operating loop \u2014 read root state before acting, write state back after meaningful change\nglobs:\nalwaysApply: true\n---\n\n@AGENTS.md\n",
-      "format": "mdc",
-      "path": ".cursor/rules/workflow-memory.mdc"
-    },
-    "description": "Make AI Development Feel Natural in Cursor",
-    "id": "kleosr/cursorkleosr",
-    "language": "\u2014",
-    "name": "kleosr/cursorkleosr",
-    "stars": 326,
-    "updated_at": "2026-09-02T22:35:52Z",
-    "url": "https://github.com/kleosr/cursorkleosr"
   }
 ]
