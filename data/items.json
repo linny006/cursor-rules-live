@@ -1,11 +1,20 @@
 [
   {
+    "description": "Official AI Agent Plugins & Skills Marketplace for Antigravity (AGY), Claude Code, and Cursor",
+    "id": "orin-dx/agent-plugins",
+    "language": "Python",
+    "name": "orin-dx/agent-plugins",
+    "stars": 1,
+    "updated_at": "2026-09-06T00:38:46Z",
+    "url": "https://github.com/orin-dx/agent-plugins"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-06T00:15:30Z",
+    "updated_at": "2026-09-06T00:30:47Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -111,15 +120,6 @@
     "stars": 5,
     "updated_at": "2026-09-05T21:08:46Z",
     "url": "https://github.com/zinxj/uikit-expert-skill"
-  },
-  {
-    "description": "Official AI Agent Plugins & Skills Marketplace for Antigravity (AGY), Claude Code, and Cursor",
-    "id": "orin-dx/agent-plugins",
-    "language": "Python",
-    "name": "orin-dx/agent-plugins",
-    "stars": 1,
-    "updated_at": "2026-09-05T20:19:43Z",
-    "url": "https://github.com/orin-dx/agent-plugins"
   },
   {
     "cursorrules": {
@@ -365,7 +365,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 127928,
+    "stars": 127939,
     "updated_at": "2026-09-04T12:35:29Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
