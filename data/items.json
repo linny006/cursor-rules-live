@@ -1,5 +1,32 @@
 [
   {
+    "description": "An enterprise-grade, multi-agent AI ecosystem (Autonomous Agency) designed to replace standard conversational coding wit",
+    "id": "GktuOktay/autonomous-agency",
+    "language": "Python",
+    "name": "GktuOktay/autonomous-agency",
+    "stars": 2,
+    "updated_at": "2026-09-06T12:57:38Z",
+    "url": "https://github.com/GktuOktay/autonomous-agency"
+  },
+  {
+    "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
+    "id": "agenticstandardcontact-byte/agentic-architect",
+    "language": "HTML",
+    "name": "agenticstandardcontact-byte/agentic-architect",
+    "stars": 0,
+    "updated_at": "2026-09-06T12:52:59Z",
+    "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-06T12:45:32Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
     "id": "arnoldalberto007-sys/Swift-UIKit-Components",
     "language": "HTML",
@@ -7,15 +34,6 @@
     "stars": 0,
     "updated_at": "2026-09-06T12:44:30Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "An enterprise-grade, multi-agent AI ecosystem (Autonomous Agency) designed to replace standard conversational coding wit",
-    "id": "GktuOktay/autonomous-agency",
-    "language": "Python",
-    "name": "GktuOktay/autonomous-agency",
-    "stars": 2,
-    "updated_at": "2026-09-06T12:43:49Z",
-    "url": "https://github.com/GktuOktay/autonomous-agency"
   },
   {
     "cursorrules": {
@@ -30,15 +48,6 @@
     "stars": 0,
     "updated_at": "2026-09-06T12:38:05Z",
     "url": "https://github.com/zesun33/hw-agent-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-06T12:30:28Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Drop-in AI rules for Cursor and Claude Code that cut project token usage by 50%+.",
@@ -286,15 +295,6 @@
     "url": "https://github.com/sungurerdim/dev-skills"
   },
   {
-    "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
-    "id": "agenticstandardcontact-byte/agentic-architect",
-    "language": "HTML",
-    "name": "agenticstandardcontact-byte/agentic-architect",
-    "stars": 0,
-    "updated_at": "2026-09-05T12:42:21Z",
-    "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
-  },
-  {
     "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
     "id": "mikeprasad/aria-knowledge",
     "language": "Shell",
@@ -456,7 +456,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 128692,
+    "stars": 128703,
     "updated_at": "2026-09-04T12:35:29Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
