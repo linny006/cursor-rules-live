@@ -1,5 +1,23 @@
 [
   {
+    "description": "Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 20,
+    "updated_at": "2026-09-06T20:11:52Z",
+    "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-06T20:00:38Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
     "id": "J-nowcow/awesome-korean-agent-skills",
     "language": "\u2014",
@@ -16,15 +34,6 @@
     "stars": 1,
     "updated_at": "2026-09-06T19:46:15Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-06T19:45:28Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "An enterprise-grade, multi-agent AI ecosystem (Autonomous Agency) designed to replace standard conversational coding wit",
@@ -273,15 +282,6 @@
     "url": "https://github.com/orin-dx/agent-plugins"
   },
   {
-    "description": "Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 20,
-    "updated_at": "2026-09-06T13:35:41Z",
-    "url": "https://github.com/MnemeHQ/mneme"
-  },
-  {
     "description": "Know Yourself. Define Your Direction. Forge Your Opportunity.An agent-native skill for self-discovery, career positionin",
     "id": "Max-Samson/knowme-careerforge-skill",
     "language": "Python",
@@ -465,7 +465,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 129125,
+    "stars": 129145,
     "updated_at": "2026-09-04T12:35:29Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
