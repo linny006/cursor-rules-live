@@ -5,8 +5,17 @@
     "language": "Python",
     "name": "GktuOktay/ai-skills",
     "stars": 2,
-    "updated_at": "2026-09-06T11:58:55Z",
+    "updated_at": "2026-09-06T12:14:18Z",
     "url": "https://github.com/GktuOktay/ai-skills"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-06T12:00:31Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -21,15 +30,6 @@
     "stars": 8,
     "updated_at": "2026-09-06T11:54:42Z",
     "url": "https://github.com/vibestackdev/vibe-stack"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-06T11:45:47Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -447,7 +447,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 128633,
+    "stars": 128652,
     "updated_at": "2026-09-04T12:35:29Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
