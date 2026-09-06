@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-06 06:00 UTC
+> ⏰ Last updated: 2026-09-06 06:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -60,7 +60,7 @@ expired items removed — so you can rely on what you see being current.
 | 5 | [zinxj/uikit-expert-skill](https://github.com/zinxj/uikit-expert-skill) | 5 | — | 2026-09-06 | — | Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan |
 | 6 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-09-06 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
 | 7 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-09-06 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
-| 8 | [jahidulislamseo/antigravity-ai-skills](https://github.com/jahidulislamseo/antigravity-ai-skills) | 0 | Shell | 2026-09-06 | — | 🚀 127 Specialized AI Agent Skills, 3-Step Autonomous Workflow, and Local SEO Operating System for Antigravity & Claude C |
+| 8 | [jahidulislamseo/antigravity-ai-skills](https://github.com/jahidulislamseo/antigravity-ai-skills) | 1 | Shell | 2026-09-06 | — | 🚀 127 Specialized AI Agent Skills, 3-Step Autonomous Workflow, and Local SEO Operating System for Antigravity & Claude C |
 | 9 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 169 | Shell | 2026-09-06 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | Agent skills synthesizing years of software engineering discipline into a prescriptive methodology for solo developers |
 | 10 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-09-06 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
 | 11 | [nota-america/forgecat-agent-profiles](https://github.com/nota-america/forgecat-agent-profiles) | 64 | TypeScript | 2026-09-06 | — | Production-ready AI agent profiles for Claude Code, Cursor, Codex, OpenClaw, and Hermes. Search, install, and contribute |
@@ -87,7 +87,7 @@ expired items removed — so you can rely on what you see being current.
 | 32 | [axelfreeman/marketing-mindset](https://github.com/axelfreeman/marketing-mindset) | 52 | HTML | 2026-09-04 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/axelfreeman/marketing-mindset/) | The marketing OS for AI agents — think like a marketer first, get tactics as the output. |
 | 33 | [Axel-freeman-marketing-framework/competitor-xray](https://github.com/Axel-freeman-marketing-framework/competitor-xray) | 0 | — | 2026-09-04 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Axel-freeman-marketing-framework/competitor-xray/) | Competitor research that ends in a copy-list, not a report. Free methods only. AI-agent skill. |
 | 34 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 17 | TypeScript | 2026-09-04 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
-| 35 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 128229 | JavaScript | 2026-09-04 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 35 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 128244 | JavaScript | 2026-09-04 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 36 | [fromfireside/better-tropes](https://github.com/fromfireside/better-tropes) | 3 | — | 2026-09-04 | — | A catalogue of AI writing tells, each with a plain rewrite, shared by Fireside. Drop it into a system prompt to stop LLM |
 | 37 | [plumpslabs/matcha](https://github.com/plumpslabs/matcha) | 1 | JavaScript | 2026-09-04 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/plumpslabs/matcha/) | 🍵 Deliberate engineering guidelines & deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block |
 | 38 | [saqie803/ponytail](https://github.com/saqie803/ponytail) | 0 | JavaScript | 2026-09-04 | — | Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony. |
