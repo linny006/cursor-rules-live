@@ -1,11 +1,29 @@
 [
   {
+    "description": "Production-ready AI agent profiles for Claude Code, Cursor, Codex, OpenClaw, and Hermes. Search, install, and contribute",
+    "id": "nota-america/forgecat-agent-profiles",
+    "language": "TypeScript",
+    "name": "nota-america/forgecat-agent-profiles",
+    "stars": 65,
+    "updated_at": "2026-09-06T20:38:40Z",
+    "url": "https://github.com/nota-america/forgecat-agent-profiles"
+  },
+  {
+    "description": "An enterprise-grade, multi-agent AI ecosystem (Autonomous Agency) designed to replace standard conversational coding wit",
+    "id": "GktuOktay/autonomous-agency",
+    "language": "Python",
+    "name": "GktuOktay/autonomous-agency",
+    "stars": 2,
+    "updated_at": "2026-09-06T20:35:11Z",
+    "url": "https://github.com/GktuOktay/autonomous-agency"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-06T20:15:43Z",
+    "updated_at": "2026-09-06T20:30:43Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -34,15 +52,6 @@
     "stars": 1,
     "updated_at": "2026-09-06T19:46:15Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "An enterprise-grade, multi-agent AI ecosystem (Autonomous Agency) designed to replace standard conversational coding wit",
-    "id": "GktuOktay/autonomous-agency",
-    "language": "Python",
-    "name": "GktuOktay/autonomous-agency",
-    "stars": 2,
-    "updated_at": "2026-09-06T19:41:36Z",
-    "url": "https://github.com/GktuOktay/autonomous-agency"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -221,15 +230,6 @@
     "stars": 0,
     "updated_at": "2026-09-06T09:42:29Z",
     "url": "https://github.com/L4pisLazuli/cursor_obsidian_template"
-  },
-  {
-    "description": "Production-ready AI agent profiles for Claude Code, Cursor, Codex, OpenClaw, and Hermes. Search, install, and contribute",
-    "id": "nota-america/forgecat-agent-profiles",
-    "language": "TypeScript",
-    "name": "nota-america/forgecat-agent-profiles",
-    "stars": 65,
-    "updated_at": "2026-09-06T19:46:52Z",
-    "url": "https://github.com/nota-america/forgecat-agent-profiles"
   },
   {
     "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
@@ -465,7 +465,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 129153,
+    "stars": 129165,
     "updated_at": "2026-09-04T12:35:29Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
