@@ -1,12 +1,39 @@
 [
   {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
+    "id": "XAKLESK/cre-agent-skills",
+    "language": "\u2014",
+    "name": "XAKLESK/cre-agent-skills",
+    "stars": 7,
+    "updated_at": "2026-09-06T04:09:15Z",
+    "url": "https://github.com/XAKLESK/cre-agent-skills"
+  },
+  {
+    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
+    "id": "Amirun99/agency-orchestrator",
+    "language": "Dart",
+    "name": "Amirun99/agency-orchestrator",
     "stars": 0,
-    "updated_at": "2026-09-06T03:54:03Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+    "updated_at": "2026-09-06T04:06:36Z",
+    "url": "https://github.com/Amirun99/agency-orchestrator"
+  },
+  {
+    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
+    "id": "zinxj/uikit-expert-skill",
+    "language": "\u2014",
+    "name": "zinxj/uikit-expert-skill",
+    "stars": 5,
+    "updated_at": "2026-09-06T04:01:06Z",
+    "url": "https://github.com/zinxj/uikit-expert-skill"
+  },
+  {
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-09-06T04:00:59Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +41,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-06T03:45:42Z",
+    "updated_at": "2026-09-06T04:00:44Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 0,
+    "updated_at": "2026-09-06T03:54:03Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "description": "\ud83d\ude80 127 Specialized AI Agent Skills, 3-Step Autonomous Workflow, and Local SEO Operating System for Antigravity & Claude C",
@@ -86,15 +122,6 @@
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
-    "stars": 0,
-    "updated_at": "2026-09-05T23:41:53Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: \"Specialized skill for executing and debugging digital ASIC physical design flows (OpenROAD, OpenLane, Sky130). Guides agents through stage transitions from synthesis to floorplanning, placement, clock tree synthesis (CTS), routing, timing closure, and DRC/LVS physical verification.\"\nglobs: [\"*.tcl\", \"*.sdc\", \"*.def\", \"*.lef\", \"*.v\"]\nalwaysApply: false\n---\n\n# ASIC Flow Operator Skill\n\nThis skill guides coding agents through navigating and automating open-source digital Application-Specific Integrated Circuit (ASIC) physical design flows using tools like **OpenROAD**, **OpenLane**, and the **SkyWater 130nm (sky130)** process design kit (PDK).\n\n---\n\n## 1. The Physical Design Flow Pipeline\n\n```text\n[RTL Code (.v)] \n       \u2502\n       \u25bc  Step 1: Synthesis (Yosys)\n[Gate-level Netlist]\n       \u2502\n       \u25bc  Step 2: Floorplanning & IO Placement (OpenROAD / init_floorplan)\n[Die / Core Boundary + Power Grid (PDN)]\n       \u2502\n       \u25bc  Step 3: Global & Detailed Placement (OpenROAD / global_placement)\n[Placed Standard Cells]\n       \u2502\n       \u25bc  Step 4: Clock Tree Synthesis (OpenROAD / repair_clock_inverters)\n[Balanced Low-Skew Clock Tree]\n       \u2502\n       \u25bc  Step 5: Global & Detailed Routing (OpenROAD / global_route, triton_route)\n[Fully Connected Wires + Vias]\n       \u2502\n       \u25bc  Step 6: Signoff Verification (OpenSTA, Magic DRC, Netgen LVS)\n[Clean GDSII Layout Ready for Tapeout]\n```\n\n---\n\n## 2. Stage-by-Stage Operational Rules\n\n### Stage 1: Floorplanning (`init_floorplan`)\n- **Core Utilization**: Set initial target utilization to `35% - 55%`. Setting utilization $> 65\\%$ on standard cells frequently causes unroutable congestion during detailed routing.\n- **Aspect Ratio**: Keep core aspect ratio near 1.0 (square) unless pin density constraints dictate a rectangular floorplan.\n- **Power Distribution Network (PDN)**: Ensure standard cell power rails (`VPWR`/`VGND`) connect reliably to top-level metal power stripes without creating DRC notch violations.\n\n### Stage 2: Placement\n- **Global Placement (`gpl`)**: Monitor target density. If wirelength is excessive, inspect macro placement and pin constraints.\n- **Detailed Placement (`dpl`)**: Ensure legal placement into standard cell rows with zero cell overlap.\n\n### Stage 3: Clock Tree Synthesis (CTS)\n- **Goal**: Minimize clock skew and insertion delay across all flip-flops.\n- Verify that clock buffers (`clkbuf_*`) are selected from balanced drive-strength cells.\n- If hold violations surge after CTS, verify that clock latency across distant registers is balanced.\n\n### Stage 4: Routing & DRC/LVS Signoff\n- **Routing Congestion**: If detailed routing reports unresolved DRC antenna violations or open nets, back up to floorplanning and reduce cell density by 5\u201310%.\n- **Design Rule Checking (DRC)**: Magic or KLayout DRC violations (min spacing, min area, enclosure) must reach 0.\n- **Layout Versus Schematic (LVS)**: Netgen LVS must report `Netlists match uniquely`.\n\n---\n\n## 3. Timing Closure Playbook\n\n| Issue Encountered | Diagnosis | Remediation Action |\n| :--- | :--- | :--- |\n| **Setup Violation ($WNS < 0$)** | Data path too slow for target clock period | 1. Upsize driving cells along critical path.<br>2. Buffer long wire segments.<br>3. Move cells closer together in placement.<br>4. Pipeline RTL. |\n| **Hold Violation ($Hold\\ Slack < 0$)** | Data path faster than clock skew | Insert delay buffers (`clkbuf` or paired inverters) on short data paths. |\n| **Routing Congestion** | Too many wires competing for routing tracks | Reduce floorplan target utilization or increase die area. |\n| **Antenna Violation** | Long metal wire accumulates charge during fabrication | Insert antenna diodes near input gates. |\n\n---\n\n## 4. Checklist for Physical Design\n- [ ] Is core utilization configured conservatively ($40\\% - 55\\%$)?\n- [ ] Did placement complete with zero cell overlap errors?\n- [ ] Did CTS balance clock skew to $< 5\\%$ of clock period?\n- [ ] Is detailed routing complete with 0 open nets and 0 shorts?\n- [ ] Does static timing analysis report $WNS \\ge 0$ and $TNS = 0$?\n- [ ] Has DRC and LVS passed with zero violations?\n",
       "format": "mdc",
@@ -116,33 +143,6 @@
     "stars": 40,
     "updated_at": "2026-09-05T21:35:33Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
-    "id": "XAKLESK/cre-agent-skills",
-    "language": "\u2014",
-    "name": "XAKLESK/cre-agent-skills",
-    "stars": 7,
-    "updated_at": "2026-09-05T21:16:25Z",
-    "url": "https://github.com/XAKLESK/cre-agent-skills"
-  },
-  {
-    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
-    "id": "Amirun99/agency-orchestrator",
-    "language": "Dart",
-    "name": "Amirun99/agency-orchestrator",
-    "stars": 0,
-    "updated_at": "2026-09-05T21:14:18Z",
-    "url": "https://github.com/Amirun99/agency-orchestrator"
-  },
-  {
-    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
-    "id": "zinxj/uikit-expert-skill",
-    "language": "\u2014",
-    "name": "zinxj/uikit-expert-skill",
-    "stars": 5,
-    "updated_at": "2026-09-05T21:08:46Z",
-    "url": "https://github.com/zinxj/uikit-expert-skill"
   },
   {
     "description": "Know Yourself. Define Your Direction. Forge Your Opportunity.An agent-native skill for self-discovery, career positionin",
@@ -365,7 +365,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 128104,
+    "stars": 128126,
     "updated_at": "2026-09-04T12:35:29Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -501,7 +501,7 @@
     "id": "xiyu519/MotionVault",
     "language": "TypeScript",
     "name": "xiyu519/MotionVault",
-    "stars": 28,
+    "stars": 30,
     "updated_at": "2026-09-03T02:36:12Z",
     "url": "https://github.com/xiyu519/MotionVault"
   },
