@@ -1,12 +1,21 @@
 [
   {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "description": "Universal AI Engineering Skill (Cursor, Gemini, ChatGPT, Claude) for Commercial Fit-out CPM Scheduling & Native MS Proje",
+    "id": "kentyu0922/pmp-lead-pm-scheduler",
+    "language": "Python",
+    "name": "kentyu0922/pmp-lead-pm-scheduler",
     "stars": 0,
-    "updated_at": "2026-09-07T15:39:06Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+    "updated_at": "2026-09-07T15:52:37Z",
+    "url": "https://github.com/kentyu0922/pmp-lead-pm-scheduler"
+  },
+  {
+    "description": "An enterprise-grade, multi-agent AI ecosystem (Autonomous Agency) designed to replace standard conversational coding wit",
+    "id": "GktuOktay/autonomous-agency",
+    "language": "Python",
+    "name": "GktuOktay/autonomous-agency",
+    "stars": 4,
+    "updated_at": "2026-09-07T15:51:10Z",
+    "url": "https://github.com/GktuOktay/autonomous-agency"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +23,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-07T15:30:53Z",
+    "updated_at": "2026-09-07T15:45:42Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 0,
+    "updated_at": "2026-09-07T15:39:06Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "description": "Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align",
@@ -337,15 +355,6 @@
     "url": "https://github.com/kleosr/kleosrules"
   },
   {
-    "description": "An enterprise-grade, multi-agent AI ecosystem (Autonomous Agency) designed to replace standard conversational coding wit",
-    "id": "GktuOktay/autonomous-agency",
-    "language": "Python",
-    "name": "GktuOktay/autonomous-agency",
-    "stars": 4,
-    "updated_at": "2026-09-07T15:45:13Z",
-    "url": "https://github.com/GktuOktay/autonomous-agency"
-  },
-  {
     "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
     "id": "HoangNguyen0403/agent-skills-standard",
     "language": "TypeScript",
@@ -494,19 +503,5 @@
     "stars": 0,
     "updated_at": "2026-09-05T10:52:52Z",
     "url": "https://github.com/theYahia/napkin"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: PowerSync skill \u2014 follow AGENTS.md playbook; powersync login is Cloud-only\nglobs:\n  - skills/powersync/**/*\n  - AGENTS.md\n  - CONTRIBUTING.md\n---\n\n# PowerSync agent skills\n\nWhen editing or when the user\u2019s task involves PowerSync:\n\n1. Open **skills/powersync/AGENTS.md** and follow **Agent compliance** and the numbered onboarding playbook. Do not assume backend or Cloud vs self-hosted.\n2. Prefer the **PowerSync CLI** per that file; do not hand-roll deployable config unless the user explicitly cannot use the CLI.\n3. **`powersync login`** is for **PowerSync Cloud** (PAT) only \u2014 not for authenticating to a **self-hosted** service. Self-hosted: `powersync init self-hosted`, Docker commands, `PS_ADMIN_TOKEN` on the service.\n\nIf instructions here conflict with a \u201cfaster\u201d approach, the playbook wins unless the user explicitly overrides.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/powersync-playbook.mdc"
-    },
-    "description": "Official agent skills for PowerSync",
-    "id": "powersync-ja/agent-skills",
-    "language": "JavaScript",
-    "name": "powersync-ja/agent-skills",
-    "stars": 18,
-    "updated_at": "2026-09-07T10:09:54Z",
-    "url": "https://github.com/powersync-ja/agent-skills"
   }
 ]
