@@ -1,21 +1,21 @@
 [
   {
-    "description": "Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 20,
-    "updated_at": "2026-09-07T12:41:24Z",
-    "url": "https://github.com/MnemeHQ/mneme"
-  },
-  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-07T12:30:42Z",
+    "updated_at": "2026-09-07T12:45:45Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 20,
+    "updated_at": "2026-09-07T12:49:27Z",
+    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
@@ -23,7 +23,7 @@
     "language": "Dart",
     "name": "fluttersdk/wind",
     "stars": 33,
-    "updated_at": "2026-09-07T12:32:58Z",
+    "updated_at": "2026-09-07T13:00:02Z",
     "url": "https://github.com/fluttersdk/wind"
   },
   {
