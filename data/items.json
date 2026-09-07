@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-07T16:45:47Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align",
     "id": "MnemeHQ/mneme",
     "language": "Python",
@@ -27,21 +36,12 @@
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-07T16:30:45Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Universal AI Engineering Skill (Cursor, Gemini, ChatGPT, Claude) for Commercial Fit-out CPM Scheduling & Native MS Proje",
     "id": "kentyu0922/pmp-lead-pm-scheduler",
     "language": "Python",
     "name": "kentyu0922/pmp-lead-pm-scheduler",
     "stars": 0,
-    "updated_at": "2026-09-07T16:41:32Z",
+    "updated_at": "2026-09-07T16:55:19Z",
     "url": "https://github.com/kentyu0922/pmp-lead-pm-scheduler"
   },
   {
@@ -63,7 +63,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 130672,
+    "stars": 130685,
     "updated_at": "2026-09-07T16:27:01Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
