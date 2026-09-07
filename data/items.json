@@ -1,12 +1,21 @@
 [
   {
-    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
-    "id": "KbWen/agentic-os",
+    "description": "Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align",
+    "id": "MnemeHQ/mneme",
     "language": "Python",
-    "name": "KbWen/agentic-os",
-    "stars": 159,
-    "updated_at": "2026-09-07T14:49:58Z",
-    "url": "https://github.com/KbWen/agentic-os"
+    "name": "MnemeHQ/mneme",
+    "stars": 20,
+    "updated_at": "2026-09-07T15:07:15Z",
+    "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
+    "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
+    "id": "agenticstandardcontact-byte/agentic-architect",
+    "language": "HTML",
+    "name": "agenticstandardcontact-byte/agentic-architect",
+    "stars": 0,
+    "updated_at": "2026-09-07T15:02:46Z",
+    "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,17 +23,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-07T14:45:39Z",
+    "updated_at": "2026-09-07T15:00:33Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
-    "description": "Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align",
-    "id": "MnemeHQ/mneme",
+    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
+    "id": "KbWen/agentic-os",
     "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 20,
-    "updated_at": "2026-09-07T14:49:28Z",
-    "url": "https://github.com/MnemeHQ/mneme"
+    "name": "KbWen/agentic-os",
+    "stars": 159,
+    "updated_at": "2026-09-07T14:49:58Z",
+    "url": "https://github.com/KbWen/agentic-os"
   },
   {
     "cursorrules": {
@@ -353,15 +362,6 @@
     "stars": 0,
     "updated_at": "2026-09-06T13:41:42Z",
     "url": "https://github.com/mrvishaljjoshi-cmyk/VJSS"
-  },
-  {
-    "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
-    "id": "agenticstandardcontact-byte/agentic-architect",
-    "language": "HTML",
-    "name": "agenticstandardcontact-byte/agentic-architect",
-    "stars": 0,
-    "updated_at": "2026-09-06T12:52:59Z",
-    "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
   },
   {
     "description": "Drop-in AI rules for Cursor and Claude Code that cut project token usage by 50%+.",
