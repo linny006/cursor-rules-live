@@ -1,12 +1,12 @@
 [
   {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 40,
-    "updated_at": "2026-09-07T11:28:24Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+    "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
+    "id": "fluttersdk/wind",
+    "language": "Dart",
+    "name": "fluttersdk/wind",
+    "stars": 33,
+    "updated_at": "2026-09-07T11:42:33Z",
+    "url": "https://github.com/fluttersdk/wind"
   },
   {
     "description": "\ud83c\udfad 267 \u4e2a\u5373\u63d2\u5373\u7528\u7684 AI \u4e13\u5bb6\u89d2\u8272 \u2014 \u652f\u6301 Hermes Agent/Claude Code/Cursor/Copilot \u7b49 18 \u79cd\u5de5\u5177\uff0c\u8986\u76d6\u5de5\u7a0b/\u8bbe\u8ba1/\u8425\u9500/\u91d1\u878d\u7b49 20 \u4e2a\u90e8\u95e8\u3002\u542b 52 \u4e2a\u4e2d\u56fd\u5e02\u573a\u539f\u521b\u667a\u80fd\u4f53\uff08\u5c0f\u7ea2\u4e66/\u6296\u97f3/",
@@ -14,8 +14,26 @@
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
     "stars": 20363,
-    "updated_at": "2026-09-07T11:26:56Z",
+    "updated_at": "2026-09-07T11:42:14Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-07T11:30:42Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 40,
+    "updated_at": "2026-09-07T11:28:24Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "cursorrules": {
@@ -30,15 +48,6 @@
     "stars": 52,
     "updated_at": "2026-09-07T11:21:05Z",
     "url": "https://github.com/axelfreeman/marketing-mindset"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-07T11:15:57Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -499,19 +508,5 @@
     "stars": 1,
     "updated_at": "2026-09-04T21:37:49Z",
     "url": "https://github.com/arcjet/arcjet-plugin"
-  },
-  {
-    "cursorrules": {
-      "content": "# AI Lead PM Scheduler - Cursor Rules\n# Universal AI Engineering Skill for Commercial Fit-out CPM Scheduling & Native MS Project (.mpp)\n# Official Demo: https://lead-pm-landing.vercel.app\n# Pro Release: https://kentyu.gumroad.com/l/pmp-lead-pm-scheduler/EARLYBIRD\n\nrules:\n  - name: \"Deterministic CPM Topological Scheduling\"\n    description: \"Calculates strict Critical Path Method (CPM) Forward/Backward passes without circular dependencies.\"\n    triggers: [\"schedule\", \"gantt\", \"fitout\", \"mpp\", \"wbs\", \"cpm\", \"commercial office\"]\n    framework: \"Kahn's Topological Sort + MS Project COM Automation\"",
-      "format": "text",
-      "path": ".cursorrules"
-    },
-    "description": "Universal AI Engineering Skill (Cursor, Gemini, ChatGPT, Claude) for Commercial Fit-out CPM Scheduling & Native MS Proje",
-    "id": "kentyu0922/pmp-lead-pm-scheduler",
-    "language": "Python",
-    "name": "kentyu0922/pmp-lead-pm-scheduler",
-    "stars": 0,
-    "updated_at": "2026-09-04T17:29:44Z",
-    "url": "https://github.com/kentyu0922/pmp-lead-pm-scheduler"
   }
 ]
