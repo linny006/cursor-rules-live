@@ -1,11 +1,20 @@
 [
   {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 0,
+    "updated_at": "2026-09-07T15:39:06Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-07T15:15:34Z",
+    "updated_at": "2026-09-07T15:30:53Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -159,15 +168,6 @@
     "url": "https://github.com/GeiserX/homebrew-lynxprompt"
   },
   {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 0,
-    "updated_at": "2026-09-07T09:10:14Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
     "description": "Auto harness engineering meta-repo: discuss \u2192 curate \u2192 bootstrap a context-engineered project for Claude Code, Cursor, C",
     "id": "glowElephant/context-forge",
     "language": "Python",
@@ -213,7 +213,7 @@
     "id": "Pranav-Nexus/antigravity-skill-porter",
     "language": "Python",
     "name": "Pranav-Nexus/antigravity-skill-porter",
-    "stars": 1,
+    "stars": 2,
     "updated_at": "2026-09-07T07:40:37Z",
     "url": "https://github.com/Pranav-Nexus/antigravity-skill-porter"
   },
@@ -342,7 +342,7 @@
     "language": "Python",
     "name": "GktuOktay/autonomous-agency",
     "stars": 4,
-    "updated_at": "2026-09-06T21:04:53Z",
+    "updated_at": "2026-09-07T15:45:13Z",
     "url": "https://github.com/GktuOktay/autonomous-agency"
   },
   {
