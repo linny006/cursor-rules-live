@@ -1,11 +1,29 @@
 [
   {
+    "description": "Port, convert, and optimize Claude Code & Cursor skills into Google Antigravity native multi-agent plugins.",
+    "id": "Pranav-Nexus/antigravity-skill-porter",
+    "language": "Python",
+    "name": "Pranav-Nexus/antigravity-skill-porter",
+    "stars": 3,
+    "updated_at": "2026-09-08T02:59:49Z",
+    "url": "https://github.com/Pranav-Nexus/antigravity-skill-porter"
+  },
+  {
+    "description": "Universal AI Engineering Skill (Cursor, Gemini, ChatGPT, Claude) for Commercial Fit-out CPM Scheduling & Native MS Proje",
+    "id": "kentyu0922/pmp-lead-pm-scheduler",
+    "language": "Python",
+    "name": "kentyu0922/pmp-lead-pm-scheduler",
+    "stars": 0,
+    "updated_at": "2026-09-08T02:56:05Z",
+    "url": "https://github.com/kentyu0922/pmp-lead-pm-scheduler"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-08T02:30:33Z",
+    "updated_at": "2026-09-08T02:45:49Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -16,15 +34,6 @@
     "stars": 1,
     "updated_at": "2026-09-08T02:07:15Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "Universal AI Engineering Skill (Cursor, Gemini, ChatGPT, Claude) for Commercial Fit-out CPM Scheduling & Native MS Proje",
-    "id": "kentyu0922/pmp-lead-pm-scheduler",
-    "language": "Python",
-    "name": "kentyu0922/pmp-lead-pm-scheduler",
-    "stars": 0,
-    "updated_at": "2026-09-08T02:45:10Z",
-    "url": "https://github.com/kentyu0922/pmp-lead-pm-scheduler"
   },
   {
     "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 plus AIOS, an open-source markdown memory system for coding ",
@@ -200,7 +209,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 131098,
+    "stars": 131115,
     "updated_at": "2026-09-07T16:27:01Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -285,15 +294,6 @@
     "stars": 2,
     "updated_at": "2026-09-07T08:41:39Z",
     "url": "https://github.com/glowElephant/context-forge"
-  },
-  {
-    "description": "Port, convert, and optimize Claude Code & Cursor skills into Google Antigravity native multi-agent plugins.",
-    "id": "Pranav-Nexus/antigravity-skill-porter",
-    "language": "Python",
-    "name": "Pranav-Nexus/antigravity-skill-porter",
-    "stars": 3,
-    "updated_at": "2026-09-07T07:40:37Z",
-    "url": "https://github.com/Pranav-Nexus/antigravity-skill-porter"
   },
   {
     "cursorrules": {
