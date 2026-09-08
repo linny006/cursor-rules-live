@@ -1,12 +1,30 @@
 [
   {
+    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
+    "id": "Amirun99/agency-orchestrator",
+    "language": "Dart",
+    "name": "Amirun99/agency-orchestrator",
+    "stars": 0,
+    "updated_at": "2026-09-08T14:08:28Z",
+    "url": "https://github.com/Amirun99/agency-orchestrator"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-08T13:46:05Z",
+    "updated_at": "2026-09-08T14:00:51Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
+    "id": "zinxj/uikit-expert-skill",
+    "language": "\u2014",
+    "name": "zinxj/uikit-expert-skill",
+    "stars": 5,
+    "updated_at": "2026-09-08T14:00:28Z",
+    "url": "https://github.com/zinxj/uikit-expert-skill"
   },
   {
     "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
@@ -259,7 +277,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 131787,
+    "stars": 131801,
     "updated_at": "2026-09-07T16:27:01Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -300,7 +318,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 20395,
+    "stars": 20396,
     "updated_at": "2026-09-07T11:42:14Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -474,26 +492,8 @@
     "language": "\u2014",
     "name": "XAKLESK/cre-agent-skills",
     "stars": 8,
-    "updated_at": "2026-09-06T04:09:15Z",
+    "updated_at": "2026-09-08T14:11:41Z",
     "url": "https://github.com/XAKLESK/cre-agent-skills"
-  },
-  {
-    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
-    "id": "Amirun99/agency-orchestrator",
-    "language": "Dart",
-    "name": "Amirun99/agency-orchestrator",
-    "stars": 0,
-    "updated_at": "2026-09-06T04:06:36Z",
-    "url": "https://github.com/Amirun99/agency-orchestrator"
-  },
-  {
-    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
-    "id": "zinxj/uikit-expert-skill",
-    "language": "\u2014",
-    "name": "zinxj/uikit-expert-skill",
-    "stars": 5,
-    "updated_at": "2026-09-06T04:01:06Z",
-    "url": "https://github.com/zinxj/uikit-expert-skill"
   },
   {
     "cursorrules": {
