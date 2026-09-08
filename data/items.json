@@ -1,5 +1,32 @@
 [
   {
+    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
+    "id": "XAKLESK/cre-agent-skills",
+    "language": "\u2014",
+    "name": "XAKLESK/cre-agent-skills",
+    "stars": 8,
+    "updated_at": "2026-09-08T22:20:39Z",
+    "url": "https://github.com/XAKLESK/cre-agent-skills"
+  },
+  {
+    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
+    "id": "Amirun99/agency-orchestrator",
+    "language": "Dart",
+    "name": "Amirun99/agency-orchestrator",
+    "stars": 0,
+    "updated_at": "2026-09-08T22:18:32Z",
+    "url": "https://github.com/Amirun99/agency-orchestrator"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-08T22:15:43Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
     "id": "edsondviana8/ai-humanizer-core",
     "language": "HTML",
@@ -16,15 +43,6 @@
     "stars": 5,
     "updated_at": "2026-09-08T22:13:00Z",
     "url": "https://github.com/zinxj/uikit-expert-skill"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-08T22:00:39Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -102,24 +120,6 @@
     "stars": 2,
     "updated_at": "2026-09-08T15:19:16Z",
     "url": "https://github.com/kleosr/kleosrules"
-  },
-  {
-    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
-    "id": "XAKLESK/cre-agent-skills",
-    "language": "\u2014",
-    "name": "XAKLESK/cre-agent-skills",
-    "stars": 8,
-    "updated_at": "2026-09-08T14:11:41Z",
-    "url": "https://github.com/XAKLESK/cre-agent-skills"
-  },
-  {
-    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
-    "id": "Amirun99/agency-orchestrator",
-    "language": "Dart",
-    "name": "Amirun99/agency-orchestrator",
-    "stars": 0,
-    "updated_at": "2026-09-08T14:08:28Z",
-    "url": "https://github.com/Amirun99/agency-orchestrator"
   },
   {
     "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
@@ -226,7 +226,7 @@
     "id": "Pranav-Nexus/antigravity-skill-porter",
     "language": "Python",
     "name": "Pranav-Nexus/antigravity-skill-porter",
-    "stars": 3,
+    "stars": 4,
     "updated_at": "2026-09-08T02:59:49Z",
     "url": "https://github.com/Pranav-Nexus/antigravity-skill-porter"
   },
@@ -309,7 +309,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 132106,
+    "stars": 132119,
     "updated_at": "2026-09-07T16:27:01Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
