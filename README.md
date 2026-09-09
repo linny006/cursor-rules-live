@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-09 13:31 UTC
+> ⏰ Last updated: 2026-09-09 13:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -77,7 +77,7 @@ expired items removed — so you can rely on what you see being current.
 | 22 | [powersync-ja/agent-skills](https://github.com/powersync-ja/agent-skills) | 18 | JavaScript | 2026-09-09 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/powersync-ja/agent-skills/) | Official agent skills for PowerSync |
 | 23 | [sublimecoder/sublimecoding](https://github.com/sublimecoder/sublimecoding) | 0 | — | 2026-09-08 | — | 🛠️ Free Claude Code & Cursor prompts for senior engineers — plus AIOS, an open-source markdown memory system for coding  |
 | 24 | [kleosr/kleosrules](https://github.com/kleosr/kleosrules) | 2 | Shell | 2026-09-08 | — | Cursor harness pack: user rules, skills, Bash hooks, local HANDOFF memory. macOS, Linux, Windows (WSL). |
-| 25 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-09-08 | — | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
+| 25 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-09-09 | — | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
 | 26 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 17 | TypeScript | 2026-09-08 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
 | 27 | [Top-Celestial-Company-Ltd/dros-verified-code-generation-skill](https://github.com/Top-Celestial-Company-Ltd/dros-verified-code-generation-skill) | 1 | Python | 2026-09-08 | — | Deterministic verification, Anti-Stub integrity checks, and GBAI governance boundary modularization for AI Agents (Claud |
 | 28 | [Hyanthropological659/clarify-skill](https://github.com/Hyanthropological659/clarify-skill) | 1 | — | 2026-09-08 | — | Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a |
@@ -91,7 +91,7 @@ expired items removed — so you can rely on what you see being current.
 | 36 | [nota-america/forgecat-agent-profiles](https://github.com/nota-america/forgecat-agent-profiles) | 66 | TypeScript | 2026-09-07 | — | Production-ready AI agent profiles for Claude Code, Cursor, Codex, OpenClaw, and Hermes. Search, install, and contribute |
 | 37 | [axelfreeman/marketing-mindset](https://github.com/axelfreeman/marketing-mindset) | 47 | HTML | 2026-09-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/axelfreeman/marketing-mindset/) | The marketing OS for AI agents — think like a marketer first, get tactics as the output. |
 | 38 | [GktuOktay/autonomous-agency](https://github.com/GktuOktay/autonomous-agency) | 5 | Python | 2026-09-07 | — | An enterprise-grade, multi-agent AI ecosystem (Autonomous Agency) designed to replace standard conversational coding wit |
-| 39 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 132963 | JavaScript | 2026-09-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 39 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 132976 | JavaScript | 2026-09-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 40 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 162 | Python | 2026-09-07 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
 | 41 | [peva3/anchor](https://github.com/peva3/anchor) | 8 | — | 2026-09-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/peva3/anchor/) | Anchor — the production-grade AGENTS.md template for AI coding agents. 51 sections of battle-tested rules. Keep your age |
 | 42 | [wilsonwaters/3d-printing](https://github.com/wilsonwaters/3d-printing) | 0 | OpenSCAD | 2026-09-07 | — | 3D printing toolkit — AI-powered design skills for Claude Code, Cursor, Windsurf & Copilot, plus parametric OpenSCAD mod |
@@ -102,7 +102,7 @@ expired items removed — so you can rely on what you see being current.
 | 47 | [jahidulislamseo/antigravity-ai-skills](https://github.com/jahidulislamseo/antigravity-ai-skills) | 3 | HTML | 2026-09-07 | — | 🚀 127 Specialized AI Agent Skills, 3-Step Autonomous Workflow, and Local SEO Operating System for Antigravity & Claude C |
 | 48 | [varungor365/cursor-rules-curated](https://github.com/varungor365/cursor-rules-curated) | 0 | — | 2026-09-07 | — | Curated Cursor rules and AI coding-agent prompts for Next.js, React, Python, and FastAPI projects. |
 | 49 | [fluzzy/archive](https://github.com/fluzzy/archive) | 0 | — | 2026-09-07 | — | Curated rules, guides, and resources for AI coding agents — Claude Code, prompts, MCP, skills, and best practices |
-| 50 | [wshobson/agents](https://github.com/wshobson/agents) | 39520 | Python | 2026-09-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, and Google Antigravit |
+| 50 | [wshobson/agents](https://github.com/wshobson/agents) | 39522 | Python | 2026-09-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, and Google Antigravit |
 <!-- TRACKER_TABLE_END -->
 
 ---
