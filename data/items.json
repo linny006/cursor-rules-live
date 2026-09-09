@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-09T05:15:45Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
     "id": "XAKLESK/cre-agent-skills",
     "language": "\u2014",
@@ -25,15 +34,6 @@
     "stars": 5,
     "updated_at": "2026-09-09T05:04:58Z",
     "url": "https://github.com/zinxj/uikit-expert-skill"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-09T05:00:47Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -351,7 +351,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 132447,
+    "stars": 132458,
     "updated_at": "2026-09-07T16:27:01Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -392,7 +392,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 20421,
+    "stars": 20423,
     "updated_at": "2026-09-07T11:42:14Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
