@@ -1,11 +1,20 @@
 [
   {
+    "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
+    "id": "mikeprasad/aria-knowledge",
+    "language": "Shell",
+    "name": "mikeprasad/aria-knowledge",
+    "stars": 17,
+    "updated_at": "2026-09-09T17:17:32Z",
+    "url": "https://github.com/mikeprasad/aria-knowledge"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-09T17:00:42Z",
+    "updated_at": "2026-09-09T17:15:36Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -428,7 +437,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 133181,
+    "stars": 133187,
     "updated_at": "2026-09-07T16:27:01Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -504,14 +513,5 @@
     "stars": 3,
     "updated_at": "2026-09-07T04:48:06Z",
     "url": "https://github.com/jahidulislamseo/antigravity-ai-skills"
-  },
-  {
-    "description": "Curated Cursor rules and AI coding-agent prompts for Next.js, React, Python, and FastAPI projects.",
-    "id": "varungor365/cursor-rules-curated",
-    "language": "\u2014",
-    "name": "varungor365/cursor-rules-curated",
-    "stars": 0,
-    "updated_at": "2026-09-07T02:36:59Z",
-    "url": "https://github.com/varungor365/cursor-rules-curated"
   }
 ]
