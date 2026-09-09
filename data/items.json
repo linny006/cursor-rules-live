@@ -1,11 +1,20 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-09-09T00:52:29Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-09T00:30:32Z",
+    "updated_at": "2026-09-09T00:45:53Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -89,15 +98,6 @@
     "stars": 0,
     "updated_at": "2026-09-08T22:18:32Z",
     "url": "https://github.com/Amirun99/agency-orchestrator"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-09-08T22:13:39Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
@@ -337,7 +337,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 132188,
+    "stars": 132204,
     "updated_at": "2026-09-07T16:27:01Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -378,7 +378,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 20400,
+    "stars": 20401,
     "updated_at": "2026-09-07T11:42:14Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
