@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-09 23:15 UTC
+> ⏰ Last updated: 2026-09-09 23:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -90,13 +90,13 @@ expired items removed — so you can rely on what you see being current.
 | 35 | [Luxvil/ai-coding-rules](https://github.com/Luxvil/ai-coding-rules) | 3 | Shell | 2026-09-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Luxvil/ai-coding-rules/) | 🤖 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje |
 | 36 | [wu529778790/shenzjd-skills](https://github.com/wu529778790/shenzjd-skills) | 0 | Shell | 2026-09-08 | — | 我的 Claude Code skills 集合，用于提升开发效率 |
 | 37 | [kentyu0922/pmp-lead-pm-scheduler](https://github.com/kentyu0922/pmp-lead-pm-scheduler) | 0 | Python | 2026-09-08 | — | Universal AI Engineering Skill (Cursor, Gemini, ChatGPT, Claude) for Commercial Fit-out CPM Scheduling & Native MS Proje |
-| 38 | [Pranav-Nexus/antigravity-skill-porter](https://github.com/Pranav-Nexus/antigravity-skill-porter) | 4 | Python | 2026-09-08 | — | Port, convert, and optimize Claude Code & Cursor skills into Google Antigravity native multi-agent plugins. |
+| 38 | [Pranav-Nexus/antigravity-skill-porter](https://github.com/Pranav-Nexus/antigravity-skill-porter) | 5 | Python | 2026-09-08 | — | Port, convert, and optimize Claude Code & Cursor skills into Google Antigravity native multi-agent plugins. |
 | 39 | [alex-zaporozhan/leo](https://github.com/alex-zaporozhan/leo) | 1 | — | 2026-09-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/alex-zaporozhan/leo/) | A deterministic context-driven agentic SDLC framework for Cursor and Claude. 41 codified laws and 22 specialist roles to |
 | 40 | [zesun33/hw-agent-skills](https://github.com/zesun33/hw-agent-skills) | 0 | Python | 2026-09-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/zesun33/hw-agent-skills/) | Portable agent skills and rubrics for hardware engineering and ML systems |
 | 41 | [nota-america/forgecat-agent-profiles](https://github.com/nota-america/forgecat-agent-profiles) | 66 | TypeScript | 2026-09-09 | — | Production-ready AI agent profiles for Claude Code, Cursor, Codex, OpenClaw, and Hermes. Search, install, and contribute |
 | 42 | [axelfreeman/marketing-mindset](https://github.com/axelfreeman/marketing-mindset) | 47 | HTML | 2026-09-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/axelfreeman/marketing-mindset/) | The marketing OS for AI agents — think like a marketer first, get tactics as the output. |
 | 43 | [GktuOktay/autonomous-agency](https://github.com/GktuOktay/autonomous-agency) | 5 | Python | 2026-09-07 | — | An enterprise-grade, multi-agent AI ecosystem (Autonomous Agency) designed to replace standard conversational coding wit |
-| 44 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 133349 | JavaScript | 2026-09-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 44 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 133359 | JavaScript | 2026-09-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 45 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 162 | Python | 2026-09-07 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
 | 46 | [peva3/anchor](https://github.com/peva3/anchor) | 8 | — | 2026-09-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/peva3/anchor/) | Anchor — the production-grade AGENTS.md template for AI coding agents. 51 sections of battle-tested rules. Keep your age |
 | 47 | [wilsonwaters/3d-printing](https://github.com/wilsonwaters/3d-printing) | 0 | OpenSCAD | 2026-09-07 | — | 3D printing toolkit — AI-powered design skills for Claude Code, Cursor, Windsurf & Copilot, plus parametric OpenSCAD mod |
