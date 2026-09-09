@@ -5,7 +5,7 @@
     "language": "\u2014",
     "name": "ciembor/agent-rules-books",
     "stars": 2731,
-    "updated_at": "2026-09-09T13:41:09Z",
+    "updated_at": "2026-09-09T13:57:11Z",
     "url": "https://github.com/ciembor/agent-rules-books"
   },
   {
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-09T13:31:13Z",
+    "updated_at": "2026-09-09T13:45:49Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
+    "id": "agenticstandardcontact-byte/agentic-architect",
+    "language": "HTML",
+    "name": "agenticstandardcontact-byte/agentic-architect",
+    "stars": 0,
+    "updated_at": "2026-09-09T13:42:25Z",
+    "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
   },
   {
     "cursorrules": {
@@ -69,7 +78,7 @@
     "language": "Python",
     "name": "johnwall123459885/skene-cookbook",
     "stars": 0,
-    "updated_at": "2026-09-09T11:45:57Z",
+    "updated_at": "2026-09-09T13:58:51Z",
     "url": "https://github.com/johnwall123459885/skene-cookbook"
   },
   {
@@ -246,15 +255,6 @@
     "url": "https://github.com/kleosr/kleosrules"
   },
   {
-    "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
-    "id": "agenticstandardcontact-byte/agentic-architect",
-    "language": "HTML",
-    "name": "agenticstandardcontact-byte/agentic-architect",
-    "stars": 0,
-    "updated_at": "2026-09-09T13:42:25Z",
-    "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
-  },
-  {
     "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
     "id": "philipbankier/awesome-agent-skills",
     "language": "TypeScript",
@@ -401,7 +401,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 132976,
+    "stars": 132994,
     "updated_at": "2026-09-07T16:27:01Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -442,7 +442,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 20466,
+    "stars": 20467,
     "updated_at": "2026-09-07T11:42:14Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -515,7 +515,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39522,
+    "stars": 39523,
     "updated_at": "2026-09-07T01:09:29Z",
     "url": "https://github.com/wshobson/agents"
   }
