@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-09 00:30 UTC
+> ⏰ Last updated: 2026-09-09 00:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,10 +53,10 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-09-09 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 2 | [shihabshahrier/softco](https://github.com/shihabshahrier/softco) | 0 | HCL | 2026-09-09 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/shihabshahrier/softco/) | Turn AI coding agents into an autonomous software firm |
-| 3 | [shihabshahrier/skill-builder](https://github.com/shihabshahrier/skill-builder) | 0 | Shell | 2026-09-09 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/shihabshahrier/skill-builder/) | Build & audit AI agent skills from plain English |
-| 4 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-09 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-09 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-09-09 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
+| 3 | [shihabshahrier/softco](https://github.com/shihabshahrier/softco) | 0 | HCL | 2026-09-09 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/shihabshahrier/softco/) | Turn AI coding agents into an autonomous software firm |
+| 4 | [shihabshahrier/skill-builder](https://github.com/shihabshahrier/skill-builder) | 0 | Shell | 2026-09-09 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/shihabshahrier/skill-builder/) | Build & audit AI agent skills from plain English |
 | 5 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-09-08 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
 | 6 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-09-08 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
 | 7 | [fluttersdk/wind](https://github.com/fluttersdk/wind) | 33 | Dart | 2026-09-08 | — | Tailwind CSS for Flutter — classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code  |
@@ -85,7 +85,7 @@ expired items removed — so you can rely on what you see being current.
 | 30 | [axelfreeman/marketing-mindset](https://github.com/axelfreeman/marketing-mindset) | 46 | HTML | 2026-09-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/axelfreeman/marketing-mindset/) | The marketing OS for AI agents — think like a marketer first, get tactics as the output. |
 | 31 | [GktuOktay/autonomous-agency](https://github.com/GktuOktay/autonomous-agency) | 5 | Python | 2026-09-07 | — | An enterprise-grade, multi-agent AI ecosystem (Autonomous Agency) designed to replace standard conversational coding wit |
 | 32 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 20 | Python | 2026-09-07 | — | Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align |
-| 33 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 132179 | JavaScript | 2026-09-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 33 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 132188 | JavaScript | 2026-09-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 34 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 160 | Python | 2026-09-07 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
 | 35 | [peva3/anchor](https://github.com/peva3/anchor) | 8 | — | 2026-09-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/peva3/anchor/) | Anchor — the production-grade AGENTS.md template for AI coding agents. 51 sections of battle-tested rules. Keep your age |
 | 36 | [wilsonwaters/3d-printing](https://github.com/wilsonwaters/3d-printing) | 0 | OpenSCAD | 2026-09-07 | — | 3D printing toolkit — AI-powered design skills for Claude Code, Cursor, Windsurf & Copilot, plus parametric OpenSCAD mod |
