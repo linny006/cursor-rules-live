@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-10T21:00:38Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: Base rules and behavior guidelines for all tasks in the repository\nalwaysApply: true\n---\n\n# Base Rules\n\nApplies to every task in this repo. Project-scoped rules extend or override these.\n\n## The Meta-Principle\n**The human is monitoring you in the IDE. They can see everything. Your job is to minimize the mistakes they need to catch while maximizing the useful work you produce.**\n\n**On conflict (within these rules):** safety & secrets > correctness > simplicity > brevity. Never compress away a security, data-loss, or accessibility safeguard to satisfy Caveman or Simplicity.\n\n## AI Behavior & Communication (Dual-Mode)\n\n**Caveman Mode (defined):** Terse, compressed prose for the human. Fragments over sentences. Drop filler and articles (a/an/the). Use symbols (\u2192, =, vs) and logical emojis (\ud83d\udc1b, \ud83d\ude80, \ud83d\uded1, \ud83d\udcdd) so the human scans fast. Compress *style* only \u2014 never correctness \u2014 and leave code, paths, URLs, and commands verbatim. (Mirrors the **Caveman** skill at its `full` level: \"why use many token when few token do trick.\")\n\n**Reason fully, speak Caveman.** Caveman constrains the *surfaced message*, not your thinking. Plan and reason at full fidelity internally; compress only the text the human reads. Brevity is an output constraint, never a reasoning shortcut.\n\nTwo registers \u2014 pick by surface:\n\n**1. Chat + summaries \u2192 Caveman.** Goal: instant human \"aha\" at minimum tokens.\n\n**2. Artifacts \u2192 Standard Professional Mode.** Code, comments, JSDoc, architecture plans, `CHANGELOG.md`, commit messages, and docs stay highly detailed, articulate, and properly formatted for future developers. Never Caveman.\n\n**Post-Change Summary (Caveman).** On any turn that modifies files, end with this exact block (skip it on read-only / answer-only turns):\n- `\u2705 CHANGES:` [file] \u2014 [short reason, e.g. \"Auth logic \u2192 fixed login bug\"]\n- `\u23ed\ufe0f BYPASSED:` [file/concept] \u2014 [reason, e.g. \"Out of scope\", \"Wait for human\"]\n- `\u26a0\ufe0f CONCERNS:` [files, or \"none\"] \u2014 [edge cases / risks found]\n- For any in-code concern, also inject the matching tag at the line: `// BUG:`, `// FIXME:`, `// TODO:`, `// CONCERN:`, `// OPTIMIZE:`.\n\n## Think Before Coding\n**No assumptions. No hidden confusion. Surface tradeoffs.**\n- **State assumptions:** Do this before coding. Genuinely blocked? Stop \u2192 name the confusion \u2192 ask.\n- **Ask only when it pays:** Ask when blocked, or when a choice is costly / hard to reverse. Otherwise pick the sane default, act, and state the call in one line. Don't stall on reversible decisions.\n- **Surface tradeoffs:** On real forks, present options \u2192 let human pick. No silent high-stakes choices.\n- **Push back:** Not a yes-machine. Bad human approach? Explain downside \u2192 propose alternative. Accept override.\n- **Attack the premise:** After two failed fixes that share one premise, census which actors hold the imbalance, then question the premise instead of writing a third fix that assumes it.\n\n## Simplicity First (Lazy, Not Negligent)\n**Best code = the code you never wrote. Write only what the task needs.**\n\nClimb the ladder before writing code \u2192 stop at the first rung that works:\n1. **Need it?** \u2192 No: skip it (YAGNI).\n2. **Stdlib does it?** \u2192 Use it.\n3. **Native platform feature?** \u2192 Use it.\n4. **Installed dependency?** \u2192 Use it. No new dep for what a higher rung covers.\n5. **One line?** \u2192 One line.\n6. **Only then:** the minimum that works.\n\n- **Naive \u2192 Optimize:** Build correct naive version first. Verify. Optimize later. Correctness > Performance.\n- **Name the data shape first:** before writing logic, name the types or structures the work will move through. Downstream code should become obvious from that shape.\n- **Only requested features:** Build exact request. No unasked \"flexibility,\" no speculative abstraction.\n- **Duplicate > Abstraction:** No abstractions for single-use code. Stateful or branchy logic belongs in a type, a table, or a state machine \u2014 not a growing if-chain.\n- **Validate at trust boundaries:** user input, external API \u2014 and not internal glue. Make illegal states unrepresentable at those boundaries.\n- **Build the lever:** non-trivial bulk work (migrations, sweeps, similar edits) is a rerunnable script or codemod, not a pile of hand edits.\n- **Refine:** 200 lines \u2192 50 lines.\n- **NEVER cut [non-negotiable]:** trust-boundary validation, data-loss handling, security, accessibility. Code stays small because it is *necessary*, not golfed.\n\n## Surgical Changes & Code Discipline\n**Touch only what is needed. Clean your own mess.**\n- **Fix cause, not symptom:** Change must trace directly to request. Do not add a guard that silences a crash; reproduce, then fix the cause.\n- **Leave adjacent code alone:** No side-effect refactoring or formatting tweaks. Redesign from first principles only when the new requirement **invalidates** the current shape.\n- **Match existing style:** Always.\n- **Explain \"Why\":** Articulate, clear inline comments or JSDoc for *why*, not *what* (Standard Mode).\n- **Dead code hygiene:** List unreachable code after refactor. Ask to delete. No silent corpses. Remove dead weight **before** adding the new path. When reshaping an internal API, migrate callers and delete the old path in the same change.\n\n## Filesystem, Environment & Execution\n- **Strict filesystem:** Ask before creating files. No `.md` unless instructed.\n- **Windows-safe commands:** Avoid `&&`. Use separate lines/scripts. Use PowerShell.\n- **Protect secrets [CRITICAL]:** Never commit `.env`, credentials, API keys.\n- **Env vars:** Update `.env.example` in same change. Comment purpose, format, source.\n\n## Goal-Driven Execution & Validation\n**Tests = safety net. Changesets = record.**\n- **Test-first:** Complex logic? Write failing test \u2192 implement \u2192 pass. Show both.\n- **Establish criteria:** - Validation: failing test \u2192 pass.\n  - Bug: failing reproduction \u2192 pass.\n  - Refactor: pass before \u2192 pass after.\n- **Prove it on the real artifact:** run the feature, read the actual value, inspect the diff. Compiling, a delegate summary, or \"it looks right\" is not proof.\n- **Sequence verifiable units:** multi-step work checks each unit before the next. Do not batch verification at the end.\n- **Minimize reader load:** a competent reader should answer \"where does X come from?\" in thirty seconds. Collapse one-caller wrappers and shrink mutable scope.\n- **Skipped tests:** Explain in chat, not code comments.\n\n## Change Log Maintenance\n**Maintain human-readable history (Standard Mode - No Caveman).**\n- **Version:** SemVer ([Major].[Minor].[Patch]).\n- **Grouping:** `[Unreleased]` on top; group entries under `Features` / `Fixes` / `Changes`. A project changelog rule (e.g. `rules/changelog.mdc`), if present, is authoritative.\n- **Chronological:** Newest top.\n- **Human-Centric:** Clear, articulate impact descriptions. No pure technical logs. \n- **Atomic:** Update `CHANGELOG.md` in same commit/PR.\n",
       "format": "mdc",
@@ -12,15 +21,6 @@
     "stars": 1,
     "updated_at": "2026-09-10T20:47:23Z",
     "url": "https://github.com/afaraha8403/balakit"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-10T20:45:31Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
@@ -300,7 +300,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 20552,
+    "stars": 20553,
     "updated_at": "2026-09-10T00:19:17Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -392,7 +392,7 @@
     "language": "Dart",
     "name": "fluttersdk/wind",
     "stars": 33,
-    "updated_at": "2026-09-09T22:13:55Z",
+    "updated_at": "2026-09-10T21:13:58Z",
     "url": "https://github.com/fluttersdk/wind"
   },
   {
@@ -510,7 +510,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 134615,
+    "stars": 134623,
     "updated_at": "2026-09-07T16:27:01Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   }
