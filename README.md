@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-10 22:15 UTC
+> ⏰ Last updated: 2026-09-10 22:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,9 +53,9 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-09-10 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
-| 2 | [Hyanthropological659/clarify-skill](https://github.com/Hyanthropological659/clarify-skill) | 1 | — | 2026-09-10 | — | Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a |
-| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-10 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-10 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-09-10 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
+| 3 | [Hyanthropological659/clarify-skill](https://github.com/Hyanthropological659/clarify-skill) | 1 | — | 2026-09-10 | — | Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a |
 | 4 | [Overseastelegramaliterateperson865/awesome-claude-md](https://github.com/Overseastelegramaliterateperson865/awesome-claude-md) | 2 | — | 2026-09-10 | — | Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr |
 | 5 | [Luxvil/ai-coding-rules](https://github.com/Luxvil/ai-coding-rules) | 3 | Shell | 2026-09-10 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Luxvil/ai-coding-rules/) | 🤖 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje |
 | 6 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 42 | — | 2026-09-10 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
@@ -102,7 +102,7 @@ expired items removed — so you can rely on what you see being current.
 | 47 | [zesun33/hw-agent-skills](https://github.com/zesun33/hw-agent-skills) | 0 | Python | 2026-09-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/zesun33/hw-agent-skills/) | Portable agent skills and rubrics for hardware engineering and ML systems |
 | 48 | [axelfreeman/marketing-mindset](https://github.com/axelfreeman/marketing-mindset) | 47 | HTML | 2026-09-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/axelfreeman/marketing-mindset/) | The marketing OS for AI agents — think like a marketer first, get tactics as the output. |
 | 49 | [GktuOktay/autonomous-agency](https://github.com/GktuOktay/autonomous-agency) | 5 | Python | 2026-09-07 | — | An enterprise-grade, multi-agent AI ecosystem (Autonomous Agency) designed to replace standard conversational coding wit |
-| 50 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 134642 | JavaScript | 2026-09-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 50 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 134650 | JavaScript | 2026-09-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 <!-- TRACKER_TABLE_END -->
 
 ---
