@@ -14,7 +14,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="afaraha8403/balakit - entry on Cursor Rules Live">
 <meta name="twitter:description" content="Opinionated, cross-agent rules and skills for AI coding agents — one npx install into Cursor, Claude Code, Codex, OpenCo">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"afaraha8403/balakit","codeRepository":"https://github.com/afaraha8403/balakit","programmingLanguage":"JavaScript","url":"https://linny006.github.io/cursor-rules-live/r/afaraha8403/balakit/","description":"Opinionated, cross-agent rules and skills for AI coding agents — one npx install into Cursor, Claude Code, Codex, OpenCo","author":{"@type":"Person","name":"afaraha8403","url":"https://github.com/afaraha8403"},"dateModified":"2026-08-28"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"afaraha8403/balakit","codeRepository":"https://github.com/afaraha8403/balakit","programmingLanguage":"JavaScript","url":"https://linny006.github.io/cursor-rules-live/r/afaraha8403/balakit/","description":"Opinionated, cross-agent rules and skills for AI coding agents — one npx install into Cursor, Claude Code, Codex, OpenCo","author":{"@type":"Person","name":"afaraha8403","url":"https://github.com/afaraha8403"},"dateModified":"2026-09-10"}</script>
 <style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
          --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
 * { box-sizing: border-box; }
@@ -48,7 +48,7 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <div class="meta">
 <span><strong>Stars</strong> 1</span>
 <span><strong>Language</strong> JavaScript</span>
-<span><strong>Last updated</strong> 2026-08-28</span>
+<span><strong>Last updated</strong> 2026-09-10</span>
 <span><a href="https://github.com/afaraha8403/balakit" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/afaraha8403" rel="external">@afaraha8403</a></span>
 </div>
@@ -92,6 +92,7 @@ Two registers — pick by surface:
 - **Ask only when it pays:** Ask when blocked, or when a choice is costly / hard to reverse. Otherwise pick the sane default, act, and state the call in one line. Don&#x27;t stall on reversible decisions.
 - **Surface tradeoffs:** On real forks, present options → let human pick. No silent high-stakes choices.
 - **Push back:** Not a yes-machine. Bad human approach? Explain downside → propose alternative. Accept override.
+- **Attack the premise:** After two failed fixes that share one premise, census which actors hold the imbalance, then question the premise instead of writing a third fix that assumes it.
 
 ## Simplicity First (Lazy, Not Negligent)
 **Best code = the code you never wrote. Write only what the task needs.**
@@ -105,19 +106,21 @@ Climb the ladder before writing code → stop at the first rung that works:
 6. **Only then:** the minimum that works.
 
 - **Naive → Optimize:** Build correct naive version first. Verify. Optimize later. Correctness &gt; Performance.
+- **Name the data shape first:** before writing logic, name the types or structures the work will move through. Downstream code should become obvious from that shape.
 - **Only requested features:** Build exact request. No unasked &quot;flexibility,&quot; no speculative abstraction.
-- **Duplicate &gt; Abstraction:** No abstractions for single-use code.
-- **Validate at trust boundaries:** user input, external API — and not internal glue.
+- **Duplicate &gt; Abstraction:** No abstractions for single-use code. Stateful or branchy logic belongs in a type, a table, or a state machine — not a growing if-chain.
+- **Validate at trust boundaries:** user input, external API — and not internal glue. Make illegal states unrepresentable at those boundaries.
+- **Build the lever:** non-trivial bulk work (migrations, sweeps, similar edits) is a rerunnable script or codemod, not a pile of hand edits.
 - **Refine:** 200 lines → 50 lines.
 - **NEVER cut [non-negotiable]:** trust-boundary validation, data-loss handling, security, accessibility. Code stays small because it is *necessary*, not golfed.
 
 ## Surgical Changes &amp; Code Discipline
 **Touch only what is needed. Clean your own mess.**
-- **Fix cause, not symptom:** Change must trace directly to request. 
-- **Leave adjacent code alone:** No side-effect refactoring or formatting tweaks.
+- **Fix cause, not symptom:** Change must trace directly to request. Do not add a guard that silences a crash; reproduce, then fix the cause.
+- **Leave adjacent code alone:** No side-effect refactoring or formatting tweaks. Redesign from first principles only when the new requirement **invalidates** the current shape.
 - **Match existing style:** Always.
 - **Explain &quot;Why&quot;:** Articulate, clear inline comments or JSDoc for *why*, not *what* (Standard Mode).
-- **Dead code hygiene:** List unreachable code after refactor. Ask to delete. No silent corpses.
+- **Dead code hygiene:** List unreachable code after refactor. Ask to delete. No silent corpses. Remove dead weight **before** adding the new path. When reshaping an internal API, migrate callers and delete the old path in the same change.
 
 ## Filesystem, Environment &amp; Execution
 - **Strict filesystem:** Ask before creating files. No `.md` unless instructed.
@@ -131,25 +134,16 @@ Climb the ladder before writing code → stop at the first rung that works:
 - **Establish criteria:** - Validation: failing test → pass.
   - Bug: failing reproduction → pass.
   - Refactor: pass before → pass after.
-- **Skipped tests:** Explain in chat, not code comments.
-
-## Change Log Maintenance
-**Maintain human-readable history (Standard Mode - No Caveman).**
-- **Version:** SemVer ([Major].[Minor].[Patch]).
-- **Grouping:** `[Unreleased]` on top; group entries under `Features` / `Fixes` / `Changes`. A project changelog rule (e.g. `rules/changelog.mdc`), if present, is authoritative.
-- **Chronological:** Newest top.
-- **Human-Centric:** Clear, articulate impact descriptions. No pure technical logs. 
-- **Atomic:** Update `CHANGELOG.md` in same commit/PR.
-</code></pre>
-<p><a href="https://github.com/afaraha8403/balakit/blob/HEAD/.cursor/rules/base.mdc" rel="external">View raw on GitHub</a></p>
+- **Prove it on the real artifact:** run the feature, read the actual value, inspect the diff. Compiling, a delegate summary</code></pre>
+<p><em>Content truncated. View full file in the source repo (linked above).</em></p><p><a href="https://github.com/afaraha8403/balakit/blob/HEAD/.cursor/rules/base.mdc" rel="external">View raw on GitHub</a></p>
 </section>
 <section><h2>Why this is listed</h2>
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>
 <ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/">DietrichGebert/ponytail (stars:134599)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/powersync-ja/agent-skills/">powersync-ja/agent-skills (stars:18)</a></li>
 <li><a href="https://linny006.github.io/cursor-rules-live/r/kensaurus/cursor-kenji/">kensaurus/cursor-kenji (stars:9)</a></li>
-<li><a href="https://linny006.github.io/cursor-rules-live/r/smirnovalex-qa/qa-skills/">smirnovalex-qa/qa-skills (stars:1)</a></li>
-<li><a href="https://linny006.github.io/cursor-rules-live/r/lewes2/archpresent/">lewes2/archpresent (stars:1)</a></li>
 </ul></section>
 <section><h2>Explore by category</h2>
 <ul class="crosslinks">

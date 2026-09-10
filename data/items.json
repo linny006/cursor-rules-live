@@ -1,5 +1,37 @@
 [
   {
+    "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
+    "id": "mikeprasad/aria-knowledge",
+    "language": "Shell",
+    "name": "mikeprasad/aria-knowledge",
+    "stars": 17,
+    "updated_at": "2026-09-10T20:12:35Z",
+    "url": "https://github.com/mikeprasad/aria-knowledge"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Base rules and behavior guidelines for all tasks in the repository\nalwaysApply: true\n---\n\n# Base Rules\n\nApplies to every task in this repo. Project-scoped rules extend or override these.\n\n## The Meta-Principle\n**The human is monitoring you in the IDE. They can see everything. Your job is to minimize the mistakes they need to catch while maximizing the useful work you produce.**\n\n**On conflict (within these rules):** safety & secrets > correctness > simplicity > brevity. Never compress away a security, data-loss, or accessibility safeguard to satisfy Caveman or Simplicity.\n\n## AI Behavior & Communication (Dual-Mode)\n\n**Caveman Mode (defined):** Terse, compressed prose for the human. Fragments over sentences. Drop filler and articles (a/an/the). Use symbols (\u2192, =, vs) and logical emojis (\ud83d\udc1b, \ud83d\ude80, \ud83d\uded1, \ud83d\udcdd) so the human scans fast. Compress *style* only \u2014 never correctness \u2014 and leave code, paths, URLs, and commands verbatim. (Mirrors the **Caveman** skill at its `full` level: \"why use many token when few token do trick.\")\n\n**Reason fully, speak Caveman.** Caveman constrains the *surfaced message*, not your thinking. Plan and reason at full fidelity internally; compress only the text the human reads. Brevity is an output constraint, never a reasoning shortcut.\n\nTwo registers \u2014 pick by surface:\n\n**1. Chat + summaries \u2192 Caveman.** Goal: instant human \"aha\" at minimum tokens.\n\n**2. Artifacts \u2192 Standard Professional Mode.** Code, comments, JSDoc, architecture plans, `CHANGELOG.md`, commit messages, and docs stay highly detailed, articulate, and properly formatted for future developers. Never Caveman.\n\n**Post-Change Summary (Caveman).** On any turn that modifies files, end with this exact block (skip it on read-only / answer-only turns):\n- `\u2705 CHANGES:` [file] \u2014 [short reason, e.g. \"Auth logic \u2192 fixed login bug\"]\n- `\u23ed\ufe0f BYPASSED:` [file/concept] \u2014 [reason, e.g. \"Out of scope\", \"Wait for human\"]\n- `\u26a0\ufe0f CONCERNS:` [files, or \"none\"] \u2014 [edge cases / risks found]\n- For any in-code concern, also inject the matching tag at the line: `// BUG:`, `// FIXME:`, `// TODO:`, `// CONCERN:`, `// OPTIMIZE:`.\n\n## Think Before Coding\n**No assumptions. No hidden confusion. Surface tradeoffs.**\n- **State assumptions:** Do this before coding. Genuinely blocked? Stop \u2192 name the confusion \u2192 ask.\n- **Ask only when it pays:** Ask when blocked, or when a choice is costly / hard to reverse. Otherwise pick the sane default, act, and state the call in one line. Don't stall on reversible decisions.\n- **Surface tradeoffs:** On real forks, present options \u2192 let human pick. No silent high-stakes choices.\n- **Push back:** Not a yes-machine. Bad human approach? Explain downside \u2192 propose alternative. Accept override.\n- **Attack the premise:** After two failed fixes that share one premise, census which actors hold the imbalance, then question the premise instead of writing a third fix that assumes it.\n\n## Simplicity First (Lazy, Not Negligent)\n**Best code = the code you never wrote. Write only what the task needs.**\n\nClimb the ladder before writing code \u2192 stop at the first rung that works:\n1. **Need it?** \u2192 No: skip it (YAGNI).\n2. **Stdlib does it?** \u2192 Use it.\n3. **Native platform feature?** \u2192 Use it.\n4. **Installed dependency?** \u2192 Use it. No new dep for what a higher rung covers.\n5. **One line?** \u2192 One line.\n6. **Only then:** the minimum that works.\n\n- **Naive \u2192 Optimize:** Build correct naive version first. Verify. Optimize later. Correctness > Performance.\n- **Name the data shape first:** before writing logic, name the types or structures the work will move through. Downstream code should become obvious from that shape.\n- **Only requested features:** Build exact request. No unasked \"flexibility,\" no speculative abstraction.\n- **Duplicate > Abstraction:** No abstractions for single-use code. Stateful or branchy logic belongs in a type, a table, or a state machine \u2014 not a growing if-chain.\n- **Validate at trust boundaries:** user input, external API \u2014 and not internal glue. Make illegal states unrepresentable at those boundaries.\n- **Build the lever:** non-trivial bulk work (migrations, sweeps, similar edits) is a rerunnable script or codemod, not a pile of hand edits.\n- **Refine:** 200 lines \u2192 50 lines.\n- **NEVER cut [non-negotiable]:** trust-boundary validation, data-loss handling, security, accessibility. Code stays small because it is *necessary*, not golfed.\n\n## Surgical Changes & Code Discipline\n**Touch only what is needed. Clean your own mess.**\n- **Fix cause, not symptom:** Change must trace directly to request. Do not add a guard that silences a crash; reproduce, then fix the cause.\n- **Leave adjacent code alone:** No side-effect refactoring or formatting tweaks. Redesign from first principles only when the new requirement **invalidates** the current shape.\n- **Match existing style:** Always.\n- **Explain \"Why\":** Articulate, clear inline comments or JSDoc for *why*, not *what* (Standard Mode).\n- **Dead code hygiene:** List unreachable code after refactor. Ask to delete. No silent corpses. Remove dead weight **before** adding the new path. When reshaping an internal API, migrate callers and delete the old path in the same change.\n\n## Filesystem, Environment & Execution\n- **Strict filesystem:** Ask before creating files. No `.md` unless instructed.\n- **Windows-safe commands:** Avoid `&&`. Use separate lines/scripts. Use PowerShell.\n- **Protect secrets [CRITICAL]:** Never commit `.env`, credentials, API keys.\n- **Env vars:** Update `.env.example` in same change. Comment purpose, format, source.\n\n## Goal-Driven Execution & Validation\n**Tests = safety net. Changesets = record.**\n- **Test-first:** Complex logic? Write failing test \u2192 implement \u2192 pass. Show both.\n- **Establish criteria:** - Validation: failing test \u2192 pass.\n  - Bug: failing reproduction \u2192 pass.\n  - Refactor: pass before \u2192 pass after.\n- **Prove it on the real artifact:** run the feature, read the actual value, inspect the diff. Compiling, a delegate summary, or \"it looks right\" is not proof.\n- **Sequence verifiable units:** multi-step work checks each unit before the next. Do not batch verification at the end.\n- **Minimize reader load:** a competent reader should answer \"where does X come from?\" in thirty seconds. Collapse one-caller wrappers and shrink mutable scope.\n- **Skipped tests:** Explain in chat, not code comments.\n\n## Change Log Maintenance\n**Maintain human-readable history (Standard Mode - No Caveman).**\n- **Version:** SemVer ([Major].[Minor].[Patch]).\n- **Grouping:** `[Unreleased]` on top; group entries under `Features` / `Fixes` / `Changes`. A project changelog rule (e.g. `rules/changelog.mdc`), if present, is authoritative.\n- **Chronological:** Newest top.\n- **Human-Centric:** Clear, articulate impact descriptions. No pure technical logs. \n- **Atomic:** Update `CHANGELOG.md` in same commit/PR.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/base.mdc"
+    },
+    "description": "Opinionated, cross-agent rules and skills for AI coding agents \u2014 one npx install into Cursor, Claude Code, Codex, OpenCo",
+    "id": "afaraha8403/balakit",
+    "language": "JavaScript",
+    "name": "afaraha8403/balakit",
+    "stars": 1,
+    "updated_at": "2026-09-10T20:12:04Z",
+    "url": "https://github.com/afaraha8403/balakit"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-10T20:00:43Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
     "id": "Hyanthropological659/clarify-skill",
     "language": "\u2014",
@@ -18,15 +50,6 @@
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-10T19:45:37Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
     "id": "Overseastelegramaliterateperson865/awesome-claude-md",
     "language": "\u2014",
@@ -34,15 +57,6 @@
     "stars": 2,
     "updated_at": "2026-09-10T19:42:54Z",
     "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
-  },
-  {
-    "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
-    "id": "mikeprasad/aria-knowledge",
-    "language": "Shell",
-    "name": "mikeprasad/aria-knowledge",
-    "stars": 17,
-    "updated_at": "2026-09-10T19:42:14Z",
-    "url": "https://github.com/mikeprasad/aria-knowledge"
   },
   {
     "description": "Official AI Agent Plugins & Skills Marketplace for Antigravity (AGY), Claude Code, and Cursor",
@@ -172,7 +186,7 @@
     "id": "ciembor/agent-rules-books",
     "language": "\u2014",
     "name": "ciembor/agent-rules-books",
-    "stars": 2743,
+    "stars": 2744,
     "updated_at": "2026-09-10T11:21:47Z",
     "url": "https://github.com/ciembor/agent-rules-books"
   },
@@ -496,22 +510,8 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 134591,
+    "stars": 134599,
     "updated_at": "2026-09-07T16:27:01Z",
     "url": "https://github.com/DietrichGebert/ponytail"
-  },
-  {
-    "cursorrules": {
-      "content": "# Cursor AI Rules\n\n> These rules are loaded automatically for this project. See `AGENTS.md` for full details.\n\n## Core Directives\n\n1. **Read AGENTS.md before any task** \u2014 All rules are defined there\n2. **Read DEEPDIVE.md** \u2014 System architecture narrative\n3. **Follow every section** \u2014 Core principles, commit protocol, testing, linting, etc.\n\n## Critical Enforcements\n\n### Pre-Commit Checklist\n```bash\nruff check .\nruff format .\nvulture .\nmypy .\n```\n**Do not commit until all pass.** (Section 9)\n\n### Required Folders\nEvery project MUST have:\n- `tests/` \u2014 All tests + random scripts (in `.gitignore`)\n- `docs/` \u2014 Architecture documentation\n- `research/` \u2014 Whitepapers, references\n\n### Commit Style\nHuman-sounding, WHY-focused messages. Example:\n```\napi: Added JWT refresh to prevent 401 loops\n\nThe token refresh had a race condition where concurrent requests\ncould trigger multiple refresh calls. Added mutex lock around auth state.\n```\nSee Section 15 for the full pattern.\n\n### PR Standards (Section 33)\n- 800 lines max, 500 for complex logic\n- Single feature per PR\n- Use the PR template (Section 35)\n\n### AI Code Quality (Section 34)\nSelf-check: think first, spot laziness, uncertainty, bloat.\n\n### Pre-Commit Hooks (Section 37)\nMandatory. Install once: `pre-commit install`. Hooks run on every commit.\n\n### Decision Ladder (Section 50.1)\nBefore any implementation: YAGNI \u2192 stdlib \u2192 native \u2192 existing dep \u2192 one line \u2192 minimum.\n\n### Tradeoff Comments (Section 50.2)\nFor every intentional shortcut, document with `# ponytail: <what> / # Upgrade to <what> if <trigger>`.\n\n## Prohibited\n- No PRs/issues/GitHub activity without explicit user approval (Section 2)\n- No dead code, unused imports, silent exception handlers (Section 1)\n- No commits without running lint/vulture sweep first (Section 9)\n- No mutable default arguments, bare excepts, eval/exec (Section 27.2)\n- No force push to shared branches (Section 36.2)\n- No PRs over 800 lines (Section 33)\n- No skipping pre-commit hooks (Section 37)\n\n## Validation\nBefore marking complete:\n- [ ] Tests pass\n- [ ] No vulture findings\n- [ ] Type check clean\n- [ ] DEEPDIVE.md updated if needed\n- [ ] Human commit message\n- [ ] PR under 800 lines\n- [ ] Pre-commit hooks passed\n- [ ] AI anti-pattern self-check passed\n- [ ] Decision ladder applied\n- [ ] Tradeoff comments for shortcuts\n",
-      "format": "mdc",
-      "path": ".cursor/rules/project-rules.mdc"
-    },
-    "description": "Anchor \u2014 the production-grade AGENTS.md template for AI coding agents. 51 sections of battle-tested rules. Keep your age",
-    "id": "peva3/anchor",
-    "language": "\u2014",
-    "name": "peva3/anchor",
-    "stars": 8,
-    "updated_at": "2026-09-07T14:33:41Z",
-    "url": "https://github.com/peva3/anchor"
   }
 ]
