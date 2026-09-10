@@ -1,12 +1,12 @@
 [
   {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
     "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
-    "stars": 0,
-    "updated_at": "2026-09-10T04:26:56Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-10T04:30:57Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -19,8 +19,17 @@
     "language": "JavaScript",
     "name": "kensaurus/cursor-kenji",
     "stars": 9,
-    "updated_at": "2026-09-10T04:25:31Z",
+    "updated_at": "2026-09-10T04:30:41Z",
     "url": "https://github.com/kensaurus/cursor-kenji"
+  },
+  {
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-09-10T04:26:56Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
   },
   {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
@@ -30,15 +39,6 @@
     "stars": 0,
     "updated_at": "2026-09-10T04:22:07Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-10T04:15:42Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Production-ready AI agent profiles for Claude Code, Cursor, Codex, OpenClaw, and Hermes. Search, install, and contribute",
@@ -131,7 +131,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 20514,
+    "stars": 20516,
     "updated_at": "2026-09-10T00:19:17Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -382,7 +382,7 @@
     "language": "Python",
     "name": "kentyu0922/pmp-lead-pm-scheduler",
     "stars": 0,
-    "updated_at": "2026-09-10T04:17:22Z",
+    "updated_at": "2026-09-10T04:30:59Z",
     "url": "https://github.com/kentyu0922/pmp-lead-pm-scheduler"
   },
   {
@@ -455,7 +455,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 133645,
+    "stars": 133661,
     "updated_at": "2026-09-07T16:27:01Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -464,7 +464,7 @@
     "id": "KbWen/agentic-os",
     "language": "Python",
     "name": "KbWen/agentic-os",
-    "stars": 162,
+    "stars": 163,
     "updated_at": "2026-09-07T14:49:58Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
