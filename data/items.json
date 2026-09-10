@@ -1,11 +1,20 @@
 [
   {
+    "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
+    "id": "agenticstandardcontact-byte/agentic-architect",
+    "language": "HTML",
+    "name": "agenticstandardcontact-byte/agentic-architect",
+    "stars": 0,
+    "updated_at": "2026-09-10T13:35:38Z",
+    "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-10T13:16:01Z",
+    "updated_at": "2026-09-10T13:30:41Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -245,7 +254,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 20541,
+    "stars": 20542,
     "updated_at": "2026-09-10T00:19:17Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -269,7 +278,7 @@
     "language": "JavaScript",
     "name": "powersync-ja/agent-skills",
     "stars": 18,
-    "updated_at": "2026-09-10T10:47:18Z",
+    "updated_at": "2026-09-10T13:41:43Z",
     "url": "https://github.com/powersync-ja/agent-skills"
   },
   {
@@ -280,15 +289,6 @@
     "stars": 0,
     "updated_at": "2026-09-09T14:47:24Z",
     "url": "https://github.com/RahulHulsure/-Ironworks"
-  },
-  {
-    "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
-    "id": "agenticstandardcontact-byte/agentic-architect",
-    "language": "HTML",
-    "name": "agenticstandardcontact-byte/agentic-architect",
-    "stars": 0,
-    "updated_at": "2026-09-09T13:42:25Z",
-    "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
   },
   {
     "description": "Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align",
@@ -487,7 +487,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 134272,
+    "stars": 134284,
     "updated_at": "2026-09-07T16:27:01Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
