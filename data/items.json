@@ -10,8 +10,17 @@
     "language": "JavaScript",
     "name": "plumpslabs/matcha",
     "stars": 1,
-    "updated_at": "2026-09-10T06:56:14Z",
+    "updated_at": "2026-09-10T07:11:43Z",
     "url": "https://github.com/plumpslabs/matcha"
+  },
+  {
+    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 163,
+    "updated_at": "2026-09-10T07:04:52Z",
+    "url": "https://github.com/KbWen/agentic-os"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -19,7 +28,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-10T06:45:51Z",
+    "updated_at": "2026-09-10T07:00:36Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -154,7 +163,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 20524,
+    "stars": 20525,
     "updated_at": "2026-09-10T00:19:17Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -469,18 +478,9 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 133817,
+    "stars": 133835,
     "updated_at": "2026-09-07T16:27:01Z",
     "url": "https://github.com/DietrichGebert/ponytail"
-  },
-  {
-    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
-    "id": "KbWen/agentic-os",
-    "language": "Python",
-    "name": "KbWen/agentic-os",
-    "stars": 163,
-    "updated_at": "2026-09-10T06:47:23Z",
-    "url": "https://github.com/KbWen/agentic-os"
   },
   {
     "cursorrules": {
