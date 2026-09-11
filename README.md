@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-11 13:45 UTC
+> ⏰ Last updated: 2026-09-11 14:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -54,10 +54,10 @@ expired items removed — so you can rely on what you see being current.
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
 | 1 | [g0007b1/fenceline](https://github.com/g0007b1/fenceline) | 0 | JavaScript | 2026-09-11 | — | Agents that read your codebase and write the environment other agents need — then hooks that make it stick. Claude Code  |
-| 2 | [XAKLESK/cre-agent-skills](https://github.com/XAKLESK/cre-agent-skills) | 8 | — | 2026-09-11 | — | Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc |
-| 3 | [Amirun99/agency-orchestrator](https://github.com/Amirun99/agency-orchestrator) | 0 | Dart | 2026-09-11 | — | Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support. |
-| 4 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-09-11 | — | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
-| 5 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-11 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-11 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 3 | [XAKLESK/cre-agent-skills](https://github.com/XAKLESK/cre-agent-skills) | 8 | — | 2026-09-11 | — | Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc |
+| 4 | [Amirun99/agency-orchestrator](https://github.com/Amirun99/agency-orchestrator) | 0 | Dart | 2026-09-11 | — | Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support. |
+| 5 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-09-11 | — | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
 | 6 | [zinxj/uikit-expert-skill](https://github.com/zinxj/uikit-expert-skill) | 5 | — | 2026-09-11 | — | Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan |
 | 7 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-09-11 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
 | 8 | [GeiserX/homebrew-lynxprompt](https://github.com/GeiserX/homebrew-lynxprompt) | 2 | Ruby | 2026-09-11 | — | Homebrew tap for LynxPrompt CLI |
@@ -85,7 +85,7 @@ expired items removed — so you can rely on what you see being current.
 | 30 | [orin-dx/agent-plugins](https://github.com/orin-dx/agent-plugins) | 1 | Python | 2026-09-10 | — | Official AI Agent Plugins & Skills Marketplace for Antigravity (AGY), Claude Code, and Cursor |
 | 31 | [chkdskman/skill-sage-active-api](https://github.com/chkdskman/skill-sage-active-api) | 0 | — | 2026-09-10 | — | Sage Active Public API V2 (GraphQL) Skill/Plugin for Claude Code, Codex and Cursor. FR/ES/DE legislation rules. |
 | 32 | [powersync-ja/agent-skills](https://github.com/powersync-ja/agent-skills) | 18 | JavaScript | 2026-09-10 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/powersync-ja/agent-skills/) | Official agent skills for PowerSync |
-| 33 | [ciembor/agent-rules-books](https://github.com/ciembor/agent-rules-books) | 2751 | — | 2026-09-10 | — | AGENTS.md rules / skills for AI coding agents: Codex, Cursor & Claude Code. Inspired by Clean Code, Refactoring, DDD, Cl |
+| 33 | [ciembor/agent-rules-books](https://github.com/ciembor/agent-rules-books) | 2752 | — | 2026-09-10 | — | AGENTS.md rules / skills for AI coding agents: Codex, Cursor & Claude Code. Inspired by Clean Code, Refactoring, DDD, Cl |
 | 34 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 164 | Python | 2026-09-10 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
 | 35 | [saqie803/ponytail](https://github.com/saqie803/ponytail) | 0 | JavaScript | 2026-09-10 | — | Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony. |
 | 36 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-09-10 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
@@ -93,7 +93,7 @@ expired items removed — so you can rely on what you see being current.
 | 38 | [johnwall123459885/skene-cookbook](https://github.com/johnwall123459885/skene-cookbook) | 0 | Python | 2026-09-10 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/johnwall123459885/skene-cookbook/) | 🤖 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development. |
 | 39 | [kensaurus/cursor-kenji](https://github.com/kensaurus/cursor-kenji) | 9 | JavaScript | 2026-09-10 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/kensaurus/cursor-kenji/) | You say the job; the playbook runs. 143 agent skills + 55 commands for Cursor, Claude Code, Codex, Gemini. React / Next. |
 | 40 | [SalesforceAIResearch/agentforce-adlc](https://github.com/SalesforceAIResearch/agentforce-adlc) | 105 | Python | 2026-09-10 | — | Agent Development Life Cycle — Build, deploy, test, and optimize Agentforce agents using Claude Code skills and Agent Sc |
-| 41 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 20578 | Shell | 2026-09-10 | — | 🎭 277 个即插即用的 AI 专家角色 — 支持 Claude Code/Cursor/Copilot 等 20 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 64 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉/Qt 上 |
+| 41 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 20579 | Shell | 2026-09-10 | — | 🎭 277 个即插即用的 AI 专家角色 — 支持 Claude Code/Cursor/Copilot 等 20 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 64 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉/Qt 上 |
 | 42 | [EvilFreelancer/rpa-gen-rules](https://github.com/EvilFreelancer/rpa-gen-rules) | 1 | Python | 2026-09-09 | — | Agent skill for Claude Code, Codex and Cursor: generate or refresh project rules (.cursor/rules/*.mdc, CLAUDE.md and .cl |
 | 43 | [RahulHulsure/-Ironworks](https://github.com/RahulHulsure/-Ironworks) | 0 | PowerShell | 2026-09-09 | — | Industrial-grade development pipeline for AI coding agents — 13 skills, 7 layers, 16+ platforms. Works with Claude Code, |
 | 44 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 20 | Python | 2026-09-10 | — | Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align |

@@ -5,8 +5,17 @@
     "language": "JavaScript",
     "name": "g0007b1/fenceline",
     "stars": 0,
-    "updated_at": "2026-09-11T13:44:37Z",
+    "updated_at": "2026-09-11T13:53:34Z",
     "url": "https://github.com/g0007b1/fenceline"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-11T13:45:43Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
@@ -34,15 +43,6 @@
     "stars": 0,
     "updated_at": "2026-09-11T13:33:55Z",
     "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-11T13:30:33Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
@@ -332,7 +332,7 @@
     "id": "ciembor/agent-rules-books",
     "language": "\u2014",
     "name": "ciembor/agent-rules-books",
-    "stars": 2751,
+    "stars": 2752,
     "updated_at": "2026-09-10T11:21:47Z",
     "url": "https://github.com/ciembor/agent-rules-books"
   },
@@ -414,7 +414,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 20578,
+    "stars": 20579,
     "updated_at": "2026-09-10T00:19:17Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
