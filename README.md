@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-11 11:45 UTC
+> ⏰ Last updated: 2026-09-11 12:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,14 +53,14 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [g0007b1/fenceline](https://github.com/g0007b1/fenceline) | 0 | JavaScript | 2026-09-11 | — | Hooks that deny, not prompts that hope. One command makes any repo safe for Cursor / Claude Code / Codex agents. |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-11 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 3 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-09-11 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 4 | [XAKLESK/cre-agent-skills](https://github.com/XAKLESK/cre-agent-skills) | 8 | — | 2026-09-11 | — | Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc |
-| 5 | [Amirun99/agency-orchestrator](https://github.com/Amirun99/agency-orchestrator) | 0 | Dart | 2026-09-11 | — | Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support. |
-| 6 | [zinxj/uikit-expert-skill](https://github.com/zinxj/uikit-expert-skill) | 5 | — | 2026-09-11 | — | Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan |
-| 7 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 17 | Shell | 2026-09-11 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
-| 8 | [axelfreeman/marketing-mindset](https://github.com/axelfreeman/marketing-mindset) | 47 | HTML | 2026-09-11 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/axelfreeman/marketing-mindset/) | The marketing OS for AI agents — think like a marketer first, get tactics as the output. |
+| 1 | [g0007b1/fenceline](https://github.com/g0007b1/fenceline) | 0 | JavaScript | 2026-09-11 | — | Agents that read your codebase and write the environment other agents need — then hooks that make it stick. Claude Code  |
+| 2 | [axelfreeman/marketing-mindset](https://github.com/axelfreeman/marketing-mindset) | 47 | HTML | 2026-09-11 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/axelfreeman/marketing-mindset/) | The marketing OS for AI agents — think like a marketer first, get tactics as the output. |
+| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-11 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 4 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-09-11 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
+| 5 | [XAKLESK/cre-agent-skills](https://github.com/XAKLESK/cre-agent-skills) | 8 | — | 2026-09-11 | — | Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc |
+| 6 | [Amirun99/agency-orchestrator](https://github.com/Amirun99/agency-orchestrator) | 0 | Dart | 2026-09-11 | — | Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support. |
+| 7 | [zinxj/uikit-expert-skill](https://github.com/zinxj/uikit-expert-skill) | 5 | — | 2026-09-11 | — | Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan |
+| 8 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 17 | Shell | 2026-09-11 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
 | 9 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 17 | TypeScript | 2026-09-11 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
 | 10 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 42 | — | 2026-09-11 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
 | 11 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-09-11 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
@@ -84,7 +84,7 @@ expired items removed — so you can rely on what you see being current.
 | 29 | [powersync-ja/agent-skills](https://github.com/powersync-ja/agent-skills) | 18 | JavaScript | 2026-09-10 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/powersync-ja/agent-skills/) | Official agent skills for PowerSync |
 | 30 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-09-10 | — | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
 | 31 | [vibestackdev/vibe-stack](https://github.com/vibestackdev/vibe-stack) | 8 | TypeScript | 2026-09-10 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/) | 29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b |
-| 32 | [ciembor/agent-rules-books](https://github.com/ciembor/agent-rules-books) | 2749 | — | 2026-09-10 | — | AGENTS.md rules / skills for AI coding agents: Codex, Cursor & Claude Code. Inspired by Clean Code, Refactoring, DDD, Cl |
+| 32 | [ciembor/agent-rules-books](https://github.com/ciembor/agent-rules-books) | 2750 | — | 2026-09-10 | — | AGENTS.md rules / skills for AI coding agents: Codex, Cursor & Claude Code. Inspired by Clean Code, Refactoring, DDD, Cl |
 | 33 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 164 | Python | 2026-09-10 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
 | 34 | [saqie803/ponytail](https://github.com/saqie803/ponytail) | 0 | JavaScript | 2026-09-10 | — | Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony. |
 | 35 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-09-10 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
