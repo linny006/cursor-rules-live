@@ -1,12 +1,30 @@
 [
   {
-    "description": "Agents that read your codebase and write the environment other agents need \u2014 then hooks that make it stick. Claude Code ",
-    "id": "g0007b1/fenceline",
-    "language": "JavaScript",
-    "name": "g0007b1/fenceline",
+    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
+    "id": "zinxj/uikit-expert-skill",
+    "language": "\u2014",
+    "name": "zinxj/uikit-expert-skill",
+    "stars": 5,
+    "updated_at": "2026-09-11T13:28:10Z",
+    "url": "https://github.com/zinxj/uikit-expert-skill"
+  },
+  {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
     "stars": 0,
-    "updated_at": "2026-09-11T13:08:11Z",
-    "url": "https://github.com/g0007b1/fenceline"
+    "updated_at": "2026-09-11T13:25:02Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+  },
+  {
+    "description": "Homebrew tap for LynxPrompt CLI",
+    "id": "GeiserX/homebrew-lynxprompt",
+    "language": "Ruby",
+    "name": "GeiserX/homebrew-lynxprompt",
+    "stars": 2,
+    "updated_at": "2026-09-11T13:16:06Z",
+    "url": "https://github.com/GeiserX/homebrew-lynxprompt"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +32,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-11T13:00:48Z",
+    "updated_at": "2026-09-11T13:15:55Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Agents that read your codebase and write the environment other agents need \u2014 then hooks that make it stick. Claude Code ",
+    "id": "g0007b1/fenceline",
+    "language": "JavaScript",
+    "name": "g0007b1/fenceline",
+    "stars": 0,
+    "updated_at": "2026-09-11T13:08:11Z",
+    "url": "https://github.com/g0007b1/fenceline"
   },
   {
     "cursorrules": {
@@ -71,15 +98,6 @@
     "stars": 0,
     "updated_at": "2026-09-11T11:23:22Z",
     "url": "https://github.com/Amirun99/agency-orchestrator"
-  },
-  {
-    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
-    "id": "zinxj/uikit-expert-skill",
-    "language": "\u2014",
-    "name": "zinxj/uikit-expert-skill",
-    "stars": 5,
-    "updated_at": "2026-09-11T11:17:39Z",
-    "url": "https://github.com/zinxj/uikit-expert-skill"
   },
   {
     "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
@@ -139,15 +157,6 @@
     "stars": 51,
     "updated_at": "2026-09-11T09:21:58Z",
     "url": "https://github.com/roedyrustam/vibes-plug"
-  },
-  {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 0,
-    "updated_at": "2026-09-11T08:50:36Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
@@ -323,7 +332,7 @@
     "id": "ciembor/agent-rules-books",
     "language": "\u2014",
     "name": "ciembor/agent-rules-books",
-    "stars": 2750,
+    "stars": 2751,
     "updated_at": "2026-09-10T11:21:47Z",
     "url": "https://github.com/ciembor/agent-rules-books"
   },
@@ -405,7 +414,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 20576,
+    "stars": 20577,
     "updated_at": "2026-09-10T00:19:17Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -499,14 +508,5 @@
     "stars": 0,
     "updated_at": "2026-09-11T08:53:05Z",
     "url": "https://github.com/kentyu0922/pmp-lead-pm-scheduler"
-  },
-  {
-    "description": "Port, convert, and optimize Claude Code & Cursor skills into Google Antigravity native multi-agent plugins.",
-    "id": "Pranav-Nexus/antigravity-skill-porter",
-    "language": "Python",
-    "name": "Pranav-Nexus/antigravity-skill-porter",
-    "stars": 5,
-    "updated_at": "2026-09-08T02:59:49Z",
-    "url": "https://github.com/Pranav-Nexus/antigravity-skill-porter"
   }
 ]
