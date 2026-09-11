@@ -5,8 +5,17 @@
     "language": "JavaScript",
     "name": "g0007b1/fenceline",
     "stars": 0,
-    "updated_at": "2026-09-11T11:56:09Z",
+    "updated_at": "2026-09-11T12:05:40Z",
     "url": "https://github.com/g0007b1/fenceline"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-11T12:00:45Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -18,18 +27,9 @@
     "id": "axelfreeman/marketing-mindset",
     "language": "HTML",
     "name": "axelfreeman/marketing-mindset",
-    "stars": 47,
+    "stars": 34,
     "updated_at": "2026-09-11T11:47:35Z",
     "url": "https://github.com/axelfreeman/marketing-mindset"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-11T11:45:38Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",

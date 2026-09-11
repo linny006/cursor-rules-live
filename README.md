@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-11 12:00 UTC
+> ⏰ Last updated: 2026-09-11 12:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -54,8 +54,8 @@ expired items removed — so you can rely on what you see being current.
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
 | 1 | [g0007b1/fenceline](https://github.com/g0007b1/fenceline) | 0 | JavaScript | 2026-09-11 | — | Agents that read your codebase and write the environment other agents need — then hooks that make it stick. Claude Code  |
-| 2 | [axelfreeman/marketing-mindset](https://github.com/axelfreeman/marketing-mindset) | 47 | HTML | 2026-09-11 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/axelfreeman/marketing-mindset/) | The marketing OS for AI agents — think like a marketer first, get tactics as the output. |
-| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-11 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-11 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 3 | [axelfreeman/marketing-mindset](https://github.com/axelfreeman/marketing-mindset) | 34 | HTML | 2026-09-11 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/axelfreeman/marketing-mindset/) | The marketing OS for AI agents — think like a marketer first, get tactics as the output. |
 | 4 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-09-11 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
 | 5 | [XAKLESK/cre-agent-skills](https://github.com/XAKLESK/cre-agent-skills) | 8 | — | 2026-09-11 | — | Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc |
 | 6 | [Amirun99/agency-orchestrator](https://github.com/Amirun99/agency-orchestrator) | 0 | Dart | 2026-09-11 | — | Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support. |
