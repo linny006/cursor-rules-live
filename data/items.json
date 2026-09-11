@@ -1,5 +1,42 @@
 [
   {
+    "cursorrules": {
+      "content": "# Vibes-Plug \u2014 144+ Skills Ecosystem (v2.12.0)\n# Universal AI Plugin for Antigravity, Claude, and Cursor\n\n## About\nThis project uses the vibes-plug skills ecosystem with 144+ specialized skills.\nEach skill is a `SKILL.md` file in the `skills/` directory containing domain-specific\ninstructions, patterns, and best practices for the modern 2026 tech stack.\n\n## Core Stack (2026 Edition)\n- Frontend: React 19, Next.js 15, Tailwind CSS v4, TypeScript 5.8+\n- Backend: Node.js 24 LTS, Bun 1.2+, Hono v4, Fastify 5, Python 3.14, Go 1.25+, Rust 2024\n- Database: Prisma 6, Drizzle ORM, PostgreSQL, Supabase, Neon, Turso\n- AI/LLM: Vercel AI SDK 5.x, MCP v1.9+, pgvector, RAG pipelines\n\n## Mandatory Before Coding\n1. Read the relevant `skills/<skill-name>/SKILL.md` files before writing code.\n2. Think deeply before acting \u2014 analyze constraints, question assumptions, validate approach.\n3. For new projects, auto-generate: PRD.md, ERD.md, DOKUMENTASI.md.\n\n## Skill Domains\n- \ud83e\udd16 AI & Agentic: ai-llm-integration-expert, vercel-ai-sdk-expert, deep-research-analyst, synthetic-data-finetuning-expert, pydantic-ai-expert, mcp-server-architect, vector-db-rag-expert, multi-agent-orchestration, graph-rag-knowledge-expert, local-slm-edge-ai-expert\n- \ud83c\udfa8 Design & UI/UX: design-system-architect, hig, ui-components-expert, ui-ux-pro-max\n- \ud83d\udda5\ufe0f Frontend: senior-frontend, tailwind-expert, nextjs-app-router-expert, tanstack-query-expert, vue-frontend-expert\n- \u2699\ufe0f Backend: js-backend-expert, python-programming-expert, go-programming-expert, rust-programming-expert, api-design-expert\n- \u2601\ufe0f SaaS & Cloud: saas-transformer, saas-billing, ci-cd-devops-architect, cloud-hosting-expert, payment-gateway-expert\n- \ud83d\uddc4\ufe0f Database: database-orm-expert, edge-serverless-db-expert, supabase-migration\n- \ud83d\udd12 Security: authentication-identity-expert, e2e-testing-expert, production-ready-hardener, zero-trust-secret-vault\n- \ud83d\udd0d SEO: seo\n- \ud83d\udee0\ufe0f Utilities: brainstorming, prd-architect, auto-doc-updater, token-saver, vibe-code-gardener\n\n## Code Quality\n- Clean Code, SOLID, DRY \u2014 see `scalability-clean-code` skill.\n- No AI slop \u2014 be imperative, direct, token-efficient.\n- Bilingual support (English & Bahasa Indonesia) for all skills.\n\n## Orchestration Flow\n1. Ideation: brainstorming \u2192 prd-architect\n2. Design: design-system-architect \u2192 senior-frontend \u2192 ui-components-expert\n3. Backend: js-backend-expert \u2192 event-driven-architect \u2192 autonomous-tdd-debugger\n4. AI: ai-llm-integration-expert \u2192 mcp-server-architect\n5. SaaS: saas-transformer \u2192 saas-billing + saas-multi-tenant\n6. Launch: e2e-testing-expert \u2192 seo \u2192 production-ready-hardener\n",
+      "format": "text",
+      "path": ".cursorrules"
+    },
+    "description": "Universal Multi-Agent Swarm Plugin with specialized skills for Antigravity (AGY), Claude Code, and Cursor IDE. Modern 20",
+    "id": "roedyrustam/vibes-plug",
+    "language": "Python",
+    "name": "roedyrustam/vibes-plug",
+    "stars": 52,
+    "updated_at": "2026-09-11T21:24:21Z",
+    "url": "https://github.com/roedyrustam/vibes-plug"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Kit-authoring rules for the @commerce-atoms/agents repo. Distinguishes root (npm package) from kit/ (shipped product). Always-on.\nalwaysApply: true\n---\n\n# Kit authoring (this repo)\n\nYou are operating in the `@commerce-atoms/agents` npm package itself, **not** a Hydrogen storefront. The shipped product lives under [`kit/`](../../kit/) and has its own per-tool overlays \u2014 those rules govern consumer repos, not this one.\n\n## Always\n\n- TypeScript only across `src/` and `bin/`. No `.js` / `.mjs` source. No `any`. Strict mode is non-negotiable.\n- Run `npm run verify` after substantive edits to source. Don't disable a check.\n- Add a test for any behaviour change. Use `node:test` and `node:assert/strict`.\n- New / modified content under `kit/` must be registered in [`kit/INDEX.json`](../../kit/INDEX.json). The CI step `npm run lint:json` rejects missing or broken paths.\n- Synced markdown's repo-relative links are rewritten by [`src/internal/rewrite-links.ts`](../../src/internal/rewrite-links.ts) at sync time. Author links naturally.\n\n## Never\n\n- Apply storefront rules (anything from `kit/rules/core/*`) to this repo's source. Those are for Hydrogen apps.\n- Run `npm publish` from a workstation. Releases go via tag + `.github/workflows/publish.yml` (Trusted Publishing).\n- Move kit-authoring concerns into `kit/`. The split between root (config) and `kit/` (product) is doctrine \u2014 see [`CONTRIBUTING.md`](../../CONTRIBUTING.md).\n- Edit `kit/` without first reading [`kit/AGENTS.md`](../../kit/AGENTS.md) and [`kit/reference/conventions.md`](../../kit/reference/conventions.md).\n\n## Quick reference\n\n- Releasing: [`CONTRIBUTING.md`](../../CONTRIBUTING.md) \u2192 \"Releasing\".\n- Adding to the kit: [`CONTRIBUTING.md`](../../CONTRIBUTING.md) \u2192 \"Kit content\".\n- ADRs: [`kit/docs/decisions/`](../../kit/docs/decisions/).\n",
+      "format": "mdc",
+      "path": ".cursor/rules/00-kit-authoring.mdc"
+    },
+    "description": "Reusable AI agents and editor rules for building scalable ecommerce systems.",
+    "id": "commerce-atoms/agents",
+    "language": "TypeScript",
+    "name": "commerce-atoms/agents",
+    "stars": 1,
+    "updated_at": "2026-09-11T21:05:04Z",
+    "url": "https://github.com/commerce-atoms/agents"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-11T21:00:52Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align",
     "id": "MnemeHQ/mneme",
     "language": "Python",
@@ -36,15 +73,6 @@
     "url": "https://github.com/zinxj/uikit-expert-skill"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-11T20:45:40Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
     "id": "arnoldalberto007-sys/Swift-UIKit-Components",
     "language": "HTML",
@@ -70,20 +98,6 @@
     "stars": 42,
     "updated_at": "2026-09-11T20:21:08Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Kit-authoring rules for the @commerce-atoms/agents repo. Distinguishes root (npm package) from kit/ (shipped product). Always-on.\nalwaysApply: true\n---\n\n# Kit authoring (this repo)\n\nYou are operating in the `@commerce-atoms/agents` npm package itself, **not** a Hydrogen storefront. The shipped product lives under [`kit/`](../../kit/) and has its own per-tool overlays \u2014 those rules govern consumer repos, not this one.\n\n## Always\n\n- TypeScript only across `src/` and `bin/`. No `.js` / `.mjs` source. No `any`. Strict mode is non-negotiable.\n- Run `npm run verify` after substantive edits to source. Don't disable a check.\n- Add a test for any behaviour change. Use `node:test` and `node:assert/strict`.\n- New / modified content under `kit/` must be registered in [`kit/INDEX.json`](../../kit/INDEX.json). The CI step `npm run lint:json` rejects missing or broken paths.\n- Synced markdown's repo-relative links are rewritten by [`src/internal/rewrite-links.ts`](../../src/internal/rewrite-links.ts) at sync time. Author links naturally.\n\n## Never\n\n- Apply storefront rules (anything from `kit/rules/core/*`) to this repo's source. Those are for Hydrogen apps.\n- Run `npm publish` from a workstation. Releases go via tag + `.github/workflows/publish.yml` (Trusted Publishing).\n- Move kit-authoring concerns into `kit/`. The split between root (config) and `kit/` (product) is doctrine \u2014 see [`CONTRIBUTING.md`](../../CONTRIBUTING.md).\n- Edit `kit/` without first reading [`kit/AGENTS.md`](../../kit/AGENTS.md) and [`kit/reference/conventions.md`](../../kit/reference/conventions.md).\n\n## Quick reference\n\n- Releasing: [`CONTRIBUTING.md`](../../CONTRIBUTING.md) \u2192 \"Releasing\".\n- Adding to the kit: [`CONTRIBUTING.md`](../../CONTRIBUTING.md) \u2192 \"Kit content\".\n- ADRs: [`kit/docs/decisions/`](../../kit/docs/decisions/).\n",
-      "format": "mdc",
-      "path": ".cursor/rules/00-kit-authoring.mdc"
-    },
-    "description": "Reusable AI agents and editor rules for building scalable ecommerce systems.",
-    "id": "commerce-atoms/agents",
-    "language": "TypeScript",
-    "name": "commerce-atoms/agents",
-    "stars": 1,
-    "updated_at": "2026-09-11T20:27:02Z",
-    "url": "https://github.com/commerce-atoms/agents"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -193,20 +207,6 @@
     "stars": 17,
     "updated_at": "2026-09-11T10:32:06Z",
     "url": "https://github.com/philipbankier/awesome-agent-skills"
-  },
-  {
-    "cursorrules": {
-      "content": "# Vibes-Plug \u2014 144+ Skills Ecosystem (v2.12.0)\n# Universal AI Plugin for Antigravity, Claude, and Cursor\n\n## About\nThis project uses the vibes-plug skills ecosystem with 144+ specialized skills.\nEach skill is a `SKILL.md` file in the `skills/` directory containing domain-specific\ninstructions, patterns, and best practices for the modern 2026 tech stack.\n\n## Core Stack (2026 Edition)\n- Frontend: React 19, Next.js 15, Tailwind CSS v4, TypeScript 5.8+\n- Backend: Node.js 24 LTS, Bun 1.2+, Hono v4, Fastify 5, Python 3.14, Go 1.25+, Rust 2024\n- Database: Prisma 6, Drizzle ORM, PostgreSQL, Supabase, Neon, Turso\n- AI/LLM: Vercel AI SDK 5.x, MCP v1.9+, pgvector, RAG pipelines\n\n## Mandatory Before Coding\n1. Read the relevant `skills/<skill-name>/SKILL.md` files before writing code.\n2. Think deeply before acting \u2014 analyze constraints, question assumptions, validate approach.\n3. For new projects, auto-generate: PRD.md, ERD.md, DOKUMENTASI.md.\n\n## Skill Domains\n- \ud83e\udd16 AI & Agentic: ai-llm-integration-expert, vercel-ai-sdk-expert, deep-research-analyst, synthetic-data-finetuning-expert, pydantic-ai-expert, mcp-server-architect, vector-db-rag-expert, multi-agent-orchestration, graph-rag-knowledge-expert, local-slm-edge-ai-expert\n- \ud83c\udfa8 Design & UI/UX: design-system-architect, hig, ui-components-expert, ui-ux-pro-max\n- \ud83d\udda5\ufe0f Frontend: senior-frontend, tailwind-expert, nextjs-app-router-expert, tanstack-query-expert, vue-frontend-expert\n- \u2699\ufe0f Backend: js-backend-expert, python-programming-expert, go-programming-expert, rust-programming-expert, api-design-expert\n- \u2601\ufe0f SaaS & Cloud: saas-transformer, saas-billing, ci-cd-devops-architect, cloud-hosting-expert, payment-gateway-expert\n- \ud83d\uddc4\ufe0f Database: database-orm-expert, edge-serverless-db-expert, supabase-migration\n- \ud83d\udd12 Security: authentication-identity-expert, e2e-testing-expert, production-ready-hardener, zero-trust-secret-vault\n- \ud83d\udd0d SEO: seo\n- \ud83d\udee0\ufe0f Utilities: brainstorming, prd-architect, auto-doc-updater, token-saver, vibe-code-gardener\n\n## Code Quality\n- Clean Code, SOLID, DRY \u2014 see `scalability-clean-code` skill.\n- No AI slop \u2014 be imperative, direct, token-efficient.\n- Bilingual support (English & Bahasa Indonesia) for all skills.\n\n## Orchestration Flow\n1. Ideation: brainstorming \u2192 prd-architect\n2. Design: design-system-architect \u2192 senior-frontend \u2192 ui-components-expert\n3. Backend: js-backend-expert \u2192 event-driven-architect \u2192 autonomous-tdd-debugger\n4. AI: ai-llm-integration-expert \u2192 mcp-server-architect\n5. SaaS: saas-transformer \u2192 saas-billing + saas-multi-tenant\n6. Launch: e2e-testing-expert \u2192 seo \u2192 production-ready-hardener\n",
-      "format": "text",
-      "path": ".cursorrules"
-    },
-    "description": "Universal Multi-Agent Swarm Plugin with 145+ specialized skills for Antigravity (AGY), Claude Code, and Cursor IDE. Mode",
-    "id": "roedyrustam/vibes-plug",
-    "language": "Python",
-    "name": "roedyrustam/vibes-plug",
-    "stars": 51,
-    "updated_at": "2026-09-11T09:21:58Z",
-    "url": "https://github.com/roedyrustam/vibes-plug"
   },
   {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
