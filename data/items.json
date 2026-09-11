@@ -1,12 +1,26 @@
 [
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
+    "cursorrules": {
+      "content": "---\ndescription: Kit-authoring rules for the @commerce-atoms/agents repo. Distinguishes root (npm package) from kit/ (shipped product). Always-on.\nalwaysApply: true\n---\n\n# Kit authoring (this repo)\n\nYou are operating in the `@commerce-atoms/agents` npm package itself, **not** a Hydrogen storefront. The shipped product lives under [`kit/`](../../kit/) and has its own per-tool overlays \u2014 those rules govern consumer repos, not this one.\n\n## Always\n\n- TypeScript only across `src/` and `bin/`. No `.js` / `.mjs` source. No `any`. Strict mode is non-negotiable.\n- Run `npm run verify` after substantive edits to source. Don't disable a check.\n- Add a test for any behaviour change. Use `node:test` and `node:assert/strict`.\n- New / modified content under `kit/` must be registered in [`kit/INDEX.json`](../../kit/INDEX.json). The CI step `npm run lint:json` rejects missing or broken paths.\n- Synced markdown's repo-relative links are rewritten by [`src/internal/rewrite-links.ts`](../../src/internal/rewrite-links.ts) at sync time. Author links naturally.\n\n## Never\n\n- Apply storefront rules (anything from `kit/rules/core/*`) to this repo's source. Those are for Hydrogen apps.\n- Run `npm publish` from a workstation. Releases go via tag + `.github/workflows/publish.yml` (Trusted Publishing).\n- Move kit-authoring concerns into `kit/`. The split between root (config) and `kit/` (product) is doctrine \u2014 see [`CONTRIBUTING.md`](../../CONTRIBUTING.md).\n- Edit `kit/` without first reading [`kit/AGENTS.md`](../../kit/AGENTS.md) and [`kit/reference/conventions.md`](../../kit/reference/conventions.md).\n\n## Quick reference\n\n- Releasing: [`CONTRIBUTING.md`](../../CONTRIBUTING.md) \u2192 \"Releasing\".\n- Adding to the kit: [`CONTRIBUTING.md`](../../CONTRIBUTING.md) \u2192 \"Kit content\".\n- ADRs: [`kit/docs/decisions/`](../../kit/docs/decisions/).\n",
+      "format": "mdc",
+      "path": ".cursor/rules/00-kit-authoring.mdc"
+    },
+    "description": "Reusable AI agents and editor rules for building scalable ecommerce systems.",
+    "id": "commerce-atoms/agents",
+    "language": "TypeScript",
+    "name": "commerce-atoms/agents",
     "stars": 1,
-    "updated_at": "2026-09-11T18:00:02Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+    "updated_at": "2026-09-11T18:11:42Z",
+    "url": "https://github.com/commerce-atoms/agents"
+  },
+  {
+    "description": "\ud83d\udd25 2026 \u6700\u65b0\u7cbe\u9009\u4e2d\u6587 Cursor Rules \u89c4\u5219\u5e93\u4e0e\u6700\u4f73\u5b9e\u8df5\uff08React/Vue/Python/Go\uff09| AI \u7f16\u7a0b\u52a9\u624b\u914d\u7f6e\u6307\u5357",
+    "id": "ruandawa-ux/awesome-cursorrules-chinese",
+    "language": "JavaScript",
+    "name": "ruandawa-ux/awesome-cursorrules-chinese",
+    "stars": 0,
+    "updated_at": "2026-09-11T18:02:44Z",
+    "url": "https://github.com/ruandawa-ux/awesome-cursorrules-chinese"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +28,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-11T17:45:36Z",
+    "updated_at": "2026-09-11T18:00:34Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-09-11T18:00:02Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
@@ -490,23 +513,5 @@
     "stars": 1,
     "updated_at": "2026-09-08T11:12:58Z",
     "url": "https://github.com/Top-Celestial-Company-Ltd/dros-verified-code-generation-skill"
-  },
-  {
-    "description": "\u6211\u7684 Claude Code skills \u96c6\u5408\uff0c\u7528\u4e8e\u63d0\u5347\u5f00\u53d1\u6548\u7387",
-    "id": "wu529778790/shenzjd-skills",
-    "language": "Shell",
-    "name": "wu529778790/shenzjd-skills",
-    "stars": 0,
-    "updated_at": "2026-09-08T04:31:12Z",
-    "url": "https://github.com/wu529778790/shenzjd-skills"
-  },
-  {
-    "description": "Universal AI Engineering Skill (Cursor, Gemini, ChatGPT, Claude) for Commercial Fit-out CPM Scheduling & Native MS Proje",
-    "id": "kentyu0922/pmp-lead-pm-scheduler",
-    "language": "Python",
-    "name": "kentyu0922/pmp-lead-pm-scheduler",
-    "stars": 0,
-    "updated_at": "2026-09-11T08:53:05Z",
-    "url": "https://github.com/kentyu0922/pmp-lead-pm-scheduler"
   }
 ]
