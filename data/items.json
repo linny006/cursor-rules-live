@@ -1,5 +1,23 @@
 [
   {
+    "description": "Cursor harness pack: user rules, skills, Bash hooks, local HANDOFF memory. macOS, Linux, Windows (WSL).",
+    "id": "kleosr/kleosrules",
+    "language": "Shell",
+    "name": "kleosr/kleosrules",
+    "stars": 2,
+    "updated_at": "2026-09-11T00:06:42Z",
+    "url": "https://github.com/kleosr/kleosrules"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-11T00:00:42Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
     "id": "Hyanthropological659/clarify-skill",
     "language": "\u2014",
@@ -43,15 +61,6 @@
     "stars": 0,
     "updated_at": "2026-09-10T23:52:09Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-10T23:48:05Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -134,15 +143,6 @@
     "stars": 1,
     "updated_at": "2026-09-10T19:33:20Z",
     "url": "https://github.com/orin-dx/agent-plugins"
-  },
-  {
-    "description": "Cursor harness pack: user rules, skills, Bash hooks, local HANDOFF memory. macOS, Linux, Windows (WSL).",
-    "id": "kleosr/kleosrules",
-    "language": "Shell",
-    "name": "kleosr/kleosrules",
-    "stars": 2,
-    "updated_at": "2026-09-10T18:42:59Z",
-    "url": "https://github.com/kleosr/kleosrules"
   },
   {
     "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 plus AIOS, an open-source markdown memory system for coding ",
