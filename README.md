@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-11 22:15 UTC
+> ⏰ Last updated: 2026-09-11 22:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,8 +53,8 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [commerce-atoms/agents](https://github.com/commerce-atoms/agents) | 1 | TypeScript | 2026-09-11 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/commerce-atoms/agents/) | Reusable AI agents and editor rules for building scalable ecommerce systems. |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-11 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-11 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [commerce-atoms/agents](https://github.com/commerce-atoms/agents) | 1 | TypeScript | 2026-09-11 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/commerce-atoms/agents/) | Reusable AI agents and editor rules for building scalable ecommerce systems. |
 | 3 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 42 | — | 2026-09-11 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
 | 4 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-09-11 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
 | 5 | [roedyrustam/vibes-plug](https://github.com/roedyrustam/vibes-plug) | 52 | Python | 2026-09-11 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/roedyrustam/vibes-plug/) | Universal Multi-Agent Swarm Plugin with specialized skills for Antigravity (AGY), Claude Code, and Cursor IDE. Modern 20 |
