@@ -1,5 +1,32 @@
 [
   {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 42,
+    "updated_at": "2026-09-11T09:34:40Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+  },
+  {
+    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
+    "id": "XAKLESK/cre-agent-skills",
+    "language": "\u2014",
+    "name": "XAKLESK/cre-agent-skills",
+    "stars": 8,
+    "updated_at": "2026-09-11T09:31:19Z",
+    "url": "https://github.com/XAKLESK/cre-agent-skills"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-11T09:30:41Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
     "id": "Amirun99/agency-orchestrator",
     "language": "Dart",
@@ -27,13 +54,18 @@
     "url": "https://github.com/zinxj/uikit-expert-skill"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-11T09:15:32Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
+    "cursorrules": {
+      "content": "# Vibes-Plug \u2014 144+ Skills Ecosystem (v2.12.0)\n# Universal AI Plugin for Antigravity, Claude, and Cursor\n\n## About\nThis project uses the vibes-plug skills ecosystem with 144+ specialized skills.\nEach skill is a `SKILL.md` file in the `skills/` directory containing domain-specific\ninstructions, patterns, and best practices for the modern 2026 tech stack.\n\n## Core Stack (2026 Edition)\n- Frontend: React 19, Next.js 15, Tailwind CSS v4, TypeScript 5.8+\n- Backend: Node.js 24 LTS, Bun 1.2+, Hono v4, Fastify 5, Python 3.14, Go 1.25+, Rust 2024\n- Database: Prisma 6, Drizzle ORM, PostgreSQL, Supabase, Neon, Turso\n- AI/LLM: Vercel AI SDK 5.x, MCP v1.9+, pgvector, RAG pipelines\n\n## Mandatory Before Coding\n1. Read the relevant `skills/<skill-name>/SKILL.md` files before writing code.\n2. Think deeply before acting \u2014 analyze constraints, question assumptions, validate approach.\n3. For new projects, auto-generate: PRD.md, ERD.md, DOKUMENTASI.md.\n\n## Skill Domains\n- \ud83e\udd16 AI & Agentic: ai-llm-integration-expert, vercel-ai-sdk-expert, deep-research-analyst, synthetic-data-finetuning-expert, pydantic-ai-expert, mcp-server-architect, vector-db-rag-expert, multi-agent-orchestration, graph-rag-knowledge-expert, local-slm-edge-ai-expert\n- \ud83c\udfa8 Design & UI/UX: design-system-architect, hig, ui-components-expert, ui-ux-pro-max\n- \ud83d\udda5\ufe0f Frontend: senior-frontend, tailwind-expert, nextjs-app-router-expert, tanstack-query-expert, vue-frontend-expert\n- \u2699\ufe0f Backend: js-backend-expert, python-programming-expert, go-programming-expert, rust-programming-expert, api-design-expert\n- \u2601\ufe0f SaaS & Cloud: saas-transformer, saas-billing, ci-cd-devops-architect, cloud-hosting-expert, payment-gateway-expert\n- \ud83d\uddc4\ufe0f Database: database-orm-expert, edge-serverless-db-expert, supabase-migration\n- \ud83d\udd12 Security: authentication-identity-expert, e2e-testing-expert, production-ready-hardener, zero-trust-secret-vault\n- \ud83d\udd0d SEO: seo\n- \ud83d\udee0\ufe0f Utilities: brainstorming, prd-architect, auto-doc-updater, token-saver, vibe-code-gardener\n\n## Code Quality\n- Clean Code, SOLID, DRY \u2014 see `scalability-clean-code` skill.\n- No AI slop \u2014 be imperative, direct, token-efficient.\n- Bilingual support (English & Bahasa Indonesia) for all skills.\n\n## Orchestration Flow\n1. Ideation: brainstorming \u2192 prd-architect\n2. Design: design-system-architect \u2192 senior-frontend \u2192 ui-components-expert\n3. Backend: js-backend-expert \u2192 event-driven-architect \u2192 autonomous-tdd-debugger\n4. AI: ai-llm-integration-expert \u2192 mcp-server-architect\n5. SaaS: saas-transformer \u2192 saas-billing + saas-multi-tenant\n6. Launch: e2e-testing-expert \u2192 seo \u2192 production-ready-hardener\n",
+      "format": "text",
+      "path": ".cursorrules"
+    },
+    "description": "Universal Multi-Agent Swarm Plugin with 145+ specialized skills for Antigravity (AGY), Claude Code, and Cursor IDE. Mode",
+    "id": "roedyrustam/vibes-plug",
+    "language": "Python",
+    "name": "roedyrustam/vibes-plug",
+    "stars": 50,
+    "updated_at": "2026-09-11T09:21:58Z",
+    "url": "https://github.com/roedyrustam/vibes-plug"
   },
   {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
@@ -175,15 +207,6 @@
     "stars": 3,
     "updated_at": "2026-09-10T23:55:44Z",
     "url": "https://github.com/fromfireside/better-tropes"
-  },
-  {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 42,
-    "updated_at": "2026-09-10T21:47:42Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "description": "Tailwind CSS for Flutter \u2014 classes like flex, p-4, dark:bg-gray-800 compose into widget trees. MCP server + Claude Code ",
@@ -391,15 +414,6 @@
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
-    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
-    "id": "XAKLESK/cre-agent-skills",
-    "language": "\u2014",
-    "name": "XAKLESK/cre-agent-skills",
-    "stars": 8,
-    "updated_at": "2026-09-09T05:12:31Z",
-    "url": "https://github.com/XAKLESK/cre-agent-skills"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: \"softco \u2014 autonomous software company for building and shipping any software product\"\nalwaysApply: false\n---\n\nWhen user wants to build, create, deploy, audit, review, or fix software, follow `skill/SKILL.md`.\n\n**Modes**: Greenfield | Audit | Extend | Fix | Infra-only | AI-add\n\n**Phases**:\n1. Phase 0: Discovery \u2014 interview, produce Requirements Summary\n2. Phase 1: Architecture \u2014 Tech Stack Decision Record, get approval\n3. Phase 1.5: Design (UI products) \u2014 pick direction + tokens, write DESIGN.md before frontend\n4. Phase 2: Docs \u2014 full doc package before any code\n5. Phase 3: Code \u2014 module-by-module, tests first\n6. Phase 4: Test \u2014 unit + integration + E2E + AI regression, \u226580% coverage\n7. Phase 5: Infra \u2014 Terraform, all cloud resources as code\n8. Phase 6: Deploy \u2014 CI/CD pipeline, zero-downtime\n\n**Critical**:\n- Recall first on existing repos: read AGENT.md + docs/PROGRESS.md before acting\n- Never write code before Phase 2 docs exist\n- Write failing tests before implementation\n- Verification gate: run the system and observe it working before claiming done \u2014 not just green tests\n- Fix mode: declare edit scope, no orthogonal/drive-by edits during a debug\n- Never hardcode secrets \u2014 always .env.example\n- Coverage \u2265 80% enforced in CI\n- User only edits .env\n",
       "format": "mdc",
@@ -494,19 +508,5 @@
     "stars": 1,
     "updated_at": "2026-09-07T22:16:54Z",
     "url": "https://github.com/alex-zaporozhan/leo"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: \"Specialized skill for executing and debugging digital ASIC physical design flows (OpenROAD, OpenLane, Sky130). Guides agents through stage transitions from synthesis to floorplanning, placement, clock tree synthesis (CTS), routing, timing closure, and DRC/LVS physical verification.\"\nglobs: [\"*.tcl\", \"*.sdc\", \"*.def\", \"*.lef\", \"*.v\"]\nalwaysApply: false\n---\n\n# ASIC Flow Operator Skill\n\nThis skill guides coding agents through navigating and automating open-source digital Application-Specific Integrated Circuit (ASIC) physical design flows using tools like **OpenROAD**, **OpenLane**, and the **SkyWater 130nm (sky130)** process design kit (PDK).\n\n---\n\n## 1. The Physical Design Flow Pipeline\n\n```text\n[RTL Code (.v) + asserts guarded by `ifdef FORMAL`] \n       \u2502\n       \u25bc  Step 0: Formal lint + prove (SymbiYosys smtbmc+z3, -DFORMAL)\n[PROVEN properties]\n       \u2502\n       \u25bc  Step 1: Synthesis (Yosys; nangate45 bundled, or sky130 via MCP_YOSYS_PDK_ROOT)\n[Gate-level Netlist without operator expressions or port redeclarations]\n       \u2502\n       \u25bc  Step 2: Floorplanning & IO Placement (OpenROAD / init_floorplan)\n[Die / Core Boundary + Power Grid (PDN)]\n       \u2502\n       \u25bc  Step 3: Global & Detailed Placement (OpenROAD / global_placement)\n[Placed Standard Cells]\n       \u2502\n       \u25bc  Step 4: Clock Tree Synthesis (OpenROAD / clock_tree_synthesis; sky130 clkbuf_16/8/4)\n[Balanced Low-Skew Clock Tree]\n       \u2502\n       \u25bc  Step 5: Global & Detailed Routing (OpenROAD / global_route, triton_route)\n[Fully Connected Wires + Vias]\n       \u2502\n       \u25bc  Step 6: Signoff Verification (OpenSTA, Magic DRC, Netgen LVS)\n[Clean GDSII Layout Ready for Tapeout]\n```\n\n---\n\n## 2. Stage-by-Stage Operational Rules\n\n### Stage 1: Floorplanning (`init_floorplan`)\n- **Core Utilization**: Set initial target utilization to `35% - 55%`. Setting utilization $> 65\\%$ on standard cells frequently causes unroutable congestion during detailed routing.\n- **Aspect Ratio**: Keep core aspect ratio near 1.0 (square) unless pin density constraints dictate a rectangular floorplan.\n- **Power Distribution Network (PDN)**: Insert the stdcell grid (Sky130: `VPWR`/`VGND` followpins + met4/met5 straps) **after floorplan/tap and before place** so GPL sees straps. Post-place PDN + inferred `clkbuf_1` is DRT-0073 (zero signal wires).\n\n### Stage 2: Placement\n- **Global Placement (`gpl`)**: Monitor target density. If wirelength is excessive, inspect macro placement and pin constraints.\n- **Detailed Placement (`dpl`)**: Ensure legal placement into standard cell rows with zero cell overlap.\n\n### Stage 3: Clock Tree Synthesis (CTS)\n- **Goal**: Minimize clock skew and insertion delay across all flip-flops.\n- On Sky130, use explicit clock buffers (`sky130_fd_sc_hd__clkbuf_16/8/4`), then `detailed_placement` to legalize. Bare `clock_tree_synthesis` infers unroutable `clkbuf_1`.\n- If hold violations surge after CTS, verify that clock latency across distant registers is balanced.\n\n### Stage 4: Routing & DRC/LVS Signoff\n- **Routing Congestion**: If detailed routing reports unresolved DRC antenna violations or open nets, back up to floorplanning and reduce cell density by 5\u201310%.\n- **Design Rule Checking (DRC)**: Magic or KLayout DRC violations (min spacing, min area, enclosure) must reach 0.\n- **Layout Versus Schematic (LVS)**: Netgen LVS must report `Netlists match uniquely`.\n\n---\n\n## 3. Timing Closure Playbook\n\n| Issue Encountered | Diagnosis | Remediation Action |\n| :--- | :--- | :--- |\n| **Setup Violation ($WNS < 0$)** | Data path too slow for target clock period | 1. Upsize driving cells along critical path.<br>2. Buffer long wire segments.<br>3. Move cells closer together in placement.<br>4. Pipeline RTL. |\n| **Hold Violation ($Hold\\ Slack < 0$)** | Data path faster than clock skew | Insert delay buffers (`clkbuf` or paired inverters) on short data paths. |\n| **Vacuous P&R pass (no DEF written)** | Netlist never linked (e.g. STA-0164) yet exit stayed 0 | Treat missing/empty DEF as failure; fix the netlist or liberty mapping, never the metrics parser. |\n| **0 signal wires after detail_route** | DRT-0073 pin-access (CTS bufs under PDN, or PDN after place) | PDN/taps before place; CTS with clkbuf_16/8/4; fail the stage \u2014 do not treat as a timing miss. |\n| **Self-heal retries identical WNS** | SDC `create_clock -period` ignored the healed CLI period | Rewrite the staged SDC period on each attempt. |\n| **Generic target + P&R requested** | Operator expressions unreadable downstream | Fail fast: re-synthesize with `nangate45` or `sky130` (PDK env) instead of running a vacuous flow. |\n| **Routing Congestion** | Too many wires competing for routing tracks | Reduce floorplan target utilization or increase die area. |\n| **Antenna Violation** | Long metal wire accumulates charge during fabrication | Insert antenna diodes near input gates. |\n\n---\n\n## 4. Checklist for Physical Design\n- [ ] Is core utilization configured conservatively ($40\\% - 55\\%$)?\n- [ ] Did placement complete with zero cell overlap errors?\n- [ ] Did CTS balance clock skew to $< 5\\%$ of clock period?\n- [ ] Is detailed routing complete with 0 open nets and 0 shorts?\n- [ ] Does static timing analysis report $WNS \\ge 0$ and $TNS = 0$?\n- [ ] Has DRC and LVS been reported honestly (foundry DRC notes like `li.6` on LEF-abstract pins may warn; Sky130 LVS match is the hard check)?\n- [ ] Were FORMAL-guarded asserts proven (not merely linted) before signoff?\n- [ ] Is the P&R input netlist liberty-mapped (not bare generic)?\n- [ ] For Sky130 `detail_route`: did signal nets actually route (not 0 wires / DRT-0073)?\n- [ ] Does a DEF artifact exist on disk for every reported P&R \"success\"?\n",
-      "format": "mdc",
-      "path": ".cursor/rules/asic-flow-operator.mdc"
-    },
-    "description": "Portable agent skills and rubrics for hardware engineering and ML systems",
-    "id": "zesun33/hw-agent-skills",
-    "language": "Python",
-    "name": "zesun33/hw-agent-skills",
-    "stars": 0,
-    "updated_at": "2026-09-07T21:19:26Z",
-    "url": "https://github.com/zesun33/hw-agent-skills"
   }
 ]
