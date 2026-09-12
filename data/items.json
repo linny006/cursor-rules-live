@@ -1,11 +1,29 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 2,
+    "updated_at": "2026-09-12T18:52:25Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "Test Claude and Gemini watermark removers on the kind of mark they claim to remove: plant a SynthID-Text watermark with ",
+    "id": "Yurakonoplya/unmark-checker",
+    "language": "Python",
+    "name": "Yurakonoplya/unmark-checker",
+    "stars": 0,
+    "updated_at": "2026-09-12T18:49:42Z",
+    "url": "https://github.com/Yurakonoplya/unmark-checker"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-12T18:30:37Z",
+    "updated_at": "2026-09-12T18:45:39Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -43,15 +61,6 @@
     "stars": 0,
     "updated_at": "2026-09-12T16:56:22Z",
     "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 2,
-    "updated_at": "2026-09-12T16:38:34Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
@@ -93,15 +102,6 @@
     "stars": 9,
     "updated_at": "2026-09-12T14:27:22Z",
     "url": "https://github.com/kensaurus/cursor-kenji"
-  },
-  {
-    "description": "Open checker for Claude watermark removers: plant a SynthID-class text watermark with your own key, run any tool, measur",
-    "id": "Yurakonoplya/unmark-checker",
-    "language": "Python",
-    "name": "Yurakonoplya/unmark-checker",
-    "stars": 0,
-    "updated_at": "2026-09-12T14:23:50Z",
-    "url": "https://github.com/Yurakonoplya/unmark-checker"
   },
   {
     "description": "Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align",
