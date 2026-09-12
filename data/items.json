@@ -1,12 +1,39 @@
 [
   {
+    "description": "Production-ready AI agent profiles for Claude Code, Cursor, Codex, OpenClaw, and Hermes. Search, install, and contribute",
+    "id": "nota-america/forgecat-agent-profiles",
+    "language": "TypeScript",
+    "name": "nota-america/forgecat-agent-profiles",
+    "stars": 66,
+    "updated_at": "2026-09-12T04:22:30Z",
+    "url": "https://github.com/nota-america/forgecat-agent-profiles"
+  },
+  {
+    "description": "\ud83d\udd25 2026 \u6700\u65b0\u7cbe\u9009\u4e2d\u6587 Cursor Rules \u89c4\u5219\u5e93\u4e0e\u6700\u4f73\u5b9e\u8df5\uff08React/Vue/Python/Go\uff09| AI \u7f16\u7a0b\u52a9\u624b\u914d\u7f6e\u6307\u5357",
+    "id": "ruandawa-ux/awesome-cursorrules-chinese",
+    "language": "JavaScript",
+    "name": "ruandawa-ux/awesome-cursorrules-chinese",
+    "stars": 0,
+    "updated_at": "2026-09-12T04:17:29Z",
+    "url": "https://github.com/ruandawa-ux/awesome-cursorrules-chinese"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-12T04:00:36Z",
+    "updated_at": "2026-09-12T04:15:39Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Port, convert, and optimize Claude Code & Cursor skills into Google Antigravity native multi-agent plugins.",
+    "id": "Pranav-Nexus/antigravity-skill-porter",
+    "language": "Python",
+    "name": "Pranav-Nexus/antigravity-skill-porter",
+    "stars": 5,
+    "updated_at": "2026-09-12T04:15:23Z",
+    "url": "https://github.com/Pranav-Nexus/antigravity-skill-porter"
   },
   {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
@@ -116,15 +143,6 @@
     "stars": 56,
     "updated_at": "2026-09-11T21:24:21Z",
     "url": "https://github.com/roedyrustam/vibes-plug"
-  },
-  {
-    "description": "\ud83d\udd25 2026 \u6700\u65b0\u7cbe\u9009\u4e2d\u6587 Cursor Rules \u89c4\u5219\u5e93\u4e0e\u6700\u4f73\u5b9e\u8df5\uff08React/Vue/Python/Go\uff09| AI \u7f16\u7a0b\u52a9\u624b\u914d\u7f6e\u6307\u5357",
-    "id": "ruandawa-ux/awesome-cursorrules-chinese",
-    "language": "JavaScript",
-    "name": "ruandawa-ux/awesome-cursorrules-chinese",
-    "stars": 0,
-    "updated_at": "2026-09-11T18:02:44Z",
-    "url": "https://github.com/ruandawa-ux/awesome-cursorrules-chinese"
   },
   {
     "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 plus AIOS, an open-source markdown memory system for coding ",
@@ -276,15 +294,6 @@
     "stars": 1,
     "updated_at": "2026-09-11T02:33:32Z",
     "url": "https://github.com/plumpslabs/matcha"
-  },
-  {
-    "description": "Production-ready AI agent profiles for Claude Code, Cursor, Codex, OpenClaw, and Hermes. Search, install, and contribute",
-    "id": "nota-america/forgecat-agent-profiles",
-    "language": "TypeScript",
-    "name": "nota-america/forgecat-agent-profiles",
-    "stars": 66,
-    "updated_at": "2026-09-12T03:53:06Z",
-    "url": "https://github.com/nota-america/forgecat-agent-profiles"
   },
   {
     "description": "A catalogue of AI writing tells, each with a plain rewrite, shared by Fireside. Drop it into a system prompt to stop LLM",
@@ -504,14 +513,5 @@
     "stars": 1,
     "updated_at": "2026-09-08T11:12:58Z",
     "url": "https://github.com/Top-Celestial-Company-Ltd/dros-verified-code-generation-skill"
-  },
-  {
-    "description": "\u6211\u7684 Claude Code skills \u96c6\u5408\uff0c\u7528\u4e8e\u63d0\u5347\u5f00\u53d1\u6548\u7387",
-    "id": "wu529778790/shenzjd-skills",
-    "language": "Shell",
-    "name": "wu529778790/shenzjd-skills",
-    "stars": 0,
-    "updated_at": "2026-09-08T04:31:12Z",
-    "url": "https://github.com/wu529778790/shenzjd-skills"
   }
 ]
