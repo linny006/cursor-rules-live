@@ -5,7 +5,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-12T12:00:32Z",
+    "updated_at": "2026-09-12T12:15:41Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -184,6 +184,15 @@
     "stars": 20,
     "updated_at": "2026-09-12T02:54:52Z",
     "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
+    "description": "Free CLAUDE.md templates for Claude Code (and .cursorrules for Cursor): five production-ready stacks. Generate a tailore",
+    "id": "kitforgedev/claude-md-templates",
+    "language": "\u2014",
+    "name": "kitforgedev/claude-md-templates",
+    "stars": 0,
+    "updated_at": "2026-09-11T23:18:41Z",
+    "url": "https://github.com/kitforgedev/claude-md-templates"
   },
   {
     "cursorrules": {
@@ -504,14 +513,5 @@
     "stars": 0,
     "updated_at": "2026-09-08T21:26:15Z",
     "url": "https://github.com/jiarong0423/ai-security-rules"
-  },
-  {
-    "description": "Deterministic verification, Anti-Stub integrity checks, and GBAI governance boundary modularization for AI Agents (Claud",
-    "id": "Top-Celestial-Company-Ltd/dros-verified-code-generation-skill",
-    "language": "Python",
-    "name": "Top-Celestial-Company-Ltd/dros-verified-code-generation-skill",
-    "stars": 1,
-    "updated_at": "2026-09-08T11:12:58Z",
-    "url": "https://github.com/Top-Celestial-Company-Ltd/dros-verified-code-generation-skill"
   }
 ]
