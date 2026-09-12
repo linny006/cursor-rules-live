@@ -1,12 +1,12 @@
 [
   {
-    "description": "Universal Skiils Manager for Pre-Harmonized AI Agent Skills (Claude Code, Cursor, OpenCode, Windsurf)",
-    "id": "Ali-Ch-001/awesome-agent-packs",
-    "language": "TypeScript",
-    "name": "Ali-Ch-001/awesome-agent-packs",
-    "stars": 1,
-    "updated_at": "2026-09-12T23:19:11Z",
-    "url": "https://github.com/Ali-Ch-001/awesome-agent-packs"
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 2,
+    "updated_at": "2026-09-12T23:34:40Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-12T23:15:42Z",
+    "updated_at": "2026-09-12T23:30:31Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Universal Skiils Manager for Pre-Harmonized AI Agent Skills (Claude Code, Cursor, OpenCode, Windsurf)",
+    "id": "Ali-Ch-001/awesome-agent-packs",
+    "language": "TypeScript",
+    "name": "Ali-Ch-001/awesome-agent-packs",
+    "stars": 1,
+    "updated_at": "2026-09-12T23:19:11Z",
+    "url": "https://github.com/Ali-Ch-001/awesome-agent-packs"
   },
   {
     "description": "Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony.",
@@ -93,15 +102,6 @@
     "stars": 43,
     "updated_at": "2026-09-12T21:34:30Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 2,
-    "updated_at": "2026-09-12T21:07:05Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Test Claude and Gemini watermark removers on the kind of mark they claim to remove: plant a SynthID-Text watermark with ",
@@ -295,7 +295,7 @@
     "id": "axelfreeman/marketing-mindset",
     "language": "HTML",
     "name": "axelfreeman/marketing-mindset",
-    "stars": 35,
+    "stars": 36,
     "updated_at": "2026-09-11T11:47:35Z",
     "url": "https://github.com/axelfreeman/marketing-mindset"
   },
