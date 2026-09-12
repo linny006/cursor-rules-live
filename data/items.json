@@ -1,11 +1,29 @@
 [
   {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 3,
+    "updated_at": "2026-09-12T19:27:00Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-12T19:15:46Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Test Claude and Gemini watermark removers on the kind of mark they claim to remove: plant a SynthID-Text watermark with ",
     "id": "Yurakonoplya/unmark-checker",
     "language": "Python",
     "name": "Yurakonoplya/unmark-checker",
     "stars": 0,
-    "updated_at": "2026-09-12T19:12:59Z",
+    "updated_at": "2026-09-12T19:15:28Z",
     "url": "https://github.com/Yurakonoplya/unmark-checker"
   },
   {
@@ -25,15 +43,6 @@
     "stars": 0,
     "updated_at": "2026-09-12T19:04:14Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-12T19:00:41Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -61,15 +70,6 @@
     "stars": 0,
     "updated_at": "2026-09-12T17:47:45Z",
     "url": "https://github.com/kitforgedev/claude-md-templates"
-  },
-  {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 3,
-    "updated_at": "2026-09-12T17:15:00Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "description": "Production-ready AI agent profiles for Claude Code, Cursor, Codex, OpenClaw, and Hermes. Search, install, and contribute",
@@ -234,6 +234,15 @@
     "stars": 5,
     "updated_at": "2026-09-12T04:15:23Z",
     "url": "https://github.com/Pranav-Nexus/antigravity-skill-porter"
+  },
+  {
+    "description": "Cursor harness pack: user rules, skills, Bash hooks, local HANDOFF memory. macOS, Linux, Windows (WSL).",
+    "id": "kleosr/kleosrules",
+    "language": "Shell",
+    "name": "kleosr/kleosrules",
+    "stars": 0,
+    "updated_at": "2026-09-12T04:12:18Z",
+    "url": "https://github.com/kleosr/kleosrules"
   },
   {
     "cursorrules": {
@@ -464,7 +473,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 20606,
+    "stars": 20607,
     "updated_at": "2026-09-10T00:19:17Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -499,19 +508,5 @@
     "stars": 0,
     "updated_at": "2026-09-09T00:16:52Z",
     "url": "https://github.com/shihabshahrier/softco"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: \"skill-builder \u2014 build or audit any AI agent skill from a description when user invokes /skill-builder\"\nalwaysApply: false\n---\n\nWhen user says `/skill-builder`, follow `skills/skill-builder/SKILL.md`.\n\n**Invocation**: `/skill-builder \"description\" [--type workflow|mode|tool|reference|agent] [--repo] [--audit path] [--fix]`\n\n**Phases (create)**:\n0. Route \u2014 detect --audit; if present jump to Phase A\n1. Classify skill type (auto-detect or --type)\n2. Gather requirements (\u22643 questions total)\n3. Domain research \u2014 WebSearch official docs (skip if no references needed)\n4. Generate SKILL.md (frontmatter + body for type)\n5. Generate references/ (verified facts only)\n6. Generate hooks/ (mode skills only)\n7. Scaffold full repo (--repo only)\n8. Report + install commands\n\n**Phase A (--audit)**:\n1. Read SKILL.md at path\n2. Run quality checklist from `references/skill-anatomy.md`\n3. Output audit report: failures / warnings / passed\n4. If --fix: output corrected SKILL.md (fix failures only)\n\n**Critical**:\n- `name`: `^[a-z0-9]+(-[a-z0-9]+)*$`, max 64 chars\n- `description`: max 1024 chars; SKILL.md body: max 5000 tokens\n- Domain facts in references: WebSearch official docs \u2014 never guess\n- Reference files >100 lines: TOC at top; one-level-deep only\n",
-      "format": "mdc",
-      "path": ".cursor/rules/skill-builder.mdc"
-    },
-    "description": "Build & audit AI agent skills from plain English",
-    "id": "shihabshahrier/skill-builder",
-    "language": "Shell",
-    "name": "shihabshahrier/skill-builder",
-    "stars": 0,
-    "updated_at": "2026-09-09T00:16:49Z",
-    "url": "https://github.com/shihabshahrier/skill-builder"
   }
 ]
