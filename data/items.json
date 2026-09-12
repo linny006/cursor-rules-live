@@ -1,5 +1,32 @@
 [
   {
+    "description": "Curated catalog & universal CLI package manager for pre-harmonized AI agent skills (Claude Code, Cursor, OpenCode). npx ",
+    "id": "Ali-Ch-001/awesome-agent-packs",
+    "language": "TypeScript",
+    "name": "Ali-Ch-001/awesome-agent-packs",
+    "stars": 0,
+    "updated_at": "2026-09-12T20:28:36Z",
+    "url": "https://github.com/Ali-Ch-001/awesome-agent-packs"
+  },
+  {
+    "description": "Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony.",
+    "id": "saqie803/ponytail",
+    "language": "JavaScript",
+    "name": "saqie803/ponytail",
+    "stars": 0,
+    "updated_at": "2026-09-12T20:15:44Z",
+    "url": "https://github.com/saqie803/ponytail"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-12T20:15:29Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
     "id": "Laurellagloomy260/cursor-rules-generator",
     "language": "\u2014",
@@ -16,15 +43,6 @@
     "stars": 10,
     "updated_at": "2026-09-12T20:03:51Z",
     "url": "https://github.com/Bastioned-successor320/learn-nanobot"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-12T20:00:50Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -143,15 +161,6 @@
     "stars": 20,
     "updated_at": "2026-09-12T13:57:29Z",
     "url": "https://github.com/MnemeHQ/mneme"
-  },
-  {
-    "description": "Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony.",
-    "id": "saqie803/ponytail",
-    "language": "JavaScript",
-    "name": "saqie803/ponytail",
-    "stars": 0,
-    "updated_at": "2026-09-12T13:48:07Z",
-    "url": "https://github.com/saqie803/ponytail"
   },
   {
     "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
@@ -494,19 +503,5 @@
     "stars": 0,
     "updated_at": "2026-09-09T14:47:24Z",
     "url": "https://github.com/RahulHulsure/-Ironworks"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: \"softco \u2014 autonomous software company for building and shipping any software product\"\nalwaysApply: false\n---\n\nWhen user wants to build, create, deploy, audit, review, or fix software, follow `skill/SKILL.md`.\n\n**Modes**: Greenfield | Audit | Extend | Fix | Infra-only | AI-add\n\n**Phases**:\n1. Phase 0: Discovery \u2014 interview, produce Requirements Summary\n2. Phase 1: Architecture \u2014 Tech Stack Decision Record, get approval\n3. Phase 1.5: Design (UI products) \u2014 pick direction + tokens, write DESIGN.md before frontend\n4. Phase 2: Docs \u2014 full doc package before any code\n5. Phase 3: Code \u2014 module-by-module, tests first\n6. Phase 4: Test \u2014 unit + integration + E2E + AI regression, \u226580% coverage\n7. Phase 5: Infra \u2014 Terraform, all cloud resources as code\n8. Phase 6: Deploy \u2014 CI/CD pipeline, zero-downtime\n\n**Critical**:\n- Recall first on existing repos: read AGENT.md + docs/PROGRESS.md before acting\n- Never write code before Phase 2 docs exist\n- Write failing tests before implementation\n- Verification gate: run the system and observe it working before claiming done \u2014 not just green tests\n- Fix mode: declare edit scope, no orthogonal/drive-by edits during a debug\n- Never hardcode secrets \u2014 always .env.example\n- Coverage \u2265 80% enforced in CI\n- User only edits .env\n",
-      "format": "mdc",
-      "path": ".cursor/rules/softco.mdc"
-    },
-    "description": "Turn AI coding agents into an autonomous software firm",
-    "id": "shihabshahrier/softco",
-    "language": "HCL",
-    "name": "shihabshahrier/softco",
-    "stars": 0,
-    "updated_at": "2026-09-09T00:16:52Z",
-    "url": "https://github.com/shihabshahrier/softco"
   }
 ]
