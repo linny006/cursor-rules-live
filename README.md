@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-12 05:15 UTC
+> ⏰ Last updated: 2026-09-12 05:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,21 +53,21 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [XAKLESK/cre-agent-skills](https://github.com/XAKLESK/cre-agent-skills) | 8 | — | 2026-09-12 | — | Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc |
+| 1 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-09-12 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
 | 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-12 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 3 | [Amirun99/agency-orchestrator](https://github.com/Amirun99/agency-orchestrator) | 0 | Dart | 2026-09-12 | — | Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support. |
-| 4 | [zinxj/uikit-expert-skill](https://github.com/zinxj/uikit-expert-skill) | 5 | — | 2026-09-12 | — | Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan |
-| 5 | [nota-america/forgecat-agent-profiles](https://github.com/nota-america/forgecat-agent-profiles) | 66 | TypeScript | 2026-09-12 | — | Production-ready AI agent profiles for Claude Code, Cursor, Codex, OpenClaw, and Hermes. Search, install, and contribute |
-| 6 | [ruandawa-ux/awesome-cursorrules-chinese](https://github.com/ruandawa-ux/awesome-cursorrules-chinese) | 0 | JavaScript | 2026-09-12 | — | 🔥 2026 最新精选中文 Cursor Rules 规则库与最佳实践（React/Vue/Python/Go）\| AI 编程助手配置指南 |
-| 7 | [Pranav-Nexus/antigravity-skill-porter](https://github.com/Pranav-Nexus/antigravity-skill-porter) | 5 | Python | 2026-09-12 | — | Port, convert, and optimize Claude Code & Cursor skills into Google Antigravity native multi-agent plugins. |
-| 8 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-09-12 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
-| 9 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 20 | Python | 2026-09-12 | — | Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align |
-| 10 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-09-12 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 11 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-09-12 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
+| 3 | [XAKLESK/cre-agent-skills](https://github.com/XAKLESK/cre-agent-skills) | 8 | — | 2026-09-12 | — | Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc |
+| 4 | [Amirun99/agency-orchestrator](https://github.com/Amirun99/agency-orchestrator) | 0 | Dart | 2026-09-12 | — | Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support. |
+| 5 | [zinxj/uikit-expert-skill](https://github.com/zinxj/uikit-expert-skill) | 5 | — | 2026-09-12 | — | Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan |
+| 6 | [nota-america/forgecat-agent-profiles](https://github.com/nota-america/forgecat-agent-profiles) | 66 | TypeScript | 2026-09-12 | — | Production-ready AI agent profiles for Claude Code, Cursor, Codex, OpenClaw, and Hermes. Search, install, and contribute |
+| 7 | [ruandawa-ux/awesome-cursorrules-chinese](https://github.com/ruandawa-ux/awesome-cursorrules-chinese) | 0 | JavaScript | 2026-09-12 | — | 🔥 2026 最新精选中文 Cursor Rules 规则库与最佳实践（React/Vue/Python/Go）\| AI 编程助手配置指南 |
+| 8 | [Pranav-Nexus/antigravity-skill-porter](https://github.com/Pranav-Nexus/antigravity-skill-porter) | 5 | Python | 2026-09-12 | — | Port, convert, and optimize Claude Code & Cursor skills into Google Antigravity native multi-agent plugins. |
+| 9 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-09-12 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
+| 10 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 20 | Python | 2026-09-12 | — | Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align |
+| 11 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-09-12 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
 | 12 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-09-12 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
 | 13 | [commerce-atoms/agents](https://github.com/commerce-atoms/agents) | 1 | TypeScript | 2026-09-11 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/commerce-atoms/agents/) | Reusable AI agents and editor rules for building scalable ecommerce systems. |
 | 14 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 42 | — | 2026-09-11 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
-| 15 | [roedyrustam/vibes-plug](https://github.com/roedyrustam/vibes-plug) | 57 | Python | 2026-09-11 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/roedyrustam/vibes-plug/) | Universal Multi-Agent Swarm Plugin with specialized skills for Antigravity (AGY), Claude Code, and Cursor IDE. Modern 20 |
+| 15 | [roedyrustam/vibes-plug](https://github.com/roedyrustam/vibes-plug) | 58 | Python | 2026-09-11 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/roedyrustam/vibes-plug/) | Universal Multi-Agent Swarm Plugin with specialized skills for Antigravity (AGY), Claude Code, and Cursor IDE. Modern 20 |
 | 16 | [sublimecoder/sublimecoding](https://github.com/sublimecoder/sublimecoding) | 0 | — | 2026-09-11 | — | 🛠️ Free Claude Code & Cursor prompts for senior engineers — plus AIOS, an open-source markdown memory system for coding  |
 | 17 | [g0007b1/fenceline](https://github.com/g0007b1/fenceline) | 0 | JavaScript | 2026-09-11 | — | Agents that read your codebase and write the environment other agents need — then hooks that make it stick. Claude Code  |
 | 18 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-09-11 | — | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
