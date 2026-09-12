@@ -1,11 +1,20 @@
 [
   {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 0,
+    "updated_at": "2026-09-12T16:06:58Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-12T15:50:43Z",
+    "updated_at": "2026-09-12T16:00:45Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -134,15 +143,6 @@
     "stars": 0,
     "updated_at": "2026-09-12T12:50:38Z",
     "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
-  },
-  {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 0,
-    "updated_at": "2026-09-12T12:45:19Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "cursorrules": {
@@ -437,7 +437,7 @@
     "id": "ciembor/agent-rules-books",
     "language": "\u2014",
     "name": "ciembor/agent-rules-books",
-    "stars": 2761,
+    "stars": 2762,
     "updated_at": "2026-09-10T11:21:47Z",
     "url": "https://github.com/ciembor/agent-rules-books"
   },
