@@ -1,11 +1,20 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 2,
+    "updated_at": "2026-09-13T16:47:42Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-13T16:30:48Z",
+    "updated_at": "2026-09-13T16:45:37Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -183,15 +192,6 @@
     "url": "https://github.com/vibestackdev/vibe-stack"
   },
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 2,
-    "updated_at": "2026-09-13T12:56:55Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
     "description": "The toolchain that stops AI coding agents from writing broken, deprecated code.",
     "id": "Aaditya1273/Agent.md",
     "language": "\u2014",
@@ -329,7 +329,7 @@
     "language": "Python",
     "name": "roedyrustam/vibes-plug",
     "stars": 65,
-    "updated_at": "2026-09-13T16:40:21Z",
+    "updated_at": "2026-09-13T16:56:35Z",
     "url": "https://github.com/roedyrustam/vibes-plug"
   },
   {
