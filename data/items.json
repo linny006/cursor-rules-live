@@ -1,5 +1,59 @@
 [
   {
+    "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
+    "id": "HoangNguyen0403/agent-skills-standard",
+    "language": "TypeScript",
+    "name": "HoangNguyen0403/agent-skills-standard",
+    "stars": 565,
+    "updated_at": "2026-09-13T07:56:37Z",
+    "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
+  },
+  {
+    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
+    "id": "Hyanthropological659/clarify-skill",
+    "language": "\u2014",
+    "name": "Hyanthropological659/clarify-skill",
+    "stars": 1,
+    "updated_at": "2026-09-13T07:53:52Z",
+    "url": "https://github.com/Hyanthropological659/clarify-skill"
+  },
+  {
+    "description": "\u6211\u7684 Claude Code skills \u96c6\u5408\uff0c\u7528\u4e8e\u63d0\u5347\u5f00\u53d1\u6548\u7387",
+    "id": "wu529778790/shenzjd-skills",
+    "language": "Shell",
+    "name": "wu529778790/shenzjd-skills",
+    "stars": 1,
+    "updated_at": "2026-09-13T07:52:24Z",
+    "url": "https://github.com/wu529778790/shenzjd-skills"
+  },
+  {
+    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
+    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "language": "\u2014",
+    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "stars": 2,
+    "updated_at": "2026-09-13T07:49:52Z",
+    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 2,
+    "updated_at": "2026-09-13T07:47:15Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-13T07:45:50Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "The Open Registry for AI Engineering Presets.",
     "id": "Aaditya1273/Agent.md",
     "language": "\u2014",
@@ -37,15 +91,6 @@
     "url": "https://github.com/ashish7802/awesome-agent-skills"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-13T07:30:30Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Cursor harness pack: user rules, skills, Bash hooks, local HANDOFF memory. macOS, Linux, Windows (WSL).",
     "id": "kleosr/kleosrules",
     "language": "Shell",
@@ -62,15 +107,6 @@
     "stars": 3,
     "updated_at": "2026-09-13T06:16:43Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
-    "id": "HoangNguyen0403/agent-skills-standard",
-    "language": "TypeScript",
-    "name": "HoangNguyen0403/agent-skills-standard",
-    "stars": 565,
-    "updated_at": "2026-09-13T07:45:14Z",
-    "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
   },
   {
     "description": "Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony.",
@@ -139,24 +175,6 @@
     "stars": 4,
     "updated_at": "2026-09-13T05:31:33Z",
     "url": "https://github.com/sscodeai/agency-agents-ja"
-  },
-  {
-    "description": "\u6211\u7684 Claude Code skills \u96c6\u5408\uff0c\u7528\u4e8e\u63d0\u5347\u5f00\u53d1\u6548\u7387",
-    "id": "wu529778790/shenzjd-skills",
-    "language": "Shell",
-    "name": "wu529778790/shenzjd-skills",
-    "stars": 1,
-    "updated_at": "2026-09-13T03:47:42Z",
-    "url": "https://github.com/wu529778790/shenzjd-skills"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 2,
-    "updated_at": "2026-09-13T02:08:19Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Agent Development Life Cycle \u2014 Build, deploy, test, and optimize Agentforce agents using Claude Code skills and Agent Sc",
@@ -389,24 +407,6 @@
     "stars": 17,
     "updated_at": "2026-09-11T10:32:06Z",
     "url": "https://github.com/philipbankier/awesome-agent-skills"
-  },
-  {
-    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
-    "id": "Hyanthropological659/clarify-skill",
-    "language": "\u2014",
-    "name": "Hyanthropological659/clarify-skill",
-    "stars": 1,
-    "updated_at": "2026-09-11T07:27:54Z",
-    "url": "https://github.com/Hyanthropological659/clarify-skill"
-  },
-  {
-    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
-    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "language": "\u2014",
-    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "stars": 2,
-    "updated_at": "2026-09-11T07:23:53Z",
-    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
   },
   {
     "description": "",
