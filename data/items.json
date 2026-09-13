@@ -1,7 +1,30 @@
 [
   {
+    "description": "The Open Registry for AI Engineering Presets.",
+    "id": "Aaditya1273/Agent.md",
+    "language": "\u2014",
+    "name": "Aaditya1273/Agent.md",
+    "stars": 8,
+    "updated_at": "2026-09-13T07:40:05Z",
+    "url": "https://github.com/Aaditya1273/Agent.md"
+  },
+  {
     "cursorrules": {
-      "content": "---\ndescription: Enforces edge compute conventions, typed bindings, and edge caching.\nglobs: [\"src/**/*.ts\",\"wrangler.toml\",\"wrangler.jsonc\"]\nalwaysAvoid:\n  - \"Importing Node.js-only native modules without node: prefix or cloudflare: compatibility flags\"\n  - \"Uncached external API fetch calls in high-traffic edge route handlers\"\n  - \"Exceeding Workers 128MB memory or 50ms CPU execution limits\"\n  - \"Using un-typed c.env access without defining Bindings type parameter\"\nenforcedStack:\n  - \"Cloudflare Workers\"\n  - \"Hono v4.6+\"\n  - \"TypeScript\"\n  - \"Workers KV & D1\"\n---\n\n# Part 1: Metadata & Trigger Scope\n- **Skill Name**: Cloudflare Workers & Hono Edge API\n- **File Globs**: `src/**/*.ts`, `wrangler.toml`, `wrangler.jsonc`\n- **Enforced Stack**: Cloudflare Workers, Hono v4.6+, TypeScript, Workers KV & D1\n- **Target Runtime**: Cursor (.mdc)\n\n# Part 2: System Boundary & Prohibitions\n## Role & Persona\nPrincipal Cloud Edge Systems Architect specializing in serverless edge runtimes.\n\n## Always Avoid (Hard Prohibitions)\n1. Importing Node.js-only native modules without node: prefix or cloudflare: compatibility flags\n2. Uncached external API fetch calls in high-traffic edge route handlers\n3. Exceeding Workers 128MB memory or 50ms CPU execution limits\n4. Using un-typed c.env access without defining Bindings type parameter\n\n## Hard Invariants\n1. All Hono apps must be instantiated with new Hono<{ Bindings: Env }>() for strict typing.\n2. Cache-Control headers and caches.default must be leveraged for static or idempotent reads.\n3. Database access to D1 must use prepared statements (d1.prepare(...).bind(...)).\n\n# Part 3: Master Instruction Prompt\n1. Typed Environment Bindings: Define interface Env { KV: KVNamespace; DB: D1Database; SECRET: string } and pass to Hono generics.\n2. Edge Streaming: Return c.streamText() or c.body(readableStream) for LLM or real-time chunk streaming.\n3. Cache API: Intercept GET requests with caches.default.match(req) before hitting origin databases.\n4. Edge Secrets: Never hardcode API tokens; access via c.env and manage with wrangler secret put.\n\n# Part 4: Verified Implementation Standard vs Prohibited Anti-Pattern\n\n## Prohibited Anti-Pattern: Un-typed env access and missing edge caching\n```\nimport { Hono } from 'hono';\nconst app = new Hono();\n\napp.get('/data', async (c) => {\n  // Untyped env, no edge caching\n  const apiKey = (c.env as any).API_KEY;\n  const res = await fetch('https://api.com/items', { headers: { Authorization: apiKey } });\n  return c.json(await res.json());\n});\n```\n\n## Verified Production Standard: Strictly typed Hono edge handler with edge cache integration\n```\nimport { Hono } from 'hono';\n\ninterface Env {\n  DB: D1Database;\n  CACHE_TTL: string;\n}\n\nconst app = new Hono<{ Bindings: Env }>();\n\napp.get('/data', async (c) => {\n  const cacheKey = new Request(c.req.url, c.req.raw);\n  const cache = caches.default;\n  let response = await cache.match(cacheKey);\n\n  if (!response) {\n    const { results } = await c.env.DB.prepare('SELECT id, name FROM items LIMIT 50').all();\n    response = c.json(results, 200, {\n      'Cache-Control': 'public, max-age=60, s-maxage=300',\n    });\n    c.executionCtx.waitUntil(cache.put(cacheKey, response.clone()));\n  }\n\n  return response;\n});\n```\n\n## Architectural Justification\nUsing Cloudflare Edge Cache and waitUntil minimizes origin database round-trips and leverages edge caching directly.\n",
+      "content": "---\ndescription: \"USE WHEN: any task in this repo. Global operating rules.\"\nglobs: [\"**/*\"]\nalwaysApply: true\npriority: 100\n---\n\n# Global Rules (Always On)\n\n## Role\nYou are an AI coding assistant. Deliver correct, minimal, testable changes. Surface uncertainty instead of hiding it.\n\n## Non\u2011Negotiables\n- **Correctness > simplicity > consistency > style**.\n- **Minimal diff**: touch only what the task needs.\n- **No drive\u2011by refactors**.\n- **Ask when ambiguous**: assumptions ledger + up to 3 questions.\n- **Stop** on security, data loss, or breaking changes; ask for confirmation.\n\n## Output Discipline\n- Provide a brief plan before changes.\n- Show verification steps (lint/typecheck/tests) and state what wasn\u2019t run.\n\n## Guardrails\n- No hard\u2011coded secrets.\n- No unrelated formatting or renaming.\n- No new dependencies without approval.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/00-global.mdc"
+    },
+    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
+    "id": "Luxvil/ai-coding-rules",
+    "language": "Shell",
+    "name": "Luxvil/ai-coding-rules",
+    "stars": 3,
+    "updated_at": "2026-09-13T07:39:56Z",
+    "url": "https://github.com/Luxvil/ai-coding-rules"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Enforces edge compute conventions, typed bindings, and edge caching.\nglobs: [\"src/**/*.ts\", \"wrangler.toml\", \"wrangler.jsonc\"]\nalwaysAvoid:\n  - \"Importing Node.js-only native modules without node: prefix or cloudflare: compatibility flags\"\n  - \"Uncached external API fetch calls in high-traffic edge route handlers\"\n  - \"Exceeding Workers 128MB memory or 50ms CPU execution limits\"\n  - \"Using un-typed c.env access without defining Bindings type parameter\"\nenforcedStack:\n  - \"Cloudflare Workers\"\n  - \"Hono v4.6+\"\n  - \"TypeScript\"\n  - \"Workers KV & D1\"\n---\n\n# Part 1: Metadata & Trigger Scope\n- **Skill Name**: Cloudflare Workers & Hono Edge API\n- **File Globs**: `src/**/*.ts`, `wrangler.toml`, `wrangler.jsonc`\n- **Enforced Stack**: Cloudflare Workers, Hono v4.6+, TypeScript, Workers KV & D1\n- **Target Runtime**: Cursor (.mdc)\n\n# Part 2: System Boundary & Prohibitions\n## Role & Persona\nPrincipal Cloud Edge Systems Architect specializing in serverless edge runtimes.\n\n## Always Avoid (Hard Prohibitions)\n1. Importing Node.js-only native modules without node: prefix or cloudflare: compatibility flags\n2. Uncached external API fetch calls in high-traffic edge route handlers\n3. Exceeding Workers 128MB memory or 50ms CPU execution limits\n4. Using un-typed c.env access without defining Bindings type parameter\n\n## Hard Invariants\n1. All Hono apps must be instantiated with new Hono<{ Bindings: Env }>() for strict typing.\n2. Cache-Control headers and caches.default must be leveraged for static or idempotent reads.\n3. Database access to D1 must use prepared statements (d1.prepare(...).bind(...)).\n\n# Part 3: Master Instruction Prompt\n1. Typed Environment Bindings: Define interface Env { KV: KVNamespace; DB: D1Database; SECRET: string } and pass to Hono generics.\n2. Edge Streaming: Return c.streamText() or c.body(readableStream) for LLM or real-time chunk streaming.\n3. Cache API: Intercept GET requests with caches.default.match(req) before hitting origin databases.\n4. Edge Secrets: Never hardcode API tokens; access via c.env and manage with wrangler secret put.\n\n# Part 4: Verified Implementation Standard vs Prohibited Anti-Pattern\n\n## Prohibited Anti-Pattern: Un-typed env access and missing edge caching\n```\nimport { Hono } from 'hono';\nconst app = new Hono();\n\napp.get('/data', async (c) => {\n  // Untyped env, no edge caching\n  const apiKey = (c.env as any).API_KEY;\n  const res = await fetch('https://api.com/items', { headers: { Authorization: apiKey } });\n  return c.json(await res.json());\n});\n```\n\n## Verified Production Standard: Strictly typed Hono edge handler with edge cache integration\n```\nimport { Hono } from 'hono';\n\ninterface Env {\n  DB: D1Database;\n  CACHE_TTL: string;\n}\n\nconst app = new Hono<{ Bindings: Env }>();\n\napp.get('/data', async (c) => {\n  const cacheKey = new Request(c.req.url, c.req.raw);\n  const cache = caches.default;\n  let response = await cache.match(cacheKey);\n\n  if (!response) {\n    const { results } = await c.env.DB.prepare('SELECT id, name FROM items LIMIT 50').all();\n    response = c.json(results, 200, {\n      'Cache-Control': 'public, max-age=60, s-maxage=300',\n    });\n    c.executionCtx.waitUntil(cache.put(cacheKey, response.clone()));\n  }\n\n  return response;\n});\n```\n\n## Architectural Justification\nUsing Cloudflare Edge Cache and waitUntil minimizes origin database round-trips and leverages edge caching directly.\n",
       "format": "mdc",
       "path": ".cursor/rules/cloudflare-workers-hono.mdc"
     },
@@ -10,7 +33,7 @@
     "language": "TypeScript",
     "name": "ashish7802/awesome-agent-skills",
     "stars": 1,
-    "updated_at": "2026-09-13T07:21:57Z",
+    "updated_at": "2026-09-13T07:38:50Z",
     "url": "https://github.com/ashish7802/awesome-agent-skills"
   },
   {
@@ -19,7 +42,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-13T07:15:40Z",
+    "updated_at": "2026-09-13T07:30:30Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -46,17 +69,8 @@
     "language": "TypeScript",
     "name": "HoangNguyen0403/agent-skills-standard",
     "stars": 565,
-    "updated_at": "2026-09-13T06:21:16Z",
+    "updated_at": "2026-09-13T07:45:14Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
-  },
-  {
-    "description": "The Open Registry for AI Engineering Presets.",
-    "id": "Aaditya1273/Agent.md",
-    "language": "\u2014",
-    "name": "Aaditya1273/Agent.md",
-    "stars": 8,
-    "updated_at": "2026-09-13T06:12:20Z",
-    "url": "https://github.com/Aaditya1273/Agent.md"
   },
   {
     "description": "Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony.",
@@ -393,20 +407,6 @@
     "stars": 2,
     "updated_at": "2026-09-11T07:23:53Z",
     "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: \"USE WHEN: any task in this repo. Global operating rules.\"\nglobs: [\"**/*\"]\nalwaysApply: true\npriority: 100\n---\n\n# Global Rules (Always On)\n\n## Role\nYou are an AI coding assistant. Deliver correct, minimal, testable changes. Surface uncertainty instead of hiding it.\n\n## Non\u2011Negotiables\n- **Correctness > simplicity > consistency > style**.\n- **Minimal diff**: touch only what the task needs.\n- **No drive\u2011by refactors**.\n- **Ask when ambiguous**: assumptions ledger + up to 3 questions.\n- **Stop** on security, data loss, or breaking changes; ask for confirmation.\n\n## Output Discipline\n- Provide a brief plan before changes.\n- Show verification steps (lint/typecheck/tests) and state what wasn\u2019t run.\n\n## Guardrails\n- No hard\u2011coded secrets.\n- No unrelated formatting or renaming.\n- No new dependencies without approval.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/00-global.mdc"
-    },
-    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
-    "id": "Luxvil/ai-coding-rules",
-    "language": "Shell",
-    "name": "Luxvil/ai-coding-rules",
-    "stars": 3,
-    "updated_at": "2026-09-11T07:14:10Z",
-    "url": "https://github.com/Luxvil/ai-coding-rules"
   },
   {
     "description": "",
