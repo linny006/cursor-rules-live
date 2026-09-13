@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-13 07:00 UTC
+> ⏰ Last updated: 2026-09-13 07:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,8 +53,8 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [ashish7802/awesome-agent-skills](https://github.com/ashish7802/awesome-agent-skills) | 1 | TypeScript | 2026-09-13 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/ashish7802/awesome-agent-skills/) | The ultimate open-source directory of production-grade AI Agent skills, system instructions, and custom rules (.mdc) for |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-13 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-13 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [ashish7802/awesome-agent-skills](https://github.com/ashish7802/awesome-agent-skills) | 1 | TypeScript | 2026-09-13 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/ashish7802/awesome-agent-skills/) | The ultimate open-source directory of production-grade AI Agent skills, system instructions, and custom rules (.mdc) for |
 | 3 | [kleosr/kleosrules](https://github.com/kleosr/kleosrules) | 0 | Shell | 2026-09-13 | — | Cursor harness pack: user rules, skills, Bash hooks, local HANDOFF memory. macOS, Linux, Windows (WSL). |
 | 4 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-09-13 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
 | 5 | [HoangNguyen0403/agent-skills-standard](https://github.com/HoangNguyen0403/agent-skills-standard) | 565 | TypeScript | 2026-09-13 | — | A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol |
