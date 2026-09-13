@@ -1,11 +1,29 @@
 [
   {
+    "description": "Universal Skiils Manager for Pre-Harmonized AI Agent Skills (Claude Code, Cursor, OpenCode, Windsurf)",
+    "id": "Ali-Ch-001/awesome-agent-packs",
+    "language": "TypeScript",
+    "name": "Ali-Ch-001/awesome-agent-packs",
+    "stars": 1,
+    "updated_at": "2026-09-13T08:10:48Z",
+    "url": "https://github.com/Ali-Ch-001/awesome-agent-packs"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-13T08:00:32Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
     "id": "HoangNguyen0403/agent-skills-standard",
     "language": "TypeScript",
     "name": "HoangNguyen0403/agent-skills-standard",
     "stars": 565,
-    "updated_at": "2026-09-13T07:56:37Z",
+    "updated_at": "2026-09-13T08:01:42Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
   },
   {
@@ -43,15 +61,6 @@
     "stars": 2,
     "updated_at": "2026-09-13T07:47:15Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-13T07:45:50Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "The Open Registry for AI Engineering Presets.",
@@ -184,15 +193,6 @@
     "stars": 105,
     "updated_at": "2026-09-12T23:48:39Z",
     "url": "https://github.com/SalesforceAIResearch/agentforce-adlc"
-  },
-  {
-    "description": "Universal Skiils Manager for Pre-Harmonized AI Agent Skills (Claude Code, Cursor, OpenCode, Windsurf)",
-    "id": "Ali-Ch-001/awesome-agent-packs",
-    "language": "TypeScript",
-    "name": "Ali-Ch-001/awesome-agent-packs",
-    "stars": 1,
-    "updated_at": "2026-09-12T23:19:11Z",
-    "url": "https://github.com/Ali-Ch-001/awesome-agent-packs"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
