@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-13T04:15:36Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony.",
     "id": "saqie803/ponytail",
     "language": "JavaScript",
@@ -16,15 +25,6 @@
     "stars": 0,
     "updated_at": "2026-09-13T04:02:48Z",
     "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-13T04:00:41Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
@@ -73,7 +73,7 @@
     "language": "TypeScript",
     "name": "HoangNguyen0403/agent-skills-standard",
     "stars": 565,
-    "updated_at": "2026-09-13T04:11:53Z",
+    "updated_at": "2026-09-13T04:27:24Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
   },
   {
@@ -500,7 +500,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 20609,
+    "stars": 20610,
     "updated_at": "2026-09-10T00:19:17Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   }
