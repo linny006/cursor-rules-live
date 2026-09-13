@@ -1,11 +1,34 @@
 [
   {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 43,
+    "updated_at": "2026-09-13T20:08:56Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: \"USE WHEN: any task in this repo. Global operating rules.\"\nglobs: [\"**/*\"]\nalwaysApply: true\npriority: 100\n---\n\n# Global Rules (Always On)\n\n## Role\nYou are an AI coding assistant. Deliver correct, minimal, testable changes. Surface uncertainty instead of hiding it.\n\n## Non\u2011Negotiables\n- **Correctness > simplicity > consistency > style**.\n- **Minimal diff**: touch only what the task needs.\n- **No drive\u2011by refactors**.\n- **Ask when ambiguous**: assumptions ledger + up to 3 questions.\n- **Stop** on security, data loss, or breaking changes; ask for confirmation.\n\n## Output Discipline\n- Provide a brief plan before changes.\n- Show verification steps (lint/typecheck/tests) and state what wasn\u2019t run.\n\n## Guardrails\n- No hard\u2011coded secrets.\n- No unrelated formatting or renaming.\n- No new dependencies without approval.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/00-global.mdc"
+    },
+    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
+    "id": "Luxvil/ai-coding-rules",
+    "language": "Shell",
+    "name": "Luxvil/ai-coding-rules",
+    "stars": 3,
+    "updated_at": "2026-09-13T20:06:48Z",
+    "url": "https://github.com/Luxvil/ai-coding-rules"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-13T19:50:16Z",
+    "updated_at": "2026-09-13T20:00:40Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -91,29 +114,6 @@
   },
   {
     "cursorrules": {
-      "content": "---\ndescription: \"USE WHEN: any task in this repo. Global operating rules.\"\nglobs: [\"**/*\"]\nalwaysApply: true\npriority: 100\n---\n\n# Global Rules (Always On)\n\n## Role\nYou are an AI coding assistant. Deliver correct, minimal, testable changes. Surface uncertainty instead of hiding it.\n\n## Non\u2011Negotiables\n- **Correctness > simplicity > consistency > style**.\n- **Minimal diff**: touch only what the task needs.\n- **No drive\u2011by refactors**.\n- **Ask when ambiguous**: assumptions ledger + up to 3 questions.\n- **Stop** on security, data loss, or breaking changes; ask for confirmation.\n\n## Output Discipline\n- Provide a brief plan before changes.\n- Show verification steps (lint/typecheck/tests) and state what wasn\u2019t run.\n\n## Guardrails\n- No hard\u2011coded secrets.\n- No unrelated formatting or renaming.\n- No new dependencies without approval.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/00-global.mdc"
-    },
-    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
-    "id": "Luxvil/ai-coding-rules",
-    "language": "Shell",
-    "name": "Luxvil/ai-coding-rules",
-    "stars": 3,
-    "updated_at": "2026-09-13T18:13:10Z",
-    "url": "https://github.com/Luxvil/ai-coding-rules"
-  },
-  {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 43,
-    "updated_at": "2026-09-13T17:46:04Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "cursorrules": {
       "content": "# Vibes-Plug \u2014 144+ Skills Ecosystem (v2.12.0)\n# Universal AI Plugin for Antigravity, Claude, and Cursor\n\n## About\nThis project uses the vibes-plug skills ecosystem with 144+ specialized skills.\nEach skill is a `SKILL.md` file in the `skills/` directory containing domain-specific\ninstructions, patterns, and best practices for the modern 2026 tech stack.\n\n## Core Stack (2026 Edition)\n- Frontend: React 19, Next.js 15, Tailwind CSS v4, TypeScript 5.8+\n- Backend: Node.js 24 LTS, Bun 1.2+, Hono v4, Fastify 5, Python 3.14, Go 1.25+, Rust 2024\n- Database: Prisma 6, Drizzle ORM, PostgreSQL, Supabase, Neon, Turso\n- AI/LLM: Vercel AI SDK 5.x, MCP v1.9+, pgvector, RAG pipelines\n\n## Mandatory Before Coding\n1. Read the relevant `skills/<skill-name>/SKILL.md` files before writing code.\n2. Think deeply before acting \u2014 analyze constraints, question assumptions, validate approach.\n3. For new projects, auto-generate: PRD.md, ERD.md, DOKUMENTASI.md.\n\n## Skill Domains\n- \ud83e\udd16 AI & Agentic: ai-llm-integration-expert, vercel-ai-sdk-expert, deep-research-analyst, synthetic-data-finetuning-expert, pydantic-ai-expert, mcp-server-architect, vector-db-rag-expert, multi-agent-orchestration, graph-rag-knowledge-expert, local-slm-edge-ai-expert\n- \ud83c\udfa8 Design & UI/UX: design-system-architect, hig, ui-components-expert, ui-ux-pro-max\n- \ud83d\udda5\ufe0f Frontend: senior-frontend, tailwind-expert, nextjs-app-router-expert, tanstack-query-expert, vue-frontend-expert\n- \u2699\ufe0f Backend: js-backend-expert, python-programming-expert, go-programming-expert, rust-programming-expert, api-design-expert\n- \u2601\ufe0f SaaS & Cloud: saas-transformer, saas-billing, ci-cd-devops-architect, cloud-hosting-expert, payment-gateway-expert\n- \ud83d\uddc4\ufe0f Database: database-orm-expert, edge-serverless-db-expert, supabase-migration\n- \ud83d\udd12 Security: authentication-identity-expert, e2e-testing-expert, production-ready-hardener, zero-trust-secret-vault\n- \ud83d\udd0d SEO: seo\n- \ud83d\udee0\ufe0f Utilities: brainstorming, prd-architect, auto-doc-updater, token-saver, vibe-code-gardener\n\n## Code Quality\n- Clean Code, SOLID, DRY \u2014 see `scalability-clean-code` skill.\n- No AI slop \u2014 be imperative, direct, token-efficient.\n- Bilingual support (English & Bahasa Indonesia) for all skills.\n\n## Orchestration Flow\n1. Ideation: brainstorming \u2192 prd-architect\n2. Design: design-system-architect \u2192 senior-frontend \u2192 ui-components-expert\n3. Backend: js-backend-expert \u2192 event-driven-architect \u2192 autonomous-tdd-debugger\n4. AI: ai-llm-integration-expert \u2192 mcp-server-architect\n5. SaaS: saas-transformer \u2192 saas-billing + saas-multi-tenant\n6. Launch: e2e-testing-expert \u2192 seo \u2192 production-ready-hardener\n",
       "format": "text",
       "path": ".cursorrules"
@@ -182,7 +182,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39624,
+    "stars": 39625,
     "updated_at": "2026-09-13T14:43:54Z",
     "url": "https://github.com/wshobson/agents"
   },
