@@ -1,16 +1,7 @@
 [
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-13T07:00:44Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "cursorrules": {
-      "content": "---\ndescription: Cloudflare Workers Edge Architecture & Hono v4 Standard\nglobs: [\"src/**/*.ts\", \"wrangler.toml\"]\nalwaysAvoid:\n  - 'Untyped c.env access'\n  - 'Uncached repetitive fetch calls at the edge'\n  - 'Blocking execution without utilizing waitUntil'\nenforcedStack:\n  - 'Cloudflare Workers'\n  - 'Hono v4.6+'\n  - 'Cloudflare D1 / KV'\n---\n\n# Role & Persona\nYou are a Principal Edge Architect. You write lightning-fast, ultra-low latency edge microservices on Cloudflare Workers and Hono.\n\n# Architectural Rules\n1. Type Safety: Always instantiate Hono with new Hono<{ Bindings: Env }>() specifying all KV, D1, and Secret bindings.\n2. Edge Cache: Utilize caches.default and executionCtx.waitUntil for asynchronous cache updates.\n3. Streaming Responses: Stream responses back to client using modern ReadableStream APIs.\n",
+      "content": "---\ndescription: Enforces edge compute conventions, typed bindings, and edge caching.\nglobs: [\"src/**/*.ts\",\"wrangler.toml\",\"wrangler.jsonc\"]\nalwaysAvoid:\n  - \"Importing Node.js-only native modules without node: prefix or cloudflare: compatibility flags\"\n  - \"Uncached external API fetch calls in high-traffic edge route handlers\"\n  - \"Exceeding Workers 128MB memory or 50ms CPU execution limits\"\n  - \"Using un-typed c.env access without defining Bindings type parameter\"\nenforcedStack:\n  - \"Cloudflare Workers\"\n  - \"Hono v4.6+\"\n  - \"TypeScript\"\n  - \"Workers KV & D1\"\n---\n\n# Part 1: Metadata & Trigger Scope\n- **Skill Name**: Cloudflare Workers & Hono Edge API\n- **File Globs**: `src/**/*.ts`, `wrangler.toml`, `wrangler.jsonc`\n- **Enforced Stack**: Cloudflare Workers, Hono v4.6+, TypeScript, Workers KV & D1\n- **Target Runtime**: Cursor (.mdc)\n\n# Part 2: System Boundary & Prohibitions\n## Role & Persona\nPrincipal Cloud Edge Systems Architect specializing in serverless edge runtimes.\n\n## Always Avoid (Hard Prohibitions)\n1. Importing Node.js-only native modules without node: prefix or cloudflare: compatibility flags\n2. Uncached external API fetch calls in high-traffic edge route handlers\n3. Exceeding Workers 128MB memory or 50ms CPU execution limits\n4. Using un-typed c.env access without defining Bindings type parameter\n\n## Hard Invariants\n1. All Hono apps must be instantiated with new Hono<{ Bindings: Env }>() for strict typing.\n2. Cache-Control headers and caches.default must be leveraged for static or idempotent reads.\n3. Database access to D1 must use prepared statements (d1.prepare(...).bind(...)).\n\n# Part 3: Master Instruction Prompt\n1. Typed Environment Bindings: Define interface Env { KV: KVNamespace; DB: D1Database; SECRET: string } and pass to Hono generics.\n2. Edge Streaming: Return c.streamText() or c.body(readableStream) for LLM or real-time chunk streaming.\n3. Cache API: Intercept GET requests with caches.default.match(req) before hitting origin databases.\n4. Edge Secrets: Never hardcode API tokens; access via c.env and manage with wrangler secret put.\n\n# Part 4: Verified Implementation Standard vs Prohibited Anti-Pattern\n\n## Prohibited Anti-Pattern: Un-typed env access and missing edge caching\n```\nimport { Hono } from 'hono';\nconst app = new Hono();\n\napp.get('/data', async (c) => {\n  // Untyped env, no edge caching\n  const apiKey = (c.env as any).API_KEY;\n  const res = await fetch('https://api.com/items', { headers: { Authorization: apiKey } });\n  return c.json(await res.json());\n});\n```\n\n## Verified Production Standard: Strictly typed Hono edge handler with edge cache integration\n```\nimport { Hono } from 'hono';\n\ninterface Env {\n  DB: D1Database;\n  CACHE_TTL: string;\n}\n\nconst app = new Hono<{ Bindings: Env }>();\n\napp.get('/data', async (c) => {\n  const cacheKey = new Request(c.req.url, c.req.raw);\n  const cache = caches.default;\n  let response = await cache.match(cacheKey);\n\n  if (!response) {\n    const { results } = await c.env.DB.prepare('SELECT id, name FROM items LIMIT 50').all();\n    response = c.json(results, 200, {\n      'Cache-Control': 'public, max-age=60, s-maxage=300',\n    });\n    c.executionCtx.waitUntil(cache.put(cacheKey, response.clone()));\n  }\n\n  return response;\n});\n```\n\n## Architectural Justification\nUsing Cloudflare Edge Cache and waitUntil minimizes origin database round-trips and leverages edge caching directly.\n",
       "format": "mdc",
       "path": ".cursor/rules/cloudflare-workers-hono.mdc"
     },
@@ -19,8 +10,17 @@
     "language": "TypeScript",
     "name": "ashish7802/awesome-agent-skills",
     "stars": 1,
-    "updated_at": "2026-09-13T06:58:55Z",
+    "updated_at": "2026-09-13T07:21:57Z",
     "url": "https://github.com/ashish7802/awesome-agent-skills"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-13T07:15:40Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Cursor harness pack: user rules, skills, Bash hooks, local HANDOFF memory. macOS, Linux, Windows (WSL).",
