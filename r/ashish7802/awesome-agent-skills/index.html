@@ -14,7 +14,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="ashish7802/awesome-agent-skills - entry on Cursor Rules Live">
 <meta name="twitter:description" content="The ultimate open-source directory of production-grade AI Agent skills, system instructions, and custom rules (.mdc) for">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"ashish7802/awesome-agent-skills","codeRepository":"https://github.com/ashish7802/awesome-agent-skills","programmingLanguage":"TypeScript","url":"https://linny006.github.io/cursor-rules-live/r/ashish7802/awesome-agent-skills/","description":"The ultimate open-source directory of production-grade AI Agent skills, system instructions, and custom rules (.mdc) for","author":{"@type":"Person","name":"ashish7802","url":"https://github.com/ashish7802"},"dateModified":"2026-09-02"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"ashish7802/awesome-agent-skills","codeRepository":"https://github.com/ashish7802/awesome-agent-skills","programmingLanguage":"TypeScript","url":"https://linny006.github.io/cursor-rules-live/r/ashish7802/awesome-agent-skills/","description":"The ultimate open-source directory of production-grade AI Agent skills, system instructions, and custom rules (.mdc) for","author":{"@type":"Person","name":"ashish7802","url":"https://github.com/ashish7802"},"dateModified":"2026-09-13"}</script>
 <style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
          --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
 * { box-sizing: border-box; }
@@ -48,32 +48,32 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <div class="meta">
 <span><strong>Stars</strong> 1</span>
 <span><strong>Language</strong> TypeScript</span>
-<span><strong>Last updated</strong> 2026-09-02</span>
+<span><strong>Last updated</strong> 2026-09-13</span>
 <span><a href="https://github.com/ashish7802/awesome-agent-skills" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/ashish7802" rel="external">@ashish7802</a></span>
 </div>
 <section id="rules"><h2>Actual rules from this repo</h2>
 <p>Path in source repo: <code>.cursor/rules/cloudflare-workers-hono.mdc</code> &middot; format: <code>mdc</code></p>
 <pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
-description: Cloudflare Workers Edge API with Hono &amp; D1 Database
+description: Cloudflare Workers Edge Architecture &amp; Hono v4 Standard
 globs: [&quot;src/**/*.ts&quot;, &quot;wrangler.toml&quot;]
 alwaysAvoid:
-  - &#x27;Unsupported Node.js native modules in V8 isolates&#x27;
-  - &#x27;Unparameterized SQL string queries in D1&#x27;
-  - &#x27;Stateful global variables shared across requests&#x27;
+  - &#x27;Untyped c.env access&#x27;
+  - &#x27;Uncached repetitive fetch calls at the edge&#x27;
+  - &#x27;Blocking execution without utilizing waitUntil&#x27;
 enforcedStack:
   - &#x27;Cloudflare Workers&#x27;
-  - &#x27;Hono v4+&#x27;
-  - &#x27;D1 Database &amp; KV&#x27;
+  - &#x27;Hono v4.6+&#x27;
+  - &#x27;Cloudflare D1 / KV&#x27;
 ---
 
 # Role &amp; Persona
-You are an Edge Systems Architect. You engineer ultra-low latency serverless microservices on Cloudflare Workers.
+You are a Principal Edge Architect. You write lightning-fast, ultra-low latency edge microservices on Cloudflare Workers and Hono.
 
 # Architectural Rules
-1. Type-Safe Bindings: Declare environment bindings (D1Database, KVNamespace, secrets) in Hono&lt;{ Bindings: Env }&gt;.
-2. SQL Parameterization: Always use db.prepare(...).bind(...) for all D1 queries to prevent SQL injection.
-3. Validation: Use @hono/zod-validator on all JSON payloads before executing business logic.
+1. Type Safety: Always instantiate Hono with new Hono&lt;{ Bindings: Env }&gt;() specifying all KV, D1, and Secret bindings.
+2. Edge Cache: Utilize caches.default and executionCtx.waitUntil for asynchronous cache updates.
+3. Streaming Responses: Stream responses back to client using modern ReadableStream APIs.
 </code></pre>
 <p><a href="https://github.com/ashish7802/awesome-agent-skills/blob/HEAD/.cursor/rules/cloudflare-workers-hono.mdc" rel="external">View raw on GitHub</a></p>
 </section>
@@ -81,9 +81,9 @@ You are an Edge Systems Architect. You engineer ultra-low latency serverless mic
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>
 <ul class="crosslinks">
-<li><a href="https://linny006.github.io/cursor-rules-live/r/nota-america/forgecat-agent-profiles/">nota-america/forgecat-agent-profiles (stars:63)</a></li>
-<li><a href="https://linny006.github.io/cursor-rules-live/r/xiyu519/MotionVault/">xiyu519/MotionVault (stars:28)</a></li>
-<li><a href="https://linny006.github.io/cursor-rules-live/r/philipbankier/awesome-agent-skills/">philipbankier/awesome-agent-skills (stars:17)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/HoangNguyen0403/agent-skills-standard/">HoangNguyen0403/agent-skills-standard (stars:565)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/nota-america/forgecat-agent-profiles/">nota-america/forgecat-agent-profiles (stars:67)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/heymegabyte/claude-skills/">heymegabyte/claude-skills (stars:21)</a></li>
 </ul></section>
 <section><h2>Explore by category</h2>
 <ul class="crosslinks">

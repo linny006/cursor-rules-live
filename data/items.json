@@ -1,12 +1,17 @@
 [
   {
-    "description": "Cursor harness pack: user rules, skills, Bash hooks, local HANDOFF memory. macOS, Linux, Windows (WSL).",
-    "id": "kleosr/kleosrules",
-    "language": "Shell",
-    "name": "kleosr/kleosrules",
-    "stars": 0,
-    "updated_at": "2026-09-13T06:34:11Z",
-    "url": "https://github.com/kleosr/kleosrules"
+    "cursorrules": {
+      "content": "---\ndescription: Cloudflare Workers Edge Architecture & Hono v4 Standard\nglobs: [\"src/**/*.ts\", \"wrangler.toml\"]\nalwaysAvoid:\n  - 'Untyped c.env access'\n  - 'Uncached repetitive fetch calls at the edge'\n  - 'Blocking execution without utilizing waitUntil'\nenforcedStack:\n  - 'Cloudflare Workers'\n  - 'Hono v4.6+'\n  - 'Cloudflare D1 / KV'\n---\n\n# Role & Persona\nYou are a Principal Edge Architect. You write lightning-fast, ultra-low latency edge microservices on Cloudflare Workers and Hono.\n\n# Architectural Rules\n1. Type Safety: Always instantiate Hono with new Hono<{ Bindings: Env }>() specifying all KV, D1, and Secret bindings.\n2. Edge Cache: Utilize caches.default and executionCtx.waitUntil for asynchronous cache updates.\n3. Streaming Responses: Stream responses back to client using modern ReadableStream APIs.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/cloudflare-workers-hono.mdc"
+    },
+    "description": "The ultimate open-source directory of production-grade AI Agent skills, system instructions, and custom rules (.mdc) for",
+    "id": "ashish7802/awesome-agent-skills",
+    "language": "TypeScript",
+    "name": "ashish7802/awesome-agent-skills",
+    "stars": 1,
+    "updated_at": "2026-09-13T06:58:55Z",
+    "url": "https://github.com/ashish7802/awesome-agent-skills"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +19,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-13T06:30:32Z",
+    "updated_at": "2026-09-13T06:45:51Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Cursor harness pack: user rules, skills, Bash hooks, local HANDOFF memory. macOS, Linux, Windows (WSL).",
+    "id": "kleosr/kleosrules",
+    "language": "Shell",
+    "name": "kleosr/kleosrules",
+    "stars": 0,
+    "updated_at": "2026-09-13T06:34:11Z",
+    "url": "https://github.com/kleosr/kleosrules"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -494,14 +508,5 @@
     "stars": 18,
     "updated_at": "2026-09-10T13:41:43Z",
     "url": "https://github.com/powersync-ja/agent-skills"
-  },
-  {
-    "description": "AGENTS.md rules / skills for AI coding agents: Codex, Cursor & Claude Code. Inspired by Clean Code, Refactoring, DDD, Cl",
-    "id": "ciembor/agent-rules-books",
-    "language": "\u2014",
-    "name": "ciembor/agent-rules-books",
-    "stars": 2765,
-    "updated_at": "2026-09-10T11:21:47Z",
-    "url": "https://github.com/ciembor/agent-rules-books"
   }
 ]
