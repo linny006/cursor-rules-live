@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-14 09:00 UTC
+> ⏰ Last updated: 2026-09-14 09:16 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -70,7 +70,7 @@ expired items removed — so you can rely on what you see being current.
 | 15 | [MohamedAbdallah-14/unslop](https://github.com/MohamedAbdallah-14/unslop) | 137 | Python | 2026-09-14 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/MohamedAbdallah-14/unslop/) | Make AI output sound human. Strips AI-isms (sycophancy, stock vocab, hedging stacks, em-dash pileups), preserves code/UR |
 | 16 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-09-14 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
 | 17 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-09-14 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
-| 18 | [wshobson/agents](https://github.com/wshobson/agents) | 39638 | Python | 2026-09-14 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
+| 18 | [wshobson/agents](https://github.com/wshobson/agents) | 39639 | Python | 2026-09-14 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
 | 19 | [kleosr/kleosrules](https://github.com/kleosr/kleosrules) | 0 | Shell | 2026-09-14 | — | Cursor harness pack: user rules, skills, Bash hooks, local HANDOFF memory. macOS, Linux, Windows (WSL). |
 | 20 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 43 | — | 2026-09-13 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
 | 21 | [nota-america/forgecat-agent-profiles](https://github.com/nota-america/forgecat-agent-profiles) | 67 | TypeScript | 2026-09-13 | — | Production-ready AI agent profiles for Claude Code, Cursor, Codex, OpenClaw, and Hermes. Search, install, and contribute |
@@ -78,7 +78,7 @@ expired items removed — so you can rely on what you see being current.
 | 23 | [ruandawa-ux/awesome-cursorrules-chinese](https://github.com/ruandawa-ux/awesome-cursorrules-chinese) | 0 | JavaScript | 2026-09-13 | — | 🔥 2026 最新精选中文 Cursor Rules 规则库与最佳实践（React/Vue/Python/Go）\| AI 编程助手配置指南 |
 | 24 | [roedyrustam/vibes-plug](https://github.com/roedyrustam/vibes-plug) | 65 | Python | 2026-09-13 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/roedyrustam/vibes-plug/) | Universal Multi-Agent Swarm Plugin with specialized skills for Antigravity (AGY), Claude Code, and Cursor IDE. Modern 20 |
 | 25 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 17 | TypeScript | 2026-09-13 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
-| 26 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 190 | Shell | 2026-09-13 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | Agent skills synthesizing years of software engineering discipline into a prescriptive methodology for solo developers |
+| 26 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 191 | Shell | 2026-09-13 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | Agent skills synthesizing years of software engineering discipline into a prescriptive methodology for solo developers |
 | 27 | [afaraha8403/balakit](https://github.com/afaraha8403/balakit) | 1 | JavaScript | 2026-09-13 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/afaraha8403/balakit/) | Opinionated, cross-agent rules and skills for AI coding agents — one npx install into Cursor, Claude Code, Codex, OpenCo |
 | 28 | [sublimecoder/sublimecoding](https://github.com/sublimecoder/sublimecoding) | 0 | — | 2026-09-13 | — | 🛠️ Free Claude Code & Cursor prompts for senior engineers — plus AIOS, an open-source markdown memory system for coding  |
 | 29 | [AymaneWebDEV/developer-prompt-vault](https://github.com/AymaneWebDEV/developer-prompt-vault) | 1 | — | 2026-09-13 | — | Production-ready system prompts and .cursorrules for Claude 3.5 Sonnet, GPT-4o, and Cursor. Clean architecture, refactor |
