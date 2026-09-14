@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-14T12:45:35Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
     "id": "mikeprasad/aria-knowledge",
     "language": "Shell",
@@ -7,15 +16,6 @@
     "stars": 17,
     "updated_at": "2026-09-14T12:33:47Z",
     "url": "https://github.com/mikeprasad/aria-knowledge"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-14T12:30:36Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -27,7 +27,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 137936,
+    "stars": 137951,
     "updated_at": "2026-09-14T12:27:20Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -239,7 +239,7 @@
     "id": "KbWen/agentic-os",
     "language": "Python",
     "name": "KbWen/agentic-os",
-    "stars": 172,
+    "stars": 171,
     "updated_at": "2026-09-14T06:16:27Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
@@ -267,7 +267,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39640,
+    "stars": 39639,
     "updated_at": "2026-09-14T01:07:51Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -500,7 +500,7 @@
     "id": "SalesforceAIResearch/agentforce-adlc",
     "language": "Python",
     "name": "SalesforceAIResearch/agentforce-adlc",
-    "stars": 105,
+    "stars": 106,
     "updated_at": "2026-09-12T23:48:39Z",
     "url": "https://github.com/SalesforceAIResearch/agentforce-adlc"
   }
