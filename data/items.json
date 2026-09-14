@@ -1,12 +1,12 @@
 [
   {
-    "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
-    "id": "mikeprasad/aria-knowledge",
-    "language": "Shell",
-    "name": "mikeprasad/aria-knowledge",
-    "stars": 17,
-    "updated_at": "2026-09-14T15:32:57Z",
-    "url": "https://github.com/mikeprasad/aria-knowledge"
+    "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
+    "id": "agenticstandardcontact-byte/agentic-architect",
+    "language": "HTML",
+    "name": "agenticstandardcontact-byte/agentic-architect",
+    "stars": 0,
+    "updated_at": "2026-09-14T15:53:16Z",
+    "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-14T15:30:43Z",
+    "updated_at": "2026-09-14T15:45:34Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
+    "id": "mikeprasad/aria-knowledge",
+    "language": "Shell",
+    "name": "mikeprasad/aria-knowledge",
+    "stars": 17,
+    "updated_at": "2026-09-14T15:32:57Z",
+    "url": "https://github.com/mikeprasad/aria-knowledge"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -50,7 +59,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 138100,
+    "stars": 138112,
     "updated_at": "2026-09-14T14:34:56Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -86,7 +95,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 20654,
+    "stars": 20655,
     "updated_at": "2026-09-14T13:25:35Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -380,15 +389,6 @@
     "stars": 0,
     "updated_at": "2026-09-13T15:16:36Z",
     "url": "https://github.com/sublimecoder/sublimecoding"
-  },
-  {
-    "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
-    "id": "agenticstandardcontact-byte/agentic-architect",
-    "language": "HTML",
-    "name": "agenticstandardcontact-byte/agentic-architect",
-    "stars": 0,
-    "updated_at": "2026-09-13T13:47:52Z",
-    "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
   },
   {
     "cursorrules": {
