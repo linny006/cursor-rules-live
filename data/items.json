@@ -1,11 +1,20 @@
 [
   {
+    "description": "Gate your AI instruction files in CI. Fails the build when a CLAUDE.md, AGENTS.md or SKILL.md will not load or is unsafe",
+    "id": "tomevault-io/lint-action",
+    "language": "\u2014",
+    "name": "tomevault-io/lint-action",
+    "stars": 0,
+    "updated_at": "2026-09-14T10:52:09Z",
+    "url": "https://github.com/tomevault-io/lint-action"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-14T10:40:04Z",
+    "updated_at": "2026-09-14T10:45:48Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -41,7 +50,7 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 21,
-    "updated_at": "2026-09-14T10:03:14Z",
+    "updated_at": "2026-09-14T10:46:37Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
@@ -494,14 +503,5 @@
     "stars": 5,
     "updated_at": "2026-09-12T04:15:23Z",
     "url": "https://github.com/Pranav-Nexus/antigravity-skill-porter"
-  },
-  {
-    "description": "Agents that read your codebase and write the environment other agents need \u2014 then hooks that make it stick. Claude Code ",
-    "id": "g0007b1/fenceline",
-    "language": "JavaScript",
-    "name": "g0007b1/fenceline",
-    "stars": 0,
-    "updated_at": "2026-09-11T13:53:34Z",
-    "url": "https://github.com/g0007b1/fenceline"
   }
 ]
