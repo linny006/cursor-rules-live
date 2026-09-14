@@ -1,11 +1,20 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 2,
+    "updated_at": "2026-09-14T15:26:33Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-14T15:00:58Z",
+    "updated_at": "2026-09-14T15:15:45Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -32,7 +41,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 138072,
+    "stars": 138086,
     "updated_at": "2026-09-14T14:34:56Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -68,7 +77,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 20653,
+    "stars": 20654,
     "updated_at": "2026-09-14T13:25:35Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -152,15 +161,6 @@
     "stars": 2,
     "updated_at": "2026-09-14T09:19:56Z",
     "url": "https://github.com/glowElephant/context-forge"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 2,
-    "updated_at": "2026-09-14T08:18:20Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Agent \u9a71\u52a8\u7684 Playwright E2E \u81ea\u52a8\u5316\u6d4b\u8bd5\u6700\u4f73\u5b9e\u8df5\u4e0e\u65b9\u6cd5\u8bba (Don't let LLMs be clickers; make them test script authors)",
