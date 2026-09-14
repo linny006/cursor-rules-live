@@ -1,11 +1,38 @@
 [
   {
+    "description": "Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W-",
+    "id": "fluttersdk/wind",
+    "language": "Dart",
+    "name": "fluttersdk/wind",
+    "stars": 33,
+    "updated_at": "2026-09-14T06:57:40Z",
+    "url": "https://github.com/fluttersdk/wind"
+  },
+  {
+    "description": "\u82f1\u6587\u6587\u7ae0\u80cc\u8bf5\u6280\u5de7",
+    "id": "yxdwind/english-memory-method",
+    "language": "HTML",
+    "name": "yxdwind/english-memory-method",
+    "stars": 0,
+    "updated_at": "2026-09-14T06:56:37Z",
+    "url": "https://github.com/yxdwind/english-memory-method"
+  },
+  {
+    "description": "Test Claude and Gemini watermark removers on the kind of mark they claim to remove: plant a SynthID-Text watermark with ",
+    "id": "Yurakonoplya/unmark-checker",
+    "language": "Python",
+    "name": "Yurakonoplya/unmark-checker",
+    "stars": 0,
+    "updated_at": "2026-09-14T06:47:52Z",
+    "url": "https://github.com/Yurakonoplya/unmark-checker"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-14T06:30:32Z",
+    "updated_at": "2026-09-14T06:45:37Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -39,15 +66,6 @@
     "stars": 137,
     "updated_at": "2026-09-14T06:10:14Z",
     "url": "https://github.com/MohamedAbdallah-14/unslop"
-  },
-  {
-    "description": "\u82f1\u6587\u6587\u7ae0\u80cc\u8bf5\u6280\u5de7",
-    "id": "yxdwind/english-memory-method",
-    "language": "HTML",
-    "name": "yxdwind/english-memory-method",
-    "stars": 0,
-    "updated_at": "2026-09-14T05:58:35Z",
-    "url": "https://github.com/yxdwind/english-memory-method"
   },
   {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
@@ -127,7 +145,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39634,
+    "stars": 39635,
     "updated_at": "2026-09-14T01:07:51Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -262,15 +280,6 @@
     "stars": 0,
     "updated_at": "2026-09-13T13:47:52Z",
     "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
-  },
-  {
-    "description": "Test Claude and Gemini watermark removers on the kind of mark they claim to remove: plant a SynthID-Text watermark with ",
-    "id": "Yurakonoplya/unmark-checker",
-    "language": "Python",
-    "name": "Yurakonoplya/unmark-checker",
-    "stars": 0,
-    "updated_at": "2026-09-13T13:43:24Z",
-    "url": "https://github.com/Yurakonoplya/unmark-checker"
   },
   {
     "cursorrules": {
@@ -499,14 +508,5 @@
     "stars": 17,
     "updated_at": "2026-09-11T12:32:10Z",
     "url": "https://github.com/mikeprasad/aria-knowledge"
-  },
-  {
-    "description": "",
-    "id": "willson-wen/skill-pruner",
-    "language": "Python",
-    "name": "willson-wen/skill-pruner",
-    "stars": 1,
-    "updated_at": "2026-09-11T03:12:25Z",
-    "url": "https://github.com/willson-wen/skill-pruner"
   }
 ]
