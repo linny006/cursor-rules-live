@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-14 01:45 UTC
+> ⏰ Last updated: 2026-09-14 02:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -80,7 +80,7 @@ expired items removed — so you can rely on what you see being current.
 | 25 | [vibestackdev/vibe-stack](https://github.com/vibestackdev/vibe-stack) | 8 | TypeScript | 2026-09-13 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/) | 29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b |
 | 26 | [Aaditya1273/Agent.md](https://github.com/Aaditya1273/Agent.md) | 8 | — | 2026-09-13 | — | The toolchain that stops AI coding agents from writing broken, deprecated code. |
 | 27 | [Ali-Ch-001/awesome-agent-packs](https://github.com/Ali-Ch-001/awesome-agent-packs) | 1 | TypeScript | 2026-09-13 | — | Universal Skiils Manager for Pre-Harmonized AI Agent Skills (Claude Code, Cursor, OpenCode, Windsurf) |
-| 28 | [HoangNguyen0403/agent-skills-standard](https://github.com/HoangNguyen0403/agent-skills-standard) | 565 | TypeScript | 2026-09-13 | — | A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol |
+| 28 | [HoangNguyen0403/agent-skills-standard](https://github.com/HoangNguyen0403/agent-skills-standard) | 565 | TypeScript | 2026-09-14 | — | A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol |
 | 29 | [wu529778790/shenzjd-skills](https://github.com/wu529778790/shenzjd-skills) | 1 | Shell | 2026-09-13 | — | 我的 Claude Code skills 集合，用于提升开发效率 |
 | 30 | [ashish7802/awesome-agent-skills](https://github.com/ashish7802/awesome-agent-skills) | 1 | TypeScript | 2026-09-13 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/ashish7802/awesome-agent-skills/) | The ultimate open-source directory of production-grade AI Agent skills, system instructions, and custom rules (.mdc) for |
 | 31 | [saqie803/ponytail](https://github.com/saqie803/ponytail) | 0 | JavaScript | 2026-09-13 | — | Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony. |
