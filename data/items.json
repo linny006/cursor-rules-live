@@ -5,17 +5,8 @@
     "language": "HTML",
     "name": "yxdwind/english-memory-method",
     "stars": 0,
-    "updated_at": "2026-09-14T07:48:41Z",
+    "updated_at": "2026-09-14T08:09:06Z",
     "url": "https://github.com/yxdwind/english-memory-method"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-14T07:45:34Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
@@ -23,8 +14,17 @@
     "language": "TypeScript",
     "name": "HoangNguyen0403/agent-skills-standard",
     "stars": 565,
-    "updated_at": "2026-09-14T07:58:32Z",
+    "updated_at": "2026-09-14T08:07:27Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-14T08:00:53Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
@@ -154,7 +154,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39637,
+    "stars": 39638,
     "updated_at": "2026-09-14T01:07:51Z",
     "url": "https://github.com/wshobson/agents"
   },
