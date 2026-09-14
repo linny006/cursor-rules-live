@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-14T21:00:53Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
     "id": "Trentobobbi/uikit-mastery-playbook",
     "language": "HTML",
@@ -16,15 +25,6 @@
     "stars": 0,
     "updated_at": "2026-09-14T20:48:54Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-14T20:45:31Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -46,7 +46,7 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 21,
-    "updated_at": "2026-09-14T20:53:32Z",
+    "updated_at": "2026-09-14T21:12:42Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
@@ -172,7 +172,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 138309,
+    "stars": 138318,
     "updated_at": "2026-09-14T14:34:56Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
