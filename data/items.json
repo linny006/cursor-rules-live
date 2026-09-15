@@ -1,11 +1,20 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-15T15:00:44Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align",
     "id": "MnemeHQ/mneme",
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 21,
-    "updated_at": "2026-09-15T14:58:03Z",
+    "updated_at": "2026-09-15T15:09:00Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
@@ -16,15 +25,6 @@
     "stars": 0,
     "updated_at": "2026-09-15T14:47:08Z",
     "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-15T14:45:33Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
@@ -90,7 +90,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 20692,
+    "stars": 20693,
     "updated_at": "2026-09-15T09:48:41Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -312,7 +312,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 139099,
+    "stars": 139114,
     "updated_at": "2026-09-14T14:34:56Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -435,7 +435,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39683,
+    "stars": 39684,
     "updated_at": "2026-09-14T01:07:51Z",
     "url": "https://github.com/wshobson/agents"
   },
