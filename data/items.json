@@ -1,21 +1,21 @@
 [
   {
+    "description": "My life's work: a deterministic engineering harness for Cursor.",
+    "id": "kleosr/bridle",
+    "language": "Shell",
+    "name": "kleosr/bridle",
+    "stars": 0,
+    "updated_at": "2026-09-15T06:14:30Z",
+    "url": "https://github.com/kleosr/bridle"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-15T05:45:49Z",
+    "updated_at": "2026-09-15T06:00:31Z",
     "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
-    "description": "Cursor-only agent harness: charter, rules, skills, and four fail-closed Bash hooks. Deny > ask > allow. macOS, Linux, Wi",
-    "id": "kleosr/kleosrules",
-    "language": "Shell",
-    "name": "kleosr/kleosrules",
-    "stars": 0,
-    "updated_at": "2026-09-15T05:33:48Z",
-    "url": "https://github.com/kleosr/kleosrules"
   },
   {
     "description": "\u0413\u043e\u0442\u043e\u0432\u044b\u0439 AGENTS.md + \u043f\u0440\u0430\u0432\u0438\u043b\u0430 Cursor \u0434\u043b\u044f \u043b\u044e\u0431\u043e\u0433\u043e \u0444\u0440\u043e\u043d\u0442\u0435\u043d\u0434\u0430. \u0410\u0433\u0435\u043d\u0442 \u043f\u0435\u0440\u0435\u0441\u0442\u0430\u0451\u0442 \u0448\u0442\u0430\u043c\u043f\u043e\u0432\u0430\u0442\u044c \u043e\u0434\u043d\u043e\u0442\u0438\u043f\u043d\u044b\u0435 \u0441\u0430\u0439\u0442\u044b: \u0436\u0438\u0432\u043e\u0439 UI, WCAG 2.2",
@@ -235,7 +235,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 138669,
+    "stars": 138683,
     "updated_at": "2026-09-14T14:34:56Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -244,7 +244,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 20666,
+    "stars": 20668,
     "updated_at": "2026-09-14T13:25:35Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -376,7 +376,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39662,
+    "stars": 39663,
     "updated_at": "2026-09-14T01:07:51Z",
     "url": "https://github.com/wshobson/agents"
   },
