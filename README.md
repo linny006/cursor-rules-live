@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-15 06:15 UTC
+> ⏰ Last updated: 2026-09-15 06:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,10 +53,10 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [kleosr/bridle](https://github.com/kleosr/bridle) | 0 | Shell | 2026-09-15 | — | My life's work: a deterministic engineering harness for Cursor. |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-15 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 3 | [romanveselovski/ru-agents-frontend-rules](https://github.com/romanveselovski/ru-agents-frontend-rules) | 0 | — | 2026-09-15 | — | Готовый AGENTS.md + правила Cursor для любого фронтенда. Агент перестаёт штамповать однотипные сайты: живой UI, WCAG 2.2 |
-| 4 | [romanveselovski/agents-frontend-rules](https://github.com/romanveselovski/agents-frontend-rules) | 0 | — | 2026-09-15 | — | Drop-in AGENTS.md + Cursor rules for any frontend. Stop AI slop: distinctive UI, WCAG 2.2, SEO, Core Web Vitals, forms,  |
+| 1 | [romanveselovski/agents-frontend-rules](https://github.com/romanveselovski/agents-frontend-rules) | 0 | — | 2026-09-15 | — | Drop-in AGENTS.md + Cursor rules for any frontend. Stop AI slop: distinctive UI, WCAG 2.2, SEO, Core Web Vitals, forms,  |
+| 2 | [romanveselovski/ru-agents-frontend-rules](https://github.com/romanveselovski/ru-agents-frontend-rules) | 0 | — | 2026-09-15 | — | Готовый AGENTS.md + правила Cursor для любого фронтенда. Агент перестаёт штамповать однотипные сайты: живой UI, WCAG 2.2 |
+| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-15 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 4 | [kleosr/bridle](https://github.com/kleosr/bridle) | 0 | Shell | 2026-09-15 | — | My life's work: a deterministic engineering harness for Cursor. |
 | 5 | [XAKLESK/cre-agent-skills](https://github.com/XAKLESK/cre-agent-skills) | 8 | — | 2026-09-15 | — | Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc |
 | 6 | [Amirun99/agency-orchestrator](https://github.com/Amirun99/agency-orchestrator) | 0 | Dart | 2026-09-15 | — | Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support. |
 | 7 | [yxdwind/english-memory-method](https://github.com/yxdwind/english-memory-method) | 0 | HTML | 2026-09-15 | — | 英文文章背诵技巧 |
@@ -77,8 +77,8 @@ expired items removed — so you can rely on what you see being current.
 | 22 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-09-14 | — | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
 | 23 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 17 | Shell | 2026-09-14 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
 | 24 | [vibestackdev/vibe-stack](https://github.com/vibestackdev/vibe-stack) | 8 | TypeScript | 2026-09-14 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/) | 29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b |
-| 25 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 138683 | JavaScript | 2026-09-14 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
-| 26 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 20668 | Shell | 2026-09-14 | — | 🎭 277 个即插即用的 AI 专家角色 — 支持 Claude Code/Cursor/Copilot 等 20 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 64 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉/Qt 上 |
+| 25 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 138696 | JavaScript | 2026-09-14 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 26 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 20669 | Shell | 2026-09-14 | — | 🎭 277 个即插即用的 AI 专家角色 — 支持 Claude Code/Cursor/Copilot 等 20 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 64 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉/Qt 上 |
 | 27 | [AymaneWebDEV/developer-prompt-vault](https://github.com/AymaneWebDEV/developer-prompt-vault) | 1 | — | 2026-09-14 | — | Production-ready system prompts and .cursorrules for Claude 3.5 Sonnet, GPT-4o, and Cursor. Clean architecture, refactor |
 | 28 | [tomevault-io/lint-action](https://github.com/tomevault-io/lint-action) | 0 | — | 2026-09-14 | — | Gate your AI instruction files in CI. Fails the build when a CLAUDE.md, AGENTS.md or SKILL.md will not load or is unsafe |
 | 29 | [glowElephant/context-forge](https://github.com/glowElephant/context-forge) | 2 | Python | 2026-09-14 | — | Auto harness engineering meta-repo: discuss → curate → bootstrap a context-engineered project for Claude Code, Cursor, C |
@@ -91,7 +91,7 @@ expired items removed — so you can rely on what you see being current.
 | 36 | [Yurakonoplya/unmark-checker](https://github.com/Yurakonoplya/unmark-checker) | 0 | Python | 2026-09-14 | — | Test Claude and Gemini watermark removers on the kind of mark they claim to remove: plant a SynthID-Text watermark with  |
 | 37 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 171 | Python | 2026-09-14 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
 | 38 | [MohamedAbdallah-14/unslop](https://github.com/MohamedAbdallah-14/unslop) | 138 | Python | 2026-09-14 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/MohamedAbdallah-14/unslop/) | Make AI output sound human. Strips AI-isms (sycophancy, stock vocab, hedging stacks, em-dash pileups), preserves code/UR |
-| 39 | [wshobson/agents](https://github.com/wshobson/agents) | 39663 | Python | 2026-09-14 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
+| 39 | [wshobson/agents](https://github.com/wshobson/agents) | 39664 | Python | 2026-09-14 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
 | 40 | [ruandawa-ux/cursor-free-trials-reset-tool](https://github.com/ruandawa-ux/cursor-free-trials-reset-tool) | 0 | Python | 2026-09-13 | — | 2026 Latest Cursor Machine ID Reset Tool \| 一键解除 Cursor 'Too many free trials on this machine' 试用限制 |
 | 41 | [ruandawa-ux/awesome-cursorrules-chinese](https://github.com/ruandawa-ux/awesome-cursorrules-chinese) | 0 | JavaScript | 2026-09-13 | — | 🔥 2026 最新精选中文 Cursor Rules 规则库与最佳实践（React/Vue/Python/Go）\| AI 编程助手配置指南 |
 | 42 | [roedyrustam/vibes-plug](https://github.com/roedyrustam/vibes-plug) | 65 | Python | 2026-09-13 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/roedyrustam/vibes-plug/) | Universal Multi-Agent Swarm Plugin with specialized skills for Antigravity (AGY), Claude Code, and Cursor IDE. Modern 20 |
