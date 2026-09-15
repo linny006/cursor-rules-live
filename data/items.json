@@ -1,11 +1,20 @@
 [
   {
+    "description": "Gate your AI instruction files in CI. Fails the build when a CLAUDE.md, AGENTS.md or SKILL.md will not load or is unsafe",
+    "id": "tomevault-io/lint-action",
+    "language": "\u2014",
+    "name": "tomevault-io/lint-action",
+    "stars": 0,
+    "updated_at": "2026-09-15T20:43:27Z",
+    "url": "https://github.com/tomevault-io/lint-action"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-15T20:24:54Z",
+    "updated_at": "2026-09-15T20:30:44Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -330,7 +339,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 139282,
+    "stars": 139288,
     "updated_at": "2026-09-14T14:34:56Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -342,15 +351,6 @@
     "stars": 1,
     "updated_at": "2026-09-14T11:57:28Z",
     "url": "https://github.com/AymaneWebDEV/developer-prompt-vault"
-  },
-  {
-    "description": "Gate your AI instruction files in CI. Fails the build when a CLAUDE.md, AGENTS.md or SKILL.md will not load or is unsafe",
-    "id": "tomevault-io/lint-action",
-    "language": "\u2014",
-    "name": "tomevault-io/lint-action",
-    "stars": 0,
-    "updated_at": "2026-09-14T10:52:09Z",
-    "url": "https://github.com/tomevault-io/lint-action"
   },
   {
     "description": "Auto harness engineering meta-repo: discuss \u2192 curate \u2192 bootstrap a context-engineered project for Claude Code, Cursor, C",
@@ -417,7 +417,7 @@
     "language": "Dart",
     "name": "fluttersdk/wind",
     "stars": 33,
-    "updated_at": "2026-09-15T20:17:35Z",
+    "updated_at": "2026-09-15T20:43:31Z",
     "url": "https://github.com/fluttersdk/wind"
   },
   {
@@ -453,7 +453,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39686,
+    "stars": 39687,
     "updated_at": "2026-09-14T01:07:51Z",
     "url": "https://github.com/wshobson/agents"
   },
