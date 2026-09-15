@@ -1,21 +1,21 @@
 [
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-15T08:15:43Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "\u82f1\u6587\u6587\u7ae0\u80cc\u8bf5\u6280\u5de7",
     "id": "yxdwind/english-memory-method",
     "language": "HTML",
     "name": "yxdwind/english-memory-method",
     "stars": 0,
-    "updated_at": "2026-09-15T08:11:47Z",
+    "updated_at": "2026-09-15T08:40:58Z",
     "url": "https://github.com/yxdwind/english-memory-method"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-15T08:30:40Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -248,7 +248,7 @@
     "id": "KbWen/agentic-os",
     "language": "Python",
     "name": "KbWen/agentic-os",
-    "stars": 172,
+    "stars": 173,
     "updated_at": "2026-09-14T14:35:06Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
@@ -262,7 +262,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 138823,
+    "stars": 138840,
     "updated_at": "2026-09-14T14:34:56Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -271,7 +271,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 20675,
+    "stars": 20677,
     "updated_at": "2026-09-14T13:25:35Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -394,7 +394,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39667,
+    "stars": 39669,
     "updated_at": "2026-09-14T01:07:51Z",
     "url": "https://github.com/wshobson/agents"
   },
