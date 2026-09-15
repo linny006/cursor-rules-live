@@ -1,12 +1,30 @@
 [
   {
-    "description": "agent-kit \u2014 reusable AI agent skills for coding, debugging, testing, code review, and PRs",
-    "id": "netanelavr/agent-kit",
-    "language": "\u2014",
-    "name": "netanelavr/agent-kit",
-    "stars": 5,
-    "updated_at": "2026-09-15T09:40:48Z",
-    "url": "https://github.com/netanelavr/agent-kit"
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-09-15T09:54:11Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
+  },
+  {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 0,
+    "updated_at": "2026-09-15T09:52:40Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+  },
+  {
+    "description": "\ud83c\udfad 277 \u4e2a\u5373\u63d2\u5373\u7528\u7684 AI \u4e13\u5bb6\u89d2\u8272 \u2014 \u652f\u6301 Claude Code/Cursor/Copilot \u7b49 20 \u79cd\u5de5\u5177\uff0c\u8986\u76d6\u5de5\u7a0b/\u8bbe\u8ba1/\u8425\u9500/\u91d1\u878d\u7b49 20 \u4e2a\u90e8\u95e8\u3002\u542b 64 \u4e2a\u4e2d\u56fd\u5e02\u573a\u539f\u521b\u667a\u80fd\u4f53\uff08\u5c0f\u7ea2\u4e66/\u6296\u97f3/\u5fae\u4fe1/\u98de\u4e66/\u9489\u9489/Qt \u4e0a",
+    "id": "jnMetaCode/agency-agents-zh",
+    "language": "Shell",
+    "name": "jnMetaCode/agency-agents-zh",
+    "stars": 20680,
+    "updated_at": "2026-09-15T09:48:41Z",
+    "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +32,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-15T09:30:35Z",
+    "updated_at": "2026-09-15T09:45:39Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "agent-kit \u2014 reusable AI agent skills for coding, debugging, testing, code review, and PRs",
+    "id": "netanelavr/agent-kit",
+    "language": "\u2014",
+    "name": "netanelavr/agent-kit",
+    "stars": 5,
+    "updated_at": "2026-09-15T09:40:48Z",
+    "url": "https://github.com/netanelavr/agent-kit"
   },
   {
     "description": "Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony.",
@@ -149,24 +176,6 @@
     "url": "https://github.com/kleosr/bridle"
   },
   {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
-    "stars": 0,
-    "updated_at": "2026-09-15T04:24:31Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 0,
-    "updated_at": "2026-09-15T04:16:39Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
     "description": "A collection of Claude Code skills, with QA skills that end in a mandatory independent-subagent review pass.",
     "id": "xtieume/testcase",
     "language": "Python",
@@ -199,7 +208,7 @@
     "language": "\u2014",
     "name": "J-nowcow/awesome-korean-agent-skills",
     "stars": 44,
-    "updated_at": "2026-09-14T22:40:45Z",
+    "updated_at": "2026-09-15T10:00:16Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
@@ -303,18 +312,9 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 138892,
+    "stars": 138900,
     "updated_at": "2026-09-14T14:34:56Z",
     "url": "https://github.com/DietrichGebert/ponytail"
-  },
-  {
-    "description": "\ud83c\udfad 277 \u4e2a\u5373\u63d2\u5373\u7528\u7684 AI \u4e13\u5bb6\u89d2\u8272 \u2014 \u652f\u6301 Claude Code/Cursor/Copilot \u7b49 20 \u79cd\u5de5\u5177\uff0c\u8986\u76d6\u5de5\u7a0b/\u8bbe\u8ba1/\u8425\u9500/\u91d1\u878d\u7b49 20 \u4e2a\u90e8\u95e8\u3002\u542b 64 \u4e2a\u4e2d\u56fd\u5e02\u573a\u539f\u521b\u667a\u80fd\u4f53\uff08\u5c0f\u7ea2\u4e66/\u6296\u97f3/\u5fae\u4fe1/\u98de\u4e66/\u9489\u9489/Qt \u4e0a",
-    "id": "jnMetaCode/agency-agents-zh",
-    "language": "Shell",
-    "name": "jnMetaCode/agency-agents-zh",
-    "stars": 20679,
-    "updated_at": "2026-09-14T13:25:35Z",
-    "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
   {
     "description": "Production-ready system prompts and .cursorrules for Claude 3.5 Sonnet, GPT-4o, and Cursor. Clean architecture, refactor",
@@ -435,7 +435,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39672,
+    "stars": 39675,
     "updated_at": "2026-09-14T01:07:51Z",
     "url": "https://github.com/wshobson/agents"
   },
