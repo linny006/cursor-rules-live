@@ -1,12 +1,12 @@
 [
   {
-    "description": "Universal Skiils Manager for Pre-Harmonized AI Agent Skills (Claude Code, Cursor, OpenCode, Windsurf)",
-    "id": "Ali-Ch-001/awesome-agent-packs",
-    "language": "TypeScript",
-    "name": "Ali-Ch-001/awesome-agent-packs",
-    "stars": 1,
-    "updated_at": "2026-09-15T16:36:29Z",
-    "url": "https://github.com/Ali-Ch-001/awesome-agent-packs"
+    "description": "Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 21,
+    "updated_at": "2026-09-15T16:45:57Z",
+    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,17 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-15T16:30:33Z",
+    "updated_at": "2026-09-15T16:45:36Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
-    "description": "Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 21,
-    "updated_at": "2026-09-15T16:43:02Z",
-    "url": "https://github.com/MnemeHQ/mneme"
+    "description": "Universal Skiils Manager for Pre-Harmonized AI Agent Skills (Claude Code, Cursor, OpenCode, Windsurf)",
+    "id": "Ali-Ch-001/awesome-agent-packs",
+    "language": "TypeScript",
+    "name": "Ali-Ch-001/awesome-agent-packs",
+    "stars": 1,
+    "updated_at": "2026-09-15T16:36:29Z",
+    "url": "https://github.com/Ali-Ch-001/awesome-agent-packs"
   },
   {
     "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
@@ -321,7 +321,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 139171,
+    "stars": 139178,
     "updated_at": "2026-09-14T14:34:56Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
