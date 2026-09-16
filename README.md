@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-16 00:45 UTC
+> ⏰ Last updated: 2026-09-16 01:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -90,7 +90,7 @@ expired items removed — so you can rely on what you see being current.
 | 35 | [GktuOktay/autonomous-agency](https://github.com/GktuOktay/autonomous-agency) | 5 | Python | 2026-09-14 | — | An enterprise-grade, multi-agent AI ecosystem (Autonomous Agency) designed to replace standard conversational coding wit |
 | 36 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 17 | Shell | 2026-09-14 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
 | 37 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 173 | Python | 2026-09-14 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
-| 38 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 139379 | JavaScript | 2026-09-14 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 38 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 139389 | JavaScript | 2026-09-14 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 39 | [AymaneWebDEV/developer-prompt-vault](https://github.com/AymaneWebDEV/developer-prompt-vault) | 1 | — | 2026-09-14 | — | Production-ready system prompts and .cursorrules for Claude 3.5 Sonnet, GPT-4o, and Cursor. Clean architecture, refactor |
 | 40 | [glowElephant/context-forge](https://github.com/glowElephant/context-forge) | 2 | Python | 2026-09-14 | — | Auto harness engineering meta-repo: discuss → curate → bootstrap a context-engineered project for Claude Code, Cursor, C |
 | 41 | [gcxixi/agent-playwright-guide](https://github.com/gcxixi/agent-playwright-guide) | 0 | TypeScript | 2026-09-14 | — | Agent 驱动的 Playwright E2E 自动化测试最佳实践与方法论 (Don't let LLMs be clickers; make them test script authors) |
