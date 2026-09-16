@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-16 20:45 UTC
+> ⏰ Last updated: 2026-09-16 21:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,10 +53,10 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [fluttersdk/wind](https://github.com/fluttersdk/wind) | 33 | Dart | 2026-09-16 | — | Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W- |
-| 2 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-09-16 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
-| 3 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 17 | Shell | 2026-09-16 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
-| 4 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-16 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-16 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [fluttersdk/wind](https://github.com/fluttersdk/wind) | 33 | Dart | 2026-09-16 | — | Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W- |
+| 3 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-09-16 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
+| 4 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 17 | Shell | 2026-09-16 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
 | 5 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-09-16 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
 | 6 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 21 | Python | 2026-09-16 | — | Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align |
 | 7 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-09-16 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
@@ -95,14 +95,14 @@ expired items removed — so you can rely on what you see being current.
 | 40 | [powersync-ja/agent-skills](https://github.com/powersync-ja/agent-skills) | 18 | JavaScript | 2026-09-14 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/powersync-ja/agent-skills/) | Official agent skills for PowerSync |
 | 41 | [GktuOktay/autonomous-agency](https://github.com/GktuOktay/autonomous-agency) | 5 | Python | 2026-09-14 | — | An enterprise-grade, multi-agent AI ecosystem (Autonomous Agency) designed to replace standard conversational coding wit |
 | 42 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 177 | Python | 2026-09-14 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
-| 43 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 140256 | JavaScript | 2026-09-14 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 43 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 140263 | JavaScript | 2026-09-14 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 44 | [AymaneWebDEV/developer-prompt-vault](https://github.com/AymaneWebDEV/developer-prompt-vault) | 1 | — | 2026-09-14 | — | Production-ready system prompts and .cursorrules for Claude 3.5 Sonnet, GPT-4o, and Cursor. Clean architecture, refactor |
 | 45 | [glowElephant/context-forge](https://github.com/glowElephant/context-forge) | 2 | Python | 2026-09-14 | — | Auto harness engineering meta-repo: discuss → curate → bootstrap a context-engineered project for Claude Code, Cursor, C |
 | 46 | [gcxixi/agent-playwright-guide](https://github.com/gcxixi/agent-playwright-guide) | 0 | TypeScript | 2026-09-14 | — | Agent 驱动的 Playwright E2E 自动化测试最佳实践与方法论 (Don't let LLMs be clickers; make them test script authors) |
 | 47 | [GeiserX/lynxprompt-vscode](https://github.com/GeiserX/lynxprompt-vscode) | 2 | TypeScript | 2026-09-14 | — | VS Code extension for LynxPrompt — browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules)  |
 | 48 | [Yurakonoplya/unmark-checker](https://github.com/Yurakonoplya/unmark-checker) | 0 | Python | 2026-09-14 | — | Test Claude and Gemini watermark removers on the kind of mark they claim to remove: plant a SynthID-Text watermark with  |
 | 49 | [MohamedAbdallah-14/unslop](https://github.com/MohamedAbdallah-14/unslop) | 140 | Python | 2026-09-14 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/MohamedAbdallah-14/unslop/) | Make AI output sound human. Strips AI-isms (sycophancy, stock vocab, hedging stacks, em-dash pileups), preserves code/UR |
-| 50 | [wshobson/agents](https://github.com/wshobson/agents) | 39728 | Python | 2026-09-14 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
+| 50 | [wshobson/agents](https://github.com/wshobson/agents) | 39729 | Python | 2026-09-14 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
 <!-- TRACKER_TABLE_END -->
 
 ---
