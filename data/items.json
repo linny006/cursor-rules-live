@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-16T04:15:53Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "My life's work: a deterministic engineering harness for Cursor.",
     "id": "kleosr/bridle",
     "language": "Shell",
@@ -7,15 +16,6 @@
     "stars": 1,
     "updated_at": "2026-09-16T04:12:36Z",
     "url": "https://github.com/kleosr/bridle"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-16T04:00:33Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Your AI assistant reads CLAUDE.md and ignores it anyway. \u0100rai makes instruction files enforced \u2014 hooks that block, a tam",
@@ -217,7 +217,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 20703,
+    "stars": 20704,
     "updated_at": "2026-09-15T09:48:41Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -371,7 +371,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 139521,
+    "stars": 139536,
     "updated_at": "2026-09-14T14:34:56Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -476,7 +476,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39698,
+    "stars": 39699,
     "updated_at": "2026-09-14T01:07:51Z",
     "url": "https://github.com/wshobson/agents"
   },
