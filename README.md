@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-16 04:00 UTC
+> ⏰ Last updated: 2026-09-16 04:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,23 +53,23 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-16 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 2 | [taniwhaai/arai](https://github.com/taniwhaai/arai) | 7 | Rust | 2026-09-16 | — | Your AI assistant reads CLAUDE.md and ignores it anyway. Ārai makes instruction files enforced — hooks that block, a tam |
-| 3 | [saqie803/ponytail](https://github.com/saqie803/ponytail) | 0 | JavaScript | 2026-09-16 | — | Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony. |
-| 4 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-09-16 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
-| 5 | [Bastioned-successor320/learn-nanobot](https://github.com/Bastioned-successor320/learn-nanobot) | 10 | Python | 2026-09-16 | — | Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers |
-| 6 | [johnwall123459885/skene-cookbook](https://github.com/johnwall123459885/skene-cookbook) | 0 | Python | 2026-09-16 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/johnwall123459885/skene-cookbook/) | 🤖 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development. |
-| 7 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 2 | HTML | 2026-09-16 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
-| 8 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-09-16 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
-| 9 | [fluttersdk/wind](https://github.com/fluttersdk/wind) | 33 | Dart | 2026-09-16 | — | Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W- |
-| 10 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-09-16 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 11 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-09-16 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
-| 12 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 44 | — | 2026-09-15 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
-| 13 | [heymegabyte/claude-skills](https://github.com/heymegabyte/claude-skills) | 21 | TypeScript | 2026-09-15 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/claude-skills/) | 14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts → deployed products. |
-| 14 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 21 | Python | 2026-09-15 | — | Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align |
-| 15 | [tomevault-io/lint-action](https://github.com/tomevault-io/lint-action) | 0 | — | 2026-09-15 | — | Gate your AI instruction files in CI. Fails the build when a CLAUDE.md, AGENTS.md or SKILL.md will not load or is unsafe |
-| 16 | [nota-america/forgecat-agent-profiles](https://github.com/nota-america/forgecat-agent-profiles) | 67 | TypeScript | 2026-09-15 | — | Production-ready AI agent profiles for Claude Code, Cursor, Codex, OpenClaw, and Hermes. Search, install, and contribute |
-| 17 | [kleosr/bridle](https://github.com/kleosr/bridle) | 1 | Shell | 2026-09-15 | — | My life's work: a deterministic engineering harness for Cursor. |
+| 1 | [kleosr/bridle](https://github.com/kleosr/bridle) | 1 | Shell | 2026-09-16 | — | My life's work: a deterministic engineering harness for Cursor. |
+| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-16 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 3 | [taniwhaai/arai](https://github.com/taniwhaai/arai) | 7 | Rust | 2026-09-16 | — | Your AI assistant reads CLAUDE.md and ignores it anyway. Ārai makes instruction files enforced — hooks that block, a tam |
+| 4 | [saqie803/ponytail](https://github.com/saqie803/ponytail) | 0 | JavaScript | 2026-09-16 | — | Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony. |
+| 5 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-09-16 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
+| 6 | [Bastioned-successor320/learn-nanobot](https://github.com/Bastioned-successor320/learn-nanobot) | 10 | Python | 2026-09-16 | — | Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers |
+| 7 | [johnwall123459885/skene-cookbook](https://github.com/johnwall123459885/skene-cookbook) | 0 | Python | 2026-09-16 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/johnwall123459885/skene-cookbook/) | 🤖 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development. |
+| 8 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 2 | HTML | 2026-09-16 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
+| 9 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-09-16 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
+| 10 | [fluttersdk/wind](https://github.com/fluttersdk/wind) | 33 | Dart | 2026-09-16 | — | Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W- |
+| 11 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-09-16 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
+| 12 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 0 | HTML | 2026-09-16 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
+| 13 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 44 | — | 2026-09-15 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
+| 14 | [heymegabyte/claude-skills](https://github.com/heymegabyte/claude-skills) | 21 | TypeScript | 2026-09-15 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/claude-skills/) | 14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts → deployed products. |
+| 15 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 21 | Python | 2026-09-15 | — | Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align |
+| 16 | [tomevault-io/lint-action](https://github.com/tomevault-io/lint-action) | 0 | — | 2026-09-15 | — | Gate your AI instruction files in CI. Fails the build when a CLAUDE.md, AGENTS.md or SKILL.md will not load or is unsafe |
+| 17 | [nota-america/forgecat-agent-profiles](https://github.com/nota-america/forgecat-agent-profiles) | 67 | TypeScript | 2026-09-15 | — | Production-ready AI agent profiles for Claude Code, Cursor, Codex, OpenClaw, and Hermes. Search, install, and contribute |
 | 18 | [MortuisVMain/ai-agent-superpowers](https://github.com/MortuisVMain/ai-agent-superpowers) | 0 | Python | 2026-09-15 | — | 🧠 132+ Engineering Superpowers & Cognitive Architecture for Autonomous AI Agents. Zero Slop, 100% Craft. |
 | 19 | [Ali-Ch-001/awesome-agent-packs](https://github.com/Ali-Ch-001/awesome-agent-packs) | 1 | TypeScript | 2026-09-15 | — | Universal Skiils Manager for Pre-Harmonized AI Agent Skills (Claude Code, Cursor, OpenCode, Windsurf) |
 | 20 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 17 | TypeScript | 2026-09-15 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
@@ -91,7 +91,7 @@ expired items removed — so you can rely on what you see being current.
 | 36 | [GktuOktay/autonomous-agency](https://github.com/GktuOktay/autonomous-agency) | 5 | Python | 2026-09-14 | — | An enterprise-grade, multi-agent AI ecosystem (Autonomous Agency) designed to replace standard conversational coding wit |
 | 37 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 17 | Shell | 2026-09-14 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
 | 38 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 174 | Python | 2026-09-14 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
-| 39 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 139513 | JavaScript | 2026-09-14 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 39 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 139521 | JavaScript | 2026-09-14 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 40 | [AymaneWebDEV/developer-prompt-vault](https://github.com/AymaneWebDEV/developer-prompt-vault) | 1 | — | 2026-09-14 | — | Production-ready system prompts and .cursorrules for Claude 3.5 Sonnet, GPT-4o, and Cursor. Clean architecture, refactor |
 | 41 | [glowElephant/context-forge](https://github.com/glowElephant/context-forge) | 2 | Python | 2026-09-14 | — | Auto harness engineering meta-repo: discuss → curate → bootstrap a context-engineered project for Claude Code, Cursor, C |
 | 42 | [gcxixi/agent-playwright-guide](https://github.com/gcxixi/agent-playwright-guide) | 0 | TypeScript | 2026-09-14 | — | Agent 驱动的 Playwright E2E 自动化测试最佳实践与方法论 (Don't let LLMs be clickers; make them test script authors) |
