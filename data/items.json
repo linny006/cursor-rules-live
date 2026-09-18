@@ -1,11 +1,20 @@
 [
   {
+    "description": "Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W-",
+    "id": "fluttersdk/wind",
+    "language": "Dart",
+    "name": "fluttersdk/wind",
+    "stars": 33,
+    "updated_at": "2026-09-18T20:47:57Z",
+    "url": "https://github.com/fluttersdk/wind"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-18T20:30:46Z",
+    "updated_at": "2026-09-18T20:45:43Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -389,15 +398,6 @@
     "stars": 21,
     "updated_at": "2026-09-16T21:02:46Z",
     "url": "https://github.com/MnemeHQ/mneme"
-  },
-  {
-    "description": "Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W-",
-    "id": "fluttersdk/wind",
-    "language": "Dart",
-    "name": "fluttersdk/wind",
-    "stars": 33,
-    "updated_at": "2026-09-18T20:41:22Z",
-    "url": "https://github.com/fluttersdk/wind"
   },
   {
     "cursorrules": {
