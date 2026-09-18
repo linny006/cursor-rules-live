@@ -1,12 +1,12 @@
 [
   {
-    "description": "3D printing toolkit \u2014 AI-powered design skills for Claude Code, Cursor, Windsurf & Copilot, plus parametric OpenSCAD mod",
-    "id": "wilsonwaters/3d-printing",
-    "language": "OpenSCAD",
-    "name": "wilsonwaters/3d-printing",
-    "stars": 0,
-    "updated_at": "2026-09-18T05:28:14Z",
-    "url": "https://github.com/wilsonwaters/3d-printing"
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 1,
+    "updated_at": "2026-09-18T05:41:39Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-18T05:16:19Z",
+    "updated_at": "2026-09-18T05:30:41Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "3D printing toolkit \u2014 AI-powered design skills for Claude Code, Cursor, Windsurf & Copilot, plus parametric OpenSCAD mod",
+    "id": "wilsonwaters/3d-printing",
+    "language": "OpenSCAD",
+    "name": "wilsonwaters/3d-printing",
+    "stars": 0,
+    "updated_at": "2026-09-18T05:28:14Z",
+    "url": "https://github.com/wilsonwaters/3d-printing"
   },
   {
     "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
@@ -93,15 +102,6 @@
     "stars": 3,
     "updated_at": "2026-09-18T00:27:31Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 1,
-    "updated_at": "2026-09-18T00:08:14Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "description": "Molavi Agent Skills: Curated AI agent skills and MCP configs for Antigravity, Cursor, Codex & Claude \u2014 by Taghi Molavi",
@@ -500,7 +500,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 141490,
+    "stars": 141497,
     "updated_at": "2026-09-14T14:34:56Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   }
