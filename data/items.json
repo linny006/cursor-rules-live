@@ -1,11 +1,20 @@
 [
   {
+    "description": "3D printing toolkit \u2014 AI-powered design skills for Claude Code, Cursor, Windsurf & Copilot, plus parametric OpenSCAD mod",
+    "id": "wilsonwaters/3d-printing",
+    "language": "OpenSCAD",
+    "name": "wilsonwaters/3d-printing",
+    "stars": 0,
+    "updated_at": "2026-09-18T05:28:14Z",
+    "url": "https://github.com/wilsonwaters/3d-printing"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-18T05:14:04Z",
+    "updated_at": "2026-09-18T05:16:19Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -167,7 +176,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 20773,
+    "stars": 20775,
     "updated_at": "2026-09-17T13:32:57Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -491,17 +500,8 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 141486,
+    "stars": 141490,
     "updated_at": "2026-09-14T14:34:56Z",
     "url": "https://github.com/DietrichGebert/ponytail"
-  },
-  {
-    "description": "Production-ready system prompts and .cursorrules for Claude 3.5 Sonnet, GPT-4o, and Cursor. Clean architecture, refactor",
-    "id": "AymaneWebDEV/developer-prompt-vault",
-    "language": "\u2014",
-    "name": "AymaneWebDEV/developer-prompt-vault",
-    "stars": 1,
-    "updated_at": "2026-09-14T11:57:28Z",
-    "url": "https://github.com/AymaneWebDEV/developer-prompt-vault"
   }
 ]
