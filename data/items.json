@@ -5,7 +5,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-19T04:00:54Z",
+    "updated_at": "2026-09-19T04:15:51Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -150,7 +150,7 @@
     "language": "Python",
     "name": "xtieume/testcase",
     "stars": 3,
-    "updated_at": "2026-09-19T04:10:34Z",
+    "updated_at": "2026-09-19T04:23:32Z",
     "url": "https://github.com/xtieume/testcase"
   },
   {
@@ -275,6 +275,20 @@
     "stars": 77,
     "updated_at": "2026-09-18T03:16:21Z",
     "url": "https://github.com/nota-america/forgecat-agent-profiles"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Astro + Strapi Blocks \u2014 StrapiBlocks, data, theme (extend/overwrite), custom blocks\nglobs: \"**/*.{astro,ts,tsx}\"\nalwaysApply: false\n---\n\n# Upstream rule (no local copy)\n\nThe full **Cursor project rule** for Strapi Blocks is maintained in the **astro-strapi-blocks** repository. Open or fetch:\n\n- **GitHub:** <https://github.com/VirtusLab-Open-Source/astro-strapi-blocks/blob/main/.cursor/rules/astro-strapi-blocks.mdc>\n- **Raw:** <https://raw.githubusercontent.com/VirtusLab-Open-Source/astro-strapi-blocks/main/.cursor/rules/astro-strapi-blocks.mdc>\n\nThis file exists only to **preserve** the same `globs` / scope in this starter. For project-specific notes, see [`.ai/AGENTS.md`](../../.ai/AGENTS.md) and the stub at [`.ai/astro-strapi-blocks/SKILL.md`](../../.ai/astro-strapi-blocks/SKILL.md).\n",
+      "format": "mdc",
+      "path": ".cursor/rules/astro-strapi-blocks.mdc"
+    },
+    "description": "The Astro x Strapi Starter template",
+    "id": "VirtusLab-Open-Source/astro-strapi-starter",
+    "language": "Astro",
+    "name": "VirtusLab-Open-Source/astro-strapi-starter",
+    "stars": 21,
+    "updated_at": "2026-09-18T02:17:39Z",
+    "url": "https://github.com/VirtusLab-Open-Source/astro-strapi-starter"
   },
   {
     "description": "Molavi Agent Skills: Curated AI agent skills and MCP configs for Antigravity, Cursor, Codex & Claude \u2014 by Taghi Molavi",
@@ -494,14 +508,5 @@
     "stars": 0,
     "updated_at": "2026-09-15T07:22:50Z",
     "url": "https://github.com/romanveselovski/agents-frontend-rules"
-  },
-  {
-    "description": "\u0413\u043e\u0442\u043e\u0432\u044b\u0439 AGENTS.md + \u043f\u0440\u0430\u0432\u0438\u043b\u0430 Cursor \u0434\u043b\u044f \u043b\u044e\u0431\u043e\u0433\u043e \u0444\u0440\u043e\u043d\u0442\u0435\u043d\u0434\u0430. \u0410\u0433\u0435\u043d\u0442 \u043f\u0435\u0440\u0435\u0441\u0442\u0430\u0451\u0442 \u0448\u0442\u0430\u043c\u043f\u043e\u0432\u0430\u0442\u044c \u043e\u0434\u043d\u043e\u0442\u0438\u043f\u043d\u044b\u0435 \u0441\u0430\u0439\u0442\u044b: \u0436\u0438\u0432\u043e\u0439 UI, WCAG 2.2",
-    "id": "romanveselovski/ru-agents-frontend-rules",
-    "language": "\u2014",
-    "name": "romanveselovski/ru-agents-frontend-rules",
-    "stars": 0,
-    "updated_at": "2026-09-15T07:21:26Z",
-    "url": "https://github.com/romanveselovski/ru-agents-frontend-rules"
   }
 ]
