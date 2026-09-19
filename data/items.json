@@ -1,12 +1,12 @@
 [
   {
-    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
-    "id": "Hyanthropological659/clarify-skill",
-    "language": "\u2014",
-    "name": "Hyanthropological659/clarify-skill",
-    "stars": 1,
-    "updated_at": "2026-09-19T11:33:16Z",
-    "url": "https://github.com/Hyanthropological659/clarify-skill"
+    "description": "",
+    "id": "baneeishaque/ai-agent-rules",
+    "language": "TypeScript",
+    "name": "baneeishaque/ai-agent-rules",
+    "stars": 9,
+    "updated_at": "2026-09-19T11:54:22Z",
+    "url": "https://github.com/baneeishaque/ai-agent-rules"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-19T11:30:32Z",
+    "updated_at": "2026-09-19T11:45:36Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
+    "id": "Hyanthropological659/clarify-skill",
+    "language": "\u2014",
+    "name": "Hyanthropological659/clarify-skill",
+    "stars": 1,
+    "updated_at": "2026-09-19T11:33:16Z",
+    "url": "https://github.com/Hyanthropological659/clarify-skill"
   },
   {
     "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
@@ -66,15 +75,6 @@
     "stars": 1,
     "updated_at": "2026-09-19T10:37:20Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "",
-    "id": "baneeishaque/ai-agent-rules",
-    "language": "TypeScript",
-    "name": "baneeishaque/ai-agent-rules",
-    "stars": 9,
-    "updated_at": "2026-09-19T11:04:37Z",
-    "url": "https://github.com/baneeishaque/ai-agent-rules"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
