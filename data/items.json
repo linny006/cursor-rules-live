@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-19T06:15:34Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "# Cursor AI Master Configuration\n\nYou are a Senior Principal Software Architect. Follow these core rules across all code interactions:\n\n1. Write production-ready, typed, secure code with zero placeholders or `// TODO` shortcuts.\n2. Follow strict atomic commits and granular file changes.\n3. Validate all inputs, sanitize all database queries, and follow OWASP Top 10 security guidelines.\n4. Adhere to the scoped rules in `.cursor/rules/*.mdc` matching active files.\n",
       "format": "text",
@@ -12,15 +21,6 @@
     "stars": 0,
     "updated_at": "2026-09-19T06:14:21Z",
     "url": "https://github.com/digital-tricksters001/cursor-rules-pro-agent-vault-2026"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-19T06:00:49Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
