@@ -1,11 +1,20 @@
 [
   {
+    "description": "My life's work: a deterministic engineering harness for Cursor.",
+    "id": "kleosr/bridle",
+    "language": "Shell",
+    "name": "kleosr/bridle",
+    "stars": 1,
+    "updated_at": "2026-09-19T16:23:16Z",
+    "url": "https://github.com/kleosr/bridle"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-19T16:00:31Z",
+    "updated_at": "2026-09-19T16:16:08Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -219,7 +228,7 @@
     "language": "Shell",
     "name": "djedi-knight/prime-directive",
     "stars": 0,
-    "updated_at": "2026-09-19T15:33:41Z",
+    "updated_at": "2026-09-19T16:18:48Z",
     "url": "https://github.com/djedi-knight/prime-directive"
   },
   {
@@ -241,7 +250,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39803,
+    "stars": 39804,
     "updated_at": "2026-09-19T02:36:23Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -312,15 +321,6 @@
     "stars": 24,
     "updated_at": "2026-09-18T07:08:19Z",
     "url": "https://github.com/sampleXbro/agentsmesh"
-  },
-  {
-    "description": "My life's work: a deterministic engineering harness for Cursor.",
-    "id": "kleosr/bridle",
-    "language": "Shell",
-    "name": "kleosr/bridle",
-    "stars": 1,
-    "updated_at": "2026-09-18T07:06:02Z",
-    "url": "https://github.com/kleosr/bridle"
   },
   {
     "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
