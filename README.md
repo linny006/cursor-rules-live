@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-19 14:00 UTC
+> ⏰ Last updated: 2026-09-19 14:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,17 +53,17 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-19 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 2 | [Hyanthropological659/clarify-skill](https://github.com/Hyanthropological659/clarify-skill) | 1 | — | 2026-09-19 | — | Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a |
-| 3 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-09-19 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
-| 4 | [Overseastelegramaliterateperson865/awesome-claude-md](https://github.com/Overseastelegramaliterateperson865/awesome-claude-md) | 2 | — | 2026-09-19 | — | Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr |
-| 5 | [Luxvil/ai-coding-rules](https://github.com/Luxvil/ai-coding-rules) | 3 | Shell | 2026-09-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Luxvil/ai-coding-rules/) | 🤖 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje |
-| 6 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-09-19 | — | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
-| 7 | [vibestackdev/vibe-stack](https://github.com/vibestackdev/vibe-stack) | 8 | TypeScript | 2026-09-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/) | 29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b |
-| 8 | [baneeishaque/ai-agent-rules](https://github.com/baneeishaque/ai-agent-rules) | 9 | TypeScript | 2026-09-19 | — |  |
-| 9 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-09-19 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 10 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-09-19 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
-| 11 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-09-19 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
+| 1 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-09-19 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
+| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-19 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 3 | [Hyanthropological659/clarify-skill](https://github.com/Hyanthropological659/clarify-skill) | 1 | — | 2026-09-19 | — | Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a |
+| 4 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-09-19 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
+| 5 | [Overseastelegramaliterateperson865/awesome-claude-md](https://github.com/Overseastelegramaliterateperson865/awesome-claude-md) | 2 | — | 2026-09-19 | — | Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr |
+| 6 | [Luxvil/ai-coding-rules](https://github.com/Luxvil/ai-coding-rules) | 3 | Shell | 2026-09-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Luxvil/ai-coding-rules/) | 🤖 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje |
+| 7 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-09-19 | — | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
+| 8 | [vibestackdev/vibe-stack](https://github.com/vibestackdev/vibe-stack) | 8 | TypeScript | 2026-09-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/) | 29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b |
+| 9 | [baneeishaque/ai-agent-rules](https://github.com/baneeishaque/ai-agent-rules) | 9 | TypeScript | 2026-09-19 | — |  |
+| 10 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-09-19 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
+| 11 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-09-19 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
 | 12 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 46 | — | 2026-09-19 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
 | 13 | [xtieume/testcase](https://github.com/xtieume/testcase) | 3 | Python | 2026-09-19 | — | A collection of Claude Code skills, with QA skills that end in a mandatory independent-subagent review pass. |
 | 14 | [saqie803/ponytail](https://github.com/saqie803/ponytail) | 1 | JavaScript | 2026-09-19 | — | Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony. |
@@ -92,7 +92,7 @@ expired items removed — so you can rely on what you see being current.
 | 37 | [tmolavi/mcp-agent-skills-hub](https://github.com/tmolavi/mcp-agent-skills-hub) | 8 | JavaScript | 2026-09-17 | — | Molavi Agent Skills: Curated AI agent skills and MCP configs for Antigravity, Cursor, Codex & Claude — by Taghi Molavi |
 | 38 | [taniwhaai/arai](https://github.com/taniwhaai/arai) | 7 | Rust | 2026-09-17 | — | Your AI assistant reads CLAUDE.md and ignores it anyway. Ārai makes instruction files enforced — hooks that block, a tam |
 | 39 | [arcjet/arcjet-plugin](https://github.com/arcjet/arcjet-plugin) | 1 | Shell | 2026-09-17 | — | This plugin makes your AI coding agent an Arcjet security expert. |
-| 40 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 206 | Shell | 2026-09-17 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | Agent skills synthesizing years of software engineering discipline into a prescriptive methodology for solo developers |
+| 40 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 207 | Shell | 2026-09-17 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | Agent skills synthesizing years of software engineering discipline into a prescriptive methodology for solo developers |
 | 41 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 17 | Shell | 2026-09-17 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
 | 42 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 20795 | Shell | 2026-09-17 | — | 🎭 277 个即插即用的 AI 专家角色 — 支持 Claude Code/Cursor/Copilot 等 20 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 64 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉/Qt 上 |
 | 43 | [kensaurus/cursor-kenji](https://github.com/kensaurus/cursor-kenji) | 9 | JavaScript | 2026-09-17 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/kensaurus/cursor-kenji/) | You say the job; the playbook runs. 143 agent skills + 55 commands for Cursor, Claude Code, Codex, Gemini. React / Next. |
