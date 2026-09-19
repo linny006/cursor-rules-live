@@ -1,5 +1,28 @@
 [
   {
+    "cursorrules": {
+      "content": "# Cursor AI Master Configuration\n\nYou are a Senior Principal Software Architect. Follow these core rules across all code interactions:\n\n1. Write production-ready, typed, secure code with zero placeholders or `// TODO` shortcuts.\n2. Follow strict atomic commits and granular file changes.\n3. Validate all inputs, sanitize all database queries, and follow OWASP Top 10 security guidelines.\n4. Adhere to the scoped rules in `.cursor/rules/*.mdc` matching active files.\n",
+      "format": "text",
+      "path": ".cursorrules"
+    },
+    "description": "52 production Cursor rules, Claude Code agent workflows, and system prompts for Next.js 15, React 19, Python, Go, Rust, ",
+    "id": "digital-tricksters001/cursor-rules-pro-agent-vault-2026",
+    "language": "Python",
+    "name": "digital-tricksters001/cursor-rules-pro-agent-vault-2026",
+    "stars": 0,
+    "updated_at": "2026-09-19T06:14:21Z",
+    "url": "https://github.com/digital-tricksters001/cursor-rules-pro-agent-vault-2026"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-19T06:00:49Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
     "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
     "language": "HTML",
@@ -16,15 +39,6 @@
     "stars": 1,
     "updated_at": "2026-09-19T05:46:45Z",
     "url": "https://github.com/saqie803/ponytail"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-19T05:45:33Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
@@ -433,7 +447,7 @@
     "language": "\u2014",
     "name": "tugkanboz/awesome-cursorrules",
     "stars": 21,
-    "updated_at": "2026-09-17T06:07:24Z",
+    "updated_at": "2026-09-19T06:06:30Z",
     "url": "https://github.com/tugkanboz/awesome-cursorrules"
   },
   {
@@ -504,14 +518,5 @@
     "stars": 21,
     "updated_at": "2026-09-15T21:02:25Z",
     "url": "https://github.com/heymegabyte/claude-skills"
-  },
-  {
-    "description": "\ud83e\udde0 132+ Engineering Superpowers & Cognitive Architecture for Autonomous AI Agents. Zero Slop, 100% Craft.",
-    "id": "MortuisVMain/ai-agent-superpowers",
-    "language": "Python",
-    "name": "MortuisVMain/ai-agent-superpowers",
-    "stars": 0,
-    "updated_at": "2026-09-15T18:44:13Z",
-    "url": "https://github.com/MortuisVMain/ai-agent-superpowers"
   }
 ]
