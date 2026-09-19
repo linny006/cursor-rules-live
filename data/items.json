@@ -5,7 +5,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-19T15:45:32Z",
+    "updated_at": "2026-09-19T16:00:31Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -305,6 +305,15 @@
     "url": "https://github.com/chkdskman/skill-sage-active-api"
   },
   {
+    "description": "One reliable canonical source for AI coding agent rules, commands, skills, MCP, hooks, and permissions \u2014 synced across A",
+    "id": "sampleXbro/agentsmesh",
+    "language": "TypeScript",
+    "name": "sampleXbro/agentsmesh",
+    "stars": 24,
+    "updated_at": "2026-09-18T07:08:19Z",
+    "url": "https://github.com/sampleXbro/agentsmesh"
+  },
+  {
     "description": "My life's work: a deterministic engineering harness for Cursor.",
     "id": "kleosr/bridle",
     "language": "Shell",
@@ -423,7 +432,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 20796,
+    "stars": 20798,
     "updated_at": "2026-09-17T13:32:57Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -504,14 +513,5 @@
     "stars": 1,
     "updated_at": "2026-09-16T19:15:58Z",
     "url": "https://github.com/afaraha8403/balakit"
-  },
-  {
-    "description": "Gate your AI instruction files in CI. Fails the build when a CLAUDE.md, AGENTS.md or SKILL.md will not load or is unsafe",
-    "id": "tomevault-io/lint-action",
-    "language": "\u2014",
-    "name": "tomevault-io/lint-action",
-    "stars": 0,
-    "updated_at": "2026-09-16T07:19:11Z",
-    "url": "https://github.com/tomevault-io/lint-action"
   }
 ]
