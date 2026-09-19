@@ -1,11 +1,20 @@
 [
   {
+    "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
+    "id": "agenticstandardcontact-byte/agentic-architect",
+    "language": "HTML",
+    "name": "agenticstandardcontact-byte/agentic-architect",
+    "stars": 0,
+    "updated_at": "2026-09-19T13:09:39Z",
+    "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-19T12:45:46Z",
+    "updated_at": "2026-09-19T13:00:34Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -114,7 +123,7 @@
     "language": "Python",
     "name": "xtieume/testcase",
     "stars": 3,
-    "updated_at": "2026-09-19T12:50:46Z",
+    "updated_at": "2026-09-19T13:09:09Z",
     "url": "https://github.com/xtieume/testcase"
   },
   {
@@ -223,7 +232,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39797,
+    "stars": 39798,
     "updated_at": "2026-09-19T02:36:23Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -285,15 +294,6 @@
     "stars": 18,
     "updated_at": "2026-09-18T15:23:55Z",
     "url": "https://github.com/philipbankier/awesome-agent-skills"
-  },
-  {
-    "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
-    "id": "agenticstandardcontact-byte/agentic-architect",
-    "language": "HTML",
-    "name": "agenticstandardcontact-byte/agentic-architect",
-    "stars": 0,
-    "updated_at": "2026-09-18T13:35:31Z",
-    "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
   },
   {
     "description": "Sage Active Public API V2 (GraphQL) Skill/Plugin for Claude Code, Codex and Cursor. FR/ES/DE legislation rules.",
@@ -423,7 +423,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 20792,
+    "stars": 20794,
     "updated_at": "2026-09-17T13:32:57Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
