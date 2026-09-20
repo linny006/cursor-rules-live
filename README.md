@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-20 03:00 UTC
+> ⏰ Last updated: 2026-09-20 03:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -80,7 +80,7 @@ expired items removed — so you can rely on what you see being current.
 | 25 | [xiyu519/MotionVault](https://github.com/xiyu519/MotionVault) | 45 | TypeScript | 2026-09-19 | — | 200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type |
 | 26 | [nota-america/forgecat-agent-profiles](https://github.com/nota-america/forgecat-agent-profiles) | 80 | TypeScript | 2026-09-19 | — | Production-ready AI agent profiles for Claude Code, Cursor, Codex, OpenClaw, and Hermes. Search, install, and contribute |
 | 27 | [Labreo/deslop-copyeditor](https://github.com/Labreo/deslop-copyeditor) | 0 | JavaScript | 2026-09-19 | — | Autonomous line-by-line copyeditor that sanitizes AI writing patterns for Google Antigravity, Claude Code, and Cursor |
-| 28 | [wshobson/agents](https://github.com/wshobson/agents) | 39819 | Python | 2026-09-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
+| 28 | [wshobson/agents](https://github.com/wshobson/agents) | 39820 | Python | 2026-09-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
 | 29 | [wilsonwaters/3d-printing](https://github.com/wilsonwaters/3d-printing) | 0 | OpenSCAD | 2026-09-19 | — | 3D printing toolkit — AI-powered design skills for Claude Code, Cursor, Windsurf & Copilot, plus parametric OpenSCAD mod |
 | 30 | [fluttersdk/wind](https://github.com/fluttersdk/wind) | 35 | Dart | 2026-09-18 | — | Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W- |
 | 31 | [djtelicloud/grok-mcp-server](https://github.com/djtelicloud/grok-mcp-server) | 23 | Python | 2026-09-18 | — | Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API  |
@@ -95,9 +95,9 @@ expired items removed — so you can rely on what you see being current.
 | 40 | [tmolavi/mcp-agent-skills-hub](https://github.com/tmolavi/mcp-agent-skills-hub) | 8 | JavaScript | 2026-09-17 | — | Molavi Agent Skills: Curated AI agent skills and MCP configs for Antigravity, Cursor, Codex & Claude — by Taghi Molavi |
 | 41 | [taniwhaai/arai](https://github.com/taniwhaai/arai) | 7 | Rust | 2026-09-17 | — | Your AI assistant reads CLAUDE.md and ignores it anyway. Ārai makes instruction files enforced — hooks that block, a tam |
 | 42 | [arcjet/arcjet-plugin](https://github.com/arcjet/arcjet-plugin) | 1 | Shell | 2026-09-17 | — | This plugin makes your AI coding agent an Arcjet security expert. |
-| 43 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 208 | Shell | 2026-09-17 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | Agent skills synthesizing years of software engineering discipline into a prescriptive methodology for solo developers |
+| 43 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 209 | Shell | 2026-09-17 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | Agent skills synthesizing years of software engineering discipline into a prescriptive methodology for solo developers |
 | 44 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 17 | Shell | 2026-09-17 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
-| 45 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 20807 | Shell | 2026-09-17 | — | 🎭 277 个即插即用的 AI 专家角色 — 支持 Claude Code/Cursor/Copilot 等 20 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 64 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉/Qt 上 |
+| 45 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 20808 | Shell | 2026-09-17 | — | 🎭 277 个即插即用的 AI 专家角色 — 支持 Claude Code/Cursor/Copilot 等 20 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 64 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉/Qt 上 |
 | 46 | [kensaurus/cursor-kenji](https://github.com/kensaurus/cursor-kenji) | 9 | JavaScript | 2026-09-17 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/kensaurus/cursor-kenji/) | You say the job; the playbook runs. 143 agent skills + 55 commands for Cursor, Claude Code, Codex, Gemini. React / Next. |
 | 47 | [sungurerdim/dev-skills](https://github.com/sungurerdim/dev-skills) | 1 | Shell | 2026-09-17 | — | 30 multi-phase AI coding skills with executable gates — pure markdown, zero dependencies. |
 | 48 | [tugkanboz/awesome-cursorrules](https://github.com/tugkanboz/awesome-cursorrules) | 21 | — | 2026-09-19 | — | A curated list of awesome .cursorrules files for enhancing your Cursor AI experience. |
