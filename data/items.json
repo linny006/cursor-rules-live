@@ -1,11 +1,20 @@
 [
   {
+    "description": "Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 21,
+    "updated_at": "2026-09-21T10:27:40Z",
+    "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-21T10:00:49Z",
+    "updated_at": "2026-09-21T10:15:55Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -484,14 +493,5 @@
     "stars": 35,
     "updated_at": "2026-09-21T03:08:24Z",
     "url": "https://github.com/fluttersdk/wind"
-  },
-  {
-    "description": "Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API ",
-    "id": "djtelicloud/grok-mcp-server",
-    "language": "Python",
-    "name": "djtelicloud/grok-mcp-server",
-    "stars": 23,
-    "updated_at": "2026-09-18T22:19:31Z",
-    "url": "https://github.com/djtelicloud/grok-mcp-server"
   }
 ]
