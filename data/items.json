@@ -1,11 +1,20 @@
 [
   {
+    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
+    "id": "zinxj/uikit-expert-skill",
+    "language": "\u2014",
+    "name": "zinxj/uikit-expert-skill",
+    "stars": 5,
+    "updated_at": "2026-09-21T07:15:06Z",
+    "url": "https://github.com/zinxj/uikit-expert-skill"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-21T06:45:32Z",
+    "updated_at": "2026-09-21T07:00:53Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -68,15 +77,6 @@
     "url": "https://github.com/Amirun99/agency-orchestrator"
   },
   {
-    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
-    "id": "zinxj/uikit-expert-skill",
-    "language": "\u2014",
-    "name": "zinxj/uikit-expert-skill",
-    "stars": 5,
-    "updated_at": "2026-09-21T05:22:47Z",
-    "url": "https://github.com/zinxj/uikit-expert-skill"
-  },
-  {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
     "id": "arnoldalberto007-sys/Swift-UIKit-Components",
     "language": "HTML",
@@ -118,7 +118,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39838,
+    "stars": 39841,
     "updated_at": "2026-09-21T01:09:57Z",
     "url": "https://github.com/wshobson/agents"
   },
