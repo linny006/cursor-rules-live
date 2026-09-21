@@ -1,11 +1,20 @@
 [
   {
+    "description": "Battle-tested agent skills and Cursor rules from real projects. Works with Cursor, Claude Code, and any agent.",
+    "id": "jcottam/agent-resources",
+    "language": "Shell",
+    "name": "jcottam/agent-resources",
+    "stars": 29,
+    "updated_at": "2026-09-21T11:02:05Z",
+    "url": "https://github.com/jcottam/agent-resources"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-21T10:45:34Z",
+    "updated_at": "2026-09-21T11:00:43Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -244,15 +253,6 @@
     "stars": 22,
     "updated_at": "2026-09-21T00:44:29Z",
     "url": "https://github.com/heymegabyte/claude-skills"
-  },
-  {
-    "description": "Battle-tested agent skills and Cursor rules from real projects. Works with Cursor, Claude Code, and any agent.",
-    "id": "jcottam/agent-resources",
-    "language": "Shell",
-    "name": "jcottam/agent-resources",
-    "stars": 29,
-    "updated_at": "2026-09-20T20:01:27Z",
-    "url": "https://github.com/jcottam/agent-resources"
   },
   {
     "description": "Universal AI Agent Super-Skills Ecosystem by Mr. Vishalkumar Joshi. 161 production-grade plain-text prompt protocols wit",
