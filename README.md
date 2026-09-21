@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-21 18:45 UTC
+> ⏰ Last updated: 2026-09-21 19:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -85,7 +85,7 @@ expired items removed — so you can rely on what you see being current.
 | 30 | [zinxj/uikit-expert-skill](https://github.com/zinxj/uikit-expert-skill) | 5 | — | 2026-09-21 | — | Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan |
 | 31 | [MohamedAbdallah-14/unslop](https://github.com/MohamedAbdallah-14/unslop) | 144 | Python | 2026-09-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/MohamedAbdallah-14/unslop/) | Make AI output sound human. Strips AI-isms (sycophancy, stock vocab, hedging stacks, em-dash pileups), preserves code/UR |
 | 32 | [12529572-Canada-Inc/prime-directive](https://github.com/12529572-Canada-Inc/prime-directive) | 0 | Shell | 2026-09-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/12529572-Canada-Inc/prime-directive/) | One always-on duty-of-care rule for every AI coding agent — rendered into AGENTS.md, CLAUDE.md, Cursor, Windsurf, Cline, |
-| 33 | [wshobson/agents](https://github.com/wshobson/agents) | 39851 | Python | 2026-09-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
+| 33 | [wshobson/agents](https://github.com/wshobson/agents) | 39852 | Python | 2026-09-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
 | 34 | [heymegabyte/claude-skills](https://github.com/heymegabyte/claude-skills) | 22 | TypeScript | 2026-09-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/claude-skills/) | 14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts → deployed products. |
 | 35 | [mrvishaljjoshi-cmyk/VJSS](https://github.com/mrvishaljjoshi-cmyk/VJSS) | 0 | Python | 2026-09-20 | — | Universal AI Agent Super-Skills Ecosystem by Mr. Vishalkumar Joshi. 161 production-grade plain-text prompt protocols wit |
 | 36 | [sscodeai/agency-agents-ja](https://github.com/sscodeai/agency-agents-ja) | 5 | Shell | 2026-09-20 | — | 323個の即戦力AI専門エージェント — Claude Code/Cursor/Copilot等に対応。SIer/受託開発/SaaS/製造DX/公共分野など日本市場向け114個のオリジナルを含む、agency-agents日本語コミュニティ |
