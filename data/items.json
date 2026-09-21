@@ -1,11 +1,20 @@
 [
   {
+    "description": "A collection of Claude Code skills, with QA skills that end in a mandatory independent-subagent review pass.",
+    "id": "xtieume/testcase",
+    "language": "Python",
+    "name": "xtieume/testcase",
+    "stars": 3,
+    "updated_at": "2026-09-21T04:20:39Z",
+    "url": "https://github.com/xtieume/testcase"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-21T04:00:48Z",
+    "updated_at": "2026-09-21T04:15:34Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -302,15 +311,6 @@
     "stars": 18,
     "updated_at": "2026-09-19T15:16:09Z",
     "url": "https://github.com/philipbankier/awesome-agent-skills"
-  },
-  {
-    "description": "A collection of Claude Code skills, with QA skills that end in a mandatory independent-subagent review pass.",
-    "id": "xtieume/testcase",
-    "language": "Python",
-    "name": "xtieume/testcase",
-    "stars": 3,
-    "updated_at": "2026-09-21T02:46:38Z",
-    "url": "https://github.com/xtieume/testcase"
   },
   {
     "description": "",
