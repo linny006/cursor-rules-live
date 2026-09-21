@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-21T12:45:54Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Production-ready system prompts and .cursorrules for Claude 3.5 Sonnet, GPT-4o, and Cursor. Clean architecture, refactor",
     "id": "AymaneWebDEV/developer-prompt-vault",
     "language": "\u2014",
@@ -7,15 +16,6 @@
     "stars": 1,
     "updated_at": "2026-09-21T12:41:18Z",
     "url": "https://github.com/AymaneWebDEV/developer-prompt-vault"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-21T12:30:44Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -232,7 +232,7 @@
     "language": "Shell",
     "name": "12529572-Canada-Inc/prime-directive",
     "stars": 0,
-    "updated_at": "2026-09-21T02:23:35Z",
+    "updated_at": "2026-09-21T12:56:19Z",
     "url": "https://github.com/12529572-Canada-Inc/prime-directive"
   },
   {
