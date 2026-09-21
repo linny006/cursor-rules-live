@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-21 12:00 UTC
+> ⏰ Last updated: 2026-09-21 12:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,10 +53,10 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [saqie803/ponytail](https://github.com/saqie803/ponytail) | 2 | JavaScript | 2026-09-21 | — | Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony. |
-| 2 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 47 | — | 2026-09-21 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
-| 3 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-09-21 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
-| 4 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-21 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-21 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [saqie803/ponytail](https://github.com/saqie803/ponytail) | 2 | JavaScript | 2026-09-21 | — | Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony. |
+| 3 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 47 | — | 2026-09-21 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
+| 4 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-09-21 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
 | 5 | [Bastioned-successor320/learn-nanobot](https://github.com/Bastioned-successor320/learn-nanobot) | 10 | Python | 2026-09-21 | — | Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers |
 | 6 | [johnwall123459885/skene-cookbook](https://github.com/johnwall123459885/skene-cookbook) | 0 | Python | 2026-09-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/johnwall123459885/skene-cookbook/) | 🤖 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development. |
 | 7 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-09-21 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
@@ -76,7 +76,7 @@ expired items removed — so you can rely on what you see being current.
 | 21 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-09-21 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
 | 22 | [xtieume/testcase](https://github.com/xtieume/testcase) | 3 | Python | 2026-09-21 | — | A collection of Claude Code skills, with QA skills that end in a mandatory independent-subagent review pass. |
 | 23 | [12529572-Canada-Inc/prime-directive](https://github.com/12529572-Canada-Inc/prime-directive) | 0 | Shell | 2026-09-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/12529572-Canada-Inc/prime-directive/) | One always-on duty-of-care rule for every AI coding agent — rendered into AGENTS.md, CLAUDE.md, Cursor, Windsurf, Cline, |
-| 24 | [wshobson/agents](https://github.com/wshobson/agents) | 39848 | Python | 2026-09-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
+| 24 | [wshobson/agents](https://github.com/wshobson/agents) | 39847 | Python | 2026-09-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
 | 25 | [heymegabyte/claude-skills](https://github.com/heymegabyte/claude-skills) | 22 | TypeScript | 2026-09-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/claude-skills/) | 14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts → deployed products. |
 | 26 | [mrvishaljjoshi-cmyk/VJSS](https://github.com/mrvishaljjoshi-cmyk/VJSS) | 0 | Python | 2026-09-20 | — | Universal AI Agent Super-Skills Ecosystem by Mr. Vishalkumar Joshi. 161 production-grade plain-text prompt protocols wit |
 | 27 | [sscodeai/agency-agents-ja](https://github.com/sscodeai/agency-agents-ja) | 5 | Shell | 2026-09-20 | — | 323個の即戦力AI専門エージェント — Claude Code/Cursor/Copilot等に対応。SIer/受託開発/SaaS/製造DX/公共分野など日本市場向け114個のオリジナルを含む、agency-agents日本語コミュニティ |
