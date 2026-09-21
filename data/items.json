@@ -1,11 +1,20 @@
 [
   {
+    "description": "A collection of Claude Code skills, with QA skills that end in a mandatory independent-subagent review pass.",
+    "id": "xtieume/testcase",
+    "language": "Python",
+    "name": "xtieume/testcase",
+    "stars": 3,
+    "updated_at": "2026-09-21T13:14:06Z",
+    "url": "https://github.com/xtieume/testcase"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-21T13:00:38Z",
+    "updated_at": "2026-09-21T13:10:55Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -211,15 +220,6 @@
     "stars": 0,
     "updated_at": "2026-09-21T06:02:13Z",
     "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "A collection of Claude Code skills, with QA skills that end in a mandatory independent-subagent review pass.",
-    "id": "xtieume/testcase",
-    "language": "Python",
-    "name": "xtieume/testcase",
-    "stars": 3,
-    "updated_at": "2026-09-21T10:10:02Z",
-    "url": "https://github.com/xtieume/testcase"
   },
   {
     "cursorrules": {
