@@ -1,11 +1,29 @@
 [
   {
+    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
+    "id": "Amirun99/agency-orchestrator",
+    "language": "Dart",
+    "name": "Amirun99/agency-orchestrator",
+    "stars": 0,
+    "updated_at": "2026-09-21T03:28:37Z",
+    "url": "https://github.com/Amirun99/agency-orchestrator"
+  },
+  {
+    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
+    "id": "zinxj/uikit-expert-skill",
+    "language": "\u2014",
+    "name": "zinxj/uikit-expert-skill",
+    "stars": 5,
+    "updated_at": "2026-09-21T03:23:10Z",
+    "url": "https://github.com/zinxj/uikit-expert-skill"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-21T03:00:42Z",
+    "updated_at": "2026-09-21T03:15:41Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -30,24 +48,6 @@
     "stars": 8,
     "updated_at": "2026-09-21T01:39:24Z",
     "url": "https://github.com/XAKLESK/cre-agent-skills"
-  },
-  {
-    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
-    "id": "Amirun99/agency-orchestrator",
-    "language": "Dart",
-    "name": "Amirun99/agency-orchestrator",
-    "stars": 0,
-    "updated_at": "2026-09-21T01:37:21Z",
-    "url": "https://github.com/Amirun99/agency-orchestrator"
-  },
-  {
-    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
-    "id": "zinxj/uikit-expert-skill",
-    "language": "\u2014",
-    "name": "zinxj/uikit-expert-skill",
-    "stars": 5,
-    "updated_at": "2026-09-21T01:32:02Z",
-    "url": "https://github.com/zinxj/uikit-expert-skill"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -390,7 +390,7 @@
     "id": "nota-america/forgecat-agent-profiles",
     "language": "TypeScript",
     "name": "nota-america/forgecat-agent-profiles",
-    "stars": 81,
+    "stars": 82,
     "updated_at": "2026-09-19T05:19:38Z",
     "url": "https://github.com/nota-america/forgecat-agent-profiles"
   },
