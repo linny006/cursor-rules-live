@@ -1,5 +1,23 @@
 [
   {
+    "description": "Portable skills and shared policies for Codex, Claude Code, and Cursor on Linux.",
+    "id": "Catherine1401/agent-skills",
+    "language": "Shell",
+    "name": "Catherine1401/agent-skills",
+    "stars": 2,
+    "updated_at": "2026-09-21T14:41:06Z",
+    "url": "https://github.com/Catherine1401/agent-skills"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-21T14:30:59Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony.",
     "id": "saqie803/ponytail",
     "language": "JavaScript",
@@ -34,15 +52,6 @@
     "stars": 1,
     "updated_at": "2026-09-21T14:16:03Z",
     "url": "https://github.com/EvilFreelancer/rpa-gen-rules"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-21T14:15:33Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
@@ -154,15 +163,6 @@
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
-    "description": "Portable skills and shared policies for Codex, Claude Code, and Cursor on Linux.",
-    "id": "Catherine1401/agent-skills",
-    "language": "Shell",
-    "name": "Catherine1401/agent-skills",
-    "stars": 2,
-    "updated_at": "2026-09-21T09:49:38Z",
-    "url": "https://github.com/Catherine1401/agent-skills"
-  },
-  {
     "description": "Auto harness engineering meta-repo: discuss \u2192 curate \u2192 bootstrap a context-engineered project for Claude Code, Cursor, C",
     "id": "glowElephant/context-forge",
     "language": "Python",
@@ -245,7 +245,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39849,
+    "stars": 39848,
     "updated_at": "2026-09-21T01:09:57Z",
     "url": "https://github.com/wshobson/agents"
   },
