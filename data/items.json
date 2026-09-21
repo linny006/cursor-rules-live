@@ -1,11 +1,34 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: Humanize assistant output. Drop AI-isms, engineer burstiness, preserve technical accuracy.\nalwaysApply: true\n---\n\nWrite like a careful human. All technical substance stays exact. Only AI-slop dies.\n\nRules:\n- Drop: sycophancy (\"great question\", \"I'd be happy to\"), stock vocab (delve/tapestry/testament/realm/landscape/seamless/holistic/leverage-as-filler/cutting-edge/state-of-the-art), hedging stacks (\"it's important to note that\"), tricolon padding, em-dash pileups (hard cap: two per paragraph), performative balance.\n- Engineer burstiness: mix short and long sentences deliberately. Avoid tidy five-paragraph essay shapes.\n- Keep: technical terms exact, errors quoted exact, code unchanged, real uncertainty (\"I think\", \"probably\") when honest.\n- Pattern: [concrete observation]. [why or implication]. [what to do next].\n- Not: \"Sure! There are several factors to consider...\"\n- Yes: \"Bug in auth middleware. Token expiry uses `<` not `<=`. Fix L42:\"\n\nPrinciples: Subtract, don't add (warmth = sycophancy). Style \u2260 stance (humanize voice, don't soften disagreement). Warmth raises error rate \u2014 re-verify facts after rewriting. Simulated voice, not personhood (never invent bio, memory, or emotion). Reason privately, humanize publicly (think structured, output human).\n\nSwitch level: /unslop subtle|balanced|full|voice-match|anti-detector\nStop: \"stop unslop\" or \"normal mode\"\n\nAuto-Clarity: drop unslop style for security warnings, irreversible actions, legal/medical/financial precision, user confused. Resume after.\n\nBoundaries: code/commits/PRs written normal. Never invent facts to sound human. Anti-detector mode is for defensive use (ESL false positives, resume writers) \u2014 not for academic misconduct.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/unslop.mdc"
+    },
+    "description": "Make AI output sound human. Strips AI-isms (sycophancy, stock vocab, hedging stacks, em-dash pileups), preserves code/UR",
+    "id": "MohamedAbdallah-14/unslop",
+    "language": "Python",
+    "name": "MohamedAbdallah-14/unslop",
+    "stars": 144,
+    "updated_at": "2026-09-21T06:11:23Z",
+    "url": "https://github.com/MohamedAbdallah-14/unslop"
+  },
+  {
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-09-21T06:02:13Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-21T05:45:59Z",
+    "updated_at": "2026-09-21T06:00:42Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -112,15 +135,6 @@
     "stars": 22,
     "updated_at": "2026-09-21T00:44:29Z",
     "url": "https://github.com/heymegabyte/claude-skills"
-  },
-  {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
-    "stars": 0,
-    "updated_at": "2026-09-21T00:00:54Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -489,14 +503,5 @@
     "stars": 22,
     "updated_at": "2026-09-18T02:17:39Z",
     "url": "https://github.com/VirtusLab-Open-Source/astro-strapi-starter"
-  },
-  {
-    "description": "Molavi Agent Skills: Curated AI agent skills and MCP configs for Antigravity, Cursor, Codex & Claude \u2014 by Taghi Molavi",
-    "id": "tmolavi/mcp-agent-skills-hub",
-    "language": "JavaScript",
-    "name": "tmolavi/mcp-agent-skills-hub",
-    "stars": 8,
-    "updated_at": "2026-09-17T23:42:28Z",
-    "url": "https://github.com/tmolavi/mcp-agent-skills-hub"
   }
 ]
