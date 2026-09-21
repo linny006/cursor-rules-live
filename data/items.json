@@ -1,11 +1,29 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-09-21T17:26:50Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 plus AIOS, an open-source markdown memory system for coding ",
+    "id": "sublimecoder/sublimecoding",
+    "language": "\u2014",
+    "name": "sublimecoder/sublimecoding",
+    "stars": 0,
+    "updated_at": "2026-09-21T17:23:44Z",
+    "url": "https://github.com/sublimecoder/sublimecoding"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-21T17:00:45Z",
+    "updated_at": "2026-09-21T17:15:51Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -205,15 +223,6 @@
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-09-21T11:27:58Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
     "description": "Battle-tested agent skills and Cursor rules from real projects. Works with Cursor, Claude Code, and any agent.",
     "id": "jcottam/agent-resources",
     "language": "Shell",
@@ -305,7 +314,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39849,
+    "stars": 39850,
     "updated_at": "2026-09-21T01:09:57Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -494,14 +503,5 @@
     "stars": 0,
     "updated_at": "2026-09-19T06:14:21Z",
     "url": "https://github.com/digital-tricksters001/cursor-rules-pro-agent-vault-2026"
-  },
-  {
-    "description": "200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type",
-    "id": "xiyu519/MotionVault",
-    "language": "TypeScript",
-    "name": "xiyu519/MotionVault",
-    "stars": 46,
-    "updated_at": "2026-09-19T05:28:01Z",
-    "url": "https://github.com/xiyu519/MotionVault"
   }
 ]
