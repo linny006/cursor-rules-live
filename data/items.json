@@ -1,5 +1,23 @@
 [
   {
+    "description": "Portable skills and shared policies for Codex, Claude Code, and Cursor on Linux.",
+    "id": "Catherine1401/agent-skills",
+    "language": "Shell",
+    "name": "Catherine1401/agent-skills",
+    "stars": 2,
+    "updated_at": "2026-09-21T07:33:27Z",
+    "url": "https://github.com/Catherine1401/agent-skills"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-21T07:30:49Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
     "id": "XAKLESK/cre-agent-skills",
     "language": "\u2014",
@@ -16,15 +34,6 @@
     "stars": 0,
     "updated_at": "2026-09-21T07:21:43Z",
     "url": "https://github.com/Amirun99/agency-orchestrator"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-21T07:15:41Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
@@ -118,7 +127,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39841,
+    "stars": 39843,
     "updated_at": "2026-09-21T01:09:57Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -153,15 +162,6 @@
     "stars": 29,
     "updated_at": "2026-09-20T20:01:27Z",
     "url": "https://github.com/jcottam/agent-resources"
-  },
-  {
-    "description": "Portable skills and shared policies for Codex, Claude Code, and Cursor on Linux.",
-    "id": "Catherine1401/agent-skills",
-    "language": "Shell",
-    "name": "Catherine1401/agent-skills",
-    "stars": 2,
-    "updated_at": "2026-09-21T07:28:24Z",
-    "url": "https://github.com/Catherine1401/agent-skills"
   },
   {
     "description": "Universal AI Agent Super-Skills Ecosystem by Mr. Vishalkumar Joshi. 161 production-grade plain-text prompt protocols wit",
@@ -336,6 +336,15 @@
     "url": "https://github.com/baneeishaque/ai-agent-rules"
   },
   {
+    "description": "agent wiki +engineering skills ",
+    "id": "Mark393295827/third-brain-v7-skills",
+    "language": "Python",
+    "name": "Mark393295827/third-brain-v7-skills",
+    "stars": 140,
+    "updated_at": "2026-09-19T09:08:54Z",
+    "url": "https://github.com/Mark393295827/third-brain-v7-skills"
+  },
+  {
     "description": "Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony.",
     "id": "saqie803/ponytail",
     "language": "JavaScript",
@@ -489,19 +498,5 @@
     "stars": 32,
     "updated_at": "2026-09-18T04:32:45Z",
     "url": "https://github.com/axelfreeman/marketing-mindset"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Astro + Strapi Blocks \u2014 StrapiBlocks, data, theme (extend/overwrite), custom blocks\nglobs: \"**/*.{astro,ts,tsx}\"\nalwaysApply: false\n---\n\n# Upstream rule (no local copy)\n\nThe full **Cursor project rule** for Strapi Blocks is maintained in the **astro-strapi-blocks** repository. Open or fetch:\n\n- **GitHub:** <https://github.com/VirtusLab-Open-Source/astro-strapi-blocks/blob/main/.cursor/rules/astro-strapi-blocks.mdc>\n- **Raw:** <https://raw.githubusercontent.com/VirtusLab-Open-Source/astro-strapi-blocks/main/.cursor/rules/astro-strapi-blocks.mdc>\n\nThis file exists only to **preserve** the same `globs` / scope in this starter. For project-specific notes, see [`.ai/AGENTS.md`](../../.ai/AGENTS.md) and the stub at [`.ai/astro-strapi-blocks/SKILL.md`](../../.ai/astro-strapi-blocks/SKILL.md).\n",
-      "format": "mdc",
-      "path": ".cursor/rules/astro-strapi-blocks.mdc"
-    },
-    "description": "The Astro x Strapi Starter template",
-    "id": "VirtusLab-Open-Source/astro-strapi-starter",
-    "language": "Astro",
-    "name": "VirtusLab-Open-Source/astro-strapi-starter",
-    "stars": 22,
-    "updated_at": "2026-09-18T02:17:39Z",
-    "url": "https://github.com/VirtusLab-Open-Source/astro-strapi-starter"
   }
 ]
