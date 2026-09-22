@@ -1,5 +1,28 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: make every plan, design, brainstorm, option, review or \"done\" report name the one concrete thing that would prove the effort is feasible, optimal and worth spending\nglobs: [\"**/*\"]\nalwaysApply: true\n---\n\n# prove-the-effort\n\ntake a claim, plan, design, brainstorm, option, review or \"done\" report and make it name the one concrete thing that proves the effort's worth spending. an example, a worst case, a benchmark or a mechanism. check it if you can. concede in five words when it lands.\n\n## the six rules\n\n1. stance first. one sentence of where you stand, then the one question that would move you. never open with \"what do you think\".\n2. one concrete referent per turn. the instance not the principle. give one of your own with every claim.\n3. hold, then fold fast. keep the stance while the answer's a norm (\"best practice\"). drop it in five words (\"you're right\", \"fair\", \"my bad\") the second a mechanism or measurement lands.\n4. null move is legal. if the claim survives your question, \"fair, that holds\", next hole. don't invent a flaw to keep going.\n5. stop rule. second restatement without a new referent, stop. name the disagreement in one line or park it as a bet.\n6. batch the questions. one batch, defaults, \"figure it out yourself\" option. three short messages beat one wall.\n\n## feasibility, optimality, brainstorming\n\nfeasibility: the missing measurement is the finding. no measurement, not feasible yet.\noptimality: write the criterion first, then run the check. the option that wins the criterion wins.\nbrainstorm: every option carries what would prove it before it leaves the round. can't, gets parked.\n\n## speculative demand vs implementation\n\nfuture demand can be hypothetical, that's a reason to build the contract now. future implementation and verification can't, \"this will scale\" needs a benchmark like anything else.\n\n## don't say\n\n\"what do you think\" \u00b7 \"curious to hear your thoughts\" \u00b7 \"best practice\" \u00b7 \"industry standard\" \u00b7 \"as i said\" \u00b7 \"you're absolutely right\" \u00b7 \"want me to\" \u00b7 \"should i\" \u00b7 \"let me know if you'd like\" \u00b7 \"here are some options\" \u00b7 a paragraph-length concession \u00b7 a wall of text \u00b7 a question whose answer is already on screen\n\n## agent to agent\n\na subagent saying done / passing / verified / fixed without the thing that proves it is not accepted. ask once. no referent, quarantine the claim before anything's built on it.\n\nfull skill: `skills/prove-the-effort/SKILL.md`\n",
+      "format": "mdc",
+      "path": ".cursor/rules/prove-the-effort.mdc"
+    },
+    "description": "makes your agent (or you) prove a claim before anyone spends time on it. feasibility, optimality, brainstorming, agent-t",
+    "id": "bodencrouch/prove-the-effort",
+    "language": "\u2014",
+    "name": "bodencrouch/prove-the-effort",
+    "stars": 0,
+    "updated_at": "2026-09-22T10:29:27Z",
+    "url": "https://github.com/bodencrouch/prove-the-effort"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-22T10:15:35Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "A collection of Claude Code skills, with QA skills that end in a mandatory independent-subagent review pass.",
     "id": "xtieume/testcase",
     "language": "Python",
@@ -16,15 +39,6 @@
     "stars": 3,
     "updated_at": "2026-09-22T10:04:05Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-22T10:00:43Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -148,20 +162,6 @@
     "stars": 0,
     "updated_at": "2026-09-22T07:07:31Z",
     "url": "https://github.com/johnwall123459885/skene-cookbook"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: make every plan, design, brainstorm, option, review or \"done\" report name the one concrete thing that would prove the effort is feasible, optimal and worth spending\nglobs: [\"**/*\"]\nalwaysApply: true\n---\n\n# prove-the-effort\n\ntake a claim, plan, design, brainstorm, option, review or \"done\" report and make it name the one concrete thing that proves the effort's worth spending. an example, a worst case, a benchmark or a mechanism. check it if you can. concede in five words when it lands.\n\n## the six rules\n\n1. stance first. one sentence of where you stand, then the one question that would move you. never open with \"what do you think\".\n2. one concrete referent per turn. the instance not the principle. give one of your own with every claim.\n3. hold, then fold fast. keep the stance while the answer's a norm (\"best practice\"). drop it in five words (\"you're right\", \"fair\", \"my bad\") the second a mechanism or measurement lands.\n4. null move is legal. if the claim survives your question, \"fair, that holds\", next hole. don't invent a flaw to keep going.\n5. stop rule. second restatement without a new referent, stop. name the disagreement in one line or park it as a bet.\n6. batch the questions. one batch, defaults, \"figure it out yourself\" option. three short messages beat one wall.\n\n## feasibility, optimality, brainstorming\n\nfeasibility: the missing measurement is the finding. no measurement, not feasible yet.\noptimality: write the criterion first, then run the check. the option that wins the criterion wins.\nbrainstorm: every option carries what would prove it before it leaves the round. can't, gets parked.\n\n## speculative demand vs implementation\n\nfuture demand can be hypothetical, that's a reason to build the contract now. future implementation and verification can't, \"this will scale\" needs a benchmark like anything else.\n\n## don't say\n\n\"what do you think\" \u00b7 \"curious to hear your thoughts\" \u00b7 \"best practice\" \u00b7 \"industry standard\" \u00b7 \"as i said\" \u00b7 \"you're absolutely right\" \u00b7 \"want me to\" \u00b7 \"should i\" \u00b7 \"let me know if you'd like\" \u00b7 \"here are some options\" \u00b7 a paragraph-length concession \u00b7 a wall of text \u00b7 a question whose answer is already on screen\n\n## agent to agent\n\na subagent saying done / passing / verified / fixed without the thing that proves it is not accepted. ask once. no referent, quarantine the claim before anything's built on it.\n\nfull skill: `skills/prove-the-effort/SKILL.md`\n",
-      "format": "mdc",
-      "path": ".cursor/rules/prove-the-effort.mdc"
-    },
-    "description": "makes your agent (or you) prove a claim before anyone spends time on it. feasibility, optimality, brainstorming, agent-t",
-    "id": "bodencrouch/prove-the-effort",
-    "language": "\u2014",
-    "name": "bodencrouch/prove-the-effort",
-    "stars": 0,
-    "updated_at": "2026-09-22T06:30:18Z",
-    "url": "https://github.com/bodencrouch/prove-the-effort"
   },
   {
     "description": "Production-ready AI agent profiles for Claude Code, Cursor, Codex, OpenClaw, and Hermes. Search, install, and contribute",
