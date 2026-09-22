@@ -1,5 +1,23 @@
 [
   {
+    "description": "AgentJam is an open-source, harness-agnostic runtime and governance system for AI coding agents.",
+    "id": "primasdevlabs/agentjam",
+    "language": "TypeScript",
+    "name": "primasdevlabs/agentjam",
+    "stars": 1,
+    "updated_at": "2026-09-22T04:58:55Z",
+    "url": "https://github.com/primasdevlabs/agentjam"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-22T04:46:12Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "A collection of Claude Code skills, with QA skills that end in a mandatory independent-subagent review pass.",
     "id": "xtieume/testcase",
     "language": "Python",
@@ -16,15 +34,6 @@
     "stars": 1,
     "updated_at": "2026-09-22T04:39:28Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-22T04:30:33Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -499,14 +508,5 @@
     "stars": 571,
     "updated_at": "2026-09-19T19:40:02Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
-  },
-  {
-    "description": "One reliable canonical source for AI coding agent rules, commands, skills, MCP, hooks, and permissions \u2014 synced across A",
-    "id": "sampleXbro/agentsmesh",
-    "language": "TypeScript",
-    "name": "sampleXbro/agentsmesh",
-    "stars": 24,
-    "updated_at": "2026-09-21T16:23:40Z",
-    "url": "https://github.com/sampleXbro/agentsmesh"
   }
 ]
