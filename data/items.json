@@ -1,12 +1,21 @@
 [
   {
-    "description": "Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony.",
-    "id": "saqie803/ponytail",
-    "language": "JavaScript",
-    "name": "saqie803/ponytail",
-    "stars": 2,
-    "updated_at": "2026-09-22T07:30:46Z",
-    "url": "https://github.com/saqie803/ponytail"
+    "description": "One reliable canonical source for AI coding agent rules, commands, skills, MCP, hooks, and permissions \u2014 synced across A",
+    "id": "sampleXbro/agentsmesh",
+    "language": "TypeScript",
+    "name": "sampleXbro/agentsmesh",
+    "stars": 24,
+    "updated_at": "2026-09-22T07:58:10Z",
+    "url": "https://github.com/sampleXbro/agentsmesh"
+  },
+  {
+    "description": "My life's work: a deterministic engineering harness for Cursor.",
+    "id": "kleosr/bridle",
+    "language": "Shell",
+    "name": "kleosr/bridle",
+    "stars": 1,
+    "updated_at": "2026-09-22T07:49:54Z",
+    "url": "https://github.com/kleosr/bridle"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +23,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-22T07:30:38Z",
+    "updated_at": "2026-09-22T07:45:43Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony.",
+    "id": "saqie803/ponytail",
+    "language": "JavaScript",
+    "name": "saqie803/ponytail",
+    "stars": 2,
+    "updated_at": "2026-09-22T07:30:46Z",
+    "url": "https://github.com/saqie803/ponytail"
   },
   {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
@@ -50,15 +68,6 @@
     "url": "https://github.com/johnwall123459885/skene-cookbook"
   },
   {
-    "description": "One reliable canonical source for AI coding agent rules, commands, skills, MCP, hooks, and permissions \u2014 synced across A",
-    "id": "sampleXbro/agentsmesh",
-    "language": "TypeScript",
-    "name": "sampleXbro/agentsmesh",
-    "stars": 24,
-    "updated_at": "2026-09-22T07:12:06Z",
-    "url": "https://github.com/sampleXbro/agentsmesh"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: make every plan, design, brainstorm, option, review or \"done\" report name the one concrete thing that would prove the effort is feasible, optimal and worth spending\nglobs: [\"**/*\"]\nalwaysApply: true\n---\n\n# prove-the-effort\n\ntake a claim, plan, design, brainstorm, option, review or \"done\" report and make it name the one concrete thing that proves the effort's worth spending. an example, a worst case, a benchmark or a mechanism. check it if you can. concede in five words when it lands.\n\n## the six rules\n\n1. stance first. one sentence of where you stand, then the one question that would move you. never open with \"what do you think\".\n2. one concrete referent per turn. the instance not the principle. give one of your own with every claim.\n3. hold, then fold fast. keep the stance while the answer's a norm (\"best practice\"). drop it in five words (\"you're right\", \"fair\", \"my bad\") the second a mechanism or measurement lands.\n4. null move is legal. if the claim survives your question, \"fair, that holds\", next hole. don't invent a flaw to keep going.\n5. stop rule. second restatement without a new referent, stop. name the disagreement in one line or park it as a bet.\n6. batch the questions. one batch, defaults, \"figure it out yourself\" option. three short messages beat one wall.\n\n## feasibility, optimality, brainstorming\n\nfeasibility: the missing measurement is the finding. no measurement, not feasible yet.\noptimality: write the criterion first, then run the check. the option that wins the criterion wins.\nbrainstorm: every option carries what would prove it before it leaves the round. can't, gets parked.\n\n## speculative demand vs implementation\n\nfuture demand can be hypothetical, that's a reason to build the contract now. future implementation and verification can't, \"this will scale\" needs a benchmark like anything else.\n\n## don't say\n\n\"what do you think\" \u00b7 \"curious to hear your thoughts\" \u00b7 \"best practice\" \u00b7 \"industry standard\" \u00b7 \"as i said\" \u00b7 \"you're absolutely right\" \u00b7 \"want me to\" \u00b7 \"should i\" \u00b7 \"let me know if you'd like\" \u00b7 \"here are some options\" \u00b7 a paragraph-length concession \u00b7 a wall of text \u00b7 a question whose answer is already on screen\n\n## agent to agent\n\na subagent saying done / passing / verified / fixed without the thing that proves it is not accepted. ask once. no referent, quarantine the claim before anything's built on it.\n\nfull skill: `skills/prove-the-effort/SKILL.md`\n",
       "format": "mdc",
@@ -78,7 +87,7 @@
     "language": "TypeScript",
     "name": "nota-america/forgecat-agent-profiles",
     "stars": 83,
-    "updated_at": "2026-09-22T05:50:04Z",
+    "updated_at": "2026-09-22T07:55:01Z",
     "url": "https://github.com/nota-america/forgecat-agent-profiles"
   },
   {
@@ -143,15 +152,6 @@
     "stars": 2,
     "updated_at": "2026-09-22T03:33:16Z",
     "url": "https://github.com/Catherine1401/agent-skills"
-  },
-  {
-    "description": "My life's work: a deterministic engineering harness for Cursor.",
-    "id": "kleosr/bridle",
-    "language": "Shell",
-    "name": "kleosr/bridle",
-    "stars": 1,
-    "updated_at": "2026-09-22T02:30:34Z",
-    "url": "https://github.com/kleosr/bridle"
   },
   {
     "description": "Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align",
@@ -222,7 +222,7 @@
     "id": "danielvm-git/bigpowers",
     "language": "Shell",
     "name": "danielvm-git/bigpowers",
-    "stars": 218,
+    "stars": 219,
     "updated_at": "2026-09-21T17:58:44Z",
     "url": "https://github.com/danielvm-git/bigpowers"
   },
