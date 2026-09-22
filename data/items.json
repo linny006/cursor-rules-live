@@ -1,11 +1,20 @@
 [
   {
+    "description": "Portable skills and shared policies for Codex, Claude Code, and Cursor on Linux.",
+    "id": "Catherine1401/agent-skills",
+    "language": "Shell",
+    "name": "Catherine1401/agent-skills",
+    "stars": 2,
+    "updated_at": "2026-09-22T15:51:54Z",
+    "url": "https://github.com/Catherine1401/agent-skills"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-22T15:30:45Z",
+    "updated_at": "2026-09-22T15:45:37Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -179,7 +188,7 @@
     "language": "Python",
     "name": "xtieume/testcase",
     "stars": 3,
-    "updated_at": "2026-09-22T15:40:26Z",
+    "updated_at": "2026-09-22T15:52:59Z",
     "url": "https://github.com/xtieume/testcase"
   },
   {
@@ -263,15 +272,6 @@
     "stars": 0,
     "updated_at": "2026-09-22T07:07:31Z",
     "url": "https://github.com/johnwall123459885/skene-cookbook"
-  },
-  {
-    "description": "Portable skills and shared policies for Codex, Claude Code, and Cursor on Linux.",
-    "id": "Catherine1401/agent-skills",
-    "language": "Shell",
-    "name": "Catherine1401/agent-skills",
-    "stars": 2,
-    "updated_at": "2026-09-22T03:33:16Z",
-    "url": "https://github.com/Catherine1401/agent-skills"
   },
   {
     "description": "Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align",
@@ -456,7 +456,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39870,
+    "stars": 39871,
     "updated_at": "2026-09-21T01:09:57Z",
     "url": "https://github.com/wshobson/agents"
   },
