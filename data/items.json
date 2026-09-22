@@ -1,11 +1,20 @@
 [
   {
+    "description": "One reliable canonical source for AI coding agent rules, commands, skills, MCP, hooks, and permissions \u2014 synced across A",
+    "id": "sampleXbro/agentsmesh",
+    "language": "TypeScript",
+    "name": "sampleXbro/agentsmesh",
+    "stars": 24,
+    "updated_at": "2026-09-22T06:48:17Z",
+    "url": "https://github.com/sampleXbro/agentsmesh"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-22T06:30:42Z",
+    "updated_at": "2026-09-22T06:45:53Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -401,7 +410,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39862,
+    "stars": 39863,
     "updated_at": "2026-09-21T01:09:57Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -504,14 +513,5 @@
     "stars": 0,
     "updated_at": "2026-09-20T01:45:29Z",
     "url": "https://github.com/yxdwind/english-memory-method"
-  },
-  {
-    "description": "A curated list of AGENTS.md, CLAUDE.md, Cursor rules and Copilot instructions for AI coding agents, with real examples f",
-    "id": "alihesari/awesome-agents-md",
-    "language": "\u2014",
-    "name": "alihesari/awesome-agents-md",
-    "stars": 0,
-    "updated_at": "2026-09-19T20:28:40Z",
-    "url": "https://github.com/alihesari/awesome-agents-md"
   }
 ]
