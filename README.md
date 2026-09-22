@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-22 08:45 UTC
+> ⏰ Last updated: 2026-09-22 09:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -54,8 +54,8 @@ expired items removed — so you can rely on what you see being current.
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
 | 1 | [primasdevlabs/agentjam](https://github.com/primasdevlabs/agentjam) | 1 | TypeScript | 2026-09-22 | — | AgentJam is an open-source, harness-agnostic runtime and governance system for AI coding agents. |
-| 2 | [heymegabyte/claude-skills](https://github.com/heymegabyte/claude-skills) | 22 | TypeScript | 2026-09-22 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/claude-skills/) | 14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts → deployed products. |
-| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-22 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-22 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 3 | [heymegabyte/claude-skills](https://github.com/heymegabyte/claude-skills) | 22 | TypeScript | 2026-09-22 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/claude-skills/) | 14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts → deployed products. |
 | 4 | [Labelixa/agent-skills](https://github.com/Labelixa/agent-skills) | 0 | JavaScript | 2026-09-22 | — | Rules that teach AI coding assistants to validate and render ZPL/EPL/TSPL/CPCL with Labelixa |
 | 5 | [kleosr/bridle](https://github.com/kleosr/bridle) | 1 | Shell | 2026-09-22 | — | My life's work: a deterministic engineering harness for Cursor. |
 | 6 | [sampleXbro/agentsmesh](https://github.com/sampleXbro/agentsmesh) | 24 | TypeScript | 2026-09-22 | — | One reliable canonical source for AI coding agent rules, commands, skills, MCP, hooks, and permissions — synced across A |
@@ -94,7 +94,7 @@ expired items removed — so you can rely on what you see being current.
 | 39 | [zinxj/uikit-expert-skill](https://github.com/zinxj/uikit-expert-skill) | 5 | — | 2026-09-21 | — | Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan |
 | 40 | [MohamedAbdallah-14/unslop](https://github.com/MohamedAbdallah-14/unslop) | 144 | Python | 2026-09-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/MohamedAbdallah-14/unslop/) | Make AI output sound human. Strips AI-isms (sycophancy, stock vocab, hedging stacks, em-dash pileups), preserves code/UR |
 | 41 | [12529572-Canada-Inc/prime-directive](https://github.com/12529572-Canada-Inc/prime-directive) | 0 | Shell | 2026-09-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/12529572-Canada-Inc/prime-directive/) | One always-on duty-of-care rule for every AI coding agent — rendered into AGENTS.md, CLAUDE.md, Cursor, Windsurf, Cline, |
-| 42 | [wshobson/agents](https://github.com/wshobson/agents) | 39863 | Python | 2026-09-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
+| 42 | [wshobson/agents](https://github.com/wshobson/agents) | 39864 | Python | 2026-09-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
 | 43 | [mrvishaljjoshi-cmyk/VJSS](https://github.com/mrvishaljjoshi-cmyk/VJSS) | 0 | Python | 2026-09-20 | — | Universal AI Agent Super-Skills Ecosystem by Mr. Vishalkumar Joshi. 161 production-grade plain-text prompt protocols wit |
 | 44 | [sscodeai/agency-agents-ja](https://github.com/sscodeai/agency-agents-ja) | 5 | Shell | 2026-09-20 | — | 323個の即戦力AI専門エージェント — Claude Code/Cursor/Copilot等に対応。SIer/受託開発/SaaS/製造DX/公共分野など日本市場向け114個のオリジナルを含む、agency-agents日本語コミュニティ |
 | 45 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 185 | Python | 2026-09-20 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
