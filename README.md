@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-22 03:30 UTC
+> ⏰ Last updated: 2026-09-22 03:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,14 +53,14 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-09-22 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
-| 2 | [Bastioned-successor320/learn-nanobot](https://github.com/Bastioned-successor320/learn-nanobot) | 10 | Python | 2026-09-22 | — | Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers |
+| 1 | [Catherine1401/agent-skills](https://github.com/Catherine1401/agent-skills) | 2 | Shell | 2026-09-22 | — | Portable skills and shared policies for Codex, Claude Code, and Cursor on Linux. |
+| 2 | [saqie803/ponytail](https://github.com/saqie803/ponytail) | 2 | JavaScript | 2026-09-22 | — | Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony. |
 | 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-22 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 4 | [johnwall123459885/skene-cookbook](https://github.com/johnwall123459885/skene-cookbook) | 0 | Python | 2026-09-22 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/johnwall123459885/skene-cookbook/) | 🤖 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development. |
-| 5 | [xtieume/testcase](https://github.com/xtieume/testcase) | 3 | Python | 2026-09-22 | — | A collection of Claude Code skills, with QA skills that end in a mandatory independent-subagent review pass. |
-| 6 | [Catherine1401/agent-skills](https://github.com/Catherine1401/agent-skills) | 2 | Shell | 2026-09-22 | — | Portable skills and shared policies for Codex, Claude Code, and Cursor on Linux. |
-| 7 | [kleosr/bridle](https://github.com/kleosr/bridle) | 1 | Shell | 2026-09-22 | — | My life's work: a deterministic engineering harness for Cursor. |
-| 8 | [saqie803/ponytail](https://github.com/saqie803/ponytail) | 2 | JavaScript | 2026-09-22 | — | Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony. |
+| 4 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-09-22 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
+| 5 | [Bastioned-successor320/learn-nanobot](https://github.com/Bastioned-successor320/learn-nanobot) | 10 | Python | 2026-09-22 | — | Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers |
+| 6 | [johnwall123459885/skene-cookbook](https://github.com/johnwall123459885/skene-cookbook) | 0 | Python | 2026-09-22 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/johnwall123459885/skene-cookbook/) | 🤖 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development. |
+| 7 | [xtieume/testcase](https://github.com/xtieume/testcase) | 3 | Python | 2026-09-22 | — | A collection of Claude Code skills, with QA skills that end in a mandatory independent-subagent review pass. |
+| 8 | [kleosr/bridle](https://github.com/kleosr/bridle) | 1 | Shell | 2026-09-22 | — | My life's work: a deterministic engineering harness for Cursor. |
 | 9 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-09-22 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
 | 10 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 21 | Python | 2026-09-22 | — | Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align |
 | 11 | [nota-america/forgecat-agent-profiles](https://github.com/nota-america/forgecat-agent-profiles) | 83 | TypeScript | 2026-09-22 | — | Production-ready AI agent profiles for Claude Code, Cursor, Codex, OpenClaw, and Hermes. Search, install, and contribute |
@@ -93,7 +93,7 @@ expired items removed — so you can rely on what you see being current.
 | 38 | [heymegabyte/claude-skills](https://github.com/heymegabyte/claude-skills) | 22 | TypeScript | 2026-09-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/claude-skills/) | 14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts → deployed products. |
 | 39 | [mrvishaljjoshi-cmyk/VJSS](https://github.com/mrvishaljjoshi-cmyk/VJSS) | 0 | Python | 2026-09-20 | — | Universal AI Agent Super-Skills Ecosystem by Mr. Vishalkumar Joshi. 161 production-grade plain-text prompt protocols wit |
 | 40 | [sscodeai/agency-agents-ja](https://github.com/sscodeai/agency-agents-ja) | 5 | Shell | 2026-09-20 | — | 323個の即戦力AI専門エージェント — Claude Code/Cursor/Copilot等に対応。SIer/受託開発/SaaS/製造DX/公共分野など日本市場向け114個のオリジナルを含む、agency-agents日本語コミュニティ |
-| 41 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 183 | Python | 2026-09-20 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
+| 41 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 184 | Python | 2026-09-20 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
 | 42 | [ilovefiniki/agent-skills](https://github.com/ilovefiniki/agent-skills) | 0 | Python | 2026-09-20 | — | Production-grade AI Agent Skills & Governance for Claude Code, Antigravity, Gemini, and Cursor. |
 | 43 | [ilovefiniki/init-project](https://github.com/ilovefiniki/init-project) | 0 | Shell | 2026-09-20 | — | Universal multi-agent project bootstrapper & governance for Claude Code, Antigravity, and Cursor. |
 | 44 | [Hyanthropological659/clarify-skill](https://github.com/Hyanthropological659/clarify-skill) | 1 | — | 2026-09-20 | — | Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a |

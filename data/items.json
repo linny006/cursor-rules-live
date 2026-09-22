@@ -1,5 +1,32 @@
 [
   {
+    "description": "Portable skills and shared policies for Codex, Claude Code, and Cursor on Linux.",
+    "id": "Catherine1401/agent-skills",
+    "language": "Shell",
+    "name": "Catherine1401/agent-skills",
+    "stars": 2,
+    "updated_at": "2026-09-22T03:33:16Z",
+    "url": "https://github.com/Catherine1401/agent-skills"
+  },
+  {
+    "description": "Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony.",
+    "id": "saqie803/ponytail",
+    "language": "JavaScript",
+    "name": "saqie803/ponytail",
+    "stars": 2,
+    "updated_at": "2026-09-22T03:33:09Z",
+    "url": "https://github.com/saqie803/ponytail"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-22T03:30:48Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
     "id": "Laurellagloomy260/cursor-rules-generator",
     "language": "\u2014",
@@ -16,15 +43,6 @@
     "stars": 10,
     "updated_at": "2026-09-22T03:21:35Z",
     "url": "https://github.com/Bastioned-successor320/learn-nanobot"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-22T03:15:55Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -46,17 +64,8 @@
     "language": "Python",
     "name": "xtieume/testcase",
     "stars": 3,
-    "updated_at": "2026-09-22T02:59:54Z",
+    "updated_at": "2026-09-22T03:42:27Z",
     "url": "https://github.com/xtieume/testcase"
-  },
-  {
-    "description": "Portable skills and shared policies for Codex, Claude Code, and Cursor on Linux.",
-    "id": "Catherine1401/agent-skills",
-    "language": "Shell",
-    "name": "Catherine1401/agent-skills",
-    "stars": 2,
-    "updated_at": "2026-09-22T02:30:36Z",
-    "url": "https://github.com/Catherine1401/agent-skills"
   },
   {
     "description": "My life's work: a deterministic engineering harness for Cursor.",
@@ -66,15 +75,6 @@
     "stars": 1,
     "updated_at": "2026-09-22T02:30:34Z",
     "url": "https://github.com/kleosr/bridle"
-  },
-  {
-    "description": "Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony.",
-    "id": "saqie803/ponytail",
-    "language": "JavaScript",
-    "name": "saqie803/ponytail",
-    "stars": 2,
-    "updated_at": "2026-09-22T01:39:37Z",
-    "url": "https://github.com/saqie803/ponytail"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -419,7 +419,7 @@
     "id": "KbWen/agentic-os",
     "language": "Python",
     "name": "KbWen/agentic-os",
-    "stars": 183,
+    "stars": 184,
     "updated_at": "2026-09-20T09:49:05Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
