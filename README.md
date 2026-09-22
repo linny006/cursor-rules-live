@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-22 16:15 UTC
+> ⏰ Last updated: 2026-09-22 16:27 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,8 +53,8 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [Catherine1401/agent-skills](https://github.com/Catherine1401/agent-skills) | 2 | Shell | 2026-09-22 | — | Portable skills and shared policies for Codex, Claude Code, and Cursor on Linux. |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-22 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-22 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [Catherine1401/agent-skills](https://github.com/Catherine1401/agent-skills) | 2 | Shell | 2026-09-22 | — | Portable skills and shared policies for Codex, Claude Code, and Cursor on Linux. |
 | 3 | [axelfreeman/marketing-mindset](https://github.com/axelfreeman/marketing-mindset) | 32 | HTML | 2026-09-22 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/axelfreeman/marketing-mindset/) | Open-source skill (MIT) that gives AI agents a marketer's mindset: volume floors, kill rules, positioning, offers, outre |
 | 4 | [powersync-ja/agent-skills](https://github.com/powersync-ja/agent-skills) | 19 | JavaScript | 2026-09-22 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/powersync-ja/agent-skills/) | Official agent skills for PowerSync |
 | 5 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-09-22 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
