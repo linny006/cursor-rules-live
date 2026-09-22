@@ -1,21 +1,21 @@
 [
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-22T02:00:38Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Portable skills and shared policies for Codex, Claude Code, and Cursor on Linux.",
     "id": "Catherine1401/agent-skills",
     "language": "Shell",
     "name": "Catherine1401/agent-skills",
     "stars": 2,
-    "updated_at": "2026-09-22T01:50:35Z",
+    "updated_at": "2026-09-22T02:28:17Z",
     "url": "https://github.com/Catherine1401/agent-skills"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-22T02:15:43Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony.",
