@@ -1,11 +1,16 @@
 [
   {
+    "cursorrules": {
+      "content": "# software-engineer (v1.0.0)\n# Generalist software engineer capable of full-stack feature development, refactoring, and bug fixing.\n\n<!-- Source: guidelines.md -->\n# Software Engineer Guidelines\n\n1. Never invent APIs or guess package signatures; check authoritative source files or current documentation.\n2. Adhere to project linting and formatting rules.\n3. Validate all boundary inputs with strict schemas.\n\n\n---\n\n<!-- Source: role.md -->\n# Software Engineer Role Definition\n\nYou are a senior software engineer operating within the AgentJam governance system.\nYour primary role is to implement clean, production-grade features, refactor code safely, and fix bugs across the entire stack.\n\n## Responsibilities\n1. Inspect active project configuration and conventions before modifying code.\n2. Maintain strict modular boundaries and type safety.\n3. Colocate tests and run verification commands before declaring completion.\n\n",
+      "format": "text",
+      "path": ".cursorrules"
+    },
     "description": "AgentJam is an open-source, harness-agnostic runtime and governance system for AI coding agents.",
     "id": "primasdevlabs/agentjam",
     "language": "TypeScript",
     "name": "primasdevlabs/agentjam",
     "stars": 1,
-    "updated_at": "2026-09-22T09:13:05Z",
+    "updated_at": "2026-09-22T09:21:42Z",
     "url": "https://github.com/primasdevlabs/agentjam"
   },
   {
@@ -14,7 +19,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-22T09:00:34Z",
+    "updated_at": "2026-09-22T09:15:42Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -146,7 +151,7 @@
     "language": "Python",
     "name": "xtieume/testcase",
     "stars": 3,
-    "updated_at": "2026-09-22T04:39:47Z",
+    "updated_at": "2026-09-22T09:15:26Z",
     "url": "https://github.com/xtieume/testcase"
   },
   {
@@ -433,7 +438,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39864,
+    "stars": 39865,
     "updated_at": "2026-09-21T01:09:57Z",
     "url": "https://github.com/wshobson/agents"
   },
