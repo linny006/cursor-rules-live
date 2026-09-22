@@ -1,5 +1,23 @@
 [
   {
+    "description": "Production-ready AI agent profiles for Claude Code, Cursor, Codex, OpenClaw, and Hermes. Search, install, and contribute",
+    "id": "nota-america/forgecat-agent-profiles",
+    "language": "TypeScript",
+    "name": "nota-america/forgecat-agent-profiles",
+    "stars": 83,
+    "updated_at": "2026-09-22T05:50:04Z",
+    "url": "https://github.com/nota-america/forgecat-agent-profiles"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-22T05:45:34Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
     "id": "edsondviana8/ai-humanizer-core",
     "language": "HTML",
@@ -16,15 +34,6 @@
     "stars": 2,
     "updated_at": "2026-09-22T05:37:25Z",
     "url": "https://github.com/saqie803/ponytail"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-22T05:31:13Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
@@ -129,15 +138,6 @@
     "stars": 21,
     "updated_at": "2026-09-22T00:14:14Z",
     "url": "https://github.com/MnemeHQ/mneme"
-  },
-  {
-    "description": "Production-ready AI agent profiles for Claude Code, Cursor, Codex, OpenClaw, and Hermes. Search, install, and contribute",
-    "id": "nota-america/forgecat-agent-profiles",
-    "language": "TypeScript",
-    "name": "nota-america/forgecat-agent-profiles",
-    "stars": 83,
-    "updated_at": "2026-09-22T05:43:36Z",
-    "url": "https://github.com/nota-america/forgecat-agent-profiles"
   },
   {
     "description": "Your AI assistant reads CLAUDE.md and ignores it anyway. \u0100rai makes instruction files enforced \u2014 hooks that block, a tam",
@@ -387,7 +387,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39860,
+    "stars": 39861,
     "updated_at": "2026-09-21T01:09:57Z",
     "url": "https://github.com/wshobson/agents"
   },
