@@ -1,11 +1,20 @@
 [
   {
+    "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
+    "id": "agenticstandardcontact-byte/agentic-architect",
+    "language": "HTML",
+    "name": "agenticstandardcontact-byte/agentic-architect",
+    "stars": 0,
+    "updated_at": "2026-09-22T14:02:02Z",
+    "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-22T13:45:37Z",
+    "updated_at": "2026-09-22T14:00:51Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -174,7 +183,7 @@
     "language": "TypeScript",
     "name": "sampleXbro/agentsmesh",
     "stars": 24,
-    "updated_at": "2026-09-22T12:54:43Z",
+    "updated_at": "2026-09-22T14:12:49Z",
     "url": "https://github.com/sampleXbro/agentsmesh"
   },
   {
@@ -333,15 +342,6 @@
     "url": "https://github.com/fluttersdk/wind"
   },
   {
-    "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
-    "id": "agenticstandardcontact-byte/agentic-architect",
-    "language": "HTML",
-    "name": "agenticstandardcontact-byte/agentic-architect",
-    "stars": 0,
-    "updated_at": "2026-09-21T15:53:29Z",
-    "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
-  },
-  {
     "description": "Agent skill for Claude Code, Codex and Cursor: generate or refresh project rules (.cursor/rules/*.mdc, CLAUDE.md and .cl",
     "id": "EvilFreelancer/rpa-gen-rules",
     "language": "Python",
@@ -456,7 +456,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39865,
+    "stars": 39867,
     "updated_at": "2026-09-21T01:09:57Z",
     "url": "https://github.com/wshobson/agents"
   },
