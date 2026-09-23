@@ -1,11 +1,20 @@
 [
   {
+    "description": "Production-ready AI agent profiles for Claude Code, Cursor, Codex, OpenClaw, and Hermes. Search, install, and contribute",
+    "id": "nota-america/forgecat-agent-profiles",
+    "language": "TypeScript",
+    "name": "nota-america/forgecat-agent-profiles",
+    "stars": 84,
+    "updated_at": "2026-09-23T15:30:04Z",
+    "url": "https://github.com/nota-america/forgecat-agent-profiles"
+  },
+  {
     "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
     "id": "mikeprasad/aria-knowledge",
     "language": "Shell",
     "name": "mikeprasad/aria-knowledge",
     "stars": 17,
-    "updated_at": "2026-09-23T15:12:54Z",
+    "updated_at": "2026-09-23T15:24:42Z",
     "url": "https://github.com/mikeprasad/aria-knowledge"
   },
   {
@@ -14,17 +23,8 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-23T15:00:40Z",
+    "updated_at": "2026-09-23T15:15:50Z",
     "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
-    "description": "Production-ready AI agent profiles for Claude Code, Cursor, Codex, OpenClaw, and Hermes. Search, install, and contribute",
-    "id": "nota-america/forgecat-agent-profiles",
-    "language": "TypeScript",
-    "name": "nota-america/forgecat-agent-profiles",
-    "stars": 84,
-    "updated_at": "2026-09-23T14:46:01Z",
-    "url": "https://github.com/nota-america/forgecat-agent-profiles"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -510,7 +510,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39906,
+    "stars": 39907,
     "updated_at": "2026-09-21T01:09:57Z",
     "url": "https://github.com/wshobson/agents"
   }
