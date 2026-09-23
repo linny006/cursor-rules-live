@@ -1,11 +1,20 @@
 [
   {
+    "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
+    "id": "HoangNguyen0403/agent-skills-standard",
+    "language": "TypeScript",
+    "name": "HoangNguyen0403/agent-skills-standard",
+    "stars": 570,
+    "updated_at": "2026-09-23T08:13:17Z",
+    "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-23T07:45:32Z",
+    "updated_at": "2026-09-23T08:00:43Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -504,14 +513,5 @@
     "stars": 185,
     "updated_at": "2026-09-20T09:49:05Z",
     "url": "https://github.com/KbWen/agentic-os"
-  },
-  {
-    "description": "Production-grade AI Agent Skills & Governance for Claude Code, Antigravity, Gemini, and Cursor.",
-    "id": "ilovefiniki/agent-skills",
-    "language": "Python",
-    "name": "ilovefiniki/agent-skills",
-    "stars": 0,
-    "updated_at": "2026-09-20T09:42:44Z",
-    "url": "https://github.com/ilovefiniki/agent-skills"
   }
 ]
