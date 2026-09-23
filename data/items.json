@@ -1,11 +1,29 @@
 [
   {
+    "description": "Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W-",
+    "id": "fluttersdk/wind",
+    "language": "Dart",
+    "name": "fluttersdk/wind",
+    "stars": 35,
+    "updated_at": "2026-09-23T12:43:10Z",
+    "url": "https://github.com/fluttersdk/wind"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-09-23T12:37:32Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-23T12:15:35Z",
+    "updated_at": "2026-09-23T12:30:51Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -154,15 +172,6 @@
     "url": "https://github.com/nota-america/forgecat-agent-profiles"
   },
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-09-23T06:59:32Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
     "description": "Agent rule + prompting skill for Claude Opus 5.5, derived from the official claude.dev guide. Works with Oh My Pi, Claud",
     "id": "Emirfs/opus-5-5-playbook",
     "language": "\u2014",
@@ -229,15 +238,6 @@
     "stars": 22,
     "updated_at": "2026-09-22T20:34:31Z",
     "url": "https://github.com/heymegabyte/claude-skills"
-  },
-  {
-    "description": "Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W-",
-    "id": "fluttersdk/wind",
-    "language": "Dart",
-    "name": "fluttersdk/wind",
-    "stars": 35,
-    "updated_at": "2026-09-23T11:57:04Z",
-    "url": "https://github.com/fluttersdk/wind"
   },
   {
     "cursorrules": {
