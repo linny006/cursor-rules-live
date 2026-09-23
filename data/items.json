@@ -10,8 +10,35 @@
     "language": "JavaScript",
     "name": "kensaurus/cursor-kenji",
     "stars": 9,
-    "updated_at": "2026-09-23T09:28:36Z",
+    "updated_at": "2026-09-23T09:35:38Z",
     "url": "https://github.com/kensaurus/cursor-kenji"
+  },
+  {
+    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
+    "id": "XAKLESK/cre-agent-skills",
+    "language": "\u2014",
+    "name": "XAKLESK/cre-agent-skills",
+    "stars": 8,
+    "updated_at": "2026-09-23T09:32:40Z",
+    "url": "https://github.com/XAKLESK/cre-agent-skills"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-23T09:30:34Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
+    "id": "Amirun99/agency-orchestrator",
+    "language": "Dart",
+    "name": "Amirun99/agency-orchestrator",
+    "stars": 0,
+    "updated_at": "2026-09-23T09:30:31Z",
+    "url": "https://github.com/Amirun99/agency-orchestrator"
   },
   {
     "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
@@ -21,15 +48,6 @@
     "stars": 5,
     "updated_at": "2026-09-23T09:24:53Z",
     "url": "https://github.com/zinxj/uikit-expert-skill"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-23T09:15:48Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
@@ -378,7 +396,7 @@
     "id": "danielvm-git/bigpowers",
     "language": "Shell",
     "name": "danielvm-git/bigpowers",
-    "stars": 224,
+    "stars": 225,
     "updated_at": "2026-09-21T17:58:44Z",
     "url": "https://github.com/danielvm-git/bigpowers"
   },
@@ -426,24 +444,6 @@
     "stars": 158,
     "updated_at": "2026-09-21T09:13:26Z",
     "url": "https://github.com/RollingGo-AI/rollinggo-hotel-skill-cn"
-  },
-  {
-    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
-    "id": "XAKLESK/cre-agent-skills",
-    "language": "\u2014",
-    "name": "XAKLESK/cre-agent-skills",
-    "stars": 8,
-    "updated_at": "2026-09-21T07:23:46Z",
-    "url": "https://github.com/XAKLESK/cre-agent-skills"
-  },
-  {
-    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
-    "id": "Amirun99/agency-orchestrator",
-    "language": "Dart",
-    "name": "Amirun99/agency-orchestrator",
-    "stars": 0,
-    "updated_at": "2026-09-21T07:21:43Z",
-    "url": "https://github.com/Amirun99/agency-orchestrator"
   },
   {
     "cursorrules": {
