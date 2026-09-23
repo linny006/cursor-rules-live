@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-23 16:44 UTC
+> ⏰ Last updated: 2026-09-23 16:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,11 +53,11 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 21 | Python | 2026-09-23 | — | Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align |
-| 2 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-09-23 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
-| 3 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-09-23 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
-| 4 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-23 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 5 | [xtieume/testcase](https://github.com/xtieume/testcase) | 3 | Python | 2026-09-23 | — | A collection of Claude Code skills, with QA skills that end in a mandatory independent-subagent review pass. |
+| 1 | [xtieume/testcase](https://github.com/xtieume/testcase) | 3 | Python | 2026-09-23 | — | A collection of Claude Code skills, with QA skills that end in a mandatory independent-subagent review pass. |
+| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-23 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 3 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 21 | Python | 2026-09-23 | — | Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align |
+| 4 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-09-23 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
+| 5 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-09-23 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
 | 6 | [nota-america/forgecat-agent-profiles](https://github.com/nota-america/forgecat-agent-profiles) | 84 | TypeScript | 2026-09-23 | — | Production-ready AI agent profiles for Claude Code, Cursor, Codex, OpenClaw, and Hermes. Search, install, and contribute |
 | 7 | [XAKLESK/cre-agent-skills](https://github.com/XAKLESK/cre-agent-skills) | 8 | — | 2026-09-23 | — | Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc |
 | 8 | [sublimecoder/sublimecoding](https://github.com/sublimecoder/sublimecoding) | 0 | — | 2026-09-23 | — | 🛠️ Free Claude Code & Cursor prompts for senior engineers — plus AIOS, an open-source markdown memory system for coding  |
@@ -102,7 +102,7 @@ expired items removed — so you can rely on what you see being current.
 | 47 | [RollingGo-AI/rollinggo-hotel-skill-cn](https://github.com/RollingGo-AI/rollinggo-hotel-skill-cn) | 158 | Python | 2026-09-21 | — | 全球酒店预订&低价监控提醒Skill，200万+精选酒店，独家优惠价格，让你的Agent轻松预订品质酒店，支持支付宝下单+查询历史订单，24 小时客服支持，全天候响应。 |
 | 48 | [MohamedAbdallah-14/unslop](https://github.com/MohamedAbdallah-14/unslop) | 146 | Python | 2026-09-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/MohamedAbdallah-14/unslop/) | Make AI output sound human. Strips AI-isms (sycophancy, stock vocab, hedging stacks, em-dash pileups), preserves code/UR |
 | 49 | [12529572-Canada-Inc/prime-directive](https://github.com/12529572-Canada-Inc/prime-directive) | 0 | Shell | 2026-09-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/12529572-Canada-Inc/prime-directive/) | One always-on duty-of-care rule for every AI coding agent — rendered into AGENTS.md, CLAUDE.md, Cursor, Windsurf, Cline, |
-| 50 | [wshobson/agents](https://github.com/wshobson/agents) | 39908 | Python | 2026-09-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
+| 50 | [wshobson/agents](https://github.com/wshobson/agents) | 39909 | Python | 2026-09-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
 <!-- TRACKER_TABLE_END -->
 
 ---

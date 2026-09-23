@@ -1,5 +1,23 @@
 [
   {
+    "description": "A collection of Claude Code skills, with QA skills that end in a mandatory independent-subagent review pass.",
+    "id": "xtieume/testcase",
+    "language": "Python",
+    "name": "xtieume/testcase",
+    "stars": 3,
+    "updated_at": "2026-09-23T16:44:57Z",
+    "url": "https://github.com/xtieume/testcase"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-23T16:44:14Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align",
     "id": "MnemeHQ/mneme",
     "language": "Python",
@@ -25,24 +43,6 @@
     "stars": 1,
     "updated_at": "2026-09-23T16:31:08Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-23T16:30:45Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
-    "description": "A collection of Claude Code skills, with QA skills that end in a mandatory independent-subagent review pass.",
-    "id": "xtieume/testcase",
-    "language": "Python",
-    "name": "xtieume/testcase",
-    "stars": 3,
-    "updated_at": "2026-09-23T16:43:54Z",
-    "url": "https://github.com/xtieume/testcase"
   },
   {
     "description": "Production-ready AI agent profiles for Claude Code, Cursor, Codex, OpenClaw, and Hermes. Search, install, and contribute",
@@ -510,7 +510,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39908,
+    "stars": 39909,
     "updated_at": "2026-09-21T01:09:57Z",
     "url": "https://github.com/wshobson/agents"
   }
