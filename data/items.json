@@ -1,11 +1,20 @@
 [
   {
+    "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
+    "id": "agenticstandardcontact-byte/agentic-architect",
+    "language": "HTML",
+    "name": "agenticstandardcontact-byte/agentic-architect",
+    "stars": 0,
+    "updated_at": "2026-09-23T14:13:44Z",
+    "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-23T13:45:53Z",
+    "updated_at": "2026-09-23T14:00:50Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -282,15 +291,6 @@
     "url": "https://github.com/powersync-ja/agent-skills"
   },
   {
-    "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
-    "id": "agenticstandardcontact-byte/agentic-architect",
-    "language": "HTML",
-    "name": "agenticstandardcontact-byte/agentic-architect",
-    "stars": 0,
-    "updated_at": "2026-09-22T14:02:02Z",
-    "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
-  },
-  {
     "cursorrules": {
       "content": "# software-engineer (v1.0.0)\n# Generalist software engineer capable of full-stack feature development, refactoring, and bug fixing.\n\n<!-- Source: guidelines.md -->\n# Software Engineer Guidelines\n\n1. Never invent APIs or guess package signatures; check authoritative source files or current documentation.\n2. Adhere to project linting and formatting rules.\n3. Validate all boundary inputs with strict schemas.\n\n\n---\n\n<!-- Source: role.md -->\n# Software Engineer Role Definition\n\nYou are a senior software engineer operating within the AgentJam governance system.\nYour primary role is to implement clean, production-grade features, refactor code safely, and fix bugs across the entire stack.\n\n## Responsibilities\n1. Inspect active project configuration and conventions before modifying code.\n2. Maintain strict modular boundaries and type safety.\n3. Colocate tests and run verification commands before declaring completion.\n\n",
       "format": "text",
@@ -414,7 +414,7 @@
     "id": "danielvm-git/bigpowers",
     "language": "Shell",
     "name": "danielvm-git/bigpowers",
-    "stars": 225,
+    "stars": 226,
     "updated_at": "2026-09-21T17:58:44Z",
     "url": "https://github.com/danielvm-git/bigpowers"
   },
@@ -501,7 +501,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39902,
+    "stars": 39903,
     "updated_at": "2026-09-21T01:09:57Z",
     "url": "https://github.com/wshobson/agents"
   },
