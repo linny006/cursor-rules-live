@@ -1,11 +1,20 @@
 [
   {
+    "description": "\ud83d\ude80 127 Specialized AI Agent Skills, 3-Step Autonomous Workflow, and Local SEO Operating System for Antigravity & Claude C",
+    "id": "jahidulislamseo/antigravity-ai-skills",
+    "language": "HTML",
+    "name": "jahidulislamseo/antigravity-ai-skills",
+    "stars": 3,
+    "updated_at": "2026-09-23T02:45:03Z",
+    "url": "https://github.com/jahidulislamseo/antigravity-ai-skills"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-23T02:15:48Z",
+    "updated_at": "2026-09-23T02:30:31Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -215,7 +224,7 @@
     "language": "Python",
     "name": "xtieume/testcase",
     "stars": 3,
-    "updated_at": "2026-09-23T01:57:30Z",
+    "updated_at": "2026-09-23T02:33:29Z",
     "url": "https://github.com/xtieume/testcase"
   },
   {
@@ -504,14 +513,5 @@
     "stars": 0,
     "updated_at": "2026-09-20T09:20:29Z",
     "url": "https://github.com/ilovefiniki/init-project"
-  },
-  {
-    "description": "\u82f1\u6587\u6587\u7ae0\u80cc\u8bf5\u6280\u5de7",
-    "id": "yxdwind/english-memory-method",
-    "language": "HTML",
-    "name": "yxdwind/english-memory-method",
-    "stars": 0,
-    "updated_at": "2026-09-20T01:45:29Z",
-    "url": "https://github.com/yxdwind/english-memory-method"
   }
 ]
