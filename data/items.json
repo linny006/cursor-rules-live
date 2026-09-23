@@ -1,12 +1,21 @@
 [
   {
-    "description": "Agent rule + prompting skill for Claude Opus 5.5, derived from the official claude.dev guide. Works with Oh My Pi, Claud",
-    "id": "Emirfs/opus-5-5-playbook",
-    "language": "\u2014",
-    "name": "Emirfs/opus-5-5-playbook",
-    "stars": 0,
-    "updated_at": "2026-09-23T06:36:44Z",
-    "url": "https://github.com/Emirfs/opus-5-5-playbook"
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-09-23T06:59:32Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "Production-ready AI agent profiles for Claude Code, Cursor, Codex, OpenClaw, and Hermes. Search, install, and contribute",
+    "id": "nota-america/forgecat-agent-profiles",
+    "language": "TypeScript",
+    "name": "nota-america/forgecat-agent-profiles",
+    "stars": 84,
+    "updated_at": "2026-09-23T06:56:39Z",
+    "url": "https://github.com/nota-america/forgecat-agent-profiles"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +23,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-23T06:30:37Z",
+    "updated_at": "2026-09-23T06:45:43Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Agent rule + prompting skill for Claude Opus 5.5, derived from the official claude.dev guide. Works with Oh My Pi, Claud",
+    "id": "Emirfs/opus-5-5-playbook",
+    "language": "\u2014",
+    "name": "Emirfs/opus-5-5-playbook",
+    "stars": 0,
+    "updated_at": "2026-09-23T06:36:44Z",
+    "url": "https://github.com/Emirfs/opus-5-5-playbook"
   },
   {
     "cursorrules": {
@@ -127,15 +145,6 @@
     "url": "https://github.com/Catherine1401/agent-skills"
   },
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-09-23T01:03:47Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
     "description": "Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align",
     "id": "MnemeHQ/mneme",
     "language": "Python",
@@ -152,15 +161,6 @@
     "stars": 47,
     "updated_at": "2026-09-22T22:22:41Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "description": "Production-ready AI agent profiles for Claude Code, Cursor, Codex, OpenClaw, and Hermes. Search, install, and contribute",
-    "id": "nota-america/forgecat-agent-profiles",
-    "language": "TypeScript",
-    "name": "nota-america/forgecat-agent-profiles",
-    "stars": 84,
-    "updated_at": "2026-09-22T22:05:04Z",
-    "url": "https://github.com/nota-america/forgecat-agent-profiles"
   },
   {
     "cursorrules": {
