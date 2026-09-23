@@ -1,11 +1,20 @@
 [
   {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 3,
+    "updated_at": "2026-09-23T11:47:35Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-23T11:30:46Z",
+    "updated_at": "2026-09-23T11:45:43Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -163,15 +172,6 @@
     "url": "https://github.com/Emirfs/opus-5-5-playbook"
   },
   {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 3,
-    "updated_at": "2026-09-23T06:03:46Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
     "description": "My life's work: a deterministic engineering harness for Cursor.",
     "id": "kleosr/bridle",
     "language": "Shell",
@@ -236,7 +236,7 @@
     "language": "Dart",
     "name": "fluttersdk/wind",
     "stars": 35,
-    "updated_at": "2026-09-23T10:06:16Z",
+    "updated_at": "2026-09-23T11:57:04Z",
     "url": "https://github.com/fluttersdk/wind"
   },
   {
@@ -501,7 +501,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39899,
+    "stars": 39900,
     "updated_at": "2026-09-21T01:09:57Z",
     "url": "https://github.com/wshobson/agents"
   },
