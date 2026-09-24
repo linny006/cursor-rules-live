@@ -1,11 +1,20 @@
 [
   {
+    "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
+    "id": "mikeprasad/aria-knowledge",
+    "language": "Shell",
+    "name": "mikeprasad/aria-knowledge",
+    "stars": 17,
+    "updated_at": "2026-09-24T15:36:59Z",
+    "url": "https://github.com/mikeprasad/aria-knowledge"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-24T15:15:58Z",
+    "updated_at": "2026-09-24T15:30:54Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -148,15 +157,6 @@
     "stars": 0,
     "updated_at": "2026-09-24T12:18:37Z",
     "url": "https://github.com/MortuisVMain/ai-agent-superpowers"
-  },
-  {
-    "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
-    "id": "mikeprasad/aria-knowledge",
-    "language": "Shell",
-    "name": "mikeprasad/aria-knowledge",
-    "stars": 17,
-    "updated_at": "2026-09-24T12:11:17Z",
-    "url": "https://github.com/mikeprasad/aria-knowledge"
   },
   {
     "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
