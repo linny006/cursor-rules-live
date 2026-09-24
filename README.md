@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-24 12:45 UTC
+> ⏰ Last updated: 2026-09-24 13:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,16 +53,16 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [roedyrustam/vibes-plug](https://github.com/roedyrustam/vibes-plug) | 69 | Python | 2026-09-24 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/roedyrustam/vibes-plug/) | Universal Multi-Agent Swarm Plugin with specialized skills for Antigravity (AGY), Claude Code, and Cursor IDE. Modern 20 |
+| 1 | [johnwall123459885/skene-cookbook](https://github.com/johnwall123459885/skene-cookbook) | 0 | Python | 2026-09-24 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/johnwall123459885/skene-cookbook/) | 🤖 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development. |
 | 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-24 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 3 | [MortuisVMain/ai-agent-superpowers](https://github.com/MortuisVMain/ai-agent-superpowers) | 0 | Python | 2026-09-24 | — | 🧠 132+ Engineering Superpowers & Cognitive Architecture for Autonomous AI Agents. Zero Slop, 100% Craft. |
-| 4 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 17 | Shell | 2026-09-24 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
-| 5 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 18 | TypeScript | 2026-09-24 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
-| 6 | [saqie803/ponytail](https://github.com/saqie803/ponytail) | 2 | JavaScript | 2026-09-24 | — | Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony. |
-| 7 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-09-24 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
-| 8 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 47 | — | 2026-09-24 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
-| 9 | [Bastioned-successor320/learn-nanobot](https://github.com/Bastioned-successor320/learn-nanobot) | 10 | Python | 2026-09-24 | — | Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers |
-| 10 | [johnwall123459885/skene-cookbook](https://github.com/johnwall123459885/skene-cookbook) | 0 | Python | 2026-09-24 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/johnwall123459885/skene-cookbook/) | 🤖 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development. |
+| 3 | [roedyrustam/vibes-plug](https://github.com/roedyrustam/vibes-plug) | 69 | Python | 2026-09-24 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/roedyrustam/vibes-plug/) | Universal Multi-Agent Swarm Plugin with specialized skills for Antigravity (AGY), Claude Code, and Cursor IDE. Modern 20 |
+| 4 | [MortuisVMain/ai-agent-superpowers](https://github.com/MortuisVMain/ai-agent-superpowers) | 0 | Python | 2026-09-24 | — | 🧠 132+ Engineering Superpowers & Cognitive Architecture for Autonomous AI Agents. Zero Slop, 100% Craft. |
+| 5 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 17 | Shell | 2026-09-24 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
+| 6 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 18 | TypeScript | 2026-09-24 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
+| 7 | [saqie803/ponytail](https://github.com/saqie803/ponytail) | 2 | JavaScript | 2026-09-24 | — | Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony. |
+| 8 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-09-24 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
+| 9 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 47 | — | 2026-09-24 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
+| 10 | [Bastioned-successor320/learn-nanobot](https://github.com/Bastioned-successor320/learn-nanobot) | 10 | Python | 2026-09-24 | — | Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers |
 | 11 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-09-24 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
 | 12 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-09-24 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
 | 13 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-09-24 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
