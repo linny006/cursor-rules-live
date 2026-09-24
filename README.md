@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-24 18:30 UTC
+> ⏰ Last updated: 2026-09-24 18:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -102,7 +102,7 @@ expired items removed — so you can rely on what you see being current.
 | 47 | [Lolner95/AIGX](https://github.com/Lolner95/AIGX) | 147 | Python | 2026-09-21 | — | Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig |
 | 48 | [madebyaris/cursor-composer-rules](https://github.com/madebyaris/cursor-composer-rules) | 3 | — | 2026-09-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/madebyaris/cursor-composer-rules/) | How a senior engineer thinks, encoded for Cursor agents — evidence-first, surgical edits, reasoning & metacognition, and |
 | 49 | [jcottam/agent-resources](https://github.com/jcottam/agent-resources) | 29 | Shell | 2026-09-21 | — | Battle-tested agent skills and Cursor rules from real projects. Works with Cursor, Claude Code, and any agent. |
-| 50 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 233 | Shell | 2026-09-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | Agent skills synthesizing years of software engineering discipline into a prescriptive methodology for solo developers |
+| 50 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 234 | Shell | 2026-09-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | Agent skills synthesizing years of software engineering discipline into a prescriptive methodology for solo developers |
 <!-- TRACKER_TABLE_END -->
 
 ---
