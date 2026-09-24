@@ -1,12 +1,12 @@
 [
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-09-24T07:57:46Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+    "description": "Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml",
+    "id": "nu-nenoi/repo-nexus",
+    "language": "Shell",
+    "name": "nu-nenoi/repo-nexus",
+    "stars": 0,
+    "updated_at": "2026-09-24T08:08:57Z",
+    "url": "https://github.com/nu-nenoi/repo-nexus"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,17 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-24T07:45:51Z",
+    "updated_at": "2026-09-24T08:00:40Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
-    "description": "Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml",
-    "id": "nu-nenoi/repo-nexus",
-    "language": "Shell",
-    "name": "nu-nenoi/repo-nexus",
-    "stars": 0,
-    "updated_at": "2026-09-24T07:45:28Z",
-    "url": "https://github.com/nu-nenoi/repo-nexus"
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-09-24T07:57:46Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
