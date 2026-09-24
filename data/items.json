@@ -1,12 +1,12 @@
 [
   {
-    "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
-    "id": "mikeprasad/aria-knowledge",
-    "language": "Shell",
-    "name": "mikeprasad/aria-knowledge",
-    "stars": 17,
-    "updated_at": "2026-09-24T12:11:17Z",
-    "url": "https://github.com/mikeprasad/aria-knowledge"
+    "description": "\ud83e\udde0 132+ Engineering Superpowers & Cognitive Architecture for Autonomous AI Agents. Zero Slop, 100% Craft.",
+    "id": "MortuisVMain/ai-agent-superpowers",
+    "language": "Python",
+    "name": "MortuisVMain/ai-agent-superpowers",
+    "stars": 0,
+    "updated_at": "2026-09-24T12:18:37Z",
+    "url": "https://github.com/MortuisVMain/ai-agent-superpowers"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,31 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-24T12:00:37Z",
+    "updated_at": "2026-09-24T12:15:42Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "cursorrules": {
+      "content": "# Vibes-Plug \u2014 144+ Skills Ecosystem (v2.12.0)\n# Universal AI Plugin for Antigravity, Claude, and Cursor\n\n## About\nThis project uses the vibes-plug skills ecosystem with 144+ specialized skills.\nEach skill is a `SKILL.md` file in the `skills/` directory containing domain-specific\ninstructions, patterns, and best practices for the modern 2026 tech stack.\n\n## Core Stack (2026 Edition)\n- Frontend: React 19, Next.js 15, Tailwind CSS v4, TypeScript 5.8+\n- Backend: Node.js 24 LTS, Bun 1.2+, Hono v4, Fastify 5, Python 3.14, Go 1.25+, Rust 2024\n- Database: Prisma 6, Drizzle ORM, PostgreSQL, Supabase, Neon, Turso\n- AI/LLM: Vercel AI SDK 5.x, MCP v1.9+, pgvector, RAG pipelines\n\n## Mandatory Before Coding\n1. Read the relevant `skills/<skill-name>/SKILL.md` files before writing code.\n2. Think deeply before acting \u2014 analyze constraints, question assumptions, validate approach.\n3. For new projects, auto-generate: PRD.md, ERD.md, DOKUMENTASI.md.\n\n## Skill Domains\n- \ud83e\udd16 AI & Agentic: ai-llm-integration-expert, vercel-ai-sdk-expert, deep-research-analyst, synthetic-data-finetuning-expert, pydantic-ai-expert, mcp-server-architect, vector-db-rag-expert, multi-agent-orchestration, graph-rag-knowledge-expert, local-slm-edge-ai-expert\n- \ud83c\udfa8 Design & UI/UX: design-system-architect, hig, ui-components-expert, ui-ux-pro-max\n- \ud83d\udda5\ufe0f Frontend: senior-frontend, tailwind-expert, nextjs-app-router-expert, tanstack-query-expert, vue-frontend-expert\n- \u2699\ufe0f Backend: js-backend-expert, python-programming-expert, go-programming-expert, rust-programming-expert, api-design-expert\n- \u2601\ufe0f SaaS & Cloud: saas-transformer, saas-billing, ci-cd-devops-architect, cloud-hosting-expert, payment-gateway-expert\n- \ud83d\uddc4\ufe0f Database: database-orm-expert, edge-serverless-db-expert, supabase-migration\n- \ud83d\udd12 Security: authentication-identity-expert, e2e-testing-expert, production-ready-hardener, zero-trust-secret-vault\n- \ud83d\udd0d SEO: seo\n- \ud83d\udee0\ufe0f Utilities: brainstorming, prd-architect, auto-doc-updater, token-saver, vibe-code-gardener\n\n## Code Quality\n- Clean Code, SOLID, DRY \u2014 see `scalability-clean-code` skill.\n- No AI slop \u2014 be imperative, direct, token-efficient.\n- Bilingual support (English & Bahasa Indonesia) for all skills.\n\n## Orchestration Flow\n1. Ideation: brainstorming \u2192 prd-architect\n2. Design: design-system-architect \u2192 senior-frontend \u2192 ui-components-expert\n3. Backend: js-backend-expert \u2192 event-driven-architect \u2192 autonomous-tdd-debugger\n4. AI: ai-llm-integration-expert \u2192 mcp-server-architect\n5. SaaS: saas-transformer \u2192 saas-billing + saas-multi-tenant\n6. Launch: e2e-testing-expert \u2192 seo \u2192 production-ready-hardener\n",
+      "format": "text",
+      "path": ".cursorrules"
+    },
+    "description": "Universal Multi-Agent Swarm Plugin with specialized skills for Antigravity (AGY), Claude Code, and Cursor IDE. Modern 20",
+    "id": "roedyrustam/vibes-plug",
+    "language": "Python",
+    "name": "roedyrustam/vibes-plug",
+    "stars": 69,
+    "updated_at": "2026-09-24T12:12:12Z",
+    "url": "https://github.com/roedyrustam/vibes-plug"
+  },
+  {
+    "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
+    "id": "mikeprasad/aria-knowledge",
+    "language": "Shell",
+    "name": "mikeprasad/aria-knowledge",
+    "stars": 17,
+    "updated_at": "2026-09-24T12:11:17Z",
+    "url": "https://github.com/mikeprasad/aria-knowledge"
   },
   {
     "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
@@ -480,23 +503,5 @@
     "stars": 1,
     "updated_at": "2026-09-21T12:41:18Z",
     "url": "https://github.com/AymaneWebDEV/developer-prompt-vault"
-  },
-  {
-    "description": "Auto harness engineering meta-repo: discuss \u2192 curate \u2192 bootstrap a context-engineered project for Claude Code, Cursor, C",
-    "id": "glowElephant/context-forge",
-    "language": "Python",
-    "name": "glowElephant/context-forge",
-    "stars": 2,
-    "updated_at": "2026-09-21T09:22:25Z",
-    "url": "https://github.com/glowElephant/context-forge"
-  },
-  {
-    "description": "\u5168\u7403\u9152\u5e97\u9884\u8ba2&\u4f4e\u4ef7\u76d1\u63a7\u63d0\u9192Skill\uff0c200\u4e07+\u7cbe\u9009\u9152\u5e97\uff0c\u72ec\u5bb6\u4f18\u60e0\u4ef7\u683c\uff0c\u8ba9\u4f60\u7684Agent\u8f7b\u677e\u9884\u8ba2\u54c1\u8d28\u9152\u5e97\uff0c\u652f\u6301\u652f\u4ed8\u5b9d\u4e0b\u5355+\u67e5\u8be2\u5386\u53f2\u8ba2\u5355\uff0c24 \u5c0f\u65f6\u5ba2\u670d\u652f\u6301\uff0c\u5168\u5929\u5019\u54cd\u5e94\u3002",
-    "id": "RollingGo-AI/rollinggo-hotel-skill-cn",
-    "language": "Python",
-    "name": "RollingGo-AI/rollinggo-hotel-skill-cn",
-    "stars": 158,
-    "updated_at": "2026-09-21T09:13:26Z",
-    "url": "https://github.com/RollingGo-AI/rollinggo-hotel-skill-cn"
   }
 ]
