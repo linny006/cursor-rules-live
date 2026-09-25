@@ -1,5 +1,14 @@
 [
   {
+    "description": "\ud83d\ude80 127 Specialized AI Agent Skills, 3-Step Autonomous Workflow, and Local SEO Operating System for Antigravity & Claude C",
+    "id": "jahidulislamseo/antigravity-ai-skills",
+    "language": "HTML",
+    "name": "jahidulislamseo/antigravity-ai-skills",
+    "stars": 4,
+    "updated_at": "2026-09-25T06:09:58Z",
+    "url": "https://github.com/jahidulislamseo/antigravity-ai-skills"
+  },
+  {
     "cursorrules": {
       "content": "# Emdash Skills for Cursor\n\nLoad CONVENTIONS.md for stack defaults. Load _router.md for skill routing.\n14 categories (01-14), 94 reference docs, 18 agents.\n\n## Stack\nCF Workers+Hono | Angular 21+Ionic 8+PrimeNG 21 | D1/Neon | Drizzle v1 | Clerk | Stripe | Inngest | Resend | Bun | Playwright v1.59+ | PostHog | Sentry\n\n## Rules\n- TypeScript strict, never `any`, prefer `interface` over `type`\n- Hono inline handlers for RPC type inference\n- Zod validation on all inputs\n- TDD: failing test first, Playwright 6 breakpoints\n- Dark-first design, #060610 bg, #00E5FF accent\n- Deploy to CF Workers, purge CDN after every deploy\n\nSee CONVENTIONS.md for full patterns.\n",
       "format": "text",
@@ -10,7 +19,7 @@
     "language": "TypeScript",
     "name": "heymegabyte/claude-skills",
     "stars": 22,
-    "updated_at": "2026-09-25T05:49:47Z",
+    "updated_at": "2026-09-25T06:03:29Z",
     "url": "https://github.com/heymegabyte/claude-skills"
   },
   {
@@ -19,7 +28,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-25T05:45:35Z",
+    "updated_at": "2026-09-25T06:00:35Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -329,15 +338,6 @@
     "stars": 570,
     "updated_at": "2026-09-24T06:37:18Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
-  },
-  {
-    "description": "\ud83d\ude80 127 Specialized AI Agent Skills, 3-Step Autonomous Workflow, and Local SEO Operating System for Antigravity & Claude C",
-    "id": "jahidulislamseo/antigravity-ai-skills",
-    "language": "HTML",
-    "name": "jahidulislamseo/antigravity-ai-skills",
-    "stars": 4,
-    "updated_at": "2026-09-24T03:23:14Z",
-    "url": "https://github.com/jahidulislamseo/antigravity-ai-skills"
   },
   {
     "description": "Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W-",
