@@ -1,11 +1,29 @@
 [
   {
+    "description": "Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 21,
+    "updated_at": "2026-09-25T11:42:59Z",
+    "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
+    "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
+    "id": "philipbankier/awesome-agent-skills",
+    "language": "TypeScript",
+    "name": "philipbankier/awesome-agent-skills",
+    "stars": 18,
+    "updated_at": "2026-09-25T11:41:19Z",
+    "url": "https://github.com/philipbankier/awesome-agent-skills"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-25T11:15:41Z",
+    "updated_at": "2026-09-25T11:30:41Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -52,15 +70,6 @@
     "stars": 3,
     "updated_at": "2026-09-25T10:43:35Z",
     "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
-  },
-  {
-    "description": "Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 21,
-    "updated_at": "2026-09-25T11:26:46Z",
-    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "cursorrules": {
@@ -327,15 +336,6 @@
     "url": "https://github.com/MortuisVMain/ai-agent-superpowers"
   },
   {
-    "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
-    "id": "philipbankier/awesome-agent-skills",
-    "language": "TypeScript",
-    "name": "philipbankier/awesome-agent-skills",
-    "stars": 18,
-    "updated_at": "2026-09-24T11:26:39Z",
-    "url": "https://github.com/philipbankier/awesome-agent-skills"
-  },
-  {
     "description": "Deterministic, zero-token markdown documentation link and asset validator. Audits broken relative links and flags orphan",
     "id": "Aritpal15/markdown-asset-doctor",
     "language": "Shell",
@@ -349,7 +349,7 @@
     "id": "nu-nenoi/repo-nexus",
     "language": "Shell",
     "name": "nu-nenoi/repo-nexus",
-    "stars": 3,
+    "stars": 4,
     "updated_at": "2026-09-24T08:59:15Z",
     "url": "https://github.com/nu-nenoi/repo-nexus"
   },
