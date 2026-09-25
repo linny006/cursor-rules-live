@@ -1,11 +1,29 @@
 [
   {
+    "description": "Official integrations and installable doctrine for AI Design Blueprint: MCP, IDE rules, prompt files, and agent runtimes",
+    "id": "aidesignblueprint/integrations",
+    "language": "Python",
+    "name": "aidesignblueprint/integrations",
+    "stars": 3,
+    "updated_at": "2026-09-25T11:50:11Z",
+    "url": "https://github.com/aidesignblueprint/integrations"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-25T11:45:39Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align",
     "id": "MnemeHQ/mneme",
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 21,
-    "updated_at": "2026-09-25T11:42:59Z",
+    "updated_at": "2026-09-25T11:45:20Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
@@ -16,15 +34,6 @@
     "stars": 18,
     "updated_at": "2026-09-25T11:41:19Z",
     "url": "https://github.com/philipbankier/awesome-agent-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-25T11:30:41Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -234,15 +243,6 @@
     "stars": 1,
     "updated_at": "2026-09-24T23:16:09Z",
     "url": "https://github.com/kleosr/bridle"
-  },
-  {
-    "description": "Official integrations and installable doctrine for AI Design Blueprint: MCP, IDE rules, prompt files, and agent runtimes",
-    "id": "aidesignblueprint/integrations",
-    "language": "Python",
-    "name": "aidesignblueprint/integrations",
-    "stars": 3,
-    "updated_at": "2026-09-24T21:43:29Z",
-    "url": "https://github.com/aidesignblueprint/integrations"
   },
   {
     "description": "openEHR assistant AI plugin suite with Skills, commands, and MCP server configuration for clinical workflow integration",
