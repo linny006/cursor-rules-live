@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-25 09:00 UTC
+> ⏰ Last updated: 2026-09-25 09:16 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -54,10 +54,10 @@ expired items removed — so you can rely on what you see being current.
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
 | 1 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 21 | Python | 2026-09-25 | — | Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align |
-| 2 | [Hyanthropological659/clarify-skill](https://github.com/Hyanthropological659/clarify-skill) | 1 | — | 2026-09-25 | — | Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a |
-| 3 | [heymegabyte/claude-skills](https://github.com/heymegabyte/claude-skills) | 22 | TypeScript | 2026-09-25 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/claude-skills/) | 14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts → deployed products. |
-| 4 | [Overseastelegramaliterateperson865/awesome-claude-md](https://github.com/Overseastelegramaliterateperson865/awesome-claude-md) | 3 | — | 2026-09-25 | — | Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr |
-| 5 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-25 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [heymegabyte/claude-skills](https://github.com/heymegabyte/claude-skills) | 22 | TypeScript | 2026-09-25 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/claude-skills/) | 14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts → deployed products. |
+| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-25 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 4 | [Hyanthropological659/clarify-skill](https://github.com/Hyanthropological659/clarify-skill) | 1 | — | 2026-09-25 | — | Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a |
+| 5 | [Overseastelegramaliterateperson865/awesome-claude-md](https://github.com/Overseastelegramaliterateperson865/awesome-claude-md) | 3 | — | 2026-09-25 | — | Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr |
 | 6 | [Luxvil/ai-coding-rules](https://github.com/Luxvil/ai-coding-rules) | 3 | Shell | 2026-09-25 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Luxvil/ai-coding-rules/) | 🤖 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje |
 | 7 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-09-25 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
 | 8 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-09-25 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
