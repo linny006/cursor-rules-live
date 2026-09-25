@@ -1,12 +1,44 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: \"USE WHEN: any task in this repo. Global operating rules.\"\nglobs: [\"**/*\"]\nalwaysApply: true\npriority: 100\n---\n\n# Global Rules (Always On)\n\n## Role\nYou are an AI coding assistant. Deliver correct, minimal, testable changes. Surface uncertainty instead of hiding it.\n\n## Non\u2011Negotiables\n- **Correctness > simplicity > consistency > style**.\n- **Minimal diff**: touch only what the task needs.\n- **No drive\u2011by refactors**.\n- **Ask when ambiguous**: assumptions ledger + up to 3 questions.\n- **Stop** on security, data loss, or breaking changes; ask for confirmation.\n\n## Output Discipline\n- Provide a brief plan before changes.\n- Show verification steps (lint/typecheck/tests) and state what wasn\u2019t run.\n\n## Guardrails\n- No hard\u2011coded secrets.\n- No unrelated formatting or renaming.\n- No new dependencies without approval.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/00-global.mdc"
+    },
+    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
+    "id": "Luxvil/ai-coding-rules",
+    "language": "Shell",
+    "name": "Luxvil/ai-coding-rules",
+    "stars": 3,
+    "updated_at": "2026-09-25T23:28:46Z",
+    "url": "https://github.com/Luxvil/ai-coding-rules"
+  },
+  {
     "description": "Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml",
     "id": "nu-nenoi/repo-nexus",
     "language": "Shell",
     "name": "nu-nenoi/repo-nexus",
     "stars": 4,
-    "updated_at": "2026-09-25T23:11:56Z",
+    "updated_at": "2026-09-25T23:17:41Z",
     "url": "https://github.com/nu-nenoi/repo-nexus"
+  },
+  {
+    "description": "My life's work: a deterministic engineering harness for Cursor.",
+    "id": "kleosr/bridle",
+    "language": "Shell",
+    "name": "kleosr/bridle",
+    "stars": 1,
+    "updated_at": "2026-09-25T23:16:46Z",
+    "url": "https://github.com/kleosr/bridle"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-25T23:15:43Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -21,15 +53,6 @@
     "stars": 1,
     "updated_at": "2026-09-25T23:09:28Z",
     "url": "https://github.com/primasdevlabs/agentjam"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-25T23:00:36Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -51,7 +74,7 @@
     "language": "Python",
     "name": "wshobson/agents",
     "stars": 39975,
-    "updated_at": "2026-09-25T23:12:45Z",
+    "updated_at": "2026-09-25T23:25:49Z",
     "url": "https://github.com/wshobson/agents"
   },
   {
@@ -132,20 +155,6 @@
     "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
   },
   {
-    "cursorrules": {
-      "content": "---\ndescription: \"USE WHEN: any task in this repo. Global operating rules.\"\nglobs: [\"**/*\"]\nalwaysApply: true\npriority: 100\n---\n\n# Global Rules (Always On)\n\n## Role\nYou are an AI coding assistant. Deliver correct, minimal, testable changes. Surface uncertainty instead of hiding it.\n\n## Non\u2011Negotiables\n- **Correctness > simplicity > consistency > style**.\n- **Minimal diff**: touch only what the task needs.\n- **No drive\u2011by refactors**.\n- **Ask when ambiguous**: assumptions ledger + up to 3 questions.\n- **Stop** on security, data loss, or breaking changes; ask for confirmation.\n\n## Output Discipline\n- Provide a brief plan before changes.\n- Show verification steps (lint/typecheck/tests) and state what wasn\u2019t run.\n\n## Guardrails\n- No hard\u2011coded secrets.\n- No unrelated formatting or renaming.\n- No new dependencies without approval.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/00-global.mdc"
-    },
-    "description": "\ud83e\udd16 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje",
-    "id": "Luxvil/ai-coding-rules",
-    "language": "Shell",
-    "name": "Luxvil/ai-coding-rules",
-    "stars": 3,
-    "updated_at": "2026-09-25T20:23:17Z",
-    "url": "https://github.com/Luxvil/ai-coding-rules"
-  },
-  {
     "description": "Adversarial first-principles review protocol for code, architectures, PRs, and LLM prompts: question requirements, delet",
     "id": "jdiazromeral/melon",
     "language": "\u2014",
@@ -180,15 +189,6 @@
     "stars": 0,
     "updated_at": "2026-09-25T14:35:55Z",
     "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
-  },
-  {
-    "description": "My life's work: a deterministic engineering harness for Cursor.",
-    "id": "kleosr/bridle",
-    "language": "Shell",
-    "name": "kleosr/bridle",
-    "stars": 1,
-    "updated_at": "2026-09-25T14:08:05Z",
-    "url": "https://github.com/kleosr/bridle"
   },
   {
     "cursorrules": {
