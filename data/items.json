@@ -1,11 +1,20 @@
 [
   {
+    "description": "Portable skills and shared policies for Codex, Claude Code, and Cursor on Linux.",
+    "id": "Catherine1401/agent-skills",
+    "language": "Shell",
+    "name": "Catherine1401/agent-skills",
+    "stars": 2,
+    "updated_at": "2026-09-25T09:55:14Z",
+    "url": "https://github.com/Catherine1401/agent-skills"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-25T09:30:35Z",
+    "updated_at": "2026-09-25T09:45:35Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -438,15 +447,6 @@
     "stars": 0,
     "updated_at": "2026-09-23T06:36:44Z",
     "url": "https://github.com/Emirfs/opus-5-5-playbook"
-  },
-  {
-    "description": "Portable skills and shared policies for Codex, Claude Code, and Cursor on Linux.",
-    "id": "Catherine1401/agent-skills",
-    "language": "Shell",
-    "name": "Catherine1401/agent-skills",
-    "stars": 2,
-    "updated_at": "2026-09-25T01:17:08Z",
-    "url": "https://github.com/Catherine1401/agent-skills"
   },
   {
     "cursorrules": {
