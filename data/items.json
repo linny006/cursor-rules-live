@@ -1,5 +1,14 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-09-25T05:36:36Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
     "cursorrules": {
       "content": "# Emdash Skills for Cursor\n\nLoad CONVENTIONS.md for stack defaults. Load _router.md for skill routing.\n14 categories (01-14), 94 reference docs, 18 agents.\n\n## Stack\nCF Workers+Hono | Angular 21+Ionic 8+PrimeNG 21 | D1/Neon | Drizzle v1 | Clerk | Stripe | Inngest | Resend | Bun | Playwright v1.59+ | PostHog | Sentry\n\n## Rules\n- TypeScript strict, never `any`, prefer `interface` over `type`\n- Hono inline handlers for RPC type inference\n- Zod validation on all inputs\n- TDD: failing test first, Playwright 6 breakpoints\n- Dark-first design, #060610 bg, #00E5FF accent\n- Deploy to CF Workers, purge CDN after every deploy\n\nSee CONVENTIONS.md for full patterns.\n",
       "format": "text",
@@ -10,7 +19,7 @@
     "language": "TypeScript",
     "name": "heymegabyte/claude-skills",
     "stars": 22,
-    "updated_at": "2026-09-25T05:20:17Z",
+    "updated_at": "2026-09-25T05:32:14Z",
     "url": "https://github.com/heymegabyte/claude-skills"
   },
   {
@@ -19,7 +28,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-25T05:15:33Z",
+    "updated_at": "2026-09-25T05:30:35Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -121,15 +130,6 @@
     "stars": 1,
     "updated_at": "2026-09-25T00:32:03Z",
     "url": "https://github.com/alipajand/agent-context-doctor"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-09-25T00:09:36Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Open-source architectural drift prevention for the agentic AI SDLC. Deterministic guardrails keep AI coding agents align",
