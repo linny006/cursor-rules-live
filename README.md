@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-25 23:30 UTC
+> ⏰ Last updated: 2026-09-25 23:35 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,10 +53,10 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [Luxvil/ai-coding-rules](https://github.com/Luxvil/ai-coding-rules) | 3 | Shell | 2026-09-25 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Luxvil/ai-coding-rules/) | 🤖 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje |
-| 2 | [nu-nenoi/repo-nexus](https://github.com/nu-nenoi/repo-nexus) | 4 | Shell | 2026-09-25 | — | Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml |
-| 3 | [kleosr/bridle](https://github.com/kleosr/bridle) | 1 | Shell | 2026-09-25 | — | My life's work: a deterministic engineering harness for Cursor. |
-| 4 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-25 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-25 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [Luxvil/ai-coding-rules](https://github.com/Luxvil/ai-coding-rules) | 3 | Shell | 2026-09-25 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Luxvil/ai-coding-rules/) | 🤖 Enhance AI coding assistants with battle-tested rules for reliability, predictability, and effectiveness in your proje |
+| 3 | [nu-nenoi/repo-nexus](https://github.com/nu-nenoi/repo-nexus) | 4 | Shell | 2026-09-25 | — | Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml |
+| 4 | [kleosr/bridle](https://github.com/kleosr/bridle) | 1 | Shell | 2026-09-25 | — | My life's work: a deterministic engineering harness for Cursor. |
 | 5 | [primasdevlabs/agentjam](https://github.com/primasdevlabs/agentjam) | 1 | Go | 2026-09-25 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/primasdevlabs/agentjam/) | AgentJam is an open-source, harness-agnostic runtime and governance system for AI coding agents. |
 | 6 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-09-25 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
 | 7 | [wshobson/agents](https://github.com/wshobson/agents) | 39975 | Python | 2026-09-25 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
