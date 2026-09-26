@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-26 19:00 UTC
+> ⏰ Last updated: 2026-09-26 19:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,8 +53,8 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-09-26 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-26 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-26 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-09-26 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
 | 3 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 21 | Python | 2026-09-26 | — | Architectural drift prevention for the agentic AI SDLC. |
 | 4 | [wshobson/agents](https://github.com/wshobson/agents) | 40003 | Python | 2026-09-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
 | 5 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-09-26 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
@@ -89,7 +89,7 @@ expired items removed — so you can rely on what you see being current.
 | 34 | [jdiazromeral/melon](https://github.com/jdiazromeral/melon) | 0 | — | 2026-09-25 | — | Adversarial first-principles review protocol for code, architectures, PRs, and LLM prompts: question requirements, delet |
 | 35 | [aidesignblueprint/integrations](https://github.com/aidesignblueprint/integrations) | 3 | Python | 2026-09-25 | — | Official integrations and installable doctrine for AI Design Blueprint: MCP, IDE rules, prompt files, and agent runtimes |
 | 36 | [wu529778790/shenzjd-skills](https://github.com/wu529778790/shenzjd-skills) | 3 | Shell | 2026-09-25 | — | 我的 Claude Code skills 集合，用于提升开发效率 |
-| 37 | [Harmitx7/tribunal-kit](https://github.com/Harmitx7/tribunal-kit) | 5 | Python | 2026-09-25 | — | A universal, native-Rust governance layer for AI coding agents. Enforces Subagent-Driven Development (SDD) to stop hallu |
+| 37 | [Harmitx7/tribunal-kit](https://github.com/Harmitx7/tribunal-kit) | 5 | Python | 2026-09-26 | — | A universal, native-Rust governance layer for AI coding agents. Enforces Subagent-Driven Development (SDD) to stop hallu |
 | 38 | [chkdskman/skill-sage-active-api](https://github.com/chkdskman/skill-sage-active-api) | 0 | — | 2026-09-25 | — | Sage Active Public API V2 (GraphQL) Skill/Plugin for Claude Code, Codex and Cursor. FR/ES/DE legislation rules. |
 | 39 | [saqie803/ponytail](https://github.com/saqie803/ponytail) | 2 | JavaScript | 2026-09-25 | — | Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony. |
 | 40 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-09-25 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
