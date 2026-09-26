@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-26 14:15 UTC
+> ⏰ Last updated: 2026-09-26 14:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,12 +53,12 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-26 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 2 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 21 | Python | 2026-09-26 | — | Architectural drift prevention for the agentic AI SDLC. |
-| 3 | [Nithwin/stable-frontend](https://github.com/Nithwin/stable-frontend) | 1 | TypeScript | 2026-09-26 | — | Frontend architecture and stability guidelines for AI coding agents in React and Next.js |
-| 4 | [kleosr/bridle](https://github.com/kleosr/bridle) | 1 | Shell | 2026-09-26 | — | My life's work: a deterministic engineering harness for Cursor. |
-| 5 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-09-26 | — | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
-| 6 | [wshobson/agents](https://github.com/wshobson/agents) | 39994 | Python | 2026-09-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
+| 1 | [wshobson/agents](https://github.com/wshobson/agents) | 39994 | Python | 2026-09-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
+| 2 | [Nithwin/stable-frontend](https://github.com/Nithwin/stable-frontend) | 1 | TypeScript | 2026-09-26 | — | Frontend architecture and stability guidelines for AI coding agents in React and Next.js |
+| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-26 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 4 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 21 | Python | 2026-09-26 | — | Architectural drift prevention for the agentic AI SDLC. |
+| 5 | [kleosr/bridle](https://github.com/kleosr/bridle) | 1 | Shell | 2026-09-26 | — | My life's work: a deterministic engineering harness for Cursor. |
+| 6 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-09-26 | — | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
 | 7 | [wilsonwaters/3d-printing](https://github.com/wilsonwaters/3d-printing) | 3 | OpenSCAD | 2026-09-26 | — | 3D printing toolkit — AI-powered design skills for Claude Code, Cursor, Windsurf & Copilot, plus parametric OpenSCAD mod |
 | 8 | [Amirun99/agency-orchestrator](https://github.com/Amirun99/agency-orchestrator) | 0 | Dart | 2026-09-26 | — | Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support. |
 | 9 | [zinxj/uikit-expert-skill](https://github.com/zinxj/uikit-expert-skill) | 5 | — | 2026-09-26 | — | Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan |

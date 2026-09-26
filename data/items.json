@@ -1,11 +1,34 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: claude-agents marketplace project conventions\nalwaysApply: true\n---\n\n# claude-agents conventions\n\nThis is a multi-harness plugin marketplace. Source lives under `plugins/`; per-harness\nartifacts (`.codex/`, `.cursor-plugin/`, `.opencode/`, `commands/`) are generated.\n\n- Don't hand-edit anything under `.codex/`, `.cursor-plugin/`, `.opencode/`, or top-level `commands/`, `agents/`, `skills/` \u2014 regenerate via `make generate HARNESS=<x>`.\n- Python tooling: `uv` (package manager), `ruff` (lint/format), `ty` (type check). Do not use pip/mypy/black.\n- Plugin files: `plugins/<name>/{.claude-plugin/plugin.json, agents/*.md, skills/<name>/SKILL.md, commands/*.md}`. Auto-discovered.\n- Cursor reads `.claude/skills/` and `.claude/agents/` directly \u2014 no separate `.cursor/skills/` is generated.\n\n## Never\n\n- Never commit secrets or hardcode credentials.\n- Never hand-edit generated registries (`.agents/plugins/marketplace.json`, `.cursor-plugin/`) \u2014 plugin PRs register the plugin in `.claude-plugin/marketplace.json`, then run `make generate-all` (see CONTRIBUTING.md).\n- Never run destructive git operations (force-push, reset --hard, branch -D) without explicit ask.\n\nSee `docs/authoring.md` for the portable-content style guide.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/000-project-conventions.mdc"
+    },
+    "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a",
+    "id": "wshobson/agents",
+    "language": "Python",
+    "name": "wshobson/agents",
+    "stars": 39994,
+    "updated_at": "2026-09-26T14:28:15Z",
+    "url": "https://github.com/wshobson/agents"
+  },
+  {
+    "description": "Frontend architecture and stability guidelines for AI coding agents in React and Next.js",
+    "id": "Nithwin/stable-frontend",
+    "language": "TypeScript",
+    "name": "Nithwin/stable-frontend",
+    "stars": 1,
+    "updated_at": "2026-09-26T14:23:44Z",
+    "url": "https://github.com/Nithwin/stable-frontend"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-26T14:00:53Z",
+    "updated_at": "2026-09-26T14:15:55Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -16,15 +39,6 @@
     "stars": 21,
     "updated_at": "2026-09-26T14:03:30Z",
     "url": "https://github.com/MnemeHQ/mneme"
-  },
-  {
-    "description": "Frontend architecture and stability guidelines for AI coding agents in React and Next.js",
-    "id": "Nithwin/stable-frontend",
-    "language": "TypeScript",
-    "name": "Nithwin/stable-frontend",
-    "stars": 1,
-    "updated_at": "2026-09-26T13:48:57Z",
-    "url": "https://github.com/Nithwin/stable-frontend"
   },
   {
     "description": "My life's work: a deterministic engineering harness for Cursor.",
@@ -43,20 +57,6 @@
     "stars": 0,
     "updated_at": "2026-09-26T13:44:25Z",
     "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: claude-agents marketplace project conventions\nalwaysApply: true\n---\n\n# claude-agents conventions\n\nThis is a multi-harness plugin marketplace. Source lives under `plugins/`; per-harness\nartifacts (`.codex/`, `.cursor-plugin/`, `.opencode/`, `commands/`) are generated.\n\n- Don't hand-edit anything under `.codex/`, `.cursor-plugin/`, `.opencode/`, or top-level `commands/`, `agents/`, `skills/` \u2014 regenerate via `make generate HARNESS=<x>`.\n- Python tooling: `uv` (package manager), `ruff` (lint/format), `ty` (type check). Do not use pip/mypy/black.\n- Plugin files: `plugins/<name>/{.claude-plugin/plugin.json, agents/*.md, skills/<name>/SKILL.md, commands/*.md}`. Auto-discovered.\n- Cursor reads `.claude/skills/` and `.claude/agents/` directly \u2014 no separate `.cursor/skills/` is generated.\n\n## Never\n\n- Never commit secrets or hardcode credentials.\n- Never hand-edit generated registries (`.agents/plugins/marketplace.json`, `.cursor-plugin/`) \u2014 plugin PRs register the plugin in `.claude-plugin/marketplace.json`, then run `make generate-all` (see CONTRIBUTING.md).\n- Never run destructive git operations (force-push, reset --hard, branch -D) without explicit ask.\n\nSee `docs/authoring.md` for the portable-content style guide.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/000-project-conventions.mdc"
-    },
-    "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a",
-    "id": "wshobson/agents",
-    "language": "Python",
-    "name": "wshobson/agents",
-    "stars": 39994,
-    "updated_at": "2026-09-26T14:15:14Z",
-    "url": "https://github.com/wshobson/agents"
   },
   {
     "description": "3D printing toolkit \u2014 AI-powered design skills for Claude Code, Cursor, Windsurf & Copilot, plus parametric OpenSCAD mod",
@@ -141,7 +141,7 @@
     "language": "Python",
     "name": "KbWen/agentic-os",
     "stars": 191,
-    "updated_at": "2026-09-26T12:31:23Z",
+    "updated_at": "2026-09-26T14:27:18Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
   {
