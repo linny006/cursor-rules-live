@@ -1,12 +1,12 @@
 [
   {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 48,
-    "updated_at": "2026-09-26T10:44:43Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+    "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
+    "id": "philipbankier/awesome-agent-skills",
+    "language": "TypeScript",
+    "name": "philipbankier/awesome-agent-skills",
+    "stars": 18,
+    "updated_at": "2026-09-26T10:51:11Z",
+    "url": "https://github.com/philipbankier/awesome-agent-skills"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-26T10:30:41Z",
+    "updated_at": "2026-09-26T10:45:35Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 48,
+    "updated_at": "2026-09-26T10:44:43Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "description": "3D printing toolkit \u2014 AI-powered design skills for Claude Code, Cursor, Windsurf & Copilot, plus parametric OpenSCAD mod",
@@ -181,7 +190,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 39986,
+    "stars": 39987,
     "updated_at": "2026-09-26T00:40:34Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -280,15 +289,6 @@
     "stars": 3,
     "updated_at": "2026-09-25T12:02:57Z",
     "url": "https://github.com/wu529778790/shenzjd-skills"
-  },
-  {
-    "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
-    "id": "philipbankier/awesome-agent-skills",
-    "language": "TypeScript",
-    "name": "philipbankier/awesome-agent-skills",
-    "stars": 18,
-    "updated_at": "2026-09-25T11:41:19Z",
-    "url": "https://github.com/philipbankier/awesome-agent-skills"
   },
   {
     "description": "Sage Active Public API V2 (GraphQL) Skill/Plugin for Claude Code, Codex and Cursor. FR/ES/DE legislation rules.",
