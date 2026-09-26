@@ -1,11 +1,29 @@
 [
   {
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-09-26T19:44:41Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
+  },
+  {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 1,
+    "updated_at": "2026-09-26T19:42:39Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-26T19:25:34Z",
+    "updated_at": "2026-09-26T19:30:50Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -37,7 +55,7 @@
     "language": "Python",
     "name": "wshobson/agents",
     "stars": 40003,
-    "updated_at": "2026-09-26T17:25:21Z",
+    "updated_at": "2026-09-26T19:42:28Z",
     "url": "https://github.com/wshobson/agents"
   },
   {
@@ -59,15 +77,6 @@
     "url": "https://github.com/kleosr/bridle"
   },
   {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
-    "stars": 0,
-    "updated_at": "2026-09-26T16:59:46Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
     "description": "A catalogue of AI writing tells, each with a plain rewrite, shared by Fireside. Drop it into a system prompt to stop LLM",
     "id": "fromfireside/better-tropes",
     "language": "\u2014",
@@ -75,15 +84,6 @@
     "stars": 5,
     "updated_at": "2026-09-26T16:59:36Z",
     "url": "https://github.com/fromfireside/better-tropes"
-  },
-  {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 1,
-    "updated_at": "2026-09-26T16:58:10Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "description": "Frontend architecture and stability guidelines for AI coding agents in React and Next.js",
@@ -186,7 +186,7 @@
     "language": "TypeScript",
     "name": "HoangNguyen0403/agent-skills-standard",
     "stars": 570,
-    "updated_at": "2026-09-26T11:39:09Z",
+    "updated_at": "2026-09-26T19:38:05Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
   },
   {
