@@ -1,12 +1,26 @@
 [
   {
-    "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
-    "id": "philipbankier/awesome-agent-skills",
-    "language": "TypeScript",
-    "name": "philipbankier/awesome-agent-skills",
-    "stars": 18,
-    "updated_at": "2026-09-26T10:51:11Z",
-    "url": "https://github.com/philipbankier/awesome-agent-skills"
+    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
+    "id": "zinxj/uikit-expert-skill",
+    "language": "\u2014",
+    "name": "zinxj/uikit-expert-skill",
+    "stars": 5,
+    "updated_at": "2026-09-26T11:14:07Z",
+    "url": "https://github.com/zinxj/uikit-expert-skill"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Never commit or push without explicit user instruction.\nalwaysApply: true\n---\n\n# No auto-commit\n\nNever run `git commit`, `git push`, `git tag`, or `npm publish` unless the user explicitly asks (e.g. \"commit this\", \"push\", \"publish\").\n\n- Show the user what changed and let them decide.\n- Use `git diff` or `git status` output to summarise changes in your response instead.\n- If you are about to perform a git write operation, stop and confirm first.\n\nThis applies regardless of how small, clean, or obviously-correct the change appears.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/no-auto-commit.mdc"
+    },
+    "description": "Make Cursor project-aware with repo-level rules, memory, workflows, verifier agents, and localization prompts.",
+    "id": "KingEmma7/cursor-os",
+    "language": "JavaScript",
+    "name": "KingEmma7/cursor-os",
+    "stars": 2,
+    "updated_at": "2026-09-26T11:10:08Z",
+    "url": "https://github.com/KingEmma7/cursor-os"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +28,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-26T10:45:35Z",
+    "updated_at": "2026-09-26T11:00:52Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
+    "id": "philipbankier/awesome-agent-skills",
+    "language": "TypeScript",
+    "name": "philipbankier/awesome-agent-skills",
+    "stars": 18,
+    "updated_at": "2026-09-26T10:51:11Z",
+    "url": "https://github.com/philipbankier/awesome-agent-skills"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -61,15 +84,6 @@
     "stars": 0,
     "updated_at": "2026-09-26T09:10:13Z",
     "url": "https://github.com/Amirun99/agency-orchestrator"
-  },
-  {
-    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
-    "id": "zinxj/uikit-expert-skill",
-    "language": "\u2014",
-    "name": "zinxj/uikit-expert-skill",
-    "stars": 5,
-    "updated_at": "2026-09-26T09:04:30Z",
-    "url": "https://github.com/zinxj/uikit-expert-skill"
   },
   {
     "cursorrules": {
@@ -484,14 +498,5 @@
     "stars": 36,
     "updated_at": "2026-09-25T17:05:59Z",
     "url": "https://github.com/fluttersdk/wind"
-  },
-  {
-    "description": "A collection of Claude Code skills, with QA skills that end in a mandatory independent-subagent review pass.",
-    "id": "xtieume/testcase",
-    "language": "Python",
-    "name": "xtieume/testcase",
-    "stars": 3,
-    "updated_at": "2026-09-24T10:33:43Z",
-    "url": "https://github.com/xtieume/testcase"
   }
 ]
