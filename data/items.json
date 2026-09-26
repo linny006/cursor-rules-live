@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-26T18:00:53Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Architectural drift prevention for the agentic AI SDLC.",
     "id": "MnemeHQ/mneme",
     "language": "Python",
@@ -7,15 +16,6 @@
     "stars": 21,
     "updated_at": "2026-09-26T17:48:31Z",
     "url": "https://github.com/MnemeHQ/mneme"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-26T17:45:37Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -145,7 +145,7 @@
     "language": "TypeScript",
     "name": "sx4im/skillcheck",
     "stars": 28,
-    "updated_at": "2026-09-26T12:59:10Z",
+    "updated_at": "2026-09-26T18:15:09Z",
     "url": "https://github.com/sx4im/skillcheck"
   },
   {
