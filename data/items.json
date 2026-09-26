@@ -5,8 +5,17 @@
     "language": "Shell",
     "name": "kleosr/bridle",
     "stars": 1,
-    "updated_at": "2026-09-26T05:29:59Z",
+    "updated_at": "2026-09-26T05:40:00Z",
     "url": "https://github.com/kleosr/bridle"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-26T05:30:35Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "3D printing toolkit \u2014 AI-powered design skills for Claude Code, Cursor, Windsurf & Copilot, plus parametric OpenSCAD mod",
@@ -25,15 +34,6 @@
     "stars": 1,
     "updated_at": "2026-09-26T05:19:15Z",
     "url": "https://github.com/Hyanthropological659/clarify-skill"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-26T05:15:40Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
