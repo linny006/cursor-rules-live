@@ -1,5 +1,41 @@
 [
   {
+    "description": "Rebuild any Dear ImGui menu in clean C++ from a single screenshot. Generates a buildable native Visual Studio (.sln) Win",
+    "id": "SharimAli/imgui-menu-clone",
+    "language": "C++",
+    "name": "SharimAli/imgui-menu-clone",
+    "stars": 0,
+    "updated_at": "2026-09-26T11:58:09Z",
+    "url": "https://github.com/SharimAli/imgui-menu-clone"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-09-26T11:58:06Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "\u82f1\u6587\u6587\u7ae0\u80cc\u8bf5\u6280\u5de7",
+    "id": "yxdwind/english-memory-method",
+    "language": "HTML",
+    "name": "yxdwind/english-memory-method",
+    "stars": 0,
+    "updated_at": "2026-09-26T11:55:52Z",
+    "url": "https://github.com/yxdwind/english-memory-method"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-26T11:45:35Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "3D printing toolkit \u2014 AI-powered design skills for Claude Code, Cursor, Windsurf & Copilot, plus parametric OpenSCAD mod",
     "id": "wilsonwaters/3d-printing",
     "language": "OpenSCAD",
@@ -16,15 +52,6 @@
     "stars": 570,
     "updated_at": "2026-09-26T11:39:09Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-26T11:30:54Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "323\u500b\u306e\u5373\u6226\u529bAI\u5c02\u9580\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8 \u2014 Claude Code/Cursor/Copilot\u7b49\u306b\u5bfe\u5fdc\u3002SIer/\u53d7\u8a17\u958b\u767a/SaaS/\u88fd\u9020DX/\u516c\u5171\u5206\u91ce\u306a\u3069\u65e5\u672c\u5e02\u5834\u5411\u3051114\u500b\u306e\u30aa\u30ea\u30b8\u30ca\u30eb\u3092\u542b\u3080\u3001agency-agents\u65e5\u672c\u8a9e\u30b3\u30df\u30e5\u30cb\u30c6\u30a3",
@@ -99,7 +126,7 @@
     "id": "KbWen/agentic-os",
     "language": "Python",
     "name": "KbWen/agentic-os",
-    "stars": 190,
+    "stars": 191,
     "updated_at": "2026-09-26T09:19:22Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
@@ -175,15 +202,6 @@
     "stars": 3,
     "updated_at": "2026-09-26T07:06:26Z",
     "url": "https://github.com/Luxvil/ai-coding-rules"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-09-26T06:51:43Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Blind A/B testing for AI agent skills, .cursorrules, CLAUDE.md, and system prompts. Detects placebo and harmful instruct",
@@ -391,15 +409,6 @@
     "url": "https://github.com/jahidulislamseo/antigravity-ai-skills"
   },
   {
-    "description": "\u82f1\u6587\u6587\u7ae0\u80cc\u8bf5\u6280\u5de7",
-    "id": "yxdwind/english-memory-method",
-    "language": "HTML",
-    "name": "yxdwind/english-memory-method",
-    "stars": 0,
-    "updated_at": "2026-09-25T02:53:49Z",
-    "url": "https://github.com/yxdwind/english-memory-method"
-  },
-  {
     "description": "Teach Claude Code, Cursor, Codex and other AI coding agents to build correct RTL (Hebrew, Arabic, Persian, Urdu) UIs - s",
     "id": "mhamedmohammed92-arch/rtl-skill",
     "language": "Python",
@@ -489,14 +498,5 @@
     "stars": 2,
     "updated_at": "2026-09-24T09:11:10Z",
     "url": "https://github.com/Aritpal15/markdown-asset-doctor"
-  },
-  {
-    "description": "Deterministic, zero-token repository detritus cleaner for Claude Code, Cursor, and Windsurf. Purges uncommitted scratch ",
-    "id": "Aritpal15/zero-waste-cleaner",
-    "language": "Shell",
-    "name": "Aritpal15/zero-waste-cleaner",
-    "stars": 2,
-    "updated_at": "2026-09-24T08:39:37Z",
-    "url": "https://github.com/Aritpal15/zero-waste-cleaner"
   }
 ]
