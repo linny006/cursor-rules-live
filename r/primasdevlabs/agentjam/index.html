@@ -56,15 +56,96 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <p>Path in source repo: <code>.cursorrules</code> &middot; format: <code>text</code></p>
 <pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code># Cursor Project Rules — software-engineer
 
-# AgentJam System Instructions &amp; Active Context (Go Engine)
+# AgentJam System Instructions &amp; Active Context (AgentJam Engine)
 **Workspace**: `C:\wamp64\www\fullstack`
-**Timestamp**: 2026-09-25T23:28:12+01:00
+**Timestamp**: 2026-09-27T10:14:55+01:00
+**Active Persona/Agent**: software-engineer
 
-## Active Stack Profile: Generic Polyglot
+## Active Stack Profile: generic
 
-## Enforced Policy Matrix (0 Policies Loaded)
-</code></pre>
-<p><a href="https://github.com/primasdevlabs/agentjam/blob/HEAD/.cursorrules" rel="external">View raw on GitHub</a></p>
+## Enforced Policy Matrix (38 Policies Loaded)
+- **[STRICT-BLOCK] Modular Architecture Policy** (`05-architecture`): Enforces clean separation of concerns, public contract boundaries, and small composable units.
+- **[WARNING] God File Limit** (`06-god-files`): Flags oversized files that accumulate too many responsibilities — &quot;god files&quot; that violate single-responsibility and become unmaintainable.
+- **[WARNING] Domain-Driven Layout** (`07-domain-layout`): Enforces domain-driven project structure — source files must be grouped by domain/bounded context, not dumped flat into a single directory.
+- **[STRICT-BLOCK] Coding Standards Policy** (`07-coding-standards`): Requires strict linting, formatting, type checking, and test verification before completion.
+- **[WARNING] Debug Statement Hygiene** (`08-debug-leftovers`): Flags debugging statements left in source — console.log, debugger, pdb breakpoints, and print-debugging should not ship.
+- **[INFO] Deferred Work Hygiene** (`09-todo-hygiene`): Tracks TODO/FIXME/HACK accumulation — a file drowning in deferred-work markers signals unfinished or unstable code.
+- **[STRICT-BLOCK] architecture** (`architecture`): 
+- **[STRICT-BLOCK] change-management** (`change-management`): 
+- **[STRICT-BLOCK] current-conventions** (`current-conventions`): 
+- **[STRICT-BLOCK] dependencies** (`dependencies`): 
+- **[STRICT-BLOCK] documentation** (`documentation`): 
+- **[STRICT-BLOCK] inspect-before-act** (`inspect-before-act`): 
+- **[STRICT-BLOCK] model-knowledge** (`model-knowledge`): 
+- **[STRICT-BLOCK] security** (`security`): 
+- **[STRICT-BLOCK] testing** (`testing`): 
+- **[STRICT-BLOCK] Dependency Boundary Policy** (`06-dependencies`): Restricts unapproved external package additions.
+- **[STRICT-BLOCK] accessibility** (`accessibility`): 
+- **[STRICT-BLOCK] animation** (`animation`): 
+- **[STRICT-BLOCK] anti-slop** (`anti-slop`): 
+- **[STRICT-BLOCK] color** (`color`): 
+- **[STRICT-BLOCK] components** (`components`): 
+- **[STRICT-BLOCK] copy** (`copy`): 
+- **[STRICT-BLOCK] design-system** (`design-system`): 
+- **[STRICT-BLOCK] icons** (`icons`): 
+- **[STRICT-BLOCK] responsive** (`responsive`): 
+- **[STRICT-BLOCK] spacing** (`spacing`): 
+- **[STRICT-BLOCK] typography** (`typography`): 
+- **[STRICT-BLOCK] visual-language** (`visual-language`): 
+- **[STRICT-BLOCK] Documentation Freshness Policy** (`03-freshness`): TRAINING KNOWLEDGE ≠ SOURCE OF TRUTH. Forces agents to verify current official documentation over model training memory.
+- **[STRICT-BLOCK] existing-project** (`existing-project`): 
+- **[STRICT-BLOCK] freshness** (`freshness`): 
+- **[STRICT-BLOCK] house-cleaning** (`house-cleaning`): 
+- **[STRICT-BLOCK] stack** (`stack`): 
+- **[STRICT-BLOCK] Security &amp; Secret Management Policy** (`04-security`): Enforces zero-secret leakage, input validation at boundaries, and parameterized database queries.
+- **[STRICT-BLOCK] Insecure API Sinks** (`05-insecure-api-sinks`): Blocks dangerous API calls that create injection, XSS, or transport-security holes — eval, raw DOM HTML injection, TLS verification bypass, shell string execution, weak crypto on credentials.
+- **[STRICT-BLOCK] Sensitive File Guard** (`06-sensitive-files`): Blocks scanning/working on committed sensitive files — env files, private keys, certificates, and credential stores must never live in the source tree.
+- **[STRICT-BLOCK] Technology Stack Policy** (`01-stack`): Enforces project-declared tech stack boundaries and prevents casual introduction of unapproved frameworks.
+- **[STRICT-BLOCK] Version Constraint Policy** (`02-versions`): Enforces version policy rules (current-stable, project-compatible, pinned) over raw &#x27;latest&#x27;.
+
+### Policy: Modular Architecture Policy
+Architecture Rules:
+- Respect module and package boundaries; use public APIs, shared packages, or contracts.
+- Never import other features&#x27; private internals.
+- Prefer small, composable units with single responsibility.
+
+### Policy: God File Limit
+God File Rules:
+- A single file must not exceed 500 lines; split by responsibility before it grows.
+- A file must not declare more than 40 top-level symbols (functions, classes, types).
+- Mixed-responsibility files (UI + data access + orchestration) must be decomposed
+  into cohesive units colocated with their domain.
+- Prefer many small modules over one large one; extraction beats accumulation.
+- No function may exceed 80 lines; long bodies hide multiple responsibilities.
+- Keep per-function branching (ifs, loops, cases, boolean ops, catches) under 12 —
+  beyond that, decompose into named helpers.
+
+### Policy: Domain-Driven Layout
+Domain Layout Rules:
+- Group source files by bounded context/domain (e.g. auth/, billing/, inventory/),
+  never as a flat pile in one directory.
+- No directory may hold more than 15 source files; split domains further.
+- Once a project exceeds 12 source files, at least 60% must live inside
+  domain-named subdirectories.
+- Entry points and composition roots stay at the edge; domain logic nests.
+
+### Policy: Coding Standards Policy
+Quality Assurance Rules:
+- Run type checking (`tsc` or stack equivalent) before declaring completion.
+- Run linter/formatter (`eslint`, `prettier`, `pint`, `php-cs-fixer`).
+- Ensure automated unit/integration tests pass cleanly.
+
+### Policy: Debug Statement Hygiene
+Debug Hygiene Rules:
+- Remove console.log, debugger, pdb.set_trace, binding.pry, fmt.Println, println!,
+  and System.out.println debugging before committing.
+- Use structured logging with levels when runtime diagnostics are intentional.
+
+### Policy: Deferred Work Hygiene
+Deferred Work Rules:
+- More than 5 TODO/FIXME/HACK/XXX markers in one file means the work is not done —
+  resolve or ticket them, don&#x27;t accumulate them</code></pre>
+<p><em>Content truncated. View full file in the source repo (linked above).</em></p><p><a href="https://github.com/primasdevlabs/agentjam/blob/HEAD/.cursorrules" rel="external">View raw on GitHub</a></p>
 </section>
 <section><h2>Why this is listed</h2>
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
