@@ -1,11 +1,25 @@
 [
   {
+    "cursorrules": {
+      "content": "# Cursor Project Rules \u2014 software-engineer\n\n# AgentJam System Instructions & Active Context (Go Engine)\n**Workspace**: `C:\\wamp64\\www\\fullstack`\n**Timestamp**: 2026-09-25T23:28:12+01:00\n\n## Active Stack Profile: Generic Polyglot\n\n## Enforced Policy Matrix (0 Policies Loaded)\n",
+      "format": "text",
+      "path": ".cursorrules"
+    },
+    "description": "AgentJam is an open-source, harness-agnostic runtime and governance system for AI coding agents.",
+    "id": "primasdevlabs/agentjam",
+    "language": "Go",
+    "name": "primasdevlabs/agentjam",
+    "stars": 1,
+    "updated_at": "2026-09-27T07:44:25Z",
+    "url": "https://github.com/primasdevlabs/agentjam"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-27T07:15:36Z",
+    "updated_at": "2026-09-27T07:30:51Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -149,7 +163,7 @@
     "id": "J-nowcow/awesome-korean-agent-skills",
     "language": "\u2014",
     "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 48,
+    "stars": 49,
     "updated_at": "2026-09-26T22:08:20Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
@@ -334,20 +348,6 @@
     "stars": 4,
     "updated_at": "2026-09-25T23:17:41Z",
     "url": "https://github.com/nu-nenoi/repo-nexus"
-  },
-  {
-    "cursorrules": {
-      "content": "# Cursor Project Rules \u2014 software-engineer\n\n# AgentJam System Instructions & Active Context (Go Engine)\n**Workspace**: `C:\\wamp64\\www\\fullstack`\n**Timestamp**: 2026-09-25T23:28:12+01:00\n\n## Active Stack Profile: Generic Polyglot\n\n## Enforced Policy Matrix (0 Policies Loaded)\n",
-      "format": "text",
-      "path": ".cursorrules"
-    },
-    "description": "AgentJam is an open-source, harness-agnostic runtime and governance system for AI coding agents.",
-    "id": "primasdevlabs/agentjam",
-    "language": "Go",
-    "name": "primasdevlabs/agentjam",
-    "stars": 1,
-    "updated_at": "2026-09-25T23:09:28Z",
-    "url": "https://github.com/primasdevlabs/agentjam"
   },
   {
     "description": "Adversarial first-principles review protocol for code, architectures, PRs, and LLM prompts: question requirements, delet",
