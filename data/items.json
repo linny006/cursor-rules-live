@@ -1,11 +1,20 @@
 [
   {
+    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 196,
+    "updated_at": "2026-09-27T14:16:55Z",
+    "url": "https://github.com/KbWen/agentic-os"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-27T14:00:33Z",
+    "updated_at": "2026-09-27T14:15:32Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -89,15 +98,6 @@
     "stars": 0,
     "updated_at": "2026-09-27T12:07:27Z",
     "url": "https://github.com/johnwall123459885/skene-cookbook"
-  },
-  {
-    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
-    "id": "KbWen/agentic-os",
-    "language": "Python",
-    "name": "KbWen/agentic-os",
-    "stars": 196,
-    "updated_at": "2026-09-27T11:45:00Z",
-    "url": "https://github.com/KbWen/agentic-os"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
