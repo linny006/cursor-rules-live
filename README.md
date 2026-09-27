@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-27 16:30 UTC
+> ⏰ Last updated: 2026-09-27 16:46 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -82,7 +82,7 @@ expired items removed — so you can rely on what you see being current.
 | 27 | [idk-arsh/data-agent-rules](https://github.com/idk-arsh/data-agent-rules) | 0 | Python | 2026-09-27 | — | Rules, skills and a destructive-SQL seatbelt that keep AI coding agents (Claude Code, Codex, Cursor, Gemini CLI, Copilot |
 | 28 | [kleosr/bridle](https://github.com/kleosr/bridle) | 1 | Shell | 2026-09-26 | — | My life's work: a deterministic engineering harness for Cursor. |
 | 29 | [wshobson/agents](https://github.com/wshobson/agents) | 40029 | Python | 2026-09-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
-| 30 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 21 | Python | 2026-09-26 | — | Architectural drift prevention for the agentic AI SDLC. |
+| 30 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 21 | Python | 2026-09-27 | — | Architectural drift prevention for the agentic AI SDLC. |
 | 31 | [wilsonwaters/3d-printing](https://github.com/wilsonwaters/3d-printing) | 3 | OpenSCAD | 2026-09-27 | — | 3D printing toolkit — AI-powered design skills for Claude Code, Cursor, Windsurf & Copilot, plus parametric OpenSCAD mod |
 | 32 | [sx4im/skillcheck](https://github.com/sx4im/skillcheck) | 28 | TypeScript | 2026-09-26 | — | Blind A/B testing for AI agent skills, .cursorrules, CLAUDE.md, and system prompts. Detects placebo and harmful instruct |
 | 33 | [SharimAli/imgui-menu-clone](https://github.com/SharimAli/imgui-menu-clone) | 0 | C++ | 2026-09-26 | — | Rebuild any Dear ImGui menu in clean C++ from a single screenshot. Generates a buildable native Visual Studio (.sln) Win |
