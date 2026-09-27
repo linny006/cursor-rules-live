@@ -1,11 +1,20 @@
 [
   {
+    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 192,
+    "updated_at": "2026-09-27T00:42:19Z",
+    "url": "https://github.com/KbWen/agentic-os"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-27T00:30:51Z",
+    "updated_at": "2026-09-27T00:37:07Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -52,15 +61,6 @@
     "stars": 1,
     "updated_at": "2026-09-27T00:03:23Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
-    "id": "KbWen/agentic-os",
-    "language": "Python",
-    "name": "KbWen/agentic-os",
-    "stars": 192,
-    "updated_at": "2026-09-27T00:24:21Z",
-    "url": "https://github.com/KbWen/agentic-os"
   },
   {
     "description": "My life's work: a deterministic engineering harness for Cursor.",
