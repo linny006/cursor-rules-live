@@ -1,12 +1,12 @@
 [
   {
-    "description": "A universal, native-Rust governance layer for AI coding agents. Enforces Subagent-Driven Development (SDD) to stop hallu",
-    "id": "Harmitx7/tribunal-kit",
-    "language": "JavaScript",
-    "name": "Harmitx7/tribunal-kit",
+    "description": "A catalogue of AI writing tells, each with a plain rewrite, shared by Fireside. Drop it into a system prompt to stop LLM",
+    "id": "fromfireside/better-tropes",
+    "language": "\u2014",
+    "name": "fromfireside/better-tropes",
     "stars": 5,
-    "updated_at": "2026-09-27T06:54:52Z",
-    "url": "https://github.com/Harmitx7/tribunal-kit"
+    "updated_at": "2026-09-27T07:13:33Z",
+    "url": "https://github.com/fromfireside/better-tropes"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,17 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-27T06:45:59Z",
+    "updated_at": "2026-09-27T07:00:30Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
-    "description": "A catalogue of AI writing tells, each with a plain rewrite, shared by Fireside. Drop it into a system prompt to stop LLM",
-    "id": "fromfireside/better-tropes",
-    "language": "\u2014",
-    "name": "fromfireside/better-tropes",
+    "description": "A universal, native-Rust governance layer for AI coding agents. Enforces Subagent-Driven Development (SDD) to stop hallu",
+    "id": "Harmitx7/tribunal-kit",
+    "language": "JavaScript",
+    "name": "Harmitx7/tribunal-kit",
     "stars": 5,
-    "updated_at": "2026-09-27T06:30:52Z",
-    "url": "https://github.com/fromfireside/better-tropes"
+    "updated_at": "2026-09-27T06:54:52Z",
+    "url": "https://github.com/Harmitx7/tribunal-kit"
   },
   {
     "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
@@ -91,7 +91,7 @@
     "language": "Python",
     "name": "KbWen/agentic-os",
     "stars": 193,
-    "updated_at": "2026-09-27T06:20:53Z",
+    "updated_at": "2026-09-27T07:10:00Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
   {
