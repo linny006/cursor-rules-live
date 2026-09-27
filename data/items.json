@@ -1,12 +1,39 @@
 [
   {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 3,
+    "updated_at": "2026-09-27T14:43:49Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
+  },
+  {
+    "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
+    "id": "agenticstandardcontact-byte/agentic-architect",
+    "language": "HTML",
+    "name": "agenticstandardcontact-byte/agentic-architect",
+    "stars": 0,
+    "updated_at": "2026-09-27T14:41:12Z",
+    "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
+  },
+  {
     "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
     "id": "KbWen/agentic-os",
     "language": "Python",
     "name": "KbWen/agentic-os",
     "stars": 196,
-    "updated_at": "2026-09-27T14:16:55Z",
+    "updated_at": "2026-09-27T14:38:52Z",
     "url": "https://github.com/KbWen/agentic-os"
+  },
+  {
+    "description": "Frontend architecture and stability guidelines for AI coding agents in React and Next.js",
+    "id": "Nithwin/stable-frontend",
+    "language": "TypeScript",
+    "name": "Nithwin/stable-frontend",
+    "stars": 1,
+    "updated_at": "2026-09-27T14:31:09Z",
+    "url": "https://github.com/Nithwin/stable-frontend"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,7 +41,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-27T14:15:32Z",
+    "updated_at": "2026-09-27T14:30:46Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -159,15 +186,6 @@
     "url": "https://github.com/Harmitx7/tribunal-kit"
   },
   {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 3,
-    "updated_at": "2026-09-27T08:18:49Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
     "description": "A catalogue of AI writing tells, each with a plain rewrite, shared by Fireside. Drop it into a system prompt to stop LLM",
     "id": "fromfireside/better-tropes",
     "language": "\u2014",
@@ -271,24 +289,6 @@
     "stars": 21,
     "updated_at": "2026-09-26T17:48:31Z",
     "url": "https://github.com/MnemeHQ/mneme"
-  },
-  {
-    "description": "Frontend architecture and stability guidelines for AI coding agents in React and Next.js",
-    "id": "Nithwin/stable-frontend",
-    "language": "TypeScript",
-    "name": "Nithwin/stable-frontend",
-    "stars": 1,
-    "updated_at": "2026-09-26T14:44:54Z",
-    "url": "https://github.com/Nithwin/stable-frontend"
-  },
-  {
-    "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
-    "id": "agenticstandardcontact-byte/agentic-architect",
-    "language": "HTML",
-    "name": "agenticstandardcontact-byte/agentic-architect",
-    "stars": 0,
-    "updated_at": "2026-09-26T13:44:25Z",
-    "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
   },
   {
     "description": "3D printing toolkit \u2014 AI-powered design skills for Claude Code, Cursor, Windsurf & Copilot, plus parametric OpenSCAD mod",
