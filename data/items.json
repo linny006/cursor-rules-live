@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-27T08:30:54Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "# Cursor Project Rules \u2014 software-engineer\n\n# AgentJam System Instructions & Active Context (Go Engine)\n**Workspace**: `C:\\wamp64\\www\\fullstack`\n**Timestamp**: 2026-09-25T23:28:12+01:00\n\n## Active Stack Profile: Generic Polyglot\n\n## Enforced Policy Matrix (0 Policies Loaded)\n",
       "format": "text",
@@ -10,7 +19,7 @@
     "language": "Go",
     "name": "primasdevlabs/agentjam",
     "stars": 1,
-    "updated_at": "2026-09-27T08:25:47Z",
+    "updated_at": "2026-09-27T08:44:23Z",
     "url": "https://github.com/primasdevlabs/agentjam"
   },
   {
@@ -30,15 +39,6 @@
     "stars": 3,
     "updated_at": "2026-09-27T08:18:49Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-27T08:15:43Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
