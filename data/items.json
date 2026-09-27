@@ -1,11 +1,29 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-09-27T22:43:39Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "Official AI Agent Plugins & Skills Marketplace for Antigravity (AGY), Claude Code, and Cursor",
+    "id": "orin-dx/agent-plugins",
+    "language": "Python",
+    "name": "orin-dx/agent-plugins",
+    "stars": 1,
+    "updated_at": "2026-09-27T22:36:01Z",
+    "url": "https://github.com/orin-dx/agent-plugins"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-27T22:30:51Z",
+    "updated_at": "2026-09-27T22:34:24Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -93,15 +111,6 @@
     "stars": 0,
     "updated_at": "2026-09-27T20:47:16Z",
     "url": "https://github.com/idk-arsh/data-agent-rules"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-09-27T19:55:44Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Portable skills and shared policies for Codex, Claude Code, and Cursor on Linux.",
@@ -479,14 +488,5 @@
     "stars": 4,
     "updated_at": "2026-09-25T06:09:58Z",
     "url": "https://github.com/jahidulislamseo/antigravity-ai-skills"
-  },
-  {
-    "description": "Teach Claude Code, Cursor, Codex and other AI coding agents to build correct RTL (Hebrew, Arabic, Persian, Urdu) UIs - s",
-    "id": "mhamedmohammed92-arch/rtl-skill",
-    "language": "Python",
-    "name": "mhamedmohammed92-arch/rtl-skill",
-    "stars": 0,
-    "updated_at": "2026-09-25T00:33:49Z",
-    "url": "https://github.com/mhamedmohammed92-arch/rtl-skill"
   }
 ]
