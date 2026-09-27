@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-27T02:30:33Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
     "id": "XAKLESK/cre-agent-skills",
     "language": "\u2014",
@@ -7,15 +16,6 @@
     "stars": 8,
     "updated_at": "2026-09-27T02:16:25Z",
     "url": "https://github.com/XAKLESK/cre-agent-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-27T02:15:33Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
@@ -49,7 +49,7 @@
     "id": "KbWen/agentic-os",
     "language": "Python",
     "name": "KbWen/agentic-os",
-    "stars": 192,
+    "stars": 193,
     "updated_at": "2026-09-27T01:20:37Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
