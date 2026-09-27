@@ -1,11 +1,25 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: Workflow memory operating loop \u2014 read root state before acting, write state back after meaningful change\nglobs:\nalwaysApply: true\n---\n\n@AGENTS.md\n",
+      "format": "mdc",
+      "path": ".cursor/rules/workflow-memory.mdc"
+    },
+    "description": "Make AI Development Feel Natural in Cursor",
+    "id": "kleosr/cursorkleosr",
+    "language": "\u2014",
+    "name": "kleosr/cursorkleosr",
+    "stars": 326,
+    "updated_at": "2026-09-27T03:22:44Z",
+    "url": "https://github.com/kleosr/cursorkleosr"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-27T03:01:10Z",
+    "updated_at": "2026-09-27T03:15:49Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -484,14 +498,5 @@
     "stars": 4,
     "updated_at": "2026-09-24T21:33:48Z",
     "url": "https://github.com/Cadasto/openehr-assistant-plugin"
-  },
-  {
-    "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 plus AIOS, an open-source markdown memory system for coding ",
-    "id": "sublimecoder/sublimecoding",
-    "language": "\u2014",
-    "name": "sublimecoder/sublimecoding",
-    "stars": 0,
-    "updated_at": "2026-09-24T16:06:48Z",
-    "url": "https://github.com/sublimecoder/sublimecoding"
   }
 ]
