@@ -1,11 +1,20 @@
 [
   {
+    "description": "Auto harness engineering meta-repo: discuss \u2192 curate \u2192 bootstrap a context-engineered project for Claude Code, Cursor, C",
+    "id": "glowElephant/context-forge",
+    "language": "Python",
+    "name": "glowElephant/context-forge",
+    "stars": 2,
+    "updated_at": "2026-09-28T10:14:13Z",
+    "url": "https://github.com/glowElephant/context-forge"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-28T09:45:38Z",
+    "updated_at": "2026-09-28T10:00:57Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -155,7 +164,7 @@
     "language": "\u2014",
     "name": "kleosr/cursorkleosr",
     "stars": 326,
-    "updated_at": "2026-09-28T04:40:42Z",
+    "updated_at": "2026-09-28T10:03:36Z",
     "url": "https://github.com/kleosr/cursorkleosr"
   },
   {
@@ -164,7 +173,7 @@
     "language": "Shell",
     "name": "kleosr/bridle",
     "stars": 1,
-    "updated_at": "2026-09-28T04:37:53Z",
+    "updated_at": "2026-09-28T10:02:36Z",
     "url": "https://github.com/kleosr/bridle"
   },
   {
@@ -214,7 +223,7 @@
     "language": "\u2014",
     "name": "J-nowcow/awesome-korean-agent-skills",
     "stars": 49,
-    "updated_at": "2026-09-27T22:30:45Z",
+    "updated_at": "2026-09-28T10:13:58Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
@@ -484,14 +493,5 @@
     "stars": 0,
     "updated_at": "2026-09-25T07:17:58Z",
     "url": "https://github.com/chkdskman/skill-sage-active-api"
-  },
-  {
-    "description": "One config for every AI coding tool, plus lessons so your agents learn from their mistakes. Sync rules, skills, MCP serv",
-    "id": "sampleXbro/agentsmesh",
-    "language": "TypeScript",
-    "name": "sampleXbro/agentsmesh",
-    "stars": 24,
-    "updated_at": "2026-09-25T06:50:35Z",
-    "url": "https://github.com/sampleXbro/agentsmesh"
   }
 ]
