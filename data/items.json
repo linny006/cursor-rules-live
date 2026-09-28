@@ -1,11 +1,20 @@
 [
   {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 1,
+    "updated_at": "2026-09-28T00:29:41Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-28T00:00:59Z",
+    "updated_at": "2026-09-28T00:15:41Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -93,15 +102,6 @@
     "stars": 0,
     "updated_at": "2026-09-27T21:57:14Z",
     "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 1,
-    "updated_at": "2026-09-27T21:56:21Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "description": "Rules, skills and a destructive-SQL seatbelt that keep AI coding agents (Claude Code, Codex, Cursor, Gemini CLI, Copilot",
@@ -304,7 +304,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40038,
+    "stars": 40037,
     "updated_at": "2026-09-26T19:54:17Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -314,7 +314,7 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 21,
-    "updated_at": "2026-09-27T23:12:24Z",
+    "updated_at": "2026-09-28T00:22:20Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
@@ -449,7 +449,7 @@
     "id": "wu529778790/shenzjd-skills",
     "language": "Shell",
     "name": "wu529778790/shenzjd-skills",
-    "stars": 3,
+    "stars": 4,
     "updated_at": "2026-09-25T12:02:57Z",
     "url": "https://github.com/wu529778790/shenzjd-skills"
   },
