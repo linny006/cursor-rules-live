@@ -1,5 +1,23 @@
 [
   {
+    "description": "My life's work: a deterministic engineering harness for Cursor.",
+    "id": "kleosr/bridle",
+    "language": "Shell",
+    "name": "kleosr/bridle",
+    "stars": 1,
+    "updated_at": "2026-09-28T18:16:59Z",
+    "url": "https://github.com/kleosr/bridle"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-28T18:15:46Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: Workflow memory operating loop \u2014 read root state before acting, write state back after meaningful change\nglobs:\nalwaysApply: true\n---\n\n@AGENTS.md\n",
       "format": "mdc",
@@ -28,15 +46,6 @@
     "url": "https://github.com/roedyrustam/vibes-plug"
   },
   {
-    "description": "My life's work: a deterministic engineering harness for Cursor.",
-    "id": "kleosr/bridle",
-    "language": "Shell",
-    "name": "kleosr/bridle",
-    "stars": 1,
-    "updated_at": "2026-09-28T18:04:16Z",
-    "url": "https://github.com/kleosr/bridle"
-  },
-  {
     "description": "Ruleshub is a comprehensive collection of AI-optimized rules and guidelines for popular APIs and platforms.",
     "id": "paypal/ruleshub",
     "language": "JavaScript",
@@ -44,15 +53,6 @@
     "stars": 1,
     "updated_at": "2026-09-28T18:01:32Z",
     "url": "https://github.com/paypal/ruleshub"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-28T18:00:54Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Safe write access for AI agents: a skill, Claude Code plugin, Cursor rule and framework examples for AvianSuite, where e",
@@ -304,7 +304,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40056,
+    "stars": 40057,
     "updated_at": "2026-09-28T01:07:59Z",
     "url": "https://github.com/wshobson/agents"
   },
