@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-28T19:00:45Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "---\nalwaysApply: true\ndescription: \"Vibes-Plug 127+ Skills Ecosystem \u2014 Universal AI plugin for modern 2026 development\"\nglobs: \"**/*\"\n---\n\n# Vibes-Plug Core Rules\n\n## Primary Trigger & Skill Auto-Synchronization (Pemicu Utama)\n**MANDATORY**: Upon installation, `vibes-plug` acts as the PRIMARY TRIGGER and master conductor for all tasks.\n- Cursor AI automatically detects user intent and auto-synchronizes cooperating skills without waiting for manual `@` mentions.\n- Cross-domain cooperation is automatic: Frontend (`senior-frontend`), Backend (`js-backend-expert`), Database (`database-orm-expert`), Payments (`doku-payment-gateway`, `saas-billing`), Hardening (`production-ready-hardener`).\n\n## Skill Resolution Protocol\nThis project uses 127+ specialized skills in the `skills/` directory. Each skill is a `SKILL.md` file.\n\n**Before any task:**\n1. Identify relevant skills from the domain table below.\n2. Read their `skills/<skill-name>/SKILL.md` file.\n3. Follow the patterns and best practices defined in the skill.\n\n## Skill Domain Map\n\n| Domain | Key Skills |\n|--------|-----------|\n| \ud83e\udd16 AI & Agentic | `ai-llm-integration-expert`, `vercel-ai-sdk-expert`, `deep-research-analyst`, `synthetic-data-finetuning-expert`, `pydantic-ai-expert`, `ai-media-generation-expert`, `mcp-server-architect`, `mcp-client-orchestrator`, `vector-db-rag-expert`, `multi-agent-orchestration`, `ai-cost-token-optimizer`, `ai-prompt-engineering-expert` |\n| \ud83c\udfa8 Design & UI/UX | `design-system-architect`, `hig`, `ui-components-expert`, `ui-ux-pro-max`, `monday-design-aesthetic`, `visual-qa-vision-agent`, `svg-animation-motion-expert`, `data-visualization-expert`, `rich-text-editor-expert` |\n| \ud83d\udda5\ufe0f Frontend | `senior-frontend`, `tailwind-expert`, `nextjs-app-router-expert`, `astro-framework-expert`, `svelte-sveltekit-expert`, `solidjs-expert`, `angular-expert`, `tanstack-query-expert`, `state-management-expert`, `vue-frontend-expert`, `performance-web-vitals`, `form-validation-expert`, `blockchain-web3-expert` |\n| \ud83d\udcf1 Mobile & Desktop | `mobile-expo-expert`, `mobile-push-notification-expert`, `tauri-expert`, `desktop-electron-expert` |\n| \u2699\ufe0f Backend | `js-backend-expert`, `python-programming-expert`, `go-programming-expert`, `rust-programming-expert`, `typescript-expert`, `api-design-expert`, `graphql-apollo-expert`, `bun-runtime-expert`, `n8n-automation-expert`, `chatbot-messaging-expert`, `pdf-document-generation-expert` |\n| \u2601\ufe0f SaaS & Cloud | `saas-transformer`, `saas-billing`, `saas-multi-tenant`, `cloud-hosting-expert`, `ci-cd-devops-architect`, `payment-gateway-expert`, `event-driven-architect`, `monorepo-architect` |\n| \ud83d\uddc4\ufe0f Database | `database-orm-expert`, `edge-serverless-db-expert`, `supabase-migration`, `database-migration-versioning-expert` |\n| \ud83d\udd12 Security & QA | `authentication-identity-expert`, `e2e-testing-expert`, `production-ready-hardener`, `autonomous-tdd-debugger`, `zero-trust-secret-vault`, `supabase-security-expert` |\n| \ud83d\udd0d SEO | `seo` |\n| \ud83d\udee0\ufe0f Utilities | `brainstorming`, `prd-architect`, `auto-doc-updater`, `token-saver`, `vibe-code-gardener`, `web-scraper`, `project-context-mapper` |\n\n## Core Stack (2026 Edition)\n- **Frontend:** React 19, Next.js 15, Tailwind CSS v4, TypeScript 5.8+\n- **Backend:** Node.js 24 LTS, Bun 1.2+, Hono v4, Fastify 5, Python 3.14, Go 1.25+, Rust 2024\n- **Database:** Prisma 6, Drizzle ORM, PostgreSQL, Supabase, Neon, Turso\n- **AI/LLM:** Vercel AI SDK 5.x, MCP v1.9+, pgvector, RAG pipelines\n\n## Behavioral Rules\n1. **Deep Reasoning:** Think before acting. Analyze constraints \u2192 question assumptions \u2192 validate \u2192 execute.\n2. **No AI Slop:** Be imperative, direct, token-efficient. No \"As an AI language model...\" filler.\n3. **New Projects:** Auto-generate `PRD.md`, `ERD.md`, `DOKUMENTASI.md` before any code.\n4. **Bilingual:** Skills support English & Bahasa Indonesia.\n5. **Clean Code:** Follow SOLID, DRY, Clean Code principles (ref: `scalability-clean-code`).\n\n## Orchestration Flow\n1. **Plan:** `brainstorming` \u2192 `prd-architect`\n2. **Design:** `design-system-architect` \u2192 `senior-frontend` \u2192 `ui-components-expert`\n3. **Build:** `js-backend-expert` \u2192 `event-driven-architect` \u2192 `autonomous-tdd-debugger`\n4. **AI:** `ai-llm-integration-expert` \u2192 `mcp-server-architect`\n5. **SaaS:** `saas-transformer` \u2192 auto-coordinates billing, tenancy, payments\n6. **Ship:** `e2e-testing-expert` \u2192 `seo` \u2192 `production-ready-hardener`\n",
       "format": "mdc",
@@ -12,15 +21,6 @@
     "stars": 70,
     "updated_at": "2026-09-28T18:55:12Z",
     "url": "https://github.com/roedyrustam/vibes-plug"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-28T18:45:45Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "My life's work: a deterministic engineering harness for Cursor.",
@@ -414,7 +414,7 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 21,
-    "updated_at": "2026-09-28T15:16:47Z",
+    "updated_at": "2026-09-28T19:13:55Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
