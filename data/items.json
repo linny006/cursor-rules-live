@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-28T08:45:38Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "A universal, native-Rust governance layer for AI coding agents. Enforces Subagent-Driven Development (SDD) to stop hallu",
     "id": "Harmitx7/tribunal-kit",
     "language": "JavaScript",
@@ -7,15 +16,6 @@
     "stars": 5,
     "updated_at": "2026-09-28T08:43:30Z",
     "url": "https://github.com/Harmitx7/tribunal-kit"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-28T08:30:54Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Portable skills and shared policies for Codex, Claude Code, and Cursor on Linux.",
@@ -159,6 +159,15 @@
     "url": "https://github.com/TuckerWarlock/ai-instructions"
   },
   {
+    "description": "Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W-",
+    "id": "fluttersdk/wind",
+    "language": "Dart",
+    "name": "fluttersdk/wind",
+    "stars": 37,
+    "updated_at": "2026-09-28T03:08:50Z",
+    "url": "https://github.com/fluttersdk/wind"
+  },
+  {
     "description": "Official AI Agent Plugins & Skills Marketplace for Antigravity (AGY), Claude Code, and Cursor",
     "id": "orin-dx/agent-plugins",
     "language": "Python",
@@ -262,15 +271,6 @@
     "stars": 1,
     "updated_at": "2026-09-27T10:18:33Z",
     "url": "https://github.com/primasdevlabs/agentjam"
-  },
-  {
-    "description": "Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W-",
-    "id": "fluttersdk/wind",
-    "language": "Dart",
-    "name": "fluttersdk/wind",
-    "stars": 36,
-    "updated_at": "2026-09-28T03:08:50Z",
-    "url": "https://github.com/fluttersdk/wind"
   },
   {
     "description": "",
@@ -382,7 +382,7 @@
     "language": "TypeScript",
     "name": "HoangNguyen0403/agent-skills-standard",
     "stars": 570,
-    "updated_at": "2026-09-28T08:13:19Z",
+    "updated_at": "2026-09-28T08:55:21Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
   },
   {
