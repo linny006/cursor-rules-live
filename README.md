@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-28 20:30 UTC
+> ⏰ Last updated: 2026-09-28 20:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -83,7 +83,7 @@ expired items removed — so you can rely on what you see being current.
 | 28 | [TuckerWarlock/ai-instructions](https://github.com/TuckerWarlock/ai-instructions) | 2 | — | 2026-09-28 | — | How to write great CLAUDE.md, AGENTS.md, Cursor rules, Kiro steering, and Copilot instructions |
 | 29 | [fluttersdk/wind](https://github.com/fluttersdk/wind) | 37 | Dart | 2026-09-28 | — | Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W- |
 | 30 | [orin-dx/agent-plugins](https://github.com/orin-dx/agent-plugins) | 1 | Python | 2026-09-28 | — | Official AI Agent Plugins & Skills Marketplace for Antigravity (AGY), Claude Code, and Cursor |
-| 31 | [wshobson/agents](https://github.com/wshobson/agents) | 40057 | Python | 2026-09-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
+| 31 | [wshobson/agents](https://github.com/wshobson/agents) | 40058 | Python | 2026-09-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
 | 32 | [idk-arsh/data-agent-rules](https://github.com/idk-arsh/data-agent-rules) | 0 | Python | 2026-09-27 | — | Rules, skills and a destructive-SQL seatbelt that keep AI coding agents (Claude Code, Codex, Cursor, Gemini CLI, Copilot |
 | 33 | [sublimecoder/sublimecoding](https://github.com/sublimecoder/sublimecoding) | 0 | — | 2026-09-27 | — | 🛠️ Free Claude Code & Cursor prompts for senior engineers — plus AIOS, an open-source markdown memory system for coding  |
 | 34 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 198 | Python | 2026-09-28 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
