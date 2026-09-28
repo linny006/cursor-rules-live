@@ -1,5 +1,23 @@
 [
   {
+    "description": "Portable skills and shared policies for Codex, Claude Code, and Cursor on Linux.",
+    "id": "Catherine1401/agent-skills",
+    "language": "Shell",
+    "name": "Catherine1401/agent-skills",
+    "stars": 2,
+    "updated_at": "2026-09-28T08:12:19Z",
+    "url": "https://github.com/Catherine1401/agent-skills"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-28T08:00:37Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
     "id": "edsondviana8/ai-humanizer-core",
     "language": "HTML",
@@ -16,15 +34,6 @@
     "stars": 2,
     "updated_at": "2026-09-28T07:46:13Z",
     "url": "https://github.com/saqie803/ponytail"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-28T07:45:46Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
@@ -66,15 +75,6 @@
     "stars": 3,
     "updated_at": "2026-09-28T07:01:43Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "Portable skills and shared policies for Codex, Claude Code, and Cursor on Linux.",
-    "id": "Catherine1401/agent-skills",
-    "language": "Shell",
-    "name": "Catherine1401/agent-skills",
-    "stars": 2,
-    "updated_at": "2026-09-28T07:00:45Z",
-    "url": "https://github.com/Catherine1401/agent-skills"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -278,7 +278,7 @@
     "language": "JavaScript",
     "name": "Harmitx7/tribunal-kit",
     "stars": 5,
-    "updated_at": "2026-09-27T09:06:52Z",
+    "updated_at": "2026-09-28T08:09:58Z",
     "url": "https://github.com/Harmitx7/tribunal-kit"
   },
   {
@@ -382,7 +382,7 @@
     "language": "TypeScript",
     "name": "HoangNguyen0403/agent-skills-standard",
     "stars": 570,
-    "updated_at": "2026-09-28T07:42:53Z",
+    "updated_at": "2026-09-28T08:13:19Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
   },
   {
