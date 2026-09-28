@@ -5,17 +5,17 @@
     "language": "OpenSCAD",
     "name": "wilsonwaters/3d-printing",
     "stars": 3,
-    "updated_at": "2026-09-28T22:57:33Z",
+    "updated_at": "2026-09-28T23:13:31Z",
     "url": "https://github.com/wilsonwaters/3d-printing"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
+    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
+    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "language": "\u2014",
+    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
     "stars": 3,
-    "updated_at": "2026-09-28T22:45:32Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
+    "updated_at": "2026-09-28T23:12:36Z",
+    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
   },
   {
     "cursorrules": {
@@ -27,9 +27,18 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40061,
-    "updated_at": "2026-09-28T22:45:25Z",
+    "stars": 40062,
+    "updated_at": "2026-09-28T23:06:24Z",
     "url": "https://github.com/wshobson/agents"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-28T23:00:37Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -194,15 +203,6 @@
     "stars": 0,
     "updated_at": "2026-09-28T15:18:29Z",
     "url": "https://github.com/yxdwind/english-memory-method"
-  },
-  {
-    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
-    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "language": "\u2014",
-    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "stars": 3,
-    "updated_at": "2026-09-28T13:27:38Z",
-    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
   },
   {
     "description": "Production-grade AI Agent Skills & Governance for Claude Code, Antigravity, Gemini, and Cursor.",
