@@ -1,5 +1,32 @@
 [
   {
+    "description": "Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml",
+    "id": "nu-nenoi/repo-nexus",
+    "language": "Shell",
+    "name": "nu-nenoi/repo-nexus",
+    "stars": 5,
+    "updated_at": "2026-09-28T05:58:02Z",
+    "url": "https://github.com/nu-nenoi/repo-nexus"
+  },
+  {
+    "description": "Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony.",
+    "id": "saqie803/ponytail",
+    "language": "JavaScript",
+    "name": "saqie803/ponytail",
+    "stars": 2,
+    "updated_at": "2026-09-28T05:46:25Z",
+    "url": "https://github.com/saqie803/ponytail"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-28T05:45:42Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
     "id": "Laurellagloomy260/cursor-rules-generator",
     "language": "\u2014",
@@ -16,15 +43,6 @@
     "stars": 10,
     "updated_at": "2026-09-28T05:35:43Z",
     "url": "https://github.com/Bastioned-successor320/learn-nanobot"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-28T05:30:52Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -62,15 +80,6 @@
     "stars": 1,
     "updated_at": "2026-09-28T04:37:53Z",
     "url": "https://github.com/kleosr/bridle"
-  },
-  {
-    "description": "Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony.",
-    "id": "saqie803/ponytail",
-    "language": "JavaScript",
-    "name": "saqie803/ponytail",
-    "stars": 2,
-    "updated_at": "2026-09-28T03:56:23Z",
-    "url": "https://github.com/saqie803/ponytail"
   },
   {
     "description": "How to write great CLAUDE.md, AGENTS.md, Cursor rules, Kiro steering, and Copilot instructions",
@@ -202,15 +211,6 @@
     "stars": 1,
     "updated_at": "2026-09-27T14:31:09Z",
     "url": "https://github.com/Nithwin/stable-frontend"
-  },
-  {
-    "description": "Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml",
-    "id": "nu-nenoi/repo-nexus",
-    "language": "Shell",
-    "name": "nu-nenoi/repo-nexus",
-    "stars": 5,
-    "updated_at": "2026-09-27T13:42:41Z",
-    "url": "https://github.com/nu-nenoi/repo-nexus"
   },
   {
     "cursorrules": {
