@@ -1,11 +1,20 @@
 [
   {
+    "description": "Safe write access for AI agents: a skill, Claude Code plugin, Cursor rule and framework examples for AvianSuite, where e",
+    "id": "kyle-visner/agent-skills",
+    "language": "\u2014",
+    "name": "kyle-visner/agent-skills",
+    "stars": 0,
+    "updated_at": "2026-09-28T19:20:18Z",
+    "url": "https://github.com/kyle-visner/agent-skills"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-28T19:00:45Z",
+    "updated_at": "2026-09-28T19:15:52Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -53,15 +62,6 @@
     "stars": 1,
     "updated_at": "2026-09-28T18:01:32Z",
     "url": "https://github.com/paypal/ruleshub"
-  },
-  {
-    "description": "Safe write access for AI agents: a skill, Claude Code plugin, Cursor rule and framework examples for AvianSuite, where e",
-    "id": "kyle-visner/agent-skills",
-    "language": "\u2014",
-    "name": "kyle-visner/agent-skills",
-    "stars": 0,
-    "updated_at": "2026-09-28T17:46:45Z",
-    "url": "https://github.com/kyle-visner/agent-skills"
   },
   {
     "description": "",
