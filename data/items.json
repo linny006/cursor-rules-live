@@ -1,5 +1,41 @@
 [
   {
+    "description": "MCP Server for LynxPrompt \u2014 browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP",
+    "id": "GeiserX/lynxprompt-mcp",
+    "language": "Go",
+    "name": "GeiserX/lynxprompt-mcp",
+    "stars": 2,
+    "updated_at": "2026-09-29T13:37:16Z",
+    "url": "https://github.com/GeiserX/lynxprompt-mcp"
+  },
+  {
+    "description": "VS Code extension for LynxPrompt \u2014 browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules) ",
+    "id": "GeiserX/lynxprompt-vscode",
+    "language": "TypeScript",
+    "name": "GeiserX/lynxprompt-vscode",
+    "stars": 2,
+    "updated_at": "2026-09-29T13:32:50Z",
+    "url": "https://github.com/GeiserX/lynxprompt-vscode"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-29T13:30:40Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Homebrew tap for LynxPrompt CLI",
+    "id": "GeiserX/homebrew-lynxprompt",
+    "language": "Ruby",
+    "name": "GeiserX/homebrew-lynxprompt",
+    "stars": 2,
+    "updated_at": "2026-09-29T13:30:11Z",
+    "url": "https://github.com/GeiserX/homebrew-lynxprompt"
+  },
+  {
     "description": "404\u4f53\u306e\u5373\u6226\u529bAI\u5c02\u9580\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u96c6 \u2014 Claude Code / Cursor / Copilot \u7b49\u306b\u5bfe\u5fdc\u3002\u65e5\u672c\u5e02\u5834\u5411\u3051\u30aa\u30ea\u30b8\u30ca\u30eb125\u4f53\uff08SIer\u30fb\u53d7\u8a17\u958b\u767a\u30fbSaaS\u30fb\u88fd\u9020DX\u30fb\u516c\u5171\u5206\u91ce\uff09\u3002agency-agents\u306e\u65e5\u672c\u8a9e\u30b3\u30df\u30e5",
     "id": "sscodeai/agency-agents-ja",
     "language": "Shell",
@@ -16,15 +52,6 @@
     "stars": 5,
     "updated_at": "2026-09-29T13:20:51Z",
     "url": "https://github.com/zinxj/uikit-expert-skill"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-29T13:16:06Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
@@ -253,7 +280,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40080,
+    "stars": 40081,
     "updated_at": "2026-09-29T00:45:29Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -461,42 +488,5 @@
     "stars": 0,
     "updated_at": "2026-09-27T15:59:30Z",
     "url": "https://github.com/sublimecoder/sublimecoding"
-  },
-  {
-    "description": "Frontend architecture and stability guidelines for AI coding agents in React and Next.js",
-    "id": "Nithwin/stable-frontend",
-    "language": "TypeScript",
-    "name": "Nithwin/stable-frontend",
-    "stars": 1,
-    "updated_at": "2026-09-27T14:31:09Z",
-    "url": "https://github.com/Nithwin/stable-frontend"
-  },
-  {
-    "cursorrules": {
-      "content": "# Cursor Project Rules \u2014 software-engineer\n\n# AgentJam System Instructions & Active Context (AgentJam Engine)\n**Workspace**: `C:\\wamp64\\www\\fullstack`\n**Timestamp**: 2026-09-27T10:14:55+01:00\n**Active Persona/Agent**: software-engineer\n\n## Active Stack Profile: generic\n\n## Enforced Policy Matrix (38 Policies Loaded)\n- **[STRICT-BLOCK] Modular Architecture Policy** (`05-architecture`): Enforces clean separation of concerns, public contract boundaries, and small composable units.\n- **[WARNING] God File Limit** (`06-god-files`): Flags oversized files that accumulate too many responsibilities \u2014 \"god files\" that violate single-responsibility and become unmaintainable.\n- **[WARNING] Domain-Driven Layout** (`07-domain-layout`): Enforces domain-driven project structure \u2014 source files must be grouped by domain/bounded context, not dumped flat into a single directory.\n- **[STRICT-BLOCK] Coding Standards Policy** (`07-coding-standards`): Requires strict linting, formatting, type checking, and test verification before completion.\n- **[WARNING] Debug Statement Hygiene** (`08-debug-leftovers`): Flags debugging statements left in source \u2014 console.log, debugger, pdb breakpoints, and print-debugging should not ship.\n- **[INFO] Deferred Work Hygiene** (`09-todo-hygiene`): Tracks TODO/FIXME/HACK accumulation \u2014 a file drowning in deferred-work markers signals unfinished or unstable code.\n- **[STRICT-BLOCK] architecture** (`architecture`): \n- **[STRICT-BLOCK] change-management** (`change-management`): \n- **[STRICT-BLOCK] current-conventions** (`current-conventions`): \n- **[STRICT-BLOCK] dependencies** (`dependencies`): \n- **[STRICT-BLOCK] documentation** (`documentation`): \n- **[STRICT-BLOCK] inspect-before-act** (`inspect-before-act`): \n- **[STRICT-BLOCK] model-knowledge** (`model-knowledge`): \n- **[STRICT-BLOCK] security** (`security`): \n- **[STRICT-BLOCK] testing** (`testing`): \n- **[STRICT-BLOCK] Dependency Boundary Policy** (`06-dependencies`): Restricts unapproved external package additions.\n- **[STRICT-BLOCK] accessibility** (`accessibility`): \n- **[STRICT-BLOCK] animation** (`animation`): \n- **[STRICT-BLOCK] anti-slop** (`anti-slop`): \n- **[STRICT-BLOCK] color** (`color`): \n- **[STRICT-BLOCK] components** (`components`): \n- **[STRICT-BLOCK] copy** (`copy`): \n- **[STRICT-BLOCK] design-system** (`design-system`): \n- **[STRICT-BLOCK] icons** (`icons`): \n- **[STRICT-BLOCK] responsive** (`responsive`): \n- **[STRICT-BLOCK] spacing** (`spacing`): \n- **[STRICT-BLOCK] typography** (`typography`): \n- **[STRICT-BLOCK] visual-language** (`visual-language`): \n- **[STRICT-BLOCK] Documentation Freshness Policy** (`03-freshness`): TRAINING KNOWLEDGE \u2260 SOURCE OF TRUTH. Forces agents to verify current official documentation over model training memory.\n- **[STRICT-BLOCK] existing-project** (`existing-project`): \n- **[STRICT-BLOCK] freshness** (`freshness`): \n- **[STRICT-BLOCK] house-cleaning** (`house-cleaning`): \n- **[STRICT-BLOCK] stack** (`stack`): \n- **[STRICT-BLOCK] Security & Secret Management Policy** (`04-security`): Enforces zero-secret leakage, input validation at boundaries, and parameterized database queries.\n- **[STRICT-BLOCK] Insecure API Sinks** (`05-insecure-api-sinks`): Blocks dangerous API calls that create injection, XSS, or transport-security holes \u2014 eval, raw DOM HTML injection, TLS verification bypass, shell string execution, weak crypto on credentials.\n- **[STRICT-BLOCK] Sensitive File Guard** (`06-sensitive-files`): Blocks scanning/working on committed sensitive files \u2014 env files, private keys, certificates, and credential stores must never live in the source tree.\n- **[STRICT-BLOCK] Technology Stack Policy** (`01-stack`): Enforces project-declared tech stack boundaries and prevents casual introduction of unapproved frameworks.\n- **[STRICT-BLOCK] Version Constraint Policy** (`02-versions`): Enforces version policy rules (current-stable, project-compatible, pinned) over raw 'latest'.\n\n### Policy: Modular Architecture Policy\nArchitecture Rules:\n- Respect module and package boundaries; use public APIs, shared packages, or contracts.\n- Never import other features' private internals.\n- Prefer small, composable units with single responsibility.\n\n### Policy: God File Limit\nGod File Rules:\n- A single file must not exceed 500 lines; split by responsibility before it grows.\n- A file must not declare more than 40 top-level symbols (functions, classes, types).\n- Mixed-responsibility files (UI + data access + orchestration) must be decomposed\n  into cohesive units colocated with their domain.\n- Prefer many small modules over one large one; extraction beats accumulation.\n- No function may exceed 80 lines; long bodies hide multiple responsibilities.\n- Keep per-function branching (ifs, loops, cases, boolean ops, catches) under 12 \u2014\n  beyond that, decompose into named helpers.\n\n### Policy: Domain-Driven Layout\nDomain Layout Rules:\n- Group source files by bounded context/domain (e.g. auth/, billing/, inventory/),\n  never as a flat pile in one directory.\n- No directory may hold more than 15 source files; split domains further.\n- Once a project exceeds 12 source files, at least 60% must live inside\n  domain-named subdirectories.\n- Entry points and composition roots stay at the edge; domain logic nests.\n\n### Policy: Coding Standards Policy\nQuality Assurance Rules:\n- Run type checking (`tsc` or stack equivalent) before declaring completion.\n- Run linter/formatter (`eslint`, `prettier`, `pint`, `php-cs-fixer`).\n- Ensure automated unit/integration tests pass cleanly.\n\n### Policy: Debug Statement Hygiene\nDebug Hygiene Rules:\n- Remove console.log, debugger, pdb.set_trace, binding.pry, fmt.Println, println!,\n  and System.out.println debugging before committing.\n- Use structured logging with levels when runtime diagnostics are intentional.\n\n### Policy: Deferred Work Hygiene\nDeferred Work Rules:\n- More than 5 TODO/FIXME/HACK/XXX markers in one file means the work is not done \u2014\n  resolve or ticket them, don't accumulate them.\n- Every marker should reference a tracking issue (e.g. TODO(#123)).\n\n### Policy: architecture\n# Policy: Architectural Governance\n\n## Policy Statement\n\nAgents must enforce modular boundaries, single responsibility, and prevent God files or component explosion.\n\n## Rules\n\n1. **No God Files**:\n   - Avoid creating 1000+ line files containing mixed business and presentation logic.\n2. **No Component Explosion**:\n   - Do not split small 3-line snippets into unnecessary micro-components.\n3. **Layering Integrity**:\n   - Keep business and domain logic out of UI view components when the project architecture provides a domain layer.\n\n### Policy: change-management\n# Policy: Change Management & Destructive Operations\n\n## Policy Statement\n\nAgents must distinguish non-destructive inspection from disruptive refactoring and request user approval for destructive changes.\n\n## Rules\n\n1. **Ask Before Destructive Cleanup**:\n   - Present recommendations to the user before deleting files, replacing core libraries, altering database schemas, or changing design systems.\n2. **Minimal Scoped Modifications**:\n   - Scope code edits tightly to the task requirements without making collateral edits to unrelated files.\n\n### Policy: current-conventions\n# Policy: Current Conventions & Standards\n\n## Policy Statement\n\nAll code generated by AgentJam agents must adhere to the project's active conventions and framework standards.\n\n## Rules\n\n1. **Framework Precedence**:\n   - Framework-specific conventions take precedence over generic language defaults (e.g. Laravel conventions over generic PHP PSR standards).\n2. **Version Policies**:\n   - `current-stable`: Highest production-ready major release.\n   - `project-compatible`: Version compatible with existing lockfiles.\n   - `pinned`: Locked strictly to project manifest versions.\n\n### Policy: dependencies\n# Policy: Dependency Governance\n\n## Policy Statement\n\nAgents must respect project dependency boundaries and prevent unapproved package inflation.\n\n## Rules\n\n1",
-      "format": "text",
-      "path": ".cursorrules"
-    },
-    "description": "AgentJam is an open-source, harness-agnostic runtime and governance system for AI coding agents.",
-    "id": "primasdevlabs/agentjam",
-    "language": "Go",
-    "name": "primasdevlabs/agentjam",
-    "stars": 1,
-    "updated_at": "2026-09-27T10:18:33Z",
-    "url": "https://github.com/primasdevlabs/agentjam"
-  },
-  {
-    "cursorrules": {
-      "content": "# Emdash Skills for Cursor\n\nLoad CONVENTIONS.md for stack defaults. Load _router.md for skill routing.\n19 categories, 159 reference docs, 26 agents.\n\n## Stack\nCF Workers + Hono | Angular 21 + Ionic 8 + Spartan UI | D1/Neon | Drizzle v1 | Clerk | Stripe | Inngest | Amazon SES | Bun | Playwright v1.59+ | PostHog | Sentry\n\n## Rules\n- TypeScript strict, never `any`, prefer `interface` over `type`\n- Hono inline handlers for RPC type inference\n- Zod validation on all inputs\n- TDD: failing test first, Playwright 6 breakpoints\n- Dark-first design, #060610 bg, #00E5FF accent\n- Deploy to CF Workers, purge CDN after every deploy\n\nSee CONVENTIONS.md for full patterns.\n",
-      "format": "text",
-      "path": ".cursorrules"
-    },
-    "description": "14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts \u2192 deployed products.",
-    "id": "heymegabyte/claude-skills",
-    "language": "TypeScript",
-    "name": "heymegabyte/claude-skills",
-    "stars": 22,
-    "updated_at": "2026-09-27T01:11:37Z",
-    "url": "https://github.com/heymegabyte/claude-skills"
   }
 ]
