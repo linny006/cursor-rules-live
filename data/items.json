@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-29T14:45:48Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "My life's work: a deterministic engineering harness for Cursor.",
     "id": "kleosr/bridle",
     "language": "Shell",
@@ -21,15 +30,6 @@
     "stars": 8,
     "updated_at": "2026-09-29T14:34:07Z",
     "url": "https://github.com/vibestackdev/vibe-stack"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-29T14:30:55Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\u82f1\u6587\u6587\u7ae0\u80cc\u8bf5\u6280\u5de7",
@@ -83,7 +83,7 @@
     "language": "Go",
     "name": "GeiserX/lynxprompt-mcp",
     "stars": 2,
-    "updated_at": "2026-09-29T13:37:16Z",
+    "updated_at": "2026-09-29T14:58:41Z",
     "url": "https://github.com/GeiserX/lynxprompt-mcp"
   },
   {
@@ -101,7 +101,7 @@
     "language": "Ruby",
     "name": "GeiserX/homebrew-lynxprompt",
     "stars": 2,
-    "updated_at": "2026-09-29T13:30:11Z",
+    "updated_at": "2026-09-29T14:57:58Z",
     "url": "https://github.com/GeiserX/homebrew-lynxprompt"
   },
   {
