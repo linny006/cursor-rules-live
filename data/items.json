@@ -5,8 +5,35 @@
     "language": "Ruby",
     "name": "GeiserX/homebrew-lynxprompt",
     "stars": 2,
-    "updated_at": "2026-09-29T16:03:31Z",
+    "updated_at": "2026-09-29T16:29:10Z",
     "url": "https://github.com/GeiserX/homebrew-lynxprompt"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-29T16:15:39Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-09-29T16:14:53Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "My life's work: a deterministic engineering harness for Cursor.",
+    "id": "kleosr/bridle",
+    "language": "Shell",
+    "name": "kleosr/bridle",
+    "stars": 1,
+    "updated_at": "2026-09-29T16:13:38Z",
+    "url": "https://github.com/kleosr/bridle"
   },
   {
     "description": "A universal, native-Rust governance layer for AI coding agents. Enforces Subagent-Driven Development (SDD) to stop hallu",
@@ -16,15 +43,6 @@
     "stars": 5,
     "updated_at": "2026-09-29T16:02:47Z",
     "url": "https://github.com/Harmitx7/tribunal-kit"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-29T16:00:39Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -49,18 +67,9 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21003,
+    "stars": 21005,
     "updated_at": "2026-09-29T15:49:25Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
-  },
-  {
-    "description": "My life's work: a deterministic engineering harness for Cursor.",
-    "id": "kleosr/bridle",
-    "language": "Shell",
-    "name": "kleosr/bridle",
-    "stars": 1,
-    "updated_at": "2026-09-29T16:13:38Z",
-    "url": "https://github.com/kleosr/bridle"
   },
   {
     "description": "An agent skill that sets up a markdown memory layout for agents. The layout keeps a short always-on file and loads every",
@@ -173,7 +182,7 @@
     "language": "Go",
     "name": "GeiserX/lynxprompt-mcp",
     "stars": 2,
-    "updated_at": "2026-09-29T14:58:41Z",
+    "updated_at": "2026-09-29T16:29:39Z",
     "url": "https://github.com/GeiserX/lynxprompt-mcp"
   },
   {
@@ -182,7 +191,7 @@
     "language": "TypeScript",
     "name": "GeiserX/lynxprompt-vscode",
     "stars": 2,
-    "updated_at": "2026-09-29T15:01:11Z",
+    "updated_at": "2026-09-29T16:29:52Z",
     "url": "https://github.com/GeiserX/lynxprompt-vscode"
   },
   {
@@ -249,15 +258,6 @@
     "url": "https://github.com/XAKLESK/cre-agent-skills"
   },
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-09-29T16:14:53Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
     "id": "Hyanthropological659/clarify-skill",
     "language": "\u2014",
@@ -299,7 +299,7 @@
     "language": "OpenSCAD",
     "name": "wilsonwaters/3d-printing",
     "stars": 4,
-    "updated_at": "2026-09-29T13:49:53Z",
+    "updated_at": "2026-09-29T16:15:42Z",
     "url": "https://github.com/wilsonwaters/3d-printing"
   },
   {
