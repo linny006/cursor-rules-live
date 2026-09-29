@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-29T05:00:52Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
     "id": "KbWen/agentic-os",
     "language": "Python",
@@ -9,20 +18,11 @@
     "url": "https://github.com/KbWen/agentic-os"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-29T04:45:56Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
     "id": "HoangNguyen0403/agent-skills-standard",
     "language": "TypeScript",
     "name": "HoangNguyen0403/agent-skills-standard",
-    "stars": 570,
+    "stars": 569,
     "updated_at": "2026-09-29T04:35:40Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
   },
