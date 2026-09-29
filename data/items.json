@@ -1,11 +1,20 @@
 [
   {
+    "description": "Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W-",
+    "id": "fluttersdk/wind",
+    "language": "Dart",
+    "name": "fluttersdk/wind",
+    "stars": 38,
+    "updated_at": "2026-09-29T10:28:40Z",
+    "url": "https://github.com/fluttersdk/wind"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-29T10:00:37Z",
+    "updated_at": "2026-09-29T10:15:43Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -199,7 +208,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40073,
+    "stars": 40074,
     "updated_at": "2026-09-29T00:45:29Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -398,15 +407,6 @@
     "stars": 2,
     "updated_at": "2026-09-28T03:40:18Z",
     "url": "https://github.com/TuckerWarlock/ai-instructions"
-  },
-  {
-    "description": "Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W-",
-    "id": "fluttersdk/wind",
-    "language": "Dart",
-    "name": "fluttersdk/wind",
-    "stars": 38,
-    "updated_at": "2026-09-29T06:19:30Z",
-    "url": "https://github.com/fluttersdk/wind"
   },
   {
     "description": "Official AI Agent Plugins & Skills Marketplace for Antigravity (AGY), Claude Code, and Cursor",
