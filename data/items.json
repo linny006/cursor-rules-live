@@ -5,8 +5,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-29T10:45:43Z",
+    "updated_at": "2026-09-29T11:00:45Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\u8de8\u5b66\u79d1\u65b9\u6cd5\u901a\u8bba \u00b7 Agent Skill\uff1a25+ \u5b66\u79d1 189 \u6761\u601d\u7ef4\u6a21\u578b + \u8d44\u672c\u8bba/\u77db\u76fe\u8bba/\u5b9e\u8df5\u8bba\uff0c\u8ba9 AI \u7684\u5206\u6790\u80fd\u5728\u6307\u5b9a\u65e5\u671f\u88ab\u5224\u5bf9\u9519\u3002\u652f\u6301 Claude Code / Codex / Cursor / Windsurf / Qod",
+    "id": "MrJiaTu/cross-disciplinary-models",
+    "language": "JavaScript",
+    "name": "MrJiaTu/cross-disciplinary-models",
+    "stars": 2,
+    "updated_at": "2026-09-29T10:59:41Z",
+    "url": "https://github.com/MrJiaTu/cross-disciplinary-models"
   },
   {
     "description": "A catalogue of AI writing tells, each with a plain rewrite, shared by Fireside. Drop it into a system prompt to stop LLM",
@@ -489,14 +498,5 @@
     "stars": 0,
     "updated_at": "2026-09-26T11:58:09Z",
     "url": "https://github.com/SharimAli/imgui-menu-clone"
-  },
-  {
-    "description": "404\u4f53\u306e\u5373\u6226\u529bAI\u5c02\u9580\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u96c6 \u2014 Claude Code / Cursor / Copilot \u7b49\u306b\u5bfe\u5fdc\u3002\u65e5\u672c\u5e02\u5834\u5411\u3051\u30aa\u30ea\u30b8\u30ca\u30eb125\u4f53\uff08SIer\u30fb\u53d7\u8a17\u958b\u767a\u30fbSaaS\u30fb\u88fd\u9020DX\u30fb\u516c\u5171\u5206\u91ce\uff09\u3002agency-agents\u306e\u65e5\u672c\u8a9e\u30b3\u30df\u30e5",
-    "id": "sscodeai/agency-agents-ja",
-    "language": "Shell",
-    "name": "sscodeai/agency-agents-ja",
-    "stars": 6,
-    "updated_at": "2026-09-26T21:01:32Z",
-    "url": "https://github.com/sscodeai/agency-agents-ja"
   }
 ]
