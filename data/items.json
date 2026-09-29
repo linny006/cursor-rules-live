@@ -1,5 +1,23 @@
 [
   {
+    "description": "Development rules and reusable skills collection for AI coding assistants, covering DealTech UI, Vibes-Plug workflow, Po",
+    "id": "Emzyjeppp/devflow-rules",
+    "language": "JavaScript",
+    "name": "Emzyjeppp/devflow-rules",
+    "stars": 0,
+    "updated_at": "2026-09-29T22:52:16Z",
+    "url": "https://github.com/Emzyjeppp/devflow-rules"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-29T22:45:43Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "MCP Server for LynxPrompt \u2014 browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP",
     "id": "GeiserX/lynxprompt-mcp",
     "language": "Go",
@@ -30,15 +48,6 @@
     "stars": 2,
     "updated_at": "2026-09-29T22:31:18Z",
     "url": "https://github.com/GeiserX/lynxprompt-vscode"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-29T22:30:43Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Homebrew tap for LynxPrompt CLI",
@@ -180,7 +189,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21008,
+    "stars": 21009,
     "updated_at": "2026-09-29T15:49:25Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -331,7 +340,7 @@
     "language": "OpenSCAD",
     "name": "wilsonwaters/3d-printing",
     "stars": 4,
-    "updated_at": "2026-09-29T16:15:42Z",
+    "updated_at": "2026-09-29T22:52:43Z",
     "url": "https://github.com/wilsonwaters/3d-printing"
   },
   {
@@ -474,14 +483,5 @@
     "stars": 0,
     "updated_at": "2026-09-28T07:39:19Z",
     "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
-  },
-  {
-    "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
-    "id": "Bastioned-successor320/learn-nanobot",
-    "language": "Python",
-    "name": "Bastioned-successor320/learn-nanobot",
-    "stars": 10,
-    "updated_at": "2026-09-28T07:35:12Z",
-    "url": "https://github.com/Bastioned-successor320/learn-nanobot"
   }
 ]
