@@ -1,5 +1,41 @@
 [
   {
+    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 198,
+    "updated_at": "2026-09-29T02:34:09Z",
+    "url": "https://github.com/KbWen/agentic-os"
+  },
+  {
+    "description": "Portable skills and shared policies for Codex, Claude Code, and Cursor on Linux.",
+    "id": "Catherine1401/agent-skills",
+    "language": "Shell",
+    "name": "Catherine1401/agent-skills",
+    "stars": 2,
+    "updated_at": "2026-09-29T02:32:24Z",
+    "url": "https://github.com/Catherine1401/agent-skills"
+  },
+  {
+    "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
+    "id": "HoangNguyen0403/agent-skills-standard",
+    "language": "TypeScript",
+    "name": "HoangNguyen0403/agent-skills-standard",
+    "stars": 570,
+    "updated_at": "2026-09-29T02:31:02Z",
+    "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-29T02:30:34Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
     "id": "Hyanthropological659/clarify-skill",
     "language": "\u2014",
@@ -25,15 +61,6 @@
     "stars": 1,
     "updated_at": "2026-09-29T02:24:39Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-29T02:15:53Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -127,15 +154,6 @@
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
-    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
-    "id": "KbWen/agentic-os",
-    "language": "Python",
-    "name": "KbWen/agentic-os",
-    "stars": 198,
-    "updated_at": "2026-09-29T01:35:43Z",
-    "url": "https://github.com/KbWen/agentic-os"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: PowerSync skill \u2014 follow AGENTS.md playbook; powersync login is Cloud-only\nglobs:\n  - skills/powersync/**/*\n  - AGENTS.md\n  - CONTRIBUTING.md\n---\n\n# PowerSync agent skills\n\nWhen editing or when the user\u2019s task involves PowerSync:\n\n1. Open **skills/powersync/AGENTS.md** and follow **Agent compliance** and the numbered onboarding playbook. Do not assume backend or Cloud vs self-hosted.\n2. Prefer the **PowerSync CLI** per that file; do not hand-roll deployable config unless the user explicitly cannot use the CLI.\n3. **`powersync login`** is for **PowerSync Cloud** (PAT) only \u2014 not for authenticating to a **self-hosted** service. Self-hosted: `powersync init self-hosted`, Docker commands, `PS_ADMIN_TOKEN` on the service.\n\nIf instructions here conflict with a \u201cfaster\u201d approach, the playbook wins unless the user explicitly overrides.\n",
       "format": "mdc",
@@ -226,15 +244,6 @@
     "stars": 8,
     "updated_at": "2026-09-28T16:24:18Z",
     "url": "https://github.com/vibestackdev/vibe-stack"
-  },
-  {
-    "description": "Portable skills and shared policies for Codex, Claude Code, and Cursor on Linux.",
-    "id": "Catherine1401/agent-skills",
-    "language": "Shell",
-    "name": "Catherine1401/agent-skills",
-    "stars": 2,
-    "updated_at": "2026-09-28T16:03:41Z",
-    "url": "https://github.com/Catherine1401/agent-skills"
   },
   {
     "description": "\u82f1\u6587\u6587\u7ae0\u80cc\u8bf5\u6280\u5de7",
@@ -350,7 +359,7 @@
     "id": "fluttersdk/wind",
     "language": "Dart",
     "name": "fluttersdk/wind",
-    "stars": 37,
+    "stars": 38,
     "updated_at": "2026-09-28T03:08:50Z",
     "url": "https://github.com/fluttersdk/wind"
   },
@@ -471,15 +480,6 @@
     "stars": 0,
     "updated_at": "2026-09-26T11:58:09Z",
     "url": "https://github.com/SharimAli/imgui-menu-clone"
-  },
-  {
-    "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
-    "id": "HoangNguyen0403/agent-skills-standard",
-    "language": "TypeScript",
-    "name": "HoangNguyen0403/agent-skills-standard",
-    "stars": 570,
-    "updated_at": "2026-09-28T10:47:11Z",
-    "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
   },
   {
     "description": "404\u4f53\u306e\u5373\u6226\u529bAI\u5c02\u9580\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u96c6 \u2014 Claude Code / Cursor / Copilot \u7b49\u306b\u5bfe\u5fdc\u3002\u65e5\u672c\u5e02\u5834\u5411\u3051\u30aa\u30ea\u30b8\u30ca\u30eb125\u4f53\uff08SIer\u30fb\u53d7\u8a17\u958b\u767a\u30fbSaaS\u30fb\u88fd\u9020DX\u30fb\u516c\u5171\u5206\u91ce\uff09\u3002agency-agents\u306e\u65e5\u672c\u8a9e\u30b3\u30df\u30e5",
