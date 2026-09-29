@@ -1,11 +1,38 @@
 [
   {
+    "description": "Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W-",
+    "id": "fluttersdk/wind",
+    "language": "Dart",
+    "name": "fluttersdk/wind",
+    "stars": 38,
+    "updated_at": "2026-09-29T17:53:10Z",
+    "url": "https://github.com/fluttersdk/wind"
+  },
+  {
+    "description": "MCP Server for LynxPrompt \u2014 browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP",
+    "id": "GeiserX/lynxprompt-mcp",
+    "language": "Go",
+    "name": "GeiserX/lynxprompt-mcp",
+    "stars": 2,
+    "updated_at": "2026-09-29T17:51:58Z",
+    "url": "https://github.com/GeiserX/lynxprompt-mcp"
+  },
+  {
+    "description": "VS Code extension for LynxPrompt \u2014 browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules) ",
+    "id": "GeiserX/lynxprompt-vscode",
+    "language": "TypeScript",
+    "name": "GeiserX/lynxprompt-vscode",
+    "stars": 2,
+    "updated_at": "2026-09-29T17:51:23Z",
+    "url": "https://github.com/GeiserX/lynxprompt-vscode"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-29T17:30:45Z",
+    "updated_at": "2026-09-29T17:45:38Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -23,7 +50,7 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 22,
-    "updated_at": "2026-09-29T17:05:36Z",
+    "updated_at": "2026-09-29T17:55:32Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
@@ -34,24 +61,6 @@
     "stars": 1,
     "updated_at": "2026-09-29T17:05:34Z",
     "url": "https://github.com/kleosr/bridle"
-  },
-  {
-    "description": "VS Code extension for LynxPrompt \u2014 browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules) ",
-    "id": "GeiserX/lynxprompt-vscode",
-    "language": "TypeScript",
-    "name": "GeiserX/lynxprompt-vscode",
-    "stars": 2,
-    "updated_at": "2026-09-29T17:40:14Z",
-    "url": "https://github.com/GeiserX/lynxprompt-vscode"
-  },
-  {
-    "description": "MCP Server for LynxPrompt \u2014 browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP",
-    "id": "GeiserX/lynxprompt-mcp",
-    "language": "Go",
-    "name": "GeiserX/lynxprompt-mcp",
-    "stars": 2,
-    "updated_at": "2026-09-29T17:41:25Z",
-    "url": "https://github.com/GeiserX/lynxprompt-mcp"
   },
   {
     "description": "Homebrew tap for LynxPrompt CLI",
@@ -258,15 +267,6 @@
     "url": "https://github.com/fromfireside/better-tropes"
   },
   {
-    "description": "Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W-",
-    "id": "fluttersdk/wind",
-    "language": "Dart",
-    "name": "fluttersdk/wind",
-    "stars": 38,
-    "updated_at": "2026-09-29T17:44:42Z",
-    "url": "https://github.com/fluttersdk/wind"
-  },
-  {
     "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
     "id": "XAKLESK/cre-agent-skills",
     "language": "\u2014",
@@ -371,7 +371,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40083,
+    "stars": 40084,
     "updated_at": "2026-09-29T00:45:29Z",
     "url": "https://github.com/wshobson/agents"
   },
