@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-29 23:30 UTC
+> ⏰ Last updated: 2026-09-29 23:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,8 +53,8 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-29 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 2 | [Emzyjeppp/devflow-rules](https://github.com/Emzyjeppp/devflow-rules) | 0 | JavaScript | 2026-09-29 | — | Development rules and reusable skills collection for AI coding assistants, covering DealTech UI, Vibes-Plug workflow, Po |
+| 1 | [Emzyjeppp/devflow-rules](https://github.com/Emzyjeppp/devflow-rules) | 0 | JavaScript | 2026-09-29 | — | Development rules and reusable skills collection for AI coding assistants, covering DealTech UI, Vibes-Plug workflow, Po |
+| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-29 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
 | 3 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 49 | — | 2026-09-29 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
 | 4 | [GeiserX/lynxprompt-mcp](https://github.com/GeiserX/lynxprompt-mcp) | 2 | Go | 2026-09-29 | — | MCP Server for LynxPrompt — browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP |
 | 5 | [heymegabyte/claude-skills](https://github.com/heymegabyte/claude-skills) | 22 | TypeScript | 2026-09-29 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/claude-skills/) | 14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts → deployed products. |
@@ -93,7 +93,7 @@ expired items removed — so you can rely on what you see being current.
 | 38 | [HoangNguyen0403/agent-skills-standard](https://github.com/HoangNguyen0403/agent-skills-standard) | 569 | TypeScript | 2026-09-29 | — | A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol |
 | 39 | [kensaurus/cursor-kenji](https://github.com/kensaurus/cursor-kenji) | 9 | JavaScript | 2026-09-29 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/kensaurus/cursor-kenji/) | You say the job; the playbook runs. 143 agent skills + 55 commands for Cursor, Claude Code, Codex, Gemini. React / Next. |
 | 40 | [muhamadhafis/frontend-god](https://github.com/muhamadhafis/frontend-god) | 0 | Shell | 2026-09-29 | — |  |
-| 41 | [wshobson/agents](https://github.com/wshobson/agents) | 40091 | Python | 2026-09-29 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
+| 41 | [wshobson/agents](https://github.com/wshobson/agents) | 40092 | Python | 2026-09-29 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
 | 42 | [idk-arsh/data-agent-rules](https://github.com/idk-arsh/data-agent-rules) | 0 | Python | 2026-09-29 | — | Rules, skills and a destructive-SQL seatbelt that keep AI coding agents (Claude Code, Codex, Cursor, Gemini CLI, Copilot |
 | 43 | [kyle-visner/agent-skills](https://github.com/kyle-visner/agent-skills) | 0 | — | 2026-09-28 | — | Safe write access for AI agents: a skill, Claude Code plugin, Cursor rule and framework examples for AvianSuite, where e |
 | 44 | [kleosr/cursorkleosr](https://github.com/kleosr/cursorkleosr) | 326 | — | 2026-09-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/kleosr/cursorkleosr/) | Make AI Development Feel Natural in Cursor |
