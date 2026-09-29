@@ -5,8 +5,26 @@
     "language": "OpenSCAD",
     "name": "wilsonwaters/3d-printing",
     "stars": 3,
-    "updated_at": "2026-09-28T23:53:34Z",
+    "updated_at": "2026-09-29T00:02:29Z",
     "url": "https://github.com/wilsonwaters/3d-printing"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-29T00:00:43Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Rules, skills and a destructive-SQL seatbelt that keep AI coding agents (Claude Code, Codex, Cursor, Gemini CLI, Copilot",
+    "id": "idk-arsh/data-agent-rules",
+    "language": "Python",
+    "name": "idk-arsh/data-agent-rules",
+    "stars": 0,
+    "updated_at": "2026-09-29T00:00:36Z",
+    "url": "https://github.com/idk-arsh/data-agent-rules"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -16,15 +34,6 @@
     "stars": 49,
     "updated_at": "2026-09-28T23:53:18Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-28T23:45:53Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -37,7 +46,7 @@
     "language": "Python",
     "name": "wshobson/agents",
     "stars": 40062,
-    "updated_at": "2026-09-28T23:34:53Z",
+    "updated_at": "2026-09-29T00:28:35Z",
     "url": "https://github.com/wshobson/agents"
   },
   {
@@ -46,7 +55,7 @@
     "language": "Python",
     "name": "KbWen/agentic-os",
     "stars": 198,
-    "updated_at": "2026-09-28T23:31:31Z",
+    "updated_at": "2026-09-29T00:26:36Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
   {
@@ -339,15 +348,6 @@
     "stars": 1,
     "updated_at": "2026-09-28T02:18:10Z",
     "url": "https://github.com/orin-dx/agent-plugins"
-  },
-  {
-    "description": "Rules, skills and a destructive-SQL seatbelt that keep AI coding agents (Claude Code, Codex, Cursor, Gemini CLI, Copilot",
-    "id": "idk-arsh/data-agent-rules",
-    "language": "Python",
-    "name": "idk-arsh/data-agent-rules",
-    "stars": 0,
-    "updated_at": "2026-09-27T20:47:16Z",
-    "url": "https://github.com/idk-arsh/data-agent-rules"
   },
   {
     "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 plus AIOS, an open-source markdown memory system for coding ",
