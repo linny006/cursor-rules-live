@@ -5,35 +5,8 @@
     "language": "Go",
     "name": "GeiserX/lynxprompt-mcp",
     "stars": 2,
-    "updated_at": "2026-09-29T22:28:30Z",
+    "updated_at": "2026-09-29T22:35:30Z",
     "url": "https://github.com/GeiserX/lynxprompt-mcp"
-  },
-  {
-    "description": "VS Code extension for LynxPrompt \u2014 browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules) ",
-    "id": "GeiserX/lynxprompt-vscode",
-    "language": "TypeScript",
-    "name": "GeiserX/lynxprompt-vscode",
-    "stars": 2,
-    "updated_at": "2026-09-29T22:27:11Z",
-    "url": "https://github.com/GeiserX/lynxprompt-vscode"
-  },
-  {
-    "description": "Homebrew tap for LynxPrompt CLI",
-    "id": "GeiserX/homebrew-lynxprompt",
-    "language": "Ruby",
-    "name": "GeiserX/homebrew-lynxprompt",
-    "stars": 2,
-    "updated_at": "2026-09-29T22:26:55Z",
-    "url": "https://github.com/GeiserX/homebrew-lynxprompt"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-29T22:15:39Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -46,8 +19,35 @@
     "language": "TypeScript",
     "name": "heymegabyte/claude-skills",
     "stars": 22,
-    "updated_at": "2026-09-29T21:53:20Z",
+    "updated_at": "2026-09-29T22:35:15Z",
     "url": "https://github.com/heymegabyte/claude-skills"
+  },
+  {
+    "description": "VS Code extension for LynxPrompt \u2014 browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules) ",
+    "id": "GeiserX/lynxprompt-vscode",
+    "language": "TypeScript",
+    "name": "GeiserX/lynxprompt-vscode",
+    "stars": 2,
+    "updated_at": "2026-09-29T22:31:18Z",
+    "url": "https://github.com/GeiserX/lynxprompt-vscode"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-29T22:30:43Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Homebrew tap for LynxPrompt CLI",
+    "id": "GeiserX/homebrew-lynxprompt",
+    "language": "Ruby",
+    "name": "GeiserX/homebrew-lynxprompt",
+    "stars": 2,
+    "updated_at": "2026-09-29T22:26:55Z",
+    "url": "https://github.com/GeiserX/homebrew-lynxprompt"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
