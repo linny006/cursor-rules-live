@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-29 05:15 UTC
+> ⏰ Last updated: 2026-09-29 05:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -55,7 +55,7 @@ expired items removed — so you can rely on what you see being current.
 |---|------|---|------|---------|-------|-------------|
 | 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-29 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
 | 2 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 198 | Python | 2026-09-29 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
-| 3 | [HoangNguyen0403/agent-skills-standard](https://github.com/HoangNguyen0403/agent-skills-standard) | 569 | TypeScript | 2026-09-29 | — | A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol |
+| 3 | [HoangNguyen0403/agent-skills-standard](https://github.com/HoangNguyen0403/agent-skills-standard) | 570 | TypeScript | 2026-09-29 | — | A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol |
 | 4 | [kensaurus/cursor-kenji](https://github.com/kensaurus/cursor-kenji) | 9 | JavaScript | 2026-09-29 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/kensaurus/cursor-kenji/) | You say the job; the playbook runs. 143 agent skills + 55 commands for Cursor, Claude Code, Codex, Gemini. React / Next. |
 | 5 | [Hyanthropological659/clarify-skill](https://github.com/Hyanthropological659/clarify-skill) | 1 | — | 2026-09-29 | — | Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a |
 | 6 | [Overseastelegramaliterateperson865/awesome-claude-md](https://github.com/Overseastelegramaliterateperson865/awesome-claude-md) | 3 | — | 2026-09-29 | — | Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr |
@@ -86,7 +86,7 @@ expired items removed — so you can rely on what you see being current.
 | 31 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-09-28 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
 | 32 | [Bastioned-successor320/learn-nanobot](https://github.com/Bastioned-successor320/learn-nanobot) | 10 | Python | 2026-09-28 | — | Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers |
 | 33 | [johnwall123459885/skene-cookbook](https://github.com/johnwall123459885/skene-cookbook) | 0 | Python | 2026-09-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/johnwall123459885/skene-cookbook/) | 🤖 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development. |
-| 34 | [MohamedAbdallah-14/unslop](https://github.com/MohamedAbdallah-14/unslop) | 150 | Python | 2026-09-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/MohamedAbdallah-14/unslop/) | Make AI output sound human. Strips AI-isms (sycophancy, stock vocab, hedging stacks, em-dash pileups), preserves code/UR |
+| 34 | [MohamedAbdallah-14/unslop](https://github.com/MohamedAbdallah-14/unslop) | 151 | Python | 2026-09-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/MohamedAbdallah-14/unslop/) | Make AI output sound human. Strips AI-isms (sycophancy, stock vocab, hedging stacks, em-dash pileups), preserves code/UR |
 | 35 | [nu-nenoi/repo-nexus](https://github.com/nu-nenoi/repo-nexus) | 6 | Shell | 2026-09-28 | — | Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml |
 | 36 | [TuckerWarlock/ai-instructions](https://github.com/TuckerWarlock/ai-instructions) | 2 | — | 2026-09-28 | — | How to write great CLAUDE.md, AGENTS.md, Cursor rules, Kiro steering, and Copilot instructions |
 | 37 | [fluttersdk/wind](https://github.com/fluttersdk/wind) | 38 | Dart | 2026-09-28 | — | Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W- |
