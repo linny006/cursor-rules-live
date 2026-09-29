@@ -1,5 +1,32 @@
 [
   {
+    "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 plus AIOS, an open-source markdown memory system for coding ",
+    "id": "sublimecoder/sublimecoding",
+    "language": "\u2014",
+    "name": "sublimecoder/sublimecoding",
+    "stars": 0,
+    "updated_at": "2026-09-29T17:14:36Z",
+    "url": "https://github.com/sublimecoder/sublimecoding"
+  },
+  {
+    "description": "My life's work: a deterministic engineering harness for Cursor.",
+    "id": "kleosr/bridle",
+    "language": "Shell",
+    "name": "kleosr/bridle",
+    "stars": 1,
+    "updated_at": "2026-09-29T17:05:34Z",
+    "url": "https://github.com/kleosr/bridle"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-29T17:01:00Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "VS Code extension for LynxPrompt \u2014 browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules) ",
     "id": "GeiserX/lynxprompt-vscode",
     "language": "TypeScript",
@@ -16,24 +43,6 @@
     "stars": 2,
     "updated_at": "2026-09-29T16:48:08Z",
     "url": "https://github.com/GeiserX/lynxprompt-mcp"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-29T16:45:48Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
-    "description": "My life's work: a deterministic engineering harness for Cursor.",
-    "id": "kleosr/bridle",
-    "language": "Shell",
-    "name": "kleosr/bridle",
-    "stars": 1,
-    "updated_at": "2026-09-29T16:38:27Z",
-    "url": "https://github.com/kleosr/bridle"
   },
   {
     "description": "Homebrew tap for LynxPrompt CLI",
@@ -479,14 +488,5 @@
     "stars": 151,
     "updated_at": "2026-09-28T06:10:39Z",
     "url": "https://github.com/MohamedAbdallah-14/unslop"
-  },
-  {
-    "description": "How to write great CLAUDE.md, AGENTS.md, Cursor rules, Kiro steering, and Copilot instructions",
-    "id": "TuckerWarlock/ai-instructions",
-    "language": "\u2014",
-    "name": "TuckerWarlock/ai-instructions",
-    "stars": 2,
-    "updated_at": "2026-09-28T03:40:18Z",
-    "url": "https://github.com/TuckerWarlock/ai-instructions"
   }
 ]
