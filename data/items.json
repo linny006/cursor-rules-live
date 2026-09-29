@@ -5,8 +5,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-29T05:15:34Z",
+    "updated_at": "2026-09-29T05:30:35Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "3D printing toolkit \u2014 AI-powered design skills for Claude Code, Cursor, Windsurf & Copilot, plus parametric OpenSCAD mod",
+    "id": "wilsonwaters/3d-printing",
+    "language": "OpenSCAD",
+    "name": "wilsonwaters/3d-printing",
+    "stars": 4,
+    "updated_at": "2026-09-29T05:22:48Z",
+    "url": "https://github.com/wilsonwaters/3d-printing"
   },
   {
     "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
@@ -22,7 +31,7 @@
     "id": "HoangNguyen0403/agent-skills-standard",
     "language": "TypeScript",
     "name": "HoangNguyen0403/agent-skills-standard",
-    "stars": 570,
+    "stars": 569,
     "updated_at": "2026-09-29T04:35:40Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
   },
@@ -75,15 +84,6 @@
     "stars": 2,
     "updated_at": "2026-09-29T03:49:12Z",
     "url": "https://github.com/Catherine1401/agent-skills"
-  },
-  {
-    "description": "3D printing toolkit \u2014 AI-powered design skills for Claude Code, Cursor, Windsurf & Copilot, plus parametric OpenSCAD mod",
-    "id": "wilsonwaters/3d-printing",
-    "language": "OpenSCAD",
-    "name": "wilsonwaters/3d-printing",
-    "stars": 3,
-    "updated_at": "2026-09-29T05:22:48Z",
-    "url": "https://github.com/wilsonwaters/3d-printing"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
