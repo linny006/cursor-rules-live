@@ -1,11 +1,20 @@
 [
   {
+    "description": "Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml",
+    "id": "nu-nenoi/repo-nexus",
+    "language": "Shell",
+    "name": "nu-nenoi/repo-nexus",
+    "stars": 6,
+    "updated_at": "2026-09-29T06:03:20Z",
+    "url": "https://github.com/nu-nenoi/repo-nexus"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-29T05:45:35Z",
+    "updated_at": "2026-09-29T06:00:52Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -22,7 +31,7 @@
     "id": "KbWen/agentic-os",
     "language": "Python",
     "name": "KbWen/agentic-os",
-    "stars": 198,
+    "stars": 199,
     "updated_at": "2026-09-29T04:50:25Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
@@ -344,15 +353,6 @@
     "stars": 151,
     "updated_at": "2026-09-28T06:10:39Z",
     "url": "https://github.com/MohamedAbdallah-14/unslop"
-  },
-  {
-    "description": "Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml",
-    "id": "nu-nenoi/repo-nexus",
-    "language": "Shell",
-    "name": "nu-nenoi/repo-nexus",
-    "stars": 6,
-    "updated_at": "2026-09-28T05:58:02Z",
-    "url": "https://github.com/nu-nenoi/repo-nexus"
   },
   {
     "description": "How to write great CLAUDE.md, AGENTS.md, Cursor rules, Kiro steering, and Copilot instructions",
