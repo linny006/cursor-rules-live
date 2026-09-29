@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-29 12:15 UTC
+> ⏰ Last updated: 2026-09-29 12:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,8 +53,8 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 49 | — | 2026-09-29 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-29 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-29 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 49 | — | 2026-09-29 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
 | 3 | [MrJiaTu/cross-disciplinary-models](https://github.com/MrJiaTu/cross-disciplinary-models) | 2 | JavaScript | 2026-09-29 | — | 跨学科方法通论 · Agent Skill：25+ 学科 189 条思维模型 + 资本论/矛盾论/实践论，让 AI 的分析能在指定日期被判对错。支持 Claude Code / Codex / Cursor / Windsurf / Qod |
 | 4 | [fromfireside/better-tropes](https://github.com/fromfireside/better-tropes) | 5 | — | 2026-09-29 | — | A catalogue of AI writing tells, each with a plain rewrite, shared by Fireside. Drop it into a system prompt to stop LLM |
 | 5 | [fluttersdk/wind](https://github.com/fluttersdk/wind) | 38 | Dart | 2026-09-29 | — | Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W- |
