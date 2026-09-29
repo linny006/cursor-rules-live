@@ -1,5 +1,23 @@
 [
   {
+    "description": "My life's work: a deterministic engineering harness for Cursor.",
+    "id": "kleosr/bridle",
+    "language": "Shell",
+    "name": "kleosr/bridle",
+    "stars": 1,
+    "updated_at": "2026-09-29T16:38:27Z",
+    "url": "https://github.com/kleosr/bridle"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-29T16:31:01Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Homebrew tap for LynxPrompt CLI",
     "id": "GeiserX/homebrew-lynxprompt",
     "language": "Ruby",
@@ -9,15 +27,6 @@
     "url": "https://github.com/GeiserX/homebrew-lynxprompt"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-29T16:15:39Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
     "id": "edsondviana8/ai-humanizer-core",
     "language": "HTML",
@@ -25,15 +34,6 @@
     "stars": 1,
     "updated_at": "2026-09-29T16:14:53Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "My life's work: a deterministic engineering harness for Cursor.",
-    "id": "kleosr/bridle",
-    "language": "Shell",
-    "name": "kleosr/bridle",
-    "stars": 1,
-    "updated_at": "2026-09-29T16:13:38Z",
-    "url": "https://github.com/kleosr/bridle"
   },
   {
     "description": "A universal, native-Rust governance layer for AI coding agents. Enforces Subagent-Driven Development (SDD) to stop hallu",
@@ -281,7 +281,7 @@
     "language": "TypeScript",
     "name": "sx4im/skillcheck",
     "stars": 28,
-    "updated_at": "2026-09-29T06:57:29Z",
+    "updated_at": "2026-09-29T16:44:13Z",
     "url": "https://github.com/sx4im/skillcheck"
   },
   {
