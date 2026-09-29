@@ -1,11 +1,20 @@
 [
   {
+    "description": "A catalogue of AI writing tells, each with a plain rewrite, shared by Fireside. Drop it into a system prompt to stop LLM",
+    "id": "fromfireside/better-tropes",
+    "language": "\u2014",
+    "name": "fromfireside/better-tropes",
+    "stars": 5,
+    "updated_at": "2026-09-29T10:44:50Z",
+    "url": "https://github.com/fromfireside/better-tropes"
+  },
+  {
     "description": "Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W-",
     "id": "fluttersdk/wind",
     "language": "Dart",
     "name": "fluttersdk/wind",
     "stars": 38,
-    "updated_at": "2026-09-29T10:28:40Z",
+    "updated_at": "2026-09-29T10:35:22Z",
     "url": "https://github.com/fluttersdk/wind"
   },
   {
@@ -14,7 +23,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-29T10:15:43Z",
+    "updated_at": "2026-09-29T10:30:38Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -208,7 +217,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40074,
+    "stars": 40076,
     "updated_at": "2026-09-29T00:45:29Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -448,15 +457,6 @@
     "stars": 1,
     "updated_at": "2026-09-27T10:18:33Z",
     "url": "https://github.com/primasdevlabs/agentjam"
-  },
-  {
-    "description": "A catalogue of AI writing tells, each with a plain rewrite, shared by Fireside. Drop it into a system prompt to stop LLM",
-    "id": "fromfireside/better-tropes",
-    "language": "\u2014",
-    "name": "fromfireside/better-tropes",
-    "stars": 5,
-    "updated_at": "2026-09-27T07:13:33Z",
-    "url": "https://github.com/fromfireside/better-tropes"
   },
   {
     "cursorrules": {
