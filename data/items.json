@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-29T06:15:41Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml",
     "id": "nu-nenoi/repo-nexus",
     "language": "Shell",
@@ -7,15 +16,6 @@
     "stars": 6,
     "updated_at": "2026-09-29T06:03:20Z",
     "url": "https://github.com/nu-nenoi/repo-nexus"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-29T06:00:52Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "3D printing toolkit \u2014 AI-powered design skills for Claude Code, Cursor, Windsurf & Copilot, plus parametric OpenSCAD mod",
@@ -369,7 +369,7 @@
     "language": "Dart",
     "name": "fluttersdk/wind",
     "stars": 38,
-    "updated_at": "2026-09-28T03:08:50Z",
+    "updated_at": "2026-09-29T06:19:30Z",
     "url": "https://github.com/fluttersdk/wind"
   },
   {

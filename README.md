@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-29 06:15 UTC
+> ⏰ Last updated: 2026-09-29 06:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,8 +53,8 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [nu-nenoi/repo-nexus](https://github.com/nu-nenoi/repo-nexus) | 6 | Shell | 2026-09-29 | — | Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-29 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-29 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [nu-nenoi/repo-nexus](https://github.com/nu-nenoi/repo-nexus) | 6 | Shell | 2026-09-29 | — | Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml |
 | 3 | [wilsonwaters/3d-printing](https://github.com/wilsonwaters/3d-printing) | 4 | OpenSCAD | 2026-09-29 | — | 3D printing toolkit — AI-powered design skills for Claude Code, Cursor, Windsurf & Copilot, plus parametric OpenSCAD mod |
 | 4 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 199 | Python | 2026-09-29 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
 | 5 | [HoangNguyen0403/agent-skills-standard](https://github.com/HoangNguyen0403/agent-skills-standard) | 569 | TypeScript | 2026-09-29 | — | A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol |
@@ -89,7 +89,7 @@ expired items removed — so you can rely on what you see being current.
 | 34 | [johnwall123459885/skene-cookbook](https://github.com/johnwall123459885/skene-cookbook) | 0 | Python | 2026-09-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/johnwall123459885/skene-cookbook/) | 🤖 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development. |
 | 35 | [MohamedAbdallah-14/unslop](https://github.com/MohamedAbdallah-14/unslop) | 151 | Python | 2026-09-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/MohamedAbdallah-14/unslop/) | Make AI output sound human. Strips AI-isms (sycophancy, stock vocab, hedging stacks, em-dash pileups), preserves code/UR |
 | 36 | [TuckerWarlock/ai-instructions](https://github.com/TuckerWarlock/ai-instructions) | 2 | — | 2026-09-28 | — | How to write great CLAUDE.md, AGENTS.md, Cursor rules, Kiro steering, and Copilot instructions |
-| 37 | [fluttersdk/wind](https://github.com/fluttersdk/wind) | 38 | Dart | 2026-09-28 | — | Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W- |
+| 37 | [fluttersdk/wind](https://github.com/fluttersdk/wind) | 38 | Dart | 2026-09-29 | — | Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W- |
 | 38 | [orin-dx/agent-plugins](https://github.com/orin-dx/agent-plugins) | 1 | Python | 2026-09-29 | — | Official AI Agent Plugins & Skills Marketplace for Antigravity (AGY), Claude Code, and Cursor |
 | 39 | [sublimecoder/sublimecoding](https://github.com/sublimecoder/sublimecoding) | 0 | — | 2026-09-27 | — | 🛠️ Free Claude Code & Cursor prompts for senior engineers — plus AIOS, an open-source markdown memory system for coding  |
 | 40 | [Nithwin/stable-frontend](https://github.com/Nithwin/stable-frontend) | 1 | TypeScript | 2026-09-27 | — | Frontend architecture and stability guidelines for AI coding agents in React and Next.js |
