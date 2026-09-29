@@ -1,5 +1,23 @@
 [
   {
+    "description": "\u82f1\u6587\u6587\u7ae0\u80cc\u8bf5\u6280\u5de7",
+    "id": "yxdwind/english-memory-method",
+    "language": "HTML",
+    "name": "yxdwind/english-memory-method",
+    "stars": 0,
+    "updated_at": "2026-09-29T13:46:33Z",
+    "url": "https://github.com/yxdwind/english-memory-method"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-29T13:45:39Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "MCP Server for LynxPrompt \u2014 browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP",
     "id": "GeiserX/lynxprompt-mcp",
     "language": "Go",
@@ -18,15 +36,6 @@
     "url": "https://github.com/GeiserX/lynxprompt-vscode"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-29T13:30:40Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Homebrew tap for LynxPrompt CLI",
     "id": "GeiserX/homebrew-lynxprompt",
     "language": "Ruby",
@@ -41,7 +50,7 @@
     "language": "Shell",
     "name": "sscodeai/agency-agents-ja",
     "stars": 6,
-    "updated_at": "2026-09-29T13:26:07Z",
+    "updated_at": "2026-09-29T13:46:36Z",
     "url": "https://github.com/sscodeai/agency-agents-ja"
   },
   {
@@ -217,7 +226,7 @@
     "language": "OpenSCAD",
     "name": "wilsonwaters/3d-printing",
     "stars": 4,
-    "updated_at": "2026-09-29T05:22:48Z",
+    "updated_at": "2026-09-29T13:46:00Z",
     "url": "https://github.com/wilsonwaters/3d-printing"
   },
   {
@@ -370,15 +379,6 @@
     "stars": 8,
     "updated_at": "2026-09-28T16:24:18Z",
     "url": "https://github.com/vibestackdev/vibe-stack"
-  },
-  {
-    "description": "\u82f1\u6587\u6587\u7ae0\u80cc\u8bf5\u6280\u5de7",
-    "id": "yxdwind/english-memory-method",
-    "language": "HTML",
-    "name": "yxdwind/english-memory-method",
-    "stars": 0,
-    "updated_at": "2026-09-28T15:18:29Z",
-    "url": "https://github.com/yxdwind/english-memory-method"
   },
   {
     "description": "Production-grade AI Agent Skills & Governance for Claude Code, Antigravity, Gemini, and Cursor.",
