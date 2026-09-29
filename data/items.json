@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-29T10:45:43Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "A catalogue of AI writing tells, each with a plain rewrite, shared by Fireside. Drop it into a system prompt to stop LLM",
     "id": "fromfireside/better-tropes",
     "language": "\u2014",
@@ -16,15 +25,6 @@
     "stars": 38,
     "updated_at": "2026-09-29T10:35:22Z",
     "url": "https://github.com/fluttersdk/wind"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-29T10:30:38Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
@@ -250,7 +250,7 @@
     "language": "JavaScript",
     "name": "powersync-ja/agent-skills",
     "stars": 20,
-    "updated_at": "2026-09-28T21:39:59Z",
+    "updated_at": "2026-09-29T10:55:59Z",
     "url": "https://github.com/powersync-ja/agent-skills"
   },
   {

@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-29 10:45 UTC
+> ⏰ Last updated: 2026-09-29 11:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,9 +53,9 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [fromfireside/better-tropes](https://github.com/fromfireside/better-tropes) | 5 | — | 2026-09-29 | — | A catalogue of AI writing tells, each with a plain rewrite, shared by Fireside. Drop it into a system prompt to stop LLM |
-| 2 | [fluttersdk/wind](https://github.com/fluttersdk/wind) | 38 | Dart | 2026-09-29 | — | Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W- |
-| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-29 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-29 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [fromfireside/better-tropes](https://github.com/fromfireside/better-tropes) | 5 | — | 2026-09-29 | — | A catalogue of AI writing tells, each with a plain rewrite, shared by Fireside. Drop it into a system prompt to stop LLM |
+| 3 | [fluttersdk/wind](https://github.com/fluttersdk/wind) | 38 | Dart | 2026-09-29 | — | Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W- |
 | 4 | [XAKLESK/cre-agent-skills](https://github.com/XAKLESK/cre-agent-skills) | 8 | — | 2026-09-29 | — | Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc |
 | 5 | [Amirun99/agency-orchestrator](https://github.com/Amirun99/agency-orchestrator) | 0 | Dart | 2026-09-29 | — | Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support. |
 | 6 | [zinxj/uikit-expert-skill](https://github.com/zinxj/uikit-expert-skill) | 5 | — | 2026-09-29 | — | Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan |
@@ -78,7 +78,7 @@ expired items removed — so you can rely on what you see being current.
 | 23 | [wshobson/agents](https://github.com/wshobson/agents) | 40076 | Python | 2026-09-29 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
 | 24 | [idk-arsh/data-agent-rules](https://github.com/idk-arsh/data-agent-rules) | 0 | Python | 2026-09-29 | — | Rules, skills and a destructive-SQL seatbelt that keep AI coding agents (Claude Code, Codex, Cursor, Gemini CLI, Copilot |
 | 25 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 49 | — | 2026-09-28 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
-| 26 | [powersync-ja/agent-skills](https://github.com/powersync-ja/agent-skills) | 20 | JavaScript | 2026-09-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/powersync-ja/agent-skills/) | Official agent skills for PowerSync |
+| 26 | [powersync-ja/agent-skills](https://github.com/powersync-ja/agent-skills) | 20 | JavaScript | 2026-09-29 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/powersync-ja/agent-skills/) | Official agent skills for PowerSync |
 | 27 | [kyle-visner/agent-skills](https://github.com/kyle-visner/agent-skills) | 0 | — | 2026-09-28 | — | Safe write access for AI agents: a skill, Claude Code plugin, Cursor rule and framework examples for AvianSuite, where e |
 | 28 | [kleosr/cursorkleosr](https://github.com/kleosr/cursorkleosr) | 326 | — | 2026-09-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/kleosr/cursorkleosr/) | Make AI Development Feel Natural in Cursor |
 | 29 | [paypal/ruleshub](https://github.com/paypal/ruleshub) | 1 | JavaScript | 2026-09-28 | — | Ruleshub is a comprehensive collection of AI-optimized rules and guidelines for popular APIs and platforms. |
