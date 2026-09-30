@@ -1,11 +1,20 @@
 [
   {
+    "description": "Your AI agent says done. Nonna makes it prove it: she runs your test suite before a coding agent can stop, and blocks pu",
+    "id": "kapadias/nonna",
+    "language": "Shell",
+    "name": "kapadias/nonna",
+    "stars": 0,
+    "updated_at": "2026-09-30T05:54:25Z",
+    "url": "https://github.com/kapadias/nonna"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-30T05:30:38Z",
+    "updated_at": "2026-09-30T05:45:33Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -484,14 +493,5 @@
     "stars": 1,
     "updated_at": "2026-09-28T18:01:32Z",
     "url": "https://github.com/paypal/ruleshub"
-  },
-  {
-    "description": "",
-    "id": "baneeishaque/ai-agent-rules",
-    "language": "TypeScript",
-    "name": "baneeishaque/ai-agent-rules",
-    "stars": 9,
-    "updated_at": "2026-09-28T17:46:43Z",
-    "url": "https://github.com/baneeishaque/ai-agent-rules"
   }
 ]
