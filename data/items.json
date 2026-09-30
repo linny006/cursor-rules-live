@@ -1,11 +1,20 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-09-30T22:44:00Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-30T22:15:39Z",
+    "updated_at": "2026-09-30T22:30:40Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -62,6 +71,15 @@
     "stars": 0,
     "updated_at": "2026-09-30T21:31:55Z",
     "url": "https://github.com/johnwall123459885/skene-cookbook"
+  },
+  {
+    "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
+    "id": "cowboy937/Cursor-Desktop-2026",
+    "language": "\u2014",
+    "name": "cowboy937/Cursor-Desktop-2026",
+    "stars": 1,
+    "updated_at": "2026-09-30T20:46:07Z",
+    "url": "https://github.com/cowboy937/Cursor-Desktop-2026"
   },
   {
     "cursorrules": {
@@ -135,15 +153,6 @@
     "stars": 2,
     "updated_at": "2026-09-30T18:56:13Z",
     "url": "https://github.com/GeiserX/lynxprompt-vscode"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-09-30T18:43:00Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Blind A/B testing for AI agent skills, .cursorrules, CLAUDE.md, and system prompts. Detects placebo and harmful instruct",
@@ -381,7 +390,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21023,
+    "stars": 21024,
     "updated_at": "2026-09-29T15:49:25Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -484,14 +493,5 @@
     "stars": 4,
     "updated_at": "2026-09-30T00:31:53Z",
     "url": "https://github.com/wilsonwaters/3d-printing"
-  },
-  {
-    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
-    "id": "KbWen/agentic-os",
-    "language": "Python",
-    "name": "KbWen/agentic-os",
-    "stars": 201,
-    "updated_at": "2026-09-29T04:50:25Z",
-    "url": "https://github.com/KbWen/agentic-os"
   }
 ]
