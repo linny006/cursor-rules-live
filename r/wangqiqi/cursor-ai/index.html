@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<title>wangqiqi/cursor-ai - entry on Cursor Rules Live</title>
+<meta name="description" content="无关用户， 无关系统， 无关项目，开箱复制即用！ code faster, code better;">
+<link rel="canonical" href="https://linny006.github.io/cursor-rules-live/r/wangqiqi/cursor-ai/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="wangqiqi/cursor-ai - entry on Cursor Rules Live">
+<meta property="og:description" content="无关用户， 无关系统， 无关项目，开箱复制即用！ code faster, code better;">
+<meta property="og:url" content="https://linny006.github.io/cursor-rules-live/r/wangqiqi/cursor-ai/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="wangqiqi/cursor-ai - entry on Cursor Rules Live">
+<meta name="twitter:description" content="无关用户， 无关系统， 无关项目，开箱复制即用！ code faster, code better;">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"wangqiqi/cursor-ai","codeRepository":"https://github.com/wangqiqi/cursor-ai","programmingLanguage":"Shell","url":"https://linny006.github.io/cursor-rules-live/r/wangqiqi/cursor-ai/","description":"无关用户， 无关系统， 无关项目，开箱复制即用！ code faster, code better;","author":{"@type":"Person","name":"wangqiqi","url":"https://github.com/wangqiqi"},"dateModified":"2026-09-29"}</script>
+<style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
+         --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 16px; font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--fg); background: var(--bg); }
+.wrap { max-width: var(--max); margin: 0 auto; }
+nav.bc { font-size: 14px; color: var(--muted); margin-bottom: 16px; }
+nav.bc a { color: var(--muted); }
+h1 { font-size: 28px; margin: 0 0 8px; }
+h2 { font-size: 20px; margin: 24px 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+p.lead { font-size: 18px; color: var(--muted); margin: 0 0 24px; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+th, td { padding: 8px 12px; text-align: left; border-bottom: 1px solid var(--border); }
+th { background: var(--card); font-weight: 600; }
+ul.crosslinks { list-style: none; padding: 0; }
+ul.crosslinks li { padding: 6px 0; }
+ul.crosslinks li a { font-weight: 500; }
+.meta { display: flex; gap: 16px; flex-wrap: wrap; color: var(--muted); font-size: 14px; margin: 12px 0; }
+.meta span::before { content: "\00b7"; margin-right: 8px; color: var(--border); }
+.meta span:first-child::before { content: ""; }
+footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--border); font-size: 14px; color: var(--muted); }</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="bc"><a href="https://linny006.github.io/cursor-rules-live/">Cursor Rules Live</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/popular/">Entries</a> &#183; <span>wangqiqi/cursor-ai</span></nav>
+<main>
+<h1>wangqiqi/cursor-ai</h1>
+<p class="lead">无关用户， 无关系统， 无关项目，开箱复制即用！ code faster, code better;</p>
+<div class="meta">
+<span><strong>Stars</strong> 3</span>
+<span><strong>Language</strong> Shell</span>
+<span><strong>Last updated</strong> 2026-09-29</span>
+<span><a href="https://github.com/wangqiqi/cursor-ai" rel="external">Source on GitHub</a></span>
+<span><a href="https://github.com/wangqiqi" rel="external">@wangqiqi</a></span>
+</div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/core.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
+description: 核心 SOP — 入口、沟通、安全、审计
+alwaysApply: true
+---
+
+# 核心
+
+`.cursor/`=通用SOP · `.cursorGrowth/`=项目特化与产出（plan·archive·learn·rules，git忽略）· 读序：rules → config → `.cursorGrowth/`
+
+| 场景 | 入口 |
+|------|------|
+| **不确定 / 从哪开始** | **`/master`** → **master**（AskQuestion 路由；无工具则正文选项） |
+| 规划 | `/plan` → **plan** |
+| 长程 Epic | `/long` → **long**（多 Sprint plan/run 链；单 Sprint 仍用 plan+run） |
+| 执行 | `/run` → **run**（`AUTONOMOUS:true`：**一次 `/run` Sprint 连跑**；仅决策打断） |
+| 学习 | `/learn` → **learn**（本仓认知；≠ **study** 学技术） |
+| 脚手架 | `/scaffold` → **scaffold** |
+| 打版 | **`/release`**（人主导）· **ship** agent（自治执行同一 §打版；无 `/ship`） |
+| Git | **git** skill |
+| 安全审查 | **security** skill（清单）· `security-sdlc`（习惯）· `prompt-security`（Prompt 面） |
+| API 设计 | **api** skill |
+| UX / 体验（分流） | **ux** skill · `ux.mdc` — 类型不明先分流；明导航 → **ia**；明上线 → **`/delivery`**（无 `/ux` slash） |
+| 信息架构 / 导航 / 角色入口 | **ia** skill · `ia.mdc`（UX 结构层；≠ 视觉抛光；无 `/ia` slash） |
+| 调试 / 测试 / 回顾 / 交付 | **debug** · **test** · **review** · **`/delivery`**（上线走查；≠ 规划） |
+| 软件使用说明书 / 配图 regen | **`/manual`** · **user-manual** skill（项目无关 · Manual Contract） |
+| 测试报告 / 全量 verify 汇总 | **`/report`** · **test-report** skill（项目无关 · Report Contract） |
+| 长任务 / 异步进度 / 弹窗分层 | `rules/execution/async-progress.mdc` · `long-running-ui.mdc` · `modal-layering.mdc` · `error-context.mdc` · `single-detector.mdc` |
+| 开源选型 / vendor / 输入边界 | `oss-first.mdc` · `submodule.mdc` · `input-bounds.mdc`（二级；`/master` → deps） |
+| 扩展宿主（可选） | `extensibility`（三级 · glob；无独立 slash） |
+| Prompt / Agent 安全 | `prompt-security`（二级；**security** 清单） |
+| ORM/SQL 大批量 IN / 分块查询 | `rules/execution/data-batch` |
+| 学新技术 | **study** skill（学技术；≠ `/learn` 本仓认知） |
+
+扩展路由（关键词命中）：**mcp** · **refactor** · **perf** · **spike** agent（`SPIKE-*`）→ **`/master`**
+
+配置：`config/workflow.json` · `config/release.json` · 协作三公理见 `rules/communication/constitution.mdc` · 母版独立见 **cursor-standalone**
+
+## 母版独立 vs 安装后只读
+
+| 场景 | `.cursor/` |
+|------|------------|
+| **母版仓库**（Super Cursor 模板仓等） | **可自由演进** — 直接改 rules/skills/config/templates |
+| **安装到目标项目** | 默认 **只读** SOP；特化 → `.cursorGrowth/`（见下节） |
+
+引用纪律 · 文风 → **cursor-standalone** · `docs/library-index.md`。
+
+## .cursor 不可变（仅 · 安装到目标项目后）
+
+`.cursor/` 自 `install-super-cursor.sh` 复制到**目标项目**后视为 **只读 SOP**，除非用户**明确**要求修改或完善 `.cursor/`：
+
+**母版仓库**不受本条限制（见上节「母版独立」）。
+
+| 禁止（默认） | 允许去向 |
+|--------------|----------|
+| 主动/自动改 `rules/` `skills/` `agents/` `hooks/` `bin/` `config/` `templates/` | 项目特化 → `.cursorGrowth/`（plan · learn · archive · rules/local） |
+| 「顺便优化」模板、补 skill、改 config | 团队 rules → `.cursorGrowth/rules/local/`（链 `.cursor/rules/local`） |
+| 因业务任务顺带改 hooks 或 workflow | 行为开关 → 用户自行编辑 `config/*.json`，或明确授权后由 Agent 改 |
+
+发现缺口：**说明 + 建议**，等用户确认后再动 **目标项目**的 `.cursor/`。母版仓库日常 Sprint **可直接改**。目标项目 `/master` `/plan` `/run` `/learn` **不得**触发对 `.cursor/` 的写入。
+
+## 沟通
+
+**语言与用户一致**：用户用中文提问/发任务 → 思考与回复用中文；用户用英文 → 思考与回复用英文。同一会话以**最新一条用户消息**为准；混合语言时跟用户主要用语。
+
+不清先问 · 小 diff · 引用行号 · 中途改向=steering（非取消，除非明确取消）
+
+## 安全
+
+无密钥 · 默认禁止 force-push / 跳 hook · delete/reset 须确认 · 批量新建前先 `/plan`
+
+## 审计
+
+人定目标 · 结论可验证 · 动作可重建
+</code></pre>
+<p><a href="https://github.com/wangqiqi/cursor-ai/blob/HEAD/.cursor/rules/core.mdc" rel="external">View raw on GitHub</a></p>
+</section>
+<section><h2>Why this is listed</h2>
+<p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
+<section><h2>Similar in this tracker</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/r/jnMetaCode/agency-agents-zh/">jnMetaCode/agency-agents-zh (stars:21013)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/sscodeai/agency-agents-ja/">sscodeai/agency-agents-ja (stars:6)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/nu-nenoi/repo-nexus/">nu-nenoi/repo-nexus (stars:6)</a></li>
+</ul></section>
+<section><h2>Explore by category</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/popular/">Popular (by stars)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/recent/">Recent (by activity)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/new/">New this week</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/lang/shell/">All Shell entries</a></li>
+</ul></section>
+</main>
+<footer>
+Auto-updated every 15 minutes via GitHub Actions &#183; <a href="https://linny006.github.io/cursor-rules-live/">tracker root</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/sitemap.xml">sitemap</a>
+</footer>
+</div>
+</body>
+</html>

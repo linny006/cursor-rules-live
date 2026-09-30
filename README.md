@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-30 02:30 UTC
+> ⏰ Last updated: 2026-09-30 02:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -82,27 +82,27 @@ expired items removed — so you can rely on what you see being current.
 | 27 | [roedyrustam/vibes-plug](https://github.com/roedyrustam/vibes-plug) | 73 | Python | 2026-09-29 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/roedyrustam/vibes-plug/) | ⚡ Universal 131-Skill AI Agent Swarm Architecture for Antigravity, Claude Code, Cursor, and Windsurf. Vibe Coding 2.0 wi |
 | 28 | [powersync-ja/agent-skills](https://github.com/powersync-ja/agent-skills) | 20 | JavaScript | 2026-09-29 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/powersync-ja/agent-skills/) | Official agent skills for PowerSync |
 | 29 | [sscodeai/agency-agents-ja](https://github.com/sscodeai/agency-agents-ja) | 6 | Shell | 2026-09-29 | — | 404体の即戦力AI専門エージェント集 — Claude Code / Cursor / Copilot 等に対応。日本市場向けオリジナル125体（SIer・受託開発・SaaS・製造DX・公共分野）。agency-agentsの日本語コミュ |
-| 30 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 19 | TypeScript | 2026-09-29 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
-| 31 | [MrJiaTu/cross-disciplinary-models](https://github.com/MrJiaTu/cross-disciplinary-models) | 2 | JavaScript | 2026-09-29 | — | 跨学科方法通论 · Agent Skill：25+ 学科 189 条思维模型 + 资本论/矛盾论/实践论，让 AI 的分析能在指定日期被判对错。支持 Claude Code / Codex / Cursor / Windsurf / Qod |
-| 32 | [fromfireside/better-tropes](https://github.com/fromfireside/better-tropes) | 5 | — | 2026-09-29 | — | A catalogue of AI writing tells, each with a plain rewrite, shared by Fireside. Drop it into a system prompt to stop LLM |
-| 33 | [Hyanthropological659/clarify-skill](https://github.com/Hyanthropological659/clarify-skill) | 1 | — | 2026-09-29 | — | Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a |
-| 34 | [Overseastelegramaliterateperson865/awesome-claude-md](https://github.com/Overseastelegramaliterateperson865/awesome-claude-md) | 3 | — | 2026-09-29 | — | Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr |
-| 35 | [sx4im/skillcheck](https://github.com/sx4im/skillcheck) | 28 | TypeScript | 2026-09-29 | — | Blind A/B testing for AI agent skills, .cursorrules, CLAUDE.md, and system prompts. Detects placebo and harmful instruct |
-| 36 | [nu-nenoi/repo-nexus](https://github.com/nu-nenoi/repo-nexus) | 6 | Shell | 2026-09-29 | — | Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml |
-| 37 | [wilsonwaters/3d-printing](https://github.com/wilsonwaters/3d-printing) | 4 | OpenSCAD | 2026-09-30 | — | 3D printing toolkit — AI-powered design skills for Claude Code, Cursor, Windsurf & Copilot, plus parametric OpenSCAD mod |
-| 38 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 199 | Python | 2026-09-29 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
-| 39 | [HoangNguyen0403/agent-skills-standard](https://github.com/HoangNguyen0403/agent-skills-standard) | 569 | TypeScript | 2026-09-29 | — | A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol |
-| 40 | [kensaurus/cursor-kenji](https://github.com/kensaurus/cursor-kenji) | 9 | JavaScript | 2026-09-29 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/kensaurus/cursor-kenji/) | You say the job; the playbook runs. 143 agent skills + 55 commands for Cursor, Claude Code, Codex, Gemini. React / Next. |
-| 41 | [muhamadhafis/frontend-god](https://github.com/muhamadhafis/frontend-god) | 0 | Shell | 2026-09-29 | — |  |
-| 42 | [wshobson/agents](https://github.com/wshobson/agents) | 40093 | Python | 2026-09-29 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
-| 43 | [idk-arsh/data-agent-rules](https://github.com/idk-arsh/data-agent-rules) | 0 | Python | 2026-09-29 | — | Rules, skills and a destructive-SQL seatbelt that keep AI coding agents (Claude Code, Codex, Cursor, Gemini CLI, Copilot |
-| 44 | [kyle-visner/agent-skills](https://github.com/kyle-visner/agent-skills) | 0 | — | 2026-09-28 | — | Safe write access for AI agents: a skill, Claude Code plugin, Cursor rule and framework examples for AvianSuite, where e |
-| 45 | [kleosr/cursorkleosr](https://github.com/kleosr/cursorkleosr) | 326 | — | 2026-09-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/kleosr/cursorkleosr/) | Make AI Development Feel Natural in Cursor |
-| 46 | [paypal/ruleshub](https://github.com/paypal/ruleshub) | 1 | JavaScript | 2026-09-28 | — | Ruleshub is a comprehensive collection of AI-optimized rules and guidelines for popular APIs and platforms. |
-| 47 | [baneeishaque/ai-agent-rules](https://github.com/baneeishaque/ai-agent-rules) | 9 | TypeScript | 2026-09-28 | — |  |
-| 48 | [ilovefiniki/agent-skills](https://github.com/ilovefiniki/agent-skills) | 0 | Python | 2026-09-28 | — | Production-grade AI Agent Skills & Governance for Claude Code, Antigravity, Gemini, and Cursor. |
-| 49 | [glowElephant/context-forge](https://github.com/glowElephant/context-forge) | 2 | Python | 2026-09-28 | — | Auto harness engineering meta-repo: discuss → curate → bootstrap a context-engineered project for Claude Code, Cursor, C |
-| 50 | [saqie803/ponytail](https://github.com/saqie803/ponytail) | 2 | JavaScript | 2026-09-28 | — | Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony. |
+| 30 | [wangqiqi/cursor-ai](https://github.com/wangqiqi/cursor-ai) | 3 | Shell | 2026-09-29 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wangqiqi/cursor-ai/) | 无关用户， 无关系统， 无关项目，开箱复制即用！ code faster, code better;  |
+| 31 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 19 | TypeScript | 2026-09-29 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
+| 32 | [MrJiaTu/cross-disciplinary-models](https://github.com/MrJiaTu/cross-disciplinary-models) | 2 | JavaScript | 2026-09-29 | — | 跨学科方法通论 · Agent Skill：25+ 学科 189 条思维模型 + 资本论/矛盾论/实践论，让 AI 的分析能在指定日期被判对错。支持 Claude Code / Codex / Cursor / Windsurf / Qod |
+| 33 | [fromfireside/better-tropes](https://github.com/fromfireside/better-tropes) | 5 | — | 2026-09-29 | — | A catalogue of AI writing tells, each with a plain rewrite, shared by Fireside. Drop it into a system prompt to stop LLM |
+| 34 | [Hyanthropological659/clarify-skill](https://github.com/Hyanthropological659/clarify-skill) | 1 | — | 2026-09-29 | — | Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a |
+| 35 | [Overseastelegramaliterateperson865/awesome-claude-md](https://github.com/Overseastelegramaliterateperson865/awesome-claude-md) | 3 | — | 2026-09-29 | — | Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr |
+| 36 | [sx4im/skillcheck](https://github.com/sx4im/skillcheck) | 28 | TypeScript | 2026-09-29 | — | Blind A/B testing for AI agent skills, .cursorrules, CLAUDE.md, and system prompts. Detects placebo and harmful instruct |
+| 37 | [nu-nenoi/repo-nexus](https://github.com/nu-nenoi/repo-nexus) | 6 | Shell | 2026-09-29 | — | Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml |
+| 38 | [wilsonwaters/3d-printing](https://github.com/wilsonwaters/3d-printing) | 4 | OpenSCAD | 2026-09-30 | — | 3D printing toolkit — AI-powered design skills for Claude Code, Cursor, Windsurf & Copilot, plus parametric OpenSCAD mod |
+| 39 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 199 | Python | 2026-09-29 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
+| 40 | [HoangNguyen0403/agent-skills-standard](https://github.com/HoangNguyen0403/agent-skills-standard) | 569 | TypeScript | 2026-09-29 | — | A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol |
+| 41 | [kensaurus/cursor-kenji](https://github.com/kensaurus/cursor-kenji) | 9 | JavaScript | 2026-09-29 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/kensaurus/cursor-kenji/) | You say the job; the playbook runs. 143 agent skills + 55 commands for Cursor, Claude Code, Codex, Gemini. React / Next. |
+| 42 | [muhamadhafis/frontend-god](https://github.com/muhamadhafis/frontend-god) | 0 | Shell | 2026-09-29 | — |  |
+| 43 | [wshobson/agents](https://github.com/wshobson/agents) | 40093 | Python | 2026-09-29 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
+| 44 | [idk-arsh/data-agent-rules](https://github.com/idk-arsh/data-agent-rules) | 0 | Python | 2026-09-29 | — | Rules, skills and a destructive-SQL seatbelt that keep AI coding agents (Claude Code, Codex, Cursor, Gemini CLI, Copilot |
+| 45 | [kyle-visner/agent-skills](https://github.com/kyle-visner/agent-skills) | 0 | — | 2026-09-28 | — | Safe write access for AI agents: a skill, Claude Code plugin, Cursor rule and framework examples for AvianSuite, where e |
+| 46 | [kleosr/cursorkleosr](https://github.com/kleosr/cursorkleosr) | 326 | — | 2026-09-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/kleosr/cursorkleosr/) | Make AI Development Feel Natural in Cursor |
+| 47 | [paypal/ruleshub](https://github.com/paypal/ruleshub) | 1 | JavaScript | 2026-09-28 | — | Ruleshub is a comprehensive collection of AI-optimized rules and guidelines for popular APIs and platforms. |
+| 48 | [baneeishaque/ai-agent-rules](https://github.com/baneeishaque/ai-agent-rules) | 9 | TypeScript | 2026-09-28 | — |  |
+| 49 | [ilovefiniki/agent-skills](https://github.com/ilovefiniki/agent-skills) | 0 | Python | 2026-09-28 | — | Production-grade AI Agent Skills & Governance for Claude Code, Antigravity, Gemini, and Cursor. |
+| 50 | [glowElephant/context-forge](https://github.com/glowElephant/context-forge) | 2 | Python | 2026-09-28 | — | Auto harness engineering meta-repo: discuss → curate → bootstrap a context-engineered project for Claude Code, Cursor, C |
 <!-- TRACKER_TABLE_END -->
 
 ---
