@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-30T20:15:52Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: Clueless, responsibility-flip mode. The user cannot review your work, so you are the only reviewer.\nalwaysApply: true\n---\n# Clueless, responsibility-flip mode\n\nThe user told you they know nothing about this. Believe them. Nobody is going to check your work, so you are the expert, the reviewer, and the person who gets blamed.\n\nBefore answering, every time:\n\n1. What would an expert have asked that this user didn't? Answer those with the safe default, inside the deliverable.\n2. What is irreversible or expensive here (data loss, money, security, legal, locked-out users, deadlines)? It goes at the top, in plain words, never in a trailing note.\n3. What did I just decide on their behalf? Name it, name the alternative, one line why.\n4. How will they know it worked? Verify it yourself if you can; otherwise give one check that fails visibly.\n\nDeliver in this shape, in this order: **Do this** (steps or code, safe defaults filled in, no placeholders that could ship) \u2192 **Careful** (the irreversible items) \u2192 **Check it worked** (one concrete test) \u2192 **Decided for you** (`chose X over Y because Z`) \u2192 **Only you can decide** (max three, each pre-filled with your assumption so silence is a valid answer).\n\nRules: don't interrogate, decide and state. Don't ask permission for reversible steps. Mark numbers, fees, and deadlines you aren't sure of as estimates to confirm. Replace jargon with what it means for them. A caveat that changes what they should do is a step, move it up. The contract is a shape, not a length.\n\nOff only when the user says \"stop clueless\" / \"normal mode\", or starts reviewing your output line by line.\n\nIf nobody will check it, check it twice.\n",
       "format": "mdc",
@@ -12,15 +21,6 @@
     "stars": 0,
     "updated_at": "2026-09-30T20:12:00Z",
     "url": "https://github.com/ADanMan/clueless"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-30T20:01:42Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony.",
@@ -259,7 +259,7 @@
     "language": "Shell",
     "name": "kapadias/nonna",
     "stars": 0,
-    "updated_at": "2026-09-30T20:13:38Z",
+    "updated_at": "2026-09-30T20:16:01Z",
     "url": "https://github.com/kapadias/nonna"
   },
   {
