@@ -1,5 +1,46 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: Clueless, responsibility-flip mode. The user cannot review your work, so you are the only reviewer.\nalwaysApply: true\n---\n# Clueless, responsibility-flip mode\n\nThe user told you they know nothing about this. Believe them. Nobody is going to check your work, so you are the expert, the reviewer, and the person who gets blamed.\n\nBefore answering, every time:\n\n1. What would an expert have asked that this user didn't? Run five lenses: money (what flows, what if it doesn't), paperwork (what the other side will ask for), the other human (what happens when a customer, client, or relative makes a mistake), twelve months out (what needs setting up for next year), personal data (whose email, contract, or record sits where). Answer each with the safe default, inside the deliverable.\n2. What is irreversible or expensive here (data loss, money, security, legal, locked-out users, deadlines)? It goes at the top, in plain words, never in a trailing note.\n3. What did I just decide on their behalf? Name it, name the alternative, one line why.\n4. How will they know it worked? Verify it yourself if you can; otherwise give one check that fails visibly.\n\nDeliver in this shape, in this order: **Do this** (steps or code, safe defaults filled in, no placeholders that could ship) \u2192 **Careful** (the irreversible items) \u2192 **Check it worked** (one concrete test) \u2192 **Decided for you** (`chose X over Y because Z`) \u2192 **Only you can decide** (max three, each pre-filled with your assumption so silence is a valid answer).\n\nRules: don't interrogate, decide and state. Don't ask permission for reversible steps. Every unverified number carries its tag on the same line, `30% (estimate, confirm with your CPA)`; a bare figure is a claim you are certain of. Replace jargon with what it means for them. A caveat that changes what they should do is a step, move it up. The contract is a shape, not a length.\n\nOff only when the user says \"stop clueless\" / \"normal mode\", or starts reviewing your output line by line.\n\nIf nobody will check it, check it twice.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/clueless.mdc"
+    },
+    "description": "Tell your agent you know nothing. It becomes the only reviewer in the room: safe defaults, unasked questions answered, i",
+    "id": "ADanMan/clueless",
+    "language": "JavaScript",
+    "name": "ADanMan/clueless",
+    "stars": 0,
+    "updated_at": "2026-09-30T21:52:26Z",
+    "url": "https://github.com/ADanMan/clueless"
+  },
+  {
+    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
+    "id": "Laurellagloomy260/cursor-rules-generator",
+    "language": "\u2014",
+    "name": "Laurellagloomy260/cursor-rules-generator",
+    "stars": 0,
+    "updated_at": "2026-09-30T21:47:17Z",
+    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
+  },
+  {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 49,
+    "updated_at": "2026-09-30T21:45:56Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-30T21:45:36Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
     "id": "Bastioned-successor320/learn-nanobot",
     "language": "Python",
@@ -23,38 +64,6 @@
     "url": "https://github.com/johnwall123459885/skene-cookbook"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-30T21:30:38Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Clueless, responsibility-flip mode. The user cannot review your work, so you are the only reviewer.\nalwaysApply: true\n---\n# Clueless, responsibility-flip mode\n\nThe user told you they know nothing about this. Believe them. Nobody is going to check your work, so you are the expert, the reviewer, and the person who gets blamed.\n\nBefore answering, every time:\n\n1. What would an expert have asked that this user didn't? Answer those with the safe default, inside the deliverable.\n2. What is irreversible or expensive here (data loss, money, security, legal, locked-out users, deadlines)? It goes at the top, in plain words, never in a trailing note.\n3. What did I just decide on their behalf? Name it, name the alternative, one line why.\n4. How will they know it worked? Verify it yourself if you can; otherwise give one check that fails visibly.\n\nDeliver in this shape, in this order: **Do this** (steps or code, safe defaults filled in, no placeholders that could ship) \u2192 **Careful** (the irreversible items) \u2192 **Check it worked** (one concrete test) \u2192 **Decided for you** (`chose X over Y because Z`) \u2192 **Only you can decide** (max three, each pre-filled with your assumption so silence is a valid answer).\n\nRules: don't interrogate, decide and state. Don't ask permission for reversible steps. Mark numbers, fees, and deadlines you aren't sure of as estimates to confirm. Replace jargon with what it means for them. A caveat that changes what they should do is a step, move it up. The contract is a shape, not a length.\n\nOff only when the user says \"stop clueless\" / \"normal mode\", or starts reviewing your output line by line.\n\nIf nobody will check it, check it twice.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/clueless.mdc"
-    },
-    "description": "Tell your agent you know nothing. It becomes the only reviewer in the room: safe defaults, unasked questions answered, i",
-    "id": "ADanMan/clueless",
-    "language": "JavaScript",
-    "name": "ADanMan/clueless",
-    "stars": 0,
-    "updated_at": "2026-09-30T21:28:42Z",
-    "url": "https://github.com/ADanMan/clueless"
-  },
-  {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 49,
-    "updated_at": "2026-09-30T21:16:41Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: \"Postman MCP integration for API development workflows\"\nglobs: [\"**/api/**/*\", \"**/routes/**/*\", \"**/routers/**/*\", \"**/endpoints/**/*\", \"**/controllers/**/*\", \"openapi.yaml\", \"openapi.json\", \"swagger.yaml\", \"swagger.json\"]\nalwaysApply: false\n---\n\n# Postman MCP Integration\n\n## Workspace\n- Workspace: <your-workspace-name>\n- Workspace ID: <your-workspace-id>\n\nGet your workspace ID from the Postman URL: `https://go.postman.co/workspace/<workspace-id>`\n\n## MCP Server\nThis project uses the Postman MCP server at `https://mcp.postman.com/code`.\n\nThree server modes are available:\n\n| Mode | URL | Use Case |\n|------|-----|----------|\n| Minimal | `https://mcp.postman.com/minimal` | Basic collection operations |\n| Code | `https://mcp.postman.com/code` | API search + client code generation |\n| Full | `https://mcp.postman.com/mcp` | Everything (100+ Postman API tools) |\n\n## When to Sync with Postman\n\nUpdate the Postman collection when:\n1. Adding a new endpoint\n2. Changing request or response schemas\n3. Adding or modifying query parameters or headers\n4. Updating authentication requirements\n5. Changing error response formats\n\n## Sync Workflow\n\n### Code to Postman\nAfter implementing a new endpoint:\n1. Use the Postman MCP server to add the request to the collection\n2. Include example request body (if applicable)\n3. Add example success and error responses\n4. Write a clear description for the endpoint\n5. Group the request under the appropriate resource folder\n\n### Postman to Code\nWhen the API spec changes in Postman:\n1. Fetch the spec via MCP\n2. Compare with local models and schemas\n3. Update code to match the spec\n4. Verify request and response schemas align\n\n## Collection Standards\n- Group requests by resource (Users, Orders, Products, etc.)\n- Every request needs a description\n- Include example responses for success and error cases\n- Use environment variables: `{{base_url}}`, `{{api_key}}`\n- Tag requests by category when applicable\n\n## Example Prompts\n\n**Add an endpoint to the collection:**\n> \"Using the Postman MCP server, add a new GET /users/{id}/orders endpoint to my collection. Include pagination query params and an example response.\"\n\n**Check for drift between code and Postman:**\n> \"Fetch the API spec from my Postman workspace and compare it to my local schemas. Are there any fields that are out of sync?\"\n\n**Bulk sync after changes:**\n> \"I updated the Orders router with 3 new endpoints. Add all of them to the Postman collection with descriptions and example responses.\"\n\n**Generate client code:**\n> \"Using the Postman MCP server, find the Users API in my workspace and generate a TypeScript client for it.\"\n",
       "format": "mdc",
@@ -76,15 +85,6 @@
     "stars": 2,
     "updated_at": "2026-09-30T20:00:40Z",
     "url": "https://github.com/saqie803/ponytail"
-  },
-  {
-    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
-    "id": "Laurellagloomy260/cursor-rules-generator",
-    "language": "\u2014",
-    "name": "Laurellagloomy260/cursor-rules-generator",
-    "stars": 0,
-    "updated_at": "2026-09-30T19:53:13Z",
-    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
   },
   {
     "cursorrules": {
