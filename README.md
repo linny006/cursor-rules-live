@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-30 20:45 UTC
+> ⏰ Last updated: 2026-09-30 21:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,8 +53,8 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [Postman-Devrel/postman-cursor-rules](https://github.com/Postman-Devrel/postman-cursor-rules) | 0 | — | 2026-09-30 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Postman-Devrel/postman-cursor-rules/) | Cursor Rules and MCP configuration for Postman API development workflows |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-30 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-30 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [Postman-Devrel/postman-cursor-rules](https://github.com/Postman-Devrel/postman-cursor-rules) | 0 | — | 2026-09-30 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Postman-Devrel/postman-cursor-rules/) | Cursor Rules and MCP configuration for Postman API development workflows |
 | 3 | [ADanMan/clueless](https://github.com/ADanMan/clueless) | 0 | JavaScript | 2026-09-30 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/ADanMan/clueless/) | Tell your agent you know nothing. It becomes the only reviewer in the room: safe defaults, unasked questions answered, i |
 | 4 | [saqie803/ponytail](https://github.com/saqie803/ponytail) | 2 | JavaScript | 2026-09-30 | — | Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony. |
 | 5 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-09-30 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
