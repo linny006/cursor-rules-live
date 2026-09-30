@@ -10,8 +10,17 @@
     "language": "JavaScript",
     "name": "ADanMan/clueless",
     "stars": 0,
-    "updated_at": "2026-09-30T21:52:26Z",
+    "updated_at": "2026-09-30T22:05:00Z",
     "url": "https://github.com/ADanMan/clueless"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-09-30T22:00:36Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
@@ -30,15 +39,6 @@
     "stars": 49,
     "updated_at": "2026-09-30T21:45:56Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-09-30T21:45:36Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
@@ -273,7 +273,7 @@
     "language": "Shell",
     "name": "kapadias/nonna",
     "stars": 0,
-    "updated_at": "2026-09-30T21:30:15Z",
+    "updated_at": "2026-09-30T22:03:29Z",
     "url": "https://github.com/kapadias/nonna"
   },
   {
