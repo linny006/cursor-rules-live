@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-09-30 03:45 UTC
+> ⏰ Last updated: 2026-09-30 04:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,17 +53,17 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-30 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 2 | [heymegabyte/claude-skills](https://github.com/heymegabyte/claude-skills) | 22 | TypeScript | 2026-09-30 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/claude-skills/) | 14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts → deployed products. |
-| 3 | [Despensativo/OpenWrt-Skills](https://github.com/Despensativo/OpenWrt-Skills) | 0 | Python | 2026-09-30 | — | Definitive Agentic AI skills, rules and developer tooling for OpenWrt, LuCI, and embedded Linux (Antigravity, Cursor, Cl |
-| 4 | [PiloTracer/pilo.ai.logicbison](https://github.com/PiloTracer/pilo.ai.logicbison) | 0 | Shell | 2026-09-30 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/PiloTracer/pilo.ai.logicbison/) | Portable process framework for software teams shipping with coding agents (Cursor, Claude Code, Codex, opencode). Skills |
-| 5 | [sublimecoder/sublimecoding](https://github.com/sublimecoder/sublimecoding) | 0 | — | 2026-09-30 | — | 🛠️ Free Claude Code & Cursor prompts for senior engineers — plus AIOS, an open-source markdown memory system for coding  |
-| 6 | [orin-dx/wisp-plugins](https://github.com/orin-dx/wisp-plugins) | 1 | Python | 2026-09-30 | — | Ten plugins for coding agents, one per stage of the development lifecycle, joined by shared JSON schemas and a common ve |
-| 7 | [Catherine1401/agent-skills](https://github.com/Catherine1401/agent-skills) | 2 | Shell | 2026-09-30 | — | Portable skills and shared policies for Codex, Claude Code, and Cursor on Linux. |
-| 8 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-09-30 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
-| 9 | [XAKLESK/cre-agent-skills](https://github.com/XAKLESK/cre-agent-skills) | 8 | — | 2026-09-30 | — | Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc |
-| 10 | [Amirun99/agency-orchestrator](https://github.com/Amirun99/agency-orchestrator) | 0 | Dart | 2026-09-30 | — | Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support. |
-| 11 | [zinxj/uikit-expert-skill](https://github.com/zinxj/uikit-expert-skill) | 5 | — | 2026-09-30 | — | Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan |
+| 1 | [zinxj/uikit-expert-skill](https://github.com/zinxj/uikit-expert-skill) | 5 | — | 2026-09-30 | — | Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan |
+| 2 | [Despensativo/OpenWrt-Skills](https://github.com/Despensativo/OpenWrt-Skills) | 0 | Python | 2026-09-30 | — | Definitive Agentic AI skills, rules and developer tooling for OpenWrt, LuCI, and embedded Linux (Antigravity, Cursor, Cl |
+| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-09-30 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 4 | [heymegabyte/claude-skills](https://github.com/heymegabyte/claude-skills) | 22 | TypeScript | 2026-09-30 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/claude-skills/) | 14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts → deployed products. |
+| 5 | [PiloTracer/pilo.ai.logicbison](https://github.com/PiloTracer/pilo.ai.logicbison) | 0 | Shell | 2026-09-30 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/PiloTracer/pilo.ai.logicbison/) | Portable process framework for software teams shipping with coding agents (Cursor, Claude Code, Codex, opencode). Skills |
+| 6 | [sublimecoder/sublimecoding](https://github.com/sublimecoder/sublimecoding) | 0 | — | 2026-09-30 | — | 🛠️ Free Claude Code & Cursor prompts for senior engineers — plus AIOS, an open-source markdown memory system for coding  |
+| 7 | [orin-dx/wisp-plugins](https://github.com/orin-dx/wisp-plugins) | 1 | Python | 2026-09-30 | — | Ten plugins for coding agents, one per stage of the development lifecycle, joined by shared JSON schemas and a common ve |
+| 8 | [Catherine1401/agent-skills](https://github.com/Catherine1401/agent-skills) | 2 | Shell | 2026-09-30 | — | Portable skills and shared policies for Codex, Claude Code, and Cursor on Linux. |
+| 9 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-09-30 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
+| 10 | [XAKLESK/cre-agent-skills](https://github.com/XAKLESK/cre-agent-skills) | 8 | — | 2026-09-30 | — | Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc |
+| 11 | [Amirun99/agency-orchestrator](https://github.com/Amirun99/agency-orchestrator) | 0 | Dart | 2026-09-30 | — | Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support. |
 | 12 | [Emzyjeppp/devflow-rules](https://github.com/Emzyjeppp/devflow-rules) | 0 | JavaScript | 2026-09-30 | — | Development rules and reusable skills collection for AI coding assistants, covering DealTech UI, Vibes-Plug workflow, Po |
 | 13 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-09-30 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
 | 14 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-09-30 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
@@ -97,7 +97,7 @@ expired items removed — so you can rely on what you see being current.
 | 42 | [HoangNguyen0403/agent-skills-standard](https://github.com/HoangNguyen0403/agent-skills-standard) | 569 | TypeScript | 2026-09-29 | — | A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol |
 | 43 | [kensaurus/cursor-kenji](https://github.com/kensaurus/cursor-kenji) | 9 | JavaScript | 2026-09-29 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/kensaurus/cursor-kenji/) | You say the job; the playbook runs. 143 agent skills + 55 commands for Cursor, Claude Code, Codex, Gemini. React / Next. |
 | 44 | [muhamadhafis/frontend-god](https://github.com/muhamadhafis/frontend-god) | 0 | Shell | 2026-09-29 | — |  |
-| 45 | [wshobson/agents](https://github.com/wshobson/agents) | 40095 | Python | 2026-09-29 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
+| 45 | [wshobson/agents](https://github.com/wshobson/agents) | 40096 | Python | 2026-09-29 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
 | 46 | [idk-arsh/data-agent-rules](https://github.com/idk-arsh/data-agent-rules) | 0 | Python | 2026-09-29 | — | Rules, skills and a destructive-SQL seatbelt that keep AI coding agents (Claude Code, Codex, Cursor, Gemini CLI, Copilot |
 | 47 | [kyle-visner/agent-skills](https://github.com/kyle-visner/agent-skills) | 0 | — | 2026-09-28 | — | Safe write access for AI agents: a skill, Claude Code plugin, Cursor rule and framework examples for AvianSuite, where e |
 | 48 | [kleosr/cursorkleosr](https://github.com/kleosr/cursorkleosr) | 326 | — | 2026-09-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/kleosr/cursorkleosr/) | Make AI Development Feel Natural in Cursor |

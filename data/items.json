@@ -1,11 +1,29 @@
 [
   {
+    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
+    "id": "zinxj/uikit-expert-skill",
+    "language": "\u2014",
+    "name": "zinxj/uikit-expert-skill",
+    "stars": 5,
+    "updated_at": "2026-09-30T03:56:18Z",
+    "url": "https://github.com/zinxj/uikit-expert-skill"
+  },
+  {
+    "description": "Definitive Agentic AI skills, rules and developer tooling for OpenWrt, LuCI, and embedded Linux (Antigravity, Cursor, Cl",
+    "id": "Despensativo/OpenWrt-Skills",
+    "language": "Python",
+    "name": "Despensativo/OpenWrt-Skills",
+    "stars": 0,
+    "updated_at": "2026-09-30T03:46:02Z",
+    "url": "https://github.com/Despensativo/OpenWrt-Skills"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-30T03:30:35Z",
+    "updated_at": "2026-09-30T03:45:37Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -21,15 +39,6 @@
     "stars": 22,
     "updated_at": "2026-09-30T03:17:23Z",
     "url": "https://github.com/heymegabyte/claude-skills"
-  },
-  {
-    "description": "Definitive Agentic AI skills, rules and developer tooling for OpenWrt, LuCI, and embedded Linux (Antigravity, Cursor, Cl",
-    "id": "Despensativo/OpenWrt-Skills",
-    "language": "Python",
-    "name": "Despensativo/OpenWrt-Skills",
-    "stars": 0,
-    "updated_at": "2026-09-30T03:01:54Z",
-    "url": "https://github.com/Despensativo/OpenWrt-Skills"
   },
   {
     "cursorrules": {
@@ -98,15 +107,6 @@
     "stars": 0,
     "updated_at": "2026-09-30T00:48:08Z",
     "url": "https://github.com/Amirun99/agency-orchestrator"
-  },
-  {
-    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
-    "id": "zinxj/uikit-expert-skill",
-    "language": "\u2014",
-    "name": "zinxj/uikit-expert-skill",
-    "stars": 5,
-    "updated_at": "2026-09-30T00:42:29Z",
-    "url": "https://github.com/zinxj/uikit-expert-skill"
   },
   {
     "description": "Development rules and reusable skills collection for AI coding assistants, covering DealTech UI, Vibes-Plug workflow, Po",
@@ -440,7 +440,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40095,
+    "stars": 40096,
     "updated_at": "2026-09-29T00:45:29Z",
     "url": "https://github.com/wshobson/agents"
   },
