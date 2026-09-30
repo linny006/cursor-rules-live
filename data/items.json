@@ -1,11 +1,20 @@
 [
   {
+    "description": "The hardening moment. A production-grade Skills ecosystem for AI Agents.",
+    "id": "primaybr/quench",
+    "language": "Python",
+    "name": "primaybr/quench",
+    "stars": 1,
+    "updated_at": "2026-09-30T09:59:17Z",
+    "url": "https://github.com/primaybr/quench"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-30T09:31:01Z",
+    "updated_at": "2026-09-30T09:45:43Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -75,15 +84,6 @@
     "stars": 0,
     "updated_at": "2026-09-30T08:53:38Z",
     "url": "https://github.com/johnwall123459885/skene-cookbook"
-  },
-  {
-    "description": "The hardening moment. A production-grade Skills ecosystem for AI Agents.",
-    "id": "primaybr/quench",
-    "language": "Python",
-    "name": "primaybr/quench",
-    "stars": 1,
-    "updated_at": "2026-09-30T09:45:12Z",
-    "url": "https://github.com/primaybr/quench"
   },
   {
     "description": "Portable skills and shared policies for Codex, Claude Code, and Cursor on Linux.",
