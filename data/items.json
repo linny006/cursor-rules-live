@@ -1,15 +1,24 @@
 [
   {
+    "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 plus AIOS, an open-source markdown memory system for coding ",
+    "id": "sublimecoder/sublimecoding",
+    "language": "\u2014",
+    "name": "sublimecoder/sublimecoding",
+    "stars": 0,
+    "updated_at": "2026-09-30T02:56:55Z",
+    "url": "https://github.com/sublimecoder/sublimecoding"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-30T02:30:39Z",
+    "updated_at": "2026-09-30T02:45:55Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
-    "description": "Official AI Agent Plugins & Skills Marketplace for Antigravity (AGY), Claude Code, and Cursor",
+    "description": "Ten plugins for coding agents, one per stage of the development lifecycle, joined by shared JSON schemas and a common ve",
     "id": "orin-dx/wisp-plugins",
     "language": "Python",
     "name": "orin-dx/wisp-plugins",
@@ -156,15 +165,6 @@
     "stars": 38,
     "updated_at": "2026-09-29T17:53:10Z",
     "url": "https://github.com/fluttersdk/wind"
-  },
-  {
-    "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 plus AIOS, an open-source markdown memory system for coding ",
-    "id": "sublimecoder/sublimecoding",
-    "language": "\u2014",
-    "name": "sublimecoder/sublimecoding",
-    "stars": 0,
-    "updated_at": "2026-09-29T17:14:36Z",
-    "url": "https://github.com/sublimecoder/sublimecoding"
   },
   {
     "description": "Architectural drift prevention for the agentic AI SDLC.",
