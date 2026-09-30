@@ -1,12 +1,21 @@
 [
   {
-    "description": "Blind A/B testing for AI agent skills, .cursorrules, CLAUDE.md, and system prompts. Detects placebo and harmful instruct",
-    "id": "sx4im/skillcheck",
+    "description": "VS Code extension for LynxPrompt \u2014 browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules) ",
+    "id": "GeiserX/lynxprompt-vscode",
     "language": "TypeScript",
-    "name": "sx4im/skillcheck",
-    "stars": 28,
-    "updated_at": "2026-09-30T18:22:28Z",
-    "url": "https://github.com/sx4im/skillcheck"
+    "name": "GeiserX/lynxprompt-vscode",
+    "stars": 2,
+    "updated_at": "2026-09-30T18:44:45Z",
+    "url": "https://github.com/GeiserX/lynxprompt-vscode"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-09-30T18:43:00Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +23,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-30T18:15:38Z",
+    "updated_at": "2026-09-30T18:30:42Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Blind A/B testing for AI agent skills, .cursorrules, CLAUDE.md, and system prompts. Detects placebo and harmful instruct",
+    "id": "sx4im/skillcheck",
+    "language": "TypeScript",
+    "name": "sx4im/skillcheck",
+    "stars": 28,
+    "updated_at": "2026-09-30T18:22:28Z",
+    "url": "https://github.com/sx4im/skillcheck"
   },
   {
     "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 plus AIOS, an open-source markdown memory system for coding ",
@@ -150,15 +168,6 @@
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-09-30T13:11:16Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
     "id": "J-nowcow/awesome-korean-agent-skills",
     "language": "\u2014",
@@ -236,7 +245,7 @@
     "language": "Shell",
     "name": "kapadias/nonna",
     "stars": 0,
-    "updated_at": "2026-09-30T17:21:29Z",
+    "updated_at": "2026-09-30T18:39:49Z",
     "url": "https://github.com/kapadias/nonna"
   },
   {
@@ -304,15 +313,6 @@
     "url": "https://github.com/GeiserX/lynxprompt-mcp"
   },
   {
-    "description": "VS Code extension for LynxPrompt \u2014 browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules) ",
-    "id": "GeiserX/lynxprompt-vscode",
-    "language": "TypeScript",
-    "name": "GeiserX/lynxprompt-vscode",
-    "stars": 2,
-    "updated_at": "2026-09-29T22:31:18Z",
-    "url": "https://github.com/GeiserX/lynxprompt-vscode"
-  },
-  {
     "description": "Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W-",
     "id": "fluttersdk/wind",
     "language": "Dart",
@@ -353,7 +353,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21020,
+    "stars": 21021,
     "updated_at": "2026-09-29T15:49:25Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -462,7 +462,7 @@
     "id": "KbWen/agentic-os",
     "language": "Python",
     "name": "KbWen/agentic-os",
-    "stars": 200,
+    "stars": 201,
     "updated_at": "2026-09-29T04:50:25Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
