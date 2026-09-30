@@ -5,8 +5,17 @@
     "language": "Shell",
     "name": "Catherine1401/agent-skills",
     "stars": 2,
-    "updated_at": "2026-09-30T07:39:51Z",
+    "updated_at": "2026-09-30T07:55:41Z",
     "url": "https://github.com/Catherine1401/agent-skills"
+  },
+  {
+    "description": "The hardening moment. A production-grade Skills ecosystem for AI Agents.",
+    "id": "primaybr/quench",
+    "language": "Python",
+    "name": "primaybr/quench",
+    "stars": 1,
+    "updated_at": "2026-09-30T07:49:28Z",
+    "url": "https://github.com/primaybr/quench"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,7 +23,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-30T07:30:48Z",
+    "updated_at": "2026-09-30T07:45:49Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -257,7 +266,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21013,
+    "stars": 21014,
     "updated_at": "2026-09-29T15:49:25Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -309,7 +318,7 @@
     "language": "JavaScript",
     "name": "powersync-ja/agent-skills",
     "stars": 20,
-    "updated_at": "2026-09-29T14:15:35Z",
+    "updated_at": "2026-09-30T07:59:47Z",
     "url": "https://github.com/powersync-ja/agent-skills"
   },
   {
@@ -484,14 +493,5 @@
     "stars": 326,
     "updated_at": "2026-09-28T20:15:21Z",
     "url": "https://github.com/kleosr/cursorkleosr"
-  },
-  {
-    "description": "Ruleshub is a comprehensive collection of AI-optimized rules and guidelines for popular APIs and platforms.",
-    "id": "paypal/ruleshub",
-    "language": "JavaScript",
-    "name": "paypal/ruleshub",
-    "stars": 1,
-    "updated_at": "2026-09-28T18:01:32Z",
-    "url": "https://github.com/paypal/ruleshub"
   }
 ]
