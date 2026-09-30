@@ -1,11 +1,20 @@
 [
   {
+    "description": "Blind A/B testing for AI agent skills, .cursorrules, CLAUDE.md, and system prompts. Detects placebo and harmful instruct",
+    "id": "sx4im/skillcheck",
+    "language": "TypeScript",
+    "name": "sx4im/skillcheck",
+    "stars": 28,
+    "updated_at": "2026-09-30T18:22:28Z",
+    "url": "https://github.com/sx4im/skillcheck"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-09-30T18:01:02Z",
+    "updated_at": "2026-09-30T18:15:38Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -46,7 +55,7 @@
     "language": "Python",
     "name": "roedyrustam/vibes-plug",
     "stars": 73,
-    "updated_at": "2026-09-30T16:21:20Z",
+    "updated_at": "2026-09-30T18:25:48Z",
     "url": "https://github.com/roedyrustam/vibes-plug"
   },
   {
@@ -429,15 +438,6 @@
     "stars": 3,
     "updated_at": "2026-09-29T07:30:08Z",
     "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
-  },
-  {
-    "description": "Blind A/B testing for AI agent skills, .cursorrules, CLAUDE.md, and system prompts. Detects placebo and harmful instruct",
-    "id": "sx4im/skillcheck",
-    "language": "TypeScript",
-    "name": "sx4im/skillcheck",
-    "stars": 28,
-    "updated_at": "2026-09-29T16:45:55Z",
-    "url": "https://github.com/sx4im/skillcheck"
   },
   {
     "description": "Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml",
