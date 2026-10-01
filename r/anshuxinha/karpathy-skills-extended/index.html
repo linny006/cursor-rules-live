@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<title>anshuxinha/karpathy-skills-extended - entry on Cursor Rules Live</title>
+<meta name="description" content="Coding agents fill the blanks in a prompt and ship the guess. For Codex, Claude, Cursor, Antigravity, Gemini, and Grok:">
+<link rel="canonical" href="https://linny006.github.io/cursor-rules-live/r/anshuxinha/karpathy-skills-extended/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="anshuxinha/karpathy-skills-extended - entry on Cursor Rules Live">
+<meta property="og:description" content="Coding agents fill the blanks in a prompt and ship the guess. For Codex, Claude, Cursor, Antigravity, Gemini, and Grok:">
+<meta property="og:url" content="https://linny006.github.io/cursor-rules-live/r/anshuxinha/karpathy-skills-extended/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="anshuxinha/karpathy-skills-extended - entry on Cursor Rules Live">
+<meta name="twitter:description" content="Coding agents fill the blanks in a prompt and ship the guess. For Codex, Claude, Cursor, Antigravity, Gemini, and Grok:">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"anshuxinha/karpathy-skills-extended","codeRepository":"https://github.com/anshuxinha/karpathy-skills-extended","programmingLanguage":"—","url":"https://linny006.github.io/cursor-rules-live/r/anshuxinha/karpathy-skills-extended/","description":"Coding agents fill the blanks in a prompt and ship the guess. For Codex, Claude, Cursor, Antigravity, Gemini, and Grok:","author":{"@type":"Person","name":"anshuxinha","url":"https://github.com/anshuxinha"},"dateModified":"2026-10-01"}</script>
+<style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
+         --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 16px; font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--fg); background: var(--bg); }
+.wrap { max-width: var(--max); margin: 0 auto; }
+nav.bc { font-size: 14px; color: var(--muted); margin-bottom: 16px; }
+nav.bc a { color: var(--muted); }
+h1 { font-size: 28px; margin: 0 0 8px; }
+h2 { font-size: 20px; margin: 24px 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+p.lead { font-size: 18px; color: var(--muted); margin: 0 0 24px; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+th, td { padding: 8px 12px; text-align: left; border-bottom: 1px solid var(--border); }
+th { background: var(--card); font-weight: 600; }
+ul.crosslinks { list-style: none; padding: 0; }
+ul.crosslinks li { padding: 6px 0; }
+ul.crosslinks li a { font-weight: 500; }
+.meta { display: flex; gap: 16px; flex-wrap: wrap; color: var(--muted); font-size: 14px; margin: 12px 0; }
+.meta span::before { content: "\00b7"; margin-right: 8px; color: var(--border); }
+.meta span:first-child::before { content: ""; }
+footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--border); font-size: 14px; color: var(--muted); }</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="bc"><a href="https://linny006.github.io/cursor-rules-live/">Cursor Rules Live</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/popular/">Entries</a> &#183; <span>anshuxinha/karpathy-skills-extended</span></nav>
+<main>
+<h1>anshuxinha/karpathy-skills-extended</h1>
+<p class="lead">Coding agents fill the blanks in a prompt and ship the guess. For Codex, Claude, Cursor, Antigravity, Gemini, and Grok:</p>
+<div class="meta">
+<span><strong>Stars</strong> 0</span>
+<span><strong>Language</strong> —</span>
+<span><strong>Last updated</strong> 2026-10-01</span>
+<span><a href="https://github.com/anshuxinha/karpathy-skills-extended" rel="external">Source on GitHub</a></span>
+<span><a href="https://github.com/anshuxinha" rel="external">@anshuxinha</a></span>
+</div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/karpathy-skills-extended.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
+description: On every request, ask only knowledge gaps that would change the outcome. Keep Karpathy&#x27;s coding rules.
+alwaysApply: true
+---
+
+# Karpathy skills, extended
+
+Canonical text: `skills/karpathy-skills-extended/SKILL.md`. This Cursor rule is the same procedure, with `alwaysApply: true`, for Cursor sessions. Codex, Claude, Antigravity, Gemini, and Grok load the skill file or `rules/karpathy-skills-extended.md` instead. Copy this file to `~/.cursor/rules/` for every Cursor project. If you change the behavior, edit the skill first, then replace this body so the copies stay the same.
+
+Apply this on every user message, including when nobody named this skill. The host may be Codex, Claude, Cursor, Antigravity, Gemini, or Grok. The check is the same in each. Do not announce the check.
+
+The four coding rules below follow Andrej Karpathy&#x27;s notes on agents that assume, overbuild, and edit code they were not asked to touch (https://x.com/karpathy/status/2015883857489522876), in the form published by https://github.com/multica-ai/andrej-karpathy-skills. The gap check is the part this skill adds. Matt Pocock&#x27;s grill-me (https://github.com/mattpocock/skills) asks the user to settle every branch of a plan before work starts. That session fits a soft idea. On an ordinary prompt it runs long. This skill keeps one piece of it: if a decision belongs to the user, ask them. Ask only the gaps that pass the tests below, then do the task.
+
+## Gap check
+
+Run this before you edit, write, delete, send, or commit to a plan.
+
+A gap meets all four tests:
+
+1. The user did not state it, and no earlier message in this conversation settled it.
+2. You cannot get it by reading the repo, docs, tools, or config.
+3. More than one plausible answer exists.
+4. The choice would change the files, behavior, audience, schema, copy, or the check for done.
+
+If a fact fails any test, it is not a gap. Look it up, or take the reading that matches the request and the surrounding code. You may name that choice in one line while you work. Lookup is your job. Do it before you call something a gap. Decisions about intent are the user&#x27;s.
+
+### When you ask
+
+- One round, then wait. Leave the work that depends on the answer undone. You may keep reading.
+- Three questions at most. One is the usual case. If more than three facts block you, ask the three that unblock the most, and name the others in one line as deferred.
+- Each question names the missing fact, what would change, and the answer you recommend if they tell you to choose.
+- Plain sentences. No design-tree rounds. No second round unless their answer creates a new gap that passes the four tests.
+- If they skip a question, say you choose, or answer only part of the round, use your recommendation for the rest and continue.
+- If you already asked this gap and they answered, do not ask again.
+
+### When you stay quiet
+
+Do the work and do not mention the check when:
+
+- The request has one reading.
+- They delegated the choice (&quot;you pick&quot;, &quot;whatever is simplest&quot;, &quot;match the rest&quot;).
+- The repo, a user rule, or an earlier turn already answers it.
+- The open choice is an implementation detail with a local convention.
+- The only question you have is whether to continue.
+
+A one-line fix does not need the full coding rigor below. Use judgment.
+
+If they ask for a full grilling session, run that session. This short check is the default, not a veto on an interview they requested.
+
+## Coding rules
+
+If a skill named karpathy-guidelines is also loaded, follow it as well. On a fact that passes the four tests, this gap check wins: stop and ask. Do not treat a written assumption as a substitute for their answer.
+
+### Think before coding
+
+Name a tradeoff when it would change the design. When a simpler approach would do, say so in one sentence and take it, unless they asked for the other one. If you are confused, name the confusion. If that confusion passes the four tests, ask.
+
+### Simplicity first
+
+Write the minimum that solves the request. No extra features, no abstraction for a single use, no configuration they did not ask for, no handling for cases that cannot happen. If a senior engineer would call the design overcomplicated, cut it.
+
+### Surgical changes
+
+Change lines the request requires. Match the surrounding style. Do not refactor, reformat, or delete adjacent code. If you notice unrelated dead code, mention it and leave it. Remove imports, variables, and functions that your edit made unused.
+
+### Goal-driven execution
+
+Turn the task into a check you can run. A bug fix is a check that fails before the fix and passes after. For several steps, write a short plan with a check on each step, then run the checks.
+
+## Examples
+
+&quot;Add a delete button on the patient row.&quot; Passing gap: hide the row, mark the record inactive, or remove the record. Ask one question. Recommend the pattern that table already uses. Wait.
+
+&quot;Rename getUser to fetchUser in src/api.ts.&quot; One reading. Rename it.
+</code></pre>
+<p><a href="https://github.com/anshuxinha/karpathy-skills-extended/blob/HEAD/.cursor/rules/karpathy-skills-extended.mdc" rel="external">View raw on GitHub</a></p>
+</section>
+<section><h2>Why this is listed</h2>
+<p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
+<section><h2>Similar in this tracker</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/r/J-nowcow/awesome-korean-agent-skills/">J-nowcow/awesome-korean-agent-skills (stars:49)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/XAKLESK/cre-agent-skills/">XAKLESK/cre-agent-skills (stars:8)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/zinxj/uikit-expert-skill/">zinxj/uikit-expert-skill (stars:5)</a></li>
+</ul></section>
+<section><h2>Explore by category</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/popular/">Popular (by stars)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/recent/">Recent (by activity)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/new/">New this week</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/lang/x/">All — entries</a></li>
+</ul></section>
+</main>
+<footer>
+Auto-updated every 15 minutes via GitHub Actions &#183; <a href="https://linny006.github.io/cursor-rules-live/">tracker root</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/sitemap.xml">sitemap</a>
+</footer>
+</div>
+</body>
+</html>
