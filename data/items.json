@@ -1,11 +1,20 @@
 [
   {
+    "description": "Blind A/B testing for AI agent skills, .cursorrules, CLAUDE.md, and system prompts. Detects placebo and harmful instruct",
+    "id": "sx4im/skillcheck",
+    "language": "TypeScript",
+    "name": "sx4im/skillcheck",
+    "stars": 28,
+    "updated_at": "2026-10-01T09:24:39Z",
+    "url": "https://github.com/sx4im/skillcheck"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-01T09:00:50Z",
+    "updated_at": "2026-10-01T09:15:34Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -25,15 +34,6 @@
     "stars": 1,
     "updated_at": "2026-10-01T08:01:54Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "Blind A/B testing for AI agent skills, .cursorrules, CLAUDE.md, and system prompts. Detects placebo and harmful instruct",
-    "id": "sx4im/skillcheck",
-    "language": "TypeScript",
-    "name": "sx4im/skillcheck",
-    "stars": 28,
-    "updated_at": "2026-10-01T09:04:10Z",
-    "url": "https://github.com/sx4im/skillcheck"
   },
   {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
