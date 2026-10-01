@@ -5,8 +5,26 @@
     "language": "TypeScript",
     "name": "sx4im/skillcheck",
     "stars": 28,
-    "updated_at": "2026-10-01T07:43:35Z",
+    "updated_at": "2026-10-01T07:56:55Z",
     "url": "https://github.com/sx4im/skillcheck"
+  },
+  {
+    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
+    "id": "Hyanthropological659/clarify-skill",
+    "language": "\u2014",
+    "name": "Hyanthropological659/clarify-skill",
+    "stars": 1,
+    "updated_at": "2026-10-01T07:47:22Z",
+    "url": "https://github.com/Hyanthropological659/clarify-skill"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-01T07:45:41Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
@@ -16,15 +34,6 @@
     "stars": 3,
     "updated_at": "2026-10-01T07:43:19Z",
     "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-01T07:30:44Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml",
@@ -463,7 +472,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21029,
+    "stars": 21030,
     "updated_at": "2026-09-29T15:49:25Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -489,19 +498,5 @@
     "stars": 6,
     "updated_at": "2026-09-29T13:53:10Z",
     "url": "https://github.com/sscodeai/agency-agents-ja"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: \u6838\u5fc3 SOP \u2014 \u5165\u53e3\u3001\u6c9f\u901a\u3001\u5b89\u5168\u3001\u5ba1\u8ba1\nalwaysApply: true\n---\n\n# \u6838\u5fc3\n\n`.cursor/`=\u901a\u7528SOP \u00b7 `.cursorGrowth/`=\u9879\u76ee\u7279\u5316\u4e0e\u4ea7\u51fa\uff08plan\u00b7archive\u00b7learn\u00b7rules\uff0cgit\u5ffd\u7565\uff09\u00b7 \u8bfb\u5e8f\uff1arules \u2192 config \u2192 `.cursorGrowth/`\n\n| \u573a\u666f | \u5165\u53e3 |\n|------|------|\n| **\u4e0d\u786e\u5b9a / \u4ece\u54ea\u5f00\u59cb** | **`/master`** \u2192 **master**\uff08AskQuestion \u8def\u7531\uff1b\u65e0\u5de5\u5177\u5219\u6b63\u6587\u9009\u9879\uff09 |\n| \u89c4\u5212 | `/plan` \u2192 **plan** |\n| \u957f\u7a0b Epic | `/long` \u2192 **long**\uff08\u591a Sprint plan/run \u94fe\uff1b\u5355 Sprint \u4ecd\u7528 plan+run\uff09 |\n| \u6267\u884c | `/run` \u2192 **run**\uff08`AUTONOMOUS:true`\uff1a**\u4e00\u6b21 `/run` Sprint \u8fde\u8dd1**\uff1b\u4ec5\u51b3\u7b56\u6253\u65ad\uff09 |\n| \u5b66\u4e60 | `/learn` \u2192 **learn**\uff08\u672c\u4ed3\u8ba4\u77e5\uff1b\u2260 **study** \u5b66\u6280\u672f\uff09 |\n| \u811a\u624b\u67b6 | `/scaffold` \u2192 **scaffold** |\n| \u6253\u7248 | **`/release`**\uff08\u4eba\u4e3b\u5bfc\uff09\u00b7 **ship** agent\uff08\u81ea\u6cbb\u6267\u884c\u540c\u4e00 \u00a7\u6253\u7248\uff1b\u65e0 `/ship`\uff09 |\n| Git | **git** skill |\n| \u5b89\u5168\u5ba1\u67e5 | **security** skill\uff08\u6e05\u5355\uff09\u00b7 `security-sdlc`\uff08\u4e60\u60ef\uff09\u00b7 `prompt-security`\uff08Prompt \u9762\uff09 |\n| API \u8bbe\u8ba1 | **api** skill |\n| UX / \u4f53\u9a8c\uff08\u5206\u6d41\uff09 | **ux** skill \u00b7 `ux.mdc` \u2014 \u7c7b\u578b\u4e0d\u660e\u5148\u5206\u6d41\uff1b\u660e\u5bfc\u822a \u2192 **ia**\uff1b\u660e\u4e0a\u7ebf \u2192 **`/delivery`**\uff08\u65e0 `/ux` slash\uff09 |\n| \u4fe1\u606f\u67b6\u6784 / \u5bfc\u822a / \u89d2\u8272\u5165\u53e3 | **ia** skill \u00b7 `ia.mdc`\uff08UX \u7ed3\u6784\u5c42\uff1b\u2260 \u89c6\u89c9\u629b\u5149\uff1b\u65e0 `/ia` slash\uff09 |\n| \u8c03\u8bd5 / \u6d4b\u8bd5 / \u56de\u987e / \u4ea4\u4ed8 | **debug** \u00b7 **test** \u00b7 **review** \u00b7 **`/delivery`**\uff08\u4e0a\u7ebf\u8d70\u67e5\uff1b\u2260 \u89c4\u5212\uff09 |\n| \u8f6f\u4ef6\u4f7f\u7528\u8bf4\u660e\u4e66 / \u914d\u56fe regen | **`/manual`** \u00b7 **user-manual** skill\uff08\u9879\u76ee\u65e0\u5173 \u00b7 Manual Contract\uff09 |\n| \u6d4b\u8bd5\u62a5\u544a / \u5168\u91cf verify \u6c47\u603b | **`/report`** \u00b7 **test-report** skill\uff08\u9879\u76ee\u65e0\u5173 \u00b7 Report Contract\uff09 |\n| \u957f\u4efb\u52a1 / \u5f02\u6b65\u8fdb\u5ea6 / \u5f39\u7a97\u5206\u5c42 | `rules/execution/async-progress.mdc` \u00b7 `long-running-ui.mdc` \u00b7 `modal-layering.mdc` \u00b7 `error-context.mdc` \u00b7 `single-detector.mdc` |\n| \u5f00\u6e90\u9009\u578b / vendor / \u8f93\u5165\u8fb9\u754c | `oss-first.mdc` \u00b7 `submodule.mdc` \u00b7 `input-bounds.mdc`\uff08\u4e8c\u7ea7\uff1b`/master` \u2192 deps\uff09 |\n| \u6269\u5c55\u5bbf\u4e3b\uff08\u53ef\u9009\uff09 | `extensibility`\uff08\u4e09\u7ea7 \u00b7 glob\uff1b\u65e0\u72ec\u7acb slash\uff09 |\n| Prompt / Agent \u5b89\u5168 | `prompt-security`\uff08\u4e8c\u7ea7\uff1b**security** \u6e05\u5355\uff09 |\n| ORM/SQL \u5927\u6279\u91cf IN / \u5206\u5757\u67e5\u8be2 | `rules/execution/data-batch` |\n| \u5b66\u65b0\u6280\u672f | **study** skill\uff08\u5b66\u6280\u672f\uff1b\u2260 `/learn` \u672c\u4ed3\u8ba4\u77e5\uff09 |\n\n\u6269\u5c55\u8def\u7531\uff08\u5173\u952e\u8bcd\u547d\u4e2d\uff09\uff1a**mcp** \u00b7 **refactor** \u00b7 **perf** \u00b7 **spike** agent\uff08`SPIKE-*`\uff09\u2192 **`/master`**\n\n\u914d\u7f6e\uff1a`config/workflow.json` \u00b7 `config/release.json` \u00b7 \u534f\u4f5c\u4e09\u516c\u7406\u89c1 `rules/communication/constitution.mdc` \u00b7 \u6bcd\u7248\u72ec\u7acb\u89c1 **cursor-standalone**\n\n## \u6bcd\u7248\u72ec\u7acb vs \u5b89\u88c5\u540e\u53ea\u8bfb\n\n| \u573a\u666f | `.cursor/` |\n|------|------------|\n| **\u6bcd\u7248\u4ed3\u5e93**\uff08Super Cursor \u6a21\u677f\u4ed3\u7b49\uff09 | **\u53ef\u81ea\u7531\u6f14\u8fdb** \u2014 \u76f4\u63a5\u6539 rules/skills/config/templates |\n| **\u5b89\u88c5\u5230\u76ee\u6807\u9879\u76ee** | \u9ed8\u8ba4 **\u53ea\u8bfb** SOP\uff1b\u7279\u5316 \u2192 `.cursorGrowth/`\uff08\u89c1\u4e0b\u8282\uff09 |\n\n\u5f15\u7528\u7eaa\u5f8b \u00b7 \u6587\u98ce \u2192 **cursor-standalone** \u00b7 `docs/library-index.md`\u3002\n\n## .cursor \u4e0d\u53ef\u53d8\uff08\u4ec5 \u00b7 \u5b89\u88c5\u5230\u76ee\u6807\u9879\u76ee\u540e\uff09\n\n`.cursor/` \u81ea `install-super-cursor.sh` \u590d\u5236\u5230**\u76ee\u6807\u9879\u76ee**\u540e\u89c6\u4e3a **\u53ea\u8bfb SOP**\uff0c\u9664\u975e\u7528\u6237**\u660e\u786e**\u8981\u6c42\u4fee\u6539\u6216\u5b8c\u5584 `.cursor/`\uff1a\n\n**\u6bcd\u7248\u4ed3\u5e93**\u4e0d\u53d7\u672c\u6761\u9650\u5236\uff08\u89c1\u4e0a\u8282\u300c\u6bcd\u7248\u72ec\u7acb\u300d\uff09\u3002\n\n| \u7981\u6b62\uff08\u9ed8\u8ba4\uff09 | \u5141\u8bb8\u53bb\u5411 |\n|--------------|----------|\n| \u4e3b\u52a8/\u81ea\u52a8\u6539 `rules/` `skills/` `agents/` `hooks/` `bin/` `config/` `templates/` | \u9879\u76ee\u7279\u5316 \u2192 `.cursorGrowth/`\uff08plan \u00b7 learn \u00b7 archive \u00b7 rules/local\uff09 |\n| \u300c\u987a\u4fbf\u4f18\u5316\u300d\u6a21\u677f\u3001\u8865 skill\u3001\u6539 config | \u56e2\u961f rules \u2192 `.cursorGrowth/rules/local/`\uff08\u94fe `.cursor/rules/local`\uff09 |\n| \u56e0\u4e1a\u52a1\u4efb\u52a1\u987a\u5e26\u6539 hooks \u6216 workflow | \u884c\u4e3a\u5f00\u5173 \u2192 \u7528\u6237\u81ea\u884c\u7f16\u8f91 `config/*.json`\uff0c\u6216\u660e\u786e\u6388\u6743\u540e\u7531 Agent \u6539 |\n\n\u53d1\u73b0\u7f3a\u53e3\uff1a**\u8bf4\u660e + \u5efa\u8bae**\uff0c\u7b49\u7528\u6237\u786e\u8ba4\u540e\u518d\u52a8 **\u76ee\u6807\u9879\u76ee**\u7684 `.cursor/`\u3002\u6bcd\u7248\u4ed3\u5e93\u65e5\u5e38 Sprint **\u53ef\u76f4\u63a5\u6539**\u3002\u76ee\u6807\u9879\u76ee `/master` `/plan` `/run` `/learn` **\u4e0d\u5f97**\u89e6\u53d1\u5bf9 `.cursor/` \u7684\u5199\u5165\u3002\n\n## \u6c9f\u901a\n\n**\u8bed\u8a00\u4e0e\u7528\u6237\u4e00\u81f4**\uff1a\u7528\u6237\u7528\u4e2d\u6587\u63d0\u95ee/\u53d1\u4efb\u52a1 \u2192 \u601d\u8003\u4e0e\u56de\u590d\u7528\u4e2d\u6587\uff1b\u7528\u6237\u7528\u82f1\u6587 \u2192 \u601d\u8003\u4e0e\u56de\u590d\u7528\u82f1\u6587\u3002\u540c\u4e00\u4f1a\u8bdd\u4ee5**\u6700\u65b0\u4e00\u6761\u7528\u6237\u6d88\u606f**\u4e3a\u51c6\uff1b\u6df7\u5408\u8bed\u8a00\u65f6\u8ddf\u7528\u6237\u4e3b\u8981\u7528\u8bed\u3002\n\n\u4e0d\u6e05\u5148\u95ee \u00b7 \u5c0f diff \u00b7 \u5f15\u7528\u884c\u53f7 \u00b7 \u4e2d\u9014\u6539\u5411=steering\uff08\u975e\u53d6\u6d88\uff0c\u9664\u975e\u660e\u786e\u53d6\u6d88\uff09\n\n## \u5b89\u5168\n\n\u65e0\u5bc6\u94a5 \u00b7 \u9ed8\u8ba4\u7981\u6b62 force-push / \u8df3 hook \u00b7 delete/reset \u987b\u786e\u8ba4 \u00b7 \u6279\u91cf\u65b0\u5efa\u524d\u5148 `/plan`\n\n## \u5ba1\u8ba1\n\n\u4eba\u5b9a\u76ee\u6807 \u00b7 \u7ed3\u8bba\u53ef\u9a8c\u8bc1 \u00b7 \u52a8\u4f5c\u53ef\u91cd\u5efa\n",
-      "format": "mdc",
-      "path": ".cursor/rules/core.mdc"
-    },
-    "description": "\u65e0\u5173\u7528\u6237\uff0c \u65e0\u5173\u7cfb\u7edf\uff0c \u65e0\u5173\u9879\u76ee\uff0c\u5f00\u7bb1\u590d\u5236\u5373\u7528\uff01 code faster, code better; ",
-    "id": "wangqiqi/cursor-ai",
-    "language": "Shell",
-    "name": "wangqiqi/cursor-ai",
-    "stars": 3,
-    "updated_at": "2026-09-29T13:38:37Z",
-    "url": "https://github.com/wangqiqi/cursor-ai"
   }
 ]
