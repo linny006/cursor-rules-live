@@ -1,11 +1,20 @@
 [
   {
+    "description": "Architectural drift prevention for the agentic AI SDLC.",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 22,
+    "updated_at": "2026-10-01T00:19:34Z",
+    "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-01T00:00:45Z",
+    "updated_at": "2026-10-01T00:15:34Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -360,7 +369,7 @@
     "language": "OpenSCAD",
     "name": "wilsonwaters/3d-printing",
     "stars": 5,
-    "updated_at": "2026-09-30T00:31:53Z",
+    "updated_at": "2026-10-01T00:28:06Z",
     "url": "https://github.com/wilsonwaters/3d-printing"
   },
   {
@@ -380,15 +389,6 @@
     "stars": 38,
     "updated_at": "2026-09-29T17:53:10Z",
     "url": "https://github.com/fluttersdk/wind"
-  },
-  {
-    "description": "Architectural drift prevention for the agentic AI SDLC.",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 22,
-    "updated_at": "2026-09-30T23:43:58Z",
-    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "description": "My life's work: a deterministic engineering harness for Cursor.",
