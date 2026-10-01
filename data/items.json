@@ -1,5 +1,23 @@
 [
   {
+    "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
+    "id": "Bastioned-successor320/learn-nanobot",
+    "language": "Python",
+    "name": "Bastioned-successor320/learn-nanobot",
+    "stars": 11,
+    "updated_at": "2026-10-01T00:53:04Z",
+    "url": "https://github.com/Bastioned-successor320/learn-nanobot"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-01T00:45:49Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "3D printing toolkit \u2014 AI-powered design skills for Claude Code, Cursor, Windsurf & Copilot, plus parametric OpenSCAD mod",
     "id": "wilsonwaters/3d-printing",
     "language": "OpenSCAD",
@@ -21,15 +39,6 @@
     "stars": 0,
     "updated_at": "2026-10-01T00:42:08Z",
     "url": "https://github.com/johnwall123459885/skene-cookbook"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-01T00:30:45Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Architectural drift prevention for the agentic AI SDLC.",
@@ -121,15 +130,6 @@
     "stars": 0,
     "updated_at": "2026-09-30T21:47:17Z",
     "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
-  },
-  {
-    "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
-    "id": "Bastioned-successor320/learn-nanobot",
-    "language": "Python",
-    "name": "Bastioned-successor320/learn-nanobot",
-    "stars": 11,
-    "updated_at": "2026-09-30T21:43:03Z",
-    "url": "https://github.com/Bastioned-successor320/learn-nanobot"
   },
   {
     "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
@@ -413,7 +413,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21025,
+    "stars": 21026,
     "updated_at": "2026-09-29T15:49:25Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
