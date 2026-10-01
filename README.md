@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-01 03:30 UTC
+> ⏰ Last updated: 2026-10-01 03:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,8 +53,8 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [wilsonwaters/3d-printing](https://github.com/wilsonwaters/3d-printing) | 5 | OpenSCAD | 2026-10-01 | — | 3D printing toolkit — AI-powered design skills for Claude Code, Cursor, Windsurf & Copilot, plus parametric OpenSCAD mod |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-01 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-01 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [wilsonwaters/3d-printing](https://github.com/wilsonwaters/3d-printing) | 5 | OpenSCAD | 2026-10-01 | — | 3D printing toolkit — AI-powered design skills for Claude Code, Cursor, Windsurf & Copilot, plus parametric OpenSCAD mod |
 | 3 | [saqie803/ponytail](https://github.com/saqie803/ponytail) | 2 | JavaScript | 2026-10-01 | — | Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony. |
 | 4 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-10-01 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
 | 5 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 17 | Shell | 2026-10-01 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
@@ -84,7 +84,7 @@ expired items removed — so you can rely on what you see being current.
 | 29 | [vibestackdev/vibe-stack](https://github.com/vibestackdev/vibe-stack) | 8 | TypeScript | 2026-09-30 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/) | 29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b |
 | 30 | [primaybr/quench](https://github.com/primaybr/quench) | 1 | Python | 2026-09-30 | — | The hardening moment. A production-grade Skills ecosystem for AI Agents. |
 | 31 | [yxdwind/english-memory-method](https://github.com/yxdwind/english-memory-method) | 0 | HTML | 2026-09-30 | — | 英文文章背诵技巧 |
-| 32 | [HoangNguyen0403/agent-skills-standard](https://github.com/HoangNguyen0403/agent-skills-standard) | 569 | TypeScript | 2026-09-30 | — | A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol |
+| 32 | [HoangNguyen0403/agent-skills-standard](https://github.com/HoangNguyen0403/agent-skills-standard) | 569 | TypeScript | 2026-10-01 | — | A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol |
 | 33 | [baberarjumand/agentic_markdown_memory_agent-skill](https://github.com/baberarjumand/agentic_markdown_memory_agent-skill) | 0 | — | 2026-09-30 | — | An agent skill that sets up a markdown memory layout for agents. The layout keeps a short always-on file and loads every |
 | 34 | [XAKLESK/cre-agent-skills](https://github.com/XAKLESK/cre-agent-skills) | 8 | — | 2026-09-30 | — | Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc |
 | 35 | [Amirun99/agency-orchestrator](https://github.com/Amirun99/agency-orchestrator) | 0 | Dart | 2026-09-30 | — | Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support. |
@@ -97,7 +97,7 @@ expired items removed — so you can rely on what you see being current.
 | 42 | [fluttersdk/wind](https://github.com/fluttersdk/wind) | 38 | Dart | 2026-09-29 | — | Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W- |
 | 43 | [kleosr/bridle](https://github.com/kleosr/bridle) | 1 | Shell | 2026-09-29 | — | My life's work: a deterministic engineering harness for Cursor. |
 | 44 | [Harmitx7/tribunal-kit](https://github.com/Harmitx7/tribunal-kit) | 5 | JavaScript | 2026-09-29 | — | A universal, native-Rust governance layer for AI coding agents. Enforces Subagent-Driven Development (SDD) to stop hallu |
-| 45 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 21028 | Shell | 2026-09-29 | — | 🎭 277 个即插即用的 AI 专家角色 — 支持 Claude Code/Cursor/Copilot 等 20 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 64 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉/Qt 上 |
+| 45 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 21027 | Shell | 2026-09-29 | — | 🎭 277 个即插即用的 AI 专家角色 — 支持 Claude Code/Cursor/Copilot 等 20 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 64 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉/Qt 上 |
 | 46 | [powersync-ja/agent-skills](https://github.com/powersync-ja/agent-skills) | 20 | JavaScript | 2026-09-30 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/powersync-ja/agent-skills/) | Official agent skills for PowerSync |
 | 47 | [sscodeai/agency-agents-ja](https://github.com/sscodeai/agency-agents-ja) | 6 | Shell | 2026-09-29 | — | 404体の即戦力AI専門エージェント集 — Claude Code / Cursor / Copilot 等に対応。日本市場向けオリジナル125体（SIer・受託開発・SaaS・製造DX・公共分野）。agency-agentsの日本語コミュ |
 | 48 | [wangqiqi/cursor-ai](https://github.com/wangqiqi/cursor-ai) | 3 | Shell | 2026-09-29 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wangqiqi/cursor-ai/) | 无关用户， 无关系统， 无关项目，开箱复制即用！ code faster, code better;  |
