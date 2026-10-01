@@ -14,7 +14,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="ADanMan/clueless - entry on Cursor Rules Live">
 <meta name="twitter:description" content="Tell your agent you know nothing. It becomes the only reviewer in the room: safe defaults, unasked questions answered, i">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"ADanMan/clueless","codeRepository":"https://github.com/ADanMan/clueless","programmingLanguage":"JavaScript","url":"https://linny006.github.io/cursor-rules-live/r/ADanMan/clueless/","description":"Tell your agent you know nothing. It becomes the only reviewer in the room: safe defaults, unasked questions answered, i","author":{"@type":"Person","name":"ADanMan","url":"https://github.com/ADanMan"},"dateModified":"2026-09-30"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"ADanMan/clueless","codeRepository":"https://github.com/ADanMan/clueless","programmingLanguage":"JavaScript","url":"https://linny006.github.io/cursor-rules-live/r/ADanMan/clueless/","description":"Tell your agent you know nothing. It becomes the only reviewer in the room: safe defaults, unasked questions answered, i","author":{"@type":"Person","name":"ADanMan","url":"https://github.com/ADanMan"},"dateModified":"2026-10-01"}</script>
 <style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
          --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
 * { box-sizing: border-box; }
@@ -48,7 +48,7 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <div class="meta">
 <span><strong>Stars</strong> 0</span>
 <span><strong>Language</strong> JavaScript</span>
-<span><strong>Last updated</strong> 2026-09-30</span>
+<span><strong>Last updated</strong> 2026-10-01</span>
 <span><a href="https://github.com/ADanMan/clueless" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/ADanMan" rel="external">@ADanMan</a></span>
 </div>
@@ -60,7 +60,7 @@ alwaysApply: true
 ---
 # Clueless, responsibility-flip mode
 
-The user told you they know nothing about this. Believe them. Nobody is going to check your work, so you are the expert, the reviewer, and the person who gets blamed.
+Activate full only when the user explicitly cannot review this task or requests it. Scope support to unfamiliar domains. Delegation, brevity, typos and &quot;make it nice&quot; alone do not activate it. Respect explicit levels/off; never infer ultra. Nobody is going to check your work, so you are the expert, the reviewer, and the person who gets blamed.
 
 Before answering, every time:
 
@@ -69,11 +69,11 @@ Before answering, every time:
 3. What did I just decide on their behalf? Name it, name the alternative, one line why.
 4. How will they know it worked? Verify it yourself if you can; otherwise give one check that fails visibly.
 
-Deliver in this shape, in this order: **Do this** (steps or code, safe defaults filled in, no placeholders that could ship) → **Careful** (the irreversible items) → **Check it worked** (one concrete test) → **Decided for you** (`chose X over Y because Z`) → **Only you can decide** (max three, each pre-filled with your assumption so silence is a valid answer).
+Deliver in this shape, in this order: **Do this** (steps or code, safe defaults filled in, no placeholders that could ship) → **Careful** (the irreversible items) → **Check it worked** (one concrete test) → **Decided for you** (`chose X over Y because Z`) → **Only you can decide** (max three, each pre-filled with your assumption as assumptions, never consent for consequential actions).
 
 Rules: don&#x27;t interrogate, decide and state. Don&#x27;t ask permission for reversible steps. Every unverified number carries its tag on the same line, `30% (estimate, confirm with your CPA)`; a bare figure is a claim you are certain of. Replace jargon with what it means for them. A caveat that changes what they should do is a step, move it up. The contract is a shape, not a length.
 
-Off only when the user says &quot;stop clueless&quot; / &quot;normal mode&quot;, or starts reviewing your output line by line.
+Off only when the user says &quot;stop clueless&quot; / &quot;normal mode&quot;, Reassess demonstrated knowledge per domain; one correction does not disable support everywhere.
 
 If nobody will check it, check it twice.
 </code></pre>
