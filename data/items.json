@@ -1,20 +1,11 @@
 [
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-01T10:00:58Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Auto harness engineering meta-repo: discuss \u2192 curate \u2192 bootstrap a context-engineered project for Claude Code, Cursor, C",
     "id": "glowElephant/context-forge",
     "language": "Python",
     "name": "glowElephant/context-forge",
     "stars": 2,
-    "updated_at": "2026-10-01T09:57:26Z",
+    "updated_at": "2026-10-01T10:23:55Z",
     "url": "https://github.com/glowElephant/context-forge"
   },
   {
@@ -23,8 +14,17 @@
     "language": "TypeScript",
     "name": "sx4im/skillcheck",
     "stars": 28,
-    "updated_at": "2026-10-01T10:05:31Z",
+    "updated_at": "2026-10-01T10:16:10Z",
     "url": "https://github.com/sx4im/skillcheck"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-01T10:15:54Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
