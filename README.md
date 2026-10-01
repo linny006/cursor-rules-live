@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-01 12:30 UTC
+> ⏰ Last updated: 2026-10-01 12:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,25 +53,25 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 49 | — | 2026-10-01 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
+| 1 | [wilsonwaters/3d-printing](https://github.com/wilsonwaters/3d-printing) | 5 | OpenSCAD | 2026-10-01 | — | 3D printing toolkit — AI-powered design skills for Claude Code, Cursor, Windsurf & Copilot, plus parametric OpenSCAD mod |
 | 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-01 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 3 | [ADanMan/clueless](https://github.com/ADanMan/clueless) | 0 | JavaScript | 2026-10-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/ADanMan/clueless/) | Tell your agent you know nothing. It becomes the only reviewer in the room: safe defaults, unasked questions answered, i |
-| 4 | [sx4im/skillcheck](https://github.com/sx4im/skillcheck) | 28 | TypeScript | 2026-10-01 | — | Blind A/B testing for AI agent skills, .cursorrules, CLAUDE.md, and system prompts. Detects placebo and harmful instruct |
-| 5 | [Hyanthropological659/clarify-skill](https://github.com/Hyanthropological659/clarify-skill) | 1 | — | 2026-10-01 | — | Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a |
-| 6 | [Overseastelegramaliterateperson865/awesome-claude-md](https://github.com/Overseastelegramaliterateperson865/awesome-claude-md) | 3 | — | 2026-10-01 | — | Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr |
-| 7 | [glowElephant/context-forge](https://github.com/glowElephant/context-forge) | 2 | Python | 2026-10-01 | — | Auto harness engineering meta-repo: discuss → curate → bootstrap a context-engineered project for Claude Code, Cursor, C |
-| 8 | [HoangNguyen0403/agent-skills-standard](https://github.com/HoangNguyen0403/agent-skills-standard) | 569 | TypeScript | 2026-10-01 | — | A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol |
-| 9 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-10-01 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
-| 10 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-01 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
-| 11 | [anshuxinha/karpathy-skills-extended](https://github.com/anshuxinha/karpathy-skills-extended) | 0 | — | 2026-10-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/anshuxinha/karpathy-skills-extended/) | Coding agents fill the blanks in a prompt and ship the guess. For Codex, Claude, Cursor, Antigravity, Gemini, and Grok:  |
-| 12 | [nu-nenoi/repo-nexus](https://github.com/nu-nenoi/repo-nexus) | 6 | Shell | 2026-10-01 | — | Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml |
-| 13 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-10-01 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 14 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-10-01 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
-| 15 | [Bastioned-successor320/learn-nanobot](https://github.com/Bastioned-successor320/learn-nanobot) | 11 | Python | 2026-10-01 | — | Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers |
-| 16 | [cowboy937/Cursor-Desktop-2026](https://github.com/cowboy937/Cursor-Desktop-2026) | 1 | — | 2026-10-01 | — | ⭐️ Cursor 2026 Ai Cursorpro Cursor Ai ⭐️ |
-| 17 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-10-01 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
-| 18 | [yxdwind/english-memory-method](https://github.com/yxdwind/english-memory-method) | 0 | HTML | 2026-10-01 | — | 英文文章背诵技巧 |
-| 19 | [wilsonwaters/3d-printing](https://github.com/wilsonwaters/3d-printing) | 5 | OpenSCAD | 2026-10-01 | — | 3D printing toolkit — AI-powered design skills for Claude Code, Cursor, Windsurf & Copilot, plus parametric OpenSCAD mod |
+| 3 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 49 | — | 2026-10-01 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
+| 4 | [ADanMan/clueless](https://github.com/ADanMan/clueless) | 0 | JavaScript | 2026-10-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/ADanMan/clueless/) | Tell your agent you know nothing. It becomes the only reviewer in the room: safe defaults, unasked questions answered, i |
+| 5 | [sx4im/skillcheck](https://github.com/sx4im/skillcheck) | 28 | TypeScript | 2026-10-01 | — | Blind A/B testing for AI agent skills, .cursorrules, CLAUDE.md, and system prompts. Detects placebo and harmful instruct |
+| 6 | [Hyanthropological659/clarify-skill](https://github.com/Hyanthropological659/clarify-skill) | 1 | — | 2026-10-01 | — | Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a |
+| 7 | [Overseastelegramaliterateperson865/awesome-claude-md](https://github.com/Overseastelegramaliterateperson865/awesome-claude-md) | 3 | — | 2026-10-01 | — | Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr |
+| 8 | [glowElephant/context-forge](https://github.com/glowElephant/context-forge) | 2 | Python | 2026-10-01 | — | Auto harness engineering meta-repo: discuss → curate → bootstrap a context-engineered project for Claude Code, Cursor, C |
+| 9 | [HoangNguyen0403/agent-skills-standard](https://github.com/HoangNguyen0403/agent-skills-standard) | 569 | TypeScript | 2026-10-01 | — | A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol |
+| 10 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-10-01 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
+| 11 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-01 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
+| 12 | [anshuxinha/karpathy-skills-extended](https://github.com/anshuxinha/karpathy-skills-extended) | 0 | — | 2026-10-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/anshuxinha/karpathy-skills-extended/) | Coding agents fill the blanks in a prompt and ship the guess. For Codex, Claude, Cursor, Antigravity, Gemini, and Grok:  |
+| 13 | [nu-nenoi/repo-nexus](https://github.com/nu-nenoi/repo-nexus) | 6 | Shell | 2026-10-01 | — | Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml |
+| 14 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-10-01 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
+| 15 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-10-01 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
+| 16 | [Bastioned-successor320/learn-nanobot](https://github.com/Bastioned-successor320/learn-nanobot) | 11 | Python | 2026-10-01 | — | Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers |
+| 17 | [cowboy937/Cursor-Desktop-2026](https://github.com/cowboy937/Cursor-Desktop-2026) | 1 | — | 2026-10-01 | — | ⭐️ Cursor 2026 Ai Cursorpro Cursor Ai ⭐️ |
+| 18 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-10-01 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
+| 19 | [yxdwind/english-memory-method](https://github.com/yxdwind/english-memory-method) | 0 | HTML | 2026-10-01 | — | 英文文章背诵技巧 |
 | 20 | [saqie803/ponytail](https://github.com/saqie803/ponytail) | 2 | JavaScript | 2026-10-01 | — | Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony. |
 | 21 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 17 | Shell | 2026-10-01 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
 | 22 | [johnwall123459885/skene-cookbook](https://github.com/johnwall123459885/skene-cookbook) | 0 | Python | 2026-10-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/johnwall123459885/skene-cookbook/) | 🤖 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development. |
