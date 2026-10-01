@@ -1,11 +1,20 @@
 [
   {
+    "description": "3D printing toolkit \u2014 AI-powered design skills for Claude Code, Cursor, Windsurf & Copilot, plus parametric OpenSCAD mod",
+    "id": "wilsonwaters/3d-printing",
+    "language": "OpenSCAD",
+    "name": "wilsonwaters/3d-printing",
+    "stars": 5,
+    "updated_at": "2026-10-01T03:30:03Z",
+    "url": "https://github.com/wilsonwaters/3d-printing"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-01T03:00:45Z",
+    "updated_at": "2026-10-01T03:15:39Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -121,15 +130,6 @@
     "stars": 0,
     "updated_at": "2026-10-01T01:06:52Z",
     "url": "https://github.com/kapadias/nonna"
-  },
-  {
-    "description": "3D printing toolkit \u2014 AI-powered design skills for Claude Code, Cursor, Windsurf & Copilot, plus parametric OpenSCAD mod",
-    "id": "wilsonwaters/3d-printing",
-    "language": "OpenSCAD",
-    "name": "wilsonwaters/3d-printing",
-    "stars": 5,
-    "updated_at": "2026-10-01T02:56:07Z",
-    "url": "https://github.com/wilsonwaters/3d-printing"
   },
   {
     "description": "Architectural drift prevention for the agentic AI SDLC.",

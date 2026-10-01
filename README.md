@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-01 03:15 UTC
+> ⏰ Last updated: 2026-10-01 03:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,19 +53,19 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-01 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 2 | [saqie803/ponytail](https://github.com/saqie803/ponytail) | 2 | JavaScript | 2026-10-01 | — | Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony. |
-| 3 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-10-01 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
-| 4 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 17 | Shell | 2026-10-01 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
-| 5 | [Bastioned-successor320/learn-nanobot](https://github.com/Bastioned-successor320/learn-nanobot) | 11 | Python | 2026-10-01 | — | Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers |
-| 6 | [johnwall123459885/skene-cookbook](https://github.com/johnwall123459885/skene-cookbook) | 0 | Python | 2026-10-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/johnwall123459885/skene-cookbook/) | 🤖 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development. |
-| 7 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-10-01 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
-| 8 | [Jcxu97/cursor-style-rule](https://github.com/Jcxu97/cursor-style-rule) | 0 | — | 2026-10-01 | — | One-file Cursor rule that kills bullet-point walls. Structured prose, tables, headings. Works with GPT-4o, Claude, Gemin |
-| 9 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-01 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
-| 10 | [PiloTracer/pilo.ai.logicbison](https://github.com/PiloTracer/pilo.ai.logicbison) | 0 | Shell | 2026-10-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/PiloTracer/pilo.ai.logicbison/) | Portable process framework for software teams shipping with coding agents (Cursor, Claude Code, Codex, opencode). Skills |
-| 11 | [anildhage/phase-driven-ai-development](https://github.com/anildhage/phase-driven-ai-development) | 0 | — | 2026-10-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/anildhage/phase-driven-ai-development/) | Universal, phase-driven AI development template. Transforms raw specifications into 30-minute micro-win execution plans  |
-| 12 | [kapadias/nonna](https://github.com/kapadias/nonna) | 0 | Shell | 2026-10-01 | — | Your AI agent says done. Nonna makes it prove it: she runs your test suite before a coding agent can stop, and blocks pu |
-| 13 | [wilsonwaters/3d-printing](https://github.com/wilsonwaters/3d-printing) | 5 | OpenSCAD | 2026-10-01 | — | 3D printing toolkit — AI-powered design skills for Claude Code, Cursor, Windsurf & Copilot, plus parametric OpenSCAD mod |
+| 1 | [wilsonwaters/3d-printing](https://github.com/wilsonwaters/3d-printing) | 5 | OpenSCAD | 2026-10-01 | — | 3D printing toolkit — AI-powered design skills for Claude Code, Cursor, Windsurf & Copilot, plus parametric OpenSCAD mod |
+| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-01 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 3 | [saqie803/ponytail](https://github.com/saqie803/ponytail) | 2 | JavaScript | 2026-10-01 | — | Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony. |
+| 4 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-10-01 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
+| 5 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 17 | Shell | 2026-10-01 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
+| 6 | [Bastioned-successor320/learn-nanobot](https://github.com/Bastioned-successor320/learn-nanobot) | 11 | Python | 2026-10-01 | — | Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers |
+| 7 | [johnwall123459885/skene-cookbook](https://github.com/johnwall123459885/skene-cookbook) | 0 | Python | 2026-10-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/johnwall123459885/skene-cookbook/) | 🤖 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development. |
+| 8 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-10-01 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
+| 9 | [Jcxu97/cursor-style-rule](https://github.com/Jcxu97/cursor-style-rule) | 0 | — | 2026-10-01 | — | One-file Cursor rule that kills bullet-point walls. Structured prose, tables, headings. Works with GPT-4o, Claude, Gemin |
+| 10 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-01 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
+| 11 | [PiloTracer/pilo.ai.logicbison](https://github.com/PiloTracer/pilo.ai.logicbison) | 0 | Shell | 2026-10-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/PiloTracer/pilo.ai.logicbison/) | Portable process framework for software teams shipping with coding agents (Cursor, Claude Code, Codex, opencode). Skills |
+| 12 | [anildhage/phase-driven-ai-development](https://github.com/anildhage/phase-driven-ai-development) | 0 | — | 2026-10-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/anildhage/phase-driven-ai-development/) | Universal, phase-driven AI development template. Transforms raw specifications into 30-minute micro-win execution plans  |
+| 13 | [kapadias/nonna](https://github.com/kapadias/nonna) | 0 | Shell | 2026-10-01 | — | Your AI agent says done. Nonna makes it prove it: she runs your test suite before a coding agent can stop, and blocks pu |
 | 14 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 22 | Python | 2026-10-01 | — | Architectural drift prevention for the agentic AI SDLC. |
 | 15 | [ghostswap1/ghostswap-agents](https://github.com/ghostswap1/ghostswap-agents) | 3 | TypeScript | 2026-09-30 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/ghostswap1/ghostswap-agents/) | Official multi-LLM agent pack for the GhostSwap Partners API (no-KYC crypto swaps, 1,600+ coins). MCP server, OpenAPI 3. |
 | 16 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-09-30 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
