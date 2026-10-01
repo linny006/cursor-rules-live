@@ -1,11 +1,20 @@
 [
   {
+    "description": "Architectural drift prevention for the agentic AI SDLC.",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 22,
+    "updated_at": "2026-10-01T22:05:20Z",
+    "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-01T21:55:54Z",
+    "updated_at": "2026-10-01T22:00:54Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -52,15 +61,6 @@
     "stars": 1,
     "updated_at": "2026-10-01T20:41:10Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "Architectural drift prevention for the agentic AI SDLC.",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 22,
-    "updated_at": "2026-10-01T21:58:20Z",
-    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
