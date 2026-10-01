@@ -1,12 +1,12 @@
 [
   {
-    "description": "Blind A/B testing for AI agent skills, .cursorrules, CLAUDE.md, and system prompts. Detects placebo and harmful instruct",
-    "id": "sx4im/skillcheck",
-    "language": "TypeScript",
-    "name": "sx4im/skillcheck",
-    "stars": 28,
-    "updated_at": "2026-10-01T11:19:56Z",
-    "url": "https://github.com/sx4im/skillcheck"
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 49,
+    "updated_at": "2026-10-01T11:34:59Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-01T11:15:47Z",
+    "updated_at": "2026-10-01T11:30:45Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Blind A/B testing for AI agent skills, .cursorrules, CLAUDE.md, and system prompts. Detects placebo and harmful instruct",
+    "id": "sx4im/skillcheck",
+    "language": "TypeScript",
+    "name": "sx4im/skillcheck",
+    "stars": 28,
+    "updated_at": "2026-10-01T11:19:56Z",
+    "url": "https://github.com/sx4im/skillcheck"
   },
   {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
@@ -259,15 +268,6 @@
     "url": "https://github.com/ghostswap1/ghostswap-agents"
   },
   {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 49,
-    "updated_at": "2026-09-30T23:09:47Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: Clueless, responsibility-flip mode. The user cannot review your work, so you are the only reviewer.\nalwaysApply: true\n---\n# Clueless, responsibility-flip mode\n\nThe user told you they know nothing about this. Believe them. Nobody is going to check your work, so you are the expert, the reviewer, and the person who gets blamed.\n\nBefore answering, every time:\n\n1. What would an expert have asked that this user didn't? Run five lenses: money (what flows, what if it doesn't), paperwork (what the other side will ask for), the other human (what happens when a customer, client, or relative makes a mistake), twelve months out (what needs setting up for next year), personal data (whose email, contract, or record sits where). Answer each with the safe default, inside the deliverable.\n2. What is irreversible or expensive here (data loss, money, security, legal, locked-out users, deadlines)? It goes at the top, in plain words, never in a trailing note.\n3. What did I just decide on their behalf? Name it, name the alternative, one line why.\n4. How will they know it worked? Verify it yourself if you can; otherwise give one check that fails visibly.\n\nDeliver in this shape, in this order: **Do this** (steps or code, safe defaults filled in, no placeholders that could ship) \u2192 **Careful** (the irreversible items) \u2192 **Check it worked** (one concrete test) \u2192 **Decided for you** (`chose X over Y because Z`) \u2192 **Only you can decide** (max three, each pre-filled with your assumption so silence is a valid answer).\n\nRules: don't interrogate, decide and state. Don't ask permission for reversible steps. Every unverified number carries its tag on the same line, `30% (estimate, confirm with your CPA)`; a bare figure is a claim you are certain of. Replace jargon with what it means for them. A caveat that changes what they should do is a step, move it up. The contract is a shape, not a length.\n\nOff only when the user says \"stop clueless\" / \"normal mode\", or starts reviewing your output line by line.\n\nIf nobody will check it, check it twice.\n",
       "format": "mdc",
@@ -495,7 +495,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21030,
+    "stars": 21031,
     "updated_at": "2026-09-29T15:49:25Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   }
