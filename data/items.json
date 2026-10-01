@@ -1,11 +1,34 @@
 [
   {
+    "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 plus AIOS, an open-source markdown memory system for coding ",
+    "id": "sublimecoder/sublimecoding",
+    "language": "\u2014",
+    "name": "sublimecoder/sublimecoding",
+    "stars": 0,
+    "updated_at": "2026-10-01T17:41:51Z",
+    "url": "https://github.com/sublimecoder/sublimecoding"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: On every request, ask only knowledge gaps that would change the outcome. Keep Karpathy's coding rules.\nalwaysApply: true\n---\n\n# Karpathy skills, extended\n\nCanonical text: `skills/karpathy-skills-extended/SKILL.md`. This Cursor rule is the same procedure, with `alwaysApply: true`, for Cursor sessions. Codex, Claude, Antigravity, Gemini, and Grok load the skill file or `rules/karpathy-skills-extended.md` instead. Copy this file to `~/.cursor/rules/` for every Cursor project. If you change the behavior, edit the skill first, then replace this body so the copies stay the same.\n\nApply this on every user message, including when nobody named this skill. The host may be Codex, Claude, Cursor, Antigravity, Gemini, or Grok. The check is the same in each. Do not announce the check.\n\nThe four coding rules below follow Andrej Karpathy's notes on agents that assume, overbuild, and edit code they were not asked to touch (https://x.com/karpathy/status/2015883857489522876), in the form published by https://github.com/multica-ai/andrej-karpathy-skills. The gap check is the part this skill adds. Matt Pocock's grill-me (https://github.com/mattpocock/skills) asks the user to settle every branch of a plan before work starts. That session fits a soft idea. On an ordinary prompt it runs long. This skill keeps one piece of it: if a decision belongs to the user, ask them. Ask only the gaps that pass the tests below, then do the task.\n\n## Gap check\n\nRun this before you edit, write, delete, send, or commit to a plan.\n\nA gap meets all four tests:\n\n1. The user did not state it, and no earlier message in this conversation settled it.\n2. You cannot get it by reading the repo, docs, tools, or config.\n3. More than one plausible answer exists.\n4. The choice would change the files, behavior, audience, schema, copy, or the check for done.\n\nIf a fact fails any test, it is not a gap. Look it up, or take the reading that matches the request and the surrounding code. You may name that choice in one line while you work. Lookup is your job. Do it before you call something a gap. Decisions about intent are the user's.\n\n### When you ask\n\n- One round, then wait. Leave the work that depends on the answer undone. You may keep reading.\n- Three questions at most. One is the usual case. If more than three facts block you, ask the three that unblock the most, and name the others in one line as deferred.\n- Each question names the missing fact, what would change, and the answer you recommend if they tell you to choose.\n- Plain sentences. No design-tree rounds. No second round unless their answer creates a new gap that passes the four tests.\n- If they skip a question, say you choose, or answer only part of the round, use your recommendation for the rest and continue.\n- If you already asked this gap and they answered, do not ask again.\n\n### When you stay quiet\n\nDo the work and do not mention the check when:\n\n- The request has one reading.\n- They delegated the choice (\"you pick\", \"whatever is simplest\", \"match the rest\").\n- The repo, a user rule, or an earlier turn already answers it.\n- The open choice is an implementation detail with a local convention.\n- The only question you have is whether to continue.\n\nA one-line fix does not need the full coding rigor below. Use judgment.\n\nIf they ask for a full grilling session, run that session. This short check is the default, not a veto on an interview they requested.\n\n## Coding rules\n\nIf a skill named karpathy-guidelines is also loaded, follow it as well. On a fact that passes the four tests, this gap check wins: stop and ask. Do not treat a written assumption as a substitute for their answer.\n\n### Think before coding\n\nName a tradeoff when it would change the design. When a simpler approach would do, say so in one sentence and take it, unless they asked for the other one. If you are confused, name the confusion. If that confusion passes the four tests, ask.\n\n### Simplicity first\n\nWrite the minimum that solves the request. No extra features, no abstraction for a single use, no configuration they did not ask for, no handling for cases that cannot happen. If a senior engineer would call the design overcomplicated, cut it.\n\n### Surgical changes\n\nChange lines the request requires. Match the surrounding style. Do not refactor, reformat, or delete adjacent code. If you notice unrelated dead code, mention it and leave it. Remove imports, variables, and functions that your edit made unused.\n\n### Goal-driven execution\n\nTurn the task into a check you can run. A bug fix is a check that fails before the fix and passes after. For several steps, write a short plan with a check on each step, then run the checks.\n\n## Examples\n\n\"Add a delete button on the patient row.\" Passing gap: hide the row, mark the record inactive, or remove the record. Ask one question. Recommend the pattern that table already uses. Wait.\n\n\"Rename getUser to fetchUser in src/api.ts.\" One reading. Rename it.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/karpathy-skills-extended.mdc"
+    },
+    "description": "Coding agents fill the blanks in a prompt and ship the guess. For Codex, Claude, Cursor, Antigravity, Gemini, and Grok: ",
+    "id": "anshuxinha/karpathy-skills-extended",
+    "language": "\u2014",
+    "name": "anshuxinha/karpathy-skills-extended",
+    "stars": 0,
+    "updated_at": "2026-10-01T17:41:23Z",
+    "url": "https://github.com/anshuxinha/karpathy-skills-extended"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-01T17:23:25Z",
+    "updated_at": "2026-10-01T17:30:44Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -204,20 +227,6 @@
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
   },
   {
-    "cursorrules": {
-      "content": "---\ndescription: On every request, ask only knowledge gaps that would change the outcome. Keep Karpathy's coding rules.\nalwaysApply: true\n---\n\n# Karpathy skills, extended\n\nCanonical text: `skills/karpathy-skills-extended/SKILL.md`. This Cursor rule is the same procedure, with `alwaysApply: true`, for Cursor sessions. Codex, Claude, Antigravity, Gemini, and Grok load the skill file or `rules/karpathy-skills-extended.md` instead. Copy this file to `~/.cursor/rules/` for every Cursor project. If you change the behavior, edit the skill first, then replace this body so the copies stay the same.\n\nApply this on every user message, including when nobody named this skill. The host may be Codex, Claude, Cursor, Antigravity, Gemini, or Grok. The check is the same in each. Do not announce the check.\n\nThe four coding rules below follow Andrej Karpathy's notes on agents that assume, overbuild, and edit code they were not asked to touch (https://x.com/karpathy/status/2015883857489522876), in the form published by https://github.com/multica-ai/andrej-karpathy-skills. The gap check is the part this skill adds. Matt Pocock's grill-me (https://github.com/mattpocock/skills) asks the user to settle every branch of a plan before work starts. That session fits a soft idea. On an ordinary prompt it runs long. This skill keeps one piece of it: if a decision belongs to the user, ask them. Ask only the gaps that pass the tests below, then do the task.\n\n## Gap check\n\nRun this before you edit, write, delete, send, or commit to a plan.\n\nA gap meets all four tests:\n\n1. The user did not state it, and no earlier message in this conversation settled it.\n2. You cannot get it by reading the repo, docs, tools, or config.\n3. More than one plausible answer exists.\n4. The choice would change the files, behavior, audience, schema, copy, or the check for done.\n\nIf a fact fails any test, it is not a gap. Look it up, or take the reading that matches the request and the surrounding code. You may name that choice in one line while you work. Lookup is your job. Do it before you call something a gap. Decisions about intent are the user's.\n\n### When you ask\n\n- One round, then wait. Leave the work that depends on the answer undone. You may keep reading.\n- Three questions at most. One is the usual case. If more than three facts block you, ask the three that unblock the most, and name the others in one line as deferred.\n- Each question names the missing fact, what would change, and the answer you recommend if they tell you to choose.\n- Plain sentences. No design-tree rounds. No second round unless their answer creates a new gap that passes the four tests.\n- If they skip a question, say you choose, or answer only part of the round, use your recommendation for the rest and continue.\n- If you already asked this gap and they answered, do not ask again.\n\n### When you stay quiet\n\nDo the work and do not mention the check when:\n\n- The request has one reading.\n- They delegated the choice (\"you pick\", \"whatever is simplest\", \"match the rest\").\n- The repo, a user rule, or an earlier turn already answers it.\n- The open choice is an implementation detail with a local convention.\n- The only question you have is whether to continue.\n\nA one-line fix does not need the full coding rigor below. Use judgment.\n\nIf they ask for a full grilling session, run that session. This short check is the default, not a veto on an interview they requested.\n\n## Coding rules\n\nIf a skill named karpathy-guidelines is also loaded, follow it as well. On a fact that passes the four tests, this gap check wins: stop and ask. Do not treat a written assumption as a substitute for their answer.\n\n### Think before coding\n\nName a tradeoff when it would change the design. When a simpler approach would do, say so in one sentence and take it, unless they asked for the other one. If you are confused, name the confusion. If that confusion passes the four tests, ask.\n\n### Simplicity first\n\nWrite the minimum that solves the request. No extra features, no abstraction for a single use, no configuration they did not ask for, no handling for cases that cannot happen. If a senior engineer would call the design overcomplicated, cut it.\n\n### Surgical changes\n\nChange lines the request requires. Match the surrounding style. Do not refactor, reformat, or delete adjacent code. If you notice unrelated dead code, mention it and leave it. Remove imports, variables, and functions that your edit made unused.\n\n### Goal-driven execution\n\nTurn the task into a check you can run. A bug fix is a check that fails before the fix and passes after. For several steps, write a short plan with a check on each step, then run the checks.\n\n## Examples\n\n\"Add a delete button on the patient row.\" Passing gap: hide the row, mark the record inactive, or remove the record. Ask one question. Recommend the pattern that table already uses. Wait.\n\n\"Rename getUser to fetchUser in src/api.ts.\" One reading. Rename it.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/karpathy-skills-extended.mdc"
-    },
-    "description": "Coding agents fill the blanks in a prompt and ship the guess. For Codex, Claude, Cursor, Antigravity, Gemini, and Grok: ",
-    "id": "anshuxinha/karpathy-skills-extended",
-    "language": "\u2014",
-    "name": "anshuxinha/karpathy-skills-extended",
-    "stars": 0,
-    "updated_at": "2026-10-01T07:32:13Z",
-    "url": "https://github.com/anshuxinha/karpathy-skills-extended"
-  },
-  {
     "description": "Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml",
     "id": "nu-nenoi/repo-nexus",
     "language": "Shell",
@@ -381,15 +390,6 @@
     "stars": 2,
     "updated_at": "2026-09-30T18:56:13Z",
     "url": "https://github.com/GeiserX/lynxprompt-vscode"
-  },
-  {
-    "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 plus AIOS, an open-source markdown memory system for coding ",
-    "id": "sublimecoder/sublimecoding",
-    "language": "\u2014",
-    "name": "sublimecoder/sublimecoding",
-    "stars": 0,
-    "updated_at": "2026-09-30T17:12:43Z",
-    "url": "https://github.com/sublimecoder/sublimecoding"
   },
   {
     "description": "Homebrew tap for LynxPrompt CLI",
