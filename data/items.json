@@ -1,12 +1,39 @@
 [
   {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "description": "Agent skills that take a requirement to shipped code: audit the spec, turn it into real tests, then build until every ch",
+    "id": "xtieume/testcase",
+    "language": "Python",
+    "name": "xtieume/testcase",
+    "stars": 4,
+    "updated_at": "2026-10-01T16:28:17Z",
+    "url": "https://github.com/xtieume/testcase"
+  },
+  {
+    "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
+    "id": "agenticstandardcontact-byte/agentic-architect",
     "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "name": "agenticstandardcontact-byte/agentic-architect",
+    "stars": 0,
+    "updated_at": "2026-10-01T16:26:18Z",
+    "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
+  },
+  {
+    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
+    "id": "Hyanthropological659/clarify-skill",
+    "language": "\u2014",
+    "name": "Hyanthropological659/clarify-skill",
     "stars": 1,
-    "updated_at": "2026-10-01T16:11:46Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+    "updated_at": "2026-10-01T16:21:45Z",
+    "url": "https://github.com/Hyanthropological659/clarify-skill"
+  },
+  {
+    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
+    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "language": "\u2014",
+    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "stars": 3,
+    "updated_at": "2026-10-01T16:17:49Z",
+    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +41,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-01T16:00:42Z",
+    "updated_at": "2026-10-01T16:15:41Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 1,
+    "updated_at": "2026-10-01T16:11:46Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -109,15 +145,6 @@
     "url": "https://github.com/baberarjumand/agentic_markdown_memory_agent-skill"
   },
   {
-    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
-    "id": "Hyanthropological659/clarify-skill",
-    "language": "\u2014",
-    "name": "Hyanthropological659/clarify-skill",
-    "stars": 1,
-    "updated_at": "2026-10-01T12:52:36Z",
-    "url": "https://github.com/Hyanthropological659/clarify-skill"
-  },
-  {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
     "id": "Trentobobbi/uikit-mastery-playbook",
     "language": "HTML",
@@ -125,15 +152,6 @@
     "stars": 0,
     "updated_at": "2026-10-01T12:51:43Z",
     "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
-    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "language": "\u2014",
-    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "stars": 3,
-    "updated_at": "2026-10-01T12:48:25Z",
-    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
   },
   {
     "description": "3D printing toolkit \u2014 AI-powered design skills for Claude Code, Cursor, Windsurf & Copilot, plus parametric OpenSCAD mod",
@@ -383,15 +401,6 @@
     "url": "https://github.com/GeiserX/homebrew-lynxprompt"
   },
   {
-    "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
-    "id": "agenticstandardcontact-byte/agentic-architect",
-    "language": "HTML",
-    "name": "agenticstandardcontact-byte/agentic-architect",
-    "stars": 0,
-    "updated_at": "2026-09-30T15:54:31Z",
-    "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
-  },
-  {
     "description": "Portable skills and shared policies for Codex, Claude Code, and Cursor on Linux.",
     "id": "Catherine1401/agent-skills",
     "language": "Shell",
@@ -494,14 +503,5 @@
     "stars": 1,
     "updated_at": "2026-09-29T17:05:34Z",
     "url": "https://github.com/kleosr/bridle"
-  },
-  {
-    "description": "A universal, native-Rust governance layer for AI coding agents. Enforces Subagent-Driven Development (SDD) to stop hallu",
-    "id": "Harmitx7/tribunal-kit",
-    "language": "JavaScript",
-    "name": "Harmitx7/tribunal-kit",
-    "stars": 5,
-    "updated_at": "2026-09-29T16:02:47Z",
-    "url": "https://github.com/Harmitx7/tribunal-kit"
   }
 ]
