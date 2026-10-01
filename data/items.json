@@ -1,12 +1,12 @@
 [
   {
-    "description": "Blind A/B testing for AI agent skills, .cursorrules, CLAUDE.md, and system prompts. Detects placebo and harmful instruct",
-    "id": "sx4im/skillcheck",
-    "language": "TypeScript",
-    "name": "sx4im/skillcheck",
-    "stars": 28,
-    "updated_at": "2026-10-01T06:46:10Z",
-    "url": "https://github.com/sx4im/skillcheck"
+    "description": "Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml",
+    "id": "nu-nenoi/repo-nexus",
+    "language": "Shell",
+    "name": "nu-nenoi/repo-nexus",
+    "stars": 6,
+    "updated_at": "2026-10-01T07:08:15Z",
+    "url": "https://github.com/nu-nenoi/repo-nexus"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-01T06:45:51Z",
+    "updated_at": "2026-10-01T07:00:49Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Blind A/B testing for AI agent skills, .cursorrules, CLAUDE.md, and system prompts. Detects placebo and harmful instruct",
+    "id": "sx4im/skillcheck",
+    "language": "TypeScript",
+    "name": "sx4im/skillcheck",
+    "stars": 28,
+    "updated_at": "2026-10-01T06:46:10Z",
+    "url": "https://github.com/sx4im/skillcheck"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -494,14 +503,5 @@
     "stars": 19,
     "updated_at": "2026-09-29T12:39:33Z",
     "url": "https://github.com/philipbankier/awesome-agent-skills"
-  },
-  {
-    "description": "\u8de8\u5b66\u79d1\u65b9\u6cd5\u901a\u8bba \u00b7 Agent Skill\uff1a25+ \u5b66\u79d1 189 \u6761\u601d\u7ef4\u6a21\u578b + \u8d44\u672c\u8bba/\u77db\u76fe\u8bba/\u5b9e\u8df5\u8bba\uff0c\u8ba9 AI \u7684\u5206\u6790\u80fd\u5728\u6307\u5b9a\u65e5\u671f\u88ab\u5224\u5bf9\u9519\u3002\u652f\u6301 Claude Code / Codex / Cursor / Windsurf / Qod",
-    "id": "MrJiaTu/cross-disciplinary-models",
-    "language": "JavaScript",
-    "name": "MrJiaTu/cross-disciplinary-models",
-    "stars": 2,
-    "updated_at": "2026-09-29T10:59:41Z",
-    "url": "https://github.com/MrJiaTu/cross-disciplinary-models"
   }
 ]
