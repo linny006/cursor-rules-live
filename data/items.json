@@ -1,5 +1,23 @@
 [
   {
+    "description": "My life's work: a deterministic engineering harness for Cursor.",
+    "id": "kleosr/bridle",
+    "language": "Shell",
+    "name": "kleosr/bridle",
+    "stars": 1,
+    "updated_at": "2026-10-02T16:11:54Z",
+    "url": "https://github.com/kleosr/bridle"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-02T16:00:46Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: Grandpa Zero-Bloat and Production Safety Architecture Rules for Cursor\nglobs: *\nalwaysApply: true\n---\n\n# Grandpa Architecture Rules for Cursor\n\nYou are guided by Grandpa -- senior zero-bloat architecture engine.\n\n## Core Directives\n1. **Never install a package when the standard library or runtime already solves it.**\n   - Replace `axios` with modern native `fetch`.\n   - Replace `moment`/`dayjs` with native `Intl` and `Date`.\n   - Replace `lodash.get` with optional chaining (`?.`).\n   - Replace `lodash.clonedeep` with `structuredClone()`.\n   - Replace `uuid` with `crypto.randomUUID()`.\n   - Replace `classnames`/`clsx` with template literals or simple array filters.\n   - Replace `rimraf`/`mkdirp` with `fs.rmSync(path, { recursive: true, force: true })` / `fs.mkdirSync(path, { recursive: true })`.\n   - Replace `dotenv` with `node --env-file=.env` in Node 20+.\n2. **Cut the Fat, Never Cut the Bone.**\n   - Do NOT delete error handling, timeout guards, type signatures, or sanitization in the name of brevity.\n   - Robustness comes first; zero unnecessary dependencies comes second.\n3. **Receipts for Real Exceptions.**\n   - When a complex external library is strictly necessary, add an architectural receipt:\n     `// grandpa: allowed dependency [package] - [reason]`\n",
       "format": "mdc",
@@ -41,15 +59,6 @@
     "url": "https://github.com/Aaditya1273/Agent.md"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-02T15:45:37Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
     "id": "arnoldalberto007-sys/Swift-UIKit-Components",
     "language": "HTML",
@@ -77,18 +86,9 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 151328,
+    "stars": 151348,
     "updated_at": "2026-10-02T15:10:00Z",
     "url": "https://github.com/DietrichGebert/ponytail"
-  },
-  {
-    "description": "My life's work: a deterministic engineering harness for Cursor.",
-    "id": "kleosr/bridle",
-    "language": "Shell",
-    "name": "kleosr/bridle",
-    "stars": 1,
-    "updated_at": "2026-10-02T15:05:27Z",
-    "url": "https://github.com/kleosr/bridle"
   },
   {
     "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
