@@ -10,8 +10,44 @@
     "language": "JavaScript",
     "name": "bytewhisker/grandpa",
     "stars": 0,
-    "updated_at": "2026-10-02T15:40:54Z",
+    "updated_at": "2026-10-02T15:49:47Z",
     "url": "https://github.com/bytewhisker/grandpa"
+  },
+  {
+    "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
+    "id": "agenticstandardcontact-byte/agentic-architect",
+    "language": "HTML",
+    "name": "agenticstandardcontact-byte/agentic-architect",
+    "stars": 0,
+    "updated_at": "2026-10-02T15:48:15Z",
+    "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
+  },
+  {
+    "description": "The Native Windows Desktop Control Plane for AI Agent Skills, Rules & Multi-IDE Fleet Synchronization.",
+    "id": "abhishek01032007-pixel/Nexora",
+    "language": "PowerShell",
+    "name": "abhishek01032007-pixel/Nexora",
+    "stars": 0,
+    "updated_at": "2026-10-02T15:48:03Z",
+    "url": "https://github.com/abhishek01032007-pixel/Nexora"
+  },
+  {
+    "description": "The toolchain that stops AI coding agents from writing broken, deprecated code.",
+    "id": "Aaditya1273/Agent.md",
+    "language": "\u2014",
+    "name": "Aaditya1273/Agent.md",
+    "stars": 8,
+    "updated_at": "2026-10-02T15:47:13Z",
+    "url": "https://github.com/Aaditya1273/Agent.md"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-02T15:45:37Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
@@ -21,15 +57,6 @@
     "stars": 1,
     "updated_at": "2026-10-02T15:35:37Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-02T15:30:51Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Architectural drift prevention for the agentic AI SDLC.",
@@ -50,7 +77,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 151313,
+    "stars": 151328,
     "updated_at": "2026-10-02T15:10:00Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -62,15 +89,6 @@
     "stars": 1,
     "updated_at": "2026-10-02T15:05:27Z",
     "url": "https://github.com/kleosr/bridle"
-  },
-  {
-    "description": "The Native Windows Desktop Control Plane for AI Agent Skills, Rules & Multi-IDE Fleet Synchronization.",
-    "id": "abhishek01032007-pixel/Nexora",
-    "language": "PowerShell",
-    "name": "abhishek01032007-pixel/Nexora",
-    "stars": 0,
-    "updated_at": "2026-10-02T14:52:23Z",
-    "url": "https://github.com/abhishek01032007-pixel/Nexora"
   },
   {
     "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
@@ -112,15 +130,6 @@
     "stars": 0,
     "updated_at": "2026-10-02T14:10:07Z",
     "url": "https://github.com/Amirun99/agency-orchestrator"
-  },
-  {
-    "description": "The toolchain that stops AI coding agents from writing broken, deprecated code.",
-    "id": "Aaditya1273/Agent.md",
-    "language": "\u2014",
-    "name": "Aaditya1273/Agent.md",
-    "stars": 8,
-    "updated_at": "2026-10-02T14:05:56Z",
-    "url": "https://github.com/Aaditya1273/Agent.md"
   },
   {
     "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
@@ -287,7 +296,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40151,
+    "stars": 40152,
     "updated_at": "2026-10-01T19:08:25Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -322,15 +331,6 @@
     "stars": 4,
     "updated_at": "2026-10-01T16:28:17Z",
     "url": "https://github.com/xtieume/testcase"
-  },
-  {
-    "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
-    "id": "agenticstandardcontact-byte/agentic-architect",
-    "language": "HTML",
-    "name": "agenticstandardcontact-byte/agentic-architect",
-    "stars": 0,
-    "updated_at": "2026-10-01T16:26:18Z",
-    "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
   },
   {
     "cursorrules": {
