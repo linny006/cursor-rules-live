@@ -5,8 +5,17 @@
     "language": "TypeScript",
     "name": "GeiserX/lynxprompt-vscode",
     "stars": 2,
-    "updated_at": "2026-10-02T21:35:17Z",
+    "updated_at": "2026-10-02T21:51:21Z",
     "url": "https://github.com/GeiserX/lynxprompt-vscode"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-02T21:45:54Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "MCP Server for LynxPrompt \u2014 browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP",
@@ -16,15 +25,6 @@
     "stars": 2,
     "updated_at": "2026-10-02T21:35:08Z",
     "url": "https://github.com/GeiserX/lynxprompt-mcp"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-02T21:30:45Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
@@ -176,7 +176,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 151670,
+    "stars": 151681,
     "updated_at": "2026-10-02T16:22:48Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -355,7 +355,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40161,
+    "stars": 40163,
     "updated_at": "2026-10-01T19:08:25Z",
     "url": "https://github.com/wshobson/agents"
   },
