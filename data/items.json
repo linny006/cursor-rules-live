@@ -1,11 +1,20 @@
 [
   {
+    "description": "My life's work: a deterministic engineering harness for Cursor.",
+    "id": "kleosr/bridle",
+    "language": "Shell",
+    "name": "kleosr/bridle",
+    "stars": 1,
+    "updated_at": "2026-10-02T03:33:05Z",
+    "url": "https://github.com/kleosr/bridle"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-02T03:15:43Z",
+    "updated_at": "2026-10-02T03:30:51Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -159,7 +168,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40144,
+    "stars": 40145,
     "updated_at": "2026-10-01T19:08:25Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -499,14 +508,5 @@
     "stars": 0,
     "updated_at": "2026-09-30T00:38:29Z",
     "url": "https://github.com/Emzyjeppp/devflow-rules"
-  },
-  {
-    "description": "MCP Server for LynxPrompt \u2014 browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP",
-    "id": "GeiserX/lynxprompt-mcp",
-    "language": "Go",
-    "name": "GeiserX/lynxprompt-mcp",
-    "stars": 2,
-    "updated_at": "2026-09-29T22:35:30Z",
-    "url": "https://github.com/GeiserX/lynxprompt-mcp"
   }
 ]
