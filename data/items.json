@@ -1,5 +1,42 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: Grandpa Zero-Bloat and Production Safety Architecture Rules for Cursor\nglobs: *\nalwaysApply: true\n---\n\n# Grandpa Architecture Rules for Cursor\n\nYou are guided by Grandpa -- senior zero-bloat architecture engine.\n\n## Core Directives\n1. **Never install a package when the standard library or runtime already solves it.**\n   - Replace `axios` with modern native `fetch`.\n   - Replace `moment`/`dayjs` with native `Intl` and `Date`.\n   - Replace `lodash.get` with optional chaining (`?.`).\n   - Replace `lodash.clonedeep` with `structuredClone()`.\n   - Replace `uuid` with `crypto.randomUUID()`.\n   - Replace `classnames`/`clsx` with template literals or simple array filters.\n   - Replace `rimraf`/`mkdirp` with `fs.rmSync(path, { recursive: true, force: true })` / `fs.mkdirSync(path, { recursive: true })`.\n   - Replace `dotenv` with `node --env-file=.env` in Node 20+.\n2. **Cut the Fat, Never Cut the Bone.**\n   - Do NOT delete error handling, timeout guards, type signatures, or sanitization in the name of brevity.\n   - Robustness comes first; zero unnecessary dependencies comes second.\n3. **Receipts for Real Exceptions.**\n   - When a complex external library is strictly necessary, add an architectural receipt:\n     `// grandpa: allowed dependency [package] - [reason]`\n",
+      "format": "mdc",
+      "path": ".cursor/rules/grandpa.mdc"
+    },
+    "description": "Battle-tested, zero-bloat architecture engine, multi-agent suite (25+ agents), and empirical benchmark harness for AI co",
+    "id": "bytewhisker/grandpa",
+    "language": "JavaScript",
+    "name": "bytewhisker/grandpa",
+    "stars": 0,
+    "updated_at": "2026-10-02T14:26:21Z",
+    "url": "https://github.com/bytewhisker/grandpa"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Instructions for AI agent code generation workflow\nglobs: [\"*\"]\nalwaysApply: true\n---\n\n# AI Collaboration Guidelines\n\n## The 3-Stage Agentic Loop\n\nEvery code generation task MUST follow this loop:\n\n### Stage 1: PLAN (gather context first)\n\nBefore writing ANY code, the AI MUST:\n1. Read the relevant source files to verify current state \u2014 do NOT rely on memory\n2. Identify which `.cursor/rules/` files apply to this task\n3. List the files to modify and explain why\n4. Do NOT write code yet\n\nPrompt template:\n```\nAnalyze the current codebase and plan how to implement [feature]. \nList the files you'll modify and why. Don't write code yet.\n```\n\n### Stage 2: IMPLEMENT (follow constraints)\n\nWhen generating code:\n- Follow ALL active `.cursor/rules/` constraints\n- If unsure about auth patterns, re-read `supabase-auth-security.mdc`\n- If unsure about params/layouts, re-read `nextjs15-params.mdc`\n- Use `unknown` + Zod validation instead of `any` for external data\n- Return `ActionResponse<T>` from all Server Actions (see below)\n\n### Stage 3: VERIFY (confirm before declaring done)\n\nAfter generating code, the AI MUST self-check:\n- [ ] No `getSession()` on the server (MUST be `getUser()`)\n- [ ] No synchronous `params` or `searchParams` access\n- [ ] No `@supabase/auth-helpers-nextjs` imports\n- [ ] No `any` types \u2014 use `unknown` + type narrowing\n- [ ] Every API route has Zod validation\n- [ ] Every error is caught and returns `{ error: string }`\n- [ ] New tables have RLS enabled\n- [ ] `loading.tsx` and `error.tsx` exist for data-fetching pages\n\nReport issues BEFORE the developer runs the code.\n\n## Skeptical Retrieval Rule\n\nNEVER trust stored knowledge about the codebase. Before modifying a file:\n1. Re-read the file to verify its current contents\n2. Check imports and exports to ensure they match expectations\n3. Verify that function signatures haven't changed\n\nThis prevents generating code that references stale function signatures, \ndeleted files, or renamed exports.\n\n## Standard Patterns\n\n### ActionResponse Type (use for all Server Actions)\n```typescript\ntype ActionResponse<T = void> = \n  | { success: true; data: T }\n  | { success: false; error: string }\n```\n\n### Standard Server Action Structure\n```typescript\n'use server'\nimport { createClient } from '@/lib/supabase/server'\nimport { z } from 'zod'\n\nconst Schema = z.object({ /* ... */ })\n\nexport async function myAction(input: unknown): Promise<ActionResponse<MyType>> {\n  // 1. Auth\n  const supabase = await createClient()\n  const { data: { user } } = await supabase.auth.getUser()\n  if (!user) return { success: false, error: 'Unauthorized' }\n\n  // 2. Validate\n  const result = Schema.safeParse(input)\n  if (!result.success) return { success: false, error: 'Invalid input' }\n\n  // 3. Execute\n  try {\n    const { data, error } = await supabase.from('table').insert(result.data).select().single()\n    if (error) throw error\n    return { success: true, data }\n  } catch {\n    return { success: false, error: 'Operation failed' }\n  }\n}\n```\n\n## Task Constraints\n\n- NEVER give the AI a task longer than 200 words\n- NEVER let the AI implement more than 3-4 files in one turn\n- NEVER let the AI skip the verification checklist\n- ALWAYS review the Git diff before committing\n- When uncertain, ask the developer \u2014 do NOT guess\n\n",
+      "format": "mdc",
+      "path": ".cursor/rules/ai-collaboration.mdc"
+    },
+    "description": "29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b",
+    "id": "vibestackdev/vibe-stack",
+    "language": "TypeScript",
+    "name": "vibestackdev/vibe-stack",
+    "stars": 8,
+    "updated_at": "2026-10-02T14:24:36Z",
+    "url": "https://github.com/vibestackdev/vibe-stack"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-02T14:15:37Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
     "id": "XAKLESK/cre-agent-skills",
     "language": "\u2014",
@@ -36,21 +73,12 @@
     "url": "https://github.com/zinxj/uikit-expert-skill"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-02T14:01:43Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Architectural drift prevention for the agentic AI SDLC.",
     "id": "MnemeHQ/mneme",
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 22,
-    "updated_at": "2026-10-02T13:32:34Z",
+    "updated_at": "2026-10-02T14:22:13Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
@@ -161,15 +189,6 @@
     "stars": 22,
     "updated_at": "2026-10-02T07:17:25Z",
     "url": "https://github.com/heymegabyte/claude-skills"
-  },
-  {
-    "description": "Battle-tested, zero-bloat architecture engine and CLI scanner for AI coding agents. Cut the fat, never cut the bone.",
-    "id": "bytewhisker/grandpa",
-    "language": "JavaScript",
-    "name": "bytewhisker/grandpa",
-    "stars": 0,
-    "updated_at": "2026-10-02T06:52:21Z",
-    "url": "https://github.com/bytewhisker/grandpa"
   },
   {
     "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
@@ -312,20 +331,6 @@
     "stars": 1,
     "updated_at": "2026-10-01T15:21:31Z",
     "url": "https://github.com/primaybr/quench"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Instructions for AI agent code generation workflow\nglobs: [\"*\"]\nalwaysApply: true\n---\n\n# AI Collaboration Guidelines\n\n## The 3-Stage Agentic Loop\n\nEvery code generation task MUST follow this loop:\n\n### Stage 1: PLAN (gather context first)\n\nBefore writing ANY code, the AI MUST:\n1. Read the relevant source files to verify current state \u2014 do NOT rely on memory\n2. Identify which `.cursor/rules/` files apply to this task\n3. List the files to modify and explain why\n4. Do NOT write code yet\n\nPrompt template:\n```\nAnalyze the current codebase and plan how to implement [feature]. \nList the files you'll modify and why. Don't write code yet.\n```\n\n### Stage 2: IMPLEMENT (follow constraints)\n\nWhen generating code:\n- Follow ALL active `.cursor/rules/` constraints\n- If unsure about auth patterns, re-read `supabase-auth-security.mdc`\n- If unsure about params/layouts, re-read `nextjs15-params.mdc`\n- Use `unknown` + Zod validation instead of `any` for external data\n- Return `ActionResponse<T>` from all Server Actions (see below)\n\n### Stage 3: VERIFY (confirm before declaring done)\n\nAfter generating code, the AI MUST self-check:\n- [ ] No `getSession()` on the server (MUST be `getUser()`)\n- [ ] No synchronous `params` or `searchParams` access\n- [ ] No `@supabase/auth-helpers-nextjs` imports\n- [ ] No `any` types \u2014 use `unknown` + type narrowing\n- [ ] Every API route has Zod validation\n- [ ] Every error is caught and returns `{ error: string }`\n- [ ] New tables have RLS enabled\n- [ ] `loading.tsx` and `error.tsx` exist for data-fetching pages\n\nReport issues BEFORE the developer runs the code.\n\n## Skeptical Retrieval Rule\n\nNEVER trust stored knowledge about the codebase. Before modifying a file:\n1. Re-read the file to verify its current contents\n2. Check imports and exports to ensure they match expectations\n3. Verify that function signatures haven't changed\n\nThis prevents generating code that references stale function signatures, \ndeleted files, or renamed exports.\n\n## Standard Patterns\n\n### ActionResponse Type (use for all Server Actions)\n```typescript\ntype ActionResponse<T = void> = \n  | { success: true; data: T }\n  | { success: false; error: string }\n```\n\n### Standard Server Action Structure\n```typescript\n'use server'\nimport { createClient } from '@/lib/supabase/server'\nimport { z } from 'zod'\n\nconst Schema = z.object({ /* ... */ })\n\nexport async function myAction(input: unknown): Promise<ActionResponse<MyType>> {\n  // 1. Auth\n  const supabase = await createClient()\n  const { data: { user } } = await supabase.auth.getUser()\n  if (!user) return { success: false, error: 'Unauthorized' }\n\n  // 2. Validate\n  const result = Schema.safeParse(input)\n  if (!result.success) return { success: false, error: 'Invalid input' }\n\n  // 3. Execute\n  try {\n    const { data, error } = await supabase.from('table').insert(result.data).select().single()\n    if (error) throw error\n    return { success: true, data }\n  } catch {\n    return { success: false, error: 'Operation failed' }\n  }\n}\n```\n\n## Task Constraints\n\n- NEVER give the AI a task longer than 200 words\n- NEVER let the AI implement more than 3-4 files in one turn\n- NEVER let the AI skip the verification checklist\n- ALWAYS review the Git diff before committing\n- When uncertain, ask the developer \u2014 do NOT guess\n\n",
-      "format": "mdc",
-      "path": ".cursor/rules/ai-collaboration.mdc"
-    },
-    "description": "29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b",
-    "id": "vibestackdev/vibe-stack",
-    "language": "TypeScript",
-    "name": "vibestackdev/vibe-stack",
-    "stars": 8,
-    "updated_at": "2026-10-01T15:02:17Z",
-    "url": "https://github.com/vibestackdev/vibe-stack"
   },
   {
     "description": "An agent skill that sets up a markdown memory layout for agents. The layout keeps a short always-on file and loads every",

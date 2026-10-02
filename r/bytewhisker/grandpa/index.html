@@ -5,16 +5,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <title>bytewhisker/grandpa - entry on Cursor Rules Live</title>
-<meta name="description" content="Battle-tested, zero-bloat architecture engine and CLI scanner for AI coding agents. Cut the fat, never cut the bone.">
+<meta name="description" content="Battle-tested, zero-bloat architecture engine, multi-agent suite (25+ agents), and empirical benchmark harness for AI co">
 <link rel="canonical" href="https://linny006.github.io/cursor-rules-live/r/bytewhisker/grandpa/">
 <meta property="og:type" content="article">
 <meta property="og:title" content="bytewhisker/grandpa - entry on Cursor Rules Live">
-<meta property="og:description" content="Battle-tested, zero-bloat architecture engine and CLI scanner for AI coding agents. Cut the fat, never cut the bone.">
+<meta property="og:description" content="Battle-tested, zero-bloat architecture engine, multi-agent suite (25+ agents), and empirical benchmark harness for AI co">
 <meta property="og:url" content="https://linny006.github.io/cursor-rules-live/r/bytewhisker/grandpa/">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="bytewhisker/grandpa - entry on Cursor Rules Live">
-<meta name="twitter:description" content="Battle-tested, zero-bloat architecture engine and CLI scanner for AI coding agents. Cut the fat, never cut the bone.">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"bytewhisker/grandpa","codeRepository":"https://github.com/bytewhisker/grandpa","programmingLanguage":"JavaScript","url":"https://linny006.github.io/cursor-rules-live/r/bytewhisker/grandpa/","description":"Battle-tested, zero-bloat architecture engine and CLI scanner for AI coding agents. Cut the fat, never cut the bone.","author":{"@type":"Person","name":"bytewhisker","url":"https://github.com/bytewhisker"},"dateModified":"2026-10-02"}</script>
+<meta name="twitter:description" content="Battle-tested, zero-bloat architecture engine, multi-agent suite (25+ agents), and empirical benchmark harness for AI co">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"bytewhisker/grandpa","codeRepository":"https://github.com/bytewhisker/grandpa","programmingLanguage":"JavaScript","url":"https://linny006.github.io/cursor-rules-live/r/bytewhisker/grandpa/","description":"Battle-tested, zero-bloat architecture engine, multi-agent suite (25+ agents), and empirical benchmark harness for AI co","author":{"@type":"Person","name":"bytewhisker","url":"https://github.com/bytewhisker"},"dateModified":"2026-10-02"}</script>
 <style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
          --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
 * { box-sizing: border-box; }
@@ -44,7 +44,7 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <nav class="bc"><a href="https://linny006.github.io/cursor-rules-live/">Cursor Rules Live</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/popular/">Entries</a> &#183; <span>bytewhisker/grandpa</span></nav>
 <main>
 <h1>bytewhisker/grandpa</h1>
-<p class="lead">Battle-tested, zero-bloat architecture engine and CLI scanner for AI coding agents. Cut the fat, never cut the bone.</p>
+<p class="lead">Battle-tested, zero-bloat architecture engine, multi-agent suite (25+ agents), and empirical benchmark harness for AI co</p>
 <div class="meta">
 <span><strong>Stars</strong> 0</span>
 <span><strong>Language</strong> JavaScript</span>
@@ -52,6 +52,37 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <span><a href="https://github.com/bytewhisker/grandpa" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/bytewhisker" rel="external">@bytewhisker</a></span>
 </div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/grandpa.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
+description: Grandpa Zero-Bloat and Production Safety Architecture Rules for Cursor
+globs: *
+alwaysApply: true
+---
+
+# Grandpa Architecture Rules for Cursor
+
+You are guided by Grandpa -- senior zero-bloat architecture engine.
+
+## Core Directives
+1. **Never install a package when the standard library or runtime already solves it.**
+   - Replace `axios` with modern native `fetch`.
+   - Replace `moment`/`dayjs` with native `Intl` and `Date`.
+   - Replace `lodash.get` with optional chaining (`?.`).
+   - Replace `lodash.clonedeep` with `structuredClone()`.
+   - Replace `uuid` with `crypto.randomUUID()`.
+   - Replace `classnames`/`clsx` with template literals or simple array filters.
+   - Replace `rimraf`/`mkdirp` with `fs.rmSync(path, { recursive: true, force: true })` / `fs.mkdirSync(path, { recursive: true })`.
+   - Replace `dotenv` with `node --env-file=.env` in Node 20+.
+2. **Cut the Fat, Never Cut the Bone.**
+   - Do NOT delete error handling, timeout guards, type signatures, or sanitization in the name of brevity.
+   - Robustness comes first; zero unnecessary dependencies comes second.
+3. **Receipts for Real Exceptions.**
+   - When a complex external library is strictly necessary, add an architectural receipt:
+     `// grandpa: allowed dependency [package] - [reason]`
+</code></pre>
+<p><a href="https://github.com/bytewhisker/grandpa/blob/HEAD/.cursor/rules/grandpa.mdc" rel="external">View raw on GitHub</a></p>
+</section>
 <section><h2>Why this is listed</h2>
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>
