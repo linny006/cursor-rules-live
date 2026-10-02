@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-02 16:45 UTC
+> ⏰ Last updated: 2026-10-02 17:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,10 +53,10 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [abhishek01032007-pixel/Nexora](https://github.com/abhishek01032007-pixel/Nexora) | 0 | PowerShell | 2026-10-02 | — | The Native Windows Desktop Control Plane for AI Agent Skills, Rules & Multi-IDE Fleet Synchronization. |
-| 2 | [kleosr/bridle](https://github.com/kleosr/bridle) | 1 | Shell | 2026-10-02 | — | My life's work: a deterministic engineering harness for Cursor. |
-| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-02 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 4 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 151375 | JavaScript | 2026-10-02 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-02 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [abhishek01032007-pixel/Nexora](https://github.com/abhishek01032007-pixel/Nexora) | 0 | PowerShell | 2026-10-02 | — | The Native Windows Desktop Control Plane for AI Agent Skills, Rules & Multi-IDE Fleet Synchronization. |
+| 3 | [kleosr/bridle](https://github.com/kleosr/bridle) | 1 | Shell | 2026-10-02 | — | My life's work: a deterministic engineering harness for Cursor. |
+| 4 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 151385 | JavaScript | 2026-10-02 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 5 | [bytewhisker/grandpa](https://github.com/bytewhisker/grandpa) | 0 | JavaScript | 2026-10-02 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/bytewhisker/grandpa/) | Grandpa makes AI coding agents work smarter, not harder. Zero-bloat architecture, 8 skills, CLI scanner, and benchmark h |
 | 6 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-10-02 | — | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
 | 7 | [Aaditya1273/Agent.md](https://github.com/Aaditya1273/Agent.md) | 8 | — | 2026-10-02 | — | The toolchain that stops AI coding agents from writing broken, deprecated code. |
