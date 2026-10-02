@@ -9,8 +9,8 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 151299,
-    "updated_at": "2026-10-02T14:58:15Z",
+    "stars": 151283,
+    "updated_at": "2026-10-02T15:10:00Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
   {
@@ -19,13 +19,22 @@
       "format": "mdc",
       "path": ".cursor/rules/grandpa.mdc"
     },
-    "description": "Battle-tested, zero-bloat architecture engine, multi-agent suite (25+ agents), and empirical benchmark harness for AI co",
+    "description": "Grandpa makes AI coding agents work smarter, not harder. Zero-bloat architecture, 8 skills, CLI scanner, and benchmark h",
     "id": "bytewhisker/grandpa",
     "language": "JavaScript",
     "name": "bytewhisker/grandpa",
     "stars": 0,
-    "updated_at": "2026-10-02T14:57:47Z",
+    "updated_at": "2026-10-02T15:05:51Z",
     "url": "https://github.com/bytewhisker/grandpa"
+  },
+  {
+    "description": "My life's work: a deterministic engineering harness for Cursor.",
+    "id": "kleosr/bridle",
+    "language": "Shell",
+    "name": "kleosr/bridle",
+    "stars": 1,
+    "updated_at": "2026-10-02T15:05:27Z",
+    "url": "https://github.com/kleosr/bridle"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -33,7 +42,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-02T14:45:36Z",
+    "updated_at": "2026-10-02T15:00:51Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -51,7 +60,7 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 23,
-    "updated_at": "2026-10-02T14:57:53Z",
+    "updated_at": "2026-10-02T15:10:55Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
@@ -214,15 +223,6 @@
     "url": "https://github.com/heymegabyte/claude-skills"
   },
   {
-    "description": "My life's work: a deterministic engineering harness for Cursor.",
-    "id": "kleosr/bridle",
-    "language": "Shell",
-    "name": "kleosr/bridle",
-    "stars": 1,
-    "updated_at": "2026-10-02T03:33:05Z",
-    "url": "https://github.com/kleosr/bridle"
-  },
-  {
     "description": "One-file Cursor rule that kills bullet-point walls. Structured prose, tables, headings. Works with GPT-4o, Claude, Gemin",
     "id": "Jcxu97/cursor-style-rule",
     "language": "\u2014",
@@ -278,7 +278,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40159,
+    "stars": 40151,
     "updated_at": "2026-10-01T19:08:25Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -512,7 +512,7 @@
     "language": "Python",
     "name": "roedyrustam/vibes-plug",
     "stars": 73,
-    "updated_at": "2026-10-02T07:58:25Z",
+    "updated_at": "2026-10-02T15:09:29Z",
     "url": "https://github.com/roedyrustam/vibes-plug"
   },
   {
