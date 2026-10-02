@@ -1,14 +1,5 @@
 [
   {
-    "description": "Architectural drift prevention for the agentic AI SDLC.",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 23,
-    "updated_at": "2026-10-02T15:28:47Z",
-    "url": "https://github.com/MnemeHQ/mneme"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: Grandpa Zero-Bloat and Production Safety Architecture Rules for Cursor\nglobs: *\nalwaysApply: true\n---\n\n# Grandpa Architecture Rules for Cursor\n\nYou are guided by Grandpa -- senior zero-bloat architecture engine.\n\n## Core Directives\n1. **Never install a package when the standard library or runtime already solves it.**\n   - Replace `axios` with modern native `fetch`.\n   - Replace `moment`/`dayjs` with native `Intl` and `Date`.\n   - Replace `lodash.get` with optional chaining (`?.`).\n   - Replace `lodash.clonedeep` with `structuredClone()`.\n   - Replace `uuid` with `crypto.randomUUID()`.\n   - Replace `classnames`/`clsx` with template literals or simple array filters.\n   - Replace `rimraf`/`mkdirp` with `fs.rmSync(path, { recursive: true, force: true })` / `fs.mkdirSync(path, { recursive: true })`.\n   - Replace `dotenv` with `node --env-file=.env` in Node 20+.\n2. **Cut the Fat, Never Cut the Bone.**\n   - Do NOT delete error handling, timeout guards, type signatures, or sanitization in the name of brevity.\n   - Robustness comes first; zero unnecessary dependencies comes second.\n3. **Receipts for Real Exceptions.**\n   - When a complex external library is strictly necessary, add an architectural receipt:\n     `// grandpa: allowed dependency [package] - [reason]`\n",
       "format": "mdc",
@@ -19,8 +10,17 @@
     "language": "JavaScript",
     "name": "bytewhisker/grandpa",
     "stars": 0,
-    "updated_at": "2026-10-02T15:22:02Z",
+    "updated_at": "2026-10-02T15:40:54Z",
     "url": "https://github.com/bytewhisker/grandpa"
+  },
+  {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 1,
+    "updated_at": "2026-10-02T15:35:37Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -28,8 +28,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-02T15:15:41Z",
+    "updated_at": "2026-10-02T15:30:51Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Architectural drift prevention for the agentic AI SDLC.",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 23,
+    "updated_at": "2026-10-02T15:28:47Z",
+    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "cursorrules": {
@@ -41,7 +50,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 151298,
+    "stars": 151313,
     "updated_at": "2026-10-02T15:10:00Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -53,6 +62,15 @@
     "stars": 1,
     "updated_at": "2026-10-02T15:05:27Z",
     "url": "https://github.com/kleosr/bridle"
+  },
+  {
+    "description": "The Native Windows Desktop Control Plane for AI Agent Skills, Rules & Multi-IDE Fleet Synchronization.",
+    "id": "abhishek01032007-pixel/Nexora",
+    "language": "PowerShell",
+    "name": "abhishek01032007-pixel/Nexora",
+    "stars": 0,
+    "updated_at": "2026-10-02T14:52:23Z",
+    "url": "https://github.com/abhishek01032007-pixel/Nexora"
   },
   {
     "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
@@ -180,15 +198,6 @@
     "stars": 28,
     "updated_at": "2026-10-02T11:19:41Z",
     "url": "https://github.com/sx4im/skillcheck"
-  },
-  {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 1,
-    "updated_at": "2026-10-02T08:12:52Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
@@ -514,14 +523,5 @@
     "stars": 73,
     "updated_at": "2026-10-02T15:09:29Z",
     "url": "https://github.com/roedyrustam/vibes-plug"
-  },
-  {
-    "description": "VS Code extension for LynxPrompt \u2014 browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules) ",
-    "id": "GeiserX/lynxprompt-vscode",
-    "language": "TypeScript",
-    "name": "GeiserX/lynxprompt-vscode",
-    "stars": 2,
-    "updated_at": "2026-09-30T18:56:13Z",
-    "url": "https://github.com/GeiserX/lynxprompt-vscode"
   }
 ]
