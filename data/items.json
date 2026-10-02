@@ -1,5 +1,23 @@
 [
   {
+    "description": "A universal, native-Rust governance layer for AI coding agents. Enforces Subagent-Driven Development (SDD) to stop hallu",
+    "id": "Harmitx7/tribunal-kit",
+    "language": "JavaScript",
+    "name": "Harmitx7/tribunal-kit",
+    "stars": 5,
+    "updated_at": "2026-10-02T18:32:35Z",
+    "url": "https://github.com/Harmitx7/tribunal-kit"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-02T18:30:44Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
     "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
     "language": "HTML",
@@ -16,15 +34,6 @@
     "stars": 0,
     "updated_at": "2026-10-02T18:17:37Z",
     "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-02T18:15:35Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "The Native Windows Desktop Control Plane for AI Agent Skills, Rules & Multi-IDE Fleet Synchronization.",
@@ -99,7 +108,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 151463,
+    "stars": 151479,
     "updated_at": "2026-10-02T16:22:48Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -314,7 +323,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40154,
+    "stars": 40155,
     "updated_at": "2026-10-01T19:08:25Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -504,19 +513,5 @@
     "stars": 3,
     "updated_at": "2026-09-30T23:57:44Z",
     "url": "https://github.com/ghostswap1/ghostswap-agents"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: \"Postman MCP integration for API development workflows\"\nglobs: [\"**/api/**/*\", \"**/routes/**/*\", \"**/routers/**/*\", \"**/endpoints/**/*\", \"**/controllers/**/*\", \"openapi.yaml\", \"openapi.json\", \"swagger.yaml\", \"swagger.json\"]\nalwaysApply: false\n---\n\n# Postman MCP Integration\n\n## Workspace\n- Workspace: <your-workspace-name>\n- Workspace ID: <your-workspace-id>\n\nGet your workspace ID from the Postman URL: `https://go.postman.co/workspace/<workspace-id>`\n\n## MCP Server\nThis project uses the Postman MCP server at `https://mcp.postman.com/code`.\n\nThree server modes are available:\n\n| Mode | URL | Use Case |\n|------|-----|----------|\n| Minimal | `https://mcp.postman.com/minimal` | Basic collection operations |\n| Code | `https://mcp.postman.com/code` | API search + client code generation |\n| Full | `https://mcp.postman.com/mcp` | Everything (100+ Postman API tools) |\n\n## When to Sync with Postman\n\nUpdate the Postman collection when:\n1. Adding a new endpoint\n2. Changing request or response schemas\n3. Adding or modifying query parameters or headers\n4. Updating authentication requirements\n5. Changing error response formats\n\n## Sync Workflow\n\n### Code to Postman\nAfter implementing a new endpoint:\n1. Use the Postman MCP server to add the request to the collection\n2. Include example request body (if applicable)\n3. Add example success and error responses\n4. Write a clear description for the endpoint\n5. Group the request under the appropriate resource folder\n\n### Postman to Code\nWhen the API spec changes in Postman:\n1. Fetch the spec via MCP\n2. Compare with local models and schemas\n3. Update code to match the spec\n4. Verify request and response schemas align\n\n## Collection Standards\n- Group requests by resource (Users, Orders, Products, etc.)\n- Every request needs a description\n- Include example responses for success and error cases\n- Use environment variables: `{{base_url}}`, `{{api_key}}`\n- Tag requests by category when applicable\n\n## Example Prompts\n\n**Add an endpoint to the collection:**\n> \"Using the Postman MCP server, add a new GET /users/{id}/orders endpoint to my collection. Include pagination query params and an example response.\"\n\n**Check for drift between code and Postman:**\n> \"Fetch the API spec from my Postman workspace and compare it to my local schemas. Are there any fields that are out of sync?\"\n\n**Bulk sync after changes:**\n> \"I updated the Orders router with 3 new endpoints. Add all of them to the Postman collection with descriptions and example responses.\"\n\n**Generate client code:**\n> \"Using the Postman MCP server, find the Users API in my workspace and generate a TypeScript client for it.\"\n",
-      "format": "mdc",
-      "path": ".cursor/rules/postman-mcp.mdc"
-    },
-    "description": "Cursor Rules and MCP configuration for Postman API development workflows",
-    "id": "Postman-Devrel/postman-cursor-rules",
-    "language": "\u2014",
-    "name": "Postman-Devrel/postman-cursor-rules",
-    "stars": 0,
-    "updated_at": "2026-09-30T20:43:22Z",
-    "url": "https://github.com/Postman-Devrel/postman-cursor-rules"
   }
 ]
