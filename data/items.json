@@ -1,11 +1,20 @@
 [
   {
+    "description": "The toolchain that stops AI coding agents from writing broken, deprecated code.",
+    "id": "Aaditya1273/Agent.md",
+    "language": "\u2014",
+    "name": "Aaditya1273/Agent.md",
+    "stars": 8,
+    "updated_at": "2026-10-02T04:54:59Z",
+    "url": "https://github.com/Aaditya1273/Agent.md"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-02T04:30:32Z",
+    "updated_at": "2026-10-02T04:45:43Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -499,14 +508,5 @@
     "stars": 1,
     "updated_at": "2026-09-30T02:08:44Z",
     "url": "https://github.com/orin-dx/wisp-plugins"
-  },
-  {
-    "description": "Development rules and reusable skills collection for AI coding assistants, covering DealTech UI, Vibes-Plug workflow, Po",
-    "id": "Emzyjeppp/devflow-rules",
-    "language": "JavaScript",
-    "name": "Emzyjeppp/devflow-rules",
-    "stars": 0,
-    "updated_at": "2026-09-30T00:38:29Z",
-    "url": "https://github.com/Emzyjeppp/devflow-rules"
   }
 ]
