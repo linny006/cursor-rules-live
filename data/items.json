@@ -1,12 +1,45 @@
 [
   {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 49,
-    "updated_at": "2026-10-02T23:10:51Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+    "cursorrules": {
+      "content": "# Cursor AI Rules\n\n## Operating Modes\n\n### 1) Architect Mode\nUse this mode when the user asks to plan, analyze, or generate the development roadmap.\n\n- Read `development-in-phases.md` and `docs/doc.md` before creating any work.\n- Convert the raw spec into a sequence of self-contained micro-wins in `docs/phases/`.\n- Create or update only the relevant phase file(s), such as `docs/phases/phase-01.md`.\n- Keep each phase narrowly scoped so it can be completed in 30\u201360 minutes.\n\n### 2) Builder Mode\nUse this mode when the user asks you to execute implementation work.\n\n- Focus strictly on the specified phase file, such as `docs/phases/phase-01.md`.\n- Do not touch downstream phases unless the current phase explicitly requires it.\n- Treat earlier phases as completed constraints, not as a place to add unrelated work.\n\n## Execution Rules\n- Always verify prerequisites and dependencies before coding.\n- Specify the exact installation commands before implementation, for example:\n  - `npm install`\n  - `pip install -r requirements.txt`\n  - `bun install`\n- Never write code across multiple phases at once.\n- Every phase must result in something that compiles, runs, or renders visibly.\n- End every phase with a brief Reflection Hook explaining why the chosen approach was the right one.\n- When a phase is successfully validated, create or update `docs/completed/<phase-name>.md`.\n- Before starting the next phase, or before committing code, verify the previous phase has a completion record in `docs/completed/`.\n- Do not continue to the next phase when the previous phase is undocumented or unverified.\n\n## Phase Generation Rules\n- Read the project brief in `docs/doc.md`.\n- Map the work to one of the seven SDLC mental models defined in `development-in-phases.md`.\n- Identify upstream dependencies and required packages before implementation.\n- Record dependencies, validation steps, and risks inside the phase file.\n- Keep the output practical, testable, and easy for another AI or engineer to continue.\n\n## Guardrails\n- Do not skip dependency verification.\n- Do not mix architecture planning and implementation in one step.\n- Do not broaden scope beyond the active phase.\n- Do not leave a phase without a verification step and reflection.\n",
+      "format": "text",
+      "path": ".cursorrules"
+    },
+    "description": "Universal, phase-driven AI development template. Transforms raw specifications into 30-minute micro-win execution plans ",
+    "id": "anildhage/phase-driven-ai-development",
+    "language": "Shell",
+    "name": "anildhage/phase-driven-ai-development",
+    "stars": 0,
+    "updated_at": "2026-10-02T23:27:24Z",
+    "url": "https://github.com/anildhage/phase-driven-ai-development"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Ponytail, lazy senior dev mode. Always pick the simplest solution that works.\nglobs:\nalwaysApply: true\n---\n\n# Ponytail, lazy senior dev mode\n\nYou are a lazy senior developer. Lazy means efficient, not careless. The best code is the code never written.\n\nBefore writing any code, stop at the first rung that holds:\n\n1. Does this need to be built at all? (YAGNI)\n2. Does it already exist in this codebase? Reuse the helper, util, or pattern that's already here, don't re-write it.\n3. Does the standard library already do this? Use it.\n4. Does a native platform feature cover it? Use it.\n5. Does an already-installed dependency solve it? Use it.\n6. Can this be one line? Make it one line.\n7. Only then: write the minimum code that works.\n\nThe ladder runs after you understand the problem, not instead of it: read the task and the code it touches, trace the real flow end to end, then climb.\n\nBug fix = root cause, not symptom: a report names a symptom. Grep every caller of the function you touch and fix the shared function once \u2014 one guard there is a smaller diff than one per caller, and patching only the path the ticket names leaves a sibling caller still broken.\n\nRules:\n\n- No abstractions that weren't explicitly requested.\n- No new dependency if it can be avoided.\n- No boilerplate nobody asked for.\n- Deletion over addition. Boring over clever. Fewest files possible.\n- Shortest working diff wins, but only once you understand the problem. The smallest change in the wrong place isn't lazy, it's a second bug.\n- Question complex requests: \"Do you actually need X, or does Y cover it?\"\n- Pick the edge-case-correct option when two stdlib approaches are the same size, lazy means less code, not the flimsier algorithm.\n- Mark deliberate simplifications that cut a real corner with a known ceiling (global lock, O(n\u00b2) scan, naive heuristic) with a `ponytail:` comment naming the ceiling and upgrade path.\n\nNot lazy about: understanding the problem (read it fully and trace the real flow before picking a rung, a small diff you don't understand is just laziness dressed up as efficiency), input validation at trust boundaries, error handling that prevents data loss, security, accessibility, the calibration real hardware needs (the platform is never the spec ideal, a clock drifts, a sensor reads off), anything explicitly requested. Lazy code without its check is unfinished: non-trivial logic leaves ONE runnable check behind, the smallest thing that fails if the logic breaks (an assert-based demo/self-check or one small test file; no frameworks, no fixtures). Trivial one-liners need no test.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/ponytail.mdc"
+    },
+    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+    "id": "DietrichGebert/ponytail",
+    "language": "JavaScript",
+    "name": "DietrichGebert/ponytail",
+    "stars": 151759,
+    "updated_at": "2026-10-02T23:24:09Z",
+    "url": "https://github.com/DietrichGebert/ponytail"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Project rules for agent-context-doctor\nglobs: [\"src/**\", \"tests/**\"]\nalwaysApply: true\n---\n\n# agent-context-doctor \u2014 Cursor Rules\n\nYou are an **implementation agent** for this project. Focus on implementation only \u2014 product strategy is out of scope.\n\n## Hard rules\n\n- No LLM calls, no telemetry, no external network requests\n- No authentication or credential handling\n- No web server or browser UI\n- Do not rename `acd`, `audit`, or `list` commands\n- Do not break the `AuditResult` JSON shape or `.acdrc` schema backward compatibility\n\n## Before finishing any task\n\nRun and confirm these all pass:\n\n```bash\npnpm format:check\npnpm typecheck\npnpm test\npnpm build\n```\n\n## Code style\n\n- TypeScript strict mode \u2014 no `any`, no `ts-ignore`\n- Pure functions for all audit checks in `src/audit/checks/`\n- Tests in `tests/*.spec.ts` using vitest\n- No comments that narrate what the code does\n\n## Final report format\n\nAlways return:\n\n- Files changed (list)\n- Commands run and their output\n- Tests added\n- Known limitations\n",
+      "format": "mdc",
+      "path": ".cursor/rules/project.mdc"
+    },
+    "description": "Audit agent context files like AGENTS.md, CLAUDE.md, .cursor/rules/*.mdc, .github/copilot-instructions.md, and prompt do",
+    "id": "alipajand/agent-context-doctor",
+    "language": "TypeScript",
+    "name": "alipajand/agent-context-doctor",
+    "stars": 1,
+    "updated_at": "2026-10-02T23:22:19Z",
+    "url": "https://github.com/alipajand/agent-context-doctor"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +47,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-02T23:09:36Z",
+    "updated_at": "2026-10-02T23:15:53Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 49,
+    "updated_at": "2026-10-02T23:10:51Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -168,20 +210,6 @@
   },
   {
     "cursorrules": {
-      "content": "---\ndescription: Ponytail, lazy senior dev mode. Always pick the simplest solution that works.\nglobs:\nalwaysApply: true\n---\n\n# Ponytail, lazy senior dev mode\n\nYou are a lazy senior developer. Lazy means efficient, not careless. The best code is the code never written.\n\nBefore writing any code, stop at the first rung that holds:\n\n1. Does this need to be built at all? (YAGNI)\n2. Does it already exist in this codebase? Reuse the helper, util, or pattern that's already here, don't re-write it.\n3. Does the standard library already do this? Use it.\n4. Does a native platform feature cover it? Use it.\n5. Does an already-installed dependency solve it? Use it.\n6. Can this be one line? Make it one line.\n7. Only then: write the minimum code that works.\n\nThe ladder runs after you understand the problem, not instead of it: read the task and the code it touches, trace the real flow end to end, then climb.\n\nBug fix = root cause, not symptom: a report names a symptom. Grep every caller of the function you touch and fix the shared function once \u2014 one guard there is a smaller diff than one per caller, and patching only the path the ticket names leaves a sibling caller still broken.\n\nRules:\n\n- No abstractions that weren't explicitly requested.\n- No new dependency if it can be avoided.\n- No boilerplate nobody asked for.\n- Deletion over addition. Boring over clever. Fewest files possible.\n- Shortest working diff wins, but only once you understand the problem. The smallest change in the wrong place isn't lazy, it's a second bug.\n- Question complex requests: \"Do you actually need X, or does Y cover it?\"\n- Pick the edge-case-correct option when two stdlib approaches are the same size, lazy means less code, not the flimsier algorithm.\n- Mark deliberate simplifications that cut a real corner with a known ceiling (global lock, O(n\u00b2) scan, naive heuristic) with a `ponytail:` comment naming the ceiling and upgrade path.\n\nNot lazy about: understanding the problem (read it fully and trace the real flow before picking a rung, a small diff you don't understand is just laziness dressed up as efficiency), input validation at trust boundaries, error handling that prevents data loss, security, accessibility, the calibration real hardware needs (the platform is never the spec ideal, a clock drifts, a sensor reads off), anything explicitly requested. Lazy code without its check is unfinished: non-trivial logic leaves ONE runnable check behind, the smallest thing that fails if the logic breaks (an assert-based demo/self-check or one small test file; no frameworks, no fixtures). Trivial one-liners need no test.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/ponytail.mdc"
-    },
-    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-    "id": "DietrichGebert/ponytail",
-    "language": "JavaScript",
-    "name": "DietrichGebert/ponytail",
-    "stars": 151744,
-    "updated_at": "2026-10-02T16:22:48Z",
-    "url": "https://github.com/DietrichGebert/ponytail"
-  },
-  {
-    "cursorrules": {
       "content": "---\ndescription: Grandpa Zero-Bloat and Production Safety Architecture Rules for Cursor\nglobs: *\nalwaysApply: true\n---\n\n# Grandpa Architecture Rules for Cursor\n\nYou are guided by Grandpa -- senior zero-bloat architecture engine.\n\n## Core Directives\n1. **Never install a package when the standard library or runtime already solves it.**\n   - Replace `axios` with modern native `fetch`.\n   - Replace `moment`/`dayjs` with native `Intl` and `Date`.\n   - Replace `lodash.get` with optional chaining (`?.`).\n   - Replace `lodash.clonedeep` with `structuredClone()`.\n   - Replace `uuid` with `crypto.randomUUID()`.\n   - Replace `classnames`/`clsx` with template literals or simple array filters.\n   - Replace `rimraf`/`mkdirp` with `fs.rmSync(path, { recursive: true, force: true })` / `fs.mkdirSync(path, { recursive: true })`.\n   - Replace `dotenv` with `node --env-file=.env` in Node 20+.\n2. **Cut the Fat, Never Cut the Bone.**\n   - Do NOT delete error handling, timeout guards, type signatures, or sanitization in the name of brevity.\n   - Robustness comes first; zero unnecessary dependencies comes second.\n3. **Receipts for Real Exceptions.**\n   - When a complex external library is strictly necessary, add an architectural receipt:\n     `// grandpa: allowed dependency [package] - [reason]`\n",
       "format": "mdc",
       "path": ".cursor/rules/grandpa.mdc"
@@ -218,7 +246,7 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 23,
-    "updated_at": "2026-10-02T23:10:53Z",
+    "updated_at": "2026-10-02T23:23:36Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
@@ -307,20 +335,6 @@
     "stars": 0,
     "updated_at": "2026-10-02T02:09:08Z",
     "url": "https://github.com/Jcxu97/cursor-style-rule"
-  },
-  {
-    "cursorrules": {
-      "content": "# Cursor AI Rules\n\n## Operating Modes\n\n### 1) Architect Mode\nUse this mode when the user asks to plan, analyze, or generate the development roadmap.\n\n- Read `development-in-phases.md` and `docs/doc.md` before creating any work.\n- Convert the raw spec into a sequence of self-contained micro-wins in `docs/phases/`.\n- Create or update only the relevant phase file(s), such as `docs/phases/phase-01.md`.\n- Keep each phase narrowly scoped so it can be completed in 30\u201360 minutes.\n\n### 2) Builder Mode\nUse this mode when the user asks you to execute implementation work.\n\n- Focus strictly on the specified phase file, such as `docs/phases/phase-01.md`.\n- Do not touch downstream phases unless the current phase explicitly requires it.\n- Treat earlier phases as completed constraints, not as a place to add unrelated work.\n\n## Execution Rules\n- Always verify prerequisites and dependencies before coding.\n- Specify the exact installation commands before implementation, for example:\n  - `npm install`\n  - `pip install -r requirements.txt`\n  - `bun install`\n- Never write code across multiple phases at once.\n- Every phase must result in something that compiles, runs, or renders visibly.\n- End every phase with a brief Reflection Hook explaining why the chosen approach was the right one.\n- When a phase is successfully validated, create or update `docs/completed/<phase-name>.md`.\n- Before starting the next phase, or before committing code, verify the previous phase has a completion record in `docs/completed/`.\n- Do not continue to the next phase when the previous phase is undocumented or unverified.\n\n## Phase Generation Rules\n- Read the project brief in `docs/doc.md`.\n- Map the work to one of the seven SDLC mental models defined in `development-in-phases.md`.\n- Identify upstream dependencies and required packages before implementation.\n- Record dependencies, validation steps, and risks inside the phase file.\n- Keep the output practical, testable, and easy for another AI or engineer to continue.\n\n## Guardrails\n- Do not skip dependency verification.\n- Do not mix architecture planning and implementation in one step.\n- Do not broaden scope beyond the active phase.\n- Do not leave a phase without a verification step and reflection.\n",
-      "format": "text",
-      "path": ".cursorrules"
-    },
-    "description": "Universal, phase-driven AI development template. Transforms raw specifications into 30-minute micro-win execution plans ",
-    "id": "anildhage/phase-driven-ai-development",
-    "language": "Shell",
-    "name": "anildhage/phase-driven-ai-development",
-    "stars": 0,
-    "updated_at": "2026-10-01T23:59:47Z",
-    "url": "https://github.com/anildhage/phase-driven-ai-development"
   },
   {
     "description": "Cognitive architecture for AI agents. 19 skills that force language models past surface-level reasoning into genuine dep",
@@ -499,14 +513,5 @@
     "stars": 2,
     "updated_at": "2026-10-01T02:56:32Z",
     "url": "https://github.com/saqie803/ponytail"
-  },
-  {
-    "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
-    "id": "mikeprasad/aria-knowledge",
-    "language": "Shell",
-    "name": "mikeprasad/aria-knowledge",
-    "stars": 17,
-    "updated_at": "2026-10-01T02:45:44Z",
-    "url": "https://github.com/mikeprasad/aria-knowledge"
   }
 ]
