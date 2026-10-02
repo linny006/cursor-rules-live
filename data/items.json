@@ -1,11 +1,20 @@
 [
   {
+    "description": "The toolchain that stops AI coding agents from writing broken, deprecated code.",
+    "id": "Aaditya1273/Agent.md",
+    "language": "\u2014",
+    "name": "Aaditya1273/Agent.md",
+    "stars": 8,
+    "updated_at": "2026-10-02T10:31:04Z",
+    "url": "https://github.com/Aaditya1273/Agent.md"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-02T10:15:50Z",
+    "updated_at": "2026-10-02T10:30:41Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -118,15 +127,6 @@
     "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
   },
   {
-    "description": "The toolchain that stops AI coding agents from writing broken, deprecated code.",
-    "id": "Aaditya1273/Agent.md",
-    "language": "\u2014",
-    "name": "Aaditya1273/Agent.md",
-    "stars": 8,
-    "updated_at": "2026-10-02T04:54:59Z",
-    "url": "https://github.com/Aaditya1273/Agent.md"
-  },
-  {
     "description": "My life's work: a deterministic engineering harness for Cursor.",
     "id": "kleosr/bridle",
     "language": "Shell",
@@ -187,7 +187,7 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 22,
-    "updated_at": "2026-10-01T23:46:02Z",
+    "updated_at": "2026-10-02T10:36:30Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
