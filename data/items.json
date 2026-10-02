@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-02T23:30:47Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "# Cursor AI Rules\n\n## Operating Modes\n\n### 1) Architect Mode\nUse this mode when the user asks to plan, analyze, or generate the development roadmap.\n\n- Read `development-in-phases.md` and `docs/doc.md` before creating any work.\n- Convert the raw spec into a sequence of self-contained micro-wins in `docs/phases/`.\n- Create or update only the relevant phase file(s), such as `docs/phases/phase-01.md`.\n- Keep each phase narrowly scoped so it can be completed in 30\u201360 minutes.\n\n### 2) Builder Mode\nUse this mode when the user asks you to execute implementation work.\n\n- Focus strictly on the specified phase file, such as `docs/phases/phase-01.md`.\n- Do not touch downstream phases unless the current phase explicitly requires it.\n- Treat earlier phases as completed constraints, not as a place to add unrelated work.\n\n## Execution Rules\n- Always verify prerequisites and dependencies before coding.\n- Specify the exact installation commands before implementation, for example:\n  - `npm install`\n  - `pip install -r requirements.txt`\n  - `bun install`\n- Never write code across multiple phases at once.\n- Every phase must result in something that compiles, runs, or renders visibly.\n- End every phase with a brief Reflection Hook explaining why the chosen approach was the right one.\n- When a phase is successfully validated, create or update `docs/completed/<phase-name>.md`.\n- Before starting the next phase, or before committing code, verify the previous phase has a completion record in `docs/completed/`.\n- Do not continue to the next phase when the previous phase is undocumented or unverified.\n\n## Phase Generation Rules\n- Read the project brief in `docs/doc.md`.\n- Map the work to one of the seven SDLC mental models defined in `development-in-phases.md`.\n- Identify upstream dependencies and required packages before implementation.\n- Record dependencies, validation steps, and risks inside the phase file.\n- Keep the output practical, testable, and easy for another AI or engineer to continue.\n\n## Guardrails\n- Do not skip dependency verification.\n- Do not mix architecture planning and implementation in one step.\n- Do not broaden scope beyond the active phase.\n- Do not leave a phase without a verification step and reflection.\n",
       "format": "text",
@@ -23,7 +32,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 151759,
+    "stars": 151761,
     "updated_at": "2026-10-02T23:24:09Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -40,15 +49,6 @@
     "stars": 1,
     "updated_at": "2026-10-02T23:22:19Z",
     "url": "https://github.com/alipajand/agent-context-doctor"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-02T23:15:53Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -246,7 +246,7 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 23,
-    "updated_at": "2026-10-02T23:23:36Z",
+    "updated_at": "2026-10-02T23:39:27Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
