@@ -1,11 +1,20 @@
 [
   {
+    "description": "Battle-tested, zero-bloat architecture engine and CLI scanner for AI coding agents. Cut the fat, never cut the bone.",
+    "id": "bytewhisker/grandpa",
+    "language": "JavaScript",
+    "name": "bytewhisker/grandpa",
+    "stars": 0,
+    "updated_at": "2026-10-02T06:52:21Z",
+    "url": "https://github.com/bytewhisker/grandpa"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-02T06:30:35Z",
+    "updated_at": "2026-10-02T06:45:43Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -499,14 +508,5 @@
     "stars": 0,
     "updated_at": "2026-09-30T04:35:31Z",
     "url": "https://github.com/Despensativo/OpenWrt-Skills"
-  },
-  {
-    "description": "Ten plugins for coding agents, one per stage of the development lifecycle, joined by shared JSON schemas and a common ve",
-    "id": "orin-dx/wisp-plugins",
-    "language": "Python",
-    "name": "orin-dx/wisp-plugins",
-    "stars": 1,
-    "updated_at": "2026-09-30T02:08:44Z",
-    "url": "https://github.com/orin-dx/wisp-plugins"
   }
 ]
