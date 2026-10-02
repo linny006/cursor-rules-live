@@ -5,8 +5,26 @@
     "language": "PowerShell",
     "name": "abhishek01032007-pixel/Nexora",
     "stars": 0,
-    "updated_at": "2026-10-02T16:26:54Z",
+    "updated_at": "2026-10-02T16:42:31Z",
     "url": "https://github.com/abhishek01032007-pixel/Nexora"
+  },
+  {
+    "description": "My life's work: a deterministic engineering harness for Cursor.",
+    "id": "kleosr/bridle",
+    "language": "Shell",
+    "name": "kleosr/bridle",
+    "stars": 1,
+    "updated_at": "2026-10-02T16:37:52Z",
+    "url": "https://github.com/kleosr/bridle"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-02T16:30:53Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -18,27 +36,9 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 151356,
+    "stars": 151375,
     "updated_at": "2026-10-02T16:22:48Z",
     "url": "https://github.com/DietrichGebert/ponytail"
-  },
-  {
-    "description": "My life's work: a deterministic engineering harness for Cursor.",
-    "id": "kleosr/bridle",
-    "language": "Shell",
-    "name": "kleosr/bridle",
-    "stars": 1,
-    "updated_at": "2026-10-02T16:21:47Z",
-    "url": "https://github.com/kleosr/bridle"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-02T16:15:33Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -296,7 +296,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40152,
+    "stars": 40153,
     "updated_at": "2026-10-01T19:08:25Z",
     "url": "https://github.com/wshobson/agents"
   },

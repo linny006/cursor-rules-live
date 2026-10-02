@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-02 16:30 UTC
+> ⏰ Last updated: 2026-10-02 16:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -54,9 +54,9 @@ expired items removed — so you can rely on what you see being current.
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
 | 1 | [abhishek01032007-pixel/Nexora](https://github.com/abhishek01032007-pixel/Nexora) | 0 | PowerShell | 2026-10-02 | — | The Native Windows Desktop Control Plane for AI Agent Skills, Rules & Multi-IDE Fleet Synchronization. |
-| 2 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 151356 | JavaScript | 2026-10-02 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
-| 3 | [kleosr/bridle](https://github.com/kleosr/bridle) | 1 | Shell | 2026-10-02 | — | My life's work: a deterministic engineering harness for Cursor. |
-| 4 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-02 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [kleosr/bridle](https://github.com/kleosr/bridle) | 1 | Shell | 2026-10-02 | — | My life's work: a deterministic engineering harness for Cursor. |
+| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-02 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 4 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 151375 | JavaScript | 2026-10-02 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 5 | [bytewhisker/grandpa](https://github.com/bytewhisker/grandpa) | 0 | JavaScript | 2026-10-02 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/bytewhisker/grandpa/) | Grandpa makes AI coding agents work smarter, not harder. Zero-bloat architecture, 8 skills, CLI scanner, and benchmark h |
 | 6 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-10-02 | — | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
 | 7 | [Aaditya1273/Agent.md](https://github.com/Aaditya1273/Agent.md) | 8 | — | 2026-10-02 | — | The toolchain that stops AI coding agents from writing broken, deprecated code. |
@@ -81,7 +81,7 @@ expired items removed — so you can rely on what you see being current.
 | 26 | [anildhage/phase-driven-ai-development](https://github.com/anildhage/phase-driven-ai-development) | 0 | Shell | 2026-10-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/anildhage/phase-driven-ai-development/) | Universal, phase-driven AI development template. Transforms raw specifications into 30-minute micro-win execution plans  |
 | 27 | [Kshitijpalsinghtomar/depth-skills](https://github.com/Kshitijpalsinghtomar/depth-skills) | 4 | Python | 2026-10-02 | — | Cognitive architecture for AI agents. 19 skills that force language models past surface-level reasoning into genuine dep |
 | 28 | [PiloTracer/pilo.ai.logicbison](https://github.com/PiloTracer/pilo.ai.logicbison) | 0 | Shell | 2026-10-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/PiloTracer/pilo.ai.logicbison/) | Portable process framework for software teams shipping with coding agents (Cursor, Claude Code, Codex, opencode). Skills |
-| 29 | [wshobson/agents](https://github.com/wshobson/agents) | 40152 | Python | 2026-10-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
+| 29 | [wshobson/agents](https://github.com/wshobson/agents) | 40153 | Python | 2026-10-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
 | 30 | [sublimecoder/sublimecoding](https://github.com/sublimecoder/sublimecoding) | 0 | — | 2026-10-01 | — | 🛠️ Free Claude Code & Cursor prompts for senior engineers — plus AIOS, an open-source markdown memory system for coding  |
 | 31 | [anshuxinha/karpathy-skills-extended](https://github.com/anshuxinha/karpathy-skills-extended) | 0 | — | 2026-10-01 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/anshuxinha/karpathy-skills-extended/) | Coding agents fill the blanks in a prompt and ship the guess. For Codex, Claude, Cursor, Antigravity, Gemini, and Grok:  |
 | 32 | [xtieume/testcase](https://github.com/xtieume/testcase) | 4 | Python | 2026-10-01 | — | Agent skills that take a requirement to shipped code: audit the spec, turn it into real tests, then build until every ch |
