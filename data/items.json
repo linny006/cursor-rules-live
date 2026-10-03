@@ -1,12 +1,12 @@
 [
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-03T01:57:44Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
+    "description": "The hardening moment. A production-grade Skills ecosystem for AI Agents.",
+    "id": "primaybr/quench",
+    "language": "Python",
+    "name": "primaybr/quench",
+    "stars": 1,
+    "updated_at": "2026-10-03T02:13:35Z",
+    "url": "https://github.com/primaybr/quench"
   },
   {
     "cursorrules": {
@@ -18,9 +18,45 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 151858,
-    "updated_at": "2026-10-03T01:54:59Z",
+    "stars": 151867,
+    "updated_at": "2026-10-03T02:08:53Z",
     "url": "https://github.com/DietrichGebert/ponytail"
+  },
+  {
+    "description": "One-file Cursor rule that kills bullet-point walls. Structured prose, tables, headings. Works with GPT-4o, Claude, Gemin",
+    "id": "Jcxu97/cursor-style-rule",
+    "language": "\u2014",
+    "name": "Jcxu97/cursor-style-rule",
+    "stars": 0,
+    "updated_at": "2026-10-03T02:07:34Z",
+    "url": "https://github.com/Jcxu97/cursor-style-rule"
+  },
+  {
+    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
+    "id": "zinxj/uikit-expert-skill",
+    "language": "\u2014",
+    "name": "zinxj/uikit-expert-skill",
+    "stars": 5,
+    "updated_at": "2026-10-03T02:04:07Z",
+    "url": "https://github.com/zinxj/uikit-expert-skill"
+  },
+  {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 3,
+    "updated_at": "2026-10-03T02:03:56Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-03T02:00:41Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -53,15 +89,6 @@
     "stars": 1,
     "updated_at": "2026-10-03T01:34:18Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "The hardening moment. A production-grade Skills ecosystem for AI Agents.",
-    "id": "primaybr/quench",
-    "language": "Python",
-    "name": "primaybr/quench",
-    "stars": 1,
-    "updated_at": "2026-10-03T01:02:54Z",
-    "url": "https://github.com/primaybr/quench"
   },
   {
     "description": "Homebrew tap for LynxPrompt CLI",
@@ -137,15 +164,6 @@
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 3,
-    "updated_at": "2026-10-02T23:01:56Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
     "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
     "id": "XAKLESK/cre-agent-skills",
     "language": "\u2014",
@@ -162,15 +180,6 @@
     "stars": 0,
     "updated_at": "2026-10-02T22:42:19Z",
     "url": "https://github.com/Amirun99/agency-orchestrator"
-  },
-  {
-    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
-    "id": "zinxj/uikit-expert-skill",
-    "language": "\u2014",
-    "name": "zinxj/uikit-expert-skill",
-    "stars": 5,
-    "updated_at": "2026-10-02T22:37:07Z",
-    "url": "https://github.com/zinxj/uikit-expert-skill"
   },
   {
     "description": "VS Code extension for LynxPrompt \u2014 browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules) ",
@@ -360,15 +369,6 @@
     "url": "https://github.com/heymegabyte/claude-skills"
   },
   {
-    "description": "One-file Cursor rule that kills bullet-point walls. Structured prose, tables, headings. Works with GPT-4o, Claude, Gemin",
-    "id": "Jcxu97/cursor-style-rule",
-    "language": "\u2014",
-    "name": "Jcxu97/cursor-style-rule",
-    "stars": 0,
-    "updated_at": "2026-10-02T02:09:08Z",
-    "url": "https://github.com/Jcxu97/cursor-style-rule"
-  },
-  {
     "description": "Cognitive architecture for AI agents. 19 skills that force language models past surface-level reasoning into genuine dep",
     "id": "Kshitijpalsinghtomar/depth-skills",
     "language": "Python",
@@ -401,7 +401,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40165,
+    "stars": 40166,
     "updated_at": "2026-10-01T19:08:25Z",
     "url": "https://github.com/wshobson/agents"
   },
