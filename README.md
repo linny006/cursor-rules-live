@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-03 17:30 UTC
+> ⏰ Last updated: 2026-10-03 17:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,21 +53,21 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-03 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 2 | [ADanMan/clueless](https://github.com/ADanMan/clueless) | 0 | JavaScript | 2026-10-03 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/ADanMan/clueless/) | Tell your agent you know nothing. It becomes the only reviewer in the room: safe defaults, unasked questions answered, i |
-| 3 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-10-03 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
-| 4 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-03 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
-| 5 | [Despensativo/OpenWrt-Skills](https://github.com/Despensativo/OpenWrt-Skills) | 0 | Python | 2026-10-03 | — | Definitive Agentic AI skills, rules and developer tooling for OpenWrt, LuCI, and embedded Linux (Antigravity, Cursor, Cl |
-| 6 | [saqie803/ponytail](https://github.com/saqie803/ponytail) | 2 | JavaScript | 2026-10-03 | — | Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony. |
-| 7 | [kapadias/nonna](https://github.com/kapadias/nonna) | 0 | Shell | 2026-10-03 | — | Your AI agent says done. Nonna makes it prove it: she runs your test suite before a coding agent can stop, and blocks pu |
-| 8 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-10-03 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
-| 9 | [Bastioned-successor320/learn-nanobot](https://github.com/Bastioned-successor320/learn-nanobot) | 11 | Python | 2026-10-03 | — | Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers |
-| 10 | [roedyrustam/vibes-plug](https://github.com/roedyrustam/vibes-plug) | 73 | Python | 2026-10-03 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/roedyrustam/vibes-plug/) | ⚡ Universal Skill AI Agent Swarm Architecture for Antigravity, Claude Code, Cursor, and Windsurf. Vibe Coding 2.0 with Z |
-| 11 | [johnwall123459885/skene-cookbook](https://github.com/johnwall123459885/skene-cookbook) | 0 | Python | 2026-10-03 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/johnwall123459885/skene-cookbook/) | 🤖 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development. |
-| 12 | [vikisingh23/neuraforge-ai](https://github.com/vikisingh23/neuraforge-ai) | 4 | JavaScript | 2026-10-03 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vikisingh23/neuraforge-ai/) | Stop correcting the same AI mistakes. 40 agents for Claude Code, Cursor & Copilot that enforce architecture rules across |
-| 13 | [aidesignblueprint/integrations](https://github.com/aidesignblueprint/integrations) | 3 | Python | 2026-10-03 | — | Official integrations and installable doctrine for AI Design Blueprint: MCP, IDE rules, prompt files, and agent runtimes |
-| 14 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-10-03 | — | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
-| 15 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 23 | Python | 2026-10-03 | — | Architectural drift prevention for the agentic AI SDLC. |
+| 1 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 23 | Python | 2026-10-03 | — | Architectural drift prevention for the agentic AI SDLC. |
+| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-03 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 3 | [ADanMan/clueless](https://github.com/ADanMan/clueless) | 0 | JavaScript | 2026-10-03 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/ADanMan/clueless/) | Tell your agent you know nothing. It becomes the only reviewer in the room: safe defaults, unasked questions answered, i |
+| 4 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-10-03 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
+| 5 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-03 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
+| 6 | [Despensativo/OpenWrt-Skills](https://github.com/Despensativo/OpenWrt-Skills) | 0 | Python | 2026-10-03 | — | Definitive Agentic AI skills, rules and developer tooling for OpenWrt, LuCI, and embedded Linux (Antigravity, Cursor, Cl |
+| 7 | [saqie803/ponytail](https://github.com/saqie803/ponytail) | 2 | JavaScript | 2026-10-03 | — | Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony. |
+| 8 | [kapadias/nonna](https://github.com/kapadias/nonna) | 0 | Shell | 2026-10-03 | — | Your AI agent says done. Nonna makes it prove it: she runs your test suite before a coding agent can stop, and blocks pu |
+| 9 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-10-03 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
+| 10 | [Bastioned-successor320/learn-nanobot](https://github.com/Bastioned-successor320/learn-nanobot) | 11 | Python | 2026-10-03 | — | Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers |
+| 11 | [roedyrustam/vibes-plug](https://github.com/roedyrustam/vibes-plug) | 73 | Python | 2026-10-03 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/roedyrustam/vibes-plug/) | ⚡ Universal Skill AI Agent Swarm Architecture for Antigravity, Claude Code, Cursor, and Windsurf. Vibe Coding 2.0 with Z |
+| 12 | [johnwall123459885/skene-cookbook](https://github.com/johnwall123459885/skene-cookbook) | 0 | Python | 2026-10-03 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/johnwall123459885/skene-cookbook/) | 🤖 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development. |
+| 13 | [vikisingh23/neuraforge-ai](https://github.com/vikisingh23/neuraforge-ai) | 4 | JavaScript | 2026-10-03 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vikisingh23/neuraforge-ai/) | Stop correcting the same AI mistakes. 40 agents for Claude Code, Cursor & Copilot that enforce architecture rules across |
+| 14 | [aidesignblueprint/integrations](https://github.com/aidesignblueprint/integrations) | 3 | Python | 2026-10-03 | — | Official integrations and installable doctrine for AI Design Blueprint: MCP, IDE rules, prompt files, and agent runtimes |
+| 15 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-10-03 | — | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
 | 16 | [pekral/cursor-rules](https://github.com/pekral/cursor-rules) | 10 | PHP | 2026-10-03 | — | PHP and Laravel Cursor rules — coding standards, testing, and conventions for the Cursor editor. Install via Composer. |
 | 17 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-10-03 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
 | 18 | [abhishek01032007-pixel/Nexora](https://github.com/abhishek01032007-pixel/Nexora) | 0 | PowerShell | 2026-10-03 | — | The Native Windows Desktop Control Plane for AI Agent Skills, Rules & Multi-IDE Fleet Synchronization. |
@@ -87,7 +87,7 @@ expired items removed — so you can rely on what you see being current.
 | 32 | [zinxj/uikit-expert-skill](https://github.com/zinxj/uikit-expert-skill) | 5 | — | 2026-10-03 | — | Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan |
 | 33 | [gabrieldcpaiva/not-optional](https://github.com/gabrieldcpaiva/not-optional) | 1 | Shell | 2026-10-03 | — | Accessibility is not a request. A practical, lived-experience toolkit for making digital products and printables usable  |
 | 34 | [dotcomjack/mdr](https://github.com/dotcomjack/mdr) | 0 | JavaScript | 2026-10-03 | — | mdr: a package manager for the markdown AI agents read (SKILL.md, AGENTS.md, CLAUDE.md, llms.txt), pinned by content has |
-| 35 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 152922 | JavaScript | 2026-10-03 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 35 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 152947 | JavaScript | 2026-10-03 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 36 | [plumpslabs/matcha](https://github.com/plumpslabs/matcha) | 2 | JavaScript | 2026-10-03 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/plumpslabs/matcha/) | 🍵 Deliberate engineering guidelines & deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block |
 | 37 | [primaybr/quench](https://github.com/primaybr/quench) | 1 | Python | 2026-10-03 | — | The hardening moment. A production-grade Skills ecosystem for AI Agents. |
 | 38 | [bytewhisker/grandpa](https://github.com/bytewhisker/grandpa) | 2 | JavaScript | 2026-10-03 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/bytewhisker/grandpa/) | Grandpa makes AI coding agents work smarter, not harder. Zero-bloat architecture, 8 skills, CLI scanner, and benchmark h |
