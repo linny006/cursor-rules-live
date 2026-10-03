@@ -9,9 +9,18 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 151817,
-    "updated_at": "2026-10-03T01:11:01Z",
+    "stars": 151832,
+    "updated_at": "2026-10-03T01:29:17Z",
     "url": "https://github.com/DietrichGebert/ponytail"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-03T01:15:49Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "The hardening moment. A production-grade Skills ecosystem for AI Agents.",
@@ -21,15 +30,6 @@
     "stars": 1,
     "updated_at": "2026-10-03T01:02:54Z",
     "url": "https://github.com/primaybr/quench"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-03T01:00:39Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Homebrew tap for LynxPrompt CLI",
