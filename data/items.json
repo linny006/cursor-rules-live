@@ -1,23 +1,5 @@
 [
   {
-    "description": "Official integrations and installable doctrine for AI Design Blueprint: MCP, IDE rules, prompt files, and agent runtimes",
-    "id": "aidesignblueprint/integrations",
-    "language": "Python",
-    "name": "aidesignblueprint/integrations",
-    "stars": 3,
-    "updated_at": "2026-10-03T15:04:26Z",
-    "url": "https://github.com/aidesignblueprint/integrations"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-03T15:00:47Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: NeuraForge AI \u2014 code-review\nglobs:\nalwaysApply: false\n---\nRead agents/code-review.md for full instructions. Follow AGENTS.md for architecture principles.\n",
       "format": "mdc",
@@ -28,8 +10,26 @@
     "language": "JavaScript",
     "name": "vikisingh23/neuraforge-ai",
     "stars": 4,
-    "updated_at": "2026-10-03T14:43:07Z",
+    "updated_at": "2026-10-03T15:27:42Z",
     "url": "https://github.com/vikisingh23/neuraforge-ai"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-03T15:15:40Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Official integrations and installable doctrine for AI Design Blueprint: MCP, IDE rules, prompt files, and agent runtimes",
+    "id": "aidesignblueprint/integrations",
+    "language": "Python",
+    "name": "aidesignblueprint/integrations",
+    "stars": 3,
+    "updated_at": "2026-10-03T15:04:26Z",
+    "url": "https://github.com/aidesignblueprint/integrations"
   },
   {
     "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
@@ -223,7 +223,7 @@
     "language": "Python",
     "name": "roedyrustam/vibes-plug",
     "stars": 73,
-    "updated_at": "2026-10-03T10:08:06Z",
+    "updated_at": "2026-10-03T15:19:49Z",
     "url": "https://github.com/roedyrustam/vibes-plug"
   },
   {
@@ -313,7 +313,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 152710,
+    "stars": 152746,
     "updated_at": "2026-10-03T05:12:55Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
