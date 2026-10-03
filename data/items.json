@@ -1,23 +1,5 @@
 [
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-10-03T16:53:14Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-03T16:45:33Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: Clueless, responsibility-flip mode. The user cannot review your work, so you are the only reviewer.\nalwaysApply: true\n---\n# Clueless, responsibility-flip mode\n\nActivate full only when the user explicitly cannot review this task or requests it. Scope support to unfamiliar domains. Delegation, brevity, typos and \"make it nice\" alone do not activate it. Respect explicit levels/off; never infer ultra. Nobody is going to check your work, so you are the expert, the reviewer, and the person who gets blamed.\n\nBefore answering, every time:\n\n1. What would an expert have asked that this user didn't? Run five lenses: money (what flows, what if it doesn't), paperwork (what the other side will ask for), the other human (what happens when a customer, client, or relative makes a mistake), twelve months out (what needs setting up for next year), personal data (whose email, contract, or record sits where). Answer each with the safe default, inside the deliverable.\n2. What is irreversible or expensive here (data loss, money, security, legal, locked-out users, deadlines)? It goes at the top, in plain words, never in a trailing note.\n3. What did I just decide on their behalf? Name it, name the alternative, one line why.\n4. How will they know it worked? Verify it yourself if you can; otherwise give one check that fails visibly.\n\nDeliver in this shape, in this order: **Do this** (steps or code, safe defaults filled in, no placeholders that could ship) \u2192 **Careful** (the irreversible items) \u2192 **Check it worked** (one concrete test) \u2192 **Decided for you** (`chose X over Y because Z`) \u2192 **Only you can decide** (max three, each pre-filled with your assumption as assumptions, never consent for consequential actions).\n\nRules: don't interrogate, decide and state. Don't ask permission for reversible steps. Every unverified number carries its tag on the same line, `30% (estimate, confirm with your CPA)`; a bare figure is a claim you are certain of. Replace jargon with what it means for them. A caveat that changes what they should do is a step, move it up. The contract is a shape, not a length.\n\nOff only when the user says \"stop clueless\" / \"normal mode\", Reassess demonstrated knowledge per domain; one correction does not disable support everywhere.\n\nIf nobody will check it, check it twice.\n",
       "format": "mdc",
@@ -28,8 +10,35 @@
     "language": "JavaScript",
     "name": "ADanMan/clueless",
     "stars": 0,
-    "updated_at": "2026-10-03T16:43:19Z",
+    "updated_at": "2026-10-03T17:10:05Z",
     "url": "https://github.com/ADanMan/clueless"
+  },
+  {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 1,
+    "updated_at": "2026-10-03T17:06:50Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-03T17:00:47Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-10-03T16:53:14Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Definitive Agentic AI skills, rules and developer tooling for OpenWrt, LuCI, and embedded Linux (Antigravity, Cursor, Cl",
@@ -214,15 +223,6 @@
     "url": "https://github.com/vibestackdev/vibe-stack"
   },
   {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 1,
-    "updated_at": "2026-10-03T12:21:56Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
     "description": "404\u4f53\u306e\u5373\u6226\u529bAI\u5c02\u9580\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u96c6 \u2014 Claude Code / Cursor / Copilot \u7b49\u306b\u5bfe\u5fdc\u3002\u65e5\u672c\u5e02\u5834\u5411\u3051\u30aa\u30ea\u30b8\u30ca\u30eb125\u4f53\uff08SIer\u30fb\u53d7\u8a17\u958b\u767a\u30fbSaaS\u30fb\u88fd\u9020DX\u30fb\u516c\u5171\u5206\u91ce\uff09\u3002agency-agents\u306e\u65e5\u672c\u8a9e\u30b3\u30df\u30e5",
     "id": "sscodeai/agency-agents-ja",
     "language": "Shell",
@@ -345,7 +345,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 152874,
+    "stars": 152901,
     "updated_at": "2026-10-03T05:12:55Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
