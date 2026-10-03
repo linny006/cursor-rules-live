@@ -1,11 +1,29 @@
 [
   {
+    "description": "Blind A/B testing for AI agent skills, .cursorrules, CLAUDE.md, and system prompts. Detects placebo and harmful instruct",
+    "id": "sx4im/skillcheck",
+    "language": "TypeScript",
+    "name": "sx4im/skillcheck",
+    "stars": 28,
+    "updated_at": "2026-10-03T07:07:50Z",
+    "url": "https://github.com/sx4im/skillcheck"
+  },
+  {
+    "description": "Accessibility is not a request. A practical, lived-experience toolkit for making digital products and printables usable ",
+    "id": "gabrieldcpaiva/not-optional",
+    "language": "Shell",
+    "name": "gabrieldcpaiva/not-optional",
+    "stars": 1,
+    "updated_at": "2026-10-03T07:06:12Z",
+    "url": "https://github.com/gabrieldcpaiva/not-optional"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-03T06:45:34Z",
+    "updated_at": "2026-10-03T07:00:33Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -72,7 +90,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 152079,
+    "stars": 152089,
     "updated_at": "2026-10-03T05:12:55Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -365,15 +383,6 @@
     "url": "https://github.com/axelfreeman/marketing-mindset"
   },
   {
-    "description": "Blind A/B testing for AI agent skills, .cursorrules, CLAUDE.md, and system prompts. Detects placebo and harmful instruct",
-    "id": "sx4im/skillcheck",
-    "language": "TypeScript",
-    "name": "sx4im/skillcheck",
-    "stars": 28,
-    "updated_at": "2026-10-02T11:19:41Z",
-    "url": "https://github.com/sx4im/skillcheck"
-  },
-  {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
     "id": "Hyanthropological659/clarify-skill",
     "language": "\u2014",
@@ -514,14 +523,5 @@
     "stars": 569,
     "updated_at": "2026-10-02T07:28:33Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
-  },
-  {
-    "description": "Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml",
-    "id": "nu-nenoi/repo-nexus",
-    "language": "Shell",
-    "name": "nu-nenoi/repo-nexus",
-    "stars": 6,
-    "updated_at": "2026-10-01T07:15:56Z",
-    "url": "https://github.com/nu-nenoi/repo-nexus"
   }
 ]
