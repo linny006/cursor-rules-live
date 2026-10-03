@@ -1,12 +1,30 @@
 [
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-03T20:05:38Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
+    "description": "Homebrew tap for LynxPrompt CLI",
+    "id": "GeiserX/homebrew-lynxprompt",
+    "language": "Shell",
+    "name": "GeiserX/homebrew-lynxprompt",
+    "stars": 2,
+    "updated_at": "2026-10-03T20:28:25Z",
+    "url": "https://github.com/GeiserX/homebrew-lynxprompt"
+  },
+  {
+    "description": "MCP Server for LynxPrompt \u2014 browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP",
+    "id": "GeiserX/lynxprompt-mcp",
+    "language": "Go",
+    "name": "GeiserX/lynxprompt-mcp",
+    "stars": 2,
+    "updated_at": "2026-10-03T20:27:57Z",
+    "url": "https://github.com/GeiserX/lynxprompt-mcp"
+  },
+  {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 49,
+    "updated_at": "2026-10-03T20:27:52Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "description": "Architectural drift prevention for the agentic AI SDLC.",
@@ -14,8 +32,17 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 23,
-    "updated_at": "2026-10-03T20:14:11Z",
+    "updated_at": "2026-10-03T20:26:10Z",
     "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-03T20:15:47Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -34,15 +61,6 @@
     "stars": 1,
     "updated_at": "2026-10-03T19:11:02Z",
     "url": "https://github.com/cowboy937/Cursor-Desktop-2026"
-  },
-  {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 49,
-    "updated_at": "2026-10-03T18:23:17Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "description": "Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony.",
@@ -354,7 +372,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 153150,
+    "stars": 153167,
     "updated_at": "2026-10-03T05:12:55Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -419,15 +437,6 @@
     "url": "https://github.com/Jcxu97/cursor-style-rule"
   },
   {
-    "description": "Homebrew tap for LynxPrompt CLI",
-    "id": "GeiserX/homebrew-lynxprompt",
-    "language": "Shell",
-    "name": "GeiserX/homebrew-lynxprompt",
-    "stars": 2,
-    "updated_at": "2026-10-03T20:07:24Z",
-    "url": "https://github.com/GeiserX/homebrew-lynxprompt"
-  },
-  {
     "description": "My life's work: a deterministic engineering harness for Cursor.",
     "id": "kleosr/bridle",
     "language": "Shell",
@@ -470,17 +479,8 @@
     "language": "TypeScript",
     "name": "GeiserX/lynxprompt-vscode",
     "stars": 2,
-    "updated_at": "2026-10-02T21:51:21Z",
+    "updated_at": "2026-10-03T20:18:02Z",
     "url": "https://github.com/GeiserX/lynxprompt-vscode"
-  },
-  {
-    "description": "MCP Server for LynxPrompt \u2014 browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP",
-    "id": "GeiserX/lynxprompt-mcp",
-    "language": "Go",
-    "name": "GeiserX/lynxprompt-mcp",
-    "stars": 2,
-    "updated_at": "2026-10-02T21:35:08Z",
-    "url": "https://github.com/GeiserX/lynxprompt-mcp"
   },
   {
     "cursorrules": {
