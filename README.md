@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-03 05:15 UTC
+> ⏰ Last updated: 2026-10-03 05:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,9 +53,9 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 152000 | JavaScript | 2026-10-03 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
-| 2 | [cowboy937/Cursor-Desktop-2026](https://github.com/cowboy937/Cursor-Desktop-2026) | 1 | — | 2026-10-03 | — | ⭐️ Cursor 2026 Ai Cursorpro Cursor Ai ⭐️ |
-| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-03 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-03 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 152008 | JavaScript | 2026-10-03 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 3 | [cowboy937/Cursor-Desktop-2026](https://github.com/cowboy937/Cursor-Desktop-2026) | 1 | — | 2026-10-03 | — | ⭐️ Cursor 2026 Ai Cursorpro Cursor Ai ⭐️ |
 | 4 | [plumpslabs/matcha](https://github.com/plumpslabs/matcha) | 2 | JavaScript | 2026-10-03 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/plumpslabs/matcha/) | 🍵 Deliberate engineering guidelines & deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block |
 | 5 | [primaybr/quench](https://github.com/primaybr/quench) | 1 | Python | 2026-10-03 | — | The hardening moment. A production-grade Skills ecosystem for AI Agents. |
 | 6 | [bytewhisker/grandpa](https://github.com/bytewhisker/grandpa) | 2 | JavaScript | 2026-10-03 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/bytewhisker/grandpa/) | Grandpa makes AI coding agents work smarter, not harder. Zero-bloat architecture, 8 skills, CLI scanner, and benchmark h |
