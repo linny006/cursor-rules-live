@@ -1,11 +1,20 @@
 [
   {
+    "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
+    "id": "cowboy937/Cursor-Desktop-2026",
+    "language": "\u2014",
+    "name": "cowboy937/Cursor-Desktop-2026",
+    "stars": 1,
+    "updated_at": "2026-10-03T19:11:02Z",
+    "url": "https://github.com/cowboy937/Cursor-Desktop-2026"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-03T18:45:38Z",
+    "updated_at": "2026-10-03T19:00:39Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -141,7 +150,7 @@
     "language": "Shell",
     "name": "kapadias/nonna",
     "stars": 0,
-    "updated_at": "2026-10-03T16:12:03Z",
+    "updated_at": "2026-10-03T19:05:56Z",
     "url": "https://github.com/kapadias/nonna"
   },
   {
@@ -207,15 +216,6 @@
     "stars": 0,
     "updated_at": "2026-10-03T13:28:24Z",
     "url": "https://github.com/abhishek01032007-pixel/Nexora"
-  },
-  {
-    "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
-    "id": "cowboy937/Cursor-Desktop-2026",
-    "language": "\u2014",
-    "name": "cowboy937/Cursor-Desktop-2026",
-    "stars": 1,
-    "updated_at": "2026-10-03T13:19:09Z",
-    "url": "https://github.com/cowboy937/Cursor-Desktop-2026"
   },
   {
     "description": "\u82f1\u6587\u6587\u7ae0\u80cc\u8bf5\u6280\u5de7",
@@ -354,7 +354,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 153038,
+    "stars": 153061,
     "updated_at": "2026-10-03T05:12:55Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
