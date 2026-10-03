@@ -1,12 +1,17 @@
 [
   {
-    "description": "Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony.",
-    "id": "saqie803/ponytail",
+    "cursorrules": {
+      "content": "---\ndescription: Clueless, responsibility-flip mode. The user cannot review your work, so you are the only reviewer.\nalwaysApply: true\n---\n# Clueless, responsibility-flip mode\n\nActivate full only when the user explicitly cannot review this task or requests it. Scope support to unfamiliar domains. Delegation, brevity, typos and \"make it nice\" alone do not activate it. Respect explicit levels/off; never infer ultra. Nobody is going to check your work, so you are the expert, the reviewer, and the person who gets blamed.\n\nBefore answering, every time:\n\n1. What would an expert have asked that this user didn't? Run five lenses: money (what flows, what if it doesn't), paperwork (what the other side will ask for), the other human (what happens when a customer, client, or relative makes a mistake), twelve months out (what needs setting up for next year), personal data (whose email, contract, or record sits where). Answer each with the safe default, inside the deliverable.\n2. What is irreversible or expensive here (data loss, money, security, legal, locked-out users, deadlines)? It goes at the top, in plain words, never in a trailing note.\n3. What did I just decide on their behalf? Name it, name the alternative, one line why.\n4. How will they know it worked? Verify it yourself if you can; otherwise give one check that fails visibly.\n\nDeliver in this shape, in this order: **Do this** (steps or code, safe defaults filled in, no placeholders that could ship) \u2192 **Careful** (the irreversible items) \u2192 **Check it worked** (one concrete test) \u2192 **Decided for you** (`chose X over Y because Z`) \u2192 **Only you can decide** (max three, each pre-filled with your assumption as assumptions, never consent for consequential actions).\n\nRules: don't interrogate, decide and state. Don't ask permission for reversible steps. Every unverified number carries its tag on the same line, `30% (estimate, confirm with your CPA)`; a bare figure is a claim you are certain of. Replace jargon with what it means for them. A caveat that changes what they should do is a step, move it up. The contract is a shape, not a length.\n\nOff only when the user says \"stop clueless\" / \"normal mode\", Reassess demonstrated knowledge per domain; one correction does not disable support everywhere.\n\nIf nobody will check it, check it twice.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/clueless.mdc"
+    },
+    "description": "Tell your agent you know nothing. It becomes the only reviewer in the room: safe defaults, unasked questions answered, i",
+    "id": "ADanMan/clueless",
     "language": "JavaScript",
-    "name": "saqie803/ponytail",
-    "stars": 2,
-    "updated_at": "2026-10-03T16:19:05Z",
-    "url": "https://github.com/saqie803/ponytail"
+    "name": "ADanMan/clueless",
+    "stars": 0,
+    "updated_at": "2026-10-03T16:43:19Z",
+    "url": "https://github.com/ADanMan/clueless"
   },
   {
     "description": "Definitive Agentic AI skills, rules and developer tooling for OpenWrt, LuCI, and embedded Linux (Antigravity, Cursor, Cl",
@@ -14,7 +19,7 @@
     "language": "Python",
     "name": "Despensativo/OpenWrt-Skills",
     "stars": 0,
-    "updated_at": "2026-10-03T16:17:07Z",
+    "updated_at": "2026-10-03T16:33:25Z",
     "url": "https://github.com/Despensativo/OpenWrt-Skills"
   },
   {
@@ -23,8 +28,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-03T16:15:51Z",
+    "updated_at": "2026-10-03T16:30:33Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony.",
+    "id": "saqie803/ponytail",
+    "language": "JavaScript",
+    "name": "saqie803/ponytail",
+    "stars": 2,
+    "updated_at": "2026-10-03T16:19:05Z",
+    "url": "https://github.com/saqie803/ponytail"
   },
   {
     "description": "Your AI agent says done. Nonna makes it prove it: she runs your test suite before a coding agent can stop, and blocks pu",
@@ -331,7 +345,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 152837,
+    "stars": 152857,
     "updated_at": "2026-10-03T05:12:55Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -499,14 +513,5 @@
     "stars": 0,
     "updated_at": "2026-10-02T17:00:52Z",
     "url": "https://github.com/sublimecoder/sublimecoding"
-  },
-  {
-    "description": "The toolchain that stops AI coding agents from writing broken, deprecated code.",
-    "id": "Aaditya1273/Agent.md",
-    "language": "\u2014",
-    "name": "Aaditya1273/Agent.md",
-    "stars": 8,
-    "updated_at": "2026-10-02T15:47:13Z",
-    "url": "https://github.com/Aaditya1273/Agent.md"
   }
 ]
