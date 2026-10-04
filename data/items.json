@@ -10,8 +10,17 @@
     "language": "JavaScript",
     "name": "vikisingh23/neuraforge-ai",
     "stars": 4,
-    "updated_at": "2026-10-04T06:28:44Z",
+    "updated_at": "2026-10-04T06:40:58Z",
     "url": "https://github.com/vikisingh23/neuraforge-ai"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-04T06:30:49Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
@@ -19,7 +28,7 @@
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 1,
-    "updated_at": "2026-10-04T06:26:27Z",
+    "updated_at": "2026-10-04T06:41:33Z",
     "url": "https://github.com/bompus/house-rules"
   },
   {
@@ -35,15 +44,6 @@
     "stars": 22,
     "updated_at": "2026-10-04T06:23:00Z",
     "url": "https://github.com/heymegabyte/claude-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-04T06:15:48Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
@@ -440,7 +440,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 153763,
+    "stars": 153778,
     "updated_at": "2026-10-03T05:12:55Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
