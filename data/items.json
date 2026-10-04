@@ -10,17 +10,8 @@
     "language": "TypeScript",
     "name": "heymegabyte/agent-skills",
     "stars": 22,
-    "updated_at": "2026-10-04T16:38:19Z",
+    "updated_at": "2026-10-04T16:54:15Z",
     "url": "https://github.com/heymegabyte/agent-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-04T16:30:35Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -33,8 +24,17 @@
     "language": "Python",
     "name": "pahlevikun/levistack",
     "stars": 0,
-    "updated_at": "2026-10-04T16:22:47Z",
+    "updated_at": "2026-10-04T16:49:44Z",
     "url": "https://github.com/pahlevikun/levistack"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-04T16:45:34Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
