@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-04 04:30 UTC
+> ⏰ Last updated: 2026-10-04 04:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,11 +53,11 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [bompus/house-rules](https://github.com/bompus/house-rules) | 1 | JavaScript | 2026-10-04 | — | Working rules and skills for AI coding agents, layered as base, modifiers, person and project |
-| 2 | [heymegabyte/claude-skills](https://github.com/heymegabyte/claude-skills) | 22 | TypeScript | 2026-10-04 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/claude-skills/) | Agent Skills — agent-neutral autonomous product-building OS for 32+ AI coding tools. 23 skill categories · 28 agents · 1 |
-| 3 | [saqie803/ponytail](https://github.com/saqie803/ponytail) | 2 | JavaScript | 2026-10-04 | — | Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony. |
-| 4 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-10-04 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
-| 5 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-04 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [heymegabyte/claude-skills](https://github.com/heymegabyte/claude-skills) | 22 | TypeScript | 2026-10-04 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/claude-skills/) | Agent Skills — agent-neutral autonomous product-building OS for 32+ AI coding tools. 23 skill categories · 28 agents · 1 |
+| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-04 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 3 | [bompus/house-rules](https://github.com/bompus/house-rules) | 1 | JavaScript | 2026-10-04 | — | Working rules and skills for AI coding agents, layered as base, modifiers, person and project |
+| 4 | [saqie803/ponytail](https://github.com/saqie803/ponytail) | 2 | JavaScript | 2026-10-04 | — | Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony. |
+| 5 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-10-04 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
 | 6 | [Bastioned-successor320/learn-nanobot](https://github.com/Bastioned-successor320/learn-nanobot) | 11 | Python | 2026-10-04 | — | Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers |
 | 7 | [johnwall123459885/skene-cookbook](https://github.com/johnwall123459885/skene-cookbook) | 0 | Python | 2026-10-04 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/johnwall123459885/skene-cookbook/) | 🤖 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development. |
 | 8 | [ajhcs/healthcare-agents](https://github.com/ajhcs/healthcare-agents) | 51 | JavaScript | 2026-10-04 | — | Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows. |
@@ -97,7 +97,7 @@ expired items removed — so you can rely on what you see being current.
 | 42 | [zinxj/uikit-expert-skill](https://github.com/zinxj/uikit-expert-skill) | 5 | — | 2026-10-03 | — | Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan |
 | 43 | [gabrieldcpaiva/not-optional](https://github.com/gabrieldcpaiva/not-optional) | 1 | Shell | 2026-10-03 | — | Accessibility is not a request. A practical, lived-experience toolkit for making digital products and printables usable  |
 | 44 | [dotcomjack/mdr](https://github.com/dotcomjack/mdr) | 0 | JavaScript | 2026-10-03 | — | mdr: a package manager for the markdown AI agents read (SKILL.md, AGENTS.md, CLAUDE.md, llms.txt), pinned by content has |
-| 45 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 153621 | JavaScript | 2026-10-03 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 45 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 153633 | JavaScript | 2026-10-03 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 46 | [plumpslabs/matcha](https://github.com/plumpslabs/matcha) | 2 | JavaScript | 2026-10-03 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/plumpslabs/matcha/) | 🍵 Deliberate engineering guidelines & deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block |
 | 47 | [primaybr/quench](https://github.com/primaybr/quench) | 1 | Python | 2026-10-03 | — | The hardening moment. A production-grade Skills ecosystem for AI Agents. |
 | 48 | [bytewhisker/grandpa](https://github.com/bytewhisker/grandpa) | 2 | JavaScript | 2026-10-03 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/bytewhisker/grandpa/) | Grandpa makes AI coding agents work smarter, not harder. Zero-bloat architecture, 8 skills, CLI scanner, and benchmark h |
