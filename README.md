@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-04 14:40 UTC
+> ⏰ Last updated: 2026-10-04 14:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,24 +53,24 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [vikisingh23/neuraforge-ai](https://github.com/vikisingh23/neuraforge-ai) | 4 | JavaScript | 2026-10-04 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vikisingh23/neuraforge-ai/) | Stop correcting the same AI mistakes. 40 agents for Claude Code, Cursor & Copilot that enforce architecture rules across |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-04 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 3 | [abhishek01032007-pixel/Nexora](https://github.com/abhishek01032007-pixel/Nexora) | 0 | PowerShell | 2026-10-04 | — | The Native Windows Desktop Control Plane for AI Agent Skills, Rules & Multi-IDE Fleet Synchronization. |
-| 4 | [Hyanthropological659/clarify-skill](https://github.com/Hyanthropological659/clarify-skill) | 1 | — | 2026-10-04 | — | Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a |
-| 5 | [heymegabyte/claude-skills](https://github.com/heymegabyte/claude-skills) | 22 | TypeScript | 2026-10-04 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/claude-skills/) | Agent Skills — agent-neutral autonomous product-building OS for 32+ AI coding tools. 23 skill categories · 28 agents · 1 |
-| 6 | [Overseastelegramaliterateperson865/awesome-claude-md](https://github.com/Overseastelegramaliterateperson865/awesome-claude-md) | 3 | — | 2026-10-04 | — | Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr |
-| 7 | [EvilFreelancer/rpa-gen-rules](https://github.com/EvilFreelancer/rpa-gen-rules) | 1 | Python | 2026-10-04 | — | Agent skill for Claude Code, Codex and Cursor: generate or refresh project rules (.cursor/rules/*.mdc, CLAUDE.md and .cl |
-| 8 | [cowboy937/Cursor-Desktop-2026](https://github.com/cowboy937/Cursor-Desktop-2026) | 1 | — | 2026-10-04 | — | ⭐️ Cursor 2026 Ai Cursorpro Cursor Ai ⭐️ |
-| 9 | [vibestackdev/vibe-stack](https://github.com/vibestackdev/vibe-stack) | 8 | TypeScript | 2026-10-04 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/) | 29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b |
-| 10 | [wshobson/agents](https://github.com/wshobson/agents) | 40188 | Python | 2026-10-04 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
-| 11 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-10-04 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 12 | [radionest/hermes-context-rules](https://github.com/radionest/hermes-context-rules) | 0 | Python | 2026-10-04 | — | Cursor- and Claude-compatible conditional project rules plugin for Hermes Agent: glob/auto/always modes plus determinist |
-| 13 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-10-04 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
-| 14 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-10-04 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
-| 15 | [sx4im/skillcheck](https://github.com/sx4im/skillcheck) | 28 | TypeScript | 2026-10-04 | — | Blind A/B testing for AI agent skills, .cursorrules, CLAUDE.md, and system prompts. Detects placebo and harmful instruct |
-| 16 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 49 | — | 2026-10-04 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
-| 17 | [patrykmazur998/antigravity-starter-kit](https://github.com/patrykmazur998/antigravity-starter-kit) | 1 | Python | 2026-10-04 | — | ⚡ Ultra-lean AI assistant rules (<40 lines) & token optimizer for Cursor, Windsurf, Claude Code, and Antigravity. |
-| 18 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-04 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-04 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-04 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
+| 3 | [vikisingh23/neuraforge-ai](https://github.com/vikisingh23/neuraforge-ai) | 4 | JavaScript | 2026-10-04 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vikisingh23/neuraforge-ai/) | Stop correcting the same AI mistakes. 40 agents for Claude Code, Cursor & Copilot that enforce architecture rules across |
+| 4 | [abhishek01032007-pixel/Nexora](https://github.com/abhishek01032007-pixel/Nexora) | 0 | PowerShell | 2026-10-04 | — | The Native Windows Desktop Control Plane for AI Agent Skills, Rules & Multi-IDE Fleet Synchronization. |
+| 5 | [Hyanthropological659/clarify-skill](https://github.com/Hyanthropological659/clarify-skill) | 1 | — | 2026-10-04 | — | Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a |
+| 6 | [heymegabyte/claude-skills](https://github.com/heymegabyte/claude-skills) | 22 | TypeScript | 2026-10-04 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/claude-skills/) | Agent Skills — agent-neutral autonomous product-building OS for 32+ AI coding tools. 23 skill categories · 28 agents · 1 |
+| 7 | [Overseastelegramaliterateperson865/awesome-claude-md](https://github.com/Overseastelegramaliterateperson865/awesome-claude-md) | 3 | — | 2026-10-04 | — | Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr |
+| 8 | [EvilFreelancer/rpa-gen-rules](https://github.com/EvilFreelancer/rpa-gen-rules) | 1 | Python | 2026-10-04 | — | Agent skill for Claude Code, Codex and Cursor: generate or refresh project rules (.cursor/rules/*.mdc, CLAUDE.md and .cl |
+| 9 | [cowboy937/Cursor-Desktop-2026](https://github.com/cowboy937/Cursor-Desktop-2026) | 1 | — | 2026-10-04 | — | ⭐️ Cursor 2026 Ai Cursorpro Cursor Ai ⭐️ |
+| 10 | [vibestackdev/vibe-stack](https://github.com/vibestackdev/vibe-stack) | 8 | TypeScript | 2026-10-04 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/) | 29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b |
+| 11 | [wshobson/agents](https://github.com/wshobson/agents) | 40188 | Python | 2026-10-04 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
+| 12 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-10-04 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
+| 13 | [radionest/hermes-context-rules](https://github.com/radionest/hermes-context-rules) | 0 | Python | 2026-10-04 | — | Cursor- and Claude-compatible conditional project rules plugin for Hermes Agent: glob/auto/always modes plus determinist |
+| 14 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-10-04 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
+| 15 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-10-04 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
+| 16 | [sx4im/skillcheck](https://github.com/sx4im/skillcheck) | 28 | TypeScript | 2026-10-04 | — | Blind A/B testing for AI agent skills, .cursorrules, CLAUDE.md, and system prompts. Detects placebo and harmful instruct |
+| 17 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 49 | — | 2026-10-04 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
+| 18 | [patrykmazur998/antigravity-starter-kit](https://github.com/patrykmazur998/antigravity-starter-kit) | 1 | Python | 2026-10-04 | — | ⚡ Ultra-lean AI assistant rules (<40 lines) & token optimizer for Cursor, Windsurf, Claude Code, and Antigravity. |
 | 19 | [saqie803/ponytail](https://github.com/saqie803/ponytail) | 2 | JavaScript | 2026-10-04 | — | Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony. |
 | 20 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-10-04 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
 | 21 | [Bastioned-successor320/learn-nanobot](https://github.com/Bastioned-successor320/learn-nanobot) | 11 | Python | 2026-10-04 | — | Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers |

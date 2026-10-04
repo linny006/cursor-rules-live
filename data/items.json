@@ -1,5 +1,23 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-04T14:40:05Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-10-04T14:39:46Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: NeuraForge AI \u2014 code-review\nglobs:\nalwaysApply: false\n---\nRead agents/code-review.md for full instructions. Follow AGENTS.md for architecture principles.\n",
       "format": "mdc",
@@ -12,15 +30,6 @@
     "stars": 4,
     "updated_at": "2026-10-04T14:34:27Z",
     "url": "https://github.com/vikisingh23/neuraforge-ai"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-04T14:30:41Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "The Native Windows Desktop Control Plane for AI Agent Skills, Rules & Multi-IDE Fleet Synchronization.",
@@ -171,15 +180,6 @@
     "stars": 1,
     "updated_at": "2026-10-04T12:03:27Z",
     "url": "https://github.com/patrykmazur998/antigravity-starter-kit"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-10-04T08:58:59Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony.",
