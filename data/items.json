@@ -1,26 +1,26 @@
 [
   {
-    "description": "One-file Cursor rule that kills bullet-point walls. Structured prose, tables, headings. Works with GPT-4o, Claude, Gemin",
-    "id": "Jcxu97/cursor-style-rule",
-    "language": "\u2014",
-    "name": "Jcxu97/cursor-style-rule",
-    "stars": 0,
-    "updated_at": "2026-10-04T03:13:54Z",
-    "url": "https://github.com/Jcxu97/cursor-style-rule"
-  },
-  {
     "cursorrules": {
       "content": "# Emdash Skills for Cursor\n\nLoad CONVENTIONS.md for stack defaults. Load _router.md for skill routing.\n23 categories, 149 reference docs, 28 agents.\n\n## Stack\nCF Workers + Hono | Angular 22 + Ionic 8 + Spartan UI | D1/Neon | Drizzle v1 | Clerk | Stripe | Inngest | Amazon SES | Bun | Playwright v1.59+ | PostHog | Sentry\n\n## Rules\n- TypeScript strict, never `any`, prefer `interface` over `type`\n- Hono inline handlers for RPC type inference\n- Zod validation on all inputs\n- TDD: failing test first, Playwright 6 breakpoints\n- Dark-first design, #060610 bg, #00E5FF accent\n- Deploy to CF Workers, purge CDN after every deploy\n\nSee CONVENTIONS.md for full patterns.\n",
       "format": "text",
       "path": ".cursorrules"
     },
-    "description": "14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts \u2192 deployed products.",
+    "description": "Agent Skills \u2014 agent-neutral autonomous product-building OS for 32+ AI coding tools. 23 skill categories \u00b7 28 agents \u00b7 1",
     "id": "heymegabyte/claude-skills",
     "language": "TypeScript",
     "name": "heymegabyte/claude-skills",
     "stars": 22,
-    "updated_at": "2026-10-04T03:07:52Z",
+    "updated_at": "2026-10-04T03:22:19Z",
     "url": "https://github.com/heymegabyte/claude-skills"
+  },
+  {
+    "description": "Your AI agent says done. Nonna makes it prove it: she runs your test suite before a coding agent can stop, and blocks pu",
+    "id": "kapadias/nonna",
+    "language": "Shell",
+    "name": "kapadias/nonna",
+    "stars": 0,
+    "updated_at": "2026-10-04T03:16:12Z",
+    "url": "https://github.com/kapadias/nonna"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -28,8 +28,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-04T03:00:33Z",
+    "updated_at": "2026-10-04T03:15:51Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "One-file Cursor rule that kills bullet-point walls. Structured prose, tables, headings. Works with GPT-4o, Claude, Gemin",
+    "id": "Jcxu97/cursor-style-rule",
+    "language": "\u2014",
+    "name": "Jcxu97/cursor-style-rule",
+    "stars": 0,
+    "updated_at": "2026-10-04T03:13:54Z",
+    "url": "https://github.com/Jcxu97/cursor-style-rule"
   },
   {
     "description": "Architectural drift prevention for the agentic AI SDLC.",
@@ -220,15 +229,6 @@
     "stars": 0,
     "updated_at": "2026-10-03T16:33:25Z",
     "url": "https://github.com/Despensativo/OpenWrt-Skills"
-  },
-  {
-    "description": "Your AI agent says done. Nonna makes it prove it: she runs your test suite before a coding agent can stop, and blocks pu",
-    "id": "kapadias/nonna",
-    "language": "Shell",
-    "name": "kapadias/nonna",
-    "stars": 0,
-    "updated_at": "2026-10-04T01:07:23Z",
-    "url": "https://github.com/kapadias/nonna"
   },
   {
     "cursorrules": {
@@ -422,7 +422,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 153546,
+    "stars": 153560,
     "updated_at": "2026-10-03T05:12:55Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
