@@ -1,5 +1,55 @@
 [
   {
+    "description": "The Native Windows Desktop Control Plane for AI Agent Skills, Rules & Multi-IDE Fleet Synchronization.",
+    "id": "abhishek01032007-pixel/Nexora",
+    "language": "PowerShell",
+    "name": "abhishek01032007-pixel/Nexora",
+    "stars": 0,
+    "updated_at": "2026-10-04T14:24:41Z",
+    "url": "https://github.com/abhishek01032007-pixel/Nexora"
+  },
+  {
+    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
+    "id": "Hyanthropological659/clarify-skill",
+    "language": "\u2014",
+    "name": "Hyanthropological659/clarify-skill",
+    "stars": 1,
+    "updated_at": "2026-10-04T14:21:37Z",
+    "url": "https://github.com/Hyanthropological659/clarify-skill"
+  },
+  {
+    "cursorrules": {
+      "content": "# Emdash Skills for Cursor\n\nLoad CONVENTIONS.md for stack defaults. Load _router.md for skill routing.\n23 categories, 149 reference docs, 28 agents.\n\n## Stack\nCF Workers + Hono | React 19 + Vite + shadcn/ui (sites) / Angular 22 + Spartan UI (apps) | D1/Neon | Drizzle v1 | Clerk | Square + Stripe Billing/Connect | Inngest | Amazon SES | Bun | Playwright v1.63+ | PostHog | Sentry\n\n## Rules\n- TypeScript strict, never `any`, prefer `interface` over `type`\n- Hono inline handlers for RPC type inference\n- Zod validation on all inputs\n- TDD: failing test first, Playwright 6 breakpoints\n- Dark-first design, #060610 bg, #00E5FF accent\n- Deploy to CF Workers, purge CDN after every deploy\n\nSee CONVENTIONS.md for full patterns.\n",
+      "format": "text",
+      "path": ".cursorrules"
+    },
+    "description": "Agent Skills \u2014 agent-neutral autonomous product-building OS for 32+ AI coding tools. 23 skill categories \u00b7 28 agents \u00b7 1",
+    "id": "heymegabyte/claude-skills",
+    "language": "TypeScript",
+    "name": "heymegabyte/claude-skills",
+    "stars": 22,
+    "updated_at": "2026-10-04T14:19:48Z",
+    "url": "https://github.com/heymegabyte/claude-skills"
+  },
+  {
+    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
+    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "language": "\u2014",
+    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "stars": 3,
+    "updated_at": "2026-10-04T14:17:31Z",
+    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-04T14:15:36Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: NeuraForge AI \u2014 code-review\nglobs:\nalwaysApply: false\n---\nRead agents/code-review.md for full instructions. Follow AGENTS.md for architecture principles.\n",
       "format": "mdc",
@@ -14,15 +64,6 @@
     "url": "https://github.com/vikisingh23/neuraforge-ai"
   },
   {
-    "description": "The Native Windows Desktop Control Plane for AI Agent Skills, Rules & Multi-IDE Fleet Synchronization.",
-    "id": "abhishek01032007-pixel/Nexora",
-    "language": "PowerShell",
-    "name": "abhishek01032007-pixel/Nexora",
-    "stars": 0,
-    "updated_at": "2026-10-04T14:03:27Z",
-    "url": "https://github.com/abhishek01032007-pixel/Nexora"
-  },
-  {
     "description": "Agent skill for Claude Code, Codex and Cursor: generate or refresh project rules (.cursor/rules/*.mdc, CLAUDE.md and .cl",
     "id": "EvilFreelancer/rpa-gen-rules",
     "language": "Python",
@@ -30,15 +71,6 @@
     "stars": 1,
     "updated_at": "2026-10-04T14:05:17Z",
     "url": "https://github.com/EvilFreelancer/rpa-gen-rules"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-04T14:00:35Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
@@ -73,7 +105,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40187,
+    "stars": 40188,
     "updated_at": "2026-10-04T13:27:36Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -87,15 +119,6 @@
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
-    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
-    "id": "Hyanthropological659/clarify-skill",
-    "language": "\u2014",
-    "name": "Hyanthropological659/clarify-skill",
-    "stars": 1,
-    "updated_at": "2026-10-04T12:27:15Z",
-    "url": "https://github.com/Hyanthropological659/clarify-skill"
-  },
-  {
     "description": "Cursor- and Claude-compatible conditional project rules plugin for Hermes Agent: glob/auto/always modes plus determinist",
     "id": "radionest/hermes-context-rules",
     "language": "Python",
@@ -103,15 +126,6 @@
     "stars": 0,
     "updated_at": "2026-10-04T12:24:42Z",
     "url": "https://github.com/radionest/hermes-context-rules"
-  },
-  {
-    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
-    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "language": "\u2014",
-    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "stars": 3,
-    "updated_at": "2026-10-04T12:23:24Z",
-    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -216,20 +230,6 @@
     "stars": 0,
     "updated_at": "2026-10-04T07:03:17Z",
     "url": "https://github.com/johnwall123459885/skene-cookbook"
-  },
-  {
-    "cursorrules": {
-      "content": "# Emdash Skills for Cursor\n\nLoad CONVENTIONS.md for stack defaults. Load _router.md for skill routing.\n23 categories, 149 reference docs, 28 agents.\n\n## Stack\nCF Workers + Hono | React 19 + Vite + shadcn/ui (sites) / Angular 22 + Spartan UI (apps) | D1/Neon | Drizzle v1 | Clerk | Square + Stripe Billing/Connect | Inngest | Amazon SES | Bun | Playwright v1.59+ | PostHog | Sentry\n\n## Rules\n- TypeScript strict, never `any`, prefer `interface` over `type`\n- Hono inline handlers for RPC type inference\n- Zod validation on all inputs\n- TDD: failing test first, Playwright 6 breakpoints\n- Dark-first design, #060610 bg, #00E5FF accent\n- Deploy to CF Workers, purge CDN after every deploy\n\nSee CONVENTIONS.md for full patterns.\n",
-      "format": "text",
-      "path": ".cursorrules"
-    },
-    "description": "Agent Skills \u2014 agent-neutral autonomous product-building OS for 32+ AI coding tools. 23 skill categories \u00b7 28 agents \u00b7 1",
-    "id": "heymegabyte/claude-skills",
-    "language": "TypeScript",
-    "name": "heymegabyte/claude-skills",
-    "stars": 22,
-    "updated_at": "2026-10-04T06:54:44Z",
-    "url": "https://github.com/heymegabyte/claude-skills"
   },
   {
     "description": "Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows.",
