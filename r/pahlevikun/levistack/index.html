@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<title>pahlevikun/levistack - entry on Cursor Rules Live</title>
+<meta name="description" content="Agent skills for people tired of AI slop. 35 skills, 11 subagents, 41 rules and 5 hooks for Claude Code, Cursor and Code">
+<link rel="canonical" href="https://linny006.github.io/cursor-rules-live/r/pahlevikun/levistack/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="pahlevikun/levistack - entry on Cursor Rules Live">
+<meta property="og:description" content="Agent skills for people tired of AI slop. 35 skills, 11 subagents, 41 rules and 5 hooks for Claude Code, Cursor and Code">
+<meta property="og:url" content="https://linny006.github.io/cursor-rules-live/r/pahlevikun/levistack/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="pahlevikun/levistack - entry on Cursor Rules Live">
+<meta name="twitter:description" content="Agent skills for people tired of AI slop. 35 skills, 11 subagents, 41 rules and 5 hooks for Claude Code, Cursor and Code">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"pahlevikun/levistack","codeRepository":"https://github.com/pahlevikun/levistack","programmingLanguage":"Python","url":"https://linny006.github.io/cursor-rules-live/r/pahlevikun/levistack/","description":"Agent skills for people tired of AI slop. 35 skills, 11 subagents, 41 rules and 5 hooks for Claude Code, Cursor and Code","author":{"@type":"Person","name":"pahlevikun","url":"https://github.com/pahlevikun"},"dateModified":"2026-10-04"}</script>
+<style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
+         --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 16px; font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--fg); background: var(--bg); }
+.wrap { max-width: var(--max); margin: 0 auto; }
+nav.bc { font-size: 14px; color: var(--muted); margin-bottom: 16px; }
+nav.bc a { color: var(--muted); }
+h1 { font-size: 28px; margin: 0 0 8px; }
+h2 { font-size: 20px; margin: 24px 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+p.lead { font-size: 18px; color: var(--muted); margin: 0 0 24px; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+th, td { padding: 8px 12px; text-align: left; border-bottom: 1px solid var(--border); }
+th { background: var(--card); font-weight: 600; }
+ul.crosslinks { list-style: none; padding: 0; }
+ul.crosslinks li { padding: 6px 0; }
+ul.crosslinks li a { font-weight: 500; }
+.meta { display: flex; gap: 16px; flex-wrap: wrap; color: var(--muted); font-size: 14px; margin: 12px 0; }
+.meta span::before { content: "\00b7"; margin-right: 8px; color: var(--border); }
+.meta span:first-child::before { content: ""; }
+footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--border); font-size: 14px; color: var(--muted); }</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="bc"><a href="https://linny006.github.io/cursor-rules-live/">Cursor Rules Live</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/popular/">Entries</a> &#183; <span>pahlevikun/levistack</span></nav>
+<main>
+<h1>pahlevikun/levistack</h1>
+<p class="lead">Agent skills for people tired of AI slop. 35 skills, 11 subagents, 41 rules and 5 hooks for Claude Code, Cursor and Code</p>
+<div class="meta">
+<span><strong>Stars</strong> 0</span>
+<span><strong>Language</strong> Python</span>
+<span><strong>Last updated</strong> 2026-10-04</span>
+<span><a href="https://github.com/pahlevikun/levistack" rel="external">Source on GitHub</a></span>
+<span><a href="https://github.com/pahlevikun" rel="external">@pahlevikun</a></span>
+</div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/comments.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
+description: &quot;Comments are a last resort: only for non-obvious constraints, gotchas and trade-offs the code cannot express.&quot;
+globs: &quot;**/*.{go,ts,tsx,js,jsx,py,rb,ex,exs,md}&quot;
+alwaysApply: false
+---
+
+# Comments: extremely rare by design
+
+Comments cost tokens, rot silently and hide bad naming. **Default: do not write one.** Add one only when names, types, structure, tests and error handling cannot express the truth.
+
+## Allowed
+- A subtle correctness, security or concurrency gotcha the types do not make obvious.
+- A non-obvious performance, ordering or consistency trade-off (&quot;must run before X because of Y&quot;).
+- An external constraint invisible in the code (&quot;the gateway already rate-limits this; do not add another check&quot;), ideally with a link to the decision record.
+- A contract detail on an exported symbol that the name, signature and tests still leave ambiguous (improve the name first).
+
+## Never
+- Narrating the next line (&quot;build the request&quot;, &quot;call the client&quot;, &quot;return the result&quot;).
+- Restating what a test or assertion already verifies.
+- Describing the change you just made (&quot;added X for Y&quot;).
+- Section dividers or paraphrasing a function name in a doc comment.
+- Planning notes the decision record should hold.
+
+## Prefer instead
+Better names, smaller functions, stronger types (enums and newtypes over &quot;this bool means X&quot;), tests as executable specification, structured config over magic comments.
+
+If you feel the urge to explain *what* the code does, rename or restructure instead. When reviewing, delete narrative comments.
+
+## Documentation is not a comment
+Module and function docs, architecture notes, API contracts, migration notes and skills are documentation, not disposable comments. Keep them accurate and explanatory, and **update or delete stale documentation in the same change as the code.**
+
+## Docs comments
+Exported-symbol docs (godoc, docstrings) are allowed when the name and signature do not communicate the contract or an important caveat. Restating the name is forbidden, same bar as inline comments.
+</code></pre>
+<p><a href="https://github.com/pahlevikun/levistack/blob/HEAD/.cursor/rules/comments.mdc" rel="external">View raw on GitHub</a></p>
+</section>
+<section><h2>Why this is listed</h2>
+<p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
+<section><h2>Similar in this tracker</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/r/wshobson/agents/">wshobson/agents (stars:40188)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/roedyrustam/vibes-plug/">roedyrustam/vibes-plug (stars:73)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/MnemeHQ/mneme/">MnemeHQ/mneme (stars:23)</a></li>
+</ul></section>
+<section><h2>Explore by category</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/popular/">Popular (by stars)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/recent/">Recent (by activity)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/new/">New this week</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/lang/python/">All Python entries</a></li>
+</ul></section>
+</main>
+<footer>
+Auto-updated every 15 minutes via GitHub Actions &#183; <a href="https://linny006.github.io/cursor-rules-live/">tracker root</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/sitemap.xml">sitemap</a>
+</footer>
+</div>
+</body>
+</html>
