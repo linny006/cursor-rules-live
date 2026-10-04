@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-04 18:15 UTC
+> ⏰ Last updated: 2026-10-04 18:23 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,9 +53,9 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [gabrieldcpaiva/not-optional](https://github.com/gabrieldcpaiva/not-optional) | 1 | Shell | 2026-10-04 | — | Accessibility is not a request. A practical, lived-experience toolkit for making digital products and printables usable  |
-| 2 | [ginoabraham/cursor_rules](https://github.com/ginoabraham/cursor_rules) | 0 | — | 2026-10-04 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/ginoabraham/cursor_rules/) | A shareable collection of opinionated, enterprise-grade Cursor rules for modern languages and frameworks, covering archi |
-| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-04 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-04 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [gabrieldcpaiva/not-optional](https://github.com/gabrieldcpaiva/not-optional) | 1 | Shell | 2026-10-04 | — | Accessibility is not a request. A practical, lived-experience toolkit for making digital products and printables usable  |
+| 3 | [ginoabraham/cursor_rules](https://github.com/ginoabraham/cursor_rules) | 0 | — | 2026-10-04 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/ginoabraham/cursor_rules/) | A shareable collection of opinionated, enterprise-grade Cursor rules for modern languages and frameworks, covering archi |
 | 4 | [EvilFreelancer/rpa-gen-rules](https://github.com/EvilFreelancer/rpa-gen-rules) | 1 | Python | 2026-10-04 | — | Agent skill for Claude Code, Codex and Cursor: generate or refresh project rules (.cursor/rules/*.mdc, CLAUDE.md and .cl |
 | 5 | [heymegabyte/agent-skills](https://github.com/heymegabyte/agent-skills) | 22 | TypeScript | 2026-10-04 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/agent-skills/) | Agent Skills — agent-neutral autonomous product-building OS for 32+ AI coding tools. 23 skill categories · 28 agents · 1 |
 | 6 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-10-04 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |

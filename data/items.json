@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-04T18:15:50Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Accessibility is not a request. A practical, lived-experience toolkit for making digital products and printables usable ",
     "id": "gabrieldcpaiva/not-optional",
     "language": "Shell",
@@ -21,15 +30,6 @@
     "stars": 0,
     "updated_at": "2026-10-04T18:05:33Z",
     "url": "https://github.com/ginoabraham/cursor_rules"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-04T18:00:44Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Agent skill for Claude Code, Codex and Cursor: generate or refresh project rules (.cursor/rules/*.mdc, CLAUDE.md and .cl",
@@ -260,7 +260,7 @@
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 1,
-    "updated_at": "2026-10-04T07:10:16Z",
+    "updated_at": "2026-10-04T18:21:31Z",
     "url": "https://github.com/bompus/house-rules"
   },
   {
