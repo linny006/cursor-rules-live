@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-04 00:00 UTC
+> ⏰ Last updated: 2026-10-04 00:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,8 +53,8 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-03 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 2 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 23 | Python | 2026-10-03 | — | Architectural drift prevention for the agentic AI SDLC. |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-04 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 23 | Python | 2026-10-04 | — | Architectural drift prevention for the agentic AI SDLC. |
 | 3 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-10-03 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
 | 4 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-10-03 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
 | 5 | [cowboy937/Cursor-Desktop-2026](https://github.com/cowboy937/Cursor-Desktop-2026) | 1 | — | 2026-10-03 | — | ⭐️ Cursor 2026 Ai Cursorpro Cursor Ai ⭐️ |
@@ -72,7 +72,7 @@ expired items removed — so you can rely on what you see being current.
 | 17 | [nsozturk/open-agent-db](https://github.com/nsozturk/open-agent-db) | 0 | Python | 2026-10-03 | — | The universal open database and semantic vector search engine for AI Agent Skills, MCP Servers, Project Directives, and  |
 | 18 | [ADanMan/clueless](https://github.com/ADanMan/clueless) | 0 | JavaScript | 2026-10-03 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/ADanMan/clueless/) | Tell your agent you know nothing. It becomes the only reviewer in the room: safe defaults, unasked questions answered, i |
 | 19 | [Despensativo/OpenWrt-Skills](https://github.com/Despensativo/OpenWrt-Skills) | 0 | Python | 2026-10-03 | — | Definitive Agentic AI skills, rules and developer tooling for OpenWrt, LuCI, and embedded Linux (Antigravity, Cursor, Cl |
-| 20 | [kapadias/nonna](https://github.com/kapadias/nonna) | 0 | Shell | 2026-10-03 | — | Your AI agent says done. Nonna makes it prove it: she runs your test suite before a coding agent can stop, and blocks pu |
+| 20 | [kapadias/nonna](https://github.com/kapadias/nonna) | 0 | Shell | 2026-10-04 | — | Your AI agent says done. Nonna makes it prove it: she runs your test suite before a coding agent can stop, and blocks pu |
 | 21 | [roedyrustam/vibes-plug](https://github.com/roedyrustam/vibes-plug) | 73 | Python | 2026-10-03 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/roedyrustam/vibes-plug/) | ⚡ Universal Skill AI Agent Swarm Architecture for Antigravity, Claude Code, Cursor, and Windsurf. Vibe Coding 2.0 with Z |
 | 22 | [vikisingh23/neuraforge-ai](https://github.com/vikisingh23/neuraforge-ai) | 4 | JavaScript | 2026-10-03 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vikisingh23/neuraforge-ai/) | Stop correcting the same AI mistakes. 40 agents for Claude Code, Cursor & Copilot that enforce architecture rules across |
 | 23 | [aidesignblueprint/integrations](https://github.com/aidesignblueprint/integrations) | 3 | Python | 2026-10-03 | — | Official integrations and installable doctrine for AI Design Blueprint: MCP, IDE rules, prompt files, and agent runtimes |
@@ -83,7 +83,7 @@ expired items removed — so you can rely on what you see being current.
 | 28 | [vibestackdev/vibe-stack](https://github.com/vibestackdev/vibe-stack) | 8 | TypeScript | 2026-10-03 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/) | 29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b |
 | 29 | [sscodeai/agency-agents-ja](https://github.com/sscodeai/agency-agents-ja) | 6 | Shell | 2026-10-03 | — | 404体の即戦力AI専門エージェント集 — Claude Code / Cursor / Copilot 等に対応。日本市場向けオリジナル125体（SIer・受託開発・SaaS・製造DX・公共分野）。agency-agentsの日本語コミュ |
 | 30 | [Kshitijpalsinghtomar/depth-skills](https://github.com/Kshitijpalsinghtomar/depth-skills) | 4 | Python | 2026-10-03 | — | Cognitive architecture for AI agents. 19 skills that force language models past surface-level reasoning into genuine dep |
-| 31 | [xtieume/testcase](https://github.com/xtieume/testcase) | 4 | Python | 2026-10-03 | — | Agent skills that take a requirement to shipped code: audit the spec, turn it into real tests, then build until every ch |
+| 31 | [xtieume/testcase](https://github.com/xtieume/testcase) | 4 | Python | 2026-10-04 | — | Agent skills that take a requirement to shipped code: audit the spec, turn it into real tests, then build until every ch |
 | 32 | [nilkanthdesai76/universal-agent-skills](https://github.com/nilkanthdesai76/universal-agent-skills) | 0 | — | 2026-10-03 | — | Universal AI Agent development framework & skills. Slashes context token consumption by up to 80% with codebase-first do |
 | 33 | [Axel-freeman-marketing-framework/competitor-xray](https://github.com/Axel-freeman-marketing-framework/competitor-xray) | 0 | — | 2026-10-03 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Axel-freeman-marketing-framework/competitor-xray/) | Competitor research that ends in a copy-list, not a report. Free methods only. AI-agent skill. |
 | 34 | [sx4im/skillcheck](https://github.com/sx4im/skillcheck) | 28 | TypeScript | 2026-10-03 | — | Blind A/B testing for AI agent skills, .cursorrules, CLAUDE.md, and system prompts. Detects placebo and harmful instruct |
@@ -92,7 +92,7 @@ expired items removed — so you can rely on what you see being current.
 | 37 | [zinxj/uikit-expert-skill](https://github.com/zinxj/uikit-expert-skill) | 5 | — | 2026-10-03 | — | Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan |
 | 38 | [gabrieldcpaiva/not-optional](https://github.com/gabrieldcpaiva/not-optional) | 1 | Shell | 2026-10-03 | — | Accessibility is not a request. A practical, lived-experience toolkit for making digital products and printables usable  |
 | 39 | [dotcomjack/mdr](https://github.com/dotcomjack/mdr) | 0 | JavaScript | 2026-10-03 | — | mdr: a package manager for the markdown AI agents read (SKILL.md, AGENTS.md, CLAUDE.md, llms.txt), pinned by content has |
-| 40 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 153377 | JavaScript | 2026-10-03 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 40 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 153388 | JavaScript | 2026-10-03 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 41 | [plumpslabs/matcha](https://github.com/plumpslabs/matcha) | 2 | JavaScript | 2026-10-03 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/plumpslabs/matcha/) | 🍵 Deliberate engineering guidelines & deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block |
 | 42 | [primaybr/quench](https://github.com/primaybr/quench) | 1 | Python | 2026-10-03 | — | The hardening moment. A production-grade Skills ecosystem for AI Agents. |
 | 43 | [bytewhisker/grandpa](https://github.com/bytewhisker/grandpa) | 2 | JavaScript | 2026-10-03 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/bytewhisker/grandpa/) | Grandpa makes AI coding agents work smarter, not harder. Zero-bloat architecture, 8 skills, CLI scanner, and benchmark h |
