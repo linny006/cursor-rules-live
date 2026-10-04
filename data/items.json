@@ -1,12 +1,12 @@
 [
   {
-    "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
-    "id": "Bastioned-successor320/learn-nanobot",
-    "language": "Python",
-    "name": "Bastioned-successor320/learn-nanobot",
-    "stars": 11,
-    "updated_at": "2026-10-04T04:13:27Z",
-    "url": "https://github.com/Bastioned-successor320/learn-nanobot"
+    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
+    "id": "bompus/house-rules",
+    "language": "JavaScript",
+    "name": "bompus/house-rules",
+    "stars": 1,
+    "updated_at": "2026-10-04T04:26:51Z",
+    "url": "https://github.com/bompus/house-rules"
   },
   {
     "cursorrules": {
@@ -19,8 +19,44 @@
     "language": "TypeScript",
     "name": "heymegabyte/claude-skills",
     "stars": 22,
-    "updated_at": "2026-10-04T04:10:37Z",
+    "updated_at": "2026-10-04T04:26:22Z",
     "url": "https://github.com/heymegabyte/claude-skills"
+  },
+  {
+    "description": "Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony.",
+    "id": "saqie803/ponytail",
+    "language": "JavaScript",
+    "name": "saqie803/ponytail",
+    "stars": 2,
+    "updated_at": "2026-10-04T04:24:20Z",
+    "url": "https://github.com/saqie803/ponytail"
+  },
+  {
+    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
+    "id": "Laurellagloomy260/cursor-rules-generator",
+    "language": "\u2014",
+    "name": "Laurellagloomy260/cursor-rules-generator",
+    "stars": 0,
+    "updated_at": "2026-10-04T04:17:27Z",
+    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-04T04:15:30Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
+    "id": "Bastioned-successor320/learn-nanobot",
+    "language": "Python",
+    "name": "Bastioned-successor320/learn-nanobot",
+    "stars": 11,
+    "updated_at": "2026-10-04T04:13:27Z",
+    "url": "https://github.com/Bastioned-successor320/learn-nanobot"
   },
   {
     "cursorrules": {
@@ -35,15 +71,6 @@
     "stars": 0,
     "updated_at": "2026-10-04T04:02:55Z",
     "url": "https://github.com/johnwall123459885/skene-cookbook"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-04T04:00:40Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows.",
@@ -89,24 +116,6 @@
     "stars": 0,
     "updated_at": "2026-10-04T02:38:14Z",
     "url": "https://github.com/yxdwind/english-memory-method"
-  },
-  {
-    "description": "Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony.",
-    "id": "saqie803/ponytail",
-    "language": "JavaScript",
-    "name": "saqie803/ponytail",
-    "stars": 2,
-    "updated_at": "2026-10-04T02:34:01Z",
-    "url": "https://github.com/saqie803/ponytail"
-  },
-  {
-    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
-    "id": "Laurellagloomy260/cursor-rules-generator",
-    "language": "\u2014",
-    "name": "Laurellagloomy260/cursor-rules-generator",
-    "stars": 0,
-    "updated_at": "2026-10-04T02:27:01Z",
-    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -431,7 +440,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 153607,
+    "stars": 153621,
     "updated_at": "2026-10-03T05:12:55Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -499,19 +508,5 @@
     "stars": 1,
     "updated_at": "2026-10-02T23:22:19Z",
     "url": "https://github.com/alipajand/agent-context-doctor"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Workflow memory operating loop \u2014 read root state before acting, write state back after meaningful change\nglobs:\nalwaysApply: true\n---\n\n@AGENTS.md\n",
-      "format": "mdc",
-      "path": ".cursor/rules/workflow-memory.mdc"
-    },
-    "description": "Make AI Development Feel Natural in Cursor",
-    "id": "kleosr/cursorkleosr",
-    "language": "\u2014",
-    "name": "kleosr/cursorkleosr",
-    "stars": 326,
-    "updated_at": "2026-10-02T19:36:08Z",
-    "url": "https://github.com/kleosr/cursorkleosr"
   }
 ]
