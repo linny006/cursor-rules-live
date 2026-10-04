@@ -1,5 +1,50 @@
 [
   {
+    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
+    "id": "Hyanthropological659/clarify-skill",
+    "language": "\u2014",
+    "name": "Hyanthropological659/clarify-skill",
+    "stars": 1,
+    "updated_at": "2026-10-04T12:27:15Z",
+    "url": "https://github.com/Hyanthropological659/clarify-skill"
+  },
+  {
+    "description": "Cursor- and Claude-compatible conditional project rules plugin for Hermes Agent: glob/auto/always modes plus determinist",
+    "id": "radionest/hermes-context-rules",
+    "language": "Python",
+    "name": "radionest/hermes-context-rules",
+    "stars": 0,
+    "updated_at": "2026-10-04T12:24:42Z",
+    "url": "https://github.com/radionest/hermes-context-rules"
+  },
+  {
+    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
+    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "language": "\u2014",
+    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "stars": 3,
+    "updated_at": "2026-10-04T12:23:24Z",
+    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
+  },
+  {
+    "description": "The Native Windows Desktop Control Plane for AI Agent Skills, Rules & Multi-IDE Fleet Synchronization.",
+    "id": "abhishek01032007-pixel/Nexora",
+    "language": "PowerShell",
+    "name": "abhishek01032007-pixel/Nexora",
+    "stars": 0,
+    "updated_at": "2026-10-04T12:19:58Z",
+    "url": "https://github.com/abhishek01032007-pixel/Nexora"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-04T12:15:43Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: claude-agents marketplace project conventions\nalwaysApply: true\n---\n\n# claude-agents conventions\n\nThis is a multi-harness plugin marketplace. Source lives under `plugins/`; per-harness\nartifacts (`.codex/`, `.cursor-plugin/`, `.opencode/`, `commands/`) are generated.\n\n- Don't hand-edit anything under `.codex/`, `.cursor-plugin/`, `.opencode/`, or top-level `commands/`, `agents/`, `skills/` \u2014 regenerate via `make generate HARNESS=<x>`.\n- Python tooling: `uv` (package manager), `ruff` (lint/format), `ty` (type check). Do not use pip/mypy/black.\n- Plugin files: `plugins/<name>/{.claude-plugin/plugin.json, agents/*.md, skills/<name>/SKILL.md, commands/*.md}`. Auto-discovered.\n- Cursor reads `.claude/skills/` and `.claude/agents/` directly \u2014 no separate `.cursor/skills/` is generated.\n\n## Never\n\n- Never commit secrets or hardcode credentials.\n- Never hand-edit generated registries (`.agents/plugins/marketplace.json`, `.cursor-plugin/`) \u2014 plugin PRs register the plugin in `.claude-plugin/marketplace.json`, then run `make generate-all` (see CONTRIBUTING.md).\n- Never run destructive git operations (force-push, reset --hard, branch -D) without explicit ask.\n\nSee `docs/authoring.md` for the portable-content style guide.\n",
       "format": "mdc",
@@ -10,7 +55,7 @@
     "language": "Python",
     "name": "wshobson/agents",
     "stars": 40184,
-    "updated_at": "2026-10-04T12:15:09Z",
+    "updated_at": "2026-10-04T12:22:17Z",
     "url": "https://github.com/wshobson/agents"
   },
   {
@@ -32,21 +77,12 @@
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-04T12:00:36Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Blind A/B testing for AI agent skills, .cursorrules, CLAUDE.md, and system prompts. Detects placebo and harmful instruct",
     "id": "sx4im/skillcheck",
     "language": "TypeScript",
     "name": "sx4im/skillcheck",
     "stars": 28,
-    "updated_at": "2026-10-04T11:55:41Z",
+    "updated_at": "2026-10-04T12:20:22Z",
     "url": "https://github.com/sx4im/skillcheck"
   },
   {
@@ -66,24 +102,6 @@
     "stars": 1,
     "updated_at": "2026-10-04T12:03:27Z",
     "url": "https://github.com/patrykmazur998/antigravity-starter-kit"
-  },
-  {
-    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
-    "id": "Hyanthropological659/clarify-skill",
-    "language": "\u2014",
-    "name": "Hyanthropological659/clarify-skill",
-    "stars": 1,
-    "updated_at": "2026-10-04T09:07:04Z",
-    "url": "https://github.com/Hyanthropological659/clarify-skill"
-  },
-  {
-    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
-    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "language": "\u2014",
-    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "stars": 3,
-    "updated_at": "2026-10-04T09:03:16Z",
-    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -354,15 +372,6 @@
     "url": "https://github.com/pekral/cursor-rules"
   },
   {
-    "description": "The Native Windows Desktop Control Plane for AI Agent Skills, Rules & Multi-IDE Fleet Synchronization.",
-    "id": "abhishek01032007-pixel/Nexora",
-    "language": "PowerShell",
-    "name": "abhishek01032007-pixel/Nexora",
-    "stars": 0,
-    "updated_at": "2026-10-03T13:28:24Z",
-    "url": "https://github.com/abhishek01032007-pixel/Nexora"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: Instructions for AI agent code generation workflow\nglobs: [\"*\"]\nalwaysApply: true\n---\n\n# AI Collaboration Guidelines\n\n## The 3-Stage Agentic Loop\n\nEvery code generation task MUST follow this loop:\n\n### Stage 1: PLAN (gather context first)\n\nBefore writing ANY code, the AI MUST:\n1. Read the relevant source files to verify current state \u2014 do NOT rely on memory\n2. Identify which `.cursor/rules/` files apply to this task\n3. List the files to modify and explain why\n4. Do NOT write code yet\n\nPrompt template:\n```\nAnalyze the current codebase and plan how to implement [feature]. \nList the files you'll modify and why. Don't write code yet.\n```\n\n### Stage 2: IMPLEMENT (follow constraints)\n\nWhen generating code:\n- Follow ALL active `.cursor/rules/` constraints\n- If unsure about auth patterns, re-read `supabase-auth-security.mdc`\n- If unsure about params/layouts, re-read `nextjs15-params.mdc`\n- Use `unknown` + Zod validation instead of `any` for external data\n- Return `ActionResponse<T>` from all Server Actions (see below)\n\n### Stage 3: VERIFY (confirm before declaring done)\n\nAfter generating code, the AI MUST self-check:\n- [ ] No `getSession()` on the server (MUST be `getUser()`)\n- [ ] No synchronous `params` or `searchParams` access\n- [ ] No `@supabase/auth-helpers-nextjs` imports\n- [ ] No `any` types \u2014 use `unknown` + type narrowing\n- [ ] Every API route has Zod validation\n- [ ] Every error is caught and returns `{ error: string }`\n- [ ] New tables have RLS enabled\n- [ ] `loading.tsx` and `error.tsx` exist for data-fetching pages\n\nReport issues BEFORE the developer runs the code.\n\n## Skeptical Retrieval Rule\n\nNEVER trust stored knowledge about the codebase. Before modifying a file:\n1. Re-read the file to verify its current contents\n2. Check imports and exports to ensure they match expectations\n3. Verify that function signatures haven't changed\n\nThis prevents generating code that references stale function signatures, \ndeleted files, or renamed exports.\n\n## Standard Patterns\n\n### ActionResponse Type (use for all Server Actions)\n```typescript\ntype ActionResponse<T = void> = \n  | { success: true; data: T }\n  | { success: false; error: string }\n```\n\n### Standard Server Action Structure\n```typescript\n'use server'\nimport { createClient } from '@/lib/supabase/server'\nimport { z } from 'zod'\n\nconst Schema = z.object({ /* ... */ })\n\nexport async function myAction(input: unknown): Promise<ActionResponse<MyType>> {\n  // 1. Auth\n  const supabase = await createClient()\n  const { data: { user } } = await supabase.auth.getUser()\n  if (!user) return { success: false, error: 'Unauthorized' }\n\n  // 2. Validate\n  const result = Schema.safeParse(input)\n  if (!result.success) return { success: false, error: 'Invalid input' }\n\n  // 3. Execute\n  try {\n    const { data, error } = await supabase.from('table').insert(result.data).select().single()\n    if (error) throw error\n    return { success: true, data }\n  } catch {\n    return { success: false, error: 'Operation failed' }\n  }\n}\n```\n\n## Task Constraints\n\n- NEVER give the AI a task longer than 200 words\n- NEVER let the AI implement more than 3-4 files in one turn\n- NEVER let the AI skip the verification checklist\n- ALWAYS review the Git diff before committing\n- When uncertain, ask the developer \u2014 do NOT guess\n\n",
       "format": "mdc",
@@ -481,22 +490,8 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 154203,
+    "stars": 154215,
     "updated_at": "2026-10-03T05:12:55Z",
     "url": "https://github.com/DietrichGebert/ponytail"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Kuma MCP \u2014 safety and context runtime for AI agents\nalwaysApply: true\n---\n\nKuma MCP tools: kuma_context, kuma_memory, kuma_safety.\nRecord what matters, skip what doesn't.\n\n<kuma_obedience>\n## \ud83d\udd12 Obedience (non-negotiable)\n- MUST call `kuma_context({ action: \"init\" })` at session start.\n- MUST record gotchas IMMEDIATELY when a bug/quirk is found.\n- MUST call `kuma_safety({ action: \"verify\" })` after edits.\n- MUST NOT call actions outside the 13 core actions.\n</kuma_obedience>\n\n<kuma_workflow>\n\ud83e\udde0 **Before coding:** `kuma_context({ action: \"init\" })`\n\ud83d\udd2c **Unfamiliar code:** `kuma_context({ action: \"research\", scope: \"<area>\" })`\n\ud83d\udc1b **Found a bug/quirk:** `kuma_memory({ action: \"gotcha\" })` (IMMEDIATELY)\n\ud83e\udded **Chose between options:** `kuma_memory({ action: \"decision\" })`\n\ud83d\udd00 **Traced a flow:** `kuma_memory({ action: \"arch_flow\" })` (max 5 files)\n\ud83d\udee1\ufe0f **Before risky work / after edits:** `kuma_safety({ action: \"guard\" | \"verify\" })`\n</kuma_workflow>\n\n\ud83d\udcd6 Full rules: `.kuma/init.md`\n\n\ud83d\udcd6 **Usage:**\n  \u2022 `kuma_context({ action: \"init\" })` \u2014 load project context (call first)\n  \u2022 `kuma_safety({ action: \"guard\" })` \u2014 safety check before risky ops\n  \u2022 `kuma_safety({ action: \"verify\", scope: \"<area>\" })` \u2014 verify after edits\n  \u2022 `.kuma/init.md` \u2014 full behavioral rules\n  \u2022 `.kuma/KNOWN_GOTCHAS.md` \u2014 gotchas \u00b7 `.kuma/memories/decisions.md` \u2014 decisions (readable)",
-      "format": "mdc",
-      "path": ".cursor/rules/kuma.mdc"
-    },
-    "description": "\ud83c\udf75 Deliberate engineering guidelines & deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block",
-    "id": "plumpslabs/matcha",
-    "language": "JavaScript",
-    "name": "plumpslabs/matcha",
-    "stars": 2,
-    "updated_at": "2026-10-03T04:48:09Z",
-    "url": "https://github.com/plumpslabs/matcha"
   }
 ]
