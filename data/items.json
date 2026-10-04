@@ -10,8 +10,26 @@
     "language": "TypeScript",
     "name": "heymegabyte/claude-skills",
     "stars": 22,
-    "updated_at": "2026-10-04T03:22:19Z",
+    "updated_at": "2026-10-04T03:35:05Z",
     "url": "https://github.com/heymegabyte/claude-skills"
+  },
+  {
+    "description": "Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows.",
+    "id": "ajhcs/healthcare-agents",
+    "language": "JavaScript",
+    "name": "ajhcs/healthcare-agents",
+    "stars": 51,
+    "updated_at": "2026-10-04T03:32:41Z",
+    "url": "https://github.com/ajhcs/healthcare-agents"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-04T03:30:40Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Your AI agent says done. Nonna makes it prove it: she runs your test suite before a coding agent can stop, and blocks pu",
@@ -21,15 +39,6 @@
     "stars": 0,
     "updated_at": "2026-10-04T03:16:12Z",
     "url": "https://github.com/kapadias/nonna"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-04T03:15:51Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "One-file Cursor rule that kills bullet-point walls. Structured prose, tables, headings. Works with GPT-4o, Claude, Gemin",
@@ -422,7 +431,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 153560,
+    "stars": 153583,
     "updated_at": "2026-10-03T05:12:55Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -504,14 +513,5 @@
     "stars": 326,
     "updated_at": "2026-10-02T19:36:08Z",
     "url": "https://github.com/kleosr/cursorkleosr"
-  },
-  {
-    "description": "A universal, native-Rust governance layer for AI coding agents. Enforces Subagent-Driven Development (SDD) to stop hallu",
-    "id": "Harmitx7/tribunal-kit",
-    "language": "JavaScript",
-    "name": "Harmitx7/tribunal-kit",
-    "stars": 5,
-    "updated_at": "2026-10-02T18:32:35Z",
-    "url": "https://github.com/Harmitx7/tribunal-kit"
   }
 ]
