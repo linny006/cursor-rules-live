@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<title>ginoabraham/cursor_rules - entry on Cursor Rules Live</title>
+<meta name="description" content="A shareable collection of opinionated, enterprise-grade Cursor rules for modern languages and frameworks, covering archi">
+<link rel="canonical" href="https://linny006.github.io/cursor-rules-live/r/ginoabraham/cursor_rules/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ginoabraham/cursor_rules - entry on Cursor Rules Live">
+<meta property="og:description" content="A shareable collection of opinionated, enterprise-grade Cursor rules for modern languages and frameworks, covering archi">
+<meta property="og:url" content="https://linny006.github.io/cursor-rules-live/r/ginoabraham/cursor_rules/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="ginoabraham/cursor_rules - entry on Cursor Rules Live">
+<meta name="twitter:description" content="A shareable collection of opinionated, enterprise-grade Cursor rules for modern languages and frameworks, covering archi">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"ginoabraham/cursor_rules","codeRepository":"https://github.com/ginoabraham/cursor_rules","programmingLanguage":"—","url":"https://linny006.github.io/cursor-rules-live/r/ginoabraham/cursor_rules/","description":"A shareable collection of opinionated, enterprise-grade Cursor rules for modern languages and frameworks, covering archi","author":{"@type":"Person","name":"ginoabraham","url":"https://github.com/ginoabraham"},"dateModified":"2026-10-04"}</script>
+<style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
+         --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 16px; font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--fg); background: var(--bg); }
+.wrap { max-width: var(--max); margin: 0 auto; }
+nav.bc { font-size: 14px; color: var(--muted); margin-bottom: 16px; }
+nav.bc a { color: var(--muted); }
+h1 { font-size: 28px; margin: 0 0 8px; }
+h2 { font-size: 20px; margin: 24px 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+p.lead { font-size: 18px; color: var(--muted); margin: 0 0 24px; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+th, td { padding: 8px 12px; text-align: left; border-bottom: 1px solid var(--border); }
+th { background: var(--card); font-weight: 600; }
+ul.crosslinks { list-style: none; padding: 0; }
+ul.crosslinks li { padding: 6px 0; }
+ul.crosslinks li a { font-weight: 500; }
+.meta { display: flex; gap: 16px; flex-wrap: wrap; color: var(--muted); font-size: 14px; margin: 12px 0; }
+.meta span::before { content: "\00b7"; margin-right: 8px; color: var(--border); }
+.meta span:first-child::before { content: ""; }
+footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--border); font-size: 14px; color: var(--muted); }</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="bc"><a href="https://linny006.github.io/cursor-rules-live/">Cursor Rules Live</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/popular/">Entries</a> &#183; <span>ginoabraham/cursor_rules</span></nav>
+<main>
+<h1>ginoabraham/cursor_rules</h1>
+<p class="lead">A shareable collection of opinionated, enterprise-grade Cursor rules for modern languages and frameworks, covering archi</p>
+<div class="meta">
+<span><strong>Stars</strong> 0</span>
+<span><strong>Language</strong> —</span>
+<span><strong>Last updated</strong> 2026-10-04</span>
+<span><a href="https://github.com/ginoabraham/cursor_rules" rel="external">Source on GitHub</a></span>
+<span><a href="https://github.com/ginoabraham" rel="external">@ginoabraham</a></span>
+</div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/python.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
+description: Enterprise Python 3.14+ standards, Pydantic v2, Clean Architecture/DDD, and strict permissive-only licensing.
+globs: [&quot;**/*.py&quot;, &quot;**/pyproject.toml&quot;]
+alwaysApply: false
+---
+# Enterprise Python Coding Guidelines
+
+You are an expert Python software architect writing modern Python (3.14+) to strict enterprise architectural standards. Write code that is fully typed, modular, secure, observable, and built for scale. When a rule conflicts with existing project conventions, follow the project and point out the conflict.
+
+## 0. Baseline
+- Target Python 3.14 or newer: `requires-python = &quot;&gt;=3.14&quot;` in `pyproject.toml`.
+- Use the `src/` layout with a single `pyproject.toml` as the source of truth for dependencies and tool config.
+- Python 3.14+ free-threaded (No-GIL) builds should be utilized for CPU-bound workloads, provided all C-extension dependencies (like `asyncpg` and `pydantic-core`) are verified to support it.
+
+## 1. Architecture &amp; Domain-Driven Design
+- **Clean Architecture:** Layers are Domain, Application, Infrastructure, Presentation. Dependencies point inward only. Domain never imports ORMs, web frameworks, or I/O libraries.
+- **Feature-based structure:** Organize by feature (`src/app/billing/domain.py`, `src/app/billing/services.py`), not by type (`models/`, `services/`).
+- **Interfaces:** Define contracts using `typing.Protocol` (structural subtyping). Inject dependencies via constructor (`__init__`); never instantiate dependencies inside business logic.
+- **Composition root:** Wire dependencies in one place at startup (e.g., FastAPI lifespan / dependency providers). No service locators or global singletons.
+- **Repository &amp; Unit of Work:** Repositories abstract persistence and return Domain models. Unit of Work owns transaction and session boundaries.
+- **CQRS:** Separate Commands (writes) from Queries (reads) with explicit DTOs.
+- **Model separation:** Pydantic DTOs at API boundaries, `@dataclass(frozen=True, slots=True)` domain models, SQLAlchemy entities in Infrastructure. Map explicitly between them.
+
+## 2. Pydantic v2
+- v2 APIs only: `.model_dump()`, `.model_validate()`, `.model_validate_json()`, `@field_validator`, `@model_validator`. Never `.dict()`, `.parse_obj()`, or `@validator`.
+- Enforce contracts with `Field` constraints (`min_length`, `max_length`, `ge`, `le`, `pattern`) and `Annotated` types.
+- Use built-in types where available: `EmailStr`, `HttpUrl`, `UUID4`, `PositiveInt`, `SecretStr`.
+- `@field_validator` for single-field rules; `@model_validator(mode=&quot;after&quot;)` for cross-field rules. Raise `ValueError` or domain exceptions.
+- Inbound DTOs and Value Objects: `model_config = ConfigDict(frozen=True, strict=True, extra=&quot;forbid&quot;)` for absolute immutability.
+- Use `TypeAdapter` to validate non-model types; reuse adapters, don&#x27;t rebuild them in hot paths.
+
+## 3. Modern Python Features
+- **Generics and Aliases (PEP 695):** `type UserId = UUID`, `def first[T](items: Sequence[T]) -&gt; T:`. Do not use `TypeVar` or `TypeAlias` for new code.
+- **Pattern matching:** Use `match`/`case` for unions, command dispatch, and complex branching.
+- **Concurrency:** Use `asyncio.TaskGroup` over `asyncio.gather`; handle grouped failures with `except*`.
+- **Overrides:** Mark overriding methods with `@typing.override` (PEP 698), enforced by the type checker.
+- **Enums:** Use `enum.StrEnum` / `IntEnum` instead of magic strings and numbers.
+
+## 4. Code Quality &amp; Formatting
+- **Imports:** Prefer absolute imports (`from src.domain.models import User`) over relative imports (`from .models import User`).
+- **Typing:** 100% type-hint coverage. Avoid `Any`. Prefer `Sequence`/`Mapping` for parameters and concrete types for return values.
+- **Functions:** Guard clauses and early returns; maximum nesting depth of 3. Keep functions under 40 lines.
+- **Naming:** `snake_case` functions/variables/modules, `PascalCase` classes/Protocols, `UPPER_SNAKE_CASE` constants. Booleans use `is_`, `has_`, `should_`, `can_`.
+- **Formatting:** Use f-strings for string interpolation, but extract complex expressions or function calls into variables before the f-string.
+- **Anti-patterns:** NEVER use mutable default arguments (`def foo(x: list = [])`). No wildcard imports. No circular imports. 
+
+## 5. Error Handling
+- Define a custom domain exception hierarchy (`DomainError` -&gt; `NotFoundError`, `ConflictError`). Never raise bare `Exception`.
+- Never use bare `except:` or swallow exceptions (`except Exception: pass`). Re-raise with `raise ... from err`.
+- Translate domain errors to HTTP responses only in Presentation, using RFC 9457 Problem Details.
+- Use timeouts on every outbound network call; add retries with backoff only for idempotent operations.
+
+## 6. Configuration &amp; Secrets
+- Load all config via `pydantic-settings` from environment variables or a secrets manager.
+- Never hardcode or commit secrets, tokens, keys, or connection strings. Use `SecretStr` for sensitive values.
+- Fail fast at startup on missing or invalid config.
+
+## 7. Logging &amp; Observability
+- No `print()` in application code. Use structured logging (e.g., `structlog` with JSON output).
+- Include a correlation/request ID in every log line.
+- Instrument with OpenTelemetry for traces, metrics, and logs.
+- Never log PII, secrets, or full request/response bodies.
+
+## 8. Security
+- Parameterized queries only; never build SQL with f-strings or string concatenation.
+- Validate all external input at the boundary. Never use `eval`, `exec`, `pickle` on untrusted data.
+- Use `secrets` (not `random`) for tokens; hash passwords with `argon2-cffi` or `bcrypt`.
+
+## 9. Data Correctness
+- Money uses `decimal.Decimal`, never `float`.
+- Datetimes are timezone-aware UTC (`datetime.now(UTC)`); convert to local time only in Presentation.
+- Use `uuid.uuid7()` where chronological ordering matters, otherwise `uuid.uuid4()`.
+
+## 10. Performance &amp; Resources
+- Use `slots=True` on dataclasses and `__slots__` on frequently instantiated plain classes.
+- Prefer generators</code></pre>
+<p><em>Content truncated. View full file in the source repo (linked above).</em></p><p><a href="https://github.com/ginoabraham/cursor_rules/blob/HEAD/.cursor/rules/python.mdc" rel="external">View raw on GitHub</a></p>
+</section>
+<section><h2>Why this is listed</h2>
+<p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
+<section><h2>Similar in this tracker</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/r/J-nowcow/awesome-korean-agent-skills/">J-nowcow/awesome-korean-agent-skills (stars:49)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/XAKLESK/cre-agent-skills/">XAKLESK/cre-agent-skills (stars:8)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/zinxj/uikit-expert-skill/">zinxj/uikit-expert-skill (stars:5)</a></li>
+</ul></section>
+<section><h2>Explore by category</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/popular/">Popular (by stars)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/recent/">Recent (by activity)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/new/">New this week</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/lang/x/">All — entries</a></li>
+</ul></section>
+</main>
+<footer>
+Auto-updated every 15 minutes via GitHub Actions &#183; <a href="https://linny006.github.io/cursor-rules-live/">tracker root</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/sitemap.xml">sitemap</a>
+</footer>
+</div>
+</body>
+</html>
