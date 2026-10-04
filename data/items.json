@@ -1,5 +1,23 @@
 [
   {
+    "description": "Blind A/B testing for AI agent skills, .cursorrules, CLAUDE.md, and system prompts. Detects placebo and harmful instruct",
+    "id": "sx4im/skillcheck",
+    "language": "TypeScript",
+    "name": "sx4im/skillcheck",
+    "stars": 28,
+    "updated_at": "2026-10-04T11:55:41Z",
+    "url": "https://github.com/sx4im/skillcheck"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-04T11:45:56Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
     "id": "J-nowcow/awesome-korean-agent-skills",
     "language": "\u2014",
@@ -16,15 +34,6 @@
     "stars": 1,
     "updated_at": "2026-10-04T11:40:08Z",
     "url": "https://github.com/patrykmazur998/antigravity-starter-kit"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-04T11:30:34Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
@@ -52,15 +61,6 @@
     "stars": 1,
     "updated_at": "2026-10-04T08:58:59Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "Blind A/B testing for AI agent skills, .cursorrules, CLAUDE.md, and system prompts. Detects placebo and harmful instruct",
-    "id": "sx4im/skillcheck",
-    "language": "TypeScript",
-    "name": "sx4im/skillcheck",
-    "stars": 28,
-    "updated_at": "2026-10-04T08:32:02Z",
-    "url": "https://github.com/sx4im/skillcheck"
   },
   {
     "description": "Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony.",
@@ -467,7 +467,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 154179,
+    "stars": 154191,
     "updated_at": "2026-10-03T05:12:55Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
