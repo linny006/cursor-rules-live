@@ -4,17 +4,17 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="index, follow, max-image-preview:large">
-<title>sx4im/skillcheck - entry on Cursor Rules Live</title>
-<meta name="description" content="Blind A/B testing for AI agent skills, .cursorrules, CLAUDE.md, and system prompts. Detects placebo and harmful instruct">
-<link rel="canonical" href="https://linny006.github.io/cursor-rules-live/r/sx4im/skillcheck/">
+<title>heymegabyte/agent-skills - entry on Cursor Rules Live</title>
+<meta name="description" content="Agent Skills — agent-neutral autonomous product-building OS for 32+ AI coding tools. 23 skill categories · 28 agents · 1">
+<link rel="canonical" href="https://linny006.github.io/cursor-rules-live/r/heymegabyte/agent-skills/">
 <meta property="og:type" content="article">
-<meta property="og:title" content="sx4im/skillcheck - entry on Cursor Rules Live">
-<meta property="og:description" content="Blind A/B testing for AI agent skills, .cursorrules, CLAUDE.md, and system prompts. Detects placebo and harmful instruct">
-<meta property="og:url" content="https://linny006.github.io/cursor-rules-live/r/sx4im/skillcheck/">
+<meta property="og:title" content="heymegabyte/agent-skills - entry on Cursor Rules Live">
+<meta property="og:description" content="Agent Skills — agent-neutral autonomous product-building OS for 32+ AI coding tools. 23 skill categories · 28 agents · 1">
+<meta property="og:url" content="https://linny006.github.io/cursor-rules-live/r/heymegabyte/agent-skills/">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="sx4im/skillcheck - entry on Cursor Rules Live">
-<meta name="twitter:description" content="Blind A/B testing for AI agent skills, .cursorrules, CLAUDE.md, and system prompts. Detects placebo and harmful instruct">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"sx4im/skillcheck","codeRepository":"https://github.com/sx4im/skillcheck","programmingLanguage":"TypeScript","url":"https://linny006.github.io/cursor-rules-live/r/sx4im/skillcheck/","description":"Blind A/B testing for AI agent skills, .cursorrules, CLAUDE.md, and system prompts. Detects placebo and harmful instruct","author":{"@type":"Person","name":"sx4im","url":"https://github.com/sx4im"},"dateModified":"2026-10-04"}</script>
+<meta name="twitter:title" content="heymegabyte/agent-skills - entry on Cursor Rules Live">
+<meta name="twitter:description" content="Agent Skills — agent-neutral autonomous product-building OS for 32+ AI coding tools. 23 skill categories · 28 agents · 1">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"heymegabyte/agent-skills","codeRepository":"https://github.com/heymegabyte/agent-skills","programmingLanguage":"TypeScript","url":"https://linny006.github.io/cursor-rules-live/r/heymegabyte/agent-skills/","description":"Agent Skills — agent-neutral autonomous product-building OS for 32+ AI coding tools. 23 skill categories · 28 agents · 1","author":{"@type":"Person","name":"heymegabyte","url":"https://github.com/heymegabyte"},"dateModified":"2026-10-04"}</script>
 <style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
          --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
 * { box-sizing: border-box; }
@@ -41,22 +41,44 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 </head>
 <body>
 <div class="wrap">
-<nav class="bc"><a href="https://linny006.github.io/cursor-rules-live/">Cursor Rules Live</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/popular/">Entries</a> &#183; <span>sx4im/skillcheck</span></nav>
+<nav class="bc"><a href="https://linny006.github.io/cursor-rules-live/">Cursor Rules Live</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/popular/">Entries</a> &#183; <span>heymegabyte/agent-skills</span></nav>
 <main>
-<h1>sx4im/skillcheck</h1>
-<p class="lead">Blind A/B testing for AI agent skills, .cursorrules, CLAUDE.md, and system prompts. Detects placebo and harmful instruct</p>
+<h1>heymegabyte/agent-skills</h1>
+<p class="lead">Agent Skills — agent-neutral autonomous product-building OS for 32+ AI coding tools. 23 skill categories · 28 agents · 1</p>
 <div class="meta">
-<span><strong>Stars</strong> 28</span>
+<span><strong>Stars</strong> 22</span>
 <span><strong>Language</strong> TypeScript</span>
 <span><strong>Last updated</strong> 2026-10-04</span>
-<span><a href="https://github.com/sx4im/skillcheck" rel="external">Source on GitHub</a></span>
-<span><a href="https://github.com/sx4im" rel="external">@sx4im</a></span>
+<span><a href="https://github.com/heymegabyte/agent-skills" rel="external">Source on GitHub</a></span>
+<span><a href="https://github.com/heymegabyte" rel="external">@heymegabyte</a></span>
 </div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursorrules</code> &middot; format: <code>text</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code># Emdash Skills for Cursor
+
+Load CONVENTIONS.md for stack defaults. Load _router.md for skill routing.
+23 categories, 149 reference docs, 28 agents.
+
+## Stack
+CF Workers + Hono | React 19 + Vite + shadcn/ui (sites) / Angular 22 + Spartan UI (apps) | D1/Neon | Drizzle v1-rc | Clerk | Square + Stripe Billing/Connect | Inngest | Amazon SES | Bun | Playwright v1.63+ | PostHog | Sentry
+
+## Rules
+- TypeScript strict, never `any`, prefer `interface` over `type`
+- Hono inline handlers for RPC type inference
+- Zod validation on all inputs
+- TDD: failing test first, Playwright 6 breakpoints
+- Dark-first design, #060610 bg, #00E5FF accent
+- Deploy to CF Workers, purge CDN after every deploy
+
+See CONVENTIONS.md for full patterns.
+</code></pre>
+<p><a href="https://github.com/heymegabyte/agent-skills/blob/HEAD/.cursorrules" rel="external">View raw on GitHub</a></p>
+</section>
 <section><h2>Why this is listed</h2>
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>
 <ul class="crosslinks">
-<li><a href="https://linny006.github.io/cursor-rules-live/r/heymegabyte/agent-skills/">heymegabyte/agent-skills (stars:22)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/sx4im/skillcheck/">sx4im/skillcheck (stars:28)</a></li>
 <li><a href="https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/">vibestackdev/vibe-stack (stars:8)</a></li>
 <li><a href="https://linny006.github.io/cursor-rules-live/r/GeiserX/lynxprompt-vscode/">GeiserX/lynxprompt-vscode (stars:2)</a></li>
 </ul></section>
