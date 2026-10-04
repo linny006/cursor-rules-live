@@ -1,5 +1,28 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: NeuraForge AI \u2014 code-review\nglobs:\nalwaysApply: false\n---\nRead agents/code-review.md for full instructions. Follow AGENTS.md for architecture principles.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/code-review.mdc"
+    },
+    "description": "Stop correcting the same AI mistakes. 40 agents for Claude Code, Cursor & Copilot that enforce architecture rules across",
+    "id": "vikisingh23/neuraforge-ai",
+    "language": "JavaScript",
+    "name": "vikisingh23/neuraforge-ai",
+    "stars": 4,
+    "updated_at": "2026-10-04T14:34:27Z",
+    "url": "https://github.com/vikisingh23/neuraforge-ai"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-04T14:30:41Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "The Native Windows Desktop Control Plane for AI Agent Skills, Rules & Multi-IDE Fleet Synchronization.",
     "id": "abhishek01032007-pixel/Nexora",
     "language": "PowerShell",
@@ -39,29 +62,6 @@
     "stars": 3,
     "updated_at": "2026-10-04T14:17:31Z",
     "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-04T14:15:36Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: NeuraForge AI \u2014 code-review\nglobs:\nalwaysApply: false\n---\nRead agents/code-review.md for full instructions. Follow AGENTS.md for architecture principles.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/code-review.mdc"
-    },
-    "description": "Stop correcting the same AI mistakes. 40 agents for Claude Code, Cursor & Copilot that enforce architecture rules across",
-    "id": "vikisingh23/neuraforge-ai",
-    "language": "JavaScript",
-    "name": "vikisingh23/neuraforge-ai",
-    "stars": 4,
-    "updated_at": "2026-10-04T14:04:34Z",
-    "url": "https://github.com/vikisingh23/neuraforge-ai"
   },
   {
     "description": "Agent skill for Claude Code, Codex and Cursor: generate or refresh project rules (.cursor/rules/*.mdc, CLAUDE.md and .cl",
