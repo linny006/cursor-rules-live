@@ -1,11 +1,20 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-03T23:45:33Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Architectural drift prevention for the agentic AI SDLC.",
     "id": "MnemeHQ/mneme",
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 23,
-    "updated_at": "2026-10-03T23:41:27Z",
+    "updated_at": "2026-10-03T23:59:59Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
@@ -25,15 +34,6 @@
     "stars": 1,
     "updated_at": "2026-10-03T23:38:25Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-03T23:30:32Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
@@ -191,7 +191,7 @@
     "language": "Shell",
     "name": "kapadias/nonna",
     "stars": 0,
-    "updated_at": "2026-10-03T23:39:06Z",
+    "updated_at": "2026-10-03T23:47:21Z",
     "url": "https://github.com/kapadias/nonna"
   },
   {
@@ -395,7 +395,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 153370,
+    "stars": 153377,
     "updated_at": "2026-10-03T05:12:55Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
