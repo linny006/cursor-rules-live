@@ -1,12 +1,12 @@
 [
   {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 49,
-    "updated_at": "2026-10-04T11:07:13Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+    "description": "\u26a1 Ultra-lean AI assistant rules (<40 lines) & token optimizer for Cursor, Windsurf, Claude Code, and Antigravity.",
+    "id": "patrykmazur998/antigravity-starter-kit",
+    "language": "Python",
+    "name": "patrykmazur998/antigravity-starter-kit",
+    "stars": 1,
+    "updated_at": "2026-10-04T11:28:40Z",
+    "url": "https://github.com/patrykmazur998/antigravity-starter-kit"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-04T11:00:43Z",
+    "updated_at": "2026-10-04T11:15:33Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 49,
+    "updated_at": "2026-10-04T11:07:13Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
@@ -458,7 +467,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 154140,
+    "stars": 154165,
     "updated_at": "2026-10-03T05:12:55Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -484,19 +493,5 @@
     "stars": 1,
     "updated_at": "2026-10-03T04:24:18Z",
     "url": "https://github.com/primaybr/quench"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Grandpa Zero-Bloat and Production Safety Architecture Rules for Cursor\nglobs: *\nalwaysApply: true\n---\n\n# Grandpa Architecture Rules for Cursor\n\nYou are guided by Grandpa -- senior zero-bloat architecture engine.\n\n## Core Directives\n1. **Never install a package when the standard library or runtime already solves it.**\n   - Replace `axios` with modern native `fetch`.\n   - Replace `moment`/`dayjs` with native `Intl` and `Date`.\n   - Replace `lodash.get` with optional chaining (`?.`).\n   - Replace `lodash.clonedeep` with `structuredClone()`.\n   - Replace `uuid` with `crypto.randomUUID()`.\n   - Replace `classnames`/`clsx` with template literals or simple array filters.\n   - Replace `rimraf`/`mkdirp` with `fs.rmSync(path, { recursive: true, force: true })` / `fs.mkdirSync(path, { recursive: true })`.\n   - Replace `dotenv` with `node --env-file=.env` in Node 20+.\n2. **Cut the Fat, Never Cut the Bone.**\n   - Do NOT delete error handling, timeout guards, type signatures, or sanitization in the name of brevity.\n   - Robustness comes first; zero unnecessary dependencies comes second.\n3. **Receipts for Real Exceptions.**\n   - When a complex external library is strictly necessary, add an architectural receipt:\n     `// grandpa: allowed dependency [package] - [reason]`\n",
-      "format": "mdc",
-      "path": ".cursor/rules/grandpa.mdc"
-    },
-    "description": "Grandpa makes AI coding agents work smarter, not harder. Zero-bloat architecture, 8 skills, CLI scanner, and benchmark h",
-    "id": "bytewhisker/grandpa",
-    "language": "JavaScript",
-    "name": "bytewhisker/grandpa",
-    "stars": 2,
-    "updated_at": "2026-10-03T04:00:55Z",
-    "url": "https://github.com/bytewhisker/grandpa"
   }
 ]
