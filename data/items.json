@@ -1,6 +1,29 @@
 [
   {
     "cursorrules": {
+      "content": "# Emdash Skills for Cursor\n\nLoad CONVENTIONS.md for stack defaults. Load _router.md for skill routing.\n23 categories, 149 reference docs, 28 agents.\n\n## Stack\nCF Workers + Hono | React 19 + Vite + shadcn/ui (sites) / Angular 22 + Spartan UI (apps) | D1/Neon | Drizzle v1-rc | Clerk | Square + Stripe Billing/Connect | Inngest | Amazon SES | Bun | Playwright v1.63+ | PostHog | Sentry\n\n## Rules\n- TypeScript strict, never `any`, prefer `interface` over `type`\n- Hono inline handlers for RPC type inference\n- Zod validation on all inputs\n- TDD: failing test first, Playwright 6 breakpoints\n- Dark-first design, #060610 bg, #00E5FF accent\n- Deploy to CF Workers, purge CDN after every deploy\n\nSee CONVENTIONS.md for full patterns.\n",
+      "format": "text",
+      "path": ".cursorrules"
+    },
+    "description": "Agent Skills \u2014 agent-neutral autonomous product-building OS for 32+ AI coding tools. 23 skill categories \u00b7 28 agents \u00b7 1",
+    "id": "heymegabyte/agent-skills",
+    "language": "TypeScript",
+    "name": "heymegabyte/agent-skills",
+    "stars": 22,
+    "updated_at": "2026-10-04T16:38:19Z",
+    "url": "https://github.com/heymegabyte/agent-skills"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-04T16:30:35Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "cursorrules": {
       "content": "---\ndescription: \"Comments are a last resort: only for non-obvious constraints, gotchas and trade-offs the code cannot express.\"\nglobs: \"**/*.{go,ts,tsx,js,jsx,py,rb,ex,exs,md}\"\nalwaysApply: false\n---\n\n# Comments: extremely rare by design\n\nComments cost tokens, rot silently and hide bad naming. **Default: do not write one.** Add one only when names, types, structure, tests and error handling cannot express the truth.\n\n## Allowed\n- A subtle correctness, security or concurrency gotcha the types do not make obvious.\n- A non-obvious performance, ordering or consistency trade-off (\"must run before X because of Y\").\n- An external constraint invisible in the code (\"the gateway already rate-limits this; do not add another check\"), ideally with a link to the decision record.\n- A contract detail on an exported symbol that the name, signature and tests still leave ambiguous (improve the name first).\n\n## Never\n- Narrating the next line (\"build the request\", \"call the client\", \"return the result\").\n- Restating what a test or assertion already verifies.\n- Describing the change you just made (\"added X for Y\").\n- Section dividers or paraphrasing a function name in a doc comment.\n- Planning notes the decision record should hold.\n\n## Prefer instead\nBetter names, smaller functions, stronger types (enums and newtypes over \"this bool means X\"), tests as executable specification, structured config over magic comments.\n\nIf you feel the urge to explain *what* the code does, rename or restructure instead. When reviewing, delete narrative comments.\n\n## Documentation is not a comment\nModule and function docs, architecture notes, API contracts, migration notes and skills are documentation, not disposable comments. Keep them accurate and explanatory, and **update or delete stale documentation in the same change as the code.**\n\n## Docs comments\nExported-symbol docs (godoc, docstrings) are allowed when the name and signature do not communicate the contract or an important caveat. Restating the name is forbidden, same bar as inline comments.\n",
       "format": "mdc",
       "path": ".cursor/rules/comments.mdc"
@@ -15,26 +38,17 @@
   },
   {
     "cursorrules": {
-      "content": "# Emdash Skills for Cursor\n\nLoad CONVENTIONS.md for stack defaults. Load _router.md for skill routing.\n23 categories, 149 reference docs, 28 agents.\n\n## Stack\nCF Workers + Hono | React 19 + Vite + shadcn/ui (sites) / Angular 22 + Spartan UI (apps) | D1/Neon | Drizzle v1-rc | Clerk | Square + Stripe Billing/Connect | Inngest | Amazon SES | Bun | Playwright v1.63+ | PostHog | Sentry\n\n## Rules\n- TypeScript strict, never `any`, prefer `interface` over `type`\n- Hono inline handlers for RPC type inference\n- Zod validation on all inputs\n- TDD: failing test first, Playwright 6 breakpoints\n- Dark-first design, #060610 bg, #00E5FF accent\n- Deploy to CF Workers, purge CDN after every deploy\n\nSee CONVENTIONS.md for full patterns.\n",
-      "format": "text",
-      "path": ".cursorrules"
+      "content": "---\ndescription: claude-agents marketplace project conventions\nalwaysApply: true\n---\n\n# claude-agents conventions\n\nThis is a multi-harness plugin marketplace. Source lives under `plugins/`; per-harness\nartifacts (`.codex/`, `.cursor-plugin/`, `.opencode/`, `commands/`) are generated.\n\n- Don't hand-edit anything under `.codex/`, `.cursor-plugin/`, `.opencode/`, or top-level `commands/`, `agents/`, `skills/` \u2014 regenerate via `make generate HARNESS=<x>`.\n- Python tooling: `uv` (package manager), `ruff` (lint/format), `ty` (type check). Do not use pip/mypy/black.\n- Plugin files: `plugins/<name>/{.claude-plugin/plugin.json, agents/*.md, skills/<name>/SKILL.md, commands/*.md}`. Auto-discovered.\n- Cursor reads `.claude/skills/` and `.claude/agents/` directly \u2014 no separate `.cursor/skills/` is generated.\n\n## Never\n\n- Never commit secrets or hardcode credentials.\n- Never hand-edit generated registries (`.agents/plugins/marketplace.json`, `.cursor-plugin/`) \u2014 plugin PRs register the plugin in `.claude-plugin/marketplace.json`, then run `make generate-all` (see CONTRIBUTING.md).\n- Never run destructive git operations (force-push, reset --hard, branch -D) without explicit ask.\n\nSee `docs/authoring.md` for the portable-content style guide.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/000-project-conventions.mdc"
     },
-    "description": "Agent Skills \u2014 agent-neutral autonomous product-building OS for 32+ AI coding tools. 23 skill categories \u00b7 28 agents \u00b7 1",
-    "id": "heymegabyte/agent-skills",
-    "language": "TypeScript",
-    "name": "heymegabyte/agent-skills",
-    "stars": 22,
-    "updated_at": "2026-10-04T16:20:11Z",
-    "url": "https://github.com/heymegabyte/agent-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-04T16:15:43Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
+    "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a",
+    "id": "wshobson/agents",
+    "language": "Python",
+    "name": "wshobson/agents",
+    "stars": 40189,
+    "updated_at": "2026-10-04T14:52:06Z",
+    "url": "https://github.com/wshobson/agents"
   },
   {
     "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
@@ -126,20 +140,6 @@
     "stars": 8,
     "updated_at": "2026-10-04T13:38:22Z",
     "url": "https://github.com/vibestackdev/vibe-stack"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: claude-agents marketplace project conventions\nalwaysApply: true\n---\n\n# claude-agents conventions\n\nThis is a multi-harness plugin marketplace. Source lives under `plugins/`; per-harness\nartifacts (`.codex/`, `.cursor-plugin/`, `.opencode/`, `commands/`) are generated.\n\n- Don't hand-edit anything under `.codex/`, `.cursor-plugin/`, `.opencode/`, or top-level `commands/`, `agents/`, `skills/` \u2014 regenerate via `make generate HARNESS=<x>`.\n- Python tooling: `uv` (package manager), `ruff` (lint/format), `ty` (type check). Do not use pip/mypy/black.\n- Plugin files: `plugins/<name>/{.claude-plugin/plugin.json, agents/*.md, skills/<name>/SKILL.md, commands/*.md}`. Auto-discovered.\n- Cursor reads `.claude/skills/` and `.claude/agents/` directly \u2014 no separate `.cursor/skills/` is generated.\n\n## Never\n\n- Never commit secrets or hardcode credentials.\n- Never hand-edit generated registries (`.agents/plugins/marketplace.json`, `.cursor-plugin/`) \u2014 plugin PRs register the plugin in `.claude-plugin/marketplace.json`, then run `make generate-all` (see CONTRIBUTING.md).\n- Never run destructive git operations (force-push, reset --hard, branch -D) without explicit ask.\n\nSee `docs/authoring.md` for the portable-content style guide.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/000-project-conventions.mdc"
-    },
-    "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a",
-    "id": "wshobson/agents",
-    "language": "Python",
-    "name": "wshobson/agents",
-    "stars": 40188,
-    "updated_at": "2026-10-04T14:52:06Z",
-    "url": "https://github.com/wshobson/agents"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
