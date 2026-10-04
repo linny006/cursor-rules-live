@@ -1,44 +1,21 @@
 [
   {
-    "description": "Homebrew tap for LynxPrompt CLI",
-    "id": "GeiserX/homebrew-lynxprompt",
-    "language": "Shell",
-    "name": "GeiserX/homebrew-lynxprompt",
-    "stars": 2,
-    "updated_at": "2026-10-04T22:11:01Z",
-    "url": "https://github.com/GeiserX/homebrew-lynxprompt"
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 49,
+    "updated_at": "2026-10-04T22:27:37Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
-    "cursorrules": {
-      "content": "---\ndescription: Ponytail, lazy senior dev mode. Always pick the simplest solution that works.\nglobs:\nalwaysApply: true\n---\n\n# Ponytail, lazy senior dev mode\n\nYou are a lazy senior developer. Lazy means efficient, not careless. The best code is the code never written.\n\nBefore writing any code, stop at the first rung that holds:\n\n1. Does this need to be built at all? (YAGNI)\n2. Does it already exist in this codebase? Reuse the helper, util, or pattern that's already here, don't re-write it.\n3. Does the standard library already do this? Use it.\n4. Does a native platform feature cover it? Use it.\n5. Does an already-installed dependency solve it? Use it.\n6. Can this be one line? Make it one line.\n7. Only then: write the minimum code that works.\n\nThe ladder runs after you understand the problem, not instead of it: read the task and the code it touches, trace the real flow end to end, then climb.\n\nBug fix = root cause, not symptom: a report names a symptom. Grep every caller of the function you touch and fix the shared function once \u2014 one guard there is a smaller diff than one per caller, and patching only the path the ticket names leaves a sibling caller still broken.\n\nRules:\n\n- No abstractions that weren't explicitly requested.\n- No new dependency if it can be avoided.\n- No boilerplate nobody asked for.\n- Deletion over addition. Boring over clever. Fewest files possible.\n- Shortest working diff wins, but only once you understand the problem. The smallest change in the wrong place isn't lazy, it's a second bug.\n- Question complex requests: \"Do you actually need X, or does Y cover it?\"\n- Pick the edge-case-correct option when two stdlib approaches are the same size, lazy means less code, not the flimsier algorithm.\n- Mark deliberate simplifications that cut a real corner with a known ceiling (global lock, O(n\u00b2) scan, naive heuristic) with a `ponytail:` comment naming the ceiling and upgrade path.\n\nNot lazy about: understanding the problem (read it fully and trace the real flow before picking a rung, a small diff you don't understand is just laziness dressed up as efficiency), input validation at trust boundaries, error handling that prevents data loss, security, accessibility, the calibration real hardware needs (the platform is never the spec ideal, a clock drifts, a sensor reads off), anything explicitly requested. Lazy code without its check is unfinished: non-trivial logic leaves ONE runnable check behind, the smallest thing that fails if the logic breaks (an assert-based demo/self-check or one small test file; no frameworks, no fixtures). Trivial one-liners need no test.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/ponytail.mdc"
-    },
-    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-    "id": "DietrichGebert/ponytail",
-    "language": "JavaScript",
-    "name": "DietrichGebert/ponytail",
-    "stars": 154788,
-    "updated_at": "2026-10-04T22:09:50Z",
-    "url": "https://github.com/DietrichGebert/ponytail"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-10-04T22:06:29Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-04T22:00:41Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
+    "description": "Safe write access for AI agents: a skill, Claude Code plugin, Cursor rule and framework examples for AvianSuite, where e",
+    "id": "kyle-visner/agent-skills",
+    "language": "\u2014",
+    "name": "kyle-visner/agent-skills",
+    "stars": 0,
+    "updated_at": "2026-10-04T22:25:06Z",
+    "url": "https://github.com/kyle-visner/agent-skills"
   },
   {
     "cursorrules": {
@@ -51,8 +28,49 @@
     "language": "TypeScript",
     "name": "heymegabyte/agent-skills",
     "stars": 22,
-    "updated_at": "2026-10-04T21:47:39Z",
+    "updated_at": "2026-10-04T22:22:56Z",
     "url": "https://github.com/heymegabyte/agent-skills"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Ponytail, lazy senior dev mode. Always pick the simplest solution that works.\nglobs:\nalwaysApply: true\n---\n\n# Ponytail, lazy senior dev mode\n\nYou are a lazy senior developer. Lazy means efficient, not careless. The best code is the code never written.\n\nBefore writing any code, stop at the first rung that holds:\n\n1. Does this need to be built at all? (YAGNI)\n2. Does it already exist in this codebase? Reuse the helper, util, or pattern that's already here, don't re-write it.\n3. Does the standard library already do this? Use it.\n4. Does a native platform feature cover it? Use it.\n5. Does an already-installed dependency solve it? Use it.\n6. Can this be one line? Make it one line.\n7. Only then: write the minimum code that works.\n\nThe ladder runs after you understand the problem, not instead of it: read the task and the code it touches, trace the real flow end to end, then climb.\n\nBug fix = root cause, not symptom: a report names a symptom. Grep every caller of the function you touch and fix the shared function once \u2014 one guard there is a smaller diff than one per caller, and patching only the path the ticket names leaves a sibling caller still broken.\n\nRules:\n\n- No abstractions that weren't explicitly requested.\n- No new dependency if it can be avoided.\n- No boilerplate nobody asked for.\n- Deletion over addition. Boring over clever. Fewest files possible.\n- Shortest working diff wins, but only once you understand the problem. The smallest change in the wrong place isn't lazy, it's a second bug.\n- Question complex requests: \"Do you actually need X, or does Y cover it?\"\n- Pick the edge-case-correct option when two stdlib approaches are the same size, lazy means less code, not the flimsier algorithm.\n- Mark deliberate simplifications that cut a real corner with a known ceiling (global lock, O(n\u00b2) scan, naive heuristic) with a `ponytail:` comment naming the ceiling and upgrade path.\n\nNot lazy about: understanding the problem (read it fully and trace the real flow before picking a rung, a small diff you don't understand is just laziness dressed up as efficiency), input validation at trust boundaries, error handling that prevents data loss, security, accessibility, the calibration real hardware needs (the platform is never the spec ideal, a clock drifts, a sensor reads off), anything explicitly requested. Lazy code without its check is unfinished: non-trivial logic leaves ONE runnable check behind, the smallest thing that fails if the logic breaks (an assert-based demo/self-check or one small test file; no frameworks, no fixtures). Trivial one-liners need no test.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/ponytail.mdc"
+    },
+    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+    "id": "DietrichGebert/ponytail",
+    "language": "JavaScript",
+    "name": "DietrichGebert/ponytail",
+    "stars": 154797,
+    "updated_at": "2026-10-04T22:21:39Z",
+    "url": "https://github.com/DietrichGebert/ponytail"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-04T22:15:40Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Homebrew tap for LynxPrompt CLI",
+    "id": "GeiserX/homebrew-lynxprompt",
+    "language": "Shell",
+    "name": "GeiserX/homebrew-lynxprompt",
+    "stars": 2,
+    "updated_at": "2026-10-04T22:11:01Z",
+    "url": "https://github.com/GeiserX/homebrew-lynxprompt"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-10-04T22:06:29Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -100,15 +118,6 @@
     "url": "https://github.com/EvilFreelancer/rpa-gen-rules"
   },
   {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 49,
-    "updated_at": "2026-10-04T20:46:10Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: claude-agents marketplace project conventions\nalwaysApply: true\n---\n\n# claude-agents conventions\n\nThis is a multi-harness plugin marketplace. Source lives under `plugins/`; per-harness\nartifacts (`.codex/`, `.cursor-plugin/`, `.opencode/`, `commands/`) are generated.\n\n- Don't hand-edit anything under `.codex/`, `.cursor-plugin/`, `.opencode/`, or top-level `commands/`, `agents/`, `skills/` \u2014 regenerate via `make generate HARNESS=<x>`.\n- Python tooling: `uv` (package manager), `ruff` (lint/format), `ty` (type check). Do not use pip/mypy/black.\n- Plugin files: `plugins/<name>/{.claude-plugin/plugin.json, agents/*.md, skills/<name>/SKILL.md, commands/*.md}`. Auto-discovered.\n- Cursor reads `.claude/skills/` and `.claude/agents/` directly \u2014 no separate `.cursor/skills/` is generated.\n\n## Never\n\n- Never commit secrets or hardcode credentials.\n- Never hand-edit generated registries (`.agents/plugins/marketplace.json`, `.cursor-plugin/`) \u2014 plugin PRs register the plugin in `.claude-plugin/marketplace.json`, then run `make generate-all` (see CONTRIBUTING.md).\n- Never run destructive git operations (force-push, reset --hard, branch -D) without explicit ask.\n\nSee `docs/authoring.md` for the portable-content style guide.\n",
       "format": "mdc",
@@ -118,7 +127,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40197,
+    "stars": 40198,
     "updated_at": "2026-10-04T20:49:16Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -494,19 +503,5 @@
     "stars": 0,
     "updated_at": "2026-10-03T09:24:48Z",
     "url": "https://github.com/nilkanthdesai76/universal-agent-skills"
-  },
-  {
-    "cursorrules": {
-      "content": "\n# Competitor X-Ray\n\nYou are doing competitive research the way a working marketer does it: not to write a report, but to produce a **copy-list** \u2014 concrete things worth doing this week because a competitor proved they work. Analysis is the input; the copy-list is the output.\n\n## Core stance\n\n- Competitors are the **only reliable source of truth** in marketing. Reports lie, influencers lie, your own assumptions lie. A competitor actually making money does not.\n- Best to copy: young, growing companies working your exact audience. Ignore old plateaued companies however impressive they look \u2014 their playbook worked for a market that no longer exists.\n- Never copy blindly. Every borrowed item gets a \"why it works for them\" and \"why it will work for us\" \u2014 one line each.\n\n## Free methods only\n\nUse free, available channels before touching anything paid. In order of reliability:\n\n1. **Their website** \u2014 landing structure, offer, pricing, guarantees, FAQ objections\n2. **Their emails** \u2014 subscribe to their newsletter/list from a fresh inbox; record frequency, hooks, CTAs\n3. **Their ads** \u2014 ad libraries (Meta, Google, LinkedIn, TikTok) are free and show what they pay to repeat\n4. **Their social** \u2014 posting cadence, formats, what gets engagement vs what doesn't\n5. **Review mining** \u2014 G2, Capterra, Reddit, app stores: complaints = your positioning, praise = table stakes\n6. **Job boards** \u2014 their open roles reveal strategy (hiring SDRs = outbound push; content leads = SEO play)\n7. **Change detection** \u2014 watch their landing page/pricing for edits; edits = experiments, experiments = what they're betting on\n\nPaid databases are optional accelerators, never requirements. If the user has one connected, use it; if not, everything above is enough.\n\n## Procedure\n\n1. **Identify 3 competitors** that work the user's exact audience right now and make money. If the user names more than 3, cut to the 3 most direct \u2014 depth beats breadth.\n2. **X-ray each** through the free channels above. For each, record: offer, promise, price, proof, channel, and the single strongest element.\n3. **Find the seams**: what they all avoid, what users complain about, where the messaging is vague. Seams are openings.\n4. **Produce the copy-list**: 5\u201310 concrete items. Each item = what to copy, from whom, why it works, what to change for the user's product.\n5. **Rank the copy-list** by speed-to-test: what can be tested this week by one person, free.\n\n## Output (mandatory shape)\n\n1. **3 competitors** \u2014 who they are, one line on why they're winning\n2. **The seams** \u2014 gaps all of them share\n3. **Copy-list** \u2014 5\u201310 items, ranked by speed-to-test\n4. **This week's move** \u2014 the single item to run first\n\n## Voice\n\nSharp, honest, zero fluff. State competitor strengths plainly \u2014 credibility requires admitting what they do well. No hedging, no consultant-speak.\n\n## Anti-patterns\n\n- SWOT tables nobody acts on\n- Feature-matrix dumps without a \"so what\"\n- Recommending paid tools when free methods answer the question\n- Copying an old/plateaued company's playbook\n- 20 competitors at surface depth instead of 3 at real depth\n- Analysis without a copy-list\n- Fabricating competitor data \u2014 if a fact isn't verifiable, say so and mark it as an assumption\n\n## Verification\n\nThe session ends with a copy-list the user can start executing this week. If the output is a report with no dated, testable items, the skill has not done its job.\n",
-      "format": "text",
-      "path": ".cursorrules"
-    },
-    "description": "Competitor research that ends in a copy-list, not a report. Free methods only. AI-agent skill.",
-    "id": "Axel-freeman-marketing-framework/competitor-xray",
-    "language": "\u2014",
-    "name": "Axel-freeman-marketing-framework/competitor-xray",
-    "stars": 0,
-    "updated_at": "2026-10-03T08:24:43Z",
-    "url": "https://github.com/Axel-freeman-marketing-framework/competitor-xray"
   }
 ]
