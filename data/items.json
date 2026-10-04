@@ -1,11 +1,25 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: NeuraForge AI \u2014 code-review\nglobs:\nalwaysApply: false\n---\nRead agents/code-review.md for full instructions. Follow AGENTS.md for architecture principles.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/code-review.mdc"
+    },
+    "description": "Stop correcting the same AI mistakes. 40 agents for Claude Code, Cursor & Copilot that enforce architecture rules across",
+    "id": "vikisingh23/neuraforge-ai",
+    "language": "JavaScript",
+    "name": "vikisingh23/neuraforge-ai",
+    "stars": 4,
+    "updated_at": "2026-10-04T06:28:44Z",
+    "url": "https://github.com/vikisingh23/neuraforge-ai"
+  },
+  {
     "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
     "id": "bompus/house-rules",
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 1,
-    "updated_at": "2026-10-04T06:13:41Z",
+    "updated_at": "2026-10-04T06:26:27Z",
     "url": "https://github.com/bompus/house-rules"
   },
   {
@@ -19,7 +33,7 @@
     "language": "TypeScript",
     "name": "heymegabyte/claude-skills",
     "stars": 22,
-    "updated_at": "2026-10-04T06:12:40Z",
+    "updated_at": "2026-10-04T06:23:00Z",
     "url": "https://github.com/heymegabyte/claude-skills"
   },
   {
@@ -28,7 +42,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-04T06:00:53Z",
+    "updated_at": "2026-10-04T06:15:48Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -235,7 +249,7 @@
     "id": "ADanMan/clueless",
     "language": "JavaScript",
     "name": "ADanMan/clueless",
-    "stars": 0,
+    "stars": 1,
     "updated_at": "2026-10-03T17:10:05Z",
     "url": "https://github.com/ADanMan/clueless"
   },
@@ -261,20 +275,6 @@
     "stars": 73,
     "updated_at": "2026-10-03T15:56:58Z",
     "url": "https://github.com/roedyrustam/vibes-plug"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: NeuraForge AI \u2014 code-review\nglobs:\nalwaysApply: false\n---\nRead agents/code-review.md for full instructions. Follow AGENTS.md for architecture principles.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/code-review.mdc"
-    },
-    "description": "Stop correcting the same AI mistakes. 40 agents for Claude Code, Cursor & Copilot that enforce architecture rules across",
-    "id": "vikisingh23/neuraforge-ai",
-    "language": "JavaScript",
-    "name": "vikisingh23/neuraforge-ai",
-    "stars": 4,
-    "updated_at": "2026-10-03T15:35:41Z",
-    "url": "https://github.com/vikisingh23/neuraforge-ai"
   },
   {
     "description": "Official integrations and installable doctrine for AI Design Blueprint: MCP, IDE rules, prompt files, and agent runtimes",
@@ -440,7 +440,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 153737,
+    "stars": 153763,
     "updated_at": "2026-10-03T05:12:55Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
