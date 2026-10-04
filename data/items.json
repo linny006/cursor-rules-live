@@ -1,21 +1,12 @@
 [
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-04T05:45:45Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
-    "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
-    "id": "cowboy937/Cursor-Desktop-2026",
-    "language": "\u2014",
-    "name": "cowboy937/Cursor-Desktop-2026",
+    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
+    "id": "bompus/house-rules",
+    "language": "JavaScript",
+    "name": "bompus/house-rules",
     "stars": 1,
-    "updated_at": "2026-10-04T05:43:42Z",
-    "url": "https://github.com/cowboy937/Cursor-Desktop-2026"
+    "updated_at": "2026-10-04T06:13:41Z",
+    "url": "https://github.com/bompus/house-rules"
   },
   {
     "cursorrules": {
@@ -28,17 +19,26 @@
     "language": "TypeScript",
     "name": "heymegabyte/claude-skills",
     "stars": 22,
-    "updated_at": "2026-10-04T05:37:59Z",
+    "updated_at": "2026-10-04T06:12:40Z",
     "url": "https://github.com/heymegabyte/claude-skills"
   },
   {
-    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
-    "id": "bompus/house-rules",
-    "language": "JavaScript",
-    "name": "bompus/house-rules",
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-04T06:00:53Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
+    "id": "cowboy937/Cursor-Desktop-2026",
+    "language": "\u2014",
+    "name": "cowboy937/Cursor-Desktop-2026",
     "stars": 1,
-    "updated_at": "2026-10-04T05:59:03Z",
-    "url": "https://github.com/bompus/house-rules"
+    "updated_at": "2026-10-04T05:43:42Z",
+    "url": "https://github.com/cowboy937/Cursor-Desktop-2026"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -440,7 +440,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 153724,
+    "stars": 153737,
     "updated_at": "2026-10-03T05:12:55Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
