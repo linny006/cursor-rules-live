@@ -1,12 +1,21 @@
 [
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
+    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
+    "id": "Hyanthropological659/clarify-skill",
+    "language": "\u2014",
+    "name": "Hyanthropological659/clarify-skill",
     "stars": 1,
-    "updated_at": "2026-10-04T08:58:59Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+    "updated_at": "2026-10-04T09:07:04Z",
+    "url": "https://github.com/Hyanthropological659/clarify-skill"
+  },
+  {
+    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
+    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "language": "\u2014",
+    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "stars": 3,
+    "updated_at": "2026-10-04T09:03:16Z",
+    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +23,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-04T08:49:20Z",
+    "updated_at": "2026-10-04T09:00:32Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-10-04T08:58:59Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Blind A/B testing for AI agent skills, .cursorrules, CLAUDE.md, and system prompts. Detects placebo and harmful instruct",
@@ -359,7 +377,7 @@
     "language": "Python",
     "name": "xtieume/testcase",
     "stars": 4,
-    "updated_at": "2026-10-04T08:47:00Z",
+    "updated_at": "2026-10-04T09:06:51Z",
     "url": "https://github.com/xtieume/testcase"
   },
   {
@@ -440,7 +458,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 153943,
+    "stars": 153968,
     "updated_at": "2026-10-03T05:12:55Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -480,33 +498,5 @@
     "stars": 2,
     "updated_at": "2026-10-03T04:00:55Z",
     "url": "https://github.com/bytewhisker/grandpa"
-  },
-  {
-    "cursorrules": {
-      "content": "# Cursor AI Rules\n\n## Operating Modes\n\n### 1) Architect Mode\nUse this mode when the user asks to plan, analyze, or generate the development roadmap.\n\n- Read `development-in-phases.md` and `docs/doc.md` before creating any work.\n- Convert the raw spec into a sequence of self-contained micro-wins in `docs/phases/`.\n- Create or update only the relevant phase file(s), such as `docs/phases/phase-01.md`.\n- Keep each phase narrowly scoped so it can be completed in 30\u201360 minutes.\n\n### 2) Builder Mode\nUse this mode when the user asks you to execute implementation work.\n\n- Focus strictly on the specified phase file, such as `docs/phases/phase-01.md`.\n- Do not touch downstream phases unless the current phase explicitly requires it.\n- Treat earlier phases as completed constraints, not as a place to add unrelated work.\n\n## Execution Rules\n- Always verify prerequisites and dependencies before coding.\n- Specify the exact installation commands before implementation, for example:\n  - `npm install`\n  - `pip install -r requirements.txt`\n  - `bun install`\n- Never write code across multiple phases at once.\n- Every phase must result in something that compiles, runs, or renders visibly.\n- End every phase with a brief Reflection Hook explaining why the chosen approach was the right one.\n- When a phase is successfully validated, create or update `docs/completed/<phase-name>.md`.\n- Before starting the next phase, or before committing code, verify the previous phase has a completion record in `docs/completed/`.\n- Do not continue to the next phase when the previous phase is undocumented or unverified.\n\n## Phase Generation Rules\n- Read the project brief in `docs/doc.md`.\n- Map the work to one of the seven SDLC mental models defined in `development-in-phases.md`.\n- Identify upstream dependencies and required packages before implementation.\n- Record dependencies, validation steps, and risks inside the phase file.\n- Keep the output practical, testable, and easy for another AI or engineer to continue.\n\n## Guardrails\n- Do not skip dependency verification.\n- Do not mix architecture planning and implementation in one step.\n- Do not broaden scope beyond the active phase.\n- Do not leave a phase without a verification step and reflection.\n",
-      "format": "text",
-      "path": ".cursorrules"
-    },
-    "description": "Universal, phase-driven AI development template. Transforms raw specifications into 30-minute micro-win execution plans ",
-    "id": "anildhage/phase-driven-ai-development",
-    "language": "Shell",
-    "name": "anildhage/phase-driven-ai-development",
-    "stars": 0,
-    "updated_at": "2026-10-02T23:27:24Z",
-    "url": "https://github.com/anildhage/phase-driven-ai-development"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Project rules for agent-context-doctor\nglobs: [\"src/**\", \"tests/**\"]\nalwaysApply: true\n---\n\n# agent-context-doctor \u2014 Cursor Rules\n\nYou are an **implementation agent** for this project. Focus on implementation only \u2014 product strategy is out of scope.\n\n## Hard rules\n\n- No LLM calls, no telemetry, no external network requests\n- No authentication or credential handling\n- No web server or browser UI\n- Do not rename `acd`, `audit`, or `list` commands\n- Do not break the `AuditResult` JSON shape or `.acdrc` schema backward compatibility\n\n## Before finishing any task\n\nRun and confirm these all pass:\n\n```bash\npnpm format:check\npnpm typecheck\npnpm test\npnpm build\n```\n\n## Code style\n\n- TypeScript strict mode \u2014 no `any`, no `ts-ignore`\n- Pure functions for all audit checks in `src/audit/checks/`\n- Tests in `tests/*.spec.ts` using vitest\n- No comments that narrate what the code does\n\n## Final report format\n\nAlways return:\n\n- Files changed (list)\n- Commands run and their output\n- Tests added\n- Known limitations\n",
-      "format": "mdc",
-      "path": ".cursor/rules/project.mdc"
-    },
-    "description": "Audit agent context files like AGENTS.md, CLAUDE.md, .cursor/rules/*.mdc, .github/copilot-instructions.md, and prompt do",
-    "id": "alipajand/agent-context-doctor",
-    "language": "TypeScript",
-    "name": "alipajand/agent-context-doctor",
-    "stars": 1,
-    "updated_at": "2026-10-02T23:22:19Z",
-    "url": "https://github.com/alipajand/agent-context-doctor"
   }
 ]
