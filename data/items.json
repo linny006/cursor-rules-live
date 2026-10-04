@@ -1,12 +1,12 @@
 [
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-04T00:00:33Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
+    "description": "f you are looking for Cursor download, Download Cursor, Cursor for Windows, or Cursor AI download, the Windows desktop a",
+    "id": "Cursor-2026/.github",
+    "language": "\u2014",
+    "name": "Cursor-2026/.github",
+    "stars": 0,
+    "updated_at": "2026-10-04T00:29:10Z",
+    "url": "https://github.com/Cursor-2026/.github"
   },
   {
     "description": "Architectural drift prevention for the agentic AI SDLC.",
@@ -14,8 +14,17 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 23,
-    "updated_at": "2026-10-04T00:12:58Z",
+    "updated_at": "2026-10-04T00:26:25Z",
     "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-04T00:15:39Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -305,7 +314,7 @@
     "language": "Python",
     "name": "xtieume/testcase",
     "stars": 4,
-    "updated_at": "2026-10-04T00:04:55Z",
+    "updated_at": "2026-10-04T00:21:54Z",
     "url": "https://github.com/xtieume/testcase"
   },
   {
@@ -395,7 +404,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 153388,
+    "stars": 153400,
     "updated_at": "2026-10-03T05:12:55Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -504,14 +513,5 @@
     "stars": 5,
     "updated_at": "2026-10-02T18:32:35Z",
     "url": "https://github.com/Harmitx7/tribunal-kit"
-  },
-  {
-    "description": "Rebuild any Dear ImGui menu in clean C++ from a single screenshot. Generates a buildable native Visual Studio (.sln) Win",
-    "id": "SharimAli/imgui-menu-clone",
-    "language": "C++",
-    "name": "SharimAli/imgui-menu-clone",
-    "stars": 0,
-    "updated_at": "2026-10-02T17:22:15Z",
-    "url": "https://github.com/SharimAli/imgui-menu-clone"
   }
 ]
