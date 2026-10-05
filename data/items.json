@@ -1,6 +1,29 @@
 [
   {
     "cursorrules": {
+      "content": "---\ndescription: \"Comments are a last resort: only for non-obvious constraints, gotchas and trade-offs the code cannot express.\"\nglobs: \"**/*.{go,ts,tsx,js,jsx,py,rb,ex,exs,md}\"\nalwaysApply: false\n---\n\n# Comments: extremely rare by design\n\nComments cost tokens, rot silently and hide bad naming. **Default: do not write one.** Add one only when names, types, structure, tests and error handling cannot express the truth.\n\n## Allowed\n- A subtle correctness, security or concurrency gotcha the types do not make obvious.\n- A non-obvious performance, ordering or consistency trade-off (\"must run before X because of Y\").\n- An external constraint invisible in the code (\"the gateway already rate-limits this; do not add another check\"), ideally with a link to the decision record.\n- A contract detail on an exported symbol that the name, signature and tests still leave ambiguous (improve the name first).\n\n## Never\n- Narrating the next line (\"build the request\", \"call the client\", \"return the result\").\n- Restating what a test or assertion already verifies.\n- Describing the change you just made (\"added X for Y\").\n- Section dividers or paraphrasing a function name in a doc comment.\n- Planning notes the decision record should hold.\n\n## Prefer instead\nBetter names, smaller functions, stronger types (enums and newtypes over \"this bool means X\"), tests as executable specification, structured config over magic comments.\n\nIf you feel the urge to explain *what* the code does, rename or restructure instead. When reviewing, delete narrative comments.\n\n## Documentation is not a comment\nModule and function docs, architecture notes, API contracts, migration notes and skills are documentation, not disposable comments. Keep them accurate and explanatory, and **update or delete stale documentation in the same change as the code.**\n\n## Docs comments\nExported-symbol docs (godoc, docstrings) are allowed when the name and signature do not communicate the contract or an important caveat. Restating the name is forbidden, same bar as inline comments.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/comments.mdc"
+    },
+    "description": "Agent skills for people tired of AI slop. 35 skills, 11 subagents, 41 rules and 5 hooks for Claude Code, Cursor and Code",
+    "id": "pahlevikun/levistack",
+    "language": "Python",
+    "name": "pahlevikun/levistack",
+    "stars": 0,
+    "updated_at": "2026-10-05T04:57:48Z",
+    "url": "https://github.com/pahlevikun/levistack"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-05T04:45:45Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "cursorrules": {
       "content": "# Emdash Skills for Cursor\n\nLoad CONVENTIONS.md for stack defaults. Load _router.md for skill routing.\n23 categories, 149 reference docs, 28 agents.\n\n## Stack\nCF Workers + Hono | React 19 + Vite + shadcn/ui (sites) / Angular 22 + Spartan UI (apps) | D1/Neon | Drizzle v1-rc | Clerk | Stripe + Link (default) \u00b7 Square on request | Inngest | Amazon SES | Bun | Playwright v1.63+ | PostHog | Sentry\n\n## Rules\n- TypeScript strict, never `any`, prefer `interface` over `type`\n- Hono inline handlers for RPC type inference\n- Zod validation on all inputs\n- TDD: failing test first, Playwright 6 breakpoints\n- Dark-first design, #060610 bg, #00E5FF accent\n- Deploy to CF Workers, purge CDN after every deploy\n\nSee CONVENTIONS.md for full patterns.\n",
       "format": "text",
       "path": ".cursorrules"
@@ -21,15 +44,6 @@
     "stars": 1,
     "updated_at": "2026-10-05T04:42:45Z",
     "url": "https://github.com/bompus/house-rules"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-05T04:31:15Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
@@ -59,7 +73,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 155074,
+    "stars": 155086,
     "updated_at": "2026-10-05T03:45:49Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -109,7 +123,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40204,
+    "stars": 40205,
     "updated_at": "2026-10-05T01:07:11Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -239,20 +253,6 @@
     "stars": 0,
     "updated_at": "2026-10-04T18:05:33Z",
     "url": "https://github.com/ginoabraham/cursor_rules"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: \"Comments are a last resort: only for non-obvious constraints, gotchas and trade-offs the code cannot express.\"\nglobs: \"**/*.{go,ts,tsx,js,jsx,py,rb,ex,exs,md}\"\nalwaysApply: false\n---\n\n# Comments: extremely rare by design\n\nComments cost tokens, rot silently and hide bad naming. **Default: do not write one.** Add one only when names, types, structure, tests and error handling cannot express the truth.\n\n## Allowed\n- A subtle correctness, security or concurrency gotcha the types do not make obvious.\n- A non-obvious performance, ordering or consistency trade-off (\"must run before X because of Y\").\n- An external constraint invisible in the code (\"the gateway already rate-limits this; do not add another check\"), ideally with a link to the decision record.\n- A contract detail on an exported symbol that the name, signature and tests still leave ambiguous (improve the name first).\n\n## Never\n- Narrating the next line (\"build the request\", \"call the client\", \"return the result\").\n- Restating what a test or assertion already verifies.\n- Describing the change you just made (\"added X for Y\").\n- Section dividers or paraphrasing a function name in a doc comment.\n- Planning notes the decision record should hold.\n\n## Prefer instead\nBetter names, smaller functions, stronger types (enums and newtypes over \"this bool means X\"), tests as executable specification, structured config over magic comments.\n\nIf you feel the urge to explain *what* the code does, rename or restructure instead. When reviewing, delete narrative comments.\n\n## Documentation is not a comment\nModule and function docs, architecture notes, API contracts, migration notes and skills are documentation, not disposable comments. Keep them accurate and explanatory, and **update or delete stale documentation in the same change as the code.**\n\n## Docs comments\nExported-symbol docs (godoc, docstrings) are allowed when the name and signature do not communicate the contract or an important caveat. Restating the name is forbidden, same bar as inline comments.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/comments.mdc"
-    },
-    "description": "Agent skills for people tired of AI slop. 35 skills, 11 subagents, 41 rules and 5 hooks for Claude Code, Cursor and Code",
-    "id": "pahlevikun/levistack",
-    "language": "Python",
-    "name": "pahlevikun/levistack",
-    "stars": 0,
-    "updated_at": "2026-10-05T04:36:24Z",
-    "url": "https://github.com/pahlevikun/levistack"
   },
   {
     "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
