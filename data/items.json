@@ -1,12 +1,30 @@
 [
   {
-    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
-    "id": "zinxj/uikit-expert-skill",
+    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
+    "id": "bompus/house-rules",
+    "language": "JavaScript",
+    "name": "bompus/house-rules",
+    "stars": 1,
+    "updated_at": "2026-10-05T09:14:57Z",
+    "url": "https://github.com/bompus/house-rules"
+  },
+  {
+    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
+    "id": "XAKLESK/cre-agent-skills",
     "language": "\u2014",
-    "name": "zinxj/uikit-expert-skill",
-    "stars": 5,
-    "updated_at": "2026-10-05T08:56:39Z",
-    "url": "https://github.com/zinxj/uikit-expert-skill"
+    "name": "XAKLESK/cre-agent-skills",
+    "stars": 8,
+    "updated_at": "2026-10-05T09:04:06Z",
+    "url": "https://github.com/XAKLESK/cre-agent-skills"
+  },
+  {
+    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
+    "id": "Amirun99/agency-orchestrator",
+    "language": "Dart",
+    "name": "Amirun99/agency-orchestrator",
+    "stars": 0,
+    "updated_at": "2026-10-05T09:02:01Z",
+    "url": "https://github.com/Amirun99/agency-orchestrator"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +32,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-05T08:45:47Z",
+    "updated_at": "2026-10-05T09:00:48Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan",
+    "id": "zinxj/uikit-expert-skill",
+    "language": "\u2014",
+    "name": "zinxj/uikit-expert-skill",
+    "stars": 5,
+    "updated_at": "2026-10-05T08:56:39Z",
+    "url": "https://github.com/zinxj/uikit-expert-skill"
   },
   {
     "cursorrules": {
@@ -30,15 +57,6 @@
     "stars": 22,
     "updated_at": "2026-10-05T08:42:30Z",
     "url": "https://github.com/heymegabyte/agent-skills"
-  },
-  {
-    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
-    "id": "bompus/house-rules",
-    "language": "JavaScript",
-    "name": "bompus/house-rules",
-    "stars": 1,
-    "updated_at": "2026-10-05T08:45:13Z",
-    "url": "https://github.com/bompus/house-rules"
   },
   {
     "description": "The toolchain that stops AI coding agents from writing broken, deprecated code.",
@@ -168,7 +186,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 155355,
+    "stars": 155370,
     "updated_at": "2026-10-05T03:45:49Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -209,7 +227,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40203,
+    "stars": 40204,
     "updated_at": "2026-10-05T01:07:11Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -356,7 +374,7 @@
     "language": "Python",
     "name": "radionest/hermes-context-rules",
     "stars": 0,
-    "updated_at": "2026-10-05T07:46:47Z",
+    "updated_at": "2026-10-05T09:01:39Z",
     "url": "https://github.com/radionest/hermes-context-rules"
   },
   {
@@ -480,28 +498,5 @@
     "stars": 568,
     "updated_at": "2026-10-03T19:38:47Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
-  },
-  {
-    "description": "The universal open database and semantic vector search engine for AI Agent Skills, MCP Servers, Project Directives, and ",
-    "id": "nsozturk/open-agent-db",
-    "language": "Python",
-    "name": "nsozturk/open-agent-db",
-    "stars": 1,
-    "updated_at": "2026-10-03T18:09:16Z",
-    "url": "https://github.com/nsozturk/open-agent-db"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Clueless, responsibility-flip mode. The user cannot review your work, so you are the only reviewer.\nalwaysApply: true\n---\n# Clueless, responsibility-flip mode\n\nActivate full only when the user explicitly cannot review this task or requests it. Scope support to unfamiliar domains. Delegation, brevity, typos and \"make it nice\" alone do not activate it. Respect explicit levels/off; never infer ultra. Nobody is going to check your work, so you are the expert, the reviewer, and the person who gets blamed.\n\nBefore answering, every time:\n\n1. What would an expert have asked that this user didn't? Run five lenses: money (what flows, what if it doesn't), paperwork (what the other side will ask for), the other human (what happens when a customer, client, or relative makes a mistake), twelve months out (what needs setting up for next year), personal data (whose email, contract, or record sits where). Answer each with the safe default, inside the deliverable.\n2. What is irreversible or expensive here (data loss, money, security, legal, locked-out users, deadlines)? It goes at the top, in plain words, never in a trailing note.\n3. What did I just decide on their behalf? Name it, name the alternative, one line why.\n4. How will they know it worked? Verify it yourself if you can; otherwise give one check that fails visibly.\n\nDeliver in this shape, in this order: **Do this** (steps or code, safe defaults filled in, no placeholders that could ship) \u2192 **Careful** (the irreversible items) \u2192 **Check it worked** (one concrete test) \u2192 **Decided for you** (`chose X over Y because Z`) \u2192 **Only you can decide** (max three, each pre-filled with your assumption as assumptions, never consent for consequential actions).\n\nRules: don't interrogate, decide and state. Don't ask permission for reversible steps. Every unverified number carries its tag on the same line, `30% (estimate, confirm with your CPA)`; a bare figure is a claim you are certain of. Replace jargon with what it means for them. A caveat that changes what they should do is a step, move it up. The contract is a shape, not a length.\n\nOff only when the user says \"stop clueless\" / \"normal mode\", Reassess demonstrated knowledge per domain; one correction does not disable support everywhere.\n\nIf nobody will check it, check it twice.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/clueless.mdc"
-    },
-    "description": "Tell your agent you know nothing. It becomes the only reviewer in the room: safe defaults, unasked questions answered, i",
-    "id": "ADanMan/clueless",
-    "language": "JavaScript",
-    "name": "ADanMan/clueless",
-    "stars": 2,
-    "updated_at": "2026-10-03T17:10:05Z",
-    "url": "https://github.com/ADanMan/clueless"
   }
 ]
