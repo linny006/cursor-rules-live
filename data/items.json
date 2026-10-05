@@ -1,5 +1,23 @@
 [
   {
+    "description": "The toolchain that stops AI coding agents from writing broken, deprecated code.",
+    "id": "Aaditya1273/Agent.md",
+    "language": "\u2014",
+    "name": "Aaditya1273/Agent.md",
+    "stars": 8,
+    "updated_at": "2026-10-05T06:46:25Z",
+    "url": "https://github.com/Aaditya1273/Agent.md"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-05T06:45:45Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
     "id": "Trentobobbi/uikit-mastery-playbook",
     "language": "HTML",
@@ -30,15 +48,6 @@
     "stars": 1,
     "updated_at": "2026-10-05T06:42:10Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-05T06:30:45Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -110,7 +119,7 @@
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 1,
-    "updated_at": "2026-10-05T05:33:02Z",
+    "updated_at": "2026-10-05T06:56:21Z",
     "url": "https://github.com/bompus/house-rules"
   },
   {
@@ -123,7 +132,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 155207,
+    "stars": 155222,
     "updated_at": "2026-10-05T03:45:49Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -329,7 +338,7 @@
     "language": "Python",
     "name": "radionest/hermes-context-rules",
     "stars": 0,
-    "updated_at": "2026-10-04T12:24:42Z",
+    "updated_at": "2026-10-05T06:47:44Z",
     "url": "https://github.com/radionest/hermes-context-rules"
   },
   {
@@ -499,14 +508,5 @@
     "stars": 3,
     "updated_at": "2026-10-03T15:04:26Z",
     "url": "https://github.com/aidesignblueprint/integrations"
-  },
-  {
-    "description": "PHP and Laravel Cursor rules \u2014 coding standards, testing, and conventions for the Cursor editor. Install via Composer.",
-    "id": "pekral/cursor-rules",
-    "language": "PHP",
-    "name": "pekral/cursor-rules",
-    "stars": 10,
-    "updated_at": "2026-10-03T13:36:49Z",
-    "url": "https://github.com/pekral/cursor-rules"
   }
 ]
