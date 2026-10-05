@@ -9,9 +9,23 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 155854,
-    "updated_at": "2026-10-05T18:51:18Z",
+    "stars": 155871,
+    "updated_at": "2026-10-05T19:23:19Z",
     "url": "https://github.com/DietrichGebert/ponytail"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: PowerSync skill \u2014 follow AGENTS.md playbook; powersync login is Cloud-only\nglobs:\n  - skills/powersync/**/*\n  - AGENTS.md\n  - CONTRIBUTING.md\n---\n\n# PowerSync agent skills\n\nWhen editing or when the user\u2019s task involves PowerSync:\n\n1. Open **skills/powersync/AGENTS.md** and follow **Agent compliance** and the numbered onboarding playbook. Do not assume backend or Cloud vs self-hosted.\n2. Prefer the **PowerSync CLI** per that file; do not hand-roll deployable config unless the user explicitly cannot use the CLI.\n3. **`powersync login`** is for **PowerSync Cloud** (PAT) only \u2014 not for authenticating to a **self-hosted** service. Self-hosted: `powersync init self-hosted`, Docker commands, `PS_ADMIN_TOKEN` on the service.\n\nIf instructions here conflict with a \u201cfaster\u201d approach, the playbook wins unless the user explicitly overrides.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/powersync-playbook.mdc"
+    },
+    "description": "Official agent skills for PowerSync",
+    "id": "powersync-ja/agent-skills",
+    "language": "JavaScript",
+    "name": "powersync-ja/agent-skills",
+    "stars": 20,
+    "updated_at": "2026-10-05T19:16:14Z",
+    "url": "https://github.com/powersync-ja/agent-skills"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -19,7 +33,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-05T18:45:45Z",
+    "updated_at": "2026-10-05T19:00:49Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -74,7 +88,7 @@
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 1,
-    "updated_at": "2026-10-05T18:55:34Z",
+    "updated_at": "2026-10-05T19:27:24Z",
     "url": "https://github.com/bompus/house-rules"
   },
   {
@@ -209,7 +223,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21064,
+    "stars": 21065,
     "updated_at": "2026-10-05T13:05:32Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -499,14 +513,5 @@
     "stars": 0,
     "updated_at": "2026-10-04T07:03:17Z",
     "url": "https://github.com/johnwall123459885/skene-cookbook"
-  },
-  {
-    "description": "Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows.",
-    "id": "ajhcs/healthcare-agents",
-    "language": "JavaScript",
-    "name": "ajhcs/healthcare-agents",
-    "stars": 51,
-    "updated_at": "2026-10-04T03:32:41Z",
-    "url": "https://github.com/ajhcs/healthcare-agents"
   }
 ]
