@@ -1,12 +1,12 @@
 [
   {
-    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
-    "id": "bompus/house-rules",
-    "language": "JavaScript",
-    "name": "bompus/house-rules",
-    "stars": 1,
-    "updated_at": "2026-10-05T09:29:42Z",
-    "url": "https://github.com/bompus/house-rules"
+    "description": "Homebrew tap for LynxPrompt CLI",
+    "id": "GeiserX/homebrew-lynxprompt",
+    "language": "Shell",
+    "name": "GeiserX/homebrew-lynxprompt",
+    "stars": 2,
+    "updated_at": "2026-10-05T09:36:40Z",
+    "url": "https://github.com/GeiserX/homebrew-lynxprompt"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-05T09:15:45Z",
+    "updated_at": "2026-10-05T09:30:40Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
+    "id": "bompus/house-rules",
+    "language": "JavaScript",
+    "name": "bompus/house-rules",
+    "stars": 1,
+    "updated_at": "2026-10-05T09:43:06Z",
+    "url": "https://github.com/bompus/house-rules"
   },
   {
     "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
@@ -186,7 +195,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 155394,
+    "stars": 155405,
     "updated_at": "2026-10-05T03:45:49Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -246,7 +255,7 @@
     "language": "Go",
     "name": "GeiserX/lynxprompt-mcp",
     "stars": 2,
-    "updated_at": "2026-10-04T22:40:25Z",
+    "updated_at": "2026-10-05T09:41:46Z",
     "url": "https://github.com/GeiserX/lynxprompt-mcp"
   },
   {
@@ -266,15 +275,6 @@
     "stars": 0,
     "updated_at": "2026-10-04T22:25:06Z",
     "url": "https://github.com/kyle-visner/agent-skills"
-  },
-  {
-    "description": "Homebrew tap for LynxPrompt CLI",
-    "id": "GeiserX/homebrew-lynxprompt",
-    "language": "Shell",
-    "name": "GeiserX/homebrew-lynxprompt",
-    "stars": 2,
-    "updated_at": "2026-10-04T22:11:01Z",
-    "url": "https://github.com/GeiserX/homebrew-lynxprompt"
   },
   {
     "description": "Agent skill for Claude Code, Codex and Cursor: generate or refresh project rules (.cursor/rules/*.mdc, CLAUDE.md and .cl",
@@ -374,7 +374,7 @@
     "language": "Python",
     "name": "radionest/hermes-context-rules",
     "stars": 0,
-    "updated_at": "2026-10-05T09:01:39Z",
+    "updated_at": "2026-10-05T09:37:40Z",
     "url": "https://github.com/radionest/hermes-context-rules"
   },
   {
