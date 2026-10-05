@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-05 07:15 UTC
+> ⏰ Last updated: 2026-10-05 07:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,10 +53,10 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [heymegabyte/agent-skills](https://github.com/heymegabyte/agent-skills) | 22 | TypeScript | 2026-10-05 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/agent-skills/) | Agent Skills — agent-neutral autonomous product-building OS for 32+ AI coding tools. 23 skill categories · 28 agents · 1 |
-| 2 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-10-05 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 3 | [bompus/house-rules](https://github.com/bompus/house-rules) | 1 | JavaScript | 2026-10-05 | — | Working rules and skills for AI coding agents, layered as base, modifiers, person and project |
-| 4 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-05 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [bompus/house-rules](https://github.com/bompus/house-rules) | 1 | JavaScript | 2026-10-05 | — | Working rules and skills for AI coding agents, layered as base, modifiers, person and project |
+| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-05 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 3 | [heymegabyte/agent-skills](https://github.com/heymegabyte/agent-skills) | 22 | TypeScript | 2026-10-05 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/agent-skills/) | Agent Skills — agent-neutral autonomous product-building OS for 32+ AI coding tools. 23 skill categories · 28 agents · 1 |
+| 4 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-10-05 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
 | 5 | [Aaditya1273/Agent.md](https://github.com/Aaditya1273/Agent.md) | 8 | — | 2026-10-05 | — | The toolchain that stops AI coding agents from writing broken, deprecated code. |
 | 6 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-10-05 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
 | 7 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-10-05 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
@@ -66,7 +66,7 @@ expired items removed — so you can rely on what you see being current.
 | 11 | [primaybr/quench](https://github.com/primaybr/quench) | 1 | Python | 2026-10-05 | — | The hardening moment. A production-grade Skills ecosystem for AI Agents. |
 | 12 | [cowboy937/Cursor-Desktop-2026](https://github.com/cowboy937/Cursor-Desktop-2026) | 1 | — | 2026-10-05 | — | ⭐️ Cursor 2026 Ai Cursorpro Cursor Ai ⭐️ |
 | 13 | [pahlevikun/levistack](https://github.com/pahlevikun/levistack) | 0 | Python | 2026-10-05 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/pahlevikun/levistack/) | Agent skills for people tired of AI slop. 35 skills, 11 subagents, 41 rules and 5 hooks for Claude Code, Cursor and Code |
-| 14 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 155235 | JavaScript | 2026-10-05 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 14 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 155255 | JavaScript | 2026-10-05 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 15 | [Catherine1401/agent-skills](https://github.com/Catherine1401/agent-skills) | 2 | Shell | 2026-10-05 | — | Portable skills and shared policies for Codex, Claude Code, and Cursor on Linux. |
 | 16 | [sublimecoder/sublimecoding](https://github.com/sublimecoder/sublimecoding) | 0 | — | 2026-10-05 | — | 🛠️ Free Claude Code & Cursor prompts for senior engineers — plus AIOS, an open-source markdown memory system for coding  |
 | 17 | [yxdwind/english-memory-method](https://github.com/yxdwind/english-memory-method) | 0 | HTML | 2026-10-05 | — | 英文文章背诵技巧 |

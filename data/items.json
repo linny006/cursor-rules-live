@@ -1,5 +1,23 @@
 [
   {
+    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
+    "id": "bompus/house-rules",
+    "language": "JavaScript",
+    "name": "bompus/house-rules",
+    "stars": 1,
+    "updated_at": "2026-10-05T07:27:29Z",
+    "url": "https://github.com/bompus/house-rules"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-05T07:15:34Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "# Emdash Skills for Cursor\n\nLoad CONVENTIONS.md for stack defaults. Load _router.md for skill routing.\n23 categories, 149 reference docs, 28 agents.\n\n## Stack\nCF Workers + Hono | React 19 + Vite + shadcn/ui (sites) / Angular 22 + Spartan UI (apps) | D1/Neon | Drizzle v1-rc | Clerk | Stripe + Link (default) \u00b7 Square on request | Inngest | Amazon SES | Bun | Playwright v1.63+ | PostHog | Sentry\n\n## Rules\n- TypeScript strict, never `any`, prefer `interface` over `type`\n- Hono inline handlers for RPC type inference\n- Zod validation on all inputs\n- TDD: failing test first, Playwright 6 breakpoints\n- Dark-first design, #060610 bg, #00E5FF accent\n- Deploy to CF Workers, purge CDN after every deploy\n\nSee CONVENTIONS.md for full patterns.\n",
       "format": "text",
@@ -21,24 +39,6 @@
     "stars": 3,
     "updated_at": "2026-10-05T07:09:51Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
-    "id": "bompus/house-rules",
-    "language": "JavaScript",
-    "name": "bompus/house-rules",
-    "stars": 1,
-    "updated_at": "2026-10-05T07:07:50Z",
-    "url": "https://github.com/bompus/house-rules"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-05T07:00:34Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "The toolchain that stops AI coding agents from writing broken, deprecated code.",
@@ -141,7 +141,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 155235,
+    "stars": 155255,
     "updated_at": "2026-10-05T03:45:49Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -269,7 +269,7 @@
     "language": "Shell",
     "name": "gabrieldcpaiva/not-optional",
     "stars": 1,
-    "updated_at": "2026-10-05T07:07:16Z",
+    "updated_at": "2026-10-05T07:26:24Z",
     "url": "https://github.com/gabrieldcpaiva/not-optional"
   },
   {
