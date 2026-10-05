@@ -1,21 +1,12 @@
 [
   {
-    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
-    "id": "bompus/house-rules",
-    "language": "JavaScript",
-    "name": "bompus/house-rules",
-    "stars": 1,
-    "updated_at": "2026-10-05T07:27:29Z",
-    "url": "https://github.com/bompus/house-rules"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-05T07:15:34Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
+    "description": "Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml",
+    "id": "nu-nenoi/repo-nexus",
+    "language": "Shell",
+    "name": "nu-nenoi/repo-nexus",
+    "stars": 6,
+    "updated_at": "2026-10-05T07:45:27Z",
+    "url": "https://github.com/nu-nenoi/repo-nexus"
   },
   {
     "cursorrules": {
@@ -28,8 +19,26 @@
     "language": "TypeScript",
     "name": "heymegabyte/agent-skills",
     "stars": 22,
-    "updated_at": "2026-10-05T07:14:09Z",
+    "updated_at": "2026-10-05T07:42:50Z",
     "url": "https://github.com/heymegabyte/agent-skills"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-05T07:30:44Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
+    "id": "bompus/house-rules",
+    "language": "JavaScript",
+    "name": "bompus/house-rules",
+    "stars": 1,
+    "updated_at": "2026-10-05T07:35:30Z",
+    "url": "https://github.com/bompus/house-rules"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -141,7 +150,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 155255,
+    "stars": 155276,
     "updated_at": "2026-10-05T03:45:49Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -499,14 +508,5 @@
     "stars": 73,
     "updated_at": "2026-10-03T15:56:58Z",
     "url": "https://github.com/roedyrustam/vibes-plug"
-  },
-  {
-    "description": "Official integrations and installable doctrine for AI Design Blueprint: MCP, IDE rules, prompt files, and agent runtimes",
-    "id": "aidesignblueprint/integrations",
-    "language": "Python",
-    "name": "aidesignblueprint/integrations",
-    "stars": 3,
-    "updated_at": "2026-10-03T15:04:26Z",
-    "url": "https://github.com/aidesignblueprint/integrations"
   }
 ]
