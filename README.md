@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-05 08:30 UTC
+> ⏰ Last updated: 2026-10-05 08:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,9 +53,9 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-05 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 2 | [bompus/house-rules](https://github.com/bompus/house-rules) | 1 | JavaScript | 2026-10-05 | — | Working rules and skills for AI coding agents, layered as base, modifiers, person and project |
-| 3 | [heymegabyte/agent-skills](https://github.com/heymegabyte/agent-skills) | 22 | TypeScript | 2026-10-05 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/agent-skills/) | Agent Skills — agent-neutral autonomous product-building OS for 32+ AI coding tools. 23 skill categories · 28 agents · 1 |
+| 1 | [heymegabyte/agent-skills](https://github.com/heymegabyte/agent-skills) | 22 | TypeScript | 2026-10-05 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/agent-skills/) | Agent Skills — agent-neutral autonomous product-building OS for 32+ AI coding tools. 23 skill categories · 28 agents · 1 |
+| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-05 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 3 | [bompus/house-rules](https://github.com/bompus/house-rules) | 1 | JavaScript | 2026-10-05 | — | Working rules and skills for AI coding agents, layered as base, modifiers, person and project |
 | 4 | [Aaditya1273/Agent.md](https://github.com/Aaditya1273/Agent.md) | 8 | — | 2026-10-05 | — | The toolchain that stops AI coding agents from writing broken, deprecated code. |
 | 5 | [nu-nenoi/repo-nexus](https://github.com/nu-nenoi/repo-nexus) | 6 | Shell | 2026-10-05 | — | Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml |
 | 6 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-05 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
@@ -68,7 +68,7 @@ expired items removed — so you can rely on what you see being current.
 | 13 | [primaybr/quench](https://github.com/primaybr/quench) | 1 | Python | 2026-10-05 | — | The hardening moment. A production-grade Skills ecosystem for AI Agents. |
 | 14 | [cowboy937/Cursor-Desktop-2026](https://github.com/cowboy937/Cursor-Desktop-2026) | 1 | — | 2026-10-05 | — | ⭐️ Cursor 2026 Ai Cursorpro Cursor Ai ⭐️ |
 | 15 | [pahlevikun/levistack](https://github.com/pahlevikun/levistack) | 0 | Python | 2026-10-05 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/pahlevikun/levistack/) | Agent skills for people tired of AI slop. 35 skills, 11 subagents, 41 rules and 5 hooks for Claude Code, Cursor and Code |
-| 16 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 155321 | JavaScript | 2026-10-05 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 16 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 155340 | JavaScript | 2026-10-05 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 17 | [Catherine1401/agent-skills](https://github.com/Catherine1401/agent-skills) | 2 | Shell | 2026-10-05 | — | Portable skills and shared policies for Codex, Claude Code, and Cursor on Linux. |
 | 18 | [sublimecoder/sublimecoding](https://github.com/sublimecoder/sublimecoding) | 0 | — | 2026-10-05 | — | 🛠️ Free Claude Code & Cursor prompts for senior engineers — plus AIOS, an open-source markdown memory system for coding  |
 | 19 | [yxdwind/english-memory-method](https://github.com/yxdwind/english-memory-method) | 0 | HTML | 2026-10-05 | — | 英文文章背诵技巧 |
