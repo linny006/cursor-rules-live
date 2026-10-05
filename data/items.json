@@ -1,11 +1,20 @@
 [
   {
+    "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
+    "id": "cowboy937/Cursor-Desktop-2026",
+    "language": "\u2014",
+    "name": "cowboy937/Cursor-Desktop-2026",
+    "stars": 1,
+    "updated_at": "2026-10-05T17:05:35Z",
+    "url": "https://github.com/cowboy937/Cursor-Desktop-2026"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-05T16:45:54Z",
+    "updated_at": "2026-10-05T17:00:52Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -50,7 +59,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 155760,
+    "stars": 155776,
     "updated_at": "2026-10-05T16:23:29Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -268,15 +277,6 @@
     "url": "https://github.com/primaybr/quench"
   },
   {
-    "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
-    "id": "cowboy937/Cursor-Desktop-2026",
-    "language": "\u2014",
-    "name": "cowboy937/Cursor-Desktop-2026",
-    "stars": 1,
-    "updated_at": "2026-10-05T05:28:20Z",
-    "url": "https://github.com/cowboy937/Cursor-Desktop-2026"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: \"Comments are a last resort: only for non-obvious constraints, gotchas and trade-offs the code cannot express.\"\nglobs: \"**/*.{go,ts,tsx,js,jsx,py,rb,ex,exs,md}\"\nalwaysApply: false\n---\n\n# Comments: extremely rare by design\n\nComments cost tokens, rot silently and hide bad naming. **Default: do not write one.** Add one only when names, types, structure, tests and error handling cannot express the truth.\n\n## Allowed\n- A subtle correctness, security or concurrency gotcha the types do not make obvious.\n- A non-obvious performance, ordering or consistency trade-off (\"must run before X because of Y\").\n- An external constraint invisible in the code (\"the gateway already rate-limits this; do not add another check\"), ideally with a link to the decision record.\n- A contract detail on an exported symbol that the name, signature and tests still leave ambiguous (improve the name first).\n\n## Never\n- Narrating the next line (\"build the request\", \"call the client\", \"return the result\").\n- Restating what a test or assertion already verifies.\n- Describing the change you just made (\"added X for Y\").\n- Section dividers or paraphrasing a function name in a doc comment.\n- Planning notes the decision record should hold.\n\n## Prefer instead\nBetter names, smaller functions, stronger types (enums and newtypes over \"this bool means X\"), tests as executable specification, structured config over magic comments.\n\nIf you feel the urge to explain *what* the code does, rename or restructure instead. When reviewing, delete narrative comments.\n\n## Documentation is not a comment\nModule and function docs, architecture notes, API contracts, migration notes and skills are documentation, not disposable comments. Keep them accurate and explanatory, and **update or delete stale documentation in the same change as the code.**\n\n## Docs comments\nExported-symbol docs (godoc, docstrings) are allowed when the name and signature do not communicate the contract or an important caveat. Restating the name is forbidden, same bar as inline comments.\n",
       "format": "mdc",
@@ -287,7 +287,7 @@
     "language": "Python",
     "name": "pahlevikun/levistack",
     "stars": 0,
-    "updated_at": "2026-10-05T04:57:48Z",
+    "updated_at": "2026-10-05T17:05:32Z",
     "url": "https://github.com/pahlevikun/levistack"
   },
   {
@@ -327,7 +327,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40213,
+    "stars": 40215,
     "updated_at": "2026-10-05T01:07:11Z",
     "url": "https://github.com/wshobson/agents"
   },
