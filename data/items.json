@@ -1,11 +1,38 @@
 [
   {
+    "description": "Architectural drift prevention for the agentic AI SDLC.",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 23,
+    "updated_at": "2026-10-05T13:09:19Z",
+    "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
+    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 206,
+    "updated_at": "2026-10-05T13:07:35Z",
+    "url": "https://github.com/KbWen/agentic-os"
+  },
+  {
+    "description": "\ud83c\udfad 277 \u4e2a\u5373\u63d2\u5373\u7528\u7684 AI \u4e13\u5bb6\u89d2\u8272 \u2014 \u652f\u6301 Claude Code/Cursor/Copilot \u7b49 20 \u79cd\u5de5\u5177\uff0c\u8986\u76d6\u5de5\u7a0b/\u8bbe\u8ba1/\u8425\u9500/\u91d1\u878d\u7b49 20 \u4e2a\u90e8\u95e8\u3002\u542b 64 \u4e2a\u4e2d\u56fd\u5e02\u573a\u539f\u521b\u667a\u80fd\u4f53\uff08\u5c0f\u7ea2\u4e66/\u6296\u97f3/\u5fae\u4fe1/\u98de\u4e66/\u9489\u9489/Qt \u4e0a",
+    "id": "jnMetaCode/agency-agents-zh",
+    "language": "Shell",
+    "name": "jnMetaCode/agency-agents-zh",
+    "stars": 21060,
+    "updated_at": "2026-10-05T13:05:32Z",
+    "url": "https://github.com/jnMetaCode/agency-agents-zh"
+  },
+  {
     "description": "Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml",
     "id": "nu-nenoi/repo-nexus",
     "language": "Shell",
     "name": "nu-nenoi/repo-nexus",
     "stars": 6,
-    "updated_at": "2026-10-05T12:57:04Z",
+    "updated_at": "2026-10-05T13:00:53Z",
     "url": "https://github.com/nu-nenoi/repo-nexus"
   },
   {
@@ -14,7 +41,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-05T12:45:43Z",
+    "updated_at": "2026-10-05T13:00:48Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -41,7 +68,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 155565,
+    "stars": 155579,
     "updated_at": "2026-10-05T12:21:47Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -471,32 +498,5 @@
     "stars": 0,
     "updated_at": "2026-10-04T03:13:54Z",
     "url": "https://github.com/Jcxu97/cursor-style-rule"
-  },
-  {
-    "description": "Architectural drift prevention for the agentic AI SDLC.",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 23,
-    "updated_at": "2026-10-05T12:53:13Z",
-    "url": "https://github.com/MnemeHQ/mneme"
-  },
-  {
-    "description": "My life's work: a deterministic engineering harness for Cursor.",
-    "id": "kleosr/bridle",
-    "language": "Shell",
-    "name": "kleosr/bridle",
-    "stars": 1,
-    "updated_at": "2026-10-04T02:03:21Z",
-    "url": "https://github.com/kleosr/bridle"
-  },
-  {
-    "description": "f you are looking for Cursor download, Download Cursor, Cursor for Windows, or Cursor AI download, the Windows desktop a",
-    "id": "Cursor-2026/.github",
-    "language": "\u2014",
-    "name": "Cursor-2026/.github",
-    "stars": 0,
-    "updated_at": "2026-10-04T00:30:26Z",
-    "url": "https://github.com/Cursor-2026/.github"
   }
 ]
