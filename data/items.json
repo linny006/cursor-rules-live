@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-05T18:30:39Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
     "id": "agenticstandardcontact-byte/agentic-architect",
     "language": "HTML",
@@ -7,15 +16,6 @@
     "stars": 0,
     "updated_at": "2026-10-05T18:26:57Z",
     "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-05T18:15:37Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -28,17 +28,8 @@
     "language": "Python",
     "name": "roedyrustam/vibes-plug",
     "stars": 73,
-    "updated_at": "2026-10-05T18:10:03Z",
+    "updated_at": "2026-10-05T18:37:39Z",
     "url": "https://github.com/roedyrustam/vibes-plug"
-  },
-  {
-    "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
-    "id": "cowboy937/Cursor-Desktop-2026",
-    "language": "\u2014",
-    "name": "cowboy937/Cursor-Desktop-2026",
-    "stars": 1,
-    "updated_at": "2026-10-05T17:05:35Z",
-    "url": "https://github.com/cowboy937/Cursor-Desktop-2026"
   },
   {
     "cursorrules": {
@@ -69,7 +60,7 @@
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 1,
-    "updated_at": "2026-10-05T18:25:51Z",
+    "updated_at": "2026-10-05T18:44:22Z",
     "url": "https://github.com/bompus/house-rules"
   },
   {
@@ -82,7 +73,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 155839,
+    "stars": 155847,
     "updated_at": "2026-10-05T16:23:29Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -350,7 +341,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40216,
+    "stars": 40217,
     "updated_at": "2026-10-05T01:07:11Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -508,5 +499,14 @@
     "stars": 0,
     "updated_at": "2026-10-04T07:03:17Z",
     "url": "https://github.com/johnwall123459885/skene-cookbook"
+  },
+  {
+    "description": "Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows.",
+    "id": "ajhcs/healthcare-agents",
+    "language": "JavaScript",
+    "name": "ajhcs/healthcare-agents",
+    "stars": 51,
+    "updated_at": "2026-10-04T03:32:41Z",
+    "url": "https://github.com/ajhcs/healthcare-agents"
   }
 ]
