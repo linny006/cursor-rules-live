@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-06T19:46:01Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "The toolchain that stops AI coding agents from writing broken, deprecated code.",
     "id": "Aaditya1273/Agent.md",
     "language": "\u2014",
@@ -16,15 +25,6 @@
     "stars": 1,
     "updated_at": "2026-10-06T19:35:39Z",
     "url": "https://github.com/bompus/house-rules"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-06T19:30:44Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Official integrations and installable doctrine for AI Design Blueprint: MCP, IDE rules, prompt files, and agent runtimes",
@@ -377,7 +377,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 156690,
+    "stars": 156698,
     "updated_at": "2026-10-05T20:46:39Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
