@@ -1,11 +1,20 @@
 [
   {
+    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
+    "id": "bompus/house-rules",
+    "language": "JavaScript",
+    "name": "bompus/house-rules",
+    "stars": 1,
+    "updated_at": "2026-10-06T05:36:53Z",
+    "url": "https://github.com/bompus/house-rules"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-06T05:15:51Z",
+    "updated_at": "2026-10-06T05:30:38Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -118,15 +127,6 @@
     "url": "https://github.com/xtieume/testcase"
   },
   {
-    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
-    "id": "bompus/house-rules",
-    "language": "JavaScript",
-    "name": "bompus/house-rules",
-    "stars": 1,
-    "updated_at": "2026-10-06T05:28:31Z",
-    "url": "https://github.com/bompus/house-rules"
-  },
-  {
     "description": "Accessibility is not a request. A practical, lived-experience toolkit for making digital products and printables usable ",
     "id": "gabrieldcpaiva/not-optional",
     "language": "Shell",
@@ -186,7 +186,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 156132,
+    "stars": 156143,
     "updated_at": "2026-10-05T20:46:39Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -396,7 +396,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40232,
+    "stars": 40233,
     "updated_at": "2026-10-05T01:07:11Z",
     "url": "https://github.com/wshobson/agents"
   },

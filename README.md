@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-06 05:30 UTC
+> ⏰ Last updated: 2026-10-06 05:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,25 +53,25 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-06 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 2 | [heymegabyte/agent-skills](https://github.com/heymegabyte/agent-skills) | 22 | TypeScript | 2026-10-06 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/agent-skills/) | Agent Skills — agent-neutral autonomous product-building OS for 32+ AI coding tools. 23 skill categories · 28 agents · 1 |
-| 3 | [plumpslabs/matcha](https://github.com/plumpslabs/matcha) | 2 | JavaScript | 2026-10-06 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/plumpslabs/matcha/) | 🍵 Deliberate engineering guidelines & deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block |
-| 4 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-06 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
-| 5 | [primaybr/quench](https://github.com/primaybr/quench) | 1 | Python | 2026-10-06 | — | The hardening moment. A production-grade Skills ecosystem for AI Agents. |
-| 6 | [XAKLESK/cre-agent-skills](https://github.com/XAKLESK/cre-agent-skills) | 8 | — | 2026-10-06 | — | Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc |
-| 7 | [Amirun99/agency-orchestrator](https://github.com/Amirun99/agency-orchestrator) | 0 | Dart | 2026-10-06 | — | Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support. |
-| 8 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-10-06 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 9 | [zinxj/uikit-expert-skill](https://github.com/zinxj/uikit-expert-skill) | 5 | — | 2026-10-06 | — | Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan |
-| 10 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-10-06 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
-| 11 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-10-06 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
-| 12 | [xtieume/testcase](https://github.com/xtieume/testcase) | 4 | Python | 2026-10-06 | — | Agent skills that take a requirement to shipped code: audit the spec, turn it into real tests, then build until every ch |
-| 13 | [bompus/house-rules](https://github.com/bompus/house-rules) | 1 | JavaScript | 2026-10-06 | — | Working rules and skills for AI coding agents, layered as base, modifiers, person and project |
+| 1 | [bompus/house-rules](https://github.com/bompus/house-rules) | 1 | JavaScript | 2026-10-06 | — | Working rules and skills for AI coding agents, layered as base, modifiers, person and project |
+| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-06 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 3 | [heymegabyte/agent-skills](https://github.com/heymegabyte/agent-skills) | 22 | TypeScript | 2026-10-06 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/agent-skills/) | Agent Skills — agent-neutral autonomous product-building OS for 32+ AI coding tools. 23 skill categories · 28 agents · 1 |
+| 4 | [plumpslabs/matcha](https://github.com/plumpslabs/matcha) | 2 | JavaScript | 2026-10-06 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/plumpslabs/matcha/) | 🍵 Deliberate engineering guidelines & deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block |
+| 5 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-06 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
+| 6 | [primaybr/quench](https://github.com/primaybr/quench) | 1 | Python | 2026-10-06 | — | The hardening moment. A production-grade Skills ecosystem for AI Agents. |
+| 7 | [XAKLESK/cre-agent-skills](https://github.com/XAKLESK/cre-agent-skills) | 8 | — | 2026-10-06 | — | Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc |
+| 8 | [Amirun99/agency-orchestrator](https://github.com/Amirun99/agency-orchestrator) | 0 | Dart | 2026-10-06 | — | Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support. |
+| 9 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-10-06 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
+| 10 | [zinxj/uikit-expert-skill](https://github.com/zinxj/uikit-expert-skill) | 5 | — | 2026-10-06 | — | Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan |
+| 11 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-10-06 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
+| 12 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-10-06 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
+| 13 | [xtieume/testcase](https://github.com/xtieume/testcase) | 4 | Python | 2026-10-06 | — | Agent skills that take a requirement to shipped code: audit the spec, turn it into real tests, then build until every ch |
 | 14 | [gabrieldcpaiva/not-optional](https://github.com/gabrieldcpaiva/not-optional) | 1 | Shell | 2026-10-06 | — | Accessibility is not a request. A practical, lived-experience toolkit for making digital products and printables usable  |
 | 15 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 48 | — | 2026-10-06 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
 | 16 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 24 | Python | 2026-10-06 | — | Architectural drift prevention for the agentic AI SDLC. |
 | 17 | [pahlevikun/levistack](https://github.com/pahlevikun/levistack) | 0 | Python | 2026-10-05 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/pahlevikun/levistack/) | Agent skills for people tired of AI slop. 35 skills, 11 subagents, 41 rules and 5 hooks for Claude Code, Cursor and Code |
 | 18 | [taniwhaai/arai](https://github.com/taniwhaai/arai) | 7 | Rust | 2026-10-05 | — | Your AI assistant reads CLAUDE.md and ignores it anyway. Ārai makes instruction files enforced — hooks that block, a tam |
-| 19 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 156132 | JavaScript | 2026-10-05 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 19 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 156143 | JavaScript | 2026-10-05 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 20 | [powersync-ja/agent-skills](https://github.com/powersync-ja/agent-skills) | 20 | JavaScript | 2026-10-05 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/powersync-ja/agent-skills/) | Official agent skills for PowerSync |
 | 21 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-10-05 | — | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
 | 22 | [roedyrustam/vibes-plug](https://github.com/roedyrustam/vibes-plug) | 73 | Python | 2026-10-05 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/roedyrustam/vibes-plug/) | ⚡ Universal Skill AI Agent Swarm Architecture for Antigravity, Claude Code, Cursor, and Windsurf. Vibe Coding 2.0 with Z |
@@ -91,7 +91,7 @@ expired items removed — so you can rely on what you see being current.
 | 36 | [Catherine1401/agent-skills](https://github.com/Catherine1401/agent-skills) | 2 | Shell | 2026-10-05 | — | Portable skills and shared policies for Codex, Claude Code, and Cursor on Linux. |
 | 37 | [sublimecoder/sublimecoding](https://github.com/sublimecoder/sublimecoding) | 0 | — | 2026-10-05 | — | 🛠️ Free Claude Code & Cursor prompts for senior engineers — plus AIOS, an open-source markdown memory system for coding  |
 | 38 | [yxdwind/english-memory-method](https://github.com/yxdwind/english-memory-method) | 0 | HTML | 2026-10-05 | — | 英文文章背诵技巧 |
-| 39 | [wshobson/agents](https://github.com/wshobson/agents) | 40232 | Python | 2026-10-05 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
+| 39 | [wshobson/agents](https://github.com/wshobson/agents) | 40233 | Python | 2026-10-05 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
 | 40 | [GeiserX/lynxprompt-vscode](https://github.com/GeiserX/lynxprompt-vscode) | 2 | TypeScript | 2026-10-04 | — | VS Code extension for LynxPrompt — browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules)  |
 | 41 | [kyle-visner/agent-skills](https://github.com/kyle-visner/agent-skills) | 0 | — | 2026-10-04 | — | Safe write access for AI agents: a skill, Claude Code plugin, Cursor rule and framework examples for AvianSuite, where e |
 | 42 | [EvilFreelancer/rpa-gen-rules](https://github.com/EvilFreelancer/rpa-gen-rules) | 1 | Python | 2026-10-04 | — | Agent skill for Claude Code, Codex and Cursor: generate or refresh project rules (.cursor/rules/*.mdc, CLAUDE.md and .cl |
