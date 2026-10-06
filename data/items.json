@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-06T12:15:47Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
     "id": "KbWen/agentic-os",
     "language": "Python",
@@ -7,15 +16,6 @@
     "stars": 206,
     "updated_at": "2026-10-06T12:13:04Z",
     "url": "https://github.com/KbWen/agentic-os"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-06T12:00:40Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -64,7 +64,7 @@
     "language": "JavaScript",
     "name": "roedyrustam/vibes-plug",
     "stars": 73,
-    "updated_at": "2026-10-06T11:20:44Z",
+    "updated_at": "2026-10-06T12:18:42Z",
     "url": "https://github.com/roedyrustam/vibes-plug"
   },
   {
@@ -227,6 +227,15 @@
     "url": "https://github.com/heymegabyte/agent-skills"
   },
   {
+    "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
+    "id": "HoangNguyen0403/agent-skills-standard",
+    "language": "TypeScript",
+    "name": "HoangNguyen0403/agent-skills-standard",
+    "stars": 569,
+    "updated_at": "2026-10-06T05:03:02Z",
+    "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: Kuma MCP \u2014 safety and context runtime for AI agents\nalwaysApply: true\n---\n\nKuma MCP tools: kuma_context, kuma_memory, kuma_safety.\nRecord what matters, skip what doesn't.\n\n<kuma_obedience>\n## \ud83d\udd12 Obedience (non-negotiable)\n- MUST call `kuma_context({ action: \"init\" })` at session start.\n- MUST record gotchas IMMEDIATELY when a bug/quirk is found.\n- MUST call `kuma_safety({ action: \"verify\" })` after edits.\n- MUST NOT call actions outside the 13 core actions.\n</kuma_obedience>\n\n<kuma_workflow>\n\ud83e\udde0 **Before coding:** `kuma_context({ action: \"init\" })`\n\ud83d\udd2c **Unfamiliar code:** `kuma_context({ action: \"research\", scope: \"<area>\" })`\n\ud83d\udc1b **Found a bug/quirk:** `kuma_memory({ action: \"gotcha\" })` (IMMEDIATELY)\n\ud83e\udded **Chose between options:** `kuma_memory({ action: \"decision\" })`\n\ud83d\udd00 **Traced a flow:** `kuma_memory({ action: \"arch_flow\" })` (max 5 files)\n\ud83d\udee1\ufe0f **Before risky work / after edits:** `kuma_safety({ action: \"guard\" | \"verify\" })`\n</kuma_workflow>\n\n\ud83d\udcd6 Full rules: `.kuma/init.md`\n\n\ud83d\udcd6 **Usage:**\n  \u2022 `kuma_context({ action: \"init\" })` \u2014 load project context (call first)\n  \u2022 `kuma_safety({ action: \"guard\" })` \u2014 safety check before risky ops\n  \u2022 `kuma_safety({ action: \"verify\", scope: \"<area>\" })` \u2014 verify after edits\n  \u2022 `.kuma/init.md` \u2014 full behavioral rules\n  \u2022 `.kuma/KNOWN_GOTCHAS.md` \u2014 gotchas \u00b7 `.kuma/memories/decisions.md` \u2014 decisions (readable)",
       "format": "mdc",
@@ -291,7 +300,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 156405,
+    "stars": 156416,
     "updated_at": "2026-10-05T20:46:39Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -499,14 +508,5 @@
     "stars": 0,
     "updated_at": "2026-10-04T22:25:06Z",
     "url": "https://github.com/kyle-visner/agent-skills"
-  },
-  {
-    "description": "Agent skill for Claude Code, Codex and Cursor: generate or refresh project rules (.cursor/rules/*.mdc, CLAUDE.md and .cl",
-    "id": "EvilFreelancer/rpa-gen-rules",
-    "language": "Python",
-    "name": "EvilFreelancer/rpa-gen-rules",
-    "stars": 1,
-    "updated_at": "2026-10-04T21:10:55Z",
-    "url": "https://github.com/EvilFreelancer/rpa-gen-rules"
   }
 ]
