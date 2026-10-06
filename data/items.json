@@ -1,12 +1,12 @@
 [
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-06T09:15:35Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
+    "description": "MAWYXX PRIME \u2014 The Ultimate AI Architecture Constitution & System Prompt for Cursor, Windsurf, and Copilot. Zero-Trust A",
+    "id": "Mawyxx/Mawyxx-Prime",
+    "language": "\u2014",
+    "name": "Mawyxx/Mawyxx-Prime",
+    "stars": 2,
+    "updated_at": "2026-10-06T09:43:02Z",
+    "url": "https://github.com/Mawyxx/Mawyxx-Prime"
   },
   {
     "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
@@ -14,8 +14,17 @@
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 1,
-    "updated_at": "2026-10-06T09:29:55Z",
+    "updated_at": "2026-10-06T09:38:33Z",
     "url": "https://github.com/bompus/house-rules"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-06T09:30:42Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony.",
@@ -209,7 +218,7 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 24,
-    "updated_at": "2026-10-06T00:51:11Z",
+    "updated_at": "2026-10-06T09:35:51Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
@@ -245,7 +254,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 156308,
+    "stars": 156314,
     "updated_at": "2026-10-05T20:46:39Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -346,7 +355,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21068,
+    "stars": 21069,
     "updated_at": "2026-10-05T13:05:32Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -499,19 +508,5 @@
     "stars": 0,
     "updated_at": "2026-10-04T19:50:56Z",
     "url": "https://github.com/PiloTracer/pilo.ai.logicbison"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: FastAPI, SQLAlchemy 2.0 async, asyncpg, and Alembic standards for Python web services and persistence. Apply when building HTTP APIs, route handlers, ORM entities, repositories, Unit of Work implementations, or database migrations. Extends the core `python` rule.\nalwaysApply: false\n---\n# Python Web Service & Persistence Guidelines\n\nExtends the core `python` rule; everything there still applies.\n\n## 1. API Design (Presentation)\n- FastAPI with explicit request/response models; never return ORM entities or Domain models directly.\n- Version APIs (`/api/v1/...`), use consistent pagination, and keep OpenAPI docs accurate.\n- Keep route handlers thin: validate input, map to an Application Command, call the service, map the result.\n- Declare dependencies as `Annotated[T, Depends(...)]`; never use `Depends` as a default argument value.\n- Request bodies: `ConfigDict(frozen=True, extra=\"forbid\")` without model-level `strict=True` (FastAPI validates the parsed JSON in Python mode, so strict rejects string `UUID`/`datetime`/`Decimal`). Apply `Field(strict=True)` to individual primitive fields instead.\n- Install `fastapi`, not `fastapi[standard]` (pulls `httpx` -> `certifi`, MPL-2.0).\n\n## 2. Composition & Errors\n- Build the app in a `create_app(settings)` factory. Create the engine and session factory in the `lifespan` handler and dispose of them on shutdown.\n- Annotate `lifespan` and generator dependencies with `AsyncGenerator[T]`, not `AsyncIterator[T]`.\n- Map `DomainError` subclasses to HTTP status codes in one exception handler, returning RFC 9457 Problem Details (`application/problem+json`).\n\n## 3. Database & Migrations\n- SQLAlchemy 2.0 async style with typed `Mapped[...]` columns.\n- Postgres driver: `asyncpg` (Apache-2.0). Do not use `psycopg2` or `psycopg` 3; both are LGPL-licensed.\n- One `AsyncSession` per request, owned by the Unit of Work. Never share a session across concurrent tasks.\n- Use `async_sessionmaker(engine, expire_on_commit=False)` and enable `pool_pre_ping=True`.\n- All schema changes go through Alembic migrations.\n\n## Example Output Standard\n\n`src/app/customers/infrastructure.py`:\n```python\nfrom types import TracebackType\nfrom typing import Self, override\nfrom uuid import UUID\n\nfrom sqlalchemy import String\nfrom sqlalchemy.ext.asyncio import AsyncSession\nfrom sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column\n\nfrom app.customers.domain import Customer, CustomerId\nfrom app.customers.services import CustomerRepository, UnitOfWork\n\n\nclass Base(DeclarativeBase):\n    \"\"\"Declarative base for ORM entities.\"\"\"\n\n\nclass CustomerEntity(Base):\n    \"\"\"ORM entity for the `customers` table.\"\"\"\n\n    __tablename__ = \"customers\"\n\n    id: Mapped[UUID] = mapped_column(primary_key=True)\n    email: Mapped[str] = mapped_column(String(255), unique=True)\n    age: Mapped[int]\n\n\nclass SqlCustomerRepository(CustomerRepository):\n    \"\"\"SQLAlchemy-backed customer repository.\"\"\"\n\n    def __init__(self, session: AsyncSession) -> None:\n        self._session = session\n\n    @override\n    async def get_by_id(self, customer_id: CustomerId) -> Customer | None:\n        entity = await self._session.get(CustomerEntity, customer_id)\n        if entity is None:\n            return None\n        return Customer(id=entity.id, email=entity.email, age=entity.age)\n\n    @override\n    async def add(self, customer: Customer) -> None:\n        entity = CustomerEntity(id=customer.id, email=customer.email, age=customer.age)\n        self._session.add(entity)\n\n\nclass SqlUnitOfWork(UnitOfWork):\n    \"\"\"Unit of Work bound to one `AsyncSession`; rolls back unless committed.\"\"\"\n\n    def __init__(self, session: AsyncSession) -> None:\n        self._session = session\n        self._customers = SqlCustomerRepository(session)\n\n    @property\n    @override\n    def customers(self) -> CustomerRepository:\n        return self._customers\n\n    @override\n    async def __aenter__(self) -> Self:\n        return self\n\n    @override\n    async def __aexit__(\n        self,\n        exc_type: type[BaseException] | None,\n        exc: BaseException | None,\n        tb: TracebackType | None,\n    ) -> None:\n        await self._session.rollback()\n\n    @override\n    async def commit(self) -> None:\n        await self._session.commit()\n```\n\n`src/app/customers/api.py`:\n```python\nfrom collections.abc import AsyncGenerator\nfrom typing import Annotated\nfrom uuid import UUID\n\nfrom fastapi import APIRouter, Depends, Request, status\nfrom pydantic import BaseModel, ConfigDict, EmailStr, Field\nfrom sqlalchemy.ext.asyncio import AsyncSession, async_sessionmaker\n\nfrom app.customers.infrastructure import SqlUnitOfWork\nfrom app.customers.services import CustomerService, RegisterCustomerCommand\n\n\nclass RegisterCustomerRequest(BaseModel):\n    \"\"\"Request body for registering a customer.\"\"\"\n\n    model_config = ConfigDict(frozen=True, extra=\"forbid\")\n\n    email: EmailStr = Field(max_length=255)\n    age: int = Field(ge=18, strict=True)\n\n\nclass CustomerCreatedResponse(BaseModel):\n    \"\"\"Response body for a newly registered customer.\"\"\"\n\n    id: UUID\n\n\nasync def get_session(request: Request) -> AsyncGenerator[AsyncSession]:\n    \"\"\"Yield a request-scoped database session.\"\"\"\n    session_factory: async_sessionmaker[AsyncSession] = (\n        request.app.state.session_factory\n    )\n    async with session_factory() as session:\n        yield session\n\n\ndef get_customer_service(\n    session: Annotated[AsyncSession, Depends(get_session)],\n) -> CustomerService:\n    \"\"\"Build a `CustomerService` for the current request.\"\"\"\n    return CustomerService(SqlUnitOfWork(session))\n\n\nrouter = APIRouter(prefix=\"/api/v1/customers\", tags=[\"customers\"])\n\n\n@router.post(\"\", status_code=status.HTTP_201_CREATED)\nasync def register_customer(\n    body: RegisterCustomerRequest,\n    service: Annotated[CustomerService, Depends(get_customer_service)],\n) -> CustomerCreatedResponse:\n    \"\"\"Register a new customer.\"\"\"\n    command = RegisterCustomerCommand(email=body.email, age=body.age)\n    customer_id = await service.register(command)\n    return CustomerCreatedResponse(id=customer_id)\n```\n\n`src/app/main.py`:\n```python\nfrom collections.abc import AsyncGenerator\nfrom contextlib import asynccontextmanager\nfrom http import HTTPStatus\n\nfrom fastapi import FastAPI, Request\nfrom fastapi.responses import JSONResponse\nfrom sqlalchemy.ext.asyncio import async_sessionmaker, create_async_engine\n\nfrom app.config import Settings\nfrom app.customers.api import router as customers_router\nfrom app.customers.domain import CustomerRestrictedError, DomainError\n\n\ndef create_app(settings: Settings) -> FastAPI:\n    \"\"\"Composition root: wire infrastructure, routers, and error handlers.\"\"\"\n\n    @asynccontextmanager\n    async def lifespan(app: FastAPI) -> AsyncGenerator[None]:\n        database_url = settings.database_url.get_secret_value()\n        engine = create_async_engine(database_url, pool_size=10, pool_pre_ping=True)\n        app.state.session_factory = async_sessionmaker(engine, expire_on_commit=False)\n        yield\n        await engine.dispose()\n\n    app = FastAPI(lifespan=lifespan)\n    app.include_router(customers_router)\n\n    @app.exception_handler(DomainError)\n    async def handle_domain_error(request: Request, exc: DomainError) -> JSONResponse:\n        match exc:\n            case CustomerRestrictedError():\n                status_code = HTTPStatus.UNPROCESSABLE_CONTENT\n            case _:\n                status_code = HTTPStatus.BAD_REQUEST\n\n        problem = {\n            \"type\": \"about:blank\",\n            \"title\": status_code.phrase,\n            \"status\": status_code.value,\n            \"detail\": str(exc),\n            \"instance\": request.url.path,\n        }\n        return JSONResponse(\n            problem, status_code=status_code, media_type=\"application/problem+json\"\n        )\n\n    return app\n```\n",
-      "format": "mdc",
-      "path": ".cursor/rules/python-fastapi.mdc"
-    },
-    "description": "A shareable collection of opinionated, enterprise-grade Cursor rules for modern languages and frameworks, covering archi",
-    "id": "ginoabraham/cursor_rules",
-    "language": "\u2014",
-    "name": "ginoabraham/cursor_rules",
-    "stars": 0,
-    "updated_at": "2026-10-04T18:05:33Z",
-    "url": "https://github.com/ginoabraham/cursor_rules"
   }
 ]
