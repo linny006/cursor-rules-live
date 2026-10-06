@@ -1,5 +1,23 @@
 [
   {
+    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 206,
+    "updated_at": "2026-10-06T12:13:04Z",
+    "url": "https://github.com/KbWen/agentic-os"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-06T12:00:40Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
     "id": "J-nowcow/awesome-korean-agent-skills",
     "language": "\u2014",
@@ -9,21 +27,12 @@
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-06T11:45:52Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Architectural drift prevention for the agentic AI SDLC.",
     "id": "MnemeHQ/mneme",
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 24,
-    "updated_at": "2026-10-06T11:45:22Z",
+    "updated_at": "2026-10-06T12:13:17Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
@@ -282,7 +291,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 156395,
+    "stars": 156405,
     "updated_at": "2026-10-05T20:46:39Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -331,15 +340,6 @@
     "stars": 0,
     "updated_at": "2026-10-05T13:53:01Z",
     "url": "https://github.com/piekwerk/agents-md-examples"
-  },
-  {
-    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
-    "id": "KbWen/agentic-os",
-    "language": "Python",
-    "name": "KbWen/agentic-os",
-    "stars": 206,
-    "updated_at": "2026-10-06T11:04:46Z",
-    "url": "https://github.com/KbWen/agentic-os"
   },
   {
     "description": "Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml",
@@ -478,7 +478,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40235,
+    "stars": 40238,
     "updated_at": "2026-10-05T01:07:11Z",
     "url": "https://github.com/wshobson/agents"
   },
