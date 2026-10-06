@@ -1,12 +1,12 @@
 [
   {
-    "description": "404\u4f53\u306e\u5373\u6226\u529bAI\u5c02\u9580\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u96c6 \u2014 Claude Code / Cursor / Copilot \u7b49\u306b\u5bfe\u5fdc\u3002\u65e5\u672c\u5e02\u5834\u5411\u3051\u30aa\u30ea\u30b8\u30ca\u30eb125\u4f53\uff08SIer\u30fb\u53d7\u8a17\u958b\u767a\u30fbSaaS\u30fb\u88fd\u9020DX\u30fb\u516c\u5171\u5206\u91ce\uff09\u3002agency-agents\u306e\u65e5\u672c\u8a9e\u30b3\u30df\u30e5",
-    "id": "sscodeai/agency-agents-ja",
-    "language": "Shell",
-    "name": "sscodeai/agency-agents-ja",
-    "stars": 8,
-    "updated_at": "2026-10-06T11:34:26Z",
-    "url": "https://github.com/sscodeai/agency-agents-ja"
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 48,
+    "updated_at": "2026-10-06T11:59:30Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,26 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-06T11:30:48Z",
+    "updated_at": "2026-10-06T11:45:52Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Architectural drift prevention for the agentic AI SDLC.",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 24,
+    "updated_at": "2026-10-06T11:45:22Z",
+    "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
+    "description": "404\u4f53\u306e\u5373\u6226\u529bAI\u5c02\u9580\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u96c6 \u2014 Claude Code / Cursor / Copilot \u7b49\u306b\u5bfe\u5fdc\u3002\u65e5\u672c\u5e02\u5834\u5411\u3051\u30aa\u30ea\u30b8\u30ca\u30eb125\u4f53\uff08SIer\u30fb\u53d7\u8a17\u958b\u767a\u30fbSaaS\u30fb\u88fd\u9020DX\u30fb\u516c\u5171\u5206\u91ce\uff09\u3002agency-agents\u306e\u65e5\u672c\u8a9e\u30b3\u30df\u30e5",
+    "id": "sscodeai/agency-agents-ja",
+    "language": "Shell",
+    "name": "sscodeai/agency-agents-ja",
+    "stars": 8,
+    "updated_at": "2026-10-06T11:34:26Z",
+    "url": "https://github.com/sscodeai/agency-agents-ja"
   },
   {
     "description": "Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony.",
@@ -232,24 +250,6 @@
     "url": "https://github.com/xtieume/testcase"
   },
   {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 48,
-    "updated_at": "2026-10-06T00:55:14Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "description": "Architectural drift prevention for the agentic AI SDLC.",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 24,
-    "updated_at": "2026-10-06T11:45:22Z",
-    "url": "https://github.com/MnemeHQ/mneme"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: \"Comments are a last resort: only for non-obvious constraints, gotchas and trade-offs the code cannot express.\"\nglobs: \"**/*.{go,ts,tsx,js,jsx,py,rb,ex,exs,md}\"\nalwaysApply: false\n---\n\n# Comments: extremely rare by design\n\nComments cost tokens, rot silently and hide bad naming. **Default: do not write one.** Add one only when names, types, structure, tests and error handling cannot express the truth.\n\n## Allowed\n- A subtle correctness, security or concurrency gotcha the types do not make obvious.\n- A non-obvious performance, ordering or consistency trade-off (\"must run before X because of Y\").\n- An external constraint invisible in the code (\"the gateway already rate-limits this; do not add another check\"), ideally with a link to the decision record.\n- A contract detail on an exported symbol that the name, signature and tests still leave ambiguous (improve the name first).\n\n## Never\n- Narrating the next line (\"build the request\", \"call the client\", \"return the result\").\n- Restating what a test or assertion already verifies.\n- Describing the change you just made (\"added X for Y\").\n- Section dividers or paraphrasing a function name in a doc comment.\n- Planning notes the decision record should hold.\n\n## Prefer instead\nBetter names, smaller functions, stronger types (enums and newtypes over \"this bool means X\"), tests as executable specification, structured config over magic comments.\n\nIf you feel the urge to explain *what* the code does, rename or restructure instead. When reviewing, delete narrative comments.\n\n## Documentation is not a comment\nModule and function docs, architecture notes, API contracts, migration notes and skills are documentation, not disposable comments. Keep them accurate and explanatory, and **update or delete stale documentation in the same change as the code.**\n\n## Docs comments\nExported-symbol docs (godoc, docstrings) are allowed when the name and signature do not communicate the contract or an important caveat. Restating the name is forbidden, same bar as inline comments.\n",
       "format": "mdc",
@@ -282,7 +282,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 156386,
+    "stars": 156395,
     "updated_at": "2026-10-05T20:46:39Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -369,7 +369,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21070,
+    "stars": 21071,
     "updated_at": "2026-10-05T13:05:32Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
