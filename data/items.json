@@ -1,5 +1,23 @@
 [
   {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 3,
+    "updated_at": "2026-10-06T17:15:49Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-06T17:15:45Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony.",
     "id": "saqie803/ponytail",
     "language": "JavaScript",
@@ -16,15 +34,6 @@
     "stars": 1,
     "updated_at": "2026-10-06T17:03:15Z",
     "url": "https://github.com/bompus/house-rules"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-06T17:00:56Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -214,15 +223,6 @@
     "url": "https://github.com/Mawyxx/Mawyxx-Prime"
   },
   {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 3,
-    "updated_at": "2026-10-06T10:28:59Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
     "description": "Chinese-first concise mode SKILL.md for Claude Code / Codex CLI / Cursor \u2014 shorter, denser replies without losing techni",
     "id": "Cpp1022/concise",
     "language": "PowerShell",
@@ -230,15 +230,6 @@
     "stars": 3,
     "updated_at": "2026-10-06T08:08:12Z",
     "url": "https://github.com/Cpp1022/concise"
-  },
-  {
-    "description": "My life's work: a deterministic engineering harness for Cursor.",
-    "id": "kleosr/bridle",
-    "language": "Shell",
-    "name": "kleosr/bridle",
-    "stars": 0,
-    "updated_at": "2026-10-06T07:00:55Z",
-    "url": "https://github.com/kleosr/bridle"
   },
   {
     "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
@@ -341,7 +332,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 156616,
+    "stars": 156626,
     "updated_at": "2026-10-05T20:46:39Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -508,5 +499,14 @@
     "stars": 2,
     "updated_at": "2026-10-04T22:44:06Z",
     "url": "https://github.com/GeiserX/lynxprompt-vscode"
+  },
+  {
+    "description": "Safe write access for AI agents: a skill, Claude Code plugin, Cursor rule and framework examples for AvianSuite, where e",
+    "id": "kyle-visner/agent-skills",
+    "language": "\u2014",
+    "name": "kyle-visner/agent-skills",
+    "stars": 0,
+    "updated_at": "2026-10-04T22:25:06Z",
+    "url": "https://github.com/kyle-visner/agent-skills"
   }
 ]
