@@ -1,11 +1,20 @@
 [
   {
+    "description": "Modular, scalable, automated development intelligence.",
+    "id": "DongDuong2001/pudo-code-system",
+    "language": "JavaScript",
+    "name": "DongDuong2001/pudo-code-system",
+    "stars": 5,
+    "updated_at": "2026-10-06T18:07:00Z",
+    "url": "https://github.com/DongDuong2001/pudo-code-system"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-06T17:45:38Z",
+    "updated_at": "2026-10-06T18:00:45Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -341,7 +350,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 156639,
+    "stars": 156646,
     "updated_at": "2026-10-05T20:46:39Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -487,7 +496,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40245,
+    "stars": 40246,
     "updated_at": "2026-10-05T01:07:11Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -499,14 +508,5 @@
     "stars": 2,
     "updated_at": "2026-10-04T22:44:06Z",
     "url": "https://github.com/GeiserX/lynxprompt-vscode"
-  },
-  {
-    "description": "Safe write access for AI agents: a skill, Claude Code plugin, Cursor rule and framework examples for AvianSuite, where e",
-    "id": "kyle-visner/agent-skills",
-    "language": "\u2014",
-    "name": "kyle-visner/agent-skills",
-    "stars": 0,
-    "updated_at": "2026-10-04T22:25:06Z",
-    "url": "https://github.com/kyle-visner/agent-skills"
   }
 ]
