@@ -1,11 +1,29 @@
 [
   {
+    "description": "Zero-data-loss file snapshotting, SemVer classification, and dual-ledger audit trail for autonomous AI coding & research",
+    "id": "ainullm/agent-checkpoint",
+    "language": "\u2014",
+    "name": "ainullm/agent-checkpoint",
+    "stars": 1,
+    "updated_at": "2026-10-06T14:29:45Z",
+    "url": "https://github.com/ainullm/agent-checkpoint"
+  },
+  {
+    "description": "Portable skills and shared policies for Codex, Claude Code, and Cursor on Linux.",
+    "id": "Catherine1401/agent-skills",
+    "language": "Shell",
+    "name": "Catherine1401/agent-skills",
+    "stars": 2,
+    "updated_at": "2026-10-06T14:27:48Z",
+    "url": "https://github.com/Catherine1401/agent-skills"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-06T14:00:46Z",
+    "updated_at": "2026-10-06T14:15:50Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -14,7 +32,7 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 24,
-    "updated_at": "2026-10-06T14:08:28Z",
+    "updated_at": "2026-10-06T14:25:06Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
@@ -66,15 +84,6 @@
     "stars": 0,
     "updated_at": "2026-10-06T12:59:40Z",
     "url": "https://github.com/johnwall123459885/skene-cookbook"
-  },
-  {
-    "description": "Zero-data-loss file snapshotting, SemVer classification, and dual-ledger audit trail for autonomous AI coding & research",
-    "id": "ainullm/agent-checkpoint",
-    "language": "\u2014",
-    "name": "ainullm/agent-checkpoint",
-    "stars": 1,
-    "updated_at": "2026-10-06T12:59:19Z",
-    "url": "https://github.com/ainullm/agent-checkpoint"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -309,7 +318,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 156496,
+    "stars": 156502,
     "updated_at": "2026-10-05T20:46:39Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -387,7 +396,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21072,
+    "stars": 21073,
     "updated_at": "2026-10-05T13:05:32Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -458,15 +467,6 @@
     "stars": 3,
     "updated_at": "2026-10-05T06:00:06Z",
     "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
-  },
-  {
-    "description": "Portable skills and shared policies for Codex, Claude Code, and Cursor on Linux.",
-    "id": "Catherine1401/agent-skills",
-    "language": "Shell",
-    "name": "Catherine1401/agent-skills",
-    "stars": 2,
-    "updated_at": "2026-10-05T03:44:58Z",
-    "url": "https://github.com/Catherine1401/agent-skills"
   },
   {
     "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 plus AIOS, an open-source markdown memory system for coding ",
