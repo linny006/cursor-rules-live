@@ -1,21 +1,12 @@
 [
   {
-    "description": "The toolchain that stops AI coding agents from writing broken, deprecated code.",
-    "id": "Aaditya1273/Agent.md",
-    "language": "\u2014",
-    "name": "Aaditya1273/Agent.md",
-    "stars": 8,
-    "updated_at": "2026-10-06T20:24:33Z",
-    "url": "https://github.com/Aaditya1273/Agent.md"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-06T20:15:46Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
+    "description": "Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml",
+    "id": "nu-nenoi/repo-nexus",
+    "language": "Shell",
+    "name": "nu-nenoi/repo-nexus",
+    "stars": 6,
+    "updated_at": "2026-10-06T20:43:00Z",
+    "url": "https://github.com/nu-nenoi/repo-nexus"
   },
   {
     "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
@@ -23,8 +14,26 @@
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 1,
-    "updated_at": "2026-10-06T19:35:39Z",
+    "updated_at": "2026-10-06T20:40:20Z",
     "url": "https://github.com/bompus/house-rules"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-06T20:30:35Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "The toolchain that stops AI coding agents from writing broken, deprecated code.",
+    "id": "Aaditya1273/Agent.md",
+    "language": "\u2014",
+    "name": "Aaditya1273/Agent.md",
+    "stars": 8,
+    "updated_at": "2026-10-06T20:24:33Z",
+    "url": "https://github.com/Aaditya1273/Agent.md"
   },
   {
     "description": "Official integrations and installable doctrine for AI Design Blueprint: MCP, IDE rules, prompt files, and agent runtimes",
@@ -57,15 +66,6 @@
     "stars": 22,
     "updated_at": "2026-10-06T19:03:00Z",
     "url": "https://github.com/heymegabyte/agent-skills"
-  },
-  {
-    "description": "Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml",
-    "id": "nu-nenoi/repo-nexus",
-    "language": "Shell",
-    "name": "nu-nenoi/repo-nexus",
-    "stars": 6,
-    "updated_at": "2026-10-06T19:00:29Z",
-    "url": "https://github.com/nu-nenoi/repo-nexus"
   },
   {
     "description": "Modular, scalable, automated development intelligence.",
@@ -377,7 +377,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 156719,
+    "stars": 156729,
     "updated_at": "2026-10-05T20:46:39Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
