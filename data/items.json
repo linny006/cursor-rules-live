@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-06T03:15:49Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
     "id": "XAKLESK/cre-agent-skills",
     "language": "\u2014",
@@ -34,15 +43,6 @@
     "stars": 5,
     "updated_at": "2026-10-06T03:04:30Z",
     "url": "https://github.com/zinxj/uikit-expert-skill"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-06T03:00:40Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -163,7 +163,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 156058,
+    "stars": 156066,
     "updated_at": "2026-10-05T20:46:39Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
