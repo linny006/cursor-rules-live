@@ -1,21 +1,30 @@
 [
   {
-    "description": "Accessibility is not a request. A practical, lived-experience toolkit for making digital products and printables usable ",
-    "id": "gabrieldcpaiva/not-optional",
-    "language": "Shell",
-    "name": "gabrieldcpaiva/not-optional",
-    "stars": 1,
-    "updated_at": "2026-10-06T00:09:18Z",
-    "url": "https://github.com/gabrieldcpaiva/not-optional"
-  },
-  {
     "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
     "id": "bompus/house-rules",
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 1,
-    "updated_at": "2026-10-06T00:03:36Z",
+    "updated_at": "2026-10-06T00:25:20Z",
     "url": "https://github.com/bompus/house-rules"
+  },
+  {
+    "description": "Accessibility is not a request. A practical, lived-experience toolkit for making digital products and printables usable ",
+    "id": "gabrieldcpaiva/not-optional",
+    "language": "Shell",
+    "name": "gabrieldcpaiva/not-optional",
+    "stars": 1,
+    "updated_at": "2026-10-06T00:17:24Z",
+    "url": "https://github.com/gabrieldcpaiva/not-optional"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-06T00:15:40Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Architectural drift prevention for the agentic AI SDLC.",
@@ -25,15 +34,6 @@
     "stars": 23,
     "updated_at": "2026-10-06T00:02:37Z",
     "url": "https://github.com/MnemeHQ/mneme"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-06T00:00:51Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -140,7 +140,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 155973,
+    "stars": 155979,
     "updated_at": "2026-10-05T20:46:39Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -373,7 +373,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40221,
+    "stars": 40222,
     "updated_at": "2026-10-05T01:07:11Z",
     "url": "https://github.com/wshobson/agents"
   },
