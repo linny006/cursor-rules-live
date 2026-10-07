@@ -1,11 +1,20 @@
 [
   {
+    "description": "Starter files for the markdown AI agents read: AGENTS.md, CLAUDE.md, SKILL.md, DESIGN.md, llms.txt and a Cursor rule. Ea",
+    "id": "dotcomjack/mdpantry",
+    "language": "\u2014",
+    "name": "dotcomjack/mdpantry",
+    "stars": 0,
+    "updated_at": "2026-10-07T17:32:19Z",
+    "url": "https://github.com/dotcomjack/mdpantry"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-07T17:15:55Z",
+    "updated_at": "2026-10-07T17:30:42Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -454,7 +463,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 157405,
+    "stars": 157416,
     "updated_at": "2026-10-05T20:46:39Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -489,14 +498,5 @@
     "stars": 21098,
     "updated_at": "2026-10-05T13:05:32Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
-  },
-  {
-    "description": "Auto harness engineering meta-repo: discuss \u2192 curate \u2192 bootstrap a context-engineered project for Claude Code, Cursor, C",
-    "id": "glowElephant/context-forge",
-    "language": "Python",
-    "name": "glowElephant/context-forge",
-    "stars": 2,
-    "updated_at": "2026-10-05T10:55:52Z",
-    "url": "https://github.com/glowElephant/context-forge"
   }
 ]
