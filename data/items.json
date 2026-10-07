@@ -1,5 +1,32 @@
 [
   {
+    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
+    "id": "bompus/house-rules",
+    "language": "JavaScript",
+    "name": "bompus/house-rules",
+    "stars": 1,
+    "updated_at": "2026-10-07T08:41:43Z",
+    "url": "https://github.com/bompus/house-rules"
+  },
+  {
+    "description": "Chinese-first concise mode SKILL.md for Claude Code / Codex CLI / Cursor \u2014 shorter, denser replies without losing techni",
+    "id": "Cpp1022/concise",
+    "language": "PowerShell",
+    "name": "Cpp1022/concise",
+    "stars": 3,
+    "updated_at": "2026-10-07T08:40:58Z",
+    "url": "https://github.com/Cpp1022/concise"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-07T08:30:36Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
     "id": "Trentobobbi/uikit-mastery-playbook",
     "language": "HTML",
@@ -30,15 +57,6 @@
     "stars": 1,
     "updated_at": "2026-10-07T08:22:39Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-07T08:15:41Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
@@ -77,24 +95,6 @@
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
-    "description": "Chinese-first concise mode SKILL.md for Claude Code / Codex CLI / Cursor \u2014 shorter, denser replies without losing techni",
-    "id": "Cpp1022/concise",
-    "language": "PowerShell",
-    "name": "Cpp1022/concise",
-    "stars": 3,
-    "updated_at": "2026-10-07T07:53:50Z",
-    "url": "https://github.com/Cpp1022/concise"
-  },
-  {
-    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
-    "id": "bompus/house-rules",
-    "language": "JavaScript",
-    "name": "bompus/house-rules",
-    "stars": 1,
-    "updated_at": "2026-10-07T07:19:16Z",
-    "url": "https://github.com/bompus/house-rules"
-  },
-  {
     "description": "Modular, scalable, automated development intelligence.",
     "id": "DongDuong2001/pudo-code-system",
     "language": "TypeScript",
@@ -126,7 +126,7 @@
     "id": "Bastioned-successor320/learn-nanobot",
     "language": "Python",
     "name": "Bastioned-successor320/learn-nanobot",
-    "stars": 11,
+    "stars": 12,
     "updated_at": "2026-10-07T05:04:00Z",
     "url": "https://github.com/Bastioned-successor320/learn-nanobot"
   },
@@ -263,15 +263,6 @@
     "url": "https://github.com/KbWen/agentic-os"
   },
   {
-    "description": "404\u4f53\u306e\u5373\u6226\u529bAI\u5c02\u9580\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u96c6 \u2014 Claude Code / Cursor / Copilot \u7b49\u306b\u5bfe\u5fdc\u3002\u65e5\u672c\u5e02\u5834\u5411\u3051\u30aa\u30ea\u30b8\u30ca\u30eb125\u4f53\uff08SIer\u30fb\u53d7\u8a17\u958b\u767a\u30fbSaaS\u30fb\u88fd\u9020DX\u30fb\u516c\u5171\u5206\u91ce\uff09\u3002agency-agents\u306e\u65e5\u672c\u8a9e\u30b3\u30df\u30e5",
-    "id": "sscodeai/agency-agents-ja",
-    "language": "Shell",
-    "name": "sscodeai/agency-agents-ja",
-    "stars": 8,
-    "updated_at": "2026-10-06T11:34:26Z",
-    "url": "https://github.com/sscodeai/agency-agents-ja"
-  },
-  {
     "cursorrules": {
       "content": "# Vibes-Plug \u2014 147-Skill AI Agent Swarm Architecture (v4.2.0)\n# Universal AI Plugin for Antigravity, Claude, Cursor, and OpenAI Codex\n\n## Primary Trigger & Skill Auto-Synchronization (Pemicu Utama)\nUpon installation, `vibes-plug` is the **PRIMARY TRIGGER (Pemicu Utama)** for all Cursor AI interactions.\n- The AI agent MUST automatically intercept prompts and synchronize relevant skills without waiting for explicit `@` mentions.\n- Automatically connects cooperating skills (e.g. `doku-payment-gateway` + `saas-billing` + `payment-gateway-expert`; `senior-frontend` + `tailwind-expert`).\n- Multi-domain workflows trigger Swarm Topologies (Fan-Out/Fan-In, Pipeline Saga, Critic-Validator).\n\n## About\nThis project uses the vibes-plug skills ecosystem with 132 specialized skills.\nEach skill is a `SKILL.md` file in the `skills/` directory containing domain-specific\ninstructions, patterns, and best practices for the modern 2026 tech stack.\n\n## Core Stack (2026 Edition)\n- Frontend: React 19, Next.js 15, Tailwind CSS v4, TypeScript 5.8+\n- Backend: Node.js 24 LTS, Bun 1.2+, Hono v4, Fastify 5, Python 3.14, Go 1.25+, Rust 2024\n- Database: Prisma 6, Drizzle ORM, PostgreSQL, Supabase, Neon, Turso\n- AI/LLM: Vercel AI SDK 5.x, MCP v1.9+, pgvector, RAG pipelines\n\n## Mandatory Before Coding\n1. Read the relevant `skills/<skill-name>/SKILL.md` files before writing code.\n2. Think deeply before acting \u2014 analyze constraints, question assumptions, validate approach.\n3. For new projects, auto-generate: PRD.md, ERD.md, DOKUMENTASI.md.\n\n## Skill Domains\n- \ud83e\udd16 AI & Agentic: ai-llm-integration-expert, vercel-ai-sdk-expert, deep-research-analyst, synthetic-data-finetuning-expert, pydantic-ai-expert, mcp-server-architect, vector-db-rag-expert, multi-agent-orchestration, graph-rag-knowledge-expert, local-slm-edge-ai-expert, llm-finops-router, agentic-memory-architect\n- \ud83c\udfa8 Design & UI/UX: design-system-architect, hig, ui-ux-pro-max, tailwind-expert, modern-css-native-expert\n- \ud83d\udda5\ufe0f Frontend: senior-frontend, tailwind-expert, nextjs-app-router-expert, tanstack-query-expert, vue-frontend-expert, astro-framework-expert, svelte-sveltekit-expert, solidjs-expert, angular-expert\n- \u2699\ufe0f Backend: js-backend-expert, python-programming-expert, go-programming-expert, rust-programming-expert, api-design-expert, fullstack-expert\n- \u2601\ufe0f SaaS & Cloud: saas-architect, saas-billing, saas-multi-tenant, ci-cd-devops-architect, cloud-hosting-expert, payment-gateway-expert, doku-payment-gateway\n- \ud83d\uddc4\ufe0f Database: database-orm-expert, supabase-security-expert, data-pipeline-etl-expert\n- \ud83d\udd12 Security: authentication-identity-expert, e2e-testing-expert, production-ready-hardener, zero-trust-secret-vault, anti-slop, autonomous-tdd-debugger, zero-tech-debt-auditor\n- \ud83d\udd0d SEO & Telemetry: seo, data-telemetry-expert\n- \ud83d\udee0\ufe0f Utilities: brainstorming, prd-architect, session-memory-manager, zero-to-prod-orchestrator, web-scraper, website-design-cloner\n\n## Code Quality & Sovereign Anti-Slop Directive\n- Zero-tolerance for AI slop (`anti-slop` skill):\n  * Code-first delivery with 100% complete implementations (no `// TODO`, `// ...`, or mock stubs).\n  * Hyper-YAGNI: avoid speculative abstractions and redundant wrapper layers.\n  * Meaningful comments only: explain non-obvious business/architectural WHY, never syntax mechanics.\n  * No swallowed errors (`catch(e){}` prohibited); structured logging (`Pino`) required.\n  * UI & Visual Sanitation: Enforce Linear/Stripe-caliber design. Zero generic blue-purple gradients, no neon glow orbs, no pill button addiction (`rounded-full` on rectangular elements), mandatory 5-state contract, tabular numerals (`tabular-nums`), and crisp 1px borders.\n  * Run `node scripts/check-anti-slop.js` to verify zero violations.\n## Sovereign Token Optimization Protocol (Hemat Token)\n- Enforce deterministic KV-cache prefixing via `kv-cache-prefix-optimizer` (75-90% prompt cache hit rates).\n- Prune subagent context payloads: pass only targeted `CONTEXT_MAP.md` slices, not raw chat transcripts.\n- Use dynamic model cascading (`adaptive-model-cascade`): `flash` for research/linting, `pro` for architecture/security.\n- Ultra-compact session checkpoints (<300 tokens) via `session-memory-manager`.\n- Non-Degradation Invariant: Never truncate code with placeholders or stubs to save tokens. Code must be 100% complete.\n\n## Orchestration Flow\n1. Ideation: brainstorming \u2192 prd-architect\n2. Design: design-system-architect \u2192 senior-frontend \u2192 ui-ux-pro-max\n3. Backend: js-backend-expert \u2192 event-driven-architect \u2192 autonomous-tdd-debugger\n4. AI: ai-llm-integration-expert \u2192 mcp-server-architect \u2192 multi-agent-orchestration\n5. SaaS: saas-architect \u2192 saas-billing + saas-multi-tenant + doku-payment-gateway\n6. Launch: e2e-testing-expert \u2192 zero-tech-debt-auditor \u2192 seo \u2192 anti-slop \u2192 production-ready-hardener\n",
       "format": "text",
@@ -281,9 +272,18 @@
     "id": "roedyrustam/vibes-plug",
     "language": "JavaScript",
     "name": "roedyrustam/vibes-plug",
-    "stars": 73,
+    "stars": 74,
     "updated_at": "2026-10-06T12:18:42Z",
     "url": "https://github.com/roedyrustam/vibes-plug"
+  },
+  {
+    "description": "404\u4f53\u306e\u5373\u6226\u529bAI\u5c02\u9580\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u96c6 \u2014 Claude Code / Cursor / Copilot \u7b49\u306b\u5bfe\u5fdc\u3002\u65e5\u672c\u5e02\u5834\u5411\u3051\u30aa\u30ea\u30b8\u30ca\u30eb125\u4f53\uff08SIer\u30fb\u53d7\u8a17\u958b\u767a\u30fbSaaS\u30fb\u88fd\u9020DX\u30fb\u516c\u5171\u5206\u91ce\uff09\u3002agency-agents\u306e\u65e5\u672c\u8a9e\u30b3\u30df\u30e5",
+    "id": "sscodeai/agency-agents-ja",
+    "language": "Shell",
+    "name": "sscodeai/agency-agents-ja",
+    "stars": 8,
+    "updated_at": "2026-10-06T11:34:26Z",
+    "url": "https://github.com/sscodeai/agency-agents-ja"
   },
   {
     "description": "Accessibility is not a request. A practical, lived-experience toolkit for making digital products and printables usable ",
@@ -409,7 +409,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 157082,
+    "stars": 157092,
     "updated_at": "2026-10-05T20:46:39Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
