@@ -1,21 +1,21 @@
 [
   {
-    "description": "Architectural drift prevention for the agentic AI SDLC.",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 24,
-    "updated_at": "2026-10-07T18:46:35Z",
-    "url": "https://github.com/MnemeHQ/mneme"
-  },
-  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-07T18:45:38Z",
+    "updated_at": "2026-10-07T19:00:40Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Architectural drift prevention for the agentic AI SDLC.",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 24,
+    "updated_at": "2026-10-07T19:02:16Z",
+    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
@@ -463,7 +463,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 157459,
+    "stars": 157464,
     "updated_at": "2026-10-05T20:46:39Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
