@@ -1,5 +1,23 @@
 [
   {
+    "description": "Chinese-first concise mode SKILL.md for Claude Code / Codex CLI / Cursor \u2014 shorter, denser replies without losing techni",
+    "id": "Cpp1022/concise",
+    "language": "PowerShell",
+    "name": "Cpp1022/concise",
+    "stars": 3,
+    "updated_at": "2026-10-07T09:08:51Z",
+    "url": "https://github.com/Cpp1022/concise"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-07T09:00:53Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
     "id": "bompus/house-rules",
     "language": "JavaScript",
@@ -16,24 +34,6 @@
     "stars": 3,
     "updated_at": "2026-10-07T08:48:04Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-07T08:45:45Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
-    "description": "Chinese-first concise mode SKILL.md for Claude Code / Codex CLI / Cursor \u2014 shorter, denser replies without losing techni",
-    "id": "Cpp1022/concise",
-    "language": "PowerShell",
-    "name": "Cpp1022/concise",
-    "stars": 3,
-    "updated_at": "2026-10-07T08:40:58Z",
-    "url": "https://github.com/Cpp1022/concise"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -341,7 +341,7 @@
     "language": "TypeScript",
     "name": "HoangNguyen0403/agent-skills-standard",
     "stars": 570,
-    "updated_at": "2026-10-07T08:54:42Z",
+    "updated_at": "2026-10-07T09:09:41Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
   },
   {
@@ -409,7 +409,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 157099,
+    "stars": 157116,
     "updated_at": "2026-10-05T20:46:39Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -441,7 +441,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21088,
+    "stars": 21089,
     "updated_at": "2026-10-05T13:05:32Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -505,7 +505,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40262,
+    "stars": 40263,
     "updated_at": "2026-10-05T01:07:11Z",
     "url": "https://github.com/wshobson/agents"
   }
