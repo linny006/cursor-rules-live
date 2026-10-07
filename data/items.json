@@ -1,21 +1,30 @@
 [
   {
-    "description": "Starter files for the markdown AI agents read: AGENTS.md, CLAUDE.md, SKILL.md, DESIGN.md, llms.txt and a Cursor rule. Ea",
-    "id": "dotcomjack/mdpantry",
-    "language": "\u2014",
-    "name": "dotcomjack/mdpantry",
-    "stars": 0,
-    "updated_at": "2026-10-07T17:32:19Z",
-    "url": "https://github.com/dotcomjack/mdpantry"
+    "description": "Architectural drift prevention for the agentic AI SDLC.",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 24,
+    "updated_at": "2026-10-07T17:55:58Z",
+    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-07T17:30:42Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
+    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
+    "id": "bompus/house-rules",
+    "language": "JavaScript",
+    "name": "bompus/house-rules",
+    "stars": 1,
+    "updated_at": "2026-10-07T17:51:02Z",
+    "url": "https://github.com/bompus/house-rules"
+  },
+  {
+    "description": "Zero-data-loss file snapshotting, SemVer classification, and dual-ledger audit trail for autonomous AI coding & research",
+    "id": "ainullm/agent-checkpoint",
+    "language": "\u2014",
+    "name": "ainullm/agent-checkpoint",
+    "stars": 2,
+    "updated_at": "2026-10-07T17:50:47Z",
+    "url": "https://github.com/ainullm/agent-checkpoint"
   },
   {
     "cursorrules": {
@@ -28,26 +37,26 @@
     "language": "TypeScript",
     "name": "heymegabyte/agent-skills",
     "stars": 23,
-    "updated_at": "2026-10-07T17:12:48Z",
+    "updated_at": "2026-10-07T17:47:17Z",
     "url": "https://github.com/heymegabyte/agent-skills"
   },
   {
-    "description": "Architectural drift prevention for the agentic AI SDLC.",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 24,
-    "updated_at": "2026-10-07T17:27:09Z",
-    "url": "https://github.com/MnemeHQ/mneme"
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-07T17:45:56Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
-    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
-    "id": "bompus/house-rules",
-    "language": "JavaScript",
-    "name": "bompus/house-rules",
-    "stars": 1,
-    "updated_at": "2026-10-07T16:50:04Z",
-    "url": "https://github.com/bompus/house-rules"
+    "description": "Starter files for the markdown AI agents read: AGENTS.md, CLAUDE.md, SKILL.md, DESIGN.md, llms.txt and a Cursor rule. Ea",
+    "id": "dotcomjack/mdpantry",
+    "language": "\u2014",
+    "name": "dotcomjack/mdpantry",
+    "stars": 0,
+    "updated_at": "2026-10-07T17:32:19Z",
+    "url": "https://github.com/dotcomjack/mdpantry"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -211,15 +220,6 @@
     "stars": 1,
     "updated_at": "2026-10-07T10:00:13Z",
     "url": "https://github.com/Snigdha-Chowdhury/dev-toolkit"
-  },
-  {
-    "description": "Zero-data-loss file snapshotting, SemVer classification, and dual-ledger audit trail for autonomous AI coding & research",
-    "id": "ainullm/agent-checkpoint",
-    "language": "\u2014",
-    "name": "ainullm/agent-checkpoint",
-    "stars": 2,
-    "updated_at": "2026-10-07T09:46:22Z",
-    "url": "https://github.com/ainullm/agent-checkpoint"
   },
   {
     "description": "Chinese-first concise mode SKILL.md for Claude Code / Codex CLI / Cursor \u2014 shorter, denser replies without losing techni",
@@ -463,7 +463,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 157416,
+    "stars": 157427,
     "updated_at": "2026-10-05T20:46:39Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -495,7 +495,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21098,
+    "stars": 21099,
     "updated_at": "2026-10-05T13:05:32Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   }
