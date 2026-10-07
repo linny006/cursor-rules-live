@@ -1,11 +1,20 @@
 [
   {
+    "description": "Modular, scalable, automated development intelligence.",
+    "id": "DongDuong2001/pudo-code-system",
+    "language": "TypeScript",
+    "name": "DongDuong2001/pudo-code-system",
+    "stars": 5,
+    "updated_at": "2026-10-07T06:53:52Z",
+    "url": "https://github.com/DongDuong2001/pudo-code-system"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-07T06:30:36Z",
+    "updated_at": "2026-10-07T06:45:32Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -28,7 +37,7 @@
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 1,
-    "updated_at": "2026-10-07T05:51:05Z",
+    "updated_at": "2026-10-07T06:51:22Z",
     "url": "https://github.com/bompus/house-rules"
   },
   {
@@ -193,15 +202,6 @@
     "stars": 3,
     "updated_at": "2026-10-06T19:25:04Z",
     "url": "https://github.com/aidesignblueprint/integrations"
-  },
-  {
-    "description": "Modular, scalable, automated development intelligence.",
-    "id": "DongDuong2001/pudo-code-system",
-    "language": "JavaScript",
-    "name": "DongDuong2001/pudo-code-system",
-    "stars": 5,
-    "updated_at": "2026-10-06T18:07:00Z",
-    "url": "https://github.com/DongDuong2001/pudo-code-system"
   },
   {
     "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
@@ -391,7 +391,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 157013,
+    "stars": 157026,
     "updated_at": "2026-10-05T20:46:39Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
