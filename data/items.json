@@ -1,21 +1,30 @@
 [
   {
-    "description": "Architectural drift prevention for the agentic AI SDLC.",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 24,
-    "updated_at": "2026-10-07T17:55:58Z",
-    "url": "https://github.com/MnemeHQ/mneme"
-  },
-  {
     "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
     "id": "bompus/house-rules",
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 1,
-    "updated_at": "2026-10-07T17:51:02Z",
+    "updated_at": "2026-10-07T18:12:40Z",
     "url": "https://github.com/bompus/house-rules"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-07T18:00:40Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Architectural drift prevention for the agentic AI SDLC.",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 24,
+    "updated_at": "2026-10-07T18:12:20Z",
+    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "description": "Zero-data-loss file snapshotting, SemVer classification, and dual-ledger audit trail for autonomous AI coding & research",
@@ -39,15 +48,6 @@
     "stars": 23,
     "updated_at": "2026-10-07T17:47:17Z",
     "url": "https://github.com/heymegabyte/agent-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-07T17:45:56Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Starter files for the markdown AI agents read: AGENTS.md, CLAUDE.md, SKILL.md, DESIGN.md, llms.txt and a Cursor rule. Ea",
@@ -463,7 +463,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 157427,
+    "stars": 157434,
     "updated_at": "2026-10-05T20:46:39Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -495,7 +495,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21099,
+    "stars": 21101,
     "updated_at": "2026-10-05T13:05:32Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   }
