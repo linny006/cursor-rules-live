@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-07 14:30 UTC
+> ⏰ Last updated: 2026-10-07 14:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,17 +53,17 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [heymegabyte/agent-skills](https://github.com/heymegabyte/agent-skills) | 23 | TypeScript | 2026-10-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/agent-skills/) | Agent Skills — agent-neutral autonomous product-building OS for 32+ AI coding tools. 23 skill categories · 28 agents · 1 |
+| 1 | [bompus/house-rules](https://github.com/bompus/house-rules) | 1 | JavaScript | 2026-10-07 | — | Working rules and skills for AI coding agents, layered as base, modifiers, person and project |
 | 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-07 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 3 | [Harmitx7/tribunal-kit](https://github.com/Harmitx7/tribunal-kit) | 5 | JavaScript | 2026-10-07 | — | A universal, native-Rust governance layer for AI coding agents. Enforces Subagent-Driven Development (SDD) to stop hallu |
-| 4 | [HoangNguyen0403/agent-skills-standard](https://github.com/HoangNguyen0403/agent-skills-standard) | 570 | TypeScript | 2026-10-07 | — | A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol |
-| 5 | [Hyanthropological659/clarify-skill](https://github.com/Hyanthropological659/clarify-skill) | 1 | — | 2026-10-07 | — | Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a |
-| 6 | [Overseastelegramaliterateperson865/awesome-claude-md](https://github.com/Overseastelegramaliterateperson865/awesome-claude-md) | 3 | — | 2026-10-07 | — | Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr |
-| 7 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 20 | TypeScript | 2026-10-07 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
-| 8 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 24 | Python | 2026-10-07 | — | Architectural drift prevention for the agentic AI SDLC. |
-| 9 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 49 | — | 2026-10-07 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
-| 10 | [Aaditya1273/Agent.md](https://github.com/Aaditya1273/Agent.md) | 8 | — | 2026-10-07 | — | The toolchain that stops AI coding agents from writing broken, deprecated code. |
-| 11 | [bompus/house-rules](https://github.com/bompus/house-rules) | 1 | JavaScript | 2026-10-07 | — | Working rules and skills for AI coding agents, layered as base, modifiers, person and project |
+| 3 | [heymegabyte/agent-skills](https://github.com/heymegabyte/agent-skills) | 23 | TypeScript | 2026-10-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/agent-skills/) | Agent Skills — agent-neutral autonomous product-building OS for 32+ AI coding tools. 23 skill categories · 28 agents · 1 |
+| 4 | [Harmitx7/tribunal-kit](https://github.com/Harmitx7/tribunal-kit) | 5 | JavaScript | 2026-10-07 | — | A universal, native-Rust governance layer for AI coding agents. Enforces Subagent-Driven Development (SDD) to stop hallu |
+| 5 | [HoangNguyen0403/agent-skills-standard](https://github.com/HoangNguyen0403/agent-skills-standard) | 570 | TypeScript | 2026-10-07 | — | A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol |
+| 6 | [Hyanthropological659/clarify-skill](https://github.com/Hyanthropological659/clarify-skill) | 1 | — | 2026-10-07 | — | Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a |
+| 7 | [Overseastelegramaliterateperson865/awesome-claude-md](https://github.com/Overseastelegramaliterateperson865/awesome-claude-md) | 3 | — | 2026-10-07 | — | Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr |
+| 8 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 20 | TypeScript | 2026-10-07 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
+| 9 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 24 | Python | 2026-10-07 | — | Architectural drift prevention for the agentic AI SDLC. |
+| 10 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 49 | — | 2026-10-07 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
+| 11 | [Aaditya1273/Agent.md](https://github.com/Aaditya1273/Agent.md) | 8 | — | 2026-10-07 | — | The toolchain that stops AI coding agents from writing broken, deprecated code. |
 | 12 | [fluttersdk/wind](https://github.com/fluttersdk/wind) | 41 | Dart | 2026-10-07 | — | Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W- |
 | 13 | [Mawyxx/Mawyxx-Prime](https://github.com/Mawyxx/Mawyxx-Prime) | 2 | — | 2026-10-07 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Mawyxx/Mawyxx-Prime/) | MAWYXX PRIME — The Ultimate AI Architecture Constitution & System Prompt for Cursor, Windsurf, and Copilot. Zero-Trust A |
 | 14 | [Snigdha-Chowdhury/dev-toolkit](https://github.com/Snigdha-Chowdhury/dev-toolkit) | 1 | — | 2026-10-07 | — | A small collection of reusable development workflows and project-scoped skills for AI coding assistants. |
@@ -97,10 +97,10 @@ expired items removed — so you can rely on what you see being current.
 | 42 | [xtieume/testcase](https://github.com/xtieume/testcase) | 4 | Python | 2026-10-06 | — | Agent skills that take a requirement to shipped code: audit the spec, turn it into real tests, then build until every ch |
 | 43 | [pahlevikun/levistack](https://github.com/pahlevikun/levistack) | 0 | Python | 2026-10-05 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/pahlevikun/levistack/) | Agent skills for people tired of AI slop. 35 skills, 11 subagents, 41 rules and 5 hooks for Claude Code, Cursor and Code |
 | 44 | [taniwhaai/arai](https://github.com/taniwhaai/arai) | 7 | Rust | 2026-10-05 | — | Your AI assistant reads CLAUDE.md and ignores it anyway. Ārai makes instruction files enforced — hooks that block, a tam |
-| 45 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 157323 | JavaScript | 2026-10-05 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 45 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 157338 | JavaScript | 2026-10-05 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 46 | [piekwerk/agents-md-examples](https://github.com/piekwerk/agents-md-examples) | 0 | — | 2026-10-05 | — | AGENTS.md examples for every stack. Drop one in your repo and your AI coding agent knows the conventions. |
 | 47 | [zesun33/hw-agent-skills](https://github.com/zesun33/hw-agent-skills) | 0 | Python | 2026-10-05 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/zesun33/hw-agent-skills/) | Apply hardware-review and verification rubrics through coding-agent instruction files |
-| 48 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 21094 | Shell | 2026-10-05 | — | 🎭 277 个即插即用的 AI 专家角色 — 支持 Claude Code/Cursor/Copilot 等 20 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 64 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉/Qt 上 |
+| 48 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 21095 | Shell | 2026-10-05 | — | 🎭 277 个即插即用的 AI 专家角色 — 支持 Claude Code/Cursor/Copilot 等 20 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 64 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉/Qt 上 |
 | 49 | [glowElephant/context-forge](https://github.com/glowElephant/context-forge) | 2 | Python | 2026-10-05 | — | Auto harness engineering meta-repo: discuss → curate → bootstrap a context-engineered project for Claude Code, Cursor, C |
 | 50 | [GeiserX/lynxprompt-mcp](https://github.com/GeiserX/lynxprompt-mcp) | 2 | Go | 2026-10-05 | — | MCP Server for LynxPrompt — browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP |
 <!-- TRACKER_TABLE_END -->
