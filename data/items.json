@@ -1,12 +1,12 @@
 [
   {
-    "description": "Modular, scalable, automated development intelligence.",
-    "id": "DongDuong2001/pudo-code-system",
-    "language": "TypeScript",
-    "name": "DongDuong2001/pudo-code-system",
-    "stars": 5,
-    "updated_at": "2026-10-07T06:53:52Z",
-    "url": "https://github.com/DongDuong2001/pudo-code-system"
+    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
+    "id": "bompus/house-rules",
+    "language": "JavaScript",
+    "name": "bompus/house-rules",
+    "stars": 1,
+    "updated_at": "2026-10-07T07:09:54Z",
+    "url": "https://github.com/bompus/house-rules"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-07T06:45:32Z",
+    "updated_at": "2026-10-07T07:00:44Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Modular, scalable, automated development intelligence.",
+    "id": "DongDuong2001/pudo-code-system",
+    "language": "TypeScript",
+    "name": "DongDuong2001/pudo-code-system",
+    "stars": 5,
+    "updated_at": "2026-10-07T06:53:52Z",
+    "url": "https://github.com/DongDuong2001/pudo-code-system"
   },
   {
     "cursorrules": {
@@ -30,15 +39,6 @@
     "stars": 23,
     "updated_at": "2026-10-07T06:11:46Z",
     "url": "https://github.com/heymegabyte/agent-skills"
-  },
-  {
-    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
-    "id": "bompus/house-rules",
-    "language": "JavaScript",
-    "name": "bompus/house-rules",
-    "stars": 1,
-    "updated_at": "2026-10-07T06:51:22Z",
-    "url": "https://github.com/bompus/house-rules"
   },
   {
     "description": "The toolchain that stops AI coding agents from writing broken, deprecated code.",
@@ -273,7 +273,7 @@
     "language": "Shell",
     "name": "gabrieldcpaiva/not-optional",
     "stars": 1,
-    "updated_at": "2026-10-07T06:37:26Z",
+    "updated_at": "2026-10-07T07:14:47Z",
     "url": "https://github.com/gabrieldcpaiva/not-optional"
   },
   {
@@ -391,7 +391,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 157026,
+    "stars": 157035,
     "updated_at": "2026-10-05T20:46:39Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -505,7 +505,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40259,
+    "stars": 40260,
     "updated_at": "2026-10-05T01:07:11Z",
     "url": "https://github.com/wshobson/agents"
   }
