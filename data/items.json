@@ -1,12 +1,12 @@
 [
   {
-    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
-    "id": "bompus/house-rules",
-    "language": "JavaScript",
-    "name": "bompus/house-rules",
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
     "stars": 1,
-    "updated_at": "2026-10-08T20:09:36Z",
-    "url": "https://github.com/bompus/house-rules"
+    "updated_at": "2026-10-08T20:21:49Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-08T20:00:42Z",
+    "updated_at": "2026-10-08T20:15:56Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
+    "id": "bompus/house-rules",
+    "language": "JavaScript",
+    "name": "bompus/house-rules",
+    "stars": 1,
+    "updated_at": "2026-10-08T20:27:11Z",
+    "url": "https://github.com/bompus/house-rules"
   },
   {
     "description": "Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml",
@@ -41,7 +50,7 @@
     "language": "Shell",
     "name": "jcottam/agent-resources",
     "stars": 29,
-    "updated_at": "2026-10-08T19:17:01Z",
+    "updated_at": "2026-10-08T20:20:20Z",
     "url": "https://github.com/jcottam/agent-resources"
   },
   {
@@ -113,7 +122,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 158324,
+    "stars": 158338,
     "updated_at": "2026-10-08T16:19:55Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -207,15 +216,6 @@
     "stars": 24,
     "updated_at": "2026-10-08T18:39:17Z",
     "url": "https://github.com/MnemeHQ/mneme"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-10-08T14:12:45Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "A small collection of reusable development workflows and project-scoped skills for AI coding assistants.",
