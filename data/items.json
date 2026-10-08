@@ -1,5 +1,23 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-08T06:30:42Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
+    "id": "Hyanthropological659/clarify-skill",
+    "language": "\u2014",
+    "name": "Hyanthropological659/clarify-skill",
+    "stars": 1,
+    "updated_at": "2026-10-08T06:30:27Z",
+    "url": "https://github.com/Hyanthropological659/clarify-skill"
+  },
+  {
     "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
     "id": "Overseastelegramaliterateperson865/awesome-claude-md",
     "language": "\u2014",
@@ -13,7 +31,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21113,
+    "stars": 21115,
     "updated_at": "2026-10-08T06:25:19Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -27,15 +45,6 @@
     "url": "https://github.com/lss486558354-ship-it/engineering-workflow"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-08T06:15:44Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Zero-data-loss file snapshotting, selective rollback, and token-optimized audit trail for AI coding agents (Cursor, Clau",
     "id": "ainullm/agent-checkpoint",
     "language": "\u2014",
@@ -43,15 +52,6 @@
     "stars": 2,
     "updated_at": "2026-10-08T06:12:47Z",
     "url": "https://github.com/ainullm/agent-checkpoint"
-  },
-  {
-    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
-    "id": "Hyanthropological659/clarify-skill",
-    "language": "\u2014",
-    "name": "Hyanthropological659/clarify-skill",
-    "stars": 1,
-    "updated_at": "2026-10-08T04:38:24Z",
-    "url": "https://github.com/Hyanthropological659/clarify-skill"
   },
   {
     "cursorrules": {
@@ -63,7 +63,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 157836,
+    "stars": 157846,
     "updated_at": "2026-10-08T03:51:37Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
