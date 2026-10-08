@@ -1,5 +1,32 @@
 [
   {
+    "description": "Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml",
+    "id": "nu-nenoi/repo-nexus",
+    "language": "Shell",
+    "name": "nu-nenoi/repo-nexus",
+    "stars": 6,
+    "updated_at": "2026-10-08T19:41:26Z",
+    "url": "https://github.com/nu-nenoi/repo-nexus"
+  },
+  {
+    "description": "",
+    "id": "baneeishaque/ai-agent-rules",
+    "language": "TypeScript",
+    "name": "baneeishaque/ai-agent-rules",
+    "stars": 9,
+    "updated_at": "2026-10-08T19:32:56Z",
+    "url": "https://github.com/baneeishaque/ai-agent-rules"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-08T19:30:48Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Battle-tested agent skills and Cursor rules from real projects. Works with Cursor, Claude Code, and any agent.",
     "id": "jcottam/agent-resources",
     "language": "Shell",
@@ -9,21 +36,12 @@
     "url": "https://github.com/jcottam/agent-resources"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-08T19:15:58Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
     "id": "bompus/house-rules",
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 1,
-    "updated_at": "2026-10-08T19:29:43Z",
+    "updated_at": "2026-10-08T19:44:38Z",
     "url": "https://github.com/bompus/house-rules"
   },
   {
@@ -95,7 +113,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 158286,
+    "stars": 158299,
     "updated_at": "2026-10-08T16:19:55Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -239,15 +257,6 @@
     "stars": 1,
     "updated_at": "2026-10-08T12:05:16Z",
     "url": "https://github.com/incline-ltd/coding-agent-guidelines"
-  },
-  {
-    "description": "",
-    "id": "baneeishaque/ai-agent-rules",
-    "language": "TypeScript",
-    "name": "baneeishaque/ai-agent-rules",
-    "stars": 9,
-    "updated_at": "2026-10-08T11:37:50Z",
-    "url": "https://github.com/baneeishaque/ai-agent-rules"
   },
   {
     "description": "Chinese-first concise mode SKILL.md for Claude Code / Codex CLI / Cursor \u2014 shorter, denser replies without losing techni",
@@ -452,15 +461,6 @@
     "stars": 20,
     "updated_at": "2026-10-06T21:42:56Z",
     "url": "https://github.com/powersync-ja/agent-skills"
-  },
-  {
-    "description": "Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml",
-    "id": "nu-nenoi/repo-nexus",
-    "language": "Shell",
-    "name": "nu-nenoi/repo-nexus",
-    "stars": 6,
-    "updated_at": "2026-10-06T20:43:00Z",
-    "url": "https://github.com/nu-nenoi/repo-nexus"
   },
   {
     "description": "Official integrations and installable doctrine for AI Design Blueprint: MCP, IDE rules, prompt files, and agent runtimes",
