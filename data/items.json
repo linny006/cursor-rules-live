@@ -1,11 +1,29 @@
 [
   {
+    "description": "Architectural drift prevention for the agentic AI SDLC.",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 24,
+    "updated_at": "2026-10-08T10:23:00Z",
+    "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
+    "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
+    "id": "HoangNguyen0403/agent-skills-standard",
+    "language": "TypeScript",
+    "name": "HoangNguyen0403/agent-skills-standard",
+    "stars": 571,
+    "updated_at": "2026-10-08T10:17:21Z",
+    "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-08T10:00:58Z",
+    "updated_at": "2026-10-08T10:15:48Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -149,7 +167,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 158056,
+    "stars": 158061,
     "updated_at": "2026-10-08T03:51:37Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -213,15 +231,6 @@
     "url": "https://github.com/nilkanthdesai76/universal-agent-skills"
   },
   {
-    "description": "Architectural drift prevention for the agentic AI SDLC.",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 24,
-    "updated_at": "2026-10-08T10:01:47Z",
-    "url": "https://github.com/MnemeHQ/mneme"
-  },
-  {
     "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
     "id": "agenticstandardcontact-byte/agentic-architect",
     "language": "HTML",
@@ -261,15 +270,6 @@
     "stars": 5,
     "updated_at": "2026-10-07T13:19:34Z",
     "url": "https://github.com/Harmitx7/tribunal-kit"
-  },
-  {
-    "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
-    "id": "HoangNguyen0403/agent-skills-standard",
-    "language": "TypeScript",
-    "name": "HoangNguyen0403/agent-skills-standard",
-    "stars": 571,
-    "updated_at": "2026-10-08T09:31:32Z",
-    "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
   },
   {
     "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
