@@ -1,11 +1,29 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-10-08T14:12:45Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "A small collection of reusable development workflows and project-scoped skills for AI coding assistants.",
+    "id": "Snigdha-Chowdhury/dev-toolkit",
+    "language": "\u2014",
+    "name": "Snigdha-Chowdhury/dev-toolkit",
+    "stars": 1,
+    "updated_at": "2026-10-08T14:09:45Z",
+    "url": "https://github.com/Snigdha-Chowdhury/dev-toolkit"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-08T13:45:39Z",
+    "updated_at": "2026-10-08T14:01:05Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -131,15 +149,6 @@
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-10-08T06:50:05Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
     "id": "Hyanthropological659/clarify-skill",
     "language": "\u2014",
@@ -194,7 +203,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 158209,
+    "stars": 158224,
     "updated_at": "2026-10-08T03:51:37Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -329,15 +338,6 @@
     "stars": 2,
     "updated_at": "2026-10-07T10:12:18Z",
     "url": "https://github.com/Mawyxx/Mawyxx-Prime"
-  },
-  {
-    "description": "A small collection of reusable development workflows and project-scoped skills for AI coding assistants.",
-    "id": "Snigdha-Chowdhury/dev-toolkit",
-    "language": "\u2014",
-    "name": "Snigdha-Chowdhury/dev-toolkit",
-    "stars": 1,
-    "updated_at": "2026-10-07T10:00:13Z",
-    "url": "https://github.com/Snigdha-Chowdhury/dev-toolkit"
   },
   {
     "description": "Modular, scalable, automated development intelligence.",
