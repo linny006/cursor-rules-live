@@ -5,8 +5,17 @@
     "language": "PowerShell",
     "name": "Cpp1022/concise",
     "stars": 3,
-    "updated_at": "2026-10-08T06:59:52Z",
+    "updated_at": "2026-10-08T07:09:39Z",
     "url": "https://github.com/Cpp1022/concise"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-08T07:00:45Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -16,15 +25,6 @@
     "stars": 1,
     "updated_at": "2026-10-08T06:50:05Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-08T06:45:47Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
@@ -49,7 +49,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21116,
+    "stars": 21117,
     "updated_at": "2026-10-08T06:25:19Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -81,7 +81,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 157864,
+    "stars": 157885,
     "updated_at": "2026-10-08T03:51:37Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
