@@ -1,11 +1,20 @@
 [
   {
+    "description": "Zero-data-loss file snapshotting, selective rollback, and token-optimized audit trail for AI coding agents (Cursor, Clau",
+    "id": "ainullm/agent-checkpoint",
+    "language": "\u2014",
+    "name": "ainullm/agent-checkpoint",
+    "stars": 2,
+    "updated_at": "2026-10-08T06:12:47Z",
+    "url": "https://github.com/ainullm/agent-checkpoint"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-08T05:45:41Z",
+    "updated_at": "2026-10-08T06:00:58Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -36,7 +45,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 157808,
+    "stars": 157824,
     "updated_at": "2026-10-08T03:51:37Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -152,15 +161,6 @@
     "stars": 24,
     "updated_at": "2026-10-07T19:47:47Z",
     "url": "https://github.com/MnemeHQ/mneme"
-  },
-  {
-    "description": "Zero-data-loss file snapshotting, SemVer classification, and dual-ledger audit trail for autonomous AI coding & research",
-    "id": "ainullm/agent-checkpoint",
-    "language": "\u2014",
-    "name": "ainullm/agent-checkpoint",
-    "stars": 2,
-    "updated_at": "2026-10-07T17:50:47Z",
-    "url": "https://github.com/ainullm/agent-checkpoint"
   },
   {
     "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
@@ -400,7 +400,7 @@
     "language": "Shell",
     "name": "gabrieldcpaiva/not-optional",
     "stars": 1,
-    "updated_at": "2026-10-07T08:21:49Z",
+    "updated_at": "2026-10-08T06:12:51Z",
     "url": "https://github.com/gabrieldcpaiva/not-optional"
   },
   {
