@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-08 05:00 UTC
+> ⏰ Last updated: 2026-10-08 05:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -56,7 +56,7 @@ expired items removed — so you can rely on what you see being current.
 | 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-08 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
 | 2 | [Hyanthropological659/clarify-skill](https://github.com/Hyanthropological659/clarify-skill) | 1 | — | 2026-10-08 | — | Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a |
 | 3 | [Overseastelegramaliterateperson865/awesome-claude-md](https://github.com/Overseastelegramaliterateperson865/awesome-claude-md) | 3 | — | 2026-10-08 | — | Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr |
-| 4 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 157754 | JavaScript | 2026-10-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 4 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 157764 | JavaScript | 2026-10-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 5 | [bompus/house-rules](https://github.com/bompus/house-rules) | 1 | JavaScript | 2026-10-08 | — | Working rules and skills for AI coding agents, layered as base, modifiers, person and project |
 | 6 | [Cpp1022/concise](https://github.com/Cpp1022/concise) | 3 | PowerShell | 2026-10-08 | — | Chinese-first concise mode SKILL.md for Claude Code / Codex CLI / Cursor — shorter, denser replies without losing techni |
 | 7 | [primaybr/quench](https://github.com/primaybr/quench) | 1 | Python | 2026-10-08 | — | The hardening moment. A production-grade Skills ecosystem for AI Agents. |
