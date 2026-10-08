@@ -5,7 +5,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-08T18:15:52Z",
+    "updated_at": "2026-10-08T18:30:44Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -72,7 +72,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 158233,
+    "stars": 158249,
     "updated_at": "2026-10-08T16:19:55Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -164,7 +164,7 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 24,
-    "updated_at": "2026-10-08T14:39:45Z",
+    "updated_at": "2026-10-08T18:39:17Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
@@ -349,7 +349,7 @@
     "url": "https://github.com/Harmitx7/tribunal-kit"
   },
   {
-    "description": "The toolchain that stops AI coding agents from writing broken, deprecated code.",
+    "description": "Your AI coding agent follows these files blindly, before it reads a line of your code.",
     "id": "Aaditya1273/Agent.md",
     "language": "\u2014",
     "name": "Aaditya1273/Agent.md",
