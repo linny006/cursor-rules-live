@@ -1,11 +1,20 @@
 [
   {
+    "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 plus AIOS, an open-source markdown memory system for coding ",
+    "id": "sublimecoder/sublimecoding",
+    "language": "\u2014",
+    "name": "sublimecoder/sublimecoding",
+    "stars": 0,
+    "updated_at": "2026-10-08T18:08:42Z",
+    "url": "https://github.com/sublimecoder/sublimecoding"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-08T17:45:38Z",
+    "updated_at": "2026-10-08T18:00:43Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -63,7 +72,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 158209,
+    "stars": 158219,
     "updated_at": "2026-10-08T16:19:55Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -420,15 +429,6 @@
     "stars": 0,
     "updated_at": "2026-10-07T04:53:04Z",
     "url": "https://github.com/johnwall123459885/skene-cookbook"
-  },
-  {
-    "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 plus AIOS, an open-source markdown memory system for coding ",
-    "id": "sublimecoder/sublimecoding",
-    "language": "\u2014",
-    "name": "sublimecoder/sublimecoding",
-    "stars": 0,
-    "updated_at": "2026-10-07T03:16:01Z",
-    "url": "https://github.com/sublimecoder/sublimecoding"
   },
   {
     "cursorrules": {
