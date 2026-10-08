@@ -1,11 +1,20 @@
 [
   {
+    "description": "Chinese-first concise mode SKILL.md for Claude Code / Codex CLI / Cursor \u2014 shorter, denser replies without losing techni",
+    "id": "Cpp1022/concise",
+    "language": "Python",
+    "name": "Cpp1022/concise",
+    "stars": 3,
+    "updated_at": "2026-10-08T10:56:34Z",
+    "url": "https://github.com/Cpp1022/concise"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-08T10:30:38Z",
+    "updated_at": "2026-10-08T10:45:53Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -14,7 +23,7 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 24,
-    "updated_at": "2026-10-08T10:23:00Z",
+    "updated_at": "2026-10-08T10:49:13Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
@@ -66,15 +75,6 @@
     "stars": 5,
     "updated_at": "2026-10-08T09:29:26Z",
     "url": "https://github.com/zinxj/uikit-expert-skill"
-  },
-  {
-    "description": "Chinese-first concise mode SKILL.md for Claude Code / Codex CLI / Cursor \u2014 shorter, denser replies without losing techni",
-    "id": "Cpp1022/concise",
-    "language": "Python",
-    "name": "Cpp1022/concise",
-    "stars": 3,
-    "updated_at": "2026-10-08T09:29:13Z",
-    "url": "https://github.com/Cpp1022/concise"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -135,7 +135,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21119,
+    "stars": 21120,
     "updated_at": "2026-10-08T06:25:19Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -167,7 +167,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 158073,
+    "stars": 158088,
     "updated_at": "2026-10-08T03:51:37Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
