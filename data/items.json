@@ -1,12 +1,30 @@
 [
   {
+    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
+    "id": "bompus/house-rules",
+    "language": "JavaScript",
+    "name": "bompus/house-rules",
+    "stars": 1,
+    "updated_at": "2026-10-08T01:07:52Z",
+    "url": "https://github.com/bompus/house-rules"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-08T00:45:46Z",
+    "updated_at": "2026-10-08T01:00:52Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "The hardening moment. A production-grade Skills ecosystem for AI Agents.",
+    "id": "primaybr/quench",
+    "language": "Python",
+    "name": "primaybr/quench",
+    "stars": 1,
+    "updated_at": "2026-10-08T01:01:31Z",
+    "url": "https://github.com/primaybr/quench"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -16,15 +34,6 @@
     "stars": 1,
     "updated_at": "2026-10-08T00:34:54Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
-    "id": "bompus/house-rules",
-    "language": "JavaScript",
-    "name": "bompus/house-rules",
-    "stars": 1,
-    "updated_at": "2026-10-08T00:57:12Z",
-    "url": "https://github.com/bompus/house-rules"
   },
   {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
@@ -422,15 +431,6 @@
     "url": "https://github.com/plumpslabs/matcha"
   },
   {
-    "description": "The hardening moment. A production-grade Skills ecosystem for AI Agents.",
-    "id": "primaybr/quench",
-    "language": "Python",
-    "name": "primaybr/quench",
-    "stars": 1,
-    "updated_at": "2026-10-06T03:30:56Z",
-    "url": "https://github.com/primaybr/quench"
-  },
-  {
     "description": "Agent skills that take a requirement to shipped code: audit the spec, turn it into real tests, then build until every ch",
     "id": "xtieume/testcase",
     "language": "Python",
@@ -472,7 +472,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 157602,
+    "stars": 157610,
     "updated_at": "2026-10-05T20:46:39Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
