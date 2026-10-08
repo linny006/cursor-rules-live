@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-08 12:30 UTC
+> ⏰ Last updated: 2026-10-08 12:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,10 +53,10 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [sagaargroups/OpenWarehouse](https://github.com/sagaargroups/OpenWarehouse) | 0 | Python | 2026-10-08 | — | The Universal Open-Source Warehouse for AI Agents, Skills, MCP Servers & Plugins |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-08 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 3 | [incline-ltd/coding-agent-guidelines](https://github.com/incline-ltd/coding-agent-guidelines) | 1 | JavaScript | 2026-10-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/incline-ltd/coding-agent-guidelines/) | Drop-in behavioral guidelines for Claude Code, Cursor, and AI coding agents. |
-| 4 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 49 | — | 2026-10-08 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
+| 1 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 49 | — | 2026-10-08 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
+| 2 | [sagaargroups/OpenWarehouse](https://github.com/sagaargroups/OpenWarehouse) | 0 | Python | 2026-10-08 | — | The Universal Open-Source Warehouse for AI Agents, Skills, MCP Servers & Plugins |
+| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-08 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 4 | [incline-ltd/coding-agent-guidelines](https://github.com/incline-ltd/coding-agent-guidelines) | 1 | JavaScript | 2026-10-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/incline-ltd/coding-agent-guidelines/) | Drop-in behavioral guidelines for Claude Code, Cursor, and AI coding agents. |
 | 5 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 24 | Python | 2026-10-08 | — | Architectural drift prevention for the agentic AI SDLC. |
 | 6 | [baneeishaque/ai-agent-rules](https://github.com/baneeishaque/ai-agent-rules) | 9 | TypeScript | 2026-10-08 | — |  |
 | 7 | [XAKLESK/cre-agent-skills](https://github.com/XAKLESK/cre-agent-skills) | 8 | — | 2026-10-08 | — | Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc |
@@ -72,8 +72,8 @@ expired items removed — so you can rely on what you see being current.
 | 17 | [Overseastelegramaliterateperson865/awesome-claude-md](https://github.com/Overseastelegramaliterateperson865/awesome-claude-md) | 3 | — | 2026-10-08 | — | Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr |
 | 18 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 21121 | Shell | 2026-10-08 | — | 🎭 277 个即插即用的 AI 专家角色 — 支持 Claude Code/Cursor/Copilot 等 20 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 64 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉/Qt 上 |
 | 19 | [lss486558354-ship-it/engineering-workflow](https://github.com/lss486558354-ship-it/engineering-workflow) | 0 | Python | 2026-10-08 | — | 给 AI 编程 Agent 的授权与推进协议：把「能不能写」和「该写多久」拆成两个正交维度的 Cursor rules + skills 模板。含务必完成策略、断点续接、反幻觉完成度门禁。 |
-| 20 | [ainullm/agent-checkpoint](https://github.com/ainullm/agent-checkpoint) | 2 | — | 2026-10-08 | — | Zero-data-loss file snapshotting, selective rollback, and token-optimized audit trail for AI coding agents (Cursor, Clau |
-| 21 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 158136 | JavaScript | 2026-10-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 20 | [ainullm/agent-checkpoint](https://github.com/ainullm/agent-checkpoint) | 3 | — | 2026-10-08 | — | Zero-data-loss file snapshotting, selective rollback, and token-optimized audit trail for AI coding agents (Cursor, Clau |
+| 21 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 158144 | JavaScript | 2026-10-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 22 | [bompus/house-rules](https://github.com/bompus/house-rules) | 1 | JavaScript | 2026-10-08 | — | Working rules and skills for AI coding agents, layered as base, modifiers, person and project |
 | 23 | [primaybr/quench](https://github.com/primaybr/quench) | 1 | Python | 2026-10-08 | — | The hardening moment. A production-grade Skills ecosystem for AI Agents. |
 | 24 | [NTDevLops/UNIVERSAL-AGENTS.md](https://github.com/NTDevLops/UNIVERSAL-AGENTS.md) | 1 | — | 2026-10-07 | — | This document defines universal rules for AI agents working on any software project. Follow these instructions exactly u |

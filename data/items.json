@@ -1,11 +1,20 @@
 [
   {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 49,
+    "updated_at": "2026-10-08T12:44:09Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+  },
+  {
     "description": "The Universal Open-Source Warehouse for AI Agents, Skills, MCP Servers & Plugins",
     "id": "sagaargroups/OpenWarehouse",
     "language": "Python",
     "name": "sagaargroups/OpenWarehouse",
     "stars": 0,
-    "updated_at": "2026-10-08T12:27:06Z",
+    "updated_at": "2026-10-08T12:42:35Z",
     "url": "https://github.com/sagaargroups/OpenWarehouse"
   },
   {
@@ -14,7 +23,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-08T12:15:59Z",
+    "updated_at": "2026-10-08T12:30:47Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -32,21 +41,12 @@
     "url": "https://github.com/incline-ltd/coding-agent-guidelines"
   },
   {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 49,
-    "updated_at": "2026-10-08T11:58:39Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
     "description": "Architectural drift prevention for the agentic AI SDLC.",
     "id": "MnemeHQ/mneme",
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 24,
-    "updated_at": "2026-10-08T11:57:02Z",
+    "updated_at": "2026-10-08T12:30:33Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
@@ -180,7 +180,7 @@
     "id": "ainullm/agent-checkpoint",
     "language": "\u2014",
     "name": "ainullm/agent-checkpoint",
-    "stars": 2,
+    "stars": 3,
     "updated_at": "2026-10-08T06:12:47Z",
     "url": "https://github.com/ainullm/agent-checkpoint"
   },
@@ -194,7 +194,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 158136,
+    "stars": 158144,
     "updated_at": "2026-10-08T03:51:37Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
