@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-08T02:45:39Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Chinese-first concise mode SKILL.md for Claude Code / Codex CLI / Cursor \u2014 shorter, denser replies without losing techni",
     "id": "Cpp1022/concise",
     "language": "PowerShell",
@@ -9,21 +18,12 @@
     "url": "https://github.com/Cpp1022/concise"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-08T02:30:52Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
     "id": "bompus/house-rules",
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 1,
-    "updated_at": "2026-10-08T02:38:32Z",
+    "updated_at": "2026-10-08T02:54:55Z",
     "url": "https://github.com/bompus/house-rules"
   },
   {
@@ -118,7 +118,7 @@
     "language": "TypeScript",
     "name": "heymegabyte/agent-skills",
     "stars": 23,
-    "updated_at": "2026-10-08T02:15:06Z",
+    "updated_at": "2026-10-08T02:50:41Z",
     "url": "https://github.com/heymegabyte/agent-skills"
   },
   {
@@ -472,7 +472,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 157668,
+    "stars": 157678,
     "updated_at": "2026-10-05T20:46:39Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
