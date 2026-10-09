@@ -1,11 +1,20 @@
 [
   {
+    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
+    "id": "bompus/house-rules",
+    "language": "JavaScript",
+    "name": "bompus/house-rules",
+    "stars": 1,
+    "updated_at": "2026-10-09T09:41:55Z",
+    "url": "https://github.com/bompus/house-rules"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-09T09:30:43Z",
+    "updated_at": "2026-10-09T09:32:59Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -118,7 +127,7 @@
     "language": "Shell",
     "name": "nu-nenoi/repo-nexus",
     "stars": 6,
-    "updated_at": "2026-10-09T07:21:38Z",
+    "updated_at": "2026-10-09T09:37:46Z",
     "url": "https://github.com/nu-nenoi/repo-nexus"
   },
   {
@@ -147,15 +156,6 @@
     "stars": 1,
     "updated_at": "2026-10-09T06:58:39Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
-    "id": "bompus/house-rules",
-    "language": "JavaScript",
-    "name": "bompus/house-rules",
-    "stars": 1,
-    "updated_at": "2026-10-09T07:52:42Z",
-    "url": "https://github.com/bompus/house-rules"
   },
   {
     "cursorrules": {
@@ -208,7 +208,7 @@
     "id": "MnemeHQ/mneme",
     "language": "Python",
     "name": "MnemeHQ/mneme",
-    "stars": 24,
+    "stars": 25,
     "updated_at": "2026-10-08T22:16:11Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
@@ -304,7 +304,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 159007,
+    "stars": 159024,
     "updated_at": "2026-10-08T16:19:55Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
