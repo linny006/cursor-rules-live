@@ -1,12 +1,30 @@
 [
   {
+    "description": "A small collection of reusable development workflows and project-scoped skills for AI coding assistants.",
+    "id": "Snigdha-Chowdhury/dev-toolkit",
+    "language": "\u2014",
+    "name": "Snigdha-Chowdhury/dev-toolkit",
+    "stars": 1,
+    "updated_at": "2026-10-09T12:11:07Z",
+    "url": "https://github.com/Snigdha-Chowdhury/dev-toolkit"
+  },
+  {
     "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
     "id": "bompus/house-rules",
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 1,
-    "updated_at": "2026-10-09T11:57:13Z",
+    "updated_at": "2026-10-09T12:09:16Z",
     "url": "https://github.com/bompus/house-rules"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-09T12:00:49Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -16,15 +34,6 @@
     "stars": 49,
     "updated_at": "2026-10-09T11:53:23Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-09T11:45:37Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -304,7 +313,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 159135,
+    "stars": 159147,
     "updated_at": "2026-10-08T16:19:55Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -362,15 +371,6 @@
     "stars": 8,
     "updated_at": "2026-10-08T15:09:45Z",
     "url": "https://github.com/vibestackdev/vibe-stack"
-  },
-  {
-    "description": "A small collection of reusable development workflows and project-scoped skills for AI coding assistants.",
-    "id": "Snigdha-Chowdhury/dev-toolkit",
-    "language": "\u2014",
-    "name": "Snigdha-Chowdhury/dev-toolkit",
-    "stars": 1,
-    "updated_at": "2026-10-08T14:09:45Z",
-    "url": "https://github.com/Snigdha-Chowdhury/dev-toolkit"
   },
   {
     "description": "The Universal Open-Source Warehouse for AI Agents, Skills, MCP Servers & Plugins",
