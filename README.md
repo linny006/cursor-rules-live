@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-09 18:30 UTC
+> ⏰ Last updated: 2026-10-09 18:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -91,7 +91,7 @@ expired items removed — so you can rely on what you see being current.
 | 36 | [jcottam/agent-resources](https://github.com/jcottam/agent-resources) | 29 | Shell | 2026-10-08 | — | Battle-tested agent skills and Cursor rules from real projects. Works with Cursor, Claude Code, and any agent. |
 | 37 | [Mawyxx/Mawyxx-Prime](https://github.com/Mawyxx/Mawyxx-Prime) | 2 | — | 2026-10-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Mawyxx/Mawyxx-Prime/) | MAWYXX PRIME — The Ultimate AI Architecture Constitution & System Prompt for Cursor, Windsurf, and Copilot. Zero-Trust A |
 | 38 | [sublimecoder/sublimecoding](https://github.com/sublimecoder/sublimecoding) | 0 | — | 2026-10-08 | — | 🛠️ Free Claude Code & Cursor prompts for senior engineers — plus AIOS, an open-source markdown memory system for coding  |
-| 39 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 159420 | JavaScript | 2026-10-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 39 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 159427 | JavaScript | 2026-10-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 40 | [Pranav-Nexus/antigravity-skill-porter](https://github.com/Pranav-Nexus/antigravity-skill-porter) | 5 | Python | 2026-10-08 | — | Port, convert, and optimize Claude Code & Cursor skills into Google Antigravity native multi-agent plugins. |
 | 41 | [ADanMan/clueless](https://github.com/ADanMan/clueless) | 2 | JavaScript | 2026-10-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/ADanMan/clueless/) | Tell your agent you know nothing. It becomes the only reviewer in the room: safe defaults, unasked questions answered, i |
 | 42 | [incline-ltd/coding-agent-guidelines](https://github.com/incline-ltd/coding-agent-guidelines) | 1 | JavaScript | 2026-10-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/incline-ltd/coding-agent-guidelines/) | Drop-in behavioral guidelines for Claude Code, Cursor, and AI coding agents. |
