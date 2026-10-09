@@ -1,12 +1,17 @@
 [
   {
-    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
-    "id": "bompus/house-rules",
-    "language": "JavaScript",
-    "name": "bompus/house-rules",
+    "cursorrules": {
+      "content": "---\ndescription: Project rules for agent-context-doctor\nglobs: [\"src/**\", \"tests/**\"]\nalwaysApply: true\n---\n\n# agent-context-doctor \u2014 Cursor Rules\n\nYou are an **implementation agent** for this project. Focus on implementation only \u2014 product strategy is out of scope.\n\n## Hard rules\n\n- No LLM calls, no telemetry, no external network requests\n- No authentication or credential handling\n- No web server or browser UI\n- Do not rename `acd`, `audit`, or `list` commands\n- Do not break the `AuditResult` JSON shape or `.acdrc` schema backward compatibility\n\n## Before finishing any task\n\nRun and confirm these all pass:\n\n```bash\npnpm format:check\npnpm typecheck\npnpm test\npnpm build\n```\n\n## Code style\n\n- TypeScript strict mode \u2014 no `any`, no `ts-ignore`\n- Pure functions for all audit checks in `src/audit/checks/`\n- Tests in `tests/*.spec.ts` using vitest\n- No comments that narrate what the code does\n\n## Final report format\n\nAlways return:\n\n- Files changed (list)\n- Commands run and their output\n- Tests added\n- Known limitations\n",
+      "format": "mdc",
+      "path": ".cursor/rules/project.mdc"
+    },
+    "description": "Audit agent context files like AGENTS.md, CLAUDE.md, .cursor/rules/*.mdc, .github/copilot-instructions.md, and prompt do",
+    "id": "alipajand/agent-context-doctor",
+    "language": "TypeScript",
+    "name": "alipajand/agent-context-doctor",
     "stars": 1,
-    "updated_at": "2026-10-09T22:25:21Z",
-    "url": "https://github.com/bompus/house-rules"
+    "updated_at": "2026-10-09T22:42:30Z",
+    "url": "https://github.com/alipajand/agent-context-doctor"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +19,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-09T22:15:43Z",
+    "updated_at": "2026-10-09T22:30:42Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
+    "id": "bompus/house-rules",
+    "language": "JavaScript",
+    "name": "bompus/house-rules",
+    "stars": 1,
+    "updated_at": "2026-10-09T22:42:33Z",
+    "url": "https://github.com/bompus/house-rules"
   },
   {
     "description": "Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony.",
@@ -125,20 +139,6 @@
     "stars": 209,
     "updated_at": "2026-10-09T20:22:09Z",
     "url": "https://github.com/sohaibt/product-mode"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Project rules for agent-context-doctor\nglobs: [\"src/**\", \"tests/**\"]\nalwaysApply: true\n---\n\n# agent-context-doctor \u2014 Cursor Rules\n\nYou are an **implementation agent** for this project. Focus on implementation only \u2014 product strategy is out of scope.\n\n## Hard rules\n\n- No LLM calls, no telemetry, no external network requests\n- No authentication or credential handling\n- No web server or browser UI\n- Do not rename `acd`, `audit`, or `list` commands\n- Do not break the `AuditResult` JSON shape or `.acdrc` schema backward compatibility\n\n## Before finishing any task\n\nRun and confirm these all pass:\n\n```bash\npnpm format:check\npnpm typecheck\npnpm test\npnpm build\n```\n\n## Code style\n\n- TypeScript strict mode \u2014 no `any`, no `ts-ignore`\n- Pure functions for all audit checks in `src/audit/checks/`\n- Tests in `tests/*.spec.ts` using vitest\n- No comments that narrate what the code does\n\n## Final report format\n\nAlways return:\n\n- Files changed (list)\n- Commands run and their output\n- Tests added\n- Known limitations\n",
-      "format": "mdc",
-      "path": ".cursor/rules/project.mdc"
-    },
-    "description": "Audit agent context files like AGENTS.md, CLAUDE.md, .cursor/rules/*.mdc, .github/copilot-instructions.md, and prompt do",
-    "id": "alipajand/agent-context-doctor",
-    "language": "TypeScript",
-    "name": "alipajand/agent-context-doctor",
-    "stars": 1,
-    "updated_at": "2026-10-09T21:21:02Z",
-    "url": "https://github.com/alipajand/agent-context-doctor"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -400,7 +400,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 159567,
+    "stars": 159579,
     "updated_at": "2026-10-08T16:19:55Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -473,7 +473,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21144,
+    "stars": 21145,
     "updated_at": "2026-10-08T06:25:19Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
