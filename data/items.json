@@ -1,12 +1,30 @@
 [
   {
+    "description": "A growing, curated hub of modular, battle-tested AI skills and operational workflows for developers, architects, and LLM",
+    "id": "sewox/Discovered-Skills",
+    "language": "\u2014",
+    "name": "sewox/Discovered-Skills",
+    "stars": 0,
+    "updated_at": "2026-10-09T12:38:38Z",
+    "url": "https://github.com/sewox/Discovered-Skills"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-09T12:15:47Z",
+    "updated_at": "2026-10-09T12:30:41Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 49,
+    "updated_at": "2026-10-09T12:30:30Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "description": "A small collection of reusable development workflows and project-scoped skills for AI coding assistants.",
@@ -25,15 +43,6 @@
     "stars": 1,
     "updated_at": "2026-10-09T12:28:26Z",
     "url": "https://github.com/bompus/house-rules"
-  },
-  {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 49,
-    "updated_at": "2026-10-09T11:53:23Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "cursorrules": {
@@ -313,7 +322,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 159157,
+    "stars": 159164,
     "updated_at": "2026-10-08T16:19:55Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -348,15 +357,6 @@
     "stars": 2,
     "updated_at": "2026-10-08T15:30:43Z",
     "url": "https://github.com/ADanMan/clueless"
-  },
-  {
-    "description": "A growing, curated hub of modular, battle-tested AI skills and operational workflows for developers, architects, and LLM",
-    "id": "sewox/Discovered-Skills",
-    "language": "\u2014",
-    "name": "sewox/Discovered-Skills",
-    "stars": 0,
-    "updated_at": "2026-10-08T15:26:18Z",
-    "url": "https://github.com/sewox/Discovered-Skills"
   },
   {
     "cursorrules": {
