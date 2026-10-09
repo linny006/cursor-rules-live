@@ -1,21 +1,30 @@
 [
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-09T09:45:36Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
     "id": "bompus/house-rules",
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 1,
-    "updated_at": "2026-10-09T09:41:55Z",
+    "updated_at": "2026-10-09T10:14:52Z",
     "url": "https://github.com/bompus/house-rules"
+  },
+  {
+    "description": "Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml",
+    "id": "nu-nenoi/repo-nexus",
+    "language": "Shell",
+    "name": "nu-nenoi/repo-nexus",
+    "stars": 7,
+    "updated_at": "2026-10-09T10:02:24Z",
+    "url": "https://github.com/nu-nenoi/repo-nexus"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-09T10:00:46Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony.",
@@ -81,7 +90,7 @@
     "id": "sohaibt/product-mode",
     "language": "TypeScript",
     "name": "sohaibt/product-mode",
-    "stars": 207,
+    "stars": 208,
     "updated_at": "2026-10-09T08:44:38Z",
     "url": "https://github.com/sohaibt/product-mode"
   },
@@ -120,15 +129,6 @@
     "stars": 9,
     "updated_at": "2026-10-09T07:23:40Z",
     "url": "https://github.com/XAKLESK/cre-agent-skills"
-  },
-  {
-    "description": "Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml",
-    "id": "nu-nenoi/repo-nexus",
-    "language": "Shell",
-    "name": "nu-nenoi/repo-nexus",
-    "stars": 6,
-    "updated_at": "2026-10-09T09:37:46Z",
-    "url": "https://github.com/nu-nenoi/repo-nexus"
   },
   {
     "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
@@ -304,7 +304,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 159039,
+    "stars": 159054,
     "updated_at": "2026-10-08T16:19:55Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
