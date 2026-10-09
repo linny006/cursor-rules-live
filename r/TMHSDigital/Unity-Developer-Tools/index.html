@@ -61,7 +61,7 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 - `.cursor-plugin/plugin.json` - plugin manifest (version is auto-managed by CI)
 - `skills/` - 18 SKILL.md files (project setup, MonoBehaviour, ScriptableObjects, physics, UI, shaders, animation, audio, input, networking, editor scripting, performance, render pipelines, ECS/DOTS, visual scripting, testing, addressables, platform targeting)
 - `rules/` - 8 .mdc rule files (C# conventions, lifecycle, performance, naming, serialization, shaders, visual scripting, security)
-- `snippets/` - 20 code snippets organized by type (csharp, shaders, visual-scripting)
+- `snippets/` - 19 code snippets (csharp, shaders) plus a visual-scripting patterns guide
 - `templates/` - 5 starter templates (2d-platformer, 3d-fps, ui-menu-system, scriptableobject-architecture, editor-tool)
 - `mcp-server/` - Python FastMCP server with 5 tools and JSON data files
 - `docs/` - architecture, roadmap, contributing, getting started
@@ -103,7 +103,7 @@ Never manually edit the version in `plugin.json` or the README version badge. Th
 ## When editing the MCP server
 
 - All tool logic lives in `mcp-server/server.py`.
-- Placeholder modules in `mcp-server/tools/` maintain directory structure.
+- Tests live in `mcp-server/tests/` (pytest, including an MCP stdio smoke test).
 - Data files in `mcp-server/data/` provide reference databases.
 - Dependencies are listed in `mcp-server/requirements.txt`.
 
@@ -141,7 +141,7 @@ Never manually edit the version in `plugin.json` or the README version badge. Th
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>
 <ul class="crosslinks">
-<li><a href="https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/">DietrichGebert/ponytail (stars:159116)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/">DietrichGebert/ponytail (stars:159127)</a></li>
 <li><a href="https://linny006.github.io/cursor-rules-live/r/jnMetaCode/agency-agents-zh/">jnMetaCode/agency-agents-zh (stars:21139)</a></li>
 <li><a href="https://linny006.github.io/cursor-rules-live/r/HoangNguyen0403/agent-skills-standard/">HoangNguyen0403/agent-skills-standard (stars:571)</a></li>
 </ul></section>
