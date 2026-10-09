@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-09T19:15:51Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml",
     "id": "nu-nenoi/repo-nexus",
     "language": "Shell",
@@ -7,15 +16,6 @@
     "stars": 7,
     "updated_at": "2026-10-09T19:08:40Z",
     "url": "https://github.com/nu-nenoi/repo-nexus"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-09T19:00:43Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -42,7 +42,7 @@
     "language": "TypeScript",
     "name": "alipajand/agent-context-doctor",
     "stars": 1,
-    "updated_at": "2026-10-09T16:33:54Z",
+    "updated_at": "2026-10-09T19:29:32Z",
     "url": "https://github.com/alipajand/agent-context-doctor"
   },
   {
@@ -400,7 +400,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 159452,
+    "stars": 159464,
     "updated_at": "2026-10-08T16:19:55Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
