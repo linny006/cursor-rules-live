@@ -5,8 +5,26 @@
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 1,
-    "updated_at": "2026-10-09T20:24:22Z",
+    "updated_at": "2026-10-09T20:40:09Z",
     "url": "https://github.com/bompus/house-rules"
+  },
+  {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 49,
+    "updated_at": "2026-10-09T20:36:02Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-09T20:30:35Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "The most expensive bug in AI-assisted building is shipping the wrong thing, well. A drop-in CLAUDE.md / AGENTS.md for PM",
@@ -16,15 +34,6 @@
     "stars": 209,
     "updated_at": "2026-10-09T20:22:09Z",
     "url": "https://github.com/sohaibt/product-mode"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-09T20:15:52Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -37,7 +46,7 @@
     "language": "TypeScript",
     "name": "alipajand/agent-context-doctor",
     "stars": 1,
-    "updated_at": "2026-10-09T20:11:48Z",
+    "updated_at": "2026-10-09T20:42:57Z",
     "url": "https://github.com/alipajand/agent-context-doctor"
   },
   {
@@ -218,15 +227,6 @@
     "url": "https://github.com/sewox/Discovered-Skills"
   },
   {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 49,
-    "updated_at": "2026-10-09T12:30:30Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
     "description": "A small collection of reusable development workflows and project-scoped skills for AI coding assistants.",
     "id": "Snigdha-Chowdhury/dev-toolkit",
     "language": "\u2014",
@@ -345,7 +345,7 @@
     "id": "roedyrustam/vibes-plug",
     "language": "JavaScript",
     "name": "roedyrustam/vibes-plug",
-    "stars": 74,
+    "stars": 75,
     "updated_at": "2026-10-08T21:02:18Z",
     "url": "https://github.com/roedyrustam/vibes-plug"
   },
@@ -400,7 +400,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 159501,
+    "stars": 159514,
     "updated_at": "2026-10-08T16:19:55Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
