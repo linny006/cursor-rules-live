@@ -5,8 +5,26 @@
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 1,
-    "updated_at": "2026-10-09T20:12:19Z",
+    "updated_at": "2026-10-09T20:24:22Z",
     "url": "https://github.com/bompus/house-rules"
+  },
+  {
+    "description": "The most expensive bug in AI-assisted building is shipping the wrong thing, well. A drop-in CLAUDE.md / AGENTS.md for PM",
+    "id": "sohaibt/product-mode",
+    "language": "TypeScript",
+    "name": "sohaibt/product-mode",
+    "stars": 209,
+    "updated_at": "2026-10-09T20:22:09Z",
+    "url": "https://github.com/sohaibt/product-mode"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-09T20:15:52Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -23,15 +41,6 @@
     "url": "https://github.com/alipajand/agent-context-doctor"
   },
   {
-    "description": "The most expensive bug in AI-assisted building is shipping the wrong thing, well. A drop-in CLAUDE.md / AGENTS.md for PM",
-    "id": "sohaibt/product-mode",
-    "language": "TypeScript",
-    "name": "sohaibt/product-mode",
-    "stars": 209,
-    "updated_at": "2026-10-09T20:06:25Z",
-    "url": "https://github.com/sohaibt/product-mode"
-  },
-  {
     "description": "Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony.",
     "id": "saqie803/ponytail",
     "language": "JavaScript",
@@ -39,15 +48,6 @@
     "stars": 2,
     "updated_at": "2026-10-09T20:05:29Z",
     "url": "https://github.com/saqie803/ponytail"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-09T20:00:48Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
@@ -400,7 +400,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 159494,
+    "stars": 159501,
     "updated_at": "2026-10-08T16:19:55Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
