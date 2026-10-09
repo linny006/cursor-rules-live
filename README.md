@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-09 02:00 UTC
+> ⏰ Last updated: 2026-10-09 02:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,12 +53,12 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [XAKLESK/cre-agent-skills](https://github.com/XAKLESK/cre-agent-skills) | 9 | — | 2026-10-09 | — | Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc |
-| 2 | [Amirun99/agency-orchestrator](https://github.com/Amirun99/agency-orchestrator) | 0 | Dart | 2026-10-09 | — | Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support. |
-| 3 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-10-09 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
-| 4 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-10-09 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
-| 5 | [zinxj/uikit-expert-skill](https://github.com/zinxj/uikit-expert-skill) | 5 | — | 2026-10-09 | — | Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan |
-| 6 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-09 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-09 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [XAKLESK/cre-agent-skills](https://github.com/XAKLESK/cre-agent-skills) | 9 | — | 2026-10-09 | — | Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc |
+| 3 | [Amirun99/agency-orchestrator](https://github.com/Amirun99/agency-orchestrator) | 0 | Dart | 2026-10-09 | — | Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support. |
+| 4 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-10-09 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
+| 5 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-10-09 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
+| 6 | [zinxj/uikit-expert-skill](https://github.com/zinxj/uikit-expert-skill) | 5 | — | 2026-10-09 | — | Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan |
 | 7 | [bompus/house-rules](https://github.com/bompus/house-rules) | 1 | JavaScript | 2026-10-09 | — | Working rules and skills for AI coding agents, layered as base, modifiers, person and project |
 | 8 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-09 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
 | 9 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 49 | — | 2026-10-08 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
@@ -75,7 +75,7 @@ expired items removed — so you can rely on what you see being current.
 | 20 | [Mawyxx/Mawyxx-Prime](https://github.com/Mawyxx/Mawyxx-Prime) | 2 | — | 2026-10-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Mawyxx/Mawyxx-Prime/) | MAWYXX PRIME — The Ultimate AI Architecture Constitution & System Prompt for Cursor, Windsurf, and Copilot. Zero-Trust A |
 | 21 | [sublimecoder/sublimecoding](https://github.com/sublimecoder/sublimecoding) | 0 | — | 2026-10-08 | — | 🛠️ Free Claude Code & Cursor prompts for senior engineers — plus AIOS, an open-source markdown memory system for coding  |
 | 22 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-10-08 | — | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
-| 23 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 158593 | JavaScript | 2026-10-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 23 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 158607 | JavaScript | 2026-10-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 24 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 20 | TypeScript | 2026-10-08 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
 | 25 | [Pranav-Nexus/antigravity-skill-porter](https://github.com/Pranav-Nexus/antigravity-skill-porter) | 5 | Python | 2026-10-08 | — | Port, convert, and optimize Claude Code & Cursor skills into Google Antigravity native multi-agent plugins. |
 | 26 | [ADanMan/clueless](https://github.com/ADanMan/clueless) | 2 | JavaScript | 2026-10-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/ADanMan/clueless/) | Tell your agent you know nothing. It becomes the only reviewer in the room: safe defaults, unasked questions answered, i |
