@@ -1,11 +1,20 @@
 [
   {
+    "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
+    "id": "HoangNguyen0403/agent-skills-standard",
+    "language": "TypeScript",
+    "name": "HoangNguyen0403/agent-skills-standard",
+    "stars": 571,
+    "updated_at": "2026-10-09T07:59:28Z",
+    "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-09T07:30:57Z",
+    "updated_at": "2026-10-09T07:45:48Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -77,7 +86,7 @@
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 1,
-    "updated_at": "2026-10-09T07:39:35Z",
+    "updated_at": "2026-10-09T07:52:42Z",
     "url": "https://github.com/bompus/house-rules"
   },
   {
@@ -254,7 +263,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 158903,
+    "stars": 158915,
     "updated_at": "2026-10-08T16:19:55Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -298,15 +307,6 @@
     "stars": 0,
     "updated_at": "2026-10-08T15:26:18Z",
     "url": "https://github.com/sewox/Discovered-Skills"
-  },
-  {
-    "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
-    "id": "HoangNguyen0403/agent-skills-standard",
-    "language": "TypeScript",
-    "name": "HoangNguyen0403/agent-skills-standard",
-    "stars": 571,
-    "updated_at": "2026-10-09T07:41:48Z",
-    "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
   },
   {
     "cursorrules": {
