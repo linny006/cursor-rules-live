@@ -1,11 +1,20 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-09T21:00:37Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Architectural drift prevention for the agentic AI SDLC.",
     "id": "MnemeHQ/mneme",
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 25,
-    "updated_at": "2026-10-09T20:51:47Z",
+    "updated_at": "2026-10-09T21:02:42Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
@@ -16,15 +25,6 @@
     "stars": 1,
     "updated_at": "2026-10-09T20:47:02Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-09T20:45:55Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
@@ -64,7 +64,7 @@
     "language": "TypeScript",
     "name": "alipajand/agent-context-doctor",
     "stars": 1,
-    "updated_at": "2026-10-09T20:56:27Z",
+    "updated_at": "2026-10-09T21:04:48Z",
     "url": "https://github.com/alipajand/agent-context-doctor"
   },
   {
@@ -400,7 +400,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 159522,
+    "stars": 159534,
     "updated_at": "2026-10-08T16:19:55Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
