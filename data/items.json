@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-09T07:30:57Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Free production-grade UI design prompts \u2014 Claude Code skills, Cursor rules & AGENTS.md, each with a live demo. By UI Atl",
     "id": "qianye60/ui-design-prompts",
     "language": "HTML",
@@ -45,15 +54,6 @@
     "url": "https://github.com/zinxj/uikit-expert-skill"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-09T07:15:38Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "The most expensive bug in AI-assisted building is shipping the wrong thing, well. A drop-in CLAUDE.md / AGENTS.md for PM",
     "id": "sohaibt/product-mode",
     "language": "TypeScript",
@@ -77,7 +77,7 @@
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 1,
-    "updated_at": "2026-10-09T05:50:45Z",
+    "updated_at": "2026-10-09T07:39:35Z",
     "url": "https://github.com/bompus/house-rules"
   },
   {
@@ -254,7 +254,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 158891,
+    "stars": 158903,
     "updated_at": "2026-10-08T16:19:55Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -305,7 +305,7 @@
     "language": "TypeScript",
     "name": "HoangNguyen0403/agent-skills-standard",
     "stars": 571,
-    "updated_at": "2026-10-09T03:51:21Z",
+    "updated_at": "2026-10-09T07:41:48Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
   },
   {
