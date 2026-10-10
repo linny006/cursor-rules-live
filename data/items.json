@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-10T13:30:54Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
     "id": "arnoldalberto007-sys/Swift-UIKit-Components",
     "language": "HTML",
@@ -25,15 +34,6 @@
     "stars": 1,
     "updated_at": "2026-10-10T13:20:06Z",
     "url": "https://github.com/Hyanthropological659/clarify-skill"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-10T13:15:44Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
@@ -208,7 +208,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 160130,
+    "stars": 160139,
     "updated_at": "2026-10-10T04:19:53Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
