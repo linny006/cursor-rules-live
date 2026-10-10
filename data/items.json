@@ -1,11 +1,20 @@
 [
   {
+    "description": "Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml",
+    "id": "nu-nenoi/repo-nexus",
+    "language": "Shell",
+    "name": "nu-nenoi/repo-nexus",
+    "stars": 7,
+    "updated_at": "2026-10-10T09:25:35Z",
+    "url": "https://github.com/nu-nenoi/repo-nexus"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-10T09:00:39Z",
+    "updated_at": "2026-10-10T09:15:32Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -127,7 +136,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 159976,
+    "stars": 159996,
     "updated_at": "2026-10-10T04:19:53Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -189,15 +198,6 @@
     "stars": 209,
     "updated_at": "2026-10-09T20:22:09Z",
     "url": "https://github.com/sohaibt/product-mode"
-  },
-  {
-    "description": "Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml",
-    "id": "nu-nenoi/repo-nexus",
-    "language": "Shell",
-    "name": "nu-nenoi/repo-nexus",
-    "stars": 7,
-    "updated_at": "2026-10-09T19:08:40Z",
-    "url": "https://github.com/nu-nenoi/repo-nexus"
   },
   {
     "cursorrules": {
