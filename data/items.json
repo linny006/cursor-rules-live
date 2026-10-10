@@ -1,21 +1,30 @@
 [
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-10T03:00:52Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
     "id": "bompus/house-rules",
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 1,
-    "updated_at": "2026-10-10T03:14:34Z",
+    "updated_at": "2026-10-10T03:29:05Z",
     "url": "https://github.com/bompus/house-rules"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-10-10T03:24:52Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-10T03:15:43Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -98,15 +107,6 @@
     "stars": 1,
     "updated_at": "2026-10-10T00:37:33Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-10-09T23:42:39Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -313,7 +313,7 @@
     "id": "Mindrally/skills",
     "language": "\u2014",
     "name": "Mindrally/skills",
-    "stars": 270,
+    "stars": 271,
     "updated_at": "2026-10-08T23:38:39Z",
     "url": "https://github.com/Mindrally/skills"
   },
@@ -400,8 +400,8 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 159718,
-    "updated_at": "2026-10-08T16:19:55Z",
+    "stars": 159733,
+    "updated_at": "2026-10-10T03:29:25Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
   {
