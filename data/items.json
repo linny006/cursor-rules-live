@@ -1,12 +1,21 @@
 [
   {
-    "description": "Development rules and reusable skills collection for AI coding assistants, covering DealTech UI, Vibes-Plug workflow, Po",
+    "description": "A unified collection of rules and skills for AI coding assistants, covering a standardized Project Starter template, Dea",
     "id": "Emzyjeppp/devflow-rules",
     "language": "JavaScript",
     "name": "Emzyjeppp/devflow-rules",
     "stars": 0,
-    "updated_at": "2026-10-10T06:30:13Z",
+    "updated_at": "2026-10-10T06:36:20Z",
     "url": "https://github.com/Emzyjeppp/devflow-rules"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-10T06:30:44Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -21,15 +30,6 @@
     "stars": 23,
     "updated_at": "2026-10-10T06:18:27Z",
     "url": "https://github.com/heymegabyte/agent-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-10T06:15:47Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony.",
@@ -91,7 +91,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 159831,
+    "stars": 159840,
     "updated_at": "2026-10-10T04:19:53Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -491,7 +491,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21152,
+    "stars": 21153,
     "updated_at": "2026-10-08T06:25:19Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
