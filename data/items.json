@@ -1,11 +1,20 @@
 [
   {
+    "description": "Accessibility is not a request. A practical, lived-experience toolkit for making digital products and printables usable ",
+    "id": "gabrieldcpaiva/not-optional",
+    "language": "Shell",
+    "name": "gabrieldcpaiva/not-optional",
+    "stars": 1,
+    "updated_at": "2026-10-10T19:39:56Z",
+    "url": "https://github.com/gabrieldcpaiva/not-optional"
+  },
+  {
     "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
     "id": "bompus/house-rules",
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 1,
-    "updated_at": "2026-10-10T19:25:07Z",
+    "updated_at": "2026-10-10T19:38:13Z",
     "url": "https://github.com/bompus/house-rules"
   },
   {
@@ -14,7 +23,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-10T19:15:38Z",
+    "updated_at": "2026-10-10T19:30:39Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -300,7 +309,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 160326,
+    "stars": 160339,
     "updated_at": "2026-10-10T04:19:53Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -342,7 +351,7 @@
     "language": "TypeScript",
     "name": "HoangNguyen0403/agent-skills-standard",
     "stars": 573,
-    "updated_at": "2026-10-09T17:33:42Z",
+    "updated_at": "2026-10-10T19:35:41Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
   },
   {
@@ -489,14 +498,5 @@
     "stars": 2,
     "updated_at": "2026-10-08T19:05:34Z",
     "url": "https://github.com/Mawyxx/Mawyxx-Prime"
-  },
-  {
-    "description": "Port, convert, and optimize Claude Code & Cursor skills into Google Antigravity native multi-agent plugins.",
-    "id": "Pranav-Nexus/antigravity-skill-porter",
-    "language": "Python",
-    "name": "Pranav-Nexus/antigravity-skill-porter",
-    "stars": 5,
-    "updated_at": "2026-10-08T15:38:17Z",
-    "url": "https://github.com/Pranav-Nexus/antigravity-skill-porter"
   }
 ]
