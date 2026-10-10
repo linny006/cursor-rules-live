@@ -1,5 +1,23 @@
 [
   {
+    "description": "Curated, multi-runtime agent skills (Hermes, Claude, Cursor, Gemini, GPT) focusing on DevOps, Systems, Integrations and ",
+    "id": "grupoplustech/skills",
+    "language": "\u2014",
+    "name": "grupoplustech/skills",
+    "stars": 0,
+    "updated_at": "2026-10-10T03:52:00Z",
+    "url": "https://github.com/grupoplustech/skills"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-10T03:45:34Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
     "id": "bompus/house-rules",
     "language": "JavaScript",
@@ -18,18 +36,9 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 159739,
+    "stars": 159744,
     "updated_at": "2026-10-10T03:34:07Z",
     "url": "https://github.com/DietrichGebert/ponytail"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-10T03:30:48Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -494,14 +503,5 @@
     "stars": 3,
     "updated_at": "2026-10-08T06:12:47Z",
     "url": "https://github.com/ainullm/agent-checkpoint"
-  },
-  {
-    "description": "The hardening moment. A production-grade Skills ecosystem for AI Agents.",
-    "id": "primaybr/quench",
-    "language": "Python",
-    "name": "primaybr/quench",
-    "stars": 1,
-    "updated_at": "2026-10-08T02:15:45Z",
-    "url": "https://github.com/primaybr/quench"
   }
 ]
