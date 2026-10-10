@@ -1,12 +1,21 @@
 [
   {
-    "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
-    "id": "Bastioned-successor320/learn-nanobot",
-    "language": "Python",
-    "name": "Bastioned-successor320/learn-nanobot",
-    "stars": 12,
-    "updated_at": "2026-10-10T05:41:47Z",
-    "url": "https://github.com/Bastioned-successor320/learn-nanobot"
+    "description": "Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony.",
+    "id": "saqie803/ponytail",
+    "language": "JavaScript",
+    "name": "saqie803/ponytail",
+    "stars": 2,
+    "updated_at": "2026-10-10T05:52:59Z",
+    "url": "https://github.com/saqie803/ponytail"
+  },
+  {
+    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
+    "id": "Laurellagloomy260/cursor-rules-generator",
+    "language": "\u2014",
+    "name": "Laurellagloomy260/cursor-rules-generator",
+    "stars": 0,
+    "updated_at": "2026-10-10T05:46:01Z",
+    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +23,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-10T05:30:32Z",
+    "updated_at": "2026-10-10T05:45:33Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
+    "id": "Bastioned-successor320/learn-nanobot",
+    "language": "Python",
+    "name": "Bastioned-successor320/learn-nanobot",
+    "stars": 12,
+    "updated_at": "2026-10-10T05:41:47Z",
+    "url": "https://github.com/Bastioned-successor320/learn-nanobot"
   },
   {
     "cursorrules": {
@@ -64,7 +82,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 159800,
+    "stars": 159812,
     "updated_at": "2026-10-10T04:19:53Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -103,24 +121,6 @@
     "stars": 0,
     "updated_at": "2026-10-10T01:35:49Z",
     "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony.",
-    "id": "saqie803/ponytail",
-    "language": "JavaScript",
-    "name": "saqie803/ponytail",
-    "stars": 2,
-    "updated_at": "2026-10-10T01:12:51Z",
-    "url": "https://github.com/saqie803/ponytail"
-  },
-  {
-    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
-    "id": "Laurellagloomy260/cursor-rules-generator",
-    "language": "\u2014",
-    "name": "Laurellagloomy260/cursor-rules-generator",
-    "stars": 0,
-    "updated_at": "2026-10-10T01:05:45Z",
-    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
   },
   {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
@@ -482,7 +482,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21152,
+    "stars": 21151,
     "updated_at": "2026-10-08T06:25:19Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
