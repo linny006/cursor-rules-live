@@ -1,11 +1,20 @@
 [
   {
+    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
+    "id": "bompus/house-rules",
+    "language": "JavaScript",
+    "name": "bompus/house-rules",
+    "stars": 1,
+    "updated_at": "2026-10-10T21:56:25Z",
+    "url": "https://github.com/bompus/house-rules"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-10T21:45:04Z",
+    "updated_at": "2026-10-10T21:45:34Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -19,17 +28,8 @@
     "language": "TypeScript",
     "name": "heymegabyte/agent-skills",
     "stars": 23,
-    "updated_at": "2026-10-10T21:44:40Z",
+    "updated_at": "2026-10-10T21:45:27Z",
     "url": "https://github.com/heymegabyte/agent-skills"
-  },
-  {
-    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
-    "id": "bompus/house-rules",
-    "language": "JavaScript",
-    "name": "bompus/house-rules",
-    "stars": 1,
-    "updated_at": "2026-10-10T21:36:59Z",
-    "url": "https://github.com/bompus/house-rules"
   },
   {
     "description": "Make AI coding agents ship clean code: rules, sub-agents, skills and hooks for Claude Code, Codex, Cursor, Copilot, Gemi",
@@ -318,7 +318,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 160394,
+    "stars": 160400,
     "updated_at": "2026-10-10T04:19:53Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
