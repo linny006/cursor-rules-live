@@ -1,11 +1,20 @@
 [
   {
+    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
+    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "language": "\u2014",
+    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
+    "stars": 3,
+    "updated_at": "2026-10-10T13:13:51Z",
+    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-10T12:45:38Z",
+    "updated_at": "2026-10-10T13:00:49Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -23,7 +32,7 @@
     "language": "TypeScript",
     "name": "sohaibt/product-mode",
     "stars": 210,
-    "updated_at": "2026-10-10T12:28:33Z",
+    "updated_at": "2026-10-10T13:11:14Z",
     "url": "https://github.com/sohaibt/product-mode"
   },
   {
@@ -41,7 +50,7 @@
     "language": "\u2014",
     "name": "Aaditya1273/Agent.md",
     "stars": 8,
-    "updated_at": "2026-10-10T11:23:41Z",
+    "updated_at": "2026-10-10T13:02:49Z",
     "url": "https://github.com/Aaditya1273/Agent.md"
   },
   {
@@ -52,15 +61,6 @@
     "stars": 1,
     "updated_at": "2026-10-10T10:53:39Z",
     "url": "https://github.com/Hyanthropological659/clarify-skill"
-  },
-  {
-    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
-    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "language": "\u2014",
-    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "stars": 3,
-    "updated_at": "2026-10-10T10:49:34Z",
-    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -208,7 +208,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 160111,
+    "stars": 160119,
     "updated_at": "2026-10-10T04:19:53Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
