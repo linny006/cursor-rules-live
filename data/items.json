@@ -1,12 +1,12 @@
 [
   {
-    "description": "A unified collection of rules and skills for AI coding assistants, covering a standardized Project Starter template, Dea",
-    "id": "Emzyjeppp/devflow-rules",
-    "language": "JavaScript",
-    "name": "Emzyjeppp/devflow-rules",
-    "stars": 0,
-    "updated_at": "2026-10-10T06:36:20Z",
-    "url": "https://github.com/Emzyjeppp/devflow-rules"
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 1,
+    "updated_at": "2026-10-10T06:51:13Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-10T06:30:44Z",
+    "updated_at": "2026-10-10T06:45:32Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "A unified collection of rules and skills for AI coding assistants, covering a standardized Project Starter template, Dea",
+    "id": "Emzyjeppp/devflow-rules",
+    "language": "JavaScript",
+    "name": "Emzyjeppp/devflow-rules",
+    "stars": 0,
+    "updated_at": "2026-10-10T06:36:20Z",
+    "url": "https://github.com/Emzyjeppp/devflow-rules"
   },
   {
     "cursorrules": {
@@ -91,7 +100,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 159840,
+    "stars": 159854,
     "updated_at": "2026-10-10T04:19:53Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -130,15 +139,6 @@
     "stars": 0,
     "updated_at": "2026-10-10T01:35:49Z",
     "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 1,
-    "updated_at": "2026-10-10T00:37:33Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
