@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-10 02:30 UTC
+> ⏰ Last updated: 2026-10-10 02:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,9 +53,9 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-10 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 2 | [heymegabyte/agent-skills](https://github.com/heymegabyte/agent-skills) | 23 | TypeScript | 2026-10-10 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/agent-skills/) | Agent Skills — agent-neutral autonomous product-building OS for 32+ AI coding tools. 23 skill categories · 28 agents · 1 |
-| 3 | [bompus/house-rules](https://github.com/bompus/house-rules) | 1 | JavaScript | 2026-10-10 | — | Working rules and skills for AI coding agents, layered as base, modifiers, person and project |
+| 1 | [bompus/house-rules](https://github.com/bompus/house-rules) | 1 | JavaScript | 2026-10-10 | — | Working rules and skills for AI coding agents, layered as base, modifiers, person and project |
+| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-10 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 3 | [heymegabyte/agent-skills](https://github.com/heymegabyte/agent-skills) | 23 | TypeScript | 2026-10-10 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/agent-skills/) | Agent Skills — agent-neutral autonomous product-building OS for 32+ AI coding tools. 23 skill categories · 28 agents · 1 |
 | 4 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-10-10 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
 | 5 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-10-10 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
 | 6 | [saqie803/ponytail](https://github.com/saqie803/ponytail) | 2 | JavaScript | 2026-10-10 | — | Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony. |
@@ -92,7 +92,7 @@ expired items removed — so you can rely on what you see being current.
 | 37 | [jcottam/agent-resources](https://github.com/jcottam/agent-resources) | 29 | Shell | 2026-10-08 | — | Battle-tested agent skills and Cursor rules from real projects. Works with Cursor, Claude Code, and any agent. |
 | 38 | [Mawyxx/Mawyxx-Prime](https://github.com/Mawyxx/Mawyxx-Prime) | 2 | — | 2026-10-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Mawyxx/Mawyxx-Prime/) | MAWYXX PRIME — The Ultimate AI Architecture Constitution & System Prompt for Cursor, Windsurf, and Copilot. Zero-Trust A |
 | 39 | [sublimecoder/sublimecoding](https://github.com/sublimecoder/sublimecoding) | 0 | — | 2026-10-08 | — | 🛠️ Free Claude Code & Cursor prompts for senior engineers — plus AIOS, an open-source markdown memory system for coding  |
-| 40 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 159694 | JavaScript | 2026-10-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 40 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 159707 | JavaScript | 2026-10-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 41 | [Pranav-Nexus/antigravity-skill-porter](https://github.com/Pranav-Nexus/antigravity-skill-porter) | 5 | Python | 2026-10-08 | — | Port, convert, and optimize Claude Code & Cursor skills into Google Antigravity native multi-agent plugins. |
 | 42 | [ADanMan/clueless](https://github.com/ADanMan/clueless) | 2 | JavaScript | 2026-10-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/ADanMan/clueless/) | Tell your agent you know nothing. It becomes the only reviewer in the room: safe defaults, unasked questions answered, i |
 | 43 | [incline-ltd/coding-agent-guidelines](https://github.com/incline-ltd/coding-agent-guidelines) | 1 | JavaScript | 2026-10-08 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/incline-ltd/coding-agent-guidelines/) | Drop-in behavioral guidelines for Claude Code, Cursor, and AI coding agents. |
