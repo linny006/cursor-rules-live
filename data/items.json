@@ -1,11 +1,20 @@
 [
   {
+    "description": "The most expensive bug in AI-assisted building is shipping the wrong thing, well. A drop-in CLAUDE.md / AGENTS.md for PM",
+    "id": "sohaibt/product-mode",
+    "language": "TypeScript",
+    "name": "sohaibt/product-mode",
+    "stars": 210,
+    "updated_at": "2026-10-10T12:28:33Z",
+    "url": "https://github.com/sohaibt/product-mode"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-10T12:00:50Z",
+    "updated_at": "2026-10-10T12:15:30Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -190,7 +199,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 160091,
+    "stars": 160098,
     "updated_at": "2026-10-10T04:19:53Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -225,15 +234,6 @@
     "stars": 25,
     "updated_at": "2026-10-10T10:59:50Z",
     "url": "https://github.com/MnemeHQ/mneme"
-  },
-  {
-    "description": "The most expensive bug in AI-assisted building is shipping the wrong thing, well. A drop-in CLAUDE.md / AGENTS.md for PM",
-    "id": "sohaibt/product-mode",
-    "language": "TypeScript",
-    "name": "sohaibt/product-mode",
-    "stars": 210,
-    "updated_at": "2026-10-09T20:22:09Z",
-    "url": "https://github.com/sohaibt/product-mode"
   },
   {
     "cursorrules": {
