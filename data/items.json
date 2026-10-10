@@ -5,8 +5,17 @@
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 1,
-    "updated_at": "2026-10-10T23:13:31Z",
+    "updated_at": "2026-10-10T23:28:58Z",
     "url": "https://github.com/bompus/house-rules"
+  },
+  {
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-10-10T23:23:04Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,7 +23,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-10T23:00:52Z",
+    "updated_at": "2026-10-10T23:15:34Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -95,15 +104,6 @@
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
-    "stars": 0,
-    "updated_at": "2026-10-10T19:55:31Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
     "description": "Accessibility is not a request. A practical, lived-experience toolkit for making digital products and printables usable ",
     "id": "gabrieldcpaiva/not-optional",
     "language": "Shell",
@@ -114,12 +114,12 @@
   },
   {
     "description": "Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml",
-    "id": "nu-nenoi/repo-nexus",
+    "id": "unoxen/repo-nexus",
     "language": "Shell",
-    "name": "nu-nenoi/repo-nexus",
+    "name": "unoxen/repo-nexus",
     "stars": 7,
     "updated_at": "2026-10-10T17:40:32Z",
-    "url": "https://github.com/nu-nenoi/repo-nexus"
+    "url": "https://github.com/unoxen/repo-nexus"
   },
   {
     "description": "Read-only MCP server and Claude Code plugin that lints CLAUDE.md, AGENTS.md and SKILL.md, counts approximate tokens per ",
@@ -318,7 +318,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 160425,
+    "stars": 160433,
     "updated_at": "2026-10-10T04:19:53Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
