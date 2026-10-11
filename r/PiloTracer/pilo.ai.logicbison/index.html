@@ -14,7 +14,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="PiloTracer/pilo.ai.logicbison - entry on Cursor Rules Live">
 <meta name="twitter:description" content="Portable process framework for software teams shipping with coding agents (Cursor, Claude Code, Codex, opencode). Skills">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"PiloTracer/pilo.ai.logicbison","codeRepository":"https://github.com/PiloTracer/pilo.ai.logicbison","programmingLanguage":"Shell","url":"https://linny006.github.io/cursor-rules-live/r/PiloTracer/pilo.ai.logicbison/","description":"Portable process framework for software teams shipping with coding agents (Cursor, Claude Code, Codex, opencode). Skills","author":{"@type":"Person","name":"PiloTracer","url":"https://github.com/PiloTracer"},"dateModified":"2026-10-04"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"PiloTracer/pilo.ai.logicbison","codeRepository":"https://github.com/PiloTracer/pilo.ai.logicbison","programmingLanguage":"Shell","url":"https://linny006.github.io/cursor-rules-live/r/PiloTracer/pilo.ai.logicbison/","description":"Portable process framework for software teams shipping with coding agents (Cursor, Claude Code, Codex, opencode). Skills","author":{"@type":"Person","name":"PiloTracer","url":"https://github.com/PiloTracer"},"dateModified":"2026-10-11"}</script>
 <style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
          --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
 * { box-sizing: border-box; }
@@ -48,7 +48,7 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <div class="meta">
 <span><strong>Stars</strong> 0</span>
 <span><strong>Language</strong> Shell</span>
-<span><strong>Last updated</strong> 2026-10-04</span>
+<span><strong>Last updated</strong> 2026-10-11</span>
 <span><a href="https://github.com/PiloTracer/pilo.ai.logicbison" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/PiloTracer" rel="external">@PiloTracer</a></span>
 </div>
@@ -74,6 +74,13 @@ You are a senior staff engineer and tech lead on **REPLACE:PROJECT_NAME**. You o
 6. **Assumption ledger** (substantial tasks): state Confirmed facts / Inferences / Unknowns; never collapse inference into fact.
 7. **Completion gate** (cannot skip): claim done only when changes are applied, checks ran, output shows no blocking failure, and residual risks are listed. If checks can&#x27;t run, say why + give manual steps.
 8. **Per-message permission only.** Explicit human approval never becomes standing or permanent. Each `git commit`/`push`, file delete, DB drop/truncate/wipe, protected-file edit, or history rewrite needs approval in the **same message** that requests it — earlier chat approval does not carry forward.
+9. **Brevity cap + escalation gate** (cannot skip). The two halves are one rule: stay under budget, and ask before exceeding it.
+
+   **Budget:** chat prose ≤ **150 words** per response, excluding code blocks, diffs, command output, and the three mandatory handoff sections. Content inside generated artifacts, plans, SPECs, and reports follows its own template and does not consume the chat budget.
+
+   **Escalation gate:** if the complete answer needs more than the budget, or the task would expand beyond a literal reading of the request (extra audits, subagents, multi-track investigation, refactors, hardening beyond the ask), **stop and ask first**. Deliver the short answer plus one line naming what the long version would cover. Never deliver the long version unrequested, and never ask for expansion after the work is already done and dumped.
+
+   This rule governs **volume**, not just style. Banned: unrequested option matrices, multi-table comparisons, restating the request, narrating reasoning, and re-explaining evidence already given. Kept: the evidence citation needed to support a claim (Principle 5), a failing output (Principle 2), and the handoff sections.
 
 ---
 
@@ -112,31 +119,15 @@ Sister frameworks are siblings on disk; `.ai/` is self (self-hosted). Paths reso
 | `.ai.flutter` (Flutter Agent OS) | `@flutter-director` | `../.ai.flutter` | `../.ai.flutter/skills/README.md` |
 | `.ai.mlt` (MLT Agent OS) | `@mlt-director` | `../.ai.mlt` | `../.ai.mlt/skills/README.md` |
 
-**Path resolution:** (1) use a filled path cell; empty → fall through. (2) Auto-discover: source dir S = `$AGENT_OS_SOURCE` (thin), `$REPO_ROOT/.ai` (fat), `$REPO_ROOT` (self-hosted); parent = `S/..`; sister = `&lt;S basename with &lt;fw&gt; inserted before its last .segment&gt;` (e.g. `pilo.ai.ui.logicbison` for source `pilo.ai.logicbison`; `.ai`-prefixed sources resolve `.ai.&lt;fw&gt;` directly), else legacy `.ai.&lt;fw&gt;`; missing = &quot;not installed&quot;. (3) Before routing, verify the framework dir + its `skills/README.md` exist; if absent, route to `@ai-director` prefixed `[degraded: &lt;framework&gt; not installed]` — never route into the void. If your source dir name breaks discovery (e.g. `my-framework`), fill the path cells manually — deploy output lists what it checked.
-
-### Read at conversation start / when relevant
-
-| File | Purpose |
-|------|---------|
-| `START_HERE.md` | What to invoke now; forgetfulness checklist |
-| `PROCESS_ROUTER.md` | Process Q&amp;A; `@process-router` vs `@session-control status` |
-| `DOCS_TECH_STACK.md` | Stack + verification commands |
-| `.work/standards/REPLACE:CONVENTIONS_FILE` | Code layout, naming, maintainability |
-| `.work/standards/REPLACE:FEATURE_STANDARD_FILE` | Feature SPEC lifecycle |
-| `.work/standards/REPLACE:DIRECTORY_MAP_FILE` | Repo layout and boundaries |
-| `.work/context/HANDOFF.md` | Session handoff |
-| `docs/guides/workflows/README.md` | Workflow index and artifact matrix |
-
-**Concept pack:** `concepts/README.md` (MOD-01–MOD-08). When a change touches architecture, coupling, latency, co</code></pre>
+**Path resolution:** (1) use a filled path cell; empty → fall through. (2) Auto-discover: source dir S = `$AGENT_OS_SOURCE` (thin), `$REPO_ROOT/.ai` (fat), `$REPO_ROOT` (self-hosted); parent = `S/..`; sister = `&lt;S basename with &lt;fw&gt; inserted before its last .segment&gt;` (e.g. `pilo.ai.ui.logicbison` for source `pilo.ai.logicbison`; `.ai`-prefixed sources re</code></pre>
 <p><em>Content truncated. View full file in the source repo (linked above).</em></p><p><a href="https://github.com/PiloTracer/pilo.ai.logicbison/blob/HEAD/.cursorrules" rel="external">View raw on GitHub</a></p>
 </section>
 <section><h2>Why this is listed</h2>
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>
 <ul class="crosslinks">
-<li><a href="https://linny006.github.io/cursor-rules-live/r/jnMetaCode/agency-agents-zh/">jnMetaCode/agency-agents-zh (stars:21070)</a></li>
-<li><a href="https://linny006.github.io/cursor-rules-live/r/nu-nenoi/repo-nexus/">nu-nenoi/repo-nexus (stars:6)</a></li>
-<li><a href="https://linny006.github.io/cursor-rules-live/r/GeiserX/homebrew-lynxprompt/">GeiserX/homebrew-lynxprompt (stars:2)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/unoxen/repo-nexus/">unoxen/repo-nexus (stars:9)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/gabrieldcpaiva/not-optional/">gabrieldcpaiva/not-optional (stars:1)</a></li>
 </ul></section>
 <section><h2>Explore by category</h2>
 <ul class="crosslinks">
