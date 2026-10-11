@@ -5,8 +5,17 @@
     "language": "Shell",
     "name": "unoxen/repo-nexus",
     "stars": 9,
-    "updated_at": "2026-10-11T19:49:07Z",
+    "updated_at": "2026-10-11T20:04:37Z",
     "url": "https://github.com/unoxen/repo-nexus"
+  },
+  {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 1,
+    "updated_at": "2026-10-11T20:04:24Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,7 +23,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-11T19:45:43Z",
+    "updated_at": "2026-10-11T20:00:36Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -23,7 +32,7 @@
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 1,
-    "updated_at": "2026-10-11T19:56:13Z",
+    "updated_at": "2026-10-11T20:12:40Z",
     "url": "https://github.com/bompus/house-rules"
   },
   {
@@ -124,15 +133,6 @@
     "stars": 0,
     "updated_at": "2026-10-11T15:30:00Z",
     "url": "https://github.com/irfangani/ui-skills"
-  },
-  {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 1,
-    "updated_at": "2026-10-11T15:28:51Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "cursorrules": {
@@ -399,7 +399,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 161015,
+    "stars": 161022,
     "updated_at": "2026-10-10T04:19:53Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
