@@ -1,11 +1,29 @@
 [
   {
+    "description": "Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml",
+    "id": "unoxen/repo-nexus",
+    "language": "Shell",
+    "name": "unoxen/repo-nexus",
+    "stars": 9,
+    "updated_at": "2026-10-11T19:08:03Z",
+    "url": "https://github.com/unoxen/repo-nexus"
+  },
+  {
+    "description": "Acuris Address Validation & Geocoding agent context \u2014 Claude Code plugin, Cursor rules/docs, and open Agent Skill (agent",
+    "id": "Acuris-GmbH/acuris-agent-context",
+    "language": "JavaScript",
+    "name": "Acuris-GmbH/acuris-agent-context",
+    "stars": 0,
+    "updated_at": "2026-10-11T19:04:06Z",
+    "url": "https://github.com/Acuris-GmbH/acuris-agent-context"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-11T18:45:41Z",
+    "updated_at": "2026-10-11T19:00:46Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -90,15 +108,6 @@
     "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
   },
   {
-    "description": "Acuris Address Validation & Geocoding agent context \u2014 Claude Code plugin, Cursor rules/docs, and open Agent Skill (agent",
-    "id": "Acuris-GmbH/acuris-agent-context",
-    "language": "JavaScript",
-    "name": "Acuris-GmbH/acuris-agent-context",
-    "stars": 0,
-    "updated_at": "2026-10-11T15:33:01Z",
-    "url": "https://github.com/Acuris-GmbH/acuris-agent-context"
-  },
-  {
     "description": "Agent Skills for AI coding assistants enforcing UI visual balance, 60/30/10 color rule, intentional whitespace, and hier",
     "id": "irfangani/ui-skills",
     "language": "\u2014",
@@ -115,15 +124,6 @@
     "stars": 1,
     "updated_at": "2026-10-11T15:28:51Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml",
-    "id": "unoxen/repo-nexus",
-    "language": "Shell",
-    "name": "unoxen/repo-nexus",
-    "stars": 9,
-    "updated_at": "2026-10-11T14:58:13Z",
-    "url": "https://github.com/unoxen/repo-nexus"
   },
   {
     "cursorrules": {
@@ -163,7 +163,7 @@
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 1,
-    "updated_at": "2026-10-11T11:33:55Z",
+    "updated_at": "2026-10-11T19:14:30Z",
     "url": "https://github.com/bompus/house-rules"
   },
   {
@@ -308,7 +308,7 @@
     "id": "sohaibt/product-mode",
     "language": "TypeScript",
     "name": "sohaibt/product-mode",
-    "stars": 215,
+    "stars": 216,
     "updated_at": "2026-10-10T13:24:04Z",
     "url": "https://github.com/sohaibt/product-mode"
   },
@@ -399,7 +399,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 160994,
+    "stars": 161000,
     "updated_at": "2026-10-10T04:19:53Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
