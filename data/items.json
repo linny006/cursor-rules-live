@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-11T03:00:35Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Your AI coding agent follows these files blindly, before it reads a line of your code.",
     "id": "Aaditya1273/Agent.md",
     "language": "\u2014",
@@ -18,21 +27,12 @@
     "url": "https://github.com/sublimecoder/sublimecoding"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-11T02:45:33Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Accessibility is not a request. A practical, lived-experience toolkit for making digital products and printables usable ",
     "id": "gabrieldcpaiva/not-optional",
     "language": "Shell",
     "name": "gabrieldcpaiva/not-optional",
     "stars": 1,
-    "updated_at": "2026-10-11T02:39:28Z",
+    "updated_at": "2026-10-11T03:13:44Z",
     "url": "https://github.com/gabrieldcpaiva/not-optional"
   },
   {
@@ -318,7 +318,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 160520,
+    "stars": 160523,
     "updated_at": "2026-10-10T04:19:53Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
