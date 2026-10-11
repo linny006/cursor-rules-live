@@ -5,8 +5,17 @@
     "language": "\u2014",
     "name": "irfangani/ui-skills",
     "stars": 0,
-    "updated_at": "2026-10-11T14:59:53Z",
+    "updated_at": "2026-10-11T15:08:19Z",
     "url": "https://github.com/irfangani/ui-skills"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-11T15:00:37Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml",
@@ -16,15 +25,6 @@
     "stars": 9,
     "updated_at": "2026-10-11T14:58:13Z",
     "url": "https://github.com/unoxen/repo-nexus"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-11T14:45:42Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -381,7 +381,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 160879,
+    "stars": 160889,
     "updated_at": "2026-10-10T04:19:53Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
