@@ -1,11 +1,20 @@
 [
   {
+    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
+    "id": "bompus/house-rules",
+    "language": "JavaScript",
+    "name": "bompus/house-rules",
+    "stars": 1,
+    "updated_at": "2026-10-11T05:00:11Z",
+    "url": "https://github.com/bompus/house-rules"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-11T04:30:49Z",
+    "updated_at": "2026-10-11T04:45:33Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -16,15 +25,6 @@
     "stars": 1,
     "updated_at": "2026-10-11T04:26:31Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
-    "id": "bompus/house-rules",
-    "language": "JavaScript",
-    "name": "bompus/house-rules",
-    "stars": 1,
-    "updated_at": "2026-10-11T04:40:14Z",
-    "url": "https://github.com/bompus/house-rules"
   },
   {
     "description": "This document defines universal rules for AI agents working on any software project. Follow these instructions exactly u",
@@ -327,7 +327,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 160583,
+    "stars": 160586,
     "updated_at": "2026-10-10T04:19:53Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
