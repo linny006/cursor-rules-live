@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-11 21:45 UTC
+> ⏰ Last updated: 2026-10-11 22:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -54,15 +54,15 @@ expired items removed — so you can rely on what you see being current.
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
 | 1 | [bompus/house-rules](https://github.com/bompus/house-rules) | 1 | JavaScript | 2026-10-11 | — | Working rules and skills for AI coding agents, layered as base, modifiers, person and project |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-11 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 3 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-11 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
-| 4 | [unoxen/repo-nexus](https://github.com/unoxen/repo-nexus) | 9 | Shell | 2026-10-11 | — | Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml |
-| 5 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-10-11 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
-| 6 | [Acuris-GmbH/acuris-agent-context](https://github.com/Acuris-GmbH/acuris-agent-context) | 0 | JavaScript | 2026-10-11 | — | Acuris Address Validation & Geocoding agent context — Claude Code plugin, Cursor rules/docs, and open Agent Skill (agent |
-| 7 | [mmelqadi/rulewhy](https://github.com/mmelqadi/rulewhy) | 0 | Python | 2026-10-11 | — | Every agent rule should say why it exists and what enforces it: lint CLAUDE.md, AGENTS.md, GEMINI.md and Cursor rules ag |
-| 8 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-10-11 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 9 | [XAKLESK/cre-agent-skills](https://github.com/XAKLESK/cre-agent-skills) | 9 | — | 2026-10-11 | — | Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc |
-| 10 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-10-11 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
+| 2 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-10-11 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
+| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-11 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 4 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-11 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
+| 5 | [unoxen/repo-nexus](https://github.com/unoxen/repo-nexus) | 9 | Shell | 2026-10-11 | — | Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml |
+| 6 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-10-11 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
+| 7 | [Acuris-GmbH/acuris-agent-context](https://github.com/Acuris-GmbH/acuris-agent-context) | 0 | JavaScript | 2026-10-11 | — | Acuris Address Validation & Geocoding agent context — Claude Code plugin, Cursor rules/docs, and open Agent Skill (agent |
+| 8 | [mmelqadi/rulewhy](https://github.com/mmelqadi/rulewhy) | 0 | Python | 2026-10-11 | — | Every agent rule should say why it exists and what enforces it: lint CLAUDE.md, AGENTS.md, GEMINI.md and Cursor rules ag |
+| 9 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-10-11 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
+| 10 | [XAKLESK/cre-agent-skills](https://github.com/XAKLESK/cre-agent-skills) | 9 | — | 2026-10-11 | — | Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc |
 | 11 | [Amirun99/agency-orchestrator](https://github.com/Amirun99/agency-orchestrator) | 0 | Dart | 2026-10-11 | — | Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support. |
 | 12 | [zinxj/uikit-expert-skill](https://github.com/zinxj/uikit-expert-skill) | 5 | — | 2026-10-11 | — | Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan |
 | 13 | [aidesignblueprint/integrations](https://github.com/aidesignblueprint/integrations) | 3 | Python | 2026-10-11 | — | Official integrations and installable doctrine for AI Design Blueprint: MCP, IDE rules, prompt files, and agent runtimes |
@@ -93,7 +93,7 @@ expired items removed — so you can rely on what you see being current.
 | 38 | [Bastioned-successor320/learn-nanobot](https://github.com/Bastioned-successor320/learn-nanobot) | 12 | Python | 2026-10-10 | — | Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers |
 | 39 | [johnwall123459885/skene-cookbook](https://github.com/johnwall123459885/skene-cookbook) | 0 | Python | 2026-10-10 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/johnwall123459885/skene-cookbook/) | 🤖 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development. |
 | 40 | [Emzyjeppp/devflow-rules](https://github.com/Emzyjeppp/devflow-rules) | 0 | JavaScript | 2026-10-10 | — | A unified collection of rules and skills for AI coding assistants, covering a standardized Project Starter template, Dea |
-| 41 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 161055 | JavaScript | 2026-10-10 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 41 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 161060 | JavaScript | 2026-10-10 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 42 | [grupoplustech/skills](https://github.com/grupoplustech/skills) | 0 | — | 2026-10-10 | — | Curated, multi-runtime agent skills (Hermes, Claude, Cursor, Gemini, GPT) focusing on DevOps, Systems, Integrations and  |
 | 43 | [juwonllee2024-dotcom/rulesync](https://github.com/juwonllee2024-dotcom/rulesync) | 3 | TypeScript | 2026-10-09 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/juwonllee2024-dotcom/rulesync/) | The ESLint & Babel for AI Agent Rules — Compile, lint, optimize, and sync instructions across AGENTS.md, CLAUDE.md, .cur |
 | 44 | [HoangNguyen0403/agent-skills-standard](https://github.com/HoangNguyen0403/agent-skills-standard) | 573 | TypeScript | 2026-10-10 | — | A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol |
