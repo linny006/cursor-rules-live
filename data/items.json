@@ -1,11 +1,20 @@
 [
   {
+    "description": "This document defines universal rules for AI agents working on any software project. Follow these instructions exactly u",
+    "id": "NTDevLops/UNIVERSAL-AGENTS.md",
+    "language": "\u2014",
+    "name": "NTDevLops/UNIVERSAL-AGENTS.md",
+    "stars": 1,
+    "updated_at": "2026-10-11T13:33:39Z",
+    "url": "https://github.com/NTDevLops/UNIVERSAL-AGENTS.md"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-11T13:24:19Z",
+    "updated_at": "2026-10-11T13:30:35Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -124,15 +133,6 @@
     "stars": 3,
     "updated_at": "2026-10-11T07:27:35Z",
     "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
-  },
-  {
-    "description": "This document defines universal rules for AI agents working on any software project. Follow these instructions exactly u",
-    "id": "NTDevLops/UNIVERSAL-AGENTS.md",
-    "language": "\u2014",
-    "name": "NTDevLops/UNIVERSAL-AGENTS.md",
-    "stars": 1,
-    "updated_at": "2026-10-11T04:02:21Z",
-    "url": "https://github.com/NTDevLops/UNIVERSAL-AGENTS.md"
   },
   {
     "description": "Accessibility is not a request. A practical, lived-experience toolkit for making digital products and printables usable ",
@@ -372,7 +372,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 160812,
+    "stars": 160819,
     "updated_at": "2026-10-10T04:19:53Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
