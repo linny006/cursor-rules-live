@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-11 10:15 UTC
+> ⏰ Last updated: 2026-10-11 10:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -70,7 +70,7 @@ expired items removed — so you can rely on what you see being current.
 | 15 | [heymegabyte/agent-skills](https://github.com/heymegabyte/agent-skills) | 23 | TypeScript | 2026-10-11 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/agent-skills/) | Agent Skills — agent-neutral autonomous product-building OS for 32+ AI coding tools. 23 skill categories · 28 agents · 1 |
 | 16 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 49 | — | 2026-10-10 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
 | 17 | [vishalguptax/agent-engineering-kit](https://github.com/vishalguptax/agent-engineering-kit) | 0 | HTML | 2026-10-10 | — | Make AI coding agents ship clean code: rules, sub-agents, skills and hooks for Claude Code, Codex, Cursor, Copilot, Gemi |
-| 18 | [unoxen/repo-nexus](https://github.com/unoxen/repo-nexus) | 8 | Shell | 2026-10-10 | — | Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml |
+| 18 | [unoxen/repo-nexus](https://github.com/unoxen/repo-nexus) | 9 | Shell | 2026-10-10 | — | Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml |
 | 19 | [Katta041/asitis-agent-tools](https://github.com/Katta041/asitis-agent-tools) | 0 | TypeScript | 2026-10-10 | — | Read-only MCP server and Claude Code plugin that lints CLAUDE.md, AGENTS.md and SKILL.md, counts approximate tokens per  |
 | 20 | [sx4im/skillcheck](https://github.com/sx4im/skillcheck) | 28 | TypeScript | 2026-10-10 | — | Blind A/B testing for AI agent skills, .cursorrules, CLAUDE.md, and system prompts. Detects placebo and harmful instruct |
 | 21 | [TMHSDigital/Unity-Developer-Tools](https://github.com/TMHSDigital/Unity-Developer-Tools) | 4 | C# | 2026-10-10 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/TMHSDigital/Unity-Developer-Tools/) | AI-powered development toolkit for Unity game development in Cursor IDE. 18 skills, 8 rules, 4 MCP tools, 20 snippets, 5 |
@@ -86,7 +86,7 @@ expired items removed — so you can rely on what you see being current.
 | 31 | [Bastioned-successor320/learn-nanobot](https://github.com/Bastioned-successor320/learn-nanobot) | 12 | Python | 2026-10-10 | — | Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers |
 | 32 | [johnwall123459885/skene-cookbook](https://github.com/johnwall123459885/skene-cookbook) | 0 | Python | 2026-10-10 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/johnwall123459885/skene-cookbook/) | 🤖 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development. |
 | 33 | [Emzyjeppp/devflow-rules](https://github.com/Emzyjeppp/devflow-rules) | 0 | JavaScript | 2026-10-10 | — | A unified collection of rules and skills for AI coding assistants, covering a standardized Project Starter template, Dea |
-| 34 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 160734 | JavaScript | 2026-10-10 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 34 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 160740 | JavaScript | 2026-10-10 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 35 | [grupoplustech/skills](https://github.com/grupoplustech/skills) | 0 | — | 2026-10-10 | — | Curated, multi-runtime agent skills (Hermes, Claude, Cursor, Gemini, GPT) focusing on DevOps, Systems, Integrations and  |
 | 36 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 25 | Python | 2026-10-10 | — | Architectural drift prevention for the agentic AI SDLC. |
 | 37 | [juwonllee2024-dotcom/rulesync](https://github.com/juwonllee2024-dotcom/rulesync) | 3 | TypeScript | 2026-10-09 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/juwonllee2024-dotcom/rulesync/) | The ESLint & Babel for AI Agent Rules — Compile, lint, optimize, and sync instructions across AGENTS.md, CLAUDE.md, .cur |
