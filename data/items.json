@@ -1,11 +1,20 @@
 [
   {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 49,
+    "updated_at": "2026-10-11T22:41:15Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+  },
+  {
     "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
     "id": "bompus/house-rules",
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 1,
-    "updated_at": "2026-10-11T22:28:15Z",
+    "updated_at": "2026-10-11T22:41:58Z",
     "url": "https://github.com/bompus/house-rules"
   },
   {
@@ -14,7 +23,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-11T22:18:17Z",
+    "updated_at": "2026-10-11T22:30:34Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -158,15 +167,6 @@
     "url": "https://github.com/NTDevLops/UNIVERSAL-AGENTS.md"
   },
   {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 49,
-    "updated_at": "2026-10-11T12:01:53Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
     "description": "\u82f1\u6587\u6587\u7ae0\u80cc\u8bf5\u6280\u5de7",
     "id": "yxdwind/english-memory-method",
     "language": "HTML",
@@ -251,6 +251,15 @@
     "stars": 0,
     "updated_at": "2026-10-10T17:27:12Z",
     "url": "https://github.com/Katta041/asitis-agent-tools"
+  },
+  {
+    "description": "The off-switch for AI flattery. A leveled honesty dial for AI agents: low is blunt, high goes for the throat.",
+    "id": "IcanBENCHurCAT/grouch",
+    "language": "Python",
+    "name": "IcanBENCHurCAT/grouch",
+    "stars": 0,
+    "updated_at": "2026-10-10T17:06:53Z",
+    "url": "https://github.com/IcanBENCHurCAT/grouch"
   },
   {
     "description": "Blind A/B testing for AI agent skills, .cursorrules, CLAUDE.md, and system prompts. Detects placebo and harmful instruct",
@@ -399,7 +408,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 161079,
+    "stars": 161086,
     "updated_at": "2026-10-10T04:19:53Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -479,14 +488,5 @@
     "stars": 0,
     "updated_at": "2026-10-09T07:24:22Z",
     "url": "https://github.com/qianye60/ui-design-prompts"
-  },
-  {
-    "description": "265+ Claude Code skills for every major framework and language. Install with: npx skills add Mindrally/skills",
-    "id": "Mindrally/skills",
-    "language": "\u2014",
-    "name": "Mindrally/skills",
-    "stars": 273,
-    "updated_at": "2026-10-08T23:38:39Z",
-    "url": "https://github.com/Mindrally/skills"
   }
 ]
