@@ -1,11 +1,29 @@
 [
   {
+    "description": "Every agent rule should say why it exists and what enforces it: lint CLAUDE.md, AGENTS.md, GEMINI.md and Cursor rules ag",
+    "id": "mmelqadi/rulewhy",
+    "language": "Python",
+    "name": "mmelqadi/rulewhy",
+    "stars": 0,
+    "updated_at": "2026-10-11T17:14:29Z",
+    "url": "https://github.com/mmelqadi/rulewhy"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-10-11T17:01:52Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-11T16:45:55Z",
+    "updated_at": "2026-10-11T17:00:34Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -138,15 +156,6 @@
     "stars": 1,
     "updated_at": "2026-10-11T11:33:55Z",
     "url": "https://github.com/bompus/house-rules"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-10-11T11:05:58Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "\u82f1\u6587\u6587\u7ae0\u80cc\u8bf5\u6280\u5de7",
@@ -390,7 +399,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 160941,
+    "stars": 160948,
     "updated_at": "2026-10-10T04:19:53Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -479,14 +488,5 @@
     "stars": 272,
     "updated_at": "2026-10-08T23:38:39Z",
     "url": "https://github.com/Mindrally/skills"
-  },
-  {
-    "description": "Homebrew tap for LynxPrompt CLI",
-    "id": "GeiserX/homebrew-lynxprompt",
-    "language": "Shell",
-    "name": "GeiserX/homebrew-lynxprompt",
-    "stars": 2,
-    "updated_at": "2026-10-08T22:15:13Z",
-    "url": "https://github.com/GeiserX/homebrew-lynxprompt"
   }
 ]
