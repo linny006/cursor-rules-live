@@ -1,12 +1,12 @@
 [
   {
-    "description": "Accessibility is not a request. A practical, lived-experience toolkit for making digital products and printables usable ",
-    "id": "gabrieldcpaiva/not-optional",
-    "language": "Shell",
-    "name": "gabrieldcpaiva/not-optional",
+    "description": "This document defines universal rules for AI agents working on any software project. Follow these instructions exactly u",
+    "id": "NTDevLops/UNIVERSAL-AGENTS.md",
+    "language": "\u2014",
+    "name": "NTDevLops/UNIVERSAL-AGENTS.md",
     "stars": 1,
-    "updated_at": "2026-10-11T03:25:57Z",
-    "url": "https://github.com/gabrieldcpaiva/not-optional"
+    "updated_at": "2026-10-11T03:42:08Z",
+    "url": "https://github.com/NTDevLops/UNIVERSAL-AGENTS.md"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-11T03:15:41Z",
+    "updated_at": "2026-10-11T03:30:33Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Accessibility is not a request. A practical, lived-experience toolkit for making digital products and printables usable ",
+    "id": "gabrieldcpaiva/not-optional",
+    "language": "Shell",
+    "name": "gabrieldcpaiva/not-optional",
+    "stars": 1,
+    "updated_at": "2026-10-11T03:25:57Z",
+    "url": "https://github.com/gabrieldcpaiva/not-optional"
   },
   {
     "description": "Your AI coding agent follows these files blindly, before it reads a line of your code.",
@@ -318,7 +327,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 160535,
+    "stars": 160545,
     "updated_at": "2026-10-10T04:19:53Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -484,14 +493,5 @@
     "stars": 9,
     "updated_at": "2026-10-10T14:57:02Z",
     "url": "https://github.com/baneeishaque/ai-agent-rules"
-  },
-  {
-    "description": "Battle-tested agent skills and Cursor rules from real projects. Works with Cursor, Claude Code, and any agent.",
-    "id": "jcottam/agent-resources",
-    "language": "Shell",
-    "name": "jcottam/agent-resources",
-    "stars": 29,
-    "updated_at": "2026-10-08T20:20:20Z",
-    "url": "https://github.com/jcottam/agent-resources"
   }
 ]
