@@ -1,11 +1,20 @@
 [
   {
+    "description": "Every agent rule should say why it exists and what enforces it: lint CLAUDE.md, AGENTS.md, GEMINI.md and Cursor rules ag",
+    "id": "mmelqadi/rulewhy",
+    "language": "Python",
+    "name": "mmelqadi/rulewhy",
+    "stars": 0,
+    "updated_at": "2026-10-11T18:26:51Z",
+    "url": "https://github.com/mmelqadi/rulewhy"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-11T18:15:41Z",
+    "updated_at": "2026-10-11T18:19:00Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -52,15 +61,6 @@
     "stars": 5,
     "updated_at": "2026-10-11T17:47:55Z",
     "url": "https://github.com/zinxj/uikit-expert-skill"
-  },
-  {
-    "description": "Every agent rule should say why it exists and what enforces it: lint CLAUDE.md, AGENTS.md, GEMINI.md and Cursor rules ag",
-    "id": "mmelqadi/rulewhy",
-    "language": "Python",
-    "name": "mmelqadi/rulewhy",
-    "stars": 0,
-    "updated_at": "2026-10-11T17:34:21Z",
-    "url": "https://github.com/mmelqadi/rulewhy"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -399,7 +399,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 160979,
+    "stars": 160981,
     "updated_at": "2026-10-10T04:19:53Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
