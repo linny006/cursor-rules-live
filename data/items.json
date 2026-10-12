@@ -1,12 +1,30 @@
 [
   {
-    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
-    "id": "bompus/house-rules",
-    "language": "JavaScript",
-    "name": "bompus/house-rules",
-    "stars": 1,
-    "updated_at": "2026-10-12T11:03:00Z",
-    "url": "https://github.com/bompus/house-rules"
+    "description": "Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml",
+    "id": "unoxen/repo-nexus",
+    "language": "Shell",
+    "name": "unoxen/repo-nexus",
+    "stars": 9,
+    "updated_at": "2026-10-12T11:26:31Z",
+    "url": "https://github.com/unoxen/repo-nexus"
+  },
+  {
+    "description": "Auto harness engineering meta-repo: discuss \u2192 curate \u2192 bootstrap a context-engineered project for Claude Code, Cursor, C",
+    "id": "glowElephant/context-forge",
+    "language": "Python",
+    "name": "glowElephant/context-forge",
+    "stars": 2,
+    "updated_at": "2026-10-12T11:24:04Z",
+    "url": "https://github.com/glowElephant/context-forge"
+  },
+  {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 49,
+    "updated_at": "2026-10-12T11:23:40Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +32,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-12T10:45:39Z",
+    "updated_at": "2026-10-12T11:15:44Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
+    "id": "bompus/house-rules",
+    "language": "JavaScript",
+    "name": "bompus/house-rules",
+    "stars": 1,
+    "updated_at": "2026-10-12T11:03:00Z",
+    "url": "https://github.com/bompus/house-rules"
   },
   {
     "description": "Official integrations and installable doctrine for AI Design Blueprint: MCP, IDE rules, prompt files, and agent runtimes",
@@ -104,15 +131,6 @@
     "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
   },
   {
-    "description": "Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml",
-    "id": "unoxen/repo-nexus",
-    "language": "Shell",
-    "name": "unoxen/repo-nexus",
-    "stars": 9,
-    "updated_at": "2026-10-12T08:44:53Z",
-    "url": "https://github.com/unoxen/repo-nexus"
-  },
-  {
     "description": "This document defines universal rules for AI agents working on any software project. Follow these instructions exactly u",
     "id": "NTDevLops/UNIVERSAL-AGENTS.md",
     "language": "\u2014",
@@ -194,7 +212,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40450,
+    "stars": 40451,
     "updated_at": "2026-10-12T03:07:19Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -220,15 +238,6 @@
     "stars": 0,
     "updated_at": "2026-10-11T23:26:52Z",
     "url": "https://github.com/PiloTracer/pilo.ai.logicbison"
-  },
-  {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 49,
-    "updated_at": "2026-10-11T23:05:42Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "description": "Acuris Address Validation & Geocoding agent context \u2014 Claude Code plugin, Cursor rules/docs, and open Agent Skill (agent",
@@ -454,7 +463,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 161484,
+    "stars": 161493,
     "updated_at": "2026-10-10T04:19:53Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -489,14 +498,5 @@
     "stars": 20,
     "updated_at": "2026-10-09T15:11:08Z",
     "url": "https://github.com/philipbankier/awesome-agent-skills"
-  },
-  {
-    "description": "The Universal Open-Source Warehouse for AI Agents, Skills, MCP Servers & Plugins",
-    "id": "sagaargroups/OpenWarehouse",
-    "language": "Python",
-    "name": "sagaargroups/OpenWarehouse",
-    "stars": 0,
-    "updated_at": "2026-10-09T12:48:13Z",
-    "url": "https://github.com/sagaargroups/OpenWarehouse"
   }
 ]
