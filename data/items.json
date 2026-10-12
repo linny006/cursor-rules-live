@@ -1,12 +1,21 @@
 [
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
+    "description": "Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W-",
+    "id": "fluttersdk/wind",
+    "language": "Dart",
+    "name": "fluttersdk/wind",
+    "stars": 42,
+    "updated_at": "2026-10-12T01:13:50Z",
+    "url": "https://github.com/fluttersdk/wind"
+  },
+  {
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
     "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-10-12T00:50:10Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-10-12T01:06:36Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +23,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-12T00:45:49Z",
+    "updated_at": "2026-10-12T01:00:54Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-10-12T00:50:10Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
@@ -32,7 +50,7 @@
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 1,
-    "updated_at": "2026-10-12T00:11:29Z",
+    "updated_at": "2026-10-12T01:11:42Z",
     "url": "https://github.com/bompus/house-rules"
   },
   {
@@ -93,15 +111,6 @@
     "stars": 3,
     "updated_at": "2026-10-11T22:05:43Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
-    "stars": 0,
-    "updated_at": "2026-10-11T21:46:43Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
   },
   {
     "description": "Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml",
@@ -322,7 +331,7 @@
     "id": "sohaibt/product-mode",
     "language": "TypeScript",
     "name": "sohaibt/product-mode",
-    "stars": 216,
+    "stars": 217,
     "updated_at": "2026-10-10T13:24:04Z",
     "url": "https://github.com/sohaibt/product-mode"
   },
@@ -413,7 +422,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 161117,
+    "stars": 161124,
     "updated_at": "2026-10-10T04:19:53Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -484,14 +493,5 @@
     "stars": 1,
     "updated_at": "2026-10-09T12:11:07Z",
     "url": "https://github.com/Snigdha-Chowdhury/dev-toolkit"
-  },
-  {
-    "description": "Free production-grade UI design prompts \u2014 Claude Code skills, Cursor rules & AGENTS.md, each with a live demo. By UI Atl",
-    "id": "qianye60/ui-design-prompts",
-    "language": "HTML",
-    "name": "qianye60/ui-design-prompts",
-    "stars": 0,
-    "updated_at": "2026-10-09T07:24:22Z",
-    "url": "https://github.com/qianye60/ui-design-prompts"
   }
 ]
