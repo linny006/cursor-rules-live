@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-12 20:00 UTC
+> ⏰ Last updated: 2026-10-12 20:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,9 +53,9 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-10-12 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 2 | [bompus/house-rules](https://github.com/bompus/house-rules) | 1 | JavaScript | 2026-10-12 | — | Working rules and skills for AI coding agents, layered as base, modifiers, person and project |
-| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-12 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-12 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-10-12 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
+| 3 | [bompus/house-rules](https://github.com/bompus/house-rules) | 1 | JavaScript | 2026-10-12 | — | Working rules and skills for AI coding agents, layered as base, modifiers, person and project |
 | 4 | [Saad-web-spec/DevScratchPad](https://github.com/Saad-web-spec/DevScratchPad) | 2 | TypeScript | 2026-10-12 | — | Free private developer tools (JSON, JWT, cURL, cron, SSH keys) that run in your browser, plus AI Skill Studio: a CLAUDE. |
 | 5 | [geronco/commandvault-library](https://github.com/geronco/commandvault-library) | 0 | JavaScript | 2026-10-12 | — | Community-voted AI prompts, CLAUDE.md/AGENTS.md templates, Cursor rules, Agent Skills and MCP servers from commandvault. |
 | 6 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-10-12 | — | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
@@ -82,7 +82,7 @@ expired items removed — so you can rely on what you see being current.
 | 27 | [zinxj/uikit-expert-skill](https://github.com/zinxj/uikit-expert-skill) | 5 | — | 2026-10-12 | — | Provide accurate, efficient, and modern UIKit Swift code using an AI agent skill focused on best practices and performan |
 | 28 | [HoangNguyen0403/agent-skills-standard](https://github.com/HoangNguyen0403/agent-skills-standard) | 573 | TypeScript | 2026-10-12 | — | A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol |
 | 29 | [sublimecoder/sublimecoding](https://github.com/sublimecoder/sublimecoding) | 0 | — | 2026-10-12 | — | 🛠️ Free Claude Code & Cursor prompts for senior engineers — plus AIOS, an open-source markdown memory system for coding  |
-| 30 | [wshobson/agents](https://github.com/wshobson/agents) | 40485 | Python | 2026-10-12 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
+| 30 | [wshobson/agents](https://github.com/wshobson/agents) | 40487 | Python | 2026-10-12 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
 | 31 | [PiloTracer/pilo.ai.logicbison](https://github.com/PiloTracer/pilo.ai.logicbison) | 0 | Shell | 2026-10-11 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/PiloTracer/pilo.ai.logicbison/) | Portable process framework for software teams shipping with coding agents (Cursor, Claude Code, Codex, opencode). Skills |
 | 32 | [Acuris-GmbH/acuris-agent-context](https://github.com/Acuris-GmbH/acuris-agent-context) | 0 | JavaScript | 2026-10-11 | — | Acuris Address Validation & Geocoding agent context — Claude Code plugin, Cursor rules/docs, and open Agent Skill (agent |
 | 33 | [irfangani/ui-skills](https://github.com/irfangani/ui-skills) | 0 | — | 2026-10-11 | — | Agent Skills for AI coding assistants enforcing UI visual balance, 60/30/10 color rule, intentional whitespace, and hier |
@@ -101,7 +101,7 @@ expired items removed — so you can rely on what you see being current.
 | 46 | [EvilFreelancer/rpa-gen-rules](https://github.com/EvilFreelancer/rpa-gen-rules) | 2 | Python | 2026-10-10 | — | Agent skill for Claude Code, Codex and Cursor: generate or refresh project rules (.cursor/rules/*.mdc, CLAUDE.md and .cl |
 | 47 | [baberarjumand/agentic_markdown_memory_agent-skill](https://github.com/baberarjumand/agentic_markdown_memory_agent-skill) | 0 | JavaScript | 2026-10-10 | — | An agent skill that sets up a markdown memory layout for agents. The layout keeps a short always-on file and loads every |
 | 48 | [Emzyjeppp/devflow-rules](https://github.com/Emzyjeppp/devflow-rules) | 0 | JavaScript | 2026-10-10 | — | A unified collection of rules and skills for AI coding assistants, covering a standardized Project Starter template, Dea |
-| 49 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 161792 | JavaScript | 2026-10-10 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 49 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 161798 | JavaScript | 2026-10-10 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 50 | [grupoplustech/skills](https://github.com/grupoplustech/skills) | 0 | — | 2026-10-10 | — | Curated, multi-runtime agent skills (Hermes, Claude, Cursor, Gemini, GPT) focusing on DevOps, Systems, Integrations and  |
 <!-- TRACKER_TABLE_END -->
 
