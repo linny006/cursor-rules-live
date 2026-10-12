@@ -9,8 +9,8 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 161824,
-    "updated_at": "2026-10-12T21:21:06Z",
+    "stars": 161827,
+    "updated_at": "2026-10-12T21:44:07Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
   {
@@ -19,7 +19,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-12T21:15:35Z",
+    "updated_at": "2026-10-12T21:30:48Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -30,15 +30,6 @@
     "stars": 43,
     "updated_at": "2026-10-12T20:58:51Z",
     "url": "https://github.com/fluttersdk/wind"
-  },
-  {
-    "description": "Starter kit for AI coding agents: template Cursor rules, a secret-guard pre-commit hook, and a Cursor to Claude Code con",
-    "id": "Pacing-Agency/pacing-ai-starter",
-    "language": "Python",
-    "name": "Pacing-Agency/pacing-ai-starter",
-    "stars": 0,
-    "updated_at": "2026-10-12T20:56:51Z",
-    "url": "https://github.com/Pacing-Agency/pacing-ai-starter"
   },
   {
     "description": "Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony.",
@@ -87,7 +78,7 @@
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 1,
-    "updated_at": "2026-10-12T21:28:52Z",
+    "updated_at": "2026-10-12T21:41:31Z",
     "url": "https://github.com/bompus/house-rules"
   },
   {
@@ -303,7 +294,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40499,
+    "stars": 40501,
     "updated_at": "2026-10-12T03:07:19Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -493,5 +484,14 @@
     "stars": 0,
     "updated_at": "2026-10-10T06:36:20Z",
     "url": "https://github.com/Emzyjeppp/devflow-rules"
+  },
+  {
+    "description": "Curated, multi-runtime agent skills (Hermes, Claude, Cursor, Gemini, GPT) focusing on DevOps, Systems, Integrations and ",
+    "id": "grupoplustech/skills",
+    "language": "\u2014",
+    "name": "grupoplustech/skills",
+    "stars": 0,
+    "updated_at": "2026-10-10T04:12:22Z",
+    "url": "https://github.com/grupoplustech/skills"
   }
 ]
