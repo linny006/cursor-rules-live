@@ -1,5 +1,32 @@
 [
   {
+    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
+    "id": "bompus/house-rules",
+    "language": "JavaScript",
+    "name": "bompus/house-rules",
+    "stars": 1,
+    "updated_at": "2026-10-12T07:26:38Z",
+    "url": "https://github.com/bompus/house-rules"
+  },
+  {
+    "description": "This document defines universal rules for AI agents working on any software project. Follow these instructions exactly u",
+    "id": "NTDevLops/UNIVERSAL-AGENTS.md",
+    "language": "\u2014",
+    "name": "NTDevLops/UNIVERSAL-AGENTS.md",
+    "stars": 1,
+    "updated_at": "2026-10-12T07:24:04Z",
+    "url": "https://github.com/NTDevLops/UNIVERSAL-AGENTS.md"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-12T07:15:36Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
     "id": "arnoldalberto007-sys/Swift-UIKit-Components",
     "language": "HTML",
@@ -9,15 +36,6 @@
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-12T07:00:56Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
     "id": "edsondviana8/ai-humanizer-core",
     "language": "HTML",
@@ -25,15 +43,6 @@
     "stars": 1,
     "updated_at": "2026-10-12T06:46:46Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
-    "id": "bompus/house-rules",
-    "language": "JavaScript",
-    "name": "bompus/house-rules",
-    "stars": 1,
-    "updated_at": "2026-10-12T07:13:23Z",
-    "url": "https://github.com/bompus/house-rules"
   },
   {
     "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
@@ -90,7 +99,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40437,
+    "stars": 40440,
     "updated_at": "2026-10-12T03:07:19Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -204,15 +213,6 @@
     "url": "https://github.com/vibestackdev/vibe-stack"
   },
   {
-    "description": "This document defines universal rules for AI agents working on any software project. Follow these instructions exactly u",
-    "id": "NTDevLops/UNIVERSAL-AGENTS.md",
-    "language": "\u2014",
-    "name": "NTDevLops/UNIVERSAL-AGENTS.md",
-    "stars": 1,
-    "updated_at": "2026-10-11T13:46:15Z",
-    "url": "https://github.com/NTDevLops/UNIVERSAL-AGENTS.md"
-  },
-  {
     "description": "\u82f1\u6587\u6587\u7ae0\u80cc\u8bf5\u6280\u5de7",
     "id": "yxdwind/english-memory-method",
     "language": "HTML",
@@ -245,7 +245,7 @@
     "language": "Shell",
     "name": "gabrieldcpaiva/not-optional",
     "stars": 1,
-    "updated_at": "2026-10-12T06:37:03Z",
+    "updated_at": "2026-10-12T07:16:20Z",
     "url": "https://github.com/gabrieldcpaiva/not-optional"
   },
   {
@@ -445,7 +445,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 161324,
+    "stars": 161338,
     "updated_at": "2026-10-10T04:19:53Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
