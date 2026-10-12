@@ -1,12 +1,48 @@
 [
   {
+    "description": "\u82f1\u6587\u6587\u7ae0\u80cc\u8bf5\u6280\u5de7",
+    "id": "yxdwind/english-memory-method",
+    "language": "HTML",
+    "name": "yxdwind/english-memory-method",
+    "stars": 1,
+    "updated_at": "2026-10-12T15:12:58Z",
+    "url": "https://github.com/yxdwind/english-memory-method"
+  },
+  {
+    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
+    "id": "Laurellagloomy260/cursor-rules-generator",
+    "language": "\u2014",
+    "name": "Laurellagloomy260/cursor-rules-generator",
+    "stars": 0,
+    "updated_at": "2026-10-12T15:08:50Z",
+    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
+  },
+  {
+    "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
+    "id": "Bastioned-successor320/learn-nanobot",
+    "language": "Python",
+    "name": "Bastioned-successor320/learn-nanobot",
+    "stars": 12,
+    "updated_at": "2026-10-12T15:04:16Z",
+    "url": "https://github.com/Bastioned-successor320/learn-nanobot"
+  },
+  {
     "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
     "id": "bompus/house-rules",
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 1,
-    "updated_at": "2026-10-12T14:55:43Z",
+    "updated_at": "2026-10-12T15:09:55Z",
     "url": "https://github.com/bompus/house-rules"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-12T15:00:45Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -21,24 +57,6 @@
     "stars": 0,
     "updated_at": "2026-10-12T14:52:22Z",
     "url": "https://github.com/johnwall123459885/skene-cookbook"
-  },
-  {
-    "description": "\u82f1\u6587\u6587\u7ae0\u80cc\u8bf5\u6280\u5de7",
-    "id": "yxdwind/english-memory-method",
-    "language": "HTML",
-    "name": "yxdwind/english-memory-method",
-    "stars": 1,
-    "updated_at": "2026-10-12T14:48:26Z",
-    "url": "https://github.com/yxdwind/english-memory-method"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-12T14:45:42Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -57,24 +75,6 @@
     "stars": 2,
     "updated_at": "2026-10-12T13:18:16Z",
     "url": "https://github.com/saqie803/ponytail"
-  },
-  {
-    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
-    "id": "Laurellagloomy260/cursor-rules-generator",
-    "language": "\u2014",
-    "name": "Laurellagloomy260/cursor-rules-generator",
-    "stars": 0,
-    "updated_at": "2026-10-12T13:10:46Z",
-    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
-  },
-  {
-    "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
-    "id": "Bastioned-successor320/learn-nanobot",
-    "language": "Python",
-    "name": "Bastioned-successor320/learn-nanobot",
-    "stars": 12,
-    "updated_at": "2026-10-12T13:06:17Z",
-    "url": "https://github.com/Bastioned-successor320/learn-nanobot"
   },
   {
     "description": "Your AI coding agent follows these files blindly, before it reads a line of your code.",
@@ -221,7 +221,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40461,
+    "stars": 40462,
     "updated_at": "2026-10-12T03:07:19Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -454,7 +454,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 161626,
+    "stars": 161637,
     "updated_at": "2026-10-10T04:19:53Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
