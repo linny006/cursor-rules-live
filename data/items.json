@@ -1,11 +1,20 @@
 [
   {
+    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
+    "id": "Laurellagloomy260/cursor-rules-generator",
+    "language": "\u2014",
+    "name": "Laurellagloomy260/cursor-rules-generator",
+    "stars": 0,
+    "updated_at": "2026-10-12T08:02:50Z",
+    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-12T08:00:38Z",
+    "updated_at": "2026-10-12T08:01:25Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -23,7 +32,7 @@
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 1,
-    "updated_at": "2026-10-12T07:59:02Z",
+    "updated_at": "2026-10-12T08:12:37Z",
     "url": "https://github.com/bompus/house-rules"
   },
   {
@@ -122,7 +131,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40443,
+    "stars": 40444,
     "updated_at": "2026-10-12T03:07:19Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -418,15 +427,6 @@
     "url": "https://github.com/baberarjumand/agentic_markdown_memory_agent-skill"
   },
   {
-    "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
-    "id": "Laurellagloomy260/cursor-rules-generator",
-    "language": "\u2014",
-    "name": "Laurellagloomy260/cursor-rules-generator",
-    "stars": 0,
-    "updated_at": "2026-10-10T07:39:35Z",
-    "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
-  },
-  {
     "description": "A unified collection of rules and skills for AI coding assistants, covering a standardized Project Starter template, Dea",
     "id": "Emzyjeppp/devflow-rules",
     "language": "JavaScript",
@@ -445,7 +445,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 161355,
+    "stars": 161368,
     "updated_at": "2026-10-10T04:19:53Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
