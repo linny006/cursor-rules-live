@@ -1,21 +1,21 @@
 [
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-12T11:30:48Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Tooling-independent multi-repo workspace manager with auto-synced AI context (AGENTS.md, Cursor rules, Copilot) via syml",
     "id": "unoxen/repo-nexus",
     "language": "Shell",
     "name": "unoxen/repo-nexus",
     "stars": 9,
-    "updated_at": "2026-10-12T11:26:31Z",
+    "updated_at": "2026-10-12T11:52:11Z",
     "url": "https://github.com/unoxen/repo-nexus"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-12T11:45:58Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Auto harness engineering meta-repo: discuss \u2192 curate \u2192 bootstrap a context-engineered project for Claude Code, Cursor, C",
@@ -463,7 +463,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 161500,
+    "stars": 161511,
     "updated_at": "2026-10-10T04:19:53Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
