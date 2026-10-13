@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-13T20:30:48Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Free private developer tools (JSON, JWT, cURL, cron, SSH keys) that run in your browser, plus AI Skill Studio: a CLAUDE.",
     "id": "Saad-web-spec/DevScratchPad",
     "language": "TypeScript",
@@ -7,15 +16,6 @@
     "stars": 2,
     "updated_at": "2026-10-13T20:26:09Z",
     "url": "https://github.com/Saad-web-spec/DevScratchPad"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-13T20:15:49Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Accessibility is not a request. A practical, lived-experience toolkit for making digital products and printables usable ",
@@ -308,7 +308,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 162650,
+    "stars": 162652,
     "updated_at": "2026-10-13T01:46:28Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
