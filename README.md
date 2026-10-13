@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-13 06:45 UTC
+> ⏰ Last updated: 2026-10-13 06:52 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,8 +53,8 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [bompus/house-rules](https://github.com/bompus/house-rules) | 1 | JavaScript | 2026-10-13 | — | Working rules and skills for AI coding agents, layered as base, modifiers, person and project |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-13 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-13 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [bompus/house-rules](https://github.com/bompus/house-rules) | 1 | JavaScript | 2026-10-13 | — | Working rules and skills for AI coding agents, layered as base, modifiers, person and project |
 | 3 | [saqie803/ponytail](https://github.com/saqie803/ponytail) | 2 | JavaScript | 2026-10-13 | — | Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony. |
 | 4 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-10-13 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
 | 5 | [Bastioned-successor320/learn-nanobot](https://github.com/Bastioned-successor320/learn-nanobot) | 12 | Python | 2026-10-13 | — | Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers |
@@ -64,7 +64,7 @@ expired items removed — so you can rely on what you see being current.
 | 9 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 210 | Python | 2026-10-13 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
 | 10 | [geronco/commandvault-library](https://github.com/geronco/commandvault-library) | 0 | JavaScript | 2026-10-13 | — | Community-voted AI prompts, CLAUDE.md/AGENTS.md templates, Cursor rules, Agent Skills and MCP servers from commandvault. |
 | 11 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-10-13 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 12 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 162046 | JavaScript | 2026-10-13 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 12 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 162048 | JavaScript | 2026-10-13 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 13 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 49 | — | 2026-10-13 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
 | 14 | [madebyaris/grok-cursor-rules](https://github.com/madebyaris/grok-cursor-rules) | 1 | — | 2026-10-13 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/madebyaris/grok-cursor-rules/) | Cursor rules for Grok 4.7: grounded coding plus design directions, screenshot review, own ideas, and direction-only ques |
 | 15 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-10-13 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
