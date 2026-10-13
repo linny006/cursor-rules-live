@@ -1,11 +1,38 @@
 [
   {
+    "description": "Accessibility is not a request. A practical, lived-experience toolkit for making digital products and printables usable ",
+    "id": "gabrieldcpaiva/not-optional",
+    "language": "Shell",
+    "name": "gabrieldcpaiva/not-optional",
+    "stars": 1,
+    "updated_at": "2026-10-13T08:14:58Z",
+    "url": "https://github.com/gabrieldcpaiva/not-optional"
+  },
+  {
+    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
+    "id": "bompus/house-rules",
+    "language": "JavaScript",
+    "name": "bompus/house-rules",
+    "stars": 1,
+    "updated_at": "2026-10-13T08:10:53Z",
+    "url": "https://github.com/bompus/house-rules"
+  },
+  {
+    "description": "Read-only MCP server and Claude Code plugin that lints CLAUDE.md, AGENTS.md and SKILL.md, counts approximate tokens per ",
+    "id": "Katta041/asitis-agent-tools",
+    "language": "TypeScript",
+    "name": "Katta041/asitis-agent-tools",
+    "stars": 0,
+    "updated_at": "2026-10-13T08:02:23Z",
+    "url": "https://github.com/Katta041/asitis-agent-tools"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-13T07:45:38Z",
+    "updated_at": "2026-10-13T08:00:45Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -34,15 +61,6 @@
     "stars": 2,
     "updated_at": "2026-10-13T07:16:52Z",
     "url": "https://github.com/saqie803/ponytail"
-  },
-  {
-    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
-    "id": "bompus/house-rules",
-    "language": "JavaScript",
-    "name": "bompus/house-rules",
-    "stars": 1,
-    "updated_at": "2026-10-13T07:58:56Z",
-    "url": "https://github.com/bompus/house-rules"
   },
   {
     "description": "Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects.",
@@ -127,7 +145,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 162101,
+    "stars": 162112,
     "updated_at": "2026-10-13T01:46:28Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -282,15 +300,6 @@
     "url": "https://github.com/ZeKaiNie/universal-college-lab-report"
   },
   {
-    "description": "Accessibility is not a request. A practical, lived-experience toolkit for making digital products and printables usable ",
-    "id": "gabrieldcpaiva/not-optional",
-    "language": "Shell",
-    "name": "gabrieldcpaiva/not-optional",
-    "stars": 1,
-    "updated_at": "2026-10-13T07:28:13Z",
-    "url": "https://github.com/gabrieldcpaiva/not-optional"
-  },
-  {
     "description": "This document defines universal rules for AI agents working on any software project. Follow these instructions exactly u",
     "id": "NTDevLops/UNIVERSAL-AGENTS.md",
     "language": "\u2014",
@@ -354,7 +363,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40549,
+    "stars": 40550,
     "updated_at": "2026-10-12T03:07:19Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -430,15 +439,6 @@
     "stars": 0,
     "updated_at": "2026-10-10T21:31:12Z",
     "url": "https://github.com/vishalguptax/agent-engineering-kit"
-  },
-  {
-    "description": "Read-only MCP server and Claude Code plugin that lints CLAUDE.md, AGENTS.md and SKILL.md, counts approximate tokens per ",
-    "id": "Katta041/asitis-agent-tools",
-    "language": "TypeScript",
-    "name": "Katta041/asitis-agent-tools",
-    "stars": 0,
-    "updated_at": "2026-10-10T17:27:12Z",
-    "url": "https://github.com/Katta041/asitis-agent-tools"
   },
   {
     "description": "The off-switch for AI flattery. A leveled honesty dial for AI agents: low is blunt, high goes for the throat.",
