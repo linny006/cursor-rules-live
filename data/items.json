@@ -1,11 +1,38 @@
 [
   {
+    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 210,
+    "updated_at": "2026-10-13T03:42:37Z",
+    "url": "https://github.com/KbWen/agentic-os"
+  },
+  {
+    "description": "Community-voted AI prompts, CLAUDE.md/AGENTS.md templates, Cursor rules, Agent Skills and MCP servers from commandvault.",
+    "id": "geronco/commandvault-library",
+    "language": "JavaScript",
+    "name": "geronco/commandvault-library",
+    "stars": 0,
+    "updated_at": "2026-10-13T03:39:34Z",
+    "url": "https://github.com/geronco/commandvault-library"
+  },
+  {
+    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
+    "id": "bompus/house-rules",
+    "language": "JavaScript",
+    "name": "bompus/house-rules",
+    "stars": 1,
+    "updated_at": "2026-10-13T03:38:38Z",
+    "url": "https://github.com/bompus/house-rules"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-13T03:15:33Z",
+    "updated_at": "2026-10-13T03:30:45Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -68,7 +95,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 161963,
+    "stars": 161972,
     "updated_at": "2026-10-13T01:46:28Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -123,15 +150,6 @@
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
-    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
-    "id": "bompus/house-rules",
-    "language": "JavaScript",
-    "name": "bompus/house-rules",
-    "stars": 1,
-    "updated_at": "2026-10-13T03:26:36Z",
-    "url": "https://github.com/bompus/house-rules"
-  },
-  {
     "description": "Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W-",
     "id": "fluttersdk/wind",
     "language": "Dart",
@@ -171,15 +189,6 @@
     "stars": 2,
     "updated_at": "2026-10-12T19:16:23Z",
     "url": "https://github.com/Saad-web-spec/DevScratchPad"
-  },
-  {
-    "description": "Community-voted AI prompts, CLAUDE.md/AGENTS.md templates, Cursor rules, Agent Skills and MCP servers from commandvault.",
-    "id": "geronco/commandvault-library",
-    "language": "JavaScript",
-    "name": "geronco/commandvault-library",
-    "stars": 0,
-    "updated_at": "2026-10-12T19:09:40Z",
-    "url": "https://github.com/geronco/commandvault-library"
   },
   {
     "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
@@ -331,7 +340,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40521,
+    "stars": 40523,
     "updated_at": "2026-10-12T03:07:19Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -489,14 +498,5 @@
     "stars": 2,
     "updated_at": "2026-10-10T09:46:54Z",
     "url": "https://github.com/EvilFreelancer/rpa-gen-rules"
-  },
-  {
-    "description": "An agent skill that sets up a markdown memory layout for agents. The layout keeps a short always-on file and loads every",
-    "id": "baberarjumand/agentic_markdown_memory_agent-skill",
-    "language": "JavaScript",
-    "name": "baberarjumand/agentic_markdown_memory_agent-skill",
-    "stars": 0,
-    "updated_at": "2026-10-10T07:41:46Z",
-    "url": "https://github.com/baberarjumand/agentic_markdown_memory_agent-skill"
   }
 ]
