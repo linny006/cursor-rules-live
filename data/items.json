@@ -1,21 +1,21 @@
 [
   {
-    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
-    "id": "bompus/house-rules",
-    "language": "JavaScript",
-    "name": "bompus/house-rules",
-    "stars": 1,
-    "updated_at": "2026-10-13T05:55:07Z",
-    "url": "https://github.com/bompus/house-rules"
-  },
-  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-13T05:45:54Z",
+    "updated_at": "2026-10-13T06:00:36Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
+    "id": "bompus/house-rules",
+    "language": "JavaScript",
+    "name": "bompus/house-rules",
+    "stars": 1,
+    "updated_at": "2026-10-13T06:07:20Z",
+    "url": "https://github.com/bompus/house-rules"
   },
   {
     "description": "Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony.",
@@ -118,7 +118,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 162026,
+    "stars": 162033,
     "updated_at": "2026-10-13T01:46:28Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -354,7 +354,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40537,
+    "stars": 40538,
     "updated_at": "2026-10-12T03:07:19Z",
     "url": "https://github.com/wshobson/agents"
   },
