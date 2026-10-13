@@ -1,12 +1,17 @@
 [
   {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
+    "cursorrules": {
+      "content": "---\ndescription: How Grok evaluates finished work. Score compliance on every task. On design work, score taste from a screenshot and fail results that are correct but generic.\nalwaysApply: true\n---\n\n# Eval\n\nScore in order. At the first failure, fix it, then score again from the top. Stop after three rounds and report what still fails.\n\n1. Safety and instruction compliance.\n2. Spec match. Every behavior that the user asked for is present.\n3. Grounding. Paths, APIs, and names exist.\n4. Local consistency. Patterns, types, and lint.\n5. Regression risk around the change.\n6. Evidence. Check the real thing: run it, read the actual value, or inspect the diff. \"It compiles\" is not evidence.\n\nCoding-track work ends here. A failed taste check is not a reason to redesign a working fix.\n\n## Taste, before design work is done\n\nScore these from a screenshot of the rendered result, not from the code.\n\n7. Decision audit. Name the one to three choices that control the result.\n8. Rejected direction. Name one direction that you did not choose, and why.\n9. Removal. Name what you cut to make the result clearer.\n10. Specificity. The result fits this brief and its audience. If it could belong to any project, it is not done.\n11. Own idea, on an open task. Give one observation that the user did not give you.\n\nFail the taste layer when:\n\n- A screen or section has more than one job, or no focal point.\n- Type, space, or color adds a new value that has no role.\n- A new component exists where removal would be clearer.\n- The layout is one of the average layouts in `grok-think`, and the content does not have that shape.\n- A rejected default was replaced by another common look, not by a choice from the brief.\n- The safest direction was chosen with no reason from the brief.\n- No screenshot was reviewed.\n\n```\nBad: Done. Matches the spec. Added a card grid.\nGood: Chose one column because the brief has one decision. Rejected a comparison table because there are only two options. Cut the feature list. In the wide and narrow screenshots, the eye lands on the primary action first.\n```\n",
+      "format": "mdc",
+      "path": ".cursor/rules/grok-eval.mdc"
+    },
+    "description": "Cursor rules for Grok 4.7: grounded coding plus design directions, screenshot review, own ideas, and direction-only ques",
+    "id": "madebyaris/grok-cursor-rules",
+    "language": "\u2014",
+    "name": "madebyaris/grok-cursor-rules",
     "stars": 0,
-    "updated_at": "2026-10-13T01:11:30Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
+    "updated_at": "2026-10-13T01:27:47Z",
+    "url": "https://github.com/madebyaris/grok-cursor-rules"
   },
   {
     "cursorrules": {
@@ -18,9 +23,27 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 161902,
-    "updated_at": "2026-10-13T01:09:00Z",
+    "stars": 161910,
+    "updated_at": "2026-10-13T01:18:44Z",
     "url": "https://github.com/DietrichGebert/ponytail"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-13T01:15:35Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-10-13T01:11:30Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -30,15 +53,6 @@
     "stars": 49,
     "updated_at": "2026-10-13T01:07:47Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-13T01:00:39Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Ship production-ready code with one line of AI-generated output, built for 20 agents and zero ceremony.",
@@ -317,7 +331,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40510,
+    "stars": 40511,
     "updated_at": "2026-10-12T03:07:19Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -484,14 +498,5 @@
     "stars": 0,
     "updated_at": "2026-10-10T07:41:46Z",
     "url": "https://github.com/baberarjumand/agentic_markdown_memory_agent-skill"
-  },
-  {
-    "description": "A unified collection of rules and skills for AI coding assistants, covering a standardized Project Starter template, Dea",
-    "id": "Emzyjeppp/devflow-rules",
-    "language": "JavaScript",
-    "name": "Emzyjeppp/devflow-rules",
-    "stars": 0,
-    "updated_at": "2026-10-10T06:36:20Z",
-    "url": "https://github.com/Emzyjeppp/devflow-rules"
   }
 ]
