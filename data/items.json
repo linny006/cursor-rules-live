@@ -1,12 +1,12 @@
 [
   {
-    "description": "High-performance, ultra-lightweight adaptive IDE optimized for 4GB RAM environments. Features a context-aware smart term",
-    "id": "silenceminds/AROM-Apex-Console",
-    "language": "JavaScript",
-    "name": "silenceminds/AROM-Apex-Console",
-    "stars": 0,
-    "updated_at": "2026-10-13T09:21:45Z",
-    "url": "https://github.com/silenceminds/AROM-Apex-Console"
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 3,
+    "updated_at": "2026-10-13T09:31:56Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-13T09:15:56Z",
+    "updated_at": "2026-10-13T09:30:57Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "High-performance, ultra-lightweight adaptive IDE optimized for 4GB RAM environments. Features a context-aware smart term",
+    "id": "silenceminds/AROM-Apex-Console",
+    "language": "JavaScript",
+    "name": "silenceminds/AROM-Apex-Console",
+    "stars": 0,
+    "updated_at": "2026-10-13T09:21:45Z",
+    "url": "https://github.com/silenceminds/AROM-Apex-Console"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -43,15 +52,6 @@
     "stars": 1,
     "updated_at": "2026-10-13T08:41:57Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 3,
-    "updated_at": "2026-10-13T08:37:38Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
@@ -163,7 +163,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 162173,
+    "stars": 162182,
     "updated_at": "2026-10-13T01:46:28Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
