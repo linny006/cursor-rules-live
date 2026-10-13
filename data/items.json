@@ -1,11 +1,20 @@
 [
   {
+    "description": "",
+    "id": "muhamadhafis/frontend-god",
+    "language": "Shell",
+    "name": "muhamadhafis/frontend-god",
+    "stars": 0,
+    "updated_at": "2026-10-13T10:12:31Z",
+    "url": "https://github.com/muhamadhafis/frontend-god"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-13T09:45:51Z",
+    "updated_at": "2026-10-13T10:00:47Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -163,7 +172,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 162195,
+    "stars": 162211,
     "updated_at": "2026-10-13T01:46:28Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -372,7 +381,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40558,
+    "stars": 40560,
     "updated_at": "2026-10-12T03:07:19Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -494,14 +503,5 @@
     "stars": 3,
     "updated_at": "2026-10-10T13:42:50Z",
     "url": "https://github.com/alex-zaporozhan/leo"
-  },
-  {
-    "description": "The most expensive bug in AI-assisted building is shipping the wrong thing, well. A drop-in CLAUDE.md / AGENTS.md for PM",
-    "id": "sohaibt/product-mode",
-    "language": "TypeScript",
-    "name": "sohaibt/product-mode",
-    "stars": 217,
-    "updated_at": "2026-10-10T13:24:04Z",
-    "url": "https://github.com/sohaibt/product-mode"
   }
 ]
