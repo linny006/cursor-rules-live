@@ -1,11 +1,20 @@
 [
   {
+    "description": "\u5168\u7403\u9152\u5e97\u9884\u8ba2&\u4f4e\u4ef7\u76d1\u63a7\u63d0\u9192Skill\uff0c200\u4e07+\u7cbe\u9009\u9152\u5e97\uff0c\u72ec\u5bb6\u4f18\u60e0\u4ef7\u683c\uff0c\u8ba9\u4f60\u7684Agent\u8f7b\u677e\u9884\u8ba2\u54c1\u8d28\u9152\u5e97\uff0c\u652f\u6301\u652f\u4ed8\u5b9d\u4e0b\u5355+\u67e5\u8be2\u5386\u53f2\u8ba2\u5355\uff0c24 \u5c0f\u65f6\u5ba2\u670d\u652f\u6301\uff0c\u5168\u5929\u5019\u54cd\u5e94\u3002",
+    "id": "RollingGo-AI/rollinggo-hotel-skill-cn",
+    "language": "Python",
+    "name": "RollingGo-AI/rollinggo-hotel-skill-cn",
+    "stars": 163,
+    "updated_at": "2026-10-13T13:52:15Z",
+    "url": "https://github.com/RollingGo-AI/rollinggo-hotel-skill-cn"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-13T13:30:54Z",
+    "updated_at": "2026-10-13T13:45:50Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -226,7 +235,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 162357,
+    "stars": 162367,
     "updated_at": "2026-10-13T01:46:28Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -408,7 +417,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40582,
+    "stars": 40584,
     "updated_at": "2026-10-12T03:07:19Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -484,19 +493,5 @@
     "stars": 29,
     "updated_at": "2026-10-10T16:27:58Z",
     "url": "https://github.com/sx4im/skillcheck"
-  },
-  {
-    "cursorrules": {
-      "content": "You are working on Unity Developer Tools, a Cursor IDE plugin for Unity game development.\n\n## Repo structure\n\n- `.cursor-plugin/plugin.json` - plugin manifest (version is auto-managed by CI)\n- `skills/` - 18 SKILL.md files (project setup, MonoBehaviour, ScriptableObjects, physics, UI, shaders, animation, audio, input, networking, editor scripting, performance, render pipelines, ECS/DOTS, visual scripting, testing, addressables, platform targeting)\n- `rules/` - 8 .mdc rule files (C# conventions, lifecycle, performance, naming, serialization, shaders, visual scripting, security)\n- `snippets/` - 19 code snippets (csharp, shaders) plus a visual-scripting patterns guide\n- `templates/` - 5 starter templates (2d-platformer, 3d-fps, ui-menu-system, scriptableobject-architecture, editor-tool)\n- `mcp-server/` - Python FastMCP server with 5 tools and JSON data files\n- `docs/` - architecture, roadmap, contributing, getting started\n- `.github/workflows/` - validate, release, deploy-docs, label-sync, update-unity-api, stale\n- `mkdocs.yml` - MkDocs Material documentation site configuration\n- `.github/scripts/` - refresh_unity_data.py (data update script)\n- `AGENTS.md` - full workflow and contribution guide for AI agents\n- `CHANGELOG.md` - manually maintained release history\n\n## Commit conventions\n\nUse conventional commits. The release workflow auto-bumps version based on prefix:\n- `feat:` = minor bump\n- `feat!:` or `BREAKING CHANGE` = major bump\n- `fix:`, `chore:`, `docs:`, `refactor:`, etc. = patch bump\n\n## Version management\n\nNever manually edit the version in `plugin.json` or the README version badge. The release workflow (`release.yml`) auto-updates both on push to main.\n\n## Hard rules\n\n- No em dashes or en dashes anywhere. Use hyphens or rewrite.\n- No hardcoded credentials, tokens, API keys, or passwords.\n- All C# code should target Unity 6.x conventions.\n- Use Awaitable over IEnumerator coroutines for new async code.\n- Use FindFirstObjectByType, not FindObjectOfType (deprecated).\n- Use HLSLPROGRAM, not CGPROGRAM (deprecated in URP/HDRP).\n- Use UI Toolkit for editor tools, not IMGUI/OnGUI.\n- Python in `mcp-server/` must pass `py_compile`.\n- URP is the default render pipeline. HDRP is maintenance-only. Built-in is deprecated.\n\n## When editing skills or rules\n\n- Skills are SKILL.md with YAML frontmatter. Keep them accurate to current Unity 6.x APIs.\n- Rules are .mdc with frontmatter (`description`, `globs`, `alwaysApply`). They enforce conventions in generated code.\n- After adding/removing a skill or rule, update `plugin.json` to register it and update counts in README.md.\n\n## When editing the MCP server\n\n- All tool logic lives in `mcp-server/server.py`.\n- Tests live in `mcp-server/tests/` (pytest, including an MCP stdio smoke test).\n- Data files in `mcp-server/data/` provide reference databases.\n- Dependencies are listed in `mcp-server/requirements.txt`.\n\n## When editing templates\n\n- Every template directory needs at minimum a README.md and working C# scripts.\n- Follow Unity 6 conventions: Awaitable, new Input System, [SerializeField] private.\n\n## When editing snippets\n\n- Each snippet has a header comment explaining what it does and when to use it.\n- Use modern Unity patterns throughout.\n\n## When editing workflows\n\n- `release.yml` uses `[skip ci]` on its version bump commit. Don't remove that.\n- `release.yml` paths-ignore excludes `.github/**`, `docs/**`, `*.md`, `LICENSE`. Content-only changes won't trigger releases.\n- `release.yml` has a concurrency guard. Only one release can run at a time.\n- `release.yml` builds and attaches a zip artifact to each GitHub Release.\n- `update-unity-api.yml` commits with `chore:` prefix (patch bump). Don't change to `feat:`.\n- `validate.yml` runs 8 parallel jobs on PR and push. Keep checks fast.\n- `label-sync.yml` auto-labels PRs by path. Add new label mappings when adding top-level directories.\n- `deploy-docs.yml` builds and deploys the MkDocs Material site to GitHub Pages on every push to main.\n- When adding a new skill, also add it to the `nav:` section in `mkdocs.yml`.\n- `CHANGELOG.md` is manually maintained. Update it for significant changes.\n\n## When editing MCP data files\n\n- Do not manually edit files that `update-unity-api.yml` manages unless you also update the refresh script.\n- Each JSON data file has a schema validated by `validate.yml`. Adding or renaming fields requires updating the validation job.\n",
-      "format": "text",
-      "path": ".cursorrules"
-    },
-    "description": "AI-powered development toolkit for Unity game development in Cursor IDE. 18 skills, 8 rules, 4 MCP tools, 20 snippets, 5",
-    "id": "TMHSDigital/Unity-Developer-Tools",
-    "language": "C#",
-    "name": "TMHSDigital/Unity-Developer-Tools",
-    "stars": 4,
-    "updated_at": "2026-10-10T15:50:12Z",
-    "url": "https://github.com/TMHSDigital/Unity-Developer-Tools"
   }
 ]
