@@ -1,11 +1,20 @@
 [
   {
+    "description": "Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W-",
+    "id": "fluttersdk/wind",
+    "language": "Dart",
+    "name": "fluttersdk/wind",
+    "stars": 43,
+    "updated_at": "2026-10-13T11:39:25Z",
+    "url": "https://github.com/fluttersdk/wind"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-13T11:15:50Z",
+    "updated_at": "2026-10-13T11:30:41Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -190,7 +199,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 162253,
+    "stars": 162262,
     "updated_at": "2026-10-13T01:46:28Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -216,15 +225,6 @@
     "stars": 1,
     "updated_at": "2026-10-13T01:27:47Z",
     "url": "https://github.com/madebyaris/grok-cursor-rules"
-  },
-  {
-    "description": "Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W-",
-    "id": "fluttersdk/wind",
-    "language": "Dart",
-    "name": "fluttersdk/wind",
-    "stars": 43,
-    "updated_at": "2026-10-13T11:21:14Z",
-    "url": "https://github.com/fluttersdk/wind"
   },
   {
     "description": "video \u2014 a big skill for professional AI video editing: craft-first grammar of the cut, transcript-driven EDL pipeline, f",
