@@ -1,11 +1,20 @@
 [
   {
+    "description": "Your AI assistant reads CLAUDE.md and ignores it anyway. \u0100rai makes instruction files enforced \u2014 hooks that block, a tam",
+    "id": "taniwhaai/arai",
+    "language": "Rust",
+    "name": "taniwhaai/arai",
+    "stars": 7,
+    "updated_at": "2026-10-13T21:49:25Z",
+    "url": "https://github.com/taniwhaai/arai"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-13T21:30:49Z",
+    "updated_at": "2026-10-13T21:45:52Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -14,7 +23,7 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 27,
-    "updated_at": "2026-10-13T21:26:58Z",
+    "updated_at": "2026-10-13T21:58:31Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
@@ -322,7 +331,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 162691,
+    "stars": 162697,
     "updated_at": "2026-10-13T01:46:28Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -463,7 +472,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40614,
+    "stars": 40615,
     "updated_at": "2026-10-12T03:07:19Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -489,14 +498,5 @@
     "stars": 0,
     "updated_at": "2026-10-11T19:04:06Z",
     "url": "https://github.com/Acuris-GmbH/acuris-agent-context"
-  },
-  {
-    "description": "Agent Skills for AI coding assistants enforcing UI visual balance, 60/30/10 color rule, intentional whitespace, and hier",
-    "id": "irfangani/ui-skills",
-    "language": "\u2014",
-    "name": "irfangani/ui-skills",
-    "stars": 0,
-    "updated_at": "2026-10-11T15:30:00Z",
-    "url": "https://github.com/irfangani/ui-skills"
   }
 ]
