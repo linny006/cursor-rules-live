@@ -1,12 +1,12 @@
 [
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
+    "description": "Accessibility is not a request. A practical, lived-experience toolkit for making digital products and printables usable ",
+    "id": "gabrieldcpaiva/not-optional",
+    "language": "Shell",
+    "name": "gabrieldcpaiva/not-optional",
     "stars": 1,
-    "updated_at": "2026-10-13T19:39:15Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+    "updated_at": "2026-10-13T19:56:04Z",
+    "url": "https://github.com/gabrieldcpaiva/not-optional"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-13T19:31:03Z",
+    "updated_at": "2026-10-13T19:45:56Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-10-13T19:39:15Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
@@ -217,15 +226,6 @@
     "url": "https://github.com/silenceminds/AROM-Apex-Console"
   },
   {
-    "description": "Accessibility is not a request. A practical, lived-experience toolkit for making digital products and printables usable ",
-    "id": "gabrieldcpaiva/not-optional",
-    "language": "Shell",
-    "name": "gabrieldcpaiva/not-optional",
-    "stars": 1,
-    "updated_at": "2026-10-13T08:26:01Z",
-    "url": "https://github.com/gabrieldcpaiva/not-optional"
-  },
-  {
     "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
     "id": "KbWen/agentic-os",
     "language": "Python",
@@ -308,7 +308,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 162624,
+    "stars": 162634,
     "updated_at": "2026-10-13T01:46:28Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -449,7 +449,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40606,
+    "stars": 40607,
     "updated_at": "2026-10-12T03:07:19Z",
     "url": "https://github.com/wshobson/agents"
   },
