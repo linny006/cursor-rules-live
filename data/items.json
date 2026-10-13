@@ -1,11 +1,38 @@
 [
   {
+    "description": "404\u4f53\u306e\u5373\u6226\u529bAI\u5c02\u9580\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u96c6 \u2014 Claude Code / Cursor / Copilot \u7b49\u306b\u5bfe\u5fdc\u3002\u65e5\u672c\u5e02\u5834\u5411\u3051\u30aa\u30ea\u30b8\u30ca\u30eb125\u4f53\uff08SIer\u30fb\u53d7\u8a17\u958b\u767a\u30fbSaaS\u30fb\u88fd\u9020DX\u30fb\u516c\u5171\u5206\u91ce\uff09\u3002agency-agents\u306e\u65e5\u672c\u8a9e\u30b3\u30df\u30e5",
+    "id": "sscodeai/agency-agents-ja",
+    "language": "Shell",
+    "name": "sscodeai/agency-agents-ja",
+    "stars": 9,
+    "updated_at": "2026-10-13T15:54:51Z",
+    "url": "https://github.com/sscodeai/agency-agents-ja"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-13T15:45:59Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 1,
+    "updated_at": "2026-10-13T15:45:41Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+  },
+  {
     "description": "Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W-",
     "id": "fluttersdk/wind",
     "language": "Dart",
     "name": "fluttersdk/wind",
     "stars": 43,
-    "updated_at": "2026-10-13T15:44:05Z",
+    "updated_at": "2026-10-13T15:45:33Z",
     "url": "https://github.com/fluttersdk/wind"
   },
   {
@@ -21,15 +48,6 @@
     "stars": 8,
     "updated_at": "2026-10-13T15:31:38Z",
     "url": "https://github.com/vibestackdev/vibe-stack"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-13T15:31:25Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -145,15 +163,6 @@
     "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
   },
   {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 1,
-    "updated_at": "2026-10-13T08:41:57Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
     "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
     "id": "bompus/house-rules",
     "language": "JavaScript",
@@ -263,7 +272,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 162452,
+    "stars": 162458,
     "updated_at": "2026-10-13T01:46:28Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -489,14 +498,5 @@
     "stars": 0,
     "updated_at": "2026-10-10T21:31:12Z",
     "url": "https://github.com/vishalguptax/agent-engineering-kit"
-  },
-  {
-    "description": "The off-switch for AI flattery. A leveled honesty dial for AI agents: low is blunt, high goes for the throat.",
-    "id": "IcanBENCHurCAT/grouch",
-    "language": "Python",
-    "name": "IcanBENCHurCAT/grouch",
-    "stars": 0,
-    "updated_at": "2026-10-10T17:06:53Z",
-    "url": "https://github.com/IcanBENCHurCAT/grouch"
   }
 ]
