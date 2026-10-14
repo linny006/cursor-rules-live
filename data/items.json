@@ -1,12 +1,21 @@
 [
   {
     "description": "agent wiki +engineering skills ",
-    "id": "Pellegrini1303/third-brain-v7-skills",
+    "id": "Ortiz2280/third-brain-v7-skills",
     "language": "Python",
-    "name": "Pellegrini1303/third-brain-v7-skills",
+    "name": "Ortiz2280/third-brain-v7-skills",
     "stars": 0,
-    "updated_at": "2026-10-14T05:37:41Z",
-    "url": "https://github.com/Pellegrini1303/third-brain-v7-skills"
+    "updated_at": "2026-10-14T05:59:01Z",
+    "url": "https://github.com/Ortiz2280/third-brain-v7-skills"
+  },
+  {
+    "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
+    "id": "TomoyaRenard/AIGX",
+    "language": "Python",
+    "name": "TomoyaRenard/AIGX",
+    "stars": 0,
+    "updated_at": "2026-10-14T05:55:46Z",
+    "url": "https://github.com/TomoyaRenard/AIGX"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +23,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-14T05:30:56Z",
+    "updated_at": "2026-10-14T05:46:01Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "agent wiki +engineering skills ",
+    "id": "Pellegrini1303/third-brain-v7-skills",
+    "language": "Python",
+    "name": "Pellegrini1303/third-brain-v7-skills",
+    "stars": 0,
+    "updated_at": "2026-10-14T05:37:41Z",
+    "url": "https://github.com/Pellegrini1303/third-brain-v7-skills"
   },
   {
     "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
@@ -376,7 +394,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 162926,
+    "stars": 162938,
     "updated_at": "2026-10-13T01:46:28Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -470,23 +488,5 @@
     "stars": 1,
     "updated_at": "2026-10-12T07:24:04Z",
     "url": "https://github.com/NTDevLops/UNIVERSAL-AGENTS.md"
-  },
-  {
-    "description": "Automate CRE analysis with AI skills for multifamily, industrial, and brokerage acquisitions, underwriting, due diligenc",
-    "id": "XAKLESK/cre-agent-skills",
-    "language": "\u2014",
-    "name": "XAKLESK/cre-agent-skills",
-    "stars": 9,
-    "updated_at": "2026-10-12T04:52:27Z",
-    "url": "https://github.com/XAKLESK/cre-agent-skills"
-  },
-  {
-    "description": "Orchestrate multiple AI agents to plan, research, and execute workflows from one prompt with YAML and model support.",
-    "id": "Amirun99/agency-orchestrator",
-    "language": "Dart",
-    "name": "Amirun99/agency-orchestrator",
-    "stars": 0,
-    "updated_at": "2026-10-12T04:50:26Z",
-    "url": "https://github.com/Amirun99/agency-orchestrator"
   }
 ]
