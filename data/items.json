@@ -1,11 +1,20 @@
 [
   {
+    "description": "Definitive Agentic AI skills, rules and developer tooling for OpenWrt, LuCI, and embedded Linux (Antigravity, Cursor, Cl",
+    "id": "Despensativo/OpenWrt-Skills",
+    "language": "Python",
+    "name": "Despensativo/OpenWrt-Skills",
+    "stars": 0,
+    "updated_at": "2026-10-14T19:34:44Z",
+    "url": "https://github.com/Despensativo/OpenWrt-Skills"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-14T19:15:43Z",
+    "updated_at": "2026-10-14T19:31:04Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -469,14 +478,5 @@
     "stars": 0,
     "updated_at": "2026-10-13T07:09:33Z",
     "url": "https://github.com/Laurellagloomy260/cursor-rules-generator"
-  },
-  {
-    "description": "Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers",
-    "id": "Bastioned-successor320/learn-nanobot",
-    "language": "Python",
-    "name": "Bastioned-successor320/learn-nanobot",
-    "stars": 12,
-    "updated_at": "2026-10-13T07:05:17Z",
-    "url": "https://github.com/Bastioned-successor320/learn-nanobot"
   }
 ]
