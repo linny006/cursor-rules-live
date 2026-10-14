@@ -1,5 +1,23 @@
 [
   {
+    "description": "",
+    "id": "muhamadhafis/frontend-god",
+    "language": "Shell",
+    "name": "muhamadhafis/frontend-god",
+    "stars": 0,
+    "updated_at": "2026-10-14T03:28:52Z",
+    "url": "https://github.com/muhamadhafis/frontend-god"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-14T03:15:59Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
     "id": "HoangNguyen0403/agent-skills-standard",
     "language": "TypeScript",
@@ -16,15 +34,6 @@
     "stars": 1,
     "updated_at": "2026-10-14T03:14:33Z",
     "url": "https://github.com/bompus/house-rules"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-14T03:01:17Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -281,15 +290,6 @@
     "url": "https://github.com/Pacing-Agency/pacing-ai-starter"
   },
   {
-    "description": "",
-    "id": "muhamadhafis/frontend-god",
-    "language": "Shell",
-    "name": "muhamadhafis/frontend-god",
-    "stars": 0,
-    "updated_at": "2026-10-13T10:12:31Z",
-    "url": "https://github.com/muhamadhafis/frontend-god"
-  },
-  {
     "description": "High-performance, ultra-lightweight adaptive IDE optimized for 4GB RAM environments. Features a context-aware smart term",
     "id": "silenceminds/AROM-Apex-Console",
     "language": "JavaScript",
@@ -367,7 +367,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 162842,
+    "stars": 162847,
     "updated_at": "2026-10-13T01:46:28Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
