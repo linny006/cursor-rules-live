@@ -1,12 +1,12 @@
 [
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-14T16:31:10Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
+    "description": "Architectural drift prevention for the agentic AI SDLC.",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 27,
+    "updated_at": "2026-10-14T16:57:32Z",
+    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
@@ -14,17 +14,26 @@
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 1,
-    "updated_at": "2026-10-14T16:34:36Z",
+    "updated_at": "2026-10-14T16:52:13Z",
     "url": "https://github.com/bompus/house-rules"
   },
   {
-    "description": "Architectural drift prevention for the agentic AI SDLC.",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 27,
-    "updated_at": "2026-10-14T16:45:03Z",
-    "url": "https://github.com/MnemeHQ/mneme"
+    "description": "Your AI coding agent follows these files blindly, before it reads a line of your code.",
+    "id": "Aaditya1273/Agent.md",
+    "language": "\u2014",
+    "name": "Aaditya1273/Agent.md",
+    "stars": 9,
+    "updated_at": "2026-10-14T16:51:27Z",
+    "url": "https://github.com/Aaditya1273/Agent.md"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-14T16:45:38Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
@@ -108,7 +117,7 @@
     "id": "wangqiqi/cursor-ai",
     "language": "Shell",
     "name": "wangqiqi/cursor-ai",
-    "stars": 3,
+    "stars": 4,
     "updated_at": "2026-10-14T15:20:34Z",
     "url": "https://github.com/wangqiqi/cursor-ai"
   },
@@ -406,15 +415,6 @@
     "stars": 0,
     "updated_at": "2026-10-13T15:22:14Z",
     "url": "https://github.com/lucas-winter-berlin/Agent-Engineer-Skills"
-  },
-  {
-    "description": "Your AI coding agent follows these files blindly, before it reads a line of your code.",
-    "id": "Aaditya1273/Agent.md",
-    "language": "\u2014",
-    "name": "Aaditya1273/Agent.md",
-    "stars": 9,
-    "updated_at": "2026-10-13T12:00:58Z",
-    "url": "https://github.com/Aaditya1273/Agent.md"
   },
   {
     "description": "Stop AI coding agents sending email, leaking keys or colliding on files: Cursor rule templates, a pre-commit secret guar",
