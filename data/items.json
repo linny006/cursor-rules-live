@@ -1,21 +1,21 @@
 [
   {
-    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
-    "id": "bompus/house-rules",
-    "language": "JavaScript",
-    "name": "bompus/house-rules",
-    "stars": 1,
-    "updated_at": "2026-10-14T16:22:02Z",
-    "url": "https://github.com/bompus/house-rules"
-  },
-  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-14T16:16:01Z",
+    "updated_at": "2026-10-14T16:31:10Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
+    "id": "bompus/house-rules",
+    "language": "JavaScript",
+    "name": "bompus/house-rules",
+    "stars": 1,
+    "updated_at": "2026-10-14T16:34:36Z",
+    "url": "https://github.com/bompus/house-rules"
   },
   {
     "description": "Architectural drift prevention for the agentic AI SDLC.",
@@ -23,7 +23,7 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 27,
-    "updated_at": "2026-10-14T16:09:30Z",
+    "updated_at": "2026-10-14T16:45:03Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
