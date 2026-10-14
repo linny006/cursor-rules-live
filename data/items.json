@@ -1,5 +1,32 @@
 [
   {
+    "description": "Architectural drift prevention for the agentic AI SDLC.",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 27,
+    "updated_at": "2026-10-14T21:23:28Z",
+    "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
+    "description": "Your AI coding agent follows these files blindly, before it reads a line of your code.",
+    "id": "Aaditya1273/Agent.md",
+    "language": "\u2014",
+    "name": "Aaditya1273/Agent.md",
+    "stars": 9,
+    "updated_at": "2026-10-14T21:18:10Z",
+    "url": "https://github.com/Aaditya1273/Agent.md"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-14T21:15:44Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
     "id": "J-nowcow/awesome-korean-agent-skills",
     "language": "\u2014",
@@ -18,7 +45,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40759,
+    "stars": 40760,
     "updated_at": "2026-10-14T21:06:13Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -30,24 +57,6 @@
     "stars": 0,
     "updated_at": "2026-10-14T21:05:34Z",
     "url": "https://github.com/jdiazromeral/melon"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-14T21:01:08Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
-    "description": "Architectural drift prevention for the agentic AI SDLC.",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 27,
-    "updated_at": "2026-10-14T21:02:10Z",
-    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "description": "Definitive Agentic AI skills, rules and developer tooling for OpenWrt, LuCI, and embedded Linux (Antigravity, Cursor, Cl",
@@ -111,15 +120,6 @@
     "stars": 5,
     "updated_at": "2026-10-14T17:48:56Z",
     "url": "https://github.com/Kshitijpalsinghtomar/depth-skills"
-  },
-  {
-    "description": "Your AI coding agent follows these files blindly, before it reads a line of your code.",
-    "id": "Aaditya1273/Agent.md",
-    "language": "\u2014",
-    "name": "Aaditya1273/Agent.md",
-    "stars": 9,
-    "updated_at": "2026-10-14T16:51:27Z",
-    "url": "https://github.com/Aaditya1273/Agent.md"
   },
   {
     "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
