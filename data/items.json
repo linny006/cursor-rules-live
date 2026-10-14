@@ -1,11 +1,20 @@
 [
   {
+    "description": "Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W-",
+    "id": "fluttersdk/wind",
+    "language": "Dart",
+    "name": "fluttersdk/wind",
+    "stars": 43,
+    "updated_at": "2026-10-14T09:04:59Z",
+    "url": "https://github.com/fluttersdk/wind"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-14T08:45:40Z",
+    "updated_at": "2026-10-14T09:00:49Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -16,15 +25,6 @@
     "stars": 0,
     "updated_at": "2026-10-14T08:43:15Z",
     "url": "https://github.com/Katta041/asitis-agent-tools"
-  },
-  {
-    "description": "Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W-",
-    "id": "fluttersdk/wind",
-    "language": "Dart",
-    "name": "fluttersdk/wind",
-    "stars": 43,
-    "updated_at": "2026-10-14T08:57:44Z",
-    "url": "https://github.com/fluttersdk/wind"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -394,7 +394,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 163057,
+    "stars": 163065,
     "updated_at": "2026-10-13T01:46:28Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
