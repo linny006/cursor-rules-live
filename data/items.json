@@ -10,8 +10,17 @@
     "language": "Shell",
     "name": "wangqiqi/cursor-ai",
     "stars": 3,
-    "updated_at": "2026-10-14T14:11:25Z",
+    "updated_at": "2026-10-14T14:17:51Z",
     "url": "https://github.com/wangqiqi/cursor-ai"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-14T14:15:52Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -35,15 +44,6 @@
     "stars": 0,
     "updated_at": "2026-10-14T14:10:46Z",
     "url": "https://github.com/edtrackai/ship-ready-ai-rules-free-sample"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-14T14:00:59Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -119,7 +119,7 @@
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 1,
-    "updated_at": "2026-10-14T14:13:48Z",
+    "updated_at": "2026-10-14T14:16:04Z",
     "url": "https://github.com/bompus/house-rules"
   },
   {
@@ -318,7 +318,7 @@
     "language": "HTML",
     "name": "agenticstandardcontact-byte/agentic-architect",
     "stars": 0,
-    "updated_at": "2026-10-13T16:56:11Z",
+    "updated_at": "2026-10-14T14:29:49Z",
     "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
   },
   {
@@ -431,7 +431,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 163273,
+    "stars": 163286,
     "updated_at": "2026-10-13T01:46:28Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
