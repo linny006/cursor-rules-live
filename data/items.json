@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-14T12:45:58Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Read-only MCP server and Claude Code plugin that lints CLAUDE.md, AGENTS.md and SKILL.md, counts approximate tokens per ",
     "id": "Katta041/asitis-agent-tools",
     "language": "TypeScript",
@@ -7,15 +16,6 @@
     "stars": 0,
     "updated_at": "2026-10-14T12:35:01Z",
     "url": "https://github.com/Katta041/asitis-agent-tools"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-14T12:30:44Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
@@ -41,7 +41,7 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 27,
-    "updated_at": "2026-10-14T12:14:57Z",
+    "updated_at": "2026-10-14T12:55:30Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
@@ -403,7 +403,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 163204,
+    "stars": 163216,
     "updated_at": "2026-10-13T01:46:28Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
