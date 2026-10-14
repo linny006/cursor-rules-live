@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-14 14:46 UTC
+> ⏰ Last updated: 2026-10-14 15:01 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -54,18 +54,18 @@ expired items removed — so you can rely on what you see being current.
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
 | 1 | [wangqiqi/cursor-ai](https://github.com/wangqiqi/cursor-ai) | 3 | Shell | 2026-10-14 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wangqiqi/cursor-ai/) | 无关用户， 无关系统， 无关项目，开箱复制即用！ code faster, code better;  |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-14 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 3 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-10-14 | — | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
-| 4 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-14 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
-| 5 | [edtrackai/ship-ready-ai-rules-free-sample](https://github.com/edtrackai/ship-ready-ai-rules-free-sample) | 0 | — | 2026-10-14 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/edtrackai/ship-ready-ai-rules-free-sample/) | Free sample: AGENTS.md + Cursor rule that stop AI agents shipping insecure Next.js + Supabase + Stripe code |
-| 6 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-10-14 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 7 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 27 | Python | 2026-10-14 | — | Architectural drift prevention for the agentic AI SDLC. |
-| 8 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-10-14 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
-| 9 | [mrvishaljjoshi-cmyk/VJSS](https://github.com/mrvishaljjoshi-cmyk/VJSS) | 0 | Python | 2026-10-14 | — | Universal AI Agent Super-Skills Ecosystem by Mr. Vishalkumar Joshi. 161 production-grade plain-text prompt protocols wit |
-| 10 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-10-14 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
-| 11 | [vibestackdev/vibe-stack](https://github.com/vibestackdev/vibe-stack) | 8 | TypeScript | 2026-10-14 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/) | 29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b |
-| 12 | [Katta041/asitis-agent-tools](https://github.com/Katta041/asitis-agent-tools) | 0 | TypeScript | 2026-10-14 | — | Read-only MCP server and Claude Code plugin that lints CLAUDE.md, AGENTS.md and SKILL.md, counts approximate tokens per  |
-| 13 | [bompus/house-rules](https://github.com/bompus/house-rules) | 1 | JavaScript | 2026-10-14 | — | Working rules and skills for AI coding agents, layered as base, modifiers, person and project |
+| 2 | [bompus/house-rules](https://github.com/bompus/house-rules) | 1 | JavaScript | 2026-10-14 | — | Working rules and skills for AI coding agents, layered as base, modifiers, person and project |
+| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-14 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 4 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-10-14 | — | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
+| 5 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-14 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
+| 6 | [edtrackai/ship-ready-ai-rules-free-sample](https://github.com/edtrackai/ship-ready-ai-rules-free-sample) | 0 | — | 2026-10-14 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/edtrackai/ship-ready-ai-rules-free-sample/) | Free sample: AGENTS.md + Cursor rule that stop AI agents shipping insecure Next.js + Supabase + Stripe code |
+| 7 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-10-14 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
+| 8 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 27 | Python | 2026-10-14 | — | Architectural drift prevention for the agentic AI SDLC. |
+| 9 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-10-14 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
+| 10 | [mrvishaljjoshi-cmyk/VJSS](https://github.com/mrvishaljjoshi-cmyk/VJSS) | 0 | Python | 2026-10-14 | — | Universal AI Agent Super-Skills Ecosystem by Mr. Vishalkumar Joshi. 161 production-grade plain-text prompt protocols wit |
+| 11 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-10-14 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
+| 12 | [vibestackdev/vibe-stack](https://github.com/vibestackdev/vibe-stack) | 8 | TypeScript | 2026-10-14 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/) | 29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b |
+| 13 | [Katta041/asitis-agent-tools](https://github.com/Katta041/asitis-agent-tools) | 0 | TypeScript | 2026-10-14 | — | Read-only MCP server and Claude Code plugin that lints CLAUDE.md, AGENTS.md and SKILL.md, counts approximate tokens per  |
 | 14 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 20 | TypeScript | 2026-10-14 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
 | 15 | [skillpouch/skillpouch-cli](https://github.com/skillpouch/skillpouch-cli) | 1 | Rust | 2026-10-14 | — | Sync your agent configs across your devices for free! |
 | 16 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 49 | — | 2026-10-14 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
@@ -96,7 +96,7 @@ expired items removed — so you can rely on what you see being current.
 | 41 | [Laurellagloomy260/cursor-rules-generator](https://github.com/Laurellagloomy260/cursor-rules-generator) | 0 | — | 2026-10-13 | — | Create optimized configuration files for Cursor AI to improve coding accuracy across your development projects. |
 | 42 | [Bastioned-successor320/learn-nanobot](https://github.com/Bastioned-successor320/learn-nanobot) | 12 | Python | 2026-10-13 | — | Learn Nanobot with a beginner-friendly guide to AI Agent basics, interview prep, and core concepts for job seekers |
 | 43 | [johnwall123459885/skene-cookbook](https://github.com/johnwall123459885/skene-cookbook) | 0 | Python | 2026-10-13 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/johnwall123459885/skene-cookbook/) | 🤖 Build AI workflows quickly using pre-made skill chains to avoid starting from scratch and streamline development. |
-| 44 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 163305 | JavaScript | 2026-10-13 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 44 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 163315 | JavaScript | 2026-10-13 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 45 | [madebyaris/grok-cursor-rules](https://github.com/madebyaris/grok-cursor-rules) | 1 | — | 2026-10-13 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/madebyaris/grok-cursor-rules/) | Cursor rules for Grok 4.7: grounded coding plus design directions, screenshot review, own ideas, and direction-only ques |
 | 46 | [lucasgabrieldevgg/video](https://github.com/lucasgabrieldevgg/video) | 0 | — | 2026-10-12 | — | video — a big skill for professional AI video editing: craft-first grammar of the cut, transcript-driven EDL pipeline, f |
 | 47 | [alipajand/agent-context-doctor](https://github.com/alipajand/agent-context-doctor) | 1 | TypeScript | 2026-10-12 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/alipajand/agent-context-doctor/) | Audit agent context files like AGENTS.md, CLAUDE.md, .cursor/rules/*.mdc, .github/copilot-instructions.md, and prompt do |

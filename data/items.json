@@ -10,8 +10,17 @@
     "language": "Shell",
     "name": "wangqiqi/cursor-ai",
     "stars": 3,
-    "updated_at": "2026-10-14T14:42:25Z",
+    "updated_at": "2026-10-14T14:59:56Z",
     "url": "https://github.com/wangqiqi/cursor-ai"
+  },
+  {
+    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
+    "id": "bompus/house-rules",
+    "language": "JavaScript",
+    "name": "bompus/house-rules",
+    "stars": 1,
+    "updated_at": "2026-10-14T14:49:55Z",
+    "url": "https://github.com/bompus/house-rules"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -19,7 +28,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-14T14:37:21Z",
+    "updated_at": "2026-10-14T14:46:07Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -119,17 +128,8 @@
     "language": "TypeScript",
     "name": "Katta041/asitis-agent-tools",
     "stars": 0,
-    "updated_at": "2026-10-14T14:44:38Z",
+    "updated_at": "2026-10-14T14:52:01Z",
     "url": "https://github.com/Katta041/asitis-agent-tools"
-  },
-  {
-    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
-    "id": "bompus/house-rules",
-    "language": "JavaScript",
-    "name": "bompus/house-rules",
-    "stars": 1,
-    "updated_at": "2026-10-14T14:42:53Z",
-    "url": "https://github.com/bompus/house-rules"
   },
   {
     "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
@@ -431,7 +431,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 163305,
+    "stars": 163315,
     "updated_at": "2026-10-13T01:46:28Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
