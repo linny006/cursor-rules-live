@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<title>edtrackai/ship-ready-ai-rules-free-sample - entry on Cursor Rules Live</title>
+<meta name="description" content="Free sample: AGENTS.md + Cursor rule that stop AI agents shipping insecure Next.js + Supabase + Stripe code">
+<link rel="canonical" href="https://linny006.github.io/cursor-rules-live/r/edtrackai/ship-ready-ai-rules-free-sample/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="edtrackai/ship-ready-ai-rules-free-sample - entry on Cursor Rules Live">
+<meta property="og:description" content="Free sample: AGENTS.md + Cursor rule that stop AI agents shipping insecure Next.js + Supabase + Stripe code">
+<meta property="og:url" content="https://linny006.github.io/cursor-rules-live/r/edtrackai/ship-ready-ai-rules-free-sample/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="edtrackai/ship-ready-ai-rules-free-sample - entry on Cursor Rules Live">
+<meta name="twitter:description" content="Free sample: AGENTS.md + Cursor rule that stop AI agents shipping insecure Next.js + Supabase + Stripe code">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"edtrackai/ship-ready-ai-rules-free-sample","codeRepository":"https://github.com/edtrackai/ship-ready-ai-rules-free-sample","programmingLanguage":"—","url":"https://linny006.github.io/cursor-rules-live/r/edtrackai/ship-ready-ai-rules-free-sample/","description":"Free sample: AGENTS.md + Cursor rule that stop AI agents shipping insecure Next.js + Supabase + Stripe code","author":{"@type":"Person","name":"edtrackai","url":"https://github.com/edtrackai"},"dateModified":"2026-10-14"}</script>
+<style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
+         --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 16px; font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--fg); background: var(--bg); }
+.wrap { max-width: var(--max); margin: 0 auto; }
+nav.bc { font-size: 14px; color: var(--muted); margin-bottom: 16px; }
+nav.bc a { color: var(--muted); }
+h1 { font-size: 28px; margin: 0 0 8px; }
+h2 { font-size: 20px; margin: 24px 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+p.lead { font-size: 18px; color: var(--muted); margin: 0 0 24px; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+th, td { padding: 8px 12px; text-align: left; border-bottom: 1px solid var(--border); }
+th { background: var(--card); font-weight: 600; }
+ul.crosslinks { list-style: none; padding: 0; }
+ul.crosslinks li { padding: 6px 0; }
+ul.crosslinks li a { font-weight: 500; }
+.meta { display: flex; gap: 16px; flex-wrap: wrap; color: var(--muted); font-size: 14px; margin: 12px 0; }
+.meta span::before { content: "\00b7"; margin-right: 8px; color: var(--border); }
+.meta span:first-child::before { content: ""; }
+footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--border); font-size: 14px; color: var(--muted); }</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="bc"><a href="https://linny006.github.io/cursor-rules-live/">Cursor Rules Live</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/popular/">Entries</a> &#183; <span>edtrackai/ship-ready-ai-rules-free-sample</span></nav>
+<main>
+<h1>edtrackai/ship-ready-ai-rules-free-sample</h1>
+<p class="lead">Free sample: AGENTS.md + Cursor rule that stop AI agents shipping insecure Next.js + Supabase + Stripe code</p>
+<div class="meta">
+<span><strong>Stars</strong> 0</span>
+<span><strong>Language</strong> —</span>
+<span><strong>Last updated</strong> 2026-10-14</span>
+<span><a href="https://github.com/edtrackai/ship-ready-ai-rules-free-sample" rel="external">Source on GitHub</a></span>
+<span><a href="https://github.com/edtrackai" rel="external">@edtrackai</a></span>
+</div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/30-stripe.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
+description: Stripe Checkout, Billing and webhooks
+globs: app/api/**,lib/stripe.ts,**/*stripe*
+alwaysApply: false
+---
+**Checkout**
+- Create sessions server-side only. Pass `client_reference_id: user.id` so the webhook can link the customer to the Supabase user.
+- Use Price IDs from env/config. Never take prices or amounts from the client.
+- Redirect with status 303 to `session.url`.
+
+**Webhooks** (`app/api/webhooks/stripe/route.ts`)
+1. `runtime = &quot;nodejs&quot;`; `const body = await request.text()`. Never `request.json()` first.
+2. `stripe.webhooks.constructEvent(body, signature, STRIPE_WEBHOOK_SECRET)`; return 400 on failure.
+3. Idempotency: record `event.id` in `stripe_events` with `status = &#x27;pending&#x27;`. On unique violation (`23505`), look up the row: if `completed`, return 200 and stop; if still `pending`, process it again. That is only safe when overlapping deliveries cannot double-apply work: make handlers idempotent upserts keyed on Stripe ids, or claim the row atomically with a lease (`update stripe_events set locked_until = now() + interval &#x27;5 minutes&#x27; where id = $1 and status = &#x27;pending&#x27; and (locked_until is null or locked_until &lt; now())`, and skip if no row was claimed) so a crashed attempt can be reclaimed later. Give side effects such as emails or credit grants their own dedupe key. Set `status = &#x27;completed&#x27;` only after processing (or enqueueing) succeeds. If processing fails, return 5xx so Stripe retries.
+4. Handle `checkout.session.completed` (link customer), `customer.subscription.created|updated|deleted` (upsert the mirrored row).
+5. Write with the admin client. Return 2xx quickly and move slow work to a queue.
+
+**Access control**
+- Grant features from the `subscriptions` row (`active`/`trialing`), not the success URL.
+- In recent Stripe API versions (`2025-03-31.basil`+), `current_period_start/end` live on subscription **items**, not the subscription. `sub.items.data[0].current_period_end` is only correct for single-item subscriptions; with multiple items, pick the item whose price grants the entitlement. Check the installed `stripe` types.
+- Test locally with `stripe listen` and `stripe trigger checkout.session.completed`.
+</code></pre>
+<p><a href="https://github.com/edtrackai/ship-ready-ai-rules-free-sample/blob/HEAD/.cursor/rules/30-stripe.mdc" rel="external">View raw on GitHub</a></p>
+</section>
+<section><h2>Why this is listed</h2>
+<p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
+<section><h2>Similar in this tracker</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/r/J-nowcow/awesome-korean-agent-skills/">J-nowcow/awesome-korean-agent-skills (stars:49)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/Aaditya1273/Agent.md/">Aaditya1273/Agent.md (stars:9)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/Overseastelegramaliterateperson865/awesome-claude-md/">Overseastelegramaliterateperson865/awesome-claude-md (stars:3)</a></li>
+</ul></section>
+<section><h2>Explore by category</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/popular/">Popular (by stars)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/recent/">Recent (by activity)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/new/">New this week</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/lang/x/">All — entries</a></li>
+</ul></section>
+</main>
+<footer>
+Auto-updated every 15 minutes via GitHub Actions &#183; <a href="https://linny006.github.io/cursor-rules-live/">tracker root</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/sitemap.xml">sitemap</a>
+</footer>
+</div>
+</body>
+</html>

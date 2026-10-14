@@ -10,8 +10,40 @@
     "language": "Shell",
     "name": "wangqiqi/cursor-ai",
     "stars": 3,
-    "updated_at": "2026-10-14T13:55:08Z",
+    "updated_at": "2026-10-14T14:11:25Z",
     "url": "https://github.com/wangqiqi/cursor-ai"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-10-14T14:11:19Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Stripe Checkout, Billing and webhooks\nglobs: app/api/**,lib/stripe.ts,**/*stripe*\nalwaysApply: false\n---\n**Checkout**\n- Create sessions server-side only. Pass `client_reference_id: user.id` so the webhook can link the customer to the Supabase user.\n- Use Price IDs from env/config. Never take prices or amounts from the client.\n- Redirect with status 303 to `session.url`.\n\n**Webhooks** (`app/api/webhooks/stripe/route.ts`)\n1. `runtime = \"nodejs\"`; `const body = await request.text()`. Never `request.json()` first.\n2. `stripe.webhooks.constructEvent(body, signature, STRIPE_WEBHOOK_SECRET)`; return 400 on failure.\n3. Idempotency: record `event.id` in `stripe_events` with `status = 'pending'`. On unique violation (`23505`), look up the row: if `completed`, return 200 and stop; if still `pending`, process it again. That is only safe when overlapping deliveries cannot double-apply work: make handlers idempotent upserts keyed on Stripe ids, or claim the row atomically with a lease (`update stripe_events set locked_until = now() + interval '5 minutes' where id = $1 and status = 'pending' and (locked_until is null or locked_until < now())`, and skip if no row was claimed) so a crashed attempt can be reclaimed later. Give side effects such as emails or credit grants their own dedupe key. Set `status = 'completed'` only after processing (or enqueueing) succeeds. If processing fails, return 5xx so Stripe retries.\n4. Handle `checkout.session.completed` (link customer), `customer.subscription.created|updated|deleted` (upsert the mirrored row).\n5. Write with the admin client. Return 2xx quickly and move slow work to a queue.\n\n**Access control**\n- Grant features from the `subscriptions` row (`active`/`trialing`), not the success URL.\n- In recent Stripe API versions (`2025-03-31.basil`+), `current_period_start/end` live on subscription **items**, not the subscription. `sub.items.data[0].current_period_end` is only correct for single-item subscriptions; with multiple items, pick the item whose price grants the entitlement. Check the installed `stripe` types.\n- Test locally with `stripe listen` and `stripe trigger checkout.session.completed`.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/30-stripe.mdc"
+    },
+    "description": "Free sample: AGENTS.md + Cursor rule that stop AI agents shipping insecure Next.js + Supabase + Stripe code",
+    "id": "edtrackai/ship-ready-ai-rules-free-sample",
+    "language": "\u2014",
+    "name": "edtrackai/ship-ready-ai-rules-free-sample",
+    "stars": 0,
+    "updated_at": "2026-10-14T14:10:46Z",
+    "url": "https://github.com/edtrackai/ship-ready-ai-rules-free-sample"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-14T14:00:59Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -23,21 +55,12 @@
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-14T13:46:01Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Architectural drift prevention for the agentic AI SDLC.",
     "id": "MnemeHQ/mneme",
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 27,
-    "updated_at": "2026-10-14T13:44:07Z",
+    "updated_at": "2026-10-14T14:10:12Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
@@ -87,7 +110,7 @@
     "language": "TypeScript",
     "name": "Katta041/asitis-agent-tools",
     "stars": 0,
-    "updated_at": "2026-10-14T12:35:01Z",
+    "updated_at": "2026-10-14T14:10:05Z",
     "url": "https://github.com/Katta041/asitis-agent-tools"
   },
   {
@@ -96,7 +119,7 @@
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 1,
-    "updated_at": "2026-10-14T12:03:20Z",
+    "updated_at": "2026-10-14T14:13:48Z",
     "url": "https://github.com/bompus/house-rules"
   },
   {
@@ -143,15 +166,6 @@
     "stars": 43,
     "updated_at": "2026-10-14T09:04:59Z",
     "url": "https://github.com/fluttersdk/wind"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-10-14T08:12:06Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "cursorrules": {
@@ -417,7 +431,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 163260,
+    "stars": 163273,
     "updated_at": "2026-10-13T01:46:28Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -484,14 +498,5 @@
     "stars": 3,
     "updated_at": "2026-10-12T10:41:00Z",
     "url": "https://github.com/aidesignblueprint/integrations"
-  },
-  {
-    "description": "\ud83c\udf93 \u5927\u5b66\u751f\u671f\u672b\u6551\u661f\uff01\u5927\u5b66\u901a\u7528\u5b9e\u9a8c\u62a5\u544a\u751f\u6210\u5668 Skill | \u5f7b\u5e95\u544a\u522b Word \u6392\u7248\u5d29\u6e83\uff0c\u5b9e\u4f53\u5927\u6846\u5168\u9ad8\u9632\u7559\u767d\u3001\u9ad8\u6e05\u7ec8\u7aef\u622a\u56fe\u6e32\u67d3\u4e0e\u601d\u8003\u9898\u5168\u89e3 | \u652f\u6301 Claude / Cursor / Antigravity / Python CLI",
-    "id": "ZeKaiNie/universal-college-lab-report",
-    "language": "Python",
-    "name": "ZeKaiNie/universal-college-lab-report",
-    "stars": 1,
-    "updated_at": "2026-10-12T09:14:28Z",
-    "url": "https://github.com/ZeKaiNie/universal-college-lab-report"
   }
 ]
