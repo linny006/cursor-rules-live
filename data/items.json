@@ -1,11 +1,20 @@
 [
   {
+    "description": "Read-only MCP server and Claude Code plugin that lints CLAUDE.md, AGENTS.md and SKILL.md, counts approximate tokens per ",
+    "id": "Katta041/asitis-agent-tools",
+    "language": "TypeScript",
+    "name": "Katta041/asitis-agent-tools",
+    "stars": 0,
+    "updated_at": "2026-10-14T12:35:01Z",
+    "url": "https://github.com/Katta041/asitis-agent-tools"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-14T12:15:49Z",
+    "updated_at": "2026-10-14T12:30:44Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -70,15 +79,6 @@
     "stars": 43,
     "updated_at": "2026-10-14T09:04:59Z",
     "url": "https://github.com/fluttersdk/wind"
-  },
-  {
-    "description": "Read-only MCP server and Claude Code plugin that lints CLAUDE.md, AGENTS.md and SKILL.md, counts approximate tokens per ",
-    "id": "Katta041/asitis-agent-tools",
-    "language": "TypeScript",
-    "name": "Katta041/asitis-agent-tools",
-    "stars": 0,
-    "updated_at": "2026-10-14T09:31:26Z",
-    "url": "https://github.com/Katta041/asitis-agent-tools"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -403,7 +403,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 163190,
+    "stars": 163204,
     "updated_at": "2026-10-13T01:46:28Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
