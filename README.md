@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-14 23:00 UTC
+> ⏰ Last updated: 2026-10-14 23:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,28 +53,28 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-14 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-14 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 3 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 49 | — | 2026-10-14 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
-| 4 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-10-14 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 5 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-10-14 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
-| 6 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-10-14 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
-| 7 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 27 | Python | 2026-10-14 | — | Architectural drift prevention for the agentic AI SDLC. |
-| 8 | [Aaditya1273/Agent.md](https://github.com/Aaditya1273/Agent.md) | 9 | — | 2026-10-14 | — | Your AI coding agent follows these files blindly, before it reads a line of your code. |
-| 9 | [wshobson/agents](https://github.com/wshobson/agents) | 40767 | Python | 2026-10-14 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
-| 10 | [jdiazromeral/melon](https://github.com/jdiazromeral/melon) | 0 | — | 2026-10-14 | — | Adversarial first-principles review protocol for code, architectures, PRs, and LLM prompts: question requirements, delet |
-| 11 | [Despensativo/OpenWrt-Skills](https://github.com/Despensativo/OpenWrt-Skills) | 0 | Python | 2026-10-14 | — | Definitive Agentic AI skills, rules and developer tooling for OpenWrt, LuCI, and embedded Linux (Antigravity, Cursor, Cl |
-| 12 | [bompus/house-rules](https://github.com/bompus/house-rules) | 1 | JavaScript | 2026-10-14 | — | Working rules and skills for AI coding agents, layered as base, modifiers, person and project |
-| 13 | [Kshitijpalsinghtomar/depth-skills](https://github.com/Kshitijpalsinghtomar/depth-skills) | 5 | Python | 2026-10-14 | — | Cognitive architecture for AI agents. 19+ skills that force language models past surface-level reasoning into genuine de |
-| 14 | [Stephanie0574/AIGX](https://github.com/Stephanie0574/AIGX) | 0 | Python | 2026-10-14 | — | Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig |
-| 15 | [vittoriahoffmann/third-brain-v7-skills](https://github.com/vittoriahoffmann/third-brain-v7-skills) | 0 | Python | 2026-10-14 | — | agent wiki +engineering skills  |
-| 16 | [Katta041/asitis-agent-tools](https://github.com/Katta041/asitis-agent-tools) | 0 | TypeScript | 2026-10-14 | — | Read-only MCP server and Claude Code plugin that lints CLAUDE.md, AGENTS.md and SKILL.md, counts approximate tokens per  |
-| 17 | [BachSchneider93/rollinggo-hotel-skill-cn](https://github.com/BachSchneider93/rollinggo-hotel-skill-cn) | 0 | Python | 2026-10-14 | — | 全球酒店预订&低价监控提醒Skill，200万+精选酒店，独家优惠价格，让你的Agent轻松预订品质酒店，支持支付宝下单+查询历史订单，24 小时客服支持，全天候响应。 |
-| 18 | [Nataliaa68061/third-brain-v7-skills](https://github.com/Nataliaa68061/third-brain-v7-skills) | 0 | Python | 2026-10-14 | — | agent wiki +engineering skills  |
-| 19 | [TakumiMehta/rollinggo-hotel-skill-cn](https://github.com/TakumiMehta/rollinggo-hotel-skill-cn) | 0 | Python | 2026-10-14 | — | 全球酒店预订&低价监控提醒Skill，200万+精选酒店，独家优惠价格，让你的Agent轻松预订品质酒店，支持支付宝下单+查询历史订单，24 小时客服支持，全天候响应。 |
-| 20 | [aHashimoto85396/MotionVault](https://github.com/aHashimoto85396/MotionVault) | 0 | TypeScript | 2026-10-14 | — | 200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type |
-| 21 | [bRossi5552/third-brain-v7-skills](https://github.com/bRossi5552/third-brain-v7-skills) | 0 | Python | 2026-10-14 | — | agent wiki +engineering skills  |
-| 22 | [wangqiqi/cursor-ai](https://github.com/wangqiqi/cursor-ai) | 4 | Shell | 2026-10-14 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wangqiqi/cursor-ai/) | 无关用户， 无关系统， 无关项目，开箱复制即用！ code faster, code better;  |
+| 1 | [wangqiqi/cursor-ai](https://github.com/wangqiqi/cursor-ai) | 4 | Shell | 2026-10-14 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wangqiqi/cursor-ai/) | 无关用户， 无关系统， 无关项目，开箱复制即用！ code faster, code better;  |
+| 2 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 27 | Python | 2026-10-14 | — | Architectural drift prevention for the agentic AI SDLC. |
+| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-14 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 4 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-14 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
+| 5 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 49 | — | 2026-10-14 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
+| 6 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-10-14 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
+| 7 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-10-14 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
+| 8 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-10-14 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
+| 9 | [Aaditya1273/Agent.md](https://github.com/Aaditya1273/Agent.md) | 9 | — | 2026-10-14 | — | Your AI coding agent follows these files blindly, before it reads a line of your code. |
+| 10 | [wshobson/agents](https://github.com/wshobson/agents) | 40768 | Python | 2026-10-14 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
+| 11 | [jdiazromeral/melon](https://github.com/jdiazromeral/melon) | 0 | — | 2026-10-14 | — | Adversarial first-principles review protocol for code, architectures, PRs, and LLM prompts: question requirements, delet |
+| 12 | [Despensativo/OpenWrt-Skills](https://github.com/Despensativo/OpenWrt-Skills) | 0 | Python | 2026-10-14 | — | Definitive Agentic AI skills, rules and developer tooling for OpenWrt, LuCI, and embedded Linux (Antigravity, Cursor, Cl |
+| 13 | [bompus/house-rules](https://github.com/bompus/house-rules) | 1 | JavaScript | 2026-10-14 | — | Working rules and skills for AI coding agents, layered as base, modifiers, person and project |
+| 14 | [Kshitijpalsinghtomar/depth-skills](https://github.com/Kshitijpalsinghtomar/depth-skills) | 5 | Python | 2026-10-14 | — | Cognitive architecture for AI agents. 19+ skills that force language models past surface-level reasoning into genuine de |
+| 15 | [Stephanie0574/AIGX](https://github.com/Stephanie0574/AIGX) | 0 | Python | 2026-10-14 | — | Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig |
+| 16 | [vittoriahoffmann/third-brain-v7-skills](https://github.com/vittoriahoffmann/third-brain-v7-skills) | 0 | Python | 2026-10-14 | — | agent wiki +engineering skills  |
+| 17 | [Katta041/asitis-agent-tools](https://github.com/Katta041/asitis-agent-tools) | 0 | TypeScript | 2026-10-14 | — | Read-only MCP server and Claude Code plugin that lints CLAUDE.md, AGENTS.md and SKILL.md, counts approximate tokens per  |
+| 18 | [BachSchneider93/rollinggo-hotel-skill-cn](https://github.com/BachSchneider93/rollinggo-hotel-skill-cn) | 0 | Python | 2026-10-14 | — | 全球酒店预订&低价监控提醒Skill，200万+精选酒店，独家优惠价格，让你的Agent轻松预订品质酒店，支持支付宝下单+查询历史订单，24 小时客服支持，全天候响应。 |
+| 19 | [Nataliaa68061/third-brain-v7-skills](https://github.com/Nataliaa68061/third-brain-v7-skills) | 0 | Python | 2026-10-14 | — | agent wiki +engineering skills  |
+| 20 | [TakumiMehta/rollinggo-hotel-skill-cn](https://github.com/TakumiMehta/rollinggo-hotel-skill-cn) | 0 | Python | 2026-10-14 | — | 全球酒店预订&低价监控提醒Skill，200万+精选酒店，独家优惠价格，让你的Agent轻松预订品质酒店，支持支付宝下单+查询历史订单，24 小时客服支持，全天候响应。 |
+| 21 | [aHashimoto85396/MotionVault](https://github.com/aHashimoto85396/MotionVault) | 0 | TypeScript | 2026-10-14 | — | 200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type |
+| 22 | [bRossi5552/third-brain-v7-skills](https://github.com/bRossi5552/third-brain-v7-skills) | 0 | Python | 2026-10-14 | — | agent wiki +engineering skills  |
 | 23 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-10-14 | — | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
 | 24 | [edtrackai/ship-ready-ai-rules-free-sample](https://github.com/edtrackai/ship-ready-ai-rules-free-sample) | 0 | — | 2026-10-14 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/edtrackai/ship-ready-ai-rules-free-sample/) | Free sample: AGENTS.md + Cursor rule that stop AI agents shipping insecure Next.js + Supabase + Stripe code |
 | 25 | [mrvishaljjoshi-cmyk/VJSS](https://github.com/mrvishaljjoshi-cmyk/VJSS) | 0 | Python | 2026-10-14 | — | Universal AI Agent Super-Skills Ecosystem by Mr. Vishalkumar Joshi. 161 production-grade plain-text prompt protocols wit |
