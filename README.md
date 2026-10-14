@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-14 18:00 UTC
+> ⏰ Last updated: 2026-10-14 18:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,9 +53,9 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [bompus/house-rules](https://github.com/bompus/house-rules) | 1 | JavaScript | 2026-10-14 | — | Working rules and skills for AI coding agents, layered as base, modifiers, person and project |
-| 2 | [Kshitijpalsinghtomar/depth-skills](https://github.com/Kshitijpalsinghtomar/depth-skills) | 5 | Python | 2026-10-14 | — | Cognitive architecture for AI agents. 19+ skills that force language models past surface-level reasoning into genuine de |
-| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-14 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-14 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [bompus/house-rules](https://github.com/bompus/house-rules) | 1 | JavaScript | 2026-10-14 | — | Working rules and skills for AI coding agents, layered as base, modifiers, person and project |
+| 3 | [Kshitijpalsinghtomar/depth-skills](https://github.com/Kshitijpalsinghtomar/depth-skills) | 5 | Python | 2026-10-14 | — | Cognitive architecture for AI agents. 19+ skills that force language models past surface-level reasoning into genuine de |
 | 4 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 27 | Python | 2026-10-14 | — | Architectural drift prevention for the agentic AI SDLC. |
 | 5 | [Aaditya1273/Agent.md](https://github.com/Aaditya1273/Agent.md) | 9 | — | 2026-10-14 | — | Your AI coding agent follows these files blindly, before it reads a line of your code. |
 | 6 | [Stephanie0574/AIGX](https://github.com/Stephanie0574/AIGX) | 0 | Python | 2026-10-14 | — | Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig |
