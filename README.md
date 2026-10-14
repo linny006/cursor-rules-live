@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-14 17:00 UTC
+> ⏰ Last updated: 2026-10-14 17:17 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -54,9 +54,9 @@ expired items removed — so you can rely on what you see being current.
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
 | 1 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 27 | Python | 2026-10-14 | — | Architectural drift prevention for the agentic AI SDLC. |
-| 2 | [bompus/house-rules](https://github.com/bompus/house-rules) | 1 | JavaScript | 2026-10-14 | — | Working rules and skills for AI coding agents, layered as base, modifiers, person and project |
-| 3 | [Aaditya1273/Agent.md](https://github.com/Aaditya1273/Agent.md) | 9 | — | 2026-10-14 | — | Your AI coding agent follows these files blindly, before it reads a line of your code. |
-| 4 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-14 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-14 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 3 | [bompus/house-rules](https://github.com/bompus/house-rules) | 1 | JavaScript | 2026-10-14 | — | Working rules and skills for AI coding agents, layered as base, modifiers, person and project |
+| 4 | [Aaditya1273/Agent.md](https://github.com/Aaditya1273/Agent.md) | 9 | — | 2026-10-14 | — | Your AI coding agent follows these files blindly, before it reads a line of your code. |
 | 5 | [Stephanie0574/AIGX](https://github.com/Stephanie0574/AIGX) | 0 | Python | 2026-10-14 | — | Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig |
 | 6 | [vittoriahoffmann/third-brain-v7-skills](https://github.com/vittoriahoffmann/third-brain-v7-skills) | 0 | Python | 2026-10-14 | — | agent wiki +engineering skills  |
 | 7 | [Katta041/asitis-agent-tools](https://github.com/Katta041/asitis-agent-tools) | 0 | TypeScript | 2026-10-14 | — | Read-only MCP server and Claude Code plugin that lints CLAUDE.md, AGENTS.md and SKILL.md, counts approximate tokens per  |
