@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-14 22:15 UTC
+> ⏰ Last updated: 2026-10-14 22:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,18 +53,18 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-10-14 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
-| 2 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-10-14 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
-| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-14 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 4 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 27 | Python | 2026-10-14 | — | Architectural drift prevention for the agentic AI SDLC. |
-| 5 | [Aaditya1273/Agent.md](https://github.com/Aaditya1273/Agent.md) | 9 | — | 2026-10-14 | — | Your AI coding agent follows these files blindly, before it reads a line of your code. |
-| 6 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 49 | — | 2026-10-14 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
-| 7 | [wshobson/agents](https://github.com/wshobson/agents) | 40761 | Python | 2026-10-14 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
-| 8 | [jdiazromeral/melon](https://github.com/jdiazromeral/melon) | 0 | — | 2026-10-14 | — | Adversarial first-principles review protocol for code, architectures, PRs, and LLM prompts: question requirements, delet |
-| 9 | [Despensativo/OpenWrt-Skills](https://github.com/Despensativo/OpenWrt-Skills) | 0 | Python | 2026-10-14 | — | Definitive Agentic AI skills, rules and developer tooling for OpenWrt, LuCI, and embedded Linux (Antigravity, Cursor, Cl |
-| 10 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-14 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
-| 11 | [bompus/house-rules](https://github.com/bompus/house-rules) | 1 | JavaScript | 2026-10-14 | — | Working rules and skills for AI coding agents, layered as base, modifiers, person and project |
-| 12 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-10-14 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
+| 1 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-10-14 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
+| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-14 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 3 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-10-14 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
+| 4 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-10-14 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
+| 5 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 27 | Python | 2026-10-14 | — | Architectural drift prevention for the agentic AI SDLC. |
+| 6 | [Aaditya1273/Agent.md](https://github.com/Aaditya1273/Agent.md) | 9 | — | 2026-10-14 | — | Your AI coding agent follows these files blindly, before it reads a line of your code. |
+| 7 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 49 | — | 2026-10-14 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
+| 8 | [wshobson/agents](https://github.com/wshobson/agents) | 40763 | Python | 2026-10-14 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
+| 9 | [jdiazromeral/melon](https://github.com/jdiazromeral/melon) | 0 | — | 2026-10-14 | — | Adversarial first-principles review protocol for code, architectures, PRs, and LLM prompts: question requirements, delet |
+| 10 | [Despensativo/OpenWrt-Skills](https://github.com/Despensativo/OpenWrt-Skills) | 0 | Python | 2026-10-14 | — | Definitive Agentic AI skills, rules and developer tooling for OpenWrt, LuCI, and embedded Linux (Antigravity, Cursor, Cl |
+| 11 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-14 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
+| 12 | [bompus/house-rules](https://github.com/bompus/house-rules) | 1 | JavaScript | 2026-10-14 | — | Working rules and skills for AI coding agents, layered as base, modifiers, person and project |
 | 13 | [Kshitijpalsinghtomar/depth-skills](https://github.com/Kshitijpalsinghtomar/depth-skills) | 5 | Python | 2026-10-14 | — | Cognitive architecture for AI agents. 19+ skills that force language models past surface-level reasoning into genuine de |
 | 14 | [Stephanie0574/AIGX](https://github.com/Stephanie0574/AIGX) | 0 | Python | 2026-10-14 | — | Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig |
 | 15 | [vittoriahoffmann/third-brain-v7-skills](https://github.com/vittoriahoffmann/third-brain-v7-skills) | 0 | Python | 2026-10-14 | — | agent wiki +engineering skills  |
@@ -92,7 +92,7 @@ expired items removed — so you can rely on what you see being current.
 | 37 | [RollingGo-AI/rollinggo-hotel-skill-cn](https://github.com/RollingGo-AI/rollinggo-hotel-skill-cn) | 163 | Python | 2026-10-14 | — | 全球酒店预订&低价监控提醒Skill，200万+精选酒店，独家优惠价格，让你的Agent轻松预订品质酒店，支持支付宝下单+查询历史订单，24 小时客服支持，全天候响应。 |
 | 38 | [geronco/commandvault-library](https://github.com/geronco/commandvault-library) | 0 | JavaScript | 2026-10-14 | — | Community-voted AI prompts, CLAUDE.md/AGENTS.md templates, Cursor rules, Agent Skills and MCP servers from commandvault. |
 | 39 | [muhamadhafis/frontend-god](https://github.com/muhamadhafis/frontend-god) | 0 | Shell | 2026-10-14 | — |  |
-| 40 | [HoangNguyen0403/agent-skills-standard](https://github.com/HoangNguyen0403/agent-skills-standard) | 575 | TypeScript | 2026-10-14 | — | A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol |
+| 40 | [HoangNguyen0403/agent-skills-standard](https://github.com/HoangNguyen0403/agent-skills-standard) | 576 | TypeScript | 2026-10-14 | — | A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol |
 | 41 | [Saad-web-spec/DevScratchPad](https://github.com/Saad-web-spec/DevScratchPad) | 2 | TypeScript | 2026-10-13 | — | Free private developer tools (JSON, JWT, cURL, cron, SSH keys) that run in your browser, plus AI Skill Studio: a CLAUDE. |
 | 42 | [taniwhaai/arai](https://github.com/taniwhaai/arai) | 7 | Rust | 2026-10-13 | — | Your AI assistant reads CLAUDE.md and ignores it anyway. Ārai makes instruction files enforced — hooks that block, a tam |
 | 43 | [nachum10/cloudflare-tunnel-routes](https://github.com/nachum10/cloudflare-tunnel-routes) | 1 | Shell | 2026-10-13 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/nachum10/cloudflare-tunnel-routes/) | Claude Code skill (and standalone Bash CLI) for managing Cloudflare Tunnel ingress routes. No browser, no dashboard. Per |
