@@ -1,5 +1,32 @@
 [
   {
+    "description": "agent wiki +engineering skills ",
+    "id": "vittoriahoffmann/third-brain-v7-skills",
+    "language": "Python",
+    "name": "vittoriahoffmann/third-brain-v7-skills",
+    "stars": 0,
+    "updated_at": "2026-10-14T15:55:34Z",
+    "url": "https://github.com/vittoriahoffmann/third-brain-v7-skills"
+  },
+  {
+    "description": "Read-only MCP server and Claude Code plugin that lints CLAUDE.md, AGENTS.md and SKILL.md, counts approximate tokens per ",
+    "id": "Katta041/asitis-agent-tools",
+    "language": "TypeScript",
+    "name": "Katta041/asitis-agent-tools",
+    "stars": 0,
+    "updated_at": "2026-10-14T15:52:53Z",
+    "url": "https://github.com/Katta041/asitis-agent-tools"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-14T15:45:46Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "\u5168\u7403\u9152\u5e97\u9884\u8ba2&\u4f4e\u4ef7\u76d1\u63a7\u63d0\u9192Skill\uff0c200\u4e07+\u7cbe\u9009\u9152\u5e97\uff0c\u72ec\u5bb6\u4f18\u60e0\u4ef7\u683c\uff0c\u8ba9\u4f60\u7684Agent\u8f7b\u677e\u9884\u8ba2\u54c1\u8d28\u9152\u5e97\uff0c\u652f\u6301\u652f\u4ed8\u5b9d\u4e0b\u5355+\u67e5\u8be2\u5386\u53f2\u8ba2\u5355\uff0c24 \u5c0f\u65f6\u5ba2\u670d\u652f\u6301\uff0c\u5168\u5929\u5019\u54cd\u5e94\u3002",
     "id": "BachSchneider93/rollinggo-hotel-skill-cn",
     "language": "Python",
@@ -25,15 +52,6 @@
     "stars": 0,
     "updated_at": "2026-10-14T15:32:28Z",
     "url": "https://github.com/TakumiMehta/rollinggo-hotel-skill-cn"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-14T15:30:46Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type",
@@ -68,21 +86,12 @@
     "url": "https://github.com/wangqiqi/cursor-ai"
   },
   {
-    "description": "Read-only MCP server and Claude Code plugin that lints CLAUDE.md, AGENTS.md and SKILL.md, counts approximate tokens per ",
-    "id": "Katta041/asitis-agent-tools",
-    "language": "TypeScript",
-    "name": "Katta041/asitis-agent-tools",
-    "stars": 0,
-    "updated_at": "2026-10-14T15:32:12Z",
-    "url": "https://github.com/Katta041/asitis-agent-tools"
-  },
-  {
     "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
     "id": "bompus/house-rules",
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 1,
-    "updated_at": "2026-10-14T14:49:55Z",
+    "updated_at": "2026-10-14T15:50:41Z",
     "url": "https://github.com/bompus/house-rules"
   },
   {
@@ -476,22 +485,8 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 163332,
+    "stars": 163338,
     "updated_at": "2026-10-13T01:46:28Z",
     "url": "https://github.com/DietrichGebert/ponytail"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: How Grok evaluates finished work. Score compliance on every task. On design work, score taste from a screenshot and fail results that are correct but generic.\nalwaysApply: true\n---\n\n# Eval\n\nScore in order. At the first failure, fix it, then score again from the top. Stop after three rounds and report what still fails.\n\n1. Safety and instruction compliance.\n2. Spec match. Every behavior that the user asked for is present.\n3. Grounding. Paths, APIs, and names exist.\n4. Local consistency. Patterns, types, and lint.\n5. Regression risk around the change.\n6. Evidence. Check the real thing: run it, read the actual value, or inspect the diff. \"It compiles\" is not evidence.\n\nCoding-track work ends here. A failed taste check is not a reason to redesign a working fix.\n\n## Taste, before design work is done\n\nScore these from a screenshot of the rendered result, not from the code.\n\n7. Decision audit. Name the one to three choices that control the result.\n8. Rejected direction. Name one direction that you did not choose, and why.\n9. Removal. Name what you cut to make the result clearer.\n10. Specificity. The result fits this brief and its audience. If it could belong to any project, it is not done.\n11. Own idea, on an open task. Give one observation that the user did not give you.\n\nFail the taste layer when:\n\n- A screen or section has more than one job, or no focal point.\n- Type, space, or color adds a new value that has no role.\n- A new component exists where removal would be clearer.\n- The layout is one of the average layouts in `grok-think`, and the content does not have that shape.\n- A rejected default was replaced by another common look, not by a choice from the brief.\n- The safest direction was chosen with no reason from the brief.\n- No screenshot was reviewed.\n\n```\nBad: Done. Matches the spec. Added a card grid.\nGood: Chose one column because the brief has one decision. Rejected a comparison table because there are only two options. Cut the feature list. In the wide and narrow screenshots, the eye lands on the primary action first.\n```\n",
-      "format": "mdc",
-      "path": ".cursor/rules/grok-eval.mdc"
-    },
-    "description": "Cursor rules for Grok 4.7: grounded coding plus design directions, screenshot review, own ideas, and direction-only ques",
-    "id": "madebyaris/grok-cursor-rules",
-    "language": "\u2014",
-    "name": "madebyaris/grok-cursor-rules",
-    "stars": 1,
-    "updated_at": "2026-10-13T01:27:47Z",
-    "url": "https://github.com/madebyaris/grok-cursor-rules"
   }
 ]
