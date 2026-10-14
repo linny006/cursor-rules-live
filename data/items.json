@@ -1,5 +1,41 @@
 [
   {
+    "description": "\u5168\u7403\u9152\u5e97\u9884\u8ba2&\u4f4e\u4ef7\u76d1\u63a7\u63d0\u9192Skill\uff0c200\u4e07+\u7cbe\u9009\u9152\u5e97\uff0c\u72ec\u5bb6\u4f18\u60e0\u4ef7\u683c\uff0c\u8ba9\u4f60\u7684Agent\u8f7b\u677e\u9884\u8ba2\u54c1\u8d28\u9152\u5e97\uff0c\u652f\u6301\u652f\u4ed8\u5b9d\u4e0b\u5355+\u67e5\u8be2\u5386\u53f2\u8ba2\u5355\uff0c24 \u5c0f\u65f6\u5ba2\u670d\u652f\u6301\uff0c\u5168\u5929\u5019\u54cd\u5e94\u3002",
+    "id": "BachSchneider93/rollinggo-hotel-skill-cn",
+    "language": "Python",
+    "name": "BachSchneider93/rollinggo-hotel-skill-cn",
+    "stars": 0,
+    "updated_at": "2026-10-14T15:39:52Z",
+    "url": "https://github.com/BachSchneider93/rollinggo-hotel-skill-cn"
+  },
+  {
+    "description": "agent wiki +engineering skills ",
+    "id": "Nataliaa68061/third-brain-v7-skills",
+    "language": "Python",
+    "name": "Nataliaa68061/third-brain-v7-skills",
+    "stars": 0,
+    "updated_at": "2026-10-14T15:36:43Z",
+    "url": "https://github.com/Nataliaa68061/third-brain-v7-skills"
+  },
+  {
+    "description": "\u5168\u7403\u9152\u5e97\u9884\u8ba2&\u4f4e\u4ef7\u76d1\u63a7\u63d0\u9192Skill\uff0c200\u4e07+\u7cbe\u9009\u9152\u5e97\uff0c\u72ec\u5bb6\u4f18\u60e0\u4ef7\u683c\uff0c\u8ba9\u4f60\u7684Agent\u8f7b\u677e\u9884\u8ba2\u54c1\u8d28\u9152\u5e97\uff0c\u652f\u6301\u652f\u4ed8\u5b9d\u4e0b\u5355+\u67e5\u8be2\u5386\u53f2\u8ba2\u5355\uff0c24 \u5c0f\u65f6\u5ba2\u670d\u652f\u6301\uff0c\u5168\u5929\u5019\u54cd\u5e94\u3002",
+    "id": "TakumiMehta/rollinggo-hotel-skill-cn",
+    "language": "Python",
+    "name": "TakumiMehta/rollinggo-hotel-skill-cn",
+    "stars": 0,
+    "updated_at": "2026-10-14T15:32:28Z",
+    "url": "https://github.com/TakumiMehta/rollinggo-hotel-skill-cn"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-14T15:30:46Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type",
     "id": "aHashimoto85396/MotionVault",
     "language": "TypeScript",
@@ -32,21 +68,12 @@
     "url": "https://github.com/wangqiqi/cursor-ai"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-14T15:15:45Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Read-only MCP server and Claude Code plugin that lints CLAUDE.md, AGENTS.md and SKILL.md, counts approximate tokens per ",
     "id": "Katta041/asitis-agent-tools",
     "language": "TypeScript",
     "name": "Katta041/asitis-agent-tools",
     "stars": 0,
-    "updated_at": "2026-10-14T15:12:18Z",
+    "updated_at": "2026-10-14T15:32:12Z",
     "url": "https://github.com/Katta041/asitis-agent-tools"
   },
   {
@@ -449,7 +476,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 163328,
+    "stars": 163332,
     "updated_at": "2026-10-13T01:46:28Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -466,37 +493,5 @@
     "stars": 1,
     "updated_at": "2026-10-13T01:27:47Z",
     "url": "https://github.com/madebyaris/grok-cursor-rules"
-  },
-  {
-    "description": "video \u2014 a big skill for professional AI video editing: craft-first grammar of the cut, transcript-driven EDL pipeline, f",
-    "id": "lucasgabrieldevgg/video",
-    "language": "\u2014",
-    "name": "lucasgabrieldevgg/video",
-    "stars": 0,
-    "updated_at": "2026-10-12T22:56:37Z",
-    "url": "https://github.com/lucasgabrieldevgg/video"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Project rules for agent-context-doctor\nglobs: [\"src/**\", \"tests/**\"]\nalwaysApply: true\n---\n\n# agent-context-doctor \u2014 Cursor Rules\n\nYou are an **implementation agent** for this project. Focus on implementation only \u2014 product strategy is out of scope.\n\n## Hard rules\n\n- No LLM calls, no telemetry, no external network requests\n- No authentication or credential handling\n- No web server or browser UI\n- Do not rename `acd`, `audit`, or `list` commands\n- Do not break the `AuditResult` JSON shape or `.acdrc` schema backward compatibility\n\n## Before finishing any task\n\nRun and confirm these all pass:\n\n```bash\npnpm format:check\npnpm typecheck\npnpm test\npnpm build\n```\n\n## Code style\n\n- TypeScript strict mode \u2014 no `any`, no `ts-ignore`\n- Pure functions for all audit checks in `src/audit/checks/`\n- Tests in `tests/*.spec.ts` using vitest\n- No comments that narrate what the code does\n\n## Final report format\n\nAlways return:\n\n- Files changed (list)\n- Commands run and their output\n- Tests added\n- Known limitations\n",
-      "format": "mdc",
-      "path": ".cursor/rules/project.mdc"
-    },
-    "description": "Audit agent context files like AGENTS.md, CLAUDE.md, .cursor/rules/*.mdc, .github/copilot-instructions.md, and prompt do",
-    "id": "alipajand/agent-context-doctor",
-    "language": "TypeScript",
-    "name": "alipajand/agent-context-doctor",
-    "stars": 1,
-    "updated_at": "2026-10-12T22:38:29Z",
-    "url": "https://github.com/alipajand/agent-context-doctor"
-  },
-  {
-    "description": "\u82f1\u6587\u6587\u7ae0\u80cc\u8bf5\u6280\u5de7",
-    "id": "yxdwind/english-memory-method",
-    "language": "HTML",
-    "name": "yxdwind/english-memory-method",
-    "stars": 1,
-    "updated_at": "2026-10-12T15:12:58Z",
-    "url": "https://github.com/yxdwind/english-memory-method"
   }
 ]
