@@ -5,8 +5,17 @@
     "language": "Shell",
     "name": "amir-hdri/awesome-persian-ai-rules",
     "stars": 0,
-    "updated_at": "2026-10-15T15:27:36Z",
+    "updated_at": "2026-10-15T15:39:43Z",
     "url": "https://github.com/amir-hdri/awesome-persian-ai-rules"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-15T15:30:41Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -21,15 +30,6 @@
     "stars": 0,
     "updated_at": "2026-10-15T15:22:16Z",
     "url": "https://github.com/Texarkanine/ai-rizz"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-15T15:16:08Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -205,7 +205,7 @@
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 1,
-    "updated_at": "2026-10-15T06:41:09Z",
+    "updated_at": "2026-10-15T15:43:39Z",
     "url": "https://github.com/bompus/house-rules"
   },
   {
@@ -282,7 +282,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 164152,
+    "stars": 164161,
     "updated_at": "2026-10-15T01:02:15Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
