@@ -1,12 +1,12 @@
 [
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-10-15T20:42:58Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+    "description": "agent wiki +engineering skills ",
+    "id": "anh71/third-brain-v7-skills",
+    "language": "Python",
+    "name": "anh71/third-brain-v7-skills",
+    "stars": 0,
+    "updated_at": "2026-10-15T20:47:36Z",
+    "url": "https://github.com/anh71/third-brain-v7-skills"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-15T20:30:44Z",
+    "updated_at": "2026-10-15T20:45:35Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-10-15T20:42:58Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "cursorrules": {
@@ -141,7 +150,7 @@
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 1,
-    "updated_at": "2026-10-15T15:52:54Z",
+    "updated_at": "2026-10-15T20:59:29Z",
     "url": "https://github.com/bompus/house-rules"
   },
   {
@@ -177,7 +186,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40852,
+    "stars": 40853,
     "updated_at": "2026-10-15T15:11:55Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -346,7 +355,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 164312,
+    "stars": 164320,
     "updated_at": "2026-10-15T01:02:15Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -489,14 +498,5 @@
     "stars": 1,
     "updated_at": "2026-10-14T07:22:25Z",
     "url": "https://github.com/Hyanthropological659/clarify-skill"
-  },
-  {
-    "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, fr",
-    "id": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "language": "\u2014",
-    "name": "Overseastelegramaliterateperson865/awesome-claude-md",
-    "stars": 3,
-    "updated_at": "2026-10-14T07:18:28Z",
-    "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md"
   }
 ]
