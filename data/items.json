@@ -1,11 +1,20 @@
 [
   {
+    "description": "Community-voted AI prompts, CLAUDE.md/AGENTS.md templates, Cursor rules, Agent Skills and MCP servers from commandvault.",
+    "id": "geronco/commandvault-library",
+    "language": "JavaScript",
+    "name": "geronco/commandvault-library",
+    "stars": 0,
+    "updated_at": "2026-10-15T03:30:48Z",
+    "url": "https://github.com/geronco/commandvault-library"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-15T03:15:42Z",
+    "updated_at": "2026-10-15T03:30:44Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -95,7 +104,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 163711,
+    "stars": 163719,
     "updated_at": "2026-10-15T01:02:15Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -136,7 +145,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40786,
+    "stars": 40788,
     "updated_at": "2026-10-14T21:06:13Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -388,15 +397,6 @@
     "stars": 163,
     "updated_at": "2026-10-14T04:25:54Z",
     "url": "https://github.com/RollingGo-AI/rollinggo-hotel-skill-cn"
-  },
-  {
-    "description": "Community-voted AI prompts, CLAUDE.md/AGENTS.md templates, Cursor rules, Agent Skills and MCP servers from commandvault.",
-    "id": "geronco/commandvault-library",
-    "language": "JavaScript",
-    "name": "geronco/commandvault-library",
-    "stars": 0,
-    "updated_at": "2026-10-14T03:30:56Z",
-    "url": "https://github.com/geronco/commandvault-library"
   },
   {
     "description": "",
