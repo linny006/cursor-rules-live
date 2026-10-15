@@ -5,8 +5,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-15T21:15:42Z",
+    "updated_at": "2026-10-15T21:30:54Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "AI skill for Claude, Cursor & Codex that designs system architecture for new projects and audits existing codebases \u2014 cl",
+    "id": "Muhammad-Ahmad092/design-and-fix",
+    "language": "Python",
+    "name": "Muhammad-Ahmad092/design-and-fix",
+    "stars": 0,
+    "updated_at": "2026-10-15T21:27:35Z",
+    "url": "https://github.com/Muhammad-Ahmad092/design-and-fix"
   },
   {
     "description": "agent wiki +engineering skills ",
@@ -186,7 +195,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40855,
+    "stars": 40857,
     "updated_at": "2026-10-15T15:11:55Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -355,7 +364,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 164338,
+    "stars": 164339,
     "updated_at": "2026-10-15T01:02:15Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -489,14 +498,5 @@
     "stars": 43,
     "updated_at": "2026-10-14T09:04:59Z",
     "url": "https://github.com/fluttersdk/wind"
-  },
-  {
-    "description": "Transform vague ideas into precise instructions or clear decisions using Wittgenstein, Socratic and Polanyi frameworks a",
-    "id": "Hyanthropological659/clarify-skill",
-    "language": "\u2014",
-    "name": "Hyanthropological659/clarify-skill",
-    "stars": 1,
-    "updated_at": "2026-10-14T07:22:25Z",
-    "url": "https://github.com/Hyanthropological659/clarify-skill"
   }
 ]
