@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-15 08:00 UTC
+> ⏰ Last updated: 2026-10-15 08:16 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -67,10 +67,10 @@ expired items removed — so you can rely on what you see being current.
 | 12 | [eli-alvarado/agentkit-drawer](https://github.com/eli-alvarado/agentkit-drawer) | 0 | — | 2026-10-15 | — | Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam |
 | 13 | [wangqiqi/cursor-ai](https://github.com/wangqiqi/cursor-ai) | 4 | Shell | 2026-10-15 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wangqiqi/cursor-ai/) | 无关用户， 无关系统， 无关项目，开箱复制即用！ code faster, code better;  |
 | 14 | [lucasgabrieldevgg/video](https://github.com/lucasgabrieldevgg/video) | 0 | — | 2026-10-15 | — | video — a big skill for professional AI video editing: craft-first grammar of the cut, transcript-driven EDL pipeline, f |
-| 15 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 163854 | JavaScript | 2026-10-15 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 15 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 163866 | JavaScript | 2026-10-15 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 16 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 27 | Python | 2026-10-15 | — | Architectural drift prevention for the agentic AI SDLC. |
 | 17 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 49 | — | 2026-10-14 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
-| 18 | [wshobson/agents](https://github.com/wshobson/agents) | 40812 | Python | 2026-10-14 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
+| 18 | [wshobson/agents](https://github.com/wshobson/agents) | 40813 | Python | 2026-10-14 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
 | 19 | [jdiazromeral/melon](https://github.com/jdiazromeral/melon) | 0 | — | 2026-10-14 | — | Adversarial first-principles review protocol for code, architectures, PRs, and LLM prompts: question requirements, delet |
 | 20 | [Despensativo/OpenWrt-Skills](https://github.com/Despensativo/OpenWrt-Skills) | 0 | Python | 2026-10-14 | — | Definitive Agentic AI skills, rules and developer tooling for OpenWrt, LuCI, and embedded Linux (Antigravity, Cursor, Cl |
 | 21 | [Kshitijpalsinghtomar/depth-skills](https://github.com/Kshitijpalsinghtomar/depth-skills) | 5 | Python | 2026-10-14 | — | Cognitive architecture for AI agents. 19+ skills that force language models past surface-level reasoning into genuine de |
