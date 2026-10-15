@@ -1,11 +1,20 @@
 [
   {
+    "description": "Universal AI Agent Super-Skills Ecosystem by Mr. Vishalkumar Joshi. 161 production-grade plain-text prompt protocols wit",
+    "id": "mrvishaljjoshi-cmyk/VJSS",
+    "language": "Python",
+    "name": "mrvishaljjoshi-cmyk/VJSS",
+    "stars": 0,
+    "updated_at": "2026-10-15T05:32:25Z",
+    "url": "https://github.com/mrvishaljjoshi-cmyk/VJSS"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-15T05:15:28Z",
+    "updated_at": "2026-10-15T05:30:34Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -127,7 +136,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 163772,
+    "stars": 163775,
     "updated_at": "2026-10-15T01:02:15Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -293,15 +302,6 @@
     "stars": 0,
     "updated_at": "2026-10-14T14:10:46Z",
     "url": "https://github.com/edtrackai/ship-ready-ai-rules-free-sample"
-  },
-  {
-    "description": "Universal AI Agent Super-Skills Ecosystem by Mr. Vishalkumar Joshi. 161 production-grade plain-text prompt protocols wit",
-    "id": "mrvishaljjoshi-cmyk/VJSS",
-    "language": "Python",
-    "name": "mrvishaljjoshi-cmyk/VJSS",
-    "stars": 0,
-    "updated_at": "2026-10-14T13:29:28Z",
-    "url": "https://github.com/mrvishaljjoshi-cmyk/VJSS"
   },
   {
     "cursorrules": {
