@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<title>mateuszingano/supabase-rls-rules - entry on Cursor Rules Live</title>
+<meta name="description" content="Rules that make Cursor, Claude Code and other AI agents write Supabase RLS policies and grants that don&#x27;t leak data.">
+<link rel="canonical" href="https://linny006.github.io/cursor-rules-live/r/mateuszingano/supabase-rls-rules/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="mateuszingano/supabase-rls-rules - entry on Cursor Rules Live">
+<meta property="og:description" content="Rules that make Cursor, Claude Code and other AI agents write Supabase RLS policies and grants that don&#x27;t leak data.">
+<meta property="og:url" content="https://linny006.github.io/cursor-rules-live/r/mateuszingano/supabase-rls-rules/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="mateuszingano/supabase-rls-rules - entry on Cursor Rules Live">
+<meta name="twitter:description" content="Rules that make Cursor, Claude Code and other AI agents write Supabase RLS policies and grants that don&#x27;t leak data.">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"mateuszingano/supabase-rls-rules","codeRepository":"https://github.com/mateuszingano/supabase-rls-rules","programmingLanguage":"—","url":"https://linny006.github.io/cursor-rules-live/r/mateuszingano/supabase-rls-rules/","description":"Rules that make Cursor, Claude Code and other AI agents write Supabase RLS policies and grants that don't leak data.","author":{"@type":"Person","name":"mateuszingano","url":"https://github.com/mateuszingano"},"dateModified":"2026-10-15"}</script>
+<style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
+         --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 16px; font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--fg); background: var(--bg); }
+.wrap { max-width: var(--max); margin: 0 auto; }
+nav.bc { font-size: 14px; color: var(--muted); margin-bottom: 16px; }
+nav.bc a { color: var(--muted); }
+h1 { font-size: 28px; margin: 0 0 8px; }
+h2 { font-size: 20px; margin: 24px 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+p.lead { font-size: 18px; color: var(--muted); margin: 0 0 24px; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+th, td { padding: 8px 12px; text-align: left; border-bottom: 1px solid var(--border); }
+th { background: var(--card); font-weight: 600; }
+ul.crosslinks { list-style: none; padding: 0; }
+ul.crosslinks li { padding: 6px 0; }
+ul.crosslinks li a { font-weight: 500; }
+.meta { display: flex; gap: 16px; flex-wrap: wrap; color: var(--muted); font-size: 14px; margin: 12px 0; }
+.meta span::before { content: "\00b7"; margin-right: 8px; color: var(--border); }
+.meta span:first-child::before { content: ""; }
+footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--border); font-size: 14px; color: var(--muted); }</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="bc"><a href="https://linny006.github.io/cursor-rules-live/">Cursor Rules Live</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/popular/">Entries</a> &#183; <span>mateuszingano/supabase-rls-rules</span></nav>
+<main>
+<h1>mateuszingano/supabase-rls-rules</h1>
+<p class="lead">Rules that make Cursor, Claude Code and other AI agents write Supabase RLS policies and grants that don&#x27;t leak data.</p>
+<div class="meta">
+<span><strong>Stars</strong> 0</span>
+<span><strong>Language</strong> —</span>
+<span><strong>Last updated</strong> 2026-10-15</span>
+<span><a href="https://github.com/mateuszingano/supabase-rls-rules" rel="external">Source on GitHub</a></span>
+<span><a href="https://github.com/mateuszingano" rel="external">@mateuszingano</a></span>
+</div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/supabase-rls.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
+description: Supabase RLS, grants and keys. Apply when writing Supabase migrations, policies, grants, views, functions, or client code that reads or writes Supabase data.
+globs: supabase/**/*.sql, **/migrations/**/*.sql, **/*.sql
+alwaysApply: false
+---
+
+# Supabase RLS and grants: rules for writing secure migrations
+
+Apply these whenever you create or change a Supabase table, view, function, policy or grant, or write client code that reads or writes Supabase data.
+
+## Every table in an exposed schema
+- Enable RLS in the **same migration** that creates the table: `alter table public.x enable row level security;`. A table must never exist without it.
+- RLS on with no policy denies everything. Add the policies the app needs in that same migration.
+- Grant explicitly, per table, only to the role that needs it and only the operations the app uses:
+  `grant select on public.x to authenticated;`
+  New tables don&#x27;t get automatic grants for `anon`/`authenticated`/`service_role` (Supabase change of Oct 30, 2026); without a grant the API returns `42501 permission denied for table`.
+- Never &quot;fix&quot; a 42501 with `grant ... on all tables in schema public to anon, authenticated`. It also grants every table with RLS off, making it readable and writable with the public anon key.
+- Grant to `anon` only for data that signed-out visitors should read, and pair it with a policy that allows exactly that.
+
+## Policies
+- Write one policy per operation (`for select`, `for insert`, `for update`, `for delete`) and name the role with `to authenticated` (or `to anon`).
+- Wrap `auth.uid()` as `(select auth.uid())` so Postgres evaluates it once per query, not per row.
+- INSERT needs `with check`; UPDATE needs both `using` (which rows) and `with check` (what they may become), otherwise a user can reassign a row to someone else.
+- UPDATE also needs a SELECT policy for the same rows, or it silently affects 0 rows.
+- Never use `using (true)` / `with check (true)` on private data. Allow it only for data that is public on purpose, and say so in a comment.
+- A policy must not query the table it protects (that raises `42P17 infinite recursion detected in policy`). Put the lookup in a `security definer` function in a **non-exposed** schema (e.g. `private`), with `set search_path = &#x27;&#x27;`, schema-qualified names, a filter on `(select auth.uid())`, `revoke all ... from public` and `grant execute` only to `authenticated`.
+- Multi-tenant data: scope rows to the caller&#x27;s tenant through a membership lookup (the helper above), never through a value the client sends.
+
+## Views, functions, other schemas
+- Views run with the owner&#x27;s privileges by default and skip RLS. Create them with `with (security_invoker = true)`, or don&#x27;t expose them.
+- `security definer` functions bypass RLS: keep them out of exposed schemas unless they are meant as an API, and validate the caller inside.
+- A table in a non-`public` schema needs that schema in the Data API&#x27;s exposed schemas, `grant usage on schema ... to &lt;role&gt;`, plus the table grant and RLS.
+
+## Keys and clients
+- The `anon` / publishable key is public by design; RLS is what protects data.
+- Never put the `service_role` / `sb_secret_...` key in frontend code, `NEXT_PUBLIC_*` / `VITE_*` env vars, or anything shipped to the browser. It bypasses all RLS. Use it only on the server.
+- On the server, create the Supabase client from the user&#x27;s session (request cookies) so `auth.uid()` resolves; otherwise queries run as `anon`.
+
+## Errors and what they mean
+- `42501 permission denied for table|schema`: missing grant or schema usage (before RLS runs).
+- `new row violates row-level security policy`: an INSERT/UPDATE failed `with check`.
+- `PGRST116 Cannot coerce the result to a single JSON object` with `.single()` and a row that exists: RLS is hiding it from this caller (or there&#x27;s no session). Use `.maybeSingle()` only when 0 rows is a normal answer.
+- An update or delete that returns no error but changes nothing: no matching UPDATE/DELETE (or SELECT) policy. Chain `.select()` to see the affected rows.
+- `PGRST205 Could not find the table ... in the schema cache`: wrong name/schema, schema not exposed, or a stale cache (`notify pgrst, &#x27;reload schema&#x27;;`).
+
+## Prove it
+- Test policies as the real roles (`anon`, `authenticated` as user A and as user B), not in the SQL editor, which bypasses RLS.
+- Check what the API roles can reach:
+  ```sql
+  select c.relname,
+         has_table_privilege(&#x27;anon&#x27;, c.oid, &#x27;select&#x27;) as anon_can_read,
+         c.relrowsecurity as rls_on
+  from pg_class c join pg_namespace n on n.oid = c.relnamespace
+  where n.nspname = &#x27;public&#x27; and c.relkind = &#x27;r&#x27;
+  order by 1;
+  ```
+  `anon_can_read = true` with `rls_on = false` means the table is public.
+- Gate it in CI: `npx airlock-rls` fails the build when a table ships without RLS or with an always-true policy.
+
+Guides with tested SQL for each rule: https://shipsealed.com/rls/
+</code></pre>
+<p><a href="https://github.com/mateuszingano/supabase-rls-rules/blob/HEAD/.cursor/rules/supabase-rls.mdc" rel="external">View raw on GitHub</a></p>
+</section>
+<section><h2>Why this is listed</h2>
+<p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
+<section><h2>Similar in this tracker</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/r/J-nowcow/awesome-korean-agent-skills/">J-nowcow/awesome-korean-agent-skills (stars:49)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/Aaditya1273/Agent.md/">Aaditya1273/Agent.md (stars:9)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/Overseastelegramaliterateperson865/awesome-claude-md/">Overseastelegramaliterateperson865/awesome-claude-md (stars:3)</a></li>
+</ul></section>
+<section><h2>Explore by category</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/popular/">Popular (by stars)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/recent/">Recent (by activity)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/new/">New this week</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/lang/x/">All — entries</a></li>
+</ul></section>
+</main>
+<footer>
+Auto-updated every 15 minutes via GitHub Actions &#183; <a href="https://linny006.github.io/cursor-rules-live/">tracker root</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/sitemap.xml">sitemap</a>
+</footer>
+</div>
+</body>
+</html>
