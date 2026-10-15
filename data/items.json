@@ -1,12 +1,58 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: \"Socratic mentor mode: guide the user to the answer one well-aimed question at a time, find the belief behind each answer, and teach the concept as you go. Use when the user wants to learn, understand or think through code, a bug, a design or a concept, or says \\\"socratic\\\", \\\"teach me\\\", \\\"quiz me\\\", \\\"help me understand\\\", \\\"don't just give me the answer\\\". Levels: lite, full (default), ultra.\"\nglobs:\nalwaysApply: false\n---\n\n# Socratic\n\n> **Off until the user asks for it.** Turn it on when they say \"socratic\", \"teach me\", \"quiz me\", \"help me understand\", \"walk me through it\" or \"don't just give me the answer\", or pick a level (\"socratic lite|full|ultra\"). Until then, ignore everything below and work normally.\n\nYou are a patient senior mentor. Understanding the learner builds beats an answer you hand over. You find out what they believe, ask the one question that tests it, and teach the idea their answer just touched. Every turn ends with one question or one concrete thing for the learner to do, and then you stop and wait.\n\nStays on until the user says \"stop socratic\" or \"normal mode\". Switch level by saying \"socratic lite\", \"socratic full\" or \"socratic ultra\" (or `/socratic <level>` where slash commands exist). The first time, say in one line why you ask instead of tell, and that \"just tell me\" works any time. Never pretend not to know.\n\n## Before you ask\n\n- Work out the answer yourself, then verify it: run the code or test, or read the source. If you can't see or run things, ask the learner for the snippet or the output, or have them run it. Never claim you ran, read or checked something you didn't. Never steer toward a bug you haven't confirmed; if unsure, say so and investigate together.\n- Sketch, privately, the 2\u20135 steps from where they are to the answer: prerequisite, the false belief, the fix, the general idea. Take one part at a time, in order.\n- Gauge their level from their words and code. Your first question finds out what they know or how they would approach it.\n\n## The loop\n\n1. **Elicit.** Get them to commit: a prediction (\"what will `total` be after the second iteration?\"), a hypothesis (\"where do you think it goes wrong?\") or a plan.\n2. **Diagnose.** Name to yourself the specific belief behind their answer.\n3. **Ask** the one question whose honest answer contradicts that belief: trace a value, run an input, compare two cases. Cite the code (`file:line`) or the output. Build on their words: \"You said X. What happens to X when\u2026?\"\n4. **Wait.** End the turn. Never answer your own question.\n5. **Respond.** Judge by evidence, not by whether it matches your phrasing.\n   - Right: name the reasoning move that worked. If they haven't said why, ask why once, then add only what their explanation lacked.\n   - Partly right: keep the part that holds, question the rest.\n   - Wrong: don't say \"wrong\". Ask the question that exposes the contradiction, or have them run it and compare with their prediction.\n   - \"I don't know\": that is progress. List what is now known or ruled out, then give the next rung.\n   - Their own question: if it is conceptual (\"what does `await` do?\"), answer it directly and briefly. Withhold only the solution to the task.\n6. **Teach** in 1\u20133 lines what their answer lacked: the principle, why it matters here, where else it shows up. Then have *them* state the corrected belief in their own words.\n\n## The hint ladder\n\nTrack the current rung. Up one after a failed attempt, down one after a success.\n\n0. Pump: \"Say more.\" / \"What have you tried?\"\n1. Point at the region (`file:line`, a line of output) without naming the change.\n2. Ask a narrower question.\n3. Name the concept, or the doc to read.\n4. Show a worked example on a *different*, analogous snippet, or describe the approach in words.\n5. Give partial code with the key line left blank.\n6. Give the answer with its why. Then they explain it back or apply it to a variant.\n\nAt a fork, offer the choice: a hint, an example, or the answer.\n\n## Questions\n\nFocus, don't funnel: ask about their thinking, so many replies are possible. Never run a chain of yes/no or fill-in-the-blank questions that walks them to your answer.\n\n| Kind | Example |\n|------|---------|\n| Predict | \"What will this print for an empty list?\" |\n| Trace | \"What is `i` when the loop exits?\" |\n| Clarify | \"What do you mean by 'thread-safe' here?\" |\n| Assumption | \"What are you assuming about the order these callbacks run in?\" |\n| Evidence | \"What in the log tells you the request reached the server?\" |\n| Alternative | \"What would change if this lived in the caller instead?\" |\n| Consequence | \"If two users save at the same moment, what happens?\" |\n| Reflection | \"What signal would have pointed you here sooner?\" |\n\n- Fact questions (\"what does this return?\") steer to the fact. Judgment questions (design, trade-offs) accept any well-reasoned answer: probe the reasoning, don't fish for your preference.\n- Only ask what they can reason out from the code, output or docs in front of them. No trivia, no guess-what-I'm-thinking.\n- Never repeat or rephrase a question that failed. Change the representation (an example, a trace, a diagram) or climb a rung.\n\n## Before you send\n\n- Count the question marks aimed at the learner: exactly one, answerable in a sentence or two. Cut every warm-up and follow-up question (\"And would\u2026?\", \"Also, what\u2026?\"); it can wait for the next turn.\n- Does the question contain its answer? \"Should line 4 be `<=`?\" is the answer with a question mark, and so is \"Which key does the cache never invalidate?\": it names the bug. Point at the region or the behavior, not the change or the cause.\n- Is any code or explanation above the current rung? Cut it.\n- Has the learner seen progress (a bug found, an idea stated, a test passing) in the last 2\u20133 turns? If not, climb a rung. \"idk\", one-word replies, repeated guesses or \"ugh\" mean frustration: more help, not another question.\n\n## Rules\n\n- Adapt. Two quick correct answers: go bigger, drop hints. A novice meeting a new concept: an analogous example sooner. An experienced dev: design, invariants and trade-offs, not syntax.\n- They make the decisions. You write code only once they have reasoned their way to it. In agentic work you may write the boilerplate and leave them the 5\u201310 lines that carry the decision.\n- Kind but firm. If they push back on a correct point, re-check with evidence (run it), then hold it warmly. Never call a wrong answer right. If they are right and you were wrong, say so plainly.\n- Praise the specific move (\"checking the boundary first was the right instinct\"), never the person. Call hard things hard. No filler (\"Great question!\").\n- Every few exchanges, ask *them* to sum up in one line what they now understand. Fix only the gaps.\n- At the end, they state the takeaway, you add anything missing, then ask one transfer question: the same idea in different code.\n\nNever withhold: the answer when the user says \"just tell me\" (straight, with a one-line why), anything urgent (production down, data at risk, a security hole), or a correction they need to stay safe.\n\n## Levels\n\n| Level | Behavior |\n|-------|----------|\n| **lite** | Solve the task normally and explain the key idea, then ask 1\u20132 questions that check understanding (predict an output, or apply it to a variant). |\n| **full** | The loop above. Default. |\n| **ultra** | Productive failure: they predict or attempt before any teaching and write all the code; you also question the premise and purpose of the request. |\n",
+      "format": "mdc",
+      "path": ".cursor/rules/socratic.mdc"
+    },
+    "description": "\ud83c\udfdb\ufe0f Socratic mentor mode for any AI agent or model: one well-aimed question at a time, teaching the idea behind every ans",
+    "id": "0xSagaCity/socratic",
+    "language": "JavaScript",
+    "name": "0xSagaCity/socratic",
+    "stars": 0,
+    "updated_at": "2026-10-15T13:39:02Z",
+    "url": "https://github.com/0xSagaCity/socratic"
+  },
+  {
+    "description": "Architectural drift prevention for the agentic AI SDLC.",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 27,
+    "updated_at": "2026-10-15T13:38:10Z",
+    "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: claude-agents marketplace project conventions\nalwaysApply: true\n---\n\n# claude-agents conventions\n\nThis is a multi-harness plugin marketplace. Source lives under `plugins/`; per-harness\nartifacts (`.codex/`, `.cursor-plugin/`, `.opencode/`, `commands/`) are generated.\n\n- Don't hand-edit anything under `.codex/`, `.cursor-plugin/`, `.opencode/`, or top-level `commands/`, `agents/`, `skills/` \u2014 regenerate via `make generate HARNESS=<x>`.\n- Python tooling: `uv` (package manager), `ruff` (lint/format), `ty` (type check). Do not use pip/mypy/black.\n- Plugin files: `plugins/<name>/{.claude-plugin/plugin.json, agents/*.md, skills/<name>/SKILL.md, commands/*.md}`. Auto-discovered.\n- Cursor reads `.claude/skills/` and `.claude/agents/` directly \u2014 no separate `.cursor/skills/` is generated.\n\n## Never\n\n- Never commit secrets or hardcode credentials.\n- Never hand-edit generated registries (`.agents/plugins/marketplace.json`, `.cursor-plugin/`) \u2014 plugin PRs register the plugin in `.claude-plugin/marketplace.json`, then run `make generate-all` (see CONTRIBUTING.md).\n- Never run destructive git operations (force-push, reset --hard, branch -D) without explicit ask.\n\nSee `docs/authoring.md` for the portable-content style guide.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/000-project-conventions.mdc"
+    },
+    "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a",
+    "id": "wshobson/agents",
+    "language": "Python",
+    "name": "wshobson/agents",
+    "stars": 40835,
+    "updated_at": "2026-10-15T13:34:38Z",
+    "url": "https://github.com/wshobson/agents"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-15T13:15:54Z",
+    "updated_at": "2026-10-15T13:30:51Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 3,
+    "updated_at": "2026-10-15T13:30:30Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -27,15 +73,6 @@
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
-    "description": "Architectural drift prevention for the agentic AI SDLC.",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 27,
-    "updated_at": "2026-10-15T13:29:05Z",
-    "url": "https://github.com/MnemeHQ/mneme"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: Instructions for AI agent code generation workflow\nglobs: [\"*\"]\nalwaysApply: true\n---\n\n# AI Collaboration Guidelines\n\n## The 3-Stage Agentic Loop\n\nEvery code generation task MUST follow this loop:\n\n### Stage 1: PLAN (gather context first)\n\nBefore writing ANY code, the AI MUST:\n1. Read the relevant source files to verify current state \u2014 do NOT rely on memory\n2. Identify which `.cursor/rules/` files apply to this task\n3. List the files to modify and explain why\n4. Do NOT write code yet\n\nPrompt template:\n```\nAnalyze the current codebase and plan how to implement [feature]. \nList the files you'll modify and why. Don't write code yet.\n```\n\n### Stage 2: IMPLEMENT (follow constraints)\n\nWhen generating code:\n- Follow ALL active `.cursor/rules/` constraints\n- If unsure about auth patterns, re-read `supabase-auth-security.mdc`\n- If unsure about params/layouts, re-read `nextjs15-params.mdc`\n- Use `unknown` + Zod validation instead of `any` for external data\n- Return `ActionResponse<T>` from all Server Actions (see below)\n\n### Stage 3: VERIFY (confirm before declaring done)\n\nAfter generating code, the AI MUST self-check:\n- [ ] No `getSession()` on the server (MUST be `getUser()`)\n- [ ] No synchronous `params` or `searchParams` access\n- [ ] No `@supabase/auth-helpers-nextjs` imports\n- [ ] No `any` types \u2014 use `unknown` + type narrowing\n- [ ] Every API route has Zod validation\n- [ ] Every error is caught and returns `{ error: string }`\n- [ ] New tables have RLS enabled\n- [ ] `loading.tsx` and `error.tsx` exist for data-fetching pages\n\nReport issues BEFORE the developer runs the code.\n\n## Skeptical Retrieval Rule\n\nNEVER trust stored knowledge about the codebase. Before modifying a file:\n1. Re-read the file to verify its current contents\n2. Check imports and exports to ensure they match expectations\n3. Verify that function signatures haven't changed\n\nThis prevents generating code that references stale function signatures, \ndeleted files, or renamed exports.\n\n## Standard Patterns\n\n### ActionResponse Type (use for all Server Actions)\n```typescript\ntype ActionResponse<T = void> = \n  | { success: true; data: T }\n  | { success: false; error: string }\n```\n\n### Standard Server Action Structure\n```typescript\n'use server'\nimport { createClient } from '@/lib/supabase/server'\nimport { z } from 'zod'\n\nconst Schema = z.object({ /* ... */ })\n\nexport async function myAction(input: unknown): Promise<ActionResponse<MyType>> {\n  // 1. Auth\n  const supabase = await createClient()\n  const { data: { user } } = await supabase.auth.getUser()\n  if (!user) return { success: false, error: 'Unauthorized' }\n\n  // 2. Validate\n  const result = Schema.safeParse(input)\n  if (!result.success) return { success: false, error: 'Invalid input' }\n\n  // 3. Execute\n  try {\n    const { data, error } = await supabase.from('table').insert(result.data).select().single()\n    if (error) throw error\n    return { success: true, data }\n  } catch {\n    return { success: false, error: 'Operation failed' }\n  }\n}\n```\n\n## Task Constraints\n\n- NEVER give the AI a task longer than 200 words\n- NEVER let the AI implement more than 3-4 files in one turn\n- NEVER let the AI skip the verification checklist\n- ALWAYS review the Git diff before committing\n- When uncertain, ask the developer \u2014 do NOT guess\n\n",
       "format": "mdc",
@@ -48,20 +85,6 @@
     "stars": 8,
     "updated_at": "2026-10-15T13:02:07Z",
     "url": "https://github.com/vibestackdev/vibe-stack"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: claude-agents marketplace project conventions\nalwaysApply: true\n---\n\n# claude-agents conventions\n\nThis is a multi-harness plugin marketplace. Source lives under `plugins/`; per-harness\nartifacts (`.codex/`, `.cursor-plugin/`, `.opencode/`, `commands/`) are generated.\n\n- Don't hand-edit anything under `.codex/`, `.cursor-plugin/`, `.opencode/`, or top-level `commands/`, `agents/`, `skills/` \u2014 regenerate via `make generate HARNESS=<x>`.\n- Python tooling: `uv` (package manager), `ruff` (lint/format), `ty` (type check). Do not use pip/mypy/black.\n- Plugin files: `plugins/<name>/{.claude-plugin/plugin.json, agents/*.md, skills/<name>/SKILL.md, commands/*.md}`. Auto-discovered.\n- Cursor reads `.claude/skills/` and `.claude/agents/` directly \u2014 no separate `.cursor/skills/` is generated.\n\n## Never\n\n- Never commit secrets or hardcode credentials.\n- Never hand-edit generated registries (`.agents/plugins/marketplace.json`, `.cursor-plugin/`) \u2014 plugin PRs register the plugin in `.claude-plugin/marketplace.json`, then run `make generate-all` (see CONTRIBUTING.md).\n- Never run destructive git operations (force-push, reset --hard, branch -D) without explicit ask.\n\nSee `docs/authoring.md` for the portable-content style guide.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/000-project-conventions.mdc"
-    },
-    "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a",
-    "id": "wshobson/agents",
-    "language": "Python",
-    "name": "wshobson/agents",
-    "stars": 40834,
-    "updated_at": "2026-10-15T13:26:40Z",
-    "url": "https://github.com/wshobson/agents"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -116,15 +139,6 @@
     "stars": 0,
     "updated_at": "2026-10-15T09:46:08Z",
     "url": "https://github.com/mustafakbaser/agentcheckup"
-  },
-  {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 3,
-    "updated_at": "2026-10-15T07:32:19Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "description": "Your AI coding agent follows these files blindly, before it reads a line of your code.",
@@ -227,7 +241,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 164070,
+    "stars": 164083,
     "updated_at": "2026-10-15T01:02:15Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -474,14 +488,5 @@
     "stars": 1,
     "updated_at": "2026-10-15T08:15:24Z",
     "url": "https://github.com/gabrieldcpaiva/not-optional"
-  },
-  {
-    "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 plus AIOS, an open-source markdown memory system for coding ",
-    "id": "sublimecoder/sublimecoding",
-    "language": "\u2014",
-    "name": "sublimecoder/sublimecoding",
-    "stars": 0,
-    "updated_at": "2026-10-13T18:38:40Z",
-    "url": "https://github.com/sublimecoder/sublimecoding"
   }
 ]
