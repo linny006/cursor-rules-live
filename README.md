@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-15 04:30 UTC
+> ⏰ Last updated: 2026-10-15 04:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -65,17 +65,17 @@ expired items removed — so you can rely on what you see being current.
 | 10 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-10-15 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
 | 11 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-10-15 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
 | 12 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-15 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
-| 13 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 163745 | JavaScript | 2026-10-15 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 13 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 163750 | JavaScript | 2026-10-15 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 14 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 27 | Python | 2026-10-15 | — | Architectural drift prevention for the agentic AI SDLC. |
 | 15 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 49 | — | 2026-10-14 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
 | 16 | [Aaditya1273/Agent.md](https://github.com/Aaditya1273/Agent.md) | 9 | — | 2026-10-14 | — | Your AI coding agent follows these files blindly, before it reads a line of your code. |
-| 17 | [wshobson/agents](https://github.com/wshobson/agents) | 40791 | Python | 2026-10-14 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
+| 17 | [wshobson/agents](https://github.com/wshobson/agents) | 40792 | Python | 2026-10-14 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
 | 18 | [jdiazromeral/melon](https://github.com/jdiazromeral/melon) | 0 | — | 2026-10-14 | — | Adversarial first-principles review protocol for code, architectures, PRs, and LLM prompts: question requirements, delet |
 | 19 | [Despensativo/OpenWrt-Skills](https://github.com/Despensativo/OpenWrt-Skills) | 0 | Python | 2026-10-14 | — | Definitive Agentic AI skills, rules and developer tooling for OpenWrt, LuCI, and embedded Linux (Antigravity, Cursor, Cl |
 | 20 | [Kshitijpalsinghtomar/depth-skills](https://github.com/Kshitijpalsinghtomar/depth-skills) | 5 | Python | 2026-10-14 | — | Cognitive architecture for AI agents. 19+ skills that force language models past surface-level reasoning into genuine de |
 | 21 | [Stephanie0574/AIGX](https://github.com/Stephanie0574/AIGX) | 0 | Python | 2026-10-14 | — | Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig |
 | 22 | [vittoriahoffmann/third-brain-v7-skills](https://github.com/vittoriahoffmann/third-brain-v7-skills) | 0 | Python | 2026-10-14 | — | agent wiki +engineering skills  |
-| 23 | [Katta041/asitis-agent-tools](https://github.com/Katta041/asitis-agent-tools) | 0 | TypeScript | 2026-10-14 | — | Read-only MCP server and Claude Code plugin that lints CLAUDE.md, AGENTS.md and SKILL.md, counts approximate tokens per  |
+| 23 | [Katta041/asitis-agent-tools](https://github.com/Katta041/asitis-agent-tools) | 0 | TypeScript | 2026-10-15 | — | Read-only MCP server and Claude Code plugin that lints CLAUDE.md, AGENTS.md and SKILL.md, counts approximate tokens per  |
 | 24 | [BachSchneider93/rollinggo-hotel-skill-cn](https://github.com/BachSchneider93/rollinggo-hotel-skill-cn) | 0 | Python | 2026-10-14 | — | 全球酒店预订&低价监控提醒Skill，200万+精选酒店，独家优惠价格，让你的Agent轻松预订品质酒店，支持支付宝下单+查询历史订单，24 小时客服支持，全天候响应。 |
 | 25 | [Nataliaa68061/third-brain-v7-skills](https://github.com/Nataliaa68061/third-brain-v7-skills) | 0 | Python | 2026-10-14 | — | agent wiki +engineering skills  |
 | 26 | [TakumiMehta/rollinggo-hotel-skill-cn](https://github.com/TakumiMehta/rollinggo-hotel-skill-cn) | 0 | Python | 2026-10-14 | — | 全球酒店预订&低价监控提醒Skill，200万+精选酒店，独家优惠价格，让你的Agent轻松预订品质酒店，支持支付宝下单+查询历史订单，24 小时客服支持，全天候响应。 |
