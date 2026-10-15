@@ -5,7 +5,7 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 27,
-    "updated_at": "2026-10-15T12:23:04Z",
+    "updated_at": "2026-10-15T12:43:22Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
@@ -18,9 +18,18 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40831,
-    "updated_at": "2026-10-15T12:30:12Z",
+    "stars": 40832,
+    "updated_at": "2026-10-15T12:30:53Z",
     "url": "https://github.com/wshobson/agents"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-15T12:30:44Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -39,15 +48,6 @@
     "stars": 20,
     "updated_at": "2026-10-15T12:15:49Z",
     "url": "https://github.com/philipbankier/awesome-agent-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-15T12:15:43Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Read-only MCP server and Claude Code plugin that lints CLAUDE.md, AGENTS.md and SKILL.md, counts approximate tokens per ",
@@ -213,7 +213,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 164031,
+    "stars": 164041,
     "updated_at": "2026-10-15T01:02:15Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
