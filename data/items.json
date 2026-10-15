@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-15T04:45:34Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "\ud83d\ude80 Official AI Sourcing & BOM Matcher Agent for DHX Tech. Instantly find million-level in-stock IC components (TI, ST, NX",
     "id": "cy117Hub/dhx-tech-electronic-components-sourcing-skill",
     "language": "\u2014",
@@ -7,15 +16,6 @@
     "stars": 1,
     "updated_at": "2026-10-15T04:34:35Z",
     "url": "https://github.com/cy117Hub/dhx-tech-electronic-components-sourcing-skill"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-15T04:30:43Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -127,7 +127,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 163750,
+    "stars": 163758,
     "updated_at": "2026-10-15T01:02:15Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -168,7 +168,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40792,
+    "stars": 40796,
     "updated_at": "2026-10-14T21:06:13Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -223,7 +223,7 @@
     "language": "TypeScript",
     "name": "Katta041/asitis-agent-tools",
     "stars": 0,
-    "updated_at": "2026-10-15T04:44:00Z",
+    "updated_at": "2026-10-15T04:59:56Z",
     "url": "https://github.com/Katta041/asitis-agent-tools"
   },
   {
