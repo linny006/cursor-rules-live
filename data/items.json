@@ -5,8 +5,17 @@
     "language": "Shell",
     "name": "amir-hdri/awesome-persian-ai-rules",
     "stars": 0,
-    "updated_at": "2026-10-15T14:44:38Z",
+    "updated_at": "2026-10-15T14:53:20Z",
     "url": "https://github.com/amir-hdri/awesome-persian-ai-rules"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-15T14:45:47Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -18,18 +27,9 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40838,
+    "stars": 40839,
     "updated_at": "2026-10-15T14:37:54Z",
     "url": "https://github.com/wshobson/agents"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-15T14:30:46Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam",
@@ -268,7 +268,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 164118,
+    "stars": 164127,
     "updated_at": "2026-10-15T01:02:15Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
