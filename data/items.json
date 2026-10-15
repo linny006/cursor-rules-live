@@ -5,8 +5,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-15T02:00:38Z",
+    "updated_at": "2026-10-15T02:15:44Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "video \u2014 a big skill for professional AI video editing: craft-first grammar of the cut, transcript-driven EDL pipeline, f",
+    "id": "lucasgabrieldevgg/video",
+    "language": "\u2014",
+    "name": "lucasgabrieldevgg/video",
+    "stars": 0,
+    "updated_at": "2026-10-15T02:15:19Z",
+    "url": "https://github.com/lucasgabrieldevgg/video"
   },
   {
     "cursorrules": {
@@ -77,7 +86,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 163665,
+    "stars": 163675,
     "updated_at": "2026-10-15T01:02:15Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -118,7 +127,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40781,
+    "stars": 40782,
     "updated_at": "2026-10-14T21:06:13Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -394,7 +403,7 @@
     "id": "HoangNguyen0403/agent-skills-standard",
     "language": "TypeScript",
     "name": "HoangNguyen0403/agent-skills-standard",
-    "stars": 576,
+    "stars": 577,
     "updated_at": "2026-10-14T03:06:13Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
   },
@@ -479,14 +488,5 @@
     "stars": 0,
     "updated_at": "2026-10-13T11:56:59Z",
     "url": "https://github.com/Pacing-Agency/pacing-ai-starter"
-  },
-  {
-    "description": "High-performance, ultra-lightweight adaptive IDE optimized for 4GB RAM environments. Features a context-aware smart term",
-    "id": "silenceminds/AROM-Apex-Console",
-    "language": "JavaScript",
-    "name": "silenceminds/AROM-Apex-Console",
-    "stars": 0,
-    "updated_at": "2026-10-13T09:21:45Z",
-    "url": "https://github.com/silenceminds/AROM-Apex-Console"
   }
 ]
