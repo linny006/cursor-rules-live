@@ -1,11 +1,20 @@
 [
   {
+    "description": "Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam",
+    "id": "eli-alvarado/agentkit-drawer",
+    "language": "\u2014",
+    "name": "eli-alvarado/agentkit-drawer",
+    "stars": 0,
+    "updated_at": "2026-10-15T03:15:04Z",
+    "url": "https://github.com/eli-alvarado/agentkit-drawer"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-15T02:45:42Z",
+    "updated_at": "2026-10-15T03:00:47Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -86,7 +95,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 163693,
+    "stars": 163699,
     "updated_at": "2026-10-15T01:02:15Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -127,7 +136,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40784,
+    "stars": 40785,
     "updated_at": "2026-10-14T21:06:13Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -479,14 +488,5 @@
     "stars": 0,
     "updated_at": "2026-10-13T15:22:14Z",
     "url": "https://github.com/lucas-winter-berlin/Agent-Engineer-Skills"
-  },
-  {
-    "description": "Stop AI coding agents sending email, leaking keys or colliding on files: Cursor rule templates, a pre-commit secret guar",
-    "id": "Pacing-Agency/pacing-ai-starter",
-    "language": "Python",
-    "name": "Pacing-Agency/pacing-ai-starter",
-    "stars": 0,
-    "updated_at": "2026-10-13T11:56:59Z",
-    "url": "https://github.com/Pacing-Agency/pacing-ai-starter"
   }
 ]
