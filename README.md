@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-15 09:00 UTC
+> ⏰ Last updated: 2026-10-15 09:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -67,7 +67,7 @@ expired items removed — so you can rely on what you see being current.
 | 12 | [eli-alvarado/agentkit-drawer](https://github.com/eli-alvarado/agentkit-drawer) | 0 | — | 2026-10-15 | — | Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam |
 | 13 | [wangqiqi/cursor-ai](https://github.com/wangqiqi/cursor-ai) | 4 | Shell | 2026-10-15 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wangqiqi/cursor-ai/) | 无关用户， 无关系统， 无关项目，开箱复制即用！ code faster, code better;  |
 | 14 | [lucasgabrieldevgg/video](https://github.com/lucasgabrieldevgg/video) | 0 | — | 2026-10-15 | — | video — a big skill for professional AI video editing: craft-first grammar of the cut, transcript-driven EDL pipeline, f |
-| 15 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 163903 | JavaScript | 2026-10-15 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 15 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 163915 | JavaScript | 2026-10-15 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 16 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 27 | Python | 2026-10-15 | — | Architectural drift prevention for the agentic AI SDLC. |
 | 17 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 49 | — | 2026-10-14 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
 | 18 | [wshobson/agents](https://github.com/wshobson/agents) | 40818 | Python | 2026-10-14 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
