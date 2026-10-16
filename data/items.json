@@ -1,30 +1,12 @@
 [
   {
-    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
-    "id": "bompus/house-rules",
-    "language": "JavaScript",
-    "name": "bompus/house-rules",
-    "stars": 1,
-    "updated_at": "2026-10-16T08:08:22Z",
-    "url": "https://github.com/bompus/house-rules"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-16T08:00:52Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
-    "description": "Free private developer tools (JSON, JWT, cURL, cron, SSH keys) that run in your browser, plus AI Skill Studio: a CLAUDE.",
-    "id": "Saad-web-spec/DevScratchPad",
-    "language": "TypeScript",
-    "name": "Saad-web-spec/DevScratchPad",
-    "stars": 2,
-    "updated_at": "2026-10-16T07:51:18Z",
-    "url": "https://github.com/Saad-web-spec/DevScratchPad"
+    "description": "agent wiki +engineering skills ",
+    "id": "DonaldBrown35880/third-brain-v7-skills",
+    "language": "Python",
+    "name": "DonaldBrown35880/third-brain-v7-skills",
+    "stars": 0,
+    "updated_at": "2026-10-16T08:26:35Z",
+    "url": "https://github.com/DonaldBrown35880/third-brain-v7-skills"
   },
   {
     "cursorrules": {
@@ -36,9 +18,36 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 164701,
-    "updated_at": "2026-10-16T07:46:50Z",
+    "stars": 164718,
+    "updated_at": "2026-10-16T08:17:57Z",
     "url": "https://github.com/DietrichGebert/ponytail"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-16T08:15:44Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
+    "id": "bompus/house-rules",
+    "language": "JavaScript",
+    "name": "bompus/house-rules",
+    "stars": 1,
+    "updated_at": "2026-10-16T08:08:22Z",
+    "url": "https://github.com/bompus/house-rules"
+  },
+  {
+    "description": "Free private developer tools (JSON, JWT, cURL, cron, SSH keys) that run in your browser, plus AI Skill Studio: a CLAUDE.",
+    "id": "Saad-web-spec/DevScratchPad",
+    "language": "TypeScript",
+    "name": "Saad-web-spec/DevScratchPad",
+    "stars": 2,
+    "updated_at": "2026-10-16T07:51:18Z",
+    "url": "https://github.com/Saad-web-spec/DevScratchPad"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -499,14 +508,5 @@
     "stars": 0,
     "updated_at": "2026-10-14T15:55:34Z",
     "url": "https://github.com/vittoriahoffmann/third-brain-v7-skills"
-  },
-  {
-    "description": "\u5168\u7403\u9152\u5e97\u9884\u8ba2&\u4f4e\u4ef7\u76d1\u63a7\u63d0\u9192Skill\uff0c200\u4e07+\u7cbe\u9009\u9152\u5e97\uff0c\u72ec\u5bb6\u4f18\u60e0\u4ef7\u683c\uff0c\u8ba9\u4f60\u7684Agent\u8f7b\u677e\u9884\u8ba2\u54c1\u8d28\u9152\u5e97\uff0c\u652f\u6301\u652f\u4ed8\u5b9d\u4e0b\u5355+\u67e5\u8be2\u5386\u53f2\u8ba2\u5355\uff0c24 \u5c0f\u65f6\u5ba2\u670d\u652f\u6301\uff0c\u5168\u5929\u5019\u54cd\u5e94\u3002",
-    "id": "BachSchneider93/rollinggo-hotel-skill-cn",
-    "language": "Python",
-    "name": "BachSchneider93/rollinggo-hotel-skill-cn",
-    "stars": 0,
-    "updated_at": "2026-10-14T15:39:52Z",
-    "url": "https://github.com/BachSchneider93/rollinggo-hotel-skill-cn"
   }
 ]
