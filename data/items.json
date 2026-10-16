@@ -1,11 +1,20 @@
 [
   {
+    "description": "Accessibility is not a request. A practical, lived-experience toolkit for making digital products and printables usable ",
+    "id": "gabrieldcpaiva/not-optional",
+    "language": "Shell",
+    "name": "gabrieldcpaiva/not-optional",
+    "stars": 1,
+    "updated_at": "2026-10-16T04:01:25Z",
+    "url": "https://github.com/gabrieldcpaiva/not-optional"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-16T03:45:51Z",
+    "updated_at": "2026-10-16T04:00:36Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -259,7 +268,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40874,
+    "stars": 40875,
     "updated_at": "2026-10-15T15:11:55Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -410,7 +419,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 164533,
+    "stars": 164541,
     "updated_at": "2026-10-15T01:02:15Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -494,14 +503,5 @@
     "stars": 0,
     "updated_at": "2026-10-14T15:29:30Z",
     "url": "https://github.com/aHashimoto85396/MotionVault"
-  },
-  {
-    "description": "agent wiki +engineering skills ",
-    "id": "bRossi5552/third-brain-v7-skills",
-    "language": "Python",
-    "name": "bRossi5552/third-brain-v7-skills",
-    "stars": 0,
-    "updated_at": "2026-10-14T15:24:23Z",
-    "url": "https://github.com/bRossi5552/third-brain-v7-skills"
   }
 ]
