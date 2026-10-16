@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-16 03:45 UTC
+> ⏰ Last updated: 2026-10-16 04:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,8 +53,8 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [geronco/commandvault-library](https://github.com/geronco/commandvault-library) | 0 | JavaScript | 2026-10-16 | — | Community-voted AI prompts, CLAUDE.md/AGENTS.md templates, Cursor rules, Agent Skills and MCP servers from commandvault. |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-16 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-16 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [geronco/commandvault-library](https://github.com/geronco/commandvault-library) | 0 | JavaScript | 2026-10-16 | — | Community-voted AI prompts, CLAUDE.md/AGENTS.md templates, Cursor rules, Agent Skills and MCP servers from commandvault. |
 | 3 | [bompus/house-rules](https://github.com/bompus/house-rules) | 1 | JavaScript | 2026-10-16 | — | Working rules and skills for AI coding agents, layered as base, modifiers, person and project |
 | 4 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-16 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
 | 5 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 27 | Python | 2026-10-16 | — | Architectural drift prevention for the agentic AI SDLC. |
@@ -78,7 +78,7 @@ expired items removed — so you can rely on what you see being current.
 | 23 | [sublimecoder/sublimecoding](https://github.com/sublimecoder/sublimecoding) | 0 | — | 2026-10-15 | — | 🛠️ Free Claude Code & Cursor prompts for senior engineers — plus AIOS, an open-source markdown memory system for coding  |
 | 24 | [amir-hdri/awesome-persian-ai-rules](https://github.com/amir-hdri/awesome-persian-ai-rules) | 0 | Shell | 2026-10-15 | — | 🇮🇷 Universal Persian (Farsi) typography, RTL direction, and BiDi formatting standards for AI coding agents (Antigravity, |
 | 25 | [Texarkanine/ai-rizz](https://github.com/Texarkanine/ai-rizz) | 0 | Shell | 2026-10-15 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Texarkanine/ai-rizz/) | Zero-dependency POSIX CLI for managing AI rules and rulesets. Pull rules from a source repository and use them committed |
-| 26 | [wshobson/agents](https://github.com/wshobson/agents) | 40873 | Python | 2026-10-15 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
+| 26 | [wshobson/agents](https://github.com/wshobson/agents) | 40874 | Python | 2026-10-15 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
 | 27 | [eli-alvarado/agentkit-drawer](https://github.com/eli-alvarado/agentkit-drawer) | 0 | — | 2026-10-15 | — | Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam |
 | 28 | [SharimAli/imgui-menu-clone](https://github.com/SharimAli/imgui-menu-clone) | 0 | C++ | 2026-10-15 | — | Rebuild any Dear ImGui menu in clean C++ from a single screenshot. Generates a buildable native Visual Studio (.sln) Win |
 | 29 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-10-15 | — | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
@@ -92,7 +92,7 @@ expired items removed — so you can rely on what you see being current.
 | 37 | [cy117Hub/dhx-tech-electronic-components-sourcing-skill](https://github.com/cy117Hub/dhx-tech-electronic-components-sourcing-skill) | 1 | — | 2026-10-15 | — | 🚀 Official AI Sourcing & BOM Matcher Agent for DHX Tech. Instantly find million-level in-stock IC components (TI, ST, NX |
 | 38 | [wangqiqi/cursor-ai](https://github.com/wangqiqi/cursor-ai) | 4 | Shell | 2026-10-15 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wangqiqi/cursor-ai/) | 无关用户， 无关系统， 无关项目，开箱复制即用！ code faster, code better;  |
 | 39 | [lucasgabrieldevgg/video](https://github.com/lucasgabrieldevgg/video) | 0 | — | 2026-10-15 | — | video — a big skill for professional AI video editing: craft-first grammar of the cut, transcript-driven EDL pipeline, f |
-| 40 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 164526 | JavaScript | 2026-10-15 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 40 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 164533 | JavaScript | 2026-10-15 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 41 | [jdiazromeral/melon](https://github.com/jdiazromeral/melon) | 0 | — | 2026-10-14 | — | Adversarial first-principles review protocol for code, architectures, PRs, and LLM prompts: question requirements, delet |
 | 42 | [Despensativo/OpenWrt-Skills](https://github.com/Despensativo/OpenWrt-Skills) | 0 | Python | 2026-10-14 | — | Definitive Agentic AI skills, rules and developer tooling for OpenWrt, LuCI, and embedded Linux (Antigravity, Cursor, Cl |
 | 43 | [Kshitijpalsinghtomar/depth-skills](https://github.com/Kshitijpalsinghtomar/depth-skills) | 5 | Python | 2026-10-14 | — | Cognitive architecture for AI agents. 19+ skills that force language models past surface-level reasoning into genuine de |

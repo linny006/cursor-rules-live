@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-16T03:45:51Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Community-voted AI prompts, CLAUDE.md/AGENTS.md templates, Cursor rules, Agent Skills and MCP servers from commandvault.",
     "id": "geronco/commandvault-library",
     "language": "JavaScript",
@@ -7,15 +16,6 @@
     "stars": 0,
     "updated_at": "2026-10-16T03:30:53Z",
     "url": "https://github.com/geronco/commandvault-library"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-16T03:30:44Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
@@ -259,7 +259,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40873,
+    "stars": 40874,
     "updated_at": "2026-10-15T15:11:55Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -410,7 +410,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 164526,
+    "stars": 164533,
     "updated_at": "2026-10-15T01:02:15Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
