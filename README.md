@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-16 14:45 UTC
+> ⏰ Last updated: 2026-10-16 15:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,16 +53,16 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [yxdwind/english-memory-method](https://github.com/yxdwind/english-memory-method) | 1 | HTML | 2026-10-16 | — | 英文文章背诵技巧 |
-| 2 | [roedyrustam/vibes-plug](https://github.com/roedyrustam/vibes-plug) | 75 | JavaScript | 2026-10-16 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/roedyrustam/vibes-plug/) | ⚡ Cross-IDE AI skill collection that orchestrates 147 specialized subagents for full-stack development workflows |
-| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-16 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-16 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [yxdwind/english-memory-method](https://github.com/yxdwind/english-memory-method) | 1 | HTML | 2026-10-16 | — | 英文文章背诵技巧 |
+| 3 | [roedyrustam/vibes-plug](https://github.com/roedyrustam/vibes-plug) | 75 | JavaScript | 2026-10-16 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/roedyrustam/vibes-plug/) | ⚡ Cross-IDE AI skill collection that orchestrates 147 specialized subagents for full-stack development workflows |
 | 4 | [eli-alvarado/agentkit-drawer](https://github.com/eli-alvarado/agentkit-drawer) | 0 | — | 2026-10-16 | — | Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam |
 | 5 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 27 | Python | 2026-10-16 | — | Architectural drift prevention for the agentic AI SDLC. |
 | 6 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-10-16 | — | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
 | 7 | [MsNan/prompt-hub-cn](https://github.com/MsNan/prompt-hub-cn) | 0 | JavaScript | 2026-10-16 | — | 提示词百宝箱：66 条原创中文 Prompt 与 AI Agent 模板（编程/前端/代码审查/文档/产品/运营/学习/求职/Agent 工作流/Cursor rules/Claude skills），填变量一键复制 |
 | 8 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 20 | TypeScript | 2026-10-16 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
 | 9 | [toby7979/sealmyapp-tools](https://github.com/toby7979/sealmyapp-tools) | 0 | TypeScript | 2026-10-16 | — | Free MCP server, Cursor rule and Claude skill that help AI coding assistants avoid common security holes in vibe-coded a |
-| 10 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 164962 | JavaScript | 2026-10-16 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 10 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 164972 | JavaScript | 2026-10-16 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 11 | [MsNan/vue-uniapp-skills](https://github.com/MsNan/vue-uniapp-skills) | 0 | JavaScript | 2026-10-16 | — | Vue3 + uni-app 中文 AI 编程技能包：Cursor Rules / Claude Code Skills / Trae / Codex 一行命令安装 |
 | 12 | [vibestackdev/vibe-stack](https://github.com/vibestackdev/vibe-stack) | 8 | TypeScript | 2026-10-16 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/) | 29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b |
 | 13 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-16 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
