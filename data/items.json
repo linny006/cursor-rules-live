@@ -1,12 +1,12 @@
 [
   {
-    "description": "Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam",
-    "id": "eli-alvarado/agentkit-drawer",
-    "language": "\u2014",
-    "name": "eli-alvarado/agentkit-drawer",
-    "stars": 0,
-    "updated_at": "2026-10-16T14:19:42Z",
-    "url": "https://github.com/eli-alvarado/agentkit-drawer"
+    "description": "\u82f1\u6587\u6587\u7ae0\u80cc\u8bf5\u6280\u5de7",
+    "id": "yxdwind/english-memory-method",
+    "language": "HTML",
+    "name": "yxdwind/english-memory-method",
+    "stars": 1,
+    "updated_at": "2026-10-16T14:35:28Z",
+    "url": "https://github.com/yxdwind/english-memory-method"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,17 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-16T14:15:51Z",
+    "updated_at": "2026-10-16T14:30:45Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
-    "description": "\u82f1\u6587\u6587\u7ae0\u80cc\u8bf5\u6280\u5de7",
-    "id": "yxdwind/english-memory-method",
-    "language": "HTML",
-    "name": "yxdwind/english-memory-method",
-    "stars": 1,
-    "updated_at": "2026-10-16T14:13:21Z",
-    "url": "https://github.com/yxdwind/english-memory-method"
+    "description": "Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam",
+    "id": "eli-alvarado/agentkit-drawer",
+    "language": "\u2014",
+    "name": "eli-alvarado/agentkit-drawer",
+    "stars": 0,
+    "updated_at": "2026-10-16T14:19:42Z",
+    "url": "https://github.com/eli-alvarado/agentkit-drawer"
   },
   {
     "description": "Architectural drift prevention for the agentic AI SDLC.",
@@ -95,7 +95,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 164949,
+    "stars": 164956,
     "updated_at": "2026-10-16T13:20:54Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
