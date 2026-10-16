@@ -1,5 +1,23 @@
 [
   {
+    "description": "\u82f1\u6587\u6587\u7ae0\u80cc\u8bf5\u6280\u5de7",
+    "id": "yxdwind/english-memory-method",
+    "language": "HTML",
+    "name": "yxdwind/english-memory-method",
+    "stars": 1,
+    "updated_at": "2026-10-16T14:13:21Z",
+    "url": "https://github.com/yxdwind/english-memory-method"
+  },
+  {
+    "description": "Architectural drift prevention for the agentic AI SDLC.",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 27,
+    "updated_at": "2026-10-16T14:12:32Z",
+    "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
     "cursorrules": {
       "content": "# Vibes-Plug \u2014 150-Skill AI Agent Swarm Architecture (v4.2.2)\n# Universal AI Plugin for Antigravity, Claude, Cursor, and OpenAI Codex\n\n## Primary Trigger & Skill Auto-Synchronization (Pemicu Utama)\nUpon installation, `vibes-plug` is the **PRIMARY TRIGGER (Pemicu Utama)** for all Cursor AI interactions.\n- The AI agent MUST automatically intercept prompts and synchronize relevant skills without waiting for explicit `@` mentions.\n- Automatically connects cooperating skills (e.g. `doku-payment-gateway` + `saas-billing` + `payment-gateway-expert`; `senior-frontend` + `tailwind-expert`).\n- Multi-domain workflows trigger Swarm Topologies (Fan-Out/Fan-In, Pipeline Saga, Critic-Validator).\n\n## About\nThis project uses the vibes-plug skills ecosystem with 150 specialized skills.\nEach skill is a `SKILL.md` file in the `skills/` directory containing domain-specific\ninstructions, patterns, and best practices for the modern 2026 tech stack.\n\n## Core Stack (2026 Edition)\n- Frontend: React 19, Next.js 15 App Router, Tailwind CSS v4 (@theme), TypeScript 5.8+\n- Backend: Node.js 24 LTS, Bun 1.2+, Hono v4, Fastify 5, Python 3.14, Go 1.25+, Rust 2024\n- Database: Prisma 6, Drizzle ORM, PostgreSQL, Supabase, Neon, Turso\n- AI/LLM: Vercel AI SDK 5.x/6.x, MCP v1.x (FastMCP / Streamable HTTP), pgvector, RAG pipelines\n\n## Mandatory Before Coding\n1. Read the relevant `skills/<skill-name>/SKILL.md` files before writing code.\n2. Think deeply before acting \u2014 analyze constraints, question assumptions, validate approach.\n3. For new projects, auto-generate: PRD.md, ERD.md, DOKUMENTASI.md.\n\n## Skill Domains\n- \ud83e\udd16 AI & Agentic: ai-llm-integration-expert, vercel-ai-sdk-expert, deep-research-analyst, synthetic-data-finetuning-expert, pydantic-ai-expert, mcp-server-architect, vector-db-rag-expert, multi-agent-orchestration, graph-rag-knowledge-expert, local-slm-edge-ai-expert, llm-finops-router, agentic-memory-architect\n- \ud83c\udfa8 Design & UI/UX: design-system-architect, hig, ui-ux-pro-max, tailwind-expert, modern-css-native-expert\n- \ud83d\udda5\ufe0f Frontend: senior-frontend, tailwind-expert, nextjs-app-router-expert, tanstack-query-expert, vue-frontend-expert, astro-framework-expert, svelte-sveltekit-expert, solidjs-expert, angular-expert, browser-extension-mv3-pro\n- \u2699\ufe0f Backend: js-backend-expert, python-programming-expert, go-programming-expert, rust-programming-expert, api-design-expert, openapi-swagger-codegen-expert, spec-driven-development-expert, fullstack-expert\n- \u2601\ufe0f SaaS & Cloud: saas-architect, saas-billing, saas-multi-tenant, ci-cd-devops-architect, cloud-hosting-expert, payment-gateway-expert, doku-payment-gateway, agentic-m2m-settlement\n- \ud83d\uddc4\ufe0f Database: database-orm-expert, supabase-security-expert, data-pipeline-etl-expert\n- \ud83d\udd12 Security: authentication-identity-expert, e2e-testing-expert, production-ready-hardener, zero-trust-secret-vault, anti-slop, autonomous-tdd-debugger, zero-tech-debt-auditor\n- \ud83d\udd0d SEO & Telemetry: seo, data-telemetry-expert\n- \ud83d\udee0\ufe0f Utilities: brainstorming, prd-architect, session-memory-manager, zero-to-prod-orchestrator, web-scraper, website-design-cloner\n\n## Code Quality & Sovereign Anti-Slop Directive\n- Zero-tolerance for AI slop (`anti-slop` skill):\n  * Code-first delivery with 100% complete implementations (no `// TODO`, `// ...`, or mock stubs).\n  * Hyper-YAGNI: avoid speculative abstractions and redundant wrapper layers.\n  * Meaningful comments only: explain non-obvious business/architectural WHY, never syntax mechanics.\n  * No swallowed errors (`catch(e){}` prohibited); structured logging (`Pino`) required.\n  * UI & Visual Sanitation: Enforce Linear/Stripe-caliber design. Zero generic blue-purple gradients, no neon glow orbs, no pill button addiction (`rounded-full` on rectangular elements), mandatory 5-state contract, tabular numerals (`tabular-nums`), and crisp 1px borders.\n  * Run `node scripts/check-anti-slop.js` to verify zero violations.\n## Sovereign Token Optimization Protocol (Hemat Token)\n- Enforce deterministic KV-cache prefixing via `kv-cache-prefix-optimizer` (75-90% prompt cache hit rates).\n- Prune subagent context payloads: pass only targeted `CONTEXT_MAP.md` slices, not raw chat transcripts.\n- Use dynamic model cascading (`adaptive-model-cascade`): `flash` for research/linting, `pro` for architecture/security.\n- Ultra-compact session checkpoints (<300 tokens) via `session-memory-manager`.\n- Non-Degradation Invariant: Never truncate code with placeholders or stubs to save tokens. Code must be 100% complete.\n\n## Orchestration Flow\n1. Ideation: brainstorming \u2192 prd-architect\n2. Design: design-system-architect \u2192 senior-frontend \u2192 ui-ux-pro-max\n3. Backend: js-backend-expert \u2192 event-driven-architect \u2192 autonomous-tdd-debugger\n4. AI: ai-llm-integration-expert \u2192 mcp-server-architect \u2192 multi-agent-orchestration\n5. SaaS: saas-architect \u2192 saas-billing + saas-multi-tenant + doku-payment-gateway\n6. Launch: e2e-testing-expert \u2192 zero-tech-debt-auditor \u2192 seo \u2192 anti-slop \u2192 production-ready-hardener\n",
       "format": "text",
@@ -10,8 +28,17 @@
     "language": "JavaScript",
     "name": "roedyrustam/vibes-plug",
     "stars": 75,
-    "updated_at": "2026-10-16T13:59:16Z",
+    "updated_at": "2026-10-16T14:12:04Z",
     "url": "https://github.com/roedyrustam/vibes-plug"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-16T14:00:41Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
@@ -21,15 +48,6 @@
     "stars": 0,
     "updated_at": "2026-10-16T13:57:04Z",
     "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-16T13:45:56Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\u63d0\u793a\u8bcd\u767e\u5b9d\u7bb1\uff1a66 \u6761\u539f\u521b\u4e2d\u6587 Prompt \u4e0e AI Agent \u6a21\u677f\uff08\u7f16\u7a0b/\u524d\u7aef/\u4ee3\u7801\u5ba1\u67e5/\u6587\u6863/\u4ea7\u54c1/\u8fd0\u8425/\u5b66\u4e60/\u6c42\u804c/Agent \u5de5\u4f5c\u6d41/Cursor rules/Claude skills\uff09\uff0c\u586b\u53d8\u91cf\u4e00\u952e\u590d\u5236",
@@ -68,7 +86,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 164936,
+    "stars": 164942,
     "updated_at": "2026-10-16T13:20:54Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -371,15 +389,6 @@
     "url": "https://github.com/geronco/commandvault-library"
   },
   {
-    "description": "Architectural drift prevention for the agentic AI SDLC.",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 27,
-    "updated_at": "2026-10-16T13:52:15Z",
-    "url": "https://github.com/MnemeHQ/mneme"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: Core working agreement for the AI agent on every task\nalwaysApply: true\n---\n\n# How to work in this repo\n\n## Before coding\n- Read the files you will change and their nearest tests before editing. Never guess an API that exists in the repo; search for it.\n- Check `package.json` / `pyproject.toml` / lockfiles for real framework versions and write code for THOSE versions.\n- For anything non-trivial (>1 file or >50 lines), state a short plan first: files to touch, approach, how you'll verify.\n- If requirements are ambiguous, ask one focused question instead of inventing behaviour.\n\n## While coding\n- Make the smallest change that solves the task. No drive-by refactors, renames or formatting of unrelated code.\n- Follow existing patterns in the codebase (naming, folder layout, error handling) over your own preferences.\n- Do not add a dependency without saying why and checking an existing one can't do it.\n- Never hardcode secrets, API keys or tokens. Use env vars and update `.env.example`.\n- Never silence errors (`catch {}`, `# type: ignore`, `as any`, `@ts-ignore`) to make something \"work\". Fix the cause or flag it.\n- Do not delete or weaken tests to make them pass.\n\n## After coding\n- Run the project's typecheck, lint and relevant tests; fix what you broke. If you couldn't run them, say so.\n- Summarise: what changed, why, how it was verified, and anything left undone or risky.\n\n## Never without explicit approval\n- Destructive commands (`rm -rf`, `git push --force`, `git reset --hard`, dropping tables, DB resets).\n- Editing generated files, lockfiles by hand, CI config, or migrations that already ran.\n",
       "format": "mdc",
@@ -474,14 +483,5 @@
     "stars": 0,
     "updated_at": "2026-10-15T19:46:25Z",
     "url": "https://github.com/bayrak03049/rollinggo-hotel-skill-cn"
-  },
-  {
-    "description": "A checkup for your coding agent setup. Lints AGENTS.md, CLAUDE.md, SKILL.md, Cursor rules, Copilot instructions, MCP ser",
-    "id": "mustafakbaser/agentcheckup",
-    "language": "TypeScript",
-    "name": "mustafakbaser/agentcheckup",
-    "stars": 0,
-    "updated_at": "2026-10-15T18:28:29Z",
-    "url": "https://github.com/mustafakbaser/agentcheckup"
   }
 ]
