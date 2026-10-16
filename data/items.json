@@ -1,11 +1,20 @@
 [
   {
+    "description": "Read-only MCP server and Claude Code plugin that lints CLAUDE.md, AGENTS.md and SKILL.md, counts approximate tokens per ",
+    "id": "Katta041/asitis-agent-tools",
+    "language": "TypeScript",
+    "name": "Katta041/asitis-agent-tools",
+    "stars": 0,
+    "updated_at": "2026-10-16T09:21:09Z",
+    "url": "https://github.com/Katta041/asitis-agent-tools"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-16T09:00:38Z",
+    "updated_at": "2026-10-16T09:15:34Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -36,7 +45,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 164751,
+    "stars": 164760,
     "updated_at": "2026-10-16T08:17:57Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -399,15 +408,6 @@
     "stars": 20,
     "updated_at": "2026-10-15T12:15:49Z",
     "url": "https://github.com/philipbankier/awesome-agent-skills"
-  },
-  {
-    "description": "Read-only MCP server and Claude Code plugin that lints CLAUDE.md, AGENTS.md and SKILL.md, counts approximate tokens per ",
-    "id": "Katta041/asitis-agent-tools",
-    "language": "TypeScript",
-    "name": "Katta041/asitis-agent-tools",
-    "stars": 0,
-    "updated_at": "2026-10-16T07:18:29Z",
-    "url": "https://github.com/Katta041/asitis-agent-tools"
   },
   {
     "cursorrules": {
