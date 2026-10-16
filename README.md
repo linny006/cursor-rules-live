@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-16 16:45 UTC
+> ⏰ Last updated: 2026-10-16 17:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -63,7 +63,7 @@ expired items removed — so you can rely on what you see being current.
 | 8 | [MsNan/prompt-hub-cn](https://github.com/MsNan/prompt-hub-cn) | 0 | JavaScript | 2026-10-16 | — | 提示词百宝箱：66 条原创中文 Prompt 与 AI Agent 模板（编程/前端/代码审查/文档/产品/运营/学习/求职/Agent 工作流/Cursor rules/Claude skills），填变量一键复制 |
 | 9 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 20 | TypeScript | 2026-10-16 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
 | 10 | [toby7979/sealmyapp-tools](https://github.com/toby7979/sealmyapp-tools) | 0 | TypeScript | 2026-10-16 | — | Free MCP server, Cursor rule and Claude skill that help AI coding assistants avoid common security holes in vibe-coded a |
-| 11 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 165026 | JavaScript | 2026-10-16 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 11 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 165031 | JavaScript | 2026-10-16 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 12 | [MsNan/vue-uniapp-skills](https://github.com/MsNan/vue-uniapp-skills) | 0 | JavaScript | 2026-10-16 | — | Vue3 + uni-app 中文 AI 编程技能包：Cursor Rules / Claude Code Skills / Trae / Codex 一行命令安装 |
 | 13 | [vibestackdev/vibe-stack](https://github.com/vibestackdev/vibe-stack) | 8 | TypeScript | 2026-10-16 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/) | 29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b |
 | 14 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-16 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
@@ -90,7 +90,7 @@ expired items removed — so you can rely on what you see being current.
 | 35 | [Tyler11639/rollinggo-hotel-skill-cn](https://github.com/Tyler11639/rollinggo-hotel-skill-cn) | 0 | Python | 2026-10-16 | — | 全球酒店预订&低价监控提醒Skill，200万+精选酒店，独家优惠价格，让你的Agent轻松预订品质酒店，支持支付宝下单+查询历史订单，24 小时客服支持，全天候响应。 |
 | 36 | [wright1178/AIGX](https://github.com/wright1178/AIGX) | 0 | Python | 2026-10-16 | — | Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig |
 | 37 | [Katta041/asitis-agent-tools](https://github.com/Katta041/asitis-agent-tools) | 0 | TypeScript | 2026-10-16 | — | Read-only linter for CLAUDE.md, AGENTS.md, SKILL.md and agent rules files: vendor limits, tokens loaded per session, hid |
-| 38 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 21320 | Shell | 2026-10-16 | — | 🎭 277 个即插即用的 AI 专家角色 — 支持 Claude Code/Cursor/Copilot 等 20 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 64 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉/Qt 上 |
+| 38 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 21321 | Shell | 2026-10-16 | — | 🎭 277 个即插即用的 AI 专家角色 — 支持 Claude Code/Cursor/Copilot 等 20 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 64 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉/Qt 上 |
 | 39 | [DonaldBrown35880/third-brain-v7-skills](https://github.com/DonaldBrown35880/third-brain-v7-skills) | 0 | Python | 2026-10-16 | — | agent wiki +engineering skills  |
 | 40 | [fabwaseem/agent-rules](https://github.com/fabwaseem/agent-rules) | 0 | TypeScript | 2026-10-16 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/fabwaseem/agent-rules/) | Modular, production-grade AI coding-agent instructions (AGENTS.md, CLAUDE.md, Cursor rules, Copilot, Claude Code skills) |
 | 41 | [gabrieldcpaiva/not-optional](https://github.com/gabrieldcpaiva/not-optional) | 1 | Shell | 2026-10-16 | — | Accessibility is not a request. A practical, lived-experience toolkit for making digital products and printables usable  |
