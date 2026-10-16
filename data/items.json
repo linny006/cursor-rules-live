@@ -1,5 +1,32 @@
 [
   {
+    "description": "Architectural drift prevention for the agentic AI SDLC.",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 27,
+    "updated_at": "2026-10-16T21:20:00Z",
+    "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 3,
+    "updated_at": "2026-10-16T21:19:44Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-16T21:15:47Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: Branch workflow for precedent \u2014 develop and PRs only; main is protected on GitHub.\nalwaysApply: true\n---\n\n# Git workflow (precedent repo)\n\nTreat **`main` as read-only locally**. GitHub branch protection requires pull requests and the `test` check; direct pushes to `main` are rejected.\n\n## Do\n\n- Check out **`develop`** before making changes.\n- Commit on **`develop`**.\n- Open a PR **`develop` \u2192 `main`** and merge after CI passes.\n- Use `gh pr create` when the user asks for a PR.\n\n## Do not\n\n- Commit on **`main`** for normal work. If you do, you may need `git reset --hard origin/main` after the same changes land via a merge commit on the remote.\n\n## Sync\n\nAfter merges on GitHub: `git checkout main && git pull origin main`, then `git checkout develop && git pull origin develop` (or merge `main` into `develop` if the team prefers).\n",
       "format": "mdc",
@@ -12,15 +39,6 @@
     "stars": 1,
     "updated_at": "2026-10-16T21:02:47Z",
     "url": "https://github.com/useprecedent/precedent"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-16T21:00:59Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Free AGENTS.md, Cursor rule and audit-prompt templates for AI coding agents (CC BY 4.0). AI-assisted starting points.",
@@ -80,15 +98,6 @@
     "stars": 2,
     "updated_at": "2026-10-16T20:09:11Z",
     "url": "https://github.com/bompus/house-rules"
-  },
-  {
-    "description": "Architectural drift prevention for the agentic AI SDLC.",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 27,
-    "updated_at": "2026-10-16T21:11:54Z",
-    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "description": "Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam",
@@ -168,15 +177,6 @@
     "url": "https://github.com/grizzlykiwidev/grizzlykiwidev.github.io"
   },
   {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 3,
-    "updated_at": "2026-10-16T17:30:08Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
     "description": "\u82f1\u6587\u6587\u7ae0\u80cc\u8bf5\u6280\u5de7",
     "id": "yxdwind/english-memory-method",
     "language": "HTML",
@@ -231,7 +231,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 165159,
+    "stars": 165166,
     "updated_at": "2026-10-16T13:20:54Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
