@@ -1,12 +1,26 @@
 [
   {
-    "description": "\ud83c\udfad 277 \u4e2a\u5373\u63d2\u5373\u7528\u7684 AI \u4e13\u5bb6\u89d2\u8272 \u2014 \u652f\u6301 Claude Code/Cursor/Copilot \u7b49 20 \u79cd\u5de5\u5177\uff0c\u8986\u76d6\u5de5\u7a0b/\u8bbe\u8ba1/\u8425\u9500/\u91d1\u878d\u7b49 20 \u4e2a\u90e8\u95e8\u3002\u542b 64 \u4e2a\u4e2d\u56fd\u5e02\u573a\u539f\u521b\u667a\u80fd\u4f53\uff08\u5c0f\u7ea2\u4e66/\u6296\u97f3/\u5fae\u4fe1/\u98de\u4e66/\u9489\u9489/Qt \u4e0a",
-    "id": "jnMetaCode/agency-agents-zh",
-    "language": "Shell",
-    "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21306,
-    "updated_at": "2026-10-16T07:05:55Z",
-    "url": "https://github.com/jnMetaCode/agency-agents-zh"
+    "cursorrules": {
+      "content": "---\ndescription: \"How to change the agentkit-rules pack, installer, and examples.\"\nalwaysApply: true\n---\n\n# agentkit-rules\n\n- Installable rules live in `rules/<stack>/*.mdc` and `rules/<stack>/skills/<name>/SKILL.md`. Register every file in `rules/index.json`.\n- Cursor frontmatter uses only `description`, `globs`, and `alwaysApply`. `globs` is one comma-separated string. `alwaysApply: true` omits `globs`.\n- Skill frontmatter uses only `name` and `description`. `name` matches the directory, is lowercase, and does not contain `claude` or `anthropic`.\n- Do not hand-edit files under `examples/`. Run `npm run examples` after a rule change.\n- Run `npm run validate` and `npm test` before committing.\n- The installer is the source of AGENTS.md, CLAUDE.md, Copilot files, Windsurf rules, and Devin rules. Do not fork a second copy of a rule body.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/kit.mdc"
+    },
+    "description": "Modular, production-grade AI coding-agent instructions (AGENTS.md, CLAUDE.md, Cursor rules, Copilot, Claude Code skills)",
+    "id": "fabwaseem/agent-rules",
+    "language": "TypeScript",
+    "name": "fabwaseem/agent-rules",
+    "stars": 0,
+    "updated_at": "2026-10-16T07:18:32Z",
+    "url": "https://github.com/fabwaseem/agent-rules"
+  },
+  {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 3,
+    "updated_at": "2026-10-16T07:17:51Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +28,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-16T07:00:45Z",
+    "updated_at": "2026-10-16T07:15:34Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\ud83c\udfad 277 \u4e2a\u5373\u63d2\u5373\u7528\u7684 AI \u4e13\u5bb6\u89d2\u8272 \u2014 \u652f\u6301 Claude Code/Cursor/Copilot \u7b49 20 \u79cd\u5de5\u5177\uff0c\u8986\u76d6\u5de5\u7a0b/\u8bbe\u8ba1/\u8425\u9500/\u91d1\u878d\u7b49 20 \u4e2a\u90e8\u95e8\u3002\u542b 64 \u4e2a\u4e2d\u56fd\u5e02\u573a\u539f\u521b\u667a\u80fd\u4f53\uff08\u5c0f\u7ea2\u4e66/\u6296\u97f3/\u5fae\u4fe1/\u98de\u4e66/\u9489\u9489/Qt \u4e0a",
+    "id": "jnMetaCode/agency-agents-zh",
+    "language": "Shell",
+    "name": "jnMetaCode/agency-agents-zh",
+    "stars": 21307,
+    "updated_at": "2026-10-16T07:05:55Z",
+    "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
   {
     "description": "Free AI coding rules + skills for Cursor, Claude Code, Codex (AGENTS.md), Windsurf and Copilot. MIT.",
@@ -88,15 +111,6 @@
     "stars": 27,
     "updated_at": "2026-10-16T01:40:22Z",
     "url": "https://github.com/MnemeHQ/mneme"
-  },
-  {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 3,
-    "updated_at": "2026-10-16T01:27:41Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "cursorrules": {
@@ -369,7 +383,7 @@
     "language": "TypeScript",
     "name": "Katta041/asitis-agent-tools",
     "stars": 0,
-    "updated_at": "2026-10-15T22:25:04Z",
+    "updated_at": "2026-10-16T07:18:29Z",
     "url": "https://github.com/Katta041/asitis-agent-tools"
   },
   {
@@ -437,7 +451,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 164650,
+    "stars": 164658,
     "updated_at": "2026-10-15T01:02:15Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -494,14 +508,5 @@
     "stars": 0,
     "updated_at": "2026-10-14T15:39:52Z",
     "url": "https://github.com/BachSchneider93/rollinggo-hotel-skill-cn"
-  },
-  {
-    "description": "agent wiki +engineering skills ",
-    "id": "Nataliaa68061/third-brain-v7-skills",
-    "language": "Python",
-    "name": "Nataliaa68061/third-brain-v7-skills",
-    "stars": 0,
-    "updated_at": "2026-10-14T15:36:43Z",
-    "url": "https://github.com/Nataliaa68061/third-brain-v7-skills"
   }
 ]
