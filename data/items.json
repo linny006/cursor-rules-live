@@ -1,11 +1,20 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-10-16T02:18:12Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-16T02:00:54Z",
+    "updated_at": "2026-10-16T02:15:33Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -77,15 +86,6 @@
     "url": "https://github.com/shipkitsdev/harness-desk-starter"
   },
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-10-15T23:25:34Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: Branch workflow for precedent \u2014 develop and PRs only; main is protected on GitHub.\nalwaysApply: true\n---\n\n# Git workflow (precedent repo)\n\nTreat **`main` as read-only locally**. GitHub branch protection requires pull requests and the `test` check; direct pushes to `main` are rejected.\n\n## Do\n\n- Check out **`develop`** before making changes.\n- Commit on **`develop`**.\n- Open a PR **`develop` \u2192 `main`** and merge after CI passes.\n- Use `gh pr create` when the user asks for a PR.\n\n## Do not\n\n- Commit on **`main`** for normal work. If you do, you may need `git reset --hard origin/main` after the same changes land via a merge commit on the remote.\n\n## Sync\n\nAfter merges on GitHub: `git checkout main && git pull origin main`, then `git checkout develop && git pull origin develop` (or merge `main` into `develop` if the team prefers).\n",
       "format": "mdc",
@@ -123,7 +123,7 @@
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 1,
-    "updated_at": "2026-10-15T22:09:23Z",
+    "updated_at": "2026-10-16T02:29:44Z",
     "url": "https://github.com/bompus/house-rules"
   },
   {
@@ -250,7 +250,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40868,
+    "stars": 40869,
     "updated_at": "2026-10-15T15:11:55Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -410,7 +410,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 164473,
+    "stars": 164479,
     "updated_at": "2026-10-15T01:02:15Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
