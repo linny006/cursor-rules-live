@@ -1,21 +1,12 @@
 [
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-16T15:00:40Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
-    "description": "\u82f1\u6587\u6587\u7ae0\u80cc\u8bf5\u6280\u5de7",
-    "id": "yxdwind/english-memory-method",
-    "language": "HTML",
-    "name": "yxdwind/english-memory-method",
-    "stars": 1,
-    "updated_at": "2026-10-16T14:41:50Z",
-    "url": "https://github.com/yxdwind/english-memory-method"
+    "description": "Architectural drift prevention for the agentic AI SDLC.",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 27,
+    "updated_at": "2026-10-16T15:25:36Z",
+    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "cursorrules": {
@@ -28,8 +19,26 @@
     "language": "JavaScript",
     "name": "roedyrustam/vibes-plug",
     "stars": 75,
-    "updated_at": "2026-10-16T14:37:20Z",
+    "updated_at": "2026-10-16T15:16:30Z",
     "url": "https://github.com/roedyrustam/vibes-plug"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-16T15:15:57Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\u82f1\u6587\u6587\u7ae0\u80cc\u8bf5\u6280\u5de7",
+    "id": "yxdwind/english-memory-method",
+    "language": "HTML",
+    "name": "yxdwind/english-memory-method",
+    "stars": 1,
+    "updated_at": "2026-10-16T14:41:50Z",
+    "url": "https://github.com/yxdwind/english-memory-method"
   },
   {
     "description": "Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam",
@@ -39,15 +48,6 @@
     "stars": 0,
     "updated_at": "2026-10-16T14:19:42Z",
     "url": "https://github.com/eli-alvarado/agentkit-drawer"
-  },
-  {
-    "description": "Architectural drift prevention for the agentic AI SDLC.",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 27,
-    "updated_at": "2026-10-16T15:00:16Z",
-    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
@@ -95,7 +95,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 164977,
+    "stars": 164984,
     "updated_at": "2026-10-16T13:20:54Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -362,7 +362,7 @@
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 1,
-    "updated_at": "2026-10-16T15:11:58Z",
+    "updated_at": "2026-10-16T15:26:10Z",
     "url": "https://github.com/bompus/house-rules"
   },
   {
