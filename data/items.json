@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-16T08:30:51Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "agent wiki +engineering skills ",
     "id": "DonaldBrown35880/third-brain-v7-skills",
     "language": "Python",
@@ -18,18 +27,9 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 164718,
+    "stars": 164728,
     "updated_at": "2026-10-16T08:17:57Z",
     "url": "https://github.com/DietrichGebert/ponytail"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-16T08:15:44Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
@@ -86,7 +86,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21311,
+    "stars": 21312,
     "updated_at": "2026-10-16T07:05:55Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -323,7 +323,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40885,
+    "stars": 40886,
     "updated_at": "2026-10-15T15:11:55Z",
     "url": "https://github.com/wshobson/agents"
   },
