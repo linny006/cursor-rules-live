@@ -1,12 +1,12 @@
 [
   {
-    "description": "Read-only linter for CLAUDE.md, AGENTS.md, SKILL.md and agent rules files: vendor limits, tokens loaded per session, hid",
-    "id": "Katta041/asitis-agent-tools",
-    "language": "TypeScript",
-    "name": "Katta041/asitis-agent-tools",
+    "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
+    "id": "wright1178/AIGX",
+    "language": "Python",
+    "name": "wright1178/AIGX",
     "stars": 0,
-    "updated_at": "2026-10-16T09:49:53Z",
-    "url": "https://github.com/Katta041/asitis-agent-tools"
+    "updated_at": "2026-10-16T09:53:49Z",
+    "url": "https://github.com/wright1178/AIGX"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-16T09:45:54Z",
+    "updated_at": "2026-10-16T09:50:36Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Read-only linter for CLAUDE.md, AGENTS.md, SKILL.md and agent rules files: vendor limits, tokens loaded per session, hid",
+    "id": "Katta041/asitis-agent-tools",
+    "language": "TypeScript",
+    "name": "Katta041/asitis-agent-tools",
+    "stars": 0,
+    "updated_at": "2026-10-16T09:49:53Z",
+    "url": "https://github.com/Katta041/asitis-agent-tools"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -54,7 +63,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 164774,
+    "stars": 164778,
     "updated_at": "2026-10-16T08:17:57Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -499,14 +508,5 @@
     "stars": 0,
     "updated_at": "2026-10-14T16:03:29Z",
     "url": "https://github.com/Stephanie0574/AIGX"
-  },
-  {
-    "description": "agent wiki +engineering skills ",
-    "id": "vittoriahoffmann/third-brain-v7-skills",
-    "language": "Python",
-    "name": "vittoriahoffmann/third-brain-v7-skills",
-    "stars": 0,
-    "updated_at": "2026-10-14T15:55:34Z",
-    "url": "https://github.com/vittoriahoffmann/third-brain-v7-skills"
   }
 ]
