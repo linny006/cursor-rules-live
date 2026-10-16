@@ -1,12 +1,21 @@
 [
   {
-    "description": "Free starter agent skill for Claude Code, Cursor and Codex, from ShipKits. https://shipkits.dev/free",
-    "id": "shipkitsdev/harness-desk-starter",
-    "language": "Shell",
-    "name": "shipkitsdev/harness-desk-starter",
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
     "stars": 0,
-    "updated_at": "2026-10-16T00:55:52Z",
-    "url": "https://github.com/shipkitsdev/harness-desk-starter"
+    "updated_at": "2026-10-16T01:05:02Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
+  },
+  {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 1,
+    "updated_at": "2026-10-16T01:04:00Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +23,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-16T00:45:42Z",
+    "updated_at": "2026-10-16T01:00:43Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Free starter agent skill for Claude Code, Cursor and Codex, from ShipKits. https://shipkits.dev/free",
+    "id": "shipkitsdev/harness-desk-starter",
+    "language": "Shell",
+    "name": "shipkitsdev/harness-desk-starter",
+    "stars": 0,
+    "updated_at": "2026-10-16T00:55:52Z",
+    "url": "https://github.com/shipkitsdev/harness-desk-starter"
   },
   {
     "cursorrules": {
@@ -89,24 +107,6 @@
     "stars": 1,
     "updated_at": "2026-10-15T22:09:23Z",
     "url": "https://github.com/bompus/house-rules"
-  },
-  {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
-    "stars": 0,
-    "updated_at": "2026-10-15T22:03:03Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 1,
-    "updated_at": "2026-10-15T22:01:15Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "description": "AI skill for Claude, Cursor & Codex that designs system architecture for new projects and audits existing codebases \u2014 cl",
@@ -401,7 +401,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 164431,
+    "stars": 164437,
     "updated_at": "2026-10-15T01:02:15Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
