@@ -1,5 +1,41 @@
 [
   {
+    "description": "\u63d0\u793a\u8bcd\u767e\u5b9d\u7bb1\uff1a66 \u6761\u539f\u521b\u4e2d\u6587 Prompt \u4e0e AI Agent \u6a21\u677f\uff08\u7f16\u7a0b/\u524d\u7aef/\u4ee3\u7801\u5ba1\u67e5/\u6587\u6863/\u4ea7\u54c1/\u8fd0\u8425/\u5b66\u4e60/\u6c42\u804c/Agent \u5de5\u4f5c\u6d41/Cursor rules/Claude skills\uff09\uff0c\u586b\u53d8\u91cf\u4e00\u952e\u590d\u5236",
+    "id": "MsNan/prompt-hub-cn",
+    "language": "JavaScript",
+    "name": "MsNan/prompt-hub-cn",
+    "stars": 0,
+    "updated_at": "2026-10-16T13:44:11Z",
+    "url": "https://github.com/MsNan/prompt-hub-cn"
+  },
+  {
+    "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
+    "id": "philipbankier/awesome-agent-skills",
+    "language": "TypeScript",
+    "name": "philipbankier/awesome-agent-skills",
+    "stars": 20,
+    "updated_at": "2026-10-16T13:35:28Z",
+    "url": "https://github.com/philipbankier/awesome-agent-skills"
+  },
+  {
+    "description": "Free MCP server, Cursor rule and Claude skill that help AI coding assistants avoid common security holes in vibe-coded a",
+    "id": "toby7979/sealmyapp-tools",
+    "language": "TypeScript",
+    "name": "toby7979/sealmyapp-tools",
+    "stars": 0,
+    "updated_at": "2026-10-16T13:34:45Z",
+    "url": "https://github.com/toby7979/sealmyapp-tools"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-16T13:30:37Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "# Vibes-Plug \u2014 150-Skill AI Agent Swarm Architecture (v4.2.2)\n# Universal AI Plugin for Antigravity, Claude, Cursor, and OpenAI Codex\n\n## Primary Trigger & Skill Auto-Synchronization (Pemicu Utama)\nUpon installation, `vibes-plug` is the **PRIMARY TRIGGER (Pemicu Utama)** for all Cursor AI interactions.\n- The AI agent MUST automatically intercept prompts and synchronize relevant skills without waiting for explicit `@` mentions.\n- Automatically connects cooperating skills (e.g. `doku-payment-gateway` + `saas-billing` + `payment-gateway-expert`; `senior-frontend` + `tailwind-expert`).\n- Multi-domain workflows trigger Swarm Topologies (Fan-Out/Fan-In, Pipeline Saga, Critic-Validator).\n\n## About\nThis project uses the vibes-plug skills ecosystem with 150 specialized skills.\nEach skill is a `SKILL.md` file in the `skills/` directory containing domain-specific\ninstructions, patterns, and best practices for the modern 2026 tech stack.\n\n## Core Stack (2026 Edition)\n- Frontend: React 19, Next.js 15 App Router, Tailwind CSS v4 (@theme), TypeScript 5.8+\n- Backend: Node.js 24 LTS, Bun 1.2+, Hono v4, Fastify 5, Python 3.14, Go 1.25+, Rust 2024\n- Database: Prisma 6, Drizzle ORM, PostgreSQL, Supabase, Neon, Turso\n- AI/LLM: Vercel AI SDK 5.x/6.x, MCP v1.x (FastMCP / Streamable HTTP), pgvector, RAG pipelines\n\n## Mandatory Before Coding\n1. Read the relevant `skills/<skill-name>/SKILL.md` files before writing code.\n2. Think deeply before acting \u2014 analyze constraints, question assumptions, validate approach.\n3. For new projects, auto-generate: PRD.md, ERD.md, DOKUMENTASI.md.\n\n## Skill Domains\n- \ud83e\udd16 AI & Agentic: ai-llm-integration-expert, vercel-ai-sdk-expert, deep-research-analyst, synthetic-data-finetuning-expert, pydantic-ai-expert, mcp-server-architect, vector-db-rag-expert, multi-agent-orchestration, graph-rag-knowledge-expert, local-slm-edge-ai-expert, llm-finops-router, agentic-memory-architect\n- \ud83c\udfa8 Design & UI/UX: design-system-architect, hig, ui-ux-pro-max, tailwind-expert, modern-css-native-expert\n- \ud83d\udda5\ufe0f Frontend: senior-frontend, tailwind-expert, nextjs-app-router-expert, tanstack-query-expert, vue-frontend-expert, astro-framework-expert, svelte-sveltekit-expert, solidjs-expert, angular-expert, browser-extension-mv3-pro\n- \u2699\ufe0f Backend: js-backend-expert, python-programming-expert, go-programming-expert, rust-programming-expert, api-design-expert, openapi-swagger-codegen-expert, spec-driven-development-expert, fullstack-expert\n- \u2601\ufe0f SaaS & Cloud: saas-architect, saas-billing, saas-multi-tenant, ci-cd-devops-architect, cloud-hosting-expert, payment-gateway-expert, doku-payment-gateway, agentic-m2m-settlement\n- \ud83d\uddc4\ufe0f Database: database-orm-expert, supabase-security-expert, data-pipeline-etl-expert\n- \ud83d\udd12 Security: authentication-identity-expert, e2e-testing-expert, production-ready-hardener, zero-trust-secret-vault, anti-slop, autonomous-tdd-debugger, zero-tech-debt-auditor\n- \ud83d\udd0d SEO & Telemetry: seo, data-telemetry-expert\n- \ud83d\udee0\ufe0f Utilities: brainstorming, prd-architect, session-memory-manager, zero-to-prod-orchestrator, web-scraper, website-design-cloner\n\n## Code Quality & Sovereign Anti-Slop Directive\n- Zero-tolerance for AI slop (`anti-slop` skill):\n  * Code-first delivery with 100% complete implementations (no `// TODO`, `// ...`, or mock stubs).\n  * Hyper-YAGNI: avoid speculative abstractions and redundant wrapper layers.\n  * Meaningful comments only: explain non-obvious business/architectural WHY, never syntax mechanics.\n  * No swallowed errors (`catch(e){}` prohibited); structured logging (`Pino`) required.\n  * UI & Visual Sanitation: Enforce Linear/Stripe-caliber design. Zero generic blue-purple gradients, no neon glow orbs, no pill button addiction (`rounded-full` on rectangular elements), mandatory 5-state contract, tabular numerals (`tabular-nums`), and crisp 1px borders.\n  * Run `node scripts/check-anti-slop.js` to verify zero violations.\n## Sovereign Token Optimization Protocol (Hemat Token)\n- Enforce deterministic KV-cache prefixing via `kv-cache-prefix-optimizer` (75-90% prompt cache hit rates).\n- Prune subagent context payloads: pass only targeted `CONTEXT_MAP.md` slices, not raw chat transcripts.\n- Use dynamic model cascading (`adaptive-model-cascade`): `flash` for research/linting, `pro` for architecture/security.\n- Ultra-compact session checkpoints (<300 tokens) via `session-memory-manager`.\n- Non-Degradation Invariant: Never truncate code with placeholders or stubs to save tokens. Code must be 100% complete.\n\n## Orchestration Flow\n1. Ideation: brainstorming \u2192 prd-architect\n2. Design: design-system-architect \u2192 senior-frontend \u2192 ui-ux-pro-max\n3. Backend: js-backend-expert \u2192 event-driven-architect \u2192 autonomous-tdd-debugger\n4. AI: ai-llm-integration-expert \u2192 mcp-server-architect \u2192 multi-agent-orchestration\n5. SaaS: saas-architect \u2192 saas-billing + saas-multi-tenant + doku-payment-gateway\n6. Launch: e2e-testing-expert \u2192 zero-tech-debt-auditor \u2192 seo \u2192 anti-slop \u2192 production-ready-hardener\n",
       "format": "text",
@@ -23,18 +59,9 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 164918,
+    "stars": 164932,
     "updated_at": "2026-10-16T13:20:54Z",
     "url": "https://github.com/DietrichGebert/ponytail"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-16T13:15:45Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Vue3 + uni-app \u4e2d\u6587 AI \u7f16\u7a0b\u6280\u80fd\u5305\uff1aCursor Rules / Claude Code Skills / Trae / Codex \u4e00\u884c\u547d\u4ee4\u5b89\u88c5",
@@ -44,20 +71,6 @@
     "stars": 0,
     "updated_at": "2026-10-16T13:11:09Z",
     "url": "https://github.com/MsNan/vue-uniapp-skills"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Delivery guardrails for coding agents working from a PRD and task plan\nglobs:\nalwaysApply: true\n---\n\n# Created with AI assistance; checked before release by the publisher (arrenite).\n\n# Working agreement\n\n- Read `docs/PRD.md` and `docs/TASK-PLAN.md` before starting. Work on one task ID at a time.\n- Restate the task, the files you expect to change, and your test approach before editing.\n- Stay inside the in-scope list. If a change outside it seems needed, stop and explain why.\n- Do not add dependencies, change build or CI config, or alter public interfaces without asking.\n- Write or update tests for every acceptance criterion you touch. Run them and report the result.\n- Never hard-code secrets, tokens, or personal data. Use the existing config mechanism.\n- When something is ambiguous, list the options and ask; do not invent requirements.\n- Finish with a summary: what changed, why, tests run, known gaps, and new risks or assumptions\n  to add to `docs/RISK-LOG.md`.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/agent-delivery.mdc"
-    },
-    "description": "Free MIT templates for PMs handing work to AI coding agents (Cursor, Claude Code): agent-ready PRD, task plan, review ch",
-    "id": "arrhen/agent-ready-pm-kit",
-    "language": "\u2014",
-    "name": "arrhen/agent-ready-pm-kit",
-    "stars": 0,
-    "updated_at": "2026-10-16T13:05:47Z",
-    "url": "https://github.com/arrhen/agent-ready-pm-kit"
   },
   {
     "cursorrules": {
@@ -470,28 +483,5 @@
     "stars": 0,
     "updated_at": "2026-10-15T18:26:30Z",
     "url": "https://github.com/IbrahimIbrahim49/AIGX"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Supabase RLS, grants and keys. Apply when writing Supabase migrations, policies, grants, views, functions, or client code that reads or writes Supabase data.\nglobs: supabase/**/*.sql, **/migrations/**/*.sql, **/*.sql\nalwaysApply: false\n---\n\n# Supabase RLS and grants: rules for writing secure migrations\n\nApply these whenever you create or change a Supabase table, view, function, policy or grant, or write client code that reads or writes Supabase data.\n\n## Every table in an exposed schema\n- Enable RLS in the **same migration** that creates the table: `alter table public.x enable row level security;`. A table must never exist without it.\n- RLS on with no policy denies everything. Add the policies the app needs in that same migration.\n- Grant explicitly, per table, only to the role that needs it and only the operations the app uses:\n  `grant select on public.x to authenticated;`\n  New tables don't get automatic grants for `anon`/`authenticated`/`service_role` (Supabase change of Oct 30, 2026); without a grant the API returns `42501 permission denied for table`.\n- Never \"fix\" a 42501 with `grant ... on all tables in schema public to anon, authenticated`. It also grants every table with RLS off, making it readable and writable with the public anon key.\n- Grant to `anon` only for data that signed-out visitors should read, and pair it with a policy that allows exactly that.\n\n## Policies\n- Write one policy per operation (`for select`, `for insert`, `for update`, `for delete`) and name the role with `to authenticated` (or `to anon`).\n- Wrap `auth.uid()` as `(select auth.uid())` so Postgres evaluates it once per query, not per row.\n- INSERT needs `with check`; UPDATE needs both `using` (which rows) and `with check` (what they may become), otherwise a user can reassign a row to someone else.\n- UPDATE also needs a SELECT policy for the same rows, or it silently affects 0 rows.\n- Never use `using (true)` / `with check (true)` on private data. Allow it only for data that is public on purpose, and say so in a comment.\n- A policy must not query the table it protects (that raises `42P17 infinite recursion detected in policy`). Put the lookup in a `security definer` function in a **non-exposed** schema (e.g. `private`), with `set search_path = ''`, schema-qualified names, a filter on `(select auth.uid())`, `revoke all ... from public` and `grant execute` only to `authenticated`.\n- Multi-tenant data: scope rows to the caller's tenant through a membership lookup (the helper above), never through a value the client sends.\n\n## Views, functions, other schemas\n- Views run with the owner's privileges by default and skip RLS. Create them with `with (security_invoker = true)`, or don't expose them.\n- `security definer` functions bypass RLS: keep them out of exposed schemas unless they are meant as an API, and validate the caller inside.\n- A table in a non-`public` schema needs that schema in the Data API's exposed schemas, `grant usage on schema ... to <role>`, plus the table grant and RLS.\n\n## Keys and clients\n- The `anon` / publishable key is public by design; RLS is what protects data.\n- Never put the `service_role` / `sb_secret_...` key in frontend code, `NEXT_PUBLIC_*` / `VITE_*` env vars, or anything shipped to the browser. It bypasses all RLS. Use it only on the server.\n- On the server, create the Supabase client from the user's session (request cookies) so `auth.uid()` resolves; otherwise queries run as `anon`.\n\n## Errors and what they mean\n- `42501 permission denied for table|schema`: missing grant or schema usage (before RLS runs).\n- `new row violates row-level security policy`: an INSERT/UPDATE failed `with check`.\n- `PGRST116 Cannot coerce the result to a single JSON object` with `.single()` and a row that exists: RLS is hiding it from this caller (or there's no session). Use `.maybeSingle()` only when 0 rows is a normal answer.\n- An update or delete that returns no error but changes nothing: no matching UPDATE/DELETE (or SELECT) policy. Chain `.select()` to see the affected rows.\n- `PGRST205 Could not find the table ... in the schema cache`: wrong name/schema, schema not exposed, or a stale cache (`notify pgrst, 'reload schema';`).\n\n## Prove it\n- Test policies as the real roles (`anon`, `authenticated` as user A and as user B), not in the SQL editor, which bypasses RLS.\n- Check what the API roles can reach:\n  ```sql\n  select c.relname,\n         has_table_privilege('anon', c.oid, 'select') as anon_can_read,\n         c.relrowsecurity as rls_on\n  from pg_class c join pg_namespace n on n.oid = c.relnamespace\n  where n.nspname = 'public' and c.relkind = 'r'\n  order by 1;\n  ```\n  `anon_can_read = true` with `rls_on = false` means the table is public.\n- Gate it in CI: `npx airlock-rls` fails the build when a table ships without RLS or with an always-true policy.\n\nGuides with tested SQL for each rule: https://shipsealed.com/rls/\n",
-      "format": "mdc",
-      "path": ".cursor/rules/supabase-rls.mdc"
-    },
-    "description": "Rules that make Cursor, Claude Code and other AI agents write Supabase RLS policies and grants that don't leak data.",
-    "id": "mateuszingano/supabase-rls-rules",
-    "language": "\u2014",
-    "name": "mateuszingano/supabase-rls-rules",
-    "stars": 0,
-    "updated_at": "2026-10-15T18:19:46Z",
-    "url": "https://github.com/mateuszingano/supabase-rls-rules"
-  },
-  {
-    "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 plus AIOS, an open-source markdown memory system for coding ",
-    "id": "sublimecoder/sublimecoding",
-    "language": "\u2014",
-    "name": "sublimecoder/sublimecoding",
-    "stars": 0,
-    "updated_at": "2026-10-15T15:57:05Z",
-    "url": "https://github.com/sublimecoder/sublimecoding"
   }
 ]
