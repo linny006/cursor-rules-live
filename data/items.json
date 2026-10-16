@@ -1,5 +1,41 @@
 [
   {
+    "description": "Free private developer tools (JSON, JWT, cURL, cron, SSH keys) that run in your browser, plus AI Skill Studio: a CLAUDE.",
+    "id": "Saad-web-spec/DevScratchPad",
+    "language": "TypeScript",
+    "name": "Saad-web-spec/DevScratchPad",
+    "stars": 2,
+    "updated_at": "2026-10-16T10:39:46Z",
+    "url": "https://github.com/Saad-web-spec/DevScratchPad"
+  },
+  {
+    "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
+    "id": "RenjunFox9003/AIGX",
+    "language": "Python",
+    "name": "RenjunFox9003/AIGX",
+    "stars": 0,
+    "updated_at": "2026-10-16T10:38:14Z",
+    "url": "https://github.com/RenjunFox9003/AIGX"
+  },
+  {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 49,
+    "updated_at": "2026-10-16T10:36:19Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-16T10:30:52Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
     "id": "Adrian38214/AIGX",
     "language": "Python",
@@ -25,15 +61,6 @@
     "stars": 0,
     "updated_at": "2026-10-16T10:16:11Z",
     "url": "https://github.com/Chen66488/rollinggo-hotel-skill-cn"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-16T10:15:51Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "agent wiki +engineering skills ",
@@ -81,15 +108,6 @@
     "url": "https://github.com/Katta041/asitis-agent-tools"
   },
   {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 49,
-    "updated_at": "2026-10-16T09:41:13Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
     "description": "\ud83c\udfad 277 \u4e2a\u5373\u63d2\u5373\u7528\u7684 AI \u4e13\u5bb6\u89d2\u8272 \u2014 \u652f\u6301 Claude Code/Cursor/Copilot \u7b49 20 \u79cd\u5de5\u5177\uff0c\u8986\u76d6\u5de5\u7a0b/\u8bbe\u8ba1/\u8425\u9500/\u91d1\u878d\u7b49 20 \u4e2a\u90e8\u95e8\u3002\u542b 64 \u4e2a\u4e2d\u56fd\u5e02\u573a\u539f\u521b\u667a\u80fd\u4f53\uff08\u5c0f\u7ea2\u4e66/\u6296\u97f3/\u5fae\u4fe1/\u98de\u4e66/\u9489\u9489/Qt \u4e0a",
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
@@ -117,7 +135,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 164803,
+    "stars": 164810,
     "updated_at": "2026-10-16T08:17:57Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -129,15 +147,6 @@
     "stars": 1,
     "updated_at": "2026-10-16T08:08:22Z",
     "url": "https://github.com/bompus/house-rules"
-  },
-  {
-    "description": "Free private developer tools (JSON, JWT, cURL, cron, SSH keys) that run in your browser, plus AI Skill Studio: a CLAUDE.",
-    "id": "Saad-web-spec/DevScratchPad",
-    "language": "TypeScript",
-    "name": "Saad-web-spec/DevScratchPad",
-    "stars": 2,
-    "updated_at": "2026-10-16T07:51:18Z",
-    "url": "https://github.com/Saad-web-spec/DevScratchPad"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -395,7 +404,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40891,
+    "stars": 40892,
     "updated_at": "2026-10-15T15:11:55Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -494,14 +503,5 @@
     "stars": 0,
     "updated_at": "2026-10-15T05:32:25Z",
     "url": "https://github.com/mrvishaljjoshi-cmyk/VJSS"
-  },
-  {
-    "description": "\ud83d\ude80 Official AI Sourcing & BOM Matcher Agent for DHX Tech. Instantly find million-level in-stock IC components (TI, ST, NX",
-    "id": "cy117Hub/dhx-tech-electronic-components-sourcing-skill",
-    "language": "\u2014",
-    "name": "cy117Hub/dhx-tech-electronic-components-sourcing-skill",
-    "stars": 1,
-    "updated_at": "2026-10-15T04:34:35Z",
-    "url": "https://github.com/cy117Hub/dhx-tech-electronic-components-sourcing-skill"
   }
 ]
