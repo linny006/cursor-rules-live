@@ -1,21 +1,21 @@
 [
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-16T16:00:59Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
     "id": "bompus/house-rules",
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 1,
-    "updated_at": "2026-10-16T16:13:06Z",
+    "updated_at": "2026-10-16T16:25:42Z",
     "url": "https://github.com/bompus/house-rules"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-16T16:15:55Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Architectural drift prevention for the agentic AI SDLC.",
@@ -104,7 +104,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 165010,
+    "stars": 165021,
     "updated_at": "2026-10-16T13:20:54Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
