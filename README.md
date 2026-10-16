@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-16 00:30 UTC
+> ⏰ Last updated: 2026-10-16 00:35 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,8 +53,8 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [grizzlykiwidev/grizzlykiwidev.github.io](https://github.com/grizzlykiwidev/grizzlykiwidev.github.io) | 0 | — | 2026-10-16 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/grizzlykiwidev/grizzlykiwidev.github.io/) | Free Cursor rules (.mdc), AGENTS.md & CLAUDE.md templates and prompts for AI coding agents: Next.js + Supabase, Godot 4. |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-16 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-16 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [grizzlykiwidev/grizzlykiwidev.github.io](https://github.com/grizzlykiwidev/grizzlykiwidev.github.io) | 0 | — | 2026-10-16 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/grizzlykiwidev/grizzlykiwidev.github.io/) | Free Cursor rules (.mdc), AGENTS.md & CLAUDE.md templates and prompts for AI coding agents: Next.js + Supabase, Godot 4. |
 | 3 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-15 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
 | 4 | [useprecedent/precedent](https://github.com/useprecedent/precedent) | 1 | TypeScript | 2026-10-16 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/useprecedent/precedent/) | Effective policy for this path. Compile instruction files and report always-on conflicts. |
 | 5 | [Saad-web-spec/DevScratchPad](https://github.com/Saad-web-spec/DevScratchPad) | 2 | TypeScript | 2026-10-15 | — | Free private developer tools (JSON, JWT, cURL, cron, SSH keys) that run in your browser, plus AI Skill Studio: a CLAUDE. |
