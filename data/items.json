@@ -1,5 +1,28 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: Branch workflow for precedent \u2014 develop and PRs only; main is protected on GitHub.\nalwaysApply: true\n---\n\n# Git workflow (precedent repo)\n\nTreat **`main` as read-only locally**. GitHub branch protection requires pull requests and the `test` check; direct pushes to `main` are rejected.\n\n## Do\n\n- Check out **`develop`** before making changes.\n- Commit on **`develop`**.\n- Open a PR **`develop` \u2192 `main`** and merge after CI passes.\n- Use `gh pr create` when the user asks for a PR.\n\n## Do not\n\n- Commit on **`main`** for normal work. If you do, you may need `git reset --hard origin/main` after the same changes land via a merge commit on the remote.\n\n## Sync\n\nAfter merges on GitHub: `git checkout main && git pull origin main`, then `git checkout develop && git pull origin develop` (or merge `main` into `develop` if the team prefers).\n",
+      "format": "mdc",
+      "path": ".cursor/rules/git-workflow.mdc"
+    },
+    "description": "Effective policy for this path. Compile instruction files and report always-on conflicts.",
+    "id": "useprecedent/precedent",
+    "language": "TypeScript",
+    "name": "useprecedent/precedent",
+    "stars": 1,
+    "updated_at": "2026-10-16T21:02:47Z",
+    "url": "https://github.com/useprecedent/precedent"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-16T21:00:59Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Free AGENTS.md, Cursor rule and audit-prompt templates for AI coding agents (CC BY 4.0). AI-assisted starting points.",
     "id": "agentkitco/agent-config-templates",
     "language": "\u2014",
@@ -16,15 +39,6 @@
     "stars": 0,
     "updated_at": "2026-10-16T20:47:55Z",
     "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-16T20:45:49Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
@@ -73,7 +87,7 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 27,
-    "updated_at": "2026-10-16T19:39:46Z",
+    "updated_at": "2026-10-16T21:11:54Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
@@ -217,7 +231,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 165151,
+    "stars": 165159,
     "updated_at": "2026-10-16T13:20:54Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -464,14 +478,5 @@
     "stars": 0,
     "updated_at": "2026-10-16T03:30:53Z",
     "url": "https://github.com/geronco/commandvault-library"
-  },
-  {
-    "description": "Free, copy-paste AI coding agent rules: Cursor .mdc rules, AGENTS.md and CLAUDE.md for Next.js, React, Python, TypeScrip",
-    "id": "grizzlykiwidev/awesome-cursor-rules",
-    "language": "\u2014",
-    "name": "grizzlykiwidev/awesome-cursor-rules",
-    "stars": 0,
-    "updated_at": "2026-10-16T01:18:34Z",
-    "url": "https://github.com/grizzlykiwidev/awesome-cursor-rules"
   }
 ]
