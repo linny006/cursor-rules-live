@@ -1,5 +1,32 @@
 [
   {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 49,
+    "updated_at": "2026-10-16T18:29:22Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+  },
+  {
+    "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
+    "id": "Joao39783/AIGX",
+    "language": "Python",
+    "name": "Joao39783/AIGX",
+    "stars": 0,
+    "updated_at": "2026-10-16T18:23:35Z",
+    "url": "https://github.com/Joao39783/AIGX"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-16T18:23:34Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "agent wiki +engineering skills ",
     "id": "LuukMalik/third-brain-v7-skills",
     "language": "Python",
@@ -16,15 +43,6 @@
     "stars": 0,
     "updated_at": "2026-10-16T18:15:56Z",
     "url": "https://github.com/lJaved97/MotionVault"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-16T18:15:49Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\u5168\u7403\u9152\u5e97\u9884\u8ba2&\u4f4e\u4ef7\u76d1\u63a7\u63d0\u9192Skill\uff0c200\u4e07+\u7cbe\u9009\u9152\u5e97\uff0c\u72ec\u5bb6\u4f18\u60e0\u4ef7\u683c\uff0c\u8ba9\u4f60\u7684Agent\u8f7b\u677e\u9884\u8ba2\u54c1\u8d28\u9152\u5e97\uff0c\u652f\u6301\u652f\u4ed8\u5b9d\u4e0b\u5355+\u67e5\u8be2\u5386\u53f2\u8ba2\u5355\uff0c24 \u5c0f\u65f6\u5ba2\u670d\u652f\u6301\uff0c\u5168\u5929\u5019\u54cd\u5e94\u3002",
@@ -190,7 +208,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 165085,
+    "stars": 165088,
     "updated_at": "2026-10-16T13:20:54Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -315,15 +333,6 @@
     "stars": 0,
     "updated_at": "2026-10-16T10:38:14Z",
     "url": "https://github.com/RenjunFox9003/AIGX"
-  },
-  {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 49,
-    "updated_at": "2026-10-16T10:36:19Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
@@ -464,19 +473,5 @@
     "stars": 0,
     "updated_at": "2026-10-16T00:55:52Z",
     "url": "https://github.com/shipkitsdev/harness-desk-starter"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Branch workflow for precedent \u2014 develop and PRs only; main is protected on GitHub.\nalwaysApply: true\n---\n\n# Git workflow (precedent repo)\n\nTreat **`main` as read-only locally**. GitHub branch protection requires pull requests and the `test` check; direct pushes to `main` are rejected.\n\n## Do\n\n- Check out **`develop`** before making changes.\n- Commit on **`develop`**.\n- Open a PR **`develop` \u2192 `main`** and merge after CI passes.\n- Use `gh pr create` when the user asks for a PR.\n\n## Do not\n\n- Commit on **`main`** for normal work. If you do, you may need `git reset --hard origin/main` after the same changes land via a merge commit on the remote.\n\n## Sync\n\nAfter merges on GitHub: `git checkout main && git pull origin main`, then `git checkout develop && git pull origin develop` (or merge `main` into `develop` if the team prefers).\n",
-      "format": "mdc",
-      "path": ".cursor/rules/git-workflow.mdc"
-    },
-    "description": "Effective policy for this path. Compile instruction files and report always-on conflicts.",
-    "id": "useprecedent/precedent",
-    "language": "TypeScript",
-    "name": "useprecedent/precedent",
-    "stars": 1,
-    "updated_at": "2026-10-16T00:04:21Z",
-    "url": "https://github.com/useprecedent/precedent"
   }
 ]
