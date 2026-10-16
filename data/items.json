@@ -1,5 +1,23 @@
 [
   {
+    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
+    "id": "bompus/house-rules",
+    "language": "JavaScript",
+    "name": "bompus/house-rules",
+    "stars": 1,
+    "updated_at": "2026-10-16T08:08:22Z",
+    "url": "https://github.com/bompus/house-rules"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-16T08:00:52Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Free private developer tools (JSON, JWT, cURL, cron, SSH keys) that run in your browser, plus AI Skill Studio: a CLAUDE.",
     "id": "Saad-web-spec/DevScratchPad",
     "language": "TypeScript",
@@ -18,18 +36,9 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 164687,
+    "stars": 164701,
     "updated_at": "2026-10-16T07:46:50Z",
     "url": "https://github.com/DietrichGebert/ponytail"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-16T07:45:45Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -98,15 +107,6 @@
     "stars": 1,
     "updated_at": "2026-10-16T06:53:32Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
-    "id": "bompus/house-rules",
-    "language": "JavaScript",
-    "name": "bompus/house-rules",
-    "stars": 1,
-    "updated_at": "2026-10-16T07:53:59Z",
-    "url": "https://github.com/bompus/house-rules"
   },
   {
     "description": "Accessibility is not a request. A practical, lived-experience toolkit for making digital products and printables usable ",
