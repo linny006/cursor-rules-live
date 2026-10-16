@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-16 08:45 UTC
+> ⏰ Last updated: 2026-10-16 09:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -55,13 +55,13 @@ expired items removed — so you can rely on what you see being current.
 |---|------|---|------|---------|-------|-------------|
 | 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-16 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
 | 2 | [DonaldBrown35880/third-brain-v7-skills](https://github.com/DonaldBrown35880/third-brain-v7-skills) | 0 | Python | 2026-10-16 | — | agent wiki +engineering skills  |
-| 3 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 164728 | JavaScript | 2026-10-16 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 3 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 164740 | JavaScript | 2026-10-16 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 4 | [bompus/house-rules](https://github.com/bompus/house-rules) | 1 | JavaScript | 2026-10-16 | — | Working rules and skills for AI coding agents, layered as base, modifiers, person and project |
 | 5 | [Saad-web-spec/DevScratchPad](https://github.com/Saad-web-spec/DevScratchPad) | 2 | TypeScript | 2026-10-16 | — | Free private developer tools (JSON, JWT, cURL, cron, SSH keys) that run in your browser, plus AI Skill Studio: a CLAUDE. |
 | 6 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-16 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
 | 7 | [fabwaseem/agent-rules](https://github.com/fabwaseem/agent-rules) | 0 | TypeScript | 2026-10-16 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/fabwaseem/agent-rules/) | Modular, production-grade AI coding-agent instructions (AGENTS.md, CLAUDE.md, Cursor rules, Copilot, Claude Code skills) |
 | 8 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-10-16 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 9 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 21312 | Shell | 2026-10-16 | — | 🎭 277 个即插即用的 AI 专家角色 — 支持 Claude Code/Cursor/Copilot 等 20 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 64 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉/Qt 上 |
+| 9 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 21313 | Shell | 2026-10-16 | — | 🎭 277 个即插即用的 AI 专家角色 — 支持 Claude Code/Cursor/Copilot 等 20 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 64 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉/Qt 上 |
 | 10 | [elirankotzero/ai-coding-rules-sampler](https://github.com/elirankotzero/ai-coding-rules-sampler) | 0 | — | 2026-10-16 | — | Free AI coding rules + skills for Cursor, Claude Code, Codex (AGENTS.md), Windsurf and Copilot. MIT. |
 | 11 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-10-16 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
 | 12 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-10-16 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
