@@ -5,7 +5,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-15T23:45:50Z",
+    "updated_at": "2026-10-16T00:00:44Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -16,6 +16,20 @@
     "stars": 1,
     "updated_at": "2026-10-15T23:25:34Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Branch workflow for precedent \u2014 develop and PRs only; main is protected on GitHub.\nalwaysApply: true\n---\n\n# Git workflow (precedent repo)\n\nTreat **`main` as read-only locally**. GitHub branch protection requires pull requests and the `test` check; direct pushes to `main` are rejected.\n\n## Do\n\n- Check out **`develop`** before making changes.\n- Commit on **`develop`**.\n- Open a PR **`develop` \u2192 `main`** and merge after CI passes.\n- Use `gh pr create` when the user asks for a PR.\n\n## Do not\n\n- Commit on **`main`** for normal work. If you do, you may need `git reset --hard origin/main` after the same changes land via a merge commit on the remote.\n\n## Sync\n\nAfter merges on GitHub: `git checkout main && git pull origin main`, then `git checkout develop && git pull origin develop` (or merge `main` into `develop` if the team prefers).\n",
+      "format": "mdc",
+      "path": ".cursor/rules/git-workflow.mdc"
+    },
+    "description": "Effective policy for this path. Compile instruction files and report always-on conflicts.",
+    "id": "useprecedent/precedent",
+    "language": "TypeScript",
+    "name": "useprecedent/precedent",
+    "stars": 1,
+    "updated_at": "2026-10-16T00:04:21Z",
+    "url": "https://github.com/useprecedent/precedent"
   },
   {
     "description": "Free private developer tools (JSON, JWT, cURL, cron, SSH keys) that run in your browser, plus AI Skill Studio: a CLAUDE.",
@@ -213,7 +227,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40862,
+    "stars": 40863,
     "updated_at": "2026-10-15T15:11:55Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -373,7 +387,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 164395,
+    "stars": 164404,
     "updated_at": "2026-10-15T01:02:15Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -489,14 +503,5 @@
     "stars": 1,
     "updated_at": "2026-10-14T11:11:31Z",
     "url": "https://github.com/skillpouch/skillpouch-cli"
-  },
-  {
-    "description": "Sync your agent configs across your devices for free!",
-    "id": "skillpouch/skillpouch",
-    "language": "TypeScript",
-    "name": "skillpouch/skillpouch",
-    "stars": 4,
-    "updated_at": "2026-10-14T11:05:09Z",
-    "url": "https://github.com/skillpouch/skillpouch"
   }
 ]
