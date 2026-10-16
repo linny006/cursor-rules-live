@@ -1,12 +1,48 @@
 [
   {
-    "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
-    "id": "wright1178/AIGX",
+    "description": "agent wiki +engineering skills ",
+    "id": "galli2836/third-brain-v7-skills",
     "language": "Python",
-    "name": "wright1178/AIGX",
+    "name": "galli2836/third-brain-v7-skills",
     "stars": 0,
-    "updated_at": "2026-10-16T09:53:49Z",
-    "url": "https://github.com/wright1178/AIGX"
+    "updated_at": "2026-10-16T10:14:12Z",
+    "url": "https://github.com/galli2836/third-brain-v7-skills"
+  },
+  {
+    "description": "\u5168\u7403\u9152\u5e97\u9884\u8ba2&\u4f4e\u4ef7\u76d1\u63a7\u63d0\u9192Skill\uff0c200\u4e07+\u7cbe\u9009\u9152\u5e97\uff0c\u72ec\u5bb6\u4f18\u60e0\u4ef7\u683c\uff0c\u8ba9\u4f60\u7684Agent\u8f7b\u677e\u9884\u8ba2\u54c1\u8d28\u9152\u5e97\uff0c\u652f\u6301\u652f\u4ed8\u5b9d\u4e0b\u5355+\u67e5\u8be2\u5386\u53f2\u8ba2\u5355\uff0c24 \u5c0f\u65f6\u5ba2\u670d\u652f\u6301\uff0c\u5168\u5929\u5019\u54cd\u5e94\u3002",
+    "id": "Chen66488/rollinggo-hotel-skill-cn",
+    "language": "Python",
+    "name": "Chen66488/rollinggo-hotel-skill-cn",
+    "stars": 0,
+    "updated_at": "2026-10-16T10:15:13Z",
+    "url": "https://github.com/Chen66488/rollinggo-hotel-skill-cn"
+  },
+  {
+    "description": "200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type",
+    "id": "svensuzuki2293/MotionVault",
+    "language": "TypeScript",
+    "name": "svensuzuki2293/MotionVault",
+    "stars": 0,
+    "updated_at": "2026-10-16T10:12:38Z",
+    "url": "https://github.com/svensuzuki2293/MotionVault"
+  },
+  {
+    "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
+    "id": "kchauhan01403/AIGX",
+    "language": "Python",
+    "name": "kchauhan01403/AIGX",
+    "stars": 0,
+    "updated_at": "2026-10-16T10:10:32Z",
+    "url": "https://github.com/kchauhan01403/AIGX"
+  },
+  {
+    "description": "\u5168\u7403\u9152\u5e97\u9884\u8ba2&\u4f4e\u4ef7\u76d1\u63a7\u63d0\u9192Skill\uff0c200\u4e07+\u7cbe\u9009\u9152\u5e97\uff0c\u72ec\u5bb6\u4f18\u60e0\u4ef7\u683c\uff0c\u8ba9\u4f60\u7684Agent\u8f7b\u677e\u9884\u8ba2\u54c1\u8d28\u9152\u5e97\uff0c\u652f\u6301\u652f\u4ed8\u5b9d\u4e0b\u5355+\u67e5\u8be2\u5386\u53f2\u8ba2\u5355\uff0c24 \u5c0f\u65f6\u5ba2\u670d\u652f\u6301\uff0c\u5168\u5929\u5019\u54cd\u5e94\u3002",
+    "id": "Tyler11639/rollinggo-hotel-skill-cn",
+    "language": "Python",
+    "name": "Tyler11639/rollinggo-hotel-skill-cn",
+    "stars": 0,
+    "updated_at": "2026-10-16T10:03:50Z",
+    "url": "https://github.com/Tyler11639/rollinggo-hotel-skill-cn"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +50,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-16T09:50:36Z",
+    "updated_at": "2026-10-16T10:00:59Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
+    "id": "wright1178/AIGX",
+    "language": "Python",
+    "name": "wright1178/AIGX",
+    "stars": 0,
+    "updated_at": "2026-10-16T09:53:49Z",
+    "url": "https://github.com/wright1178/AIGX"
   },
   {
     "description": "Read-only linter for CLAUDE.md, AGENTS.md, SKILL.md and agent rules files: vendor limits, tokens loaded per session, hid",
@@ -63,7 +108,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 164778,
+    "stars": 164787,
     "updated_at": "2026-10-16T08:17:57Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -341,7 +386,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40888,
+    "stars": 40891,
     "updated_at": "2026-10-15T15:11:55Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -463,50 +508,5 @@
     "stars": 4,
     "updated_at": "2026-10-15T02:41:47Z",
     "url": "https://github.com/wangqiqi/cursor-ai"
-  },
-  {
-    "description": "video \u2014 a big skill for professional AI video editing: craft-first grammar of the cut, transcript-driven EDL pipeline, f",
-    "id": "lucasgabrieldevgg/video",
-    "language": "\u2014",
-    "name": "lucasgabrieldevgg/video",
-    "stars": 0,
-    "updated_at": "2026-10-15T02:15:19Z",
-    "url": "https://github.com/lucasgabrieldevgg/video"
-  },
-  {
-    "description": "Adversarial first-principles review protocol for code, architectures, PRs, and LLM prompts: question requirements, delet",
-    "id": "jdiazromeral/melon",
-    "language": "\u2014",
-    "name": "jdiazromeral/melon",
-    "stars": 0,
-    "updated_at": "2026-10-14T21:05:34Z",
-    "url": "https://github.com/jdiazromeral/melon"
-  },
-  {
-    "description": "Definitive Agentic AI skills, rules and developer tooling for OpenWrt, LuCI, and embedded Linux (Antigravity, Cursor, Cl",
-    "id": "Despensativo/OpenWrt-Skills",
-    "language": "Python",
-    "name": "Despensativo/OpenWrt-Skills",
-    "stars": 0,
-    "updated_at": "2026-10-14T19:34:44Z",
-    "url": "https://github.com/Despensativo/OpenWrt-Skills"
-  },
-  {
-    "description": "Cognitive architecture for AI agents. 19+ skills that force language models past surface-level reasoning into genuine de",
-    "id": "Kshitijpalsinghtomar/depth-skills",
-    "language": "Python",
-    "name": "Kshitijpalsinghtomar/depth-skills",
-    "stars": 5,
-    "updated_at": "2026-10-14T17:48:56Z",
-    "url": "https://github.com/Kshitijpalsinghtomar/depth-skills"
-  },
-  {
-    "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
-    "id": "Stephanie0574/AIGX",
-    "language": "Python",
-    "name": "Stephanie0574/AIGX",
-    "stars": 0,
-    "updated_at": "2026-10-14T16:03:29Z",
-    "url": "https://github.com/Stephanie0574/AIGX"
   }
 ]
