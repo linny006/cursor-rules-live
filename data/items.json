@@ -1,7 +1,35 @@
 [
   {
     "cursorrules": {
-      "content": "# Vibes-Plug \u2014 149-Skill AI Agent Swarm Architecture (v4.2.2)\n# Universal AI Plugin for Antigravity, Claude, Cursor, and OpenAI Codex\n\n## Primary Trigger & Skill Auto-Synchronization (Pemicu Utama)\nUpon installation, `vibes-plug` is the **PRIMARY TRIGGER (Pemicu Utama)** for all Cursor AI interactions.\n- The AI agent MUST automatically intercept prompts and synchronize relevant skills without waiting for explicit `@` mentions.\n- Automatically connects cooperating skills (e.g. `doku-payment-gateway` + `saas-billing` + `payment-gateway-expert`; `senior-frontend` + `tailwind-expert`).\n- Multi-domain workflows trigger Swarm Topologies (Fan-Out/Fan-In, Pipeline Saga, Critic-Validator).\n\n## About\nThis project uses the vibes-plug skills ecosystem with 149 specialized skills.\nEach skill is a `SKILL.md` file in the `skills/` directory containing domain-specific\ninstructions, patterns, and best practices for the modern 2026 tech stack.\n\n## Core Stack (2026 Edition)\n- Frontend: React 19, Next.js 15 App Router, Tailwind CSS v4 (@theme), TypeScript 5.8+\n- Backend: Node.js 24 LTS, Bun 1.2+, Hono v4, Fastify 5, Python 3.14, Go 1.25+, Rust 2024\n- Database: Prisma 6, Drizzle ORM, PostgreSQL, Supabase, Neon, Turso\n- AI/LLM: Vercel AI SDK 5.x/6.x, MCP v1.x (FastMCP / Streamable HTTP), pgvector, RAG pipelines\n\n## Mandatory Before Coding\n1. Read the relevant `skills/<skill-name>/SKILL.md` files before writing code.\n2. Think deeply before acting \u2014 analyze constraints, question assumptions, validate approach.\n3. For new projects, auto-generate: PRD.md, ERD.md, DOKUMENTASI.md.\n\n## Skill Domains\n- \ud83e\udd16 AI & Agentic: ai-llm-integration-expert, vercel-ai-sdk-expert, deep-research-analyst, synthetic-data-finetuning-expert, pydantic-ai-expert, mcp-server-architect, vector-db-rag-expert, multi-agent-orchestration, graph-rag-knowledge-expert, local-slm-edge-ai-expert, llm-finops-router, agentic-memory-architect\n- \ud83c\udfa8 Design & UI/UX: design-system-architect, hig, ui-ux-pro-max, tailwind-expert, modern-css-native-expert\n- \ud83d\udda5\ufe0f Frontend: senior-frontend, tailwind-expert, nextjs-app-router-expert, tanstack-query-expert, vue-frontend-expert, astro-framework-expert, svelte-sveltekit-expert, solidjs-expert, angular-expert, browser-extension-mv3-pro\n- \u2699\ufe0f Backend: js-backend-expert, python-programming-expert, go-programming-expert, rust-programming-expert, api-design-expert, fullstack-expert\n- \u2601\ufe0f SaaS & Cloud: saas-architect, saas-billing, saas-multi-tenant, ci-cd-devops-architect, cloud-hosting-expert, payment-gateway-expert, doku-payment-gateway, agentic-m2m-settlement\n- \ud83d\uddc4\ufe0f Database: database-orm-expert, supabase-security-expert, data-pipeline-etl-expert\n- \ud83d\udd12 Security: authentication-identity-expert, e2e-testing-expert, production-ready-hardener, zero-trust-secret-vault, anti-slop, autonomous-tdd-debugger, zero-tech-debt-auditor\n- \ud83d\udd0d SEO & Telemetry: seo, data-telemetry-expert\n- \ud83d\udee0\ufe0f Utilities: brainstorming, prd-architect, session-memory-manager, zero-to-prod-orchestrator, web-scraper, website-design-cloner\n\n## Code Quality & Sovereign Anti-Slop Directive\n- Zero-tolerance for AI slop (`anti-slop` skill):\n  * Code-first delivery with 100% complete implementations (no `// TODO`, `// ...`, or mock stubs).\n  * Hyper-YAGNI: avoid speculative abstractions and redundant wrapper layers.\n  * Meaningful comments only: explain non-obvious business/architectural WHY, never syntax mechanics.\n  * No swallowed errors (`catch(e){}` prohibited); structured logging (`Pino`) required.\n  * UI & Visual Sanitation: Enforce Linear/Stripe-caliber design. Zero generic blue-purple gradients, no neon glow orbs, no pill button addiction (`rounded-full` on rectangular elements), mandatory 5-state contract, tabular numerals (`tabular-nums`), and crisp 1px borders.\n  * Run `node scripts/check-anti-slop.js` to verify zero violations.\n## Sovereign Token Optimization Protocol (Hemat Token)\n- Enforce deterministic KV-cache prefixing via `kv-cache-prefix-optimizer` (75-90% prompt cache hit rates).\n- Prune subagent context payloads: pass only targeted `CONTEXT_MAP.md` slices, not raw chat transcripts.\n- Use dynamic model cascading (`adaptive-model-cascade`): `flash` for research/linting, `pro` for architecture/security.\n- Ultra-compact session checkpoints (<300 tokens) via `session-memory-manager`.\n- Non-Degradation Invariant: Never truncate code with placeholders or stubs to save tokens. Code must be 100% complete.\n\n## Orchestration Flow\n1. Ideation: brainstorming \u2192 prd-architect\n2. Design: design-system-architect \u2192 senior-frontend \u2192 ui-ux-pro-max\n3. Backend: js-backend-expert \u2192 event-driven-architect \u2192 autonomous-tdd-debugger\n4. AI: ai-llm-integration-expert \u2192 mcp-server-architect \u2192 multi-agent-orchestration\n5. SaaS: saas-architect \u2192 saas-billing + saas-multi-tenant + doku-payment-gateway\n6. Launch: e2e-testing-expert \u2192 zero-tech-debt-auditor \u2192 seo \u2192 anti-slop \u2192 production-ready-hardener\n",
+      "content": "---\ndescription: Instructions for AI agent code generation workflow\nglobs: [\"*\"]\nalwaysApply: true\n---\n\n# AI Collaboration Guidelines\n\n## The 3-Stage Agentic Loop\n\nEvery code generation task MUST follow this loop:\n\n### Stage 1: PLAN (gather context first)\n\nBefore writing ANY code, the AI MUST:\n1. Read the relevant source files to verify current state \u2014 do NOT rely on memory\n2. Identify which `.cursor/rules/` files apply to this task\n3. List the files to modify and explain why\n4. Do NOT write code yet\n\nPrompt template:\n```\nAnalyze the current codebase and plan how to implement [feature]. \nList the files you'll modify and why. Don't write code yet.\n```\n\n### Stage 2: IMPLEMENT (follow constraints)\n\nWhen generating code:\n- Follow ALL active `.cursor/rules/` constraints\n- If unsure about auth patterns, re-read `supabase-auth-security.mdc`\n- If unsure about params/layouts, re-read `nextjs15-params.mdc`\n- Use `unknown` + Zod validation instead of `any` for external data\n- Return `ActionResponse<T>` from all Server Actions (see below)\n\n### Stage 3: VERIFY (confirm before declaring done)\n\nAfter generating code, the AI MUST self-check:\n- [ ] No `getSession()` on the server (MUST be `getUser()`)\n- [ ] No synchronous `params` or `searchParams` access\n- [ ] No `@supabase/auth-helpers-nextjs` imports\n- [ ] No `any` types \u2014 use `unknown` + type narrowing\n- [ ] Every API route has Zod validation\n- [ ] Every error is caught and returns `{ error: string }`\n- [ ] New tables have RLS enabled\n- [ ] `loading.tsx` and `error.tsx` exist for data-fetching pages\n\nReport issues BEFORE the developer runs the code.\n\n## Skeptical Retrieval Rule\n\nNEVER trust stored knowledge about the codebase. Before modifying a file:\n1. Re-read the file to verify its current contents\n2. Check imports and exports to ensure they match expectations\n3. Verify that function signatures haven't changed\n\nThis prevents generating code that references stale function signatures, \ndeleted files, or renamed exports.\n\n## Standard Patterns\n\n### ActionResponse Type (use for all Server Actions)\n```typescript\ntype ActionResponse<T = void> = \n  | { success: true; data: T }\n  | { success: false; error: string }\n```\n\n### Standard Server Action Structure\n```typescript\n'use server'\nimport { createClient } from '@/lib/supabase/server'\nimport { z } from 'zod'\n\nconst Schema = z.object({ /* ... */ })\n\nexport async function myAction(input: unknown): Promise<ActionResponse<MyType>> {\n  // 1. Auth\n  const supabase = await createClient()\n  const { data: { user } } = await supabase.auth.getUser()\n  if (!user) return { success: false, error: 'Unauthorized' }\n\n  // 2. Validate\n  const result = Schema.safeParse(input)\n  if (!result.success) return { success: false, error: 'Invalid input' }\n\n  // 3. Execute\n  try {\n    const { data, error } = await supabase.from('table').insert(result.data).select().single()\n    if (error) throw error\n    return { success: true, data }\n  } catch {\n    return { success: false, error: 'Operation failed' }\n  }\n}\n```\n\n## Task Constraints\n\n- NEVER give the AI a task longer than 200 words\n- NEVER let the AI implement more than 3-4 files in one turn\n- NEVER let the AI skip the verification checklist\n- ALWAYS review the Git diff before committing\n- When uncertain, ask the developer \u2014 do NOT guess\n\n",
+      "format": "mdc",
+      "path": ".cursor/rules/ai-collaboration.mdc"
+    },
+    "description": "29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b",
+    "id": "vibestackdev/vibe-stack",
+    "language": "TypeScript",
+    "name": "vibestackdev/vibe-stack",
+    "stars": 8,
+    "updated_at": "2026-10-16T12:58:57Z",
+    "url": "https://github.com/vibestackdev/vibe-stack"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Ponytail, lazy senior dev mode. Always pick the simplest solution that works.\nglobs:\nalwaysApply: true\n---\n\n# Ponytail, lazy senior dev mode\n\nYou are a lazy senior developer. The best code is the code never written. You solve the whole problem with the least new code. End your reply with one or two lines: what you skipped or did not check, and any risk the user must know.\n\n## Before you write\n\nRead the task and the code it touches. List every place your change must reach: callers, tests, fixtures, config, exports. Check what your change could break for users: data it would destroy or expose, callers that stop working. That is scope. Extra features are not.\n\n## The smallest complete change\n\nTake the first option that fully works:\n\n1. Does it need to exist? Skip features, options and flexibility nobody asked for, and name them in one line. A vague request (\"build me X\") gets the smallest version that does the core job.\n2. Already in this codebase (a helper, component, service, pattern)? Use it the way the surrounding code does.\n3. Standard library or a platform feature? Use it, unless the project has its own. A house component beats a native widget.\n4. An installed dependency? Use it. Never add a dependency for a few lines.\n5. Can it be one line a reader gets at a glance? One line.\n6. Otherwise: the minimum code that works.\n\n- Be lazy about the solution, never about the change itself: finish every part the task needs, including the callers, tests and fixtures your change breaks.\n- No abstraction, wrapper, type conversion, option, config, boilerplate or \"for later\" code nobody asked for. Keep values in the form the platform already gives you. Deletion beats addition. Keep the structure the codebase already has: its layers, interfaces and conventions.\n- The shortest working diff wins, once you know everything it must touch. A one-liner that needs decoding is not short.\n- Comment only the why the code cannot show, in one line.\n- Bug fix: before you edit, grep every caller of the function you touch, then fix the root cause once in the shared code.\n- Code you move or merge keeps its error handling and validation.\n- Between options of equal size, take the one that is correct on edge cases.\n- Lazy code without its check is unfinished: new non-trivial logic (a branch, a loop, a parser, money or security, or a whole new script or app) leaves one small test or an assert-based self-check. Trivial changes need none.\n- A shortcut with a known limit gets a code comment in this form: `shortcut: <the limit>, <when to upgrade>`.\n\nNever cut: validation at trust boundaries, error handling that prevents data loss, security, accessibility, the calibration real hardware needs, anything the user asked for.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/ponytail.mdc"
+    },
+    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+    "id": "DietrichGebert/ponytail",
+    "language": "JavaScript",
+    "name": "DietrichGebert/ponytail",
+    "stars": 164901,
+    "updated_at": "2026-10-16T12:57:54Z",
+    "url": "https://github.com/DietrichGebert/ponytail"
+  },
+  {
+    "cursorrules": {
+      "content": "# Vibes-Plug \u2014 150-Skill AI Agent Swarm Architecture (v4.2.2)\n# Universal AI Plugin for Antigravity, Claude, Cursor, and OpenAI Codex\n\n## Primary Trigger & Skill Auto-Synchronization (Pemicu Utama)\nUpon installation, `vibes-plug` is the **PRIMARY TRIGGER (Pemicu Utama)** for all Cursor AI interactions.\n- The AI agent MUST automatically intercept prompts and synchronize relevant skills without waiting for explicit `@` mentions.\n- Automatically connects cooperating skills (e.g. `doku-payment-gateway` + `saas-billing` + `payment-gateway-expert`; `senior-frontend` + `tailwind-expert`).\n- Multi-domain workflows trigger Swarm Topologies (Fan-Out/Fan-In, Pipeline Saga, Critic-Validator).\n\n## About\nThis project uses the vibes-plug skills ecosystem with 150 specialized skills.\nEach skill is a `SKILL.md` file in the `skills/` directory containing domain-specific\ninstructions, patterns, and best practices for the modern 2026 tech stack.\n\n## Core Stack (2026 Edition)\n- Frontend: React 19, Next.js 15 App Router, Tailwind CSS v4 (@theme), TypeScript 5.8+\n- Backend: Node.js 24 LTS, Bun 1.2+, Hono v4, Fastify 5, Python 3.14, Go 1.25+, Rust 2024\n- Database: Prisma 6, Drizzle ORM, PostgreSQL, Supabase, Neon, Turso\n- AI/LLM: Vercel AI SDK 5.x/6.x, MCP v1.x (FastMCP / Streamable HTTP), pgvector, RAG pipelines\n\n## Mandatory Before Coding\n1. Read the relevant `skills/<skill-name>/SKILL.md` files before writing code.\n2. Think deeply before acting \u2014 analyze constraints, question assumptions, validate approach.\n3. For new projects, auto-generate: PRD.md, ERD.md, DOKUMENTASI.md.\n\n## Skill Domains\n- \ud83e\udd16 AI & Agentic: ai-llm-integration-expert, vercel-ai-sdk-expert, deep-research-analyst, synthetic-data-finetuning-expert, pydantic-ai-expert, mcp-server-architect, vector-db-rag-expert, multi-agent-orchestration, graph-rag-knowledge-expert, local-slm-edge-ai-expert, llm-finops-router, agentic-memory-architect\n- \ud83c\udfa8 Design & UI/UX: design-system-architect, hig, ui-ux-pro-max, tailwind-expert, modern-css-native-expert\n- \ud83d\udda5\ufe0f Frontend: senior-frontend, tailwind-expert, nextjs-app-router-expert, tanstack-query-expert, vue-frontend-expert, astro-framework-expert, svelte-sveltekit-expert, solidjs-expert, angular-expert, browser-extension-mv3-pro\n- \u2699\ufe0f Backend: js-backend-expert, python-programming-expert, go-programming-expert, rust-programming-expert, api-design-expert, openapi-swagger-codegen-expert, spec-driven-development-expert, fullstack-expert\n- \u2601\ufe0f SaaS & Cloud: saas-architect, saas-billing, saas-multi-tenant, ci-cd-devops-architect, cloud-hosting-expert, payment-gateway-expert, doku-payment-gateway, agentic-m2m-settlement\n- \ud83d\uddc4\ufe0f Database: database-orm-expert, supabase-security-expert, data-pipeline-etl-expert\n- \ud83d\udd12 Security: authentication-identity-expert, e2e-testing-expert, production-ready-hardener, zero-trust-secret-vault, anti-slop, autonomous-tdd-debugger, zero-tech-debt-auditor\n- \ud83d\udd0d SEO & Telemetry: seo, data-telemetry-expert\n- \ud83d\udee0\ufe0f Utilities: brainstorming, prd-architect, session-memory-manager, zero-to-prod-orchestrator, web-scraper, website-design-cloner\n\n## Code Quality & Sovereign Anti-Slop Directive\n- Zero-tolerance for AI slop (`anti-slop` skill):\n  * Code-first delivery with 100% complete implementations (no `// TODO`, `// ...`, or mock stubs).\n  * Hyper-YAGNI: avoid speculative abstractions and redundant wrapper layers.\n  * Meaningful comments only: explain non-obvious business/architectural WHY, never syntax mechanics.\n  * No swallowed errors (`catch(e){}` prohibited); structured logging (`Pino`) required.\n  * UI & Visual Sanitation: Enforce Linear/Stripe-caliber design. Zero generic blue-purple gradients, no neon glow orbs, no pill button addiction (`rounded-full` on rectangular elements), mandatory 5-state contract, tabular numerals (`tabular-nums`), and crisp 1px borders.\n  * Run `node scripts/check-anti-slop.js` to verify zero violations.\n## Sovereign Token Optimization Protocol (Hemat Token)\n- Enforce deterministic KV-cache prefixing via `kv-cache-prefix-optimizer` (75-90% prompt cache hit rates).\n- Prune subagent context payloads: pass only targeted `CONTEXT_MAP.md` slices, not raw chat transcripts.\n- Use dynamic model cascading (`adaptive-model-cascade`): `flash` for research/linting, `pro` for architecture/security.\n- Ultra-compact session checkpoints (<300 tokens) via `session-memory-manager`.\n- Non-Degradation Invariant: Never truncate code with placeholders or stubs to save tokens. Code must be 100% complete.\n\n## Orchestration Flow\n1. Ideation: brainstorming \u2192 prd-architect\n2. Design: design-system-architect \u2192 senior-frontend \u2192 ui-ux-pro-max\n3. Backend: js-backend-expert \u2192 event-driven-architect \u2192 autonomous-tdd-debugger\n4. AI: ai-llm-integration-expert \u2192 mcp-server-architect \u2192 multi-agent-orchestration\n5. SaaS: saas-architect \u2192 saas-billing + saas-multi-tenant + doku-payment-gateway\n6. Launch: e2e-testing-expert \u2192 zero-tech-debt-auditor \u2192 seo \u2192 anti-slop \u2192 production-ready-hardener\n",
       "format": "text",
       "path": ".cursorrules"
     },
@@ -10,8 +38,26 @@
     "language": "JavaScript",
     "name": "roedyrustam/vibes-plug",
     "stars": 75,
-    "updated_at": "2026-10-16T12:44:21Z",
+    "updated_at": "2026-10-16T12:54:40Z",
     "url": "https://github.com/roedyrustam/vibes-plug"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-10-16T12:51:22Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-16T12:45:53Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -21,15 +67,6 @@
     "stars": 3,
     "updated_at": "2026-10-16T12:33:35Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-16T12:30:42Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -75,20 +112,6 @@
     "stars": 0,
     "updated_at": "2026-10-16T12:02:03Z",
     "url": "https://github.com/TheresaPatel335/rollinggo-hotel-skill-cn"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Ponytail, lazy senior dev mode. Always pick the simplest solution that works.\nglobs:\nalwaysApply: true\n---\n\n# Ponytail, lazy senior dev mode\n\nYou are a lazy senior developer. The best code is the code never written. You solve the whole problem with the least new code. End your reply with one or two lines: what you skipped or did not check, and any risk the user must know.\n\n## Before you write\n\nRead the task and the code it touches. List every place your change must reach: callers, tests, fixtures, config, exports. Check what your change could break for users: data it would destroy or expose, callers that stop working. That is scope. Extra features are not.\n\n## The smallest complete change\n\nTake the first option that fully works:\n\n1. Does it need to exist? Skip features, options and flexibility nobody asked for, and name them in one line. A vague request (\"build me X\") gets the smallest version that does the core job.\n2. Already in this codebase (a helper, component, service, pattern)? Use it the way the surrounding code does.\n3. Standard library or a platform feature? Use it, unless the project has its own. A house component beats a native widget.\n4. An installed dependency? Use it. Never add a dependency for a few lines.\n5. Can it be one line a reader gets at a glance? One line.\n6. Otherwise: the minimum code that works.\n\n- Be lazy about the solution, never about the change itself: finish every part the task needs, including the callers, tests and fixtures your change breaks.\n- No abstraction, wrapper, type conversion, option, config, boilerplate or \"for later\" code nobody asked for. Keep values in the form the platform already gives you. Deletion beats addition. Keep the structure the codebase already has: its layers, interfaces and conventions.\n- The shortest working diff wins, once you know everything it must touch. A one-liner that needs decoding is not short.\n- Comment only the why the code cannot show, in one line.\n- Bug fix: before you edit, grep every caller of the function you touch, then fix the root cause once in the shared code.\n- Code you move or merge keeps its error handling and validation.\n- Between options of equal size, take the one that is correct on edge cases.\n- Lazy code without its check is unfinished: new non-trivial logic (a branch, a loop, a parser, money or security, or a whole new script or app) leaves one small test or an assert-based self-check. Trivial changes need none.\n- A shortcut with a known limit gets a code comment in this form: `shortcut: <the limit>, <when to upgrade>`.\n\nNever cut: validation at trust boundaries, error handling that prevents data loss, security, accessibility, the calibration real hardware needs, anything the user asked for.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/ponytail.mdc"
-    },
-    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-    "id": "DietrichGebert/ponytail",
-    "language": "JavaScript",
-    "name": "DietrichGebert/ponytail",
-    "stars": 164891,
-    "updated_at": "2026-10-16T11:39:31Z",
-    "url": "https://github.com/DietrichGebert/ponytail"
   },
   {
     "description": "Free AI coding rules + skills for Cursor, Claude Code, Codex (AGENTS.md), Windsurf and Copilot. MIT.",
@@ -271,15 +294,6 @@
     "url": "https://github.com/bompus/house-rules"
   },
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-10-16T07:41:02Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: \"How to change the agentkit-rules pack, installer, and examples.\"\nalwaysApply: true\n---\n\n# agentkit-rules\n\n- Installable rules live in `rules/<stack>/*.mdc` and `rules/<stack>/skills/<name>/SKILL.md`. Register every file in `rules/index.json`.\n- Cursor frontmatter uses only `description`, `globs`, and `alwaysApply`. `globs` is one comma-separated string. `alwaysApply: true` omits `globs`.\n- Skill frontmatter uses only `name` and `description`. `name` matches the directory, is lowercase, and does not contain `claude` or `anthropic`.\n- Do not hand-edit files under `examples/`. Run `npm run examples` after a rule change.\n- Run `npm run validate` and `npm test` before committing.\n- The installer is the source of AGENTS.md, CLAUDE.md, Copilot files, Windsurf rules, and Devin rules. Do not fork a second copy of a rule body.\n",
       "format": "mdc",
@@ -317,7 +331,7 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 27,
-    "updated_at": "2026-10-16T01:40:22Z",
+    "updated_at": "2026-10-16T12:56:16Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
@@ -479,19 +493,5 @@
     "stars": 0,
     "updated_at": "2026-10-15T15:22:16Z",
     "url": "https://github.com/Texarkanine/ai-rizz"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: claude-agents marketplace project conventions\nalwaysApply: true\n---\n\n# claude-agents conventions\n\nThis is a multi-harness plugin marketplace. Source lives under `plugins/`; per-harness\nartifacts (`.codex/`, `.cursor-plugin/`, `.opencode/`, `commands/`) are generated.\n\n- Don't hand-edit anything under `.codex/`, `.cursor-plugin/`, `.opencode/`, or top-level `commands/`, `agents/`, `skills/` \u2014 regenerate via `make generate HARNESS=<x>`.\n- Python tooling: `uv` (package manager), `ruff` (lint/format), `ty` (type check). Do not use pip/mypy/black.\n- Plugin files: `plugins/<name>/{.claude-plugin/plugin.json, agents/*.md, skills/<name>/SKILL.md, commands/*.md}`. Auto-discovered.\n- Cursor reads `.claude/skills/` and `.claude/agents/` directly \u2014 no separate `.cursor/skills/` is generated.\n\n## Never\n\n- Never commit secrets or hardcode credentials.\n- Never hand-edit generated registries (`.agents/plugins/marketplace.json`, `.cursor-plugin/`) \u2014 plugin PRs register the plugin in `.claude-plugin/marketplace.json`, then run `make generate-all` (see CONTRIBUTING.md).\n- Never run destructive git operations (force-push, reset --hard, branch -D) without explicit ask.\n\nSee `docs/authoring.md` for the portable-content style guide.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/000-project-conventions.mdc"
-    },
-    "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a",
-    "id": "wshobson/agents",
-    "language": "Python",
-    "name": "wshobson/agents",
-    "stars": 40896,
-    "updated_at": "2026-10-15T15:11:55Z",
-    "url": "https://github.com/wshobson/agents"
   }
 ]
