@@ -5,8 +5,26 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 27,
-    "updated_at": "2026-10-17T10:59:18Z",
+    "updated_at": "2026-10-17T11:08:13Z",
     "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
+    "description": "Your AI instruction files, as each agent will actually read them \u2014 CLAUDE.md, AGENTS.md, .cursor/rules\u2026 read-only, 19 ho",
+    "id": "blackberrylabs/linstruct",
+    "language": "Rust",
+    "name": "blackberrylabs/linstruct",
+    "stars": 0,
+    "updated_at": "2026-10-17T11:01:37Z",
+    "url": "https://github.com/blackberrylabs/linstruct"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-17T11:00:52Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -22,18 +40,9 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21330,
+    "stars": 21329,
     "updated_at": "2026-10-17T10:47:17Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-17T10:45:39Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "agent wiki +engineering skills ",
@@ -75,15 +84,6 @@
     "stars": 76,
     "updated_at": "2026-10-17T10:25:17Z",
     "url": "https://github.com/roedyrustam/vibes-plug"
-  },
-  {
-    "description": "Your AI instruction files, as each agent will actually read them \u2014 CLAUDE.md, AGENTS.md, .cursor/rules\u2026 read-only, 19 ho",
-    "id": "blackberrylabs/linstruct",
-    "language": "Rust",
-    "name": "blackberrylabs/linstruct",
-    "stars": 0,
-    "updated_at": "2026-10-17T10:23:59Z",
-    "url": "https://github.com/blackberrylabs/linstruct"
   },
   {
     "description": "200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type",
@@ -344,7 +344,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 165478,
+    "stars": 165489,
     "updated_at": "2026-10-16T23:04:42Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
