@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-17 10:30 UTC
+> ⏰ Last updated: 2026-10-17 10:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,14 +53,14 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [Philippe207/third-brain-v7-skills](https://github.com/Philippe207/third-brain-v7-skills) | 0 | Python | 2026-10-17 | — | agent wiki +engineering skills  |
-| 2 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 27 | Python | 2026-10-17 | — | Architectural drift prevention for the agentic AI SDLC. |
-| 3 | [spyros64419/AIGX](https://github.com/spyros64419/AIGX) | 0 | Python | 2026-10-17 | — | Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig |
-| 4 | [Aryanpanwar10005/seo-geo-optimizer](https://github.com/Aryanpanwar10005/seo-geo-optimizer) | 13 | JavaScript | 2026-10-17 | — | Universal SEO & GEO skill for AI coding agents: Claude Code, Cursor, Windsurf, GitHub Copilot, Replit, Lovable, Bolt. Op |
-| 5 | [roedyrustam/vibes-plug](https://github.com/roedyrustam/vibes-plug) | 76 | JavaScript | 2026-10-17 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/roedyrustam/vibes-plug/) | ⚡ Cross-IDE AI skill collection that orchestrates 147 specialized subagents for full-stack development workflows |
-| 6 | [blackberrylabs/linstruct](https://github.com/blackberrylabs/linstruct) | 0 | Rust | 2026-10-17 | — | Your AI instruction files, as each agent will actually read them — CLAUDE.md, AGENTS.md, .cursor/rules… read-only, 19 ho |
-| 7 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 21329 | Shell | 2026-10-17 | — | 🎭 277 个即插即用的 AI 专家角色 — 支持 Claude Code/Cursor/Copilot 等 20 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 64 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉/Qt 上 |
-| 8 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-17 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 21329 | Shell | 2026-10-17 | — | 🎭 277 个即插即用的 AI 专家角色 — 支持 Claude Code/Cursor/Copilot 等 20 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 64 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉/Qt 上 |
+| 2 | [Philippe207/third-brain-v7-skills](https://github.com/Philippe207/third-brain-v7-skills) | 0 | Python | 2026-10-17 | — | agent wiki +engineering skills  |
+| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-17 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 4 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 27 | Python | 2026-10-17 | — | Architectural drift prevention for the agentic AI SDLC. |
+| 5 | [spyros64419/AIGX](https://github.com/spyros64419/AIGX) | 0 | Python | 2026-10-17 | — | Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig |
+| 6 | [Aryanpanwar10005/seo-geo-optimizer](https://github.com/Aryanpanwar10005/seo-geo-optimizer) | 13 | JavaScript | 2026-10-17 | — | Universal SEO & GEO skill for AI coding agents: Claude Code, Cursor, Windsurf, GitHub Copilot, Replit, Lovable, Bolt. Op |
+| 7 | [roedyrustam/vibes-plug](https://github.com/roedyrustam/vibes-plug) | 76 | JavaScript | 2026-10-17 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/roedyrustam/vibes-plug/) | ⚡ Cross-IDE AI skill collection that orchestrates 147 specialized subagents for full-stack development workflows |
+| 8 | [blackberrylabs/linstruct](https://github.com/blackberrylabs/linstruct) | 0 | Rust | 2026-10-17 | — | Your AI instruction files, as each agent will actually read them — CLAUDE.md, AGENTS.md, .cursor/rules… read-only, 19 ho |
 | 9 | [RiccardoPetridis854/MotionVault](https://github.com/RiccardoPetridis854/MotionVault) | 0 | TypeScript | 2026-10-17 | — | 200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type |
 | 10 | [SophiaBradley78427/AIGX](https://github.com/SophiaBradley78427/AIGX) | 0 | Python | 2026-10-17 | — | Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig |
 | 11 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 49 | — | 2026-10-17 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
@@ -88,7 +88,7 @@ expired items removed — so you can rely on what you see being current.
 | 33 | [geronco/commandvault-library](https://github.com/geronco/commandvault-library) | 0 | JavaScript | 2026-10-17 | — | Community-voted AI prompts, CLAUDE.md/AGENTS.md templates, Cursor rules, Agent Skills and MCP servers from commandvault. |
 | 34 | [eli-alvarado/agentkit-drawer](https://github.com/eli-alvarado/agentkit-drawer) | 0 | — | 2026-10-17 | — | Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam |
 | 35 | [Groundmail/groundmail-skills](https://github.com/Groundmail/groundmail-skills) | 0 | — | 2026-10-17 | — | Agent skills, a Claude Code plugin and a Cursor rule that teach coding agents to add Groundmail transactional email to y |
-| 36 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 165467 | JavaScript | 2026-10-16 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 36 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 165474 | JavaScript | 2026-10-16 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 37 | [useprecedent/precedent](https://github.com/useprecedent/precedent) | 1 | TypeScript | 2026-10-16 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/useprecedent/precedent/) | Effective policy for this path. Compile instruction files and report always-on conflicts. |
 | 38 | [agentkitco/agent-config-templates](https://github.com/agentkitco/agent-config-templates) | 0 | — | 2026-10-16 | — | Free AGENTS.md, Cursor rule and audit-prompt templates for AI coding agents (CC BY 4.0). AI-assisted starting points. |
 | 39 | [Joao39783/AIGX](https://github.com/Joao39783/AIGX) | 0 | Python | 2026-10-16 | — | Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig |
