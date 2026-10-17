@@ -1,11 +1,20 @@
 [
   {
+    "description": "Community-voted AI prompts, CLAUDE.md/AGENTS.md templates, Cursor rules, Agent Skills and MCP servers from commandvault.",
+    "id": "geronco/commandvault-library",
+    "language": "JavaScript",
+    "name": "geronco/commandvault-library",
+    "stars": 0,
+    "updated_at": "2026-10-17T03:28:24Z",
+    "url": "https://github.com/geronco/commandvault-library"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-17T03:15:54Z",
+    "updated_at": "2026-10-17T03:21:26Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -32,7 +41,7 @@
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 2,
-    "updated_at": "2026-10-17T03:17:31Z",
+    "updated_at": "2026-10-17T03:24:18Z",
     "url": "https://github.com/bompus/house-rules"
   },
   {
@@ -90,7 +99,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 165268,
+    "stars": 165275,
     "updated_at": "2026-10-16T23:04:42Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -443,7 +452,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21325,
+    "stars": 21326,
     "updated_at": "2026-10-16T09:35:39Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -469,14 +478,5 @@
     "stars": 0,
     "updated_at": "2026-10-16T07:18:32Z",
     "url": "https://github.com/fabwaseem/agent-rules"
-  },
-  {
-    "description": "Accessibility is not a request. A practical, lived-experience toolkit for making digital products and printables usable ",
-    "id": "gabrieldcpaiva/not-optional",
-    "language": "Shell",
-    "name": "gabrieldcpaiva/not-optional",
-    "stars": 1,
-    "updated_at": "2026-10-16T04:01:25Z",
-    "url": "https://github.com/gabrieldcpaiva/not-optional"
   }
 ]
