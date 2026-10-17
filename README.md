@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-17 09:00 UTC
+> ⏰ Last updated: 2026-10-17 09:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,26 +53,26 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 27 | Python | 2026-10-17 | — | Architectural drift prevention for the agentic AI SDLC. |
+| 1 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 49 | — | 2026-10-17 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
 | 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-17 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 3 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-10-17 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
-| 4 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-10-17 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
-| 5 | [mustafakbaser/agentcheckup](https://github.com/mustafakbaser/agentcheckup) | 0 | TypeScript | 2026-10-17 | — | A checkup for your coding agent setup. Lints AGENTS.md, CLAUDE.md, SKILL.md, Cursor rules, Copilot instructions, MCP ser |
-| 6 | [edtrackai/ship-ready-ai-rules-free-sample](https://github.com/edtrackai/ship-ready-ai-rules-free-sample) | 0 | — | 2026-10-17 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/edtrackai/ship-ready-ai-rules-free-sample/) | Free sample: AGENTS.md + Cursor rule that stop AI agents shipping insecure Next.js + Supabase + Stripe code |
-| 7 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-17 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
-| 8 | [yRangel675/AIGX](https://github.com/yRangel675/AIGX) | 0 | Python | 2026-10-17 | — | Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig |
-| 9 | [bompus/house-rules](https://github.com/bompus/house-rules) | 2 | JavaScript | 2026-10-17 | — | Working rules and skills for AI coding agents, layered as base, modifiers, person and project |
-| 10 | [PhilippeChevalier9571/MotionVault](https://github.com/PhilippeChevalier9571/MotionVault) | 0 | TypeScript | 2026-10-17 | — | 200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type |
-| 11 | [borism0825/MotionVault](https://github.com/borism0825/MotionVault) | 0 | TypeScript | 2026-10-17 | — | 200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type |
-| 12 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-10-17 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 13 | [tuyen8952/MotionVault](https://github.com/tuyen8952/MotionVault) | 0 | TypeScript | 2026-10-17 | — | 200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type |
-| 14 | [Time0ut575/doubao-style](https://github.com/Time0ut575/doubao-style) | 0 | PowerShell | 2026-10-17 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Time0ut575/doubao-style/) | A Trae Skill that switches the assistant to Doubao-style conversational tone — third-party, not affiliated with ByteDanc |
-| 15 | [geronco/commandvault-library](https://github.com/geronco/commandvault-library) | 0 | JavaScript | 2026-10-17 | — | Community-voted AI prompts, CLAUDE.md/AGENTS.md templates, Cursor rules, Agent Skills and MCP servers from commandvault. |
-| 16 | [eli-alvarado/agentkit-drawer](https://github.com/eli-alvarado/agentkit-drawer) | 0 | — | 2026-10-17 | — | Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam |
-| 17 | [Groundmail/groundmail-skills](https://github.com/Groundmail/groundmail-skills) | 0 | — | 2026-10-17 | — | Agent skills, a Claude Code plugin and a Cursor rule that teach coding agents to add Groundmail transactional email to y |
-| 18 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 165418 | JavaScript | 2026-10-16 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
-| 19 | [roedyrustam/vibes-plug](https://github.com/roedyrustam/vibes-plug) | 76 | JavaScript | 2026-10-16 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/roedyrustam/vibes-plug/) | ⚡ Cross-IDE AI skill collection that orchestrates 147 specialized subagents for full-stack development workflows |
-| 20 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 49 | — | 2026-10-16 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
+| 3 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 27 | Python | 2026-10-17 | — | Architectural drift prevention for the agentic AI SDLC. |
+| 4 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-10-17 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
+| 5 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-10-17 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
+| 6 | [mustafakbaser/agentcheckup](https://github.com/mustafakbaser/agentcheckup) | 0 | TypeScript | 2026-10-17 | — | A checkup for your coding agent setup. Lints AGENTS.md, CLAUDE.md, SKILL.md, Cursor rules, Copilot instructions, MCP ser |
+| 7 | [edtrackai/ship-ready-ai-rules-free-sample](https://github.com/edtrackai/ship-ready-ai-rules-free-sample) | 0 | — | 2026-10-17 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/edtrackai/ship-ready-ai-rules-free-sample/) | Free sample: AGENTS.md + Cursor rule that stop AI agents shipping insecure Next.js + Supabase + Stripe code |
+| 8 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-17 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
+| 9 | [yRangel675/AIGX](https://github.com/yRangel675/AIGX) | 0 | Python | 2026-10-17 | — | Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig |
+| 10 | [bompus/house-rules](https://github.com/bompus/house-rules) | 2 | JavaScript | 2026-10-17 | — | Working rules and skills for AI coding agents, layered as base, modifiers, person and project |
+| 11 | [PhilippeChevalier9571/MotionVault](https://github.com/PhilippeChevalier9571/MotionVault) | 0 | TypeScript | 2026-10-17 | — | 200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type |
+| 12 | [borism0825/MotionVault](https://github.com/borism0825/MotionVault) | 0 | TypeScript | 2026-10-17 | — | 200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type |
+| 13 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-10-17 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
+| 14 | [tuyen8952/MotionVault](https://github.com/tuyen8952/MotionVault) | 0 | TypeScript | 2026-10-17 | — | 200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type |
+| 15 | [Time0ut575/doubao-style](https://github.com/Time0ut575/doubao-style) | 0 | PowerShell | 2026-10-17 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/Time0ut575/doubao-style/) | A Trae Skill that switches the assistant to Doubao-style conversational tone — third-party, not affiliated with ByteDanc |
+| 16 | [geronco/commandvault-library](https://github.com/geronco/commandvault-library) | 0 | JavaScript | 2026-10-17 | — | Community-voted AI prompts, CLAUDE.md/AGENTS.md templates, Cursor rules, Agent Skills and MCP servers from commandvault. |
+| 17 | [eli-alvarado/agentkit-drawer](https://github.com/eli-alvarado/agentkit-drawer) | 0 | — | 2026-10-17 | — | Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam |
+| 18 | [Groundmail/groundmail-skills](https://github.com/Groundmail/groundmail-skills) | 0 | — | 2026-10-17 | — | Agent skills, a Claude Code plugin and a Cursor rule that teach coding agents to add Groundmail transactional email to y |
+| 19 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 165425 | JavaScript | 2026-10-16 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 20 | [roedyrustam/vibes-plug](https://github.com/roedyrustam/vibes-plug) | 76 | JavaScript | 2026-10-16 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/roedyrustam/vibes-plug/) | ⚡ Cross-IDE AI skill collection that orchestrates 147 specialized subagents for full-stack development workflows |
 | 21 | [useprecedent/precedent](https://github.com/useprecedent/precedent) | 1 | TypeScript | 2026-10-16 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/useprecedent/precedent/) | Effective policy for this path. Compile instruction files and report always-on conflicts. |
 | 22 | [agentkitco/agent-config-templates](https://github.com/agentkitco/agent-config-templates) | 0 | — | 2026-10-16 | — | Free AGENTS.md, Cursor rule and audit-prompt templates for AI coding agents (CC BY 4.0). AI-assisted starting points. |
 | 23 | [Joao39783/AIGX](https://github.com/Joao39783/AIGX) | 0 | Python | 2026-10-16 | — | Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig |
