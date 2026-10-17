@@ -1,11 +1,20 @@
 [
   {
+    "description": "Architectural drift prevention for the agentic AI SDLC.",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 27,
+    "updated_at": "2026-10-17T08:54:07Z",
+    "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-17T08:30:44Z",
+    "updated_at": "2026-10-17T08:45:35Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -32,7 +41,7 @@
     "language": "TypeScript",
     "name": "mustafakbaser/agentcheckup",
     "stars": 0,
-    "updated_at": "2026-10-17T08:15:03Z",
+    "updated_at": "2026-10-17T08:57:13Z",
     "url": "https://github.com/mustafakbaser/agentcheckup"
   },
   {
@@ -136,15 +145,6 @@
     "url": "https://github.com/geronco/commandvault-library"
   },
   {
-    "description": "Architectural drift prevention for the agentic AI SDLC.",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 27,
-    "updated_at": "2026-10-17T02:33:55Z",
-    "url": "https://github.com/MnemeHQ/mneme"
-  },
-  {
     "description": "Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam",
     "id": "eli-alvarado/agentkit-drawer",
     "language": "\u2014",
@@ -172,7 +172,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 165408,
+    "stars": 165418,
     "updated_at": "2026-10-16T23:04:42Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
