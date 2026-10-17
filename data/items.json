@@ -1,11 +1,29 @@
 [
   {
+    "description": "Universal SEO & GEO skill for AI coding agents: Claude Code, Cursor, Windsurf, GitHub Copilot, Replit, Lovable, Bolt. Op",
+    "id": "Aryanpanwar10005/seo-geo-optimizer",
+    "language": "JavaScript",
+    "name": "Aryanpanwar10005/seo-geo-optimizer",
+    "stars": 13,
+    "updated_at": "2026-10-17T17:10:08Z",
+    "url": "https://github.com/Aryanpanwar10005/seo-geo-optimizer"
+  },
+  {
+    "description": "DeepSeek Harness plugin that loads the Cursor, Copilot, Windsurf and other AI rule files your repo already has.",
+    "id": "acus9345/dsh-load-agent-rules",
+    "language": "TypeScript",
+    "name": "acus9345/dsh-load-agent-rules",
+    "stars": 2,
+    "updated_at": "2026-10-17T17:08:55Z",
+    "url": "https://github.com/acus9345/dsh-load-agent-rules"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-17T16:45:41Z",
+    "updated_at": "2026-10-17T17:00:45Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -139,15 +157,6 @@
     "stars": 27,
     "updated_at": "2026-10-17T12:34:34Z",
     "url": "https://github.com/MnemeHQ/mneme"
-  },
-  {
-    "description": "Universal SEO & GEO skill for AI coding agents: Claude Code, Cursor, Windsurf, GitHub Copilot, Replit, Lovable, Bolt. Op",
-    "id": "Aryanpanwar10005/seo-geo-optimizer",
-    "language": "JavaScript",
-    "name": "Aryanpanwar10005/seo-geo-optimizer",
-    "stars": 13,
-    "updated_at": "2026-10-17T12:03:00Z",
-    "url": "https://github.com/Aryanpanwar10005/seo-geo-optimizer"
   },
   {
     "cursorrules": {
@@ -385,7 +394,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 165894,
+    "stars": 165927,
     "updated_at": "2026-10-16T23:04:42Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -479,14 +488,5 @@
     "stars": 1,
     "updated_at": "2026-10-16T14:41:50Z",
     "url": "https://github.com/yxdwind/english-memory-method"
-  },
-  {
-    "description": "\u63d0\u793a\u8bcd\u767e\u5b9d\u7bb1\uff1a66 \u6761\u539f\u521b\u4e2d\u6587 Prompt \u4e0e AI Agent \u6a21\u677f\uff08\u7f16\u7a0b/\u524d\u7aef/\u4ee3\u7801\u5ba1\u67e5/\u6587\u6863/\u4ea7\u54c1/\u8fd0\u8425/\u5b66\u4e60/\u6c42\u804c/Agent \u5de5\u4f5c\u6d41/Cursor rules/Claude skills\uff09\uff0c\u586b\u53d8\u91cf\u4e00\u952e\u590d\u5236",
-    "id": "MsNan/prompt-hub-cn",
-    "language": "JavaScript",
-    "name": "MsNan/prompt-hub-cn",
-    "stars": 0,
-    "updated_at": "2026-10-16T13:44:11Z",
-    "url": "https://github.com/MsNan/prompt-hub-cn"
   }
 ]
