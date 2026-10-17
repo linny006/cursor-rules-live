@@ -1,11 +1,38 @@
 [
   {
+    "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
+    "id": "agenticstandardcontact-byte/agentic-architect",
+    "language": "HTML",
+    "name": "agenticstandardcontact-byte/agentic-architect",
+    "stars": 0,
+    "updated_at": "2026-10-17T12:57:54Z",
+    "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
+  },
+  {
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-10-17T12:50:19Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
+  },
+  {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 1,
+    "updated_at": "2026-10-17T12:48:56Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-17T12:30:44Z",
+    "updated_at": "2026-10-17T12:45:43Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -245,24 +272,6 @@
     "url": "https://github.com/Osipov90/AIGX"
   },
   {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
-    "stars": 0,
-    "updated_at": "2026-10-17T08:26:17Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 1,
-    "updated_at": "2026-10-17T08:24:46Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
     "description": "A checkup for your coding agent setup. Lints AGENTS.md, CLAUDE.md, SKILL.md, Cursor rules, Copilot instructions, MCP ser",
     "id": "mustafakbaser/agentcheckup",
     "language": "TypeScript",
@@ -367,7 +376,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 165539,
+    "stars": 165551,
     "updated_at": "2026-10-16T23:04:42Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -461,15 +470,6 @@
     "stars": 1,
     "updated_at": "2026-10-16T14:41:50Z",
     "url": "https://github.com/yxdwind/english-memory-method"
-  },
-  {
-    "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
-    "id": "agenticstandardcontact-byte/agentic-architect",
-    "language": "HTML",
-    "name": "agenticstandardcontact-byte/agentic-architect",
-    "stars": 0,
-    "updated_at": "2026-10-16T13:57:04Z",
-    "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
   },
   {
     "description": "\u63d0\u793a\u8bcd\u767e\u5b9d\u7bb1\uff1a66 \u6761\u539f\u521b\u4e2d\u6587 Prompt \u4e0e AI Agent \u6a21\u677f\uff08\u7f16\u7a0b/\u524d\u7aef/\u4ee3\u7801\u5ba1\u67e5/\u6587\u6863/\u4ea7\u54c1/\u8fd0\u8425/\u5b66\u4e60/\u6c42\u804c/Agent \u5de5\u4f5c\u6d41/Cursor rules/Claude skills\uff09\uff0c\u586b\u53d8\u91cf\u4e00\u952e\u590d\u5236",
