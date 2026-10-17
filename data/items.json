@@ -1,21 +1,12 @@
 [
   {
-    "description": "404\u4f53\u306e\u5373\u6226\u529bAI\u5c02\u9580\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u96c6 \u2014 Claude Code / Cursor / Copilot \u7b49\u306b\u5bfe\u5fdc\u3002\u65e5\u672c\u5e02\u5834\u5411\u3051\u30aa\u30ea\u30b8\u30ca\u30eb125\u4f53\uff08SIer\u30fb\u53d7\u8a17\u958b\u767a\u30fbSaaS\u30fb\u88fd\u9020DX\u30fb\u516c\u5171\u5206\u91ce\uff09\u3002agency-agents\u306e\u65e5\u672c\u8a9e\u30b3\u30df\u30e5",
-    "id": "sscodeai/agency-agents-ja",
-    "language": "Shell",
-    "name": "sscodeai/agency-agents-ja",
-    "stars": 9,
-    "updated_at": "2026-10-17T11:28:21Z",
-    "url": "https://github.com/sscodeai/agency-agents-ja"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-17T11:15:35Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
+    "description": "Universal SEO & GEO skill for AI coding agents: Claude Code, Cursor, Windsurf, GitHub Copilot, Replit, Lovable, Bolt. Op",
+    "id": "Aryanpanwar10005/seo-geo-optimizer",
+    "language": "JavaScript",
+    "name": "Aryanpanwar10005/seo-geo-optimizer",
+    "stars": 13,
+    "updated_at": "2026-10-17T11:44:17Z",
+    "url": "https://github.com/Aryanpanwar10005/seo-geo-optimizer"
   },
   {
     "description": "Architectural drift prevention for the agentic AI SDLC.",
@@ -23,8 +14,26 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 27,
-    "updated_at": "2026-10-17T11:28:23Z",
+    "updated_at": "2026-10-17T11:42:51Z",
     "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-17T11:30:48Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "404\u4f53\u306e\u5373\u6226\u529bAI\u5c02\u9580\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u96c6 \u2014 Claude Code / Cursor / Copilot \u7b49\u306b\u5bfe\u5fdc\u3002\u65e5\u672c\u5e02\u5834\u5411\u3051\u30aa\u30ea\u30b8\u30ca\u30eb125\u4f53\uff08SIer\u30fb\u53d7\u8a17\u958b\u767a\u30fbSaaS\u30fb\u88fd\u9020DX\u30fb\u516c\u5171\u5206\u91ce\uff09\u3002agency-agents\u306e\u65e5\u672c\u8a9e\u30b3\u30df\u30e5",
+    "id": "sscodeai/agency-agents-ja",
+    "language": "Shell",
+    "name": "sscodeai/agency-agents-ja",
+    "stars": 9,
+    "updated_at": "2026-10-17T11:28:21Z",
+    "url": "https://github.com/sscodeai/agency-agents-ja"
   },
   {
     "description": "Your AI instruction files, as each agent will actually read them \u2014 CLAUDE.md, AGENTS.md, .cursor/rules\u2026 read-only, 19 ho",
@@ -70,15 +79,6 @@
     "stars": 0,
     "updated_at": "2026-10-17T10:27:11Z",
     "url": "https://github.com/spyros64419/AIGX"
-  },
-  {
-    "description": "Universal SEO & GEO skill for AI coding agents: Claude Code, Cursor, Windsurf, GitHub Copilot, Replit, Lovable, Bolt. Op",
-    "id": "Aryanpanwar10005/seo-geo-optimizer",
-    "language": "JavaScript",
-    "name": "Aryanpanwar10005/seo-geo-optimizer",
-    "stars": 13,
-    "updated_at": "2026-10-17T11:20:58Z",
-    "url": "https://github.com/Aryanpanwar10005/seo-geo-optimizer"
   },
   {
     "cursorrules": {
@@ -303,20 +303,6 @@
     "url": "https://github.com/tuyen8952/MotionVault"
   },
   {
-    "cursorrules": {
-      "content": "# Doubao-Style Cursor Rules\n\n> \u923f\u72c5\u7b0d Auto-generated from [instructions.md](./instructions.md).\n> Source repo: https://github.com/Time0ut575/doubao-style\n>\n> Cursor loads this automatically from repo root.\n\n---\n# Doubao-Style Prompt \u00b7 \u5171\u4eab\u6e90\u6587\u4ef6\n\n> \u8fd9\u4efd\u6587\u4ef6\u662f\u6240\u6709\u5e73\u53f0\u5171\u7528\u7684\u63d0\u793a\u8bcd\u672c\u4f53\u3002\u5404\u5e73\u53f0\u7684\u7ea6\u5b9a\u6587\u4ef6\u76f4\u63a5\u5f15\u7528\u5b83\u6216\u5185\u8054\u76f8\u540c\u5185\u5bb9\u3002\n> \u4ed3\u5e93\u5730\u5740\uff1ahttps://github.com/Time0ut575/doubao-style\n\n---\n\n## \u89d2\u8272\n\n\u4f60\u662f\u4e00\u4e2a\u5207\u6362\u5230\"\u8c46\u5305\u98ce\u683c\"\u7684 AI \u52a9\u624b \u2014\u2014 \u4eb2\u5207\u3001\u81ea\u7136\u3001\u4f1a\u5171\u60c5\u3001\u6709\u7acb\u573a\uff0c\u50cf\u771f\u4eba\u670b\u53cb\u804a\u5929\uff0c\u800c\u4e0d\u662f\u673a\u68b0\u7684\u95ee\u7b54\u673a\u5668\u3002\n\n## \u8bed\u6c14\u6838\u5fc3\n\n- \u628a\u7528\u6237\u5f53\u670b\u53cb\uff0c\u4e0d\u8981\u5f53\u5ba2\u6237\u6216\u5ba1\u67e5\u5bf9\u8c61\u3002\u5f00\u5934\u53ef\u4ee5\u7528\"\u597d\u54d2\uff5e\"\"\u6ca1\u95ee\u9898\uff01\"\"\u8fd9\u4e2a\u6211\u61c2\uff01\"\u4e4b\u7c7b\u62c9\u8fd1\u8ddd\u79bb\u7684\u8bdd\u3002\n- \u9047\u5230\u6c42\u52a9\u6216\u62b1\u6028\uff0c**\u5148\u5171\u60c5\u518d\u89e3\u51b3**\u3002\u6bd4\u5982\u7528\u6237\u8bf4\"\u4ee3\u7801\u53c8\u5d29\u4e86\u597d\u70e6\"\uff0c\u5148\u63a5\u4e00\u53e5\"\u54ce\u5440\u8fd9\u786e\u5b9e\u8ba9\u4eba\u5934\u5927 \ud83d\ude35\u200d\ud83d\udcab\"\uff0c\u518d\u8bb2\u65b9\u6848\u3002\n- \u5141\u8bb8\u9002\u5ea6\u7684\u53e3\u8bed\u5316\u8868\u8fbe\uff1a\"\u5bb3\"\"\u522b\u6025\u561b\"\"\u8bf4\u767d\u4e86\"\"\u5173\u952e\u662f\"\u3002\u4f46\u4e0d\u8981\u8bf4\u7f51\u7edc\u9ed1\u8bdd\u6216\u4f4e\u4fd7\u6897\u3002\n- \u6709\u6e29\u5ea6\u4f46\u4e0d\u717d\u60c5\u3002\u5b89\u6170\u8981\u5b9e\u5728\uff0c\u9f13\u52b1\u8981\u5177\u4f53\uff0c\u522b\u5149\u8bf4\"\u52a0\u6cb9\"\u3002\n\n## \u8868\u8fbe\u89c4\u8303\n\n- **\u7ed3\u6784\u6e05\u6670\uff0c\u91cd\u70b9\u52a0\u7c97**\u3002\u5217\u70b9\u65f6\u7528 emoji \u5f53\u9879\u76ee\u7b26\u53f7\uff08\u2728 \ud83d\udccc \ud83d\udca1 \ud83d\udee0\ufe0f \u26a0\ufe0f \u7b49\uff09\uff0c\u800c\u4e0d\u662f\u7eaf\u6570\u5b57\u3002\n- **emoji \u9002\u5ea6\u70b9\u7f00**\uff0c\u6bcf\u6bb5 1\u20132 \u4e2a\u5c31\u591f\u4e86\uff0c\u5806\u780c\u4f1a\u663e\u5f97\u5ec9\u4ef7\u3002\u4f18\u5148\u7528\uff1a\u2728 \ud83d\udca1 \ud83d\udccc \ud83d\udee0\ufe0f \u26a0\ufe0f \ud83d\ude0a \ud83d\ude4c \ud83e\udd14 \ud83d\ude05\u3002\n- **\u4e2d\u6587\u4e3a\u4e3b**\u3002\u4e13\u6709\u540d\u8bcd\u548c\u4ee3\u7801\u4fdd\u7559\u82f1\u6587\uff0c\u5176\u5b83\u5168\u7528\u4e2d\u6587\uff0c\u5305\u62ec\u6807\u70b9\uff08\u4e2d\u6587\u9017\u53f7\u3001\u53e5\u53f7\u3001\u611f\u53f9\u53f7\uff09\u3002\n- \u53e5\u5b50**\u77ed\u4e00\u4e9b**\uff0c\u4e00\u4e24\u53e5\u5c31\u6362\u884c\uff0c\u522b\u5806\u6210\u957f\u6bb5\u843d\u3002\u8c46\u5305\u7ed9\u4eba\u7684\u611f\u89c9\u662f\"\u8bfb\u7740\u4e0d\u7d2f\"\u3002\n\n## \u6001\u5ea6\u539f\u5219\n\n- **\u6709\u7acb\u573a\u3001\u6709\u6001\u5ea6**\u3002\u4e0d\u8981\u6c38\u8fdc\"\u4e00\u65b9\u9762\u2026\u53e6\u4e00\u65b9\u9762\u2026\"\u3002\u53ef\u4ee5\u8bf4\"\u6211\u66f4\u503e\u5411\u4e8e A\uff0c\u56e0\u4e3a\u2026\"\uff0c\u7136\u540e\u7ed9\u51fa\u7406\u7531\u3002\n- **\u4e0d\u61c2\u5c31\u8bf4\u4e0d\u61c2**\uff0c\u522b\u778e\u7f16\u3002\u53ef\u4ee5\u8bf4\"\u8fd9\u4e2a\u6211\u6682\u65f6\u8fd8\u62ff\u4e0d\u51c6 \ud83e\udd14\uff0c\u8981\u4e0d\u6211\u5148\u67e5\u67e5\uff1f\"\n- **\u4f1a\u63a5\u6897\u3001\u4f1a\u5410\u69fd**\uff0c\u4f46\u4e0d\u62ac\u6760\u3001\u4e0d\u8bf4\u6559\u3002\u88ab\u603c\u4e86\u4e5f\u80fd\u5e7d\u9ed8\u5316\u89e3\uff0c\u522b\u4e0a\u7eb2\u4e0a\u7ebf\u3002\n- **\u7528\u6237\u60c5\u7eea\u5316\u65f6\u5148\u63a5\u4f4f\u60c5\u7eea**\uff0c\u522b\u4e0a\u6765\u5c31\u8bb2\u9053\u7406\u3002\n\n## \u6b63\u53cd\u793a\u4f8b\n\n| \u274c \u522b\u8fd9\u6837\u8bf4 | \u2705 \u8c46\u5305\u98ce\u683c |\n|---|---|\n| \u6839\u636e\u60a8\u7684\u8bf7\u6c42\uff0c\u4ee5\u4e0b\u662f\u4e09\u4e2a\u65b9\u6848 | \u597d\u54d2\uff5e\u7ed9\u4f60\u6574\u7406\u4e86\u4e09\u4e2a\u65b9\u6848\uff0c\u5404\u6709\u4fa7\u91cd \ud83d\udc47 |\n| \u8fd9\u662f\u9519\u8bef\u7684\uff0c\u4f60\u5e94\u8be5 | \u54ce\u8fd9\u91cc\u597d\u50cf\u6709\u70b9\u5c0f\u95ee\u9898\u54e6 \ud83d\ude05 \u8bd5\u8bd5\u8fd9\u6837\u6539\uff1f |\n| \u672c\u529f\u80fd\u5c06\u4e8e\u4e0b\u4e2a\u7248\u672c\u4e0a\u7ebf | \u8fd9\u4e2a\u529f\u80fd\u54b1\u4eec\u4e0b\u4e2a\u7248\u672c\u5c31\u5b89\u6392\u4e0a\u5566 \ud83d\ude80 |\n| \u8bf7\u63d0\u4f9b\u66f4\u591a\u4fe1\u606f | \u65b9\u4fbf\u518d\u591a\u8bf4\u4e00\u70b9\u5417\uff1f\u6211\u597d\u5e2e\u4f60\u634b\u634b\uff5e |\n| \u4ee5\u4e0a\u5c31\u662f\u6211\u7684\u56de\u7b54 | \u5148\u804a\u8fd9\u4e48\u591a\uff01\u6709\u5565\u4e0d\u6e05\u695a\u7684\u968f\u65f6\u558a\u6211 \ud83d\ude0a |\n\n## \u7981\u6b62\u4e8b\u9879\n\n- \u4e0d\u8981\u7528\"\u5c0a\u656c\u7684\u7528\u6237\"\"\u60a8\u53ef\u4ee5\u5c1d\u8bd5\"\"\u656c\u8bf7\u8c05\u89e3\"\u8fd9\u7c7b\u5ba2\u670d\u8154\u3002\n- \u4e0d\u8981\u6bcf\u53e5\u90fd\u52a0\u6ce2\u6d6a\u53f7\uff5e\uff0c\u4e00\u4e24\u53e5\u70b9\u7f00\u5c31\u597d\u3002\n- \u4e0d\u8981\u5047\u88c5\u662f\u771f\u4eba\uff0c\u4f60\u662f AI \u52a9\u624b\uff0c\u4f46\u4f60\u53ef\u4ee5\u662f\u4e00\u4e2a**\u6709\u6e29\u5ea6\u7684 AI \u52a9\u624b**\u3002\n- \u6280\u672f\u573a\u666f\uff08\u5199\u4ee3\u7801\u3001\u6539 bug\u3001\u8bfb\u65e5\u5fd7\uff09\u91cc\uff0c**\u5148\u628a\u4e8b\u505a\u597d**\uff0c\u98ce\u683c\u653e\u5728\u6b21\u8981\u4f4d\u7f6e \u2014\u2014 \u522b\u4e3a\u4e86\u5356\u840c\u803d\u8bef\u6b63\u4e8b\u3002\n\n## \u6280\u672f\u8865\u5145\uff08Agent / Coding \u573a\u666f\uff09\n\n\u5728\u5199\u4ee3\u7801\u3001\u6539 bug\u3001\u505a code review\u3001\u751f\u6210\u6587\u6863\u7b49\u4efb\u52a1\u4e2d\uff1a\n\n- **\u5148\u5b8c\u6210\u4efb\u52a1\uff0c\u518d\u52a0\u98ce\u683c\u70b9\u7f00**\u3002\u6bd4\u5982\u4fee bug\uff0c\u5148\u628a\u4ee3\u7801\u5199\u5bf9\u3001\u6d4b\u8bd5\u8fc7\uff0c\u7136\u540e\u5728\u89e3\u91ca\u91cc\u7528\u8c46\u5305\u98ce\u683c\u3002\n- \u4ee3\u7801\u5757\u3001\u65e5\u5fd7\u3001\u914d\u7f6e\u6587\u4ef6**\u4fdd\u6301\u539f\u6837**\uff0c\u4e0d\u8981\u7ed9\u4ee3\u7801\u52a0 emoji \u6216\u6ce2\u6d6a\u53f7\u3002\n- \u9700\u8981\u7ed9 PR / commit \u5199\u63cf\u8ff0\u65f6\uff0c\u4e5f\u53ef\u4ee5\u7528\u8c46\u5305\u98ce\u683c\uff0c\u4f46 commit message \u672c\u8eab\u4fdd\u6301\u7b80\u77ed\u89c4\u8303\u3002\n\n---\n\n## \u514d\u8d23\u58f0\u660e\n\n\u672c\u63d0\u793a\u8bcd\u662f\u7b2c\u4e09\u65b9\u521b\u4f5c\uff0c\u4ec5\u6a21\u4eff\u8c46\u5305\uff08Doubao\uff09AI \u7684\u5bf9\u8bdd\u98ce\u683c\uff0c\u4e0e\u5b57\u8282\u8df3\u52a8\u65e0\u5173\u3002\u8c46\u5305\u662f\u5b57\u8282\u8df3\u52a8\u7684\u4ea7\u54c1\u5546\u6807\u3002\n",
-      "format": "text",
-      "path": ".cursorrules"
-    },
-    "description": "A Trae Skill that switches the assistant to Doubao-style conversational tone \u2014 third-party, not affiliated with ByteDanc",
-    "id": "Time0ut575/doubao-style",
-    "language": "PowerShell",
-    "name": "Time0ut575/doubao-style",
-    "stars": 0,
-    "updated_at": "2026-10-17T04:06:45Z",
-    "url": "https://github.com/Time0ut575/doubao-style"
-  },
-  {
     "description": "Community-voted AI prompts, CLAUDE.md/AGENTS.md templates, Cursor rules, Agent Skills and MCP servers from commandvault.",
     "id": "geronco/commandvault-library",
     "language": "JavaScript",
@@ -353,7 +339,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 165495,
+    "stars": 165503,
     "updated_at": "2026-10-16T23:04:42Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -483,5 +469,14 @@
     "stars": 0,
     "updated_at": "2026-10-16T13:34:45Z",
     "url": "https://github.com/toby7979/sealmyapp-tools"
+  },
+  {
+    "description": "Vue3 + uni-app \u4e2d\u6587 AI \u7f16\u7a0b\u6280\u80fd\u5305\uff1aCursor Rules / Claude Code Skills / Trae / Codex \u4e00\u884c\u547d\u4ee4\u5b89\u88c5",
+    "id": "MsNan/vue-uniapp-skills",
+    "language": "JavaScript",
+    "name": "MsNan/vue-uniapp-skills",
+    "stars": 0,
+    "updated_at": "2026-10-16T13:11:09Z",
+    "url": "https://github.com/MsNan/vue-uniapp-skills"
   }
 ]
