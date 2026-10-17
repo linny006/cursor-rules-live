@@ -1,11 +1,20 @@
 [
   {
+    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
+    "id": "bompus/house-rules",
+    "language": "JavaScript",
+    "name": "bompus/house-rules",
+    "stars": 2,
+    "updated_at": "2026-10-17T00:09:51Z",
+    "url": "https://github.com/bompus/house-rules"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-16T23:54:24Z",
+    "updated_at": "2026-10-17T00:00:43Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -45,7 +54,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 165222,
+    "stars": 165225,
     "updated_at": "2026-10-16T23:04:42Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -121,15 +130,6 @@
     "stars": 0,
     "updated_at": "2026-10-16T20:58:21Z",
     "url": "https://github.com/agentkitco/agent-config-templates"
-  },
-  {
-    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
-    "id": "bompus/house-rules",
-    "language": "JavaScript",
-    "name": "bompus/house-rules",
-    "stars": 2,
-    "updated_at": "2026-10-16T23:58:06Z",
-    "url": "https://github.com/bompus/house-rules"
   },
   {
     "description": "Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam",
