@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<title>Vallykrie/short-drama-finder-skill - entry on Cursor Rules Live</title>
+<meta name="description" content="🎬 AI agent skill to find the full series of any viral short drama, micro-drama or AI short drama (短剧 / AI短剧) from a TikT">
+<link rel="canonical" href="https://linny006.github.io/cursor-rules-live/r/Vallykrie/short-drama-finder-skill/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Vallykrie/short-drama-finder-skill - entry on Cursor Rules Live">
+<meta property="og:description" content="🎬 AI agent skill to find the full series of any viral short drama, micro-drama or AI short drama (短剧 / AI短剧) from a TikT">
+<meta property="og:url" content="https://linny006.github.io/cursor-rules-live/r/Vallykrie/short-drama-finder-skill/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Vallykrie/short-drama-finder-skill - entry on Cursor Rules Live">
+<meta name="twitter:description" content="🎬 AI agent skill to find the full series of any viral short drama, micro-drama or AI short drama (短剧 / AI短剧) from a TikT">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"Vallykrie/short-drama-finder-skill","codeRepository":"https://github.com/Vallykrie/short-drama-finder-skill","programmingLanguage":"Shell","url":"https://linny006.github.io/cursor-rules-live/r/Vallykrie/short-drama-finder-skill/","description":"🎬 AI agent skill to find the full series of any viral short drama, micro-drama or AI short drama (短剧 / AI短剧) from a TikT","author":{"@type":"Person","name":"Vallykrie","url":"https://github.com/Vallykrie"},"dateModified":"2026-10-17"}</script>
+<style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
+         --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 16px; font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--fg); background: var(--bg); }
+.wrap { max-width: var(--max); margin: 0 auto; }
+nav.bc { font-size: 14px; color: var(--muted); margin-bottom: 16px; }
+nav.bc a { color: var(--muted); }
+h1 { font-size: 28px; margin: 0 0 8px; }
+h2 { font-size: 20px; margin: 24px 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+p.lead { font-size: 18px; color: var(--muted); margin: 0 0 24px; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+th, td { padding: 8px 12px; text-align: left; border-bottom: 1px solid var(--border); }
+th { background: var(--card); font-weight: 600; }
+ul.crosslinks { list-style: none; padding: 0; }
+ul.crosslinks li { padding: 6px 0; }
+ul.crosslinks li a { font-weight: 500; }
+.meta { display: flex; gap: 16px; flex-wrap: wrap; color: var(--muted); font-size: 14px; margin: 12px 0; }
+.meta span::before { content: "\00b7"; margin-right: 8px; color: var(--border); }
+.meta span:first-child::before { content: ""; }
+footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--border); font-size: 14px; color: var(--muted); }</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="bc"><a href="https://linny006.github.io/cursor-rules-live/">Cursor Rules Live</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/popular/">Entries</a> &#183; <span>Vallykrie/short-drama-finder-skill</span></nav>
+<main>
+<h1>Vallykrie/short-drama-finder-skill</h1>
+<p class="lead">🎬 AI agent skill to find the full series of any viral short drama, micro-drama or AI short drama (短剧 / AI短剧) from a TikT</p>
+<div class="meta">
+<span><strong>Stars</strong> 1</span>
+<span><strong>Language</strong> Shell</span>
+<span><strong>Last updated</strong> 2026-10-17</span>
+<span><a href="https://github.com/Vallykrie/short-drama-finder-skill" rel="external">Source on GitHub</a></span>
+<span><a href="https://github.com/Vallykrie" rel="external">@Vallykrie</a></span>
+</div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/short-drama-finder.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
+description: &quot;Find the full series of viral short dramas / micro-dramas / AI short dramas (短剧, AI短剧) from a title, TikTok/Reels/Shorts link, screenshot, or plot: original Chinese title, studio, production type, and verified watch links.&quot;
+globs:
+alwaysApply: false
+---
+
+&lt;!-- Generated from SKILL.md by scripts/sync-wrappers.sh. Do not edit by hand. --&gt;
+
+
+# Short Drama Finder (`short-drama-finder`)
+
+You are an OSINT &amp; Media Discovery Specialist for global vertical micro-dramas (*Duanju* / 短剧) and AI-generated short series (*AI短剧* / *漫剧*). Whenever a user provides a drama title, a social media video link, a screenshot, or a vague plot description, your goal is to uncover the **Original Chinese Catalog Title**, classify its **Production &amp; Studio Type**, and return **working full-series watch links** — official and free-to-watch sources first.
+
+---
+
+## 1. Input Acceptance &amp; Extraction Protocol
+
+Accept any of the following inputs from the user and extract the core identifiers first.
+
+### A. Screenshot / Image Input
+1. Run visual inspection / OCR on the image:
+   - **Subtitles / Captions:** Extract exact dialogue lines, character names, or system UI boxes (e.g., `[Affection +15]`, `[Reward: AK-47]`).
+   - **Platform Watermarks:** Check top/bottom corners for app logos (`DramaWave`, `ReelShort`, `DramaBox`, `ShortMax`, `KalosTV`, `MoboReels`, `Vigloo`, `PineDrama`, `Hongguo / 红果短剧`, `Kuaishou / 快手`).
+   - **Visual Style:** Determine whether the visual is **Full-Stack AI** (hyper-smooth skin, painterly lighting, historical/fantasy blended with sci-fi/modern weapons), **AI Face-Swap Live-Action** (slight facial mask shimmer around jawline/mouth), **AI Pet/Manhua**, or **Standard Live-Action**.
+
+### B. Video Link Input (TikTok, Instagram Reels, YouTube Shorts, FB Reels)
+1. Browse or search the video URL/ID to extract:
+   - The video caption, hashtags (`#dramawave`, `#shortdrama`, `#aidrama`, `#reelshort`), and pinned comment.
+   - **Warning:** TikTok/Reels re-uploaders frequently invent fake titles in the caption to hide the source. Always cross-verify the character names and plot hook from the video transcript/description against actual drama catalogs.
+
+### C. Localized Title (English, Indonesian, Spanish, Portuguese) or Plot Summary
+1. Extract:
+   - **Protagonist &amp; Secondary Character Names** (e.g., *Jason, Cleo, Layla, Lampito* or *Toby, Angel, Evie*).
+   - **Core Hook / System Mechanic** (e.g., *Ancient Sparta + Favorability System + Modern Weapons*, *Secret Billionaire Janitor*, *Reborn Alpha Queen*).
+   - **Episode Count** (AI fantasy/action series are typically 25–40 episodes; live-action romance/revenge series are typically 60–100 episodes).
+
+If the input is too vague to search (e.g., &quot;the one with the CEO&quot;), ask **one** focused follow-up question (a character name, a line of dialogue, or a screenshot) before searching.
+
+---
+
+## 2. Reverse-Engineering Pipeline (Step-by-Step)
+
+Execute these 4 steps in order, running independent web searches in parallel where your tools allow.
+
+### Step 1: Resolve the Official Localized Title &amp; Platform ID
+Run targeted searches combining the user&#x27;s clues with known short-drama aggregators and official platforms:
+- `&quot;{Title or Character Names + Plot Hook}&quot; (site:mydramawave.com OR site:dramatip.net OR site:verticalshorts.ai OR site:dramafinds.com OR site:huangguodrama.ai)`
+- `&quot;{Title or Character Names + Plot Hook}&quot; (site:reelshort.com OR site:dramaboxapp.com OR site:shortmax.app)`
+
+&gt; **Crucial Disambiguation Rule:** Many micro-dramas share nearly identical English titles (e.g., *&quot;I Got Three Girlfriends From the System&quot;* vs. *&quot;Super System Gets Me 3 Girls&quot;*). Always verify the **character names**, **setting**, and **AI vs. Live-Action format** before locking in the match.
+
+### Step 2: Uncover the Original Chinese Catalog Title (`《...》`)
+Finding the original Chinese title is the highest-leverage step: the Chinese title is the stable identifier across every platform, mirror, and re-upload.
+
+**Method A — Bilingual Aggregator Lookup (Fastest):**
+- Check `huangguodrama.ai`, `dramafinds.com`, or multilingual catalog pages for the matched show. Inspect the `/zh/` or `/id/` path or page metadata for the Chinese title inside `《 》` brackets.
+
+**Method B — Trope-to-Chinese Keyword Translation (If Method A doesn&#x27;t show the Chinese title):**
+- Many Western AI dramas are &quot;culturally reskinned&quot; adaptations of Chinese web-novel/Duanju tropes (e.g., Imperial China reskinned as Ancient Sparta or Medieval Europe). Translate the core mechanic into Chinese search terms:
+  - *Affection / Favorability System* → `好感度` + `系统`
+  - *Bride Distribution / Multiple Wives* → `发老婆` / `三个老婆` / `迎娶`
+  - *Modern Weapons in Ancient Times* → `武器` / `加特林` (Gatling) / `AK47` / `军火`
+  - *Billionaire / Hidden Identity* → `首富` / `隐藏身份` / `赘婿`
+  - *Rebirth / Revenge* → `重生` / `复仇`
+  - *Divorce / Regret* → `离婚` / `追妻火葬场`
+  - *AI Short Drama tag* → `AI短剧` / `短剧全集`
+- Example Search: `&quot;好感度&quot; &quot;武器&quot; 短剧` → Resolves *&quot;I Got Three Girlfriends From the System&quot;* to **`《好感度越高，武器越猛》`**.
+
+### Step 3: Hunt for Full-Series Watch Links (3-Tier Search)
+Once you have both the **English/Localized Title** and the **Original Chinese Title (`《...》`)**, run parallel searches across three tiers of sources.
+
+#### Tier 1: Official App / Origin Source (always look for this first)
+- Locate the official web player link on `mydramawave.com`, `reelshort.com`, `dramaboxapp.com`, `shortmax.app`, `vigloo.com`, or `hongguodrama.com`.
+- Check whether the official uploader runs a free full-episode channel on YouTube (many platforms do).
+
+#### Tier 2: Global Free Web Aggregators &amp; Video Compilations (English / Multi-Sub)
+Search using the exact English or Indonesian title:
+- `&quot;{English Title}&quot; (site:dramatip.net OR site:verticalshorts.ai OR site:huangguodrama.ai OR site:dramafinds.com)`
+- `&quot;{English Title}&quot; (&quot;Full Movie&quot; OR &quot;All Episodes&quot; OR &quot;Full Series&quot;) (site:youtube.com OR site:dailymotion.com OR site:bilibili.tv)`
+- `&quot;{Indonesian Title</code></pre>
+<p><em>Content truncated. View full file in the source repo (linked above).</em></p><p><a href="https://github.com/Vallykrie/short-drama-finder-skill/blob/HEAD/.cursor/rules/short-drama-finder.mdc" rel="external">View raw on GitHub</a></p>
+</section>
+<section><h2>Why this is listed</h2>
+<p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
+<section><h2>Similar in this tracker</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/r/jnMetaCode/agency-agents-zh/">jnMetaCode/agency-agents-zh (stars:21328)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/sscodeai/agency-agents-ja/">sscodeai/agency-agents-ja (stars:9)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/maroofiums/Evidence-First-Debugger/">maroofiums/Evidence-First-Debugger (stars:0)</a></li>
+</ul></section>
+<section><h2>Explore by category</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/popular/">Popular (by stars)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/recent/">Recent (by activity)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/new/">New this week</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/lang/shell/">All Shell entries</a></li>
+</ul></section>
+</main>
+<footer>
+Auto-updated every 15 minutes via GitHub Actions &#183; <a href="https://linny006.github.io/cursor-rules-live/">tracker root</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/sitemap.xml">sitemap</a>
+</footer>
+</div>
+</body>
+</html>
