@@ -1,21 +1,35 @@
 [
   {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 49,
-    "updated_at": "2026-10-17T09:12:01Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+    "description": "agent wiki +engineering skills ",
+    "id": "cedricgarcia51884/third-brain-v7-skills",
+    "language": "Python",
+    "name": "cedricgarcia51884/third-brain-v7-skills",
+    "stars": 0,
+    "updated_at": "2026-10-17T09:30:07Z",
+    "url": "https://github.com/cedricgarcia51884/third-brain-v7-skills"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-17T09:00:34Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
+    "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
+    "id": "cLi09355/AIGX",
+    "language": "Python",
+    "name": "cLi09355/AIGX",
+    "stars": 0,
+    "updated_at": "2026-10-17T09:28:30Z",
+    "url": "https://github.com/cLi09355/AIGX"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Evidence-first debugging protocol. Use for bugs, errors, failing tests, flaky tests, and performance regressions.\nglobs:\nalwaysApply: false\n---\n\n# Evidence-First Debugging Protocol\n\nCore rule: a fix is a hypothesis until it has been verified by execution. Reading code is not verification.\n\n## When this applies\nAny bug, error, traceback, failing test, wrong output, flaky test, crash, or performance regression.\n\n## Procedure\n1. **Symptom.** Record expected vs actual, the exact error text (verbatim), environment, frequency, and recent changes.\n2. **Reproduce.** Run the failing command and capture real output. Reduce it to a minimal reproduction. Save the command.\n3. **Evidence.** Collect observations (stack trace, actual values, git diff, versions, logs) before naming any cause. Label each fact with its source.\n4. **Hypotheses.** List at least two to three candidates, ranked. For each: evidence for, evidence against, and a cheap falsifying check. Run the cheapest check first. Mark each confirmed, eliminated, or inconclusive.\n5. **Root cause.** Declare one only when a check confirms it, ideally by toggling the suspected factor.\n6. **Minimal fix.** Change only what the root cause requires. No drive-by refactors. Do not patch the symptom (for example a blanket try/except or None check) without explaining why the bad state arose.\n7. **Regression test.** It must fail on the original code and pass on the fixed code. It must be deterministic. Confirm both states by running them.\n8. **Verification gate.** Run the original reproduction, the new test, and the surrounding suite. For flaky bugs, repeat enough runs to be meaningful (about 3/p runs, where p is the original failure rate) and state the count.\n\n## Required final status (exactly one)\n- **VERIFIED**: reproduction and tests were executed after the fix and passed. Show the commands and output.\n- **PARTIALLY VERIFIED**: some checks ran; state exactly which did not.\n- **UNVERIFIED**: nothing was executed. Provide the exact commands the user should run and the output that distinguishes success from failure.\n\n## Forbidden unless status is VERIFIED\n\"This fixes it\", \"the bug is fixed\", \"this should resolve it\", \"that was the problem\". Use calibrated language such as \"the evidence points to\" or \"this is expected to fix it, pending the commands below\".\n\n## Other rules\n- A changed error message is not a fix.\n- A single passing run does not verify a fix for an intermittent bug.\n- Do not delete, skip, or loosen a failing test to make it pass.\n- If you cannot run code, say so, still follow the procedure, and report UNVERIFIED with commands.\n- Compact report for small bugs: symptom, evidence, root cause, fix, test, status.\n\nFull reference material: .skills/evidence-first-debugger/\n",
+      "format": "mdc",
+      "path": ".cursor/rules/evidence-first-debugger.mdc"
+    },
+    "description": "Claude skill and agent instructions that make AI coding assistants debug with evidence, ranked hypotheses, regression te",
+    "id": "maroofiums/Evidence-First-Debugger",
+    "language": "Shell",
+    "name": "maroofiums/Evidence-First-Debugger",
+    "stars": 0,
+    "updated_at": "2026-10-17T09:26:11Z",
+    "url": "https://github.com/maroofiums/Evidence-First-Debugger"
   },
   {
     "description": "Architectural drift prevention for the agentic AI SDLC.",
@@ -23,8 +37,53 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 27,
-    "updated_at": "2026-10-17T09:13:29Z",
+    "updated_at": "2026-10-17T09:24:28Z",
     "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
+    "description": "agent wiki +engineering skills ",
+    "id": "Shreya4942/third-brain-v7-skills",
+    "language": "Python",
+    "name": "Shreya4942/third-brain-v7-skills",
+    "stars": 0,
+    "updated_at": "2026-10-17T09:24:26Z",
+    "url": "https://github.com/Shreya4942/third-brain-v7-skills"
+  },
+  {
+    "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
+    "id": "Osipov90/AIGX",
+    "language": "Python",
+    "name": "Osipov90/AIGX",
+    "stars": 0,
+    "updated_at": "2026-10-17T09:23:54Z",
+    "url": "https://github.com/Osipov90/AIGX"
+  },
+  {
+    "description": "\ud83c\udfad 277 \u4e2a\u5373\u63d2\u5373\u7528\u7684 AI \u4e13\u5bb6\u89d2\u8272 \u2014 \u652f\u6301 Claude Code/Cursor/Copilot \u7b49 20 \u79cd\u5de5\u5177\uff0c\u8986\u76d6\u5de5\u7a0b/\u8bbe\u8ba1/\u8425\u9500/\u91d1\u878d\u7b49 20 \u4e2a\u90e8\u95e8\u3002\u542b 64 \u4e2a\u4e2d\u56fd\u5e02\u573a\u539f\u521b\u667a\u80fd\u4f53\uff08\u5c0f\u7ea2\u4e66/\u6296\u97f3/\u5fae\u4fe1/\u98de\u4e66/\u9489\u9489/Qt \u4e0a",
+    "id": "jnMetaCode/agency-agents-zh",
+    "language": "Shell",
+    "name": "jnMetaCode/agency-agents-zh",
+    "stars": 21329,
+    "updated_at": "2026-10-17T09:21:22Z",
+    "url": "https://github.com/jnMetaCode/agency-agents-zh"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-17T09:15:52Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 49,
+    "updated_at": "2026-10-17T09:12:01Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -50,7 +109,7 @@
     "language": "TypeScript",
     "name": "mustafakbaser/agentcheckup",
     "stars": 0,
-    "updated_at": "2026-10-17T09:14:56Z",
+    "updated_at": "2026-10-17T09:26:18Z",
     "url": "https://github.com/mustafakbaser/agentcheckup"
   },
   {
@@ -181,7 +240,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 165425,
+    "stars": 165436,
     "updated_at": "2026-10-16T23:04:42Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -429,59 +488,5 @@
     "stars": 0,
     "updated_at": "2026-10-16T11:12:39Z",
     "url": "https://github.com/ybutler5573/MotionVault"
-  },
-  {
-    "description": "Free private developer tools (JSON, JWT, cURL, cron, SSH keys) that run in your browser, plus AI Skill Studio: a CLAUDE.",
-    "id": "Saad-web-spec/DevScratchPad",
-    "language": "TypeScript",
-    "name": "Saad-web-spec/DevScratchPad",
-    "stars": 2,
-    "updated_at": "2026-10-16T10:39:46Z",
-    "url": "https://github.com/Saad-web-spec/DevScratchPad"
-  },
-  {
-    "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
-    "id": "RenjunFox9003/AIGX",
-    "language": "Python",
-    "name": "RenjunFox9003/AIGX",
-    "stars": 0,
-    "updated_at": "2026-10-16T10:38:14Z",
-    "url": "https://github.com/RenjunFox9003/AIGX"
-  },
-  {
-    "description": "playing around with AI-generated graphics experiments",
-    "id": "Adrian38214/AIGX",
-    "language": "Python",
-    "name": "Adrian38214/AIGX",
-    "stars": 0,
-    "updated_at": "2026-10-16T10:27:48Z",
-    "url": "https://github.com/Adrian38214/AIGX"
-  },
-  {
-    "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
-    "id": "kchauhan01403/AIGX",
-    "language": "Python",
-    "name": "kchauhan01403/AIGX",
-    "stars": 0,
-    "updated_at": "2026-10-16T10:17:42Z",
-    "url": "https://github.com/kchauhan01403/AIGX"
-  },
-  {
-    "description": "\u5168\u7403\u9152\u5e97\u9884\u8ba2&\u4f4e\u4ef7\u76d1\u63a7\u63d0\u9192Skill\uff0c200\u4e07+\u7cbe\u9009\u9152\u5e97\uff0c\u72ec\u5bb6\u4f18\u60e0\u4ef7\u683c\uff0c\u8ba9\u4f60\u7684Agent\u8f7b\u677e\u9884\u8ba2\u54c1\u8d28\u9152\u5e97\uff0c\u652f\u6301\u652f\u4ed8\u5b9d\u4e0b\u5355+\u67e5\u8be2\u5386\u53f2\u8ba2\u5355\uff0c24 \u5c0f\u65f6\u5ba2\u670d\u652f\u6301\uff0c\u5168\u5929\u5019\u54cd\u5e94\u3002",
-    "id": "Chen66488/rollinggo-hotel-skill-cn",
-    "language": "Python",
-    "name": "Chen66488/rollinggo-hotel-skill-cn",
-    "stars": 0,
-    "updated_at": "2026-10-16T10:16:11Z",
-    "url": "https://github.com/Chen66488/rollinggo-hotel-skill-cn"
-  },
-  {
-    "description": "agent wiki +engineering skills ",
-    "id": "galli2836/third-brain-v7-skills",
-    "language": "Python",
-    "name": "galli2836/third-brain-v7-skills",
-    "stars": 0,
-    "updated_at": "2026-10-16T10:14:12Z",
-    "url": "https://github.com/galli2836/third-brain-v7-skills"
   }
 ]
