@@ -1,12 +1,48 @@
 [
   {
-    "description": "agent wiki +engineering skills ",
-    "id": "cedricgarcia51884/third-brain-v7-skills",
-    "language": "Python",
-    "name": "cedricgarcia51884/third-brain-v7-skills",
+    "description": "200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type",
+    "id": "pinar5974/MotionVault",
+    "language": "TypeScript",
+    "name": "pinar5974/MotionVault",
     "stars": 0,
-    "updated_at": "2026-10-17T09:30:07Z",
-    "url": "https://github.com/cedricgarcia51884/third-brain-v7-skills"
+    "updated_at": "2026-10-17T09:43:43Z",
+    "url": "https://github.com/pinar5974/MotionVault"
+  },
+  {
+    "description": "200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type",
+    "id": "Lombardi58/MotionVault",
+    "language": "TypeScript",
+    "name": "Lombardi58/MotionVault",
+    "stars": 0,
+    "updated_at": "2026-10-17T09:42:47Z",
+    "url": "https://github.com/Lombardi58/MotionVault"
+  },
+  {
+    "description": "agent wiki +engineering skills ",
+    "id": "robertoda534/third-brain-v7-skills",
+    "language": "Python",
+    "name": "robertoda534/third-brain-v7-skills",
+    "stars": 0,
+    "updated_at": "2026-10-17T09:37:04Z",
+    "url": "https://github.com/robertoda534/third-brain-v7-skills"
+  },
+  {
+    "description": "\u5168\u7403\u9152\u5e97\u9884\u8ba2&\u4f4e\u4ef7\u76d1\u63a7\u63d0\u9192Skill\uff0c200\u4e07+\u7cbe\u9009\u9152\u5e97\uff0c\u72ec\u5bb6\u4f18\u60e0\u4ef7\u683c\uff0c\u8ba9\u4f60\u7684Agent\u8f7b\u677e\u9884\u8ba2\u54c1\u8d28\u9152\u5e97\uff0c\u652f\u6301\u652f\u4ed8\u5b9d\u4e0b\u5355+\u67e5\u8be2\u5386\u53f2\u8ba2\u5355\uff0c24 \u5c0f\u65f6\u5ba2\u670d\u652f\u6301\uff0c\u5168\u5929\u5019\u54cd\u5e94\u3002",
+    "id": "Fatmal5473/rollinggo-hotel-skill-cn",
+    "language": "Python",
+    "name": "Fatmal5473/rollinggo-hotel-skill-cn",
+    "stars": 0,
+    "updated_at": "2026-10-17T09:34:09Z",
+    "url": "https://github.com/Fatmal5473/rollinggo-hotel-skill-cn"
+  },
+  {
+    "description": "Architectural drift prevention for the agentic AI SDLC.",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 27,
+    "updated_at": "2026-10-17T09:38:22Z",
+    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
@@ -14,8 +50,35 @@
     "language": "Python",
     "name": "cLi09355/AIGX",
     "stars": 0,
-    "updated_at": "2026-10-17T09:28:30Z",
+    "updated_at": "2026-10-17T09:31:48Z",
     "url": "https://github.com/cLi09355/AIGX"
+  },
+  {
+    "description": "\ud83c\udfad 277 \u4e2a\u5373\u63d2\u5373\u7528\u7684 AI \u4e13\u5bb6\u89d2\u8272 \u2014 \u652f\u6301 Claude Code/Cursor/Copilot \u7b49 20 \u79cd\u5de5\u5177\uff0c\u8986\u76d6\u5de5\u7a0b/\u8bbe\u8ba1/\u8425\u9500/\u91d1\u878d\u7b49 20 \u4e2a\u90e8\u95e8\u3002\u542b 64 \u4e2a\u4e2d\u56fd\u5e02\u573a\u539f\u521b\u667a\u80fd\u4f53\uff08\u5c0f\u7ea2\u4e66/\u6296\u97f3/\u5fae\u4fe1/\u98de\u4e66/\u9489\u9489/Qt \u4e0a",
+    "id": "jnMetaCode/agency-agents-zh",
+    "language": "Shell",
+    "name": "jnMetaCode/agency-agents-zh",
+    "stars": 21329,
+    "updated_at": "2026-10-17T09:31:03Z",
+    "url": "https://github.com/jnMetaCode/agency-agents-zh"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-17T09:30:52Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "agent wiki +engineering skills ",
+    "id": "cedricgarcia51884/third-brain-v7-skills",
+    "language": "Python",
+    "name": "cedricgarcia51884/third-brain-v7-skills",
+    "stars": 0,
+    "updated_at": "2026-10-17T09:30:07Z",
+    "url": "https://github.com/cedricgarcia51884/third-brain-v7-skills"
   },
   {
     "cursorrules": {
@@ -30,15 +93,6 @@
     "stars": 0,
     "updated_at": "2026-10-17T09:26:11Z",
     "url": "https://github.com/maroofiums/Evidence-First-Debugger"
-  },
-  {
-    "description": "Architectural drift prevention for the agentic AI SDLC.",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 27,
-    "updated_at": "2026-10-17T09:24:28Z",
-    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "description": "agent wiki +engineering skills ",
@@ -57,24 +111,6 @@
     "stars": 0,
     "updated_at": "2026-10-17T09:23:54Z",
     "url": "https://github.com/Osipov90/AIGX"
-  },
-  {
-    "description": "\ud83c\udfad 277 \u4e2a\u5373\u63d2\u5373\u7528\u7684 AI \u4e13\u5bb6\u89d2\u8272 \u2014 \u652f\u6301 Claude Code/Cursor/Copilot \u7b49 20 \u79cd\u5de5\u5177\uff0c\u8986\u76d6\u5de5\u7a0b/\u8bbe\u8ba1/\u8425\u9500/\u91d1\u878d\u7b49 20 \u4e2a\u90e8\u95e8\u3002\u542b 64 \u4e2a\u4e2d\u56fd\u5e02\u573a\u539f\u521b\u667a\u80fd\u4f53\uff08\u5c0f\u7ea2\u4e66/\u6296\u97f3/\u5fae\u4fe1/\u98de\u4e66/\u9489\u9489/Qt \u4e0a",
-    "id": "jnMetaCode/agency-agents-zh",
-    "language": "Shell",
-    "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21329,
-    "updated_at": "2026-10-17T09:21:22Z",
-    "url": "https://github.com/jnMetaCode/agency-agents-zh"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-17T09:15:52Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -109,7 +145,7 @@
     "language": "TypeScript",
     "name": "mustafakbaser/agentcheckup",
     "stars": 0,
-    "updated_at": "2026-10-17T09:26:18Z",
+    "updated_at": "2026-10-17T09:38:22Z",
     "url": "https://github.com/mustafakbaser/agentcheckup"
   },
   {
@@ -240,7 +276,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 165436,
+    "stars": 165442,
     "updated_at": "2026-10-16T23:04:42Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -452,41 +488,5 @@
     "stars": 0,
     "updated_at": "2026-10-16T11:23:06Z",
     "url": "https://github.com/IsabelaKarahan75960/MotionVault"
-  },
-  {
-    "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
-    "id": "larsg86767/AIGX",
-    "language": "Python",
-    "name": "larsg86767/AIGX",
-    "stars": 0,
-    "updated_at": "2026-10-16T11:21:16Z",
-    "url": "https://github.com/larsg86767/AIGX"
-  },
-  {
-    "description": "\u5168\u7403\u9152\u5e97\u9884\u8ba2&\u4f4e\u4ef7\u76d1\u63a7\u63d0\u9192Skill\uff0c200\u4e07+\u7cbe\u9009\u9152\u5e97\uff0c\u72ec\u5bb6\u4f18\u60e0\u4ef7\u683c\uff0c\u8ba9\u4f60\u7684Agent\u8f7b\u677e\u9884\u8ba2\u54c1\u8d28\u9152\u5e97\uff0c\u652f\u6301\u652f\u4ed8\u5b9d\u4e0b\u5355+\u67e5\u8be2\u5386\u53f2\u8ba2\u5355\uff0c24 \u5c0f\u65f6\u5ba2\u670d\u652f\u6301\uff0c\u5168\u5929\u5019\u54cd\u5e94\u3002",
-    "id": "margauxengstrom/rollinggo-hotel-skill-cn",
-    "language": "Python",
-    "name": "margauxengstrom/rollinggo-hotel-skill-cn",
-    "stars": 0,
-    "updated_at": "2026-10-16T11:19:17Z",
-    "url": "https://github.com/margauxengstrom/rollinggo-hotel-skill-cn"
-  },
-  {
-    "description": "\u5168\u7403\u9152\u5e97\u9884\u8ba2&\u4f4e\u4ef7\u76d1\u63a7\u63d0\u9192Skill\uff0c200\u4e07+\u7cbe\u9009\u9152\u5e97\uff0c\u72ec\u5bb6\u4f18\u60e0\u4ef7\u683c\uff0c\u8ba9\u4f60\u7684Agent\u8f7b\u677e\u9884\u8ba2\u54c1\u8d28\u9152\u5e97\uff0c\u652f\u6301\u652f\u4ed8\u5b9d\u4e0b\u5355+\u67e5\u8be2\u5386\u53f2\u8ba2\u5355\uff0c24 \u5c0f\u65f6\u5ba2\u670d\u652f\u6301\uff0c\u5168\u5929\u5019\u54cd\u5e94\u3002",
-    "id": "jasmijngauthier6990/rollinggo-hotel-skill-cn",
-    "language": "Python",
-    "name": "jasmijngauthier6990/rollinggo-hotel-skill-cn",
-    "stars": 0,
-    "updated_at": "2026-10-16T11:17:49Z",
-    "url": "https://github.com/jasmijngauthier6990/rollinggo-hotel-skill-cn"
-  },
-  {
-    "description": "200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type",
-    "id": "ybutler5573/MotionVault",
-    "language": "TypeScript",
-    "name": "ybutler5573/MotionVault",
-    "stars": 0,
-    "updated_at": "2026-10-16T11:12:39Z",
-    "url": "https://github.com/ybutler5573/MotionVault"
   }
 ]
