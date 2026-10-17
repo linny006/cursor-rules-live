@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-17 06:30 UTC
+> ⏰ Last updated: 2026-10-17 06:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -66,7 +66,7 @@ expired items removed — so you can rely on what you see being current.
 | 11 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-17 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
 | 12 | [eli-alvarado/agentkit-drawer](https://github.com/eli-alvarado/agentkit-drawer) | 0 | — | 2026-10-17 | — | Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam |
 | 13 | [Groundmail/groundmail-skills](https://github.com/Groundmail/groundmail-skills) | 0 | — | 2026-10-17 | — | Agent skills, a Claude Code plugin and a Cursor rule that teach coding agents to add Groundmail transactional email to y |
-| 14 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 165343 | JavaScript | 2026-10-16 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 14 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 165351 | JavaScript | 2026-10-16 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 15 | [roedyrustam/vibes-plug](https://github.com/roedyrustam/vibes-plug) | 76 | JavaScript | 2026-10-16 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/roedyrustam/vibes-plug/) | ⚡ Cross-IDE AI skill collection that orchestrates 147 specialized subagents for full-stack development workflows |
 | 16 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 49 | — | 2026-10-16 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
 | 17 | [useprecedent/precedent](https://github.com/useprecedent/precedent) | 1 | TypeScript | 2026-10-16 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/useprecedent/precedent/) | Effective policy for this path. Compile instruction files and report always-on conflicts. |
