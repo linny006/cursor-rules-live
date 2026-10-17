@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-17T07:30:47Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: Stripe Checkout, Billing and webhooks\nglobs: app/api/**,lib/stripe.ts,**/*stripe*\nalwaysApply: false\n---\n**Checkout**\n- Create sessions server-side only. Pass `client_reference_id: user.id` so the webhook can link the customer to the Supabase user.\n- Use Price IDs from env/config. Never take prices or amounts from the client.\n- Redirect with status 303 to `session.url`.\n\n**Webhooks** (`app/api/webhooks/stripe/route.ts`)\n1. `runtime = \"nodejs\"`; `const body = await request.text()`. Never `request.json()` first.\n2. `stripe.webhooks.constructEvent(body, signature, STRIPE_WEBHOOK_SECRET)`; return 400 on failure.\n3. Idempotency: record `event.id` in `stripe_events` with `status = 'pending'`. On unique violation (`23505`), look up the row: if `completed`, return 200 and stop; if still `pending`, process it again. That is only safe when overlapping deliveries cannot double-apply work: make handlers idempotent upserts keyed on Stripe ids, or claim the row atomically with a lease (`update stripe_events set locked_until = now() + interval '5 minutes' where id = $1 and status = 'pending' and (locked_until is null or locked_until < now())`, and skip if no row was claimed) so a crashed attempt can be reclaimed later. Give side effects such as emails or credit grants their own dedupe key. Set `status = 'completed'` only after processing (or enqueueing) succeeds. If processing fails, return 5xx so Stripe retries.\n4. Handle `checkout.session.completed` (link customer), `customer.subscription.created|updated|deleted` (upsert the mirrored row).\n5. Write with the admin client. Return 2xx quickly and move slow work to a queue.\n\n**Access control**\n- Grant features from the `subscriptions` row (`active`/`trialing`), not the success URL.\n- In recent Stripe API versions (`2025-03-31.basil`+), `current_period_start/end` live on subscription **items**, not the subscription. `sub.items.data[0].current_period_end` is only correct for single-item subscriptions; with multiple items, pick the item whose price grants the entitlement. Check the installed `stripe` types.\n- Test locally with `stripe listen` and `stripe trigger checkout.session.completed`.\n",
       "format": "mdc",
@@ -39,15 +48,6 @@
     "stars": 2,
     "updated_at": "2026-10-17T07:25:43Z",
     "url": "https://github.com/bompus/house-rules"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-17T07:15:40Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type",
@@ -163,7 +163,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 165371,
+    "stars": 165381,
     "updated_at": "2026-10-16T23:04:42Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
