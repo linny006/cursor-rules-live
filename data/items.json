@@ -1,5 +1,23 @@
 [
   {
+    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
+    "id": "bompus/house-rules",
+    "language": "JavaScript",
+    "name": "bompus/house-rules",
+    "stars": 2,
+    "updated_at": "2026-10-17T05:58:34Z",
+    "url": "https://github.com/bompus/house-rules"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-17T05:45:39Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type",
     "id": "borism0825/MotionVault",
     "language": "TypeScript",
@@ -25,24 +43,6 @@
     "stars": 0,
     "updated_at": "2026-10-17T05:36:10Z",
     "url": "https://github.com/tuyen8952/MotionVault"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-17T05:30:44Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
-    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
-    "id": "bompus/house-rules",
-    "language": "JavaScript",
-    "name": "bompus/house-rules",
-    "stars": 2,
-    "updated_at": "2026-10-17T05:44:40Z",
-    "url": "https://github.com/bompus/house-rules"
   },
   {
     "cursorrules": {
@@ -131,7 +131,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 165326,
+    "stars": 165331,
     "updated_at": "2026-10-16T23:04:42Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
