@@ -5,8 +5,17 @@
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 2,
-    "updated_at": "2026-10-17T01:26:22Z",
+    "updated_at": "2026-10-17T01:41:20Z",
     "url": "https://github.com/bompus/house-rules"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-17T01:30:39Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Architectural drift prevention for the agentic AI SDLC.",
@@ -25,15 +34,6 @@
     "stars": 0,
     "updated_at": "2026-10-17T01:15:59Z",
     "url": "https://github.com/eli-alvarado/agentkit-drawer"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-17T01:15:52Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Agent skills, a Claude Code plugin and a Cursor rule that teach coding agents to add Groundmail transactional email to y",
@@ -90,7 +90,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 165233,
+    "stars": 165236,
     "updated_at": "2026-10-16T23:04:42Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -367,7 +367,7 @@
     "url": "https://github.com/RenjunFox9003/AIGX"
   },
   {
-    "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
+    "description": "playing around with AI-generated graphics experiments",
     "id": "Adrian38214/AIGX",
     "language": "Python",
     "name": "Adrian38214/AIGX",
