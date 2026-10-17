@@ -1,11 +1,20 @@
 [
   {
+    "description": "A checkup for your coding agent setup. Lints AGENTS.md, CLAUDE.md, SKILL.md, Cursor rules, Copilot instructions, MCP ser",
+    "id": "mustafakbaser/agentcheckup",
+    "language": "TypeScript",
+    "name": "mustafakbaser/agentcheckup",
+    "stars": 0,
+    "updated_at": "2026-10-17T08:15:03Z",
+    "url": "https://github.com/mustafakbaser/agentcheckup"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-17T07:58:44Z",
+    "updated_at": "2026-10-17T08:00:43Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -46,7 +55,7 @@
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 2,
-    "updated_at": "2026-10-17T08:00:05Z",
+    "updated_at": "2026-10-17T08:15:03Z",
     "url": "https://github.com/bompus/house-rules"
   },
   {
@@ -163,7 +172,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 165390,
+    "stars": 165398,
     "updated_at": "2026-10-16T23:04:42Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -474,14 +483,5 @@
     "stars": 0,
     "updated_at": "2026-10-16T10:14:12Z",
     "url": "https://github.com/galli2836/third-brain-v7-skills"
-  },
-  {
-    "description": "200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type",
-    "id": "svensuzuki2293/MotionVault",
-    "language": "TypeScript",
-    "name": "svensuzuki2293/MotionVault",
-    "stars": 0,
-    "updated_at": "2026-10-16T10:12:38Z",
-    "url": "https://github.com/svensuzuki2293/MotionVault"
   }
 ]
