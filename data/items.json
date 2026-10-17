@@ -1,5 +1,32 @@
 [
   {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 3,
+    "updated_at": "2026-10-17T17:18:06Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
+  },
+  {
+    "description": "Ten plugins for coding agents, one per stage of the development lifecycle, joined by shared JSON schemas and a common ve",
+    "id": "orin-dx/wisp-plugins",
+    "language": "Python",
+    "name": "orin-dx/wisp-plugins",
+    "stars": 1,
+    "updated_at": "2026-10-17T17:17:51Z",
+    "url": "https://github.com/orin-dx/wisp-plugins"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-17T17:15:53Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Universal SEO & GEO skill for AI coding agents: Claude Code, Cursor, Windsurf, GitHub Copilot, Replit, Lovable, Bolt. Op",
     "id": "Aryanpanwar10005/seo-geo-optimizer",
     "language": "JavaScript",
@@ -16,15 +43,6 @@
     "stars": 2,
     "updated_at": "2026-10-17T17:08:55Z",
     "url": "https://github.com/acus9345/dsh-load-agent-rules"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-17T17:00:45Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Lint your AI instruction files the way each agent reads them \u2014 CLAUDE.md, AGENTS.md, .cursor/rules, GEMINI.md \u2014 and see ",
@@ -70,15 +88,6 @@
     "stars": 0,
     "updated_at": "2026-10-17T14:37:32Z",
     "url": "https://github.com/sublimecoder/sublimecoding"
-  },
-  {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 3,
-    "updated_at": "2026-10-17T14:15:02Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "description": "Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam",
@@ -336,7 +345,7 @@
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 2,
-    "updated_at": "2026-10-17T16:53:46Z",
+    "updated_at": "2026-10-17T17:22:27Z",
     "url": "https://github.com/bompus/house-rules"
   },
   {
@@ -394,7 +403,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 165927,
+    "stars": 165948,
     "updated_at": "2026-10-16T23:04:42Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -479,14 +488,5 @@
     "stars": 0,
     "updated_at": "2026-10-16T18:03:02Z",
     "url": "https://github.com/grizzlykiwidev/grizzlykiwidev.github.io"
-  },
-  {
-    "description": "\u82f1\u6587\u6587\u7ae0\u80cc\u8bf5\u6280\u5de7",
-    "id": "yxdwind/english-memory-method",
-    "language": "HTML",
-    "name": "yxdwind/english-memory-method",
-    "stars": 1,
-    "updated_at": "2026-10-16T14:41:50Z",
-    "url": "https://github.com/yxdwind/english-memory-method"
   }
 ]
