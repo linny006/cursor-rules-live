@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-17 04:45 UTC
+> ⏰ Last updated: 2026-10-17 05:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -64,8 +64,8 @@ expired items removed — so you can rely on what you see being current.
 | 9 | [eli-alvarado/agentkit-drawer](https://github.com/eli-alvarado/agentkit-drawer) | 0 | — | 2026-10-17 | — | Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam |
 | 10 | [Groundmail/groundmail-skills](https://github.com/Groundmail/groundmail-skills) | 0 | — | 2026-10-17 | — | Agent skills, a Claude Code plugin and a Cursor rule that teach coding agents to add Groundmail transactional email to y |
 | 11 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-10-17 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 12 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 165307 | JavaScript | 2026-10-16 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
-| 13 | [roedyrustam/vibes-plug](https://github.com/roedyrustam/vibes-plug) | 75 | JavaScript | 2026-10-16 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/roedyrustam/vibes-plug/) | ⚡ Cross-IDE AI skill collection that orchestrates 147 specialized subagents for full-stack development workflows |
+| 12 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 165314 | JavaScript | 2026-10-16 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 13 | [roedyrustam/vibes-plug](https://github.com/roedyrustam/vibes-plug) | 76 | JavaScript | 2026-10-16 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/roedyrustam/vibes-plug/) | ⚡ Cross-IDE AI skill collection that orchestrates 147 specialized subagents for full-stack development workflows |
 | 14 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 49 | — | 2026-10-16 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
 | 15 | [useprecedent/precedent](https://github.com/useprecedent/precedent) | 1 | TypeScript | 2026-10-16 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/useprecedent/precedent/) | Effective policy for this path. Compile instruction files and report always-on conflicts. |
 | 16 | [agentkitco/agent-config-templates](https://github.com/agentkitco/agent-config-templates) | 0 | — | 2026-10-16 | — | Free AGENTS.md, Cursor rule and audit-prompt templates for AI coding agents (CC BY 4.0). AI-assisted starting points. |
@@ -101,7 +101,7 @@ expired items removed — so you can rely on what you see being current.
 | 46 | [Tyler11639/rollinggo-hotel-skill-cn](https://github.com/Tyler11639/rollinggo-hotel-skill-cn) | 0 | Python | 2026-10-16 | — | 全球酒店预订&低价监控提醒Skill，200万+精选酒店，独家优惠价格，让你的Agent轻松预订品质酒店，支持支付宝下单+查询历史订单，24 小时客服支持，全天候响应。 |
 | 47 | [wright1178/AIGX](https://github.com/wright1178/AIGX) | 0 | Python | 2026-10-16 | — | Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig |
 | 48 | [Katta041/asitis-agent-tools](https://github.com/Katta041/asitis-agent-tools) | 0 | TypeScript | 2026-10-16 | — | Read-only linter for CLAUDE.md, AGENTS.md, SKILL.md and agent rules files: vendor limits, tokens loaded per session, hid |
-| 49 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 21328 | Shell | 2026-10-16 | — | 🎭 277 个即插即用的 AI 专家角色 — 支持 Claude Code/Cursor/Copilot 等 20 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 64 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉/Qt 上 |
+| 49 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 21327 | Shell | 2026-10-16 | — | 🎭 277 个即插即用的 AI 专家角色 — 支持 Claude Code/Cursor/Copilot 等 20 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 64 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉/Qt 上 |
 | 50 | [DonaldBrown35880/third-brain-v7-skills](https://github.com/DonaldBrown35880/third-brain-v7-skills) | 0 | Python | 2026-10-16 | — | agent wiki +engineering skills  |
 <!-- TRACKER_TABLE_END -->
 
