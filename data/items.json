@@ -1,12 +1,12 @@
 [
   {
-    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
-    "id": "bompus/house-rules",
-    "language": "JavaScript",
-    "name": "bompus/house-rules",
-    "stars": 2,
-    "updated_at": "2026-10-17T01:41:20Z",
-    "url": "https://github.com/bompus/house-rules"
+    "description": "Architectural drift prevention for the agentic AI SDLC.",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 27,
+    "updated_at": "2026-10-17T01:56:52Z",
+    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,17 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-17T01:30:39Z",
+    "updated_at": "2026-10-17T01:45:35Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
-    "description": "Architectural drift prevention for the agentic AI SDLC.",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 27,
-    "updated_at": "2026-10-17T01:19:16Z",
-    "url": "https://github.com/MnemeHQ/mneme"
+    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
+    "id": "bompus/house-rules",
+    "language": "JavaScript",
+    "name": "bompus/house-rules",
+    "stars": 2,
+    "updated_at": "2026-10-17T01:49:20Z",
+    "url": "https://github.com/bompus/house-rules"
   },
   {
     "description": "Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam",
@@ -90,7 +90,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 165236,
+    "stars": 165243,
     "updated_at": "2026-10-16T23:04:42Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -443,7 +443,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21320,
+    "stars": 21321,
     "updated_at": "2026-10-16T09:35:39Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
