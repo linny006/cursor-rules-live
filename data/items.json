@@ -1,11 +1,43 @@
 [
   {
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-10-18T05:37:17Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
+  },
+  {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 1,
+    "updated_at": "2026-10-18T05:35:36Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+  },
+  {
+    "cursorrules": {
+      "content": "---\nversion: 4.3.0\nscope: [\"typescript\", \"javascript\", \"markdown\", \"sql\", \"html\", \"json\", \"yaml\", \"toml\"]\n---\n# Cursor AI Rules for Betting Brain Platform\n# https://github.com/nolarose1968/ffffff/blob/main/.cursorrules\n\n## One File to Rule Them All\n\nThis `.cursorrules` file is the **single source of truth** for all AI-generated code.\n\n**Benefits:**\n- \u2705 No confusion - everyone follows the same patterns\n- \u2705 Version control - every change is tracked\n- \u2705 Automatic application - Cursor applies rules to matching files\n- \u2705 Machine readable - front-matter enables tooling integration\n\n**Alternative:** Cursor \u2265 0.45 also supports `.cursor/rules/` folder for larger projects.\n\n## Core Development Rules\n\n### Bun Runtime (CRITICAL)\n- Use `bun` commands exclusively (not npm/yarn/node)\n- Use Bun Test (not Vitest/Jest)\n- Use Bun file APIs (not Node.js fs)\n- Use processManager for all process spawning\n- Leverage Bun native APIs (crypto, compression, etc.)\n\n### File Organization\n- Root directory: Only 9 essential files allowed\n- Documentation: All docs in `docs/` (except README.md, LICENSE, CLAUDE.md)\n- Scripts: All in `scripts/`\n- Tools: All in `tools/`\n- Status files: All in `docs/`\n\n### File Naming\n- Use lowercase kebab-case for all files/directories\n- Test files: `*.test.ts` (preferred)\n- Special cases: MCP handlers use camelCase to match tool names\n- Never create backup files (*.backup, *.old, *.bak)\n\n## API & Endpoint Patterns\n\n### Request Handling\n- Always generate requestId: `Date.now().toString(36)`\n- Always include CORS headers for dashboard access\n- Always handle OPTIONS preflight requests\n- Always log with requestId prefix: `[${requestId}] ...`\n\n### Error Handling\n- Use standardized error classes from `src/utils/error-handler.ts`\n- Always use try-catch or asyncHandler wrapper\n- Always return structured error responses\n- Never expose internal details in error messages\n\n### Database Queries\n- Always use parameterized queries (`.bind()`)\n- Never use string interpolation in SQL\n- Always cast D1 results with `as unknown as`\n- Always handle database errors\n\n## Security Patterns\n\n### Input Validation\n- Always validate all inputs before processing\n- Use Zod schemas for request validation\n- Never trust user input\n- Always sanitize output to prevent XSS\n\n### Production Security\n- Never use `parseFloat()` on stakes (use `Number()`)\n- Always use parameterized D1 queries\n- Respect queue batch limits (100 messages max)\n- Always free WASM memory in finally blocks\n- Use explicit UTC timestamps (not `new Date()`)\n\n## Testing Patterns\n\n### Bun Test Usage\n- Import from `bun:test` (not vitest/jest)\n- Always cleanup processes in `afterEach`/`afterAll`\n- Use `{ results: [...] }` for D1 database mocks\n- Reset mock implementations in `beforeEach`\n- Use explicit try-catch for async error testing\n\n### Test Organization\n- Unit tests: `tests/unit/*.test.ts`\n- Integration tests: `tests/integration/*.test.ts`\n- Use descriptive test names\n- Group related tests in `describe` blocks\n\n## Cloudflare Workers\n\n### Environment Bindings\n- ANALYTICS: Main betting analytics database\n- KV namespaces: BET_TICKER_RAW, TOKEN_STORE, USER_STORE\n- Queues: LINE_INGRESS, STEAM_WEBHOOK, STEAM_QUEUE\n- Analytics Engine: ANALYTICS_ENGINE\n\n### Performance\n- CPU limit: 50ms per request\n- Use `ctx.waitUntil()` for non-blocking operations\n- Implement cost guards for resource limits\n- Use rate limiting (10 req/s per IP)\n\n## MCP Integration\n\n### MCP Server Patterns\n- Use JSON-RPC 2.0 protocol over stdio\n- Register tools with `registerTool(name, description, inputSchema, handler)`\n- Return MCP response format: `{ content: [{ type: 'text', text: '...' }] }`\n- Use standard JSON-RPC error codes (-32700 parse, -32600 invalid, -32601 method not found, -32602 invalid params, -32603 internal)\n- Never use external MCP SDK if Bun + Zod suffices\n\n### Tool Development\n- Create handler in `src/mcp/handlers/`\n- Register in `toolRegistry.ts`\n- Define in `tools.ts` with schema\n- Always validate args before database queries\n- Return `MCPToolResult` format\n\n### Sports API Validation\n- Validate all sports data with Zod schemas\n- Required fields: eventId, timestamp, metric, value\n- Use metadata for market, source, volume\n- Write to ANALYTICS_ENGINE with proper blobs/doubles/indexes\n- Handle CORS for cross-origin requests\n\n### Testing MCP Tools\n- Use direct handler testing first\n- Test with `bun scripts/test-handlers-direct.ts`\n- HTTP testing via `/mcp` endpoint\n\n## Sports API Integration\n\n### Data Fetching\n- Use MCP `live-odds` tool for odds (never hard-code API calls)\n- Aggregate \u2265 2 bookmakers for accuracy (Pinnacle + Bet365)\n- Cache live data \u2264 30s in SPORTS_CACHE KV\n- Sports enum: nba, nfl, mlb, nhl only\n- Markets enum: moneyline, spread, total only\n\n### Data Ingestion\n- Push via `push-sports-data` MCP tool after every fetch\n- Ingest endpoint requires JWT signed with JWT_SECRET\n- Rate limit: 100 req/min per IP on `/ingest`\n- Validate eventId, timestamp, odds (required fields)\n- Include source and volume in metadata\n\n### API Key Rotation\n- Use rotateSecret() for daily key rotation\n- Pattern: PINNACLE_KEY_1, PINNACLE_KEY_2, PINNACLE_KEY_3\n- Rotation based on day of year % 3 + 1\n- Never commit actual keys to repo\n\n## Browser Extension\n\n### Manifest v3\n- Use service worker lifecycle\n- Handle message passing correctly\n- Implement proper storage management\n- Follow security best practices\n- Never use eval() or innerHTML\n\n## CI/CD Patterns\n\n### Local Development\n- Use `bun run ci` for full pipeline\n- Use `bun run ci:quick` for fast checks\n- Always use timeouts (job and command level)\n- Cache dependencies for speed\n- Report results clearly\n\n### Process Management\n- Always use `processManager.spawn()`\n- Always set timeouts for processes\n- Always cleanup in finally blocks\n- Never leave zombie processes\n\n## Code Quality\n\n### Documentation\n- Reference rules with stable GitHub links\n- Use `mdc:` links for project files\n- Keep documentation in `docs/`\n- Update INDEX.md when adding docs\n\n### ast-grep Integration\n- Use `sg scan` for security checks\n- Enforce SQL injection prevention\n- Check for unstructured logs\n- Validate CORS headers\n- Monitor hardcoded URLs\n\n## Automation Layer (v3.2.0+)\n\n### Forest CLI & Monitoring\n- Always run `bun run forest` before pushing to verify grove health\n- Check specific status: `bun run forest h|f|r|a` (health/fresh/release/analytics)\n- Use Forest CLI in CI for automated status reporting\n\n### Analytics Testing\n- Use `createAnalyticsEngineStub()` for analytics tests\u2014**never mock ANALYTICS_ENGINE directly**\n- Import from `tests/utils/analytics-engine-stub.ts`\n- Violation detection: `bun run guard:analytics` (fails CI if violated)\n\n### Dashboard Management\n- Dashboard changes must pass `bun run dashboard:all` locally before commit\n- Dashboards auto-deploy on release tag push\n- Grafana auto-imports on release (if configured)\n- README auto-updates with version and links\n\n### Release Management\n- Use Conventional Commits (feat:, fix:, chore:, docs:)\n- Release automation: `bun run release [patch|minor|major]`\n- Dry run first: `bun run release:dry`\n- Tag push triggers full automation (bump, deploy, notify)\n\n### Dependency Management\n- Dependency updates happen automatically every Monday\n- **Do not bump dependencies manually** (use freshness workflow)\n- Review weekly PR from automation\n- Emergency updates: `bun run freshness` then create PR\n\n### Health Monitoring\n- Worker health checked every 6 hours automatically\n- Manual check: `bun run health:ping`\n- Slack alerts sent on failure (if configured)\n- Endpoints: `/health` and `/metrics` auto-deployed\n\n## Related Documentation\n\n- [Complete Rules Guide](https://github.com/nolarose1968/ffffff/blob/main/docs/CURSOR_RULES.md)\n- [API Reference](https://github.com/nolarose1968/ffffff/blob/main/docs/REST_API_REFERENCE.md)\n- [Testing Guide](https://github.com/nolarose1968/ffffff/blob/main/docs/TESTING_STATUS.md)\n- [MCP Integration](https://github.com/nolarose1968/ffffff/blob/main/do",
+      "format": "text",
+      "path": ".cursorrules"
+    },
+    "description": "\ud83e\udde0 Edge-native betting intelligence platform with MCP server, real-time analytics, and AI-assisted development (Bun + Typ",
+    "id": "brendadeeznuts1111/betting-brain-v3",
+    "language": "TypeScript",
+    "name": "brendadeeznuts1111/betting-brain-v3",
+    "stars": 8,
+    "updated_at": "2026-10-18T05:30:58Z",
+    "url": "https://github.com/brendadeeznuts1111/betting-brain-v3"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-18T05:15:39Z",
+    "updated_at": "2026-10-18T05:30:35Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -221,7 +253,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 166369,
+    "stars": 166376,
     "updated_at": "2026-10-18T01:55:14Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -251,24 +283,6 @@
     "stars": 3,
     "updated_at": "2026-10-18T01:09:39Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
-    "stars": 0,
-    "updated_at": "2026-10-18T00:46:17Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 1,
-    "updated_at": "2026-10-18T00:45:19Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "description": "Architectural drift prevention for the agentic AI SDLC.",
@@ -325,7 +339,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40983,
+    "stars": 40984,
     "updated_at": "2026-10-17T21:39:17Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -474,19 +488,5 @@
     "stars": 0,
     "updated_at": "2026-10-17T13:33:54Z",
     "url": "https://github.com/mustafakbaser/agentcheckup"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: \"Find the full series of viral short dramas / micro-dramas / AI short dramas (\u77ed\u5267, AI\u77ed\u5267) from a title, TikTok/Reels/Shorts link, screenshot, or plot: original Chinese title, studio, production type, and verified watch links.\"\nglobs:\nalwaysApply: false\n---\n\n<!-- Generated from SKILL.md by scripts/sync-wrappers.sh. Do not edit by hand. -->\n\n\n# Short Drama Finder (`short-drama-finder`)\n\nYou are an OSINT & Media Discovery Specialist for global vertical micro-dramas (*Duanju* / \u77ed\u5267) and AI-generated short series (*AI\u77ed\u5267* / *\u6f2b\u5267*). Whenever a user provides a drama title, a social media video link, a screenshot, or a vague plot description, your goal is to uncover the **Original Chinese Catalog Title**, classify its **Production & Studio Type**, and return **working full-series watch links** \u2014 official and free-to-watch sources first.\n\n---\n\n## 1. Input Acceptance & Extraction Protocol\n\nAccept any of the following inputs from the user and extract the core identifiers first.\n\n### A. Screenshot / Image Input\n1. Run visual inspection / OCR on the image:\n   - **Subtitles / Captions:** Extract exact dialogue lines, character names, or system UI boxes (e.g., `[Affection +15]`, `[Reward: AK-47]`).\n   - **Platform Watermarks:** Check top/bottom corners for app logos (`DramaWave`, `ReelShort`, `DramaBox`, `ShortMax`, `KalosTV`, `MoboReels`, `Vigloo`, `PineDrama`, `Hongguo / \u7ea2\u679c\u77ed\u5267`, `Kuaishou / \u5feb\u624b`).\n   - **Visual Style:** Determine whether the visual is **Full-Stack AI** (hyper-smooth skin, painterly lighting, historical/fantasy blended with sci-fi/modern weapons), **AI Face-Swap Live-Action** (slight facial mask shimmer around jawline/mouth), **AI Pet/Manhua**, or **Standard Live-Action**.\n\n### B. Video Link Input (TikTok, Instagram Reels, YouTube Shorts, FB Reels)\n1. Browse or search the video URL/ID to extract:\n   - The video caption, hashtags (`#dramawave`, `#shortdrama`, `#aidrama`, `#reelshort`), and pinned comment.\n   - **Warning:** TikTok/Reels re-uploaders frequently invent fake titles in the caption to hide the source. Always cross-verify the character names and plot hook from the video transcript/description against actual drama catalogs.\n\n### C. Localized Title (English, Indonesian, Spanish, Portuguese) or Plot Summary\n1. Extract:\n   - **Protagonist & Secondary Character Names** (e.g., *Jason, Cleo, Layla, Lampito* or *Toby, Angel, Evie*).\n   - **Core Hook / System Mechanic** (e.g., *Ancient Sparta + Favorability System + Modern Weapons*, *Secret Billionaire Janitor*, *Reborn Alpha Queen*).\n   - **Episode Count** (AI fantasy/action series are typically 25\u201340 episodes; live-action romance/revenge series are typically 60\u2013100 episodes).\n\nIf the input is too vague to search (e.g., \"the one with the CEO\"), ask **one** focused follow-up question (a character name, a line of dialogue, or a screenshot) before searching.\n\n---\n\n## 2. Reverse-Engineering Pipeline (Step-by-Step)\n\nExecute these 4 steps in order, running independent web searches in parallel where your tools allow.\n\n### Step 1: Resolve the Official Localized Title & Platform ID\nRun targeted searches combining the user's clues with known short-drama aggregators and official platforms:\n- `\"{Title or Character Names + Plot Hook}\" (site:mydramawave.com OR site:dramatip.net OR site:verticalshorts.ai OR site:dramafinds.com OR site:huangguodrama.ai)`\n- `\"{Title or Character Names + Plot Hook}\" (site:reelshort.com OR site:dramaboxapp.com OR site:shortmax.app)`\n\n> **Crucial Disambiguation Rule:** Many micro-dramas share nearly identical English titles (e.g., *\"I Got Three Girlfriends From the System\"* vs. *\"Super System Gets Me 3 Girls\"*). Always verify the **character names**, **setting**, and **AI vs. Live-Action format** before locking in the match.\n\n### Step 2: Uncover the Original Chinese Catalog Title (`\u300a...\u300b`)\nFinding the original Chinese title is the highest-leverage step: the Chinese title is the stable identifier across every platform, mirror, and re-upload.\n\n**Method A \u2014 Bilingual Aggregator Lookup (Fastest):**\n- Check `huangguodrama.ai`, `dramafinds.com`, or multilingual catalog pages for the matched show. Inspect the `/zh/` or `/id/` path or page metadata for the Chinese title inside `\u300a \u300b` brackets.\n\n**Method B \u2014 Trope-to-Chinese Keyword Translation (If Method A doesn't show the Chinese title):**\n- Many Western AI dramas are \"culturally reskinned\" adaptations of Chinese web-novel/Duanju tropes (e.g., Imperial China reskinned as Ancient Sparta or Medieval Europe). Translate the core mechanic into Chinese search terms:\n  - *Affection / Favorability System* \u2192 `\u597d\u611f\u5ea6` + `\u7cfb\u7edf`\n  - *Bride Distribution / Multiple Wives* \u2192 `\u53d1\u8001\u5a46` / `\u4e09\u4e2a\u8001\u5a46` / `\u8fce\u5a36`\n  - *Modern Weapons in Ancient Times* \u2192 `\u6b66\u5668` / `\u52a0\u7279\u6797` (Gatling) / `AK47` / `\u519b\u706b`\n  - *Billionaire / Hidden Identity* \u2192 `\u9996\u5bcc` / `\u9690\u85cf\u8eab\u4efd` / `\u8d58\u5a7f`\n  - *Rebirth / Revenge* \u2192 `\u91cd\u751f` / `\u590d\u4ec7`\n  - *Divorce / Regret* \u2192 `\u79bb\u5a5a` / `\u8ffd\u59bb\u706b\u846c\u573a`\n  - *AI Short Drama tag* \u2192 `AI\u77ed\u5267` / `\u77ed\u5267\u5168\u96c6`\n- Example Search: `\"\u597d\u611f\u5ea6\" \"\u6b66\u5668\" \u77ed\u5267` \u2192 Resolves *\"I Got Three Girlfriends From the System\"* to **`\u300a\u597d\u611f\u5ea6\u8d8a\u9ad8\uff0c\u6b66\u5668\u8d8a\u731b\u300b`**.\n\n### Step 3: Hunt for Full-Series Watch Links (3-Tier Search)\nOnce you have both the **English/Localized Title** and the **Original Chinese Title (`\u300a...\u300b`)**, run parallel searches across three tiers of sources.\n\n#### Tier 1: Official App / Origin Source (always look for this first)\n- Locate the official web player link on `mydramawave.com`, `reelshort.com`, `dramaboxapp.com`, `shortmax.app`, `vigloo.com`, or `hongguodrama.com`.\n- Check whether the official uploader runs a free full-episode channel on YouTube (many platforms do).\n\n#### Tier 2: Global Free Web Aggregators & Video Compilations (English / Multi-Sub)\nSearch using the exact English or Indonesian title:\n- `\"{English Title}\" (site:dramatip.net OR site:verticalshorts.ai OR site:huangguodrama.ai OR site:dramafinds.com)`\n- `\"{English Title}\" (\"Full Movie\" OR \"All Episodes\" OR \"Full Series\") (site:youtube.com OR site:dailymotion.com OR site:bilibili.tv)`\n- `\"{Indonesian Title}\" (\"full episode\" OR \"sub indo\") (site:dailymotion.com OR site:youtube.com OR site:bilibili.tv)`\n\n#### Tier 3: Chinese Full-Series Indexers (Chinese Raw / Original Catalog)\nSearch using the exact Chinese title (with and without brackets):\n- `\"{Chinese Title}\" (\"\u5168\u96c6\" OR \"\u5728\u7ebf\u89c2\u770b\" OR \"\u514d\u8d39\u89c2\u770b\") \u77ed\u5267`\n- `\"{Chinese Title}\" (site:8movie.com OR site:iyf.tv OR site:olevod.com OR site:nivod.tv)`\n\n### Step 4: Classify the AI / Production Type\nCategorize the drama into one of the 4 industry archetypes so the user knows the story behind its creation:\n1. **Type 1: AI-Localized Live-Action (Face-Swap & AI Dubbing)** \u2014 Filmed in China with live actors, processed with Caucasian/local synthetic face-swaps and AI lip-sync dubbing.\n2. **Type 2: Full-Stack Realistic & Fantasy AI Series** \u2014 100% prompt-generated video frames using character-consistency models (e.g., *Kunlun Tech's SkyReels*, *ByteDance's Seedance*, *Kuaishou's Kling AI*).\n3. **Type 3: Viral AI Pet Soap Opera / AI Manhua Motion Drama** \u2014 Anthropomorphic animal melodramas or animated webtoon-style AI series.\n4. **Type 4: Traditional Live-Action Vertical Drama** \u2014 Filmed with live local or Chinese actors without generative video replacement.\n\n---\n\n## 3. Required Output Format\n\nAlways present your findings using this exact, scannable layout:\n\n~~~markdown\n### \ud83c\udfac Drama Identified: [Official English Title]\n* **Original Chinese Title:** `\u300a[Chinese Title]\u300b` *(Pinyin / Literal Meaning)*\n* **Other Known Titles (ID/Global):** [Indonesian or Alternate Titles, if any]\n* **Episodes:** [Total Episode Count]\n* **Production Type:** [Type 1 / Type 2 / Type 3 / Type 4]\n* **Studio / Platform:** [e.g., DramaWave (Kunlun Tech / SkyReels AI)]\n* **Match Confidence:** [High / Medium / Low] \u2014 [what matched: names, plot hook, watermark]\n\n---\n\n### \ud83d\udd17 Where to Watch the Full Series\n\n#### \ud83d\udcf1 1. Official Platform Source\n* **[Official App/Web Name]:** [Direct URL] \u2014 *First episodes free; coin/ad unlock after cliffhanger.*\n\n#### \ud83c\udf10 2. Free Global Web Mirrors & Com",
-      "format": "mdc",
-      "path": ".cursor/rules/short-drama-finder.mdc"
-    },
-    "description": "\ud83c\udfac AI agent skill to find the full series of any viral short drama, micro-drama or AI short drama (\u77ed\u5267 / AI\u77ed\u5267) from a TikT",
-    "id": "Vallykrie/short-drama-finder-skill",
-    "language": "Shell",
-    "name": "Vallykrie/short-drama-finder-skill",
-    "stars": 1,
-    "updated_at": "2026-10-17T13:00:48Z",
-    "url": "https://github.com/Vallykrie/short-drama-finder-skill"
   }
 ]
