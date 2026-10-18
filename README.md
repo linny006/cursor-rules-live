@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-18 00:22 UTC
+> ⏰ Last updated: 2026-10-18 00:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,7 +53,7 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 166236 | JavaScript | 2026-10-18 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 1 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 166241 | JavaScript | 2026-10-18 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-18 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
 | 3 | [bompus/house-rules](https://github.com/bompus/house-rules) | 2 | JavaScript | 2026-10-18 | — | Working rules and skills for AI coding agents, layered as base, modifiers, person and project |
 | 4 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-17 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
