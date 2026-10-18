@@ -1,5 +1,50 @@
 [
   {
+    "description": "\u95f2\u9c7c\u4e0a\u82b1\u94b1\u4e70\u7684 AI skill\uff0c\u5176\u5b9e\u8fd9\u91cc\u90fd\u80fd\u514d\u8d39\u4e0b\u8f7d \u00b7 5238 \u6761 / 33 \u4e2a\u804c\u4e1a AI Skills\u3001Agents\u3001Cursor Rules\u3001\u63d0\u793a\u8bcd",
+    "id": "shinjiyu/awesome-all-profession-skills",
+    "language": "Python",
+    "name": "shinjiyu/awesome-all-profession-skills",
+    "stars": 0,
+    "updated_at": "2026-10-18T03:41:58Z",
+    "url": "https://github.com/shinjiyu/awesome-all-profession-skills"
+  },
+  {
+    "description": "AI agent skill for testing Zod schemas \u2014 Jest/Vitest patterns, mock data, property-based testing. Works with Claude Code",
+    "id": "anivar/zod-testing",
+    "language": "\u2014",
+    "name": "anivar/zod-testing",
+    "stars": 2,
+    "updated_at": "2026-10-18T03:30:59Z",
+    "url": "https://github.com/anivar/zod-testing"
+  },
+  {
+    "description": "AI agent skill for Zod v4 \u2014 27 rules: schema design, parsing, error handling, type inference. Works with Claude Code, Cu",
+    "id": "anivar/zod-skill",
+    "language": "\u2014",
+    "name": "anivar/zod-skill",
+    "stars": 23,
+    "updated_at": "2026-10-18T03:30:56Z",
+    "url": "https://github.com/anivar/zod-skill"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-18T03:30:45Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Community-voted AI prompts, CLAUDE.md/AGENTS.md templates, Cursor rules, Agent Skills and MCP servers from commandvault.",
+    "id": "geronco/commandvault-library",
+    "language": "JavaScript",
+    "name": "geronco/commandvault-library",
+    "stars": 0,
+    "updated_at": "2026-10-18T03:30:12Z",
+    "url": "https://github.com/geronco/commandvault-library"
+  },
+  {
     "description": "AI agent skill for MSW 2.0 \u2014 20 rules: handler design, REST/GraphQL, test patterns. Works with Claude Code, Cursor, Code",
     "id": "anivar/msw-skill",
     "language": "\u2014",
@@ -14,17 +59,8 @@
     "language": "Dart",
     "name": "fluttersdk/wind",
     "stars": 42,
-    "updated_at": "2026-10-18T03:17:45Z",
+    "updated_at": "2026-10-18T03:31:36Z",
     "url": "https://github.com/fluttersdk/wind"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-18T03:15:34Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -37,7 +73,7 @@
     "language": "Markdown",
     "name": "gabrieldcpaiva/not-optional",
     "stars": 1,
-    "updated_at": "2026-10-18T03:23:08Z",
+    "updated_at": "2026-10-18T03:43:42Z",
     "url": "https://github.com/gabrieldcpaiva/not-optional"
   },
   {
@@ -68,7 +104,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 166306,
+    "stars": 166315,
     "updated_at": "2026-10-18T01:55:14Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -172,7 +208,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40980,
+    "stars": 40981,
     "updated_at": "2026-10-17T21:39:17Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -457,46 +493,5 @@
     "stars": 0,
     "updated_at": "2026-10-17T09:30:07Z",
     "url": "https://github.com/cedricgarcia51884/third-brain-v7-skills"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Evidence-first debugging protocol. Use for bugs, errors, failing tests, flaky tests, and performance regressions.\nglobs:\nalwaysApply: false\n---\n\n# Evidence-First Debugging Protocol\n\nCore rule: a fix is a hypothesis until it has been verified by execution. Reading code is not verification.\n\n## When this applies\nAny bug, error, traceback, failing test, wrong output, flaky test, crash, or performance regression.\n\n## Procedure\n1. **Symptom.** Record expected vs actual, the exact error text (verbatim), environment, frequency, and recent changes.\n2. **Reproduce.** Run the failing command and capture real output. Reduce it to a minimal reproduction. Save the command.\n3. **Evidence.** Collect observations (stack trace, actual values, git diff, versions, logs) before naming any cause. Label each fact with its source.\n4. **Hypotheses.** List at least two to three candidates, ranked. For each: evidence for, evidence against, and a cheap falsifying check. Run the cheapest check first. Mark each confirmed, eliminated, or inconclusive.\n5. **Root cause.** Declare one only when a check confirms it, ideally by toggling the suspected factor.\n6. **Minimal fix.** Change only what the root cause requires. No drive-by refactors. Do not patch the symptom (for example a blanket try/except or None check) without explaining why the bad state arose.\n7. **Regression test.** It must fail on the original code and pass on the fixed code. It must be deterministic. Confirm both states by running them.\n8. **Verification gate.** Run the original reproduction, the new test, and the surrounding suite. For flaky bugs, repeat enough runs to be meaningful (about 3/p runs, where p is the original failure rate) and state the count.\n\n## Required final status (exactly one)\n- **VERIFIED**: reproduction and tests were executed after the fix and passed. Show the commands and output.\n- **PARTIALLY VERIFIED**: some checks ran; state exactly which did not.\n- **UNVERIFIED**: nothing was executed. Provide the exact commands the user should run and the output that distinguishes success from failure.\n\n## Forbidden unless status is VERIFIED\n\"This fixes it\", \"the bug is fixed\", \"this should resolve it\", \"that was the problem\". Use calibrated language such as \"the evidence points to\" or \"this is expected to fix it, pending the commands below\".\n\n## Other rules\n- A changed error message is not a fix.\n- A single passing run does not verify a fix for an intermittent bug.\n- Do not delete, skip, or loosen a failing test to make it pass.\n- If you cannot run code, say so, still follow the procedure, and report UNVERIFIED with commands.\n- Compact report for small bugs: symptom, evidence, root cause, fix, test, status.\n\nFull reference material: .skills/evidence-first-debugger/\n",
-      "format": "mdc",
-      "path": ".cursor/rules/evidence-first-debugger.mdc"
-    },
-    "description": "Claude skill and agent instructions that make AI coding assistants debug with evidence, ranked hypotheses, regression te",
-    "id": "maroofiums/Evidence-First-Debugger",
-    "language": "Shell",
-    "name": "maroofiums/Evidence-First-Debugger",
-    "stars": 0,
-    "updated_at": "2026-10-17T09:26:11Z",
-    "url": "https://github.com/maroofiums/Evidence-First-Debugger"
-  },
-  {
-    "description": "agent wiki +engineering skills ",
-    "id": "Shreya4942/third-brain-v7-skills",
-    "language": "Python",
-    "name": "Shreya4942/third-brain-v7-skills",
-    "stars": 0,
-    "updated_at": "2026-10-17T09:24:26Z",
-    "url": "https://github.com/Shreya4942/third-brain-v7-skills"
-  },
-  {
-    "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
-    "id": "Osipov90/AIGX",
-    "language": "Python",
-    "name": "Osipov90/AIGX",
-    "stars": 0,
-    "updated_at": "2026-10-17T09:23:54Z",
-    "url": "https://github.com/Osipov90/AIGX"
-  },
-  {
-    "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
-    "id": "yRangel675/AIGX",
-    "language": "Python",
-    "name": "yRangel675/AIGX",
-    "stars": 0,
-    "updated_at": "2026-10-17T07:16:54Z",
-    "url": "https://github.com/yRangel675/AIGX"
   }
 ]
