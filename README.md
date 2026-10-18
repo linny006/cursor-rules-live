@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-18 04:00 UTC
+> ⏰ Last updated: 2026-10-18 04:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,18 +53,18 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [anivar/jest-skill](https://github.com/anivar/jest-skill) | 9 | — | 2026-10-18 | — | AI agent skill for Jest 29/30 — 28 rules: mocks, async, timers, snapshots, CI. Works with Claude Code, Cursor, Codex, Wi |
+| 1 | [fluttersdk/wind](https://github.com/fluttersdk/wind) | 42 | Dart | 2026-10-18 | — | Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W- |
 | 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-18 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 3 | [shinjiyu/awesome-all-profession-skills](https://github.com/shinjiyu/awesome-all-profession-skills) | 0 | Python | 2026-10-18 | — | 闲鱼上花钱买的 AI skill，其实这里都能免费下载 · 5238 条 / 33 个职业 AI Skills、Agents、Cursor Rules、提示词 |
-| 4 | [anivar/zod-testing](https://github.com/anivar/zod-testing) | 2 | — | 2026-10-18 | — | AI agent skill for testing Zod schemas — Jest/Vitest patterns, mock data, property-based testing. Works with Claude Code |
-| 5 | [anivar/zod-skill](https://github.com/anivar/zod-skill) | 23 | — | 2026-10-18 | — | AI agent skill for Zod v4 — 27 rules: schema design, parsing, error handling, type inference. Works with Claude Code, Cu |
-| 6 | [geronco/commandvault-library](https://github.com/geronco/commandvault-library) | 0 | JavaScript | 2026-10-18 | — | Community-voted AI prompts, CLAUDE.md/AGENTS.md templates, Cursor rules, Agent Skills and MCP servers from commandvault. |
-| 7 | [anivar/msw-skill](https://github.com/anivar/msw-skill) | 1 | — | 2026-10-18 | — | AI agent skill for MSW 2.0 — 20 rules: handler design, REST/GraphQL, test patterns. Works with Claude Code, Cursor, Code |
-| 8 | [fluttersdk/wind](https://github.com/fluttersdk/wind) | 42 | Dart | 2026-10-18 | — | Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W- |
+| 3 | [anivar/jest-skill](https://github.com/anivar/jest-skill) | 9 | — | 2026-10-18 | — | AI agent skill for Jest 29/30 — 28 rules: mocks, async, timers, snapshots, CI. Works with Claude Code, Cursor, Codex, Wi |
+| 4 | [shinjiyu/awesome-all-profession-skills](https://github.com/shinjiyu/awesome-all-profession-skills) | 0 | Python | 2026-10-18 | — | 闲鱼上花钱买的 AI skill，其实这里都能免费下载 · 5238 条 / 33 个职业 AI Skills、Agents、Cursor Rules、提示词 |
+| 5 | [anivar/zod-testing](https://github.com/anivar/zod-testing) | 2 | — | 2026-10-18 | — | AI agent skill for testing Zod schemas — Jest/Vitest patterns, mock data, property-based testing. Works with Claude Code |
+| 6 | [anivar/zod-skill](https://github.com/anivar/zod-skill) | 23 | — | 2026-10-18 | — | AI agent skill for Zod v4 — 27 rules: schema design, parsing, error handling, type inference. Works with Claude Code, Cu |
+| 7 | [geronco/commandvault-library](https://github.com/geronco/commandvault-library) | 0 | JavaScript | 2026-10-18 | — | Community-voted AI prompts, CLAUDE.md/AGENTS.md templates, Cursor rules, Agent Skills and MCP servers from commandvault. |
+| 8 | [anivar/msw-skill](https://github.com/anivar/msw-skill) | 1 | — | 2026-10-18 | — | AI agent skill for MSW 2.0 — 20 rules: handler design, REST/GraphQL, test patterns. Works with Claude Code, Cursor, Code |
 | 9 | [gabrieldcpaiva/not-optional](https://github.com/gabrieldcpaiva/not-optional) | 1 | Markdown | 2026-10-18 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/gabrieldcpaiva/not-optional/) | Accessibility is not a request. A practical, lived-experience toolkit for making digital products and printables usable  |
 | 10 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 213 | Python | 2026-10-18 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
 | 11 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-18 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
-| 12 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 166322 | JavaScript | 2026-10-18 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 12 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 166327 | JavaScript | 2026-10-18 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 13 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 21332 | Shell | 2026-10-18 | — | 🎭 277 个即插即用的 AI 专家角色 — 支持 Claude Code/Cursor/Copilot 等 20 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 64 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉/Qt 上 |
 | 14 | [bompus/house-rules](https://github.com/bompus/house-rules) | 2 | JavaScript | 2026-10-18 | — | Working rules and skills for AI coding agents, layered as base, modifiers, person and project |
 | 15 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-10-18 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
