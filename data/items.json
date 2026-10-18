@@ -10,8 +10,40 @@
     "language": "JavaScript",
     "name": "roedyrustam/vibes-plug",
     "stars": 77,
-    "updated_at": "2026-10-18T17:58:42Z",
+    "updated_at": "2026-10-18T18:11:56Z",
     "url": "https://github.com/roedyrustam/vibes-plug"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Core working agreement for the AI agent on every task\nalwaysApply: true\n---\n\n# How to work in this repo\n\n## Before coding\n- Read the files you will change and their nearest tests before editing. Never guess an API that exists in the repo; search for it.\n- Check `package.json` / `pyproject.toml` / lockfiles for real framework versions and write code for THOSE versions.\n- For anything non-trivial (>1 file or >50 lines), state a short plan first: files to touch, approach, how you'll verify.\n- If requirements are ambiguous, ask one focused question instead of inventing behaviour.\n\n## While coding\n- Make the smallest change that solves the task. No drive-by refactors, renames or formatting of unrelated code.\n- Follow existing patterns in the codebase (naming, folder layout, error handling) over your own preferences.\n- Do not add a dependency without saying why and checking an existing one can't do it.\n- Never hardcode secrets, API keys or tokens. Use env vars and update `.env.example`.\n- Never silence errors (`catch {}`, `# type: ignore`, `as any`, `@ts-ignore`) to make something \"work\". Fix the cause or flag it.\n- Do not delete or weaken tests to make them pass.\n\n## After coding\n- Run the project's typecheck, lint and relevant tests; fix what you broke. If you couldn't run them, say so.\n- Summarise: what changed, why, how it was verified, and anything left undone or risky.\n\n## Never without explicit approval\n- Destructive commands (`rm -rf`, `git push --force`, `git reset --hard`, dropping tables, DB resets).\n- Editing generated files, lockfiles by hand, CI config, or migrations that already ran.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/00-general.mdc"
+    },
+    "description": "Free Cursor rules (.mdc), AGENTS.md & CLAUDE.md templates and prompts for AI coding agents: Next.js + Supabase, Godot 4.",
+    "id": "grizzlykiwidev/grizzlykiwidev.github.io",
+    "language": "\u2014",
+    "name": "grizzlykiwidev/grizzlykiwidev.github.io",
+    "stars": 0,
+    "updated_at": "2026-10-18T18:01:48Z",
+    "url": "https://github.com/grizzlykiwidev/grizzlykiwidev.github.io"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-18T18:00:55Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Open-source POPIA privacy and security guardrails for South African builders, for every AI coding tool.",
+    "id": "VenusOne-Lee/popia-compliance",
+    "language": "Python",
+    "name": "VenusOne-Lee/popia-compliance",
+    "stars": 0,
+    "updated_at": "2026-10-18T18:02:46Z",
+    "url": "https://github.com/VenusOne-Lee/popia-compliance"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -30,24 +62,6 @@
     "stars": 1,
     "updated_at": "2026-10-18T17:55:15Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Open-source POPIA privacy and security guardrails for South African builders, for every AI coding tool.",
-    "id": "VenusOne-Lee/popia-compliance",
-    "language": "Python",
-    "name": "VenusOne-Lee/popia-compliance",
-    "stars": 0,
-    "updated_at": "2026-10-18T17:58:06Z",
-    "url": "https://github.com/VenusOne-Lee/popia-compliance"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-18T17:45:56Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -459,14 +473,5 @@
     "stars": 0,
     "updated_at": "2026-10-18T04:54:25Z",
     "url": "https://github.com/emmak768/MotionVault"
-  },
-  {
-    "description": "\u5168\u7403\u9152\u5e97\u9884\u8ba2&\u4f4e\u4ef7\u76d1\u63a7\u63d0\u9192Skill\uff0c200\u4e07+\u7cbe\u9009\u9152\u5e97\uff0c\u72ec\u5bb6\u4f18\u60e0\u4ef7\u683c\uff0c\u8ba9\u4f60\u7684Agent\u8f7b\u677e\u9884\u8ba2\u54c1\u8d28\u9152\u5e97\uff0c\u652f\u6301\u652f\u4ed8\u5b9d\u4e0b\u5355+\u67e5\u8be2\u5386\u53f2\u8ba2\u5355\uff0c24 \u5c0f\u65f6\u5ba2\u670d\u652f\u6301\uff0c\u5168\u5929\u5019\u54cd\u5e94\u3002",
-    "id": "tomaszh5639/rollinggo-hotel-skill-cn",
-    "language": "Python",
-    "name": "tomaszh5639/rollinggo-hotel-skill-cn",
-    "stars": 0,
-    "updated_at": "2026-10-18T04:53:39Z",
-    "url": "https://github.com/tomaszh5639/rollinggo-hotel-skill-cn"
   }
 ]
