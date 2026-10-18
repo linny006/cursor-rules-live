@@ -1,12 +1,21 @@
 [
   {
-    "description": "Open-source POPIA privacy and security guardrails for South African builders, for every AI coding tool.",
-    "id": "VenusOne-Lee/popia-compliance",
-    "language": "Python",
-    "name": "VenusOne-Lee/popia-compliance",
+    "description": "Separates startup gaps that are real companies from features waiting to be cloned. Barred test (incumbent conflict) + Re",
+    "id": "LuciferDono/gap-scan",
+    "language": "\u2014",
+    "name": "LuciferDono/gap-scan",
     "stars": 0,
-    "updated_at": "2026-10-18T13:09:38Z",
-    "url": "https://github.com/VenusOne-Lee/popia-compliance"
+    "updated_at": "2026-10-18T13:19:37Z",
+    "url": "https://github.com/LuciferDono/gap-scan"
+  },
+  {
+    "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
+    "id": "agenticstandardcontact-byte/agentic-architect",
+    "language": "HTML",
+    "name": "agenticstandardcontact-byte/agentic-architect",
+    "stars": 0,
+    "updated_at": "2026-10-18T13:16:22Z",
+    "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +23,26 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-18T13:00:55Z",
+    "updated_at": "2026-10-18T13:15:33Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Persistent persona memory for Claude Code, Cursor, Codex, Copilot, Antigravity. Mesh-structured state survives context c",
+    "id": "LuciferDono/persona",
+    "language": "\u2014",
+    "name": "LuciferDono/persona",
+    "stars": 0,
+    "updated_at": "2026-10-18T13:15:48Z",
+    "url": "https://github.com/LuciferDono/persona"
+  },
+  {
+    "description": "Open-source POPIA privacy and security guardrails for South African builders, for every AI coding tool.",
+    "id": "VenusOne-Lee/popia-compliance",
+    "language": "Python",
+    "name": "VenusOne-Lee/popia-compliance",
+    "stars": 0,
+    "updated_at": "2026-10-18T13:09:38Z",
+    "url": "https://github.com/VenusOne-Lee/popia-compliance"
   },
   {
     "cursorrules": {
@@ -436,42 +463,5 @@
     "stars": 0,
     "updated_at": "2026-10-18T03:30:12Z",
     "url": "https://github.com/geronco/commandvault-library"
-  },
-  {
-    "description": "AI agent skill for MSW 2.0 \u2014 20 rules: handler design, REST/GraphQL, test patterns. Works with Claude Code, Cursor, Code",
-    "id": "anivar/msw-skill",
-    "language": "\u2014",
-    "name": "anivar/msw-skill",
-    "stars": 1,
-    "updated_at": "2026-10-18T03:26:53Z",
-    "url": "https://github.com/anivar/msw-skill"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Apply strict accessibility and UI rules from the not-optional toolkit.\nglobs: \"**/*.{html,css,jsx,tsx,vue,svelte}\"\nalwaysApply: false\n---\n\n# not-optional accessibility rules\n\nWhen building or modifying UI components, strictly follow the rules defined in `agent-instructions.md`.\n\nKey requirements:\n- Use native semantic HTML elements; avoid ARIA unless a native element cannot express the state.\n- Ensure strict compliance with WCAG 2.1 AA for text contrast.\n- Implement explicit `:focus-visible` styles using the defined 3px width and 2px offset.\n- Adhere to micro-chunking laws: max 4 visual lines per chunk, max 45 words per body block, and 45-65 characters per line (max 75).\n- Use the design tokens from `principles/tokens.screen.json` or `principles/tokens.print-monochrome.json`.\n- Fail closed on critical violations.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/not-optional.mdc"
-    },
-    "description": "Accessibility is not a request. A practical, lived-experience toolkit for making digital products and printables usable ",
-    "id": "gabrieldcpaiva/not-optional",
-    "language": "Markdown",
-    "name": "gabrieldcpaiva/not-optional",
-    "stars": 1,
-    "updated_at": "2026-10-18T03:43:42Z",
-    "url": "https://github.com/gabrieldcpaiva/not-optional"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Ponytail, lazy senior dev mode. Always pick the simplest solution that works.\nglobs:\nalwaysApply: true\n---\n\n# Ponytail, lazy senior dev mode\n\nYou are a lazy senior developer. The best code is the code never written. You solve the whole problem with the least new code. End your reply with one or two lines: what you skipped or did not check, and any risk the user must know.\n\n## Before you write\n\nRead the task and the code it touches. List every place your change must reach: callers, tests, fixtures, config, exports. Check what your change could break for users: data it would destroy or expose, callers that stop working. That is scope. Extra features are not.\n\n## The smallest complete change\n\nTake the first option that fully works:\n\n1. Does it need to exist? Skip features, options and flexibility nobody asked for, and name them in one line. A vague request (\"build me X\") gets the smallest version that does the core job.\n2. Already in this codebase (a helper, component, service, pattern)? Use it the way the surrounding code does.\n3. Standard library or a platform feature? Use it, unless the project has its own. A house component beats a native widget.\n4. An installed dependency? Use it. Never add a dependency for a few lines.\n5. Can it be one line a reader gets at a glance? One line.\n6. Otherwise: the minimum code that works.\n\n- Be lazy about the solution, never about the change itself: finish every part the task needs, including the callers, tests and fixtures your change breaks.\n- No abstraction, wrapper, type conversion, option, config, boilerplate or \"for later\" code nobody asked for. Keep values in the form the platform already gives you. Deletion beats addition. Keep the structure the codebase already has: its layers, interfaces and conventions.\n- The shortest working diff wins, once you know everything it must touch. A one-liner that needs decoding is not short.\n- Comment only the why the code cannot show, in one line.\n- Bug fix: before you edit, grep every caller of the function you touch, then fix the root cause once in the shared code.\n- Code you move or merge keeps its error handling and validation.\n- Between options of equal size, take the one that is correct on edge cases.\n- Lazy code without its check is unfinished: new non-trivial logic (a branch, a loop, a parser, money or security, or a whole new script or app) leaves one small test or an assert-based self-check. Trivial changes need none.\n- A shortcut with a known limit gets a code comment in this form: `shortcut: <the limit>, <when to upgrade>`.\n\nNever cut: validation at trust boundaries, error handling that prevents data loss, security, accessibility, the calibration real hardware needs, anything the user asked for.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/ponytail.mdc"
-    },
-    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-    "id": "DietrichGebert/ponytail",
-    "language": "JavaScript",
-    "name": "DietrichGebert/ponytail",
-    "stars": 166652,
-    "updated_at": "2026-10-18T01:55:14Z",
-    "url": "https://github.com/DietrichGebert/ponytail"
   }
 ]
