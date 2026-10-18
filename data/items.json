@@ -1,11 +1,20 @@
 [
   {
+    "description": "Open-source POPIA privacy and security guardrails for South African builders, for every AI coding tool.",
+    "id": "VenusOne-Lee/popia-compliance",
+    "language": "Python",
+    "name": "VenusOne-Lee/popia-compliance",
+    "stars": 0,
+    "updated_at": "2026-10-18T13:52:02Z",
+    "url": "https://github.com/VenusOne-Lee/popia-compliance"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-18T13:30:56Z",
+    "updated_at": "2026-10-18T13:45:48Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -34,15 +43,6 @@
     "stars": 0,
     "updated_at": "2026-10-18T13:15:48Z",
     "url": "https://github.com/LuciferDono/persona"
-  },
-  {
-    "description": "Open-source POPIA privacy and security guardrails for South African builders, for every AI coding tool.",
-    "id": "VenusOne-Lee/popia-compliance",
-    "language": "Python",
-    "name": "VenusOne-Lee/popia-compliance",
-    "stars": 0,
-    "updated_at": "2026-10-18T13:33:19Z",
-    "url": "https://github.com/VenusOne-Lee/popia-compliance"
   },
   {
     "cursorrules": {
