@@ -1,11 +1,20 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-18T09:15:43Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "A checkup for your coding agent setup. Lints AGENTS.md, CLAUDE.md, SKILL.md, Cursor rules, Copilot instructions, MCP ser",
     "id": "mustafakbaser/agentcheckup",
     "language": "TypeScript",
     "name": "mustafakbaser/agentcheckup",
     "stars": 0,
-    "updated_at": "2026-10-18T09:15:11Z",
+    "updated_at": "2026-10-18T09:15:24Z",
     "url": "https://github.com/mustafakbaser/agentcheckup"
   },
   {
@@ -25,15 +34,6 @@
     "stars": 42,
     "updated_at": "2026-10-18T09:06:52Z",
     "url": "https://github.com/fluttersdk/wind"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-18T09:00:49Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -99,7 +99,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21334,
+    "stars": 21335,
     "updated_at": "2026-10-18T07:01:13Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -375,7 +375,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 166489,
+    "stars": 166492,
     "updated_at": "2026-10-18T01:55:14Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -443,7 +443,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40989,
+    "stars": 40990,
     "updated_at": "2026-10-17T21:39:17Z",
     "url": "https://github.com/wshobson/agents"
   },
