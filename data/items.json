@@ -1,12 +1,66 @@
 [
   {
-    "description": "\u5168\u7403\u9152\u5e97\u9884\u8ba2&\u4f4e\u4ef7\u76d1\u63a7\u63d0\u9192Skill\uff0c200\u4e07+\u7cbe\u9009\u9152\u5e97\uff0c\u72ec\u5bb6\u4f18\u60e0\u4ef7\u683c\uff0c\u8ba9\u4f60\u7684Agent\u8f7b\u677e\u9884\u8ba2\u54c1\u8d28\u9152\u5e97\uff0c\u652f\u6301\u652f\u4ed8\u5b9d\u4e0b\u5355+\u67e5\u8be2\u5386\u53f2\u8ba2\u5355\uff0c24 \u5c0f\u65f6\u5ba2\u670d\u652f\u6301\uff0c\u5168\u5929\u5019\u54cd\u5e94\u3002",
-    "id": "pyamamoto63/rollinggo-hotel-skill-cn",
+    "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
+    "id": "Mirza37985/AIGX",
     "language": "Python",
-    "name": "pyamamoto63/rollinggo-hotel-skill-cn",
+    "name": "Mirza37985/AIGX",
     "stars": 0,
-    "updated_at": "2026-10-18T04:58:46Z",
-    "url": "https://github.com/pyamamoto63/rollinggo-hotel-skill-cn"
+    "updated_at": "2026-10-18T05:14:01Z",
+    "url": "https://github.com/Mirza37985/AIGX"
+  },
+  {
+    "description": "\u5168\u7403\u9152\u5e97\u9884\u8ba2&\u4f4e\u4ef7\u76d1\u63a7\u63d0\u9192Skill\uff0c200\u4e07+\u7cbe\u9009\u9152\u5e97\uff0c\u72ec\u5bb6\u4f18\u60e0\u4ef7\u683c\uff0c\u8ba9\u4f60\u7684Agent\u8f7b\u677e\u9884\u8ba2\u54c1\u8d28\u9152\u5e97\uff0c\u652f\u6301\u652f\u4ed8\u5b9d\u4e0b\u5355+\u67e5\u8be2\u5386\u53f2\u8ba2\u5355\uff0c24 \u5c0f\u65f6\u5ba2\u670d\u652f\u6301\uff0c\u5168\u5929\u5019\u54cd\u5e94\u3002",
+    "id": "kathryns3052/rollinggo-hotel-skill-cn",
+    "language": "Python",
+    "name": "kathryns3052/rollinggo-hotel-skill-cn",
+    "stars": 0,
+    "updated_at": "2026-10-18T05:11:33Z",
+    "url": "https://github.com/kathryns3052/rollinggo-hotel-skill-cn"
+  },
+  {
+    "description": "AI Agent Rules & Prompt Engineering System for Cursor, Claude Code & Antigravity",
+    "id": "ceopatinhalo-ai/agentrules-dev",
+    "language": "HTML",
+    "name": "ceopatinhalo-ai/agentrules-dev",
+    "stars": 0,
+    "updated_at": "2026-10-18T05:10:59Z",
+    "url": "https://github.com/ceopatinhalo-ai/agentrules-dev"
+  },
+  {
+    "description": "200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type",
+    "id": "axelreeves2721/MotionVault",
+    "language": "TypeScript",
+    "name": "axelreeves2721/MotionVault",
+    "stars": 0,
+    "updated_at": "2026-10-18T05:04:57Z",
+    "url": "https://github.com/axelreeves2721/MotionVault"
+  },
+  {
+    "description": "\u5168\u7403\u9152\u5e97\u9884\u8ba2&\u4f4e\u4ef7\u76d1\u63a7\u63d0\u9192Skill\uff0c200\u4e07+\u7cbe\u9009\u9152\u5e97\uff0c\u72ec\u5bb6\u4f18\u60e0\u4ef7\u683c\uff0c\u8ba9\u4f60\u7684Agent\u8f7b\u677e\u9884\u8ba2\u54c1\u8d28\u9152\u5e97\uff0c\u652f\u6301\u652f\u4ed8\u5b9d\u4e0b\u5355+\u67e5\u8be2\u5386\u53f2\u8ba2\u5355\uff0c24 \u5c0f\u65f6\u5ba2\u670d\u652f\u6301\uff0c\u5168\u5929\u5019\u54cd\u5e94\u3002",
+    "id": "Ioannidis4852/rollinggo-hotel-skill-cn",
+    "language": "Python",
+    "name": "Ioannidis4852/rollinggo-hotel-skill-cn",
+    "stars": 0,
+    "updated_at": "2026-10-18T05:03:08Z",
+    "url": "https://github.com/Ioannidis4852/rollinggo-hotel-skill-cn"
+  },
+  {
+    "description": "200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type",
+    "id": "Shuji1128/MotionVault",
+    "language": "TypeScript",
+    "name": "Shuji1128/MotionVault",
+    "stars": 0,
+    "updated_at": "2026-10-18T05:01:59Z",
+    "url": "https://github.com/Shuji1128/MotionVault"
+  },
+  {
+    "description": "agent wiki +engineering skills ",
+    "id": "AkiraAktas/third-brain-v7-skills",
+    "language": "Python",
+    "name": "AkiraAktas/third-brain-v7-skills",
+    "stars": 0,
+    "updated_at": "2026-10-18T05:01:16Z",
+    "url": "https://github.com/AkiraAktas/third-brain-v7-skills"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +68,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-18T04:56:46Z",
+    "updated_at": "2026-10-18T05:00:33Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\u5168\u7403\u9152\u5e97\u9884\u8ba2&\u4f4e\u4ef7\u76d1\u63a7\u63d0\u9192Skill\uff0c200\u4e07+\u7cbe\u9009\u9152\u5e97\uff0c\u72ec\u5bb6\u4f18\u60e0\u4ef7\u683c\uff0c\u8ba9\u4f60\u7684Agent\u8f7b\u677e\u9884\u8ba2\u54c1\u8d28\u9152\u5e97\uff0c\u652f\u6301\u652f\u4ed8\u5b9d\u4e0b\u5355+\u67e5\u8be2\u5386\u53f2\u8ba2\u5355\uff0c24 \u5c0f\u65f6\u5ba2\u670d\u652f\u6301\uff0c\u5168\u5929\u5019\u54cd\u5e94\u3002",
+    "id": "pyamamoto63/rollinggo-hotel-skill-cn",
+    "language": "Python",
+    "name": "pyamamoto63/rollinggo-hotel-skill-cn",
+    "stars": 0,
+    "updated_at": "2026-10-18T04:58:46Z",
+    "url": "https://github.com/pyamamoto63/rollinggo-hotel-skill-cn"
   },
   {
     "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
@@ -158,7 +221,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 166351,
+    "stars": 166360,
     "updated_at": "2026-10-18T01:55:14Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -425,73 +488,5 @@
     "stars": 1,
     "updated_at": "2026-10-17T13:00:48Z",
     "url": "https://github.com/Vallykrie/short-drama-finder-skill"
-  },
-  {
-    "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
-    "id": "agenticstandardcontact-byte/agentic-architect",
-    "language": "HTML",
-    "name": "agenticstandardcontact-byte/agentic-architect",
-    "stars": 0,
-    "updated_at": "2026-10-17T12:57:54Z",
-    "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Instructions for AI agent code generation workflow\nglobs: [\"*\"]\nalwaysApply: true\n---\n\n# AI Collaboration Guidelines\n\n## The 3-Stage Agentic Loop\n\nEvery code generation task MUST follow this loop:\n\n### Stage 1: PLAN (gather context first)\n\nBefore writing ANY code, the AI MUST:\n1. Read the relevant source files to verify current state \u2014 do NOT rely on memory\n2. Identify which `.cursor/rules/` files apply to this task\n3. List the files to modify and explain why\n4. Do NOT write code yet\n\nPrompt template:\n```\nAnalyze the current codebase and plan how to implement [feature]. \nList the files you'll modify and why. Don't write code yet.\n```\n\n### Stage 2: IMPLEMENT (follow constraints)\n\nWhen generating code:\n- Follow ALL active `.cursor/rules/` constraints\n- If unsure about auth patterns, re-read `supabase-auth-security.mdc`\n- If unsure about params/layouts, re-read `nextjs15-params.mdc`\n- Use `unknown` + Zod validation instead of `any` for external data\n- Return `ActionResponse<T>` from all Server Actions (see below)\n\n### Stage 3: VERIFY (confirm before declaring done)\n\nAfter generating code, the AI MUST self-check:\n- [ ] No `getSession()` on the server (MUST be `getUser()`)\n- [ ] No synchronous `params` or `searchParams` access\n- [ ] No `@supabase/auth-helpers-nextjs` imports\n- [ ] No `any` types \u2014 use `unknown` + type narrowing\n- [ ] Every API route has Zod validation\n- [ ] Every error is caught and returns `{ error: string }`\n- [ ] New tables have RLS enabled\n- [ ] `loading.tsx` and `error.tsx` exist for data-fetching pages\n\nReport issues BEFORE the developer runs the code.\n\n## Skeptical Retrieval Rule\n\nNEVER trust stored knowledge about the codebase. Before modifying a file:\n1. Re-read the file to verify its current contents\n2. Check imports and exports to ensure they match expectations\n3. Verify that function signatures haven't changed\n\nThis prevents generating code that references stale function signatures, \ndeleted files, or renamed exports.\n\n## Standard Patterns\n\n### ActionResponse Type (use for all Server Actions)\n```typescript\ntype ActionResponse<T = void> = \n  | { success: true; data: T }\n  | { success: false; error: string }\n```\n\n### Standard Server Action Structure\n```typescript\n'use server'\nimport { createClient } from '@/lib/supabase/server'\nimport { z } from 'zod'\n\nconst Schema = z.object({ /* ... */ })\n\nexport async function myAction(input: unknown): Promise<ActionResponse<MyType>> {\n  // 1. Auth\n  const supabase = await createClient()\n  const { data: { user } } = await supabase.auth.getUser()\n  if (!user) return { success: false, error: 'Unauthorized' }\n\n  // 2. Validate\n  const result = Schema.safeParse(input)\n  if (!result.success) return { success: false, error: 'Invalid input' }\n\n  // 3. Execute\n  try {\n    const { data, error } = await supabase.from('table').insert(result.data).select().single()\n    if (error) throw error\n    return { success: true, data }\n  } catch {\n    return { success: false, error: 'Operation failed' }\n  }\n}\n```\n\n## Task Constraints\n\n- NEVER give the AI a task longer than 200 words\n- NEVER let the AI implement more than 3-4 files in one turn\n- NEVER let the AI skip the verification checklist\n- ALWAYS review the Git diff before committing\n- When uncertain, ask the developer \u2014 do NOT guess\n\n",
-      "format": "mdc",
-      "path": ".cursor/rules/ai-collaboration.mdc"
-    },
-    "description": "29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b",
-    "id": "vibestackdev/vibe-stack",
-    "language": "TypeScript",
-    "name": "vibestackdev/vibe-stack",
-    "stars": 8,
-    "updated_at": "2026-10-17T11:56:30Z",
-    "url": "https://github.com/vibestackdev/vibe-stack"
-  },
-  {
-    "description": "404\u4f53\u306e\u5373\u6226\u529bAI\u5c02\u9580\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u96c6 \u2014 Claude Code / Cursor / Copilot \u7b49\u306b\u5bfe\u5fdc\u3002\u65e5\u672c\u5e02\u5834\u5411\u3051\u30aa\u30ea\u30b8\u30ca\u30eb125\u4f53\uff08SIer\u30fb\u53d7\u8a17\u958b\u767a\u30fbSaaS\u30fb\u88fd\u9020DX\u30fb\u516c\u5171\u5206\u91ce\uff09\u3002agency-agents\u306e\u65e5\u672c\u8a9e\u30b3\u30df\u30e5",
-    "id": "sscodeai/agency-agents-ja",
-    "language": "Shell",
-    "name": "sscodeai/agency-agents-ja",
-    "stars": 9,
-    "updated_at": "2026-10-17T11:28:21Z",
-    "url": "https://github.com/sscodeai/agency-agents-ja"
-  },
-  {
-    "description": "agent wiki +engineering skills ",
-    "id": "Philippe207/third-brain-v7-skills",
-    "language": "Python",
-    "name": "Philippe207/third-brain-v7-skills",
-    "stars": 0,
-    "updated_at": "2026-10-17T10:31:41Z",
-    "url": "https://github.com/Philippe207/third-brain-v7-skills"
-  },
-  {
-    "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
-    "id": "spyros64419/AIGX",
-    "language": "Python",
-    "name": "spyros64419/AIGX",
-    "stars": 0,
-    "updated_at": "2026-10-17T10:27:11Z",
-    "url": "https://github.com/spyros64419/AIGX"
-  },
-  {
-    "description": "200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type",
-    "id": "RiccardoPetridis854/MotionVault",
-    "language": "TypeScript",
-    "name": "RiccardoPetridis854/MotionVault",
-    "stars": 0,
-    "updated_at": "2026-10-17T10:15:36Z",
-    "url": "https://github.com/RiccardoPetridis854/MotionVault"
-  },
-  {
-    "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
-    "id": "SophiaBradley78427/AIGX",
-    "language": "Python",
-    "name": "SophiaBradley78427/AIGX",
-    "stars": 0,
-    "updated_at": "2026-10-17T10:13:43Z",
-    "url": "https://github.com/SophiaBradley78427/AIGX"
   }
 ]
