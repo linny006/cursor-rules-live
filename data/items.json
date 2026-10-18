@@ -1,11 +1,20 @@
 [
   {
+    "description": "Drop-in AI agent rules (Cursor, Claude Code, AGENTS.md) that stop Supabase RLS holes, broken Stripe webhooks and Godot 3",
+    "id": "otctrading101/shiprules-free",
+    "language": "\u2014",
+    "name": "otctrading101/shiprules-free",
+    "stars": 0,
+    "updated_at": "2026-10-18T04:38:25Z",
+    "url": "https://github.com/otctrading101/shiprules-free"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-18T04:15:34Z",
+    "updated_at": "2026-10-18T04:30:34Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -113,7 +122,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 166335,
+    "stars": 166343,
     "updated_at": "2026-10-18T01:55:14Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -122,7 +131,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21332,
+    "stars": 21333,
     "updated_at": "2026-10-18T01:35:50Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -484,14 +493,5 @@
     "stars": 0,
     "updated_at": "2026-10-17T09:34:09Z",
     "url": "https://github.com/Fatmal5473/rollinggo-hotel-skill-cn"
-  },
-  {
-    "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
-    "id": "cLi09355/AIGX",
-    "language": "Python",
-    "name": "cLi09355/AIGX",
-    "stars": 0,
-    "updated_at": "2026-10-17T09:31:48Z",
-    "url": "https://github.com/cLi09355/AIGX"
   }
 ]
