@@ -1,11 +1,20 @@
 [
   {
+    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
+    "id": "KbWen/agentic-os",
+    "language": "Python",
+    "name": "KbWen/agentic-os",
+    "stars": 213,
+    "updated_at": "2026-10-18T02:43:56Z",
+    "url": "https://github.com/KbWen/agentic-os"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-18T02:15:38Z",
+    "updated_at": "2026-10-18T02:30:33Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -27,7 +36,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 166288,
+    "stars": 166291,
     "updated_at": "2026-10-18T01:55:14Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -489,14 +498,5 @@
     "stars": 0,
     "updated_at": "2026-10-17T05:43:32Z",
     "url": "https://github.com/borism0825/MotionVault"
-  },
-  {
-    "description": "200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type",
-    "id": "tuyen8952/MotionVault",
-    "language": "TypeScript",
-    "name": "tuyen8952/MotionVault",
-    "stars": 0,
-    "updated_at": "2026-10-17T05:36:10Z",
-    "url": "https://github.com/tuyen8952/MotionVault"
   }
 ]
