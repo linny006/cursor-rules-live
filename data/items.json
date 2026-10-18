@@ -1,39 +1,39 @@
 [
   {
+    "description": "Know Yourself. Define Your Direction. Forge Your Opportunity.An agent-native skill for self-discovery, career positionin",
+    "id": "Max-Samson/knowme-careerforge-skill",
+    "language": "Python",
+    "name": "Max-Samson/knowme-careerforge-skill",
+    "stars": 1,
+    "updated_at": "2026-10-18T07:10:57Z",
+    "url": "https://github.com/Max-Samson/knowme-careerforge-skill"
+  },
+  {
+    "description": "Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W-",
+    "id": "fluttersdk/wind",
+    "language": "Dart",
+    "name": "fluttersdk/wind",
+    "stars": 42,
+    "updated_at": "2026-10-18T07:07:40Z",
+    "url": "https://github.com/fluttersdk/wind"
+  },
+  {
+    "description": "agent wiki +engineering skills ",
+    "id": "Rebecca43734/third-brain-v7-skills",
+    "language": "Python",
+    "name": "Rebecca43734/third-brain-v7-skills",
+    "stars": 0,
+    "updated_at": "2026-10-18T07:04:59Z",
+    "url": "https://github.com/Rebecca43734/third-brain-v7-skills"
+  },
+  {
     "description": "200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type",
     "id": "aNakamura320/MotionVault",
     "language": "TypeScript",
     "name": "aNakamura320/MotionVault",
     "stars": 0,
-    "updated_at": "2026-10-18T06:59:24Z",
+    "updated_at": "2026-10-18T07:02:03Z",
     "url": "https://github.com/aNakamura320/MotionVault"
-  },
-  {
-    "description": "agent wiki +engineering skills ",
-    "id": "Rebecca43734/third-brain-v7-skills",
-    "language": "\u2014",
-    "name": "Rebecca43734/third-brain-v7-skills",
-    "stars": 0,
-    "updated_at": "2026-10-18T06:59:15Z",
-    "url": "https://github.com/Rebecca43734/third-brain-v7-skills"
-  },
-  {
-    "description": "\u5168\u7403\u9152\u5e97\u9884\u8ba2&\u4f4e\u4ef7\u76d1\u63a7\u63d0\u9192Skill\uff0c200\u4e07+\u7cbe\u9009\u9152\u5e97\uff0c\u72ec\u5bb6\u4f18\u60e0\u4ef7\u683c\uff0c\u8ba9\u4f60\u7684Agent\u8f7b\u677e\u9884\u8ba2\u54c1\u8d28\u9152\u5e97\uff0c\u652f\u6301\u652f\u4ed8\u5b9d\u4e0b\u5355+\u67e5\u8be2\u5386\u53f2\u8ba2\u5355\uff0c24 \u5c0f\u65f6\u5ba2\u670d\u652f\u6301\uff0c\u5168\u5929\u5019\u54cd\u5e94\u3002",
-    "id": "ChristopherDupont475/rollinggo-hotel-skill-cn",
-    "language": "Python",
-    "name": "ChristopherDupont475/rollinggo-hotel-skill-cn",
-    "stars": 0,
-    "updated_at": "2026-10-18T06:59:08Z",
-    "url": "https://github.com/ChristopherDupont475/rollinggo-hotel-skill-cn"
-  },
-  {
-    "description": "\ud83c\udfad 277 \u4e2a\u5373\u63d2\u5373\u7528\u7684 AI \u4e13\u5bb6\u89d2\u8272 \u2014 \u652f\u6301 Claude Code/Cursor/Copilot \u7b49 20 \u79cd\u5de5\u5177\uff0c\u8986\u76d6\u5de5\u7a0b/\u8bbe\u8ba1/\u8425\u9500/\u91d1\u878d\u7b49 20 \u4e2a\u90e8\u95e8\u3002\u542b 64 \u4e2a\u4e2d\u56fd\u5e02\u573a\u539f\u521b\u667a\u80fd\u4f53\uff08\u5c0f\u7ea2\u4e66/\u6296\u97f3/\u5fae\u4fe1/\u98de\u4e66/\u9489\u9489/Qt \u4e0a",
-    "id": "jnMetaCode/agency-agents-zh",
-    "language": "Shell",
-    "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21333,
-    "updated_at": "2026-10-18T06:56:15Z",
-    "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
   {
     "cursorrules": {
@@ -46,7 +46,7 @@
     "language": "JavaScript",
     "name": "roedyrustam/vibes-plug",
     "stars": 77,
-    "updated_at": "2026-10-18T06:55:19Z",
+    "updated_at": "2026-10-18T07:01:52Z",
     "url": "https://github.com/roedyrustam/vibes-plug"
   },
   {
@@ -55,17 +55,35 @@
     "language": "Python",
     "name": "CemLong5634/AIGX",
     "stars": 0,
-    "updated_at": "2026-10-18T06:54:45Z",
+    "updated_at": "2026-10-18T07:01:19Z",
     "url": "https://github.com/CemLong5634/AIGX"
   },
   {
-    "description": "Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W-",
-    "id": "fluttersdk/wind",
-    "language": "Dart",
-    "name": "fluttersdk/wind",
-    "stars": 42,
-    "updated_at": "2026-10-18T06:58:00Z",
-    "url": "https://github.com/fluttersdk/wind"
+    "description": "\ud83c\udfad 277 \u4e2a\u5373\u63d2\u5373\u7528\u7684 AI \u4e13\u5bb6\u89d2\u8272 \u2014 \u652f\u6301 Claude Code/Cursor/Copilot \u7b49 20 \u79cd\u5de5\u5177\uff0c\u8986\u76d6\u5de5\u7a0b/\u8bbe\u8ba1/\u8425\u9500/\u91d1\u878d\u7b49 20 \u4e2a\u90e8\u95e8\u3002\u542b 64 \u4e2a\u4e2d\u56fd\u5e02\u573a\u539f\u521b\u667a\u80fd\u4f53\uff08\u5c0f\u7ea2\u4e66/\u6296\u97f3/\u5fae\u4fe1/\u98de\u4e66/\u9489\u9489/Qt \u4e0a",
+    "id": "jnMetaCode/agency-agents-zh",
+    "language": "Shell",
+    "name": "jnMetaCode/agency-agents-zh",
+    "stars": 21333,
+    "updated_at": "2026-10-18T07:01:13Z",
+    "url": "https://github.com/jnMetaCode/agency-agents-zh"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-18T07:00:33Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\u5168\u7403\u9152\u5e97\u9884\u8ba2&\u4f4e\u4ef7\u76d1\u63a7\u63d0\u9192Skill\uff0c200\u4e07+\u7cbe\u9009\u9152\u5e97\uff0c\u72ec\u5bb6\u4f18\u60e0\u4ef7\u683c\uff0c\u8ba9\u4f60\u7684Agent\u8f7b\u677e\u9884\u8ba2\u54c1\u8d28\u9152\u5e97\uff0c\u652f\u6301\u652f\u4ed8\u5b9d\u4e0b\u5355+\u67e5\u8be2\u5386\u53f2\u8ba2\u5355\uff0c24 \u5c0f\u65f6\u5ba2\u670d\u652f\u6301\uff0c\u5168\u5929\u5019\u54cd\u5e94\u3002",
+    "id": "ChristopherDupont475/rollinggo-hotel-skill-cn",
+    "language": "Python",
+    "name": "ChristopherDupont475/rollinggo-hotel-skill-cn",
+    "stars": 0,
+    "updated_at": "2026-10-18T06:59:08Z",
+    "url": "https://github.com/ChristopherDupont475/rollinggo-hotel-skill-cn"
   },
   {
     "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
@@ -75,15 +93,6 @@
     "stars": 0,
     "updated_at": "2026-10-18T06:52:18Z",
     "url": "https://github.com/erika239/AIGX"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-18T06:45:38Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\u5168\u7403\u9152\u5e97\u9884\u8ba2&\u4f4e\u4ef7\u76d1\u63a7\u63d0\u9192Skill\uff0c200\u4e07+\u7cbe\u9009\u9152\u5e97\uff0c\u72ec\u5bb6\u4f18\u60e0\u4ef7\u683c\uff0c\u8ba9\u4f60\u7684Agent\u8f7b\u677e\u9884\u8ba2\u54c1\u8d28\u9152\u5e97\uff0c\u652f\u6301\u652f\u4ed8\u5b9d\u4e0b\u5355+\u67e5\u8be2\u5386\u53f2\u8ba2\u5355\uff0c24 \u5c0f\u65f6\u5ba2\u670d\u652f\u6301\uff0c\u5168\u5929\u5019\u54cd\u5e94\u3002",
@@ -348,7 +357,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 166417,
+    "stars": 166429,
     "updated_at": "2026-10-18T01:55:14Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -416,7 +425,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40984,
+    "stars": 40985,
     "updated_at": "2026-10-17T21:39:17Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -474,14 +483,5 @@
     "stars": 0,
     "updated_at": "2026-10-17T21:07:51Z",
     "url": "https://github.com/grizzlykiwidev/grizzlykiwidev.github.io"
-  },
-  {
-    "description": "Ten plugins for coding agents, one per stage of the development lifecycle, joined by shared JSON schemas and a common ve",
-    "id": "orin-dx/wisp-plugins",
-    "language": "Python",
-    "name": "orin-dx/wisp-plugins",
-    "stars": 1,
-    "updated_at": "2026-10-17T17:17:51Z",
-    "url": "https://github.com/orin-dx/wisp-plugins"
   }
 ]
