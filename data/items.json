@@ -1,5 +1,23 @@
 [
   {
+    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
+    "id": "bompus/house-rules",
+    "language": "JavaScript",
+    "name": "bompus/house-rules",
+    "stars": 2,
+    "updated_at": "2026-10-18T23:26:14Z",
+    "url": "https://github.com/bompus/house-rules"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-18T23:15:56Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: Write instructions for models as positive targets, and rebuild a section when something is removed from it.\nglobs:\nalwaysApply: true\n---\n\n# Writing instructions for models\n\nThese habits apply whenever you write or edit text that another model will follow: prompts, system prompts, skills, rules, `CLAUDE.md`, and `AGENTS.md`.\n\n- Describe the behavior you want. Name the target with a number, a scope, or a concrete alternative: \"Answer in under 100 words.\" \"Cite sources from A, B, and C.\" \"Verify changes with `npm run typecheck`.\"\n- When asked to take something out of instruction text, delete every sentence about it, then rebuild the section from a short brief of what the text covers now. The finished section reads as if it was written that way from the start.\n- State each rule once, as one calm, plain sentence. That is the form a model gives the most weight.\n- Keep genuine limits on irreversible actions, security, privacy, and legal boundaries. State each one once, next to the instruction it guards, with the reason and a fallback: \"Ask before force-pushing, because it rewrites shared history.\"\n- For a full audit of a file, with parallel subagent reviewers and a leak check on the rewrite, run `/pink-elephant <file>`.\n",
       "format": "mdc",
@@ -12,15 +30,6 @@
     "stars": 0,
     "updated_at": "2026-10-18T23:14:55Z",
     "url": "https://github.com/shahshrey/pink-elephant"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-18T23:00:36Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -93,15 +102,6 @@
     "stars": 50,
     "updated_at": "2026-10-18T21:44:25Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "description": "Working rules and skills for AI coding agents, layered as base, modifiers, person and project",
-    "id": "bompus/house-rules",
-    "language": "JavaScript",
-    "name": "bompus/house-rules",
-    "stars": 2,
-    "updated_at": "2026-10-18T23:14:38Z",
-    "url": "https://github.com/bompus/house-rules"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
