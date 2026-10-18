@@ -1,5 +1,23 @@
 [
   {
+    "description": "\u5168\u7403\u9152\u5e97\u9884\u8ba2&\u4f4e\u4ef7\u76d1\u63a7\u63d0\u9192Skill\uff0c200\u4e07+\u7cbe\u9009\u9152\u5e97\uff0c\u72ec\u5bb6\u4f18\u60e0\u4ef7\u683c\uff0c\u8ba9\u4f60\u7684Agent\u8f7b\u677e\u9884\u8ba2\u54c1\u8d28\u9152\u5e97\uff0c\u652f\u6301\u652f\u4ed8\u5b9d\u4e0b\u5355+\u67e5\u8be2\u5386\u53f2\u8ba2\u5355\uff0c24 \u5c0f\u65f6\u5ba2\u670d\u652f\u6301\uff0c\u5168\u5929\u5019\u54cd\u5e94\u3002",
+    "id": "pyamamoto63/rollinggo-hotel-skill-cn",
+    "language": "Python",
+    "name": "pyamamoto63/rollinggo-hotel-skill-cn",
+    "stars": 0,
+    "updated_at": "2026-10-18T04:58:46Z",
+    "url": "https://github.com/pyamamoto63/rollinggo-hotel-skill-cn"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-18T04:56:46Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
     "id": "Rishabhv935/AIGX",
     "language": "Python",
@@ -25,15 +43,6 @@
     "stars": 0,
     "updated_at": "2026-10-18T04:53:39Z",
     "url": "https://github.com/tomaszh5639/rollinggo-hotel-skill-cn"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-18T04:45:33Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Drop-in AI agent rules (Cursor, Claude Code, AGENTS.md) that stop Supabase RLS holes, broken Stripe webhooks and Godot 3",
@@ -484,14 +493,5 @@
     "stars": 0,
     "updated_at": "2026-10-17T10:13:43Z",
     "url": "https://github.com/SophiaBradley78427/AIGX"
-  },
-  {
-    "description": "200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type",
-    "id": "pinar5974/MotionVault",
-    "language": "TypeScript",
-    "name": "pinar5974/MotionVault",
-    "stars": 0,
-    "updated_at": "2026-10-17T09:43:43Z",
-    "url": "https://github.com/pinar5974/MotionVault"
   }
 ]
