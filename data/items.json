@@ -1,5 +1,32 @@
 [
   {
+    "description": "Open-source POPIA privacy and security guardrails for South African builders, for every AI coding tool.",
+    "id": "VenusOne-Lee/popia-compliance",
+    "language": "Python",
+    "name": "VenusOne-Lee/popia-compliance",
+    "stars": 0,
+    "updated_at": "2026-10-18T21:58:13Z",
+    "url": "https://github.com/VenusOne-Lee/popia-compliance"
+  },
+  {
+    "description": "Guard Lite - local, offline design-contract checker for AI-built UIs. Five named PPG rules (color, type size, type famil",
+    "id": "thedollartoolkit-boop/guard-lite",
+    "language": "JavaScript",
+    "name": "thedollartoolkit-boop/guard-lite",
+    "stars": 0,
+    "updated_at": "2026-10-18T21:55:09Z",
+    "url": "https://github.com/thedollartoolkit-boop/guard-lite"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-18T21:45:45Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
     "id": "J-nowcow/awesome-korean-agent-skills",
     "language": "\u2014",
@@ -25,24 +52,6 @@
     "stars": 3,
     "updated_at": "2026-10-18T21:33:48Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-18T21:30:34Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
-    "description": "Open-source POPIA privacy and security guardrails for South African builders, for every AI coding tool.",
-    "id": "VenusOne-Lee/popia-compliance",
-    "language": "Python",
-    "name": "VenusOne-Lee/popia-compliance",
-    "stars": 0,
-    "updated_at": "2026-10-18T21:22:53Z",
-    "url": "https://github.com/VenusOne-Lee/popia-compliance"
   },
   {
     "description": "Battle-tested agent skills and Cursor rules from real projects. Works with Cursor, Claude Code, and any agent.",
@@ -464,14 +473,5 @@
     "stars": 0,
     "updated_at": "2026-10-18T06:59:08Z",
     "url": "https://github.com/ChristopherDupont475/rollinggo-hotel-skill-cn"
-  },
-  {
-    "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
-    "id": "erika239/AIGX",
-    "language": "Python",
-    "name": "erika239/AIGX",
-    "stars": 0,
-    "updated_at": "2026-10-18T06:52:18Z",
-    "url": "https://github.com/erika239/AIGX"
   }
 ]
