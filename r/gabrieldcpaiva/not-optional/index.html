@@ -14,7 +14,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="gabrieldcpaiva/not-optional - entry on Cursor Rules Live">
 <meta name="twitter:description" content="Accessibility is not a request. A practical, lived-experience toolkit for making digital products and printables usable">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"gabrieldcpaiva/not-optional","codeRepository":"https://github.com/gabrieldcpaiva/not-optional","programmingLanguage":"Shell","url":"https://linny006.github.io/cursor-rules-live/r/gabrieldcpaiva/not-optional/","description":"Accessibility is not a request. A practical, lived-experience toolkit for making digital products and printables usable","author":{"@type":"Person","name":"gabrieldcpaiva","url":"https://github.com/gabrieldcpaiva"},"dateModified":"2026-10-18"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"gabrieldcpaiva/not-optional","codeRepository":"https://github.com/gabrieldcpaiva/not-optional","programmingLanguage":"Markdown","url":"https://linny006.github.io/cursor-rules-live/r/gabrieldcpaiva/not-optional/","description":"Accessibility is not a request. A practical, lived-experience toolkit for making digital products and printables usable","author":{"@type":"Person","name":"gabrieldcpaiva","url":"https://github.com/gabrieldcpaiva"},"dateModified":"2026-10-18"}</script>
 <style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
          --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
 * { box-sizing: border-box; }
@@ -47,25 +47,47 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <p class="lead">Accessibility is not a request. A practical, lived-experience toolkit for making digital products and printables usable</p>
 <div class="meta">
 <span><strong>Stars</strong> 1</span>
-<span><strong>Language</strong> Shell</span>
+<span><strong>Language</strong> Markdown</span>
 <span><strong>Last updated</strong> 2026-10-18</span>
 <span><a href="https://github.com/gabrieldcpaiva/not-optional" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/gabrieldcpaiva" rel="external">@gabrieldcpaiva</a></span>
 </div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/not-optional.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
+description: Apply strict accessibility and UI rules from the not-optional toolkit.
+globs: &quot;**/*.{html,css,jsx,tsx,vue,svelte}&quot;
+alwaysApply: false
+---
+
+# not-optional accessibility rules
+
+When building or modifying UI components, strictly follow the rules defined in `agent-instructions.md`.
+
+Key requirements:
+- Use native semantic HTML elements; avoid ARIA unless a native element cannot express the state.
+- Ensure strict compliance with WCAG 2.1 AA for text contrast.
+- Implement explicit `:focus-visible` styles using the defined 3px width and 2px offset.
+- Adhere to micro-chunking laws: max 4 visual lines per chunk, max 45 words per body block, and 45-65 characters per line (max 75).
+- Use the design tokens from `principles/tokens.screen.json` or `principles/tokens.print-monochrome.json`.
+- Fail closed on critical violations.
+</code></pre>
+<p><a href="https://github.com/gabrieldcpaiva/not-optional/blob/HEAD/.cursor/rules/not-optional.mdc" rel="external">View raw on GitHub</a></p>
+</section>
 <section><h2>Why this is listed</h2>
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>
 <ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/">DietrichGebert/ponytail (stars:166257)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/wshobson/agents/">wshobson/agents (stars:40976)</a></li>
 <li><a href="https://linny006.github.io/cursor-rules-live/r/jnMetaCode/agency-agents-zh/">jnMetaCode/agency-agents-zh (stars:21331)</a></li>
-<li><a href="https://linny006.github.io/cursor-rules-live/r/sscodeai/agency-agents-ja/">sscodeai/agency-agents-ja (stars:9)</a></li>
-<li><a href="https://linny006.github.io/cursor-rules-live/r/Vallykrie/short-drama-finder-skill/">Vallykrie/short-drama-finder-skill (stars:1)</a></li>
 </ul></section>
 <section><h2>Explore by category</h2>
 <ul class="crosslinks">
 <li><a href="https://linny006.github.io/cursor-rules-live/popular/">Popular (by stars)</a></li>
 <li><a href="https://linny006.github.io/cursor-rules-live/recent/">Recent (by activity)</a></li>
 <li><a href="https://linny006.github.io/cursor-rules-live/new/">New this week</a></li>
-<li><a href="https://linny006.github.io/cursor-rules-live/lang/shell/">All Shell entries</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/lang/markdown/">All Markdown entries</a></li>
 </ul></section>
 </main>
 <footer>

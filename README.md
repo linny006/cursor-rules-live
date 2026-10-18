@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-18 01:00 UTC
+> ⏰ Last updated: 2026-10-18 01:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,19 +53,19 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 166252 | JavaScript | 2026-10-18 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
-| 2 | [gabrieldcpaiva/not-optional](https://github.com/gabrieldcpaiva/not-optional) | 1 | Shell | 2026-10-18 | — | Accessibility is not a request. A practical, lived-experience toolkit for making digital products and printables usable  |
-| 3 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-10-18 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
-| 4 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-18 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 5 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-10-18 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
-| 6 | [thedollartoolkit-boop/guard-lite](https://github.com/thedollartoolkit-boop/guard-lite) | 0 | JavaScript | 2026-10-18 | — | Guard Lite - local, offline design-contract checker for AI-built UIs. Five named PPG rules (color, type size, type famil |
-| 7 | [bompus/house-rules](https://github.com/bompus/house-rules) | 2 | JavaScript | 2026-10-18 | — | Working rules and skills for AI coding agents, layered as base, modifiers, person and project |
-| 8 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-17 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
-| 9 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-10-17 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
+| 1 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-10-18 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
+| 2 | [bompus/house-rules](https://github.com/bompus/house-rules) | 2 | JavaScript | 2026-10-18 | — | Working rules and skills for AI coding agents, layered as base, modifiers, person and project |
+| 3 | [gabrieldcpaiva/not-optional](https://github.com/gabrieldcpaiva/not-optional) | 1 | Markdown | 2026-10-18 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/gabrieldcpaiva/not-optional/) | Accessibility is not a request. A practical, lived-experience toolkit for making digital products and printables usable  |
+| 4 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 166257 | JavaScript | 2026-10-18 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 5 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-18 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 6 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-10-18 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
+| 7 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-10-18 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
+| 8 | [thedollartoolkit-boop/guard-lite](https://github.com/thedollartoolkit-boop/guard-lite) | 0 | JavaScript | 2026-10-18 | — | Guard Lite - local, offline design-contract checker for AI-built UIs. Five named PPG rules (color, type size, type famil |
+| 9 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-17 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
 | 10 | [trang7633/rollinggo-hotel-skill-cn](https://github.com/trang7633/rollinggo-hotel-skill-cn) | 0 | Python | 2026-10-17 | — | 全球酒店预订&低价监控提醒Skill，200万+精选酒店，独家优惠价格，让你的Agent轻松预订品质酒店，支持支付宝下单+查询历史订单，24 小时客服支持，全天候响应。 |
 | 11 | [Barbieri64/third-brain-v7-skills](https://github.com/Barbieri64/third-brain-v7-skills) | 0 | Python | 2026-10-17 | — | agent wiki +engineering skills  |
 | 12 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 49 | — | 2026-10-17 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
-| 13 | [wshobson/agents](https://github.com/wshobson/agents) | 40974 | Python | 2026-10-17 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
+| 13 | [wshobson/agents](https://github.com/wshobson/agents) | 40976 | Python | 2026-10-17 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
 | 14 | [anpheros/agent-skills](https://github.com/anpheros/agent-skills) | 0 | — | 2026-10-17 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/anpheros/agent-skills/) | Agent Skill, Claude Code plugin, Cursor rules and AGENTS.md for building health apps on Anpheros (FHIR R4, patient conse |
 | 15 | [Turner401/MotionVault](https://github.com/Turner401/MotionVault) | 0 | TypeScript | 2026-10-17 | — | 200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type |
 | 16 | [SaraZimmermann9391/rollinggo-hotel-skill-cn](https://github.com/SaraZimmermann9391/rollinggo-hotel-skill-cn) | 0 | Python | 2026-10-17 | — | 全球酒店预订&低价监控提醒Skill，200万+精选酒店，独家优惠价格，让你的Agent轻松预订品质酒店，支持支付宝下单+查询历史订单，24 小时客服支持，全天候响应。 |
