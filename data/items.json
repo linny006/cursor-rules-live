@@ -1,12 +1,12 @@
 [
   {
-    "description": "Free private developer tools (JSON, JWT, cURL, cron, SSH keys) that run in your browser, plus AI Skill Studio: a CLAUDE.",
-    "id": "Saad-web-spec/DevScratchPad",
-    "language": "TypeScript",
-    "name": "Saad-web-spec/DevScratchPad",
-    "stars": 2,
-    "updated_at": "2026-10-18T17:05:33Z",
-    "url": "https://github.com/Saad-web-spec/DevScratchPad"
+    "description": "Open-source POPIA privacy and security guardrails for South African builders, for every AI coding tool.",
+    "id": "VenusOne-Lee/popia-compliance",
+    "language": "Python",
+    "name": "VenusOne-Lee/popia-compliance",
+    "stars": 0,
+    "updated_at": "2026-10-18T17:23:42Z",
+    "url": "https://github.com/VenusOne-Lee/popia-compliance"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-18T17:00:47Z",
+    "updated_at": "2026-10-18T17:15:47Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Free private developer tools (JSON, JWT, cURL, cron, SSH keys) that run in your browser, plus AI Skill Studio: a CLAUDE.",
+    "id": "Saad-web-spec/DevScratchPad",
+    "language": "TypeScript",
+    "name": "Saad-web-spec/DevScratchPad",
+    "stars": 2,
+    "updated_at": "2026-10-18T17:05:33Z",
+    "url": "https://github.com/Saad-web-spec/DevScratchPad"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -70,15 +79,6 @@
     "stars": 0,
     "updated_at": "2026-10-18T15:36:28Z",
     "url": "https://github.com/eliass1510/rollinggo-hotel-skill-cn"
-  },
-  {
-    "description": "Open-source POPIA privacy and security guardrails for South African builders, for every AI coding tool.",
-    "id": "VenusOne-Lee/popia-compliance",
-    "language": "Python",
-    "name": "VenusOne-Lee/popia-compliance",
-    "stars": 0,
-    "updated_at": "2026-10-18T15:23:09Z",
-    "url": "https://github.com/VenusOne-Lee/popia-compliance"
   },
   {
     "cursorrules": {
@@ -176,7 +176,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21344,
+    "stars": 21345,
     "updated_at": "2026-10-18T11:44:29Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -212,7 +212,7 @@
     "id": "J-nowcow/awesome-korean-agent-skills",
     "language": "\u2014",
     "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 49,
+    "stars": 50,
     "updated_at": "2026-10-18T10:18:48Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
