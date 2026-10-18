@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<title>shahshrey/pink-elephant - entry on Cursor Rules Live</title>
+<meta name="description" content="Your prompt says &#x27;don&#x27;t mention billing.&#x27; Your agent mentions billing. Pink Elephant finds the don&#x27;ts in prompts, skills">
+<link rel="canonical" href="https://linny006.github.io/cursor-rules-live/r/shahshrey/pink-elephant/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="shahshrey/pink-elephant - entry on Cursor Rules Live">
+<meta property="og:description" content="Your prompt says &#x27;don&#x27;t mention billing.&#x27; Your agent mentions billing. Pink Elephant finds the don&#x27;ts in prompts, skills">
+<meta property="og:url" content="https://linny006.github.io/cursor-rules-live/r/shahshrey/pink-elephant/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="shahshrey/pink-elephant - entry on Cursor Rules Live">
+<meta name="twitter:description" content="Your prompt says &#x27;don&#x27;t mention billing.&#x27; Your agent mentions billing. Pink Elephant finds the don&#x27;ts in prompts, skills">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"shahshrey/pink-elephant","codeRepository":"https://github.com/shahshrey/pink-elephant","programmingLanguage":"Python","url":"https://linny006.github.io/cursor-rules-live/r/shahshrey/pink-elephant/","description":"Your prompt says 'don't mention billing.' Your agent mentions billing. Pink Elephant finds the don'ts in prompts, skills","author":{"@type":"Person","name":"shahshrey","url":"https://github.com/shahshrey"},"dateModified":"2026-10-18"}</script>
+<style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
+         --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 16px; font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--fg); background: var(--bg); }
+.wrap { max-width: var(--max); margin: 0 auto; }
+nav.bc { font-size: 14px; color: var(--muted); margin-bottom: 16px; }
+nav.bc a { color: var(--muted); }
+h1 { font-size: 28px; margin: 0 0 8px; }
+h2 { font-size: 20px; margin: 24px 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+p.lead { font-size: 18px; color: var(--muted); margin: 0 0 24px; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+th, td { padding: 8px 12px; text-align: left; border-bottom: 1px solid var(--border); }
+th { background: var(--card); font-weight: 600; }
+ul.crosslinks { list-style: none; padding: 0; }
+ul.crosslinks li { padding: 6px 0; }
+ul.crosslinks li a { font-weight: 500; }
+.meta { display: flex; gap: 16px; flex-wrap: wrap; color: var(--muted); font-size: 14px; margin: 12px 0; }
+.meta span::before { content: "\00b7"; margin-right: 8px; color: var(--border); }
+.meta span:first-child::before { content: ""; }
+footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--border); font-size: 14px; color: var(--muted); }</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="bc"><a href="https://linny006.github.io/cursor-rules-live/">Cursor Rules Live</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/popular/">Entries</a> &#183; <span>shahshrey/pink-elephant</span></nav>
+<main>
+<h1>shahshrey/pink-elephant</h1>
+<p class="lead">Your prompt says &#x27;don&#x27;t mention billing.&#x27; Your agent mentions billing. Pink Elephant finds the don&#x27;ts in prompts, skills</p>
+<div class="meta">
+<span><strong>Stars</strong> 0</span>
+<span><strong>Language</strong> Python</span>
+<span><strong>Last updated</strong> 2026-10-18</span>
+<span><a href="https://github.com/shahshrey/pink-elephant" rel="external">Source on GitHub</a></span>
+<span><a href="https://github.com/shahshrey" rel="external">@shahshrey</a></span>
+</div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/pink-elephant.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
+description: Write instructions for models as positive targets, and rebuild a section when something is removed from it.
+globs:
+alwaysApply: true
+---
+
+# Writing instructions for models
+
+These habits apply whenever you write or edit text that another model will follow: prompts, system prompts, skills, rules, `CLAUDE.md`, and `AGENTS.md`.
+
+- Describe the behavior you want. Name the target with a number, a scope, or a concrete alternative: &quot;Answer in under 100 words.&quot; &quot;Cite sources from A, B, and C.&quot; &quot;Verify changes with `npm run typecheck`.&quot;
+- When asked to take something out of instruction text, delete every sentence about it, then rebuild the section from a short brief of what the text covers now. The finished section reads as if it was written that way from the start.
+- State each rule once, as one calm, plain sentence. That is the form a model gives the most weight.
+- Keep genuine limits on irreversible actions, security, privacy, and legal boundaries. State each one once, next to the instruction it guards, with the reason and a fallback: &quot;Ask before force-pushing, because it rewrites shared history.&quot;
+- For a full audit of a file, with parallel subagent reviewers and a leak check on the rewrite, run `/pink-elephant &lt;file&gt;`.
+</code></pre>
+<p><a href="https://github.com/shahshrey/pink-elephant/blob/HEAD/.cursor/rules/pink-elephant.mdc" rel="external">View raw on GitHub</a></p>
+</section>
+<section><h2>Why this is listed</h2>
+<p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
+<section><h2>Similar in this tracker</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/r/Max-Samson/knowme-careerforge-skill/">Max-Samson/knowme-careerforge-skill (stars:1)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/VenusOne-Lee/popia-compliance/">VenusOne-Lee/popia-compliance (stars:0)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/rdejager88/third-brain-v7-skills/">rdejager88/third-brain-v7-skills (stars:0)</a></li>
+</ul></section>
+<section><h2>Explore by category</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/popular/">Popular (by stars)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/recent/">Recent (by activity)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/new/">New this week</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/lang/python/">All Python entries</a></li>
+</ul></section>
+</main>
+<footer>
+Auto-updated every 15 minutes via GitHub Actions &#183; <a href="https://linny006.github.io/cursor-rules-live/">tracker root</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/sitemap.xml">sitemap</a>
+</footer>
+</div>
+</body>
+</html>

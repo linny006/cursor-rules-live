@@ -1,5 +1,28 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: Write instructions for models as positive targets, and rebuild a section when something is removed from it.\nglobs:\nalwaysApply: true\n---\n\n# Writing instructions for models\n\nThese habits apply whenever you write or edit text that another model will follow: prompts, system prompts, skills, rules, `CLAUDE.md`, and `AGENTS.md`.\n\n- Describe the behavior you want. Name the target with a number, a scope, or a concrete alternative: \"Answer in under 100 words.\" \"Cite sources from A, B, and C.\" \"Verify changes with `npm run typecheck`.\"\n- When asked to take something out of instruction text, delete every sentence about it, then rebuild the section from a short brief of what the text covers now. The finished section reads as if it was written that way from the start.\n- State each rule once, as one calm, plain sentence. That is the form a model gives the most weight.\n- Keep genuine limits on irreversible actions, security, privacy, and legal boundaries. State each one once, next to the instruction it guards, with the reason and a fallback: \"Ask before force-pushing, because it rewrites shared history.\"\n- For a full audit of a file, with parallel subagent reviewers and a leak check on the rewrite, run `/pink-elephant <file>`.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/pink-elephant.mdc"
+    },
+    "description": "Your prompt says 'don't mention billing.' Your agent mentions billing. Pink Elephant finds the don'ts in prompts, skills",
+    "id": "shahshrey/pink-elephant",
+    "language": "Python",
+    "name": "shahshrey/pink-elephant",
+    "stars": 0,
+    "updated_at": "2026-10-18T23:14:55Z",
+    "url": "https://github.com/shahshrey/pink-elephant"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-18T23:00:36Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
     "id": "Trentobobbi/uikit-mastery-playbook",
     "language": "HTML",
@@ -25,15 +48,6 @@
     "stars": 0,
     "updated_at": "2026-10-18T22:47:32Z",
     "url": "https://github.com/manya-5/design-agent-config"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-18T22:45:42Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\ud83c\udfad 277 \u4e2a\u5373\u63d2\u5373\u7528\u7684 AI \u4e13\u5bb6\u89d2\u8272 \u2014 \u652f\u6301 Claude Code/Cursor/Copilot \u7b49 20 \u79cd\u5de5\u5177\uff0c\u8986\u76d6\u5de5\u7a0b/\u8bbe\u8ba1/\u8425\u9500/\u91d1\u878d\u7b49 20 \u4e2a\u90e8\u95e8\u3002\u542b 64 \u4e2a\u4e2d\u56fd\u5e02\u573a\u539f\u521b\u667a\u80fd\u4f53\uff08\u5c0f\u7ea2\u4e66/\u6296\u97f3/\u5fae\u4fe1/\u98de\u4e66/\u9489\u9489/Qt \u4e0a",
@@ -86,7 +100,7 @@
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 2,
-    "updated_at": "2026-10-18T21:43:20Z",
+    "updated_at": "2026-10-18T23:14:38Z",
     "url": "https://github.com/bompus/house-rules"
   },
   {
@@ -464,14 +478,5 @@
     "stars": 0,
     "updated_at": "2026-10-18T07:02:03Z",
     "url": "https://github.com/aNakamura320/MotionVault"
-  },
-  {
-    "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
-    "id": "CemLong5634/AIGX",
-    "language": "Python",
-    "name": "CemLong5634/AIGX",
-    "stars": 0,
-    "updated_at": "2026-10-18T07:01:19Z",
-    "url": "https://github.com/CemLong5634/AIGX"
   }
 ]
