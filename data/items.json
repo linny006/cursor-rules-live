@@ -1,11 +1,47 @@
 [
   {
+    "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
+    "id": "Moreno11494/AIGX",
+    "language": "Python",
+    "name": "Moreno11494/AIGX",
+    "stars": 0,
+    "updated_at": "2026-10-18T09:41:21Z",
+    "url": "https://github.com/Moreno11494/AIGX"
+  },
+  {
+    "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
+    "id": "FrancesSerra036/AIGX",
+    "language": "Python",
+    "name": "FrancesSerra036/AIGX",
+    "stars": 0,
+    "updated_at": "2026-10-18T09:37:31Z",
+    "url": "https://github.com/FrancesSerra036/AIGX"
+  },
+  {
+    "description": "agent wiki +engineering skills ",
+    "id": "Kimberly646/third-brain-v7-skills",
+    "language": "Python",
+    "name": "Kimberly646/third-brain-v7-skills",
+    "stars": 0,
+    "updated_at": "2026-10-18T09:36:35Z",
+    "url": "https://github.com/Kimberly646/third-brain-v7-skills"
+  },
+  {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 49,
+    "updated_at": "2026-10-18T09:31:15Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-18T09:24:24Z",
+    "updated_at": "2026-10-18T09:30:44Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -99,7 +135,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21335,
+    "stars": 21337,
     "updated_at": "2026-10-18T07:01:13Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -375,7 +411,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 166494,
+    "stars": 166507,
     "updated_at": "2026-10-18T01:55:14Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -425,15 +461,6 @@
     "url": "https://github.com/Barbieri64/third-brain-v7-skills"
   },
   {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 49,
-    "updated_at": "2026-10-17T21:39:27Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: claude-agents marketplace project conventions\nalwaysApply: true\n---\n\n# claude-agents conventions\n\nThis is a multi-harness plugin marketplace. Source lives under `plugins/`; per-harness\nartifacts (`.codex/`, `.cursor-plugin/`, `.opencode/`, `commands/`) are generated.\n\n- Don't hand-edit anything under `.codex/`, `.cursor-plugin/`, `.opencode/`, or top-level `commands/`, `agents/`, `skills/` \u2014 regenerate via `make generate HARNESS=<x>`.\n- Python tooling: `uv` (package manager), `ruff` (lint/format), `ty` (type check). Do not use pip/mypy/black.\n- Plugin files: `plugins/<name>/{.claude-plugin/plugin.json, agents/*.md, skills/<name>/SKILL.md, commands/*.md}`. Auto-discovered.\n- Cursor reads `.claude/skills/` and `.claude/agents/` directly \u2014 no separate `.cursor/skills/` is generated.\n\n## Never\n\n- Never commit secrets or hardcode credentials.\n- Never hand-edit generated registries (`.agents/plugins/marketplace.json`, `.cursor-plugin/`) \u2014 plugin PRs register the plugin in `.claude-plugin/marketplace.json`, then run `make generate-all` (see CONTRIBUTING.md).\n- Never run destructive git operations (force-push, reset --hard, branch -D) without explicit ask.\n\nSee `docs/authoring.md` for the portable-content style guide.\n",
       "format": "mdc",
@@ -446,37 +473,5 @@
     "stars": 40990,
     "updated_at": "2026-10-17T21:39:17Z",
     "url": "https://github.com/wshobson/agents"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Rules for code that uses the Anpheros health-data backend (FHIR R4, patient consent, sandbox)\nglobs:\nalwaysApply: false\n---\n\nWhen this project stores or reads health data through Anpheros (https://platform.anpheros.com):\n\n- Use the sandbox (`sk_test_` keys, synthetic patients) for development; read the key from `ANPHEROS_KEY`; never\n  commit `sk_live_` keys or put real patient data in the sandbox.\n- Never invent LOINC, SNOMED CT, ICD-10, ICD-11, ATC or RxNorm codes: look them up (`GET /v1/search?q=\u2026`) or leave\n  them out. Units are UCUM.\n- A person's existing record is reached only with their consent (SMART on FHIR / OAuth 2.1 + PKCE). Treat `403` as\n  \"ask for more consent\", never as something to bypass.\n- Every write says its author (`author_type`); model-written data uses `author_type: \"ai\"`.\n- The app shows records and patterns; it does not diagnose or recommend treatment.\n- Store clinical data as FHIR R4 resources, not custom JSON. Ids are the same in `/v1` and `/fhir/R4`.\n\nDocs: https://developers.anpheros.com/guides/ \u00b7 Docs MCP (no account): https://platform.anpheros.com/mcp/docs \u00b7\nFull skill: `skills/anpheros-health-backend/SKILL.md`\n",
-      "format": "mdc",
-      "path": ".cursor/rules/anpheros.mdc"
-    },
-    "description": "Agent Skill, Claude Code plugin, Cursor rules and AGENTS.md for building health apps on Anpheros (FHIR R4, patient conse",
-    "id": "anpheros/agent-skills",
-    "language": "\u2014",
-    "name": "anpheros/agent-skills",
-    "stars": 0,
-    "updated_at": "2026-10-17T21:31:46Z",
-    "url": "https://github.com/anpheros/agent-skills"
-  },
-  {
-    "description": "200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type",
-    "id": "Turner401/MotionVault",
-    "language": "TypeScript",
-    "name": "Turner401/MotionVault",
-    "stars": 0,
-    "updated_at": "2026-10-17T21:27:08Z",
-    "url": "https://github.com/Turner401/MotionVault"
-  },
-  {
-    "description": "\u5168\u7403\u9152\u5e97\u9884\u8ba2&\u4f4e\u4ef7\u76d1\u63a7\u63d0\u9192Skill\uff0c200\u4e07+\u7cbe\u9009\u9152\u5e97\uff0c\u72ec\u5bb6\u4f18\u60e0\u4ef7\u683c\uff0c\u8ba9\u4f60\u7684Agent\u8f7b\u677e\u9884\u8ba2\u54c1\u8d28\u9152\u5e97\uff0c\u652f\u6301\u652f\u4ed8\u5b9d\u4e0b\u5355+\u67e5\u8be2\u5386\u53f2\u8ba2\u5355\uff0c24 \u5c0f\u65f6\u5ba2\u670d\u652f\u6301\uff0c\u5168\u5929\u5019\u54cd\u5e94\u3002",
-    "id": "SaraZimmermann9391/rollinggo-hotel-skill-cn",
-    "language": "Python",
-    "name": "SaraZimmermann9391/rollinggo-hotel-skill-cn",
-    "stars": 0,
-    "updated_at": "2026-10-17T21:24:15Z",
-    "url": "https://github.com/SaraZimmermann9391/rollinggo-hotel-skill-cn"
   }
 ]
