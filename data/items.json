@@ -5,8 +5,17 @@
     "language": "TypeScript",
     "name": "mustafakbaser/agentcheckup",
     "stars": 0,
-    "updated_at": "2026-10-18T10:00:12Z",
+    "updated_at": "2026-10-18T10:15:11Z",
     "url": "https://github.com/mustafakbaser/agentcheckup"
+  },
+  {
+    "description": "\u26a1 Production-grade skills and automated workflows for AI coding agents (Antigravity, Claude Code, Cursor, Copilot & MCP)",
+    "id": "Anmolop97/Agent-Skills",
+    "language": "Python",
+    "name": "Anmolop97/Agent-Skills",
+    "stars": 0,
+    "updated_at": "2026-10-18T10:13:36Z",
+    "url": "https://github.com/Anmolop97/Agent-Skills"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,7 +23,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-18T09:45:53Z",
+    "updated_at": "2026-10-18T10:00:41Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -135,7 +144,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21337,
+    "stars": 21338,
     "updated_at": "2026-10-18T07:01:13Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -411,7 +420,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 166516,
+    "stars": 166527,
     "updated_at": "2026-10-18T01:55:14Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -459,19 +468,5 @@
     "stars": 0,
     "updated_at": "2026-10-17T21:45:06Z",
     "url": "https://github.com/Barbieri64/third-brain-v7-skills"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: claude-agents marketplace project conventions\nalwaysApply: true\n---\n\n# claude-agents conventions\n\nThis is a multi-harness plugin marketplace. Source lives under `plugins/`; per-harness\nartifacts (`.codex/`, `.cursor-plugin/`, `.opencode/`, `commands/`) are generated.\n\n- Don't hand-edit anything under `.codex/`, `.cursor-plugin/`, `.opencode/`, or top-level `commands/`, `agents/`, `skills/` \u2014 regenerate via `make generate HARNESS=<x>`.\n- Python tooling: `uv` (package manager), `ruff` (lint/format), `ty` (type check). Do not use pip/mypy/black.\n- Plugin files: `plugins/<name>/{.claude-plugin/plugin.json, agents/*.md, skills/<name>/SKILL.md, commands/*.md}`. Auto-discovered.\n- Cursor reads `.claude/skills/` and `.claude/agents/` directly \u2014 no separate `.cursor/skills/` is generated.\n\n## Never\n\n- Never commit secrets or hardcode credentials.\n- Never hand-edit generated registries (`.agents/plugins/marketplace.json`, `.cursor-plugin/`) \u2014 plugin PRs register the plugin in `.claude-plugin/marketplace.json`, then run `make generate-all` (see CONTRIBUTING.md).\n- Never run destructive git operations (force-push, reset --hard, branch -D) without explicit ask.\n\nSee `docs/authoring.md` for the portable-content style guide.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/000-project-conventions.mdc"
-    },
-    "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a",
-    "id": "wshobson/agents",
-    "language": "Python",
-    "name": "wshobson/agents",
-    "stars": 40990,
-    "updated_at": "2026-10-17T21:39:17Z",
-    "url": "https://github.com/wshobson/agents"
   }
 ]
