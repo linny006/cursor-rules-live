@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-18 22:00 UTC
+> ⏰ Last updated: 2026-10-18 22:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,29 +53,29 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [VenusOne-Lee/popia-compliance](https://github.com/VenusOne-Lee/popia-compliance) | 0 | Python | 2026-10-18 | — | Open-source POPIA privacy and security guardrails for South African builders, for every AI coding tool. |
-| 2 | [thedollartoolkit-boop/guard-lite](https://github.com/thedollartoolkit-boop/guard-lite) | 0 | JavaScript | 2026-10-18 | — | Guard Lite - local, offline design-contract checker for AI-built UIs. Five named PPG rules (color, type size, type famil |
-| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-18 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 4 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 50 | — | 2026-10-18 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
-| 5 | [bompus/house-rules](https://github.com/bompus/house-rules) | 2 | JavaScript | 2026-10-18 | — | Working rules and skills for AI coding agents, layered as base, modifiers, person and project |
-| 6 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-10-18 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 7 | [jcottam/agent-resources](https://github.com/jcottam/agent-resources) | 29 | Shell | 2026-10-18 | — | Battle-tested agent skills and Cursor rules from real projects. Works with Cursor, Claude Code, and any agent. |
-| 8 | [rdejager88/third-brain-v7-skills](https://github.com/rdejager88/third-brain-v7-skills) | 0 | Python | 2026-10-18 | — | agent wiki +engineering skills  |
-| 9 | [torun2416/third-brain-v7-skills](https://github.com/torun2416/third-brain-v7-skills) | 0 | Python | 2026-10-18 | — | agent wiki +engineering skills  |
-| 10 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-10-18 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
-| 11 | [roedyrustam/vibes-plug](https://github.com/roedyrustam/vibes-plug) | 78 | JavaScript | 2026-10-18 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/roedyrustam/vibes-plug/) | ⚡ Cross-IDE AI skill collection that orchestrates 147 specialized subagents for full-stack development workflows |
-| 12 | [kerstin613/rollinggo-hotel-skill-cn](https://github.com/kerstin613/rollinggo-hotel-skill-cn) | 0 | Python | 2026-10-18 | — | 全球酒店预订&低价监控提醒Skill，200万+精选酒店，独家优惠价格，让你的Agent轻松预订品质酒店，支持支付宝下单+查询历史订单，24 小时客服支持，全天候响应。 |
-| 13 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-10-18 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
-| 14 | [thebestbaduser/fz168-linter](https://github.com/thebestbaduser/fz168-linter) | 0 | Python | 2026-10-18 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/thebestbaduser/fz168-linter/) | Предварительная проверка русских текстов и интерфейсов на языковые риски по 168-ФЗ: кириллица в названиях ЖК, латинские  |
-| 15 | [vorlaxen-labs/agent-skills](https://github.com/vorlaxen-labs/agent-skills) | 6 | TypeScript | 2026-10-18 | — | Vorlaxen Agent Skills CLI: init global engineering standards, add skills from any GitHub repo. Cursor, Claude Code, Copi |
-| 16 | [NatashaSon925/MotionVault](https://github.com/NatashaSon925/MotionVault) | 0 | TypeScript | 2026-10-18 | — | 200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type |
-| 17 | [Deniz78588/rollinggo-hotel-skill-cn](https://github.com/Deniz78588/rollinggo-hotel-skill-cn) | 0 | Python | 2026-10-18 | — | 全球酒店预订&低价监控提醒Skill，200万+精选酒店，独家优惠价格，让你的Agent轻松预订品质酒店，支持支付宝下单+查询历史订单，24 小时客服支持，全天候响应。 |
-| 18 | [Gabriele51645/MotionVault](https://github.com/Gabriele51645/MotionVault) | 0 | TypeScript | 2026-10-18 | — | 200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type |
-| 19 | [ChenleNguyen969/third-brain-v7-skills](https://github.com/ChenleNguyen969/third-brain-v7-skills) | 0 | Python | 2026-10-18 | — | agent wiki +engineering skills  |
-| 20 | [yuriishii65914/rollinggo-hotel-skill-cn](https://github.com/yuriishii65914/rollinggo-hotel-skill-cn) | 0 | Python | 2026-10-18 | — | 全球酒店预订&低价监控提醒Skill，200万+精选酒店，独家优惠价格，让你的Agent轻松预订品质酒店，支持支付宝下单+查询历史订单，24 小时客服支持，全天候响应。 |
-| 21 | [pabloroberts/rollinggo-hotel-skill-cn](https://github.com/pabloroberts/rollinggo-hotel-skill-cn) | 0 | Python | 2026-10-18 | — | 全球酒店预订&低价监控提醒Skill，200万+精选酒店，独家优惠价格，让你的Agent轻松预订品质酒店，支持支付宝下单+查询历史订单，24 小时客服支持，全天候响应。 |
-| 22 | [rachitdev/skillforge](https://github.com/rachitdev/skillforge) | 1 | Rust | 2026-10-18 | — | ⚒️ Skillforge: Zero-Daemon Rust Book-to-Skill Compiler, Progressive Skill Router & First-Class DeepSeek Harness (DSH) Co |
-| 23 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-18 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
+| 1 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-18 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
+| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-18 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 3 | [VenusOne-Lee/popia-compliance](https://github.com/VenusOne-Lee/popia-compliance) | 0 | Python | 2026-10-18 | — | Open-source POPIA privacy and security guardrails for South African builders, for every AI coding tool. |
+| 4 | [thedollartoolkit-boop/guard-lite](https://github.com/thedollartoolkit-boop/guard-lite) | 0 | JavaScript | 2026-10-18 | — | Guard Lite - local, offline design-contract checker for AI-built UIs. Five named PPG rules (color, type size, type famil |
+| 5 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 50 | — | 2026-10-18 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
+| 6 | [bompus/house-rules](https://github.com/bompus/house-rules) | 2 | JavaScript | 2026-10-18 | — | Working rules and skills for AI coding agents, layered as base, modifiers, person and project |
+| 7 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-10-18 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
+| 8 | [jcottam/agent-resources](https://github.com/jcottam/agent-resources) | 29 | Shell | 2026-10-18 | — | Battle-tested agent skills and Cursor rules from real projects. Works with Cursor, Claude Code, and any agent. |
+| 9 | [rdejager88/third-brain-v7-skills](https://github.com/rdejager88/third-brain-v7-skills) | 0 | Python | 2026-10-18 | — | agent wiki +engineering skills  |
+| 10 | [torun2416/third-brain-v7-skills](https://github.com/torun2416/third-brain-v7-skills) | 0 | Python | 2026-10-18 | — | agent wiki +engineering skills  |
+| 11 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-10-18 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
+| 12 | [roedyrustam/vibes-plug](https://github.com/roedyrustam/vibes-plug) | 78 | JavaScript | 2026-10-18 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/roedyrustam/vibes-plug/) | ⚡ Cross-IDE AI skill collection that orchestrates 147 specialized subagents for full-stack development workflows |
+| 13 | [kerstin613/rollinggo-hotel-skill-cn](https://github.com/kerstin613/rollinggo-hotel-skill-cn) | 0 | Python | 2026-10-18 | — | 全球酒店预订&低价监控提醒Skill，200万+精选酒店，独家优惠价格，让你的Agent轻松预订品质酒店，支持支付宝下单+查询历史订单，24 小时客服支持，全天候响应。 |
+| 14 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-10-18 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
+| 15 | [thebestbaduser/fz168-linter](https://github.com/thebestbaduser/fz168-linter) | 0 | Python | 2026-10-18 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/thebestbaduser/fz168-linter/) | Предварительная проверка русских текстов и интерфейсов на языковые риски по 168-ФЗ: кириллица в названиях ЖК, латинские  |
+| 16 | [vorlaxen-labs/agent-skills](https://github.com/vorlaxen-labs/agent-skills) | 6 | TypeScript | 2026-10-18 | — | Vorlaxen Agent Skills CLI: init global engineering standards, add skills from any GitHub repo. Cursor, Claude Code, Copi |
+| 17 | [NatashaSon925/MotionVault](https://github.com/NatashaSon925/MotionVault) | 0 | TypeScript | 2026-10-18 | — | 200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type |
+| 18 | [Deniz78588/rollinggo-hotel-skill-cn](https://github.com/Deniz78588/rollinggo-hotel-skill-cn) | 0 | Python | 2026-10-18 | — | 全球酒店预订&低价监控提醒Skill，200万+精选酒店，独家优惠价格，让你的Agent轻松预订品质酒店，支持支付宝下单+查询历史订单，24 小时客服支持，全天候响应。 |
+| 19 | [Gabriele51645/MotionVault](https://github.com/Gabriele51645/MotionVault) | 0 | TypeScript | 2026-10-18 | — | 200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type |
+| 20 | [ChenleNguyen969/third-brain-v7-skills](https://github.com/ChenleNguyen969/third-brain-v7-skills) | 0 | Python | 2026-10-18 | — | agent wiki +engineering skills  |
+| 21 | [yuriishii65914/rollinggo-hotel-skill-cn](https://github.com/yuriishii65914/rollinggo-hotel-skill-cn) | 0 | Python | 2026-10-18 | — | 全球酒店预订&低价监控提醒Skill，200万+精选酒店，独家优惠价格，让你的Agent轻松预订品质酒店，支持支付宝下单+查询历史订单，24 小时客服支持，全天候响应。 |
+| 22 | [pabloroberts/rollinggo-hotel-skill-cn](https://github.com/pabloroberts/rollinggo-hotel-skill-cn) | 0 | Python | 2026-10-18 | — | 全球酒店预订&低价监控提醒Skill，200万+精选酒店，独家优惠价格，让你的Agent轻松预订品质酒店，支持支付宝下单+查询历史订单，24 小时客服支持，全天候响应。 |
+| 23 | [rachitdev/skillforge](https://github.com/rachitdev/skillforge) | 1 | Rust | 2026-10-18 | — | ⚒️ Skillforge: Zero-Daemon Rust Book-to-Skill Compiler, Progressive Skill Router & First-Class DeepSeek Harness (DSH) Co |
 | 24 | [grizzlykiwidev/grizzlykiwidev.github.io](https://github.com/grizzlykiwidev/grizzlykiwidev.github.io) | 0 | — | 2026-10-18 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/grizzlykiwidev/grizzlykiwidev.github.io/) | Free Cursor rules (.mdc), AGENTS.md & CLAUDE.md templates and prompts for AI coding agents: Next.js + Supabase, Godot 4. |
 | 25 | [Saad-web-spec/DevScratchPad](https://github.com/Saad-web-spec/DevScratchPad) | 2 | TypeScript | 2026-10-18 | — | Free private developer tools (JSON, JWT, cURL, cron, SSH keys) that run in your browser, plus AI Skill Studio: a CLAUDE. |
 | 26 | [PhilippeLefevre164/AIGX](https://github.com/PhilippeLefevre164/AIGX) | 0 | Python | 2026-10-18 | — | Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig |
