@@ -1,12 +1,44 @@
 [
   {
+    "cursorrules": {
+      "content": "# Core Rule for Vibes-Plug Agents\n\n> **\ud83c\udf10 Universal Compatibility:** These rules apply to ALL AI platforms using vibes-plug:\n> **Antigravity (AGY)** via `AGENTS.md` | **Claude Code** via `CLAUDE.md` + `.claude/rules/` | **Cursor IDE** via `.cursorrules` + `.cursor/rules/` | **OpenAI Codex** via `CODEX.md` + `.codex/rules/`\n> Each platform has its own entry point, but the core rules and 155 skills are shared.\n\n## MANDATORY: LLM-Agnostic & IDE Universal Compatibility\n**CRITICAL RULE**: This Swarm Architecture is strictly model-agnostic. It is engineered to extract maximum reasoning capabilities from ALL Latest Frontier Models (Google Gemini 4 Pro / Gemini 4 Flash / Project Astra / Gemini 3.8 Flash, Anthropic Claude 5.1 Fable / Mythos / Claude 3.7 Sonnet / Claude 5, OpenAI GPT-5.6 / GPT-5 / o3 / o3-mini / GPT-4.5, and DeepSeek-R1 / DeepSeek-Pro / DeepSeek-V3). The AI MUST adapt the orchestration payload according to its native context window and thinking budget.\n\n## MANDATORY: Primary Trigger & Skill Auto-Synchronization (Pemicu Utama)\n**CRITICAL RULE**: Upon plugin installation, `vibes-plug` becomes the **PRIMARY TRIGGER (Pemicu Utama)** and **MASTER CONDUCTOR** for all AI activities. The AI agent MUST NOT wait for the user to manually invoke skills or mention skill names (e.g. `@senior-frontend` or `/ask-skill`).\n\nWhenever a user submits ANY request, the agent MUST automatically and autonomously:\n1. **Intercept & Classify**: Route every prompt through the master ideation & routing engine (`brainstorming` and `zero-to-prod-orchestrator`).\n2. **Auto-Synchronize Cooperating Skills**: Dynamically identify and bind all relevant domain skills from the 155 skill registry:\n   - **Frontend & UI**: `senior-frontend` + `tailwind-expert` + `design-system-architect` + `form-validation-expert` + `ui-ux-pro-max` + `modern-css-native-expert`.\n   - **Backend & APIs**: `js-backend-expert` + `database-orm-expert` + `api-design-expert` + `spec-driven-development-expert` + `authentication-identity-expert` + `python-programming-expert` + `go-programming-expert` + `rust-programming-expert`.\n   - **Payments & Billing**: `doku-payment-gateway` + `payment-gateway-expert` + `saas-billing` + `database-orm-expert` (atomic locks & SNAP BI idempotency).\n   - **AI & MCP**: `ai-llm-integration-expert` + `frontier-ai-models-expert` + `gemini-agent-booster` + `vercel-ai-sdk-expert` + `mcp-server-architect` + `doku-mcp-server` + `multi-agent-orchestration`.\n   - **Testing & Quality**: `autonomous-tdd-debugger` + `e2e-testing-expert` + `autonomous-red-teamer` + `production-ready-hardener` + `anti-slop` + `zero-tech-debt-auditor`.\n   - **Full Lifecycle**: `brainstorming` + `prd-architect` + `zero-to-prod-orchestrator` + `session-memory-manager`.\n3. **Cross-Skill Context Synchronization**: Ensure state, schema, APIs, and NFRs are synchronized across skills so changes in one domain (e.g., database schema) automatically propagate to others (e.g., backend models, API contracts, frontend types).\n4. **Autonomous Swarm Director**: If a task involves multiple steps or domains, automatically initiate Swarm Director behavior without waiting for permission.\n\n## MANDATORY: Skill Orchestration Update\n**CRITICAL RULE**: Every time a new skill is added or created within the `vibes-plug` ecosystem, the agent MUST immediately and automatically update the main orchestrator files. \n\nFailure to do so breaks the entire architectural orchestration flow.\n\nWhenever a new skill `SKILL.md` is generated, you must:\n1. **Update `brainstorming/SKILL.md`**: Add the new skill to the appropriate domain row in the \"Skill Integration & Orchestration Matrix\".\n2. **Update `zero-to-prod-orchestrator/SKILL.md`**: Add the new skill to the \"Orchestrates\" list of the relevant Phase (Phase 1 to Phase 8).\n3. **Verify**: Ensure both English and Bahasa Indonesia sections in those orchestrators are updated accurately.\n\nThis rule is absolute and applies to all AI agents interacting with this plugin.\n\n## MANDATORY: Multi-Agent Orchestration & Swarm Cooperation\n**CRITICAL RULE**: When dealing with complex, multi-step tasks, the AI Agent MUST function as a **Swarm Director** and orchestrate multiple specialized subagents concurrently.\n\n**AUTOMATIC TRIGGER**: You MUST automatically initiate Swarm Director behavior whenever a task:\n- Involves more than one domain (e.g., Frontend + Backend + Database).\n- Requires extensive research across multiple files/repositories.\n- Consists of more than three independent steps.\n- Involves high-risk architectural changes or migrations.\n*Do NOT ask for the user's permission to spawn subagents; do it autonomously.*\n\n### Swarm Execution Topologies (2026 Edition)\n\n```\n1. FAN-OUT / FAN-IN (Parallel Research & Assembly)\n   Director \u2500\u2500\u252c\u2500\u2500\u25ba Subagent A (Frontend / UI)   \u2500\u2500\u2510\n              \u251c\u2500\u2500\u25ba Subagent B (Backend / API)    \u2500\u2500\u253c\u2500\u2500\u25ba Synthesis & Assembly\n              \u2514\u2500\u2500\u25ba Subagent C (DB Schema / RLS)  \u2500\u2500\u2518\n\n2. PIPELINE SAGA (Sequential Dependent Execution)\n   Discovery \u2500\u2500\u25ba Foundation \u2500\u2500\u25ba Schema/DB \u2500\u2500\u25ba APIs \u2500\u2500\u25ba Frontend \u2500\u2500\u25ba QA/Hardening\n\n3. CRITIC-VALIDATOR LOOP (Zero-Tolerance Quality Gate)\n   Implementer Agent \u2500\u2500\u25ba Artifact/Code \u2500\u2500\u25ba Auditor Agent (code review/fuzzing) \u2500\u2500\u25ba Approved\n```\n\n### Swarm Director Protocols\n1. **Decompose and Delegate**: Break down complex tasks into independent sub-tasks and delegate them to specialized subagents using `invoke_subagent`. Assign clear, specific roles to each subagent based on the 155 specialized skills in `vibes-plug`.\n2. **Parallel Execution**: Invoke multiple subagents simultaneously whenever tasks can be performed in parallel (e.g., one subagent researches frontend UI, another analyzes backend DB schema).\n3. **Context Sharing**: Ensure subagents are given precise instructions and the necessary context (e.g., passing `CONTEXT_MAP.md`, PRD, or specific file paths). Communicate with active subagents via `send_message`.\n4. **Agent Synergy & Native Subagents**: Rely on the `vibes-plug` native subagent registry located in `agents/`:\n   - **System Architecture**: Delegate to `swarm-architect` (guided by `brainstorming`, `prd-architect`, `domain-driven-design-expert`, `saas-architect`).\n   - **Fullstack Craftsmanship**: Delegate to `fullstack-craftsman` (guided by `senior-frontend`, `tailwind-expert`, `design-system-architect`, `js-backend-expert`, `database-orm-expert`).\n   - **Quality & Anti-Slop Gate**: Delegate to `quality-guardian` (guided by `anti-slop`, `autonomous-tdd-debugger`, `e2e-testing-expert`, `autonomous-red-teamer`).\n   - **FinTech & Payments**: Delegate to `fintech-payment-sentinel` (guided by `doku-payment-gateway`, `saas-billing`, `payment-gateway-expert`).\n   - **AI & MCP Protocols**: Delegate to `ai-mcp-engineer` (guided by `mcp-server-architect`, `ai-llm-integration-expert`, `gemini-agent-booster`).\n   - **Custom Agent Generation**: Scaffold new project-specific agents anytime using `vibes create-agent --name <name> --skills <skills>`.\n5. **Proactive Monitoring**: Track subagent progress. Do not let subagents hang indefinitely. If waiting on multiple subagents, use the `schedule` tool to set up check-ins or timers.\n6. **Unified Assembly**: Once subagents report back, the main orchestrator agent MUST review, synthesize, and seamlessly assemble their work into a cohesive final output before presenting it to the user.\n7. **Circuit Breakers**: If a subagent encounters a blocker or failure >2 retries, gracefully fallback or reassign the sub-task to an alternative specialized skill.\n8. **Mandatory Documentation**: Whenever initiating a new project from scratch, the Swarm Director MUST ensure the automatic generation of a Product Requirements Document (`PRD.md`), Entity Relationship Diagram (`ERD.md`), and general Documentation (`DOKUMENTASI.md`) before any code is generated.\n\n## MANDATORY: Deep Reasoning (o1-Style Thinking)\n**CRITICAL RULE**: Do not act impulsively. Before writing any code, modifying files, or making architectural decisions, the AI Agent MUST engage",
+      "format": "text",
+      "path": ".cursorrules"
+    },
+    "description": "\u26a1 Cross-IDE AI skill collection that orchestrates 147 specialized subagents for full-stack development workflows",
+    "id": "roedyrustam/vibes-plug",
+    "language": "JavaScript",
+    "name": "roedyrustam/vibes-plug",
+    "stars": 77,
+    "updated_at": "2026-10-18T19:40:50Z",
+    "url": "https://github.com/roedyrustam/vibes-plug"
+  },
+  {
+    "description": "\u5168\u7403\u9152\u5e97\u9884\u8ba2&\u4f4e\u4ef7\u76d1\u63a7\u63d0\u9192Skill\uff0c200\u4e07+\u7cbe\u9009\u9152\u5e97\uff0c\u72ec\u5bb6\u4f18\u60e0\u4ef7\u683c\uff0c\u8ba9\u4f60\u7684Agent\u8f7b\u677e\u9884\u8ba2\u54c1\u8d28\u9152\u5e97\uff0c\u652f\u6301\u652f\u4ed8\u5b9d\u4e0b\u5355+\u67e5\u8be2\u5386\u53f2\u8ba2\u5355\uff0c24 \u5c0f\u65f6\u5ba2\u670d\u652f\u6301\uff0c\u5168\u5929\u5019\u54cd\u5e94\u3002",
+    "id": "yuriishii65914/rollinggo-hotel-skill-cn",
+    "language": "Python",
+    "name": "yuriishii65914/rollinggo-hotel-skill-cn",
+    "stars": 0,
+    "updated_at": "2026-10-18T19:38:58Z",
+    "url": "https://github.com/yuriishii65914/rollinggo-hotel-skill-cn"
+  },
+  {
     "description": "Open-source POPIA privacy and security guardrails for South African builders, for every AI coding tool.",
     "id": "VenusOne-Lee/popia-compliance",
     "language": "Python",
     "name": "VenusOne-Lee/popia-compliance",
     "stars": 0,
-    "updated_at": "2026-10-18T19:30:14Z",
+    "updated_at": "2026-10-18T19:38:32Z",
     "url": "https://github.com/VenusOne-Lee/popia-compliance"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-18T19:30:42Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\u5168\u7403\u9152\u5e97\u9884\u8ba2&\u4f4e\u4ef7\u76d1\u63a7\u63d0\u9192Skill\uff0c200\u4e07+\u7cbe\u9009\u9152\u5e97\uff0c\u72ec\u5bb6\u4f18\u60e0\u4ef7\u683c\uff0c\u8ba9\u4f60\u7684Agent\u8f7b\u677e\u9884\u8ba2\u54c1\u8d28\u9152\u5e97\uff0c\u652f\u6301\u652f\u4ed8\u5b9d\u4e0b\u5355+\u67e5\u8be2\u5386\u53f2\u8ba2\u5355\uff0c24 \u5c0f\u65f6\u5ba2\u670d\u652f\u6301\uff0c\u5168\u5929\u5019\u54cd\u5e94\u3002",
@@ -25,29 +57,6 @@
     "stars": 6,
     "updated_at": "2026-10-18T19:25:06Z",
     "url": "https://github.com/vorlaxen-labs/Agent-Skills"
-  },
-  {
-    "cursorrules": {
-      "content": "# Vibes-Plug \u2014 155-Skill AI Agent Swarm Architecture (v4.3.0)\n# Universal AI Plugin for Antigravity, Claude, Cursor, and OpenAI Codex\n\n## Primary Trigger & Skill Auto-Synchronization (Pemicu Utama)\nUpon installation, `vibes-plug` is the **PRIMARY TRIGGER (Pemicu Utama)** for all Cursor AI interactions.\n- The AI agent MUST automatically intercept prompts and synchronize relevant skills without waiting for explicit `@` mentions.\n- Automatically connects cooperating skills (e.g. `doku-payment-gateway` + `saas-billing` + `payment-gateway-expert`; `senior-frontend` + `tailwind-expert`).\n- Multi-domain workflows trigger Swarm Topologies (Fan-Out/Fan-In, Pipeline Saga, Critic-Validator).\n\n## About\nThis project uses the vibes-plug skills ecosystem with 155 specialized skills.\nEach skill is a `SKILL.md` file in the `skills/` directory containing domain-specific\ninstructions, patterns, and best practices for the modern 2026 tech stack.\n\n## Core Stack (2026 Edition)\n- Frontend: React 19, Next.js 15 App Router, Tailwind CSS v4 (@theme), TypeScript 5.8+\n- Backend: Node.js 24 LTS, Bun 1.2+, Hono v4, Fastify 5, Python 3.14, Go 1.25+, Rust 2024\n- Database: Prisma 6, Drizzle ORM, PostgreSQL, Supabase, Neon, Turso\n- AI/LLM: Vercel AI SDK 5.x/6.x, MCP v1.x (FastMCP / Streamable HTTP), pgvector, RAG pipelines\n\n## Mandatory Before Coding\n1. Read the relevant `skills/<skill-name>/SKILL.md` files before writing code.\n2. Think deeply before acting \u2014 analyze constraints, question assumptions, validate approach.\n3. For new projects, auto-generate: PRD.md, ERD.md, DOKUMENTASI.md.\n\n## Skill Domains\n- \ud83e\udd16 AI & Agentic: ai-llm-integration-expert, vercel-ai-sdk-expert, deep-research-analyst, synthetic-data-finetuning-expert, pydantic-ai-expert, mcp-server-architect, vector-db-rag-expert, multi-agent-orchestration, graph-rag-knowledge-expert, local-slm-edge-ai-expert, llm-finops-router, agentic-memory-architect\n- \ud83c\udfa8 Design & UI/UX: design-system-architect, hig, ui-ux-pro-max, tailwind-expert, modern-css-native-expert\n- \ud83d\udda5\ufe0f Frontend: senior-frontend, tailwind-expert, nextjs-app-router-expert, tanstack-query-expert, vue-frontend-expert, astro-framework-expert, svelte-sveltekit-expert, solidjs-expert, angular-expert, browser-extension-mv3-pro\n- \u2699\ufe0f Backend: js-backend-expert, python-programming-expert, go-programming-expert, rust-programming-expert, api-design-expert, openapi-swagger-codegen-expert, spec-driven-development-expert, fullstack-expert\n- \u2601\ufe0f SaaS & Cloud: saas-architect, saas-billing, saas-multi-tenant, ci-cd-devops-architect, cloud-hosting-expert, payment-gateway-expert, doku-payment-gateway, agentic-m2m-settlement\n- \ud83d\uddc4\ufe0f Database: database-orm-expert, supabase-security-expert, data-pipeline-etl-expert\n- \ud83d\udd12 Security: authentication-identity-expert, e2e-testing-expert, production-ready-hardener, zero-trust-secret-vault, anti-slop, autonomous-tdd-debugger, zero-tech-debt-auditor\n- \ud83d\udd0d SEO & Telemetry: seo, data-telemetry-expert\n- \ud83d\udee0\ufe0f Utilities: brainstorming, prd-architect, session-memory-manager, zero-to-prod-orchestrator, web-scraper, website-design-cloner\n\n## Code Quality & Sovereign Anti-Slop Directive\n- Zero-tolerance for AI slop (`anti-slop` skill):\n  * Code-first delivery with 100% complete implementations (no `// TODO`, `// ...`, or mock stubs).\n  * Hyper-YAGNI: avoid speculative abstractions and redundant wrapper layers.\n  * Meaningful comments only: explain non-obvious business/architectural WHY, never syntax mechanics.\n  * No swallowed errors (`catch(e){}` prohibited); structured logging (`Pino`) required.\n  * UI & Visual Sanitation: Enforce Linear/Stripe-caliber design. Zero generic blue-purple gradients, no neon glow orbs, no pill button addiction (`rounded-full` on rectangular elements), mandatory 5-state contract, tabular numerals (`tabular-nums`), and crisp 1px borders.\n  * Run `node scripts/check-anti-slop.js` to verify zero violations.\n## Sovereign Token Optimization Protocol (Hemat Token)\n- Enforce deterministic KV-cache prefixing via `kv-cache-prefix-optimizer` (75-90% prompt cache hit rates).\n- Prune subagent context payloads: pass only targeted `CONTEXT_MAP.md` slices, not raw chat transcripts.\n- Use dynamic model cascading (`adaptive-model-cascade`): `flash` for research/linting, `pro` for architecture/security.\n- Ultra-compact session checkpoints (<300 tokens) via `session-memory-manager`.\n- Non-Degradation Invariant: Never truncate code with placeholders or stubs to save tokens. Code must be 100% complete.\n\n## Orchestration Flow\n1. Ideation: brainstorming \u2192 prd-architect\n2. Design: design-system-architect \u2192 senior-frontend \u2192 ui-ux-pro-max\n3. Backend: js-backend-expert \u2192 event-driven-architect \u2192 autonomous-tdd-debugger\n4. AI: ai-llm-integration-expert \u2192 mcp-server-architect \u2192 multi-agent-orchestration\n5. SaaS: saas-architect \u2192 saas-billing + saas-multi-tenant + doku-payment-gateway\n6. Launch: e2e-testing-expert \u2192 zero-tech-debt-auditor \u2192 seo \u2192 anti-slop \u2192 production-ready-hardener\n",
-      "format": "text",
-      "path": ".cursorrules"
-    },
-    "description": "\u26a1 Cross-IDE AI skill collection that orchestrates 147 specialized subagents for full-stack development workflows",
-    "id": "roedyrustam/vibes-plug",
-    "language": "JavaScript",
-    "name": "roedyrustam/vibes-plug",
-    "stars": 77,
-    "updated_at": "2026-10-18T19:16:31Z",
-    "url": "https://github.com/roedyrustam/vibes-plug"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-18T19:15:56Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\u2692\ufe0f Skillforge: Zero-Daemon Rust Book-to-Skill Compiler, Progressive Skill Router & First-Class DeepSeek Harness (DSH) Co",
@@ -464,14 +473,5 @@
     "stars": 0,
     "updated_at": "2026-10-18T05:01:59Z",
     "url": "https://github.com/Shuji1128/MotionVault"
-  },
-  {
-    "description": "agent wiki +engineering skills ",
-    "id": "AkiraAktas/third-brain-v7-skills",
-    "language": "Python",
-    "name": "AkiraAktas/third-brain-v7-skills",
-    "stars": 0,
-    "updated_at": "2026-10-18T05:01:16Z",
-    "url": "https://github.com/AkiraAktas/third-brain-v7-skills"
   }
 ]
