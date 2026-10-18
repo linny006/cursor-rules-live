@@ -1,5 +1,23 @@
 [
   {
+    "description": "AI agent skill for Jest 29/30 \u2014 28 rules: mocks, async, timers, snapshots, CI. Works with Claude Code, Cursor, Codex, Wi",
+    "id": "anivar/jest-skill",
+    "language": "\u2014",
+    "name": "anivar/jest-skill",
+    "stars": 9,
+    "updated_at": "2026-10-18T03:46:00Z",
+    "url": "https://github.com/anivar/jest-skill"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-18T03:45:35Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "\u95f2\u9c7c\u4e0a\u82b1\u94b1\u4e70\u7684 AI skill\uff0c\u5176\u5b9e\u8fd9\u91cc\u90fd\u80fd\u514d\u8d39\u4e0b\u8f7d \u00b7 5238 \u6761 / 33 \u4e2a\u804c\u4e1a AI Skills\u3001Agents\u3001Cursor Rules\u3001\u63d0\u793a\u8bcd",
     "id": "shinjiyu/awesome-all-profession-skills",
     "language": "Python",
@@ -25,15 +43,6 @@
     "stars": 23,
     "updated_at": "2026-10-18T03:30:56Z",
     "url": "https://github.com/anivar/zod-skill"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-18T03:30:45Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Community-voted AI prompts, CLAUDE.md/AGENTS.md templates, Cursor rules, Agent Skills and MCP servers from commandvault.",
@@ -104,7 +113,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 166315,
+    "stars": 166322,
     "updated_at": "2026-10-18T01:55:14Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -208,7 +217,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40981,
+    "stars": 40982,
     "updated_at": "2026-10-17T21:39:17Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -484,14 +493,5 @@
     "stars": 0,
     "updated_at": "2026-10-17T09:31:48Z",
     "url": "https://github.com/cLi09355/AIGX"
-  },
-  {
-    "description": "agent wiki +engineering skills ",
-    "id": "cedricgarcia51884/third-brain-v7-skills",
-    "language": "Python",
-    "name": "cedricgarcia51884/third-brain-v7-skills",
-    "stars": 0,
-    "updated_at": "2026-10-17T09:30:07Z",
-    "url": "https://github.com/cedricgarcia51884/third-brain-v7-skills"
   }
 ]
