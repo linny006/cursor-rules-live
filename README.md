@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-18 15:15 UTC
+> ⏰ Last updated: 2026-10-18 15:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -54,8 +54,8 @@ expired items removed — so you can rely on what you see being current.
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
 | 1 | [VenusOne-Lee/popia-compliance](https://github.com/VenusOne-Lee/popia-compliance) | 0 | Python | 2026-10-18 | — | Open-source POPIA privacy and security guardrails for South African builders, for every AI coding tool. |
-| 2 | [gabrieldcpaiva/not-optional](https://github.com/gabrieldcpaiva/not-optional) | 1 | Markdown | 2026-10-18 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/gabrieldcpaiva/not-optional/) | Accessibility is not a request. A practical, lived-experience toolkit for making digital products and printables usable  |
-| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-18 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-18 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 3 | [gabrieldcpaiva/not-optional](https://github.com/gabrieldcpaiva/not-optional) | 1 | Markdown | 2026-10-18 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/gabrieldcpaiva/not-optional/) | Accessibility is not a request. A practical, lived-experience toolkit for making digital products and printables usable  |
 | 4 | [acus9345/dsh-load-agent-rules](https://github.com/acus9345/dsh-load-agent-rules) | 2 | TypeScript | 2026-10-18 | — | DeepSeek Harness plugin that loads the Cursor, Copilot, Windsurf and other AI rule files your repo already has. |
 | 5 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-10-18 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
 | 6 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-10-18 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |

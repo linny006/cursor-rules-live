@@ -5,8 +5,17 @@
     "language": "Python",
     "name": "VenusOne-Lee/popia-compliance",
     "stars": 0,
-    "updated_at": "2026-10-18T15:15:04Z",
+    "updated_at": "2026-10-18T15:23:09Z",
     "url": "https://github.com/VenusOne-Lee/popia-compliance"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-18T15:15:58Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -21,15 +30,6 @@
     "stars": 1,
     "updated_at": "2026-10-18T15:06:24Z",
     "url": "https://github.com/gabrieldcpaiva/not-optional"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-18T15:00:38Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "DeepSeek Harness plugin that loads the Cursor, Copilot, Windsurf and other AI rule files your repo already has.",
