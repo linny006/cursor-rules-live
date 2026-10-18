@@ -5,8 +5,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-18T09:15:43Z",
+    "updated_at": "2026-10-18T09:24:24Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W-",
+    "id": "fluttersdk/wind",
+    "language": "Dart",
+    "name": "fluttersdk/wind",
+    "stars": 42,
+    "updated_at": "2026-10-18T09:24:22Z",
+    "url": "https://github.com/fluttersdk/wind"
   },
   {
     "description": "A checkup for your coding agent setup. Lints AGENTS.md, CLAUDE.md, SKILL.md, Cursor rules, Copilot instructions, MCP ser",
@@ -25,15 +34,6 @@
     "stars": 0,
     "updated_at": "2026-10-18T09:07:07Z",
     "url": "https://github.com/elirankotzero/ai-coding-rules-sampler"
-  },
-  {
-    "description": "Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W-",
-    "id": "fluttersdk/wind",
-    "language": "Dart",
-    "name": "fluttersdk/wind",
-    "stars": 42,
-    "updated_at": "2026-10-18T09:06:52Z",
-    "url": "https://github.com/fluttersdk/wind"
   },
   {
     "cursorrules": {
@@ -375,7 +375,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 166492,
+    "stars": 166494,
     "updated_at": "2026-10-18T01:55:14Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
