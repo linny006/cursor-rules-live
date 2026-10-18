@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-18 14:00 UTC
+> ⏰ Last updated: 2026-10-18 14:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,8 +53,8 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [VenusOne-Lee/popia-compliance](https://github.com/VenusOne-Lee/popia-compliance) | 0 | Python | 2026-10-18 | — | Open-source POPIA privacy and security guardrails for South African builders, for every AI coding tool. |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-18 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-18 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [VenusOne-Lee/popia-compliance](https://github.com/VenusOne-Lee/popia-compliance) | 0 | Python | 2026-10-18 | — | Open-source POPIA privacy and security guardrails for South African builders, for every AI coding tool. |
 | 3 | [LuciferDono/gap-scan](https://github.com/LuciferDono/gap-scan) | 0 | — | 2026-10-18 | — | Separates startup gaps that are real companies from features waiting to be cloned. Barred test (incumbent conflict) + Re |
 | 4 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-10-18 | — | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
 | 5 | [LuciferDono/persona](https://github.com/LuciferDono/persona) | 0 | — | 2026-10-18 | — | Persistent persona memory for Claude Code, Cursor, Codex, Copilot, Antigravity. Mesh-structured state survives context c |
