@@ -9,9 +9,18 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 166241,
-    "updated_at": "2026-10-18T00:26:56Z",
+    "stars": 166246,
+    "updated_at": "2026-10-18T00:44:25Z",
     "url": "https://github.com/DietrichGebert/ponytail"
+  },
+  {
+    "description": "Guard Lite - local, offline design-contract checker for AI-built UIs. Five named PPG rules (color, type size, type famil",
+    "id": "thedollartoolkit-boop/guard-lite",
+    "language": "JavaScript",
+    "name": "thedollartoolkit-boop/guard-lite",
+    "stars": 0,
+    "updated_at": "2026-10-18T00:40:03Z",
+    "url": "https://github.com/thedollartoolkit-boop/guard-lite"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -19,7 +28,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-18T00:22:18Z",
+    "updated_at": "2026-10-18T00:30:38Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -104,7 +113,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 40973,
+    "stars": 40974,
     "updated_at": "2026-10-17T21:39:17Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -169,7 +178,7 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 27,
-    "updated_at": "2026-10-17T20:58:06Z",
+    "updated_at": "2026-10-18T00:41:42Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
@@ -484,14 +493,5 @@
     "stars": 0,
     "updated_at": "2026-10-17T03:28:24Z",
     "url": "https://github.com/geronco/commandvault-library"
-  },
-  {
-    "description": "Agent skills, a Claude Code plugin and a Cursor rule that teach coding agents to add Groundmail transactional email to y",
-    "id": "Groundmail/groundmail-skills",
-    "language": "\u2014",
-    "name": "Groundmail/groundmail-skills",
-    "stars": 0,
-    "updated_at": "2026-10-17T00:42:09Z",
-    "url": "https://github.com/Groundmail/groundmail-skills"
   }
 ]
