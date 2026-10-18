@@ -1,11 +1,20 @@
 [
   {
+    "description": "Free private developer tools (JSON, JWT, cURL, cron, SSH keys) that run in your browser, plus AI Skill Studio: a CLAUDE.",
+    "id": "Saad-web-spec/DevScratchPad",
+    "language": "TypeScript",
+    "name": "Saad-web-spec/DevScratchPad",
+    "stars": 2,
+    "updated_at": "2026-10-18T12:09:43Z",
+    "url": "https://github.com/Saad-web-spec/DevScratchPad"
+  },
+  {
     "description": "Open-source POPIA privacy and security guardrails for South African builders, for every AI coding tool.",
     "id": "VenusOne-Lee/popia-compliance",
     "language": "Python",
     "name": "VenusOne-Lee/popia-compliance",
     "stars": 0,
-    "updated_at": "2026-10-18T11:51:00Z",
+    "updated_at": "2026-10-18T12:06:12Z",
     "url": "https://github.com/VenusOne-Lee/popia-compliance"
   },
   {
@@ -14,7 +23,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-18T11:45:56Z",
+    "updated_at": "2026-10-18T12:00:43Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -34,15 +43,6 @@
     "stars": 42,
     "updated_at": "2026-10-18T11:40:42Z",
     "url": "https://github.com/fluttersdk/wind"
-  },
-  {
-    "description": "Free private developer tools (JSON, JWT, cURL, cron, SSH keys) that run in your browser, plus AI Skill Studio: a CLAUDE.",
-    "id": "Saad-web-spec/DevScratchPad",
-    "language": "TypeScript",
-    "name": "Saad-web-spec/DevScratchPad",
-    "stars": 2,
-    "updated_at": "2026-10-18T11:39:39Z",
-    "url": "https://github.com/Saad-web-spec/DevScratchPad"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -447,7 +447,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 166600,
+    "stars": 166606,
     "updated_at": "2026-10-18T01:55:14Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
