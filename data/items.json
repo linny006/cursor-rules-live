@@ -1,5 +1,32 @@
 [
   {
+    "description": "AI agent skill for MSW 2.0 \u2014 20 rules: handler design, REST/GraphQL, test patterns. Works with Claude Code, Cursor, Code",
+    "id": "anivar/msw-skill",
+    "language": "\u2014",
+    "name": "anivar/msw-skill",
+    "stars": 1,
+    "updated_at": "2026-10-18T03:26:53Z",
+    "url": "https://github.com/anivar/msw-skill"
+  },
+  {
+    "description": "Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W-",
+    "id": "fluttersdk/wind",
+    "language": "Dart",
+    "name": "fluttersdk/wind",
+    "stars": 42,
+    "updated_at": "2026-10-18T03:17:45Z",
+    "url": "https://github.com/fluttersdk/wind"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-18T03:15:34Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: Apply strict accessibility and UI rules from the not-optional toolkit.\nglobs: \"**/*.{html,css,jsx,tsx,vue,svelte}\"\nalwaysApply: false\n---\n\n# not-optional accessibility rules\n\nWhen building or modifying UI components, strictly follow the rules defined in `agent-instructions.md`.\n\nKey requirements:\n- Use native semantic HTML elements; avoid ARIA unless a native element cannot express the state.\n- Ensure strict compliance with WCAG 2.1 AA for text contrast.\n- Implement explicit `:focus-visible` styles using the defined 3px width and 2px offset.\n- Adhere to micro-chunking laws: max 4 visual lines per chunk, max 45 words per body block, and 45-65 characters per line (max 75).\n- Use the design tokens from `principles/tokens.screen.json` or `principles/tokens.print-monochrome.json`.\n- Fail closed on critical violations.\n",
       "format": "mdc",
@@ -10,17 +37,8 @@
     "language": "Markdown",
     "name": "gabrieldcpaiva/not-optional",
     "stars": 1,
-    "updated_at": "2026-10-18T03:11:58Z",
+    "updated_at": "2026-10-18T03:23:08Z",
     "url": "https://github.com/gabrieldcpaiva/not-optional"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-18T03:00:31Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
@@ -50,7 +68,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 166302,
+    "stars": 166306,
     "updated_at": "2026-10-18T01:55:14Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -480,23 +498,5 @@
     "stars": 0,
     "updated_at": "2026-10-17T07:16:54Z",
     "url": "https://github.com/yRangel675/AIGX"
-  },
-  {
-    "description": "200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type",
-    "id": "PhilippeChevalier9571/MotionVault",
-    "language": "TypeScript",
-    "name": "PhilippeChevalier9571/MotionVault",
-    "stars": 0,
-    "updated_at": "2026-10-17T07:12:24Z",
-    "url": "https://github.com/PhilippeChevalier9571/MotionVault"
-  },
-  {
-    "description": "200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type",
-    "id": "borism0825/MotionVault",
-    "language": "TypeScript",
-    "name": "borism0825/MotionVault",
-    "stars": 0,
-    "updated_at": "2026-10-17T05:43:32Z",
-    "url": "https://github.com/borism0825/MotionVault"
   }
 ]
