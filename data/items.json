@@ -1,8 +1,17 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-19T21:00:45Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type",
     "id": "vikramk67023/MotionVault",
-    "language": "\u2014",
+    "language": "TypeScript",
     "name": "vikramk67023/MotionVault",
     "stars": 0,
     "updated_at": "2026-10-19T21:00:05Z",
@@ -25,15 +34,6 @@
     "stars": 0,
     "updated_at": "2026-10-19T20:53:02Z",
     "url": "https://github.com/VanessaHashimoto34/AIGX"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-19T20:45:43Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "agent wiki +engineering skills ",

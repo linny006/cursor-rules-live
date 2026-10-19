@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-19 21:00 UTC
+> ⏰ Last updated: 2026-10-19 21:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,10 +53,10 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [vikramk67023/MotionVault](https://github.com/vikramk67023/MotionVault) | 0 | — | 2026-10-19 | — | 200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type |
-| 2 | [Helen4969/MotionVault](https://github.com/Helen4969/MotionVault) | 0 | TypeScript | 2026-10-19 | — | 200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type |
-| 3 | [VanessaHashimoto34/AIGX](https://github.com/VanessaHashimoto34/AIGX) | 0 | Python | 2026-10-19 | — | Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig |
-| 4 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-19 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-19 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [vikramk67023/MotionVault](https://github.com/vikramk67023/MotionVault) | 0 | TypeScript | 2026-10-19 | — | 200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type |
+| 3 | [Helen4969/MotionVault](https://github.com/Helen4969/MotionVault) | 0 | TypeScript | 2026-10-19 | — | 200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type |
+| 4 | [VanessaHashimoto34/AIGX](https://github.com/VanessaHashimoto34/AIGX) | 0 | Python | 2026-10-19 | — | Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig |
 | 5 | [mariarossi20/third-brain-v7-skills](https://github.com/mariarossi20/third-brain-v7-skills) | 0 | Python | 2026-10-19 | — | agent wiki +engineering skills  |
 | 6 | [Erkan042/rollinggo-hotel-skill-cn](https://github.com/Erkan042/rollinggo-hotel-skill-cn) | 0 | Python | 2026-10-19 | — | 全球酒店预订&低价监控提醒Skill，200万+精选酒店，独家优惠价格，让你的Agent轻松预订品质酒店，支持支付宝下单+查询历史订单，24 小时客服支持，全天候响应。 |
 | 7 | [ftruong66527/rollinggo-hotel-skill-cn](https://github.com/ftruong66527/rollinggo-hotel-skill-cn) | 0 | Python | 2026-10-19 | — | 全球酒店预订&低价监控提醒Skill，200万+精选酒店，独家优惠价格，让你的Agent轻松预订品质酒店，支持支付宝下单+查询历史订单，24 小时客服支持，全天候响应。 |
