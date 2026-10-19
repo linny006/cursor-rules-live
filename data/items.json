@@ -1,5 +1,41 @@
 [
   {
+    "description": "200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type",
+    "id": "vikramk67023/MotionVault",
+    "language": "\u2014",
+    "name": "vikramk67023/MotionVault",
+    "stars": 0,
+    "updated_at": "2026-10-19T21:00:05Z",
+    "url": "https://github.com/vikramk67023/MotionVault"
+  },
+  {
+    "description": "200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type",
+    "id": "Helen4969/MotionVault",
+    "language": "TypeScript",
+    "name": "Helen4969/MotionVault",
+    "stars": 0,
+    "updated_at": "2026-10-19T20:58:30Z",
+    "url": "https://github.com/Helen4969/MotionVault"
+  },
+  {
+    "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
+    "id": "VanessaHashimoto34/AIGX",
+    "language": "Python",
+    "name": "VanessaHashimoto34/AIGX",
+    "stars": 0,
+    "updated_at": "2026-10-19T20:53:02Z",
+    "url": "https://github.com/VanessaHashimoto34/AIGX"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-19T20:45:43Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "agent wiki +engineering skills ",
     "id": "mariarossi20/third-brain-v7-skills",
     "language": "Python",
@@ -34,15 +70,6 @@
     "stars": 0,
     "updated_at": "2026-10-19T20:37:07Z",
     "url": "https://github.com/Dang9584/MotionVault"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-19T20:30:48Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -113,7 +140,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 41148,
+    "stars": 41150,
     "updated_at": "2026-10-19T18:28:14Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -476,42 +503,5 @@
     "stars": 0,
     "updated_at": "2026-10-19T01:26:30Z",
     "url": "https://github.com/scoyoc5/godot-ai-agent-rules"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Core rules for all Unity C# work in this project\nglobs:\nalwaysApply: true\n---\n# Unity Core Rules\n\n## Know the project before writing code\n- Read `ProjectSettings/ProjectVersion.txt` for the Unity version (`m_EditorVersion`). Never emit APIs newer than that version.\n- Read `Packages/manifest.json` before using any package API (Input System, TextMeshPro, Cinemachine, URP, Addressables, Netcode). If a package is missing, say so and ask. Do not assume it is installed.\n- Read `docs/PROJECT.md` and `docs/ARCHITECTURE.md` if they exist. Follow their conventions over your defaults.\n- Check for `.asmdef` files. If code goes into an assembly, make sure that assembly references what the code uses.\n\n## Never invent APIs\n- Use only Unity APIs you are certain exist in the project's Unity version. If you are not sure, say \"unverified\" and link the Scripting API page (https://docs.unity3d.com/ScriptReference/). Don't guess.\n- Common hallucinations to avoid: `GameObject.FindByTag` (real: `GameObject.FindWithTag` / `FindGameObjectsWithTag`), `transform.GetChildByName` (real: `transform.Find`), `Input.GetAction`, `Rigidbody.AddVelocity`, `Vector3.Clamp`, `Destroy(obj, immediate: true)`.\n\n## Complete, compilable output\n- Write complete files with every `using` directive they need, the namespace, and class braces. Don't write `// ...rest unchanged` stubs unless the user asked for a diff.\n- The file name must match the `MonoBehaviour`/`ScriptableObject` class name, or Unity cannot attach it.\n- After editing, run the verification loop in `docs/VERIFY.md` (or ask the user to check the Console) before calling the task done.\n\n## Scope discipline\n- Change only what the task needs. Never delete or rename existing public members, serialized fields, or files without flagging it first. Renaming a serialized field loses inspector data; see `03-serialization.mdc`.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/00-unity-core.mdc"
-    },
-    "description": "Free Cursor rules + AGENTS.md that stop AI (Cursor, Claude Code, ChatGPT) from writing broken Unity C#: missing usings, ",
-    "id": "scoyoc5/unity-ai-agent-rules",
-    "language": "\u2014",
-    "name": "scoyoc5/unity-ai-agent-rules",
-    "stars": 2,
-    "updated_at": "2026-10-19T01:26:29Z",
-    "url": "https://github.com/scoyoc5/unity-ai-agent-rules"
-  },
-  {
-    "description": "Universal AI Agent Super-Skills Ecosystem by Mr. Vishalkumar Joshi. 161 production-grade plain-text prompt protocols wit",
-    "id": "mrvishaljjoshi-cmyk/VJSS",
-    "language": "Python",
-    "name": "mrvishaljjoshi-cmyk/VJSS",
-    "stars": 0,
-    "updated_at": "2026-10-19T01:19:34Z",
-    "url": "https://github.com/mrvishaljjoshi-cmyk/VJSS"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Write instructions for models as positive targets, and rebuild a section when something is removed from it.\nglobs:\nalwaysApply: true\n---\n\n# Writing instructions for models\n\nThese habits apply whenever you write or edit text that another model will follow: prompts, system prompts, skills, rules, `CLAUDE.md`, and `AGENTS.md`.\n\n- Describe the behavior you want. Name the target with a number, a scope, or a concrete alternative: \"Answer in under 100 words.\" \"Cite sources from A, B, and C.\" \"Verify changes with `npm run typecheck`.\"\n- When asked to take something out of instruction text, delete every sentence about it, then rebuild the section from a short brief of what the text covers now. The finished section reads as if it was written that way from the start.\n- State each rule once, as one calm, plain sentence. That is the form a model gives the most weight.\n- Keep genuine limits on irreversible actions, security, privacy, and legal boundaries. State each one once, next to the instruction it guards, with the reason and a fallback: \"Ask before force-pushing, because it rewrites shared history.\"\n- For a full audit of a file, with parallel subagent reviewers and a leak check on the rewrite, run `/pink-elephant <file>`.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/pink-elephant.mdc"
-    },
-    "description": "Your prompt says 'don't mention billing.' Your agent mentions billing. Pink Elephant finds the don'ts in prompts, skills",
-    "id": "shahshrey/pink-elephant",
-    "language": "Python",
-    "name": "shahshrey/pink-elephant",
-    "stars": 0,
-    "updated_at": "2026-10-19T00:17:33Z",
-    "url": "https://github.com/shahshrey/pink-elephant"
   }
 ]
