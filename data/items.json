@@ -1,12 +1,21 @@
 [
   {
-    "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
-    "id": "bompus/house-rules",
-    "language": "JavaScript",
-    "name": "bompus/house-rules",
-    "stars": 2,
-    "updated_at": "2026-10-19T05:43:42Z",
-    "url": "https://github.com/bompus/house-rules"
+    "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
+    "id": "SandraTrivedi999/AIGX",
+    "language": "Python",
+    "name": "SandraTrivedi999/AIGX",
+    "stars": 0,
+    "updated_at": "2026-10-19T05:55:18Z",
+    "url": "https://github.com/SandraTrivedi999/AIGX"
+  },
+  {
+    "description": "200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type",
+    "id": "trankumar/MotionVault",
+    "language": "TypeScript",
+    "name": "trankumar/MotionVault",
+    "stars": 0,
+    "updated_at": "2026-10-19T05:53:54Z",
+    "url": "https://github.com/trankumar/MotionVault"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +23,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-19T05:30:44Z",
+    "updated_at": "2026-10-19T05:45:35Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
+    "id": "bompus/house-rules",
+    "language": "JavaScript",
+    "name": "bompus/house-rules",
+    "stars": 2,
+    "updated_at": "2026-10-19T05:56:27Z",
+    "url": "https://github.com/bompus/house-rules"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -123,7 +141,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 41038,
+    "stars": 41039,
     "updated_at": "2026-10-19T01:07:28Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -475,23 +493,5 @@
     "stars": 0,
     "updated_at": "2026-10-18T10:22:02Z",
     "url": "https://github.com/mustafakbaser/agentcheckup"
-  },
-  {
-    "description": "\u26a1 Production-grade skills and automated workflows for AI coding agents (Antigravity, Claude Code, Cursor, Copilot & MCP)",
-    "id": "Anmolop97/Agent-Skills",
-    "language": "Python",
-    "name": "Anmolop97/Agent-Skills",
-    "stars": 0,
-    "updated_at": "2026-10-18T10:13:36Z",
-    "url": "https://github.com/Anmolop97/Agent-Skills"
-  },
-  {
-    "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
-    "id": "Moreno11494/AIGX",
-    "language": "Python",
-    "name": "Moreno11494/AIGX",
-    "stars": 0,
-    "updated_at": "2026-10-18T09:41:21Z",
-    "url": "https://github.com/Moreno11494/AIGX"
   }
 ]
