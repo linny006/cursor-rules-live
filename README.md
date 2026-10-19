@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-19 15:46 UTC
+> ⏰ Last updated: 2026-10-19 16:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -64,7 +64,7 @@ expired items removed — so you can rely on what you see being current.
 | 9 | [anpheros/agent-skills](https://github.com/anpheros/agent-skills) | 0 | — | 2026-10-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/anpheros/agent-skills/) | Connect AI coding agents to a FHIR R4 health-data API: MCP server config, Agent Skill, Claude Code plugin, Cursor rules  |
 | 10 | [Anurakv96/rollinggo-hotel-skill-cn](https://github.com/Anurakv96/rollinggo-hotel-skill-cn) | 0 | Python | 2026-10-19 | — | 全球酒店预订&低价监控提醒Skill，200万+精选酒店，独家优惠价格，让你的Agent轻松预订品质酒店，支持支付宝下单+查询历史订单，24 小时客服支持，全天候响应。 |
 | 11 | [sYoon78247/MotionVault](https://github.com/sYoon78247/MotionVault) | 0 | TypeScript | 2026-10-19 | — | 200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type |
-| 12 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 21371 | Shell | 2026-10-19 | — | 🎭 277 个即插即用的 AI 专家角色 — 支持 Claude Code/Cursor/Copilot 等 20 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 64 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉/Qt 上 |
+| 12 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 21372 | Shell | 2026-10-19 | — | 🎭 277 个即插即用的 AI 专家角色 — 支持 Claude Code/Cursor/Copilot 等 20 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 64 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉/Qt 上 |
 | 13 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-10-19 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
 | 14 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-10-19 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
 | 15 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 28 | Python | 2026-10-19 | — | Architectural drift prevention for the agentic AI SDLC. |
@@ -90,7 +90,7 @@ expired items removed — so you can rely on what you see being current.
 | 35 | [scoyoc5/godot-ai-agent-rules](https://github.com/scoyoc5/godot-ai-agent-rules) | 0 | — | 2026-10-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/scoyoc5/godot-ai-agent-rules/) | Free Cursor rules + AGENTS.md that stop AI (Cursor, Claude Code, ChatGPT) from writing Godot 3 code in Godot 4 projects: |
 | 36 | [scoyoc5/unity-ai-agent-rules](https://github.com/scoyoc5/unity-ai-agent-rules) | 2 | — | 2026-10-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/scoyoc5/unity-ai-agent-rules/) | Free Cursor rules + AGENTS.md that stop AI (Cursor, Claude Code, ChatGPT) from writing broken Unity C#: missing usings,  |
 | 37 | [mrvishaljjoshi-cmyk/VJSS](https://github.com/mrvishaljjoshi-cmyk/VJSS) | 0 | Python | 2026-10-19 | — | Universal AI Agent Super-Skills Ecosystem by Mr. Vishalkumar Joshi. 161 production-grade plain-text prompt protocols wit |
-| 38 | [wshobson/agents](https://github.com/wshobson/agents) | 41116 | Python | 2026-10-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
+| 38 | [wshobson/agents](https://github.com/wshobson/agents) | 41120 | Python | 2026-10-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
 | 39 | [shahshrey/pink-elephant](https://github.com/shahshrey/pink-elephant) | 0 | Python | 2026-10-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/shahshrey/pink-elephant/) | Your prompt says 'don't mention billing.' Your agent mentions billing. Pink Elephant finds the don'ts in prompts, skills |
 | 40 | [manya-5/design-agent-config](https://github.com/manya-5/design-agent-config) | 0 | Shell | 2026-10-18 | — | My Cursor rules and Claude Code setup for designing in code. |
 | 41 | [thedollartoolkit-boop/guard-lite](https://github.com/thedollartoolkit-boop/guard-lite) | 0 | JavaScript | 2026-10-18 | — | Guard Lite - local, offline design-contract checker for AI-built UIs. Five named PPG rules (color, type size, type famil |
