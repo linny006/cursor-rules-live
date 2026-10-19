@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-19 17:00 UTC
+> ⏰ Last updated: 2026-10-19 17:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -92,7 +92,7 @@ expired items removed — so you can rely on what you see being current.
 | 37 | [scoyoc5/godot-ai-agent-rules](https://github.com/scoyoc5/godot-ai-agent-rules) | 0 | — | 2026-10-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/scoyoc5/godot-ai-agent-rules/) | Free Cursor rules + AGENTS.md that stop AI (Cursor, Claude Code, ChatGPT) from writing Godot 3 code in Godot 4 projects: |
 | 38 | [scoyoc5/unity-ai-agent-rules](https://github.com/scoyoc5/unity-ai-agent-rules) | 2 | — | 2026-10-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/scoyoc5/unity-ai-agent-rules/) | Free Cursor rules + AGENTS.md that stop AI (Cursor, Claude Code, ChatGPT) from writing broken Unity C#: missing usings,  |
 | 39 | [mrvishaljjoshi-cmyk/VJSS](https://github.com/mrvishaljjoshi-cmyk/VJSS) | 0 | Python | 2026-10-19 | — | Universal AI Agent Super-Skills Ecosystem by Mr. Vishalkumar Joshi. 161 production-grade plain-text prompt protocols wit |
-| 40 | [wshobson/agents](https://github.com/wshobson/agents) | 41127 | Python | 2026-10-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
+| 40 | [wshobson/agents](https://github.com/wshobson/agents) | 41128 | Python | 2026-10-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
 | 41 | [shahshrey/pink-elephant](https://github.com/shahshrey/pink-elephant) | 0 | Python | 2026-10-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/shahshrey/pink-elephant/) | Your prompt says 'don't mention billing.' Your agent mentions billing. Pink Elephant finds the don'ts in prompts, skills |
 | 42 | [manya-5/design-agent-config](https://github.com/manya-5/design-agent-config) | 0 | Shell | 2026-10-18 | — | My Cursor rules and Claude Code setup for designing in code. |
 | 43 | [thedollartoolkit-boop/guard-lite](https://github.com/thedollartoolkit-boop/guard-lite) | 0 | JavaScript | 2026-10-18 | — | Guard Lite - local, offline design-contract checker for AI-built UIs. Five named PPG rules (color, type size, type famil |
