@@ -1,21 +1,21 @@
 [
   {
-    "description": "\ud83c\uddee\ud83c\uddf7 Universal Persian (Farsi) typography, RTL direction, and BiDi formatting standards for AI coding agents (Antigravity,",
-    "id": "amir-hdri/awesome-persian-ai-rules",
-    "language": "Shell",
-    "name": "amir-hdri/awesome-persian-ai-rules",
-    "stars": 0,
-    "updated_at": "2026-10-19T09:04:12Z",
-    "url": "https://github.com/amir-hdri/awesome-persian-ai-rules"
+    "description": "Auto harness engineering meta-repo: discuss \u2192 curate \u2192 bootstrap a context-engineered project for Claude Code, Cursor, C",
+    "id": "glowElephant/context-forge",
+    "language": "Python",
+    "name": "glowElephant/context-forge",
+    "stars": 2,
+    "updated_at": "2026-10-19T09:23:17Z",
+    "url": "https://github.com/glowElephant/context-forge"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-19T09:00:37Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 50,
+    "updated_at": "2026-10-19T09:21:56Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "description": "Architectural drift prevention for the agentic AI SDLC.",
@@ -23,8 +23,26 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 28,
-    "updated_at": "2026-10-19T09:10:40Z",
+    "updated_at": "2026-10-19T09:28:49Z",
     "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-19T09:15:41Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\ud83c\uddee\ud83c\uddf7 Universal Persian (Farsi) typography, RTL direction, and BiDi formatting standards for AI coding agents (Antigravity,",
+    "id": "amir-hdri/awesome-persian-ai-rules",
+    "language": "Shell",
+    "name": "amir-hdri/awesome-persian-ai-rules",
+    "stars": 1,
+    "updated_at": "2026-10-19T09:04:12Z",
+    "url": "https://github.com/amir-hdri/awesome-persian-ai-rules"
   },
   {
     "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
@@ -264,15 +282,6 @@
     "url": "https://github.com/thedollartoolkit-boop/guard-lite"
   },
   {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 50,
-    "updated_at": "2026-10-18T21:44:25Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
     "description": "Battle-tested agent skills and Cursor rules from real projects. Works with Cursor, Claude Code, and any agent.",
     "id": "jcottam/agent-resources",
     "language": "Shell",
@@ -484,14 +493,5 @@
     "stars": 0,
     "updated_at": "2026-10-18T13:19:37Z",
     "url": "https://github.com/LuciferDono/gap-scan"
-  },
-  {
-    "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
-    "id": "agenticstandardcontact-byte/agentic-architect",
-    "language": "HTML",
-    "name": "agenticstandardcontact-byte/agentic-architect",
-    "stars": 0,
-    "updated_at": "2026-10-18T13:16:22Z",
-    "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
   }
 ]
