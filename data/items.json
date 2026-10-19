@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-19T15:30:57Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam",
     "id": "eli-alvarado/agentkit-drawer",
     "language": "\u2014",
@@ -7,15 +16,6 @@
     "stars": 0,
     "updated_at": "2026-10-19T15:22:52Z",
     "url": "https://github.com/eli-alvarado/agentkit-drawer"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-19T15:15:44Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -37,7 +37,7 @@
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 2,
-    "updated_at": "2026-10-19T15:18:57Z",
+    "updated_at": "2026-10-19T15:33:33Z",
     "url": "https://github.com/bompus/house-rules"
   },
   {
@@ -113,7 +113,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21369,
+    "stars": 21371,
     "updated_at": "2026-10-19T14:34:55Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -377,7 +377,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 41114,
+    "stars": 41116,
     "updated_at": "2026-10-19T01:07:28Z",
     "url": "https://github.com/wshobson/agents"
   },
