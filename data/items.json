@@ -1,5 +1,32 @@
 [
   {
+    "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
+    "id": "agenticstandardcontact-byte/agentic-architect",
+    "language": "HTML",
+    "name": "agenticstandardcontact-byte/agentic-architect",
+    "stars": 0,
+    "updated_at": "2026-10-19T16:27:04Z",
+    "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
+  },
+  {
+    "description": "\u2692\ufe0f Skillforge: Zero-Daemon Rust Book-to-Skill Compiler, Progressive Skill Router & First-Class DeepSeek Harness (DSH) Co",
+    "id": "rachitdev/skillforge",
+    "language": "Rust",
+    "name": "rachitdev/skillforge",
+    "stars": 1,
+    "updated_at": "2026-10-19T16:25:20Z",
+    "url": "https://github.com/rachitdev/skillforge"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-19T16:15:35Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Open-source POPIA privacy and security guardrails for South African builders, for every AI coding tool.",
     "id": "VenusOne-Lee/popia-compliance",
     "language": "Python",
@@ -16,15 +43,6 @@
     "stars": 2,
     "updated_at": "2026-10-19T16:11:08Z",
     "url": "https://github.com/bompus/house-rules"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-19T16:00:41Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam",
@@ -113,7 +131,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21373,
+    "stars": 21375,
     "updated_at": "2026-10-19T14:34:55Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -141,7 +159,7 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 28,
-    "updated_at": "2026-10-19T16:12:26Z",
+    "updated_at": "2026-10-19T16:28:35Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
@@ -368,7 +386,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 41120,
+    "stars": 41123,
     "updated_at": "2026-10-19T01:07:28Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -432,7 +450,7 @@
     "id": "roedyrustam/vibes-plug",
     "language": "JavaScript",
     "name": "roedyrustam/vibes-plug",
-    "stars": 78,
+    "stars": 79,
     "updated_at": "2026-10-18T20:27:37Z",
     "url": "https://github.com/roedyrustam/vibes-plug"
   },
@@ -480,23 +498,5 @@
     "stars": 0,
     "updated_at": "2026-10-18T19:55:15Z",
     "url": "https://github.com/Gabriele51645/MotionVault"
-  },
-  {
-    "description": "agent wiki +engineering skills ",
-    "id": "ChenleNguyen969/third-brain-v7-skills",
-    "language": "Python",
-    "name": "ChenleNguyen969/third-brain-v7-skills",
-    "stars": 0,
-    "updated_at": "2026-10-18T19:48:09Z",
-    "url": "https://github.com/ChenleNguyen969/third-brain-v7-skills"
-  },
-  {
-    "description": "\u5168\u7403\u9152\u5e97\u9884\u8ba2&\u4f4e\u4ef7\u76d1\u63a7\u63d0\u9192Skill\uff0c200\u4e07+\u7cbe\u9009\u9152\u5e97\uff0c\u72ec\u5bb6\u4f18\u60e0\u4ef7\u683c\uff0c\u8ba9\u4f60\u7684Agent\u8f7b\u677e\u9884\u8ba2\u54c1\u8d28\u9152\u5e97\uff0c\u652f\u6301\u652f\u4ed8\u5b9d\u4e0b\u5355+\u67e5\u8be2\u5386\u53f2\u8ba2\u5355\uff0c24 \u5c0f\u65f6\u5ba2\u670d\u652f\u6301\uff0c\u5168\u5929\u5019\u54cd\u5e94\u3002",
-    "id": "yuriishii65914/rollinggo-hotel-skill-cn",
-    "language": "Python",
-    "name": "yuriishii65914/rollinggo-hotel-skill-cn",
-    "stars": 0,
-    "updated_at": "2026-10-18T19:38:58Z",
-    "url": "https://github.com/yuriishii65914/rollinggo-hotel-skill-cn"
   }
 ]
