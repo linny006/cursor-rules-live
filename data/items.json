@@ -1,12 +1,62 @@
 [
   {
-    "description": "\ud83c\udfad 277 \u4e2a\u5373\u63d2\u5373\u7528\u7684 AI \u4e13\u5bb6\u89d2\u8272 \u2014 \u652f\u6301 Claude Code/Cursor/Copilot \u7b49 20 \u79cd\u5de5\u5177\uff0c\u8986\u76d6\u5de5\u7a0b/\u8bbe\u8ba1/\u8425\u9500/\u91d1\u878d\u7b49 20 \u4e2a\u90e8\u95e8\u3002\u542b 64 \u4e2a\u4e2d\u56fd\u5e02\u573a\u539f\u521b\u667a\u80fd\u4f53\uff08\u5c0f\u7ea2\u4e66/\u6296\u97f3/\u5fae\u4fe1/\u98de\u4e66/\u9489\u9489/Qt \u4e0a",
-    "id": "jnMetaCode/agency-agents-zh",
+    "description": "Battle-tested agent skills and Cursor rules from real projects. Works with Cursor, Claude Code, and any agent.",
+    "id": "jcottam/agent-resources",
     "language": "Shell",
-    "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21366,
-    "updated_at": "2026-10-19T14:34:55Z",
-    "url": "https://github.com/jnMetaCode/agency-agents-zh"
+    "name": "jcottam/agent-resources",
+    "stars": 29,
+    "updated_at": "2026-10-19T14:59:48Z",
+    "url": "https://github.com/jcottam/agent-resources"
+  },
+  {
+    "description": "Open-source POPIA privacy and security guardrails for South African builders, for every AI coding tool.",
+    "id": "VenusOne-Lee/popia-compliance",
+    "language": "Python",
+    "name": "VenusOne-Lee/popia-compliance",
+    "stars": 7,
+    "updated_at": "2026-10-19T14:59:13Z",
+    "url": "https://github.com/VenusOne-Lee/popia-compliance"
+  },
+  {
+    "description": "\u5168\u7403\u9152\u5e97\u9884\u8ba2&\u4f4e\u4ef7\u76d1\u63a7\u63d0\u9192Skill\uff0c200\u4e07+\u7cbe\u9009\u9152\u5e97\uff0c\u72ec\u5bb6\u4f18\u60e0\u4ef7\u683c\uff0c\u8ba9\u4f60\u7684Agent\u8f7b\u677e\u9884\u8ba2\u54c1\u8d28\u9152\u5e97\uff0c\u652f\u6301\u652f\u4ed8\u5b9d\u4e0b\u5355+\u67e5\u8be2\u5386\u53f2\u8ba2\u5355\uff0c24 \u5c0f\u65f6\u5ba2\u670d\u652f\u6301\uff0c\u5168\u5929\u5019\u54cd\u5e94\u3002",
+    "id": "cemschulz/rollinggo-hotel-skill-cn",
+    "language": "Python",
+    "name": "cemschulz/rollinggo-hotel-skill-cn",
+    "stars": 0,
+    "updated_at": "2026-10-19T14:59:02Z",
+    "url": "https://github.com/cemschulz/rollinggo-hotel-skill-cn"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Rules for code that uses the Anpheros health-data backend (FHIR R4, patient consent, sandbox)\nglobs:\nalwaysApply: false\n---\n\nWhen this project stores or reads health data through Anpheros (https://platform.anpheros.com):\n\n- Use the sandbox (`sk_test_` keys, synthetic patients) for development; read the key from `ANPHEROS_KEY`; never\n  commit `sk_live_` keys or put real patient data in the sandbox.\n- Never invent LOINC, SNOMED CT, ICD-10, ICD-11, ATC or RxNorm codes: look them up (`GET /v1/search?q=\u2026`) or leave\n  them out. Units are UCUM.\n- A person's existing record is reached only with their consent (SMART on FHIR / OAuth 2.1 + PKCE). Treat `403` as\n  \"ask for more consent\", never as something to bypass.\n- Every write says its author (`author_type`); model-written data uses `author_type: \"ai\"`.\n- The app shows records and patterns; it does not diagnose or recommend treatment.\n- Store clinical data as FHIR R4 resources, not custom JSON. Ids are the same in `/v1` and `/fhir/R4`.\n\nDocs: https://developers.anpheros.com/guides/ \u00b7 Docs MCP (no account): https://platform.anpheros.com/mcp/docs \u00b7\nFull skill: `skills/anpheros-health-backend/SKILL.md`\n",
+      "format": "mdc",
+      "path": ".cursor/rules/anpheros.mdc"
+    },
+    "description": "Connect AI coding agents to a FHIR R4 health-data API: MCP server config, Agent Skill, Claude Code plugin, Cursor rules ",
+    "id": "anpheros/agent-skills",
+    "language": "\u2014",
+    "name": "anpheros/agent-skills",
+    "stars": 0,
+    "updated_at": "2026-10-19T14:52:52Z",
+    "url": "https://github.com/anpheros/agent-skills"
+  },
+  {
+    "description": "\u5168\u7403\u9152\u5e97\u9884\u8ba2&\u4f4e\u4ef7\u76d1\u63a7\u63d0\u9192Skill\uff0c200\u4e07+\u7cbe\u9009\u9152\u5e97\uff0c\u72ec\u5bb6\u4f18\u60e0\u4ef7\u683c\uff0c\u8ba9\u4f60\u7684Agent\u8f7b\u677e\u9884\u8ba2\u54c1\u8d28\u9152\u5e97\uff0c\u652f\u6301\u652f\u4ed8\u5b9d\u4e0b\u5355+\u67e5\u8be2\u5386\u53f2\u8ba2\u5355\uff0c24 \u5c0f\u65f6\u5ba2\u670d\u652f\u6301\uff0c\u5168\u5929\u5019\u54cd\u5e94\u3002",
+    "id": "Anurakv96/rollinggo-hotel-skill-cn",
+    "language": "Python",
+    "name": "Anurakv96/rollinggo-hotel-skill-cn",
+    "stars": 0,
+    "updated_at": "2026-10-19T14:51:48Z",
+    "url": "https://github.com/Anurakv96/rollinggo-hotel-skill-cn"
+  },
+  {
+    "description": "200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type",
+    "id": "sYoon78247/MotionVault",
+    "language": "TypeScript",
+    "name": "sYoon78247/MotionVault",
+    "stars": 0,
+    "updated_at": "2026-10-19T14:49:45Z",
+    "url": "https://github.com/sYoon78247/MotionVault"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +64,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-19T14:30:49Z",
+    "updated_at": "2026-10-19T14:45:47Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\ud83c\udfad 277 \u4e2a\u5373\u63d2\u5373\u7528\u7684 AI \u4e13\u5bb6\u89d2\u8272 \u2014 \u652f\u6301 Claude Code/Cursor/Copilot \u7b49 20 \u79cd\u5de5\u5177\uff0c\u8986\u76d6\u5de5\u7a0b/\u8bbe\u8ba1/\u8425\u9500/\u91d1\u878d\u7b49 20 \u4e2a\u90e8\u95e8\u3002\u542b 64 \u4e2a\u4e2d\u56fd\u5e02\u573a\u539f\u521b\u667a\u80fd\u4f53\uff08\u5c0f\u7ea2\u4e66/\u6296\u97f3/\u5fae\u4fe1/\u98de\u4e66/\u9489\u9489/Qt \u4e0a",
+    "id": "jnMetaCode/agency-agents-zh",
+    "language": "Shell",
+    "name": "jnMetaCode/agency-agents-zh",
+    "stars": 21367,
+    "updated_at": "2026-10-19T14:34:55Z",
+    "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -61,15 +120,6 @@
     "stars": 0,
     "updated_at": "2026-10-19T13:24:04Z",
     "url": "https://github.com/otctrading101/shiprules-free"
-  },
-  {
-    "description": "Open-source POPIA privacy and security guardrails for South African builders, for every AI coding tool.",
-    "id": "VenusOne-Lee/popia-compliance",
-    "language": "Python",
-    "name": "VenusOne-Lee/popia-compliance",
-    "stars": 6,
-    "updated_at": "2026-10-19T14:39:21Z",
-    "url": "https://github.com/VenusOne-Lee/popia-compliance"
   },
   {
     "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
@@ -304,7 +354,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 41110,
+    "stars": 41111,
     "updated_at": "2026-10-19T01:07:28Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -339,15 +389,6 @@
     "stars": 0,
     "updated_at": "2026-10-18T21:55:09Z",
     "url": "https://github.com/thedollartoolkit-boop/guard-lite"
-  },
-  {
-    "description": "Battle-tested agent skills and Cursor rules from real projects. Works with Cursor, Claude Code, and any agent.",
-    "id": "jcottam/agent-resources",
-    "language": "Shell",
-    "name": "jcottam/agent-resources",
-    "stars": 29,
-    "updated_at": "2026-10-19T14:43:38Z",
-    "url": "https://github.com/jcottam/agent-resources"
   },
   {
     "description": "agent wiki +engineering skills ",
@@ -452,46 +493,5 @@
     "stars": 0,
     "updated_at": "2026-10-18T19:26:47Z",
     "url": "https://github.com/pabloroberts/rollinggo-hotel-skill-cn"
-  },
-  {
-    "description": "\u2692\ufe0f Skillforge: Zero-Daemon Rust Book-to-Skill Compiler, Progressive Skill Router & First-Class DeepSeek Harness (DSH) Co",
-    "id": "rachitdev/skillforge",
-    "language": "Rust",
-    "name": "rachitdev/skillforge",
-    "stars": 1,
-    "updated_at": "2026-10-18T19:13:19Z",
-    "url": "https://github.com/rachitdev/skillforge"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Core working agreement for the AI agent on every task\nalwaysApply: true\n---\n\n# How to work in this repo\n\n## Before coding\n- Read the files you will change and their nearest tests before editing. Never guess an API that exists in the repo; search for it.\n- Check `package.json` / `pyproject.toml` / lockfiles for real framework versions and write code for THOSE versions.\n- For anything non-trivial (>1 file or >50 lines), state a short plan first: files to touch, approach, how you'll verify.\n- If requirements are ambiguous, ask one focused question instead of inventing behaviour.\n\n## While coding\n- Make the smallest change that solves the task. No drive-by refactors, renames or formatting of unrelated code.\n- Follow existing patterns in the codebase (naming, folder layout, error handling) over your own preferences.\n- Do not add a dependency without saying why and checking an existing one can't do it.\n- Never hardcode secrets, API keys or tokens. Use env vars and update `.env.example`.\n- Never silence errors (`catch {}`, `# type: ignore`, `as any`, `@ts-ignore`) to make something \"work\". Fix the cause or flag it.\n- Do not delete or weaken tests to make them pass.\n\n## After coding\n- Run the project's typecheck, lint and relevant tests; fix what you broke. If you couldn't run them, say so.\n- Summarise: what changed, why, how it was verified, and anything left undone or risky.\n\n## Never without explicit approval\n- Destructive commands (`rm -rf`, `git push --force`, `git reset --hard`, dropping tables, DB resets).\n- Editing generated files, lockfiles by hand, CI config, or migrations that already ran.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/00-general.mdc"
-    },
-    "description": "Free Cursor rules (.mdc), AGENTS.md & CLAUDE.md templates and prompts for AI coding agents: Next.js + Supabase, Godot 4.",
-    "id": "grizzlykiwidev/grizzlykiwidev.github.io",
-    "language": "\u2014",
-    "name": "grizzlykiwidev/grizzlykiwidev.github.io",
-    "stars": 0,
-    "updated_at": "2026-10-18T18:01:48Z",
-    "url": "https://github.com/grizzlykiwidev/grizzlykiwidev.github.io"
-  },
-  {
-    "description": "Free private developer tools (JSON, JWT, cURL, cron, SSH keys) that run in your browser, plus AI Skill Studio: a CLAUDE.",
-    "id": "Saad-web-spec/DevScratchPad",
-    "language": "TypeScript",
-    "name": "Saad-web-spec/DevScratchPad",
-    "stars": 2,
-    "updated_at": "2026-10-18T17:05:33Z",
-    "url": "https://github.com/Saad-web-spec/DevScratchPad"
-  },
-  {
-    "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
-    "id": "PhilippeLefevre164/AIGX",
-    "language": "Python",
-    "name": "PhilippeLefevre164/AIGX",
-    "stars": 0,
-    "updated_at": "2026-10-18T15:45:16Z",
-    "url": "https://github.com/PhilippeLefevre164/AIGX"
   }
 ]
