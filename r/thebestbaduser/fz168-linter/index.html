@@ -76,24 +76,30 @@ alwaysApply: false
 1. Если контекст — наименование объекта в рекламе ДДУ: латиница — `LIKELY_VIOLATION`
    по 214-ФЗ п. 7 ст. 2 (введён ст. 4 168-ФЗ). Исключение для товарных знаков
    здесь не действует.
-2. Латиница в публичной информации потребителя без русского дубля — вероятное
-   нарушение ЗоЗПП ст. 10.1 п. 2. Проверяет Роспотребнадзор, состав —
-   ч. 1 ст. 14.8 КоАП (юрлица 5–10 тыс. ₽).
+2. Латиница без русского дубля — вероятный риск по ст. 10.1 п. 2 ЗоЗПП только
+   после установления применимости статьи. Любой открытый текст сайта не
+   становится такой информацией автоматически. Санкции требуют отдельной
+   квалификации; линтер их не определяет.
 3. Латиница в рекламе — `NEEDS_REVIEW`: ч. 11 ст. 5 38-ФЗ сама по себе не даёт
    основания для дела (приказ ФАС № 1079/23).
 4. Не выдумывать штраф 100–500 тыс. ₽ за любое иностранное слово.
-5. Товарный знак должен быть зарегистрирован (свидетельство), а не заявлен.
-6. Отсутствие слова в нормативном словаре — не запрет, а необходимость пояснения.
+5. Исключение товарного знака в API требует `trademark_status=registered`
+   и конкретного обозначения в `extra_trademarks`. Заявка недостаточна;
+   реестр и иные основания охраны проверяет человек.
+6. Локальный список не равен нормативному словарю. Для словарного утверждения
+   проверять статью, значение и редакцию. Редакционная рекомендация замены
+   не доказывает отсутствия слова или нарушения.
 7. Смешанные алфавиты (`Пaрк` с латинской `a`) — отдельный признак, проверять
    Unicode-коды.
-8. При дублировании русский текст идёт первым; цвет, тип, размер шрифта и
-   разборчивость должны совпадать (ч. 2 ст. 3 53-ФЗ; порядок — позиция
-   Роспотребнадзора).
-9. Дата переходного исключения неоднозначна: 24.06.2025 (буквально) или
-   01.03.2026 (распространённое толкование) — не утверждать без оговорки.
+8. При дублировании содержание идентично, оформление равнозначно, включая цвет,
+   тип и размер шрифта, разборчивость (ч. 2 ст. 3 53-ФЗ). Порядок «русский первым»
+   — рекомендация руководства Роспотребнадзора от 02.03.2026.
+9. Закон в целом вступил 24.06.2025, статьи 1 и 4 — 01.03.2026. Применимость
+   переходного исключения для дат ввода в этом промежутке требует ручной
+   проверки. Не представлять политику классификатора как официальное толкование.
 
 Инструмент проверки: `fz168 check &lt;файл&gt; --input html --surface public_information`.
-Документация: `docs/LEGAL.md`, `docs/RULES.md`.
+Документация: `docs/LEGAL.md`, `docs/SOURCES.md`, `docs/RULES.md`, `docs/PARSING.md`.
 </code></pre>
 <p><a href="https://github.com/thebestbaduser/fz168-linter/blob/HEAD/.cursor/rules/fz168-compliance.mdc" rel="external">View raw on GitHub</a></p>
 </section>
@@ -101,7 +107,7 @@ alwaysApply: false
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>
 <ul class="crosslinks">
-<li><a href="https://linny006.github.io/cursor-rules-live/r/wshobson/agents/">wshobson/agents (stars:41032)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/wshobson/agents/">wshobson/agents (stars:41033)</a></li>
 <li><a href="https://linny006.github.io/cursor-rules-live/r/MnemeHQ/mneme/">MnemeHQ/mneme (stars:28)</a></li>
 <li><a href="https://linny006.github.io/cursor-rules-live/r/mrvishaljjoshi-cmyk/VJSS/">mrvishaljjoshi-cmyk/VJSS (stars:0)</a></li>
 </ul></section>
