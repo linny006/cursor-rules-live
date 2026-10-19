@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-19 10:30 UTC
+> ⏰ Last updated: 2026-10-19 10:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,13 +53,13 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-19 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 50 | — | 2026-10-19 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
 | 2 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 28 | Python | 2026-10-19 | — | Architectural drift prevention for the agentic AI SDLC. |
-| 3 | [bompus/house-rules](https://github.com/bompus/house-rules) | 2 | JavaScript | 2026-10-19 | — | Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md |
-| 4 | [ashishkaloge/coding-agent-guidelines](https://github.com/ashishkaloge/coding-agent-guidelines) | 2 | JavaScript | 2026-10-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/ashishkaloge/coding-agent-guidelines/) | Short CLAUDE.md, AGENTS.md and Cursor rules that help Claude Code, Codex and Cursor understand first, change less and ve |
-| 5 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 21359 | Shell | 2026-10-19 | — | 🎭 277 个即插即用的 AI 专家角色 — 支持 Claude Code/Cursor/Copilot 等 20 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 64 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉/Qt 上 |
-| 6 | [glowElephant/context-forge](https://github.com/glowElephant/context-forge) | 2 | Python | 2026-10-19 | — | Auto harness engineering meta-repo: discuss → curate → bootstrap a context-engineered project for Claude Code, Cursor, C |
-| 7 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 50 | — | 2026-10-19 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
+| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-19 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 4 | [bompus/house-rules](https://github.com/bompus/house-rules) | 2 | JavaScript | 2026-10-19 | — | Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md |
+| 5 | [ashishkaloge/coding-agent-guidelines](https://github.com/ashishkaloge/coding-agent-guidelines) | 2 | JavaScript | 2026-10-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/ashishkaloge/coding-agent-guidelines/) | Short CLAUDE.md, AGENTS.md and Cursor rules that help Claude Code, Codex and Cursor understand first, change less and ve |
+| 6 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 21359 | Shell | 2026-10-19 | — | 🎭 277 个即插即用的 AI 专家角色 — 支持 Claude Code/Cursor/Copilot 等 20 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 64 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉/Qt 上 |
+| 7 | [glowElephant/context-forge](https://github.com/glowElephant/context-forge) | 2 | Python | 2026-10-19 | — | Auto harness engineering meta-repo: discuss → curate → bootstrap a context-engineered project for Claude Code, Cursor, C |
 | 8 | [amir-hdri/awesome-persian-ai-rules](https://github.com/amir-hdri/awesome-persian-ai-rules) | 1 | Shell | 2026-10-19 | — | 🇮🇷 Universal Persian (Farsi) typography, RTL direction, and BiDi formatting standards for AI coding agents (Antigravity, |
 | 9 | [ykjshenzhen2008-ship-it/commercial-real-estate-skills](https://github.com/ykjshenzhen2008-ship-it/commercial-real-estate-skills) | 0 | Python | 2026-10-19 | — | 商业地产专用 AI Agent 技能库：39 个实战打磨的 SKILL.md（招商测算 / 非标商业 / 内容运营 / 专家角色），免费 MIT |
 | 10 | [Daniels73131/rollinggo-hotel-skill-cn](https://github.com/Daniels73131/rollinggo-hotel-skill-cn) | 0 | Python | 2026-10-19 | — | 全球酒店预订&低价监控提醒Skill，200万+精选酒店，独家优惠价格，让你的Agent轻松预订品质酒店，支持支付宝下单+查询历史订单，24 小时客服支持，全天候响应。 |
@@ -77,7 +77,7 @@ expired items removed — so you can rely on what you see being current.
 | 22 | [scoyoc5/godot-ai-agent-rules](https://github.com/scoyoc5/godot-ai-agent-rules) | 0 | — | 2026-10-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/scoyoc5/godot-ai-agent-rules/) | Free Cursor rules + AGENTS.md that stop AI (Cursor, Claude Code, ChatGPT) from writing Godot 3 code in Godot 4 projects: |
 | 23 | [scoyoc5/unity-ai-agent-rules](https://github.com/scoyoc5/unity-ai-agent-rules) | 2 | — | 2026-10-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/scoyoc5/unity-ai-agent-rules/) | Free Cursor rules + AGENTS.md that stop AI (Cursor, Claude Code, ChatGPT) from writing broken Unity C#: missing usings,  |
 | 24 | [mrvishaljjoshi-cmyk/VJSS](https://github.com/mrvishaljjoshi-cmyk/VJSS) | 0 | Python | 2026-10-19 | — | Universal AI Agent Super-Skills Ecosystem by Mr. Vishalkumar Joshi. 161 production-grade plain-text prompt protocols wit |
-| 25 | [wshobson/agents](https://github.com/wshobson/agents) | 41075 | Python | 2026-10-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
+| 25 | [wshobson/agents](https://github.com/wshobson/agents) | 41076 | Python | 2026-10-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
 | 26 | [shahshrey/pink-elephant](https://github.com/shahshrey/pink-elephant) | 0 | Python | 2026-10-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/shahshrey/pink-elephant/) | Your prompt says 'don't mention billing.' Your agent mentions billing. Pink Elephant finds the don'ts in prompts, skills |
 | 27 | [manya-5/design-agent-config](https://github.com/manya-5/design-agent-config) | 0 | Shell | 2026-10-18 | — | My Cursor rules and Claude Code setup for designing in code. |
 | 28 | [VenusOne-Lee/popia-compliance](https://github.com/VenusOne-Lee/popia-compliance) | 1 | Python | 2026-10-18 | — | Open-source POPIA privacy and security guardrails for South African builders, for every AI coding tool. |
