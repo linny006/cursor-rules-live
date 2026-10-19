@@ -5,16 +5,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <title>thebestbaduser/fz168-linter - entry on Cursor Rules Live</title>
-<meta name="description" content="Предварительная проверка русских текстов и интерфейсов на языковые риски по 168-ФЗ: кириллица в названиях ЖК, латинские">
+<meta name="description" content="Проверка русскоязычных текстов и интерфейсов на языковые риски по 168-ФЗ: латиница, смешанные алфавиты, равнозначное дуб">
 <link rel="canonical" href="https://linny006.github.io/cursor-rules-live/r/thebestbaduser/fz168-linter/">
 <meta property="og:type" content="article">
 <meta property="og:title" content="thebestbaduser/fz168-linter - entry on Cursor Rules Live">
-<meta property="og:description" content="Предварительная проверка русских текстов и интерфейсов на языковые риски по 168-ФЗ: кириллица в названиях ЖК, латинские">
+<meta property="og:description" content="Проверка русскоязычных текстов и интерфейсов на языковые риски по 168-ФЗ: латиница, смешанные алфавиты, равнозначное дуб">
 <meta property="og:url" content="https://linny006.github.io/cursor-rules-live/r/thebestbaduser/fz168-linter/">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="thebestbaduser/fz168-linter - entry on Cursor Rules Live">
-<meta name="twitter:description" content="Предварительная проверка русских текстов и интерфейсов на языковые риски по 168-ФЗ: кириллица в названиях ЖК, латинские">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"thebestbaduser/fz168-linter","codeRepository":"https://github.com/thebestbaduser/fz168-linter","programmingLanguage":"Python","url":"https://linny006.github.io/cursor-rules-live/r/thebestbaduser/fz168-linter/","description":"Предварительная проверка русских текстов и интерфейсов на языковые риски по 168-ФЗ: кириллица в названиях ЖК, латинские","author":{"@type":"Person","name":"thebestbaduser","url":"https://github.com/thebestbaduser"},"dateModified":"2026-10-18"}</script>
+<meta name="twitter:description" content="Проверка русскоязычных текстов и интерфейсов на языковые риски по 168-ФЗ: латиница, смешанные алфавиты, равнозначное дуб">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"thebestbaduser/fz168-linter","codeRepository":"https://github.com/thebestbaduser/fz168-linter","programmingLanguage":"Python","url":"https://linny006.github.io/cursor-rules-live/r/thebestbaduser/fz168-linter/","description":"Проверка русскоязычных текстов и интерфейсов на языковые риски по 168-ФЗ: латиница, смешанные алфавиты, равнозначное дуб","author":{"@type":"Person","name":"thebestbaduser","url":"https://github.com/thebestbaduser"},"dateModified":"2026-10-19"}</script>
 <style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
          --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
 * { box-sizing: border-box; }
@@ -44,18 +44,18 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <nav class="bc"><a href="https://linny006.github.io/cursor-rules-live/">Cursor Rules Live</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/popular/">Entries</a> &#183; <span>thebestbaduser/fz168-linter</span></nav>
 <main>
 <h1>thebestbaduser/fz168-linter</h1>
-<p class="lead">Предварительная проверка русских текстов и интерфейсов на языковые риски по 168-ФЗ: кириллица в названиях ЖК, латинские</p>
+<p class="lead">Проверка русскоязычных текстов и интерфейсов на языковые риски по 168-ФЗ: латиница, смешанные алфавиты, равнозначное дуб</p>
 <div class="meta">
 <span><strong>Stars</strong> 0</span>
 <span><strong>Language</strong> Python</span>
-<span><strong>Last updated</strong> 2026-10-18</span>
+<span><strong>Last updated</strong> 2026-10-19</span>
 <span><a href="https://github.com/thebestbaduser/fz168-linter" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/thebestbaduser" rel="external">@thebestbaduser</a></span>
 </div>
 <section id="rules"><h2>Actual rules from this repo</h2>
 <p>Path in source repo: <code>.cursor/rules/fz168-compliance.mdc</code> &middot; format: <code>mdc</code></p>
 <pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
-description: Языковые риски по 168-ФЗ — кириллица в названиях ЖК, латиница в UI, равнозначное дублирование, заимствования
+description: Языковые риски по 168-ФЗ — латиница в текстах и UI, равнозначное дублирование, заимствования, смешанные алфавиты
 globs:
   - &quot;**/*.html&quot;
   - &quot;**/*.jsx&quot;
@@ -68,9 +68,12 @@ alwaysApply: false
 
 # Правила 168-ФЗ
 
+Инструмент универсален: любой русскоязычный текст, UI, документация, реклама,
+каталог. Проверка недвижимости — лишь один из контекстов.
+
 При проверке русских текстов и интерфейсов:
 
-1. Латиница в названии ЖК в рекламе долевого строительства — `LIKELY_VIOLATION`
+1. Если контекст — наименование объекта в рекламе ДДУ: латиница — `LIKELY_VIOLATION`
    по 214-ФЗ п. 7 ст. 2 (введён ст. 4 168-ФЗ). Исключение для товарных знаков
    здесь не действует.
 2. Латиница в публичной информации потребителя без русского дубля — вероятное
@@ -83,8 +86,9 @@ alwaysApply: false
 6. Отсутствие слова в нормативном словаре — не запрет, а необходимость пояснения.
 7. Смешанные алфавиты (`Пaрк` с латинской `a`) — отдельный признак, проверять
    Unicode-коды.
-8. Русский текст при дублировании — первым; цвет, тип, размер шрифта и
-   разборчивость должны совпадать (ч. 2 ст. 3 53-ФЗ).
+8. При дублировании русский текст идёт первым; цвет, тип, размер шрифта и
+   разборчивость должны совпадать (ч. 2 ст. 3 53-ФЗ; порядок — позиция
+   Роспотребнадзора).
 9. Дата переходного исключения неоднозначна: 24.06.2025 (буквально) или
    01.03.2026 (распространённое толкование) — не утверждать без оговорки.
 
@@ -97,7 +101,7 @@ alwaysApply: false
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>
 <ul class="crosslinks">
-<li><a href="https://linny006.github.io/cursor-rules-live/r/wshobson/agents/">wshobson/agents (stars:41030)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/wshobson/agents/">wshobson/agents (stars:41032)</a></li>
 <li><a href="https://linny006.github.io/cursor-rules-live/r/MnemeHQ/mneme/">MnemeHQ/mneme (stars:28)</a></li>
 <li><a href="https://linny006.github.io/cursor-rules-live/r/mrvishaljjoshi-cmyk/VJSS/">mrvishaljjoshi-cmyk/VJSS (stars:0)</a></li>
 </ul></section>
