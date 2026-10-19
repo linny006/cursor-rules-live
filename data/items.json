@@ -1,5 +1,23 @@
 [
   {
+    "description": "Drop-in AI agent rules (Cursor, Claude Code, AGENTS.md) that stop Supabase RLS holes, broken Stripe webhooks and Godot 3",
+    "id": "otctrading101/shiprules-free",
+    "language": "\u2014",
+    "name": "otctrading101/shiprules-free",
+    "stars": 0,
+    "updated_at": "2026-10-19T13:24:04Z",
+    "url": "https://github.com/otctrading101/shiprules-free"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-19T13:15:47Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Open-source POPIA privacy and security guardrails for South African builders, for every AI coding tool.",
     "id": "VenusOne-Lee/popia-compliance",
     "language": "Python",
@@ -13,18 +31,9 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21362,
+    "stars": 21363,
     "updated_at": "2026-10-19T13:04:45Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-19T13:00:55Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
@@ -286,7 +295,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 41093,
+    "stars": 41098,
     "updated_at": "2026-10-19T01:07:28Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -484,14 +493,5 @@
     "stars": 0,
     "updated_at": "2026-10-18T15:43:34Z",
     "url": "https://github.com/MaiOwens/MotionVault"
-  },
-  {
-    "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
-    "id": "carolineramos0613/AIGX",
-    "language": "Python",
-    "name": "carolineramos0613/AIGX",
-    "stars": 0,
-    "updated_at": "2026-10-18T15:42:03Z",
-    "url": "https://github.com/carolineramos0613/AIGX"
   }
 ]
