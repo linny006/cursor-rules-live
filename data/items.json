@@ -1,5 +1,50 @@
 [
   {
+    "description": "agent wiki +engineering skills ",
+    "id": "mariarossi20/third-brain-v7-skills",
+    "language": "Python",
+    "name": "mariarossi20/third-brain-v7-skills",
+    "stars": 0,
+    "updated_at": "2026-10-19T20:41:39Z",
+    "url": "https://github.com/mariarossi20/third-brain-v7-skills"
+  },
+  {
+    "description": "\u5168\u7403\u9152\u5e97\u9884\u8ba2&\u4f4e\u4ef7\u76d1\u63a7\u63d0\u9192Skill\uff0c200\u4e07+\u7cbe\u9009\u9152\u5e97\uff0c\u72ec\u5bb6\u4f18\u60e0\u4ef7\u683c\uff0c\u8ba9\u4f60\u7684Agent\u8f7b\u677e\u9884\u8ba2\u54c1\u8d28\u9152\u5e97\uff0c\u652f\u6301\u652f\u4ed8\u5b9d\u4e0b\u5355+\u67e5\u8be2\u5386\u53f2\u8ba2\u5355\uff0c24 \u5c0f\u65f6\u5ba2\u670d\u652f\u6301\uff0c\u5168\u5929\u5019\u54cd\u5e94\u3002",
+    "id": "Erkan042/rollinggo-hotel-skill-cn",
+    "language": "Python",
+    "name": "Erkan042/rollinggo-hotel-skill-cn",
+    "stars": 0,
+    "updated_at": "2026-10-19T20:39:43Z",
+    "url": "https://github.com/Erkan042/rollinggo-hotel-skill-cn"
+  },
+  {
+    "description": "\u5168\u7403\u9152\u5e97\u9884\u8ba2&\u4f4e\u4ef7\u76d1\u63a7\u63d0\u9192Skill\uff0c200\u4e07+\u7cbe\u9009\u9152\u5e97\uff0c\u72ec\u5bb6\u4f18\u60e0\u4ef7\u683c\uff0c\u8ba9\u4f60\u7684Agent\u8f7b\u677e\u9884\u8ba2\u54c1\u8d28\u9152\u5e97\uff0c\u652f\u6301\u652f\u4ed8\u5b9d\u4e0b\u5355+\u67e5\u8be2\u5386\u53f2\u8ba2\u5355\uff0c24 \u5c0f\u65f6\u5ba2\u670d\u652f\u6301\uff0c\u5168\u5929\u5019\u54cd\u5e94\u3002",
+    "id": "ftruong66527/rollinggo-hotel-skill-cn",
+    "language": "Python",
+    "name": "ftruong66527/rollinggo-hotel-skill-cn",
+    "stars": 0,
+    "updated_at": "2026-10-19T20:37:39Z",
+    "url": "https://github.com/ftruong66527/rollinggo-hotel-skill-cn"
+  },
+  {
+    "description": "200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type",
+    "id": "Dang9584/MotionVault",
+    "language": "TypeScript",
+    "name": "Dang9584/MotionVault",
+    "stars": 0,
+    "updated_at": "2026-10-19T20:37:07Z",
+    "url": "https://github.com/Dang9584/MotionVault"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-19T20:30:48Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
     "id": "Trentobobbi/uikit-mastery-playbook",
     "language": "HTML",
@@ -16,15 +61,6 @@
     "stars": 1,
     "updated_at": "2026-10-19T20:27:17Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-19T20:15:43Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -477,41 +513,5 @@
     "stars": 0,
     "updated_at": "2026-10-19T00:17:33Z",
     "url": "https://github.com/shahshrey/pink-elephant"
-  },
-  {
-    "description": "My Cursor rules and Claude Code setup for designing in code.",
-    "id": "manya-5/design-agent-config",
-    "language": "Shell",
-    "name": "manya-5/design-agent-config",
-    "stars": 0,
-    "updated_at": "2026-10-18T22:47:32Z",
-    "url": "https://github.com/manya-5/design-agent-config"
-  },
-  {
-    "description": "Guard Lite - local, offline design-contract checker for AI-built UIs. Five named PPG rules (color, type size, type famil",
-    "id": "thedollartoolkit-boop/guard-lite",
-    "language": "JavaScript",
-    "name": "thedollartoolkit-boop/guard-lite",
-    "stars": 0,
-    "updated_at": "2026-10-18T21:55:09Z",
-    "url": "https://github.com/thedollartoolkit-boop/guard-lite"
-  },
-  {
-    "description": "agent wiki +engineering skills ",
-    "id": "rdejager88/third-brain-v7-skills",
-    "language": "Python",
-    "name": "rdejager88/third-brain-v7-skills",
-    "stars": 0,
-    "updated_at": "2026-10-18T20:49:39Z",
-    "url": "https://github.com/rdejager88/third-brain-v7-skills"
-  },
-  {
-    "description": "agent wiki +engineering skills ",
-    "id": "torun2416/third-brain-v7-skills",
-    "language": "Python",
-    "name": "torun2416/third-brain-v7-skills",
-    "stars": 0,
-    "updated_at": "2026-10-18T20:41:20Z",
-    "url": "https://github.com/torun2416/third-brain-v7-skills"
   }
 ]
