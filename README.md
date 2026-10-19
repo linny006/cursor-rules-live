@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-19 21:15 UTC
+> ⏰ Last updated: 2026-10-19 21:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -63,11 +63,11 @@ expired items removed — so you can rely on what you see being current.
 | 8 | [Dang9584/MotionVault](https://github.com/Dang9584/MotionVault) | 0 | TypeScript | 2026-10-19 | — | 200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type |
 | 9 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-10-19 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
 | 10 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-10-19 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
-| 11 | [roedyrustam/vibes-plug](https://github.com/roedyrustam/vibes-plug) | 88 | JavaScript | 2026-10-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/roedyrustam/vibes-plug/) | ⚡ Cross-IDE AI skill collection that orchestrates 155 specialized subagents for full-stack development workflows |
+| 11 | [roedyrustam/vibes-plug](https://github.com/roedyrustam/vibes-plug) | 89 | JavaScript | 2026-10-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/roedyrustam/vibes-plug/) | ⚡ Cross-IDE AI skill collection that orchestrates 155 specialized subagents for full-stack development workflows |
 | 12 | [bompus/house-rules](https://github.com/bompus/house-rules) | 2 | JavaScript | 2026-10-19 | — | Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md |
 | 13 | [easedui/skills](https://github.com/easedui/skills) | 0 | CSS | 2026-10-19 | — | Agent skills from Eased: motion rules and values for React and Tailwind UI. |
 | 14 | [VenusOne-Lee/popia-compliance](https://github.com/VenusOne-Lee/popia-compliance) | 8 | Python | 2026-10-19 | — | Open-source POPIA privacy and security guardrails for South African builders, for every AI coding tool. |
-| 15 | [wshobson/agents](https://github.com/wshobson/agents) | 41150 | Python | 2026-10-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
+| 15 | [wshobson/agents](https://github.com/wshobson/agents) | 41151 | Python | 2026-10-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
 | 16 | [NCEAS-AI/Coding-Agent-Rules-for-Data-Science](https://github.com/NCEAS-AI/Coding-Agent-Rules-for-Data-Science) | 6 | Python | 2026-10-19 | — | Point your AI coding agent at this repo and it installs a personalized ruleset for reproducible, analysis-first data sci |
 | 17 | [grizzlykiwidev/grizzlykiwidev.github.io](https://github.com/grizzlykiwidev/grizzlykiwidev.github.io) | 0 | — | 2026-10-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/grizzlykiwidev/grizzlykiwidev.github.io/) | Free Cursor rules (.mdc), AGENTS.md & CLAUDE.md templates and prompts for AI coding agents: Next.js + Supabase, Godot 4. |
 | 18 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 21383 | Shell | 2026-10-19 | — | 🎭 277 个即插即用的 AI 专家角色 — 支持 Claude Code/Cursor/Copilot 等 20 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 64 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉/Qt 上 |
