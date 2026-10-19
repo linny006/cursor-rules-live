@@ -1,5 +1,23 @@
 [
   {
+    "description": "\ud83c\udfad 277 \u4e2a\u5373\u63d2\u5373\u7528\u7684 AI \u4e13\u5bb6\u89d2\u8272 \u2014 \u652f\u6301 Claude Code/Cursor/Copilot \u7b49 20 \u79cd\u5de5\u5177\uff0c\u8986\u76d6\u5de5\u7a0b/\u8bbe\u8ba1/\u8425\u9500/\u91d1\u878d\u7b49 20 \u4e2a\u90e8\u95e8\u3002\u542b 64 \u4e2a\u4e2d\u56fd\u5e02\u573a\u539f\u521b\u667a\u80fd\u4f53\uff08\u5c0f\u7ea2\u4e66/\u6296\u97f3/\u5fae\u4fe1/\u98de\u4e66/\u9489\u9489/Qt \u4e0a",
+    "id": "jnMetaCode/agency-agents-zh",
+    "language": "Shell",
+    "name": "jnMetaCode/agency-agents-zh",
+    "stars": 21357,
+    "updated_at": "2026-10-19T08:04:28Z",
+    "url": "https://github.com/jnMetaCode/agency-agents-zh"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-19T08:00:47Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
     "id": "bompus/house-rules",
     "language": "JavaScript",
@@ -16,15 +34,6 @@
     "stars": 0,
     "updated_at": "2026-10-19T07:48:05Z",
     "url": "https://github.com/ykjshenzhen2008-ship-it/commercial-real-estate-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-19T07:45:41Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\u5168\u7403\u9152\u5e97\u9884\u8ba2&\u4f4e\u4ef7\u76d1\u63a7\u63d0\u9192Skill\uff0c200\u4e07+\u7cbe\u9009\u9152\u5e97\uff0c\u72ec\u5bb6\u4f18\u60e0\u4ef7\u683c\uff0c\u8ba9\u4f60\u7684Agent\u8f7b\u677e\u9884\u8ba2\u54c1\u8d28\u9152\u5e97\uff0c\u652f\u6301\u652f\u4ed8\u5b9d\u4e0b\u5355+\u67e5\u8be2\u5386\u53f2\u8ba2\u5355\uff0c24 \u5c0f\u65f6\u5ba2\u670d\u652f\u6301\uff0c\u5168\u5929\u5019\u54cd\u5e94\u3002",
@@ -134,15 +143,6 @@
     "stars": 3,
     "updated_at": "2026-10-19T04:52:16Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "\ud83c\udfad 277 \u4e2a\u5373\u63d2\u5373\u7528\u7684 AI \u4e13\u5bb6\u89d2\u8272 \u2014 \u652f\u6301 Claude Code/Cursor/Copilot \u7b49 20 \u79cd\u5de5\u5177\uff0c\u8986\u76d6\u5de5\u7a0b/\u8bbe\u8ba1/\u8425\u9500/\u91d1\u878d\u7b49 20 \u4e2a\u90e8\u95e8\u3002\u542b 64 \u4e2a\u4e2d\u56fd\u5e02\u573a\u539f\u521b\u667a\u80fd\u4f53\uff08\u5c0f\u7ea2\u4e66/\u6296\u97f3/\u5fae\u4fe1/\u98de\u4e66/\u9489\u9489/Qt \u4e0a",
-    "id": "jnMetaCode/agency-agents-zh",
-    "language": "Shell",
-    "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21356,
-    "updated_at": "2026-10-19T04:50:08Z",
-    "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
   {
     "description": "Community-voted AI prompts, CLAUDE.md/AGENTS.md templates, Cursor rules, Agent Skills and MCP servers from commandvault.",
