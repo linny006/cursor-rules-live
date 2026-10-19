@@ -14,7 +14,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="mateuszingano/supabase-rls-rules - entry on Cursor Rules Live">
 <meta name="twitter:description" content="Rules that make Cursor, Claude Code and other AI agents write Supabase RLS policies and grants that don&#x27;t leak data.">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"mateuszingano/supabase-rls-rules","codeRepository":"https://github.com/mateuszingano/supabase-rls-rules","programmingLanguage":"—","url":"https://linny006.github.io/cursor-rules-live/r/mateuszingano/supabase-rls-rules/","description":"Rules that make Cursor, Claude Code and other AI agents write Supabase RLS policies and grants that don't leak data.","author":{"@type":"Person","name":"mateuszingano","url":"https://github.com/mateuszingano"},"dateModified":"2026-10-15"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"mateuszingano/supabase-rls-rules","codeRepository":"https://github.com/mateuszingano/supabase-rls-rules","programmingLanguage":"—","url":"https://linny006.github.io/cursor-rules-live/r/mateuszingano/supabase-rls-rules/","description":"Rules that make Cursor, Claude Code and other AI agents write Supabase RLS policies and grants that don't leak data.","author":{"@type":"Person","name":"mateuszingano","url":"https://github.com/mateuszingano"},"dateModified":"2026-10-19"}</script>
 <style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
          --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
 * { box-sizing: border-box; }
@@ -48,7 +48,7 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <div class="meta">
 <span><strong>Stars</strong> 0</span>
 <span><strong>Language</strong> —</span>
-<span><strong>Last updated</strong> 2026-10-15</span>
+<span><strong>Last updated</strong> 2026-10-19</span>
 <span><a href="https://github.com/mateuszingano/supabase-rls-rules" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/mateuszingano" rel="external">@mateuszingano</a></span>
 </div>
@@ -76,7 +76,8 @@ Apply these whenever you create or change a Supabase table, view, function, poli
 ## Policies
 - Write one policy per operation (`for select`, `for insert`, `for update`, `for delete`) and name the role with `to authenticated` (or `to anon`).
 - Wrap `auth.uid()` as `(select auth.uid())` so Postgres evaluates it once per query, not per row.
-- INSERT needs `with check`; UPDATE needs both `using` (which rows) and `with check` (what they may become), otherwise a user can reassign a row to someone else.
+- INSERT policies need `with check` (they can&#x27;t have `using`, and without `with check` they let no rows in). On UPDATE, write both `using` (which rows) and `with check` (what they may become). If `with check` is missing, Postgres checks the new row against `using`, which is only safe when `using` is as strict as what a row may become: with an `or` (shared or team rows) a row can be handed to another user.
+- No policy protects a column it doesn&#x27;t mention: an owner policy on `user_id` won&#x27;t stop a user from changing `is_admin` on their own row. For sensitive columns, grant `update` only on the columns users may change (`grant update (body) on public.notes to authenticated;`).
 - UPDATE also needs a SELECT policy for the same rows, or it silently affects 0 rows.
 - Never use `using (true)` / `with check (true)` on private data. Allow it only for data that is public on purpose, and say so in a comment.
 - A policy must not query the table it protects (that raises `42P17 infinite recursion detected in policy`). Put the lookup in a `security definer` function in a **non-exposed** schema (e.g. `private`), with `set search_path = &#x27;&#x27;`, schema-qualified names, a filter on `(select auth.uid())`, `revoke all ... from public` and `grant execute` only to `authenticated`.
@@ -121,9 +122,9 @@ Guides with tested SQL for each rule: https://shipsealed.com/rls/
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>
 <ul class="crosslinks">
-<li><a href="https://linny006.github.io/cursor-rules-live/r/J-nowcow/awesome-korean-agent-skills/">J-nowcow/awesome-korean-agent-skills (stars:49)</a></li>
-<li><a href="https://linny006.github.io/cursor-rules-live/r/Aaditya1273/Agent.md/">Aaditya1273/Agent.md (stars:9)</a></li>
-<li><a href="https://linny006.github.io/cursor-rules-live/r/xiaozhenyangCode/awesome-cursor-rules/">xiaozhenyangCode/awesome-cursor-rules (stars:1)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/J-nowcow/awesome-korean-agent-skills/">J-nowcow/awesome-korean-agent-skills (stars:50)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/NCEAS-AI/Coding-Agent-Rules-for-Data-Science/">NCEAS-AI/Coding-Agent-Rules-for-Data-Science (stars:6)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/scoyoc5/unity-ai-agent-rules/">scoyoc5/unity-ai-agent-rules (stars:2)</a></li>
 </ul></section>
 <section><h2>Explore by category</h2>
 <ul class="crosslinks">
