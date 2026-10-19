@@ -1,12 +1,12 @@
 [
   {
-    "description": "Architectural drift prevention for the agentic AI SDLC.",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 28,
-    "updated_at": "2026-10-19T08:44:52Z",
-    "url": "https://github.com/MnemeHQ/mneme"
+    "description": "\ud83c\uddee\ud83c\uddf7 Universal Persian (Farsi) typography, RTL direction, and BiDi formatting standards for AI coding agents (Antigravity,",
+    "id": "amir-hdri/awesome-persian-ai-rules",
+    "language": "Shell",
+    "name": "amir-hdri/awesome-persian-ai-rules",
+    "stars": 0,
+    "updated_at": "2026-10-19T08:46:33Z",
+    "url": "https://github.com/amir-hdri/awesome-persian-ai-rules"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-19T08:30:38Z",
+    "updated_at": "2026-10-19T08:45:44Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Architectural drift prevention for the agentic AI SDLC.",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 28,
+    "updated_at": "2026-10-19T08:44:52Z",
+    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
@@ -209,7 +218,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 41064,
+    "stars": 41065,
     "updated_at": "2026-10-19T01:07:28Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -484,14 +493,5 @@
     "stars": 0,
     "updated_at": "2026-10-18T13:16:22Z",
     "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
-  },
-  {
-    "description": "Persistent persona memory for Claude Code, Cursor, Codex, Copilot, Antigravity. Mesh-structured state survives context c",
-    "id": "LuciferDono/persona",
-    "language": "\u2014",
-    "name": "LuciferDono/persona",
-    "stars": 0,
-    "updated_at": "2026-10-18T13:15:48Z",
-    "url": "https://github.com/LuciferDono/persona"
   }
 ]
