@@ -1,21 +1,21 @@
 [
   {
-    "description": "Architectural drift prevention for the agentic AI SDLC.",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 28,
-    "updated_at": "2026-10-19T10:08:34Z",
-    "url": "https://github.com/MnemeHQ/mneme"
-  },
-  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-19T10:00:35Z",
+    "updated_at": "2026-10-19T10:15:34Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Architectural drift prevention for the agentic AI SDLC.",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 28,
+    "updated_at": "2026-10-19T10:17:30Z",
+    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
@@ -250,7 +250,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 41070,
+    "stars": 41075,
     "updated_at": "2026-10-19T01:07:28Z",
     "url": "https://github.com/wshobson/agents"
   },
