@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-19T11:45:37Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
     "id": "edsondviana8/ai-humanizer-core",
     "language": "HTML",
@@ -25,15 +34,6 @@
     "stars": 214,
     "updated_at": "2026-10-19T11:31:16Z",
     "url": "https://github.com/KbWen/agentic-os"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-19T11:30:37Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Claude Code mod: load the rules/ folders (Claude, Cursor .mdc, Antigravity) that installed plugins ship",
@@ -68,7 +68,7 @@
     "language": "\u2014",
     "name": "J-nowcow/awesome-korean-agent-skills",
     "stars": 50,
-    "updated_at": "2026-10-19T10:43:19Z",
+    "updated_at": "2026-10-19T11:59:18Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
@@ -268,7 +268,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 41081,
+    "stars": 41083,
     "updated_at": "2026-10-19T01:07:28Z",
     "url": "https://github.com/wshobson/agents"
   },
