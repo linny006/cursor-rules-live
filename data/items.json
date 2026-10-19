@@ -1,6 +1,61 @@
 [
   {
     "cursorrules": {
+      "content": "---\ndescription: Core rules for all Godot 4.x work in this project\nglobs:\nalwaysApply: true\n---\n# Godot 4 Core Rules\n\n## Know the project before writing code\n- Read `project.godot`. `config/features=PackedStringArray(\"4.x\", ...)` tells you the engine version. Never emit APIs newer than that version, and never emit Godot 3 APIs (see `01-godot3-vs-4.mdc`).\n- Check `[autoload]` in `project.godot` before referencing a singleton. If an autoload doesn't exist, say so. Don't assume one.\n- Check `[input]` in `project.godot` (or Project Settings > Input Map) before using an action name in `Input.is_action_pressed()`. Unknown action names fail at runtime, not at parse time.\n- Read `docs/PROJECT.md` and `docs/ARCHITECTURE.md` if they exist.\n- If the project has a `.csproj`, ask whether the file should be GDScript or C# before writing one.\n\n## Never invent APIs\n- Use only classes, methods, properties and signals you are certain exist in Godot 4. If unsure, say **unverified** and link the class reference (https://docs.godotengine.org/en/stable/classes/). Don't guess.\n- See `05-hallucinated-apis.mdc` for the list of known fakes and Godot 3 leftovers.\n\n## Complete, parseable output\n- Write complete `.gd` files: `extends`, optional `class_name`, signals, enums, constants, `@export` vars, `@onready` vars, then functions. Don't use `# ...rest unchanged` stubs unless asked for a diff.\n- Indent with **tabs** (Godot's default). Never mix tabs and spaces in one file; that is a parse error.\n- After editing, run `godot --headless --check-only --script res://<file>.gd` before saying the task is done.\n\n## Scope discipline\n- Change only what the task needs. Never rename `@export` variables, signals, node names or files without flagging it. Renaming an exported var drops the value saved in `.tscn` files; renaming a node breaks `$Path` and `%Unique` lookups.\n- Don't edit `.tscn`/`.tres` files by hand unless asked. If a scene change is needed, describe it (node type, name, parent, properties) so the user can do it in the editor.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/00-godot-core.mdc"
+    },
+    "description": "Free Cursor rules + AGENTS.md that stop AI (Cursor, Claude Code, ChatGPT) from writing Godot 3 code in Godot 4 projects:",
+    "id": "scoyoc5/godot-ai-agent-rules",
+    "language": "\u2014",
+    "name": "scoyoc5/godot-ai-agent-rules",
+    "stars": 0,
+    "updated_at": "2026-10-19T01:26:30Z",
+    "url": "https://github.com/scoyoc5/godot-ai-agent-rules"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Core rules for all Unity C# work in this project\nglobs:\nalwaysApply: true\n---\n# Unity Core Rules\n\n## Know the project before writing code\n- Read `ProjectSettings/ProjectVersion.txt` for the Unity version (`m_EditorVersion`). Never emit APIs newer than that version.\n- Read `Packages/manifest.json` before using any package API (Input System, TextMeshPro, Cinemachine, URP, Addressables, Netcode). If a package is missing, say so and ask. Do not assume it is installed.\n- Read `docs/PROJECT.md` and `docs/ARCHITECTURE.md` if they exist. Follow their conventions over your defaults.\n- Check for `.asmdef` files. If code goes into an assembly, make sure that assembly references what the code uses.\n\n## Never invent APIs\n- Use only Unity APIs you are certain exist in the project's Unity version. If you are not sure, say \"unverified\" and link the Scripting API page (https://docs.unity3d.com/ScriptReference/). Don't guess.\n- Common hallucinations to avoid: `GameObject.FindByTag` (real: `GameObject.FindWithTag` / `FindGameObjectsWithTag`), `transform.GetChildByName` (real: `transform.Find`), `Input.GetAction`, `Rigidbody.AddVelocity`, `Vector3.Clamp`, `Destroy(obj, immediate: true)`.\n\n## Complete, compilable output\n- Write complete files with every `using` directive they need, the namespace, and class braces. Don't write `// ...rest unchanged` stubs unless the user asked for a diff.\n- The file name must match the `MonoBehaviour`/`ScriptableObject` class name, or Unity cannot attach it.\n- After editing, run the verification loop in `docs/VERIFY.md` (or ask the user to check the Console) before calling the task done.\n\n## Scope discipline\n- Change only what the task needs. Never delete or rename existing public members, serialized fields, or files without flagging it first. Renaming a serialized field loses inspector data; see `03-serialization.mdc`.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/00-unity-core.mdc"
+    },
+    "description": "Free Cursor rules + AGENTS.md that stop AI (Cursor, Claude Code, ChatGPT) from writing broken Unity C#: missing usings, ",
+    "id": "scoyoc5/unity-ai-agent-rules",
+    "language": "\u2014",
+    "name": "scoyoc5/unity-ai-agent-rules",
+    "stars": 1,
+    "updated_at": "2026-10-19T01:26:29Z",
+    "url": "https://github.com/scoyoc5/unity-ai-agent-rules"
+  },
+  {
+    "description": "Universal AI Agent Super-Skills Ecosystem by Mr. Vishalkumar Joshi. 161 production-grade plain-text prompt protocols wit",
+    "id": "mrvishaljjoshi-cmyk/VJSS",
+    "language": "Python",
+    "name": "mrvishaljjoshi-cmyk/VJSS",
+    "stars": 0,
+    "updated_at": "2026-10-19T01:19:34Z",
+    "url": "https://github.com/mrvishaljjoshi-cmyk/VJSS"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-19T01:15:35Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Architectural drift prevention for the agentic AI SDLC.",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 28,
+    "updated_at": "2026-10-19T01:15:31Z",
+    "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
+    "cursorrules": {
       "content": "---\ndescription: claude-agents marketplace project conventions\nalwaysApply: true\n---\n\n# claude-agents conventions\n\nThis is a multi-harness plugin marketplace. Source lives under `plugins/`; per-harness\nartifacts (`.codex/`, `.cursor-plugin/`, `.opencode/`, `commands/`) are generated.\n\n- Don't hand-edit anything under `.codex/`, `.cursor-plugin/`, `.opencode/`, or top-level `commands/`, `agents/`, `skills/` \u2014 regenerate via `make generate HARNESS=<x>`.\n- Python tooling: `uv` (package manager), `ruff` (lint/format), `ty` (type check). Do not use pip/mypy/black.\n- Plugin files: `plugins/<name>/{.claude-plugin/plugin.json, agents/*.md, skills/<name>/SKILL.md, commands/*.md}`. Auto-discovered.\n- Cursor reads `.claude/skills/` and `.claude/agents/` directly \u2014 no separate `.cursor/skills/` is generated.\n\n## Never\n\n- Never commit secrets or hardcode credentials.\n- Never hand-edit generated registries (`.agents/plugins/marketplace.json`, `.cursor-plugin/`) \u2014 plugin PRs register the plugin in `.claude-plugin/marketplace.json`, then run `make generate-all` (see CONTRIBUTING.md).\n- Never run destructive git operations (force-push, reset --hard, branch -D) without explicit ask.\n\nSee `docs/authoring.md` for the portable-content style guide.\n",
       "format": "mdc",
       "path": ".cursor/rules/000-project-conventions.mdc"
@@ -9,18 +64,9 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 41022,
+    "stars": 41023,
     "updated_at": "2026-10-19T01:07:28Z",
     "url": "https://github.com/wshobson/agents"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-19T01:00:37Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -55,7 +101,7 @@
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 2,
-    "updated_at": "2026-10-19T01:12:05Z",
+    "updated_at": "2026-10-19T01:29:33Z",
     "url": "https://github.com/bompus/house-rules"
   },
   {
@@ -95,7 +141,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21346,
+    "stars": 21347,
     "updated_at": "2026-10-18T22:28:21Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -447,41 +493,5 @@
     "stars": 0,
     "updated_at": "2026-10-18T09:37:31Z",
     "url": "https://github.com/FrancesSerra036/AIGX"
-  },
-  {
-    "description": "agent wiki +engineering skills ",
-    "id": "Kimberly646/third-brain-v7-skills",
-    "language": "Python",
-    "name": "Kimberly646/third-brain-v7-skills",
-    "stars": 0,
-    "updated_at": "2026-10-18T09:36:35Z",
-    "url": "https://github.com/Kimberly646/third-brain-v7-skills"
-  },
-  {
-    "description": "Free AI coding rules + skills for Cursor, Claude Code, Codex (AGENTS.md), Windsurf and Copilot. MIT.",
-    "id": "elirankotzero/ai-coding-rules-sampler",
-    "language": "\u2014",
-    "name": "elirankotzero/ai-coding-rules-sampler",
-    "stars": 0,
-    "updated_at": "2026-10-18T09:07:07Z",
-    "url": "https://github.com/elirankotzero/ai-coding-rules-sampler"
-  },
-  {
-    "description": "Know Yourself. Define Your Direction. Forge Your Opportunity.An agent-native skill for self-discovery, career positionin",
-    "id": "Max-Samson/knowme-careerforge-skill",
-    "language": "Python",
-    "name": "Max-Samson/knowme-careerforge-skill",
-    "stars": 1,
-    "updated_at": "2026-10-18T07:10:57Z",
-    "url": "https://github.com/Max-Samson/knowme-careerforge-skill"
-  },
-  {
-    "description": "agent wiki +engineering skills ",
-    "id": "Rebecca43734/third-brain-v7-skills",
-    "language": "Python",
-    "name": "Rebecca43734/third-brain-v7-skills",
-    "stars": 0,
-    "updated_at": "2026-10-18T07:04:59Z",
-    "url": "https://github.com/Rebecca43734/third-brain-v7-skills"
   }
 ]

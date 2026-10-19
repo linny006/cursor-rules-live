@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<title>scoyoc5/godot-ai-agent-rules - entry on Cursor Rules Live</title>
+<meta name="description" content="Free Cursor rules + AGENTS.md that stop AI (Cursor, Claude Code, ChatGPT) from writing Godot 3 code in Godot 4 projects:">
+<link rel="canonical" href="https://linny006.github.io/cursor-rules-live/r/scoyoc5/godot-ai-agent-rules/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="scoyoc5/godot-ai-agent-rules - entry on Cursor Rules Live">
+<meta property="og:description" content="Free Cursor rules + AGENTS.md that stop AI (Cursor, Claude Code, ChatGPT) from writing Godot 3 code in Godot 4 projects:">
+<meta property="og:url" content="https://linny006.github.io/cursor-rules-live/r/scoyoc5/godot-ai-agent-rules/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="scoyoc5/godot-ai-agent-rules - entry on Cursor Rules Live">
+<meta name="twitter:description" content="Free Cursor rules + AGENTS.md that stop AI (Cursor, Claude Code, ChatGPT) from writing Godot 3 code in Godot 4 projects:">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"scoyoc5/godot-ai-agent-rules","codeRepository":"https://github.com/scoyoc5/godot-ai-agent-rules","programmingLanguage":"—","url":"https://linny006.github.io/cursor-rules-live/r/scoyoc5/godot-ai-agent-rules/","description":"Free Cursor rules + AGENTS.md that stop AI (Cursor, Claude Code, ChatGPT) from writing Godot 3 code in Godot 4 projects:","author":{"@type":"Person","name":"scoyoc5","url":"https://github.com/scoyoc5"},"dateModified":"2026-10-19"}</script>
+<style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
+         --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 16px; font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--fg); background: var(--bg); }
+.wrap { max-width: var(--max); margin: 0 auto; }
+nav.bc { font-size: 14px; color: var(--muted); margin-bottom: 16px; }
+nav.bc a { color: var(--muted); }
+h1 { font-size: 28px; margin: 0 0 8px; }
+h2 { font-size: 20px; margin: 24px 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+p.lead { font-size: 18px; color: var(--muted); margin: 0 0 24px; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+th, td { padding: 8px 12px; text-align: left; border-bottom: 1px solid var(--border); }
+th { background: var(--card); font-weight: 600; }
+ul.crosslinks { list-style: none; padding: 0; }
+ul.crosslinks li { padding: 6px 0; }
+ul.crosslinks li a { font-weight: 500; }
+.meta { display: flex; gap: 16px; flex-wrap: wrap; color: var(--muted); font-size: 14px; margin: 12px 0; }
+.meta span::before { content: "\00b7"; margin-right: 8px; color: var(--border); }
+.meta span:first-child::before { content: ""; }
+footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--border); font-size: 14px; color: var(--muted); }</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="bc"><a href="https://linny006.github.io/cursor-rules-live/">Cursor Rules Live</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/popular/">Entries</a> &#183; <span>scoyoc5/godot-ai-agent-rules</span></nav>
+<main>
+<h1>scoyoc5/godot-ai-agent-rules</h1>
+<p class="lead">Free Cursor rules + AGENTS.md that stop AI (Cursor, Claude Code, ChatGPT) from writing Godot 3 code in Godot 4 projects:</p>
+<div class="meta">
+<span><strong>Stars</strong> 0</span>
+<span><strong>Language</strong> —</span>
+<span><strong>Last updated</strong> 2026-10-19</span>
+<span><a href="https://github.com/scoyoc5/godot-ai-agent-rules" rel="external">Source on GitHub</a></span>
+<span><a href="https://github.com/scoyoc5" rel="external">@scoyoc5</a></span>
+</div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/00-godot-core.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
+description: Core rules for all Godot 4.x work in this project
+globs:
+alwaysApply: true
+---
+# Godot 4 Core Rules
+
+## Know the project before writing code
+- Read `project.godot`. `config/features=PackedStringArray(&quot;4.x&quot;, ...)` tells you the engine version. Never emit APIs newer than that version, and never emit Godot 3 APIs (see `01-godot3-vs-4.mdc`).
+- Check `[autoload]` in `project.godot` before referencing a singleton. If an autoload doesn&#x27;t exist, say so. Don&#x27;t assume one.
+- Check `[input]` in `project.godot` (or Project Settings &gt; Input Map) before using an action name in `Input.is_action_pressed()`. Unknown action names fail at runtime, not at parse time.
+- Read `docs/PROJECT.md` and `docs/ARCHITECTURE.md` if they exist.
+- If the project has a `.csproj`, ask whether the file should be GDScript or C# before writing one.
+
+## Never invent APIs
+- Use only classes, methods, properties and signals you are certain exist in Godot 4. If unsure, say **unverified** and link the class reference (https://docs.godotengine.org/en/stable/classes/). Don&#x27;t guess.
+- See `05-hallucinated-apis.mdc` for the list of known fakes and Godot 3 leftovers.
+
+## Complete, parseable output
+- Write complete `.gd` files: `extends`, optional `class_name`, signals, enums, constants, `@export` vars, `@onready` vars, then functions. Don&#x27;t use `# ...rest unchanged` stubs unless asked for a diff.
+- Indent with **tabs** (Godot&#x27;s default). Never mix tabs and spaces in one file; that is a parse error.
+- After editing, run `godot --headless --check-only --script res://&lt;file&gt;.gd` before saying the task is done.
+
+## Scope discipline
+- Change only what the task needs. Never rename `@export` variables, signals, node names or files without flagging it. Renaming an exported var drops the value saved in `.tscn` files; renaming a node breaks `$Path` and `%Unique` lookups.
+- Don&#x27;t edit `.tscn`/`.tres` files by hand unless asked. If a scene change is needed, describe it (node type, name, parent, properties) so the user can do it in the editor.
+</code></pre>
+<p><a href="https://github.com/scoyoc5/godot-ai-agent-rules/blob/HEAD/.cursor/rules/00-godot-core.mdc" rel="external">View raw on GitHub</a></p>
+</section>
+<section><h2>Why this is listed</h2>
+<p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
+<section><h2>Similar in this tracker</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/r/J-nowcow/awesome-korean-agent-skills/">J-nowcow/awesome-korean-agent-skills (stars:50)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/scoyoc5/unity-ai-agent-rules/">scoyoc5/unity-ai-agent-rules (stars:1)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/grizzlykiwidev/grizzlykiwidev.github.io/">grizzlykiwidev/grizzlykiwidev.github.io (stars:0)</a></li>
+</ul></section>
+<section><h2>Explore by category</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/popular/">Popular (by stars)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/recent/">Recent (by activity)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/new/">New this week</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/lang/x/">All — entries</a></li>
+</ul></section>
+</main>
+<footer>
+Auto-updated every 15 minutes via GitHub Actions &#183; <a href="https://linny006.github.io/cursor-rules-live/">tracker root</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/sitemap.xml">sitemap</a>
+</footer>
+</div>
+</body>
+</html>
