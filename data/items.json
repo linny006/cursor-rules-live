@@ -1,11 +1,29 @@
 [
   {
+    "description": "\u63d0\u793a\u8bcd\u767e\u5b9d\u7bb1\uff1a66 \u6761\u539f\u521b\u4e2d\u6587 Prompt \u4e0e AI Agent \u6a21\u677f\uff08\u7f16\u7a0b/\u524d\u7aef/\u4ee3\u7801\u5ba1\u67e5/\u6587\u6863/\u4ea7\u54c1/\u8fd0\u8425/\u5b66\u4e60/\u6c42\u804c/Agent \u5de5\u4f5c\u6d41/Cursor rules/Claude skills\uff09\uff0c\u586b\u53d8\u91cf\u4e00\u952e\u590d\u5236",
+    "id": "MsNan/prompt-hub-cn",
+    "language": "JavaScript",
+    "name": "MsNan/prompt-hub-cn",
+    "stars": 0,
+    "updated_at": "2026-10-20T17:06:57Z",
+    "url": "https://github.com/MsNan/prompt-hub-cn"
+  },
+  {
+    "description": "Free MIT rules that stop Cursor, Claude Code, Copilot, Windsurf and Codex from writing wrong ABAP. EN + PT.",
+    "id": "abapforagents/abap-for-agents-lite",
+    "language": "\u2014",
+    "name": "abapforagents/abap-for-agents-lite",
+    "stars": 0,
+    "updated_at": "2026-10-20T17:04:51Z",
+    "url": "https://github.com/abapforagents/abap-for-agents-lite"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-20T16:45:37Z",
+    "updated_at": "2026-10-20T17:00:41Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -48,15 +66,6 @@
     "stars": 0,
     "updated_at": "2026-10-20T16:00:23Z",
     "url": "https://github.com/sublimecoder/sublimecoding"
-  },
-  {
-    "description": "Free MIT rules that stop Cursor, Claude Code, Copilot, Windsurf and Codex from writing wrong ABAP. EN + PT.",
-    "id": "abapforagents/abap-for-agents-lite",
-    "language": "\u2014",
-    "name": "abapforagents/abap-for-agents-lite",
-    "stars": 0,
-    "updated_at": "2026-10-20T15:57:48Z",
-    "url": "https://github.com/abapforagents/abap-for-agents-lite"
   },
   {
     "description": "Open-source POPIA privacy and security guardrails for South African builders, for every AI coding tool.",
@@ -281,7 +290,7 @@
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 2,
-    "updated_at": "2026-10-20T06:08:31Z",
+    "updated_at": "2026-10-20T17:11:00Z",
     "url": "https://github.com/bompus/house-rules"
   },
   {
@@ -469,14 +478,5 @@
     "stars": 1,
     "updated_at": "2026-10-19T17:23:35Z",
     "url": "https://github.com/rachitdev/skillforge"
-  },
-  {
-    "description": "agent wiki +engineering skills ",
-    "id": "henrikobayashi1368/third-brain-v7-skills",
-    "language": "Python",
-    "name": "henrikobayashi1368/third-brain-v7-skills",
-    "stars": 0,
-    "updated_at": "2026-10-19T15:02:44Z",
-    "url": "https://github.com/henrikobayashi1368/third-brain-v7-skills"
   }
 ]
