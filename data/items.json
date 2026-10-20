@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-20T14:45:56Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Architectural drift prevention for the agentic AI SDLC.",
     "id": "MnemeHQ/mneme",
     "language": "Python",
@@ -7,15 +16,6 @@
     "stars": 28,
     "updated_at": "2026-10-20T14:38:10Z",
     "url": "https://github.com/MnemeHQ/mneme"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-20T14:31:01Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
@@ -31,7 +31,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21427,
+    "stars": 21429,
     "updated_at": "2026-10-20T14:14:30Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -253,33 +253,6 @@
     "url": "https://github.com/bompus/house-rules"
   },
   {
-    "description": "200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type",
-    "id": "akiraking50150/MotionVault",
-    "language": "TypeScript",
-    "name": "akiraking50150/MotionVault",
-    "stars": 0,
-    "updated_at": "2026-10-20T05:49:56Z",
-    "url": "https://github.com/akiraking50150/MotionVault"
-  },
-  {
-    "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
-    "id": "Glorias10089/AIGX",
-    "language": "Python",
-    "name": "Glorias10089/AIGX",
-    "stars": 0,
-    "updated_at": "2026-10-20T05:41:04Z",
-    "url": "https://github.com/Glorias10089/AIGX"
-  },
-  {
-    "description": "200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type",
-    "id": "PhuongRamos829/MotionVault",
-    "language": "TypeScript",
-    "name": "PhuongRamos829/MotionVault",
-    "stars": 0,
-    "updated_at": "2026-10-20T05:24:33Z",
-    "url": "https://github.com/PhuongRamos829/MotionVault"
-  },
-  {
     "description": "Official 2026 LLM API Pricing Calendar, 272K/100K Context-Cliff Router, Chrome FinOps HUD Extension & Cursor MCP Server ",
     "id": "cooyun/awesome-2026-llm-api-pricing",
     "language": "\u2014",
@@ -305,15 +278,6 @@
     "stars": 0,
     "updated_at": "2026-10-20T05:11:50Z",
     "url": "https://github.com/anuraka142/MotionVault"
-  },
-  {
-    "description": "agent wiki +engineering skills ",
-    "id": "Julia3446/third-brain-v7-skills",
-    "language": "Python",
-    "name": "Julia3446/third-brain-v7-skills",
-    "stars": 0,
-    "updated_at": "2026-10-20T05:05:37Z",
-    "url": "https://github.com/Julia3446/third-brain-v7-skills"
   },
   {
     "description": "agent wiki +engineering skills ",
