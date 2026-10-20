@@ -1,11 +1,20 @@
 [
   {
+    "description": "Open-source POPIA privacy and security guardrails for South African builders, for every AI coding tool.",
+    "id": "VenusOne-Lee/popia-compliance",
+    "language": "Python",
+    "name": "VenusOne-Lee/popia-compliance",
+    "stars": 11,
+    "updated_at": "2026-10-20T18:23:20Z",
+    "url": "https://github.com/VenusOne-Lee/popia-compliance"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-20T18:01:00Z",
+    "updated_at": "2026-10-20T18:15:39Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -116,15 +125,6 @@
     "stars": 0,
     "updated_at": "2026-10-20T16:00:23Z",
     "url": "https://github.com/sublimecoder/sublimecoding"
-  },
-  {
-    "description": "Open-source POPIA privacy and security guardrails for South African builders, for every AI coding tool.",
-    "id": "VenusOne-Lee/popia-compliance",
-    "language": "Python",
-    "name": "VenusOne-Lee/popia-compliance",
-    "stars": 11,
-    "updated_at": "2026-10-20T18:06:55Z",
-    "url": "https://github.com/VenusOne-Lee/popia-compliance"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
