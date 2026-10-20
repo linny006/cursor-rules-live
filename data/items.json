@@ -1,5 +1,23 @@
 [
   {
+    "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
+    "id": "agenticstandardcontact-byte/agentic-architect",
+    "language": "HTML",
+    "name": "agenticstandardcontact-byte/agentic-architect",
+    "stars": 0,
+    "updated_at": "2026-10-20T14:17:43Z",
+    "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-20T14:15:59Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "\ud83c\udfad 277 \u4e2a\u5373\u63d2\u5373\u7528\u7684 AI \u4e13\u5bb6\u89d2\u8272 \u2014 \u652f\u6301 Claude Code/Cursor/Copilot \u7b49 20 \u79cd\u5de5\u5177\uff0c\u8986\u76d6\u5de5\u7a0b/\u8bbe\u8ba1/\u8425\u9500/\u91d1\u878d\u7b49 20 \u4e2a\u90e8\u95e8\u3002\u542b 64 \u4e2a\u4e2d\u56fd\u5e02\u573a\u539f\u521b\u667a\u80fd\u4f53\uff08\u5c0f\u7ea2\u4e66/\u6296\u97f3/\u5fae\u4fe1/\u98de\u4e66/\u9489\u9489/Qt \u4e0a",
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
@@ -16,15 +34,6 @@
     "stars": 0,
     "updated_at": "2026-10-20T14:08:25Z",
     "url": "https://github.com/eli-alvarado/agentkit-drawer"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-20T14:00:42Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -226,15 +235,6 @@
     "url": "https://github.com/WitthayaCatalano048/third-brain-v7-skills"
   },
   {
-    "description": "\u5168\u7403\u9152\u5e97\u9884\u8ba2&\u4f4e\u4ef7\u76d1\u63a7\u63d0\u9192Skill\uff0c200\u4e07+\u7cbe\u9009\u9152\u5e97\uff0c\u72ec\u5bb6\u4f18\u60e0\u4ef7\u683c\uff0c\u8ba9\u4f60\u7684Agent\u8f7b\u677e\u9884\u8ba2\u54c1\u8d28\u9152\u5e97\uff0c\u652f\u6301\u652f\u4ed8\u5b9d\u4e0b\u5355+\u67e5\u8be2\u5386\u53f2\u8ba2\u5355\uff0c24 \u5c0f\u65f6\u5ba2\u670d\u652f\u6301\uff0c\u5168\u5929\u5019\u54cd\u5e94\u3002",
-    "id": "alebedev520/rollinggo-hotel-skill-cn",
-    "language": "Python",
-    "name": "alebedev520/rollinggo-hotel-skill-cn",
-    "stars": 0,
-    "updated_at": "2026-10-20T08:45:33Z",
-    "url": "https://github.com/alebedev520/rollinggo-hotel-skill-cn"
-  },
-  {
     "description": "200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type",
     "id": "Gregoryw25188/MotionVault",
     "language": "TypeScript",
@@ -316,15 +316,6 @@
     "url": "https://github.com/Julia3446/third-brain-v7-skills"
   },
   {
-    "description": "\u5168\u7403\u9152\u5e97\u9884\u8ba2&\u4f4e\u4ef7\u76d1\u63a7\u63d0\u9192Skill\uff0c200\u4e07+\u7cbe\u9009\u9152\u5e97\uff0c\u72ec\u5bb6\u4f18\u60e0\u4ef7\u683c\uff0c\u8ba9\u4f60\u7684Agent\u8f7b\u677e\u9884\u8ba2\u54c1\u8d28\u9152\u5e97\uff0c\u652f\u6301\u652f\u4ed8\u5b9d\u4e0b\u5355+\u67e5\u8be2\u5386\u53f2\u8ba2\u5355\uff0c24 \u5c0f\u65f6\u5ba2\u670d\u652f\u6301\uff0c\u5168\u5929\u5019\u54cd\u5e94\u3002",
-    "id": "enricoc63242/rollinggo-hotel-skill-cn",
-    "language": "Python",
-    "name": "enricoc63242/rollinggo-hotel-skill-cn",
-    "stars": 0,
-    "updated_at": "2026-10-20T05:02:01Z",
-    "url": "https://github.com/enricoc63242/rollinggo-hotel-skill-cn"
-  },
-  {
     "description": "agent wiki +engineering skills ",
     "id": "heathercox5885/third-brain-v7-skills",
     "language": "Python",
@@ -388,15 +379,6 @@
     "url": "https://github.com/Helen4969/MotionVault"
   },
   {
-    "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
-    "id": "VanessaHashimoto34/AIGX",
-    "language": "Python",
-    "name": "VanessaHashimoto34/AIGX",
-    "stars": 0,
-    "updated_at": "2026-10-19T20:53:02Z",
-    "url": "https://github.com/VanessaHashimoto34/AIGX"
-  },
-  {
     "description": "agent wiki +engineering skills ",
     "id": "mariarossi20/third-brain-v7-skills",
     "language": "Python",
@@ -424,15 +406,6 @@
     "url": "https://github.com/ftruong66527/rollinggo-hotel-skill-cn"
   },
   {
-    "description": "200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type",
-    "id": "Dang9584/MotionVault",
-    "language": "TypeScript",
-    "name": "Dang9584/MotionVault",
-    "stars": 0,
-    "updated_at": "2026-10-19T20:37:07Z",
-    "url": "https://github.com/Dang9584/MotionVault"
-  },
-  {
     "description": "Agent skills from Eased: motion rules and values for React and Tailwind UI.",
     "id": "easedui/skills",
     "language": "CSS",
@@ -449,19 +422,5 @@
     "stars": 10,
     "updated_at": "2026-10-19T19:20:25Z",
     "url": "https://github.com/VenusOne-Lee/popia-compliance"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: claude-agents marketplace project conventions\nalwaysApply: true\n---\n\n# claude-agents conventions\n\nThis is a multi-harness plugin marketplace. Source lives under `plugins/`; per-harness\nartifacts (`.codex/`, `.cursor-plugin/`, `.opencode/`, `commands/`) are generated.\n\n- Don't hand-edit anything under `.codex/`, `.cursor-plugin/`, `.opencode/`, or top-level `commands/`, `agents/`, `skills/` \u2014 regenerate via `make generate HARNESS=<x>`.\n- Python tooling: `uv` (package manager), `ruff` (lint/format), `ty` (type check). Do not use pip/mypy/black.\n- Plugin files: `plugins/<name>/{.claude-plugin/plugin.json, agents/*.md, skills/<name>/SKILL.md, commands/*.md}`. Auto-discovered.\n- Cursor reads `.claude/skills/` and `.claude/agents/` directly \u2014 no separate `.cursor/skills/` is generated.\n\n## Never\n\n- Never commit secrets or hardcode credentials.\n- Never hand-edit generated registries (`.agents/plugins/marketplace.json`, `.cursor-plugin/`) \u2014 plugin PRs register the plugin in `.claude-plugin/marketplace.json`, then run `make generate-all` (see CONTRIBUTING.md).\n- Never run destructive git operations (force-push, reset --hard, branch -D) without explicit ask.\n\nSee `docs/authoring.md` for the portable-content style guide.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/000-project-conventions.mdc"
-    },
-    "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a",
-    "id": "wshobson/agents",
-    "language": "Python",
-    "name": "wshobson/agents",
-    "stars": 41223,
-    "updated_at": "2026-10-19T18:28:14Z",
-    "url": "https://github.com/wshobson/agents"
   }
 ]
