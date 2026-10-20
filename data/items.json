@@ -1,5 +1,50 @@
 [
   {
+    "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
+    "id": "emifernandez0481/AIGX",
+    "language": "Python",
+    "name": "emifernandez0481/AIGX",
+    "stars": 0,
+    "updated_at": "2026-10-20T08:55:06Z",
+    "url": "https://github.com/emifernandez0481/AIGX"
+  },
+  {
+    "description": "200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type",
+    "id": "omurd133/MotionVault",
+    "language": "TypeScript",
+    "name": "omurd133/MotionVault",
+    "stars": 0,
+    "updated_at": "2026-10-20T08:52:56Z",
+    "url": "https://github.com/omurd133/MotionVault"
+  },
+  {
+    "description": "agent wiki +engineering skills ",
+    "id": "WitthayaCatalano048/third-brain-v7-skills",
+    "language": "Python",
+    "name": "WitthayaCatalano048/third-brain-v7-skills",
+    "stars": 0,
+    "updated_at": "2026-10-20T08:46:03Z",
+    "url": "https://github.com/WitthayaCatalano048/third-brain-v7-skills"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-20T08:45:44Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\u5168\u7403\u9152\u5e97\u9884\u8ba2&\u4f4e\u4ef7\u76d1\u63a7\u63d0\u9192Skill\uff0c200\u4e07+\u7cbe\u9009\u9152\u5e97\uff0c\u72ec\u5bb6\u4f18\u60e0\u4ef7\u683c\uff0c\u8ba9\u4f60\u7684Agent\u8f7b\u677e\u9884\u8ba2\u54c1\u8d28\u9152\u5e97\uff0c\u652f\u6301\u652f\u4ed8\u5b9d\u4e0b\u5355+\u67e5\u8be2\u5386\u53f2\u8ba2\u5355\uff0c24 \u5c0f\u65f6\u5ba2\u670d\u652f\u6301\uff0c\u5168\u5929\u5019\u54cd\u5e94\u3002",
+    "id": "alebedev520/rollinggo-hotel-skill-cn",
+    "language": "Python",
+    "name": "alebedev520/rollinggo-hotel-skill-cn",
+    "stars": 0,
+    "updated_at": "2026-10-20T08:45:33Z",
+    "url": "https://github.com/alebedev520/rollinggo-hotel-skill-cn"
+  },
+  {
     "description": "200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type",
     "id": "Gregoryw25188/MotionVault",
     "language": "TypeScript",
@@ -23,31 +68,13 @@
     "url": "https://github.com/roedyrustam/vibes-plug"
   },
   {
-    "description": "\u5168\u7403\u9152\u5e97\u9884\u8ba2&\u4f4e\u4ef7\u76d1\u63a7\u63d0\u9192Skill\uff0c200\u4e07+\u7cbe\u9009\u9152\u5e97\uff0c\u72ec\u5bb6\u4f18\u60e0\u4ef7\u683c\uff0c\u8ba9\u4f60\u7684Agent\u8f7b\u677e\u9884\u8ba2\u54c1\u8d28\u9152\u5e97\uff0c\u652f\u6301\u652f\u4ed8\u5b9d\u4e0b\u5355+\u67e5\u8be2\u5386\u53f2\u8ba2\u5355\uff0c24 \u5c0f\u65f6\u5ba2\u670d\u652f\u6301\uff0c\u5168\u5929\u5019\u54cd\u5e94\u3002",
-    "id": "alebedev520/rollinggo-hotel-skill-cn",
-    "language": "Python",
-    "name": "alebedev520/rollinggo-hotel-skill-cn",
-    "stars": 0,
-    "updated_at": "2026-10-20T08:44:45Z",
-    "url": "https://github.com/alebedev520/rollinggo-hotel-skill-cn"
-  },
-  {
     "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
     "id": "KbWen/agentic-os",
     "language": "Python",
     "name": "KbWen/agentic-os",
     "stars": 214,
-    "updated_at": "2026-10-20T08:37:57Z",
+    "updated_at": "2026-10-20T08:54:11Z",
     "url": "https://github.com/KbWen/agentic-os"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-20T08:30:45Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Universal AGENTS.md rules for AI coding agents, written once and synced to Claude Code, Codex, GitHub Copilot, Cursor an",
@@ -446,37 +473,5 @@
     "stars": 0,
     "updated_at": "2026-10-19T14:59:02Z",
     "url": "https://github.com/cemschulz/rollinggo-hotel-skill-cn"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Rules for code that uses the Anpheros health-data backend (FHIR R4, patient consent, sandbox)\nglobs:\nalwaysApply: false\n---\n\nWhen this project stores or reads health data through Anpheros (https://platform.anpheros.com):\n\n- Use the sandbox (`sk_test_` keys, synthetic patients) for development; read the key from `ANPHEROS_KEY`; never\n  commit `sk_live_` keys or put real patient data in the sandbox.\n- Never invent LOINC, SNOMED CT, ICD-10, ICD-11, ATC or RxNorm codes: look them up (`GET /v1/search?q=\u2026`) or leave\n  them out. Units are UCUM.\n- A person's existing record is reached only with their consent (SMART on FHIR / OAuth 2.1 + PKCE). Treat `403` as\n  \"ask for more consent\", never as something to bypass.\n- Every write says its author (`author_type`); model-written data uses `author_type: \"ai\"`.\n- The app shows records and patterns; it does not diagnose or recommend treatment.\n- Store clinical data as FHIR R4 resources, not custom JSON. Ids are the same in `/v1` and `/fhir/R4`.\n\nDocs: https://developers.anpheros.com/guides/ \u00b7 Docs MCP (no account): https://platform.anpheros.com/mcp/docs \u00b7\nFull skill: `skills/anpheros-health-backend/SKILL.md`\n",
-      "format": "mdc",
-      "path": ".cursor/rules/anpheros.mdc"
-    },
-    "description": "Connect AI coding agents to a FHIR R4 health-data API: MCP server config, Agent Skill, Claude Code plugin, Cursor rules ",
-    "id": "anpheros/agent-skills",
-    "language": "\u2014",
-    "name": "anpheros/agent-skills",
-    "stars": 0,
-    "updated_at": "2026-10-19T14:52:52Z",
-    "url": "https://github.com/anpheros/agent-skills"
-  },
-  {
-    "description": "\u5168\u7403\u9152\u5e97\u9884\u8ba2&\u4f4e\u4ef7\u76d1\u63a7\u63d0\u9192Skill\uff0c200\u4e07+\u7cbe\u9009\u9152\u5e97\uff0c\u72ec\u5bb6\u4f18\u60e0\u4ef7\u683c\uff0c\u8ba9\u4f60\u7684Agent\u8f7b\u677e\u9884\u8ba2\u54c1\u8d28\u9152\u5e97\uff0c\u652f\u6301\u652f\u4ed8\u5b9d\u4e0b\u5355+\u67e5\u8be2\u5386\u53f2\u8ba2\u5355\uff0c24 \u5c0f\u65f6\u5ba2\u670d\u652f\u6301\uff0c\u5168\u5929\u5019\u54cd\u5e94\u3002",
-    "id": "Anurakv96/rollinggo-hotel-skill-cn",
-    "language": "Python",
-    "name": "Anurakv96/rollinggo-hotel-skill-cn",
-    "stars": 0,
-    "updated_at": "2026-10-19T14:51:48Z",
-    "url": "https://github.com/Anurakv96/rollinggo-hotel-skill-cn"
-  },
-  {
-    "description": "200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type",
-    "id": "sYoon78247/MotionVault",
-    "language": "TypeScript",
-    "name": "sYoon78247/MotionVault",
-    "stars": 0,
-    "updated_at": "2026-10-19T14:49:45Z",
-    "url": "https://github.com/sYoon78247/MotionVault"
   }
 ]
