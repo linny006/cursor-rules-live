@@ -1,6 +1,42 @@
 [
   {
     "description": "200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type",
+    "id": "PhuongRamos829/MotionVault",
+    "language": "TypeScript",
+    "name": "PhuongRamos829/MotionVault",
+    "stars": 0,
+    "updated_at": "2026-10-20T05:24:33Z",
+    "url": "https://github.com/PhuongRamos829/MotionVault"
+  },
+  {
+    "description": "Official 2026 LLM API Pricing Calendar, 272K/100K Context-Cliff Router, Chrome FinOps HUD Extension & Cursor MCP Server ",
+    "id": "cooyun/awesome-2026-llm-api-pricing",
+    "language": "\u2014",
+    "name": "cooyun/awesome-2026-llm-api-pricing",
+    "stars": 1,
+    "updated_at": "2026-10-20T05:18:55Z",
+    "url": "https://github.com/cooyun/awesome-2026-llm-api-pricing"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-20T05:15:54Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type",
+    "id": "Beatrice128/MotionVault",
+    "language": "TypeScript",
+    "name": "Beatrice128/MotionVault",
+    "stars": 0,
+    "updated_at": "2026-10-20T05:15:49Z",
+    "url": "https://github.com/Beatrice128/MotionVault"
+  },
+  {
+    "description": "200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type",
     "id": "anuraka142/MotionVault",
     "language": "TypeScript",
     "name": "anuraka142/MotionVault",
@@ -25,24 +61,6 @@
     "stars": 0,
     "updated_at": "2026-10-20T05:02:01Z",
     "url": "https://github.com/enricoc63242/rollinggo-hotel-skill-cn"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-20T05:00:54Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
-    "description": "Official 2026 LLM API Pricing Calendar, 272K/100K Context-Cliff Router, Chrome FinOps HUD Extension & Cursor MCP Server ",
-    "id": "cooyun/awesome-2026-llm-api-pricing",
-    "language": "\u2014",
-    "name": "cooyun/awesome-2026-llm-api-pricing",
-    "stars": 1,
-    "updated_at": "2026-10-20T04:57:43Z",
-    "url": "https://github.com/cooyun/awesome-2026-llm-api-pricing"
   },
   {
     "description": "agent wiki +engineering skills ",
@@ -252,7 +270,7 @@
     "id": "VenusOne-Lee/popia-compliance",
     "language": "Python",
     "name": "VenusOne-Lee/popia-compliance",
-    "stars": 9,
+    "stars": 10,
     "updated_at": "2026-10-19T19:20:25Z",
     "url": "https://github.com/VenusOne-Lee/popia-compliance"
   },
@@ -266,7 +284,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 41182,
+    "stars": 41183,
     "updated_at": "2026-10-19T18:28:14Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -465,23 +483,5 @@
     "stars": 2,
     "updated_at": "2026-10-19T09:23:17Z",
     "url": "https://github.com/glowElephant/context-forge"
-  },
-  {
-    "description": "\ud83c\uddee\ud83c\uddf7 Universal Persian (Farsi) typography, RTL direction, and BiDi formatting standards for AI coding agents (Antigravity,",
-    "id": "amir-hdri/awesome-persian-ai-rules",
-    "language": "Shell",
-    "name": "amir-hdri/awesome-persian-ai-rules",
-    "stars": 1,
-    "updated_at": "2026-10-19T09:04:12Z",
-    "url": "https://github.com/amir-hdri/awesome-persian-ai-rules"
-  },
-  {
-    "description": "\u5546\u4e1a\u5730\u4ea7\u4e13\u7528 AI Agent \u6280\u80fd\u5e93\uff1a39 \u4e2a\u5b9e\u6218\u6253\u78e8\u7684 SKILL.md\uff08\u62db\u5546\u6d4b\u7b97 / \u975e\u6807\u5546\u4e1a / \u5185\u5bb9\u8fd0\u8425 / \u4e13\u5bb6\u89d2\u8272\uff09\uff0c\u514d\u8d39 MIT",
-    "id": "ykjshenzhen2008-ship-it/commercial-real-estate-skills",
-    "language": "Python",
-    "name": "ykjshenzhen2008-ship-it/commercial-real-estate-skills",
-    "stars": 0,
-    "updated_at": "2026-10-19T07:48:05Z",
-    "url": "https://github.com/ykjshenzhen2008-ship-it/commercial-real-estate-skills"
   }
 ]
