@@ -1,11 +1,20 @@
 [
   {
+    "description": "Architectural drift prevention for the agentic AI SDLC.",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 28,
+    "updated_at": "2026-10-20T20:15:04Z",
+    "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-20T19:45:44Z",
+    "updated_at": "2026-10-20T20:00:36Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -66,15 +75,6 @@
     "stars": 11,
     "updated_at": "2026-10-20T18:37:50Z",
     "url": "https://github.com/VenusOne-Lee/popia-compliance"
-  },
-  {
-    "description": "Architectural drift prevention for the agentic AI SDLC.",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 28,
-    "updated_at": "2026-10-20T19:48:31Z",
-    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "description": "AI agent skill for MSW 2.0 \u2014 20 rules: handler design, REST/GraphQL, test patterns. Works with Claude Code, Cursor, Code",
@@ -254,7 +254,7 @@
     "language": "Python",
     "name": "tannergolden/intelligence",
     "stars": 0,
-    "updated_at": "2026-10-20T19:58:45Z",
+    "updated_at": "2026-10-20T20:12:15Z",
     "url": "https://github.com/tannergolden/intelligence"
   },
   {
