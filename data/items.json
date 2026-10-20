@@ -5,8 +5,17 @@
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
     "stars": 21426,
-    "updated_at": "2026-10-20T13:47:49Z",
+    "updated_at": "2026-10-20T14:14:30Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
+  },
+  {
+    "description": "Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam",
+    "id": "eli-alvarado/agentkit-drawer",
+    "language": "\u2014",
+    "name": "eli-alvarado/agentkit-drawer",
+    "stars": 0,
+    "updated_at": "2026-10-20T14:08:25Z",
+    "url": "https://github.com/eli-alvarado/agentkit-drawer"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,7 +23,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-20T13:45:51Z",
+    "updated_at": "2026-10-20T14:00:42Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -454,14 +463,5 @@
     "stars": 41223,
     "updated_at": "2026-10-19T18:28:14Z",
     "url": "https://github.com/wshobson/agents"
-  },
-  {
-    "description": "Point your AI coding agent at this repo and it installs a personalized ruleset for reproducible, analysis-first data sci",
-    "id": "NCEAS-AI/Coding-Agent-Rules-for-Data-Science",
-    "language": "Python",
-    "name": "NCEAS-AI/Coding-Agent-Rules-for-Data-Science",
-    "stars": 6,
-    "updated_at": "2026-10-19T18:22:14Z",
-    "url": "https://github.com/NCEAS-AI/Coding-Agent-Rules-for-Data-Science"
   }
 ]
