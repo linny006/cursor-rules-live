@@ -1,11 +1,20 @@
 [
   {
+    "description": "Drop-in AI agent rules (Cursor, Claude Code, AGENTS.md) that stop Supabase RLS holes, broken Stripe webhooks and Godot 3",
+    "id": "otctrading101/shiprules-free",
+    "language": "\u2014",
+    "name": "otctrading101/shiprules-free",
+    "stars": 0,
+    "updated_at": "2026-10-20T13:06:26Z",
+    "url": "https://github.com/otctrading101/shiprules-free"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-20T13:00:47Z",
+    "updated_at": "2026-10-20T13:01:42Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -315,7 +324,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21422,
+    "stars": 21423,
     "updated_at": "2026-10-20T03:39:57Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -428,7 +437,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 41218,
+    "stars": 41220,
     "updated_at": "2026-10-19T18:28:14Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -454,19 +463,5 @@
     "stars": 0,
     "updated_at": "2026-10-19T18:05:59Z",
     "url": "https://github.com/grizzlykiwidev/grizzlykiwidev.github.io"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Supabase RLS, grants and keys. Apply when writing Supabase migrations, policies, grants, views, functions, or client code that reads or writes Supabase data.\nglobs: supabase/**/*.sql, **/migrations/**/*.sql, **/*.sql\nalwaysApply: false\n---\n\n# Supabase RLS and grants: rules for writing secure migrations\n\nApply these whenever you create or change a Supabase table, view, function, policy or grant, or write client code that reads or writes Supabase data.\n\n## Every table in an exposed schema\n- Enable RLS in the **same migration** that creates the table: `alter table public.x enable row level security;`. A table must never exist without it.\n- RLS on with no policy denies everything. Add the policies the app needs in that same migration.\n- Grant explicitly, per table, only to the role that needs it and only the operations the app uses:\n  `grant select on public.x to authenticated;`\n  New tables don't get automatic grants for `anon`/`authenticated`/`service_role` (Supabase change of Oct 30, 2026); without a grant the API returns `42501 permission denied for table`.\n- Never \"fix\" a 42501 with `grant ... on all tables in schema public to anon, authenticated`. It also grants every table with RLS off, making it readable and writable with the public anon key.\n- Grant to `anon` only for data that signed-out visitors should read, and pair it with a policy that allows exactly that.\n\n## Policies\n- Write one policy per operation (`for select`, `for insert`, `for update`, `for delete`) and name the role with `to authenticated` (or `to anon`).\n- Wrap `auth.uid()` as `(select auth.uid())` so Postgres evaluates it once per query, not per row.\n- INSERT policies need `with check` (they can't have `using`, and without `with check` they let no rows in). On UPDATE, write both `using` (which rows) and `with check` (what they may become). If `with check` is missing, Postgres checks the new row against `using`, which is only safe when `using` is as strict as what a row may become: with an `or` (shared or team rows) a row can be handed to another user.\n- No policy protects a column it doesn't mention: an owner policy on `user_id` won't stop a user from changing `is_admin` on their own row. For sensitive columns, grant `update` only on the columns users may change (`grant update (body) on public.notes to authenticated;`).\n- UPDATE also needs a SELECT policy for the same rows, or it silently affects 0 rows.\n- Never use `using (true)` / `with check (true)` on private data. Allow it only for data that is public on purpose, and say so in a comment.\n- A policy must not query the table it protects (that raises `42P17 infinite recursion detected in policy`). Put the lookup in a `security definer` function in a **non-exposed** schema (e.g. `private`), with `set search_path = ''`, schema-qualified names, a filter on `(select auth.uid())`, `revoke all ... from public` and `grant execute` only to `authenticated`.\n- Multi-tenant data: scope rows to the caller's tenant through a membership lookup (the helper above), never through a value the client sends.\n\n## Views, functions, other schemas\n- Views run with the owner's privileges by default and skip RLS. Create them with `with (security_invoker = true)`, or don't expose them.\n- `security definer` functions bypass RLS: keep them out of exposed schemas unless they are meant as an API, and validate the caller inside.\n- A table in a non-`public` schema needs that schema in the Data API's exposed schemas, `grant usage on schema ... to <role>`, plus the table grant and RLS.\n\n## Keys and clients\n- The `anon` / publishable key is public by design; RLS is what protects data.\n- Never put the `service_role` / `sb_secret_...` key in frontend code, `NEXT_PUBLIC_*` / `VITE_*` env vars, or anything shipped to the browser. It bypasses all RLS. Use it only on the server.\n- On the server, create the Supabase client from the user's session (request cookies) so `auth.uid()` resolves; otherwise queries run as `anon`.\n\n## Errors and what they mean\n- `42501 permission denied for table|schema`: missing grant or schema usage (before RLS runs).\n- `new row violates row-level security policy`: an INSERT/UPDATE failed `with check`.\n- `PGRST116 Cannot coerce the result to a single JSON object` with `.single()` and a row that exists: RLS is hiding it from this caller (or there's no session). Use `.maybeSingle()` only when 0 rows is a normal answer.\n- An update or delete that returns no error but changes nothing: no matching UPDATE/DELETE (or SELECT) policy. Chain `.select()` to see the affected rows.\n- `PGRST205 Could not find the table ... in the schema cache`: wrong name/schema, schema not exposed, or a stale cache (`notify pgrst, 'reload schema';`).\n\n## Prove it\n- Test policies as the real roles (`anon`, `authenticated` as user A and as user B), not in the SQL editor, which bypasses RLS.\n- Check what the API roles can reach:\n  ```sql\n  select c.relname,\n         has_table_privilege('anon', c.oid, 'select') as anon_can_read,\n         c.relrowsecurity as rls_on\n  from pg_class c join pg_namespace n on n.oid = c.relnamespace\n  where n.nspname = 'public' and c.relkind = 'r'\n  order by 1;\n  ```\n  `anon_can_read = true` with `rls_on = false` means the table is public.\n- Gate it in CI: `npx airlock-rls` fails the build when a table ships without RLS or with an always-true policy.\n\nGuides with tested SQL for each rule: https://shipsealed.com/rls/\n",
-      "format": "mdc",
-      "path": ".cursor/rules/supabase-rls.mdc"
-    },
-    "description": "Rules that make Cursor, Claude Code and other AI agents write Supabase RLS policies and grants that don't leak data.",
-    "id": "mateuszingano/supabase-rls-rules",
-    "language": "\u2014",
-    "name": "mateuszingano/supabase-rls-rules",
-    "stars": 0,
-    "updated_at": "2026-10-19T18:02:01Z",
-    "url": "https://github.com/mateuszingano/supabase-rls-rules"
   }
 ]
