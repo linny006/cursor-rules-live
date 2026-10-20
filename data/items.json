@@ -1,5 +1,50 @@
 [
   {
+    "description": "200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type",
+    "id": "anuraka142/MotionVault",
+    "language": "TypeScript",
+    "name": "anuraka142/MotionVault",
+    "stars": 0,
+    "updated_at": "2026-10-20T05:11:50Z",
+    "url": "https://github.com/anuraka142/MotionVault"
+  },
+  {
+    "description": "agent wiki +engineering skills ",
+    "id": "Julia3446/third-brain-v7-skills",
+    "language": "Python",
+    "name": "Julia3446/third-brain-v7-skills",
+    "stars": 0,
+    "updated_at": "2026-10-20T05:05:37Z",
+    "url": "https://github.com/Julia3446/third-brain-v7-skills"
+  },
+  {
+    "description": "\u5168\u7403\u9152\u5e97\u9884\u8ba2&\u4f4e\u4ef7\u76d1\u63a7\u63d0\u9192Skill\uff0c200\u4e07+\u7cbe\u9009\u9152\u5e97\uff0c\u72ec\u5bb6\u4f18\u60e0\u4ef7\u683c\uff0c\u8ba9\u4f60\u7684Agent\u8f7b\u677e\u9884\u8ba2\u54c1\u8d28\u9152\u5e97\uff0c\u652f\u6301\u652f\u4ed8\u5b9d\u4e0b\u5355+\u67e5\u8be2\u5386\u53f2\u8ba2\u5355\uff0c24 \u5c0f\u65f6\u5ba2\u670d\u652f\u6301\uff0c\u5168\u5929\u5019\u54cd\u5e94\u3002",
+    "id": "enricoc63242/rollinggo-hotel-skill-cn",
+    "language": "Python",
+    "name": "enricoc63242/rollinggo-hotel-skill-cn",
+    "stars": 0,
+    "updated_at": "2026-10-20T05:02:01Z",
+    "url": "https://github.com/enricoc63242/rollinggo-hotel-skill-cn"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-20T05:00:54Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Official 2026 LLM API Pricing Calendar, 272K/100K Context-Cliff Router, Chrome FinOps HUD Extension & Cursor MCP Server ",
+    "id": "cooyun/awesome-2026-llm-api-pricing",
+    "language": "\u2014",
+    "name": "cooyun/awesome-2026-llm-api-pricing",
+    "stars": 1,
+    "updated_at": "2026-10-20T04:57:43Z",
+    "url": "https://github.com/cooyun/awesome-2026-llm-api-pricing"
+  },
+  {
     "description": "agent wiki +engineering skills ",
     "id": "heathercox5885/third-brain-v7-skills",
     "language": "Python",
@@ -27,21 +72,12 @@
     "url": "https://github.com/Catherine1401/agent-skills"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-20T04:45:33Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
     "id": "bompus/house-rules",
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 2,
-    "updated_at": "2026-10-20T04:23:27Z",
+    "updated_at": "2026-10-20T05:14:00Z",
     "url": "https://github.com/bompus/house-rules"
   },
   {
@@ -49,7 +85,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21404,
+    "stars": 21405,
     "updated_at": "2026-10-20T03:39:57Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -230,7 +266,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 41181,
+    "stars": 41182,
     "updated_at": "2026-10-19T18:28:14Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -447,46 +483,5 @@
     "stars": 0,
     "updated_at": "2026-10-19T07:48:05Z",
     "url": "https://github.com/ykjshenzhen2008-ship-it/commercial-real-estate-skills"
-  },
-  {
-    "description": "\u5168\u7403\u9152\u5e97\u9884\u8ba2&\u4f4e\u4ef7\u76d1\u63a7\u63d0\u9192Skill\uff0c200\u4e07+\u7cbe\u9009\u9152\u5e97\uff0c\u72ec\u5bb6\u4f18\u60e0\u4ef7\u683c\uff0c\u8ba9\u4f60\u7684Agent\u8f7b\u677e\u9884\u8ba2\u54c1\u8d28\u9152\u5e97\uff0c\u652f\u6301\u652f\u4ed8\u5b9d\u4e0b\u5355+\u67e5\u8be2\u5386\u53f2\u8ba2\u5355\uff0c24 \u5c0f\u65f6\u5ba2\u670d\u652f\u6301\uff0c\u5168\u5929\u5019\u54cd\u5e94\u3002",
-    "id": "Daniels73131/rollinggo-hotel-skill-cn",
-    "language": "Python",
-    "name": "Daniels73131/rollinggo-hotel-skill-cn",
-    "stars": 0,
-    "updated_at": "2026-10-19T06:16:47Z",
-    "url": "https://github.com/Daniels73131/rollinggo-hotel-skill-cn"
-  },
-  {
-    "description": "agent wiki +engineering skills ",
-    "id": "Petit15296/third-brain-v7-skills",
-    "language": "Python",
-    "name": "Petit15296/third-brain-v7-skills",
-    "stars": 0,
-    "updated_at": "2026-10-19T06:09:34Z",
-    "url": "https://github.com/Petit15296/third-brain-v7-skills"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Humanize assistant output. Drop AI-isms, engineer burstiness, preserve technical accuracy.\nalwaysApply: true\n---\n\nWrite like a careful human. All technical substance stays exact. Only AI-slop dies.\n\nRules:\n- Drop: sycophancy (\"great question\", \"I'd be happy to\"), stock vocab (delve/tapestry/testament/realm/landscape/seamless/holistic/leverage-as-filler/cutting-edge/state-of-the-art), hedging stacks (\"it's important to note that\"), tricolon padding, em-dash pileups (hard cap: two per paragraph), performative balance.\n- Engineer burstiness: mix short and long sentences deliberately. Avoid tidy five-paragraph essay shapes.\n- Keep: technical terms exact, errors quoted exact, code unchanged, real uncertainty (\"I think\", \"probably\") when honest.\n- Pattern: [concrete observation]. [why or implication]. [what to do next].\n- Not: \"Sure! There are several factors to consider...\"\n- Yes: \"Bug in auth middleware. Token expiry uses `<` not `<=`. Fix L42:\"\n\nPrinciples: Subtract, don't add (warmth = sycophancy). Style \u2260 stance (humanize voice, don't soften disagreement). Warmth raises error rate \u2014 re-verify facts after rewriting. Simulated voice, not personhood (never invent bio, memory, or emotion). Reason privately, humanize publicly (think structured, output human).\n\nSwitch level: /unslop subtle|balanced|full|voice-match|anti-detector\nStop: \"stop unslop\" or \"normal mode\"\n\nAuto-Clarity: drop unslop style for security warnings, irreversible actions, legal/medical/financial precision, user confused. Resume after.\n\nBoundaries: code/commits/PRs written normal. Never invent facts to sound human. Anti-detector mode is for defensive use (ESL false positives, resume writers) \u2014 not for academic misconduct.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/unslop.mdc"
-    },
-    "description": "Make AI output sound human. Strips AI-isms (sycophancy, stock vocab, hedging stacks, em-dash pileups), preserves code/UR",
-    "id": "MohamedAbdallah-14/unslop",
-    "language": "Python",
-    "name": "MohamedAbdallah-14/unslop",
-    "stars": 161,
-    "updated_at": "2026-10-19T06:09:13Z",
-    "url": "https://github.com/MohamedAbdallah-14/unslop"
-  },
-  {
-    "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
-    "id": "Ashikaga400/AIGX",
-    "language": "Python",
-    "name": "Ashikaga400/AIGX",
-    "stars": 0,
-    "updated_at": "2026-10-19T06:00:28Z",
-    "url": "https://github.com/Ashikaga400/AIGX"
   }
 ]
