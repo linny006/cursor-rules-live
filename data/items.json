@@ -1,11 +1,38 @@
 [
   {
+    "description": "Open-source POPIA privacy and security guardrails for South African builders, for every AI coding tool.",
+    "id": "VenusOne-Lee/popia-compliance",
+    "language": "Python",
+    "name": "VenusOne-Lee/popia-compliance",
+    "stars": 10,
+    "updated_at": "2026-10-20T15:29:32Z",
+    "url": "https://github.com/VenusOne-Lee/popia-compliance"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-10-20T15:28:33Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "Free sample Cursor and Claude Code rules for FastAPI, Next.js and Spring Boot, from codebaserules.com",
+    "id": "rahuldeojoshi/codebaserules-samples",
+    "language": "\u2014",
+    "name": "rahuldeojoshi/codebaserules-samples",
+    "stars": 0,
+    "updated_at": "2026-10-20T15:23:41Z",
+    "url": "https://github.com/rahuldeojoshi/codebaserules-samples"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-20T15:01:04Z",
+    "updated_at": "2026-10-20T15:15:46Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -31,7 +58,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21429,
+    "stars": 21430,
     "updated_at": "2026-10-20T14:14:30Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -156,15 +183,6 @@
     "stars": 0,
     "updated_at": "2026-10-20T10:43:41Z",
     "url": "https://github.com/tannergolden/intelligence"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-10-20T10:39:55Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "cursorrules": {
@@ -368,14 +386,5 @@
     "stars": 0,
     "updated_at": "2026-10-19T20:37:39Z",
     "url": "https://github.com/ftruong66527/rollinggo-hotel-skill-cn"
-  },
-  {
-    "description": "Agent skills from Eased: motion rules and values for React and Tailwind UI.",
-    "id": "easedui/skills",
-    "language": "CSS",
-    "name": "easedui/skills",
-    "stars": 0,
-    "updated_at": "2026-10-19T19:51:27Z",
-    "url": "https://github.com/easedui/skills"
   }
 ]
