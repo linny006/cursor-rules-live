@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-20T21:00:35Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Your AI assistant reads CLAUDE.md and ignores it anyway. \u0100rai makes instruction files enforced \u2014 hooks that block, a tam",
     "id": "taniwhaai/arai",
     "language": "Rust",
@@ -7,15 +16,6 @@
     "stars": 7,
     "updated_at": "2026-10-20T20:59:55Z",
     "url": "https://github.com/taniwhaai/arai"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-20T20:45:55Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Architectural drift prevention for the agentic AI SDLC.",
@@ -163,6 +163,15 @@
     "url": "https://github.com/sublimecoder/sublimecoding"
   },
   {
+    "description": "Free sample Cursor and Claude Code rules for FastAPI, Next.js and Spring Boot, from codebaserules.com",
+    "id": "rahuldeojoshi/codebaserules-samples",
+    "language": "\u2014",
+    "name": "rahuldeojoshi/codebaserules-samples",
+    "stars": 0,
+    "updated_at": "2026-10-20T15:23:41Z",
+    "url": "https://github.com/rahuldeojoshi/codebaserules-samples"
+  },
+  {
     "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
     "id": "agenticstandardcontact-byte/agentic-architect",
     "language": "HTML",
@@ -263,7 +272,7 @@
     "language": "Python",
     "name": "tannergolden/intelligence",
     "stars": 0,
-    "updated_at": "2026-10-20T20:50:33Z",
+    "updated_at": "2026-10-20T21:02:04Z",
     "url": "https://github.com/tannergolden/intelligence"
   },
   {
@@ -489,19 +498,5 @@
     "stars": 0,
     "updated_at": "2026-10-19T05:16:55Z",
     "url": "https://github.com/thebestbaduser/fz168-linter"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Apply strict accessibility and UI rules from the not-optional toolkit.\nglobs: \"**/*.{html,css,jsx,tsx,vue,svelte}\"\nalwaysApply: false\n---\n\n# not-optional accessibility rules\n\nWhen building or modifying UI components, strictly follow the rules defined in `agent-instructions.md`.\n\nKey requirements:\n- Use native semantic HTML elements; avoid ARIA unless a native element cannot express the state.\n- Ensure strict compliance with WCAG 2.1 AA for text contrast.\n- Implement explicit `:focus-visible` styles using the defined 3px width and 2px offset.\n- Adhere to micro-chunking laws: max 4 visual lines per chunk, max 45 words per body block, and 45-65 characters per line (max 75).\n- Use the design tokens from `principles/tokens.screen.json` or `principles/tokens.print-monochrome.json`.\n- Fail closed on critical violations.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/not-optional.mdc"
-    },
-    "description": "Accessibility is not a request. A practical, lived-experience toolkit for making digital products and printables usable ",
-    "id": "gabrieldcpaiva/not-optional",
-    "language": "Markdown",
-    "name": "gabrieldcpaiva/not-optional",
-    "stars": 1,
-    "updated_at": "2026-10-19T03:05:22Z",
-    "url": "https://github.com/gabrieldcpaiva/not-optional"
   }
 ]
