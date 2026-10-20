@@ -1,11 +1,20 @@
 [
   {
+    "description": "\ud83c\udfad 277 \u4e2a\u5373\u63d2\u5373\u7528\u7684 AI \u4e13\u5bb6\u89d2\u8272 \u2014 \u652f\u6301 Claude Code/Cursor/Copilot \u7b49 20 \u79cd\u5de5\u5177\uff0c\u8986\u76d6\u5de5\u7a0b/\u8bbe\u8ba1/\u8425\u9500/\u91d1\u878d\u7b49 20 \u4e2a\u90e8\u95e8\u3002\u542b 64 \u4e2a\u4e2d\u56fd\u5e02\u573a\u539f\u521b\u667a\u80fd\u4f53\uff08\u5c0f\u7ea2\u4e66/\u6296\u97f3/\u5fae\u4fe1/\u98de\u4e66/\u9489\u9489/Qt \u4e0a",
+    "id": "jnMetaCode/agency-agents-zh",
+    "language": "Shell",
+    "name": "jnMetaCode/agency-agents-zh",
+    "stars": 21392,
+    "updated_at": "2026-10-20T01:41:44Z",
+    "url": "https://github.com/jnMetaCode/agency-agents-zh"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-20T01:15:35Z",
+    "updated_at": "2026-10-20T01:30:52Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -135,7 +144,7 @@
     "id": "roedyrustam/vibes-plug",
     "language": "JavaScript",
     "name": "roedyrustam/vibes-plug",
-    "stars": 94,
+    "stars": 95,
     "updated_at": "2026-10-19T20:14:49Z",
     "url": "https://github.com/roedyrustam/vibes-plug"
   },
@@ -167,7 +176,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 41164,
+    "stars": 41165,
     "updated_at": "2026-10-19T18:28:14Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -193,15 +202,6 @@
     "stars": 0,
     "updated_at": "2026-10-19T18:05:59Z",
     "url": "https://github.com/grizzlykiwidev/grizzlykiwidev.github.io"
-  },
-  {
-    "description": "\ud83c\udfad 277 \u4e2a\u5373\u63d2\u5373\u7528\u7684 AI \u4e13\u5bb6\u89d2\u8272 \u2014 \u652f\u6301 Claude Code/Cursor/Copilot \u7b49 20 \u79cd\u5de5\u5177\uff0c\u8986\u76d6\u5de5\u7a0b/\u8bbe\u8ba1/\u8425\u9500/\u91d1\u878d\u7b49 20 \u4e2a\u90e8\u95e8\u3002\u542b 64 \u4e2a\u4e2d\u56fd\u5e02\u573a\u539f\u521b\u667a\u80fd\u4f53\uff08\u5c0f\u7ea2\u4e66/\u6296\u97f3/\u5fae\u4fe1/\u98de\u4e66/\u9489\u9489/Qt \u4e0a",
-    "id": "jnMetaCode/agency-agents-zh",
-    "language": "Shell",
-    "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21390,
-    "updated_at": "2026-10-19T18:04:25Z",
-    "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
   {
     "cursorrules": {
