@@ -1,12 +1,12 @@
 [
   {
-    "description": "Free AGENTS.md, Cursor rule and audit-prompt templates for AI coding agents (CC BY 4.0). AI-assisted starting points.",
-    "id": "agentkitco/agent-config-templates",
-    "language": "\u2014",
-    "name": "agentkitco/agent-config-templates",
-    "stars": 0,
-    "updated_at": "2026-10-20T02:14:00Z",
-    "url": "https://github.com/agentkitco/agent-config-templates"
+    "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
+    "id": "bompus/house-rules",
+    "language": "JavaScript",
+    "name": "bompus/house-rules",
+    "stars": 2,
+    "updated_at": "2026-10-20T02:18:50Z",
+    "url": "https://github.com/bompus/house-rules"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-20T02:08:27Z",
+    "updated_at": "2026-10-20T02:15:52Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Free AGENTS.md, Cursor rule and audit-prompt templates for AI coding agents (CC BY 4.0). AI-assisted starting points.",
+    "id": "agentkitco/agent-config-templates",
+    "language": "\u2014",
+    "name": "agentkitco/agent-config-templates",
+    "stars": 0,
+    "updated_at": "2026-10-20T02:14:00Z",
+    "url": "https://github.com/agentkitco/agent-config-templates"
   },
   {
     "description": "Universal AGENTS.md rules for AI coding agents, written once and synced to Claude Code, Codex, GitHub Copilot, Cursor an",
@@ -40,7 +49,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21396,
+    "stars": 21397,
     "updated_at": "2026-10-20T01:41:44Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -52,15 +61,6 @@
     "stars": 1,
     "updated_at": "2026-10-20T00:57:36Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
-    "id": "bompus/house-rules",
-    "language": "JavaScript",
-    "name": "bompus/house-rules",
-    "stars": 2,
-    "updated_at": "2026-10-20T02:03:01Z",
-    "url": "https://github.com/bompus/house-rules"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -194,7 +194,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 41170,
+    "stars": 41174,
     "updated_at": "2026-10-19T18:28:14Z",
     "url": "https://github.com/wshobson/agents"
   },
