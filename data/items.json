@@ -1,5 +1,32 @@
 [
   {
+    "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
+    "id": "bompus/house-rules",
+    "language": "JavaScript",
+    "name": "bompus/house-rules",
+    "stars": 2,
+    "updated_at": "2026-10-20T17:20:02Z",
+    "url": "https://github.com/bompus/house-rules"
+  },
+  {
+    "description": "AI agent skill for MSW 2.0 \u2014 20 rules: handler design, REST/GraphQL, test patterns. Works with Claude Code, Cursor, Code",
+    "id": "anivar/msw-skill",
+    "language": "\u2014",
+    "name": "anivar/msw-skill",
+    "stars": 1,
+    "updated_at": "2026-10-20T17:17:43Z",
+    "url": "https://github.com/anivar/msw-skill"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-20T17:15:54Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "\u63d0\u793a\u8bcd\u767e\u5b9d\u7bb1\uff1a66 \u6761\u539f\u521b\u4e2d\u6587 Prompt \u4e0e AI Agent \u6a21\u677f\uff08\u7f16\u7a0b/\u524d\u7aef/\u4ee3\u7801\u5ba1\u67e5/\u6587\u6863/\u4ea7\u54c1/\u8fd0\u8425/\u5b66\u4e60/\u6c42\u804c/Agent \u5de5\u4f5c\u6d41/Cursor rules/Claude skills\uff09\uff0c\u586b\u53d8\u91cf\u4e00\u952e\u590d\u5236",
     "id": "MsNan/prompt-hub-cn",
     "language": "JavaScript",
@@ -16,15 +43,6 @@
     "stars": 0,
     "updated_at": "2026-10-20T17:04:51Z",
     "url": "https://github.com/abapforagents/abap-for-agents-lite"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-20T17:00:41Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -285,15 +303,6 @@
     "url": "https://github.com/WitthayaCatalano048/third-brain-v7-skills"
   },
   {
-    "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
-    "id": "bompus/house-rules",
-    "language": "JavaScript",
-    "name": "bompus/house-rules",
-    "stars": 2,
-    "updated_at": "2026-10-20T17:11:00Z",
-    "url": "https://github.com/bompus/house-rules"
-  },
-  {
     "description": "Official 2026 LLM API Pricing Calendar, 272K/100K Context-Cliff Router, Chrome FinOps HUD Extension & Cursor MCP Server ",
     "id": "cooyun/awesome-2026-llm-api-pricing",
     "language": "\u2014",
@@ -420,7 +429,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 41229,
+    "stars": 41231,
     "updated_at": "2026-10-19T18:28:14Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -469,14 +478,5 @@
     "stars": 29,
     "updated_at": "2026-10-19T17:54:27Z",
     "url": "https://github.com/jcottam/agent-resources"
-  },
-  {
-    "description": "\u2692\ufe0f Skillforge: Zero-Daemon Rust Book-to-Skill Compiler, Progressive Skill Router & First-Class DeepSeek Harness (DSH) Co",
-    "id": "rachitdev/skillforge",
-    "language": "Rust",
-    "name": "rachitdev/skillforge",
-    "stars": 1,
-    "updated_at": "2026-10-19T17:23:35Z",
-    "url": "https://github.com/rachitdev/skillforge"
   }
 ]
