@@ -1,11 +1,20 @@
 [
   {
+    "description": "Free MIT rules that stop Cursor, Claude Code, Copilot, Windsurf and Codex from writing wrong ABAP. EN + PT.",
+    "id": "abapforagents/abap-for-agents-lite",
+    "language": "\u2014",
+    "name": "abapforagents/abap-for-agents-lite",
+    "stars": 0,
+    "updated_at": "2026-10-20T15:57:48Z",
+    "url": "https://github.com/abapforagents/abap-for-agents-lite"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-20T15:30:46Z",
+    "updated_at": "2026-10-20T15:45:44Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -32,7 +41,7 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 28,
-    "updated_at": "2026-10-20T15:11:55Z",
+    "updated_at": "2026-10-20T15:58:18Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
@@ -269,15 +278,6 @@
     "stars": 1,
     "updated_at": "2026-10-20T05:18:55Z",
     "url": "https://github.com/cooyun/awesome-2026-llm-api-pricing"
-  },
-  {
-    "description": "200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type",
-    "id": "Beatrice128/MotionVault",
-    "language": "TypeScript",
-    "name": "Beatrice128/MotionVault",
-    "stars": 0,
-    "updated_at": "2026-10-20T05:15:49Z",
-    "url": "https://github.com/Beatrice128/MotionVault"
   },
   {
     "description": "200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type",
