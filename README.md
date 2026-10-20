@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-20 16:00 UTC
+> ⏰ Last updated: 2026-10-20 16:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,30 +53,30 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [abapforagents/abap-for-agents-lite](https://github.com/abapforagents/abap-for-agents-lite) | 0 | — | 2026-10-20 | — | Free MIT rules that stop Cursor, Claude Code, Copilot, Windsurf and Codex from writing wrong ABAP. EN + PT. |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-20 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 3 | [VenusOne-Lee/popia-compliance](https://github.com/VenusOne-Lee/popia-compliance) | 10 | Python | 2026-10-20 | — | Open-source POPIA privacy and security guardrails for South African builders, for every AI coding tool. |
-| 4 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-20 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
-| 5 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 28 | Python | 2026-10-20 | — | Architectural drift prevention for the agentic AI SDLC. |
-| 6 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-10-20 | — | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
-| 7 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 21430 | Shell | 2026-10-20 | — | 🎭 277 个即插即用的 AI 专家角色 — 支持 Claude Code/Cursor/Copilot 等 20 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 64 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉/Qt 上 |
-| 8 | [eli-alvarado/agentkit-drawer](https://github.com/eli-alvarado/agentkit-drawer) | 0 | — | 2026-10-20 | — | Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam |
-| 9 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-10-20 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 10 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 215 | Python | 2026-10-20 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
-| 11 | [vibestackdev/vibe-stack](https://github.com/vibestackdev/vibe-stack) | 8 | TypeScript | 2026-10-20 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/) | 29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b |
-| 12 | [otctrading101/shiprules-free](https://github.com/otctrading101/shiprules-free) | 0 | — | 2026-10-20 | — | Drop-in AI agent rules (Cursor, Claude Code, AGENTS.md) that stop Supabase RLS holes, broken Stripe webhooks and Godot 3 |
-| 13 | [sscodeai/agency-agents-ja](https://github.com/sscodeai/agency-agents-ja) | 9 | Shell | 2026-10-20 | — | 404体の即戦力AI専門エージェント集 — Claude Code / Cursor / Copilot 等に対応。日本市場向けオリジナル125体（SIer・受託開発・SaaS・製造DX・公共分野）。agency-agentsの日本語コミュ |
-| 14 | [piekwerk/agents-md-examples](https://github.com/piekwerk/agents-md-examples) | 0 | — | 2026-10-20 | — | AGENTS.md examples for every stack. Drop one in your repo and your AI coding agent knows the conventions. |
-| 15 | [GeiserX/lynxprompt-vscode](https://github.com/GeiserX/lynxprompt-vscode) | 2 | TypeScript | 2026-10-20 | — | VS Code extension for LynxPrompt — browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules)  |
-| 16 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 20 | TypeScript | 2026-10-20 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
-| 17 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-10-20 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
-| 18 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-10-20 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
-| 19 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 50 | — | 2026-10-20 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
-| 20 | [tannergolden/intelligence](https://github.com/tannergolden/intelligence) | 0 | Python | 2026-10-20 | — | Universal AGENTS.md rules for AI coding agents, written once and synced to Claude Code, Codex, GitHub Copilot, Cursor an |
-| 21 | [roedyrustam/vibes-plug](https://github.com/roedyrustam/vibes-plug) | 105 | JavaScript | 2026-10-20 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/roedyrustam/vibes-plug/) | ⚡ Cross-IDE AI skill collection that orchestrates 160 specialized subagents for full-stack development workflows |
-| 22 | [vorlaxen-labs/agent-skills](https://github.com/vorlaxen-labs/agent-skills) | 6 | TypeScript | 2026-10-20 | — | Agent skills CLI: init AGENTS.md, install SKILL.md from any GitHub repo for Cursor, Claude Code, Copilot, Windsurf, Code |
-| 23 | [UyenLeone9950/AIGX](https://github.com/UyenLeone9950/AIGX) | 0 | Python | 2026-10-20 | — | Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig |
-| 24 | [oda41/third-brain-v7-skills](https://github.com/oda41/third-brain-v7-skills) | 0 | Python | 2026-10-20 | — | agent wiki +engineering skills  |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-20 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [sublimecoder/sublimecoding](https://github.com/sublimecoder/sublimecoding) | 0 | — | 2026-10-20 | — | 🛠️ Free Claude Code & Cursor prompts for senior engineers — plus AIOS, an open-source markdown memory system for coding  |
+| 3 | [abapforagents/abap-for-agents-lite](https://github.com/abapforagents/abap-for-agents-lite) | 0 | — | 2026-10-20 | — | Free MIT rules that stop Cursor, Claude Code, Copilot, Windsurf and Codex from writing wrong ABAP. EN + PT. |
+| 4 | [VenusOne-Lee/popia-compliance](https://github.com/VenusOne-Lee/popia-compliance) | 11 | Python | 2026-10-20 | — | Open-source POPIA privacy and security guardrails for South African builders, for every AI coding tool. |
+| 5 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-20 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
+| 6 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 28 | Python | 2026-10-20 | — | Architectural drift prevention for the agentic AI SDLC. |
+| 7 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-10-20 | — | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
+| 8 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 21430 | Shell | 2026-10-20 | — | 🎭 277 个即插即用的 AI 专家角色 — 支持 Claude Code/Cursor/Copilot 等 20 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 64 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉/Qt 上 |
+| 9 | [eli-alvarado/agentkit-drawer](https://github.com/eli-alvarado/agentkit-drawer) | 0 | — | 2026-10-20 | — | Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam |
+| 10 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-10-20 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
+| 11 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 215 | Python | 2026-10-20 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
+| 12 | [vibestackdev/vibe-stack](https://github.com/vibestackdev/vibe-stack) | 8 | TypeScript | 2026-10-20 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/) | 29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b |
+| 13 | [otctrading101/shiprules-free](https://github.com/otctrading101/shiprules-free) | 0 | — | 2026-10-20 | — | Drop-in AI agent rules (Cursor, Claude Code, AGENTS.md) that stop Supabase RLS holes, broken Stripe webhooks and Godot 3 |
+| 14 | [sscodeai/agency-agents-ja](https://github.com/sscodeai/agency-agents-ja) | 9 | Shell | 2026-10-20 | — | 404体の即戦力AI専門エージェント集 — Claude Code / Cursor / Copilot 等に対応。日本市場向けオリジナル125体（SIer・受託開発・SaaS・製造DX・公共分野）。agency-agentsの日本語コミュ |
+| 15 | [piekwerk/agents-md-examples](https://github.com/piekwerk/agents-md-examples) | 0 | — | 2026-10-20 | — | AGENTS.md examples for every stack. Drop one in your repo and your AI coding agent knows the conventions. |
+| 16 | [GeiserX/lynxprompt-vscode](https://github.com/GeiserX/lynxprompt-vscode) | 2 | TypeScript | 2026-10-20 | — | VS Code extension for LynxPrompt — browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules)  |
+| 17 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 20 | TypeScript | 2026-10-20 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
+| 18 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-10-20 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
+| 19 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-10-20 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
+| 20 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 50 | — | 2026-10-20 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
+| 21 | [tannergolden/intelligence](https://github.com/tannergolden/intelligence) | 0 | Python | 2026-10-20 | — | Universal AGENTS.md rules for AI coding agents, written once and synced to Claude Code, Codex, GitHub Copilot, Cursor an |
+| 22 | [roedyrustam/vibes-plug](https://github.com/roedyrustam/vibes-plug) | 105 | JavaScript | 2026-10-20 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/roedyrustam/vibes-plug/) | ⚡ Cross-IDE AI skill collection that orchestrates 160 specialized subagents for full-stack development workflows |
+| 23 | [vorlaxen-labs/agent-skills](https://github.com/vorlaxen-labs/agent-skills) | 6 | TypeScript | 2026-10-20 | — | Agent skills CLI: init AGENTS.md, install SKILL.md from any GitHub repo for Cursor, Claude Code, Copilot, Windsurf, Code |
+| 24 | [UyenLeone9950/AIGX](https://github.com/UyenLeone9950/AIGX) | 0 | Python | 2026-10-20 | — | Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig |
 | 25 | [Gunduz71/MotionVault](https://github.com/Gunduz71/MotionVault) | 0 | TypeScript | 2026-10-20 | — | 200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type |
 | 26 | [emifernandez0481/AIGX](https://github.com/emifernandez0481/AIGX) | 0 | Python | 2026-10-20 | — | Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig |
 | 27 | [omurd133/MotionVault](https://github.com/omurd133/MotionVault) | 0 | TypeScript | 2026-10-20 | — | 200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type |
