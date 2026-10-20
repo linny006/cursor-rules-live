@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-20T18:01:00Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Free private developer tools (JSON, JWT, cURL, cron, SSH keys) that run in your browser, plus AI Skill Studio: a CLAUDE.",
     "id": "Saad-web-spec/DevScratchPad",
     "language": "TypeScript",
@@ -7,15 +16,6 @@
     "stars": 2,
     "updated_at": "2026-10-20T17:59:51Z",
     "url": "https://github.com/Saad-web-spec/DevScratchPad"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-20T17:59:14Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -123,7 +123,7 @@
     "language": "Python",
     "name": "VenusOne-Lee/popia-compliance",
     "stars": 11,
-    "updated_at": "2026-10-20T15:29:32Z",
+    "updated_at": "2026-10-20T18:06:55Z",
     "url": "https://github.com/VenusOne-Lee/popia-compliance"
   },
   {
@@ -176,7 +176,7 @@
     "id": "KbWen/agentic-os",
     "language": "Python",
     "name": "KbWen/agentic-os",
-    "stars": 215,
+    "stars": 216,
     "updated_at": "2026-10-20T13:37:23Z",
     "url": "https://github.com/KbWen/agentic-os"
   },
@@ -447,7 +447,7 @@
     "id": "NCEAS-AI/Coding-Agent-Rules-for-Data-Science",
     "language": "Python",
     "name": "NCEAS-AI/Coding-Agent-Rules-for-Data-Science",
-    "stars": 6,
+    "stars": 7,
     "updated_at": "2026-10-19T18:22:14Z",
     "url": "https://github.com/NCEAS-AI/Coding-Agent-Rules-for-Data-Science"
   },
