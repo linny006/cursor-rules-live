@@ -1,5 +1,23 @@
 [
   {
+    "description": "Universal AGENTS.md rules for AI coding agents, written once and synced to Claude Code, Codex, GitHub Copilot, Cursor an",
+    "id": "tannergolden/intelligence",
+    "language": "Python",
+    "name": "tannergolden/intelligence",
+    "stars": 0,
+    "updated_at": "2026-10-20T09:27:50Z",
+    "url": "https://github.com/tannergolden/intelligence"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-20T09:15:59Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Open, MIT context format for AI coding agents: centralized .aigx/ rules + a per-file boundary index that targets the rig",
     "id": "UyenLeone9950/AIGX",
     "language": "Python",
@@ -16,15 +34,6 @@
     "stars": 0,
     "updated_at": "2026-10-20T09:07:25Z",
     "url": "https://github.com/oda41/third-brain-v7-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-20T09:00:59Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type",
@@ -90,7 +99,7 @@
     "id": "roedyrustam/vibes-plug",
     "language": "JavaScript",
     "name": "roedyrustam/vibes-plug",
-    "stars": 97,
+    "stars": 98,
     "updated_at": "2026-10-20T08:40:28Z",
     "url": "https://github.com/roedyrustam/vibes-plug"
   },
@@ -102,15 +111,6 @@
     "stars": 214,
     "updated_at": "2026-10-20T08:54:11Z",
     "url": "https://github.com/KbWen/agentic-os"
-  },
-  {
-    "description": "Universal AGENTS.md rules for AI coding agents, written once and synced to Claude Code, Codex, GitHub Copilot, Cursor an",
-    "id": "tannergolden/intelligence",
-    "language": "Python",
-    "name": "tannergolden/intelligence",
-    "stars": 0,
-    "updated_at": "2026-10-20T09:12:05Z",
-    "url": "https://github.com/tannergolden/intelligence"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -261,7 +261,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21416,
+    "stars": 21417,
     "updated_at": "2026-10-20T03:39:57Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -383,7 +383,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 41206,
+    "stars": 41207,
     "updated_at": "2026-10-19T18:28:14Z",
     "url": "https://github.com/wshobson/agents"
   },
