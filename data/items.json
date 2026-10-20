@@ -1,11 +1,38 @@
 [
   {
+    "description": "AGENTS.md examples for every stack. Drop one in your repo and your AI coding agent knows the conventions.",
+    "id": "piekwerk/agents-md-examples",
+    "language": "\u2014",
+    "name": "piekwerk/agents-md-examples",
+    "stars": 0,
+    "updated_at": "2026-10-20T11:36:39Z",
+    "url": "https://github.com/piekwerk/agents-md-examples"
+  },
+  {
+    "description": "VS Code extension for LynxPrompt \u2014 browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules) ",
+    "id": "GeiserX/lynxprompt-vscode",
+    "language": "TypeScript",
+    "name": "GeiserX/lynxprompt-vscode",
+    "stars": 2,
+    "updated_at": "2026-10-20T11:36:51Z",
+    "url": "https://github.com/GeiserX/lynxprompt-vscode"
+  },
+  {
+    "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
+    "id": "philipbankier/awesome-agent-skills",
+    "language": "TypeScript",
+    "name": "philipbankier/awesome-agent-skills",
+    "stars": 20,
+    "updated_at": "2026-10-20T11:30:41Z",
+    "url": "https://github.com/philipbankier/awesome-agent-skills"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-20T11:16:02Z",
+    "updated_at": "2026-10-20T11:30:36Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -34,15 +61,6 @@
     "stars": 214,
     "updated_at": "2026-10-20T11:20:52Z",
     "url": "https://github.com/KbWen/agentic-os"
-  },
-  {
-    "description": "AGENTS.md examples for every stack. Drop one in your repo and your AI coding agent knows the conventions.",
-    "id": "piekwerk/agents-md-examples",
-    "language": "\u2014",
-    "name": "piekwerk/agents-md-examples",
-    "stars": 0,
-    "updated_at": "2026-10-20T11:04:19Z",
-    "url": "https://github.com/piekwerk/agents-md-examples"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -450,23 +468,5 @@
     "stars": 29,
     "updated_at": "2026-10-19T17:54:27Z",
     "url": "https://github.com/jcottam/agent-resources"
-  },
-  {
-    "description": "\u2692\ufe0f Skillforge: Zero-Daemon Rust Book-to-Skill Compiler, Progressive Skill Router & First-Class DeepSeek Harness (DSH) Co",
-    "id": "rachitdev/skillforge",
-    "language": "Rust",
-    "name": "rachitdev/skillforge",
-    "stars": 1,
-    "updated_at": "2026-10-19T17:23:35Z",
-    "url": "https://github.com/rachitdev/skillforge"
-  },
-  {
-    "description": "Architectural drift prevention for the agentic AI SDLC.",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 28,
-    "updated_at": "2026-10-19T17:23:34Z",
-    "url": "https://github.com/MnemeHQ/mneme"
   }
 ]
