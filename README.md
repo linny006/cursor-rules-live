@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-20 07:15 UTC
+> ⏰ Last updated: 2026-10-20 07:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -85,7 +85,7 @@ expired items removed — so you can rely on what you see being current.
 | 30 | [roedyrustam/vibes-plug](https://github.com/roedyrustam/vibes-plug) | 97 | JavaScript | 2026-10-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/roedyrustam/vibes-plug/) | ⚡ Cross-IDE AI skill collection that orchestrates 160 specialized subagents for full-stack development workflows |
 | 31 | [easedui/skills](https://github.com/easedui/skills) | 0 | CSS | 2026-10-19 | — | Agent skills from Eased: motion rules and values for React and Tailwind UI. |
 | 32 | [VenusOne-Lee/popia-compliance](https://github.com/VenusOne-Lee/popia-compliance) | 10 | Python | 2026-10-19 | — | Open-source POPIA privacy and security guardrails for South African builders, for every AI coding tool. |
-| 33 | [wshobson/agents](https://github.com/wshobson/agents) | 41197 | Python | 2026-10-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
+| 33 | [wshobson/agents](https://github.com/wshobson/agents) | 41198 | Python | 2026-10-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
 | 34 | [NCEAS-AI/Coding-Agent-Rules-for-Data-Science](https://github.com/NCEAS-AI/Coding-Agent-Rules-for-Data-Science) | 6 | Python | 2026-10-19 | — | Point your AI coding agent at this repo and it installs a personalized ruleset for reproducible, analysis-first data sci |
 | 35 | [grizzlykiwidev/grizzlykiwidev.github.io](https://github.com/grizzlykiwidev/grizzlykiwidev.github.io) | 0 | — | 2026-10-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/grizzlykiwidev/grizzlykiwidev.github.io/) | Free Cursor rules (.mdc), AGENTS.md & CLAUDE.md templates and prompts for AI coding agents: Next.js + Supabase, Godot 4. |
 | 36 | [mateuszingano/supabase-rls-rules](https://github.com/mateuszingano/supabase-rls-rules) | 0 | — | 2026-10-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/mateuszingano/supabase-rls-rules/) | Rules that make Cursor, Claude Code and other AI agents write Supabase RLS policies and grants that don't leak data. |
@@ -102,7 +102,7 @@ expired items removed — so you can rely on what you see being current.
 | 47 | [sYoon78247/MotionVault](https://github.com/sYoon78247/MotionVault) | 0 | TypeScript | 2026-10-19 | — | 200 web animation examples with copy-ready AI prompts + MotionLens: turn any site's animation into a prompt. React, Type |
 | 48 | [otctrading101/shiprules-free](https://github.com/otctrading101/shiprules-free) | 0 | — | 2026-10-19 | — | Drop-in AI agent rules (Cursor, Claude Code, AGENTS.md) that stop Supabase RLS holes, broken Stripe webhooks and Godot 3 |
 | 49 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 20 | TypeScript | 2026-10-19 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
-| 50 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 214 | Python | 2026-10-19 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
+| 50 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 214 | Python | 2026-10-20 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
 <!-- TRACKER_TABLE_END -->
 
 ---
