@@ -1,12 +1,12 @@
 [
   {
-    "description": "Universal AGENTS.md rules for AI coding agents, written once and synced to Claude Code, Codex, GitHub Copilot, Cursor an",
-    "id": "tannergolden/intelligence",
-    "language": "Python",
-    "name": "tannergolden/intelligence",
+    "description": "Free AGENTS.md, Cursor rule and audit-prompt templates for AI coding agents (CC BY 4.0). AI-assisted starting points.",
+    "id": "agentkitco/agent-config-templates",
+    "language": "\u2014",
+    "name": "agentkitco/agent-config-templates",
     "stars": 0,
-    "updated_at": "2026-10-20T02:04:34Z",
-    "url": "https://github.com/tannergolden/intelligence"
+    "updated_at": "2026-10-20T02:14:00Z",
+    "url": "https://github.com/agentkitco/agent-config-templates"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-20T02:00:45Z",
+    "updated_at": "2026-10-20T02:08:27Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Universal AGENTS.md rules for AI coding agents, written once and synced to Claude Code, Codex, GitHub Copilot, Cursor an",
+    "id": "tannergolden/intelligence",
+    "language": "Python",
+    "name": "tannergolden/intelligence",
+    "stars": 0,
+    "updated_at": "2026-10-20T02:04:34Z",
+    "url": "https://github.com/tannergolden/intelligence"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -31,7 +40,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21395,
+    "stars": 21396,
     "updated_at": "2026-10-20T01:41:44Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -185,7 +194,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 41169,
+    "stars": 41170,
     "updated_at": "2026-10-19T18:28:14Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -484,19 +493,5 @@
     "stars": 0,
     "updated_at": "2026-10-19T03:33:32Z",
     "url": "https://github.com/geronco/commandvault-library"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Apply strict accessibility and UI rules from the not-optional toolkit.\nglobs: \"**/*.{html,css,jsx,tsx,vue,svelte}\"\nalwaysApply: false\n---\n\n# not-optional accessibility rules\n\nWhen building or modifying UI components, strictly follow the rules defined in `agent-instructions.md`.\n\nKey requirements:\n- Use native semantic HTML elements; avoid ARIA unless a native element cannot express the state.\n- Ensure strict compliance with WCAG 2.1 AA for text contrast.\n- Implement explicit `:focus-visible` styles using the defined 3px width and 2px offset.\n- Adhere to micro-chunking laws: max 4 visual lines per chunk, max 45 words per body block, and 45-65 characters per line (max 75).\n- Use the design tokens from `principles/tokens.screen.json` or `principles/tokens.print-monochrome.json`.\n- Fail closed on critical violations.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/not-optional.mdc"
-    },
-    "description": "Accessibility is not a request. A practical, lived-experience toolkit for making digital products and printables usable ",
-    "id": "gabrieldcpaiva/not-optional",
-    "language": "Markdown",
-    "name": "gabrieldcpaiva/not-optional",
-    "stars": 1,
-    "updated_at": "2026-10-19T03:05:22Z",
-    "url": "https://github.com/gabrieldcpaiva/not-optional"
   }
 ]
