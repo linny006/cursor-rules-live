@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-21 20:45 UTC
+> ⏰ Last updated: 2026-10-21 21:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,8 +53,8 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [Saad-web-spec/DevScratchPad](https://github.com/Saad-web-spec/DevScratchPad) | 2 | TypeScript | 2026-10-21 | — | Free private developer tools (JSON, JWT, cURL, cron, SSH keys) that run in your browser, plus AI Skill Studio: a CLAUDE. |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-21 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-21 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [Saad-web-spec/DevScratchPad](https://github.com/Saad-web-spec/DevScratchPad) | 2 | TypeScript | 2026-10-21 | — | Free private developer tools (JSON, JWT, cURL, cron, SSH keys) that run in your browser, plus AI Skill Studio: a CLAUDE. |
 | 3 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 50 | — | 2026-10-21 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
 | 4 | [getvibekits/vibe-coding-rules](https://github.com/getvibekits/vibe-coding-rules) | 0 | — | 2026-10-21 | — | Free copy-paste AGENTS.md, CLAUDE.md and Cursor rules for 20 beginner vibe-coding project types |
 | 5 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-10-21 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
@@ -84,7 +84,7 @@ expired items removed — so you can rely on what you see being current.
 | 29 | [cooyun/awesome-2026-llm-api-pricing](https://github.com/cooyun/awesome-2026-llm-api-pricing) | 1 | — | 2026-10-21 | — | Official 2026 LLM API Pricing Calendar, 272K/100K Context-Cliff Router, Chrome FinOps HUD Extension & Cursor MCP Server  |
 | 30 | [geronco/commandvault-library](https://github.com/geronco/commandvault-library) | 0 | JavaScript | 2026-10-21 | — | Community-voted AI prompts, CLAUDE.md/AGENTS.md templates, Cursor rules, Agent Skills and MCP servers from commandvault. |
 | 31 | [plumpslabs/matcha](https://github.com/plumpslabs/matcha) | 2 | JavaScript | 2026-10-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/plumpslabs/matcha/) | 🍵 Deliberate engineering guidelines & deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block |
-| 32 | [TheRealSnouk/brainstack-templates](https://github.com/TheRealSnouk/brainstack-templates) | 0 | — | 2026-10-21 | — | Free copy-paste brain files for AI coding tools: CLAUDE.md, AGENTS.md, GEMINI.md, Cursor rules (.mdc), Copilot instructi |
+| 32 | [TheRealSnouk/brainstack-templates](https://github.com/TheRealSnouk/brainstack-templates) | 1 | — | 2026-10-21 | — | Free copy-paste brain files for AI coding tools: CLAUDE.md, AGENTS.md, GEMINI.md, Cursor rules (.mdc), Copilot instructi |
 | 33 | [rahuldeojoshi/codebaserules-samples](https://github.com/rahuldeojoshi/codebaserules-samples) | 0 | — | 2026-10-21 | — | Free sample Cursor and Claude Code rules for FastAPI, Next.js and Spring Boot, from codebaserules.com |
 | 34 | [VirtusLab-Open-Source/astro-strapi-starter](https://github.com/VirtusLab-Open-Source/astro-strapi-starter) | 23 | Astro | 2026-10-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/VirtusLab-Open-Source/astro-strapi-starter/) | The Astro x Strapi Starter template |
 | 35 | [GeiserX/lynxprompt-mcp](https://github.com/GeiserX/lynxprompt-mcp) | 2 | Go | 2026-10-21 | — | MCP Server for LynxPrompt — browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP |
