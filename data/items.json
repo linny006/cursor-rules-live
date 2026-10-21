@@ -1,11 +1,29 @@
 [
   {
+    "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
+    "id": "HoangNguyen0403/agent-skills-standard",
+    "language": "TypeScript",
+    "name": "HoangNguyen0403/agent-skills-standard",
+    "stars": 580,
+    "updated_at": "2026-10-21T11:40:05Z",
+    "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
+  },
+  {
+    "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
+    "id": "philipbankier/awesome-agent-skills",
+    "language": "TypeScript",
+    "name": "philipbankier/awesome-agent-skills",
+    "stars": 20,
+    "updated_at": "2026-10-21T11:31:33Z",
+    "url": "https://github.com/philipbankier/awesome-agent-skills"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-21T11:15:36Z",
+    "updated_at": "2026-10-21T11:30:57Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -30,15 +48,6 @@
     "stars": 4,
     "updated_at": "2026-10-21T10:22:51Z",
     "url": "https://github.com/vikisingh23/neuraforge-ai"
-  },
-  {
-    "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
-    "id": "HoangNguyen0403/agent-skills-standard",
-    "language": "TypeScript",
-    "name": "HoangNguyen0403/agent-skills-standard",
-    "stars": 580,
-    "updated_at": "2026-10-21T10:22:50Z",
-    "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
   },
   {
     "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
@@ -413,15 +422,6 @@
     "url": "https://github.com/GeiserX/lynxprompt-vscode"
   },
   {
-    "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
-    "id": "philipbankier/awesome-agent-skills",
-    "language": "TypeScript",
-    "name": "philipbankier/awesome-agent-skills",
-    "stars": 20,
-    "updated_at": "2026-10-20T11:30:41Z",
-    "url": "https://github.com/philipbankier/awesome-agent-skills"
-  },
-  {
     "description": "Agent skills CLI: init AGENTS.md, install SKILL.md from any GitHub repo for Cursor, Claude Code, Copilot, Windsurf, Code",
     "id": "vorlaxen-labs/agent-skills",
     "language": "TypeScript",
@@ -467,7 +467,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 41405,
+    "stars": 41407,
     "updated_at": "2026-10-19T18:28:14Z",
     "url": "https://github.com/wshobson/agents"
   },
