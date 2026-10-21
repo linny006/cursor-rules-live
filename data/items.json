@@ -5,7 +5,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-21T05:00:35Z",
+    "updated_at": "2026-10-21T05:15:45Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -138,6 +138,15 @@
     "stars": 2,
     "updated_at": "2026-10-21T00:46:17Z",
     "url": "https://github.com/GeiserX/lynxprompt-mcp"
+  },
+  {
+    "description": "Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows.",
+    "id": "ajhcs/healthcare-agents",
+    "language": "JavaScript",
+    "name": "ajhcs/healthcare-agents",
+    "stars": 53,
+    "updated_at": "2026-10-20T23:21:57Z",
+    "url": "https://github.com/ajhcs/healthcare-agents"
   },
   {
     "description": "Free private developer tools (JSON, JWT, cURL, cron, SSH keys) that run in your browser, plus AI Skill Studio: a CLAUDE.",
@@ -389,7 +398,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 41323,
+    "stars": 41325,
     "updated_at": "2026-10-19T18:28:14Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -484,14 +493,5 @@
     "stars": 2,
     "updated_at": "2026-10-19T09:42:47Z",
     "url": "https://github.com/ashishkaloge/coding-agent-guidelines"
-  },
-  {
-    "description": "Auto harness engineering meta-repo: discuss \u2192 curate \u2192 bootstrap a context-engineered project for Claude Code, Cursor, C",
-    "id": "glowElephant/context-forge",
-    "language": "Python",
-    "name": "glowElephant/context-forge",
-    "stars": 2,
-    "updated_at": "2026-10-19T09:23:17Z",
-    "url": "https://github.com/glowElephant/context-forge"
   }
 ]
