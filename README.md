@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-21 00:30 UTC
+> ⏰ Last updated: 2026-10-21 00:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -62,7 +62,7 @@ expired items removed — so you can rely on what you see being current.
 | 7 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 50 | — | 2026-10-20 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
 | 8 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-10-20 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
 | 9 | [taniwhaai/arai](https://github.com/taniwhaai/arai) | 7 | Rust | 2026-10-20 | — | Your AI assistant reads CLAUDE.md and ignores it anyway. Ārai makes instruction files enforced — hooks that block, a tam |
-| 10 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 28 | Python | 2026-10-20 | — | Architectural drift prevention for the agentic AI SDLC. |
+| 10 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 28 | Python | 2026-10-21 | — | Architectural drift prevention for the agentic AI SDLC. |
 | 11 | [roedyrustam/vibes-plug](https://github.com/roedyrustam/vibes-plug) | 105 | JavaScript | 2026-10-20 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/roedyrustam/vibes-plug/) | ⚡ Cross-IDE AI skill collection that orchestrates 160 specialized subagents for full-stack development workflows |
 | 12 | [bompus/house-rules](https://github.com/bompus/house-rules) | 2 | JavaScript | 2026-10-20 | — | Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md |
 | 13 | [VenusOne-Lee/popia-compliance](https://github.com/VenusOne-Lee/popia-compliance) | 11 | Python | 2026-10-20 | — | Open-source POPIA privacy and security guardrails for South African builders, for every AI coding tool. |
@@ -89,7 +89,7 @@ expired items removed — so you can rely on what you see being current.
 | 34 | [agentkitco/agent-config-templates](https://github.com/agentkitco/agent-config-templates) | 0 | — | 2026-10-20 | — | Free AGENTS.md, Cursor rule and audit-prompt templates for AI coding agents (CC BY 4.0). AI-assisted starting points. |
 | 35 | [Erkan042/rollinggo-hotel-skill-cn](https://github.com/Erkan042/rollinggo-hotel-skill-cn) | 0 | Python | 2026-10-19 | — | 全球酒店预订&低价监控提醒Skill，200万+精选酒店，独家优惠价格，让你的Agent轻松预订品质酒店，支持支付宝下单+查询历史订单，24 小时客服支持，全天候响应。 |
 | 36 | [easedui/skills](https://github.com/easedui/skills) | 0 | CSS | 2026-10-19 | — | Agent skills from Eased: motion rules and values for React and Tailwind UI. |
-| 37 | [wshobson/agents](https://github.com/wshobson/agents) | 41249 | Python | 2026-10-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
+| 37 | [wshobson/agents](https://github.com/wshobson/agents) | 41251 | Python | 2026-10-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
 | 38 | [NCEAS-AI/Coding-Agent-Rules-for-Data-Science](https://github.com/NCEAS-AI/Coding-Agent-Rules-for-Data-Science) | 7 | Python | 2026-10-19 | — | Point your AI coding agent at this repo and it installs a personalized ruleset for reproducible, analysis-first data sci |
 | 39 | [grizzlykiwidev/grizzlykiwidev.github.io](https://github.com/grizzlykiwidev/grizzlykiwidev.github.io) | 0 | — | 2026-10-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/grizzlykiwidev/grizzlykiwidev.github.io/) | Free Cursor rules (.mdc), AGENTS.md & CLAUDE.md templates and prompts for AI coding agents: Next.js + Supabase, Godot 4. |
 | 40 | [mateuszingano/supabase-rls-rules](https://github.com/mateuszingano/supabase-rls-rules) | 0 | — | 2026-10-19 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/mateuszingano/supabase-rls-rules/) | Rules that make Cursor, Claude Code and other AI agents write Supabase RLS policies and grants that don't leak data. |
