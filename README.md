@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-21 22:15 UTC
+> ⏰ Last updated: 2026-10-21 22:22 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,8 +53,8 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 28 | Python | 2026-10-21 | — | Architectural drift prevention for the agentic AI SDLC. |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-21 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-21 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 28 | Python | 2026-10-21 | — | Architectural drift prevention for the agentic AI SDLC. |
 | 3 | [roedyrustam/vibes-plug](https://github.com/roedyrustam/vibes-plug) | 111 | JavaScript | 2026-10-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/roedyrustam/vibes-plug/) | ⚡ Cross-IDE AI skill collection that orchestrates 160 specialized subagents for full-stack development workflows |
 | 4 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-21 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
 | 5 | [Saad-web-spec/DevScratchPad](https://github.com/Saad-web-spec/DevScratchPad) | 2 | TypeScript | 2026-10-21 | — | Free private developer tools (JSON, JWT, cURL, cron, SSH keys) that run in your browser, plus AI Skill Studio: a CLAUDE. |
