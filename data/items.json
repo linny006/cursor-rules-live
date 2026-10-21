@@ -1,12 +1,12 @@
 [
   {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 50,
-    "updated_at": "2026-10-21T20:28:57Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+    "description": "Free private developer tools (JSON, JWT, cURL, cron, SSH keys) that run in your browser, plus AI Skill Studio: a CLAUDE.",
+    "id": "Saad-web-spec/DevScratchPad",
+    "language": "TypeScript",
+    "name": "Saad-web-spec/DevScratchPad",
+    "stars": 2,
+    "updated_at": "2026-10-21T20:40:32Z",
+    "url": "https://github.com/Saad-web-spec/DevScratchPad"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-21T20:15:44Z",
+    "updated_at": "2026-10-21T20:30:44Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 50,
+    "updated_at": "2026-10-21T20:28:57Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "description": "Free copy-paste AGENTS.md, CLAUDE.md and Cursor rules for 20 beginner vibe-coding project types",
@@ -43,15 +52,6 @@
     "stars": 1,
     "updated_at": "2026-10-21T19:13:25Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Free private developer tools (JSON, JWT, cURL, cron, SSH keys) that run in your browser, plus AI Skill Studio: a CLAUDE.",
-    "id": "Saad-web-spec/DevScratchPad",
-    "language": "TypeScript",
-    "name": "Saad-web-spec/DevScratchPad",
-    "stars": 2,
-    "updated_at": "2026-10-21T18:51:37Z",
-    "url": "https://github.com/Saad-web-spec/DevScratchPad"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -337,6 +337,20 @@
     "url": "https://github.com/rahuldeojoshi/codebaserules-samples"
   },
   {
+    "cursorrules": {
+      "content": "---\ndescription: Astro + Strapi Blocks \u2014 StrapiBlocks, data, theme (extend/overwrite), custom blocks\nglobs: \"**/*.{astro,ts,tsx}\"\nalwaysApply: false\n---\n\n# Upstream rule (no local copy)\n\nThe full **Cursor project rule** for Strapi Blocks is maintained in the **astro-strapi-blocks** repository. Open or fetch:\n\n- **GitHub:** <https://github.com/VirtusLab-Open-Source/astro-strapi-blocks/blob/main/.cursor/rules/astro-strapi-blocks.mdc>\n- **Raw:** <https://raw.githubusercontent.com/VirtusLab-Open-Source/astro-strapi-blocks/main/.cursor/rules/astro-strapi-blocks.mdc>\n\nThis file exists only to **preserve** the same `globs` / scope in this starter. For project-specific notes, see [`.ai/AGENTS.md`](../../.ai/AGENTS.md) and the stub at [`.ai/astro-strapi-blocks/SKILL.md`](../../.ai/astro-strapi-blocks/SKILL.md).\n",
+      "format": "mdc",
+      "path": ".cursor/rules/astro-strapi-blocks.mdc"
+    },
+    "description": "The Astro x Strapi Starter template",
+    "id": "VirtusLab-Open-Source/astro-strapi-starter",
+    "language": "Astro",
+    "name": "VirtusLab-Open-Source/astro-strapi-starter",
+    "stars": 23,
+    "updated_at": "2026-10-21T00:39:03Z",
+    "url": "https://github.com/VirtusLab-Open-Source/astro-strapi-starter"
+  },
+  {
     "description": "MCP Server for LynxPrompt \u2014 browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP",
     "id": "GeiserX/lynxprompt-mcp",
     "language": "Go",
@@ -484,14 +498,5 @@
     "stars": 6,
     "updated_at": "2026-10-20T10:10:59Z",
     "url": "https://github.com/vorlaxen-labs/agent-skills"
-  },
-  {
-    "description": "Portable skills and shared policies for Codex, Claude Code, and Cursor on Linux.",
-    "id": "Catherine1401/agent-skills",
-    "language": "Shell",
-    "name": "Catherine1401/agent-skills",
-    "stars": 2,
-    "updated_at": "2026-10-20T04:50:39Z",
-    "url": "https://github.com/Catherine1401/agent-skills"
   }
 ]

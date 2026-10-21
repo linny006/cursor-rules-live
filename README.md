@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-21 20:30 UTC
+> ⏰ Last updated: 2026-10-21 20:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,12 +53,12 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 50 | — | 2026-10-21 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
+| 1 | [Saad-web-spec/DevScratchPad](https://github.com/Saad-web-spec/DevScratchPad) | 2 | TypeScript | 2026-10-21 | — | Free private developer tools (JSON, JWT, cURL, cron, SSH keys) that run in your browser, plus AI Skill Studio: a CLAUDE. |
 | 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-21 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 3 | [getvibekits/vibe-coding-rules](https://github.com/getvibekits/vibe-coding-rules) | 0 | — | 2026-10-21 | — | Free copy-paste AGENTS.md, CLAUDE.md and Cursor rules for 20 beginner vibe-coding project types |
-| 4 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-10-21 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
-| 5 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-10-21 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
-| 6 | [Saad-web-spec/DevScratchPad](https://github.com/Saad-web-spec/DevScratchPad) | 2 | TypeScript | 2026-10-21 | — | Free private developer tools (JSON, JWT, cURL, cron, SSH keys) that run in your browser, plus AI Skill Studio: a CLAUDE. |
+| 3 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 50 | — | 2026-10-21 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
+| 4 | [getvibekits/vibe-coding-rules](https://github.com/getvibekits/vibe-coding-rules) | 0 | — | 2026-10-21 | — | Free copy-paste AGENTS.md, CLAUDE.md and Cursor rules for 20 beginner vibe-coding project types |
+| 5 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-10-21 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
+| 6 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-10-21 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
 | 7 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-10-21 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
 | 8 | [elibowlby/adversarial-skeptic](https://github.com/elibowlby/adversarial-skeptic) | 1 | JavaScript | 2026-10-21 | — | Stop AI agents from rubber-stamping their own bugs or editing failing tests to pass. Blind red-team test generation + SH |
 | 9 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 28 | Python | 2026-10-21 | — | Architectural drift prevention for the agentic AI SDLC. |
@@ -86,23 +86,23 @@ expired items removed — so you can rely on what you see being current.
 | 31 | [plumpslabs/matcha](https://github.com/plumpslabs/matcha) | 2 | JavaScript | 2026-10-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/plumpslabs/matcha/) | 🍵 Deliberate engineering guidelines & deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block |
 | 32 | [TheRealSnouk/brainstack-templates](https://github.com/TheRealSnouk/brainstack-templates) | 0 | — | 2026-10-21 | — | Free copy-paste brain files for AI coding tools: CLAUDE.md, AGENTS.md, GEMINI.md, Cursor rules (.mdc), Copilot instructi |
 | 33 | [rahuldeojoshi/codebaserules-samples](https://github.com/rahuldeojoshi/codebaserules-samples) | 0 | — | 2026-10-21 | — | Free sample Cursor and Claude Code rules for FastAPI, Next.js and Spring Boot, from codebaserules.com |
-| 34 | [GeiserX/lynxprompt-mcp](https://github.com/GeiserX/lynxprompt-mcp) | 2 | Go | 2026-10-21 | — | MCP Server for LynxPrompt — browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP |
-| 35 | [ajhcs/healthcare-agents](https://github.com/ajhcs/healthcare-agents) | 53 | JavaScript | 2026-10-20 | — | Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows. |
-| 36 | [taniwhaai/arai](https://github.com/taniwhaai/arai) | 7 | Rust | 2026-10-20 | — | Your AI assistant reads CLAUDE.md and ignores it anyway. Ārai makes instruction files enforced — hooks that block, a tam |
-| 37 | [bompus/house-rules](https://github.com/bompus/house-rules) | 2 | JavaScript | 2026-10-20 | — | Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md |
-| 38 | [VenusOne-Lee/popia-compliance](https://github.com/VenusOne-Lee/popia-compliance) | 12 | Python | 2026-10-20 | — | Open-source POPIA privacy and security guardrails for South African builders, for every AI coding tool. |
-| 39 | [anivar/msw-skill](https://github.com/anivar/msw-skill) | 1 | — | 2026-10-20 | — | AI agent skill for MSW 2.0 — 20 rules: handler design, REST/GraphQL, test patterns. Works with Claude Code, Cursor, Code |
-| 40 | [MsNan/prompt-hub-cn](https://github.com/MsNan/prompt-hub-cn) | 0 | JavaScript | 2026-10-20 | — | 提示词百宝箱：66 条原创中文 Prompt 与 AI Agent 模板（编程/前端/代码审查/文档/产品/运营/学习/求职/Agent 工作流/Cursor rules/Claude skills），填变量一键复制 |
-| 41 | [abapforagents/abap-for-agents-lite](https://github.com/abapforagents/abap-for-agents-lite) | 0 | — | 2026-10-21 | — | Free MIT rules that stop Cursor, Claude Code, Copilot, Windsurf and Codex from writing wrong ABAP. EN + PT. |
-| 42 | [lucas-winter-berlin/Agent-Engineer-Skills](https://github.com/lucas-winter-berlin/Agent-Engineer-Skills) | 0 | PowerShell | 2026-10-20 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/lucas-winter-berlin/Agent-Engineer-Skills/) | Agent skills for building features and MVPs. Spec, build, review, test - one named job at a time. |
-| 43 | [sublimecoder/sublimecoding](https://github.com/sublimecoder/sublimecoding) | 0 | — | 2026-10-20 | — | 🛠️ Free Claude Code & Cursor prompts for senior engineers — plus AIOS, an open-source markdown memory system for coding  |
-| 44 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 21481 | Shell | 2026-10-20 | — | 🎭 277 个即插即用的 AI 专家角色 — 支持 Claude Code/Cursor/Copilot 等 20 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 64 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉/Qt 上 |
-| 45 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 217 | Python | 2026-10-20 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
-| 46 | [sscodeai/agency-agents-ja](https://github.com/sscodeai/agency-agents-ja) | 10 | Shell | 2026-10-20 | — | 404体の即戦力AI専門エージェント集 — Claude Code / Cursor / Copilot 等に対応。日本市場向けオリジナル125体（SIer・受託開発・SaaS・製造DX・公共分野）。agency-agentsの日本語コミュ |
-| 47 | [piekwerk/agents-md-examples](https://github.com/piekwerk/agents-md-examples) | 0 | — | 2026-10-20 | — | AGENTS.md examples for every stack. Drop one in your repo and your AI coding agent knows the conventions. |
-| 48 | [GeiserX/lynxprompt-vscode](https://github.com/GeiserX/lynxprompt-vscode) | 2 | TypeScript | 2026-10-20 | — | VS Code extension for LynxPrompt — browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules)  |
-| 49 | [vorlaxen-labs/agent-skills](https://github.com/vorlaxen-labs/agent-skills) | 6 | TypeScript | 2026-10-20 | — | Agent skills CLI: init AGENTS.md, install SKILL.md from any GitHub repo for Cursor, Claude Code, Copilot, Windsurf, Code |
-| 50 | [Catherine1401/agent-skills](https://github.com/Catherine1401/agent-skills) | 2 | Shell | 2026-10-20 | — | Portable skills and shared policies for Codex, Claude Code, and Cursor on Linux. |
+| 34 | [VirtusLab-Open-Source/astro-strapi-starter](https://github.com/VirtusLab-Open-Source/astro-strapi-starter) | 23 | Astro | 2026-10-21 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/VirtusLab-Open-Source/astro-strapi-starter/) | The Astro x Strapi Starter template |
+| 35 | [GeiserX/lynxprompt-mcp](https://github.com/GeiserX/lynxprompt-mcp) | 2 | Go | 2026-10-21 | — | MCP Server for LynxPrompt — browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP |
+| 36 | [ajhcs/healthcare-agents](https://github.com/ajhcs/healthcare-agents) | 53 | JavaScript | 2026-10-20 | — | Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows. |
+| 37 | [taniwhaai/arai](https://github.com/taniwhaai/arai) | 7 | Rust | 2026-10-20 | — | Your AI assistant reads CLAUDE.md and ignores it anyway. Ārai makes instruction files enforced — hooks that block, a tam |
+| 38 | [bompus/house-rules](https://github.com/bompus/house-rules) | 2 | JavaScript | 2026-10-20 | — | Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md |
+| 39 | [VenusOne-Lee/popia-compliance](https://github.com/VenusOne-Lee/popia-compliance) | 12 | Python | 2026-10-20 | — | Open-source POPIA privacy and security guardrails for South African builders, for every AI coding tool. |
+| 40 | [anivar/msw-skill](https://github.com/anivar/msw-skill) | 1 | — | 2026-10-20 | — | AI agent skill for MSW 2.0 — 20 rules: handler design, REST/GraphQL, test patterns. Works with Claude Code, Cursor, Code |
+| 41 | [MsNan/prompt-hub-cn](https://github.com/MsNan/prompt-hub-cn) | 0 | JavaScript | 2026-10-20 | — | 提示词百宝箱：66 条原创中文 Prompt 与 AI Agent 模板（编程/前端/代码审查/文档/产品/运营/学习/求职/Agent 工作流/Cursor rules/Claude skills），填变量一键复制 |
+| 42 | [abapforagents/abap-for-agents-lite](https://github.com/abapforagents/abap-for-agents-lite) | 0 | — | 2026-10-21 | — | Free MIT rules that stop Cursor, Claude Code, Copilot, Windsurf and Codex from writing wrong ABAP. EN + PT. |
+| 43 | [lucas-winter-berlin/Agent-Engineer-Skills](https://github.com/lucas-winter-berlin/Agent-Engineer-Skills) | 0 | PowerShell | 2026-10-20 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/lucas-winter-berlin/Agent-Engineer-Skills/) | Agent skills for building features and MVPs. Spec, build, review, test - one named job at a time. |
+| 44 | [sublimecoder/sublimecoding](https://github.com/sublimecoder/sublimecoding) | 0 | — | 2026-10-20 | — | 🛠️ Free Claude Code & Cursor prompts for senior engineers — plus AIOS, an open-source markdown memory system for coding  |
+| 45 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 21481 | Shell | 2026-10-20 | — | 🎭 277 个即插即用的 AI 专家角色 — 支持 Claude Code/Cursor/Copilot 等 20 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 64 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉/Qt 上 |
+| 46 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 217 | Python | 2026-10-20 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
+| 47 | [sscodeai/agency-agents-ja](https://github.com/sscodeai/agency-agents-ja) | 10 | Shell | 2026-10-20 | — | 404体の即戦力AI専門エージェント集 — Claude Code / Cursor / Copilot 等に対応。日本市場向けオリジナル125体（SIer・受託開発・SaaS・製造DX・公共分野）。agency-agentsの日本語コミュ |
+| 48 | [piekwerk/agents-md-examples](https://github.com/piekwerk/agents-md-examples) | 0 | — | 2026-10-20 | — | AGENTS.md examples for every stack. Drop one in your repo and your AI coding agent knows the conventions. |
+| 49 | [GeiserX/lynxprompt-vscode](https://github.com/GeiserX/lynxprompt-vscode) | 2 | TypeScript | 2026-10-20 | — | VS Code extension for LynxPrompt — browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules)  |
+| 50 | [vorlaxen-labs/agent-skills](https://github.com/vorlaxen-labs/agent-skills) | 6 | TypeScript | 2026-10-20 | — | Agent skills CLI: init AGENTS.md, install SKILL.md from any GitHub repo for Cursor, Claude Code, Copilot, Windsurf, Code |
 <!-- TRACKER_TABLE_END -->
 
 ---
