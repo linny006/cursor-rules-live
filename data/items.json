@@ -1,20 +1,11 @@
 [
   {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 3,
-    "updated_at": "2026-10-21T13:54:35Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-21T13:45:38Z",
+    "updated_at": "2026-10-21T14:00:37Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -23,8 +14,17 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 28,
-    "updated_at": "2026-10-21T13:52:28Z",
+    "updated_at": "2026-10-21T14:13:51Z",
     "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 3,
+    "updated_at": "2026-10-21T13:54:35Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "cursorrules": {
@@ -237,7 +237,7 @@
     "language": "\u2014",
     "name": "eli-alvarado/agentkit-drawer",
     "stars": 0,
-    "updated_at": "2026-10-21T01:55:46Z",
+    "updated_at": "2026-10-21T14:11:23Z",
     "url": "https://github.com/eli-alvarado/agentkit-drawer"
   },
   {
@@ -467,7 +467,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 41419,
+    "stars": 41420,
     "updated_at": "2026-10-19T18:28:14Z",
     "url": "https://github.com/wshobson/agents"
   },
