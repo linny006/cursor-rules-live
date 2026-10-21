@@ -1,21 +1,21 @@
 [
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-21T08:30:59Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Architectural drift prevention for the agentic AI SDLC.",
     "id": "MnemeHQ/mneme",
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 28,
-    "updated_at": "2026-10-21T08:40:51Z",
+    "updated_at": "2026-10-21T09:00:11Z",
     "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-21T08:45:55Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Portable software delivery workflow for Codex, Cursor, Claude Code, and GitHub Copilot, with reusable skills, native age",
@@ -312,7 +312,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21461,
+    "stars": 21463,
     "updated_at": "2026-10-20T14:14:30Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -439,7 +439,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 41372,
+    "stars": 41375,
     "updated_at": "2026-10-19T18:28:14Z",
     "url": "https://github.com/wshobson/agents"
   },
