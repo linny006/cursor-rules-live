@@ -10,8 +10,17 @@
     "language": "\u2014",
     "name": "peva3/anchor",
     "stars": 8,
-    "updated_at": "2026-10-21T17:14:58Z",
+    "updated_at": "2026-10-21T17:26:47Z",
     "url": "https://github.com/peva3/anchor"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-21T17:15:52Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -35,15 +44,6 @@
     "stars": 1,
     "updated_at": "2026-10-21T17:03:51Z",
     "url": "https://github.com/elibowlby/adversarial-skeptic"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-21T17:00:38Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Engineering checklists for B2B SaaS penetration testing readiness: SOC 2, ISO 27001, DORA, AI Agent Security (LLM/RAG/MC",
