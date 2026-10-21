@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-21T06:30:53Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Awesome Cursor Rules (.cursorrules) & MCP Servers list for iOS, Python, and Web. Maintained by AgentIndex.app",
     "id": "xiaozhenyangCode/awesome-cursor-rules",
     "language": "\u2014",
@@ -16,15 +25,6 @@
     "stars": 8,
     "updated_at": "2026-10-21T06:18:50Z",
     "url": "https://github.com/CacinieP/network-troubleshoot-skill"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-21T06:15:35Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -430,7 +430,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 41338,
+    "stars": 41340,
     "updated_at": "2026-10-19T18:28:14Z",
     "url": "https://github.com/wshobson/agents"
   },
