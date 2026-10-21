@@ -1,11 +1,20 @@
 [
   {
+    "description": "Stop AI agents from rubber-stamping their own bugs or editing failing tests to pass. Blind red-team test generation + SH",
+    "id": "elibowlby/adversarial-skeptic",
+    "language": "JavaScript",
+    "name": "elibowlby/adversarial-skeptic",
+    "stars": 1,
+    "updated_at": "2026-10-21T16:33:01Z",
+    "url": "https://github.com/elibowlby/adversarial-skeptic"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-21T16:15:50Z",
+    "updated_at": "2026-10-21T16:30:47Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -16,15 +25,6 @@
     "stars": 0,
     "updated_at": "2026-10-21T16:15:29Z",
     "url": "https://github.com/sayfer-io/pentest-readiness-checklist"
-  },
-  {
-    "description": "Stop AI agents from rubber-stamping their own bugs or editing failing tests to pass. Blind red-team test generation + SH",
-    "id": "elibowlby/adversarial-skeptic",
-    "language": "JavaScript",
-    "name": "elibowlby/adversarial-skeptic",
-    "stars": 1,
-    "updated_at": "2026-10-21T16:00:00Z",
-    "url": "https://github.com/elibowlby/adversarial-skeptic"
   },
   {
     "description": "Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam",
@@ -485,7 +485,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 41431,
+    "stars": 41434,
     "updated_at": "2026-10-19T18:28:14Z",
     "url": "https://github.com/wshobson/agents"
   }
