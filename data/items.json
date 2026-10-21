@@ -1,5 +1,41 @@
 [
   {
+    "description": "Official 2026 LLM API Pricing Calendar, 272K/100K Context-Cliff Router, Chrome FinOps HUD Extension & Cursor MCP Server ",
+    "id": "cooyun/awesome-2026-llm-api-pricing",
+    "language": "\u2014",
+    "name": "cooyun/awesome-2026-llm-api-pricing",
+    "stars": 1,
+    "updated_at": "2026-10-21T04:27:53Z",
+    "url": "https://github.com/cooyun/awesome-2026-llm-api-pricing"
+  },
+  {
+    "description": "\u7cbe\u9009\u5b9e\u7528 AI Agent Skills \u6280\u80fd\u5e93\uff1a\u9762\u5411 Claude Code\u3001Codex \u4e0e Cursor\uff0c\u6db5\u76d6\u98de\u4e66\u751f\u6001\u81ea\u52a8\u5316\u3001\u52a8\u6548\u5f00\u53d1\u3001\u77ed\u89c6\u9891\u5236\u4f5c\u4e0e\u5de5\u7a0b\u91cd\u6784",
+    "id": "2392772541/AI-Skills",
+    "language": "JavaScript",
+    "name": "2392772541/AI-Skills",
+    "stars": 0,
+    "updated_at": "2026-10-21T04:22:46Z",
+    "url": "https://github.com/2392772541/AI-Skills"
+  },
+  {
+    "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
+    "id": "mikeprasad/aria-knowledge",
+    "language": "Shell",
+    "name": "mikeprasad/aria-knowledge",
+    "stars": 17,
+    "updated_at": "2026-10-21T04:16:10Z",
+    "url": "https://github.com/mikeprasad/aria-knowledge"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-21T04:15:38Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
     "id": "Trentobobbi/uikit-mastery-playbook",
     "language": "HTML",
@@ -16,33 +52,6 @@
     "stars": 1,
     "updated_at": "2026-10-21T04:04:08Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-21T04:00:43Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
-    "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
-    "id": "mikeprasad/aria-knowledge",
-    "language": "Shell",
-    "name": "mikeprasad/aria-knowledge",
-    "stars": 17,
-    "updated_at": "2026-10-21T03:52:14Z",
-    "url": "https://github.com/mikeprasad/aria-knowledge"
-  },
-  {
-    "description": "\u7cbe\u9009\u5b9e\u7528 AI Agent Skills \u6280\u80fd\u5e93\uff1a\u9762\u5411 Claude Code\u3001Codex \u4e0e Cursor\uff0c\u6db5\u76d6\u98de\u4e66\u751f\u6001\u81ea\u52a8\u5316\u3001\u52a8\u6548\u5f00\u53d1\u3001\u77ed\u89c6\u9891\u5236\u4f5c\u4e0e\u5de5\u7a0b\u91cd\u6784",
-    "id": "2392772541/AI-Skills",
-    "language": "JavaScript",
-    "name": "2392772541/AI-Skills",
-    "stars": 0,
-    "updated_at": "2026-10-21T03:51:34Z",
-    "url": "https://github.com/2392772541/AI-Skills"
   },
   {
     "description": "Community-voted AI prompts, CLAUDE.md/AGENTS.md templates, Cursor rules, Agent Skills and MCP servers from commandvault.",
@@ -335,15 +344,6 @@
     "url": "https://github.com/vorlaxen-labs/agent-skills"
   },
   {
-    "description": "Official 2026 LLM API Pricing Calendar, 272K/100K Context-Cliff Router, Chrome FinOps HUD Extension & Cursor MCP Server ",
-    "id": "cooyun/awesome-2026-llm-api-pricing",
-    "language": "\u2014",
-    "name": "cooyun/awesome-2026-llm-api-pricing",
-    "stars": 1,
-    "updated_at": "2026-10-20T05:18:55Z",
-    "url": "https://github.com/cooyun/awesome-2026-llm-api-pricing"
-  },
-  {
     "description": "Portable skills and shared policies for Codex, Claude Code, and Cursor on Linux.",
     "id": "Catherine1401/agent-skills",
     "language": "Shell",
@@ -389,7 +389,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 41313,
+    "stars": 41316,
     "updated_at": "2026-10-19T18:28:14Z",
     "url": "https://github.com/wshobson/agents"
   },
