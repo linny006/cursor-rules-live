@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-21T09:15:58Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "---\nversion: 4.3.0\nscope: [\"typescript\", \"javascript\", \"markdown\", \"sql\", \"html\", \"json\", \"yaml\", \"toml\"]\n---\n# Cursor AI Rules for Betting Brain Platform\n# https://github.com/nolarose1968/ffffff/blob/main/.cursorrules\n\n## One File to Rule Them All\n\nThis `.cursorrules` file is the **single source of truth** for all AI-generated code.\n\n**Benefits:**\n- \u2705 No confusion - everyone follows the same patterns\n- \u2705 Version control - every change is tracked\n- \u2705 Automatic application - Cursor applies rules to matching files\n- \u2705 Machine readable - front-matter enables tooling integration\n\n**Alternative:** Cursor \u2265 0.45 also supports `.cursor/rules/` folder for larger projects.\n\n## Core Development Rules\n\n### Bun Runtime (CRITICAL)\n- Use `bun` commands exclusively (not npm/yarn/node)\n- Use Bun Test (not Vitest/Jest)\n- Use Bun file APIs (not Node.js fs)\n- Use processManager for all process spawning\n- Leverage Bun native APIs (crypto, compression, etc.)\n\n### File Organization\n- Root directory: Only 9 essential files allowed\n- Documentation: All docs in `docs/` (except README.md, LICENSE, CLAUDE.md)\n- Scripts: All in `scripts/`\n- Tools: All in `tools/`\n- Status files: All in `docs/`\n\n### File Naming\n- Use lowercase kebab-case for all files/directories\n- Test files: `*.test.ts` (preferred)\n- Special cases: MCP handlers use camelCase to match tool names\n- Never create backup files (*.backup, *.old, *.bak)\n\n## API & Endpoint Patterns\n\n### Request Handling\n- Always generate requestId: `Date.now().toString(36)`\n- Always include CORS headers for dashboard access\n- Always handle OPTIONS preflight requests\n- Always log with requestId prefix: `[${requestId}] ...`\n\n### Error Handling\n- Use standardized error classes from `src/utils/error-handler.ts`\n- Always use try-catch or asyncHandler wrapper\n- Always return structured error responses\n- Never expose internal details in error messages\n\n### Database Queries\n- Always use parameterized queries (`.bind()`)\n- Never use string interpolation in SQL\n- Always cast D1 results with `as unknown as`\n- Always handle database errors\n\n## Security Patterns\n\n### Input Validation\n- Always validate all inputs before processing\n- Use Zod schemas for request validation\n- Never trust user input\n- Always sanitize output to prevent XSS\n\n### Production Security\n- Never use `parseFloat()` on stakes (use `Number()`)\n- Always use parameterized D1 queries\n- Respect queue batch limits (100 messages max)\n- Always free WASM memory in finally blocks\n- Use explicit UTC timestamps (not `new Date()`)\n\n## Testing Patterns\n\n### Bun Test Usage\n- Import from `bun:test` (not vitest/jest)\n- Always cleanup processes in `afterEach`/`afterAll`\n- Use `{ results: [...] }` for D1 database mocks\n- Reset mock implementations in `beforeEach`\n- Use explicit try-catch for async error testing\n\n### Test Organization\n- Unit tests: `tests/unit/*.test.ts`\n- Integration tests: `tests/integration/*.test.ts`\n- Use descriptive test names\n- Group related tests in `describe` blocks\n\n## Cloudflare Workers\n\n### Environment Bindings\n- ANALYTICS: Main betting analytics database\n- KV namespaces: BET_TICKER_RAW, TOKEN_STORE, USER_STORE\n- Queues: LINE_INGRESS, STEAM_WEBHOOK, STEAM_QUEUE\n- Analytics Engine: ANALYTICS_ENGINE\n\n### Performance\n- CPU limit: 50ms per request\n- Use `ctx.waitUntil()` for non-blocking operations\n- Implement cost guards for resource limits\n- Use rate limiting (10 req/s per IP)\n\n## MCP Integration\n\n### MCP Server Patterns\n- Use JSON-RPC 2.0 protocol over stdio\n- Register tools with `registerTool(name, description, inputSchema, handler)`\n- Return MCP response format: `{ content: [{ type: 'text', text: '...' }] }`\n- Use standard JSON-RPC error codes (-32700 parse, -32600 invalid, -32601 method not found, -32602 invalid params, -32603 internal)\n- Never use external MCP SDK if Bun + Zod suffices\n\n### Tool Development\n- Create handler in `src/mcp/handlers/`\n- Register in `toolRegistry.ts`\n- Define in `tools.ts` with schema\n- Always validate args before database queries\n- Return `MCPToolResult` format\n\n### Sports API Validation\n- Validate all sports data with Zod schemas\n- Required fields: eventId, timestamp, metric, value\n- Use metadata for market, source, volume\n- Write to ANALYTICS_ENGINE with proper blobs/doubles/indexes\n- Handle CORS for cross-origin requests\n\n### Testing MCP Tools\n- Use direct handler testing first\n- Test with `bun scripts/test-handlers-direct.ts`\n- HTTP testing via `/mcp` endpoint\n\n## Sports API Integration\n\n### Data Fetching\n- Use MCP `live-odds` tool for odds (never hard-code API calls)\n- Aggregate \u2265 2 bookmakers for accuracy (Pinnacle + Bet365)\n- Cache live data \u2264 30s in SPORTS_CACHE KV\n- Sports enum: nba, nfl, mlb, nhl only\n- Markets enum: moneyline, spread, total only\n\n### Data Ingestion\n- Push via `push-sports-data` MCP tool after every fetch\n- Ingest endpoint requires JWT signed with JWT_SECRET\n- Rate limit: 100 req/min per IP on `/ingest`\n- Validate eventId, timestamp, odds (required fields)\n- Include source and volume in metadata\n\n### API Key Rotation\n- Use rotateSecret() for daily key rotation\n- Pattern: PINNACLE_KEY_1, PINNACLE_KEY_2, PINNACLE_KEY_3\n- Rotation based on day of year % 3 + 1\n- Never commit actual keys to repo\n\n## Browser Extension\n\n### Manifest v3\n- Use service worker lifecycle\n- Handle message passing correctly\n- Implement proper storage management\n- Follow security best practices\n- Never use eval() or innerHTML\n\n## CI/CD Patterns\n\n### Local Development\n- Use `bun run ci` for full pipeline\n- Use `bun run ci:quick` for fast checks\n- Always use timeouts (job and command level)\n- Cache dependencies for speed\n- Report results clearly\n\n### Process Management\n- Always use `processManager.spawn()`\n- Always set timeouts for processes\n- Always cleanup in finally blocks\n- Never leave zombie processes\n\n## Code Quality\n\n### Documentation\n- Reference rules with stable GitHub links\n- Use `mdc:` links for project files\n- Keep documentation in `docs/`\n- Update INDEX.md when adding docs\n\n### ast-grep Integration\n- Use `sg scan` for security checks\n- Enforce SQL injection prevention\n- Check for unstructured logs\n- Validate CORS headers\n- Monitor hardcoded URLs\n\n## Automation Layer (v3.2.0+)\n\n### Forest CLI & Monitoring\n- Always run `bun run forest` before pushing to verify grove health\n- Check specific status: `bun run forest h|f|r|a` (health/fresh/release/analytics)\n- Use Forest CLI in CI for automated status reporting\n\n### Analytics Testing\n- Use `createAnalyticsEngineStub()` for analytics tests\u2014**never mock ANALYTICS_ENGINE directly**\n- Import from `tests/utils/analytics-engine-stub.ts`\n- Violation detection: `bun run guard:analytics` (fails CI if violated)\n\n### Dashboard Management\n- Dashboard changes must pass `bun run dashboard:all` locally before commit\n- Dashboards auto-deploy on release tag push\n- Grafana auto-imports on release (if configured)\n- README auto-updates with version and links\n\n### Release Management\n- Use Conventional Commits (feat:, fix:, chore:, docs:)\n- Release automation: `bun run release [patch|minor|major]`\n- Dry run first: `bun run release:dry`\n- Tag push triggers full automation (bump, deploy, notify)\n\n### Dependency Management\n- Dependency updates happen automatically every Monday\n- **Do not bump dependencies manually** (use freshness workflow)\n- Review weekly PR from automation\n- Emergency updates: `bun run freshness` then create PR\n\n### Health Monitoring\n- Worker health checked every 6 hours automatically\n- Manual check: `bun run health:ping`\n- Slack alerts sent on failure (if configured)\n- Endpoints: `/health` and `/metrics` auto-deployed\n\n## Related Documentation\n\n- [Complete Rules Guide](https://github.com/nolarose1968/ffffff/blob/main/docs/CURSOR_RULES.md)\n- [API Reference](https://github.com/nolarose1968/ffffff/blob/main/docs/REST_API_REFERENCE.md)\n- [Testing Guide](https://github.com/nolarose1968/ffffff/blob/main/docs/TESTING_STATUS.md)\n- [MCP Integration](https://github.com/nolarose1968/ffffff/blob/main/do",
       "format": "text",
@@ -12,15 +21,6 @@
     "stars": 8,
     "updated_at": "2026-10-21T09:10:10Z",
     "url": "https://github.com/brendadeeznuts1111/betting-brain-v3"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-21T09:00:37Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Architectural drift prevention for the agentic AI SDLC.",
@@ -426,15 +426,6 @@
     "url": "https://github.com/agentkitco/agent-config-templates"
   },
   {
-    "description": "\u5168\u7403\u9152\u5e97\u9884\u8ba2&\u4f4e\u4ef7\u76d1\u63a7\u63d0\u9192Skill\uff0c200\u4e07+\u7cbe\u9009\u9152\u5e97\uff0c\u72ec\u5bb6\u4f18\u60e0\u4ef7\u683c\uff0c\u8ba9\u4f60\u7684Agent\u8f7b\u677e\u9884\u8ba2\u54c1\u8d28\u9152\u5e97\uff0c\u652f\u6301\u652f\u4ed8\u5b9d\u4e0b\u5355+\u67e5\u8be2\u5386\u53f2\u8ba2\u5355\uff0c24 \u5c0f\u65f6\u5ba2\u670d\u652f\u6301\uff0c\u5168\u5929\u5019\u54cd\u5e94\u3002",
-    "id": "Erkan042/rollinggo-hotel-skill-cn",
-    "language": "Python",
-    "name": "Erkan042/rollinggo-hotel-skill-cn",
-    "stars": 0,
-    "updated_at": "2026-10-19T20:39:43Z",
-    "url": "https://github.com/Erkan042/rollinggo-hotel-skill-cn"
-  },
-  {
     "description": "Agent skills from Eased: motion rules and values for React and Tailwind UI.",
     "id": "easedui/skills",
     "language": "CSS",
@@ -453,7 +444,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 41382,
+    "stars": 41384,
     "updated_at": "2026-10-19T18:28:14Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -493,5 +484,14 @@
     "stars": 0,
     "updated_at": "2026-10-19T18:02:01Z",
     "url": "https://github.com/mateuszingano/supabase-rls-rules"
+  },
+  {
+    "description": "Battle-tested agent skills and Cursor rules from real projects. Works with Cursor, Claude Code, and any agent.",
+    "id": "jcottam/agent-resources",
+    "language": "Shell",
+    "name": "jcottam/agent-resources",
+    "stars": 29,
+    "updated_at": "2026-10-19T17:54:27Z",
+    "url": "https://github.com/jcottam/agent-resources"
   }
 ]
