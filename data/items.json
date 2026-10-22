@@ -1,11 +1,20 @@
 [
   {
+    "description": "\u522b\u518d\u8bf4\u300c\u7ee7\u7eed\u300d\u4e86\u3002\u4e00\u4e2a Agent \u4eba\u683c\u9884\u8bbe\uff1a\u628a\u9ed8\u8ba4\u52a8\u4f5c\u4ece\u300c\u505c\u4e0b\u6765\u95ee\u300d\u6539\u6210\u300c\u4e00\u76f4\u505a\uff0c\u76f4\u5230\u4ea4\u4ed8\u300d/ Stop typing 'continue'.",
+    "id": "485148606/dsh-extreme-mode",
+    "language": "JavaScript",
+    "name": "485148606/dsh-extreme-mode",
+    "stars": 0,
+    "updated_at": "2026-10-22T09:44:16Z",
+    "url": "https://github.com/485148606/dsh-extreme-mode"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-22T09:15:38Z",
+    "updated_at": "2026-10-22T09:30:47Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -16,15 +25,6 @@
     "stars": 28,
     "updated_at": "2026-10-22T09:29:48Z",
     "url": "https://github.com/MnemeHQ/mneme"
-  },
-  {
-    "description": "\u522b\u518d\u8bf4\u300c\u7ee7\u7eed\u300d\u4e86\u3002\u4e00\u4e2a Agent \u4eba\u683c\u9884\u8bbe\uff1a\u628a\u9ed8\u8ba4\u52a8\u4f5c\u4ece\u300c\u505c\u4e0b\u6765\u95ee\u300d\u6539\u6210\u300c\u4e00\u76f4\u505a\uff0c\u76f4\u5230\u4ea4\u4ed8\u300d/ Stop typing 'continue'.",
-    "id": "485148606/dsh-extreme-mode",
-    "language": "JavaScript",
-    "name": "485148606/dsh-extreme-mode",
-    "stars": 0,
-    "updated_at": "2026-10-22T08:55:50Z",
-    "url": "https://github.com/485148606/dsh-extreme-mode"
   },
   {
     "description": "Free MCP server, Cursor rule and Claude skill that help AI coding assistants avoid common security holes in vibe-coded a",
