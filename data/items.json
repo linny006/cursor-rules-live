@@ -1,11 +1,20 @@
 [
   {
+    "description": "Architectural drift prevention for the agentic AI SDLC.",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 28,
+    "updated_at": "2026-10-22T23:45:02Z",
+    "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-22T23:15:39Z",
+    "updated_at": "2026-10-22T23:30:39Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -82,17 +91,8 @@
     "language": "JavaScript",
     "name": "ajhcs/healthcare-agents",
     "stars": 53,
-    "updated_at": "2026-10-22T21:07:17Z",
+    "updated_at": "2026-10-22T23:43:15Z",
     "url": "https://github.com/ajhcs/healthcare-agents"
-  },
-  {
-    "description": "Architectural drift prevention for the agentic AI SDLC.",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 28,
-    "updated_at": "2026-10-22T21:17:42Z",
-    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
