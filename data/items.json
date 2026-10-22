@@ -1,12 +1,26 @@
 [
   {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-10-22T22:52:22Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Core working agreement for the AI agent on every task\nalwaysApply: true\n---\n\n# How to work in this repo\n\n## Before coding\n- Read the files you will change and their nearest tests before editing. Never guess an API that exists in the repo; search for it.\n- Check `package.json` / `pyproject.toml` / lockfiles for real framework versions and write code for THOSE versions.\n- For anything non-trivial (>1 file or >50 lines), state a short plan first: files to touch, approach, how you'll verify.\n- If requirements are ambiguous, ask one focused question instead of inventing behaviour.\n\n## While coding\n- Make the smallest change that solves the task. No drive-by refactors, renames or formatting of unrelated code.\n- Follow existing patterns in the codebase (naming, folder layout, error handling) over your own preferences.\n- Do not add a dependency without saying why and checking an existing one can't do it.\n- Never hardcode secrets, API keys or tokens. Use env vars and update `.env.example`.\n- Never silence errors (`catch {}`, `# type: ignore`, `as any`, `@ts-ignore`) to make something \"work\". Fix the cause or flag it.\n- Do not delete or weaken tests to make them pass.\n\n## After coding\n- Run the project's typecheck, lint and relevant tests; fix what you broke. If you couldn't run them, say so.\n- Summarise: what changed, why, how it was verified, and anything left undone or risky.\n\n## Never without explicit approval\n- Destructive commands (`rm -rf`, `git push --force`, `git reset --hard`, dropping tables, DB resets).\n- Editing generated files, lockfiles by hand, CI config, or migrations that already ran.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/00-general.mdc"
+    },
+    "description": "Free Cursor rules (.mdc), AGENTS.md & CLAUDE.md templates and prompts for AI coding agents: Next.js + Supabase, Godot 4.",
+    "id": "grizzlykiwidev/grizzlykiwidev.github.io",
     "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 52,
-    "updated_at": "2026-10-22T22:38:51Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+    "name": "grizzlykiwidev/grizzlykiwidev.github.io",
+    "stars": 0,
+    "updated_at": "2026-10-22T22:50:45Z",
+    "url": "https://github.com/grizzlykiwidev/grizzlykiwidev.github.io"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +28,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-22T22:30:34Z",
+    "updated_at": "2026-10-22T22:45:33Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 52,
+    "updated_at": "2026-10-22T22:38:51Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -70,15 +93,6 @@
     "stars": 0,
     "updated_at": "2026-10-22T19:52:26Z",
     "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-10-22T19:37:54Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
@@ -187,7 +201,7 @@
     "language": "TypeScript",
     "name": "Saad-web-spec/DevScratchPad",
     "stars": 2,
-    "updated_at": "2026-10-22T22:43:48Z",
+    "updated_at": "2026-10-22T22:57:57Z",
     "url": "https://github.com/Saad-web-spec/DevScratchPad"
   },
   {
@@ -494,19 +508,5 @@
     "stars": 1,
     "updated_at": "2026-10-21T04:27:53Z",
     "url": "https://github.com/cooyun/awesome-2026-llm-api-pricing"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Kuma MCP \u2014 safety and context runtime for AI agents\nalwaysApply: true\n---\n\nKuma MCP tools: kuma_context, kuma_memory, kuma_safety.\nRecord what matters, skip what doesn't.\n\n<kuma_obedience>\n## \ud83d\udd12 Obedience (non-negotiable)\n- MUST call `kuma_context({ action: \"init\" })` at session start.\n- MUST record gotchas IMMEDIATELY when a bug/quirk is found.\n- MUST call `kuma_safety({ action: \"verify\" })` after edits.\n- MUST NOT call actions outside the 13 core actions.\n</kuma_obedience>\n\n<kuma_workflow>\n\ud83e\udde0 **Before coding:** `kuma_context({ action: \"init\" })`\n\ud83d\udd2c **Unfamiliar code:** `kuma_context({ action: \"research\", scope: \"<area>\" })`\n\ud83d\udc1b **Found a bug/quirk:** `kuma_memory({ action: \"gotcha\" })` (IMMEDIATELY)\n\ud83e\udded **Chose between options:** `kuma_memory({ action: \"decision\" })`\n\ud83d\udd00 **Traced a flow:** `kuma_memory({ action: \"arch_flow\" })` (max 5 files)\n\ud83d\udee1\ufe0f **Before risky work / after edits:** `kuma_safety({ action: \"guard\" | \"verify\" })`\n</kuma_workflow>\n\n\ud83d\udcd6 Full rules: `.kuma/init.md`\n\n\ud83d\udcd6 **Usage:**\n  \u2022 `kuma_context({ action: \"init\" })` \u2014 load project context (call first)\n  \u2022 `kuma_safety({ action: \"guard\" })` \u2014 safety check before risky ops\n  \u2022 `kuma_safety({ action: \"verify\", scope: \"<area>\" })` \u2014 verify after edits\n  \u2022 `.kuma/init.md` \u2014 full behavioral rules\n  \u2022 `.kuma/KNOWN_GOTCHAS.md` \u2014 gotchas \u00b7 `.kuma/memories/decisions.md` \u2014 decisions (readable)",
-      "format": "mdc",
-      "path": ".cursor/rules/kuma.mdc"
-    },
-    "description": "\ud83c\udf75 Deliberate engineering guidelines & deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block",
-    "id": "plumpslabs/matcha",
-    "language": "JavaScript",
-    "name": "plumpslabs/matcha",
-    "stars": 2,
-    "updated_at": "2026-10-21T03:25:00Z",
-    "url": "https://github.com/plumpslabs/matcha"
   }
 ]
