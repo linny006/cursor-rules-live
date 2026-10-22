@@ -5,8 +5,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-22T14:00:43Z",
+    "updated_at": "2026-10-22T14:15:43Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam",
+    "id": "eli-alvarado/agentkit-drawer",
+    "language": "Python",
+    "name": "eli-alvarado/agentkit-drawer",
+    "stars": 0,
+    "updated_at": "2026-10-22T14:10:20Z",
+    "url": "https://github.com/eli-alvarado/agentkit-drawer"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -60,7 +69,7 @@
     "language": "TypeScript",
     "name": "Saad-web-spec/DevScratchPad",
     "stars": 2,
-    "updated_at": "2026-10-22T14:07:26Z",
+    "updated_at": "2026-10-22T14:29:06Z",
     "url": "https://github.com/Saad-web-spec/DevScratchPad"
   },
   {
@@ -293,15 +302,6 @@
     "stars": 0,
     "updated_at": "2026-10-22T00:50:10Z",
     "url": "https://github.com/vtcdotcom/vtc-app-rules"
-  },
-  {
-    "description": "Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam",
-    "id": "eli-alvarado/agentkit-drawer",
-    "language": "Python",
-    "name": "eli-alvarado/agentkit-drawer",
-    "stars": 0,
-    "updated_at": "2026-10-22T14:10:20Z",
-    "url": "https://github.com/eli-alvarado/agentkit-drawer"
   },
   {
     "description": "Free sample Cursor and Claude Code rules for FastAPI, Next.js and Spring Boot, from codebaserules.com",
