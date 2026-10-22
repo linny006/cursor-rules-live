@@ -1,12 +1,30 @@
 [
   {
+    "description": "Free MCP server, Cursor rule and Claude skill that help AI coding assistants avoid common security holes in vibe-coded a",
+    "id": "toby7979/sealmyapp-tools",
+    "language": "TypeScript",
+    "name": "toby7979/sealmyapp-tools",
+    "stars": 0,
+    "updated_at": "2026-10-22T08:36:07Z",
+    "url": "https://github.com/toby7979/sealmyapp-tools"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-22T08:15:55Z",
+    "updated_at": "2026-10-22T08:30:49Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
+    "id": "HoangNguyen0403/agent-skills-standard",
+    "language": "TypeScript",
+    "name": "HoangNguyen0403/agent-skills-standard",
+    "stars": 581,
+    "updated_at": "2026-10-22T08:30:34Z",
+    "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
   },
   {
     "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
@@ -254,15 +272,6 @@
     "url": "https://github.com/vibestackdev/vibe-stack"
   },
   {
-    "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
-    "id": "HoangNguyen0403/agent-skills-standard",
-    "language": "TypeScript",
-    "name": "HoangNguyen0403/agent-skills-standard",
-    "stars": 581,
-    "updated_at": "2026-10-22T07:57:25Z",
-    "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
-  },
-  {
     "description": "Drop-in AI agent rules (Cursor, Claude Code, AGENTS.md) that stop Supabase RLS holes, broken Stripe webhooks and Godot 3",
     "id": "otctrading101/shiprules-free",
     "language": "\u2014",
@@ -489,14 +498,5 @@
     "stars": 0,
     "updated_at": "2026-10-20T16:39:47Z",
     "url": "https://github.com/lucas-winter-berlin/Agent-Engineer-Skills"
-  },
-  {
-    "description": "\ud83c\udfad 277 \u4e2a\u5373\u63d2\u5373\u7528\u7684 AI \u4e13\u5bb6\u89d2\u8272 \u2014 \u652f\u6301 Claude Code/Cursor/Copilot \u7b49 20 \u79cd\u5de5\u5177\uff0c\u8986\u76d6\u5de5\u7a0b/\u8bbe\u8ba1/\u8425\u9500/\u91d1\u878d\u7b49 20 \u4e2a\u90e8\u95e8\u3002\u542b 64 \u4e2a\u4e2d\u56fd\u5e02\u573a\u539f\u521b\u667a\u80fd\u4f53\uff08\u5c0f\u7ea2\u4e66/\u6296\u97f3/\u5fae\u4fe1/\u98de\u4e66/\u9489\u9489/Qt \u4e0a",
-    "id": "jnMetaCode/agency-agents-zh",
-    "language": "Shell",
-    "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21490,
-    "updated_at": "2026-10-20T14:14:30Z",
-    "url": "https://github.com/jnMetaCode/agency-agents-zh"
   }
 ]
