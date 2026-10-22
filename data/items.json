@@ -1,1 +1,512 @@
-[]
+[
+  {
+    "description": "Architectural drift prevention for the agentic AI SDLC.",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 28,
+    "updated_at": "2026-10-22T16:29:21Z",
+    "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
+    "cursorrules": {
+      "content": "# /pr-viz\n# Community skill: https://github.com/krzysztofgibert/pr-viz-skill\n# Viewer: https://pr-viz.com\n\nWhen the user runs /pr-viz, or asks to visualize, map, or review a GitHub pull\nrequest, follow skills/pr-viz/SKILL.md in full.\n\nPublish the map with skills/pr-viz/scripts/publish-diagram.mjs to the viewer in\nskills/pr-viz/host.json. Do not paste the review, Mermaid, or ASCII in the chat.\nDo not ask for or handle a GitHub token.\n",
+      "format": "text",
+      "path": ".cursorrules"
+    },
+    "description": "Free IDE skill that turns a GitHub pull request into a two-zone review map. Use it in VS Code, Cursor, Claude Code, or W",
+    "id": "krzysztofgibert/pr-viz-skill",
+    "language": "JavaScript",
+    "name": "krzysztofgibert/pr-viz-skill",
+    "stars": 0,
+    "updated_at": "2026-10-22T16:25:10Z",
+    "url": "https://github.com/krzysztofgibert/pr-viz-skill"
+  },
+  {
+    "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 plus AIOS, an open-source markdown memory system for coding ",
+    "id": "sublimecoder/sublimecoding",
+    "language": "\u2014",
+    "name": "sublimecoder/sublimecoding",
+    "stars": 0,
+    "updated_at": "2026-10-22T16:15:44Z",
+    "url": "https://github.com/sublimecoder/sublimecoding"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-22T16:15:19Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-10-22T15:44:11Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-10-22T15:01:25Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
+  },
+  {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 1,
+    "updated_at": "2026-10-22T14:58:18Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+  },
+  {
+    "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
+    "id": "agenticstandardcontact-byte/agentic-architect",
+    "language": "HTML",
+    "name": "agenticstandardcontact-byte/agentic-architect",
+    "stars": 0,
+    "updated_at": "2026-10-22T14:30:15Z",
+    "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
+  },
+  {
+    "description": "Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam",
+    "id": "eli-alvarado/agentkit-drawer",
+    "language": "Python",
+    "name": "eli-alvarado/agentkit-drawer",
+    "stars": 0,
+    "updated_at": "2026-10-22T14:10:20Z",
+    "url": "https://github.com/eli-alvarado/agentkit-drawer"
+  },
+  {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 3,
+    "updated_at": "2026-10-22T13:52:46Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
+  },
+  {
+    "description": "Rules that make AI coding agents write code a person would write. AGENTS.md for any agent, plus a Claude Code plugin.",
+    "id": "navulo/human-code",
+    "language": "JavaScript",
+    "name": "navulo/human-code",
+    "stars": 1,
+    "updated_at": "2026-10-22T13:55:07Z",
+    "url": "https://github.com/navulo/human-code"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: \"Enforces /boost context-window hygiene: <= 200 line root constitutions (CLAUDE.md/GEMINI.md), 3-tier lazy-loaded .mdc and SKILL.md sharding, subagent search offloading, 60% context compaction, and .boost-context-budget.json verification.\"\nglobs: \"**/*\"\nalwaysApply: true\n---\n# Module 01: Context-Bloat & Token-Pruner Protocol (`RULE-BOOST-CONTEXT-OPTIMIZER`)\n\n> **Severity**: `BLOCKING` | **Scope**: Root Constitutions (`CLAUDE.md`, `GEMINI.md`), Scoped Rules (`.cursor/rules/*.mdc`), Skills (`SKILL.md`), & Context Hygiene  \n> **Platforms**: Google Antigravity (`GEMINI.md`), Cursor IDE (`.cursor/rules/*.mdc`), Claude Code (`CLAUDE.md` / `SKILL.md`), ChatGPT Projects\n\n---\n\n## 1. Core Constitutional Invariants (Nguy\u00ean T\u1eafc B\u1ea5t Bi\u1ebfn)\n\n### \ud83c\uddec\ud83c\udde7 English Specification\n1. **Zero Monolithic Prompt Stuffing (`200-Line Root Constitution Cap`)**:\n   - Whenever an agent initializes a workspace, audits token usage via `/boost`, or adds a new engineering rule, it is **STRICTLY FORBIDDEN** to dump encyclopedic documentation, raw API schemas, or edge-case tutorials into root instruction files (`CLAUDE.md`, `GEMINI.md`, `.cursorrules`).\n   - Root instruction files load on every single turn and consume primary attention heads. Keep every root constitution file strictly at or below **200 lines** (`<= 1,800 tokens`) so the model retains over **90% active reasoning capacity** for live code and user intent.\n   - When a root constitution file approaches 180 lines, extract domain-specific sections into dedicated `.cursor/rules/*.mdc` or `.claude/skills/*/SKILL.md` files before adding a single new line.\n2. **Step 1 - Progressive Disclosure & Lazy-Loaded Skill Sharding**:\n   - Partition workspace rules into a 3-tier attention hierarchy before writing new instructions:\n     - **Tier A - Root Constitution (`CLAUDE.md` / `GEMINI.md` <= 200 lines)**: Global architectural invariants, build/test commands, and high-level routing pointers only.\n     - **Tier B - Path-Scoped Cursor Rules (`.cursor/rules/*.mdc`)**: Domain rules restricted by explicit `globs` (for example `src/components/**/*.tsx` or `scripts/**/*.mjs`) with `alwaysApply: false` unless the rule governs universal safety.\n     - **Tier C - On-Demand Agent Skills (`.claude/skills/*/SKILL.md` & `.agents/skills/*/SKILL.md`)**: Deep workflows, reference tables, and verification scripts loaded lazily only when the active task matches the skill trigger description.\n3. **Step 2 - Subagent Search Offloading & Context Compaction**:\n   - Never run broad directory walks, unfiltered `grep` dumps, or multi-megabyte log reads inside the primary orchestrator thread.\n   - Offload exploratory file searches, dependency audits, and log triage to isolated subagents or targeted ripgrep queries capped at 50 matches. Return only a concise structured summary (`<= 300 tokens`) to the main thread.\n   - Trigger `/compact` or summarize completed sub-tasks whenever active context utilization crosses **60% of the model context window** to prevent middle-curve attention dilution.\n4. **Step 3 - Heavy Directory Exclusion & Verifiable Budget Receipt**:\n   - Configure `.cursorignore` and `.claudeignore` to block high-volume, low-signal directories (`node_modules/`, `dist/`, `build/`, `.next/`, `coverage/`, `package-lock.json`, `pnpm-lock.yaml`, `*.min.js`).\n   - Before concluding any `/boost` optimization pass, write a deterministic audit receipt to `.boost-context-budget.json` recording root file line counts, glob coverage across `.mdc` rules, excluded heavy directories, and estimated token savings.\n\n### \ud83c\uddfb\ud83c\uddf3 \u0110\u1eb7c T\u1ea3 Ti\u1ebfng Vi\u1ec7t\n1. **C\u1ea5m Nh\u1ed3i Nh\u00e9t File C\u1ea5u H\u00ecnh G\u1ed1c (`Tr\u1ea7n 200 D\u00f2ng Cho File G\u1ed1c`)**:\n   - Khi AI kh\u1edfi t\u1ea1o d\u1ef1 \u00e1n ho\u1eb7c ch\u1ea1y l\u1ec7nh `/boost` \u0111\u1ec3 d\u1ecdn d\u1eb9p ng\u1eef c\u1ea3nh, **C\u1ea4M TUY\u1ec6T \u0110\u1ed0I** nh\u1ed3i t\u00e0i li\u1ec7u d\u00e0i d\u00f2ng v\u00e0o file g\u1ed1c. B\u1ea1n kh\u00f4ng \u0111\u01b0\u1ee3c ch\u00e9p b\u1ea3ng d\u1eef li\u1ec7u th\u00f4 hay h\u01b0\u1edbng d\u1eabn chi ti\u1ebft v\u00e0o `CLAUDE.md`, `GEMINI.md` ho\u1eb7c `.cursorrules`.\n   - File c\u1ea5u h\u00ecnh g\u1ed1c lu\u00f4n t\u1ef1 \u0111\u1ed9ng n\u1ea1p v\u00e0o b\u1ed9 nh\u1edb \u1edf m\u1ecdi l\u01b0\u1ee3t h\u1ed9i tho\u1ea1i. B\u1ea1n ph\u1ea3i gi\u1eef file g\u1ed1c g\u1ecdn d\u01b0\u1edbi **200 d\u00f2ng** (`<= 1.800 token`) \u0111\u1ec3 m\u00f4 h\u00ecnh d\u00e0nh tr\u1ecdn **tr\u00ean 90% n\u0103ng l\u01b0\u1ee3ng ch\u00fa \u00fd** cho m\u00e3 ngu\u1ed3n th\u1ef1c t\u1ebf.\n   - Khi file c\u1ea5u h\u00ecnh g\u1ed1c ch\u1ea1m m\u1ed1c 180 d\u00f2ng, b\u1ea1n b\u1eaft bu\u1ed9c ph\u1ea3i t\u00e1ch c\u00e1c h\u01b0\u1edbng d\u1eabn chuy\u00ean ng\u00e0nh sang th\u01b0 m\u1ee5c `.cursor/rules/` ho\u1eb7c `.claude/skills/` tr\u01b0\u1edbc khi vi\u1ebft th\u00eam lu\u1eadt m\u1edbi.\n2. **B\u01b0\u1edbc 1 - Ph\u00e2n T\u1ea7ng N\u1ea1p Ch\u1eadm Theo Ng\u1eef C\u1ea3nh (`3-Tier Lazy Loading`)**:\n   - Chia nh\u1ecf h\u1ec7 th\u1ed1ng quy t\u1eafc th\u00e0nh 3 t\u1ea7ng r\u00f5 r\u1ec7t thay v\u00ec gom chung m\u1ed9t ch\u1ed7:\n     - **T\u1ea7ng A - Hi\u1ebfn Ph\u00e1p G\u1ed1c (`CLAUDE.md` / `GEMINI.md` <= 200 d\u00f2ng)**: Ch\u1ec9 ch\u1ee9a nguy\u00ean t\u1eafc s\u1ed1ng c\u00f2n, l\u1ec7nh ch\u1ea1y ki\u1ec3m th\u1eed v\u00e0 danh m\u1ee5c \u0111i\u1ec1u h\u01b0\u1edbng ng\u1eafn g\u1ecdn.\n     - **T\u1ea7ng B - Lu\u1eadt Theo \u0110\u01b0\u1eddng D\u1eabn File (`.cursor/rules/*.mdc`)**: G\u1eafn b\u1ed9 l\u1ecdc \u0111\u01b0\u1eddng d\u1eabn `globs` c\u1ee5 th\u1ec3 (nh\u01b0 `src/ui/**/*.tsx`) \u0111\u1ec3 ch\u1ec9 n\u1ea1p lu\u1eadt khi ch\u1ea1m \u0111\u00fang th\u01b0 m\u1ee5c \u0111\u00f3.\n     - **T\u1ea7ng C - K\u1ef9 N\u0103ng Chuy\u00ean Bi\u1ec7t N\u1ea1p Khi C\u1ea7n (`SKILL.md`)**: T\u00e1ch c\u00e1c quy tr\u00ecnh d\u00e0i, b\u1ea3ng tham chi\u1ebfu v\u00e0 c\u00f4ng c\u1ee5 ki\u1ec3m tra v\u00e0o th\u01b0 m\u1ee5c k\u1ef9 n\u0103ng ri\u00eang \u0111\u1ec3 AI ch\u1ec9 m\u1edf ra \u0111\u1ecdc khi \u0111\u00fang vi\u1ec7c.\n3. **B\u01b0\u1edbc 2 - C\u00e1ch Ly T\u00e1c V\u1ee5 T\u00ecm Ki\u1ebfm N\u1eb7ng Sang Lu\u1ed3ng Ph\u1ee5 (`Subagent Offloading`)**:\n   - Kh\u00f4ng ch\u1ea1y l\u1ec7nh qu\u00e9t to\u00e0n b\u1ed9 \u1ed5 \u0111\u0129a ho\u1eb7c \u0111\u1ecdc file nh\u1eadt k\u00fd h\u00e0ng ch\u1ee5c ngh\u00ecn d\u00f2ng ngay trong lu\u1ed3ng tr\u00f2 chuy\u1ec7n ch\u00ednh.\n   - H\u00e3y giao vi\u1ec7c d\u00f2 t\u00ecm file ho\u1eb7c l\u1ecdc l\u1ed7i nh\u1eadt k\u00fd cho m\u1ed9t lu\u1ed3ng t\u00e1c v\u1ee5 ph\u1ee5 \u0111\u1ed9c l\u1eadp. Lu\u1ed3ng ph\u1ee5 ch\u1ec9 tr\u1ea3 v\u1ec1 b\u1ea3n t\u00f3m t\u1eaft k\u1ebft qu\u1ea3 ng\u1eafn g\u1ecdn d\u01b0\u1edbi **300 token** cho lu\u1ed3ng ch\u00ednh.\n   - Ch\u1ee7 \u0111\u1ed9ng n\u00e9n l\u1ecbch s\u1eed tr\u00f2 chuy\u1ec7n ngay khi dung l\u01b0\u1ee3ng b\u1ed9 nh\u1edb ch\u1ea1m ng\u01b0\u1ee1ng **60% gi\u1edbi h\u1ea1n c\u1eeda s\u1ed5 ng\u1eef c\u1ea3nh** \u0111\u1ec3 tr\u00e1nh hi\u1ec7n t\u01b0\u1ee3ng qu\u00ean \u0111\u1ea7u qu\u00ean \u0111u\u00f4i.\n4. **B\u01b0\u1edbc 3 - Ch\u1eb7n Th\u01b0 M\u1ee5c R\u00e1c & Xu\u1ea5t Bi\u00ean B\u1ea3n Ki\u1ec3m To\u00e1n (`Context Budget Receipt`)**:\n   - Thi\u1ebft l\u1eadp file `.cursorignore` v\u00e0 `.claudeignore` \u0111\u1ec3 ch\u1eb7n tri\u1ec7t \u0111\u1ec3 c\u00e1c th\u01b0 m\u1ee5c ng\u1ed1n b\u1ed9 nh\u1edb nh\u01b0 `node_modules/`, `dist/`, `.next/`, `coverage/` v\u00e0 `package-lock.json`.\n   - Sau m\u1ed7i l\u1ea7n t\u1ed1i \u01b0u b\u1eb1ng `/boost`, h\u1ec7 th\u1ed1ng ph\u1ea3i ghi k\u1ebft qu\u1ea3 \u0111o \u0111\u1ea1c th\u1ef1c t\u1ebf v\u00e0o file `.boost-context-budget.json`. Bi\u00ean b\u1ea3n n\u00e0y l\u01b0u r\u00f5 s\u1ed1 d\u00f2ng c\u1ee7a file g\u1ed1c, t\u1ef7 l\u1ec7 g\u1eafn nh\u00e3n `globs` v\u00e0 danh s\u00e1ch th\u01b0 m\u1ee5c n\u1eb7ng \u0111\u00e3 ch\u1eb7n.\n\n### Decision Matrix: Context Tier Routing (Ma Tr\u1eadn Ph\u00e2n T\u1ea7ng Ng\u1eef C\u1ea3nh)\n\n| Rule / Knowledge Type | Target Location | Loading Mode | Line / Token Ceiling | Why This Tier Prevents Decay |\n| :--- | :--- | :--- | :--- | :--- |\n| **Workspace Invariants & Build Commands** | `CLAUDE.md` / `GEMINI.md` | Always Loaded (Turn 0) | `<= 200 lines` (`<= 1,800 tokens`) | Keeps primary attention heads sharp across every turn without KV-cache bloat. |\n| **Component / Directory Conventions** | `.cursor/rules/*.mdc` | Path-Triggered (`globs`) | `<= 250 lines` per `.mdc` file | Loads UI rules only when editing UI files and DB rules only when editing schemas. |\n| **Multi-Step Playbooks & Scripts** | `.claude/skills/*/SKILL.md` | On-Demand Discovery | `<= 320 lines` + `scripts/` | Zero token cost on unrelated turns. Full depth when explicitly invoked. |\n| **External API Payloads & Schemas** | `docs/schemas/` or `references/` | Explicit File Read Only | Unlimited on disk (`0 idle tokens`) | Keeps giant JSON payloads out of active memory until a schema change occurs. |\n| **Heavy Build Artifacts & Lockfiles** | `.cursorignore` / `.claudeignore` | Hard Excluded (`0 tokens`) | `0 lines` indexed | Prevents `node_modules`, `dist`, `.next`, and `package-lock.json` from polluting search. |\n\n---\n\n## 2. 10-Pair Anti-Pattern vs. World-Class Execution Table (10 C\u1eb7p \u0110\u1ed1i S\u00e1nh)\n\n| # | Scenario | \u274c Bloated Context Slop (Rejected) | \u2705 World-Class `/boost` Execution (Enforced) |\n| :--- | :--- | :--- | :--- |\n| **01** | **Root `CLAUDE.md` Size** | Dumping a 1,400-line monolith containing CSS tokens, database migrations, and old changelogs into `CLAUDE.md`. | Keeping `CLAUDE.md` under 150 lines with crisp build commands and clean pointers to scoped `.claude/skills/` modules. |\n| **02** | **Cursor Rule Activation** | Setting `alwaysApply: true` on 25 different `.mdc` files so every chat turn preloads 18,000 tokens of unrelated rules. | Reserving `alwaysApply: true` for at most 4 core safety invariants and binding domain rules to explicit `globs` ",
+      "format": "mdc",
+      "path": ".cursor/rules/01-boost-context-bloat-optimizer.mdc"
+    },
+    "description": "Agentic Workflow OS: Deterministic /boost Context-Bloat Pruner, /teamwork-preview Git Worktree Sandbox, /goal Anti-Rewar",
+    "id": "longwave-ai-lab/agentic-workflow-os",
+    "language": "JavaScript",
+    "name": "longwave-ai-lab/agentic-workflow-os",
+    "stars": 0,
+    "updated_at": "2026-10-22T13:37:51Z",
+    "url": "https://github.com/longwave-ai-lab/agentic-workflow-os"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Instructions for AI agent code generation workflow\nglobs: [\"*\"]\nalwaysApply: true\n---\n\n# AI Collaboration Guidelines\n\n## The 3-Stage Agentic Loop\n\nEvery code generation task MUST follow this loop:\n\n### Stage 1: PLAN (gather context first)\n\nBefore writing ANY code, the AI MUST:\n1. Read the relevant source files to verify current state \u2014 do NOT rely on memory\n2. Identify which `.cursor/rules/` files apply to this task\n3. List the files to modify and explain why\n4. Do NOT write code yet\n\nPrompt template:\n```\nAnalyze the current codebase and plan how to implement [feature]. \nList the files you'll modify and why. Don't write code yet.\n```\n\n### Stage 2: IMPLEMENT (follow constraints)\n\nWhen generating code:\n- Follow ALL active `.cursor/rules/` constraints\n- If unsure about auth patterns, re-read `supabase-auth-security.mdc`\n- If unsure about params/layouts, re-read `nextjs15-params.mdc`\n- Use `unknown` + Zod validation instead of `any` for external data\n- Return `ActionResponse<T>` from all Server Actions (see below)\n\n### Stage 3: VERIFY (confirm before declaring done)\n\nAfter generating code, the AI MUST self-check:\n- [ ] No `getSession()` on the server (MUST be `getUser()`)\n- [ ] No synchronous `params` or `searchParams` access\n- [ ] No `@supabase/auth-helpers-nextjs` imports\n- [ ] No `any` types \u2014 use `unknown` + type narrowing\n- [ ] Every API route has Zod validation\n- [ ] Every error is caught and returns `{ error: string }`\n- [ ] New tables have RLS enabled\n- [ ] `loading.tsx` and `error.tsx` exist for data-fetching pages\n\nReport issues BEFORE the developer runs the code.\n\n## Skeptical Retrieval Rule\n\nNEVER trust stored knowledge about the codebase. Before modifying a file:\n1. Re-read the file to verify its current contents\n2. Check imports and exports to ensure they match expectations\n3. Verify that function signatures haven't changed\n\nThis prevents generating code that references stale function signatures, \ndeleted files, or renamed exports.\n\n## Standard Patterns\n\n### ActionResponse Type (use for all Server Actions)\n```typescript\ntype ActionResponse<T = void> = \n  | { success: true; data: T }\n  | { success: false; error: string }\n```\n\n### Standard Server Action Structure\n```typescript\n'use server'\nimport { createClient } from '@/lib/supabase/server'\nimport { z } from 'zod'\n\nconst Schema = z.object({ /* ... */ })\n\nexport async function myAction(input: unknown): Promise<ActionResponse<MyType>> {\n  // 1. Auth\n  const supabase = await createClient()\n  const { data: { user } } = await supabase.auth.getUser()\n  if (!user) return { success: false, error: 'Unauthorized' }\n\n  // 2. Validate\n  const result = Schema.safeParse(input)\n  if (!result.success) return { success: false, error: 'Invalid input' }\n\n  // 3. Execute\n  try {\n    const { data, error } = await supabase.from('table').insert(result.data).select().single()\n    if (error) throw error\n    return { success: true, data }\n  } catch {\n    return { success: false, error: 'Operation failed' }\n  }\n}\n```\n\n## Task Constraints\n\n- NEVER give the AI a task longer than 200 words\n- NEVER let the AI implement more than 3-4 files in one turn\n- NEVER let the AI skip the verification checklist\n- ALWAYS review the Git diff before committing\n- When uncertain, ask the developer \u2014 do NOT guess\n\n",
+      "format": "mdc",
+      "path": ".cursor/rules/ai-collaboration.mdc"
+    },
+    "description": "29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b",
+    "id": "vibestackdev/vibe-stack",
+    "language": "TypeScript",
+    "name": "vibestackdev/vibe-stack",
+    "stars": 8,
+    "updated_at": "2026-10-22T13:23:39Z",
+    "url": "https://github.com/vibestackdev/vibe-stack"
+  },
+  {
+    "description": "Free private developer tools (JSON, JWT, cURL, cron, SSH keys) that run in your browser, plus AI Skill Studio: a CLAUDE.",
+    "id": "Saad-web-spec/DevScratchPad",
+    "language": "TypeScript",
+    "name": "Saad-web-spec/DevScratchPad",
+    "stars": 2,
+    "updated_at": "2026-10-22T15:44:27Z",
+    "url": "https://github.com/Saad-web-spec/DevScratchPad"
+  },
+  {
+    "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
+    "id": "philipbankier/awesome-agent-skills",
+    "language": "TypeScript",
+    "name": "philipbankier/awesome-agent-skills",
+    "stars": 20,
+    "updated_at": "2026-10-22T12:34:47Z",
+    "url": "https://github.com/philipbankier/awesome-agent-skills"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: \"Mandatory Multi-Archetype Live Benchmark Protocol: Prevents AI from guessing or patching from static memory. Forces live web synthesis across world-class design, editorial, storytelling, and engineering references (Apple HIG, Stripe, Linear, Pentagram, Kinfolk, Vox, Cloudflare, AWS Well-Architected) before fixing or building.\"\nglobs: \"*\"\nalwaysApply: true\n---\n\n# 01 - Multi-Archetype World-Class Benchmark Protocol (`RULE-BENCHMARK-FIRST`)\n\n## PART A: ENGLISH SPECIFICATION\n\n### 1. Core Invariant: Zero Memory-Only Patching\n\nWhenever the user critiques an output, points out a flaw (in UI/UX, Typography, Motion Graphics, Copywriting, Product Strategy, or System Architecture), or proposes a new feature or design direction:\n\n1. **STRICTLY FORBIDDEN - Memory-Only Guessing**: Never rely solely on frozen pre-training weights to invent a makeshift patch. Autoregressive sampling from static memory defaults to the statistical average of mediocre public repositories (purple neon gradients, nested bordered cards, fake sci-fi labels like `//`, `\u00b7`, `#REF`, `[01]`, or robotic filler prose).\n2. **Step 1 - Mandatory Multi-Archetype Live Benchmark**: Immediately invoke live web search, URL inspection, or browser tools (`search_web`, `read_url_content`, or equivalent) to survey multiple world-class reference archetypes across four distinct domains:\n   - **Domain 1 - Product & Interface Design**: *Apple Human Interface Guidelines (HIG), Stripe Press, Linear, Raycast, Vercel*\n   - **Domain 2 - Editorial & Brand Identity**: *Pentagram, Kinfolk, The New York Times Visual Investigations, Monocle*\n   - **Domain 3 - Visual Storytelling & Motion**: *Ordinary Folk, Vox, Johnny Harris, Kurzgesagt, Lemmino, Cleo Abram*\n   - **Domain 4 - Engineering & System Architecture**: *Stripe API Design, Cloudflare Architecture, AWS Well-Architected Framework, Designing Data-Intensive Applications*\n   - Never lock into a single narrow template. Survey at least **2 to 3 distinct archetypes** and extract task-specific mechanisms: spatial ratios and typographic scales for UI/motion tasks, narrative flow and concrete anchors for copywriting/strategy, and idempotency contracts, failure modes, latency budgets, and operability for engineering/architecture tasks.\n3. **Step 2 - Objective Self-Critique vs. Global Standard**: Present a concise, transparent diagnostic comparison to the user before or alongside the implementation:\n   - *Why did the previous attempt fail or feel cheap?* (Identify the exact root defect: e.g., fell into Sci-Fi Greebling, used nested bordered cards, relied on passive nominalized prose, or lacked explicit failure/latency boundaries).\n   - *How do top-tier studios or principal engineering teams solve the root problem structurally?*\n4. **Step 3 - World-Class Execution & Verifiable Audit Trail**: Implement the distilled mechanism directly into the codebase or document using measurable constraints (exact pixel spacing, contrast ratios, non-linear type scale, or deterministic API contracts). Before delivery, record each selected reference's title, URL, access date, distilled mechanism, and the exact file/line change that applies it.\n\n---\n\n### 2. Operational Domain Triage & Benchmark Selection Matrix\n\nUse the decision matrix below to select the mandatory reference archetypes for any incoming user task:\n\n| Task Category | Primary Archetype Domain | Secondary Cross-Pollination Domain | Concrete Structural Mechanism to Extract | Mandatory Quantitative Parameter |\n| :--- | :--- | :--- | :--- | :--- |\n| **1. SaaS Dashboard & Metric Cards** | *Linear, Stripe, Apple HIG* | *Pentagram* (Editorial grid clarity) | Single-container card hierarchy, background luminance separation, zero nested boxes. | `>= 70% Open Canvas`, `16px-28px` padding, `12.6:1` AAA night contrast (`#E6E4DD` on `#090A0F`). |\n| **2. Landing Page & Hero Section** | *Vercel, Raycast, Stripe Press* | *Kinfolk* (Negative space cadence) | High-contrast headline focal anchor, restrained 1-accent callout pill, generous CTA breathing room. | Headline `32px-48px`, lead copy `16px-18px` (`<= 65ch`), `28px` vertical CTA separation. |\n| **3. Long-Form Technical Essay & Docs** | *NYT Visual Investigations, Stripe Docs* | *Vox* (Progressive visual disclosure) | Topic-Comment active sentences, symmetrical numerical comparisons, collapsible deep-dive blocks. | `15-28 words` average sentence, `45-word` hard cap, zero em-dashes (`U+2014`). |\n| **4. 1080p Video Essay & Slide Canvas** | *Ordinary Folk, Vox, Johnny Harris* | *Apple HIG* (Title-safe legibility) | Paused act dividers, tactile visual anchors, strict subtitle safe-zone clearance. | `1920x1080` frame: X margin `>= 64px-88px`, Top `>= 42px-54px`, Bottom content `y <= 875px`. |\n| **5. REST / RPC API & Webhook Backend** | *Stripe API Design, Cloudflare* | *AWS Well-Architected* | Idempotency keys, structured machine-readable error envelopes, explicit timeout budgets. | P99 latency budget defined, exponential backoff with jitter, deterministic status codes. |\n| **6. Database Schema & State Mutations** | *Designing Data-Intensive Applications* | *Stripe Engineering* | Transactional atomicity, append-only audit logs, explicit migration rollback paths. | Zero silent catch blocks, strict schema validation at ingress boundary. |\n| **7. Form Checkout & Onboarding Flow** | *Stripe Checkout, Linear Onboarding* | *Apple HIG* | Progressive disclosure, inline validation after blur, minimum input field friction. | `<= 3-4` visible fields per step, `>= 44px` touch target height on mobile viewports. |\n| **8. Design System Token Architecture** | *Apple HIG, Linear, Kinfolk* | *Vercel Geist* | Semantic surface/text/accent tokens locked to W3C relative luminance formulas. | Max 1 primary surface, 1 text hierarchy (`95%` / `65%`), 1 accent hue (`#F7B957`). |\n\n---\n\n### 3. 10-Pair Side-by-Side Comparison: \u274c Forbidden vs. \u2705 Required\n\n| # | Operational Scenario | \u274c Forbidden (Memory-Only Anti-Pattern) | \u2705 Required (World-Class Benchmark Standard) |\n| :--- | :--- | :--- | :--- |\n| **1** | **User says: \"This card looks boring, make it look more technical.\"** | Guessing from memory and adding `// SYS.REF:01`, neon cyan borders, status dots `\u2022`, and `10px` monospace tags. | Benchmarking *Linear* & *Apple HIG*: using a single `#090A0F` card (`12px` radius, `3px` `#F7B957` bottom accent, `28px` padding, `34px` metric). |\n| **2** | **User critiques: \"The dark mode text feels hard to read.\"** | Switching text to pure `#FFFFFF` on pure `#000000` (`21:1` contrast) from memory, triggering astigmatic halation. | Benchmarking ophthalmic dark-mode ergonomics & WCAG 2.1 AAA: locking `#E6E4DD` warm off-white on `#090A0F` deep obsidian (`12.6:1`). |\n| **3** | **User asks for a pricing comparison section.** | Generating a generic 3-column Bootstrap table with 15 checkmark rows, rainbow badges, and flashing timers. | Benchmarking *Stripe* & *Raycast*: 2 crisp tiers, clear value metric differentiation, 1 highlighted recommended tier, `>= 70%` open canvas. |\n| **4** | **User complains: \"My article introduction sounds like ChatGPT.\"** | Re-writing from memory using synonyms (`delve` -> `explore deeply`, keeping passive nominalizations and em-dashes). | Benchmarking *The New York Times* & *GS. Cao Xu\u00e2n H\u1ea1o*: stripping nominalizations, opening with a sensory scene or `70% vs. 13%` data anchor. |\n| **5** | **User reports an intermittent webhook duplicate payment bug.** | Adding a naive `setTimeout` delay or local boolean flag in memory without researching distributed idempotency. | Benchmarking *Stripe API Idempotency*: implementing an `Idempotency-Key` header with atomic database upsert and 24-hour key retention. |\n| **6** | **User asks to animate a scene transition or UI modal.** | Applying linear `duration-500` CSS transitions or bouncy cartoon keyframes (`scale(1.3)`) from static memory. | Benchmarking *Ordinary Folk* & *Apple HIG*: using damped spring physics (`stiffness: 220, damping: 26`) with subtle `8px",
+      "format": "mdc",
+      "path": ".cursor/rules/01-benchmark-first-protocol.mdc"
+    },
+    "description": "Stop AI hallucinations, Yes-Man sycophancy, robotic AI slop prose, and cheap UI clutter in 30 seconds. Pre-packaged .mdc",
+    "id": "longwave-ai-lab/anti-slop-ai-harness",
+    "language": "\u2014",
+    "name": "longwave-ai-lab/anti-slop-ai-harness",
+    "stars": 1,
+    "updated_at": "2026-10-22T11:41:07Z",
+    "url": "https://github.com/longwave-ai-lab/anti-slop-ai-harness"
+  },
+  {
+    "description": "Your AI coding agent follows these files blindly, before it reads a line of your code.",
+    "id": "Aaditya1273/Agent.md",
+    "language": "\u2014",
+    "name": "Aaditya1273/Agent.md",
+    "stars": 10,
+    "updated_at": "2026-10-22T11:17:16Z",
+    "url": "https://github.com/Aaditya1273/Agent.md"
+  },
+  {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 52,
+    "updated_at": "2026-10-22T11:04:46Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Global Android project standards \u2014 always apply\nalwaysApply: true\n---\n\nYou are working on a production Android application.\n\n## Stack (defaults \u2014 adapt to existing project if already established)\n\n- Kotlin only\n- UI from `.cursor/project-settings.json` **`uiFramework`**: `\"xml\"` (default if missing) = XML + View Binding; `\"compose\"` = Jetpack Compose + `:feature-*` modules (AnimeHub). Never mix as the app UI stack. Never Data Binding\n- Clean Architecture (Presentation \u2192 Domain \u2192 Data)\n- MVVM + MVI (Intent / State / Effect) for **feature screens** \u2014 **not** ads (`:gmaAds`); ads use Fragment/Activity extensions + managers \u2014 never MVI unless the user explicitly asks (`21-ads-billing`, `reference/ads-gma.md`, `admob/*` skills)\n- Repository pattern\n- Multi-module architecture\n- DI via the project's existing framework (default: Koin)\n- Gradle Kotlin DSL + Version Catalog (`libs.versions.toml`)\n\n## Before writing code\n\n- Analyze existing project structure and conventions first\n- Reuse existing base classes, modules, and patterns\n- Do not introduce new libraries without explicit approval\n- Do not change architecture or module boundaries without approval\n- Maintain backward compatibility\n- When `.cursor/project-settings.json` exists, **obey it** (`uiFramework`, `writeTestsWithFeatures`, `orientation`, `themeModes`, `applicationId`, `appName`) \u2014 see `.cursor/README.md`\n\n## Code quality\n\n- Production-ready code only \u2014 no placeholders or TODOs left behind\n- Single responsibility per class\n- Avoid duplicate logic \u2014 extract shared code to core modules\n- Prefer readable code over clever code\n- Minimize scope \u2014 change only what the task requires\n- Design for large datasets from day one \u2014 never assume small lists\n- UI must support portrait and landscape (unless `project-settings.json` sets `orientation` to `portrait` or `landscape` only)\n- Heavy mapping in Repository / UseCase; UI layers render only\n- Networking / Room / SharedPreferences patterns: `26-data-persistence.mdc` + `rules/reference/`\n\n## Golden dependency rule\n\n```\napp (Composition Root)\n |\n \u2193\npresentation \u2192 domain \u2190 data\n |\n \u2193\ncore modules (shared utilities)\n```\n\n- Create as many `:core-*` modules as needed (`core-common`, `core-ui`, `core-platform`, \u2026)\n- UI never imports data implementations. Domain never imports UI.\n\n## Always\n\n1. Follow Clean Architecture + MVVM/MVI (Intent / State / Effect / ViewModel / UseCase / Repository) for **feature screens** \u2014 ads are exempt (`21-ads-billing`) \u2014 same as Stack above\n2. UI follows `uiFramework`: **xml** \u2192 View Binding, never Compose, never `findViewById`; **compose** \u2192 Compose screens in `:feature-*`, never XML `fragment_*` layouts, never `findViewById` \u2014 never Data Binding \u2014 same as Stack above\n3. Use the project's DI framework \u2014 **`module` (eager cold-start) or `lazyModule` (deferred features/ads)** per `07-dependency-injection`; register in composition root \u2014 same as Stack above\n4. Use Version Catalog \u2014 no hardcoded dependency versions\n5. Respect module boundaries \u2014 presentation must not depend on `:data`; UseCases + repo **interfaces** only in `:domain` (never in `:data`) \u2014 same as Golden dependency rule above\n6. Put **all** user-facing strings in the single shared strings file (e.g. `:core-ui`) \u2014 no hardcoded UI strings\n7. Match existing naming conventions (resources, packages, classes)\n8. Add unit tests for new UseCases and ViewModels when adding features \u2014 **unless** `.cursor/project-settings.json` has `writeTestsWithFeatures: false`\n9. Use proper dispatchers (`IO` / `Default`) \u2014 assume lists/files may have thousands of items; never block Main\n10. Log with `Constants.TAG*` and format `ClassName: functionName: State: details`\n11. Support **portrait and landscape** for all UI screens \u2014 **unless** `project-settings.json` `orientation` is `portrait` or `landscape` only \u2014 same as Code quality above\n12. Do heavy mapping in Repository / UseCase; `toUi()` in ViewModel only when needed (with dispatcher if heavy) \u2014 same as Code quality above\n13. Read and obey `.cursor/project-settings.json` when present (`uiFramework`, `orientation`, `themeModes`, `writeTestsWithFeatures`) \u2014 same as Before writing code above\n14. Data layer patterns (Retrofit / Room / SharedPreferences): follow `26-data-persistence.mdc` and `rules/reference/` \u2014 not ad-hoc skills \u2014 same as Code quality above\n\n## Never\n\n1. Never add libraries without explicit human approval \u2014 same as Before writing code above\n2. Never add Hilt/Dagger/RxJava unless the project already uses them. Never add Compose when `uiFramework` is `xml`. Never add XML Fragment screens when `uiFramework` is `compose`\n3. Never put business logic or heavy mapping in Fragments/Activities/Adapters/`*ScreenContent` beyond render + intent dispatch\n4. Never access DataSources directly from presentation\n5. Never skip `android:exported` on manifest components with intent-filters\n6. Never use `GlobalScope` for feature work\n7. Never modify unrelated files when implementing a feature \u2014 same as Code quality \u201cMinimize scope\u201d above\n8. Never do heavy mapping/sorting/IO on the Main thread \u2014 same as Always #9 above\n9. Never invent ad-hoc log tags \u2014 use `Constants.TAG*` \u2014 same as Always #10 above\n10. Never lock the app to one orientation unless product explicitly requires it \u2014 same as Always #11 above\n11. Never set static `RecyclerView` `layoutManager` / list `orientation` / `spanCount` in Kotlin \u2014 declare them in XML unless dynamic (**xml** only)\n12. Never put UseCases or repository **interfaces** in `:data` \u2014 domain only; never use \u2014 same as Always #3 and #5 above\n13. Never invent a parallel architecture (e.g. Redux, Orbit) for one screen \u2014 stay on project MVI\n14. Never hardcode AdMob production IDs in debug or commit secrets into git / docs \u2014 see `14-security-secrets.mdc`\n15. Never convert ads (`:gmaAds`, AdMob managers) to MVI (Intent / State / Effect) unless the user **explicitly** asks \u2014 place `:gmaAds` from [orbitalsonic/Admob-Ads](https://github.com/orbitalsonic/Admob-Ads); screens call extensions. See `21-ads-billing` + `reference/ads-gma.md`\n\nWhen scaffolding a new feature or screen, also follow `01-feature-checklist.mdc`.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/00-global.mdc"
+    },
+    "description": "Production-ready Android Engineering Rules for Cursor and other AI coding assistants. Build consistent, scalable, and ma",
+    "id": "orbitalsonic/AndroidPilot",
+    "language": "Kotlin",
+    "name": "orbitalsonic/AndroidPilot",
+    "stars": 1,
+    "updated_at": "2026-10-22T10:43:42Z",
+    "url": "https://github.com/orbitalsonic/AndroidPilot"
+  },
+  {
+    "description": "Universal Git-powered persistent memory, context rules & native MCP server for AI coding agents. Prevents context amnesi",
+    "id": "digital-lake-ai/lognexus",
+    "language": "TypeScript",
+    "name": "digital-lake-ai/lognexus",
+    "stars": 2,
+    "updated_at": "2026-10-22T16:21:54Z",
+    "url": "https://github.com/digital-lake-ai/lognexus"
+  },
+  {
+    "cursorrules": {
+      "content": "# Core Rule for Vibes-Plug Agents\n\n> **\ud83c\udf10 Universal Compatibility:** These rules apply to ALL AI platforms using vibes-plug:\n> **Antigravity (AGY)** via `AGENTS.md` | **Claude Code** via `CLAUDE.md` + `.claude/rules/` | **Cursor IDE** via `.cursorrules` + `.cursor/rules/` | **OpenAI Codex** via `CODEX.md` + `.codex/rules/`\n> Each platform has its own entry point, but the core rules and 161 skills are shared.\n\n## MANDATORY: LLM-Agnostic & IDE Universal Compatibility\n**CRITICAL RULE**: This Swarm Architecture is strictly model-agnostic. It is engineered to extract maximum reasoning capabilities from ALL Latest Frontier Models across all IDE tiers:\n- **High Fast / Low-Latency Tier**: xAI Grok 4.7 High Fast / Grok 4.6 High Fast (sub-second TTFT, real-time web compute, lightning test iterations), Cursor Composer 2.5 Fast (native multi-file diff engine & fast refactoring).\n- **Medium / Balanced Tier**: Google Gemini 4 Argon Medium (2M+ monolithic context, native caching), OpenAI GPT-5.6 Sol Medium (strict tool calling & structured contracts), Anthropic Claude Opus 5.5 Medium (balanced deep architectural comprehension).\n- **High / Extended Thinking Tier**: Anthropic Claude Sonnet 5.5 High (flagship fullstack reasoning & extended thinking), Anthropic Claude Fable 5.1 High (prompt-cache optimized agentic workflows), Muse Wonder High (exploratory reasoning & generative design synthesis), Google Gemini 4 Pro / Project Astra, and DeepSeek-R1 / Pro / V3.\nThe AI MUST adapt the orchestration payload according to its native context window, execution tier, and thinking budget.\n\n### MANDATORY: Availability Fallback Invariant (Invarian Pengalihan Ketersediaan)\nWhen a frontier model is not yet provisioned, reaches rate/quota limits, or is temporarily unavailable in the user's environment:\n- **Gemini 4 Fallback (Argon & Pro)**: Automatically and seamlessly degrade tasks to **`Gemini 3.8 Flash`** (preserving 1M+ context window, native context caching, and sub-100ms TTFT).\n- **Claude Opus 5.5 Fallback**: Automatically and seamlessly degrade tasks to **`Claude Opus 4.6`** (preserving deep architectural reasoning and cross-domain logic validation).\n- Never fail with unhandled missing-model errors or stub implementations; execute immediately through the fallback path with zero disruption.\n\n## MANDATORY: Primary Trigger & Skill Auto-Synchronization (Pemicu Utama)\n**CRITICAL RULE**: Upon plugin installation, `vibes-plug` becomes the **PRIMARY TRIGGER (Pemicu Utama)** and **MASTER CONDUCTOR** for all AI activities. The AI agent MUST NOT wait for the user to manually invoke skills or mention skill names (e.g. `@senior-frontend` or `/ask-skill`).\n\nWhenever a user submits ANY request, the agent MUST automatically and autonomously:\n1. **Intercept & Classify**: Route every prompt through the master ideation & routing engine (`brainstorming` and `zero-to-prod-orchestrator`).\n2. **Auto-Synchronize Cooperating Skills**: Dynamically identify and bind all relevant domain skills from the 161 skill registry:\n   - **Frontend & UI**: `senior-frontend` + `tailwind-expert` + `design-system-architect` + `form-validation-expert` + `ui-ux-pro-max` + `modern-css-native-expert`.\n   - **Backend & APIs**: `js-backend-expert` + `database-orm-expert` + `api-design-expert` + `spec-driven-development-expert` + `authentication-identity-expert` + `python-programming-expert` + `go-programming-expert` + `rust-programming-expert`.\n   - **Payments & Billing**: `doku-payment-gateway` + `payment-gateway-expert` + `saas-billing` + `database-orm-expert` (atomic locks & SNAP BI idempotency).\n   - **AI & MCP**: `ai-llm-integration-expert` + `frontier-ai-models-expert` + `gemini-agent-booster` + `vercel-ai-sdk-expert` + `mcp-server-architect` + `doku-mcp-server` + `multi-agent-orchestration`.\n   - **Testing & Quality**: `autonomous-tdd-debugger` + `e2e-testing-expert` + `autonomous-red-teamer` + `production-ready-hardener` + `anti-slop` + `zero-tech-debt-auditor`.\n   - **Full Lifecycle**: `brainstorming` + `prd-architect` + `zero-to-prod-orchestrator` + `session-memory-manager`.\n3. **Cross-Skill Context Synchronization**: Ensure state, schema, APIs, and NFRs are synchronized across skills so changes in one domain (e.g., database schema) automatically propagate to others (e.g., backend models, API contracts, frontend types).\n4. **Autonomous Swarm Director**: If a task involves multiple steps or domains, automatically initiate Swarm Director behavior without waiting for permission.\n\n## MANDATORY: Skill Orchestration Update\n**CRITICAL RULE**: Every time a new skill is added or created within the `vibes-plug` ecosystem, the agent MUST immediately and automatically update the main orchestrator files. \n\nFailure to do so breaks the entire architectural orchestration flow.\n\nWhenever a new skill `SKILL.md` is generated, you must:\n1. **Update `brainstorming/SKILL.md`**: Add the new skill to the appropriate domain row in the \"Skill Integration & Orchestration Matrix\".\n2. **Update `zero-to-prod-orchestrator/SKILL.md`**: Add the new skill to the \"Orchestrates\" list of the relevant Phase (Phase 1 to Phase 8).\n3. **Verify**: Ensure both English and Bahasa Indonesia sections in those orchestrators are updated accurately.\n\nThis rule is absolute and applies to all AI agents interacting with this plugin.\n\n## MANDATORY: Multi-Agent Orchestration & Swarm Cooperation\n**CRITICAL RULE**: When dealing with complex, multi-step tasks, the AI Agent MUST function as a **Swarm Director** and orchestrate multiple specialized subagents concurrently.\n\n**AUTOMATIC TRIGGER**: You MUST automatically initiate Swarm Director behavior whenever a task:\n- Involves more than one domain (e.g., Frontend + Backend + Database).\n- Requires extensive research across multiple files/repositories.\n- Consists of more than three independent steps.\n- Involves high-risk architectural changes or migrations.\n*Do NOT ask for the user's permission to spawn subagents; do it autonomously.*\n\n### Swarm Execution Topologies (2026 Edition)\n\n```\n1. FAN-OUT / FAN-IN (Parallel Research & Assembly)\n   Director \u2500\u2500\u252c\u2500\u2500\u25ba Subagent A (Frontend / UI)   \u2500\u2500\u2510\n              \u251c\u2500\u2500\u25ba Subagent B (Backend / API)    \u2500\u2500\u253c\u2500\u2500\u25ba Synthesis & Assembly\n              \u2514\u2500\u2500\u25ba Subagent C (DB Schema / RLS)  \u2500\u2500\u2518\n\n2. PIPELINE SAGA (Sequential Dependent Execution)\n   Discovery \u2500\u2500\u25ba Foundation \u2500\u2500\u25ba Schema/DB \u2500\u2500\u25ba APIs \u2500\u2500\u25ba Frontend \u2500\u2500\u25ba QA/Hardening\n\n3. CRITIC-VALIDATOR LOOP (Zero-Tolerance Quality Gate)\n   Implementer Agent \u2500\u2500\u25ba Artifact/Code \u2500\u2500\u25ba Auditor Agent (code review/fuzzing) \u2500\u2500\u25ba Approved\n```\n\n### Swarm Director Protocols\n1. **Decompose and Delegate**: Break down complex tasks into independent sub-tasks and delegate them to specialized subagents using `invoke_subagent`. Assign clear, specific roles to each subagent based on the 161 specialized skills in `vibes-plug`.\n2. **Parallel Execution**: Invoke multiple subagents simultaneously whenever tasks can be performed in parallel (e.g., one subagent researches frontend UI, another analyzes backend DB schema).\n3. **Context Sharing**: Ensure subagents are given precise instructions and the necessary context (e.g., passing `CONTEXT_MAP.md`, PRD, or specific file paths). Communicate with active subagents via `send_message`.\n4. **Agent Synergy & Native Subagents**: Rely on the `vibes-plug` native subagent registry located in `agents/`:\n   - **System Architecture**: Delegate to `swarm-architect` (guided by `brainstorming`, `prd-architect`, `domain-driven-design-expert`, `saas-architect`).\n   - **Fullstack Craftsmanship**: Delegate to `fullstack-craftsman` (guided by `senior-frontend`, `tailwind-expert`, `design-system-architect`, `js-backend-expert`, `database-orm-expert`).\n   - **Quality & Anti-Slop Gate**: Delegate to `quality-guardian` (guided by `anti-slop`, `autonomous-tdd-debugger`, `e2e-testing-expert`, `autonomous-red-teamer`).\n   - **FinTech & Payments**: Delegate to `fintech-payment-sentinel` (guided by `doku-payment-gateway`, `saas-billing`, `payment-gateway-expert`).\n ",
+      "format": "text",
+      "path": ".cursorrules"
+    },
+    "description": "\u26a1 Cross-IDE AI skill collection that orchestrates 160 specialized subagents for full-stack development workflows",
+    "id": "roedyrustam/vibes-plug",
+    "language": "JavaScript",
+    "name": "roedyrustam/vibes-plug",
+    "stars": 112,
+    "updated_at": "2026-10-22T10:40:10Z",
+    "url": "https://github.com/roedyrustam/vibes-plug"
+  },
+  {
+    "description": "A universal, native-Rust governance layer for AI coding agents. Enforces Subagent-Driven Development (SDD) to stop hallu",
+    "id": "Harmitx7/tribunal-kit",
+    "language": "JavaScript",
+    "name": "Harmitx7/tribunal-kit",
+    "stars": 5,
+    "updated_at": "2026-10-22T10:32:02Z",
+    "url": "https://github.com/Harmitx7/tribunal-kit"
+  },
+  {
+    "description": "\u522b\u518d\u8bf4\u300c\u7ee7\u7eed\u300d\u4e86\u3002\u4e00\u4e2a Agent \u4eba\u683c\u9884\u8bbe\uff1a\u628a\u9ed8\u8ba4\u52a8\u4f5c\u4ece\u300c\u505c\u4e0b\u6765\u95ee\u300d\u6539\u6210\u300c\u4e00\u76f4\u505a\uff0c\u76f4\u5230\u4ea4\u4ed8\u300d/ Stop typing 'continue'.",
+    "id": "485148606/dsh-extreme-mode",
+    "language": "JavaScript",
+    "name": "485148606/dsh-extreme-mode",
+    "stars": 0,
+    "updated_at": "2026-10-22T09:44:16Z",
+    "url": "https://github.com/485148606/dsh-extreme-mode"
+  },
+  {
+    "description": "Free MCP server, Cursor rule and Claude skill that help AI coding assistants avoid common security holes in vibe-coded a",
+    "id": "toby7979/sealmyapp-tools",
+    "language": "TypeScript",
+    "name": "toby7979/sealmyapp-tools",
+    "stars": 0,
+    "updated_at": "2026-10-22T08:36:07Z",
+    "url": "https://github.com/toby7979/sealmyapp-tools"
+  },
+  {
+    "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
+    "id": "HoangNguyen0403/agent-skills-standard",
+    "language": "TypeScript",
+    "name": "HoangNguyen0403/agent-skills-standard",
+    "stars": 581,
+    "updated_at": "2026-10-22T08:30:34Z",
+    "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
+  },
+  {
+    "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
+    "id": "mikeprasad/aria-knowledge",
+    "language": "Shell",
+    "name": "mikeprasad/aria-knowledge",
+    "stars": 17,
+    "updated_at": "2026-10-22T08:00:37Z",
+    "url": "https://github.com/mikeprasad/aria-knowledge"
+  },
+  {
+    "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
+    "id": "bompus/house-rules",
+    "language": "JavaScript",
+    "name": "bompus/house-rules",
+    "stars": 2,
+    "updated_at": "2026-10-22T06:54:06Z",
+    "url": "https://github.com/bompus/house-rules"
+  },
+  {
+    "description": "Local section-wise Markdown viewer & editor with an Agent Skill and Cursor Rule (.mdc) explorer",
+    "id": "sraivante/mdview",
+    "language": "JavaScript",
+    "name": "sraivante/mdview",
+    "stars": 0,
+    "updated_at": "2026-10-22T05:30:09Z",
+    "url": "https://github.com/sraivante/mdview"
+  },
+  {
+    "description": "Free copy-paste AGENTS.md, CLAUDE.md and Cursor rules for 20 beginner vibe-coding project types",
+    "id": "getvibekits/vibe-coding-rules",
+    "language": "\u2014",
+    "name": "getvibekits/vibe-coding-rules",
+    "stars": 0,
+    "updated_at": "2026-10-22T04:03:19Z",
+    "url": "https://github.com/getvibekits/vibe-coding-rules"
+  },
+  {
+    "description": "Community-voted AI prompts, CLAUDE.md/AGENTS.md templates, Cursor rules, Agent Skills and MCP servers from commandvault.",
+    "id": "geronco/commandvault-library",
+    "language": "JavaScript",
+    "name": "geronco/commandvault-library",
+    "stars": 0,
+    "updated_at": "2026-10-22T03:31:11Z",
+    "url": "https://github.com/geronco/commandvault-library"
+  },
+  {
+    "description": "Agent skills, a Claude Code plugin and a Cursor rule that teach coding agents to add Groundmail transactional email to y",
+    "id": "Groundmail/groundmail-skills",
+    "language": "\u2014",
+    "name": "Groundmail/groundmail-skills",
+    "stars": 0,
+    "updated_at": "2026-10-22T02:23:48Z",
+    "url": "https://github.com/Groundmail/groundmail-skills"
+  },
+  {
+    "description": "Portable skills and shared policies for Codex, Claude Code, and Cursor on Linux.",
+    "id": "Catherine1401/agent-skills",
+    "language": "Shell",
+    "name": "Catherine1401/agent-skills",
+    "stars": 2,
+    "updated_at": "2026-10-22T01:14:38Z",
+    "url": "https://github.com/Catherine1401/agent-skills"
+  },
+  {
+    "description": "Cursor rules for building apps on VTC: auth, data, UI, i18n and push-to-publish deploys to apps.vtc.com",
+    "id": "vtcdotcom/vtc-app-rules",
+    "language": "Shell",
+    "name": "vtcdotcom/vtc-app-rules",
+    "stars": 0,
+    "updated_at": "2026-10-22T00:50:10Z",
+    "url": "https://github.com/vtcdotcom/vtc-app-rules"
+  },
+  {
+    "description": "Free sample Cursor and Claude Code rules for FastAPI, Next.js and Spring Boot, from codebaserules.com",
+    "id": "rahuldeojoshi/codebaserules-samples",
+    "language": "\u2014",
+    "name": "rahuldeojoshi/codebaserules-samples",
+    "stars": 0,
+    "updated_at": "2026-10-21T22:31:20Z",
+    "url": "https://github.com/rahuldeojoshi/codebaserules-samples"
+  },
+  {
+    "description": "Stop AI agents from rubber-stamping their own bugs or editing failing tests to pass. Blind red-team test generation + SH",
+    "id": "elibowlby/adversarial-skeptic",
+    "language": "JavaScript",
+    "name": "elibowlby/adversarial-skeptic",
+    "stars": 1,
+    "updated_at": "2026-10-21T18:30:35Z",
+    "url": "https://github.com/elibowlby/adversarial-skeptic"
+  },
+  {
+    "cursorrules": {
+      "content": "# Cursor AI Rules\n\n> These rules are loaded automatically for this project. See `AGENTS.md` for full details.\n\n## Core Directives\n\n1. **Read AGENTS.md before any task** \u2014 All rules are defined there\n2. **Read DEEPDIVE.md** \u2014 System architecture narrative\n3. **Follow every section** \u2014 Core principles, commit protocol, testing, linting, etc.\n\n## Critical Enforcements\n\n### Pre-Commit Checklist\n```bash\nruff check .\nruff format .\nvulture .\nmypy .\n```\n**Do not commit until all pass.** (Section 9)\n\n### Required Folders\nEvery project MUST have:\n- `tests/` \u2014 All tests + random scripts (in `.gitignore`)\n- `docs/` \u2014 Architecture documentation\n- `research/` \u2014 Whitepapers, references\n\n### Commit Style\nHuman-sounding, WHY-focused messages. Example:\n```\napi: Added JWT refresh to prevent 401 loops\n\nThe token refresh had a race condition where concurrent requests\ncould trigger multiple refresh calls. Added mutex lock around auth state.\n```\nSee Section 15 for the full pattern.\n\n### PR Standards (Section 33)\n- 800 lines max, 500 for complex logic\n- Single feature per PR\n- Use the PR template (Section 35)\n\n### AI Code Quality (Section 34)\nSelf-check: think first, spot laziness, uncertainty, bloat.\n\n### Pre-Commit Hooks (Section 37)\nMandatory. Install once: `pre-commit install`. Hooks run on every commit.\n\n### Decision Ladder (Section 50.1)\nBefore any implementation: YAGNI \u2192 stdlib \u2192 native \u2192 existing dep \u2192 one line \u2192 minimum.\n\n### Tradeoff Comments (Section 50.2)\nFor every intentional shortcut, document with `# ponytail: <what> / # Upgrade to <what> if <trigger>`.\n\n## Prohibited\n- No PRs/issues/GitHub activity without explicit user approval (Section 2)\n- No dead code, unused imports, silent exception handlers (Section 1)\n- No commits without running lint/vulture sweep first (Section 9)\n- No mutable default arguments, bare excepts, eval/exec (Section 27.2)\n- No force push to shared branches (Section 36.2)\n- No PRs over 800 lines (Section 33)\n- No skipping pre-commit hooks (Section 37)\n\n## Validation\nBefore marking complete:\n- [ ] Tests pass\n- [ ] No vulture findings\n- [ ] Type check clean\n- [ ] DEEPDIVE.md updated if needed\n- [ ] Human commit message\n- [ ] PR under 800 lines\n- [ ] Pre-commit hooks passed\n- [ ] AI anti-pattern self-check passed\n- [ ] Decision ladder applied\n- [ ] Tradeoff comments for shortcuts\n",
+      "format": "mdc",
+      "path": ".cursor/rules/project-rules.mdc"
+    },
+    "description": "Anchor \u2014 the production-grade AGENTS.md template for AI coding agents. 51 sections of battle-tested rules. Keep your age",
+    "id": "peva3/anchor",
+    "language": "\u2014",
+    "name": "peva3/anchor",
+    "stars": 8,
+    "updated_at": "2026-10-21T18:04:47Z",
+    "url": "https://github.com/peva3/anchor"
+  },
+  {
+    "description": "Engineering checklists for B2B SaaS penetration testing readiness: SOC 2, ISO 27001, DORA, AI Agent Security (LLM/RAG/MC",
+    "id": "sayfer-io/pentest-readiness-checklist",
+    "language": "\u2014",
+    "name": "sayfer-io/pentest-readiness-checklist",
+    "stars": 0,
+    "updated_at": "2026-10-21T16:15:29Z",
+    "url": "https://github.com/sayfer-io/pentest-readiness-checklist"
+  },
+  {
+    "description": "Drop-in AI agent rules (Cursor, Claude Code, AGENTS.md) that stop Supabase RLS holes, broken Stripe webhooks and Godot 3",
+    "id": "otctrading101/shiprules-free",
+    "language": "\u2014",
+    "name": "otctrading101/shiprules-free",
+    "stars": 0,
+    "updated_at": "2026-10-21T13:03:12Z",
+    "url": "https://github.com/otctrading101/shiprules-free"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: NeuraForge AI \u2014 code-review\nglobs:\nalwaysApply: false\n---\nRead agents/code-review.md for full instructions. Follow AGENTS.md for architecture principles.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/code-review.mdc"
+    },
+    "description": "Stop correcting the same AI mistakes. 40 agents for Claude Code, Cursor & Copilot that enforce architecture rules across",
+    "id": "vikisingh23/neuraforge-ai",
+    "language": "JavaScript",
+    "name": "vikisingh23/neuraforge-ai",
+    "stars": 4,
+    "updated_at": "2026-10-21T10:22:51Z",
+    "url": "https://github.com/vikisingh23/neuraforge-ai"
+  },
+  {
+    "cursorrules": {
+      "content": "---\nversion: 4.3.0\nscope: [\"typescript\", \"javascript\", \"markdown\", \"sql\", \"html\", \"json\", \"yaml\", \"toml\"]\n---\n# Cursor AI Rules for Betting Brain Platform\n# https://github.com/nolarose1968/ffffff/blob/main/.cursorrules\n\n## One File to Rule Them All\n\nThis `.cursorrules` file is the **single source of truth** for all AI-generated code.\n\n**Benefits:**\n- \u2705 No confusion - everyone follows the same patterns\n- \u2705 Version control - every change is tracked\n- \u2705 Automatic application - Cursor applies rules to matching files\n- \u2705 Machine readable - front-matter enables tooling integration\n\n**Alternative:** Cursor \u2265 0.45 also supports `.cursor/rules/` folder for larger projects.\n\n## Core Development Rules\n\n### Bun Runtime (CRITICAL)\n- Use `bun` commands exclusively (not npm/yarn/node)\n- Use Bun Test (not Vitest/Jest)\n- Use Bun file APIs (not Node.js fs)\n- Use processManager for all process spawning\n- Leverage Bun native APIs (crypto, compression, etc.)\n\n### File Organization\n- Root directory: Only 9 essential files allowed\n- Documentation: All docs in `docs/` (except README.md, LICENSE, CLAUDE.md)\n- Scripts: All in `scripts/`\n- Tools: All in `tools/`\n- Status files: All in `docs/`\n\n### File Naming\n- Use lowercase kebab-case for all files/directories\n- Test files: `*.test.ts` (preferred)\n- Special cases: MCP handlers use camelCase to match tool names\n- Never create backup files (*.backup, *.old, *.bak)\n\n## API & Endpoint Patterns\n\n### Request Handling\n- Always generate requestId: `Date.now().toString(36)`\n- Always include CORS headers for dashboard access\n- Always handle OPTIONS preflight requests\n- Always log with requestId prefix: `[${requestId}] ...`\n\n### Error Handling\n- Use standardized error classes from `src/utils/error-handler.ts`\n- Always use try-catch or asyncHandler wrapper\n- Always return structured error responses\n- Never expose internal details in error messages\n\n### Database Queries\n- Always use parameterized queries (`.bind()`)\n- Never use string interpolation in SQL\n- Always cast D1 results with `as unknown as`\n- Always handle database errors\n\n## Security Patterns\n\n### Input Validation\n- Always validate all inputs before processing\n- Use Zod schemas for request validation\n- Never trust user input\n- Always sanitize output to prevent XSS\n\n### Production Security\n- Never use `parseFloat()` on stakes (use `Number()`)\n- Always use parameterized D1 queries\n- Respect queue batch limits (100 messages max)\n- Always free WASM memory in finally blocks\n- Use explicit UTC timestamps (not `new Date()`)\n\n## Testing Patterns\n\n### Bun Test Usage\n- Import from `bun:test` (not vitest/jest)\n- Always cleanup processes in `afterEach`/`afterAll`\n- Use `{ results: [...] }` for D1 database mocks\n- Reset mock implementations in `beforeEach`\n- Use explicit try-catch for async error testing\n\n### Test Organization\n- Unit tests: `tests/unit/*.test.ts`\n- Integration tests: `tests/integration/*.test.ts`\n- Use descriptive test names\n- Group related tests in `describe` blocks\n\n## Cloudflare Workers\n\n### Environment Bindings\n- ANALYTICS: Main betting analytics database\n- KV namespaces: BET_TICKER_RAW, TOKEN_STORE, USER_STORE\n- Queues: LINE_INGRESS, STEAM_WEBHOOK, STEAM_QUEUE\n- Analytics Engine: ANALYTICS_ENGINE\n\n### Performance\n- CPU limit: 50ms per request\n- Use `ctx.waitUntil()` for non-blocking operations\n- Implement cost guards for resource limits\n- Use rate limiting (10 req/s per IP)\n\n## MCP Integration\n\n### MCP Server Patterns\n- Use JSON-RPC 2.0 protocol over stdio\n- Register tools with `registerTool(name, description, inputSchema, handler)`\n- Return MCP response format: `{ content: [{ type: 'text', text: '...' }] }`\n- Use standard JSON-RPC error codes (-32700 parse, -32600 invalid, -32601 method not found, -32602 invalid params, -32603 internal)\n- Never use external MCP SDK if Bun + Zod suffices\n\n### Tool Development\n- Create handler in `src/mcp/handlers/`\n- Register in `toolRegistry.ts`\n- Define in `tools.ts` with schema\n- Always validate args before database queries\n- Return `MCPToolResult` format\n\n### Sports API Validation\n- Validate all sports data with Zod schemas\n- Required fields: eventId, timestamp, metric, value\n- Use metadata for market, source, volume\n- Write to ANALYTICS_ENGINE with proper blobs/doubles/indexes\n- Handle CORS for cross-origin requests\n\n### Testing MCP Tools\n- Use direct handler testing first\n- Test with `bun scripts/test-handlers-direct.ts`\n- HTTP testing via `/mcp` endpoint\n\n## Sports API Integration\n\n### Data Fetching\n- Use MCP `live-odds` tool for odds (never hard-code API calls)\n- Aggregate \u2265 2 bookmakers for accuracy (Pinnacle + Bet365)\n- Cache live data \u2264 30s in SPORTS_CACHE KV\n- Sports enum: nba, nfl, mlb, nhl only\n- Markets enum: moneyline, spread, total only\n\n### Data Ingestion\n- Push via `push-sports-data` MCP tool after every fetch\n- Ingest endpoint requires JWT signed with JWT_SECRET\n- Rate limit: 100 req/min per IP on `/ingest`\n- Validate eventId, timestamp, odds (required fields)\n- Include source and volume in metadata\n\n### API Key Rotation\n- Use rotateSecret() for daily key rotation\n- Pattern: PINNACLE_KEY_1, PINNACLE_KEY_2, PINNACLE_KEY_3\n- Rotation based on day of year % 3 + 1\n- Never commit actual keys to repo\n\n## Browser Extension\n\n### Manifest v3\n- Use service worker lifecycle\n- Handle message passing correctly\n- Implement proper storage management\n- Follow security best practices\n- Never use eval() or innerHTML\n\n## CI/CD Patterns\n\n### Local Development\n- Use `bun run ci` for full pipeline\n- Use `bun run ci:quick` for fast checks\n- Always use timeouts (job and command level)\n- Cache dependencies for speed\n- Report results clearly\n\n### Process Management\n- Always use `processManager.spawn()`\n- Always set timeouts for processes\n- Always cleanup in finally blocks\n- Never leave zombie processes\n\n## Code Quality\n\n### Documentation\n- Reference rules with stable GitHub links\n- Use `mdc:` links for project files\n- Keep documentation in `docs/`\n- Update INDEX.md when adding docs\n\n### ast-grep Integration\n- Use `sg scan` for security checks\n- Enforce SQL injection prevention\n- Check for unstructured logs\n- Validate CORS headers\n- Monitor hardcoded URLs\n\n## Automation Layer (v3.2.0+)\n\n### Forest CLI & Monitoring\n- Always run `bun run forest` before pushing to verify grove health\n- Check specific status: `bun run forest h|f|r|a` (health/fresh/release/analytics)\n- Use Forest CLI in CI for automated status reporting\n\n### Analytics Testing\n- Use `createAnalyticsEngineStub()` for analytics tests\u2014**never mock ANALYTICS_ENGINE directly**\n- Import from `tests/utils/analytics-engine-stub.ts`\n- Violation detection: `bun run guard:analytics` (fails CI if violated)\n\n### Dashboard Management\n- Dashboard changes must pass `bun run dashboard:all` locally before commit\n- Dashboards auto-deploy on release tag push\n- Grafana auto-imports on release (if configured)\n- README auto-updates with version and links\n\n### Release Management\n- Use Conventional Commits (feat:, fix:, chore:, docs:)\n- Release automation: `bun run release [patch|minor|major]`\n- Dry run first: `bun run release:dry`\n- Tag push triggers full automation (bump, deploy, notify)\n\n### Dependency Management\n- Dependency updates happen automatically every Monday\n- **Do not bump dependencies manually** (use freshness workflow)\n- Review weekly PR from automation\n- Emergency updates: `bun run freshness` then create PR\n\n### Health Monitoring\n- Worker health checked every 6 hours automatically\n- Manual check: `bun run health:ping`\n- Slack alerts sent on failure (if configured)\n- Endpoints: `/health` and `/metrics` auto-deployed\n\n## Related Documentation\n\n- [Complete Rules Guide](https://github.com/nolarose1968/ffffff/blob/main/docs/CURSOR_RULES.md)\n- [API Reference](https://github.com/nolarose1968/ffffff/blob/main/docs/REST_API_REFERENCE.md)\n- [Testing Guide](https://github.com/nolarose1968/ffffff/blob/main/docs/TESTING_STATUS.md)\n- [MCP Integration](https://github.com/nolarose1968/ffffff/blob/main/do",
+      "format": "text",
+      "path": ".cursorrules"
+    },
+    "description": "\ud83e\udde0 Edge-native betting intelligence platform with MCP server, real-time analytics, and AI-assisted development (Bun + Typ",
+    "id": "brendadeeznuts1111/betting-brain-v3",
+    "language": "TypeScript",
+    "name": "brendadeeznuts1111/betting-brain-v3",
+    "stars": 8,
+    "updated_at": "2026-10-21T19:57:50Z",
+    "url": "https://github.com/brendadeeznuts1111/betting-brain-v3"
+  },
+  {
+    "description": "Portable software delivery workflow for Codex, Cursor, Claude Code, and GitHub Copilot, with reusable skills, native age",
+    "id": "okfriansyah-moh/agentic-workflow",
+    "language": "Python",
+    "name": "okfriansyah-moh/agentic-workflow",
+    "stars": 0,
+    "updated_at": "2026-10-22T13:32:26Z",
+    "url": "https://github.com/okfriansyah-moh/agentic-workflow"
+  },
+  {
+    "description": "Awesome Cursor Rules (.cursorrules) & MCP Servers list for iOS, Python, and Web. Maintained by AgentIndex.app",
+    "id": "xiaozhenyangCode/awesome-cursor-rules",
+    "language": "\u2014",
+    "name": "xiaozhenyangCode/awesome-cursor-rules",
+    "stars": 1,
+    "updated_at": "2026-10-21T07:21:34Z",
+    "url": "https://github.com/xiaozhenyangCode/awesome-cursor-rules"
+  },
+  {
+    "description": "\u7cbe\u9009\u5b9e\u7528 AI Agent Skills \u6280\u80fd\u5e93\uff1a\u9762\u5411 Claude Code\u3001Codex \u4e0e Cursor\uff0c\u6db5\u76d6\u98de\u4e66\u751f\u6001\u81ea\u52a8\u5316\u3001\u52a8\u6548\u5f00\u53d1\u3001\u77ed\u89c6\u9891\u5236\u4f5c\u4e0e\u5de5\u7a0b\u91cd\u6784",
+    "id": "2392772541/AI-Skills",
+    "language": "JavaScript",
+    "name": "2392772541/AI-Skills",
+    "stars": 0,
+    "updated_at": "2026-10-21T07:12:02Z",
+    "url": "https://github.com/2392772541/AI-Skills"
+  },
+  {
+    "description": "Universal network troubleshooting skill for AI coding agents: DNS, proxy, SSL, package managers, Docker, Git, and China/",
+    "id": "CacinieP/network-troubleshoot-skill",
+    "language": "Shell",
+    "name": "CacinieP/network-troubleshoot-skill",
+    "stars": 8,
+    "updated_at": "2026-10-21T06:18:50Z",
+    "url": "https://github.com/CacinieP/network-troubleshoot-skill"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Trigger Ticket Flow skill when working on, fixing, or implementing tickets (e.g. \"fix bug PROJ-123\", \"work on PROJ-123\")\nglobs: *\nalwaysApply: false\n---\n\n# Ticket Flow Trigger Rule\n\nWhen the user asks to process a ticket, fix a bug with an ID, work on a ticket, or handle a queue of tickets:\n\n1. **Load and follow** the Ticket Flow skill located at `ticket-flow/.cursor/skills/ticket-flow/SKILL.md`.\n2. Do not attempt to freestyle the workflow sequence.\n3. Keep the naming glossary in mind and strictly enforce the **Confirm** validation gate before committing or opening PRs.\n4. Stage only path-scoped changes relevant to the ticket.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/ticket-flow.mdc"
+    },
+    "description": "A repeatable, high-discipline workflow pattern for Cursor agents: fetches issues, branches, implements, adds tests, runs",
+    "id": "smg99/ticket-flow",
+    "language": "Shell",
+    "name": "smg99/ticket-flow",
+    "stars": 0,
+    "updated_at": "2026-10-21T06:06:36Z",
+    "url": "https://github.com/smg99/ticket-flow"
+  },
+  {
+    "description": "Official 2026 LLM API Pricing Calendar, 272K/100K Context-Cliff Router, Chrome FinOps HUD Extension & Cursor MCP Server ",
+    "id": "cooyun/awesome-2026-llm-api-pricing",
+    "language": "\u2014",
+    "name": "cooyun/awesome-2026-llm-api-pricing",
+    "stars": 1,
+    "updated_at": "2026-10-21T04:27:53Z",
+    "url": "https://github.com/cooyun/awesome-2026-llm-api-pricing"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Kuma MCP \u2014 safety and context runtime for AI agents\nalwaysApply: true\n---\n\nKuma MCP tools: kuma_context, kuma_memory, kuma_safety.\nRecord what matters, skip what doesn't.\n\n<kuma_obedience>\n## \ud83d\udd12 Obedience (non-negotiable)\n- MUST call `kuma_context({ action: \"init\" })` at session start.\n- MUST record gotchas IMMEDIATELY when a bug/quirk is found.\n- MUST call `kuma_safety({ action: \"verify\" })` after edits.\n- MUST NOT call actions outside the 13 core actions.\n</kuma_obedience>\n\n<kuma_workflow>\n\ud83e\udde0 **Before coding:** `kuma_context({ action: \"init\" })`\n\ud83d\udd2c **Unfamiliar code:** `kuma_context({ action: \"research\", scope: \"<area>\" })`\n\ud83d\udc1b **Found a bug/quirk:** `kuma_memory({ action: \"gotcha\" })` (IMMEDIATELY)\n\ud83e\udded **Chose between options:** `kuma_memory({ action: \"decision\" })`\n\ud83d\udd00 **Traced a flow:** `kuma_memory({ action: \"arch_flow\" })` (max 5 files)\n\ud83d\udee1\ufe0f **Before risky work / after edits:** `kuma_safety({ action: \"guard\" | \"verify\" })`\n</kuma_workflow>\n\n\ud83d\udcd6 Full rules: `.kuma/init.md`\n\n\ud83d\udcd6 **Usage:**\n  \u2022 `kuma_context({ action: \"init\" })` \u2014 load project context (call first)\n  \u2022 `kuma_safety({ action: \"guard\" })` \u2014 safety check before risky ops\n  \u2022 `kuma_safety({ action: \"verify\", scope: \"<area>\" })` \u2014 verify after edits\n  \u2022 `.kuma/init.md` \u2014 full behavioral rules\n  \u2022 `.kuma/KNOWN_GOTCHAS.md` \u2014 gotchas \u00b7 `.kuma/memories/decisions.md` \u2014 decisions (readable)",
+      "format": "mdc",
+      "path": ".cursor/rules/kuma.mdc"
+    },
+    "description": "\ud83c\udf75 Deliberate engineering guidelines & deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block",
+    "id": "plumpslabs/matcha",
+    "language": "JavaScript",
+    "name": "plumpslabs/matcha",
+    "stars": 2,
+    "updated_at": "2026-10-21T03:25:00Z",
+    "url": "https://github.com/plumpslabs/matcha"
+  },
+  {
+    "description": "Free copy-paste brain files for AI coding tools: CLAUDE.md, AGENTS.md, GEMINI.md, Cursor rules (.mdc), Copilot instructi",
+    "id": "TheRealSnouk/brainstack-templates",
+    "language": "\u2014",
+    "name": "TheRealSnouk/brainstack-templates",
+    "stars": 1,
+    "updated_at": "2026-10-21T02:12:52Z",
+    "url": "https://github.com/TheRealSnouk/brainstack-templates"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Astro + Strapi Blocks \u2014 StrapiBlocks, data, theme (extend/overwrite), custom blocks\nglobs: \"**/*.{astro,ts,tsx}\"\nalwaysApply: false\n---\n\n# Upstream rule (no local copy)\n\nThe full **Cursor project rule** for Strapi Blocks is maintained in the **astro-strapi-blocks** repository. Open or fetch:\n\n- **GitHub:** <https://github.com/VirtusLab-Open-Source/astro-strapi-blocks/blob/main/.cursor/rules/astro-strapi-blocks.mdc>\n- **Raw:** <https://raw.githubusercontent.com/VirtusLab-Open-Source/astro-strapi-blocks/main/.cursor/rules/astro-strapi-blocks.mdc>\n\nThis file exists only to **preserve** the same `globs` / scope in this starter. For project-specific notes, see [`.ai/AGENTS.md`](../../.ai/AGENTS.md) and the stub at [`.ai/astro-strapi-blocks/SKILL.md`](../../.ai/astro-strapi-blocks/SKILL.md).\n",
+      "format": "mdc",
+      "path": ".cursor/rules/astro-strapi-blocks.mdc"
+    },
+    "description": "The Astro x Strapi Starter template",
+    "id": "VirtusLab-Open-Source/astro-strapi-starter",
+    "language": "Astro",
+    "name": "VirtusLab-Open-Source/astro-strapi-starter",
+    "stars": 23,
+    "updated_at": "2026-10-22T14:59:00Z",
+    "url": "https://github.com/VirtusLab-Open-Source/astro-strapi-starter"
+  },
+  {
+    "description": "MCP Server for LynxPrompt \u2014 browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP",
+    "id": "GeiserX/lynxprompt-mcp",
+    "language": "Go",
+    "name": "GeiserX/lynxprompt-mcp",
+    "stars": 2,
+    "updated_at": "2026-10-21T00:46:17Z",
+    "url": "https://github.com/GeiserX/lynxprompt-mcp"
+  }
+]
