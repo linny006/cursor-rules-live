@@ -1,12 +1,12 @@
 [
   {
-    "description": "Architectural drift prevention for the agentic AI SDLC.",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 28,
-    "updated_at": "2026-10-22T20:52:17Z",
-    "url": "https://github.com/MnemeHQ/mneme"
+    "description": "Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows.",
+    "id": "ajhcs/healthcare-agents",
+    "language": "JavaScript",
+    "name": "ajhcs/healthcare-agents",
+    "stars": 53,
+    "updated_at": "2026-10-22T21:07:17Z",
+    "url": "https://github.com/ajhcs/healthcare-agents"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-22T20:45:36Z",
+    "updated_at": "2026-10-22T21:00:39Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Architectural drift prevention for the agentic AI SDLC.",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 28,
+    "updated_at": "2026-10-22T21:14:47Z",
+    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
@@ -178,7 +187,7 @@
     "language": "TypeScript",
     "name": "Saad-web-spec/DevScratchPad",
     "stars": 2,
-    "updated_at": "2026-10-22T20:52:16Z",
+    "updated_at": "2026-10-22T21:02:39Z",
     "url": "https://github.com/Saad-web-spec/DevScratchPad"
   },
   {
@@ -499,14 +508,5 @@
     "stars": 2,
     "updated_at": "2026-10-21T03:25:00Z",
     "url": "https://github.com/plumpslabs/matcha"
-  },
-  {
-    "description": "Free copy-paste brain files for AI coding tools: CLAUDE.md, AGENTS.md, GEMINI.md, Cursor rules (.mdc), Copilot instructi",
-    "id": "TheRealSnouk/brainstack-templates",
-    "language": "\u2014",
-    "name": "TheRealSnouk/brainstack-templates",
-    "stars": 1,
-    "updated_at": "2026-10-21T02:12:52Z",
-    "url": "https://github.com/TheRealSnouk/brainstack-templates"
   }
 ]
