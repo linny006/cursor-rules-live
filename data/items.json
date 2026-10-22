@@ -1,5 +1,23 @@
 [
   {
+    "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
+    "id": "bompus/house-rules",
+    "language": "JavaScript",
+    "name": "bompus/house-rules",
+    "stars": 2,
+    "updated_at": "2026-10-22T00:32:46Z",
+    "url": "https://github.com/bompus/house-rules"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-22T00:30:35Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam",
     "id": "eli-alvarado/agentkit-drawer",
     "language": "Python",
@@ -30,15 +48,6 @@
     "stars": 1,
     "updated_at": "2026-10-22T00:19:09Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-22T00:15:52Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Free copy-paste AGENTS.md, CLAUDE.md and Cursor rules for 20 beginner vibe-coding project types",
@@ -378,15 +387,6 @@
     "url": "https://github.com/taniwhaai/arai"
   },
   {
-    "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
-    "id": "bompus/house-rules",
-    "language": "JavaScript",
-    "name": "bompus/house-rules",
-    "stars": 2,
-    "updated_at": "2026-10-22T00:23:27Z",
-    "url": "https://github.com/bompus/house-rules"
-  },
-  {
     "description": "Open-source POPIA privacy and security guardrails for South African builders, for every AI coding tool.",
     "id": "VenusOne-Lee/popia-compliance",
     "language": "Python",
@@ -450,7 +450,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21482,
+    "stars": 21483,
     "updated_at": "2026-10-20T14:14:30Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
