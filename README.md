@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-22 00:45 UTC
+> ⏰ Last updated: 2026-10-22 00:49 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,8 +53,8 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [bompus/house-rules](https://github.com/bompus/house-rules) | 2 | JavaScript | 2026-10-22 | — | Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-22 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-22 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [bompus/house-rules](https://github.com/bompus/house-rules) | 2 | JavaScript | 2026-10-22 | — | Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md |
 | 3 | [eli-alvarado/agentkit-drawer](https://github.com/eli-alvarado/agentkit-drawer) | 0 | Python | 2026-10-22 | — | Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam |
 | 4 | [roedyrustam/vibes-plug](https://github.com/roedyrustam/vibes-plug) | 111 | JavaScript | 2026-10-22 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/roedyrustam/vibes-plug/) | ⚡ Cross-IDE AI skill collection that orchestrates 160 specialized subagents for full-stack development workflows |
 | 5 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-22 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
