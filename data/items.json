@@ -1,11 +1,20 @@
 [
   {
+    "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
+    "id": "SupremeSupport/Cursor-Desktop-2026",
+    "language": "\u2014",
+    "name": "SupremeSupport/Cursor-Desktop-2026",
+    "stars": 1,
+    "updated_at": "2026-10-22T20:02:39Z",
+    "url": "https://github.com/SupremeSupport/Cursor-Desktop-2026"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-22T19:55:42Z",
+    "updated_at": "2026-10-22T20:00:43Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -499,19 +508,5 @@
     "stars": 1,
     "updated_at": "2026-10-21T02:12:52Z",
     "url": "https://github.com/TheRealSnouk/brainstack-templates"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Astro + Strapi Blocks \u2014 StrapiBlocks, data, theme (extend/overwrite), custom blocks\nglobs: \"**/*.{astro,ts,tsx}\"\nalwaysApply: false\n---\n\n# Upstream rule (no local copy)\n\nThe full **Cursor project rule** for Strapi Blocks is maintained in the **astro-strapi-blocks** repository. Open or fetch:\n\n- **GitHub:** <https://github.com/VirtusLab-Open-Source/astro-strapi-blocks/blob/main/.cursor/rules/astro-strapi-blocks.mdc>\n- **Raw:** <https://raw.githubusercontent.com/VirtusLab-Open-Source/astro-strapi-blocks/main/.cursor/rules/astro-strapi-blocks.mdc>\n\nThis file exists only to **preserve** the same `globs` / scope in this starter. For project-specific notes, see [`.ai/AGENTS.md`](../../.ai/AGENTS.md) and the stub at [`.ai/astro-strapi-blocks/SKILL.md`](../../.ai/astro-strapi-blocks/SKILL.md).\n",
-      "format": "mdc",
-      "path": ".cursor/rules/astro-strapi-blocks.mdc"
-    },
-    "description": "The Astro x Strapi Starter template",
-    "id": "VirtusLab-Open-Source/astro-strapi-starter",
-    "language": "Astro",
-    "name": "VirtusLab-Open-Source/astro-strapi-starter",
-    "stars": 23,
-    "updated_at": "2026-10-22T14:59:00Z",
-    "url": "https://github.com/VirtusLab-Open-Source/astro-strapi-starter"
   }
 ]
