@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-22 09:45 UTC
+> ⏰ Last updated: 2026-10-22 10:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,18 +53,18 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [485148606/dsh-extreme-mode](https://github.com/485148606/dsh-extreme-mode) | 0 | JavaScript | 2026-10-22 | — | 别再说「继续」了。一个 Agent 人格预设：把默认动作从「停下来问」改成「一直做，直到交付」/ Stop typing 'continue'. |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-22 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-10-22 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
+| 2 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-10-22 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
 | 3 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 28 | Python | 2026-10-22 | — | Architectural drift prevention for the agentic AI SDLC. |
-| 4 | [toby7979/sealmyapp-tools](https://github.com/toby7979/sealmyapp-tools) | 0 | TypeScript | 2026-10-22 | — | Free MCP server, Cursor rule and Claude skill that help AI coding assistants avoid common security holes in vibe-coded a |
-| 5 | [HoangNguyen0403/agent-skills-standard](https://github.com/HoangNguyen0403/agent-skills-standard) | 581 | TypeScript | 2026-10-22 | — | A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol |
-| 6 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 17 | Shell | 2026-10-22 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
-| 7 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-10-22 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 8 | [bompus/house-rules](https://github.com/bompus/house-rules) | 2 | JavaScript | 2026-10-22 | — | Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md |
-| 9 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-22 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
-| 10 | [sraivante/mdview](https://github.com/sraivante/mdview) | 0 | JavaScript | 2026-10-22 | — | Local section-wise Markdown viewer & editor with an Agent Skill and Cursor Rule (.mdc) explorer |
-| 11 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-10-22 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
-| 12 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-10-22 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
+| 4 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-22 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 5 | [485148606/dsh-extreme-mode](https://github.com/485148606/dsh-extreme-mode) | 0 | JavaScript | 2026-10-22 | — | 别再说「继续」了。一个 Agent 人格预设：把默认动作从「停下来问」改成「一直做，直到交付」/ Stop typing 'continue'. |
+| 6 | [toby7979/sealmyapp-tools](https://github.com/toby7979/sealmyapp-tools) | 0 | TypeScript | 2026-10-22 | — | Free MCP server, Cursor rule and Claude skill that help AI coding assistants avoid common security holes in vibe-coded a |
+| 7 | [HoangNguyen0403/agent-skills-standard](https://github.com/HoangNguyen0403/agent-skills-standard) | 581 | TypeScript | 2026-10-22 | — | A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol |
+| 8 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 17 | Shell | 2026-10-22 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
+| 9 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-10-22 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
+| 10 | [bompus/house-rules](https://github.com/bompus/house-rules) | 2 | JavaScript | 2026-10-22 | — | Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md |
+| 11 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-22 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
+| 12 | [sraivante/mdview](https://github.com/sraivante/mdview) | 0 | JavaScript | 2026-10-22 | — | Local section-wise Markdown viewer & editor with an Agent Skill and Cursor Rule (.mdc) explorer |
 | 13 | [getvibekits/vibe-coding-rules](https://github.com/getvibekits/vibe-coding-rules) | 0 | — | 2026-10-22 | — | Free copy-paste AGENTS.md, CLAUDE.md and Cursor rules for 20 beginner vibe-coding project types |
 | 14 | [nguyenlong5238-art/anti-slop-ai-harness](https://github.com/nguyenlong5238-art/anti-slop-ai-harness) | 1 | — | 2026-10-22 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/nguyenlong5238-art/anti-slop-ai-harness/) | Stop AI hallucinations, Yes-Man sycophancy, robotic AI slop prose, and cheap UI clutter in 30 seconds. Pre-packaged .mdc |
 | 15 | [geronco/commandvault-library](https://github.com/geronco/commandvault-library) | 0 | JavaScript | 2026-10-22 | — | Community-voted AI prompts, CLAUDE.md/AGENTS.md templates, Cursor rules, Agent Skills and MCP servers from commandvault. |

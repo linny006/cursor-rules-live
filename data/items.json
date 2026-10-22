@@ -1,21 +1,21 @@
 [
   {
-    "description": "\u522b\u518d\u8bf4\u300c\u7ee7\u7eed\u300d\u4e86\u3002\u4e00\u4e2a Agent \u4eba\u683c\u9884\u8bbe\uff1a\u628a\u9ed8\u8ba4\u52a8\u4f5c\u4ece\u300c\u505c\u4e0b\u6765\u95ee\u300d\u6539\u6210\u300c\u4e00\u76f4\u505a\uff0c\u76f4\u5230\u4ea4\u4ed8\u300d/ Stop typing 'continue'.",
-    "id": "485148606/dsh-extreme-mode",
-    "language": "JavaScript",
-    "name": "485148606/dsh-extreme-mode",
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
     "stars": 0,
-    "updated_at": "2026-10-22T09:44:16Z",
-    "url": "https://github.com/485148606/dsh-extreme-mode"
+    "updated_at": "2026-10-22T09:56:34Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
     "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-22T09:30:47Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 1,
+    "updated_at": "2026-10-22T09:55:00Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "description": "Architectural drift prevention for the agentic AI SDLC.",
@@ -23,8 +23,26 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 28,
-    "updated_at": "2026-10-22T09:29:48Z",
+    "updated_at": "2026-10-22T09:52:25Z",
     "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-22T09:45:48Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\u522b\u518d\u8bf4\u300c\u7ee7\u7eed\u300d\u4e86\u3002\u4e00\u4e2a Agent \u4eba\u683c\u9884\u8bbe\uff1a\u628a\u9ed8\u8ba4\u52a8\u4f5c\u4ece\u300c\u505c\u4e0b\u6765\u95ee\u300d\u6539\u6210\u300c\u4e00\u76f4\u505a\uff0c\u76f4\u5230\u4ea4\u4ed8\u300d/ Stop typing 'continue'.",
+    "id": "485148606/dsh-extreme-mode",
+    "language": "JavaScript",
+    "name": "485148606/dsh-extreme-mode",
+    "stars": 0,
+    "updated_at": "2026-10-22T09:44:16Z",
+    "url": "https://github.com/485148606/dsh-extreme-mode"
   },
   {
     "description": "Free MCP server, Cursor rule and Claude skill that help AI coding assistants avoid common security holes in vibe-coded a",
@@ -88,24 +106,6 @@
     "stars": 0,
     "updated_at": "2026-10-22T05:30:09Z",
     "url": "https://github.com/sraivante/mdview"
-  },
-  {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
-    "stars": 0,
-    "updated_at": "2026-10-22T04:11:36Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 1,
-    "updated_at": "2026-10-22T04:05:17Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "description": "Free copy-paste AGENTS.md, CLAUDE.md and Cursor rules for 20 beginner vibe-coding project types",
