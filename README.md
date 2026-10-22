@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-22 12:15 UTC
+> ⏰ Last updated: 2026-10-22 12:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,8 +53,8 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [longwave-ai-lab/agentic-workflow-os](https://github.com/longwave-ai-lab/agentic-workflow-os) | 0 | — | 2026-10-22 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/longwave-ai-lab/agentic-workflow-os/) | Agentic Workflow OS: Deterministic /boost Context-Bloat Pruner, /teamwork-preview Git Worktree Sandbox, /goal Anti-Rewar |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-22 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-22 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [longwave-ai-lab/agentic-workflow-os](https://github.com/longwave-ai-lab/agentic-workflow-os) | 0 | — | 2026-10-22 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/longwave-ai-lab/agentic-workflow-os/) | Agentic Workflow OS: Deterministic /boost Context-Bloat Pruner, /teamwork-preview Git Worktree Sandbox, /goal Anti-Rewar |
 | 3 | [longwave-ai-lab/anti-slop-ai-harness](https://github.com/longwave-ai-lab/anti-slop-ai-harness) | 1 | — | 2026-10-22 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/longwave-ai-lab/anti-slop-ai-harness/) | Stop AI hallucinations, Yes-Man sycophancy, robotic AI slop prose, and cheap UI clutter in 30 seconds. Pre-packaged .mdc |
 | 4 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 28 | Python | 2026-10-22 | — | Architectural drift prevention for the agentic AI SDLC. |
 | 5 | [Aaditya1273/Agent.md](https://github.com/Aaditya1273/Agent.md) | 10 | — | 2026-10-22 | — | Your AI coding agent follows these files blindly, before it reads a line of your code. |
