@@ -1,5 +1,23 @@
 [
   {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-10-22T10:51:48Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-22T10:45:47Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: Global Android project standards \u2014 always apply\nalwaysApply: true\n---\n\nYou are working on a production Android application.\n\n## Stack (defaults \u2014 adapt to existing project if already established)\n\n- Kotlin only\n- UI from `.cursor/project-settings.json` **`uiFramework`**: `\"xml\"` (default if missing) = XML + View Binding; `\"compose\"` = Jetpack Compose + `:feature-*` modules (AnimeHub). Never mix as the app UI stack. Never Data Binding\n- Clean Architecture (Presentation \u2192 Domain \u2192 Data)\n- MVVM + MVI (Intent / State / Effect) for **feature screens** \u2014 **not** ads (`:gmaAds`); ads use Fragment/Activity extensions + managers \u2014 never MVI unless the user explicitly asks (`21-ads-billing`, `reference/ads-gma.md`, `admob/*` skills)\n- Repository pattern\n- Multi-module architecture\n- DI via the project's existing framework (default: Koin)\n- Gradle Kotlin DSL + Version Catalog (`libs.versions.toml`)\n\n## Before writing code\n\n- Analyze existing project structure and conventions first\n- Reuse existing base classes, modules, and patterns\n- Do not introduce new libraries without explicit approval\n- Do not change architecture or module boundaries without approval\n- Maintain backward compatibility\n- When `.cursor/project-settings.json` exists, **obey it** (`uiFramework`, `writeTestsWithFeatures`, `orientation`, `themeModes`, `applicationId`, `appName`) \u2014 see `.cursor/README.md`\n\n## Code quality\n\n- Production-ready code only \u2014 no placeholders or TODOs left behind\n- Single responsibility per class\n- Avoid duplicate logic \u2014 extract shared code to core modules\n- Prefer readable code over clever code\n- Minimize scope \u2014 change only what the task requires\n- Design for large datasets from day one \u2014 never assume small lists\n- UI must support portrait and landscape (unless `project-settings.json` sets `orientation` to `portrait` or `landscape` only)\n- Heavy mapping in Repository / UseCase; UI layers render only\n- Networking / Room / SharedPreferences patterns: `26-data-persistence.mdc` + `rules/reference/`\n\n## Golden dependency rule\n\n```\napp (Composition Root)\n |\n \u2193\npresentation \u2192 domain \u2190 data\n |\n \u2193\ncore modules (shared utilities)\n```\n\n- Create as many `:core-*` modules as needed (`core-common`, `core-ui`, `core-platform`, \u2026)\n- UI never imports data implementations. Domain never imports UI.\n\n## Always\n\n1. Follow Clean Architecture + MVVM/MVI (Intent / State / Effect / ViewModel / UseCase / Repository) for **feature screens** \u2014 ads are exempt (`21-ads-billing`) \u2014 same as Stack above\n2. UI follows `uiFramework`: **xml** \u2192 View Binding, never Compose, never `findViewById`; **compose** \u2192 Compose screens in `:feature-*`, never XML `fragment_*` layouts, never `findViewById` \u2014 never Data Binding \u2014 same as Stack above\n3. Use the project's DI framework \u2014 **`module` (eager cold-start) or `lazyModule` (deferred features/ads)** per `07-dependency-injection`; register in composition root \u2014 same as Stack above\n4. Use Version Catalog \u2014 no hardcoded dependency versions\n5. Respect module boundaries \u2014 presentation must not depend on `:data`; UseCases + repo **interfaces** only in `:domain` (never in `:data`) \u2014 same as Golden dependency rule above\n6. Put **all** user-facing strings in the single shared strings file (e.g. `:core-ui`) \u2014 no hardcoded UI strings\n7. Match existing naming conventions (resources, packages, classes)\n8. Add unit tests for new UseCases and ViewModels when adding features \u2014 **unless** `.cursor/project-settings.json` has `writeTestsWithFeatures: false`\n9. Use proper dispatchers (`IO` / `Default`) \u2014 assume lists/files may have thousands of items; never block Main\n10. Log with `Constants.TAG*` and format `ClassName: functionName: State: details`\n11. Support **portrait and landscape** for all UI screens \u2014 **unless** `project-settings.json` `orientation` is `portrait` or `landscape` only \u2014 same as Code quality above\n12. Do heavy mapping in Repository / UseCase; `toUi()` in ViewModel only when needed (with dispatcher if heavy) \u2014 same as Code quality above\n13. Read and obey `.cursor/project-settings.json` when present (`uiFramework`, `orientation`, `themeModes`, `writeTestsWithFeatures`) \u2014 same as Before writing code above\n14. Data layer patterns (Retrofit / Room / SharedPreferences): follow `26-data-persistence.mdc` and `rules/reference/` \u2014 not ad-hoc skills \u2014 same as Code quality above\n\n## Never\n\n1. Never add libraries without explicit human approval \u2014 same as Before writing code above\n2. Never add Hilt/Dagger/RxJava unless the project already uses them. Never add Compose when `uiFramework` is `xml`. Never add XML Fragment screens when `uiFramework` is `compose`\n3. Never put business logic or heavy mapping in Fragments/Activities/Adapters/`*ScreenContent` beyond render + intent dispatch\n4. Never access DataSources directly from presentation\n5. Never skip `android:exported` on manifest components with intent-filters\n6. Never use `GlobalScope` for feature work\n7. Never modify unrelated files when implementing a feature \u2014 same as Code quality \u201cMinimize scope\u201d above\n8. Never do heavy mapping/sorting/IO on the Main thread \u2014 same as Always #9 above\n9. Never invent ad-hoc log tags \u2014 use `Constants.TAG*` \u2014 same as Always #10 above\n10. Never lock the app to one orientation unless product explicitly requires it \u2014 same as Always #11 above\n11. Never set static `RecyclerView` `layoutManager` / list `orientation` / `spanCount` in Kotlin \u2014 declare them in XML unless dynamic (**xml** only)\n12. Never put UseCases or repository **interfaces** in `:data` \u2014 domain only; never use \u2014 same as Always #3 and #5 above\n13. Never invent a parallel architecture (e.g. Redux, Orbit) for one screen \u2014 stay on project MVI\n14. Never hardcode AdMob production IDs in debug or commit secrets into git / docs \u2014 see `14-security-secrets.mdc`\n15. Never convert ads (`:gmaAds`, AdMob managers) to MVI (Intent / State / Effect) unless the user **explicitly** asks \u2014 place `:gmaAds` from [orbitalsonic/Admob-Ads](https://github.com/orbitalsonic/Admob-Ads); screens call extensions. See `21-ads-billing` + `reference/ads-gma.md`\n\nWhen scaffolding a new feature or screen, also follow `01-feature-checklist.mdc`.\n",
       "format": "mdc",
@@ -44,15 +62,6 @@
     "stars": 5,
     "updated_at": "2026-10-22T10:32:02Z",
     "url": "https://github.com/Harmitx7/tribunal-kit"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-22T10:30:36Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -143,15 +152,6 @@
     "stars": 2,
     "updated_at": "2026-10-22T06:54:06Z",
     "url": "https://github.com/bompus/house-rules"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-10-22T05:36:31Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Local section-wise Markdown viewer & editor with an Agent Skill and Cursor Rule (.mdc) explorer",
