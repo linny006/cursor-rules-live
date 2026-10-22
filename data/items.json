@@ -1,11 +1,34 @@
 [
   {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 1,
+    "updated_at": "2026-10-22T14:58:18Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+  },
+  {
+    "cursorrules": {
+      "content": "# /pr-viz\n# Community skill: https://github.com/krzysztofgibert/pr-viz-skill\n# Viewer: https://pr-viz.com\n\nWhen the user runs /pr-viz, or asks to visualize, map, or review a GitHub pull\nrequest, follow skills/pr-viz/SKILL.md in full.\n\nPublish the map with skills/pr-viz/scripts/publish-diagram.mjs to the viewer in\nskills/pr-viz/host.json. Do not paste the review, Mermaid, or ASCII in the chat.\nDo not ask for or handle a GitHub token.\n",
+      "format": "text",
+      "path": ".cursorrules"
+    },
+    "description": "Free IDE skill that turns a GitHub pull request into a two-zone review map. Use it in VS Code, Cursor, Claude Code, or W",
+    "id": "krzysztofgibert/pr-viz-skill",
+    "language": "JavaScript",
+    "name": "krzysztofgibert/pr-viz-skill",
+    "stars": 0,
+    "updated_at": "2026-10-22T14:51:11Z",
+    "url": "https://github.com/krzysztofgibert/pr-viz-skill"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-22T14:30:41Z",
+    "updated_at": "2026-10-22T14:45:44Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -78,7 +101,7 @@
     "language": "TypeScript",
     "name": "Saad-web-spec/DevScratchPad",
     "stars": 2,
-    "updated_at": "2026-10-22T14:29:06Z",
+    "updated_at": "2026-10-22T14:51:40Z",
     "url": "https://github.com/Saad-web-spec/DevScratchPad"
   },
   {
@@ -194,15 +217,6 @@
     "stars": 0,
     "updated_at": "2026-10-22T09:56:34Z",
     "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 1,
-    "updated_at": "2026-10-22T09:55:00Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "description": "\u522b\u518d\u8bf4\u300c\u7ee7\u7eed\u300d\u4e86\u3002\u4e00\u4e2a Agent \u4eba\u683c\u9884\u8bbe\uff1a\u628a\u9ed8\u8ba4\u52a8\u4f5c\u4ece\u300c\u505c\u4e0b\u6765\u95ee\u300d\u6539\u6210\u300c\u4e00\u76f4\u505a\uff0c\u76f4\u5230\u4ea4\u4ed8\u300d/ Stop typing 'continue'.",
@@ -483,7 +497,7 @@
     "language": "Astro",
     "name": "VirtusLab-Open-Source/astro-strapi-starter",
     "stars": 23,
-    "updated_at": "2026-10-21T00:39:03Z",
+    "updated_at": "2026-10-22T14:59:00Z",
     "url": "https://github.com/VirtusLab-Open-Source/astro-strapi-starter"
   },
   {
@@ -494,14 +508,5 @@
     "stars": 2,
     "updated_at": "2026-10-21T00:46:17Z",
     "url": "https://github.com/GeiserX/lynxprompt-mcp"
-  },
-  {
-    "description": "Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows.",
-    "id": "ajhcs/healthcare-agents",
-    "language": "JavaScript",
-    "name": "ajhcs/healthcare-agents",
-    "stars": 53,
-    "updated_at": "2026-10-20T23:21:57Z",
-    "url": "https://github.com/ajhcs/healthcare-agents"
   }
 ]
