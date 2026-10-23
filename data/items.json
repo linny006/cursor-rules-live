@@ -1,11 +1,20 @@
 [
   {
+    "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 plus AIOS, an open-source markdown memory system for coding ",
+    "id": "sublimecoder/sublimecoding",
+    "language": "\u2014",
+    "name": "sublimecoder/sublimecoding",
+    "stars": 0,
+    "updated_at": "2026-10-23T16:05:45Z",
+    "url": "https://github.com/sublimecoder/sublimecoding"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-23T15:45:43Z",
+    "updated_at": "2026-10-23T16:00:36Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -59,7 +68,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21535,
+    "stars": 21536,
     "updated_at": "2026-10-23T14:29:26Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -319,7 +328,7 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 28,
-    "updated_at": "2026-10-23T15:42:01Z",
+    "updated_at": "2026-10-23T16:11:58Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
@@ -367,15 +376,6 @@
     "stars": 2,
     "updated_at": "2026-10-22T18:25:09Z",
     "url": "https://github.com/ashishkaloge/coding-agent-guidelines"
-  },
-  {
-    "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 plus AIOS, an open-source markdown memory system for coding ",
-    "id": "sublimecoder/sublimecoding",
-    "language": "\u2014",
-    "name": "sublimecoder/sublimecoding",
-    "stars": 0,
-    "updated_at": "2026-10-22T16:15:44Z",
-    "url": "https://github.com/sublimecoder/sublimecoding"
   },
   {
     "cursorrules": {
