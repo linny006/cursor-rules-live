@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-23 15:30 UTC
+> ⏰ Last updated: 2026-10-23 15:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,8 +53,8 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [smg99/ticket-flow](https://github.com/smg99/ticket-flow) | 0 | HTML | 2026-10-23 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/smg99/ticket-flow/) | A repeatable, high-discipline workflow pattern for Cursor agents: fetches issues, branches, implements, adds tests, runs |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-23 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-23 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [smg99/ticket-flow](https://github.com/smg99/ticket-flow) | 0 | HTML | 2026-10-23 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/smg99/ticket-flow/) | A repeatable, high-discipline workflow pattern for Cursor agents: fetches issues, branches, implements, adds tests, runs |
 | 3 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-10-23 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
 | 4 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-10-23 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
 | 5 | [roedyrustam/vibes-plug](https://github.com/roedyrustam/vibes-plug) | 113 | JavaScript | 2026-10-23 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/roedyrustam/vibes-plug/) | 🌊 Universal AI Agent Swarm & MCP Plugin with 171 specialized skills and 8 autonomous subagents for Antigravity, Claude C |
