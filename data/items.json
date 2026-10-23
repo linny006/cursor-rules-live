@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-23T15:00:48Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
     "id": "Trentobobbi/uikit-mastery-playbook",
     "language": "HTML",
@@ -32,15 +41,6 @@
     "url": "https://github.com/roedyrustam/vibes-plug"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-23T14:45:58Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: When the user works on, fixes, or implements a ticket (e.g. \"fix bug PROJ-123\", \"work on PROJ-123\", \"run ticket-flow\", \"process morning queue\"), load and follow the Ticket Flow skill. Do not freestyle the sequence.\nalwaysApply: true\n---\n\n# Ticket Flow Trigger Rule\n\nWhen the user asks to process a ticket, fix a bug with an ID, work on a ticket, implement a feature with an ID, run ticket-flow, or handle a queue of tickets:\n\n1. **Load and follow** the Ticket Flow skill at `.cursor/skills/ticket-flow/SKILL.md` (same path when this repo is the workspace root, or when rules/skills are copied into an app repo).\n2. Do not freestyle the workflow sequence.\n3. Enforce the **Confirm** gates before commit and before PR. Never treat silence as Confirm.\n4. Stage only path-scoped changes relevant to the ticket.\n5. Keep the naming glossary from the skill in mind (primary app vs suite vs shared UI).\n",
       "format": "mdc",
@@ -59,7 +59,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21532,
+    "stars": 21534,
     "updated_at": "2026-10-23T14:29:26Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -206,7 +206,7 @@
     "language": "TypeScript",
     "name": "Saad-web-spec/DevScratchPad",
     "stars": 2,
-    "updated_at": "2026-10-23T12:26:39Z",
+    "updated_at": "2026-10-23T15:07:40Z",
     "url": "https://github.com/Saad-web-spec/DevScratchPad"
   },
   {
