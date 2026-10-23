@@ -1,11 +1,20 @@
 [
   {
+    "description": "Drop-in AI agent rules (Cursor, Claude Code, AGENTS.md) that stop Supabase RLS holes, broken Stripe webhooks and Godot 3",
+    "id": "otctrading101/shiprules-free",
+    "language": "Shell",
+    "name": "otctrading101/shiprules-free",
+    "stars": 0,
+    "updated_at": "2026-10-23T00:43:08Z",
+    "url": "https://github.com/otctrading101/shiprules-free"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-23T00:15:35Z",
+    "updated_at": "2026-10-23T00:30:40Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -412,15 +421,6 @@
     "stars": 0,
     "updated_at": "2026-10-21T16:15:29Z",
     "url": "https://github.com/sayfer-io/pentest-readiness-checklist"
-  },
-  {
-    "description": "Drop-in AI agent rules (Cursor, Claude Code, AGENTS.md) that stop Supabase RLS holes, broken Stripe webhooks and Godot 3",
-    "id": "otctrading101/shiprules-free",
-    "language": "\u2014",
-    "name": "otctrading101/shiprules-free",
-    "stars": 0,
-    "updated_at": "2026-10-21T13:03:12Z",
-    "url": "https://github.com/otctrading101/shiprules-free"
   },
   {
     "cursorrules": {
