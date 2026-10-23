@@ -14,7 +14,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="madebyaris/grok-cursor-rules - entry on Cursor Rules Live">
 <meta name="twitter:description" content="Cursor rules for Grok 4.7: grounded coding plus design directions, screenshot review, own ideas, and direction-only ques">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"madebyaris/grok-cursor-rules","codeRepository":"https://github.com/madebyaris/grok-cursor-rules","programmingLanguage":"—","url":"https://linny006.github.io/cursor-rules-live/r/madebyaris/grok-cursor-rules/","description":"Cursor rules for Grok 4.7: grounded coding plus design directions, screenshot review, own ideas, and direction-only ques","author":{"@type":"Person","name":"madebyaris","url":"https://github.com/madebyaris"},"dateModified":"2026-10-13"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"madebyaris/grok-cursor-rules","codeRepository":"https://github.com/madebyaris/grok-cursor-rules","programmingLanguage":"—","url":"https://linny006.github.io/cursor-rules-live/r/madebyaris/grok-cursor-rules/","description":"Cursor rules for Grok 4.7: grounded coding plus design directions, screenshot review, own ideas, and direction-only ques","author":{"@type":"Person","name":"madebyaris","url":"https://github.com/madebyaris"},"dateModified":"2026-10-23"}</script>
 <style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
          --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
 * { box-sizing: border-box; }
@@ -48,64 +48,60 @@ footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--bor
 <div class="meta">
 <span><strong>Stars</strong> 1</span>
 <span><strong>Language</strong> —</span>
-<span><strong>Last updated</strong> 2026-10-13</span>
+<span><strong>Last updated</strong> 2026-10-23</span>
 <span><a href="https://github.com/madebyaris/grok-cursor-rules" rel="external">Source on GitHub</a></span>
 <span><a href="https://github.com/madebyaris" rel="external">@madebyaris</a></span>
 </div>
 <section id="rules"><h2>Actual rules from this repo</h2>
-<p>Path in source repo: <code>.cursor/rules/grok-eval.mdc</code> &middot; format: <code>mdc</code></p>
+<p>Path in source repo: <code>.cursor/rules/grok-act.mdc</code> &middot; format: <code>mdc</code></p>
 <pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
-description: How Grok evaluates finished work. Score compliance on every task. On design work, score taste from a screenshot and fail results that are correct but generic.
+description: The work loop. Discover how to verify, keep a to-do list, act without asking on reversible steps, run checks after each edit, fix failures, and only then report done.
 alwaysApply: true
 ---
 
-# Eval
+# Act
 
-Score in order. At the first failure, fix it, then score again from the top. Stop after three rounds and report what still fails.
+Finish the task in this turn. A question is the last resort, as `grok-hitl` says.
 
-1. Safety and instruction compliance.
-2. Spec match. Every behavior that the user asked for is present.
-3. Grounding. Paths, APIs, and names exist.
-4. Local consistency. Patterns, types, and lint.
-5. Regression risk around the change.
-6. Evidence. Check the real thing: run it, read the actual value, or inspect the diff. &quot;It compiles&quot; is not evidence.
+## Before the first edit
 
-Coding-track work ends here. A failed taste check is not a reason to redesign a working fix.
+1. Find the checks. Read `package.json` scripts, `Makefile`, `pyproject.toml`, CI files, and `AGENTS.md`. Note the exact commands for test, lint, typecheck, and build.
+2. Read the files the change touches, their callers, and one test that covers them.
+3. For a task with three or more steps, write a to-do list. Keep one item in progress. Mark each item done as soon as it is done.
 
-## Taste, before design work is done
+## After each edit
 
-Score these from a screenshot of the rendered result, not from the code.
+1. Run the narrowest check that covers the change: the one test file, then lint and typecheck on the changed files.
+2. If a check fails because of your change, fix it and run it again. Do not ask first.
+3. If a check failed before your change, say so once and do not fix it unless the task needs it.
+4. Before you report, run the full test, lint, and typecheck commands once.
 
-7. Decision audit. Name the one to three choices that control the result.
-8. Rejected direction. Name one direction that you did not choose, and why.
-9. Removal. Name what you cut to make the result clearer.
-10. Specificity. The result fits this brief and its audience. If it could belong to any project, it is not done.
-11. Own idea, on an open task. Give one observation that the user did not give you.
+## Keep going
 
-Fail the taste layer when:
+- Do not stop to ask &quot;should I continue?&quot; or &quot;want me to proceed?&quot;. Continue.
+- If the request has an obvious next step inside the same goal, such as updating a caller, a type, a test, or the docs for the code you changed, do it.
+- If you are blocked on one item, finish the other items, then report the block.
 
-- A screen or section has more than one job, or no focal point.
-- Type, space, or color adds a new value that has no role.
-- A new component exists where removal would be clearer.
-- The layout is one of the average layouts in `grok-think`, and the content does not have that shape.
-- A rejected default was replaced by another common look, not by a choice from the brief.
-- The safest direction was chosen with no reason from the brief.
-- No screenshot was reviewed.
+## Done means
+
+- Every to-do is done or reported as blocked with the reason.
+- The checks ran and passed, or you name the check that did not run and why.
+- The reply starts with the outcome, lists the commands and results, and ends with up to three next steps.
 
 ```
-Bad: Done. Matches the spec. Added a card grid.
-Good: Chose one column because the brief has one decision. Rejected a comparison table because there are only two options. Cut the feature list. In the wide and narrow screenshots, the eye lands on the primary action first.
+Bad: I updated the function. Want me to add tests?
+Good: `parseDate` now accepts ISO weeks. Added 3 cases to `date.test.ts`. `pnpm test date` passes, `pnpm lint` and `pnpm tsc --noEmit` are clean. Next: the `/reports` page still formats weeks by hand. I can switch it to `parseDate`.
 ```
 </code></pre>
-<p><a href="https://github.com/madebyaris/grok-cursor-rules/blob/HEAD/.cursor/rules/grok-eval.mdc" rel="external">View raw on GitHub</a></p>
+<p><a href="https://github.com/madebyaris/grok-cursor-rules/blob/HEAD/.cursor/rules/grok-act.mdc" rel="external">View raw on GitHub</a></p>
 </section>
 <section><h2>Why this is listed</h2>
 <p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
 <section><h2>Similar in this tracker</h2>
 <ul class="crosslinks">
-<li><a href="https://linny006.github.io/cursor-rules-live/r/J-nowcow/awesome-korean-agent-skills/">J-nowcow/awesome-korean-agent-skills (stars:49)</a></li>
-<li><a href="https://linny006.github.io/cursor-rules-live/r/Aaditya1273/Agent.md/">Aaditya1273/Agent.md (stars:9)</a></li>
-<li><a href="https://linny006.github.io/cursor-rules-live/r/Overseastelegramaliterateperson865/awesome-claude-md/">Overseastelegramaliterateperson865/awesome-claude-md (stars:3)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/J-nowcow/awesome-korean-agent-skills/">J-nowcow/awesome-korean-agent-skills (stars:52)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/Aaditya1273/Agent.md/">Aaditya1273/Agent.md (stars:10)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/peva3/anchor/">peva3/anchor (stars:8)</a></li>
 </ul></section>
 <section><h2>Explore by category</h2>
 <ul class="crosslinks">

@@ -1,12 +1,53 @@
 [
   {
-    "description": "Free private developer tools (JSON, JWT, cURL, cron, SSH keys) that run in your browser, plus AI Skill Studio: a CLAUDE.",
-    "id": "Saad-web-spec/DevScratchPad",
+    "description": "Modular, scalable, automated development intelligence.",
+    "id": "DongDuong2001/pudo-code-system",
     "language": "TypeScript",
-    "name": "Saad-web-spec/DevScratchPad",
-    "stars": 2,
-    "updated_at": "2026-10-23T12:11:27Z",
-    "url": "https://github.com/Saad-web-spec/DevScratchPad"
+    "name": "DongDuong2001/pudo-code-system",
+    "stars": 5,
+    "updated_at": "2026-10-23T12:29:26Z",
+    "url": "https://github.com/DongDuong2001/pudo-code-system"
+  },
+  {
+    "description": "Free copy-paste AGENTS.md, CLAUDE.md and Cursor rules for 20 beginner vibe-coding project types",
+    "id": "getvibekits/vibe-coding-rules",
+    "language": "\u2014",
+    "name": "getvibekits/vibe-coding-rules",
+    "stars": 0,
+    "updated_at": "2026-10-23T12:23:20Z",
+    "url": "https://github.com/getvibekits/vibe-coding-rules"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: The work loop. Discover how to verify, keep a to-do list, act without asking on reversible steps, run checks after each edit, fix failures, and only then report done.\nalwaysApply: true\n---\n\n# Act\n\nFinish the task in this turn. A question is the last resort, as `grok-hitl` says.\n\n## Before the first edit\n\n1. Find the checks. Read `package.json` scripts, `Makefile`, `pyproject.toml`, CI files, and `AGENTS.md`. Note the exact commands for test, lint, typecheck, and build.\n2. Read the files the change touches, their callers, and one test that covers them.\n3. For a task with three or more steps, write a to-do list. Keep one item in progress. Mark each item done as soon as it is done.\n\n## After each edit\n\n1. Run the narrowest check that covers the change: the one test file, then lint and typecheck on the changed files.\n2. If a check fails because of your change, fix it and run it again. Do not ask first.\n3. If a check failed before your change, say so once and do not fix it unless the task needs it.\n4. Before you report, run the full test, lint, and typecheck commands once.\n\n## Keep going\n\n- Do not stop to ask \"should I continue?\" or \"want me to proceed?\". Continue.\n- If the request has an obvious next step inside the same goal, such as updating a caller, a type, a test, or the docs for the code you changed, do it.\n- If you are blocked on one item, finish the other items, then report the block.\n\n## Done means\n\n- Every to-do is done or reported as blocked with the reason.\n- The checks ran and passed, or you name the check that did not run and why.\n- The reply starts with the outcome, lists the commands and results, and ends with up to three next steps.\n\n```\nBad: I updated the function. Want me to add tests?\nGood: `parseDate` now accepts ISO weeks. Added 3 cases to `date.test.ts`. `pnpm test date` passes, `pnpm lint` and `pnpm tsc --noEmit` are clean. Next: the `/reports` page still formats weeks by hand. I can switch it to `parseDate`.\n```\n",
+      "format": "mdc",
+      "path": ".cursor/rules/grok-act.mdc"
+    },
+    "description": "Cursor rules for Grok 4.7: grounded coding plus design directions, screenshot review, own ideas, and direction-only ques",
+    "id": "madebyaris/grok-cursor-rules",
+    "language": "\u2014",
+    "name": "madebyaris/grok-cursor-rules",
+    "stars": 1,
+    "updated_at": "2026-10-23T12:22:58Z",
+    "url": "https://github.com/madebyaris/grok-cursor-rules"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-10-23T12:17:09Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "A universal, native-Rust governance layer for AI coding agents. Enforces Subagent-Driven Development (SDD) to stop hallu",
+    "id": "Harmitx7/tribunal-kit",
+    "language": "JavaScript",
+    "name": "Harmitx7/tribunal-kit",
+    "stars": 5,
+    "updated_at": "2026-10-23T12:16:01Z",
+    "url": "https://github.com/Harmitx7/tribunal-kit"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,17 +55,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-23T12:00:36Z",
+    "updated_at": "2026-10-23T12:15:42Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
-    "description": "Modular, scalable, automated development intelligence.",
-    "id": "DongDuong2001/pudo-code-system",
+    "description": "Free private developer tools (JSON, JWT, cURL, cron, SSH keys) that run in your browser, plus AI Skill Studio: a CLAUDE.",
+    "id": "Saad-web-spec/DevScratchPad",
     "language": "TypeScript",
-    "name": "DongDuong2001/pudo-code-system",
-    "stars": 5,
-    "updated_at": "2026-10-23T11:55:02Z",
-    "url": "https://github.com/DongDuong2001/pudo-code-system"
+    "name": "Saad-web-spec/DevScratchPad",
+    "stars": 2,
+    "updated_at": "2026-10-23T12:26:39Z",
+    "url": "https://github.com/Saad-web-spec/DevScratchPad"
   },
   {
     "cursorrules": {
@@ -77,7 +118,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21528,
+    "stars": 21529,
     "updated_at": "2026-10-23T10:28:46Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -175,15 +216,6 @@
     "stars": 0,
     "updated_at": "2026-10-23T07:16:46Z",
     "url": "https://github.com/xiaoSRJ/ai-skills"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-10-23T06:44:48Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Portable skills and shared policies for Codex, Claude Code, and Cursor on Linux.",
@@ -369,15 +401,6 @@
     "url": "https://github.com/Aaditya1273/Agent.md"
   },
   {
-    "description": "A universal, native-Rust governance layer for AI coding agents. Enforces Subagent-Driven Development (SDD) to stop hallu",
-    "id": "Harmitx7/tribunal-kit",
-    "language": "JavaScript",
-    "name": "Harmitx7/tribunal-kit",
-    "stars": 5,
-    "updated_at": "2026-10-22T10:32:02Z",
-    "url": "https://github.com/Harmitx7/tribunal-kit"
-  },
-  {
     "description": "\u522b\u518d\u8bf4\u300c\u7ee7\u7eed\u300d\u4e86\u3002\u4e00\u4e2a Agent \u4eba\u683c\u9884\u8bbe\uff1a\u628a\u9ed8\u8ba4\u52a8\u4f5c\u4ece\u300c\u505c\u4e0b\u6765\u95ee\u300d\u6539\u6210\u300c\u4e00\u76f4\u505a\uff0c\u76f4\u5230\u4ea4\u4ed8\u300d/ Stop typing 'continue'.",
     "id": "485148606/dsh-extreme-mode",
     "language": "JavaScript",
@@ -421,15 +444,6 @@
     "stars": 0,
     "updated_at": "2026-10-22T05:30:09Z",
     "url": "https://github.com/sraivante/mdview"
-  },
-  {
-    "description": "Free copy-paste AGENTS.md, CLAUDE.md and Cursor rules for 20 beginner vibe-coding project types",
-    "id": "getvibekits/vibe-coding-rules",
-    "language": "\u2014",
-    "name": "getvibekits/vibe-coding-rules",
-    "stars": 0,
-    "updated_at": "2026-10-22T04:03:19Z",
-    "url": "https://github.com/getvibekits/vibe-coding-rules"
   },
   {
     "description": "Agent skills, a Claude Code plugin and a Cursor rule that teach coding agents to add Groundmail transactional email to y",
@@ -489,19 +503,5 @@
     "stars": 0,
     "updated_at": "2026-10-21T16:15:29Z",
     "url": "https://github.com/sayfer-io/pentest-readiness-checklist"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: NeuraForge AI \u2014 code-review\nglobs:\nalwaysApply: false\n---\nRead agents/code-review.md for full instructions. Follow AGENTS.md for architecture principles.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/code-review.mdc"
-    },
-    "description": "Stop correcting the same AI mistakes. 40 agents for Claude Code, Cursor & Copilot that enforce architecture rules across",
-    "id": "vikisingh23/neuraforge-ai",
-    "language": "JavaScript",
-    "name": "vikisingh23/neuraforge-ai",
-    "stars": 4,
-    "updated_at": "2026-10-21T10:22:51Z",
-    "url": "https://github.com/vikisingh23/neuraforge-ai"
   }
 ]
