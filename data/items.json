@@ -1,5 +1,23 @@
 [
   {
+    "description": "\ud83c\udfad 277 \u4e2a\u5373\u63d2\u5373\u7528\u7684 AI \u4e13\u5bb6\u89d2\u8272 \u2014 \u652f\u6301 Claude Code/Cursor/Copilot \u7b49 20 \u79cd\u5de5\u5177\uff0c\u8986\u76d6\u5de5\u7a0b/\u8bbe\u8ba1/\u8425\u9500/\u91d1\u878d\u7b49 20 \u4e2a\u90e8\u95e8\u3002\u542b 64 \u4e2a\u4e2d\u56fd\u5e02\u573a\u539f\u521b\u667a\u80fd\u4f53\uff08\u5c0f\u7ea2\u4e66/\u6296\u97f3/\u5fae\u4fe1/\u98de\u4e66/\u9489\u9489/Qt \u4e0a",
+    "id": "jnMetaCode/agency-agents-zh",
+    "language": "Shell",
+    "name": "jnMetaCode/agency-agents-zh",
+    "stars": 21523,
+    "updated_at": "2026-10-23T10:28:46Z",
+    "url": "https://github.com/jnMetaCode/agency-agents-zh"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-23T10:15:37Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "# /pr-viz\n# Community skill: https://github.com/krzysztofgibert/pr-viz-skill\n# Viewer: https://pr-viz.com\n\nWhen the user runs /pr-viz, or asks to visualize, map, or review a GitHub pull\nrequest, follow skills/pr-viz/SKILL.md in full.\n\nPublish the map with skills/pr-viz/scripts/publish-diagram.mjs to the viewer in\nskills/pr-viz/host.json. Do not paste the review, Mermaid, or ASCII in the chat.\nDo not ask for or handle a GitHub token.\n",
       "format": "text",
@@ -12,15 +30,6 @@
     "stars": 0,
     "updated_at": "2026-10-23T10:13:47Z",
     "url": "https://github.com/krzysztofgibert/pr-viz-skill"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-23T10:00:48Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -315,7 +324,7 @@
     "language": "TypeScript",
     "name": "Saad-web-spec/DevScratchPad",
     "stars": 2,
-    "updated_at": "2026-10-23T10:04:39Z",
+    "updated_at": "2026-10-23T10:29:06Z",
     "url": "https://github.com/Saad-web-spec/DevScratchPad"
   },
   {
@@ -499,14 +508,5 @@
     "stars": 8,
     "updated_at": "2026-10-21T19:57:50Z",
     "url": "https://github.com/brendadeeznuts1111/betting-brain-v3"
-  },
-  {
-    "description": "Awesome Cursor Rules (.cursorrules) & MCP Servers list for iOS, Python, and Web. Maintained by AgentIndex.app",
-    "id": "xiaozhenyangCode/awesome-cursor-rules",
-    "language": "\u2014",
-    "name": "xiaozhenyangCode/awesome-cursor-rules",
-    "stars": 1,
-    "updated_at": "2026-10-21T07:21:34Z",
-    "url": "https://github.com/xiaozhenyangCode/awesome-cursor-rules"
   }
 ]
