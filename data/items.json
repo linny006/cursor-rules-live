@@ -1,11 +1,52 @@
 [
   {
+    "description": "Rules that make AI coding agents write code a person would write. AGENTS.md for any agent, plus a Claude Code plugin.",
+    "id": "navulo/human-code",
+    "language": "JavaScript",
+    "name": "navulo/human-code",
+    "stars": 1,
+    "updated_at": "2026-10-23T07:25:50Z",
+    "url": "https://github.com/navulo/human-code"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: PowerSync skill \u2014 follow AGENTS.md playbook; powersync login is Cloud-only\nglobs:\n  - skills/powersync/**/*\n  - AGENTS.md\n  - CONTRIBUTING.md\n---\n\n# PowerSync agent skills\n\nWhen editing or when the user\u2019s task involves PowerSync:\n\n1. Open **skills/powersync/AGENTS.md** and follow **Agent compliance** and the numbered onboarding playbook. Do not assume backend or Cloud vs self-hosted.\n2. Prefer the **PowerSync CLI** per that file; do not hand-roll deployable config unless the user explicitly cannot use the CLI.\n3. **`powersync login`** is for **PowerSync Cloud** (PAT) only \u2014 not for authenticating to a **self-hosted** service. Self-hosted: `powersync init self-hosted`, Docker commands, `PS_ADMIN_TOKEN` on the service.\n\nIf instructions here conflict with a \u201cfaster\u201d approach, the playbook wins unless the user explicitly overrides.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/powersync-playbook.mdc"
+    },
+    "description": "Official agent skills for PowerSync",
+    "id": "powersync-ja/agent-skills",
+    "language": "JavaScript",
+    "name": "powersync-ja/agent-skills",
+    "stars": 20,
+    "updated_at": "2026-10-23T07:22:19Z",
+    "url": "https://github.com/powersync-ja/agent-skills"
+  },
+  {
+    "description": "Drop-in AI agent rules (Cursor, Claude Code, AGENTS.md) that stop Supabase RLS holes, broken Stripe webhooks and Godot 3",
+    "id": "otctrading101/shiprules-free",
+    "language": "Shell",
+    "name": "otctrading101/shiprules-free",
+    "stars": 0,
+    "updated_at": "2026-10-23T07:17:08Z",
+    "url": "https://github.com/otctrading101/shiprules-free"
+  },
+  {
+    "description": "\u5c08\u70ba\u51fa\u6d77\u71df\u92b7\u3001\u96fb\u5546\u9078\u54c1\u8207\u793e\u5a92\u71df\u904b\u6253\u9020\u7684 AI Skills / MCP \u7cbe\u9078\u5c0e\u822a\u3002\u62d2\u7d55\u82b1\u88cf\u80e1\u54e8\uff0c\u53ea\u6536\u9304\u771f\u6b63\u80fd\u89e3\u6c7a\u696d\u52d9\u75db\u9ede\u3001\u958b\u7bb1\u5373\u7528\u7684 AI \u81ea\u52d5\u5316\u5de5\u4f5c\u6d41\u3002Curated AI & Agent Skills for E-commerce & ",
+    "id": "xiaoSRJ/ai-skills",
+    "language": "\u2014",
+    "name": "xiaoSRJ/ai-skills",
+    "stars": 0,
+    "updated_at": "2026-10-23T07:16:46Z",
+    "url": "https://github.com/xiaoSRJ/ai-skills"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-23T07:00:43Z",
+    "updated_at": "2026-10-23T07:15:34Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -150,15 +191,6 @@
     "url": "https://github.com/ajhcs/healthcare-agents"
   },
   {
-    "description": "Drop-in AI agent rules (Cursor, Claude Code, AGENTS.md) that stop Supabase RLS holes, broken Stripe webhooks and Godot 3",
-    "id": "otctrading101/shiprules-free",
-    "language": "Shell",
-    "name": "otctrading101/shiprules-free",
-    "stars": 0,
-    "updated_at": "2026-10-23T00:43:08Z",
-    "url": "https://github.com/otctrading101/shiprules-free"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: Core working agreement for the AI agent on every task\nalwaysApply: true\n---\n\n# How to work in this repo\n\n## Before coding\n- Read the files you will change and their nearest tests before editing. Never guess an API that exists in the repo; search for it.\n- Check `package.json` / `pyproject.toml` / lockfiles for real framework versions and write code for THOSE versions.\n- For anything non-trivial (>1 file or >50 lines), state a short plan first: files to touch, approach, how you'll verify.\n- If requirements are ambiguous, ask one focused question instead of inventing behaviour.\n\n## While coding\n- Make the smallest change that solves the task. No drive-by refactors, renames or formatting of unrelated code.\n- Follow existing patterns in the codebase (naming, folder layout, error handling) over your own preferences.\n- Do not add a dependency without saying why and checking an existing one can't do it.\n- Never hardcode secrets, API keys or tokens. Use env vars and update `.env.example`.\n- Never silence errors (`catch {}`, `# type: ignore`, `as any`, `@ts-ignore`) to make something \"work\". Fix the cause or flag it.\n- Do not delete or weaken tests to make them pass.\n\n## After coding\n- Run the project's typecheck, lint and relevant tests; fix what you broke. If you couldn't run them, say so.\n- Summarise: what changed, why, how it was verified, and anything left undone or risky.\n\n## Never without explicit approval\n- Destructive commands (`rm -rf`, `git push --force`, `git reset --hard`, dropping tables, DB resets).\n- Editing generated files, lockfiles by hand, CI config, or migrations that already ran.\n",
       "format": "mdc",
@@ -230,15 +262,6 @@
     "stars": 0,
     "updated_at": "2026-10-22T14:30:15Z",
     "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
-  },
-  {
-    "description": "Rules that make AI coding agents write code a person would write. AGENTS.md for any agent, plus a Claude Code plugin.",
-    "id": "navulo/human-code",
-    "language": "JavaScript",
-    "name": "navulo/human-code",
-    "stars": 1,
-    "updated_at": "2026-10-22T13:55:07Z",
-    "url": "https://github.com/navulo/human-code"
   },
   {
     "cursorrules": {
@@ -485,28 +508,5 @@
     "stars": 8,
     "updated_at": "2026-10-21T06:18:50Z",
     "url": "https://github.com/CacinieP/network-troubleshoot-skill"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Trigger Ticket Flow skill when working on, fixing, or implementing tickets (e.g. \"fix bug PROJ-123\", \"work on PROJ-123\")\nglobs: *\nalwaysApply: false\n---\n\n# Ticket Flow Trigger Rule\n\nWhen the user asks to process a ticket, fix a bug with an ID, work on a ticket, or handle a queue of tickets:\n\n1. **Load and follow** the Ticket Flow skill located at `ticket-flow/.cursor/skills/ticket-flow/SKILL.md`.\n2. Do not attempt to freestyle the workflow sequence.\n3. Keep the naming glossary in mind and strictly enforce the **Confirm** validation gate before committing or opening PRs.\n4. Stage only path-scoped changes relevant to the ticket.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/ticket-flow.mdc"
-    },
-    "description": "A repeatable, high-discipline workflow pattern for Cursor agents: fetches issues, branches, implements, adds tests, runs",
-    "id": "smg99/ticket-flow",
-    "language": "Shell",
-    "name": "smg99/ticket-flow",
-    "stars": 0,
-    "updated_at": "2026-10-21T06:06:36Z",
-    "url": "https://github.com/smg99/ticket-flow"
-  },
-  {
-    "description": "Official 2026 LLM API Pricing Calendar, 272K/100K Context-Cliff Router, Chrome FinOps HUD Extension & Cursor MCP Server ",
-    "id": "cooyun/awesome-2026-llm-api-pricing",
-    "language": "\u2014",
-    "name": "cooyun/awesome-2026-llm-api-pricing",
-    "stars": 1,
-    "updated_at": "2026-10-21T04:27:53Z",
-    "url": "https://github.com/cooyun/awesome-2026-llm-api-pricing"
   }
 ]
