@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-23T17:45:49Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
     "id": "edsondviana8/ai-humanizer-core",
     "language": "HTML",
@@ -16,15 +25,6 @@
     "stars": 4,
     "updated_at": "2026-10-23T17:35:58Z",
     "url": "https://github.com/digital-lake-ai/lognexus"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-23T17:30:58Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\u6bd5\u4e1a\u8bbe\u8ba1\u6587\u6863 AI \u6280\u80fd\u5305\uff1a\u5f00\u9898\u62a5\u544a/\u9700\u6c42\u5206\u6790/\u7cfb\u7edf\u8bbe\u8ba1/GB-T 7714 \u8bba\u6587\u89c4\u8303/\u6d4b\u8bd5/\u7b54\u8fa9\uff0c\u4e00\u952e\u88c5\u8fdb Claude Code\u00b7Cursor\u00b7Trae\u00b7Codex\uff0c\u4e0d\u7f16\u9020\u6587\u732e\u4e0e\u6d4b\u8bd5\u6570\u636e",
@@ -55,7 +55,7 @@
     "language": "JavaScript",
     "name": "krzysztofgibert/pr-viz-skill",
     "stars": 0,
-    "updated_at": "2026-10-23T16:54:46Z",
+    "updated_at": "2026-10-23T17:47:23Z",
     "url": "https://github.com/krzysztofgibert/pr-viz-skill"
   },
   {
@@ -251,7 +251,7 @@
     "language": "TypeScript",
     "name": "Saad-web-spec/DevScratchPad",
     "stars": 2,
-    "updated_at": "2026-10-23T17:32:34Z",
+    "updated_at": "2026-10-23T17:55:13Z",
     "url": "https://github.com/Saad-web-spec/DevScratchPad"
   },
   {
@@ -447,7 +447,7 @@
     "language": "TypeScript",
     "name": "HoangNguyen0403/agent-skills-standard",
     "stars": 581,
-    "updated_at": "2026-10-23T17:01:19Z",
+    "updated_at": "2026-10-23T17:54:26Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
   },
   {
