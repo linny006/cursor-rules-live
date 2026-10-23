@@ -1,5 +1,23 @@
 [
   {
+    "description": "\u6bd5\u4e1a\u8bbe\u8ba1\u6587\u6863 AI \u6280\u80fd\u5305\uff1a\u5f00\u9898\u62a5\u544a/\u9700\u6c42\u5206\u6790/\u7cfb\u7edf\u8bbe\u8ba1/GB-T 7714 \u8bba\u6587\u89c4\u8303/\u6d4b\u8bd5/\u7b54\u8fa9\uff0c\u4e00\u952e\u88c5\u8fdb Claude Code\u00b7Cursor\u00b7Trae\u00b7Codex\uff0c\u4e0d\u7f16\u9020\u6587\u732e\u4e0e\u6d4b\u8bd5\u6570\u636e",
+    "id": "MsNan/bishe-doc-skills",
+    "language": "JavaScript",
+    "name": "MsNan/bishe-doc-skills",
+    "stars": 0,
+    "updated_at": "2026-10-23T17:13:11Z",
+    "url": "https://github.com/MsNan/bishe-doc-skills"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-23T17:00:35Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
     "id": "bompus/house-rules",
     "language": "JavaScript",
@@ -21,15 +39,6 @@
     "stars": 0,
     "updated_at": "2026-10-23T16:54:46Z",
     "url": "https://github.com/krzysztofgibert/pr-viz-skill"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-23T16:49:09Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
@@ -438,7 +447,7 @@
     "language": "TypeScript",
     "name": "HoangNguyen0403/agent-skills-standard",
     "stars": 581,
-    "updated_at": "2026-10-23T13:44:08Z",
+    "updated_at": "2026-10-23T17:01:19Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
   },
   {
@@ -494,19 +503,5 @@
     "stars": 1,
     "updated_at": "2026-10-21T18:30:35Z",
     "url": "https://github.com/elibowlby/adversarial-skeptic"
-  },
-  {
-    "cursorrules": {
-      "content": "# Cursor AI Rules\n\n> These rules are loaded automatically for this project. See `AGENTS.md` for full details.\n\n## Core Directives\n\n1. **Read AGENTS.md before any task** \u2014 All rules are defined there\n2. **Read DEEPDIVE.md** \u2014 System architecture narrative\n3. **Follow every section** \u2014 Core principles, commit protocol, testing, linting, etc.\n\n## Critical Enforcements\n\n### Pre-Commit Checklist\n```bash\nruff check .\nruff format .\nvulture .\nmypy .\n```\n**Do not commit until all pass.** (Section 9)\n\n### Required Folders\nEvery project MUST have:\n- `tests/` \u2014 All tests + random scripts (in `.gitignore`)\n- `docs/` \u2014 Architecture documentation\n- `research/` \u2014 Whitepapers, references\n\n### Commit Style\nHuman-sounding, WHY-focused messages. Example:\n```\napi: Added JWT refresh to prevent 401 loops\n\nThe token refresh had a race condition where concurrent requests\ncould trigger multiple refresh calls. Added mutex lock around auth state.\n```\nSee Section 15 for the full pattern.\n\n### PR Standards (Section 33)\n- 800 lines max, 500 for complex logic\n- Single feature per PR\n- Use the PR template (Section 35)\n\n### AI Code Quality (Section 34)\nSelf-check: think first, spot laziness, uncertainty, bloat.\n\n### Pre-Commit Hooks (Section 37)\nMandatory. Install once: `pre-commit install`. Hooks run on every commit.\n\n### Decision Ladder (Section 50.1)\nBefore any implementation: YAGNI \u2192 stdlib \u2192 native \u2192 existing dep \u2192 one line \u2192 minimum.\n\n### Tradeoff Comments (Section 50.2)\nFor every intentional shortcut, document with `# ponytail: <what> / # Upgrade to <what> if <trigger>`.\n\n## Prohibited\n- No PRs/issues/GitHub activity without explicit user approval (Section 2)\n- No dead code, unused imports, silent exception handlers (Section 1)\n- No commits without running lint/vulture sweep first (Section 9)\n- No mutable default arguments, bare excepts, eval/exec (Section 27.2)\n- No force push to shared branches (Section 36.2)\n- No PRs over 800 lines (Section 33)\n- No skipping pre-commit hooks (Section 37)\n\n## Validation\nBefore marking complete:\n- [ ] Tests pass\n- [ ] No vulture findings\n- [ ] Type check clean\n- [ ] DEEPDIVE.md updated if needed\n- [ ] Human commit message\n- [ ] PR under 800 lines\n- [ ] Pre-commit hooks passed\n- [ ] AI anti-pattern self-check passed\n- [ ] Decision ladder applied\n- [ ] Tradeoff comments for shortcuts\n",
-      "format": "mdc",
-      "path": ".cursor/rules/project-rules.mdc"
-    },
-    "description": "Anchor \u2014 the production-grade AGENTS.md template for AI coding agents. 51 sections of battle-tested rules. Keep your age",
-    "id": "peva3/anchor",
-    "language": "\u2014",
-    "name": "peva3/anchor",
-    "stars": 8,
-    "updated_at": "2026-10-21T18:04:47Z",
-    "url": "https://github.com/peva3/anchor"
   }
 ]
