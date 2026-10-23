@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-23 09:45 UTC
+> ⏰ Last updated: 2026-10-23 10:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,29 +53,29 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [Acuris-GmbH/acuris-agent-context](https://github.com/Acuris-GmbH/acuris-agent-context) | 0 | JavaScript | 2026-10-23 | — | Acuris Address Validation & Geocoding agent context — Claude Code plugin, Cursor rules/docs, and open Agent Skill (agent |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-23 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 3 | [SupremeSupport/Cursor-Desktop-2026](https://github.com/SupremeSupport/Cursor-Desktop-2026) | 1 | — | 2026-10-23 | — | ⭐️ Cursor 2026 Ai Cursorpro Cursor Ai ⭐️ |
-| 4 | [krzysztofgibert/pr-viz-skill](https://github.com/krzysztofgibert/pr-viz-skill) | 0 | JavaScript | 2026-10-23 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/krzysztofgibert/pr-viz-skill/) | Free IDE skill that turns a GitHub pull request into a two-zone review map. Use it in VS Code, Cursor, Claude Code, or W |
-| 5 | [GeiserX/lynxprompt-vscode](https://github.com/GeiserX/lynxprompt-vscode) | 2 | TypeScript | 2026-10-23 | — | VS Code extension for LynxPrompt — browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules)  |
-| 6 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-10-23 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 7 | [navulo/human-code](https://github.com/navulo/human-code) | 1 | JavaScript | 2026-10-23 | — | Rules that make AI coding agents write code a person would write. AGENTS.md for any agent, plus a Claude Code plugin. |
-| 8 | [powersync-ja/agent-skills](https://github.com/powersync-ja/agent-skills) | 20 | JavaScript | 2026-10-23 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/powersync-ja/agent-skills/) | Official agent skills for PowerSync |
-| 9 | [otctrading101/shiprules-free](https://github.com/otctrading101/shiprules-free) | 0 | Shell | 2026-10-23 | — | Drop-in AI agent rules (Cursor, Claude Code, AGENTS.md) that stop Supabase RLS holes, broken Stripe webhooks and Godot 3 |
-| 10 | [xiaoSRJ/ai-skills](https://github.com/xiaoSRJ/ai-skills) | 0 | — | 2026-10-23 | — | 專為出海營銷、電商選品與社媒營運打造的 AI Skills / MCP 精選導航。拒絕花裏胡哨，只收錄真正能解決業務痛點、開箱即用的 AI 自動化工作流。Curated AI & Agent Skills for E-commerce &  |
-| 11 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-23 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
-| 12 | [Catherine1401/agent-skills](https://github.com/Catherine1401/agent-skills) | 2 | Shell | 2026-10-23 | — | Portable skills and shared policies for Codex, Claude Code, and Cursor on Linux. |
-| 13 | [orbitalsonic/AndroidPilot](https://github.com/orbitalsonic/AndroidPilot) | 1 | Kotlin | 2026-10-23 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/orbitalsonic/AndroidPilot/) | Production-ready Android Engineering Rules for Cursor and other AI coding assistants. Build consistent, scalable, and ma |
-| 14 | [bompus/house-rules](https://github.com/bompus/house-rules) | 2 | JavaScript | 2026-10-23 | — | Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md |
-| 15 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-10-23 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
-| 16 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-10-23 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
-| 17 | [geronco/commandvault-library](https://github.com/geronco/commandvault-library) | 0 | JavaScript | 2026-10-23 | — | Community-voted AI prompts, CLAUDE.md/AGENTS.md templates, Cursor rules, Agent Skills and MCP servers from commandvault. |
-| 18 | [roedyrustam/vibes-plug](https://github.com/roedyrustam/vibes-plug) | 113 | JavaScript | 2026-10-23 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/roedyrustam/vibes-plug/) | ⚡ Cross-IDE AI skill collection that orchestrates 160 specialized subagents for full-stack development workflows |
-| 19 | [okfriansyah-moh/agentic-workflow](https://github.com/okfriansyah-moh/agentic-workflow) | 0 | Python | 2026-10-23 | — | Portable software delivery workflow for Codex, Cursor, Claude Code, and GitHub Copilot, with reusable skills, native age |
-| 20 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 28 | Python | 2026-10-23 | — | Architectural drift prevention for the agentic AI SDLC. |
-| 21 | [ajhcs/healthcare-agents](https://github.com/ajhcs/healthcare-agents) | 53 | JavaScript | 2026-10-23 | — | Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows. |
-| 22 | [grizzlykiwidev/grizzlykiwidev.github.io](https://github.com/grizzlykiwidev/grizzlykiwidev.github.io) | 0 | — | 2026-10-22 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/grizzlykiwidev/grizzlykiwidev.github.io/) | Free Cursor rules (.mdc), AGENTS.md & CLAUDE.md templates and prompts for AI coding agents: Next.js + Supabase, Godot 4. |
-| 23 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 52 | — | 2026-10-22 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
+| 1 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 52 | — | 2026-10-23 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
+| 2 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-10-23 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
+| 3 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-10-23 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
+| 4 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-23 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 5 | [Acuris-GmbH/acuris-agent-context](https://github.com/Acuris-GmbH/acuris-agent-context) | 0 | JavaScript | 2026-10-23 | — | Acuris Address Validation & Geocoding agent context — Claude Code plugin, Cursor rules/docs, and open Agent Skill (agent |
+| 6 | [SupremeSupport/Cursor-Desktop-2026](https://github.com/SupremeSupport/Cursor-Desktop-2026) | 1 | — | 2026-10-23 | — | ⭐️ Cursor 2026 Ai Cursorpro Cursor Ai ⭐️ |
+| 7 | [krzysztofgibert/pr-viz-skill](https://github.com/krzysztofgibert/pr-viz-skill) | 0 | JavaScript | 2026-10-23 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/krzysztofgibert/pr-viz-skill/) | Free IDE skill that turns a GitHub pull request into a two-zone review map. Use it in VS Code, Cursor, Claude Code, or W |
+| 8 | [GeiserX/lynxprompt-vscode](https://github.com/GeiserX/lynxprompt-vscode) | 2 | TypeScript | 2026-10-23 | — | VS Code extension for LynxPrompt — browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules)  |
+| 9 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-10-23 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
+| 10 | [navulo/human-code](https://github.com/navulo/human-code) | 1 | JavaScript | 2026-10-23 | — | Rules that make AI coding agents write code a person would write. AGENTS.md for any agent, plus a Claude Code plugin. |
+| 11 | [powersync-ja/agent-skills](https://github.com/powersync-ja/agent-skills) | 20 | JavaScript | 2026-10-23 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/powersync-ja/agent-skills/) | Official agent skills for PowerSync |
+| 12 | [otctrading101/shiprules-free](https://github.com/otctrading101/shiprules-free) | 0 | Shell | 2026-10-23 | — | Drop-in AI agent rules (Cursor, Claude Code, AGENTS.md) that stop Supabase RLS holes, broken Stripe webhooks and Godot 3 |
+| 13 | [xiaoSRJ/ai-skills](https://github.com/xiaoSRJ/ai-skills) | 0 | — | 2026-10-23 | — | 專為出海營銷、電商選品與社媒營運打造的 AI Skills / MCP 精選導航。拒絕花裏胡哨，只收錄真正能解決業務痛點、開箱即用的 AI 自動化工作流。Curated AI & Agent Skills for E-commerce &  |
+| 14 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-23 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
+| 15 | [Catherine1401/agent-skills](https://github.com/Catherine1401/agent-skills) | 2 | Shell | 2026-10-23 | — | Portable skills and shared policies for Codex, Claude Code, and Cursor on Linux. |
+| 16 | [orbitalsonic/AndroidPilot](https://github.com/orbitalsonic/AndroidPilot) | 1 | Kotlin | 2026-10-23 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/orbitalsonic/AndroidPilot/) | Production-ready Android Engineering Rules for Cursor and other AI coding assistants. Build consistent, scalable, and ma |
+| 17 | [bompus/house-rules](https://github.com/bompus/house-rules) | 2 | JavaScript | 2026-10-23 | — | Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md |
+| 18 | [geronco/commandvault-library](https://github.com/geronco/commandvault-library) | 0 | JavaScript | 2026-10-23 | — | Community-voted AI prompts, CLAUDE.md/AGENTS.md templates, Cursor rules, Agent Skills and MCP servers from commandvault. |
+| 19 | [roedyrustam/vibes-plug](https://github.com/roedyrustam/vibes-plug) | 113 | JavaScript | 2026-10-23 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/roedyrustam/vibes-plug/) | ⚡ Cross-IDE AI skill collection that orchestrates 160 specialized subagents for full-stack development workflows |
+| 20 | [okfriansyah-moh/agentic-workflow](https://github.com/okfriansyah-moh/agentic-workflow) | 0 | Python | 2026-10-23 | — | Portable software delivery workflow for Codex, Cursor, Claude Code, and GitHub Copilot, with reusable skills, native age |
+| 21 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 28 | Python | 2026-10-23 | — | Architectural drift prevention for the agentic AI SDLC. |
+| 22 | [ajhcs/healthcare-agents](https://github.com/ajhcs/healthcare-agents) | 53 | JavaScript | 2026-10-23 | — | Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows. |
+| 23 | [grizzlykiwidev/grizzlykiwidev.github.io](https://github.com/grizzlykiwidev/grizzlykiwidev.github.io) | 0 | — | 2026-10-22 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/grizzlykiwidev/grizzlykiwidev.github.io/) | Free Cursor rules (.mdc), AGENTS.md & CLAUDE.md templates and prompts for AI coding agents: Next.js + Supabase, Godot 4. |
 | 24 | [digital-lake-ai/lognexus](https://github.com/digital-lake-ai/lognexus) | 2 | TypeScript | 2026-10-22 | — | Universal Git-powered persistent memory, context rules & native MCP server for AI coding agents. Prevents context amnesi |
 | 25 | [eli-alvarado/agentkit-drawer](https://github.com/eli-alvarado/agentkit-drawer) | 0 | Python | 2026-10-22 | — | Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam |
 | 26 | [ashishkaloge/coding-agent-guidelines](https://github.com/ashishkaloge/coding-agent-guidelines) | 2 | Python | 2026-10-22 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/ashishkaloge/coding-agent-guidelines/) | Short CLAUDE.md, AGENTS.md and Cursor rules that help Claude Code, Codex and Cursor understand first, change less and ve |
