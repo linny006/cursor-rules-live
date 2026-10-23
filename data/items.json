@@ -1,11 +1,20 @@
 [
   {
+    "description": "Acuris Address Validation & Geocoding agent context \u2014 Claude Code plugin, Cursor rules/docs, and open Agent Skill (agent",
+    "id": "Acuris-GmbH/acuris-agent-context",
+    "language": "JavaScript",
+    "name": "Acuris-GmbH/acuris-agent-context",
+    "stars": 0,
+    "updated_at": "2026-10-23T09:44:47Z",
+    "url": "https://github.com/Acuris-GmbH/acuris-agent-context"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-23T09:15:35Z",
+    "updated_at": "2026-10-23T09:30:35Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -306,7 +315,7 @@
     "language": "TypeScript",
     "name": "Saad-web-spec/DevScratchPad",
     "stars": 2,
-    "updated_at": "2026-10-23T09:25:06Z",
+    "updated_at": "2026-10-23T09:38:11Z",
     "url": "https://github.com/Saad-web-spec/DevScratchPad"
   },
   {
@@ -499,14 +508,5 @@
     "stars": 1,
     "updated_at": "2026-10-21T07:21:34Z",
     "url": "https://github.com/xiaozhenyangCode/awesome-cursor-rules"
-  },
-  {
-    "description": "\u7cbe\u9009\u5b9e\u7528 AI Agent Skills \u6280\u80fd\u5e93\uff1a\u9762\u5411 Claude Code\u3001Codex \u4e0e Cursor\uff0c\u6db5\u76d6\u98de\u4e66\u751f\u6001\u81ea\u52a8\u5316\u3001\u52a8\u6548\u5f00\u53d1\u3001\u77ed\u89c6\u9891\u5236\u4f5c\u4e0e\u5de5\u7a0b\u91cd\u6784",
-    "id": "2392772541/AI-Skills",
-    "language": "JavaScript",
-    "name": "2392772541/AI-Skills",
-    "stars": 0,
-    "updated_at": "2026-10-21T07:12:02Z",
-    "url": "https://github.com/2392772541/AI-Skills"
   }
 ]
