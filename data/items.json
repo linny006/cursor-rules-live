@@ -1,12 +1,17 @@
 [
   {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 3,
-    "updated_at": "2026-10-23T13:33:12Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
+    "cursorrules": {
+      "content": "# /pr-viz\n# Community skill: https://github.com/krzysztofgibert/pr-viz-skill\n# Viewer: https://pr-viz.com\n\nWhen the user runs /pr-viz, or asks to visualize, map, or review a GitHub pull\nrequest, follow skills/pr-viz/SKILL.md in full.\n\nPublish the map with skills/pr-viz/scripts/publish-diagram.mjs to the viewer in\nskills/pr-viz/host.json. Do not paste the review, Mermaid, or ASCII in the chat.\nDo not ask for or handle a GitHub token.\n",
+      "format": "text",
+      "path": ".cursorrules"
+    },
+    "description": "Free IDE skill that turns a GitHub pull request into a two-zone review map. Use it in VS Code, Cursor, Claude Code, or W",
+    "id": "krzysztofgibert/pr-viz-skill",
+    "language": "JavaScript",
+    "name": "krzysztofgibert/pr-viz-skill",
+    "stars": 0,
+    "updated_at": "2026-10-23T13:58:50Z",
+    "url": "https://github.com/krzysztofgibert/pr-viz-skill"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +19,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-23T13:30:46Z",
+    "updated_at": "2026-10-23T13:45:45Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 3,
+    "updated_at": "2026-10-23T13:33:12Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "cursorrules": {
@@ -137,20 +151,6 @@
     "url": "https://github.com/philipbankier/awesome-agent-skills"
   },
   {
-    "cursorrules": {
-      "content": "# /pr-viz\n# Community skill: https://github.com/krzysztofgibert/pr-viz-skill\n# Viewer: https://pr-viz.com\n\nWhen the user runs /pr-viz, or asks to visualize, map, or review a GitHub pull\nrequest, follow skills/pr-viz/SKILL.md in full.\n\nPublish the map with skills/pr-viz/scripts/publish-diagram.mjs to the viewer in\nskills/pr-viz/host.json. Do not paste the review, Mermaid, or ASCII in the chat.\nDo not ask for or handle a GitHub token.\n",
-      "format": "text",
-      "path": ".cursorrules"
-    },
-    "description": "Free IDE skill that turns a GitHub pull request into a two-zone review map. Use it in VS Code, Cursor, Claude Code, or W",
-    "id": "krzysztofgibert/pr-viz-skill",
-    "language": "JavaScript",
-    "name": "krzysztofgibert/pr-viz-skill",
-    "stars": 0,
-    "updated_at": "2026-10-23T11:02:27Z",
-    "url": "https://github.com/krzysztofgibert/pr-viz-skill"
-  },
-  {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
     "id": "J-nowcow/awesome-korean-agent-skills",
     "language": "\u2014",
@@ -164,7 +164,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21529,
+    "stars": 21530,
     "updated_at": "2026-10-23T10:28:46Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -201,7 +201,7 @@
     "language": "TypeScript",
     "name": "GeiserX/lynxprompt-vscode",
     "stars": 2,
-    "updated_at": "2026-10-23T08:16:29Z",
+    "updated_at": "2026-10-23T13:56:06Z",
     "url": "https://github.com/GeiserX/lynxprompt-vscode"
   },
   {
