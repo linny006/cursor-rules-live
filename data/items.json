@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-23T03:00:39Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Portable software delivery workflow for Codex, Cursor, Claude Code, and GitHub Copilot, with reusable skills, native age",
     "id": "okfriansyah-moh/agentic-workflow",
     "language": "Python",
@@ -7,15 +16,6 @@
     "stars": 0,
     "updated_at": "2026-10-23T02:54:52Z",
     "url": "https://github.com/okfriansyah-moh/agentic-workflow"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-23T02:45:49Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -279,7 +279,7 @@
     "language": "JavaScript",
     "name": "roedyrustam/vibes-plug",
     "stars": 112,
-    "updated_at": "2026-10-22T10:40:10Z",
+    "updated_at": "2026-10-23T03:14:25Z",
     "url": "https://github.com/roedyrustam/vibes-plug"
   },
   {

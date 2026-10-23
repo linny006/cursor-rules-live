@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-23 03:00 UTC
+> ⏰ Last updated: 2026-10-23 03:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,8 +53,8 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [okfriansyah-moh/agentic-workflow](https://github.com/okfriansyah-moh/agentic-workflow) | 0 | Python | 2026-10-23 | — | Portable software delivery workflow for Codex, Cursor, Claude Code, and GitHub Copilot, with reusable skills, native age |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-23 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-23 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [okfriansyah-moh/agentic-workflow](https://github.com/okfriansyah-moh/agentic-workflow) | 0 | Python | 2026-10-23 | — | Portable software delivery workflow for Codex, Cursor, Claude Code, and GitHub Copilot, with reusable skills, native age |
 | 3 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-10-23 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
 | 4 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 28 | Python | 2026-10-23 | — | Architectural drift prevention for the agentic AI SDLC. |
 | 5 | [ajhcs/healthcare-agents](https://github.com/ajhcs/healthcare-agents) | 53 | JavaScript | 2026-10-23 | — | Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows. |
@@ -79,7 +79,7 @@ expired items removed — so you can rely on what you see being current.
 | 24 | [longwave-ai-lab/anti-slop-ai-harness](https://github.com/longwave-ai-lab/anti-slop-ai-harness) | 1 | — | 2026-10-22 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/longwave-ai-lab/anti-slop-ai-harness/) | Stop AI hallucinations, Yes-Man sycophancy, robotic AI slop prose, and cheap UI clutter in 30 seconds. Pre-packaged .mdc |
 | 25 | [Aaditya1273/Agent.md](https://github.com/Aaditya1273/Agent.md) | 10 | — | 2026-10-22 | — | Your AI coding agent follows these files blindly, before it reads a line of your code. |
 | 26 | [orbitalsonic/AndroidPilot](https://github.com/orbitalsonic/AndroidPilot) | 1 | Kotlin | 2026-10-22 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/orbitalsonic/AndroidPilot/) | Production-ready Android Engineering Rules for Cursor and other AI coding assistants. Build consistent, scalable, and ma |
-| 27 | [roedyrustam/vibes-plug](https://github.com/roedyrustam/vibes-plug) | 112 | JavaScript | 2026-10-22 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/roedyrustam/vibes-plug/) | ⚡ Cross-IDE AI skill collection that orchestrates 160 specialized subagents for full-stack development workflows |
+| 27 | [roedyrustam/vibes-plug](https://github.com/roedyrustam/vibes-plug) | 112 | JavaScript | 2026-10-23 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/roedyrustam/vibes-plug/) | ⚡ Cross-IDE AI skill collection that orchestrates 160 specialized subagents for full-stack development workflows |
 | 28 | [Harmitx7/tribunal-kit](https://github.com/Harmitx7/tribunal-kit) | 5 | JavaScript | 2026-10-22 | — | A universal, native-Rust governance layer for AI coding agents. Enforces Subagent-Driven Development (SDD) to stop hallu |
 | 29 | [485148606/dsh-extreme-mode](https://github.com/485148606/dsh-extreme-mode) | 0 | JavaScript | 2026-10-22 | — | 别再说「继续」了。一个 Agent 人格预设：把默认动作从「停下来问」改成「一直做，直到交付」/ Stop typing 'continue'. |
 | 30 | [toby7979/sealmyapp-tools](https://github.com/toby7979/sealmyapp-tools) | 0 | TypeScript | 2026-10-22 | — | Free MCP server, Cursor rule and Claude skill that help AI coding assistants avoid common security holes in vibe-coded a |
