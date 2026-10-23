@@ -1,5 +1,41 @@
 [
   {
+    "description": "Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows.",
+    "id": "ajhcs/healthcare-agents",
+    "language": "JavaScript",
+    "name": "ajhcs/healthcare-agents",
+    "stars": 53,
+    "updated_at": "2026-10-23T01:15:04Z",
+    "url": "https://github.com/ajhcs/healthcare-agents"
+  },
+  {
+    "description": "Architectural drift prevention for the agentic AI SDLC.",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 28,
+    "updated_at": "2026-10-23T01:13:47Z",
+    "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-10-23T01:06:11Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-23T01:00:43Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
     "id": "SupremeSupport/Cursor-Desktop-2026",
     "language": "\u2014",
@@ -9,15 +45,6 @@
     "url": "https://github.com/SupremeSupport/Cursor-Desktop-2026"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-23T00:45:50Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Drop-in AI agent rules (Cursor, Claude Code, AGENTS.md) that stop Supabase RLS holes, broken Stripe webhooks and Godot 3",
     "id": "otctrading101/shiprules-free",
     "language": "Shell",
@@ -25,15 +52,6 @@
     "stars": 0,
     "updated_at": "2026-10-23T00:43:08Z",
     "url": "https://github.com/otctrading101/shiprules-free"
-  },
-  {
-    "description": "Architectural drift prevention for the agentic AI SDLC.",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 28,
-    "updated_at": "2026-10-23T01:00:03Z",
-    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -52,15 +70,6 @@
     "stars": 1,
     "updated_at": "2026-10-22T23:06:27Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-10-22T22:52:22Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "cursorrules": {
@@ -102,15 +111,6 @@
     "stars": 2,
     "updated_at": "2026-10-22T21:35:44Z",
     "url": "https://github.com/digital-lake-ai/lognexus"
-  },
-  {
-    "description": "Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows.",
-    "id": "ajhcs/healthcare-agents",
-    "language": "JavaScript",
-    "name": "ajhcs/healthcare-agents",
-    "stars": 53,
-    "updated_at": "2026-10-22T23:43:15Z",
-    "url": "https://github.com/ajhcs/healthcare-agents"
   },
   {
     "description": "Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam",
