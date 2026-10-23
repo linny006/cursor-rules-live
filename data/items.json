@@ -1,12 +1,12 @@
 [
   {
-    "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
-    "id": "bompus/house-rules",
-    "language": "JavaScript",
-    "name": "bompus/house-rules",
-    "stars": 2,
-    "updated_at": "2026-10-23T21:34:42Z",
-    "url": "https://github.com/bompus/house-rules"
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 1,
+    "updated_at": "2026-10-23T21:59:28Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "description": "Architectural drift prevention for the agentic AI SDLC.",
@@ -14,8 +14,17 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 28,
-    "updated_at": "2026-10-23T21:41:27Z",
+    "updated_at": "2026-10-23T21:56:30Z",
     "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 52,
+    "updated_at": "2026-10-23T21:51:38Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -23,8 +32,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-23T21:30:44Z",
+    "updated_at": "2026-10-23T21:45:53Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
+    "id": "bompus/house-rules",
+    "language": "JavaScript",
+    "name": "bompus/house-rules",
+    "stars": 2,
+    "updated_at": "2026-10-23T21:34:42Z",
+    "url": "https://github.com/bompus/house-rules"
   },
   {
     "description": "AI skill for Claude, Cursor & Codex that designs system architecture for new projects and audits existing codebases \u2014 cl",
@@ -63,15 +81,6 @@
     "url": "https://github.com/SupremeSupport/Cursor-Desktop-2026"
   },
   {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 52,
-    "updated_at": "2026-10-23T20:14:15Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: Core working agreement for the AI agent on every task\nalwaysApply: true\n---\n\n# How to work in this repo\n\n## Before coding\n- Read the files you will change and their nearest tests before editing. Never guess an API that exists in the repo; search for it.\n- Check `package.json` / `pyproject.toml` / lockfiles for real framework versions and write code for THOSE versions.\n- For anything non-trivial (>1 file or >50 lines), state a short plan first: files to touch, approach, how you'll verify.\n- If requirements are ambiguous, ask one focused question instead of inventing behaviour.\n\n## While coding\n- Make the smallest change that solves the task. No drive-by refactors, renames or formatting of unrelated code.\n- Follow existing patterns in the codebase (naming, folder layout, error handling) over your own preferences.\n- Do not add a dependency without saying why and checking an existing one can't do it.\n- Never hardcode secrets, API keys or tokens. Use env vars and update `.env.example`.\n- Never silence errors (`catch {}`, `# type: ignore`, `as any`, `@ts-ignore`) to make something \"work\". Fix the cause or flag it.\n- Do not delete or weaken tests to make them pass.\n\n## After coding\n- Run the project's typecheck, lint and relevant tests; fix what you broke. If you couldn't run them, say so.\n- Summarise: what changed, why, how it was verified, and anything left undone or risky.\n\n## Never without explicit approval\n- Destructive commands (`rm -rf`, `git push --force`, `git reset --hard`, dropping tables, DB resets).\n- Editing generated files, lockfiles by hand, CI config, or migrations that already ran.\n",
       "format": "mdc",
@@ -93,15 +102,6 @@
     "stars": 0,
     "updated_at": "2026-10-23T18:59:28Z",
     "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 1,
-    "updated_at": "2026-10-23T18:57:54Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "description": "Universal Git-powered persistent memory, context rules & native MCP server for AI coding agents. Prevents context amnesi",
