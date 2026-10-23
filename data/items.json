@@ -1,5 +1,23 @@
 [
   {
+    "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
+    "id": "SupremeSupport/Cursor-Desktop-2026",
+    "language": "\u2014",
+    "name": "SupremeSupport/Cursor-Desktop-2026",
+    "stars": 1,
+    "updated_at": "2026-10-23T00:46:28Z",
+    "url": "https://github.com/SupremeSupport/Cursor-Desktop-2026"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-23T00:45:50Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Drop-in AI agent rules (Cursor, Claude Code, AGENTS.md) that stop Supabase RLS holes, broken Stripe webhooks and Godot 3",
     "id": "otctrading101/shiprules-free",
     "language": "Shell",
@@ -9,21 +27,12 @@
     "url": "https://github.com/otctrading101/shiprules-free"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-23T00:30:40Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Architectural drift prevention for the agentic AI SDLC.",
     "id": "MnemeHQ/mneme",
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 28,
-    "updated_at": "2026-10-22T23:45:02Z",
+    "updated_at": "2026-10-23T01:00:03Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
@@ -102,15 +111,6 @@
     "stars": 53,
     "updated_at": "2026-10-22T23:43:15Z",
     "url": "https://github.com/ajhcs/healthcare-agents"
-  },
-  {
-    "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
-    "id": "SupremeSupport/Cursor-Desktop-2026",
-    "language": "\u2014",
-    "name": "SupremeSupport/Cursor-Desktop-2026",
-    "stars": 1,
-    "updated_at": "2026-10-22T20:33:41Z",
-    "url": "https://github.com/SupremeSupport/Cursor-Desktop-2026"
   },
   {
     "description": "Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam",
