@@ -1,11 +1,25 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: When the user works on, fixes, or implements a ticket (e.g. \"fix bug PROJ-123\", \"work on PROJ-123\", \"run ticket-flow\", \"process morning queue\"), load and follow the Ticket Flow skill. Do not freestyle the sequence.\nalwaysApply: true\n---\n\n# Ticket Flow Trigger Rule\n\nWhen the user asks to process a ticket, fix a bug with an ID, work on a ticket, implement a feature with an ID, run ticket-flow, or handle a queue of tickets:\n\n1. **Load and follow** the Ticket Flow skill at `.cursor/skills/ticket-flow/SKILL.md` (same path when this repo is the workspace root, or when rules/skills are copied into an app repo).\n2. Do not freestyle the workflow sequence.\n3. Enforce the **Confirm** gates before commit and before PR. Never treat silence as Confirm.\n4. Stage only path-scoped changes relevant to the ticket.\n5. Keep the naming glossary from the skill in mind (primary app vs suite vs shared UI).\n",
+      "format": "mdc",
+      "path": ".cursor/rules/ticket-flow.mdc"
+    },
+    "description": "A repeatable, high-discipline workflow pattern for Cursor agents: fetches issues, branches, implements, adds tests, runs",
+    "id": "smg99/ticket-flow",
+    "language": "HTML",
+    "name": "smg99/ticket-flow",
+    "stars": 0,
+    "updated_at": "2026-10-23T15:19:46Z",
+    "url": "https://github.com/smg99/ticket-flow"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-23T15:00:48Z",
+    "updated_at": "2026-10-23T15:15:47Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -39,20 +53,6 @@
     "stars": 113,
     "updated_at": "2026-10-23T14:46:19Z",
     "url": "https://github.com/roedyrustam/vibes-plug"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: When the user works on, fixes, or implements a ticket (e.g. \"fix bug PROJ-123\", \"work on PROJ-123\", \"run ticket-flow\", \"process morning queue\"), load and follow the Ticket Flow skill. Do not freestyle the sequence.\nalwaysApply: true\n---\n\n# Ticket Flow Trigger Rule\n\nWhen the user asks to process a ticket, fix a bug with an ID, work on a ticket, implement a feature with an ID, run ticket-flow, or handle a queue of tickets:\n\n1. **Load and follow** the Ticket Flow skill at `.cursor/skills/ticket-flow/SKILL.md` (same path when this repo is the workspace root, or when rules/skills are copied into an app repo).\n2. Do not freestyle the workflow sequence.\n3. Enforce the **Confirm** gates before commit and before PR. Never treat silence as Confirm.\n4. Stage only path-scoped changes relevant to the ticket.\n5. Keep the naming glossary from the skill in mind (primary app vs suite vs shared UI).\n",
-      "format": "mdc",
-      "path": ".cursor/rules/ticket-flow.mdc"
-    },
-    "description": "A repeatable, high-discipline workflow pattern for Cursor agents: fetches issues, branches, implements, adds tests, runs",
-    "id": "smg99/ticket-flow",
-    "language": "JavaScript",
-    "name": "smg99/ticket-flow",
-    "stars": 0,
-    "updated_at": "2026-10-23T14:35:15Z",
-    "url": "https://github.com/smg99/ticket-flow"
   },
   {
     "description": "\ud83c\udfad 277 \u4e2a\u5373\u63d2\u5373\u7528\u7684 AI \u4e13\u5bb6\u89d2\u8272 \u2014 \u652f\u6301 Claude Code/Cursor/Copilot \u7b49 20 \u79cd\u5de5\u5177\uff0c\u8986\u76d6\u5de5\u7a0b/\u8bbe\u8ba1/\u8425\u9500/\u91d1\u878d\u7b49 20 \u4e2a\u90e8\u95e8\u3002\u542b 64 \u4e2a\u4e2d\u56fd\u5e02\u573a\u539f\u521b\u667a\u80fd\u4f53\uff08\u5c0f\u7ea2\u4e66/\u6296\u97f3/\u5fae\u4fe1/\u98de\u4e66/\u9489\u9489/Qt \u4e0a",
