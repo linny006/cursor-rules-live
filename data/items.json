@@ -1,5 +1,23 @@
 [
   {
+    "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
+    "id": "SupremeSupport/Cursor-Desktop-2026",
+    "language": "\u2014",
+    "name": "SupremeSupport/Cursor-Desktop-2026",
+    "stars": 1,
+    "updated_at": "2026-10-23T08:37:50Z",
+    "url": "https://github.com/SupremeSupport/Cursor-Desktop-2026"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-23T08:30:45Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "# /pr-viz\n# Community skill: https://github.com/krzysztofgibert/pr-viz-skill\n# Viewer: https://pr-viz.com\n\nWhen the user runs /pr-viz, or asks to visualize, map, or review a GitHub pull\nrequest, follow skills/pr-viz/SKILL.md in full.\n\nPublish the map with skills/pr-viz/scripts/publish-diagram.mjs to the viewer in\nskills/pr-viz/host.json. Do not paste the review, Mermaid, or ASCII in the chat.\nDo not ask for or handle a GitHub token.\n",
       "format": "text",
@@ -21,15 +39,6 @@
     "stars": 2,
     "updated_at": "2026-10-23T08:16:29Z",
     "url": "https://github.com/GeiserX/lynxprompt-vscode"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-23T08:15:40Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -121,15 +130,6 @@
     "stars": 2,
     "updated_at": "2026-10-23T05:26:47Z",
     "url": "https://github.com/bompus/house-rules"
-  },
-  {
-    "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
-    "id": "SupremeSupport/Cursor-Desktop-2026",
-    "language": "\u2014",
-    "name": "SupremeSupport/Cursor-Desktop-2026",
-    "stars": 1,
-    "updated_at": "2026-10-23T04:34:47Z",
-    "url": "https://github.com/SupremeSupport/Cursor-Desktop-2026"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -374,7 +374,7 @@
     "language": "TypeScript",
     "name": "HoangNguyen0403/agent-skills-standard",
     "stars": 581,
-    "updated_at": "2026-10-23T08:11:23Z",
+    "updated_at": "2026-10-23T08:40:07Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
   },
   {
