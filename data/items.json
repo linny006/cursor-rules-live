@@ -1,11 +1,20 @@
 [
   {
+    "description": "Portable software delivery workflow for Codex, Cursor, Claude Code, and GitHub Copilot, with reusable skills, native age",
+    "id": "okfriansyah-moh/agentic-workflow",
+    "language": "Python",
+    "name": "okfriansyah-moh/agentic-workflow",
+    "stars": 0,
+    "updated_at": "2026-10-23T02:54:52Z",
+    "url": "https://github.com/okfriansyah-moh/agentic-workflow"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-23T02:30:42Z",
+    "updated_at": "2026-10-23T02:45:49Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -449,15 +458,6 @@
     "stars": 8,
     "updated_at": "2026-10-21T19:57:50Z",
     "url": "https://github.com/brendadeeznuts1111/betting-brain-v3"
-  },
-  {
-    "description": "Portable software delivery workflow for Codex, Cursor, Claude Code, and GitHub Copilot, with reusable skills, native age",
-    "id": "okfriansyah-moh/agentic-workflow",
-    "language": "Python",
-    "name": "okfriansyah-moh/agentic-workflow",
-    "stars": 0,
-    "updated_at": "2026-10-22T13:32:26Z",
-    "url": "https://github.com/okfriansyah-moh/agentic-workflow"
   },
   {
     "description": "Awesome Cursor Rules (.cursorrules) & MCP Servers list for iOS, Python, and Web. Maintained by AgentIndex.app",
