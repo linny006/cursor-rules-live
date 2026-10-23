@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-23T11:57:05Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Modular, scalable, automated development intelligence.",
     "id": "DongDuong2001/pudo-code-system",
     "language": "TypeScript",
@@ -7,15 +16,6 @@
     "stars": 5,
     "updated_at": "2026-10-23T11:55:02Z",
     "url": "https://github.com/DongDuong2001/pudo-code-system"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-23T11:45:41Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -342,7 +342,7 @@
     "language": "TypeScript",
     "name": "Saad-web-spec/DevScratchPad",
     "stars": 2,
-    "updated_at": "2026-10-23T11:50:18Z",
+    "updated_at": "2026-10-23T11:57:36Z",
     "url": "https://github.com/Saad-web-spec/DevScratchPad"
   },
   {
