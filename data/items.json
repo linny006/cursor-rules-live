@@ -1,12 +1,21 @@
 [
   {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 52,
-    "updated_at": "2026-10-24T21:47:44Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+    "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
+    "id": "bompus/house-rules",
+    "language": "JavaScript",
+    "name": "bompus/house-rules",
+    "stars": 2,
+    "updated_at": "2026-10-24T22:12:27Z",
+    "url": "https://github.com/bompus/house-rules"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-10-24T22:07:14Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +23,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-24T21:45:38Z",
+    "updated_at": "2026-10-24T22:00:31Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 52,
+    "updated_at": "2026-10-24T21:47:44Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "cursorrules": {
@@ -98,24 +116,6 @@
     "stars": 0,
     "updated_at": "2026-10-24T19:20:40Z",
     "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-10-24T19:09:56Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
-    "id": "bompus/house-rules",
-    "language": "JavaScript",
-    "name": "bompus/house-rules",
-    "stars": 2,
-    "updated_at": "2026-10-24T19:14:21Z",
-    "url": "https://github.com/bompus/house-rules"
   },
   {
     "description": "Free private developer tools (JSON, JWT, cURL, cron, SSH keys) that run in your browser, plus AI Skill Studio: a CLAUDE.",
@@ -327,7 +327,7 @@
     "id": "anshuxinha/karpathy-skills-extended",
     "language": "\u2014",
     "name": "anshuxinha/karpathy-skills-extended",
-    "stars": 8,
+    "stars": 9,
     "updated_at": "2026-10-24T05:37:33Z",
     "url": "https://github.com/anshuxinha/karpathy-skills-extended"
   },
