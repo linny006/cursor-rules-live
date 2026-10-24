@@ -1,11 +1,34 @@
 [
   {
+    "description": "Universal Git-powered persistent memory, context rules & native MCP server for AI coding agents. Prevents context amnesi",
+    "id": "digital-lake-ai/lognexus",
+    "language": "TypeScript",
+    "name": "digital-lake-ai/lognexus",
+    "stars": 4,
+    "updated_at": "2026-10-24T15:22:59Z",
+    "url": "https://github.com/digital-lake-ai/lognexus"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Project rules for agent-context-doctor\nglobs: [\"src/**\", \"tests/**\"]\nalwaysApply: true\n---\n\n# agent-context-doctor \u2014 Cursor Rules\n\nYou are an **implementation agent** for this project. Focus on implementation only \u2014 product strategy is out of scope.\n\n## Hard rules\n\n- No LLM calls, no telemetry, no external network requests\n- No authentication or credential handling\n- No web server or browser UI\n- Do not rename `acd`, `audit`, or `list` commands\n- Do not break the `AuditResult` JSON shape or `.acdrc` schema backward compatibility\n\n## Before finishing any task\n\nRun and confirm these all pass:\n\n```bash\npnpm format:check\npnpm typecheck\npnpm test\npnpm build\n```\n\n## Code style\n\n- TypeScript strict mode \u2014 no `any`, no `ts-ignore`\n- Pure functions for all audit checks in `src/audit/checks/`\n- Tests in `tests/*.spec.ts` using vitest\n- No comments that narrate what the code does\n\n## Final report format\n\nAlways return:\n\n- Files changed (list)\n- Commands run and their output\n- Tests added\n- Known limitations\n",
+      "format": "mdc",
+      "path": ".cursor/rules/project.mdc"
+    },
+    "description": "Audit agent context files like AGENTS.md, CLAUDE.md, .cursor/rules/*.mdc, .github/copilot-instructions.md, and prompt do",
+    "id": "alipajand/agent-context-doctor",
+    "language": "TypeScript",
+    "name": "alipajand/agent-context-doctor",
+    "stars": 1,
+    "updated_at": "2026-10-24T15:22:07Z",
+    "url": "https://github.com/alipajand/agent-context-doctor"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-24T15:00:37Z",
+    "updated_at": "2026-10-24T15:15:49Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -25,15 +48,6 @@
     "stars": 25,
     "updated_at": "2026-10-24T14:18:01Z",
     "url": "https://github.com/jcottam/agent-resources"
-  },
-  {
-    "description": "Universal Git-powered persistent memory, context rules & native MCP server for AI coding agents. Prevents context amnesi",
-    "id": "digital-lake-ai/lognexus",
-    "language": "TypeScript",
-    "name": "digital-lake-ai/lognexus",
-    "stars": 4,
-    "updated_at": "2026-10-24T14:48:30Z",
-    "url": "https://github.com/digital-lake-ai/lognexus"
   },
   {
     "description": "Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam",
@@ -166,6 +180,15 @@
     "stars": 20,
     "updated_at": "2026-10-24T11:29:08Z",
     "url": "https://github.com/philipbankier/awesome-agent-skills"
+  },
+  {
+    "description": "Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W-",
+    "id": "fluttersdk/wind",
+    "language": "Dart",
+    "name": "fluttersdk/wind",
+    "stars": 43,
+    "updated_at": "2026-10-24T10:56:03Z",
+    "url": "https://github.com/fluttersdk/wind"
   },
   {
     "description": "Cursor rules for building apps on VTC: auth, data, UI, i18n and push-to-publish deploys to apps.vtc.com",
@@ -490,23 +513,5 @@
     "stars": 2,
     "updated_at": "2026-10-23T05:41:43Z",
     "url": "https://github.com/Catherine1401/agent-skills"
-  },
-  {
-    "description": "Portable software delivery workflow for Codex, Cursor, Claude Code, and GitHub Copilot, with reusable skills, native age",
-    "id": "okfriansyah-moh/agentic-workflow",
-    "language": "Python",
-    "name": "okfriansyah-moh/agentic-workflow",
-    "stars": 0,
-    "updated_at": "2026-10-23T02:54:52Z",
-    "url": "https://github.com/okfriansyah-moh/agentic-workflow"
-  },
-  {
-    "description": "Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows.",
-    "id": "ajhcs/healthcare-agents",
-    "language": "JavaScript",
-    "name": "ajhcs/healthcare-agents",
-    "stars": 53,
-    "updated_at": "2026-10-23T01:15:04Z",
-    "url": "https://github.com/ajhcs/healthcare-agents"
   }
 ]
