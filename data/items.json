@@ -1,12 +1,21 @@
 [
   {
-    "description": "Architectural drift prevention for the agentic AI SDLC.",
-    "id": "MnemeHQ/mneme",
+    "description": "Universal Git-powered persistent memory, context rules & native MCP server for AI coding agents. Prevents context amnesi",
+    "id": "digital-lake-ai/lognexus",
+    "language": "TypeScript",
+    "name": "digital-lake-ai/lognexus",
+    "stars": 4,
+    "updated_at": "2026-10-24T14:14:20Z",
+    "url": "https://github.com/digital-lake-ai/lognexus"
+  },
+  {
+    "description": "Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam",
+    "id": "eli-alvarado/agentkit-drawer",
     "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 28,
-    "updated_at": "2026-10-24T13:55:55Z",
-    "url": "https://github.com/MnemeHQ/mneme"
+    "name": "eli-alvarado/agentkit-drawer",
+    "stars": 0,
+    "updated_at": "2026-10-24T14:09:12Z",
+    "url": "https://github.com/eli-alvarado/agentkit-drawer"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +23,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-24T13:45:42Z",
+    "updated_at": "2026-10-24T14:00:44Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Architectural drift prevention for the agentic AI SDLC.",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 28,
+    "updated_at": "2026-10-24T14:14:03Z",
+    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
@@ -259,18 +277,9 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 41627,
+    "stars": 41628,
     "updated_at": "2026-10-24T01:02:05Z",
     "url": "https://github.com/wshobson/agents"
-  },
-  {
-    "description": "Universal Git-powered persistent memory, context rules & native MCP server for AI coding agents. Prevents context amnesi",
-    "id": "digital-lake-ai/lognexus",
-    "language": "TypeScript",
-    "name": "digital-lake-ai/lognexus",
-    "stars": 4,
-    "updated_at": "2026-10-24T13:55:57Z",
-    "url": "https://github.com/digital-lake-ai/lognexus"
   },
   {
     "cursorrules": {
@@ -378,18 +387,9 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21553,
+    "stars": 21554,
     "updated_at": "2026-10-23T14:29:26Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
-  },
-  {
-    "description": "Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam",
-    "id": "eli-alvarado/agentkit-drawer",
-    "language": "Python",
-    "name": "eli-alvarado/agentkit-drawer",
-    "stars": 0,
-    "updated_at": "2026-10-23T14:13:54Z",
-    "url": "https://github.com/eli-alvarado/agentkit-drawer"
   },
   {
     "description": "VS Code extension for LynxPrompt \u2014 browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules) ",
