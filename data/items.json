@@ -1,12 +1,12 @@
 [
   {
-    "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
-    "id": "SupremeSupport/Cursor-Desktop-2026",
-    "language": "\u2014",
-    "name": "SupremeSupport/Cursor-Desktop-2026",
-    "stars": 1,
-    "updated_at": "2026-10-24T00:49:23Z",
-    "url": "https://github.com/SupremeSupport/Cursor-Desktop-2026"
+    "description": "Drop .readmeAI in any project. AI reads it first, every session \u2014 no re-explaining, no context drift. Works with Claude,",
+    "id": "Oscarr36/ReadMeAI",
+    "language": "Shell",
+    "name": "Oscarr36/ReadMeAI",
+    "stars": 4,
+    "updated_at": "2026-10-24T01:13:42Z",
+    "url": "https://github.com/Oscarr36/ReadMeAI"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-24T00:45:41Z",
+    "updated_at": "2026-10-24T01:00:36Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
+    "id": "SupremeSupport/Cursor-Desktop-2026",
+    "language": "\u2014",
+    "name": "SupremeSupport/Cursor-Desktop-2026",
+    "stars": 1,
+    "updated_at": "2026-10-24T00:49:23Z",
+    "url": "https://github.com/SupremeSupport/Cursor-Desktop-2026"
   },
   {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
@@ -195,7 +204,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21539,
+    "stars": 21540,
     "updated_at": "2026-10-23T14:29:26Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -494,14 +503,5 @@
     "stars": 0,
     "updated_at": "2026-10-22T02:23:48Z",
     "url": "https://github.com/Groundmail/groundmail-skills"
-  },
-  {
-    "description": "Cursor rules for building apps on VTC: auth, data, UI, i18n and push-to-publish deploys to apps.vtc.com",
-    "id": "vtcdotcom/vtc-app-rules",
-    "language": "Shell",
-    "name": "vtcdotcom/vtc-app-rules",
-    "stars": 0,
-    "updated_at": "2026-10-24T00:11:32Z",
-    "url": "https://github.com/vtcdotcom/vtc-app-rules"
   }
 ]
