@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-24 16:00 UTC
+> ⏰ Last updated: 2026-10-24 16:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,29 +53,29 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-24 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 2 | [digital-lake-ai/lognexus](https://github.com/digital-lake-ai/lognexus) | 4 | TypeScript | 2026-10-24 | — | Universal Git-powered persistent memory, context rules & native MCP server for AI coding agents. Prevents context amnesi |
-| 3 | [alipajand/agent-context-doctor](https://github.com/alipajand/agent-context-doctor) | 1 | TypeScript | 2026-10-24 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/alipajand/agent-context-doctor/) | Audit agent context files like AGENTS.md, CLAUDE.md, .cursor/rules/*.mdc, .github/copilot-instructions.md, and prompt do |
-| 4 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-10-24 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
-| 5 | [jcottam/agent-resources](https://github.com/jcottam/agent-resources) | 25 | Shell | 2026-10-24 | — | Battle-tested agent skills and Cursor rules from real projects. Works with Cursor, Claude Code, and any agent. |
-| 6 | [eli-alvarado/agentkit-drawer](https://github.com/eli-alvarado/agentkit-drawer) | 0 | Python | 2026-10-24 | — | Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam |
-| 7 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 28 | Python | 2026-10-24 | — | Architectural drift prevention for the agentic AI SDLC. |
-| 8 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-10-24 | — | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
-| 9 | [acus9345/dsh-load-agent-rules](https://github.com/acus9345/dsh-load-agent-rules) | 2 | TypeScript | 2026-10-24 | — | DeepSeek Harness plugin that loads the Cursor, Copilot, Windsurf and other AI rule files your repo already has. |
-| 10 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-10-24 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
-| 11 | [Aaditya1273/Agent.md](https://github.com/Aaditya1273/Agent.md) | 10 | — | 2026-10-24 | — | Your AI coding agent follows these files blindly, before it reads a line of your code. |
-| 12 | [SupremeSupport/Cursor-Desktop-2026](https://github.com/SupremeSupport/Cursor-Desktop-2026) | 1 | — | 2026-10-24 | — | ⭐️ Cursor 2026 Ai Cursorpro Cursor Ai ⭐️ |
-| 13 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-10-24 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
-| 14 | [vibestackdev/vibe-stack](https://github.com/vibestackdev/vibe-stack) | 8 | TypeScript | 2026-10-24 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/) | 29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b |
-| 15 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-24 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
-| 16 | [longwave-ai-lab/agentic-workflow-os](https://github.com/longwave-ai-lab/agentic-workflow-os) | 0 | JavaScript | 2026-10-24 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/longwave-ai-lab/agentic-workflow-os/) | Agentic Workflow OS: Deterministic /boost Context-Bloat Pruner, /teamwork-preview Git Worktree Sandbox, /goal Anti-Rewar |
-| 17 | [longwave-ai-lab/anti-slop-ai-harness](https://github.com/longwave-ai-lab/anti-slop-ai-harness) | 1 | — | 2026-10-24 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/longwave-ai-lab/anti-slop-ai-harness/) | Stop AI hallucinations, Yes-Man sycophancy, robotic AI slop prose, and cheap UI clutter in 30 seconds. Pre-packaged .mdc |
-| 18 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 20 | TypeScript | 2026-10-24 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
-| 19 | [fluttersdk/wind](https://github.com/fluttersdk/wind) | 43 | Dart | 2026-10-24 | — | Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W- |
-| 20 | [vtcdotcom/vtc-app-rules](https://github.com/vtcdotcom/vtc-app-rules) | 0 | Shell | 2026-10-24 | — | Cursor rules for building apps on VTC: auth, data, UI, i18n and push-to-publish deploys to apps.vtc.com |
-| 21 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 52 | — | 2026-10-24 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
-| 22 | [Harmitx7/tribunal-kit](https://github.com/Harmitx7/tribunal-kit) | 5 | JavaScript | 2026-10-24 | — | A universal, native-Rust governance layer for AI coding agents. Enforces Subagent-Driven Development (SDD) to stop hallu |
-| 23 | [rover-001/checkmate](https://github.com/rover-001/checkmate) | 3 | JavaScript | 2026-10-24 | — | Goal-driven mode for AI coding agents. Reach the user's win condition in the fewest moves. |
+| 1 | [rover-001/checkmate](https://github.com/rover-001/checkmate) | 3 | JavaScript | 2026-10-24 | — | Goal-driven mode for AI coding agents. Reach the user's win condition in the fewest moves. |
+| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-24 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 3 | [digital-lake-ai/lognexus](https://github.com/digital-lake-ai/lognexus) | 4 | TypeScript | 2026-10-24 | — | Universal Git-powered persistent memory, context rules & native MCP server for AI coding agents. Prevents context amnesi |
+| 4 | [alipajand/agent-context-doctor](https://github.com/alipajand/agent-context-doctor) | 1 | TypeScript | 2026-10-24 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/alipajand/agent-context-doctor/) | Audit agent context files like AGENTS.md, CLAUDE.md, .cursor/rules/*.mdc, .github/copilot-instructions.md, and prompt do |
+| 5 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-10-24 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
+| 6 | [jcottam/agent-resources](https://github.com/jcottam/agent-resources) | 25 | Shell | 2026-10-24 | — | Battle-tested agent skills and Cursor rules from real projects. Works with Cursor, Claude Code, and any agent. |
+| 7 | [eli-alvarado/agentkit-drawer](https://github.com/eli-alvarado/agentkit-drawer) | 0 | Python | 2026-10-24 | — | Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam |
+| 8 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 28 | Python | 2026-10-24 | — | Architectural drift prevention for the agentic AI SDLC. |
+| 9 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-10-24 | — | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
+| 10 | [acus9345/dsh-load-agent-rules](https://github.com/acus9345/dsh-load-agent-rules) | 2 | TypeScript | 2026-10-24 | — | DeepSeek Harness plugin that loads the Cursor, Copilot, Windsurf and other AI rule files your repo already has. |
+| 11 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-10-24 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
+| 12 | [Aaditya1273/Agent.md](https://github.com/Aaditya1273/Agent.md) | 10 | — | 2026-10-24 | — | Your AI coding agent follows these files blindly, before it reads a line of your code. |
+| 13 | [SupremeSupport/Cursor-Desktop-2026](https://github.com/SupremeSupport/Cursor-Desktop-2026) | 1 | — | 2026-10-24 | — | ⭐️ Cursor 2026 Ai Cursorpro Cursor Ai ⭐️ |
+| 14 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-10-24 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
+| 15 | [vibestackdev/vibe-stack](https://github.com/vibestackdev/vibe-stack) | 8 | TypeScript | 2026-10-24 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/vibestackdev/vibe-stack/) | 29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b |
+| 16 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-24 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
+| 17 | [longwave-ai-lab/agentic-workflow-os](https://github.com/longwave-ai-lab/agentic-workflow-os) | 0 | JavaScript | 2026-10-24 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/longwave-ai-lab/agentic-workflow-os/) | Agentic Workflow OS: Deterministic /boost Context-Bloat Pruner, /teamwork-preview Git Worktree Sandbox, /goal Anti-Rewar |
+| 18 | [longwave-ai-lab/anti-slop-ai-harness](https://github.com/longwave-ai-lab/anti-slop-ai-harness) | 1 | — | 2026-10-24 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/longwave-ai-lab/anti-slop-ai-harness/) | Stop AI hallucinations, Yes-Man sycophancy, robotic AI slop prose, and cheap UI clutter in 30 seconds. Pre-packaged .mdc |
+| 19 | [philipbankier/awesome-agent-skills](https://github.com/philipbankier/awesome-agent-skills) | 20 | TypeScript | 2026-10-24 | — | A curated directory of skills, tools, and plugins for AI coding agents — across every platform. MCP servers, Agent Skill |
+| 20 | [fluttersdk/wind](https://github.com/fluttersdk/wind) | 43 | Dart | 2026-10-24 | — | Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W- |
+| 21 | [vtcdotcom/vtc-app-rules](https://github.com/vtcdotcom/vtc-app-rules) | 0 | Shell | 2026-10-24 | — | Cursor rules for building apps on VTC: auth, data, UI, i18n and push-to-publish deploys to apps.vtc.com |
+| 22 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 52 | — | 2026-10-24 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
+| 23 | [Harmitx7/tribunal-kit](https://github.com/Harmitx7/tribunal-kit) | 5 | JavaScript | 2026-10-24 | — | A universal, native-Rust governance layer for AI coding agents. Enforces Subagent-Driven Development (SDD) to stop hallu |
 | 24 | [sscodeai/agency-agents-ja](https://github.com/sscodeai/agency-agents-ja) | 10 | Shell | 2026-10-24 | — | 404体の即戦力AI専門エージェント集 — Claude Code / Cursor / Copilot 等に対応。日本市場向けオリジナル125体（SIer・受託開発・SaaS・製造DX・公共分野）。agency-agentsの日本語コミュ |
 | 25 | [anshuxinha/karpathy-skills-extended](https://github.com/anshuxinha/karpathy-skills-extended) | 8 | — | 2026-10-24 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/anshuxinha/karpathy-skills-extended/) | A lightweight pre-coding check for Codex, Claude, Cursor, Antigravity, Gemini, and Grok: look up what you can, and ask o |
 | 26 | [bompus/house-rules](https://github.com/bompus/house-rules) | 2 | JavaScript | 2026-10-24 | — | Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md |
