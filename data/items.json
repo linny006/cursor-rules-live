@@ -1,21 +1,21 @@
 [
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-24T13:30:40Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Architectural drift prevention for the agentic AI SDLC.",
     "id": "MnemeHQ/mneme",
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 28,
-    "updated_at": "2026-10-24T13:32:31Z",
+    "updated_at": "2026-10-24T13:55:55Z",
     "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-24T13:45:42Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
@@ -269,7 +269,7 @@
     "language": "TypeScript",
     "name": "digital-lake-ai/lognexus",
     "stars": 4,
-    "updated_at": "2026-10-24T00:19:22Z",
+    "updated_at": "2026-10-24T13:55:57Z",
     "url": "https://github.com/digital-lake-ai/lognexus"
   },
   {
@@ -378,7 +378,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21552,
+    "stars": 21553,
     "updated_at": "2026-10-23T14:29:26Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
