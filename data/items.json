@@ -1,5 +1,41 @@
 [
   {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 3,
+    "updated_at": "2026-10-24T16:40:28Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
+  },
+  {
+    "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
+    "id": "SupremeSupport/Cursor-Desktop-2026",
+    "language": "\u2014",
+    "name": "SupremeSupport/Cursor-Desktop-2026",
+    "stars": 1,
+    "updated_at": "2026-10-24T16:32:06Z",
+    "url": "https://github.com/SupremeSupport/Cursor-Desktop-2026"
+  },
+  {
+    "description": "Free private developer tools (JSON, JWT, cURL, cron, SSH keys) that run in your browser, plus AI Skill Studio: a CLAUDE.",
+    "id": "Saad-web-spec/DevScratchPad",
+    "language": "TypeScript",
+    "name": "Saad-web-spec/DevScratchPad",
+    "stars": 2,
+    "updated_at": "2026-10-24T16:31:34Z",
+    "url": "https://github.com/Saad-web-spec/DevScratchPad"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-24T16:30:42Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
     "id": "Trentobobbi/uikit-mastery-playbook",
     "language": "HTML",
@@ -27,20 +63,11 @@
     "url": "https://github.com/bompus/house-rules"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-24T16:15:39Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Goal-driven mode for AI coding agents. Reach the user's win condition in the fewest moves.",
     "id": "rover-001/checkmate",
     "language": "JavaScript",
     "name": "rover-001/checkmate",
-    "stars": 3,
+    "stars": 4,
     "updated_at": "2026-10-24T16:06:39Z",
     "url": "https://github.com/rover-001/checkmate"
   },
@@ -100,7 +127,7 @@
     "language": "\u2014",
     "name": "megafly-25/universal-data-visualization-skill",
     "stars": 0,
-    "updated_at": "2026-10-24T14:06:36Z",
+    "updated_at": "2026-10-24T16:37:08Z",
     "url": "https://github.com/megafly-25/universal-data-visualization-skill"
   },
   {
@@ -131,15 +158,6 @@
     "url": "https://github.com/acus9345/dsh-load-agent-rules"
   },
   {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 3,
-    "updated_at": "2026-10-24T12:45:05Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
     "description": "Your AI coding agent follows these files blindly, before it reads a line of your code.",
     "id": "Aaditya1273/Agent.md",
     "language": "\u2014",
@@ -147,15 +165,6 @@
     "stars": 10,
     "updated_at": "2026-10-24T12:44:44Z",
     "url": "https://github.com/Aaditya1273/Agent.md"
-  },
-  {
-    "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
-    "id": "SupremeSupport/Cursor-Desktop-2026",
-    "language": "\u2014",
-    "name": "SupremeSupport/Cursor-Desktop-2026",
-    "stars": 1,
-    "updated_at": "2026-10-24T12:37:54Z",
-    "url": "https://github.com/SupremeSupport/Cursor-Desktop-2026"
   },
   {
     "cursorrules": {
@@ -360,15 +369,6 @@
     "url": "https://github.com/grizzlykiwidev/grizzlykiwidev.github.io"
   },
   {
-    "description": "Free private developer tools (JSON, JWT, cURL, cron, SSH keys) that run in your browser, plus AI Skill Studio: a CLAUDE.",
-    "id": "Saad-web-spec/DevScratchPad",
-    "language": "TypeScript",
-    "name": "Saad-web-spec/DevScratchPad",
-    "stars": 2,
-    "updated_at": "2026-10-24T16:28:57Z",
-    "url": "https://github.com/Saad-web-spec/DevScratchPad"
-  },
-  {
     "description": "\u6bd5\u4e1a\u8bbe\u8ba1\u6587\u6863 AI \u6280\u80fd\u5305\uff1a\u5f00\u9898\u62a5\u544a/\u9700\u6c42\u5206\u6790/\u7cfb\u7edf\u8bbe\u8ba1/GB-T 7714 \u8bba\u6587\u89c4\u8303/\u6d4b\u8bd5/\u7b54\u8fa9\uff0c\u4e00\u952e\u88c5\u8fdb Claude Code\u00b7Cursor\u00b7Trae\u00b7Codex\uff0c\u4e0d\u7f16\u9020\u6587\u732e\u4e0e\u6d4b\u8bd5\u6570\u636e",
     "id": "MsNan/bishe-doc-skills",
     "language": "JavaScript",
@@ -419,7 +419,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21555,
+    "stars": 21556,
     "updated_at": "2026-10-23T14:29:26Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
