@@ -1,11 +1,20 @@
 [
   {
+    "description": "Community-voted AI prompts, CLAUDE.md/AGENTS.md templates, Cursor rules, Agent Skills and MCP servers from commandvault.",
+    "id": "geronco/commandvault-library",
+    "language": "JavaScript",
+    "name": "geronco/commandvault-library",
+    "stars": 0,
+    "updated_at": "2026-10-24T03:29:53Z",
+    "url": "https://github.com/geronco/commandvault-library"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-24T03:00:48Z",
+    "updated_at": "2026-10-24T03:15:47Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -385,15 +394,6 @@
     "stars": 2,
     "updated_at": "2026-10-23T05:41:43Z",
     "url": "https://github.com/Catherine1401/agent-skills"
-  },
-  {
-    "description": "Community-voted AI prompts, CLAUDE.md/AGENTS.md templates, Cursor rules, Agent Skills and MCP servers from commandvault.",
-    "id": "geronco/commandvault-library",
-    "language": "JavaScript",
-    "name": "geronco/commandvault-library",
-    "stars": 0,
-    "updated_at": "2026-10-23T03:31:52Z",
-    "url": "https://github.com/geronco/commandvault-library"
   },
   {
     "description": "Portable software delivery workflow for Codex, Cursor, Claude Code, and GitHub Copilot, with reusable skills, native age",
