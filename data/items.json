@@ -1,12 +1,21 @@
 [
   {
-    "description": "Rules and skills for coding agents: AI Skill Studio (CLAUDE.md, AGENTS.md, Cursor rules, SKILL.md generator), Skill Libr",
-    "id": "Saad-web-spec/DevScratchPad",
-    "language": "TypeScript",
-    "name": "Saad-web-spec/DevScratchPad",
-    "stars": 2,
-    "updated_at": "2026-10-24T23:26:01Z",
-    "url": "https://github.com/Saad-web-spec/DevScratchPad"
+    "description": "Architectural drift prevention for the agentic AI SDLC.",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 28,
+    "updated_at": "2026-10-24T23:44:10Z",
+    "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
+    "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
+    "id": "mikeprasad/aria-knowledge",
+    "language": "Shell",
+    "name": "mikeprasad/aria-knowledge",
+    "stars": 17,
+    "updated_at": "2026-10-24T23:40:10Z",
+    "url": "https://github.com/mikeprasad/aria-knowledge"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,17 +23,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-24T23:15:32Z",
+    "updated_at": "2026-10-24T23:30:48Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
-    "description": "Architectural drift prevention for the agentic AI SDLC.",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 28,
-    "updated_at": "2026-10-24T23:03:34Z",
-    "url": "https://github.com/MnemeHQ/mneme"
+    "description": "Rules and skills for coding agents: AI Skill Studio (CLAUDE.md, AGENTS.md, Cursor rules, SKILL.md generator), Skill Libr",
+    "id": "Saad-web-spec/DevScratchPad",
+    "language": "TypeScript",
+    "name": "Saad-web-spec/DevScratchPad",
+    "stars": 2,
+    "updated_at": "2026-10-24T23:26:01Z",
+    "url": "https://github.com/Saad-web-spec/DevScratchPad"
   },
   {
     "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
@@ -504,14 +513,5 @@
     "stars": 0,
     "updated_at": "2026-10-23T09:44:47Z",
     "url": "https://github.com/Acuris-GmbH/acuris-agent-context"
-  },
-  {
-    "description": "Rules that make AI coding agents write code a person would write. AGENTS.md for any agent, plus a Claude Code plugin.",
-    "id": "navulo/human-code",
-    "language": "JavaScript",
-    "name": "navulo/human-code",
-    "stars": 1,
-    "updated_at": "2026-10-23T07:25:50Z",
-    "url": "https://github.com/navulo/human-code"
   }
 ]
