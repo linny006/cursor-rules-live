@@ -1,21 +1,21 @@
 [
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-24T09:30:49Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "A universal, native-Rust governance layer for AI coding agents. Enforces Subagent-Driven Development (SDD) to stop hallu",
     "id": "Harmitx7/tribunal-kit",
     "language": "JavaScript",
     "name": "Harmitx7/tribunal-kit",
     "stars": 5,
-    "updated_at": "2026-10-24T09:33:05Z",
+    "updated_at": "2026-10-24T09:48:19Z",
     "url": "https://github.com/Harmitx7/tribunal-kit"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-24T09:45:33Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -90,7 +90,7 @@
     "id": "anshuxinha/karpathy-skills-extended",
     "language": "\u2014",
     "name": "anshuxinha/karpathy-skills-extended",
-    "stars": 6,
+    "stars": 7,
     "updated_at": "2026-10-24T05:37:33Z",
     "url": "https://github.com/anshuxinha/karpathy-skills-extended"
   },
@@ -310,7 +310,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21547,
+    "stars": 21548,
     "updated_at": "2026-10-23T14:29:26Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
