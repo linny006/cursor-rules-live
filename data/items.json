@@ -1,11 +1,20 @@
 [
   {
+    "description": "Universal Git-powered persistent memory, context rules & native MCP server for AI coding agents. Prevents context amnesi",
+    "id": "digital-lake-ai/lognexus",
+    "language": "TypeScript",
+    "name": "digital-lake-ai/lognexus",
+    "stars": 4,
+    "updated_at": "2026-10-24T00:19:22Z",
+    "url": "https://github.com/digital-lake-ai/lognexus"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-24T00:00:35Z",
+    "updated_at": "2026-10-24T00:15:40Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -125,15 +134,6 @@
     "stars": 0,
     "updated_at": "2026-10-23T20:04:54Z",
     "url": "https://github.com/grizzlykiwidev/grizzlykiwidev.github.io"
-  },
-  {
-    "description": "Universal Git-powered persistent memory, context rules & native MCP server for AI coding agents. Prevents context amnesi",
-    "id": "digital-lake-ai/lognexus",
-    "language": "TypeScript",
-    "name": "digital-lake-ai/lognexus",
-    "stars": 4,
-    "updated_at": "2026-10-23T18:32:12Z",
-    "url": "https://github.com/digital-lake-ai/lognexus"
   },
   {
     "description": "Free private developer tools (JSON, JWT, cURL, cron, SSH keys) that run in your browser, plus AI Skill Studio: a CLAUDE.",
