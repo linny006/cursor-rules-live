@@ -1,11 +1,29 @@
 [
   {
+    "description": "A universal, native-Rust governance layer for AI coding agents. Enforces Subagent-Driven Development (SDD) to stop hallu",
+    "id": "Harmitx7/tribunal-kit",
+    "language": "JavaScript",
+    "name": "Harmitx7/tribunal-kit",
+    "stars": 5,
+    "updated_at": "2026-10-24T09:29:58Z",
+    "url": "https://github.com/Harmitx7/tribunal-kit"
+  },
+  {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 52,
+    "updated_at": "2026-10-24T09:29:24Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-24T09:00:44Z",
+    "updated_at": "2026-10-24T09:15:42Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -185,15 +203,6 @@
     "stars": 4,
     "updated_at": "2026-10-24T00:19:22Z",
     "url": "https://github.com/digital-lake-ai/lognexus"
-  },
-  {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 52,
-    "updated_at": "2026-10-23T22:31:59Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "cursorrules": {
@@ -377,15 +386,6 @@
     "stars": 0,
     "updated_at": "2026-10-23T12:23:20Z",
     "url": "https://github.com/getvibekits/vibe-coding-rules"
-  },
-  {
-    "description": "A universal, native-Rust governance layer for AI coding agents. Enforces Subagent-Driven Development (SDD) to stop hallu",
-    "id": "Harmitx7/tribunal-kit",
-    "language": "JavaScript",
-    "name": "Harmitx7/tribunal-kit",
-    "stars": 5,
-    "updated_at": "2026-10-23T12:16:01Z",
-    "url": "https://github.com/Harmitx7/tribunal-kit"
   },
   {
     "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
