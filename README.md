@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-24 15:30 UTC
+> ⏰ Last updated: 2026-10-24 15:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,9 +53,9 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [digital-lake-ai/lognexus](https://github.com/digital-lake-ai/lognexus) | 4 | TypeScript | 2026-10-24 | — | Universal Git-powered persistent memory, context rules & native MCP server for AI coding agents. Prevents context amnesi |
-| 2 | [alipajand/agent-context-doctor](https://github.com/alipajand/agent-context-doctor) | 1 | TypeScript | 2026-10-24 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/alipajand/agent-context-doctor/) | Audit agent context files like AGENTS.md, CLAUDE.md, .cursor/rules/*.mdc, .github/copilot-instructions.md, and prompt do |
-| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-24 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-24 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [digital-lake-ai/lognexus](https://github.com/digital-lake-ai/lognexus) | 4 | TypeScript | 2026-10-24 | — | Universal Git-powered persistent memory, context rules & native MCP server for AI coding agents. Prevents context amnesi |
+| 3 | [alipajand/agent-context-doctor](https://github.com/alipajand/agent-context-doctor) | 1 | TypeScript | 2026-10-24 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/alipajand/agent-context-doctor/) | Audit agent context files like AGENTS.md, CLAUDE.md, .cursor/rules/*.mdc, .github/copilot-instructions.md, and prompt do |
 | 4 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-10-24 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
 | 5 | [jcottam/agent-resources](https://github.com/jcottam/agent-resources) | 25 | Shell | 2026-10-24 | — | Battle-tested agent skills and Cursor rules from real projects. Works with Cursor, Claude Code, and any agent. |
 | 6 | [eli-alvarado/agentkit-drawer](https://github.com/eli-alvarado/agentkit-drawer) | 0 | Python | 2026-10-24 | — | Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam |
@@ -92,7 +92,7 @@ expired items removed — so you can rely on what you see being current.
 | 37 | [krzysztofgibert/pr-viz-skill](https://github.com/krzysztofgibert/pr-viz-skill) | 0 | JavaScript | 2026-10-23 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/krzysztofgibert/pr-viz-skill/) | Free IDE skill that turns a GitHub pull request into a two-zone review map. Use it in VS Code, Cursor, Claude Code, or W |
 | 38 | [sublimecoder/sublimecoding](https://github.com/sublimecoder/sublimecoding) | 0 | — | 2026-10-23 | — | 🛠️ Free Claude Code & Cursor prompts for senior engineers — plus AIOS, an open-source markdown memory system for coding  |
 | 39 | [smg99/ticket-flow](https://github.com/smg99/ticket-flow) | 0 | HTML | 2026-10-23 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/smg99/ticket-flow/) | A repeatable, high-discipline workflow pattern for Cursor agents: fetches issues, branches, implements, adds tests, runs |
-| 40 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 21554 | Shell | 2026-10-23 | — | 🎭 277 个即插即用的 AI 专家角色 — 支持 Claude Code/Cursor/Copilot 等 20 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 64 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉/Qt 上 |
+| 40 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 21555 | Shell | 2026-10-23 | — | 🎭 277 个即插即用的 AI 专家角色 — 支持 Claude Code/Cursor/Copilot 等 20 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 64 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉/Qt 上 |
 | 41 | [GeiserX/lynxprompt-vscode](https://github.com/GeiserX/lynxprompt-vscode) | 2 | TypeScript | 2026-10-23 | — | VS Code extension for LynxPrompt — browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules)  |
 | 42 | [orbitalsonic/AndroidPilot](https://github.com/orbitalsonic/AndroidPilot) | 1 | Kotlin | 2026-10-23 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/orbitalsonic/AndroidPilot/) | Production-ready Android Engineering Rules for Cursor and other AI coding assistants. Build consistent, scalable, and ma |
 | 43 | [DongDuong2001/pudo-code-system](https://github.com/DongDuong2001/pudo-code-system) | 5 | TypeScript | 2026-10-23 | — | Modular, scalable, automated development intelligence. |
