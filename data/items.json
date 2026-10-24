@@ -10,8 +10,35 @@
     "language": "JavaScript",
     "name": "roedyrustam/vibes-plug",
     "stars": 113,
-    "updated_at": "2026-10-24T18:10:27Z",
+    "updated_at": "2026-10-24T18:29:12Z",
     "url": "https://github.com/roedyrustam/vibes-plug"
+  },
+  {
+    "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
+    "id": "bompus/house-rules",
+    "language": "JavaScript",
+    "name": "bompus/house-rules",
+    "stars": 2,
+    "updated_at": "2026-10-24T18:25:18Z",
+    "url": "https://github.com/bompus/house-rules"
+  },
+  {
+    "description": "Free private developer tools (JSON, JWT, cURL, cron, SSH keys) that run in your browser, plus AI Skill Studio: a CLAUDE.",
+    "id": "Saad-web-spec/DevScratchPad",
+    "language": "TypeScript",
+    "name": "Saad-web-spec/DevScratchPad",
+    "stars": 2,
+    "updated_at": "2026-10-24T18:19:18Z",
+    "url": "https://github.com/Saad-web-spec/DevScratchPad"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-24T18:15:33Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Free AGENTS.md generator. Pick rules for your stack, scan a repository, and export AGENTS.md, CLAUDE.md, Cursor rules or",
@@ -21,15 +48,6 @@
     "stars": 0,
     "updated_at": "2026-10-24T18:01:35Z",
     "url": "https://github.com/grzmol/AGENTS.md-generator"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-24T18:00:42Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
@@ -68,15 +86,6 @@
     "url": "https://github.com/SupremeSupport/Cursor-Desktop-2026"
   },
   {
-    "description": "Free private developer tools (JSON, JWT, cURL, cron, SSH keys) that run in your browser, plus AI Skill Studio: a CLAUDE.",
-    "id": "Saad-web-spec/DevScratchPad",
-    "language": "TypeScript",
-    "name": "Saad-web-spec/DevScratchPad",
-    "stars": 2,
-    "updated_at": "2026-10-24T16:31:34Z",
-    "url": "https://github.com/Saad-web-spec/DevScratchPad"
-  },
-  {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
     "id": "Trentobobbi/uikit-mastery-playbook",
     "language": "HTML",
@@ -95,20 +104,11 @@
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
-    "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
-    "id": "bompus/house-rules",
-    "language": "JavaScript",
-    "name": "bompus/house-rules",
-    "stars": 2,
-    "updated_at": "2026-10-24T18:14:13Z",
-    "url": "https://github.com/bompus/house-rules"
-  },
-  {
     "description": "Goal-driven mode for AI coding agents. Reach the user's win condition in the fewest moves.",
     "id": "rover-001/checkmate",
     "language": "JavaScript",
     "name": "rover-001/checkmate",
-    "stars": 5,
+    "stars": 6,
     "updated_at": "2026-10-24T16:06:39Z",
     "url": "https://github.com/rover-001/checkmate"
   },
@@ -118,7 +118,7 @@
     "language": "TypeScript",
     "name": "digital-lake-ai/lognexus",
     "stars": 4,
-    "updated_at": "2026-10-24T15:22:59Z",
+    "updated_at": "2026-10-24T18:24:07Z",
     "url": "https://github.com/digital-lake-ai/lognexus"
   },
   {
@@ -350,7 +350,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 41630,
+    "stars": 41631,
     "updated_at": "2026-10-24T01:02:05Z",
     "url": "https://github.com/wshobson/agents"
   },
