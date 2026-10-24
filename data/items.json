@@ -1,11 +1,29 @@
 [
   {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 1,
+    "updated_at": "2026-10-24T10:38:04Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+  },
+  {
+    "description": "Cursor rules for building apps on VTC: auth, data, UI, i18n and push-to-publish deploys to apps.vtc.com",
+    "id": "vtcdotcom/vtc-app-rules",
+    "language": "Shell",
+    "name": "vtcdotcom/vtc-app-rules",
+    "stars": 0,
+    "updated_at": "2026-10-24T10:35:56Z",
+    "url": "https://github.com/vtcdotcom/vtc-app-rules"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-24T10:15:35Z",
+    "updated_at": "2026-10-24T10:30:41Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -90,18 +108,9 @@
     "id": "anshuxinha/karpathy-skills-extended",
     "language": "\u2014",
     "name": "anshuxinha/karpathy-skills-extended",
-    "stars": 7,
+    "stars": 8,
     "updated_at": "2026-10-24T05:37:33Z",
     "url": "https://github.com/anshuxinha/karpathy-skills-extended"
-  },
-  {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 1,
-    "updated_at": "2026-10-24T05:34:08Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
@@ -504,14 +513,5 @@
     "stars": 0,
     "updated_at": "2026-10-22T09:44:16Z",
     "url": "https://github.com/485148606/dsh-extreme-mode"
-  },
-  {
-    "description": "Free MCP server, Cursor rule and Claude skill that help AI coding assistants avoid common security holes in vibe-coded a",
-    "id": "toby7979/sealmyapp-tools",
-    "language": "TypeScript",
-    "name": "toby7979/sealmyapp-tools",
-    "stars": 0,
-    "updated_at": "2026-10-22T08:36:07Z",
-    "url": "https://github.com/toby7979/sealmyapp-tools"
   }
 ]
