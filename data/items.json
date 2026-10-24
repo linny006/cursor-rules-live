@@ -1,11 +1,20 @@
 [
   {
+    "description": "Goal-driven mode for AI coding agents. Reach the user's win condition in the fewest moves.",
+    "id": "rover-001/checkmate",
+    "language": "JavaScript",
+    "name": "rover-001/checkmate",
+    "stars": 1,
+    "updated_at": "2026-10-24T08:17:40Z",
+    "url": "https://github.com/rover-001/checkmate"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-24T07:45:49Z",
+    "updated_at": "2026-10-24T08:15:38Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -34,15 +43,6 @@
     "stars": 0,
     "updated_at": "2026-10-24T07:04:10Z",
     "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Goal-driven mode for AI coding agents. Reach the user's win condition in the fewest moves.",
-    "id": "rover-001/checkmate",
-    "language": "JavaScript",
-    "name": "rover-001/checkmate",
-    "stars": 0,
-    "updated_at": "2026-10-24T06:51:42Z",
-    "url": "https://github.com/rover-001/checkmate"
   },
   {
     "description": "404\u4f53\u306e\u5373\u6226\u529bAI\u5c02\u9580\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u96c6 \u2014 Claude Code / Cursor / Copilot \u7b49\u306b\u5bfe\u5fdc\u3002\u65e5\u672c\u5e02\u5834\u5411\u3051\u30aa\u30ea\u30b8\u30ca\u30eb125\u4f53\uff08SIer\u30fb\u53d7\u8a17\u958b\u767a\u30fbSaaS\u30fb\u88fd\u9020DX\u30fb\u516c\u5171\u5206\u91ce\uff09\u3002agency-agents\u306e\u65e5\u672c\u8a9e\u30b3\u30df\u30e5",
@@ -173,7 +173,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 41619,
+    "stars": 41621,
     "updated_at": "2026-10-24T01:02:05Z",
     "url": "https://github.com/wshobson/agents"
   },
