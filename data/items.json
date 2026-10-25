@@ -1,11 +1,20 @@
 [
   {
+    "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
+    "id": "SupremeSupport/Cursor-Desktop-2026",
+    "language": "\u2014",
+    "name": "SupremeSupport/Cursor-Desktop-2026",
+    "stars": 1,
+    "updated_at": "2026-10-25T04:33:14Z",
+    "url": "https://github.com/SupremeSupport/Cursor-Desktop-2026"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-25T04:15:36Z",
+    "updated_at": "2026-10-25T04:30:43Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -77,15 +86,6 @@
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
-    "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
-    "id": "SupremeSupport/Cursor-Desktop-2026",
-    "language": "\u2014",
-    "name": "SupremeSupport/Cursor-Desktop-2026",
-    "stars": 1,
-    "updated_at": "2026-10-25T00:40:32Z",
-    "url": "https://github.com/SupremeSupport/Cursor-Desktop-2026"
-  },
-  {
     "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
     "id": "HoangNguyen0403/agent-skills-standard",
     "language": "TypeScript",
@@ -109,7 +109,7 @@
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 2,
-    "updated_at": "2026-10-25T04:25:00Z",
+    "updated_at": "2026-10-25T04:44:30Z",
     "url": "https://github.com/bompus/house-rules"
   },
   {
@@ -345,7 +345,7 @@
     "id": "anshuxinha/karpathy-skills-extended",
     "language": "\u2014",
     "name": "anshuxinha/karpathy-skills-extended",
-    "stars": 10,
+    "stars": 11,
     "updated_at": "2026-10-24T05:37:33Z",
     "url": "https://github.com/anshuxinha/karpathy-skills-extended"
   },
@@ -382,7 +382,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 41653,
+    "stars": 41654,
     "updated_at": "2026-10-24T01:02:05Z",
     "url": "https://github.com/wshobson/agents"
   },
