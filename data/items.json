@@ -1,12 +1,12 @@
 [
   {
-    "description": "Architectural drift prevention for the agentic AI SDLC.",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 29,
-    "updated_at": "2026-10-25T19:01:03Z",
-    "url": "https://github.com/MnemeHQ/mneme"
+    "description": "Free sample Cursor and Claude Code rules for FastAPI, Next.js and Spring Boot, from codebaserules.com",
+    "id": "rahuldeojoshi/codebaserules-samples",
+    "language": "\u2014",
+    "name": "rahuldeojoshi/codebaserules-samples",
+    "stars": 0,
+    "updated_at": "2026-10-25T19:22:44Z",
+    "url": "https://github.com/rahuldeojoshi/codebaserules-samples"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-25T19:00:38Z",
+    "updated_at": "2026-10-25T19:15:36Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Architectural drift prevention for the agentic AI SDLC.",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 30,
+    "updated_at": "2026-10-25T19:01:03Z",
+    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -260,7 +269,7 @@
     "language": "TypeScript",
     "name": "HoangNguyen0403/agent-skills-standard",
     "stars": 582,
-    "updated_at": "2026-10-25T08:33:15Z",
+    "updated_at": "2026-10-25T19:18:56Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
   },
   {
@@ -304,7 +313,7 @@
     "id": "rover-001/checkmate",
     "language": "JavaScript",
     "name": "rover-001/checkmate",
-    "stars": 8,
+    "stars": 9,
     "updated_at": "2026-10-24T16:06:39Z",
     "url": "https://github.com/rover-001/checkmate"
   },
@@ -442,7 +451,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 41695,
+    "stars": 41697,
     "updated_at": "2026-10-24T01:02:05Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -509,19 +518,5 @@
     "stars": 0,
     "updated_at": "2026-10-23T16:05:45Z",
     "url": "https://github.com/sublimecoder/sublimecoding"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: When the user works on, fixes, or implements a ticket (e.g. \"fix bug PROJ-123\", \"work on PROJ-123\", \"run ticket-flow\", \"process morning queue\"), load and follow the Ticket Flow skill. Do not freestyle the sequence.\nalwaysApply: true\n---\n\n# Ticket Flow Trigger Rule\n\nWhen the user asks to process a ticket, fix a bug with an ID, work on a ticket, implement a feature with an ID, run ticket-flow, or handle a queue of tickets:\n\n1. **Load and follow** the Ticket Flow skill at `.cursor/skills/ticket-flow/SKILL.md` (same path when this repo is the workspace root, or when rules/skills are copied into an app repo).\n2. Do not freestyle the workflow sequence.\n3. Enforce the **Confirm** gates before commit and before PR. Never treat silence as Confirm.\n4. Stage only path-scoped changes relevant to the ticket.\n5. Keep the naming glossary from the skill in mind (primary app vs suite vs shared UI).\n",
-      "format": "mdc",
-      "path": ".cursor/rules/ticket-flow.mdc"
-    },
-    "description": "A repeatable, high-discipline workflow pattern for Cursor agents: fetches issues, branches, implements, adds tests, runs",
-    "id": "smg99/ticket-flow",
-    "language": "HTML",
-    "name": "smg99/ticket-flow",
-    "stars": 0,
-    "updated_at": "2026-10-23T15:19:46Z",
-    "url": "https://github.com/smg99/ticket-flow"
   }
 ]
