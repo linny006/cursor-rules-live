@@ -1,20 +1,11 @@
 [
   {
-    "description": "Rules and skills for coding agents: AI Skill Studio (CLAUDE.md, AGENTS.md, Cursor rules, SKILL.md generator), Skill Libr",
-    "id": "Saad-web-spec/DevScratchPad",
-    "language": "TypeScript",
-    "name": "Saad-web-spec/DevScratchPad",
-    "stars": 2,
-    "updated_at": "2026-10-24T23:54:48Z",
-    "url": "https://github.com/Saad-web-spec/DevScratchPad"
-  },
-  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-24T23:45:31Z",
+    "updated_at": "2026-10-25T00:00:33Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -382,7 +373,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 41642,
+    "stars": 41643,
     "updated_at": "2026-10-24T01:02:05Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -513,5 +504,14 @@
     "stars": 0,
     "updated_at": "2026-10-23T09:44:47Z",
     "url": "https://github.com/Acuris-GmbH/acuris-agent-context"
+  },
+  {
+    "description": "Rules that make AI coding agents write code a person would write. AGENTS.md for any agent, plus a Claude Code plugin.",
+    "id": "navulo/human-code",
+    "language": "JavaScript",
+    "name": "navulo/human-code",
+    "stars": 1,
+    "updated_at": "2026-10-23T07:25:50Z",
+    "url": "https://github.com/navulo/human-code"
   }
 ]
