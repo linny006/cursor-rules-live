@@ -1,11 +1,25 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: \"Comments are a last resort: only for non-obvious constraints, gotchas and trade-offs the code cannot express.\"\nglobs: \"**/*.{go,ts,tsx,js,jsx,py,rb,ex,exs,md}\"\nalwaysApply: false\n---\n\n# Comments: extremely rare by design\n\nComments cost tokens, rot silently and hide bad naming. **Default: do not write one.** Add one only when names, types, structure, tests and error handling cannot express the truth.\n\n## Allowed\n- A subtle correctness, security or concurrency gotcha the types do not make obvious.\n- A non-obvious performance, ordering or consistency trade-off (\"must run before X because of Y\").\n- An external constraint invisible in the code (\"the gateway already rate-limits this; do not add another check\"), ideally with a link to the decision record.\n- A contract detail on an exported symbol that the name, signature and tests still leave ambiguous (improve the name first).\n\n## Never\n- Narrating the next line (\"build the request\", \"call the client\", \"return the result\").\n- Restating what a test or assertion already verifies.\n- Describing the change you just made (\"added X for Y\").\n- Section dividers or paraphrasing a function name in a doc comment.\n- Planning notes the decision record should hold.\n\n## Prefer instead\nBetter names, smaller functions, stronger types (enums and newtypes over \"this bool means X\"), tests as executable specification, structured config over magic comments.\n\nIf you feel the urge to explain *what* the code does, rename or restructure instead. When reviewing, delete narrative comments.\n\n## Documentation is not a comment\nModule and function docs, architecture notes, API contracts, migration notes and skills are documentation, not disposable comments. Keep them accurate and explanatory, and **update or delete stale documentation in the same change as the code.**\n\n## Docs comments\nExported-symbol docs (godoc, docstrings) are allowed when the name and signature do not communicate the contract or an important caveat. Restating the name is forbidden, same bar as inline comments.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/comments.mdc"
+    },
+    "description": "Agent skills for people tired of AI slop. 35 skills, 11 subagents, 41 rules and 5 hooks for Claude Code, Cursor and Code",
+    "id": "pahlevikun/levistack",
+    "language": "JavaScript",
+    "name": "pahlevikun/levistack",
+    "stars": 0,
+    "updated_at": "2026-10-25T01:51:55Z",
+    "url": "https://github.com/pahlevikun/levistack"
+  },
+  {
     "description": "Architectural drift prevention for the agentic AI SDLC.",
     "id": "MnemeHQ/mneme",
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 28,
-    "updated_at": "2026-10-25T01:42:05Z",
+    "updated_at": "2026-10-25T01:48:56Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
@@ -14,7 +28,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-25T01:30:40Z",
+    "updated_at": "2026-10-25T01:45:46Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -77,7 +91,7 @@
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 2,
-    "updated_at": "2026-10-25T01:45:09Z",
+    "updated_at": "2026-10-25T01:57:10Z",
     "url": "https://github.com/bompus/house-rules"
   },
   {
@@ -504,14 +518,5 @@
     "stars": 5,
     "updated_at": "2026-10-23T14:16:19Z",
     "url": "https://github.com/DongDuong2001/pudo-code-system"
-  },
-  {
-    "description": "Acuris Address Validation & Geocoding agent context \u2014 Claude Code plugin, Cursor rules/docs, and open Agent Skill (agent",
-    "id": "Acuris-GmbH/acuris-agent-context",
-    "language": "JavaScript",
-    "name": "Acuris-GmbH/acuris-agent-context",
-    "stars": 0,
-    "updated_at": "2026-10-23T09:44:47Z",
-    "url": "https://github.com/Acuris-GmbH/acuris-agent-context"
   }
 ]
