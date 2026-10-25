@@ -1,12 +1,12 @@
 [
   {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
+    "description": "KUKA KRL (KSS 8.3-8.7) AI Prompts, Skills and Rules for Cursor, Antigravity, and Claude Code",
+    "id": "LiskinLabs/kuka-krl-skills",
     "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 52,
-    "updated_at": "2026-10-25T09:45:46Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+    "name": "LiskinLabs/kuka-krl-skills",
+    "stars": 0,
+    "updated_at": "2026-10-25T10:07:09Z",
+    "url": "https://github.com/LiskinLabs/kuka-krl-skills"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-25T09:45:45Z",
+    "updated_at": "2026-10-25T10:00:40Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 52,
+    "updated_at": "2026-10-25T09:45:46Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
@@ -141,7 +150,7 @@
     "language": "TypeScript",
     "name": "heymegabyte/agent-skills",
     "stars": 25,
-    "updated_at": "2026-10-24T21:41:15Z",
+    "updated_at": "2026-10-25T10:09:54Z",
     "url": "https://github.com/heymegabyte/agent-skills"
   },
   {
@@ -185,7 +194,7 @@
     "id": "rover-001/checkmate",
     "language": "JavaScript",
     "name": "rover-001/checkmate",
-    "stars": 7,
+    "stars": 8,
     "updated_at": "2026-10-24T16:06:39Z",
     "url": "https://github.com/rover-001/checkmate"
   },
@@ -469,7 +478,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21569,
+    "stars": 21570,
     "updated_at": "2026-10-23T14:29:26Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -504,14 +513,5 @@
     "stars": 5,
     "updated_at": "2026-10-23T14:16:19Z",
     "url": "https://github.com/DongDuong2001/pudo-code-system"
-  },
-  {
-    "description": "Acuris Address Validation & Geocoding agent context \u2014 Claude Code plugin, Cursor rules/docs, and open Agent Skill (agent",
-    "id": "Acuris-GmbH/acuris-agent-context",
-    "language": "JavaScript",
-    "name": "Acuris-GmbH/acuris-agent-context",
-    "stars": 0,
-    "updated_at": "2026-10-23T09:44:47Z",
-    "url": "https://github.com/Acuris-GmbH/acuris-agent-context"
   }
 ]
