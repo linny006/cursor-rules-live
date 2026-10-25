@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-25 23:15 UTC
+> ⏰ Last updated: 2026-10-25 23:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -69,7 +69,7 @@ expired items removed — so you can rely on what you see being current.
 | 14 | [rahuldeojoshi/codebaserules-samples](https://github.com/rahuldeojoshi/codebaserules-samples) | 0 | — | 2026-10-25 | — | Free sample Cursor and Claude Code rules for FastAPI, Next.js and Spring Boot, from codebaserules.com |
 | 15 | [fluttersdk/wind](https://github.com/fluttersdk/wind) | 43 | Dart | 2026-10-25 | — | Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W- |
 | 16 | [scoyoc5/godot-ai-agent-rules](https://github.com/scoyoc5/godot-ai-agent-rules) | 1 | — | 2026-10-25 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/scoyoc5/godot-ai-agent-rules/) | Free Cursor rules + AGENTS.md that stop AI (Cursor, Claude Code, ChatGPT) from writing Godot 3 code in Godot 4 projects: |
-| 17 | [scoyoc5/unity-ai-agent-rules](https://github.com/scoyoc5/unity-ai-agent-rules) | 5 | — | 2026-10-25 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/scoyoc5/unity-ai-agent-rules/) | Free Cursor rules + AGENTS.md that stop AI (Cursor, Claude Code, ChatGPT) from writing broken Unity C#: missing usings,  |
+| 17 | [scoyoc5/unity-ai-agent-rules](https://github.com/scoyoc5/unity-ai-agent-rules) | 6 | — | 2026-10-25 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/scoyoc5/unity-ai-agent-rules/) | Free Cursor rules + AGENTS.md that stop AI (Cursor, Claude Code, ChatGPT) from writing broken Unity C#: missing usings,  |
 | 18 | [getvibekits/vibe-coding-rules](https://github.com/getvibekits/vibe-coding-rules) | 0 | — | 2026-10-25 | — | Free copy-paste AGENTS.md, CLAUDE.md and Cursor rules for 20 beginner vibe-coding project types |
 | 19 | [danielvm-git/bigpowers](https://github.com/danielvm-git/bigpowers) | 274 | Shell | 2026-10-25 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/) | Agent skills synthesizing years of software engineering discipline into a prescriptive methodology for solo developers |
 | 20 | [eli-alvarado/agentkit-drawer](https://github.com/eli-alvarado/agentkit-drawer) | 0 | Python | 2026-10-25 | — | Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam |
