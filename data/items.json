@@ -1,11 +1,20 @@
 [
   {
+    "description": "Community-voted AI prompts, CLAUDE.md/AGENTS.md templates, Cursor rules, Agent Skills and MCP servers from commandvault.",
+    "id": "geronco/commandvault-library",
+    "language": "JavaScript",
+    "name": "geronco/commandvault-library",
+    "stars": 0,
+    "updated_at": "2026-10-25T03:31:47Z",
+    "url": "https://github.com/geronco/commandvault-library"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-25T03:15:47Z",
+    "updated_at": "2026-10-25T03:30:39Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -339,15 +348,6 @@
     "stars": 9,
     "updated_at": "2026-10-24T05:37:33Z",
     "url": "https://github.com/anshuxinha/karpathy-skills-extended"
-  },
-  {
-    "description": "Community-voted AI prompts, CLAUDE.md/AGENTS.md templates, Cursor rules, Agent Skills and MCP servers from commandvault.",
-    "id": "geronco/commandvault-library",
-    "language": "JavaScript",
-    "name": "geronco/commandvault-library",
-    "stars": 0,
-    "updated_at": "2026-10-24T03:29:53Z",
-    "url": "https://github.com/geronco/commandvault-library"
   },
   {
     "cursorrules": {
