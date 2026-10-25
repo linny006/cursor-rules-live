@@ -10,8 +10,17 @@
     "language": "Python",
     "name": "adalenv/smip-skill",
     "stars": 0,
-    "updated_at": "2026-10-25T22:14:02Z",
+    "updated_at": "2026-10-25T22:27:07Z",
     "url": "https://github.com/adalenv/smip-skill"
+  },
+  {
+    "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
+    "id": "mikeprasad/aria-knowledge",
+    "language": "Shell",
+    "name": "mikeprasad/aria-knowledge",
+    "stars": 17,
+    "updated_at": "2026-10-25T22:16:31Z",
+    "url": "https://github.com/mikeprasad/aria-knowledge"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -19,7 +28,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-25T22:00:34Z",
+    "updated_at": "2026-10-25T22:15:49Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -308,15 +317,6 @@
     "stars": 582,
     "updated_at": "2026-10-25T19:18:56Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
-  },
-  {
-    "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
-    "id": "mikeprasad/aria-knowledge",
-    "language": "Shell",
-    "name": "mikeprasad/aria-knowledge",
-    "stars": 17,
-    "updated_at": "2026-10-24T23:40:10Z",
-    "url": "https://github.com/mikeprasad/aria-knowledge"
   },
   {
     "description": "Universal Git-powered persistent memory, context rules & native MCP server for AI coding agents. Prevents context amnesi",
