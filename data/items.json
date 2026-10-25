@@ -1,11 +1,39 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: Core rules for all Godot 4.x work in this project\nglobs:\nalwaysApply: true\n---\n# Godot 4 Core Rules\n\n## Know the project before writing code\n- Read `project.godot`. `config/features=PackedStringArray(\"4.x\", ...)` tells you the engine version. Never emit APIs newer than that version, and never emit Godot 3 APIs (see `01-godot3-vs-4.mdc`).\n- Check `[autoload]` in `project.godot` before referencing a singleton. If an autoload doesn't exist, say so. Don't assume one.\n- Check `[input]` in `project.godot` (or Project Settings > Input Map) before using an action name in `Input.is_action_pressed()`. Unknown action names fail at runtime, not at parse time.\n- Read `docs/PROJECT.md` and `docs/ARCHITECTURE.md` if they exist.\n- If the project has a `.csproj`, ask whether the file should be GDScript or C# before writing one.\n\n## Never invent APIs\n- Use only classes, methods, properties and signals you are certain exist in Godot 4. If unsure, say **unverified** and link the class reference (https://docs.godotengine.org/en/stable/classes/). Don't guess.\n- See `05-hallucinated-apis.mdc` for the list of known fakes and Godot 3 leftovers.\n\n## Complete, parseable output\n- Write complete `.gd` files: `extends`, optional `class_name`, signals, enums, constants, `@export` vars, `@onready` vars, then functions. Don't use `# ...rest unchanged` stubs unless asked for a diff.\n- Indent with **tabs** (Godot's default). Never mix tabs and spaces in one file; that is a parse error.\n- After editing, run `godot --headless --check-only --script res://<file>.gd` before saying the task is done.\n\n## Scope discipline\n- Change only what the task needs. Never rename `@export` variables, signals, node names or files without flagging it. Renaming an exported var drops the value saved in `.tscn` files; renaming a node breaks `$Path` and `%Unique` lookups.\n- Don't edit `.tscn`/`.tres` files by hand unless asked. If a scene change is needed, describe it (node type, name, parent, properties) so the user can do it in the editor.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/00-godot-core.mdc"
+    },
+    "description": "Free Cursor rules + AGENTS.md that stop AI (Cursor, Claude Code, ChatGPT) from writing Godot 3 code in Godot 4 projects:",
+    "id": "scoyoc5/godot-ai-agent-rules",
+    "language": "\u2014",
+    "name": "scoyoc5/godot-ai-agent-rules",
+    "stars": 1,
+    "updated_at": "2026-10-25T17:15:48Z",
+    "url": "https://github.com/scoyoc5/godot-ai-agent-rules"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Core rules for all Unity C# work in this project\nglobs:\nalwaysApply: true\n---\n# Unity Core Rules\n\n## Know the project before writing code\n- Read `ProjectSettings/ProjectVersion.txt` for the Unity version (`m_EditorVersion`). Never emit APIs newer than that version.\n- Read `Packages/manifest.json` before using any package API (Input System, TextMeshPro, Cinemachine, URP, Addressables, Netcode). If a package is missing, say so and ask. Do not assume it is installed.\n- Read `docs/PROJECT.md` and `docs/ARCHITECTURE.md` if they exist. Follow their conventions over your defaults.\n- Check for `.asmdef` files. If code goes into an assembly, make sure that assembly references what the code uses.\n\n## Never invent APIs\n- Use only Unity APIs you are certain exist in the project's Unity version. If you are not sure, say \"unverified\" and link the Scripting API page (https://docs.unity3d.com/ScriptReference/). Don't guess.\n- Common hallucinations to avoid: `GameObject.FindByTag` (real: `GameObject.FindWithTag` / `FindGameObjectsWithTag`), `transform.GetChildByName` (real: `transform.Find`), `Input.GetAction`, `Rigidbody.AddVelocity`, `Vector3.Clamp`, `Destroy(obj, immediate: true)`.\n\n## Complete, compilable output\n- Write complete files with every `using` directive they need, the namespace, and class braces. Don't write `// ...rest unchanged` stubs unless the user asked for a diff.\n- The file name must match the `MonoBehaviour`/`ScriptableObject` class name, or Unity cannot attach it.\n- After editing, run the verification loop in `docs/VERIFY.md` (or ask the user to check the Console) before calling the task done.\n\n## Scope discipline\n- Change only what the task needs. Never delete or rename existing public members, serialized fields, or files without flagging it first. Renaming a serialized field loses inspector data; see `03-serialization.mdc`.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/00-unity-core.mdc"
+    },
+    "description": "Free Cursor rules + AGENTS.md that stop AI (Cursor, Claude Code, ChatGPT) from writing broken Unity C#: missing usings, ",
+    "id": "scoyoc5/unity-ai-agent-rules",
+    "language": "\u2014",
+    "name": "scoyoc5/unity-ai-agent-rules",
+    "stars": 5,
+    "updated_at": "2026-10-25T17:15:46Z",
+    "url": "https://github.com/scoyoc5/unity-ai-agent-rules"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-25T17:00:39Z",
+    "updated_at": "2026-10-25T17:15:40Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -68,6 +96,15 @@
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
+    "description": "Architectural drift prevention for the agentic AI SDLC.",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 29,
+    "updated_at": "2026-10-25T14:25:51Z",
+    "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
     "description": "Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam",
     "id": "eli-alvarado/agentkit-drawer",
     "language": "Python",
@@ -84,15 +121,6 @@
     "stars": 1,
     "updated_at": "2026-10-25T14:11:00Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Architectural drift prevention for the agentic AI SDLC.",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 28,
-    "updated_at": "2026-10-25T14:25:51Z",
-    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "description": "A universal, native-Rust governance layer for AI coding agents. Enforces Subagent-Driven Development (SDD) to stop hallu",
@@ -377,7 +405,7 @@
     "id": "anshuxinha/karpathy-skills-extended",
     "language": "\u2014",
     "name": "anshuxinha/karpathy-skills-extended",
-    "stars": 16,
+    "stars": 17,
     "updated_at": "2026-10-24T05:37:33Z",
     "url": "https://github.com/anshuxinha/karpathy-skills-extended"
   },
@@ -495,23 +523,5 @@
     "stars": 0,
     "updated_at": "2026-10-23T15:19:46Z",
     "url": "https://github.com/smg99/ticket-flow"
-  },
-  {
-    "description": "\ud83c\udfad 277 \u4e2a\u5373\u63d2\u5373\u7528\u7684 AI \u4e13\u5bb6\u89d2\u8272 \u2014 \u652f\u6301 Claude Code/Cursor/Copilot \u7b49 20 \u79cd\u5de5\u5177\uff0c\u8986\u76d6\u5de5\u7a0b/\u8bbe\u8ba1/\u8425\u9500/\u91d1\u878d\u7b49 20 \u4e2a\u90e8\u95e8\u3002\u542b 64 \u4e2a\u4e2d\u56fd\u5e02\u573a\u539f\u521b\u667a\u80fd\u4f53\uff08\u5c0f\u7ea2\u4e66/\u6296\u97f3/\u5fae\u4fe1/\u98de\u4e66/\u9489\u9489/Qt \u4e0a",
-    "id": "jnMetaCode/agency-agents-zh",
-    "language": "Shell",
-    "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21585,
-    "updated_at": "2026-10-23T14:29:26Z",
-    "url": "https://github.com/jnMetaCode/agency-agents-zh"
-  },
-  {
-    "description": "VS Code extension for LynxPrompt \u2014 browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules) ",
-    "id": "GeiserX/lynxprompt-vscode",
-    "language": "TypeScript",
-    "name": "GeiserX/lynxprompt-vscode",
-    "stars": 2,
-    "updated_at": "2026-10-23T14:11:29Z",
-    "url": "https://github.com/GeiserX/lynxprompt-vscode"
   }
 ]
