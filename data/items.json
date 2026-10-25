@@ -1,12 +1,12 @@
 [
   {
-    "description": "Free AGENTS.md, CLAUDE.md and Cursor rules for Next.js and FastAPI. Make AI coding agents follow your conventions.",
-    "id": "lilaforge/agent-ready-rules-lite",
-    "language": "\u2014",
-    "name": "lilaforge/agent-ready-rules-lite",
-    "stars": 0,
-    "updated_at": "2026-10-25T20:37:44Z",
-    "url": "https://github.com/lilaforge/agent-ready-rules-lite"
+    "description": "Architectural drift prevention for the agentic AI SDLC.",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 29,
+    "updated_at": "2026-10-25T20:59:48Z",
+    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,17 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-25T20:30:45Z",
+    "updated_at": "2026-10-25T20:45:41Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
-    "description": "Architectural drift prevention for the agentic AI SDLC.",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 29,
-    "updated_at": "2026-10-25T20:39:25Z",
-    "url": "https://github.com/MnemeHQ/mneme"
+    "description": "Free AGENTS.md, CLAUDE.md and Cursor rules for Next.js and FastAPI. Make AI coding agents follow your conventions.",
+    "id": "lilaforge/agent-ready-rules-lite",
+    "language": "\u2014",
+    "name": "lilaforge/agent-ready-rules-lite",
+    "stars": 0,
+    "updated_at": "2026-10-25T20:37:44Z",
+    "url": "https://github.com/lilaforge/agent-ready-rules-lite"
   },
   {
     "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
@@ -474,7 +474,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 41700,
+    "stars": 41702,
     "updated_at": "2026-10-24T01:02:05Z",
     "url": "https://github.com/wshobson/agents"
   },
