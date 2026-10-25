@@ -1,12 +1,44 @@
 [
   {
+    "cursorrules": {
+      "content": "# SMIP Skill for Cursor\nKur p\u00ebrdoruesi k\u00ebrkon ndihm\u00eb me regjistrin e SMIP (smip.al), planet m\u00ebsimore ose hedhjen e temave ditore:\n1. Pyet p\u00ebr Klas\u00ebn, L\u00ebnd\u00ebn, Sht\u00ebpin\u00eb Botuese dhe Muajin.\n2. Gjej planin n\u00eb `smip_docs/` me `python3 scripts/find_curriculum.py`.\n3. P\u00ebrputh temat me orarin dhe kalendarin e pushimeve me `python3 scripts/parse_plan.py`.\n4. Shfaq pasqyr\u00ebn tabelare p\u00ebr konfirmim.\n5. Insero temat n\u00eb portal me `python3 scripts/smip_importer.py`.\n",
+      "format": "text",
+      "path": ".cursorrules"
+    },
+    "description": "AI Agent Skill & Automation Tool for the Albanian SMIP (smip.al) Teacher Portal",
+    "id": "adalenv/smip-skill",
+    "language": "Python",
+    "name": "adalenv/smip-skill",
+    "stars": 0,
+    "updated_at": "2026-10-25T21:59:25Z",
+    "url": "https://github.com/adalenv/smip-skill"
+  },
+  {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 52,
+    "updated_at": "2026-10-25T21:59:15Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+  },
+  {
     "description": "Architectural drift prevention for the agentic AI SDLC.",
     "id": "MnemeHQ/mneme",
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 29,
-    "updated_at": "2026-10-25T21:40:58Z",
+    "updated_at": "2026-10-25T22:00:12Z",
     "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-25T21:45:35Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -25,15 +57,6 @@
     "stars": 1,
     "updated_at": "2026-10-25T21:33:20Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-25T21:30:48Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Free AGENTS.md, CLAUDE.md and Cursor rules for Next.js and FastAPI. Make AI coding agents follow your conventions.",
@@ -102,15 +125,6 @@
     "stars": 0,
     "updated_at": "2026-10-25T19:22:44Z",
     "url": "https://github.com/rahuldeojoshi/codebaserules-samples"
-  },
-  {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 52,
-    "updated_at": "2026-10-25T18:44:39Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "description": "Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W-",
@@ -504,19 +518,5 @@
     "stars": 0,
     "updated_at": "2026-10-23T17:13:11Z",
     "url": "https://github.com/MsNan/bishe-doc-skills"
-  },
-  {
-    "cursorrules": {
-      "content": "# /pr-viz\n# Community skill: https://github.com/krzysztofgibert/pr-viz-skill\n# Viewer: https://pr-viz.com\n\nWhen the user runs /pr-viz, or asks to visualize, map, or review a GitHub pull\nrequest, follow skills/pr-viz/SKILL.md in full.\n\nPublish the map with skills/pr-viz/scripts/publish-diagram.mjs to the viewer in\nskills/pr-viz/host.json. Do not paste the review, Mermaid, or ASCII in the chat.\nDo not ask for or handle a GitHub token.\n",
-      "format": "text",
-      "path": ".cursorrules"
-    },
-    "description": "Free IDE skill that turns a GitHub pull request into a two-zone review map. Use it in VS Code, Cursor, Claude Code, or W",
-    "id": "krzysztofgibert/pr-viz-skill",
-    "language": "JavaScript",
-    "name": "krzysztofgibert/pr-viz-skill",
-    "stars": 0,
-    "updated_at": "2026-10-23T17:47:23Z",
-    "url": "https://github.com/krzysztofgibert/pr-viz-skill"
   }
 ]
