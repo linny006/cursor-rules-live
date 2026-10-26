@@ -1,14 +1,5 @@
 [
   {
-    "description": "Beautiful, honest data visualization as an Agent Skill \u2014 five laws, a chart matcher, a 25-point beauty audit. For Claude",
-    "id": "karefined-eng/information-is-beautiful-skill",
-    "language": "TypeScript",
-    "name": "karefined-eng/information-is-beautiful-skill",
-    "stars": 2,
-    "updated_at": "2026-10-26T20:58:01Z",
-    "url": "https://github.com/karefined-eng/information-is-beautiful-skill"
-  },
-  {
     "cursorrules": {
       "content": "# Emdash Skills for Cursor\n\nLoad CONVENTIONS.md for stack defaults. Load _router.md for skill routing.\n23 categories, 149 reference docs, 28 agents.\n\n## Stack\nCF Workers + Hono | React 19 + Vite + shadcn/ui (sites) / Angular 22 + Spartan UI (apps) | D1/Neon | Drizzle v1-rc | Clerk | Stripe + Link (default) \u00b7 Square on request | Inngest | Amazon SES | Bun | Playwright v1.63+ | PostHog | Sentry\n\n## Rules\n- TypeScript strict, never `any`, prefer `interface` over `type`\n- Hono inline handlers for RPC type inference\n- Zod validation on all inputs\n- TDD: failing test first, Playwright 6 breakpoints\n- Dark-first design, #060610 bg, #00E5FF accent\n- Deploy to CF Workers, purge CDN after every deploy\n\nSee CONVENTIONS.md for full patterns.\n",
       "format": "text",
@@ -19,7 +10,7 @@
     "language": "TypeScript",
     "name": "heymegabyte/agent-skills",
     "stars": 26,
-    "updated_at": "2026-10-26T20:56:34Z",
+    "updated_at": "2026-10-26T21:08:49Z",
     "url": "https://github.com/heymegabyte/agent-skills"
   },
   {
@@ -33,7 +24,7 @@
     "language": "JavaScript",
     "name": "roedyrustam/vibes-plug",
     "stars": 114,
-    "updated_at": "2026-10-26T20:51:22Z",
+    "updated_at": "2026-10-26T21:08:29Z",
     "url": "https://github.com/roedyrustam/vibes-plug"
   },
   {
@@ -44,10 +35,10 @@
     },
     "description": "AI defined by four tenets: Cost, Bridge, Work, Theory \u2014 each as low as possible.",
     "id": "fitzyracing1/ai-tenets",
-    "language": "JavaScript",
+    "language": "Python",
     "name": "fitzyracing1/ai-tenets",
     "stars": 0,
-    "updated_at": "2026-10-26T20:45:55Z",
+    "updated_at": "2026-10-26T21:02:20Z",
     "url": "https://github.com/fitzyracing1/ai-tenets"
   },
   {
@@ -56,8 +47,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-26T20:45:41Z",
+    "updated_at": "2026-10-26T21:00:39Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Beautiful, honest data visualization as an Agent Skill \u2014 five laws, a chart matcher, a 25-point beauty audit. For Claude",
+    "id": "karefined-eng/information-is-beautiful-skill",
+    "language": "TypeScript",
+    "name": "karefined-eng/information-is-beautiful-skill",
+    "stars": 2,
+    "updated_at": "2026-10-26T20:58:01Z",
+    "url": "https://github.com/karefined-eng/information-is-beautiful-skill"
   },
   {
     "cursorrules": {
@@ -406,7 +406,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 41792,
+    "stars": 41793,
     "updated_at": "2026-10-26T01:08:14Z",
     "url": "https://github.com/wshobson/agents"
   },
