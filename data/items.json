@@ -1,5 +1,41 @@
 [
   {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 52,
+    "updated_at": "2026-10-26T12:10:46Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+  },
+  {
+    "description": "Goal-driven mode for AI coding agents. Reach the user's win condition in the fewest moves.",
+    "id": "rover-001/checkmate",
+    "language": "JavaScript",
+    "name": "rover-001/checkmate",
+    "stars": 9,
+    "updated_at": "2026-10-26T12:10:21Z",
+    "url": "https://github.com/rover-001/checkmate"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-26T12:03:34Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "The universal open database and semantic vector search engine for AI Agent Skills, MCP Servers, Project Directives, and ",
+    "id": "nsozturk/open-agent-db",
+    "language": "Python",
+    "name": "nsozturk/open-agent-db",
+    "stars": 1,
+    "updated_at": "2026-10-26T12:03:10Z",
+    "url": "https://github.com/nsozturk/open-agent-db"
+  },
+  {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
     "id": "edsondviana8/ai-humanizer-core",
     "language": "HTML",
@@ -9,31 +45,13 @@
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-26T11:45:54Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
     "id": "HoangNguyen0403/agent-skills-standard",
     "language": "TypeScript",
     "name": "HoangNguyen0403/agent-skills-standard",
     "stars": 583,
-    "updated_at": "2026-10-26T11:40:42Z",
+    "updated_at": "2026-10-26T12:09:09Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
-  },
-  {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 52,
-    "updated_at": "2026-10-26T11:01:29Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "cursorrules": {
@@ -214,7 +232,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 41741,
+    "stars": 41742,
     "updated_at": "2026-10-26T01:08:14Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -457,15 +475,6 @@
     "url": "https://github.com/MsNan/prompt-hub-cn"
   },
   {
-    "description": "Goal-driven mode for AI coding agents. Reach the user's win condition in the fewest moves.",
-    "id": "rover-001/checkmate",
-    "language": "JavaScript",
-    "name": "rover-001/checkmate",
-    "stars": 9,
-    "updated_at": "2026-10-24T16:06:39Z",
-    "url": "https://github.com/rover-001/checkmate"
-  },
-  {
     "cursorrules": {
       "content": "---\ndescription: Project rules for agent-context-doctor\nglobs: [\"src/**\", \"tests/**\"]\nalwaysApply: true\n---\n\n# agent-context-doctor \u2014 Cursor Rules\n\nYou are an **implementation agent** for this project. Focus on implementation only \u2014 product strategy is out of scope.\n\n## Hard rules\n\n- No LLM calls, no telemetry, no external network requests\n- No authentication or credential handling\n- No web server or browser UI\n- Do not rename `acd`, `audit`, or `list` commands\n- Do not break the `AuditResult` JSON shape or `.acdrc` schema backward compatibility\n\n## Before finishing any task\n\nRun and confirm these all pass:\n\n```bash\npnpm format:check\npnpm typecheck\npnpm test\npnpm build\n```\n\n## Code style\n\n- TypeScript strict mode \u2014 no `any`, no `ts-ignore`\n- Pure functions for all audit checks in `src/audit/checks/`\n- Tests in `tests/*.spec.ts` using vitest\n- No comments that narrate what the code does\n\n## Final report format\n\nAlways return:\n\n- Files changed (list)\n- Commands run and their output\n- Tests added\n- Known limitations\n",
       "format": "mdc",
@@ -519,19 +528,5 @@
     "stars": 0,
     "updated_at": "2026-10-24T12:09:04Z",
     "url": "https://github.com/longwave-ai-lab/agentic-workflow-os"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: \"Mandatory Multi-Archetype Live Benchmark Protocol: Prevents AI from guessing or patching from static memory. Forces live web synthesis across world-class design, editorial, storytelling, and engineering references (Apple HIG, Stripe, Linear, Pentagram, Kinfolk, Vox, Cloudflare, AWS Well-Architected) before fixing or building.\"\nglobs: \"*\"\nalwaysApply: true\n---\n\n# 01 - Multi-Archetype World-Class Benchmark Protocol (`RULE-BENCHMARK-FIRST`)\n\n## PART A: ENGLISH SPECIFICATION\n\n### 1. Core Invariant: Zero Memory-Only Patching\n\nWhenever the user critiques an output, points out a flaw (in UI/UX, Typography, Motion Graphics, Copywriting, Product Strategy, or System Architecture), or proposes a new feature or design direction:\n\n1. **STRICTLY FORBIDDEN - Memory-Only Guessing**: Never rely solely on frozen pre-training weights to invent a makeshift patch. Autoregressive sampling from static memory defaults to the statistical average of mediocre public repositories (purple neon gradients, nested bordered cards, fake sci-fi labels like `//`, `\u00b7`, `#REF`, `[01]`, or robotic filler prose).\n2. **Step 1 - Mandatory Multi-Archetype Live Benchmark**: Immediately invoke live web search, URL inspection, or browser tools (`search_web`, `read_url_content`, or equivalent) to survey multiple world-class reference archetypes across four distinct domains:\n   - **Domain 1 - Product & Interface Design**: *Apple Human Interface Guidelines (HIG), Stripe Press, Linear, Raycast, Vercel*\n   - **Domain 2 - Editorial & Brand Identity**: *Pentagram, Kinfolk, The New York Times Visual Investigations, Monocle*\n   - **Domain 3 - Visual Storytelling & Motion**: *Ordinary Folk, Vox, Johnny Harris, Kurzgesagt, Lemmino, Cleo Abram*\n   - **Domain 4 - Engineering & System Architecture**: *Stripe API Design, Cloudflare Architecture, AWS Well-Architected Framework, Designing Data-Intensive Applications*\n   - Never lock into a single narrow template. Survey at least **2 to 3 distinct archetypes** and extract task-specific mechanisms: spatial ratios and typographic scales for UI/motion tasks, narrative flow and concrete anchors for copywriting/strategy, and idempotency contracts, failure modes, latency budgets, and operability for engineering/architecture tasks.\n3. **Step 2 - Objective Self-Critique vs. Global Standard**: Present a concise, transparent diagnostic comparison to the user before or alongside the implementation:\n   - *Why did the previous attempt fail or feel cheap?* (Identify the exact root defect: e.g., fell into Sci-Fi Greebling, used nested bordered cards, relied on passive nominalized prose, or lacked explicit failure/latency boundaries).\n   - *How do top-tier studios or principal engineering teams solve the root problem structurally?*\n4. **Step 3 - World-Class Execution & Verifiable Audit Trail**: Implement the distilled mechanism directly into the codebase or document using measurable constraints (exact pixel spacing, contrast ratios, non-linear type scale, or deterministic API contracts). Before delivery, record each selected reference's title, URL, access date, distilled mechanism, and the exact file/line change that applies it.\n\n---\n\n### 2. Operational Domain Triage & Benchmark Selection Matrix\n\nUse the decision matrix below to select the mandatory reference archetypes for any incoming user task:\n\n| Task Category | Primary Archetype Domain | Secondary Cross-Pollination Domain | Concrete Structural Mechanism to Extract | Mandatory Quantitative Parameter |\n| :--- | :--- | :--- | :--- | :--- |\n| **1. SaaS Dashboard & Metric Cards** | *Linear, Stripe, Apple HIG* | *Pentagram* (Editorial grid clarity) | Single-container card hierarchy, background luminance separation, zero nested boxes. | `>= 70% Open Canvas`, `16px-28px` padding, `12.6:1` AAA night contrast (`#E6E4DD` on `#090A0F`). |\n| **2. Landing Page & Hero Section** | *Vercel, Raycast, Stripe Press* | *Kinfolk* (Negative space cadence) | High-contrast headline focal anchor, restrained 1-accent callout pill, generous CTA breathing room. | Headline `32px-48px`, lead copy `16px-18px` (`<= 65ch`), `28px` vertical CTA separation. |\n| **3. Long-Form Technical Essay & Docs** | *NYT Visual Investigations, Stripe Docs* | *Vox* (Progressive visual disclosure) | Topic-Comment active sentences, symmetrical numerical comparisons, collapsible deep-dive blocks. | `15-28 words` average sentence, `45-word` hard cap, zero em-dashes (`U+2014`). |\n| **4. 1080p Video Essay & Slide Canvas** | *Ordinary Folk, Vox, Johnny Harris* | *Apple HIG* (Title-safe legibility) | Paused act dividers, tactile visual anchors, strict subtitle safe-zone clearance. | `1920x1080` frame: X margin `>= 64px-88px`, Top `>= 42px-54px`, Bottom content `y <= 875px`. |\n| **5. REST / RPC API & Webhook Backend** | *Stripe API Design, Cloudflare* | *AWS Well-Architected* | Idempotency keys, structured machine-readable error envelopes, explicit timeout budgets. | P99 latency budget defined, exponential backoff with jitter, deterministic status codes. |\n| **6. Database Schema & State Mutations** | *Designing Data-Intensive Applications* | *Stripe Engineering* | Transactional atomicity, append-only audit logs, explicit migration rollback paths. | Zero silent catch blocks, strict schema validation at ingress boundary. |\n| **7. Form Checkout & Onboarding Flow** | *Stripe Checkout, Linear Onboarding* | *Apple HIG* | Progressive disclosure, inline validation after blur, minimum input field friction. | `<= 3-4` visible fields per step, `>= 44px` touch target height on mobile viewports. |\n| **8. Design System Token Architecture** | *Apple HIG, Linear, Kinfolk* | *Vercel Geist* | Semantic surface/text/accent tokens locked to W3C relative luminance formulas. | Max 1 primary surface, 1 text hierarchy (`95%` / `65%`), 1 accent hue (`#F7B957`). |\n\n---\n\n### 3. 10-Pair Side-by-Side Comparison: \u274c Forbidden vs. \u2705 Required\n\n| # | Operational Scenario | \u274c Forbidden (Memory-Only Anti-Pattern) | \u2705 Required (World-Class Benchmark Standard) |\n| :--- | :--- | :--- | :--- |\n| **1** | **User says: \"This card looks boring, make it look more technical.\"** | Guessing from memory and adding `// SYS.REF:01`, neon cyan borders, status dots `\u2022`, and `10px` monospace tags. | Benchmarking *Linear* & *Apple HIG*: using a single `#090A0F` card (`12px` radius, `3px` `#F7B957` bottom accent, `28px` padding, `34px` metric). |\n| **2** | **User critiques: \"The dark mode text feels hard to read.\"** | Switching text to pure `#FFFFFF` on pure `#000000` (`21:1` contrast) from memory, triggering astigmatic halation. | Benchmarking ophthalmic dark-mode ergonomics & WCAG 2.1 AAA: locking `#E6E4DD` warm off-white on `#090A0F` deep obsidian (`12.6:1`). |\n| **3** | **User asks for a pricing comparison section.** | Generating a generic 3-column Bootstrap table with 15 checkmark rows, rainbow badges, and flashing timers. | Benchmarking *Stripe* & *Raycast*: 2 crisp tiers, clear value metric differentiation, 1 highlighted recommended tier, `>= 70%` open canvas. |\n| **4** | **User complains: \"My article introduction sounds like ChatGPT.\"** | Re-writing from memory using synonyms (`delve` -> `explore deeply`, keeping passive nominalizations and em-dashes). | Benchmarking *The New York Times* & *GS. Cao Xu\u00e2n H\u1ea1o*: stripping nominalizations, opening with a sensory scene or `70% vs. 13%` data anchor. |\n| **5** | **User reports an intermittent webhook duplicate payment bug.** | Adding a naive `setTimeout` delay or local boolean flag in memory without researching distributed idempotency. | Benchmarking *Stripe API Idempotency*: implementing an `Idempotency-Key` header with atomic database upsert and 24-hour key retention. |\n| **6** | **User asks to animate a scene transition or UI modal.** | Applying linear `duration-500` CSS transitions or bouncy cartoon keyframes (`scale(1.3)`) from static memory. | Benchmarking *Ordinary Folk* & *Apple HIG*: using damped spring physics (`stiffness: 220, damping: 26`) with subtle `8px",
-      "format": "mdc",
-      "path": ".cursor/rules/01-benchmark-first-protocol.mdc"
-    },
-    "description": "Stop AI hallucinations, Yes-Man sycophancy, robotic AI slop prose, and cheap UI clutter in 30 seconds. Pre-packaged .mdc",
-    "id": "longwave-ai-lab/anti-slop-ai-harness",
-    "language": "\u2014",
-    "name": "longwave-ai-lab/anti-slop-ai-harness",
-    "stars": 1,
-    "updated_at": "2026-10-24T12:08:52Z",
-    "url": "https://github.com/longwave-ai-lab/anti-slop-ai-harness"
   }
 ]
