@@ -1,5 +1,32 @@
 [
   {
+    "description": "Free copy-paste AGENTS.md, CLAUDE.md and Cursor rules for 20 beginner vibe-coding project types",
+    "id": "getvibekits/vibe-coding-rules",
+    "language": "Shell",
+    "name": "getvibekits/vibe-coding-rules",
+    "stars": 0,
+    "updated_at": "2026-10-26T16:23:57Z",
+    "url": "https://github.com/getvibekits/vibe-coding-rules"
+  },
+  {
+    "description": "Goal-driven mode for AI coding agents. Reach the user's win condition in the fewest moves.",
+    "id": "rover-001/checkmate",
+    "language": "JavaScript",
+    "name": "rover-001/checkmate",
+    "stars": 9,
+    "updated_at": "2026-10-26T16:21:37Z",
+    "url": "https://github.com/rover-001/checkmate"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-26T16:15:46Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
     "id": "agenticstandardcontact-byte/agentic-architect",
     "language": "HTML",
@@ -16,15 +43,6 @@
     "stars": 0,
     "updated_at": "2026-10-26T16:02:08Z",
     "url": "https://github.com/theshaonsaleh/cursor-rules"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-26T16:00:47Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
@@ -136,15 +154,6 @@
     "url": "https://github.com/karefined-eng/information-is-beautiful-skill"
   },
   {
-    "description": "Free copy-paste AGENTS.md, CLAUDE.md and Cursor rules for 20 beginner vibe-coding project types",
-    "id": "getvibekits/vibe-coding-rules",
-    "language": "Shell",
-    "name": "getvibekits/vibe-coding-rules",
-    "stars": 0,
-    "updated_at": "2026-10-26T12:25:40Z",
-    "url": "https://github.com/getvibekits/vibe-coding-rules"
-  },
-  {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
     "id": "J-nowcow/awesome-korean-agent-skills",
     "language": "\u2014",
@@ -152,15 +161,6 @@
     "stars": 52,
     "updated_at": "2026-10-26T12:10:46Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "description": "Goal-driven mode for AI coding agents. Reach the user's win condition in the fewest moves.",
-    "id": "rover-001/checkmate",
-    "language": "JavaScript",
-    "name": "rover-001/checkmate",
-    "stars": 9,
-    "updated_at": "2026-10-26T12:10:21Z",
-    "url": "https://github.com/rover-001/checkmate"
   },
   {
     "description": "The universal open database and semantic vector search engine for AI Agent Skills, MCP Servers, Project Directives, and ",
@@ -323,7 +323,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 41765,
+    "stars": 41766,
     "updated_at": "2026-10-26T01:08:14Z",
     "url": "https://github.com/wshobson/agents"
   },
