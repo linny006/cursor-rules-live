@@ -1,5 +1,32 @@
 [
   {
+    "description": "Free copy-paste AGENTS.md, CLAUDE.md and Cursor rules for 20 beginner vibe-coding project types",
+    "id": "getvibekits/vibe-coding-rules",
+    "language": "Shell",
+    "name": "getvibekits/vibe-coding-rules",
+    "stars": 0,
+    "updated_at": "2026-10-26T12:25:40Z",
+    "url": "https://github.com/getvibekits/vibe-coding-rules"
+  },
+  {
+    "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
+    "id": "HoangNguyen0403/agent-skills-standard",
+    "language": "TypeScript",
+    "name": "HoangNguyen0403/agent-skills-standard",
+    "stars": 583,
+    "updated_at": "2026-10-26T12:16:13Z",
+    "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-26T12:15:35Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
     "id": "J-nowcow/awesome-korean-agent-skills",
     "language": "\u2014",
@@ -18,15 +45,6 @@
     "url": "https://github.com/rover-001/checkmate"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-26T12:03:34Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "The universal open database and semantic vector search engine for AI Agent Skills, MCP Servers, Project Directives, and ",
     "id": "nsozturk/open-agent-db",
     "language": "Python",
@@ -43,15 +61,6 @@
     "stars": 1,
     "updated_at": "2026-10-26T11:53:12Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
-    "id": "HoangNguyen0403/agent-skills-standard",
-    "language": "TypeScript",
-    "name": "HoangNguyen0403/agent-skills-standard",
-    "stars": 583,
-    "updated_at": "2026-10-26T12:09:09Z",
-    "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
   },
   {
     "cursorrules": {
@@ -336,15 +345,6 @@
     "stars": 6,
     "updated_at": "2026-10-25T17:15:46Z",
     "url": "https://github.com/scoyoc5/unity-ai-agent-rules"
-  },
-  {
-    "description": "Free copy-paste AGENTS.md, CLAUDE.md and Cursor rules for 20 beginner vibe-coding project types",
-    "id": "getvibekits/vibe-coding-rules",
-    "language": "\u2014",
-    "name": "getvibekits/vibe-coding-rules",
-    "stars": 0,
-    "updated_at": "2026-10-25T16:21:56Z",
-    "url": "https://github.com/getvibekits/vibe-coding-rules"
   },
   {
     "cursorrules": {
