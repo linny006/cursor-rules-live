@@ -1,21 +1,49 @@
 [
   {
-    "description": "Free copy-paste AGENTS.md, CLAUDE.md and Cursor rules for 20 beginner vibe-coding project types",
-    "id": "getvibekits/vibe-coding-rules",
-    "language": "Shell",
-    "name": "getvibekits/vibe-coding-rules",
+    "cursorrules": {
+      "content": "---\ndescription: Four Tenets of AI - minimize Cost, Bridge, Work, Theory\nalwaysApply: true\n---\n\nFollow the Four Tenets of AI (https://github.com/fitzyracing1/ai-tenets): keep Cost, Bridge, Work, and Theory as low as possible.\n- Cost: choose the cheapest path (tokens, compute, API fees) that gives a correct result.\n- Bridge: use the fewest tools, APIs, adapters, and format conversions.\n- Work: finish in few, bounded steps; no needless retries or open-ended loops (see https://github.com/fitzyracing1/bound-loop).\n- Theory: verify claims before relying on them; label anything unverified.\nLowering one tenet by raising another is only progress if the total goes down.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/ai-tenets.mdc"
+    },
+    "description": "AI defined by four tenets: Cost, Bridge, Work, Theory \u2014 each as low as possible.",
+    "id": "fitzyracing1/ai-tenets",
+    "language": "\u2014",
+    "name": "fitzyracing1/ai-tenets",
     "stars": 0,
-    "updated_at": "2026-10-26T20:24:01Z",
-    "url": "https://github.com/getvibekits/vibe-coding-rules"
+    "updated_at": "2026-10-26T20:43:48Z",
+    "url": "https://github.com/fitzyracing1/ai-tenets"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
+    "cursorrules": {
+      "content": "# /pr-viz\n# Community skill: https://github.com/krzysztofgibert/pr-viz-skill\n# Viewer: https://pr-viz.com\n\nWhen the user runs /pr-viz, or asks to visualize, map, or review a GitHub pull\nrequest, follow skills/pr-viz/SKILL.md in full.\n\nPublish the map with skills/pr-viz/scripts/publish-diagram.mjs to the viewer in\nskills/pr-viz/host.json. Do not paste the review, Mermaid, or ASCII in the chat.\nDo not ask for or handle a GitHub token.\n",
+      "format": "text",
+      "path": ".cursorrules"
+    },
+    "description": "Free IDE skill that turns a GitHub pull request into a two-zone review map. Use it in VS Code, Cursor, Claude Code, or W",
+    "id": "krzysztofgibert/pr-viz-skill",
+    "language": "JavaScript",
+    "name": "krzysztofgibert/pr-viz-skill",
+    "stars": 0,
+    "updated_at": "2026-10-26T20:43:12Z",
+    "url": "https://github.com/krzysztofgibert/pr-viz-skill"
+  },
+  {
+    "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
+    "id": "SupremeSupport/Cursor-Desktop-2026",
+    "language": "\u2014",
+    "name": "SupremeSupport/Cursor-Desktop-2026",
+    "stars": 1,
+    "updated_at": "2026-10-26T20:36:31Z",
+    "url": "https://github.com/SupremeSupport/Cursor-Desktop-2026"
+  },
+  {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
     "language": "HTML",
-    "name": "linny006/cursor-rules-live",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
     "stars": 3,
-    "updated_at": "2026-10-26T20:15:43Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
+    "updated_at": "2026-10-26T20:34:36Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "cursorrules": {
@@ -28,8 +56,26 @@
     "language": "JavaScript",
     "name": "roedyrustam/vibes-plug",
     "stars": 114,
-    "updated_at": "2026-10-26T20:12:13Z",
+    "updated_at": "2026-10-26T20:33:39Z",
     "url": "https://github.com/roedyrustam/vibes-plug"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-26T20:30:42Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Free copy-paste AGENTS.md, CLAUDE.md and Cursor rules for 20 beginner vibe-coding project types",
+    "id": "getvibekits/vibe-coding-rules",
+    "language": "Shell",
+    "name": "getvibekits/vibe-coding-rules",
+    "stars": 0,
+    "updated_at": "2026-10-26T20:24:01Z",
+    "url": "https://github.com/getvibekits/vibe-coding-rules"
   },
   {
     "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
@@ -62,20 +108,6 @@
     "stars": 29,
     "updated_at": "2026-10-26T19:20:34Z",
     "url": "https://github.com/MnemeHQ/mneme"
-  },
-  {
-    "cursorrules": {
-      "content": "# /pr-viz\n# Community skill: https://github.com/krzysztofgibert/pr-viz-skill\n# Viewer: https://pr-viz.com\n\nWhen the user runs /pr-viz, or asks to visualize, map, or review a GitHub pull\nrequest, follow skills/pr-viz/SKILL.md in full.\n\nPublish the map with skills/pr-viz/scripts/publish-diagram.mjs to the viewer in\nskills/pr-viz/host.json. Do not paste the review, Mermaid, or ASCII in the chat.\nDo not ask for or handle a GitHub token.\n",
-      "format": "text",
-      "path": ".cursorrules"
-    },
-    "description": "Free IDE skill that turns a GitHub pull request into a two-zone review map. Use it in VS Code, Cursor, Claude Code, or W",
-    "id": "krzysztofgibert/pr-viz-skill",
-    "language": "JavaScript",
-    "name": "krzysztofgibert/pr-viz-skill",
-    "stars": 0,
-    "updated_at": "2026-10-26T18:22:26Z",
-    "url": "https://github.com/krzysztofgibert/pr-viz-skill"
   },
   {
     "cursorrules": {
@@ -126,15 +158,6 @@
     "stars": 0,
     "updated_at": "2026-10-26T17:02:43Z",
     "url": "https://github.com/MsNan/bishe-doc-skills"
-  },
-  {
-    "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
-    "id": "SupremeSupport/Cursor-Desktop-2026",
-    "language": "\u2014",
-    "name": "SupremeSupport/Cursor-Desktop-2026",
-    "stars": 1,
-    "updated_at": "2026-10-26T16:47:23Z",
-    "url": "https://github.com/SupremeSupport/Cursor-Desktop-2026"
   },
   {
     "description": "Goal-driven mode for AI coding agents. Reach the user's win condition in the fewest moves.",
@@ -221,15 +244,6 @@
     "stars": 583,
     "updated_at": "2026-10-26T14:45:31Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
-  },
-  {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 3,
-    "updated_at": "2026-10-26T14:22:10Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "description": "404\u4f53\u306e\u5373\u6226\u529bAI\u5c02\u9580\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u96c6 \u2014 Claude Code / Cursor / Copilot \u7b49\u306b\u5bfe\u5fdc\u3002\u65e5\u672c\u5e02\u5834\u5411\u3051\u30aa\u30ea\u30b8\u30ca\u30eb125\u4f53\uff08SIer\u30fb\u53d7\u8a17\u958b\u767a\u30fbSaaS\u30fb\u88fd\u9020DX\u30fb\u516c\u5171\u5206\u91ce\uff09\u3002agency-agents\u306e\u65e5\u672c\u8a9e\u30b3\u30df\u30e5",
@@ -514,14 +528,5 @@
     "stars": 0,
     "updated_at": "2026-10-25T13:07:00Z",
     "url": "https://github.com/LiskinLabs/kuka-krl-skills"
-  },
-  {
-    "description": "Rules and skills for coding agents: AI Skill Studio (CLAUDE.md, AGENTS.md, Cursor rules, SKILL.md generator), Skill Libr",
-    "id": "Saad-web-spec/DevScratchPad",
-    "language": "TypeScript",
-    "name": "Saad-web-spec/DevScratchPad",
-    "stars": 1,
-    "updated_at": "2026-10-25T08:37:23Z",
-    "url": "https://github.com/Saad-web-spec/DevScratchPad"
   }
 ]
