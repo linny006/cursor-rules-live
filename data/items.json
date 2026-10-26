@@ -1,12 +1,12 @@
 [
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-26T09:45:33Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
+    "description": "Homebrew tap for LynxPrompt CLI",
+    "id": "GeiserX/homebrew-lynxprompt",
+    "language": "Shell",
+    "name": "GeiserX/homebrew-lynxprompt",
+    "stars": 2,
+    "updated_at": "2026-10-26T10:13:49Z",
+    "url": "https://github.com/GeiserX/homebrew-lynxprompt"
   },
   {
     "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
@@ -14,8 +14,17 @@
     "language": "TypeScript",
     "name": "HoangNguyen0403/agent-skills-standard",
     "stars": 583,
-    "updated_at": "2026-10-26T10:00:12Z",
+    "updated_at": "2026-10-26T10:10:31Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-26T10:00:35Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Auto harness engineering meta-repo: discuss \u2192 curate \u2192 bootstrap a context-engineered project for Claude Code, Cursor, C",
@@ -519,14 +528,5 @@
     "stars": 1,
     "updated_at": "2026-10-24T12:08:52Z",
     "url": "https://github.com/longwave-ai-lab/anti-slop-ai-harness"
-  },
-  {
-    "description": "A curated directory of skills, tools, and plugins for AI coding agents \u2014 across every platform. MCP servers, Agent Skill",
-    "id": "philipbankier/awesome-agent-skills",
-    "language": "TypeScript",
-    "name": "philipbankier/awesome-agent-skills",
-    "stars": 22,
-    "updated_at": "2026-10-24T11:29:08Z",
-    "url": "https://github.com/philipbankier/awesome-agent-skills"
   }
 ]
