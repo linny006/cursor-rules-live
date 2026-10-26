@@ -1,5 +1,51 @@
 [
   {
+    "description": "\u65e0\u5173\u7528\u6237\uff0c \u65e0\u5173\u7cfb\u7edf\uff0c \u65e0\u5173\u9879\u76ee\uff0c\u5f00\u7bb1\u590d\u5236\u5373\u7528\uff01 code faster, code better; ",
+    "id": "wangqiqi/cursor-ai",
+    "language": "Shell",
+    "name": "wangqiqi/cursor-ai",
+    "stars": 4,
+    "updated_at": "2026-10-26T04:52:32Z",
+    "url": "https://github.com/wangqiqi/cursor-ai"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Kuma MCP \u2014 safety and context runtime for AI agents\nalwaysApply: true\n---\n\nKuma MCP tools: kuma_context, kuma_memory, kuma_safety.\nRecord what matters, skip what doesn't.\n\n<kuma_obedience>\n## \ud83d\udd12 Obedience (non-negotiable)\n- MUST call `kuma_context({ action: \"init\" })` at session start.\n- MUST record gotchas IMMEDIATELY when a bug/quirk is found.\n- MUST call `kuma_safety({ action: \"verify\" })` after edits.\n- MUST NOT call actions outside the 13 core actions.\n</kuma_obedience>\n\n<kuma_workflow>\n\ud83e\udde0 **Before coding:** `kuma_context({ action: \"init\" })`\n\ud83d\udd2c **Unfamiliar code:** `kuma_context({ action: \"research\", scope: \"<area>\" })`\n\ud83d\udc1b **Found a bug/quirk:** `kuma_memory({ action: \"gotcha\" })` (IMMEDIATELY)\n\ud83e\udded **Chose between options:** `kuma_memory({ action: \"decision\" })`\n\ud83d\udd00 **Traced a flow:** `kuma_memory({ action: \"arch_flow\" })` (max 5 files)\n\ud83d\udee1\ufe0f **Before risky work / after edits:** `kuma_safety({ action: \"guard\" | \"verify\" })`\n</kuma_workflow>\n\n\ud83d\udcd6 Full rules: `.kuma/init.md`\n\n\ud83d\udcd6 **Usage:**\n  \u2022 `kuma_context({ action: \"init\" })` \u2014 load project context (call first)\n  \u2022 `kuma_safety({ action: \"guard\" })` \u2014 safety check before risky ops\n  \u2022 `kuma_safety({ action: \"verify\", scope: \"<area>\" })` \u2014 verify after edits\n  \u2022 `.kuma/init.md` \u2014 full behavioral rules\n  \u2022 `.kuma/KNOWN_GOTCHAS.md` \u2014 gotchas \u00b7 `.kuma/memories/decisions.md` \u2014 decisions (readable)",
+      "format": "mdc",
+      "path": ".cursor/rules/kuma.mdc"
+    },
+    "description": "\ud83c\udf75 Deliberate engineering guidelines & deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block",
+    "id": "plumpslabs/matcha",
+    "language": "JavaScript",
+    "name": "plumpslabs/matcha",
+    "stars": 2,
+    "updated_at": "2026-10-26T04:52:02Z",
+    "url": "https://github.com/plumpslabs/matcha"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-26T04:45:41Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Component development patterns and composition rules\nglobs: [\"src/components/**/*.{tsx,ts}\", \"src/pages/**/*.{tsx,ts}\"]\nalwaysApply: false\n---\n\n# Component Development Rules\n\n## Component Patterns\n\n### GOOD Component Structure\n```tsx\n// Single responsibility, 20-80 lines\ninterface UserCardProps {\n  user: User\n  onEdit: (id: string) => void\n  className?: string\n}\n\nexport const UserCard = ({ user, onEdit, className }: UserCardProps) => {\n  return (\n    <Card className={cn(\"p-4\", className)}>\n      <Avatar src={user.avatar} />\n      <div>\n        <h3 className=\"font-semibold\">{user.name}</h3>\n        <p className=\"text-muted-foreground\">{user.email}</p>\n        <Button onClick={() => onEdit(user.id)}>Edit</Button>\n      </div>\n    </Card>\n  )\n}\n```\n\n### AVOID: Monolithic Components\n```tsx\n// DON'T: 300+ lines mixing concerns\nconst UserManagement = () => {\n  // Massive component with multiple responsibilities\n}\n```\n\n### Component Composition Pattern\n```tsx\n// Build complex UI from smaller components\nconst Dashboard = () => (\n  <PageLayout>\n    <DashboardHeader />\n    <DashboardMetrics />\n    <DashboardCharts />\n    <DashboardActivity />\n  </PageLayout>\n)\n```\n\n## UI Component Rules\n\n### shadcn/ui Components\n- **NEVER** modify files in `src/components/ui/` directly\n- **EXTEND** by creating wrappers in `src/components/common/`\n- **COMPOSE** multiple ui components to build features\n\n### Form Components\n```tsx\n// Use React Hook Form + Zod pattern\nexport const UserForm = ({ onSubmit, initialData }: UserFormProps) => {\n  const form = useForm<UserFormData>({\n    resolver: zodResolver(userSchema),\n    defaultValues: initialData\n  })\n\n  return (\n    <Form {...form}>\n      <form onSubmit={form.handleSubmit(onSubmit)}>\n        <FormField\n          control={form.control}\n          name=\"name\"\n          render={({ field }) => (\n            <FormItem>\n              <FormLabel>Name</FormLabel>\n              <FormControl>\n                <Input {...field} />\n              </FormControl>\n              <FormMessage />\n            </FormItem>\n          )}\n        />\n      </form>\n    </Form>\n  )\n}\n```\n\n## Page Component Rules\n\n### Pages = Composition Only\n```tsx\n// PERFECT: Thin orchestration layer (10-30 lines max)\nconst DashboardPage = () => {\n  const { data: user, isLoading } = useCurrentUser()\n  \n  if (isLoading) return <PageSkeleton />\n  \n  return (\n    <PageLayout>\n      <DashboardHeader user={user} />\n      <DashboardMetrics />\n      <div className=\"grid grid-cols-1 lg:grid-cols-2 gap-6\">\n        <DashboardCharts />\n        <DashboardActivity />\n      </div>\n    </PageLayout>\n  )\n}\n```\n\n### NEVER in Pages\n- Business logic (extract to hooks)\n- API calls (use service layer)\n- Complex state management\n- Inline event handlers\n\n## Reusable Component Patterns\n\n### Compound Components\n```tsx\nconst DataTable = ({ children }) => (\n  <div className=\"border rounded-lg overflow-hidden\">{children}</div>\n)\n\nconst DataTableHeader = ({ children }) => (\n  <div className=\"bg-muted p-4 border-b\">{children}</div>\n)\n\n// Usage\n<DataTable>\n  <DataTableHeader>\n    <h3>Users</h3>\n  </DataTableHeader>\n  <DataTableBody>\n    {users.map(user => <UserRow key={user.id} user={user} />)}\n  </DataTableBody>\n</DataTable>\n```\n",
+      "format": "mdc",
+      "path": ".cursor/rules/components.mdc"
+    },
+    "description": "A Lovable-inspired React boilerplate that brings no-code AI UI generation into clean code. Fully open, customizable, and",
+    "id": "chihebnabil/lovable-boilerplate",
+    "language": "TypeScript",
+    "name": "chihebnabil/lovable-boilerplate",
+    "stars": 65,
+    "updated_at": "2026-10-26T04:46:43Z",
+    "url": "https://github.com/chihebnabil/lovable-boilerplate"
+  },
+  {
     "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
     "id": "SupremeSupport/Cursor-Desktop-2026",
     "language": "\u2014",
@@ -25,24 +71,6 @@
     "stars": 1,
     "updated_at": "2026-10-26T04:31:44Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-26T04:30:32Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
-    "description": "\u65e0\u5173\u7528\u6237\uff0c \u65e0\u5173\u7cfb\u7edf\uff0c \u65e0\u5173\u9879\u76ee\uff0c\u5f00\u7bb1\u590d\u5236\u5373\u7528\uff01 code faster, code better; ",
-    "id": "wangqiqi/cursor-ai",
-    "language": "Shell",
-    "name": "wangqiqi/cursor-ai",
-    "stars": 4,
-    "updated_at": "2026-10-26T04:29:09Z",
-    "url": "https://github.com/wangqiqi/cursor-ai"
   },
   {
     "description": "Community-voted AI prompts, CLAUDE.md/AGENTS.md templates, Cursor rules, Agent Skills and MCP servers from commandvault.",
@@ -99,7 +127,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 41716,
+    "stars": 41718,
     "updated_at": "2026-10-26T01:08:14Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -500,23 +528,5 @@
     "stars": 4,
     "updated_at": "2026-10-24T01:13:42Z",
     "url": "https://github.com/Oscarr36/ReadMeAI"
-  },
-  {
-    "description": "AI skill for Claude, Cursor & Codex that designs system architecture for new projects and audits existing codebases \u2014 cl",
-    "id": "Muhammad-Ahmad092/design-and-fix",
-    "language": "Python",
-    "name": "Muhammad-Ahmad092/design-and-fix",
-    "stars": 0,
-    "updated_at": "2026-10-23T21:18:39Z",
-    "url": "https://github.com/Muhammad-Ahmad092/design-and-fix"
-  },
-  {
-    "description": "\ud83c\udfac Standalone Broadcast Programmatic Motion Graphics, Kinetic Typography, Living Cartoon Stage & 60fps Video Engine for A",
-    "id": "roedyrustam/cinematic-motion-engine",
-    "language": "HTML",
-    "name": "roedyrustam/cinematic-motion-engine",
-    "stars": 0,
-    "updated_at": "2026-10-23T20:35:35Z",
-    "url": "https://github.com/roedyrustam/cinematic-motion-engine"
   }
 ]
