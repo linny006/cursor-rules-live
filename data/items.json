@@ -1,21 +1,21 @@
 [
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-26T17:15:37Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
     "id": "bompus/house-rules",
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 2,
-    "updated_at": "2026-10-26T17:29:57Z",
+    "updated_at": "2026-10-26T17:37:09Z",
     "url": "https://github.com/bompus/house-rules"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-26T17:30:44Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -97,6 +97,15 @@
     "stars": 0,
     "updated_at": "2026-10-26T15:00:21Z",
     "url": "https://github.com/eli-alvarado/agentkit-drawer"
+  },
+  {
+    "description": "Agent skills CLI: init AGENTS.md, install SKILL.md from any GitHub repo for Cursor, Claude Code, Copilot, Windsurf, Code",
+    "id": "vorlaxen-labs/agent-skills",
+    "language": "TypeScript",
+    "name": "vorlaxen-labs/agent-skills",
+    "stars": 7,
+    "updated_at": "2026-10-26T14:58:42Z",
+    "url": "https://github.com/vorlaxen-labs/agent-skills"
   },
   {
     "description": "Lint your AI instruction files the way each agent reads them \u2014 CLAUDE.md, AGENTS.md, .cursor/rules, GEMINI.md \u2014 and see ",
@@ -341,7 +350,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 41773,
+    "stars": 41777,
     "updated_at": "2026-10-26T01:08:14Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -509,14 +518,5 @@
     "stars": 4,
     "updated_at": "2026-10-24T20:16:49Z",
     "url": "https://github.com/digital-lake-ai/lognexus"
-  },
-  {
-    "description": "Free AGENTS.md generator. Pick rules for your stack, scan a repository, and export AGENTS.md, CLAUDE.md, Cursor rules or",
-    "id": "grzmol/AGENTS.md-generator",
-    "language": "TypeScript",
-    "name": "grzmol/AGENTS.md-generator",
-    "stars": 0,
-    "updated_at": "2026-10-24T18:01:35Z",
-    "url": "https://github.com/grzmol/AGENTS.md-generator"
   }
 ]
