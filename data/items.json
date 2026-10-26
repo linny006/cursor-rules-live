@@ -1,5 +1,32 @@
 [
   {
+    "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
+    "id": "bompus/house-rules",
+    "language": "JavaScript",
+    "name": "bompus/house-rules",
+    "stars": 2,
+    "updated_at": "2026-10-26T15:02:13Z",
+    "url": "https://github.com/bompus/house-rules"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-26T15:00:53Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam",
+    "id": "eli-alvarado/agentkit-drawer",
+    "language": "Python",
+    "name": "eli-alvarado/agentkit-drawer",
+    "stars": 0,
+    "updated_at": "2026-10-26T15:00:21Z",
+    "url": "https://github.com/eli-alvarado/agentkit-drawer"
+  },
+  {
     "description": "Lint your AI instruction files the way each agent reads them \u2014 CLAUDE.md, AGENTS.md, .cursor/rules, GEMINI.md \u2014 and see ",
     "id": "blackberrylabs/linstruct",
     "language": "Rust",
@@ -41,15 +68,6 @@
     "url": "https://github.com/SupremeSupport/Cursor-Desktop-2026"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-26T14:45:44Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
     "id": "HoangNguyen0403/agent-skills-standard",
     "language": "TypeScript",
@@ -57,24 +75,6 @@
     "stars": 583,
     "updated_at": "2026-10-26T14:45:31Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
-  },
-  {
-    "description": "Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam",
-    "id": "eli-alvarado/agentkit-drawer",
-    "language": "Python",
-    "name": "eli-alvarado/agentkit-drawer",
-    "stars": 0,
-    "updated_at": "2026-10-26T14:59:08Z",
-    "url": "https://github.com/eli-alvarado/agentkit-drawer"
-  },
-  {
-    "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
-    "id": "bompus/house-rules",
-    "language": "JavaScript",
-    "name": "bompus/house-rules",
-    "stars": 2,
-    "updated_at": "2026-10-26T14:50:25Z",
-    "url": "https://github.com/bompus/house-rules"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -305,7 +305,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 41761,
+    "stars": 41762,
     "updated_at": "2026-10-26T01:08:14Z",
     "url": "https://github.com/wshobson/agents"
   },
