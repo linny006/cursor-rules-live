@@ -1,5 +1,23 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-26T22:30:46Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-10-26T22:30:37Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
+  },
+  {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
     "id": "arnoldalberto007-sys/Swift-UIKit-Components",
     "language": "HTML",
@@ -28,17 +46,8 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 29,
-    "updated_at": "2026-10-26T22:22:29Z",
+    "updated_at": "2026-10-26T22:41:13Z",
     "url": "https://github.com/MnemeHQ/mneme"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-26T22:15:45Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -142,7 +151,7 @@
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 2,
-    "updated_at": "2026-10-26T19:46:34Z",
+    "updated_at": "2026-10-26T22:40:29Z",
     "url": "https://github.com/bompus/house-rules"
   },
   {
@@ -158,15 +167,6 @@
     "stars": 0,
     "updated_at": "2026-10-26T18:21:28Z",
     "url": "https://github.com/grizzlykiwidev/grizzlykiwidev.github.io"
-  },
-  {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
-    "stars": 0,
-    "updated_at": "2026-10-26T17:13:25Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
   },
   {
     "description": "\u6bd5\u4e1a\u8bbe\u8ba1\u6587\u6863 AI \u6280\u80fd\u5305\uff1a\u5f00\u9898\u62a5\u544a/\u9700\u6c42\u5206\u6790/\u7cfb\u7edf\u8bbe\u8ba1/GB-T 7714 \u8bba\u6587\u89c4\u8303/\u6d4b\u8bd5/\u7b54\u8fa9\uff0c\u4e00\u952e\u88c5\u8fdb Claude Code\u00b7Cursor\u00b7Trae\u00b7Codex\uff0c\u4e0d\u7f16\u9020\u6587\u732e\u4e0e\u6d4b\u8bd5\u6570\u636e",
