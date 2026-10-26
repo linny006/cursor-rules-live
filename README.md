@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-26 20:00 UTC
+> ⏰ Last updated: 2026-10-26 20:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,9 +53,9 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [roedyrustam/vibes-plug](https://github.com/roedyrustam/vibes-plug) | 113 | JavaScript | 2026-10-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/roedyrustam/vibes-plug/) | 🌊 Universal AI Agent Swarm & MCP Plugin with 176 specialized skills and 8 autonomous subagents for Antigravity, Claude C |
-| 2 | [bompus/house-rules](https://github.com/bompus/house-rules) | 2 | JavaScript | 2026-10-26 | — | Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md |
-| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-26 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [roedyrustam/vibes-plug](https://github.com/roedyrustam/vibes-plug) | 114 | JavaScript | 2026-10-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/roedyrustam/vibes-plug/) | 🌊 Universal AI Agent Swarm & MCP Plugin with 176 specialized skills and 8 autonomous subagents for Antigravity, Claude C |
+| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-26 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 3 | [bompus/house-rules](https://github.com/bompus/house-rules) | 2 | JavaScript | 2026-10-26 | — | Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md |
 | 4 | [heymegabyte/agent-skills](https://github.com/heymegabyte/agent-skills) | 26 | TypeScript | 2026-10-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/agent-skills/) | Agent Skills — agent-neutral autonomous product-building OS for 32+ AI coding tools. 23 skill categories · 28 agents · 1 |
 | 5 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 29 | Python | 2026-10-26 | — | Architectural drift prevention for the agentic AI SDLC. |
 | 6 | [krzysztofgibert/pr-viz-skill](https://github.com/krzysztofgibert/pr-viz-skill) | 0 | JavaScript | 2026-10-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/krzysztofgibert/pr-viz-skill/) | Free IDE skill that turns a GitHub pull request into a two-zone review map. Use it in VS Code, Cursor, Claude Code, or W |
