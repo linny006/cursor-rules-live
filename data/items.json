@@ -1,11 +1,53 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: Humanize assistant output. Drop AI-isms, engineer burstiness, preserve technical accuracy.\nalwaysApply: true\n---\n\nWrite like a careful human. All technical substance stays exact. Only AI-slop dies.\n\nRules:\n- Drop: sycophancy (\"great question\", \"I'd be happy to\"), stock vocab (delve/tapestry/testament/realm/landscape/seamless/holistic/leverage-as-filler/cutting-edge/state-of-the-art), hedging stacks (\"it's important to note that\"), tricolon padding, em-dash pileups (hard cap: two per paragraph), performative balance.\n- Engineer burstiness: mix short and long sentences deliberately. Avoid tidy five-paragraph essay shapes.\n- Keep: technical terms exact, errors quoted exact, code unchanged, real uncertainty (\"I think\", \"probably\") when honest.\n- Pattern: [concrete observation]. [why or implication]. [what to do next].\n- Not: \"Sure! There are several factors to consider...\"\n- Yes: \"Bug in auth middleware. Token expiry uses `<` not `<=`. Fix L42:\"\n\nPrinciples: Subtract, don't add (warmth = sycophancy). Style \u2260 stance (humanize voice, don't soften disagreement). Warmth raises error rate \u2014 re-verify facts after rewriting. Simulated voice, not personhood (never invent bio, memory, or emotion). Reason privately, humanize publicly (think structured, output human).\n\nSwitch level: /unslop subtle|balanced|full|voice-match|anti-detector\nStop: \"stop unslop\" or \"normal mode\"\n\nAuto-Clarity: drop unslop style for security warnings, irreversible actions, legal/medical/financial precision, user confused. Resume after.\n\nBoundaries: code/commits/PRs written normal. Never invent facts to sound human. Anti-detector mode is for defensive use (ESL false positives, resume writers) \u2014 not for academic misconduct.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/unslop.mdc"
+    },
+    "description": "Make AI output sound human. Strips AI-isms (sycophancy, stock vocab, hedging stacks, em-dash pileups), preserves code/UR",
+    "id": "MohamedAbdallah-14/unslop",
+    "language": "Python",
+    "name": "MohamedAbdallah-14/unslop",
+    "stars": 164,
+    "updated_at": "2026-10-26T06:13:16Z",
+    "url": "https://github.com/MohamedAbdallah-14/unslop"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Kuma MCP \u2014 safety and context runtime for AI agents\nalwaysApply: true\n---\n\nKuma MCP tools: kuma_context, kuma_memory, kuma_safety.\nRecord what matters, skip what doesn't.\n\n<kuma_obedience>\n## \ud83d\udd12 Obedience (non-negotiable)\n- MUST call `kuma_context({ action: \"init\" })` at session start.\n- MUST record gotchas IMMEDIATELY when a bug/quirk is found.\n- MUST call `kuma_safety({ action: \"verify\" })` after edits.\n- MUST NOT call actions outside the 13 core actions.\n</kuma_obedience>\n\n<kuma_workflow>\n\ud83e\udde0 **Before coding:** `kuma_context({ action: \"init\" })`\n\ud83d\udd2c **Unfamiliar code:** `kuma_context({ action: \"research\", scope: \"<area>\" })`\n\ud83d\udc1b **Found a bug/quirk:** `kuma_memory({ action: \"gotcha\" })` (IMMEDIATELY)\n\ud83e\udded **Chose between options:** `kuma_memory({ action: \"decision\" })`\n\ud83d\udd00 **Traced a flow:** `kuma_memory({ action: \"arch_flow\" })` (max 5 files)\n\ud83d\udee1\ufe0f **Before risky work / after edits:** `kuma_safety({ action: \"guard\" | \"verify\" })`\n</kuma_workflow>\n\n\ud83d\udcd6 Full rules: `.kuma/init.md`\n\n\ud83d\udcd6 **Usage:**\n  \u2022 `kuma_context({ action: \"init\" })` \u2014 load project context (call first)\n  \u2022 `kuma_safety({ action: \"guard\" })` \u2014 safety check before risky ops\n  \u2022 `kuma_safety({ action: \"verify\", scope: \"<area>\" })` \u2014 verify after edits\n  \u2022 `.kuma/init.md` \u2014 full behavioral rules\n  \u2022 `.kuma/KNOWN_GOTCHAS.md` \u2014 gotchas \u00b7 `.kuma/memories/decisions.md` \u2014 decisions (readable)",
+      "format": "mdc",
+      "path": ".cursor/rules/kuma.mdc"
+    },
+    "description": "\ud83c\udf75 Deliberate engineering guidelines & deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block",
+    "id": "plumpslabs/matcha",
+    "language": "JavaScript",
+    "name": "plumpslabs/matcha",
+    "stars": 2,
+    "updated_at": "2026-10-26T06:09:40Z",
+    "url": "https://github.com/plumpslabs/matcha"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Global Android project standards \u2014 always apply\nalwaysApply: true\n---\n\nYou are working on a production Android application.\n\n## Stack (defaults \u2014 adapt to existing project if already established)\n\n- Kotlin only\n- UI from `.cursor/project-settings.json` **`uiFramework`**: `\"xml\"` (default if missing) = XML + View Binding; `\"compose\"` = Jetpack Compose + `:feature-*` modules (AnimeHub). Never mix as the app UI stack. Never Data Binding\n- Clean Architecture (Presentation \u2192 Domain \u2192 Data)\n- MVVM + MVI (Intent / State / Effect) for **feature screens** \u2014 **not** ads (`:gmaAds`); ads use Fragment/Activity extensions + managers \u2014 never MVI unless the user explicitly asks (`21-ads-billing`, `reference/ads-gma.md`, `admob/*` skills)\n- Repository pattern\n- Multi-module architecture\n- DI via the project's existing framework (default: Koin)\n- Gradle Kotlin DSL + Version Catalog (`libs.versions.toml`)\n\n## Before writing code\n\n- Analyze existing project structure and conventions first\n- Reuse existing base classes, modules, and patterns\n- Do not introduce new libraries without explicit approval\n- Do not change architecture or module boundaries without approval\n- Maintain backward compatibility\n- When `.cursor/project-settings.json` exists, **obey it** (`uiFramework`, `writeTestsWithFeatures`, `orientation`, `themeModes`, `applicationId`, `appName`) \u2014 see `.cursor/README.md`\n\n## Code quality\n\n- Production-ready code only \u2014 no placeholders or TODOs left behind\n- Single responsibility per class\n- Avoid duplicate logic \u2014 extract shared code to core modules\n- Prefer readable code over clever code\n- Minimize scope \u2014 change only what the task requires\n- Design for large datasets from day one \u2014 never assume small lists\n- UI must support portrait and landscape (unless `project-settings.json` sets `orientation` to `portrait` or `landscape` only)\n- Heavy mapping in Repository / UseCase; UI layers render only\n- Networking / Room / SharedPreferences patterns: `26-data-persistence.mdc` + `rules/reference/`\n\n## Golden dependency rule\n\n```\napp (Composition Root)\n |\n \u2193\npresentation \u2192 domain \u2190 data\n |\n \u2193\ncore modules (shared utilities)\n```\n\n- Create as many `:core-*` modules as needed (`core-common`, `core-ui`, `core-platform`, \u2026)\n- UI never imports data implementations. Domain never imports UI.\n\n## Always\n\n1. Follow Clean Architecture + MVVM/MVI (Intent / State / Effect / ViewModel / UseCase / Repository) for **feature screens** \u2014 ads are exempt (`21-ads-billing`) \u2014 same as Stack above\n2. UI follows `uiFramework`: **xml** \u2192 View Binding, never Compose, never `findViewById`; **compose** \u2192 Compose screens in `:feature-*`, never XML `fragment_*` layouts, never `findViewById` \u2014 never Data Binding \u2014 same as Stack above\n3. Use the project's DI framework \u2014 **`module` (eager cold-start) or `lazyModule` (deferred features/ads)** per `07-dependency-injection`; register in composition root \u2014 same as Stack above\n4. Use Version Catalog \u2014 no hardcoded dependency versions\n5. Respect module boundaries \u2014 presentation must not depend on `:data`; UseCases + repo **interfaces** only in `:domain` (never in `:data`) \u2014 same as Golden dependency rule above\n6. Put **all** user-facing strings in the single shared strings file (e.g. `:core-ui`) \u2014 no hardcoded UI strings\n7. Match existing naming conventions (resources, packages, classes)\n8. Add unit tests for new UseCases and ViewModels when adding features \u2014 **unless** `.cursor/project-settings.json` has `writeTestsWithFeatures: false`\n9. Use proper dispatchers (`IO` / `Default`) \u2014 assume lists/files may have thousands of items; never block Main\n10. Log with `Constants.TAG*` and format `ClassName: functionName: State: details`\n11. Support **portrait and landscape** for all UI screens \u2014 **unless** `project-settings.json` `orientation` is `portrait` or `landscape` only \u2014 same as Code quality above\n12. Do heavy mapping in Repository / UseCase; `toUi()` in ViewModel only when needed (with dispatcher if heavy) \u2014 same as Code quality above\n13. Read and obey `.cursor/project-settings.json` when present (`uiFramework`, `orientation`, `themeModes`, `writeTestsWithFeatures`) \u2014 same as Before writing code above\n14. Data layer patterns (Retrofit / Room / SharedPreferences): follow `26-data-persistence.mdc` and `rules/reference/` \u2014 not ad-hoc skills \u2014 same as Code quality above\n\n## Never\n\n1. Never add libraries without explicit human approval \u2014 same as Before writing code above\n2. Never add Hilt/Dagger/RxJava unless the project already uses them. Never add Compose when `uiFramework` is `xml`. Never add XML Fragment screens when `uiFramework` is `compose`\n3. Never put business logic or heavy mapping in Fragments/Activities/Adapters/`*ScreenContent` beyond render + intent dispatch\n4. Never access DataSources directly from presentation\n5. Never skip `android:exported` on manifest components with intent-filters\n6. Never use `GlobalScope` for feature work\n7. Never modify unrelated files when implementing a feature \u2014 same as Code quality \u201cMinimize scope\u201d above\n8. Never do heavy mapping/sorting/IO on the Main thread \u2014 same as Always #9 above\n9. Never invent ad-hoc log tags \u2014 use `Constants.TAG*` \u2014 same as Always #10 above\n10. Never lock the app to one orientation unless product explicitly requires it \u2014 same as Always #11 above\n11. Never set static `RecyclerView` `layoutManager` / list `orientation` / `spanCount` in Kotlin \u2014 declare them in XML unless dynamic (**xml** only)\n12. Never put UseCases or repository **interfaces** in `:data` \u2014 domain only; never use \u2014 same as Always #3 and #5 above\n13. Never invent a parallel architecture (e.g. Redux, Orbit) for one screen \u2014 stay on project MVI\n14. Never hardcode AdMob production IDs in debug or commit secrets into git / docs \u2014 see `14-security-secrets.mdc`\n15. Never convert ads (`:gmaAds`, AdMob managers) to MVI (Intent / State / Effect) unless the user **explicitly** asks \u2014 place `:gmaAds` from [orbitalsonic/Admob-Ads](https://github.com/orbitalsonic/Admob-Ads); screens call extensions. See `21-ads-billing` + `reference/ads-gma.md`\n\nWhen scaffolding a new feature or screen, also follow `01-feature-checklist.mdc`.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/00-global.mdc"
+    },
+    "description": "Production-ready Android Engineering Rules for Cursor and other AI coding assistants. Build consistent, scalable, and ma",
+    "id": "orbitalsonic/AndroidPilot",
+    "language": "Kotlin",
+    "name": "orbitalsonic/AndroidPilot",
+    "stars": 1,
+    "updated_at": "2026-10-26T06:06:14Z",
+    "url": "https://github.com/orbitalsonic/AndroidPilot"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-26T05:45:41Z",
+    "updated_at": "2026-10-26T06:00:41Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -25,20 +67,6 @@
     "stars": 4,
     "updated_at": "2026-10-26T05:33:40Z",
     "url": "https://github.com/wangqiqi/cursor-ai"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Kuma MCP \u2014 safety and context runtime for AI agents\nalwaysApply: true\n---\n\nKuma MCP tools: kuma_context, kuma_memory, kuma_safety.\nRecord what matters, skip what doesn't.\n\n<kuma_obedience>\n## \ud83d\udd12 Obedience (non-negotiable)\n- MUST call `kuma_context({ action: \"init\" })` at session start.\n- MUST record gotchas IMMEDIATELY when a bug/quirk is found.\n- MUST call `kuma_safety({ action: \"verify\" })` after edits.\n- MUST NOT call actions outside the 13 core actions.\n</kuma_obedience>\n\n<kuma_workflow>\n\ud83e\udde0 **Before coding:** `kuma_context({ action: \"init\" })`\n\ud83d\udd2c **Unfamiliar code:** `kuma_context({ action: \"research\", scope: \"<area>\" })`\n\ud83d\udc1b **Found a bug/quirk:** `kuma_memory({ action: \"gotcha\" })` (IMMEDIATELY)\n\ud83e\udded **Chose between options:** `kuma_memory({ action: \"decision\" })`\n\ud83d\udd00 **Traced a flow:** `kuma_memory({ action: \"arch_flow\" })` (max 5 files)\n\ud83d\udee1\ufe0f **Before risky work / after edits:** `kuma_safety({ action: \"guard\" | \"verify\" })`\n</kuma_workflow>\n\n\ud83d\udcd6 Full rules: `.kuma/init.md`\n\n\ud83d\udcd6 **Usage:**\n  \u2022 `kuma_context({ action: \"init\" })` \u2014 load project context (call first)\n  \u2022 `kuma_safety({ action: \"guard\" })` \u2014 safety check before risky ops\n  \u2022 `kuma_safety({ action: \"verify\", scope: \"<area>\" })` \u2014 verify after edits\n  \u2022 `.kuma/init.md` \u2014 full behavioral rules\n  \u2022 `.kuma/KNOWN_GOTCHAS.md` \u2014 gotchas \u00b7 `.kuma/memories/decisions.md` \u2014 decisions (readable)",
-      "format": "mdc",
-      "path": ".cursor/rules/kuma.mdc"
-    },
-    "description": "\ud83c\udf75 Deliberate engineering guidelines & deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block",
-    "id": "plumpslabs/matcha",
-    "language": "JavaScript",
-    "name": "plumpslabs/matcha",
-    "stars": 2,
-    "updated_at": "2026-10-26T04:52:02Z",
-    "url": "https://github.com/plumpslabs/matcha"
   },
   {
     "cursorrules": {
@@ -505,28 +533,5 @@
     "stars": 18,
     "updated_at": "2026-10-24T05:37:33Z",
     "url": "https://github.com/anshuxinha/karpathy-skills-extended"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: The work loop. Discover how to verify, keep a to-do list, act without asking on reversible steps, run checks after each edit, fix failures, and only then report done.\nalwaysApply: true\n---\n\n# Act\n\nFinish the task in this turn. A question is the last resort, as `grok-hitl` says.\n\n## Before the first edit\n\n1. Find the checks. Read `package.json` scripts, `Makefile`, `pyproject.toml`, CI files, and `AGENTS.md`. Note the exact commands for test, lint, typecheck, and build.\n2. Read the files the change touches, their callers, and one test that covers them.\n3. For a task with three or more steps, write a to-do list. Keep one item in progress. Mark each item done as soon as it is done.\n\n## After each edit\n\n1. Run the narrowest check that covers the change: the one test file, then lint and typecheck on the changed files.\n2. If a check fails because of your change, fix it and run it again. Do not ask first.\n3. If a check failed before your change, say so once and do not fix it unless the task needs it.\n4. Before you report, run the full test, lint, and typecheck commands once.\n5. After your last code change, run the build command again before you report.\n\n## Keep going\n\n- Do not stop to ask \"should I continue?\" or \"want me to proceed?\". Continue.\n- If the request has an obvious next step inside the same goal, such as updating a caller, a type, a test, or the docs for the code you changed, do it.\n- If you are blocked on one item, finish the other items, then report the block.\n\n## Done means\n\n- Every to-do is done or reported as blocked with the reason.\n- The checks ran and passed, or you name the check that did not run and why.\n- The reply starts with the outcome, lists the commands and results, and ends with up to three next steps. On an open brief, the next steps are features for the audience, as `grok-invent` says.\n\n```\nBad: I updated the function. Want me to add tests?\nGood: `parseDate` now accepts ISO weeks. Added 3 cases to `date.test.ts`. `pnpm test date` passes, `pnpm lint` and `pnpm tsc --noEmit` are clean. Next: the `/reports` page still formats weeks by hand. I can switch it to `parseDate`.\n```\n",
-      "format": "mdc",
-      "path": ".cursor/rules/grok-act.mdc"
-    },
-    "description": "Cursor rules for Grok 4.7: grounded coding plus design directions, screenshot review, own ideas, and direction-only ques",
-    "id": "madebyaris/grok-cursor-rules",
-    "language": "\u2014",
-    "name": "madebyaris/grok-cursor-rules",
-    "stars": 1,
-    "updated_at": "2026-10-24T02:24:46Z",
-    "url": "https://github.com/madebyaris/grok-cursor-rules"
-  },
-  {
-    "description": "Drop .readmeAI in any project. AI reads it first, every session \u2014 no re-explaining, no context drift. Works with Claude,",
-    "id": "Oscarr36/ReadMeAI",
-    "language": "Shell",
-    "name": "Oscarr36/ReadMeAI",
-    "stars": 4,
-    "updated_at": "2026-10-24T01:13:42Z",
-    "url": "https://github.com/Oscarr36/ReadMeAI"
   }
 ]
