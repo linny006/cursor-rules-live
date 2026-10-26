@@ -5,8 +5,17 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 29,
-    "updated_at": "2026-10-26T13:44:33Z",
+    "updated_at": "2026-10-26T14:00:03Z",
     "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
+    "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
+    "id": "bompus/house-rules",
+    "language": "JavaScript",
+    "name": "bompus/house-rules",
+    "stars": 2,
+    "updated_at": "2026-10-26T13:50:28Z",
+    "url": "https://github.com/bompus/house-rules"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,7 +23,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-26T13:30:41Z",
+    "updated_at": "2026-10-26T13:45:34Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -50,7 +59,7 @@
     "language": "TypeScript",
     "name": "HoangNguyen0403/agent-skills-standard",
     "stars": 583,
-    "updated_at": "2026-10-26T13:43:35Z",
+    "updated_at": "2026-10-26T13:50:38Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
   },
   {
@@ -163,15 +172,6 @@
     "url": "https://github.com/atlaso-labs/cursor"
   },
   {
-    "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
-    "id": "bompus/house-rules",
-    "language": "JavaScript",
-    "name": "bompus/house-rules",
-    "stars": 2,
-    "updated_at": "2026-10-26T13:42:34Z",
-    "url": "https://github.com/bompus/house-rules"
-  },
-  {
     "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
     "id": "SupremeSupport/Cursor-Desktop-2026",
     "language": "\u2014",
@@ -259,7 +259,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 41752,
+    "stars": 41753,
     "updated_at": "2026-10-26T01:08:14Z",
     "url": "https://github.com/wshobson/agents"
   },
