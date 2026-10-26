@@ -1,12 +1,12 @@
 [
   {
-    "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
-    "id": "HoangNguyen0403/agent-skills-standard",
-    "language": "TypeScript",
-    "name": "HoangNguyen0403/agent-skills-standard",
-    "stars": 583,
-    "updated_at": "2026-10-26T11:40:42Z",
-    "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-10-26T11:53:12Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-26T11:30:47Z",
+    "updated_at": "2026-10-26T11:45:54Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
+    "id": "HoangNguyen0403/agent-skills-standard",
+    "language": "TypeScript",
+    "name": "HoangNguyen0403/agent-skills-standard",
+    "stars": 583,
+    "updated_at": "2026-10-26T11:40:42Z",
+    "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -153,15 +162,6 @@
     "stars": 164,
     "updated_at": "2026-10-26T06:15:10Z",
     "url": "https://github.com/MohamedAbdallah-14/unslop"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-10-26T05:36:03Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "\u65e0\u5173\u7528\u6237\uff0c \u65e0\u5173\u7cfb\u7edf\uff0c \u65e0\u5173\u9879\u76ee\uff0c\u5f00\u7bb1\u590d\u5236\u5373\u7528\uff01 code faster, code better; ",
