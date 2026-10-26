@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-26 15:15 UTC
+> ⏰ Last updated: 2026-10-26 15:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,8 +53,8 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [bompus/house-rules](https://github.com/bompus/house-rules) | 2 | JavaScript | 2026-10-26 | — | Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-26 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-26 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [bompus/house-rules](https://github.com/bompus/house-rules) | 2 | JavaScript | 2026-10-26 | — | Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md |
 | 3 | [eli-alvarado/agentkit-drawer](https://github.com/eli-alvarado/agentkit-drawer) | 0 | Python | 2026-10-26 | — | Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam |
 | 4 | [blackberrylabs/linstruct](https://github.com/blackberrylabs/linstruct) | 0 | Rust | 2026-10-26 | — | Lint your AI instruction files the way each agent reads them — CLAUDE.md, AGENTS.md, .cursor/rules, GEMINI.md — and see  |
 | 5 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 29 | Python | 2026-10-26 | — | Architectural drift prevention for the agentic AI SDLC. |
@@ -82,12 +82,12 @@ expired items removed — so you can rely on what you see being current.
 | 27 | [wangqiqi/cursor-ai](https://github.com/wangqiqi/cursor-ai) | 4 | Shell | 2026-10-26 | — | 无关用户， 无关系统， 无关项目，开箱复制即用！ code faster, code better;  |
 | 28 | [chihebnabil/lovable-boilerplate](https://github.com/chihebnabil/lovable-boilerplate) | 65 | TypeScript | 2026-10-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/chihebnabil/lovable-boilerplate/) | A Lovable-inspired React boilerplate that brings no-code AI UI generation into clean code. Fully open, customizable, and |
 | 29 | [geronco/commandvault-library](https://github.com/geronco/commandvault-library) | 0 | JavaScript | 2026-10-26 | — | Community-voted AI prompts, CLAUDE.md/AGENTS.md templates, Cursor rules, Agent Skills and MCP servers from commandvault. |
-| 30 | [wshobson/agents](https://github.com/wshobson/agents) | 41762 | Python | 2026-10-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
+| 30 | [wshobson/agents](https://github.com/wshobson/agents) | 41763 | Python | 2026-10-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
 | 31 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 17 | Shell | 2026-10-26 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
 | 32 | [adalenv/smip-skill](https://github.com/adalenv/smip-skill) | 0 | Python | 2026-10-25 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/adalenv/smip-skill/) | AI Agent Skill & Automation Tool for the Albanian SMIP (smip.al) Teacher Portal |
 | 33 | [lilaforge/agent-ready-rules-lite](https://github.com/lilaforge/agent-ready-rules-lite) | 0 | — | 2026-10-25 | — | Free AGENTS.md, CLAUDE.md and Cursor rules for Next.js and FastAPI. Make AI coding agents follow your conventions. |
 | 34 | [grizzlykiwidev/grizzlykiwidev.github.io](https://github.com/grizzlykiwidev/grizzlykiwidev.github.io) | 0 | — | 2026-10-25 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/grizzlykiwidev/grizzlykiwidev.github.io/) | Free Cursor rules (.mdc), AGENTS.md & CLAUDE.md templates and prompts for AI coding agents: Next.js + Supabase, Godot 4. |
-| 35 | [Aaditya1273/Agent.md](https://github.com/Aaditya1273/Agent.md) | 10 | — | 2026-10-25 | — | Your AI coding agent follows these files blindly, before it reads a line of your code. |
+| 35 | [Aaditya1273/Agent.md](https://github.com/Aaditya1273/Agent.md) | 11 | — | 2026-10-25 | — | Your AI coding agent follows these files blindly, before it reads a line of your code. |
 | 36 | [rahuldeojoshi/codebaserules-samples](https://github.com/rahuldeojoshi/codebaserules-samples) | 0 | — | 2026-10-25 | — | Free sample Cursor and Claude Code rules for FastAPI, Next.js and Spring Boot, from codebaserules.com |
 | 37 | [fluttersdk/wind](https://github.com/fluttersdk/wind) | 43 | Dart | 2026-10-26 | — | Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W- |
 | 38 | [scoyoc5/godot-ai-agent-rules](https://github.com/scoyoc5/godot-ai-agent-rules) | 1 | — | 2026-10-25 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/scoyoc5/godot-ai-agent-rules/) | Free Cursor rules + AGENTS.md that stop AI (Cursor, Claude Code, ChatGPT) from writing Godot 3 code in Godot 4 projects: |
