@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-26T12:30:33Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Free copy-paste AGENTS.md, CLAUDE.md and Cursor rules for 20 beginner vibe-coding project types",
     "id": "getvibekits/vibe-coding-rules",
     "language": "Shell",
@@ -16,15 +25,6 @@
     "stars": 583,
     "updated_at": "2026-10-26T12:16:13Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-26T12:15:35Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -228,7 +228,7 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 29,
-    "updated_at": "2026-10-26T01:42:06Z",
+    "updated_at": "2026-10-26T12:43:48Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
@@ -241,7 +241,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 41742,
+    "stars": 41744,
     "updated_at": "2026-10-26T01:08:14Z",
     "url": "https://github.com/wshobson/agents"
   },

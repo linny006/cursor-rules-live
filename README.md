@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-26 12:30 UTC
+> ⏰ Last updated: 2026-10-26 12:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,9 +53,9 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [getvibekits/vibe-coding-rules](https://github.com/getvibekits/vibe-coding-rules) | 0 | Shell | 2026-10-26 | — | Free copy-paste AGENTS.md, CLAUDE.md and Cursor rules for 20 beginner vibe-coding project types |
-| 2 | [HoangNguyen0403/agent-skills-standard](https://github.com/HoangNguyen0403/agent-skills-standard) | 583 | TypeScript | 2026-10-26 | — | A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol |
-| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-26 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-26 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [getvibekits/vibe-coding-rules](https://github.com/getvibekits/vibe-coding-rules) | 0 | Shell | 2026-10-26 | — | Free copy-paste AGENTS.md, CLAUDE.md and Cursor rules for 20 beginner vibe-coding project types |
+| 3 | [HoangNguyen0403/agent-skills-standard](https://github.com/HoangNguyen0403/agent-skills-standard) | 583 | TypeScript | 2026-10-26 | — | A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol |
 | 4 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 52 | — | 2026-10-26 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
 | 5 | [rover-001/checkmate](https://github.com/rover-001/checkmate) | 9 | JavaScript | 2026-10-26 | — | Goal-driven mode for AI coding agents. Reach the user's win condition in the fewest moves. |
 | 6 | [nsozturk/open-agent-db](https://github.com/nsozturk/open-agent-db) | 1 | Python | 2026-10-26 | — | The universal open database and semantic vector search engine for AI Agent Skills, MCP Servers, Project Directives, and  |
@@ -76,7 +76,7 @@ expired items removed — so you can rely on what you see being current.
 | 21 | [chihebnabil/lovable-boilerplate](https://github.com/chihebnabil/lovable-boilerplate) | 65 | TypeScript | 2026-10-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/chihebnabil/lovable-boilerplate/) | A Lovable-inspired React boilerplate that brings no-code AI UI generation into clean code. Fully open, customizable, and |
 | 22 | [geronco/commandvault-library](https://github.com/geronco/commandvault-library) | 0 | JavaScript | 2026-10-26 | — | Community-voted AI prompts, CLAUDE.md/AGENTS.md templates, Cursor rules, Agent Skills and MCP servers from commandvault. |
 | 23 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 29 | Python | 2026-10-26 | — | Architectural drift prevention for the agentic AI SDLC. |
-| 24 | [wshobson/agents](https://github.com/wshobson/agents) | 41742 | Python | 2026-10-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
+| 24 | [wshobson/agents](https://github.com/wshobson/agents) | 41744 | Python | 2026-10-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
 | 25 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 17 | Shell | 2026-10-26 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
 | 26 | [adalenv/smip-skill](https://github.com/adalenv/smip-skill) | 0 | Python | 2026-10-25 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/adalenv/smip-skill/) | AI Agent Skill & Automation Tool for the Albanian SMIP (smip.al) Teacher Portal |
 | 27 | [lilaforge/agent-ready-rules-lite](https://github.com/lilaforge/agent-ready-rules-lite) | 0 | — | 2026-10-25 | — | Free AGENTS.md, CLAUDE.md and Cursor rules for Next.js and FastAPI. Make AI coding agents follow your conventions. |
