@@ -1,5 +1,50 @@
 [
   {
+    "description": "Auto harness engineering meta-repo: discuss \u2192 curate \u2192 bootstrap a context-engineered project for Claude Code, Cursor, C",
+    "id": "glowElephant/context-forge",
+    "language": "Python",
+    "name": "glowElephant/context-forge",
+    "stars": 2,
+    "updated_at": "2026-10-26T09:26:09Z",
+    "url": "https://github.com/glowElephant/context-forge"
+  },
+  {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 52,
+    "updated_at": "2026-10-26T09:25:50Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+  },
+  {
+    "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
+    "id": "HoangNguyen0403/agent-skills-standard",
+    "language": "TypeScript",
+    "name": "HoangNguyen0403/agent-skills-standard",
+    "stars": 583,
+    "updated_at": "2026-10-26T09:25:57Z",
+    "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
+  },
+  {
+    "description": "Persistent memory for Cursor: automatic capture as you work, recall through a generated rules file, the same memory in C",
+    "id": "atlaso-labs/cursor",
+    "language": "TypeScript",
+    "name": "atlaso-labs/cursor",
+    "stars": 0,
+    "updated_at": "2026-10-26T09:17:09Z",
+    "url": "https://github.com/atlaso-labs/cursor"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-26T09:15:48Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
     "id": "bompus/house-rules",
     "language": "JavaScript",
@@ -9,15 +54,6 @@
     "url": "https://github.com/bompus/house-rules"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-26T09:00:33Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
     "id": "SupremeSupport/Cursor-Desktop-2026",
     "language": "\u2014",
@@ -25,24 +61,6 @@
     "stars": 1,
     "updated_at": "2026-10-26T08:46:51Z",
     "url": "https://github.com/SupremeSupport/Cursor-Desktop-2026"
-  },
-  {
-    "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
-    "id": "HoangNguyen0403/agent-skills-standard",
-    "language": "TypeScript",
-    "name": "HoangNguyen0403/agent-skills-standard",
-    "stars": 583,
-    "updated_at": "2026-10-26T09:12:12Z",
-    "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
-  },
-  {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 52,
-    "updated_at": "2026-10-26T08:26:38Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "cursorrules": {
@@ -173,7 +191,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 41733,
+    "stars": 41735,
     "updated_at": "2026-10-26T01:08:14Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -510,28 +528,5 @@
     "stars": 22,
     "updated_at": "2026-10-24T11:29:08Z",
     "url": "https://github.com/philipbankier/awesome-agent-skills"
-  },
-  {
-    "description": "Cursor rules for building apps on VTC: auth, data, UI, i18n and push-to-publish deploys to apps.vtc.com",
-    "id": "vtcdotcom/vtc-app-rules",
-    "language": "Shell",
-    "name": "vtcdotcom/vtc-app-rules",
-    "stars": 0,
-    "updated_at": "2026-10-24T10:35:56Z",
-    "url": "https://github.com/vtcdotcom/vtc-app-rules"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: On every request, ask only knowledge gaps that would change the outcome. Keep Karpathy's coding rules.\nalwaysApply: true\n---\n\n# Karpathy skills, extended\n\nCanonical text: `skills/karpathy-skills-extended/SKILL.md`. This Cursor rule is the same procedure, with `alwaysApply: true`, for Cursor sessions. Codex, Claude, Antigravity, Gemini, and Grok load the skill file or `rules/karpathy-skills-extended.md` instead. Copy this file to `~/.cursor/rules/` for every Cursor project. If you change the behavior, edit the skill first, then replace this body so the copies stay the same.\n\nApply this on every user message, including when nobody named this skill. The host may be Codex, Claude, Cursor, Antigravity, Gemini, or Grok. The check is the same in each. Do not announce the check.\n\nThe four coding rules below follow Andrej Karpathy's notes on agents that assume, overbuild, and edit code they were not asked to touch (https://x.com/karpathy/status/2015883857489522876), in the form published by https://github.com/multica-ai/andrej-karpathy-skills. The gap check is the part this skill adds. Matt Pocock's grill-me (https://github.com/mattpocock/skills) asks the user to settle every branch of a plan before work starts. That session fits a soft idea. On an ordinary prompt it runs long. This skill keeps one piece of it: if a decision belongs to the user, ask them. Ask only the gaps that pass the tests below, then do the task.\n\n## Gap check\n\nRun this before you edit, write, delete, send, or commit to a plan.\n\nA gap meets all four tests:\n\n1. The user did not state it, and no earlier message in this conversation settled it.\n2. You cannot get it by reading the repo, docs, tools, or config.\n3. More than one plausible answer exists.\n4. The choice would change the files, behavior, audience, schema, copy, or the check for done.\n\nIf a fact fails any test, it is not a gap. Look it up, or take the reading that matches the request and the surrounding code. You may name that choice in one line while you work. Lookup is your job. Do it before you call something a gap. Decisions about intent are the user's.\n\n### When you ask\n\n- One round, then wait. Leave the work that depends on the answer undone. You may keep reading.\n- Three questions at most. One is the usual case. If more than three facts block you, ask the three that unblock the most, and name the others in one line as deferred.\n- Each question names the missing fact, what would change, and the answer you recommend if they tell you to choose.\n- Plain sentences. No design-tree rounds. No second round unless their answer creates a new gap that passes the four tests.\n- If they skip a question, say you choose, or answer only part of the round, use your recommendation for the rest and continue.\n- If you already asked this gap and they answered, do not ask again.\n\n### When you stay quiet\n\nDo the work and do not mention the check when:\n\n- The request has one reading.\n- They delegated the choice (\"you pick\", \"whatever is simplest\", \"match the rest\").\n- The repo, a user rule, or an earlier turn already answers it.\n- The open choice is an implementation detail with a local convention.\n- The only question you have is whether to continue.\n\nA one-line fix does not need the full coding rigor below. Use judgment.\n\nIf they ask for a full grilling session, run that session. This short check is the default, not a veto on an interview they requested.\n\n## Coding rules\n\nIf a skill named karpathy-guidelines is also loaded, follow it as well. On a fact that passes the four tests, this gap check wins: stop and ask. Do not treat a written assumption as a substitute for their answer.\n\n### Think before coding\n\nName a tradeoff when it would change the design. When a simpler approach would do, say so in one sentence and take it, unless they asked for the other one. If you are confused, name the confusion. If that confusion passes the four tests, ask.\n\n### Simplicity first\n\nWrite the minimum that solves the request. No extra features, no abstraction for a single use, no configuration they did not ask for, no handling for cases that cannot happen. If a senior engineer would call the design overcomplicated, cut it.\n\n### Surgical changes\n\nChange lines the request requires. Match the surrounding style. Do not refactor, reformat, or delete adjacent code. If you notice unrelated dead code, mention it and leave it. Remove imports, variables, and functions that your edit made unused.\n\n### Goal-driven execution\n\nTurn the task into a check you can run. A bug fix is a check that fails before the fix and passes after. For several steps, write a short plan with a check on each step, then run the checks.\n\n## Examples\n\n\"Add a delete button on the patient row.\" Passing gap: hide the row, mark the record inactive, or remove the record. Ask one question. Recommend the pattern that table already uses. Wait.\n\n\"Rename getUser to fetchUser in src/api.ts.\" One reading. Rename it.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/karpathy-skills-extended.mdc"
-    },
-    "description": "A lightweight pre-coding check for Codex, Claude, Cursor, Antigravity, Gemini, and Grok: look up what you can, and ask o",
-    "id": "anshuxinha/karpathy-skills-extended",
-    "language": "\u2014",
-    "name": "anshuxinha/karpathy-skills-extended",
-    "stars": 18,
-    "updated_at": "2026-10-24T05:37:33Z",
-    "url": "https://github.com/anshuxinha/karpathy-skills-extended"
   }
 ]
