@@ -1,11 +1,29 @@
 [
   {
+    "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
+    "id": "agenticstandardcontact-byte/agentic-architect",
+    "language": "HTML",
+    "name": "agenticstandardcontact-byte/agentic-architect",
+    "stars": 0,
+    "updated_at": "2026-10-26T16:06:47Z",
+    "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
+  },
+  {
+    "description": "Reusable Cursor AI rules: automatic prompt-grammar feedback after every reply.",
+    "id": "theshaonsaleh/cursor-rules",
+    "language": "\u2014",
+    "name": "theshaonsaleh/cursor-rules",
+    "stars": 0,
+    "updated_at": "2026-10-26T16:02:08Z",
+    "url": "https://github.com/theshaonsaleh/cursor-rules"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-26T15:45:46Z",
+    "updated_at": "2026-10-26T16:00:47Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -434,15 +452,6 @@
     "url": "https://github.com/Harmitx7/tribunal-kit"
   },
   {
-    "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
-    "id": "agenticstandardcontact-byte/agentic-architect",
-    "language": "HTML",
-    "name": "agenticstandardcontact-byte/agentic-architect",
-    "stars": 0,
-    "updated_at": "2026-10-25T13:42:18Z",
-    "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
-  },
-  {
     "description": "KUKA KRL (KSS 8.3-8.7) AI Prompts, Skills and Rules for Cursor, Antigravity, and Claude Code",
     "id": "LiskinLabs/kuka-krl-skills",
     "language": "\u2014",
@@ -514,14 +523,5 @@
     "stars": 1,
     "updated_at": "2026-10-24T15:22:07Z",
     "url": "https://github.com/alipajand/agent-context-doctor"
-  },
-  {
-    "description": "Battle-tested agent skills and Cursor rules from real projects. Works with Cursor, Claude Code, and any agent.",
-    "id": "jcottam/agent-resources",
-    "language": "Shell",
-    "name": "jcottam/agent-resources",
-    "stars": 25,
-    "updated_at": "2026-10-24T16:54:12Z",
-    "url": "https://github.com/jcottam/agent-resources"
   }
 ]
