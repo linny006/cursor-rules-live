@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-26 22:45 UTC
+> ⏰ Last updated: 2026-10-26 23:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,18 +53,18 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-26 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 2 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-10-26 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
-| 3 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-10-26 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
-| 4 | [heymegabyte/agent-skills](https://github.com/heymegabyte/agent-skills) | 26 | TypeScript | 2026-10-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/agent-skills/) | Agent Skills — agent-neutral autonomous product-building OS for 32+ AI coding tools. 23 skill categories · 28 agents · 1 |
-| 5 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 29 | Python | 2026-10-26 | — | Architectural drift prevention for the agentic AI SDLC. |
-| 6 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-26 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
-| 7 | [karefined-eng/information-is-beautiful-skill](https://github.com/karefined-eng/information-is-beautiful-skill) | 2 | TypeScript | 2026-10-26 | — | Beautiful, honest data visualization as an Agent Skill — five laws, a chart matcher, a 25-point beauty audit. For Claude |
-| 8 | [roedyrustam/vibes-plug](https://github.com/roedyrustam/vibes-plug) | 114 | JavaScript | 2026-10-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/roedyrustam/vibes-plug/) | 🌊 Universal AI Agent Swarm & MCP Plugin with 176 specialized skills and 8 autonomous subagents for Antigravity, Claude C |
-| 9 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 52 | — | 2026-10-26 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
-| 10 | [fitzyracing1/ai-tenets](https://github.com/fitzyracing1/ai-tenets) | 0 | Python | 2026-10-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/fitzyracing1/ai-tenets/) | AI defined by four tenets: Cost, Bridge, Work, Theory — each as low as possible. |
-| 11 | [krzysztofgibert/pr-viz-skill](https://github.com/krzysztofgibert/pr-viz-skill) | 0 | JavaScript | 2026-10-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/krzysztofgibert/pr-viz-skill/) | Free IDE skill that turns a GitHub pull request into a two-zone review map. Use it in VS Code, Cursor, Claude Code, or W |
-| 12 | [SupremeSupport/Cursor-Desktop-2026](https://github.com/SupremeSupport/Cursor-Desktop-2026) | 1 | — | 2026-10-26 | — | ⭐️ Cursor 2026 Ai Cursorpro Cursor Ai ⭐️ |
+| 1 | [SupremeSupport/Cursor-Desktop-2026](https://github.com/SupremeSupport/Cursor-Desktop-2026) | 1 | — | 2026-10-26 | — | ⭐️ Cursor 2026 Ai Cursorpro Cursor Ai ⭐️ |
+| 2 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 29 | Python | 2026-10-26 | — | Architectural drift prevention for the agentic AI SDLC. |
+| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-26 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 4 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-10-26 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
+| 5 | [arnoldalberto007-sys/Swift-UIKit-Components](https://github.com/arnoldalberto007-sys/Swift-UIKit-Components) | 1 | HTML | 2026-10-26 | — | Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns |
+| 6 | [heymegabyte/agent-skills](https://github.com/heymegabyte/agent-skills) | 26 | TypeScript | 2026-10-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/agent-skills/) | Agent Skills — agent-neutral autonomous product-building OS for 32+ AI coding tools. 23 skill categories · 28 agents · 1 |
+| 7 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-26 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
+| 8 | [karefined-eng/information-is-beautiful-skill](https://github.com/karefined-eng/information-is-beautiful-skill) | 2 | TypeScript | 2026-10-26 | — | Beautiful, honest data visualization as an Agent Skill — five laws, a chart matcher, a 25-point beauty audit. For Claude |
+| 9 | [roedyrustam/vibes-plug](https://github.com/roedyrustam/vibes-plug) | 114 | JavaScript | 2026-10-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/roedyrustam/vibes-plug/) | 🌊 Universal AI Agent Swarm & MCP Plugin with 176 specialized skills and 8 autonomous subagents for Antigravity, Claude C |
+| 10 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 52 | — | 2026-10-26 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
+| 11 | [fitzyracing1/ai-tenets](https://github.com/fitzyracing1/ai-tenets) | 0 | Python | 2026-10-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/fitzyracing1/ai-tenets/) | AI defined by four tenets: Cost, Bridge, Work, Theory — each as low as possible. |
+| 12 | [krzysztofgibert/pr-viz-skill](https://github.com/krzysztofgibert/pr-viz-skill) | 0 | JavaScript | 2026-10-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/krzysztofgibert/pr-viz-skill/) | Free IDE skill that turns a GitHub pull request into a two-zone review map. Use it in VS Code, Cursor, Claude Code, or W |
 | 13 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-10-26 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
 | 14 | [getvibekits/vibe-coding-rules](https://github.com/getvibekits/vibe-coding-rules) | 0 | Shell | 2026-10-26 | — | Free copy-paste AGENTS.md, CLAUDE.md and Cursor rules for 20 beginner vibe-coding project types |
 | 15 | [bompus/house-rules](https://github.com/bompus/house-rules) | 2 | JavaScript | 2026-10-26 | — | Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md |
