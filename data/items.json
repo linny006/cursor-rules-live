@@ -5,8 +5,17 @@
     "language": "Shell",
     "name": "wangqiqi/cursor-ai",
     "stars": 4,
-    "updated_at": "2026-10-26T03:28:10Z",
+    "updated_at": "2026-10-26T03:43:34Z",
     "url": "https://github.com/wangqiqi/cursor-ai"
+  },
+  {
+    "description": "Community-voted AI prompts, CLAUDE.md/AGENTS.md templates, Cursor rules, Agent Skills and MCP servers from commandvault.",
+    "id": "geronco/commandvault-library",
+    "language": "JavaScript",
+    "name": "geronco/commandvault-library",
+    "stars": 0,
+    "updated_at": "2026-10-26T03:35:45Z",
+    "url": "https://github.com/geronco/commandvault-library"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,7 +23,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-26T03:15:32Z",
+    "updated_at": "2026-10-26T03:30:42Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -232,7 +241,7 @@
     "id": "danielvm-git/bigpowers",
     "language": "Shell",
     "name": "danielvm-git/bigpowers",
-    "stars": 275,
+    "stars": 276,
     "updated_at": "2026-10-25T15:09:21Z",
     "url": "https://github.com/danielvm-git/bigpowers"
   },
@@ -331,15 +340,6 @@
     "stars": 113,
     "updated_at": "2026-10-25T04:11:46Z",
     "url": "https://github.com/roedyrustam/vibes-plug"
-  },
-  {
-    "description": "Community-voted AI prompts, CLAUDE.md/AGENTS.md templates, Cursor rules, Agent Skills and MCP servers from commandvault.",
-    "id": "geronco/commandvault-library",
-    "language": "JavaScript",
-    "name": "geronco/commandvault-library",
-    "stars": 0,
-    "updated_at": "2026-10-25T03:31:47Z",
-    "url": "https://github.com/geronco/commandvault-library"
   },
   {
     "description": "Universal Git-powered persistent memory, context rules & native MCP server for AI coding agents. Prevents context amnesi",
