@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-26 00:30 UTC
+> ⏰ Last updated: 2026-10-26 00:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -99,7 +99,7 @@ expired items removed — so you can rely on what you see being current.
 | 44 | [anshuxinha/karpathy-skills-extended](https://github.com/anshuxinha/karpathy-skills-extended) | 18 | — | 2026-10-24 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/anshuxinha/karpathy-skills-extended/) | A lightweight pre-coding check for Codex, Claude, Cursor, Antigravity, Gemini, and Grok: look up what you can, and ask o |
 | 45 | [madebyaris/grok-cursor-rules](https://github.com/madebyaris/grok-cursor-rules) | 1 | — | 2026-10-24 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/madebyaris/grok-cursor-rules/) | Cursor rules for Grok 4.7: grounded coding plus design directions, screenshot review, own ideas, and direction-only ques |
 | 46 | [Oscarr36/ReadMeAI](https://github.com/Oscarr36/ReadMeAI) | 4 | Shell | 2026-10-24 | — | Drop .readmeAI in any project. AI reads it first, every session — no re-explaining, no context drift. Works with Claude, |
-| 47 | [wshobson/agents](https://github.com/wshobson/agents) | 41707 | Python | 2026-10-24 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
+| 47 | [wshobson/agents](https://github.com/wshobson/agents) | 41708 | Python | 2026-10-24 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
 | 48 | [Muhammad-Ahmad092/design-and-fix](https://github.com/Muhammad-Ahmad092/design-and-fix) | 0 | Python | 2026-10-23 | — | AI skill for Claude, Cursor & Codex that designs system architecture for new projects and audits existing codebases — cl |
 | 49 | [roedyrustam/cinematic-motion-engine](https://github.com/roedyrustam/cinematic-motion-engine) | 0 | HTML | 2026-10-23 | — | 🎬 Standalone Broadcast Programmatic Motion Graphics, Kinetic Typography, Living Cartoon Stage & 60fps Video Engine for A |
 | 50 | [MsNan/bishe-doc-skills](https://github.com/MsNan/bishe-doc-skills) | 0 | JavaScript | 2026-10-23 | — | 毕业设计文档 AI 技能包：开题报告/需求分析/系统设计/GB-T 7714 论文规范/测试/答辩，一键装进 Claude Code·Cursor·Trae·Codex，不编造文献与测试数据 |
