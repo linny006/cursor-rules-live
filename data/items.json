@@ -1,11 +1,29 @@
 [
   {
+    "description": "AGENTS.md rules and skills that make AI coding agents write production-quality Flutter. Claude Code plugin; works with C",
+    "id": "ChandraChaan/flutter-agent-skills",
+    "language": "Dart",
+    "name": "ChandraChaan/flutter-agent-skills",
+    "stars": 0,
+    "updated_at": "2026-10-27T15:55:15Z",
+    "url": "https://github.com/ChandraChaan/flutter-agent-skills"
+  },
+  {
+    "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
+    "id": "SupremeSupport/Cursor-Desktop-2026",
+    "language": "\u2014",
+    "name": "SupremeSupport/Cursor-Desktop-2026",
+    "stars": 1,
+    "updated_at": "2026-10-27T15:47:17Z",
+    "url": "https://github.com/SupremeSupport/Cursor-Desktop-2026"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-27T15:30:47Z",
+    "updated_at": "2026-10-27T15:45:50Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -143,15 +161,6 @@
     "stars": 0,
     "updated_at": "2026-10-27T12:07:21Z",
     "url": "https://github.com/weekendshipkit/weekend-scope-guard"
-  },
-  {
-    "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
-    "id": "SupremeSupport/Cursor-Desktop-2026",
-    "language": "\u2014",
-    "name": "SupremeSupport/Cursor-Desktop-2026",
-    "stars": 1,
-    "updated_at": "2026-10-27T11:37:52Z",
-    "url": "https://github.com/SupremeSupport/Cursor-Desktop-2026"
   },
   {
     "cursorrules": {
@@ -504,14 +513,5 @@
     "stars": 41870,
     "updated_at": "2026-10-26T01:08:14Z",
     "url": "https://github.com/wshobson/agents"
-  },
-  {
-    "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
-    "id": "mikeprasad/aria-knowledge",
-    "language": "Shell",
-    "name": "mikeprasad/aria-knowledge",
-    "stars": 17,
-    "updated_at": "2026-10-26T01:04:14Z",
-    "url": "https://github.com/mikeprasad/aria-knowledge"
   }
 ]
