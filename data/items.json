@@ -1,21 +1,21 @@
 [
   {
+    "description": "A checkup for your coding agent setup. Lints AGENTS.md, CLAUDE.md, SKILL.md, Cursor rules, Copilot instructions, MCP ser",
+    "id": "mustafakbaser/agentcheckup",
+    "language": "TypeScript",
+    "name": "mustafakbaser/agentcheckup",
+    "stars": 0,
+    "updated_at": "2026-10-27T08:54:56Z",
+    "url": "https://github.com/mustafakbaser/agentcheckup"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-27T08:30:33Z",
+    "updated_at": "2026-10-27T08:45:32Z",
     "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
-    "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
-    "id": "SupremeSupport/Cursor-Desktop-2026",
-    "language": "\u2014",
-    "name": "SupremeSupport/Cursor-Desktop-2026",
-    "stars": 1,
-    "updated_at": "2026-10-27T07:48:16Z",
-    "url": "https://github.com/SupremeSupport/Cursor-Desktop-2026"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -61,15 +61,6 @@
     "stars": 583,
     "updated_at": "2026-10-27T08:44:54Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
-  },
-  {
-    "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
-    "id": "bompus/house-rules",
-    "language": "JavaScript",
-    "name": "bompus/house-rules",
-    "stars": 2,
-    "updated_at": "2026-10-27T07:23:40Z",
-    "url": "https://github.com/bompus/house-rules"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -122,15 +113,6 @@
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
-    "description": "Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W-",
-    "id": "fluttersdk/wind",
-    "language": "Dart",
-    "name": "fluttersdk/wind",
-    "stars": 43,
-    "updated_at": "2026-10-27T00:19:27Z",
-    "url": "https://github.com/fluttersdk/wind"
-  },
-  {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
     "id": "J-nowcow/awesome-korean-agent-skills",
     "language": "\u2014",
@@ -138,20 +120,6 @@
     "stars": 52,
     "updated_at": "2026-10-26T23:15:36Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "cursorrules": {
-      "content": "# Core Rule for Vibes-Plug Agents\n\n> **\ud83c\udf10 Universal Compatibility:** These rules apply to ALL AI platforms using vibes-plug:\n> **Antigravity (AGY)** via `AGENTS.md` | **Claude Code** via `CLAUDE.md` + `.claude/rules/` | **Cursor IDE** via `.cursorrules` + `.cursor/rules/` | **OpenAI Codex** via `CODEX.md` + `.codex/rules/`\n> Each platform has its own entry point, but the core rules and 176 skills are shared.\n\n## MANDATORY: LLM-Agnostic & IDE Universal Compatibility\n**CRITICAL RULE**: This Swarm Architecture is strictly model-agnostic. It is engineered to extract maximum reasoning capabilities from ALL Latest Frontier Models across all IDE tiers:\n- **High Fast / Low-Latency Tier**: xAI Grok 4.7 High Fast / Grok 4.6 High Fast (sub-second TTFT, real-time web compute, lightning test iterations), Cursor Composer 2.5 Fast (native multi-file diff engine & fast refactoring).\n- **Medium / Balanced Tier**: Google Gemini 4 Argon Medium (2M+ monolithic context, native caching), OpenAI GPT-5.6 Sol Medium (strict tool calling & structured contracts), Anthropic Claude Opus 5.5 Medium (balanced deep architectural comprehension).\n- **High / Extended Thinking Tier**: Anthropic Claude Sonnet 5.5 High (flagship fullstack reasoning & extended thinking), Anthropic Claude Fable 5.1 High (prompt-cache optimized agentic workflows), Muse Wonder High (exploratory reasoning & generative design synthesis), Google Gemini 4 Pro / Project Astra, and DeepSeek-R1 / Pro / V3.\nThe AI MUST adapt the orchestration payload according to its native context window, execution tier, and thinking budget.\n\n### MANDATORY: Availability Fallback Invariant (Invarian Pengalihan Ketersediaan)\nWhen a frontier model is not yet provisioned, reaches rate/quota limits, or is temporarily unavailable in the user's environment:\n- **Gemini 4 Fallback (Argon & Pro)**: Automatically and seamlessly degrade tasks to **`Gemini 3.8 Flash`** (preserving 1M+ context window, native context caching, and sub-100ms TTFT).\n- **Claude Opus 5.5 Fallback**: Automatically and seamlessly degrade tasks to **`Claude Opus 4.6`** (preserving deep architectural reasoning and cross-domain logic validation).\n- Never fail with unhandled missing-model errors or stub implementations; execute immediately through the fallback path with zero disruption.\n\n## MANDATORY: Primary Trigger & Skill Auto-Synchronization (Pemicu Utama)\n**CRITICAL RULE**: Upon plugin installation, `vibes-plug` becomes the **PRIMARY TRIGGER (Pemicu Utama)** and **MASTER CONDUCTOR** for all AI activities. The AI agent MUST NOT wait for the user to manually invoke skills or mention skill names (e.g. `@senior-frontend` or `/ask-skill`).\n\nWhenever a user submits ANY request, the agent MUST automatically and autonomously:\n1. **Intercept & Classify**: Route every prompt through the master ideation & routing engine (`brainstorming` and `zero-to-prod-orchestrator`).\n2. **Auto-Synchronize Cooperating Skills**: Dynamically identify and bind all relevant domain skills from the 176 skill registry:\n   - **Frontend & UI**: `senior-frontend` + `tailwind-expert` + `design-system-architect` + `form-validation-expert` + `ui-ux-pro-max` + `modern-css-native-expert`.\n   - **Backend & APIs**: `js-backend-expert` + `database-orm-expert` + `api-design-expert` + `spec-driven-development-expert` + `authentication-identity-expert` + `python-programming-expert` + `go-programming-expert` + `rust-programming-expert`.\n   - **Payments & Billing**: `doku-payment-gateway` + `payment-gateway-expert` + `saas-billing` + `double-entry-ledger-fintech-expert` + `database-orm-expert` (atomic locks & SNAP BI idempotency).\n   - **Data, Cloud & DevOps**: `olap-columnar-analytics-expert` + `reactive-sync-engine-expert` + `fga-rebac-authorization-expert` + `passkeys-webauthn-identity-expert` + `kubernetes-gitops-platform-expert` + `sbom-supply-chain-security-expert` + `zero-trust-secret-vault`.\n   - **AI & MCP**: `ai-llm-integration-expert` + `frontier-ai-models-expert` + `gemini-agent-booster` + `vercel-ai-sdk-expert` + `mcp-server-architect` + `doku-mcp-server` + `multi-agent-orchestration`.\n   - **Testing & Quality**: `autonomous-tdd-debugger` + `e2e-testing-expert` + `autonomous-red-teamer` + `production-ready-hardener` + `anti-slop` + `zero-tech-debt-auditor`.\n   - **Full Lifecycle**: `brainstorming` + `prd-architect` + `zero-to-prod-orchestrator` + `session-memory-manager`.\n3. **Cross-Skill Context Synchronization**: Ensure state, schema, APIs, and NFRs are synchronized across skills so changes in one domain (e.g., database schema) automatically propagate to others (e.g., backend models, API contracts, frontend types).\n4. **Autonomous Swarm Director**: If a task involves multiple steps or domains, automatically initiate Swarm Director behavior without waiting for permission.\n\n## MANDATORY: Skill Orchestration Update\n**CRITICAL RULE**: Every time a new skill is added or created within the `vibes-plug` ecosystem, the agent MUST immediately and automatically update the main orchestrator files. \n\nFailure to do so breaks the entire architectural orchestration flow.\n\nWhenever a new skill `SKILL.md` is generated, you must:\n1. **Update `brainstorming/SKILL.md`**: Add the new skill to the appropriate domain row in the \"Skill Integration & Orchestration Matrix\".\n2. **Update `zero-to-prod-orchestrator/SKILL.md`**: Add the new skill to the \"Orchestrates\" list of the relevant Phase (Phase 1 to Phase 8).\n3. **Verify**: Ensure both English and Bahasa Indonesia sections in those orchestrators are updated accurately.\n\nThis rule is absolute and applies to all AI agents interacting with this plugin.\n\n## MANDATORY: Multi-Agent Orchestration & Swarm Cooperation\n**CRITICAL RULE**: When dealing with complex, multi-step tasks, the AI Agent MUST function as a **Swarm Director** and orchestrate multiple specialized subagents concurrently.\n\n**AUTOMATIC TRIGGER**: You MUST automatically initiate Swarm Director behavior whenever a task:\n- Involves more than one domain (e.g., Frontend + Backend + Database).\n- Requires extensive research across multiple files/repositories.\n- Consists of more than three independent steps.\n- Involves high-risk architectural changes or migrations.\n*Do NOT ask for the user's permission to spawn subagents; do it autonomously.*\n\n### Swarm Execution Topologies (2026 Edition)\n\n```\n1. FAN-OUT / FAN-IN (Parallel Research & Assembly)\n   Director \u2500\u2500\u252c\u2500\u2500\u25ba Subagent A (Frontend / UI)   \u2500\u2500\u2510\n              \u251c\u2500\u2500\u25ba Subagent B (Backend / API)    \u2500\u2500\u253c\u2500\u2500\u25ba Synthesis & Assembly\n              \u2514\u2500\u2500\u25ba Subagent C (DB Schema / RLS)  \u2500\u2500\u2518\n\n2. PIPELINE SAGA (Sequential Dependent Execution)\n   Discovery \u2500\u2500\u25ba Foundation \u2500\u2500\u25ba Schema/DB \u2500\u2500\u25ba APIs \u2500\u2500\u25ba Frontend \u2500\u2500\u25ba QA/Hardening\n\n3. CRITIC-VALIDATOR LOOP (Zero-Tolerance Quality Gate)\n   Implementer Agent \u2500\u2500\u25ba Artifact/Code \u2500\u2500\u25ba Auditor Agent (code review/fuzzing) \u2500\u2500\u25ba Approved\n```\n\n### Swarm Director Protocols\n1. **Decompose and Delegate**: Break down complex tasks into independent sub-tasks and delegate them to specialized subagents using `invoke_subagent`. Assign clear, specific roles to each subagent based on the 176 specialized skills in `vibes-plug`.\n2. **Parallel Execution**: Invoke multiple subagents simultaneously whenever tasks can be performed in parallel (e.g., one subagent researches frontend UI, another analyzes backend DB schema).\n3. **Context Sharing**: Ensure subagents are given precise instructions and the necessary context (e.g., passing `CONTEXT_MAP.md`, PRD, or specific file paths). Communicate with active subagents via `send_message`.\n4. **Agent Synergy & Native Subagents**: Rely on the `vibes-plug` native subagent registry located in `agents/`:\n   - **System Architecture**: Delegate to `swarm-architect` (guided by `brainstorming`, `prd-architect`, `domain-driven-design-expert`, `saas-architect`).\n   - **Fullstack Craftsmanship**: Delegate to `fullstack-craftsman` (guided by `senior-frontend`, `tailwind-expert`, `design-system-architect`, `js-backend-expert`, `database-orm-expert`).",
-      "format": "text",
-      "path": ".cursorrules"
-    },
-    "description": "\ud83c\udf0a Universal AI Agent Swarm & MCP Plugin with 176 specialized skills and 8 autonomous subagents for Antigravity, Claude C",
-    "id": "roedyrustam/vibes-plug",
-    "language": "JavaScript",
-    "name": "roedyrustam/vibes-plug",
-    "stars": 115,
-    "updated_at": "2026-10-26T21:54:12Z",
-    "url": "https://github.com/roedyrustam/vibes-plug"
   },
   {
     "cursorrules": {
@@ -214,15 +182,6 @@
     "url": "https://github.com/MsNan/bishe-doc-skills"
   },
   {
-    "description": "Goal-driven mode for AI coding agents. Reach the user's win condition in the fewest moves.",
-    "id": "rover-001/checkmate",
-    "language": "JavaScript",
-    "name": "rover-001/checkmate",
-    "stars": 9,
-    "updated_at": "2026-10-26T16:21:37Z",
-    "url": "https://github.com/rover-001/checkmate"
-  },
-  {
     "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
     "id": "agenticstandardcontact-byte/agentic-architect",
     "language": "HTML",
@@ -230,24 +189,6 @@
     "stars": 0,
     "updated_at": "2026-10-26T16:06:47Z",
     "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
-  },
-  {
-    "description": "Reusable Cursor AI rules: automatic prompt-grammar feedback after every reply.",
-    "id": "theshaonsaleh/cursor-rules",
-    "language": "\u2014",
-    "name": "theshaonsaleh/cursor-rules",
-    "stars": 0,
-    "updated_at": "2026-10-26T16:02:08Z",
-    "url": "https://github.com/theshaonsaleh/cursor-rules"
-  },
-  {
-    "description": "Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam",
-    "id": "eli-alvarado/agentkit-drawer",
-    "language": "Python",
-    "name": "eli-alvarado/agentkit-drawer",
-    "stars": 0,
-    "updated_at": "2026-10-26T15:00:21Z",
-    "url": "https://github.com/eli-alvarado/agentkit-drawer"
   },
   {
     "description": "Agent skills CLI: init AGENTS.md, install SKILL.md from any GitHub repo for Cursor, Claude Code, Copilot, Windsurf, Code",
@@ -268,20 +209,6 @@
     "url": "https://github.com/blackberrylabs/linstruct"
   },
   {
-    "cursorrules": {
-      "content": "---\ndescription: Instructions for AI agent code generation workflow\nglobs: [\"*\"]\nalwaysApply: true\n---\n\n# AI Collaboration Guidelines\n\n## The 3-Stage Agentic Loop\n\nEvery code generation task MUST follow this loop:\n\n### Stage 1: PLAN (gather context first)\n\nBefore writing ANY code, the AI MUST:\n1. Read the relevant source files to verify current state \u2014 do NOT rely on memory\n2. Identify which `.cursor/rules/` files apply to this task\n3. List the files to modify and explain why\n4. Do NOT write code yet\n\nPrompt template:\n```\nAnalyze the current codebase and plan how to implement [feature]. \nList the files you'll modify and why. Don't write code yet.\n```\n\n### Stage 2: IMPLEMENT (follow constraints)\n\nWhen generating code:\n- Follow ALL active `.cursor/rules/` constraints\n- If unsure about auth patterns, re-read `supabase-auth-security.mdc`\n- If unsure about params/layouts, re-read `nextjs15-params.mdc`\n- Use `unknown` + Zod validation instead of `any` for external data\n- Return `ActionResponse<T>` from all Server Actions (see below)\n\n### Stage 3: VERIFY (confirm before declaring done)\n\nAfter generating code, the AI MUST self-check:\n- [ ] No `getSession()` on the server (MUST be `getUser()`)\n- [ ] No synchronous `params` or `searchParams` access\n- [ ] No `@supabase/auth-helpers-nextjs` imports\n- [ ] No `any` types \u2014 use `unknown` + type narrowing\n- [ ] Every API route has Zod validation\n- [ ] Every error is caught and returns `{ error: string }`\n- [ ] New tables have RLS enabled\n- [ ] `loading.tsx` and `error.tsx` exist for data-fetching pages\n\nReport issues BEFORE the developer runs the code.\n\n## Skeptical Retrieval Rule\n\nNEVER trust stored knowledge about the codebase. Before modifying a file:\n1. Re-read the file to verify its current contents\n2. Check imports and exports to ensure they match expectations\n3. Verify that function signatures haven't changed\n\nThis prevents generating code that references stale function signatures, \ndeleted files, or renamed exports.\n\n## Standard Patterns\n\n### ActionResponse Type (use for all Server Actions)\n```typescript\ntype ActionResponse<T = void> = \n  | { success: true; data: T }\n  | { success: false; error: string }\n```\n\n### Standard Server Action Structure\n```typescript\n'use server'\nimport { createClient } from '@/lib/supabase/server'\nimport { z } from 'zod'\n\nconst Schema = z.object({ /* ... */ })\n\nexport async function myAction(input: unknown): Promise<ActionResponse<MyType>> {\n  // 1. Auth\n  const supabase = await createClient()\n  const { data: { user } } = await supabase.auth.getUser()\n  if (!user) return { success: false, error: 'Unauthorized' }\n\n  // 2. Validate\n  const result = Schema.safeParse(input)\n  if (!result.success) return { success: false, error: 'Invalid input' }\n\n  // 3. Execute\n  try {\n    const { data, error } = await supabase.from('table').insert(result.data).select().single()\n    if (error) throw error\n    return { success: true, data }\n  } catch {\n    return { success: false, error: 'Operation failed' }\n  }\n}\n```\n\n## Task Constraints\n\n- NEVER give the AI a task longer than 200 words\n- NEVER let the AI implement more than 3-4 files in one turn\n- NEVER let the AI skip the verification checklist\n- ALWAYS review the Git diff before committing\n- When uncertain, ask the developer \u2014 do NOT guess\n\n",
-      "format": "mdc",
-      "path": ".cursor/rules/ai-collaboration.mdc"
-    },
-    "description": "29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b",
-    "id": "vibestackdev/vibe-stack",
-    "language": "TypeScript",
-    "name": "vibestackdev/vibe-stack",
-    "stars": 8,
-    "updated_at": "2026-10-26T14:47:43Z",
-    "url": "https://github.com/vibestackdev/vibe-stack"
-  },
-  {
     "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
     "id": "KbWen/agentic-os",
     "language": "Python",
@@ -291,15 +218,6 @@
     "url": "https://github.com/KbWen/agentic-os"
   },
   {
-    "description": "404\u4f53\u306e\u5373\u6226\u529bAI\u5c02\u9580\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u96c6 \u2014 Claude Code / Cursor / Copilot \u7b49\u306b\u5bfe\u5fdc\u3002\u65e5\u672c\u5e02\u5834\u5411\u3051\u30aa\u30ea\u30b8\u30ca\u30eb125\u4f53\uff08SIer\u30fb\u53d7\u8a17\u958b\u767a\u30fbSaaS\u30fb\u88fd\u9020DX\u30fb\u516c\u5171\u5206\u91ce\uff09\u3002agency-agents\u306e\u65e5\u672c\u8a9e\u30b3\u30df\u30e5",
-    "id": "sscodeai/agency-agents-ja",
-    "language": "Shell",
-    "name": "sscodeai/agency-agents-ja",
-    "stars": 10,
-    "updated_at": "2026-10-26T13:18:27Z",
-    "url": "https://github.com/sscodeai/agency-agents-ja"
-  },
-  {
     "description": "The universal open database and semantic vector search engine for AI Agent Skills, MCP Servers, Project Directives, and ",
     "id": "nsozturk/open-agent-db",
     "language": "Python",
@@ -307,20 +225,6 @@
     "stars": 1,
     "updated_at": "2026-10-26T12:03:10Z",
     "url": "https://github.com/nsozturk/open-agent-db"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Global Android project standards \u2014 always apply\nalwaysApply: true\n---\n\nYou are working on a production Android application.\n\n## Stack (defaults \u2014 adapt to existing project if already established)\n\n- Kotlin only\n- UI from `.cursor/project-settings.json` **`uiFramework`**: `\"xml\"` (default if missing) = XML + View Binding; `\"compose\"` = Jetpack Compose + `:feature-*` modules (AnimeHub). Never mix as the app UI stack. Never Data Binding\n- Clean Architecture (Presentation \u2192 Domain \u2192 Data)\n- MVVM + MVI (Intent / State / Effect) for **feature screens** \u2014 **not** ads (`:gmaAds`); ads use Fragment/Activity extensions + managers \u2014 never MVI unless the user explicitly asks (`21-ads-billing`, `reference/ads-gma.md`, `admob/*` skills)\n- Repository pattern\n- Multi-module architecture\n- DI via the project's existing framework (default: Koin)\n- Gradle Kotlin DSL + Version Catalog (`libs.versions.toml`)\n\n## Before writing code\n\n- Analyze existing project structure and conventions first\n- Reuse existing base classes, modules, and patterns\n- Do not introduce new libraries without explicit approval\n- Do not change architecture or module boundaries without approval\n- Maintain backward compatibility\n- When `.cursor/project-settings.json` exists, **obey it** (`uiFramework`, `writeTestsWithFeatures`, `orientation`, `themeModes`, `applicationId`, `appName`) \u2014 see `.cursor/README.md`\n\n## Code quality\n\n- Production-ready code only \u2014 no placeholders or TODOs left behind\n- Single responsibility per class\n- Avoid duplicate logic \u2014 extract shared code to core modules\n- Prefer readable code over clever code\n- Minimize scope \u2014 change only what the task requires\n- Design for large datasets from day one \u2014 never assume small lists\n- UI must support portrait and landscape (unless `project-settings.json` sets `orientation` to `portrait` or `landscape` only)\n- Heavy mapping in Repository / UseCase; UI layers render only\n- Networking / Room / SharedPreferences patterns: `26-data-persistence.mdc` + `rules/reference/`\n\n## Golden dependency rule\n\n```\napp (Composition Root)\n |\n \u2193\npresentation \u2192 domain \u2190 data\n |\n \u2193\ncore modules (shared utilities)\n```\n\n- Create as many `:core-*` modules as needed (`core-common`, `core-ui`, `core-platform`, \u2026)\n- UI never imports data implementations. Domain never imports UI.\n\n## Always\n\n1. Follow Clean Architecture + MVVM/MVI (Intent / State / Effect / ViewModel / UseCase / Repository) for **feature screens** \u2014 ads are exempt (`21-ads-billing`) \u2014 same as Stack above\n2. UI follows `uiFramework`: **xml** \u2192 View Binding, never Compose, never `findViewById`; **compose** \u2192 Compose screens in `:feature-*`, never XML `fragment_*` layouts, never `findViewById` \u2014 never Data Binding \u2014 same as Stack above\n3. Use the project's DI framework \u2014 **`module` (eager cold-start) or `lazyModule` (deferred features/ads)** per `07-dependency-injection`; register in composition root \u2014 same as Stack above\n4. Use Version Catalog \u2014 no hardcoded dependency versions\n5. Respect module boundaries \u2014 presentation must not depend on `:data`; UseCases + repo **interfaces** only in `:domain` (never in `:data`) \u2014 same as Golden dependency rule above\n6. Put **all** user-facing strings in the single shared strings file (e.g. `:core-ui`) \u2014 no hardcoded UI strings\n7. Match existing naming conventions (resources, packages, classes)\n8. Add unit tests for new UseCases and ViewModels when adding features \u2014 **unless** `.cursor/project-settings.json` has `writeTestsWithFeatures: false`\n9. Use proper dispatchers (`IO` / `Default`) \u2014 assume lists/files may have thousands of items; never block Main\n10. Log with `Constants.TAG*` and format `ClassName: functionName: State: details`\n11. Support **portrait and landscape** for all UI screens \u2014 **unless** `project-settings.json` `orientation` is `portrait` or `landscape` only \u2014 same as Code quality above\n12. Do heavy mapping in Repository / UseCase; `toUi()` in ViewModel only when needed (with dispatcher if heavy) \u2014 same as Code quality above\n13. Read and obey `.cursor/project-settings.json` when present (`uiFramework`, `orientation`, `themeModes`, `writeTestsWithFeatures`) \u2014 same as Before writing code above\n14. Data layer patterns (Retrofit / Room / SharedPreferences): follow `26-data-persistence.mdc` and `rules/reference/` \u2014 not ad-hoc skills \u2014 same as Code quality above\n\n## Never\n\n1. Never add libraries without explicit human approval \u2014 same as Before writing code above\n2. Never add Hilt/Dagger/RxJava unless the project already uses them. Never add Compose when `uiFramework` is `xml`. Never add XML Fragment screens when `uiFramework` is `compose`\n3. Never put business logic or heavy mapping in Fragments/Activities/Adapters/`*ScreenContent` beyond render + intent dispatch\n4. Never access DataSources directly from presentation\n5. Never skip `android:exported` on manifest components with intent-filters\n6. Never use `GlobalScope` for feature work\n7. Never modify unrelated files when implementing a feature \u2014 same as Code quality \u201cMinimize scope\u201d above\n8. Never do heavy mapping/sorting/IO on the Main thread \u2014 same as Always #9 above\n9. Never invent ad-hoc log tags \u2014 use `Constants.TAG*` \u2014 same as Always #10 above\n10. Never lock the app to one orientation unless product explicitly requires it \u2014 same as Always #11 above\n11. Never set static `RecyclerView` `layoutManager` / list `orientation` / `spanCount` in Kotlin \u2014 declare them in XML unless dynamic (**xml** only)\n12. Never put UseCases or repository **interfaces** in `:data` \u2014 domain only; never use \u2014 same as Always #3 and #5 above\n13. Never invent a parallel architecture (e.g. Redux, Orbit) for one screen \u2014 stay on project MVI\n14. Never hardcode AdMob production IDs in debug or commit secrets into git / docs \u2014 see `14-security-secrets.mdc`\n15. Never convert ads (`:gmaAds`, AdMob managers) to MVI (Intent / State / Effect) unless the user **explicitly** asks \u2014 place `:gmaAds` from [orbitalsonic/Admob-Ads](https://github.com/orbitalsonic/Admob-Ads); screens call extensions. See `21-ads-billing` + `reference/ads-gma.md`\n\nWhen scaffolding a new feature or screen, also follow `01-feature-checklist.mdc`.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/00-global.mdc"
-    },
-    "description": "Production-ready Android Engineering Rules for Cursor and other AI coding assistants. Build consistent, scalable, and ma",
-    "id": "orbitalsonic/AndroidPilot",
-    "language": "Kotlin",
-    "name": "orbitalsonic/AndroidPilot",
-    "stars": 1,
-    "updated_at": "2026-10-26T11:00:10Z",
-    "url": "https://github.com/orbitalsonic/AndroidPilot"
   },
   {
     "cursorrules": {
@@ -415,20 +319,6 @@
     "url": "https://github.com/chihebnabil/lovable-boilerplate"
   },
   {
-    "cursorrules": {
-      "content": "---\ndescription: claude-agents marketplace project conventions\nalwaysApply: true\n---\n\n# claude-agents conventions\n\nThis is a multi-harness plugin marketplace. Source lives under `plugins/`; per-harness\nartifacts (`.codex/`, `.cursor-plugin/`, `.opencode/`, `commands/`) are generated.\n\n- Don't hand-edit anything under `.codex/`, `.cursor-plugin/`, `.opencode/`, or top-level `commands/`, `agents/`, `skills/` \u2014 regenerate via `make generate HARNESS=<x>`.\n- Python tooling: `uv` (package manager), `ruff` (lint/format), `ty` (type check). Do not use pip/mypy/black.\n- Plugin files: `plugins/<name>/{.claude-plugin/plugin.json, agents/*.md, skills/<name>/SKILL.md, commands/*.md}`. Auto-discovered.\n- Cursor reads `.claude/skills/` and `.claude/agents/` directly \u2014 no separate `.cursor/skills/` is generated.\n\n## Never\n\n- Never commit secrets or hardcode credentials.\n- Never hand-edit generated registries (`.agents/plugins/marketplace.json`, `.cursor-plugin/`) \u2014 plugin PRs register the plugin in `.claude-plugin/marketplace.json`, then run `make generate-all` (see CONTRIBUTING.md).\n- Never run destructive git operations (force-push, reset --hard, branch -D) without explicit ask.\n\nSee `docs/authoring.md` for the portable-content style guide.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/000-project-conventions.mdc"
-    },
-    "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a",
-    "id": "wshobson/agents",
-    "language": "Python",
-    "name": "wshobson/agents",
-    "stars": 41850,
-    "updated_at": "2026-10-26T01:08:14Z",
-    "url": "https://github.com/wshobson/agents"
-  },
-  {
     "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
     "id": "mikeprasad/aria-knowledge",
     "language": "Shell",
@@ -450,15 +340,6 @@
     "stars": 0,
     "updated_at": "2026-10-25T22:44:39Z",
     "url": "https://github.com/adalenv/smip-skill"
-  },
-  {
-    "description": "Free AGENTS.md, CLAUDE.md and Cursor rules for Next.js and FastAPI. Make AI coding agents follow your conventions.",
-    "id": "lilaforge/agent-ready-rules-lite",
-    "language": "\u2014",
-    "name": "lilaforge/agent-ready-rules-lite",
-    "stars": 0,
-    "updated_at": "2026-10-25T20:37:44Z",
-    "url": "https://github.com/lilaforge/agent-ready-rules-lite"
   },
   {
     "description": "Free sample Cursor and Claude Code rules for FastAPI, Next.js and Spring Boot, from codebaserules.com",
@@ -498,20 +379,6 @@
     "url": "https://github.com/scoyoc5/unity-ai-agent-rules"
   },
   {
-    "cursorrules": {
-      "content": "---\ndescription: \"Build editorial/magazine/report webpages on a GENUINE M\u00fcller-Brockmann modular grid (International Typographic Style) \u2014 not a decorative one. Encodes the discipline (columns + modules + baseline, grotesque type, flush-left, restrained black/white/red palette) AND the hard-won front-end engineering to make the grid real, visible, and verified: one CSS-variable source of truth, an interactive grid-toggle overlay that lives in the SAME content box as the content, subgrid \\\"bands\\\" so every element snaps to a column line, an 8px baseline lock, and runtime OPTICAL ALIGNMENT that puts display type's ink (not its box) on the line. Ships with a scaffold generator and a Puppeteer verification harness that proves 0px adherence.\"\nalwaysApply: false\n---\n\n# M\u00fcller-Brockmann Grid Systems \u2014 built real, visible, and verified\n\nJosef M\u00fcller-Brockmann (1914\u20131996), Zurich; *Grid Systems in Graphic Design* (1981) is the corpus. The grid is treated as an ethic, not decoration: **\"The grid system is an aid, not a guarantee. It permits a number of possible uses and each designer can look for a solution appropriate to his personal style. But one must learn how to use the grid; it is an art that requires practice.\"** This skill encodes that discipline AND \u2014 the part most attempts get wrong \u2014 the front-end engineering to make the grid genuinely load-bearing on the web, plus a harness that PROVES it.\n\n> **HARD GATE** \u2014 Do NOT ship a grid page without running `verify_grid.js` first. A visually plausible layout is not evidence of grid adherence \u2014 the harness is. Zero failing assertions is the only passing bar.\n\n> Two real review notes this skill exists to prevent:\n> 1. *\"the grid is just slapped on top and misaligned\"* \u2192 the overlay wasn't in the same content box as the content (see \u00a72.2).\n> 2. *\"the H in the headline is off the grid\"* \u2192 the headline's BOX was on the grid but its INK wasn't; large glyphs carry a side-bearing (see \u00a72.6). **Box-on-grid \u2260 ink-on-grid.**\n\n---\n\n## PART 1 \u2014 THE DISCIPLINE (decide before drawing)\n- **Objective order.** The grid brings \"constructive thought,\" legibility, and \"objective and functional\" design. Restraint is the point; the system, not the ego, organizes the page.\n- **Modular grid.** Divide the type area into a field of **modules** \u2014 columns AND rows \u2014 separated by consistent **gutters**, inside defined **margins**. Text and images occupy whole modules. M\u00fcller-Brockmann specimens common field counts (8 / 20 / 32 fields). For the web, a **12-column grid + 8px baseline** is a robust general default; a **6\u00d76 or 4\u00d78 modular field grid** when you want visible rows too.\n- **Baseline grid.** Vertical rhythm is sacred: **leading = a whole multiple of the baseline unit**, and every element snaps to it. This is what makes facing columns and images line up across the page.\n- **Typography.** A **grotesque sans** (Akzidenz-Grotesk / Helvetica; on the web Inter, Helvetica Now, Archivo). **Flush-left, ragged-right.** Few sizes, large jumps in **scale** for hierarchy; objective, not expressive. Big **numerals/data set large** is a signature move.\n- **Palette.** Pure white paper, near-black ink, **one accent \u2014 red is canonical**. Avoid the warm-cream \"Claude look\"; **never blue/purple gradients** (hard house rule).\n- **White space + asymmetry.** Generous margins; asymmetric compositions held in tension by the grid.\n\n---\n\n## PART 2 \u2014 MAKE THE GRID REAL ON THE WEB (the load-bearing engineering)\n`grid_tokens.py` emits this whole scaffold correctly; the rules below are why it's built the way it is.\n\n### 2.1 One source of truth\nPut every grid parameter in `:root` CSS variables \u2014 `--cols, --gutter, --margin, --bl (baseline), --lh (leading=3\u00d7bl), --maxw`. **Content and the overlay both read these same variables.** Never hand-author the overlay separately or it will drift.\n\n### 2.2 The overlay MUST live in the SAME content box as the content  \u2190 #1 bug\nFailure mode: content sits in a centered `max-width` container while the overlay is a **full-width sibling** of the section. On any viewport wider than `--maxw`, the centered content and the full-width overlay no longer share column positions \u2192 \"slapped on top / misaligned.\"\n**Fix:** put `.guides` *inside* the same `.wrap`, and draw the column guides with `left/right = var(--margin)` and the **same** `repeat(var(--cols),1fr)` + `column-gap:var(--gutter)`. Then the overlay columns **are** the content columns at every width. Add left/right margin lines at `var(--margin)`.\n\n### 2.3 Place every element by column LINE via subgrid bands\nDon't eyeball spans. Each horizontal **band** spans all columns and re-exposes them:\n```css\n.band{grid-column:1 / -1; display:grid; grid-template-columns:subgrid; column-gap:var(--gutter); align-items:start;}\n@supports not (grid-template-columns:subgrid){ .band{grid-template-columns:repeat(var(--cols),1fr);} }\n```\nChildren place with `grid-column: <startline> / <endline>` (e.g. `1 / 6`, `6 / 13`). Every headline, paragraph, photo, caption now snaps to identical lines.\n\n### 2.4 Lock vertical rhythm to the baseline\n- Leading = `--lh` (e.g. 24px = 3\u00d78). **Every line-height a multiple of the baseline, in px (not unitless) for display type** \u2014 unitless line-heights on large type push the box off the grid.\n- Every margin/padding a multiple of the baseline. Spread top/bottom padding a multiple too, so content starts on a line.\n- **Media heights = multiples of the leading** (e.g. 240/360/432/480px) so a photo's top AND bottom both land on lines.\n- Hairline rules sit inside a baseline-height band, not free-floating.\n\n### 2.5 The toggle (sizzle within the sizzle)\nA control (button **+ `G` key**) toggles `body.grid-on`; overlay fades 0\u21921. Overlay draws: translucent **numbered column fields**, the **baseline** (major line every `--lh`, faint minor every `--bl`), and **margin lines**. Showing the real grid the page is built on IS the demo.\n\n### 2.6 OPTICAL ALIGNMENT \u2014 display ink, not its box  \u2190 the subtle bug\nA 180px headline whose layout box is exactly on line 1 still looks misaligned against body text, because the letterform's **ink** is inset by its **left side-bearing**. Cure at runtime:\n```js\n// after document.fonts.ready and on resize:\nvar cvs=document.createElement('canvas'),ctx=cvs.getContext('2d');\ndocument.querySelectorAll('.masthead,.numeral,.shead h2,.h2b').forEach(function(el){\n  el.style.marginLeft='0px';\n  var cs=getComputedStyle(el),ch=(el.textContent||'').trim()[0]; if(!ch) return;\n  if(cs.textTransform==='uppercase') ch=ch.toUpperCase();\n  ctx.font=cs.fontStyle+' '+cs.fontWeight+' '+cs.fontSize+' '+cs.fontFamily; ctx.textAlign='left';\n  var abl=ctx.measureText(ch).actualBoundingBoxLeft;     // +ve = ink overhangs left of box\n  if(isFinite(abl)) el.style.marginLeft=abl.toFixed(2)+'px'; // shift box so INK lands on the line\n});\n```\nApply to the masthead, big numerals, and section headlines. It scales with fluid type (re-runs on resize) and uses the **actually-loaded** font, so it's correct in the user's browser.\n**CRITICAL measurement caveat:** side-bearing is **font-specific**. If you measure with the wrong font you get the wrong nudge. Headless/sandbox Chrome usually lacks the webfont, so canvas falls back to a different grotesque (measured **\u221216px on the fallback vs \u22127px on real Inter** for the same `H`). To verify optics offline you must **embed the real webfont** via `@font-face` (local TTF). In production the runtime JS measures the loaded font and is correct.\n\n---\n\n## PART 3 \u2014 VERIFY (don't trust, measure)  \u2192 `verify_grid.js`\nRender with headless Chrome (Puppeteer) and assert, at **several widths including > and < `--maxw`** (to catch centered-container drift, e.g. 1440 / 1180 / 900):\n1. **Column adherence** \u2014 every placed `.band > *` left snaps to a column START and right to a column END (~0px). **Exclude the optically-aligned display elements** from this box check (their box is intentionally side-bearing-offset; they're validated in step 4). **Gotcha:** build ",
-      "format": "mdc",
-      "path": ".cursor/rules/align-grid.mdc"
-    },
-    "description": "Agent skills synthesizing years of software engineering discipline into a prescriptive methodology for solo developers",
-    "id": "danielvm-git/bigpowers",
-    "language": "Shell",
-    "name": "danielvm-git/bigpowers",
-    "stars": 280,
-    "updated_at": "2026-10-25T15:09:21Z",
-    "url": "https://github.com/danielvm-git/bigpowers"
-  },
-  {
     "description": "A universal, native-Rust governance layer for AI coding agents. Enforces Subagent-Driven Development (SDD) to stop hallu",
     "id": "Harmitx7/tribunal-kit",
     "language": "JavaScript",
@@ -521,12 +388,71 @@
     "url": "https://github.com/Harmitx7/tribunal-kit"
   },
   {
-    "description": "KUKA KRL (KSS 8.3-8.7) AI Prompts, Skills and Rules for Cursor, Antigravity, and Claude Code",
-    "id": "LiskinLabs/kuka-krl-skills",
-    "language": "\u2014",
-    "name": "LiskinLabs/kuka-krl-skills",
+    "description": "Rules and skills for coding agents: AI Skill Studio (CLAUDE.md, AGENTS.md, Cursor rules, SKILL.md generator), Skill Libr",
+    "id": "Saad-web-spec/DevScratchPad",
+    "language": "TypeScript",
+    "name": "Saad-web-spec/DevScratchPad",
+    "stars": 1,
+    "updated_at": "2026-10-25T08:37:23Z",
+    "url": "https://github.com/Saad-web-spec/DevScratchPad"
+  },
+  {
+    "description": "Universal Git-powered persistent memory, context rules & native MCP server for AI coding agents. Prevents context amnesi",
+    "id": "digital-lake-ai/lognexus",
+    "language": "TypeScript",
+    "name": "digital-lake-ai/lognexus",
+    "stars": 4,
+    "updated_at": "2026-10-26T20:30:13Z",
+    "url": "https://github.com/digital-lake-ai/lognexus"
+  },
+  {
+    "description": "Free AGENTS.md generator. Pick rules for your stack, scan a repository, and export AGENTS.md, CLAUDE.md, Cursor rules or",
+    "id": "grzmol/AGENTS.md-generator",
+    "language": "TypeScript",
+    "name": "grzmol/AGENTS.md-generator",
     "stars": 0,
-    "updated_at": "2026-10-25T13:07:00Z",
-    "url": "https://github.com/LiskinLabs/kuka-krl-skills"
+    "updated_at": "2026-10-24T18:01:35Z",
+    "url": "https://github.com/grzmol/AGENTS.md-generator"
+  },
+  {
+    "description": "\u63d0\u793a\u8bcd\u767e\u5b9d\u7bb1\uff1a66 \u6761\u539f\u521b\u4e2d\u6587 Prompt \u4e0e AI Agent \u6a21\u677f\uff08\u7f16\u7a0b/\u524d\u7aef/\u4ee3\u7801\u5ba1\u67e5/\u6587\u6863/\u4ea7\u54c1/\u8fd0\u8425/\u5b66\u4e60/\u6c42\u804c/Agent \u5de5\u4f5c\u6d41/Cursor rules/Claude skills\uff09\uff0c\u586b\u53d8\u91cf\u4e00\u952e\u590d\u5236",
+    "id": "MsNan/prompt-hub-cn",
+    "language": "JavaScript",
+    "name": "MsNan/prompt-hub-cn",
+    "stars": 0,
+    "updated_at": "2026-10-24T17:10:33Z",
+    "url": "https://github.com/MsNan/prompt-hub-cn"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Project rules for agent-context-doctor\nglobs: [\"src/**\", \"tests/**\"]\nalwaysApply: true\n---\n\n# agent-context-doctor \u2014 Cursor Rules\n\nYou are an **implementation agent** for this project. Focus on implementation only \u2014 product strategy is out of scope.\n\n## Hard rules\n\n- No LLM calls, no telemetry, no external network requests\n- No authentication or credential handling\n- No web server or browser UI\n- Do not rename `acd`, `audit`, or `list` commands\n- Do not break the `AuditResult` JSON shape or `.acdrc` schema backward compatibility\n\n## Before finishing any task\n\nRun and confirm these all pass:\n\n```bash\npnpm format:check\npnpm typecheck\npnpm test\npnpm build\n```\n\n## Code style\n\n- TypeScript strict mode \u2014 no `any`, no `ts-ignore`\n- Pure functions for all audit checks in `src/audit/checks/`\n- Tests in `tests/*.spec.ts` using vitest\n- No comments that narrate what the code does\n\n## Final report format\n\nAlways return:\n\n- Files changed (list)\n- Commands run and their output\n- Tests added\n- Known limitations\n",
+      "format": "mdc",
+      "path": ".cursor/rules/project.mdc"
+    },
+    "description": "Audit agent context files like AGENTS.md, CLAUDE.md, .cursor/rules/*.mdc, .github/copilot-instructions.md, and prompt do",
+    "id": "alipajand/agent-context-doctor",
+    "language": "TypeScript",
+    "name": "alipajand/agent-context-doctor",
+    "stars": 1,
+    "updated_at": "2026-10-24T15:22:07Z",
+    "url": "https://github.com/alipajand/agent-context-doctor"
+  },
+  {
+    "description": "Battle-tested agent skills and Cursor rules from real projects. Works with Cursor, Claude Code, and any agent.",
+    "id": "jcottam/agent-resources",
+    "language": "Shell",
+    "name": "jcottam/agent-resources",
+    "stars": 25,
+    "updated_at": "2026-10-24T16:54:12Z",
+    "url": "https://github.com/jcottam/agent-resources"
+  },
+  {
+    "description": "AI Agent Skill for 60 Data Visualization Methods across any programming language (JS/TS, Python, .NET, R, SQL)",
+    "id": "megafly-25/universal-data-visualization-skill",
+    "language": "\u2014",
+    "name": "megafly-25/universal-data-visualization-skill",
+    "stars": 0,
+    "updated_at": "2026-10-24T16:37:08Z",
+    "url": "https://github.com/megafly-25/universal-data-visualization-skill"
   }
 ]
