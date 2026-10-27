@@ -1,11 +1,20 @@
 [
   {
+    "description": "Beautiful, honest data visualization as an Agent Skill \u2014 five laws, a chart matcher, a 25-point beauty audit. For Claude",
+    "id": "karefined-eng/information-is-beautiful-skill",
+    "language": "TypeScript",
+    "name": "karefined-eng/information-is-beautiful-skill",
+    "stars": 2,
+    "updated_at": "2026-10-27T06:09:53Z",
+    "url": "https://github.com/karefined-eng/information-is-beautiful-skill"
+  },
+  {
     "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
     "id": "bompus/house-rules",
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 2,
-    "updated_at": "2026-10-27T05:55:16Z",
+    "updated_at": "2026-10-27T06:12:37Z",
     "url": "https://github.com/bompus/house-rules"
   },
   {
@@ -14,7 +23,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-27T05:45:46Z",
+    "updated_at": "2026-10-27T06:00:33Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -120,15 +129,6 @@
     "stars": 52,
     "updated_at": "2026-10-26T23:15:36Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "description": "Beautiful, honest data visualization as an Agent Skill \u2014 five laws, a chart matcher, a 25-point beauty audit. For Claude",
-    "id": "karefined-eng/information-is-beautiful-skill",
-    "language": "TypeScript",
-    "name": "karefined-eng/information-is-beautiful-skill",
-    "stars": 2,
-    "updated_at": "2026-10-26T21:54:59Z",
-    "url": "https://github.com/karefined-eng/information-is-beautiful-skill"
   },
   {
     "cursorrules": {
@@ -424,7 +424,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 41837,
+    "stars": 41839,
     "updated_at": "2026-10-26T01:08:14Z",
     "url": "https://github.com/wshobson/agents"
   },
