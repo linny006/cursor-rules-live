@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-27T12:15:45Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Two small Cursor rules that keep an AI agent on one job. Free, MIT.",
     "id": "weekendshipkit/weekend-scope-guard",
     "language": "\u2014",
@@ -7,15 +16,6 @@
     "stars": 0,
     "updated_at": "2026-10-27T12:07:21Z",
     "url": "https://github.com/weekendshipkit/weekend-scope-guard"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-27T12:00:36Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
@@ -168,7 +168,7 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 29,
-    "updated_at": "2026-10-27T00:29:06Z",
+    "updated_at": "2026-10-27T12:23:49Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {

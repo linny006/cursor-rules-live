@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-27 12:15 UTC
+> ⏰ Last updated: 2026-10-27 12:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,8 +53,8 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [weekendshipkit/weekend-scope-guard](https://github.com/weekendshipkit/weekend-scope-guard) | 0 | — | 2026-10-27 | — | Two small Cursor rules that keep an AI agent on one job. Free, MIT. |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-27 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-27 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [weekendshipkit/weekend-scope-guard](https://github.com/weekendshipkit/weekend-scope-guard) | 0 | — | 2026-10-27 | — | Two small Cursor rules that keep an AI agent on one job. Free, MIT. |
 | 3 | [SupremeSupport/Cursor-Desktop-2026](https://github.com/SupremeSupport/Cursor-Desktop-2026) | 1 | — | 2026-10-27 | — | ⭐️ Cursor 2026 Ai Cursorpro Cursor Ai ⭐️ |
 | 4 | [PQBlocks/pqblocks-skills](https://github.com/PQBlocks/pqblocks-skills) | 0 | — | 2026-10-27 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/PQBlocks/pqblocks-skills/) | AI assistant skills, Cursor IDE rules, and prompt optimization assets for PQBlocks |
 | 5 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 52 | — | 2026-10-27 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
