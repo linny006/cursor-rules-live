@@ -1,11 +1,20 @@
 [
   {
+    "description": "Architectural drift prevention for the agentic AI SDLC.",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 29,
+    "updated_at": "2026-10-27T12:34:31Z",
+    "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-27T12:15:45Z",
+    "updated_at": "2026-10-27T12:30:51Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -161,15 +170,6 @@
     "stars": 11,
     "updated_at": "2026-10-27T02:41:21Z",
     "url": "https://github.com/Aaditya1273/Agent.md"
-  },
-  {
-    "description": "Architectural drift prevention for the agentic AI SDLC.",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 29,
-    "updated_at": "2026-10-27T12:23:49Z",
-    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "description": "Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W-",
