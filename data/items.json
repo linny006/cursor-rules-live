@@ -1,12 +1,30 @@
 [
   {
+    "description": "Vue3 + uni-app \u4e2d\u6587 AI \u7f16\u7a0b\u6280\u80fd\u5305\uff1aCursor Rules / Claude Code Skills / Trae / Codex \u4e00\u884c\u547d\u4ee4\u5b89\u88c5",
+    "id": "MsNan/vue-uniapp-skills",
+    "language": "JavaScript",
+    "name": "MsNan/vue-uniapp-skills",
+    "stars": 0,
+    "updated_at": "2026-10-27T17:13:15Z",
+    "url": "https://github.com/MsNan/vue-uniapp-skills"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-27T16:45:44Z",
+    "updated_at": "2026-10-27T17:00:48Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 plus AIOS, an open-source markdown memory system for coding ",
+    "id": "sublimecoder/sublimecoding",
+    "language": "\u2014",
+    "name": "sublimecoder/sublimecoding",
+    "stars": 0,
+    "updated_at": "2026-10-27T17:00:21Z",
+    "url": "https://github.com/sublimecoder/sublimecoding"
   },
   {
     "description": "MCP Server for LynxPrompt \u2014 browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP",
@@ -485,28 +503,5 @@
     "stars": 165,
     "updated_at": "2026-10-26T06:15:10Z",
     "url": "https://github.com/MohamedAbdallah-14/unslop"
-  },
-  {
-    "description": "\u65e0\u5173\u7528\u6237\uff0c \u65e0\u5173\u7cfb\u7edf\uff0c \u65e0\u5173\u9879\u76ee\uff0c\u5f00\u7bb1\u590d\u5236\u5373\u7528\uff01 code faster, code better; ",
-    "id": "wangqiqi/cursor-ai",
-    "language": "Shell",
-    "name": "wangqiqi/cursor-ai",
-    "stars": 4,
-    "updated_at": "2026-10-26T05:33:40Z",
-    "url": "https://github.com/wangqiqi/cursor-ai"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Component development patterns and composition rules\nglobs: [\"src/components/**/*.{tsx,ts}\", \"src/pages/**/*.{tsx,ts}\"]\nalwaysApply: false\n---\n\n# Component Development Rules\n\n## Component Patterns\n\n### GOOD Component Structure\n```tsx\n// Single responsibility, 20-80 lines\ninterface UserCardProps {\n  user: User\n  onEdit: (id: string) => void\n  className?: string\n}\n\nexport const UserCard = ({ user, onEdit, className }: UserCardProps) => {\n  return (\n    <Card className={cn(\"p-4\", className)}>\n      <Avatar src={user.avatar} />\n      <div>\n        <h3 className=\"font-semibold\">{user.name}</h3>\n        <p className=\"text-muted-foreground\">{user.email}</p>\n        <Button onClick={() => onEdit(user.id)}>Edit</Button>\n      </div>\n    </Card>\n  )\n}\n```\n\n### AVOID: Monolithic Components\n```tsx\n// DON'T: 300+ lines mixing concerns\nconst UserManagement = () => {\n  // Massive component with multiple responsibilities\n}\n```\n\n### Component Composition Pattern\n```tsx\n// Build complex UI from smaller components\nconst Dashboard = () => (\n  <PageLayout>\n    <DashboardHeader />\n    <DashboardMetrics />\n    <DashboardCharts />\n    <DashboardActivity />\n  </PageLayout>\n)\n```\n\n## UI Component Rules\n\n### shadcn/ui Components\n- **NEVER** modify files in `src/components/ui/` directly\n- **EXTEND** by creating wrappers in `src/components/common/`\n- **COMPOSE** multiple ui components to build features\n\n### Form Components\n```tsx\n// Use React Hook Form + Zod pattern\nexport const UserForm = ({ onSubmit, initialData }: UserFormProps) => {\n  const form = useForm<UserFormData>({\n    resolver: zodResolver(userSchema),\n    defaultValues: initialData\n  })\n\n  return (\n    <Form {...form}>\n      <form onSubmit={form.handleSubmit(onSubmit)}>\n        <FormField\n          control={form.control}\n          name=\"name\"\n          render={({ field }) => (\n            <FormItem>\n              <FormLabel>Name</FormLabel>\n              <FormControl>\n                <Input {...field} />\n              </FormControl>\n              <FormMessage />\n            </FormItem>\n          )}\n        />\n      </form>\n    </Form>\n  )\n}\n```\n\n## Page Component Rules\n\n### Pages = Composition Only\n```tsx\n// PERFECT: Thin orchestration layer (10-30 lines max)\nconst DashboardPage = () => {\n  const { data: user, isLoading } = useCurrentUser()\n  \n  if (isLoading) return <PageSkeleton />\n  \n  return (\n    <PageLayout>\n      <DashboardHeader user={user} />\n      <DashboardMetrics />\n      <div className=\"grid grid-cols-1 lg:grid-cols-2 gap-6\">\n        <DashboardCharts />\n        <DashboardActivity />\n      </div>\n    </PageLayout>\n  )\n}\n```\n\n### NEVER in Pages\n- Business logic (extract to hooks)\n- API calls (use service layer)\n- Complex state management\n- Inline event handlers\n\n## Reusable Component Patterns\n\n### Compound Components\n```tsx\nconst DataTable = ({ children }) => (\n  <div className=\"border rounded-lg overflow-hidden\">{children}</div>\n)\n\nconst DataTableHeader = ({ children }) => (\n  <div className=\"bg-muted p-4 border-b\">{children}</div>\n)\n\n// Usage\n<DataTable>\n  <DataTableHeader>\n    <h3>Users</h3>\n  </DataTableHeader>\n  <DataTableBody>\n    {users.map(user => <UserRow key={user.id} user={user} />)}\n  </DataTableBody>\n</DataTable>\n```\n",
-      "format": "mdc",
-      "path": ".cursor/rules/components.mdc"
-    },
-    "description": "A Lovable-inspired React boilerplate that brings no-code AI UI generation into clean code. Fully open, customizable, and",
-    "id": "chihebnabil/lovable-boilerplate",
-    "language": "TypeScript",
-    "name": "chihebnabil/lovable-boilerplate",
-    "stars": 65,
-    "updated_at": "2026-10-26T22:49:25Z",
-    "url": "https://github.com/chihebnabil/lovable-boilerplate"
   }
 ]
