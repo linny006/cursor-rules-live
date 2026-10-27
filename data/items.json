@@ -1,6 +1,29 @@
 [
   {
     "cursorrules": {
+      "content": "# SMIP Skill for Cursor\nKur p\u00ebrdoruesi k\u00ebrkon ndihm\u00eb me regjistrin e SMIP (smip.al), planet m\u00ebsimore ose hedhjen e temave ditore:\n1. Pyet p\u00ebr Klas\u00ebn, L\u00ebnd\u00ebn, Sht\u00ebpin\u00eb Botuese dhe Muajin.\n2. Gjej planin n\u00eb `smip_docs/` me `python3 scripts/find_curriculum.py`.\n3. P\u00ebrputh temat me orarin dhe kalendarin e pushimeve me `python3 scripts/parse_plan.py`.\n4. Shfaq pasqyr\u00ebn tabelare p\u00ebr konfirmim.\n5. Insero temat n\u00eb portal me `python3 scripts/smip_importer.py`.\n",
+      "format": "text",
+      "path": ".cursorrules"
+    },
+    "description": "AI Agent Skill & Automation Tool for the Albanian SMIP (smip.al) Teacher Portal",
+    "id": "adalenv/smip-skill",
+    "language": "Python",
+    "name": "adalenv/smip-skill",
+    "stars": 0,
+    "updated_at": "2026-10-27T20:50:21Z",
+    "url": "https://github.com/adalenv/smip-skill"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-27T20:45:34Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "cursorrules": {
       "content": "---\ndescription: Apply strict accessibility and UI rules from the not-optional toolkit.\nglobs: \"**/*.{html,css,jsx,tsx,vue,svelte}\"\nalwaysApply: false\n---\n\n# not-optional accessibility rules\n\nWhen building or modifying UI components, strictly follow the rules defined in `agent-instructions.md`.\n\nKey requirements:\n- Use native semantic HTML elements; avoid ARIA unless a native element cannot express the state.\n- Ensure strict compliance with WCAG 2.1 AA for text contrast.\n- Implement explicit `:focus-visible` styles using the defined 3px width and 2px offset.\n- Adhere to micro-chunking laws: max 4 visual lines per chunk, max 45 words per body block, and 45-65 characters per line (max 75).\n- Use the design tokens from `principles/tokens.screen.json` or `principles/tokens.print-monochrome.json`.\n- Fail closed on critical violations.\n",
       "format": "mdc",
       "path": ".cursor/rules/not-optional.mdc"
@@ -12,29 +35,6 @@
     "stars": 1,
     "updated_at": "2026-10-27T20:31:16Z",
     "url": "https://github.com/gabrieldcpaiva/not-optional"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-27T20:30:35Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
-    "cursorrules": {
-      "content": "# SMIP Skill for Cursor\nKur p\u00ebrdoruesi k\u00ebrkon ndihm\u00eb me regjistrin e SMIP (smip.al), planet m\u00ebsimore ose hedhjen e temave ditore:\n1. Pyet p\u00ebr Klas\u00ebn, L\u00ebnd\u00ebn, Sht\u00ebpin\u00eb Botuese dhe Muajin.\n2. Gjej planin n\u00eb `smip_docs/` me `python3 scripts/find_curriculum.py`.\n3. P\u00ebrputh temat me orarin dhe kalendarin e pushimeve me `python3 scripts/parse_plan.py`.\n4. Shfaq pasqyr\u00ebn tabelare p\u00ebr konfirmim.\n5. Insero temat n\u00eb portal me `python3 scripts/smip_importer.py`.\n",
-      "format": "text",
-      "path": ".cursorrules"
-    },
-    "description": "AI Agent Skill & Automation Tool for the Albanian SMIP (smip.al) Teacher Portal",
-    "id": "adalenv/smip-skill",
-    "language": "Python",
-    "name": "adalenv/smip-skill",
-    "stars": 0,
-    "updated_at": "2026-10-27T20:30:02Z",
-    "url": "https://github.com/adalenv/smip-skill"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
