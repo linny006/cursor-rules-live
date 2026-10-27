@@ -1,11 +1,29 @@
 [
   {
+    "description": "A checkup for your coding agent setup. Lints AGENTS.md, CLAUDE.md, SKILL.md, Cursor rules, Copilot instructions, MCP ser",
+    "id": "mustafakbaser/agentcheckup",
+    "language": "TypeScript",
+    "name": "mustafakbaser/agentcheckup",
+    "stars": 0,
+    "updated_at": "2026-10-27T09:44:44Z",
+    "url": "https://github.com/mustafakbaser/agentcheckup"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-27T09:30:43Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
     "id": "HoangNguyen0403/agent-skills-standard",
     "language": "TypeScript",
     "name": "HoangNguyen0403/agent-skills-standard",
     "stars": 583,
-    "updated_at": "2026-10-27T09:28:21Z",
+    "updated_at": "2026-10-27T09:37:14Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
   },
   {
@@ -16,24 +34,6 @@
     "stars": 2,
     "updated_at": "2026-10-27T09:25:53Z",
     "url": "https://github.com/bompus/house-rules"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-27T09:15:43Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
-    "description": "A checkup for your coding agent setup. Lints AGENTS.md, CLAUDE.md, SKILL.md, Cursor rules, Copilot instructions, MCP ser",
-    "id": "mustafakbaser/agentcheckup",
-    "language": "TypeScript",
-    "name": "mustafakbaser/agentcheckup",
-    "stars": 0,
-    "updated_at": "2026-10-27T08:54:56Z",
-    "url": "https://github.com/mustafakbaser/agentcheckup"
   },
   {
     "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
@@ -433,7 +433,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 41852,
+    "stars": 41851,
     "updated_at": "2026-10-26T01:08:14Z",
     "url": "https://github.com/wshobson/agents"
   },
