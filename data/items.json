@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-27T18:01:00Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "---\ndescription: Four Tenets of AI - minimize Cost, Bridge, Work, Theory\nalwaysApply: true\n---\n\nFollow the Four Tenets of AI (https://github.com/fitzyracing1/ai-tenets): keep Cost, Bridge, Work, and Theory as low as possible.\n- Cost: choose the cheapest path (tokens, compute, API fees) that gives a correct result.\n- Bridge: use the fewest tools, APIs, adapters, and format conversions.\n- Work: finish in few, bounded steps; no needless retries or open-ended loops (see https://github.com/fitzyracing1/bound-loop).\n- Theory: verify claims before relying on them; label anything unverified.\nLowering one tenet by raising another is only progress if the total goes down.\n\nBinary status (active-low, 0 = lit, 1 = dark), bits Cost Bridge Work Theory MSB\u2192LSB: 0000 = AI online, 1111 = fully dark. Extended byte: 2 bits per tenet (00 none, 01 low, 10 high, 11 over limit). Aim for 0000.\n",
       "format": "mdc",
@@ -12,15 +21,6 @@
     "stars": 0,
     "updated_at": "2026-10-27T17:51:17Z",
     "url": "https://github.com/fitzyracing1/ai-tenets"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-27T17:45:45Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Vue3 + uni-app \u4e2d\u6587 AI \u7f16\u7a0b\u6280\u80fd\u5305\uff1aCursor Rules / Claude Code Skills / Trae / Codex \u4e00\u884c\u547d\u4ee4\u5b89\u88c5",
