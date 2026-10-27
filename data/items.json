@@ -1,11 +1,20 @@
 [
   {
+    "description": "Your AI coding agent follows these files blindly, before it reads a line of your code.",
+    "id": "Aaditya1273/Agent.md",
+    "language": "\u2014",
+    "name": "Aaditya1273/Agent.md",
+    "stars": 11,
+    "updated_at": "2026-10-27T02:41:21Z",
+    "url": "https://github.com/Aaditya1273/Agent.md"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-27T02:19:32Z",
+    "updated_at": "2026-10-27T02:30:39Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -50,7 +59,7 @@
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 2,
-    "updated_at": "2026-10-27T02:19:25Z",
+    "updated_at": "2026-10-27T02:42:05Z",
     "url": "https://github.com/bompus/house-rules"
   },
   {
@@ -278,7 +287,7 @@
     "language": "TypeScript",
     "name": "HoangNguyen0403/agent-skills-standard",
     "stars": 583,
-    "updated_at": "2026-10-27T01:39:59Z",
+    "updated_at": "2026-10-27T02:39:06Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
   },
   {
@@ -415,7 +424,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 41820,
+    "stars": 41822,
     "updated_at": "2026-10-26T01:08:14Z",
     "url": "https://github.com/wshobson/agents"
   },
@@ -450,15 +459,6 @@
     "stars": 0,
     "updated_at": "2026-10-25T20:37:44Z",
     "url": "https://github.com/lilaforge/agent-ready-rules-lite"
-  },
-  {
-    "description": "Your AI coding agent follows these files blindly, before it reads a line of your code.",
-    "id": "Aaditya1273/Agent.md",
-    "language": "\u2014",
-    "name": "Aaditya1273/Agent.md",
-    "stars": 11,
-    "updated_at": "2026-10-25T19:35:55Z",
-    "url": "https://github.com/Aaditya1273/Agent.md"
   },
   {
     "description": "Free sample Cursor and Claude Code rules for FastAPI, Next.js and Spring Boot, from codebaserules.com",
