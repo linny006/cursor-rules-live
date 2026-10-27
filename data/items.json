@@ -1,11 +1,29 @@
 [
   {
+    "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
+    "id": "bompus/house-rules",
+    "language": "JavaScript",
+    "name": "bompus/house-rules",
+    "stars": 2,
+    "updated_at": "2026-10-27T14:42:27Z",
+    "url": "https://github.com/bompus/house-rules"
+  },
+  {
+    "description": "\ud83c\udfad 277 \u4e2a\u5373\u63d2\u5373\u7528\u7684 AI \u4e13\u5bb6\u89d2\u8272 \u2014 \u652f\u6301 Claude Code/Cursor/Copilot \u7b49 20 \u79cd\u5de5\u5177\uff0c\u8986\u76d6\u5de5\u7a0b/\u8bbe\u8ba1/\u8425\u9500/\u91d1\u878d\u7b49 20 \u4e2a\u90e8\u95e8\u3002\u542b 64 \u4e2a\u4e2d\u56fd\u5e02\u573a\u539f\u521b\u667a\u80fd\u4f53\uff08\u5c0f\u7ea2\u4e66/\u6296\u97f3/\u5fae\u4fe1/\u98de\u4e66/\u9489\u9489/Qt \u4e0a",
+    "id": "jnMetaCode/agency-agents-zh",
+    "language": "Shell",
+    "name": "jnMetaCode/agency-agents-zh",
+    "stars": 21633,
+    "updated_at": "2026-10-27T14:39:44Z",
+    "url": "https://github.com/jnMetaCode/agency-agents-zh"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-27T14:30:37Z",
+    "updated_at": "2026-10-27T14:37:26Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -166,15 +184,6 @@
     "stars": 0,
     "updated_at": "2026-10-27T09:44:44Z",
     "url": "https://github.com/mustafakbaser/agentcheckup"
-  },
-  {
-    "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
-    "id": "bompus/house-rules",
-    "language": "JavaScript",
-    "name": "bompus/house-rules",
-    "stars": 2,
-    "updated_at": "2026-10-27T14:34:50Z",
-    "url": "https://github.com/bompus/house-rules"
   },
   {
     "description": "An 18-line rules file for Claude Code, Codex and Cursor. Drop an idea mid-task and the agent parks it in PARK.md with th",
@@ -504,19 +513,5 @@
     "stars": 17,
     "updated_at": "2026-10-26T01:04:14Z",
     "url": "https://github.com/mikeprasad/aria-knowledge"
-  },
-  {
-    "cursorrules": {
-      "content": "# SMIP Skill for Cursor\nKur p\u00ebrdoruesi k\u00ebrkon ndihm\u00eb me regjistrin e SMIP (smip.al), planet m\u00ebsimore ose hedhjen e temave ditore:\n1. Pyet p\u00ebr Klas\u00ebn, L\u00ebnd\u00ebn, Sht\u00ebpin\u00eb Botuese dhe Muajin.\n2. Gjej planin n\u00eb `smip_docs/` me `python3 scripts/find_curriculum.py`.\n3. P\u00ebrputh temat me orarin dhe kalendarin e pushimeve me `python3 scripts/parse_plan.py`.\n4. Shfaq pasqyr\u00ebn tabelare p\u00ebr konfirmim.\n5. Insero temat n\u00eb portal me `python3 scripts/smip_importer.py`.\n",
-      "format": "text",
-      "path": ".cursorrules"
-    },
-    "description": "AI Agent Skill & Automation Tool for the Albanian SMIP (smip.al) Teacher Portal",
-    "id": "adalenv/smip-skill",
-    "language": "Python",
-    "name": "adalenv/smip-skill",
-    "stars": 0,
-    "updated_at": "2026-10-25T22:44:39Z",
-    "url": "https://github.com/adalenv/smip-skill"
   }
 ]
