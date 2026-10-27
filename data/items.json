@@ -1,11 +1,20 @@
 [
   {
+    "description": "Architectural drift prevention for the agentic AI SDLC.",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 29,
+    "updated_at": "2026-10-27T18:30:45Z",
+    "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-27T18:15:58Z",
+    "updated_at": "2026-10-27T18:30:37Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -62,15 +71,6 @@
     "stars": 0,
     "updated_at": "2026-10-27T16:30:13Z",
     "url": "https://github.com/krzysztofgibert/pr-viz-skill"
-  },
-  {
-    "description": "Architectural drift prevention for the agentic AI SDLC.",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 29,
-    "updated_at": "2026-10-27T16:27:01Z",
-    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "description": "AGENTS.md rules and skills that make AI coding agents write production-quality Flutter. Claude Code plugin; works with C",
