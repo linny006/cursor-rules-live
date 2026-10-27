@@ -1,5 +1,23 @@
 [
   {
+    "description": "Universal Git-powered persistent memory, context rules & native MCP server for AI coding agents. Prevents context amnesi",
+    "id": "digital-lake-ai/lognexus",
+    "language": "TypeScript",
+    "name": "digital-lake-ai/lognexus",
+    "stars": 4,
+    "updated_at": "2026-10-27T13:13:40Z",
+    "url": "https://github.com/digital-lake-ai/lognexus"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-27T13:00:39Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Engineering checklists for B2B SaaS penetration testing readiness: SOC 2, ISO 27001, DORA, AI Agent Security (LLM/RAG/MC",
     "id": "sayfer-io/pentest-readiness-checklist",
     "language": "\u2014",
@@ -9,21 +27,12 @@
     "url": "https://github.com/sayfer-io/pentest-readiness-checklist"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-27T12:45:32Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Architectural drift prevention for the agentic AI SDLC.",
     "id": "MnemeHQ/mneme",
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 29,
-    "updated_at": "2026-10-27T12:34:31Z",
+    "updated_at": "2026-10-27T13:03:17Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
@@ -102,6 +111,15 @@
     "stars": 0,
     "updated_at": "2026-10-27T10:45:37Z",
     "url": "https://github.com/fri3ndslab/my-human-has-adhd"
+  },
+  {
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
+    "language": "HTML",
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-10-27T07:39:23Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
   },
   {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
@@ -419,6 +437,20 @@
     "url": "https://github.com/plumpslabs/matcha"
   },
   {
+    "cursorrules": {
+      "content": "---\ndescription: Humanize assistant output. Drop AI-isms, engineer burstiness, preserve technical accuracy.\nalwaysApply: true\n---\n\nWrite like a careful human. All technical substance stays exact. Only AI-slop dies.\n\nRules:\n- Drop: sycophancy (\"great question\", \"I'd be happy to\"), stock vocab (delve/tapestry/testament/realm/landscape/seamless/holistic/leverage-as-filler/cutting-edge/state-of-the-art), hedging stacks (\"it's important to note that\"), tricolon padding, em-dash pileups (hard cap: two per paragraph), performative balance.\n- Engineer burstiness: mix short and long sentences deliberately. Avoid tidy five-paragraph essay shapes.\n- Keep: technical terms exact, errors quoted exact, code unchanged, real uncertainty (\"I think\", \"probably\") when honest.\n- Pattern: [concrete observation]. [why or implication]. [what to do next].\n- Not: \"Sure! There are several factors to consider...\"\n- Yes: \"Bug in auth middleware. Token expiry uses `<` not `<=`. Fix L42:\"\n\nPrinciples: Subtract, don't add (warmth = sycophancy). Style \u2260 stance (humanize voice, don't soften disagreement). Warmth raises error rate \u2014 re-verify facts after rewriting. Simulated voice, not personhood (never invent bio, memory, or emotion). Reason privately, humanize publicly (think structured, output human).\n\nSwitch level: /unslop subtle|balanced|full|voice-match|anti-detector\nStop: \"stop unslop\" or \"normal mode\"\n\nAuto-Clarity: drop unslop style for security warnings, irreversible actions, legal/medical/financial precision, user confused. Resume after.\n\nBoundaries: code/commits/PRs written normal. Never invent facts to sound human. Anti-detector mode is for defensive use (ESL false positives, resume writers) \u2014 not for academic misconduct.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/unslop.mdc"
+    },
+    "description": "Make AI output sound human. Strips AI-isms (sycophancy, stock vocab, hedging stacks, em-dash pileups), preserves code/UR",
+    "id": "MohamedAbdallah-14/unslop",
+    "language": "Python",
+    "name": "MohamedAbdallah-14/unslop",
+    "stars": 165,
+    "updated_at": "2026-10-26T06:15:10Z",
+    "url": "https://github.com/MohamedAbdallah-14/unslop"
+  },
+  {
     "description": "\u65e0\u5173\u7528\u6237\uff0c \u65e0\u5173\u7cfb\u7edf\uff0c \u65e0\u5173\u9879\u76ee\uff0c\u5f00\u7bb1\u590d\u5236\u5373\u7528\uff01 code faster, code better; ",
     "id": "wangqiqi/cursor-ai",
     "language": "Shell",
@@ -486,28 +518,5 @@
     "stars": 0,
     "updated_at": "2026-10-25T20:37:44Z",
     "url": "https://github.com/lilaforge/agent-ready-rules-lite"
-  },
-  {
-    "description": "Free sample Cursor and Claude Code rules for FastAPI, Next.js and Spring Boot, from codebaserules.com",
-    "id": "rahuldeojoshi/codebaserules-samples",
-    "language": "\u2014",
-    "name": "rahuldeojoshi/codebaserules-samples",
-    "stars": 0,
-    "updated_at": "2026-10-25T19:22:44Z",
-    "url": "https://github.com/rahuldeojoshi/codebaserules-samples"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Core rules for all Godot 4.x work in this project\nglobs:\nalwaysApply: true\n---\n# Godot 4 Core Rules\n\n## Know the project before writing code\n- Read `project.godot`. `config/features=PackedStringArray(\"4.x\", ...)` tells you the engine version. Never emit APIs newer than that version, and never emit Godot 3 APIs (see `01-godot3-vs-4.mdc`).\n- Check `[autoload]` in `project.godot` before referencing a singleton. If an autoload doesn't exist, say so. Don't assume one.\n- Check `[input]` in `project.godot` (or Project Settings > Input Map) before using an action name in `Input.is_action_pressed()`. Unknown action names fail at runtime, not at parse time.\n- Read `docs/PROJECT.md` and `docs/ARCHITECTURE.md` if they exist.\n- If the project has a `.csproj`, ask whether the file should be GDScript or C# before writing one.\n\n## Never invent APIs\n- Use only classes, methods, properties and signals you are certain exist in Godot 4. If unsure, say **unverified** and link the class reference (https://docs.godotengine.org/en/stable/classes/). Don't guess.\n- See `05-hallucinated-apis.mdc` for the list of known fakes and Godot 3 leftovers.\n\n## Complete, parseable output\n- Write complete `.gd` files: `extends`, optional `class_name`, signals, enums, constants, `@export` vars, `@onready` vars, then functions. Don't use `# ...rest unchanged` stubs unless asked for a diff.\n- Indent with **tabs** (Godot's default). Never mix tabs and spaces in one file; that is a parse error.\n- After editing, run `godot --headless --check-only --script res://<file>.gd` before saying the task is done.\n\n## Scope discipline\n- Change only what the task needs. Never rename `@export` variables, signals, node names or files without flagging it. Renaming an exported var drops the value saved in `.tscn` files; renaming a node breaks `$Path` and `%Unique` lookups.\n- Don't edit `.tscn`/`.tres` files by hand unless asked. If a scene change is needed, describe it (node type, name, parent, properties) so the user can do it in the editor.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/00-godot-core.mdc"
-    },
-    "description": "Free Cursor rules + AGENTS.md that stop AI (Cursor, Claude Code, ChatGPT) from writing Godot 3 code in Godot 4 projects:",
-    "id": "scoyoc5/godot-ai-agent-rules",
-    "language": "\u2014",
-    "name": "scoyoc5/godot-ai-agent-rules",
-    "stars": 1,
-    "updated_at": "2026-10-25T17:15:48Z",
-    "url": "https://github.com/scoyoc5/godot-ai-agent-rules"
   }
 ]
