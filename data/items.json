@@ -1,11 +1,20 @@
 [
   {
+    "description": "Two small Cursor rules that keep an AI agent on one job. Free, MIT.",
+    "id": "weekendshipkit/weekend-scope-guard",
+    "language": "\u2014",
+    "name": "weekendshipkit/weekend-scope-guard",
+    "stars": 0,
+    "updated_at": "2026-10-27T12:07:21Z",
+    "url": "https://github.com/weekendshipkit/weekend-scope-guard"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-27T11:45:43Z",
+    "updated_at": "2026-10-27T12:00:36Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -514,19 +523,5 @@
     "stars": 1,
     "updated_at": "2026-10-25T17:15:48Z",
     "url": "https://github.com/scoyoc5/godot-ai-agent-rules"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Core rules for all Unity C# work in this project\nglobs:\nalwaysApply: true\n---\n# Unity Core Rules\n\n## Know the project before writing code\n- Read `ProjectSettings/ProjectVersion.txt` for the Unity version (`m_EditorVersion`). Never emit APIs newer than that version.\n- Read `Packages/manifest.json` before using any package API (Input System, TextMeshPro, Cinemachine, URP, Addressables, Netcode). If a package is missing, say so and ask. Do not assume it is installed.\n- Read `docs/PROJECT.md` and `docs/ARCHITECTURE.md` if they exist. Follow their conventions over your defaults.\n- Check for `.asmdef` files. If code goes into an assembly, make sure that assembly references what the code uses.\n\n## Never invent APIs\n- Use only Unity APIs you are certain exist in the project's Unity version. If you are not sure, say \"unverified\" and link the Scripting API page (https://docs.unity3d.com/ScriptReference/). Don't guess.\n- Common hallucinations to avoid: `GameObject.FindByTag` (real: `GameObject.FindWithTag` / `FindGameObjectsWithTag`), `transform.GetChildByName` (real: `transform.Find`), `Input.GetAction`, `Rigidbody.AddVelocity`, `Vector3.Clamp`, `Destroy(obj, immediate: true)`.\n\n## Complete, compilable output\n- Write complete files with every `using` directive they need, the namespace, and class braces. Don't write `// ...rest unchanged` stubs unless the user asked for a diff.\n- The file name must match the `MonoBehaviour`/`ScriptableObject` class name, or Unity cannot attach it.\n- After editing, run the verification loop in `docs/VERIFY.md` (or ask the user to check the Console) before calling the task done.\n\n## Scope discipline\n- Change only what the task needs. Never delete or rename existing public members, serialized fields, or files without flagging it first. Renaming a serialized field loses inspector data; see `03-serialization.mdc`.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/00-unity-core.mdc"
-    },
-    "description": "Free Cursor rules + AGENTS.md that stop AI (Cursor, Claude Code, ChatGPT) from writing broken Unity C#: missing usings, ",
-    "id": "scoyoc5/unity-ai-agent-rules",
-    "language": "\u2014",
-    "name": "scoyoc5/unity-ai-agent-rules",
-    "stars": 6,
-    "updated_at": "2026-10-25T17:15:46Z",
-    "url": "https://github.com/scoyoc5/unity-ai-agent-rules"
   }
 ]
