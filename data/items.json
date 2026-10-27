@@ -1,12 +1,21 @@
 [
   {
-    "description": "Rules and skills for coding agents: AI Skill Studio (CLAUDE.md, AGENTS.md, Cursor rules, SKILL.md generator), Skill Libr",
-    "id": "Saad-web-spec/DevScratchPad",
-    "language": "TypeScript",
-    "name": "Saad-web-spec/DevScratchPad",
-    "stars": 1,
-    "updated_at": "2026-10-27T21:52:56Z",
-    "url": "https://github.com/Saad-web-spec/DevScratchPad"
+    "description": "Point your AI coding agent at this repo and it installs a personalized ruleset for reproducible, analysis-first data sci",
+    "id": "NCEAS-AI/Coding-Agent-Rules-for-Data-Science",
+    "language": "Python",
+    "name": "NCEAS-AI/Coding-Agent-Rules-for-Data-Science",
+    "stars": 7,
+    "updated_at": "2026-10-27T22:09:00Z",
+    "url": "https://github.com/NCEAS-AI/Coding-Agent-Rules-for-Data-Science"
+  },
+  {
+    "description": "Architectural drift prevention for the agentic AI SDLC.",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 29,
+    "updated_at": "2026-10-27T22:08:12Z",
+    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +23,26 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-27T21:45:39Z",
+    "updated_at": "2026-10-27T22:00:45Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "MCP Server for LynxPrompt \u2014 browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP",
+    "id": "GeiserX/lynxprompt-mcp",
+    "language": "Go",
+    "name": "GeiserX/lynxprompt-mcp",
+    "stars": 2,
+    "updated_at": "2026-10-27T22:00:26Z",
+    "url": "https://github.com/GeiserX/lynxprompt-mcp"
+  },
+  {
+    "description": "Rules and skills for coding agents: AI Skill Studio (CLAUDE.md, AGENTS.md, Cursor rules, SKILL.md generator), Skill Libr",
+    "id": "Saad-web-spec/DevScratchPad",
+    "language": "TypeScript",
+    "name": "Saad-web-spec/DevScratchPad",
+    "stars": 1,
+    "updated_at": "2026-10-27T21:52:56Z",
+    "url": "https://github.com/Saad-web-spec/DevScratchPad"
   },
   {
     "cursorrules": {
@@ -30,15 +57,6 @@
     "stars": 0,
     "updated_at": "2026-10-27T21:32:19Z",
     "url": "https://github.com/fitzyracing1/ai-tenets"
-  },
-  {
-    "description": "Architectural drift prevention for the agentic AI SDLC.",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 29,
-    "updated_at": "2026-10-27T21:57:38Z",
-    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "cursorrules": {
@@ -162,15 +180,6 @@
     "stars": 0,
     "updated_at": "2026-10-27T17:00:21Z",
     "url": "https://github.com/sublimecoder/sublimecoding"
-  },
-  {
-    "description": "MCP Server for LynxPrompt \u2014 browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP",
-    "id": "GeiserX/lynxprompt-mcp",
-    "language": "Go",
-    "name": "GeiserX/lynxprompt-mcp",
-    "stars": 2,
-    "updated_at": "2026-10-27T16:36:01Z",
-    "url": "https://github.com/GeiserX/lynxprompt-mcp"
   },
   {
     "cursorrules": {
@@ -494,14 +503,5 @@
     "stars": 1,
     "updated_at": "2026-10-26T10:19:22Z",
     "url": "https://github.com/ramoira/docs"
-  },
-  {
-    "description": "Homebrew tap for LynxPrompt CLI",
-    "id": "GeiserX/homebrew-lynxprompt",
-    "language": "Shell",
-    "name": "GeiserX/homebrew-lynxprompt",
-    "stars": 2,
-    "updated_at": "2026-10-26T10:13:49Z",
-    "url": "https://github.com/GeiserX/homebrew-lynxprompt"
   }
 ]
