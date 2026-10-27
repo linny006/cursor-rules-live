@@ -1,12 +1,39 @@
 [
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
+    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
+    "id": "Trentobobbi/uikit-mastery-playbook",
     "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
+    "name": "Trentobobbi/uikit-mastery-playbook",
+    "stars": 0,
+    "updated_at": "2026-10-27T23:42:23Z",
+    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
+  },
+  {
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
     "stars": 1,
-    "updated_at": "2026-10-27T23:21:06Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+    "updated_at": "2026-10-27T23:41:05Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
+  },
+  {
+    "description": "Rules and skills for coding agents: AI Skill Studio (CLAUDE.md, AGENTS.md, Cursor rules, SKILL.md generator), Skill Libr",
+    "id": "Saad-web-spec/DevScratchPad",
+    "language": "TypeScript",
+    "name": "Saad-web-spec/DevScratchPad",
+    "stars": 1,
+    "updated_at": "2026-10-27T23:37:58Z",
+    "url": "https://github.com/Saad-web-spec/DevScratchPad"
+  },
+  {
+    "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
+    "id": "SupremeSupport/Cursor-Desktop-2026",
+    "language": "\u2014",
+    "name": "SupremeSupport/Cursor-Desktop-2026",
+    "stars": 1,
+    "updated_at": "2026-10-27T23:33:42Z",
+    "url": "https://github.com/SupremeSupport/Cursor-Desktop-2026"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +41,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-27T23:15:42Z",
+    "updated_at": "2026-10-27T23:30:49Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-10-27T23:21:06Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -27,21 +63,12 @@
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
-    "description": "Rules and skills for coding agents: AI Skill Studio (CLAUDE.md, AGENTS.md, Cursor rules, SKILL.md generator), Skill Libr",
-    "id": "Saad-web-spec/DevScratchPad",
-    "language": "TypeScript",
-    "name": "Saad-web-spec/DevScratchPad",
-    "stars": 1,
-    "updated_at": "2026-10-27T23:02:03Z",
-    "url": "https://github.com/Saad-web-spec/DevScratchPad"
-  },
-  {
     "description": "Architectural drift prevention for the agentic AI SDLC.",
     "id": "MnemeHQ/mneme",
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 29,
-    "updated_at": "2026-10-27T22:29:29Z",
+    "updated_at": "2026-10-27T23:38:39Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
@@ -103,33 +130,6 @@
     "stars": 1,
     "updated_at": "2026-10-27T20:31:16Z",
     "url": "https://github.com/gabrieldcpaiva/not-optional"
-  },
-  {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
-    "stars": 0,
-    "updated_at": "2026-10-27T19:57:57Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 1,
-    "updated_at": "2026-10-27T19:56:49Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
-    "id": "SupremeSupport/Cursor-Desktop-2026",
-    "language": "\u2014",
-    "name": "SupremeSupport/Cursor-Desktop-2026",
-    "stars": 1,
-    "updated_at": "2026-10-27T19:41:25Z",
-    "url": "https://github.com/SupremeSupport/Cursor-Desktop-2026"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -219,7 +219,7 @@
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 2,
-    "updated_at": "2026-10-27T22:46:00Z",
+    "updated_at": "2026-10-27T23:41:52Z",
     "url": "https://github.com/bompus/house-rules"
   },
   {
