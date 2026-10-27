@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-27 15:30 UTC
+> ⏰ Last updated: 2026-10-27 15:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,8 +53,8 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-10-27 | — | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-27 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-27 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [agenticstandardcontact-byte/agentic-architect](https://github.com/agenticstandardcontact-byte/agentic-architect) | 0 | HTML | 2026-10-27 | — | Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol. |
 | 3 | [bompus/house-rules](https://github.com/bompus/house-rules) | 2 | JavaScript | 2026-10-27 | — | Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md |
 | 4 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 21633 | Shell | 2026-10-27 | — | 🎭 277 个即插即用的 AI 专家角色 — 支持 Claude Code/Cursor/Copilot 等 20 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 64 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉/Qt 上 |
 | 5 | [Trentobobbi/uikit-mastery-playbook](https://github.com/Trentobobbi/uikit-mastery-playbook) | 0 | HTML | 2026-10-27 | — | UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code |
@@ -101,7 +101,7 @@ expired items removed — so you can rely on what you see being current.
 | 46 | [MohamedAbdallah-14/unslop](https://github.com/MohamedAbdallah-14/unslop) | 165 | Python | 2026-10-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/MohamedAbdallah-14/unslop/) | Make AI output sound human. Strips AI-isms (sycophancy, stock vocab, hedging stacks, em-dash pileups), preserves code/UR |
 | 47 | [wangqiqi/cursor-ai](https://github.com/wangqiqi/cursor-ai) | 4 | Shell | 2026-10-26 | — | 无关用户， 无关系统， 无关项目，开箱复制即用！ code faster, code better;  |
 | 48 | [chihebnabil/lovable-boilerplate](https://github.com/chihebnabil/lovable-boilerplate) | 65 | TypeScript | 2026-10-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/chihebnabil/lovable-boilerplate/) | A Lovable-inspired React boilerplate that brings no-code AI UI generation into clean code. Fully open, customizable, and |
-| 49 | [wshobson/agents](https://github.com/wshobson/agents) | 41869 | Python | 2026-10-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
+| 49 | [wshobson/agents](https://github.com/wshobson/agents) | 41870 | Python | 2026-10-26 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/wshobson/agents/) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a |
 | 50 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 17 | Shell | 2026-10-26 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
 <!-- TRACKER_TABLE_END -->
 

@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-27T15:30:47Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
     "id": "agenticstandardcontact-byte/agentic-architect",
     "language": "HTML",
@@ -7,15 +16,6 @@
     "stars": 0,
     "updated_at": "2026-10-27T15:20:41Z",
     "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-27T15:15:39Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
@@ -501,7 +501,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 41869,
+    "stars": 41870,
     "updated_at": "2026-10-26T01:08:14Z",
     "url": "https://github.com/wshobson/agents"
   },
