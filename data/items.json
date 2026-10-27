@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-27T17:15:35Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "Vue3 + uni-app \u4e2d\u6587 AI \u7f16\u7a0b\u6280\u80fd\u5305\uff1aCursor Rules / Claude Code Skills / Trae / Codex \u4e00\u884c\u547d\u4ee4\u5b89\u88c5",
     "id": "MsNan/vue-uniapp-skills",
     "language": "JavaScript",
@@ -7,15 +16,6 @@
     "stars": 0,
     "updated_at": "2026-10-27T17:13:15Z",
     "url": "https://github.com/MsNan/vue-uniapp-skills"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-27T17:00:48Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 plus AIOS, an open-source markdown memory system for coding ",
@@ -99,7 +99,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21633,
+    "stars": 21635,
     "updated_at": "2026-10-27T14:39:44Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
