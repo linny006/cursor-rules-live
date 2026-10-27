@@ -1,11 +1,29 @@
 [
   {
+    "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
+    "id": "SupremeSupport/Cursor-Desktop-2026",
+    "language": "\u2014",
+    "name": "SupremeSupport/Cursor-Desktop-2026",
+    "stars": 1,
+    "updated_at": "2026-10-27T03:35:58Z",
+    "url": "https://github.com/SupremeSupport/Cursor-Desktop-2026"
+  },
+  {
+    "description": "AI prompts, CLAUDE.md/AGENTS.md templates, Cursor rules, Agent Skills and MCP servers from commandvault.ai, synced daily",
+    "id": "geronco/commandvault-library",
+    "language": "JavaScript",
+    "name": "geronco/commandvault-library",
+    "stars": 0,
+    "updated_at": "2026-10-27T03:32:57Z",
+    "url": "https://github.com/geronco/commandvault-library"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-27T03:15:42Z",
+    "updated_at": "2026-10-27T03:30:38Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -16,15 +34,6 @@
     "stars": 11,
     "updated_at": "2026-10-27T02:41:21Z",
     "url": "https://github.com/Aaditya1273/Agent.md"
-  },
-  {
-    "description": "AI prompts, CLAUDE.md/AGENTS.md templates, Cursor rules, Agent Skills and MCP servers from commandvault.ai, synced daily",
-    "id": "geronco/commandvault-library",
-    "language": "JavaScript",
-    "name": "geronco/commandvault-library",
-    "stars": 0,
-    "updated_at": "2026-10-27T01:56:55Z",
-    "url": "https://github.com/geronco/commandvault-library"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -59,7 +68,7 @@
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 2,
-    "updated_at": "2026-10-27T03:23:35Z",
+    "updated_at": "2026-10-27T03:41:41Z",
     "url": "https://github.com/bompus/house-rules"
   },
   {
@@ -102,15 +111,6 @@
     "stars": 26,
     "updated_at": "2026-10-26T23:56:57Z",
     "url": "https://github.com/heymegabyte/agent-skills"
-  },
-  {
-    "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
-    "id": "SupremeSupport/Cursor-Desktop-2026",
-    "language": "\u2014",
-    "name": "SupremeSupport/Cursor-Desktop-2026",
-    "stars": 1,
-    "updated_at": "2026-10-26T23:31:17Z",
-    "url": "https://github.com/SupremeSupport/Cursor-Desktop-2026"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -424,7 +424,7 @@
     "id": "wshobson/agents",
     "language": "Python",
     "name": "wshobson/agents",
-    "stars": 41826,
+    "stars": 41827,
     "updated_at": "2026-10-26T01:08:14Z",
     "url": "https://github.com/wshobson/agents"
   },
