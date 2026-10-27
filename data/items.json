@@ -1,11 +1,20 @@
 [
   {
+    "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
+    "id": "bompus/house-rules",
+    "language": "JavaScript",
+    "name": "bompus/house-rules",
+    "stars": 2,
+    "updated_at": "2026-10-27T05:55:16Z",
+    "url": "https://github.com/bompus/house-rules"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-27T05:30:40Z",
+    "updated_at": "2026-10-27T05:45:46Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -21,15 +30,6 @@
     "stars": 26,
     "updated_at": "2026-10-27T04:49:19Z",
     "url": "https://github.com/heymegabyte/agent-skills"
-  },
-  {
-    "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
-    "id": "bompus/house-rules",
-    "language": "JavaScript",
-    "name": "bompus/house-rules",
-    "stars": 2,
-    "updated_at": "2026-10-27T05:43:55Z",
-    "url": "https://github.com/bompus/house-rules"
   },
   {
     "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
@@ -140,7 +140,7 @@
     "id": "roedyrustam/vibes-plug",
     "language": "JavaScript",
     "name": "roedyrustam/vibes-plug",
-    "stars": 114,
+    "stars": 115,
     "updated_at": "2026-10-26T21:54:12Z",
     "url": "https://github.com/roedyrustam/vibes-plug"
   },
