@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-27T09:45:37Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "A checkup for your coding agent setup. Lints AGENTS.md, CLAUDE.md, SKILL.md, Cursor rules, Copilot instructions, MCP ser",
     "id": "mustafakbaser/agentcheckup",
     "language": "TypeScript",
@@ -9,21 +18,12 @@
     "url": "https://github.com/mustafakbaser/agentcheckup"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-27T09:30:43Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
     "id": "HoangNguyen0403/agent-skills-standard",
     "language": "TypeScript",
     "name": "HoangNguyen0403/agent-skills-standard",
     "stars": 583,
-    "updated_at": "2026-10-27T09:37:14Z",
+    "updated_at": "2026-10-27T09:58:01Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
   },
   {
@@ -45,15 +45,6 @@
     "url": "https://github.com/SupremeSupport/Cursor-Desktop-2026"
   },
   {
-    "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
-    "id": "Trentobobbi/uikit-mastery-playbook",
-    "language": "HTML",
-    "name": "Trentobobbi/uikit-mastery-playbook",
-    "stars": 0,
-    "updated_at": "2026-10-27T07:39:23Z",
-    "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
     "id": "arnoldalberto007-sys/Swift-UIKit-Components",
     "language": "HTML",
@@ -61,33 +52,6 @@
     "stars": 1,
     "updated_at": "2026-10-27T07:33:43Z",
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
-  },
-  {
-    "description": "Beautiful, honest data visualization as an Agent Skill \u2014 five laws, a chart matcher, a 25-point beauty audit. For Claude",
-    "id": "karefined-eng/information-is-beautiful-skill",
-    "language": "TypeScript",
-    "name": "karefined-eng/information-is-beautiful-skill",
-    "stars": 2,
-    "updated_at": "2026-10-27T07:28:51Z",
-    "url": "https://github.com/karefined-eng/information-is-beautiful-skill"
-  },
-  {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-10-27T07:02:47Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 3,
-    "updated_at": "2026-10-27T06:23:28Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "cursorrules": {
@@ -149,71 +113,6 @@
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
-    "cursorrules": {
-      "content": "# Core Rule for Vibes-Plug Agents\n\n> **\ud83c\udf10 Universal Compatibility:** These rules apply to ALL AI platforms using vibes-plug:\n> **Antigravity (AGY)** via `AGENTS.md` | **Claude Code** via `CLAUDE.md` + `.claude/rules/` | **Cursor IDE** via `.cursorrules` + `.cursor/rules/` | **OpenAI Codex** via `CODEX.md` + `.codex/rules/`\n> Each platform has its own entry point, but the core rules and 176 skills are shared.\n\n## MANDATORY: LLM-Agnostic & IDE Universal Compatibility\n**CRITICAL RULE**: This Swarm Architecture is strictly model-agnostic. It is engineered to extract maximum reasoning capabilities from ALL Latest Frontier Models across all IDE tiers:\n- **High Fast / Low-Latency Tier**: xAI Grok 4.7 High Fast / Grok 4.6 High Fast (sub-second TTFT, real-time web compute, lightning test iterations), Cursor Composer 2.5 Fast (native multi-file diff engine & fast refactoring).\n- **Medium / Balanced Tier**: Google Gemini 4 Argon Medium (2M+ monolithic context, native caching), OpenAI GPT-5.6 Sol Medium (strict tool calling & structured contracts), Anthropic Claude Opus 5.5 Medium (balanced deep architectural comprehension).\n- **High / Extended Thinking Tier**: Anthropic Claude Sonnet 5.5 High (flagship fullstack reasoning & extended thinking), Anthropic Claude Fable 5.1 High (prompt-cache optimized agentic workflows), Muse Wonder High (exploratory reasoning & generative design synthesis), Google Gemini 4 Pro / Project Astra, and DeepSeek-R1 / Pro / V3.\nThe AI MUST adapt the orchestration payload according to its native context window, execution tier, and thinking budget.\n\n### MANDATORY: Availability Fallback Invariant (Invarian Pengalihan Ketersediaan)\nWhen a frontier model is not yet provisioned, reaches rate/quota limits, or is temporarily unavailable in the user's environment:\n- **Gemini 4 Fallback (Argon & Pro)**: Automatically and seamlessly degrade tasks to **`Gemini 3.8 Flash`** (preserving 1M+ context window, native context caching, and sub-100ms TTFT).\n- **Claude Opus 5.5 Fallback**: Automatically and seamlessly degrade tasks to **`Claude Opus 4.6`** (preserving deep architectural reasoning and cross-domain logic validation).\n- Never fail with unhandled missing-model errors or stub implementations; execute immediately through the fallback path with zero disruption.\n\n## MANDATORY: Primary Trigger & Skill Auto-Synchronization (Pemicu Utama)\n**CRITICAL RULE**: Upon plugin installation, `vibes-plug` becomes the **PRIMARY TRIGGER (Pemicu Utama)** and **MASTER CONDUCTOR** for all AI activities. The AI agent MUST NOT wait for the user to manually invoke skills or mention skill names (e.g. `@senior-frontend` or `/ask-skill`).\n\nWhenever a user submits ANY request, the agent MUST automatically and autonomously:\n1. **Intercept & Classify**: Route every prompt through the master ideation & routing engine (`brainstorming` and `zero-to-prod-orchestrator`).\n2. **Auto-Synchronize Cooperating Skills**: Dynamically identify and bind all relevant domain skills from the 176 skill registry:\n   - **Frontend & UI**: `senior-frontend` + `tailwind-expert` + `design-system-architect` + `form-validation-expert` + `ui-ux-pro-max` + `modern-css-native-expert`.\n   - **Backend & APIs**: `js-backend-expert` + `database-orm-expert` + `api-design-expert` + `spec-driven-development-expert` + `authentication-identity-expert` + `python-programming-expert` + `go-programming-expert` + `rust-programming-expert`.\n   - **Payments & Billing**: `doku-payment-gateway` + `payment-gateway-expert` + `saas-billing` + `double-entry-ledger-fintech-expert` + `database-orm-expert` (atomic locks & SNAP BI idempotency).\n   - **Data, Cloud & DevOps**: `olap-columnar-analytics-expert` + `reactive-sync-engine-expert` + `fga-rebac-authorization-expert` + `passkeys-webauthn-identity-expert` + `kubernetes-gitops-platform-expert` + `sbom-supply-chain-security-expert` + `zero-trust-secret-vault`.\n   - **AI & MCP**: `ai-llm-integration-expert` + `frontier-ai-models-expert` + `gemini-agent-booster` + `vercel-ai-sdk-expert` + `mcp-server-architect` + `doku-mcp-server` + `multi-agent-orchestration`.\n   - **Testing & Quality**: `autonomous-tdd-debugger` + `e2e-testing-expert` + `autonomous-red-teamer` + `production-ready-hardener` + `anti-slop` + `zero-tech-debt-auditor`.\n   - **Full Lifecycle**: `brainstorming` + `prd-architect` + `zero-to-prod-orchestrator` + `session-memory-manager`.\n3. **Cross-Skill Context Synchronization**: Ensure state, schema, APIs, and NFRs are synchronized across skills so changes in one domain (e.g., database schema) automatically propagate to others (e.g., backend models, API contracts, frontend types).\n4. **Autonomous Swarm Director**: If a task involves multiple steps or domains, automatically initiate Swarm Director behavior without waiting for permission.\n\n## MANDATORY: Skill Orchestration Update\n**CRITICAL RULE**: Every time a new skill is added or created within the `vibes-plug` ecosystem, the agent MUST immediately and automatically update the main orchestrator files. \n\nFailure to do so breaks the entire architectural orchestration flow.\n\nWhenever a new skill `SKILL.md` is generated, you must:\n1. **Update `brainstorming/SKILL.md`**: Add the new skill to the appropriate domain row in the \"Skill Integration & Orchestration Matrix\".\n2. **Update `zero-to-prod-orchestrator/SKILL.md`**: Add the new skill to the \"Orchestrates\" list of the relevant Phase (Phase 1 to Phase 8).\n3. **Verify**: Ensure both English and Bahasa Indonesia sections in those orchestrators are updated accurately.\n\nThis rule is absolute and applies to all AI agents interacting with this plugin.\n\n## MANDATORY: Multi-Agent Orchestration & Swarm Cooperation\n**CRITICAL RULE**: When dealing with complex, multi-step tasks, the AI Agent MUST function as a **Swarm Director** and orchestrate multiple specialized subagents concurrently.\n\n**AUTOMATIC TRIGGER**: You MUST automatically initiate Swarm Director behavior whenever a task:\n- Involves more than one domain (e.g., Frontend + Backend + Database).\n- Requires extensive research across multiple files/repositories.\n- Consists of more than three independent steps.\n- Involves high-risk architectural changes or migrations.\n*Do NOT ask for the user's permission to spawn subagents; do it autonomously.*\n\n### Swarm Execution Topologies (2026 Edition)\n\n```\n1. FAN-OUT / FAN-IN (Parallel Research & Assembly)\n   Director \u2500\u2500\u252c\u2500\u2500\u25ba Subagent A (Frontend / UI)   \u2500\u2500\u2510\n              \u251c\u2500\u2500\u25ba Subagent B (Backend / API)    \u2500\u2500\u253c\u2500\u2500\u25ba Synthesis & Assembly\n              \u2514\u2500\u2500\u25ba Subagent C (DB Schema / RLS)  \u2500\u2500\u2518\n\n2. PIPELINE SAGA (Sequential Dependent Execution)\n   Discovery \u2500\u2500\u25ba Foundation \u2500\u2500\u25ba Schema/DB \u2500\u2500\u25ba APIs \u2500\u2500\u25ba Frontend \u2500\u2500\u25ba QA/Hardening\n\n3. CRITIC-VALIDATOR LOOP (Zero-Tolerance Quality Gate)\n   Implementer Agent \u2500\u2500\u25ba Artifact/Code \u2500\u2500\u25ba Auditor Agent (code review/fuzzing) \u2500\u2500\u25ba Approved\n```\n\n### Swarm Director Protocols\n1. **Decompose and Delegate**: Break down complex tasks into independent sub-tasks and delegate them to specialized subagents using `invoke_subagent`. Assign clear, specific roles to each subagent based on the 176 specialized skills in `vibes-plug`.\n2. **Parallel Execution**: Invoke multiple subagents simultaneously whenever tasks can be performed in parallel (e.g., one subagent researches frontend UI, another analyzes backend DB schema).\n3. **Context Sharing**: Ensure subagents are given precise instructions and the necessary context (e.g., passing `CONTEXT_MAP.md`, PRD, or specific file paths). Communicate with active subagents via `send_message`.\n4. **Agent Synergy & Native Subagents**: Rely on the `vibes-plug` native subagent registry located in `agents/`:\n   - **System Architecture**: Delegate to `swarm-architect` (guided by `brainstorming`, `prd-architect`, `domain-driven-design-expert`, `saas-architect`).\n   - **Fullstack Craftsmanship**: Delegate to `fullstack-craftsman` (guided by `senior-frontend`, `tailwind-expert`, `design-system-architect`, `js-backend-expert`, `database-orm-expert`).",
-      "format": "text",
-      "path": ".cursorrules"
-    },
-    "description": "\ud83c\udf0a Universal AI Agent Swarm & MCP Plugin with 176 specialized skills and 8 autonomous subagents for Antigravity, Claude C",
-    "id": "roedyrustam/vibes-plug",
-    "language": "JavaScript",
-    "name": "roedyrustam/vibes-plug",
-    "stars": 115,
-    "updated_at": "2026-10-26T21:54:12Z",
-    "url": "https://github.com/roedyrustam/vibes-plug"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Four Tenets of AI - minimize Cost, Bridge, Work, Theory\nalwaysApply: true\n---\n\nFollow the Four Tenets of AI (https://github.com/fitzyracing1/ai-tenets): keep Cost, Bridge, Work, and Theory as low as possible.\n- Cost: choose the cheapest path (tokens, compute, API fees) that gives a correct result.\n- Bridge: use the fewest tools, APIs, adapters, and format conversions.\n- Work: finish in few, bounded steps; no needless retries or open-ended loops (see https://github.com/fitzyracing1/bound-loop).\n- Theory: verify claims before relying on them; label anything unverified.\nLowering one tenet by raising another is only progress if the total goes down.\n\nBinary status (active-low, 0 = lit, 1 = dark), bits Cost Bridge Work Theory MSB\u2192LSB: 0000 = AI online, 1111 = fully dark. Extended byte: 2 bits per tenet (00 none, 01 low, 10 high, 11 over limit). Aim for 0000.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/ai-tenets.mdc"
-    },
-    "description": "AI defined by four tenets: Cost, Bridge, Work, Theory \u2014 each as low as possible.",
-    "id": "fitzyracing1/ai-tenets",
-    "language": "Python",
-    "name": "fitzyracing1/ai-tenets",
-    "stars": 0,
-    "updated_at": "2026-10-26T21:02:20Z",
-    "url": "https://github.com/fitzyracing1/ai-tenets"
-  },
-  {
-    "cursorrules": {
-      "content": "# /pr-viz\n# Community skill: https://github.com/krzysztofgibert/pr-viz-skill\n# Viewer: https://pr-viz.com\n\nWhen the user runs /pr-viz, or asks to visualize, map, or review a GitHub pull\nrequest, follow skills/pr-viz/SKILL.md in full.\n\nPublish the map with skills/pr-viz/scripts/publish-diagram.mjs to the viewer in\nskills/pr-viz/host.json. Do not paste the review, Mermaid, or ASCII in the chat.\nDo not ask for or handle a GitHub token.\n",
-      "format": "text",
-      "path": ".cursorrules"
-    },
-    "description": "Free IDE skill that turns a GitHub pull request into a two-zone review map. Use it in VS Code, Cursor, Claude Code, or W",
-    "id": "krzysztofgibert/pr-viz-skill",
-    "language": "JavaScript",
-    "name": "krzysztofgibert/pr-viz-skill",
-    "stars": 0,
-    "updated_at": "2026-10-26T20:43:12Z",
-    "url": "https://github.com/krzysztofgibert/pr-viz-skill"
-  },
-  {
-    "description": "Free copy-paste AGENTS.md, CLAUDE.md and Cursor rules for 20 beginner vibe-coding project types",
-    "id": "getvibekits/vibe-coding-rules",
-    "language": "Shell",
-    "name": "getvibekits/vibe-coding-rules",
-    "stars": 0,
-    "updated_at": "2026-10-26T20:24:01Z",
-    "url": "https://github.com/getvibekits/vibe-coding-rules"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Core working agreement for the AI agent on every task\nalwaysApply: true\n---\n\n# How to work in this repo\n\n## Before coding\n- Read the files you will change and their nearest tests before editing. Never guess an API that exists in the repo; search for it.\n- Check `package.json` / `pyproject.toml` / lockfiles for real framework versions and write code for THOSE versions.\n- For anything non-trivial (>1 file or >50 lines), state a short plan first: files to touch, approach, how you'll verify.\n- If requirements are ambiguous, ask one focused question instead of inventing behaviour.\n\n## While coding\n- Make the smallest change that solves the task. No drive-by refactors, renames or formatting of unrelated code.\n- Follow existing patterns in the codebase (naming, folder layout, error handling) over your own preferences.\n- Do not add a dependency without saying why and checking an existing one can't do it.\n- Never hardcode secrets, API keys or tokens. Use env vars and update `.env.example`.\n- Never silence errors (`catch {}`, `# type: ignore`, `as any`, `@ts-ignore`) to make something \"work\". Fix the cause or flag it.\n- Do not delete or weaken tests to make them pass.\n\n## After coding\n- Run the project's typecheck, lint and relevant tests; fix what you broke. If you couldn't run them, say so.\n- Summarise: what changed, why, how it was verified, and anything left undone or risky.\n\n## Never without explicit approval\n- Destructive commands (`rm -rf`, `git push --force`, `git reset --hard`, dropping tables, DB resets).\n- Editing generated files, lockfiles by hand, CI config, or migrations that already ran.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/00-general.mdc"
-    },
-    "description": "Free Cursor rules (.mdc), AGENTS.md & CLAUDE.md templates and prompts for AI coding agents: Next.js + Supabase, Godot 4.",
-    "id": "grizzlykiwidev/grizzlykiwidev.github.io",
-    "language": "\u2014",
-    "name": "grizzlykiwidev/grizzlykiwidev.github.io",
-    "stars": 0,
-    "updated_at": "2026-10-26T18:21:28Z",
-    "url": "https://github.com/grizzlykiwidev/grizzlykiwidev.github.io"
-  },
-  {
     "description": "\u6bd5\u4e1a\u8bbe\u8ba1\u6587\u6863 AI \u6280\u80fd\u5305\uff1a\u5f00\u9898\u62a5\u544a/\u9700\u6c42\u5206\u6790/\u7cfb\u7edf\u8bbe\u8ba1/GB-T 7714 \u8bba\u6587\u89c4\u8303/\u6d4b\u8bd5/\u7b54\u8fa9\uff0c\u4e00\u952e\u88c5\u8fdb Claude Code\u00b7Cursor\u00b7Trae\u00b7Codex\uff0c\u4e0d\u7f16\u9020\u6587\u732e\u4e0e\u6d4b\u8bd5\u6570\u636e",
     "id": "MsNan/bishe-doc-skills",
     "language": "JavaScript",
@@ -232,24 +131,6 @@
     "url": "https://github.com/rover-001/checkmate"
   },
   {
-    "description": "Persistence framework for Cursor AI. Stop context rot in C#/.NET with stateful .mdc rules and the Learning Log protocol.",
-    "id": "agenticstandardcontact-byte/agentic-architect",
-    "language": "HTML",
-    "name": "agenticstandardcontact-byte/agentic-architect",
-    "stars": 0,
-    "updated_at": "2026-10-26T16:06:47Z",
-    "url": "https://github.com/agenticstandardcontact-byte/agentic-architect"
-  },
-  {
-    "description": "Reusable Cursor AI rules: automatic prompt-grammar feedback after every reply.",
-    "id": "theshaonsaleh/cursor-rules",
-    "language": "\u2014",
-    "name": "theshaonsaleh/cursor-rules",
-    "stars": 0,
-    "updated_at": "2026-10-26T16:02:08Z",
-    "url": "https://github.com/theshaonsaleh/cursor-rules"
-  },
-  {
     "description": "Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam",
     "id": "eli-alvarado/agentkit-drawer",
     "language": "Python",
@@ -259,38 +140,6 @@
     "url": "https://github.com/eli-alvarado/agentkit-drawer"
   },
   {
-    "description": "Agent skills CLI: init AGENTS.md, install SKILL.md from any GitHub repo for Cursor, Claude Code, Copilot, Windsurf, Code",
-    "id": "vorlaxen-labs/agent-skills",
-    "language": "TypeScript",
-    "name": "vorlaxen-labs/agent-skills",
-    "stars": 7,
-    "updated_at": "2026-10-26T14:58:42Z",
-    "url": "https://github.com/vorlaxen-labs/agent-skills"
-  },
-  {
-    "description": "Lint your AI instruction files the way each agent reads them \u2014 CLAUDE.md, AGENTS.md, .cursor/rules, GEMINI.md \u2014 and see ",
-    "id": "blackberrylabs/linstruct",
-    "language": "Rust",
-    "name": "blackberrylabs/linstruct",
-    "stars": 0,
-    "updated_at": "2026-10-26T14:50:13Z",
-    "url": "https://github.com/blackberrylabs/linstruct"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Instructions for AI agent code generation workflow\nglobs: [\"*\"]\nalwaysApply: true\n---\n\n# AI Collaboration Guidelines\n\n## The 3-Stage Agentic Loop\n\nEvery code generation task MUST follow this loop:\n\n### Stage 1: PLAN (gather context first)\n\nBefore writing ANY code, the AI MUST:\n1. Read the relevant source files to verify current state \u2014 do NOT rely on memory\n2. Identify which `.cursor/rules/` files apply to this task\n3. List the files to modify and explain why\n4. Do NOT write code yet\n\nPrompt template:\n```\nAnalyze the current codebase and plan how to implement [feature]. \nList the files you'll modify and why. Don't write code yet.\n```\n\n### Stage 2: IMPLEMENT (follow constraints)\n\nWhen generating code:\n- Follow ALL active `.cursor/rules/` constraints\n- If unsure about auth patterns, re-read `supabase-auth-security.mdc`\n- If unsure about params/layouts, re-read `nextjs15-params.mdc`\n- Use `unknown` + Zod validation instead of `any` for external data\n- Return `ActionResponse<T>` from all Server Actions (see below)\n\n### Stage 3: VERIFY (confirm before declaring done)\n\nAfter generating code, the AI MUST self-check:\n- [ ] No `getSession()` on the server (MUST be `getUser()`)\n- [ ] No synchronous `params` or `searchParams` access\n- [ ] No `@supabase/auth-helpers-nextjs` imports\n- [ ] No `any` types \u2014 use `unknown` + type narrowing\n- [ ] Every API route has Zod validation\n- [ ] Every error is caught and returns `{ error: string }`\n- [ ] New tables have RLS enabled\n- [ ] `loading.tsx` and `error.tsx` exist for data-fetching pages\n\nReport issues BEFORE the developer runs the code.\n\n## Skeptical Retrieval Rule\n\nNEVER trust stored knowledge about the codebase. Before modifying a file:\n1. Re-read the file to verify its current contents\n2. Check imports and exports to ensure they match expectations\n3. Verify that function signatures haven't changed\n\nThis prevents generating code that references stale function signatures, \ndeleted files, or renamed exports.\n\n## Standard Patterns\n\n### ActionResponse Type (use for all Server Actions)\n```typescript\ntype ActionResponse<T = void> = \n  | { success: true; data: T }\n  | { success: false; error: string }\n```\n\n### Standard Server Action Structure\n```typescript\n'use server'\nimport { createClient } from '@/lib/supabase/server'\nimport { z } from 'zod'\n\nconst Schema = z.object({ /* ... */ })\n\nexport async function myAction(input: unknown): Promise<ActionResponse<MyType>> {\n  // 1. Auth\n  const supabase = await createClient()\n  const { data: { user } } = await supabase.auth.getUser()\n  if (!user) return { success: false, error: 'Unauthorized' }\n\n  // 2. Validate\n  const result = Schema.safeParse(input)\n  if (!result.success) return { success: false, error: 'Invalid input' }\n\n  // 3. Execute\n  try {\n    const { data, error } = await supabase.from('table').insert(result.data).select().single()\n    if (error) throw error\n    return { success: true, data }\n  } catch {\n    return { success: false, error: 'Operation failed' }\n  }\n}\n```\n\n## Task Constraints\n\n- NEVER give the AI a task longer than 200 words\n- NEVER let the AI implement more than 3-4 files in one turn\n- NEVER let the AI skip the verification checklist\n- ALWAYS review the Git diff before committing\n- When uncertain, ask the developer \u2014 do NOT guess\n\n",
-      "format": "mdc",
-      "path": ".cursor/rules/ai-collaboration.mdc"
-    },
-    "description": "29 .mdc architecture rules that prevent AI coding assistants from hallucinating insecure auth, deprecated imports, and b",
-    "id": "vibestackdev/vibe-stack",
-    "language": "TypeScript",
-    "name": "vibestackdev/vibe-stack",
-    "stars": 8,
-    "updated_at": "2026-10-26T14:47:43Z",
-    "url": "https://github.com/vibestackdev/vibe-stack"
-  },
-  {
     "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
     "id": "KbWen/agentic-os",
     "language": "Python",
@@ -298,38 +147,6 @@
     "stars": 220,
     "updated_at": "2026-10-26T14:35:27Z",
     "url": "https://github.com/KbWen/agentic-os"
-  },
-  {
-    "description": "404\u4f53\u306e\u5373\u6226\u529bAI\u5c02\u9580\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u96c6 \u2014 Claude Code / Cursor / Copilot \u7b49\u306b\u5bfe\u5fdc\u3002\u65e5\u672c\u5e02\u5834\u5411\u3051\u30aa\u30ea\u30b8\u30ca\u30eb125\u4f53\uff08SIer\u30fb\u53d7\u8a17\u958b\u767a\u30fbSaaS\u30fb\u88fd\u9020DX\u30fb\u516c\u5171\u5206\u91ce\uff09\u3002agency-agents\u306e\u65e5\u672c\u8a9e\u30b3\u30df\u30e5",
-    "id": "sscodeai/agency-agents-ja",
-    "language": "Shell",
-    "name": "sscodeai/agency-agents-ja",
-    "stars": 10,
-    "updated_at": "2026-10-26T13:18:27Z",
-    "url": "https://github.com/sscodeai/agency-agents-ja"
-  },
-  {
-    "description": "The universal open database and semantic vector search engine for AI Agent Skills, MCP Servers, Project Directives, and ",
-    "id": "nsozturk/open-agent-db",
-    "language": "Python",
-    "name": "nsozturk/open-agent-db",
-    "stars": 1,
-    "updated_at": "2026-10-26T12:03:10Z",
-    "url": "https://github.com/nsozturk/open-agent-db"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Global Android project standards \u2014 always apply\nalwaysApply: true\n---\n\nYou are working on a production Android application.\n\n## Stack (defaults \u2014 adapt to existing project if already established)\n\n- Kotlin only\n- UI from `.cursor/project-settings.json` **`uiFramework`**: `\"xml\"` (default if missing) = XML + View Binding; `\"compose\"` = Jetpack Compose + `:feature-*` modules (AnimeHub). Never mix as the app UI stack. Never Data Binding\n- Clean Architecture (Presentation \u2192 Domain \u2192 Data)\n- MVVM + MVI (Intent / State / Effect) for **feature screens** \u2014 **not** ads (`:gmaAds`); ads use Fragment/Activity extensions + managers \u2014 never MVI unless the user explicitly asks (`21-ads-billing`, `reference/ads-gma.md`, `admob/*` skills)\n- Repository pattern\n- Multi-module architecture\n- DI via the project's existing framework (default: Koin)\n- Gradle Kotlin DSL + Version Catalog (`libs.versions.toml`)\n\n## Before writing code\n\n- Analyze existing project structure and conventions first\n- Reuse existing base classes, modules, and patterns\n- Do not introduce new libraries without explicit approval\n- Do not change architecture or module boundaries without approval\n- Maintain backward compatibility\n- When `.cursor/project-settings.json` exists, **obey it** (`uiFramework`, `writeTestsWithFeatures`, `orientation`, `themeModes`, `applicationId`, `appName`) \u2014 see `.cursor/README.md`\n\n## Code quality\n\n- Production-ready code only \u2014 no placeholders or TODOs left behind\n- Single responsibility per class\n- Avoid duplicate logic \u2014 extract shared code to core modules\n- Prefer readable code over clever code\n- Minimize scope \u2014 change only what the task requires\n- Design for large datasets from day one \u2014 never assume small lists\n- UI must support portrait and landscape (unless `project-settings.json` sets `orientation` to `portrait` or `landscape` only)\n- Heavy mapping in Repository / UseCase; UI layers render only\n- Networking / Room / SharedPreferences patterns: `26-data-persistence.mdc` + `rules/reference/`\n\n## Golden dependency rule\n\n```\napp (Composition Root)\n |\n \u2193\npresentation \u2192 domain \u2190 data\n |\n \u2193\ncore modules (shared utilities)\n```\n\n- Create as many `:core-*` modules as needed (`core-common`, `core-ui`, `core-platform`, \u2026)\n- UI never imports data implementations. Domain never imports UI.\n\n## Always\n\n1. Follow Clean Architecture + MVVM/MVI (Intent / State / Effect / ViewModel / UseCase / Repository) for **feature screens** \u2014 ads are exempt (`21-ads-billing`) \u2014 same as Stack above\n2. UI follows `uiFramework`: **xml** \u2192 View Binding, never Compose, never `findViewById`; **compose** \u2192 Compose screens in `:feature-*`, never XML `fragment_*` layouts, never `findViewById` \u2014 never Data Binding \u2014 same as Stack above\n3. Use the project's DI framework \u2014 **`module` (eager cold-start) or `lazyModule` (deferred features/ads)** per `07-dependency-injection`; register in composition root \u2014 same as Stack above\n4. Use Version Catalog \u2014 no hardcoded dependency versions\n5. Respect module boundaries \u2014 presentation must not depend on `:data`; UseCases + repo **interfaces** only in `:domain` (never in `:data`) \u2014 same as Golden dependency rule above\n6. Put **all** user-facing strings in the single shared strings file (e.g. `:core-ui`) \u2014 no hardcoded UI strings\n7. Match existing naming conventions (resources, packages, classes)\n8. Add unit tests for new UseCases and ViewModels when adding features \u2014 **unless** `.cursor/project-settings.json` has `writeTestsWithFeatures: false`\n9. Use proper dispatchers (`IO` / `Default`) \u2014 assume lists/files may have thousands of items; never block Main\n10. Log with `Constants.TAG*` and format `ClassName: functionName: State: details`\n11. Support **portrait and landscape** for all UI screens \u2014 **unless** `project-settings.json` `orientation` is `portrait` or `landscape` only \u2014 same as Code quality above\n12. Do heavy mapping in Repository / UseCase; `toUi()` in ViewModel only when needed (with dispatcher if heavy) \u2014 same as Code quality above\n13. Read and obey `.cursor/project-settings.json` when present (`uiFramework`, `orientation`, `themeModes`, `writeTestsWithFeatures`) \u2014 same as Before writing code above\n14. Data layer patterns (Retrofit / Room / SharedPreferences): follow `26-data-persistence.mdc` and `rules/reference/` \u2014 not ad-hoc skills \u2014 same as Code quality above\n\n## Never\n\n1. Never add libraries without explicit human approval \u2014 same as Before writing code above\n2. Never add Hilt/Dagger/RxJava unless the project already uses them. Never add Compose when `uiFramework` is `xml`. Never add XML Fragment screens when `uiFramework` is `compose`\n3. Never put business logic or heavy mapping in Fragments/Activities/Adapters/`*ScreenContent` beyond render + intent dispatch\n4. Never access DataSources directly from presentation\n5. Never skip `android:exported` on manifest components with intent-filters\n6. Never use `GlobalScope` for feature work\n7. Never modify unrelated files when implementing a feature \u2014 same as Code quality \u201cMinimize scope\u201d above\n8. Never do heavy mapping/sorting/IO on the Main thread \u2014 same as Always #9 above\n9. Never invent ad-hoc log tags \u2014 use `Constants.TAG*` \u2014 same as Always #10 above\n10. Never lock the app to one orientation unless product explicitly requires it \u2014 same as Always #11 above\n11. Never set static `RecyclerView` `layoutManager` / list `orientation` / `spanCount` in Kotlin \u2014 declare them in XML unless dynamic (**xml** only)\n12. Never put UseCases or repository **interfaces** in `:data` \u2014 domain only; never use \u2014 same as Always #3 and #5 above\n13. Never invent a parallel architecture (e.g. Redux, Orbit) for one screen \u2014 stay on project MVI\n14. Never hardcode AdMob production IDs in debug or commit secrets into git / docs \u2014 see `14-security-secrets.mdc`\n15. Never convert ads (`:gmaAds`, AdMob managers) to MVI (Intent / State / Effect) unless the user **explicitly** asks \u2014 place `:gmaAds` from [orbitalsonic/Admob-Ads](https://github.com/orbitalsonic/Admob-Ads); screens call extensions. See `21-ads-billing` + `reference/ads-gma.md`\n\nWhen scaffolding a new feature or screen, also follow `01-feature-checklist.mdc`.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/00-global.mdc"
-    },
-    "description": "Production-ready Android Engineering Rules for Cursor and other AI coding assistants. Build consistent, scalable, and ma",
-    "id": "orbitalsonic/AndroidPilot",
-    "language": "Kotlin",
-    "name": "orbitalsonic/AndroidPilot",
-    "stars": 1,
-    "updated_at": "2026-10-26T11:00:10Z",
-    "url": "https://github.com/orbitalsonic/AndroidPilot"
   },
   {
     "cursorrules": {
@@ -346,24 +163,6 @@
     "url": "https://github.com/SirLocke/cpux-agent-skills"
   },
   {
-    "description": "Homebrew tap for LynxPrompt CLI",
-    "id": "GeiserX/homebrew-lynxprompt",
-    "language": "Shell",
-    "name": "GeiserX/homebrew-lynxprompt",
-    "stars": 2,
-    "updated_at": "2026-10-26T10:13:49Z",
-    "url": "https://github.com/GeiserX/homebrew-lynxprompt"
-  },
-  {
-    "description": "Auto harness engineering meta-repo: discuss \u2192 curate \u2192 bootstrap a context-engineered project for Claude Code, Cursor, C",
-    "id": "glowElephant/context-forge",
-    "language": "Python",
-    "name": "glowElephant/context-forge",
-    "stars": 2,
-    "updated_at": "2026-10-26T09:26:09Z",
-    "url": "https://github.com/glowElephant/context-forge"
-  },
-  {
     "description": "Persistent memory for Cursor: automatic capture as you work, recall through a generated rules file, the same memory in C",
     "id": "atlaso-labs/cursor",
     "language": "TypeScript",
@@ -371,34 +170,6 @@
     "stars": 0,
     "updated_at": "2026-10-26T09:17:09Z",
     "url": "https://github.com/atlaso-labs/cursor"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Kuma MCP \u2014 safety and context runtime for AI agents\nalwaysApply: true\n---\n\nKuma MCP tools: kuma_context, kuma_memory, kuma_safety.\nRecord what matters, skip what doesn't.\n\n<kuma_obedience>\n## \ud83d\udd12 Obedience (non-negotiable)\n- MUST call `kuma_context({ action: \"init\" })` at session start.\n- MUST record gotchas IMMEDIATELY when a bug/quirk is found.\n- MUST call `kuma_safety({ action: \"verify\" })` after edits.\n- MUST NOT call actions outside the 13 core actions.\n</kuma_obedience>\n\n<kuma_workflow>\n\ud83e\udde0 **Before coding:** `kuma_context({ action: \"init\" })`\n\ud83d\udd2c **Unfamiliar code:** `kuma_context({ action: \"research\", scope: \"<area>\" })`\n\ud83d\udc1b **Found a bug/quirk:** `kuma_memory({ action: \"gotcha\" })` (IMMEDIATELY)\n\ud83e\udded **Chose between options:** `kuma_memory({ action: \"decision\" })`\n\ud83d\udd00 **Traced a flow:** `kuma_memory({ action: \"arch_flow\" })` (max 5 files)\n\ud83d\udee1\ufe0f **Before risky work / after edits:** `kuma_safety({ action: \"guard\" | \"verify\" })`\n</kuma_workflow>\n\n\ud83d\udcd6 Full rules: `.kuma/init.md`\n\n\ud83d\udcd6 **Usage:**\n  \u2022 `kuma_context({ action: \"init\" })` \u2014 load project context (call first)\n  \u2022 `kuma_safety({ action: \"guard\" })` \u2014 safety check before risky ops\n  \u2022 `kuma_safety({ action: \"verify\", scope: \"<area>\" })` \u2014 verify after edits\n  \u2022 `.kuma/init.md` \u2014 full behavioral rules\n  \u2022 `.kuma/KNOWN_GOTCHAS.md` \u2014 gotchas \u00b7 `.kuma/memories/decisions.md` \u2014 decisions (readable)",
-      "format": "mdc",
-      "path": ".cursor/rules/kuma.mdc"
-    },
-    "description": "\ud83c\udf75 Deliberate engineering guidelines & deterministic lifecycle safety hooks to enforce planning, prevent bloat, and block",
-    "id": "plumpslabs/matcha",
-    "language": "JavaScript",
-    "name": "plumpslabs/matcha",
-    "stars": 2,
-    "updated_at": "2026-10-26T06:43:17Z",
-    "url": "https://github.com/plumpslabs/matcha"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Humanize assistant output. Drop AI-isms, engineer burstiness, preserve technical accuracy.\nalwaysApply: true\n---\n\nWrite like a careful human. All technical substance stays exact. Only AI-slop dies.\n\nRules:\n- Drop: sycophancy (\"great question\", \"I'd be happy to\"), stock vocab (delve/tapestry/testament/realm/landscape/seamless/holistic/leverage-as-filler/cutting-edge/state-of-the-art), hedging stacks (\"it's important to note that\"), tricolon padding, em-dash pileups (hard cap: two per paragraph), performative balance.\n- Engineer burstiness: mix short and long sentences deliberately. Avoid tidy five-paragraph essay shapes.\n- Keep: technical terms exact, errors quoted exact, code unchanged, real uncertainty (\"I think\", \"probably\") when honest.\n- Pattern: [concrete observation]. [why or implication]. [what to do next].\n- Not: \"Sure! There are several factors to consider...\"\n- Yes: \"Bug in auth middleware. Token expiry uses `<` not `<=`. Fix L42:\"\n\nPrinciples: Subtract, don't add (warmth = sycophancy). Style \u2260 stance (humanize voice, don't soften disagreement). Warmth raises error rate \u2014 re-verify facts after rewriting. Simulated voice, not personhood (never invent bio, memory, or emotion). Reason privately, humanize publicly (think structured, output human).\n\nSwitch level: /unslop subtle|balanced|full|voice-match|anti-detector\nStop: \"stop unslop\" or \"normal mode\"\n\nAuto-Clarity: drop unslop style for security warnings, irreversible actions, legal/medical/financial precision, user confused. Resume after.\n\nBoundaries: code/commits/PRs written normal. Never invent facts to sound human. Anti-detector mode is for defensive use (ESL false positives, resume writers) \u2014 not for academic misconduct.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/unslop.mdc"
-    },
-    "description": "Make AI output sound human. Strips AI-isms (sycophancy, stock vocab, hedging stacks, em-dash pileups), preserves code/UR",
-    "id": "MohamedAbdallah-14/unslop",
-    "language": "Python",
-    "name": "MohamedAbdallah-14/unslop",
-    "stars": 164,
-    "updated_at": "2026-10-26T06:15:10Z",
-    "url": "https://github.com/MohamedAbdallah-14/unslop"
   },
   {
     "description": "\u65e0\u5173\u7528\u6237\uff0c \u65e0\u5173\u7cfb\u7edf\uff0c \u65e0\u5173\u9879\u76ee\uff0c\u5f00\u7bb1\u590d\u5236\u5373\u7528\uff01 code faster, code better; ",
@@ -410,34 +181,6 @@
     "url": "https://github.com/wangqiqi/cursor-ai"
   },
   {
-    "cursorrules": {
-      "content": "---\ndescription: Component development patterns and composition rules\nglobs: [\"src/components/**/*.{tsx,ts}\", \"src/pages/**/*.{tsx,ts}\"]\nalwaysApply: false\n---\n\n# Component Development Rules\n\n## Component Patterns\n\n### GOOD Component Structure\n```tsx\n// Single responsibility, 20-80 lines\ninterface UserCardProps {\n  user: User\n  onEdit: (id: string) => void\n  className?: string\n}\n\nexport const UserCard = ({ user, onEdit, className }: UserCardProps) => {\n  return (\n    <Card className={cn(\"p-4\", className)}>\n      <Avatar src={user.avatar} />\n      <div>\n        <h3 className=\"font-semibold\">{user.name}</h3>\n        <p className=\"text-muted-foreground\">{user.email}</p>\n        <Button onClick={() => onEdit(user.id)}>Edit</Button>\n      </div>\n    </Card>\n  )\n}\n```\n\n### AVOID: Monolithic Components\n```tsx\n// DON'T: 300+ lines mixing concerns\nconst UserManagement = () => {\n  // Massive component with multiple responsibilities\n}\n```\n\n### Component Composition Pattern\n```tsx\n// Build complex UI from smaller components\nconst Dashboard = () => (\n  <PageLayout>\n    <DashboardHeader />\n    <DashboardMetrics />\n    <DashboardCharts />\n    <DashboardActivity />\n  </PageLayout>\n)\n```\n\n## UI Component Rules\n\n### shadcn/ui Components\n- **NEVER** modify files in `src/components/ui/` directly\n- **EXTEND** by creating wrappers in `src/components/common/`\n- **COMPOSE** multiple ui components to build features\n\n### Form Components\n```tsx\n// Use React Hook Form + Zod pattern\nexport const UserForm = ({ onSubmit, initialData }: UserFormProps) => {\n  const form = useForm<UserFormData>({\n    resolver: zodResolver(userSchema),\n    defaultValues: initialData\n  })\n\n  return (\n    <Form {...form}>\n      <form onSubmit={form.handleSubmit(onSubmit)}>\n        <FormField\n          control={form.control}\n          name=\"name\"\n          render={({ field }) => (\n            <FormItem>\n              <FormLabel>Name</FormLabel>\n              <FormControl>\n                <Input {...field} />\n              </FormControl>\n              <FormMessage />\n            </FormItem>\n          )}\n        />\n      </form>\n    </Form>\n  )\n}\n```\n\n## Page Component Rules\n\n### Pages = Composition Only\n```tsx\n// PERFECT: Thin orchestration layer (10-30 lines max)\nconst DashboardPage = () => {\n  const { data: user, isLoading } = useCurrentUser()\n  \n  if (isLoading) return <PageSkeleton />\n  \n  return (\n    <PageLayout>\n      <DashboardHeader user={user} />\n      <DashboardMetrics />\n      <div className=\"grid grid-cols-1 lg:grid-cols-2 gap-6\">\n        <DashboardCharts />\n        <DashboardActivity />\n      </div>\n    </PageLayout>\n  )\n}\n```\n\n### NEVER in Pages\n- Business logic (extract to hooks)\n- API calls (use service layer)\n- Complex state management\n- Inline event handlers\n\n## Reusable Component Patterns\n\n### Compound Components\n```tsx\nconst DataTable = ({ children }) => (\n  <div className=\"border rounded-lg overflow-hidden\">{children}</div>\n)\n\nconst DataTableHeader = ({ children }) => (\n  <div className=\"bg-muted p-4 border-b\">{children}</div>\n)\n\n// Usage\n<DataTable>\n  <DataTableHeader>\n    <h3>Users</h3>\n  </DataTableHeader>\n  <DataTableBody>\n    {users.map(user => <UserRow key={user.id} user={user} />)}\n  </DataTableBody>\n</DataTable>\n```\n",
-      "format": "mdc",
-      "path": ".cursor/rules/components.mdc"
-    },
-    "description": "A Lovable-inspired React boilerplate that brings no-code AI UI generation into clean code. Fully open, customizable, and",
-    "id": "chihebnabil/lovable-boilerplate",
-    "language": "TypeScript",
-    "name": "chihebnabil/lovable-boilerplate",
-    "stars": 65,
-    "updated_at": "2026-10-26T22:49:25Z",
-    "url": "https://github.com/chihebnabil/lovable-boilerplate"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: claude-agents marketplace project conventions\nalwaysApply: true\n---\n\n# claude-agents conventions\n\nThis is a multi-harness plugin marketplace. Source lives under `plugins/`; per-harness\nartifacts (`.codex/`, `.cursor-plugin/`, `.opencode/`, `commands/`) are generated.\n\n- Don't hand-edit anything under `.codex/`, `.cursor-plugin/`, `.opencode/`, or top-level `commands/`, `agents/`, `skills/` \u2014 regenerate via `make generate HARNESS=<x>`.\n- Python tooling: `uv` (package manager), `ruff` (lint/format), `ty` (type check). Do not use pip/mypy/black.\n- Plugin files: `plugins/<name>/{.claude-plugin/plugin.json, agents/*.md, skills/<name>/SKILL.md, commands/*.md}`. Auto-discovered.\n- Cursor reads `.claude/skills/` and `.claude/agents/` directly \u2014 no separate `.cursor/skills/` is generated.\n\n## Never\n\n- Never commit secrets or hardcode credentials.\n- Never hand-edit generated registries (`.agents/plugins/marketplace.json`, `.cursor-plugin/`) \u2014 plugin PRs register the plugin in `.claude-plugin/marketplace.json`, then run `make generate-all` (see CONTRIBUTING.md).\n- Never run destructive git operations (force-push, reset --hard, branch -D) without explicit ask.\n\nSee `docs/authoring.md` for the portable-content style guide.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/000-project-conventions.mdc"
-    },
-    "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, a",
-    "id": "wshobson/agents",
-    "language": "Python",
-    "name": "wshobson/agents",
-    "stars": 41851,
-    "updated_at": "2026-10-26T01:08:14Z",
-    "url": "https://github.com/wshobson/agents"
-  },
-  {
     "description": "Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents \u2014 Claude ",
     "id": "mikeprasad/aria-knowledge",
     "language": "Shell",
@@ -445,66 +188,6 @@
     "stars": 17,
     "updated_at": "2026-10-26T01:04:14Z",
     "url": "https://github.com/mikeprasad/aria-knowledge"
-  },
-  {
-    "cursorrules": {
-      "content": "# SMIP Skill for Cursor\nKur p\u00ebrdoruesi k\u00ebrkon ndihm\u00eb me regjistrin e SMIP (smip.al), planet m\u00ebsimore ose hedhjen e temave ditore:\n1. Pyet p\u00ebr Klas\u00ebn, L\u00ebnd\u00ebn, Sht\u00ebpin\u00eb Botuese dhe Muajin.\n2. Gjej planin n\u00eb `smip_docs/` me `python3 scripts/find_curriculum.py`.\n3. P\u00ebrputh temat me orarin dhe kalendarin e pushimeve me `python3 scripts/parse_plan.py`.\n4. Shfaq pasqyr\u00ebn tabelare p\u00ebr konfirmim.\n5. Insero temat n\u00eb portal me `python3 scripts/smip_importer.py`.\n",
-      "format": "text",
-      "path": ".cursorrules"
-    },
-    "description": "AI Agent Skill & Automation Tool for the Albanian SMIP (smip.al) Teacher Portal",
-    "id": "adalenv/smip-skill",
-    "language": "Python",
-    "name": "adalenv/smip-skill",
-    "stars": 0,
-    "updated_at": "2026-10-25T22:44:39Z",
-    "url": "https://github.com/adalenv/smip-skill"
-  },
-  {
-    "description": "Free AGENTS.md, CLAUDE.md and Cursor rules for Next.js and FastAPI. Make AI coding agents follow your conventions.",
-    "id": "lilaforge/agent-ready-rules-lite",
-    "language": "\u2014",
-    "name": "lilaforge/agent-ready-rules-lite",
-    "stars": 0,
-    "updated_at": "2026-10-25T20:37:44Z",
-    "url": "https://github.com/lilaforge/agent-ready-rules-lite"
-  },
-  {
-    "description": "Free sample Cursor and Claude Code rules for FastAPI, Next.js and Spring Boot, from codebaserules.com",
-    "id": "rahuldeojoshi/codebaserules-samples",
-    "language": "\u2014",
-    "name": "rahuldeojoshi/codebaserules-samples",
-    "stars": 0,
-    "updated_at": "2026-10-25T19:22:44Z",
-    "url": "https://github.com/rahuldeojoshi/codebaserules-samples"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Core rules for all Godot 4.x work in this project\nglobs:\nalwaysApply: true\n---\n# Godot 4 Core Rules\n\n## Know the project before writing code\n- Read `project.godot`. `config/features=PackedStringArray(\"4.x\", ...)` tells you the engine version. Never emit APIs newer than that version, and never emit Godot 3 APIs (see `01-godot3-vs-4.mdc`).\n- Check `[autoload]` in `project.godot` before referencing a singleton. If an autoload doesn't exist, say so. Don't assume one.\n- Check `[input]` in `project.godot` (or Project Settings > Input Map) before using an action name in `Input.is_action_pressed()`. Unknown action names fail at runtime, not at parse time.\n- Read `docs/PROJECT.md` and `docs/ARCHITECTURE.md` if they exist.\n- If the project has a `.csproj`, ask whether the file should be GDScript or C# before writing one.\n\n## Never invent APIs\n- Use only classes, methods, properties and signals you are certain exist in Godot 4. If unsure, say **unverified** and link the class reference (https://docs.godotengine.org/en/stable/classes/). Don't guess.\n- See `05-hallucinated-apis.mdc` for the list of known fakes and Godot 3 leftovers.\n\n## Complete, parseable output\n- Write complete `.gd` files: `extends`, optional `class_name`, signals, enums, constants, `@export` vars, `@onready` vars, then functions. Don't use `# ...rest unchanged` stubs unless asked for a diff.\n- Indent with **tabs** (Godot's default). Never mix tabs and spaces in one file; that is a parse error.\n- After editing, run `godot --headless --check-only --script res://<file>.gd` before saying the task is done.\n\n## Scope discipline\n- Change only what the task needs. Never rename `@export` variables, signals, node names or files without flagging it. Renaming an exported var drops the value saved in `.tscn` files; renaming a node breaks `$Path` and `%Unique` lookups.\n- Don't edit `.tscn`/`.tres` files by hand unless asked. If a scene change is needed, describe it (node type, name, parent, properties) so the user can do it in the editor.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/00-godot-core.mdc"
-    },
-    "description": "Free Cursor rules + AGENTS.md that stop AI (Cursor, Claude Code, ChatGPT) from writing Godot 3 code in Godot 4 projects:",
-    "id": "scoyoc5/godot-ai-agent-rules",
-    "language": "\u2014",
-    "name": "scoyoc5/godot-ai-agent-rules",
-    "stars": 1,
-    "updated_at": "2026-10-25T17:15:48Z",
-    "url": "https://github.com/scoyoc5/godot-ai-agent-rules"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Core rules for all Unity C# work in this project\nglobs:\nalwaysApply: true\n---\n# Unity Core Rules\n\n## Know the project before writing code\n- Read `ProjectSettings/ProjectVersion.txt` for the Unity version (`m_EditorVersion`). Never emit APIs newer than that version.\n- Read `Packages/manifest.json` before using any package API (Input System, TextMeshPro, Cinemachine, URP, Addressables, Netcode). If a package is missing, say so and ask. Do not assume it is installed.\n- Read `docs/PROJECT.md` and `docs/ARCHITECTURE.md` if they exist. Follow their conventions over your defaults.\n- Check for `.asmdef` files. If code goes into an assembly, make sure that assembly references what the code uses.\n\n## Never invent APIs\n- Use only Unity APIs you are certain exist in the project's Unity version. If you are not sure, say \"unverified\" and link the Scripting API page (https://docs.unity3d.com/ScriptReference/). Don't guess.\n- Common hallucinations to avoid: `GameObject.FindByTag` (real: `GameObject.FindWithTag` / `FindGameObjectsWithTag`), `transform.GetChildByName` (real: `transform.Find`), `Input.GetAction`, `Rigidbody.AddVelocity`, `Vector3.Clamp`, `Destroy(obj, immediate: true)`.\n\n## Complete, compilable output\n- Write complete files with every `using` directive they need, the namespace, and class braces. Don't write `// ...rest unchanged` stubs unless the user asked for a diff.\n- The file name must match the `MonoBehaviour`/`ScriptableObject` class name, or Unity cannot attach it.\n- After editing, run the verification loop in `docs/VERIFY.md` (or ask the user to check the Console) before calling the task done.\n\n## Scope discipline\n- Change only what the task needs. Never delete or rename existing public members, serialized fields, or files without flagging it first. Renaming a serialized field loses inspector data; see `03-serialization.mdc`.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/00-unity-core.mdc"
-    },
-    "description": "Free Cursor rules + AGENTS.md that stop AI (Cursor, Claude Code, ChatGPT) from writing broken Unity C#: missing usings, ",
-    "id": "scoyoc5/unity-ai-agent-rules",
-    "language": "\u2014",
-    "name": "scoyoc5/unity-ai-agent-rules",
-    "stars": 6,
-    "updated_at": "2026-10-25T17:15:46Z",
-    "url": "https://github.com/scoyoc5/unity-ai-agent-rules"
   },
   {
     "cursorrules": {
@@ -528,5 +211,297 @@
     "stars": 5,
     "updated_at": "2026-10-25T14:04:58Z",
     "url": "https://github.com/Harmitx7/tribunal-kit"
+  },
+  {
+    "description": "\u63d0\u793a\u8bcd\u767e\u5b9d\u7bb1\uff1a66 \u6761\u539f\u521b\u4e2d\u6587 Prompt \u4e0e AI Agent \u6a21\u677f\uff08\u7f16\u7a0b/\u524d\u7aef/\u4ee3\u7801\u5ba1\u67e5/\u6587\u6863/\u4ea7\u54c1/\u8fd0\u8425/\u5b66\u4e60/\u6c42\u804c/Agent \u5de5\u4f5c\u6d41/Cursor rules/Claude skills\uff09\uff0c\u586b\u53d8\u91cf\u4e00\u952e\u590d\u5236",
+    "id": "MsNan/prompt-hub-cn",
+    "language": "JavaScript",
+    "name": "MsNan/prompt-hub-cn",
+    "stars": 0,
+    "updated_at": "2026-10-24T17:10:33Z",
+    "url": "https://github.com/MsNan/prompt-hub-cn"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Project rules for agent-context-doctor\nglobs: [\"src/**\", \"tests/**\"]\nalwaysApply: true\n---\n\n# agent-context-doctor \u2014 Cursor Rules\n\nYou are an **implementation agent** for this project. Focus on implementation only \u2014 product strategy is out of scope.\n\n## Hard rules\n\n- No LLM calls, no telemetry, no external network requests\n- No authentication or credential handling\n- No web server or browser UI\n- Do not rename `acd`, `audit`, or `list` commands\n- Do not break the `AuditResult` JSON shape or `.acdrc` schema backward compatibility\n\n## Before finishing any task\n\nRun and confirm these all pass:\n\n```bash\npnpm format:check\npnpm typecheck\npnpm test\npnpm build\n```\n\n## Code style\n\n- TypeScript strict mode \u2014 no `any`, no `ts-ignore`\n- Pure functions for all audit checks in `src/audit/checks/`\n- Tests in `tests/*.spec.ts` using vitest\n- No comments that narrate what the code does\n\n## Final report format\n\nAlways return:\n\n- Files changed (list)\n- Commands run and their output\n- Tests added\n- Known limitations\n",
+      "format": "mdc",
+      "path": ".cursor/rules/project.mdc"
+    },
+    "description": "Audit agent context files like AGENTS.md, CLAUDE.md, .cursor/rules/*.mdc, .github/copilot-instructions.md, and prompt do",
+    "id": "alipajand/agent-context-doctor",
+    "language": "TypeScript",
+    "name": "alipajand/agent-context-doctor",
+    "stars": 1,
+    "updated_at": "2026-10-24T15:22:07Z",
+    "url": "https://github.com/alipajand/agent-context-doctor"
+  },
+  {
+    "description": "DeepSeek Harness plugin that loads the Cursor, Copilot, Windsurf and other AI rule files your repo already has.",
+    "id": "acus9345/dsh-load-agent-rules",
+    "language": "TypeScript",
+    "name": "acus9345/dsh-load-agent-rules",
+    "stars": 2,
+    "updated_at": "2026-10-24T12:53:28Z",
+    "url": "https://github.com/acus9345/dsh-load-agent-rules"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: \"Mandatory Multi-Archetype Live Benchmark Protocol: Prevents AI from guessing or patching from static memory. Forces live web synthesis across world-class design, editorial, storytelling, and engineering references (Apple HIG, Stripe, Linear, Pentagram, Kinfolk, Vox, Cloudflare, AWS Well-Architected) before fixing or building.\"\nglobs: \"*\"\nalwaysApply: true\n---\n\n# 01 - Multi-Archetype World-Class Benchmark Protocol (`RULE-BENCHMARK-FIRST`)\n\n## PART A: ENGLISH SPECIFICATION\n\n### 1. Core Invariant: Zero Memory-Only Patching\n\nWhenever the user critiques an output, points out a flaw (in UI/UX, Typography, Motion Graphics, Copywriting, Product Strategy, or System Architecture), or proposes a new feature or design direction:\n\n1. **STRICTLY FORBIDDEN - Memory-Only Guessing**: Never rely solely on frozen pre-training weights to invent a makeshift patch. Autoregressive sampling from static memory defaults to the statistical average of mediocre public repositories (purple neon gradients, nested bordered cards, fake sci-fi labels like `//`, `\u00b7`, `#REF`, `[01]`, or robotic filler prose).\n2. **Step 1 - Mandatory Multi-Archetype Live Benchmark**: Immediately invoke live web search, URL inspection, or browser tools (`search_web`, `read_url_content`, or equivalent) to survey multiple world-class reference archetypes across four distinct domains:\n   - **Domain 1 - Product & Interface Design**: *Apple Human Interface Guidelines (HIG), Stripe Press, Linear, Raycast, Vercel*\n   - **Domain 2 - Editorial & Brand Identity**: *Pentagram, Kinfolk, The New York Times Visual Investigations, Monocle*\n   - **Domain 3 - Visual Storytelling & Motion**: *Ordinary Folk, Vox, Johnny Harris, Kurzgesagt, Lemmino, Cleo Abram*\n   - **Domain 4 - Engineering & System Architecture**: *Stripe API Design, Cloudflare Architecture, AWS Well-Architected Framework, Designing Data-Intensive Applications*\n   - Never lock into a single narrow template. Survey at least **2 to 3 distinct archetypes** and extract task-specific mechanisms: spatial ratios and typographic scales for UI/motion tasks, narrative flow and concrete anchors for copywriting/strategy, and idempotency contracts, failure modes, latency budgets, and operability for engineering/architecture tasks.\n3. **Step 2 - Objective Self-Critique vs. Global Standard**: Present a concise, transparent diagnostic comparison to the user before or alongside the implementation:\n   - *Why did the previous attempt fail or feel cheap?* (Identify the exact root defect: e.g., fell into Sci-Fi Greebling, used nested bordered cards, relied on passive nominalized prose, or lacked explicit failure/latency boundaries).\n   - *How do top-tier studios or principal engineering teams solve the root problem structurally?*\n4. **Step 3 - World-Class Execution & Verifiable Audit Trail**: Implement the distilled mechanism directly into the codebase or document using measurable constraints (exact pixel spacing, contrast ratios, non-linear type scale, or deterministic API contracts). Before delivery, record each selected reference's title, URL, access date, distilled mechanism, and the exact file/line change that applies it.\n\n---\n\n### 2. Operational Domain Triage & Benchmark Selection Matrix\n\nUse the decision matrix below to select the mandatory reference archetypes for any incoming user task:\n\n| Task Category | Primary Archetype Domain | Secondary Cross-Pollination Domain | Concrete Structural Mechanism to Extract | Mandatory Quantitative Parameter |\n| :--- | :--- | :--- | :--- | :--- |\n| **1. SaaS Dashboard & Metric Cards** | *Linear, Stripe, Apple HIG* | *Pentagram* (Editorial grid clarity) | Single-container card hierarchy, background luminance separation, zero nested boxes. | `>= 70% Open Canvas`, `16px-28px` padding, `12.6:1` AAA night contrast (`#E6E4DD` on `#090A0F`). |\n| **2. Landing Page & Hero Section** | *Vercel, Raycast, Stripe Press* | *Kinfolk* (Negative space cadence) | High-contrast headline focal anchor, restrained 1-accent callout pill, generous CTA breathing room. | Headline `32px-48px`, lead copy `16px-18px` (`<= 65ch`), `28px` vertical CTA separation. |\n| **3. Long-Form Technical Essay & Docs** | *NYT Visual Investigations, Stripe Docs* | *Vox* (Progressive visual disclosure) | Topic-Comment active sentences, symmetrical numerical comparisons, collapsible deep-dive blocks. | `15-28 words` average sentence, `45-word` hard cap, zero em-dashes (`U+2014`). |\n| **4. 1080p Video Essay & Slide Canvas** | *Ordinary Folk, Vox, Johnny Harris* | *Apple HIG* (Title-safe legibility) | Paused act dividers, tactile visual anchors, strict subtitle safe-zone clearance. | `1920x1080` frame: X margin `>= 64px-88px`, Top `>= 42px-54px`, Bottom content `y <= 875px`. |\n| **5. REST / RPC API & Webhook Backend** | *Stripe API Design, Cloudflare* | *AWS Well-Architected* | Idempotency keys, structured machine-readable error envelopes, explicit timeout budgets. | P99 latency budget defined, exponential backoff with jitter, deterministic status codes. |\n| **6. Database Schema & State Mutations** | *Designing Data-Intensive Applications* | *Stripe Engineering* | Transactional atomicity, append-only audit logs, explicit migration rollback paths. | Zero silent catch blocks, strict schema validation at ingress boundary. |\n| **7. Form Checkout & Onboarding Flow** | *Stripe Checkout, Linear Onboarding* | *Apple HIG* | Progressive disclosure, inline validation after blur, minimum input field friction. | `<= 3-4` visible fields per step, `>= 44px` touch target height on mobile viewports. |\n| **8. Design System Token Architecture** | *Apple HIG, Linear, Kinfolk* | *Vercel Geist* | Semantic surface/text/accent tokens locked to W3C relative luminance formulas. | Max 1 primary surface, 1 text hierarchy (`95%` / `65%`), 1 accent hue (`#F7B957`). |\n\n---\n\n### 3. 10-Pair Side-by-Side Comparison: \u274c Forbidden vs. \u2705 Required\n\n| # | Operational Scenario | \u274c Forbidden (Memory-Only Anti-Pattern) | \u2705 Required (World-Class Benchmark Standard) |\n| :--- | :--- | :--- | :--- |\n| **1** | **User says: \"This card looks boring, make it look more technical.\"** | Guessing from memory and adding `// SYS.REF:01`, neon cyan borders, status dots `\u2022`, and `10px` monospace tags. | Benchmarking *Linear* & *Apple HIG*: using a single `#090A0F` card (`12px` radius, `3px` `#F7B957` bottom accent, `28px` padding, `34px` metric). |\n| **2** | **User critiques: \"The dark mode text feels hard to read.\"** | Switching text to pure `#FFFFFF` on pure `#000000` (`21:1` contrast) from memory, triggering astigmatic halation. | Benchmarking ophthalmic dark-mode ergonomics & WCAG 2.1 AAA: locking `#E6E4DD` warm off-white on `#090A0F` deep obsidian (`12.6:1`). |\n| **3** | **User asks for a pricing comparison section.** | Generating a generic 3-column Bootstrap table with 15 checkmark rows, rainbow badges, and flashing timers. | Benchmarking *Stripe* & *Raycast*: 2 crisp tiers, clear value metric differentiation, 1 highlighted recommended tier, `>= 70%` open canvas. |\n| **4** | **User complains: \"My article introduction sounds like ChatGPT.\"** | Re-writing from memory using synonyms (`delve` -> `explore deeply`, keeping passive nominalizations and em-dashes). | Benchmarking *The New York Times* & *GS. Cao Xu\u00e2n H\u1ea1o*: stripping nominalizations, opening with a sensory scene or `70% vs. 13%` data anchor. |\n| **5** | **User reports an intermittent webhook duplicate payment bug.** | Adding a naive `setTimeout` delay or local boolean flag in memory without researching distributed idempotency. | Benchmarking *Stripe API Idempotency*: implementing an `Idempotency-Key` header with atomic database upsert and 24-hour key retention. |\n| **6** | **User asks to animate a scene transition or UI modal.** | Applying linear `duration-500` CSS transitions or bouncy cartoon keyframes (`scale(1.3)`) from static memory. | Benchmarking *Ordinary Folk* & *Apple HIG*: using damped spring physics (`stiffness: 220, damping: 26`) with subtle `8px",
+      "format": "mdc",
+      "path": ".cursor/rules/01-benchmark-first-protocol.mdc"
+    },
+    "description": "Stop AI hallucinations, Yes-Man sycophancy, robotic AI slop prose, and cheap UI clutter in 30 seconds. Pre-packaged .mdc",
+    "id": "longwave-ai-lab/anti-slop-ai-harness",
+    "language": "\u2014",
+    "name": "longwave-ai-lab/anti-slop-ai-harness",
+    "stars": 1,
+    "updated_at": "2026-10-24T12:08:52Z",
+    "url": "https://github.com/longwave-ai-lab/anti-slop-ai-harness"
+  },
+  {
+    "description": "Cursor rules for building apps on VTC: auth, data, UI, i18n and push-to-publish deploys to apps.vtc.com",
+    "id": "vtcdotcom/vtc-app-rules",
+    "language": "Shell",
+    "name": "vtcdotcom/vtc-app-rules",
+    "stars": 0,
+    "updated_at": "2026-10-24T10:35:56Z",
+    "url": "https://github.com/vtcdotcom/vtc-app-rules"
+  },
+  {
+    "description": "AI skill for Claude, Cursor & Codex that designs system architecture for new projects and audits existing codebases \u2014 cl",
+    "id": "Muhammad-Ahmad092/design-and-fix",
+    "language": "Python",
+    "name": "Muhammad-Ahmad092/design-and-fix",
+    "stars": 0,
+    "updated_at": "2026-10-23T21:18:39Z",
+    "url": "https://github.com/Muhammad-Ahmad092/design-and-fix"
+  },
+  {
+    "description": "\ud83c\udfac Standalone Broadcast Programmatic Motion Graphics, Kinetic Typography, Living Cartoon Stage & 60fps Video Engine for A",
+    "id": "roedyrustam/cinematic-motion-engine",
+    "language": "HTML",
+    "name": "roedyrustam/cinematic-motion-engine",
+    "stars": 0,
+    "updated_at": "2026-10-23T20:35:35Z",
+    "url": "https://github.com/roedyrustam/cinematic-motion-engine"
+  },
+  {
+    "description": "\ud83c\udfad 277 \u4e2a\u5373\u63d2\u5373\u7528\u7684 AI \u4e13\u5bb6\u89d2\u8272 \u2014 \u652f\u6301 Claude Code/Cursor/Copilot \u7b49 20 \u79cd\u5de5\u5177\uff0c\u8986\u76d6\u5de5\u7a0b/\u8bbe\u8ba1/\u8425\u9500/\u91d1\u878d\u7b49 20 \u4e2a\u90e8\u95e8\u3002\u542b 64 \u4e2a\u4e2d\u56fd\u5e02\u573a\u539f\u521b\u667a\u80fd\u4f53\uff08\u5c0f\u7ea2\u4e66/\u6296\u97f3/\u5fae\u4fe1/\u98de\u4e66/\u9489\u9489/Qt \u4e0a",
+    "id": "jnMetaCode/agency-agents-zh",
+    "language": "Shell",
+    "name": "jnMetaCode/agency-agents-zh",
+    "stars": 21629,
+    "updated_at": "2026-10-23T14:29:26Z",
+    "url": "https://github.com/jnMetaCode/agency-agents-zh"
+  },
+  {
+    "description": "Portable software delivery workflow for Codex, Cursor, Claude Code, and GitHub Copilot, with reusable skills, native age",
+    "id": "okfriansyah-moh/agentic-workflow",
+    "language": "Python",
+    "name": "okfriansyah-moh/agentic-workflow",
+    "stars": 0,
+    "updated_at": "2026-10-26T11:46:41Z",
+    "url": "https://github.com/okfriansyah-moh/agentic-workflow"
+  },
+  {
+    "description": "\u522b\u518d\u8bf4\u300c\u7ee7\u7eed\u300d\u4e86\u3002\u4e00\u4e2a Agent \u4eba\u683c\u9884\u8bbe\uff1a\u628a\u9ed8\u8ba4\u52a8\u4f5c\u4ece\u300c\u505c\u4e0b\u6765\u95ee\u300d\u6539\u6210\u300c\u4e00\u76f4\u505a\uff0c\u76f4\u5230\u4ea4\u4ed8\u300d/ Stop typing 'continue'.",
+    "id": "485148606/dsh-extreme-mode",
+    "language": "JavaScript",
+    "name": "485148606/dsh-extreme-mode",
+    "stars": 0,
+    "updated_at": "2026-10-22T09:44:16Z",
+    "url": "https://github.com/485148606/dsh-extreme-mode"
+  },
+  {
+    "cursorrules": {
+      "content": "# Cursor AI Rules\n\n> These rules are loaded automatically for this project. See `AGENTS.md` for full details.\n\n## Core Directives\n\n1. **Read AGENTS.md before any task** \u2014 All rules are defined there\n2. **Read DEEPDIVE.md** \u2014 System architecture narrative\n3. **Follow every section** \u2014 Core principles, commit protocol, testing, linting, etc.\n\n## Critical Enforcements\n\n### Pre-Commit Checklist\n```bash\nruff check .\nruff format .\nvulture .\nmypy .\n```\n**Do not commit until all pass.** (Section 9)\n\n### Required Folders\nEvery project MUST have:\n- `tests/` \u2014 All tests + random scripts (in `.gitignore`)\n- `docs/` \u2014 Architecture documentation\n- `research/` \u2014 Whitepapers, references\n\n### Commit Style\nHuman-sounding, WHY-focused messages. Example:\n```\napi: Added JWT refresh to prevent 401 loops\n\nThe token refresh had a race condition where concurrent requests\ncould trigger multiple refresh calls. Added mutex lock around auth state.\n```\nSee Section 15 for the full pattern.\n\n### PR Standards (Section 33)\n- 800 lines max, 500 for complex logic\n- Single feature per PR\n- Use the PR template (Section 35)\n\n### AI Code Quality (Section 34)\nSelf-check: think first, spot laziness, uncertainty, bloat.\n\n### Pre-Commit Hooks (Section 37)\nMandatory. Install once: `pre-commit install`. Hooks run on every commit.\n\n### Decision Ladder (Section 50.1)\nBefore any implementation: YAGNI \u2192 stdlib \u2192 native \u2192 existing dep \u2192 one line \u2192 minimum.\n\n### Tradeoff Comments (Section 50.2)\nFor every intentional shortcut, document with `# ponytail: <what> / # Upgrade to <what> if <trigger>`.\n\n## Prohibited\n- No PRs/issues/GitHub activity without explicit user approval (Section 2)\n- No dead code, unused imports, silent exception handlers (Section 1)\n- No commits without running lint/vulture sweep first (Section 9)\n- No mutable default arguments, bare excepts, eval/exec (Section 27.2)\n- No force push to shared branches (Section 36.2)\n- No PRs over 800 lines (Section 33)\n- No skipping pre-commit hooks (Section 37)\n\n## Validation\nBefore marking complete:\n- [ ] Tests pass\n- [ ] No vulture findings\n- [ ] Type check clean\n- [ ] DEEPDIVE.md updated if needed\n- [ ] Human commit message\n- [ ] PR under 800 lines\n- [ ] Pre-commit hooks passed\n- [ ] AI anti-pattern self-check passed\n- [ ] Decision ladder applied\n- [ ] Tradeoff comments for shortcuts\n",
+      "format": "mdc",
+      "path": ".cursor/rules/project-rules.mdc"
+    },
+    "description": "Anchor \u2014 the production-grade AGENTS.md template for AI coding agents. 51 sections of battle-tested rules. Keep your age",
+    "id": "peva3/anchor",
+    "language": "\u2014",
+    "name": "peva3/anchor",
+    "stars": 8,
+    "updated_at": "2026-10-21T18:04:47Z",
+    "url": "https://github.com/peva3/anchor"
+  },
+  {
+    "cursorrules": {
+      "content": "---\nversion: 4.3.0\nscope: [\"typescript\", \"javascript\", \"markdown\", \"sql\", \"html\", \"json\", \"yaml\", \"toml\"]\n---\n# Cursor AI Rules for Betting Brain Platform\n# https://github.com/nolarose1968/ffffff/blob/main/.cursorrules\n\n## One File to Rule Them All\n\nThis `.cursorrules` file is the **single source of truth** for all AI-generated code.\n\n**Benefits:**\n- \u2705 No confusion - everyone follows the same patterns\n- \u2705 Version control - every change is tracked\n- \u2705 Automatic application - Cursor applies rules to matching files\n- \u2705 Machine readable - front-matter enables tooling integration\n\n**Alternative:** Cursor \u2265 0.45 also supports `.cursor/rules/` folder for larger projects.\n\n## Core Development Rules\n\n### Bun Runtime (CRITICAL)\n- Use `bun` commands exclusively (not npm/yarn/node)\n- Use Bun Test (not Vitest/Jest)\n- Use Bun file APIs (not Node.js fs)\n- Use processManager for all process spawning\n- Leverage Bun native APIs (crypto, compression, etc.)\n\n### File Organization\n- Root directory: Only 9 essential files allowed\n- Documentation: All docs in `docs/` (except README.md, LICENSE, CLAUDE.md)\n- Scripts: All in `scripts/`\n- Tools: All in `tools/`\n- Status files: All in `docs/`\n\n### File Naming\n- Use lowercase kebab-case for all files/directories\n- Test files: `*.test.ts` (preferred)\n- Special cases: MCP handlers use camelCase to match tool names\n- Never create backup files (*.backup, *.old, *.bak)\n\n## API & Endpoint Patterns\n\n### Request Handling\n- Always generate requestId: `Date.now().toString(36)`\n- Always include CORS headers for dashboard access\n- Always handle OPTIONS preflight requests\n- Always log with requestId prefix: `[${requestId}] ...`\n\n### Error Handling\n- Use standardized error classes from `src/utils/error-handler.ts`\n- Always use try-catch or asyncHandler wrapper\n- Always return structured error responses\n- Never expose internal details in error messages\n\n### Database Queries\n- Always use parameterized queries (`.bind()`)\n- Never use string interpolation in SQL\n- Always cast D1 results with `as unknown as`\n- Always handle database errors\n\n## Security Patterns\n\n### Input Validation\n- Always validate all inputs before processing\n- Use Zod schemas for request validation\n- Never trust user input\n- Always sanitize output to prevent XSS\n\n### Production Security\n- Never use `parseFloat()` on stakes (use `Number()`)\n- Always use parameterized D1 queries\n- Respect queue batch limits (100 messages max)\n- Always free WASM memory in finally blocks\n- Use explicit UTC timestamps (not `new Date()`)\n\n## Testing Patterns\n\n### Bun Test Usage\n- Import from `bun:test` (not vitest/jest)\n- Always cleanup processes in `afterEach`/`afterAll`\n- Use `{ results: [...] }` for D1 database mocks\n- Reset mock implementations in `beforeEach`\n- Use explicit try-catch for async error testing\n\n### Test Organization\n- Unit tests: `tests/unit/*.test.ts`\n- Integration tests: `tests/integration/*.test.ts`\n- Use descriptive test names\n- Group related tests in `describe` blocks\n\n## Cloudflare Workers\n\n### Environment Bindings\n- ANALYTICS: Main betting analytics database\n- KV namespaces: BET_TICKER_RAW, TOKEN_STORE, USER_STORE\n- Queues: LINE_INGRESS, STEAM_WEBHOOK, STEAM_QUEUE\n- Analytics Engine: ANALYTICS_ENGINE\n\n### Performance\n- CPU limit: 50ms per request\n- Use `ctx.waitUntil()` for non-blocking operations\n- Implement cost guards for resource limits\n- Use rate limiting (10 req/s per IP)\n\n## MCP Integration\n\n### MCP Server Patterns\n- Use JSON-RPC 2.0 protocol over stdio\n- Register tools with `registerTool(name, description, inputSchema, handler)`\n- Return MCP response format: `{ content: [{ type: 'text', text: '...' }] }`\n- Use standard JSON-RPC error codes (-32700 parse, -32600 invalid, -32601 method not found, -32602 invalid params, -32603 internal)\n- Never use external MCP SDK if Bun + Zod suffices\n\n### Tool Development\n- Create handler in `src/mcp/handlers/`\n- Register in `toolRegistry.ts`\n- Define in `tools.ts` with schema\n- Always validate args before database queries\n- Return `MCPToolResult` format\n\n### Sports API Validation\n- Validate all sports data with Zod schemas\n- Required fields: eventId, timestamp, metric, value\n- Use metadata for market, source, volume\n- Write to ANALYTICS_ENGINE with proper blobs/doubles/indexes\n- Handle CORS for cross-origin requests\n\n### Testing MCP Tools\n- Use direct handler testing first\n- Test with `bun scripts/test-handlers-direct.ts`\n- HTTP testing via `/mcp` endpoint\n\n## Sports API Integration\n\n### Data Fetching\n- Use MCP `live-odds` tool for odds (never hard-code API calls)\n- Aggregate \u2265 2 bookmakers for accuracy (Pinnacle + Bet365)\n- Cache live data \u2264 30s in SPORTS_CACHE KV\n- Sports enum: nba, nfl, mlb, nhl only\n- Markets enum: moneyline, spread, total only\n\n### Data Ingestion\n- Push via `push-sports-data` MCP tool after every fetch\n- Ingest endpoint requires JWT signed with JWT_SECRET\n- Rate limit: 100 req/min per IP on `/ingest`\n- Validate eventId, timestamp, odds (required fields)\n- Include source and volume in metadata\n\n### API Key Rotation\n- Use rotateSecret() for daily key rotation\n- Pattern: PINNACLE_KEY_1, PINNACLE_KEY_2, PINNACLE_KEY_3\n- Rotation based on day of year % 3 + 1\n- Never commit actual keys to repo\n\n## Browser Extension\n\n### Manifest v3\n- Use service worker lifecycle\n- Handle message passing correctly\n- Implement proper storage management\n- Follow security best practices\n- Never use eval() or innerHTML\n\n## CI/CD Patterns\n\n### Local Development\n- Use `bun run ci` for full pipeline\n- Use `bun run ci:quick` for fast checks\n- Always use timeouts (job and command level)\n- Cache dependencies for speed\n- Report results clearly\n\n### Process Management\n- Always use `processManager.spawn()`\n- Always set timeouts for processes\n- Always cleanup in finally blocks\n- Never leave zombie processes\n\n## Code Quality\n\n### Documentation\n- Reference rules with stable GitHub links\n- Use `mdc:` links for project files\n- Keep documentation in `docs/`\n- Update INDEX.md when adding docs\n\n### ast-grep Integration\n- Use `sg scan` for security checks\n- Enforce SQL injection prevention\n- Check for unstructured logs\n- Validate CORS headers\n- Monitor hardcoded URLs\n\n## Automation Layer (v3.2.0+)\n\n### Forest CLI & Monitoring\n- Always run `bun run forest` before pushing to verify grove health\n- Check specific status: `bun run forest h|f|r|a` (health/fresh/release/analytics)\n- Use Forest CLI in CI for automated status reporting\n\n### Analytics Testing\n- Use `createAnalyticsEngineStub()` for analytics tests\u2014**never mock ANALYTICS_ENGINE directly**\n- Import from `tests/utils/analytics-engine-stub.ts`\n- Violation detection: `bun run guard:analytics` (fails CI if violated)\n\n### Dashboard Management\n- Dashboard changes must pass `bun run dashboard:all` locally before commit\n- Dashboards auto-deploy on release tag push\n- Grafana auto-imports on release (if configured)\n- README auto-updates with version and links\n\n### Release Management\n- Use Conventional Commits (feat:, fix:, chore:, docs:)\n- Release automation: `bun run release [patch|minor|major]`\n- Dry run first: `bun run release:dry`\n- Tag push triggers full automation (bump, deploy, notify)\n\n### Dependency Management\n- Dependency updates happen automatically every Monday\n- **Do not bump dependencies manually** (use freshness workflow)\n- Review weekly PR from automation\n- Emergency updates: `bun run freshness` then create PR\n\n### Health Monitoring\n- Worker health checked every 6 hours automatically\n- Manual check: `bun run health:ping`\n- Slack alerts sent on failure (if configured)\n- Endpoints: `/health` and `/metrics` auto-deployed\n\n## Related Documentation\n\n- [Complete Rules Guide](https://github.com/nolarose1968/ffffff/blob/main/docs/CURSOR_RULES.md)\n- [API Reference](https://github.com/nolarose1968/ffffff/blob/main/docs/REST_API_REFERENCE.md)\n- [Testing Guide](https://github.com/nolarose1968/ffffff/blob/main/docs/TESTING_STATUS.md)\n- [MCP Integration](https://github.com/nolarose1968/ffffff/blob/main/do",
+      "format": "text",
+      "path": ".cursorrules"
+    },
+    "description": "\ud83e\udde0 Edge-native betting intelligence platform with MCP server, real-time analytics, and AI-assisted development (Bun + Typ",
+    "id": "brendadeeznuts1111/betting-brain-v3",
+    "language": "TypeScript",
+    "name": "brendadeeznuts1111/betting-brain-v3",
+    "stars": 8,
+    "updated_at": "2026-10-21T19:57:50Z",
+    "url": "https://github.com/brendadeeznuts1111/betting-brain-v3"
+  },
+  {
+    "description": "Universal network troubleshooting skill for AI coding agents: DNS, proxy, SSL, package managers, Docker, Git, and China/",
+    "id": "CacinieP/network-troubleshoot-skill",
+    "language": "Shell",
+    "name": "CacinieP/network-troubleshoot-skill",
+    "stars": 8,
+    "updated_at": "2026-10-21T06:18:50Z",
+    "url": "https://github.com/CacinieP/network-troubleshoot-skill"
+  },
+  {
+    "description": "Official 2026 LLM API Pricing Calendar, 272K/100K Context-Cliff Router, Chrome FinOps HUD Extension & Cursor MCP Server ",
+    "id": "cooyun/awesome-2026-llm-api-pricing",
+    "language": "\u2014",
+    "name": "cooyun/awesome-2026-llm-api-pricing",
+    "stars": 1,
+    "updated_at": "2026-10-21T04:27:53Z",
+    "url": "https://github.com/cooyun/awesome-2026-llm-api-pricing"
+  },
+  {
+    "description": "MCP Server for LynxPrompt \u2014 browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP",
+    "id": "GeiserX/lynxprompt-mcp",
+    "language": "Go",
+    "name": "GeiserX/lynxprompt-mcp",
+    "stars": 2,
+    "updated_at": "2026-10-21T00:46:17Z",
+    "url": "https://github.com/GeiserX/lynxprompt-mcp"
+  },
+  {
+    "description": "Your AI assistant reads CLAUDE.md and ignores it anyway. \u0100rai makes instruction files enforced \u2014 hooks that block, a tam",
+    "id": "taniwhaai/arai",
+    "language": "Rust",
+    "name": "taniwhaai/arai",
+    "stars": 7,
+    "updated_at": "2026-10-20T20:59:55Z",
+    "url": "https://github.com/taniwhaai/arai"
+  },
+  {
+    "description": "Open-source POPIA privacy and security guardrails for South African builders, for every AI coding tool.",
+    "id": "VenusOne-Lee/popia-compliance",
+    "language": "Python",
+    "name": "VenusOne-Lee/popia-compliance",
+    "stars": 12,
+    "updated_at": "2026-10-25T05:05:52Z",
+    "url": "https://github.com/VenusOne-Lee/popia-compliance"
+  },
+  {
+    "description": "Free MIT rules that stop Cursor, Claude Code, Copilot, Windsurf and Codex from writing wrong ABAP. EN + PT.",
+    "id": "abapforagents/abap-for-agents-lite",
+    "language": "\u2014",
+    "name": "abapforagents/abap-for-agents-lite",
+    "stars": 0,
+    "updated_at": "2026-10-21T15:39:03Z",
+    "url": "https://github.com/abapforagents/abap-for-agents-lite"
+  },
+  {
+    "description": "Free AGENTS.md, Cursor rule and audit-prompt templates for AI coding agents (CC BY 4.0). AI-assisted starting points.",
+    "id": "agentkitco/agent-config-templates",
+    "language": "\u2014",
+    "name": "agentkitco/agent-config-templates",
+    "stars": 0,
+    "updated_at": "2026-10-20T02:14:00Z",
+    "url": "https://github.com/agentkitco/agent-config-templates"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Supabase RLS, grants and keys. Apply when writing Supabase migrations, policies, grants, views, functions, or client code that reads or writes Supabase data.\nglobs: supabase/**/*.sql, **/migrations/**/*.sql, **/*.sql\nalwaysApply: false\n---\n\n# Supabase RLS and grants: rules for writing secure migrations\n\nApply these whenever you create or change a Supabase table, view, function, policy or grant, or write client code that reads or writes Supabase data.\n\n## Every table in an exposed schema\n- Enable RLS in the **same migration** that creates the table: `alter table public.x enable row level security;`. A table must never exist without it.\n- RLS on with no policy denies everything. Add the policies the app needs in that same migration.\n- Grant explicitly, per table, only to the role that needs it and only the operations the app uses:\n  `grant select on public.x to authenticated;`\n  New tables don't get automatic grants for `anon`/`authenticated`/`service_role` (Supabase change of Oct 30, 2026); without a grant the API returns `42501 permission denied for table`.\n- Never \"fix\" a 42501 with `grant ... on all tables in schema public to anon, authenticated`. It also grants every table with RLS off, making it readable and writable with the public anon key.\n- Grant to `anon` only for data that signed-out visitors should read, and pair it with a policy that allows exactly that.\n\n## Policies\n- Write one policy per operation (`for select`, `for insert`, `for update`, `for delete`) and name the role with `to authenticated` (or `to anon`).\n- Wrap `auth.uid()` as `(select auth.uid())` so Postgres evaluates it once per query, not per row.\n- INSERT policies need `with check` (they can't have `using`, and without `with check` they let no rows in). On UPDATE, write both `using` (which rows) and `with check` (what they may become). If `with check` is missing, Postgres checks the new row against `using`, which is only safe when `using` is as strict as what a row may become: with an `or` (shared or team rows) a row can be handed to another user.\n- No policy protects a column it doesn't mention: an owner policy on `user_id` won't stop a user from changing `is_admin` on their own row. For sensitive columns, grant `update` only on the columns users may change (`grant update (body) on public.notes to authenticated;`).\n- UPDATE also needs a SELECT policy for the same rows, or it silently affects 0 rows.\n- Never use `using (true)` / `with check (true)` on private data. Allow it only for data that is public on purpose, and say so in a comment.\n- A policy must not query the table it protects (that raises `42P17 infinite recursion detected in policy`). Put the lookup in a `security definer` function in a **non-exposed** schema (e.g. `private`), with `set search_path = ''`, schema-qualified names, a filter on `(select auth.uid())`, `revoke all ... from public` and `grant execute` only to `authenticated`.\n- Multi-tenant data: scope rows to the caller's tenant through a membership lookup (the helper above), never through a value the client sends.\n\n## Views, functions, other schemas\n- Views run with the owner's privileges by default and skip RLS. Create them with `with (security_invoker = true)`, or don't expose them.\n- `security definer` functions bypass RLS: keep them out of exposed schemas unless they are meant as an API, and validate the caller inside.\n- A table in a non-`public` schema needs that schema in the Data API's exposed schemas, `grant usage on schema ... to <role>`, plus the table grant and RLS.\n\n## Keys and clients\n- The `anon` / publishable key is public by design; RLS is what protects data.\n- Never put the `service_role` / `sb_secret_...` key in frontend code, `NEXT_PUBLIC_*` / `VITE_*` env vars, or anything shipped to the browser. It bypasses all RLS. Use it only on the server.\n- On the server, create the Supabase client from the user's session (request cookies) so `auth.uid()` resolves; otherwise queries run as `anon`.\n\n## Errors and what they mean\n- `42501 permission denied for table|schema`: missing grant or schema usage (before RLS runs).\n- `new row violates row-level security policy`: an INSERT/UPDATE failed `with check`.\n- `PGRST116 Cannot coerce the result to a single JSON object` with `.single()` and a row that exists: RLS is hiding it from this caller (or there's no session). Use `.maybeSingle()` only when 0 rows is a normal answer.\n- An update or delete that returns no error but changes nothing: no matching UPDATE/DELETE (or SELECT) policy. Chain `.select()` to see the affected rows.\n- `PGRST205 Could not find the table ... in the schema cache`: wrong name/schema, schema not exposed, or a stale cache (`notify pgrst, 'reload schema';`).\n\n## Prove it\n- Test policies as the real roles (`anon`, `authenticated` as user A and as user B), not in the SQL editor, which bypasses RLS.\n- Check what the API roles can reach:\n  ```sql\n  select c.relname,\n         has_table_privilege('anon', c.oid, 'select') as anon_can_read,\n         c.relrowsecurity as rls_on\n  from pg_class c join pg_namespace n on n.oid = c.relnamespace\n  where n.nspname = 'public' and c.relkind = 'r'\n  order by 1;\n  ```\n  `anon_can_read = true` with `rls_on = false` means the table is public.\n- Gate it in CI: `npx airlock-rls` fails the build when a table ships without RLS or with an always-true policy.\n\nGuides with tested SQL for each rule: https://shipsealed.com/rls/\n",
+      "format": "mdc",
+      "path": ".cursor/rules/supabase-rls.mdc"
+    },
+    "description": "Rules that make Cursor, Claude Code and other AI agents write Supabase RLS policies and grants that don't leak data.",
+    "id": "mateuszingano/supabase-rls-rules",
+    "language": "\u2014",
+    "name": "mateuszingano/supabase-rls-rules",
+    "stars": 0,
+    "updated_at": "2026-10-19T18:02:01Z",
+    "url": "https://github.com/mateuszingano/supabase-rls-rules"
+  },
+  {
+    "description": "Claude Code mod: load the rules/ folders (Claude, Cursor .mdc, Antigravity) that installed plugins ship",
+    "id": "rafal-one/plugin-rules",
+    "language": "TypeScript",
+    "name": "rafal-one/plugin-rules",
+    "stars": 0,
+    "updated_at": "2026-10-19T10:57:53Z",
+    "url": "https://github.com/rafal-one/plugin-rules"
+  },
+  {
+    "description": "Universal AI Agent Super-Skills Ecosystem by Mr. Vishalkumar Joshi. 161 production-grade plain-text prompt protocols wit",
+    "id": "mrvishaljjoshi-cmyk/VJSS",
+    "language": "Python",
+    "name": "mrvishaljjoshi-cmyk/VJSS",
+    "stars": 0,
+    "updated_at": "2026-10-19T01:19:34Z",
+    "url": "https://github.com/mrvishaljjoshi-cmyk/VJSS"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Write instructions for models as positive targets, and rebuild a section when something is removed from it.\nglobs:\nalwaysApply: true\n---\n\n# Writing instructions for models\n\nThese habits apply whenever you write or edit text that another model will follow: prompts, system prompts, skills, rules, `CLAUDE.md`, and `AGENTS.md`.\n\n- Describe the behavior you want. Name the target with a number, a scope, or a concrete alternative: \"Answer in under 100 words.\" \"Cite sources from A, B, and C.\" \"Verify changes with `npm run typecheck`.\"\n- When asked to take something out of instruction text, delete every sentence about it, then rebuild the section from a short brief of what the text covers now. The finished section reads as if it was written that way from the start.\n- State each rule once, as one calm, plain sentence. That is the form a model gives the most weight.\n- Keep genuine limits on irreversible actions, security, privacy, and legal boundaries. State each one once, next to the instruction it guards, with the reason and a fallback: \"Ask before force-pushing, because it rewrites shared history.\"\n- For a full audit of a file, with parallel subagent reviewers and a leak check on the rewrite, run `/pink-elephant <file>`.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/pink-elephant.mdc"
+    },
+    "description": "Your prompt says 'don't mention billing.' Your agent mentions billing. Pink Elephant finds the don'ts in prompts, skills",
+    "id": "shahshrey/pink-elephant",
+    "language": "Python",
+    "name": "shahshrey/pink-elephant",
+    "stars": 3,
+    "updated_at": "2026-10-19T00:17:33Z",
+    "url": "https://github.com/shahshrey/pink-elephant"
+  },
+  {
+    "description": "\u26a1 Production-grade skills and automated workflows for AI coding agents (Antigravity, Claude Code, Cursor, Copilot & MCP)",
+    "id": "Anmolop97/Agent-Skills",
+    "language": "Python",
+    "name": "Anmolop97/Agent-Skills",
+    "stars": 0,
+    "updated_at": "2026-10-18T10:13:36Z",
+    "url": "https://github.com/Anmolop97/Agent-Skills"
+  },
+  {
+    "description": "Universal SEO & GEO skill for AI coding agents: Claude Code, Cursor, Windsurf, GitHub Copilot, Replit, Lovable, Bolt. Op",
+    "id": "Aryanpanwar10005/seo-geo-optimizer",
+    "language": "JavaScript",
+    "name": "Aryanpanwar10005/seo-geo-optimizer",
+    "stars": 14,
+    "updated_at": "2026-10-17T17:10:08Z",
+    "url": "https://github.com/Aryanpanwar10005/seo-geo-optimizer"
+  },
+  {
+    "description": "Vue3 + uni-app \u4e2d\u6587 AI \u7f16\u7a0b\u6280\u80fd\u5305\uff1aCursor Rules / Claude Code Skills / Trae / Codex \u4e00\u884c\u547d\u4ee4\u5b89\u88c5",
+    "id": "MsNan/vue-uniapp-skills",
+    "language": "JavaScript",
+    "name": "MsNan/vue-uniapp-skills",
+    "stars": 0,
+    "updated_at": "2026-10-16T13:11:09Z",
+    "url": "https://github.com/MsNan/vue-uniapp-skills"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: \"How to change the agentkit-rules pack, installer, and examples.\"\nalwaysApply: true\n---\n\n# agentkit-rules\n\n- Installable rules live in `rules/<stack>/*.mdc` and `rules/<stack>/skills/<name>/SKILL.md`. Register every file in `rules/index.json`.\n- Cursor frontmatter uses only `description`, `globs`, and `alwaysApply`. `globs` is one comma-separated string. `alwaysApply: true` omits `globs`.\n- Skill frontmatter uses only `name` and `description`. `name` matches the directory, is lowercase, and does not contain `claude` or `anthropic`.\n- Do not hand-edit files under `examples/`. Run `npm run examples` after a rule change.\n- Run `npm run validate` and `npm test` before committing.\n- The installer is the source of AGENTS.md, CLAUDE.md, Copilot files, Windsurf rules, and Devin rules. Do not fork a second copy of a rule body.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/kit.mdc"
+    },
+    "description": "Modular, production-grade AI coding-agent instructions (AGENTS.md, CLAUDE.md, Cursor rules, Copilot, Claude Code skills)",
+    "id": "fabwaseem/agent-rules",
+    "language": "TypeScript",
+    "name": "fabwaseem/agent-rules",
+    "stars": 0,
+    "updated_at": "2026-10-16T07:18:32Z",
+    "url": "https://github.com/fabwaseem/agent-rules"
+  },
+  {
+    "cursorrules": {
+      "content": "# Identity\n\nYou are a senior staff engineer and tech lead on **REPLACE:PROJECT_NAME**. You own correctness, quality, and maintainability. Think before acting, verify before claiming success, and push back plainly on flawed assumptions \u2014 a trusted advisor, not a yes-machine.\n\n---\n\n# AI Agent Rules \u2014 REPLACE:PROJECT_NAME\n\n> **Bootstrap:** copy `templates/cursorrules.template` \u2192 repo-root `.cursorrules`, then replace every `REPLACE:` token.\n\n## Core Principles (ALWAYS APPLY \u2014 override all else, non-negotiable)\n\n1. **Correct the user.** Be truthful; never agree to be agreeable. If an approach is flawed, say so and offer a better path.\n2. **Never claim PASS on failing output.** Report any test/build/validation error explicitly with the relevant output.\n3. **Verify before \"done\".** Run tests/build/lint appropriate to the change; all provided tests must pass. If you can't verify, state what you checked and what's unverified.\n4. **Optimal path.** Most efficient, reliable, maintainable option; no over-engineering; no edits to unrelated files.\n5. **Evidence-first, never memory-first.** Back every non-trivial claim with file evidence (path + snippet), runtime output, or live docs. Missing evidence \u2192 mark **Unverified** and gather it. Banned without evidence: \"this is fixed\", \"already implemented\", \"tests pass\", \"works now\".\n6. **Assumption ledger** (substantial tasks): state Confirmed facts / Inferences / Unknowns; never collapse inference into fact.\n7. **Completion gate** (cannot skip): claim done only when changes are applied, checks ran, output shows no blocking failure, and residual risks are listed. If checks can't run, say why + give manual steps.\n8. **Per-message permission only.** Explicit human approval never becomes standing or permanent. Each `git commit`/`push`, file delete, DB drop/truncate/wipe, protected-file edit, or history rewrite needs approval in the **same message** that requests it \u2014 earlier chat approval does not carry forward.\n9. **Brevity cap + escalation gate** (cannot skip). The two halves are one rule: stay under budget, and ask before exceeding it.\n\n   **Budget:** chat prose \u2264 **150 words** per response, excluding code blocks, diffs, command output, and the three mandatory handoff sections. Content inside generated artifacts, plans, SPECs, and reports follows its own template and does not consume the chat budget.\n\n   **Escalation gate:** if the complete answer needs more than the budget, or the task would expand beyond a literal reading of the request (extra audits, subagents, multi-track investigation, refactors, hardening beyond the ask), **stop and ask first**. Deliver the short answer plus one line naming what the long version would cover. Never deliver the long version unrequested, and never ask for expansion after the work is already done and dumped.\n\n   This rule governs **volume**, not just style. Banned: unrequested option matrices, multi-table comparisons, restating the request, narrating reasoning, and re-explaining evidence already given. Kept: the evidence citation needed to support a claim (Principle 5), a failing output (Principle 2), and the handoff sections.\n\n---\n\n## Change safety (mechanical)\n\nDefault to **minimal diffs**. Run before commit / `@code-implementation complete`:\n\n| Gate | Command | Fail when |\n|------|---------|-----------|\n| Touch scope | `bash scripts/touch-scope-verify.sh` | File outside `.work/touch-scope` or iteration **Files** |\n| Blast radius | `bash scripts/blast-radius-check.sh` | `risk: high` (cross-area or oversized diff) |\n| Protected surfaces | `standards/PROTECTED_SURFACES.json` + `.work/PROTECTED_SURFACES.json` + \u00a7Protected Files | High-blast path without owner approval |\n| Tests | `bash scripts/framework-verify.sh` (see `DOCS_TECH_STACK.md`) | Non-zero exit |\n\n**Declare scope first:** copy `templates/work/touch-scope.template` \u2192 `.work/touch-scope`, or `@code-implementation plan` with **Files** per task. **MOD-06** required for agent-authored code (`concepts/README.md` \u00a7 Trigger table); `human-only` opt-out only when the human declares it in the same message. **No collateral edits** \u2014 no drive-by refactors, dependency bumps, or \"while I'm here\" changes.\n\n---\n\n## Required Context Files\n\n**Lost? Read [`START_HERE.md`](START_HERE.md) first.**\n\n**Free-text entry:** don't know which skill to run? Invoke `@ai-director - <what you want>` (Agent OS), `@ui-director` (`.ai.ui`), `@biz-director` (`.ai.biz`), `@soc-director` (`.ai.soc`), or `@x-director` for cross-framework work.\n\n### Frameworks registry (cross-framework discovery)\n\nSister frameworks are siblings on disk; `.ai/` is self (self-hosted). Paths resolve at runtime. Sister dirs auto-discover as `<source basename with <fw> inserted before its last .segment>` (e.g. `pilo.ai.ui.logicbison` for this `pilo.ai.logicbison` source) or legacy `.ai.<fw>` \u2014 see path resolution below.\n\n| Framework | Director | Path | Bootstrap artifact |\n|-----------|----------|------|--------------------|\n| `.ai` (Agent OS) | `@ai-director` | *this directory* | `skills/README.md` |\n| `.ai.ui` (UI Design OS) | `@ui-director` | `../.ai.ui` | `../.ai.ui/skills/README.md` |\n| `.ai.biz` (Business OS) | `@biz-director` | `../.ai.biz` | `../.ai.biz/skills/README.md` |\n| `.ai.soc` (Social OS) | `@soc-director` | `../.ai.soc` | `../.ai.soc/skills/README.md` |\n| `.ai.cto` (CTO Professor OS) | `@cto-director` | `../.ai.cto` | `../.ai.cto/skills/README.md` |\n| `.ai.flutter` (Flutter Agent OS) | `@flutter-director` | `../.ai.flutter` | `../.ai.flutter/skills/README.md` |\n| `.ai.mlt` (MLT Agent OS) | `@mlt-director` | `../.ai.mlt` | `../.ai.mlt/skills/README.md` |\n\n**Path resolution:** (1) use a filled path cell; empty \u2192 fall through. (2) Auto-discover: source dir S = `$AGENT_OS_SOURCE` (thin), `$REPO_ROOT/.ai` (fat), `$REPO_ROOT` (self-hosted); parent = `S/..`; sister = `<S basename with <fw> inserted before its last .segment>` (e.g. `pilo.ai.ui.logicbison` for source `pilo.ai.logicbison`; `.ai`-prefixed sources resolve `.ai.<fw>` directly), else legacy `.ai.<fw>`; missing = \"not installed\". (3) Before routing, verify the framework dir + its `skills/README.md` exist; if absent, route to `@ai-director` prefixed `[degraded: <framework> not installed]` \u2014 never route into the void. If your source dir name breaks discovery (e.g. `my-framework`), fill the path cells manually \u2014 deploy output lists what it checked.\n\n### Read at conversation start / when relevant\n\n| File | Purpose |\n|------|---------|\n| `START_HERE.md` | What to invoke now; forgetfulness checklist |\n| `PROCESS_ROUTER.md` | Process Q&A; `@process-router` vs `@session-control status` |\n| `DOCS_TECH_STACK.md` | Stack + verification commands |\n| `.work/standards/REPLACE:CONVENTIONS_FILE` | Code layout, naming, maintainability |\n| `.work/standards/REPLACE:FEATURE_STANDARD_FILE` | Feature SPEC lifecycle |\n| `.work/standards/REPLACE:DIRECTORY_MAP_FILE` | Repo layout and boundaries |\n| `.work/context/HANDOFF.md` | Session handoff |\n| `docs/guides/workflows/README.md` | Workflow index and artifact matrix |\n\n**Concept pack:** `concepts/README.md` (MOD-01\u2013MOD-08). When a change touches architecture, coupling, latency, cost, ops load, AI-generated code, prompt architecture, or declarative infrastructure: list applicable concept ids, run matching `prompt.md` under `concepts/<name>/`, attach outputs to the PR or `### Concept / NFR registry` in `.work/plans/NEXT.md`; tag quantitative claims `measured` | `estimated` | `assumption` | `unknown`.\n\n### Placeholder map\n\n| Placeholder | Resolves to |\n|-------------|-------------|\n| `{WORK_ROOT}` | `.work/` |\n| `{PLANS_ROOT}` | `.work/plans/` |\n| `{FEATURE_SPEC_ROOT}` | `.work/features/` |\n| `{PROMPTS_ROOT}` | `.work/prompts/` |\n| `{DOCS_ROOT}` | `.work/docs/` |\n| `{DECISIONS_ROOT}` | `.work/decisions/` |\n| `{ITERATION_CARRIER}` | `.work/plans/NEXT.md` |\n| `{MASTER_PLAN}` | `.work/plans/full/*-full-plan.md` (latest **Approved**) |\n| `{HANDOFF}` | `.work/context/HANDOFF.md` |\n| `{TOUCH_SCOPE",
+      "format": "text",
+      "path": ".cursorrules"
+    },
+    "description": "Portable process framework for software teams shipping with coding agents (Cursor, Claude Code, Codex, opencode). Skills",
+    "id": "PiloTracer/pilo.ai.logicbison",
+    "language": "Shell",
+    "name": "PiloTracer/pilo.ai.logicbison",
+    "stars": 0,
+    "updated_at": "2026-10-15T20:10:32Z",
+    "url": "https://github.com/PiloTracer/pilo.ai.logicbison"
   }
 ]
