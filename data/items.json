@@ -1,5 +1,14 @@
 [
   {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-27T21:00:52Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "cursorrules": {
       "content": "# SMIP Skill for Cursor\nKur p\u00ebrdoruesi k\u00ebrkon ndihm\u00eb me regjistrin e SMIP (smip.al), planet m\u00ebsimore ose hedhjen e temave ditore:\n1. Pyet p\u00ebr Klas\u00ebn, L\u00ebnd\u00ebn, Sht\u00ebpin\u00eb Botuese dhe Muajin.\n2. Gjej planin n\u00eb `smip_docs/` me `python3 scripts/find_curriculum.py`.\n3. P\u00ebrputh temat me orarin dhe kalendarin e pushimeve me `python3 scripts/parse_plan.py`.\n4. Shfaq pasqyr\u00ebn tabelare p\u00ebr konfirmim.\n5. Insero temat n\u00eb portal me `python3 scripts/smip_importer.py`.\n",
       "format": "text",
@@ -12,15 +21,6 @@
     "stars": 0,
     "updated_at": "2026-10-27T20:50:21Z",
     "url": "https://github.com/adalenv/smip-skill"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-27T20:45:34Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
