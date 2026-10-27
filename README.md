@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-27 05:00 UTC
+> ⏰ Last updated: 2026-10-27 05:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,8 +53,8 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [heymegabyte/agent-skills](https://github.com/heymegabyte/agent-skills) | 26 | TypeScript | 2026-10-27 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/agent-skills/) | Agent Skills — agent-neutral autonomous product-building OS for 32+ AI coding tools. 23 skill categories · 28 agents · 1 |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-27 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-27 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [heymegabyte/agent-skills](https://github.com/heymegabyte/agent-skills) | 26 | TypeScript | 2026-10-27 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/heymegabyte/agent-skills/) | Agent Skills — agent-neutral autonomous product-building OS for 32+ AI coding tools. 23 skill categories · 28 agents · 1 |
 | 3 | [bompus/house-rules](https://github.com/bompus/house-rules) | 2 | JavaScript | 2026-10-27 | — | Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md |
 | 4 | [SupremeSupport/Cursor-Desktop-2026](https://github.com/SupremeSupport/Cursor-Desktop-2026) | 1 | — | 2026-10-27 | — | ⭐️ Cursor 2026 Ai Cursorpro Cursor Ai ⭐️ |
 | 5 | [geronco/commandvault-library](https://github.com/geronco/commandvault-library) | 0 | JavaScript | 2026-10-27 | — | AI prompts, CLAUDE.md/AGENTS.md templates, Cursor rules, Agent Skills and MCP servers from commandvault.ai, synced daily |
