@@ -10,8 +10,35 @@
     "language": "TypeScript",
     "name": "heymegabyte/agent-skills",
     "stars": 26,
-    "updated_at": "2026-10-26T23:44:55Z",
+    "updated_at": "2026-10-26T23:56:57Z",
     "url": "https://github.com/heymegabyte/agent-skills"
+  },
+  {
+    "description": "Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W-",
+    "id": "fluttersdk/wind",
+    "language": "Dart",
+    "name": "fluttersdk/wind",
+    "stars": 43,
+    "updated_at": "2026-10-26T23:54:06Z",
+    "url": "https://github.com/fluttersdk/wind"
+  },
+  {
+    "description": "Architectural drift prevention for the agentic AI SDLC.",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 29,
+    "updated_at": "2026-10-26T23:54:46Z",
+    "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-26T23:45:42Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
@@ -19,7 +46,7 @@
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 2,
-    "updated_at": "2026-10-26T23:38:42Z",
+    "updated_at": "2026-10-26T23:53:30Z",
     "url": "https://github.com/bompus/house-rules"
   },
   {
@@ -30,24 +57,6 @@
     "stars": 1,
     "updated_at": "2026-10-26T23:31:17Z",
     "url": "https://github.com/SupremeSupport/Cursor-Desktop-2026"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-26T23:30:31Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
-    "description": "Architectural drift prevention for the agentic AI SDLC.",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 29,
-    "updated_at": "2026-10-26T23:43:23Z",
-    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
@@ -459,15 +468,6 @@
     "stars": 0,
     "updated_at": "2026-10-25T19:22:44Z",
     "url": "https://github.com/rahuldeojoshi/codebaserules-samples"
-  },
-  {
-    "description": "Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W-",
-    "id": "fluttersdk/wind",
-    "language": "Dart",
-    "name": "fluttersdk/wind",
-    "stars": 43,
-    "updated_at": "2026-10-26T23:41:29Z",
-    "url": "https://github.com/fluttersdk/wind"
   },
   {
     "cursorrules": {
