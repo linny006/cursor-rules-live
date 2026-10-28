@@ -1,12 +1,12 @@
 [
   {
-    "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
-    "id": "bompus/house-rules",
-    "language": "JavaScript",
-    "name": "bompus/house-rules",
+    "description": "MCP Server for LynxPrompt \u2014 browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP",
+    "id": "GeiserX/lynxprompt-mcp",
+    "language": "Go",
+    "name": "GeiserX/lynxprompt-mcp",
     "stars": 2,
-    "updated_at": "2026-10-28T20:46:14Z",
-    "url": "https://github.com/bompus/house-rules"
+    "updated_at": "2026-10-28T20:53:23Z",
+    "url": "https://github.com/GeiserX/lynxprompt-mcp"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-28T20:45:43Z",
+    "updated_at": "2026-10-28T20:50:18Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
+    "id": "bompus/house-rules",
+    "language": "JavaScript",
+    "name": "bompus/house-rules",
+    "stars": 2,
+    "updated_at": "2026-10-28T20:46:14Z",
+    "url": "https://github.com/bompus/house-rules"
   },
   {
     "description": "Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows.",
@@ -359,15 +368,6 @@
     "stars": 0,
     "updated_at": "2026-10-28T03:24:30Z",
     "url": "https://github.com/geronco/commandvault-library"
-  },
-  {
-    "description": "MCP Server for LynxPrompt \u2014 browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP",
-    "id": "GeiserX/lynxprompt-mcp",
-    "language": "Go",
-    "name": "GeiserX/lynxprompt-mcp",
-    "stars": 2,
-    "updated_at": "2026-10-28T20:33:33Z",
-    "url": "https://github.com/GeiserX/lynxprompt-mcp"
   },
   {
     "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 plus AIOS, an open-source markdown memory system for coding ",
