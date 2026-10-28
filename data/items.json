@@ -1,12 +1,12 @@
 [
   {
-    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
-    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "language": "HTML",
-    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
-    "stars": 3,
-    "updated_at": "2026-10-28T05:53:27Z",
-    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
+    "description": "LLM benchmarks & evaluation tools \u2014 measure what matters",
+    "id": "aixisstudio/ai-coding-rules",
+    "language": "\u2014",
+    "name": "aixisstudio/ai-coding-rules",
+    "stars": 2,
+    "updated_at": "2026-10-28T06:10:22Z",
+    "url": "https://github.com/aixisstudio/ai-coding-rules"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-28T05:45:34Z",
+    "updated_at": "2026-10-28T06:00:41Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
+    "id": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "language": "HTML",
+    "name": "onlymuneeb38-glitch/ios-agent-skills-evaluator",
+    "stars": 3,
+    "updated_at": "2026-10-28T05:53:27Z",
+    "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
   },
   {
     "description": "Homebrew tap for LynxPrompt CLI",
@@ -484,14 +493,5 @@
     "stars": 10,
     "updated_at": "2026-10-26T13:18:27Z",
     "url": "https://github.com/sscodeai/agency-agents-ja"
-  },
-  {
-    "description": "The universal open database and semantic vector search engine for AI Agent Skills, MCP Servers, Project Directives, and ",
-    "id": "nsozturk/open-agent-db",
-    "language": "Python",
-    "name": "nsozturk/open-agent-db",
-    "stars": 1,
-    "updated_at": "2026-10-26T12:03:10Z",
-    "url": "https://github.com/nsozturk/open-agent-db"
   }
 ]
