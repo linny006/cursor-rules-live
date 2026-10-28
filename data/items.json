@@ -1,11 +1,29 @@
 [
   {
+    "description": "Architectural drift prevention for the agentic AI SDLC.",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 29,
+    "updated_at": "2026-10-28T20:28:51Z",
+    "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
+    "description": "Free copy-paste AGENTS.md, CLAUDE.md and Cursor rules for 20 beginner vibe-coding project types",
+    "id": "getvibekits/vibe-coding-rules",
+    "language": "Shell",
+    "name": "getvibekits/vibe-coding-rules",
+    "stars": 0,
+    "updated_at": "2026-10-28T20:23:39Z",
+    "url": "https://github.com/getvibekits/vibe-coding-rules"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-28T20:00:41Z",
+    "updated_at": "2026-10-28T20:15:42Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -70,15 +88,6 @@
     "stars": 0,
     "updated_at": "2026-10-28T17:12:33Z",
     "url": "https://github.com/nandhu-44/secure-vibe-coding"
-  },
-  {
-    "description": "Architectural drift prevention for the agentic AI SDLC.",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 29,
-    "updated_at": "2026-10-28T20:05:25Z",
-    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "description": "Homebrew tap for LynxPrompt CLI",
@@ -466,7 +475,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21665,
+    "stars": 21664,
     "updated_at": "2026-10-27T14:39:44Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -514,14 +523,5 @@
     "stars": 11,
     "updated_at": "2026-10-27T02:41:21Z",
     "url": "https://github.com/Aaditya1273/Agent.md"
-  },
-  {
-    "description": "Tailwind CSS for Flutter. Utility classes like flex, p-4 and dark:bg-gray-800 compose into optimised widget trees. 27 W-",
-    "id": "fluttersdk/wind",
-    "language": "Dart",
-    "name": "fluttersdk/wind",
-    "stars": 43,
-    "updated_at": "2026-10-27T00:19:27Z",
-    "url": "https://github.com/fluttersdk/wind"
   }
 ]
