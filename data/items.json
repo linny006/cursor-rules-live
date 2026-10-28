@@ -1,11 +1,29 @@
 [
   {
+    "description": "Cursor-native config: a strict Plan Gate + Karpathy discipline rules, /plan /delta /prime-init commands, and a global gi",
+    "id": "xnoahwang/cursor-prime",
+    "language": "PowerShell",
+    "name": "xnoahwang/cursor-prime",
+    "stars": 0,
+    "updated_at": "2026-10-28T13:42:09Z",
+    "url": "https://github.com/xnoahwang/cursor-prime"
+  },
+  {
+    "description": "Homebrew tap for LynxPrompt CLI",
+    "id": "GeiserX/homebrew-lynxprompt",
+    "language": "Shell",
+    "name": "GeiserX/homebrew-lynxprompt",
+    "stars": 2,
+    "updated_at": "2026-10-28T13:36:38Z",
+    "url": "https://github.com/GeiserX/homebrew-lynxprompt"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-28T13:15:47Z",
+    "updated_at": "2026-10-28T13:30:33Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -52,15 +70,6 @@
     "stars": 52,
     "updated_at": "2026-10-28T12:02:15Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "description": "Homebrew tap for LynxPrompt CLI",
-    "id": "GeiserX/homebrew-lynxprompt",
-    "language": "Shell",
-    "name": "GeiserX/homebrew-lynxprompt",
-    "stars": 2,
-    "updated_at": "2026-10-28T11:59:57Z",
-    "url": "https://github.com/GeiserX/homebrew-lynxprompt"
   },
   {
     "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
@@ -519,14 +528,5 @@
     "stars": 115,
     "updated_at": "2026-10-26T21:54:12Z",
     "url": "https://github.com/roedyrustam/vibes-plug"
-  },
-  {
-    "description": "Free copy-paste AGENTS.md, CLAUDE.md and Cursor rules for 20 beginner vibe-coding project types",
-    "id": "getvibekits/vibe-coding-rules",
-    "language": "Shell",
-    "name": "getvibekits/vibe-coding-rules",
-    "stars": 0,
-    "updated_at": "2026-10-26T20:24:01Z",
-    "url": "https://github.com/getvibekits/vibe-coding-rules"
   }
 ]
