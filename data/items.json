@@ -1,12 +1,12 @@
 [
   {
-    "description": "A checkup for your coding agent setup. Lints AGENTS.md, CLAUDE.md, SKILL.md, Cursor rules, Copilot instructions, MCP ser",
-    "id": "mustafakbaser/agentcheckup",
-    "language": "TypeScript",
-    "name": "mustafakbaser/agentcheckup",
-    "stars": 0,
-    "updated_at": "2026-10-28T15:11:47Z",
-    "url": "https://github.com/mustafakbaser/agentcheckup"
+    "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
+    "id": "bompus/house-rules",
+    "language": "JavaScript",
+    "name": "bompus/house-rules",
+    "stars": 2,
+    "updated_at": "2026-10-28T15:25:57Z",
+    "url": "https://github.com/bompus/house-rules"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-28T15:00:46Z",
+    "updated_at": "2026-10-28T15:15:54Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "A checkup for your coding agent setup. Lints AGENTS.md, CLAUDE.md, SKILL.md, Cursor rules, Copilot instructions, MCP ser",
+    "id": "mustafakbaser/agentcheckup",
+    "language": "TypeScript",
+    "name": "mustafakbaser/agentcheckup",
+    "stars": 0,
+    "updated_at": "2026-10-28T15:11:47Z",
+    "url": "https://github.com/mustafakbaser/agentcheckup"
   },
   {
     "description": "Architectural drift prevention for the agentic AI SDLC.",
@@ -257,15 +266,6 @@
     "url": "https://github.com/aixisstudio/ai-coding-rules"
   },
   {
-    "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
-    "id": "bompus/house-rules",
-    "language": "JavaScript",
-    "name": "bompus/house-rules",
-    "stars": 2,
-    "updated_at": "2026-10-28T05:19:55Z",
-    "url": "https://github.com/bompus/house-rules"
-  },
-  {
     "description": "\u65e0\u5173\u7528\u6237\uff0c \u65e0\u5173\u7cfb\u7edf\uff0c \u65e0\u5173\u9879\u76ee\uff0c\u5f00\u7bb1\u590d\u5236\u5373\u7528\uff01 code faster, code better; ",
     "id": "wangqiqi/cursor-ai",
     "language": "Shell",
@@ -448,7 +448,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21660,
+    "stars": 21661,
     "updated_at": "2026-10-27T14:39:44Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
