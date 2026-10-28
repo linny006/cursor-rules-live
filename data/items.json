@@ -1,21 +1,21 @@
 [
   {
-    "description": "A checkup for your coding agent setup. Lints AGENTS.md, CLAUDE.md, SKILL.md, Cursor rules, Copilot instructions, MCP ser",
-    "id": "mustafakbaser/agentcheckup",
-    "language": "TypeScript",
-    "name": "mustafakbaser/agentcheckup",
-    "stars": 0,
-    "updated_at": "2026-10-28T19:43:17Z",
-    "url": "https://github.com/mustafakbaser/agentcheckup"
-  },
-  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-28T19:30:37Z",
+    "updated_at": "2026-10-28T19:45:34Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "A checkup for your coding agent setup. Lints AGENTS.md, CLAUDE.md, SKILL.md, Cursor rules, Copilot instructions, MCP ser",
+    "id": "mustafakbaser/agentcheckup",
+    "language": "TypeScript",
+    "name": "mustafakbaser/agentcheckup",
+    "stars": 0,
+    "updated_at": "2026-10-28T19:46:27Z",
+    "url": "https://github.com/mustafakbaser/agentcheckup"
   },
   {
     "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
@@ -77,7 +77,7 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 29,
-    "updated_at": "2026-10-28T19:40:59Z",
+    "updated_at": "2026-10-28T19:49:01Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
@@ -466,7 +466,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21664,
+    "stars": 21665,
     "updated_at": "2026-10-27T14:39:44Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
