@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-28 13:45 UTC
+> ⏰ Last updated: 2026-10-28 14:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,9 +53,9 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [xnoahwang/cursor-prime](https://github.com/xnoahwang/cursor-prime) | 0 | PowerShell | 2026-10-28 | — | Cursor-native config: a strict Plan Gate + Karpathy discipline rules, /plan /delta /prime-init commands, and a global gi |
-| 2 | [GeiserX/homebrew-lynxprompt](https://github.com/GeiserX/homebrew-lynxprompt) | 2 | Shell | 2026-10-28 | — | Homebrew tap for LynxPrompt CLI |
-| 3 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-28 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-28 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [xnoahwang/cursor-prime](https://github.com/xnoahwang/cursor-prime) | 0 | PowerShell | 2026-10-28 | — | Cursor-native config: a strict Plan Gate + Karpathy discipline rules, /plan /delta /prime-init commands, and a global gi |
+| 3 | [GeiserX/homebrew-lynxprompt](https://github.com/GeiserX/homebrew-lynxprompt) | 2 | Shell | 2026-10-28 | — | Homebrew tap for LynxPrompt CLI |
 | 4 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-10-28 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
 | 5 | [squadsquidcry/Cursor-Desktop-2026](https://github.com/squadsquidcry/Cursor-Desktop-2026) | 1 | — | 2026-10-28 | — | ⭐️ Cursor 2026 Ai Cursorpro Cursor Ai ⭐️ |
 | 6 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 29 | Python | 2026-10-28 | — | Architectural drift prevention for the agentic AI SDLC. |
@@ -97,7 +97,7 @@ expired items removed — so you can rely on what you see being current.
 | 42 | [digital-lake-ai/lognexus](https://github.com/digital-lake-ai/lognexus) | 5 | TypeScript | 2026-10-27 | — | Universal Git-powered persistent memory, context rules & native MCP server for AI coding agents. Prevents context amnesi |
 | 43 | [sayfer-io/pentest-readiness-checklist](https://github.com/sayfer-io/pentest-readiness-checklist) | 0 | — | 2026-10-27 | — | Engineering checklists for B2B SaaS penetration testing readiness: SOC 2, ISO 27001, DORA, AI Agent Security (LLM/RAG/MC |
 | 44 | [weekendshipkit/weekend-scope-guard](https://github.com/weekendshipkit/weekend-scope-guard) | 0 | — | 2026-10-27 | — | Two small Cursor rules that keep an AI agent on one job. Free, MIT. |
-| 45 | [mustafakbaser/agentcheckup](https://github.com/mustafakbaser/agentcheckup) | 0 | TypeScript | 2026-10-27 | — | A checkup for your coding agent setup. Lints AGENTS.md, CLAUDE.md, SKILL.md, Cursor rules, Copilot instructions, MCP ser |
+| 45 | [mustafakbaser/agentcheckup](https://github.com/mustafakbaser/agentcheckup) | 0 | TypeScript | 2026-10-28 | — | A checkup for your coding agent setup. Lints AGENTS.md, CLAUDE.md, SKILL.md, Cursor rules, Copilot instructions, MCP ser |
 | 46 | [fri3ndslab/my-human-has-adhd](https://github.com/fri3ndslab/my-human-has-adhd) | 0 | — | 2026-10-27 | — | An 18-line rules file for Claude Code, Codex and Cursor. Drop an idea mid-task and the agent parks it in PARK.md with th |
 | 47 | [karefined-eng/information-is-beautiful-skill](https://github.com/karefined-eng/information-is-beautiful-skill) | 2 | TypeScript | 2026-10-27 | — | Beautiful, honest data visualization as an Agent Skill — five laws, a chart matcher, a 25-point beauty audit. For Claude |
 | 48 | [Aaditya1273/Agent.md](https://github.com/Aaditya1273/Agent.md) | 11 | — | 2026-10-27 | — | Your AI coding agent follows these files blindly, before it reads a line of your code. |
