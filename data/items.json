@@ -1,5 +1,23 @@
 [
   {
+    "description": "Homebrew tap for LynxPrompt CLI",
+    "id": "GeiserX/homebrew-lynxprompt",
+    "language": "Shell",
+    "name": "GeiserX/homebrew-lynxprompt",
+    "stars": 2,
+    "updated_at": "2026-10-28T04:00:01Z",
+    "url": "https://github.com/GeiserX/homebrew-lynxprompt"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-28T03:45:49Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
     "id": "SupremeSupport/Cursor-Desktop-2026",
     "language": "\u2014",
@@ -16,15 +34,6 @@
     "stars": 582,
     "updated_at": "2026-10-28T03:34:56Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-28T03:30:34Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "AI prompts, CLAUDE.md/AGENTS.md templates, Cursor rules, Agent Skills and MCP servers from commandvault.ai, synced daily",
@@ -489,19 +498,5 @@
     "stars": 1,
     "updated_at": "2026-10-26T11:00:10Z",
     "url": "https://github.com/orbitalsonic/AndroidPilot"
-  },
-  {
-    "cursorrules": {
-      "content": "# UX Review & Persona Walkthrough Rules (ISO 9241 / CPUX)\n\nWhen asked to review UX, improve usability, create/save personas, design a user flow, write usability test tasks, or build/refactor a UI component (`*.html`, `*.twig`, `*.vue`, `*.tsx`, `*.jsx`, `*.svelte`, `*View.java`):\n\n1. **Persona Discovery, Persistence & Cognitive Walkthrough (Route A \u2014 Existing UI):**\n   Check if `docs/ux/personas.md` exists in the repository and reuse those project personas. Otherwise, define 1 Primary Persona (task-focused, realistic context constraints like mobile use, glare, gloves, or time pressure) and 1 Edge-Case / Accessibility Persona (keyboard-only `Tab`/`Enter`/`Esc`, screen-reader, or 200% zoom) and trace their step-by-step path through the interface. When asked to create or save personas for project-wide reuse, persist them in `docs/ux/personas.md`.\n\n2. **5-State Completeness Check:**\n   Never ship Happy-Path-only UI. Verify and implement all 5 states:\n   - `Empty State`: Motivating explanation why it is empty + direct primary Call-to-Action (CTA).\n   - `Loading State`: `aria-busy=\"true\"` on container, disabled submit trigger to prevent double-submits, layout-stable skeleton/spinner.\n   - `Error / Offline State`: **Preserve all valid user input!** Never call `form.reset()` on validation error. Provide inline field recovery via `aria-invalid=\"true\"` and `aria-describedby`, plus `role=\"alert\"` summary.\n   - `Partial / Overflow State`: Handle long German compound words (`break-words`/`hyphens: auto`), large lists, and missing optional data gracefully.\n   - `Success State`: Clear feedback (`role=\"status\"`, `aria-live=\"polite\"`) + inline **Undo** or explicit verb-based confirmation dialog (`\"Mitglied l\u00f6schen\"` vs. `\"Abbrechen\"`, never `\"OK/Cancel\"`) for destructive actions.\n\n3. **ISO 9241-110:2020 Interaction Principles:**\n   - *Aufgabenangemessenheit (Suitability for the user's tasks):* Smart defaults/presets for the 80% case, `autocomplete`, `inputmode=\"numeric|tel\"`.\n   - *Selbstbeschreibungsf\u00e4higkeit (Self-descriptiveness):* Persistent `<label for=\"...\">` (never placeholder-only inputs), visible format hints linked via `aria-describedby`.\n   - *Erwartungskonformit\u00e4t (Conformity with user expectations):* Semantic `<button type=\"button|submit\">` instead of `<div onClick>`, native `<dialog>`, logical `Tab` focus order.\n   - *Erlernbarkeit (Learnability):* Progressive disclosure for advanced settings.\n   - *Steuerbarkeit (Controllability):* Back-navigation without data loss, respect `@media (prefers-reduced-motion: reduce)`, use scalable `rem` units.\n   - *Robuste Verwendung (Use error robustness):* Forgiving input parsers that strip spaces/formatting automatically (e.g., `.replace(/\\s+/g, '')` on IBANs/phone numbers), plausibility limits, and destructive action guardrails.\n   - *Benutzerbindung (User engagement):* Trustworthy micro-copy, zero dark patterns, motivating empty states.\n\n4. **New Feature Conception \u2014 Problem vs. Solution Space (Route B \u2014 ISO 9241-210):**\n   Structure new feature concepts into 4 strictly separated sections:\n   - **1. Context of Use, Persona & As-Is Scenario (*Nutzungskontext, Persona & Ist-Szenario*)**\n   - **2. User Needs (*Erfordernisse* \u2014 Problem Space):** Format as `\"Als [Persona] ben\u00f6tige ich [Voraussetzung], um [Ziel zu erreichen].\"` Never mention concrete UI widgets (\"dropdown\", \"modal\", \"button\") in this section!\n   - **3. User Requirements (*Nutzungsanforderungen*):** Qualitative requirements + measurable ISO 9241-11 Quantitative targets (Effectiveness, Efficiency, Satisfaction).\n   - **4. To-Be Walkthrough (*Soll-Szenario*) & Interaction Concept:** Concrete UI architecture, physical ergonomics, and all 5 UI states.\n\n5. **Non-Leading Usability Test Tasks (Route C \u2014 CPUX Evaluation):**\n   When writing tasks for usability test participants, embed them in a realistic scenario with concrete data and a verifiable end state, and **never quote literal UI labels** (menu items or button names) in the participant task text.\n",
-      "format": "text",
-      "path": ".cursorrules"
-    },
-    "description": "Task-driven UX review, Persona Walkthrough, and ISO 9241 / UXQB (CPUX) engineering skills for AI coding agents.",
-    "id": "SirLocke/cpux-agent-skills",
-    "language": "JavaScript",
-    "name": "SirLocke/cpux-agent-skills",
-    "stars": 0,
-    "updated_at": "2026-10-26T10:32:31Z",
-    "url": "https://github.com/SirLocke/cpux-agent-skills"
   }
 ]
