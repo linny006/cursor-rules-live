@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-28 21:45 UTC
+> ⏰ Last updated: 2026-10-28 22:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,11 +53,11 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 52 | — | 2026-10-28 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
+| 1 | [bompus/house-rules](https://github.com/bompus/house-rules) | 2 | JavaScript | 2026-10-28 | — | Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md |
 | 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-28 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
-| 3 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-28 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
-| 4 | [GeiserX/lynxprompt-mcp](https://github.com/GeiserX/lynxprompt-mcp) | 2 | Go | 2026-10-28 | — | MCP Server for LynxPrompt — browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP |
-| 5 | [bompus/house-rules](https://github.com/bompus/house-rules) | 2 | JavaScript | 2026-10-28 | — | Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md |
+| 3 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 52 | — | 2026-10-28 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
+| 4 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-28 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
+| 5 | [GeiserX/lynxprompt-mcp](https://github.com/GeiserX/lynxprompt-mcp) | 2 | Go | 2026-10-28 | — | MCP Server for LynxPrompt — browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP |
 | 6 | [ajhcs/healthcare-agents](https://github.com/ajhcs/healthcare-agents) | 53 | JavaScript | 2026-10-28 | — | Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows. |
 | 7 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 29 | Python | 2026-10-28 | — | Architectural drift prevention for the agentic AI SDLC. |
 | 8 | [getvibekits/vibe-coding-rules](https://github.com/getvibekits/vibe-coding-rules) | 0 | Shell | 2026-10-28 | — | Free copy-paste AGENTS.md, CLAUDE.md and Cursor rules for 20 beginner vibe-coding project types |

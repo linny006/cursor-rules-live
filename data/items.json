@@ -1,12 +1,12 @@
 [
   {
-    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
-    "id": "J-nowcow/awesome-korean-agent-skills",
-    "language": "\u2014",
-    "name": "J-nowcow/awesome-korean-agent-skills",
-    "stars": 52,
-    "updated_at": "2026-10-28T21:31:57Z",
-    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+    "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
+    "id": "bompus/house-rules",
+    "language": "JavaScript",
+    "name": "bompus/house-rules",
+    "stars": 2,
+    "updated_at": "2026-10-28T21:49:39Z",
+    "url": "https://github.com/bompus/house-rules"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-28T21:30:33Z",
+    "updated_at": "2026-10-28T21:45:39Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
+    "id": "J-nowcow/awesome-korean-agent-skills",
+    "language": "\u2014",
+    "name": "J-nowcow/awesome-korean-agent-skills",
+    "stars": 52,
+    "updated_at": "2026-10-28T21:31:57Z",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
   },
   {
     "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
@@ -36,15 +45,6 @@
     "url": "https://github.com/GeiserX/lynxprompt-mcp"
   },
   {
-    "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
-    "id": "bompus/house-rules",
-    "language": "JavaScript",
-    "name": "bompus/house-rules",
-    "stars": 2,
-    "updated_at": "2026-10-28T21:40:53Z",
-    "url": "https://github.com/bompus/house-rules"
-  },
-  {
     "description": "Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows.",
     "id": "ajhcs/healthcare-agents",
     "language": "JavaScript",
@@ -59,7 +59,7 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 29,
-    "updated_at": "2026-10-28T21:22:32Z",
+    "updated_at": "2026-10-28T21:47:22Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
