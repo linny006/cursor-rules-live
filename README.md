@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-28 09:30 UTC
+> ⏰ Last updated: 2026-10-28 09:45 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,8 +53,8 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [GeiserX/homebrew-lynxprompt](https://github.com/GeiserX/homebrew-lynxprompt) | 2 | Shell | 2026-10-28 | — | Homebrew tap for LynxPrompt CLI |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-28 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-28 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [GeiserX/homebrew-lynxprompt](https://github.com/GeiserX/homebrew-lynxprompt) | 2 | Shell | 2026-10-28 | — | Homebrew tap for LynxPrompt CLI |
 | 3 | [uniqaiapp/video-director](https://github.com/uniqaiapp/video-director) | 0 | Python | 2026-10-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/uniqaiapp/video-director/) | AI video prompt director for Kling 3.0, Veo 3, Wan, Runway and Seedance: turns a one-line idea into a shot list with cam |
 | 4 | [uniqaiapp/ugc-ad-director](https://github.com/uniqaiapp/ugc-ad-director) | 0 | Python | 2026-10-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/uniqaiapp/ugc-ad-director/) | UGC ad director: turns a product URL or brief into TikTok/Reels-style ad scripts (hook, problem, demo, CTA), shot lists  |
 | 5 | [uniqaiapp/token-diet](https://github.com/uniqaiapp/token-diet) | 0 | Python | 2026-10-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/uniqaiapp/token-diet/) | Token diet for LLM apps and coding agents: measure where input tokens go (system prompt, history, tool output, RAG), the |
