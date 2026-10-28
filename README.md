@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-28 08:00 UTC
+> ⏰ Last updated: 2026-10-28 08:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,17 +53,17 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [GeiserX/homebrew-lynxprompt](https://github.com/GeiserX/homebrew-lynxprompt) | 2 | Shell | 2026-10-28 | — | Homebrew tap for LynxPrompt CLI |
-| 2 | [uniqaiapp/video-director](https://github.com/uniqaiapp/video-director) | 0 | Python | 2026-10-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/uniqaiapp/video-director/) | AI video prompt director for Kling 3.0, Veo 3, Wan, Runway and Seedance: turns a one-line idea into a shot list with cam |
-| 3 | [uniqaiapp/ugc-ad-director](https://github.com/uniqaiapp/ugc-ad-director) | 0 | Python | 2026-10-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/uniqaiapp/ugc-ad-director/) | UGC ad director: turns a product URL or brief into TikTok/Reels-style ad scripts (hook, problem, demo, CTA), shot lists  |
-| 4 | [uniqaiapp/token-diet](https://github.com/uniqaiapp/token-diet) | 0 | Python | 2026-10-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/uniqaiapp/token-diet/) | Token diet for LLM apps and coding agents: measure where input tokens go (system prompt, history, tool output, RAG), the |
-| 5 | [uniqaiapp/suno-producer](https://github.com/uniqaiapp/suno-producer) | 0 | Python | 2026-10-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/uniqaiapp/suno-producer/) | Suno producer skill: write style prompts, meta-tags and lyric structure ([Verse], [Chorus], [Bridge]) for Suno v4.5+ by  |
-| 6 | [uniqaiapp/skill-shrinker](https://github.com/uniqaiapp/skill-shrinker) | 0 | Python | 2026-10-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/uniqaiapp/skill-shrinker/) | Skill shrinker: compresses SKILL.md, AGENTS.md, CLAUDE.md and .cursor/rules files so agents load fewer tokens per turn.  |
-| 7 | [uniqaiapp/no-plastic](https://github.com/uniqaiapp/no-plastic) | 0 | Python | 2026-10-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/uniqaiapp/no-plastic/) | Fix plastic skin in AI photos: prompt and negative-prompt patterns for realistic skin texture, pores, film grain and une |
-| 8 | [uniqaiapp/model-router](https://github.com/uniqaiapp/model-router) | 0 | JavaScript | 2026-10-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/uniqaiapp/model-router/) | LLM model router rules: a task-to-model decision table (fast / smart / premium tiers) for GPT-5, Claude, Gemini and Grok |
-| 9 | [uniqaiapp/deslop-ru](https://github.com/uniqaiapp/deslop-ru) | 0 | Python | 2026-10-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/uniqaiapp/deslop-ru/) | Russian AI-slop remover: detects and rewrites ChatGPT/Claude/Gemini patterns in Russian text (канцелярит, «в современном |
-| 10 | [SupremeSupport/Cursor-Desktop-2026](https://github.com/SupremeSupport/Cursor-Desktop-2026) | 1 | — | 2026-10-28 | — | ⭐️ Cursor 2026 Ai Cursorpro Cursor Ai ⭐️ |
-| 11 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-28 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-28 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [GeiserX/homebrew-lynxprompt](https://github.com/GeiserX/homebrew-lynxprompt) | 2 | Shell | 2026-10-28 | — | Homebrew tap for LynxPrompt CLI |
+| 3 | [uniqaiapp/video-director](https://github.com/uniqaiapp/video-director) | 0 | Python | 2026-10-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/uniqaiapp/video-director/) | AI video prompt director for Kling 3.0, Veo 3, Wan, Runway and Seedance: turns a one-line idea into a shot list with cam |
+| 4 | [uniqaiapp/ugc-ad-director](https://github.com/uniqaiapp/ugc-ad-director) | 0 | Python | 2026-10-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/uniqaiapp/ugc-ad-director/) | UGC ad director: turns a product URL or brief into TikTok/Reels-style ad scripts (hook, problem, demo, CTA), shot lists  |
+| 5 | [uniqaiapp/token-diet](https://github.com/uniqaiapp/token-diet) | 0 | Python | 2026-10-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/uniqaiapp/token-diet/) | Token diet for LLM apps and coding agents: measure where input tokens go (system prompt, history, tool output, RAG), the |
+| 6 | [uniqaiapp/suno-producer](https://github.com/uniqaiapp/suno-producer) | 0 | Python | 2026-10-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/uniqaiapp/suno-producer/) | Suno producer skill: write style prompts, meta-tags and lyric structure ([Verse], [Chorus], [Bridge]) for Suno v4.5+ by  |
+| 7 | [uniqaiapp/skill-shrinker](https://github.com/uniqaiapp/skill-shrinker) | 0 | Python | 2026-10-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/uniqaiapp/skill-shrinker/) | Skill shrinker: compresses SKILL.md, AGENTS.md, CLAUDE.md and .cursor/rules files so agents load fewer tokens per turn.  |
+| 8 | [uniqaiapp/no-plastic](https://github.com/uniqaiapp/no-plastic) | 0 | Python | 2026-10-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/uniqaiapp/no-plastic/) | Fix plastic skin in AI photos: prompt and negative-prompt patterns for realistic skin texture, pores, film grain and une |
+| 9 | [uniqaiapp/model-router](https://github.com/uniqaiapp/model-router) | 0 | JavaScript | 2026-10-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/uniqaiapp/model-router/) | LLM model router rules: a task-to-model decision table (fast / smart / premium tiers) for GPT-5, Claude, Gemini and Grok |
+| 10 | [uniqaiapp/deslop-ru](https://github.com/uniqaiapp/deslop-ru) | 0 | Python | 2026-10-28 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/uniqaiapp/deslop-ru/) | Russian AI-slop remover: detects and rewrites ChatGPT/Claude/Gemini patterns in Russian text (канцелярит, «в современном |
+| 11 | [SupremeSupport/Cursor-Desktop-2026](https://github.com/SupremeSupport/Cursor-Desktop-2026) | 1 | — | 2026-10-28 | — | ⭐️ Cursor 2026 Ai Cursorpro Cursor Ai ⭐️ |
 | 12 | [aixisstudio/ai-coding-rules](https://github.com/aixisstudio/ai-coding-rules) | 2 | — | 2026-10-28 | — | LLM benchmarks & evaluation tools — measure what matters |
 | 13 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-10-28 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
 | 14 | [bompus/house-rules](https://github.com/bompus/house-rules) | 2 | JavaScript | 2026-10-28 | — | Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md |
