@@ -1,11 +1,29 @@
 [
   {
+    "description": "Architectural drift prevention for the agentic AI SDLC.",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 29,
+    "updated_at": "2026-10-28T10:14:25Z",
+    "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
+    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
+    "id": "edsondviana8/ai-humanizer-core",
+    "language": "HTML",
+    "name": "edsondviana8/ai-humanizer-core",
+    "stars": 1,
+    "updated_at": "2026-10-28T10:09:09Z",
+    "url": "https://github.com/edsondviana8/ai-humanizer-core"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-28T09:45:48Z",
+    "updated_at": "2026-10-28T10:00:36Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -234,15 +252,6 @@
     "url": "https://github.com/GeiserX/lynxprompt-mcp"
   },
   {
-    "description": "Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clich\u00e9s",
-    "id": "edsondviana8/ai-humanizer-core",
-    "language": "HTML",
-    "name": "edsondviana8/ai-humanizer-core",
-    "stars": 1,
-    "updated_at": "2026-10-28T03:06:33Z",
-    "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
     "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 plus AIOS, an open-source markdown memory system for coding ",
     "id": "sublimecoder/sublimecoding",
     "language": "\u2014",
@@ -259,15 +268,6 @@
     "stars": 0,
     "updated_at": "2026-10-28T02:46:58Z",
     "url": "https://github.com/okfriansyah-moh/agentic-workflow"
-  },
-  {
-    "description": "Architectural drift prevention for the agentic AI SDLC.",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 29,
-    "updated_at": "2026-10-28T01:17:01Z",
-    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "description": "Rules and skills for coding agents: AI Skill Studio (CLAUDE.md, AGENTS.md, Cursor rules, SKILL.md generator), Skill Libr",
