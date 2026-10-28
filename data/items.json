@@ -1,21 +1,142 @@
 [
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-28T07:30:48Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "Homebrew tap for LynxPrompt CLI",
     "id": "GeiserX/homebrew-lynxprompt",
     "language": "Shell",
     "name": "GeiserX/homebrew-lynxprompt",
     "stars": 2,
-    "updated_at": "2026-10-28T06:50:04Z",
+    "updated_at": "2026-10-28T07:59:29Z",
     "url": "https://github.com/GeiserX/homebrew-lynxprompt"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Turns a video idea into a second-by-second storyboard and renders it as a prompt for Kling 3.0, Veo 3, Wan 2.5, Seedance or Runway, with camera, lens, light, motion physics, sound and a negative list. Use when the user asks for an AI video prompt, a storyboard or a shot list.\nglobs:\nalwaysApply: false\n---\n\n@SKILL.md\n",
+      "format": "mdc",
+      "path": ".cursor/rules/video-director.mdc"
+    },
+    "description": "AI video prompt director for Kling 3.0, Veo 3, Wan, Runway and Seedance: turns a one-line idea into a shot list with cam",
+    "id": "uniqaiapp/video-director",
+    "language": "Python",
+    "name": "uniqaiapp/video-director",
+    "stars": 0,
+    "updated_at": "2026-10-28T07:59:22Z",
+    "url": "https://github.com/uniqaiapp/video-director"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Writes and lints UGC-style short ad scripts for TikTok, Reels and Shorts (2-second hook, problem \u2192 demo \u2192 proof \u2192 CTA, shot list, captions, voiceover, Kling / Veo 3 prompts) with compliance checks for AI disclosure, fake testimonials and unbacked claims. Use when the user asks for a UGC ad, TikTok ad script, hooks, shot list or ad prompts.\nglobs:\nalwaysApply: false\n---\n\n@SKILL.md\n",
+      "format": "mdc",
+      "path": ".cursor/rules/ugc-ad-director.mdc"
+    },
+    "description": "UGC ad director: turns a product URL or brief into TikTok/Reels-style ad scripts (hook, problem, demo, CTA), shot lists ",
+    "id": "uniqaiapp/ugc-ad-director",
+    "language": "Python",
+    "name": "uniqaiapp/ugc-ad-director",
+    "stars": 0,
+    "updated_at": "2026-10-28T07:59:20Z",
+    "url": "https://github.com/uniqaiapp/ugc-ad-director"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Cut LLM token spend for non-English prompts. Rewrites a prompt into compact English with a cheap model, keeps code, paths and identifiers verbatim, answers in the user's language, and measures before/after. Use when the user asks to reduce token costs, compress a prompt, or writes \"\u0441\u043e\u043a\u0440\u0430\u0442\u0438 \u043f\u0440\u043e\u043c\u043f\u0442\" / \"\u044d\u043a\u043e\u043d\u043e\u043c\u0438\u044f \u0442\u043e\u043a\u0435\u043d\u043e\u0432\".\nglobs:\nalwaysApply: false\n---\n\n@SKILL.md\n",
+      "format": "mdc",
+      "path": ".cursor/rules/token-diet.mdc"
+    },
+    "description": "Token diet for LLM apps and coding agents: measure where input tokens go (system prompt, history, tool output, RAG), the",
+    "id": "uniqaiapp/token-diet",
+    "language": "Python",
+    "name": "uniqaiapp/token-diet",
+    "stars": 0,
+    "updated_at": "2026-10-28T07:59:18Z",
+    "url": "https://github.com/uniqaiapp/token-diet"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Writes Suno-ready song briefs (style prompt, section tags, even-length lyrics, one-axis A/B variants) and checks them with a syllable/rhyme meter and a tag lint, in English and Russian. Use for any Suno prompt, Suno tags, song structure or lyrics-for-Suno request.\nglobs:\nalwaysApply: false\n---\n\n@SKILL.md\n",
+      "format": "mdc",
+      "path": ".cursor/rules/suno-producer.mdc"
+    },
+    "description": "Suno producer skill: write style prompts, meta-tags and lyric structure ([Verse], [Chorus], [Bridge]) for Suno v4.5+ by ",
+    "id": "uniqaiapp/suno-producer",
+    "language": "Python",
+    "name": "uniqaiapp/suno-producer",
+    "stars": 0,
+    "updated_at": "2026-10-28T07:59:16Z",
+    "url": "https://github.com/uniqaiapp/suno-producer"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Shrinks CLAUDE.md, AGENTS.md, SKILL.md and .cursor/rules files so they cost fewer tokens per turn without losing an instruction. Use when an instruction file or system prompt is too long, or the user asks to shrink, shorten, compress, trim, dedupe or audit one.\nglobs:\nalwaysApply: false\n---\n\n@SKILL.md\n",
+      "format": "mdc",
+      "path": ".cursor/rules/skill-shrinker.mdc"
+    },
+    "description": "Skill shrinker: compresses SKILL.md, AGENTS.md, CLAUDE.md and .cursor/rules files so agents load fewer tokens per turn. ",
+    "id": "uniqaiapp/skill-shrinker",
+    "language": "Python",
+    "name": "uniqaiapp/skill-shrinker",
+    "stars": 0,
+    "updated_at": "2026-10-28T07:59:14Z",
+    "url": "https://github.com/uniqaiapp/skill-shrinker"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Rewrite image-generation prompts into photographic briefs that avoid the plastic AI look, and lint prompts against the anti-plastic checklist. Use when the user asks for a portrait, headshot, product or lifestyle image prompt, says a result looks fake, waxy or too smooth, or writes an edit prompt that must keep the person and framing.\nglobs:\nalwaysApply: false\n---\n\n@SKILL.md\n",
+      "format": "mdc",
+      "path": ".cursor/rules/no-plastic.mdc"
+    },
+    "description": "Fix plastic skin in AI photos: prompt and negative-prompt patterns for realistic skin texture, pores, film grain and une",
+    "id": "uniqaiapp/no-plastic",
+    "language": "Python",
+    "name": "uniqaiapp/no-plastic",
+    "stars": 0,
+    "updated_at": "2026-10-28T07:59:12Z",
+    "url": "https://github.com/uniqaiapp/no-plastic"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Routes an LLM task to the cheapest model tier that can do it (fast / smart / premium), recommends a model per provider and estimates cost from a dated, sourced price table. Use when the user asks which model to use, what a prompt will cost, or how to cut LLM spend.\nglobs:\nalwaysApply: false\n---\n\n@SKILL.md\n",
+      "format": "mdc",
+      "path": ".cursor/rules/model-router.mdc"
+    },
+    "description": "LLM model router rules: a task-to-model decision table (fast / smart / premium tiers) for GPT-5, Claude, Gemini and Grok",
+    "id": "uniqaiapp/model-router",
+    "language": "JavaScript",
+    "name": "uniqaiapp/model-router",
+    "stars": 0,
+    "updated_at": "2026-10-28T07:59:10Z",
+    "url": "https://github.com/uniqaiapp/model-router"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Remove AI-writing patterns (\u0418\u0418-\u0448\u0442\u0430\u043c\u043f\u044b) from Russian or English text, rewriting in the author's voice; use when the user asks to clean, humanize or audit a draft that sounds generated, or says \u0443\u0431\u0440\u0430\u0442\u044c \u0418\u0418-\u0448\u0442\u0430\u043c\u043f\u044b / \u043e\u0447\u0435\u043b\u043e\u0432\u0435\u0447\u0438\u0442\u044c \u0442\u0435\u043a\u0441\u0442.\nglobs:\nalwaysApply: false\n---\n\n@SKILL.md\n",
+      "format": "mdc",
+      "path": ".cursor/rules/deslop-ru.mdc"
+    },
+    "description": "Russian AI-slop remover: detects and rewrites ChatGPT/Claude/Gemini patterns in Russian text (\u043a\u0430\u043d\u0446\u0435\u043b\u044f\u0440\u0438\u0442, \u00ab\u0432 \u0441\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u043e\u043c",
+    "id": "uniqaiapp/deslop-ru",
+    "language": "Python",
+    "name": "uniqaiapp/deslop-ru",
+    "stars": 0,
+    "updated_at": "2026-10-28T07:59:08Z",
+    "url": "https://github.com/uniqaiapp/deslop-ru"
+  },
+  {
+    "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
+    "id": "SupremeSupport/Cursor-Desktop-2026",
+    "language": "\u2014",
+    "name": "SupremeSupport/Cursor-Desktop-2026",
+    "stars": 1,
+    "updated_at": "2026-10-28T07:58:20Z",
+    "url": "https://github.com/SupremeSupport/Cursor-Desktop-2026"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-28T07:45:44Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "LLM benchmarks & evaluation tools \u2014 measure what matters",
@@ -84,15 +205,6 @@
     "stars": 26,
     "updated_at": "2026-10-28T04:24:07Z",
     "url": "https://github.com/heymegabyte/agent-skills"
-  },
-  {
-    "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
-    "id": "SupremeSupport/Cursor-Desktop-2026",
-    "language": "\u2014",
-    "name": "SupremeSupport/Cursor-Desktop-2026",
-    "stars": 1,
-    "updated_at": "2026-10-28T03:44:57Z",
-    "url": "https://github.com/SupremeSupport/Cursor-Desktop-2026"
   },
   {
     "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol",
@@ -416,82 +528,5 @@
     "stars": 0,
     "updated_at": "2026-10-26T20:24:01Z",
     "url": "https://github.com/getvibekits/vibe-coding-rules"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Core working agreement for the AI agent on every task\nalwaysApply: true\n---\n\n# How to work in this repo\n\n## Before coding\n- Read the files you will change and their nearest tests before editing. Never guess an API that exists in the repo; search for it.\n- Check `package.json` / `pyproject.toml` / lockfiles for real framework versions and write code for THOSE versions.\n- For anything non-trivial (>1 file or >50 lines), state a short plan first: files to touch, approach, how you'll verify.\n- If requirements are ambiguous, ask one focused question instead of inventing behaviour.\n\n## While coding\n- Make the smallest change that solves the task. No drive-by refactors, renames or formatting of unrelated code.\n- Follow existing patterns in the codebase (naming, folder layout, error handling) over your own preferences.\n- Do not add a dependency without saying why and checking an existing one can't do it.\n- Never hardcode secrets, API keys or tokens. Use env vars and update `.env.example`.\n- Never silence errors (`catch {}`, `# type: ignore`, `as any`, `@ts-ignore`) to make something \"work\". Fix the cause or flag it.\n- Do not delete or weaken tests to make them pass.\n\n## After coding\n- Run the project's typecheck, lint and relevant tests; fix what you broke. If you couldn't run them, say so.\n- Summarise: what changed, why, how it was verified, and anything left undone or risky.\n\n## Never without explicit approval\n- Destructive commands (`rm -rf`, `git push --force`, `git reset --hard`, dropping tables, DB resets).\n- Editing generated files, lockfiles by hand, CI config, or migrations that already ran.\n",
-      "format": "mdc",
-      "path": ".cursor/rules/00-general.mdc"
-    },
-    "description": "Free Cursor rules (.mdc), AGENTS.md & CLAUDE.md templates and prompts for AI coding agents: Next.js + Supabase, Godot 4.",
-    "id": "grizzlykiwidev/grizzlykiwidev.github.io",
-    "language": "\u2014",
-    "name": "grizzlykiwidev/grizzlykiwidev.github.io",
-    "stars": 0,
-    "updated_at": "2026-10-26T18:21:28Z",
-    "url": "https://github.com/grizzlykiwidev/grizzlykiwidev.github.io"
-  },
-  {
-    "description": "\u6bd5\u4e1a\u8bbe\u8ba1\u6587\u6863 AI \u6280\u80fd\u5305\uff1a\u5f00\u9898\u62a5\u544a/\u9700\u6c42\u5206\u6790/\u7cfb\u7edf\u8bbe\u8ba1/GB-T 7714 \u8bba\u6587\u89c4\u8303/\u6d4b\u8bd5/\u7b54\u8fa9\uff0c\u4e00\u952e\u88c5\u8fdb Claude Code\u00b7Cursor\u00b7Trae\u00b7Codex\uff0c\u4e0d\u7f16\u9020\u6587\u732e\u4e0e\u6d4b\u8bd5\u6570\u636e",
-    "id": "MsNan/bishe-doc-skills",
-    "language": "JavaScript",
-    "name": "MsNan/bishe-doc-skills",
-    "stars": 0,
-    "updated_at": "2026-10-26T17:02:43Z",
-    "url": "https://github.com/MsNan/bishe-doc-skills"
-  },
-  {
-    "description": "Goal-driven mode for AI coding agents. Reach the user's win condition in the fewest moves.",
-    "id": "rover-001/checkmate",
-    "language": "JavaScript",
-    "name": "rover-001/checkmate",
-    "stars": 9,
-    "updated_at": "2026-10-26T16:21:37Z",
-    "url": "https://github.com/rover-001/checkmate"
-  },
-  {
-    "description": "Reusable Cursor AI rules: automatic prompt-grammar feedback after every reply.",
-    "id": "theshaonsaleh/cursor-rules",
-    "language": "\u2014",
-    "name": "theshaonsaleh/cursor-rules",
-    "stars": 0,
-    "updated_at": "2026-10-26T16:02:08Z",
-    "url": "https://github.com/theshaonsaleh/cursor-rules"
-  },
-  {
-    "description": "Agent skills CLI: init AGENTS.md, install SKILL.md from any GitHub repo for Cursor, Claude Code, Copilot, Windsurf, Code",
-    "id": "vorlaxen-labs/agent-skills",
-    "language": "TypeScript",
-    "name": "vorlaxen-labs/agent-skills",
-    "stars": 7,
-    "updated_at": "2026-10-26T14:58:42Z",
-    "url": "https://github.com/vorlaxen-labs/agent-skills"
-  },
-  {
-    "description": "Lint your AI instruction files the way each agent reads them \u2014 CLAUDE.md, AGENTS.md, .cursor/rules, GEMINI.md \u2014 and see ",
-    "id": "blackberrylabs/linstruct",
-    "language": "Rust",
-    "name": "blackberrylabs/linstruct",
-    "stars": 0,
-    "updated_at": "2026-10-26T14:50:13Z",
-    "url": "https://github.com/blackberrylabs/linstruct"
-  },
-  {
-    "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
-    "id": "KbWen/agentic-os",
-    "language": "Python",
-    "name": "KbWen/agentic-os",
-    "stars": 222,
-    "updated_at": "2026-10-26T14:35:27Z",
-    "url": "https://github.com/KbWen/agentic-os"
-  },
-  {
-    "description": "404\u4f53\u306e\u5373\u6226\u529bAI\u5c02\u9580\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u96c6 \u2014 Claude Code / Cursor / Copilot \u7b49\u306b\u5bfe\u5fdc\u3002\u65e5\u672c\u5e02\u5834\u5411\u3051\u30aa\u30ea\u30b8\u30ca\u30eb125\u4f53\uff08SIer\u30fb\u53d7\u8a17\u958b\u767a\u30fbSaaS\u30fb\u88fd\u9020DX\u30fb\u516c\u5171\u5206\u91ce\uff09\u3002agency-agents\u306e\u65e5\u672c\u8a9e\u30b3\u30df\u30e5",
-    "id": "sscodeai/agency-agents-ja",
-    "language": "Shell",
-    "name": "sscodeai/agency-agents-ja",
-    "stars": 10,
-    "updated_at": "2026-10-26T13:18:27Z",
-    "url": "https://github.com/sscodeai/agency-agents-ja"
   }
 ]
