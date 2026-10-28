@@ -1,11 +1,29 @@
 [
   {
+    "description": "Portable software delivery workflow for Codex, Cursor, Claude Code, and GitHub Copilot, with reusable skills, native age",
+    "id": "okfriansyah-moh/agentic-workflow",
+    "language": "Python",
+    "name": "okfriansyah-moh/agentic-workflow",
+    "stars": 0,
+    "updated_at": "2026-10-28T01:24:37Z",
+    "url": "https://github.com/okfriansyah-moh/agentic-workflow"
+  },
+  {
+    "description": "Architectural drift prevention for the agentic AI SDLC.",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 29,
+    "updated_at": "2026-10-28T01:17:01Z",
+    "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-28T01:01:00Z",
+    "updated_at": "2026-10-28T01:15:33Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -25,15 +43,6 @@
     "stars": 3,
     "updated_at": "2026-10-27T23:49:38Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "Architectural drift prevention for the agentic AI SDLC.",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 29,
-    "updated_at": "2026-10-28T00:45:01Z",
-    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -227,7 +236,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21636,
+    "stars": 21637,
     "updated_at": "2026-10-27T14:39:44Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
@@ -494,14 +503,5 @@
     "stars": 0,
     "updated_at": "2026-10-26T10:32:31Z",
     "url": "https://github.com/SirLocke/cpux-agent-skills"
-  },
-  {
-    "description": "Integration guides written for agents and developers. Not marketing. Not tutorials. Reference material.",
-    "id": "ramoira/docs",
-    "language": "\u2014",
-    "name": "ramoira/docs",
-    "stars": 1,
-    "updated_at": "2026-10-26T10:19:22Z",
-    "url": "https://github.com/ramoira/docs"
   }
 ]
