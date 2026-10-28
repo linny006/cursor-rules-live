@@ -1,5 +1,23 @@
 [
   {
+    "description": "AI prompts, CLAUDE.md/AGENTS.md templates, Cursor rules, Agent Skills and MCP servers from commandvault.ai, synced daily",
+    "id": "geronco/commandvault-library",
+    "language": "JavaScript",
+    "name": "geronco/commandvault-library",
+    "stars": 0,
+    "updated_at": "2026-10-28T03:24:30Z",
+    "url": "https://github.com/geronco/commandvault-library"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-28T03:15:42Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "MCP Server for LynxPrompt \u2014 browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP",
     "id": "GeiserX/lynxprompt-mcp",
     "language": "Go",
@@ -16,15 +34,6 @@
     "stars": 1,
     "updated_at": "2026-10-28T03:06:33Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-28T03:00:44Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 plus AIOS, an open-source markdown memory system for coding ",
@@ -296,7 +305,7 @@
     "language": "TypeScript",
     "name": "HoangNguyen0403/agent-skills-standard",
     "stars": 582,
-    "updated_at": "2026-10-27T10:22:21Z",
+    "updated_at": "2026-10-28T03:29:36Z",
     "url": "https://github.com/HoangNguyen0403/agent-skills-standard"
   },
   {
@@ -339,15 +348,6 @@
     "stars": 26,
     "updated_at": "2026-10-28T03:07:46Z",
     "url": "https://github.com/heymegabyte/agent-skills"
-  },
-  {
-    "description": "AI prompts, CLAUDE.md/AGENTS.md templates, Cursor rules, Agent Skills and MCP servers from commandvault.ai, synced daily",
-    "id": "geronco/commandvault-library",
-    "language": "JavaScript",
-    "name": "geronco/commandvault-library",
-    "stars": 0,
-    "updated_at": "2026-10-27T03:32:57Z",
-    "url": "https://github.com/geronco/commandvault-library"
   },
   {
     "description": "Your AI coding agent follows these files blindly, before it reads a line of your code.",
