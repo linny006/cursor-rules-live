@@ -10,17 +10,8 @@
     "language": "JavaScript",
     "name": "krzysztofgibert/pr-viz-skill",
     "stars": 0,
-    "updated_at": "2026-10-28T14:22:43Z",
+    "updated_at": "2026-10-28T14:40:24Z",
     "url": "https://github.com/krzysztofgibert/pr-viz-skill"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-28T14:15:45Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Architectural drift prevention for the agentic AI SDLC.",
@@ -28,8 +19,17 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 29,
-    "updated_at": "2026-10-28T14:28:55Z",
+    "updated_at": "2026-10-28T14:35:36Z",
     "url": "https://github.com/MnemeHQ/mneme"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-28T14:30:40Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam",
