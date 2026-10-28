@@ -1,12 +1,12 @@
 [
   {
-    "description": "\u65e0\u5173\u7528\u6237\uff0c \u65e0\u5173\u7cfb\u7edf\uff0c \u65e0\u5173\u9879\u76ee\uff0c\u5f00\u7bb1\u590d\u5236\u5373\u7528\uff01 code faster, code better; ",
-    "id": "wangqiqi/cursor-ai",
-    "language": "Shell",
-    "name": "wangqiqi/cursor-ai",
-    "stars": 4,
-    "updated_at": "2026-10-28T04:35:33Z",
-    "url": "https://github.com/wangqiqi/cursor-ai"
+    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
+    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "language": "HTML",
+    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
+    "stars": 1,
+    "updated_at": "2026-10-28T04:57:16Z",
+    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-28T04:30:42Z",
+    "updated_at": "2026-10-28T04:45:42Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\u65e0\u5173\u7528\u6237\uff0c \u65e0\u5173\u7cfb\u7edf\uff0c \u65e0\u5173\u9879\u76ee\uff0c\u5f00\u7bb1\u590d\u5236\u5373\u7528\uff01 code faster, code better; ",
+    "id": "wangqiqi/cursor-ai",
+    "language": "Shell",
+    "name": "wangqiqi/cursor-ai",
+    "stars": 4,
+    "updated_at": "2026-10-28T04:35:33Z",
+    "url": "https://github.com/wangqiqi/cursor-ai"
   },
   {
     "cursorrules": {
@@ -100,7 +109,7 @@
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 2,
-    "updated_at": "2026-10-28T02:56:09Z",
+    "updated_at": "2026-10-28T05:00:00Z",
     "url": "https://github.com/bompus/house-rules"
   },
   {
@@ -138,15 +147,6 @@
     "stars": 0,
     "updated_at": "2026-10-27T23:42:23Z",
     "url": "https://github.com/Trentobobbi/uikit-mastery-playbook"
-  },
-  {
-    "description": "Swift-UIKit-Pro 2026: Build Production-Ready Programmatic iOS Apps with Advanced Architecture & Data Flow Patterns",
-    "id": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "language": "HTML",
-    "name": "arnoldalberto007-sys/Swift-UIKit-Components",
-    "stars": 1,
-    "updated_at": "2026-10-27T23:41:05Z",
-    "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
     "description": "Rules and skills for coding agents: AI Skill Studio (CLAUDE.md, AGENTS.md, Cursor rules, SKILL.md generator), Skill Libr",
