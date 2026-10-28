@@ -1,12 +1,12 @@
 [
   {
-    "description": "Architectural drift prevention for the agentic AI SDLC.",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 29,
-    "updated_at": "2026-10-28T17:15:10Z",
-    "url": "https://github.com/MnemeHQ/mneme"
+    "description": "A checkup for your coding agent setup. Lints AGENTS.md, CLAUDE.md, SKILL.md, Cursor rules, Copilot instructions, MCP ser",
+    "id": "mustafakbaser/agentcheckup",
+    "language": "TypeScript",
+    "name": "mustafakbaser/agentcheckup",
+    "stars": 0,
+    "updated_at": "2026-10-28T17:21:27Z",
+    "url": "https://github.com/mustafakbaser/agentcheckup"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-28T17:00:48Z",
+    "updated_at": "2026-10-28T17:15:39Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Architectural drift prevention for the agentic AI SDLC.",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 29,
+    "updated_at": "2026-10-28T17:22:33Z",
+    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "description": "Homebrew tap for LynxPrompt CLI",
@@ -75,15 +84,6 @@
     "stars": 5,
     "updated_at": "2026-10-28T15:33:10Z",
     "url": "https://github.com/digital-lake-ai/lognexus"
-  },
-  {
-    "description": "A checkup for your coding agent setup. Lints AGENTS.md, CLAUDE.md, SKILL.md, Cursor rules, Copilot instructions, MCP ser",
-    "id": "mustafakbaser/agentcheckup",
-    "language": "TypeScript",
-    "name": "mustafakbaser/agentcheckup",
-    "stars": 0,
-    "updated_at": "2026-10-28T17:06:04Z",
-    "url": "https://github.com/mustafakbaser/agentcheckup"
   },
   {
     "cursorrules": {
