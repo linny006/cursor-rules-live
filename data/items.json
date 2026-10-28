@@ -1,12 +1,12 @@
 [
   {
-    "description": "Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows.",
-    "id": "ajhcs/healthcare-agents",
+    "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
+    "id": "bompus/house-rules",
     "language": "JavaScript",
-    "name": "ajhcs/healthcare-agents",
-    "stars": 53,
-    "updated_at": "2026-10-28T20:34:16Z",
-    "url": "https://github.com/ajhcs/healthcare-agents"
+    "name": "bompus/house-rules",
+    "stars": 2,
+    "updated_at": "2026-10-28T20:46:14Z",
+    "url": "https://github.com/bompus/house-rules"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +14,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-28T20:30:49Z",
+    "updated_at": "2026-10-28T20:45:43Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows.",
+    "id": "ajhcs/healthcare-agents",
+    "language": "JavaScript",
+    "name": "ajhcs/healthcare-agents",
+    "stars": 53,
+    "updated_at": "2026-10-28T20:34:16Z",
+    "url": "https://github.com/ajhcs/healthcare-agents"
   },
   {
     "description": "Architectural drift prevention for the agentic AI SDLC.",
@@ -115,15 +124,6 @@
     "stars": 1,
     "updated_at": "2026-10-28T16:53:12Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
-    "id": "bompus/house-rules",
-    "language": "JavaScript",
-    "name": "bompus/house-rules",
-    "stars": 2,
-    "updated_at": "2026-10-28T20:37:46Z",
-    "url": "https://github.com/bompus/house-rules"
   },
   {
     "cursorrules": {
