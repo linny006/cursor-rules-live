@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-28 21:00 UTC
+> ⏰ Last updated: 2026-10-28 21:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -53,8 +53,8 @@ expired items removed — so you can rely on what you see being current.
 <!-- TRACKER_TABLE_START -->
 | # | Name | ⭐ | Lang | Updated | Rules | Description |
 |---|------|---|------|---------|-------|-------------|
-| 1 | [GeiserX/lynxprompt-mcp](https://github.com/GeiserX/lynxprompt-mcp) | 2 | Go | 2026-10-28 | — | MCP Server for LynxPrompt — browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP |
-| 2 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-28 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-28 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
+| 2 | [GeiserX/lynxprompt-mcp](https://github.com/GeiserX/lynxprompt-mcp) | 2 | Go | 2026-10-28 | — | MCP Server for LynxPrompt — browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP |
 | 3 | [bompus/house-rules](https://github.com/bompus/house-rules) | 2 | JavaScript | 2026-10-28 | — | Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md |
 | 4 | [ajhcs/healthcare-agents](https://github.com/ajhcs/healthcare-agents) | 53 | JavaScript | 2026-10-28 | — | Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows. |
 | 5 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 29 | Python | 2026-10-28 | — | Architectural drift prevention for the agentic AI SDLC. |
@@ -98,7 +98,7 @@ expired items removed — so you can rely on what you see being current.
 | 43 | [PQBlocks/pqblocks-skills](https://github.com/PQBlocks/pqblocks-skills) | 0 | Python | 2026-10-27 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/PQBlocks/pqblocks-skills/) | AI assistant skills, Cursor IDE rules, and prompt optimization assets for PQBlocks |
 | 44 | [MsNan/vue-uniapp-skills](https://github.com/MsNan/vue-uniapp-skills) | 0 | JavaScript | 2026-10-27 | — | Vue3 + uni-app 中文 AI 编程技能包：Cursor Rules / Claude Code Skills / Trae / Codex 一行命令安装 |
 | 45 | [ChandraChaan/flutter-agent-skills](https://github.com/ChandraChaan/flutter-agent-skills) | 0 | Dart | 2026-10-27 | — | AGENTS.md rules and skills that make AI coding agents write production-quality Flutter. Claude Code plugin; works with C |
-| 46 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 21664 | Shell | 2026-10-27 | — | 🎭 277 个即插即用的 AI 专家角色 — 支持 Claude Code/Cursor/Copilot 等 20 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 64 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉/Qt 上 |
+| 46 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 21665 | Shell | 2026-10-27 | — | 🎭 277 个即插即用的 AI 专家角色 — 支持 Claude Code/Cursor/Copilot 等 20 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 64 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉/Qt 上 |
 | 47 | [sayfer-io/pentest-readiness-checklist](https://github.com/sayfer-io/pentest-readiness-checklist) | 0 | — | 2026-10-27 | — | Engineering checklists for B2B SaaS penetration testing readiness: SOC 2, ISO 27001, DORA, AI Agent Security (LLM/RAG/MC |
 | 48 | [weekendshipkit/weekend-scope-guard](https://github.com/weekendshipkit/weekend-scope-guard) | 0 | — | 2026-10-27 | — | Two small Cursor rules that keep an AI agent on one job. Free, MIT. |
 | 49 | [fri3ndslab/my-human-has-adhd](https://github.com/fri3ndslab/my-human-has-adhd) | 0 | — | 2026-10-27 | — | An 18-line rules file for Claude Code, Codex and Cursor. Drop an idea mid-task and the agent parks it in PARK.md with th |

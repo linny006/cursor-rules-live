@@ -1,21 +1,21 @@
 [
   {
-    "description": "MCP Server for LynxPrompt \u2014 browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP",
-    "id": "GeiserX/lynxprompt-mcp",
-    "language": "Go",
-    "name": "GeiserX/lynxprompt-mcp",
-    "stars": 2,
-    "updated_at": "2026-10-28T20:53:23Z",
-    "url": "https://github.com/GeiserX/lynxprompt-mcp"
-  },
-  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-28T20:50:18Z",
+    "updated_at": "2026-10-28T21:00:50Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "MCP Server for LynxPrompt \u2014 browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP",
+    "id": "GeiserX/lynxprompt-mcp",
+    "language": "Go",
+    "name": "GeiserX/lynxprompt-mcp",
+    "stars": 2,
+    "updated_at": "2026-10-28T21:02:17Z",
+    "url": "https://github.com/GeiserX/lynxprompt-mcp"
   },
   {
     "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
@@ -484,7 +484,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21664,
+    "stars": 21665,
     "updated_at": "2026-10-27T14:39:44Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
