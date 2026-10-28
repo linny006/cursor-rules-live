@@ -1,5 +1,23 @@
 [
   {
+    "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
+    "id": "squadsquidcry/Cursor-Desktop-2026",
+    "language": "\u2014",
+    "name": "squadsquidcry/Cursor-Desktop-2026",
+    "stars": 1,
+    "updated_at": "2026-10-28T23:35:16Z",
+    "url": "https://github.com/squadsquidcry/Cursor-Desktop-2026"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-28T23:30:33Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
     "id": "J-nowcow/awesome-korean-agent-skills",
     "language": "\u2014",
@@ -16,15 +34,6 @@
     "stars": 3,
     "updated_at": "2026-10-28T23:17:42Z",
     "url": "https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator"
-  },
-  {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-28T23:15:47Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "description": "UIKit Expert Skill 2026 - Best Practices & High Performance Swift Code",
@@ -106,15 +115,6 @@
     "stars": 0,
     "updated_at": "2026-10-28T19:46:27Z",
     "url": "https://github.com/mustafakbaser/agentcheckup"
-  },
-  {
-    "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
-    "id": "squadsquidcry/Cursor-Desktop-2026",
-    "language": "\u2014",
-    "name": "squadsquidcry/Cursor-Desktop-2026",
-    "stars": 1,
-    "updated_at": "2026-10-28T19:07:55Z",
-    "url": "https://github.com/squadsquidcry/Cursor-Desktop-2026"
   },
   {
     "description": "Rules and skills for coding agents: AI Skill Studio (CLAUDE.md, AGENTS.md, Cursor rules, SKILL.md generator), Skill Libr",
