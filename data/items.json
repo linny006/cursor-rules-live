@@ -1,11 +1,25 @@
 [
   {
+    "cursorrules": {
+      "content": "# /pr-viz\n# Community skill: https://github.com/krzysztofgibert/pr-viz-skill\n# Viewer: https://pr-viz.com\n\nWhen the user runs /pr-viz, or asks to visualize, map, or review a GitHub pull\nrequest, follow skills/pr-viz/SKILL.md in full.\n\nPublish the map with skills/pr-viz/scripts/publish-diagram.mjs to the viewer in\nskills/pr-viz/host.json. Do not paste the review, Mermaid, or ASCII in the chat.\nDo not ask for or handle a GitHub token.\n",
+      "format": "text",
+      "path": ".cursorrules"
+    },
+    "description": "Free IDE skill that turns a GitHub pull request into a two-zone review map. Use it in VS Code, Cursor, Claude Code, or W",
+    "id": "krzysztofgibert/pr-viz-skill",
+    "language": "JavaScript",
+    "name": "krzysztofgibert/pr-viz-skill",
+    "stars": 0,
+    "updated_at": "2026-10-28T16:30:04Z",
+    "url": "https://github.com/krzysztofgibert/pr-viz-skill"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-28T16:00:52Z",
+    "updated_at": "2026-10-28T16:15:52Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -50,7 +64,7 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 29,
-    "updated_at": "2026-10-28T14:59:20Z",
+    "updated_at": "2026-10-28T16:28:28Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
@@ -66,20 +80,6 @@
     "stars": 8,
     "updated_at": "2026-10-28T14:48:39Z",
     "url": "https://github.com/vibestackdev/vibe-stack"
-  },
-  {
-    "cursorrules": {
-      "content": "# /pr-viz\n# Community skill: https://github.com/krzysztofgibert/pr-viz-skill\n# Viewer: https://pr-viz.com\n\nWhen the user runs /pr-viz, or asks to visualize, map, or review a GitHub pull\nrequest, follow skills/pr-viz/SKILL.md in full.\n\nPublish the map with skills/pr-viz/scripts/publish-diagram.mjs to the viewer in\nskills/pr-viz/host.json. Do not paste the review, Mermaid, or ASCII in the chat.\nDo not ask for or handle a GitHub token.\n",
-      "format": "text",
-      "path": ".cursorrules"
-    },
-    "description": "Free IDE skill that turns a GitHub pull request into a two-zone review map. Use it in VS Code, Cursor, Claude Code, or W",
-    "id": "krzysztofgibert/pr-viz-skill",
-    "language": "JavaScript",
-    "name": "krzysztofgibert/pr-viz-skill",
-    "stars": 0,
-    "updated_at": "2026-10-28T14:40:24Z",
-    "url": "https://github.com/krzysztofgibert/pr-viz-skill"
   },
   {
     "description": "Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam",
@@ -457,7 +457,7 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21662,
+    "stars": 21663,
     "updated_at": "2026-10-27T14:39:44Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
   },
