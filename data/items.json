@@ -1,11 +1,38 @@
 [
   {
+    "description": "VS Code extension for LynxPrompt \u2014 browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules) ",
+    "id": "GeiserX/lynxprompt-vscode",
+    "language": "TypeScript",
+    "name": "GeiserX/lynxprompt-vscode",
+    "stars": 2,
+    "updated_at": "2026-10-29T11:24:31Z",
+    "url": "https://github.com/GeiserX/lynxprompt-vscode"
+  },
+  {
+    "description": "MCP Server for LynxPrompt \u2014 browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP",
+    "id": "GeiserX/lynxprompt-mcp",
+    "language": "Go",
+    "name": "GeiserX/lynxprompt-mcp",
+    "stars": 2,
+    "updated_at": "2026-10-29T11:20:31Z",
+    "url": "https://github.com/GeiserX/lynxprompt-mcp"
+  },
+  {
+    "description": "Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API ",
+    "id": "djtelicloud/grok-mcp-server",
+    "language": "Python",
+    "name": "djtelicloud/grok-mcp-server",
+    "stars": 25,
+    "updated_at": "2026-10-29T11:16:06Z",
+    "url": "https://github.com/djtelicloud/grok-mcp-server"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-29T11:00:39Z",
+    "updated_at": "2026-10-29T11:15:33Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -81,15 +108,6 @@
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
-    "description": "Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API ",
-    "id": "djtelicloud/grok-mcp-server",
-    "language": "Python",
-    "name": "djtelicloud/grok-mcp-server",
-    "stars": 25,
-    "updated_at": "2026-10-29T04:30:41Z",
-    "url": "https://github.com/djtelicloud/grok-mcp-server"
-  },
-  {
     "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
     "id": "bompus/house-rules",
     "language": "JavaScript",
@@ -126,7 +144,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 179644,
+    "stars": 179655,
     "updated_at": "2026-10-29T03:06:08Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -156,15 +174,6 @@
     "stars": 52,
     "updated_at": "2026-10-28T23:26:46Z",
     "url": "https://github.com/J-nowcow/awesome-korean-agent-skills"
-  },
-  {
-    "description": "MCP Server for LynxPrompt \u2014 browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP",
-    "id": "GeiserX/lynxprompt-mcp",
-    "language": "Go",
-    "name": "GeiserX/lynxprompt-mcp",
-    "stars": 2,
-    "updated_at": "2026-10-29T10:14:41Z",
-    "url": "https://github.com/GeiserX/lynxprompt-mcp"
   },
   {
     "description": "Portable prompt and SKILL.md pack with 51 specialist AI agents for US healthcare administration workflows.",
@@ -519,14 +528,5 @@
     "stars": 0,
     "updated_at": "2026-10-27T17:13:15Z",
     "url": "https://github.com/MsNan/vue-uniapp-skills"
-  },
-  {
-    "description": "AGENTS.md rules and skills that make AI coding agents write production-quality Flutter. Claude Code plugin; works with C",
-    "id": "ChandraChaan/flutter-agent-skills",
-    "language": "Dart",
-    "name": "ChandraChaan/flutter-agent-skills",
-    "stars": 0,
-    "updated_at": "2026-10-27T15:55:15Z",
-    "url": "https://github.com/ChandraChaan/flutter-agent-skills"
   }
 ]
