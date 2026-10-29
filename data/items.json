@@ -1,12 +1,21 @@
 [
   {
-    "description": "Homebrew tap for LynxPrompt CLI",
-    "id": "GeiserX/homebrew-lynxprompt",
-    "language": "Shell",
-    "name": "GeiserX/homebrew-lynxprompt",
-    "stars": 2,
-    "updated_at": "2026-10-29T13:56:52Z",
-    "url": "https://github.com/GeiserX/homebrew-lynxprompt"
+    "description": "Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam",
+    "id": "eli-alvarado/agentkit-drawer",
+    "language": "Python",
+    "name": "eli-alvarado/agentkit-drawer",
+    "stars": 0,
+    "updated_at": "2026-10-29T14:14:49Z",
+    "url": "https://github.com/eli-alvarado/agentkit-drawer"
+  },
+  {
+    "description": "Architectural drift prevention for the agentic AI SDLC.",
+    "id": "MnemeHQ/mneme",
+    "language": "Python",
+    "name": "MnemeHQ/mneme",
+    "stars": 29,
+    "updated_at": "2026-10-29T14:13:59Z",
+    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
@@ -14,8 +23,17 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-29T13:45:33Z",
+    "updated_at": "2026-10-29T14:00:52Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "Homebrew tap for LynxPrompt CLI",
+    "id": "GeiserX/homebrew-lynxprompt",
+    "language": "Shell",
+    "name": "GeiserX/homebrew-lynxprompt",
+    "stars": 2,
+    "updated_at": "2026-10-29T13:56:52Z",
+    "url": "https://github.com/GeiserX/homebrew-lynxprompt"
   },
   {
     "description": "VS Code extension for LynxPrompt \u2014 browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules) ",
@@ -81,7 +99,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 179763,
+    "stars": 179772,
     "updated_at": "2026-10-29T11:59:31Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -145,7 +163,7 @@
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 2,
-    "updated_at": "2026-10-29T04:22:00Z",
+    "updated_at": "2026-10-29T14:11:09Z",
     "url": "https://github.com/bompus/house-rules"
   },
   {
@@ -165,15 +183,6 @@
     "stars": 0,
     "updated_at": "2026-10-29T03:24:34Z",
     "url": "https://github.com/geronco/commandvault-library"
-  },
-  {
-    "description": "Architectural drift prevention for the agentic AI SDLC.",
-    "id": "MnemeHQ/mneme",
-    "language": "Python",
-    "name": "MnemeHQ/mneme",
-    "stars": 29,
-    "updated_at": "2026-10-29T13:56:33Z",
-    "url": "https://github.com/MnemeHQ/mneme"
   },
   {
     "description": "Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w",
@@ -265,15 +274,6 @@
     "stars": 8,
     "updated_at": "2026-10-28T14:48:39Z",
     "url": "https://github.com/vibestackdev/vibe-stack"
-  },
-  {
-    "description": "Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam",
-    "id": "eli-alvarado/agentkit-drawer",
-    "language": "Python",
-    "name": "eli-alvarado/agentkit-drawer",
-    "stars": 0,
-    "updated_at": "2026-10-28T14:06:23Z",
-    "url": "https://github.com/eli-alvarado/agentkit-drawer"
   },
   {
     "description": "Cursor-native config: a strict Plan Gate + Karpathy discipline rules, /plan /delta /prime-init commands, and a global gi",
