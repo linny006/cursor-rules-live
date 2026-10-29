@@ -1,11 +1,29 @@
 [
   {
+    "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
+    "id": "squadsquidcry/Cursor-Desktop-2026",
+    "language": "\u2014",
+    "name": "squadsquidcry/Cursor-Desktop-2026",
+    "stars": 1,
+    "updated_at": "2026-10-29T14:40:14Z",
+    "url": "https://github.com/squadsquidcry/Cursor-Desktop-2026"
+  },
+  {
+    "description": "Rules and skills for coding agents: AI Skill Studio (CLAUDE.md, AGENTS.md, Cursor rules, SKILL.md generator), Skill Libr",
+    "id": "Saad-web-spec/DevScratchPad",
+    "language": "TypeScript",
+    "name": "Saad-web-spec/DevScratchPad",
+    "stars": 1,
+    "updated_at": "2026-10-29T14:36:19Z",
+    "url": "https://github.com/Saad-web-spec/DevScratchPad"
+  },
+  {
     "description": "Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md",
     "id": "bompus/house-rules",
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 2,
-    "updated_at": "2026-10-29T14:29:01Z",
+    "updated_at": "2026-10-29T14:44:12Z",
     "url": "https://github.com/bompus/house-rules"
   },
   {
@@ -14,7 +32,7 @@
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-29T14:15:34Z",
+    "updated_at": "2026-10-29T14:30:34Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -50,7 +68,7 @@
     "language": "TypeScript",
     "name": "GeiserX/lynxprompt-vscode",
     "stars": 2,
-    "updated_at": "2026-10-29T13:36:46Z",
+    "updated_at": "2026-10-29T14:38:00Z",
     "url": "https://github.com/GeiserX/lynxprompt-vscode"
   },
   {
@@ -81,15 +99,6 @@
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
-    "description": "Rules and skills for coding agents: AI Skill Studio (CLAUDE.md, AGENTS.md, Cursor rules, SKILL.md generator), Skill Libr",
-    "id": "Saad-web-spec/DevScratchPad",
-    "language": "TypeScript",
-    "name": "Saad-web-spec/DevScratchPad",
-    "stars": 1,
-    "updated_at": "2026-10-29T12:35:24Z",
-    "url": "https://github.com/Saad-web-spec/DevScratchPad"
-  },
-  {
     "description": "\ud83c\uddf0\ud83c\uddf7 400+ Korean AI Coding Agent Skills \u2014 Claude Code, Gemini CLI, Codex, Cursor \uc2a4\ud0ac\uc744 \uae30\ub2a5\ubcc4\ub85c \ubaa8\uc740 \ud050\ub808\uc774\uc158",
     "id": "J-nowcow/awesome-korean-agent-skills",
     "language": "\u2014",
@@ -108,7 +117,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 179788,
+    "stars": 179798,
     "updated_at": "2026-10-29T11:59:31Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -156,15 +165,6 @@
     "stars": 1,
     "updated_at": "2026-10-29T07:48:57Z",
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
-  },
-  {
-    "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
-    "id": "squadsquidcry/Cursor-Desktop-2026",
-    "language": "\u2014",
-    "name": "squadsquidcry/Cursor-Desktop-2026",
-    "stars": 1,
-    "updated_at": "2026-10-29T07:40:29Z",
-    "url": "https://github.com/squadsquidcry/Cursor-Desktop-2026"
   },
   {
     "description": "Goal-driven mode for AI coding agents. Reach the user's win condition in the fewest moves.",
