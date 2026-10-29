@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-29 01:45 UTC
+> ⏰ Last updated: 2026-10-29 02:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -56,7 +56,7 @@ expired items removed — so you can rely on what you see being current.
 | 1 | [linny006/cursor-rules-live](https://github.com/linny006/cursor-rules-live) | 3 | HTML | 2026-10-29 | — | Live index of cursor-rules files from GitHub, updated every 15 minutes |
 | 2 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-29 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
 | 3 | [GeiserX/homebrew-lynxprompt](https://github.com/GeiserX/homebrew-lynxprompt) | 2 | Shell | 2026-10-29 | — | Homebrew tap for LynxPrompt CLI |
-| 4 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 179238 | JavaScript | 2026-10-29 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 4 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 179245 | JavaScript | 2026-10-29 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 5 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 29 | Python | 2026-10-29 | — | Architectural drift prevention for the agentic AI SDLC. |
 | 6 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 223 | Python | 2026-10-29 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
 | 7 | [squadsquidcry/Cursor-Desktop-2026](https://github.com/squadsquidcry/Cursor-Desktop-2026) | 1 | — | 2026-10-28 | — | ⭐️ Cursor 2026 Ai Cursorpro Cursor Ai ⭐️ |
