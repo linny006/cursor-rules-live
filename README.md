@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-29 19:15 UTC
+> ⏰ Last updated: 2026-10-29 19:30 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -73,7 +73,7 @@ expired items removed — so you can rely on what you see being current.
 | 18 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 29 | Python | 2026-10-29 | — | Architectural drift prevention for the agentic AI SDLC. |
 | 19 | [GeiserX/lynxprompt-mcp](https://github.com/GeiserX/lynxprompt-mcp) | 2 | Go | 2026-10-29 | — | MCP Server for LynxPrompt — browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP |
 | 20 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 52 | — | 2026-10-29 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
-| 21 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 180013 | JavaScript | 2026-10-29 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 21 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 180021 | JavaScript | 2026-10-29 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 22 | [djtelicloud/grok-mcp-server](https://github.com/djtelicloud/grok-mcp-server) | 25 | Python | 2026-10-29 | — | Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API  |
 | 23 | [HoangNguyen0403/agent-skills-standard](https://github.com/HoangNguyen0403/agent-skills-standard) | 583 | TypeScript | 2026-10-29 | — | A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent fol |
 | 24 | [mikeprasad/aria-knowledge](https://github.com/mikeprasad/aria-knowledge) | 17 | Shell | 2026-10-29 | — | Applied reasoning, persistent agent memory, context engineering, and human-governed trust for AI coding agents — Claude  |
