@@ -1,21 +1,21 @@
 [
   {
-    "description": "VS Code extension for LynxPrompt \u2014 browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules) ",
-    "id": "GeiserX/lynxprompt-vscode",
-    "language": "TypeScript",
-    "name": "GeiserX/lynxprompt-vscode",
-    "stars": 2,
-    "updated_at": "2026-10-29T13:07:57Z",
-    "url": "https://github.com/GeiserX/lynxprompt-vscode"
-  },
-  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-29T13:00:41Z",
+    "updated_at": "2026-10-29T13:15:33Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "VS Code extension for LynxPrompt \u2014 browse, pull, and manage AI configuration files (AGENTS.md, CLAUDE.md, .cursorrules) ",
+    "id": "GeiserX/lynxprompt-vscode",
+    "language": "TypeScript",
+    "name": "GeiserX/lynxprompt-vscode",
+    "stars": 2,
+    "updated_at": "2026-10-29T13:15:55Z",
+    "url": "https://github.com/GeiserX/lynxprompt-vscode"
   },
   {
     "description": "MCP Server for LynxPrompt \u2014 browse, search, and manage AI configuration blueprints (AGENTS.md, CLAUDE.md) via MCP",
@@ -81,7 +81,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 179734,
+    "stars": 179746,
     "updated_at": "2026-10-29T11:59:31Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
