@@ -1,11 +1,29 @@
 [
   {
+    "description": "Goal-driven mode for AI coding agents. Reach the user's win condition in the fewest moves.",
+    "id": "rover-001/checkmate",
+    "language": "JavaScript",
+    "name": "rover-001/checkmate",
+    "stars": 9,
+    "updated_at": "2026-10-29T04:07:28Z",
+    "url": "https://github.com/rover-001/checkmate"
+  },
+  {
+    "description": "Local-first Grok MCP server & gateway. One shared Grok agent for Cursor, Claude Code, VS Code, Codex & Desktop. xAI API ",
+    "id": "djtelicloud/grok-mcp-server",
+    "language": "Python",
+    "name": "djtelicloud/grok-mcp-server",
+    "stars": 25,
+    "updated_at": "2026-10-29T04:03:21Z",
+    "url": "https://github.com/djtelicloud/grok-mcp-server"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-29T03:45:45Z",
+    "updated_at": "2026-10-29T04:00:29Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -27,7 +45,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 179318,
+    "stars": 179331,
     "updated_at": "2026-10-29T03:06:08Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -118,7 +136,7 @@
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 2,
-    "updated_at": "2026-10-29T03:56:30Z",
+    "updated_at": "2026-10-29T04:14:40Z",
     "url": "https://github.com/bompus/house-rules"
   },
   {
@@ -507,26 +525,8 @@
     "id": "jnMetaCode/agency-agents-zh",
     "language": "Shell",
     "name": "jnMetaCode/agency-agents-zh",
-    "stars": 21669,
+    "stars": 21670,
     "updated_at": "2026-10-27T14:39:44Z",
     "url": "https://github.com/jnMetaCode/agency-agents-zh"
-  },
-  {
-    "description": "Engineering checklists for B2B SaaS penetration testing readiness: SOC 2, ISO 27001, DORA, AI Agent Security (LLM/RAG/MC",
-    "id": "sayfer-io/pentest-readiness-checklist",
-    "language": "\u2014",
-    "name": "sayfer-io/pentest-readiness-checklist",
-    "stars": 0,
-    "updated_at": "2026-10-27T12:48:34Z",
-    "url": "https://github.com/sayfer-io/pentest-readiness-checklist"
-  },
-  {
-    "description": "Two small Cursor rules that keep an AI agent on one job. Free, MIT.",
-    "id": "weekendshipkit/weekend-scope-guard",
-    "language": "\u2014",
-    "name": "weekendshipkit/weekend-scope-guard",
-    "stars": 0,
-    "updated_at": "2026-10-27T12:07:21Z",
-    "url": "https://github.com/weekendshipkit/weekend-scope-guard"
   }
 ]
