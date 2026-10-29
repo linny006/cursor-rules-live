@@ -5,8 +5,17 @@
     "language": "TypeScript",
     "name": "GeiserX/lynxprompt-vscode",
     "stars": 2,
-    "updated_at": "2026-10-29T14:55:47Z",
+    "updated_at": "2026-10-29T15:12:31Z",
     "url": "https://github.com/GeiserX/lynxprompt-vscode"
+  },
+  {
+    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
+    "id": "linny006/cursor-rules-live",
+    "language": "HTML",
+    "name": "linny006/cursor-rules-live",
+    "stars": 3,
+    "updated_at": "2026-10-29T15:00:38Z",
+    "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
     "cursorrules": {
@@ -32,15 +41,6 @@
     "url": "https://github.com/edsondviana8/ai-humanizer-core"
   },
   {
-    "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
-    "id": "linny006/cursor-rules-live",
-    "language": "HTML",
-    "name": "linny006/cursor-rules-live",
-    "stars": 3,
-    "updated_at": "2026-10-29T14:45:45Z",
-    "url": "https://github.com/linny006/cursor-rules-live"
-  },
-  {
     "description": "\u2b50\ufe0f Cursor 2026 Ai Cursorpro Cursor Ai \u2b50\ufe0f",
     "id": "squadsquidcry/Cursor-Desktop-2026",
     "language": "\u2014",
@@ -64,7 +64,7 @@
     "language": "JavaScript",
     "name": "bompus/house-rules",
     "stars": 2,
-    "updated_at": "2026-10-29T14:59:15Z",
+    "updated_at": "2026-10-29T15:11:46Z",
     "url": "https://github.com/bompus/house-rules"
   },
   {
@@ -140,7 +140,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 179808,
+    "stars": 179819,
     "updated_at": "2026-10-29T11:59:31Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
