@@ -1,12 +1,35 @@
 [
   {
+    "cursorrules": {
+      "content": "---\ndescription: PowerSync skill \u2014 follow AGENTS.md playbook; powersync login is Cloud-only\nglobs:\n  - skills/powersync/**/*\n  - AGENTS.md\n  - CONTRIBUTING.md\n---\n\n# PowerSync agent skills\n\nWhen editing or when the user\u2019s task involves PowerSync:\n\n1. Open **skills/powersync/AGENTS.md** and follow **Agent compliance** and the numbered onboarding playbook. Do not assume backend or Cloud vs self-hosted.\n2. Prefer the **PowerSync CLI** per that file; do not hand-roll deployable config unless the user explicitly cannot use the CLI.\n3. **`powersync login`** is for **PowerSync Cloud** (PAT) only \u2014 not for authenticating to a **self-hosted** service. Self-hosted: `powersync init self-hosted`, Docker commands, `PS_ADMIN_TOKEN` on the service.\n\nIf instructions here conflict with a \u201cfaster\u201d approach, the playbook wins unless the user explicitly overrides.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/powersync-playbook.mdc"
+    },
+    "description": "Official agent skills for PowerSync",
+    "id": "powersync-ja/agent-skills",
+    "language": "JavaScript",
+    "name": "powersync-ja/agent-skills",
+    "stars": 21,
+    "updated_at": "2026-10-29T17:54:41Z",
+    "url": "https://github.com/powersync-ja/agent-skills"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-29T17:30:43Z",
+    "updated_at": "2026-10-29T17:45:48Z",
     "url": "https://github.com/linny006/cursor-rules-live"
+  },
+  {
+    "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 plus AIOS, an open-source markdown memory system for coding ",
+    "id": "sublimecoder/sublimecoding",
+    "language": "\u2014",
+    "name": "sublimecoder/sublimecoding",
+    "stars": 0,
+    "updated_at": "2026-10-29T17:45:23Z",
+    "url": "https://github.com/sublimecoder/sublimecoding"
   },
   {
     "description": "iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models",
@@ -158,7 +181,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 179935,
+    "stars": 179943,
     "updated_at": "2026-10-29T11:59:31Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -429,15 +452,6 @@
     "url": "https://github.com/heymegabyte/agent-skills"
   },
   {
-    "description": "\ud83d\udee0\ufe0f Free Claude Code & Cursor prompts for senior engineers \u2014 plus AIOS, an open-source markdown memory system for coding ",
-    "id": "sublimecoder/sublimecoding",
-    "language": "\u2014",
-    "name": "sublimecoder/sublimecoding",
-    "stars": 0,
-    "updated_at": "2026-10-28T02:59:40Z",
-    "url": "https://github.com/sublimecoder/sublimecoding"
-  },
-  {
     "description": "Portable software delivery workflow for Codex, Cursor, Claude Code, and GitHub Copilot, with reusable skills, native age",
     "id": "okfriansyah-moh/agentic-workflow",
     "language": "Python",
@@ -519,14 +533,5 @@
     "stars": 0,
     "updated_at": "2026-10-27T18:45:45Z",
     "url": "https://github.com/PQBlocks/pqblocks-skills"
-  },
-  {
-    "description": "Vue3 + uni-app \u4e2d\u6587 AI \u7f16\u7a0b\u6280\u80fd\u5305\uff1aCursor Rules / Claude Code Skills / Trae / Codex \u4e00\u884c\u547d\u4ee4\u5b89\u88c5",
-    "id": "MsNan/vue-uniapp-skills",
-    "language": "JavaScript",
-    "name": "MsNan/vue-uniapp-skills",
-    "stars": 0,
-    "updated_at": "2026-10-27T17:13:15Z",
-    "url": "https://github.com/MsNan/vue-uniapp-skills"
   }
 ]
