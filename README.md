@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-29 07:00 UTC
+> ⏰ Last updated: 2026-10-29 07:15 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -60,7 +60,7 @@ expired items removed — so you can rely on what you see being current.
 | 5 | [bompus/house-rules](https://github.com/bompus/house-rules) | 2 | JavaScript | 2026-10-29 | — | Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md |
 | 6 | [rover-001/checkmate](https://github.com/rover-001/checkmate) | 9 | JavaScript | 2026-10-29 | — | Goal-driven mode for AI coding agents. Reach the user's win condition in the fewest moves. |
 | 7 | [geronco/commandvault-library](https://github.com/geronco/commandvault-library) | 0 | JavaScript | 2026-10-29 | — | AI prompts, CLAUDE.md/AGENTS.md templates, Cursor rules, Agent Skills and MCP servers from commandvault.ai, synced daily |
-| 8 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 179433 | JavaScript | 2026-10-29 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 8 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 179441 | JavaScript | 2026-10-29 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 9 | [onlymuneeb38-glitch/ios-agent-skills-evaluator](https://github.com/onlymuneeb38-glitch/ios-agent-skills-evaluator) | 3 | HTML | 2026-10-29 | — | iOS Agent Skills 2026: Test 11 Tasks, 260+ Scenarios, 850+ Assertions on 3 Models |
 | 10 | [edsondviana8/ai-humanizer-core](https://github.com/edsondviana8/ai-humanizer-core) | 1 | HTML | 2026-10-29 | — | Unslop Your AI Output 2026 - Humanize Text Instantly, No AI Clichés |
 | 11 | [GeiserX/homebrew-lynxprompt](https://github.com/GeiserX/homebrew-lynxprompt) | 2 | Shell | 2026-10-29 | — | Homebrew tap for LynxPrompt CLI |
@@ -102,7 +102,7 @@ expired items removed — so you can rely on what you see being current.
 | 47 | [PQBlocks/pqblocks-skills](https://github.com/PQBlocks/pqblocks-skills) | 0 | Python | 2026-10-27 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/PQBlocks/pqblocks-skills/) | AI assistant skills, Cursor IDE rules, and prompt optimization assets for PQBlocks |
 | 48 | [MsNan/vue-uniapp-skills](https://github.com/MsNan/vue-uniapp-skills) | 0 | JavaScript | 2026-10-27 | — | Vue3 + uni-app 中文 AI 编程技能包：Cursor Rules / Claude Code Skills / Trae / Codex 一行命令安装 |
 | 49 | [ChandraChaan/flutter-agent-skills](https://github.com/ChandraChaan/flutter-agent-skills) | 0 | Dart | 2026-10-27 | — | AGENTS.md rules and skills that make AI coding agents write production-quality Flutter. Claude Code plugin; works with C |
-| 50 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 21673 | Shell | 2026-10-27 | — | 🎭 277 个即插即用的 AI 专家角色 — 支持 Claude Code/Cursor/Copilot 等 20 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 64 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉/Qt 上 |
+| 50 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 21674 | Shell | 2026-10-27 | — | 🎭 277 个即插即用的 AI 专家角色 — 支持 Claude Code/Cursor/Copilot 等 20 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 64 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉/Qt 上 |
 <!-- TRACKER_TABLE_END -->
 
 ---
