@@ -1,11 +1,48 @@
 [
   {
+    "description": "Rules and skills for coding agents: AI Skill Studio (CLAUDE.md, AGENTS.md, Cursor rules, SKILL.md generator), Skill Libr",
+    "id": "Saad-web-spec/DevScratchPad",
+    "language": "TypeScript",
+    "name": "Saad-web-spec/DevScratchPad",
+    "stars": 1,
+    "updated_at": "2026-10-29T18:28:38Z",
+    "url": "https://github.com/Saad-web-spec/DevScratchPad"
+  },
+  {
+    "cursorrules": {
+      "content": "# /pr-viz\n# Community skill: https://github.com/krzysztofgibert/pr-viz-skill\n# Viewer: https://pr-viz.com\n\nWhen the user runs /pr-viz, or asks to visualize, map, or review a GitHub pull\nrequest, follow skills/pr-viz/SKILL.md in full.\n\nPublish the map with skills/pr-viz/scripts/publish-diagram.mjs to the viewer in\nskills/pr-viz/host.json. Do not paste the review, Mermaid, or ASCII in the chat.\nDo not ask for or handle a GitHub token.\n",
+      "format": "text",
+      "path": ".cursorrules"
+    },
+    "description": "Free IDE skill that turns a GitHub pull request into a two-zone review map. Use it in VS Code, Cursor, Claude Code, or W",
+    "id": "krzysztofgibert/pr-viz-skill",
+    "language": "JavaScript",
+    "name": "krzysztofgibert/pr-viz-skill",
+    "stars": 0,
+    "updated_at": "2026-10-29T18:27:42Z",
+    "url": "https://github.com/krzysztofgibert/pr-viz-skill"
+  },
+  {
+    "cursorrules": {
+      "content": "---\ndescription: Core working agreement for the AI agent on every task\nalwaysApply: true\n---\n\n# How to work in this repo\n\n## Before coding\n- Read the files you will change and their nearest tests before editing. Never guess an API that exists in the repo; search for it.\n- Check `package.json` / `pyproject.toml` / lockfiles for real framework versions and write code for THOSE versions.\n- For anything non-trivial (>1 file or >50 lines), state a short plan first: files to touch, approach, how you'll verify.\n- If requirements are ambiguous, ask one focused question instead of inventing behaviour.\n\n## While coding\n- Make the smallest change that solves the task. No drive-by refactors, renames or formatting of unrelated code.\n- Follow existing patterns in the codebase (naming, folder layout, error handling) over your own preferences.\n- Do not add a dependency without saying why and checking an existing one can't do it.\n- Never hardcode secrets, API keys or tokens. Use env vars and update `.env.example`.\n- Never silence errors (`catch {}`, `# type: ignore`, `as any`, `@ts-ignore`) to make something \"work\". Fix the cause or flag it.\n- Do not delete or weaken tests to make them pass.\n\n## After coding\n- Run the project's typecheck, lint and relevant tests; fix what you broke. If you couldn't run them, say so.\n- Summarise: what changed, why, how it was verified, and anything left undone or risky.\n\n## Never without explicit approval\n- Destructive commands (`rm -rf`, `git push --force`, `git reset --hard`, dropping tables, DB resets).\n- Editing generated files, lockfiles by hand, CI config, or migrations that already ran.\n",
+      "format": "mdc",
+      "path": ".cursor/rules/00-general.mdc"
+    },
+    "description": "Free Cursor rules (.mdc), AGENTS.md & CLAUDE.md templates and prompts for AI coding agents: Next.js + Supabase, Godot 4.",
+    "id": "grizzlykiwidev/grizzlykiwidev.github.io",
+    "language": "\u2014",
+    "name": "grizzlykiwidev/grizzlykiwidev.github.io",
+    "stars": 0,
+    "updated_at": "2026-10-29T18:25:03Z",
+    "url": "https://github.com/grizzlykiwidev/grizzlykiwidev.github.io"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-29T18:00:43Z",
+    "updated_at": "2026-10-29T18:15:32Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -100,15 +137,6 @@
     "url": "https://github.com/squadsquidcry/Cursor-Desktop-2026"
   },
   {
-    "description": "Rules and skills for coding agents: AI Skill Studio (CLAUDE.md, AGENTS.md, Cursor rules, SKILL.md generator), Skill Libr",
-    "id": "Saad-web-spec/DevScratchPad",
-    "language": "TypeScript",
-    "name": "Saad-web-spec/DevScratchPad",
-    "stars": 1,
-    "updated_at": "2026-10-29T14:36:19Z",
-    "url": "https://github.com/Saad-web-spec/DevScratchPad"
-  },
-  {
     "description": "Free AGENTS.md, CLAUDE.md and Cursor rules that keep AI coding agents on track: Next.js + Supabase, Godot game jams, gam",
     "id": "eli-alvarado/agentkit-drawer",
     "language": "Python",
@@ -181,7 +209,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 179966,
+    "stars": 179986,
     "updated_at": "2026-10-29T11:59:31Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -274,20 +302,6 @@
     "stars": 0,
     "updated_at": "2026-10-28T17:12:33Z",
     "url": "https://github.com/nandhu-44/secure-vibe-coding"
-  },
-  {
-    "cursorrules": {
-      "content": "# /pr-viz\n# Community skill: https://github.com/krzysztofgibert/pr-viz-skill\n# Viewer: https://pr-viz.com\n\nWhen the user runs /pr-viz, or asks to visualize, map, or review a GitHub pull\nrequest, follow skills/pr-viz/SKILL.md in full.\n\nPublish the map with skills/pr-viz/scripts/publish-diagram.mjs to the viewer in\nskills/pr-viz/host.json. Do not paste the review, Mermaid, or ASCII in the chat.\nDo not ask for or handle a GitHub token.\n",
-      "format": "text",
-      "path": ".cursorrules"
-    },
-    "description": "Free IDE skill that turns a GitHub pull request into a two-zone review map. Use it in VS Code, Cursor, Claude Code, or W",
-    "id": "krzysztofgibert/pr-viz-skill",
-    "language": "JavaScript",
-    "name": "krzysztofgibert/pr-viz-skill",
-    "stars": 0,
-    "updated_at": "2026-10-28T16:31:54Z",
-    "url": "https://github.com/krzysztofgibert/pr-viz-skill"
   },
   {
     "description": "Universal Git-powered persistent memory, context rules & native MCP server for AI coding agents. Prevents context amnesi",
@@ -519,19 +533,5 @@
     "stars": 12,
     "updated_at": "2026-10-27T19:09:30Z",
     "url": "https://github.com/VenusOne-Lee/popia-compliance"
-  },
-  {
-    "cursorrules": {
-      "content": "---\ndescription: Post-quantum cryptography and quantum-inspired optimisation with PQBlocks packages. Apply when code touches RSA, ECDSA, ECDH, X25519, JWT signing, key exchange, file encryption, CBOM, CNSA 2.0, ML-KEM, ML-DSA, SLH-DSA, QUBO or Ising.\nglobs:\nalwaysApply: false\n---\n\n# PQBlocks\n\n1. **Use the documented API only.** Before writing code with a PQBlocks package, read its page under https://pqblocks.github.io/packages/ (or call the `get_snippet` tool of the `pqblocks-mcp` server). Every quickstart there was executed\n   against the package. Never guess function names.\n2. **Never hand-roll post-quantum cryptography.** Use the packages; they wrap maintained implementations\n   (liboqs, pyca/cryptography).\n3. **Hybrid by default during the transition:** ML-KEM-768 + X25519 for key establishment, ML-DSA-65 +\n   Ed25519 for signatures. Downgrade to classical-only must be explicit.\n4. **Randomness from the OS only.** Never pass a `seed` argument when generating production keys; seeds\n   exist for reproducible tests.\n5. **Never log or return secret keys or shared secrets** (logs, exceptions, HTTP responses, `repr`).\n6. **Say exactly what is true.** PQBlocks packages implement FIPS 203/204/205 and test against official\n   vectors where they exist. They are **not** FIPS 140-3 / CMVP validated, not externally audited, and\n   pre-1.0. Never call them certified, validated, audited or quantum-proof.\n7. **Quantum-inspired packages are optimisation, not cryptography.** Never place them in a security path.\n8. **Install lines:** use the exact install line listed for each package; most install from GitHub\n   until their PyPI release is published.\n\n## Which package for which task\n\n| Task | Package | Install | Import |\n|---|---|---|---|\n| ML-KEM / ML-DSA / SLH-DSA primitives (keygen, encapsulate, sign) | [`pqblocks-primitives`](https://pqblocks.github.io/packages/primitives/) | `pip install git+https://github.com/PQBlocks/fips-pqc-primitives` | `pqblocks_primitives` |\n| Hybrid ML-KEM-768 + X25519 key establishment, native speed | [`pqblocks-core`](https://pqblocks.github.io/packages/core/) | `pip install git+https://github.com/PQBlocks/hybrid-sdk` | `pqblocks_core` |\n| Sign or verify JWTs / JWS with ML-DSA; encrypt JWE with ML-KEM | [`pqblocks-jose`](https://pqblocks.github.io/packages/jose/) | `pip install git+https://github.com/PQBlocks/hybrid-jose` | `pqblocks_jose` |\n| Encrypt files or byte strings to a post-quantum public key | [`pqblocks-files`](https://pqblocks.github.io/packages/files/) | `pip install git+https://github.com/PQBlocks/hybrid-file-encryption` | `pqblocks_files` |\n| Find RSA / ECC / weak hashes in code or a TLS endpoint; CBOM + SARIF | [`pqblocks-scan`](https://pqblocks.github.io/packages/scan/) | `pip install git+https://github.com/PQBlocks/cbom-scanner` | `pqblocks_scan` |\n| Python crypto data-flow linting; CBOM + SARIF | [`pqblocks-lint`](https://pqblocks.github.io/packages/lint/) | `pip install git+https://github.com/PQBlocks/pqc-lint` | `pqblocks_lint` |\n| Enrich a CycloneDX CBOM with quantum-safety and CNSA 2.0 tags | [`pqblocks-cbom`](https://pqblocks.github.io/packages/cbom/) | `pip install git+https://github.com/PQBlocks/cbom-enricher` | `pqblocks_cbom` |\n| Crypto-agility readiness score and CI regression gate | [`pqblocks-agility`](https://pqblocks.github.io/packages/agility/) | `pip install pqblocks-agility` | `pqblocks_agility` |\n| Policy-as-code: fail CI on forbidden algorithms | [`pqblocks-policy`](https://pqblocks.github.io/packages/policy/) | `pip install git+https://github.com/PQBlocks/crypto-policy-engine` | `pqblocks_policy` |\n| Audit which JWE / JOSE algorithms a gateway accepts | [`pqblocks-jwe-audit`](https://pqblocks.github.io/packages/jwe-audit/) | `pip install git+https://github.com/PQBlocks/jwe-policy-auditor` | `pqblocks_jwe_audit` |\n| CNSA 2.0 compliance evidence pack | [`pqblocks-cnsa-evidence`](https://pqblocks.github.io/packages/cnsa-evidence/) | `pip install git+https://github.com/PQBlocks/cnsa-evidence-pack` | `pqblocks_cnsa_evidence` |\n| Probe a TLS 1.3 endpoint for X25519MLKEM768; hybrid key-schedule checks | [`pqblocks-tls-interop`](https://pqblocks.github.io/packages/tls-interop/) | `pip install git+https://github.com/PQBlocks/tls-hybrid-interop` | `pqblocks_tls_interop` |\n| Binary container for ML-KEM ciphertexts and ML-DSA / SLH-DSA signatures | [`pqblocks-wire`](https://pqblocks.github.io/packages/wire/) | `pip install git+https://github.com/PQBlocks/pqc-wireformat` | `pqblocks_wire` |\n| Five-part hybrid JWE wire layout (serialise / parse only, no encryption) | [`pqblocks-jwe`](https://pqblocks.github.io/packages/jwe/) | `pip install git+https://github.com/PQBlocks/hybrid-jwe` | `pqblocks_jwe` |\n| ML-KEM certificate signing request with proof of possession | [`pqblocks-csr-pop`](https://pqblocks.github.io/packages/csr-pop/) | `pip install git+https://github.com/PQBlocks/mlkem-csr-pop` | `pqblocks_csr_pop` |\n| Run NIST ACVP vectors against ML-KEM / ML-DSA implementations | [`pqblocks-acvp`](https://pqblocks.github.io/packages/acvp/) | `pip install pqblocks-acvp` | `pqblocks_acvp` |\n| Reject malformed or wrong-length FIPS 203/204 inputs at a boundary | [`pqblocks-fips-check`](https://pqblocks.github.io/packages/fips-check/) | `pip install git+https://github.com/PQBlocks/fips-boundary-validator` | `pqblocks_fips_check` |\n| Build or convert QUBO / Ising models | [`pqblocks-qubo`](https://pqblocks.github.io/packages/qubo/) | `pip install git+https://github.com/PQBlocks/qubo-core` | `pqblocks_qubo` |\n| Solve QUBO / Ising / Max-Cut (Simulated Bifurcation) | [`pqblocks-bifurcation`](https://pqblocks.github.io/packages/bifurcation/) | `pip install git+https://github.com/PQBlocks/simulated-bifurcation` | `pqblocks_bifurcation` |\n| Simulated annealing / quantum annealing / population annealing / QIEA solvers | [`pqblocks-anneal-sa`](https://pqblocks.github.io/packages/anneal-sa/), [`pqblocks-anneal-sqa`](https://pqblocks.github.io/packages/anneal-sqa/), [`pqblocks-population-anneal`](https://pqblocks.github.io/packages/population-anneal/), [`pqblocks-qiea`](https://pqblocks.github.io/packages/qiea/) | `pip install pqblocks-anneal-sa` | `pqblocks_anneal_sa` |\n| Benchmark QUBO / Ising solvers (time-to-solution) | [`pqblocks-qubo-bench`](https://pqblocks.github.io/packages/qubo-bench/) | `pip install git+https://github.com/PQBlocks/qubo-benchmark-harness` | `pqblocks_qubo_bench` |\n",
-      "format": "mdc",
-      "path": ".cursor/rules/pqblocks.mdc"
-    },
-    "description": "AI assistant skills, Cursor IDE rules, and prompt optimization assets for PQBlocks",
-    "id": "PQBlocks/pqblocks-skills",
-    "language": "Python",
-    "name": "PQBlocks/pqblocks-skills",
-    "stars": 0,
-    "updated_at": "2026-10-27T18:45:45Z",
-    "url": "https://github.com/PQBlocks/pqblocks-skills"
   }
 ]
