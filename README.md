@@ -44,7 +44,7 @@ expired items removed — so you can rely on what you see being current.
 
 ## 📋 Current Items
 
-> ⏰ Last updated: 2026-10-29 10:45 UTC
+> ⏰ Last updated: 2026-10-29 11:00 UTC
 >
 > Data source: `GitHub Search API`
 >
@@ -66,7 +66,7 @@ expired items removed — so you can rely on what you see being current.
 | 11 | [bompus/house-rules](https://github.com/bompus/house-rules) | 2 | JavaScript | 2026-10-29 | — | Working rules and skills for AI coding agents: core rules, opt-in modifiers, your own layer and each repo's AGENTS.md |
 | 12 | [rover-001/checkmate](https://github.com/rover-001/checkmate) | 9 | JavaScript | 2026-10-29 | — | Goal-driven mode for AI coding agents. Reach the user's win condition in the fewest moves. |
 | 13 | [geronco/commandvault-library](https://github.com/geronco/commandvault-library) | 0 | JavaScript | 2026-10-29 | — | AI prompts, CLAUDE.md/AGENTS.md templates, Cursor rules, Agent Skills and MCP servers from commandvault.ai, synced daily |
-| 14 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 179620 | JavaScript | 2026-10-29 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| 14 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 179637 | JavaScript | 2026-10-29 | ✅ [view](https://linny006.github.io/cursor-rules-live/r/DietrichGebert/ponytail/) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
 | 15 | [MnemeHQ/mneme](https://github.com/MnemeHQ/mneme) | 29 | Python | 2026-10-29 | — | Architectural drift prevention for the agentic AI SDLC. |
 | 16 | [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 223 | Python | 2026-10-29 | — | Governance framework for AI coding agents. It runs them through a five-step workflow (plan, build, review, test, ship) w |
 | 17 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 52 | — | 2026-10-28 | — | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
