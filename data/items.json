@@ -1,11 +1,20 @@
 [
   {
+    "description": "Homebrew tap for LynxPrompt CLI",
+    "id": "GeiserX/homebrew-lynxprompt",
+    "language": "Shell",
+    "name": "GeiserX/homebrew-lynxprompt",
+    "stars": 2,
+    "updated_at": "2026-10-29T13:56:52Z",
+    "url": "https://github.com/GeiserX/homebrew-lynxprompt"
+  },
+  {
     "description": "Live index of cursor-rules files from GitHub, updated every 15 minutes",
     "id": "linny006/cursor-rules-live",
     "language": "HTML",
     "name": "linny006/cursor-rules-live",
     "stars": 3,
-    "updated_at": "2026-10-29T13:37:46Z",
+    "updated_at": "2026-10-29T13:45:33Z",
     "url": "https://github.com/linny006/cursor-rules-live"
   },
   {
@@ -45,15 +54,6 @@
     "url": "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components"
   },
   {
-    "description": "Homebrew tap for LynxPrompt CLI",
-    "id": "GeiserX/homebrew-lynxprompt",
-    "language": "Shell",
-    "name": "GeiserX/homebrew-lynxprompt",
-    "stars": 2,
-    "updated_at": "2026-10-29T12:36:34Z",
-    "url": "https://github.com/GeiserX/homebrew-lynxprompt"
-  },
-  {
     "description": "Rules and skills for coding agents: AI Skill Studio (CLAUDE.md, AGENTS.md, Cursor rules, SKILL.md generator), Skill Libr",
     "id": "Saad-web-spec/DevScratchPad",
     "language": "TypeScript",
@@ -81,7 +81,7 @@
     "id": "DietrichGebert/ponytail",
     "language": "JavaScript",
     "name": "DietrichGebert/ponytail",
-    "stars": 179751,
+    "stars": 179763,
     "updated_at": "2026-10-29T11:59:31Z",
     "url": "https://github.com/DietrichGebert/ponytail"
   },
@@ -172,7 +172,7 @@
     "language": "Python",
     "name": "MnemeHQ/mneme",
     "stars": 29,
-    "updated_at": "2026-10-29T00:46:37Z",
+    "updated_at": "2026-10-29T13:56:33Z",
     "url": "https://github.com/MnemeHQ/mneme"
   },
   {
