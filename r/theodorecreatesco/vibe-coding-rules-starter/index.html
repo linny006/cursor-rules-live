@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<title>theodorecreatesco/vibe-coding-rules-starter - entry on Cursor Rules Live</title>
+<meta name="description" content="Free AI coding rules starter: AGENTS.md, Cursor rule, CLAUDE.md and a security checklist that keep AI agents planning fi">
+<link rel="canonical" href="https://linny006.github.io/cursor-rules-live/r/theodorecreatesco/vibe-coding-rules-starter/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="theodorecreatesco/vibe-coding-rules-starter - entry on Cursor Rules Live">
+<meta property="og:description" content="Free AI coding rules starter: AGENTS.md, Cursor rule, CLAUDE.md and a security checklist that keep AI agents planning fi">
+<meta property="og:url" content="https://linny006.github.io/cursor-rules-live/r/theodorecreatesco/vibe-coding-rules-starter/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="theodorecreatesco/vibe-coding-rules-starter - entry on Cursor Rules Live">
+<meta name="twitter:description" content="Free AI coding rules starter: AGENTS.md, Cursor rule, CLAUDE.md and a security checklist that keep AI agents planning fi">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"theodorecreatesco/vibe-coding-rules-starter","codeRepository":"https://github.com/theodorecreatesco/vibe-coding-rules-starter","programmingLanguage":"—","url":"https://linny006.github.io/cursor-rules-live/r/theodorecreatesco/vibe-coding-rules-starter/","description":"Free AI coding rules starter: AGENTS.md, Cursor rule, CLAUDE.md and a security checklist that keep AI agents planning fi","author":{"@type":"Person","name":"theodorecreatesco","url":"https://github.com/theodorecreatesco"},"dateModified":"2026-10-31"}</script>
+<style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
+         --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 16px; font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--fg); background: var(--bg); }
+.wrap { max-width: var(--max); margin: 0 auto; }
+nav.bc { font-size: 14px; color: var(--muted); margin-bottom: 16px; }
+nav.bc a { color: var(--muted); }
+h1 { font-size: 28px; margin: 0 0 8px; }
+h2 { font-size: 20px; margin: 24px 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+p.lead { font-size: 18px; color: var(--muted); margin: 0 0 24px; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+th, td { padding: 8px 12px; text-align: left; border-bottom: 1px solid var(--border); }
+th { background: var(--card); font-weight: 600; }
+ul.crosslinks { list-style: none; padding: 0; }
+ul.crosslinks li { padding: 6px 0; }
+ul.crosslinks li a { font-weight: 500; }
+.meta { display: flex; gap: 16px; flex-wrap: wrap; color: var(--muted); font-size: 14px; margin: 12px 0; }
+.meta span::before { content: "\00b7"; margin-right: 8px; color: var(--border); }
+.meta span:first-child::before { content: ""; }
+footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--border); font-size: 14px; color: var(--muted); }</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="bc"><a href="https://linny006.github.io/cursor-rules-live/">Cursor Rules Live</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/popular/">Entries</a> &#183; <span>theodorecreatesco/vibe-coding-rules-starter</span></nav>
+<main>
+<h1>theodorecreatesco/vibe-coding-rules-starter</h1>
+<p class="lead">Free AI coding rules starter: AGENTS.md, Cursor rule, CLAUDE.md and a security checklist that keep AI agents planning fi</p>
+<div class="meta">
+<span><strong>Stars</strong> 0</span>
+<span><strong>Language</strong> —</span>
+<span><strong>Last updated</strong> 2026-10-31</span>
+<span><a href="https://github.com/theodorecreatesco/vibe-coding-rules-starter" rel="external">Source on GitHub</a></span>
+<span><a href="https://github.com/theodorecreatesco" rel="external">@theodorecreatesco</a></span>
+</div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/security.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
+description: Rule priority and security guardrails that apply to every task
+alwaysApply: true
+---
+
+# Always-on rules (free starter)
+
+Always on, in every task and file, even without AGENTS.md.
+
+## Rule priority
+
+When rules clash, follow the higher one and say which you followed:
+
+1. **Security guardrails** (below): never broken, even if I ask. Explain the risk in one line and do the safe version.
+2. **The task I asked for**, within the guardrails. List anything I should confirm under &quot;Needs your OK&quot;.
+3. **Stack conventions** already used in this repo.
+4. **Working style.**
+
+For changes touching more than 2 files, start with a short numbered plan and wait for my OK before editing.
+
+## Security guardrails
+
+- Secrets (API keys, tokens, passwords, service-role keys, webhook secrets) live only in server-side environment variables. Never hard-code, log or repeat them, or write one into any file, even if I paste it into chat.
+- Never put a secret behind a public prefix (`NEXT_PUBLIC_`, `VITE_`, `EXPO_PUBLIC_`, `PUBLIC_`). `.env` and `.env.*` stay git-ignored, `.env.example` tracked with names only. A committed secret must be rotated, not just deleted.
+- Anything touching private data checks the caller (401), that they may touch this record (404 if not theirs) and the role for admin actions (403), on the server. Hiding a button isn&#x27;t security.
+- Validate all input on the server. Parameterised queries only; never build SQL or shell commands from strings. User-facing errors never show stack traces, SQL, paths or secrets.
+- Rate-limit sign-in, sign-up, password reset, public forms and paid calls. Webhooks verify signatures. CORS is an allowlist, never `*` with auth.
+- Never, unless I ask for that exact action: destructive commands (`rm -rf`, `git reset --hard`, `git push --force`, dropping tables), changing a production database, or disabling or loosening tests, lint rules or type checks to get a pass. No new dependencies without my OK.
+</code></pre>
+<p><a href="https://github.com/theodorecreatesco/vibe-coding-rules-starter/blob/HEAD/.cursor/rules/security.mdc" rel="external">View raw on GitHub</a></p>
+</section>
+<section><h2>Why this is listed</h2>
+<p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
+<section><h2>Similar in this tracker</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/r/J-nowcow/awesome-korean-agent-skills/">J-nowcow/awesome-korean-agent-skills (stars:53)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/Aaditya1273/Agent.md/">Aaditya1273/Agent.md (stars:11)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/squadsquidcry/Cursor-Desktop-2026/">squadsquidcry/Cursor-Desktop-2026 (stars:1)</a></li>
+</ul></section>
+<section><h2>Explore by category</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/popular/">Popular (by stars)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/recent/">Recent (by activity)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/new/">New this week</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/lang/x/">All — entries</a></li>
+</ul></section>
+</main>
+<footer>
+Auto-updated every 15 minutes via GitHub Actions &#183; <a href="https://linny006.github.io/cursor-rules-live/">tracker root</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/sitemap.xml">sitemap</a>
+</footer>
+</div>
+</body>
+</html>

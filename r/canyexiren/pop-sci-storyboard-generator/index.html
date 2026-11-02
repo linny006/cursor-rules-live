@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<title>canyexiren/pop-sci-storyboard-generator - entry on Cursor Rules Live</title>
+<meta name="description" content="30秒科普拟人分镜提示词生成器 · 跨平台通用 Agent Skill (Claude Code / Cursor / Codex / Cline / Copilot)">
+<link rel="canonical" href="https://linny006.github.io/cursor-rules-live/r/canyexiren/pop-sci-storyboard-generator/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="canyexiren/pop-sci-storyboard-generator - entry on Cursor Rules Live">
+<meta property="og:description" content="30秒科普拟人分镜提示词生成器 · 跨平台通用 Agent Skill (Claude Code / Cursor / Codex / Cline / Copilot)">
+<meta property="og:url" content="https://linny006.github.io/cursor-rules-live/r/canyexiren/pop-sci-storyboard-generator/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="canyexiren/pop-sci-storyboard-generator - entry on Cursor Rules Live">
+<meta name="twitter:description" content="30秒科普拟人分镜提示词生成器 · 跨平台通用 Agent Skill (Claude Code / Cursor / Codex / Cline / Copilot)">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"canyexiren/pop-sci-storyboard-generator","codeRepository":"https://github.com/canyexiren/pop-sci-storyboard-generator","programmingLanguage":"Shell","url":"https://linny006.github.io/cursor-rules-live/r/canyexiren/pop-sci-storyboard-generator/","description":"30秒科普拟人分镜提示词生成器 · 跨平台通用 Agent Skill (Claude Code / Cursor / Codex / Cline / Copilot)","author":{"@type":"Person","name":"canyexiren","url":"https://github.com/canyexiren"},"dateModified":"2026-11-01"}</script>
+<style>:root { --max: 880px; --fg: #1f2328; --muted: #59636e; --bg: #ffffff;
+         --link: #0969da; --border: #d1d9e0; --card: #f6f8fa; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 16px; font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--fg); background: var(--bg); }
+.wrap { max-width: var(--max); margin: 0 auto; }
+nav.bc { font-size: 14px; color: var(--muted); margin-bottom: 16px; }
+nav.bc a { color: var(--muted); }
+h1 { font-size: 28px; margin: 0 0 8px; }
+h2 { font-size: 20px; margin: 24px 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+p.lead { font-size: 18px; color: var(--muted); margin: 0 0 24px; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+th, td { padding: 8px 12px; text-align: left; border-bottom: 1px solid var(--border); }
+th { background: var(--card); font-weight: 600; }
+ul.crosslinks { list-style: none; padding: 0; }
+ul.crosslinks li { padding: 6px 0; }
+ul.crosslinks li a { font-weight: 500; }
+.meta { display: flex; gap: 16px; flex-wrap: wrap; color: var(--muted); font-size: 14px; margin: 12px 0; }
+.meta span::before { content: "\00b7"; margin-right: 8px; color: var(--border); }
+.meta span:first-child::before { content: ""; }
+footer { margin: 40px 0 16px; padding-top: 16px; border-top: 1px solid var(--border); font-size: 14px; color: var(--muted); }</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="bc"><a href="https://linny006.github.io/cursor-rules-live/">Cursor Rules Live</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/popular/">Entries</a> &#183; <span>canyexiren/pop-sci-storyboard-generator</span></nav>
+<main>
+<h1>canyexiren/pop-sci-storyboard-generator</h1>
+<p class="lead">30秒科普拟人分镜提示词生成器 · 跨平台通用 Agent Skill (Claude Code / Cursor / Codex / Cline / Copilot)</p>
+<div class="meta">
+<span><strong>Stars</strong> 0</span>
+<span><strong>Language</strong> Shell</span>
+<span><strong>Last updated</strong> 2026-11-01</span>
+<span><a href="https://github.com/canyexiren/pop-sci-storyboard-generator" rel="external">Source on GitHub</a></span>
+<span><a href="https://github.com/canyexiren" rel="external">@canyexiren</a></span>
+</div>
+<section id="rules"><h2>Actual rules from this repo</h2>
+<p>Path in source repo: <code>.cursor/rules/pop-sci-storyboard-generator.mdc</code> &middot; format: <code>mdc</code></p>
+<pre style="background:var(--card);padding:16px;border-radius:6px;overflow:auto;max-height:600px;font-size:13px;line-height:1.5;border:1px solid var(--border);"><code>---
+description: 30秒科普拟人分镜提示词生成器。当用户提供自然、生物、历史、科学等科普文案，要求生成30秒短视频分镜、AI视频画面提示词、科普视频脚本，或指定外国真人与拟人化生物同框解说时触发。
+globs: 
+alwaysApply: false
+---
+
+# 30秒科普拟人分镜提示词生成器 (pop-sci-storyboard-generator)
+
+将输入的科普文案自动拆解并转化为30秒时长的AI视频分镜脚本与画面提示词，统一采用「外国真人专家主讲 + 拟人化生物配合解说」的成人向硬核科普纪实风格，输出可直接复制用于AI视频与绘图生成的标准化提示词。
+
+## When to Use
+
+- 用户提供自然、生物、历史、科学等领域的科普文案，要求生成视频分镜、画面提示词或AI视频脚本。
+- 用户希望制作抖音、快手等平台的30秒科普短视频或AI动画科普分镜策划。
+- 用户要求画面包含「外国真人主讲人 + 拟人化动植物/微生物/自然生物角色」共同出镜解说。
+
+## Workflow Steps
+
+1. **提取核心叙事节点**：接收用户的科普文案，提炼开篇强视觉钩子与核心知识点，适配30秒短视频紧凑节奏。
+2. **拆分6个连续镜头**：将文案拆分为6个连续镜头（特殊情况可微调为5-7个），单镜头时长控制在4-6秒，总时长严格锁定为30秒。
+3. **角色与镜头要素匹配**：为每个镜头设定贴合主题的外国真人专业人士形象、中度拟人化的生物角色、匹配文案的环境光影以及专业镜头语言。
+4. **输出标准化分镜**：按固定四项结构输出每条分镜，附加画面负面禁止项说明，确保画面描述可直接用于AI视频生成工具。
+
+## Core Rules and Standards
+
+### 1. 基础设定规则
+
+- **时长与节奏**：总时长严格控制为30秒，标准拆分为6个镜头，单镜头4-6秒。第1个镜头必须制造视觉反差或悬念，快速抓住观众注意力；镜头间转场自然，知识点层层递进。
+- **主讲人设定**：固定为外国专业人士（根据文案主题匹配植物学家、考古学家、自然学者、古生物学家、微生物学家等身份），写实真人形象，着装贴合场景，面部自然清晰，采用「出镜讲解 + 旁白补充」结合的方式。
+- **拟人角色设定**：文案中出现的动植物、微生物或自然事物，全部做中度拟人化处理（保留物种本体外形特征，添加拟人化表情与肢体动作，可开口配合解说，与主讲人互动或单独演示知识点）。风格写实不低幼，与真人画面自然融合，适配成人科普受众。
+- **文案贴合度**：所有画面100%匹配对应文案内容，严格遵循原文案的叙事顺序与知识点，不新增脱离文案的无关剧情。
+
+### 2. 单条分镜输出格式（每个镜头必须包含以下4项）
+
+- **镜头编号+时长**：格式如「镜头1（0-5s）」。
+- **对应文案**：摘录该镜头覆盖的原文案原句（若文案仅提供开篇片段，末尾镜头可标注「承接悬念引出下文」）。
+- **画面提示词**：整合为一段可直接复制的提示词，必须涵盖以下4个维度：
+  - 主体：外国主讲人身份/外貌/动作/神态 + 拟人生物的外形/动作/互动细节。
+  - 场景：完整环境描述，包含光影、氛围、道具细节。
+  - 镜头语言：明确景别（全景/中景/近景/特写）与镜头运动（推/拉/摇/移/固定）。
+  - 画质风格：电影级科普纪实质感，8K超清，杜比光影，写实渲染，色调统一高级。
+- **解说台词**：对应文案的口语化解说内容，适配正常语速。
+
+### 3. 负面禁止项（Negative Constraints）
+
+生成画面提示词时，严格规避并在必要时附带以下负面约束：
+
+- 禁止出现汉字、中文标识、水印、字幕。
+- 禁止人物五官畸变、肢体异常、生物解剖结构错误。
+- 禁止画面模糊、低像素、色彩溢出、过曝或欠曝。
+- 禁止低幼卡通画风、脱离文案的原创剧情、无关人物与场景。
+
+## Few-Shot Example
+
+**输入文案片段**：
+推开埃及法老的墓门，在满世黄金里，你会发现一件寒碜的陪葬品，一小篮精心封存的西瓜子。法老之所以要在通往冥界的旅途上带一把瓜子，是因为在干旱的死亡国度里，再多黄金也换不来一口水，但这颗西瓜能。
+
+**输出分镜**：
+
+**镜头1（0-5s）**
+
+- **对应文案**：推开埃及法老的墓门，在满世黄金里
+- **画面提示词**：埃及考古学家（外国中年男性，穿探险工装，手持手电筒）站在法老墓门前，双手推开厚重的石门；墓室内金光闪烁，堆满黄金陪葬品，尘埃在光束中浮动；全景推进镜头，电影级暗调光影，神秘史诗感，8K超清写实渲染，无文字无水印
+- **解说台词**：推开埃及法老的墓门，遍地黄金之中
+
+**镜头2（5-10s）**
+
+- **对应文案**：你会发现一件寒碜的陪葬品，一小篮精心封存的西瓜子
+- **画面提示词**：中景镜头，外国考古学家蹲下身，手电筒光束聚焦在角落的一小篮西瓜子上；他面露疑惑，伸手轻轻触碰篮子；周围是耀眼的黄金器皿，与朴素的瓜子篮形成强烈对比；暖黄手电光，电影级科普纪实写实质感，8K超清
+- **解说台词**：藏着一件最寒酸的陪葬品，一小篮西瓜子
+
+**镜头3（10-15s）**
+
+- **对应文案**：法老之所以要在通往冥界的旅途上带一把瓜子
+- **画面提示词**：拟人化的西瓜籽角色（棕黑色外壳，带细小四肢和认真表情，抱着迷你水囊）悬浮在画面中，对着镜头点头讲解；背景虚化法老墓室的壁画；近景固定镜头，半写实拟人风格，光影柔和，8K超清写实渲染
+- **解说台词**：法老去往冥界的旅途，为什么非要带上它？
+
+**镜头4（15-20s）**
+
+- **对应文案**：是因为在干旱的死亡国度里，再多黄金也换不来一口水
+- **画面提示词**：切换到沙漠全景，烈日下的埃及荒漠寸草不生，遍地黄金散落在沙地中却无人问津；外国考古学家站在沙丘上，拿着空水壶摇晃；广角固定镜头，亮调强光，凸显干旱荒芜感，电影级杜比光影，8K超清
+- **解说台词**：因为在干旱的死亡之地，黄金换不来半口水
+
+**镜头5（20-25s）**
+
+- **对应文案**：但这颗西瓜能
+- **画面提示词**：特写转中景，一颗饱满的野生西瓜从沙丘后滚出，拟人化地眨了眨眼，表皮渗出细密水珠；外国考古学家惊喜地蹲下身，伸手接住西瓜；侧光打在瓜皮上，水润质感拉满；推镜头，电影级光影，8K超清写实渲染
+- **解说台词**：但一颗西瓜，就能成为移动水囊
+
+**镜头6（25-30s）**
+
+- **对应文案**：承接悬念引出下文
+- **画面提示词**：中景镜头，外国考古学家与拟人西瓜并肩站在沙漠中，西瓜抬手做出引导手势；背景是绵延的非洲荒原；画面末尾留出自然留白；固定镜头，暖金色调收尾，电影级纪实质感，8K超清
+- **解说台词**：这颗瓜，是怎么从剧毒野果变成夏日神果的？
+
+## Gotchas
+
+- **避免过度卡通化**：拟人生物必须保持物种真实肌理（如羽毛、表皮、外骨骼、细胞膜质感），仅在表情和肢体动作上做中度拟人，严禁写成2D扁平卡通或低幼玩偶。
+- **保持主讲人一致性**：6个镜头中凡是主讲人出镜的画面，其身份、年龄段与服装描述需保持前后一致（例如统一描述为「外国中年男性考古学家，穿卡其色探险工装」），方便AI生图/生视频保持角色一致性。
+- **严控总时长**：所有镜头的时间轴起止点必须严丝合缝（如 0-5s、5-10s...25-30s），最终准确收尾于30s。
+</code></pre>
+<p><a href="https://github.com/canyexiren/pop-sci-storyboard-generator/blob/HEAD/.cursor/rules/pop-sci-storyboard-generator.mdc" rel="external">View raw on GitHub</a></p>
+</section>
+<section><h2>Why this is listed</h2>
+<p>This repository appears on Cursor Rules Live because it matches the tracker's GitHub Search criteria (cursor-rules) and was active in the recent indexing window. The tracker refreshes every 15 minutes, so the metadata above reflects the state at the most recent index pass. If the data here looks stale, the source repository may have been archived or moved out of the tracked topic; the next cron tick will reconcile.</p></section>
+<section><h2>Similar in this tracker</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/r/danielvm-git/bigpowers/">danielvm-git/bigpowers (stars:286)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/mikeprasad/aria-knowledge/">mikeprasad/aria-knowledge (stars:17)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/r/sscodeai/agency-agents-ja/">sscodeai/agency-agents-ja (stars:10)</a></li>
+</ul></section>
+<section><h2>Explore by category</h2>
+<ul class="crosslinks">
+<li><a href="https://linny006.github.io/cursor-rules-live/popular/">Popular (by stars)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/recent/">Recent (by activity)</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/new/">New this week</a></li>
+<li><a href="https://linny006.github.io/cursor-rules-live/lang/shell/">All Shell entries</a></li>
+</ul></section>
+</main>
+<footer>
+Auto-updated every 15 minutes via GitHub Actions &#183; <a href="https://linny006.github.io/cursor-rules-live/">tracker root</a> &#183; <a href="https://linny006.github.io/cursor-rules-live/sitemap.xml">sitemap</a>
+</footer>
+</div>
+</body>
+</html>
